@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "86e5fe82-19f5-482c-80c7-fcd090704d60",
+    "response_id": "chatcmpl-EV1y5udpEEeSROzlubNrH8cQvhvt2",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5611,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5608,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5879
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Main text, paragraph beginning “As we step back…”",
+        "severity": "major",
+        "source_quote": "“who will be the best option to lead the country after the upcoming election.”",
+        "suggested_fix": "Translate “after the upcoming election” as آنے والے انتخابات کے بعد, rather than انتخابات کے بعد, so the timing remains explicit.",
+        "translation_quote": "“آنے والے انتخابات کے بعد ملک کی قیادت کے لیے کون بہتر انتخاب ہوگا۔”"
+      },
+      {
+        "location": "Main text, paragraph beginning “As Christians…”",
+        "severity": "major",
+        "source_quote": "“we have HOPE!”",
+        "suggested_fix": "Translate this affirmation as “ہمیں امید ہے!” or “ہم امید رکھتے ہیں!”; avoid wording that means “we need hope.”",
+        "translation_quote": "“ہمیں امید ہے!”"
+      },
+      {
+        "location": "Main text, first numbered point",
+        "severity": "major",
+        "source_quote": "“This is according to His fact, not according to our feeling.”",
+        "suggested_fix": "Translate “His fact” as “اس کی حقیقت” (or an equivalent phrase meaning God’s fact/reality), not “the fact of this matter.”",
+        "translation_quote": "“یہ بات ہمارے احساس کے مطابق نہیں بلکہ اس کی حقیقت کے مطابق ہے۔”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

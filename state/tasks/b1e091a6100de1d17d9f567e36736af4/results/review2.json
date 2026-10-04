@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d4120d1f-c3a6-4454-9acc-f09107356add",
+    "response_id": "chatcmpl-EV1yBELD7kWfaqJSnnGPVioUPWPg8",
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 801,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4337,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5285
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "הפסקה האחרונה, רשימת התיאוריות",
+        "severity": "major",
+        "source_quote": "They blindly cling to various theories such as: The Big Bang, Punctuated Equilibrium, and Descent with Modification.",
+        "suggested_fix": "החליפו את „מוצא עם שינויים” ב„מוצא תוך כדי שינוי” כדי לשמר את משמעות המונח Descent with Modification.",
+        "translation_quote": "המפץ הגדול, שיווי משקל מקוטע, ומוצא עם שינויים"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

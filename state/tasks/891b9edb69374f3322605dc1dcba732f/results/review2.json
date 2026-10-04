@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d3a90bad-f1c0-4039-9e0a-3e24cb291a6e",
+    "response_id": "chatcmpl-EV1yQD5CTgUab3eXHKu7ap7zjuVx7",
+    "usage": {
+      "completion_tokens": 470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6845
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph on Hebrew music history",
+        "severity": "major",
+        "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
+        "suggested_fix": "Replace the paragraph’s opening clause with «عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔» The translation should state that the Hebrews started the tradition, rather than that the tradition started without identifying who began it.",
+        "translation_quote": "عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔"
+      },
+      {
+        "location": "source.html, Philippians 4:8 quotation",
+        "severity": "major",
+        "source_quote": "… whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things –Philippians 4:8.",
+        "suggested_fix": "Change the quotation’s opening to «… جو کچھ سچ ہے، جو کچھ باعزت ہے، جو کچھ انصاف پر مبنی ہے، جو کچھ پاک ہے، جو کچھ پسندیدہ ہے، جو کچھ نیک نام ہے؛ اگر کوئی فضیلت ہو اور اگر کوئی تعریف کی بات ہو تو اِن ہی باتوں پر غور کرو۔ –فلپیوں 4:8۔» This restores the source’s distinctions for “honest” and “just,” and its second-person plural imperative.",
+        "translation_quote": "… جو کچھ سچ ہے، جو کچھ شریف ہے، جو کچھ راست ہے، جو کچھ پاک ہے، جو کچھ پسندیدہ ہے، جو کچھ نیک نام ہے؛ اگر کوئی فضیلت ہو اور اگر کوئی تعریف کی بات ہو تو اِن ہی باتوں پر غور کیا کرو۔ –فلپیوں 4:8۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

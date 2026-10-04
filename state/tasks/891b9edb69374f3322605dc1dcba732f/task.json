@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 10564
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 470,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6375,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6372,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6845
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph beginning “عبرانیوں نے 70ء...”",
+      "location": "source.html, paragraph on Hebrew music history",
       "severity": "major",
       "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
-      "suggested_fix": "Translate the sentence so it says the Hebrews began the tradition after the Second Temple fell in 70 A.D., when instruments were not permitted during a period of mourning. For example: «عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔»",
-      "translation_quote": "عبرانیوں نے 70ء میں دوسرے ہیکل کی تباہی کے بعد ساتھ کے بغیر موسیقی استعمال کرنے کی روایت شروع کی؛ تباہی کے بعد ماتم کے ایک دور میں سازوں کی اجازت نہیں تھی۔"
+      "suggested_fix": "Replace the paragraph’s opening clause with «عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔» The translation should state that the Hebrews started the tradition, rather than that the tradition started without identifying who began it.",
+      "translation_quote": "عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔"
     },
     {
-      "location": "Article, paragraph beginning “پالسترینا انداز”",
+      "location": "source.html, Philippians 4:8 quotation",
       "severity": "major",
-      "source_quote": "‘The Palestrina Style,’ as it is called, was a sophisticated A cappella form using many voices singing with different music and text coming in at different times.",
-      "suggested_fix": "Correct the description to say that the different musical lines and texts enter at different times, rather than saying the voices themselves start at different times: «”پالسترینا انداز“، جیسا کہ اسے کہا جاتا ہے، اے کیپیلا کی ایک پیچیدہ صورت تھی جس میں بہت سی آوازیں مختلف موسیقی اور متن گاتی تھیں، جو مختلف اوقات میں شروع ہوتے تھے۔»",
-      "translation_quote": "”پالسترینا انداز“، جیسا کہ اسے کہا جاتا ہے، اے کیپیلا کی ایک پیچیدہ صورت تھی جس میں بہت سی آوازیں مختلف موسیقی اور متن گاتی تھیں، اور وہ مختلف اوقات میں شروع ہوتے تھے۔"
-    },
-    {
-      "location": "Article, paragraph beginning “کلسیوں کا خط بھی”",
-      "severity": "major",
-      "source_quote": "Colossians also tells us that we should Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord –Colossians 3:16.",
-      "suggested_fix": "Restore the omitted instruction to let Christ’s word dwell richly in the readers, and render the concluding phrase as singing with grace in their hearts to the Lord. For example: «مسیح کے کلام کو ساری حکمت کے ساتھ اپنے اندر کثرت سے بسنے دو؛ زبور، حمدیہ گیت اور روحانی گیتوں کے ذریعے ایک دوسرے کو تعلیم دو اور نصیحت کرو، اور اپنے دلوں میں فضل کے ساتھ خداوند کے لیے گاؤ۔ –کلسیوں 3:16۔»",
-      "translation_quote": "مسیح کے کلام کو اپنے دلوں میں کثرت سے بسنے دو؛ اور کمال دانائی سے آپس میں تعلیم اور نصیحت کرو اور اپنے دلوں میں خدا کے لیے شکرگزاری کے ساتھ زبور اور گیت اور روحانی غزلیں گایا کرو۔ –کلسیوں 3:16۔"
+      "source_quote": "… whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things –Philippians 4:8.",
+      "suggested_fix": "Change the quotation’s opening to «… جو کچھ سچ ہے، جو کچھ باعزت ہے، جو کچھ انصاف پر مبنی ہے، جو کچھ پاک ہے، جو کچھ پسندیدہ ہے، جو کچھ نیک نام ہے؛ اگر کوئی فضیلت ہو اور اگر کوئی تعریف کی بات ہو تو اِن ہی باتوں پر غور کرو۔ –فلپیوں 4:8۔» This restores the source’s distinctions for “honest” and “just,” and its second-person plural imperative.",
+      "translation_quote": "… جو کچھ سچ ہے، جو کچھ شریف ہے، جو کچھ راست ہے، جو کچھ پاک ہے، جو کچھ پسندیدہ ہے، جو کچھ نیک نام ہے؛ اگر کوئی فضیلت ہو اور اگر کوئی تعریف کی بات ہو تو اِن ہی باتوں پر غور کیا کرو۔ –فلپیوں 4:8۔"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "891b9edb69374f3322605dc1dcba732f",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "urd",
@@ -179,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

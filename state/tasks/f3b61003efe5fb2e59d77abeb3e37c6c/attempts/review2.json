@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraf tentang gereja-gereja masa kini\",\"severity\":\"major\",\"source_quote\":\"It is no wonder that many churches of today are accepting drift.\",\"suggested_fix\":\"Ganti frasa yang keliru dengan terjemahan yang mempertahankan makna “accepting drift”, misalnya: “Tidak heran jika banyak gereja masa kini menerima kemerosotan.”\",\"translation_quote\":\"Tidak heran jika banyak gereja masa kini menerima penyimpangan.\"},{\"location\":\"source.html, paragraf tentang gereja besar\",\"severity\":\"major\",\"source_quote\":\"the dancing was pushing my limits.\",\"suggested_fix\":\"Ubah menjadi ungkapan yang berarti bahwa tarian itu menguji batas kesabaran atau ketahanan penulis, misalnya: “tarian mereka semakin menguji batas kesabaran saya.”\",\"translation_quote\":\"tarian mereka semakin menguji batas kesabaran saya.\"},{\"location\":\"source.html, paragraf tentang buah Roh\",\"severity\":\"major\",\"source_quote\":\"the fruit of a suffering man, a person that has been giving his all, and desires to give his all to the Lamb that was slain.\",\"suggested_fix\":\"Pertahankan gagasan bahwa buah itu adalah buah dari orang yang menderita dan telah memberikan serta ingin terus memberikan segalanya kepada Anak Domba yang telah disembelih. Terjemahan saat ini menambahkan bahwa orang itu “ingin memberikan seluruh dirinya”, tetapi menghilangkan hubungan eksplisit dengan “telah memberikan seluruh dirinya” hanya sebagian; sesuaikan agar kedua aspek itu jelas.\",\"translation_quote\":\"Saya percaya inilah buah dari seorang yang menderita, seseorang yang telah memberikan seluruh dirinya dan ingin memberikan seluruh dirinya kepada Anak Domba yang telah disembelih.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1710,
+    "content_evidence_truncated": false,
+    "content_sha256": "667de076861854c47db23f00df0a47fbbdf2a86622b636f3c3624cc91f9c254b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8773,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9152
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

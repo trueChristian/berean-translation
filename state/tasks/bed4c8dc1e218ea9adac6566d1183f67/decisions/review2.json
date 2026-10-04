@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Romans 1:18 quotation",
+      "severity": "major",
+      "source_quote": "“against all the godlessness and wickedness of people”",
+      "suggested_fix": "Change «impiedad e injusticia» to «impiedad y maldad» to preserve the printed meaning of “wickedness.”",
+      "translation_quote": "«contra toda impiedad e injusticia de quienes con su maldad reprimen la verdad»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

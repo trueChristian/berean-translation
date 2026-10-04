@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza, first line",
+      "severity": "minor",
+      "source_quote": "He was never well-liked; despised by all men;",
+      "suggested_fix": "Hy was nooit gewild nie; deur almal verag;",
+      "translation_quote": "Hy was nooit geliefd nie; deur almal verag;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

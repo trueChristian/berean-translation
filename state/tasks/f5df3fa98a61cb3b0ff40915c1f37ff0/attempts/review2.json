@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraphe sur Philippiens 4:8\",\"severity\":\"major\",\"source_quote\":\"“whatsoever things are of good report”\",\"suggested_fix\":\"Remplacer « tout ce qui mérite l’approbation » par « tout ce qui est de bonne réputation » afin de préserver le sens imprimé.\",\"translation_quote\":\"« tout ce qui mérite l’approbation »\"},{\"location\":\"Article, paragraphe sur Philippiens 4:8\",\"severity\":\"major\",\"source_quote\":\"“if there be any virtue, and if there be any praise, think on these things”\",\"suggested_fix\":\"Traduire fidèlement la formulation imprimée, par exemple : « s’il y a quelque vertu et quelque sujet de louange, pensez à ces choses ».\",\"translation_quote\":\"« s’il y a quelque vertu et quelque sujet de louange, que cela occupe vos pensées »\"},{\"location\":\"Article, citation d’Éphésiens 5:19\",\"severity\":\"major\",\"source_quote\":\"“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord”\",\"suggested_fix\":\"Remplacer la citation par une traduction fidèle de la phrase imprimée, par exemple : « Vous entretenant par des psaumes, des hymnes et des chants spirituels, chantant et faisant mélodie dans votre cœur au Seigneur ». Conserver la référence Éphésiens 5:19.\",\"translation_quote\":\"« Entretenez-vous par des psaumes, des hymnes et des cantiques spirituels, chantant et célébrant de tout votre cœur les louanges du Seigneur »\"},{\"location\":\"Article, citation d’Actes 16:25\",\"severity\":\"major\",\"source_quote\":\"“And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them”\",\"suggested_fix\":\"Rendre explicitement « at midnight » par « à minuit » et conserver le sens imprimé de la prière et des louanges, par exemple : « À minuit, Paul et Silas priaient et chantaient des louanges à Dieu, et les prisonniers les entendaient ». Conserver Actes 16:25.\",\"translation_quote\":\"« Vers le milieu de la nuit, Paul et Silas priaient et chantaient les louanges de Dieu, et les prisonniers les entendaient »\"},{\"location\":\"Article, citation de Colossiens 3:16\",\"severity\":\"major\",\"source_quote\":\"“teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord”\",\"suggested_fix\":\"Traduire la formulation imprimée sans ajouter « en toute sagesse » ni remplacer « avec grâce » par une autre idée, par exemple : « vous enseignant et vous avertissant les uns les autres par des psaumes, des hymnes et des chants spirituels, chantant avec grâce dans vos cœurs au Seigneur ». Conserver Colossiens 3:16.\",\"translation_quote\":\"« instruisez-vous et avertissez-vous les uns les autres en toute sagesse, par des psaumes, des hymnes, des cantiques spirituels ; chantez à Dieu dans vos cœurs sous l’inspiration de la grâce »\"},{\"location\":\"Article, citation de Jean 4:23\",\"severity\":\"major\",\"source_quote\":\"“for the Father seeketh such to worship him”\",\"suggested_fix\":\"Remplacer « car ce sont là les adorateurs que le Père demande » par une traduction du sens imprimé, par exemple : « car le Père cherche de tels adorateurs ». Conserver Jean 4:23.\",\"translation_quote\":\"« car ce sont là les adorateurs que le Père demande »\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 3325,
+    "content_evidence_truncated": false,
+    "content_sha256": "52235c05233b0e18317b42d4cac54eb2f5ad01e07e6597395a317f2d386d21d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6713
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

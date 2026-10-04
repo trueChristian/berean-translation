@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 1 Corinthians 15:19 quotation",
+      "severity": "major",
+      "source_quote": "If in this life only we have hope in Christ, we are of all men most miserable",
+      "suggested_fix": "Revise the quotation to preserve the conditional meaning “if our hope in Christ is only for this life” and the resulting state of being “most pitiable,” for example: “Kama tumaini letu katika Kristo ni la maisha haya tu, sisi tu wa kusikitikiwa kuliko watu wote.”",
+      "translation_quote": "Kama katika maisha haya tu tunamtumaini Kristo, sisi ni wa kusikitikiwa kuliko watu wote"
+    },
+    {
+      "location": "HTML, numbered point 2",
+      "severity": "major",
+      "source_quote": "Each of us WILL fall into temptations",
+      "suggested_fix": "Change “tutaangukia” to a faithful equivalent of falling into temptation/trials, such as “atakumbwa na majaribu,” preserving that each person will encounter them.",
+      "translation_quote": "Kila mmoja wetu ATAANGUKIA katika majaribu"
+    },
+    {
+      "location": "HTML, closing paragraph, final sentence",
+      "severity": "major",
+      "source_quote": "our Abba Father",
+      "suggested_fix": "Translate “Abba Father” as “Baba yetu Abba” (or another clear Kiswahili rendering that retains the intimate address “Abba”), rather than leaving the substantive title untranslated.",
+      "translation_quote": "Baba yetu Abba"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

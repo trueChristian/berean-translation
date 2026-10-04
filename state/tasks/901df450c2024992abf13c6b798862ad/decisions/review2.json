@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Psalm 127:4 explanation",
+      "severity": "major",
+      "source_quote": "“our children will have the potential to outlive us both in years and in usefulness.”",
+      "suggested_fix": "Replace “kunnen onze kinderen ons overtreffen, zowel in levensjaren als in bruikbaarheid” with “kunnen onze kinderen ons overleven, zowel in levensduur als in dienstbaarheid” to preserve the idea that they may live longer and remain useful longer.",
+      "translation_quote": "“kunnen onze kinderen ons overtreffen, zowel in levensjaren als in bruikbaarheid.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

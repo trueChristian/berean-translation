@@ -2,7 +2,6 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 16686
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "শেষের ‘…পিতামাতা’ অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "will sooner or later be walking through the broad gate to destruction.",
-      "suggested_fix": "তারা শীঘ্রই হোক বা পরে, ধ্বংসের প্রশস্ত ফটক দিয়ে চলবে।",
-      "translation_quote": "তারা sooner or later ধ্বংসের প্রশস্ত ফটক দিয়ে চলবে।"
     },
     {
-      "location": "প্রথম lead অনুচ্ছেদের প্রথম বাক্য",
-      "severity": "minor",
-      "source_quote": "Of all the word pictures painted by our Lord, it seems this one remains, for the most part, unexplored.",
-      "suggested_fix": "আমাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে, মনে হয়, এই চিত্রটিই বেশির ভাগ ক্ষেত্রে এখনও অনাবিষ্কৃত রয়ে গেছে।",
-      "translation_quote": "হে প্রভু যে সব চিত্রকল্প এঁকেছেন, সেগুলোর মধ্যে মনে হয়, বেশির ভাগই এখনও অনাবিষ্কৃত রয়ে গেছে।"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 767,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 652,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10541,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10538,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11308
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Final paragraph, “Subjection Produces Spiritual Authority”",
+      "severity": "major",
+      "source_quote": "It brings power unto people rather than power over people.",
+      "suggested_fix": "Replace the sentence with: “এটি মানুষের ওপর ক্ষমতা নয়, বরং মানুষের জন্য ক্ষমতা আনে।”",
+      "translation_quote": "এটি মানুষকে উপর কর্তৃত্ব নয়, বরং মানুষের জন্য শক্তি আনে।"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "63b7f011a6f179c53761e6f091b23588",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

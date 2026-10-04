@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3de5354d-4cfe-48df-ae30-100225e32de6",
+    "response_id": "chatcmpl-EV1yNZBYOKT76tHrjpz0J5iHm7OAd",
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 725,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14982,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15978
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “By the end of the first week”",
+        "severity": "minor",
+        "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+        "suggested_fix": "راجع معنى “paddies” في السياق، واستبدل «عصياته الصغيرة» بلفظ عربي يطابق الشيء الذي كان يقدمه لوالديه؛ فـ«عصيات» تعني عيدانًا صغيرة.",
+        "translation_quote": "«وكان يقدم لكل منا أنا وستيرلينغ إحدى عصياته الصغيرة ليمسكها أثناء أكله»"
+      },
+      {
+        "location": "Paragraph beginning “That week was tough”",
+        "severity": "minor",
+        "source_quote": "“He writhed, he gagged, he cried.”",
+        "suggested_fix": "استبدل «وتقيأ» بتعبير يفيد أنه كان يتقيأ أو يكاد يتقيأ/يشهق من الغثيان، مثل «وتلوى، وتقيّأ أو تهوّع، وبكى»، بحسب المعنى المقصود.",
+        "translation_quote": "«وتلوى، وتقيأ، وبكى»"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

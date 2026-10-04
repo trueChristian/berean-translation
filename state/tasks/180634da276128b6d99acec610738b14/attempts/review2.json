@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, troisième strophe, deuxième vers\",\"severity\":\"minor\",\"source_quote\":\"Not seeking money and friends or trying to succeed.\",\"suggested_fix\":\"Il ne cherchait ni l’argent ni les amis, et ne cherchait pas non plus à réussir.\",\"translation_quote\":\"Il ne cherchait ni argent ni amis, et ne voulait pas réussir.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 371,
+    "content_evidence_truncated": false,
+    "content_sha256": "cfd9ba4bd3be37efb57ef30ff2a1325939a155d09b3614615314f9ec73b69962",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 555,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2554
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

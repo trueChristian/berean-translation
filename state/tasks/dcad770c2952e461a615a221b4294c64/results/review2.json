@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "addaa2c3-0636-43cc-a287-10579386d5b3",
+    "response_id": "chatcmpl-EV1ynNE0eYQohVTpNfG52X0yeYWyY",
+    "usage": {
+      "completion_tokens": 939,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 808,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5726,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6668
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "This is a problem since most secular music is evil and promotes things that God hates.",
+        "suggested_fix": "Vervang ‘slecht’ door ‘kwaad’: ‘Dat is een probleem, omdat de meeste seculiere muziek kwaad is en dingen bevordert die God haat.’",
+        "translation_quote": "Dat is een probleem, omdat de meeste seculiere muziek slecht is en dingen bevordert die God haat."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

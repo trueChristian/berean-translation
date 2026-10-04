@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 13625
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 307,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8546,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8543,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8853
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “Hopefully, you have nurtured a relationship…”",
+      "location": "HTML, paragraph beginning “Jihadhari na dalili…”",
+      "severity": "major",
+      "source_quote": "“Be aware of evidence of conviction.”",
+      "suggested_fix": "Replace “Jihadhari na dalili za hatia ya dhambi” with “Zingatia dalili za kushawishiwa moyoni na kutambua dhambi.” This conveys conviction rather than guilt.",
+      "translation_quote": "“Jihadhari na dalili za hatia ya dhambi.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Ni matumaini yangu…”",
       "severity": "major",
       "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”",
-      "suggested_fix": "Replace “kuvunjika moyo” with wording that conveys humble contrition, such as “unyenyekevu na toba,” so the sentence does not imply discouragement or heartbreak.",
-      "translation_quote": "“Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye kuvunjika moyo na toba, na kupokea wokovu kwa imani katika Kristo.”"
-    },
-    {
-      "location": "Paragraph beginning “It is important to worship in a church that you can support…”",
-      "severity": "major",
-      "source_quote": "“Many children have been lost to the faith because mom and dad were not supportive of the church where they were worshipping.”",
-      "suggested_fix": "Revise “wamepoteza imani” to convey that children have been lost from, or drawn away from, the faith—for example, “watoto wengi wamepotea kutoka katika imani.”",
-      "translation_quote": "“Watoto wengi wamepoteza imani kwa sababu mama na baba hawakuliunga mkono kanisa walimokuwa wakiabudu.”"
-    },
-    {
-      "location": "Paragraph beginning “Our first responsibility in evangelization…”",
-      "severity": "minor",
-      "source_quote": "“If we cannot evangelize our children, how can we expect to win others to the Lord?”",
-      "suggested_fix": "Use wording for sharing or bringing the gospel to the children, such as “Ikiwa hatuwezi kuwafikishia watoto wetu injili,” rather than wording that specifically means preaching to them.",
-      "translation_quote": "“Ikiwa hatuwezi kuwahubiria watoto wetu, tunawezaje kutarajia kuwaongoza wengine kwa Bwana?”"
+      "suggested_fix": "Replace “Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye hali ya kujinyenyekeza na kutubu, na kupokea wokovu kwa imani katika Kristo” with “Tulitambua dalili za kushawishiwa moyoni na kutambua dhambi, tukawaongoza kwenye hali ya kuvunjika moyo kwa ajili ya dhambi na kutubu, na kupokea wokovu kwa imani katika Kristo.”",
+      "translation_quote": "“Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye hali ya kujinyenyekeza na kutubu, na kupokea wokovu kwa imani katika Kristo.”"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "aaa99e3b991fc9db2a13116abed2e74b",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -179,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "The Apostle Peter said that … –2 Timothy 1:7.",
+      "suggested_fix": "رسول پطرس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>",
+      "translation_quote": "رسول پولس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stycket som börjar ”Vi ska snart tala om Andens frukt”; citatet från Lukas 2:52\",\"severity\":\"major\",\"source_quote\":\"“…in wisdom and stature, and in favour with God and man –Luke 2:52.”\",\"suggested_fix\":\"Ersätt citatet med: ”… i vishet och ålder och välbehag inför Gud och människor – Lukasevangeliet 2:52.”\",\"translation_quote\":\"“… i vishet och ålder och välbehag inför Gud och människor – Lukasevangeliet 2:52.”\"},{\"location\":\"Stycket som börjar ”När någon kommer och säger att han eller hon har blivit omvänd”\",\"severity\":\"major\",\"source_quote\":\"“non-conformity, non-resistance, and such like”\",\"suggested_fix\":\"Ändra endast ”icke-motstånd” till ”icke-våld” så att termen återger den kristna läran non-resistance i sitt sammanhang.\",\"translation_quote\":\"”att inte anpassa sig till världen, icke-motstånd och liknande”\"},{\"location\":\"Stycket som börjar ”Bibel säger att … Andens frukt”\",\"severity\":\"major\",\"source_quote\":\"“faith, meekness, temperance”\",\"suggested_fix\":\"Ändra uppräkningens sista tre led till ”tro, saktmod och återhållsamhet”, eller andra svenska motsvarigheter som bevarar dessa betydelser.\",\"translation_quote\":\"”trohet, ödmjukhet och självbehärskning”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1327,
+    "content_evidence_truncated": false,
+    "content_sha256": "81abed0523f1235c248743ae1d4f154b2fa0b31fcc7bfcbc21d02513041b3ab5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 346,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8835,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9184
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

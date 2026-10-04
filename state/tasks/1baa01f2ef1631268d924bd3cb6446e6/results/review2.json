@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "43eaf4ab-7e1e-4d4f-a614-2c2e142ae958",
+    "response_id": "chatcmpl-EV1xtu1fPQzUSohL2POjEgoGYWIO1",
+    "usage": {
+      "completion_tokens": 1092,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 969,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15455,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15452,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16547
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Toe hy omtrent ses maande oud was”",
+        "severity": "major",
+        "source_quote": "refusing to nurse or be comforted",
+        "suggested_fix": "Vervang “geweier het om te drink of hom te laat troos” met “geweier het om te borsvoed of hom te laat troos”.",
+        "translation_quote": "geweier het om te drink of hom te laat troos"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

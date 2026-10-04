@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "00b80f80-99c8-4dc8-a723-d7e0ffbe6b2d",
+    "response_id": "chatcmpl-EV1yvjRA74fQZHf88rAjvGp4BTkW8",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1915,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1912,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2687
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, second stanza, first line",
+        "severity": "minor",
+        "source_quote": "He was never well-liked; despised by all men;",
+        "suggested_fix": "Hy was nooit gewild nie; deur almal verag;",
+        "translation_quote": "Hy was nooit geliefd nie; deur almal verag;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

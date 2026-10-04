@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Στο τέλος της πρώτης εβδομάδας»",
+      "severity": "major",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "Translate “paddies” without adding a specific meaning not established by the source. For example: «πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό “paddy” να κρατάμε όσο έτρωγε» (or use the intended Greek equivalent if the source term is clarified).",
+      "translation_quote": "πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε"
+    },
+    {
+      "location": "HTML, paragraph beginning «Η προσευχή λειτουργεί»",
+      "severity": "major",
+      "source_quote": "Sterling is in charge.",
+      "suggested_fix": "Use wording that conveys that Sterling is in charge, rather than merely responsible; for example: «Ο Στέρλινγκ έχει τον έλεγχο.»",
+      "translation_quote": "Ο Στέρλινγκ είναι υπεύθυνος."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "minor",
+      "source_quote": "a perceptive brother to speak into the situation",
+      "suggested_fix": "Replace the unnatural «μίλησε στην κατάστασή μας» with a phrase conveying that the brother offered insight or spoke to the situation, such as «ενός διορατικού αδελφού που μας έδωσε τη δική του οπτική για την κατάσταση».",
+      "translation_quote": "μέσω ενός διορατικού αδελφού που μίλησε στην κατάστασή μας"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

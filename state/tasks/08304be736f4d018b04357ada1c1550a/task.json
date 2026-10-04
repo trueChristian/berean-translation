@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 12611
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 615,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8089,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8086,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8704
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, citation biblique de clôture (Psaume 127:4)",
-      "severity": "major",
-      "source_quote": "“As arrows are in the hand of a mighty man; so are children of the youth”",
-      "suggested_fix": "Remplacer « les enfants de la jeunesse » par « les fils de la jeunesse » pour préserver le sens imprimé de « children of the youth » dans cette citation.",
-      "translation_quote": "« ainsi sont les enfants de la jeunesse »"
-    },
-    {
-      "location": "source.html, explication suivant la citation de Psaume 127:4",
-      "severity": "major",
-      "source_quote": "“If properly honed (trained) and balanced (taught disciplines) our children will have the potential to outlive us both in years and in usefulness.”",
-      "suggested_fix": "Traduire « outlive us » comme « nous survivre » et « both in years and in usefulness » comme « tant par le nombre d’années que par l’utilité » ; par exemple : « S’ils sont bien affûtés (formés) et équilibrés (instruits aux disciplines), nos enfants pourront nous survivre, tant par le nombre d’années que par leur utilité. »",
-      "translation_quote": "« nos enfants pourront nous survivre, tant par leur longévité que par leur utilité »"
-    },
-    {
-      "location": "source.html, citation biblique de clôture (Psaume 127:5)",
-      "severity": "major",
-      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
-      "suggested_fix": "Rétablir la négation omise : « Ils ne seront pas confus, mais ils parleront avec les ennemis à la porte –Psaume 127:5. »",
-      "translation_quote": "« Ils ne seront pas confus, quand ils parleront avec des ennemis à la porte –Psaume 127:5. »"
+      "location": "HTML, paragraph beginning « L’adolescence est une période de transition »",
+      "severity": "minor",
+      "source_quote": "can leave the child feeling insecure",
+      "suggested_fix": "Remplacer « peut rendre l’enfant insécurisé » par « peut donner à l’enfant un sentiment d’insécurité ».",
+      "translation_quote": "peut rendre l’enfant insécurisé"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "08304be736f4d018b04357ada1c1550a",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "fra",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

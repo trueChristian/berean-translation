@@ -2,7 +2,6 @@
   "article_id": "97d8ed1e-7d4a-471d-8508-727664288d74",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 6354
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 752,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 616,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4099,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4096,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4851
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "الفقرة التي تقتبس أمثال 16:18، وكذلك وصف الصورة للنوتة الموسيقية",
-      "severity": "major",
-      "source_quote": "“Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”",
-      "suggested_fix": "استبدلي نص الاقتباس في الفقرة ووصف الصورة بترجمة أمينة للمعنى، مثل: «الكبرياء تسبق الهلاك، والروح المتعالية تسبق السقوط – الأمثال 16:18.» مع إبقاء وسوم HTML وبنية المصدر كما هي.",
-      "translation_quote": "«الكبرياء قبل السقوط، وتشامخ الروح قبل العثرة – الأمثال 16:18.»"
-    },
-    {
-      "location": "الفقرة التي يسأل فيها بابا رامونا إن كانت نادمة",
-      "severity": "major",
-      "source_quote": "“Are you sorry for disobeying me, Ramona?”",
-      "suggested_fix": "غيّري العبارة إلى: «هل أنت نادمة على عصيانك لي يا رامونا؟»",
-      "translation_quote": "«هل أنت نادمة على عصياني يا رامونا؟»"
-    },
-    {
-      "location": "الفقرة التي تصف رد فعل رامونا بعد سقوطها الأول",
+      "location": "HTML paragraph 8",
       "severity": "minor",
-      "source_quote": "“She sniffled and shrugged her shoulders.”",
-      "suggested_fix": "استبدلي العبارة بـ: «شهقت رامونا وهزّت كتفيها.»",
-      "translation_quote": "«شهقت رامونا ومسحت كتفيها.»"
+      "source_quote": "“...he took her upstairs to her bed.”",
+      "suggested_fix": "Replace «ووضعها في سريرها» with «وأخذها إلى سريرها في الطابق العلوي» so this sentence says he brought her to her bed, without implying she was already put to bed before the next paragraph.",
+      "translation_quote": "«...لكنه أخذها إلى الطابق العلوي ووضعها في سريرها.»"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "38b01eada0478bcefb02129c5dc6836b",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ara",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3afe3193f88de971053d6bc9f8f2b47e5b930a326842e12fe0e764e30c7a8db.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
   "translation_model_actual": "gpt-6-luna"

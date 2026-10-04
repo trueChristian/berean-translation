@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تقتبس مزمور 127:4",
+      "severity": "major",
+      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.",
+      "suggested_fix": "استبدل الاقتباس بـ: «كما السهام بيد جبار، هكذا أبناء الشبيبة –مزمور 127:4.»",
+      "translation_quote": "كما في يد الجبار سهام، كذلك أبناء الشبيبة –مزمور 127:4."
+    },
+    {
+      "location": "الفقرة الختامية، شرح مزمور 127:4",
+      "severity": "major",
+      "source_quote": "our children will have the potential to outlive us both in years and in usefulness.",
+      "suggested_fix": "استبدل العبارة بـ: «سيكون لأبنائنا القدرة على أن يعيشوا بعدنا سنوات أكثر وأن يفوقونا نفعًا.»",
+      "translation_quote": "أمكن لأبنائنا أن يعيشوا بعدنا سنوات أطول وأن يكونوا أكثر نفعًا."
+    },
+    {
+      "location": "الفقرة الختامية، شرح مزمور 127:4",
+      "severity": "major",
+      "source_quote": "When you release the arrow your children will go places both in time and in the world that you will never see.",
+      "suggested_fix": "استبدل العبارة بـ: «عندما تطلق السهم، سيذهب أبناؤك إلى أزمنة وأماكن في العالم لن تراها أبدًا.»",
+      "translation_quote": "وعندما تطلق السهم، سيمضي أبناؤك إلى أماكن في الزمان والعالم لن تراها أبدًا."
+    },
+    {
+      "location": "الفقرة الختامية، اقتباس مزمور 127:5",
+      "severity": "major",
+      "source_quote": "they shall not be ashamed, but they shall speak with the enemies in the gate",
+      "suggested_fix": "استبدل الاقتباس بـ: «لا يخزون، بل يتكلمون مع الأعداء عند الباب –مزمور 127:5.»",
+      "translation_quote": "لا يخزون، بل يكلمون الأعداء في الباب –مزمور 127:5."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

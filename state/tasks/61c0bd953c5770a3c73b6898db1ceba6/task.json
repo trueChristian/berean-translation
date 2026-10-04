@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 2977
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 528,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 502,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1987,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1984,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2515
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, poem paragraph beginning “But why would He suffer…”",
-      "severity": "major",
-      "source_quote": "Because He treasured us",
-      "suggested_fix": "Replace «وہ ہم سے عزیز رکھتا تھا» with «وہ ہمیں عزیز رکھتا تھا» to convey that he cherished us.",
-      "translation_quote": "وہ ہم سے عزیز رکھتا تھا"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "61c0bd953c5770a3c73b6898db1ceba6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "urd",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

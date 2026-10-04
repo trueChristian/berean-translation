@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, paragraph beginning “Jioni hiyo hasa”\",\"severity\":\"minor\",\"source_quote\":\"“It looked like so much fun as they trotted around the pond and through the lawn.”\",\"suggested_fix\":\"Replace “walipokuwa wakizunguka bwawa kwa mwendo wa kunyata” with “walipokuwa wakizunguka bwawa huku farasi wakikimbia kwa hatua fupi” to convey the horses’ trotting gait.\",\"translation_quote\":\"“Ilionekana kufurahisha sana walipokuwa wakizunguka bwawa kwa mwendo wa kunyata na kupita kwenye nyasi.”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 582,
+    "content_evidence_truncated": false,
+    "content_sha256": "417ca5d7bd8063dd608f727f515483e2303b501f065e2d65463ef081838e61e4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4198,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4993
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

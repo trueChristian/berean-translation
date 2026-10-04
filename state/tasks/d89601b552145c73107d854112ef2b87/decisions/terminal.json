@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph, Matthew 7:22 quotation",
+      "severity": "major",
+      "source_quote": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?",
+      "suggested_fix": "Replace «не от Твоего ли имени мы пророчествовали? и не Твоим ли именем бесов изгоняли? и не Твоим ли именем многие чудеса творили?» with a faithful Russian rendering that preserves the repeated question «не Твоим ли именем…?» in all three clauses, e.g. «не Твоим ли именем мы пророчествовали, и не Твоим ли именем изгоняли бесов, и не Твоим ли именем совершили много чудес?»",
+      "translation_quote": "не от Твоего ли имени мы пророчествовали? и не Твоим ли именем бесов изгоняли? и не Твоим ли именем многие чудеса творили?"
+    },
+    {
+      "location": "Paragraph beginning “A desire to serve Jesus.”",
+      "severity": "major",
+      "source_quote": "that person, in return, will, because of his changed nature, live a sacrificial life for Him.",
+      "suggested_fix": "Replace «этот человек в ответ, благодаря своей измененной природе, будет жить для Него жертвенной жизнью» with «этот человек, в свою очередь, благодаря измененной природе будет жить для Него жертвенной жизнью»; the current wording makes the person’s response sound like a return/recompense rather than “in turn.”",
+      "translation_quote": "этот человек в ответ, благодаря своей измененной природе, будет жить для Него жертвенной жизнью"
+    },
+    {
+      "location": "Paragraph beginning “The Bible says that…”",
+      "severity": "major",
+      "source_quote": "longsuffering, gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "Revise the list to retain all the distinct source items, including “gentleness” and “goodness,” for example: «долготерпение, кротость, благость, вера, meekness [render in Russian as кротость/смирение as appropriate], воздержание». Avoid collapsing gentleness and meekness into a single «кротость»; use a distinct equivalent such as «мягкость» for “gentleness.”",
+      "translation_quote": "долготерпение, благость, милосердие, вера, кротость, воздержание"
+    },
+    {
+      "location": "Paragraph beginning “When we give something our all…”",
+      "severity": "minor",
+      "source_quote": "it feels good—it is fulfilling.",
+      "suggested_fix": "Replace «это приносит удовлетворение и радость» with a rendering of “feels good” that does not add joy, e.g. «это приятно и приносит удовлетворение».",
+      "translation_quote": "это приносит удовлетворение и радость"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

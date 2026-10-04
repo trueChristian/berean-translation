@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"article.html, paragraph beginning “세속 음악은 흔히 관능적입니다”\",\"severity\":\"major\",\"source_quote\":\"The meaning of sensual is “of arousing gratification of the senses and physical.”\",\"suggested_fix\":\"Replace the definition with “관능적이라는 말은 ‘감각과 육체적 욕구를 만족시키도록 자극하는’이라는 뜻입니다.”\",\"translation_quote\":\"관능적이라는 말은 “감각과 육체에 만족을 불러일으키는 것”을 뜻합니다.\"},{\"location\":\"article.html, paragraph beginning “음악을 들을 때 우리는 언제나”\",\"severity\":\"major\",\"source_quote\":\"Usually, music like CCM tends to draw attention to ourselves and not to God.\",\"suggested_fix\":\"Replace “대개 CCM 같은 음악은 하나님이 아니라 우리 자신에게 주의를 돌리게 하는 경향이 있습니다.” with “대개 CCM 같은 음악은 하나님이 아니라 우리 자신에게 주의를 집중시키는 경향이 있습니다.”\",\"translation_quote\":\"대개 CCM 같은 음악은 하나님이 아니라 우리 자신에게 주의를 돌리게 하는 경향이 있습니다.\"},{\"location\":\"article.html, paragraph beginning “CCM은 가사가 기독교 신앙과 관련된 주제에 초점을 둔”\",\"severity\":\"major\",\"source_quote\":\"Today, CCM is a term that is used to refer to pop, rock, or praise & worship styles of rhythm and beat, so long as the lyrics fall under the definition of CCM.\",\"suggested_fix\":\"Replace the final sentence with “오늘날 CCM이라는 말은 가사가 CCM의 정의에 해당하는 한, 팝이나 록 또는 찬양과 경배 스타일의 리듬과 비트를 가리키는 데 쓰입니다.”\",\"translation_quote\":\"오늘날 CCM이라는 말은 가사가 CCM의 정의에 해당하기만 하면 팝, 록, 또는 찬양과 경배 스타일의 리듬과 비트를 가리키는 데 쓰입니다.\"},{\"location\":\"article.html, paragraph beginning “히브리인들은 서기 70년”\",\"severity\":\"major\",\"source_quote\":\"The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.\",\"suggested_fix\":\"첫 두 문장을 “히브리인들은 서기 70년 제2성전이 무너진 뒤 반주 없는 음악의 전통을 시작했습니다. 성전이 무너진 뒤 애도 기간에는 악기 사용이 허용되지 않았습니다.”로 바꾸십시오.\",\"translation_quote\":\"히브리인들은 서기 70년 제2성전이 파괴된 뒤 반주 없이 음악을 부르는 전통을 시작했습니다. 성전이 무너진 뒤 애도하는 기간에는 악기 사용이 허용되지 않았기 때문입니다.\"},{\"location\":\"article.html, paragraph beginning “초대 교회는 히브리인의 유대교 전통에서”\",\"severity\":\"major\",\"source_quote\":\"The early church developed the tradition of A cappella singing from the Hebrews’ Jewish tradition, chanting psalms, or other scriptures and using a cantor as a leader.\",\"suggested_fix\":\"문장을 “초대 교회는 히브리인의 유대교 전통에서 아카펠라 노래를 발전시켜, 시편이나 다른 성경 본문을 낭송하고 선창자를 인도자로 세웠습니다.”로 바꾸십시오.\",\"translation_quote\":\"초대 교회는 히브리인의 유대교 전통에서 아카펠라 노래를 받아들여, 시편이나 다른 성경을 낭송하고 선창자를 인도자로 세우는 전통을 발전시켰습니다.\"},{\"location\":\"article.html, paragraph beginning “예수님께서 감람산으로 나가시기 전”\",\"severity\":\"major\",\"source_quote\":\"I wonder what hymn Jesus sang with His disciples at the last supper before He went out to the Mount of Olives.\",\"suggested_fix\":\"“예수님께서 감람산으로 나가시기 전 마지막 만찬에서 제자들과 어떤 찬송을 부르셨을지 궁금합니다.”를 “예수님께서 감람산으로 가시기 전에 제자들과 마지막 만찬에서 어떤 찬송을 부르셨을지 궁금합니다.”로 바꾸십시오.\",\"translation_quote\":\"예수님께서 감람산으로 나가시기 전 마지막 만찬에서 제자들과 어떤 찬송을 부르셨을지 궁금합니다.\"},{\"location\":\"article.html, 마지막 문단\",\"severity\":\"major\",\"source_quote\":\"So, let us sing in sincere worship to our Creator, let us give God the glory for the voices that He has given us, and let us sing and listen to godly, wholesome songs to our God.\",\"suggested_fix\":\"마지막 문장을 “하나님께 경건하고 건전한 노래를 부르고, 그런 노래를 들읍시다.”에서 “하나님께 경건하고 건전한 노래를 부르며 들읍시다.”로 바꾸십시오.\",\"translation_quote\":\"하나님께 경건하고 건전한 노래를 부르고, 그런 노래를 들읍시다.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 4916,
+    "content_evidence_truncated": false,
+    "content_sha256": "ff6449348ccd56f7d0f5de366a87cd3970a47f77ab8e66866ad7f347394d4ed1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1145,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6167,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7315
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

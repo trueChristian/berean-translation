@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c454d33e-e066-43c7-bb9e-d52361ae6b37",
+    "response_id": "chatcmpl-EV1y25kSV4pmUjZf00hYJnAWyAUK1",
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5279,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6030
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, numbered list, item 1",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Replace «Dette bygger på hans faktum» med en idiomatisk formulering som «Dette bygger på det som er sant om Gud, ikke på hvordan vi føler det»; retain the contrast with our feelings.",
+        "translation_quote": "Dette bygger på hans faktum, ikke på hvordan vi føler det."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

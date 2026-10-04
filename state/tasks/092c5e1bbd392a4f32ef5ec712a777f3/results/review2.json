@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5d367e7a-05a2-4ac1-814f-616a139f7b1b",
+    "response_id": "chatcmpl-EV1ygcGkk4IdmpYlwGpnbmeqLjJRX",
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4376,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5158
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "“complete trust or confidence in someone or something.”",
+        "suggested_fix": "Badilisha nukuu iwe “kumwamini au kumtumaini mtu au kitu kikamilifu” bila “au” ikiwa inaleta maana ya trust *or* confidence? A faithful rendering is “kumwamini au kuwa na uhakika kamili kuhusu mtu au kitu.”",
+        "translation_quote": "“kumwamini au kumtumaini mtu au kitu kikamilifu.”"
+      },
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "“Biblical faith is simply a state of mind”",
+        "suggested_fix": "Tafsiri “state of mind” kama “hali ya akili,” kwa mfano: “Imani ya kibiblia ni hali ya akili tu yenye uhakika na kumtumaini Bwana.”",
+        "translation_quote": "“Imani ya kibiblia ni hali ya moyo tu yenye uhakika na kumtumaini Bwana.”"
+      },
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "“They change sizes, colors, and eating habits.”",
+        "suggested_fix": "Rekebisha ili kusema wanyama hubadilika kwa ukubwa, rangi na tabia za kula, bila kuashiria kuwa wanakuwa na ukubwa tofauti: “Hubadilika kwa ukubwa, rangi na tabia za kula.”",
+        "translation_quote": "“Wanabadilika ukubwa, rangi na tabia za kula.”"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "“Thomas repented of his disbelief”",
+        "suggested_fix": "Tumia “kutokuamini” badala ya “kutokuamini kwake” si lazima? Sentensi inayofaa: “Tomaso alitubu kwa kutokuamini kwake na kumfuata Kristo hadi kufa kishahidi.”",
+        "translation_quote": "“Tomaso alitubu kutokuamini kwake na kumfuata Kristo hadi kufa kishahidi.”"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "“They have NO workable evidence”",
+        "suggested_fix": "Rekebisha herufi kubwa iliyoharibika katika msisitizo: “Hawana <strong>USHahidi</strong>” iwe “Hawana <strong>USHahidi</strong>” isiyo sahihi; tumia “<strong>USHahidi</strong>” hapana. Kwa Kiswahili sahihi: “Hawana <strong>USHahidi</strong> wowote unaoweza kutumika” — hakikisha maandishi yana herufi kubwa thabiti na sahihi, kwa mfano “<strong>USHahidi</strong>” kwa msisitizo wa ‘NO’ ni upotoshaji wa umbo la neno; tumia “<strong>HAWANA USHAHIDI</strong> wowote unaoweza kutumika.”",
+        "translation_quote": "“Hawana <strong>USHahidi</strong> wowote unaoweza kutumika”"
+      },
+      {
+        "location": "Title",
+        "severity": "minor",
+        "source_quote": "“Faith and Reason”",
+        "suggested_fix": "“Imani na Akili” inaweza kueleweka kama “faith and intelligence”; kwa muktadha wa hoja kuhusu reasoning, tumia “Imani na Hoja” au “Imani na Ufikiri wa Kimantiki.”",
+        "translation_quote": "“Imani na Akili”"
+      },
+      {
+        "location": "Section",
+        "severity": "minor",
+        "source_quote": "“FEATURED ARTICLE”",
+        "suggested_fix": "Tafsiri kwa Kiswahili sanifu, kwa mfano “MAKALA ILIYOANGAZIWA.”",
+        "translation_quote": "“MAKALA MAALUM”"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

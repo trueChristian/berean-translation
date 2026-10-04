@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 12908
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 368,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8519,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8516,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8887
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “A heart that has not been made new…”",
+      "location": "“I’m working on it,” or “I’m praying about it.”",
       "severity": "major",
-      "source_quote": "It is no wonder that many churches of today are accepting drift.",
-      "suggested_fix": "Replace “Geen wonder dat veel kerken tegenwoordig afdwalen.” with “Geen wonder dat veel kerken tegenwoordig afdwaling tolereren.”",
-      "translation_quote": "Geen wonder dat veel kerken tegenwoordig afdwalen."
+      "source_quote": "I know it is easy to justify not having one or more of these fruits by saying, “I’m working on it,” or “I’m praying about it.”",
+      "suggested_fix": "Ik weet dat het gemakkelijk is te rechtvaardigen dat je een of meer van deze vruchten niet hebt, door te zeggen: ‘Ik werk eraan’ of ‘Ik bid ervoor.’",
+      "translation_quote": "Ik weet dat het gemakkelijk is te vergoelijken dat je een of meer van deze vruchten niet hebt, door te zeggen: ‘Ik werk eraan’ of ‘Ik bid ervoor.’"
+    },
+    {
+      "location": "“God wants us to put all our faith in Him, all the time.”",
+      "severity": "major",
+      "source_quote": "God wants us to put all our faith in Him, all the time.",
+      "suggested_fix": "God wil dat we altijd al ons geloof op Hem stellen.",
+      "translation_quote": "God wil dat we altijd al ons vertrouwen op Hem stellen."
+    },
+    {
+      "location": "“I believe this is the fruit of a suffering man”",
+      "severity": "major",
+      "source_quote": "I believe this is the fruit of a suffering man, a person that has been giving his all, and desires to give his all to the Lamb that was slain.",
+      "suggested_fix": "Ik geloof dat dit de vrucht is van een lijdend mens, iemand die alles heeft gegeven en ernaar verlangt alles te geven aan het Lam dat geslacht is.",
+      "translation_quote": "Ik geloof dat dit de vrucht is van een lijdend mens, iemand die alles heeft gegeven en ernaar verlangt alles te geven aan het Lam dat geslacht is."
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "2e82bc50b70f82e4714f4891b08dbe11",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -171,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

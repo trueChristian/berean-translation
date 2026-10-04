@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "905bca6d-35d7-4428-9c06-26c7fe923622",
+    "response_id": "chatcmpl-EV1yBTgzn1FFFBSRqCFnFsB4o9BE5",
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4069,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4066,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4886
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 9, Papa’s explanation of the punishment",
+        "severity": "major",
+        "source_quote": "Ramona would have preferred a spanking instead of needing to go to bed early",
+        "suggested_fix": "Replace «Ramona ville heller ha fått ris enn å måtte legge seg tidlig» with «Ramona ville heller ha fått en smekk enn å måtte legge seg tidlig» to avoid specifying a different form of punishment.",
+        "translation_quote": "Ramona ville heller ha fått ris enn å måtte legge seg tidlig"
+      },
+      {
+        "location": "Paragraph 8, quoted Bible verse",
+        "severity": "minor",
+        "source_quote": "and an haughty spirit before a fall",
+        "suggested_fix": "Change «og en hovmodig ånd før fall» to «og en hovmodig ånd før et fall» for grammatical Bokmål while preserving the printed meaning.",
+        "translation_quote": "og en hovmodig ånd før fall"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

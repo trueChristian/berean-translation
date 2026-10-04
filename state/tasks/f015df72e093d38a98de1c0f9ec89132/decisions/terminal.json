@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Jesus says a few verses earlier…”",
+      "severity": "major",
+      "source_quote": "Jesus says a few verses earlier that we will know each other by our fruits.",
+      "suggested_fix": "Replace “tutawatambua watu kwa matunda yao” with “mtawatambua kwa matunda yao” (or another rendering that preserves the source’s general statement that people are known by their fruits).",
+      "translation_quote": "Yesu anasema mistari michache kabla ya hapo kwamba tutawatambua watu kwa matunda yao."
+    },
+    {
+      "location": "source.html, paragraph beginning “When we first moved to Haiti…”",
+      "severity": "major",
+      "source_quote": "I remember looking up at a large tree on our property and wondering what kind it was.",
+      "suggested_fix": "Replace “Nikiutazama juu mti mkubwa” with “nikitazama juu kwenye mti mkubwa” or “nikitazama mti mkubwa juu,” preserving the sense that the narrator looked up at the tree.",
+      "translation_quote": "Nakumbuka nikiutazama juu mti mkubwa uliokuwa kwenye ardhi yetu na kujiuliza ulikuwa wa aina gani."
+    },
+    {
+      "location": "source.html, paragraph beginning “A desire to serve Jesus.”",
+      "severity": "major",
+      "source_quote": "You can tell a church member to dress modestly, but if their heart is not changed, you will face problems. They will try to be as worldly as they can, and still be within the ‘law’ of the church.",
+      "suggested_fix": "Replace “Atajaribu kuwa wa kidunia kadiri awezavyo huku akibaki ndani ya ‘sheria’ ya kanisa” with “Atajaribu kuwa wa kidunia kadiri awezavyo, huku bado akitii ‘sheria’ ya kanisa.”",
+      "translation_quote": "Atajaribu kuwa wa kidunia kadiri awezavyo huku akibaki ndani ya ‘sheria’ ya kanisa."
+    },
+    {
+      "location": "source.html, paragraph beginning “A heart that has not been made new…”",
+      "severity": "major",
+      "source_quote": "It is no wonder that many churches of today are accepting drift.",
+      "suggested_fix": "Replace “yanakubali kupotoka” with “yanakubali hali ya kupotoka” or “yanaruhusu kupotoka,” retaining the idea of accepting or allowing spiritual drift rather than accepting drift as an object.",
+      "translation_quote": "Si ajabu kwamba makanisa mengi ya leo yanakubali kupotoka."
+    },
+    {
+      "location": "source.html, paragraph beginning “Picture with me a man living 1,000 years ago.”",
+      "severity": "major",
+      "source_quote": "Now picture this man… is you.",
+      "suggested_fix": "Replace “Sasa fikiria mtu huyu… ni wewe” with “Sasa fikiria kwamba mtu huyu ni wewe,” preserving the direct identification of the reader with the prisoner.",
+      "translation_quote": "Sasa fikiria mtu huyu… ni wewe."
+    },
+    {
+      "location": "source.html, paragraph beginning “The Bible says that…”",
+      "severity": "major",
+      "source_quote": "The Bible says that …the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance…",
+      "suggested_fix": "Correct the list to preserve all nine source terms and their distinctions, for example: “...tunda la Roho ni upendo, furaha, amani, uvumilivu, ustahimilivu, wema, uaminifu, upole, kiasi...” (Use standard Kiswahili equivalents while keeping each item.)",
+      "translation_quote": "…tunda la Roho ni upendo, furaha, amani, uvumilivu, utu wema, fadhili, uaminifu, upole, kiasi…"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

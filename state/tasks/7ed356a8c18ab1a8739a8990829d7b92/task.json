@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 9435
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 535,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 392,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5873,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5870,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6408
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Articolo, paragrafo sulla musica secolare",
+      "location": "Paragraph on Orthodox and Conservative Jewish congregations",
       "severity": "major",
-      "source_quote": "If the song encourages evil, promotes worldliness, gives you bad thoughts, changes your actions for the wrong, and influences your speech for the wrong, we should not be listening to it.",
-      "suggested_fix": "Sostituire «ti induce pensieri cattivi, ti spinge ad agire in modo sbagliato e influenza negativamente il tuo modo di parlare» con «ti induce pensieri cattivi, cambia in peggio le tue azioni e influenza negativamente il tuo modo di parlare».",
-      "translation_quote": "Se una canzone incoraggia il male, promuove la mondanità, ti induce pensieri cattivi, ti spinge ad agire in modo sbagliato e influenza negativamente il tuo modo di parlare, non dovremmo ascoltarla."
-    },
-    {
-      "location": "Articolo, paragrafo sulla storia della musica senza accompagnamento",
-      "severity": "major",
-      "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
-      "suggested_fix": "Correggere «Gli ebrei iniziarono la tradizione ... nel 70 d.C.; in quel periodo, dopo la caduta, non era consentito usare strumenti durante il lutto» in modo da riferire chiaramente che gli strumenti non erano consentiti durante un periodo di lutto successivo alla caduta del tempio.",
-      "translation_quote": "Gli ebrei iniziarono la tradizione di usare musica senza accompagnamento dopo la caduta del secondo tempio, nel 70 d.C.; in quel periodo, dopo la caduta, non era consentito usare strumenti durante il lutto."
-    },
-    {
-      "location": "Articolo, citazione di Colossesi 3:16",
-      "severity": "major",
-      "source_quote": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord",
-      "suggested_fix": "Tradurre la citazione fedelmente includendo «in ogni sapienza» e rendendo «singing with grace in your hearts to the Lord» come «cantando con grazia nei vostri cuori al Signore»; per esempio: «La parola di Cristo abiti in voi abbondantemente, in ogni sapienza, insegnandovi e ammonendovi a vicenda con salmi, inni e cantici spirituali, cantando con grazia nei vostri cuori al Signore –Colossesi 3:16.»",
-      "translation_quote": "La parola di Cristo abiti in voi abbondantemente, ammaestrandovi e ammonendovi gli uni gli altri con ogni sapienza, con salmi, inni e cantici spirituali, cantando con gratitudine nei vostri cuori a Dio –Colossesi 3:16."
+      "source_quote": "The only instruments used might be a pitch pipe to give everyone a starting note",
+      "suggested_fix": "Sostituire «un diapason» con «un fischietto d’intonazione» (o «un fischietto per dare la nota»), poiché un pitch pipe è un piccolo strumento a fiato, non un diapason.",
+      "translation_quote": "Gli unici strumenti utilizzati potrebbero essere un diapason per dare a tutti la nota iniziale"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "7ed356a8c18ab1a8739a8990829d7b92",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ita",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

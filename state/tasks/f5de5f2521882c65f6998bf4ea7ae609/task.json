@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 8434
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5431,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5428,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6095
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph 10, quotation from 2 Timothy 1:7",
+      "location": "Paragraph 10",
       "severity": "major",
-      "source_quote": "…God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
-      "suggested_fix": "<em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>",
-      "translation_quote": "…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور پرہیزگاری کی روح دی ہے—2 تیمتھیس 1:7۔"
+      "source_quote": "The Apostle Peter said that … –2 Timothy 1:7.",
+      "suggested_fix": "رسول پطرس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>",
+      "translation_quote": "رسول پولس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "f5de5f2521882c65f6998bf4ea7ae609",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "urd",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

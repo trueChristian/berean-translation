@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "major",
+      "source_quote": "“God is OK with this type of music,”",
+      "suggested_fix": "Replace “Deus não se importa com esse tipo de música” with “Deus aprova esse tipo de música” to preserve the claim that God considers the music acceptable.",
+      "translation_quote": "“Deus não se importa com esse tipo de música”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

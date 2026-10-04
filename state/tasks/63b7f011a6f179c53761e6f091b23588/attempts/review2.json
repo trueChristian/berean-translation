@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, “Subjection Produces Spiritual Authority”\",\"severity\":\"major\",\"source_quote\":\"It brings power unto people rather than power over people.\",\"suggested_fix\":\"Replace the sentence with: “এটি মানুষের ওপর ক্ষমতা নয়, বরং মানুষের জন্য ক্ষমতা আনে।”\",\"translation_quote\":\"এটি মানুষকে উপর কর্তৃত্ব নয়, বরং মানুষের জন্য শক্তি আনে।\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 587,
+    "content_evidence_truncated": false,
+    "content_sha256": "ceb8e697042b631be1b622227c04b50c870094a8e8fd2d2f1130a02f06ec86d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10538,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11308
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Joseph repeatedly found himself…”",
+      "severity": "major",
+      "source_quote": "“the second ruling power in the most prominent nation on the earth”",
+      "suggested_fix": "Replace “die tweede hoogste heersersposisie in die magtigste nasie op aarde” with “die tweede hoogste heersersposisie in die mees vooraanstaande nasie op aarde” to preserve “most prominent.”",
+      "translation_quote": "“die tweede hoogste heersersposisie in die magtigste nasie op aarde”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

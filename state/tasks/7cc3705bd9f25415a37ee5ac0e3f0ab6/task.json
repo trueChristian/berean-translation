@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 13232
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 335,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8692,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8689,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9027
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "section",
+      "location": "HTML-Absatz mit dem Zitat aus Matthäus 7:16–20",
       "severity": "major",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "GEDANKEN EINES MISSIONARS",
-      "translation_quote": "GEDANKEN EINER MISSIONARIN"
+      "source_quote": "“Wherefore by their fruits ye shall know them –Matthew 7:16-20.”",
+      "suggested_fix": "Ändere ausschließlich die Versangabe im Zitat zu „– Matthäus 7:16–20“, damit der Gedankenstrich die unveränderte Versspanne bezeichnet.",
+      "translation_quote": "„Darum werdet ihr sie an ihren Früchten erkennen – Matthäus 7:16-20.“"
+    },
+    {
+      "location": "HTML-Absatz mit dem Zitat aus Galater 5:22–23",
+      "severity": "major",
+      "source_quote": "“the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23.”",
+      "suggested_fix": "Ergänze „Langmut“ nach „Selbstbeherrschung“, sodass die Übersetzung alle neun im englischen Zitat aufgeführten Früchte in derselben Reihenfolge wiedergibt: „Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung, Langmut“.",
+      "translation_quote": "„… die Frucht des Geistes aber ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung … – Galater 5:22-23.“"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "7cc3705bd9f25415a37ee5ac0e3f0ab6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "deu",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

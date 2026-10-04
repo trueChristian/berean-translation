@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,68 @@
         },
         "total_tokens": 2973
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 470,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1906,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1903,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2376
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, poem, first stanza, second line",
+      "location": "title",
+      "severity": "major",
+      "source_quote": "A Suffering Savior",
+      "suggested_fix": "החליפו ל: „מושיע סובל”.",
+      "translation_quote": "מושיע סובל"
+    },
+    {
+      "location": "html, בית 1, שורה 2",
       "severity": "major",
       "source_quote": "It was from the beginning that His will He would yield.",
-      "suggested_fix": "כבר מראשית הדרך היה נכון לוותר על רצונו.",
-      "translation_quote": "כבר מראשית דרכו בחר לעשות את רצונו."
+      "suggested_fix": "תרגמו את המשמעות שהכניע את רצונו מלכתחילה, בלי להוסיף שהדבר היה עתיד להתרחש; למשל: „כבר מלכתחילה נכנע לרצונו.”",
+      "translation_quote": "כבר מלכתחילה היה עתיד להכפיף את רצונו."
+    },
+    {
+      "location": "html, בית 6, שורה 1",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "שמרו על האפשרות לזמן את המלאכים, ואל תוסיפו כיוון שאינו מבוסס בהקשר; למשל: „יכול היה לזמן עשרת אלפים מלאכים,”",
+      "translation_quote": "הוא יכול היה לזמן עשרת אלפים מלאכים דרומה,"
+    },
+    {
+      "location": "html, בית 10, שורה 2",
+      "severity": "major",
+      "source_quote": "Providing the Lamb and transforming my fate.",
+      "suggested_fix": "נסחו כך שהקורבן סיפק את השה ושינה את גורל הדובר, בלי להפוך את „השה” לנושא מפורש שלא מופיע במקור; למשל: „ובכך סיפק את השה ושינה את גורלי.”",
+      "translation_quote": "הוא סיפק את השה ושינה את גורלי."
+    },
+    {
+      "location": "html, בית 11, שורה 2",
+      "severity": "major",
+      "source_quote": "Now the Father and I—a relationship restored!",
+      "suggested_fix": "העבירו את משמעות חידוש היחסים בין הדובר לאב, בלי לטעון שהיחסים עצמם „שבו”; למשל: „כעת היחסים ביני לבין האב — שוקמו!”",
+      "translation_quote": "כעת היחסים ביני לבין האב — שבו והשתקמו!"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "342a679f85d6930411c289222d5327d5",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -165,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

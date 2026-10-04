@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,53 +64,75 @@
         },
         "total_tokens": 14174
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 963,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8826,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8823,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9789
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article paragraph beginning «Et hjerte som ikke er blitt gjort nytt …»",
+      "location": "Paragraph beginning «Jesus sier noen vers tidligere»",
+      "severity": "major",
+      "source_quote": "When we first moved to Haiti, we didn’t know what kinds of trees were there. I remember looking up at a large tree on our property and wondering what kind it was. Then something gave it away. There were small avocados hanging from its branches.",
+      "suggested_fix": "Replace «Da vi først flyttet til Haiti, visste vi ikke hva slags trær som vokste der» with «Da vi først flyttet til Haiti, visste vi ikke hva slags trær som fantes der». The source says they did not know what kinds of trees were there, not specifically what kinds grew there.",
+      "translation_quote": "Da vi først flyttet til Haiti, visste vi ikke hva slags trær som vokste der."
+    },
+    {
+      "location": "Paragraph beginning «Et hjerte som ikke er blitt gjort nytt»",
       "severity": "major",
       "source_quote": "It is no wonder that many churches of today are accepting drift.",
-      "suggested_fix": "Replace «godtar frafall» with «aksepterer at folk driver bort» (or another wording that conveys tolerating spiritual drift, rather than accepting apostasy).",
-      "translation_quote": "Det er ikke rart at så mange kirker i dag godtar frafall."
+      "suggested_fix": "Translate the source’s idea of accepting spiritual drifting, for example: «Det er ikke rart at så mange kirker i dag godtar at folk driver bort fra troen.»",
+      "translation_quote": "Det er ikke rart at så mange kirker i dag godtar at folk driver bort."
     },
     {
-      "location": "Article paragraph beginning «Folk har sagt til meg …»; quotation from 1 Peter 2:2",
+      "location": "Paragraph beginning «Folk har sagt til meg»",
       "severity": "major",
-      "source_quote": "…desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.",
-      "suggested_fix": "Correct the translated quotation to preserve the source’s meaning, for example: «…lengte etter melk, den rene åndelige melk, så dere kan vokse ved den. –1. Peter 2:2.»",
-      "translation_quote": "…lengte etter den rene melk, så dere kan vokse ved den. –1. Peter 2:2."
+      "source_quote": "The Scriptures define new Christians… As newborn babes, and commands each of us to desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.",
+      "suggested_fix": "Correct the translated quotation to preserve the source’s «sincere milk of the word» rather than «pure, spiritual milk»: for example, «…som nyfødte barn, og befaler hver av oss å lengte etter Ordets rene melk, så dere kan vokse ved den. –1. Peter 2:2.» Keep the reference number unchanged.",
+      "translation_quote": "Skriften beskriver nye kristne som … nyfødte barn, og befaler hver av oss å lengte etter den rene, åndelige melk, så dere kan vokse ved den. –1. Peter 2:2."
     },
     {
-      "location": "Article paragraph beginning «Når noen kommer og sier …»",
-      "severity": "major",
-      "source_quote": "Some see it as God’s Word and soak it in.",
-      "suggested_fix": "Replace «ser at dette er Guds Ord og tar det til seg» with wording that means they recognize it as God’s Word and absorb it, e.g. «Noen ser at dette er Guds Ord og suger det til seg.»",
-      "translation_quote": "Noen ser at dette er Guds Ord og tar det til seg."
-    },
-    {
-      "location": "Article paragraph beginning «Gud vil at vi skal sette all vår lit …»",
+      "location": "Paragraph beginning «Gud vil at vi skal sette all vår lit»",
       "severity": "major",
       "source_quote": "We walk by faith, NOT by sight… even when things are going well.",
-      "suggested_fix": "Replace «Vi vandrer i tro, IKKE i det synlige» with «Vi vandrer i tro, IKKE ved det vi ser» to preserve the contrast with sight.",
-      "translation_quote": "Vi vandrer i tro, IKKE i det synlige … selv når alt går bra."
+      "suggested_fix": "Translate «by sight» as seeing rather than «what we see», preserving the contrast: «Vi vandrer i tro, IKKE ved synet … selv når alt går bra.»",
+      "translation_quote": "Vi vandrer i tro, IKKE ved det vi ser … selv når alt går bra."
     },
     {
-      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "location": "Paragraph beginning «Jeg ble spurt om å forkynne»",
       "severity": "major",
-      "source_quote": "…faith, meekness, temperance… –Galatians 5:22-23.",
-      "suggested_fix": "Translate «faith» here as «tro», not «trofasthet», and retain all the listed qualities; for example, change «trofasthet» to «tro».",
-      "translation_quote": "…godhet, trofasthet, ydmykhet og selvbeherskelse … –Galaterne 5:22–23."
+      "source_quote": "I told them that I didn’t understand. I asked how they can say that they are Christians—They don’t look like it! They don’t act like it! They don’t sound like it!—Yet everyone believes them!",
+      "suggested_fix": "Preserve the source’s reported assertion that everyone believes them; replace «og likevel trodde alle på dem!» with «– og likevel tror alle på dem!»",
+      "translation_quote": "Jeg sa at jeg ikke forsto. Jeg spurte hvordan de kunne si at de var kristne – de så ikke ut som kristne! De oppførte seg ikke som kristne! De hørtes ikke ut som kristne! – og likevel trodde alle på dem!"
     },
     {
-      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "location": "Paragraph beginning «Bibelen sier at»",
       "severity": "major",
-      "source_quote": "Are these the things that people see when they look at you and I?",
-      "suggested_fix": "Change «Er dette det folk ser når de ser på deg og meg?» to «Er dette det folk ser når de ser på deg og meg?» The source’s intended meaning is already conveyed; no correction needed.",
-      "translation_quote": "Er dette det folk ser når de ser på deg og meg?"
+      "source_quote": "…the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23.",
+      "suggested_fix": "Translate «faith» as «trofasthet» (or another faithful equivalent in this list), not «tro», which changes the listed fruit’s meaning. For example: «…Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, trofasthet, ydmykhet og selvbeherskelse … –Galaterne 5:22–23.»",
+      "translation_quote": "…Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, tro, ydmykhet og selvbeherskelse … –Galaterne 5:22–23."
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "0723318ed0ea8a868cd7c190c6f65a6e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -200,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

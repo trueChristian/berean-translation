@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c964e9ac-75de-4832-a7ac-b2d37df43506",
+    "response_id": "chatcmpl-EV1xtGd2d5Wu4yhIaF4HYWBtWo4K2",
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 634,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6540
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, Ephesians 5:19 quotation",
+        "severity": "major",
+        "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord",
+        "suggested_fix": "Replace the quoted Chinese wording with: “用诗章、颂词、灵歌彼此对说，口唱心和地赞美主”",
+        "translation_quote": "当用诗章、颂词、灵歌彼此对说，心被恩感，歌颂主"
+      },
+      {
+        "location": "Section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "青少年励志",
+        "translation_quote": "青少年灵感"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

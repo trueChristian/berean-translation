@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "“I’m working on it,” or “I’m praying about it.”",
+      "severity": "major",
+      "source_quote": "I know it is easy to justify not having one or more of these fruits by saying, “I’m working on it,” or “I’m praying about it.”",
+      "suggested_fix": "Ik weet dat het gemakkelijk is te rechtvaardigen dat je een of meer van deze vruchten niet hebt, door te zeggen: ‘Ik werk eraan’ of ‘Ik bid ervoor.’",
+      "translation_quote": "Ik weet dat het gemakkelijk is te vergoelijken dat je een of meer van deze vruchten niet hebt, door te zeggen: ‘Ik werk eraan’ of ‘Ik bid ervoor.’"
+    },
+    {
+      "location": "“God wants us to put all our faith in Him, all the time.”",
+      "severity": "major",
+      "source_quote": "God wants us to put all our faith in Him, all the time.",
+      "suggested_fix": "God wil dat we altijd al ons geloof op Hem stellen.",
+      "translation_quote": "God wil dat we altijd al ons vertrouwen op Hem stellen."
+    },
+    {
+      "location": "“I believe this is the fruit of a suffering man”",
+      "severity": "major",
+      "source_quote": "I believe this is the fruit of a suffering man, a person that has been giving his all, and desires to give his all to the Lamb that was slain.",
+      "suggested_fix": "Ik geloof dat dit de vrucht is van een lijdend mens, iemand die alles heeft gegeven en ernaar verlangt alles te geven aan het Lam dat geslacht is.",
+      "translation_quote": "Ik geloof dat dit de vrucht is van een lijdend mens, iemand die alles heeft gegeven en ernaar verlangt alles te geven aan het Lam dat geslacht is."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

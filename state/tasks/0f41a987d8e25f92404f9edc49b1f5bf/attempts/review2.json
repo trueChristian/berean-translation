@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Aya ya 1\",\"severity\":\"major\",\"source_quote\":\"The difference between those that believe the coronavirus to be a real threat and those that believe it to be primarily an agenda of political nature are becoming more distinct\",\"suggested_fix\":\"Badilisha sehemu hiyo iwe: “Tofauti kati ya wale wanaoamini kwamba virusi vya corona ni tishio halisi na wale wanaoamini kwamba kimsingi ni ajenda ya kisiasa inazidi kuwa dhahiri”\",\"translation_quote\":\"Tofauti kati ya wale wanaoamini kwamba virusi vya corona ni tishio halisi na wale wanaoamini kwamba kimsingi ni ajenda ya kisiasa inazidi kudhihirika\"},{\"location\":\"Aya ya 4\",\"severity\":\"major\",\"source_quote\":\"God clearly tells us, though we may not be able to always obey in every situation, respect and honor is always to be seen and heard in our attitudes and speech.\",\"suggested_fix\":\"Badilisha “ingawa huenda tusiweze kutii sikuzote katika kila hali” iwe “ingawa huenda tusiweze kutii [amri] katika kila hali,” ili kihusishi cha kutii kibaki wazi katika muktadha wa aya.\",\"translation_quote\":\"ingawa huenda tusiweze kutii sikuzote katika kila hali\"},{\"location\":\"Aya ya 9\",\"severity\":\"major\",\"source_quote\":\"The Apostle Peter said that\",\"suggested_fix\":\"Badilisha “Mtume Paulo alisema” iwe “Mtume Petro alisema”.\",\"translation_quote\":\"Mtume Paulo alisema\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1377,
+    "content_evidence_truncated": false,
+    "content_sha256": "8edd9e5107df26f4780819831b48a6e9e935563b6f0c02aa4e4e37752d1261bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 347,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5248,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5598
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “And at midnight Paul and Silas…”\",\"severity\":\"minor\",\"source_quote\":\"the doors flew open\",\"suggested_fix\":\"Replace “milango ikafunguka kwa kishindo” with “milango ikafunguka ghafla” to convey that the doors flew open without adding a banging sound.\",\"translation_quote\":\"milango ikafunguka kwa kishindo\"},{\"location\":\"Paragraph beginning “Pure and holy music is a blessing…”\",\"severity\":\"minor\",\"source_quote\":\"It helps me stay calm, be encouraged, and keep my mind on the Lord.\",\"suggested_fix\":\"Change “Hunisaidia kutulia, kutia moyo, na kuweka akili yangu kwa Bwana” to “Hunisaidia kutulia, kutiwa moyo, na kuweka akili yangu kwa Bwana” so “be encouraged” remains passive.\",\"translation_quote\":\"Hunisaidia kutulia, kutia moyo, na kuweka akili yangu kwa Bwana\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 869,
+    "content_evidence_truncated": false,
+    "content_sha256": "3661292ed0638077b132fdb5340ae9b8ac3392e27536deffc6ab790b4eab9eb0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 847,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6254,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7331
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph on Orthodox and Conservative Jewish congregations",
+      "severity": "major",
+      "source_quote": "The only instruments used might be a pitch pipe to give everyone a starting note",
+      "suggested_fix": "Sostituire «un diapason» con «un fischietto d’intonazione» (o «un fischietto per dare la nota»), poiché un pitch pipe è un piccolo strumento a fiato, non un diapason.",
+      "translation_quote": "Gli unici strumenti utilizzati potrebbero essere un diapason per dare a tutti la nota iniziale"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

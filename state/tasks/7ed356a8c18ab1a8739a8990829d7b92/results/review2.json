@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "13ec2615-393b-46db-9c2c-e091f54daa1d",
+    "response_id": "chatcmpl-EV1yOCJNadG9rt04GzVLBYLWdtzD2",
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 392,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6408
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph on Orthodox and Conservative Jewish congregations",
+        "severity": "major",
+        "source_quote": "The only instruments used might be a pitch pipe to give everyone a starting note",
+        "suggested_fix": "Sostituire «un diapason» con «un fischietto d’intonazione» (o «un fischietto per dare la nota»), poiché un pitch pipe è un piccolo strumento a fiato, non un diapason.",
+        "translation_quote": "Gli unici strumenti utilizzati potrebbero essere un diapason per dare a tutti la nota iniziale"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

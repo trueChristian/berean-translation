@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة التي تقتبس مزمور 127:4\",\"severity\":\"major\",\"source_quote\":\"As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.\",\"suggested_fix\":\"استبدل الاقتباس بـ: «كما السهام بيد جبار، هكذا أبناء الشبيبة –مزمور 127:4.»\",\"translation_quote\":\"كما في يد الجبار سهام، كذلك أبناء الشبيبة –مزمور 127:4.\"},{\"location\":\"الفقرة الختامية، شرح مزمور 127:4\",\"severity\":\"major\",\"source_quote\":\"our children will have the potential to outlive us both in years and in usefulness.\",\"suggested_fix\":\"استبدل العبارة بـ: «سيكون لأبنائنا القدرة على أن يعيشوا بعدنا سنوات أكثر وأن يفوقونا نفعًا.»\",\"translation_quote\":\"أمكن لأبنائنا أن يعيشوا بعدنا سنوات أطول وأن يكونوا أكثر نفعًا.\"},{\"location\":\"الفقرة الختامية، شرح مزمور 127:4\",\"severity\":\"major\",\"source_quote\":\"When you release the arrow your children will go places both in time and in the world that you will never see.\",\"suggested_fix\":\"استبدل العبارة بـ: «عندما تطلق السهم، سيذهب أبناؤك إلى أزمنة وأماكن في العالم لن تراها أبدًا.»\",\"translation_quote\":\"وعندما تطلق السهم، سيمضي أبناؤك إلى أماكن في الزمان والعالم لن تراها أبدًا.\"},{\"location\":\"الفقرة الختامية، اقتباس مزمور 127:5\",\"severity\":\"major\",\"source_quote\":\"they shall not be ashamed, but they shall speak with the enemies in the gate\",\"suggested_fix\":\"استبدل الاقتباس بـ: «لا يخزون، بل يتكلمون مع الأعداء عند الباب –مزمور 127:5.»\",\"translation_quote\":\"لا يخزون، بل يكلمون الأعداء في الباب –مزمور 127:5.\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 2039,
+    "content_evidence_truncated": false,
+    "content_sha256": "fdea78079712d5534a5ce7da6d863a0f57f4ef9714a200b9043d5286b39dd12e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8616
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

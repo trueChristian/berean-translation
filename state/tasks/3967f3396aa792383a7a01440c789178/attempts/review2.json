@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“God is OK with this type of music,”\",\"suggested_fix\":\"Replace “Deus não se importa com esse tipo de música” with “Deus aprova esse tipo de música” to preserve the claim that God considers the music acceptable.\",\"translation_quote\":\"“Deus não se importa com esse tipo de música”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 409,
+    "content_evidence_truncated": false,
+    "content_sha256": "7151bc9684a8ea694308839e33200d6a7886f06bb42a3d1707fa976dba13b9a9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 610,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 502,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5562,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6175
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

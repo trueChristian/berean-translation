@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8700
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "অনুচ্ছেদ ৮",
-      "severity": "major",
-      "source_quote": "Will it change the way I live for the other kingdom now?",
-      "suggested_fix": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?—এর বদলে লিখুন: “এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি এর কোনো পরিবর্তন আসবে?”",
-      "translation_quote": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?"
     },
     {
-      "location": "অনুচ্ছেদ ১০",
-      "severity": "major",
-      "source_quote": "As Christians we try to be a peaceful and trusting people",
-      "suggested_fix": "“খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি”–এর বদলে লিখুন: “খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও আস্থাশীল মানুষ হওয়ার চেষ্টা করি”।",
-      "translation_quote": "খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 384,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 248,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5524,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5521,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5908
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Throughout this time period…”",
+      "severity": "major",
+      "source_quote": "“If they are true, how will that affect the way I live for the other kingdom now?”",
+      "suggested_fix": "“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কী প্রভাব পড়বে?”",
+      "translation_quote": "“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি কোনো পরিবর্তন আসবে?”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "ad7b9125d5bcbc71a490543e0a515845",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -178,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

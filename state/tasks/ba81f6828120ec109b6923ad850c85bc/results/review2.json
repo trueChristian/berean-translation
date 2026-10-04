@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c3261a35-2e40-480c-87b7-66e7911ab6e2",
+    "response_id": "chatcmpl-EV1yPqXPKWkW4j1mdw2gqCUg11Cw4",
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4198,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4993
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, paragraph beginning “Jioni hiyo hasa”",
+        "severity": "minor",
+        "source_quote": "“It looked like so much fun as they trotted around the pond and through the lawn.”",
+        "suggested_fix": "Replace “walipokuwa wakizunguka bwawa kwa mwendo wa kunyata” with “walipokuwa wakizunguka bwawa huku farasi wakikimbia kwa hatua fupi” to convey the horses’ trotting gait.",
+        "translation_quote": "“Ilionekana kufurahisha sana walipokuwa wakizunguka bwawa kwa mwendo wa kunyata na kupita kwenye nyasi.”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, puisi bait keenam",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Terjemahkan unsur arah yang tercetak, misalnya: “Sepuluh ribu malaikat dapat saja Ia panggil ke selatan,”",
+      "translation_quote": "Sepuluh ribu malaikat dapat saja Ia panggil datang,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

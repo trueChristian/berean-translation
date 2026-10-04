@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Jesus sier noen vers tidligere»",
+      "severity": "major",
+      "source_quote": "When we first moved to Haiti, we didn’t know what kinds of trees were there. I remember looking up at a large tree on our property and wondering what kind it was. Then something gave it away. There were small avocados hanging from its branches.",
+      "suggested_fix": "Replace «Da vi først flyttet til Haiti, visste vi ikke hva slags trær som vokste der» with «Da vi først flyttet til Haiti, visste vi ikke hva slags trær som fantes der». The source says they did not know what kinds of trees were there, not specifically what kinds grew there.",
+      "translation_quote": "Da vi først flyttet til Haiti, visste vi ikke hva slags trær som vokste der."
+    },
+    {
+      "location": "Paragraph beginning «Et hjerte som ikke er blitt gjort nytt»",
+      "severity": "major",
+      "source_quote": "It is no wonder that many churches of today are accepting drift.",
+      "suggested_fix": "Translate the source’s idea of accepting spiritual drifting, for example: «Det er ikke rart at så mange kirker i dag godtar at folk driver bort fra troen.»",
+      "translation_quote": "Det er ikke rart at så mange kirker i dag godtar at folk driver bort."
+    },
+    {
+      "location": "Paragraph beginning «Folk har sagt til meg»",
+      "severity": "major",
+      "source_quote": "The Scriptures define new Christians… As newborn babes, and commands each of us to desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.",
+      "suggested_fix": "Correct the translated quotation to preserve the source’s «sincere milk of the word» rather than «pure, spiritual milk»: for example, «…som nyfødte barn, og befaler hver av oss å lengte etter Ordets rene melk, så dere kan vokse ved den. –1. Peter 2:2.» Keep the reference number unchanged.",
+      "translation_quote": "Skriften beskriver nye kristne som … nyfødte barn, og befaler hver av oss å lengte etter den rene, åndelige melk, så dere kan vokse ved den. –1. Peter 2:2."
+    },
+    {
+      "location": "Paragraph beginning «Gud vil at vi skal sette all vår lit»",
+      "severity": "major",
+      "source_quote": "We walk by faith, NOT by sight… even when things are going well.",
+      "suggested_fix": "Translate «by sight» as seeing rather than «what we see», preserving the contrast: «Vi vandrer i tro, IKKE ved synet … selv når alt går bra.»",
+      "translation_quote": "Vi vandrer i tro, IKKE ved det vi ser … selv når alt går bra."
+    },
+    {
+      "location": "Paragraph beginning «Jeg ble spurt om å forkynne»",
+      "severity": "major",
+      "source_quote": "I told them that I didn’t understand. I asked how they can say that they are Christians—They don’t look like it! They don’t act like it! They don’t sound like it!—Yet everyone believes them!",
+      "suggested_fix": "Preserve the source’s reported assertion that everyone believes them; replace «og likevel trodde alle på dem!» with «– og likevel tror alle på dem!»",
+      "translation_quote": "Jeg sa at jeg ikke forsto. Jeg spurte hvordan de kunne si at de var kristne – de så ikke ut som kristne! De oppførte seg ikke som kristne! De hørtes ikke ut som kristne! – og likevel trodde alle på dem!"
+    },
+    {
+      "location": "Paragraph beginning «Bibelen sier at»",
+      "severity": "major",
+      "source_quote": "…the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23.",
+      "suggested_fix": "Translate «faith» as «trofasthet» (or another faithful equivalent in this list), not «tro», which changes the listed fruit’s meaning. For example: «…Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, trofasthet, ydmykhet og selvbeherskelse … –Galaterne 5:22–23.»",
+      "translation_quote": "…Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, tro, ydmykhet og selvbeherskelse … –Galaterne 5:22–23."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

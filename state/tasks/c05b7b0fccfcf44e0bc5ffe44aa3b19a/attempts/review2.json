@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, avsnittet som begynner «I 1 Peter»\",\"severity\":\"major\",\"source_quote\":\"In 1 Peter, the apostle Peter calls us to “honor the king”\",\"suggested_fix\":\"Endre til «I 1. Peter oppfordrer apostelen Peter oss til å …» → «I 1. Peter oppfordrer apostelen Peter oss til å» er ikke tilstrekkelig; oversett troskap mot den trykte teksten slik: «I 1. Peter kaller apostelen Peter oss til å …». (Rett kun uttrykket «oppfordrer … oss» til «kaller … oss».)\",\"translation_quote\":\"I 1. Peter oppfordrer apostelen Peter oss til å «ære kongen»\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 624,
+    "content_evidence_truncated": false,
+    "content_sha256": "23173b70ce98e07738cac918d796522fc6e4a0f7ac68379e19005fb8d419c648",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 186,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5338
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

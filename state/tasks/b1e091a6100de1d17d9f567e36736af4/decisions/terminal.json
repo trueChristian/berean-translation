@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "הפסקה האחרונה, רשימת התיאוריות",
+      "severity": "major",
+      "source_quote": "They blindly cling to various theories such as: The Big Bang, Punctuated Equilibrium, and Descent with Modification.",
+      "suggested_fix": "החליפו את „מוצא עם שינויים” ב„מוצא תוך כדי שינוי” כדי לשמר את משמעות המונח Descent with Modification.",
+      "translation_quote": "המפץ הגדול, שיווי משקל מקוטע, ומוצא עם שינויים"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

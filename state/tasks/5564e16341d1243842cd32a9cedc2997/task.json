@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,46 @@
         },
         "total_tokens": 9851
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1074,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 847,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6257,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6254,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7331
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “Giovanni Pierluigi da Palestrina…”",
-      "severity": "major",
-      "source_quote": "‘The Palestrina Style,’ as it is called, was a sophisticated A cappella form",
-      "suggested_fix": "Replace “aina ya kisasa ya A cappella” with “aina changamano ya A cappella” to convey “sophisticated” rather than “modern.”",
-      "translation_quote": "“Mtindo wa Palestrina,” kama unavyoitwa, ulikuwa aina ya kisasa ya A cappella"
+      "location": "Paragraph beginning “And at midnight Paul and Silas…”",
+      "severity": "minor",
+      "source_quote": "the doors flew open",
+      "suggested_fix": "Replace “milango ikafunguka kwa kishindo” with “milango ikafunguka ghafla” to convey that the doors flew open without adding a banging sound.",
+      "translation_quote": "milango ikafunguka kwa kishindo"
     },
     {
-      "location": "Acts 16:25 paragraph",
-      "severity": "major",
-      "source_quote": "the doors flew open, and everyone’s prison bands broke.",
-      "suggested_fix": "Revise the sentence to preserve both details: “milango ikafunguka kwa kishindo, na vifungo vya wafungwa wote vikavunjika.”",
-      "translation_quote": "milango ikafunguka, na vifungo vya kila mtu gerezani vikalegea."
-    },
-    {
-      "location": "Colossians 3:16 quotation",
-      "severity": "major",
-      "source_quote": "singing with grace in your hearts to the Lord",
-      "suggested_fix": "Replace “mbele za Mungu” with “kwa Bwana” so the quotation retains the source’s stated recipient.",
-      "translation_quote": "huku mkiimba kwa neema mioyoni mwenu mbele za Mungu"
+      "location": "Paragraph beginning “Pure and holy music is a blessing…”",
+      "severity": "minor",
+      "source_quote": "It helps me stay calm, be encouraged, and keep my mind on the Lord.",
+      "suggested_fix": "Change “Hunisaidia kutulia, kutia moyo, na kuweka akili yangu kwa Bwana” to “Hunisaidia kutulia, kutiwa moyo, na kuweka akili yangu kwa Bwana” so “be encouraged” remains passive.",
+      "translation_quote": "Hunisaidia kutulia, kutia moyo, na kuweka akili yangu kwa Bwana"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "5564e16341d1243842cd32a9cedc2997",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -179,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

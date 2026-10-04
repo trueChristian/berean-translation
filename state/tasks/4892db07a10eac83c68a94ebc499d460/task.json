@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 13535
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 855,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 595,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8553,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8550,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9408
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文，关于教会要求成员端庄穿着的段落",
+      "location": "Lead paragraph, quoted Matthew 7:22",
       "severity": "major",
-      "source_quote": "the church soon gives in and no longer requires their people to dress and live modestly.",
-      "suggested_fix": "将“教会很快就会让步，不再要求成员穿着端庄、生活端庄”改为“教会很快就会让步，不再要求成员穿着端庄、过端庄的生活”，以准确表达穿着与生活都要端庄。",
-      "translation_quote": "教会很快就会让步，不再要求成员穿着端庄、生活端庄。"
+      "source_quote": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name?",
+      "suggested_fix": "将引文中的“奉你的名传道”改为“奉你的名说预言”，以对应原文的“prophesied”。",
+      "translation_quote": "当那日，必有许多人对我说：主啊，主啊，我们不是奉你的名传道，"
     },
     {
-      "location": "正文，讲述一千年前被囚禁的人的段落",
+      "location": "Paragraph beginning “有人宣称自己已经归信时”",
       "severity": "major",
-      "source_quote": "He’s claustrophobic, weary, and worn.",
-      "suggested_fix": "将“他幽闭恐惧，疲惫不堪，身心俱损”改为“他患有幽闭恐惧症，疲惫不堪，身心交瘁”或其他能表达幽闭恐惧的说法。",
-      "translation_quote": "他幽闭恐惧，疲惫不堪，身心俱损。"
-    },
-    {
-      "location": "正文，宣教士讲述教会崇拜的段落",
-      "severity": "major",
-      "source_quote": "The service began and I realized quickly that this was not a good place for my family, so I took them home and returned by myself.",
-      "suggested_fix": "将“聚会开始后，我很快意识到这里不适合我的家人，于是送他们回家，自己再回来”改为明确表达作者把家人带回家后，自己返回教会。",
-      "translation_quote": "聚会开始后，我很快意识到这里不适合我的家人，于是送他们回家，自己再回来。"
-    },
-    {
-      "location": "正文，关于教会只凭基督徒自称来判断的段落",
-      "severity": "major",
-      "source_quote": "For Christians we are expected to judge by what they claim.",
-      "suggested_fix": "将“对于基督徒，我们却被期待只凭他们的自称来判断”改为“对于基督徒，我们却被要求只凭他们的自称来判断”，以清楚表达社会对人们的期待。",
-      "translation_quote": "对于基督徒，我们却被期待只凭他们的自称来判断。"
+      "source_quote": "practical, foundational doctrines like non-conformity, non-resistance, and such like.",
+      "suggested_fix": "将“非暴力”改为“不抵抗（主义）”或目标语中表达基督教 non-resistance 教义的惯用说法；保留“不从世俗”等对应 non-conformity 的译法。",
+      "translation_quote": "解释不从世俗、非暴力等实际而基础的教义。"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "4892db07a10eac83c68a94ebc499d460",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

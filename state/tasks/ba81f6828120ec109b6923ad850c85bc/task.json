@@ -2,7 +2,6 @@
   "article_id": "97d8ed1e-7d4a-471d-8508-727664288d74",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 6738
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 792,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 630,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4201,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4198,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4993
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, paragraph beginning “Ramona was a little girl…”",
-      "severity": "major",
-      "source_quote": "“Like other four-year-old’s, there were a lot of things Ramona could do. She could ride a bike, climb a tree, wash dishes, write her name, and ride her pony all by herself.”",
-      "suggested_fix": "Replace the affected sentence with: “Kama watoto wengine wa miaka minne, Ramona aliweza kufanya mambo mengi. Aliweza kuendesha baiskeli, kupanda mti, kuosha vyombo, kuandika jina lake, na kumpanda farasi wake mdogo peke yake.”",
-      "translation_quote": "“Kama watoto wengine wa miaka minne, Ramona aliweza kufanya mambo mengi. Aliweza kuendesha baiskeli, kupanda mti, kuosha vyombo, kuandika jina lake, na kumpanda farasi wake mdogo peke yake.”"
-    },
-    {
-      "location": "html, paragraph beginning “One beautiful Summer evening…”",
-      "severity": "major",
-      "source_quote": "“Her siblings and their guests were riding nearby.”",
-      "suggested_fix": "Replace “Ndugu na dada zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.” with “Ndugu zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.” This avoids implying that her siblings were both brothers and sisters, which the source does not specify.",
-      "translation_quote": "“Ndugu na dada zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.”"
-    },
-    {
-      "location": "html, paragraph beginning “Before putting her to bed…”",
-      "severity": "major",
-      "source_quote": "“The Bible says, Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”",
-      "suggested_fix": "Within the existing <em> element, use: “Biblia inasema, <em>Kiburi hutangulia uharibifu, na roho ya majivuno hutangulia anguko –Mithali 16:18.</em>” Keep the verse reference number and its placement unchanged.",
-      "translation_quote": "“Biblia inasema, <em>Kiburi hutangulia uangamivu; na roho yenye majivuno hutangulia maanguko –Mithali 16:18.</em>”"
+      "location": "source.html / translation.html, paragraph beginning “Jioni hiyo hasa”",
+      "severity": "minor",
+      "source_quote": "“It looked like so much fun as they trotted around the pond and through the lawn.”",
+      "suggested_fix": "Replace “walipokuwa wakizunguka bwawa kwa mwendo wa kunyata” with “walipokuwa wakizunguka bwawa huku farasi wakikimbia kwa hatua fupi” to convey the horses’ trotting gait.",
+      "translation_quote": "“Ilionekana kufurahisha sana walipokuwa wakizunguka bwawa kwa mwendo wa kunyata na kupita kwenye nyasi.”"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "ba81f6828120ec109b6923ad850c85bc",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3afe3193f88de971053d6bc9f8f2b47e5b930a326842e12fe0e764e30c7a8db.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
   "translation_model_actual": "gpt-6-luna"

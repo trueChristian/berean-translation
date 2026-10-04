@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphs 2, 4, 7, and 12\",\"severity\":\"major\",\"source_quote\":\"“our plain communities” / “the plain community” / “Many of the plain community” / “The unity within our groups”\",\"suggested_fix\":\"Replace the added identification as Mennonite and Amish communities with wording that does not specify groups absent from the source. For example, use “våra konservativa kristna gemenskaper” for “our plain communities” and “de konservativa kristna gemenskaperna” for “the plain community.” In the final instance, retain the source’s broader “våra grupper” rather than adding a Mennonite/Amish identification.\",\"translation_quote\":\"“våra mennonitiska och amishiska gemenskaper” / “de mennonitiska och amishiska gemenskaperna” / “Enheten i våra mennonitiska och amishiska gemenskaper”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 885,
+    "content_evidence_truncated": false,
+    "content_sha256": "8fc12f0a973d8af783debd362950e491ade56d6a4e49464f6bcb543d13c28234",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5111,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5108,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5979
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

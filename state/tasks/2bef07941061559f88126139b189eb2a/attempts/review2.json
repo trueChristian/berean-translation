@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"minor\",\"source_quote\":\"our Abba Father\",\"suggested_fix\":\"Replace «أبانا أبا» with «أبانا أبا» only if intentionally preserving the title; for clear, natural Arabic, use «أبانا» or «أبانا السماوي» while retaining the source’s meaning.\",\"translation_quote\":\"أبانا أبا\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 400,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b00404b1e5417e19530fb63cac51b377b0bf76ede96b50a3d16ea07b7c03ea4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5818
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

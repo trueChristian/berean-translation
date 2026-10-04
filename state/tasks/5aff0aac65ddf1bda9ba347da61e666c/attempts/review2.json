@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, stanza beginning «Ten tusen engler»\",\"severity\":\"minor\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"Preserve the directional detail, for example: «Ti tusen engler kunne han ha kalt til seg mot sør,»\",\"translation_quote\":\"Ti tusen engler kunne han ha kalt ned,\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 372,
+    "content_evidence_truncated": false,
+    "content_sha256": "318288e094213700fa6009a47f00c36e52076762ae39d421a09cb47b0a194f1c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 699,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2701
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

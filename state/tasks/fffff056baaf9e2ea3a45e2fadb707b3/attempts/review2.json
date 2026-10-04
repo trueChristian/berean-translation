@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 3\",\"severity\":\"minor\",\"source_quote\":\"Not seeking money and friends or trying to succeed.\",\"suggested_fix\":\"অর্থ বা বন্ধু খোঁজা কিংবা সফল হওয়ার চেষ্টা—কিছুই নয় তাঁর সাধন।\",\"translation_quote\":\"অর্থ-বন্ধু খোঁজা কিংবা সফল হওয়ার চেষ্টা—কিছুই নয় তাঁর সাধন।\"},{\"location\":\"Poem, stanza 6\",\"severity\":\"minor\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডাকতে পারতেন,\",\"translation_quote\":\"দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,\"},{\"location\":\"Poem, final stanza\",\"severity\":\"major\",\"source_quote\":\"Now the Father and I—a relationship restored!\",\"suggested_fix\":\"এখন পিতার সঙ্গে আমার—সম্পর্ক পুনঃস্থাপিত হলো!\",\"translation_quote\":\"এখন পিতার সঙ্গে আমার—সম্পর্ক আবার হলো নতুন!\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1339,
+    "content_evidence_truncated": false,
+    "content_sha256": "f851db91b95f9de6afdb30ff8568b09642c3688ac17a648783cdab2157eece0a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 955,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 708,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2016,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2013,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2971
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

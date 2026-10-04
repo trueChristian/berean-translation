@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,53 +64,54 @@
         },
         "total_tokens": 11542
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “We always worship something…”",
-      "severity": "major",
-      "source_quote": "“Usually, music like CCM tends to draw attention to ourselves and not to God.”",
-      "suggested_fix": "Replace only the corresponding sentence with: “সাধারণত, CCM-এর মতো সংগীত আমাদের দৃষ্টি ঈশ্বরের দিকে নয়, নিজেদের দিকে টানে।”",
-      "translation_quote": "“সাধারণত, CCM-এর মতো সংগীত আমাদের দৃষ্টি ঈশ্বরের দিকে নয়, নিজেদের দিকে টানে।”"
     },
     {
-      "location": "HTML, paragraph beginning “The Hebrews started the tradition…”",
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 442,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6577,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6574,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7019
+      }
+    }
+  ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “দ্বিতীয় মন্দিরের পতনের পর”",
       "severity": "major",
       "source_quote": "“The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.”",
-      "suggested_fix": "Replace only the corresponding sentence with: “দ্বিতীয় মন্দিরের পতনের পর, ৭০ খ্রিস্টাব্দে, ইহুদিরা সঙ্গতবিহীন সংগীতের প্রথা শুরু করে; পতনের পর শোকের সময় বাদ্যযন্ত্র ব্যবহারের অনুমতি ছিল না।”",
+      "suggested_fix": "“দ্বিতীয় মন্দিরের পতনের পর, ৭০ খ্রিস্টাব্দে, ইব্রীয়রা বাদ্যযন্ত্র ছাড়া সংগীত ব্যবহারের প্রথা শুরু করে; সেই সময় পতনের পর শোকের একটি সময়কালে বাদ্যযন্ত্র ব্যবহারের অনুমতি ছিল না।”",
       "translation_quote": "“দ্বিতীয় মন্দিরের পতনের পর, ৭০ খ্রিস্টাব্দে, ইহুদিরা বাদ্যযন্ত্র ছাড়া সংগীত ব্যবহারের প্রথা শুরু করে; পতনের পর শোকের সময় বাদ্যযন্ত্র ব্যবহারের অনুমতি ছিল না।”"
     },
     {
-      "location": "HTML, paragraph beginning “The Apostle Paul writes…”",
+      "location": "HTML, paragraph beginning “অলিভ পর্বতে যাওয়ার আগে”",
       "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord; –Ephesians 5:19.”",
-      "suggested_fix": "Replace only the quoted passage with: “পরস্পরের সঙ্গে গীতসংহিতা, স্তোত্র ও আত্মিক গান নিয়ে কথা বলো; তোমাদের হৃদয়ে প্রভুর উদ্দেশে গান করো ও সুর তোলো; –ইফিষীয় ৫:১৯।”",
-      "translation_quote": "“গীতসংহিতা, স্তোত্র ও আত্মিক গানের মাধ্যমে পরস্পরের সঙ্গে কথা বলো; তোমাদের হৃদয়ে প্রভুর উদ্দেশে গান করো এবং সুর তোলো; –ইফিষীয় ৫:১৯।”"
+      "source_quote": "“I wonder what hymn Jesus sang with His disciples at the last supper before He went out to the Mount of Olives.”",
+      "suggested_fix": "“অলিভ পর্বতে যাওয়ার আগে শেষ ভোজে যিশু তাঁর শিষ্যদের সঙ্গে কোন স্তোত্র গেয়েছিলেন, তা আমার মনে প্রশ্ন জাগায়।”",
+      "translation_quote": "“অলিভ পর্বতে যাওয়ার আগে শেষ ভোজে যিশু তাঁর শিষ্যদের সঙ্গে কোন স্তোত্র গেয়েছিলেন, তা ভাবি।”"
     },
     {
-      "location": "HTML, paragraph beginning “And at midnight Paul and Silas prayed…”",
-      "severity": "major",
-      "source_quote": "“And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them –Acts 16:25.”",
-      "suggested_fix": "Replace only the quoted passage with: “আর মধ্যরাতে পৌল ও সীল প্রার্থনা করছিলেন এবং ঈশ্বরের প্রশংসা গাইছিলেন; বন্দিরা তাঁদের শুনছিল –প্রেরিত ১৬:২৫।”",
-      "translation_quote": "“আর মধ্যরাত্রে পৌল ও সীল প্রার্থনা করছিলেন এবং ঈশ্বরের প্রশংসা গাইছিলেন; আর বন্দিরা তা শুনছিল –প্রেরিত ১৬:২৫।”"
-    },
-    {
-      "location": "HTML, paragraph beginning “Colossians also tells us…”",
-      "severity": "major",
-      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord –Colossians 3:16.”",
-      "suggested_fix": "Replace only the quoted passage with: “খ্রিস্টের বাক্য সমস্ত প্রজ্ঞাসহ তোমাদের মধ্যে প্রচুর পরিমাণে বাস করুক; গীতসংহিতা, স্তোত্র ও আত্মিক গানের মাধ্যমে পরস্পরকে শিক্ষা ও সতর্ক করো, এবং তোমাদের হৃদয়ে অনুগ্রহসহকারে প্রভুর উদ্দেশে গান করো –কলসীয় ৩:১৬।”",
-      "translation_quote": "“খ্রিস্টের বাক্যকে সমস্ত প্রজ্ঞাসহ তোমাদের মধ্যে প্রচুর পরিমাণে বাস করতে দেওয়া; গীতসংহিতা, স্তোত্র ও আত্মিক গানের মাধ্যমে পরস্পরকে শিক্ষা ও উপদেশ দেওয়া, এবং তোমাদের হৃদয়ে অনুগ্রহসহকারে প্রভুর উদ্দেশে গান করা –কলসীয় ৩:১৬।”"
-    },
-    {
-      "location": "HTML, paragraph beginning “Jesus says…”",
-      "severity": "major",
-      "source_quote": "“But the hour cometh, and now is, when the true worshippers shall worship the Father in spirit and in truth: for the Father seeketh such to worship him –John 4:23.”",
-      "suggested_fix": "Replace only the quoted passage with: “কিন্তু সময় আসছে, আর এখনই উপস্থিত, যখন প্রকৃত উপাসকেরা আত্মায় ও সত্যে পিতার উপাসনা করবে; কারণ পিতা এমন উপাসকদেরই খোঁজেন –যোহন ৪:২৩।”",
-      "translation_quote": "“কিন্তু সেই সময় আসছে, আর এখনই তা উপস্থিত, যখন সত্য উপাসকেরা আত্মায় ও সত্যে পিতার উপাসনা করবে; কারণ পিতা এমন উপাসকদেরই খোঁজেন –যোহন ৪:২৩।”"
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "“What Is Right About My Music?”",
+      "suggested_fix": "“আমার সংগীত সম্পর্কে কোনটি সঠিক?”-এর বদলে আরও স্বাভাবিক শিরোনাম: “আমার সংগীতের কোন দিকটি সঠিক?”",
+      "translation_quote": "“আমার সংগীত সম্পর্কে কোনটি সঠিক?”"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "a6addd2b5b5386040a9fe5d575970de3",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -200,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

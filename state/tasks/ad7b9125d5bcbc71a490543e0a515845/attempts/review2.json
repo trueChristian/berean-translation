@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Throughout this time period…”\",\"severity\":\"major\",\"source_quote\":\"“If they are true, how will that affect the way I live for the other kingdom now?”\",\"suggested_fix\":\"“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কী প্রভাব পড়বে?”\",\"translation_quote\":\"“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি কোনো পরিবর্তন আসবে?”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 753,
+    "content_evidence_truncated": false,
+    "content_sha256": "2126a7f221b6cf7ee9eccb28e06f39c4f92c5ab3a8d21bbd0d15fcfc92b0e537",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 248,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5521,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5908
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

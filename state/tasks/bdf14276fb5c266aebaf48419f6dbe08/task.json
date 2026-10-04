@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,39 +64,54 @@
         },
         "total_tokens": 9642
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 345,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6045,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6042,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6390
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "פסקה 3",
+      "location": "Paragraph 3",
       "severity": "major",
       "source_quote": "The primary purpose of music is to worship (the expression of reverence and adoration to something or someone).",
-      "suggested_fix": "שנו ל: „מטרתה העיקרית של המוזיקה היא עבודת אלוהים (ביטוי של יראת כבוד והערצה כלפי דבר או אדם).” כך נשמרת ההגדרה הכללית שבמקור, שאינה אומרת שכל מוזיקה מיועדת לעבודת אלוהים.",
-      "translation_quote": "מטרתה העיקרית של המוזיקה היא לעבוד את אלוהים (לבטא יראת כבוד והערצה כלפי דבר או אדם)."
+      "suggested_fix": "Replace the parenthetical with: „(ביטוי של יראת כבוד והערצה כלפי דבר או מישהו)”. The current Hebrew says “a thing or a person” as if it were an object or person, but renders neither “something” nor “someone” naturally.",
+      "translation_quote": "(ביטוי של יראת כבוד והערצה כלפי דבר או אדם)"
     },
     {
-      "location": "פסקה 9, הציטוט מפיליפים 4:8",
+      "location": "Paragraph 9",
       "severity": "major",
-      "source_quote": "whatsoever things are lovely",
-      "suggested_fix": "תקנו את „כל אשר אהוב” ל„כל אשר נאהב” או לניסוח עברי טבעי אחר שמשמעו דברים הראויים לאהבה; „אהוב” מציין דבר שמישהו כבר אוהב, ולא את האיכות שבמקור.",
-      "translation_quote": "כל אשר אהוב"
+      "source_quote": "The devil uses it all to influence people to sin or to think about sin.",
+      "suggested_fix": "Replace „השטן משתמש בכל זה כדי להשפיע על אנשים לחטוא או לחשוב על חטא” with „השטן משתמש בכל זה כדי לפתות אנשים לחטוא או להרהר בחטא”.",
+      "translation_quote": "השטן משתמש בכל זה כדי להשפיע על אנשים לחטוא או לחשוב על חטא."
     },
     {
-      "location": "פסקה 16",
+      "location": "Paragraph 18",
       "severity": "major",
-      "source_quote": "And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them –Acts 16:25.",
-      "suggested_fix": "תקנו את הציטוט ל: „ובחצות הלילה התפללו פאולוס וסילא, שרו תהילות לאלוהים, והאסירים שמעו אותם – מעשי השליחים 16:25.” בתרגום חסר הקשר „התפללו” לפני „שרו”.",
-      "translation_quote": "ובחצות הלילה התפללו פאולוס וסילא ושרו לאלוהים תהילות, והאסירים שמעו אותם – מעשי השליחים 16:25."
-    },
-    {
-      "location": "פסקה 20",
-      "severity": "major",
-      "source_quote": "So, let us sing in sincere worship to our Creator",
-      "suggested_fix": "החליפו את „בשבח כן” ב„בעבודת אלוהים כנה” או „בפולחן כן”; המקור אומר לשיר בעבודת אלוהים כנה, לא לשיר שבח כן.",
-      "translation_quote": "לכן הבה נשיר בשבח כן לבוראנו"
+      "source_quote": "When my mind is on the Lord, I can go through the day blest.",
+      "suggested_fix": "Replace „אני יכול לעבור את היום מבורך” with „אני יכול לעבור את היום בתחושת ברכה” or „אני יכול לעבור את היום כשאני מבורך”.",
+      "translation_quote": "כשהמחשבה שלי נתונה לאדון, אני יכול לעבור את היום מבורך."
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "bdf14276fb5c266aebaf48419f6dbe08",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -186,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

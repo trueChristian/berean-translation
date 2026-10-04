@@ -2,7 +2,6 @@
   "article_id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 7001
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 645,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 613,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4501,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4498,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5146
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "마지막 문단, 이론 목록",
-      "severity": "major",
-      "source_quote": "Descent with Modification",
-      "suggested_fix": "“변이를 동반한 계승”으로 수정해 계통적 계승이라는 뜻을 살려 주세요.",
-      "translation_quote": "변형을 동반한 하강"
-    },
-    {
-      "location": "마지막 문단, 무신론자들이 현실에 근거한다고 주장하는 부분",
-      "severity": "minor",
-      "source_quote": "they still claim to base all their thoughts on observable, repeatable reality",
-      "suggested_fix": "“관찰하고 반복해서 확인할 수 있는 현실에 자신들의 모든 생각을 근거한다고 계속 주장합니다”처럼 문장을 다듬어 주세요.",
-      "translation_quote": "관찰하고 반복해서 확인할 수 있는 현실에 모든 생각을 근거한다고 계속 주장합니다"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "99a8dc648ab0525ed1dbbec8a2fc55c0",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 16046
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 782,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9904,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9901,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10686
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Relationship with God, paragraph beginning “How does a parent lead his child to salvation?”",
-      "severity": "major",
-      "source_quote": "Be aware of evidence of conviction.",
-      "suggested_fix": "Replace «ενδείξεις ελέγχου της συνείδησης» with «ενδείξεις πνευματικής πεποίθησης» so the phrase refers to spiritual conviction, not control of conscience.",
-      "translation_quote": "Να είστε σε εγρήγορση για ενδείξεις ελέγχου της συνείδησης."
-    },
-    {
-      "location": "Relationship with God, paragraph beginning “Hopefully, you have nurtured a relationship…”",
-      "severity": "major",
-      "source_quote": "We recognized signs of conviction",
-      "suggested_fix": "Replace «σημάδια ελέγχου της συνείδησης» with «σημάδια πνευματικής πεποίθησης» to preserve the source’s meaning.",
-      "translation_quote": "Αναγνωρίσαμε σημάδια ελέγχου της συνείδησης"
+      "location": "HTML, paragraph beginning «Η ανατροφή εφήβων…»",
+      "severity": "minor",
+      "source_quote": "Raising teens is a rewarding experience",
+      "suggested_fix": "Replace «ανταποδοτική εμπειρία» with «ικανοποιητική εμπειρία» or «επιβραβευτική εμπειρία» to convey that raising teens is gratifying.",
+      "translation_quote": "Η ανατροφή εφήβων είναι μια ανταποδοτική εμπειρία"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "9db60f049bfafaf5c97a02d010e03d85",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ell",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 8514
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5666,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6207
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, Colossians 3:16 quotation",
-      "severity": "major",
-      "source_quote": "Let the word of Christ dwell in you richly in all wisdom;",
-      "suggested_fix": "Change the beginning of the quotation to «Que la palabra de Cristo more en abundancia en vosotros, con toda sabiduría, ...» so the Spanish retains the source’s imperative to let Christ’s word dwell in the believers.",
-      "translation_quote": "La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros con toda sabiduría, ..."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "59254c81c3f8492c2a50ffa8692a7074",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "spa",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

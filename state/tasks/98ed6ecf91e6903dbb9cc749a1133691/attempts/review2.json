@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"النص الرئيسي، فقرة «تُظهر الأسفار المقدسة المسيحيين الجدد...»\",\"severity\":\"major\",\"source_quote\":\"The Scriptures define new Christians… As newborn babes, and commands each of us to desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.\",\"suggested_fix\":\"استبدل «تصف الأسفار المقدسة المسيحيين الجدد بأنهم...» بـ«وتعرّف الأسفار المقدسة المسيحيين الجدد بأنهم...»؛ فالمقصود أن الكتاب يعرّفهم بهذه الصفة، لا أنه يصفهم بها فحسب.\",\"translation_quote\":\"تصف الأسفار المقدسة المسيحيين الجدد بأنهم... «أطفالًا مولودين الآن»\"},{\"location\":\"النص الرئيسي، فقرة «النعمة للتعلم والنمو»\",\"severity\":\"major\",\"source_quote\":\"Every example in the Bible says differently.\",\"suggested_fix\":\"استبدل «كل الأمثلة في الكتاب المقدس تقول عكس ذلك» بـ«كل الأمثلة في الكتاب المقدس تدل على عكس ذلك».\",\"translation_quote\":\"كل الأمثلة في الكتاب المقدس تقول عكس ذلك.\"},{\"location\":\"النص الرئيسي، فقرة الشجرة المثمرة، اقتباس متى 7:16-20\",\"severity\":\"major\",\"source_quote\":\"Do men gather grapes of thorns, or figs of thistles?\",\"suggested_fix\":\"صحح «هل يجتنون من الشوك عنبًا، أو من الحسك تينًا؟» إلى «هل يجتنون من الشوك عنبًا، أو من العوسج تينًا؟» لتمييز نوع الشوك المذكور في الجزء الثاني من الاقتباس.\",\"translation_quote\":\"هل يجتنون من الشوك عنبًا، أو من الحسك تينًا؟\"},{\"location\":\"النص الرئيسي، الفقرة الأخيرة\",\"severity\":\"minor\",\"source_quote\":\"it feels good—it is fulfilling.\",\"suggested_fix\":\"استبدل «نشعر بالرضا—فهو أمر مُرضٍ» بـ«نشعر بالرضا—فهو أمر مُشبع» لتجنب تكرار المعنى بلفظين متقاربين.\",\"translation_quote\":\"نشعر بالرضا—فهو أمر مُرضٍ.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 2327,
+    "content_evidence_truncated": false,
+    "content_sha256": "8a4cfad2039e6b6a53dcf4a82f3bf2b420c9da74593007f0f767a8b6f6d770d8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8763,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8760,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9259
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

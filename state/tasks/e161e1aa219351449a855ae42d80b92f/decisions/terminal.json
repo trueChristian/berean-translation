@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf yang dimulai “Sterling was stunned and blessed…”",
+      "severity": "major",
+      "source_quote": "Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.",
+      "suggested_fix": "Ganti bagian ini dengan: “Alih-alih menahannya dan menuntut agar ia menyerah pada keinginan kami, kami sepakat menggunakan tongkat kecil berulang kali untuk menegur sikap keras kepalanya.”",
+      "translation_quote": "Alih-alih menahannya dan menuntut agar ia menyerah pada keinginan kami, kami sepakat menggunakan pukulan-pukulan ringan berulang kali dengan ranting tipis untuk menegur sikap keras kepalanya."
+    },
+    {
+      "location": "Paragraf yang dimulai “Minggu itu berat.”",
+      "severity": "major",
+      "source_quote": "Sterling worked with Judson gently and firmly, speaking to him, spanking, holding.",
+      "suggested_fix": "Ganti “memeluknya” dengan “menahannya” agar tindakan “holding” tidak diubah menjadi pelukan: “Sterling menghadapi Judson dengan lembut dan tegas, berbicara kepadanya, memukulnya, dan menahannya.”",
+      "translation_quote": "Sterling menghadapi Judson dengan lembut dan tegas, berbicara kepadanya, memukulnya, dan memeluknya."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ca402b2-d9ec-411e-a5fb-cd8f3ecfc645",
+    "response_id": "chatcmpl-EV1y7tPuBQjPeLvCcuzn3iMukO75p",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6095
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 10",
+        "severity": "major",
+        "source_quote": "The Apostle Peter said that … –2 Timothy 1:7.",
+        "suggested_fix": "رسول پطرس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>",
+        "translation_quote": "رسول پولس نے کہا کہ <em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

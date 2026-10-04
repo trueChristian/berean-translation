@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section « La soumission active la puissance », citation de Matthieu 9:8",
+      "severity": "major",
+      "source_quote": "“But when the multitudes saw it, they marvelled, and glorified God”",
+      "suggested_fix": "Dans la citation, remplacez « La foule, ayant vu ces prodiges, fut remplie de crainte » par « La foule, ayant vu cela, s’émerveilla et glorifia Dieu » (ou une formulation française équivalente qui rend « marvelled » sans ajouter la crainte).",
+      "translation_quote": "« La foule, ayant vu ces prodiges, fut remplie de crainte, et elle glorifia Dieu »"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

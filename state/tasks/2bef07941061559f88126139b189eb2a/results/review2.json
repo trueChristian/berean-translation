@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b380bb5-ab19-49bd-a337-9ae0e26b5f9f",
+    "response_id": "chatcmpl-EV1xtTjwaL4qeEVSzkuR0k4FdNWW5",
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5818
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "our Abba Father",
+        "suggested_fix": "Replace «أبانا أبا» with «أبانا أبا» only if intentionally preserving the title; for clear, natural Arabic, use «أبانا» or «أبانا السماوي» while retaining the source’s meaning.",
+        "translation_quote": "أبانا أبا"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

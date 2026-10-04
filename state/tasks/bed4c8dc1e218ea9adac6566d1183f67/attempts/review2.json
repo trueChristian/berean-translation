@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Romans 1:18 quotation\",\"severity\":\"major\",\"source_quote\":\"“against all the godlessness and wickedness of people”\",\"suggested_fix\":\"Change «impiedad e injusticia» to «impiedad y maldad» to preserve the printed meaning of “wickedness.”\",\"translation_quote\":\"«contra toda impiedad e injusticia de quienes con su maldad reprimen la verdad»\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 418,
+    "content_evidence_truncated": false,
+    "content_sha256": "baf11a56e1e0162990d19fa9b3471c071cc07c51db3204cec760bb6d6b2dbce6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 773,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4052,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4828
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “But it wasn’t only the digestive mystery…”",
+      "severity": "minor",
+      "source_quote": "“I became used to pinning him over my shoulder while I quickly ate, one-handed.”",
+      "suggested_fix": "“मुझे उसे अपने कंधे पर टिकाकर, एक हाथ से जल्दी-जल्दी खाना खाने की आदत-सी हो गई।”",
+      "translation_quote": "“मुझे उसकी बाँह अपने कंधे पर टिकाकर एक हाथ से जल्दी-जल्दी खाना खाने की आदत-सी हो गई।”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -625,6 +625,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "f5b7646b9d42d9f27c7278a89f87dbaaa5e02a1587bb2f45e827a1ecd0faf097",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Rooi appels wat aan ’n lowerryke appelboom hang",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "’n Enkele rooi appel op ’n liggrys oppervlak",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "cd2ccd32c1136d91b336b01816f9152a538d28a626bf6526c599ece496bac3a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "OORDENKINGS VAN ’N SENDELING",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aan hul vrugte sal julle hulle ken",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "833540d39a928413d8af1c5668c541d3c16de9db7bed7504a87fa58697d52217",
       "human_reviewed": false,
@@ -652,6 +684,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Die krag van God",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "fe21a94f45c7576186bb157caa3d7a3b1af3a25981e98c9444866f60135880f2",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Silhoeët van ’n jong persoon wat onder ’n rooi sonsonderganghemel staan",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "f74927f442049b3fc2ad7dfb1bf6c66da6daafcf889f66fbd5906c30e737d986",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DIE GODVRESENDE HUIS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Ouerskap van tieners",
+      "title": "Van kinderjare tot volwassenheid",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -1018,6 +1078,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Die Vergete Seël",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "e1e89586ec78e14300b6e99fe3e63ea9513503e30a90e4cbdae350ee8c985457",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "’n Groot boom met digte blare langs ’n groen veld onder ’n blou lug",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "8005bb15d1e7d2661cf5cb7d5d6ea20ffa66ced57af8b0b59eaf8162d6e37d9e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedig",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’n Lydende Verlosser",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -3820,6 +3908,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "12a7ee58ec4fb467c8f1a487f1accbab5f51b245efc2e7993a3d827e7eb3197a",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "الأرض ليلًا كما تُرى من المدار، ومدنها مضاءة",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "من المحرر",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "800e9183c2cafcf985b02ac7b6876c49477097a176216d659d96cba2bfce0bea",
       "human_reviewed": false,
@@ -4088,6 +4204,42 @@
       "subtitle": null,
       "title": "النعمة العجيبة",
       "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
+      "html_sha256": "86f0ce556b2dde6c1b689f6076b15f78b74bcbe2f4a09700da1ca7746692c24e",
+      "human_reviewed": false,
+      "id": "97d8ed1e-7d4a-471d-8508-727664288d74",
+      "images": [
+        {
+          "alt": "فتاة صغيرة بجانب كلب كبير قرب بوابة معدنية للمرعى",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png"
+        },
+        {
+          "alt": "نوتة موسيقية لعبارة «الكبرياء تسبق الهلاك، والروح المتعالية تسبق السقوط.»",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png"
+        },
+        {
+          "alt": "فتاتان صغيرتان مع خيل في مرعى عشبي",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/97d8ed1e-7d4a-471d-8508-727664288d74.json",
+      "metadata_sha256": "999ad8f19d2966cbdea0339c886c711610ef1d56fae31f9c7b9a99d544877212",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ركن الأطفال",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
+      "status": "ready",
+      "subtitle": "قصة حقيقية",
+      "title": "كبرياء رامونا الصغيرة",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -4369,6 +4521,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "78b46a4e2a2b70680a7564f6964dc7f7b91d7acbad47e25992c3bda7ca9eb192",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "يد طفل حديث الولادة تمسك بإصبع شخص بالغ",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "غرفة مستشفى خالية فيها سرير ومقاعد",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "dd9ac69e892f63b9c6d8699233765393fbe62c80d5bfb796baac91e359422b18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "أخت إلى أخت",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "حين تنجح طريقة الله",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "f1e11fb9591b9ad745142f64f6fc8d78f815645037ecc3b9fcc34f9f82737a54",
       "human_reviewed": false,
@@ -4500,6 +4684,34 @@
       "subtitle": null,
       "title": "بَهاء الربيع",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "4e838c995d2067b8b880cc745e4e98d803ee0a94972a217da3fbfd9bc4c8922c",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "منظر جوي لأفق مدينة بجوار بحيرة عند غروب الشمس",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "e6b1a60e38ab1881cd7f8dd1e2d90441f81be663a1bee4373e794c52dcf30242",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "مخاطر العصر الحديث",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "في العالم، ولكن ليس من العالم",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -6800,6 +7012,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "c8ab70ec7a85ef302ff8828aab40b25b7c6fc211c7f1c3ca94d81fcd7125cd20",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "এক নবজাতকের হাত একজন প্রাপ্তবয়স্কের আঙুল আঁকড়ে ধরে আছে",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "একটি খালি হাসপাতালকক্ষ, যেখানে একটি বিছানা ও বসার ব্যবস্থা রয়েছে",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "076a47ca059008e511b51a475f4a38aeffbc2f9c3721daf6c6693fbc922bb08b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "বোন থেকে বোনের কাছে",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ঈশ্বরের পথ যখন কার্যকর হয়",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "4170842e58ea930f7cd74a44fcfefb44c3e6a785c4c6f7ff165caf5d562bd7c2",
       "human_reviewed": false,
@@ -9003,6 +9247,34 @@
       "subtitle": null,
       "title": "编者的话",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "fd8fd09e4ef5361c222a99edf041ffa29f83589814698cf7aa54461c5f008c55",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "日落时分，湖畔城市天际线的鸟瞰图",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "d1cd5040e6878333192efa8d4f848cd8355a11ef6bf43434277547ed8ed77e45",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "当代的危险",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "身在世上，却不属世界",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -11644,6 +11916,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Από τους καρπούς τους",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "58073e10383d92b87cdbaa4013a07c397e6df39a02b64f76d5be19094a08571b",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Σιλουέτα ενός νέου που στέκεται κάτω από έναν κόκκινο ουρανό στο ηλιοβασίλεμα",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "0cf38aac2ef80ff4c18e401946aca312289ff1326e7f71349df6fee88265ea60",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΤΟ ΕΥΣΕΒΕΣ ΣΠΙΤΙ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Η ανατροφή των εφήβων",
+      "title": "Από την παιδική ηλικία στην ενηλικίωση",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -14300,6 +14600,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "902298a17fd39d89034dd0c1547ae57ce7702002defa7217bf16dd75af8c4a0f",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Des pommes rouges suspendues à un pommier feuillu",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Une pomme rouge posée seule sur une surface gris clair",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "0f2b5b1ca93552f0ee034a4354ec71c96084722b86671edb8bdbec52d7c92a88",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RÉFLEXIONS D’UN MISSIONNAIRE",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "À leurs fruits",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "13a6864085de13e0cd7115a2240c9f40bf2cb5c3e81d079668bd776ef5fcaf5a",
       "human_reviewed": false,
@@ -14327,6 +14659,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La puissance de Dieu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "07f51e68be181c88b17fdf1398e63e2185a2f88c85b1e3e99754d7b1a32e4e1d",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Silhouette d’un jeune debout sous un ciel rouge au coucher du soleil",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "774857d55116b543e3ceba860dc22f805108d34f42babf62ec0e5c92950b4770",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "LE FOYER PIEUX",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Élever des adolescents",
+      "title": "De l’enfance à l’âge adulte",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -14744,6 +15104,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Le timbre oublié",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "e8c5239c0cb2cd1c168cd0d954b85662ad780f48130beb8ecb5a64d107a68023",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Un grand arbre feuillu près d’un champ verdoyant sous un ciel bleu",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "45ba9e47209bcf297522096afbece8c3a5530a3b26c0f03bb8a36ee2be58109c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un Sauveur qui souffre",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -15973,6 +16361,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "47a347d774fbfdd0a143ff3ab854d72e7345c37cca39fcf608ed2b32624a2126",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "La main d’un nouveau-né tenant le doigt d’un adulte",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Une chambre d’hôpital vide, avec un lit et des sièges",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "66e4e4627d24b9a701c98ba3d32828853c73182fd1ff534bfb3077d86fcc03f6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE SŒUR À SŒUR",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quand la voie de Dieu fonctionne",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "f142b09a198c186b55488b62ce022c27112dfbf7349e79c40cb3e384c8d9146a",
       "human_reviewed": false,
@@ -16159,6 +16579,34 @@
       "subtitle": null,
       "title": "La gloire du printemps",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "0169dbf2b06882e610d92ccf21cbaff4126e3fd7836aa5e947fd8b8b86ede9d6",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Vue aérienne de la silhouette d’une ville au bord d’un lac au coucher du soleil",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "f68f70ba6647bf0b85bbd11eb25abedcb0cad15792723b5ff008500ebace73a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DANGERS DE NOTRE ÉPOQUE",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dans le monde, mais pas du monde",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -17587,6 +18035,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "4f650b2c040f3be467a9ba9f21b02ce7b9e92f431578f29caf554db2e1075f5e",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "יד של תינוק בן יומו אוחזת באצבע של מבוגר",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "חדר בית חולים ריק ובו מיטה ומקומות ישיבה",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "c344e8e15da6e63a8e55ca810dce954bebd8ee89c545e10a51b1a1cb1293ec79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "אחות לאחות",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "כאשר דרכו של אלוהים פועלת",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
       "html_sha256": "d0f2c7cfa351b67c967a146cc526bd28e92922175ac97591b1d1ebaa5577ef3c",
       "human_reviewed": false,
@@ -18192,6 +18672,38 @@
       "subtitle": null,
       "title": "प्रारंभिक अमेरिकी मेनोनाइट गिरिजा पर एक चिंतन",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "033749ab9468b42517ae19c817c24803892802829bc8e7e3efecc53816e4e0f2",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "पत्तों से भरे सेब के पेड़ पर लटकते लाल सेब",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "हल्की धूसर सतह पर रखा एक अकेला लाल सेब",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "bf2bd4b6c4ae9489c70d57a61b4d798e56fa6b8a6e8fbd6e637065fc0c18c6e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "उनके फलों से",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -18885,6 +19397,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "3dc6e3f0d40444b308f22e05d7c83ce111d1d39e3505339ed964a377881151e9",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "खुले शीट संगीत के पास पियानो की कुंजियाँ",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "2d14617ce439d100fff95703a43b6193265e7d84f0634e9d88ea4cc43ad00c53",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "युवाओं के लिए प्रेरणाएँ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मेरे संगीत के बारे में क्या सही है?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "b7269ae0e9858542b43bb7cdde5e4fd984081ebaa2219a447caad036e92afceb",
       "human_reviewed": false,
@@ -19347,6 +19887,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "ee0fdceb1acc94f1782e405b890b5f5239c7982130c5f2bd1242388be46ab909",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "समुद्र के ऊपर चमकीले गुलाबी, बैंगनी और नीले रंग का सूर्यास्त",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "23c63840db588634c128d3f65b3c81a307be52ba012998b091f85c3f53c0d843",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "विशेष लेख",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "विश्वास और तर्क",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "3e33e54eb73b7cccb054d8b786b80688e803bf86040f04b96aaca2c05d4ab266",
       "human_reviewed": false,
@@ -19565,6 +20133,38 @@
       "subtitle": null,
       "title": "आगाहियाँ और आख़िरी दिन",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "b802430cf5044a84aa969567cbccad10db6ca92ffc012e5f56cb61e5d96356e6",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "एक नवजात शिशु का हाथ, जो एक वयस्क की उँगली पकड़े हुए है",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "एक खाली अस्पताल का कमरा, जिसमें बिस्तर और बैठने की जगह है",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "184301d3acfda40997d345acc27cacc67f248a6aea82ae63202a406c00c3ad31",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बहन से बहन तक",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जब परमेश्वर का तरीका काम करता है",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -21292,6 +21892,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "e8cd0d5e525a85cedec2be007edef340d6b6f0b2cebb3634722d65700e4c7577",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Bumi pada malam hari terlihat dari orbit, dengan kota-kota yang diterangi cahaya",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "6aa836b7033876947d957dbb0a7e2aa0d4f6c6e56f6db996b79d3a769664d2dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DARI REDAKSI",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Redaksi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "f8aafb6c3e6b99d289d29d18f72b4ad18d80b419d5359bc3c04b37167d156e69",
       "human_reviewed": false,
@@ -21935,6 +22563,34 @@
       "subtitle": null,
       "title": "Penundaan Berlebihan",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "16fc789573942e0b0790cfa86aad5e90feeb9a3509ebdf8afbef49c7b67067da",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "Matahari terbenam yang semarak berwarna merah muda, ungu, dan biru di atas lautan",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "6a73a00274ca44e6e71bd05f03bf5641afda4b8236586c0c5f0403fe291ccbb3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTIKEL UNGGULAN",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Iman dan Akal",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -23365,6 +24021,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "62c9abcb4627a636bdaecd1367c8a6486b04f981ee42b4a34ad696c1e61db73d",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Mele rosse appese a un melo frondoso",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Una sola mela rossa su una superficie grigio chiaro",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "3e49c61fceddb8cef353d906dfb9b180a3ef6333d768bf6c6334771c1a085ad6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RIFLESSIONI DI UN MISSIONARIO",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dai loro frutti",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "127730c8ffd8ac85cc55d956586ea23d11760a1aa50a4bce51cd57f4764199d3",
       "human_reviewed": false,
@@ -23392,6 +24080,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La potenza di Dio",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "15ac001af0e552d0368015573381ffd3648053cff63f02af6dfe41aefd286b89",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Sagoma di un giovane sotto un cielo rosso al tramonto",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "0bdcb8c4334f10918444bfc713aeb21a957dc5ec0f0642f34ca7d80b730e0cab",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "LA FAMIGLIA DEVOTA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Educare gli adolescenti",
+      "title": "Dall’infanzia all’età adulta",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -23759,6 +24475,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Il francobollo dimenticato",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "1b618c1575719bdc1f28c08c10ae76c254c81f6197386f8f3071af339326ecd3",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Un grande albero frondoso accanto a un campo verde sotto un cielo azzurro",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "84d62d3e187da0f5fe06d3818c38e4ef5ed4e6e10397ef8ed66468286703bd71",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poesia",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un Salvatore sofferente",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -26311,6 +27055,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "b1202028889ab3623b2a2c50011941dc6f41f4a62bcc2426c14ee064f4013404",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "잎이 무성한 사과나무에 매달린 빨간 사과들",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "밝은 회색 표면 위에 놓인 빨간 사과 한 개",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "d8a7d7c6a216c648be42aed59f5ba534b84a58aa98b91711da92f348db37f954",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "선교사의 단상",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "그들의 열매로",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "f5a3acbae3cd32b4c8ba7ccca595dad297be5df31bb37cd7172e8ecbecfc9bda",
       "human_reviewed": false,
@@ -27050,6 +27826,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "ea769a2741ac353869b3c8cbccb0027539eb5aa8b2dd5ad06667d9192ad2191b",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "궤도에서 바라본 밤의 지구와 불빛으로 빛나는 도시들",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "936c832f62c1bfefa7bd4128791457bad9d05706618a4b89e1752321aabbce3e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "편집자의 글",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집자의 글",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "c32839f021affaf7620cbae2a7ff160c22d0fc7efa46dc8012b287e36183aa0e",
       "human_reviewed": false,
@@ -27580,6 +28384,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "ff36bf150fd4dea8d37abcc539942e114ee2bf86706865dcfa43835e6b7b175d",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "바다 위로 펼쳐진 선명한 분홍색, 보라색, 파란색 석양",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "8f74d03d139ec86ca836a1c5903b4e5f41436c9e752188d815c047f7420f2e23",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "특집 기사",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "믿음과 이성",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "e12b7a5140817e049e59b06dd826eeb7ed3f3adee738b4341189da01ba7b1b7a",
       "human_reviewed": false,
@@ -27766,6 +28598,38 @@
       "subtitle": null,
       "title": "예언과 마지막 때",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "2eb6aa30cda1ffee46c097782650093efb435bab6bcbc242e926884bf91d8adb",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "갓난아기의 손이 어른의 손가락을 잡고 있는 모습",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "침대와 의자가 놓인 빈 병실",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "180936bd64f2d63e444e3753bc13b5c76faf06772a0e3760493d10e12b63ab55",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "자매에게, 자매가",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "하나님의 방식이 역사할 때",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -30557,6 +31421,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "7095e58a64d025590aa3bc4fd95257cc11b3ca8f754ad4e49abfaee30e050ffc",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "Een pasgeboren babyhandje dat een volwassen vinger vasthoudt",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Een lege ziekenhuiskamer met een bed en zitplaatsen",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "423f858d4c01f21c883c176c3f1d6673c4af0a8dd8f9f6d5f1b3863444a1be51",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ZUSTER TOT ZUSTER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wanneer Gods weg werkt",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "52bd2893264650b42c017749d592603060ecf95fe71c382d34c553d78484e483",
       "human_reviewed": false,
@@ -32236,6 +33132,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "60ac47fb7e3696f8cd043eca23fc12096beb51c1ebd203955dca527fd5376303",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Et stort, løvrikt tre ved en grønn åker under blå himmel",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "88237a4eb973aeba0df9467146b8078cb55a62216bc829e8bbdff81001d9d443",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En lidende Frelser",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "c186626fbf82779ee980632e539a7f1c8844ce789b50dd2d903d554a5d257484",
       "human_reviewed": false,
@@ -32572,6 +33496,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Å glede seg over livet",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "5b7ecfc9f2f80540e0fe160005f3762e0e0f89b4b2300a85cb0daabc78813686",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Jorden om natten sett fra bane, med opplyste byer",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "4da066e83326dd7ca0a18888482b65ed4c50d442e89cd32d7e5aea35a394fede",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "FRA REDAKTØREN",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -33115,6 +34067,34 @@
       "subtitle": null,
       "title": "Utsettelses-overbelastning",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "deb2922dd207079bb6b49d396e1d312ae92c4e7c2f80d30379f77902acafeaef",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "En smal treport mellom hvite vegger",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "3799ee26dcb290b3cc9be449e467167179e28d06ded3f08fd9883b5875e3a973",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "BIBELSKE LÆRESETNINGER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Den trange porten til livet",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -34574,6 +35554,38 @@
       "subtitle": null,
       "title": "Deveis Nascer de Novo",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "e8e9dd840d6d21646f27f6d86f6a659ea17acb691ce350cf6439aeb0ec8f40f1",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Maçãs vermelhas penduradas em uma macieira frondosa",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Uma única maçã vermelha sobre uma superfície cinza-clara",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "bdf772c6fe3986d12072162901ad26a8eb87265a41ea8abcb7403ba30a8e7252",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "REFLEXÕES DE UM MISSIONÁRIO",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pelos seus frutos",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -36295,6 +37307,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "b0f6c3d06e024fa5efe82083a2feb0f5175844b7bbf5152f8aa9cda89560c228",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "Um pôr do sol intenso em tons de rosa, roxo e azul sobre o oceano",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "733843197ddd8a5deb44f1f29350ef283e593ff8d78fdcde5aba0224c325995b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTIGO EM DESTAQUE",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fé e razão",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "2959404563b9e48eba2c4b27bc3cf337340ff7ddd133d65d5c0d286c37af6ef2",
       "human_reviewed": false,
@@ -36569,6 +37609,38 @@
       "subtitle": null,
       "title": "Profecia e os Tempos Finais",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "3a1b705ae42ad51700c891afc258a42f0887b8e90a14e9a2a61fca801da1d121",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "A mão de um bebê recém-nascido segurando o dedo de um adulto",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Um quarto de hospital vazio, com uma cama e assentos",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "89ea17aec5e4a91d5a7e25e39d990ba2d10d32c061119940a7761a3c10140296",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "IRMÃ PARA IRMÃ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando o caminho de Deus funciona",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -39221,6 +40293,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "307d6608984428e3041e46454c00b71be1b2f6929aa7e155ef9a94f5d92277dd",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "Рука новорождённого малыша держит палец взрослого",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Пустая больничная палата с кроватью и местами для сидения",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "19a0e99ab6efb0cadd3b7bcb94d569d8b993bc01c9f6207283620f129a73d419",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ОТ СЕСТРЫ К СЕСТРЕ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Когда Божий путь действует",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "1265c194b3693f402c73ee5cd330e1c9e3a242557de6fc0a1b490632d5b78b68",
       "human_reviewed": false,
@@ -41485,6 +42589,34 @@
       "subtitle": "El plan de Dios para el varón y la hembra",
       "title": "Un noviazgo centrado en Cristo",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "19a3c5eecf0036961f3f16c661332da6ba8e821bd488c255d20f7bb7dfcf9d85",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Teclas de piano junto a una partitura abierta",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "70c83c867ae656138a62d166b6dc12fa1b13c454596deafe5eead2b2b98aaa64",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRACIONES PARA LOS JÓVENES",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "¿Qué está bien en mi música?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -43860,6 +44992,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "fe9833f5fe88bb11a4b7932e94580e49529829674406f88be9a2140e6ad80603",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Funguo za piano kando ya noti za muziki zilizo wazi",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "c054dbde4c52c9bc3c0609c622e11664ee35acfbbcb328cf3f88e7814f354b8e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "HAMASA KWA VIJANA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ni Nini Kilicho Sawa Kuhusu Muziki Wangu?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "320997a25504e3f0192eb5ec7df381ce733c46ef5cf1d39727aeef381e191ae6",
       "human_reviewed": false,
@@ -44064,6 +45224,42 @@
       "subtitle": null,
       "title": "Neema ya Ajabu",
       "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
+      "html_sha256": "d8230e62853fb97970604c724eb19810c128e225a5ef49dad464ee55a7658142",
+      "human_reviewed": false,
+      "id": "97d8ed1e-7d4a-471d-8508-727664288d74",
+      "images": [
+        {
+          "alt": "Msichana mdogo kando ya mbwa mkubwa karibu na lango la chuma la malisho",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png"
+        },
+        {
+          "alt": "Noti za muziki za “Kiburi hutangulia uharibifu, na roho ya majivuno hutangulia anguko.”",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png"
+        },
+        {
+          "alt": "Wasichana wawili wadogo wakiwa na farasi kwenye malisho yenye nyasi",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/97d8ed1e-7d4a-471d-8508-727664288d74.json",
+      "metadata_sha256": "b7ad71d13882e77d57cdc81beeb18f456063504f4fcef7e74186816ad4db3ac5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SEHEMU YA WATOTO",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
+      "status": "ready",
+      "subtitle": "Hadithi ya Kweli",
+      "title": "Kiburi cha Ramona Mdogo",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45158,6 +46354,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Guds kraft",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "0c606187c9cee3ba9caddb5a9200867bda7a3cd08709e691af21a83044e11685",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Silhuett av en ung person som står under en röd solnedgångshimmel",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "a6daa1756dd957145322c5dc139fb9a483f57285bd1153dd0a293e6a2fd54916",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DET GUDSFRUKTIGA HEMMET",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Att uppfostra tonåringar",
+      "title": "Från barndom till vuxenliv",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -46267,6 +47491,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
+      "html_sha256": "1c8dcd727b8352f6338e6b9fc92247e6600e65e2f0a7cbc32b26fa151926c047",
+      "human_reviewed": false,
+      "id": "97d8ed1e-7d4a-471d-8508-727664288d74",
+      "images": [
+        {
+          "alt": "En liten flicka bredvid en stor hund vid en betesgrind av metall",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png"
+        },
+        {
+          "alt": "Notblad till ”Högmod går före undergång, och en högmodig ande före fall.”",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png"
+        },
+        {
+          "alt": "Två små flickor med hästar på en gräsbevuxen betesmark",
+          "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/97d8ed1e-7d4a-471d-8508-727664288d74.json",
+      "metadata_sha256": "69ef436cc63b455ce1acb6438f4bc4b63eb783e663f87e3c45c354db1d4fef08",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "BARNENS HÖRNA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
+      "status": "ready",
+      "subtitle": "En sann berättelse",
+      "title": "Lilla Ramonas högmod",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
       "html_sha256": "6e3a7774f01c4b397c2daf5f369741108906138c334af55fcc00f68c0986c9f9",
       "human_reviewed": false,
@@ -46699,6 +47959,38 @@
       "subtitle": null,
       "title": "Profetia och tidens slut",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "ac3ef56703d493eccd8e783cbe816a0703767afde2f1c6a86c19070c383ab889",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "En nyfödd babys hand som håller om en vuxens finger",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Ett tomt sjukhusrum med en säng och sittplatser",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "910cd845cb1190a756516a26aa96ad213c2fe9d42d889595e5cfeaf5417cddb1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SYSTER TILL SYSTER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "När Guds väg fungerar",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -48043,6 +49335,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "428a70c7a7e5161265738f81704343f3de3f41bfcbcde308362be15ae0447c4a",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "نیلے آسمان تلے سبز کھیت کے ساتھ ایک بڑا، گھنا درخت",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "0d625af241e644626c43f89ec589924e813ee0d036dcf0e09bd09a47daec6eb9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نظم",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "دکھ اٹھانے والا نجات دہندہ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "a78407ea9dab2453cfa5213e82a14bd8d07ddd9524cd106fd9e0a33a70c3b3ef",
       "human_reviewed": false,
@@ -48993,6 +50313,38 @@
       "subtitle": null,
       "title": "نبوت اور قیامت کے اوقات",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "e5903560b18bbb0cedf6217f4b8dc6972798fa64e1316e8ab37169d9a5c2bee5",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "ایک نومولود بچے کا ہاتھ ایک بالغ کی انگلی تھامے ہوئے",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "خالی ہسپتال کا کمرہ، جس میں ایک بستر اور بیٹھنے کی جگہ ہے",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "33102ff6e0f29701b3c5b79c0b22782e62aa4cd5fde511ed02d1fce5fc37402a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "بہن سے بہن تک",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جب خدا کا طریقہ کارگر ہوتا ہے",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

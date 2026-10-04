@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, troisième strophe, deuxième vers",
+      "severity": "minor",
+      "source_quote": "Not seeking money and friends or trying to succeed.",
+      "suggested_fix": "Il ne cherchait ni l’argent ni les amis, et ne cherchait pas non plus à réussir.",
+      "translation_quote": "Il ne cherchait ni argent ni amis, et ne voulait pas réussir."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d6d4f0fb-e69b-4ab6-b6c7-d17e1f1bd670",
+    "response_id": "chatcmpl-EV1yspANcTonT1kCWuVMWrnBT9KH2",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5899,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6581
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац о периоде после разрушения Второго храма",
+        "severity": "major",
+        "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
+        "suggested_fix": "Заменить «Евреи начали традицию исполнения музыки без сопровождения после разрушения Второго храма в 70 году н. э.; тогда на время траура по поводу его разрушения музыкальные инструменты были запрещены» на «Евреи начали традицию исполнения музыки без сопровождения после падения Второго храма в 70 году н. э.; тогда, во время траура после его падения, музыкальные инструменты были запрещены».",
+        "translation_quote": "Евреи начали традицию исполнения музыки без сопровождения после разрушения Второго храма в 70 году н. э.; тогда на время траура по поводу его разрушения музыкальные инструменты были запрещены."
+      },
+      {
+        "location": "Цитата из Послания к Филиппийцам 4:8",
+        "severity": "major",
+        "source_quote": "whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things",
+        "suggested_fix": "Исправить цитату, сохранив её полноту и смысл, например: «…всё истинное, всё честное, всё справедливое, всё чистое, всё любезное, всё достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте».",
+        "translation_quote": "всё истинное, честное, справедливое, чистое, любезное, достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте."
+      },
+      {
+        "location": "Абзац о воздействии светской музыки и Филиппийцам 4:8",
+        "severity": "major",
+        "source_quote": "Most secular music has lyrics that are impure, while all of it has a rhythm or beat that is against God’s order.",
+        "suggested_fix": "Заменить утверждение на «В текстах большинства светских песен есть нечистота, а вся эта музыка имеет ритм или бит, противоречащий Божьему порядку».",
+        "translation_quote": "В текстах большинства светских песен есть нечистота, а ритм или бит всей этой музыки противоречит Божьему порядку."
+      },
+      {
+        "location": "Абзац о трапезе Господней и Елеонской горе",
+        "severity": "major",
+        "source_quote": "before He went out to the Mount of Olives",
+        "suggested_fix": "Заменить «на Елеонскую гору» на «к Елеонской горе», чтобы передать движение к горе, обозначенное в оригинале.",
+        "translation_quote": "прежде чем отправиться на Елеонскую гору."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

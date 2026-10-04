@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 9223
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph 3",
-      "severity": "major",
-      "source_quote": "Yet at times we as believers still fail in listening to good wholesome music.",
-      "suggested_fix": "Tog skiet ons as gelowiges soms steeds tekort daarin om na goeie, gesonde musiek te luister.",
-      "translation_quote": "Tog skiet ons as gelowiges soms steeds tekort wanneer ons na goeie, gesonde musiek luister."
     },
     {
-      "location": "Article, paragraph on Orthodox and Conservative Jewish congregations",
-      "severity": "minor",
-      "source_quote": "a pitch pipe to give everyone a starting note",
-      "suggested_fix": "’n toonpyp om vir almal ’n begintoon te gee",
-      "translation_quote": "’n stemvurk wees om vir almal ’n begintoon te gee"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 562,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 443,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6000,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6565
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article body, Colossians 3:16 quotation",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Replace “sing met dankbaarheid in julle harte tot eer van die Here” with “sing met genade in julle harte tot eer van die Here”, preserving the existing HTML structure.",
+      "translation_quote": "“sing met dankbaarheid in julle harte tot eer van die Here”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "0f15efc056572dd7bb10d82b02199e34",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "afr",
@@ -178,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

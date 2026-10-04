@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraphs 2, 4, and 7\",\"severity\":\"major\",\"source_quote\":\"“our plain communities”; “we as the plain community”; “Many of the plain community”\",\"suggested_fix\":\"Replace the added identification with wording that preserves the source’s broader description, for example: “בקהילותינו שומרות המסורת” in paragraph 2, “אנחנו, בני הקהילות שומרות המסורת” in paragraph 4, and “רבים בקהילות שומרות המסורת” in paragraph 7. Keep the existing paragraph tags and structure.\",\"translation_quote\":\"“בקהילות האנבפטיסטיות שומרות המסורת שלנו”; “אנחנו, בני קהילת האנבפטיסטים שומרת המסורת”; “רבים בקהילת האנבפטיסטים שומרת המסורת”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 884,
+    "content_evidence_truncated": false,
+    "content_sha256": "80c602c91e31a96480fbb81766ee8643b2703d1cee5c38f8c3237289f6131d2c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5166,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5163,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5884
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

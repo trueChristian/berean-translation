@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 3041
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 810,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 699,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1891,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1888,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2701
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, poem stanza beginning «Fordi han satte oss høyt»",
-      "severity": "major",
-      "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
-      "suggested_fix": "Replace only these two lines with: «Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der, for å gjøre oss til sin familie!» This preserves the explicit family relationship in «His kin».",
-      "translation_quote": "Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der for å gjøre oss til sine!"
-    },
-    {
-      "location": "HTML, poem stanza beginning «Jeg takker Gud nå»",
-      "severity": "major",
-      "source_quote": "I thank God now for that sacrifice so great; / Providing the Lamb and transforming my fate.",
-      "suggested_fix": "Replace only the second line with «Han sørget for Lammet og forvandlet min skjebne.» This conveys that the Lamb was provided without adding «for us» as the recipient.",
-      "translation_quote": "Jeg takker Gud nå for dette store offer; / Han ga oss Lammet og forvandlet min skjebne."
+      "location": "HTML, poem, stanza beginning «Ten tusen engler»",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Preserve the directional detail, for example: «Ti tusen engler kunne han ha kalt til seg mot sør,»",
+      "translation_quote": "Ti tusen engler kunne han ha kalt ned,"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "5aff0aac65ddf1bda9ba347da61e666c",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

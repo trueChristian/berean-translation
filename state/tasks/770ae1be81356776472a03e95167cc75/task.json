@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8018
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph 2",
-      "severity": "major",
-      "source_quote": "“How we do church”",
-      "suggested_fix": "החליפו את ״מקיימים את תפילותינו״ ב״מקיימים את פעילויות הכנסייה שלנו״, כדי לשמר את המשמעות הרחבה של קיום חיי הכנסייה ולא לצמצם אותה לתפילה בלבד.",
-      "translation_quote": "״האופן שבו אנו מקיימים את תפילותינו״"
     },
     {
-      "location": "HTML paragraphs 2, 4, 7, and 11",
-      "severity": "major",
-      "source_quote": "“plain communities” / “plain community”",
-      "suggested_fix": "החליפו את ״הקהילות השמרניות״ ואת ״בני הקהילה השמרנית״ במונח המתייחס לקהילות האנבפטיסטיות המסורתיות המתוארות כאן, למשל ״קהילות האנבפטיסטים שומרות המסורת״ ו״בני קהילת האנבפטיסטים שומרת המסורת״. ״שמרני״ לבדו אינו משמר את הזיהוי הקהילתי המסוים שבמקור.",
-      "translation_quote": "״בקהילותינו השמרניות״; ״בני הקהילה השמרנית״; ״בקהילה השמרנית״"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 718,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5166,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5163,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5884
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article paragraphs 2, 4, and 7",
+      "severity": "major",
+      "source_quote": "“our plain communities”; “we as the plain community”; “Many of the plain community”",
+      "suggested_fix": "Replace the added identification with wording that preserves the source’s broader description, for example: “בקהילותינו שומרות המסורת” in paragraph 2, “אנחנו, בני הקהילות שומרות המסורת” in paragraph 4, and “רבים בקהילות שומרות המסורת” in paragraph 7. Keep the existing paragraph tags and structure.",
+      "translation_quote": "“בקהילות האנבפטיסטיות שומרות המסורת שלנו”; “אנחנו, בני קהילת האנבפטיסטים שומרת המסורת”; “רבים בקהילת האנבפטיסטים שומרת המסורת”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "770ae1be81356776472a03e95167cc75",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

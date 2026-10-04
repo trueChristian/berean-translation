@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Η ανατροφή εφήβων…»",
+      "severity": "minor",
+      "source_quote": "Raising teens is a rewarding experience",
+      "suggested_fix": "Replace «ανταποδοτική εμπειρία» with «ικανοποιητική εμπειρία» or «επιβραβευτική εμπειρία» to convey that raising teens is gratifying.",
+      "translation_quote": "Η ανατροφή εφήβων είναι μια ανταποδοτική εμπειρία"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

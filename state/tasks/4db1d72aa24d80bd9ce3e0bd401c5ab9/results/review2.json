@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c6fbfbe2-30b0-455f-90db-a8c3979b57a4",
+    "response_id": "chatcmpl-EV1yPxUw1cxgC2z5f5gW2Av9UQ8lf",
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14413,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14410,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15262
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “By the end of the first week…”",
+        "severity": "minor",
+        "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate…”",
+        "suggested_fix": "Replace “een van zijn kleine peddels” with a Dutch rendering that conveys the source’s intended meaning of “paddies”; “peddels” means paddles and is confusing in this context.",
+        "translation_quote": "“Met een komisch meelijwekkende blik bood hij Sterling en mij elk een van zijn kleine peddels aan om vast te houden terwijl hij at…”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

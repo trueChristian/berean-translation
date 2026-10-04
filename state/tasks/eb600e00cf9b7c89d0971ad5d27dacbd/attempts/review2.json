@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo che inizia «Provammo a disciplinarlo», frase sulle altre madri\",\"severity\":\"major\",\"source_quote\":\"I recalled seeing other mothers clamp their hands over their toddler’s mouth to teach them that wailing didn’t bring the desired result.\",\"suggested_fix\":\"Sostituire «Ricordai di aver visto altre madri tapparsi la bocca con la mano ai figli piccoli per insegnare loro che piangere a dirotto non serviva a ottenere ciò che volevano.» con «Ricordai di aver visto altre madri coprire con la mano la bocca dei figli piccoli per insegnare loro che piangere a dirotto non serviva a ottenere ciò che volevano.»\",\"translation_quote\":\"Ricordai di aver visto altre madri tapparsi la bocca con la mano ai figli piccoli per insegnare loro che piangere a dirotto non serviva a ottenere ciò che volevano.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 868,
+    "content_evidence_truncated": false,
+    "content_sha256": "c18019e5560130ae927d19442410ff797b6c0f706546162d1f1d4d5e72c9fd10",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 932,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15276,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15273,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16208
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

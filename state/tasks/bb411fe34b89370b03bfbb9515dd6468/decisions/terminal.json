@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, para 3",
+      "severity": "major",
+      "source_quote": "the expression of reverence and adoration to something or someone",
+      "suggested_fix": "Ersätt ”att uttrycka vördnad och tillbedjan för något eller någon” med ”att uttrycka vördnad och tillbedjan inför något eller någon” eller en annan idiomatisk formulering som bevarar betydelsen.",
+      "translation_quote": "att uttrycka vördnad och tillbedjan för något eller någon"
+    },
+    {
+      "location": "HTML, para 7",
+      "severity": "major",
+      "source_quote": "the 1960s’ “Jesus movement” revival",
+      "suggested_fix": "Ändra till ”väckelsen inom ’Jesus-rörelsen’ på 1960-talet” så att väckelsen inte felaktigt framstår som en separat väckelse som personerna bara påverkades av.",
+      "translation_quote": "väckelsen i ”Jesus-rörelsen” på 1960-talet"
+    },
+    {
+      "location": "HTML, para 12",
+      "severity": "major",
+      "source_quote": "a cantor to chant or sing an authoritative text from the scriptures",
+      "suggested_fix": "Ändra ”en auktoritativ text ur skrifterna” till ”en text ur skrifterna med auktoritet” eller ”en auktoritativ skrifttext”; den nuvarande formuleringen kan förstås som att texten är auktoritär eller normerande.",
+      "translation_quote": "en auktoritativ text ur skrifterna"
+    },
+    {
+      "location": "HTML, para 18",
+      "severity": "major",
+      "source_quote": "I can go through the day blest.",
+      "suggested_fix": "Ändra ”kan jag gå välsignad genom dagen” till exempelvis ”kan jag ta mig igenom dagen med välsignelse” eller ”kan jag möta dagen välsignad” för idiomatisk svenska.",
+      "translation_quote": "kan jag gå välsignad genom dagen"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

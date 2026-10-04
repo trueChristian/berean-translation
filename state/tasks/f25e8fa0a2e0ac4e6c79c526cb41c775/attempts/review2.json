@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, ultima strofa\",\"severity\":\"minor\",\"source_quote\":\"Now the Father and I—a relationship restored!\",\"suggested_fix\":\"Sostituire «ora il Padre e io abbiamo ristabilito il nostro rapporto!» con «ora il rapporto tra il Padre e me è ristabilito!»\",\"translation_quote\":\"ora il Padre e io abbiamo ristabilito il nostro rapporto!\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 387,
+    "content_evidence_truncated": false,
+    "content_sha256": "123d981ae736c58aad6a4add328236d94edd3f4c2fd101fc38478635abd6dcfa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1899,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2602
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

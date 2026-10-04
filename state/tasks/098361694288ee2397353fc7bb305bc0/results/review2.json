@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "312675ef-b1eb-4a82-8b93-6b4bab901680",
+    "response_id": "chatcmpl-EV1yq795VaxEDxC0rUqvAYLKZ1Zuh",
+    "usage": {
+      "completion_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5896,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6446
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “The Apostle Paul writes”",
+        "severity": "major",
+        "source_quote": "singing and making melody in your heart to the Lord",
+        "suggested_fix": "Inne i <em>-elementet, oversett dette som «syng og lag melodier i hjertene deres for Herren»; behold referansen «Efeserne 5:19».",
+        "translation_quote": "syng og spill for Herren i hjertet deres"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

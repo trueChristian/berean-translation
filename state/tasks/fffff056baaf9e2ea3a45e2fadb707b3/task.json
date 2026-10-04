@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 3249
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 955,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 708,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2016,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2013,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2971
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Poem, stanza 2",
-      "severity": "major",
-      "source_quote": "He was never well-liked; despised by all men;",
-      "suggested_fix": "Replace “কেউ তাঁকে কখনো ভালোবাসেনি” with wording meaning “He was never well-liked,” such as “তিনি কখনোই মানুষের প্রিয় ছিলেন না,” to avoid intensifying this into a claim that nobody loved him.",
-      "translation_quote": "কেউ তাঁকে কখনো ভালোবাসেনি; সবাই করত অবজ্ঞা;"
+      "location": "Poem, stanza 3",
+      "severity": "minor",
+      "source_quote": "Not seeking money and friends or trying to succeed.",
+      "suggested_fix": "অর্থ বা বন্ধু খোঁজা কিংবা সফল হওয়ার চেষ্টা—কিছুই নয় তাঁর সাধন।",
+      "translation_quote": "অর্থ-বন্ধু খোঁজা কিংবা সফল হওয়ার চেষ্টা—কিছুই নয় তাঁর সাধন।"
     },
     {
       "location": "Poem, stanza 6",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডাকতে পারতেন,",
+      "translation_quote": "দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,"
+    },
+    {
+      "location": "Poem, final stanza",
       "severity": "major",
-      "source_quote": "But the stricken Savior opened not His mouth.",
-      "suggested_fix": "Replace “পাছে” with a phrase that simply says he did not open his mouth; for example: “কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না।”",
-      "translation_quote": "কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না পাছে।"
+      "source_quote": "Now the Father and I—a relationship restored!",
+      "suggested_fix": "এখন পিতার সঙ্গে আমার—সম্পর্ক পুনঃস্থাপিত হলো!",
+      "translation_quote": "এখন পিতার সঙ্গে আমার—সম্পর্ক আবার হলো নতুন!"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "fffff056baaf9e2ea3a45e2fadb707b3",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

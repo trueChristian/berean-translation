@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d96032da-8892-4b8a-921c-4ebaf1453bbd",
+    "response_id": "chatcmpl-EV1yMpDMrse0jmNmIHakRDk2fYT4L",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1934,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2789
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 1, line 2",
+        "severity": "major",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Tangu mwanzo, alikuwa tayari kujisalimisha kwa mapenzi ya Baba yake.",
+        "translation_quote": "Tangu mwanzo, alikuwa tayari kutii mapenzi yake."
+      },
+      {
+        "location": "Poem, stanza 9, line 1",
+        "severity": "major",
+        "source_quote": "Because He treasured us, an atonement for our sin",
+        "suggested_fix": "Kwa sababu alitutunza sana, alifanya upatanisho kwa ajili ya dhambi zetu",
+        "translation_quote": "Kwa sababu alitutunza, alifanya upatanisho kwa ajili ya dhambi zetu"
+      },
+      {
+        "location": "Poem, stanza 6, line 1",
+        "severity": "minor",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Angeweza kuita malaika elfu kumi waelekee kusini,",
+        "translation_quote": "Angeweza kuita malaika elfu kumi,"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

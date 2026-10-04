@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, numbered list, item 1\",\"severity\":\"minor\",\"source_quote\":\"This is according to His fact, not according to our feeling.\",\"suggested_fix\":\"Replace «Dette bygger på hans faktum» med en idiomatisk formulering som «Dette bygger på det som er sant om Gud, ikke på hvordan vi føler det»; retain the contrast with our feelings.\",\"translation_quote\":\"Dette bygger på hans faktum, ikke på hvordan vi føler det.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 472,
+    "content_evidence_truncated": false,
+    "content_sha256": "ebeec0785f485b2e2bad5266220caee0e3504c46eb7d16c74217a271b9c9a824",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5279,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6030
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

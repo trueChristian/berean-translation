@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8d15b5a3-4d27-4234-b99a-d7f0374d7e9f",
+    "response_id": "chatcmpl-EV1xtjSJJ5nf7rmfzJ43OXwbyAmcp",
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5194,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6016
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML 본문, 음모론에 관한 문단",
+        "severity": "major",
+        "source_quote": "Will it change the way I live for the other kingdom now?",
+        "suggested_fix": "“지금 내가 다른 왕국을 위해 살아가는 방식을 바꾸게 될까요?”로 수정하세요. ‘다른 나라’는 국가를 뜻해 원문의 ‘왕국’이라는 표현을 바꿉니다.",
+        "translation_quote": "지금 다른 나라를 위한 내 삶의 방식에는 어떤 영향을 미칠까요?"
+      },
+      {
+        "location": "HTML 본문, 디모데후서 1:7 인용",
+        "severity": "major",
+        "source_quote": "of a sound mind",
+        "suggested_fix": "“절제하는 마음”을 “건전한 마음”으로 수정하세요. 원문의 ‘sound mind’는 경건함이 아니라 건전하고 분별력 있는 마음을 뜻합니다.",
+        "translation_quote": "절제하는 마음"
+      },
+      {
+        "location": "HTML 본문, 빌립보서 4:8 인용",
+        "severity": "major",
+        "source_quote": "whatsoever things are honest",
+        "suggested_fix": "“경건하며”를 “정직하며”로 수정하세요. 이 인용에서 ‘honest’는 경건함이 아니라 정직하거나 고결한 것을 가리킵니다.",
+        "translation_quote": "무엇에든지 경건하며"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

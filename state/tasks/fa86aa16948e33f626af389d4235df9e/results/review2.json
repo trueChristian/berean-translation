@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "75971f7d-223c-4da6-9156-f4653f4dd16f",
+    "response_id": "chatcmpl-EV1yAwpukPn9KclrUA2anDU46Q111",
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9851,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9848,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10495
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, third paragraph",
+        "severity": "major",
+        "source_quote": "Those tramping through the broad gate are obviously more than just the world’s gross, hardened sinners.",
+        "suggested_fix": "Wanaopita katika lango pana bila shaka si watu waovu tu wa dunia hii, walio wagumu katika dhambi.",
+        "translation_quote": "Wanaopita katika lango pana ni zaidi tu ya wenye dhambi wakubwa na wagumu wa dunia hii."
+      },
+      {
+        "location": "Article, paragraph beginning “Submission Activates Power,” and corresponding later passage “These will find life…”",
+        "severity": "major",
+        "source_quote": "There are a mere few who will find the blessedness within the posts. These will find life within the confinements of the strait and narrow provided by God and…",
+        "suggested_fix": "Ni wachache tu watakaopata baraka zilizo ndani ya nguzo hizo. Hawa watapata uzima ndani ya mipaka ya lango jembamba na njia nyembamba iliyowekwa na Mungu na…",
+        "translation_quote": "Ni wachache sana watakaopata baraka zilizo ndani ya nguzo hizo. Hawa watapata uzima ndani ya mipaka ya jembamba na nyembamba iliyowekwa na Mungu na…"
+      },
+      {
+        "location": "Article, paragraph beginning “One Thing Needful,” quotation, Luke 20:1-8",
+        "severity": "major",
+        "source_quote": "…The scribes came upon him with the elders, And spake unto him, saying, Tell us, by what authority doest thou these things?",
+        "suggested_fix": "Preserve the source quotation’s speaker and sequence: “...Waandishi na wazee wakamjia, wakamwambia, Tuambie, unafanya mambo haya kwa mamlaka gani?”",
+        "translation_quote": "…Waandishi walimjia pamoja na wazee, wakamwambia, Tuambie, unafanya mambo haya kwa mamlaka gani?"
+      },
+      {
+        "location": "Article, paragraph beginning “There is a God-given authority,” Acts 4:19-20 quotation",
+        "severity": "major",
+        "source_quote": "…Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.",
+        "suggested_fix": "…Kama ni haki mbele za Mungu kuwasikiliza ninyi kuliko kumsikiliza Mungu, hukumuni ninyi wenyewe…",
+        "translation_quote": "…Kama ni haki mbele za Mungu kuwasikiliza ninyi kuliko Mungu, hukumuni ninyi wenyewe…"
+      },
+      {
+        "location": "Article, paragraph under “…Husbands”",
+        "severity": "major",
+        "source_quote": "Women who stand up for their rights kick at the narrowness of the gate and forfeit their God-ordained dignity.",
+        "suggested_fix": "Wanawake wanaotetea haki zao hulipinga ufinyu wa lango na kupoteza heshima yao waliyopewa na Mungu.",
+        "translation_quote": "Wanawake wanaosimamia haki zao huipiga teke nafasi finyu ya lango na kupoteza heshima waliyoamriwa na Mungu."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

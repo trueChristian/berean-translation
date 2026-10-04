@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7de278dc-987c-4fc6-880e-b0da87bbb85a",
+    "response_id": "chatcmpl-EV1y06RIiZuaubPVTEi3yvvlcoRIn",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 553,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6402,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6399,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7066
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lead paragraph, drop-cap span",
+        "severity": "minor",
+        "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+        "suggested_fix": "<span class=\"drop-cap\">ब</span>बहुत-से लोग पूछते हैं",
+        "translation_quote": "<span class=\"drop-cap\">M</span>बहुत-से लोग पूछते हैं"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

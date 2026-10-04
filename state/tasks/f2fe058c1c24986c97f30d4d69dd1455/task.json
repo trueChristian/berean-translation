@@ -2,7 +2,6 @@
   "article_id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,60 +64,54 @@
         },
         "total_tokens": 9048
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 306,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5493,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5490,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5799
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, para 1",
-      "severity": "minor",
-      "source_quote": "We are trusting that each of you as our readers are doing well and continuing to trust the Lord.",
-      "suggested_fix": "Tunatumaini kwamba kila mmoja wenu, wasomaji wetu, anaendelea vizuri na kuendelea kumtumaini Bwana.",
-      "translation_quote": "Tunatumaini kwamba kila mmoja wenu kama wasomaji wetu anaendelea vizuri na anaendelea kumtumaini Bwana."
+      "location": "HTML, 1 Corinthians 15:19 quotation",
+      "severity": "major",
+      "source_quote": "If in this life only we have hope in Christ, we are of all men most miserable",
+      "suggested_fix": "Revise the quotation to preserve the conditional meaning “if our hope in Christ is only for this life” and the resulting state of being “most pitiable,” for example: “Kama tumaini letu katika Kristo ni la maisha haya tu, sisi tu wa kusikitikiwa kuliko watu wote.”",
+      "translation_quote": "Kama katika maisha haya tu tunamtumaini Kristo, sisi ni wa kusikitikiwa kuliko watu wote"
     },
     {
-      "location": "HTML, para 8",
+      "location": "HTML, numbered point 2",
       "severity": "major",
-      "source_quote": "According to the news article, the CDC has published data from a survey which was conducted to determine the outcome of the negative effects of the pandemic.",
-      "suggested_fix": "Kulingana na makala ya habari, CDC imechapisha data kutoka kwa utafiti uliofanywa ili kubaini matokeo ya athari hasi za janga hili.",
-      "translation_quote": "Kulingana na habari hiyo, CDC imechapisha takwimu kutoka kwa utafiti uliofanywa ili kubaini matokeo ya athari hasi za janga hili."
+      "source_quote": "Each of us WILL fall into temptations",
+      "suggested_fix": "Change “tutaangukia” to a faithful equivalent of falling into temptation/trials, such as “atakumbwa na majaribu,” preserving that each person will encounter them.",
+      "translation_quote": "Kila mmoja wetu ATAANGUKIA katika majaribu"
     },
     {
-      "location": "HTML, para 10",
+      "location": "HTML, closing paragraph, final sentence",
       "severity": "major",
-      "source_quote": "we are of all men most miserable",
-      "suggested_fix": "sisi ni wa kusikitikiwa kuliko watu wote",
-      "translation_quote": "sisi ni wa kusikitikiwa kuliko watu wote"
-    },
-    {
-      "location": "HTML, para 13",
-      "severity": "major",
-      "source_quote": "will help make a change in someone’s eternal welfare",
-      "suggested_fix": "litasaidia kuboresha hali ya mtu ya milele",
-      "translation_quote": "litasaidia lini kubadili hali ya mtu kuhusu ustawi wake wa milele."
-    },
-    {
-      "location": "HTML, blockquote 1",
-      "severity": "major",
-      "source_quote": "then shall he have rejoicing in himself alone, and not in another",
-      "suggested_fix": "ndipo atakapokuwa na furaha kwa ajili yake mwenyewe peke yake, wala si kwa ajili ya mwingine",
-      "translation_quote": "ndipo atakapokuwa na sababu ya kujisifu yeye mwenyewe peke yake, wala si kwa kumlinganisha na mwingine."
-    },
-    {
-      "location": "HTML, blockquote 2",
-      "severity": "major",
-      "source_quote": "There hath no temptation taken you but such as is common to man",
-      "suggested_fix": "Jaribu halikuwapata ninyi isipokuwa lile lililo la kawaida kwa wanadamu",
-      "translation_quote": "Jaribu halikuwapata ninyi, isipokuwa lililo kawaida ya wanadamu"
-    },
-    {
-      "location": "HTML, paragraph following numbered list",
-      "severity": "major",
-      "source_quote": "This is according to His fact, not according to our feeling.",
-      "suggested_fix": "Hili linategemea ukweli Wake, si hisia zetu.",
-      "translation_quote": "Hili linategemea ukweli Wake, si hisia zetu."
+      "source_quote": "our Abba Father",
+      "suggested_fix": "Translate “Abba Father” as “Baba yetu Abba” (or another clear Kiswahili rendering that retains the intimate address “Abba”), rather than leaving the substantive title untranslated.",
+      "translation_quote": "Baba yetu Abba"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "f2fe058c1c24986c97f30d4d69dd1455",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -207,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53b4e1ce5089087c0746aac470499d70ca4c5d75990f78fce69f59c9e579096c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
   "translation_model_actual": "gpt-6-luna"

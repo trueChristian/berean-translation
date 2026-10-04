@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8840
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph beginning “De apostel Paulus schrijft” (Ephesians 5:19)",
-      "severity": "major",
-      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord",
-      "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak in uw hart melodie voor de Heer”",
-      "translation_quote": "Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak melodie in uw hart voor de Heer"
     },
     {
-      "location": "Article, paragraph beginning “Ook in Kolossenzen staat” (Colossians 3:16)",
-      "severity": "major",
-      "source_quote": "teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord",
-      "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “elkaar onderwijzen en vermanen met psalmen, lofzangen en geestelijke liederen, zingend met genade in uw hart voor de Heer”",
-      "translation_quote": "elkaar moeten onderwijzen en terechtwijzen met psalmen, lofzangen en geestelijke liederen, zingend met dankbaarheid in uw hart voor de Heer"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 939,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 808,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5726,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6668
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "This is a problem since most secular music is evil and promotes things that God hates.",
+      "suggested_fix": "Vervang ‘slecht’ door ‘kwaad’: ‘Dat is een probleem, omdat de meeste seculiere muziek kwaad is en dingen bevordert die God haat.’",
+      "translation_quote": "Dat is een probleem, omdat de meeste seculiere muziek slecht is en dingen bevordert die God haat."
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "dcad770c2952e461a615a221b4294c64",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

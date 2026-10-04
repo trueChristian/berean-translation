@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 7968
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 638,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5102,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5099,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5740
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph 2 (final sentence), paragraph 4, and paragraph 7",
+      "location": "HTML, paragraph quoting 2 Timothy 1:7",
       "severity": "major",
-      "source_quote": "“throughout our plain communities”; “we as the plain community”; “Many of the plain community”",
-      "suggested_fix": "Sostituire «comunità anabattiste tradizionaliste» e «comunità anabattista tradizionalista» con una resa che mantenga il riferimento più ampio dell’originale senza aggiungere un’identificazione confessionale, ad esempio «comunità di tradizione semplice» / «comunità di tradizione semplice», nei tre punti interessati. Nella frase finale del paragrafo 2, rendere inoltre «nelle nostre comunità di tradizione semplice».",
-      "translation_quote": "“nelle nostre comunità anabattiste tradizionaliste”; “noi, come comunità anabattista tradizionalista”; “Molti appartenenti alle comunità anabattiste tradizionaliste”"
+      "source_quote": "“of a sound mind”",
+      "suggested_fix": "Replace «di saggezza» with «di una mente sana» or «di autocontrollo» to preserve the meaning of “of a sound mind.” Keep the existing HTML structure and reference unchanged.",
+      "translation_quote": "«di forza, di amore e di saggezza –2 Timoteo 1:7»"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "7423189dacca66e9b69d975329880cce",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ita",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

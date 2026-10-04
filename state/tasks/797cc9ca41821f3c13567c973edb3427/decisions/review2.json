@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "Animals too, live out what the Bible teaches about kinds.",
+      "suggested_fix": "اس جملے میں «جنس» کی جگہ «نوع» یا «قسم» استعمال کریں تاکہ مراد بائبل میں بیان کردہ جانوروں کی اقسام ہو، نہ کہ جنس (sex)۔",
+      "translation_quote": "جانور بھی اس بات کو عملی طور پر ظاہر کرتے ہیں جو بائبل انواع کے بارے میں سکھاتی ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

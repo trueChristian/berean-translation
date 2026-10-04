@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 22191
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 849,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 686,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14413,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14410,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15262
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraaf die begint met ‘Sterling was verbijsterd…’",
-      "severity": "major",
-      "source_quote": "“Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.”",
-      "suggested_fix": "Vervang ‘besloten we hem met herhaalde lichte tikken terecht te wijzen wanneer hij zijn zin doordreef’ door een vertaling die het gebruik van kleine stokjes of twijgen om zijn eigenzinnigheid te bestraffen behoudt, bijvoorbeeld: ‘besloten we hem herhaaldelijk met kleine rottinkjes te bestraffen wanneer hij zijn zin doordreef.’",
-      "translation_quote": "“In plaats van hem in bedwang te houden en te eisen dat hij zich aan onze wensen onderwierp, besloten we hem met herhaalde lichte tikken terecht te wijzen wanneer hij zijn zin doordreef.”"
-    },
-    {
-      "location": "Paragraaf die begint met ‘Die week was zwaar.’",
-      "severity": "major",
-      "source_quote": "“I prayed and switched.”",
-      "suggested_fix": "Vertaal ‘switched’ als het slaan met een stokje of twijg, bijvoorbeeld: ‘Ik bad en sloeg hem met een stokje.’",
-      "translation_quote": "“Ik bad en gaf hem tikken.”"
+      "location": "Paragraph beginning “By the end of the first week…”",
+      "severity": "minor",
+      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate…”",
+      "suggested_fix": "Replace “een van zijn kleine peddels” with a Dutch rendering that conveys the source’s intended meaning of “paddies”; “peddels” means paddles and is confusing in this context.",
+      "translation_quote": "“Met een komisch meelijwekkende blik bood hij Sterling en mij elk een van zijn kleine peddels aan om vast te houden terwijl hij at…”"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "4db1d72aa24d80bd9ce3e0bd401c5ab9",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

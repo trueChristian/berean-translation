@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14a763db-273e-4298-9d5a-7eb5a693bd92",
+    "response_id": "chatcmpl-EV1zJJgdVwCSXCUSq9B5GCT83JX8o",
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 831,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16136,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16133,
+        "cached_tokens": 0
+      },
+      "total_tokens": 17113
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “But it wasn’t only the digestive mystery…”",
+        "severity": "minor",
+        "source_quote": "“I became used to pinning him over my shoulder while I quickly ate, one-handed.”",
+        "suggested_fix": "“मुझे उसे अपने कंधे पर टिकाकर, एक हाथ से जल्दी-जल्दी खाना खाने की आदत-सी हो गई।”",
+        "translation_quote": "“मुझे उसकी बाँह अपने कंधे पर टिकाकर एक हाथ से जल्दी-जल्दी खाना खाने की आदत-सी हो गई।”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "418109cd-b7ad-4b64-a619-f4025c2778cf",
+    "response_id": "chatcmpl-EV1yLB1XUAaphP8Zse6j2cJsaPeNX",
+    "usage": {
+      "completion_tokens": 306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5493,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5490,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5799
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, 1 Corinthians 15:19 quotation",
+        "severity": "major",
+        "source_quote": "If in this life only we have hope in Christ, we are of all men most miserable",
+        "suggested_fix": "Revise the quotation to preserve the conditional meaning “if our hope in Christ is only for this life” and the resulting state of being “most pitiable,” for example: “Kama tumaini letu katika Kristo ni la maisha haya tu, sisi tu wa kusikitikiwa kuliko watu wote.”",
+        "translation_quote": "Kama katika maisha haya tu tunamtumaini Kristo, sisi ni wa kusikitikiwa kuliko watu wote"
+      },
+      {
+        "location": "HTML, numbered point 2",
+        "severity": "major",
+        "source_quote": "Each of us WILL fall into temptations",
+        "suggested_fix": "Change “tutaangukia” to a faithful equivalent of falling into temptation/trials, such as “atakumbwa na majaribu,” preserving that each person will encounter them.",
+        "translation_quote": "Kila mmoja wetu ATAANGUKIA katika majaribu"
+      },
+      {
+        "location": "HTML, closing paragraph, final sentence",
+        "severity": "major",
+        "source_quote": "our Abba Father",
+        "suggested_fix": "Translate “Abba Father” as “Baba yetu Abba” (or another clear Kiswahili rendering that retains the intimate address “Abba”), rather than leaving the substantive title untranslated.",
+        "translation_quote": "Baba yetu Abba"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

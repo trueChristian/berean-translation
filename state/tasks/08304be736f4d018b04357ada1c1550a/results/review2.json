@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e793d826-c111-42ef-bad8-a29d1144898e",
+    "response_id": "chatcmpl-EV1yYtxm8tj5NQKIqvzkogKzJrKuT",
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8704
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « L’adolescence est une période de transition »",
+        "severity": "minor",
+        "source_quote": "can leave the child feeling insecure",
+        "suggested_fix": "Remplacer « peut rendre l’enfant insécurisé » par « peut donner à l’enfant un sentiment d’insécurité ».",
+        "translation_quote": "peut rendre l’enfant insécurisé"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

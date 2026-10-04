@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, second stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"He was never well-liked; despised by all men;\",\"suggested_fix\":\"Hy was nooit gewild nie; deur almal verag;\",\"translation_quote\":\"Hy was nooit geliefd nie; deur almal verag;\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 295,
+    "content_evidence_truncated": false,
+    "content_sha256": "97cb9bdcf15f20b51cb0663d2ad6a6cd0f03d16ced35de3a3091de6c0a8319e2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1915,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1912,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2687
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

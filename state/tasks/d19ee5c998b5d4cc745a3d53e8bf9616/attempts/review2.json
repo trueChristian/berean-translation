@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Hebrews 11:1”\",\"severity\":\"minor\",\"source_quote\":\"Biblical faith is simply a state of mind that has confidence and trust in the Lord.\",\"suggested_fix\":\"A fé bíblica é simplesmente um estado mental de confiança e segurança no Senhor.\",\"translation_quote\":\"A fé bíblica é simplesmente uma disposição de confiança no Senhor.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 418,
+    "content_evidence_truncated": false,
+    "content_sha256": "8bbfe34f8c1dcb09bde650209210c43ec1cd5f9a7f26706a4f55b688bab60d31",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 557,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4064,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4734
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, numbered list, item 1\",\"severity\":\"major\",\"source_quote\":\"This is according to His fact, not according to our feeling.\",\"suggested_fix\":\"Dit is volgens God se feit, nie volgens ons gevoel nie.\",\"translation_quote\":\"Dit is volgens sy Woord, nie volgens ons gevoel nie.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 337,
+    "content_evidence_truncated": false,
+    "content_sha256": "14993d847bdef9bb3f2dc066a83461662da7908a17a3d1e0217dd3facd9c15bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5963
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

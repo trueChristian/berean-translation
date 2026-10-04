@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, contrast between authority given to people and authority over people",
+      "severity": "major",
+      "source_quote": "It brings power unto people rather than power over people.",
+      "suggested_fix": "Vervang alleen deze formulering door: Het brengt kracht <strong><u>aan mensen</u></strong> in plaats van kracht <strong><u>over mensen</u></strong>.",
+      "translation_quote": "Het brengt kracht <strong><u>om mensen te bekrachtigen</u></strong> in plaats van kracht <strong><u>over mensen</u></strong>."
+    },
+    {
+      "location": "Final paragraph, description of faith",
+      "severity": "minor",
+      "source_quote": "Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.",
+      "suggested_fix": "Vervang “de meest verdachte en onderschatte kracht” door “de meest betwijfelde en onderschatte kracht”.",
+      "translation_quote": "Geloof dat voortkomt uit volledige en nederige onderwerping is de meest verdachte en onderschatte kracht die de mensheid ter beschikking staat."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

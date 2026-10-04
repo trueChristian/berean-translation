@@ -2,7 +2,6 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 14629
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph on God-given authority; Romans 13:1-2 quotation",
-      "severity": "major",
-      "source_quote": "“and they that resist shall receive to themselves damnation”",
-      "suggested_fix": "Translate “damnation” with a Dutch term conveying condemnation or damnation, such as “verdoemenis,” rather than the less severe “een oordeel halen.” For example: “en wie zich verzetten, zullen over zichzelf verdoemenis brengen.”",
-      "translation_quote": "“en wie zich verzet, zal over zichzelf een oordeel halen”"
     },
     {
-      "location": "Paragraph on church leaders; 1 Samuel 15:23 quotation",
-      "severity": "major",
-      "source_quote": "“and stubbornness is as iniquity and idolatry”",
-      "suggested_fix": "Translate “stubbornness” as “hardnekkigheid” or an equivalent, rather than “ongehoorzaamheid,” which changes the stated comparison. For example: “en hardnekkigheid is als ongerechtigheid en afgoderij.”",
-      "translation_quote": "“en ongehoorzaamheid is afgoderij”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 894,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 639,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9444,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9441,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10338
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Final paragraph, contrast between authority given to people and authority over people",
+      "severity": "major",
+      "source_quote": "It brings power unto people rather than power over people.",
+      "suggested_fix": "Vervang alleen deze formulering door: Het brengt kracht <strong><u>aan mensen</u></strong> in plaats van kracht <strong><u>over mensen</u></strong>.",
+      "translation_quote": "Het brengt kracht <strong><u>om mensen te bekrachtigen</u></strong> in plaats van kracht <strong><u>over mensen</u></strong>."
+    },
+    {
+      "location": "Final paragraph, description of faith",
+      "severity": "minor",
+      "source_quote": "Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.",
+      "suggested_fix": "Vervang “de meest verdachte en onderschatte kracht” door “de meest betwijfelde en onderschatte kracht”.",
+      "translation_quote": "Geloof dat voortkomt uit volledige en nederige onderwerping is de meest verdachte en onderschatte kracht die de mensheid ter beschikking staat."
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "1b451cf3df5fc725e3b26fb41c88cc8e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -178,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

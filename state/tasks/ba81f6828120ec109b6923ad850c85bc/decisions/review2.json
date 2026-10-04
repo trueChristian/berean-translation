@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, paragraph beginning “Jioni hiyo hasa”",
+      "severity": "minor",
+      "source_quote": "“It looked like so much fun as they trotted around the pond and through the lawn.”",
+      "suggested_fix": "Replace “walipokuwa wakizunguka bwawa kwa mwendo wa kunyata” with “walipokuwa wakizunguka bwawa huku farasi wakikimbia kwa hatua fupi” to convey the horses’ trotting gait.",
+      "translation_quote": "“Ilionekana kufurahisha sana walipokuwa wakizunguka bwawa kwa mwendo wa kunyata na kupita kwenye nyasi.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

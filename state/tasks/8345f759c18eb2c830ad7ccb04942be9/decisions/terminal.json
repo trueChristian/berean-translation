@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Awal paragraf tentang Yesus di Bait Allah",
+      "severity": "major",
+      "source_quote": "“sitting in the temple visiting with the doctors”",
+      "suggested_fix": "Ganti “berbincang dengan para ahli” dengan “berbincang dengan para guru” agar sesuai dengan makna *doctors* dalam konteks ini.",
+      "translation_quote": "“duduk di Bait Allah, berbincang dengan para ahli”"
+    },
+    {
+      "location": "Paragraf tentang pertobatan anak-anak",
+      "severity": "major",
+      "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance”",
+      "suggested_fix": "Ganti “menuntun mereka kepada kehancuran hati” dengan “menuntun mereka kepada hati yang hancur” agar tidak menyatakan bahwa mereka dituntun menuju kehancuran.",
+      "translation_quote": "“Kami mengenali tanda-tanda keinsafan akan dosa dan menuntun mereka kepada kehancuran hati dan pertobatan”"
+    },
+    {
+      "location": "Paragraf tentang masa remaja awal",
+      "severity": "major",
+      "source_quote": "“a life of dedicated service to God is the only life of blessing and fulfilment”",
+      "suggested_fix": "Ganti “Hidup yang dipersembahkan untuk melayani Allah adalah satu-satunya hidup yang penuh berkat dan pemenuhan” dengan “Hidup yang sepenuhnya diabdikan kepada Allah adalah satu-satunya hidup yang penuh berkat dan kepuasan.”",
+      "translation_quote": "“Hidup yang dipersembahkan untuk melayani Allah adalah satu-satunya hidup yang penuh berkat dan pemenuhan.”"
+    },
+    {
+      "location": "Paragraf tentang gereja lokal dan persekutuan",
+      "severity": "major",
+      "source_quote": "“The local church and community of associated churches provides this broader base of fellowship.”",
+      "suggested_fix": "Ganti “komunitas gereja-gereja yang bersekutu” dengan “komunitas gereja-gereja yang berafiliasi” agar makna gereja-gereja yang terkait tetap terjaga.",
+      "translation_quote": "“Gereja lokal dan komunitas gereja-gereja yang bersekutu menyediakan dasar persekutuan yang lebih luas ini.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

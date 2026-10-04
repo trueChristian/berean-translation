@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Galaterbrevet 6:1–5 quotation\",\"severity\":\"major\",\"source_quote\":\"“then shall he have rejoicing in himself alone, and not in another.”\",\"suggested_fix\":\"Replace the corresponding sentence with: “Då får han glädja sig åt sig själv ensam, inte åt någon annan.”\",\"translation_quote\":\"“Då kan han själv glädja sig åt sitt arbete, inte åt någon annans.”\"},{\"location\":\"HTML, numbered point 1\",\"severity\":\"minor\",\"source_quote\":\"“This is according to His fact, not according to our feeling.”\",\"suggested_fix\":\"For idiomatic Swedish while preserving the printed sense, replace “Detta grundar sig på hans faktum, inte på vår känsla” with “Detta grundar sig på vad som är sant om honom, inte på vad vi känner.”\",\"translation_quote\":\"“Detta grundar sig på hans faktum, inte på vår känsla.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 896,
+    "content_evidence_truncated": false,
+    "content_sha256": "2811e6e7c95cc1b9b7f62761b87a5c3f6772d4f2a73473f75d6bc1fe86a9c29a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 658,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5334,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6228
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

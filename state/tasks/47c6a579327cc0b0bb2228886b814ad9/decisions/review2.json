@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, numbered list, item 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Replace «Dette bygger på hans faktum» med en idiomatisk formulering som «Dette bygger på det som er sant om Gud, ikke på hvordan vi føler det»; retain the contrast with our feelings.",
+      "translation_quote": "Dette bygger på hans faktum, ikke på hvordan vi føler det."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

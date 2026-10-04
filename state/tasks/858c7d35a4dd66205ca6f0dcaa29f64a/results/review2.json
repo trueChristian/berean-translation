@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d6f7af3e-a3ca-45dd-bace-b9aaff00c7ef",
+    "response_id": "chatcmpl-EV1yMvNbEEyuaJFy7KtENVxDMt1dS",
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5963
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, numbered list, item 1",
+        "severity": "major",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Dit is volgens God se feit, nie volgens ons gevoel nie.",
+        "translation_quote": "Dit is volgens sy Woord, nie volgens ons gevoel nie."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

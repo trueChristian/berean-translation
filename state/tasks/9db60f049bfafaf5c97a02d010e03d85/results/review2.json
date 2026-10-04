@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "610fa9ab-83b3-4f5f-9ea9-a3ada90ef63d",
+    "response_id": "chatcmpl-EV1xt3WhwPK5KJUiws5RBUt4fIPsD",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9901,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10686
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Η ανατροφή εφήβων…»",
+        "severity": "minor",
+        "source_quote": "Raising teens is a rewarding experience",
+        "suggested_fix": "Replace «ανταποδοτική εμπειρία» with «ικανοποιητική εμπειρία» or «επιβραβευτική εμπειρία» to convey that raising teens is gratifying.",
+        "translation_quote": "Η ανατροφή εφήβων είναι μια ανταποδοτική εμπειρία"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

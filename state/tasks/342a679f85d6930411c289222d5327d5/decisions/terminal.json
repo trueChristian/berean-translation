@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "A Suffering Savior",
+      "suggested_fix": "החליפו ל: „מושיע סובל”.",
+      "translation_quote": "מושיע סובל"
+    },
+    {
+      "location": "html, בית 1, שורה 2",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "תרגמו את המשמעות שהכניע את רצונו מלכתחילה, בלי להוסיף שהדבר היה עתיד להתרחש; למשל: „כבר מלכתחילה נכנע לרצונו.”",
+      "translation_quote": "כבר מלכתחילה היה עתיד להכפיף את רצונו."
+    },
+    {
+      "location": "html, בית 6, שורה 1",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "שמרו על האפשרות לזמן את המלאכים, ואל תוסיפו כיוון שאינו מבוסס בהקשר; למשל: „יכול היה לזמן עשרת אלפים מלאכים,”",
+      "translation_quote": "הוא יכול היה לזמן עשרת אלפים מלאכים דרומה,"
+    },
+    {
+      "location": "html, בית 10, שורה 2",
+      "severity": "major",
+      "source_quote": "Providing the Lamb and transforming my fate.",
+      "suggested_fix": "נסחו כך שהקורבן סיפק את השה ושינה את גורל הדובר, בלי להפוך את „השה” לנושא מפורש שלא מופיע במקור; למשל: „ובכך סיפק את השה ושינה את גורלי.”",
+      "translation_quote": "הוא סיפק את השה ושינה את גורלי."
+    },
+    {
+      "location": "html, בית 11, שורה 2",
+      "severity": "major",
+      "source_quote": "Now the Father and I—a relationship restored!",
+      "suggested_fix": "העבירו את משמעות חידוש היחסים בין הדובר לאב, בלי לטעון שהיחסים עצמם „שבו”; למשל: „כעת היחסים ביני לבין האב — שוקמו!”",
+      "translation_quote": "כעת היחסים ביני לבין האב — שבו והשתקמו!"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

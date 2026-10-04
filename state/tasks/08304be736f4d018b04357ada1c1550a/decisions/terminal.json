@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « L’adolescence est une période de transition »",
+      "severity": "minor",
+      "source_quote": "can leave the child feeling insecure",
+      "suggested_fix": "Remplacer « peut rendre l’enfant insécurisé » par « peut donner à l’enfant un sentiment d’insécurité ».",
+      "translation_quote": "peut rendre l’enfant insécurisé"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

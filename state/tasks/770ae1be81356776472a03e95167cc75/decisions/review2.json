@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraphs 2, 4, and 7",
+      "severity": "major",
+      "source_quote": "“our plain communities”; “we as the plain community”; “Many of the plain community”",
+      "suggested_fix": "Replace the added identification with wording that preserves the source’s broader description, for example: “בקהילותינו שומרות המסורת” in paragraph 2, “אנחנו, בני הקהילות שומרות המסורת” in paragraph 4, and “רבים בקהילות שומרות המסורת” in paragraph 7. Keep the existing paragraph tags and structure.",
+      "translation_quote": "“בקהילות האנבפטיסטיות שומרות המסורת שלנו”; “אנחנו, בני קהילת האנבפטיסטים שומרת המסורת”; “רבים בקהילת האנבפטיסטים שומרת המסורת”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning «Учитывая всё это»\",\"severity\":\"major\",\"source_quote\":\"We never know when our smile or encouraging word will help make a change in someone’s eternal welfare.\",\"suggested_fix\":\"Заменить «помогут изменить чью-то вечную участь» на «помогут повлиять на чьё-то вечное благополучие», чтобы сохранить смысл духовного благополучия, а не изменить чью-то вечную участь.\",\"translation_quote\":\"Мы никогда не знаем, когда наша улыбка или слово ободрения помогут изменить чью-то вечную участь.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 821,
+    "content_evidence_truncated": false,
+    "content_sha256": "e8a80f7bb5b007e494e46aceecd4bf4ea340ba068140fdb06630e135034a0328",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6051
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

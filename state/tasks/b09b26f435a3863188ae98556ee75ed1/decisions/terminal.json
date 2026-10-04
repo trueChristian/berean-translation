@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, numbered list, item 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Pertimbangkan mengganti “Hal ini sesuai dengan fakta-Nya” dengan “Hal ini sesuai dengan fakta, bukan perasaan kita” agar ungkapannya wajar dalam bahasa Indonesia tanpa mengubah gagasan kalimat.",
+      "translation_quote": "Hal ini sesuai dengan fakta-Nya, bukan perasaan kita."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph under «…Ektemenn»\",\"severity\":\"minor\",\"source_quote\":\"The headship veiling is not just a symbol of submission, nor is it merely a form of protection, it is spiritual power.\",\"suggested_fix\":\"Replace «Hodeplagget som markerer lederskap» with «Sløret som uttrykk for mannens lederskap» to preserve the specific reference to veiling and headship.\",\"translation_quote\":\"Hodeplagget som markerer lederskap, er ikke bare et symbol på underordning, og heller ikke bare en form for beskyttelse; det er åndelig kraft.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 590,
+    "content_evidence_truncated": false,
+    "content_sha256": "06feeb85444cdd455c82ecfc58dc221ba9e038494058b2b4dc48f248d534ae82",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1037,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 867,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9622,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10662
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

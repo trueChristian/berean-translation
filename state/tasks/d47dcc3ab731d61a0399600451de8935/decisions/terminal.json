@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文：第一周训练取得进展后的段落",
+      "severity": "major",
+      "source_quote": "With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "将“把他的一小块便便分别递给斯特林和我拿着”改为不添加“便便”这一原文没有的含义的译法，例如：“他会摆出滑稽又可怜的表情，把他的一件小东西递给斯特林和我各自拿着，自己边吃边看，仿佛这样能给他勇气。”",
+      "translation_quote": "他会摆出滑稽又可怜的表情，把他的一小块便便分别递给斯特林和我拿着，自己边吃边看，仿佛这样能给他勇气。"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

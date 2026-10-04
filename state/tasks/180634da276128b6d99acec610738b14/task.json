@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 3174
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 660,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 555,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1894,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1891,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2554
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, poème, 1re strophe, 2e vers",
-      "severity": "major",
-      "source_quote": "It was from the beginning that His will He would yield.",
-      "suggested_fix": "Remplacer « Dès le commencement, il se soumit à la volonté de son Père. » par « Dès le commencement, il était résolu à soumettre sa volonté. » afin de ne pas ajouter une attribution explicite au Père qui ne figure pas dans ce vers.",
-      "translation_quote": "Dès le commencement, il se soumit à la volonté de son Père."
-    },
-    {
-      "location": "HTML, poème, 6e strophe, 1er vers",
-      "severity": "major",
-      "source_quote": "Ten thousand angels, He could have summoned south,",
-      "suggested_fix": "Traduire le sens imprimé sans remplacer « south » par une destination de secours ; par exemple : « Il aurait pu appeler dix mille anges vers le sud, »",
-      "translation_quote": "Il aurait pu appeler dix mille anges à son secours,"
-    },
-    {
-      "location": "HTML, poème, 10e strophe, 2e vers",
-      "severity": "major",
-      "source_quote": "Providing the Lamb and transforming my fate.",
-      "suggested_fix": "Remplacer « Il a pourvu à l’Agneau et transformé mon destin. » par « Il a fourni l’Agneau et transformé mon destin. » pour rendre le sens de Dieu fournissant l’Agneau, et non pourvoyant aux besoins de l’Agneau.",
-      "translation_quote": "Il a pourvu à l’Agneau et transformé mon destin."
+      "location": "HTML, troisième strophe, deuxième vers",
+      "severity": "minor",
+      "source_quote": "Not seeking money and friends or trying to succeed.",
+      "suggested_fix": "Il ne cherchait ni l’argent ni les amis, et ne cherchait pas non plus à réussir.",
+      "translation_quote": "Il ne cherchait ni argent ni amis, et ne voulait pas réussir."
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "180634da276128b6d99acec610738b14",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "fra",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

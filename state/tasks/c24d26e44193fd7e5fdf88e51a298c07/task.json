@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,39 +64,54 @@
         },
         "total_tokens": 31370
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1054,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 681,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 18847,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18844,
+          "cached_tokens": 0
+        },
+        "total_tokens": 19901
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph beginning «Το έκτο βράδυ μας στο Μεξικό»",
+      "location": "HTML, paragraph beginning «Στο τέλος της πρώτης εβδομάδας»",
       "severity": "major",
-      "source_quote": "“Suddenly he screamed out, only to choke mid-scream and then go limp.”",
-      "suggested_fix": "Αντικαταστήστε το «και μετά χαλάρωσε εντελώς» με «και μετά έμεινε άτονος» ώστε να αποδοθεί ότι το σώμα του έγινε άτονο, όχι ότι απλώς χαλάρωσε.",
-      "translation_quote": "«Ξαφνικά ούρλιαξε, μα στη μέση της κραυγής πνίγηκε και μετά χαλάρωσε εντελώς.»"
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "Translate “paddies” without adding a specific meaning not established by the source. For example: «πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό “paddy” να κρατάμε όσο έτρωγε» (or use the intended Greek equivalent if the source term is clarified).",
+      "translation_quote": "πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε"
     },
     {
-      "location": "HTML paragraph beginning «Στο τέλος της πρώτης εβδομάδας»",
-      "severity": "minor",
-      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
-      "suggested_fix": "Ελέγξτε το «κουπί» και επιλέξτε απόδοση που μεταφέρει με σαφήνεια το νόημα του “paddies” στο συγκεκριμένο συμφραζόμενο, διατηρώντας το ότι πρόσφερε από ένα στον καθένα για να τα κρατούν όσο έτρωγε.",
-      "translation_quote": "«πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κουπί να κρατάμε όσο έτρωγε»"
+      "location": "HTML, paragraph beginning «Η προσευχή λειτουργεί»",
+      "severity": "major",
+      "source_quote": "Sterling is in charge.",
+      "suggested_fix": "Use wording that conveys that Sterling is in charge, rather than merely responsible; for example: «Ο Στέρλινγκ έχει τον έλεγχο.»",
+      "translation_quote": "Ο Στέρλινγκ είναι υπεύθυνος."
     },
     {
-      "location": "HTML paragraph beginning «Την ενδέκατη μέρα επισκεφθήκαμε»",
+      "location": "HTML, final paragraph",
       "severity": "minor",
-      "source_quote": "“we visited a nurse practitioner in a Mennonite colony in Mexico”",
-      "suggested_fix": "Αποδώστε το “nurse practitioner” ως «νοσηλεύτρια με διευρυμένο κλινικό ρόλο» ή με άλλη καθιερωμένη ελληνική διατύπωση που διατηρεί την ιδιότητα· το «νοσηλεύτρια» μόνο του παραλείπει αυτή τη διάκριση.",
-      "translation_quote": "«επισκεφθήκαμε μια νοσηλεύτρια σε μια μενονιτική αποικία στο Μεξικό»"
-    },
-    {
-      "location": "HTML paragraph beginning «Η δέσμευσή μου να στηρίζω»",
-      "severity": "minor",
-      "source_quote": "“My commitment to stand behind my husband in this all tussled with my emotions”",
-      "suggested_fix": "Αντικαταστήστε το «πάλευε με τα συναισθήματά μου» με πιο φυσική διατύπωση, όπως «συγκρουόταν με τα συναισθήματά μου», διατηρώντας την εσωτερική σύγκρουση.",
-      "translation_quote": "«Η δέσμευσή μου να στηρίζω τον άντρα μου σε αυτό πάλευε με τα συναισθήματά μου»"
+      "source_quote": "a perceptive brother to speak into the situation",
+      "suggested_fix": "Replace the unnatural «μίλησε στην κατάστασή μας» with a phrase conveying that the brother offered insight or spoke to the situation, such as «ενός διορατικού αδελφού που μας έδωσε τη δική του οπτική για την κατάσταση».",
+      "translation_quote": "μέσω ενός διορατικού αδελφού που μίλησε στην κατάστασή μας"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "c24d26e44193fd7e5fdf88e51a298c07",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ell",
@@ -186,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 83,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

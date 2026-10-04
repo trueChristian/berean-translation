@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza beginning «Ten tusen engler»",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Preserve the directional detail, for example: «Ti tusen engler kunne han ha kalt til seg mot sør,»",
+      "translation_quote": "Ti tusen engler kunne han ha kalt ned,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

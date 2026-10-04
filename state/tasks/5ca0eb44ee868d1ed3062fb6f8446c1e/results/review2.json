@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8a4827bd-c81c-429b-9490-8367787c4e41",
+    "response_id": "chatcmpl-EV1yUJbXP6qCS2vkWkN5f61zXF9Fc",
+    "usage": {
+      "completion_tokens": 370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1909,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2282
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Стихотворение, строфа 6",
+        "severity": "major",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Перевести без изменения направления: «Он мог бы призвать десять тысяч ангелов на юг,»",
+        "translation_quote": "Он мог бы призвать десять тысяч ангелов на юг,"
+      },
+      {
+        "location": "Стихотворение, строфа 8",
+        "severity": "major",
+        "source_quote": "Enduring the cross, all the pain He did bear?",
+        "suggested_fix": "Сохранить смысл «перенося крест» без утверждения, что Он нёс его: «Перенося крест и всю боль, которую Он претерпел?»",
+        "translation_quote": "Перенося крест и всю боль, которую нёс?"
+      },
+      {
+        "location": "Стихотворение, строфа 9",
+        "severity": "major",
+        "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
+        "suggested_fix": "Передать, что искупление за наш грех было совершено из любви к нам, когда Он истёк кровью и умер, чтобы сделать нас Своей семьёй. Например: «Потому что мы были дороги Ему: искупление за наш грех / Он совершил, истекая кровью и умирая там, чтобы сделать нас Своей семьёй!»",
+        "translation_quote": "Потому что мы были дороги Ему: искупление за наш грех / Он совершил, истекая кровью и умирая там, чтобы сделать нас Своими родными!"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

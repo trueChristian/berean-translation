@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Joseph repeatedly found himself…”\",\"severity\":\"major\",\"source_quote\":\"“the second ruling power in the most prominent nation on the earth”\",\"suggested_fix\":\"Replace “die tweede hoogste heersersposisie in die magtigste nasie op aarde” with “die tweede hoogste heersersposisie in die mees vooraanstaande nasie op aarde” to preserve “most prominent.”\",\"translation_quote\":\"“die tweede hoogste heersersposisie in die magtigste nasie op aarde”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 540,
+    "content_evidence_truncated": false,
+    "content_sha256": "edcb9813019edaa4700dceb141364336f2d8c3be3316ae87de0827c663dc7cbc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 733,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9869,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9866,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10743
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

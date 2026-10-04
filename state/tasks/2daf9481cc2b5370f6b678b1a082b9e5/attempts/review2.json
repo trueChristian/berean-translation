@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"প্রথম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"Like other four-year-old’s, there were a lot of things Ramona could do.\",\"suggested_fix\":\"প্রথম বাক্যাংশটি এভাবে সংশোধন করুন: “অন্য চার বছর বয়সী শিশুদের মতো, রামোনাও অনেক কিছু করতে পারত।”\",\"translation_quote\":\"অন্যান্য চার বছর বয়সী শিশুর মতো রামোনাও অনেক কিছু করতে পারত।\"},{\"location\":\"চতুর্থ অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"She thought it would be fun to see how high she could balance on the gate, so she climbed as high as she dared.\",\"suggested_fix\":\"এখানে “ফটকের ওপর ভারসাম্য রেখে কতটা উঁচুতে উঠতে পারে” এমন অর্থ দিন; উদাহরণ: “ফটকে কতটা উঁচুতে উঠে ভারসাম্য রাখতে পারে তা দেখা মজার হবে ভেবে সে যতটা সাহস করল, ততটা উঁচুতে উঠল।”\",\"translation_quote\":\"ফটকে কত উঁচুতে ভারসাম্য রাখতে পারে তা দেখলে মজা হবে ভেবে সে যতটা সাহস করল, ততটা উঁচুতে উঠল।\"},{\"location\":\"পঞ্চম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"Ramona got down and tried to find something else to do.\",\"suggested_fix\":\"“নেমে এসে”র বদলে স্পষ্ট করে লিখুন যে সে ফটক থেকে নেমেছিল: “রামোনা ফটক থেকে নেমে এসে অন্য কিছু করার চেষ্টা করল।”\",\"translation_quote\":\"রামোনা নেমে এসে অন্য কিছু করার চেষ্টা করল।\"},{\"location\":\"অষ্টম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"Papa decided to let her fall and going to bed early be her punishment this time.\",\"suggested_fix\":\"শাস্তি হিসেবে “পড়ে যাওয়া” নির্ধারণ করেছিলেন—এমন অর্থ না দিয়ে লিখুন যে তার পড়ে যাওয়া ও তাড়াতাড়ি বিছানায় যাওয়াই এবার শাস্তি হিসেবে থাকল। উদাহরণ: “বাবা ঠিক করলেন, এইবার তার পড়ে যাওয়া এবং তাড়াতাড়ি বিছানায় যাওয়াই শাস্তি হিসেবে থাকবে।”\",\"translation_quote\":\"বাবা ঠিক করলেন, এইবার পড়ে যাওয়া এবং তাড়াতাড়ি বিছানায় যাওয়াই তার শাস্তি হবে।\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 3295,
+    "content_evidence_truncated": false,
+    "content_sha256": "dfbdba59155a6c5b2b22dfd6e4698e753a86f3cbee81fe6874a9ffba3bde0089",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4982
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs 2, 4, 7, and 12",
+      "severity": "major",
+      "source_quote": "“our plain communities” / “the plain community” / “Many of the plain community” / “The unity within our groups”",
+      "suggested_fix": "Replace the added identification as Mennonite and Amish communities with wording that does not specify groups absent from the source. For example, use “våra konservativa kristna gemenskaper” for “our plain communities” and “de konservativa kristna gemenskaperna” for “the plain community.” In the final instance, retain the source’s broader “våra grupper” rather than adding a Mennonite/Amish identification.",
+      "translation_quote": "“våra mennonitiska och amishiska gemenskaper” / “de mennonitiska och amishiska gemenskaperna” / “Enheten i våra mennonitiska och amishiska gemenskaper”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

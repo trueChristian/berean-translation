@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lead paragraph, drop-cap span",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "<span class=\"drop-cap\">ब</span>बहुत-से लोग पूछते हैं",
+      "translation_quote": "<span class=\"drop-cap\">M</span>बहुत-से लोग पूछते हैं"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fbed47a2-ae0e-4b4e-9499-1bec97168ed8",
+    "response_id": "chatcmpl-EV1xtfTjiysNSGBTiayCUPPWhh6VY",
+    "usage": {
+      "completion_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5102,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5099,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5740
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph quoting 2 Timothy 1:7",
+        "severity": "major",
+        "source_quote": "“of a sound mind”",
+        "suggested_fix": "Replace «di saggezza» with «di una mente sana» or «di autocontrollo» to preserve the meaning of “of a sound mind.” Keep the existing HTML structure and reference unchanged.",
+        "translation_quote": "«di forza, di amore e di saggezza –2 Timoteo 1:7»"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

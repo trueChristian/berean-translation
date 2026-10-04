@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “This rebel spirit will not be fully conquered”",
+      "severity": "minor",
+      "source_quote": "Only a work of the grace of God upon the heart can subdue the inborn rebellion against God and parental authority.",
+      "suggested_fix": "Ändra till: ”Endast Guds nådverk i hjärtat kan kuva det medfödda upproret mot Gud och föräldrarnas auktoritet.”",
+      "translation_quote": "Endast Guds nådverk i hjärtat kan kuva den medfödda upproret mot Gud och föräldrarnas auktoritet."
+    },
+    {
+      "location": "source.html, paragraph beginning “You can affirm your teen by entrusting him with responsibility”",
+      "severity": "minor",
+      "source_quote": "Dad provided the blocks and the mortar and got me started.",
+      "suggested_fix": "Ändra ”satte i gång mig” till exempelvis ”visade mig hur jag skulle börja”.",
+      "translation_quote": "Pappa ordnade fram blocken och murbruket och satte i gång mig."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dc4b45fd-d9c9-4f29-93a8-6af4eb82293c",
+    "response_id": "chatcmpl-EV1xttwG76lGCIYuRPdXAoU1XcW0v",
+    "usage": {
+      "completion_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10588
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, «…Mariti» section, quotation of 1 Corinthians 11:10",
+        "severity": "major",
+        "source_quote": "For this cause ought the woman to have power on her head… –1 Corinthians 11:10.",
+        "suggested_fix": "Replace «un segno dell’autorità» with wording that preserves the source’s assertion of power on her head, for example: «Per questo la donna deve avere autorità sul capo… –1 Corinzi 11:10.» Keep the existing emphasis and HTML structure.",
+        "translation_quote": "Per questo la donna deve avere sul capo un segno dell’autorità… –1 Corinzi 11:10."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

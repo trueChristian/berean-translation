@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,53 +64,61 @@
         },
         "total_tokens": 10146
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 679,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5902,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5899,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6581
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Статья, абзац о предназначении музыки",
+      "location": "Абзац о периоде после разрушения Второго храма",
       "severity": "major",
-      "source_quote": "The primary purpose of music is to worship (the expression of reverence and adoration to something or someone).",
-      "suggested_fix": "Заменить «Главное предназначение музыки — поклонение (выражение почтения и благоговения перед чем-либо или кем-либо)» на «Главное предназначение музыки — поклонение (выражение почтения и обожания по отношению к чему-либо или кому-либо)».",
-      "translation_quote": "Главное предназначение музыки — поклонение (выражение почтения и благоговения перед чем-либо или кем-либо)."
+      "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
+      "suggested_fix": "Заменить «Евреи начали традицию исполнения музыки без сопровождения после разрушения Второго храма в 70 году н. э.; тогда на время траура по поводу его разрушения музыкальные инструменты были запрещены» на «Евреи начали традицию исполнения музыки без сопровождения после падения Второго храма в 70 году н. э.; тогда, во время траура после его падения, музыкальные инструменты были запрещены».",
+      "translation_quote": "Евреи начали традицию исполнения музыки без сопровождения после разрушения Второго храма в 70 году н. э.; тогда на время траура по поводу его разрушения музыкальные инструменты были запрещены."
     },
     {
-      "location": "Статья, абзац о Послании к Филиппийцам 4:8",
+      "location": "Цитата из Послания к Филиппийцам 4:8",
       "severity": "major",
-      "source_quote": "… whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things –Philippians 4:8.",
-      "suggested_fix": "Перевести цитату с сохранением всех названных качеств и точной ссылки; например: «…всё истинное, честное, справедливое, чистое, любезное, достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте — Филиппийцам 4:8».",
-      "translation_quote": "том, что истинно, честно, справедливо, чисто, любезно, достойно похвалы, что добродетель и похвала, — о том помышляйте. –К Филиппийцам 4:8."
+      "source_quote": "whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things",
+      "suggested_fix": "Исправить цитату, сохранив её полноту и смысл, например: «…всё истинное, всё честное, всё справедливое, всё чистое, всё любезное, всё достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте».",
+      "translation_quote": "всё истинное, честное, справедливое, чистое, любезное, достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте."
     },
     {
-      "location": "Статья, абзац об инструментальном сопровождении в ранней церкви",
+      "location": "Абзац о воздействии светской музыки и Филиппийцам 4:8",
       "severity": "major",
-      "source_quote": "The early church developed the tradition of A cappella singing from the Hebrews’ Jewish tradition, chanting psalms, or other scriptures and using a cantor as a leader.",
-      "suggested_fix": "Исправить фразу так, чтобы ранняя церковь развила традицию пения а капелла из еврейской традиции, а не просто переняла её: «Ранняя церковь развила традицию пения а капелла на основе еврейской традиции: распевали псалмы и другие тексты Писания, а руководил пением кантор».",
-      "translation_quote": "Ранняя церковь переняла традицию пения а капелла из еврейской традиции, распевая псалмы и другие тексты Писания, а во главе пения ставя кантора."
+      "source_quote": "Most secular music has lyrics that are impure, while all of it has a rhythm or beat that is against God’s order.",
+      "suggested_fix": "Заменить утверждение на «В текстах большинства светских песен есть нечистота, а вся эта музыка имеет ритм или бит, противоречащий Божьему порядку».",
+      "translation_quote": "В текстах большинства светских песен есть нечистота, а ритм или бит всей этой музыки противоречит Божьему порядку."
     },
     {
-      "location": "Статья, абзац о Послании к Ефесянам 5:19",
+      "location": "Абзац о трапезе Господней и Елеонской горе",
       "severity": "major",
-      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord; –Ephesians 5:19.",
-      "suggested_fix": "Перевести цитату как обращённую друг к другу речь в псалмах, гимнах и духовных песнях, сохранив пение и мелодию в сердце Господу и ссылку Ефесянам 5:19; например: «Говоря друг другу псалмами, гимнами и духовными песнями, пойте и воспевайте в сердце Господу — Ефесянам 5:19».",
-      "translation_quote": "разговаривая между собою псалмами и славословиями и песнопениями духовными, поя и воспевая в сердцах ваших Господу; –К Ефесянам 5:19."
-    },
-    {
-      "location": "Статья, абзац о Послании к Колоссянам 3:16",
-      "severity": "major",
-      "source_quote": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord –Colossians 3:16.",
-      "suggested_fix": "В цитате заменить «славословием» на «гимнами», сохранив различие между hymns и spiritual songs и остальной смысл: «…научайте и вразумляйте друг друга псалмами, гимнами и духовными песнями, с благодарностью воспевая в сердцах ваших Господу — Колоссянам 3:16».",
-      "translation_quote": "слово Христово да вселяется в вас обильно, со всякою премудростью; научайте и вразумляйте друг друга псалмами, славословием и духовными песнями, во благодати воспевая в сердцах ваших Господу. –К Колоссянам 3:16."
-    },
-    {
-      "location": "Заголовок",
-      "severity": "minor",
-      "source_quote": "What Is Right About My Music?",
-      "suggested_fix": "Для более точной передачи вопроса о том, что правильно в выборе музыки, заменить заголовок на «Что правильно в музыке, которую я слушаю?»",
-      "translation_quote": "Что хорошего в музыке, которую я слушаю?"
+      "source_quote": "before He went out to the Mount of Olives",
+      "suggested_fix": "Заменить «на Елеонскую гору» на «к Елеонской горе», чтобы передать движение к горе, обозначенное в оригинале.",
+      "translation_quote": "прежде чем отправиться на Елеонскую гору."
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "1468903a00b0cf2387b1b368ebe9693b",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "rus",
@@ -200,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

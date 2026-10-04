@@ -2,7 +2,6 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 15317
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 874,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 733,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9866,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10743
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Final paragraph, list of outcomes",
+      "location": "Paragraph beginning “Joseph repeatedly found himself…”",
       "severity": "major",
-      "source_quote": "“strength to preach and convert souls”",
-      "suggested_fix": "Replace “krag om siele te verkondig en tot bekering te bring” with “krag om te preek en siele tot bekering te bring” so the translation says that people preach and bring souls to conversion.",
-      "translation_quote": "“krag om siele te verkondig en tot bekering te bring”"
+      "source_quote": "“the second ruling power in the most prominent nation on the earth”",
+      "suggested_fix": "Replace “die tweede hoogste heersersposisie in die magtigste nasie op aarde” with “die tweede hoogste heersersposisie in die mees vooraanstaande nasie op aarde” to preserve “most prominent.”",
+      "translation_quote": "“die tweede hoogste heersersposisie in die magtigste nasie op aarde”"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "4ed5accd22028d05fc31374863e8b93e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "afr",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"הפסקה האחרונה, רשימת התיאוריות\",\"severity\":\"major\",\"source_quote\":\"They blindly cling to various theories such as: The Big Bang, Punctuated Equilibrium, and Descent with Modification.\",\"suggested_fix\":\"החליפו את „מוצא עם שינויים” ב„מוצא תוך כדי שינוי” כדי לשמר את משמעות המונח Descent with Modification.\",\"translation_quote\":\"המפץ הגדול, שיווי משקל מקוטע, ומוצא עם שינויים\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 556,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c7df4a7d84f50a5d72e4b7d46efcd84699db08c1fe1ac530f30543c84aca193",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 801,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4337,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5285
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

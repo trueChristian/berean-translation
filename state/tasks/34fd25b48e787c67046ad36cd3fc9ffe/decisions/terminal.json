@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Galaterbrevet 6:1–5 quotation",
+      "severity": "major",
+      "source_quote": "“then shall he have rejoicing in himself alone, and not in another.”",
+      "suggested_fix": "Replace the corresponding sentence with: “Då får han glädja sig åt sig själv ensam, inte åt någon annan.”",
+      "translation_quote": "“Då kan han själv glädja sig åt sitt arbete, inte åt någon annans.”"
+    },
+    {
+      "location": "HTML, numbered point 1",
+      "severity": "minor",
+      "source_quote": "“This is according to His fact, not according to our feeling.”",
+      "suggested_fix": "For idiomatic Swedish while preserving the printed sense, replace “Detta grundar sig på hans faktum, inte på vår känsla” with “Detta grundar sig på vad som är sant om honom, inte på vad vi känner.”",
+      "translation_quote": "“Detta grundar sig på hans faktum, inte på vår känsla.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

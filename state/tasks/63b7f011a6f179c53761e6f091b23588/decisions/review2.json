@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, “Subjection Produces Spiritual Authority”",
+      "severity": "major",
+      "source_quote": "It brings power unto people rather than power over people.",
+      "suggested_fix": "Replace the sentence with: “এটি মানুষের ওপর ক্ষমতা নয়, বরং মানুষের জন্য ক্ষমতা আনে।”",
+      "translation_quote": "এটি মানুষকে উপর কর্তৃত্ব নয়, বরং মানুষের জন্য শক্তি আনে।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

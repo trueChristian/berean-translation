@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ad7325be-ae32-4fd8-87e2-4cc90e535fa2",
+    "response_id": "chatcmpl-EV1yWFRd33vsNKFOuDHoO3oieUJ5G",
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4758
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning „Bevor er sie ins Bett brachte“ and paragraph beginning „Ramona vergaß diese Lektion nie“",
+        "severity": "major",
+        "source_quote": "“Do you know that showing off is really pride?” … “Not only had she been proud in showing off”",
+        "suggested_fix": "Use wording that refers to showing off/displaying herself, rather than specifically boasting: for example, „Weißt du, dass es in Wirklichkeit Stolz ist, sich zur Schau zu stellen?“ and „Sie war nicht nur stolz gewesen, indem sie sich zur Schau gestellt hatte …“",
+        "translation_quote": "„Weißt du, dass Prahlen in Wirklichkeit Stolz ist?“ … „Sie war nicht nur stolz gewesen und hatte damit geprahlt …“"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

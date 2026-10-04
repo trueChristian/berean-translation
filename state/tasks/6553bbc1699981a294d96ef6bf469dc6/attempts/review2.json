@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अनुच्छेद 9, उद्धरण: 2 तीमुथियुस 1:7\",\"severity\":\"major\",\"source_quote\":\"The Apostle Peter said that …God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.\",\"suggested_fix\":\"वक्ता और उद्धरण को मूल के अनुसार ठीक करें: “प्रेरित पतरस ने कहा कि <em>…परमेश्वर ने हमें भय की आत्मा नहीं, पर सामर्थ्य, प्रेम और स्वस्थ विवेक की आत्मा दी है –2 तीमुथियुस 1:7.</em>”\",\"translation_quote\":\"प्रेरित पौलुस ने कहा कि <em>…परमेश्वर ने हमें भय की आत्मा नहीं, पर सामर्थ्य, प्रेम और संयम की आत्मा दी है –2 तीमुथियुस 1:7.</em>\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1099,
+    "content_evidence_truncated": false,
+    "content_sha256": "21983352bfdad7f847a146f2f8f4bdedc7948e530360dbd2bffa6e1d203b23c9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5347,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5344,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5569
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

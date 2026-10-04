@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lead paragraph, drop-cap span\",\"severity\":\"minor\",\"source_quote\":\"<span class=\\\"drop-cap\\\">M</span>any people ask\",\"suggested_fix\":\"<span class=\\\"drop-cap\\\">ब</span>बहुत-से लोग पूछते हैं\",\"translation_quote\":\"<span class=\\\"drop-cap\\\">M</span>बहुत-से लोग पूछते हैं\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 388,
+    "content_evidence_truncated": false,
+    "content_sha256": "544b58a99c571851b4db4b7b7ce5a294eecb5585467ec42b2894899223fb8c1e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 553,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6402,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6399,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7066
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

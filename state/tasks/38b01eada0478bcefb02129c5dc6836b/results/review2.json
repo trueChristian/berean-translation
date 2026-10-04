@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "552d9316-de54-410b-8f44-10139ebee8e7",
+    "response_id": "chatcmpl-EV1yuEc4gXsQ4qz56kVHm4UnHqkNr",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4096,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4851
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 8",
+        "severity": "minor",
+        "source_quote": "“...he took her upstairs to her bed.”",
+        "suggested_fix": "Replace «ووضعها في سريرها» with «وأخذها إلى سريرها في الطابق العلوي» so this sentence says he brought her to her bed, without implying she was already put to bed before the next paragraph.",
+        "translation_quote": "«...لكنه أخذها إلى الطابق العلوي ووضعها في سريرها.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

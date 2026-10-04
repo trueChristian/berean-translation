@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11234448-5195-4908-be9b-6b9ac6d5072f",
+    "response_id": "chatcmpl-EV1yOfKAcPyK34ZzqEFUZlRas9k7f",
+    "usage": {
+      "completion_tokens": 186,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5338
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, avsnittet som begynner «I 1 Peter»",
+        "severity": "major",
+        "source_quote": "In 1 Peter, the apostle Peter calls us to “honor the king”",
+        "suggested_fix": "Endre til «I 1. Peter oppfordrer apostelen Peter oss til å …» → «I 1. Peter oppfordrer apostelen Peter oss til å» er ikke tilstrekkelig; oversett troskap mot den trykte teksten slik: «I 1. Peter kaller apostelen Peter oss til å …». (Rett kun uttrykket «oppfordrer … oss» til «kaller … oss».)",
+        "translation_quote": "I 1. Peter oppfordrer apostelen Peter oss til å «ære kongen»"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f85a6daf-3309-476c-828f-38570a6a714d",
+    "response_id": "chatcmpl-EV1y1G8DqsffrBHVZLovBIV2bzL3q",
+    "usage": {
+      "completion_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 733,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9869,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9866,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10743
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Joseph repeatedly found himself…”",
+        "severity": "major",
+        "source_quote": "“the second ruling power in the most prominent nation on the earth”",
+        "suggested_fix": "Replace “die tweede hoogste heersersposisie in die magtigste nasie op aarde” with “die tweede hoogste heersersposisie in die mees vooraanstaande nasie op aarde” to preserve “most prominent.”",
+        "translation_quote": "“die tweede hoogste heersersposisie in die magtigste nasie op aarde”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

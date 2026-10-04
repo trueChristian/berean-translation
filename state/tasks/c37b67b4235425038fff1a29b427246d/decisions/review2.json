@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Then he began spitting up.”",
+      "severity": "major",
+      "source_quote": "When he finally spit up bright yellow liquid, I was alarmed.",
+      "suggested_fix": "„Als er schließlich leuchtend gelbe Flüssigkeit spuckte, wurde ich alarmiert.“",
+      "translation_quote": "Als er schließlich leuchtend gelbe Flüssigkeit erbrach, wurde ich alarmiert."
+    },
+    {
+      "location": "HTML paragraph beginning “On the eleventh day…”",
+      "severity": "major",
+      "source_quote": "On the eleventh day, we visited a nurse practitioner in a Mennonite colony in Mexico.",
+      "suggested_fix": "„Am elften Tag suchten wir eine medizinische Fachkraft (Nurse Practitioner) in einer mennonitischen Siedlung in Mexiko auf.“",
+      "translation_quote": "Am elften Tag suchten wir eine Krankenschwester in einer mennonitischen Siedlung in Mexiko auf."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

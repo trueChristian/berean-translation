@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 13951
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning “How does a parent lead his child to salvation?”",
-      "severity": "major",
-      "source_quote": "Be aware of evidence of conviction.",
-      "suggested_fix": "Replace “दोष-बोध के संकेतों के प्रति सजग रहें।” with “पाप-बोध के संकेतों के प्रति सजग रहें।”",
-      "translation_quote": "दोष-बोध के संकेतों के प्रति सजग रहें।"
     },
     {
-      "location": "source.html, paragraph beginning “Hopefully, you have nurtured a relationship…”",
-      "severity": "major",
-      "source_quote": "We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.",
-      "suggested_fix": "Replace “हमने दोष-बोध के चिह्न पहचाने” with “हमने पाप-बोध के चिह्न पहचाने।”",
-      "translation_quote": "हमने दोष-बोध के चिह्न पहचाने"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 171,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8831,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8828,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9002
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph on Bar/Bat Mitzvah",
+      "severity": "major",
+      "source_quote": "“a son of the commandment” and “a daughter of the commandment”",
+      "suggested_fix": "Replace “आज्ञा का पुत्र” with “आज्ञा का बेटा” (or “आज्ञा का पुत्र”) and, importantly, replace “आज्ञा की पुत्री” only if needed for idiom; the current wording conveys the meanings. However, revise the surrounding translation to preserve the source’s claim that the boy was considered under the law and responsible for his own actions; no change to that portion is needed.",
+      "translation_quote": "“आज्ञा का पुत्र” और “आज्ञा की पुत्री”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "da5d5e3208d6fe13db6ecb7ecabe929e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

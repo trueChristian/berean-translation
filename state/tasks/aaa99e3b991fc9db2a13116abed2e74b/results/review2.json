@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "90475a6b-f7e9-49cd-b322-913cff33c869",
+    "response_id": "chatcmpl-EV1yAvDDffJSEkkJ5D3JNHmGnL9ql",
+    "usage": {
+      "completion_tokens": 307,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8543,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8853
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Jihadhari na dalili…”",
+        "severity": "major",
+        "source_quote": "“Be aware of evidence of conviction.”",
+        "suggested_fix": "Replace “Jihadhari na dalili za hatia ya dhambi” with “Zingatia dalili za kushawishiwa moyoni na kutambua dhambi.” This conveys conviction rather than guilt.",
+        "translation_quote": "“Jihadhari na dalili za hatia ya dhambi.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Ni matumaini yangu…”",
+        "severity": "major",
+        "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”",
+        "suggested_fix": "Replace “Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye hali ya kujinyenyekeza na kutubu, na kupokea wokovu kwa imani katika Kristo” with “Tulitambua dalili za kushawishiwa moyoni na kutambua dhambi, tukawaongoza kwenye hali ya kuvunjika moyo kwa ajili ya dhambi na kutubu, na kupokea wokovu kwa imani katika Kristo.”",
+        "translation_quote": "“Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye hali ya kujinyenyekeza na kutubu, na kupokea wokovu kwa imani katika Kristo.”"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

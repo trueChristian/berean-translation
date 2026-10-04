@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, Colossians 3:16 quotation",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Replace “sing met dankbaarheid in julle harte tot eer van die Here” with “sing met genade in julle harte tot eer van die Here”, preserving the existing HTML structure.",
+      "translation_quote": "“sing met dankbaarheid in julle harte tot eer van die Here”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

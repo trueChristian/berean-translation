@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Throughout this time period…”",
+      "severity": "major",
+      "source_quote": "“If they are true, how will that affect the way I live for the other kingdom now?”",
+      "suggested_fix": "“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কী প্রভাব পড়বে?”",
+      "translation_quote": "“সেগুলো সত্য হলে, এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি কোনো পরিবর্তন আসবে?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

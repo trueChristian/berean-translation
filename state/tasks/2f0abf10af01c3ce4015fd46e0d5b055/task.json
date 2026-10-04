@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,60 +64,54 @@
         },
         "total_tokens": 3319
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 899,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 582,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1903,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1900,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2802
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Dikt, strofe 1",
+      "location": "Dikt, första strofen",
       "severity": "major",
       "source_quote": "It was from the beginning that His will He would yield.",
-      "suggested_fix": "Redigera raden till exempelvis: ”Redan från början skulle Han underordna sig Faderns vilja.”",
-      "translation_quote": "Redan från början skulle Han sin vilja ge upp."
+      "suggested_fix": "Ersätt «Faderns vilja» med «sin vilja» så att raden inte lägger till en uttrycklig hänvisning till Fadern: «Redan från början skulle Han underordna sig sin vilja.»",
+      "translation_quote": "Redan från början skulle Han underordna sig Faderns vilja."
     },
     {
-      "location": "Dikt, strofe 2",
-      "severity": "major",
-      "source_quote": "Laughed to scorn, reviled—again, and again.",
-      "suggested_fix": "Översätt båda leden, till exempel: ”Utskrattad och hånad – om och om igen.”",
-      "translation_quote": "hånad och smädad – gång på gång föraktad."
-    },
-    {
-      "location": "Dikt, strofe 3",
+      "location": "Dikt, sjätte strofen",
       "severity": "minor",
-      "source_quote": "Not seeking money and friends or trying to succeed.",
-      "suggested_fix": "Skriv till exempel: ”Han sökte inte pengar eller vänner och strävade inte efter framgång.”",
-      "translation_quote": "Han sökte ej pengar och vänner och ville ej bli framgångsrik."
-    },
-    {
-      "location": "Dikt, strofe 6",
-      "severity": "major",
       "source_quote": "Ten thousand angels, He could have summoned south,",
-      "suggested_fix": "Översätt ”summoned” som att kalla till sig eller åkalla, inte som att kalla i riktning söderut. Exempel: ”Han kunde ha kallat till sig tiotusen änglar,”",
-      "translation_quote": "Tio tusen änglar kunde Han ha kallat söderut,"
+      "suggested_fix": "Återge även riktningen i källtexten, exempelvis: «Han kunde ha kallat till sig tiotusen änglar söderut,»",
+      "translation_quote": "Han kunde ha kallat till sig tiotusen änglar,"
     },
     {
-      "location": "Dikt, strofe 9",
+      "location": "Dikt, nionde strofen",
       "severity": "major",
-      "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
-      "suggested_fix": "Återge att Han älskade oss och åstadkom försoning för vår synd genom att blöda och dö, för att göra oss till sina närstående/barn. Exempel: ”För Han höll oss kära; försoning för vår synd / åstadkom Han när Han blödde och dog där, för att göra oss till sina!”",
-      "translation_quote": "För att Han höll oss kära; en försoning för vår synd / åstadkom Han när Han blödde och dog där för att göra oss till sina!"
-    },
-    {
-      "location": "Dikt, strofe 10",
-      "severity": "major",
-      "source_quote": "Providing the Lamb and transforming my fate.",
-      "suggested_fix": "Bevara uttrycket att Gud tillhandahöll/försåg oss med Lammet; skriv exempelvis: ”Han gav oss Lammet och förändrade mitt öde.”",
-      "translation_quote": "Han gav Lammet och förändrade mitt öde."
-    },
-    {
-      "location": "Dikt, strofe 11",
-      "severity": "major",
-      "source_quote": "Now the Father and I—a relationship restored!",
-      "suggested_fix": "Återge att relationen mellan diktjaget och Fadern har återupprättats, exempelvis: ”Nu är relationen mellan Fadern och mig återupprättad!”",
-      "translation_quote": "nu har Fadern och jag åter fått en relation!"
+      "source_quote": "He made when He bled and died there to make us His kin!",
+      "suggested_fix": "Återge släktskapsbetydelsen i «His kin», exempelvis: «åstadkom Han när Han blödde och dog där för att göra oss till sin familj!»",
+      "translation_quote": "åstadkom Han när Han blödde och dog där för att göra oss till sina!"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "2f0abf10af01c3ce4015fd46e0d5b055",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -207,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 74,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

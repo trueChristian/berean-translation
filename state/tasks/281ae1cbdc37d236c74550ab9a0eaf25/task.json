@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 25084
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “So what really was wrong with Judson?”",
-      "severity": "major",
-      "source_quote": "“In retrospect, I see that spoiling him crept in unawares.”",
-      "suggested_fix": "Replace “Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.” with “Ninapotazama nyuma, ninaona kwamba bila kujua nilianza kumlea kwa kumharibu.”",
-      "translation_quote": "“Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.”"
     },
     {
-      "location": "Paragraph beginning “Somewhere in the transition between need and demand…”",
-      "severity": "major",
-      "source_quote": "“Somewhere in the transition between need and demand, I began to cater to his little self.”",
-      "suggested_fix": "Replace “nilianza kujifanyia yote aliyotaka mtoto wangu mdogo” with “nilianza kutimiza matakwa ya mtoto wangu mdogo.”",
-      "translation_quote": "“Wakati fulani katika mabadiliko kati ya hitaji na madai, nilianza kujifanyia yote aliyotaka mtoto wangu mdogo.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 989,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 756,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15867,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15864,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16856
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “By the end of the first week”",
+      "severity": "major",
+      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
+      "suggested_fix": "Badili “kila mmoja mojawapo ya vibao vyake vidogo tuishike” kuwa “kila mmoja wetu mikono yake midogo tuishike” ili kurejesha maana ya kumpa kila mzazi mkono wake mdogo washike.",
+      "translation_quote": "“Akiwa na sura ya kuchekesha yenye huzuni, angenipa mimi na Sterling kila mmoja mojawapo ya vibao vyake vidogo tuishike alipokuwa akila, kana kwamba jambo hilo lilimpa ujasiri.”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "281ae1cbdc37d236c74550ab9a0eaf25",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

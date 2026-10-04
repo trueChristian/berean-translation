@@ -2,7 +2,6 @@
   "article_id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 6761
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “One simple reason…” and paragraph beginning “One aspect of Christ’s dependability…”",
-      "severity": "major",
-      "source_quote": "“This is the same way the Bible defines faith.” / “We have more manuscripts of the Bible than any other work in antiquity.”",
-      "suggested_fix": "Replace תנ״ך with כתבי הקודש or המקרא (as appropriate) in these passages and elsewhere where the source says “the Bible.” תנ״ך refers specifically to the Hebrew Bible and narrows the source’s meaning.",
-      "translation_quote": "“כך בדיוק התנ״ך מגדיר אמונה.” / “יש לנו יותר כתבי יד של התנ״ך מכל יצירה אחרת מן העת העתיקה.”"
     },
     {
-      "location": "HTML, paragraph beginning “One aspect of Christ’s dependability…”",
-      "severity": "minor",
-      "source_quote": "“in terms of its authorship, preservation, honesty, and accuracy”",
-      "suggested_fix": "Change למחבריו to מחברוּת (or ניסוח טבעי מקביל המתייחס למחברוּת), preserving the source’s reference to authorship rather than to the authors themselves.",
-      "translation_quote": "“בכל הנוגע למחבריו, לשימורו, ליושרו ולדיוקו.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 945,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 801,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4340,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4337,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5285
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "הפסקה האחרונה, רשימת התיאוריות",
+      "severity": "major",
+      "source_quote": "They blindly cling to various theories such as: The Big Bang, Punctuated Equilibrium, and Descent with Modification.",
+      "suggested_fix": "החליפו את „מוצא עם שינויים” ב„מוצא תוך כדי שינוי” כדי לשמר את משמעות המונח Descent with Modification.",
+      "translation_quote": "המפץ הגדול, שיווי משקל מקוטע, ומוצא עם שינויים"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "b1e091a6100de1d17d9f567e36736af4",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -178,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

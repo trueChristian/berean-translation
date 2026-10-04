@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, numbered list, item 1",
+      "severity": "major",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Dit is volgens God se feit, nie volgens ons gevoel nie.",
+      "translation_quote": "Dit is volgens sy Woord, nie volgens ons gevoel nie."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

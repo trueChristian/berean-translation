@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph on Bar/Bat Mitzvah",
+      "severity": "major",
+      "source_quote": "“a son of the commandment” and “a daughter of the commandment”",
+      "suggested_fix": "Replace “आज्ञा का पुत्र” with “आज्ञा का बेटा” (or “आज्ञा का पुत्र”) and, importantly, replace “आज्ञा की पुत्री” only if needed for idiom; the current wording conveys the meanings. However, revise the surrounding translation to preserve the source’s claim that the boy was considered under the law and responsible for his own actions; no change to that portion is needed.",
+      "translation_quote": "“आज्ञा का पुत्र” और “आज्ञा की पुत्री”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning « On m’a demandé de prêcher… »",
+      "severity": "minor",
+      "source_quote": "“The rock music was still going, and the dancing was pushing my limits.”",
+      "suggested_fix": "Replace « la danse poussait ma patience à bout » with « la danse dépassait mes limites » to preserve the stated boundary/limits without specifying patience.",
+      "translation_quote": "« La musique rock continuait, et la danse poussait ma patience à bout. »"
+    },
+    {
+      "location": "Paragraph beginning « On m’a demandé de prêcher… »",
+      "severity": "minor",
+      "source_quote": "“There were short miniskirts and skimpy tops”",
+      "suggested_fix": "Replace « des hauts très décolletés » with « des hauts très révélateurs » to convey that the tops were scanty/revealing, not specifically low-cut.",
+      "translation_quote": "« Il y avait des minijupes courtes et des hauts très décolletés »"
+    },
+    {
+      "location": "Paragraph beginning « Un cœur que l’Esprit de Dieu… »",
+      "severity": "minor",
+      "source_quote": "“It is no wonder that many churches of today are accepting drift.”",
+      "suggested_fix": "Replace « acceptent de dériver » with « acceptent ce déclin » to make clear that the churches are tolerating spiritual decline.",
+      "translation_quote": "« Il n’est pas étonnant que beaucoup d’Églises d’aujourd’hui acceptent de dériver. »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

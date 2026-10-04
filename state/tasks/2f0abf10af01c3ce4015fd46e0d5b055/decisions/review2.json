@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Dikt, första strofen",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "Ersätt «Faderns vilja» med «sin vilja» så att raden inte lägger till en uttrycklig hänvisning till Fadern: «Redan från början skulle Han underordna sig sin vilja.»",
+      "translation_quote": "Redan från början skulle Han underordna sig Faderns vilja."
+    },
+    {
+      "location": "Dikt, sjätte strofen",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Återge även riktningen i källtexten, exempelvis: «Han kunde ha kallat till sig tiotusen änglar söderut,»",
+      "translation_quote": "Han kunde ha kallat till sig tiotusen änglar,"
+    },
+    {
+      "location": "Dikt, nionde strofen",
+      "severity": "major",
+      "source_quote": "He made when He bled and died there to make us His kin!",
+      "suggested_fix": "Återge släktskapsbetydelsen i «His kin», exempelvis: «åstadkom Han när Han blödde och dog där för att göra oss till sin familj!»",
+      "translation_quote": "åstadkom Han när Han blödde och dog där för att göra oss till sina!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

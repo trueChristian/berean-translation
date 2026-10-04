@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Stycket som börjar ”Vi ska snart tala om Andens frukt”; citatet från Lukas 2:52",
+      "severity": "major",
+      "source_quote": "“…in wisdom and stature, and in favour with God and man –Luke 2:52.”",
+      "suggested_fix": "Ersätt citatet med: ”… i vishet och ålder och välbehag inför Gud och människor – Lukasevangeliet 2:52.”",
+      "translation_quote": "“… i vishet och ålder och välbehag inför Gud och människor – Lukasevangeliet 2:52.”"
+    },
+    {
+      "location": "Stycket som börjar ”När någon kommer och säger att han eller hon har blivit omvänd”",
+      "severity": "major",
+      "source_quote": "“non-conformity, non-resistance, and such like”",
+      "suggested_fix": "Ändra endast ”icke-motstånd” till ”icke-våld” så att termen återger den kristna läran non-resistance i sitt sammanhang.",
+      "translation_quote": "”att inte anpassa sig till världen, icke-motstånd och liknande”"
+    },
+    {
+      "location": "Stycket som börjar ”Bibel säger att … Andens frukt”",
+      "severity": "major",
+      "source_quote": "“faith, meekness, temperance”",
+      "suggested_fix": "Ändra uppräkningens sista tre led till ”tro, saktmod och återhållsamhet”, eller andra svenska motsvarigheter som bevarar dessa betydelser.",
+      "translation_quote": "”trohet, ödmjukhet och självbehärskning”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

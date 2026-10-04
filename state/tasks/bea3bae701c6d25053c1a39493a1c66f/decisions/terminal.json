@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «En 1 Pedro…»",
+      "severity": "major",
+      "source_quote": "In 1 Peter, the apostle Peter calls us to “honor the king” and the Apostle Paul admonishes us in Romans 13 to be “subject to the higher Powers, for there is no power but of God”.",
+      "suggested_fix": "Sustituir la cita por una traducción fiel: «sujetos a los poderes superiores, porque no hay poder sino de Dios», conservando la referencia y la estructura HTML.",
+      "translation_quote": "«sujetos a las autoridades superiores, porque no hay autoridad sino de Dios»"
+    },
+    {
+      "location": "HTML, párrafo que comienza «El apóstol Pedro dijo…»",
+      "severity": "major",
+      "source_quote": "The Apostle Peter said that <em>…God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.</em>",
+      "suggested_fix": "Corregir la atribución dentro de <em>…</em> para que diga «El apóstol Pablo dijo que», manteniendo el resto del texto, la etiqueta y la referencia tal como están.",
+      "translation_quote": "El apóstol Pedro dijo que <em>…Dios no nos ha dado espíritu de temor, sino de poder, de amor y de dominio propio –2 Timoteo 1:7.</em>"
+    },
+    {
+      "location": "HTML, párrafo que comienza «Otro ámbito…», oración sobre los certificados de defunción",
+      "severity": "major",
+      "source_quote": "there have been numerous deaths that were not directly connected to Covid–19; however, it was reported that Covid–19 was marked on the death certificate as being the cause of these deaths.",
+      "suggested_fix": "Cambiar «se informó que la COVID-19 figuraba en el certificado de defunción como causa de esas muertes» por «se informó que la COVID-19 estaba indicada en el certificado de defunción como causa de esas muertes» o una formulación equivalente que no afirme que efectivamente figuraba allí.",
+      "translation_quote": "sin embargo, se informó que la COVID-19 figuraba en el certificado de defunción como causa de esas muertes."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

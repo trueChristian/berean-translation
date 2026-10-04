@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 22788
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 918,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14632,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14629,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15775
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文，训练用餐的第二周",
+      "location": "正文：第一周训练取得进展后的段落",
       "severity": "major",
-      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
-      "suggested_fix": "将“把自己小小的拍手板递给我和斯特林各一个”改为“他会摆出滑稽又可怜的表情，把自己的小便便各递给我和斯特林一个，让我们拿着，好像这样能给他勇气。”这里的“paddies”是便便的俏皮说法；译文现有的“拍手板”改变了原文含义。",
-      "translation_quote": "“他会摆出滑稽又可怜的表情，把自己小小的拍手板递给我和斯特林各一个，边吃边让我们拿着，好像这样能给他勇气。”"
-    },
-    {
-      "location": "正文，后记谈管教方式",
-      "severity": "major",
-      "source_quote": "“We agreed to use repeated small switches to reprimand his willfulness.”",
-      "suggested_fix": "将“用多次轻轻的打屁股来管教他的任性”改为“同意用小戒尺反复打他，以惩戒他的任性。”原文明确写的是 switches（细枝条／小戒尺），不是打屁股。",
-      "translation_quote": "“我们不再制住他、强迫他顺从我们的意愿，而是同意用多次轻轻的打屁股来管教他的任性。”"
-    },
-    {
-      "location": "正文，后记谈养育孩子",
-      "severity": "major",
-      "source_quote": "“The rod of correction works.”",
-      "suggested_fix": "将“管教的杖有效”改为“惩戒的杖是有效的。”现译把 rod（杖）泛化为“管教”，削弱了原文明确使用的意象。",
-      "translation_quote": "“祷告有效。管教的杖有效。”"
+      "source_quote": "With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "将“把他的一小块便便分别递给斯特林和我拿着”改为不添加“便便”这一原文没有的含义的译法，例如：“他会摆出滑稽又可怜的表情，把他的一件小东西递给斯特林和我各自拿着，自己边吃边看，仿佛这样能给他勇气。”",
+      "translation_quote": "他会摆出滑稽又可怜的表情，把他的一小块便便分别递给斯特林和我拿着，自己边吃边看，仿佛这样能给他勇气。"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "d47dcc3ab731d61a0399600451de8935",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 83,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

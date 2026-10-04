@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,68 @@
         },
         "total_tokens": 9234
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 618,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5921,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5918,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6539
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraf tentang jemaat Yahudi Ortodoks dan Konservatif",
-      "severity": "major",
-      "source_quote": "“a cantor to chant or sing an authoritative text from the scriptures”",
-      "suggested_fix": "Ganti “seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci” dengan “seorang pemimpin nyanyian untuk melantunkan atau menyanyikan teks otoritatif dari kitab suci” agar tidak keliru menyebut cantor sebagai kantur (pembantu gereja).",
-      "translation_quote": "“seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci”"
-    },
-    {
-      "location": "HTML, paragraf tentang nyanyian Paulus dan Silas",
-      "severity": "major",
-      "source_quote": "“they were in stocks”",
-      "suggested_fix": "Ganti “terbelenggu” dengan “dipasung” atau “terpasung” agar mempertahankan keterangan bahwa mereka berada dalam pasungan.",
-      "translation_quote": "“terbelenggu”"
-    },
-    {
-      "location": "HTML, paragraf tentang musik Renaisans dan akustik kapel",
+      "location": "Lead paragraph, opening sentence",
       "severity": "minor",
-      "source_quote": "“had a particularly ethereal effect”",
-      "suggested_fix": "Pertimbangkan “menghasilkan kesan yang sangat ethereal/transenden” sebagai pengganti “menghasilkan kesan yang sangat halus dan surgawi”; terjemahan saat ini menambahkan kesan “surgawi” yang tidak dinyatakan secara eksplisit.",
-      "translation_quote": "“menghasilkan kesan yang sangat halus dan surgawi”"
+      "source_quote": "Many people ask, “Is listening to secular music a sin? Is there anything wrong with CCM (Christian Contemporary Music)? Is it okay for Christians to listen to rap, rock, country, pop, or rhythm and blues?”",
+      "suggested_fix": "Replace the opening fragment “M banyak orang bertanya” with “Banyak orang bertanya” (and remove the drop-cap M if it is not intended to precede the Indonesian word).",
+      "translation_quote": "M banyak orang bertanya, “Apakah mendengarkan musik sekuler adalah dosa? Apakah ada yang salah dengan CCM (Musik Kontemporer Kristen)? Bolehkah orang Kristen mendengarkan rap, rock, country, pop, atau rhythm and blues?”"
+    },
+    {
+      "location": "Paragraph on Philippians 4:8, quoted Scripture",
+      "severity": "major",
+      "source_quote": "whatsoever things are lovely, whatsoever things are of good report",
+      "suggested_fix": "Translate these clauses as, for example, “semua yang patut dikasihi, semua yang sedap didengar” to preserve the printed meaning of “lovely” and “of good report.”",
+      "translation_quote": "semua yang manis, semua yang sedap didengar"
+    },
+    {
+      "location": "Paragraph on Ephesians 5:19, quoted Scripture",
+      "severity": "major",
+      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord",
+      "suggested_fix": "Revise the quoted passage to retain both the instruction to speak to one another in psalms, hymns, and spiritual songs and the wording about making melody in the heart to the Lord; for example: “Berkatalah seorang kepada yang lain dalam mazmur, puji-pujian dan nyanyian rohani, sambil bernyanyi dan bermazmur dalam hatimu kepada Tuhan.”",
+      "translation_quote": "Berbicaralah seorang kepada yang lain dalam mazmur, puji-pujian dan nyanyian rohani. Bernyanyi dan bersoraklah bagi Tuhan dengan segenap hati"
+    },
+    {
+      "location": "Paragraph on Colossians 3:16, quoted Scripture",
+      "severity": "major",
+      "source_quote": "singing with grace in your hearts to the Lord",
+      "suggested_fix": "Replace “kamu mengucap syukur kepada Allah di dalam hatimu” with wording that conveys singing with grace in the heart to the Lord, such as “sambil bernyanyi dengan penuh kasih karunia dalam hatimu kepada Tuhan.”",
+      "translation_quote": "kamu mengucap syukur kepada Allah di dalam hatimu"
+    },
+    {
+      "location": "Section heading",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Use the standard Indonesian plural form: “INSPIRASI UNTUK KAUM MUDA.”",
+      "translation_quote": "INSPIRASI BAGI KAUM MUDA"
     }
   ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "8a80075ffdd5ce0f279c920b122a64a6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ind",
@@ -185,7 +220,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

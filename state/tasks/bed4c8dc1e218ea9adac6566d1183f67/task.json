@@ -2,7 +2,6 @@
   "article_id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 6221
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “El conocimiento de la naturaleza…”",
-      "severity": "major",
-      "source_quote": "“animals produce after their own kind” and “all animals exist within the Biblical framework of their own kind”",
-      "suggested_fix": "Replace “especie” in these claims with a rendering that preserves the author’s distinct category of “kind,” for example: “los animales se reproducen según su tipo” and “todos los animales existen dentro del marco bíblico de su propio tipo.” Keep the HTML structure unchanged.",
-      "translation_quote": "“los animales se reproducen según su especie” and “todos los animales existen dentro del marco bíblico de su propia especie”"
     },
     {
-      "location": "HTML, paragraph beginning “En algunas conversaciones sobre la fe…”, Scripture quotation and its attribution",
-      "severity": "major",
-      "source_quote": "“Have you believed because you have seen me? Blessed are those who have not seen and yet have believed –John 20:29. (ESV)”",
-      "suggested_fix": "Keep the Spanish quotation as a faithful translation, but change “(RVC)” to “(ESV)” so the attribution identifies the source version rather than a different Spanish Bible version.",
-      "translation_quote": "“¿Porque me has visto has creído? Dichosos los que no han visto y sin embargo han creído. –Juan 20:29. (RVC)”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 773,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 653,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4055,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4052,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4828
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, Romans 1:18 quotation",
+      "severity": "major",
+      "source_quote": "“against all the godlessness and wickedness of people”",
+      "suggested_fix": "Change «impiedad e injusticia» to «impiedad y maldad» to preserve the printed meaning of “wickedness.”",
+      "translation_quote": "«contra toda impiedad e injusticia de quienes con su maldad reprimen la verdad»"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "bed4c8dc1e218ea9adac6566d1183f67",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "spa",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “The Apostle Paul writes”",
+      "severity": "major",
+      "source_quote": "singing and making melody in your heart to the Lord",
+      "suggested_fix": "Inne i <em>-elementet, oversett dette som «syng og lag melodier i hjertene deres for Herren»; behold referansen «Efeserne 5:19».",
+      "translation_quote": "syng og spill for Herren i hjertet deres"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c56c865-2655-416c-805a-d52ab8d241e2",
+    "response_id": "chatcmpl-EV1yAsN7PMxtI3HYQWChVQ2Czzlqh",
+    "usage": {
+      "completion_tokens": 709,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 579,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5271,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5268,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5980
+    }
+  },
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, numbered list, item 1",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Pertimbangkan mengganti “Hal ini sesuai dengan fakta-Nya” dengan “Hal ini sesuai dengan fakta, bukan perasaan kita” agar ungkapannya wajar dalam bahasa Indonesia tanpa mengubah gagasan kalimat.",
+        "translation_quote": "Hal ini sesuai dengan fakta-Nya, bukan perasaan kita."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

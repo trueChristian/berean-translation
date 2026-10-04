@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 8\",\"severity\":\"minor\",\"source_quote\":\"“...he took her upstairs to her bed.”\",\"suggested_fix\":\"Replace «ووضعها في سريرها» with «وأخذها إلى سريرها في الطابق العلوي» so this sentence says he brought her to her bed, without implying she was already put to bed before the next paragraph.\",\"translation_quote\":\"«...لكنه أخذها إلى الطابق العلوي ووضعها في سريرها.»\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 517,
+    "content_evidence_truncated": false,
+    "content_sha256": "f68997d8e702c095730481f5a66f40dae360e45349080912c6e7ac634c73efd5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4096,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4851
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

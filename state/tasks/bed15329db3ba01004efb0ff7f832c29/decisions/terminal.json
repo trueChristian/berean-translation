@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “By the end of the first week”",
+      "severity": "minor",
+      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+      "suggested_fix": "راجع معنى “paddies” في السياق، واستبدل «عصياته الصغيرة» بلفظ عربي يطابق الشيء الذي كان يقدمه لوالديه؛ فـ«عصيات» تعني عيدانًا صغيرة.",
+      "translation_quote": "«وكان يقدم لكل منا أنا وستيرلينغ إحدى عصياته الصغيرة ليمسكها أثناء أكله»"
+    },
+    {
+      "location": "Paragraph beginning “That week was tough”",
+      "severity": "minor",
+      "source_quote": "“He writhed, he gagged, he cried.”",
+      "suggested_fix": "استبدل «وتقيأ» بتعبير يفيد أنه كان يتقيأ أو يكاد يتقيأ/يشهق من الغثيان، مثل «وتلوى، وتقيّأ أو تهوّع، وبكى»، بحسب المعنى المقصود.",
+      "translation_quote": "«وتلوى، وتقيأ، وبكى»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

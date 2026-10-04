@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "正文第5段，父亲的吩咐",
+      "severity": "major",
+      "source_quote": "“I want you to stay off the gate.”",
+      "suggested_fix": "将“我不许你再爬栅门”改为“我希望你不要再爬栅门”，保留原文的吩咐语气，不增加“不许”的强制意味。",
+      "translation_quote": "“我不许你再爬栅门。”"
+    },
+    {
+      "location": "正文第6段，拉莫娜坠落后",
+      "severity": "major",
+      "source_quote": "“She climbed up just as high as she could”",
+      "suggested_fix": "将“她尽可能爬到最高处”改为“她爬到了自己能爬的高度”，避免把原文“尽她所能爬高”的意思说成“爬到绝对最高处”。",
+      "translation_quote": "她尽可能爬到最高处"
+    },
+    {
+      "location": "正文第9段，父亲说明处罚",
+      "severity": "major",
+      "source_quote": "“Papa decided to let her fall and going to bed early be her punishment this time.”",
+      "suggested_fix": "将“爸爸决定这一次就让她因为摔倒和提早上床睡觉受罚”改为“爸爸决定这一次就让摔跤和提早上床成为对她的惩罚”，避免暗示摔倒是父亲安排的处罚。",
+      "translation_quote": "爸爸决定这一次就让她因为摔倒和提早上床睡觉受罚。"
+    },
+    {
+      "location": "正文第9段，悔改的因果",
+      "severity": "major",
+      "source_quote": "“But it was good for her because it caused her to repent.”",
+      "suggested_fix": "将“但这对她有益，因为这使她悔改了”改为“但这对她有益，因为这促使她悔改”，更准确表达处罚促使她悔改，而非直接使她悔改。",
+      "translation_quote": "但这对她有益，因为这使她悔改了。"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

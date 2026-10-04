@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “By the end of the first week”",
+      "severity": "minor",
+      "source_quote": "I stopped giving him the various supplements since he was doing so well.",
+      "suggested_fix": "আমি তাকে বিভিন্ন সাপ্লিমেন্ট দেওয়া বন্ধ করে দিলাম, কারণ সে খুব ভালো করছিল।",
+      "translation_quote": "সে এত ভালো করছিল বলে বিভিন্ন পরিপূরক খাবার দেওয়া বন্ধ করে দিলাম।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

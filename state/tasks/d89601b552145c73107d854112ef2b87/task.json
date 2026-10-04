@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,18 +64,61 @@
         },
         "total_tokens": 13529
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 637,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8773,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8770,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9410
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “People have told me…”; quoted 1 Peter 2:2",
+      "location": "First paragraph, Matthew 7:22 quotation",
       "severity": "major",
-      "source_quote": "“desire the sincere milk of the word, that ye may grow thereby”",
-      "suggested_fix": "Replace the quoted clause with «жаждать чистого словесного молока, чтобы благодаря ему возрастать» (or an equally faithful Russian rendering). Preserve the existing <em> tags and the reference 1 Петра 2:2. The source says to grow through the word; it does not add “unto salvation.”",
-      "translation_quote": "«возлюбить чистое словесное молоко, дабы от него возрасти во спасение»"
+      "source_quote": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?",
+      "suggested_fix": "Replace «не от Твоего ли имени мы пророчествовали? и не Твоим ли именем бесов изгоняли? и не Твоим ли именем многие чудеса творили?» with a faithful Russian rendering that preserves the repeated question «не Твоим ли именем…?» in all three clauses, e.g. «не Твоим ли именем мы пророчествовали, и не Твоим ли именем изгоняли бесов, и не Твоим ли именем совершили много чудес?»",
+      "translation_quote": "не от Твоего ли имени мы пророчествовали? и не Твоим ли именем бесов изгоняли? и не Твоим ли именем многие чудеса творили?"
+    },
+    {
+      "location": "Paragraph beginning “A desire to serve Jesus.”",
+      "severity": "major",
+      "source_quote": "that person, in return, will, because of his changed nature, live a sacrificial life for Him.",
+      "suggested_fix": "Replace «этот человек в ответ, благодаря своей измененной природе, будет жить для Него жертвенной жизнью» with «этот человек, в свою очередь, благодаря измененной природе будет жить для Него жертвенной жизнью»; the current wording makes the person’s response sound like a return/recompense rather than “in turn.”",
+      "translation_quote": "этот человек в ответ, благодаря своей измененной природе, будет жить для Него жертвенной жизнью"
+    },
+    {
+      "location": "Paragraph beginning “The Bible says that…”",
+      "severity": "major",
+      "source_quote": "longsuffering, gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "Revise the list to retain all the distinct source items, including “gentleness” and “goodness,” for example: «долготерпение, кротость, благость, вера, meekness [render in Russian as кротость/смирение as appropriate], воздержание». Avoid collapsing gentleness and meekness into a single «кротость»; use a distinct equivalent such as «мягкость» for “gentleness.”",
+      "translation_quote": "долготерпение, благость, милосердие, вера, кротость, воздержание"
+    },
+    {
+      "location": "Paragraph beginning “When we give something our all…”",
+      "severity": "minor",
+      "source_quote": "it feels good—it is fulfilling.",
+      "suggested_fix": "Replace «это приносит удовлетворение и радость» with a rendering of “feels good” that does not add joy, e.g. «это приятно и приносит удовлетворение».",
+      "translation_quote": "это приносит удовлетворение и радость"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "d89601b552145c73107d854112ef2b87",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "rus",
@@ -165,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

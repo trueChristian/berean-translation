@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e874fa45-581e-4693-bfc9-1b8e13e90962",
+    "response_id": "chatcmpl-EV1xtIPFCsTjuZDjN4fvaFAHhM75u",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 629,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1910,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2656
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, puisi bait keenam",
+        "severity": "major",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Terjemahkan unsur arah yang tercetak, misalnya: “Sepuluh ribu malaikat dapat saja Ia panggil ke selatan,”",
+        "translation_quote": "Sepuluh ribu malaikat dapat saja Ia panggil datang,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

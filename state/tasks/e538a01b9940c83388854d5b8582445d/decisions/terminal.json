@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9, Papa’s explanation of the punishment",
+      "severity": "major",
+      "source_quote": "Ramona would have preferred a spanking instead of needing to go to bed early",
+      "suggested_fix": "Replace «Ramona ville heller ha fått ris enn å måtte legge seg tidlig» with «Ramona ville heller ha fått en smekk enn å måtte legge seg tidlig» to avoid specifying a different form of punishment.",
+      "translation_quote": "Ramona ville heller ha fått ris enn å måtte legge seg tidlig"
+    },
+    {
+      "location": "Paragraph 8, quoted Bible verse",
+      "severity": "minor",
+      "source_quote": "and an haughty spirit before a fall",
+      "suggested_fix": "Change «og en hovmodig ånd før fall» to «og en hovmodig ånd før et fall» for grammatical Bokmål while preserving the printed meaning.",
+      "translation_quote": "og en hovmodig ånd før fall"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

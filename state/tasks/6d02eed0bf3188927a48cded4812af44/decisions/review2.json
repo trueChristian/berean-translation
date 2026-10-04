@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "正文，第1段",
+      "severity": "minor",
+      "source_quote": "We plan to get the next issue printed within the next several months to get back on track.",
+      "suggested_fix": "将“在未来几个月内印行下一期，以便恢复正常进度”改为“计划在未来几个月内印出下一期，争取赶上进度”，更贴近“恢复原定进度”的意思。",
+      "translation_quote": "我们计划在未来几个月内印行下一期，以便恢复正常进度。"
+    },
+    {
+      "location": "正文，第2段",
+      "severity": "minor",
+      "source_quote": "They were finding camaraderie in facing this challenge together.",
+      "suggested_fix": "可将“彼此间更有同伴情谊”改为“他们在共同面对这一挑战时，感受到彼此扶持的情谊”，以清楚表达共同面对挑战带来的团结感。",
+      "translation_quote": "他们发现，大家共同面对挑战，彼此间更有同伴情谊；"
+    },
+    {
+      "location": "正文，第5段",
+      "severity": "minor",
+      "source_quote": "the government mandates regarding our response to the virus pandemic.",
+      "suggested_fix": "将“政府对我们应对病毒疫情所作的规定”改为“政府针对我们如何应对病毒疫情所颁布的强制规定”，更准确体现 mandates 的强制性。",
+      "translation_quote": "政府对我们应对病毒疫情所作的规定"
+    },
+    {
+      "location": "正文，第9段，调查事实第2项",
+      "severity": "minor",
+      "source_quote": "As many as one in four people ages 18 through 24 having seriously considered suicide in the 30 days preceding the survey (researchers surveyed 5,412 adults in the US between June 24 and 30.)",
+      "suggested_fix": "可将“最多有四分之一”改为“多达四分之一”，以更自然地表达“as many as”。",
+      "translation_quote": "18至24岁的人当中，最多有四分之一在调查前30天内曾认真考虑过自杀（研究人员于6月24日至30日期间调查了美国5,412名成年人。）"
+    },
+    {
+      "location": "正文，第13段，第1项",
+      "severity": "major",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "将“这是根据祂的事实，而不是根据我们的感受”改为“这取决于祂所说的事实，而不是我们的感受”，保留作者以神的话语所确立的事实对比人的感受之意。",
+      "translation_quote": "这是根据祂的事实，而不是根据我们的感受。"
+    },
+    {
+      "location": "正文，第13段，第2项",
+      "severity": "minor",
+      "source_quote": "Each of us WILL fall into temptations",
+      "suggested_fix": "可将“遭遇试探”改为“陷入试探”，以更贴近原文 fall into 的表达。",
+      "translation_quote": "我们每个人都会遭遇试探"
+    },
+    {
+      "location": "正文，第13段，第3项",
+      "severity": "minor",
+      "source_quote": "God is in the middle of it and that He is up to something according to His will.",
+      "suggested_fix": "可将“祂正照着自己的旨意成就某些事”改为“祂正按自己的旨意在其中行事”，避免“成就某些事”显得含义较泛。",
+      "translation_quote": "并且祂正照着自己的旨意成就某些事。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

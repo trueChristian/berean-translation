@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,32 +64,46 @@
         },
         "total_tokens": 13211
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 655,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8365,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8362,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9268
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Final paragraph, Psalm 127:4 quotation",
-      "severity": "major",
-      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.",
-      "suggested_fix": "Replace only the quotation text with: <em>Som pilar i en hjältes hand är barn man får i sin ungdom – Psaltaren 127:4.</em>",
-      "translation_quote": "Som pilar i en hjältes hand är söner man får i sin ungdom – Psaltaren 127:4."
+      "location": "source.html, paragraph beginning “This rebel spirit will not be fully conquered”",
+      "severity": "minor",
+      "source_quote": "Only a work of the grace of God upon the heart can subdue the inborn rebellion against God and parental authority.",
+      "suggested_fix": "Ändra till: ”Endast Guds nådverk i hjärtat kan kuva det medfödda upproret mot Gud och föräldrarnas auktoritet.”",
+      "translation_quote": "Endast Guds nådverk i hjärtat kan kuva den medfödda upproret mot Gud och föräldrarnas auktoritet."
     },
     {
-      "location": "Final paragraph, Psalm 127:5 quotation",
-      "severity": "major",
-      "source_quote": "they shall speak with the enemies in the gate –Psalm 127:5.",
-      "suggested_fix": "Replace only the final clause with: De ska tala med fienderna i stadsporten – Psaltaren 127:5.",
-      "translation_quote": "De kommer inte på skam, när de går till rätta med fiender i porten – Psaltaren 127:5."
-    },
-    {
-      "location": "Affirmation factor, paragraph beginning “Affirming is not flattery”",
-      "severity": "major",
-      "source_quote": "This is my beloved Son, in whom I am well pleased.",
-      "suggested_fix": "Translate the quoted words as: ”Detta är min älskade Son, som jag har behag till.”",
-      "translation_quote": "Detta är min älskade Son, han är min glädje."
+      "location": "source.html, paragraph beginning “You can affirm your teen by entrusting him with responsibility”",
+      "severity": "minor",
+      "source_quote": "Dad provided the blocks and the mortar and got me started.",
+      "suggested_fix": "Ändra ”satte i gång mig” till exempelvis ”visade mig hur jag skulle börja”.",
+      "translation_quote": "Pappa ordnade fram blocken och murbruket och satte i gång mig."
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "d230ed0ba0ae176c53570c24a85f7910",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -179,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

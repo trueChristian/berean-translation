@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, Ephesians 5:19 quotation\",\"severity\":\"major\",\"source_quote\":\"Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord\",\"suggested_fix\":\"Replace the quoted Chinese wording with: “用诗章、颂词、灵歌彼此对说，口唱心和地赞美主”\",\"translation_quote\":\"当用诗章、颂词、灵歌彼此对说，心被恩感，歌颂主\"},{\"location\":\"Section\",\"severity\":\"minor\",\"source_quote\":\"INSPIRATIONS FOR YOUTH\",\"suggested_fix\":\"青少年励志\",\"translation_quote\":\"青少年灵感\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 619,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4600eb5e20599a5cf61bd7ac66b4514fb4f605cc9a43a51fc980bb6abe71fb7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 634,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6540
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

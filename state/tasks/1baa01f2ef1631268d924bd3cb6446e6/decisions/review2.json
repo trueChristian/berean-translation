@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Toe hy omtrent ses maande oud was”",
+      "severity": "major",
+      "source_quote": "refusing to nurse or be comforted",
+      "suggested_fix": "Vervang “geweier het om te drink of hom te laat troos” met “geweier het om te borsvoed of hom te laat troos”.",
+      "translation_quote": "geweier het om te drink of hom te laat troos"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

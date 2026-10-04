@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 24439
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “By the end of the first week”",
-      "severity": "major",
-      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
-      "suggested_fix": "Translate “paddies” without changing it into slaps. For example, if the intended meaning is his little hands, use “het hy vir my en Sterling elkeen een van sy klein handjies aangebied om vas te hou terwyl hy eet”.",
-      "translation_quote": "“Met ’n komies patetiese uitdrukking het hy vir my en Sterling elkeen een van sy klein klappies aangebied om vas te hou terwyl hy eet, asof dit hom moed gegee het.”"
     },
     {
-      "location": "HTML, paragraph beginning “That sounded good, too. It also sounded huge.”",
-      "severity": "minor",
-      "source_quote": "“I didn’t know where to begin research on ‘worms’, nor did I have the mental space.”",
-      "suggested_fix": "Use a phrase meaning mental capacity or headspace, such as “en ek het ook nie die geestelike kapasiteit daarvoor gehad nie” or “en ek het ook nie die kopruimte daarvoor gehad nie.”",
-      "translation_quote": "“Ek het nie geweet waar om met navorsing oor ‘wurms’ te begin nie, en ek het ook nie die geestelike ruimte daarvoor gehad nie.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1092,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 969,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15455,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15452,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16547
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Toe hy omtrent ses maande oud was”",
+      "severity": "major",
+      "source_quote": "refusing to nurse or be comforted",
+      "suggested_fix": "Vervang “geweier het om te drink of hom te laat troos” met “geweier het om te borsvoed of hom te laat troos”.",
+      "translation_quote": "geweier het om te drink of hom te laat troos"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "1baa01f2ef1631268d924bd3cb6446e6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "afr",
@@ -178,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

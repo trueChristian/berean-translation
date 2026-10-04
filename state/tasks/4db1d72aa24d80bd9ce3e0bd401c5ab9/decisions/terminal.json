@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “By the end of the first week…”",
+      "severity": "minor",
+      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate…”",
+      "suggested_fix": "Replace “een van zijn kleine peddels” with a Dutch rendering that conveys the source’s intended meaning of “paddies”; “peddels” means paddles and is confusing in this context.",
+      "translation_quote": "“Met een komisch meelijwekkende blik bood hij Sterling en mij elk een van zijn kleine peddels aan om vast te houden terwijl hij at…”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

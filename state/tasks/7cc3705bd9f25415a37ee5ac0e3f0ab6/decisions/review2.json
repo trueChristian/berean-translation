@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML-Absatz mit dem Zitat aus Matthäus 7:16–20",
+      "severity": "major",
+      "source_quote": "“Wherefore by their fruits ye shall know them –Matthew 7:16-20.”",
+      "suggested_fix": "Ändere ausschließlich die Versangabe im Zitat zu „– Matthäus 7:16–20“, damit der Gedankenstrich die unveränderte Versspanne bezeichnet.",
+      "translation_quote": "„Darum werdet ihr sie an ihren Früchten erkennen – Matthäus 7:16-20.“"
+    },
+    {
+      "location": "HTML-Absatz mit dem Zitat aus Galater 5:22–23",
+      "severity": "major",
+      "source_quote": "“the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23.”",
+      "suggested_fix": "Ergänze „Langmut“ nach „Selbstbeherrschung“, sodass die Übersetzung alle neun im englischen Zitat aufgeführten Früchte in derselben Reihenfolge wiedergibt: „Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung, Langmut“.",
+      "translation_quote": "„… die Frucht des Geistes aber ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung … – Galater 5:22-23.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

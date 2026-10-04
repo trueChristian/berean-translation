@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, para 3\",\"severity\":\"major\",\"source_quote\":\"the expression of reverence and adoration to something or someone\",\"suggested_fix\":\"Ersätt ”att uttrycka vördnad och tillbedjan för något eller någon” med ”att uttrycka vördnad och tillbedjan inför något eller någon” eller en annan idiomatisk formulering som bevarar betydelsen.\",\"translation_quote\":\"att uttrycka vördnad och tillbedjan för något eller någon\"},{\"location\":\"HTML, para 7\",\"severity\":\"major\",\"source_quote\":\"the 1960s’ “Jesus movement” revival\",\"suggested_fix\":\"Ändra till ”väckelsen inom ’Jesus-rörelsen’ på 1960-talet” så att väckelsen inte felaktigt framstår som en separat väckelse som personerna bara påverkades av.\",\"translation_quote\":\"väckelsen i ”Jesus-rörelsen” på 1960-talet\"},{\"location\":\"HTML, para 12\",\"severity\":\"major\",\"source_quote\":\"a cantor to chant or sing an authoritative text from the scriptures\",\"suggested_fix\":\"Ändra ”en auktoritativ text ur skrifterna” till ”en text ur skrifterna med auktoritet” eller ”en auktoritativ skrifttext”; den nuvarande formuleringen kan förstås som att texten är auktoritär eller normerande.\",\"translation_quote\":\"en auktoritativ text ur skrifterna\"},{\"location\":\"HTML, para 18\",\"severity\":\"major\",\"source_quote\":\"I can go through the day blest.\",\"suggested_fix\":\"Ändra ”kan jag gå välsignad genom dagen” till exempelvis ”kan jag ta mig igenom dagen med välsignelse” eller ”kan jag möta dagen välsignad” för idiomatisk svenska.\",\"translation_quote\":\"kan jag gå välsignad genom dagen\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1646,
+    "content_evidence_truncated": false,
+    "content_sha256": "e8a6a9621831a29548bcf52791fa993850a4379d77daed75e236bb84e771aee4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5897,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6313
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

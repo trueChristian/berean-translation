@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6bb92c5-950c-4b3d-9754-2ae4a2e97442",
+    "response_id": "chatcmpl-EV1yj8FQ0ppjmWpMQNvxdKsXGc8XD",
+    "usage": {
+      "completion_tokens": 1037,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 867,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9622,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10662
+    }
+  },
+  "received_at": "2026-10-04T00:09:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under «…Ektemenn»",
+        "severity": "minor",
+        "source_quote": "The headship veiling is not just a symbol of submission, nor is it merely a form of protection, it is spiritual power.",
+        "suggested_fix": "Replace «Hodeplagget som markerer lederskap» with «Sløret som uttrykk for mannens lederskap» to preserve the specific reference to veiling and headship.",
+        "translation_quote": "Hodeplagget som markerer lederskap, er ikke bare et symbol på underordning, og heller ikke bare en form for beskyttelse; det er åndelig kraft."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

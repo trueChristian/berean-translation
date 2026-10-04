@@ -2,7 +2,6 @@
   "article_id": "97d8ed1e-7d4a-471d-8508-727664288d74",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 6069
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "正文第4段，父亲的警告",
-      "severity": "major",
-      "source_quote": "“Ramona,” he said, “I want you to stay off the gate.”",
-      "suggested_fix": "将“我不许你再爬栅门”改为“拉莫娜，”他说，“我不许你再爬栅门。”",
-      "translation_quote": "“拉莫娜，”他说，“我不许你再爬栅门。”"
     },
     {
-      "location": "正文第4段，差点摔倒处",
-      "severity": "major",
-      "source_quote": "This time, however, she narrowly escaped falling to the ground.",
-      "suggested_fix": "改为“不过这一次，她险些摔到地上。”",
-      "translation_quote": "不过这次她差一点就摔到了地上。"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 467,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4029,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4026,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4496
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "正文第5段，父亲的吩咐",
+      "severity": "major",
+      "source_quote": "“I want you to stay off the gate.”",
+      "suggested_fix": "将“我不许你再爬栅门”改为“我希望你不要再爬栅门”，保留原文的吩咐语气，不增加“不许”的强制意味。",
+      "translation_quote": "“我不许你再爬栅门。”"
+    },
+    {
+      "location": "正文第6段，拉莫娜坠落后",
+      "severity": "major",
+      "source_quote": "“She climbed up just as high as she could”",
+      "suggested_fix": "将“她尽可能爬到最高处”改为“她爬到了自己能爬的高度”，避免把原文“尽她所能爬高”的意思说成“爬到绝对最高处”。",
+      "translation_quote": "她尽可能爬到最高处"
+    },
+    {
+      "location": "正文第9段，父亲说明处罚",
+      "severity": "major",
+      "source_quote": "“Papa decided to let her fall and going to bed early be her punishment this time.”",
+      "suggested_fix": "将“爸爸决定这一次就让她因为摔倒和提早上床睡觉受罚”改为“爸爸决定这一次就让摔跤和提早上床成为对她的惩罚”，避免暗示摔倒是父亲安排的处罚。",
+      "translation_quote": "爸爸决定这一次就让她因为摔倒和提早上床睡觉受罚。"
+    },
+    {
+      "location": "正文第9段，悔改的因果",
+      "severity": "major",
+      "source_quote": "“But it was good for her because it caused her to repent.”",
+      "suggested_fix": "将“但这对她有益，因为这使她悔改了”改为“但这对她有益，因为这促使她悔改”，更准确表达处罚促使她悔改，而非直接使她悔改。",
+      "translation_quote": "但这对她有益，因为这使她悔改了。"
+    }
+  ],
+  "finished_at": "2026-10-04T00:09:17+00:00",
   "id": "2113dbed0e6bbb47b0bb0d43614ee6e8",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -178,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3afe3193f88de971053d6bc9f8f2b47e5b930a326842e12fe0e764e30c7a8db.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
   "translation_model_actual": "gpt-6-luna"

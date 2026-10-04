@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “We tried discipline”",
+      "severity": "major",
+      "source_quote": "“we began to feel a spanking wasn’t the tool to get through to him”",
+      "suggested_fix": "Replace “una palmada no era el recurso adecuado” with “una azotaina no era el recurso adecuado” (or another Spanish term that conveys spanking).",
+      "translation_quote": "“empezamos a sentir que una palmada no era el recurso adecuado para llegar a él”"
+    },
+    {
+      "location": "Article, paragraph beginning “We agreed to cancel the childhood development appointment”",
+      "severity": "major",
+      "source_quote": "“we agreed to use repeated small switches to reprimand his willfulness.”",
+      "suggested_fix": "Replace “usar repetidamente varitas pequeñas para corregir su obstinación” with “darle repetidos azotes leves para corregir su obstinación” or an equivalent that clearly conveys the stated physical punishment.",
+      "translation_quote": "“acordamos usar repetidamente varitas pequeñas para corregir su obstinación”"
+    },
+    {
+      "location": "Article, paragraph beginning “That week was tough”",
+      "severity": "major",
+      "source_quote": "“I prayed and switched.”",
+      "suggested_fix": "Replace “Yo oraba y le daba con la varita” with “Yo oraba y le daba azotes” (or an equivalent that clearly conveys spanking).",
+      "translation_quote": "“Yo oraba y le daba con la varita.”"
+    },
+    {
+      "location": "Article, paragraph beginning “By the end of the first week”",
+      "severity": "major",
+      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+      "suggested_fix": "Replace “una de sus pequeñas tortitas” with “una de sus pequeñas paletitas de castigo” or another contextually clear equivalent for the small paddles described in the source.",
+      "translation_quote": "“ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía”"
+    },
+    {
+      "location": "Article, final paragraph before <hr>",
+      "severity": "major",
+      "source_quote": "“The rod of correction works.”",
+      "suggested_fix": "Replace “La vara de la corrección funciona” with “El castigo correctivo funciona” or another idiomatic Spanish rendering that preserves the reference to corporal discipline.",
+      "translation_quote": "“La vara de la corrección funciona.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

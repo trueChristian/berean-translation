@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -65,46 +64,61 @@
         },
         "total_tokens": 9605
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 413,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5900,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5897,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6313
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph 4",
+      "location": "HTML, para 3",
       "severity": "major",
-      "source_quote": "“God is OK with this type of music,” yet deep down in your heart, you know He is convicting you, and that He is NOT OK with it?",
-      "suggested_fix": "Ändra slutet till: ”fast du innerst inne vet att han överbevisar dig och att han INTE är okej med den?”",
-      "translation_quote": "”Gud har inget emot den här sortens musik”, fast du innerst inne vet att han överbevisar dig och att han INTE har något emot den?"
+      "source_quote": "the expression of reverence and adoration to something or someone",
+      "suggested_fix": "Ersätt ”att uttrycka vördnad och tillbedjan för något eller någon” med ”att uttrycka vördnad och tillbedjan inför något eller någon” eller en annan idiomatisk formulering som bevarar betydelsen.",
+      "translation_quote": "att uttrycka vördnad och tillbedjan för något eller någon"
     },
     {
-      "location": "HTML, paragraph 16 (Ephesians 5:19 quotation)",
+      "location": "HTML, para 7",
       "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord”",
-      "suggested_fix": "Ändra citatet till: ”Tala till varandra med psalmer, hymner och andliga sånger, sjung och spela en melodi i era hjärtan till Herren”",
-      "translation_quote": "”Tala till varandra med psalmer, hymner och andliga sånger, sjung och spela i era hjärtan till Herren”"
+      "source_quote": "the 1960s’ “Jesus movement” revival",
+      "suggested_fix": "Ändra till ”väckelsen inom ’Jesus-rörelsen’ på 1960-talet” så att väckelsen inte felaktigt framstår som en separat väckelse som personerna bara påverkades av.",
+      "translation_quote": "väckelsen i ”Jesus-rörelsen” på 1960-talet"
     },
     {
-      "location": "HTML, paragraph 18 (Colossians 3:16 quotation)",
+      "location": "HTML, para 12",
       "severity": "major",
-      "source_quote": "“singing with grace in your hearts to the Lord”",
-      "suggested_fix": "Ändra slutet av citatet till: ”och sjung med nåd i era hjärtan till Herren”",
-      "translation_quote": "”och sjung med tacksamhet i era hjärtan till Herren”"
+      "source_quote": "a cantor to chant or sing an authoritative text from the scriptures",
+      "suggested_fix": "Ändra ”en auktoritativ text ur skrifterna” till ”en text ur skrifterna med auktoritet” eller ”en auktoritativ skrifttext”; den nuvarande formuleringen kan förstås som att texten är auktoritär eller normerande.",
+      "translation_quote": "en auktoritativ text ur skrifterna"
     },
     {
-      "location": "HTML, paragraph 20",
+      "location": "HTML, para 18",
       "severity": "major",
-      "source_quote": "“When my mind is on the Lord, I can go through the day blest.”",
-      "suggested_fix": "Ändra meningen till: ”När mitt sinne är fäst vid Herren kan jag gå välsignad genom dagen.”",
-      "translation_quote": "”När mitt sinne är fäst vid Herren kan jag gå välsignad genom dagen.”"
-    },
-    {
-      "location": "HTML, paragraph 21",
-      "severity": "major",
-      "source_quote": "“We need to discipline ourselves with the things of God.”",
-      "suggested_fix": "Ändra meningen till: ”Vi behöver disciplinera oss själva i sådant som hör Gud till.”",
-      "translation_quote": "”Vi behöver tukta oss själva med sådant som hör Gud till.”"
+      "source_quote": "I can go through the day blest.",
+      "suggested_fix": "Ändra ”kan jag gå välsignad genom dagen” till exempelvis ”kan jag ta mig igenom dagen med välsignelse” eller ”kan jag möta dagen välsignad” för idiomatisk svenska.",
+      "translation_quote": "kan jag gå välsignad genom dagen"
     }
   ],
+  "finished_at": "2026-10-04T00:09:18+00:00",
   "id": "bb411fe34b89370b03bfbb9515dd6468",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -193,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

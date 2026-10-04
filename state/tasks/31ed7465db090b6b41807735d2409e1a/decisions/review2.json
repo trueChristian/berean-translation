@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“God is OK with this type of music,” yet deep down in your heart, you know He is convicting you, and that He is NOT OK with it?",
+      "suggested_fix": "Replace the final clause with «ενώ βαθιά μέσα στην καρδιά σου ξέρεις ότι σε ελέγχει και ότι ΔΕΝ είναι εντάξει με αυτό;» so the Greek preserves the source’s negation.",
+      "translation_quote": "«Ο Θεός δεν έχει πρόβλημα με αυτό το είδος μουσικής», ενώ βαθιά μέσα στην καρδιά σου ξέρεις ότι σε ελέγχει και ότι ΔΕΝ έχει πρόβλημα μ’ αυτό;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

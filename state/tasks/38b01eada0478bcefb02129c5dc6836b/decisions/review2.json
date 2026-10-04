@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "“...he took her upstairs to her bed.”",
+      "suggested_fix": "Replace «ووضعها في سريرها» with «وأخذها إلى سريرها في الطابق العلوي» so this sentence says he brought her to her bed, without implying she was already put to bed before the next paragraph.",
+      "translation_quote": "«...لكنه أخذها إلى الطابق العلوي ووضعها في سريرها.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
