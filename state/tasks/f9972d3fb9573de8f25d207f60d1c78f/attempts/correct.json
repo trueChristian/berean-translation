@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:09:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\\\" alt=\\\"बैंगनी केन्द्र वाले सफेद ऑर्किड\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>वसंत की महिमा, कितनी मधुर!<br>\\n    नवजात जीवन, कितना हर्षित!<br>\\n    क्या आनंद है सुखी पृथ्वी का अभिनन्दन करने में<br>\\n    जो नए, उज्ज्वल वस्त्रों से सुसज्जित है!</p>\\n\\n    <p>दैवी उद्धारकर्ता, मैं तेरी स्तुति करता हूँ;<br>\\n    मैं तेरे निकलने का अभिनन्दन करता हूँ;<br>\\n    मैं तुझसे प्रेम करता हूँ उस सुंदरता में<br>\\n    जो तेरी नवीनीकृत पृथ्वी की है।</p>\\n\\n    <p>परन्तु आह, तेरी कृपा के ये चमत्कार,<br>\\n    तेरे ये श्रेष्ठतर कार्य,<br>\\n    ये आश्चर्य जिन्हें निहारना कहीं अधिक मधुर है,<br>\\n    ये और भी दैवी नए जन्म:</p>\\n\\n    <p>इतने प्रबल विश्वास की यह नवजात दीप्ति,<br>\\n    प्रेम का यह इतना सुंदर पुष्प,<br>\\n    गीत का यह नवजात परम आनंद,<br>\\n    और प्रार्थना की खुशबू!</p>\\n\\n    <p>हे सृजनहार आत्मा, मुझमें कर<br>\\n    अपने ये मधुर चमत्कार;<br>\\n    दैवी उद्धारकर्ता, कृपापूर्वक<br>\\n    मेरे इस हृदय को नवीनीकृत कर।</p>\\n\\n    <p>निरंतर नया जीवन और शक्ति अंकुरित होने दे,<br>\\n    निरंतर नया आनंद प्रदान किया जाए;<br>\\n    और आनंदमय नया गीत गूंजने दे<br>\\n    नई पृथ्वी और स्वर्ग में।</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"वसंत की महिमा\"}",
+    "content_bytes": 2638,
+    "content_evidence_truncated": false,
+    "content_sha256": "f906c69df53b9ca79606992d2a00f5f8f5bf0fd6a5c6cc4cebb4784754582e16",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1192,
+        "cached_tokens": 1199
+      },
+      "total_tokens": 3044
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
