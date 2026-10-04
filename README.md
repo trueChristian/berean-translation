@@ -8,17 +8,17 @@ An independent, resumable OpenAI Batch translation runtime for the authoritative
 
 Edit an English article in `berean-voice`, commit the normal source change, and stop. This repository's collector reads English `main`, matches article UUIDs against its language records, and computes its own fingerprints to detect revisions. It ignores core `manifest.json` and `navigation.json` completely. A new article is missing work; a changed article is outdated work; unchanged articles are skipped. No source-side regeneration or manually copied commit/hash is required.
 
-The collector respects manual language/issue selections, paid-work budgets, the bounded correction cycle, and protection of human-reviewed translations. The owner-approved source-refresh policy automatically retranslates **already-published AI translations** after their English fingerprint changes, within the limits below. First translations of new articles or languages still require manual requests. Downloading `main` once per run avoids mixing old and new source files; the revision is internal provenance.
+The collector automatically creates and drains work across the whole archive and all twenty configured languages. New translation, review, saved-candidate repair and source refresh share the owner-approved cumulative $30 authority. Every new automatic task reserves its complete remaining stages, with an envelope of at most $10. Human-reviewed pairs are permanently excluded. Downloading `main` once per run avoids mixed source versions. See [automatic archive operation and budget settlement](docs/autonomous-archive.md).
 
 ## Activate after merging the implementation
 
 1. Add an Actions repository secret named **`OPENAI_API_KEY`** under **Settings → Secrets and variables → Actions**. Use an OpenAI API project with billing and access to the selected models. Do not put the key in a file, workflow input, issue, pull request or chat.
 2. Enable GitHub Actions. The request and collector workflows need `contents: write` in this repository. The workflow files request it explicitly; organization policy or a protected `main` may still prevent the standard Actions token from making the runtime commits. Configure an appropriate permitted automation path rather than disabling protections indiscriminately. No personal token is needed for the supplied public English archive.
-3. Run **AI — Collect and discover**, operation **collect**, from `main`. This discovers the current English issues and generates [STATUS.md](STATUS.md). With an API key, it can spend on existing authorized requests and eligible automatic source refreshes. For a strictly read-only source check, use `discover --check-only`; discovery also works before the OpenAI key is added.
-4. Run **AI — OpenAI** from `main`. Select a language, **next** issue, translation and review models, and a USD budget. Leave **dry_run** checked for a free selection preview. The request is stored immediately; the collector resolves it and records the selection under `state/campaigns/gh-<run-id>.json`.
-5. Submit a new manual run with **dry_run** unchecked when ready to translate. The collector starts after a successful request workflow and has a best-effort 15-minute schedule. While submitted work remains, it polls every minute within a 10-minute window, collecting completed batches and submitting the bounded review/correction stages without waiting for another scheduled run. A later collector resumes anything still processing. The runner does not wait for an entire OpenAI batch window.
+3. The scheduled **AI — Collect and discover** workflow starts and resumes authorized work automatically. Its best-effort schedule is every 15 minutes. During active work it polls once a minute for up to ten minutes, collecting completed batches and advancing review/correction. No manual translation dispatch is needed.
+4. Inspect [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for progress, funding, and explicit attention holds. Disable repository Actions to stop starting work; already submitted provider batches may finish.
+5. Optional **AI — OpenAI**, **AI — Review**, and **AI — Repair held translations** workflows remain for a specific issue or stronger model. New manual defaults are $30; previews remain free. Existing accepted manual budgets and history never change.
 
-A dry-run request is deliberately a free selection preview, not a certified price quotation or a translation-quality assessment; it does not pause separately authorized existing campaigns or automatic source refreshes. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
+A dry-run request is deliberately a free selection preview, not a certified price quotation or a translation-quality assessment; it does not pause separately authorized existing campaigns or automatic archive work. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
 
 ## Workflows
 
@@ -26,8 +26,8 @@ A dry-run request is deliberately a free selection preview, not a certified pric
 | --- | --- | --- |
 | **AI — OpenAI** | Persist one manual translation request with issue/language/model selections. | The collector submits the authorized work; this enqueuer has no OpenAI secret. |
 | **AI — Review** | Request a new bounded AI review of existing translations or saved failed candidates. | Review, and at most one correction plus final review. |
-| **AI — Recover candidates** | Review an exact allowlist of failed candidate task IDs from one finished original campaign. | Uses only an explicitly allocated part of the original remaining cap; review, at most one correction, then final review. |
-| **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | Manual campaigns plus the explicitly bounded source-refresh policy. |
+| **AI — Repair held translations** | Optional bounded manual repair with selectable stronger models. | A separately authorized one-time manual envelope; automatic recovery needs no dispatch. |
+| **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | The shared automatic archive authority plus existing separately authorized campaigns. |
 | **Translation runtime checks** | Offline regression tests, installed SDK contract check, repository validation and read-only source compatibility check. | None. |
 
 Manual workflows are intentionally restricted to `main`. Merge the implementation before trying to run production translation work. Do not add an API secret to a pull-request test environment.
@@ -38,70 +38,21 @@ The single-language dropdown includes all twenty languages and **all**. The opti
 
 The issue dropdown supplies **next**, **all**, **outstanding** and **custom**. For particular issues, copy one or several `source_id` values or UUIDs from `STATUS.md` / `state/source.json` into the **issues** field, separated by commas; this overrides the preset. The live issue list is discovered from the core repository, not hardcoded into workflow YAML. GitHub's native workflow dropdown cannot dynamically populate from a repository file or select multiple values, so validated list inputs provide those capabilities.
 
-**next** selects the first issue in the source catalogue with eligible work for the selected languages and operation. It does not guess chronology from seasonal dates. **all** and **outstanding** both examine all selected source issues, but normal translation eligibility still excludes completed, active and protected work. A request currently allows up to 1,000 article/language tasks; a larger archive request must be divided across manual runs. Batch sizes have separate safety limits.
+**next** selects the first issue in the source catalogue with eligible work for the selected languages and operation. It does not guess chronology from seasonal dates. **all** and **outstanding** both examine all selected source issues, but normal translation eligibility still excludes completed, active and protected work. A request currently allows up to 1,000 article/language tasks; whole-archive completion is handled by automatic resumable pages. Batch sizes have separate safety limits.
 
 Concurrent manual runs create different immutable queue files. OpenAI batches may run simultaneously, while one collector serializes mutable repository writes. Re-running the same GitHub workflow run is idempotent; submitting a new run creates a new request, whose article eligibility checks still prevent duplicate translation charges. Completed translations are selectable for review, not silently translated again. Explicit **retry_failed** is required to retry an unsuccessful translation through **AI — OpenAI**.
 
-### Recover an exact candidate subset
+### Historical exact candidate recovery
 
-Use **AI — Recover candidates** when only particular saved candidates should be
-re-reviewed. Supply a finished **original_campaign** ID and the exact comma-separated
-**previous_task_ids** from that campaign, an explicit **budget_usd** envelope (at most six decimal places), and
-models (both default to **gpt-5-mini**). This separate workflow has no language or
-issue selectors. Its immutable request uses `recovery_of_campaign` and
-`previous_task_ids`; combining these with ordinary selectors or source-refresh
-fields is rejected, never expanded to workflow defaults. Each request belongs to
-one original campaign. Split selections with different original parents into
-separate requests.
-
-Keep **dry_run** checked first. The campaign report lists each exact previous
-**task / article / language**, pinned source and candidate hashes, original cap,
-original reservations, all prior recovery allocations, proposed envelope, and
-remaining balances. `remaining_after_usd` is the **hypothetical** balance after the
-proposed envelope; a preview's actual `recovery_allocation_usd` is zero. No recovery
-tasks, budget reservations, source snapshots, or API objects are created by a
-preview. The collector can still process other independently authorized work.
-To proceed, submit a **new** workflow run with `dry_run` unchecked; rerunning or
-changing the existing request cannot turn a preview into paid work.
-
-Acceptance is all-or-nothing. Every target must exist exactly once, be the latest
-terminal **not_ready** task in the named finished original campaign, retain its
-candidate and valid pinned source/model provenance, and still match current
-English. Any unknown, duplicate, active, stale, mixed-parent, previously recovered,
-human-protected, or already-published target rejects the entire request. Published
-translations remain eligible through ordinary **AI — Review**, not this recovery
-selector. Recovery is an explicit selection, never automatic filtering of holds.
-
-The full requested envelope is durably checkpointed before any recovery task is created and allocated against:
-
-```text
-original cap − original reserved ceiling − every previously accepted recovery envelope
-```
-
-The original campaign and task ledgers remain unchanged. Accepted envelopes are
-**never released or reused**, even after failure, cancellation, incomplete
-acceptance, or lower reported usage. Concurrent enqueuers write independent queue
-files; the existing single collector accepts them sequentially against the shared
-remaining cap. Every original task can receive at most one accepted exact recovery
-across all history. A preview neither allocates funds nor consumes that opportunity.
-
-Recovery copies the existing paid candidate and reuses its verified source
-snapshot. It creates a new review-first task with fresh frozen prompts/settings
-and explicit links/hashes back to the untouched original task and candidate. No
-old attempts, findings, candidates, or source history are reset. A failed review
-may use one correction and one final review, all within the new envelope. The
-95-point/no-major-or-critical gate and normal human/publication protection still
-apply. The envelope is a hard stop, not a guarantee that every stage fits or that
-any candidate will pass. Successful enqueues wake the same trusted-main collector
-as ordinary review requests; the shared state-writer lock is unchanged.
+The separate exact-recovery dispatch UI is retired because normal recovery is automatic. Historical `recovery_of_campaign` / `previous_task_ids` requests, immutable selections, original-cap allocations and cancellation rules remain valid. Their accepted envelopes are never reassigned to the new automatic authority. The previous workflow is retained only as an [inert historical fixture](docs/historical-workflows/ai-recover.yml).
 
 ### Model selection and expenditure
 
-The manual workflow defaults and automatic source-refresh policy use **gpt-5-mini** for translation and review, matching the first campaign; the low-level runtime fallback remains **gpt-4.1-mini** when a caller omits a model. These are operational choices, not proof of theological translation quality for all twenty languages. The allowlist also includes **gpt-4.1-nano** and **gpt-4.1**, with pinned API snapshot names and explicit Batch prices in `config/models.json`. Choose a different model for an explicitly requested independent review when appropriate.
+New translation and review default to **gpt-6-luna**. Automatic held-candidate recovery and the optional manual repair workflow default to **gpt-6.1-sol**. Models, context limits and Batch pricing are frozen at acceptance from `config/models.json`; these choices do not certify theological quality. Existing accepted campaigns retain their original models and request contracts.
 
 All model work uses OpenAI's Batch API; there is no hidden synchronous fallback. Each campaign has a USD reservation ceiling covering translation, review, correction and final review. The runtime reserves a conservative input/output upper estimate before each batch submission and retains actual returned token usage for comparison. Input estimates deliberately overestimate using UTF-8 bytes plus framing allowance. The application never recycles an uncertain reservation to authorize more work.
 
-A low budget can pay for the initial translation but leave insufficient reservation for its review. That task becomes **budget_blocked**, not ready for publication. Use **AI — Review** to continue from the saved candidate under a new, explicit budget rather than starting its translation again. Application limits depend on the configured model rates and are not a provider billing guarantee; also configure appropriate OpenAI project/account budgets and alerts, and verify whether they enforce a hard cap before relying on them. Review the rate table before large campaigns.
+New automatic work cannot start until the complete remaining stage chain fits its envelope. Legacy stage-funded tasks may still finish as **budget_blocked**; automatic recovery retains their saved candidate and continues the appropriate stage under the shared authority. Proven unused new-automatic reservations can settle with complete terminal usage evidence; unknown charges remain reserved. Application limits depend on the configured model rates and are not a provider billing guarantee; also configure appropriate OpenAI project/account budgets and alerts, and verify whether they enforce a hard cap before relying on them. Review the rate table before large campaigns.
 
 The quality path is strictly:
 
@@ -111,7 +62,7 @@ translation → independent review → publish with notice when accepted
               one correction → final review → publish or not_ready
 ```
 
-At most two translation/correction requests and two review requests are submitted per task. A score of 95/100 is an acceptance rubric, not a statistical measurement of 95% accuracy. Major/critical findings always block acceptance. Missing/truncated/refused responses, altered IDs/URLs, malformed HTML, missing substantive blocks and changed Scripture chapter/verse numbers fail structural checks. Model requests include the complete source article, theological-preservation instructions, and any configured per-language glossary.
+At most two translation/correction requests and two review requests are submitted per task. A score of 95/100 is an acceptance rubric, not a statistical measurement of 95% accuracy. Major/critical findings always block acceptance. Missing/truncated/refused responses, altered IDs/URLs, malformed HTML, missing substantive blocks and changed Scripture chapter/verse numbers fail structural checks. Model requests include the complete source article, theological-preservation instructions, and any configured per-language glossary. New work prefetches approved GetBible Scripture evidence and validates exact selected target words before review/publication. Missing editions, uncertain source/reference alignment and unverified versification remain explicit holds; see [the Scripture evidence contract](docs/scripture-quotation-evidence.md).
 
 ## Languages and folder/URL identity
 
@@ -147,7 +98,9 @@ config/                       Language registry, model choices, limits and gloss
 prompts/                      Translation and independent review instructions
 berean_translation/           Python CLI and runtime modules
 content/<language>/articles/  Published HTML and translated metadata sidecars
-state/queue/                  Immutable manual requests
+state/queue/                  Immutable automatic and manual requests
+state/automatic-budget.json   Frozen shared automatic authority and legacy baseline
+state/automatic-settlements/  Immutable complete-usage settlement events
 state/campaigns/              Selections, budget reservations and campaign status
 state/tasks/                  Candidates, per-stage findings, model/usage history
 state/batches/                Exact JSONL inputs, batch IDs and recovery state
@@ -175,22 +128,13 @@ Human review is the final authority tier. The article/language pair is permanent
 
 ### New and changed English articles
 
-The scheduled collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. Use **next** or **outstanding** in a manual translation request for first-time translation work.
+The scheduled collector discovers new issues and articles and queues eligible missing article/language pairs automatically. It also identifies stale/withdrawn translations. Existing candidates resume before first-time work; bounded pages continue across later runs without manual **next** requests.
 
 The translation runtime computes source text, markup and translation-metadata fingerprints automatically; source editors never maintain them. Those local fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
 
 ### Automatic refresh of changed English
 
-`config/runtime.json.automatic_source_refresh` is an explicit standing spending policy, enabled for source changes to existing AI-published translations. At the start of each collector run, the current English scan can create immutable, source-hash-deduplicated refresh requests. Pickup uses the collector's best-effort 15-minute schedule and manual **collect** runs. Website publication independently uses the website repository's polling workflow.
-
-- Only already-published, non-human-reviewed article/language pairs with a changed translation fingerprint qualify. New articles, new languages, withdrawn source articles and compatible publications are excluded
-- Each request contains an exact article set and expected source fingerprints for **one issue and one language**. It cannot expand into the rest of an issue or corpus when accepted
-- Translation and review use **gpt-5-mini**, with a **$10 maximum per issue-language refresh campaign**, covering all bounded stages. This is a per-campaign cap, not a shared lifetime or daily cap; another new source version or another published language can authorize a separate capped campaign. The collector queues at most five new refresh requests per initial discovery tick; previously queued work remains subject to the normal acceptance and batch limits
-- Existing active work and pending overlapping manual requests take precedence. All task history and immutable refresh requests prevent automatically retrying the same source fingerprint, including prior failed, cancelled or budget-blocked work and source-version rollbacks. A failed version requires an explicit manual retry/review
-- If the source changes again before a queued refresh is accepted, that old fingerprint is skipped; a later discovery may authorize the new one. If source changes during active work, the next collector can refresh the newer version after that work finishes
-- A failed refresh preserves the last good files and provenance; only current-source-compatible publications are exported. Human-reviewed translations stay protected
-
-Merging with this policy enabled allows the next collector to refresh eligible stale publications without another manual translation request. Setting `enabled` to `false` prevents new automatic requests and pauses unaccepted automatic requests; already-accepted campaigns remain durable authorized work and must be cancelled explicitly if desired. Campaign records freeze the policy, exact source selection, spending reservations and reported usage for audit. Tests and CI never submit real paid work.
+New source refreshes share the same automatic authority as first-time work and recovery. Their exact current English fingerprint is frozen, human-reviewed pairs are excluded, and the last good publication remains available while a replacement is processed. A changed source is rechecked before submission and publication. Accepted historical source-refresh campaigns retain their original $10, one-issue/language envelopes; those old envelopes are not retroactively reassigned to the new cap. [The archive policy](docs/autonomous-archive.md) records the migration boundary and settlement rules.
 
 ## Recovery and cancellation
 
@@ -200,7 +144,7 @@ Merging with this policy enabled allows the next collector to refresh eligible s
 
 **Missing API key:** discovery and durable selection still work, but no OpenAI request is sent. Add the repository secret after checking that queued paid requests are still intended.
 
-**Budget blocked / not ready:** inspect task findings and candidate JSON. Use **AI — Review** for an existing candidate, or explicitly request a failed translation retry. Each is a new manually authorized budget, never an endless automatic loop.
+**Budget blocked / not ready:** the automatic queue resumes eligible saved work when the complete remaining chain fits. Audited settlement can free unused new-automatic headroom; the $30 authority never silently renews. Repeated/uncertain progress, refusals and unknown provider outcomes remain visible attention holds. Optional manual model overrides have their own explicit budgets.
 
 **Interrupted exact-recovery acceptance:** an `acceptance_incomplete` campaign
 already owns its full envelope but cannot submit partially staged tasks. To close
@@ -247,7 +191,7 @@ The initial notice links to `/en/articles/<article-uuid>/`. Implement that route
 
 ## Local development and tests
 
-Python 3.11 or later is required. GitHub Actions uses Ubuntu 24.04's Python with a virtual environment. The official OpenAI SDK version is pinned in `requirements.txt`; model and language configuration is reviewed separately.
+Python 3.11 or later is required. GitHub Actions uses Ubuntu 24.04's Python with a virtual environment. The official OpenAI SDK is pinned in `requirements.txt`; the anonymous GetBible MCP client is pinned in `requirements-scripture.txt`. Model and language configuration is reviewed separately.
 
 ```bash
 python3 -m venv .venv

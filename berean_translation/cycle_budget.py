@@ -44,6 +44,7 @@ class _PlanningState:
 
     def __init__(self, state, campaign, candidate):
         self._state, self._campaign, self._candidate = state, campaign, candidate
+        self.planning = True
 
     def source(self, task):
         return self._state.source(task)
@@ -107,6 +108,8 @@ def plan_cycle(config, state, task, campaign,
     line, _, skeleton_bound = build_request(
         config, _PlanningState(state, campaign, None), review)
     review_bound = skeleton_bound + max(4, 2 * max_candidate_bytes) - 4
+    if campaign.get('scripture_quotes'):
+        review_bound += 2 * campaign['scripture_quotes']['max_selection_audit_bytes'] - 4
     review_model = task['models'][task['review_model']]
     output_limit = line['body']['max_completion_tokens']
     if review_bound + output_limit > review_model['context_tokens']:

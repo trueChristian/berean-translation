@@ -274,7 +274,10 @@ class State:
         from .downstream import funding_ledger, frontier
         from .recovery import money
         funding = funding_ledger(self)
-        recovery_frontier = frontier(config, self, tasks=list(task_by_id.values()), funding=funding)
+        from . import autonomous
+        automatic = autonomous.enabled(config) or self.read(autonomous.AUTHORITY_PATH) is not None
+        recovery_frontier = (autonomous.frontier(config, self, tasks) if automatic else
+                             frontier(config, self, tasks=list(task_by_id.values()), funding=funding))
         self.write('RECOVERY.json', recovery_frontier)
         allocated = funding['shared_policy_usd']
         cap = money(recovery_policy.get('total_budget_usd', 0))
@@ -284,7 +287,22 @@ class State:
             recovery_status = 'Budget blocked: the next hourly recovery envelope does not fit the remaining authorization.'
         else:
             recovery_status = 'Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.'
-        rows += ['', '## Held-work recovery', '', recovery_status,
+        if automatic:
+            values = autonomous.ledger(self)
+            automatic_cap = recovery_frontier['approved_total_usd']
+            rows += ['', '## Automatic archive work', '',
+                'Scheduled collection creates missing work across the whole archive and all configured languages. '
+                'Disable repository Actions to stop starting work; already submitted provider batches may finish.',
+                f'Automatic committed ceiling: ${recovery_frontier["committed_usd"]:.6f} / ${automatic_cap:.2f}. '
+                'This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. '
+                'Accepted legacy refresh and manual envelopes retain their separate original authority.',
+                'New automatic work reserves its complete remaining stage chain, up to $10 per envelope. '
+                'Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. '
+                'Usage is provider-reported and priced at frozen rates, not invoice reconciliation.',
+                'Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, '
+                'refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.',
+                '[Recovery frontier](RECOVERY.json) records current holds and funding.']
+        rows += ['', '## Legacy held-work recovery authority' if automatic else '## Held-work recovery', '', recovery_status,
                  f'Hourly/shared-policy funding. Accepted lifetime recovery allocations: ${allocated:.6f} / ${cap:.2f}. '
                  'Allocations are not recycled after failure or cancellation.',
                  f'Separately authorized manual workflow allocations: ${funding["manual_workflow_usd"]:.6f} '
@@ -324,7 +342,8 @@ class State:
                             status if status in ('complete','proposal','cancelled') else 'unknown')
                 outcomes[category] += 1
             summary = ', '.join(f'{count} {label}' for label,count in outcomes.items() if count) or 'no task work'
-            trigger = ('hourly recovery' if campaign.get('downstream_request', {}).get('scheduled_hour') else
+            trigger = ('automatic archive' if campaign.get('autonomous') else
+                       'hourly recovery' if campaign.get('downstream_request', {}).get('scheduled_hour') else
                        'manual recovery' if campaign.get('downstream_recovery') else
                        'exact recovery' if campaign.get('recovery_of_campaign') else
                        'source refresh' if campaign.get('source_refresh') else 'manual')

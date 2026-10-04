@@ -17,7 +17,7 @@ from support import A, B, REPO_ROOT, drive, queue, setup
 
 
 def workflow(name):
-    return yaml.load((REPO_ROOT / '.github/workflows' / name).read_text(encoding='utf-8'),
+    return yaml.load((REPO_ROOT / ('docs/historical-workflows' if name == 'ai-recover.yml' else '.github/workflows') / name).read_text(encoding='utf-8'),
                      Loader=yaml.BaseLoader)
 
 
@@ -46,7 +46,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         return enqueue.call_args.args[1]
 
     def test_language_defaults_and_other_workflow_limits(self):
-        for operation, budget in (('translate', '10'), ('review', '5')):
+        for operation, budget in (('translate', '30'), ('review', '30')):
             with self.subTest(operation=operation):
                 document = workflow(f'ai-{operation}.yml')
                 inputs = document['on']['workflow_dispatch']['inputs']
@@ -93,7 +93,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         self.assertEqual(campaign['tasks'], [])
         self.assertEqual(campaign['reserved_usd'], 0)
         self.assertEqual(campaign['reported_usage_usd'], 0)
-        self.assertEqual(campaign['budget_usd'], 10 if operation == 'translate' else 5)
+        self.assertEqual(campaign['budget_usd'], 30)
         self.assertEqual(self.state.tasks(), tasks_before)
         self.assertEqual(self.state.batches(), batches_before)
         self.assertEqual(self.provider.upload_calls, uploads_before)
@@ -164,7 +164,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         repair = workflow('ai-repair.yml')['on']['workflow_dispatch']['inputs']
         self.assertEqual(repair['max_articles']['options'], ['1', '2', '3', '4', '5'])
         self.assertEqual(repair['max_articles']['default'], '3')
-        self.assertEqual(repair['budget_usd']['default'], '1')
+        self.assertEqual(repair['budget_usd']['default'], '30')
 
 
 if __name__ == '__main__':

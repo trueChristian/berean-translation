@@ -68,8 +68,12 @@ class Config:
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
             if type(self.runtime.get(field)) is not int or self.runtime[field] <= 0:
                 raise ContractError('Runtime size/count limits must be positive integers')
-        if self.runtime.get('automatic_new_translation') is not False:
-            raise ContractError('Automatic new paid campaigns are outside the manual-authorization contract')
+        if type(self.runtime.get('scripture_quotes_enabled', False)) is not bool:
+            raise ContractError('Scripture quote policy switch must be boolean')
+        from .autonomous import policy as autonomous_policy
+        automatic = autonomous_policy(self)
+        if type(self.runtime.get('automatic_new_translation')) is not bool or (self.runtime['automatic_new_translation'] and not automatic['enabled']):
+            raise ContractError('Automatic new work requires the bounded shared spending authority')
         refresh = self.runtime.get('automatic_source_refresh', {'enabled': False})
         if not isinstance(refresh, dict) or type(refresh.get('enabled')) is not bool:
             raise ContractError('Automatic source refresh must have a boolean enabled setting')

@@ -259,7 +259,7 @@ def eligible(state, config, task, used, tasks, *, continuation_policy=None, hist
 def execution_template(config, request):
     policy = validate_policy(config)
     from .review_contract import frozen_fields
-    return {'model': request['model'], 'review_model': request['review_model'],
+    result = {'model': request['model'], 'review_model': request['review_model'],
         'models': copy.deepcopy(config.models), 'prompt_version': config.runtime['prompt_version'],
         'prompts': {key: config.prompt(key) for key in ('translation', 'review', 'repair')},
         'language_settings': copy.deepcopy(config.languages),
@@ -267,6 +267,10 @@ def execution_template(config, request):
         'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
         'review_output_tokens': policy.get('review_output_tokens', config.review_output_limit(request['review_model'])),
         'quality_threshold': config.runtime['quality_threshold'], **frozen_fields(config)}
+    if config.runtime.get('scripture_quotes_enabled', False):
+        from .scripture_evidence import policy as scripture_policy
+        result['scripture_quotes'] = scripture_policy(config.root)
+    return result
 
 
 def new_task(previous, campaign, item):
@@ -284,6 +288,7 @@ def new_task(previous, campaign, item):
         rejection_reason=('Candidate did not pass fidelity review; substantiate findings against the English'
             if previous.get('failure_kind') == 'quality_rejection' or 'Final review failed' in previous.get('failure', '')
             else previous.get('failure', 'Candidate did not pass a quality or structural gate')))
+    task.update(copy.deepcopy(item.get('scripture_evidence', {})))
     if 'continuation' in item:
         task['continuation'] = copy.deepcopy(item['continuation'])
         if 'cycle_budget' in item:
@@ -345,6 +350,14 @@ def accept(engine, request):
             'mode': 'repair' if usable_candidate(candidate) else 'fresh',
             'source_snapshot': previous['source_snapshot'], 'record_before': copy.deepcopy(record),
             'record_before_sha256': json_hash(record)}
+        if template.get('scripture_quotes'):
+            from .scripture_evidence import freeze_scripture_evidence, ScriptureAttention
+            try:
+                item['scripture_evidence'] = freeze_scripture_evidence(engine, state.source(previous),
+                    previous['language'], frozen_policy=template['scripture_quotes'])
+            except ScriptureAttention as exc:
+                skipped.append({'previous_task_id': previous['id'], 'reason': exc.reason, 'detail': str(exc)})
+                continue
         if settings is not None:
             from .cycle_budget import plan_cycle
             item['continuation'] = {'cycle': len(history) + 1, 'strategy_sha256': chosen_strategy}
@@ -449,6 +462,8 @@ def execution_settings(campaign):
     if 'review_contract_version' in campaign:
         from .review_contract import frozen_version
         result['review_contract_version'] = frozen_version(campaign)
+    if 'scripture_quotes' in campaign:
+        result['scripture_quotes'] = campaign['scripture_quotes']
     if 'continuation_policy' in campaign:
         result['continuation_policy'] = campaign['continuation_policy']
         result['planned_cycle_ceiling_usd'] = campaign['planned_cycle_ceiling_usd']
@@ -553,7 +568,10 @@ def validate_history(config, state, tasks):
                 generation = 'correct' if item['mode'] == 'repair' else 'translate'
                 generation_result = state.read(f'state/tasks/{identity}/results/{generation}.json')
                 if generation_result is not None:
-                    if json_hash(state.candidate(task)) != json_hash(generation_result['result']):
+                    generated = generation_result['result']
+                    if campaign.get('scripture_quotes') and isinstance(generated, dict) and all(k in generated for k in ('html','title','subtitle','section')):
+                        generated = {k: generated.get(k) for k in ('html','title','subtitle','section')}
+                    if json_hash(state.candidate(task)) != json_hash(generated):
                         raise ContractError('Downstream candidate differs from its archived generation result')
                 elif item['mode'] == 'repair' and json_hash(state.candidate(task)) != item['candidate_sha256']:
                     raise ContractError('Downstream repair input candidate changed before generation')
@@ -568,6 +586,7 @@ def validate_history(config, state, tasks):
                     or task.get('downstream_key') != item['recovery_key']
                     or task.get('continuation') != item.get('continuation')
                     or task.get('cycle_budget') != item.get('cycle_budget')
+                    or any(task.get(key) != value for key, value in item.get('scripture_evidence', {}).items())
                     or any(task[k] != previous[k] for k in ('language','article_id','issue_id','source_snapshot','translation_key'))
                     or task['stage'] not in (('correct', 'review2') if item['mode'] == 'repair' else ('translate', 'review1'))
                     or task['translation_attempts'] > 1 or task['review_attempts'] > 1):

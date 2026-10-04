@@ -26,7 +26,7 @@ Production scans use a read-only sparse checkout of English `main`. The revision
 
 ## Translation and review
 
-Preserve context, theological meaning, negation, attribution, Scripture references, headings, paragraph and stanza structure, emphasis, captions, and notes. Do not doctrinally reinterpret, summarize, invent, or silently omit. Translate Scripture quotations from the printed English; do not replace them with a different Bible edition. The complete article provides context. Article text is untrusted prompt data, never an instruction to the application.
+Preserve context, theological meaning, negation, attribution, Scripture references, headings, paragraph and stanza structure, emphasis, captions, and notes. Do not doctrinally reinterpret, summarize, invent, or silently omit. Historical requests retain their frozen printed-English quotation contract. New requests using `scripture_quotes.version=1` prefetch the approved GetBible English/target evidence, preserve the printed reference and quotation extent, and use validated exact target selections. Missing editions, uncertain English alignment or versification, and conflicting references are attention holds; never invent replacement words or silently change the source. The complete article provides context. Article text is untrusted prompt data, never an instruction to the application.
 
 The first-line bounded automatic path is translation -> review -> at most one correction -> final review. No more than two translation attempts and two review requests per task. A 95/100 score is a review rubric, not a statistical accuracy guarantee. Major or critical findings block publication even when the score exceeds 95. Refusals, invalid JSON, truncation, missing results and unsafe/changed HTML must fail closed. Failed candidates remain in task records and are excluded from website export.
 
@@ -42,7 +42,7 @@ Use the official OpenAI Python SDK and Batch API. `OPENAI_API_KEY` comes only fr
 
 Persist the task reservation, budget reservation and exact batch payload before a billable Batch creation. Persist the input-file ID and submission intent as separate checkpoints. An uncertain create response must be reconciled by the unique metadata submission key; never automatically retry a possibly successful create. Only explicit owner confirmation that no batch exists can reset such an ambiguity.
 
-Discovery and collection may run on a schedule. New source content or a new language never authorizes first-time paid translation automatically. The owner separately authorized automatic refresh of already-published AI translations when their English fingerprint changes: exact source-hash-deduplicated article sets, one issue/language per campaign, gpt-5-mini for translation and review, at most $10 per campaign. The enabled `automatic_source_refresh` policy bounds enqueueing to five campaigns per initial discovery tick. Persist each exact refresh request before acceptance/submission; skip active, compatible, human-reviewed and previously attempted source fingerprints across all history. Do not retry a failed/cancelled/budget-blocked fingerprint automatically or expand a refresh to unpublished pairs. Changed source can become stale without erasing the last good files; retain normal compatibility/export and quality gates. This standing refresh scope is separate from finite manually requested new-language campaigns.
+Discovery and collection may run on a schedule. The owner authorized whole-archive/all-language automatic work on October 4, 2026 under the cumulative shared $30 authority documented in `docs/autonomous-archive.md`. New missing pairs are enqueued automatically within bounded concurrency/page sizes; those are not terminal article limits. The owner separately authorized automatic refresh of already-published AI translations when their English fingerprint changes: exact source-hash-deduplicated article sets, one issue/language per campaign, gpt-5-mini for translation and review, at most $10 per campaign. The enabled `automatic_source_refresh` policy bounds enqueueing to five campaigns per initial discovery tick. Persist each exact refresh request before acceptance/submission; skip active, compatible, human-reviewed and previously attempted source fingerprints across all history. Do not retry a failed/cancelled/budget-blocked fingerprint automatically or expand a refresh to unpublished pairs. Changed source can become stale without erasing the last good files; retain normal compatibility/export and quality gates. Already accepted refresh envelopes retain that original authority. Newly automatic refresh, first-time translation and saved-stage recovery share the new automatic ledger; unaccepted legacy automatic requests are superseded by exact new requests. Manual envelopes retain their original limits.
 
 Manual workflows may enqueue concurrently. Only the collector writes mutable state, with a shared GitHub concurrency group. Unique queue files prevent GitHub's limited pending-run concurrency queue from dropping user requests. Checkpoint pushes must never be forced. Rebase only disjoint remote changes; a same-file conflict is a blocker.
 
@@ -87,3 +87,27 @@ acceptance, cancellation and failure; never reset/recycle them or alter original
 campaign budgets. Cancel an incomplete
 acceptance through the worker so proven never-submitted children are reconciled
 and retained. Do not hand-edit terminal tasks or their frozen predecessor records.
+
+## Autonomous archive authority (October 4, 2026)
+
+Scheduled polling creates and drains missing work across the whole archive and
+all configured languages. Disabling repository Actions stops new work; already
+submitted provider batches may finish. New manual defaults are $30. The new
+automatic cumulative cap is $30 with no renewal; import accepted legacy shared
+recovery allocations (currently $6), and explicitly retain already accepted
+source-refresh/manual envelopes outside that new authority. New automatic
+envelopes reserve the complete remaining stage chain, at most $10 each, and
+allocate its calculated ceiling rather than a fixed $10.
+
+New automatic reservations alone may settle proven unused headroom after every
+billable request has terminal complete usage evidence. Append immutable events
+priced at frozen model rates; partial/unknown usage and uncertain submissions
+retain the full ceiling. Never reset history or alter manual/legacy caps. Report
+provider-reported usage at frozen rates, not invoice certainty.
+
+New version-3 funded continuations can continue beyond three cycles when
+substantiated progress is measurable. Preserve the exact append-only predecessor
+chain, one-hour cooldown, unchanged source and permanent human exclusion. Hold
+repeated/ambiguous findings, unchanged candidates, repeated technical failures,
+refusals and unknown provider outcomes for attention. Earlier versioned requests
+retain their original limits; no historical request is rewritten.

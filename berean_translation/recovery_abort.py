@@ -70,8 +70,12 @@ def audit_abort(state, campaign, maximum, *, terminal=False):
         if folder.exists():
             if not folder.is_dir():
                 raise ContractError('Unexpected child artifact prevents recovery abort')
+            allowed_files = {'candidate.json', 'task.json'}
+            scripture = campaign.get('recovery_scripture', {}).get(previous['id'])
+            if scripture and scripture.get('audit') is not None:
+                allowed_files.add('scripture-selections.json')
             for path in folder.iterdir():
-                if path.is_symlink() or not path.is_file() or path.name not in ('candidate.json', 'task.json'):
+                if path.is_symlink() or not path.is_file() or path.name not in allowed_files:
                     raise ContractError('Unexpected child result/artifact prevents recovery abort')
                 names.add(path.name)
         task = tasks.get(child_id)
@@ -84,6 +88,9 @@ def audit_abort(state, campaign, maximum, *, terminal=False):
                 raise ContractError('Changed child candidate prevents recovery abort')
         elif task is not None:
             raise ContractError('Materialized child has no candidate')
+        scripture = campaign.get('recovery_scripture', {}).get(previous['id'])
+        if 'scripture-selections.json' in names and state.read(f'state/tasks/{child_id}/scripture-selections.json') != scripture['audit']:
+            raise ContractError('Changed initial Scripture audit prevents recovery abort')
         before = item['record_before']
         record = state.record(previous['language'], previous['article_id'])
         expected_records = [before]
@@ -99,6 +106,8 @@ def audit_abort(state, campaign, maximum, *, terminal=False):
                       'translation_attempts': 0, 'review_attempts': 0, 'events': [],
                       'recovery_of_task': previous['id'], 'recovery_candidate_sha256': item['candidate_sha256'],
                       'recovery_previous_task_sha256': item['previous_task_sha256']}
+            if scripture:
+                wanted.update(scripture['fields'], stage=scripture['stage'])
             if (any(task.get(key) != value for key, value in wanted.items())
                     or not _timestamp(task.get('created_at'))
                     or task.get('status') not in ('queued', 'cancelled')):

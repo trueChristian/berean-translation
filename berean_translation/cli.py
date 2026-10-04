@@ -96,7 +96,7 @@ def main(argv=None):
                        'operation':os.environ['TRANSLATION_OPERATION'],
                        'model':os.environ.get('INPUT_MODEL') or config.runtime['default_model'],
                        'review_model':os.environ.get('INPUT_REVIEW_MODEL') or config.runtime['default_review_model'],
-                       'budget_usd':os.environ.get('INPUT_BUDGET_USD','5'),
+                       'budget_usd':os.environ.get('INPUT_BUDGET_USD',str(config.runtime['default_budget_usd'])),
                        'dry_run':env_bool('INPUT_DRY_RUN',True),'retry_failed':env_bool('INPUT_RETRY_FAILED'),
                        'requested_by':os.environ.get('GITHUB_ACTOR')}
             if selection_mode == 'downstream-recovery':

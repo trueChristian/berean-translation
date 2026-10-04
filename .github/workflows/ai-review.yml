@@ -67,9 +67,9 @@ on:
           - gpt-6-astra
         default: gpt-6-luna
       budget_usd:
-        description: "Maximum campaign reservation in USD, including all stages"
+        description: "Optional manual campaign USD ceiling, including all stages"
         type: string
-        default: "5"
+        default: "30"
       dry_run:
         description: "Preview selections only: no translations, reservations, or paid requests"
         type: boolean

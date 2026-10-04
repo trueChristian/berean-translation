@@ -10,7 +10,7 @@
   "max_batch_requests": 500,
   "max_batch_bytes": 50000000,
   "max_campaign_usd": 500,
-  "default_budget_usd": 5,
+  "default_budget_usd": 30,
   "max_output_tokens": 16384,
   "review_output_tokens": 3000,
   "reasoning_review_output_tokens": 8192,
@@ -22,7 +22,7 @@
   "prompt_version": "1.0.3",
   "review_contract_version": 2,
   "automatic_discovery": true,
-  "automatic_new_translation": false,
+  "automatic_new_translation": true,
   "automatic_source_refresh": {
     "enabled": true,
     "model": "gpt-5-mini",
@@ -40,5 +40,13 @@
     "max_output_tokens": 32768,
     "review_output_tokens": 8192
   },
-  "structural_feedback_version": "1"
+  "structural_feedback_version": "1",
+  "autonomous_translation": {
+    "enabled": true,
+    "total_budget_usd": 30,
+    "max_envelope_usd": 10,
+    "max_active_tasks": 50,
+    "page_size": 20
+  },
+  "scripture_quotes_enabled": true
 }
