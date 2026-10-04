@@ -20,6 +20,7 @@
   "max_pending_campaigns_per_tick": 25,
   "english_route": "/en/articles/{article_id}/",
   "prompt_version": "1.0.3",
+  "review_contract_version": 2,
   "automatic_discovery": true,
   "automatic_new_translation": false,
   "automatic_source_refresh": {

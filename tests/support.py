@@ -125,7 +125,11 @@ class FakeProvider:
     def default_result(line):
         stage = line['custom_id'].split(':')[1]
         if stage.startswith('review'):
-            return {'score':97,'passed':True,'findings':[]}
+            result = {'score':97,'passed':True,'findings':[]}
+            schema = line['body']['response_format']['json_schema']['schema']
+            if 'findings_complete' in schema['required']:
+                result['findings_complete'] = True
+            return result
         source = loads(line['body']['messages'][1]['content'])['source']
         return {key:source[key] for key in ('html','title','subtitle','section')}
 
@@ -151,7 +155,7 @@ class FakeProvider:
             batch.update(status=status,output_file_id=output_id)
 
 
-def setup(root):
+def setup(root, *, review_contract_version=None):
     shutil.copytree(REPO_ROOT/'config',root/'config')
     shutil.copytree(REPO_ROOT/'prompts',root/'prompts')
     # Generic runtime tests exercise manual requests. Scheduled-policy tests opt
@@ -160,6 +164,11 @@ def setup(root):
     runtime = read_json(root/'config/runtime.json')
     runtime['automatic_source_refresh']['enabled'] = False
     runtime['automatic_downstream_recovery'].update(enabled=False, total_budget_usd=0)
+    # Existing hand-authored review fixtures model the frozen legacy contract.
+    # New-contract integration tests opt in explicitly and exercise its schema.
+    runtime.pop('review_contract_version', None)
+    if review_contract_version is not None:
+        runtime['review_contract_version'] = review_contract_version
     (root/'config/runtime.json').write_bytes(canonical(runtime))
     (root/'content').mkdir()
     state = State(root)

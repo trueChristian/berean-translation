@@ -2,19 +2,14 @@
 from __future__ import annotations
 from decimal import Decimal, ROUND_CEILING
 from .common import ContractError, canonical, json_hash, loads, read_json
+from .review_contract import LEGACY_REVIEW_SCHEMA, review_schema, validate_review, frozen_version
 
 TRANSLATION_SCHEMA = {
     'type':'object','additionalProperties':False,
     'properties':{'html':{'type':'string'}, **{k:{'type':['string','null']} for k in ('title','subtitle','section')}},
     'required':['html','title','subtitle','section']}
-REVIEW_SCHEMA = {
-    'type':'object','additionalProperties':False,
-    'properties':{'score':{'type':'integer'},'passed':{'type':'boolean'},'findings':{'type':'array','items':{
-        'type':'object','additionalProperties':False,
-        'properties':{'severity':{'type':'string','enum':['minor','major','critical']},
-                      **{k:{'type':'string'} for k in ('location','source_quote','translation_quote','suggested_fix')}},
-        'required':['severity','location','source_quote','translation_quote','suggested_fix']}}},
-    'required':['score','passed','findings']}
+# Public legacy constant retained for callers and frozen request replay.
+REVIEW_SCHEMA = LEGACY_REVIEW_SCHEMA
 
 
 def _batch_rates(model: dict, input_tokens: int) -> tuple[Decimal, Decimal, Decimal, Decimal]:
@@ -88,6 +83,9 @@ def build_request(config, state, task):
     model = task['models'][chosen]
     # Prompts, configuration and glossary are frozen when the campaign is accepted.
     campaign = state.read(f'state/campaigns/{task["campaign"]}.json')
+    # Reject an unknown frozen contract before any stage can reserve or submit
+    # paid work, including translation/correction before the review request.
+    contract_version = frozen_version(campaign)
     lang = campaign['language_settings'][task['language']]
     payload = {'target_language':lang['name'],'language_tag':lang['tag'],'language_guidance':lang['guidance'],
                'terminology_glossary':campaign['glossaries'].get(task['language'],{}),
@@ -121,7 +119,8 @@ def build_request(config, state, task):
                         {'role':'user','content':canonical(payload).decode('utf-8')}],
             'max_completion_tokens':output_limit,
             'response_format':{'type':'json_schema','json_schema':{'name':'article_review' if review else 'article_translation',
-                                    'strict':True,'schema':REVIEW_SCHEMA if review else TRANSLATION_SCHEMA}}}
+                                    'strict':True,'schema':review_schema(contract_version)
+                                    if review else TRANSLATION_SCHEMA}}}
     if model.get('reasoning_effort'):
         body['reasoning_effort'] = model['reasoning_effort']
     # One UTF-8 byte per input token plus generous framing allowance deliberately
@@ -175,16 +174,7 @@ def parse_response(row: dict, maximum_bytes: int) -> tuple[dict,dict]:
     return data,provenance
 
 
-def accepted_review(review: dict, threshold: int = 95) -> bool:
-    if set(review) != {'score','passed','findings'} or type(review['score']) is not int or not 0 <= review['score'] <= 100:
-        raise ContractError('Invalid review score or schema')
-    if type(review['passed']) is not bool or not isinstance(review['findings'],list) or len(review['findings']) > 30:
-        raise ContractError('Invalid review verdict or findings')
-    for item in review['findings']:
-        keys = {'severity','location','source_quote','translation_quote','suggested_fix'}
-        if not isinstance(item,dict) or set(item) != keys or not all(isinstance(v,str) for v in item.values()):
-            raise ContractError('Invalid review finding')
-        if item['severity'] not in ('minor','major','critical'):
-            raise ContractError('Unknown finding severity')
-    return review['passed'] and review['score'] >= threshold and not any(
+def accepted_review(review: dict, threshold: int = 95, *, contract_version=None) -> bool:
+    validate_review(review, contract_version)
+    return review.get('findings_complete', True) and review['passed'] and review['score'] >= threshold and not any(
         x['severity'] in ('major','critical') for x in review['findings'])
