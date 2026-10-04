@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"أزهار قلب نازف وردية أمام خلفية خضراء ضبابية برفق\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>أفقط في انكسار القلب،<br>\\n    حين تضطرب الحيرة من حولي،<br>\\n    أطلب حقًا ذراعي مخلّصي،<br>\\n    ويتجه نحوه إرادتي؟</p>\\n\\n    <p>أفقط في الظلام،<br>\\n    حين لا أرى طريقي؛<br>\\n    أو حين أُسأل عن أمر لا أعرفه،<br>\\n    أفكر في أن أتوقف وأصلّي؟</p>\\n\\n    <p>أفقط حين أشعر<br>\\n    بقوة الشر محتشدة من حولي،<br>\\n    ألتمس حمايته؛<br>\\n    لأحتمي بين ذراعيه؟</p>\\n\\n    <p>يا لغباء قلبي!<br>\\n    كيف تدعوه أعز أصدقائك،<br>\\n    إذا كنت لا تعتمد عليه<br>\\n    إلا في محنتك؟</p>\\n\\n    <p>تحتاج إليه في الأوقات الطيبة أيضًا،<br>\\n    وربما بأشد إلحاح؛<br>\\n    إذ يسهل أن تنسى طلبه<br>\\n    حين تظن أنك ترى الطريق.</p>\\n\\n    <p>حتى حين تعجز عن سماعه،<br>\\n    وحين تقصر عن البقاء إلى جانبه،<br>\\n    سيسمعك حين تصرخ إليه،<br>\\n    وتلقي عليه همومك.</p>\\n\\n    <p>ولكن كم يكون أفضل<br>\\n    أن تلتمس وجهه بإخلاص،<br>\\n    في أوقات الحياة الأيسر<br>\\n    بقدر ما تلتمسه في الأشد وعورة!</p>\\n\\n    <p>أن تطلبه وتبحث عنه، وتبقى إلى جانبه،<br>\\n    وتشاركه الفرح والحزن،<br>\\n    الأمور المجهولة بين يديه، وسيكون إلى جانبك<br>\\n    مهما يأتي به الغد.</p>\\n\\n    <p class=\\\"byline\\\"><em>– بقلم كاتي غود</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"في الظلام فقط\"}",
+    "content_bytes": 2117,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a9fedbc6d12a9e6c0c6d5b24009e426e4c594449be33a62d1b27d172cbbcb04",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 184,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2329,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3150
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

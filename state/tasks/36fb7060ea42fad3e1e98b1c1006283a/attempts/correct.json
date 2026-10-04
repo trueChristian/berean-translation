@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Den tidiga kyrkan i forna dar<br>\\n    ville gärna berätta<br>\\n    för syndaren om Jesus Kristus,<br>\\n    om himmel och helvete.</p>\\n  <p class=\\\"poem\\\">Visst var de inte fullkomliga,<br>\\n    men ändå älskade de sin Herre<br>\\n    och strävade att följa denna befallning<br>\\n    trots faror och svärd.</p>\\n  <p class=\\\"poem\\\">Ju fler människor de omvände,<br>\\n    desto större blev spänningen.<br>\\n    Landets onda härskare<br>\\n    visste inte vad de skulle göra.</p>\\n  <p class=\\\"poem\\\">Många brändes på bål,<br>\\n    några sattes i kalla fängelsehålor,<br>\\n    för att de spred evangeliets ord<br>\\n    med djärv tro och mod.</p>\\n  <p class=\\\"poem\\\">Dessa tappra soldater som led så mycket<br>\\n    var verkligen lysande ljus,<br>\\n    men de såg fortfarande behovet<br>\\n    av att berätta för andra om Gud.</p>\\n  <p class=\\\"poem\\\">Nu har många år gått sedan dess;<br>\\n    vi kristna brukar säga:<br>\\n    ”Var ett föredöme för världen;<br>\\n    du behöver inte visa vägen.”</p>\\n  <p class=\\\"poem\\\">Men om den här synen vore sann,<br>\\n    då skulle jag vilja veta:<br>\\n    liksom kyrkan i forna dar,<br>\\n    varför växer inte vår kyrka?</p>\\n  <p class=\\\"poem\\\">Har elden falnat<br>\\n    här i Amerika?<br>\\n    Eftersom tron är god, varför delar vi den då inte<br>\\n    som helgonen förr?</p>\\n  <p class=\\\"poem\\\">I andra länder just i dag<br>\\n    brinner elden klart,<br>\\n    för där är de kristna ivriga<br>\\n    och strider med kraft.</p>\\n  <p class=\\\"poem\\\">Medan vi tackar Gud för friheten här,<br>\\n    prisar de sin Herre i höjden.<br>\\n    Och tackar Honom för att de för Jesu skull<br>\\n    lider och dör.</p>\\n  <p class=\\\"poem\\\">Så medan martyrer i andra länder<br>\\n    utgjuter sitt blod för Gud,<br>\\n    skulle vårt blod också fläcka jorden<br>\\n    om vi spred Guds ord.</p>\\n  <p class=\\\"poem\\\">Är det en välsignelse från vår Gud<br>\\n    att vårt land är fritt?<br>\\n    Eller är det för att vi inte är ett ”hot”<br>\\n    mot samhället?</p>\\n  <p class=\\\"poem\\\">Skäms vi, eller har vi ingen tid?<br>\\n    Kära vänner, tiden är nära.<br>\\n    Om vi inte för människorna till Gud,<br>\\n    kommer folket att gå under.</p>\\n  <p class=\\\"poem\\\">Så låt oss till sist, vänner, välja<br>\\n    den väg som Jesus gick,<br>\\n    visa vilsna själar den smala vägen<br>\\n    som leder människan hem till Gud.</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kallelsen att arbeta\"}",
+    "content_bytes": 2779,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5526b37b9c40c208d5cf675c439a98bada74054868c56c985ecfbdb331f1ce5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3853
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

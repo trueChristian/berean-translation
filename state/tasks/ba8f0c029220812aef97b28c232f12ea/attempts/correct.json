@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"নরমভাবে ঝাপসা সবুজ পটভূমিতে গোলাপি ব্লিডিং হার্ট ফুল\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>শুধু কি হৃদয়ভাঙার সময়,<br>\\n    যখন বিভ্রান্তি আমাকে ঘিরে ঘূর্ণি তোলে,<br>\\n    তখনই আমি সত্যি আমার ত্রাণকর্তার বাহু খুঁজি<br>\\n    আর তাঁর দিকেই আমার ইচ্ছা ফেরে?</p>\\n\\n    <p>শুধু কি অন্ধকারে,<br>\\n    যখন আমি পথ দেখতে পাই না;<br>\\n    অথবা এমন কিছু সম্পর্কে জিজ্ঞেস করা হলে, যা আমি জানি না,<br>\\n    তখনই কি থেমে প্রার্থনা করার কথা ভাবি?</p>\\n\\n    <p>শুধু কি তখনই, যখন অনুভব করি<br>\\n    মন্দের শক্তি আমাকে ঘিরে জড়ো হয়েছে,<br>\\n    আমি তাঁর সুরক্ষা খুঁজি;<br>\\n    তাঁর বাহুতে আশ্রয় নিতে চাই?</p>\\n\\n    <p>ওহ, আমার নির্বোধ হৃদয়!<br>\\n    কীভাবে তাঁকে তোমার সবচেয়ে ভালো বন্ধু বলতে পারো,<br>\\n    যখন কেবল বিপদের সময়ই<br>\\n    তাঁর ওপর নির্ভর করবে?</p>\\n\\n    <p>ভালো সময়েও তোমার তাঁকে প্রয়োজন,<br>\\n    হয়তো আরও বেশি মরিয়া হয়ে;<br>\\n    কারণ নিজের ভাবা পথে চলতে পারলে<br>\\n    তাঁর অন্বেষণ ভুলে যাওয়া সহজ।</p>\\n\\n    <p>এমনকি যখন তুমি তাঁর কথা শুনতে ব্যর্থ হও,<br>\\n    তাঁর পাশে থাকতে ব্যর্থ হও,<br>\\n    তুমি যখন তাঁর কাছে কেঁদে উঠবে, তিনি শুনবেন<br>\\n    আর তোমার দুশ্চিন্তাগুলো তাঁর ওপর সমর্পণ করবে।</p>\\n\\n    <p>কিন্তু কতই না ভালো হতো,<br>\\n    যদি আন্তরিকভাবে তাঁর মুখের অন্বেষণ করতে,<br>\\n    জীবনের মসৃণ সময়গুলোতেও ঠিক ততটাই<br>\\n    যতটা কঠিন সময়ে!</p>\\n\\n    <p>তাঁকে খুঁজতে ও অন্বেষণ করতে, তাঁর পাশে থাকতে,<br>\\n    আনন্দ আর দুঃখ ভাগ করে নিতে,<br>\\n    অজানা সবকিছু তাঁর হাতে—আগামীকাল যা-ই আসুক,<br>\\n    তিনি থাকবেন তোমার পাশে।</p>\\n\\n    <p class=\\\"byline\\\"><em>–কেটি গুডের লেখা</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"শুধু অন্ধকারে\"}",
+    "content_bytes": 3589,
+    "content_evidence_truncated": false,
+    "content_sha256": "46bc9400f333de21aa44e19698a766ff8e622d75fe7b9803aae2c8cbb9972a11",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2285,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3068
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

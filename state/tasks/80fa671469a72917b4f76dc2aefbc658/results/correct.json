@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a435d169-ac2d-437c-8b10-3bdf2b110e35",
+    "response_id": "chatcmpl-EV4MnrPPI9f0BBL2BL1PYiqsjDyBl",
+    "usage": {
+      "completion_tokens": 1286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 304,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2944,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4233
+    }
+  },
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\">\n  <figure>\n    <img src=\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\" alt=\"\">\n  </figure>\n  <p class=\"poem\">L’Église des premiers temps, jadis,<br>\n    Désirait parler<br>\n    Au pécheur de Jésus-Christ,<br>\n    Du ciel et de l’enfer.</p>\n  <p class=\"poem\">Certes, ces âmes n’étaient pas parfaites,<br>\n    Mais elles aimaient leur Seigneur ;<br>\n    Et s’efforçaient d’obéir à ce commandement,<br>\n    Malgré le péril et l’épée.</p>\n  <p class=\"poem\">Plus elles convertissaient de gens,<br>\n    Plus la tension montait.<br>\n    Les méchants dirigeants du pays<br>\n    Ne savaient plus que faire.</p>\n  <p class=\"poem\">Beaucoup furent brûlés sur le bûcher,<br>\n    Certains enfermés dans de froids cachots,<br>\n    Parce qu’ils répandaient la parole de l’Évangile,<br>\n    Avec une foi et un courage sans peur.</p>\n  <p class=\"poem\">Ces braves soldats qui souffrirent tant<br>\n    Étaient vraiment de si brillantes lumières,<br>\n    Mais ils voyaient toujours la nécessité<br>\n    De parler de Dieu aux autres.</p>\n  <p class=\"poem\">Depuis, bien des années ont passé ;<br>\n    Nous, chrétiens, avons tendance à dire :<br>\n    « Soyez un exemple pour le monde ;<br>\n    Nul besoin d’indiquer le chemin. »</p>\n  <p class=\"poem\">Mais si ce point de vue était juste,<br>\n    J’aimerais alors savoir :<br>\n    Comme l’Église des premiers temps, jadis,<br>\n    Pourquoi notre Église ne grandit-elle pas ?</p>\n  <p class=\"poem\">Est-ce qu’en Amérique,<br>\n    Le feu s’est éteint ?<br>\n    Puisque la foi est une bonne chose, pourquoi ne la partageons-nous pas<br>\n    Comme le faisaient les saints d’autrefois ?</p>\n  <p class=\"poem\">Aujourd’hui même, dans d’autres pays,<br>\n    Le feu brûle vivement ;<br>\n    Car les chrétiens y sont zélés<br>\n    Et combattent avec ardeur.</p>\n  <p class=\"poem\">Tandis que nous remercions Dieu pour notre liberté,<br>\n    Ils louent leur Seigneur dans les cieux.<br>\n    Et le remercient de souffrir et de mourir<br>\n    Pour Jésus.</p>\n  <p class=\"poem\">Ainsi, tandis que les martyrs d’autres pays<br>\n    Répandent leur sang pour Dieu,<br>\n    Si nous aussi nous répandions la Parole de Dieu,<br>\n    Notre sang teindrait notre sol.</p>\n  <p class=\"poem\">Est-ce une bénédiction de notre Dieu<br>\n    Que notre pays soit libre ?<br>\n    Ou bien est-ce parce que nous ne sommes pas une « menace »<br>\n    Pour la société ?</p>\n  <p class=\"poem\">Avons-nous honte ou n’avons-nous pas le temps ?<br>\n    Chers amis, l’heure approche.<br>\n    Si nous ne conduisons pas les gens à Dieu,<br>\n    La population périra.</p>\n  <p class=\"poem\">Alors, pour conclure, amis, empruntons<br>\n    Le chemin que Jésus a parcouru,<br>\n    Montrant aux âmes perdues le chemin étroit<br>\n    Qui ramène les hommes auprès de Dieu.</p>\n  <p class=\"signature\">– Darren Brubaker</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "L’appel à l’œuvre"
+  }
+}

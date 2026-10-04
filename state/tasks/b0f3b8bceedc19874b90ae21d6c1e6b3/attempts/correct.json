@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">La iglesia primitiva, en tiempos de antaño,<br>\\n    deseaba anunciar<br>\\n    al pecador acerca de Jesucristo,<br>\\n    del cielo y del infierno.</p>\\n  <p class=\\\"poem\\\">En verdad, no eran almas perfectas,<br>\\n    pero amaban a su Señor;<br>\\n    y se esforzaban por cumplir este mandato<br>\\n    pese al peligro y la espada.</p>\\n  <p class=\\\"poem\\\">Cuantas más personas convertían,<br>\\n    más crecía la tensión.<br>\\n    Los malvados gobernantes del país<br>\\n    no sabían qué hacer.</p>\\n  <p class=\\\"poem\\\">A muchos los quemaron en la hoguera,<br>\\n    a algunos los encerraron en frías mazmorras,<br>\\n    porque difundían el mensaje del Evangelio<br>\\n    con fe y gran valentía.</p>\\n  <p class=\\\"poem\\\">Aquellos valientes soldados que tanto sufrieron<br>\\n    eran, sin duda, luces resplandecientes,<br>\\n    pero aún veían que hacía falta<br>\\n    hablarles a otros de Dios.</p>\\n  <p class=\\\"poem\\\">Desde entonces han pasado muchos años;<br>\\n    los cristianos tendemos a decir:<br>\\n    «Sé un ejemplo para el mundo;<br>\\n    no hace falta indicar el camino».</p>\\n  <p class=\\\"poem\\\">Pero si este punto de vista fuera cierto,<br>\\n    quisiera saber:<br>\\n    como la iglesia de tiempos de antaño,<br>\\n    ¿por qué no crece nuestra iglesia?</p>\\n  <p class=\\\"poem\\\">¿Será que en Estados Unidos<br>\\n    se ha apagado el fuego?<br>\\n    Si la fe es buena, ¿por qué no la compartimos<br>\\n    como los santos de antaño?</p>\\n  <p class=\\\"poem\\\">En otras tierras, hoy mismo,<br>\\n    el fuego arde con intensidad,<br>\\n    porque allí los cristianos son fervorosos<br>\\n    y luchan con vigor.</p>\\n  <p class=\\\"poem\\\">Mientras damos gracias a Dios por la libertad que tenemos,<br>\\n    ellos alaban en las alturas a su Señor.<br>\\n    Y le dan gracias porque, por causa de Jesús,<br>\\n    sufren y mueren.</p>\\n  <p class=\\\"poem\\\">Así que, mientras los mártires de otras tierras<br>\\n    derraman su sangre por Dios,<br>\\n    si nosotros también difundiéramos la Palabra de Dios,<br>\\n    nuestra sangre mancharía nuestra tierra.</p>\\n  <p class=\\\"poem\\\">¿Es una bendición de nuestro Dios<br>\\n    que nuestro país sea libre?<br>\\n    ¿O será porque no somos una «amenaza»<br>\\n    para la sociedad?</p>\\n  <p class=\\\"poem\\\">¿Nos avergonzamos o no tenemos tiempo?<br>\\n    Queridos amigos, el momento se acerca.<br>\\n    Si no llevamos a la gente a Dios,<br>\\n    la población morirá.</p>\\n  <p class=\\\"poem\\\">Así que, para concluir, amigos, sigamos<br>\\n    el camino que recorrió Jesús,<br>\\n    mostrándoles a las almas perdidas el camino estrecho<br>\\n    que lleva a las personas de vuelta a Dios.</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"El llamado a trabajar\"}",
+    "content_bytes": 3013,
+    "content_evidence_truncated": false,
+    "content_sha256": "89b1f24c82c67e109f5400ee06af562120cf32f4a49e11387ed8bd9dbd83c947",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2758,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3795
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

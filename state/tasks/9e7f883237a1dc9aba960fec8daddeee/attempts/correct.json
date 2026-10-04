@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"Слоистые синие горы под тёплым персиковым небом\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Один из плодов Духа — слово, знакомое всем.<br>\\n    Для верующих здесь, на земле, радость — благословение.<br>\\n    Человек не способен создать ту Радость,<br>\\n    Она от Бога и дана смиренным.<br>\\n    Она позволяет страдать, сохраняя мир в душе.<br>\\n    Она уходит лишь при появлении греха.<br>\\n    Радость проводит тебя через жизненные испытания.<br>\\n    Покой в твоём сердце, который всё прощает.<br>\\n    Она не оставляет нас в трудностях, с которыми мы сталкиваемся,<br>\\n    Но дарит отвагу и хранит нас в благодати.<br>\\n    Радость неведома этому миру.<br>\\n    Она приходит не от удовольствий и не от растущих чувств;<br>\\n    Она приходит от покоя, который даёт только Бог.<br>\\n    Она — для искупленных и для жизни, которой Он живёт.<br>\\n    Так почему же так многие отвергают этот великий дар,<br>\\n    Известный тем, что исцеляет и снимает бремя?<br>\\n    Если тебе не хватает Радости свыше,<br>\\n    Обратись к Спасителю и Его искупительной любви!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Барри Грант</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"РАДОСТЬ\"}",
+    "content_bytes": 2092,
+    "content_evidence_truncated": false,
+    "content_sha256": "6872f265a6e45e7e2bd15c36e1771eefba7bb0db9806b25e4cbe773dbc7eac3f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 229,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1918,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1915,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2626
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

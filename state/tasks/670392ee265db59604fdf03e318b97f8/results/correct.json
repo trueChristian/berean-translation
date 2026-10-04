@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1cb0450c-c4b6-4887-a28a-d8759287680d",
+    "response_id": "chatcmpl-EV4MlNT4N7SJzA0hWVPDv1Y1p1UrV",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 147,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2198,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2998
+    }
+  },
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"Maua ya moyo unaovuja damu yenye rangi ya waridi, yakitokeza kwenye mandhari ya kijani iliyofifishwa kwa ulaini\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Je, ni katika maumivu ya moyo tu,<br>\n    Wakati machafuko yanaponizunguka,<br>\n    Ndipo ninapotafuta kwa kweli mikono ya Mwokozi wangu<br>\n    Na kuelekeza mapenzi yangu Kwake?</p>\n\n    <p>Je, ni katika giza tu,<br>\n    Nisipoiona njia yangu;<br>\n    Au ninapoulizwa jambo nisilolijua<br>\n    Ndipo ninapofikiria kusimama na kuomba?</p>\n\n    <p>Je, ni wakati tu ninapohisi<br>\n    Nguvu za uovu zikinizunguka,<br>\n    Ndipo ninapotafuta ulinzi Wake;<br>\n    Ili nijisitiri mikononi Mwake?</p>\n\n    <p>Ee moyo wangu mpumbavu!<br>\n    Wawezaje kumwita rafiki yako wa karibu zaidi<br>\n    Ilhali ni katika majaribu yako tu<br>\n    Ndipo unapomtegemea?</p>\n\n    <p>Hata nyakati nzuri unamhitaji,<br>\n    Labda hata zaidi;<br>\n    Kwa maana ni rahisi zaidi kusahau kumtafuta<br>\n    Unapodhani unaiona njia.</p>\n\n    <p>Hata unaposhindwa kumsikia,<br>\n    Unaposhindwa kukaa kando Yake,<br>\n    Atakusikia unapomlilia<br>\n    Na kumkabidhi shida zako.</p>\n\n    <p>Lakini ingekuwa bora zaidi<br>\n    Kumtafuta kwa bidii<br>\n    Nyakati za maisha zilizo tulivu<br>\n    Kama vile zile zilizo ngumu!</p>\n\n    <p>Kumtafuta na kumchunguza, kukaa kando Yake,<br>\n    Kushiriki furaha na huzuni,<br>\n    Yasiyojulikana yakiwa mikononi Mwake, Atakuwa kando yako<br>\n    Kwa lolote litakalotokea kesho.</p>\n\n    <p class=\"byline\"><em>–na Katie Good</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Katika Giza Tu"
+  }
+}

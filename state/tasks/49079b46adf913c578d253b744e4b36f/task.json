@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1a8556819a4ce3a342d8a4bab6d14f",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -45,9 +44,30 @@
         },
         "total_tokens": 8582
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4321,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 267,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7908,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7905,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12229
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[49]: source /article[1]/p[9]/em[3] ('start', 'em', ()); translation /article[1]/p[9]/strong[1] ('start', 'strong', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML, paragraph beginning “Ας περάσουμε τώρα στο άρθρο της είδησης”",
@@ -71,6 +91,7 @@
       "translation_quote": "η αίσθηση ότι τα</em> [τα παιδιά] <em>έχουν τον έλεγχο της ζωής τους και μπορούν να διαχειρίζονται μόνα τους τις ανατροπές</em> [είναι] <em>καθοριστικό στοιχείο της συναισθηματικής ευημερίας."
     }
   ],
+  "finished_at": "2026-10-04T06:05:57+00:00",
   "id": "49079b46adf913c578d253b744e4b36f",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ell",
@@ -165,7 +186,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

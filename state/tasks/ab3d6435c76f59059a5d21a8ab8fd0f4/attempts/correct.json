@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">昔日早期教会<br>\\n    渴望向罪人述说<br>\\n    耶稣基督的事，<br>\\n    述说天堂与地狱。</p>\\n  <p class=\\\"poem\\\">他们固然并非完美的人，<br>\\n    却仍然爱他们的主；<br>\\n    并竭力遵行这条诫命，<br>\\n    不惧危险与刀剑。</p>\\n  <p class=\\\"poem\\\">他们使越多人归信，<br>\\n    紧张局势就越发加剧。<br>\\n    这片土地上的邪恶统治者<br>\\n    不知该如何是好。</p>\\n  <p class=\\\"poem\\\">许多人被绑在火刑柱上烧死，<br>\\n    有些人被关进冰冷的地牢，<br>\\n    只因他们传扬福音，<br>\\n    心怀坚定的信心与勇气。</p>\\n  <p class=\\\"poem\\\">这些勇敢的战士受尽苦难，<br>\\n    的确是明亮的光，<br>\\n    但他们仍看见有必要<br>\\n    把上帝的事告诉别人。</p>\\n  <p class=\\\"poem\\\">如今，自那时以来已过去许多年；<br>\\n    我们基督徒往往会说：<br>\\n    “要作世人的榜样；<br>\\n    不必告诉他们该走哪条路。”</p>\\n  <p class=\\\"poem\\\">但若这种看法是真的，<br>\\n    我倒想知道：<br>\\n    既然昔日的教会如此，<br>\\n    为什么我们的教会没有增长？</p>\\n  <p class=\\\"poem\\\">难道在美国，<br>\\n    这团火已经冷却？<br>\\n    信仰既是美好的，为何我们不分享，<br>\\n    像古时的圣徒那样？</p>\\n  <p class=\\\"poem\\\">就在今天，在别的土地上，<br>\\n    这团火正熊熊燃烧；<br>\\n    因为那里的基督徒热心，<br>\\n    奋勇争战。</p>\\n  <p class=\\\"poem\\\">我们感谢上帝赐给我们自由，<br>\\n    他们则赞美至高的主。<br>\\n    并感谢祂，因为为了耶稣，<br>\\n    他们受苦，甚至舍命。</p>\\n  <p class=\\\"poem\\\">既然别国的殉道者<br>\\n    正为上帝流血，<br>\\n    若我们也要传扬上帝的话语，<br>\\n    我们的鲜血也将染红自己的土地。</p>\\n  <p class=\\\"poem\\\">我们国家享有自由，<br>\\n    是上帝赐下的福分吗？<br>\\n    还是因为我们对社会<br>\\n    并不构成“威胁”？</p>\\n  <p class=\\\"poem\\\">我们是羞于启齿，还是没有时间？<br>\\n    亲爱的朋友，时日已近。<br>\\n    若我们不把人们带到上帝面前，<br>\\n    众人就要灭亡。</p>\\n  <p class=\\\"poem\\\">所以，朋友们，最后让我们选择<br>\\n    耶稣走过的道路，<br>\\n    指给失丧的灵魂那条窄路，<br>\\n    引人归回上帝身边。</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"蒙召劳作\"}",
+    "content_bytes": 2787,
+    "content_evidence_truncated": false,
+    "content_sha256": "093b131370243dc9c61a598cc0efc6d1bacd0c69fcb22ee87ef113c6825cfa27",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1171,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 153,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2869,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4043
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

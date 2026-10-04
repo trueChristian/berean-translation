@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7f10a44-6f8d-429a-9a97-9591d6747e88",
+    "response_id": "chatcmpl-EV4ZUffJs7tSV20myG5EE4M8zMzT8",
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 179,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2120,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2881
+    }
+  },
+  "received_at": "2026-10-04T06:05:57+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"گرم آڑوئی رنگ کے آسمان تلے نیلے پہاڑوں کی تہہ در تہہ قطاریں\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>روح کے پھلوں میں ایک ایسا لفظ ہے جسے ہم سب جانتے ہیں۔<br>\n    خوشی ہم ایمان والوں کے لیے یہاں ایک برکت ہے۔<br>\n    انسان وہ خوشی پیدا نہیں کر سکتا جس کی میں بات کرتا ہوں،<br>\n    یہ خدا کی طرف سے آتی ہے، حلیموں کو عطا کی جاتی ہے۔<br>\n    یہ تمہیں اندرونی سکون کے ساتھ دکھ سہنے کی طاقت دیتی ہے۔<br>\n    یہ صرف گناہ کے آنے پر ہی رخصت ہوتی ہے۔<br>\n    خوشی زندگی کی آزمائشوں سے تمہیں گزارتی ہے۔<br>\n    تمہارے دل میں ایسا سکون جو معاف کرتا رہتا ہے۔<br>\n    یہ ہمیں ترک نہیں کرتی؛ ہماری جدوجہدوں میں بھی ہمارے ساتھ رہتی ہے۔<br>\n    بلکہ ہمت دیتی ہے اور ہمیں فضل میں قائم رکھتی ہے۔<br>\n    خوشی ایسی چیز ہے جس سے یہ دنیا ناواقف ہے۔<br>\n    یہ نہ لذت سے آتی ہے، نہ بڑھتے ہوئے جذبات سے؛<br>\n    بلکہ اس سکون سے آتی ہے جو صرف خدا عطا کرتا ہے۔<br>\n    یہ نجات پانے والوں کے لیے ہے، اور اُس زندگی کے لیے جو وہ جیتا ہے۔<br>\n    تو پھر اتنے لوگ اس عظیم تحفے کو کیوں رد کرتے ہیں؟<br>\n    جو شفا دینے اور بوجھ ہلکا کرنے کے لیے معروف ہے۔<br>\n    اگر تم خود کو اوپر سے ملنے والی خوشی سے محروم پاؤ،<br>\n    تو نجات دہندہ اور اُس کی فدیہ دینے والی محبت کی طرف رجوع کرو!</p>\n\n    <p class=\"byline\"><em>– بیری گرانٹ</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "خوشی"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "728a5d1a-bde8-4e55-9fa9-1b07f26bacf5",
+    "response_id": "chatcmpl-EV4N1xZ7J2X7PlnOa17Q46JIh9HdU",
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2217,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2214,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2916
+    }
+  },
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"Fiori rosa a cuore sanguinante su uno sfondo verde sfocato e delicato\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>È solo quando il cuore è spezzato,<br>\n    quando intorno a me regna la confusione,<br>\n    che cerco davvero le braccia del mio Salvatore<br>\n    e rivolgo a Lui la mia volontà?</p>\n\n    <p>È solo nell’oscurità,<br>\n    quando non riesco a vedere la strada;<br>\n    o quando mi chiedono qualcosa che non so,<br>\n    che penso di fermarmi a pregare?</p>\n\n    <p>È solo quando sento<br>\n    le forze del male radunarsi intorno a me,<br>\n    che cerco la Sua protezione,<br>\n    per trovare riparo tra le Sue braccia?</p>\n\n    <p>Oh, cuore mio stolto!<br>\n    Come puoi chiamarlo il tuo migliore amico,<br>\n    se è solo nelle prove<br>\n    che fai affidamento su di Lui?</p>\n\n    <p>Anche nei tempi buoni hai bisogno di Lui,<br>\n    forse ancora più disperatamente;<br>\n    perché è più facile dimenticarsi di cercarlo<br>\n    quando la strada ti sembra chiara.</p>\n\n    <p>Anche quando non riesci a sentirlo,<br>\n    quando non riesci a restargli accanto,<br>\n    Egli ti ascolterà quando griderai a Lui<br>\n    e affiderai a Lui i tuoi affanni.</p>\n\n    <p>Ma quanto sarebbe meglio<br>\n    cercare con ardore il Suo volto,<br>\n    tanto nei momenti più sereni della vita<br>\n    quanto in quelli più difficili!</p>\n\n    <p>Cercarlo e ricercarlo, restargli accanto,<br>\n    condividere la gioia e il dolore;<br>\n    le incognite nelle Sue mani, Egli sarà al tuo fianco<br>\n    qualunque cosa possa portare il domani.</p>\n\n    <p class=\"byline\"><em>– di Katie Good</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Solo nell’oscurità"
+  }
+}

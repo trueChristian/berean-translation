@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Love is a profoundly tender affection”",
+      "severity": "major",
+      "source_quote": "“which sweetens all of life”",
+      "suggested_fix": "استبدلي «فتعذّب حلاوتها كل جوانب الحياة» بـ«فتُضفي حلاوة على الحياة كلها».",
+      "translation_quote": "«فتعذّب حلاوتها كل جوانب الحياة»"
+    },
+    {
+      "location": "Paragraph quoting 2 Timothy 1:7",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear”",
+      "suggested_fix": "استبدلي «رُوحَ الْفَشَلِ» بـ«رُوحَ الْخَوْفِ» في الاقتباس، ليكون المعنى: «لأَنَّ اللهَ لَمْ يُعْطِنَا رُوحَ الْخَوْفِ، بَلْ رُوحَ الْقُوَّةِ وَالْمَحَبَّةِ وَالنُّصْحِ».",
+      "translation_quote": "«لأَنَّ اللهَ لَمْ يُعْطِنَا رُوحَ الْفَشَلِ»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Article UUID mismatch",
+  "stage": "terminal"
+}

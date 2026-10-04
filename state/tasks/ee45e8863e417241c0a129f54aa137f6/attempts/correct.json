@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Den tidlige kirken i gamle dager<br>\\n    ønsket å fortelle<br>\\n    synderen om Jesus Kristus,<br>\\n    om himmel og helvete.</p>\\n  <p class=\\\"poem\\\">De var riktignok ikke fullkomne sjeler,<br>\\n    men de elsket sin Herre;<br>\\n    og strevde etter å følge dette budet<br>\\n    til tross for fare og sverd.</p>\\n  <p class=\\\"poem\\\">Jo flere mennesker de omvendte,<br>\\n    desto større ble spenningen.<br>\\n    Landets onde herskere<br>\\n    visste ikke hva de skulle gjøre.</p>\\n  <p class=\\\"poem\\\">Mange ble brent på bålet,<br>\\n    noen satt i kalde fangehull,<br>\\n    fordi de spredte evangeliets budskap<br>\\n    med tro og stort mot.</p>\\n  <p class=\\\"poem\\\">Disse modige soldatene som led så mye,<br>\\n    var virkelig sterke lys,<br>\\n    men de så fortsatt et behov<br>\\n    for å fortelle andre om Gud.</p>\\n  <p class=\\\"poem\\\">Nå har mange år gått siden den gang;<br>\\n    vi kristne pleier å si:<br>\\n    «Vær et eksempel for verden;<br>\\n    du trenger ikke å vise vei.»</p>\\n  <p class=\\\"poem\\\">Men hvis dette synet var sant,<br>\\n    vil jeg gjerne vite:<br>\\n    Slik kirken gjorde i gamle dager,<br>\\n    hvorfor vokser ikke kirken vår?</p>\\n  <p class=\\\"poem\\\">Har ilden sluknet i Amerika?<br>\\n    Siden troen er god, hvorfor deler vi den ikke<br>\\n    slik de hellige gjorde før?</p>\\n  <p class=\\\"poem\\\">I andre land akkurat nå<br>\\n    brenner ilden klart;<br>\\n    for der er de kristne ivrige<br>\\n    og kjemper med kraft.</p>\\n  <p class=\\\"poem\\\">Mens vi takker Gud for friheten her,<br>\\n    lovpriser de sin Herre i det høye.<br>\\n    Og takker ham for at de for Jesu skyld<br>\\n    lider og dør.</p>\\n  <p class=\\\"poem\\\">Så mens martyrer i andre land<br>\\n    utøser blod for Gud,<br>\\n    hvis også vi ville spre Guds ord,<br>\\n    ville blodet vårt farge vår jord.</p>\\n  <p class=\\\"poem\\\">Er det en velsignelse fra vår Gud<br>\\n    at landet vårt er fritt?<br>\\n    Eller er det fordi vi ikke er en «trussel»<br>\\n    mot samfunnet?</p>\\n  <p class=\\\"poem\\\">Skammer vi oss, eller har vi ikke tid?<br>\\n    Kjære venner, tiden er nær.<br>\\n    Hvis vi ikke fører folk til Gud,<br>\\n    vil folket gå fortapt.</p>\\n  <p class=\\\"poem\\\">Så, for å avslutte, venner, la oss velge<br>\\n    den veien Jesus gikk,<br>\\n    og vise fortapte sjeler den smale vei<br>\\n    som fører mennesker hjem til Gud.</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kallet til innsats\"}",
+    "content_bytes": 2710,
+    "content_evidence_truncated": false,
+    "content_sha256": "9ff6a5b8e6feb69af854ea9f5ee13422c21a824dd2d56b62944ccd9db070a2e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3179,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4087
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

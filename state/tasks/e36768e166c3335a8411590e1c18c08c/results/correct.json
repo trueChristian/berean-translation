@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b8628a38-fe4b-4c25-a284-9af7cc72a66e",
+    "response_id": "chatcmpl-EV4MpkUyItYlG4Pmf1kfYms4uNuuo",
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 244,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2614,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3560
+    }
+  },
+  "received_at": "2026-10-04T06:05:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"부드럽게 흐릿한 초록색 배경 앞에 핀 분홍색 금낭화\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>마음이 무너질 때에만,<br>\n    혼란이 내 주위를 휘저을 때에만,<br>\n    참으로 구주의 품을 찾고<br>\n    그분께로 내 뜻을 돌리는가?</p>\n\n    <p>어둠 속에서만,<br>\n    갈 길이 보이지 않을 때에만,<br>\n    혹은 모르는 일에 대해 질문을 받을 때에만<br>\n    멈춰 기도해야겠다고 생각하는가?</p>\n\n    <p>내 주위에 모여드는<br>\n    악의 힘을 느낄 때에만,<br>\n    그분의 보호를 구하고<br>\n    그분의 품에 숨으려 하는가?</p>\n\n    <p>아, 어리석은 내 마음이여!<br>\n    시련을 겪을 때에만<br>\n    그분께 의지하면서<br>\n    어떻게 그분을 가장 친한 친구라 부를 수 있는가?</p>\n\n    <p>좋은 때에도 그분은 필요하다네,<br>\n    어쩌면 더욱 절실히;<br>\n    눈앞에 길이 보인다고 생각할 때에는<br>\n    그분을 찾는 일을 잊기 더 쉬우니.</p>\n\n    <p>그분의 음성을 듣지 못하고,<br>\n    그분 곁에 머무르지 못할 때에도,<br>\n    그분께 부르짖고 그분께 근심을 맡기면<br>\n    그분은 네 말을 들으시리라.</p>\n\n    <p>그러나 얼마나 더 좋으랴,<br>\n    삶의 순탄한 때에도<br>\n    험난한 때만큼이나<br>\n    간절히 그분의 얼굴을 구한다면!</p>\n\n    <p>찾고 또 구하며, 그분 곁에 머물고,<br>\n    기쁨과 슬픔을 함께 나누며,<br>\n    알 수 없는 일들을 그분 손에 맡기면, 내일 무슨 일이 닥치든<br>\n    그분은 네 곁에 계시리라.</p>\n\n    <p class=\"byline\"><em>– 케이티 굿 지음</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "어둠 속에서만"
+  }
+}
