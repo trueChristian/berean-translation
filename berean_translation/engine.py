@@ -24,6 +24,11 @@ from .attempts import archive, decision
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
 
 
+def may_continue(check):
+    """A soft runtime boundary, never permission to interrupt a checkpoint."""
+    return check is None or check()
+
+
 class Engine:
     def __init__(self, config, source_client, provider, gitstore):
         self.config, self.source_client, self.provider, self.gitstore = config,source_client,provider,gitstore
@@ -242,9 +247,11 @@ class Engine:
         self.state.save_campaign(campaign)
         return campaign
 
-    def accept_queue(self):
+    def accept_queue(self, *, continue_work=None):
         count = 0
         for path in sorted((self.config.root/'state/queue').glob('*.json')):
+            if not may_continue(continue_work):
+                break
             request = read_json(path)
             if (self.state.read(f'state/campaigns/{path.stem}.json') is not None or
                     self.state.read(f'state/queue-errors/{path.stem}.json') is not None):
@@ -419,8 +426,8 @@ class Engine:
         self.state.save_batch(batch)
         return False
 
-    def submit(self, batch):
-        if not self.provider:
+    def submit(self, batch, *, continue_work=None):
+        if not self.provider or not may_continue(continue_work):
             return
         if batch['status'] in ('submitting','submission_unknown'):
             self.recover(batch)
@@ -444,6 +451,8 @@ class Engine:
         payload = self.state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
         if digest(payload) != batch['payload_sha256']:
             raise ContractError('Persisted batch payload was changed; refusing submission')
+        if not may_continue(continue_work):
+            return
         if not batch.get('input_file_id'):
             try:
                 batch['input_file_id'] = self.provider.upload(payload,batch['id']+'.jsonl')
@@ -460,6 +469,10 @@ class Engine:
                 return
             self.state.save_batch(batch)
             self.checkpoint('runtime: persist OpenAI input file before creating a batch')
+        if not may_continue(continue_work):
+            return  # Prepared + uploaded is safe to resume without another upload.
+        # Do not yield between intent and its result checkpoint. A durable intent
+        # without a create response must take the conservative reconciliation path.
         batch['status'],batch['submission_started_at'] = 'submitting',now()
         self.state.save_batch(batch)
         self.checkpoint('runtime: record batch submission intent before the billable request')
@@ -473,13 +486,28 @@ class Engine:
         self.state.save_batch(batch)
         self.checkpoint('runtime: persist OpenAI batch identity or uncertain-submission state')
 
-    def collect(self):
+    def collect(self, *, continue_work=None):
         if not self.provider:
             return
         downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
-        for batch in self.state.batches():
+        batches = self.state.batches()
+        if continue_work is not None:
+            # A bounded pass must not repeatedly spend its whole window on the
+            # same slow prefix. A worker visit is separate from provider polling
+            # and also covers paused prepared work and upload failures.
+            batches.sort(key=lambda batch: (max(batch.get(key) or '' for key in
+                ('created_at', 'last_collector_visit_at', 'last_polled_at',
+                 'last_reconciled_at', 'remote_observed_at')), batch['id']))
+        for batch in batches:
+            if not may_continue(continue_work):
+                break
+            if batch['status'] not in ('prepared','submitting','submission_unknown','submitted','cancelling'):
+                continue
+            if continue_work is not None:
+                batch['last_collector_visit_at'] = now()
+                self.state.save_batch(batch)
             if batch['status'] in ('prepared','submitting','submission_unknown'):
-                self.submit(batch)
+                self.submit(batch, continue_work=continue_work)
                 continue
             if batch['status'] not in ('submitted','cancelling'):
                 continue
@@ -567,7 +595,7 @@ class Engine:
             self.state.save_batch(batch)
             self.checkpoint('runtime: collect batch results and bounded quality decisions')
 
-    def prepare(self):
+    def prepare(self, *, continue_work=None):
         if not self.provider:
             return
         downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
@@ -578,7 +606,8 @@ class Engine:
                 groups[(task['campaign'],task['stage'],chosen)].append(task)
         prepared_count = 0
         for (campaign_id,stage,model), tasks in sorted(groups.items()):
-            while tasks and prepared_count < self.config.runtime['max_batches_per_tick']:
+            while (tasks and prepared_count < self.config.runtime['max_batches_per_tick']
+                   and may_continue(continue_work)):
                 campaign = self.state.read(f'state/campaigns/{campaign_id}.json')
                 if campaign.get('downstream_recovery'):
                     if not campaign.get('downstream_acceptance_complete'):
@@ -642,7 +671,7 @@ class Engine:
                 campaign['reserved_usd'] = round(campaign['reserved_usd']+sum(costs),6)
                 self.state.save_campaign(campaign)
                 self.checkpoint('runtime: reserve task identities and budget before OpenAI submission')
-                self.submit(batch)
+                self.submit(batch, continue_work=continue_work)
                 prepared_count += 1
 
     def cancel_campaign(self, identity):
@@ -682,15 +711,20 @@ class Engine:
         self.state.derive(self.config)
         self.checkpoint('runtime: record campaign cancellation results')
 
-    def tick(self, *, discover_source=True):
+    def tick(self, *, discover_source=True, continue_work=None):
         self.state.sync_human_reviews(self.gitstore)
-        if discover_source:
+        if discover_source and may_continue(continue_work):
             self.discover()
-            enqueue_source_refreshes(self)
-            downstream.enqueue_hour(self)
-        self.accept_queue()
-        self.collect()
-        self.prepare()
+            if may_continue(continue_work):
+                enqueue_source_refreshes(self)
+            if may_continue(continue_work):
+                downstream.enqueue_hour(self)
+        if may_continue(continue_work):
+            self.accept_queue(continue_work=continue_work)
+        if may_continue(continue_work):
+            self.collect(continue_work=continue_work)
+        if may_continue(continue_work):
+            self.prepare(continue_work=continue_work)
         for campaign in self.state.campaigns():
             if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
                 continue
@@ -701,7 +735,7 @@ class Engine:
             campaign['status'] = 'finished' if all(t['status'] in TERMINAL for t in tasks) else 'active'
             campaign['task_counts'] = dict(sorted({s:sum(t['status']==s for t in tasks) for s in {t['status'] for t in tasks}}.items()))
             self.state.save_campaign(campaign)
-        source = self.state.read('state/source.json')
+        source = self.state.read('state/source.json', {'revision':None,'articles':{},'issues':[]})
         heartbeat = self.state.read('state/heartbeat.json',{})
         snapshot = {'utc_date':now()[:10],
             'source_revision':source['revision'],'articles_discovered':len(source['articles']),

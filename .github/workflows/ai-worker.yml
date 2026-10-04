@@ -84,8 +84,9 @@ jobs:
           set -euo pipefail
           case "$OPERATION" in
             collect)
-              # Leave half the job budget for setup, slow API I/O, durable
-              # checkpoints and final validation.
+              # Stop starting work at safe boundaries after ten minutes. Leave
+              # the remaining job time for an in-flight operation, its durable
+              # checkpoints and final validation; this is not a hard interrupt.
               .venv/bin/python -m berean_translation tick --publish --wait-seconds 600 --poll-seconds 60
               ;;
             cancel)
