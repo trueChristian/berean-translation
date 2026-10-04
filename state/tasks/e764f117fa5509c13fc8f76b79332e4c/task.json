@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe4d96952332474085c84d476b4854ff",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 3756
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2000,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 412,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4074,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4071,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6074
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[97]: source /article[1]/div[1]/p[20] ('start', 'p', ()); translation /article[1]/div[1] ('end', 'div')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/div[1]/p[20]; translation /article[1]/div[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "…,<br>\n    যা প্রভু আমার পথে পাঠান।</p>\n\n    <p>আমি প্রার্থনা করি, আমার হৃদয় যেন সমর্পিত থাকে,<br>\n    প্রভুর হাতের স্পর্শের কাছে।<br>\n    তাঁর ইচ্ছাকে আমাকে বদলে দেওয়ার সুযোগ দিক,<br>\n    তাঁর পরিকল্পিত সবকিছুর মধ্য দিয়ে।</p>\n\n    <p>কারণ আমি বুঝেছি, সত্যিকারের সুখ<br>\n    মসৃণ, নিখুঁত জীবনে নেই।<br>\n    বরং খুঁজে পাওয়া যায়, যখন আমরা খ্রিষ্টে প্রোথিত থাকি,<br>\n    আগুন কিংবা বিবাদেও বিচলিত না হয়ে।</p>\n\n    <p>যদি তিনি অন্তরের গভীরতম সত্তাকে শাসন করেন,<br>\n    তবে বাইরের কিছুই তাকে বিচলিত করতে পারবে না।<br>\n    কারণ তিনিই দৃঢ় ভিত্তি,<br>\n    আর মহান সত্যিকারের জীবনের উৎস।</p>\n\n  </div>"
     }
   ],
+  "finished_at": "2026-10-04T00:11:06+00:00",
   "id": "e764f117fa5509c13fc8f76b79332e4c",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

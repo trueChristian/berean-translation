@@ -2,7 +2,6 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe4d96952332474085c84d476b4854ff",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 5118
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2445,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5682,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5679,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8127
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: Revelation 3:16; extra: John 3:16",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[3]/em[1]/strong[1]; translation /article[1]/p[3]/em[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "<p>פאולוס אומר, <em>אַל יָבֻז אִישׁ אֶת נְעוּרֶיךָ; אֶלָּא הֱיֵה לְמוֹפֵת לַמַּאֲמִינִים, בְּדִבּוּר, בְּהִתְנַהֲגוּת, בְּאַהֲבָה, בָּרוּחַ, בֶּאֱמוּנָה, בַּטָּהֳרָה – טימותיאוס א׳ 4:12.</em> הבה נתבונן בפסוק הזה מקרוב. הוא מתחיל במילים, <em>אַל יָבֻז אִישׁ אֶת נְעוּרֶיךָ.</em> כיצד עלינו לראות את שנות נעורינו — את שנות ההתבגרות? יש הרואים בהן זמן ליהנות מהחיים עד תום, לחגוג ולעשות כל מה שמתחשק להם. הדרך הזאת מובילה לחטא רב, להוללות, לפריצות ועוד. אני חושב שעלינו לראות בשנות נעורינו הזדמנות עצומה לעשות ככל יכולתנו ולהיות כל מה שאפשר להיות למען ישוע!</p>"
     }
   ],
+  "finished_at": "2026-10-04T00:11:06+00:00",
   "id": "26ae9c8ff8ea56381236c69d84f85641",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
   "translation_model_actual": "gpt-6-luna"

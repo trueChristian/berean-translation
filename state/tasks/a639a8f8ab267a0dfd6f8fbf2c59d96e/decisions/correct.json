@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 2 Corinthians 4:8; extra: 4:8",
+  "stage": "correct"
+}

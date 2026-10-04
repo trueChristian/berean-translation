@@ -6,6 +6,12 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "a639a8f8ab267a0dfd6f8fbf2c59d96e"
+    },
+    {
+      "at": "2026-10-04T00:11:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 2 Corinthians 4:8; extra: 4:8",
+      "task": "a639a8f8ab267a0dfd6f8fbf2c59d96e"
     }
   ],
   "language": "heb",

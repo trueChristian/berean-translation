@@ -6,6 +6,12 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "26ae9c8ff8ea56381236c69d84f85641"
+    },
+    {
+      "at": "2026-10-04T00:11:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: Revelation 3:16; extra: John 3:16",
+      "task": "26ae9c8ff8ea56381236c69d84f85641"
     }
   ],
   "language": "heb",

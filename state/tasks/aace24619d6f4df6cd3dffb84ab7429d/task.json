@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe4d96952332474085c84d476b4854ff",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8496
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4283,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 198,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8952,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8949,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13235
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: Titus 1:13; extra: 1:13",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"60ca59c3-d608-43fb-aee5-f08aa84e0126\">\n  <p><em>כדי שמעתה לא נהיה עוד ילדים נידפים ומטולטלים בכל רוח של תורה, בתרמיתם של בני אדם ובתחבולותיהם הערמומיות, שבאמצעותן הם אורבים להטעות; <strong>אלא נדבר את האמת באהבה</strong>, ונגדל בכל דבר אל תוך המשיח, שהוא הראש, כלומר המשיח: –אפסים 4:14-15.</em></p>\n\n  <p>בימינו מרבים לדון בפסוקים האלה, ובייחוד בחלק השני. לפעמים אני תוהה אם לא הצגנו שלא כראוי את דבריו של אחינו היקר פאולוס.</p>\n\n  <p>כולנו יודעים שישוע מעולם לא נאלץ לחזור בו מאמירה, מעולם לא התבטא שלא כהלכה ולא אמר דבר שלא במקומו. איך אנחנו יודעים? באיגרת אל העברים 4:15 "
     }
   ],
+  "finished_at": "2026-10-04T00:11:06+00:00",
   "id": "aace24619d6f4df6cd3dffb84ab7429d",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

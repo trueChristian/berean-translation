@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/ul[1]/li[1]; missing: Psalm 9:1a; extra: Psalm 9:1",
+  "stage": "correct"
+}

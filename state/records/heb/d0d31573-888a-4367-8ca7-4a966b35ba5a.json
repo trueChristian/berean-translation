@@ -6,6 +6,12 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "03e1b65a56c060d4955486b11d7a90cb"
+    },
+    {
+      "at": "2026-10-04T00:11:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[9]; missing: 1 John 3:8; extra: 3:8",
+      "task": "03e1b65a56c060d4955486b11d7a90cb"
     }
   ],
   "language": "heb",

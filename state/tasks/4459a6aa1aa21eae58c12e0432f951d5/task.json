@@ -2,7 +2,6 @@
   "article_id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe4d96952332474085c84d476b4854ff",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 4625
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 1971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5392,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7366
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[11]: source /article[1]/p[4]/em[1] ('end', 'em'); translation /article[1]/p[4]/em[1]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[4]/em[1]; translation /article[1]/p[4]/em[1]",
@@ -51,6 +71,7 @@
       "translation_quote": "<p>الروح الهادئة المطمئنة صفة مدهشة. ولا يمكن للإنسان أن يبلغها بجهده البشري. حين ترين هذه الروح في شخص ما، يمكنك أن تعرفي أنها تنبع من قلب منسحق. وبحسب إشعياء، إنها خيار: <em>…بالرجوع والسكون تخلصون؛ بالهدوء والطمأنينة تكون قوتكم، لكنكم لم تشاؤوا –إشعياء 30:15.</em></p>"
     }
   ],
+  "finished_at": "2026-10-04T00:11:06+00:00",
   "id": "4459a6aa1aa21eae58c12e0432f951d5",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ara",
@@ -143,7 +164,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/db672b88db7ac1a73fa51050b3b0d2743d20a0fd2adcbe9db5fd9da071a74cc2.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
   "translation_model_actual": "gpt-6-luna"

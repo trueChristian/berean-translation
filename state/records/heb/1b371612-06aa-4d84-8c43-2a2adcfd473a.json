@@ -6,6 +6,12 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "11014846c7f8103187b3fca991777ebc"
+    },
+    {
+      "at": "2026-10-04T00:11:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/ul[1]/li[1]; missing: Psalm 9:1a; extra: Psalm 9:1",
+      "task": "11014846c7f8103187b3fca991777ebc"
     }
   ],
   "language": "heb",

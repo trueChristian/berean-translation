@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe4d96952332474085c84d476b4854ff",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 6713
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3324,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 160,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7159,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7156,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10483
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/ul[1]/li[1]; missing: Psalm 9:1a; extra: Psalm 9:1",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"1b371612-06aa-4d84-8c43-2a2adcfd473a\">\n  <p>לוחם קשוח מתקופת התנ״ך ועקרת בית מהמאה ה־21 — מה יכול להיות משותף להם? כשאנו קוראים בספר תהילים, אנו פוגשים אדם שהיה נחוש למצוא את לבו של אלוהים ולצעוד בציות. אמנם אין קווי דמיון רבים בין חיי לבין חייו של האיש הזה, אך דבריו עדיין נוגעים בצורך שלי ומייצבים את לבי המתנדנד.</p>\n\n  <p>דוד שם את לבו באלוהים גם כאשר חייו היו רצופים קשיים ומצוקה. לעיתים קרובות הוא לא הצליח לזכות בחיים הבטוחים שכמה להם. כשאני קוראת את כתביו, אני יוצאת למסע אישי של אמונה וציות. לעיתים קרובות, כשאני מתמודדת עם צורך בחיי, המילים הראשונות שיוצאות מפי הן"
     }
   ],
+  "finished_at": "2026-10-04T00:11:06+00:00",
   "id": "11014846c7f8103187b3fca991777ebc",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"
