@@ -10,14 +10,15 @@
     "active": 311,
     "continuation_cycle_budget_blocked": 7,
     "continuation_review_only_requires_attention": 13,
-    "eligible_available": 1221,
+    "eligible_available": 1220,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
+    "lineage_predecessor_changed_requires_attention": 1,
     "provider_refusal_requires_owner_attention": 1,
     "public_or_human_replacement": 108
   },
   "derived": true,
   "format_version": "1",
-  "hourly_allocated_usd": 5.0,
+  "hourly_allocated_usd": 6.0,
   "hourly_envelope_usd": 1.0,
   "hourly_funding_state": "available",
   "hourly_total_cap_usd": 10.0,
@@ -5463,15 +5464,14 @@
       "source_fingerprint": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
       "has_publication": false,
       "language": "ell",
       "latest_task": "65493fd3d16b50f2ef286b1c30477224",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.600359,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab"
     },
     {
