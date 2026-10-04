@@ -67,6 +67,8 @@ def validate_repository(config, check_index=True):
     for campaign in state.campaigns():
         from .review_contract import frozen_version
         frozen_version(campaign)
+        from .scripture_evidence import frozen_policy
+        frozen_policy(campaign)
         if not 0 <= campaign['reserved_usd'] <= campaign['budget_usd']+1e-8:
             raise ContractError('Campaign budget invariant violated')
         if any(identity not in tasks for identity in campaign['tasks']):
@@ -74,6 +76,8 @@ def validate_repository(config, check_index=True):
     validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
     from .downstream import validate_history
     validate_history(config, state, tasks)
+    from .autonomous import validate_history as validate_automatic_history
+    validate_automatic_history(config, state)
     batches = {batch['id']:batch for batch in state.batches()}
     for batch in batches.values():
         payload = state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()

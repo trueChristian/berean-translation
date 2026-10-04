@@ -103,24 +103,46 @@ def build_request(config, state, task):
         payload['translation'] = state.candidate(task)
     if task['stage'] == 'correct':
         payload['correction_findings'] = task.get('findings',[])
-        if task.get('downstream_recovery'):
+        if task.get('downstream_recovery') or task.get('autonomous_recovery'):
             payload['rejection_reason'] = task.get('rejection_reason')
+    from .scripture_evidence import frozen_policy
+    scripture_policy = frozen_policy(campaign)
+    schema = review_schema(contract_version) if review else TRANSLATION_SCHEMA
+    if scripture_policy:
+        from .scripture_evidence import load_evidence, SELECTION_SCHEMA, validate_scripture_candidate
+        payload['scripture_evidence'] = load_evidence(state, task, require_fresh=not getattr(state, 'planning', False))
+        if payload['scripture_evidence']['language_tag'] != lang['tag']:
+            raise ContractError('Scripture evidence language does not match the task')
+        if review:
+            if getattr(state, 'planning', False):
+                # Read-only planner substitutes the enforced full audit-byte
+                # ceiling; it never manufactures accepted Scripture claims.
+                payload['scripture_selection_audit'] = None
+            else:
+                validate_scripture_candidate(state, task, payload['translation'])
+                payload['scripture_selection_audit'] = state.read(f'state/tasks/{task["id"]}/scripture-selections.json')
+        else:
+            schema = {**TRANSLATION_SCHEMA,
+                      'properties':{**TRANSLATION_SCHEMA['properties'],'scripture_selections':SELECTION_SCHEMA},
+                      'required':[*TRANSLATION_SCHEMA['required'],'scripture_selections']}
     output_limit = campaign['review_output_tokens'] if review else campaign['max_output_tokens']
     output_limit = min(output_limit,model['max_output_tokens'])
     prompt_name = 'review' if review else 'translation'
-    if (task['stage'] == 'correct' and task.get('downstream_recovery')
+    if (task['stage'] == 'correct' and (task.get('downstream_recovery') or task.get('autonomous_recovery'))
             and 'repair' in campaign['prompts']):
         # Old campaigns keep their frozen request bytes and reservation bounds.
         # New downstream repairs audit the whole candidate; ordinary corrections
         # and candidate-less fresh translations keep their existing prompts.
         prompt_name = 'repair'
+    system_prompt = campaign['prompts'][prompt_name]
+    if scripture_policy:
+        system_prompt += '\n\n' + scripture_policy['prompt_addendum']
     body = {'model':model['api_model'],
-            'messages':[{'role':'system','content':campaign['prompts'][prompt_name]},
+            'messages':[{'role':'system','content':system_prompt},
                         {'role':'user','content':canonical(payload).decode('utf-8')}],
             'max_completion_tokens':output_limit,
             'response_format':{'type':'json_schema','json_schema':{'name':'article_review' if review else 'article_translation',
-                                    'strict':True,'schema':review_schema(contract_version)
-                                    if review else TRANSLATION_SCHEMA}}}
+                                    'strict':True,'schema':schema}}}
     if model.get('reasoning_effort'):
         body['reasoning_effort'] = model['reasoning_effort']
     # One UTF-8 byte per input token plus generous framing allowance deliberately

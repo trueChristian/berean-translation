@@ -213,6 +213,10 @@ def allocation_evidence(state, campaign, maximum):
 def selection_evidence(state, campaign, parent, tasks):
     """Every planned original remains auditable even when no child was staged."""
     selections = campaign.get('selection', [])
+    scripture = campaign.get('recovery_scripture')
+    if scripture is not None and (json_hash(scripture) != campaign.get('recovery_scripture_sha256')
+            or set(scripture) != set(campaign['previous_task_ids'])):
+        raise ContractError('Frozen exact-recovery Scripture evidence changed')
     if ([item.get('previous_task_id') for item in selections] != campaign['previous_task_ids']
             or not re.fullmatch(r'[a-f0-9]{64}', campaign.get('request_sha256', ''))):
         raise ContractError('Accepted recovery selection provenance is incomplete')
@@ -267,7 +271,9 @@ def validate_recoveries(state, tasks, campaigns, maximum):
             raise ContractError('Accepted recovery selection/task provenance is incomplete')
         for task_id, (item, previous) in originals.items():
             task = tasks.get(task_id)
-            if (not task or task.get('campaign') != campaign['id']
+            evidence = campaign.get('recovery_scripture', {}).get(previous['id'], {})
+            if (not task or any(task.get(k) != v for k,v in evidence.get('fields', {}).items())
+                    or task.get('campaign') != campaign['id']
                     or task.get('recovery_of_task') != previous['id']
                     or task.get('recovery_previous_task_sha256') != item.get('previous_task_sha256')
                     or task.get('recovery_candidate_sha256') != item.get('candidate_sha256')

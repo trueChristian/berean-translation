@@ -28,7 +28,7 @@ on:
           - gpt-4.1
         default: gpt-6.1-sol
       max_articles:
-        description: "Maximum eligible held candidates to repair (hard limit: 5)"
+        description: "Optional manual batch size; automatic archive work drains continuously"
         type: choice
         options: ["1", "2", "3", "4", "5"]
         default: "3"
@@ -36,7 +36,7 @@ on:
         description: "Explicit one-time USD ceiling for this manual run; does not enable or increase hourly recovery"
         required: true
         type: string
-        default: "1"
+        default: "30"
       max_candidate_bytes:
         description: "Maximum complete repaired candidate size in UTF-8 JSON bytes (1024–1000000); larger limits reserve more review budget"
         required: true

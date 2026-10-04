@@ -18,8 +18,11 @@ from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
-from . import downstream
+from . import downstream, autonomous, stage_budget
 from .attempts import archive, decision
+from .scripture_evidence import (ScriptureAttention, normalize_scripture_candidate,
+    validate_scripture_candidate, freeze_scripture_evidence, policy as scripture_policy,
+    adopt_scripture_selection_audit)
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
 
@@ -44,7 +47,10 @@ class Engine:
         return discovered
 
     def human_protected(self, language, article_id):
-        pub = self.state.record(language, article_id).get('published')
+        record = self.state.record(language, article_id)
+        if any(event.get('event') in ('human_review', 'human_notice_standardized') for event in record.get('history', [])):
+            return True
+        pub = record.get('published')
         if not pub:
             return False
         if pub['human_reviewed'] or pub.get('edit_issue'):
@@ -103,6 +109,8 @@ class Engine:
         return True,'new_or_changed_source'
 
     def accept_request(self, request):
+        if request.get('autonomous'):
+            return autonomous.accept(self, request)
         if request.get('operation') == 'repair':
             return downstream.accept(self, request)
         identity = request.get('id','')
@@ -124,7 +132,7 @@ class Engine:
         model = request.get('model') or self.config.runtime['default_model']
         review_model = request.get('review_model') or self.config.runtime['default_review_model']
         self.config.model(model); self.config.model(review_model)
-        budget = positive_money(request.get('budget_usd',5),self.config.runtime['max_campaign_usd'])
+        budget = positive_money(request.get('budget_usd',self.config.runtime['default_budget_usd']),self.config.runtime['max_campaign_usd'])
         retry = request.get('retry_failed',False)
         dry_run = request.get('dry_run',False)
         if type(retry) is not bool or type(dry_run) is not bool:
@@ -200,6 +208,8 @@ class Engine:
                     'quality_threshold':self.config.runtime['quality_threshold']}
         from .review_contract import frozen_fields
         campaign.update(frozen_fields(self.config))
+        if self.config.runtime.get('scripture_quotes_enabled', False):
+            campaign['scripture_quotes'] = scripture_policy(self.config.root)
         if refresh:
             campaign.update(source_refresh=True,source_translation_keys=copy.deepcopy(refresh_keys),
                             refresh_policy=copy.deepcopy(self.config.runtime['automatic_source_refresh']))
@@ -207,6 +217,22 @@ class Engine:
             campaign.update(recovery_of_campaign=recovery[0], previous_task_ids=list(recovery[1]),
                             recovery_allocation_usd=0.0 if dry_run else budget, recovery_budget=recovery_budget,
                             recovery_acceptance_complete=False, recovery_request=copy.deepcopy(request))
+        if recovery and campaign.get('scripture_quotes') and not dry_run:
+            frozen_scripture = {}
+            for item in planned:
+                saved = frozen_recovery[item['previous_task_id']]
+                probe = {'id': digest(identity + ':' + item['language'] + ':' + item['article_id'])[:32],
+                         'campaign': identity, 'source_snapshot': item['source_snapshot']}
+                fields = freeze_scripture_evidence(self, saved['source'], item['language'],
+                                                   frozen_policy=campaign['scripture_quotes'])
+                probe.update(fields)
+                view = stage_budget.PlanningState(self.state, campaign, saved['source'], saved['candidate'])
+                adopted = adopt_scripture_selection_audit(view, probe, saved['previous'])
+                frozen_scripture[item['previous_task_id']] = {'fields':fields,
+                    'stage':'review1' if adopted else 'correct',
+                    'audit':view.writes.get(f'state/tasks/{probe["id"]}/scripture-selections.json')}
+            campaign['recovery_scripture'] = frozen_scripture
+            campaign['recovery_scripture_sha256'] = json_hash(frozen_scripture)
         # Persist the accepted full envelope before creating any recovery work.
         # This allocation is never freed, even if acceptance/staging later fails.
         self.state.save_campaign(campaign)
@@ -252,6 +278,20 @@ class Engine:
                 task.update(recovery_of_task=item['previous_task_id'],
                             recovery_candidate_sha256=item['candidate_sha256'],
                             recovery_previous_task_sha256=item['previous_task_sha256'])
+            if recovery and campaign.get('recovery_scripture'):
+                evidence = campaign['recovery_scripture'][item['previous_task_id']]
+                task.update(evidence['fields'], stage=evidence['stage'])
+                if evidence['audit'] is not None:
+                    self.state.write(f'state/tasks/{task["id"]}/scripture-selections.json', evidence['audit'])
+            elif campaign.get('scripture_quotes'):
+                try:
+                    task.update(freeze_scripture_evidence(self, source, language, frozen_policy=campaign['scripture_quotes']))
+                    if task['stage'].startswith('review') and not adopt_scripture_selection_audit(self.state, task, previous):
+                        task['stage'] = 'correct'
+                        task['scripture_resume_reason'] = 'saved_candidate_requires_quotation_audit'
+                except ScriptureAttention as exc:
+                    campaign['skipped'].append({**item, 'reason': exc.reason, 'detail': str(exc)})
+                    continue
             self.state.save_task(task)
             record['latest_task'] = task_id
             record['history'].append({'event':'requested','task':task_id,'campaign':identity,'at':task['created_at']})
@@ -265,7 +305,9 @@ class Engine:
 
     def accept_queue(self, *, continue_work=None):
         count = 0
-        for path in sorted((self.config.root/'state/queue').glob('*.json')):
+        for path in sorted((self.config.root/'state/queue').glob('*.json'), key=lambda p: (
+                p.stem.startswith('auto-'),
+                self.state.read(f'state/automatic-holds/{p.stem}.json', {}).get('last_checked_at', ''), p.name)):
             if not may_continue(continue_work):
                 break
             request = read_json(path)
@@ -276,15 +318,27 @@ class Engine:
                 break
             if request.get('id') != path.stem:
                 raise ContractError('Queue filename and identity mismatch')
+            if autonomous.owns_automatic_work(self.config, self.state) and (request.get('source_refresh') or (request.get('operation') == 'repair' and not request.get('manual_authorization'))):
+                continue  # Unaccepted legacy automatic requests are superseded by the shared authority.
+            if request.get('autonomous') and not autonomous.enabled(self.config):
+                continue
             if request.get('source_refresh') is True and not self.config.runtime.get('automatic_source_refresh',{}).get('enabled'):
                 continue  # Disabling the policy pauses unaccepted automatic requests.
+            if request.get('autonomous'):
+                count += 1  # Held automatic admissions still consume this pass's bounded page.
             try:
                 self.accept_request(request)
+            except ScriptureAttention as exc:
+                self.state.write(f'state/automatic-holds/{path.stem}.json', {'reason': exc.reason, 'detail': str(exc), 'last_checked_at': now()})
+                continue  # Evidence can recover without a new paid or manual request.
+            except autonomous.BudgetUnavailable:
+                continue  # A budget hold is resumable, never a permanent queue error.
             except ContractError as exc:
                 self.state.write(f'state/queue-errors/{path.stem}.json',{'error':str(exc),'request':path.stem})
                 # Invalid queue entries are durable diagnostics, not a reason to stop other requests.
                 continue
-            count += 1
+            if not request.get('autonomous'):
+                count += 1
         self.checkpoint('runtime: accept pending translation requests')
 
     def finish(self, task, status, reason=None):
@@ -303,13 +357,14 @@ class Engine:
     def publish(self, task):
         if 'continuation' in task:
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
-        if task.get('downstream_recovery') and not downstream.current(self, task):
+        if (task.get('downstream_recovery') or task.get('autonomous')) and not downstream.current(self, task):
             return self.finish(task, 'source_error', 'English source changed during downstream recovery')
         record = self.state.record(task['language'],task['article_id'])
         pub = record.get('published')
         if task['protected'] or (pub and (pub['human_reviewed'] or pub.get('edit_issue'))):
             return self.finish(task,'proposal','AI suggestions never overwrite human-reviewed work')
         source, candidate = self.state.source(task),self.state.candidate(task)
+        validate_scripture_candidate(self.state, task, candidate)
         validate_translation(source,candidate,language=task['language'])
         if pub:
             if (digest(self.state.path(pub['html_path']).read_bytes()) != task['base_html_sha256'] or
@@ -364,8 +419,14 @@ class Engine:
             campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
             if stage in ('translate','correct'):
                 task['translation_model_actual'] = provenance['model']
+                raw_result = result
+                if campaign.get('scripture_quotes') and isinstance(result, dict) and all(k in result for k in ('html','title','subtitle','section')):
+                    result = {k:result[k] for k in ('html','title','subtitle','section')}
                 self.state.save_candidate(task,result)
                 try:
+                    result = normalize_scripture_candidate(self.state, task, raw_result)
+                    self.state.save_candidate(task,result)
+                    stage_budget.enforce(task, result)
                     if 'cycle_budget' in task:
                         from .cycle_budget import enforce_candidate_bound
                         try:
@@ -418,7 +479,7 @@ class Engine:
                 decision(self.state, task, stage, 'quality_rejection', findings=task['findings'])
                 if stage == 'review2' or task.get('downstream_recovery'):
                     task['failure_kind'] = 'quality_rejection'
-                    self.finish(task,'not_ready','Final review failed; no further automatic correction is allowed')
+                    self.finish(task,'not_ready','Final review failed; a separately funded continuation must pass admission')
                     return
                 task['stage'] = 'correct'
             task['status'] = 'queued'
@@ -464,13 +525,22 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
         from .review_contract import frozen_version
         frozen_version(campaign)
+        from .scripture_evidence import frozen_policy
+        frozen_policy(campaign)
         if self.exclude_protected_prepared(batch):
             return
+        if self.hold_expired_prepared(batch):
+            return
+        campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
+        if campaign.get('autonomous'):
+            autonomous.validate_history(self.config, self.state)
+            if not autonomous.enabled(self.config):
+                return
         if campaign.get('downstream_recovery'):
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
             if not downstream.submission_enabled(self.config, campaign):
                 return
-        if campaign.get('downstream_recovery'):
+        if campaign.get('downstream_recovery') or campaign.get('autonomous'):
             tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
             if any(not downstream.current(self, task) for task in tasks):
                 for task in tasks:
@@ -511,6 +581,8 @@ class Engine:
         self.checkpoint('runtime: record batch submission intent before the billable request')
         if self.exclude_protected_prepared(batch, before_create=True):
             return  # The intent push incorporated an edit; create has not been called.
+        if self.hold_expired_prepared(batch, before_create=True):
+            return
         try:
             remote = self.provider.create(batch['input_file_id'],batch['id'],batch['campaign'])
             batch.update(remote_id=remote['id'],status='submitted')
@@ -520,6 +592,33 @@ class Engine:
             batch.update(status='submission_unknown',error_type=type(exc).__name__)
         self.state.save_batch(batch)
         self.checkpoint('runtime: persist OpenAI batch identity or uncertain-submission state')
+
+    def hold_expired_prepared(self, batch, *, before_create=False):
+        """A frozen unsubmitted payload cannot outlive its external evidence."""
+        campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
+        from .scripture_evidence import load_evidence, frozen_policy
+        if frozen_policy(campaign) is None:
+            return False
+        tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+        try:
+            for task in tasks:
+                load_evidence(self.state, task, require_fresh=True)
+            return False
+        except ScriptureAttention as exc:
+            if exc.reason != 'evidence_expired':
+                raise
+            fresh_intent = before_create and batch['status'] == 'submitting'
+            if batch.get('remote_id') or (batch.get('submission_started_at') and not fresh_intent):
+                raise ContractError('An uncertain Scripture submission must reconcile, never expire locally')
+            for task in tasks:
+                task['failure_kind'] = 'scripture_evidence_expired'
+                self.finish(task, 'not_ready', str(exc))
+            batch.update(status='cancelled_before_submission', exclusion_reason='scripture_evidence_expired')
+            if fresh_intent:
+                batch['create_not_called'] = True
+            self.state.save_batch(batch)
+            self.checkpoint('runtime: hold expired frozen evidence before provider creation')
+            return True
 
     def exclude_protected_prepared(self, batch, *, before_create=False):
         """Partition an unsubmitted payload without another attempt or reservation."""
@@ -646,6 +745,8 @@ class Engine:
                         raise ContractError('Batch/task ownership mismatch')
                     key = task['id'] + ':' + task['stage']
                     if batch.get('cancel_requested'):
+                        if key in rows and task.get('autonomous'):
+                            archive(self.state, task, rows[key], self.config.runtime['max_result_bytes'])
                         self.finish(task,'cancelled','Cancelled by explicit owner request')
                     elif key not in rows:
                         reason = f'Missing batch result; remote batch ended as {batch["remote_status"]}'
@@ -678,10 +779,12 @@ class Engine:
             self.state.save_batch(batch)
             self.checkpoint('runtime: collect batch results and bounded quality decisions')
 
-    def prepare(self, *, continue_work=None):
+    def prepare(self, *, continue_work=None, max_batches=None):
         if not self.provider:
-            return
+            return 0
+        limit = self.config.runtime['max_batches_per_tick'] if max_batches is None else max_batches
         downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
+        autonomous.validate_history(self.config, self.state)
         groups = defaultdict(list)
         for task in self.state.tasks():
             if task['status'] == 'queued':
@@ -692,9 +795,14 @@ class Engine:
                 groups[(task['campaign'],task['stage'],chosen)].append(task)
         prepared_count = 0
         for (campaign_id,stage,model), tasks in sorted(groups.items()):
-            while (tasks and prepared_count < self.config.runtime['max_batches_per_tick']
+            while (tasks and prepared_count < limit
                    and may_continue(continue_work)):
                 campaign = self.state.read(f'state/campaigns/{campaign_id}.json')
+                if campaign.get('autonomous'):
+                    if not campaign.get('automatic_acceptance_complete'):
+                        raise ContractError('Automatic admission is incomplete; paid work is blocked')
+                    if not autonomous.enabled(self.config):
+                        break
                 if campaign.get('downstream_recovery'):
                     if not campaign.get('downstream_acceptance_complete'):
                         raise ContractError('Downstream acceptance incomplete; allocation retained and paid work blocked')
@@ -709,6 +817,9 @@ class Engine:
                 selected, lines, costs, size = [],[],[],0
                 while tasks and len(selected) < self.config.runtime['max_batch_requests']:
                     task = tasks[0]
+                    if task.get('autonomous') and not downstream.current(self, task):
+                        self.finish(task, 'source_error', 'English source changed before automatic submission')
+                        tasks.pop(0); continue
                     if task.get('downstream_recovery'):
                         if not downstream.current(self, task):
                             self.finish(task, 'source_error', 'English source changed before downstream submission')
@@ -723,12 +834,17 @@ class Engine:
                         tasks.pop(0)
                         continue
                     try:
+                        stage_budget.enforce(task, self.state.candidate(task))
                         line,cost,input_bound = build_request(self.config,self.state,task)
+                        if 'stage_budget' in task and downstream.money(cost) > downstream.money(task['stage_budget']['stages_usd'][stage]):
+                            raise ContractError('Request exceeds its frozen complete-stage reservation')
                         if 'cycle_budget' in task:
                             ceiling = task['cycle_budget']['review_reserved_usd' if stage.startswith('review') else 'repair_reserved_usd']
                             if downstream.money(cost) > downstream.money(ceiling):
                                 raise ContractError('Request exceeds its frozen complete-cycle reservation')
                     except ContractError as exc:
+                        if isinstance(exc, ScriptureAttention) and exc.reason == 'evidence_expired':
+                            task['failure_kind'] = 'scripture_evidence_expired'
                         self.finish(task,'not_ready',str(exc)); tasks.pop(0); continue
                     raw = canonical(line)+b'\n'
                     if len(raw) > self.config.runtime['max_batch_bytes']:
@@ -759,6 +875,7 @@ class Engine:
                 self.checkpoint('runtime: reserve task identities and budget before OpenAI submission')
                 self.submit(batch, continue_work=continue_work)
                 prepared_count += 1
+        return prepared_count
 
     def cancel_campaign(self, identity):
         if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}',identity):
@@ -798,19 +915,39 @@ class Engine:
         self.checkpoint('runtime: record campaign cancellation results')
 
     def tick(self, *, discover_source=True, continue_work=None):
+        self.continue_work = continue_work
         self.state.sync_human_reviews(self.gitstore)
+        autonomous.settle(self)
         if discover_source and may_continue(continue_work):
             self.discover()
+            if autonomous.owns_automatic_work(self.config, self.state):
+                if may_continue(continue_work):
+                    autonomous.enqueue(self)
+            else:
+                if may_continue(continue_work):
+                    enqueue_source_refreshes(self)
+                if may_continue(continue_work):
+                    downstream.enqueue_hour(self)
+        for campaign in self.state.campaigns():
+            if campaign.get('autonomous') and not campaign.get('automatic_acceptance_complete') and not campaign.get('cancel_requested'):
+                autonomous.stage_accepted(self, campaign)
+        prepared = 0
+        automatic = autonomous.owns_automatic_work(self.config, self.state)
+        if automatic and may_continue(continue_work):
+            # Complete funded stages before potentially slow read-only Scripture
+            # prefetch. A provider outage cannot starve already accepted work.
+            self.collect(continue_work=continue_work)
+            autonomous.settle(self)
             if may_continue(continue_work):
-                enqueue_source_refreshes(self)
-            if may_continue(continue_work):
-                downstream.enqueue_hour(self)
+                prepared = self.prepare(continue_work=continue_work)
         if may_continue(continue_work):
             self.accept_queue(continue_work=continue_work)
-        if may_continue(continue_work):
+        if not automatic and may_continue(continue_work):
             self.collect(continue_work=continue_work)
         if may_continue(continue_work):
-            self.prepare(continue_work=continue_work)
+            self.prepare(continue_work=continue_work,
+                         max_batches=max(0, self.config.runtime['max_batches_per_tick'] - prepared))
+        autonomous.settle(self)
         for campaign in self.state.campaigns():
             if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
                 continue

@@ -162,6 +162,9 @@ def setup(root, *, review_contract_version=None):
     # in explicitly; owner-approved production settings must not add unrelated
     # simulated campaigns to legacy fixtures.
     runtime = read_json(root/'config/runtime.json')
+    runtime['scripture_quotes_enabled'] = False
+    runtime['automatic_new_translation'] = False
+    runtime['autonomous_translation']['enabled'] = False
     runtime['automatic_source_refresh']['enabled'] = False
     runtime['automatic_downstream_recovery'].update(enabled=False, total_budget_usd=0)
     # Existing hand-authored review fixtures model the frozen legacy contract.

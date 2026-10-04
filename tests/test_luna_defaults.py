@@ -22,7 +22,7 @@ LUNA = 'gpt-6-luna'
 
 
 def workflow_inputs(name):
-    document = yaml.load((REPO_ROOT / '.github/workflows' / name).read_text(),
+    document = yaml.load((REPO_ROOT / ('docs/historical-workflows' if name == 'ai-recover.yml' else '.github/workflows') / name).read_text(),
                          Loader=yaml.BaseLoader)
     return document['on']['workflow_dispatch']['inputs']
 
@@ -99,7 +99,8 @@ class LunaRegistryTests(unittest.TestCase):
         runtime = read_json(REPO_ROOT / 'config/runtime.json')
         self.assertEqual(runtime['default_model'], LUNA)
         self.assertEqual(runtime['default_review_model'], LUNA)
-        self.assertFalse(runtime['automatic_new_translation'])
+        self.assertTrue(runtime['automatic_new_translation'])
+        self.assertEqual(runtime['autonomous_translation']['total_budget_usd'], 30)
         self.assertEqual(runtime['automatic_source_refresh'], {
             'enabled': True, 'model': 'gpt-5-mini', 'review_model': 'gpt-5-mini',
             'budget_usd': 10, 'max_campaigns_per_tick': 5})

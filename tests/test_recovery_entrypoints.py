@@ -124,7 +124,7 @@ class RecoveryEntrypointTests(unittest.TestCase):
     def test_workflow_exact_fields_and_trusted_collector_pickup(self):
         import yaml
         # BaseLoader avoids YAML 1.1 treating GitHub's `on` key as boolean True.
-        workflow = yaml.load((REPO_ROOT / '.github/workflows/ai-recover.yml').read_text(), Loader=yaml.BaseLoader)
+        workflow = yaml.load((REPO_ROOT / 'docs/historical-workflows/ai-recover.yml').read_text(), Loader=yaml.BaseLoader)
         inputs = workflow['on']['workflow_dispatch']['inputs']
         self.assertEqual(set(inputs), {'original_campaign', 'previous_task_ids', 'model', 'review_model', 'budget_usd', 'dry_run'})
         self.assertLessEqual(len(inputs), 10)
@@ -140,7 +140,8 @@ class RecoveryEntrypointTests(unittest.TestCase):
         self.assertEqual(env['TRANSLATION_OPERATION'], 'review')
         self.assertNotIn('OPENAI_API_KEY', env)
         worker = yaml.load((REPO_ROOT / '.github/workflows/ai-worker.yml').read_text(), Loader=yaml.BaseLoader)
-        self.assertIn(workflow['name'], worker['on']['workflow_run']['workflows'])
+        self.assertNotIn(workflow['name'], worker['on']['workflow_run']['workflows'])
+        self.assertFalse((REPO_ROOT / '.github/workflows/ai-recover.yml').exists())
         self.assertEqual(worker['concurrency']['group'], 'berean-translation-state-writer')
         self.assertEqual(worker['concurrency']['cancel-in-progress'], 'false')
         for guard in ("conclusion == 'success'", "head_branch == 'main'", 'head_repository.full_name == github.repository'):

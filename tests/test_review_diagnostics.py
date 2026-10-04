@@ -33,8 +33,11 @@ class ReviewDiagnosticsTests(unittest.TestCase):
         self.root = Path(temporary.name)
         shutil.copytree(REPO_ROOT / 'config', self.root / 'config')
         shutil.copytree(REPO_ROOT / 'prompts', self.root / 'prompts')
+        shutil.copytree(REPO_ROOT / 'data', self.root / 'data')
+        shutil.copytree(REPO_ROOT / 'docs/third-party', self.root / 'docs/third-party')
         self.state, original = State(self.root), State(REPO_ROOT)
         self.config = Config(self.root)
+        self.config.runtime['autonomous_translation']['enabled'] = False
 
         def copy_file(relative):
             destination = self.state.path(relative)

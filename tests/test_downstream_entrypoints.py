@@ -221,7 +221,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
         self.assertEqual(inputs['max_articles']['default'], '3')
         self.assertEqual(inputs['budget_usd']['type'], 'string')
         self.assertEqual(inputs['budget_usd']['required'], 'true')
-        self.assertEqual(inputs['budget_usd']['default'], '1')
+        self.assertEqual(inputs['budget_usd']['default'], '30')
         self.assertEqual(inputs['dry_run']['type'], 'boolean')
         self.assertEqual(inputs['dry_run']['default'], 'true')
 

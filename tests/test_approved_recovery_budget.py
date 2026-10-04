@@ -31,7 +31,8 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         })
         self.assertEqual(config.runtime['quality_threshold'], 95)
         self.assertEqual(config.runtime['max_translation_attempts'], 2)
-        self.assertIs(config.runtime['automatic_new_translation'], False)
+        self.assertIs(config.runtime['automatic_new_translation'], True)
+        self.assertEqual(config.runtime['autonomous_translation']['total_budget_usd'], 30)
 
     def test_ten_hourly_envelopes_are_permanent_and_separate_from_manual_ten_dollars(self):
         for target in ('socket.socket.connect', 'socket.create_connection', 'socket.getaddrinfo'):

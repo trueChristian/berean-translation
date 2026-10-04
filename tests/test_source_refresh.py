@@ -346,7 +346,8 @@ class SourceRefreshIntegrationTests(unittest.TestCase):
 class SourceRefreshConfigTests(unittest.TestCase):
     def test_production_policy_is_enabled_and_bounded_without_new_translation(self):
         config = Config(Path(__file__).resolve().parents[1])
-        self.assertIs(config.runtime['automatic_new_translation'], False)
+        self.assertIs(config.runtime['automatic_new_translation'], True)
+        self.assertEqual(config.runtime['autonomous_translation']['total_budget_usd'], 30)
         self.assertEqual(config.runtime['automatic_source_refresh'], {
             'enabled': True, 'model': 'gpt-5-mini', 'review_model': 'gpt-5-mini',
             'budget_usd': 10, 'max_campaigns_per_tick': 5})
