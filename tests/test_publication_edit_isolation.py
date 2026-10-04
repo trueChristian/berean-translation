@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import copy
+import os
 import subprocess
 import tempfile
 import unittest
@@ -90,6 +91,121 @@ class PublicationEditIsolationTests(unittest.TestCase):
         records = copy.deepcopy(self.state.records())
         self.engine.tick()
         self.assertEqual(self.state.records(), records)
+
+    def test_renamed_content_is_isolated_without_blocking_other_human_edits(self):
+        renamed = self.path(A).with_name('editor-copy.html')
+        self.path(A).rename(renamed)
+        self.path(B).write_text(self.html[B].replace('Faith and', 'Another editorial change and'))
+        self.engine.tick()
+        self.assertEqual(renamed.read_text(), self.html[A])
+        self.assertTrue(self.publication(A)['edit_issue'])
+        self.assertTrue(self.publication(B)['human_reviewed'])
+        isolated = self.state.read('state/content-isolation.json')['files']
+        relative = renamed.relative_to(self.root).as_posix()
+        self.assertEqual(isolated[relative]['sha256'], digest(self.html[A]))
+        self.assertIn('Unrecognized content files', self.state.path('STATUS.md').read_text())
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        destination, entries = self.export_articles()
+        self.assertEqual((destination / entries[A]['html']).read_text(), self.html[A])
+        self.assertFalse((destination / relative).exists())
+
+    def test_unknown_file_changes_require_resynchronization_but_never_change_publications(self):
+        extra = self.root/'content/editor-notes.txt'
+        extra.write_text('Editor working copy')
+        self.engine.tick()
+        before = copy.deepcopy(self.state.records())
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        extra.write_text('Revised working copy')
+        with self.assertRaisesRegex(ContractError, 'Unexpected content files changed'):
+            validate_repository(self.config)
+        self.engine.tick()
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        self.assertEqual(self.state.records(), before)
+        extra.unlink()
+        self.engine.tick()
+        self.assertEqual(self.state.read('state/content-isolation.json')['files'], {})
+
+    def test_unknown_symlink_is_reported_without_reading_its_target(self):
+        extra = self.root/'content/editor-link'
+        extra.symlink_to(self.root/'not-present')
+        self.engine.tick()
+        self.assertEqual(self.state.read('state/content-isolation.json')['files'],
+                         {'content/editor-link': {'kind':'symlink'}})
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        destination, _ = self.export_articles()
+        self.assertFalse((destination/'content/editor-link').exists())
+
+    def test_unrecognized_existing_pair_is_not_selected_for_paid_ai_work(self):
+        language = 'deu'
+        path = self.root/f'content/{language}/articles/{A}.html'
+        path.parent.mkdir(parents=True)
+        path.write_text('A human working copy that has no accepted publication record')
+        self.engine.tick()
+        self.assertTrue(self.engine.human_protected(language, A))
+        article = self.state.read('state/source.json')['articles'][A]
+        self.assertEqual(self.engine.eligible(article, language, 'translate', True),
+                         (False, 'human_reviewed_or_edited_protected'))
+        before = self.provider.create_calls
+        self.upstream.articles = [a for a in self.upstream.articles if a['id'] == A]
+        self.upstream.rebuild()
+        queue(self.state, 'new-human-path', languages=language, issues='all')
+        drive(self.engine, self.provider)
+        self.assertEqual(self.provider.create_calls, before)
+        self.assertEqual(path.read_text(), 'A human working copy that has no accepted publication record')
+        self.assertIsNone(self.state.record(language, A)['published'])
+
+    def test_nonregular_accepted_paths_do_not_block_sync_or_ai_protection(self):
+        for field in ('html_path', 'metadata_path'):
+            with self.subTest(field=field):
+                self.prepare()
+                path = self.path(field=field)
+                path.unlink()
+                os.mkfifo(path)
+                self.assertTrue(self.engine.human_protected('afr', A))
+                self.engine.tick()
+                self.assertIn('edit_issue', self.publication())
+                self.assertEqual(validate_repository(self.config)['ready'], 2)
+                destination, entries = self.export_articles()
+                self.assertEqual((destination / entries[A]['html']).read_text(), self.html[A])
+
+    def test_self_referential_publication_symlink_is_isolated(self):
+        path = self.path()
+        path.unlink()
+        path.symlink_to(path.name)
+        self.engine.tick()
+        self.assertIn('edit_issue', self.publication())
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        destination, entries = self.export_articles()
+        self.assertEqual((destination / entries[A]['html']).read_text(), self.html[A])
+
+    def test_file_occupying_language_directory_blocks_only_that_language_before_spend(self):
+        obstruction = self.root/'content/deu'
+        obstruction.write_text('Human working file')
+        self.engine.tick()
+        self.assertTrue(self.engine.human_protected('deu', A))
+        before = self.provider.create_calls
+        queue(self.state, 'blocked-directory', languages='deu', issues='all')
+        drive(self.engine, self.provider)
+        self.assertEqual(self.provider.create_calls, before)
+        self.assertEqual(obstruction.read_text(), 'Human working file')
+        self.assertFalse(any(task['language'] == 'deu' for task in self.state.tasks()))
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+
+    def test_clean_checkpoint_can_serve_restored_accepted_bytes_before_diagnostic_cleanup(self):
+        self.quarantine()
+        self.path().write_text(self.html[A])
+        extra = self.root/'content/editor-copy.html'
+        extra.write_text('A local-only copy')
+        self.engine.tick()
+        # Simulate the clean checkpoint omitting an untracked local copy.
+        extra.unlink()
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        self.quarantine()
+        self.path().write_text(self.html[A])
+        self.assertIn('edit_issue', self.publication())
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
+        destination, entries = self.export_articles()
+        self.assertEqual((destination / entries[A]['html']).read_text(), self.html[A])
 
     def test_missing_html_or_sidecar_stays_exported_from_accepted_copy(self):
         for field in ('html_path', 'metadata_path'):

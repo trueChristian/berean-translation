@@ -1,10 +1,12 @@
 """Real local Git repositories exercise non-force checkpoint conflict handling."""
 from __future__ import annotations
 import subprocess
+import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
-from berean_translation.common import ContractError
+from berean_translation.common import ContractError, digest, json_hash
 from berean_translation.gitstore import GitStore
 
 
@@ -39,6 +41,92 @@ class GitStoreTests(unittest.TestCase):
         self.store.checkpoint('test checkpoint')
         remote = self.run_git(self.remote,'show','main:state/source.json')
         self.assertEqual(remote,'{}')
+
+    def test_isolated_untracked_file_is_not_added_to_the_checkpoint(self):
+        (self.worker/'state').mkdir()
+        (self.worker/'content').mkdir()
+        extra = self.worker/'content/editor-copy.html'
+        extra.write_text('Unrecognized working file')
+        (self.worker/'state/content-isolation.json').write_text(json.dumps({
+            'format_version':'1', 'files': {'content/editor-copy.html': {'kind':'file'}}}))
+        self.store.checkpoint('record isolation without publishing the working file')
+        files = self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main').splitlines()
+        self.assertIn('state/content-isolation.json', files)
+        self.assertNotIn('content/editor-copy.html', files)
+        self.assertEqual(extra.read_text(), 'Unrecognized working file')
+
+    def test_pre_staged_isolated_file_is_preserved_for_owner_attention(self):
+        (self.worker/'state').mkdir()
+        (self.worker/'content').mkdir()
+        (self.worker/'content/editor-copy.html').write_text('Staged by an editor')
+        (self.worker/'state/content-isolation.json').write_text(json.dumps({
+            'format_version':'1', 'files': {'content/editor-copy.html': {'kind':'file'}}}))
+        self.run_git(self.worker, 'add', 'content/editor-copy.html')
+        before = self.run_git(self.worker, 'diff', '--cached')
+        with self.assertRaisesRegex(ContractError, 'already staged'):
+            self.store.checkpoint('must not include unrelated staging')
+        self.assertEqual(self.run_git(self.worker, 'diff', '--cached'), before)
+        self.assertNotIn('content/editor-copy.html', self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main'))
+
+    def test_late_unknown_file_cannot_widen_staging_after_empty_inventory(self):
+        (self.worker/'state').mkdir()
+        (self.worker/'content').mkdir()
+        (self.worker/'state/content-isolation.json').write_text('{"format_version":"1","files":{}}')
+        late = self.worker/'content/late-editor-copy.html'
+        late.write_text('Appeared after synchronization')
+        self.store.checkpoint('only accepted content paths may be staged')
+        files = self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main').splitlines()
+        self.assertNotIn('content/late-editor-copy.html', files)
+        self.assertEqual(late.read_text(), 'Appeared after synchronization')
+
+    def test_checkpoint_stages_accepted_content_and_ignores_a_late_extra(self):
+        record = self.worker/'state/records/afr/a.json'
+        record.parent.mkdir(parents=True)
+        html = 'content/afr/articles/a.html'
+        metadata = 'content/afr/articles/a.json'
+        record.write_text(json.dumps({'published':{'html_path':html, 'metadata_path':metadata,
+            'html_sha256':digest('Accepted content'), 'metadata_sha256':json_hash({})}}))
+        (self.worker/html).parent.mkdir(parents=True)
+        (self.worker/html).write_text('Accepted content')
+        (self.worker/metadata).write_text('{}')
+        original_git = self.store.git
+        def concurrent_file(*args, **kwargs):
+            if args[:2] == ('add', '-A'):
+                (self.worker/'content/late-copy.html').write_text('Late unrecognized file')
+            return original_git(*args, **kwargs)
+        self.store.git = concurrent_file
+        self.store.checkpoint('publish only the accepted content')
+        self.assertEqual(self.run_git(self.remote, 'show', 'main:' + html), 'Accepted content')
+        files = self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main').splitlines()
+        self.assertIn(metadata, files)
+        self.assertNotIn('content/late-copy.html', files)
+
+    def test_isolated_accepted_directory_or_fifo_never_enters_the_checkpoint(self):
+        record = self.worker/'state/records/afr/a.json'
+        record.parent.mkdir(parents=True)
+        relative = 'content/afr/articles/a.html'
+        html = self.worker/relative
+        html.parent.mkdir(parents=True)
+        html.write_text('Accepted body')
+        metadata = 'content/afr/articles/a.json'
+        (self.worker/metadata).write_text('{}')
+        value = {'published':{'html_path':relative, 'metadata_path':metadata,
+                 'html_sha256':digest('Accepted body'), 'metadata_sha256':json_hash({})}}
+        record.write_text(json.dumps(value))
+        self.commit(self.worker, 'accepted publication')
+        self.run_git(self.worker, 'push')
+        html.unlink(); html.mkdir()
+        (html/'unknown.html').write_text('Do not publish this child')
+        value['published']['edit_issue'] = {'reason':'Nonregular working file'}
+        record.write_text(json.dumps(value))
+        self.store.checkpoint('retain accepted body while recording directory isolation')
+        self.assertEqual(self.run_git(self.remote, 'show', 'main:' + relative), 'Accepted body')
+        self.assertNotIn('unknown.html', self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main'))
+        (html/'unknown.html').unlink(); html.rmdir(); os.mkfifo(html)
+        (self.worker/'state/progress.json').write_text('{"other_work":"continues"}')
+        self.store.checkpoint('independent progress while FIFO stays isolated')
+        self.assertEqual(self.run_git(self.remote, 'show', 'main:' + relative), 'Accepted body')
+        self.assertIn('state/progress.json', self.run_git(self.remote, 'ls-tree', '-r', '--name-only', 'main'))
 
     def test_concurrent_queue_addition_is_preserved(self):
         (self.other/'state/queue').mkdir(parents=True)

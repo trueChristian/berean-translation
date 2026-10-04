@@ -174,7 +174,7 @@ class WinterReferenceAliasTests(unittest.TestCase):
 
     def test_unobserved_names_and_unsupported_ordinals_cannot_match_supported_books(self):
         for source, candidate in (
-            ('1 John 2:14', 'הראשונה ליוחנן 2:14'),
+            ('1 John 2:14', 'השלישית ליוחנן 2:14'),
             ('1 John 2:14', 'להאיגרת הראשונה ליוחנן 2:14'),
             ('1 John 2:14', 'האיגרת השנייה ליוחנן 2:14'),
             ('1 John 2:14', 'האיגרת הראשונה ליוחנן השנייה 2:14'),

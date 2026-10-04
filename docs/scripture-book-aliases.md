@@ -44,6 +44,13 @@ The first two Hebrew forms identify 1 John; the next two identify 1 Timothy and
 2 Timothy respectively; the last identifies Revelation. These are literal
 aliases, not a rule that reorders or drops ordinal words, and are not attributed
 to the pinned library. The English source wording remains unchanged.
+The [remaining runtime fixture](../tests/fixtures/remaining_reference_cases.json)
+adds only eight further literal names: German `Joh`, `Jes`, `Offb`, and `Kol`
+for John, Isaiah, Revelation, and Colossians; Hebrew `הראשונה ליוחנן`,
+`פטרוס הראשונה`, `גלטים`, and `טיטוס` for 1 John, 1 Peter, Galatians, and Titus.
+Their evidence is the pinned source/correction pairs, not a claim of library
+recognition. The shorter 1 John name cannot salvage a longer epistle title with
+an unsupported attached prefix. Gospel/epistle ordinals remain distinct.
 The full publication replay additionally preserves these existing variants:
 
 | Language / article | Exact source / target notation |
@@ -114,3 +121,13 @@ boundaries, duplicate occurrences, numeric tails, clock/amount guards and exact
 HTML/metadata protections. Every existing publication and the full current English
 archive must validate before this change is considered complete. Budgets, prompts,
 attempt limits, saved history and publication state are unchanged.
+
+The remaining fixture at `5154bba7cfec68fc64dc04b056840d200418a655` reproduces
+five complete equivalent final corrections (54 chapter/verse occurrences plus
+two source-qualified chapter-only mentions): German ALL NATURE
+SINGS and In the World, but not of it; Hebrew By Their Fruits, Little Ramona’s
+Pride, and The Strait Gate to Life. The Summer tasks retain two translation
+attempts and zero reviews; German ALL NATURE SINGS retains its one prior review
+and one correction attempt. None receives a new review or publication merely
+because reference notation now validates. The authentic Korean The Strait Gate
+to Life remains a negative because John 4:16 was expanded to 4:15–16.

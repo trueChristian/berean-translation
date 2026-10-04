@@ -64,6 +64,12 @@ translation → independent review → publish with notice when accepted
 
 At most two translation/correction requests and two review requests are submitted per task. A score of 95/100 is an acceptance rubric, not a statistical measurement of 95% accuracy. Major/critical findings always block acceptance. Missing/truncated/refused responses, altered IDs/URLs, malformed HTML, missing substantive blocks and changed Scripture chapter/verse numbers fail structural checks. Model requests include the complete source article, theological-preservation instructions, and any configured per-language glossary. New work prefetches approved GetBible Scripture evidence and validates exact selected target words before review/publication. Missing editions, uncertain source/reference alignment and unverified versification remain explicit holds; see [the Scripture evidence contract](docs/scripture-quotation-evidence.md).
 
+Already accepted publications are retained when English changes or disappears.
+The display export labels them `stale` or `source_removed`, preserves the original
+source revision, and supplies verifiable historical metadata for the website.
+The website keeps its no-loss guard and retrieves historical dependencies; stale
+work is never relabeled current. See [the retained export contract](docs/runtime-contract.md#retained-accepted-publications).
+
 ## Languages and folder/URL identity
 
 | Language | Folder | Website language tag | Direction |

@@ -1,6 +1,6 @@
 """Hash-verified accepted copies protect editable publication working files."""
 from pathlib import Path
-from .common import ContractError, digest, json_hash
+from .common import ContractError, digest, json_hash, read_regular_bytes
 from .html import split_article
 
 
@@ -9,7 +9,7 @@ def observed_files(state, publication):
     for field in ('html_path', 'metadata_path'):
         try:
             path = state.path(publication[field])
-            result[field] = digest(path.read_bytes()) if path.exists() else None
+            result[field] = digest(read_regular_bytes(path)) if path.exists() else None
         except (ContractError, OSError) as exc:
             result[field] = {'unavailable':type(exc).__name__}
     return result

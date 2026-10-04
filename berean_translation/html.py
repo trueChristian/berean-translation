@@ -209,9 +209,19 @@ def protected_reference_numbers(original: str, translated: str, *, language: str
     if language in ('deu', 'heb'):
         # Only trusted task/publication language enables localized citation
         # grammar. Keep original offsets for the source-backed clock rules.
-        from .reference_notation import reference_mentions
+        from .reference_notation import (chapter_reference_mentions,
+                                         has_source_chapter_introduction, reference_mentions)
         source_references = reference_mentions(original, 'eng', target_language=language)
-        target_references = reference_mentions(translated, language)
+        source_chapters = (chapter_reference_mentions(original, 'eng', source_references,
+                                                      target_language=language)
+                           if language == 'deu' else [])
+        chapter_introductions = has_source_chapter_introduction(original, source_chapters)
+        target_references = reference_mentions(translated, language,
+                                               chapter_introductions=chapter_introductions)
+        if chapter_introductions:
+            target_chapters = chapter_reference_mentions(translated, language, target_references)
+            source_references += source_chapters
+            target_references += target_chapters
     else:
         source_references = [(m.start(), m.end(), reference_value(m.group()))
                              for m in REFERENCE_NUMBER.finditer(original)]

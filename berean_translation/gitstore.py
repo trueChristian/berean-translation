@@ -9,7 +9,7 @@ import os
 import re
 import subprocess
 from pathlib import Path
-from .common import ContractError, loads, digest, json_hash
+from .common import ContractError, loads, digest, json_hash, read_regular_bytes
 
 MANAGED = ('state', 'content', 'index.json', 'STATUS.md', 'RECOVERY.json')
 BOT_IDENTITY = ('-c', 'user.name=github-actions[bot]', '-c',
@@ -20,9 +20,9 @@ class GitStore:
     def __init__(self, root: Path, publish: bool = False):
         self.root, self.publish = root, publish
 
-    def git(self, *args: str, check: bool = True) -> subprocess.CompletedProcess:
+    def git(self, *args: str, check: bool = True, input: str | None = None) -> subprocess.CompletedProcess:
         return subprocess.run(['git','-C',str(self.root),*args], check=check, text=True,
-                              stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                              stdout=subprocess.PIPE, stderr=subprocess.PIPE, input=input)
 
     def checkpoint(self, message: str) -> None:
         if not self.publish:
@@ -30,10 +30,50 @@ class GitStore:
         branch = self.git('branch','--show-current').stdout.strip()
         if branch != 'main':
             raise ContractError('Production checkpoints may write only the checked-out main branch')
-        paths = [p for p in MANAGED if (self.root/p).exists() or self.git('ls-files','--',p).stdout.strip()]
-        if not paths:
-            return
-        self.git('add','-A','--',*paths)
+        from .state import State
+        state = State(self.root)
+        publications = {pub[field]: (pub, field) for record in state.records()
+                        if (pub := record.get('published'))
+                        for field in ('html_path', 'metadata_path')}
+        accepted = set(publications)
+        paths = [p for p in MANAGED if p != 'content' and
+                 ((self.root/p).exists() or self.git('ls-files','--',p).stdout.strip())]
+        staged = set(self.git('diff', '--cached', '--name-only', '-z').stdout.split('\0')) - {''}
+        def allowed(path):
+            return path in accepted or any(path == p or path.startswith(p + '/')
+                                           for p in MANAGED if p != 'content')
+        if any(not allowed(path) for path in staged):
+            raise ContractError('An isolated or unmanaged file is already staged; retain staging for owner attention')
+        if paths:
+            self.git('add', '-A', '--pathspec-from-file=-', '--pathspec-file-nul',
+                     input=''.join(':(literal)' + path + '\0' for path in paths))
+        # A pathspec may recurse if a file becomes a directory. Stage exact,
+        # hash-verified regular-file blobs instead, only for changed accepted
+        # content. Unknown files cannot widen this allowlist during a checkpoint.
+        dirty = set(self.git('ls-files', '--modified', '--deleted', '-z', '--', 'content').stdout.split('\0')) - {''}
+        dirty |= staged & accepted
+        dirty |= set(self.git('ls-files', '--others', '--exclude-standard', '-z', '--', 'content').stdout.split('\0')) - {''}
+        tracked = set(self.git('ls-files', '-z', '--', 'content').stdout.split('\0')) - {''}
+        updates = []
+        for path in sorted(accepted):
+            publication, field = publications[path]
+            if path not in dirty:
+                if path not in tracked and not os.path.lexists(self.root/path) and not publication.get('edit_issue'):
+                    raise ContractError('Accepted publication vanished before its checkpoint')
+                continue
+            if publication.get('edit_issue'):
+                if path in staged:
+                    raise ContractError('An isolated accepted working file is already staged; preserve staging for owner attention')
+                continue  # Retain the committed accepted blob; never add a technical replacement.
+            data = read_regular_bytes(state.path(path))
+            actual = digest(data) if field == 'html_path' else json_hash(loads(data))
+            expected = publication['html_sha256' if field == 'html_path' else 'metadata_sha256']
+            if actual != expected:
+                raise ContractError('Accepted publication changed during its checkpoint')
+            sha = self.git('hash-object', '-w', '--stdin', input=data.decode('utf-8')).stdout.strip()
+            updates.append('100644 ' + sha + '\t' + path + '\0')
+        if updates:
+            self.git('update-index', '-z', '--index-info', input=''.join(updates))
         if not self.git('diff','--cached','--name-only').stdout.strip():
             return
         self.git(*BOT_IDENTITY, 'commit', '-m', message)

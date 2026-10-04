@@ -20,6 +20,12 @@ languages retain the existing decimal-colon and source-backed clock handling.
 - Decode canonical, explicitly marked Hebrew numerals in recognized citations,
   including mixed letter/decimal forms; ordinary Hebrew words and initials are
   not numbers
+- Recognize the authenticated unmarked form `— משלי טז:יח.` only with its
+  strict delimiters: a citation dash, known book, whitespace, two canonical
+  multi-letter Hebrew numerals separated by an adjacent colon, and a period
+  followed by whitespace or end of text. It denotes Proverbs 16:18. Bare,
+  single-letter, mixed marked/unmarked, range, list and subverse forms do not
+  gain recognition; the ordinary unmarked-numeral grammar remains disabled
 - Accept the observed book-qualified space forms `יוחנן י״א 4` and `מתי ט׳ 2–8`
   only through that explicit grammar. Repeated chapter notation such as
   `מתי ה׳ 5:14` must agree; conflicting chapter markers stay blocked
@@ -33,6 +39,19 @@ languages retain the existing decimal-colon and source-backed clock handling.
   This creates no chapter-only citation key; the subsequent `Psalm 119:21`
   remains separately protected. Numeric, ambiguous numeral and dangling tails
   remain invalid, and unqualified bare-colon prose is not exempted
+- Distinguish German chapter-only prose such as `Römer 13, den „höheren
+  Gewalten untertan“ ...` from a chapter/verse comma only in a source-qualified
+  block containing `in [known book] [chapter] to [plain prose]`. This requires
+  whitespace and clear prose words or a balanced prose quotation. Every complete
+  chapter-only book/chapter occurrence is then compared in that same block,
+  including the source's neighboring 1 Peter 2. Wrong books, chapters, omissions
+  and duplicates fail. Other historical chapter-only syntax does not gain
+  numeric recognition; unqualified comma, numeral and dangling tails still fail
+- Keep an invalid occurrence when either new form adds an unsupported numeric,
+  Roman or named book ordinal. For example, an extra `4 Römer 14, ...` in a
+  source-qualified chapter block or `— הרביעית משלי טז:יח.` cannot disappear
+  beside a valid occurrence. Complete supported numbered-book aliases retain
+  their identities; unrelated historical unsupported syntax is unchanged
 - Recognize the observed attached Hebrew `ב` ("in"), optionally preceded by `ו`,
   before a mapped book, and the complete `הראשונה אל הקורינתים` alias for
   1 Corinthians. Arbitrary word prefixes and conflicting ordinals stay blocked
@@ -91,3 +110,14 @@ is part of this change.
 
 The expanded finite book-name table and quote/list boundary rules are documented
 in [Exact Scripture book identities](scripture-book-aliases.md).
+
+`tests/fixtures/remaining_reference_cases.json` records the complete immutable
+final corrections at `5154bba7cfec68fc64dc04b056840d200418a655` for German ALL
+NATURE SINGS and four Summer 2020 articles, plus the authentic Korean negative.
+The five equivalent candidates preserve all 54 chapter/verse occurrences plus
+the two source-qualified chapter-only mentions. Ten pinned
+blocks reproduce eight literal alias gaps, the German prose comma, the unmarked
+Hebrew citation and the Korean range change. The Korean correction still fails:
+printed John 4:16 became 4:15–16. The quotation's wording does not authorize a
+change to its printed reference. Hash checks, complete-candidate mutations and
+unchanged-history checks protect the evidence; no saved task is reopened.

@@ -31,6 +31,8 @@ _GERMAN_BOOKS = {
     '2. Timotheus': '2 Timothy', '1. Thessalonicher': '1 Thessalonians',
     '2. Thessalonicher': '2 Thessalonians', 'Philipper': 'Philippians',
     'Epheser': 'Ephesians', 'Apg.': 'Acts',
+    # Exact abbreviations in the immutable ALL NATURE SINGS correction.
+    'Joh': 'John', 'Jes': 'Isaiah', 'Offb': 'Revelation', 'Kol': 'Colossians',
 }
 _HEBREW_BOOKS = {
     'בראשית': 'Genesis', 'שמות': 'Exodus', 'מתי': 'Matthew',
@@ -57,6 +59,9 @@ _HEBREW_BOOKS = {
     'האיגרת הראשונה ליוחנן': '1 John', 'יוחנן הראשונה': '1 John',
     'טימותיאוס הראשונה': '1 Timothy', 'טימותיאוס השנייה': '2 Timothy',
     'התגלות': 'Revelation',
+    # Exact additional forms in the immutable Summer 2020 corrections.
+    'הראשונה ליוחנן': '1 John', 'פטרוס הראשונה': '1 Peter',
+    'גלטים': 'Galatians', 'טיטוס': 'Titus',
 }
 # The complete finite baseline is authoritative; observed, source-paired
 # spelling variants above remain exact aliases rather than fuzzy matching.
@@ -86,6 +91,7 @@ _PRECEDING_NAMED_ORDINAL = re.compile(
     r'הראשו(?:ן|נה)|השני(?:ה|יה|ת)?|השלישי(?:ת)?|הרביעי(?:ת)?|'
     r'החמישי(?:ת)?|השישי(?:ת)?|השביעי(?:ת)?|השמיני(?:ת)?|התשיעי(?:ת)?|העשירי(?:ת)?)'
     r'(?:\s+אל)?\s*$', re.I)
+_PRECEDING_HEBREW_EPISTLE_TITLE = re.compile(r'(?<!\w)\w*איגרת\s+$')
 _BARE_CLOCK_VALUE = re.compile(r'(?:[01]?[0-9]|2[0-3])\s*:\s*[0-5][0-9]')
 _AMOUNT_WORDS = (r'(?:Euro|EUR|US-Dollar|Dollar|USD|CHF|Franken|GBP|Pfund|JPY|Yen|'
                  r'Prozent|percent|Kilogramm|Kilometer|Liter|kg|km|cm|mm|g|'
@@ -413,6 +419,57 @@ def _quoted_prose_after_colon(text: str, colon: int) -> bool:
             and _quoted_prose(text[colon + 1:].lstrip()))
 
 
+def _german_prose_after_comma(text: str, comma: int) -> bool:
+    """A chapter-only mention can be followed by a prose comma.
+
+    Require whitespace and plain words, or a plain word followed by a balanced
+    prose quotation (the observed ``Römer 13, den „höheren Gewalten ...“``).
+    Numeric, Roman-numeral and dangling tails still go through citation parsing.
+    """
+    if text[comma:comma + 1] != ',' or not text[comma + 1:comma + 2].isspace():
+        return False
+    tail = text[comma + 1:].lstrip()
+    if tail[:1] in _QUOTE_PAIRS:
+        return _quoted_prose(tail)
+    if _plain_prose(tail):
+        return True
+    first = re.match(r'([^\W\d_]{2,})\s+', tail)
+    return bool(first and not re.fullmatch('[IVXLCDM]+', first[1], re.I)
+                and not all(character in _HEBREW_VALUES for character in first[1])
+                and _quoted_prose(tail[first.end():]))
+
+
+def _unmarked_hebrew_citation(text: str, book_start: int, book_end: int,
+                              book: str) -> tuple[int, str] | None:
+    """Recognize the exact delimited form seen in ``— משלי טז:יח.``.
+
+    A known book, preceding citation dash, separating whitespace, adjacent
+    chapter:verse tokens and sentence-ending period are all required. Only
+    canonical multi-letter numerals qualify. This does not enable unmarked
+    words in the general number parser, bare citations, ranges or verse lists.
+    Same-block source comparison still protects the decoded identity and count.
+    """
+    if text[:book_start].rstrip()[-1:] not in tuple(_DASHES):
+        return None
+    start = _space(text, book_end)
+    if start == book_end:
+        return None
+    pair = re.match(r'([\u05d0-\u05ea]{2,}):([\u05d0-\u05ea]{2,})', text[start:])
+    if pair is None:
+        return None
+    # Reinsert the conventional mark only for checking canonical spelling;
+    # never rewrite the candidate or accept merely additive letter values.
+    chapter, verse = (_hebrew_number(token[:-1] + '״' + token[-1])
+                      for token in pair.groups())
+    if chapter is None and verse is None:
+        return None  # Ordinary Hebrew words are not numeric evidence.
+    end = start + pair.end()
+    if (chapter is None or verse is None or text[end:end + 1] != '.'
+            or text[end + 1:end + 2] and not text[end + 1].isspace()):
+        return end, f'!invalid[heb] {book} {text[start:end]}'
+    return end, f'{book} {chapter}:{verse}'
+
+
 def _verse_annotation(text: str, colon: int, language: str) -> tuple[int, int] | None:
     """One explicit verse label after a complete citation, never recursion.
 
@@ -434,7 +491,7 @@ def _verse_annotation(text: str, colon: int, language: str) -> tuple[int, int] |
 
 
 def _parse_at(text: str, start: int, language: str, book: str | None = None,
-              *, comma: bool = False) -> tuple[int, str | None] | None:
+              *, comma: bool = False, chapter_introductions: bool = False) -> tuple[int, str | None] | None:
     chapter = _atom(text, start, language)
     if chapter is None:
         return None
@@ -446,7 +503,9 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     if after < len(text) and (text[after] == ':' or (comma and text[after] == ',')):
         verse_start = _space(text, after + 1)
         if book and chapter_value is not None and (_prose_after_colon(text, after)
-                                                   or _quoted_prose_after_colon(text, after)):
+                or _quoted_prose_after_colon(text, after)
+                or chapter_introductions and language == 'deu'
+                and _german_prose_after_comma(text, after)):
             # Record only the introductory prefix as consumed. In particular,
             # a later real citation in the quoted prose must still be parsed.
             return verse_start, None
@@ -499,7 +558,84 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     return end, f'{prefix}{chapter_value[0]}:{expression}'
 
 
-def reference_mentions(text: str, language: str, *, target_language: str | None = None) -> list[tuple[int, int, str]]:
+def _preceding_ordinal_start(text: str, position: int) -> int | None:
+    """Keep the full unsupported ordinal prefix, including stacked ordinals."""
+    start = position
+    while True:
+        ordinals = [match for pattern in (_PRECEDING_ORDINAL, _PRECEDING_NAMED_ORDINAL)
+                    if (match := pattern.search(text[:start]))]
+        if not ordinals:
+            return start if start != position else None
+        start = min(match.start() for match in ordinals)
+
+
+def _qualified_books(text: str, language: str, target_language: str | None = None,
+                     *, retain_unsupported_ordinals: bool = False):
+    book_pattern, identities = _book_pattern(language, target_language)
+    for match in book_pattern.finditer(text):
+        ordinal_start = _preceding_ordinal_start(text, match.start())
+        if ordinal_start is not None and not retain_unsupported_ordinals:
+            continue
+        book = identities[match.lastgroup]
+        if (language == 'heb' and book == '1 John'
+                and _PRECEDING_HEBREW_EPISTLE_TITLE.search(text[:match.start()])):
+            # A newly supported shorter name cannot salvage a larger title
+            # whose unsupported attached prefix failed the normal boundary.
+            continue
+        yield match, book, ordinal_start
+
+
+def chapter_reference_mentions(text: str, language: str, references,
+                               *, target_language: str | None = None) -> list[tuple[int, int, str]]:
+    """Find chapter-only identities for an explicitly source-qualified block.
+
+    Callers must not add these to ordinary reference counters unless the English
+    block has the authenticated ``in [book] [chapter] to [prose]`` introduction.
+    Within that block, protect every complete chapter-only mention on both sides
+    so another mention cannot replace or conceal an omitted/duplicated chapter.
+    """
+    normalized = _decimal_digits(text)
+    result = []
+    for match, book, ordinal_start in _qualified_books(normalized, language, target_language,
+                                                       retain_unsupported_ordinals=language == 'deu'):
+        start = _space(normalized, match.end())
+        chapter = _DECIMAL_ATOM.match(normalized, start)
+        if chapter is None:
+            continue
+        if any(left <= start < right for left, right, _ in references):
+            continue
+        end = chapter.end()
+        if ordinal_start is not None:
+            result.append((ordinal_start, end,
+                           f'!invalid[deu] chapter-only ordinal {normalized[ordinal_start:end]}'))
+            continue
+        value = _number(chapter.group(), language)
+        if value is None:
+            continue
+        after = _space(normalized, end)
+        tail = normalized[after:]
+        if (not tail or tail[:1] in (';', ')', ']', '!', '?')
+                or tail.startswith('.') and (len(tail) == 1 or tail[1].isspace())
+                or after > end and _plain_prose(tail)
+                or tail.startswith(',') and (
+                    _german_prose_after_comma(normalized, after) if language == 'deu'
+                    else normalized[after + 1:after + 2].isspace()
+                    and _plain_prose(normalized[after + 1:].lstrip()))):
+            result.append((match.start(), end, f'chapter-only {book} {value[0]}'))
+        elif language == 'deu':
+            result.append((match.start(), end, f'!invalid[deu] chapter-only {book} {chapter.group()}'))
+    return result
+
+
+def has_source_chapter_introduction(text: str, chapters) -> bool:
+    """Only the source's narrow introduction enables chapter-only comparison."""
+    return any(re.search(r'(?<!\w)in\s+$', text[:start], re.I)
+               and re.match(r'\s+to\s+', text[end:], re.I)
+               and _plain_prose(text[end:].lstrip()) for start, end, _ in chapters)
+
+
+def reference_mentions(text: str, language: str, *, target_language: str | None = None,
+                       chapter_introductions: bool = False) -> list[tuple[int, int, str]]:
     """Return conservative (start, end, key) citation mentions.
 
     ``language`` is a trusted configured three-letter language code. Pass the
@@ -514,13 +650,21 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     normalized = _decimal_digits(text)
     mentions = []
     introductions = []
-    book_pattern, identities = _book_pattern(language, target_language)
-    for match in book_pattern.finditer(normalized):
-        if (_PRECEDING_ORDINAL.search(normalized[:match.start()])
-                or _PRECEDING_NAMED_ORDINAL.search(normalized[:match.start()])):
-            continue
-        parsed = _parse_at(normalized, _space(normalized, match.end()), language,
-                           identities[match.lastgroup], comma=language == 'deu')
+    for match, book, ordinal_start in _qualified_books(normalized, language, target_language,
+                                                       retain_unsupported_ordinals=language == 'heb'):
+        if ordinal_start is not None:
+            parsed = _unmarked_hebrew_citation(normalized, ordinal_start, match.end(), book)
+            if parsed is not None:
+                end, _ = parsed
+                mentions.append((ordinal_start, end,
+                                 f'!invalid[heb] ordinal {normalized[ordinal_start:end]}'))
+            continue  # Other historical unsupported-ordinal syntax is unchanged.
+        parsed = (_unmarked_hebrew_citation(normalized, match.start(), match.end(), book)
+                  if language == 'heb' else None)
+        if parsed is None:
+            parsed = _parse_at(normalized, _space(normalized, match.end()), language,
+                               book, comma=language == 'deu',
+                               chapter_introductions=chapter_introductions)
         if parsed:
             end, key = parsed
             if match.group(match.lastgroup).rstrip('.') == 'Is':
