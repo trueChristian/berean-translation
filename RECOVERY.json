@@ -7,11 +7,10 @@
     "version": 2
   },
   "counts": {
-    "active": 638,
+    "active": 639,
     "continuation_review_only_requires_attention": 13,
     "eligible_available": 1115,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "lineage_predecessor_changed_requires_attention": 1,
     "provider_refusal_requires_owner_attention": 1,
     "public_or_human_replacement": 108
   },
@@ -5821,9 +5820,9 @@
       "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
       "has_publication": false,
       "language": "deu",
-      "latest_task": "9a96a40e4d52d2dd684b314333b33bb8",
-      "processing_status": "not_ready",
-      "reason": "lineage_predecessor_changed_requires_attention",
+      "latest_task": "f49aea11723ef6cc89c535c56f577657",
+      "processing_status": "queued",
+      "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef"
     },

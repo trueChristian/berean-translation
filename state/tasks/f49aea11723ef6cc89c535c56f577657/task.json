@@ -1,0 +1,157 @@
+{
+  "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "downstream-2026100400",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "180dc5520e5f01f0e4c96995adcc1d30244844b1280c9cb00ff53a729b1c1387"
+  },
+  "created_at": "2026-10-04T00:08:52+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.226888,
+    "review_reserved_usd": 0.372042,
+    "total_reserved_usd": 0.59893
+  },
+  "downstream_candidate_sha256": "c54f61e235d3e88e11a3fdcee00b4b53d6e69f71f4d05afe92e6834ed7c75ffb",
+  "downstream_key": "996ad4a6a743f109689626976ba43054d6025d2958b34173f56ac80a00540bc3",
+  "downstream_previous_sha256": "191256ec89a690f64dca911d2646c70899d279effec76d1187f1dab88f76c693",
+  "downstream_previous_task": "9a96a40e4d52d2dd684b314333b33bb8",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p>Ecclesiastes 12:1-7 ...</p> (Demenz in der Bibel section)",
+      "severity": "major",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Restore the original English Scripture quotation exactly as it appears in source.html. Replace the German rendering of Ecclesiastes 12:1-7 with the verbatim English passage from source.html, preserving punctuation and quotation marks and any surrounding HTML tags.",
+      "translation_quote": "„Gedenke deines Schöpfers in den Tagen deiner Jugend, ehe die bösen Tage kommen und die Jahre nahen, ... Dann wird der Staub wieder zur Erde zurückkehren, wie er gewesen ist, und der Geist wird zu dem Gott zurückkehren, der ihn gegeben hat.“"
+    },
+    {
+      "location": "<p>“And thou shalt teach them diligently unto thy children, ...” (Deuteronomy 6:7 in Demenz in der Bibel section)</p>",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Restore the original English Scripture quotation exactly as it appears in source.html. Replace the German translation of Deuteronomy 6:7 with the verbatim English sentence from source.html, including the parenthetical reference and quotation marks, preserving surrounding HTML structure.",
+      "translation_quote": "„Und du sollst sie deinen Kindern einschärfen und davon reden, wenn du in deinem Hause sitzt und wenn du auf dem Wege gehst und wenn du dich niederlegst und wenn du aufstehst“ (Deuteronomium 6:7)."
+    },
+    {
+      "location": "<p>Galatians quotation in Conclusion</p>",
+      "severity": "minor",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "No doctrinal change here, but for consistency of Scripture presentation: either keep all Scripture quotations in English exactly as in the source (preferred) or mark clearly if a translation is intentionally provided. Currently Galatians remains in English while earlier passages were translated to German; to be consistent, restore Ecclesiastes and Deuteronomy to the original English text (see major findings) so that all Scripture quotations match the source. Do not alter the Galatians passage.",
+      "translation_quote": "„Wesentlich ist, die Früchte des Geistes in die Praxis umzusetzen. „But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law“ (Galatians 5:22-23).”"
+    },
+    {
+      "location": "<p>“We moved on to talking about other things, but I could tell that Al’s heart was breaking.” / corresponding German paragraph</p>",
+      "severity": "minor",
+      "source_quote": "“We moved on to talking about other things, but I could tell that Al’s heart was breaking.”",
+      "suggested_fix": "Fix the English possessive left in the German text. Replace \"Al’s Herz\" or \"Al’s Herz zerbrach\" with correct German phrasing preserving meaning, e.g. \"aber ich konnte sehen, wie Al sein Herz zerbrach\" or better: \"aber ich konnte sehen, wie sein Herz, Al's, zerbrach\" (preferred: \"aber ich konnte sehen, wie sein Herz schwer zerbrach\" / \"und ich sah, wie Al innerlich zerbrach\"). Keep original HTML tags intact.",
+      "translation_quote": "\"Wir wechselten das Thema, aber ich konnte sehen, wie Al’s Herz zerbrach. Seine Frau von 48 Jahren sah äußerlich wie immer aus und doch war sie eine völlig andere Person.\""
+    },
+    {
+      "location": "<p>Lecanemab cost parenthetical</p>",
+      "severity": "minor",
+      "source_quote": "\"This medication is very expensive ($26,500 per year)and it has been linked to an increase in strokes.\"",
+      "suggested_fix": "Preserve the original numeric and currency formatting from source.html. Replace \"(26.500 USD pro Jahr)\" with the source wording \"($26,500 per year)\" (keeping spacing and punctuation), or at minimum use a consistent localized format but preserve the original currency symbol and numeric value exactly as in source.html if that is the editorial policy. Keep surrounding HTML unchanged.",
+      "translation_quote": "\"Dieses Medikament ist sehr teuer (26.500 USD pro Jahr) und es wurde mit einem Anstieg von Schlaganfällen in Verbindung gebracht.\""
+    }
+  ],
+  "id": "f49aea11723ef6cc89c535c56f577657",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "deu",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
