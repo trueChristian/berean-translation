@@ -12,15 +12,33 @@
       "event": "complete",
       "reason": null,
       "task": "f44e9ce3890dbe85c480b63d3111fd42"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Roline",
+        "commit": "42fb7334bcb086e85f0f6e395e8be6dce4de2edc",
+        "email": "roline@vdm.io",
+        "time": "2026-10-04T08:58:48+02:00"
+      },
+      "html_sha256": "4c2d19634e026a47a4fcc068f57ddfc72a7164a29f43b98dfd1e362f9cbb11ef",
+      "metadata_sha256": "0c28f5b71125df0d61ab4dbe471a6e356679699919b94b680b5e1ceb5a2d01cb"
     }
   ],
   "language": "afr",
   "latest_task": "f44e9ce3890dbe85c480b63d3111fd42",
   "published": {
+    "accepted_snapshot": "state/publications/0dc15106e4c6102d1415086094b206e61cd2443bd0799a9def67b4170adcd609.json",
     "html_path": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.html",
-    "html_sha256": "ccba5a2c72413b53c74c89c36dac208c64822ce9a60a5a2e6791f46d7134d992",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "4c2d19634e026a47a4fcc068f57ddfc72a7164a29f43b98dfd1e362f9cbb11ef",
+    "human_review": {
+      "author": "Roline",
+      "commit": "42fb7334bcb086e85f0f6e395e8be6dce4de2edc",
+      "email": "roline@vdm.io",
+      "time": "2026-10-04T08:58:48+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/042fce50-3724-4100-b397-093c6d081e89/\" data-source-article-id=\"042fce50-3724-4100-b397-093c6d081e89\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
     "metadata_path": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.json",
     "metadata_sha256": "0c28f5b71125df0d61ab4dbe471a6e356679699919b94b680b5e1ceb5a2d01cb",

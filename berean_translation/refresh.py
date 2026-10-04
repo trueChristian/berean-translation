@@ -80,7 +80,7 @@ def enqueue_source_refreshes(engine) -> list[str]:
     for record in state.records():
         language, article_id = record['language'], record['article_id']
         pub, article = record.get('published'), articles.get(article_id)
-        if (language not in config.languages or not pub or pub.get('human_reviewed') is not False
+        if (language not in config.languages or not pub or pub.get('edit_issue') or pub.get('human_reviewed') is not False
                 or article is None or article['issue_id'] not in issue_ids):
             continue
         key = article['translation_key']

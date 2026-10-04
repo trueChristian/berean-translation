@@ -78,10 +78,11 @@ def main(argv=None):
         state = State(config.root)
         if args.command == 'validate':
             if args.recognize_human_edits:
-                before = json.dumps(state.records(),sort_keys=True)
                 state.sync_human_reviews(GitStore(config.root))
-                if before != json.dumps(state.records(),sort_keys=True):
-                    state.derive(config)
+                # Records may already have been backfilled in a reviewed commit.
+                # Reports are derived views, so refresh them even when recognition
+                # is idempotent; strict repository validation still follows.
+                state.derive(config)
             result = validate_repository(config)
         elif args.command == 'derive':
             result = state.derive(config)

@@ -2,7 +2,7 @@
 
 An independent, resumable OpenAI Batch translation runtime for the authoritative English articles in [`trueChristian/berean-voice`](https://github.com/trueChristian/berean-voice). Python and GitHub Actions manage requests, source revisions, translations, quality checks, review history and website-ready exports. There is no database, permanently running server, website framework or image duplication.
 
-**Publication policy:** a translation that passes the automated checks is available for website export immediately, with a localized AI notice. Human review is optional: a collaborator reviews/corrects the translation, removes the complete notice block and commits. English always remains authoritative. Failed candidates are retained for inspection but are never exported as finished translations.
+**Publication policy:** a translation that passes the automated checks is available for website export immediately, with a localized AI notice. Human editing is first class: a collaborator edits the content or its notice and commits normally; attribution and protection are recorded automatically. English always remains authoritative. Failed candidates are retained for inspection but are never exported as finished translations.
 
 ## English editors do not maintain hashes
 
@@ -165,11 +165,13 @@ Inspect `state/tasks/<task-id>/results/review1.json` and `review2.json` for the 
 
 ### Human review
 
-Open a published HTML file and its adjacent metadata JSON. Review and correct the translation without altering article UUIDs, image URLs or source structure. Remove the **entire** trailing `<aside class="translation-notice" data-translation-notice="ai" ...>...</aside>` after the article. Commit or merge the reviewed change into `main`.
+Edit a published HTML file or its adjacent title/subtitle/section JSON and commit or merge normally. You may change the prose, structure, Scripture references, and the entire presentation notice, including retaining the link to English. You do not need to remove a block, use prescribed review wording, edit status fields, or maintain hashes.
 
-The collector recognizes this ordinary content commit, records its Git attribution, updates the generated catalogue, and preserves the model/source history. A human edit that retains the notice stays AI-unreviewed. Partially deleting the notice is rejected so the application does not misrepresent review status.
+The collector recognizes the human commit, records its attribution, updates metadata internally, and protects that publication from later AI replacement. Human editorial authority is independent of notice text and AI quality, source-parity or reference checks. The article body is preserved verbatim. The system replaces the presentation note with a localized human-first notice: reviewed by a human, originally translated by AI, with an authoritative English link and no model version or reviewer name. Model and English-source history remain traceable internally. Safe HTML rendering, the stable article identity and readable JSON still apply.
 
-An **AI — Review** request can inspect a human-reviewed translation, but it cannot overwrite it or remove its notice on the reviewer's behalf. Any accepted correction is saved as a **proposal** under the task. A human applies the useful changes to the published files in another content commit. Repository commit attribution records the collaborator's action; it is not independent certification of the translation's correctness.
+A technically broken working file is isolated with a visible per-article diagnostic. The edited file stays intact and its hash-verified last accepted copy remains available for export while other articles continue. Committing a repair clears that diagnostic automatically. No model call repairs or rewrites a human edit. Uncommitted or bot-authored changes cannot claim human attribution.
+
+Human review is the final authority tier. The article/language pair is permanently excluded from every new AI review, repair, retranslation and audit, including forced/manual requests and later English changes. Further human commits remain welcome. Already-submitted AI results remain auditable and cannot overwrite the human publication. Prepared mixed batches exclude the human-controlled requests and retain unchanged requests for the other articles without another reservation or attempt. Repository attribution records the collaborator’s action; it is not independent certification of linguistic accuracy.
 
 ### New and changed English articles
 

@@ -186,20 +186,24 @@ class RuntimeTests(unittest.TestCase):
         body,_,_ = self.state.publication_candidate(pub)
         self.state.path(pub['html_path']).write_text(body['html'])
         self.git.bot = True
-        with self.assertRaises(ContractError): self.engine.tick()
+        self.engine.tick()
+        isolated = self.state.record('afr', A)['published']
+        self.assertFalse(isolated['human_reviewed'])
+        self.assertIn('edit_issue', isolated)
+        self.assertEqual(validate_repository(self.config)['ready'], 2)
 
-    def test_ai_review_of_human_reviewed_article_creates_proposal(self):
+    def test_human_reviewed_article_is_excluded_from_new_ai_review(self):
         queue(self.state); drive(self.engine,self.provider)
         pub = self.state.record('afr',A)['published']
         body,_,_ = self.state.publication_candidate(pub)
         self.state.path(pub['html_path']).write_text(body['html'])
         self.engine.tick()
         before = self.state.path(pub['html_path']).read_bytes()
+        previous_task = self.state.record('afr', A)['latest_task']
         queue(self.state,'review',operation='review',issues='all')
         drive(self.engine,self.provider)
         record = self.state.record('afr',A)
-        task = self.state.read(f'state/tasks/{record["latest_task"]}/task.json')
-        self.assertEqual(task['status'],'proposal')
+        self.assertEqual(record['latest_task'], previous_task)
         self.assertEqual(before,self.state.path(pub['html_path']).read_bytes())
         self.assertTrue(record['published']['human_reviewed'])
 

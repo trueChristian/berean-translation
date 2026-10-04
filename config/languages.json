@@ -10,7 +10,8 @@
     ],
     "guidance": "Use standard written Mandarin in Simplified Chinese.",
     "notice": "本文由 OpenAI（模型：{model}）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。",
-    "english_label": "英文原文"
+    "english_label": "英文原文",
+    "reviewed_notice": "本文已经人工审核，最初由人工智能翻译。英文原文仍为权威版本。"
   },
   "hin": {
     "name": "Hindi",
@@ -20,7 +21,8 @@
     "aliases": [],
     "guidance": "Use contemporary standard Hindi in Devanagari.",
     "notice": "इस लेख का अनुवाद OpenAI (मॉडल: {model}) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें।",
-    "english_label": "अंग्रेज़ी मूल पाठ"
+    "english_label": "अंग्रेज़ी मूल पाठ",
+    "reviewed_notice": "इस लेख की समीक्षा एक व्यक्ति ने की है, हालांकि इसका मूल अनुवाद एआई से किया गया था। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है।"
   },
   "spa": {
     "name": "Spanish",
@@ -30,7 +32,8 @@
     "aliases": [],
     "guidance": "Use internationally intelligible Spanish without unnecessary regionalisms.",
     "notice": "Este artículo ha sido traducido mediante inteligencia artificial por OpenAI (modelo: {model}) y aún no ha sido revisado por una persona. El original en inglés es la versión autorizada. Si existen dudas sobre el significado, consulte el original en inglés.",
-    "english_label": "Original en inglés"
+    "english_label": "Original en inglés",
+    "reviewed_notice": "Este artículo ha sido revisado por una persona, aunque originalmente se tradujo con IA. El original en inglés sigue siendo la versión de referencia autorizada."
   },
   "ara": {
     "name": "Arabic",
@@ -40,7 +43,8 @@
     "aliases": [],
     "guidance": "Use Modern Standard Arabic, not a regional dialect.",
     "notice": "تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: {model})، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي.",
-    "english_label": "الأصل الإنجليزي"
+    "english_label": "الأصل الإنجليزي",
+    "reviewed_notice": "راجع شخص هذه المقالة، مع أنها تُرجمت في الأصل باستخدام الذكاء الاصطناعي. يظل النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة."
   },
   "fra": {
     "name": "French",
@@ -52,7 +56,8 @@
     ],
     "guidance": "Use standard internationally intelligible French.",
     "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-    "english_label": "Original anglais"
+    "english_label": "Original anglais",
+    "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité."
   },
   "ben": {
     "name": "Bengali",
@@ -62,7 +67,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Bengali in Bengali script.",
     "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
-    "english_label": "মূল ইংরেজি পাঠ"
+    "english_label": "মূল ইংরেজি পাঠ",
+    "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।"
   },
   "por": {
     "name": "Portuguese",
@@ -72,7 +78,8 @@
     "aliases": [],
     "guidance": "Use consistent, internationally intelligible Portuguese; avoid unnecessary regionalisms.",
     "notice": "Este artigo foi traduzido por inteligência artificial com OpenAI (modelo: {model}) e ainda não foi revisto por uma pessoa. O original em inglês é a versão de referência autorizada. Em caso de dúvida sobre o significado, consulte o original em inglês.",
-    "english_label": "Original em inglês"
+    "english_label": "Original em inglês",
+    "reviewed_notice": "Este artigo foi revisto por uma pessoa, embora tenha sido originalmente traduzido com IA. O original em inglês continua a ser a versão de referência."
   },
   "ind": {
     "name": "Indonesian",
@@ -82,7 +89,8 @@
     "aliases": [],
     "guidance": "Use standard Bahasa Indonesia.",
     "notice": "Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: {model}) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris.",
-    "english_label": "Naskah asli bahasa Inggris"
+    "english_label": "Naskah asli bahasa Inggris",
+    "reviewed_notice": "Artikel ini telah ditinjau oleh manusia, meskipun awalnya diterjemahkan dengan AI. Naskah asli berbahasa Inggris tetap menjadi versi rujukan yang berwenang."
   },
   "urd": {
     "name": "Urdu",
@@ -92,7 +100,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Urdu in Perso-Arabic script.",
     "notice": "اس مضمون کا ترجمہ OpenAI (ماڈل: {model}) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔",
-    "english_label": "اصل انگریزی متن"
+    "english_label": "اصل انگریزی متن",
+    "reviewed_notice": "اس مضمون کا ایک انسان نے جائزہ لیا ہے، اگرچہ اس کا ابتدائی ترجمہ اے آئی سے کیا گیا تھا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔"
   },
   "rus": {
     "name": "Russian",
@@ -102,7 +111,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Russian.",
     "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
-    "english_label": "Английский оригинал"
+    "english_label": "Английский оригинал",
+    "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией."
   },
   "deu": {
     "name": "German",
@@ -114,7 +124,8 @@
     ],
     "guidance": "Use standard contemporary German.",
     "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-    "english_label": "Englisches Original"
+    "english_label": "Englisches Original",
+    "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung."
   },
   "nld": {
     "name": "Dutch",
@@ -126,7 +137,8 @@
     ],
     "guidance": "Use standard contemporary Dutch.",
     "notice": "Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: {model}) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel.",
-    "english_label": "Engels origineel"
+    "english_label": "Engels origineel",
+    "reviewed_notice": "Dit artikel is door een mens nagekeken, hoewel het oorspronkelijk met AI is vertaald. Het Engelse origineel blijft de gezaghebbende versie."
   },
   "afr": {
     "name": "Afrikaans",
@@ -136,7 +148,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Afrikaans.",
     "notice": "Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: {model}) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is.",
-    "english_label": "Engelse oorspronklike"
+    "english_label": "Engelse oorspronklike",
+    "reviewed_notice": "Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe."
   },
   "swa": {
     "name": "Swahili",
@@ -146,7 +159,8 @@
     "aliases": [],
     "guidance": "Use standard Kiswahili.",
     "notice": "Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: {model}) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza.",
-    "english_label": "Maandishi asilia ya Kiingereza"
+    "english_label": "Maandishi asilia ya Kiingereza",
+    "reviewed_notice": "Makala hii imehakikiwa na binadamu, ingawa awali ilitafsiriwa kwa kutumia AI. Nakala asili ya Kiingereza inabaki kuwa toleo lenye mamlaka."
   },
   "kor": {
     "name": "Korean",
@@ -156,7 +170,8 @@
     "aliases": [],
     "guidance": "Use standard written Korean and a respectful editorial register.",
     "notice": "이 글은 OpenAI의 인공지능(모델: {model})으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오.",
-    "english_label": "영어 원문"
+    "english_label": "영어 원문",
+    "reviewed_notice": "이 글은 사람이 검토했으며, 최초 번역에는 AI가 사용되었습니다. 영어 원문이 최종 기준입니다."
   },
   "ita": {
     "name": "Italian",
@@ -166,7 +181,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Italian.",
     "notice": "Questo articolo è stato tradotto con l’intelligenza artificiale di OpenAI (modello: {model}) e non è ancora stato revisionato da una persona. L’originale inglese è la versione autorevole. In caso di dubbi sul significato, consultare l’originale inglese.",
-    "english_label": "Originale inglese"
+    "english_label": "Originale inglese",
+    "reviewed_notice": "Questo articolo è stato rivisto da una persona, sebbene fosse stato originariamente tradotto con l’IA. L’originale inglese rimane la versione autorevole."
   },
   "heb": {
     "name": "Hebrew",
@@ -176,7 +192,8 @@
     "aliases": [],
     "guidance": "Use contemporary Modern Hebrew, not reconstructed biblical Hebrew.",
     "notice": "מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: {model}) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית.",
-    "english_label": "המקור באנגלית"
+    "english_label": "המקור באנגלית",
+    "reviewed_notice": "מאמר זה נבדק בידי אדם, אף שתורגם במקור בעזרת בינה מלאכותית. המקור באנגלית נותר הנוסח המוסמך."
   },
   "ell": {
     "name": "Greek",
@@ -188,7 +205,8 @@
     ],
     "guidance": "Use contemporary Modern Greek, not Koine or Ancient Greek.",
     "notice": "Το άρθρο αυτό μεταφράστηκε με τεχνητή νοημοσύνη της OpenAI (μοντέλο: {model}) και δεν έχει ακόμη ελεγχθεί από άνθρωπο. Το αγγλικό πρωτότυπο αποτελεί την αυθεντική έκδοση αναφοράς. Σε περίπτωση αμφιβολίας για το νόημα, συμβουλευτείτε το αγγλικό πρωτότυπο.",
-    "english_label": "Αγγλικό πρωτότυπο"
+    "english_label": "Αγγλικό πρωτότυπο",
+    "reviewed_notice": "Αυτό το άρθρο έχει ελεγχθεί από άνθρωπο, αν και αρχικά μεταφράστηκε με τεχνητή νοημοσύνη. Το αγγλικό πρωτότυπο παραμένει η έγκυρη έκδοση."
   },
   "swe": {
     "name": "Swedish",
@@ -198,7 +216,8 @@
     "aliases": [],
     "guidance": "Use standard contemporary Swedish.",
     "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
-    "english_label": "Engelskt original"
+    "english_label": "Engelskt original",
+    "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen."
   },
   "nob": {
     "name": "Norwegian (Bokmål)",
@@ -211,6 +230,7 @@
     ],
     "guidance": "Use contemporary Norwegian Bokmål, not Nynorsk.",
     "notice": "Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: {model}) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen.",
-    "english_label": "Engelsk original"
+    "english_label": "Engelsk original",
+    "reviewed_notice": "Denne artikkelen er gjennomgått av et menneske, selv om den opprinnelig ble oversatt med KI. Den engelske originalen er fortsatt den autoritative versjonen."
   }
 }

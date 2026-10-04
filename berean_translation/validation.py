@@ -7,11 +7,12 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
-from .common import ContractError, digest, json_hash, read_json, safe_path, uuid, write_json, write_text
+from .common import ContractError, digest, json_hash, loads, read_json, safe_path, uuid, write_json, write_text
 from .html import rewrite_export_urls, validate_translation
 from .source import translation_key
 from .recovery import validate_recoveries
 from .state import State, TERMINAL
+from .review_notice import validate_human_content, validate_recorded_notice
 
 
 def validate_repository(config, check_index=True):
@@ -31,9 +32,11 @@ def validate_repository(config, check_index=True):
         expected_files.update((pub['html_path'],pub['metadata_path']))
         source = state.source(pub)
         candidate,tail,text = state.publication_candidate(pub)
-        validate_translation(source,candidate,language=language)
-        if bool(tail) == pub['human_reviewed']:
-            raise ContractError('Notice state disagrees with human review; run the review-sync worker')
+        if pub['human_reviewed']:
+            validate_human_content(candidate, tail, identity)
+        else:
+            validate_translation(source,candidate,language=language)
+        validate_recorded_notice(pub, tail)
         if digest(text) != pub['html_sha256'] or json_hash({k:candidate[k] for k in ('title','subtitle','section')}) != pub['metadata_sha256']:
             raise ContractError('Published files changed without review synchronization')
         if source['translation_key'] != pub['translation_key'] or source['article']['id'] != identity:
@@ -41,7 +44,11 @@ def validate_repository(config, check_index=True):
         if not isinstance(pub.get('model'),str) or not isinstance(pub.get('review_model'),str):
             raise ContractError('Missing model provenance')
     actual_files = {p.relative_to(config.root).as_posix() for p in (config.root/'content').rglob('*') if p.is_file()}
-    if actual_files != expected_files:
+    isolated_missing = {record['published'][field] for record in state.records()
+                        if (record.get('published') or {}).get('edit_issue')
+                        for field, value in record['published']['edit_issue']['observed_files'].items()
+                        if not isinstance(value, str) and record['published'][field] not in actual_files}
+    if actual_files != expected_files - isolated_missing:
         raise ContractError('Missing or orphaned content files')
     task_list = state.tasks()
     tasks = {t['id']:t for t in task_list}
@@ -65,7 +72,8 @@ def validate_repository(config, check_index=True):
     validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
     from .downstream import validate_history
     validate_history(config, state, tasks)
-    for batch in state.batches():
+    batches = {batch['id']:batch for batch in state.batches()}
+    for batch in batches.values():
         payload = state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
         if digest(payload) != batch['payload_sha256']:
             raise ContractError('Batch input payload changed')
@@ -73,6 +81,26 @@ def validate_repository(config, check_index=True):
             raise ContractError('Duplicate batch request identities')
         if any(identity not in tasks for identity in batch['tasks']):
             raise ContractError('Batch references a missing task')
+        if batch.get('replacement_batch'):
+            replacement = batches.get(batch['replacement_batch'])
+            if not replacement or replacement.get('reservation_reused_from') != batch['id']:
+                raise ContractError('Prepared-batch replacement must retain its reciprocal reservation link')
+        if batch.get('reservation_reused_from'):
+            parent = batches.get(batch['reservation_reused_from'])
+            if (not parent or parent.get('status') != 'cancelled_before_submission'
+                    or parent.get('exclusion_reason') != 'human_editorial_authority'
+                    or parent.get('replacement_batch') != batch['id'] or parent.get('remote_id')
+                    or (parent.get('submission_started_at') and parent.get('create_not_called') is not True)
+                    or any(batch.get(key) != parent.get(key) for key in
+                           ('campaign','stage','model','reserved_usd'))):
+                raise ContractError('Prepared-batch reservation transfer is not proven unsubmitted')
+            kept = [identity for identity in parent['tasks'] if identity not in parent['excluded_task_ids']]
+            original = state.path(f'state/batches/{parent["id"]}/input.jsonl').read_bytes()
+            expected = b''.join(line for line in original.splitlines(keepends=True)
+                                if loads(line)['custom_id'] in batch['custom_ids'])
+            if (batch['tasks'] != kept or batch['custom_ids'] != [identity+':'+batch['stage'] for identity in kept]
+                    or payload != expected):
+                raise ContractError('Prepared-batch replacement changed an authorized request')
     result = state.projection(config)
     if check_index and state.read('index.json') != result:
         raise ContractError('Generated index is stale; derive it before publication')
@@ -123,10 +151,14 @@ def export(config, destination: Path, source_inventory: dict, source_revision: s
                 continue
             target = copy.deepcopy(item)
             target['status'] = 'ready'
-            text = safe_path(root,item['html']).read_text(encoding='utf-8')
+            publication = State(root).record(item['language'], item['id'])['published']
+            candidate, tail, text = State(root).publication_candidate(publication)
+            if (digest(text) != item['html_sha256'] or
+                    json_hash({key:candidate[key] for key in ('title','subtitle','section')}) != item['metadata_sha256']):
+                raise ContractError('Accepted publication changed during export; retain the prior deployment and retry')
             output = rewrite_export_urls(text,base,config.runtime['english_route'],item['id'])
             write_text(safe_path(stage,item['html']),output)
-            write_json(safe_path(stage,item['metadata']),read_json(safe_path(root,item['metadata'])))
+            write_json(safe_path(stage,item['metadata']),{key:candidate[key] for key in ('title','subtitle','section')})
             target['html_sha256'] = digest(output)
             target['images'] = [{'public_path':base.rstrip('/')+image['public_path'],'alt':image['alt']}
                                 for image in item.get('images',[])]
