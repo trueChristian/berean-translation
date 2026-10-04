@@ -283,8 +283,8 @@ def split_article(text: str) -> tuple[str, str]:
     # Parse the boundary: a closing-tag string inside a comment or attribute is
     # not the article's end and must not be mistaken for a review-notice boundary.
     offsets = [0]
-    for line in text.splitlines(keepends=True):
-        offsets.append(offsets[-1] + len(line))
+    for line in text.split('\n')[:-1]:
+        offsets.append(offsets[-1] + len(line) + 1)
 
     class Boundary(HTMLParser):
         depth = 0
@@ -321,14 +321,20 @@ def notice(language: dict, article_id: str, model: str, english_route: str) -> s
             f'hreflang="en">{html.escape(language["english_label"])}</a></p>\n</aside>')
 
 
+def human_notice(language: dict, article_id: str, english_route: str) -> str:
+    settings = {**language, 'notice':language['reviewed_notice']}
+    return notice(settings, article_id, '', english_route).replace(
+        'data-translation-notice="ai"', 'data-translation-notice="human-reviewed"', 1)
+
+
 def rewrite_export_urls(text: str, base: str, english_route: str, article_id: str) -> str:
     if not re.fullmatch(r'/(?:[A-Za-z0-9_-]+/)*', base):
         raise ContractError('Base must be / or a safe slash-delimited path ending in /')
     route = english_route.format(article_id=article_id)
     replacements = []
     offsets = [0]
-    for line in text.splitlines(keepends=True):
-        offsets.append(offsets[-1] + len(line))
+    for line in text.split('\n')[:-1]:
+        offsets.append(offsets[-1] + len(line) + 1)
 
     class URLs(HTMLParser):
         def handle_starttag(self, tag, attrs):

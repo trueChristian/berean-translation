@@ -5,7 +5,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from .batch_telemetry import provider_error
 from .common import ContractError, digest, json_hash, now, read_json, safe_path, write_json, write_text
-from .html import split_article, validate_translation
+from .html import split_article, validate_translation, human_notice
+from .review_notice import validate_human_content, validate_recorded_notice
+from . import publication_edits
 
 TERMINAL = {'complete','not_ready','proposal','cancelled','budget_blocked','source_error'}
 
@@ -73,37 +75,102 @@ class State:
     def save_candidate(self, task, candidate):
         self.write(f'state/tasks/{task["id"]}/candidate.json',candidate)
 
-    def publication_candidate(self, publication):
+    def publication_candidate(self, publication, *, working=False):
+        if not working and publication.get('edit_issue'):
+            if publication_edits.observed_files(self, publication) != publication['edit_issue']['observed_files']:
+                raise ContractError('Publication working files changed after edit isolation; run review synchronization')
+            return publication_edits.candidate(publication_edits.accepted_payload(self, publication))
         text = self.path(publication['html_path']).read_text(encoding='utf-8')
         body, tail = split_article(text)
         metadata = self.read(publication['metadata_path'])
         if not isinstance(metadata,dict) or set(metadata) != {'title','subtitle','section'}:
             raise ContractError('Translation sidecar must contain title, subtitle, and section only')
-        if tail and tail != publication['notice_html']:
-            raise ContractError('AI notice was partially edited; retain it intact or remove the entire block after review')
+        if not working:
+            publication_edits.verify({'html':text, 'metadata':metadata}, publication)
         return {'html':body,**metadata}, tail, text
 
     def sync_human_reviews(self, gitstore):
+        from .config import Config
+        config = Config(self.root)
         for record in self.records():
             pub = record.get('published')
             if not pub:
                 continue
-            candidate, tail, text = self.publication_candidate(pub)
-            validate_translation(self.source(pub),candidate,language=record['language'])
-            new_html_hash = digest(text)
-            metadata_hash = json_hash({k:candidate[k] for k in ('title','subtitle','section')})
-            if new_html_hash == pub['html_sha256'] and metadata_hash == pub['metadata_sha256']:
-                if bool(tail) == pub['human_reviewed']:
-                    raise ContractError('Notice and stored human-review state disagree')
-                continue
-            changed_path = pub['html_path'] if new_html_hash != pub['html_sha256'] else pub['metadata_path']
-            evidence = gitstore.human_edit_evidence(changed_path)
-            pub.update(html_sha256=new_html_hash,metadata_sha256=metadata_hash,
-                       human_reviewed=not bool(tail), human_review=evidence if not tail else None)
-            record['history'].append({'event':'human_review' if not tail else 'human_edit_unreviewed',
-                                      'evidence':evidence,'html_sha256':new_html_hash,
-                                      'metadata_sha256':metadata_hash})
-            self.save_record(record)
+            # Source/provenance corruption is not an editorial problem.
+            source = self.source(pub)
+            unchanged = False
+            try:
+                candidate, tail, text = self.publication_candidate(pub, working=True)
+                new_html_hash = digest(text)
+                metadata = {k:candidate[k] for k in ('title','subtitle','section')}
+                metadata_hash = json_hash(metadata)
+                if new_html_hash == pub['html_sha256'] and metadata_hash == pub['metadata_sha256']:
+                    unchanged = True
+                    evidence = pub.get('human_review')
+                    if not evidence:
+                        evidence = next((event.get('evidence') for event in reversed(record['history'])
+                            if event.get('event') == 'human_edit_unreviewed'
+                            and event.get('html_sha256') == pub['html_sha256']
+                            and event.get('metadata_sha256') == pub['metadata_sha256']), None)
+                    normalized = human_notice(config.languages[record['language']], record['article_id'],
+                                              config.runtime['english_route'])
+                    if evidence and (not pub['human_reviewed'] or tail != normalized):
+                        validate_human_content(candidate, normalized, record['article_id'])
+                        text = candidate['html'] + '\n\n' + normalized + '\n'
+                        pub.update(html_sha256=digest(text), human_reviewed=True, human_review=evidence,
+                                   human_review_notice_html=normalized)
+                        pub.pop('edit_issue', None)
+                        publication_edits.remember(self, pub, {'html':text, 'metadata':metadata})
+                        write_text(self.path(pub['html_path']), text)
+                        record['history'].append({'event':'human_notice_standardized', 'evidence':evidence,
+                                                  'html_sha256':pub['html_sha256'],
+                                                  'metadata_sha256':metadata_hash})
+                        self.save_record(record)
+                        continue
+                    validate_recorded_notice(pub, tail)
+                    if pub['human_reviewed']:
+                        validate_human_content(candidate, tail, record['article_id'])
+                    else:
+                        validate_translation(source, candidate, language=record['language'])
+                    if pub.pop('edit_issue', None) is not None:
+                        self.save_record(record)
+                    continue
+                changed_path = pub['html_path'] if new_html_hash != pub['html_sha256'] else pub['metadata_path']
+                evidence = gitstore.human_edit_evidence(changed_path)
+                if new_html_hash != pub['html_sha256'] and metadata_hash != pub['metadata_sha256']:
+                    gitstore.human_edit_evidence(pub['metadata_path'])
+                # Human editorial authority does not depend on model judgments,
+                # source parity, reference numbers or the wording of a notice.
+                # The submitted footer is presentation, never an input protocol.
+                # Replace it only after human attribution, keeping the body intact.
+                tail = human_notice(config.languages[record['language']], record['article_id'],
+                                    config.runtime['english_route'])
+                validate_human_content(candidate, tail, record['article_id'])
+                text = candidate['html'] + '\n\n' + tail + '\n'
+                new_html_hash = digest(text)
+                pub.update(html_sha256=new_html_hash,metadata_sha256=metadata_hash,
+                           human_reviewed=True, human_review=evidence,
+                           human_review_notice_html=tail)
+                pub.pop('edit_issue', None)
+                publication_edits.remember(self, pub, {'html': text, 'metadata': metadata})
+                write_text(self.path(pub['html_path']), text)
+                record['history'].append({'event':'human_review',
+                                          'evidence':evidence,'html_sha256':new_html_hash,
+                                          'metadata_sha256':metadata_hash})
+                self.save_record(record)
+            except (ContractError, OSError, UnicodeError) as exc:
+                if unchanged:
+                    raise  # An unchanged accepted record failing is not a new edit.
+                # Keep the editor's files intact. A separately verified accepted
+                # copy remains exportable while other articles keep processing.
+                payload = publication_edits.recover_accepted(self, pub, gitstore, record['history'])
+                publication_edits.remember(self, pub, payload)
+                issue = {'reason':str(exc)[:1200],
+                         'observed_files':publication_edits.observed_files(self, pub)}
+                if pub.get('edit_issue') != issue:
+                    pub['edit_issue'] = issue
+                    record['history'].append({'event':'publication_edit_requires_attention', **issue})
+                    self.save_record(record)
 
     def projection(self, config):
         source = self.read('state/source.json',{'revision':None,'articles':{},'issues':[]})
@@ -113,7 +180,10 @@ class State:
             if not pub:
                 continue
             candidate, tail, text = self.publication_candidate(pub)
-            parsed = validate_translation(self.source(pub), candidate, language=record['language'])
+            validate_recorded_notice(pub, tail)
+            source_snapshot = self.source(pub)
+            parsed = (validate_human_content(candidate, tail, record['article_id']) if pub['human_reviewed']
+                      else validate_translation(source_snapshot, candidate, language=record['language']))
             current = source['articles'].get(record['article_id'])
             status = 'ready' if current and current['translation_key'] == pub['translation_key'] else 'stale'
             if current is None:
@@ -129,6 +199,12 @@ class State:
                             'source_revision':pub['source_revision'],'source_translation_key':pub['translation_key'],
                             'html_sha256':digest(text),'metadata_sha256':pub['metadata_sha256'],
                             'images':[{'public_path':im['src'],'alt':im['alt']} for im in parsed.images]})
+            if pub['human_reviewed']:
+                entries[-1]['human_edit'] = copy.deepcopy(pub['human_review'])
+                entries[-1]['notice_present'] = bool(tail)
+            if pub.get('edit_issue'):
+                entries[-1]['pending_edit'] = {'reason':pub['edit_issue']['reason'],
+                                               'serving_last_accepted':True}
         return {'format_version':'1.0','source_repository':config.runtime['source_repository'],
                 'observed_source_revision':source['revision'],
                 'articles':sorted(entries,key=lambda x:(x['language'],x['id']))}
@@ -226,6 +302,14 @@ class State:
             for path in errors:
                 relative = path.relative_to(self.root).as_posix()
                 rows.append(f'- [`{path.stem}`]({relative})')
+        edit_issues = [record for record in self.records() if (record.get('published') or {}).get('edit_issue')]
+        if edit_issues:
+            rows += ['', '## Publication edits needing attention', '',
+                     'The edited working files are preserved. Their hash-verified last accepted versions remain exportable; other articles continue processing.', '']
+            for record in edit_issues:
+                pub = record['published']
+                rows.append(f'- `{record["language"]}/{record["article_id"]}`: '
+                            f'{pub["edit_issue"]["reason"]} [edited file]({pub["html_path"]})')
         rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |',
                  '| --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |']
         for campaign in self.campaigns():

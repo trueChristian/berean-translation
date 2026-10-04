@@ -9,7 +9,7 @@ import os
 import re
 import subprocess
 from pathlib import Path
-from .common import ContractError
+from .common import ContractError, loads, digest, json_hash
 
 MANAGED = ('state', 'content', 'index.json', 'STATUS.md', 'RECOVERY.json')
 BOT_IDENTITY = ('-c', 'user.name=github-actions[bot]', '-c',
@@ -86,7 +86,39 @@ class GitStore:
                                 'retain the failed checkout for audit. No allocation was released.')
 
     def human_edit_evidence(self, relative: str) -> dict:
+        if self.git('status', '--porcelain', '--untracked-files=all', '--', relative).stdout.strip():
+            raise ContractError('Human review edits must be committed before synchronization')
         result = self.git('log','-1','--format=%H%n%an%n%ae%n%cI','--',relative).stdout.splitlines()
         if len(result) != 4 or '[bot]' in (result[1] + result[2]).lower():
             raise ContractError('Removing the notice must be committed by a human repository collaborator')
         return dict(zip(('commit','author','email','time'),result))
+
+    def publication_at_commit(self, publication: dict, commit: str) -> dict:
+        if not re.fullmatch(r'[0-9a-f]{40}', commit):
+            raise ContractError('Invalid human publication commit')
+        try:
+            return {'html':self.git('show', f'{commit}:{publication["html_path"]}').stdout,
+                    'metadata':loads(self.git('show', f'{commit}:{publication["metadata_path"]}').stdout)}
+        except subprocess.CalledProcessError as exc:
+            raise ContractError('Recorded human publication is unavailable in Git history') from exc
+
+    def matching_publication(self, publication: dict, history=()) -> dict:
+        result = {}
+        for field, key, expected in (('html_path','html',publication['html_sha256']),
+                                      ('metadata_path','metadata',publication['metadata_sha256'])):
+            commits = self.git('log', '--format=%H', '--', publication[field]).stdout.splitlines()
+            for commit in commits:
+                value = self.git('show', f'{commit}:{publication[field]}', check=False)
+                if value.returncode:
+                    continue
+                try:
+                    payload = value.stdout if key == 'html' else loads(value.stdout)
+                    actual = digest(payload) if key == 'html' else json_hash(payload)
+                except ContractError:
+                    continue
+                if actual == expected:
+                    result[key] = payload
+                    break
+            if key not in result:
+                raise ContractError('Hash-verified accepted publication is unavailable in Git history')
+        return result

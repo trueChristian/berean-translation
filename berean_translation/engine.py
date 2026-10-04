@@ -43,6 +43,18 @@ class Engine:
         self.state.write('state/source.json',discovered)
         return discovered
 
+    def human_protected(self, language, article_id):
+        pub = self.state.record(language, article_id).get('published')
+        if not pub:
+            return False
+        if pub['human_reviewed'] or pub.get('edit_issue'):
+            return True
+        try:
+            return (digest(self.state.path(pub['html_path']).read_text(encoding='utf-8')) != pub['html_sha256']
+                    or json_hash(self.state.read(pub['metadata_path'])) != pub['metadata_sha256'])
+        except (ContractError, OSError, UnicodeError, KeyError):
+            return True
+
     def select_issues(self, selection, languages, operation, retry_failed=False):
         source = self.state.read('state/source.json')
         issues = source['issues']
@@ -76,6 +88,8 @@ class Engine:
         if task and task['status'] not in TERMINAL:
             return False,'already_processing'
         pub = record.get('published')
+        if self.human_protected(language, article['id']):
+            return False,'human_reviewed_or_edited_protected'
         if operation == 'review':
             if pub or (task and self.state.candidate(task)):
                 return True,'review'
@@ -289,12 +303,12 @@ class Engine:
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         if task.get('downstream_recovery') and not downstream.current(self, task):
             return self.finish(task, 'source_error', 'English source changed during downstream recovery')
-        source, candidate = self.state.source(task),self.state.candidate(task)
-        validate_translation(source,candidate,language=task['language'])
         record = self.state.record(task['language'],task['article_id'])
         pub = record.get('published')
-        if task['protected'] or (pub and pub['human_reviewed']):
+        if task['protected'] or (pub and (pub['human_reviewed'] or pub.get('edit_issue'))):
             return self.finish(task,'proposal','AI suggestions never overwrite human-reviewed work')
+        source, candidate = self.state.source(task),self.state.candidate(task)
+        validate_translation(source,candidate,language=task['language'])
         if pub:
             if (digest(self.state.path(pub['html_path']).read_bytes()) != task['base_html_sha256'] or
                     json_hash(self.state.read(pub['metadata_path'])) != task['base_metadata_sha256']):
@@ -434,6 +448,8 @@ class Engine:
             return
         if batch['status'] != 'prepared':
             return
+        if self.exclude_protected_prepared(batch):
+            return
         campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
         if campaign.get('downstream_recovery'):
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
@@ -469,6 +485,8 @@ class Engine:
                 return
             self.state.save_batch(batch)
             self.checkpoint('runtime: persist OpenAI input file before creating a batch')
+        if self.exclude_protected_prepared(batch):
+            return  # A checkpoint may have incorporated a concurrent human edit.
         if not may_continue(continue_work):
             return  # Prepared + uploaded is safe to resume without another upload.
         # Do not yield between intent and its result checkpoint. A durable intent
@@ -476,6 +494,8 @@ class Engine:
         batch['status'],batch['submission_started_at'] = 'submitting',now()
         self.state.save_batch(batch)
         self.checkpoint('runtime: record batch submission intent before the billable request')
+        if self.exclude_protected_prepared(batch, before_create=True):
+            return  # The intent push incorporated an edit; create has not been called.
         try:
             remote = self.provider.create(batch['input_file_id'],batch['id'],batch['campaign'])
             batch.update(remote_id=remote['id'],status='submitted')
@@ -485,6 +505,54 @@ class Engine:
             batch.update(status='submission_unknown',error_type=type(exc).__name__)
         self.state.save_batch(batch)
         self.checkpoint('runtime: persist OpenAI batch identity or uncertain-submission state')
+
+    def exclude_protected_prepared(self, batch, *, before_create=False):
+        """Partition an unsubmitted payload without another attempt or reservation."""
+        tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+        protected = [task for task in tasks if self.human_protected(task['language'], task['article_id'])]
+        if not protected:
+            return False
+        # A disjoint checkpoint rebase can incorporate an editor's content after
+        # this tick's initial sync. Recognize/isolate it before deriving reports.
+        self.state.sync_human_reviews(self.gitstore)
+        fresh_intent = before_create and batch['status'] == 'submitting'
+        if (batch.get('remote_id') or (not fresh_intent and
+                (batch['status'] != 'prepared' or batch.get('submission_started_at')))):
+            raise ContractError('Only a proven never-submitted batch can exclude human-controlled work')
+        ids = {task['id'] for task in protected}
+        remaining = [task for task in tasks if task['id'] not in ids]
+        payload = self.state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
+        if digest(payload) != batch['payload_sha256']:
+            raise ContractError('Persisted batch payload was changed; refusing partition')
+        if remaining:
+            child_id = uuid4().hex
+            custom_ids = [task['id'] + ':' + batch['stage'] for task in remaining]
+            lines = [line for line in payload.splitlines(keepends=True)
+                     if loads(line)['custom_id'] in custom_ids]
+            if len(lines) != len(custom_ids):
+                raise ContractError('Prepared partition does not match its exact request identities')
+            child_payload = b''.join(lines)
+            child = {key:copy.deepcopy(batch[key]) for key in
+                     ('campaign','stage','model','reserved_usd')}
+            child.update(id=child_id, status='prepared', created_at=now(),
+                         tasks=[task['id'] for task in remaining], custom_ids=custom_ids,
+                         payload_sha256=digest(child_payload), input_file_id=None, remote_id=None,
+                         reservation_reused_from=batch['id'])
+            write_text(self.state.path(f'state/batches/{child_id}/input.jsonl'), child_payload.decode('utf-8'))
+            self.state.save_batch(child)
+            batch['replacement_batch'] = child_id
+            for task in remaining:
+                task['batch'] = child_id
+                self.state.save_task(task)
+        for task in protected:
+            self.finish(task, 'cancelled', 'Human editorial authority permanently excludes further AI work')
+        batch.update(status='cancelled_before_submission',
+                     exclusion_reason='human_editorial_authority', excluded_task_ids=sorted(ids))
+        if fresh_intent:
+            batch['create_not_called'] = True
+        self.state.save_batch(batch)
+        self.checkpoint('runtime: exclude human-controlled work before submission without new reservations')
+        return True
 
     def collect(self, *, continue_work=None):
         if not self.provider:
@@ -602,6 +670,9 @@ class Engine:
         groups = defaultdict(list)
         for task in self.state.tasks():
             if task['status'] == 'queued':
+                if self.human_protected(task['language'], task['article_id']):
+                    self.finish(task, 'cancelled', 'Human editorial authority permanently excludes further AI work')
+                    continue
                 chosen = task['review_model'] if task['stage'].startswith('review') else task['model']
                 groups[(task['campaign'],task['stage'],chosen)].append(task)
         prepared_count = 0

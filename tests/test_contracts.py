@@ -163,12 +163,16 @@ class ContractTests(unittest.TestCase):
         self.state.write('index.json',{'not':'an index'})
         with self.assertRaises(ContractError): validate_repository(self.config)
 
-    def test_partial_notice_removal_is_not_a_human_review(self):
+    def test_human_notice_wording_is_not_an_acceptance_protocol(self):
         queue(self.state); drive(self.engine,self.provider)
         pub = self.state.record('afr',A)['published']
         path = self.state.path(pub['html_path'])
         path.write_text(path.read_text().replace('OpenAI','another provider'))
-        with self.assertRaises(ContractError): self.engine.tick()
+        self.engine.tick()
+        updated = self.state.record('afr', A)['published']
+        self.assertTrue(updated['human_reviewed'])
+        self.assertNotIn('another provider', path.read_text())
+        self.assertIn('data-translation-notice="human-reviewed"', path.read_text())
 
     def test_rate_budget_and_prompts_are_frozen_per_campaign(self):
         queue(self.state); self.engine.tick()

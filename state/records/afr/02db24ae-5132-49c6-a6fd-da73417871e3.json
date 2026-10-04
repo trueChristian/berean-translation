@@ -23,15 +23,33 @@
       },
       "html_sha256": "ed5985fb0a76f37b0b150112b06fc22a7dd3383a7d79dd0df374dae1d136c3c4",
       "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Roline",
+        "commit": "dbef70014f1f924774ed8e8c20348a39fbe32e9e",
+        "email": "roline@vdm.io",
+        "time": "2026-10-04T09:18:56+02:00"
+      },
+      "html_sha256": "cae7581f11461eae37598ec36fe07b0800c8cee49548507dd27110c43d52f248",
+      "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3"
     }
   ],
   "language": "afr",
   "latest_task": "28ddd8acdbe0335e27d7c003bdca5bb6",
   "published": {
+    "accepted_snapshot": "state/publications/e898d435321572ac7f87a337dab026d551145af2bd5f0d3aff04e47854b59bb7.json",
     "html_path": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
-    "html_sha256": "ed5985fb0a76f37b0b150112b06fc22a7dd3383a7d79dd0df374dae1d136c3c4",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "cae7581f11461eae37598ec36fe07b0800c8cee49548507dd27110c43d52f248",
+    "human_review": {
+      "author": "Roline",
+      "commit": "dbef70014f1f924774ed8e8c20348a39fbe32e9e",
+      "email": "roline@vdm.io",
+      "time": "2026-10-04T09:18:56+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/02db24ae-5132-49c6-a6fd-da73417871e3/\" data-source-article-id=\"02db24ae-5132-49c6-a6fd-da73417871e3\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
     "metadata_path": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.json",
     "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3",

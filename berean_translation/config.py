@@ -23,6 +23,8 @@ class Config:
                 raise ContractError(f'Invalid language tag: {code}')
             if set(re.findall(r'\{(\w+)\}', language['notice'])) != {'model'}:
                 raise ContractError(f'Notice must contain only the model placeholder: {code}')
+            if not isinstance(language.get('reviewed_notice'), str) or not language['reviewed_notice'].strip():
+                raise ContractError(f'Missing localized human-reviewed notice: {code}')
         self.language_aliases = {}
         for code, item in self.languages.items():
             for alias in [code, item['tag'], *item.get('aliases', [])]:
