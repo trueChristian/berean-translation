@@ -3686,7 +3686,7 @@
       "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
       "language": "ell",
       "latest_task": "055e8c003edeb88c2731bd581ecd3bfe",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
