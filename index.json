@@ -1,11 +1,17 @@
 {
   "articles": [
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
-      "html_sha256": "ed5985fb0a76f37b0b150112b06fc22a7dd3383a7d79dd0df374dae1d136c3c4",
-      "human_reviewed": false,
+      "html_sha256": "cae7581f11461eae37598ec36fe07b0800c8cee49548507dd27110c43d52f248",
+      "human_edit": {
+        "author": "Roline",
+        "commit": "dbef70014f1f924774ed8e8c20348a39fbe32e9e",
+        "email": "roline@vdm.io",
+        "time": "2026-10-04T09:18:56+02:00"
+      },
+      "human_reviewed": true,
       "id": "02db24ae-5132-49c6-a6fd-da73417871e3",
       "images": [
         {
@@ -18,6 +24,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.json",
       "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "INSPIRASIES VIR JEUG",
@@ -29,11 +36,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.html",
-      "html_sha256": "ccba5a2c72413b53c74c89c36dac208c64822ce9a60a5a2e6791f46d7134d992",
-      "human_reviewed": false,
+      "html_sha256": "4c2d19634e026a47a4fcc068f57ddfc72a7164a29f43b98dfd1e362f9cbb11ef",
+      "human_edit": {
+        "author": "Roline",
+        "commit": "42fb7334bcb086e85f0f6e395e8be6dce4de2edc",
+        "email": "roline@vdm.io",
+        "time": "2026-10-04T08:58:48+02:00"
+      },
+      "human_reviewed": true,
       "id": "042fce50-3724-4100-b397-093c6d081e89",
       "images": [
         {
@@ -46,6 +59,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.json",
       "metadata_sha256": "0c28f5b71125df0d61ab4dbe471a6e356679699919b94b680b5e1ceb5a2d01cb",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "Van die REDAKTEUR",
@@ -57,11 +71,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/10d20eec-3e71-404f-9f8d-8068b010381e.html",
-      "html_sha256": "bfe10abf6314a4686c6a9b038637195540f783e6661d26d50cd9817bf781ce8b",
-      "human_reviewed": false,
+      "html_sha256": "736bb1d93a430b44f1a042627996549d87ab917ab48334e5ca48b1b099c79a38",
+      "human_edit": {
+        "author": "Roline",
+        "commit": "ca48a8a4305f0971d552f2d849d089defb2d1516",
+        "email": "roline@vdm.io",
+        "time": "2026-10-04T09:56:13+02:00"
+      },
+      "human_reviewed": true,
       "id": "10d20eec-3e71-404f-9f8d-8068b010381e",
       "images": [],
       "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
@@ -69,6 +89,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/10d20eec-3e71-404f-9f8d-8068b010381e.json",
       "metadata_sha256": "5bb52997f4f17db3520522de3ba0cf55c5dfb01601ecc1a2e094a87a8deaf44f",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "Suster tot suster",
@@ -55692,6 +55713,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+  "observed_source_revision": "be8b1c6a2b88469534eea17b46de17b01494283b",
   "source_repository": "trueChristian/berean-voice"
 }

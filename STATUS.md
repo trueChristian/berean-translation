@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
+Observed English revision: `be8b1c6a2b88469534eea17b46de17b01494283b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -108,31 +108,32 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | `heartbeat-remnant-2001-01` | 15 | 0 / 300 | 0 | 0 | 0 |
 | `heartbeat-remnant-2000-11` | 16 | 0 / 320 | 0 | 0 | 0 |
 | `heartbeat-remnant-2000-09` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | 12 | 0 / 240 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 92 / 1155 | 0 | 12 | 75 | 110 |
-| `hin` (hi) | 93 / 1155 | 0 | 14 | 75 | 122 |
-| `spa` (es) | 132 / 1155 | 0 | 8 | 39 | 86 |
-| `ara` (ar) | 84 / 1155 | 0 | 16 | 83 | 125 |
-| `fra` (fr) | 120 / 1155 | 0 | 11 | 51 | 94 |
-| `ben` (bn) | 81 / 1155 | 0 | 16 | 85 | 133 |
-| `por` (pt) | 135 / 1155 | 0 | 12 | 32 | 89 |
-| `ind` (id) | 107 / 1155 | 0 | 17 | 57 | 106 |
-| `urd` (ur) | 88 / 1155 | 0 | 13 | 79 | 125 |
-| `rus` (ru) | 92 / 1155 | 0 | 13 | 74 | 126 |
-| `deu` (de) | 77 / 1155 | 0 | 11 | 89 | 125 |
-| `nld` (nl) | 115 / 1155 | 0 | 12 | 55 | 108 |
-| `afr` (af) | 112 / 1155 | 3 | 13 | 57 | 95 |
-| `swa` (sw) | 59 / 1155 | 0 | 19 | 104 | 142 |
-| `kor` (ko) | 103 / 1155 | 0 | 10 | 65 | 111 |
-| `ita` (it) | 121 / 1155 | 0 | 10 | 49 | 90 |
-| `heb` (he) | 45 / 1155 | 0 | 5 | 128 | 142 |
-| `ell` (el) | 96 / 1155 | 0 | 11 | 75 | 116 |
-| `swe` (sv) | 100 / 1155 | 0 | 14 | 66 | 116 |
-| `nob` (nb) | 99 / 1155 | 0 | 16 | 66 | 121 |
+| `cmn` (zh-Hans) | 92 / 1167 | 0 | 12 | 75 | 110 |
+| `hin` (hi) | 93 / 1167 | 0 | 14 | 75 | 122 |
+| `spa` (es) | 132 / 1167 | 0 | 8 | 39 | 86 |
+| `ara` (ar) | 84 / 1167 | 0 | 16 | 83 | 125 |
+| `fra` (fr) | 120 / 1167 | 0 | 11 | 51 | 94 |
+| `ben` (bn) | 81 / 1167 | 0 | 16 | 85 | 133 |
+| `por` (pt) | 135 / 1167 | 0 | 12 | 32 | 89 |
+| `ind` (id) | 107 / 1167 | 0 | 17 | 57 | 106 |
+| `urd` (ur) | 88 / 1167 | 0 | 13 | 79 | 125 |
+| `rus` (ru) | 92 / 1167 | 0 | 13 | 74 | 126 |
+| `deu` (de) | 77 / 1167 | 0 | 11 | 89 | 125 |
+| `nld` (nl) | 115 / 1167 | 0 | 12 | 55 | 108 |
+| `afr` (af) | 112 / 1167 | 3 | 13 | 57 | 95 |
+| `swa` (sw) | 59 / 1167 | 0 | 19 | 104 | 142 |
+| `kor` (ko) | 103 / 1167 | 0 | 10 | 65 | 111 |
+| `ita` (it) | 121 / 1167 | 0 | 10 | 49 | 90 |
+| `heb` (he) | 45 / 1167 | 0 | 5 | 128 | 142 |
+| `ell` (el) | 96 / 1167 | 0 | 11 | 75 | 116 |
+| `swe` (sv) | 100 / 1167 | 0 | 14 | 66 | 116 |
+| `nob` (nb) | 99 / 1167 | 0 | 16 | 66 | 121 |
 
 ## Issue / language work
 
@@ -461,15 +462,32 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2020-winter` | `swe` | 5 / 13 | 0 | 8 | 0 | 0 |
 | `heartbeat-remnant-2020-winter` | `nob` | 2 / 13 | 0 | 10 | 1 | 0 |
 
-## Held-work recovery
+## Automatic archive work
+
+Scheduled collection creates missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
+Automatic committed ceiling: $6.000000 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
+New automatic work reserves its complete remaining stage chain, up to $10 per envelope. Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. Usage is provider-reported and priced at frozen rates, not invoice reconciliation.
+Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.
+[Recovery frontier](RECOVERY.json) records current holds and funding.
+
+## Legacy held-work recovery authority
 
 Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 / $10.00. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $70.000000 across 7 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 253 | continuation_cycle_budget_blocked: 7 | continuation_review_only_requires_attention: 13 | continuation_technical_failure_requires_attention: 1 | eligible_available: 1262 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 108
+active: 253 | already_translated: 108 | continuation_progress_uncertain_requires_attention: 7 | eligible_automatic: 1207 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 68
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
+
+## Preserved overlong negative reviews
+
+These legacy negative responses completed normally but exceeded the 30-finding acceptance limit. Every finding's fields in the full bounded result have been validated for diagnostic reporting. The original failure, terminal decision, existing publication, and recovery eligibility are unchanged. This report does not authorize another paid attempt.
+
+| Language / article | Original task outcome | Preserved negative review | Severity counts | Full evidence |
+| --- | --- | --- | --- | --- |
+| ben / 1c75dce8-1781-427f-8099-01596d53c2a4 | not_ready / invalid_result: Invalid review verdict or findings | Score 32/100; 49 findings; passed=false | 13 critical, 34 major, 2 minor | [Full result](state/tasks/eac67cbcb51ae1e038a51c66d4802ec6/results/review1.json) · [Raw attempt](state/tasks/eac67cbcb51ae1e038a51c66d4802ec6/attempts/review1.json) · [Task](state/tasks/eac67cbcb51ae1e038a51c66d4802ec6/task.json) |
+| ben / 28cd0392-f481-4e7c-9674-fbeb3c49fdf1 | not_ready / invalid_result: Invalid review verdict or findings | Score 27/100; 32 findings; passed=false | 10 critical, 21 major, 1 minor | [Full result](state/tasks/43cff43c105045d25904e1e43a91a84b/results/review1.json) · [Raw attempt](state/tasks/43cff43c105045d25904e1e43a91a84b/attempts/review1.json) · [Task](state/tasks/43cff43c105045d25904e1e43a91a84b/task.json) |
 
 ## Rejected requests
 

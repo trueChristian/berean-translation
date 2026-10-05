@@ -1,0 +1,39 @@
+{
+  "approved_total_usd": 30.0,
+  "authorization": "owner-2026-10-04-autonomous-archive",
+  "created_at": "2026-10-05T09:47:52+00:00",
+  "legacy_recovery_allocations": [
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100311"
+    },
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100316"
+    },
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100318"
+    },
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100321"
+    },
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100400"
+    },
+    {
+      "allocation_usd": 1.0,
+      "campaign": "downstream-2026100406"
+    }
+  ],
+  "separate_legacy_refresh_envelopes": [
+    {
+      "budget_usd": 10.0,
+      "campaign": "refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267"
+    }
+  ],
+  "sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
+  "version": 1
+}
