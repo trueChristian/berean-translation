@@ -408,16 +408,6 @@
       "reason": "legacy_response_outcome_unknown_requires_owner_attention"
     },
     {
-      "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
-      "language": "heb",
-      "reason": "technical_failure_requires_attention"
-    },
-    {
-      "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
-      "language": "nob",
-      "reason": "technical_failure_requires_attention"
-    },
-    {
       "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
       "language": "spa",
       "reason": "technical_failure_requires_attention"
@@ -430,21 +420,6 @@
     {
       "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
       "language": "cmn",
-      "reason": "technical_failure_requires_attention"
-    },
-    {
-      "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
-      "language": "ara",
-      "reason": "technical_failure_requires_attention"
-    },
-    {
-      "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
-      "language": "ben",
-      "reason": "technical_failure_requires_attention"
-    },
-    {
-      "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
-      "language": "ita",
       "reason": "technical_failure_requires_attention"
     }
   ],
