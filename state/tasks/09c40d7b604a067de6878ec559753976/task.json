@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82364a23e03c43f399a9c7e1e3050aa3",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,30 @@
   "downstream_previous_sha256": "1cafeca4f5e09db154037cb6ad3627d77821e5ee4420c15baa5b8c07281fe504",
   "downstream_previous_task": "59310f05b43bec8910fe96abbecd066e",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6876,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 2048,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24268,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 33031
+      }
+    }
+  ],
+  "failure": "Scripture attention: quote_scope_changed: Selection must cover the complete delimited output quotation",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html — paragraph containing Ecclesiastes 12:1-7",
@@ -51,6 +73,7 @@
       "translation_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion"
     }
   ],
+  "finished_at": "2026-10-05T22:54:04+00:00",
   "id": "09c40d7b604a067de6878ec559753976",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -146,8 +169,8 @@
   "scripture_evidence_sha256": "89a30136bb3822410122fbdd8d73ba1c219bbdad53dd607c695783e69c812811",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }

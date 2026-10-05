@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82364a23e03c43f399a9c7e1e3050aa3",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,30 @@
   "downstream_previous_sha256": "d2047669c74689e15d2308650d01c078516a0efb3bc113362ada7794dc53b9dc",
   "downstream_previous_task": "8b366d3652776b0fb9040eeaacc3ce4c",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1260,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26532,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24645,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 32709
+      }
+    }
+  ],
+  "failure": "Scripture attention: selection_location: Invalid candidate character offsets",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "<h2>דמנציה בתנ\"ך</h2> / following <p> (Ecclesiastes 12:1-7 quote)",
@@ -51,6 +73,7 @@
       "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
     }
   ],
+  "finished_at": "2026-10-05T22:54:04+00:00",
   "id": "25208c78b2f979028095f9fb719c88dd",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "heb",
@@ -146,8 +169,8 @@
   "scripture_evidence_sha256": "a7018be3a61d43b3edd46efd6c926cd7c8b97d08fe947790eafc957cd45e159d",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }

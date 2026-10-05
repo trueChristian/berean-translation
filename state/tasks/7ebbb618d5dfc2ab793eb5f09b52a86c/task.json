@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82364a23e03c43f399a9c7e1e3050aa3",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,29 @@
   "downstream_previous_sha256": "c79fbd18355b52a74d625a25ecfe90c12d421c9b5cede2e458342152256b25d5",
   "downstream_previous_task": "a0493a9d976ed262ea68976159a0e083",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4642,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11483,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11480,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16125
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Paragraph about the hymn tune (near end of article)",
@@ -138,9 +159,9 @@
   "scripture_evidence_path": "state/scripture/1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3.json",
   "scripture_evidence_sha256": "1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }
