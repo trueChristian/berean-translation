@@ -1,0 +1,1502 @@
+{
+  "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T16:25:06+00:00",
+  "edition": {
+    "abbreviation": "korean",
+    "book_count": 66,
+    "catalog_description": "개역성경",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "Wikisource",
+    "inventory_sha256": "51b52aa3eb956a9d6f470d4a918812dfa191d82b17f6fa1f3a9dd8548ad92547",
+    "name": "Korean",
+    "review_note": "Catalog describes 1952/1961 Korean text, older than the other catalog option Korean KJV (2000).",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "ko",
+  "lookups": {
+    "kjv/21/12": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 21,
+        "chapter": 12,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:05.928961Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Ecclesiastes",
+          "book_nr": 21,
+          "chapter": 12,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Ecclesiastes 12",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:1",
+              "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+              "verse": 1
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:2",
+              "text": "While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:",
+              "verse": 2
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:3",
+              "text": "In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,",
+              "verse": 3
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:4",
+              "text": "And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;",
+              "verse": 4
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:5",
+              "text": "Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:",
+              "verse": 5
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:6",
+              "text": "Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.",
+              "verse": 6
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:7",
+              "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+              "verse": 7
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:8",
+              "text": "Vanity of vanities, saith the preacher; all is vanity.",
+              "verse": 8
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:9",
+              "text": "And moreover, because the preacher was wise, he still taught the people knowledge; yea, he gave good heed, and sought out, and set in order many proverbs.",
+              "verse": 9
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:10",
+              "text": "The preacher sought to find out acceptable words: and that which was written was upright, even words of truth.",
+              "verse": 10
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:11",
+              "text": "The words of the wise are as goads, and as nails fastened by the masters of assemblies, which are given from one shepherd.",
+              "verse": 11
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:12",
+              "text": "And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh.",
+              "verse": 12
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:13",
+              "text": "Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.",
+              "verse": 13
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:14",
+              "text": "For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.  ",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "749e336271c2acbe98d1f7f50667a410d714f338",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/21/12.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 21,
+          "chapter": 12,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:06.928961Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:06 GMT",
+            "etag": "W/\"6aa59169-102e\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/21/12.json"
+        }
+      },
+      "result_sha256": "75a4030549e3b25075e4869a38780e9147ea85cb1ddade26b53f6fb844179c65",
+      "retrieved_at": "2026-10-05T16:25:07+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/48/5": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 48,
+        "chapter": 5,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:11.463348Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Galatians",
+          "book_nr": 48,
+          "chapter": 5,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Galatians 5",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 5,
+              "name": "Galatians 5:1",
+              "text": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+              "verse": 1
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:2",
+              "text": "Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing.",
+              "verse": 2
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:3",
+              "text": "For I testify again to every man that is circumcised, that he is a debtor to do the whole law.",
+              "verse": 3
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:4",
+              "text": "Christ is become of no effect unto you, whosoever of you are justified by the law; ye are fallen from grace.",
+              "verse": 4
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:5",
+              "text": "For we through the Spirit wait for the hope of righteousness by faith.",
+              "verse": 5
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:6",
+              "text": "For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love.",
+              "verse": 6
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:7",
+              "text": "Ye did run well; who did hinder you that ye should not obey the truth?",
+              "verse": 7
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:8",
+              "text": "This persuasion cometh not of him that calleth you.",
+              "verse": 8
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:9",
+              "text": "A little leaven leaveneth the whole lump.",
+              "verse": 9
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:10",
+              "text": "I have confidence in you through the Lord, that ye will be none otherwise minded: but he that troubleth you shall bear his judgment, whosoever he be.",
+              "verse": 10
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:11",
+              "text": "And I, brethren, if I yet preach circumcision, why do I yet suffer persecution? then is the offence of the cross ceased.",
+              "verse": 11
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:12",
+              "text": "I would they were even cut off which trouble you.",
+              "verse": 12
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:13",
+              "text": "For, brethren, ye have been called unto liberty; only use not liberty for an occasion to the flesh, but by love serve one another.",
+              "verse": 13
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:14",
+              "text": "For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself.",
+              "verse": 14
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:15",
+              "text": "But if ye bite and devour one another, take heed that ye be not consumed one of another.",
+              "verse": 15
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:16",
+              "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh.",
+              "verse": 16
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:17",
+              "text": "For the flesh lusteth against the Spirit, and the Spirit against the flesh: and these are contrary the one to the other: so that ye cannot do the things that ye would.",
+              "verse": 17
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:18",
+              "text": "But if ye be led of the Spirit, ye are not under the law.",
+              "verse": 18
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:19",
+              "text": "Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness,",
+              "verse": 19
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:20",
+              "text": "Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies,",
+              "verse": 20
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:21",
+              "text": "Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God.",
+              "verse": 21
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:22",
+              "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,",
+              "verse": 22
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:23",
+              "text": "Meekness, temperance: against such there is no law.",
+              "verse": 23
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:24",
+              "text": "And they that are Christ’s have crucified the flesh with the affections and lusts.",
+              "verse": 24
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:25",
+              "text": "If we live in the Spirit, let us also walk in the Spirit.",
+              "verse": 25
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:26",
+              "text": "Let us not be desirous of vain glory, provoking one another, envying one another. ",
+              "verse": 26
+            }
+          ]
+        },
+        "hash": "ad088822adbb59b4caca460ad5f0401c4571fedd",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/48/5.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 48,
+          "chapter": 5,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:12.463348Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:12 GMT",
+            "etag": "W/\"6aa59169-1825\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/48/5.json"
+        }
+      },
+      "result_sha256": "554fa8591b86261aab30e5f5790d89ec01b7cbb5202e08fae327fabe7e31b1b8",
+      "retrieved_at": "2026-10-05T16:25:13+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/5/6": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 5,
+        "chapter": 6,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:08.105704Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Deuteronomy",
+          "book_nr": 5,
+          "chapter": 6,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Deuteronomy 6",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:1",
+              "text": "Now these are the commandments, the statutes, and the judgments, which the Lord your God commanded to teach you, that ye might do them in the land whither ye go to possess it:",
+              "verse": 1
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:2",
+              "text": "That thou mightest fear the Lord thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son’s son, all the days of thy life; and that thy days may be prolonged.",
+              "verse": 2
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:3",
+              "text": "Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the Lord God of thy fathers hath promised thee, in the land that floweth with milk and honey.",
+              "verse": 3
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:4",
+              "text": "Hear, O Israel: The Lord our God is one Lord:",
+              "verse": 4
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:5",
+              "text": "And thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might.",
+              "verse": 5
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:6",
+              "text": "And these words, which I command thee this day, shall be in thine heart:",
+              "verse": 6
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:7",
+              "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+              "verse": 7
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:8",
+              "text": "And thou shalt bind them for a sign upon thine hand, and they shall be as frontlets between thine eyes.",
+              "verse": 8
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:9",
+              "text": "And thou shalt write them upon the posts of thy house, and on thy gates.",
+              "verse": 9
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:10",
+              "text": "And it shall be, when the Lord thy God shall have brought thee into the land which he sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give thee great and goodly cities, which thou buildedst not,",
+              "verse": 10
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:11",
+              "text": "And houses full of all good things, which thou filledst not, and wells digged, which thou diggedst not, vineyards and olive trees, which thou plantedst not; when thou shalt have eaten and be full;",
+              "verse": 11
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:12",
+              "text": "Then beware lest thou forget the Lord, which brought thee forth out of the land of Egypt, from the house of bondage.",
+              "verse": 12
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:13",
+              "text": "Thou shalt fear the Lord thy God, and serve him, and shalt swear by his name.",
+              "verse": 13
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:14",
+              "text": "Ye shall not go after other gods, of the gods of the people which are round about you;",
+              "verse": 14
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:15",
+              "text": "(For the Lord thy God is a jealous God among you) lest the anger of the Lord thy God be kindled against thee, and destroy thee from off the face of the earth.",
+              "verse": 15
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:16",
+              "text": "Ye shall not tempt the Lord your God, as ye tempted him in Massah.",
+              "verse": 16
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:17",
+              "text": "Ye shall diligently keep the commandments of the Lord your God, and his testimonies, and his statutes, which he hath commanded thee.",
+              "verse": 17
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:18",
+              "text": "And thou shalt do that which is right and good in the sight of the Lord: that it may be well with thee, and that thou mayest go in and possess the good land which the Lord sware unto thy fathers,",
+              "verse": 18
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:19",
+              "text": "To cast out all thine enemies from before thee, as the Lord hath spoken.",
+              "verse": 19
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:20",
+              "text": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the Lord our God hath commanded you?",
+              "verse": 20
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:21",
+              "text": "Then thou shalt say unto thy son, We were Pharaoh’s bondmen in Egypt; and the Lord brought us out of Egypt with a mighty hand:",
+              "verse": 21
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:22",
+              "text": "And the Lord shewed signs and wonders, great and sore, upon Egypt, upon Pharaoh, and upon all his household, before our eyes:",
+              "verse": 22
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:23",
+              "text": "And he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers.",
+              "verse": 23
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:24",
+              "text": "And the Lord commanded us to do all these statutes, to fear the Lord our God, for our good always, that he might preserve us alive, as it is at this day.",
+              "verse": 24
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:25",
+              "text": "And it shall be our righteousness, if we observe to do all these commandments before the Lord our God, as he hath commanded us. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "3587293327b19b462aac441ffa8320bc9652e82a",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/5/6.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 5,
+          "chapter": 6,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:09.105704Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:09 GMT",
+            "etag": "W/\"6aa59169-1b28\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/5/6.json"
+        }
+      },
+      "result_sha256": "5feeb3d12a860cdf40c6654fa6d8f28b6e17ef1ec33c81322bae43f9508a87a4",
+      "retrieved_at": "2026-10-05T16:25:10+00:00",
+      "tool": "get_scripture"
+    },
+    "korean/21/12": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 21,
+        "chapter": 12,
+        "translation": "korean"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:06.886286Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "korean",
+          "book_name": "전도서",
+          "book_nr": 21,
+          "chapter": 12,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "ko",
+          "language": "Korean",
+          "name": "전도서 12",
+          "translation": "Korean",
+          "verses": [
+            {
+              "chapter": 12,
+              "name": "전도서 12:1",
+              "text": "너는 청년의 때 곧 곤고한 날이 이르기 전, 나는 아무 낙이 없다고 할 해가 가깝기 전에 너의 창조자를 기억하라 ",
+              "verse": 1
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:2",
+              "text": "해와 빛과 달과 별들이 어둡기 전에, 비 뒤에 구름이 다시 일어나기 전에 그리하라 ",
+              "verse": 2
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:3",
+              "text": "그런 날에는 집을 지키는 자들이 떨 것이며 힘있는 자들이 구부러질 것이며 맷돌질 하는 자들이 적으므로 그칠 것이며 창들로 내어다 보는 자가 어두워질 것이며 ",
+              "verse": 3
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:4",
+              "text": "길거리 문들이 닫혀질 것이며 맷돌 소리가 적어질 것이며 새의 소리를 인하여 일어날 것이며 음악하는 여자들은 다 쇠하여질 것이며 ",
+              "verse": 4
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:5",
+              "text": "그런 자들은 높은 곳을 두려워할 것이며 길에서는 놀랄 것이며 살구나무가 꽃이 필 것이며 메뚜기도 짐이 될 것이며 원욕이 그치리니 이는 사람이 자기 영원한 집으로 돌아가고 조문자들이 거리로 왕래하게 됨이라 ",
+              "verse": 5
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:6",
+              "text": "은줄이 풀리고 금 그릇이 깨어지고 항아리가 샘 곁에서 깨어지고 바퀴가 우물 위에서 깨어지고 ",
+              "verse": 6
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:7",
+              "text": "흙은 여전히 땅으로 돌아가고 신은 그 주신 하나님께로 돌아가기 전에 기억하라 ",
+              "verse": 7
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:8",
+              "text": "전도자가 가로되 헛되고 헛되도다 모든 것이 헛되도다 ",
+              "verse": 8
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:9",
+              "text": "전도자가 지혜로움으로 여전히 백성에게 지식을 가르쳤고 또 묵상하고 궁구하여 잠언을 많이 지었으며 ",
+              "verse": 9
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:10",
+              "text": "전도자가 힘써 아름다운 말을 구하였나니 기록한 것은 정직하여 진리의 말씀이니라 ",
+              "verse": 10
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:11",
+              "text": "지혜자의 말씀은 찌르는 채찍같고 회중의 스승의 말씀은 잘 박힌 못 같으니 다 한 목자의 주신 바니라 ",
+              "verse": 11
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:12",
+              "text": "내 아들아 또 경계를 받으라 여러 책을 짓는 것은 끝이 없고 많이 공부하는 것은 몸을 피곤케 하느니라 ",
+              "verse": 12
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:13",
+              "text": "일의 결국을 다 들었으니 하나님을 경외하고 그 명령을 지킬지어다 이것이 사람의 본분이니라 ",
+              "verse": 13
+            },
+            {
+              "chapter": 12,
+              "name": "전도서 12:14",
+              "text": "하나님은 모든 행위와 모든 은밀한 일을 선악간에 심판하시리라   ",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "a79c69e621be55b8c68ba0fb8c9373a5dd26d498",
+        "hash_source_url": "https://api.getbible.net/v2/korean/21/12.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 21,
+          "chapter": 12,
+          "kind": "chapter",
+          "translation": "korean"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:07.886286Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:07 GMT",
+            "etag": "W/\"6aa59169-1792\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/korean/21/12.json"
+        }
+      },
+      "result_sha256": "d653810a4e46468a370d27de4a22526a51d8ec81b411b5eaa2514251d12ca00b",
+      "retrieved_at": "2026-10-05T16:25:08+00:00",
+      "tool": "get_scripture"
+    },
+    "korean/48/5": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 48,
+        "chapter": 5,
+        "translation": "korean"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:13.629356Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "korean",
+          "book_name": "갈라디아서",
+          "book_nr": 48,
+          "chapter": 5,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "ko",
+          "language": "Korean",
+          "name": "갈라디아서 5",
+          "translation": "Korean",
+          "verses": [
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:1",
+              "text": "그리스도께서 우리로 자유케 하려고 자유를 주셨으니 그러므로 굳세게 서서 다시는 종의 멍에를 메지 말라 ",
+              "verse": 1
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:2",
+              "text": "보라 나 바울은 너희에게 말하노니 너희가 만일 할례를 받으면 그리스도께서 너희에게 아무 유익이 없으리라 ",
+              "verse": 2
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:3",
+              "text": "내가 할례를 받는 각 사람에게 다시 증거하노니 그는 율법 전체를 행할 의무를 가진 자라 ",
+              "verse": 3
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:4",
+              "text": "율법 안에서 의롭다 함을 얻으려 하는 너희는 그리스도에게서 끊어지고 은혜에서 떨어진 자로다 ",
+              "verse": 4
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:5",
+              "text": "우리가 성령으로 믿음을 좇아 의의 소망을 기다리노니 ",
+              "verse": 5
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:6",
+              "text": "그리스도 예수 안에서는 할례나 무할례가 효력이 없되 사랑으로써 역사하는 믿음뿐이니라 ",
+              "verse": 6
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:7",
+              "text": "너희가 달음질을 잘 하더니 누가 너희를 막아 진리를 순종치 않게 하더냐 ",
+              "verse": 7
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:8",
+              "text": "그 권면이 너희를 부르신 이에게서 난 것이 아니라 ",
+              "verse": 8
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:9",
+              "text": "적은 누룩이 온 덩이에 퍼지느니라 ",
+              "verse": 9
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:10",
+              "text": "나는 너희가 아무 다른 마음도 품지 아니할 줄을 주 안에서 확신하노라 그러나 너희를 요동케 하는 자는 누구든지 심판을 받으리라 ",
+              "verse": 10
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:11",
+              "text": "형제들아 내가 지금까지 할례를 전하면 어찌하여 지금까지 핍박을 받으리요 그리하였으면 십자가의 거치는 것이 그쳤으리니 ",
+              "verse": 11
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:12",
+              "text": "너희를 어지럽게 하는 자들이 스스로 베어버리기를 원하노라 ",
+              "verse": 12
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:13",
+              "text": "형제들아 너희가 자유를 위하여 부르심을 입었으나 그러나 그 자유로 육체의 기회를 삼지 말고 오직 사랑으로 서로 종 노릇 하라 ",
+              "verse": 13
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:14",
+              "text": "온 율법은 네 이웃 사랑하기를 네 몸 같이 하라 하신 한 말씀에 이루었나니 ",
+              "verse": 14
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:15",
+              "text": "만일 서로 물고 먹으면 피차 멸망할까 조심하라 ",
+              "verse": 15
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:16",
+              "text": "내가 이르노니 너희는 성령을 좇아 행하라 그리하면 육체의 욕심을 이루지 아니하리라 ",
+              "verse": 16
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:17",
+              "text": "육체의 소욕은 성령을 거스리고 성령의 소욕은 육체를 거스리나니 이 둘이 서로 대적함으로 너희의 원하는 것을 하지 못하게 하려 함이니라 ",
+              "verse": 17
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:18",
+              "text": "너희가 만일 성령의 인도하시는 바가 되면 율법 아래 있지 아니하리라 ",
+              "verse": 18
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:19",
+              "text": "육체의 일은 현저하니 곧 음행과 더러운 것과 호색과 ",
+              "verse": 19
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:20",
+              "text": "우상 숭배와 술수와 원수를 맺는 것과 분쟁과 시기와 분냄과 당 짓는 것과 분리함과 이단과 ",
+              "verse": 20
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:21",
+              "text": "투기와 술 취함과 방탕함과 또 그와 같은 것들이라 전에 너희에게 경계한 것 같이 경계하노니 이런 일을 하는 자들은 하나님의 나라를 유업으로 받지 못할 것이요 ",
+              "verse": 21
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:22",
+              "text": "오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과 ",
+              "verse": 22
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:23",
+              "text": "온유와 절제니 이같은 것을 금지할 법이 없느니라 ",
+              "verse": 23
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:24",
+              "text": "그리스도 예수의 사람들은 육체와 함께 그 정과 욕심을 십자가에 못 박았느니라 ",
+              "verse": 24
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:25",
+              "text": "만일 우리가 성령으로 살면 또한 성령으로 행할지니 ",
+              "verse": 25
+            },
+            {
+              "chapter": 5,
+              "name": "갈라디아서 5:26",
+              "text": "헛된 영광을 구하여 서로 격동하고 서로 투기하지 말지니라  ",
+              "verse": 26
+            }
+          ]
+        },
+        "hash": "d949c70a1fb11b81ee9424d88fa5a83ba2a2ff07",
+        "hash_source_url": "https://api.getbible.net/v2/korean/48/5.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 48,
+          "chapter": 5,
+          "kind": "chapter",
+          "translation": "korean"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:14.629356Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:14 GMT",
+            "etag": "W/\"6aa59169-268f\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/korean/48/5.json"
+        }
+      },
+      "result_sha256": "f443820bd63264ead1f805e9e0990d9b3fbb105242b8ee8a3dbf915fa2d768e4",
+      "retrieved_at": "2026-10-05T16:25:15+00:00",
+      "tool": "get_scripture"
+    },
+    "korean/5/6": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 5,
+        "chapter": 6,
+        "translation": "korean"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:25:10.264959Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "korean",
+          "book_name": "신명기",
+          "book_nr": 5,
+          "chapter": 6,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "ko",
+          "language": "Korean",
+          "name": "신명기 6",
+          "translation": "Korean",
+          "verses": [
+            {
+              "chapter": 6,
+              "name": "신명기 6:1",
+              "text": "이는 곧 너희 하나님 여호와께서 너희에게 가르치라 명하신 바 명령과 규례와 법도라 너희가 건너가서 얻을 땅에서 행할 것이니 ",
+              "verse": 1
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:2",
+              "text": "곧 너와 네 아들과 네 손자로 평생에 네 하나님 여호와를 경외하며 내가 너희에게 명한 그 모든 규례와 명령을 지키게 하기 위한 것이며 또 네 날을 장구케 하기 위한 것이라 ",
+              "verse": 2
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:3",
+              "text": "이스라엘아 듣고 삼가 그것을 행하라 그리하면 네가 복을 얻고 네 열조의 하나님 여호와께서 네게 허락하심 같이 젖과 꿀이 흐르는 땅에서 너의 수효가 심히 번성하리라 ",
+              "verse": 3
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:4",
+              "text": "이스라엘아 들으라 우리 하나님 여호와는 오직 하나인 여호와시니 ",
+              "verse": 4
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:5",
+              "text": "너는 마음을 다하고 성품을 다하고 힘을 다하여 네 하나님 여호와를 사랑하라 ",
+              "verse": 5
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:6",
+              "text": "오늘날 내가 네게 명하는 이 말씀을 너는 마음에 새기고 ",
+              "verse": 6
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:7",
+              "text": "네 자녀에게 부지런히 가르치며 집에 앉았을 때에든지 길에 행할 때에든지 누웠을 때에든지 일어날 때에든지 이 말씀을 강론할 것이며 ",
+              "verse": 7
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:8",
+              "text": "너는 또 그것을 네 손목에 매어 기호를 삼으며 네 미간에 붙여 표를 삼고 ",
+              "verse": 8
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:9",
+              "text": "또 네 집 문설주와 바깥 문에 기록할지니라 ",
+              "verse": 9
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:10",
+              "text": "네 하나님 여호와께서 네 열조 아브라함과 이삭과 야곱을 향하여 네게 주리라 맹세하신 땅으로 너로 들어가게 하시고 네가 건축하지 아니한 크고 아름다운 성읍을 얻게 하시며 ",
+              "verse": 10
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:11",
+              "text": "네가 채우지 아니한 아름다운 물건이 가득한 집을 얻게 하시며 네가 파지 아니한 우물을 얻게 하시며 네가 심지 아니한 포도원과 감람 나무를 얻게 하사 너로 배불리 먹게 하실 때에 ",
+              "verse": 11
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:12",
+              "text": "너는 조심하여 너를 애굽 땅 종 되었던 집에서 인도하여 내신 여호와를 잊지 말고 ",
+              "verse": 12
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:13",
+              "text": "네 하나님 여호와를 경외하며 섬기며 그 이름으로 맹세할 것이니라 ",
+              "verse": 13
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:14",
+              "text": "너희는 다른 신들 곧 네 사면에 있는 백성의 신들을 좇지 말라 ",
+              "verse": 14
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:15",
+              "text": "너희 중에 계신 너희 하나님 여호와는 질투하시는 하나님이신즉 너희 하나님 여호와께서 네게 진노하사 너를 지면에서 멸절시키실까 두려워하노라 ",
+              "verse": 15
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:16",
+              "text": "너희가 맛사에서 시험한 것 같이 너희의 하나님 여호와를 시험하지 말고 ",
+              "verse": 16
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:17",
+              "text": "너희의 하나님 여호와께서 너희에게 명하신 명령과 증거하신 것과 규례를 삼가 지키며 ",
+              "verse": 17
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:18",
+              "text": "여호와의 보시기에 정직하고 선량한 일을 행하라 그리하면 네가 복을 얻고 여호와께서 네 열조에게 맹세하사 네 대적을 몰수히 네 앞에서 쫓아내리라 하신 아름다운 땅을 들어가서 얻으리니 여호와의 말씀과 같으리라 ",
+              "verse": 18
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:19",
+              "text": "(앞절과 동일) ",
+              "verse": 19
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:20",
+              "text": "후일에 네 아들이 네게 묻기를 우리 하나님 여호와의 명하신 증거와 말씀과 규례와 법도가 무슨 뜻이뇨 하거든 ",
+              "verse": 20
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:21",
+              "text": "너는 네 아들에게 이르기를 우리가 옛적에 애굽에서 바로의 종이 되었더니 여호와께서 권능의 손으로 우리를 애굽에서 인도하여 내셨나니 ",
+              "verse": 21
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:22",
+              "text": "곧 여호와께서 우리의 목전에서 크고 두려운 이적과 기사를 애굽과 바로와 그 온 집에 베푸시고 ",
+              "verse": 22
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:23",
+              "text": "우리 열조에게 맹세하신 땅으로 우리에게 주어 들어가게 하시려고 우리를 거기서 인도하여 내시고 ",
+              "verse": 23
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:24",
+              "text": "여호와께서 우리에게 이 모든 규례를 지키라 명하셨으니 이는 우리로 우리 하나님 여호와를 경외하여 항상 복을 누리게 하기 위하심이며 또 여호와께서 우리로 오늘날과 같이 생활하게 하려 하심이라 ",
+              "verse": 24
+            },
+            {
+              "chapter": 6,
+              "name": "신명기 6:25",
+              "text": "우리가 그 명하신 대로 이 모든 명령을 우리 하나님 여호와 앞에서 삼가 지키면 그것이 곧 우리의 의로움이니라 할지니라  ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "aaed53e90df59f67377553c1f9e97dc74f3e862f",
+        "hash_source_url": "https://api.getbible.net/v2/korean/5/6.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 5,
+          "chapter": 6,
+          "kind": "chapter",
+          "translation": "korean"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:25:11.264959Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:25:11 GMT",
+            "etag": "W/\"6aa59169-2a7b\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/korean/5/6.json"
+        }
+      },
+      "result_sha256": "fe25d32f29fecfb2c3e32bc54ecea6455c726fac6a23dabd70dc3cdfdd7dec97",
+      "retrieved_at": "2026-10-05T16:25:11+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 99,
+              "start": 97,
+              "verse": 7
+            },
+            "source_text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 1
+            },
+            "word_end": 225,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[10]",
+      "book": 21,
+      "chapter": 12,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/21/12",
+      "english_verses": [
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:1",
+          "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+          "verse": 1
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:2",
+          "text": "While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:",
+          "verse": 2
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:3",
+          "text": "In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,",
+          "verse": 3
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:4",
+          "text": "And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;",
+          "verse": 4
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:5",
+          "text": "Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:",
+          "verse": 5
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:6",
+          "text": "Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.",
+          "verse": 6
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:7",
+          "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+          "verse": 7
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Ecclesiastes 12:1-7",
+      "reference": "Ecclesiastes 12:1-7",
+      "source_end": 1217,
+      "source_quote": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+      "source_start": 72,
+      "target_lookup": "korean/21/12",
+      "target_verses": [
+        {
+          "chapter": 12,
+          "name": "전도서 12:1",
+          "text": "너는 청년의 때 곧 곤고한 날이 이르기 전, 나는 아무 낙이 없다고 할 해가 가깝기 전에 너의 창조자를 기억하라 ",
+          "verse": 1
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:2",
+          "text": "해와 빛과 달과 별들이 어둡기 전에, 비 뒤에 구름이 다시 일어나기 전에 그리하라 ",
+          "verse": 2
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:3",
+          "text": "그런 날에는 집을 지키는 자들이 떨 것이며 힘있는 자들이 구부러질 것이며 맷돌질 하는 자들이 적으므로 그칠 것이며 창들로 내어다 보는 자가 어두워질 것이며 ",
+          "verse": 3
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:4",
+          "text": "길거리 문들이 닫혀질 것이며 맷돌 소리가 적어질 것이며 새의 소리를 인하여 일어날 것이며 음악하는 여자들은 다 쇠하여질 것이며 ",
+          "verse": 4
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:5",
+          "text": "그런 자들은 높은 곳을 두려워할 것이며 길에서는 놀랄 것이며 살구나무가 꽃이 필 것이며 메뚜기도 짐이 될 것이며 원욕이 그치리니 이는 사람이 자기 영원한 집으로 돌아가고 조문자들이 거리로 왕래하게 됨이라 ",
+          "verse": 5
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:6",
+          "text": "은줄이 풀리고 금 그릇이 깨어지고 항아리가 샘 곁에서 깨어지고 바퀴가 우물 위에서 깨어지고 ",
+          "verse": 6
+        },
+        {
+          "chapter": 12,
+          "name": "전도서 12:7",
+          "text": "흙은 여전히 땅으로 돌아가고 신은 그 주신 하나님께로 돌아가기 전에 기억하라 ",
+          "verse": 7
+        }
+      ],
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 196,
+              "start": 194,
+              "verse": 7
+            },
+            "source_text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 7
+            },
+            "word_end": 37,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[12]",
+      "book": 5,
+      "chapter": 6,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/5/6",
+      "english_verses": [
+        {
+          "chapter": 6,
+          "name": "Deuteronomy 6:7",
+          "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+          "verse": 7
+        }
+      ],
+      "id": "q2",
+      "printed_reference": "Deuteronomy 6:7",
+      "reference": "Deuteronomy 6:7",
+      "source_end": 385,
+      "source_quote": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up",
+      "source_start": 189,
+      "target_lookup": "korean/5/6",
+      "target_verses": [
+        {
+          "chapter": 6,
+          "name": "신명기 6:7",
+          "text": "네 자녀에게 부지런히 가르치며 집에 앉았을 때에든지 길에 행할 때에든지 누웠을 때에든지 일어날 때에든지 이 말씀을 강론할 것이며 ",
+          "verse": 7
+        }
+      ],
+      "verses": [
+        7
+      ]
+    },
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 50,
+              "start": 47,
+              "verse": 23
+            },
+            "source_text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 22
+            },
+            "word_end": 22,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[53]",
+      "book": 48,
+      "chapter": 5,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/48/5",
+      "english_verses": [
+        {
+          "chapter": 5,
+          "name": "Galatians 5:22",
+          "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,",
+          "verse": 22
+        },
+        {
+          "chapter": 5,
+          "name": "Galatians 5:23",
+          "text": "Meekness, temperance: against such there is no law.",
+          "verse": 23
+        }
+      ],
+      "id": "q3",
+      "printed_reference": "Galatians 5:22-23",
+      "reference": "Galatians 5:22-23",
+      "source_end": 201,
+      "source_quote": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law",
+      "source_start": 58,
+      "target_lookup": "korean/48/5",
+      "target_verses": [
+        {
+          "chapter": 5,
+          "name": "갈라디아서 5:22",
+          "text": "오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과 ",
+          "verse": 22
+        },
+        {
+          "chapter": 5,
+          "name": "갈라디아서 5:23",
+          "text": "온유와 절제니 이같은 것을 금지할 법이 없느니라 ",
+          "verse": 23
+        }
+      ],
+      "verses": [
+        22,
+        23
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/p[10]",
+      "classification": "scripture_quotation",
+      "end": 19,
+      "identity": "Ecclesiastes 12:1-7",
+      "printed_text": "Ecclesiastes 12:1-7",
+      "start": 0
+    },
+    {
+      "block": "/article[1]/p[12]",
+      "classification": "scripture_quotation",
+      "end": 403,
+      "identity": "Deuteronomy 6:7",
+      "printed_text": "Deuteronomy 6:7",
+      "start": 388
+    },
+    {
+      "block": "/article[1]/p[53]",
+      "classification": "scripture_quotation",
+      "end": 221,
+      "identity": "Galatians 5:22-23",
+      "printed_text": "Galatians 5:22-23",
+      "start": 204
+    }
+  ],
+  "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+  "version": "1"
+}

@@ -1,0 +1,1502 @@
+{
+  "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T16:24:50+00:00",
+  "edition": {
+    "abbreviation": "martin",
+    "book_count": 66,
+    "catalog_description": "French Bible Martin (1744)",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "http://www.biblemartin.com/",
+    "inventory_sha256": "9bba95b0d14fac4f5e136ab7b8d5f24d8d29b9ad33cb1a2689c272e0801db9f0",
+    "name": "Martin (1744)",
+    "review_note": "Oldest complete candidate identified in the checked catalog; module update dates were not used as publication dates.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "fr",
+  "lookups": {
+    "kjv/21/12": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 21,
+        "chapter": 12,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:50.233884Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Ecclesiastes",
+          "book_nr": 21,
+          "chapter": 12,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Ecclesiastes 12",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:1",
+              "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+              "verse": 1
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:2",
+              "text": "While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:",
+              "verse": 2
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:3",
+              "text": "In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,",
+              "verse": 3
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:4",
+              "text": "And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;",
+              "verse": 4
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:5",
+              "text": "Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:",
+              "verse": 5
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:6",
+              "text": "Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.",
+              "verse": 6
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:7",
+              "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+              "verse": 7
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:8",
+              "text": "Vanity of vanities, saith the preacher; all is vanity.",
+              "verse": 8
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:9",
+              "text": "And moreover, because the preacher was wise, he still taught the people knowledge; yea, he gave good heed, and sought out, and set in order many proverbs.",
+              "verse": 9
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:10",
+              "text": "The preacher sought to find out acceptable words: and that which was written was upright, even words of truth.",
+              "verse": 10
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:11",
+              "text": "The words of the wise are as goads, and as nails fastened by the masters of assemblies, which are given from one shepherd.",
+              "verse": 11
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:12",
+              "text": "And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh.",
+              "verse": 12
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:13",
+              "text": "Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.",
+              "verse": 13
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclesiastes 12:14",
+              "text": "For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.  ",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "749e336271c2acbe98d1f7f50667a410d714f338",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/21/12.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 21,
+          "chapter": 12,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:51.233884Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:51 GMT",
+            "etag": "W/\"6aa59169-102e\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/21/12.json"
+        }
+      },
+      "result_sha256": "9b1def37c735039963d5fcc85a3adc2012a988b02f2a7ca2fbc876efbd1973d6",
+      "retrieved_at": "2026-10-05T16:24:51+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/48/5": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 48,
+        "chapter": 5,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:55.693404Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Galatians",
+          "book_nr": 48,
+          "chapter": 5,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Galatians 5",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 5,
+              "name": "Galatians 5:1",
+              "text": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+              "verse": 1
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:2",
+              "text": "Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing.",
+              "verse": 2
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:3",
+              "text": "For I testify again to every man that is circumcised, that he is a debtor to do the whole law.",
+              "verse": 3
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:4",
+              "text": "Christ is become of no effect unto you, whosoever of you are justified by the law; ye are fallen from grace.",
+              "verse": 4
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:5",
+              "text": "For we through the Spirit wait for the hope of righteousness by faith.",
+              "verse": 5
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:6",
+              "text": "For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love.",
+              "verse": 6
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:7",
+              "text": "Ye did run well; who did hinder you that ye should not obey the truth?",
+              "verse": 7
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:8",
+              "text": "This persuasion cometh not of him that calleth you.",
+              "verse": 8
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:9",
+              "text": "A little leaven leaveneth the whole lump.",
+              "verse": 9
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:10",
+              "text": "I have confidence in you through the Lord, that ye will be none otherwise minded: but he that troubleth you shall bear his judgment, whosoever he be.",
+              "verse": 10
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:11",
+              "text": "And I, brethren, if I yet preach circumcision, why do I yet suffer persecution? then is the offence of the cross ceased.",
+              "verse": 11
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:12",
+              "text": "I would they were even cut off which trouble you.",
+              "verse": 12
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:13",
+              "text": "For, brethren, ye have been called unto liberty; only use not liberty for an occasion to the flesh, but by love serve one another.",
+              "verse": 13
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:14",
+              "text": "For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself.",
+              "verse": 14
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:15",
+              "text": "But if ye bite and devour one another, take heed that ye be not consumed one of another.",
+              "verse": 15
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:16",
+              "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh.",
+              "verse": 16
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:17",
+              "text": "For the flesh lusteth against the Spirit, and the Spirit against the flesh: and these are contrary the one to the other: so that ye cannot do the things that ye would.",
+              "verse": 17
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:18",
+              "text": "But if ye be led of the Spirit, ye are not under the law.",
+              "verse": 18
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:19",
+              "text": "Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness,",
+              "verse": 19
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:20",
+              "text": "Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies,",
+              "verse": 20
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:21",
+              "text": "Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God.",
+              "verse": 21
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:22",
+              "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,",
+              "verse": 22
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:23",
+              "text": "Meekness, temperance: against such there is no law.",
+              "verse": 23
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:24",
+              "text": "And they that are Christ’s have crucified the flesh with the affections and lusts.",
+              "verse": 24
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:25",
+              "text": "If we live in the Spirit, let us also walk in the Spirit.",
+              "verse": 25
+            },
+            {
+              "chapter": 5,
+              "name": "Galatians 5:26",
+              "text": "Let us not be desirous of vain glory, provoking one another, envying one another. ",
+              "verse": 26
+            }
+          ]
+        },
+        "hash": "ad088822adbb59b4caca460ad5f0401c4571fedd",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/48/5.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 48,
+          "chapter": 5,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:56.693404Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:56 GMT",
+            "etag": "W/\"6aa59169-1825\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/48/5.json"
+        }
+      },
+      "result_sha256": "573a932fada1ae9556551d9a1bf147d7c7a2c834204626b090cba11075fbd1c5",
+      "retrieved_at": "2026-10-05T16:24:57+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/5/6": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 5,
+        "chapter": 6,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:52.666830Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Deuteronomy",
+          "book_nr": 5,
+          "chapter": 6,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Deuteronomy 6",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:1",
+              "text": "Now these are the commandments, the statutes, and the judgments, which the Lord your God commanded to teach you, that ye might do them in the land whither ye go to possess it:",
+              "verse": 1
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:2",
+              "text": "That thou mightest fear the Lord thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son’s son, all the days of thy life; and that thy days may be prolonged.",
+              "verse": 2
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:3",
+              "text": "Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the Lord God of thy fathers hath promised thee, in the land that floweth with milk and honey.",
+              "verse": 3
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:4",
+              "text": "Hear, O Israel: The Lord our God is one Lord:",
+              "verse": 4
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:5",
+              "text": "And thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might.",
+              "verse": 5
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:6",
+              "text": "And these words, which I command thee this day, shall be in thine heart:",
+              "verse": 6
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:7",
+              "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+              "verse": 7
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:8",
+              "text": "And thou shalt bind them for a sign upon thine hand, and they shall be as frontlets between thine eyes.",
+              "verse": 8
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:9",
+              "text": "And thou shalt write them upon the posts of thy house, and on thy gates.",
+              "verse": 9
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:10",
+              "text": "And it shall be, when the Lord thy God shall have brought thee into the land which he sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give thee great and goodly cities, which thou buildedst not,",
+              "verse": 10
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:11",
+              "text": "And houses full of all good things, which thou filledst not, and wells digged, which thou diggedst not, vineyards and olive trees, which thou plantedst not; when thou shalt have eaten and be full;",
+              "verse": 11
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:12",
+              "text": "Then beware lest thou forget the Lord, which brought thee forth out of the land of Egypt, from the house of bondage.",
+              "verse": 12
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:13",
+              "text": "Thou shalt fear the Lord thy God, and serve him, and shalt swear by his name.",
+              "verse": 13
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:14",
+              "text": "Ye shall not go after other gods, of the gods of the people which are round about you;",
+              "verse": 14
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:15",
+              "text": "(For the Lord thy God is a jealous God among you) lest the anger of the Lord thy God be kindled against thee, and destroy thee from off the face of the earth.",
+              "verse": 15
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:16",
+              "text": "Ye shall not tempt the Lord your God, as ye tempted him in Massah.",
+              "verse": 16
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:17",
+              "text": "Ye shall diligently keep the commandments of the Lord your God, and his testimonies, and his statutes, which he hath commanded thee.",
+              "verse": 17
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:18",
+              "text": "And thou shalt do that which is right and good in the sight of the Lord: that it may be well with thee, and that thou mayest go in and possess the good land which the Lord sware unto thy fathers,",
+              "verse": 18
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:19",
+              "text": "To cast out all thine enemies from before thee, as the Lord hath spoken.",
+              "verse": 19
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:20",
+              "text": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the Lord our God hath commanded you?",
+              "verse": 20
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:21",
+              "text": "Then thou shalt say unto thy son, We were Pharaoh’s bondmen in Egypt; and the Lord brought us out of Egypt with a mighty hand:",
+              "verse": 21
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:22",
+              "text": "And the Lord shewed signs and wonders, great and sore, upon Egypt, upon Pharaoh, and upon all his household, before our eyes:",
+              "verse": 22
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:23",
+              "text": "And he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers.",
+              "verse": 23
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:24",
+              "text": "And the Lord commanded us to do all these statutes, to fear the Lord our God, for our good always, that he might preserve us alive, as it is at this day.",
+              "verse": 24
+            },
+            {
+              "chapter": 6,
+              "name": "Deuteronomy 6:25",
+              "text": "And it shall be our righteousness, if we observe to do all these commandments before the Lord our God, as he hath commanded us. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "3587293327b19b462aac441ffa8320bc9652e82a",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/5/6.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 5,
+          "chapter": 6,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:53.666830Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:53 GMT",
+            "etag": "W/\"6aa59169-1b28\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/5/6.json"
+        }
+      },
+      "result_sha256": "fd64ea3c853f55ea472d5a24c0d1573d609d9bdfb8644be44425082aaea42233",
+      "retrieved_at": "2026-10-05T16:24:54+00:00",
+      "tool": "get_scripture"
+    },
+    "martin/21/12": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 21,
+        "chapter": 12,
+        "translation": "martin"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:51.407740Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "martin",
+          "book_name": "Ecclésiaste",
+          "book_nr": 21,
+          "chapter": 12,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "fr",
+          "language": "French",
+          "name": "Ecclésiaste 12",
+          "translation": "Martin (1744)",
+          "verses": [
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:1",
+              "text": " Jeune homme, réjouis-toi en ton jeune âge, et que ton coeur te rende gai aux jours de ta jeunesse, et marche comme ton coeur te mène, et selon le regard de tes yeux ; mais sache que pour toutes ces choses Dieu t'amènera en jugement.",
+              "verse": 1
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:2",
+              "text": "Ôte le chagrin de ton coeur, et éloigne de toi le mal ; car le jeune âge et l'adolescence ne sont que vanité.",
+              "verse": 2
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:3",
+              "text": "Mais souviens-toi de ton Créateur aux jours de ta jeunesse, avant que les jours mauvais viennent, et avant que les années arrivent desquelles tu dises : Je n'y prends point de plaisir.",
+              "verse": 3
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:4",
+              "text": "Avant que le soleil, la lumière, la lune et les étoiles s'obscurcissent, et que les nuées viennent l'une sur l'autre après la pluie.",
+              "verse": 4
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:5",
+              "text": "Lorsque les gardes de la maison trembleront, et que les hommes forts se courberont, et que celles qui meulent cesseront, parce qu'elles auront été diminuées ; et quand celles qui regardent par les fenêtres, seront obscurcies.",
+              "verse": 5
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:6",
+              "text": "Et quand les deux battants de la porte seront fermés vers la rue, avec abaissement du son de la meule ; quand on se lèvera à la voix de l'oiseau, et que toutes les chanteuses seront abaissées.",
+              "verse": 6
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:7",
+              "text": "Quand aussi l'on craindra ce qui est haut, et qu'on tremblera en allant ; quand l'amandier fleurira, et quand les cigales se rendront pesantes ; et que l'appétit s'en ira, (car l'homme s'en va dans la maison où il demeurera à toujours,) et quand on fera le tour par les rues, en menant deuil.",
+              "verse": 7
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:8",
+              "text": "Avant que le câble d'argent se déchaîne, que le vase d'or se débonde, que la cruche se brise sur la fontaine ; que la roue se rompe sur la citerne ;",
+              "verse": 8
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:9",
+              "text": "Et avant que la poudre retourne en la terre, comme elle y avait été, et que l'esprit retourne à Dieu, qui l'a donné.",
+              "verse": 9
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:10",
+              "text": "Vanité des vanités, dit l'Ecclésiaste, tout est vanité.",
+              "verse": 10
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:11",
+              "text": "Plus l'Ecclésiaste a été sage, plus il a enseigné la science au peuple ; il a fait entendre, il a recherché et mis en ordre plusieurs graves sentences.",
+              "verse": 11
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:12",
+              "text": "L'Ecclésiaste a cherché pour trouver des discours agréables ; mais ce qui en a été écrit ici, est la droiture même ; ce sont des paroles de vérité.",
+              "verse": 12
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:13",
+              "text": "Les paroles des sages sont comme des aiguillons, et les maîtres qui en ont fait des recueils, sont comme des clous fichés, et ces choses ont été données par un Pasteur.",
+              "verse": 13
+            },
+            {
+              "chapter": 12,
+              "name": "Ecclésiaste 12:14",
+              "text": "Mon fils garde-toi de ce qui est au-delà de ceci ; car il n'y a point de fin à faire plusieurs Livres, et tant d'étude n'est que travail qu'on se donne. Le but de tout le discours qui a été ouï, c'est : Crains Dieu, et garde ses commandements ; car c'est là le tout de l'homme. Parce que Dieu amènera toute oeuvre en jugement, touchant tout ce qui est caché, soit bien, soit mal.",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "3b959992d339807e0f328113683d239747972b8b",
+        "hash_source_url": "https://api.getbible.net/v2/martin/21/12.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 21,
+          "chapter": 12,
+          "kind": "chapter",
+          "translation": "martin"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:52.407740Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:52 GMT",
+            "etag": "W/\"6aa5916b-13ff\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:43 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/martin/21/12.json"
+        }
+      },
+      "result_sha256": "60f32817331da06796db004cb35dd9b7546f5758ec981b5c0b7aa9afda72b355",
+      "retrieved_at": "2026-10-05T16:24:52+00:00",
+      "tool": "get_scripture"
+    },
+    "martin/48/5": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 48,
+        "chapter": 5,
+        "translation": "martin"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:57.395497Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "martin",
+          "book_name": "Galates",
+          "book_nr": 48,
+          "chapter": 5,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "fr",
+          "language": "French",
+          "name": "Galates 5",
+          "translation": "Martin (1744)",
+          "verses": [
+            {
+              "chapter": 5,
+              "name": "Galates 5:1",
+              "text": " Tenez-vous donc fermes dans la liberté à l'égard de laquelle Christ nous a affranchis, et ne vous soumettez plus au joug de la servitude.",
+              "verse": 1
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:2",
+              "text": "Voici, je vous dis moi Paul, que si vous êtes circoncis, Christ ne vous profitera de rien.",
+              "verse": 2
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:3",
+              "text": "Et de plus je proteste à tout homme qui se circoncit, qu'il est obligé d'accomplir toute la Loi.",
+              "verse": 3
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:4",
+              "text": "Christ devient inutile à l'égard de vous tous qui voulez être justifiés par la Loi ; et vous êtes déchus de la grâce.",
+              "verse": 4
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:5",
+              "text": "Mais pour nous, nous espérons par l'esprit d'être justifiés par la foi.",
+              "verse": 5
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:6",
+              "text": "Car en Jésus-Christ ni la Circoncision ni le prépuce n'ont aucune efficace, mais la foi opérante par la charité.",
+              "verse": 6
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:7",
+              "text": "Vous couriez bien : qui est-ce donc qui vous a empêchés d'obéir à la vérité ?",
+              "verse": 7
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:8",
+              "text": "Cette persuasion ne vient pas de celui qui vous appelle.",
+              "verse": 8
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:9",
+              "text": "Un peu de levain fait lever toute la pâte.",
+              "verse": 9
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:10",
+              "text": "Je m'assure de vous en notre Seigneur, que vous n'aurez point d'autre sentiment ; mais celui qui vous trouble en portera la condamnation, quel qu'il soit.",
+              "verse": 10
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:11",
+              "text": "Et pour moi, mes frères, si je prêche encore la Circoncision, pourquoi est-ce que je souffre encore la persécution ? le scandale de la croix est donc aboli.",
+              "verse": 11
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:12",
+              "text": "Plût à Dieu que ceux qui vous troublent fussent retranchés !",
+              "verse": 12
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:13",
+              "text": "Car, mes frères, vous avez été appelés à la liberté ; seulement ne prenez pas une telle liberté pour une occasion de vivre selon la chair ; mais servez-vous l'un l'autre avec charité.",
+              "verse": 13
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:14",
+              "text": "Car toute la Loi est accomplie dans cette seule parole : tu aimeras ton Prochain comme toi-même.",
+              "verse": 14
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:15",
+              "text": "Mais si vous vous mordez et vous dévorez les uns les autres, prenez garde que vous ne soyez consumés l'un par l'autre.",
+              "verse": 15
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:16",
+              "text": "Je vous dis donc : marchez selon l'Esprit ; et vous n'accomplirez point les convoitises de la chair.",
+              "verse": 16
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:17",
+              "text": "Car la chair convoite contre l'esprit, et l'esprit contre la chair ; et ces choses sont opposées l'une à l'autre ; tellement que vous ne faites point les choses que vous voudriez.",
+              "verse": 17
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:18",
+              "text": "Or si vous êtes conduits par l'Esprit, vous n'êtes point sous la Loi.",
+              "verse": 18
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:19",
+              "text": "Car les oeuvres de la chair sont évidentes, lesquelles sont l'adultère, la fornication, la souillure, l'impudicité,",
+              "verse": 19
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:20",
+              "text": "L'idolâtrie, l'empoisonnement, les inimitiés, les querelles, les jalousies, les colères, les disputes, les divisions, les sectes,",
+              "verse": 20
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:21",
+              "text": "Les envies, les meurtres, les ivrogneries, les gourmandises, et les choses semblables à celles-là ; au sujet desquelles je vous prédis, comme je vous l'ai déjà dit, que ceux qui commettent de telles choses n'hériteront point le Royaume de Dieu.",
+              "verse": 21
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:22",
+              "text": "Mais le fruit de l'Esprit est la charité, la joie, la paix, un esprit patient, la bonté, la bénéficence, la fidélité, la douceur, la tempérance.",
+              "verse": 22
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:23",
+              "text": "Or la Loi ne condamne point de telles choses.",
+              "verse": 23
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:24",
+              "text": "Or ceux qui sont de Christ, ont crucifié la chair avec ses affections et ses convoitises.",
+              "verse": 24
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:25",
+              "text": "Si nous vivons par l'Esprit, conduisons-nous aussi par l'Esprit.",
+              "verse": 25
+            },
+            {
+              "chapter": 5,
+              "name": "Galates 5:26",
+              "text": "Ne désirons point la vaine gloire, en nous provoquant l'un l'autre, et en nous portant envie l'un à l'autre.",
+              "verse": 26
+            }
+          ]
+        },
+        "hash": "e68c37a9a86d9d18b348ba1975274d3a1401936e",
+        "hash_source_url": "https://api.getbible.net/v2/martin/48/5.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 48,
+          "chapter": 5,
+          "kind": "chapter",
+          "translation": "martin"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:58.395497Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:58 GMT",
+            "etag": "W/\"6aa5916b-1acf\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:43 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/martin/48/5.json"
+        }
+      },
+      "result_sha256": "4d8fb49ae9629c0150fa7ace7ec50868279e2b26e4be3e64ef6f3ac9c050ab21",
+      "retrieved_at": "2026-10-05T16:24:59+00:00",
+      "tool": "get_scripture"
+    },
+    "martin/5/6": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 5,
+        "chapter": 6,
+        "translation": "martin"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T16:24:53.922434Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "martin",
+          "book_name": "Deutéronome",
+          "book_nr": 5,
+          "chapter": 6,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "fr",
+          "language": "French",
+          "name": "Deutéronome 6",
+          "translation": "Martin (1744)",
+          "verses": [
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:1",
+              "text": " Ce sont donc ici les commandements, les statuts et les droits que l'Eternel votre Dieu m'a commandé de vous enseigner, afin que vous les fassiez au pays dans lequel vous allez passer pour le posséder.",
+              "verse": 1
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:2",
+              "text": "Afin que tu craignes l'Eternel ton Dieu, en gardant durant tous les jours de ta vie, toi, et ton fils, et le fils de ton fils, tous ces statuts et ces commandements que je te prescris, et afin que tes jours soient prolongés.",
+              "verse": 2
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:3",
+              "text": "Tu les écouteras donc, ô Israël ! et tu prendras garde de les faire, afin que tu prospères, et que vous soyez fort multipliés au pays découlant de lait et de miel, ainsi que l'Eternel, le Dieu de tes pères, l'a dit.",
+              "verse": 3
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:4",
+              "text": "Ecoute, Israël, l'Eternel notre Dieu est le seul Eternel.",
+              "verse": 4
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:5",
+              "text": "Tu aimeras donc l'Eternel ton Dieu de tout ton coeur, de toute ton âme, et de toutes tes forces.",
+              "verse": 5
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:6",
+              "text": "Et ces paroles que je te commande aujourd'hui seront en ton coeur.",
+              "verse": 6
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:7",
+              "text": "Tu les enseigneras soigneusement à tes enfants, et tu t'en entretiendras quand tu demeureras en ta maison, quand tu voyageras, quand tu te coucheras, et quand tu te lèveras.",
+              "verse": 7
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:8",
+              "text": "Et tu les lieras pour être un signe sur tes mains, et elles seront comme des fronteaux entre tes yeux.",
+              "verse": 8
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:9",
+              "text": "Tu les écriras aussi sur les poteaux de ta maison, et sur tes portes.",
+              "verse": 9
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:10",
+              "text": "Et il arrivera que quand l'Eternel ton Dieu t'aura fait entrer au pays qu'il a juré à tes pères, Abraham, Isaac, et Jacob, de te donner ; dans les grandes et bonnes villes que tu n'as point bâties ;",
+              "verse": 10
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:11",
+              "text": "Dans les maisons pleines de tous biens que tu n'as point remplies ; vers les puits creusés, que tu n'as point creusés ; près des vignes et des oliviers que tu n'as point plantés ; tu mangeras, et tu seras rassasié.",
+              "verse": 11
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:12",
+              "text": "Mais prends garde à toi, de peur que tu n'oublies l'Eternel qui t'a tiré du pays d'Egypte, de la maison de servitude.",
+              "verse": 12
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:13",
+              "text": "Tu craindras l'Eternel ton Dieu, tu le serviras, et tu jureras par son Nom.",
+              "verse": 13
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:14",
+              "text": "Vous ne marcherez point après les autres dieux, d'entre les dieux des peuples qui seront autour de vous.",
+              "verse": 14
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:15",
+              "text": "Car le Dieu Fort et jaloux, qui est l'Eternel ton Dieu, est au milieu de toi ; de peur que la colère de l'Eternel ton Dieu ne s'enflamme contre toi, et qu'il ne t'extermine de dessus la terre.",
+              "verse": 15
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:16",
+              "text": "Vous ne tenterez point l'Eternel votre Dieu, comme vous l'avez tenté en Massa.",
+              "verse": 16
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:17",
+              "text": "Vous garderez soigneusement les commandements de l'Eternel votre Dieu, et ses témoignages, et ses statuts qu'il vous a commandés.",
+              "verse": 17
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:18",
+              "text": "Tu feras donc ce que l'Eternel approuve et trouve droit et bon, afin que tu prospères, et que tu entres au bon pays duquel l'Eternel a juré à tes pères, et que tu le possèdes.",
+              "verse": 18
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:19",
+              "text": "En chassant tous tes ennemis de devant toi, comme l'Eternel en a parlé.",
+              "verse": 19
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:20",
+              "text": "Quand ton enfant t'interrogera à l'avenir, en disant : Que veulent dire ces témoignages, et ces statuts, et ces droits que l'Eternel notre Dieu vous a commandés ?",
+              "verse": 20
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:21",
+              "text": "Alors tu diras à ton enfant : Nous avons été esclaves de Pharaon en Egypte, et l'Eternel nous a retirés d'Egypte à main forte ;",
+              "verse": 21
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:22",
+              "text": "Et l'Eternel a fait des signes et des miracles, grands et nuisibles en Egypte, sur Pharaon, et sur toute sa maison, comme nous l'avons vu.",
+              "verse": 22
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:23",
+              "text": "Et il nous a fait sortir de là, pour nous faire entrer au pays duquel il avait juré à nos pères, de nous le donner ;",
+              "verse": 23
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:24",
+              "text": "Ainsi l'Eternel nous a commandé d'observer tous ces statuts, en craignant l'Eternel notre Dieu, afin que nous prospérions toujours, et que notre vie soit préservée, comme il paraît aujourd'hui.",
+              "verse": 24
+            },
+            {
+              "chapter": 6,
+              "name": "Deutéronome 6:25",
+              "text": "Et ceci sera notre justice, savoir quand nous aurons pris garde de faire tous ces commandements devant l'Eternel notre Dieu, selon qu'il nous l'a commandé.",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "f58702f50128a1d95010cec25c9f7c89ce33cf36",
+        "hash_source_url": "https://api.getbible.net/v2/martin/5/6.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 5,
+          "chapter": 6,
+          "kind": "chapter",
+          "translation": "martin"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T16:24:54.922434Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 16:24:54 GMT",
+            "etag": "W/\"6aa5916b-1d4b\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:43 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/martin/5/6.json"
+        }
+      },
+      "result_sha256": "c3343cb3cfd8a21017392b3e4192447ad82c4d26f599d9e99490c5192e944369",
+      "retrieved_at": "2026-10-05T16:24:55+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 99,
+              "start": 97,
+              "verse": 7
+            },
+            "source_text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 1
+            },
+            "word_end": 225,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[10]",
+      "book": 21,
+      "chapter": 12,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/21/12",
+      "english_verses": [
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:1",
+          "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+          "verse": 1
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:2",
+          "text": "While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:",
+          "verse": 2
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:3",
+          "text": "In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,",
+          "verse": 3
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:4",
+          "text": "And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;",
+          "verse": 4
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:5",
+          "text": "Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:",
+          "verse": 5
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:6",
+          "text": "Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.",
+          "verse": 6
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclesiastes 12:7",
+          "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+          "verse": 7
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Ecclesiastes 12:1-7",
+      "reference": "Ecclesiastes 12:1-7",
+      "source_end": 1217,
+      "source_quote": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+      "source_start": 72,
+      "target_lookup": "martin/21/12",
+      "target_verses": [
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:1",
+          "text": " Jeune homme, réjouis-toi en ton jeune âge, et que ton coeur te rende gai aux jours de ta jeunesse, et marche comme ton coeur te mène, et selon le regard de tes yeux ; mais sache que pour toutes ces choses Dieu t'amènera en jugement.",
+          "verse": 1
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:2",
+          "text": "Ôte le chagrin de ton coeur, et éloigne de toi le mal ; car le jeune âge et l'adolescence ne sont que vanité.",
+          "verse": 2
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:3",
+          "text": "Mais souviens-toi de ton Créateur aux jours de ta jeunesse, avant que les jours mauvais viennent, et avant que les années arrivent desquelles tu dises : Je n'y prends point de plaisir.",
+          "verse": 3
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:4",
+          "text": "Avant que le soleil, la lumière, la lune et les étoiles s'obscurcissent, et que les nuées viennent l'une sur l'autre après la pluie.",
+          "verse": 4
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:5",
+          "text": "Lorsque les gardes de la maison trembleront, et que les hommes forts se courberont, et que celles qui meulent cesseront, parce qu'elles auront été diminuées ; et quand celles qui regardent par les fenêtres, seront obscurcies.",
+          "verse": 5
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:6",
+          "text": "Et quand les deux battants de la porte seront fermés vers la rue, avec abaissement du son de la meule ; quand on se lèvera à la voix de l'oiseau, et que toutes les chanteuses seront abaissées.",
+          "verse": 6
+        },
+        {
+          "chapter": 12,
+          "name": "Ecclésiaste 12:7",
+          "text": "Quand aussi l'on craindra ce qui est haut, et qu'on tremblera en allant ; quand l'amandier fleurira, et quand les cigales se rendront pesantes ; et que l'appétit s'en ira, (car l'homme s'en va dans la maison où il demeurera à toujours,) et quand on fera le tour par les rues, en menant deuil.",
+          "verse": 7
+        }
+      ],
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 196,
+              "start": 194,
+              "verse": 7
+            },
+            "source_text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 7
+            },
+            "word_end": 37,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[12]",
+      "book": 5,
+      "chapter": 6,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/5/6",
+      "english_verses": [
+        {
+          "chapter": 6,
+          "name": "Deuteronomy 6:7",
+          "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+          "verse": 7
+        }
+      ],
+      "id": "q2",
+      "printed_reference": "Deuteronomy 6:7",
+      "reference": "Deuteronomy 6:7",
+      "source_end": 385,
+      "source_quote": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up",
+      "source_start": 189,
+      "target_lookup": "martin/5/6",
+      "target_verses": [
+        {
+          "chapter": 6,
+          "name": "Deutéronome 6:7",
+          "text": "Tu les enseigneras soigneusement à tes enfants, et tu t'en entretiendras quand tu demeureras en ta maison, quand tu voyageras, quand tu te coucheras, et quand tu te lèveras.",
+          "verse": 7
+        }
+      ],
+      "verses": [
+        7
+      ]
+    },
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 50,
+              "start": 47,
+              "verse": 23
+            },
+            "source_text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 22
+            },
+            "word_end": 22,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[53]",
+      "book": 48,
+      "chapter": 5,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": true,
+      "english_lookup": "kjv/48/5",
+      "english_verses": [
+        {
+          "chapter": 5,
+          "name": "Galatians 5:22",
+          "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,",
+          "verse": 22
+        },
+        {
+          "chapter": 5,
+          "name": "Galatians 5:23",
+          "text": "Meekness, temperance: against such there is no law.",
+          "verse": 23
+        }
+      ],
+      "id": "q3",
+      "printed_reference": "Galatians 5:22-23",
+      "reference": "Galatians 5:22-23",
+      "source_end": 201,
+      "source_quote": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law",
+      "source_start": 58,
+      "target_lookup": "martin/48/5",
+      "target_verses": [
+        {
+          "chapter": 5,
+          "name": "Galates 5:22",
+          "text": "Mais le fruit de l'Esprit est la charité, la joie, la paix, un esprit patient, la bonté, la bénéficence, la fidélité, la douceur, la tempérance.",
+          "verse": 22
+        },
+        {
+          "chapter": 5,
+          "name": "Galates 5:23",
+          "text": "Or la Loi ne condamne point de telles choses.",
+          "verse": 23
+        }
+      ],
+      "verses": [
+        22,
+        23
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/p[10]",
+      "classification": "scripture_quotation",
+      "end": 19,
+      "identity": "Ecclesiastes 12:1-7",
+      "printed_text": "Ecclesiastes 12:1-7",
+      "start": 0
+    },
+    {
+      "block": "/article[1]/p[12]",
+      "classification": "scripture_quotation",
+      "end": 403,
+      "identity": "Deuteronomy 6:7",
+      "printed_text": "Deuteronomy 6:7",
+      "start": 388
+    },
+    {
+      "block": "/article[1]/p[53]",
+      "classification": "scripture_quotation",
+      "end": 221,
+      "identity": "Galatians 5:22-23",
+      "printed_text": "Galatians 5:22-23",
+      "start": 204
+    }
+  ],
+  "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+  "version": "1"
+}
