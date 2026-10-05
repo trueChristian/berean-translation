@@ -12622,6 +12622,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
+      "html_sha256": "bf3669546ed091fc0611ab5ca1e2d0edeae41d45e98462e9cc33df1fa71b2636",
+      "human_reviewed": false,
+      "id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+      "images": [
+        {
+          "alt": "Ein Arzt neben einer medizinischen Illustration des menschlichen Gehirns",
+          "public_path": "/images/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870-1.jpg"
+        },
+        {
+          "alt": "Eine Brille, die auf einem Stapel Bücher liegt",
+          "public_path": "/images/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.json",
+      "metadata_sha256": "902a1af67fee8aa741fa7c108f80540ce836db44802e49034f1a62a314cd52bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ein Wort des Arztes",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DEMENZ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
       "html_sha256": "d9f34c24cb702814042e8d74fccaed3eb43aba2d0efca58239d3689b7919e6c0",
       "human_reviewed": false,
