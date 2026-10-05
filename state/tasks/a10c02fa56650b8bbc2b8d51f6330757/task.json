@@ -2,6 +2,7 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "35e3a338c0f045eaab368240e48f4f0d",
   "campaign": "gh-37314284958",
   "continuation": {
     "cycle": 1,
@@ -147,13 +148,13 @@
   },
   "protected": false,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
-  "review_attempts": 0,
+  "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/55bab917e839a5108720ccfba4b7e00dcf72e3e6477853c4a58784ef789cf62c.json",
   "scripture_evidence_sha256": "55bab917e839a5108720ccfba4b7e00dcf72e3e6477853c4a58784ef789cf62c",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-6.1-sol"
