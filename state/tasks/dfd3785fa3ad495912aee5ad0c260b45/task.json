@@ -2,10 +2,31 @@
   "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ef2690934e7747de9c61deffade98259",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:27:39+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 1691,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 394,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7623,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6093,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 9314
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "id": "dfd3785fa3ad495912aee5ad0c260b45",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "spa",
@@ -99,9 +120,9 @@
   "scripture_evidence_path": "state/scripture/3b3591e705f006c46ac7c11d1feeda2950f3851e3c4b3855d9a3eea080f6d229.json",
   "scripture_evidence_sha256": "3b3591e705f006c46ac7c11d1feeda2950f3851e3c4b3855d9a3eea080f6d229",
   "source_snapshot": "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "review1",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

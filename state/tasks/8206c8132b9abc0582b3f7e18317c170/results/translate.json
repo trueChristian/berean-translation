@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3efd2940-4d62-4f6f-9caa-12fc4f7f4666",
+    "response_id": "chatcmpl-EVfY6nWlxhJZyQJUNJ3HFLvEDQxbX",
+    "usage": {
+      "completion_tokens": 1858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7567,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6037,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9425
+    }
+  },
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"33d9d1e5-4428-473d-9549-730d3d980dca\">\n  <blockquote>\n    <p><strong><em>Kinders, julle moet jul ouers in alles gehoorsaam wees,</em></strong><em> want dit is die Here welbehaaglik. –Kol 3:20.</em></p>\n  </blockquote>\n  <p>Jare gelede was daar ’n seun met die naam Joey wat saam met sy pa en ma aan die buitewyke van ’n stad gewoon het. Eendag het Joey se pa vir hom ’n splinternuwe rooi-en-wit fiets gegee, waarna hy al lank verlang het.</p>\n  <p>Naby hulle huis was daar ’n groot heuwel waar die groot seuns in die buurt dit geniet het om met hulle fietse te ry. Joey se pa het hom streng verbied om saam met die groot seuns op die heuwel te ry, omdat dit te gevaarlik was. Hy is eerder net toegelaat om met sy fiets op die mooi, gladde sypaadjie af te ry, verby talle huise, deur ’n klein stegie en dan uiteindelik weer terug huis toe.</p>\n  <p>Namate die dae en weke verbygegaan het, het dit al minder opwindend geword. Hy het afgunstig toegekyk hoe die groot seuns hulle fietse teen die heuwel opstoot, amper reg voor sy huis. Bo-aan het hulle op hulle fietse gespring en met uitbundige uitroepe teen die teerpad af gejaag, terwyl hulle onder aan die heuwel vinnig by die aangrensende straat indraai.</p>\n  <p>“Joepie, hier kom ons!” het hulle geskree terwyl hulle verbyjaag en Joey rustig op sy fiets om en om sy klein blok huise laat trap het.</p>\n  <p>“Kom saam, Joey!” het die seuns geskree. “Hoekom kom jy nie saam met ons op nie? Kyk hoe lekker kuier ons! Jy is te bang,” het hulle hom gespot.</p>\n  <p>Joey was te skaam om vir hulle te sê dat sy pa hom verbied het omdat hy nog te klein was en dalk van sy fiets kon afval en seerkry. Die seuns sou hom net nog meer gespot het, daarom het hy stilgebly. Hoe graag wou hy nie opgaan en vir sy vriende wys dat hy nie bang was nie. Joey het gedink: “Miskien, as ek net een keer teen die heuwel af ry, sal Pa besef dat ek tog nie meer so klein is nie. Dan sal Pa trots wees op my en my toelaat om saam met die groot seuns teen die heuwel af te ry wanneer ek wil. O, hoe opwindend sal dit wees.” Net die gedagte daaraan het sy hart vinnig laat klop van opgewondenheid.</p>\n  <p>Joey hoef nie lank vir sy kans te wag nie. Sy pa sou ’n paar dae lank vir werk weg wees. Joey het gedink dit sou sy kans wees om vir sy pa te bewys dat hy saam met die groot seuns met sy fiets kon ry. Vol opgewondenheid en afwagting het hy sy fiets teen die heuwel uitgestoot. In die geselskap van die groot seuns het hy so groot gevoel. Sy pa was tog seker verkeerd! Nou sou hy vir almal bewys dat hy beter as enigiemand anders geweet het wat hy kon en nie kon doen nie.</p>\n  <figure>\n    <img src=\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\" alt=\"’n Jong seun met ’n glimlag, ’n helm op sy kop en ’n rooi fiets by hom\">\n  </figure>\n  <p>Met ’n aanloop en ’n sprong was hy op sy fiets. Namate die fiets vinniger en vinniger beweeg het, het hy die handvatsels stewiger vasgegryp. Op daardie oomblik het een van die ondeunde seuns, wat teen die heuwel opgekom het, ’n klip na Joey se band gegooi terwyl hy verbygejaag het. Joey het skerp uitgeswaai om die klip te vermy. Voordat hy besef het wat gebeur, het hy sonder sy fiets deur die lug getrek. Hy het gerol, gegly en gestamp voordat hy pynlik tot stilstand gekom het. Joey was ’n deurmekaar spul. Sy broek en hemp was geskeur. Sy hande, knieë en gesig was vol snye en kneusplekke. Hy het nie meer daaraan gedink om die held van die groot fietsryheuwel te wees nie. Ons klein, vernederde “held” van die heuwel is huis toe geneem na sy ma, wat sy wonde simpatiek en liefdevol gewas en verbind het.</p>\n  <p>Die volgende dag het Joey se pa teruggekom huis toe. Toe hy die verbande aan sy seun en die beskadigde fiets sien, het hy dadelik geraai wat gebeur het. Joey se fiets is vir ’n paar weke as straf vir sy ongehoorsaamheid weggepak.</p>\n  <p>Joey het op die randsteen gesit terwyl die seuns teen die heuwel afjaag en dan verder na die ander straat toe ry. Nou wou Joey glad nie meer stilletjies wegsluip om saam met die groot seuns fiets te ry nie. Hy het sy les geleer: hy moes altyd sy pa gehoorsaam, selfs wanneer hy gedink het hy weet beter. Hy het besef dat sy pa nie sy pret probeer bederf het nie, maar hom eerder veilig probeer hou het.</p>\n  <p>Toe Joey weer toegelaat is om met sy fiets te ry, was hy heel tevrede om rustig om sy klein blok huise te ry. Van toe af sou hy sy pa gehoorsaam, nie net in veiligheidsake nie, maar in alles.</p>\n</article>\n",
+    "scripture_selections": [
+      {
+        "block": "/article[1]/blockquote[1]/p[1]",
+        "end": 90,
+        "fragments": [
+          [
+            {
+              "end": 90,
+              "start": 0,
+              "verse": 20
+            }
+          ]
+        ],
+        "quote_id": "q1",
+        "start": 0
+      }
+    ],
+    "section": "KINDERHOEKIE",
+    "subtitle": null,
+    "title": "Joey se val"
+  }
+}

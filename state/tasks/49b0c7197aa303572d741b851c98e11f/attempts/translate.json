@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:50+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"En lysande rosa blomma mot en blå och grön bakgrund\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">En Guds prinsessa!<br>\\n  Det är en upphöjd kallelse<br>\\n  Som förtjänar att jag ger<br>\\n  Av talang och tid<br>\\n  För att växa i härligheten<br>\\n  Av det Han vill göra mig till--<br>\\n  Min Fader, Konungen,<br>\\n  Ska ta bort all fulhet<br>\\n  Från mitt hjärta,<br>\\n  Så att den inte längre fläckar det<br>\\n  Och ge mig de juveler<br>\\n  Som Han har i beredskap.</p>\\n  <p class=\\\"poem\\\">En Guds prinsessa!<br>\\n  Det är en kallelse att leva<br>\\n  Ett liv som skulle ge<br>\\n  Till andra omkring mig<br>\\n  En diamant av hopp,<br>\\n  En längtan efter Gud,<br>\\n  Frälsningens sanning<br>\\n  Genom Jesu utgjutna blod.<br>\\n  En kallelse att leva gudfruktigt<br>\\n  I Jesus Kristus,<br>\\n  Smyckad med Hans mildhet<br>\\n  Och klädd i Hans ljus.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Dikt\",\"subtitle\":null,\"title\":\"En Guds prinsessa\"}",
+    "content_bytes": 1137,
+    "content_evidence_truncated": false,
+    "content_sha256": "c427c73230048e13079e19a2d33a5ec9dca375ab57871fd5a8e503e53d49ed02",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1147,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3222
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

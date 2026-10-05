@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:53+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"نیلے اور سبز پس منظر کے سامنے شوخ گلابی پھول\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">خدا کی شہزادی!<br>\\n  یہ ایک بلند مقصد کی پکار ہے<br>\\n  جس کے لیے میں اپنا ہنر<br>\\n  اور وقت صرف کروں<br>\\n  اُس جلال میں بڑھنے کے لیے<br>\\n  جس صورت میں وہ مجھے ڈھالے گا—<br>\\n  میرا باپ، بادشاہ،<br>\\n  میرے دل کی ساری بدصورتی<br>\\n  دور کر دے گا،<br>\\n  تاکہ وہ پھر کبھی اُسے داغدار نہ کرے<br>\\n  اور مجھے وہ جواہر عطا کرے<br>\\n  جو اُس نے میرے لیے رکھے ہیں۔</p>\\n  <p class=\\\"poem\\\">خدا کی شہزادی!<br>\\n  یہ ایسی زندگی گزارنے کی پکار ہے<br>\\n  جو میرے آس پاس کے لوگوں کو<br>\\n  عطا کرے<br>\\n  امید کا ایک ہیرا،<br>\\n  خدا کی آرزو،<br>\\n  نجات کی سچائی<br>\\n  یسوع کے بہائے ہوئے خون کے وسیلے سے۔<br>\\n  یسوع مسیح میں دینداری کی زندگی گزارنے کی پکار،<br>\\n  اُس کی حلیمی سے آراستہ<br>\\n  اور اُس کے نور سے ملبوس۔</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"نظم\",\"subtitle\":null,\"title\":\"خدا کی شہزادی\"}",
+    "content_bytes": 1540,
+    "content_evidence_truncated": false,
+    "content_sha256": "40777cff180db3decc0b332010ba0bf7cf6d9ac10a737ba39ca45f3de01cc0bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 138,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1027,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3146
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:50+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"زهرة وردية زاهية على خلفية زرقاء وخضراء\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">أميرةٌ لله!<br>\\n  إنها دعوةٌ سامية<br>\\n  تستحق أن أبذل لها<br>\\n  موهبتي ووقتي<br>\\n  لأنمو في مجد<br>\\n  ما يريد أن يصنعه --<br>\\n  أبي، الملك،<br>\\n  سيزيل كل قبح<br>\\n  من قلبي،<br>\\n  كيلا يعود يشوّه جماله<br>\\n  وليمنحني الجواهر<br>\\n  التي أعدّها لي.</p>\\n  <p class=\\\"poem\\\">أميرةٌ لله!<br>\\n  إنها دعوةٌ لأعيش<br>\\n  حياةً تمنح الآخرين<br>\\n  من حولي<br>\\n  ألماسةً من الرجاء،<br>\\n  ورغبةً في الله،<br>\\n  وحقيقة الخلاص<br>\\n  بدم يسوع المسفوك.<br>\\n  إنها دعوةٌ لأحيا حياةً تقية<br>\\n  في يسوع المسيح،<br>\\n  متزينةً بوداعته<br>\\n  ومتسربلةً بنوره.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"قصيدة\",\"subtitle\":null,\"title\":\"أميرة لله\"}",
+    "content_bytes": 1262,
+    "content_evidence_truncated": false,
+    "content_sha256": "44e745dc5ff4c6cf77e80905600c320cf217e7c169537c53574e46233df60033",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1160,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3172
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

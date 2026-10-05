@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"푸른색과 초록색 배경을 뒤로 선명한 분홍색 꽃\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">하나님의 공주여!<br>\\n  숭고한 부르심이니<br>\\n  재능과 시간을<br>\\n  기꺼이 바칠 만하네<br>\\n  주님께서 빚으실<br>\\n  그 영광 가운데 자라도록—<br>\\n  나의 아버지, 왕께서<br>\\n  내 마음의 모든 추함을<br>\\n  없애 주시리니,<br>\\n  다시는 내 마음을 흐리지 않고<br>\\n  주께서 예비하신<br>\\n  보석들을 내게 가져다주시리라.</p>\\n  <p class=\\\"poem\\\">하나님의 공주여!<br>\\n  이는 살아가라는 부르심,<br>\\n  내 곁의 사람들에게<br>\\n  전해 줄 삶을 살라는 부르심이네<br>\\n  소망의 다이아몬드,<br>\\n  하나님을 향한 열망,<br>\\n  예수께서 흘리신 피로 얻는<br>\\n  구원의 진리를.<br>\\n  예수 그리스도 안에서<br>\\n  경건하게 살라는 부르심,<br>\\n  주님의 온유함으로 단장하고<br>\\n  주님의 빛을 입으라.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"시\",\"subtitle\":null,\"title\":\"하나님의 공주\"}",
+    "content_bytes": 1276,
+    "content_evidence_truncated": false,
+    "content_sha256": "8acddbbc8a21081b82386adf23fdc12b474cd597f0e3c17129773702771132a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 65,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1123,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3169
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

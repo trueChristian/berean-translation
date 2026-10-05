@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6dc5d428-b1bb-4c14-a41b-350d746668e3",
+    "response_id": "chatcmpl-EVgBA1sIwmhLr8AWRZbKNmqF8bdAQ",
+    "usage": {
+      "completion_tokens": 1538,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 241,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7593,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6063,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9131
+    }
+  },
+  "received_at": "2026-10-05T22:56:52+00:00",
+  "result": {
+    "html": "<article data-article-id=\"33d9d1e5-4428-473d-9549-730d3d980dca\">\n  <blockquote>\n    <p><strong><em>Vós, filhos, obedecei em tudo a vossos paes;</em></strong><em> porque isto é agradavel ao Senhor. –Colossenses 3:20.</em></p>\n  </blockquote>\n  <p>Anos atrás, havia um menino chamado Joey que vivia com o pai e a mãe nos arredores de uma cidade. Um dia, o pai de Joey deu-lhe uma bicicleta novinha, vermelha e branca, que ele queria havia muito tempo.</p>\n  <p>Havia um grande morro perto da casa deles, onde os meninos mais velhos do bairro gostavam de andar de bicicleta. O pai de Joey proibiu-o terminantemente de andar com os meninos mais velhos no morro, pois era perigoso demais. Em vez disso, só lhe era permitido andar pela calçada bonita e lisa, passando por numerosas casas, atravessando um pequeno beco e, por fim, voltando para casa.</p>\n  <p>Com o passar dos dias e das semanas, aquilo começou a perder a graça. Ele observava com inveja os meninos mais velhos empurrarem as bicicletas morro acima, quase bem diante da sua casa. No alto, eles montavam nas bicicletas e, com gritos de alegria, desciam correndo pela estrada asfaltada, virando rapidamente para a rua que se juntava a ela, no pé do morro.</p>\n  <p>— Uhuu, lá vamos nós! — gritavam enquanto passavam em disparada, deixando Joey a pedalar tranquilamente pelo seu pequeno quarteirão, uma vez após outra.</p>\n  <p>— Vamos, Joey! — gritavam os meninos. — Por que não sobe com a gente? Veja só que diversão! Você tem medo demais — provocavam-no.</p>\n  <p>Joey ficou envergonhado demais para lhes dizer que o pai o havia proibido porque ele ainda era pequeno demais e poderia cair da bicicleta e se machucar. Os meninos só zombariam ainda mais dele, então ele ficou calado. Como desejava poder subir e mostrar aos amigos que não tinha medo. Joey pensou: «Talvez, se eu descesse o morro só uma vez, meu pai percebesse que já não sou tão pequeno assim. Então, o papai teria orgulho de mim e me deixaria descer o morro com os meninos mais velhos sempre que eu quisesse. Ah, como seria emocionante!» Só de pensar nisso, seu coração batia depressa, cheio de expectativa.</p>\n  <p>Joey não precisou esperar muito pela oportunidade. Seu pai ficaria fora por alguns dias a trabalho. Joey pensou que aquela seria sua chance de provar ao pai que era capaz de andar de bicicleta com os meninos mais velhos. Cheio de entusiasmo e expectativa, levou a bicicleta morro acima. Sentia-se tão crescido na companhia dos meninos mais velhos. Com certeza, seu pai estava errado! Agora provaria a todos que sabia melhor do que qualquer outra pessoa o que era capaz ou não de fazer.</p>\n  <figure>\n    <img src=\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\" alt=\"Um menino sorridente usando capacete e ao lado de uma bicicleta vermelha\">\n  </figure>\n  <p>Com uma corrida e um salto, montou na bicicleta. À medida que ela ganhava velocidade, ele segurava o guidão com mais firmeza. Naquele momento, um dos meninos travessos, que subia o morro, atirou uma pedra no pneu de Joey quando ele passou voando. Joey desviou bruscamente para evitar a pedra. Antes que percebesse o que estava acontecendo, voava pelo ar sem a bicicleta. Rolou, deslizou e bateu em tudo, até parar dolorosamente. Joey ficou todo machucado. A calça e a camisa estavam rasgadas. Tinha cortes e hematomas nas mãos, nos joelhos e no rosto. Já não pensava em ser o herói do grande morro das bicicletas. Nosso pequeno «herói» humilhado do morro foi levado para casa, para junto da mãe, que, com carinho e amor, lavou e tratou seus ferimentos.</p>\n  <p>No dia seguinte, o pai de Joey voltou para casa. Quando viu as ataduras no filho e a bicicleta danificada, adivinhou imediatamente o que havia acontecido. Como castigo por sua desobediência, a bicicleta de Joey ficou guardada por várias semanas.</p>\n  <p>Joey sentou-se no meio-fio enquanto os meninos desciam o morro em disparada e seguiam para a outra rua. Agora, Joey já não tinha vontade alguma de sair escondido para andar de bicicleta com os meninos mais velhos. Aprendera a lição: obedecer sempre ao pai, mesmo quando achasse que sabia mais. Percebeu que o pai não estava tentando estragar sua diversão; estava tentando mantê-lo em segurança.</p>\n  <p>Quando voltou a ter permissão para andar de bicicleta, Joey ficou bastante satisfeito em pedalar tranquilamente pelo pequeno quarteirão de casas. De agora em diante, obedeceria ao pai, não apenas em questões de segurança, mas em tudo.</p>\n</article>\n",
+    "scripture_selections": [
+      {
+        "block": "/article[1]/blockquote[1]/p[1]",
+        "end": 81,
+        "fragments": [
+          [
+            {
+              "end": 80,
+              "start": 0,
+              "verse": 20
+            }
+          ]
+        ],
+        "quote_id": "q1",
+        "start": 0
+      }
+    ],
+    "section": "ESPAÇO INFANTIL",
+    "subtitle": null,
+    "title": "A queda de Joey"
+  }
+}

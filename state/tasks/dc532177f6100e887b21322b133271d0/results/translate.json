@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "475fbbc5-edfc-40c6-8bad-6eb557d0447d",
+    "response_id": "chatcmpl-EVfY8QVQnlRIWAJzXHoHJJ4muBJNT",
+    "usage": {
+      "completion_tokens": 2035,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7587,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6057,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9622
+    }
+  },
+  "received_at": "2026-10-05T22:56:53+00:00",
+  "result": {
+    "html": "<article data-article-id=\"33d9d1e5-4428-473d-9549-730d3d980dca\">\n  <blockquote>\n    <p><strong><em>Enfants, obéissez à vos pères et à vos mères en toutes choses ;</em></strong><em> car cela est agréable au Seigneur. –Colossiens 3:20.</em></p>\n  </blockquote>\n  <p>Il y a des années, un garçon nommé Joey vivait avec son père et sa mère à la périphérie d’une ville. Un jour, le père de Joey lui offrit un vélo tout neuf, rouge et blanc, qu’il désirait depuis longtemps.</p>\n  <p>Il y avait une grande colline près de leur maison où les grands garçons du quartier aimaient faire du vélo. Le père de Joey lui avait strictement interdit de faire du vélo avec eux sur la colline, car c’était trop dangereux. Il était seulement autorisé à rouler sur le joli trottoir lisse, à passer devant de nombreuses maisons, à traverser une petite ruelle, puis à revenir enfin chez lui.</p>\n  <p>Au fil des jours et des semaines, cela commença à perdre de son attrait. Il regardait avec envie les grands garçons pousser leurs vélos jusqu’en haut de la colline, presque juste devant sa maison. Arrivés au sommet, ils enfourchaient leurs vélos et, poussant des cris de joie, dévalaient la route goudronnée avant de tourner rapidement dans la rue adjacente, en bas de la colline.</p>\n  <p>« Youpi, nous voilà ! » criaient-ils en passant à toute vitesse, laissant Joey pédaler tranquillement autour de son petit pâté de maisons, encore et encore.</p>\n  <p>« Allez, Joey ! » criaient les garçons. « Pourquoi ne montes-tu pas avec nous ? Regarde comme on s’amuse ! Tu as trop peur », le taquinaient-ils.</p>\n  <p>Joey était trop gêné pour leur dire que son père le lui avait interdit parce qu’il était trop petit et risquait de tomber de son vélo et de se faire mal. Les garçons n’auraient fait que se moquer davantage de lui, alors il resta silencieux. Comme il aurait aimé pouvoir monter et montrer à ses amis qu’il n’avait pas peur ! Joey se dit : « Peut-être que si je descendais la colline une seule fois, mon père comprendrait que je ne suis plus si petit après tout. Alors papa serait fier de moi et me laisserait descendre la colline avec les grands garçons quand je le voudrais. Oh, comme ce serait excitant ! » Rien que d’y penser, son cœur se mit à battre rapidement d’impatience.</p>\n  <p>Joey n’eut pas à attendre longtemps avant d’en avoir l’occasion. Son père devait partir quelques jours pour affaires. Joey pensa que ce serait l’occasion de prouver à son père qu’il était capable de faire du vélo avec les grands garçons. Tout excité et impatient, il monta sa bicyclette jusqu’en haut de la colline. En compagnie des grands garçons, il se sentait tellement grand. Son père avait sûrement tort ! Il allait maintenant prouver à tout le monde qu’il savait mieux que quiconque ce qu’il était capable de faire ou non.</p>\n  <figure>\n    <img src=\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\" alt=\"Un jeune garçon souriant, portant un casque et debout à côté d’un vélo rouge\">\n  </figure>\n  <p>D’un élan et d’un bond, il se retrouva sur son vélo. À mesure que celui-ci allait de plus en plus vite, il agrippa le guidon plus fermement. À ce moment-là, l’un des garçons malicieux, qui montait la colline, lança une pierre sur le pneu de Joey tandis qu’il passait à toute vitesse. Joey fit brusquement un écart pour éviter la pierre. Avant même de comprendre ce qui se passait, il volait dans les airs sans son vélo. Il roula, glissa et rebondit avant de s’arrêter douloureusement. Joey était dans un piteux état. Son pantalon et sa chemise étaient déchirés. Il avait des coupures et des ecchymoses aux mains, aux genoux et au visage. Il ne pensait plus à devenir le héros de la grande colline des cyclistes. Notre petit « héros » humilié fut ramené chez lui auprès de sa mère, qui nettoya et pansa ses blessures avec compassion et affection.</p>\n  <p>Le lendemain, le père de Joey rentra à la maison. En voyant les bandages de son fils et le vélo endommagé, il devina aussitôt ce qui s’était passé. Le vélo de Joey fut rangé pendant plusieurs semaines, en punition de sa désobéissance.</p>\n  <p>Joey était assis sur le bord du trottoir tandis que les garçons dévalaient la colline, puis poursuivaient leur route dans l’autre rue. À présent, Joey n’avait plus envie de s’éclipser pour faire du vélo avec les grands garçons. Il avait retenu la leçon : toujours obéir à son père, même lorsqu’il pensait savoir mieux que lui. Il comprit que son père ne cherchait pas à gâcher son plaisir, mais plutôt à le protéger.</p>\n  <p>Quand Joey fut de nouveau autorisé à faire du vélo, il se contenta parfaitement de rouler tranquillement autour de son petit pâté de maisons. Désormais, il obéirait à son père, non seulement en matière de sécurité, mais en toutes choses.</p>\n</article>\n",
+    "scripture_selections": [
+      {
+        "block": "/article[1]/blockquote[1]/p[1]",
+        "end": 98,
+        "fragments": [
+          [
+            {
+              "end": 98,
+              "start": 1,
+              "verse": 20
+            }
+          ]
+        ],
+        "quote_id": "q1",
+        "start": 0
+      }
+    ],
+    "section": "RUBRIQUE DES ENFANTS",
+    "subtitle": null,
+    "title": "La chute de Joey"
+  }
+}

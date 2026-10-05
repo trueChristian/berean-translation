@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"’n Helderpienk blom teen ’n blou en groen agtergrond\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">’n Prinses van God!<br>\\n  Dis ’n verhewe roeping<br>\\n  Wat verdien dat ek gee<br>\\n  Van my talente en tyd<br>\\n  Om te groei in die heerlikheid<br>\\n  Van wat Hy van my wil maak—<br>\\n  My Vader, die Koning,<br>\\n  Sal alle lelikheid<br>\\n  Wegneem uit my hart,<br>\\n  Sodat dit nie meer besoedel nie<br>\\n  En vir my die juwele bring<br>\\n  Wat Hy vir my gereed hou.</p>\\n  <p class=\\\"poem\\\">’n Prinses van God!<br>\\n  Dis ’n roeping om te leef<br>\\n  ’n Lewe wat aan ander<br>\\n  Om my heen sou gee<br>\\n  ’n Diamant van hoop,<br>\\n  ’n Verlange na God,<br>\\n  Die waarheid van verlossing<br>\\n  Deur Jesus se vergotte bloed.<br>\\n  ’n Roeping om godvrugtig te leef<br>\\n  In Jesus Christus,<br>\\n  Versier met sy sagmoedigheid<br>\\n  En beklee met sy lig.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Gedig\",\"subtitle\":null,\"title\":\"’n Prinses van God\"}",
+    "content_bytes": 1156,
+    "content_evidence_truncated": false,
+    "content_sha256": "b13ad2b829a9430f5ffa7869dcfb2d6b897ae099dd1a51aec8811c5377760dc8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 235,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1138,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3332
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

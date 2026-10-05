@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:52+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"En strålende rosa blomst mot en blå og grønn bakgrunn\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">En prinsesse av Gud!<br>\\n  Det er et opphøyd kall<br>\\n  Som fortjener at jeg gir<br>\\n  Av mine evner og min tid<br>\\n  For å vokse i herligheten<br>\\n  Av det Han vil forme meg til –<br>\\n  Min Far, Kongen,<br>\\n  Vil ta bort all stygghet<br>\\n  Fra hjertet mitt,<br>\\n  Så det ikke lenger flekker,<br>\\n  Og gi meg juvelene<br>\\n  Han har i vente.</p>\\n  <p class=\\\"poem\\\">En prinsesse av Gud!<br>\\n  Det er et kall til å leve<br>\\n  Et liv som gir andre<br>\\n  Rundt meg<br>\\n  En diamant av håp,<br>\\n  En lengsel etter Gud,<br>\\n  Frelsens sannhet<br>\\n  Ved Jesu utgytte blod.<br>\\n  Et kall til å leve gudfryktig<br>\\n  i Jesus Kristus,<br>\\n  Smykket med Hans ydmykhet<br>\\n  Og kledd i Hans lys.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Dikt\",\"subtitle\":null,\"title\":\"En prinsesse av Gud\"}",
+    "content_bytes": 1089,
+    "content_evidence_truncated": false,
+    "content_sha256": "993f9eb2a2f76981a450b9c7612ccaf832b373a08db73cc62ce17cb4d392d548",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 405,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1142,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3077
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "072fc05b-4b71-4bba-b285-b4efd7f6aad0",
+    "response_id": "chatcmpl-EVfY4GX6qhJJRgTTlfN55SF6fnjsw",
+    "usage": {
+      "completion_tokens": 538,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1142,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3210
+    }
+  },
+  "received_at": "2026-10-05T22:56:50+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"Uma flor rosa-viva contra um fundo azul e verde\">\n  </figure>\n  <p class=\"poem\">Uma princesa de Deus!<br>\n  É um chamado sublime<br>\n  Que merece que eu dedique<br>\n  Talento e tempo<br>\n  Para crescer na glória<br>\n  Daquilo que Ele faria de mim—<br>\n  Meu Pai, o Rei,<br>\n  Tirará toda a fealdade<br>\n  Do meu coração,<br>\n  Para que não o manche mais<br>\n  E me trará as joias<br>\n  Que Ele tem reservadas.</p>\n  <p class=\"poem\">Uma princesa de Deus!<br>\n  É um chamado para viver<br>\n  Uma vida que aos outros<br>\n  Ao meu redor ofereça<br>\n  Um diamante de esperança,<br>\n  O desejo por Deus,<br>\n  A verdade da salvação<br>\n  Pelo sangue derramado por Jesus.<br>\n  Um chamado para viver piedosamente<br>\n  em Jesus Cristo,<br>\n  Adornada com a mansidão dele<br>\n  E revestida da sua luz.</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Uma Princesa de Deus"
+  }
+}

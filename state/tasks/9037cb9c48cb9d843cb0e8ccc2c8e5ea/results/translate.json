@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d174762c-06f5-4823-a408-7d1f059b416b",
+    "response_id": "chatcmpl-EVfYZBMcsCMRrwOY3NPbgaSAx63Tg",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1131,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3157
+    }
+  },
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"Ένα ζωηρό ροζ λουλούδι μπροστά σε γαλάζιο και πράσινο φόντο\">\n  </figure>\n  <p class=\"poem\">Μια πριγκίπισσα του Θεού!<br>\n  Είναι ένα ύψιστο κάλεσμα<br>\n  που αξίζει να προσφέρω<br>\n  τα χαρίσματα και τον χρόνο μου<br>\n  για να μεγαλώσω μέσα στη δόξα<br>\n  αυτού που Εκείνος θα με κάνει—<br>\n  Ο Πατέρας μου, ο Βασιλιάς,<br>\n  θα πάρει κάθε ασχήμια<br>\n  από την καρδιά μου,<br>\n  ώστε να μην τη θαμπώνει πια<br>\n  και θα μου φέρει τα κοσμήματα<br>\n  που έχει φυλαγμένα για μένα.</p>\n  <p class=\"poem\">Μια πριγκίπισσα του Θεού!<br>\n  Είναι ένα κάλεσμα να ζήσω<br>\n  μια ζωή που στους άλλους<br>\n  γύρω μου θα προσφέρει<br>\n  ένα διαμάντι ελπίδας,<br>\n  μια επιθυμία για τον Θεό,<br>\n  την αλήθεια της σωτηρίας<br>\n  με το αίμα που έχυσε ο Ιησούς.<br>\n  Ένα κάλεσμα να ζήσω με ευσέβεια<br>\n  εν Χριστώ Ιησού,<br>\n  στολισμένη με την πραότητά Του<br>\n  και ντυμένη με το φως Του.</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "Ποίημα",
+    "subtitle": null,
+    "title": "Μια πριγκίπισσα του Θεού"
+  }
+}

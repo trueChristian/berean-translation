@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[1]/em[1]/strong[1]; translation /article[1]/p[1]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>And he [Jesus] spake to them a parable; Behold the fig tree, and all the trees; When they now shoot forth, ye see and know of your own selves that <strong>summer is now nigh at hand.</strong> So likewise ye, when ye see these things come to pass, know ye that <strong>the kingdom of God is nigh at hand</strong> –Luk 21:29-31.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[6:10], translation signature[6:6], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>耶稣又设一个比喻，对他们说：“你们看无花果树和各样的树；它们一发芽，你们看见了，自然就知道夏天近了。照样，你们看见这些事发生，也就知道　神的国近了。”——路加福音 21:29-31。</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[12]/em[1]; translation /article[1]/p[12]",
+      "severity": "critical",
+      "source_quote": "<p>A big thank you to all who so faithfully continue to support the work of <em>The Berean Voice.</em> It is through the many prayers, emails and phone calls of encouragement and suggestions, and the financial contributions of many believers that we can continue to minister to the needs of others. As a non-profit ministry of the church, we do not charge for our material or services, therefore we rely entirely on the ongoing freewill offerings of God’s people. Please prayerfully consider how God would have you to partner with us in this work.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[53:55], translation signature[49:49], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>衷心感谢所有忠心支持《庇哩亚之声》事工的人。许多人的祷告、鼓励与建议的电子邮件和电话，以及众多信徒的奉献，使我们得以继续服事他人的需要。作为教会的非营利事工，我们不为材料或服务收费，因此完全依靠　神子民持续自愿的奉献。请在祷告中思量　神希望你如何与我们一同参与这项工作。</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+  "stage": "translate"
+}

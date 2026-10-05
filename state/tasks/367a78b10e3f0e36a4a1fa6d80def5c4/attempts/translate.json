@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:50+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"33d9d1e5-4428-473d-9549-730d3d980dca\\\">\\n  <blockquote>\\n    <p><strong><em>I barn! vær lydige mot eders foreldre i alle ting!</em></strong><em> for dette er velbehagelig i Herren. –Kol 3:20.</em></p>\\n  </blockquote>\\n  <p>For mange år siden bodde det en gutt som het Joey, sammen med faren og moren sin i utkanten av en by. En dag ga faren hans ham en splitter ny rød og hvit sykkel, som han hadde ønsket seg lenge.</p>\\n  <p>Det var en stor bakke i nærheten av huset deres der de store guttene i nabolaget likte å sykle. Faren til Joey forbød ham strengt å sykle sammen med de store guttene i bakken, siden det var for farlig. I stedet fikk han bare lov til å sykle på den fine, jevne fortauet, forbi mange hus, gjennom en liten smalgate og til slutt tilbake til huset sitt igjen.</p>\\n  <p>Etter hvert som dagene og ukene gikk, ble dette mindre spennende. Misunnelig så han på de store guttene som trillet syklene sine opp bakken, nesten rett foran huset hans. På toppen satte de seg på syklene, og med glade rop raste de nedover den asfalterte veien og svingte raskt inn på sidegaten nederst i bakken.</p>\\n  <p>«Juhuu, her kommer vi!» ropte de mens de suste forbi, mens Joey tråkket rolig rundt den lille kvartalen sin igjen og igjen.</p>\\n  <p>«Kom igjen, Joey!» ropte guttene. «Hvorfor blir du ikke med oss opp? Se så gøy vi har det! Du er for redd», ertet de ham.</p>\\n  <p>Joey var for flau til å fortelle dem at faren hadde forbudt ham å sykle der fordi han var for liten og kunne falle av sykkelen og skade seg. Guttene ville bare ha ertet ham enda mer, så han tidde. Så gjerne skulle han ha gått opp og vist vennene sine at han ikke var redd. Joey tenkte: «Kanskje pappa skjønner at jeg ikke er så liten lenger hvis jeg sykler ned bakken bare én gang. Da blir pappa stolt av meg og lar meg sykle ned bakken sammen med de store guttene når jeg vil. Å, så spennende det hadde vært.» Bare tanken fikk hjertet hans til å slå raskt av forventning.</p>\\n  <p>Joey trengte ikke å vente lenge på muligheten. Faren hans skulle være borte i et par dager på grunn av jobben. Joey tenkte at dette var sjansen hans til å bevise for pappa at han kunne sykle sammen med de store guttene. Full av spenning og forventning tok han sykkelen opp bakken. Han følte seg så voksen i selskap med de store guttene. Faren hans tok sikkert feil! Nå skulle han bevise for alle at han visste bedre enn noen andre hva han kunne og ikke kunne gjøre.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\\\" alt=\\\"En smilende ung gutt med hjelm som står ved siden av en rød sykkel\\\">\\n  </figure>\\n  <p>Med et løp og et hopp var han oppe på sykkelen. Etter hvert som sykkelen fikk større og større fart, grep han styret enda fastere. I det øyeblikket kastet en av de rampete guttene, som var på vei opp bakken, en stein mot Joeys dekk idet han suste forbi. Joey svingte brått unna for å unngå steinen. Før han rakk å skjønne hva som skjedde, fløy han gjennom luften uten sykkelen. Han rullet, skled og dunket borti ting før han stanset med et smertefullt brak. Joey var et eneste stort kaos. Buksene og skjorten var revnet. Han hadde sår og blåmerker på hendene, knærne og i ansiktet. Nå tenkte han ikke lenger på å være helten i den store sykkelbakken. Den lille, ydmykede «helten» fra bakken ble tatt med hjem til moren sin, som medfølende og kjærlig vasket og bandasjerte sårene hans.</p>\\n  <p>Neste dag kom faren til Joey hjem. Da han så bandasjene på sønnen og den ødelagte sykkelen, skjønte han straks hva som hadde skjedd. Som straff for ulydigheten ble Joeys sykkel satt bort på lager i flere uker.</p>\\n  <p>Joey satt på fortauskanten mens guttene raste ned bakken og videre ut på den andre gaten. Nå hadde Joey ikke lenger lyst til å snike seg av gårde og sykle sammen med de store guttene. Han hadde lært leksen sin – alltid å adlyde faren, også når han trodde at han visste bedre. Han forsto at faren ikke prøvde å ødelegge moroa for ham, men tvert imot prøvde å holde ham trygg.</p>\\n  <p>Da Joey igjen fikk lov til å sykle, var han ganske fornøyd med å sykle fredelig rundt den lille kvartalen med hus. Fra nå av skulle han adlyde faren sin, ikke bare når det gjaldt sikkerhet, men i alle ting.</p>\\n</article>\\n\",\"scripture_selections\":[{\"block\":\"/article[1]/blockquote[1]/p[1]\",\"end\":86,\"fragments\":[[{\"end\":86,\"start\":0,\"verse\":20}]],\"quote_id\":\"q1\",\"start\":0}],\"section\":\"Barnas hjørne\",\"subtitle\":null,\"title\":\"Joeys fall\"}",
+    "content_bytes": 4605,
+    "content_evidence_truncated": false,
+    "content_sha256": "12f908f38b83632dc299124b5952e169f52dcc377561f48e21bf37aa0c458ca5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6232,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9637
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

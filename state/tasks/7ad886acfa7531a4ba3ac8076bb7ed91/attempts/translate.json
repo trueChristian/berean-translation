@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"Eine leuchtend rosafarbene Blume vor blau-grünem Hintergrund\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Eine Prinzessin Gottes!<br>\\n  Welch erhabene Berufung<br>\\n  verdient, dass ich Zeit<br>\\n  und Begabung ihr widme,<br>\\n  damit ich wachse in der Herrlichkeit<br>\\n  dessen, was Er aus mir machen will –<br>\\n  mein Vater, der König,<br>\\n  wird alle Hässlichkeit<br>\\n  aus meinem Herzen nehmen,<br>\\n  damit es nicht länger trübt,<br>\\n  und mir die Juwelen bringen,<br>\\n  die Er für mich bereithält.</p>\\n  <p class=\\\"poem\\\">Eine Prinzessin Gottes!<br>\\n  Eine Berufung, so zu leben,<br>\\n  dass ich den Menschen<br>\\n  in meiner Umgebung<br>\\n  einen Diamanten der Hoffnung schenke,<br>\\n  Sehnsucht nach Gott,<br>\\n  die Wahrheit der Erlösung<br>\\n  durch Jesu vergossenes Blut.<br>\\n  Eine Berufung, gottesfürchtig zu leben<br>\\n  in Jesus Christus,<br>\\n  geschmückt mit Seiner Sanftmut<br>\\n  und bekleidet mit Seinem Licht.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Eine Prinzessin Gottes\"}",
+    "content_bytes": 1231,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1886d2cb9c3d7c8de074d375b3bbd6cc5c37ba0359eda16a299001947cdf369",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1136,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3216
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

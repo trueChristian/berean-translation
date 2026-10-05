@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"33d9d1e5-4428-473d-9549-730d3d980dca\\\">\\n  <blockquote>\\n    <p><strong><em>I barn, varen edra föräldrar lydige i all ting;</em></strong><em> ty det täckes väl Herranom. – Kol 3:20.</em></p>\\n  </blockquote>\\n  <p>För många år sedan fanns det en pojke som hette Joey. Han bodde med sin far och mor i utkanten av en stad. En dag gav Joeys far honom en alldeles ny rödvit cykel som han länge hade önskat sig.</p>\\n  <p>Nära deras hus låg en stor backe där de stora pojkarna i grannskapet tyckte om att cykla. Joeys far förbjöd honom strängt att cykla med de stora pojkarna i backen, eftersom det var för farligt. I stället fick han bara cykla längs den fina, släta trottoaren, förbi många hus, genom en liten gränd och sedan tillbaka hem igen.</p>\\n  <p>Allteftersom dagarna och veckorna gick började det bli mindre roligt. Han såg avundsjukt på när de stora pojkarna ledde sina cyklar uppför backen, nästan rakt framför hans hus. Uppe på krönet hoppade de upp på cyklarna och, med glada rop, susade nerför den hårdgjorda vägen och svängde snabbt in på den anslutande gatan längst ner i backen.</p>\\n  <p>”Tjoho, nu kommer vi!” ropade de när de for förbi, medan Joey lugnt trampade runt sitt lilla kvarter om och om igen.</p>\\n  <p>”Kom igen, Joey!” ropade pojkarna. ”Varför följer du inte med oss upp? Se så roligt vi har! Du är för feg”, retades de.</p>\\n  <p>Joey skämdes för mycket för att säga att hans far hade förbjudit honom eftersom han var för liten och kunde ramla av cykeln och skada sig. Pojkarna skulle bara ha retat honom ännu mer, så han teg. Vad han önskade att han kunde följa med upp och visa sina vänner att han inte var rädd. Joey tänkte: ”Kanske skulle pappa inse att jag inte är så liten längre, om jag bara åkte nerför backen en enda gång. Då skulle pappa vara stolt över mig och låta mig åka nerför backen med de stora pojkarna när jag ville. Åh, vad spännande det skulle vara.” Bara tanken fick hans hjärta att slå snabbt av förväntan.</p>\\n  <p>Joey behövde inte vänta länge på sitt tillfälle. Hans far skulle vara bortrest i ett par dagar i jobbet. Joey tänkte att det här skulle bli hans chans att visa pappa att han kunde cykla med de stora pojkarna. Full av iver och förväntan tog han cykeln uppför backen. Han kände sig så vuxen i de stora pojkarnas sällskap. Hans far hade säkert fel! Nu skulle han bevisa för alla att han själv visste bättre än någon annan vad han kunde och inte kunde göra.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\\\" alt=\\\"En leende ung pojke med hjälm står bredvid en röd cykel\\\">\\n  </figure>\\n  <p>Med en löpning och ett hopp var han uppe på cykeln. När den rullade fortare och fortare grep han hårdare om styret. Just då kastade en av de busiga pojkarna, som var på väg uppför backen, en sten mot Joeys däck när han susade förbi. Joey väjde tvärt för att undvika stenen. Innan han förstod vad som hände flög han genom luften utan cykeln. Han rullade, gled och slog i marken innan han till slut stannade med en smärtsam duns. Joey var ett enda elände. Byxorna och skjortan var trasiga. Han hade skrapsår och blåmärken på händerna, knäna och i ansiktet. Han tänkte inte längre på att vara hjälten i den stora cykelbacken. Vår lille, ödmjukade ”hjälte” från backen bars hem till sin mor, som med medkänsla och kärlek tvättade och lade om hans sår.</p>\\n  <p>Nästa dag kom Joeys far hem. När han såg bandagen på sin son och den skadade cykeln förstod han genast vad som hade hänt. Som straff för sin olydnad ställdes Joeys cykel undan i flera veckor.</p>\\n  <p>Joey satt på trottoarkanten medan pojkarna susade nerför backen och vidare ut på den andra gatan. Nu ville Joey inte längre smita iväg och cykla med de stora pojkarna. Han hade lärt sig sin läxa – att alltid lyda sin far, även när han trodde att han visste bättre. Han insåg att hans far inte försökte förstöra det roliga för honom, utan försökte hålla honom trygg.</p>\\n  <p>När Joey åter fick cykla var han ganska nöjd med att lugnt cykla runt bland husen i sitt lilla kvarter. Från och med nu skulle han lyda sin far, inte bara när det gällde säkerheten, utan i allting.</p>\\n</article>\\n\",\"scripture_selections\":[{\"block\":\"/article[1]/blockquote[1]/p[1]\",\"end\":76,\"fragments\":[[{\"end\":73,\"start\":0,\"verse\":20}]],\"quote_id\":\"q1\",\"start\":0}],\"section\":\"BARNENS HÖRNA\",\"subtitle\":null,\"title\":\"Joeys fall\"}",
+    "content_bytes": 4601,
+    "content_evidence_truncated": false,
+    "content_sha256": "7571ee2f64ca927184f75ac5de390f4a8e3be20f5ad16a8fe33918a4c7fa6854",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6131,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9028
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

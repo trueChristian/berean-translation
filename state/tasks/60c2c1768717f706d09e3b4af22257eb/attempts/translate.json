@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"नीले और हरे रंग की पृष्ठभूमि पर एक चमकीला गुलाबी फूल\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">परमेश्वर की राजकुमारी!<br>\\n  यह एक महान बुलाहट है<br>\\n  जिसके योग्य है मेरा अर्पण—<br>\\n  अपनी प्रतिभा और समय,<br>\\n  उस महिमा में बढ़ने के लिए<br>\\n  जो वह मुझे बनाकर देगा—<br>\\n  मेरे पिता, राजा,<br>\\n  मेरे हृदय से सारी कुरूपता<br>\\n  दूर कर देंगे,<br>\\n  ताकि वह फिर कभी कलंकित न हो<br>\\n  और मुझे वे रत्न दें<br>\\n  जो उन्होंने मेरे लिए सँजो रखे हैं।</p>\\n  <p class=\\\"poem\\\">परमेश्वर की राजकुमारी!<br>\\n  यह ऐसा जीवन जीने की बुलाहट है<br>\\n  जो मेरे आसपास के लोगों को<br>\\n  दे सके<br>\\n  आशा का एक हीरा,<br>\\n  परमेश्वर के लिए एक अभिलाषा,<br>\\n  यीशु के बहाए गए लहू से<br>\\n  मिलने वाले उद्धार का सत्य।<br>\\n  यीशु मसीह में भक्तिपूर्ण जीवन जीने की<br>\\n  बुलाहट,<br>\\n  उनकी नम्रता से सुसज्जित<br>\\n  और उनके प्रकाश से ढकी हुई।</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"कविता\",\"subtitle\":null,\"title\":\"परमेश्वर की राजकुमारी\"}",
+    "content_bytes": 2112,
+    "content_evidence_truncated": false,
+    "content_sha256": "cce3bb995d772e7e9a931ddca0cf62f1049bae513ef9128d1dd58a4124a97457",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 185,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1024,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3195
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

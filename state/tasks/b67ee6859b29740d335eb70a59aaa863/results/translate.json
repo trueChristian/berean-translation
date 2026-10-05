@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "861781a5-4bdc-438d-b132-95bcd343b8ce",
+    "response_id": "chatcmpl-EVfY0sJ7jSBDrCfzMgACfteIchld9",
+    "usage": {
+      "completion_tokens": 1446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 165,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6055,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 9031
+    }
+  },
+  "received_at": "2026-10-05T22:56:52+00:00",
+  "result": {
+    "html": "<article data-article-id=\"33d9d1e5-4428-473d-9549-730d3d980dca\">\n  <blockquote>\n    <p><strong><em>Gij kinderen, zijt uw ouderen gehoorzaam in alles,</em></strong><em> want dat is de Heere welbehagelijk. –Kol 3:20.</em></p>\n  </blockquote>\n  <p>Jaren geleden woonde er een jongen die Joey heette, samen met zijn vader en moeder aan de rand van een stad. Op een dag gaf Joey’s vader hem een gloednieuwe rood-witte fiets, waar hij al heel lang naar verlangde.</p>\n  <p>Vlak bij hun huis was een grote heuvel waar de oudere jongens uit de buurt graag fietsten. Joey’s vader verbood hem streng om met de oudere jongens op de heuvel te fietsen, omdat het te gevaarlijk was. In plaats daarvan mocht hij alleen over het mooie, gladde trottoir rijden, langs tal van huizen, door een klein steegje en dan uiteindelijk weer terug naar huis.</p>\n  <p>Naarmate de dagen en weken verstreken, begon dat zijn aantrekkingskracht te verliezen. Jaloers keek hij toe hoe de oudere jongens hun fietsen de heuvel op duwden, bijna recht tegenover zijn huis. Bovenaan sprongen ze op hun fietsen en raceten ze met vrolijk geroep over de verharde weg naar beneden, om onder aan de heuvel snel de aangrenzende straat in te slaan.</p>\n  <p>‘Joehoe, daar komen we!’ riepen ze terwijl ze voorbijraasden en Joey achterlieten, die rustig steeds opnieuw een rondje om zijn kleine huizenblok trapte.</p>\n  <p>‘Kom op, Joey!’ riepen de jongens. ‘Waarom kom je niet met ons mee naar boven? Kijk eens hoe leuk we het hebben! Je bent veel te bang,’ plaagden ze hem.</p>\n  <p>Joey schaamde zich te veel om hun te vertellen dat zijn vader het hem had verboden omdat hij nog te klein was en van zijn fiets kon vallen en zich bezeren. De jongens zouden hem alleen maar nog meer uitlachen, dus zweeg hij. Wat wilde hij graag naar boven gaan en zijn vrienden laten zien dat hij niet bang was. Joey dacht: ‘Misschien merkt mijn vader wel dat ik helemaal niet zo klein meer ben, als ik maar één keer de heuvel af rijd. Dan zal papa trots op me zijn en me voortaan met de oudere jongens de heuvel af laten rijden wanneer ik maar wil. O, wat zou dat spannend zijn.’ Alleen al bij die gedachte begon zijn hart sneller te kloppen van verwachting.</p>\n  <p>Joey hoefde niet lang op zijn kans te wachten. Zijn vader zou voor zaken een paar dagen weg zijn. Joey dacht dat dit zijn kans was om zijn vader te bewijzen dat hij met de oudere jongens kon fietsen. Vol spanning en verwachting duwde hij zijn fiets de heuvel op. In het gezelschap van de oudere jongens voelde hij zich al heel volwassen. Zijn vader had het vast mis! Nu zou hij iedereen bewijzen dat hij zelf beter dan wie ook wist wat hij wel en niet kon.</p>\n  <figure>\n    <img src=\"/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg\" alt=\"Een glimlachende jonge jongen met een helm naast een rode fiets\">\n  </figure>\n  <p>Met een aanloopje en een sprong zat hij op zijn fiets. Terwijl die steeds sneller ging, klemde hij het stuur steviger vast. Op dat moment gooide een van de ondeugende jongens die de heuvel op kwam een steen naar Joey’s band toen hij voorbijvloog. Joey week scherp uit om de steen te ontwijken. Voordat hij besefte wat er gebeurde, vloog hij zonder zijn fiets door de lucht. Hij rolde, gleed en botste, tot hij pijnlijk tot stilstand kwam. Joey was er slecht aan toe. Zijn broek en hemd waren gescheurd. Zijn handen, knieën en gezicht zaten vol schrammen en blauwe plekken. Hij dacht er niet meer aan om de held van de grote fietsheuvel te zijn. Onze kleine, vernederde ‘held’ van de heuvel werd naar huis gebracht, naar zijn moeder, die met medeleven en liefde zijn wonden schoonmaakte en verzorgde.</p>\n  <p>De volgende dag kwam Joey’s vader weer thuis. Toen hij het verband om zijn zoon en de beschadigde fiets zag, begreep hij meteen wat er was gebeurd. Als straf voor zijn ongehoorzaamheid werd Joey’s fiets enkele weken opgeborgen.</p>\n  <p>Joey zat op de stoeprand terwijl de jongens de heuvel af raceten en daarna verder reden naar de andere straat. Nu wilde Joey er helemaal niet meer stiekem op uit gaan om met de oudere jongens te fietsen. Hij had zijn les geleerd: hij moest zijn vader altijd gehoorzamen, zelfs als hij dacht dat hij het beter wist. Hij begreep dat zijn vader niet probeerde hem het plezier te bederven, maar hem juist veilig wilde houden.</p>\n  <p>Toen Joey weer op zijn fiets mocht, vond hij het prima om rustig rondjes te rijden door zijn kleine huizenblok. Voortaan zou hij zijn vader gehoorzamen, niet alleen als het om zijn veiligheid ging, maar in alles.</p>\n</article>\n",
+    "scripture_selections": [
+      {
+        "block": "/article[1]/blockquote[1]/p[1]",
+        "end": 85,
+        "fragments": [
+          [
+            {
+              "end": 84,
+              "start": 0,
+              "verse": 20
+            }
+          ]
+        ],
+        "quote_id": "q1",
+        "start": 0
+      }
+    ],
+    "section": "KINDERHOEK",
+    "subtitle": null,
+    "title": "Joey’s val"
+  }
+}

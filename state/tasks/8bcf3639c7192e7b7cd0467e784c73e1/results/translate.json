@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b9ba64d0-e186-4b28-89b2-794ac944bea0",
+    "response_id": "chatcmpl-EVfY51aWnsceXIcD2mFkcVc6yJ04Y",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1135,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3250
+    }
+  },
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"鲜艳的粉色花朵，衬着蓝绿相间的背景\">\n  </figure>\n  <p class=\"poem\">神的公主！<br>\n  这是崇高的呼召，<br>\n  值得我献上<br>\n  才干与时光，<br>\n  在祂要塑造我的荣耀中<br>\n  不断成长——<br>\n  我的父，我的王，<br>\n  要除去我心中一切丑陋，<br>\n  使它不再蒙尘，<br>\n  并赐我祂所预备的<br>\n  珍宝。</p>\n  <p class=\"poem\">神的公主！<br>\n  这是一个生命的呼召，<br>\n  要活出这样的生命，<br>\n  使我周围的人<br>\n  都能得着一颗盼望的钻石，<br>\n  一份对神的渴慕，<br>\n  并明白救恩的真理：<br>\n  借着耶稣所流的宝血。<br>\n  呼召我在耶稣基督里<br>\n  活出敬虔，<br>\n  以祂的温柔为装饰，<br>\n  身披祂的光。</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "诗歌",
+    "subtitle": null,
+    "title": "神的公主"
+  }
+}

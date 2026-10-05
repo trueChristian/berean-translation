@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "19ba6824-0962-4de8-ae3b-c9058e11ab34",
+    "response_id": "chatcmpl-EVfYVFtOAucpi7M5tROQD3eAP3N2C",
+    "usage": {
+      "completion_tokens": 597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1024,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3151
+    }
+  },
+  "received_at": "2026-10-05T22:56:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"নীল ও সবুজ পটভূমিতে উজ্জ্বল গোলাপি ফুল\">\n  </figure>\n  <p class=\"poem\">ঈশ্বরের রাজকন্যা!<br>\n  এ এক মহৎ আহ্বান,<br>\n  যার যোগ্যতা রাখে<br>\n  আমার প্রতিভা ও সময় দান।<br>\n  তাঁর গড়ে তোলার মহিমায়<br>\n  বেড়ে উঠতে—<br>\n  আমার পিতা, রাজা,<br>\n  আমার হৃদয়ের সব কুৎসিততা<br>\n  দূর করে দেবেন,<br>\n  যেন তা আর কখনো কলঙ্ক না আনে,<br>\n  আর দেবেন সেই রত্নগুলো,<br>\n  যা তিনি আমার জন্য সঞ্চয় করে রেখেছেন।</p>\n  <p class=\"poem\">ঈশ্বরের রাজকন্যা!<br>\n  এ এক আহ্বান—এমন জীবন যাপনের,<br>\n  যা আমার চারপাশের<br>\n  অন্যদের উপহার দেবে<br>\n  আশার এক হীরা,<br>\n  ঈশ্বরের প্রতি আকাঙ্ক্ষা,<br>\n  পরিত্রাণের সত্য—<br>\n  যিশুর ঝরানো রক্তের মাধ্যমে।<br>\n  যিশু খ্রিষ্টে ধার্মিক জীবন যাপনের আহ্বান,<br>\n  তাঁর নম্রতায় সুশোভিত<br>\n  এবং তাঁর আলোয় আবৃত।</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "কবিতা",
+    "subtitle": null,
+    "title": "ঈশ্বরের এক রাজকন্যা"
+  }
+}

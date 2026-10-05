@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "94513b93-546e-46aa-a21d-5b4487d09214",
+    "response_id": "chatcmpl-EVfY2p4JY2k6twoZvI6COKFuw8ZO0",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2551,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1021,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3054
+    }
+  },
+  "received_at": "2026-10-05T22:56:50+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"Bunga berwarna merah muda cerah dengan latar biru dan hijau\">\n  </figure>\n  <p class=\"poem\">Putri Allah!<br>\n  Sungguh panggilan yang luhur<br>\n  Yang patut kuberikan<br>\n  Bakat dan waktuku<br>\n  Untuk bertumbuh dalam kemuliaan<br>\n  Menjadi seperti yang Dia kehendaki—<br>\n  Bapaku, Sang Raja,<br>\n  Akan menyingkirkan segala keburukan<br>\n  Dari hatiku,<br>\n  Agar tak lagi menodainya<br>\n  Dan memberiku permata<br>\n  Yang telah Dia sediakan.</p>\n  <p class=\"poem\">Putri Allah!<br>\n  Sungguh panggilan untuk menjalani<br>\n  Hidup yang kepada orang lain<br>\n  Di sekitarku akan memberikan<br>\n  Sebuah berlian pengharapan,<br>\n  Kerinduan akan Allah,<br>\n  Kebenaran keselamatan<br>\n  Oleh darah Yesus yang tercurah.<br>\n  Panggilan untuk hidup saleh<br>\n  Di dalam Yesus Kristus,<br>\n  Dihiasi kelemahlembutan-Nya<br>\n  Dan berpakaian terang-Nya.</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "Puisi",
+    "subtitle": null,
+    "title": "Putri Allah"
+  }
+}
