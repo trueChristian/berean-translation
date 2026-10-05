@@ -423,7 +423,8 @@
   "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
   "status": "active",
   "task_counts": {
-    "in_batch": 5
+    "not_ready": 1,
+    "queued": 4
   },
   "tasks": [
     "a4849f5cb34ce539c52b12f88f7cae49",

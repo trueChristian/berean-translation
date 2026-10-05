@@ -2340,9 +2340,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 81,
-    "in_batch": 168,
-    "not_ready": 11
+    "complete": 92,
+    "not_ready": 26,
+    "queued": 142
   },
   "tasks": [
     "a8c54069a496319943918cb420a44461",

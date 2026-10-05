@@ -5515,9 +5515,9 @@
     }
   ],
   "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "in_batch": 1
+    "complete": 1
   },
   "tasks": [
     "021a7cfeeaedea7c66fd17dea7d6505e"

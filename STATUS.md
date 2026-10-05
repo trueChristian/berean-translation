@@ -501,9 +501,9 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
 | `downstream-2026100311` | hourly recovery | repair | finished | 1 | 1 complete | 0.01892725 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
 | `downstream-2026100316` | hourly recovery | repair | finished | 1 | 1 complete | 0.03712335 | 0.301512 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
-| `downstream-2026100318` | hourly recovery | repair | active | 1 | 1 complete | 0.04786850 | 0.313693 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
-| `downstream-2026100321` | hourly recovery | repair | active | 1 | 1 complete | 0.05106720 | 0.312559 / 1.00 | [state](state/campaigns/downstream-2026100321.json) |
-| `downstream-2026100400` | hourly recovery | repair | active | 1 | 1 complete | 0.04750100 | 0.321503 / 1.00 | [state](state/campaigns/downstream-2026100400.json) |
+| `downstream-2026100318` | hourly recovery | repair | finished | 1 | 1 complete | 0.04786850 | 0.313693 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
+| `downstream-2026100321` | hourly recovery | repair | finished | 1 | 1 complete | 0.05106720 | 0.312559 / 1.00 | [state](state/campaigns/downstream-2026100321.json) |
+| `downstream-2026100400` | hourly recovery | repair | finished | 1 | 1 complete | 0.04750100 | 0.321503 / 1.00 | [state](state/campaigns/downstream-2026100400.json) |
 | `downstream-2026100406` | hourly recovery | repair | active | 1 | 1 active | 0.04049550 | 0.331100 / 1.00 | [state](state/campaigns/downstream-2026100406.json) |
 | `gh-36549125967` | manual | translate | finished | 10 | 5 complete, 5 held | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
 | `gh-36908242193` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
