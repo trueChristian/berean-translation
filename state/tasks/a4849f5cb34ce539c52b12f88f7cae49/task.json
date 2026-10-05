@@ -2,6 +2,7 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "836130410a85488ebbe7cd11301a022a",
   "campaign": "gh-37154369621",
   "continuation": {
     "cycle": 1,
@@ -140,11 +141,11 @@
   },
   "protected": false,
   "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 5:30; extra: none",
-  "review_attempts": 0,
+  "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-6.1-sol"
