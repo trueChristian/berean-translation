@@ -568,7 +568,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37138123265` | manual | review | finished | 200 | 91 complete, 109 held | 0.39069281 | 2.384344 / 5.00 | [state](state/campaigns/gh-37138123265.json) |
 | `gh-37138217502` | manual | translate | finished | 200 | 101 complete, 99 held | 0.63348107 | 3.410201 / 10.00 | [state](state/campaigns/gh-37138217502.json) |
 | `gh-37154280908` | manual | translate | finished | 240 | 146 complete, 94 held | 0.58571701 | 3.446405 / 10.00 | [state](state/campaigns/gh-37154280908.json) |
-| `gh-37154319644` | manual | translate | active | 260 | 155 complete, 105 held | 0.65074131 | 4.043000 / 10.00 | [state](state/campaigns/gh-37154319644.json) |
+| `gh-37154319644` | manual | translate | finished | 260 | 155 complete, 105 held | 0.65074131 | 4.043000 / 10.00 | [state](state/campaigns/gh-37154319644.json) |
 | `gh-37154369621` | manual recovery | repair | active | 5 | 1 held, 4 active | 0.09200975 | 1.298473 / 10.00 | [state](state/campaigns/gh-37154369621.json) |
 | `gh-37154422984` | manual recovery | repair | active | 5 | 5 active | 0.13259235 | 1.522819 / 10.00 | [state](state/campaigns/gh-37154422984.json) |
 | `gh-37314284958` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.056390 / 30.00 | [state](state/campaigns/gh-37314284958.json) |
