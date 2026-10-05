@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, fourth line",
+      "severity": "major",
+      "source_quote": "And my will toward Him turns?",
+      "suggested_fix": "Badilisha mstari huu uwe: “Na nia yangu kumwelekea Yeye?”",
+      "translation_quote": "Na kuelekeza mapenzi yangu Kwake?"
+    },
+    {
+      "location": "Poem, final stanza, first line",
+      "severity": "minor",
+      "source_quote": "To seek and to search, to stay by His side,",
+      "suggested_fix": "Badilisha “kumchunguza” kwa “kumtafuta kwa bidii,” ili mstari useme: “Kumtafuta na kumtafuta kwa bidii, kukaa kando Yake,”",
+      "translation_quote": "Kumtafuta na kumchunguza, kukaa kando Yake,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

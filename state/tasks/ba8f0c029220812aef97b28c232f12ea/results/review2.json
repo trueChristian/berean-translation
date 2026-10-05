@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f1fdab41-dbc8-46eb-9b76-b75e835b4146",
+    "response_id": "chatcmpl-EVZkO72wjFWi2SnwiGVFmdC7ZTm2f",
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2035,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2981
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza 5, line 3",
+        "severity": "minor",
+        "source_quote": "Since it’s easier to forget to seek / When the way you think you see.",
+        "suggested_fix": "কারণ নিজের চোখে পথ দেখতে পাচ্ছ বলে / তাঁকে খুঁজতে ভুলে যাওয়া সহজ।",
+        "translation_quote": "কারণ নিজের ভাবা পথে চলতে পারলে / তাঁর অন্বেষণ ভুলে যাওয়া সহজ।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

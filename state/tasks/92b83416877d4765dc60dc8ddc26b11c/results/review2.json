@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ae735cab-7039-40f2-99ef-996b67414a82",
+    "response_id": "chatcmpl-EVZjTfrCO9ohOm3mO10nDMsMMF3vl",
+    "usage": {
+      "completion_tokens": 389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9437,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9829
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “In His suffering for us” — Scripture quotation John 10:11–17",
+        "severity": "major",
+        "source_quote": "Therefore doth my Father love me, because I lay down my life, that I might take it again",
+        "suggested_fix": "Replace «Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake igjen» with «Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake.» Preserve the reference as Joh 10: 11-17.",
+        "translation_quote": "«Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake igjen»"
+      },
+      {
+        "location": "source.html, paragraph beginning “In the remnant portion of His message” — Scripture quotation Luke 23:29–31",
+        "severity": "major",
+        "source_quote": "Blessed are the barren, and the wombs that never bare",
+        "suggested_fix": "Correct «Salige er de ufruktbare» to «Salige er de barnløse» (or an equally clear rendering of women who have borne no children), so it does not describe infertile people generally.",
+        "translation_quote": "«Salige er de ufruktbare»"
+      },
+      {
+        "location": "source.html, paragraph beginning “For several years ago” — quoted question",
+        "severity": "major",
+        "source_quote": "“Lord, Lord, did I not weep at the scene? Did I not bewail your pathetic condition?”",
+        "suggested_fix": "Translate the question faithfully, for example: «Herre, Herre, gråt jeg ikke over scenen? Sørget jeg ikke over din ynkelige tilstand?»",
+        "translation_quote": "«Herre, Herre, gråt ikke også jeg under scenen? Sørget jeg ikke over din ynkelige tilstand?»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

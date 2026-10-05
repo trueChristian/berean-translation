@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “What is worse than a bad conscience”; also the earlier quotation of 1 Timothy 4:1–2 and the later paragraph about criminals",
+      "severity": "major",
+      "source_quote": "“having their conscience seared with a hot iron” / “a seared conscience”",
+      "suggested_fix": "Use wording that conveys a conscience burned or cauterized and thereby made insensitive, consistently in these passages. For example, replace “dhamiri iliyotiwa chapa” with “dhamiri iliyochomwa na kuwa sugu,” adjusting the surrounding sentence grammar as needed while preserving the existing HTML tags.",
+      "translation_quote": "“waliotiwa chapa katika dhamiri zao kana kwamba kwa chuma cha moto” / “dhamiri iliyotiwa chapa” / “ikiwa imetiwa chapa kana kwamba kwa chuma cha moto”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

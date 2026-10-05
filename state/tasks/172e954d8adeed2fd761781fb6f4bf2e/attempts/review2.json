@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Цитата, 1 Пет. 4:12–13\",\"severity\":\"major\",\"source_quote\":\"“the fiery trial which is to try you”\",\"suggested_fix\":\"Заменить «огненного искушения, посылаемого вам для испытания» на «огненного испытания, которое испытывает вас» — так сохраняется смысл напечатанного оригинала без добавления утверждения, что испытание послано адресатам.\",\"translation_quote\":\"«огненного искушения, посылаемого вам для испытания»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 717,
+    "content_evidence_truncated": false,
+    "content_sha256": "17d5ffe7957d1233c57f2a86f8bb4b91456fb39beecc36d8892558a20ffe884b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 910,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 758,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5254,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6167
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

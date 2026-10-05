@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem: “He knew with no doubt that he was made whole.”",
+      "severity": "major",
+      "source_quote": "He knew with no doubt that he was made whole.",
+      "suggested_fix": "استبدل «وأيقن بلا شك أنه استعاد عافيته» بعبارة تنقل معنى الاسترداد أو الاكتمال الروحي في السياق، مثل: «وأيقن بلا شك أنه صار كاملًا من جديد»؛ مع إبقاء موضع السطر وعلامات HTML كما هي.",
+      "translation_quote": "وأيقن بلا شك أنه استعاد عافيته."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

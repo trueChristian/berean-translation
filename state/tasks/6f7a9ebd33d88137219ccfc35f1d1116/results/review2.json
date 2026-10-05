@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9e7d232d-fff1-4992-ad99-f9422977682b",
+    "response_id": "chatcmpl-EVZjEcQiop1pYLNuAbGyzrbrp90jk",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 491,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8933,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9602
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "“I was one of the gainsayers who could not believe it would cripple our world to this extent.”",
+        "suggested_fix": "“গainsayers” এখানে সংশয়বাদী বা অবিশ্বাস প্রকাশকারীদের বোঝায়, ধর্মবিশ্বাসহীন ব্যক্তিদের নয়। লিখুন: “তখন আমিও সেই সংশয়বাদীদের একজন ছিলাম, যারা বিশ্বাস করতে পারেনি যে এটি আমাদের পৃথিবীকে এতটা পঙ্গু করে দেবে।”",
+        "translation_quote": "“তখন আমিও সেই অবিশ্বাসীদের একজন ছিলাম, যারা বিশ্বাস করতে পারেনি যে এটি আমাদের পৃথিবীকে এতটা পঙ্গু করে দেবে।”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

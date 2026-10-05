@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,61 @@
         },
         "total_tokens": 4011
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 514,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2655,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2652,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3169
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, seventh poem stanza, third line",
+      "location": "source.html 및 translation.html, 두 번째 연",
       "severity": "major",
-      "source_quote": "As did the church in olden days,",
-      "suggested_fix": "옛날 교회처럼,",
-      "translation_quote": "옛날 교회와는 달리,"
+      "source_quote": "And strove to follow this command / In spite of peril and sword.",
+      "suggested_fix": "둘째 행을 “위험과 칼날에도 아랑곳하지 않고”처럼 옮겨, 위험을 무릅쓰고 명령을 따르려 했다는 뜻을 살려 주세요. 예: “그래도 주님을 사랑했네; / 위험과 칼날에도 아랑곳하지 않고 / 이 명령을 따르려 애썼네.”",
+      "translation_quote": "그래도 주님을 사랑했네; / 위험과 칼날을 무릅쓰고 / 이 명령을 따르려 애썼네."
+    },
+    {
+      "location": "source.html 및 translation.html, 여섯 번째 연",
+      "severity": "major",
+      "source_quote": "“Be an example to the world; / You need not tell the way.”",
+      "suggested_fix": "인용문의 둘째 행을 “길을 말해 줄 필요는 없다”처럼 옮겨, 앞의 “본을 보이라”는 명령과 이어지는 비인칭적 진술을 보존해 주세요.",
+      "translation_quote": "“세상에 본을 보이십시오; / 길을 말해 줄 필요는 없습니다.”"
+    },
+    {
+      "location": "source.html 및 translation.html, 아홉 번째 연",
+      "severity": "major",
+      "source_quote": "Because Christians are zealous there / And vigorous in fight.",
+      "suggested_fix": "마지막 행을 “그리고 힘차게 싸우기 때문이네”처럼 고쳐, 싸움의 대상이 구체적으로 명시되지 않은 원문을 보존해 주세요.",
+      "translation_quote": "그곳의 그리스도인들이 열심을 내고 / 힘차게 싸우기 때문이네."
+    },
+    {
+      "location": "source.html 및 translation.html, 마지막 연",
+      "severity": "major",
+      "source_quote": "Showing lost souls, the narrow way, / That leads men home to God.",
+      "suggested_fix": "마지막 행을 “사람들을 하나님께로 이끄는”처럼 고쳐, 원문이 말하는 인도를 “돌아가게”라는 귀환의 뜻으로 한정하지 않도록 해 주세요.",
+      "translation_quote": "길 잃은 영혼들에게 좁은 길을 보여 주어, / 사람들을 하나님께로 돌아가게 하세."
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "6ff1351165ef6ca683632a5dbf2fb027",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "kor",
@@ -165,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

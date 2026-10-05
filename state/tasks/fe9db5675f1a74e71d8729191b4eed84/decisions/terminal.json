@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML، المقطع الشعري الحادي عشر",
+      "severity": "major",
+      "source_quote": "If we would also spread God’s Word, / Our blood would stain our sod.",
+      "suggested_fix": "استبدل السطرين بـ: «إن أردنا نحن أيضًا أن ننشر كلمة الله، / لتلطّخت تربتنا بدمائنا.»",
+      "translation_quote": "إن أردنا نحن أيضًا أن ننشر كلمة الله، / فستلطّخ دماؤنا ترابنا."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

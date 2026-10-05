@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Artículo, cita de Hechos 5:32-33 y oración siguiente\",\"severity\":\"major\",\"source_quote\":\"“When they heard that, they were cut to the heart, and took counsel to slay them” / “They took counsel to slay them”.\",\"suggested_fix\":\"En la cita, sustituir «se sintieron profundamente heridos y querían matarlos» por «se sintieron profundamente heridos y deliberaron matarlos»; en la oración siguiente, sustituir «Querían matarlos» por «Deliberaron matarlos».\",\"translation_quote\":\"«Al oír esto, se sintieron profundamente heridos y querían matarlos» / «Querían matarlos»\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 645,
+    "content_evidence_truncated": false,
+    "content_sha256": "6102fc3aac0f96e49db42b4faee72cc3cf79fe3675329dbbb581f9a0c8dfb95f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 479,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8212,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8209,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8864
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

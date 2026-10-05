@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 4 (1 Timoteus 4:1–2 quote)\",\"severity\":\"major\",\"source_quote\":\"“having their conscience seared with a hot iron”\",\"suggested_fix\":\"Endre sitatet til «de har fått samvittigheten sin brennemerket med et glødende jern», slik at bildet med det glødende jernet fra originalen blir bevart.\",\"translation_quote\":\"“de har fått brennemerket sin egen samvittighet”\"},{\"location\":\"HTML, paragraph 7 (Apostlenes gjerninger 23:1–24:16 quote)\",\"severity\":\"major\",\"source_quote\":\"“…to have always a conscience void of offence toward God, and toward men –Act 23:1-24:16.”\",\"suggested_fix\":\"Behold referansen 23:1-24:16, men oversett sitatet som «…alltid å ha en samvittighet uten anstøt for Gud og mennesker».\",\"translation_quote\":\"“…alltid å ha en samvittighet uten anstøt for Gud og mennesker –Apostlenes gjerninger 23:1-24:16.”\"},{\"location\":\"HTML, paragraph 9 (David and Batseba narrative)\",\"severity\":\"major\",\"source_quote\":\"“It was the time when kings went forth to battle, and they had a battle going with the children of Ammon.”\",\"suggested_fix\":\"Endre til «Det var tiden da kongene dro ut i krig, og de førte krig mot ammonittene», slik at det uttrykkelig framgår at det var krig med ammonittene.\",\"translation_quote\":\"“Det var tiden da kongene dro ut i krig, og de var i krig med ammonittene.”\"},{\"location\":\"HTML, paragraph 23 (closing Psalm 51:17 quote)\",\"severity\":\"major\",\"source_quote\":\"“The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise”\",\"suggested_fix\":\"Gjengi begge leddene, for eksempel: «Guds offer er en sønderbrutt ånd; et sønderbrutt og angrende hjerte, Gud, vil du ikke forakte».\",\"translation_quote\":\"“Offer for Gud er en sønderbrutt ånd. Et sønderbrutt og knust hjerte vil du, Gud, ikke forakte”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1900,
+    "content_evidence_truncated": false,
+    "content_sha256": "dac7d02c58eac7fb40c8755d1628020ec42b210a02d9dfc36425c47697282013",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8606,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8603,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9141
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

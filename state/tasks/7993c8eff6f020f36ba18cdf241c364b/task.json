@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,32 +64,75 @@
         },
         "total_tokens": 10492
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 746,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6561,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6558,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7307
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
       "location": "HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”",
       "severity": "major",
+      "source_quote": "“emotional and mental struggles would no longer be treated primarily with therapy and drugs”",
+      "suggested_fix": "Replace “جذباتی اور ذہنی مشکلات کا علاج بنیادی طور پر تھراپی اور دواؤں سے نہیں کیا جائے گا” with “جذباتی اور ذہنی مشکلات کا علاج بنیادی طور پر تھراپی اور دواؤں سے کیا جائے گا۔”",
+      "translation_quote": "“جذباتی اور ذہنی مشکلات کا علاج بنیادی طور پر تھراپی اور دواؤں سے نہیں کیا جائے گا”"
+    },
+    {
+      "location": "HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”",
+      "severity": "major",
       "source_quote": "“daycare centers for children of working parents would go out of business”",
-      "suggested_fix": "Replace “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے” with “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کرنے پر مجبور ہو جائیں گے” to preserve the claim that these centers would go out of business.",
-      "translation_quote": "“کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے”"
+      "suggested_fix": "Replace “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کرنے پر مجبور ہو جائیں گے” with “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کر دیں گے۔”",
+      "translation_quote": "“کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کرنے پر مجبور ہو جائیں گے”"
     },
     {
-      "location": "HTML, paragraph beginning “اس مضمون میں ریاستہائے متحدہ بھر کے والدین کے حوالے دیے گئے”",
-      "severity": "minor",
-      "source_quote": "“a happiness spike”",
-      "suggested_fix": "Replace both instances of “خوشی میں اچانک اضافے” with “خوشی میں اچانک آنے والے اضافے” or another idiomatic Urdu equivalent that clearly means a spike in happiness.",
-      "translation_quote": "“خوشی میں اچانک اضافے”"
+      "location": "HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”",
+      "severity": "major",
+      "source_quote": "“mothers would need to give up their careers and instead be stay-at-home moms”",
+      "suggested_fix": "Replace “ماؤں کو اپنا پیشہ چھوڑ کر گھر پر رہنے والی مائیں بننا پڑے گا” with “ماؤں کو اپنا پیشہ چھوڑ کر گھر پر رہنے والی ماں بننا پڑے گا۔”",
+      "translation_quote": "“ماؤں کو اپنا پیشہ چھوڑ کر گھر پر رہنے والی مائیں بننا پڑے گا”"
     },
     {
-      "location": "HTML, paragraph beginning “انہوں نے بتایا کہ اب بچے بچے بن سکتے ہیں”",
+      "location": "HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”",
+      "severity": "major",
+      "source_quote": "“extra-curricular and after school activities for all the children in any given community would no longer be needed”",
+      "suggested_fix": "Replace “کسی بھی برادری کے بچوں کے لیے غیر نصابی اور اسکول کے بعد کی سرگرمیوں کی ضرورت نہیں رہے گی” with “کسی بھی برادری کے تمام بچوں کے لیے غیر نصابی اور اسکول کے بعد کی سرگرمیوں کی ضرورت نہیں رہے گی۔”",
+      "translation_quote": "“کسی بھی برادری کے بچوں کے لیے غیر نصابی اور اسکول کے بعد کی سرگرمیوں کی ضرورت نہیں رہے گی”"
+    },
+    {
+      "location": "HTML, paragraph beginning “اس خبر کے مضمون کو نمایاں کرنے کا میرا مقصد”",
+      "severity": "major",
+      "source_quote": "“It doesn’t produce the kind of fruit that we all are striving for.”",
+      "suggested_fix": "Replace “یہ وہ پھل پیدا نہیں کرتا جس کے لیے ہم سب کوشش کر رہے ہیں” with “یہ اُس قسم کا پھل پیدا نہیں کرتا جسے حاصل کرنے کے لیے ہم سب کوشش کر رہے ہیں۔”",
+      "translation_quote": "“یہ وہ پھل پیدا نہیں کرتا جس کے لیے ہم سب کوشش کر رہے ہیں”"
+    },
+    {
+      "location": "title",
       "severity": "minor",
-      "source_quote": "“They had time to use their imagination and creativity.”",
-      "suggested_fix": "Replace “انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے” with “انہیں اپنی تخیل اور تخلیقی صلاحیتیں استعمال کرنے کا وقت ملتا ہے” for correct Urdu agreement and phrasing.",
-      "translation_quote": "“انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے”"
+      "source_quote": "“From the Editor”",
+      "suggested_fix": "Replace “مدیر کی طرف سے” with “مدیر کی جانب سے” or another conventional Urdu equivalent that specifically denotes an editor’s column.",
+      "translation_quote": "“مدیر کی طرف سے”"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "7993c8eff6f020f36ba18cdf241c364b",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -179,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

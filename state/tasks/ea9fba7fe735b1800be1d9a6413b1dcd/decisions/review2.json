@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ «في الجزء المتبقي من رسالته»",
+      "severity": "major",
+      "source_quote": "This abomination brought Jerusalem to desolation in 70 A.D. and no atrocity has surpassed it since.",
+      "suggested_fix": "استبدل الجملة بـ: «وقد جلب هذا الرجس أورشليم إلى الخراب سنة 70 م، ولم تتجاوزها أي فظاعة منذ ذلك الحين.»",
+      "translation_quote": "وقد جلب هذا الرجس أورشليم إلى الخراب سنة 70 م، ولم تتجاوزه أي فظاعة منذ ذلك الحين."
+    },
+    {
+      "location": "الشعر المنسوب إلى واتس، الفقرة التي تبدأ «أنتم، يا خطاياي»",
+      "severity": "major",
+      "source_quote": "‘Twas you, my sins, my cruel sins, / His chief tormentors were.",
+      "suggested_fix": "استبدل مطلع المقطع بـ: «أنتم، يا خطاياي، يا خطاياي القاسية، / كنتم أشدَّ معذّبيه.»",
+      "translation_quote": "أنتم، يا خطاياي، يا خطاياي القاسية، / كنتم معذّبيه الأشدين."
+    },
+    {
+      "location": "الشعر المنسوب إلى واتس، الفقرة التي تبدأ «هكذا، قد أخفي وجهي الخجل»",
+      "severity": "major",
+      "source_quote": "Thus, might I hide my blushing face, / While His dear cross appears.",
+      "suggested_fix": "استبدل البيتين الأولين بـ: «هكذا قد أخفي وجهي الخجل، / حين يظهر صليبه الحبيب.»",
+      "translation_quote": "هكذا، قد أخفي وجهي الخجل، / حين يظهر صليبه العزيز."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

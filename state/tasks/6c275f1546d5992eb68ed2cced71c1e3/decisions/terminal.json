@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Holding the Hearts of our Children",
+      "suggested_fix": "كسب قلوب أبنائنا والحفاظ عليها",
+      "translation_quote": "كسب قلوب أبنائنا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

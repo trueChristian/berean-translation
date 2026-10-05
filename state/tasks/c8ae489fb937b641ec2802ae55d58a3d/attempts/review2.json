@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph under “...Размышление или развлечение”\",\"severity\":\"minor\",\"source_quote\":\"It is amazing what some Christian parents will allow their children to watch.\",\"suggested_fix\":\"Удивительно, что именно некоторые христианские родители разрешают смотреть своим детям.\",\"translation_quote\":\"Удивительно, что некоторые христианские родители разрешают детям смотреть.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 596,
+    "content_evidence_truncated": false,
+    "content_sha256": "060a4894035dd2846ed9aa8b20e6f1b64fbdf91cd8ab67104a7245f4b5afce3d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8768,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9479
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

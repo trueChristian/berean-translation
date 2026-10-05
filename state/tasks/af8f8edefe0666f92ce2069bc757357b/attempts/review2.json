@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning “While we thank God for freedom here”\",\"severity\":\"minor\",\"source_quote\":\"They praise their Lord on high.\",\"suggested_fix\":\"Ganti “Mereka memuji Tuhan mereka di tempat yang tinggi” dengan “Mereka memuji Tuhan mereka yang Mahatinggi” agar tidak terkesan bahwa mereka memuji Tuhan di suatu tempat yang tinggi.\",\"translation_quote\":\"Mereka memuji Tuhan mereka di tempat yang tinggi.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 469,
+    "content_evidence_truncated": false,
+    "content_sha256": "d3f10eea41b7dd71c6117e49ead8d8c7a6ef753b59f1536286c4bf50ae09f8d8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2592,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3148
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

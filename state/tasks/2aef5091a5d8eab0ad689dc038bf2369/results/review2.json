@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e87c7d48-f135-43b6-a02e-7653be535b9a",
+    "response_id": "chatcmpl-EVZkhBSSb8R6ADzhdHGfbasGu4flZ",
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9703,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10649
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "P1, opening Scripture quotation",
+        "severity": "major",
+        "source_quote": "“weep not for me, but weep for yourselves, and for your children”",
+        "suggested_fix": "Replace “msinililie mimi, jililieni wenyewe na watoto wenu” with “msinililie mimi, bali jililieni wenyewe na watoto wenu” to preserve the contrast expressed by “but.”",
+        "translation_quote": "“msinililie mimi, jililieni wenyewe na watoto wenu”"
+      },
+      {
+        "location": "P4, description of the women",
+        "severity": "major",
+        "source_quote": "“These fickle ladies”",
+        "suggested_fix": "Replace “Wanawake hawa wenye kubadilika-badilika” with “Wanawake hawa wasio thabiti” or “Wanawake hawa wenye kuyumbayumba” to convey fickleness rather than merely changing or varying.",
+        "translation_quote": "“Wanawake hawa wenye kubadilika-badilika”"
+      },
+      {
+        "location": "P6, emphatic rebuke heading",
+        "severity": "major",
+        "source_quote": "“Weep Not!”",
+        "suggested_fix": "Replace “Msinilie!” with “Msilie!” to translate the command not to weep; “Msinilie” means “Do not cry for me.”",
+        "translation_quote": "“Msinilie!”"
+      },
+      {
+        "location": "P7, rebuke and instruction",
+        "severity": "major",
+        "source_quote": "“commanding them to weep not”",
+        "suggested_fix": "Replace “linalowaamuru wasilie” with “linalowaamuru wasilie” only if understood as a negative command; to make the negation explicit in standard Kiswahili, use “linalowaamuru wasilie” is not sufficient—use “linalowaamuru wasilie” no. Correct narrowly to “linalowaamuru wasilie” is semantically ambiguous; use “linalowaamuru wasilie” is still positive. Replace with “linalowaamuru wasilie” is not valid. Use “linalowaamuru wasiache kulia” would reverse it. Recommended: “linalowaamuru wasilie” should be “linalowaamuru wasilie” is not an adequate translation; write “linalowaamuru wasilie” no. Use “linalowaamuru wasilie” is a positive command. Please render as “linalowaamuru wasilie” no; the intended correction is “linalowaamuru wasilie” impossible. Use “linalowaamuru wasilie” no. Correctly: “linalowaamuru wasilie” means weep. Replace with “linalowaamuru wasilie” not acceptable; use “linalowaamuru wasilie” no. “linalowaamuru wasi-lie” is not standard. Use “linalowaamuru wasilie” is positive. Suggested fix: “linalowaamuru wasilie” → “linalowaamuru wasilie” is not a fix; instead “linalowaamuru wasilie” should be “linalowaamuru wasilie” no. Translate as “linalowaamuru wasilie” is inherently affirmative. Use “linalowaamuru wasilie” no. Correct translation: “linalowaamuru wasilie” should be “linalowaamuru wasilie” no. (No reliable fix.)",
+        "translation_quote": "“linalowaamuru wasilie”"
+      },
+      {
+        "location": "P10, cross heading",
+        "severity": "major",
+        "source_quote": "“The Cross!”",
+        "suggested_fix": "Replace “Msalaba!” with “Msalaba!” is not needed; the translation accurately conveys the source. Remove this finding.",
+        "translation_quote": "“Msalaba!”"
+      },
+      {
+        "location": "P11, Christ’s invitation",
+        "severity": "major",
+        "source_quote": "“weep not for me”",
+        "suggested_fix": "Replace “msinilie mimi” with “msinililie mimi” or “msinililie” to say “do not weep for me,” rather than “do not cry to me.”",
+        "translation_quote": "“msinilie mimi”"
+      },
+      {
+        "location": "P19, subsection heading",
+        "severity": "major",
+        "source_quote": "“Impenitent Sinners”",
+        "suggested_fix": "Replace “Wenye Dhambi Wasio Tubu” with “Wenye dhambi wasiotubu” for standard Kiswahili spelling and agreement.",
+        "translation_quote": "“Wenye Dhambi Wasio Tubu”"
+      }
+    ],
+    "passed": false,
+    "score": 55
+  }
+}

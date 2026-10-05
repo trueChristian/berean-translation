@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8402
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph 3, quotation of Matthew 6:27",
-      "severity": "major",
-      "source_quote": "“Which of you by taking thought can add one cubit unto his stature …”",
-      "suggested_fix": "Translate the printed quotation’s meaning rather than substituting the ESV wording that follows. For example: “Vem av er kan genom att oroa sig lägga en enda aln till sin längd …” Keep the reference Matt 6:27, 34 unchanged.",
-      "translation_quote": "“Vem av er kan genom att oroa sig lägga en enda aln till sin livslängd …”"
     },
     {
-      "location": "HTML, paragraphs 14–16, third cord heading and references to it",
-      "severity": "major",
-      "source_quote": "“A Sound Mind” / “the spirit of power, and of love, and of a sound mind”",
-      "suggested_fix": "Use a Swedish rendering meaning a sound/healthy mind, rather than “sunt förnuft” (common sense), for the heading and the later references to this third cord. Preserve the wording of the quoted verse as printed in Swedish while keeping this distinction clear.",
-      "translation_quote": "“Ett sunt förnuft” / “kraftens, kärlekens och självbehärskningens ande” / “kraft, kärlek och ett sunt förnuft”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 642,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 440,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5372,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5369,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6014
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph containing 2 Tim 1:7",
+      "severity": "major",
+      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.",
+      "suggested_fix": "Ändra «modlöshetens ande» till «rädslans ande» så att bibelcitatet bevarar källtextens betydelse. Exempel: «Gud har inte gett oss rädslans ande, utan kraftens, kärlekens och ett sunt sinnes ande – 2 Tim 1:7.»",
+      "translation_quote": "Gud har inte gett oss modlöshetens ande, utan kraftens, kärlekens och ett sunt sinnes ande – 2 Tim 1:7."
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "7068583ea5284bc7ee70b517ad5bc63e",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swe",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

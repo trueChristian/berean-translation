@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza 5, line 3\",\"severity\":\"minor\",\"source_quote\":\"Since it’s easier to forget to seek / When the way you think you see.\",\"suggested_fix\":\"কারণ নিজের চোখে পথ দেখতে পাচ্ছ বলে / তাঁকে খুঁজতে ভুলে যাওয়া সহজ।\",\"translation_quote\":\"কারণ নিজের ভাবা পথে চলতে পারলে / তাঁর অন্বেষণ ভুলে যাওয়া সহজ।\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 566,
+    "content_evidence_truncated": false,
+    "content_sha256": "033938f3504c6253f89af5c62880d86245b68f7ffc5fd761065b5f49427fd458",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2035,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2981
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

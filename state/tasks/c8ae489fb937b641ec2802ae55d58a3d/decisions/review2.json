@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “...Размышление или развлечение”",
+      "severity": "minor",
+      "source_quote": "It is amazing what some Christian parents will allow their children to watch.",
+      "suggested_fix": "Удивительно, что именно некоторые христианские родители разрешают смотреть своим детям.",
+      "translation_quote": "Удивительно, что некоторые христианские родители разрешают детям смотреть."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

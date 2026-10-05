@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, fifth stanza",
+      "severity": "minor",
+      "source_quote": "Perhaps more desperately;",
+      "suggested_fix": "Ändra till exempel till ”kanske ännu mer desperat;” för att behålla intensiteten i originalet.",
+      "translation_quote": "kanske ännu mer;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

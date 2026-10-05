@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 4233
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 741,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 709,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2590,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2587,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3331
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, strophe 10, lignes 3–4",
-      "severity": "major",
-      "source_quote": "And thank Him that for Jesus’ sake / They suffer and they die.",
-      "suggested_fix": "Remplacer ces deux lignes par : « Et le remercient de souffrir et de mourir / Pour l’amour de Jésus. » afin de conserver l’idée qu’ils remercient Dieu de souffrir et de mourir pour Jésus.",
-      "translation_quote": "Et le remercient de souffrir et de mourir / Pour l’amour de Jésus."
-    },
-    {
-      "location": "HTML, strophe 12, ligne 3",
-      "severity": "minor",
-      "source_quote": "Or is it ‘cause we aren’t a “threat”",
-      "suggested_fix": "Pour rendre la cause explicite, remplacer « Ou bien est-ce parce que nous ne sommes pas une « menace » » par « Ou bien est-ce parce que nous ne représentons pas une « menace » ».",
-      "translation_quote": "Ou bien est-ce parce que nous ne sommes pas une « menace »"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "80fa671469a72917b4f76dc2aefbc658",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "fra",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

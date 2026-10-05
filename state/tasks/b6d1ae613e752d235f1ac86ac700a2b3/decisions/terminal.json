@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza beginning “While we thank God for freedom here”",
+      "severity": "major",
+      "source_quote": "“While we thank God for freedom here, / They praise their Lord on high. / And thank Him that for Jesus’ sake / They suffer and they die.”",
+      "suggested_fix": "Translate the final two lines so they retain the subject “they,” for example: “En dank Hom dat hulle ter wille van Jesus / ly en sterf.”",
+      "translation_quote": "“Terwyl ons God dank vir vryheid hier, / Prys hulle hul Here in die hoogte. / En dank hulle Hom dat hulle ter wille van Jesus / Ly en sterf.”"
+    },
+    {
+      "location": "HTML, poem stanza beginning “In other lands this very day”",
+      "severity": "minor",
+      "source_quote": "“In other lands this very day, / The fire is burning bright;”",
+      "suggested_fix": "Use a natural Afrikaans rendering of “this very day,” such as “Juis vandag brand die vuur in ander lande helder.”",
+      "translation_quote": "“In ander lande brand die vuur / Juis vandag helder;”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

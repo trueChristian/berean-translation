@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,46 +64,31 @@
         },
         "total_tokens": 14193
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 804,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 772,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8835,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9642
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph 5",
-      "severity": "major",
-      "source_quote": "“Look at the lilies, the fowls of the air, and learn a lesson from them!”",
-      "suggested_fix": "Replace «سوسنوں، ہوا کے پرندوں پر نظر کرو» with «سوسنوں اور ہوا کے پرندوں پر نظر کرو اور ان سے سبق سیکھو!» so both examples and the instruction to learn from them are preserved.",
-      "translation_quote": "”سوسنوں، ہوا کے پرندوں پر نظر کرو اور ان سے سبق سیکھو!“"
-    },
-    {
-      "location": "Article paragraph 9",
-      "severity": "major",
-      "source_quote": "“how long Lord Jesus” “so come”?",
-      "suggested_fix": "Replace «”اے خداوند یسوع، کب تک؟“ اور ”آ، اے خداوند!“» with «”اے خداوند یسوع، کب تک؟“ اور ”پس آ!“» to preserve the source’s wording and its distinct quoted appeal.",
-      "translation_quote": "”اے خداوند یسوع، کب تک؟“ اور ”آ، اے خداوند!“"
-    },
-    {
-      "location": "Article paragraph 12",
-      "severity": "major",
-      "source_quote": "“fellow brothers and sisters”",
-      "suggested_fix": "Replace «fellow بھائیوں اور بہنوں» with «ساتھی بھائیوں اور بہنوں» to translate the substantive phrase fully into Urdu.",
-      "translation_quote": "ہمارے fellow بھائیوں اور بہنوں"
-    },
-    {
-      "location": "Article paragraph 14",
-      "severity": "major",
-      "source_quote": "“Should the government dictate whether we have church or not?”",
-      "suggested_fix": "Replace «کیا حکومت یہ طے کرے کہ ہماری کلیسیا ہو یا نہ ہو؟» with «کیا حکومت یہ حکم دے کہ ہم کلیسیا کا اجتماع کریں یا نہ کریں؟» to preserve the question about whether Christians may gather for church.",
-      "translation_quote": "”کیا حکومت یہ طے کرے کہ ہماری کلیسیا ہو یا نہ ہو؟“"
-    },
-    {
-      "location": "Article paragraph 15",
-      "severity": "major",
-      "source_quote": "“to not forsake the assembling of ourselves together”",
-      "suggested_fix": "Replace «اپنے جمع ہونے سے باز نہ آئیں» with «ایک ساتھ جمع ہونا ترک نہ کریں» to preserve the reference to assembling together.",
-      "translation_quote": "”اپنے جمع ہونے سے باز نہ آئیں“"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "bc87bb88a0af02f03ab7f1c9bbdff66c",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -193,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

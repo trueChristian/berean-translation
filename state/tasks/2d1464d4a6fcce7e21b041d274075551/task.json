@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 14231
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 246,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8811,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9060
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
-    {
-      "location": "पैराग्राफ 5",
-      "severity": "major",
-      "source_quote": "“Look at the lilies, the fowls of the air, and learn a lesson from them!”",
-      "suggested_fix": "“मैदान के सोसन और आकाश के पक्षियों को देखो, और उनसे सबक सीखो!”",
-      "translation_quote": "“सोसन को देखो, आकाश के पक्षियों को देखो, और उनसे सबक सीखो!”"
-    },
     {
       "location": "पैराग्राफ 10",
       "severity": "major",
       "source_quote": "“casting down imaginations.”",
-      "suggested_fix": "“कल्पनाओं को गिराते हुए” (या इसी अर्थ का स्वाभाविक हिंदी रूप) लिखें; “खंडन करते हुए” न लिखें।",
-      "translation_quote": "“कल्पनाओं को खण्डन करते हुए।”"
+      "suggested_fix": "“कल्पनाओं को ढा देना” या “तर्कों को गिरा देना” लिखें; “कल्पनाओं को ढाते हुए” इस आदेश का अर्थ स्पष्ट रूप से नहीं देता।",
+      "translation_quote": "“कल्पनाओं को ढाते हुए।”"
     },
     {
-      "location": "पैराग्राफ 11",
+      "location": "पैराग्राफ 13",
       "severity": "major",
-      "source_quote": "“Some of us have jobs and some do not. God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.”",
-      "suggested_fix": "लिखें: “हममें से कुछ के पास काम है और कुछ के पास नहीं। परमेश्वर का वचन बताता है कि जिनके पास है, वे उन लोगों को दें जिनके पास नहीं है, ताकि समानता हो।”",
-      "translation_quote": "“हममें से कुछ के पास काम है और कुछ के पास नहीं। परमेश्वर का वचन हमें बताता है कि जिनके पास है, वे उन्हें दें जिनके पास नहीं है, ताकि बराबरी हो।”"
-    },
-    {
-      "location": "पैराग्राफ 11",
-      "severity": "major",
-      "source_quote": "“A cheery word, or a letter in the mail, and whatever other resources you can appropriately use may be just the thing that those around you need.”",
-      "suggested_fix": "लिखें: “प्रसन्नता भरा एक शब्द, डाक से भेजा गया एक पत्र या कोई अन्य ऐसा साधन जिसका आप उचित रूप से उपयोग कर सकते हैं—शायद यही वह चीज़ हो जिसकी आपके आसपास के लोगों को ज़रूरत है।”",
-      "translation_quote": "“प्रसन्नता भरा एक शब्द, डाक से भेजा गया एक पत्र, या कोई दूसरा ऐसा साधन जिसका आप उचित रूप से उपयोग कर सकते हैं, शायद आपके आसपास के लोगों को ठीक उसी चीज़ की ज़रूरत हो।”"
+      "source_quote": "This is the time for us as God’s children to maximize on “in home” relationships.",
+      "suggested_fix": "अर्थ को “परमेश्वर की संतानों के रूप में यह हमारे लिए घर के भीतर के रिश्तों को मजबूत बनाने/उनका पूरा लाभ उठाने का समय है” के रूप में अनुवाद करें। “बेहतर बनाने” में मूल के रिश्तों को अधिकतम रूप से विकसित करने का आशय पूरी तरह नहीं आता।",
+      "translation_quote": "परमेश्वर की संतानों के रूप में यह हमारे लिए घर के भीतर के रिश्तों को बेहतर बनाने का समय है।"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "2d1464d4a6fcce7e21b041d274075551",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "hin",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, first stanza\",\"severity\":\"minor\",\"source_quote\":\"And my will toward Him turns?\",\"suggested_fix\":\"استبدل «ويتجه نحوه إرادتي؟» بـ«وتتجه إرادتي نحوه؟» لتصحيح المطابقة وتوضيح المعنى.\",\"translation_quote\":\"ويتجه نحوه إرادتي؟\"},{\"location\":\"HTML, image alt text\",\"severity\":\"minor\",\"source_quote\":\"against a softly blurred green background\",\"suggested_fix\":\"استبدل «أمام خلفية خضراء ضبابية برفق» بـ«أمام خلفية خضراء مطموسة الملامح بنعومة».\",\"translation_quote\":\"أمام خلفية خضراء ضبابية برفق\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 730,
+    "content_evidence_truncated": false,
+    "content_sha256": "dc0dfdb8601328bdce0fed9022134d3314c5e5f111d735804feacb065bdf0169",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2848
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

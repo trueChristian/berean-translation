@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "“I was one of the gainsayers who could not believe it would cripple our world to this extent.”",
+      "suggested_fix": "“গainsayers” এখানে সংশয়বাদী বা অবিশ্বাস প্রকাশকারীদের বোঝায়, ধর্মবিশ্বাসহীন ব্যক্তিদের নয়। লিখুন: “তখন আমিও সেই সংশয়বাদীদের একজন ছিলাম, যারা বিশ্বাস করতে পারেনি যে এটি আমাদের পৃথিবীকে এতটা পঙ্গু করে দেবে।”",
+      "translation_quote": "“তখন আমিও সেই অবিশ্বাসীদের একজন ছিলাম, যারা বিশ্বাস করতে পারেনি যে এটি আমাদের পৃথিবীকে এতটা পঙ্গু করে দেবে।”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

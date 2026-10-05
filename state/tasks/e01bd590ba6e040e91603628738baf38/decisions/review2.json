@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “My kinders wou al ’n ruk lank ’n hond hê”",
+      "severity": "minor",
+      "source_quote": "“guiltily he said he was”",
+      "suggested_fix": "Change “hy het skuld beken en gesê dat hy ’n Christen was” to “het hy skuldig gesê dat hy ’n Christen was” to preserve that he admitted it guiltily, rather than saying he confessed to guilt.",
+      "translation_quote": "“hy het skuld beken en gesê dat hy ’n Christen was”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

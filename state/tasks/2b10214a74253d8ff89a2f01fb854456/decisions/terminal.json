@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Title; opening quotation; heading «…Yourselves»",
+      "severity": "major",
+      "source_quote": "“Weep for Yourselves”; “weep for yourselves”; “…Yourselves”",
+      "suggested_fix": "Use the plural consistently: title «Κλάψτε για τους εαυτούς σας»; in the opening quotation, «κλάψτε για τους εαυτούς σας»; and heading «…Τους εαυτούς σας».",
+      "translation_quote": "«Κλάψτε για τον εαυτό σας»; «κλάψτε για τον εαυτό σας»; «…Τον εαυτό σας»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

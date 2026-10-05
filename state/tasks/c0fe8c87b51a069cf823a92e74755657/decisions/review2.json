@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, fifth stanza",
+      "severity": "minor",
+      "source_quote": "Since it’s easier to forget to seek / When the way you think you see.",
+      "suggested_fix": "Since it’s easier to forget to seek / wanneer jy dink jy die pad kan sien.",
+      "translation_quote": "want dit is makliker om te vergeet om Hom te soek / wanneer die pad lyk asof jy dit sien."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

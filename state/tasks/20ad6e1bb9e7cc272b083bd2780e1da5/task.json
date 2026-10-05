@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 12485
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 456,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 430,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8201,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8198,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8657
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning « En un temps comme celui-ci »",
-      "severity": "major",
-      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
-      "suggested_fix": "Remplacer « un esprit de peur, mais de puissance, d’amour et de sagesse » par « un esprit de peur, mais de puissance, d’amour et de maîtrise de soi » pour préserver le sens de « a sound mind ».",
-      "translation_quote": "Dieu ne nous a pas donné un esprit de peur, mais de puissance, d’amour et de sagesse."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "20ad6e1bb9e7cc272b083bd2780e1da5",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "fra",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

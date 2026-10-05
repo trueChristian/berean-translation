@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, ১৬:৩৭–৩৮ উদ্ধৃতি\",\"severity\":\"major\",\"source_quote\":\"“Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost”\",\"suggested_fix\":\"উদ্ধৃতিটিকে এভাবে সংশোধন করুন: “তোমরা প্রত্যেকে অনুতপ্ত হও এবং পাপের ক্ষমার জন্য যিশু খ্রিষ্টের নামে বাপ্তিস্ম গ্রহণ কর; আর তোমরা পবিত্র আত্মার দান পাবে”।\",\"translation_quote\":\"“তোমরা প্রত্যেকে অনুতপ্ত হও এবং পাপের ক্ষমার জন্য যিশু খ্রিষ্টের নামে বাপ্তিস্ম গ্রহণ কর; তাতে তোমরা পবিত্র আত্মার দান পাবে”\"},{\"location\":\"HTML, প্রেরিত ৫:৩২–৩৩ উদ্ধৃতি\",\"severity\":\"major\",\"source_quote\":\"“the Holy Ghost, whom God hath given to them that obey him. When they heard that, they were cut to the heart, and took counsel to slay them”\",\"suggested_fix\":\"উদ্ধৃতিটি এভাবে সংশোধন করুন: “…এই সব বিষয়ে আমরা তাঁর সাক্ষী; আর পবিত্র আত্মাও, যাঁকে ঈশ্বর তাঁকে যারা মানে তাদের দিয়েছেন। তারা এসব কথা শুনে অন্তরে বিদ্ধ হলো এবং তাঁদের হত্যা করার পরামর্শ করল”।\",\"translation_quote\":\"“…এই সব বিষয়ে আমরা তাঁর সাক্ষী; আর পবিত্র আত্মাও, যাঁকে ঈশ্বর তাঁর বাধ্য লোকদের দিয়েছেন। তারা এসব কথা শুনে অন্তরে বিদ্ধ হলো, এবং তাঁদের হত্যা করার পরামর্শ করল”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2321,
+    "content_evidence_truncated": false,
+    "content_sha256": "5cfa1c20ec3bc57b4f01fc4afdf4eb4016df6a51e66c3393311856b88025ee81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9673
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

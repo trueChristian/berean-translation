@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under “…Προσωπική σχέση με τον Θεό”",
+      "severity": "major",
+      "source_quote": "A child who is under conviction is sometimes sullen, withdrawn, and not very cooperative.",
+      "suggested_fix": "Replace «Ένα παιδί που αισθάνεται την καταδίκη για την αμαρτία είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο.» with «Ένα παιδί που έχει συναίσθηση της αμαρτίας του είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο.»",
+      "translation_quote": "Ένα παιδί που αισθάνεται την καταδίκη για την αμαρτία είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

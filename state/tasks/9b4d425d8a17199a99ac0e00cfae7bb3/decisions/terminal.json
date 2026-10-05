@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph before the Psalm quotation",
+      "severity": "minor",
+      "source_quote": "a clear heaven is only a prayer away.",
+      "suggested_fix": "اگر آپ خود کو اس حالت میں پائیں تو یاد رکھیں، خدا کے ساتھ تعلق کو صاف کرنے کے لیے صرف ایک دعا درکار ہے۔",
+      "translation_quote": "صاف آسمان صرف ایک دعا کے فاصلے پر ہے۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

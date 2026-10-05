@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "41f69b1d-c820-41e5-a8f8-ed4f0d7ebe27",
+    "response_id": "chatcmpl-EVZkOZ7FnieW5hYjKLOrvouHo90W5",
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2579,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2576,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2829
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza beginning “While we thank God for freedom here”",
+        "severity": "major",
+        "source_quote": "“While we thank God for freedom here, / They praise their Lord on high. / And thank Him that for Jesus’ sake / They suffer and they die.”",
+        "suggested_fix": "Translate the final two lines so they retain the subject “they,” for example: “En dank Hom dat hulle ter wille van Jesus / ly en sterf.”",
+        "translation_quote": "“Terwyl ons God dank vir vryheid hier, / Prys hulle hul Here in die hoogte. / En dank hulle Hom dat hulle ter wille van Jesus / Ly en sterf.”"
+      },
+      {
+        "location": "HTML, poem stanza beginning “In other lands this very day”",
+        "severity": "minor",
+        "source_quote": "“In other lands this very day, / The fire is burning bright;”",
+        "suggested_fix": "Use a natural Afrikaans rendering of “this very day,” such as “Juis vandag brand die vuur in ander lande helder.”",
+        "translation_quote": "“In ander lande brand die vuur / Juis vandag helder;”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, first stanza",
+      "severity": "minor",
+      "source_quote": "And my will toward Him turns?",
+      "suggested_fix": "استبدل «ويتجه نحوه إرادتي؟» بـ«وتتجه إرادتي نحوه؟» لتصحيح المطابقة وتوضيح المعنى.",
+      "translation_quote": "ويتجه نحوه إرادتي؟"
+    },
+    {
+      "location": "HTML, image alt text",
+      "severity": "minor",
+      "source_quote": "against a softly blurred green background",
+      "suggested_fix": "استبدل «أمام خلفية خضراء ضبابية برفق» بـ«أمام خلفية خضراء مطموسة الملامح بنعومة».",
+      "translation_quote": "أمام خلفية خضراء ضبابية برفق"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

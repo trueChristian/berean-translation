@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, parágrafo com a citação de Atos 23:1–24:16",
+      "severity": "major",
+      "source_quote": "…to have always a conscience void of offence toward God, and toward men –Act 23:1-24:16.",
+      "suggested_fix": "Traduza fielmente o trecho citado, mantendo a estrutura HTML e a referência impressa, por exemplo: “... ter sempre uma consciência sem ofensa para com Deus e para com os homens –At 23:1-24:16.”",
+      "translation_quote": "…ter sempre uma consciência sem ofensa para com Deus e para com os homens –At 23:1-24:16."
+    },
+    {
+      "location": "HTML, parágrafo sobre os criminosos que se entregavam",
+      "severity": "major",
+      "source_quote": "Forty years ago, someone asked one of these then-retired sheriffs how they were able to control all the crime by themselves.",
+      "suggested_fix": "Substitua “Há quarenta anos” por “Alguém perguntou, há quarenta anos, a um desses xerifes já aposentados como eles conseguiam controlar sozinhos toda a criminalidade.”",
+      "translation_quote": "Há quarenta anos, alguém perguntou a um desses xerifes, já aposentado, como conseguiam controlar sozinhos toda a criminalidade."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

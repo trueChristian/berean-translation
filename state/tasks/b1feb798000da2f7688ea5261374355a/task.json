@@ -2,7 +2,6 @@
   "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 13521
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8698,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9104
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Absatz „…Gehorsam entwickeln“",
+      "location": "HTML, Absatz „…Gute Lerngewohnheiten“",
       "severity": "major",
-      "source_quote": "“A child who learns to live with a surrendered will to their parents will one day much more easily walk in unquestioning obedience to God.”",
-      "suggested_fix": "Ersetze „Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“ durch „Ein Kind, das lernt, seinen Willen den Eltern unterzuordnen, wird eines Tages viel leichter Gott in fraglosem Gehorsam folgen.“",
-      "translation_quote": "„Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“"
+      "source_quote": "Encourage your children to be reading “up”, that is, slightly above their level of comprehension. They should also be reading “out”, that is, outside of the topics that they are naturally drawn to or are interested in.",
+      "suggested_fix": "Ermutige deine Kinder, „über ihrem Niveau“ zu lesen, also Texte, die etwas über ihrem Verständnisniveau liegen. Sie sollten auch „außerhalb ihrer Interessengebiete“ lesen, also Themen, zu denen sie sich von Natur aus nicht hingezogen fühlen oder für die sie sich nicht interessieren.",
+      "translation_quote": "Sie sollten auch „über den Tellerrand hinaus“ lesen, also Themen außerhalb dessen, wozu sie sich von Natur aus hingezogen fühlen oder was sie interessiert."
     },
     {
-      "location": "Absatz „…Ein Gefühl des eigenen Wertes“",
+      "location": "HTML, Absatz über Zucht und Gehorsam",
       "severity": "major",
-      "source_quote": "“Only through understanding God’s unconditional love and acceptance can this be resolved.”",
-      "suggested_fix": "Ersetze „Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“ durch „Dies kann nur gelöst werden, indem man Gottes bedingungslose Liebe und Annahme versteht.“",
-      "translation_quote": "„Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“"
+      "source_quote": "Discipline, IF done properly, has the effect of freeing the spirit of the child from guilt and restoring the child’s relationship to the parent.",
+      "suggested_fix": "Zucht befreit, WENN sie richtig ausgeübt wird, den Geist des Kindes von Schuld und stellt die Beziehung des Kindes zu den Eltern wieder her.",
+      "translation_quote": "Zucht befreit, WENN sie richtig ausgeübt wird, den Geist des Kindes von Schuld und stellt die Beziehung des Kindes zu den Eltern wieder her."
     },
     {
-      "location": "Absatz „…Gespräche über das Innerste“",
-      "severity": "major",
-      "source_quote": "“Relationships are built with open-hearted communication.”",
-      "suggested_fix": "Ersetze „Beziehungen entstehen durch offenen Austausch von Herzen.“ durch „Beziehungen entstehen durch offenen und aufrichtigen Austausch.“",
-      "translation_quote": "„Beziehungen entstehen durch offenen Austausch von Herzen.“"
+      "location": "HTML, Absatz zu Geschichten aus der Bibel",
+      "severity": "minor",
+      "source_quote": "Make certain that they are Biblically accurate and not some glorified fantasy.",
+      "suggested_fix": "Achte darauf, dass sie biblisch korrekt und keine verherrlichten Fantasiegeschichten sind.",
+      "translation_quote": "Achte darauf, dass sie biblisch korrekt und keine glorifizierten Fantasiegeschichten sind."
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "b1feb798000da2f7688ea5261374355a",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "deu",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a",
   "translation_model_actual": "gpt-6-luna"

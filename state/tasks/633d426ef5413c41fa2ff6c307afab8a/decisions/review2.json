@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening Scripture quotation, Malachi 4:5–6",
+      "severity": "minor",
+      "source_quote": "“lest I come and smite the earth with a curse”",
+      "suggested_fix": "Replace «slå jorden med bann» with the clearer contemporary Bokmål «slå jorden med en forbannelse».",
+      "translation_quote": "«så jeg ikke skal komme og slå jorden med bann»"
+    },
+    {
+      "location": "Ages two to five, paragraph on the second year",
+      "severity": "minor",
+      "source_quote": "“There is probably no season of life in which a child is more impressionable.”",
+      "suggested_fix": "Use «mottakelig for påvirkning» to convey “impressionable” more precisely: «Det finnes sannsynligvis ingen annen livsfase der et barn er mer mottakelig for påvirkning.»",
+      "translation_quote": "«Det finnes sannsynligvis ingen annen livsfase der et barn er mer formbart.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

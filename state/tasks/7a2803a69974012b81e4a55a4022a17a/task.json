@@ -2,7 +2,6 @@
   "article_id": "85306410-6a2d-46f1-b6db-6d3450f7f908",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 5808
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 113,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3896,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3893,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4009
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraf kedua",
+      "location": "Judul",
       "severity": "minor",
-      "source_quote": "And God hates stealing!",
-      "suggested_fix": "Dan Allah membenci pencurian!",
-      "translation_quote": "Dan Allah membenci pencurian!"
+      "source_quote": "That Ugly, White Pocket Knife",
+      "suggested_fix": "Pertimbangkan “Pisau Lipat Putih yang Jelek Itu” agar ugly tetap berarti “jelek/buruk rupa”; “buruk” biasanya merujuk pada sifat atau kualitas, bukan rupa. Ini pilihan diksi, bukan perubahan makna substantif.",
+      "translation_quote": "Pisau Lipat Putih yang Buruk Itu"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "7a2803a69974012b81e4a55a4022a17a",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ind",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0ca265668bf8d122955cca30e71c23cc2124156bf104fac6ba23c1e6844ba225.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "52312be3ef09bf5ffdab8a70e367174f0881d5471c2718e5f3179c003a023038",
   "translation_model_actual": "gpt-6-luna"

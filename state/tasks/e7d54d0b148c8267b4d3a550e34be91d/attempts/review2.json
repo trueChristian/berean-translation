@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning “While we thank God for freedom here”\",\"severity\":\"major\",\"source_quote\":\"While we thank God for freedom here, / They praise their Lord on high.\",\"suggested_fix\":\"ہم یہاں آزادی کے لیے خدا کا شکر ادا کرتے ہیں، جبکہ وہ اپنے خداوند کی حمد کرتے ہیں۔\",\"translation_quote\":\"یہاں کی آزادی کے لیے خدا کا شکر ادا کرتے ہوئے، / وہ اپنے خداوند کی حمد کرتے ہیں۔\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 556,
+    "content_evidence_truncated": false,
+    "content_sha256": "2394cf0ef48400ca1ef8d1b3df35c7c547a23377d2882710d7b132858105cd81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 444,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2690,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3261
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

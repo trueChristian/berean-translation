@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem: “The love of God…”",
+      "severity": "minor",
+      "source_quote": "The love of God flooded his needy soul,",
+      "suggested_fix": "Любовь Бога наполнила его душу, нуждавшуюся в помощи,",
+      "translation_quote": "Любовь Бога наполнила его истосковавшуюся душу,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5aed3870-b795-43c4-9f8a-d53dd555caf6",
+    "response_id": "chatcmpl-EVZjE1De2IFOYelIOhFMNmu3N4U9m",
+    "usage": {
+      "completion_tokens": 223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8547,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8773
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Jag har utmärkt hörsel”",
+        "severity": "minor",
+        "source_quote": "whether I listen to only the things and people I desire",
+        "suggested_fix": "Ändra till exempel till: ”om jag bara lyssnar på sådant och sådana människor som jag själv vill lyssna på” för att tydligare återge att det handlar om det talaren själv önskar.",
+        "translation_quote": "om jag bara lyssnar på de saker och människor jag vill lyssna på"
+      },
+      {
+        "location": "Article, paragraph beginning “Jag minns att jag för många år sedan”",
+        "severity": "major",
+        "source_quote": "“Sir, did you just put your seat belt on when you saw me?”",
+        "suggested_fix": "Översätt till exempel repliken som: ”Herrn, tog ni just på er bilbältet när ni såg mig?”",
+        "translation_quote": "”Sir, tog ni just på er bilbältet när ni såg mig?”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

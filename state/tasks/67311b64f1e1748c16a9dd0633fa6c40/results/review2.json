@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e5d14143-88d9-40cd-b596-503f50e6b647",
+    "response_id": "chatcmpl-EVZjYBDLE5QPg1hJIjkMYtpXY3qyK",
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8537,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9302
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dernière citation biblique, Psaume 51:17",
+        "severity": "major",
+        "source_quote": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise –Psa 51:17.",
+        "suggested_fix": "Remplacer la citation par : « Les sacrifices de Dieu sont un esprit brisé ; un cœur brisé et contrit, ô Dieu, tu ne le méprises pas –Psaume 51:17. » Conserver les balises HTML existantes.",
+        "translation_quote": "Les sacrifices qui sont agréables à Dieu, c’est un esprit brisé : un cœur brisé et contrit, ô Dieu, tu ne le méprises pas –Psaume 51:17."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

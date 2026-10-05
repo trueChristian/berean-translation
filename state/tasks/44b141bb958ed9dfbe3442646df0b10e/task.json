@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,39 +64,31 @@
         },
         "total_tokens": 17484
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1053,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1021,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10521,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10518,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11574
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "মূল অনুচ্ছেদ, প্রথম অনুচ্ছেদের শেষ বাক্য",
-      "severity": "major",
-      "source_quote": "It is here that Jesus slows His pace to offer His last public address to the women at the side of the road bewailing His plight.",
-      "suggested_fix": "বাক্যটি সংশোধন করে লিখুন: “এখানেই যীশু তাঁর গতি ধীর করলেন, যাতে পথের ধারে তাঁর দুর্দশার জন্য বিলাপরত নারীদের উদ্দেশে শেষবারের মতো জনসমক্ষে কথা বলতে পারেন।”",
-      "translation_quote": "এখানেই যীশু তাঁর গতি ধীর করলেন, পথের ধারে তাঁর দুর্দশার জন্য বিলাপরত নারীদের উদ্দেশে শেষবারের মতো জনসমক্ষে কথা বলতে।"
-    },
-    {
-      "location": "“নিজেদের জন্য” শিরোনামের পরের অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "His God forsook Him because of our transgressions.",
-      "suggested_fix": "লিখুন: “আমাদের অপরাধের কারণে ঈশ্বর তাঁকে পরিত্যাগ করেছিলেন।”",
-      "translation_quote": "আমাদের অপরাধের কারণে তাঁর ঈশ্বর তাঁকে পরিত্যাগ করেছিলেন।"
-    },
-    {
-      "location": "“তোমাদের সন্তানদের জন্য” শিরোনামের পরের অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "Not only are we accountable for the Roman spear that pierced His side, but we must consider the Jews who spoke on our behalf that notable day—…His blood be on us, and on our children –Mat 27:25.",
-      "suggested_fix": "বাক্যটি বিশ্বস্তভাবে অনুবাদ করে লিখুন: “তাঁর পার্শ্ব বিদ্ধ করা রোমীয় বর্শার জন্য শুধু আমরাই দায়ী নই; সেই উল্লেখযোগ্য দিনে আমাদের হয়ে কথা বলা ইহুদিদের কথাও বিবেচনা করতে হবে—…”। উদ্ধৃত অংশটিও উৎসের অর্থ অনুযায়ী অনুবাদ করুন; সেখানে “আমাদের” নেই, আছে “আমাদের ওপর এবং আমাদের সন্তানদের ওপর তাঁর রক্ত বর্তাক।”",
-      "translation_quote": "তাঁর পার্শ্ব বিদ্ধ করা রোমীয় বর্শার জন্য শুধু আমরাই দায়ী নই; সেই উল্লেখযোগ্য দিনে আমাদের হয়ে কথা বলা ইহুদিদের কথাও বিবেচনা করতে হবে—…তাঁর রক্ত আমাদের ও আমাদের সন্তানদের ওপর বর্তাক। –মথি 27:25."
-    },
-    {
-      "location": "“চিরন্তন অশ্রুর জন্য” শিরোনামের পরের অনুচ্ছেদ, শেষ উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death –2Co 7:10.",
-      "suggested_fix": "উদ্ধৃতির অর্থ অক্ষুণ্ণ রেখে লিখুন: “কারণ ঈশ্বরীয় দুঃখ এমন অনুতাপ উৎপন্ন করে, যা পরিত্রাণের দিকে নিয়ে যায় এবং যার জন্য অনুতাপ করতে হয় না; কিন্তু জগতের দুঃখ মৃত্যু উৎপন্ন করে।”",
-      "translation_quote": "কারণ ঈশ্বরীয় দুঃখ পরিতাপহীন পরিত্রাণের জন্য অনুতাপ উৎপন্ন করে; কিন্তু জগতের দুঃখ মৃত্যু উৎপন্ন করে। –2কর 7:10."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "44b141bb958ed9dfbe3442646df0b10e",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ben",
@@ -186,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

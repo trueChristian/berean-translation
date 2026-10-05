@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem: “The love of God…”\",\"severity\":\"minor\",\"source_quote\":\"The love of God flooded his needy soul,\",\"suggested_fix\":\"Любовь Бога наполнила его душу, нуждавшуюся в помощи,\",\"translation_quote\":\"Любовь Бога наполнила его истосковавшуюся душу,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 394,
+    "content_evidence_truncated": false,
+    "content_sha256": "df1e932fa07b625b21a1a1ab96dab267a1c69d1c3b95895a7ceef67125058465",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 502,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1932,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1929,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2534
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

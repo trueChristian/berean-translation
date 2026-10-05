@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,18 +64,61 @@
         },
         "total_tokens": 13021
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 484,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8449,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8446,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8933
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph 7",
+      "location": "source.html, paragraph 6",
       "severity": "major",
-      "source_quote": "We need to be okay with suffering, we need to embrace it;",
-      "suggested_fix": "Replace “Tun need” (current wording) with “Tunahitaji kuridhika na mateso; tunahitaji kuyakumbatia;”",
-      "translation_quote": "Tun need to accept suffering; tunahitaji kuyakumbatia;"
+      "source_quote": "“suffering is a way of life for the follower of Jesus.”",
+      "suggested_fix": "Replace “mateso ni sehemu ya maisha ya mfuasi wa Yesu” with “kuteseka ni njia ya maisha kwa mfuasi wa Yesu” or another phrasing that conveys suffering as an expected way of life, not merely a part of it.",
+      "translation_quote": "“mateso ni sehemu ya maisha ya mfuasi wa Yesu.”"
+    },
+    {
+      "location": "source.html, paragraph 8",
+      "severity": "major",
+      "source_quote": "“we have no rights except the right to the Tree of Life.”",
+      "suggested_fix": "Replace “hatuna haki isipokuwa haki ya Mti wa Uzima” with “hatuna haki nyingine isipokuwa ile ya Mti wa Uzima,” to preserve the exclusive assertion that this is their only right.",
+      "translation_quote": "“hatuna haki isipokuwa haki ya Mti wa Uzima.”"
+    },
+    {
+      "location": "source.html, paragraph 8",
+      "severity": "major",
+      "source_quote": "“we have no abiding city here but look for a city …whose builder and maker is God –Heb 11:10.”",
+      "suggested_fix": "Replace “hatuna mji wa kudumu hapa, bali tunautazamia mji” with “hatuna mji wa kudumu hapa, bali tunautafuta mji,” preserving the source’s distinction that they seek/look for the city.",
+      "translation_quote": "“hatuna mji wa kudumu hapa, bali tunautazamia mji”"
+    },
+    {
+      "location": "source.html, paragraph 12",
+      "severity": "major",
+      "source_quote": "“The simple truth is this, we do not know, and if we did know it still should not change the way we live and our overall response.”",
+      "suggested_fix": "Replace “bado hilo halikupaswa kubadili jinsi tunavyoishi na namna yetu ya jumla ya kuitikia” with “bado hilo halikupaswa kubadili jinsi tunavyoishi na mwitikio wetu kwa ujumla,” to retain the source’s assertion about their overall response.",
+      "translation_quote": "“bado hilo halikupaswa kubadili jinsi tunavyoishi na namna yetu ya jumla ya kuitikia.”"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "aa8cf19729b8d17c912d6cf77dca0594",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -165,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

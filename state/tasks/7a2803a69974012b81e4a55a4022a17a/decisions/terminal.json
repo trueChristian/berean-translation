@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Judul",
+      "severity": "minor",
+      "source_quote": "That Ugly, White Pocket Knife",
+      "suggested_fix": "Pertimbangkan “Pisau Lipat Putih yang Jelek Itu” agar ugly tetap berarti “jelek/buruk rupa”; “buruk” biasanya merujuk pada sifat atau kualitas, bukan rupa. Ini pilihan diksi, bukan perubahan makna substantif.",
+      "translation_quote": "Pisau Lipat Putih yang Buruk Itu"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

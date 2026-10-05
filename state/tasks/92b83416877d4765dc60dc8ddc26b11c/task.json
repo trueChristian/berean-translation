@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 14480
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph beginning «I hans lidelse for oss»; Isaiah 53:10 quotation",
-      "severity": "major",
-      "source_quote": "he hath put him to grief",
-      "suggested_fix": "Erstatt «han har gjort ham syk» med for eksempel «han har påført ham lidelse» for å bevare meningen i kildeteksten.",
-      "translation_quote": "han har gjort ham syk"
     },
     {
-      "location": "HTML paragraph beginning «Gråt ikke over korsfestelsen»",
-      "severity": "minor",
-      "source_quote": "the old rugged cross",
-      "suggested_fix": "Endre «den gamle, grove korset» til «det gamle, grove korset».",
-      "translation_quote": "den gamle, grove korset"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 389,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9440,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9437,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9829
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “In His suffering for us” — Scripture quotation John 10:11–17",
+      "severity": "major",
+      "source_quote": "Therefore doth my Father love me, because I lay down my life, that I might take it again",
+      "suggested_fix": "Replace «Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake igjen» with «Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake.» Preserve the reference as Joh 10: 11-17.",
+      "translation_quote": "«Derfor elsker Faderen meg, fordi jeg gir mitt liv for å ta det tilbake igjen»"
+    },
+    {
+      "location": "source.html, paragraph beginning “In the remnant portion of His message” — Scripture quotation Luke 23:29–31",
+      "severity": "major",
+      "source_quote": "Blessed are the barren, and the wombs that never bare",
+      "suggested_fix": "Correct «Salige er de ufruktbare» to «Salige er de barnløse» (or an equally clear rendering of women who have borne no children), so it does not describe infertile people generally.",
+      "translation_quote": "«Salige er de ufruktbare»"
+    },
+    {
+      "location": "source.html, paragraph beginning “For several years ago” — quoted question",
+      "severity": "major",
+      "source_quote": "“Lord, Lord, did I not weep at the scene? Did I not bewail your pathetic condition?”",
+      "suggested_fix": "Translate the question faithfully, for example: «Herre, Herre, gråt jeg ikke over scenen? Sørget jeg ikke over din ynkelige tilstand?»",
+      "translation_quote": "«Herre, Herre, gråt ikke også jeg under scenen? Sørget jeg ikke over din ynkelige tilstand?»"
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "92b83416877d4765dc60dc8ddc26b11c",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nob",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

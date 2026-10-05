@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final stanza, second line",
+      "severity": "major",
+      "source_quote": "So, in conclusion, friends, let’s take / The path that Jesus trod,",
+      "suggested_fix": "Replace «Ας πάρουμε, λοιπόν, φίλοι, για επίλογο τον δρόμο που βάδισε ο Ιησούς» with «Ας ακολουθήσουμε, λοιπόν, φίλοι, τον δρόμο που βάδισε ο Ιησούς». This restores the meaning that the friends should follow Jesus’ path, rather than take that path as a conclusion.",
+      "translation_quote": "Ας πάρουμε, λοιπόν, φίλοι, για επίλογο / τον δρόμο που βάδισε ο Ιησούς,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 13088
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 271,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8311,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8308,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8582
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML，第3段经文（提摩太前书 4:1-2）",
-      "severity": "major",
-      "source_quote": "“Speaking lies in hypocrisy; having their conscience seared with a hot iron”",
-      "suggested_fix": "将引文改为忠实表达原文的“这是因说谎之人的假冒为善；他们的良心如同被热铁烙了一般”，保留现有标签和经文编号。",
-      "translation_quote": "“这是因为说谎之人的假冒；这等人的良心如同被热铁烙惯了一般”"
-    },
-    {
-      "location": "HTML，关于大卫与拔示巴的段落",
-      "severity": "major",
-      "source_quote": "“Maybe David already knew he could see this woman from his rooftop? Maybe he had been tempted before, ‘at even tide’, to look over toward Bathsheba’s home.”",
-      "suggested_fix": "将“也许他以前在‘黄昏的时候’就受过试探，朝拔示巴的家那边张望”改为“也许他以前在黄昏时就受过试探，朝拔示巴家的方向张望”。原文说的是“黄昏时”，不是特定的经文时刻或傍晚潮汐。",
-      "translation_quote": "“也许他以前在‘黄昏的时候’就受过试探，朝拔示巴的家那边张望。”"
-    },
-    {
-      "location": "HTML，彼得讲道后众人回应的段落（使徒行传 5:32-33）",
-      "severity": "critical",
-      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
-      "suggested_fix": "将加粗部分改为“他们听见这话，就被刺痛了心”，并保留后文“商议要杀他们”。例如：<em>……<strong>他们听见这话，就被刺痛了心</strong>，便商议要杀他们——使徒行传 5:32-33。</em>",
-      "translation_quote": "“<strong>公会的人听见就极其恼怒</strong>，想要杀他们”"
-    },
-    {
-      "location": "HTML，标题",
+      "location": "HTML，第5段（警察对话后的处理）",
       "severity": "minor",
-      "source_quote": "“For Conscience’ Sake”",
-      "suggested_fix": "可改为“为良心的缘故”，更清楚地传达标题中“为了良心”的意思。",
-      "translation_quote": "“为了良心”"
+      "source_quote": "He gave me a warning and thanked me for being honest.",
+      "suggested_fix": "将“他给了我口头警告”改为“他给了我一个警告”，以免把原文未说明的警告形式具体化。",
+      "translation_quote": "他给了我口头警告，并感谢我诚实以对。"
+    },
+    {
+      "location": "HTML，第8段（大卫与拔示巴）",
+      "severity": "major",
+      "source_quote": "It was the time when kings went forth to battle, and they had a battle going with the children of Ammon.",
+      "suggested_fix": "改为“当时正是列王出战的时候，他们正与亚扪人交战。”，保留原文“列王出战”的说法，不要改成“列王出战的时候”以外的概括；当前译文已基本如此。实际问题在下一句：把“亚扪人”对应的出战对象保留即可。",
+      "translation_quote": "当时正是列王出战的时候，他们正与亚扪人交战。"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "3d62254101616a1028b6c6732997ecfb",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "cmn",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

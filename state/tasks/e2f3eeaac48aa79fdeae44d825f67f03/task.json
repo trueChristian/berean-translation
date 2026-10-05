@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 15080
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 377,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9296,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9293,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9673
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "body paragraph 11 (Nathan’s story, 2 Samuel 12:4–7)",
+      "location": "HTML, ১৬:৩৭–৩৮ উদ্ধৃতি",
       "severity": "major",
-      "source_quote": "“he spared to take of his own flock and of his own herd, to dress for the wayfaring man”",
-      "suggested_fix": "“সে পথিকের জন্য খাবার তৈরি করতে নিজের পাল থেকে পশু নিতে রাজি হলো না”",
-      "translation_quote": "“সে নিজের পাল ও গোয়াল থেকে কিছু নিতে কুণ্ঠিত হলো, যাতে তার কাছে আসা পথিকের জন্য তা প্রস্তুত করতে পারে”"
+      "source_quote": "“Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost”",
+      "suggested_fix": "উদ্ধৃতিটিকে এভাবে সংশোধন করুন: “তোমরা প্রত্যেকে অনুতপ্ত হও এবং পাপের ক্ষমার জন্য যিশু খ্রিষ্টের নামে বাপ্তিস্ম গ্রহণ কর; আর তোমরা পবিত্র আত্মার দান পাবে”।",
+      "translation_quote": "“তোমরা প্রত্যেকে অনুতপ্ত হও এবং পাপের ক্ষমার জন্য যিশু খ্রিষ্টের নামে বাপ্তিস্ম গ্রহণ কর; তাতে তোমরা পবিত্র আত্মার দান পাবে”"
     },
     {
-      "location": "body paragraph 13 (David and Nathan)",
+      "location": "HTML, প্রেরিত ৫:৩২–৩৩ উদ্ধৃতি",
       "severity": "major",
-      "source_quote": "“Or what if Nathan would have refused to go talk to David because he feared him?”",
-      "suggested_fix": "“অথবা নাথন যদি দায়ূদকে ভয় পেয়ে তাঁর সঙ্গে কথা বলতে যেতে অস্বীকার করতেন?”",
-      "translation_quote": "“অথবা, নাথন যদি দায়ূদকে ভয় পেয়ে তাঁর সঙ্গে কথা বলতে যেতে অস্বীকার করতেন?”"
-    },
-    {
-      "location": "body paragraph 24 (puppy story)",
-      "severity": "major",
-      "source_quote": "“One day as we walked home from the Sunday service a puppy came running from a small house, jumping and yipping.”",
-      "suggested_fix": "“একদিন রবিবারের উপাসনা থেকে বাড়ি ফেরার পথে একটি ছোট বাড়ি থেকে একটি কুকুরছানা দৌড়ে বেরিয়ে এসে লাফাতে ও কুঁইকুঁই করতে লাগল।”",
-      "translation_quote": "“একদিন রবিবারের উপাসনা থেকে বাড়ি ফেরার পথে একটি ছোট বাড়ি থেকে একটি কুকুরছানা ছুটে এসে লাফাতে ও কুঁইকুঁই করতে লাগল।”"
-    },
-    {
-      "location": "body paragraph 26 (final illustration)",
-      "severity": "major",
-      "source_quote": "“a clear heaven is only a prayer away.”",
-      "suggested_fix": "“প্রার্থনা করলেই স্বর্গের সঙ্গে আবার স্বচ্ছ সম্পর্ক স্থাপন করা যায়।”",
-      "translation_quote": "“একটি নির্মল আকাশের দূরত্ব মাত্র একটি প্রার্থনা।”"
+      "source_quote": "“the Holy Ghost, whom God hath given to them that obey him. When they heard that, they were cut to the heart, and took counsel to slay them”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “…এই সব বিষয়ে আমরা তাঁর সাক্ষী; আর পবিত্র আত্মাও, যাঁকে ঈশ্বর তাঁকে যারা মানে তাদের দিয়েছেন। তারা এসব কথা শুনে অন্তরে বিদ্ধ হলো এবং তাঁদের হত্যা করার পরামর্শ করল”।",
+      "translation_quote": "“…এই সব বিষয়ে আমরা তাঁর সাক্ষী; আর পবিত্র আত্মাও, যাঁকে ঈশ্বর তাঁর বাধ্য লোকদের দিয়েছেন। তারা এসব কথা শুনে অন্তরে বিদ্ধ হলো, এবং তাঁদের হত্যা করার পরামর্শ করল”"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "e2f3eeaac48aa79fdeae44d825f67f03",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ben",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

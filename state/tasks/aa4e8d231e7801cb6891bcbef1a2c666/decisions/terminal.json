@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Laatste strofe, vierde vers",
+      "severity": "minor",
+      "source_quote": "That leads men home to God.",
+      "suggested_fix": "Vervang dit vers door: “Die mensen naar God leidt.”",
+      "translation_quote": "Die mensen naar God thuisbrengt."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

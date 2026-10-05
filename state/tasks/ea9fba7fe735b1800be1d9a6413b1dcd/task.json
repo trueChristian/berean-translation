@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 14368
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9258,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9255,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9636
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "الفقرة التي تبدأ «في آلامه من أجلنا»",
+      "location": "الفقرة التي تبدأ «في الجزء المتبقي من رسالته»",
       "severity": "major",
-      "source_quote": "“Yet it pleased the LORD to bruise him; he hath put him to grief” –Isa 53:10-11.",
-      "suggested_fix": "استبدل بداية الاقتباس بما يحفظ المعنى المطبوع: «لكن الرب سُرَّ بأن يرضَّه؛ وأحزنه» (مع إبقاء بقية الاقتباس ووسم HTML والمرجع كما هما).",
-      "translation_quote": "«أما الرب فسرّ بأن يسحقه بالحزن» –إش 53:10-11."
+      "source_quote": "This abomination brought Jerusalem to desolation in 70 A.D. and no atrocity has surpassed it since.",
+      "suggested_fix": "استبدل الجملة بـ: «وقد جلب هذا الرجس أورشليم إلى الخراب سنة 70 م، ولم تتجاوزها أي فظاعة منذ ذلك الحين.»",
+      "translation_quote": "وقد جلب هذا الرجس أورشليم إلى الخراب سنة 70 م، ولم تتجاوزه أي فظاعة منذ ذلك الحين."
     },
     {
-      "location": "الفقرة التي تبدأ «في آلامه من أجلنا»",
+      "location": "الشعر المنسوب إلى واتس، الفقرة التي تبدأ «أنتم، يا خطاياي»",
       "severity": "major",
-      "source_quote": "“He shall see of the travail of his soul, and shall be satisfied…” –Isa 53:10-11.",
-      "suggested_fix": "أدرج الجملة المترجمة المقابلة بعد «تطول أيامه، ومسرة الرب بيده تنجح»، مع الحفاظ على ترتيب الاقتباس ومرجعه: «يرى من تعب نفسه ويشبع…».",
-      "translation_quote": "«…تطول أيامه، ومسرة الرب بيده تنجح. من تعب نفسه يرى ويشبع…» –إش 53:10-11."
+      "source_quote": "‘Twas you, my sins, my cruel sins, / His chief tormentors were.",
+      "suggested_fix": "استبدل مطلع المقطع بـ: «أنتم، يا خطاياي، يا خطاياي القاسية، / كنتم أشدَّ معذّبيه.»",
+      "translation_quote": "أنتم، يا خطاياي، يا خطاياي القاسية، / كنتم معذّبيه الأشدين."
     },
     {
-      "location": "الفقرة التي تبدأ «إن الذين منا يستطيعون أن يجدوا دموعًا»",
+      "location": "الشعر المنسوب إلى واتس، الفقرة التي تبدأ «هكذا، قد أخفي وجهي الخجل»",
       "severity": "major",
-      "source_quote": "“The soul is bearing its sin, and loving to bear it!”",
-      "suggested_fix": "استبدل «والنفس تحمل خطيتها، بل تحب حملها!» بما يوضح أن النفس هي التي تحمل خطيتها وتحب أن تحملها، دون تحويل ذلك إلى ضمير مؤنث يعود إلى الخطية.",
-      "translation_quote": "«والنفس تحمل خطيتها، بل تحب حملها!»"
+      "source_quote": "Thus, might I hide my blushing face, / While His dear cross appears.",
+      "suggested_fix": "استبدل البيتين الأولين بـ: «هكذا قد أخفي وجهي الخجل، / حين يظهر صليبه الحبيب.»",
+      "translation_quote": "هكذا، قد أخفي وجهي الخجل، / حين يظهر صليبه العزيز."
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "ea9fba7fe735b1800be1d9a6413b1dcd",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ara",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

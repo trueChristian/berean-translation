@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eaddd59d-a52f-4639-92f6-4ff883e01836",
+    "response_id": "chatcmpl-EVZjgNzMUu56OcFwjwu2y4zrZApWH",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9205
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 11",
+        "severity": "major",
+        "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+        "suggested_fix": "Replace «di saggezza» with «di una mente sana» or «di autocontrollo», so the phrase conveys “a sound mind” rather than wisdom.",
+        "translation_quote": "Dio non ci ha dato uno spirito di paura, ma di forza, di amore e di saggezza."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

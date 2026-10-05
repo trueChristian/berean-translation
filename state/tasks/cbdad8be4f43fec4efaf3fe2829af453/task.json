@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 9293
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 330,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6093,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6426
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «По словам одного из родителей»",
+      "location": "HTML, paragraph beginning «В статье приводились слова родителей…»",
       "severity": "major",
-      "source_quote": "“the whole family now eats three unrushed and healthy meals together every day”",
-      "suggested_fix": "Заменить «теперь вся семья каждый день вместе без спешки ест три здоровых блюда» на «теперь вся семья каждый день без спешки вместе ест три раза здоровую пищу» или «теперь вся семья каждый день без спешки вместе ест три здоровых приёма пищи»; в оригинале речь о трёх приёмах пищи, а не о трёх блюдах.",
-      "translation_quote": "«теперь вся семья каждый день вместе без спешки ест три здоровых блюда»"
+      "source_quote": "“This article quoted parents from across the United States, including North Carolina, Tennessee and California.”",
+      "suggested_fix": "Заменить «В статье приводились слова родителей из разных штатов, в том числе Северной Каролины, Теннесси и Калифорнии» на «В статье приводились слова родителей из разных частей США, в том числе из Северной Каролины, Теннесси и Калифорнии» — штаты названы как примеры, а не как всеохватное утверждение о разных штатах.",
+      "translation_quote": "«В статье приводились слова родителей из разных штатов, в том числе Северной Каролины, Теннесси и Калифорнии.»"
+    },
+    {
+      "location": "HTML, абзац, начинающийся «Подчёркивая эту новостную статью…»",
+      "severity": "major",
+      "source_quote": "“the world’s system isn’t all its cracked up to be”",
+      "suggested_fix": "Заменить «система мира не так уж хороша, как о ней принято думать» на «система мира не так хороша, как её представляют» или «система мира далеко не так хороша, как принято считать»; исходник не говорит, что это лишь распространённое мнение.",
+      "translation_quote": "«система мира не так уж хороша, как о ней принято думать»"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "cbdad8be4f43fec4efaf3fe2829af453",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "rus",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

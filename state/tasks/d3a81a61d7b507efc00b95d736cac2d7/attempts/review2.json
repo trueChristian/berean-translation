@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem paragraph: “The days came and went, they seemed like a blur.”\",\"severity\":\"minor\",\"source_quote\":\"The days came and went, they seemed like a blur.\",\"suggested_fix\":\"Replace «Οι μέρες περνούσαν, θολές σαν όνειρο.» with «Οι μέρες περνούσαν, θολές και συγκεχυμένες.»\",\"translation_quote\":\"Οι μέρες περνούσαν, θολές σαν όνειρο.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 500,
+    "content_evidence_truncated": false,
+    "content_sha256": "eda415a7ddfb8f118fce59ad8260ca06de39ed5c95223c616a51f62833d2e0d7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 431,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2117,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2114,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2675
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

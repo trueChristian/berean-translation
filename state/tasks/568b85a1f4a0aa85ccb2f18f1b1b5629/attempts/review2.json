@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3, quoted 1 Peter 3:15\",\"severity\":\"major\",\"source_quote\":\"“But sanctify the Lord God in your hearts”\",\"suggested_fix\":\"Erstatt «Men hell Herren Gud i hjertene deres» med «Men hellig Herren Gud i hjertene deres» for å gjengi oppfordringen om å hellige Herren Gud.\",\"translation_quote\":\"«Men hell Herren Gud i hjertene deres»\"},{\"location\":\"Paragraph 13, quoted command\",\"severity\":\"minor\",\"source_quote\":\"“obey God rather than men”\",\"suggested_fix\":\"Endre «lydigere Gud enn mennesker» til «lyde Gud mer enn mennesker» eller «adlyde Gud mer enn mennesker».\",\"translation_quote\":\"«lydigere Gud enn mennesker»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 696,
+    "content_evidence_truncated": false,
+    "content_sha256": "9a47bcfa6bd8b824af2586db91b8a4d23afe6fc8d4e57fe9317d7d7bf76df9a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 939,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9172
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

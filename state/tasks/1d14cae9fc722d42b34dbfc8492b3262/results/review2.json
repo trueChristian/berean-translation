@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "43a5b33f-0f05-4cec-a5d4-dc8fac3c8bfd",
+    "response_id": "chatcmpl-EVZl93bNQ9A0gAwt6BR3tNlqw3uF5",
+    "usage": {
+      "completion_tokens": 438,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9221,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9662
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "मुख्य लेख, 2 शमूएल 12:4–7 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“the man that hath done this thing shall surely die”",
+        "suggested_fix": "इस अंश को स्रोत के अर्थ के अनुसार बदलें, उदाहरण के लिए: “जिस मनुष्य ने यह काम किया है वह निश्चय ही मरने का दण्ड पाएगा।”",
+        "translation_quote": "“जिस मनुष्य ने यह काम किया है वह मरने के योग्य है”"
+      },
+      {
+        "location": "मुख्य लेख, 2 शमूएल 12:4–7 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“And he shall restore the lamb fourfold”",
+        "suggested_fix": "“और वह मेमने का चार गुना लौटा देगा” लिखें; यहाँ दाऊद मेमने के चार गुना लौटाने का आदेश देता है।",
+        "translation_quote": "“और उसे मेमने का चार गुना भरना होगा”"
+      },
+      {
+        "location": "मुख्य लेख, प्रेरितों के काम 5:32–33 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“When they heard that, they were cut to the heart”",
+        "suggested_fix": "“यह सुनकर वे मन ही मन क्रोधित हुए” लिखें। स्रोत में उनके क्रोधित होने और उन्हें मार डालने की सलाह करने की बात है, न कि हृदय के भीतर तक आहत होने की।",
+        "translation_quote": "“यह सुनकर उनका हृदय भीतर तक आहत हुआ”"
+      },
+      {
+        "location": "मुख्य लेख, समापन से पहले का वाक्य",
+        "severity": "major",
+        "source_quote": "“a clear heaven is only a prayer away”",
+        "suggested_fix": "आकाश साफ़ होने का रूपक बनाए रखने के बजाय स्रोत के आशय के अनुसार लिखें: “याद रखें, परमेश्वर के साथ साफ़ संबंध पाने के लिए बस एक प्रार्थना की दूरी है।”",
+        "translation_quote": "“स्वच्छ आकाश बस एक प्रार्थना की दूरी पर है।”"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

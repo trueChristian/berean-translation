@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraphs quoting Scripture: Matthew 6:27, 34; 1 Peter 4:12–13; 2 Timothy 1:7; Luke 10:27; John 16:33\",\"severity\":\"minor\",\"source_quote\":\"–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33.\",\"suggested_fix\":\"Use conventional Kiswahili book names in the references while preserving the exact chapter and verse numbers, ranges, and placement: “–Mt 6:27, 34”; “–1 Petro 4: 12-13”; “–2 Timotheo 1:7”; “–Luka 10:27”; “–Yohana 16:33.”\",\"translation_quote\":\"–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 642,
+    "content_evidence_truncated": false,
+    "content_sha256": "64a9180e9fe9a720f7b6f2f786b7faa54bb80b8fde323cc8c46f703200a0c3f8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 955,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5512,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6470
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

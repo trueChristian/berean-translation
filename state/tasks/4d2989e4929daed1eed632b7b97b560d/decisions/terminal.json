@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “সম্প্রতি সিএনএন-এ প্রকাশিত…”",
+      "severity": "minor",
+      "source_quote": "“an interesting article”",
+      "suggested_fix": "Replace “একটি মজার প্রবন্ধ” with “একটি আকর্ষণীয় প্রবন্ধ” or “একটি উল্লেখযোগ্য প্রবন্ধ” to convey that the article was interesting, not amusing.",
+      "translation_quote": "“একটি মজার প্রবন্ধ”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

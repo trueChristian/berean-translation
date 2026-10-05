@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «В статье приводились слова родителей…»\",\"severity\":\"major\",\"source_quote\":\"“This article quoted parents from across the United States, including North Carolina, Tennessee and California.”\",\"suggested_fix\":\"Заменить «В статье приводились слова родителей из разных штатов, в том числе Северной Каролины, Теннесси и Калифорнии» на «В статье приводились слова родителей из разных частей США, в том числе из Северной Каролины, Теннесси и Калифорнии» — штаты названы как примеры, а не как всеохватное утверждение о разных штатах.\",\"translation_quote\":\"«В статье приводились слова родителей из разных штатов, в том числе Северной Каролины, Теннесси и Калифорнии.»\"},{\"location\":\"HTML, абзац, начинающийся «Подчёркивая эту новостную статью…»\",\"severity\":\"major\",\"source_quote\":\"“the world’s system isn’t all its cracked up to be”\",\"suggested_fix\":\"Заменить «система мира не так уж хороша, как о ней принято думать» на «система мира не так хороша, как её представляют» или «система мира далеко не так хороша, как принято считать»; исходник не говорит, что это лишь распространённое мнение.\",\"translation_quote\":\"«система мира не так уж хороша, как о ней принято думать»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1939,
+    "content_evidence_truncated": false,
+    "content_sha256": "80c32844819ac30850e9e72ec8c1b2f8909ad6d293c887b0dea7e3318512405e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6096,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6093,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6426
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf terakhir, kutipan Yohanes 16:33\",\"severity\":\"major\",\"source_quote\":\"“In the world ye shall have tribulation”\",\"suggested_fix\":\"Ganti bagian kutipan itu menjadi “...Di dunia kamu akan mengalami kesengsaraan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”\",\"translation_quote\":\"“Dalam dunia kamu menderita penganiayaan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”\"},{\"location\":\"Paragraf tentang slogan “No Fear”\",\"severity\":\"minor\",\"source_quote\":\"“the lawless slogan of the 1990s”\",\"suggested_fix\":\"Terjemahkan “lawless” sebagai “tanpa hukum” atau “melanggar hukum”; misalnya, “slogan ‘Tanpa Takut’ yang melanggar hukum pada tahun 1990-an.”\",\"translation_quote\":\"“slogan ‘Tanpa Takut’ yang menentang norma pada tahun 1990-an”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 885,
+    "content_evidence_truncated": false,
+    "content_sha256": "c90dcbd644d85ff714a286a0f63ff29310a2879fec0a3dbe5a7648f3312dc2a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5364,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5361,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6208
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

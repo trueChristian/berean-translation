@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "f05c9d39b4a9c521c886a3297e492ec4"
+    },
+    {
+      "at": "2026-10-05T13:10:13+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a separately funded continuation must pass admission",
+      "task": "f05c9d39b4a9c521c886a3297e492ec4"
     }
   ],
   "language": "cmn",

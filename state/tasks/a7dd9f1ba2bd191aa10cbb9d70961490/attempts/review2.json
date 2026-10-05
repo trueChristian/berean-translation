@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem: “He decided to go, but just not today.”\",\"severity\":\"minor\",\"source_quote\":\"He decided to go, but just not today.\",\"suggested_fix\":\"Substitua por “Decidiu ir, mas não naquele dia.” para não acrescentar a incerteza de “talvez” presente na tradução.\",\"translation_quote\":\"Decidiu ir, mas não naquele dia, talvez.\"},{\"location\":\"source.html, poem: “went for the door.”\",\"severity\":\"minor\",\"source_quote\":\"Put on his boots and went for the door.\",\"suggested_fix\":\"Substitua “foi até o portão” por “dirigiu-se à porta” para manter o sentido de “door”.\",\"translation_quote\":\"Calçou as botas e foi até o portão.\"},{\"location\":\"source.html, poem: “his smile so warm.”\",\"severity\":\"minor\",\"source_quote\":\"His neighbor was home, his smile so warm;\",\"suggested_fix\":\"Use “O vizinho estava em casa, com um sorriso acolhedor;” para expressar naturalmente o acolhimento indicado por “warm”.\",\"translation_quote\":\"O vizinho estava em casa, sorrindo com calor;\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1069,
+    "content_evidence_truncated": false,
+    "content_sha256": "8885e252e60ebcdd238c0985081cdc4cd9b982a19208abbb7848999fda391944",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2708
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

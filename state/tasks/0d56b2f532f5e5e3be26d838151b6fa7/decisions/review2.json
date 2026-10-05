@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "p, 3de paragraaf",
+      "severity": "major",
+      "source_quote": "to give an answer to every man that asketh you a reason of the hope that is in you",
+      "suggested_fix": "Vervang die aangehaalde deel met: “om aan elkeen wat julle vra, rekenskap te gee van die hoop wat in julle is”",
+      "translation_quote": "aan elkeen wat julle vra, ’n antwoord te gee oor die hoop wat in julle is"
+    },
+    {
+      "location": "p, 4de paragraaf",
+      "severity": "major",
+      "source_quote": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself.",
+      "suggested_fix": "Vertaal getrou as: “Wees daarom nie besorg oor môre nie, want môre sal oor sy eie dinge besorg wees.”",
+      "translation_quote": "Wees dan nie besorg oor môre nie, want môre sal hom oor sy eie dinge bekommer."
+    },
+    {
+      "location": "p, 11de paragraaf",
+      "severity": "major",
+      "source_quote": "casting down imaginations",
+      "suggested_fix": "Vervang “elke gedagte gevange neem” met ’n vertaling van die aangehaalde frase, byvoorbeeld: “alle redenasies neerwerp”.",
+      "translation_quote": "elke gedagte gevange neem"
+    },
+    {
+      "location": "p, 17de paragraaf",
+      "severity": "major",
+      "source_quote": "Let us keep our eye on a path forward",
+      "suggested_fix": "Vervang “ons oog hou op ’n pad vorentoe” met: “ons blik op die pad vorentoe hou”.",
+      "translation_quote": "ons oog hou op ’n pad vorentoe"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

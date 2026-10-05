@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem: “He decided to go, but just not today.”",
+      "severity": "minor",
+      "source_quote": "He decided to go, but just not today.",
+      "suggested_fix": "Substitua por “Decidiu ir, mas não naquele dia.” para não acrescentar a incerteza de “talvez” presente na tradução.",
+      "translation_quote": "Decidiu ir, mas não naquele dia, talvez."
+    },
+    {
+      "location": "source.html, poem: “went for the door.”",
+      "severity": "minor",
+      "source_quote": "Put on his boots and went for the door.",
+      "suggested_fix": "Substitua “foi até o portão” por “dirigiu-se à porta” para manter o sentido de “door”.",
+      "translation_quote": "Calçou as botas e foi até o portão."
+    },
+    {
+      "location": "source.html, poem: “his smile so warm.”",
+      "severity": "minor",
+      "source_quote": "His neighbor was home, his smile so warm;",
+      "suggested_fix": "Use “O vizinho estava em casa, com um sorriso acolhedor;” para expressar naturalmente o acolhimento indicado por “warm”.",
+      "translation_quote": "O vizinho estava em casa, sorrindo com calor;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML — “……与神建立个人关系”段落",
+      "severity": "major",
+      "source_quote": "they must choose to make their earthly father’s God, their personal God.",
+      "suggested_fix": "将“他们必须选择是否将地上的父亲所敬拜的神，作为自己的神”改为“他们必须选择把地上的父亲所敬拜的神作为自己的神”，以保留原文所说的选择是要作出这一承认，而非选择是否承认。",
+      "translation_quote": "他们必须选择是否将地上的父亲所敬拜的神，作为自己的神。"
+    },
+    {
+      "location": "HTML — “……培养顺服”段落中的箴言 29:15 引文",
+      "severity": "major",
+      "source_quote": "but a child left to himself bringeth his mother to shame",
+      "suggested_fix": "将“放纵的儿子使母亲蒙羞”改为“任凭自己行事的孩子使母亲蒙羞”，以表达原文所说的孩子被撇下、无人管教，而非孩子受到纵容。",
+      "translation_quote": "放纵的儿子使母亲蒙羞。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

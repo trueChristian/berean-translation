@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2e2830f6-75e8-45c6-867e-c10b3f858bb9",
+    "response_id": "chatcmpl-EVZjZPO4Rf5S2SnTCKbz9tJZCVL41",
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 781,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10187
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph before the Psalm quotation",
+        "severity": "minor",
+        "source_quote": "a clear heaven is only a prayer away.",
+        "suggested_fix": "اگر آپ خود کو اس حالت میں پائیں تو یاد رکھیں، خدا کے ساتھ تعلق کو صاف کرنے کے لیے صرف ایک دعا درکار ہے۔",
+        "translation_quote": "صاف آسمان صرف ایک دعا کے فاصلے پر ہے۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

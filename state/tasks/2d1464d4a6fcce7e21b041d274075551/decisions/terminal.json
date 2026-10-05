@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ 10",
+      "severity": "major",
+      "source_quote": "“casting down imaginations.”",
+      "suggested_fix": "“कल्पनाओं को ढा देना” या “तर्कों को गिरा देना” लिखें; “कल्पनाओं को ढाते हुए” इस आदेश का अर्थ स्पष्ट रूप से नहीं देता।",
+      "translation_quote": "“कल्पनाओं को ढाते हुए।”"
+    },
+    {
+      "location": "पैराग्राफ 13",
+      "severity": "major",
+      "source_quote": "This is the time for us as God’s children to maximize on “in home” relationships.",
+      "suggested_fix": "अर्थ को “परमेश्वर की संतानों के रूप में यह हमारे लिए घर के भीतर के रिश्तों को मजबूत बनाने/उनका पूरा लाभ उठाने का समय है” के रूप में अनुवाद करें। “बेहतर बनाने” में मूल के रिश्तों को अधिकतम रूप से विकसित करने का आशय पूरी तरह नहीं आता।",
+      "translation_quote": "परमेश्वर की संतानों के रूप में यह हमारे लिए घर के भीतर के रिश्तों को बेहतर बनाने का समय है।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

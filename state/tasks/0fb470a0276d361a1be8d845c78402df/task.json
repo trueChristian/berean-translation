@@ -2,7 +2,6 @@
   "article_id": "85306410-6a2d-46f1-b6db-6d3450f7f908",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 6889
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 444,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 418,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4248,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4245,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4692
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "پہلا پیراگراف",
-      "severity": "major",
-      "source_quote": "Joel had a serious problem of taking things which did not belong to him.",
-      "suggested_fix": "«جوئل کو ایسی چیزیں اٹھا لینے کا سنگین مسئلہ تھا جو اس کی نہیں تھیں۔»",
-      "translation_quote": "جوئل کو دوسروں کی چیزیں اٹھا لینے کی ایک سنگین عادت تھی۔"
-    },
-    {
-      "location": "باپ کے بارے میں ماں کا مکالمہ",
-      "severity": "major",
-      "source_quote": "Father and I have been asking God to help you with this problem of lying and stealing.",
-      "suggested_fix": "«میں اور تمہارے والد خدا سے دعا کرتے رہے ہیں کہ وہ جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں تمہاری مدد کرے۔»",
-      "translation_quote": "باپ اور میں خدا سے دعا کرتے رہے ہیں کہ وہ تمہیں جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں مدد دے۔"
-    },
-    {
-      "location": "جوئل کا اقرار",
-      "severity": "major",
-      "source_quote": "“I – ah – took it from Weaver’s Store,” Joel stammered.",
-      "suggested_fix": "«میں—آہ—نے اسے ویورز اسٹور سے چرایا تھا،» جوئل ہکلاتے ہوئے بولا۔",
-      "translation_quote": "“میں—آہ—اسے ویورز اسٹور سے لے آیا تھا،” جوئل ہکلاتے ہوئے بولا۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "0fb470a0276d361a1be8d845c78402df",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0ca265668bf8d122955cca30e71c23cc2124156bf104fac6ba23c1e6844ba225.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "52312be3ef09bf5ffdab8a70e367174f0881d5471c2718e5f3179c003a023038",
   "translation_model_actual": "gpt-6-luna"

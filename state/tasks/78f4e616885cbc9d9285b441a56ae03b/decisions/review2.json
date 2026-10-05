@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza beginning “Are we ashamed or have no time?”",
+      "severity": "major",
+      "source_quote": "If we don’t bring the folks to God, / The populace will die.",
+      "suggested_fix": "Replace “Watu wengi watakufa.” with “Watu wa nchi hii watakufa.” to retain the source’s collective reference to the populace rather than narrowing it to “many people.”",
+      "translation_quote": "Tusipowaleta watu kwa Mungu, / Watu wengi watakufa."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

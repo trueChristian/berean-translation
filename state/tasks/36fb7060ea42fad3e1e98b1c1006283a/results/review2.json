@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d6f8d943-e357-4de2-b890-15c5069d0d32",
+    "response_id": "chatcmpl-EVZjLy1RcgLjHzb2OwO4SIAXEtvRf",
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2529,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3223
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second poem stanza, third line",
+        "severity": "minor",
+        "source_quote": "And strove to follow this command",
+        "suggested_fix": "Ändra till ”och strävade efter att följa denna befallning” för idiomatisk svenska.",
+        "translation_quote": "och strävade att följa denna befallning"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

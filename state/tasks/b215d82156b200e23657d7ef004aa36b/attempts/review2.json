@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, alinea met de politieagent\",\"severity\":\"major\",\"source_quote\":\"“Sir, did you just put your seat belt on when you saw me?”\",\"suggested_fix\":\"Vervang alleen de aangehaalde vraag door: ‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’\",\"translation_quote\":\"‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’\"},{\"location\":\"HTML, alinea met de politieagent\",\"severity\":\"major\",\"source_quote\":\"“Sir, did you just put your seat belt on when you saw me?”\",\"suggested_fix\":\"Vertaal de vraag als een vraag over het moment waarop hij de gordel omdeed, bijvoorbeeld: ‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’\",\"translation_quote\":\"‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’\"},{\"location\":\"HTML, alinea beginnend ‘Today the god of this world…’\",\"severity\":\"major\",\"source_quote\":\"“he (Satan) wants our attention and focus to be on other things, then when God speaks to us, we do not hear.”\",\"suggested_fix\":\"Vervang ‘zodat we God niet horen wanneer Hij tot ons spreekt’ door een formulering die de bronrelatie behoudt: ‘en dan horen we God niet wanneer Hij tot ons spreekt.’\",\"translation_quote\":\"“wil hij (Satan) onze aandacht en focus op andere dingen richten, zodat we God niet horen wanneer Hij tot ons spreekt.”\"},{\"location\":\"HTML, alinea over de kinderen en de gestolen puppy\",\"severity\":\"major\",\"source_quote\":\"“The children were devastated”\",\"suggested_fix\":\"Vervang ‘De kinderen waren ontroostbaar’ door bijvoorbeeld ‘De kinderen waren er kapot van’ of ‘De kinderen waren diepbedroefd’.\",\"translation_quote\":\"“De kinderen waren ontroostbaar”\"},{\"location\":\"HTML, alinea over het geweten en de kerk\",\"severity\":\"major\",\"source_quote\":\"“Would we rather look ‘right’ and have a guilty conscience?”\",\"suggested_fix\":\"Vervang ‘Kijken we liever alsof we ‘gelijk’ hebben, terwijl we met een schuldig geweten achterblijven?’ door ‘Zouden we liever ‘gelijk’ lijken te hebben en een schuldig geweten hebben?’\",\"translation_quote\":\"“Kijken we liever alsof we ‘gelijk’ hebben, terwijl we met een schuldig geweten achterblijven?”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2256,
+    "content_evidence_truncated": false,
+    "content_sha256": "18cf9b42232cc4574ca01a9de283831a3969214b8e50897aef90eeb381ce2d60",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8373,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8933
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

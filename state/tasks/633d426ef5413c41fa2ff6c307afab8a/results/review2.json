@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7652642b-7ee0-4a17-88c7-db0c8e918450",
+    "response_id": "chatcmpl-EVZjEsbCjLIhSlPiaFHsEEXilumi0",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8989,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8986,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9723
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening Scripture quotation, Malachi 4:5–6",
+        "severity": "minor",
+        "source_quote": "“lest I come and smite the earth with a curse”",
+        "suggested_fix": "Replace «slå jorden med bann» with the clearer contemporary Bokmål «slå jorden med en forbannelse».",
+        "translation_quote": "«så jeg ikke skal komme og slå jorden med bann»"
+      },
+      {
+        "location": "Ages two to five, paragraph on the second year",
+        "severity": "minor",
+        "source_quote": "“There is probably no season of life in which a child is more impressionable.”",
+        "suggested_fix": "Use «mottakelig for påvirkning» to convey “impressionable” more precisely: «Det finnes sannsynligvis ingen annen livsfase der et barn er mer mottakelig for påvirkning.»",
+        "translation_quote": "«Det finnes sannsynligvis ingen annen livsfase der et barn er mer formbart.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

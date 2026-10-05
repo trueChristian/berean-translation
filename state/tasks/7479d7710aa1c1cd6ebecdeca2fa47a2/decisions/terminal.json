@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph containing the Scripture quotation",
+      "severity": "major",
+      "source_quote": "–2Pe 3:3-4.",
+      "suggested_fix": "Replace the reference with the conventional Dutch book name, preserving the chapter and verse range: “–2 Petrus 3:3-4.”",
+      "translation_quote": "–2Pe 3:3-4."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"And on Him your troubles lay.\",\"suggested_fix\":\"Consider «og legger problemene dine på ham» to preserve the broader sense of “troubles.”\",\"translation_quote\":\"og legger bekymringene dine på ham.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 317,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1d38d30ff9e5f55ca56c67f3f845fcce1c3bfa543e1ba19380a4c61dc4efed3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1955,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2504
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

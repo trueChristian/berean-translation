@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “For God hath not given us…”\",\"severity\":\"major\",\"source_quote\":\"“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind”\",\"suggested_fix\":\"Replace “autocontrollo” in the quoted verse with an Italian rendering of “a sound mind,” such as “una mente sana” or “una mente equilibrata,” while leaving the reference –2Tm 1:7 unchanged.\",\"translation_quote\":\"“Dio infatti non ci ha dato uno spirito di paura, ma di forza, d’amore e di autocontrollo –2Tm 1:7.”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 615,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ef89baf7d50f20f67e368bc57d17471f7e68b98b5a97499df0f659af09cc5ac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5336,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5333,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6074
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

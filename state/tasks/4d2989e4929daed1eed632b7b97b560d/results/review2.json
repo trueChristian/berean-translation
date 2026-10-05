@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5bf49acd-38a4-464e-a0b3-c2e7b72052d1",
+    "response_id": "chatcmpl-EVZkcjW3wKK8nk9w2JPQa2McSnD6M",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 693,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6646,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7467
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “সম্প্রতি সিএনএন-এ প্রকাশিত…”",
+        "severity": "minor",
+        "source_quote": "“an interesting article”",
+        "suggested_fix": "Replace “একটি মজার প্রবন্ধ” with “একটি আকর্ষণীয় প্রবন্ধ” or “একটি উল্লেখযোগ্য প্রবন্ধ” to convey that the article was interesting, not amusing.",
+        "translation_quote": "“একটি মজার প্রবন্ধ”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

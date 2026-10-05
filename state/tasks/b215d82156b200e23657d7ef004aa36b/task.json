@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,88 +64,68 @@
         },
         "total_tokens": 13927
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8376,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8373,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8933
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Alinea over Gods spreken, de afleidingen en het geweten",
+      "location": "HTML, alinea met de politieagent",
       "severity": "major",
-      "source_quote": "“So, what happens when we stop listening to God? He stops speaking, and we eventually drift away from truth.”",
-      "suggested_fix": "Vervang deze passage door: “Wat gebeurt er dan als we ophouden naar God te luisteren? Dan houdt Hij op met spreken en drijven we uiteindelijk af van de waarheid.”",
-      "translation_quote": "“Wat gebeurt er dan als we ophouden naar God te luisteren? Hij houdt op met spreken, en uiteindelijk drijven we af van de waarheid.”"
+      "source_quote": "“Sir, did you just put your seat belt on when you saw me?”",
+      "suggested_fix": "Vervang alleen de aangehaalde vraag door: ‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’",
+      "translation_quote": "‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’"
     },
     {
-      "location": "Alinea over de reacties op een geprikkeld geweten, Handelingen 5",
+      "location": "HTML, alinea met de politieagent",
       "severity": "major",
-      "source_quote": "“Even though we are believers, we still tend to give a similar response when our conscience is pricked. We want to neutralize whatever it was that was spoken to us.”",
-      "suggested_fix": "Vervang “toch reageren we vaak op vergelijkbare wijze” door “toch hebben we nog steeds de neiging op vergelijkbare wijze te reageren” en vervang “wat er ook tegen ons is gezegd” door “wat er ook tot ons is gesproken”.",
-      "translation_quote": "“Ook al zijn we gelovigen, toch reageren we vaak op vergelijkbare wijze wanneer ons geweten wordt geprikkeld. We willen neutraliseren wat er ook tegen ons is gezegd.”"
+      "source_quote": "“Sir, did you just put your seat belt on when you saw me?”",
+      "suggested_fix": "Vertaal de vraag als een vraag over het moment waarop hij de gordel omdeed, bijvoorbeeld: ‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’",
+      "translation_quote": "‘Meneer, hebt u uw veiligheidsgordel pas omgedaan toen u mij zag?’"
     },
     {
-      "location": "Alinea over het slechte en het dichtgeschroeide geweten",
+      "location": "HTML, alinea beginnend ‘Today the god of this world…’",
       "severity": "major",
-      "source_quote": "“What is worse than a bad conscience is a seared conscience.”",
-      "suggested_fix": "Vervang de openingszin door: “Erger dan een slecht geweten is een dichtgeschroeid geweten.”",
-      "translation_quote": "“Er is niets erger dan een slecht geweten, behalve een dichtgeschroeid geweten.”"
+      "source_quote": "“he (Satan) wants our attention and focus to be on other things, then when God speaks to us, we do not hear.”",
+      "suggested_fix": "Vervang ‘zodat we God niet horen wanneer Hij tot ons spreekt’ door een formulering die de bronrelatie behoudt: ‘en dan horen we God niet wanneer Hij tot ons spreekt.’",
+      "translation_quote": "“wil hij (Satan) onze aandacht en focus op andere dingen richten, zodat we God niet horen wanneer Hij tot ons spreekt.”"
     },
     {
-      "location": "Alinea over de puppy en de man die hem teruggaf",
+      "location": "HTML, alinea over de kinderen en de gestolen puppy",
       "severity": "major",
-      "source_quote": "“The man walked away with no puppy, but with something far greater, a clear conscience before God.”",
-      "suggested_fix": "Vervang “De man liep weg zonder puppy” door “De man liep weg zonder de puppy”.",
-      "translation_quote": "“De man liep weg zonder puppy, maar met iets veel kostbaarders: een zuiver geweten voor God.”"
+      "source_quote": "“The children were devastated”",
+      "suggested_fix": "Vervang ‘De kinderen waren ontroostbaar’ door bijvoorbeeld ‘De kinderen waren er kapot van’ of ‘De kinderen waren diepbedroefd’.",
+      "translation_quote": "“De kinderen waren ontroostbaar”"
     },
     {
-      "location": "Alinea over de reactie op Gods stem en de Heer die door de wereld wordt gehaat",
+      "location": "HTML, alinea over het geweten en de kerk",
       "severity": "major",
-      "source_quote": "“The Lord is hated by the world because he testifies …of it, that the works thereof are evil –Joh 7:7.”",
-      "suggested_fix": "Vervang in het citaat “van haar” door “ervan”, zodat het verwijst naar de wereld: “De Heer wordt door de wereld gehaat omdat Hij … ervan getuigt dat de werken slecht zijn –Joh 7:7.”",
-      "translation_quote": "“De Heer wordt door de wereld gehaat omdat Hij …van haar getuigt dat haar werken slecht zijn –Joh 7:7.”"
-    },
-    {
-      "location": "Referentienotatie bij het citaat uit 1 Timoteüs",
-      "severity": "minor",
-      "source_quote": "“–1Ti 4:1-2.”",
-      "suggested_fix": "Gebruik de gangbare Nederlandse afkorting voor 1 Timoteüs en behoud hoofdstuk en verzen: “–1 Tim. 4:1-2.”",
-      "translation_quote": "“–1Ti 4:1-2.”"
-    },
-    {
-      "location": "Referentienotatie bij het citaat uit Handelingen 23–24",
-      "severity": "minor",
-      "source_quote": "“–Act 23:1-24:16.”",
-      "suggested_fix": "Gebruik de gangbare Nederlandse afkorting voor Handelingen en behoud bereik en nummers: “–Hand. 23:1-24:16.”",
-      "translation_quote": "“–Act 23:1-24:16.”"
-    },
-    {
-      "location": "Referentienotatie bij het citaat uit Spreuken",
-      "severity": "minor",
-      "source_quote": "“–Pro 12:15.”",
-      "suggested_fix": "Gebruik de gangbare Nederlandse afkorting voor Spreuken en behoud hoofdstuk en vers: “–Spr. 12:15.”",
-      "translation_quote": "“–Spr 12:15.”"
-    },
-    {
-      "location": "Referentienotatie bij de citaten uit Handelingen 2 en 5",
-      "severity": "minor",
-      "source_quote": "“–Act 2:37-38.”; “–Act 5:25.”; “–Act 5: 32-33.”",
-      "suggested_fix": "Gebruik voor deze drie verwijzingen de gangbare Nederlandse afkorting “Hand.” en behoud exact de hoofdstukken, verzen, het bereik en het aantal verwijzingen; schrijf bijvoorbeeld “–Hand. 2:37-38”, “–Hand. 5:25” en “–Hand. 5: 32-33”.",
-      "translation_quote": "“–Act 2:37-38.”; “–Act 5:25.”; “–Act 5: 32-33.”"
-    },
-    {
-      "location": "Referentienotatie bij het citaat uit Johannes",
-      "severity": "minor",
-      "source_quote": "“–Joh 7:7.”",
-      "suggested_fix": "Gebruik de gangbare Nederlandse afkorting voor Johannes en behoud hoofdstuk en vers: “–Joh. 7:7.”",
-      "translation_quote": "“–Joh 7:7.”"
-    },
-    {
-      "location": "Referentienotatie bij het citaat uit Psalm 51",
-      "severity": "minor",
-      "source_quote": "“–Psa 51:17.”",
-      "suggested_fix": "Gebruik de gangbare Nederlandse afkorting voor Psalmen en behoud hoofdstuk en vers: “–Ps. 51:17.”",
-      "translation_quote": "“–Ps 51:17.”"
+      "source_quote": "“Would we rather look ‘right’ and have a guilty conscience?”",
+      "suggested_fix": "Vervang ‘Kijken we liever alsof we ‘gelijk’ hebben, terwijl we met een schuldig geweten achterblijven?’ door ‘Zouden we liever ‘gelijk’ lijken te hebben en een schuldig geweten hebben?’",
+      "translation_quote": "“Kijken we liever alsof we ‘gelijk’ hebben, terwijl we met een schuldig geweten achterblijven?”"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "b215d82156b200e23657d7ef004aa36b",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nld",
@@ -235,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

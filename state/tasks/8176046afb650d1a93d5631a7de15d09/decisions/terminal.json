@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza 10, line 2",
+      "severity": "minor",
+      "source_quote": "They praise their Lord on high.",
+      "suggested_fix": "Заменить на «Они превозносят своего Господа на небесах», чтобы сохранить образ «on high».",
+      "translation_quote": "Они превозносят Господа своего."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

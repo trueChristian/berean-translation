@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza 10, line 2\",\"severity\":\"minor\",\"source_quote\":\"They praise their Lord on high.\",\"suggested_fix\":\"Заменить на «Они превозносят своего Господа на небесах», чтобы сохранить образ «on high».\",\"translation_quote\":\"Они превозносят Господа своего.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 409,
+    "content_evidence_truncated": false,
+    "content_sha256": "eac7eb035d8757ca952886632e99c45a455ab3ddc07d849eebb5333f6104284a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2579,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2576,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3048
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

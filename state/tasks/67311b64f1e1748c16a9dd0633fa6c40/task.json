@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13080
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 762,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 570,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8540,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8537,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9302
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph beginning « Au chapitre 5 des Actes… », citation Actes 5:32-33",
+      "location": "Dernière citation biblique, Psaume 51:17",
       "severity": "major",
-      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
-      "suggested_fix": "Remplacer « En entendant cela, ils furent furieux » par « En entendant cela, ils furent profondément touchés » (ou une formulation française équivalente qui exprime leur vive conviction intérieure).",
-      "translation_quote": "« En entendant cela, ils furent furieux »"
+      "source_quote": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise –Psa 51:17.",
+      "suggested_fix": "Remplacer la citation par : « Les sacrifices de Dieu sont un esprit brisé ; un cœur brisé et contrit, ô Dieu, tu ne le méprises pas –Psaume 51:17. » Conserver les balises HTML existantes.",
+      "translation_quote": "Les sacrifices qui sont agréables à Dieu, c’est un esprit brisé : un cœur brisé et contrit, ô Dieu, tu ne le méprises pas –Psaume 51:17."
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "67311b64f1e1748c16a9dd0633fa6c40",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "fra",
@@ -171,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

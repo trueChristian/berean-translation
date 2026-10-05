@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML，第5段（警察对话后的处理）",
+      "severity": "minor",
+      "source_quote": "He gave me a warning and thanked me for being honest.",
+      "suggested_fix": "将“他给了我口头警告”改为“他给了我一个警告”，以免把原文未说明的警告形式具体化。",
+      "translation_quote": "他给了我口头警告，并感谢我诚实以对。"
+    },
+    {
+      "location": "HTML，第8段（大卫与拔示巴）",
+      "severity": "major",
+      "source_quote": "It was the time when kings went forth to battle, and they had a battle going with the children of Ammon.",
+      "suggested_fix": "改为“当时正是列王出战的时候，他们正与亚扪人交战。”，保留原文“列王出战”的说法，不要改成“列王出战的时候”以外的概括；当前译文已基本如此。实际问题在下一句：把“亚扪人”对应的出战对象保留即可。",
+      "translation_quote": "当时正是列王出战的时候，他们正与亚扪人交战。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1f21f81c-8015-4698-91fa-f6f577f561b5",
+    "response_id": "chatcmpl-EVZjawr3QH33nQcVkP7C4s98CDWvQ",
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 447,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2620,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3197
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML، المقطع الشعري الحادي عشر",
+        "severity": "major",
+        "source_quote": "If we would also spread God’s Word, / Our blood would stain our sod.",
+        "suggested_fix": "استبدل السطرين بـ: «إن أردنا نحن أيضًا أن ننشر كلمة الله، / لتلطّخت تربتنا بدمائنا.»",
+        "translation_quote": "إن أردنا نحن أيضًا أن ننشر كلمة الله، / فستلطّخ دماؤنا ترابنا."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

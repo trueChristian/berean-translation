@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fdb8a1f2-0e22-4e42-91fd-9856d003a06b",
+    "response_id": "chatcmpl-EVZkBsrGFhJiqvp3snLHB9mRgIPO8",
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2592,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3148
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, stanza beginning “While we thank God for freedom here”",
+        "severity": "minor",
+        "source_quote": "They praise their Lord on high.",
+        "suggested_fix": "Ganti “Mereka memuji Tuhan mereka di tempat yang tinggi” dengan “Mereka memuji Tuhan mereka yang Mahatinggi” agar tidak terkesan bahwa mereka memuji Tuhan di suatu tempat yang tinggi.",
+        "translation_quote": "Mereka memuji Tuhan mereka di tempat yang tinggi."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second poem stanza, third line",
+      "severity": "minor",
+      "source_quote": "And strove to follow this command",
+      "suggested_fix": "Ändra till ”och strävade efter att följa denna befallning” för idiomatisk svenska.",
+      "translation_quote": "och strävade att följa denna befallning"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

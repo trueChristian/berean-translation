@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz „…Gute Lerngewohnheiten“",
+      "severity": "major",
+      "source_quote": "Encourage your children to be reading “up”, that is, slightly above their level of comprehension. They should also be reading “out”, that is, outside of the topics that they are naturally drawn to or are interested in.",
+      "suggested_fix": "Ermutige deine Kinder, „über ihrem Niveau“ zu lesen, also Texte, die etwas über ihrem Verständnisniveau liegen. Sie sollten auch „außerhalb ihrer Interessengebiete“ lesen, also Themen, zu denen sie sich von Natur aus nicht hingezogen fühlen oder für die sie sich nicht interessieren.",
+      "translation_quote": "Sie sollten auch „über den Tellerrand hinaus“ lesen, also Themen außerhalb dessen, wozu sie sich von Natur aus hingezogen fühlen oder was sie interessiert."
+    },
+    {
+      "location": "HTML, Absatz über Zucht und Gehorsam",
+      "severity": "major",
+      "source_quote": "Discipline, IF done properly, has the effect of freeing the spirit of the child from guilt and restoring the child’s relationship to the parent.",
+      "suggested_fix": "Zucht befreit, WENN sie richtig ausgeübt wird, den Geist des Kindes von Schuld und stellt die Beziehung des Kindes zu den Eltern wieder her.",
+      "translation_quote": "Zucht befreit, WENN sie richtig ausgeübt wird, den Geist des Kindes von Schuld und stellt die Beziehung des Kindes zu den Eltern wieder her."
+    },
+    {
+      "location": "HTML, Absatz zu Geschichten aus der Bibel",
+      "severity": "minor",
+      "source_quote": "Make certain that they are Biblically accurate and not some glorified fantasy.",
+      "suggested_fix": "Achte darauf, dass sie biblisch korrekt und keine verherrlichten Fantasiegeschichten sind.",
+      "translation_quote": "Achte darauf, dass sie biblisch korrekt und keine glorifizierten Fantasiegeschichten sind."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

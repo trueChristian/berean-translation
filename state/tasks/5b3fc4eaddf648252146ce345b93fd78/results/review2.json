@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ad98dd6-8b9f-494d-85f5-27024b02b0d9",
+    "response_id": "chatcmpl-EVZjEPfcL5XIgXwofEJM7o7mMdw7z",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8836,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8833,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9739
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “What is worse than a bad conscience”; also the earlier quotation of 1 Timothy 4:1–2 and the later paragraph about criminals",
+        "severity": "major",
+        "source_quote": "“having their conscience seared with a hot iron” / “a seared conscience”",
+        "suggested_fix": "Use wording that conveys a conscience burned or cauterized and thereby made insensitive, consistently in these passages. For example, replace “dhamiri iliyotiwa chapa” with “dhamiri iliyochomwa na kuwa sugu,” adjusting the surrounding sentence grammar as needed while preserving the existing HTML tags.",
+        "translation_quote": "“waliotiwa chapa katika dhamiri zao kana kwamba kwa chuma cha moto” / “dhamiri iliyotiwa chapa” / “ikiwa imetiwa chapa kana kwamba kwa chuma cha moto”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

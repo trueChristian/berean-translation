@@ -2,7 +2,6 @@
   "article_id": "cf07f132-92d4-49ba-b318-52520f77ca67",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 2896
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 502,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1932,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1929,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2534
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Poem, line 3",
-      "severity": "major",
-      "source_quote": "Decisions he made; he would never forget.",
-      "suggested_fix": "Он никогда не забудет принятых им решений.",
-      "translation_quote": "Он помнил о решениях, что принял тогда."
-    },
-    {
-      "location": "Poem, line 22",
-      "severity": "major",
-      "source_quote": "He knew with no doubt that he was made whole.",
-      "suggested_fix": "И он не сомневался: теперь он был восстановлен.",
-      "translation_quote": "И он не сомневался: теперь он исцелён."
+      "location": "HTML, poem: “The love of God…”",
+      "severity": "minor",
+      "source_quote": "The love of God flooded his needy soul,",
+      "suggested_fix": "Любовь Бога наполнила его душу, нуждавшуюся в помощи,",
+      "translation_quote": "Любовь Бога наполнила его истосковавшуюся душу,"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "9f42d73621674235f7d8bd06b0b4efb0",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "rus",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9861fcb86053c74db76cb1e0d711e79061d0be937dd95778c55c9f82c3690575.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e7cdbcc930ae79ba671e7483532d0c089c66a7b511a407e75cdef72b4141716b",
   "translation_model_actual": "gpt-6-luna"

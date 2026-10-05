@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 6",
+      "severity": "major",
+      "source_quote": "“suffering is a way of life for the follower of Jesus.”",
+      "suggested_fix": "Replace “mateso ni sehemu ya maisha ya mfuasi wa Yesu” with “kuteseka ni njia ya maisha kwa mfuasi wa Yesu” or another phrasing that conveys suffering as an expected way of life, not merely a part of it.",
+      "translation_quote": "“mateso ni sehemu ya maisha ya mfuasi wa Yesu.”"
+    },
+    {
+      "location": "source.html, paragraph 8",
+      "severity": "major",
+      "source_quote": "“we have no rights except the right to the Tree of Life.”",
+      "suggested_fix": "Replace “hatuna haki isipokuwa haki ya Mti wa Uzima” with “hatuna haki nyingine isipokuwa ile ya Mti wa Uzima,” to preserve the exclusive assertion that this is their only right.",
+      "translation_quote": "“hatuna haki isipokuwa haki ya Mti wa Uzima.”"
+    },
+    {
+      "location": "source.html, paragraph 8",
+      "severity": "major",
+      "source_quote": "“we have no abiding city here but look for a city …whose builder and maker is God –Heb 11:10.”",
+      "suggested_fix": "Replace “hatuna mji wa kudumu hapa, bali tunautazamia mji” with “hatuna mji wa kudumu hapa, bali tunautafuta mji,” preserving the source’s distinction that they seek/look for the city.",
+      "translation_quote": "“hatuna mji wa kudumu hapa, bali tunautazamia mji”"
+    },
+    {
+      "location": "source.html, paragraph 12",
+      "severity": "major",
+      "source_quote": "“The simple truth is this, we do not know, and if we did know it still should not change the way we live and our overall response.”",
+      "suggested_fix": "Replace “bado hilo halikupaswa kubadili jinsi tunavyoishi na namna yetu ya jumla ya kuitikia” with “bado hilo halikupaswa kubadili jinsi tunavyoishi na mwitikio wetu kwa ujumla,” to retain the source’s assertion about their overall response.",
+      "translation_quote": "“bado hilo halikupaswa kubadili jinsi tunavyoishi na namna yetu ya jumla ya kuitikia.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

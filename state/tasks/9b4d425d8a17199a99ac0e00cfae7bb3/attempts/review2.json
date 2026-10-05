@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph before the Psalm quotation\",\"severity\":\"minor\",\"source_quote\":\"a clear heaven is only a prayer away.\",\"suggested_fix\":\"اگر آپ خود کو اس حالت میں پائیں تو یاد رکھیں، خدا کے ساتھ تعلق کو صاف کرنے کے لیے صرف ایک دعا درکار ہے۔\",\"translation_quote\":\"صاف آسمان صرف ایک دعا کے فاصلے پر ہے۔\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 461,
+    "content_evidence_truncated": false,
+    "content_sha256": "080441244f5bf7ddfac7d2db144d47c3c46e969ecb8e4372aca51acb86c24488",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 781,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10187
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

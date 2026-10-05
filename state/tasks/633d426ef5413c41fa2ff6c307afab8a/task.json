@@ -2,7 +2,6 @@
   "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,46 @@
         },
         "total_tokens": 14061
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 734,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8989,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8986,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9723
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Avsnittet «…Ettertenksomhet versus underholdning»",
-      "severity": "major",
-      "source_quote": "To ‘muse’ means to think. To ‘amuse’ means to not think.",
-      "suggested_fix": "Behold avsnittets HTML-struktur, og oversett ordspillet uten å gi det norske ordet en uriktig definisjon, for eksempel: «Å ‘grunne’ betyr å tenke. I dette ordspillet betyr ‘adsprede’ å ikke tenke.»",
-      "translation_quote": "Å «grunne» betyr å tenke. Å «underholde» betyr å ikke tenke."
+      "location": "Opening Scripture quotation, Malachi 4:5–6",
+      "severity": "minor",
+      "source_quote": "“lest I come and smite the earth with a curse”",
+      "suggested_fix": "Replace «slå jorden med bann» with the clearer contemporary Bokmål «slå jorden med en forbannelse».",
+      "translation_quote": "«så jeg ikke skal komme og slå jorden med bann»"
     },
     {
-      "location": "Avsnittet «…Utvikling av lydighet»",
-      "severity": "major",
-      "source_quote": "A child who learns to live with a surrendered will to their parents will one day much more easily walk in unquestioning obedience to God.",
-      "suggested_fix": "Bytt «ubetinget lydighet» med «lydighet uten å stille spørsmål» for å bevare meningen «unquestioning obedience».",
-      "translation_quote": "Et barn som lærer å leve med en vilje som er underordnet foreldrenes, vil en dag mye lettere kunne vandre i ubetinget lydighet mot Gud."
+      "location": "Ages two to five, paragraph on the second year",
+      "severity": "minor",
+      "source_quote": "“There is probably no season of life in which a child is more impressionable.”",
+      "suggested_fix": "Use «mottakelig for påvirkning» to convey “impressionable” more precisely: «Det finnes sannsynligvis ingen annen livsfase der et barn er mer mottakelig for påvirkning.»",
+      "translation_quote": "«Det finnes sannsynligvis ingen annen livsfase der et barn er mer formbart.»"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "633d426ef5413c41fa2ff6c307afab8a",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nob",
@@ -172,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a",
   "translation_model_actual": "gpt-6-luna"

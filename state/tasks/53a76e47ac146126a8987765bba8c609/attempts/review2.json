@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 13\",\"severity\":\"minor\",\"source_quote\":\"He laid on his bed, his burden too great.\",\"suggested_fix\":\"Replace “Ak akalala kitandani” with “Alijilaza kitandani” so the line says he lay down rather than that he slept.\",\"translation_quote\":\"Ak alala kitandani, mzigo wake ukiwa mzito mno.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 356,
+    "content_evidence_truncated": false,
+    "content_sha256": "222031f3d705886ef9cb187e9ebefeab60a80cda333aa02c9c6dadfb9f3cce95",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 505,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 395,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2476
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

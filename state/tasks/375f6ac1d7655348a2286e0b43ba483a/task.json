@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 13317
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 746,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8325,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8322,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9205
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragrafo 2",
+      "location": "Paragraph 11",
       "severity": "major",
-      "source_quote": "Will I cash in the stimulus check that is supposed to arrive in the mail in the near future?",
-      "suggested_fix": "Sostituire «Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?» con «Incasserò l’assegno di stimolo economico che dovrebbe arrivare per posta nel prossimo futuro?» o una resa equivalente che conservi il riferimento all’assegno di stimolo.",
-      "translation_quote": "Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?"
-    },
-    {
-      "location": "source.html, paragrafo 5",
-      "severity": "major",
-      "source_quote": "We cannot even do some of the simplest things by God’s estimation, like add a cubit to our stature",
-      "suggested_fix": "Rendere il senso del confronto senza attribuire a Dio una valutazione della nostra capacità, per esempio: «Non possiamo neppure fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura»; mantenere invariato il resto della frase.",
-      "translation_quote": "Secondo la valutazione di Dio, non siamo neppure capaci di fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura"
-    },
-    {
-      "location": "source.html, paragrafo 12",
-      "severity": "major",
-      "source_quote": "God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.",
-      "suggested_fix": "Rendere esplicito che si tratta di dare a chi non ha affinché vi sia uguaglianza, per esempio: «La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza»; correggere «vi sia uguaglianza» solo se la frase è stata intesa come affermazione di una generica parità già esistente.",
-      "translation_quote": "La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza."
+      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+      "suggested_fix": "Replace «di saggezza» with «di una mente sana» or «di autocontrollo», so the phrase conveys “a sound mind” rather than wisdom.",
+      "translation_quote": "Dio non ci ha dato uno spirito di paura, ma di forza, di amore e di saggezza."
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "375f6ac1d7655348a2286e0b43ba483a",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ita",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

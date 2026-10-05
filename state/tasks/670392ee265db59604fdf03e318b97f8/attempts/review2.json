@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, first stanza, fourth line\",\"severity\":\"major\",\"source_quote\":\"And my will toward Him turns?\",\"suggested_fix\":\"Badilisha mstari huu uwe: “Na nia yangu kumwelekea Yeye?”\",\"translation_quote\":\"Na kuelekeza mapenzi yangu Kwake?\"},{\"location\":\"Poem, final stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"To seek and to search, to stay by His side,\",\"suggested_fix\":\"Badilisha “kumchunguza” kwa “kumtafuta kwa bidii,” ili mstari useme: “Kumtafuta na kumtafuta kwa bidii, kukaa kando Yake,”\",\"translation_quote\":\"Kumtafuta na kumchunguza, kukaa kando Yake,\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 634,
+    "content_evidence_truncated": false,
+    "content_sha256": "619ec9473fb2985d8a96c4f8fb45b82f169b1ca5ee5b810ad58129173fb1255d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2765
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

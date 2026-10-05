@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "93e32c90-1d22-4746-8d73-f087563c96c6",
+    "response_id": "chatcmpl-EVZk2uiZYJononTUbyYDoxsmulc30",
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 637,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8700,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9503
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf penutup sebelum kutipan Mazmur 51:17",
+        "severity": "major",
+        "source_quote": "If you find yourself in this state, remember, a clear heaven is only a prayer away.",
+        "suggested_fix": "Ganti dengan ungkapan yang mempertahankan gambaran dan makna sumber tanpa menambahkan penjelasan, misalnya: “Jika Anda mendapati diri berada dalam keadaan ini, ingatlah, langit yang cerah hanya sejauh satu doa.”",
+        "translation_quote": "Jika Anda mendapati diri berada dalam keadaan ini, ingatlah, pemulihan hubungan dengan Allah hanya sejauh satu doa."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

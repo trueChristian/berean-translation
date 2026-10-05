@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,53 +64,61 @@
         },
         "total_tokens": 14217
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 553,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8997,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8994,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9550
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, parágrafo sobre a interpretação da profecia e das carpideiras",
+      "location": "Paragraph beginning “Essas mulheres à parte”",
       "severity": "major",
-      "source_quote": "“the prophetic injunction consummating this discourse concerning the impending destruction of Jerusalem, and the evil days to come, were not directed to His followers (they were instructed to flee) but to the resistant Jews.”",
-      "suggested_fix": "Substitua “aos judeus resistentes” por “aos judeus que resistiam” ou “aos judeus que se opunham”, preservando a referência aos destinatários da advertência.",
-      "translation_quote": "“mas aos judeus resistentes.”"
+      "source_quote": "Thus, who in time of sorrow could refuse their gentle touch, their passionate condolences, and their empathetic pity? Our Lord!",
+      "suggested_fix": "Replace “Assim, quem, em tempos de tristeza, poderia recusar seu toque delicado, suas condolências apaixonadas e sua piedade empática? Nosso Senhor!” with “Assim, quem, em tempos de tristeza, poderia recusar seu toque delicado, suas condolências sinceras e sua compaixão empática? Nosso Senhor!”",
+      "translation_quote": "Assim, quem, em tempos de tristeza, poderia recusar seu toque delicado, suas condolências apaixonadas e sua piedade empática? Nosso Senhor!"
     },
     {
-      "location": "HTML, poema atribuído a Watts, segundo verso",
+      "location": "Paragraph beginning “Não choreis pela crucificação”",
       "severity": "major",
-      "source_quote": "“His chief tormentors were.”",
-      "suggested_fix": "Traduza como “Foram seus principais algozes.” A tradução atual muda o sentido para uma frase nominal (“Seus maiores algozes”) e perde a afirmação de que os pecados foram os principais algozes.",
-      "translation_quote": "“Seus maiores algozes.”"
+      "source_quote": "Cherish not the old rugged cross but lament the old ribald cause.",
+      "suggested_fix": "Replace “Não valorizai a velha cruz rude, mas lamentai a antiga e licenciosa causa” with “Não prezai a velha cruz rude, mas lamentai a antiga e devassa causa.”",
+      "translation_quote": "Não valorizai a velha cruz rude, mas lamentai a antiga e licenciosa causa."
     },
     {
-      "location": "HTML, parágrafo iniciado por “Not only are we accountable”",
+      "location": "Poem following heading “…Vós mesmos”",
       "severity": "major",
-      "source_quote": "“the Jews who spoke on our behalf that notable day”",
-      "suggested_fix": "Troque “que falaram em nosso nome” por “que falaram em nosso favor” ou “que falaram por nós”, preservando o sentido de speaking on our behalf.",
-      "translation_quote": "“os judeus que falaram em nosso nome naquele dia memorável”"
+      "source_quote": "‘Twas you, my sins, my cruel sins, / His chief tormentors were.",
+      "suggested_fix": "Translate the opening so it says that the speaker’s sins were Christ’s chief tormentors, for example: “Fostes vós, meus pecados, meus cruéis pecados, / Os principais algozes dele.”",
+      "translation_quote": "Fostes vós, meus pecados, meus cruéis pecados, / Foram seus principais algozes."
     },
     {
-      "location": "HTML, parágrafo iniciado por “In the remnant portion of His message”",
+      "location": "Paragraph beginning “Na parte final de sua mensagem”",
       "severity": "major",
-      "source_quote": "“confessing our sin and the sin of our people Israel”",
-      "suggested_fix": "Altere “do nosso povo, Israel” para “do nosso povo, de Israel” ou “do povo de Israel”, para manter claro que se trata do povo de Israel.",
-      "translation_quote": "“confessando nosso pecado e o pecado do nosso povo, Israel”"
-    },
-    {
-      "location": "HTML, poema após “Funerals are a traditional cause for weeping”",
-      "severity": "major",
-      "source_quote": "“Thus, might I hide my blushing face”",
-      "suggested_fix": "Traduza “blushing face” como “rosto enrubescido” ou “rosto corado de vergonha”; “ruborizado” sem referência à vergonha pode não transmitir o sentido de blushing nesse contexto.",
-      "translation_quote": "“Assim, eu poderia esconder meu rosto ruborizado”"
-    },
-    {
-      "location": "HTML, parágrafo iniciado por “Several years ago”",
-      "severity": "major",
-      "source_quote": "“Jesus wept in Gethsemane, over Jerusalem, and at the tomb of Lazarus.”",
-      "suggested_fix": "Substitua “sobre Jerusalém” por “por Jerusalém”, mantendo o sentido de chorar por causa da cidade.",
-      "translation_quote": "“Jesus chorou no Getsêmani, sobre Jerusalém e junto ao túmulo de Lázaro.”"
+      "source_quote": "This abomination brought Jerusalem to desolation in 70 A.D. and no atrocity has surpassed it since.",
+      "suggested_fix": "Replace “Essa abominação levou Jerusalém à desolação em 70 d.C., e nenhuma atrocidade a superou desde então” with “Essa abominação levou Jerusalém à desolação em 70 d.C., e nenhuma atrocidade a superou desde então” only if retaining the source’s assertion; as written, the translation is faithful. No correction needed.",
+      "translation_quote": "Essa abominação levou Jerusalém à desolação em 70 d.C., e nenhuma atrocidade a superou desde então."
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "1aa350f4b1959670742502d8105838c3",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "por",
@@ -200,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

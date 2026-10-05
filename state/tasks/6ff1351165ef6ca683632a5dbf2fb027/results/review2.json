@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fb2e94bb-74ec-4cc9-b6a5-917a8129bdc0",
+    "response_id": "chatcmpl-EVZjWvGPNwKrmcaWYerbRIa3Vegfs",
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2655,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2652,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3169
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html 및 translation.html, 두 번째 연",
+        "severity": "major",
+        "source_quote": "And strove to follow this command / In spite of peril and sword.",
+        "suggested_fix": "둘째 행을 “위험과 칼날에도 아랑곳하지 않고”처럼 옮겨, 위험을 무릅쓰고 명령을 따르려 했다는 뜻을 살려 주세요. 예: “그래도 주님을 사랑했네; / 위험과 칼날에도 아랑곳하지 않고 / 이 명령을 따르려 애썼네.”",
+        "translation_quote": "그래도 주님을 사랑했네; / 위험과 칼날을 무릅쓰고 / 이 명령을 따르려 애썼네."
+      },
+      {
+        "location": "source.html 및 translation.html, 여섯 번째 연",
+        "severity": "major",
+        "source_quote": "“Be an example to the world; / You need not tell the way.”",
+        "suggested_fix": "인용문의 둘째 행을 “길을 말해 줄 필요는 없다”처럼 옮겨, 앞의 “본을 보이라”는 명령과 이어지는 비인칭적 진술을 보존해 주세요.",
+        "translation_quote": "“세상에 본을 보이십시오; / 길을 말해 줄 필요는 없습니다.”"
+      },
+      {
+        "location": "source.html 및 translation.html, 아홉 번째 연",
+        "severity": "major",
+        "source_quote": "Because Christians are zealous there / And vigorous in fight.",
+        "suggested_fix": "마지막 행을 “그리고 힘차게 싸우기 때문이네”처럼 고쳐, 싸움의 대상이 구체적으로 명시되지 않은 원문을 보존해 주세요.",
+        "translation_quote": "그곳의 그리스도인들이 열심을 내고 / 힘차게 싸우기 때문이네."
+      },
+      {
+        "location": "source.html 및 translation.html, 마지막 연",
+        "severity": "major",
+        "source_quote": "Showing lost souls, the narrow way, / That leads men home to God.",
+        "suggested_fix": "마지막 행을 “사람들을 하나님께로 이끄는”처럼 고쳐, 원문이 말하는 인도를 “돌아가게”라는 귀환의 뜻으로 한정하지 않도록 해 주세요.",
+        "translation_quote": "길 잃은 영혼들에게 좁은 길을 보여 주어, / 사람들을 하나님께로 돌아가게 하세."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

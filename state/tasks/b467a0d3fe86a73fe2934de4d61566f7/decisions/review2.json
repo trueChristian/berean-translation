@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html > figure > img[alt]",
+      "severity": "minor",
+      "source_quote": "Pink bleeding heart flowers against a softly blurred green background",
+      "suggested_fix": "Fiori rosa di cuor di Maria su uno sfondo verde morbidamente sfocato",
+      "translation_quote": "Fiori rosa a cuore sanguinante su uno sfondo verde sfocato e delicato"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

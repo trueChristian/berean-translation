@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1defb84-4f49-47e9-91c7-99ef77f03d6c",
+    "response_id": "chatcmpl-EVZjEKkMWntn1BSUxNI6dIIt52eih",
+    "usage": {
+      "completion_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2579,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2576,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3048
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza 10, line 2",
+        "severity": "minor",
+        "source_quote": "They praise their Lord on high.",
+        "suggested_fix": "Заменить на «Они превозносят своего Господа на небесах», чтобы сохранить образ «on high».",
+        "translation_quote": "Они превозносят Господа своего."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

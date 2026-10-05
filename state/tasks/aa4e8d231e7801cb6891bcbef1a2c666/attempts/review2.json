@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Laatste strofe, vierde vers\",\"severity\":\"minor\",\"source_quote\":\"That leads men home to God.\",\"suggested_fix\":\"Vervang dit vers door: “Die mensen naar God leidt.”\",\"translation_quote\":\"Die mensen naar God thuisbrengt.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 275,
+    "content_evidence_truncated": false,
+    "content_sha256": "97b57920324091652c1371189291f47eb1dbb755e98c191ba1ead331a1a8eb72",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3067
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

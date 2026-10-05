@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dac0c974-c3ed-464d-b943-db8bc7cb3c2e",
+    "response_id": "chatcmpl-EVZjYLBrCQByXMtEe9L50aeYmUGD4",
+    "usage": {
+      "completion_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 730,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5320,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6345
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph quoting 1 Peter 4:12–13",
+        "severity": "minor",
+        "source_quote": "“ye may be glad also with exceeding joy”",
+        "suggested_fix": "Replace «juble av glede» with «juble av overstrømmende glede» to retain the source’s emphasis.",
+        "translation_quote": "«så dere også kan juble av glede når hans herlighet blir åpenbart»"
+      },
+      {
+        "location": "Scripture references throughout the article",
+        "severity": "minor",
+        "source_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33",
+        "suggested_fix": "Use conventional Norwegian Bokmål book abbreviations while keeping the chapter and verse numbers unchanged: «Matt 6:27, 34», «1 Pet 4: 12-13», «2 Tim 1:7», «Luk 10:27» and «Joh 16:33».",
+        "translation_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

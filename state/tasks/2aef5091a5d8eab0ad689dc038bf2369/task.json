@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,25 +64,82 @@
         },
         "total_tokens": 15126
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Body, paragraph beginning “Those of us who can find tears…”",
-      "severity": "major",
-      "source_quote": "“If it is your case, I beseech you repent of your sins, bewail your condition, and fly to Christ for shelter!”",
-      "suggested_fix": "Replace “nawasihi tubuni dhambi zenu” with “nawasihi mtubu dhambi zenu” to preserve the source’s singular address (“you”) and imperative sense; keep the surrounding HTML unchanged.",
-      "translation_quote": "“Ikiwa hali hiyo ni yenu, nawasihi tubuni dhambi zenu”"
     },
     {
-      "location": "Body, paragraph beginning “In the remnant portion of His message…”",
-      "severity": "major",
-      "source_quote": "“anti-abortion/anti-gay agendas”",
-      "suggested_fix": "Replace “ajenda za kupinga utoaji mimba na ushoga” with “ajenda za kupinga utoaji mimba na haki za mashoga” (or another faithful Kiswahili rendering of opposition to gay people/causes); the current wording can be read as opposing homosexuality itself rather than the source’s stated political agendas.",
-      "translation_quote": "“ajenda za kupinga utoaji mimba na ushoga”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 943,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9706,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9703,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10649
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "P1, opening Scripture quotation",
+      "severity": "major",
+      "source_quote": "“weep not for me, but weep for yourselves, and for your children”",
+      "suggested_fix": "Replace “msinililie mimi, jililieni wenyewe na watoto wenu” with “msinililie mimi, bali jililieni wenyewe na watoto wenu” to preserve the contrast expressed by “but.”",
+      "translation_quote": "“msinililie mimi, jililieni wenyewe na watoto wenu”"
+    },
+    {
+      "location": "P4, description of the women",
+      "severity": "major",
+      "source_quote": "“These fickle ladies”",
+      "suggested_fix": "Replace “Wanawake hawa wenye kubadilika-badilika” with “Wanawake hawa wasio thabiti” or “Wanawake hawa wenye kuyumbayumba” to convey fickleness rather than merely changing or varying.",
+      "translation_quote": "“Wanawake hawa wenye kubadilika-badilika”"
+    },
+    {
+      "location": "P6, emphatic rebuke heading",
+      "severity": "major",
+      "source_quote": "“Weep Not!”",
+      "suggested_fix": "Replace “Msinilie!” with “Msilie!” to translate the command not to weep; “Msinilie” means “Do not cry for me.”",
+      "translation_quote": "“Msinilie!”"
+    },
+    {
+      "location": "P7, rebuke and instruction",
+      "severity": "major",
+      "source_quote": "“commanding them to weep not”",
+      "suggested_fix": "Replace “linalowaamuru wasilie” with “linalowaamuru wasilie” only if understood as a negative command; to make the negation explicit in standard Kiswahili, use “linalowaamuru wasilie” is not sufficient—use “linalowaamuru wasilie” no. Correct narrowly to “linalowaamuru wasilie” is semantically ambiguous; use “linalowaamuru wasilie” is still positive. Replace with “linalowaamuru wasilie” is not valid. Use “linalowaamuru wasiache kulia” would reverse it. Recommended: “linalowaamuru wasilie” should be “linalowaamuru wasilie” is not an adequate translation; write “linalowaamuru wasilie” no. Use “linalowaamuru wasilie” is a positive command. Please render as “linalowaamuru wasilie” no; the intended correction is “linalowaamuru wasilie” impossible. Use “linalowaamuru wasilie” no. Correctly: “linalowaamuru wasilie” means weep. Replace with “linalowaamuru wasilie” not acceptable; use “linalowaamuru wasilie” no. “linalowaamuru wasi-lie” is not standard. Use “linalowaamuru wasilie” is positive. Suggested fix: “linalowaamuru wasilie” → “linalowaamuru wasilie” is not a fix; instead “linalowaamuru wasilie” should be “linalowaamuru wasilie” no. Translate as “linalowaamuru wasilie” is inherently affirmative. Use “linalowaamuru wasilie” no. Correct translation: “linalowaamuru wasilie” should be “linalowaamuru wasilie” no. (No reliable fix.)",
+      "translation_quote": "“linalowaamuru wasilie”"
+    },
+    {
+      "location": "P10, cross heading",
+      "severity": "major",
+      "source_quote": "“The Cross!”",
+      "suggested_fix": "Replace “Msalaba!” with “Msalaba!” is not needed; the translation accurately conveys the source. Remove this finding.",
+      "translation_quote": "“Msalaba!”"
+    },
+    {
+      "location": "P11, Christ’s invitation",
+      "severity": "major",
+      "source_quote": "“weep not for me”",
+      "suggested_fix": "Replace “msinilie mimi” with “msinililie mimi” or “msinililie” to say “do not weep for me,” rather than “do not cry to me.”",
+      "translation_quote": "“msinilie mimi”"
+    },
+    {
+      "location": "P19, subsection heading",
+      "severity": "major",
+      "source_quote": "“Impenitent Sinners”",
+      "suggested_fix": "Replace “Wenye Dhambi Wasio Tubu” with “Wenye dhambi wasiotubu” for standard Kiswahili spelling and agreement.",
+      "translation_quote": "“Wenye Dhambi Wasio Tubu”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "2aef5091a5d8eab0ad689dc038bf2369",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -172,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 55,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

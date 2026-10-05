@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, fifth stanza\",\"severity\":\"minor\",\"source_quote\":\"Perhaps more desperately;\",\"suggested_fix\":\"Ändra till exempel till ”kanske ännu mer desperat;” för att behålla intensiteten i originalet.\",\"translation_quote\":\"kanske ännu mer;\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 302,
+    "content_evidence_truncated": false,
+    "content_sha256": "edab662fa84e2c287bdc263dd4a297451f6ce568dba1da5831018efabb275c09",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 439,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2483
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

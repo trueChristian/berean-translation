@@ -2,7 +2,6 @@
   "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 12834
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, “Development of obedience” paragraph",
-      "severity": "major",
-      "source_quote": "Until the pain of disobedience exceeds the “pain” of obedience, a child will continue to disobey.",
-      "suggested_fix": "改为：<u><strong>只要不顺服带来的痛苦</strong></u>还没有超过<strong>顺服带来的“痛苦”</strong>，孩子就会继续不顺服。并按原文保留下划线和粗体的标记范围。",
-      "translation_quote": "除非不顺服所带来的<u><strong>痛苦</strong></u>超过顺服所带来的<strong>“痛苦”</strong>，孩子就会继续不顺服。"
     },
     {
-      "location": "source.title",
-      "severity": "minor",
-      "source_quote": "Holding the Hearts of our Children",
-      "suggested_fix": "可改为“赢得并守住儿女的心”，以体现标题中“持守儿女的心”之意。",
-      "translation_quote": "赢得儿女的心"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 782,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 511,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8433,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8430,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9215
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML — “……与神建立个人关系”段落",
+      "severity": "major",
+      "source_quote": "they must choose to make their earthly father’s God, their personal God.",
+      "suggested_fix": "将“他们必须选择是否将地上的父亲所敬拜的神，作为自己的神”改为“他们必须选择把地上的父亲所敬拜的神作为自己的神”，以保留原文所说的选择是要作出这一承认，而非选择是否承认。",
+      "translation_quote": "他们必须选择是否将地上的父亲所敬拜的神，作为自己的神。"
+    },
+    {
+      "location": "HTML — “……培养顺服”段落中的箴言 29:15 引文",
+      "severity": "major",
+      "source_quote": "but a child left to himself bringeth his mother to shame",
+      "suggested_fix": "将“放纵的儿子使母亲蒙羞”改为“任凭自己行事的孩子使母亲蒙羞”，以表达原文所说的孩子被撇下、无人管教，而非孩子受到纵容。",
+      "translation_quote": "放纵的儿子使母亲蒙羞。"
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "5d11556ee3f6ba44b8afe8c272ff58d1",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "cmn",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a",
   "translation_model_actual": "gpt-6-luna"

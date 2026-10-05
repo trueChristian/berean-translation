@@ -2,7 +2,6 @@
   "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 17624
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "title",
-      "severity": "major",
-      "source_quote": "Holding the Hearts of our Children",
-      "suggested_fix": "Κερδίζοντας και διατηρώντας τις καρδιές των παιδιών μας",
-      "translation_quote": "Κερδίζοντας την καρδιά των παιδιών μας"
     },
     {
-      "location": "html, Summary paragraph",
-      "severity": "minor",
-      "source_quote": "Proverbs 17:6 says",
-      "suggested_fix": "Το βιβλίο των Παροιμιών 17:6 λέει:",
-      "translation_quote": "Το Παροιμίες 17:6 λέει:"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 865,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 657,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10881,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10878,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11746
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph under “…Προσωπική σχέση με τον Θεό”",
+      "severity": "major",
+      "source_quote": "A child who is under conviction is sometimes sullen, withdrawn, and not very cooperative.",
+      "suggested_fix": "Replace «Ένα παιδί που αισθάνεται την καταδίκη για την αμαρτία είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο.» with «Ένα παιδί που έχει συναίσθηση της αμαρτίας του είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο.»",
+      "translation_quote": "Ένα παιδί που αισθάνεται την καταδίκη για την αμαρτία είναι μερικές φορές κακόκεφο, αποτραβηγμένο και όχι πολύ συνεργάσιμο."
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "98ce9a167faff71cc74bc070279a76c2",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ell",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a",
   "translation_model_actual": "gpt-6-luna"

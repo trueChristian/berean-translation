@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Holding the Hearts of our Children\",\"suggested_fix\":\"كسب قلوب أبنائنا والحفاظ عليها\",\"translation_quote\":\"كسب قلوب أبنائنا\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 259,
+    "content_evidence_truncated": false,
+    "content_sha256": "a78ed8e51cb6c5799883d22a9432237c971316d80ab07510c1188ba20545a9a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 796,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 718,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8797,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9596
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

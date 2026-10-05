@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 12165
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 291,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8132,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8129,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8423
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, citação de Atos 5:32–33",
+      "location": "HTML, parágrafo com a citação de Atos 23:1–24:16",
       "severity": "major",
-      "source_quote": "“When they heard that, they were cut to the heart”",
-      "suggested_fix": "Substitua apenas o trecho destacado por uma tradução fiel, por exemplo: <strong>“Quando ouviram isso, ficaram com o coração traspassado”</strong>.",
-      "translation_quote": "<strong>“Quando ouviram isso, ficaram profundamente irados”</strong>"
+      "source_quote": "…to have always a conscience void of offence toward God, and toward men –Act 23:1-24:16.",
+      "suggested_fix": "Traduza fielmente o trecho citado, mantendo a estrutura HTML e a referência impressa, por exemplo: “... ter sempre uma consciência sem ofensa para com Deus e para com os homens –At 23:1-24:16.”",
+      "translation_quote": "…ter sempre uma consciência sem ofensa para com Deus e para com os homens –At 23:1-24:16."
+    },
+    {
+      "location": "HTML, parágrafo sobre os criminosos que se entregavam",
+      "severity": "major",
+      "source_quote": "Forty years ago, someone asked one of these then-retired sheriffs how they were able to control all the crime by themselves.",
+      "suggested_fix": "Substitua “Há quarenta anos” por “Alguém perguntou, há quarenta anos, a um desses xerifes já aposentados como eles conseguiam controlar sozinhos toda a criminalidade.”",
+      "translation_quote": "Há quarenta anos, alguém perguntou a um desses xerifes, já aposentado, como conseguiam controlar sozinhos toda a criminalidade."
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "d14d433514cbb1a63e94f44a25f8cec6",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "por",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 8800
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraf yang mengutip 2 Timotius 1:7",
-      "severity": "major",
-      "source_quote": "“the spirit of fear; but of power, and of love, and of a sound mind”",
-      "suggested_fix": "Ganti «roh yang membangkitkan kekuatan, kasih dan ketertiban» dengan «roh ketakutan, melainkan roh yang membangkitkan kekuatan, kasih, dan pikiran yang sehat». Ini mempertahankan kontras dalam sumber dan makna “sound mind” yang dibahas dalam paragraf berikutnya.",
-      "translation_quote": "«roh ketakutan, melainkan roh yang membangkitkan kekuatan, kasih dan ketertiban –2Ti 1:7»"
     },
     {
-      "location": "Rujukan Alkitab dalam artikel",
-      "severity": "minor",
-      "source_quote": "“–Mat 6:27, 34”; “–1Pe 4: 12-13”; “–2Ti 1:7”; “–Luk 10:27”; “–Joh 16:33”",
-      "suggested_fix": "Gunakan bentuk nama kitab yang lazim dalam Bahasa Indonesia, dengan mempertahankan nomor ayat, rentang, serta jumlah dan posisi rujukannya: misalnya «Mat» → «Mat»/«Matius», «1Pe» → «1Ptr», «2Ti» → «2Tim», dan «Joh» → «Yoh»; pertahankan «Luk» jika memakai singkatan yang lazim.",
-      "translation_quote": "«–Mat 6:27, 34»; «–1Pe 4: 12-13»; «–2Ti 1:7»; «–Luk 10:27»; «–Joh 16:33»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 844,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 590,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5364,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5361,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6208
+      }
+    }
+  ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraf terakhir, kutipan Yohanes 16:33",
+      "severity": "major",
+      "source_quote": "“In the world ye shall have tribulation”",
+      "suggested_fix": "Ganti bagian kutipan itu menjadi “...Di dunia kamu akan mengalami kesengsaraan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”",
+      "translation_quote": "“Dalam dunia kamu menderita penganiayaan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”"
     },
     {
       "location": "Paragraf tentang slogan “No Fear”",
       "severity": "minor",
-      "source_quote": "“the lawless slogan of the 1990s, ‘No Fear’”",
-      "suggested_fix": "Ganti «slogan tanpa hukum tahun 1990-an» dengan ungkapan seperti «slogan “No Fear” yang menentang norma pada tahun 1990-an» agar makna «lawless» tidak terbaca harfiah sebagai «tanpa hukum».",
-      "translation_quote": "«slogan tanpa hukum tahun 1990-an, “Tanpa Takut”»"
+      "source_quote": "“the lawless slogan of the 1990s”",
+      "suggested_fix": "Terjemahkan “lawless” sebagai “tanpa hukum” atau “melanggar hukum”; misalnya, “slogan ‘Tanpa Takut’ yang melanggar hukum pada tahun 1990-an.”",
+      "translation_quote": "“slogan ‘Tanpa Takut’ yang menentang norma pada tahun 1990-an”"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "d68be2ac184bb1fd9c3d16ff89d67a72",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ind",
@@ -185,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,46 +64,75 @@
         },
         "total_tokens": 13044
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 700,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8203,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8200,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8903
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, абзац о страданиях и воле Бога",
+      "location": "Абзац о собрании церкви и распоряжениях правительства",
       "severity": "major",
-      "source_quote": "“The loss of our business, home and yes, even our own lives also, by economic disaster, storms, or accidents is not outside the realm of the will of God for the Christian.”",
-      "suggested_fix": "Replace «не выходит за пределы того, что может быть волей Божьей для христианина» with «не находится вне воли Божьей для христианина» to preserve the assertion that these losses can fall within God’s will.",
-      "translation_quote": "«не выходит за пределы того, что может быть волей Божьей для христианина»"
+      "source_quote": "“if the suggestion/order to not meet together during this time is for the purpose of not spreading a virus that is quite contagious, this then fulfills the scripture ‘to love our neighbor as ourselves.’”",
+      "suggested_fix": "Заменить соответствующий фрагмент на: «Я считаю, что, поскольку рекомендация или распоряжение не собираться в это время направлены на то, чтобы не распространять весьма заразный вирус, это исполняет библейское повеление „любить ближнего, как самого себя“».",
+      "translation_quote": "«Я считаю, что рекомендация или распоряжение не собираться в это время направлено на то, чтобы не распространять весьма заразный вирус, и потому соответствует библейскому повелению „любить ближнего, как самого себя“»."
     },
     {
-      "location": "HTML, абзац о небесном гражданстве и правах",
+      "location": "Абзац о правах и земных благах",
       "severity": "major",
-      "source_quote": "“We do not have the right (only the privilege)—to own land, to have enough food, to enjoy good health, and to live without suffering—nor should we fight for those so-called rights”",
-      "suggested_fix": "Revise to «У нас нет права (есть лишь привилегия) владеть землёй, иметь достаточно пищи, наслаждаться хорошим здоровьем и жить без страданий; нам не следует бороться за эти так называемые права»; the current wording reverses the source’s right/privilege distinction.",
-      "translation_quote": "«У нас нет права (есть лишь привилегия) владеть землёй, иметь достаточно пищи, наслаждаться хорошим здоровьем и жить без страданий»"
+      "source_quote": "“we have no rights except the right to the Tree of Life.”",
+      "suggested_fix": "Заменить на: «у нас нет никаких прав, кроме права на Древо жизни».",
+      "translation_quote": "«у нас нет никаких прав, кроме права на Древо жизни»."
     },
     {
-      "location": "HTML, абзац о том, что апостол удерживает на земле",
+      "location": "Абзац о правах и земных благах",
       "severity": "major",
-      "source_quote": "“the only thing that holds him here is the fact that there is work to be done.”",
-      "suggested_fix": "Replace «удерживает его здесь лишь то, что ещё предстоит совершить дело» with «удерживает его здесь лишь то, что для вас ещё нужно трудиться» or «что здесь ещё предстоит совершить работу»; the translation’s «дело» can imply a completed deed rather than work still to be done.",
-      "translation_quote": "«удерживает его здесь лишь то, что ещё предстоит совершить дело»"
+      "source_quote": "“The loss of our business, home and yes, even our own lives also, by economic disaster, storms, or accidents…”",
+      "suggested_fix": "Уточнить причинную связь: «Потеря нашего дела, дома и, да, даже собственной жизни из-за экономической катастрофы, бурь или несчастных случаев…»",
+      "translation_quote": "«Потеря нашего дела, дома и, да, даже собственной жизни из-за экономической катастрофы, бурь или несчастных случаев…»."
     },
     {
-      "location": "HTML, абзац о семейных отношениях во время домашнего режима",
+      "location": "Абзац о помощи нуждающимся",
       "severity": "major",
-      "source_quote": "“things that will nurture growth and love in our relationships.”",
-      "suggested_fix": "Replace «тем, что будет укреплять рост и любовь в наших отношениях» with «тем, что будет способствовать развитию и любви в наших отношениях»; «укреплять рост» is unidiomatic and obscures the intended meaning.",
-      "translation_quote": "«тем, что будет укреплять рост и любовь в наших отношениях»"
+      "source_quote": "“those who have are to give to those who do not have so that there may be an equality.”",
+      "suggested_fix": "Заменить на: «имеющие должны давать тем, у кого нет, чтобы было равенство».",
+      "translation_quote": "«имеющие должны делиться с теми, у кого ничего нет, чтобы было равенство»."
     },
     {
-      "location": "HTML, абзац о жизни в ожидании Небес",
+      "location": "Абзац о молитве за власти",
+      "severity": "major",
+      "source_quote": "“that we may lead a quiet and peaceable life in all godliness and honesty.”",
+      "suggested_fix": "Заменить окончание цитаты на: «дабы проводить нам жизнь тихую и мирную во всяком благочестии и честности».",
+      "translation_quote": "«дабы проводить нам жизнь тихую и безмятежную во всяком благочестии и чистоте»."
+    },
+    {
+      "location": "Заголовок статьи",
       "severity": "minor",
-      "source_quote": "“but that we ourselves are also groaning to be delivered.”",
-      "suggested_fix": "Change «но и о том, что мы сами также стенает в ожидании освобождения» to «но и о том, что мы сами также стенаем в ожидании освобождения».",
-      "translation_quote": "«но и о том, что мы сами также стенает в ожидании освобождения»"
+      "source_quote": "“Coronavirus—God, the World, and the Church”",
+      "suggested_fix": "Более точно передать заглавие: «Коронавирус — Бог, мир и Церковь».",
+      "translation_quote": "«Коронавирус — Бог, мир и церковь»."
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "dbb1846646d3481758d6e3db30e4885e",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "rus",
@@ -193,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

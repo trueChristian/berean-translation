@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, paragraph 6",
+      "severity": "minor",
+      "source_quote": "And on Him your troubles lay.",
+      "suggested_fix": "Consider «og legger problemene dine på ham» to preserve the broader sense of “troubles.”",
+      "translation_quote": "og legger bekymringene dine på ham."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

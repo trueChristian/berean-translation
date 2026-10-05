@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem: “He knew with no doubt that he was made whole.”\",\"severity\":\"major\",\"source_quote\":\"He knew with no doubt that he was made whole.\",\"suggested_fix\":\"استبدل «وأيقن بلا شك أنه استعاد عافيته» بعبارة تنقل معنى الاسترداد أو الاكتمال الروحي في السياق، مثل: «وأيقن بلا شك أنه صار كاملًا من جديد»؛ مع إبقاء موضع السطر وعلامات HTML كما هي.\",\"translation_quote\":\"وأيقن بلا شك أنه استعاد عافيته.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 630,
+    "content_evidence_truncated": false,
+    "content_sha256": "a202e837c4a457959cd1b3f1dd54411ab76aa4ef22d501a45b27e67370cb3d8f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 411,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2504
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

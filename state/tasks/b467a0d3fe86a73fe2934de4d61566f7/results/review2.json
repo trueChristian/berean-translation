@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2e0b0ff5-9a00-4c80-a97a-fd41f04c9dd1",
+    "response_id": "chatcmpl-EVZkNg9Sk1P9JYajIFk79N0OuBpeE",
+    "usage": {
+      "completion_tokens": 616,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1949,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1946,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2565
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html > figure > img[alt]",
+        "severity": "minor",
+        "source_quote": "Pink bleeding heart flowers against a softly blurred green background",
+        "suggested_fix": "Fiori rosa di cuor di Maria su uno sfondo verde morbidamente sfocato",
+        "translation_quote": "Fiori rosa a cuore sanguinante su uno sfondo verde sfocato e delicato"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

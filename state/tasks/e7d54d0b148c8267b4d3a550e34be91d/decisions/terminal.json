@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza beginning “While we thank God for freedom here”",
+      "severity": "major",
+      "source_quote": "While we thank God for freedom here, / They praise their Lord on high.",
+      "suggested_fix": "ہم یہاں آزادی کے لیے خدا کا شکر ادا کرتے ہیں، جبکہ وہ اپنے خداوند کی حمد کرتے ہیں۔",
+      "translation_quote": "یہاں کی آزادی کے لیے خدا کا شکر ادا کرتے ہوئے، / وہ اپنے خداوند کی حمد کرتے ہیں۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

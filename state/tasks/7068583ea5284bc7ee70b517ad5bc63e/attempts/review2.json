@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph containing 2 Tim 1:7\",\"severity\":\"major\",\"source_quote\":\"For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.\",\"suggested_fix\":\"Ändra «modlöshetens ande» till «rädslans ande» så att bibelcitatet bevarar källtextens betydelse. Exempel: «Gud har inte gett oss rädslans ande, utan kraftens, kärlekens och ett sunt sinnes ande – 2 Tim 1:7.»\",\"translation_quote\":\"Gud har inte gett oss modlöshetens ande, utan kraftens, kärlekens och ett sunt sinnes ande – 2 Tim 1:7.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 605,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e5afc076d477c3c49237b238ce4ec07037cfca46906eca4e73866bdd7670487",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5372,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5369,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6014
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

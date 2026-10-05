@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem paragraph: “The days came and went, they seemed like a blur.”",
+      "severity": "minor",
+      "source_quote": "The days came and went, they seemed like a blur.",
+      "suggested_fix": "Replace «Οι μέρες περνούσαν, θολές σαν όνειρο.» with «Οι μέρες περνούσαν, θολές και συγκεχυμένες.»",
+      "translation_quote": "Οι μέρες περνούσαν, θολές σαν όνειρο."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

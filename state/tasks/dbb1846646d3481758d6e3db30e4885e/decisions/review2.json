@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о собрании церкви и распоряжениях правительства",
+      "severity": "major",
+      "source_quote": "“if the suggestion/order to not meet together during this time is for the purpose of not spreading a virus that is quite contagious, this then fulfills the scripture ‘to love our neighbor as ourselves.’”",
+      "suggested_fix": "Заменить соответствующий фрагмент на: «Я считаю, что, поскольку рекомендация или распоряжение не собираться в это время направлены на то, чтобы не распространять весьма заразный вирус, это исполняет библейское повеление „любить ближнего, как самого себя“».",
+      "translation_quote": "«Я считаю, что рекомендация или распоряжение не собираться в это время направлено на то, чтобы не распространять весьма заразный вирус, и потому соответствует библейскому повелению „любить ближнего, как самого себя“»."
+    },
+    {
+      "location": "Абзац о правах и земных благах",
+      "severity": "major",
+      "source_quote": "“we have no rights except the right to the Tree of Life.”",
+      "suggested_fix": "Заменить на: «у нас нет никаких прав, кроме права на Древо жизни».",
+      "translation_quote": "«у нас нет никаких прав, кроме права на Древо жизни»."
+    },
+    {
+      "location": "Абзац о правах и земных благах",
+      "severity": "major",
+      "source_quote": "“The loss of our business, home and yes, even our own lives also, by economic disaster, storms, or accidents…”",
+      "suggested_fix": "Уточнить причинную связь: «Потеря нашего дела, дома и, да, даже собственной жизни из-за экономической катастрофы, бурь или несчастных случаев…»",
+      "translation_quote": "«Потеря нашего дела, дома и, да, даже собственной жизни из-за экономической катастрофы, бурь или несчастных случаев…»."
+    },
+    {
+      "location": "Абзац о помощи нуждающимся",
+      "severity": "major",
+      "source_quote": "“those who have are to give to those who do not have so that there may be an equality.”",
+      "suggested_fix": "Заменить на: «имеющие должны давать тем, у кого нет, чтобы было равенство».",
+      "translation_quote": "«имеющие должны делиться с теми, у кого ничего нет, чтобы было равенство»."
+    },
+    {
+      "location": "Абзац о молитве за власти",
+      "severity": "major",
+      "source_quote": "“that we may lead a quiet and peaceable life in all godliness and honesty.”",
+      "suggested_fix": "Заменить окончание цитаты на: «дабы проводить нам жизнь тихую и мирную во всяком благочестии и честности».",
+      "translation_quote": "«дабы проводить нам жизнь тихую и безмятежную во всяком благочестии и чистоте»."
+    },
+    {
+      "location": "Заголовок статьи",
+      "severity": "minor",
+      "source_quote": "“Coronavirus—God, the World, and the Church”",
+      "suggested_fix": "Более точно передать заглавие: «Коронавирус — Бог, мир и Церковь».",
+      "translation_quote": "«Коронавирус — Бог, мир и церковь»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

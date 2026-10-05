@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph quoting 1 Peter 4:12–13",
+      "severity": "minor",
+      "source_quote": "“ye may be glad also with exceeding joy”",
+      "suggested_fix": "Replace «juble av glede» with «juble av overstrømmende glede» to retain the source’s emphasis.",
+      "translation_quote": "«så dere også kan juble av glede når hans herlighet blir åpenbart»"
+    },
+    {
+      "location": "Scripture references throughout the article",
+      "severity": "minor",
+      "source_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33",
+      "suggested_fix": "Use conventional Norwegian Bokmål book abbreviations while keeping the chapter and verse numbers unchanged: «Matt 6:27, 34», «1 Pet 4: 12-13», «2 Tim 1:7», «Luk 10:27» and «Joh 16:33».",
+      "translation_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

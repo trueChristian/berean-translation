@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 4022
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 574,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 447,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2623,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2620,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3197
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, stanza 4",
+      "location": "HTML، المقطع الشعري الحادي عشر",
       "severity": "major",
-      "source_quote": "A lot of folks were burned at stake,",
-      "suggested_fix": "أُحرق كثيرون وهم مربوطون إلى أوتاد،",
-      "translation_quote": "أُحرق كثيرون على الخوازيق،"
+      "source_quote": "If we would also spread God’s Word, / Our blood would stain our sod.",
+      "suggested_fix": "استبدل السطرين بـ: «إن أردنا نحن أيضًا أن ننشر كلمة الله، / لتلطّخت تربتنا بدمائنا.»",
+      "translation_quote": "إن أردنا نحن أيضًا أن ننشر كلمة الله، / فستلطّخ دماؤنا ترابنا."
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "fe9db5675f1a74e71d8729191b4eed84",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ara",
@@ -171,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

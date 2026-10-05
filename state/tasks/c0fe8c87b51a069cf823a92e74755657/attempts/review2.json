@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML poem, fifth stanza\",\"severity\":\"minor\",\"source_quote\":\"Since it’s easier to forget to seek / When the way you think you see.\",\"suggested_fix\":\"Since it’s easier to forget to seek / wanneer jy dink jy die pad kan sien.\",\"translation_quote\":\"want dit is makliker om te vergeet om Hom te soek / wanneer die pad lyk asof jy dit sien.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 393,
+    "content_evidence_truncated": false,
+    "content_sha256": "592d40535f492cd1b3848533a6146891ca194e9ff51c3331724a77bf659e4b49",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 399,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1959,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1956,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2467
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

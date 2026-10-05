@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3916cc22-6692-4f89-8289-bbad382f56b4",
+    "response_id": "chatcmpl-EVZjdpkbVX0yP6oydfqDEawcnWXX2",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2765
+    }
+  },
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza, fourth line",
+        "severity": "major",
+        "source_quote": "And my will toward Him turns?",
+        "suggested_fix": "Badilisha mstari huu uwe: “Na nia yangu kumwelekea Yeye?”",
+        "translation_quote": "Na kuelekeza mapenzi yangu Kwake?"
+      },
+      {
+        "location": "Poem, final stanza, first line",
+        "severity": "minor",
+        "source_quote": "To seek and to search, to stay by His side,",
+        "suggested_fix": "Badilisha “kumchunguza” kwa “kumtafuta kwa bidii,” ili mstari useme: “Kumtafuta na kumtafuta kwa bidii, kukaa kando Yake,”",
+        "translation_quote": "Kumtafuta na kumchunguza, kukaa kando Yake,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

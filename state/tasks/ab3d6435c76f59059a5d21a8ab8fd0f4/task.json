@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 4043
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 535,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 509,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2636,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2633,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3171
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML poem, first stanza, lines 2–3",
-      "severity": "major",
-      "source_quote": "Had a desire to tell / The sinner about Jesus Christ,",
-      "suggested_fix": "将对应译文改为“渴望向罪人述说 / 耶稣基督的事，”以保留原文明确的传讲对象“罪人”。",
-      "translation_quote": "渴望述说 / 耶稣基督的事，"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "ab3d6435c76f59059a5d21a8ab8fd0f4",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "cmn",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

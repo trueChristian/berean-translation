@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, lead paragraph",
+      "severity": "minor",
+      "source_quote": "The bruised, beaten, and bleeding Christ, upon being thoroughly molested and mocked, began the painstaking journey up the Via Dolorosa pathway to Golgotha.",
+      "suggested_fix": "Revise narrowly for grammatical flow, for example: “चोटों से भरे, पिटे और लहूलुहान मसीह के साथ बुरी तरह दुर्व्यवहार और उपहास किए जाने के बाद, उन्होंने गोलगोथा की ओर दुखभरे मार्ग पर पीड़ादायक यात्रा शुरू की।”",
+      "translation_quote": "चोटों से भरे, पिटे और लहूलुहान मसीह को बुरी तरह दुर्व्यवहार किए जाने और उनका उपहास किए जाने के बाद, गोलगोथा की ओर दुखभरे मार्ग पर पीड़ादायक यात्रा पर चल पड़े।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

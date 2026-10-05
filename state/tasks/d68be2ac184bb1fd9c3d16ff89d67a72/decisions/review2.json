@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf terakhir, kutipan Yohanes 16:33",
+      "severity": "major",
+      "source_quote": "“In the world ye shall have tribulation”",
+      "suggested_fix": "Ganti bagian kutipan itu menjadi “...Di dunia kamu akan mengalami kesengsaraan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”",
+      "translation_quote": "“Dalam dunia kamu menderita penganiayaan, tetapi kuatkanlah hatimu, Aku telah mengalahkan dunia –Yoh 16:33.”"
+    },
+    {
+      "location": "Paragraf tentang slogan “No Fear”",
+      "severity": "minor",
+      "source_quote": "“the lawless slogan of the 1990s”",
+      "suggested_fix": "Terjemahkan “lawless” sebagai “tanpa hukum” atau “melanggar hukum”; misalnya, “slogan ‘Tanpa Takut’ yang melanggar hukum pada tahun 1990-an.”",
+      "translation_quote": "“slogan ‘Tanpa Takut’ yang menentang norma pada tahun 1990-an”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

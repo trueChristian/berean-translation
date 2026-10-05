@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8364
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph quoting 2 Timothy 1:7",
-      "severity": "major",
-      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.",
-      "suggested_fix": "Sostituire «Dio infatti non ci ha dato uno spirito di timidezza» con «Dio infatti non ci ha dato uno spirito di paura», mantenendo invariati il resto della citazione, i tag HTML e il riferimento.",
-      "translation_quote": "Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d’amore e di autocontrollo –2Tm 1:7."
     },
     {
-      "location": "HTML, secondo paragrafo",
-      "severity": "minor",
-      "source_quote": "I want to be comfortable and live a life free of pain and grief.",
-      "suggested_fix": "Rendere «pain and grief» con «dolore e sofferenza» o «dolore e lutto», evitando la ripetizione di «dolore».",
-      "translation_quote": "Voglio stare comoda e vivere una vita senza dolore né dolore per una perdita."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 738,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 563,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5336,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5333,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6074
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “For God hath not given us…”",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind”",
+      "suggested_fix": "Replace “autocontrollo” in the quoted verse with an Italian rendering of “a sound mind,” such as “una mente sana” or “una mente equilibrata,” while leaving the reference –2Tm 1:7 unchanged.",
+      "translation_quote": "“Dio infatti non ci ha dato uno spirito di paura, ma di forza, d’amore e di autocontrollo –2Tm 1:7.”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "a4330f483c58a4f4547539744d3c6de5",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ita",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

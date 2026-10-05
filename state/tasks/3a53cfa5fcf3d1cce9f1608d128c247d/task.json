@@ -2,7 +2,6 @@
   "article_id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,46 @@
         },
         "total_tokens": 3150
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 892,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 703,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1956,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1953,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2848
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, القصيدة، المقطع الرابع",
-      "severity": "major",
-      "source_quote": "How can you call Him your best friend / When it’s only in your trials / That on Him you will depend?",
-      "suggested_fix": "استبدل الأسطر المقابلة بـ«كيف تدعوه أعز أصدقائك / إذا كنت لا تعتمد عليه / إلا في محنتك؟» مع الحفاظ على وسوم HTML وترتيبها.",
-      "translation_quote": "كيف تدعوه أعز أصدقائك، / إن كنت لا تعتمد عليه / إلا حين تشتد محنتك؟"
+      "location": "HTML, poem, first stanza",
+      "severity": "minor",
+      "source_quote": "And my will toward Him turns?",
+      "suggested_fix": "استبدل «ويتجه نحوه إرادتي؟» بـ«وتتجه إرادتي نحوه؟» لتصحيح المطابقة وتوضيح المعنى.",
+      "translation_quote": "ويتجه نحوه إرادتي؟"
     },
     {
-      "location": "HTML، القصيدة، المقطع الثامن",
-      "severity": "major",
-      "source_quote": "The unknowns in His hands, He’ll be at your side",
-      "suggested_fix": "استبدل العبارة بـ«ضع المجهولات بين يديه، وسيكون إلى جانبك» أو صياغة عربية تحفظ أن الأمور المجهولة في يديه وأنه سيكون إلى جانبك، مع إبقاء الوسم والترتيب كما هما.",
-      "translation_quote": "وما يخفى عليك بين يديه؛ وسيكون إلى جانبك"
+      "location": "HTML, image alt text",
+      "severity": "minor",
+      "source_quote": "against a softly blurred green background",
+      "suggested_fix": "استبدل «أمام خلفية خضراء ضبابية برفق» بـ«أمام خلفية خضراء مطموسة الملامح بنعومة».",
+      "translation_quote": "أمام خلفية خضراء ضبابية برفق"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "3a53cfa5fcf3d1cce9f1608d128c247d",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ara",
@@ -172,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73a896b45c832cc255f4494493f9038b59aeb2e60f891d6ea3856e1efd18e035.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ea9bf23ef3f7fa33a2b3306b026950250cd24113f3ce9f3dcde418ae15b0cd35",
   "translation_model_actual": "gpt-6-luna"

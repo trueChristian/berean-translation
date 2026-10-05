@@ -2,7 +2,6 @@
   "article_id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 3068
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 943,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 820,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2038,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2035,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2981
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Poem, second stanza",
-      "severity": "major",
-      "source_quote": "Or when asked of something I do not know / That I think to stop and pray?",
-      "suggested_fix": "Replace the corresponding Bengali lines with: “অথবা এমন কিছু সম্পর্কে জিজ্ঞেস করা হলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?”",
-      "translation_quote": "অথবা এমন কিছু জানতে চাইলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?"
+      "location": "HTML, poem stanza 5, line 3",
+      "severity": "minor",
+      "source_quote": "Since it’s easier to forget to seek / When the way you think you see.",
+      "suggested_fix": "কারণ নিজের চোখে পথ দেখতে পাচ্ছ বলে / তাঁকে খুঁজতে ভুলে যাওয়া সহজ।",
+      "translation_quote": "কারণ নিজের ভাবা পথে চলতে পারলে / তাঁর অন্বেষণ ভুলে যাওয়া সহজ।"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "ba8f0c029220812aef97b28c232f12ea",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ben",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73a896b45c832cc255f4494493f9038b59aeb2e60f891d6ea3856e1efd18e035.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ea9bf23ef3f7fa33a2b3306b026950250cd24113f3ce9f3dcde418ae15b0cd35",
   "translation_model_actual": "gpt-6-luna"

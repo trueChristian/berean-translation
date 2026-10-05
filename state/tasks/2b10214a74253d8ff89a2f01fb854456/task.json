@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 18410
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 859,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11402,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11399,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12433
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph beginning «Στο τελευταίο μέρος του μηνύματός του»",
+      "location": "Title; opening quotation; heading «…Yourselves»",
       "severity": "major",
-      "source_quote": "“anti-abortion/anti-gay agendas”",
-      "suggested_fix": "Replace «ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων» with «ατζέντες κατά των αμβλώσεων και υπέρ της αντίθεσης στα δικαιώματα των ομοφυλοφίλων» (or another phrasing that clearly refers to anti-gay political agendas, not opposition to gay people as people).",
-      "translation_quote": "«ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων»"
+      "source_quote": "“Weep for Yourselves”; “weep for yourselves”; “…Yourselves”",
+      "suggested_fix": "Use the plural consistently: title «Κλάψτε για τους εαυτούς σας»; in the opening quotation, «κλάψτε για τους εαυτούς σας»; and heading «…Τους εαυτούς σας».",
+      "translation_quote": "«Κλάψτε για τον εαυτό σας»; «κλάψτε για τον εαυτό σας»; «…Τον εαυτό σας»"
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "2b10214a74253d8ff89a2f01fb854456",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ell",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

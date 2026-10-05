@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 12631
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, avsnitt 10",
-      "severity": "major",
-      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
-      "suggested_fix": "Erstatt setningen med «Gud har ikke gitt oss en ånd av frykt, men av kraft, kjærlighet og sindighet.»",
-      "translation_quote": "Gud har ikke gitt oss en ånd som gjør motløs, men en ånd som gir kraft, kjærlighet og sindighet."
     },
     {
-      "location": "HTML, avsnitt 13",
-      "severity": "major",
-      "source_quote": "We are called to honor the king and we need to spend more time thanking God for our freedoms than maximizing on the negative",
-      "suggested_fix": "Erstatt «enn på å dvele ved det negative» med «enn på å legge vekt på det negative».",
-      "translation_quote": "Vi er kalt til å ære kongen, og vi bør bruke mer tid på å takke Gud for friheten vår enn på å dvele ved det negative"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 939,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 744,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8233,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8230,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9172
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph 3, quoted 1 Peter 3:15",
+      "severity": "major",
+      "source_quote": "“But sanctify the Lord God in your hearts”",
+      "suggested_fix": "Erstatt «Men hell Herren Gud i hjertene deres» med «Men hellig Herren Gud i hjertene deres» for å gjengi oppfordringen om å hellige Herren Gud.",
+      "translation_quote": "«Men hell Herren Gud i hjertene deres»"
+    },
+    {
+      "location": "Paragraph 13, quoted command",
+      "severity": "minor",
+      "source_quote": "“obey God rather than men”",
+      "suggested_fix": "Endre «lydigere Gud enn mennesker» til «lyde Gud mer enn mennesker» eller «adlyde Gud mer enn mennesker».",
+      "translation_quote": "«lydigere Gud enn mennesker»"
+    }
+  ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "568b85a1f4a0aa85ccb2f18f1b1b5629",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nob",
@@ -178,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

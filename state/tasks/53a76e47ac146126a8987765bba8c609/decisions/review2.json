@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 13",
+      "severity": "minor",
+      "source_quote": "He laid on his bed, his burden too great.",
+      "suggested_fix": "Replace “Ak akalala kitandani” with “Alijilaza kitandani” so the line says he lay down rather than that he slept.",
+      "translation_quote": "Ak alala kitandani, mzigo wake ukiwa mzito mno."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5c18df00-6438-4e72-8d04-7cdb8a5ed39a",
+    "response_id": "chatcmpl-EVZk9O8fIGnH1BBNkq75aRTR1PaUb",
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3067
+    }
+  },
+  "received_at": "2026-10-05T13:10:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Laatste strofe, vierde vers",
+        "severity": "minor",
+        "source_quote": "That leads men home to God.",
+        "suggested_fix": "Vervang dit vers door: “Die mensen naar God leidt.”",
+        "translation_quote": "Die mensen naar God thuisbrengt."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

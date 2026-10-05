@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza 5, line 3",
+      "severity": "minor",
+      "source_quote": "Since it’s easier to forget to seek / When the way you think you see.",
+      "suggested_fix": "কারণ নিজের চোখে পথ দেখতে পাচ্ছ বলে / তাঁকে খুঁজতে ভুলে যাওয়া সহজ।",
+      "translation_quote": "কারণ নিজের ভাবা পথে চলতে পারলে / তাঁর অন্বেষণ ভুলে যাওয়া সহজ।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

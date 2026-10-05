@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -65,116 +64,39 @@
         },
         "total_tokens": 17935
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1096,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 879,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10181,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10178,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11277
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, opening paragraph",
-      "severity": "major",
-      "source_quote": "And there followed him a great company of people, and of women, which also bewailed and lamented him.",
-      "suggested_fix": "इस वाक्य में “और स्त्रियाँ भी थीं” को इस तरह सुधारें कि मूल आशय स्पष्ट रहे: लोगों की बड़ी भीड़ के साथ स्त्रियों का एक बड़ा समूह भी उसके पीछे चला, और वे उसके लिए छाती पीटती और विलाप करती थीं।",
-      "translation_quote": "और उसके पीछे लोगों की बड़ी भीड़ चली, और स्त्रियाँ भी थीं, जो उसके लिए छाती पीटती और विलाप करती थीं।"
-    },
-    {
-      "location": "source.html, paragraph beginning “Our Lord began his preaching ministry”",
-      "severity": "major",
-      "source_quote": "Our Lord began his preaching ministry in a rather usual fashion: in a church",
-      "suggested_fix": "“एक आराधनालय में” को “एक चर्च में” या संदर्भानुसार “एक कलीसिया में” करें; मूल में “church” है, “synagogue” नहीं।",
-      "translation_quote": "हमारे प्रभु ने अपने प्रचार-कार्य की शुरुआत एक काफी सामान्य ढंग से की: एक आराधनालय में"
-    },
-    {
-      "location": "source.html, paragraph beginning “Our Lord began his preaching ministry”",
-      "severity": "major",
-      "source_quote": "The bruised, beaten, and bleeding Christ, upon being thoroughly molested and mocked",
-      "suggested_fix": "“सताए” को “दुर्व्यवहार किए जाने” या “बेहद प्रताड़ित किए जाने” से बदलें, ताकि मूल के “molested” का आशय बना रहे।",
-      "translation_quote": "चोटों से भरे, पिटे और लहूलुहान मसीह, को पूरी तरह सताए और उपहास किए जाने के बाद"
-    },
-    {
-      "location": "source.html, paragraph beginning “Luke is the only evangelist”",
-      "severity": "major",
-      "source_quote": "Joanna the wife of Chuza Herod’s steward",
-      "suggested_fix": "वाक्यांश को “खूजा की पत्नी योअन्ना, जो हेरोदेस के भण्डारी थे” के बजाय इस अर्थ में सुधारें: “हेरोदेस के भण्डारी खूजा की पत्नी योअन्ना।”",
-      "translation_quote": "खूजा की पत्नी योअन्ना, जो हेरोदेस के भण्डारी थे"
-    },
-    {
-      "location": "source.html, paragraph beginning “Luke is the only evangelist”",
-      "severity": "major",
-      "source_quote": "…they shall look upon me whom they have pierced",
-      "suggested_fix": "उद्धृत वचन में “मेरी ओर” करें; मूल में वक्ता स्वयं कहता है कि वे उसी की ओर ताकेंगे जिसे उन्होंने बेधा है।",
-      "translation_quote": "…वे मेरी ओर ताकेंगे, जिसे उन्होंने बेधा है"
-    },
-    {
-      "location": "source.html, paragraph beginning “Luke is the only evangelist”",
-      "severity": "major",
-      "source_quote": "and they shall mourn for him, as one mourneth for his only son",
-      "suggested_fix": "“उसके लिये” को “मेरे लिये” करें, ताकि उद्धरण में सर्वनाम मूल अंग्रेज़ी के अनुरूप रहे।",
-      "translation_quote": "और उसके लिये ऐसा रोएँगे जैसा किसी एकलौते पुत्र के लिये रोते हैं"
-    },
-    {
-      "location": "source.html, paragraph beginning “These wives apart”",
-      "severity": "major",
-      "source_quote": "These wives apart being of the gentler nature",
-      "suggested_fix": "इस विशेष पदबंध का अनुवाद “ये अलग की गई पत्नियाँ” या संदर्भानुसार “ये अलग-अलग विलाप करती स्त्रियाँ” करें; “wives apart” का आशय पत्नियों/स्त्रियों के अलग रहने या विलाप करने से है, केवल अलग-अलग विलाप करने वाली स्त्रियों से नहीं।",
-      "translation_quote": "ये अलग-अलग विलाप करती स्त्रियाँ"
-    },
-    {
-      "location": "source.html, paragraph beginning “Though their tears would seem”",
-      "severity": "major",
-      "source_quote": "When He pronounced that the dead was not dead, but [that she] sleepeth",
-      "suggested_fix": "“जब उन्होंने कहा” को “जब उसने कहा” करें; यह कथन यीशु ने किया था, उन स्त्रियों ने नहीं।",
-      "translation_quote": "जब उन्होंने कहा कि मृत लड़की मरी नहीं, पर सोती है"
-    },
-    {
-      "location": "source.html, paragraph beginning “One will not decry their natural empathy”",
-      "severity": "major",
-      "source_quote": "We can feel so tender at a given moment without an ounce of the Holy Ghost.",
-      "suggested_fix": "“जबकि हममें पवित्र आत्मा का लेशमात्र भी न हो” को “भले ही पवित्र आत्मा का लेशमात्र भी न हो” या समानार्थी रूप में करें; मूल यह नहीं कहता कि हमारे भीतर पवित्र आत्मा बिल्कुल नहीं है।",
-      "translation_quote": "हम किसी क्षण बहुत कोमलता महसूस कर सकते हैं, जबकि हममें पवित्र आत्मा का लेशमात्र भी न हो।"
-    },
-    {
-      "location": "source.html, paragraph beginning “Weep not over the crucifixion”",
-      "severity": "major",
-      "source_quote": "Cherish not the old rugged cross but lament the old ribald cause.",
-      "suggested_fix": "“पुरानी उद्दंड वजह” को “उस पुराने अश्लील/दुष्ट कारण” जैसे रूप में सुधारें; “ribald” का अर्थ उद्दंड नहीं, बल्कि अश्लील या भद्दा है।",
-      "translation_quote": "पुराने खुरदरे क्रूस को सँजोकर मत रखो, बल्कि उस पुरानी उद्दंड वजह पर विलाप करो।"
-    },
-    {
-      "location": "source.html, paragraph beginning “We are the cause for such a livid scene”",
-      "severity": "major",
-      "source_quote": "His God forsook Him because of our transgressions.",
-      "suggested_fix": "“उसके परमेश्वर ने उसे त्याग दिया” को “परमेश्वर ने उसे त्याग दिया” करें; स्रोत में “His God” है, लेकिन हिंदी में यह वर्तमान रूप अनावश्यक रूप से परमेश्वर को उसका स्वामित्व बताता है और संबंध का आशय बिगाड़ता है।",
-      "translation_quote": "हमारे अपराधों के कारण उसके परमेश्वर ने उसे त्याग दिया।"
-    },
-    {
-      "location": "source.html, paragraph beginning “Funerals are a traditional cause for weeping”",
-      "severity": "major",
-      "source_quote": "All the vain things that have charmed us most lay mortified within the vault.",
-      "suggested_fix": "“वे सब कब्र के भीतर मृत पड़ी हैं” को “वे सब कब्र में निष्प्राण पड़ी हैं” या “उनका अंत कब्र में हो चुका है” करें; मूल में उन चीज़ों के मृत पड़े होने का कथन है, न कि केवल उनके कब्र के भीतर होने का।",
-      "translation_quote": "जिन व्यर्थ चीज़ों ने हमें सबसे अधिक मोहित किया, वे सब कब्र के भीतर मृत पड़ी हैं।"
-    },
-    {
-      "location": "source.html, paragraph beginning “Not only are we accountable”",
-      "severity": "major",
-      "source_quote": "the least we can do is spend our days weeping over the poor example we have been and difficulty we have created for their conversion.",
-      "suggested_fix": "“उनके मन-परिवर्तन के लिए हमने जो कठिनाई खड़ी की है” को “उनके मन-परिवर्तन में हमने जो कठिनाई पैदा की है” करें; वर्तमान अनुवाद यह आशय धुँधला करता है कि माता-पिता ने उनके परिवर्तन को कठिन बनाया।",
-      "translation_quote": "हम अपने दिन उस बुरे उदाहरण पर रोते हुए बिता सकते हैं जो हम बने हैं, और उनके मन-परिवर्तन के लिए हमने जो कठिनाई खड़ी की है उस पर शोक कर सकते हैं।"
-    },
-    {
-      "location": "source.html, paragraph beginning “In the remnant portion of His message”",
-      "severity": "major",
-      "source_quote": "This abomination brought Jerusalem to desolation in 70 A.D.",
-      "suggested_fix": "“इस घृणित काम” को “इस घृणित कार्य” या “इस घृणित वस्तु” करें; मूल “abomination” कहता है, जबकि वर्तमान रूप “काम” से अर्थ अनुचित रूप से संकुचित होता है।",
-      "translation_quote": "इस घृणित काम ने 70 ईस्वी में यरूशलेम को उजाड़ कर दिया"
-    },
-    {
-      "location": "source.html, paragraph beginning “Several years ago”",
-      "severity": "major",
-      "source_quote": "theaters and wept at Mel Gibson’s motion picture—The Passion of Christ",
-      "suggested_fix": "शीर्षक को “मसीह का दुखभोग” के बजाय फ़िल्म के नाम के रूप में प्रस्तुत करें, जैसे “द पैशन ऑफ़ द क्राइस्ट”; शीर्षक का अनुवाद करके इसे सामान्य वर्णन में बदलने से कृति का नाम अस्पष्ट होता है।",
-      "translation_quote": "मेल गिब्सन की चलचित्र—मसीह का दुखभोग—देखकर रोई"
+      "location": "HTML, lead paragraph",
+      "severity": "minor",
+      "source_quote": "The bruised, beaten, and bleeding Christ, upon being thoroughly molested and mocked, began the painstaking journey up the Via Dolorosa pathway to Golgotha.",
+      "suggested_fix": "Revise narrowly for grammatical flow, for example: “चोटों से भरे, पिटे और लहूलुहान मसीह के साथ बुरी तरह दुर्व्यवहार और उपहास किए जाने के बाद, उन्होंने गोलगोथा की ओर दुखभरे मार्ग पर पीड़ादायक यात्रा शुरू की।”",
+      "translation_quote": "चोटों से भरे, पिटे और लहूलुहान मसीह को बुरी तरह दुर्व्यवहार किए जाने और उनका उपहास किए जाने के बाद, गोलगोथा की ओर दुखभरे मार्ग पर पीड़ादायक यात्रा पर चल पड़े।"
     }
   ],
+  "finished_at": "2026-10-05T13:10:13+00:00",
   "id": "ef1f02c2b88ae53e3d27bce7e88b2968",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "hin",
@@ -263,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

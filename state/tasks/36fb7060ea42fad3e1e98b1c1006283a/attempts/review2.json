@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, second poem stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"And strove to follow this command\",\"suggested_fix\":\"Ändra till ”och strävade efter att följa denna befallning” för idiomatisk svenska.\",\"translation_quote\":\"och strävade att följa denna befallning\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 334,
+    "content_evidence_truncated": false,
+    "content_sha256": "832e618f9649a9d39532c5b5507e21c19b7a5a054ea80215d46a253624bc4596",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2529,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3223
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

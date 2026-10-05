@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae787899b2634c17844039235a78eb61",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -65,60 +64,39 @@
         },
         "total_tokens": 9219
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 955,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 696,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5515,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5512,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6470
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph 2",
-      "severity": "major",
-      "source_quote": "Sometimes fear is irrational and can’t ask neatly expressed questions.",
-      "suggested_fix": "Wakati mwingine hofu haina mantiki na haiwezi kuuliza maswali yaliyotamkwa kwa uwazi.",
-      "translation_quote": "Wakati mwingine hofu haina mantiki na haiwezi kuuliza maswali yaliyopangwa vizuri."
-    },
-    {
-      "location": "Article, paragraph 7",
-      "severity": "major",
-      "source_quote": "The precious face of a newborn baby is seen only after the pain of childbirth.",
-      "suggested_fix": "Uso wa thamani wa mtoto mchanga huonekana tu baada ya uchungu wa kujifungua.",
-      "translation_quote": "Uso wa thamani wa mtoto mchanga huonekana tu baada ya uchungu wa kujifungua."
-    },
-    {
-      "location": "Article, paragraph 9",
-      "severity": "major",
-      "source_quote": "Just break, give in to the fire, the damp dark earth, the confining chrysalis, and the pain.",
-      "suggested_fix": "Vunjikeni tu; jisalimisheni kwa moto, udongo wenye unyevunyevu na giza, kifuko kinachobana, na maumivu.",
-      "translation_quote": "Vunjikeni tu, jisalimisheni kwa moto, udongo wenye unyevunyevu na giza, kifuko kinachobana, na maumivu."
-    },
-    {
-      "location": "Article, paragraph 10",
-      "severity": "major",
-      "source_quote": "When we understand the value of pain, then fear and worry will disappear.",
-      "suggested_fix": "Tunapoelewa thamani ya maumivu, ndipo hofu na wasiwasi vitatoweka.",
-      "translation_quote": "Tunapoelewa thamani ya maumivu, hofu na wasiwasi vitatoweka."
-    },
-    {
-      "location": "Article, paragraph 11",
-      "severity": "major",
-      "source_quote": "Radically different then the lawless slogan of the 1990s, “No Fear”, as Christians we can truly say, “No fear,”",
-      "suggested_fix": "Tofauti kabisa na kauli mbiu ya uasi-sheria ya miaka ya 1990, “Hakuna Hofu,” sisi Wakristo tunaweza kusema kweli, “Hakuna hofu,”",
-      "translation_quote": "Tukiwa tofauti kabisa na kauli mbiu ya uasi-sheria ya miaka ya 1990, “Hakuna Hofu,” sisi Wakristo tunaweza kusema kweli, “Hakuna hofu,”"
-    },
-    {
-      "location": "Article, paragraph 12",
-      "severity": "major",
-      "source_quote": "It is a battle that I must fight.",
-      "suggested_fix": "Ni vita ambavyo lazima nipigane.",
-      "translation_quote": "Ni vita ambavyo lazima nipigane."
-    },
-    {
-      "location": "Article, paragraph 17",
-      "severity": "major",
-      "source_quote": "Trauma?",
-      "suggested_fix": "Mshtuko wa kisaikolojia?",
-      "translation_quote": "Majeraha ya kihisia?"
+      "location": "Article paragraphs quoting Scripture: Matthew 6:27, 34; 1 Peter 4:12–13; 2 Timothy 1:7; Luke 10:27; John 16:33",
+      "severity": "minor",
+      "source_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33.",
+      "suggested_fix": "Use conventional Kiswahili book names in the references while preserving the exact chapter and verse numbers, ranges, and placement: “–Mt 6:27, 34”; “–1 Petro 4: 12-13”; “–2 Timotheo 1:7”; “–Luka 10:27”; “–Yohana 16:33.”",
+      "translation_quote": "–Mat 6:27, 34; –1Pe 4: 12-13; –2Ti 1:7; –Luk 10:27; –Joh 16:33."
     }
   ],
+  "finished_at": "2026-10-05T13:10:12+00:00",
   "id": "7eea67cfe4d7712b6db6043f2a9e4872",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -207,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"
