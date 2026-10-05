@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:09:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, παράγραφος που αρχίζει «Μην ανησυχείτε για τίποτε», τελευταία πρόταση\",\"severity\":\"minor\",\"source_quote\":\"Herein is the keeping of our hearts and minds: prayer, peace, and thanksgiving.\",\"suggested_fix\":\"Αντικαταστήστε μόνο τη φράση «η φύλαξη των καρδιών και των νου μας» με «η φύλαξη της καρδιάς και του νου μας», διατηρώντας τη δομή HTML και το υπόλοιπο κείμενο.\",\"translation_quote\":\"Εδώ βρίσκεται η φύλαξη των καρδιών και των νου μας: προσευχή, ειρήνη και ευχαριστία.\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 798,
+    "content_evidence_truncated": false,
+    "content_sha256": "e51036f2c48c70ad9e3906bef250c651b51cba3c93e87ccba8276cc70c3e4fb4",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9057,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9296
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

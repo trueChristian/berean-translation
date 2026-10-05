@@ -13025,6 +13025,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "bcb3d0abb779a021d707d977a571ef276dc47fb9695b777564e5b8fe8ecbca83",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "Μια πορτοκαλί και μαύρη πεταλούδα ανάμεσα σε πράσινα φύλλα",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "Ένας βλαστός με μικρές πορτοκαλί ορχιδέες",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "dff22b80e956f87fa61b1ed01495c022ccc9dab0b474e59ebb9c92623bbc7e79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΝΙΚΗΦΟΡΑ ΧΡΙΣΤΙΑΝΙΚΗ ΖΩΗ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Δύναμη, Αγάπη και Υγιής Νους",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.html",
       "html_sha256": "a21d45e445912c06ea9d30186e868828cd32b7e241be1f7db70d8850bbc49d7c",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, παράγραφος που αρχίζει «Μην ανησυχείτε για τίποτε», τελευταία πρόταση",
+      "severity": "minor",
+      "source_quote": "Herein is the keeping of our hearts and minds: prayer, peace, and thanksgiving.",
+      "suggested_fix": "Αντικαταστήστε μόνο τη φράση «η φύλαξη των καρδιών και των νου μας» με «η φύλαξη της καρδιάς και του νου μας», διατηρώντας τη δομή HTML και το υπόλοιπο κείμενο.",
+      "translation_quote": "Εδώ βρίσκεται η φύλαξη των καρδιών και των νου μας: προσευχή, ειρήνη και ευχαριστία."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

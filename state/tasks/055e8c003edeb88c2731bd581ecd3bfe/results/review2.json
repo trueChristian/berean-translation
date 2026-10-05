@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e35951e4-91d6-4594-915e-380b8ed686d5",
+    "response_id": "chatcmpl-EVZhexlGZQYT3nVMlzAzlMoeTP2kd",
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9057,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9296
+    }
+  },
+  "received_at": "2026-10-05T13:09:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, παράγραφος που αρχίζει «Μην ανησυχείτε για τίποτε», τελευταία πρόταση",
+        "severity": "minor",
+        "source_quote": "Herein is the keeping of our hearts and minds: prayer, peace, and thanksgiving.",
+        "suggested_fix": "Αντικαταστήστε μόνο τη φράση «η φύλαξη των καρδιών και των νου μας» με «η φύλαξη της καρδιάς και του νου μας», διατηρώντας τη δομή HTML και το υπόλοιπο κείμενο.",
+        "translation_quote": "Εδώ βρίσκεται η φύλαξη των καρδιών και των νου μας: προσευχή, ειρήνη και ευχαριστία."
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

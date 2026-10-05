@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e1224f83ae75443a83b190ec3022740c",
   "campaign": "downstream-2026100406",
   "continuation": {
     "cycle": 1,
@@ -40,74 +39,39 @@
         },
         "total_tokens": 16518
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 236,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9060,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9057,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9296
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...Notable scripture in paragraph with 2 Timothy 1:7 (first section)</p>",
-      "severity": "major",
-      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
-      "suggested_fix": "Translate the English scripture quotation into Greek, conveying the exact meaning of the printed English in the source. For example, replace the English with a faithful Greek rendering that reflects the source wording: «Ο Θεός δεν μας έδωσε πνεῦμα φόβου, ἀλλὰ πνεῦμα δυνάμεως καὶ ἀγάπης καὶ σωφροσύνης.» (2 Timothy 1:7) — preserving the verse reference unchanged.",
-      "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
-    },
-    {
-      "location": "Prayer section, paragraph containing the phrase about the Spirit's intercession",
-      "severity": "major",
-      "source_quote": "the Spirit, which maketh intercession for us with groanings which cannot be uttered.",
-      "suggested_fix": "The English clause was left partially untranslated. Render the full clause into Greek, conveying the precise sense of the printed English. Suggested replacement: «το Πνεῦμα, τὸ ὁ ἐντυγχάνει ὑπὲρ ἡμῶν μετὰ ἀλαλιαζομένων στεναγμῶν» or a modern Greek equivalent that accurately reflects the English wording: «το Πνεύμα, που κάνει εντεύξεις για μας με στεναγμούς που δεν μπορούν να εκφραστούν.»",
-      "translation_quote": "<em>the Spirit,</em> which <em>maketh intercession for us with groanings which cannot be uttered.</em>"
-    },
-    {
-      "location": "Paragraph citing Job 15:21, 22 (first section)",
-      "severity": "major",
-      "source_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)",
-      "suggested_fix": "Translate this English quotation into Greek so the translation conveys the printed English text. For example: «Φόβος φοβερός στα αυτιά του· εν τῇ εὐτυχίᾳ ἐπὶ αὐτὸν ἥξει ὁ ὀλοθρευτής. Οὐκ ἐλπίζει ὅτι ἐκ σκότους ἀναστῇ, καὶ προσμένει αὐτῷ ἡ μάχαιρα.» (Job 15:21–22) — or a modern Greek rendering faithful to the English phrasing.",
-      "translation_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)"
-    },
-    {
-      "location": "Paragraph quoting 2 Corinthians 7:5",
-      "severity": "major",
-      "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
-      "suggested_fix": "Translate the verse into Greek to match the printed English wording. For example: «περιπεσὼν περιπέτεια, ἔξω μάχαι, ἔσω φόβοι.» or a clearer modern Greek rendering faithful to the English text: «ταραγμένος πανταχόθεν· έξω ήταν αγώνες, μέσα ήταν φόβοι.»",
-      "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
-    },
-    {
-      "location": "Paragraph containing Philippians 4:6–7",
-      "severity": "major",
-      "source_quote": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” (Philippians 4:6 7)",
-      "suggested_fix": "Translate the English quotation into Greek so it conveys the source's printed text. Suggested rendering: «Μην ανησυχείτε για τίποτε· ἀλλά ἐν παντί διὰ προσευχῆς καὶ δεήσεως μετὰ εὐχαριστίας τὰ αἰτήματά ὑμῶν γνωριζέσθω· καὶ ἡ εἰρήνη τοῦ Θεοῦ, ἥ ὑπερβαίνει πάσαν νοῦν, φρουρήσει τὰς καρδίας ὑμῶν καὶ τὰ νοήματα ὑμῶν ἐν Χριστῷ Ἰησοῦ.» (Philippians 4:6–7)",
-      "translation_quote": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” (Philippians 4:6 7)"
-    },
-    {
-      "location": "Job 23:1–6 and the subsequent bulleted Old Testament quotations list",
-      "severity": "major",
-      "source_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. ...” (Job 23:1-6) and list items such as “I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2) etc.",
-      "suggested_fix": "All scriptural quotations in the Job passage and the bulleted list are left in English in the source and must be rendered into Greek to match the printed English meaning. Replace each English quotation with a faithful Greek rendering that preserves the sense and order of the source English (e.g. translate Job 23:1–6 and each quoted verse in the list into Greek, keeping verse references unchanged).",
-      "translation_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. Oh that I knew where I might find him! ...” (Job 23:1-6) and list items in English (Psalm 142:2; 1 Samuel 1:16; Lamentations 3:15; Ruth 1:20; Isaiah 38:12; Matthew 27:46)."
-    },
-    {
-      "location": "Paragraphs with other quoted passages left in English later in article (1 John 4:18; Psalm 119:165; 1 John 4:19, 20; Isaiah 8:12, 13; 1 Peter 1:13; Philippians blockquote at end)",
-      "severity": "major",
-      "source_quote": "Several verbatim English quotations remain in the source: e.g. “there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18); \"Great peace have they which love thy law: and nothing shall offend them.” (Psalm 119:165); “We love him, because he first loved us. If a man say, I love God, and hateth his brother, he is a liar: ...” (1 John 4:19, 20); “... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13); “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13) and the Philippians 4:7,8 block quotation at the end.",
-      "suggested_fix": "Each of these English-scripture quotations must be translated into Greek to convey the precise printed-English wording from the source. Provide faithful Greek renderings for each quoted verse (keeping verse references as in source). The final block quote (Philippians 4:7–8) must likewise be translated into Greek rather than left in English.",
-      "translation_quote": "The translation currently retains these verses in English (verbatim) in multiple places."
-    },
-    {
-      "location": "First paragraph of translation: sentence 'Ο χειμώνας του 1882 εκτυλίχθηκε...'",
+      "location": "translation.html, παράγραφος που αρχίζει «Μην ανησυχείτε για τίποτε», τελευταία πρόταση",
       "severity": "minor",
-      "source_quote": "The winter of 1882 unfolded in the small southern town of Tuscumbia, Alabama.",
-      "suggested_fix": "Stylistic/grammatical improvement: replace 'εκτυλίχθηκε' with the more idiomatic 'διεκπεραιώθηκε' or 'ξετυλίχθηκε' or 'συμβάνε' (e.g. 'Ο χειμώνας του 1882 ξεδιπλώθηκε στη μικρή νότια πόλη Τασκούμπια της Αλαμπάμα'). This preserves meaning and improves Greek idiom.",
-      "translation_quote": "Ο χειμώνας του 1882 εκτυλίχθηκε στην μικρή νότια πόλη Τασκούμπια της Αλαμπάμα."
-    },
-    {
-      "location": "First paragraph second sentence: 'Ο πυρετός ερχόταν και συνέβαινε να φεύγει, ερχόταν και ξαναέφευγε, και επέστρεψε ξανά.'",
-      "severity": "minor",
-      "source_quote": "A happy, normal two-year-old girl fell desperately ill with a strange fever. The fever came and went, came and went, and came again.",
-      "suggested_fix": "Reduce redundancy and correct awkward phrasing. Suggested Greek: 'Ο πυρετός εμφανιζόταν και υποχωρούσε, επανεμφανιζόταν.' Replace the current sentence with a more idiomatic rendering to match the source meaning.",
-      "translation_quote": "Ο πυρετός ερχόταν και συνέβαινε να φεύγει, ερχόταν και ξαναέφευγε, και επέστρεψε ξανά."
+      "source_quote": "Herein is the keeping of our hearts and minds: prayer, peace, and thanksgiving.",
+      "suggested_fix": "Αντικαταστήστε μόνο τη φράση «η φύλαξη των καρδιών και των νου μας» με «η φύλαξη της καρδιάς και του νου μας», διατηρώντας τη δομή HTML και το υπόλοιπο κείμενο.",
+      "translation_quote": "Εδώ βρίσκεται η φύλαξη των καρδιών και των νου μας: προσευχή, ειρήνη και ευχαριστία."
     }
   ],
+  "finished_at": "2026-10-05T13:09:34+00:00",
   "id": "055e8c003edeb88c2731bd581ecd3bfe",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ell",
@@ -196,12 +160,14 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-6.1-sol"
