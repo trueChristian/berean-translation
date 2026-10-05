@@ -10,7 +10,7 @@ Observed English revision: `29e37890a4be91d8d0483d791303be3c8e642c91`
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 109 | 0 |
-| `heartbeat-remnant-2024-spring` | 11 | 141 / 220 | 14 | 65 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 141 / 220 | 19 | 60 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
@@ -117,9 +117,9 @@ Observed English revision: `29e37890a4be91d8d0483d791303be3c8e642c91`
 | `cmn` (zh-Hans) | 96 / 1167 | 0 | 7 | 81 | 110 |
 | `hin` (hi) | 99 / 1167 | 0 | 4 | 82 | 122 |
 | `spa` (es) | 137 / 1167 | 0 | 5 | 42 | 86 |
-| `ara` (ar) | 89 / 1167 | 0 | 6 | 93 | 125 |
+| `ara` (ar) | 89 / 1167 | 0 | 7 | 92 | 124 |
 | `fra` (fr) | 127 / 1167 | 0 | 5 | 55 | 94 |
-| `ben` (bn) | 89 / 1167 | 0 | 5 | 91 | 133 |
+| `ben` (bn) | 89 / 1167 | 0 | 6 | 90 | 132 |
 | `por` (pt) | 143 / 1167 | 0 | 5 | 36 | 89 |
 | `ind` (id) | 117 / 1167 | 0 | 3 | 64 | 106 |
 | `urd` (ur) | 95 / 1167 | 0 | 4 | 84 | 124 |
@@ -129,11 +129,11 @@ Observed English revision: `29e37890a4be91d8d0483d791303be3c8e642c91`
 | `afr` (af) | 119 / 1167 | 3 | 5 | 63 | 95 |
 | `swa` (sw) | 65 / 1167 | 0 | 4 | 116 | 142 |
 | `kor` (ko) | 107 / 1167 | 0 | 6 | 70 | 111 |
-| `ita` (it) | 128 / 1167 | 0 | 5 | 52 | 90 |
-| `heb` (he) | 45 / 1167 | 0 | 8 | 130 | 140 |
+| `ita` (it) | 128 / 1167 | 0 | 6 | 51 | 89 |
+| `heb` (he) | 45 / 1167 | 0 | 9 | 129 | 139 |
 | `ell` (el) | 101 / 1167 | 0 | 5 | 81 | 116 |
 | `swe` (sv) | 109 / 1167 | 0 | 6 | 70 | 115 |
-| `nob` (nb) | 107 / 1167 | 0 | 5 | 74 | 121 |
+| `nob` (nb) | 107 / 1167 | 0 | 6 | 73 | 120 |
 
 ## Issue / language work
 
@@ -164,9 +164,9 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-spring` | `cmn` | 7 / 11 | 0 | 2 | 2 | 0 |
 | `heartbeat-remnant-2024-spring` | `hin` | 7 / 11 | 0 | 1 | 3 | 0 |
 | `heartbeat-remnant-2024-spring` | `spa` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-spring` | `ara` | 6 / 11 | 0 | 1 | 4 | 0 |
+| `heartbeat-remnant-2024-spring` | `ara` | 6 / 11 | 0 | 2 | 3 | 0 |
 | `heartbeat-remnant-2024-spring` | `fra` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `ben` | 7 / 11 | 0 | 2 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `ben` | 7 / 11 | 0 | 3 | 1 | 0 |
 | `heartbeat-remnant-2024-spring` | `por` | 8 / 11 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2024-spring` | `ind` | 9 / 11 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2024-spring` | `urd` | 9 / 11 | 0 | 1 | 1 | 0 |
@@ -176,11 +176,11 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-spring` | `afr` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-spring` | `swa` | 4 / 11 | 0 | 1 | 6 | 0 |
 | `heartbeat-remnant-2024-spring` | `kor` | 8 / 11 | 0 | 1 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `ita` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `heb` | 1 / 11 | 0 | 3 | 7 | 0 |
+| `heartbeat-remnant-2024-spring` | `ita` | 8 / 11 | 0 | 1 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `heb` | 1 / 11 | 0 | 4 | 6 | 0 |
 | `heartbeat-remnant-2024-spring` | `ell` | 7 / 11 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2024-spring` | `swe` | 5 / 11 | 0 | 1 | 5 | 0 |
-| `heartbeat-remnant-2024-spring` | `nob` | 9 / 11 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `nob` | 9 / 11 | 0 | 1 | 1 | 0 |
 | `heartbeat-remnant-2024-winter` | `cmn` | 8 / 11 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2024-winter` | `hin` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-winter` | `spa` | 9 / 11 | 0 | 0 | 2 | 0 |
@@ -497,7 +497,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $130.000000 across 9 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 104 | already_translated: 108 | continuation_progress_uncertain_requires_attention: 7 | eligible_automatic: 1323 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 68
+active: 109 | already_translated: 108 | continuation_progress_uncertain_requires_attention: 7 | eligible_automatic: 1323 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 63
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -574,7 +574,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37314284958` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.056390 / 30.00 | [state](state/campaigns/gh-37314284958.json) |
 | `gh-37314352672` | manual | translate | active | 90 | 90 active | 0.00000000 | 0.534760 / 30.00 | [state](state/campaigns/gh-37314352672.json) |
 | `gh-37333306531` | manual | translate | planned | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333306531.json) |
-| `gh-37333368552` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333368552.json) |
+| `gh-37333368552` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333368552.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle

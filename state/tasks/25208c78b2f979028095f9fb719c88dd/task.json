@@ -1,0 +1,152 @@
+{
+  "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37333368552",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "81ef9562dd73beb9ee1e01c0e739b55eaca5c77b9b6ed0e233203d4c6a9c8806"
+  },
+  "created_at": "2026-10-05T15:35:59+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.304019,
+    "review_reserved_usd": 1.034395,
+    "total_reserved_usd": 1.338414
+  },
+  "downstream_candidate_sha256": "3916f0b93ce1713c6ef4ffad446c3dc886bad3decdf3f9ae4cb73b88619a165d",
+  "downstream_key": "631db2b458832887c7a050988a177a388f5f0acd822df5e4ccd965ac01f4c770",
+  "downstream_previous_sha256": "d2047669c74689e15d2308650d01c078516a0efb3bc113362ada7794dc53b9dc",
+  "downstream_previous_task": "8b366d3652776b0fb9040eeaacc3ce4c",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<h2>דמנציה בתנ\"ך</h2> / following <p> (Ecclesiastes 12:1-7 quote)",
+      "severity": "major",
+      "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Translate the entire Ecclesiastes 12:1–7 passage into contemporary Modern Hebrew conveying the exact printed English wording (not substituting a different Bible version). Keep the English reference “Ecclesiastes 12:1-7” (or add the Hebrew book name in parentheses) but render the quoted verses fully in Hebrew, preserving the meaning of the printed English lines and punctuation. Ensure no English words remain inside the quote block.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+    },
+    {
+      "location": "Paragraph discussing teaching children (Deuteronomy citation)",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Render the quoted Deuteronomy 6:7 text into contemporary Modern Hebrew matching the printed English quotation's content. Replace the inline English quotation with its Hebrew rendering, and keep the citation (Deuteronomy 6:7) in English or add the Hebrew book name in parentheses. Do not insert mixed-language fragments.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+    },
+    {
+      "location": "Same paragraph: preceding sentence with mixed-language error",
+      "severity": "major",
+      "source_quote": "We are to make certain that we instruct our children about Him. “And thou shalt teach them diligently unto thy children...",
+      "suggested_fix": "The translation currently reads 'עלינו לוודא שאנו מלמדים את ילדים על אותו One.' Replace the mixed-language phrase with a correct Hebrew rendering that preserves the source meaning. Suggested: 'עלינו לוודא שאנו מלמדים את ילדינו עליו.' (Keep the quoted Deuteronomy verse translated into Hebrew as a separate quoted block.)",
+      "translation_quote": "עלינו לוודא שאנו מלמדים את ילדים על אותו One."
+    },
+    {
+      "location": "Conclusion / Galatians quote",
+      "severity": "major",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the Galatians 5:22–23 quotation into contemporary Modern Hebrew while conveying the same printed English wording and word order as far as idiom allows. Keep the scripture citation (Galatians 5:22-23) but render the quoted verse into Hebrew text rather than leaving it in English.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+    }
+  ],
+  "id": "25208c78b2f979028095f9fb719c88dd",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "heb",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: none; extra: 12:1-7",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/a7018be3a61d43b3edd46efd6c926cd7c8b97d08fe947790eafc957cd45e159d.json",
+  "scripture_evidence_sha256": "a7018be3a61d43b3edd46efd6c926cd7c8b97d08fe947790eafc957cd45e159d",
+  "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

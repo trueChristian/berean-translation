@@ -1,0 +1,145 @@
+{
+  "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37333368552",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "aa8dfde95e47b80da2b4f138ce3be57bca3bfc675962ebd519330ec60abde0bf"
+  },
+  "created_at": "2026-10-05T15:35:59+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.226227,
+    "review_reserved_usd": 0.90085,
+    "total_reserved_usd": 1.127077
+  },
+  "downstream_candidate_sha256": "6c4f71a9fb293b3269e1056fa8e297da0113938d1bbe2b3deffa701d0a8d1418",
+  "downstream_key": "875b078b891a649f0b470fc548175e1d60f4cdb2b9a4d73d492d1de4ff4416c3",
+  "downstream_previous_sha256": "c79fbd18355b52a74d625a25ecfe90c12d421c9b5cede2e458342152256b25d5",
+  "downstream_previous_task": "a0493a9d976ed262ea68976159a0e083",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "Paragraph about the hymn tune (near end of article)",
+      "severity": "critical",
+      "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
+      "suggested_fix": "Translate or render this quoted refrain consistently into Italian (or keep the entire quoted hymn lines in English only if the source printed them in English and the translation is meant to reproduce them verbatim). Preserve the original punctuation and capitalization and, if translated, ensure the Italian matches the printed English meaning. Example Italian rendering: \"E gloria — gloria dimora nella terra di Immanuel.\"",
+      "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
+    },
+    {
+      "location": "Final paragraph closing quotation",
+      "severity": "critical",
+      "source_quote": "\"They lose nothing who gain Christ.\"",
+      "suggested_fix": "Translate this quoted statement into Italian (or retain it verbatim in English only if the authoritative English text is intended to appear untranslated). Preserve meaning and theological force. Example Italian rendering: \"Non perdono nulla coloro che acquistano Cristo.\"",
+      "translation_quote": "\"They lose nothing who gain Christ.\""
+    },
+    {
+      "location": "Hymn stanza 2 (hymn div, stanza labelled 2)",
+      "severity": "minor",
+      "source_quote": "Oh! well it is forever,\nOh! well forevermore\nMy nest hung in no forest\nOf all this death-doomed shore!",
+      "suggested_fix": "Adjust the Italian to convey the printed English meaning more clearly and idiomatically. The current \"Il mio nido appeso in nessuna foresta / Di tutta questa sponda destinata alla morte!\" is awkward and risks altering sense. Suggested Italian: \"Oh! bene è per sempre,\nOh! bene per sempre ancora:\nil mio nido non posa in alcuna foresta\ndi questa riva destinata alla morte!\" (preserving line breaks and poetic sense).",
+      "translation_quote": "\"Il mio nido appeso in nessuna foresta\nDi tutta questa sponda destinata alla morte!\""
+    }
+  ],
+  "id": "7ebbb618d5dfc2ab793eb5f09b52a86c",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "ita",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[42]: source /article[1]/div[1]/p[1]/strong[1]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[1]/strong[1]/em[1] ('end', 'em')",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3.json",
+  "scripture_evidence_sha256": "1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3",
+  "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

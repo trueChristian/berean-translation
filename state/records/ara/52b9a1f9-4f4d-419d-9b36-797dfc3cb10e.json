@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/figure[1]/img[1] ('start', 'img', (('alt', '<translated>'), ('src', '/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg'))); translation /article[1]/figure[1]/img[1] ('start', 'img', (('alt', '<translated>'), ('src', '/images/articles/52b9a1f9-4f4d-9b36-797dfc3cb10e-1.jpg')))",
       "task": "d8dc411b52db03ac50279929fd481b91"
+    },
+    {
+      "at": "2026-10-05T15:35:59+00:00",
+      "campaign": "gh-37333368552",
+      "event": "downstream_repair_requested",
+      "previous_task": "d8dc411b52db03ac50279929fd481b91",
+      "task": "dffc060b273799aed81537fb9d6caeac"
     }
   ],
   "language": "ara",
-  "latest_task": "d8dc411b52db03ac50279929fd481b91",
+  "latest_task": "dffc060b273799aed81537fb9d6caeac",
   "published": null
 }

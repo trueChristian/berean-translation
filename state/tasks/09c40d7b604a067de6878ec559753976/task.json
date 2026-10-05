@@ -1,0 +1,152 @@
+{
+  "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37333368552",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "420070bd748c8e81d4fe52d3db841b40352050c61abd67815e1fea9a1e9cc860"
+  },
+  "created_at": "2026-10-05T15:35:59+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.298598,
+    "review_reserved_usd": 1.03577,
+    "total_reserved_usd": 1.334368
+  },
+  "downstream_candidate_sha256": "51fb719580ba2319c272a497bee5540649f03ed3003b4fdd783cb60a673f787e",
+  "downstream_key": "7f6ea9b5df3f29032fb7df37710eb900034e7df275089130e0ca8c22f8cba67d",
+  "downstream_previous_sha256": "1cafeca4f5e09db154037cb6ad3627d77821e5ee4420c15baa5b8c07281fe504",
+  "downstream_previous_task": "59310f05b43bec8910fe96abbecd066e",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Ecclesiastes 12:1-7",
+      "severity": "critical",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Translate the entire Ecclesiastes 12:1-7 quotation into Norwegian Bokmål, preserving the quoted-block HTML structure and punctuation. Example (not required verbatim if stylistic differences are preferred): replace the English block with an equivalent Norwegian Bokmål rendering of the same printed English passage, keeping it inside the same <p> ... </p> element.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+    },
+    {
+      "location": "source.html — paragraph quoting Deuteronomy 6:7",
+      "severity": "critical",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Translate the Deuteronomy 6:7 quotation into Norwegian Bokmål, preserving the scripture reference and the punctuation, and keep it inside the same <p> element. Ensure the translated wording conveys the same printed English meaning used in the source.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+    },
+    {
+      "location": "source.html — paragraph quoting Galatians 5:22-23",
+      "severity": "critical",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the Galatians 5:22-23 quotation into Norwegian Bokmål, preserving the citation and punctuation inside the same <p> element. The translation should render the printed English content appropriately into Bokmål without altering theological meaning.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+    },
+    {
+      "location": "source.html — multiple section headings left in English (e.g. \"Dementia in the Bible\", \"What Dementia is\", \"Diagnosing Dementia\", \"Eliminate Medications\", \"Medical Treatments\", \"Non-medication Therapies\", \"Caring For Someone with Dementia\", \"Get Others to Help\", \"Conclusion\")",
+      "severity": "minor",
+      "source_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion",
+      "suggested_fix": "Translate each English section heading into Norwegian Bokmål and replace the English headings in-place, preserving the <h2> tag structure and any surrounding HTML. For example: \"Dementia in the Bible\" → \"Demens i Bibelen\", \"What Dementia is\" → \"Hva demens er\", \"Diagnosing Dementia\" → \"Å diagnostisere demens\", etc., matching the article's tone.",
+      "translation_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion"
+    }
+  ],
+  "id": "09c40d7b604a067de6878ec559753976",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "nob",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: 12:1-7; extra: none",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/89a30136bb3822410122fbdd8d73ba1c219bbdad53dd607c695783e69c812811.json",
+  "scripture_evidence_sha256": "89a30136bb3822410122fbdd8d73ba1c219bbdad53dd607c695783e69c812811",
+  "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
