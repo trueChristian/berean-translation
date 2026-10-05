@@ -2,7 +2,6 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 6557
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 341,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 315,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4288,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4285,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4629
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “Prosseguindo no versículo”",
-      "severity": "major",
-      "source_quote": "He has a zeal for God and a burden for the lost that is refreshing and inspiring…",
-      "suggested_fix": "Replace the sentence with: “Isso me faz pensar num homem que faz parte da minha vida e a quem aprecio muito. Seu zelo por Deus e seu pesar pelos perdidos são revigorantes e inspiradores….”",
-      "translation_quote": "Ele tem zelo por Deus e um peso no coração pelos perdidos que são revigorantes e inspiradores…."
-    },
-    {
-      "location": "HTML, paragraph beginning “Algo que o mundo não vê”",
-      "severity": "minor",
-      "source_quote": "are we only doing just enough so that we can get by?",
-      "suggested_fix": "Replace “Ou estamos fazendo apenas o mínimo para conseguir passar?” with “Ou estamos fazendo apenas o mínimo para nos safar?”",
-      "translation_quote": "Ou estamos fazendo apenas o mínimo para conseguir passar?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "83cbb6ef4beb2c384c03db6471b9c2ec",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "por",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
   "translation_model_actual": "gpt-6-luna"

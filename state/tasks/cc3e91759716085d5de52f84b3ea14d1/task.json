@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 13307
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 193,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8475,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8472,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8668
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "الفقرة التي تبدأ «إن حقيقة أن هذا الطفل حُبل به…»",
+      "location": "المتن، الفقرة التي تبدأ «وحين أضاءت السماوات المرصعة بالنجوم»",
       "severity": "major",
-      "source_quote": "In one of the most graphic chapters depicting the birth of a child, God mentions that no one cared for Israel at their birth:",
-      "suggested_fix": "استبدل الجملة بـ «في أحد أكثر الفصول تصويرًا لميلاد طفل، يذكر الله أن إسرائيل لم يعتنِ بها أحد عند ولادتها:» مع إبقاء بقية بنية الفقرة كما هي.",
-      "translation_quote": "ففي أحد أكثر الفصول تصويرًا لميلاد طفل، يذكر الله أن أحدًا لم يعتنِ بإسرائيل عند ولادته:"
-    },
-    {
-      "location": "الترنيمة الثانية، السطر الثالث والرابع",
-      "severity": "major",
-      "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
-      "suggested_fix": "ترجم المعنى: «أيها المسيحيون الصالحون، خافوا، فالجلوس هنا / الكلمة الصامت يتضرع من أجل الخطاة.» حافظ على وسوم HTML وترتيب الأسطر.",
-      "translation_quote": "أيها المسيحيون الصالحون، لا تخافوا، فالجلوس هنا<br>\n    يئنّ فيه الكلمة الصامت من أجل الخطاة."
-    },
-    {
-      "location": "الفقرة التي تبدأ «إن الذين ترنّم قلوبهم بالمسرة للناس…»",
-      "severity": "major",
-      "source_quote": "This is he, that was in the church in the wilderness. vs.38.",
-      "suggested_fix": "استبدل «هذا هو الذي كان في الكنيسة في البرية، ع38.» بـ «هذا هو الذي كان في الكنيسة في البرية، الآية 38.» للإبقاء على رقم الإحالة كما في المصدر، لا اختصاره إلى رقم الآية وحده.",
-      "translation_quote": "هذا هو الذي كان في الكنيسة في البرية، ع38."
+      "source_quote": "As the star-spangled heavens erupted to life, the shepherds gazed in mesmerized awe at the scene before them",
+      "suggested_fix": "استبدل «وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر» بـ«وحين دبّت الحياة في السماوات المرصعة بالنجوم، حدّق الرعاة في المشهد أمامهم مأخوذين بالدهشة».",
+      "translation_quote": "وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "cc3e91759716085d5de52f84b3ea14d1",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ara",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

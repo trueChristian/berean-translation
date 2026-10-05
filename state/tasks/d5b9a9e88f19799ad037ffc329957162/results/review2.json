@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ec787c01-ba9a-4fd9-ad17-96ba4cc6aa5a",
+    "response_id": "chatcmpl-EVcrg9aCo04Fzs5Ytp2Y39tXpxnOe",
+    "usage": {
+      "completion_tokens": 465,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7358,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7355,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7823
+    }
+  },
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “For myself, I was so sick…”",
+        "severity": "major",
+        "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
+        "suggested_fix": "Ersätt meningen med: ”Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel vars användning är begränsad och fick en dubbel dos steroider jämfört med den rekommenderade dosen genom nebulisatorbehandlingar.”",
+        "translation_quote": "Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel med restriktioner och fick dubbel rekommenderad dos steroider genom behandling med nebulisator."
+      },
+      {
+        "location": "HTML, paragraph beginning “The children’s story in this issue…”",
+        "severity": "major",
+        "source_quote": "John was ordained to the ministry at the age of 27",
+        "suggested_fix": "Ersätt ”John vigdes till tjänst vid 27 års ålder” med ”John ordinerades till tjänst vid 27 års ålder” eller ”John vigdes till predikanttjänst vid 27 års ålder” för att tydligt återge att han ordinerades till ämbetet.",
+        "translation_quote": "John vigdes till tjänst vid 27 års ålder"
+      },
+      {
+        "location": "HTML, paragraph beginning “John S. and Maria…”",
+        "severity": "major",
+        "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+        "suggested_fix": "Ändra ”mina farfars farföräldrar” till ”mina farfars farföräldrar och farmors farföräldrar” endast om det avses; för källans könsneutrala släktrelation är en korrekt lösning ”mina gammelfarföräldrar två generationer bakåt” eller ”mina anföräldrar i femte led”.",
+        "translation_quote": "John S. och Maria (Horning) Kurtz var mina farfars farföräldrar."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

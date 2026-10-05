@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,67 +64,75 @@
         },
         "total_tokens": 14651
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 898,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8941,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8938,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9839
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, opening paragraph",
-      "severity": "minor",
-      "source_quote": "the years following are known as A.D. (Anno Domini, Latin for “The year of our Lord”)",
-      "suggested_fix": "Translate the explanatory phrase into Kiswahili, for example: “B.K. (Anno Domini, Kilatini kwa ‘Mwaka wa Bwana wetu’).”",
-      "translation_quote": "miaka inayofuata hujulikana kama B.K. (Anno Domini, Kilatini cha “Mwaka wa Bwana wetu”)"
-    },
-    {
-      "location": "HTML, hymn beginning “What child is this”",
+      "location": "Paragraph 2",
       "severity": "major",
-      "source_quote": "Whom angels greet with anthems sweet, / While shepherds watch are keeping?",
-      "suggested_fix": "Revise these lines to retain the source’s meaning, for example: “Ambaye malaika humsalimu kwa nyimbo tamu, / Wachungaji wakiendelea kulinda?”",
-      "translation_quote": "Ambaye malaika humsalimu kwa nyimbo tamu, / Wachungaji wakilinda na kutazama?"
+      "source_quote": "The church that initially frowned upon the proposition eventually accepted the idea and by the fourth century was fully acclimated and indoctrinated to the hybrid mixture of that which was Christian and pagan.",
+      "suggested_fix": "Replace “Kanisa lililopinga wazo hilo mwanzoni hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kufundishwa mchanganyiko mseto wa mambo ya Kikristo na ya kipagani.” with “Kanisa ambalo mwanzoni lililikataa wazo hilo hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kupandikizwa kikamilifu mchanganyiko wa mambo ya Kikristo na ya kipagani.”",
+      "translation_quote": "Kanisa lililopinga wazo hilo mwanzoni hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kufundishwa mchanganyiko mseto wa mambo ya Kikristo na ya kipagani."
     },
     {
-      "location": "HTML, paragraph beginning “The sign of the manger”",
+      "location": "Paragraph 3",
       "severity": "major",
-      "source_quote": "The sign of the manger in conjunction with their scriptural knowledge of Bethlehem were all that was needed for the shepherds to find the child.",
-      "suggested_fix": "Restore the claim that the manger sign and their scriptural knowledge together were all they needed, for example: “Ishara ya hori, pamoja na ujuzi wao wa Maandiko kuhusu Bethlehemu, vilikuwa vyote walivyohitaji wachungaji ili kumpata mtoto.”",
-      "translation_quote": "Ishara ya hori, pamoja na ujuzi wao wa Maandiko kuhusu Bethlehemu, vilitosha kuwasaidia wachungaji kumpata mtoto."
+      "source_quote": "understand the significance of the virgin birth apart from the emotional ties to the hybrid celebration",
+      "suggested_fix": "Replace “kuelewa umuhimu wa kuzaliwa kwake na bikira, bila kuhusisha hisia na sherehe mseto” with “kuelewa umuhimu wa kuzaliwa kwake na bikira, mbali na uhusiano wa kihisia na sherehe mseto.”",
+      "translation_quote": "kuelewa umuhimu wa kuzaliwa kwake na bikira, bila kuhusisha hisia na sherehe mseto"
     },
     {
-      "location": "HTML, paragraph beginning “The despised shepherds”",
+      "location": "Paragraph 6",
       "severity": "major",
-      "source_quote": "This is the difference between nominal worship and the heartfelt praise of His redeemed who will but follow Him to the manger.",
-      "suggested_fix": "Translate “who will but follow Him” as a call to follow him, rather than implying that they will follow him only as far as the manger; for example: “Hii ndiyo tofauti kati ya ibada ya jina tu na sifa za moyoni za waliokombolewa naye, ambao watamfuata hadi horini.”",
-      "translation_quote": "Hii ndiyo tofauti kati ya ibada ya jina tu na sifa za moyoni za waliokombolewa naye, ambao watamfuata tu hadi horini."
+      "source_quote": "Even these foolish and unlearned men knew of, and longed for, the anticipated Messiah.",
+      "suggested_fix": "Replace “Hata wanaume hawa wasio na elimu wala maarifa mengi walimjua Masihi aliyekuwa akitarajiwa na kumtamani.” with “Hata wanaume hawa wapumbavu na wasio na elimu walijua kuhusu Masihi aliyekuwa akitarajiwa, na walitamani kuja kwake.”",
+      "translation_quote": "Hata wanaume hawa wasio na elimu wala maarifa mengi walimjua Masihi aliyekuwa akitarajiwa na kumtamani."
     },
     {
-      "location": "HTML, hymn beginning “Why lies He”",
+      "location": "Paragraph 12",
       "severity": "major",
-      "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
-      "suggested_fix": "Preserve the address to Christians and the reason for fearing, without changing the line into a command to be afraid: “Wakristo wema, ogopeni, kwa maana hapa Neno kimya linawaombea wenye dhambi.”",
-      "translation_quote": "Wakristo wema, ogopeni, maana kwa wenye dhambi hapa / Neno kimya linaomba."
+      "source_quote": "To visit the Christ child will require us to haunt the place outside the inn.",
+      "suggested_fix": "Replace “Kumtembelea mtoto Kristo kutatutaka twende mara kwa mara mahali palipo nje ya nyumba ya wageni.” with “Kumtembelea mtoto Kristo kutatutaka tukae mara kwa mara mahali palipo nje ya nyumba ya wageni.”",
+      "translation_quote": "Kumtembelea mtoto Kristo kutatutaka twende mara kwa mara mahali palipo nje ya nyumba ya wageni."
     },
     {
-      "location": "HTML, paragraph beginning “These are those who are at peace”",
+      "location": "Paragraph 17",
       "severity": "major",
-      "source_quote": "They are content with a cottage while others cloister in a castle.",
-      "suggested_fix": "Translate the contrast as being content with a cottage while others live in a castle, not as being confined there; for example: “Wanatosheka na nyumba ndogo huku wengine wakiishi katika kasri.”",
-      "translation_quote": "Wanatosheka na nyumba ndogo huku wengine wakiishi kifungoni ndani ya kasri."
+      "source_quote": "They can sing the praises of a five-star hotel and diner",
+      "suggested_fix": "Replace “Wanaweza kuimba sifa za hoteli na mkahawa wa nyota tano” with “Wanaweza kusifu hoteli na mgahawa wa nyota tano.”",
+      "translation_quote": "Wanaweza kuimba sifa za hoteli na mkahawa wa nyota tano"
     },
     {
-      "location": "HTML, paragraph beginning “Those whose hearts resound”",
+      "location": "Paragraph 18",
       "severity": "major",
-      "source_quote": "This is the song that Stephen sang proceeding his earthly departure. He spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9 and of Moses being cast out, and fleeing to Midian. vs.21.",
-      "suggested_fix": "Correct the factual change about Joseph: the source says he was sold from his home, not sold out of his home. For example: “...kuhusu Yusufu kuuzwa akiwa mbali na nyumbani, mst. 9...”",
-      "translation_quote": "...kuhusu Yusufu kuuzwa kutoka nyumbani kwake, mst. 9..."
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Outside the Inn Crowd",
-      "suggested_fix": "Retain the source’s “outside” sense without implying movement into the group; for example: “Nje ya Kundi la Nyumba ya Wageni.”",
-      "translation_quote": "Nje ya Kundi la Nyumba ya Wageni"
+      "source_quote": "They can rejoice in another’s promotion, good fortune, and success. In doing so, they inherit the earth.",
+      "suggested_fix": "Replace “Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapopata bahati njema na anapofanikiwa. Kwa kufanya hivyo, watairithi dunia.” with “Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapobahatika na anapofanikiwa. Kwa kufanya hivyo, wanairithi dunia.”",
+      "translation_quote": "Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapopata bahati njema na anapofanikiwa. Kwa kufanya hivyo, watairithi dunia."
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "79e1a6281a9fd541828e77de247b9c35",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -214,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 83,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “On a side note”",
+      "severity": "minor",
+      "source_quote": "“one of our sister churches”",
+      "suggested_fix": "Replace “ہماری ایک ہم خیال کلیسیا” with “ہماری ایک ساتھی کلیسیا” to convey a sister congregation rather than merely a like-minded one.",
+      "translation_quote": "“ہماری ایک ہم خیال کلیسیا”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

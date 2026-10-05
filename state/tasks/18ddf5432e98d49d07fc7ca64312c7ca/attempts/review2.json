@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Abschnitt „Other Questions“, Absatz über die Nadelstärke\",\"severity\":\"major\",\"source_quote\":\"(21 gauge or smaller)\",\"suggested_fix\":\"Ersetze „Gauge-Wert 21 oder höher, also dünnere Nadeln“ durch „Gauge-Wert 21 oder kleiner, also dickere Nadeln“.\",\"translation_quote\":\"(Gauge-Wert 21 oder höher, also dünnere Nadeln)\"},{\"location\":\"source.html, Abschnitt „Making a Decision“, Absatz über Langzeitfolgen\",\"severity\":\"major\",\"source_quote\":\"Getting one of these vaccines certainly would help to avoid those disease-induced problems along with the possibility that COVID could also cause some heart damage.\",\"suggested_fix\":\"Korrigiere die Aussage so, dass die Impfung dazu beitragen würde, die krankheitsbedingten Probleme zu vermeiden, und dass COVID außerdem möglicherweise Herzschäden verursachen könnte; zum Beispiel: „Einer dieser Impfstoffe würde sicherlich dazu beitragen, diese krankheitsbedingten Probleme zu vermeiden, ebenso wie mögliche Herzschäden durch COVID.“\",\"translation_quote\":\"Einer dieser Impfstoffe würde sicherlich dazu beitragen, diese krankheitsbedingten Probleme zu vermeiden, ebenso wie die Möglichkeit, dass COVID auch Herzschäden verursachen könnte.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1283,
+    "content_evidence_truncated": false,
+    "content_sha256": "238d1dcb0d50935bd27547accb08263223c54d4720d3660f888f6485476cbdda",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8496,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8777
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

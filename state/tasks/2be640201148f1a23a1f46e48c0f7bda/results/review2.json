@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b87ff3fc-e978-4f44-8ce5-3a74b926897b",
+    "response_id": "chatcmpl-EVcqBnl3X3jnwYBDwgILa87bDbU4I",
+    "usage": {
+      "completion_tokens": 125,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8879,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9007
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "הערת העורך, הפסקה השלישית",
+        "severity": "major",
+        "source_quote": "Bottomline, as a board, we second the comments found in Larry Zook’s article",
+        "suggested_fix": "החליפו את „כחברי מערכת, אנו מצטרפים” ב„כוועד, אנו תומכים בדברים”.",
+        "translation_quote": "בשורה התחתונה, כחברי מערכת, אנו מצטרפים לדברים שבמאמרו של לארי זוק"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

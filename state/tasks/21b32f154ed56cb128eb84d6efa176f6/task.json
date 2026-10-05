@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 12257
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 320,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7896,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7893,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8216
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, opening Scripture quotation (Ephesians 4:14–15)",
-      "severity": "major",
-      "source_quote": "But speaking the truth in love",
-      "suggested_fix": "Replace “sino que, siguiendo la verdad en amor” with “sino que, diciendo la verdad en amor” to retain the source’s meaning of speaking the truth.",
-      "translation_quote": "sino que, siguiendo la verdad en amor"
+      "location": "Párrafo sobre Pedro; referencia a Lucas",
+      "severity": "critical",
+      "source_quote": "This account seems to have been quite significant since it is recorded by three of the gospel writers in Matthew 16:23, Mark 8:33, and Luke 4:8.",
+      "suggested_fix": "Conserva los números de capítulo y versículo del original, pero corrige la discrepancia bíblica del texto fuente solo si está autorizado; en una traducción fiel, traduce la referencia impresa como «Lucas 4:8».",
+      "translation_quote": "Este relato parece haber sido bastante significativo, ya que lo registran tres de los escritores de los Evangelios en Mateo 16:23, Marcos 8:33 y Lucas 4:8."
     },
     {
-      "location": "HTML, paragraph beginning “La manera en que nos hablamos…”",
+      "location": "Párrafo sobre los discípulos y los mártires",
       "severity": "major",
-      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
-      "suggested_fix": "Correct the negation to match the printed source, for example: “Pero si estamos dispuestos a decir la verdad, aunque eso signifique que alguien se disguste con nosotros, ¿no somos entonces culpables?”",
-      "translation_quote": "Pero si no estamos dispuestos a decir la verdad cuando eso significa que alguien se disgustará con nosotros, ¿no somos entonces culpables?"
-    },
-    {
-      "location": "HTML, final paragraph, quoted Ephesians 4:15",
-      "severity": "major",
-      "source_quote": "speaking the truth in love, [so that we] may grow up into him in all things",
-      "suggested_fix": "Replace “decir la verdad en amor” only if necessary to keep the Scripture quotation’s meaning consistent with the source; use “hablar la verdad en amor” rather than “seguir la verdad en amor” wherever the quoted phrase appears.",
-      "translation_quote": "decir la verdad en amor, [para que] crezcamos en todo en aquel que es la cabeza"
+      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
+      "suggested_fix": "Traduce el fragmento tal como está impreso, sin completar la frase truncada: «Pensemos en los discípulos: cada uno de ellos sufrió por su… Al final, no pudieron dejar de hablar de las cosas que habían visto y oído».",
+      "translation_quote": "Pensemos en los discípulos: cada uno de ellos sufrió por su… Al final, no pudieron dejar de hablar de las cosas que habían visto y oído."
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "21b32f154ed56cb128eb84d6efa176f6",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "spa",
@@ -179,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

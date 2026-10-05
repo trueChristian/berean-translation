@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Tukiwa waaminifu…”",
+      "severity": "major",
+      "source_quote": "“many, if not most, of the ‘stories’”",
+      "suggested_fix": "Replace “nyingi, kama si nyingi zaidi” with “nyingi, kama si nyingi kati ya zote” or another phrasing meaning “many, if not most.”",
+      "translation_quote": "“nyingi, kama si nyingi zaidi, za ‘simulizi’”"
+    },
+    {
+      "location": "Paragraph beginning “Kuna maswali tunayoweza…”",
+      "severity": "major",
+      "source_quote": "“Am I being advised to join others in standing up for our ‘rights’?”",
+      "suggested_fix": "Change to a question meaning “Am I being advised to join others in standing up for our ‘rights’?”, for example: “Je, ninashauriwa kuungana na wengine kutetea ‘haki’ zetu?”",
+      "translation_quote": "“Je, nashauriwe kuungana na wengine kutetea ‘haki’ zetu?”"
+    },
+    {
+      "location": "Paragraph beginning “Kama nilivyosema awali…”",
+      "severity": "major",
+      "source_quote": "“He will NOT allow us to be tempted above that which we are able to bear.”",
+      "suggested_fix": "Replace “HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili” with a faithful rendering of the source’s promise that God will not allow temptation beyond what we can bear, such as “HATARUHUSU tujaribiwe kupita kiasi tunachoweza kustahimili.”",
+      "translation_quote": "“HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili.”"
+    },
+    {
+      "location": "Paragraph beginning “John S. na Maria…”",
+      "severity": "major",
+      "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
+      "suggested_fix": "Change “babu na bibi wa babu yangu” to “babu na bibi wa babu/bibi zangu wa vizazi viwili vilivyopita” or an equivalent conveying “great-great-grandparents.”",
+      "translation_quote": "“walikuwa babu na bibi wa babu yangu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

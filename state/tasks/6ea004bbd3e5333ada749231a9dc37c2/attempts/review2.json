@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning “Then, a rich voice spoke inside me”\",\"severity\":\"minor\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"Ganti “suara yang penuh kelembutan” dengan “suara yang dalam dan berisi” agar makna “rich voice” tidak bergeser menjadi suara yang lembut.\",\"translation_quote\":\"Lalu, suara yang penuh kelembutan berbicara di dalam diriku,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 442,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5cd8338204c3b8d4c56cdd3d487067d50277ccb45836158467effe8aa057df1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3390,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3985
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

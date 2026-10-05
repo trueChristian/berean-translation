@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "be5312c8-e717-4c81-ba48-9a8006fcec0f",
+    "response_id": "chatcmpl-EVcpoWx2r1gwDpx9aXTWZYbOdsGwt",
+    "usage": {
+      "completion_tokens": 887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 749,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4784,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5674
+    }
+  },
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 9",
+        "severity": "minor",
+        "source_quote": "It sears and hardens.",
+        "suggested_fix": "یہ ضمیر کو جھلسا کر سخت کر دیتا ہے۔",
+        "translation_quote": "یہ ضمیر کو داغ دار اور سخت کردیتا ہے۔"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "THE NEW TESTAMENT CHURCH",
+        "suggested_fix": "نئے عہدنامے کی کلیسیا",
+        "translation_quote": "نیا عہدنامہ کی کلیسیا"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

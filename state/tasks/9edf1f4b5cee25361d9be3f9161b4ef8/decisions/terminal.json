@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“healthy and, even more importantly, Biblical emotional choices”",
+      "suggested_fix": "Badilisha sehemu hiyo iwe: “kujifunza kufanya maamuzi yenye afya ya kihisia na, muhimu zaidi, yanayopatana na Biblia.”",
+      "translation_quote": "“kuchagua hisia kwa njia yenye afya na, muhimu zaidi, inayotegemea Biblia”"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“Two are more general for everyone and two are specifically given for us ladies.”",
+      "suggested_fix": "Badilisha “zinawahusu wote” kwa “ni za jumla zaidi na zinawahusu kila mtu,” ili kuhifadhi maana ya kwamba aina mbili hizo ni za jumla kwa kila mtu.",
+      "translation_quote": "“Mbili ni za jumla zaidi na zinawahusu wote”"
+    },
+    {
+      "location": "Heading and discussion of “A Sober Spirit”",
+      "severity": "major",
+      "source_quote": "“A Sober Spirit”; “to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Tumia “Roho Yenye Utulivu” kama kichwa na, katika ufafanuzi, “kuwa mtulivu na mwenye kujizuia rohoni; kuwa na kiasi na kutotawaliwa na hisia.” Hivi vinatofautisha kiasi na utulivu wa roho unaosisitizwa na kifungu.",
+      "translation_quote": "“Roho Yenye Kiasi”; “kuwa mtulivu na mwenye kujizuia rohoni; kuwa na kiasi na kutotawaliwa na hisia.”"
+    },
+    {
+      "location": "Paragraph under “A Meek Spirit”",
+      "severity": "major",
+      "source_quote": "“moving only at His will.”",
+      "suggested_fix": "Badilisha mwisho wa sentensi uwe “akitenda tu kwa mapenzi Yake.”",
+      "translation_quote": "“huenda tu anapotaka yeye.”"
+    },
+    {
+      "location": "Paragraph under “A Quiet Spirit”",
+      "severity": "major",
+      "source_quote": "“It is an attitude of sitting back and letting God lead—whether exciting or boring”",
+      "suggested_fix": "Badilisha “kukaa kimya” kwa “kutulia na kumwacha Mungu akuongoze” ili kuhifadhi wazo la kutokujitahidi kudhibiti mambo, si kukaa kimya tu.",
+      "translation_quote": "“Ni mtazamo wa kukaa kimya na kumwacha Mungu akuongoze”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

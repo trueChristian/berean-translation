@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "33bb6471-855e-46d7-aae2-75d04b06bb27",
+    "response_id": "chatcmpl-EVcpEJJqL1rZ8x6Y7HDDWspGqghzz",
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 853,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5404
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning «…لا بالقدرة ولا بالقوة»",
+        "severity": "major",
+        "source_quote": "“Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.”",
+        "suggested_fix": "استبدل «الدينونة» بـ«الهلاك» أو «الهلاك الأبدي» في هذه الجملة، مع إبقاء بقية النص كما هو؛ فالمقابلة هنا بين الهلاك واليقين، لا بين الدينونة واليقين.",
+        "translation_quote": "«وبلا رجعة، وبصرف النظر عن الاختيار، يُلقى على ضمير السامع إما الدينونة وإما اليقين.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

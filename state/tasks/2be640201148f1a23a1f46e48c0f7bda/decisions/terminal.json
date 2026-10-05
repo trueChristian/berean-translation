@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "הערת העורך, הפסקה השלישית",
+      "severity": "major",
+      "source_quote": "Bottomline, as a board, we second the comments found in Larry Zook’s article",
+      "suggested_fix": "החליפו את „כחברי מערכת, אנו מצטרפים” ב„כוועד, אנו תומכים בדברים”.",
+      "translation_quote": "בשורה התחתונה, כחברי מערכת, אנו מצטרפים לדברים שבמאמרו של לארי זוק"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

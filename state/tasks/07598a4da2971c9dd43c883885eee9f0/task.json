@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 11874
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “If you want to receive one or more copies…”",
-      "severity": "major",
-      "source_quote": "“we ask that you contact us with your contact information and the number of booklets desired”",
-      "suggested_fix": "Change “ons kontakbesonderhede” to “jou kontakbesonderhede” so the reader is asked to provide their own details.",
-      "translation_quote": "“vra ons dat jy ons kontakbesonderhede en die verlangde aantal boekies aan ons deurgee”"
     },
     {
-      "location": "Paragraph beginning “On a side note…”",
-      "severity": "minor",
-      "source_quote": "“even though they do contract the virus”",
-      "suggested_fix": "Replace “selfs al doen hulle die virus op” with “selfs al doen hulle die virus op” is not idiomatic; use “selfs al doen hulle die virus op” only if intended as a colloquial form, otherwise the clear standard wording is “selfs al doen hulle die virus op”.",
-      "translation_quote": "“selfs al doen hulle die virus op”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 231,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7546,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7543,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7777
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "html, paragraph beginning “One of the intriguing aspects…”",
+      "severity": "minor",
+      "source_quote": "“One of the intriguing aspects was that most of us lost our sense of taste and smell.”",
+      "suggested_fix": "Replace “boeiende aspekte” with “interessante aspekte” to better match the source’s neutral observation: “Een van die interessante aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”",
+      "translation_quote": "“Een van die boeiende aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”"
+    },
+    {
+      "location": "html, paragraph beginning “As you will notice…”",
+      "severity": "minor",
+      "source_quote": "“we needed funds if we were going to keep going forward.”",
+      "suggested_fix": "Use the idiomatic “voortgaan” rather than “voortgaan” with “wou voortgaan” is already acceptable; no correction needed.",
+      "translation_quote": "“ons fondse nodig gehad het as ons wou voortgaan.”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "07598a4da2971c9dd43c883885eee9f0",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "afr",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

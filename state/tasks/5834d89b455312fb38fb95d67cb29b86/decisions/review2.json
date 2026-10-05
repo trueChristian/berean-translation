@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "פסקה 2",
+      "severity": "major",
+      "source_quote": "‘Six feet’ has become a well-recognized unit of measurement.",
+      "suggested_fix": "החליפו את ״שישה רגל״ ב״שישה רגליים״ או, בניסוח טבעי ומדויק יותר, ״מרחק של כשישה רגל (כ־1.8 מטרים)״.",
+      "translation_quote": "״שישה רגל״ הפכה ליחידת מידה מוכרת היטב."
+    },
+    {
+      "location": "פסקה 5",
+      "severity": "major",
+      "source_quote": "the separation of church and state",
+      "suggested_fix": "תקנו ל״הפרדת הכנסייה מן המדינה״, כדי לשמר את ההבחנה בין כנסייה למדינה.",
+      "translation_quote": "״הפרדת הדת מן המדינה״"
+    },
+    {
+      "location": "פסקה 6",
+      "severity": "major",
+      "source_quote": "he sees no hope to continue living and he is contemplating whether he should just take his own life and end it all.",
+      "suggested_fix": "תקנו ל״הוא אינו רואה תקווה להמשיך לחיות, ושוקל אם לשים קץ לחייו ולסיים הכול״.",
+      "translation_quote": "הוא לא רואה שום תקווה להמשיך לחיות, והוא שוקל אם פשוט לשים קץ לחייו ולסיים הכול."
+    },
+    {
+      "location": "פסקה 9",
+      "severity": "major",
+      "source_quote": "Is it true that there is somehow a microchip, or a multitude of nano robots immersed in that small volume of liquid?",
+      "suggested_fix": "תקנו ל״האם נכון שיש איכשהו שבב זעיר, או המוני רובוטים ננומטריים, הטבולים בכמות הנוזל הקטנה הזאת?״ התרגום הנוכחי אומר שהרובוטים שקועים בנפח הנוזל, ולא שהשבב או הרובוטים נמצאים בתוך החיסון.",
+      "translation_quote": "האם נכון שיש בו איכשהו שבב זעיר, או המוני רובוטים ננומטריים, השקועים בנפח הקטן הזה של נוזל?"
+    },
+    {
+      "location": "פסקה 15",
+      "severity": "major",
+      "source_quote": "My (Curvin’s) family contracted the Covid-19 virus",
+      "suggested_fix": "תקנו ל״משפחתי (משפחתו של קורווין) נדבקה בנגיף קוביד־19״. בסוגריים המקור מבהיר שהכוונה למשפחתו של קורווין, ולא לשמו של הדובר.",
+      "translation_quote": "משפחתי (של קורווין) נדבקה בנגיף קוביד־19"
+    },
+    {
+      "location": "פסקה 17",
+      "severity": "major",
+      "source_quote": "one restricted drug",
+      "suggested_fix": "תקנו ל״תרופה אחת שהשימוש בה מוגבל״, ולא ״תרופה אחת הנתונה לפיקוח״, שמשנה את אופי ההגבלה המתואר.",
+      "translation_quote": "תרופה אחת הנתונה לפיקוח"
+    },
+    {
+      "location": "פסקה 19",
+      "severity": "major",
+      "source_quote": "the whole issue of vaccines",
+      "suggested_fix": "תקנו ל״נושא החיסונים בכללותו״ או ״כל סוגיית החיסונים״.",
+      "translation_quote": "בנושא החיסונים כולו"
+    },
+    {
+      "location": "פסקה 21",
+      "severity": "major",
+      "source_quote": "One of these, which we have mentioned before is that of working towards having multiple authors write articles for the various specific columns",
+      "suggested_fix": "תקנו ל״אחת הדרכים, שהזכרנו בעבר, היא לפעול לכך שמחברים אחדים יכתבו מאמרים למדורים ייעודיים שונים״. התרגום משמיט את הרעיון שמדובר במדורים ייעודיים שונים.",
+      "translation_quote": "אחת מהן, שהזכרנו בעבר, היא לפעול לכך שמחברים אחדים יכתבו מאמרים למדורים מסוימים"
+    },
+    {
+      "location": "כותרת הפסקה האחרונה",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+      "suggested_fix": "תקנו את נוסח הציטוט לעברית בת זמננו: ״קִרְבוּ אֶל אֱלֹהִים וְהוּא יִקְרַב אֲלֵיכֶם. טַהֲרוּ אֶת יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ אֶת לְבַבְכֶם, הַפְכַּפְּכִים — יעקב ד׳:8״. התרגום הנוכחי משמיט את ״והוא״ ומשנה את ״הפכפכים״ ל״ההפכפכים״.",
+      "translation_quote": "קִרְבוּ אֶל אֱלֹהִים וְיִקְרַב אֲלֵיכֶם. טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַהֲפַכְפְּכִים – יעקב ד׳:8."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

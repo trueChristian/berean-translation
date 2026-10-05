@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Luke 21:25 quotation (opening paragraph and conclusion, verses 25–26)",
+      "severity": "major",
+      "source_quote": "“distress of nations, with perplexity; … Men’s hearts failing them for fear”",
+      "suggested_fix": "Translate the quoted wording faithfully, preserving the source’s meaning of nations in distress and people’s hearts failing from fear; for example, replace “민족들이 곤고하고 당황하며” with “민족들이 곤고하고 혼란스러워하며,” and “두려움으로 기절하리니” with “두려움으로 마음이 무너지리니.” Apply the same wording in both occurrences.",
+      "translation_quote": "“민족들이 곤고하고 당황하며; … 사람들이 … 두려움으로 기절하리니”"
+    },
+    {
+      "location": "source.html, first paragraph after “Vaccine Concerns for Conservative Anabaptists”",
+      "severity": "major",
+      "source_quote": "“The rushed nature of the approval process resulted in shortcutting the standard testing procedures and safety measures”",
+      "suggested_fix": "Revise the sentence to say that the rushed approval process led to standard testing procedures and safety measures being shortened or bypassed, rather than asserting they were omitted: “승인 절차가 서둘러 진행되면서 백신과 의약품에 통상 적용되는 표준 시험 절차와 안전 조치가 단축되었습니다.”",
+      "translation_quote": "“표준 시험 절차와 안전 조치가 생략되었습니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “There seems to be a mainstream, fear-based narrative”",
+      "severity": "major",
+      "source_quote": "“the oft-repeated narrative of ‘listen to the experts’ or ‘follow the science’”",
+      "suggested_fix": "Restore that the quoted appeals are repeatedly stated, for example: “여기에 ‘전문가들의 말을 들으라’거나 ‘과학을 따르라’는 말을 자주 되풀이하는 서사가 더해집니다.”",
+      "translation_quote": "“‘전문가들의 말을 들으라’거나 ‘과학을 따르라’는 말을 거듭 되풀이하는 서사가 더해집니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)”",
+      "severity": "major",
+      "source_quote": "“Many conspiracy claims have been spawned and propagated, purporting to be the ‘inside’ or ‘real’ story.”",
+      "suggested_fix": "Translate the claims as conspiracy claims, not conspiracy theories: replace “수많은 음모론이 생겨나 퍼졌습니다” with “수많은 음모 주장이 생겨나 퍼졌습니다.”",
+      "translation_quote": "“수많은 음모론이 생겨나 퍼졌습니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)”",
+      "severity": "major",
+      "source_quote": "“claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”",
+      "suggested_fix": "Keep the source’s attribution to church brothers and its report of their follow-up: for example, “일부 주장과 혐의는 교회 형제들이 직접 확인해 본 결과, 주장된 ‘사실’이 부정확하거나 사실이 아닌 것으로 밝혀졌습니다.”",
+      "translation_quote": "“일부 주장과 혐의는 교회 형제들이 직접 확인해 본 결과, 주장된 ‘사실’이 부정확하거나 사실이 아닌 것으로 밝혀졌습니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “The mark this end-time ruler requires”",
+      "severity": "major",
+      "source_quote": "“it is a choice on our part, and not something we are deceived into getting, only to realize later that it is the mark of the beast”",
+      "suggested_fix": "The translation says it is a choice, not something received through deception, and only later recognized as the mark. Revise to preserve that contrast, for example: “또 표를 받는 것은 우리가 선택하는 일이지, 속임을 당해 받았다가 나중에야 그것이 짐승의 표임을 깨닫게 되는 일이 아니라는 뜻일 것입니다.”",
+      "translation_quote": "“또 표를 받는 것은 우리가 선택하는 일이지, 속임을 당해 받았다가 나중에야 그것이 짐승의 표임을 깨닫는 일이 아니라는 뜻일 것입니다.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

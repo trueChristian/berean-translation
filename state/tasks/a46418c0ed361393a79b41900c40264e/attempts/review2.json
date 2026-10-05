@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"অনুচ্ছেদ ২\",\"severity\":\"major\",\"source_quote\":\"The date was set by the bishop of Rome in accordance with a popular pagan festival called Saturnalia.\",\"suggested_fix\":\"তারিখটি রোমের বিশপ জনপ্রিয় এক পৌত্তলিক উৎসব, স্যাটার্নালিয়ার সঙ্গে মিল রেখে নির্ধারণ করেছিলেন।\",\"translation_quote\":\"রোমের বিশপ জনপ্রিয় এক পৌত্তলিক উৎসব স্যাটার্নালিয়ার সঙ্গে সামঞ্জস্য রেখে তারিখটি নির্ধারণ করেছিলেন।\"},{\"location\":\"অনুচ্ছেদ ৪\",\"severity\":\"major\",\"source_quote\":\"It was a band of lowly shepherds who received the first birth announcement. Even these foolish and unlearned men knew of, and longed for, the anticipated Messiah.\",\"suggested_fix\":\"একদল নীচু অবস্থানের মেষপালকই প্রথম জন্মবার্তা পেয়েছিল। এই মূর্খ ও অশিক্ষিত লোকেরাও প্রত্যাশিত মশীহের কথা জানত এবং তাঁর জন্য আকুল ছিল।\",\"translation_quote\":\"একদল সাধারণ মেষপালকই প্রথম জন্মবার্তা পেয়েছিল। এই অজ্ঞ ও অশিক্ষিত লোকেরাও প্রত্যাশিত মশীহের কথা জানত এবং তাঁর জন্য আকুল ছিল।\"},{\"location\":\"অনুচ্ছেদ ৮\",\"severity\":\"major\",\"source_quote\":\"Just as the title of “Savior” implies a desperate need, so likewise, the name of “Christ, the Lord” implies a dominating victory.\",\"suggested_fix\":\"“ত্রাণকর্তা” উপাধিটি যেমন মরিয়া প্রয়োজনের ইঙ্গিত দেয়, তেমনি “খ্রিষ্ট, প্রভু” নামটিও বিজয়ী কর্তৃত্বের ইঙ্গিত দেয়।\",\"translation_quote\":\"“ত্রাণকর্তা” উপাধিটি যেমন মরিয়া প্রয়োজনের ইঙ্গিত দেয়, তেমনি “খ্রিষ্ট প্রভু” নামটি বিজয়ী কর্তৃত্বের ইঙ্গিত দেয়।\"},{\"location\":\"অনুচ্ছেদ ১৪\",\"severity\":\"major\",\"source_quote\":\"The despised shepherds lived most of their lives outside of the Inn Crowd and were the first to believe and receive Him.\",\"suggested_fix\":\"ঘৃণিত মেষপালকেরা জীবনের অধিকাংশ সময় সরাইখানার ভিড়ের বাইরে কাটিয়েছিল, আর তারাই প্রথম তাঁকে বিশ্বাস করে গ্রহণ করেছিল।\",\"translation_quote\":\"ঘৃণিত মেষপালকেরা জীবনের অধিকাংশ সময় সরাইখানার ভিড়ের বাইরে কাটিয়েছিল, আর তারাই প্রথম তাঁকে বিশ্বাস করে গ্রহণ করেছিল।\"},{\"location\":\"অনুচ্ছেদ ১৮\",\"severity\":\"major\",\"source_quote\":\"These are those who are at peace with their earthly lot.\",\"suggested_fix\":\"এরা সেই লোক, যারা তাদের পার্থিব অবস্থা নিয়ে শান্তিতে আছে।\",\"translation_quote\":\"এরা সেই লোক, যারা তাদের পার্থিব অবস্থায় সন্তুষ্ট।\"},{\"location\":\"শেষ স্তবক\",\"severity\":\"major\",\"source_quote\":\"Come, peasant, king, to own him.\",\"suggested_fix\":\"এসো, কৃষক ও রাজা, তাঁকে আপন বলে স্বীকার করতে।\",\"translation_quote\":\"এসো, কৃষক, রাজা—তাঁকে আপন করতে।\"},{\"location\":\"শিরোনাম\",\"severity\":\"minor\",\"source_quote\":\"Outside the Inn Crowd\",\"suggested_fix\":\"সরাইখানার ভিড়ের বাইরে\",\"translation_quote\":\"সরাইখানার ভিড়ের বাইরে\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 4648,
+    "content_evidence_truncated": false,
+    "content_sha256": "0204de4dc555c2296fe42c416b56155e79353696b6d073a6f0931f1f3983d4ae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9575,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10337
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

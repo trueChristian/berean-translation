@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, verse 1, line 2",
+      "severity": "major",
+      "source_quote": "My treasures are laid up somewhere beyond the blue;",
+      "suggested_fix": "استبدل «كنوزي مودعة في مكان ما وراء السماء؛» بـ «كنوزي محفوظة في مكان ما وراء زرقة السماء؛» للحفاظ على صورة النص عن السماء الزرقاء.",
+      "translation_quote": "كنوزي مودعة في مكان ما وراء السماء؛"
+    },
+    {
+      "location": "HTML, verse 3, line 3",
+      "severity": "major",
+      "source_quote": "He’s waiting now for me in heaven’s open door,",
+      "suggested_fix": "استبدل «إنه ينتظرني الآن عند باب السماء المفتوح،» بـ «إنه ينتظرني الآن في باب السماء المفتوح،» للمحافظة على معنى «in» في الأصل.",
+      "translation_quote": "إنه ينتظرني الآن عند باب السماء المفتوح،"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

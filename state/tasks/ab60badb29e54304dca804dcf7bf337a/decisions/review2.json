@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Die gegenwärtigen Predigtstile…”",
+      "severity": "minor",
+      "source_quote": "<strong>from</strong> … <strong>to</strong>",
+      "suggested_fix": "Keep the source emphasis by putting the German contrast markers inside the existing <strong> tags (for example, „weg von“ and „hin zu“) and avoid duplicating those markers in the surrounding sentence.",
+      "translation_quote": "<strong></strong> … <strong></strong>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

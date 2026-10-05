@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 13045
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 379,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8583,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8580,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8962
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "section",
+      "location": "Article body, paragraph beginning “De verachte herders…”",
       "severity": "major",
-      "source_quote": "VICTORIOUS CHRISTIAN LIVING",
-      "suggested_fix": "Translate the section label into Dutch, for example: \"OVERWINNEND CHRISTELIJK LEVEN\".",
-      "translation_quote": "VICTORIOUS CHRISTIAN LIVING"
+      "source_quote": "“This is the difference between nominal worship and the heartfelt praise of His redeemed who will but follow Him to the manger.”",
+      "suggested_fix": "Replace the final clause with “die Hem daadwerkelijk tot aan de kribbe zullen volgen” or another Dutch rendering that preserves “who will but follow Him” without suggesting that they merely need to follow Him.",
+      "translation_quote": "“Dit is het verschil tussen louter uiterlijke aanbidding en de oprechte lofprijzing van zijn verlosten, die Hem maar hoeven te volgen tot aan de kribbe.”"
+    },
+    {
+      "location": "Hymn, stanza beginning “Why lies He…”",
+      "severity": "major",
+      "source_quote": "“Good Christians, fear, for sinners here / The silent Word is pleading.”",
+      "suggested_fix": "Translate “fear” as an exhortation to reverent fear, and preserve that the Word is pleading for sinners; for example: “Goede christenen, vreest, want hier pleit het stille Woord voor zondaars.”",
+      "translation_quote": "“Goede christenen, vreest, want voor zondaars hier / Pleit het stille Woord.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “De verachte herders…”",
+      "severity": "minor",
+      "source_quote": "“The despised shepherds lived most of their lives outside of the Inn Crowd”",
+      "suggested_fix": "Use “herbergmenigte” rather than “herbergcrowd” only if needed for consistency; the existing translation is otherwise understandable. (No correction needed for this wording.)",
+      "translation_quote": "“De verachte herders leefden het grootste deel van hun leven buiten de herbergmenigte”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "c27c1abf062adfa9f785af785fd3dce7",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nld",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

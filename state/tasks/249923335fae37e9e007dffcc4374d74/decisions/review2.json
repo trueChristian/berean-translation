@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Основной текст, абзац о грехе и цветах",
+      "severity": "major",
+      "source_quote": "It can breathe its icy breath upon the fairest of flowers and wilt them in an instant.",
+      "suggested_fix": "Заменить на: «Он может ледяным дыханием коснуться самых прекрасных цветов и заставить их увянуть в одно мгновение.»",
+      "translation_quote": "Он может ледяным дыханием коснуться самых прекрасных цветов и в один миг увянуть их."
+    },
+    {
+      "location": "Основной текст, абзац о знаке яслей",
+      "severity": "major",
+      "source_quote": "The sign of the manger in conjunction with their scriptural knowledge of Bethlehem were all that was needed for the shepherds to find the child.",
+      "suggested_fix": "Заменить на: «Знамения яслей и знания пастухов о Вифлееме из Писания было достаточно, чтобы найти Младенца.»",
+      "translation_quote": "Знамение яслей вместе со знанием пастухов из Писания о Вифлееме — вот всё, что им было нужно, чтобы найти Младенца."
+    },
+    {
+      "location": "Основной текст, абзац о гостиничной толпе",
+      "severity": "major",
+      "source_quote": "The Inn Crowd is the place of popular reception, popular understanding, and popular behavior.",
+      "suggested_fix": "Заменить на: «Гостиничная толпа — это место всеобщего признания, общепринятых представлений и общепринятого поведения.»",
+      "translation_quote": "Толпа гостиницы — это популярное место, где принимают популярные представления и следуют популярным обычаям."
+    },
+    {
+      "location": "Основной текст, абзац о Давиде и мотелях",
+      "severity": "major",
+      "source_quote": "The fussing child in the store bawls because his hands are full, and he cannot have more.",
+      "suggested_fix": "Заменить на: «Капризничающий ребёнок в магазине ревёт, потому что у него уже полны руки, а большего ему не дают.»",
+      "translation_quote": "Ребёнок в магазине кричит, потому что у него руки полны, а большего ему не дают."
+    },
+    {
+      "location": "Основной текст, абзац о Стефане и церкви в пустыне",
+      "severity": "major",
+      "source_quote": "This is he, that was in the church in the wilderness. vs.38.",
+      "suggested_fix": "Заменить на: «Это он был в церкви в пустыне (ст. 38).»",
+      "translation_quote": "Это он был в церкви в пустыне, ст. 38."
+    },
+    {
+      "location": "Заголовок и текст, заключительный гимн",
+      "severity": "major",
+      "source_quote": "So bring him incense, gold, and myrrh, / Come, peasant, king, to own him.",
+      "suggested_fix": "Заменить первые две строки на: «Принесите Ему ладан, золото и смирну, / Приди, простолюдин и царь, признай Его своим.»",
+      "translation_quote": "Принесите Ему ладан, золото и смирну, / Приди, бедняк и царь, признай Его своим."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

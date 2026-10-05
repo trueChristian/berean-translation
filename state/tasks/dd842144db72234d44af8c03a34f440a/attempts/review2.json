@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Then, a rich voice spoke inside me”\",\"severity\":\"major\",\"source_quote\":\"“The true prayers of your heart can be answered, If you would only but look unto Me.”\",\"suggested_fix\":\"Replace the final line of this stanza with: “Ikiwa ungenitazama Mimi tu.” (The translation currently means “if you look only at Me,” changing the conditional from “would” to a direct present condition.)\",\"translation_quote\":\"“Ikiwa utanitazama Mimi tu.”\"},{\"location\":\"HTML, paragraph beginning “I ordered the rough ways you have followed”\",\"severity\":\"major\",\"source_quote\":\"“I ordered the rough ways you have followed, Not to disappoint, but to purge.”\",\"suggested_fix\":\"Replace the first two lines with: “Nilipanga njia ngumu ulizopitia, / Si ili kukukatisha tamaa, bali ili kukutakasa.” (“Kukusafisha” can mean to clean physically; here “purge” refers to spiritual refining.)\",\"translation_quote\":\"“Nilipanga njia ngumu ulizopita, / Si ili kukukatisha tamaa, bali ili kukusafisha.”\"},{\"location\":\"HTML, paragraph beginning “So I fell at the feet of my Master”\",\"severity\":\"major\",\"source_quote\":\"“So I fell at the feet of my Master”\",\"suggested_fix\":\"Change “Bwana wangu” to “Mwalimu wangu” to preserve “Master” without changing it to “Lord,” as the source uses “Lord” separately in the next stanza.\",\"translation_quote\":\"“Basi nikaanguka miguuni pa Bwana wangu”\"},{\"location\":\"HTML, paragraph beginning “I pray instead for humility”\",\"severity\":\"major\",\"source_quote\":\"“To lead me through the day.”\",\"suggested_fix\":\"Replace “Uniongoze siku nzima” with “Unyenyekevu uniongoze siku nzima” so humility, rather than an unspecified “you,” is explicitly the subject leading the speaker.\",\"translation_quote\":\"“Uniongoze siku nzima.”\"},{\"location\":\"HTML, paragraph beginning “If He rules the inmost being”\",\"severity\":\"major\",\"source_quote\":\"“Then nothing outside will disturb.”\",\"suggested_fix\":\"Replace “Basi hakuna kitu cha nje kitakachonisumbua” with “Basi hakuna kitu cha nje kitakachosumbua” to retain the source’s general statement without adding “me.”\",\"translation_quote\":\"“Basi hakuna kitu cha nje kitakachonisumbua.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2315,
+    "content_evidence_truncated": false,
+    "content_sha256": "e54f405aa638917c8ef6c3b4b8d479c3293a2283310d517cd5a98819c08f5231",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3354,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3906
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ffff4cf-5f22-4191-8a04-b4b61ac907de",
+    "response_id": "chatcmpl-EVcqF90nWqP5NCxbJF4Ae0XLLnstV",
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 569,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4426,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5137
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first paragraph (Romans 10:15 quotation)",
+        "severity": "minor",
+        "source_quote": "“How beautiful are the feet of them that preach the gospel of peace, and bring glad tidings of good things!”",
+        "suggested_fix": "Change the final phrase to “en blijde tijding van goede dingen brengen” to preserve the sense of joyful news.",
+        "translation_quote": "“Hoe lieflijk zijn de voeten van hen die het evangelie van vrede verkondigen en goede dingen verkondigen!”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

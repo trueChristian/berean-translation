@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 12601
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, parágrafo sob “Outras vacinas”",
-      "severity": "major",
-      "source_quote": "“...administer small doses of the killed virus to trigger the immune response. create immunity.”",
-      "suggested_fix": "Preserve the source’s intended sentence structure in Portuguese, for example: “...administram pequenas doses do vírus inativado para desencadear a resposta imunológica e criar imunidade.”",
-      "translation_quote": "“...administram pequenas doses do vírus morto para desencadear a resposta imunológica. Criar imunidade.”"
     },
     {
-      "location": "HTML, último parágrafo sob “Outras vacinas”",
-      "severity": "major",
-      "source_quote": "“...there is one from Merck is a non-mRNA vaccine that is also ethically sourced (not grown on aborted fetal cells).”",
-      "suggested_fix": "Translate the parenthetical accurately as “não cultivada em células fetais provenientes de abortos”, preserving the source meaning without implying that the fetal cells themselves were aborted.",
-      "translation_quote": "“...uma vacina sem mRNA que também tem origem ética (não é cultivada em células fetais de abortos).”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 820,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 573,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8272,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8269,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9092
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, section “Todos os demais,” first paragraph",
+      "severity": "major",
+      "source_quote": "If someone has not had a COVID infection, I would certainly lean towards getting the vaccine.",
+      "suggested_fix": "Replace “eu certamente tenderia a recomendar que tomasse a vacina” with “eu certamente tenderia a tomar a vacina” to preserve the author’s personal inclination rather than make it a recommendation to others.",
+      "translation_quote": "Se alguém não teve uma infecção por COVID, eu certamente tenderia a recomendar que tomasse a vacina."
+    },
+    {
+      "location": "HTML, section “Todos os demais,” first paragraph",
+      "severity": "major",
+      "source_quote": "For those who are working in health care, I would lean towards getting one of the vaccines.",
+      "suggested_fix": "Replace “eu tenderia a recomendar uma das vacinas” with “eu tenderia a tomar uma das vacinas” to retain the author’s stated personal inclination, not turn it into advice.",
+      "translation_quote": "Para aqueles que trabalham na área da saúde, eu tenderia a recomendar uma das vacinas."
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "2ed3f2d90ba45c713f4c5eccfab2c167",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "por",
@@ -178,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

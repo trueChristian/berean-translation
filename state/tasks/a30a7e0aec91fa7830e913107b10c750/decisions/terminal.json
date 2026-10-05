@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文第九段：教会群体名称",
+      "severity": "major",
+      "source_quote": "various conservative, Anabaptist groups",
+      "suggested_fix": "将“各种保守的再洗礼派团体”改为“各种保守的安abaptist（再洗礼派）团体”并统一采用可辨识的中文译名；此处原文指历史上的 Anabaptist 群体，不应误作通常所说的“再洗礼派”。",
+      "translation_quote": "各种保守的再洗礼派团体"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

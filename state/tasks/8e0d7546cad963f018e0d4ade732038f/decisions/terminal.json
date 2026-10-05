@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraphs describing mRNA vaccines and antibody testing",
+      "severity": "major",
+      "source_quote": "“the spike protein on the COVID virus”; “an antibody to the spike protein”",
+      "suggested_fix": "Replace “spykerproteïen” in both places with an appropriate Afrikaans term for the viral spike protein, such as “spitsproteïen”.",
+      "translation_quote": "“die spykerproteïen op die COVID-virus”; “’n teenliggaam teen die spykerproteïen”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

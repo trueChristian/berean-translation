@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 13354
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1001,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 747,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8633,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8630,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9634
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, section introduction, paragraph 1",
-      "severity": "minor",
-      "source_quote": "See the editorial under the section “continued changes” for further details.",
-      "suggested_fix": "Replace «lederartikkelen under seksjonen «fortsatte endringer»» with «lederen under seksjonen «fortsatte endringer»» to render “the editorial” more naturally in Norwegian.",
-      "translation_quote": "Se lederartikkelen under seksjonen «fortsatte endringer» for flere detaljer."
-    },
-    {
-      "location": "HTML, “Andre vaksiner,” paragraph 1",
+      "location": "HTML, «Etiske spørsmål» and «Andre vaksiner»",
       "severity": "major",
-      "source_quote": "to trigger the immune response. create immunity.",
-      "suggested_fix": "Replace «for å utløse immunresponsen. Skape immunitet.» with «for å utløse immunresponsen og skape immunitet.»",
-      "translation_quote": "for å utløse immunresponsen. Skape immunitet."
-    },
-    {
-      "location": "HTML, “Andre spørsmål,” paragraph 2",
-      "severity": "minor",
-      "source_quote": "(21 gauge or smaller)",
-      "suggested_fix": "Translate the needle-size unit rather than retaining the English gauge term; for example, «(21 gauge eller mindre)» may be retained with a brief Norwegian clarification such as «(21 gauge eller mindre, altså en svært tynn nål)».",
-      "translation_quote": "(21 gauge eller mindre)"
+      "source_quote": "“Some of these vaccines are grown on cell lines that were derived from babies that were aborted in the 70s and 80s.” / “HEK293 fetal cells, which are derived from an aborted infant.”",
+      "suggested_fix": "Preserve the source’s wording that these cell lines derive from aborted babies/infants, rather than replacing that characterization with the less specific «fostre». For example: «Noen av disse vaksinene dyrkes på cellelinjer som stammer fra babyer som ble abortert på 70- og 80-tallet.» and «… HEK293-fosterceller, som stammer fra et spedbarn som ble abortert.»",
+      "translation_quote": "«Noen av disse vaksinene dyrkes på cellelinjer som stammer fra fostre som ble abortert på 70- og 80-tallet.» / «… HEK293-fosterceller, som stammer fra et abortert foster.»"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "7f13c6bcc1a914ad44343ea1cc7541f9",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,61 @@
         },
         "total_tokens": 11490
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 553,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7178,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7175,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7731
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, абзац под заголовком «Теории заговора»",
-      "severity": "major",
-      "source_quote": "“Surely, the ideas that I am passing on are not a conspiracy theory!”",
-      "suggested_fix": "Заменить цитату на: «Неужели идеи, которые я передаю другим, и правда не являются теорией заговора!»",
-      "translation_quote": "«Неужели идеи, которые я передаю другим, — это теория заговора!»"
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“Six feet” has become a well-recognized unit of measurement.",
+      "suggested_fix": "Для точности можно указать эквивалент в метрических единицах: «Шесть футов (около 1,8 метра) стали широко известной единицей измерения».",
+      "translation_quote": "«Шесть футов» стали широко известной единицей измерения."
     },
     {
-      "location": "HTML, абзац под заголовком «Теории заговора»",
+      "location": "html, paragraph on the vaccine",
       "severity": "major",
-      "source_quote": "“Usually, if there is a negative connotation surrounding something, then we tend to close ourselves to the possibility that we may be involved.”",
-      "suggested_fix": "Заменить соответствующую часть на: «Обычно, если что-то имеет негативный оттенок, мы склонны не допускать возможности, что сами можем быть к этому причастны»",
-      "translation_quote": "«Обычно, если что-то вызывает отрицательные ассоциации, мы склонны не допускать мысли, что сами можем быть к этому причастны»"
+      "source_quote": "Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?",
+      "suggested_fix": "Заменить «воплощенная в синтетической мРНК-вакцине» на «используемая при производстве синтетической мРНК-вакцины»: «Может ли эта новая технология, используемая при производстве синтетической мРНК-вакцины, как-то изменить мою ДНК, если я позволю сделать мне укол?»",
+      "translation_quote": "Может ли эта новая технология, воплощенная в синтетической мРНК-вакцине, как-то изменить мою ДНК, если я позволю проколоть кожу?"
     },
     {
-      "location": "HTML, абзац о семейной родословной",
+      "location": "html, paragraph on conspiracy theories, definition of “conspiracy”",
       "severity": "major",
-      "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
-      "suggested_fix": "Заменить на: «Джон С. и Мария (Хорнинг) Курц были моими прапрапрадедушкой и прапрапрабабушкой»",
-      "translation_quote": "«Джон С. и Мария (Хорнинг) Курц были моими прапрадедушкой и прапрабабушкой»"
+      "source_quote": "Conspiracy = a secret plan by a group to do something unlawful or harmful.",
+      "suggested_fix": "Исправить определение, сохранив оба варианта: «Заговор — это тайный план группы людей совершить что-то незаконное или причинить вред».",
+      "translation_quote": "Заговор — это тайный план группы людей совершить что-то незаконное или вредоносное."
     },
     {
-      "location": "HTML, заключительный абзац с цитатой Иакова 4:8",
+      "location": "html, final paragraph",
       "severity": "major",
-      "source_quote": "“Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.”",
-      "suggested_fix": "Исправить степень родства в цитате на «прапрапрадедушкой и прапрапрабабушкой». Других изменений в этом фрагменте не требуется.",
-      "translation_quote": "«Приблизьтесь к Богу, и приблизится к вам; очистите руки, грешники, исправьте сердца ваши, двоедушные — Иакова 4:8.»"
+      "source_quote": "Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+      "suggested_fix": "Передать повелительное значение “purify your hearts” и сохранить ссылку: «Приблизьтесь к Богу, и Он приблизится к вам. Очистите руки, грешники, и очистите сердца ваши, двоедушные — Иакова 4:8».",
+      "translation_quote": "Приблизьтесь к Богу, и приблизится к вам; очистите руки, грешники, исправьте сердца ваши, двоедушные — Иакова 4:8."
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "acea0c2b2365a29d70bea2083f8b8ec1",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "rus",
@@ -186,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקת הערת העורך\",\"severity\":\"major\",\"source_quote\":\"“Ephrata Christian Fellowship with Mose as one of its leaders, took on the publishing of the magazine as their own effort.”\",\"suggested_fix\":\"תקנו את שם הקהילה לשם המקובל שלה בעברית, למשל ״אחוות הנוצרים של אפרטה״, כדי שלא ייראה כאילו מדובר ב״קהילת האחים הנוצרים״.\",\"translation_quote\":\"קהילת האחים הנוצרים באפרטה, שמוז היה אחד ממנהיגיה, קיבלה על עצמה את הוצאת המגזין לאור.\"},{\"location\":\"פסקת הציטוט מרומים א׳ 1:14–15\",\"severity\":\"major\",\"source_quote\":\"“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise. So, as much as in me is, I am ready to preach the gospel to you that are at Rome also –Romans 1:14-15.”\",\"suggested_fix\":\"השלימו את הציטוט כך שישמר גם תוכנו של “to you that are at Rome also”, למשל: ״...אני מוכן לבשר גם לכם אשר ברומא –רומים 1:14-15.״\",\"translation_quote\":\"חייב אני ליוונים וגם לברברים, לחכמים וגם לחסרי הדעת. על כן, ככל שהדבר תלוי בי, אני מוכן לבשר גם לכם שברומא –רומים 1:14-15.\"},{\"location\":\"פסקת הציטוט מרומים א׳ 1:16\",\"severity\":\"major\",\"source_quote\":\"“...the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.”\",\"suggested_fix\":\"החליפו את ״לכל מי שמאמין״ בניסוח שמשמר את ״לכל אחד שמאמין״, למשל: ״...כוח אלוהים לישועה לכל אחד שמאמין, ליהודי בראשונה וגם ליווני –רומים 1:16.״\",\"translation_quote\":\"…כוח אלוהים לישועה לכל מי שמאמין, ליהודי בראשונה וגם ליווני –רומים 1:16.\"},{\"location\":\"פסקת הנסיעות עם דני קנסטון\",\"severity\":\"major\",\"source_quote\":\"“With much unction from the Holy One, they would preach the Gospel.”\",\"suggested_fix\":\"החליפו את ״בהשראה רבה מן הקדוש״ בניסוח המשקף משיחה או הסמכה רוחנית, למשל: ״במשיחה רבה מאת הקדוש ברוך הוא, הם הטיפו את הבשורה.״\",\"translation_quote\":\"בהשראה רבה מן הקדוש, הם הטיפו את הבשורה.\"},{\"location\":\"כותרת המאמר\",\"severity\":\"minor\",\"source_quote\":\"A Tribute to ‘Brother Mose’\",\"suggested_fix\":\"אפשר לתרגם את הכותרת בצורה טבעית יותר כ״מחווה ל״אח מוז״״, ולשמור על מירכאות עבריות עקביות.\",\"translation_quote\":\"מחווה ל״האח מוז״\"},{\"location\":\"פסקת מנהיגותו של מוז\",\"severity\":\"minor\",\"source_quote\":\"“he would frequently seek out the council of fellow ministers.”\",\"suggested_fix\":\"לפי ההקשר, יש לתרגם council כ״עצה״ ולא כמונח המציין מועצה; הניסוח ״ביקש את עצתם״ כבר מעביר את המשמעות, ולכן אין צורך בשינוי.\",\"translation_quote\":\"פנה לעיתים קרובות לעמיתיו השרים וביקש את עצתם.\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 3417,
+    "content_evidence_truncated": false,
+    "content_sha256": "a942d13da1485ef66208dc46577fa6c70e08da1f678f189d6535b355fd01fe7b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5550,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6370
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

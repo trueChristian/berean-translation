@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 3",
+      "severity": "minor",
+      "source_quote": "“This path leads to much sin, foolishness, immorality, and more.”",
+      "suggested_fix": "Ganti “percabulan” dengan “perbuatan amoral” agar maknanya tetap seluas “immorality” dalam sumber.",
+      "translation_quote": "“Jalan ini menuntun pada banyak dosa, kebodohan, percabulan, dan sebagainya.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

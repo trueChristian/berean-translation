@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, fourth paragraph (Luke 2:8–14 quotation)\",\"severity\":\"major\",\"source_quote\":\"“Glory to God in the highest, and on earth peace, good will toward men”\",\"suggested_fix\":\"Replace the ending of the quoted sentence with a faithful Hindi translation of the printed text, for example: “परमेश्वर की सर्वोच्च महिमा हो, और पृथ्वी पर शांति, मनुष्यों के प्रति सद्भावना।” Preserve the existing quotation and HTML structure.\",\"translation_quote\":\"“आकाश में परमेश्वर की महिमा, और पृथ्वी पर उन मनुष्यों में शांति, जिन पर उसकी प्रसन्नता है।”\"},{\"location\":\"source.html, paragraph beginning “As the star-spangled heavens erupted to life”\",\"severity\":\"major\",\"source_quote\":\"“filling the mountainside with a glimmer of heaven that earth has never known since the day of creation, When the morning stars sang together, and all the sons of God shouted for joy –Job 38:7.”\",\"suggested_fix\":\"Translate the quoted Scripture to convey the printed wording: “जब भोर के तारे एक साथ गाते थे, और परमेश्वर के सब पुत्र जयजयकार करते थे” (or an equally faithful Hindi rendering). Keep the reference Job 38:7 unchanged in number and placement.\",\"translation_quote\":\"“जब भोर के तारे एक संग आनन्द से गाते थे, और परमेश्वर के सब पुत्र जयजयकार करते थे? –अय्यूब 38:7.”\"},{\"location\":\"source.html, paragraph beginning “The sign of the manger in conjunction”\",\"severity\":\"major\",\"source_quote\":\"“Scripture makes no mention of the comforts of a stable at all.”\",\"suggested_fix\":\"Translate the source assertion without changing its subject: “शास्त्र स्थिरशाला की सुख-सुविधाओं का कोई उल्लेख बिल्कुल नहीं करता।”\",\"translation_quote\":\"“शास्त्र स्थिरशाला के सुख-सुविधाओं का कोई उल्लेख नहीं करता।”\"},{\"location\":\"source.html, paragraph beginning “To visit the Christ child”\",\"severity\":\"major\",\"source_quote\":\"“To visit the Christ child will require us to haunt the place outside the inn.”\",\"suggested_fix\":\"Translate “haunt” here as going to or frequenting the place, not as being compelled to leave: “मसीह-बालक से मिलने के लिए हमें सराय के बाहर के स्थान पर जाना होगा।”\",\"translation_quote\":\"“मसीह-बालक से मिलने के लिए हमें सराय के बाहर के स्थान में जाना होगा।”\"},{\"location\":\"source.html, paragraph beginning “Those whose hearts resound with goodwill”\",\"severity\":\"major\",\"source_quote\":\"“This is the song that Stephen sang proceeding his earthly departure.”\",\"suggested_fix\":\"Render the action as occurring before Stephen’s death, for example: “यही वह गीत है जिसे स्तिफनुस ने अपनी पार्थिव विदाई से पहले गाया।”\",\"translation_quote\":\"“यही वह गीत है जिसे स्तिफनुस ने अपने पार्थिव प्रस्थान से ठीक पहले गाया।”\"},{\"location\":\"source.html, concluding hymn, second line\",\"severity\":\"major\",\"source_quote\":\"“Come, peasant, king, to own him.”\",\"suggested_fix\":\"Translate “peasant” as “किसान”/“किसान हो” rather than “किसान” being replaced by another social role; for example: “आओ, किसान और राजा, उसे अपना मानो।”\",\"translation_quote\":\"“आओ, किसान हो या राजा, उसे अपना प्रभु मानो।”\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 4400,
+    "content_evidence_truncated": false,
+    "content_sha256": "7318bb4b25109ef346cc200c7688ac953cfc73d02cdd86ff5fbc7f90acb33da2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9269,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9266,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10034
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

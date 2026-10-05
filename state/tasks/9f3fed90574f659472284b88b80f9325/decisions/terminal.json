@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph defining “sober”",
+      "severity": "minor",
+      "source_quote": "“to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Ändra ”opartisk” till ”oberörd” eller ”behärskad”, så att betydelsen av ”dispassionate” återges utan innebörden ”impartial”.",
+      "translation_quote": "”att vara lugn och samlad till sinnet; att vara måttfull och opartisk”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

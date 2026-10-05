@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 8485
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraf tentang pelayanan kepada kelompok Anabaptis",
-      "severity": "major",
-      "source_quote": "His specific concern was regarding those who had backslidden or strayed from the way of Truth.",
-      "suggested_fix": "Ganti kalimat terkait menjadi: \"Perhatiannya secara khusus tertuju kepada mereka yang telah mundur dari iman atau menyimpang dari jalan Kebenaran.\"",
-      "translation_quote": "Perhatiannya secara khusus tertuju kepada mereka yang telah murtad atau menyimpang dari jalan Kebenaran."
     },
     {
-      "location": "source.html, paragraf tentang karunia berkhotbah",
-      "severity": "minor",
-      "source_quote": "helping them to be established in the faith.",
-      "suggested_fix": "Agar lebih jelas menyatakan bahwa orang-orang percaya itu diteguhkan, ubah menjadi: \"membantu orang-orang percaya itu agar diteguhkan dalam iman.\"",
-      "translation_quote": "membantu mereka diteguhkan dalam iman."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 296,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5531,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5528,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5827
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article paragraph on preaching; quote from Romans 1:14–15",
+      "severity": "major",
+      "source_quote": "I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.",
+      "suggested_fix": "Replace the quoted wording with a faithful Indonesian translation that preserves the distinction: “Aku berutang kepada orang Yunani maupun orang barbar, kepada orang bijak maupun orang bodoh.” Keep the reference as Roma 1:14-15.",
+      "translation_quote": "Aku berutang kepada orang Yunani maupun orang bukan Yunani, kepada orang bijak maupun orang bodoh."
+    },
+    {
+      "location": "Article paragraph on preaching; quote from Romans 1:16",
+      "severity": "major",
+      "source_quote": "…the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek",
+      "suggested_fix": "Revise the quoted clause to preserve “to every one that believeth” as “bagi setiap orang yang percaya,” and render “to the Jew first, and also to the Greek” as “pertama-tama bagi orang Yahudi, dan juga bagi orang Yunani.” Keep the reference as Roma 1:16.",
+      "translation_quote": "…kuasa Allah yang menyelamatkan setiap orang yang percaya, pertama-tama orang Yahudi, tetapi juga orang Yunani"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "6c3d906d70de71a0e1cac70212809861",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ind",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,67 +64,75 @@
         },
         "total_tokens": 12737
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 943,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7467,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7464,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8410
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “The new mRNA technology…”",
+      "location": "source.html, Luke 21:25 quotation (opening paragraph and conclusion, verses 25–26)",
       "severity": "major",
-      "source_quote": "“children are a blessing, a heritage of the Lord”",
-      "suggested_fix": "“자녀는 복이며 주님께서 주신 유산이라고 이해하는 성경적 세계관을 지닌 사람들에게는 우려할 일입니다.”처럼 ‘a heritage of the Lord’의 의미를 보존하도록 고치십시오.",
-      "translation_quote": "“자녀는 복이며 주님께서 주신 기업이라고 이해하는 성경적 세계관을 지닌 사람들에게는 우려할 일입니다.”"
+      "source_quote": "“distress of nations, with perplexity; … Men’s hearts failing them for fear”",
+      "suggested_fix": "Translate the quoted wording faithfully, preserving the source’s meaning of nations in distress and people’s hearts failing from fear; for example, replace “민족들이 곤고하고 당황하며” with “민족들이 곤고하고 혼란스러워하며,” and “두려움으로 기절하리니” with “두려움으로 마음이 무너지리니.” Apply the same wording in both occurrences.",
+      "translation_quote": "“민족들이 곤고하고 당황하며; … 사람들이 … 두려움으로 기절하리니”"
     },
     {
-      "location": "source.html, paragraph beginning “There seems to be a mainstream…”",
+      "location": "source.html, first paragraph after “Vaccine Concerns for Conservative Anabaptists”",
       "severity": "major",
-      "source_quote": "“before we rush out to share with others the latest amazing and astounding, or heartbreaking new ‘fact’ about COVID-19 or it’s treatment, please apply what due diligence you can to verify if what you have heard can be trusted.”",
-      "suggested_fix": "‘최근의 놀랍고도 경이롭거나 가슴 아픈 새로운 사실’이라는 표현을 ‘최근에 들은 놀랍거나 가슴 아픈 새로운 사실’처럼 옮겨, 사실 자체를 ‘경이롭다’고 하는 어색한 의미를 바로잡으십시오.",
-      "translation_quote": "“코로나19나 그 치료에 관한 최근의 놀랍고도 경이롭거나 가슴 아픈 새로운 ‘사실’을 다른 사람들과 서둘러 나누기 전에”"
+      "source_quote": "“The rushed nature of the approval process resulted in shortcutting the standard testing procedures and safety measures”",
+      "suggested_fix": "Revise the sentence to say that the rushed approval process led to standard testing procedures and safety measures being shortened or bypassed, rather than asserting they were omitted: “승인 절차가 서둘러 진행되면서 백신과 의약품에 통상 적용되는 표준 시험 절차와 안전 조치가 단축되었습니다.”",
+      "translation_quote": "“표준 시험 절차와 안전 조치가 생략되었습니다.”"
     },
     {
-      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)…”",
+      "location": "source.html, paragraph beginning “There seems to be a mainstream, fear-based narrative”",
       "severity": "major",
-      "source_quote": "“Some claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”",
-      "suggested_fix": "주장과 혐의 가운데 일부를 교회 형제들이 직접 확인했을 때 주장된 ‘사실’이 부정확하거나 사실이 아닌 것으로 드러났다는 구조로 다듬으십시오.",
+      "source_quote": "“the oft-repeated narrative of ‘listen to the experts’ or ‘follow the science’”",
+      "suggested_fix": "Restore that the quoted appeals are repeatedly stated, for example: “여기에 ‘전문가들의 말을 들으라’거나 ‘과학을 따르라’는 말을 자주 되풀이하는 서사가 더해집니다.”",
+      "translation_quote": "“‘전문가들의 말을 들으라’거나 ‘과학을 따르라’는 말을 거듭 되풀이하는 서사가 더해집니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)”",
+      "severity": "major",
+      "source_quote": "“Many conspiracy claims have been spawned and propagated, purporting to be the ‘inside’ or ‘real’ story.”",
+      "suggested_fix": "Translate the claims as conspiracy claims, not conspiracy theories: replace “수많은 음모론이 생겨나 퍼졌습니다” with “수많은 음모 주장이 생겨나 퍼졌습니다.”",
+      "translation_quote": "“수많은 음모론이 생겨나 퍼졌습니다.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)”",
+      "severity": "major",
+      "source_quote": "“claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”",
+      "suggested_fix": "Keep the source’s attribution to church brothers and its report of their follow-up: for example, “일부 주장과 혐의는 교회 형제들이 직접 확인해 본 결과, 주장된 ‘사실’이 부정확하거나 사실이 아닌 것으로 밝혀졌습니다.”",
       "translation_quote": "“일부 주장과 혐의는 교회 형제들이 직접 확인해 본 결과, 주장된 ‘사실’이 부정확하거나 사실이 아닌 것으로 밝혀졌습니다.”"
     },
     {
-      "location": "source.html, same paragraph",
+      "location": "source.html, paragraph beginning “The mark this end-time ruler requires”",
       "severity": "major",
-      "source_quote": "“Many home remedies have ‘gone viral’ even among the plain people”",
-      "suggested_fix": "‘plain people’를 ‘소박한 사람들’이 아니라 문맥에 맞게 ‘검소한 생활을 하는 신자들’ 또는 ‘평이한 복장을 하는 사람들’ 등으로 옮기십시오.",
-      "translation_quote": "“많은 민간요법이 소박한 사람들 사이에서도 ‘바이럴’처럼 퍼졌는데”"
-    },
-    {
-      "location": "source.html, same paragraph",
-      "severity": "major",
-      "source_quote": "“this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.”",
-      "suggested_fix": "‘이 문제의 이편’이라는 표현을 ‘이 문제의 이 측면’으로 바로잡고, ‘험담하고, 거짓말을 만들어 내고 믿으며, 거짓 증언을 하는 문제에서 시험을 받았다’는 뜻이 분명하도록 고치십시오.",
-      "translation_quote": "“이 문제의 이편이 보수적인 아나뱁티스트 사람들에게 험담하고, 거짓말을 만들어 내고 믿으며, 거짓 증언을 하는 문제에서 시련과 시험이 되었다는 점입니다.”"
-    },
-    {
-      "location": "source.html, paragraph beginning “There are dangerous heresies around today…”",
-      "severity": "major",
-      "source_quote": "“what ‘God tells me’ begins to displace, and sooner or later, contradicts what the Word of God actually says.”",
-      "suggested_fix": "‘그 체험과 “하나님께서 내게 말씀하신다”는 내용이 하나님의 말씀이 실제로 말하는 바를 밀어내고, 머지않아 그것과 모순되기 시작합니다’처럼 주관적 체험과 그 내용이 성경 말씀을 대체하고 모순한다는 뜻을 명확히 하십시오.",
-      "translation_quote": "“그러고는 그 체험과 ‘하나님께서 내게 말씀하신다’는 내용이 하나님의 말씀이 실제로 말하는 것을 밀어내기 시작하고, 머지않아 그것과 모순되기에 이릅니다.”"
-    },
-    {
-      "location": "source.html, paragraph beginning “Dangerous deceptions take root…”",
-      "severity": "major",
-      "source_quote": "“These people embrace false teachings concerning spiritual warfare, and the work of the devil and false teachings about ‘casting out’ sin, rather than ‘putting it away’, ‘putting it off ’, or ‘turning away from’ as the Scriptures teach.”",
-      "suggested_fix": "‘마귀의 역사에 관한 거짓 가르침과, 성경이 가르치는 죄를 “버리고”, “벗어 버리고”, “돌이키는” 대신 죄를 “쫓아내는” 것에 관한 거짓 가르침을 받아들입니다’처럼 두 종류의 거짓 가르침을 원문 순서와 관계대로 분명히 옮기십시오.",
-      "translation_quote": "“이들은 성경이 가르치는 ‘죄를 버리고’, ‘벗어 버리고’, ‘돌이키는’ 대신 죄를 ‘쫓아내는’ 것에 관한 거짓 가르침과, 영적 전쟁 및 마귀의 역사에 관한 거짓 가르침을 받아들입니다.”"
-    },
-    {
-      "location": "source.html, final paragraph beginning “In conclusion…”",
-      "severity": "major",
-      "source_quote": "“29 And he spake to them a parable; Behold the fig tree, and all the trees; 30 When they now shoot forth, ye see and know of your own selves that summer is now nigh at hand.”",
-      "suggested_fix": "29절의 ‘예수께서 그들에게 비유를 말씀하시되’와 30절의 ‘싹이 나면’을 보존해, 나무들이 싹트는 모습을 보고 여름이 가까웠음을 안다는 뜻으로 다듬으십시오.",
-      "translation_quote": "“29 예수께서 그들에게 비유를 말씀하시되 무화과나무와 모든 나무를 보라. 30 싹이 나면 너희가 보고 여름이 가까운 줄을 너희 스스로 아느니라.”"
+      "source_quote": "“it is a choice on our part, and not something we are deceived into getting, only to realize later that it is the mark of the beast”",
+      "suggested_fix": "The translation says it is a choice, not something received through deception, and only later recognized as the mark. Revise to preserve that contrast, for example: “또 표를 받는 것은 우리가 선택하는 일이지, 속임을 당해 받았다가 나중에야 그것이 짐승의 표임을 깨닫게 되는 일이 아니라는 뜻일 것입니다.”",
+      "translation_quote": "“또 표를 받는 것은 우리가 선택하는 일이지, 속임을 당해 받았다가 나중에야 그것이 짐승의 표임을 깨닫는 일이 아니라는 뜻일 것입니다.”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "ad6c70875e1982713f1870071b19df22",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "kor",
@@ -214,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

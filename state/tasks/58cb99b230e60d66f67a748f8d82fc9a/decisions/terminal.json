@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, the first three quotations in the <ul>",
+      "severity": "minor",
+      "source_quote": "“I will praise thee”; “I will love thee”; “I will call upon the Lord”",
+      "suggested_fix": "Use natural Bengali verb constructions in these quotations, for example: “হে সদাপ্রভু, আমি সমস্ত হৃদয় দিয়ে তোমার প্রশংসা করব”; “হে সদাপ্রভু, আমার শক্তি, আমি তোমাকে ভালোবাসব”; “প্রশংসার যোগ্য সদাপ্রভুকে আমি ডাকব।” Keep the existing emphasis and reference tags and positions unchanged.",
+      "translation_quote": "“আমি করব, হে সদাপ্রভু, সমস্ত হৃদয় দিয়ে তোমার প্রশংসা”; “আমি করব তোমাকে প্রেম”; “আমি করব সদাপ্রভুকে ডাক”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

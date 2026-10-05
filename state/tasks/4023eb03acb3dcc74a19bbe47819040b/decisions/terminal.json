@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, the final bullet in the opening list of David’s “I will” statements",
+      "severity": "major",
+      "source_quote": "I will be satisfied when I awake with Thy likeness.",
+      "suggested_fix": "Replace “wenn ich erwache und dein Bild sehe” with “wenn ich erwache und deinem Ebenbild gleich bin” to preserve the meaning of being satisfied upon awakening in God’s likeness.",
+      "translation_quote": "Ich will zufrieden sein, wenn ich erwache und dein Bild sehe."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

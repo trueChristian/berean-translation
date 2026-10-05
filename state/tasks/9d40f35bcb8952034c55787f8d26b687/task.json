@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 16806
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 707,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10327,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10324,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11200
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Άλλα εμβόλια, πρώτη παράγραφος",
-      "severity": "major",
-      "source_quote": "“to trigger the immune response. create immunity.”",
-      "suggested_fix": "Διατηρήστε τη δομή HTML και αποδώστε το ως: «για να ενεργοποιήσουν την ανοσολογική απόκριση. να δημιουργήσουν ανοσία.» Η σημερινή διατύπωση κάνει τη φράση «δημιουργείται ανοσία» να φαίνεται αποσπασμένη και αλλάζει τη φωνή του ρήματος.",
-      "translation_quote": "«για να ενεργοποιήσουν την ανοσολογική απόκριση. δημιουργείται ανοσία.»"
-    },
-    {
-      "location": "Σημείωμα του συντάκτη, πρώτη παράγραφος",
+      "location": "HTML, paragraph under «Τα αρχικά εμβόλια»",
       "severity": "minor",
-      "source_quote": "“the potential side effects developing from receiving the vaccine”",
-      "suggested_fix": "Για ακριβέστερη απόδοση της χρονικής εξέλιξης, αλλάξτε σε «τις πιθανές παρενέργειες που εμφανίζονται μετά τη χορήγηση του εμβολίου».",
-      "translation_quote": "«τις πιθανές παρενέργειες που εμφανίζονται μετά τη λήψη τους»"
+      "source_quote": "DNA encodes the different proteins that cells need to produce in order to function.",
+      "suggested_fix": "Revise to «Στα κύτταρα, το DNA κωδικοποιεί τις διάφορες πρωτεΐνες που πρέπει να παράγουν τα κύτταρα για να λειτουργούν.»",
+      "translation_quote": "Στα κύτταρα, το DNA κωδικοποιεί τις διάφορες πρωτεΐνες που χρειάζονται τα κύτταρα για να παράγουν ώστε να λειτουργούν."
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "9d40f35bcb8952034c55787f8d26b687",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ell",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 12850
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 554,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7883,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7880,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8437
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "html, পুস্তিকার যোগাযোগ-তথ্যের অনুচ্ছেদ",
+      "location": "HTML, ‘ষড়যন্ত্রের তত্ত্ব’ অংশের সংজ্ঞা",
       "severity": "major",
-      "source_quote": "“each of which can be found inside the front cover of each issue of our magazine, <em>The Heartbeat of the Remnant.</em>”",
-      "suggested_fix": "বাংলায় অনুবাদ করুন: “আমাদের সঙ্গে ডাকযোগে, ফোনে বা ইমেইলে যোগাযোগ করা যাবে; এই যোগাযোগের তথ্য আমাদের পত্রিকার প্রতিটি সংখ্যার প্রচ্ছদের ভেতরের অংশে পাওয়া যাবে, <em>The Heartbeat of the Remnant.</em>” বিদ্যমান <em>...</em> ট্যাগ ও ক্রম অক্ষুণ্ণ রাখুন।",
-      "translation_quote": "“এসব তথ্য আমাদের পত্রিকার প্রতিটি সংখ্যার প্রচ্ছদের ভেতরের প্রথম পাতায় দেওয়া আছে, <em>The Heartbeat of the Remnant.</em>”"
+      "source_quote": "“Conspiracy = a secret plan by a group to do something unlawful or harmful. Theory = a supposition or a system of ideas intended to explain something.”",
+      "suggested_fix": "অনুবাদে সংজ্ঞাগুলোকে হুবহু এভাবে অর্থবদ্ধ করুন: “ষড়যন্ত্র = কোনো বেআইনি বা ক্ষতিকর কাজ করার জন্য একটি দলের গোপন পরিকল্পনা। তত্ত্ব = কোনো কিছু ব্যাখ্যা করার উদ্দেশ্যে করা অনুমান বা ধারণার একটি পদ্ধতি।”",
+      "translation_quote": "“ষড়যন্ত্র = কোনো বেআইনি বা ক্ষতিকর কাজ করার জন্য একটি দলের গোপন পরিকল্পনা। তত্ত্ব = কোনো কিছু ব্যাখ্যা করার উদ্দেশ্যে গড়ে তোলা অনুমান বা ধারণার একটি পদ্ধতি।”"
     },
     {
-      "location": "html, “একটি আগ্রহের বিষয়” অনুচ্ছেদ",
+      "location": "HTML, ‘ভাইরাস যখন ঘরে আঘাত হানে’ অংশের দ্বিতীয় অনুচ্ছেদ",
       "severity": "major",
-      "source_quote": "“Only John S. Kurtz survived, but was joined by two younger siblings later on.”",
-      "suggested_fix": "অনুবাদটি সংশোধন করে বলুন যে জন এস. কার্টজই একমাত্র বেঁচে থাকা সন্তান ছিলেন; পরে তাঁর পরিবারে আরও দুই ছোট ভাইবোন যুক্ত হয়েছিল। যেমন: “শুধু জন এস. কার্টজই বেঁচে ছিলেন; পরে তাঁর আরও দুই ছোট ভাইবোন হয়েছিল।”",
-      "translation_quote": "“শুধু জন এস. কার্টজ বেঁচে গিয়েছিলেন, তবে পরে তাঁর আরও দুই ছোট ভাইবোন হয়েছিল।”"
+      "source_quote": "“The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.”",
+      "suggested_fix": "“নিয়ন্ত্রিত ওষুধ”কে “সীমাবদ্ধ ব্যবহারের ওষুধ” বা প্রসঙ্গমাফিক “নিয়ন্ত্রিতভাবে ব্যবহারের ওষুধ” করুন; উৎসের ‘restricted’ অর্থটি বজায় রাখুন।",
+      "translation_quote": "“হাসপাতালে ভর্তি হওয়া থেকে আমাকে যা রক্ষা করেছিল, তা হলো প্রতিদিন একটি নিয়ন্ত্রিত ওষুধ গ্রহণ এবং নেবুলাইজারের মাধ্যমে চিকিৎসায় স্টেরয়েডের সুপারিশকৃত মাত্রার দ্বিগুণ গ্রহণ।”"
     },
     {
-      "location": "html, শেষ অনুচ্ছেদের উদ্ধৃত শাস্ত্রবাক্য",
+      "location": "HTML, ‘একটি আগ্রহের বিষয়’ অংশের দ্বিতীয় অনুচ্ছেদ",
       "severity": "major",
-      "source_quote": "“Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.”",
-      "suggested_fix": "উদ্ধৃতির শেষে শাস্ত্র-উল্লেখটি “যাকোব ৪:৮” করুন; উদ্ধৃত বাংলা পাঠ অপরিবর্তিত রাখতে পারেন।",
-      "translation_quote": "“ঈশ্বরের নিকটবর্তী হও, তিনিও তোমাদের নিকটবর্তী হবেন। পাপীরা, তোমাদের হাত শুচি করো; আর দ্বিমনা লোকেরা, তোমাদের হৃদয় পবিত্র করো—যাকোব ৪:৮।”"
+      "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
+      "suggested_fix": "“আমার প্রপিতামহ-প্রপিতামহী”কে এমনভাবে সংশোধন করুন যাতে দুই প্রজন্ম আগের পূর্বপুরুষ বোঝায়, যেমন: “জন এস. ও মারিয়া (হর্নিং) কার্টজ আমার প্রপিতামহ ও প্রপিতামহী ছিলেন।”",
+      "translation_quote": "“জন এস. ও মারিয়া (হর্নিং) কার্টজ ছিলেন আমার প্রপিতামহ-প্রপিতামহী।”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "cb14bde263e5e24128dbcb5a3cc1a9e6",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

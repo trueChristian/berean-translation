@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8adfbf44-30bc-4761-88af-055d239e891b",
+    "response_id": "chatcmpl-EVcr4jxRnfqDW3r3f5BETZ10VUPtX",
+    "usage": {
+      "completion_tokens": 291,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3275,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3272,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3566
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, letzter Vers des letzten Gedichtabsatzes",
+        "severity": "major",
+        "source_quote": "And the real source of True Life superb.",
+        "suggested_fix": "Ersetze die letzte Zeile durch eine deutsche Formulierung, die besagt, dass Er die wahre Quelle des herrlichen/wahrhaftigen Lebens ist, etwa: „und die wahre Quelle des herrlichen Lebens.“",
+        "translation_quote": "und die wahre Quelle des großartigen Lebens."
+      },
+      {
+        "location": "html, Absatz beginnend „So now instead of praying“",
+        "severity": "major",
+        "source_quote": "So now instead of praying / For things of earthly ease, / I thank the Lord for sending things / That brought me to my knees.",
+        "suggested_fix": "Bewahre den Kontrast zwischen Beten um irdische Bequemlichkeit und Danken für die Dinge, die die Sprecherin in die Knie brachten. Zum Beispiel: „So bete ich jetzt nicht mehr / um irdische Bequemlichkeit, / sondern danke dem Herrn für die Dinge, die Er sendet / und die mich in die Knie zwangen.“",
+        "translation_quote": "So bete ich jetzt, statt / um irdische Bequemlichkeit zu bitten, / danke ich dem Herrn für die Dinge, die Er sendet / und die mich in die Knie zwangen."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “There seems to be a mainstream…”",
+      "severity": "major",
+      "source_quote": "“Are there multiple testimonies to the issue?”",
+      "suggested_fix": "Replace “Is daar verskeie getuienisse oor die kwessie?” with “Is daar verskeie getuienis oor die kwessie?” (or “Is daar verskeie getuienisbronne oor die kwessie?”), preserving the surrounding HTML.",
+      "translation_quote": "“Is daar verskeie getuienisse oor die kwessie?”"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)…”",
+      "severity": "major",
+      "source_quote": "“Some claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”",
+      "suggested_fix": "Correct the garbled characters and render the clause as “Toe kerkb​​roeders sommige bewerings en aantygings persoonlik opgevolg het, het hulle ontdek dat die beweerde ‘feite’ onakkuraat of onwaar was.”",
+      "translation_quote": "“Toe kerkb​​roeders sommige bewerings en aantygings persoonlik nagegaan het, het hulle ontdek dat die beweerde ‘feite’ onakkuraat of onwaar was.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “As we see in the above Bible passage…”",
+      "severity": "major",
+      "source_quote": "“The mark this end-time ruler requires clearly signifies worship of the Beast, which would imply allegiance.”",
+      "suggested_fix": "Add the omitted HTML emphasis around “aanbidding” to preserve the source’s emphasis: “dui duidelik op <strong>aanbidding</strong> van die <strong>Dier</strong>”.",
+      "translation_quote": "“dui duidelik op aanbidding van die <strong>Dier</strong>”"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "“MODERN-DAY PERILS”",
+      "suggested_fix": "Translate the section label as “GEVARE VAN DIE HUIDIGE TYD” is acceptable only if it conveys the same sense; preferably use “GEVARE VAN ONS TYD” or “HUIDIGE GEVARE” to avoid suggesting only dangers of the present moment.",
+      "translation_quote": "“GEVARE VAN DIE HUIDIGE TYD”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e7156205-ff98-4550-b86d-0bf6ed3e5129",
+    "response_id": "chatcmpl-EVcs0gsdZIVPpF8VAHs7vUfy1YWYa",
+    "usage": {
+      "completion_tokens": 882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8190,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8187,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9072
+    }
+  },
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “What about in our churches?”; Hebrews 3:12–13 quotation",
+        "severity": "major",
+        "source_quote": "But exhort one another daily",
+        "suggested_fix": "Replace «بل عظوا أنفسكم كل يوم» with «بل عظوا بعضكم بعضًا كل يوم» to preserve the mutual exhortation in the source.",
+        "translation_quote": "بل عظوا أنفسكم كل يوم"
+      },
+      {
+        "location": "Paragraph beginning “How we speak to one another”",
+        "severity": "major",
+        "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+        "suggested_fix": "Render the printed double negative rather than changing it to unwillingness, for example: «لكن إذا كنا غير رافضين للتكلم بالحق، حتى إن كان ذلك سيُغضب أحدًا منا، ألسنا عندئذ مخطئين؟»",
+        "translation_quote": "لكن إذا لم نكن مستعدين للتكلم بالحق حين يعني ذلك أن أحدًا سيغضب منا، ألسنا عندئذ مخطئين؟"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

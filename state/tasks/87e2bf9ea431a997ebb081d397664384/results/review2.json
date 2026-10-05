@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "acef1496-92e2-4b49-ba6e-7f68caaf7708",
+    "response_id": "chatcmpl-EVcqDWmHagQ4WCewnJOms10ywBQSI",
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 892,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8780,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9791
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph containing the Ezekiel 16:4 quotation",
+        "severity": "major",
+        "source_quote": "thou wast not salted at all",
+        "suggested_fix": "Ganti frasa “tidak digosok dengan garam” menjadi “tidak digarami sama sekali” agar tindakan yang disebut dalam kutipan sesuai dengan teks sumber.",
+        "translation_quote": "tidak digosok dengan garam"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

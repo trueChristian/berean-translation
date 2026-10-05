@@ -6,9 +6,32 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "d68a008e8f9b32a28a9ec5f4fecc0b48"
+    },
+    {
+      "at": "2026-10-05T13:23:06+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "d68a008e8f9b32a28a9ec5f4fecc0b48"
     }
   ],
   "language": "nob",
   "latest_task": "d68a008e8f9b32a28a9ec5f4fecc0b48",
-  "published": null
+  "published": {
+    "html_path": "content/nob/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+    "html_sha256": "0b46285f562c2c841f334b016cf45ec8f107fa1e23646f10bc3d6407b97f889a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+    "metadata_path": "content/nob/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+    "metadata_sha256": "8dc8349ebf31f8bbeb52d4b9d1c0d4fe0757a80b5465dbd766a0c45703c60840",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nb\" dir=\"ltr\" role=\"note\">\n  <p>Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: gpt-6-luna) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen. <a href=\"/en/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126/\" data-source-article-id=\"60ca59c3-d608-43fb-aee5-f08aa84e0126\" hreflang=\"en\">Engelsk original</a></p>\n</aside>",
+    "published_at": "2026-10-05T13:23:06+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
+    "task": "d68a008e8f9b32a28a9ec5f4fecc0b48",
+    "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7"
+  }
 }

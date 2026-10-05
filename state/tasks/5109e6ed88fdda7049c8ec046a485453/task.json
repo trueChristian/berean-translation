@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13731
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 705,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8809,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8806,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9689
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph quoting Ephesians 5:11–13",
+      "location": "HTML paragraph beginning “পবিত্র বাইবেলের কয়েকটি উদাহরণ বিবেচনা করা যাক।”",
       "severity": "major",
-      "source_quote": "But all things that are reproved are made manifest by the light",
-      "suggested_fix": "Replace «আলোয় সবকিছু প্রকাশিত হয়» with «যেসব কিছুকে তিরস্কার করা হয়, সেগুলো সবই আলোর দ্বারা প্রকাশিত হয়» so the translation retains the source’s connection between reproof and being made manifest.",
-      "translation_quote": "কিন্তু <strong>আলোয় সবকিছু প্রকাশিত হয়</strong>"
+      "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+      "suggested_fix": "Remove “তাঁদের জন্য” in “তাঁদের প্রত্যেকেই তাঁদের জন্য কষ্টভোগ করেছিলেন।” The source sentence is incomplete at “for their”; do not supply an unprinted object or attribute a specific reason for their suffering.",
+      "translation_quote": "“শিষ্যদের কথা ভাবুন—তাঁদের প্রত্যেকেই তাঁদের জন্য কষ্টভোগ করেছিলেন।”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "5109e6ed88fdda7049c8ec046a485453",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

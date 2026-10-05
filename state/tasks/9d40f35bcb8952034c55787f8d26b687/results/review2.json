@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1f3147d9-387a-41e6-a0c0-41dba0b161c0",
+    "response_id": "chatcmpl-EVcqBSFS8CWJ1clx22xRtjTMHXFTa",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 707,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10327,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10324,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11200
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under «Τα αρχικά εμβόλια»",
+        "severity": "minor",
+        "source_quote": "DNA encodes the different proteins that cells need to produce in order to function.",
+        "suggested_fix": "Revise to «Στα κύτταρα, το DNA κωδικοποιεί τις διάφορες πρωτεΐνες που πρέπει να παράγουν τα κύτταρα για να λειτουργούν.»",
+        "translation_quote": "Στα κύτταρα, το DNA κωδικοποιεί τις διάφορες πρωτεΐνες που χρειάζονται τα κύτταρα για να παράγουν ώστε να λειτουργούν."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

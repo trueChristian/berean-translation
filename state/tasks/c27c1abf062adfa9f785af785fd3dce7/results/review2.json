@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6684cf38-0093-4b79-918f-bf22bdef8644",
+    "response_id": "chatcmpl-EVcqFAbgQkf3Gq0LA0tEkmkCMzvpy",
+    "usage": {
+      "completion_tokens": 379,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8583,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8580,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8962
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “De verachte herders…”",
+        "severity": "major",
+        "source_quote": "“This is the difference between nominal worship and the heartfelt praise of His redeemed who will but follow Him to the manger.”",
+        "suggested_fix": "Replace the final clause with “die Hem daadwerkelijk tot aan de kribbe zullen volgen” or another Dutch rendering that preserves “who will but follow Him” without suggesting that they merely need to follow Him.",
+        "translation_quote": "“Dit is het verschil tussen louter uiterlijke aanbidding en de oprechte lofprijzing van zijn verlosten, die Hem maar hoeven te volgen tot aan de kribbe.”"
+      },
+      {
+        "location": "Hymn, stanza beginning “Why lies He…”",
+        "severity": "major",
+        "source_quote": "“Good Christians, fear, for sinners here / The silent Word is pleading.”",
+        "suggested_fix": "Translate “fear” as an exhortation to reverent fear, and preserve that the Word is pleading for sinners; for example: “Goede christenen, vreest, want hier pleit het stille Woord voor zondaars.”",
+        "translation_quote": "“Goede christenen, vreest, want voor zondaars hier / Pleit het stille Woord.”"
+      },
+      {
+        "location": "Article body, paragraph beginning “De verachte herders…”",
+        "severity": "minor",
+        "source_quote": "“The despised shepherds lived most of their lives outside of the Inn Crowd”",
+        "suggested_fix": "Use “herbergmenigte” rather than “herbergcrowd” only if needed for consistency; the existing translation is otherwise understandable. (No correction needed for this wording.)",
+        "translation_quote": "“De verachte herders leefden het grootste deel van hun leven buiten de herbergmenigte”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

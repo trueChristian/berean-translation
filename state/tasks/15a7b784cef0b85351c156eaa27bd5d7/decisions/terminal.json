@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "正文第二段",
+      "severity": "major",
+      "source_quote": "The date was set by the bishop of Rome in accordance with a popular pagan festival called Saturnalia.",
+      "suggested_fix": "改为“这个日期是罗马主教依照一个名为农神节的流行异教节日确定的。”",
+      "translation_quote": "这个日期是罗马主教按照一个流行的异教节日——农神节——确定的。"
+    },
+    {
+      "location": "正文第九段",
+      "severity": "major",
+      "source_quote": "The passions and lusts that overpowered us before His influence came upon our lives must be subject to Him.",
+      "suggested_fix": "改为“在祂影响我们的生命之前曾经胜过我们的激情和欲望，也必须服在祂之下。”",
+      "translation_quote": "在祂影响我们的生命之前曾经辖制我们的激情和欲望，必须服在祂之下。"
+    },
+    {
+      "location": "正文“……一个记号”部分，关于客店人群的段落",
+      "severity": "major",
+      "source_quote": "To visit the Christ child will require us to haunt the place outside the inn.",
+      "suggested_fix": "改为“要探访基督的婴孩，就要求我们常常出入客店之外的地方。”",
+      "translation_quote": "去探望基督的婴孩，就要求我们常到客店之外的地方。"
+    },
+    {
+      "location": "正文“……一首歌”部分，关于大卫与拔示巴的段落",
+      "severity": "major",
+      "source_quote": "Some wonder how David could fall into sin with Bathsheba while he possessed his multiple wives. How could he not?",
+      "suggested_fix": "改为“有人不明白，大卫既有多个妻子，为何还会与拔示巴犯罪。他又怎能不犯罪呢？”",
+      "translation_quote": "有人不明白，大卫既有多个妻子，为何还会与拔示巴犯罪。他怎能不犯罪呢？"
+    },
+    {
+      "location": "正文末段，司提反所引述的经文说明",
+      "severity": "major",
+      "source_quote": "He spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9 and of Moses being cast out, and fleeing to Midian. vs.21.",
+      "suggested_fix": "将这处经文编号按原文保留并逐一对应，改为“他提到亚伯拉罕离开本地，使徒行传7:3；约瑟被卖，9节；以及摩西被弃绝并逃往米甸，21节。”",
+      "translation_quote": "他提到亚伯拉罕离开本地，使徒行传7:3；约瑟被卖离家，9节；摩西被弃绝，并逃往米甸，21节。"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

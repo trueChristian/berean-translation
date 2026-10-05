@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,46 +64,75 @@
         },
         "total_tokens": 8887
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 817,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5553,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5550,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6370
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Editor’s Note, first paragraph",
+      "location": "פסקת הערת העורך",
       "severity": "major",
-      "source_quote": "“The Heartbeat of the Remnant” magazine",
-      "suggested_fix": "Replace ״פעימת לבו של השארית״ with a Hebrew rendering that preserves the title’s meaning, for example ״פעימת הלב של השארית״.",
-      "translation_quote": "״פעימת לבו של השארית״"
+      "source_quote": "“Ephrata Christian Fellowship with Mose as one of its leaders, took on the publishing of the magazine as their own effort.”",
+      "suggested_fix": "תקנו את שם הקהילה לשם המקובל שלה בעברית, למשל ״אחוות הנוצרים של אפרטה״, כדי שלא ייראה כאילו מדובר ב״קהילת האחים הנוצרים״.",
+      "translation_quote": "קהילת האחים הנוצרים באפרטה, שמוז היה אחד ממנהיגיה, קיבלה על עצמה את הוצאת המגזין לאור."
     },
     {
-      "location": "Editor’s Note, first paragraph",
+      "location": "פסקת הציטוט מרומים א׳ 1:14–15",
       "severity": "major",
-      "source_quote": "“The Berean Voice”",
-      "suggested_fix": "Replace ״הקול הבֶּרִיאני״ with a rendering of “Berean” as referring to the Bereans, for example ״הקול הבֶּרִיאָנִי״.",
-      "translation_quote": "״הקול הבֶּרִיאני״"
+      "source_quote": "“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise. So, as much as in me is, I am ready to preach the gospel to you that are at Rome also –Romans 1:14-15.”",
+      "suggested_fix": "השלימו את הציטוט כך שישמר גם תוכנו של “to you that are at Rome also”, למשל: ״...אני מוכן לבשר גם לכם אשר ברומא –רומים 1:14-15.״",
+      "translation_quote": "חייב אני ליוונים וגם לברברים, לחכמים וגם לחסרי הדעת. על כן, ככל שהדבר תלוי בי, אני מוכן לבשר גם לכם שברומא –רומים 1:14-15."
     },
     {
-      "location": "Paragraph on the trips to Germany",
+      "location": "פסקת הציטוט מרומים א׳ 1:16",
       "severity": "major",
-      "source_quote": "“They visited about a dozen churches over the course of each three-week trip.”",
-      "suggested_fix": "Replace בכל אחת מהנסיעות, שנמשכו שלושה שבועות, הם ביקרו בתריסר כנסיות בערך with במשך כל נסיעה בת שלושה שבועות הם ביקרו בכשנים עשר כנסיות.",
-      "translation_quote": "בכל אחת מהנסיעות, שנמשכו שלושה שבועות, הם ביקרו בתריסר כנסיות בערך."
+      "source_quote": "“...the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.”",
+      "suggested_fix": "החליפו את ״לכל מי שמאמין״ בניסוח שמשמר את ״לכל אחד שמאמין״, למשל: ״...כוח אלוהים לישועה לכל אחד שמאמין, ליהודי בראשונה וגם ליווני –רומים 1:16.״",
+      "translation_quote": "…כוח אלוהים לישועה לכל מי שמאמין, ליהודי בראשונה וגם ליווני –רומים 1:16."
     },
     {
-      "location": "Paragraph quoting Romans 1:14–15",
+      "location": "פסקת הנסיעות עם דני קנסטון",
       "severity": "major",
-      "source_quote": "“So, as much as in me is, I am ready to preach the gospel to you that are at Rome also”",
-      "suggested_fix": "Replace the quoted wording with a faithful Hebrew translation, such as: ״על כן, ככל שהדבר תלוי בי, אני מוכן לבשר גם לכם שברומא.״ Keep the existing reference number and placement unchanged.",
-      "translation_quote": "על כן, ככל שהדבר תלוי בי, נכון אני לבשר גם לכם שברומא"
+      "source_quote": "“With much unction from the Holy One, they would preach the Gospel.”",
+      "suggested_fix": "החליפו את ״בהשראה רבה מן הקדוש״ בניסוח המשקף משיחה או הסמכה רוחנית, למשל: ״במשיחה רבה מאת הקדוש ברוך הוא, הם הטיפו את הבשורה.״",
+      "translation_quote": "בהשראה רבה מן הקדוש, הם הטיפו את הבשורה."
     },
     {
-      "location": "Paragraph quoting Romans 1:16",
-      "severity": "major",
-      "source_quote": "“the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek”",
-      "suggested_fix": "Replace כוח אלוהים להושיע כל המאמין, את היהודי בראשונה וגם את היווני with a Hebrew rendering that preserves “unto salvation” and “everyone who believes,” for example: כוח אלוהים לישועה לכל מי שמאמין, ליהודי בראשונה וגם ליווני.",
-      "translation_quote": "כוח אלוהים להושיע כל המאמין, את היהודי בראשונה וגם את היווני"
+      "location": "כותרת המאמר",
+      "severity": "minor",
+      "source_quote": "A Tribute to ‘Brother Mose’",
+      "suggested_fix": "אפשר לתרגם את הכותרת בצורה טבעית יותר כ״מחווה ל״אח מוז״״, ולשמור על מירכאות עבריות עקביות.",
+      "translation_quote": "מחווה ל״האח מוז״"
+    },
+    {
+      "location": "פסקת מנהיגותו של מוז",
+      "severity": "minor",
+      "source_quote": "“he would frequently seek out the council of fellow ministers.”",
+      "suggested_fix": "לפי ההקשר, יש לתרגם council כ״עצה״ ולא כמונח המציין מועצה; הניסוח ״ביקש את עצתם״ כבר מעביר את המשמעות, ולכן אין צורך בשינוי.",
+      "translation_quote": "פנה לעיתים קרובות לעמיתיו השרים וביקש את עצתם."
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "6a6a5e250de1894f96ddd312d4f5084e",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -193,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 74,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

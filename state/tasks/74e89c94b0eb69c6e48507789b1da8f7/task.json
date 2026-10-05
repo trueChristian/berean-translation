@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 11209
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 852,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6641,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6638,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7493
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Editor’s Note, first paragraph",
+      "location": "HTML, paragraph beginning “For nearly two decades”",
       "severity": "major",
-      "source_quote": "Normally, we haven’t used our magazine to bring focus to any specific individual.",
-      "suggested_fix": "Replace «Κανονικά, δεν χρησιμοποιούμε το περιοδικό μας» with «Κανονικά, δεν έχουμε χρησιμοποιήσει το περιοδικό μας» to preserve the source’s past-tense statement.",
-      "translation_quote": "Κανονικά, δεν χρησιμοποιούμε το περιοδικό μας για να στρέψουμε την προσοχή σε κάποιο συγκεκριμένο πρόσωπο."
+      "source_quote": "With much unction from the Holy One, they would preach the Gospel.",
+      "suggested_fix": "Replace «Με μεγάλη έμπνευση από τον Άγιο» with «Με μεγάλο χρίσμα από τον Άγιο» to preserve the source’s sense of spiritual anointing.",
+      "translation_quote": "Με μεγάλη έμπνευση από τον Άγιο, κήρυτταν το Ευαγγέλιο."
     },
     {
-      "location": "Editor’s Note, first paragraph",
-      "severity": "major",
-      "source_quote": "They continued this for a number of years until it eventually went out of print temporarily due to their editors moving out of the area.",
-      "suggested_fix": "Replace «επειδή οι εκδότες τους μετακόμισαν από την περιοχή» with «επειδή οι συντάκτες τους έφυγαν από την περιοχή»; this refers to the editors leaving the area, not necessarily relocating.",
-      "translation_quote": "Συνέχισαν για αρκετά χρόνια, μέχρι που τελικά η έκδοσή του διακόπηκε προσωρινά, επειδή οι εκδότες τους μετακόμισαν από την περιοχή."
-    },
-    {
-      "location": "Paragraph beginning “Brother Mose was often the watchman on the wall”",
-      "severity": "major",
-      "source_quote": "he gave much attention to teaching sound doctrine.",
-      "suggested_fix": "Replace «έδινε μεγάλη προσοχή στη διδασκαλία της υγιούς διδασκαλίας» with «έδινε μεγάλη έμφαση στη διδασκαλία της ορθής διδαχής» to convey the source without the contradictory/repetitive wording.",
-      "translation_quote": "έδινε μεγάλη προσοχή στη διδασκαλία της υγιούς διδασκαλίας."
-    },
-    {
-      "location": "Paragraph beginning “Brother Mose was a true leader”",
-      "severity": "major",
-      "source_quote": "He would express, sometimes with tears, his rejoicing in the fellowship and council of his brethren",
-      "suggested_fix": "Replace «τη συμβουλή των αδελφών του» with «το συμβούλιο των αδελφών του» so that «council» is rendered as the brethren’s council, not their advice.",
-      "translation_quote": "εξέφραζε τη χαρά του για την κοινωνία και τη συμβουλή των αδελφών του"
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Use «ΕΠΙΛΕΓΜΕΝΟ ΑΡΘΡΟ» to convey that this is a featured article, rather than the main article.",
+      "translation_quote": "ΚΥΡΙΟ ΑΡΘΡΟ"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "74e89c94b0eb69c6e48507789b1da8f7",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ell",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,68 @@
         },
         "total_tokens": 5362
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 549,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3357,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3354,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3906
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, stanza beginning “Then, a rich voice…”",
+      "location": "HTML, paragraph beginning “Then, a rich voice spoke inside me”",
       "severity": "major",
-      "source_quote": "Then, a rich voice spoke inside me,",
-      "suggested_fix": "Replace “Kisha sauti yenye utajiri ikasema ndani yangu,” with “Kisha sauti yenye mamlaka ikasema ndani yangu,” to convey a voice rich in quality or depth, not material wealth.",
-      "translation_quote": "Kisha sauti yenye utajiri ikasema ndani yangu,"
+      "source_quote": "“The true prayers of your heart can be answered, If you would only but look unto Me.”",
+      "suggested_fix": "Replace the final line of this stanza with: “Ikiwa ungenitazama Mimi tu.” (The translation currently means “if you look only at Me,” changing the conditional from “would” to a direct present condition.)",
+      "translation_quote": "“Ikiwa utanitazama Mimi tu.”"
     },
     {
-      "location": "HTML, stanza beginning “But I saw that your heart needed different…”",
+      "location": "HTML, paragraph beginning “I ordered the rough ways you have followed”",
       "severity": "major",
-      "source_quote": "But I saw that your heart needed different / Than the way that ease had preferred.",
-      "suggested_fix": "Replace the two lines with “Lakini niliona kwamba moyo wako ulihitaji kitu tofauti / na kile ambacho maisha ya raha yangependelea.” The current wording shifts the contrast to “easy life” and leaves the comparison unclear.",
-      "translation_quote": "Lakini niliona moyo wako ulihitaji kitu tofauti / Na kile ambacho maisha mepesi yangependelea."
+      "source_quote": "“I ordered the rough ways you have followed, Not to disappoint, but to purge.”",
+      "suggested_fix": "Replace the first two lines with: “Nilipanga njia ngumu ulizopitia, / Si ili kukukatisha tamaa, bali ili kukutakasa.” (“Kukusafisha” can mean to clean physically; here “purge” refers to spiritual refining.)",
+      "translation_quote": "“Nilipanga njia ngumu ulizopita, / Si ili kukukatisha tamaa, bali ili kukusafisha.”"
     },
     {
-      "location": "HTML, stanza beginning “I pray that my heart would be yielded…”",
+      "location": "HTML, paragraph beginning “So I fell at the feet of my Master”",
       "severity": "major",
-      "source_quote": "Allowing His will to change me,",
-      "suggested_fix": "Replace “Nikiruhusu mapenzi yake yanibadilishe,” with “Nikiacha mapenzi yake yanibadilishe,” to preserve the sense of yielding to and allowing the Master’s will to change the speaker.",
-      "translation_quote": "Nikiruhusu mapenzi yake yanibadilishe,"
+      "source_quote": "“So I fell at the feet of my Master”",
+      "suggested_fix": "Change “Bwana wangu” to “Mwalimu wangu” to preserve “Master” without changing it to “Lord,” as the source uses “Lord” separately in the next stanza.",
+      "translation_quote": "“Basi nikaanguka miguuni pa Bwana wangu”"
     },
     {
-      "location": "HTML, final stanza",
+      "location": "HTML, paragraph beginning “I pray instead for humility”",
       "severity": "major",
-      "source_quote": "If He rules the inmost being, / Then nothing outside will disturb.",
-      "suggested_fix": "Replace “Akitawala utu wa ndani kabisa, / Basi hakuna kitu cha nje kitakachotusumbua.” with “Akitawala utu wa ndani kabisa, / basi hakuna kitu cha nje kitakachonisumbua.” The source speaks about the individual speaker, not “us.”",
-      "translation_quote": "Akitawala utu wa ndani kabisa, / Basi hakuna kitu cha nje kitakachotusumbua."
+      "source_quote": "“To lead me through the day.”",
+      "suggested_fix": "Replace “Uniongoze siku nzima” with “Unyenyekevu uniongoze siku nzima” so humility, rather than an unspecified “you,” is explicitly the subject leading the speaker.",
+      "translation_quote": "“Uniongoze siku nzima.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “If He rules the inmost being”",
+      "severity": "major",
+      "source_quote": "“Then nothing outside will disturb.”",
+      "suggested_fix": "Replace “Basi hakuna kitu cha nje kitakachonisumbua” with “Basi hakuna kitu cha nje kitakachosumbua” to retain the source’s general statement without adding “me.”",
+      "translation_quote": "“Basi hakuna kitu cha nje kitakachonisumbua.”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "dd842144db72234d44af8c03a34f440a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -192,7 +220,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

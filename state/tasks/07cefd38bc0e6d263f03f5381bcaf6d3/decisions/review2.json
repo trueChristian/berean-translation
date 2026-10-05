@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “When I consider the spirit and zeal…”",
+      "severity": "major",
+      "source_quote": "“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.”",
+      "suggested_fix": "Translate the quotation faithfully as: “मैं यूनानियों और बर्बरों दोनों का, और बुद्धिमानों तथा निर्बुद्धियों दोनों का ऋणी हूँ।”",
+      "translation_quote": "“मैं यूनानियों और बर्बरों—दोनों का, और बुद्धिमानों तथा निर्बुद्धियों—दोनों का ऋणी हूँ।”"
+    },
+    {
+      "location": "source.html, paragraph beginning “When I consider the spirit and zeal…”",
+      "severity": "major",
+      "source_quote": "“He was …not ashamed of the gospel of Christ: boldly proclaiming it to be …the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek”",
+      "suggested_fix": "Preserve the source’s assertion that he was not ashamed and that the gospel is God’s power for salvation to everyone who believes, first to the Jew and also to the Greek. For example: “वे …मसीह के सुसमाचार से नहीं लजाते थे: और निर्भीकता से उसका प्रचार करते थे कि यह …हर विश्वास करने वाले के उद्धार के लिए परमेश्वर की सामर्थ है—पहले यहूदी के लिए, और यूनानी के लिए भी”",
+      "translation_quote": "“वे <em>…मसीह के सुसमाचार से नहीं लजाते थे:</em> वे निर्भीकता से इसका प्रचार करते थे कि यह <em>…हर एक विश्वास करने वाले के उद्धार के लिए परमेश्वर की सामर्थ है—पहले यहूदी के लिए, और यूनानी के लिए भी—रोमियों 1:16।</em>”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Brother Mose was a true leader…”",
+      "severity": "major",
+      "source_quote": "“he would frequently seek out the council of fellow ministers”",
+      "suggested_fix": "Translate “council” here as advice or counsel, not as a council/body: “वे अक्सर साथी सेवकों से सलाह लेते थे।”",
+      "translation_quote": "“वे अक्सर साथी सेवकों से सलाह लेते थे।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

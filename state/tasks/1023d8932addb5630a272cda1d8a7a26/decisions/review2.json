@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Absatz mit Matthäus 23:14–15; entsprechender deutscher Vers",
+      "severity": "major",
+      "source_quote": "therefore ye shall receive the greater damnation.",
+      "suggested_fix": "Ersetze „darum werdet ihr ein umso härteres Urteil empfangen“ durch „darum werdet ihr eine umso größere Verdammnis empfangen“, damit die Aussage über Verdammnis erhalten bleibt.",
+      "translation_quote": "darum werdet ihr ein umso härteres Urteil empfangen."
+    },
+    {
+      "location": "source.html, Absatz mit Titus 2:15",
+      "severity": "minor",
+      "source_quote": "speak, and exhort, and rebuke with all authority",
+      "suggested_fix": "Gib „with all authority“ ausdrücklich wieder, etwa: „rede und ermahne und weise mit aller Vollmacht zurecht“.",
+      "translation_quote": "rede und ermahne und weise mit allem Nachdruck zurecht"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

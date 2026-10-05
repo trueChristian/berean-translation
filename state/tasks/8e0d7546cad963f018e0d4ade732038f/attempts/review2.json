@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraphs describing mRNA vaccines and antibody testing\",\"severity\":\"major\",\"source_quote\":\"“the spike protein on the COVID virus”; “an antibody to the spike protein”\",\"suggested_fix\":\"Replace “spykerproteïen” in both places with an appropriate Afrikaans term for the viral spike protein, such as “spitsproteïen”.\",\"translation_quote\":\"“die spykerproteïen op die COVID-virus”; “’n teenliggaam teen die spykerproteïen”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 518,
+    "content_evidence_truncated": false,
+    "content_sha256": "299305b2ef5d70668a2f9628b552c5ecc4fd7524ca96bcb5d081892632e8a45f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 564,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9014,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9581
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

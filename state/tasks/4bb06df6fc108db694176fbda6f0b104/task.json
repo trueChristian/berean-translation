@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 12709
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1085,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 884,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8320,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8317,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9405
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraf yang dimulai “Cara kita berbicara satu sama lain”",
+      "location": "source.html, paragraph beginning “Let’s consider some examples in the Holy Bible”",
       "severity": "major",
-      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
-      "suggested_fix": "Pertahankan negasi seperti tercetak dalam sumber: “Tetapi jika kita tidak enggan mengatakan kebenaran, sekalipun itu berarti seseorang akan tidak senang kepada kita, bukankah kita bersalah?”",
-      "translation_quote": "Tetapi jika kita tidak bersedia mengatakan kebenaran karena takut seseorang akan tidak senang kepada kita, bukankah kita bersalah?"
+      "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+      "suggested_fix": "Ganti “masing-masing dari mereka menderita demi mereka” dengan “masing-masing dari mereka menderita karena [lanjutan kalimat tidak tersedia dalam sumber]”. Sumber terputus setelah “their”; jangan menerjemahkannya seolah-olah para murid menderita demi orang lain.",
+      "translation_quote": "“Pikirkan para murid; masing-masing dari mereka menderita demi mereka. Pada akhirnya, mereka tidak dapat tidak berbicara tentang hal-hal yang telah mereka lihat dan dengar.”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "4bb06df6fc108db694176fbda6f0b104",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ind",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

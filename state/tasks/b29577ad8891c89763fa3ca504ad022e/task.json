@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 2780
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 211,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 185,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1792,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1789,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2003
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, refrain répété aux strophes 1 à 4",
-      "severity": "major",
-      "source_quote": "“And I can’t feel at home in this world anymore.”",
-      "suggested_fix": "Dans les quatre occurrences, traduire la fin par « Et je ne me sens plus chez moi dans ce monde désormais. »",
-      "translation_quote": "“Et je ne me sens plus chez moi dans ce monde.”"
-    },
-    {
-      "location": "HTML, strophe 4, deuxième vers",
-      "severity": "minor",
-      "source_quote": "“The saints on every hand are shouting victory,”",
-      "suggested_fix": "Remplacer par « Les saints de tous côtés crient victoire, » pour conserver l’image du chant et le verbe « shouting ».",
-      "translation_quote": "“Les saints de tous côtés acclament la victoire,”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "b29577ad8891c89763fa3ca504ad022e",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

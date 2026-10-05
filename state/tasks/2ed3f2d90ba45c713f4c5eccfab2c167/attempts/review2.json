@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section “Todos os demais,” first paragraph\",\"severity\":\"major\",\"source_quote\":\"If someone has not had a COVID infection, I would certainly lean towards getting the vaccine.\",\"suggested_fix\":\"Replace “eu certamente tenderia a recomendar que tomasse a vacina” with “eu certamente tenderia a tomar a vacina” to preserve the author’s personal inclination rather than make it a recommendation to others.\",\"translation_quote\":\"Se alguém não teve uma infecção por COVID, eu certamente tenderia a recomendar que tomasse a vacina.\"},{\"location\":\"HTML, section “Todos os demais,” first paragraph\",\"severity\":\"major\",\"source_quote\":\"For those who are working in health care, I would lean towards getting one of the vaccines.\",\"suggested_fix\":\"Replace “eu tenderia a recomendar uma das vacinas” with “eu tenderia a tomar uma das vacinas” to retain the author’s stated personal inclination, not turn it into advice.\",\"translation_quote\":\"Para aqueles que trabalham na área da saúde, eu tenderia a recomendar uma das vacinas.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1107,
+    "content_evidence_truncated": false,
+    "content_sha256": "c358e9bc9302b47aec9a8b80dee302e40c1281a59d49004d86541977499513c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 573,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8269,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9092
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

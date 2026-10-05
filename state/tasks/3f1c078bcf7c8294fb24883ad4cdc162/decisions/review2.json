@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “The fact that this child was conceived…”",
+      "severity": "major",
+      "source_quote": "“conceived by the Holy Ghost as detailed in Matthew 1:20”",
+      "suggested_fix": "Replace the clause with „dass dieses Kind, wie in Matthäus 1:20 beschrieben, durch den Heiligen Geist empfangen wurde“; retain the intended passive meaning that the child was conceived by the Holy Spirit.",
+      "translation_quote": "„dass dieses Kind, wie in Matthäus 1:20 beschrieben, durch den Heiligen Geist empfangen wurde“"
+    },
+    {
+      "location": "Article, paragraph beginning “This sign calls for personal participation.”",
+      "severity": "major",
+      "source_quote": "“Everyone whose heart beats loyal to the scene must also go to accompany Him.”",
+      "suggested_fix": "Replace „Jeder, dessen Herz Christus treu ist, muss ebenfalls hingehen, um ihn zu begleiten.“ with „Jeder, dessen Herz dieser Szene treu ist, muss ebenfalls hingehen, um ihn zu begleiten.“ to preserve the source’s reference to loyalty to the scene.",
+      "translation_quote": "„Jeder, dessen Herz Christus treu ist, muss ebenfalls hingehen, um ihn zu begleiten.“"
+    },
+    {
+      "location": "Article, paragraph beginning “To visit the Christ child…”",
+      "severity": "major",
+      "source_quote": "“The Inn Crowd is the place of popular reception, popular understanding, and popular behavior.”",
+      "suggested_fix": "Replace „Die Gasthausmenge steht für allgemeine Aufnahme, verbreitetes Verständnis und allgemein übliches Verhalten.“ with „Die Gasthausmenge ist der Ort allgemeiner Aufnahme, verbreiteten Verständnisses und allgemein üblichen Verhaltens.“ The source describes a place, not merely what the crowd represents.",
+      "translation_quote": "„Die Gasthausmenge steht für allgemeine Aufnahme, verbreitetes Verständnis und allgemein übliches Verhalten.“"
+    },
+    {
+      "location": "Article, paragraph beginning “Peace on earth is nothing more…”",
+      "severity": "major",
+      "source_quote": "“The fussing child in the store bawls because his hands are full, and he cannot have more.”",
+      "suggested_fix": "Replace „Das quengelnde Kind im Laden brüllt, weil es die Hände voll hat und nicht noch mehr bekommen kann.“ with „Das quengelnde Kind im Laden brüllt, weil es die Hände voll hat und nicht noch mehr haben kann.“ Preserve the source’s claim that the child cannot have more, rather than saying it cannot receive more.",
+      "translation_quote": "„Das quengelnde Kind im Laden brüllt, weil es die Hände voll hat und nicht noch mehr bekommen kann.“"
+    },
+    {
+      "location": "Article, paragraph beginning “This is the song that Stephen sang…”",
+      "severity": "major",
+      "source_quote": "“This is he, that was in the church in the wilderness. vs.38.”",
+      "suggested_fix": "Replace „Dieser ist es, der in der Kirche in der Wüste war, Vers 38.“ with „Dieser war es, der in der Gemeinde in der Wüste war (Vers 38).“ This preserves the source’s description of Stephen as belonging to the wilderness congregation, rather than suggesting he was in a church building.",
+      "translation_quote": "„Dieser ist es, der in der Kirche in der Wüste war, Vers 38.“"
+    },
+    {
+      "location": "Article, final hymn",
+      "severity": "major",
+      "source_quote": "“Come, peasant, king, to own him.”",
+      "suggested_fix": "Replace „kommt, Armer und König, und nehmt ihn an.“ with „Kommt, Bauer und König, und bekennt euch zu ihm.“ This preserves the source’s call to peasant and king to acknowledge him as their own.",
+      "translation_quote": "„kommt, Armer und König, und nehmt ihn an.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

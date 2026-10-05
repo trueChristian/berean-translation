@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « Quand avez-vous parlé pour la dernière fois… »\",\"severity\":\"major\",\"source_quote\":\"“it’s judging to speak into someone else’s life.”\",\"suggested_fix\":\"Remplacer « parler de la vie de quelqu’un d’autre » par « intervenir dans la vie de quelqu’un d’autre » afin de conserver l’idée d’interpellation ou de conseil, et non celle de parler de cette personne.\",\"translation_quote\":\"« parler de la vie de quelqu’un d’autre, c’est le juger »\"},{\"location\":\"HTML, paragraphe commençant « Quand nous voyons un problème dans la vie d’un frère… »\",\"severity\":\"major\",\"source_quote\":\"“we fear speaking into each other’s lives”\",\"suggested_fix\":\"Remplacer « nous craignons de parler de la vie les uns des autres » par « nous craignons d’intervenir dans la vie les uns des autres » (ou une formulation idiomatique équivalente qui signifie s’adresser directement à l’autre).\",\"translation_quote\":\"« nous craignons de parler de la vie les uns des autres »\"},{\"location\":\"HTML, paragraphe commençant « Si nous considérons n’importe quel autre domaine… »\",\"severity\":\"major\",\"source_quote\":\"“our fellow laborers do not have the liberty to speak into our lives”\",\"suggested_fix\":\"Remplacer « nos compagnons d’œuvre n’ont plus la liberté de parler de notre vie » par « nos compagnons d’œuvre n’ont plus la liberté d’intervenir dans notre vie » ou une formulation équivalente qui conserve l’idée de conseil ou d’exhortation adressé directement à la personne.\",\"translation_quote\":\"« nos compagnons d’œuvre n’ont plus la liberté de parler de notre vie »\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1728,
+    "content_evidence_truncated": false,
+    "content_sha256": "05dcebf50d0f1424e03a071918eb9f548459f759f6b1cc39ff20a8b342d23fc4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 761,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8285,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9445
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

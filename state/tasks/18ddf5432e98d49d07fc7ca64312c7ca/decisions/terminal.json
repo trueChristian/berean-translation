@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Abschnitt „Other Questions“, Absatz über die Nadelstärke",
+      "severity": "major",
+      "source_quote": "(21 gauge or smaller)",
+      "suggested_fix": "Ersetze „Gauge-Wert 21 oder höher, also dünnere Nadeln“ durch „Gauge-Wert 21 oder kleiner, also dickere Nadeln“.",
+      "translation_quote": "(Gauge-Wert 21 oder höher, also dünnere Nadeln)"
+    },
+    {
+      "location": "source.html, Abschnitt „Making a Decision“, Absatz über Langzeitfolgen",
+      "severity": "major",
+      "source_quote": "Getting one of these vaccines certainly would help to avoid those disease-induced problems along with the possibility that COVID could also cause some heart damage.",
+      "suggested_fix": "Korrigiere die Aussage so, dass die Impfung dazu beitragen würde, die krankheitsbedingten Probleme zu vermeiden, und dass COVID außerdem möglicherweise Herzschäden verursachen könnte; zum Beispiel: „Einer dieser Impfstoffe würde sicherlich dazu beitragen, diese krankheitsbedingten Probleme zu vermeiden, ebenso wie mögliche Herzschäden durch COVID.“",
+      "translation_quote": "Einer dieser Impfstoffe würde sicherlich dazu beitragen, diese krankheitsbedingten Probleme zu vermeiden, ebenso wie die Möglichkeit, dass COVID auch Herzschäden verursachen könnte."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

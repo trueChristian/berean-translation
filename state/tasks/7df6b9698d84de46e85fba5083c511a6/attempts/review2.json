@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “There seems to be a mainstream…”\",\"severity\":\"major\",\"source_quote\":\"“Are there multiple testimonies to the issue?”\",\"suggested_fix\":\"Replace “Is daar verskeie getuienisse oor die kwessie?” with “Is daar verskeie getuienis oor die kwessie?” (or “Is daar verskeie getuienisbronne oor die kwessie?”), preserving the surrounding HTML.\",\"translation_quote\":\"“Is daar verskeie getuienisse oor die kwessie?”\"},{\"location\":\"source.html, paragraph beginning “On the opposite side (alternative medicine)…”\",\"severity\":\"major\",\"source_quote\":\"“Some claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”\",\"suggested_fix\":\"Correct the garbled characters and render the clause as “Toe kerkb​​roeders sommige bewerings en aantygings persoonlik opgevolg het, het hulle ontdek dat die beweerde ‘feite’ onakkuraat of onwaar was.”\",\"translation_quote\":\"“Toe kerkb​​roeders sommige bewerings en aantygings persoonlik nagegaan het, het hulle ontdek dat die beweerde ‘feite’ onakkuraat of onwaar was.”\"},{\"location\":\"source.html, paragraph beginning “As we see in the above Bible passage…”\",\"severity\":\"major\",\"source_quote\":\"“The mark this end-time ruler requires clearly signifies worship of the Beast, which would imply allegiance.”\",\"suggested_fix\":\"Add the omitted HTML emphasis around “aanbidding” to preserve the source’s emphasis: “dui duidelik op <strong>aanbidding</strong> van die <strong>Dier</strong>”.\",\"translation_quote\":\"“dui duidelik op aanbidding van die <strong>Dier</strong>”\"},{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"“MODERN-DAY PERILS”\",\"suggested_fix\":\"Translate the section label as “GEVARE VAN DIE HUIDIGE TYD” is acceptable only if it conveys the same sense; preferably use “GEVARE VAN ONS TYD” or “HUIDIGE GEVARE” to avoid suggesting only dangers of the present moment.\",\"translation_quote\":\"“GEVARE VAN DIE HUIDIGE TYD”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 2142,
+    "content_evidence_truncated": false,
+    "content_sha256": "5944df03ef2a283b05d7558c47e8f49473f0984ec6b030d95141f2e12d0e16c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7359,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7356,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7865
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

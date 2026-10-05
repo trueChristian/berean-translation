@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"can they feel God’s love, peace, and joy flowing from our life\",\"suggested_fix\":\"Change “sien vloei” to “voel vloei” to retain the source’s sense of experiencing God’s love, peace, and joy.\",\"translation_quote\":\"kan hulle God se liefde, vrede en vreugde op so ’n manier uit ons lewens sien vloei\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 414,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a3201969e83f89a3bca77619769e69cd82c15998c6f87b436435704cbdaf43b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 747,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4535,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5285
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

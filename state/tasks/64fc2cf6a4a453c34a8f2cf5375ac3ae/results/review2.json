@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "80d44cb8-adf5-4d6b-8bec-1948f5143b11",
+    "response_id": "chatcmpl-EVcpC7AOGtVNuRypcf3bwwepMixo2",
+    "usage": {
+      "completion_tokens": 747,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4535,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5285
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "minor",
+        "source_quote": "can they feel God’s love, peace, and joy flowing from our life",
+        "suggested_fix": "Change “sien vloei” to “voel vloei” to retain the source’s sense of experiencing God’s love, peace, and joy.",
+        "translation_quote": "kan hulle God se liefde, vrede en vreugde op so ’n manier uit ons lewens sien vloei"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

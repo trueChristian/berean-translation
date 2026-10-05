@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 11317
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 465,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7358,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7355,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7823
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “The Vaccine booklet”",
+      "location": "HTML, paragraph beginning “For myself, I was so sick…”",
       "severity": "major",
-      "source_quote": "“The only thing that kept me out of the hospital was a daily intake of one restricted drug”",
-      "suggested_fix": "Replace “ett receptbelagt läkemedel” with “ett läkemedel med restriktioner” to preserve the source’s description of the drug as restricted, without changing it to merely prescription-only.",
-      "translation_quote": "“ett receptbelagt läkemedel”"
+      "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
+      "suggested_fix": "Ersätt meningen med: ”Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel vars användning är begränsad och fick en dubbel dos steroider jämfört med den rekommenderade dosen genom nebulisatorbehandlingar.”",
+      "translation_quote": "Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel med restriktioner och fick dubbel rekommenderad dos steroider genom behandling med nebulisator."
+    },
+    {
+      "location": "HTML, paragraph beginning “The children’s story in this issue…”",
+      "severity": "major",
+      "source_quote": "John was ordained to the ministry at the age of 27",
+      "suggested_fix": "Ersätt ”John vigdes till tjänst vid 27 års ålder” med ”John ordinerades till tjänst vid 27 års ålder” eller ”John vigdes till predikanttjänst vid 27 års ålder” för att tydligt återge att han ordinerades till ämbetet.",
+      "translation_quote": "John vigdes till tjänst vid 27 års ålder"
+    },
+    {
+      "location": "HTML, paragraph beginning “John S. and Maria…”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "Ändra ”mina farfars farföräldrar” till ”mina farfars farföräldrar och farmors farföräldrar” endast om det avses; för källans könsneutrala släktrelation är en korrekt lösning ”mina gammelfarföräldrar två generationer bakåt” eller ”mina anföräldrar i femte led”.",
+      "translation_quote": "John S. och Maria (Horning) Kurtz var mina farfars farföräldrar."
     }
   ],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "d5b9a9e88f19799ad037ffc329957162",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swe",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, vaccine concerns paragraph\",\"severity\":\"major\",\"source_quote\":\"before blindly accepting it as the jab-that-saves-the-world-from-COVID-19 remedy\",\"suggested_fix\":\"Replace the ending with: “kabla ya kuikubali bila kufikiri kama chanjo inayookoa ulimwengu dhidi ya COVID-19.”\",\"translation_quote\":\"kabla ya kuikubali bila kufikiri kama tiba ya chanjo inayookoa ulimwengu dhidi ya COVID-19\"},{\"location\":\"Article body, section “Hatari Zinazokaribia za Udanganyifu”\",\"severity\":\"major\",\"source_quote\":\"We are not ignorant of Satan’s devices\",\"suggested_fix\":\"Replace with: “Hatujui kwamba hatujui hila za Shetani” is not idiomatic; use “Tunazijua hila za Shetani” or “Hatujapuuza hila za Shetani,” preserving the assertion that the writer is not unaware of them.\",\"translation_quote\":\"Hatujui kwa kutokujua hila za Shetani\"},{\"location\":\"Article body, closing quotation, Luke 21:25–36, verse 29\",\"severity\":\"major\",\"source_quote\":\"Behold the fig tree, and all the trees\",\"suggested_fix\":\"Translate “all the trees” explicitly, for example: “Tazameni mtini na miti yote.”\",\"translation_quote\":\"Tazameni mtini na miti yote\"},{\"location\":\"Article body, closing quotation, Luke 21:25–36, verse 36\",\"severity\":\"major\",\"source_quote\":\"Watch ye therefore, and pray always\",\"suggested_fix\":\"Restore the sense of praying continually: “Basi kesheni, mkiomba daima...”\",\"translation_quote\":\"Basi kesheni kila wakati, mkiomba\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1515,
+    "content_evidence_truncated": false,
+    "content_sha256": "39b4d59d6302e48da0cad0e55c9413612b26e54a3d7d03c951c7c4645238046e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 397,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7512,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7912
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

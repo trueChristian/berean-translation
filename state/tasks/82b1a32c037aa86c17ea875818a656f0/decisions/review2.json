@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Romans 10:17 quotation",
+      "severity": "major",
+      "source_quote": "“So then faith cometh by hearing, and hearing by the word of God”",
+      "suggested_fix": "Replace «Kristi ord» with «Guds ord» so the quotation preserves the source’s wording and attribution.",
+      "translation_quote": "«Så kommer da troen av det en hører, og det en hører, kommer ved Kristi ord»"
+    },
+    {
+      "location": "HTML, Revelation 13:16–17 quotation",
+      "severity": "major",
+      "source_quote": "“And he causeth all … to receive a mark”; “that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name”",
+      "suggested_fix": "Translate «causeth … to receive» without changing it to an explicit claim of force, and preserve the source’s distinct alternatives: having the mark, the beast’s name, or the number of its name.",
+      "translation_quote": "«Og det tvinger alle … til å ta imot et merke»; «ingen kan kjøpe eller selge uten å ha merket: dyrets navn eller tallet for navnet»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

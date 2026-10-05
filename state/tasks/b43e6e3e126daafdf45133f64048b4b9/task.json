@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 8347
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 552,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5330,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5327,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5882
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Absatz über die Reisen nach Kanada, Satz 2",
+      "location": "Editor’s Note; Schluss des Absatzes",
       "severity": "major",
-      "source_quote": "Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.",
-      "suggested_fix": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.",
-      "translation_quote": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit, der bei Besuchen in verschiedenen Gemeinden sang und predigte."
+      "source_quote": "“keep this torch (the magazine) burning for Truth.”",
+      "suggested_fix": "Ersetzen Sie „diese Fackel – das Magazin – für die Wahrheit weiter brennen zu lassen“ durch „diese Fackel (das Magazin) für die Wahrheit weiter brennen zu lassen“, damit die im Original ausdrücklich angegebene Erläuterung in Klammern erhalten bleibt.",
+      "translation_quote": "„diese Fackel – das Magazin – für die Wahrheit weiter brennen zu lassen“"
     },
     {
-      "location": "Absatz über die Gabe des Predigens, Satz 1",
-      "severity": "minor",
-      "source_quote": "One of the prominent gifts the Lord gave to Brother Mose was the gift of preaching.",
-      "suggested_fix": "Eine der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens.",
-      "translation_quote": "Eines der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens."
+      "location": "Absatz zu den Reisen nach Kanada und Deutschland",
+      "severity": "major",
+      "source_quote": "“Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.”",
+      "suggested_fix": "Formulieren Sie: „Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit; während sie verschiedene Gemeinden besuchten, sangen sie und Mose predigte.“ So bleibt erhalten, dass Mose sowohl sang als auch predigte.",
+      "translation_quote": "„Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.“"
     },
     {
-      "location": "Absatz über Mose als Wächter, letzter Satz",
-      "severity": "minor",
-      "source_quote": "In the face of these dangers to the church, he gave much attention to teaching sound doctrine.",
-      "suggested_fix": "Angesichts dieser Gefahren für die Gemeinde widmete er der Vermittlung gesunder Lehre viel Aufmerksamkeit.",
-      "translation_quote": "Angesichts dieser Gefahren für die Gemeinde widmete er der Lehre gesunder Lehre viel Aufmerksamkeit."
+      "location": "Absatz über die Zusammenarbeit mit Denny Kenaston",
+      "severity": "major",
+      "source_quote": "“With much unction from the Holy One, they would preach the Gospel.”",
+      "suggested_fix": "Ersetzen Sie „Mit großer Salbung vom Heiligen“ durch „Mit großer Salbung des Heiligen Geistes“ oder eine gleichwertige Formulierung, die ausdrücklich den Heiligen Geist als Ursprung der Salbung wiedergibt.",
+      "translation_quote": "„Mit großer Salbung vom Heiligen predigten sie das Evangelium.“"
+    },
+    {
+      "location": "Schlussabsatz",
+      "severity": "critical",
+      "source_quote": "“May we be found of Him in peace, without spot and blameless.”",
+      "suggested_fix": "Ersetzen Sie den Schlusssatz durch: „Mögen wir von ihm in Frieden, ohne Flecken und untadelig gefunden werden.“ Das Original sagt nicht, dass wir von ihm „gefunden werden mögen“ in dem Sinne, dass er uns „von ihm“ (von Mose) findet; der Bezug ist Christus. Eine klare Formulierung wäre: „Mögen wir von Christus in Frieden, ohne Flecken und untadelig gefunden werden.“",
+      "translation_quote": "„Mögen wir von ihm in Frieden gefunden werden, ohne Makel und untadelig.“"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "b43e6e3e126daafdf45133f64048b4b9",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -179,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 15045
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1070,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 864,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9437,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9434,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10507
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on anaphylaxis",
-      "severity": "major",
-      "source_quote": "This sort of an allergy requires medications like epinephrine to reverse it",
-      "suggested_fix": "Replace “এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে” with “এ ধরনের অ্যালার্জির প্রতিক্রিয়া কাটাতে এপিনেফ্রিনের মতো ওষুধ লাগে” so the sentence says the medication reverses the reaction, rather than prevents it.",
-      "translation_quote": "এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে"
-    },
-    {
-      "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on deaths in Norway",
-      "severity": "major",
-      "source_quote": "but I think I would probably avoid giving the vaccine to people who are in extremely poor health",
-      "suggested_fix": "Replace “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত” with “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া সম্ভবত আমি এড়িয়ে চলতাম” to preserve the author's qualified personal judgment rather than state a general recommendation.",
-      "translation_quote": "তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত"
+      "location": "Updated Side Effects, paragraph beginning “I think one last thing…”",
+      "severity": "minor",
+      "source_quote": "One possible example of this is a doctor in Florida who got a COVID vaccine and then developed really low platelet counts and eventually died.",
+      "suggested_fix": "Rephrase the clause to avoid mixing the relative construction with a separate possessive clause; for example: “এর একটি সম্ভাব্য উদাহরণ হলেন ফ্লোরিডার একজন চিকিৎসক। তিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।”",
+      "translation_quote": "এর একটি সম্ভাব্য উদাহরণ হলো ফ্লোরিডার একজন চিকিৎসক, যিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।"
     }
   ],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "f08f3d35c7278f9f6f0b071bba6fd1fd",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

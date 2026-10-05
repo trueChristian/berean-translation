@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Shairi, ubeti wa kwanza, mstari wa sita",
+      "severity": "minor",
+      "source_quote": "He boldly proclaimed his own sovereignty.",
+      "suggested_fix": "Badilisha “Alitangaza kwa ujasiri enzi yake mwenyewe” kuwa “Alitangaza kwa ujasiri mamlaka yake mwenyewe.”",
+      "translation_quote": "Alitangaza kwa ujasiri enzi yake mwenyewe."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

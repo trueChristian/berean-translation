@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “One of the intriguing aspects…”",
+      "severity": "minor",
+      "source_quote": "“One of the intriguing aspects was that most of us lost our sense of taste and smell.”",
+      "suggested_fix": "Replace “boeiende aspekte” with “interessante aspekte” to better match the source’s neutral observation: “Een van die interessante aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”",
+      "translation_quote": "“Een van die boeiende aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”"
+    },
+    {
+      "location": "html, paragraph beginning “As you will notice…”",
+      "severity": "minor",
+      "source_quote": "“we needed funds if we were going to keep going forward.”",
+      "suggested_fix": "Use the idiomatic “voortgaan” rather than “voortgaan” with “wou voortgaan” is already acceptable; no correction needed.",
+      "translation_quote": "“ons fondse nodig gehad het as ons wou voortgaan.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

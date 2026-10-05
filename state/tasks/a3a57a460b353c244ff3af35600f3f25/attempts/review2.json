@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, “The Vaccines” paragraph\",\"severity\":\"major\",\"source_quote\":\"Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?\",\"suggested_fix\":\"Replace «هل يمكن لهذه التقنية الجديدة، التي صُنعت على هيئة لقاح اصطناعي من الحمض النووي الريبي المرسال، أن تغيّر حمضي النووي بطريقة ما إذا سمحت لهم بوخز جلدي؟» with «هل يمكن لهذه التقنية الجديدة، التي صُنعت على هيئة لقاح اصطناعي من الحمض النووي الريبي المرسال، أن تغيّر حمضي النووي بطريقة ما إذا سمحت لهم بوخز جلدي؟» No correction needed to this sentence; the error is in the following question: replace «هل هذا اللقاح هو سمة الوحش؟» with «هل هذا اللقاح هو علامة الوحش؟»\",\"translation_quote\":\"هل هذا اللقاح هو سمة الوحش؟\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1123,
+    "content_evidence_truncated": false,
+    "content_sha256": "5a49268c3e17459201618056c9e1b750fc5783566e53f1da534fe4d4775727c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7207,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7437
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

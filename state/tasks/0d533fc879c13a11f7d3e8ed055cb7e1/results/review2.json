@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "013cc6df-c88c-45a0-be43-b3a089cc2b30",
+    "response_id": "chatcmpl-EVcpMplPEQuLySdo0veMLNEv8GGw2",
+    "usage": {
+      "completion_tokens": 580,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8602,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8599,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9182
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alla andra, första stycket",
+        "severity": "major",
+        "source_quote": "If someone has not had a COVID infection, I would certainly lean towards getting the vaccine.",
+        "suggested_fix": "Ändra till exempel till: ”Om någon inte har haft en covidinfektion skulle jag helt klart själv luta åt att ta vaccinet.”",
+        "translation_quote": "Om någon inte har haft en covidinfektion skulle jag helt klart luta åt att rekommendera vaccination."
+      },
+      {
+        "location": "Alla andra, första stycket",
+        "severity": "major",
+        "source_quote": "For those who are working in health care, I would lean towards getting one of the vaccines.",
+        "suggested_fix": "Ändra till exempel till: ”För dem som arbetar inom vården skulle jag luta åt att ta ett av vaccinerna.”",
+        "translation_quote": "För dem som arbetar inom vården skulle jag luta åt att rekommendera ett av vaccinerna."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

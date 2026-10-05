@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b0b1d838-a916-401d-8816-ce23c8c6e8e8",
+    "response_id": "chatcmpl-EVcr7rnOvA7XTn5QzXXW98BtEEn7d",
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 491,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5212
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “For myself…”",
+        "severity": "major",
+        "source_quote": "I could hardly go on.",
+        "suggested_fix": "Replace “hampir tidak sanggup melanjutkan hidup” with “hampir tidak sanggup melanjutkan” or “hampir tidak sanggup terus maju.” The source says she could barely go on; it does not specify that she could barely continue living.",
+        "translation_quote": "sampai-sampai hampir tidak sanggup melanjutkan hidup"
+      },
+      {
+        "location": "Article, definition of “sober”",
+        "severity": "minor",
+        "source_quote": "“to be calm and collected in spirit; to be temperate, dispassionate.”",
+        "suggested_fix": "Replace “bersikap sederhana” with “bersikap terkendali” or “menahan diri” to convey “temperate” in this context.",
+        "translation_quote": "“bersikap tenang dan terkendali dalam roh; bersikap sederhana dan tidak dikuasai perasaan.”"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

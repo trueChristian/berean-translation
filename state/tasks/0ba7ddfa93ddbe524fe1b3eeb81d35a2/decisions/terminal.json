@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Ester, a rainha”",
+      "severity": "minor",
+      "source_quote": "“If I perish, I perish.”",
+      "suggested_fix": "Replace “Se perecer, pereci” with “Se perecer, perecerei” to preserve the conditional meaning and repeated future sense.",
+      "translation_quote": "“Se perecer, pereci”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

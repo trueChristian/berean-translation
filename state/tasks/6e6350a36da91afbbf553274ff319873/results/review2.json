@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c837a0da-6211-4516-805d-f8d02f49008d",
+    "response_id": "chatcmpl-EVcq8c2mBV7vzuHP8hPNR0Cfxn15o",
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8926,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9601
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML body, first Scripture quotation (Luke 2:8–14)",
+        "severity": "major",
+        "source_quote": "“and on earth peace, good will toward men”",
+        "suggested_fix": "Revise the quoted clause in Afrikaans to preserve the source’s wording and meaning, for example: “en op aarde vrede, welwillendheid teenoor mense.”",
+        "translation_quote": "“en vrede op aarde vir die mense in wie Hy ’n welbehae het.”"
+      },
+      {
+        "location": "HTML body, fourth paragraph, Micah 5:2 quotation",
+        "severity": "major",
+        "source_quote": "“whose goings forth have been from of old, from everlasting”",
+        "suggested_fix": "Translate this clause faithfully as “wie se uitgange van ouds af, van ewigheid af is” or an idiomatic equivalent that preserves the source meaning.",
+        "translation_quote": "“sy oorsprong is uit die voortyd, uit die dae van die ewigheid.”"
+      },
+      {
+        "location": "HTML body, hymn under heading “…A Sign”",
+        "severity": "major",
+        "source_quote": "“Good Christians, fear, for sinners here / The silent Word is pleading.”",
+        "suggested_fix": "Translate the line so that it retains the source’s address and assertion, for example: “Goeie Christene, vrees, want hier pleit die stille Woord vir sondaars.”",
+        "translation_quote": "“Goeie Christene, vrees, want hier pleit die stille Woord vir sondaars.”"
+      },
+      {
+        "location": "HTML body, paragraph beginning “The sign of the manger in conjunction…”",
+        "severity": "major",
+        "source_quote": "“The shepherds were intimately familiar with the areas of town allotted for the animals and their journey began.”",
+        "suggested_fix": "Add the omitted assertion that the shepherds knew the animal areas intimately, e.g. “Die herders was intiem vertroud met die dele van die dorp wat vir die diere bestem was, en hulle reis het begin.”",
+        "translation_quote": "“Die herders was goed vertroud met die dele van die dorp wat vir die diere bestem was, en hulle het vertrek.”"
+      },
+      {
+        "location": "HTML body, paragraph beginning “The despised shepherds…”",
+        "severity": "major",
+        "source_quote": "“the heartfelt praise of His redeemed who will but follow Him to the manger”",
+        "suggested_fix": "Revise the closing phrase to say the redeemed follow Him to the manger, without adding the sense of “well/indeed”; for example: “die hartgrondige lof van sy verlostes wat Hom na die krip sal volg.”",
+        "translation_quote": "“die hartgrondige lof van sy verlostes wat Hom wel tot by die krip sal volg.”"
+      },
+      {
+        "location": "HTML body, hymn under heading “…A Song”",
+        "severity": "major",
+        "source_quote": "“Come, peasant, king, to own him.”",
+        "suggested_fix": "Translate “peasant” as “boer” or “landman,” rather than “farmer” if that changes the invitation’s social sense; e.g. “Kom, landman, koning, erken Hom.”",
+        "translation_quote": "“Kom, boer en koning, erken Hom.”"
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

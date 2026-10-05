@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «دخل موز س. ستولتزفوس»",
+      "severity": "minor",
+      "source_quote": "leaving a legacy of godly faithfulness to the end",
+      "suggested_fix": "استبدل «إرثًا من الأمانة التقوية حتى النهاية» بـ «إرثًا من الأمانة لله حتى النهاية» لتكون العبارة أوضح وأكثر سلاسة في العربية.",
+      "translation_quote": "تاركًا إرثًا من الأمانة التقوية حتى النهاية"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

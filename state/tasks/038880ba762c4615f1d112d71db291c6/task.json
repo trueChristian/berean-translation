@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 13059
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 529,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 503,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8563,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9095
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, абзац под заголовком «Обновлённые сведения о побочных эффектах»",
-      "severity": "major",
-      "source_quote": "In the last several weeks, nearly 15 million people in the United States have gotten at least one dose of the COVID vaccines.",
-      "suggested_fix": "Заменить «не менее 15 миллионов» на «почти 15 миллионов», сохранив исходную оценку количества.",
-      "translation_quote": "За последние несколько недель не менее 15 миллионов человек в Соединённых Штатах получили хотя бы одну дозу вакцин от COVID."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "038880ba762c4615f1d112d71db291c6",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "rus",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

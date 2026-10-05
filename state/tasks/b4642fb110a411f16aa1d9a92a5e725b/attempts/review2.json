@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Let’s consider some examples in the Holy Bible.”\",\"severity\":\"major\",\"source_quote\":\"Consider the disciples, each one of them suffered for their\",\"suggested_fix\":\"Replace “उनमें से हर एक ने अपने लिए दुख उठाया” with “उनमें से हर एक ने दुख उठाया।” The English source sentence is incomplete, so do not supply an object that it does not provide.\",\"translation_quote\":\"शिष्यों के बारे में सोचिए; उनमें से हर एक ने अपने लिए दुख उठाया।\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"SPEAKING THE TRUTH in love\",\"suggested_fix\":\"सत्य को प्रेम में बोलना\",\"translation_quote\":\"सत्य बोलना प्रेम में\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 966,
+    "content_evidence_truncated": false,
+    "content_sha256": "e3f2f429f8419fe1bb25ffd6f6af518126dada1d7b013706cf44cca57443f8dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8744,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9439
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

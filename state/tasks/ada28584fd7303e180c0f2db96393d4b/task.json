@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 12941
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, paragraph beginning « La manière dont nous nous parlons… »",
-      "severity": "major",
-      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
-      "suggested_fix": "Rétablir la négation du texte source, par exemple : « Mais si nous ne sommes pas réticents à dire la vérité, même si cela risque de déplaire à quelqu’un, n’est-ce pas alors nous qui sommes en faute ? »",
-      "translation_quote": "Mais si nous refusons de dire la vérité de peur que quelqu’un ne soit mécontent de nous, n’avons-nous pas alors tort ?"
     },
     {
-      "location": "Article body, paragraph beginning « Considérons quelques exemples de la Sainte Bible »",
-      "severity": "minor",
-      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
-      "suggested_fix": "La phrase source est tronquée après « for their ». Éviter le calque grammaticalement incomplet « a souffert pour leur » ; traduire la partie récupérable et signaler la coupure, par exemple : « Considérez les disciples : chacun d’eux a souffert pour… Finalement, ils ne pouvaient pas faire autrement que de parler des choses qu’ils avaient vues et entendues. »",
-      "translation_quote": "Considérez les disciples : chacun d’eux a souffert pour leur. Finalement, ils ne pouvaient pas faire autrement que de parler des choses qu’ils avaient vues et entendues."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1157,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 761,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8288,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8285,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9445
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Quand avez-vous parlé pour la dernière fois… »",
+      "severity": "major",
+      "source_quote": "“it’s judging to speak into someone else’s life.”",
+      "suggested_fix": "Remplacer « parler de la vie de quelqu’un d’autre » par « intervenir dans la vie de quelqu’un d’autre » afin de conserver l’idée d’interpellation ou de conseil, et non celle de parler de cette personne.",
+      "translation_quote": "« parler de la vie de quelqu’un d’autre, c’est le juger »"
+    },
+    {
+      "location": "HTML, paragraphe commençant « Quand nous voyons un problème dans la vie d’un frère… »",
+      "severity": "major",
+      "source_quote": "“we fear speaking into each other’s lives”",
+      "suggested_fix": "Remplacer « nous craignons de parler de la vie les uns des autres » par « nous craignons d’intervenir dans la vie les uns des autres » (ou une formulation idiomatique équivalente qui signifie s’adresser directement à l’autre).",
+      "translation_quote": "« nous craignons de parler de la vie les uns des autres »"
+    },
+    {
+      "location": "HTML, paragraphe commençant « Si nous considérons n’importe quel autre domaine… »",
+      "severity": "major",
+      "source_quote": "“our fellow laborers do not have the liberty to speak into our lives”",
+      "suggested_fix": "Remplacer « nos compagnons d’œuvre n’ont plus la liberté de parler de notre vie » par « nos compagnons d’œuvre n’ont plus la liberté d’intervenir dans notre vie » ou une formulation équivalente qui conserve l’idée de conseil ou d’exhortation adressé directement à la personne.",
+      "translation_quote": "« nos compagnons d’œuvre n’ont plus la liberté de parler de notre vie »"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "ada28584fd7303e180c0f2db96393d4b",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

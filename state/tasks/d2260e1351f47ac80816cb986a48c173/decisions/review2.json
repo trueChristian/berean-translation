@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Qu’est-ce que Satan essaie d’utiliser… »",
+      "severity": "minor",
+      "source_quote": "Let’s each allow God’s Spirit to honestly search our heart;",
+      "suggested_fix": "Remplacer par : « Laissons l’Esprit de Dieu sonder honnêtement le cœur de chacun ; »",
+      "translation_quote": "Laissons chacun l’Esprit de Dieu sonder honnêtement notre cœur ;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

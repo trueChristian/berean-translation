@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a5765d86-d8ad-4804-aec8-70de0d08c139",
+    "response_id": "chatcmpl-EVcp6k7wiQnEyj19voKd7Gt9fuo6e",
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7057,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7365
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Absatz „Verschwörungstheorien“: Definition von „conspiracy“",
+        "severity": "major",
+        "source_quote": "“Conspiracy = a secret plan by a group to do something unlawful or harmful.”",
+        "suggested_fix": "Ersetze die Definition durch: „Verschwörung = ein geheimer Plan einer Gruppe, etwas Gesetzwidriges oder Schädliches zu tun.“",
+        "translation_quote": "„Verschwörung = ein geheimer Plan einer Gruppe, etwas Unrechtes oder Schädliches zu tun.“"
+      },
+      {
+        "location": "HTML, Absatz „Das Impfbüchlein“: Verweis auf die Zeitschrift",
+        "severity": "major",
+        "source_quote": "“our magazine, <em>The Heartbeat of the Remnant.</em>”",
+        "suggested_fix": "Übersetze den translatierbaren Zeitschriftentitel und erhalte die vorhandene Hervorhebung, zum Beispiel: „<em>Der Herzschlag der Übrigen.</em>“",
+        "translation_quote": "„<em>The Heartbeat of the Remnant.</em>“"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "From the EDITOR",
+        "suggested_fix": "Für die natürliche deutsche Rubrikbezeichnung: „Vom Herausgeber“ (ohne vollständig großgeschriebenes „EDITOR“ in der Übersetzung).",
+        "translation_quote": "Vom EDITOR"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

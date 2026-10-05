@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion paragraph, contrast between “I’ll try” and “I will”",
+      "severity": "major",
+      "source_quote": "the faithless “I’ll try” or the courageous “I will”?",
+      "suggested_fix": "Replace ”بے ایمانی والا ”میں کوشش کروں گی“” with ”ایمان سے خالی ”میں کوشش کروں گی“” to preserve the contrast with the courageous “I will.”",
+      "translation_quote": "بے ایمانی والا ”میں کوشش کروں گی“ یا حوصلہ مند ”میں ضرور کروں گی“؟"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

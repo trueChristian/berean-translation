@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz „Verschwörungstheorien“: Definition von „conspiracy“",
+      "severity": "major",
+      "source_quote": "“Conspiracy = a secret plan by a group to do something unlawful or harmful.”",
+      "suggested_fix": "Ersetze die Definition durch: „Verschwörung = ein geheimer Plan einer Gruppe, etwas Gesetzwidriges oder Schädliches zu tun.“",
+      "translation_quote": "„Verschwörung = ein geheimer Plan einer Gruppe, etwas Unrechtes oder Schädliches zu tun.“"
+    },
+    {
+      "location": "HTML, Absatz „Das Impfbüchlein“: Verweis auf die Zeitschrift",
+      "severity": "major",
+      "source_quote": "“our magazine, <em>The Heartbeat of the Remnant.</em>”",
+      "suggested_fix": "Übersetze den translatierbaren Zeitschriftentitel und erhalte die vorhandene Hervorhebung, zum Beispiel: „<em>Der Herzschlag der Übrigen.</em>“",
+      "translation_quote": "„<em>The Heartbeat of the Remnant.</em>“"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Für die natürliche deutsche Rubrikbezeichnung: „Vom Herausgeber“ (ohne vollständig großgeschriebenes „EDITOR“ in der Übersetzung).",
+      "translation_quote": "Vom EDITOR"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

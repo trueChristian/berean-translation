@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, Psalm 52:9b quotation in the list",
+      "severity": "major",
+      "source_quote": "I will wait on thy name.",
+      "suggested_fix": "Ersätt «förtrösta på ditt namn» med «hoppas på ditt namn» för att återge att David väntar/hoppas på Herrens namn, snarare än uttryckligen säger att han förtröstar på det.",
+      "translation_quote": "Jag ska förtrösta på ditt namn."
+    },
+    {
+      "location": "Article, Psalm 17:5b quotation in the list",
+      "severity": "major",
+      "source_quote": "I will be satisfied when I awake with Thy likeness.",
+      "suggested_fix": "Ersätt «vara nöjd när jag vaknar och ser din gestalt» med «vara nöjd när jag vaknar i din likhet» för att bevara innebörden «with thy likeness», inte att se Guds gestalt.",
+      "translation_quote": "Jag ska vara nöjd när jag vaknar och ser din gestalt."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

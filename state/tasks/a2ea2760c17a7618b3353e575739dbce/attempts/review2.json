@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, orodha ya kauli za Daudi, nukuu ya Zaburi 17:5b\",\"severity\":\"major\",\"source_quote\":\"I will be satisfied when I awake with Thy likeness. –Psalm 17:5b\",\"suggested_fix\":\"Badilisha “Nitaridhika niamkapo nikiwa na mfano wako” kuwa “Nitaridhika niamkapo nikiwa na sura yako” (au maneno mengine yanayohifadhi maana ya *likeness* kuwa mfano/sura ya Mungu), na hakikisha rejea imewekwa kama Zaburi 17:5b.\",\"translation_quote\":\"Nitaridhika niamkapo nikiwa na mfano wako. –Zaburi 17:5b\"},{\"location\":\"HTML, sehemu ya Comparison, nukuu ya 2 Wakorintho 10:12\",\"severity\":\"major\",\"source_quote\":\"For we dare not make ourselves of the number, or compare ourselves with some that commend themselves: but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.\",\"suggested_fix\":\"Sahihisha nukuu ili ihifadhi maana kwamba watu hao wanajipima kwa wao wenyewe na kujilinganisha wao kwa wao, badala ya kusema wanapojipima kwa kujilinganisha wao kwa wao. Kwa mfano: “Lakini wao, wakijipima kwa wao wenyewe na kujilinganisha wao kwa wao, hawana hekima.”\",\"translation_quote\":\"Kwa maana hatuthubutu kujihesabu au kujilinganisha na baadhi ya watu wanaojisifu wenyewe; lakini wao wanapojipima kwa kujilinganisha wao kwa wao, hawana akili –2 Wakorintho 10:12.\"},{\"location\":\"HTML, aya inayotaja chaguo la Daudi la kusimamia moyo wake\",\"severity\":\"major\",\"source_quote\":\"David was determined to steer his heart in the way of obedience.\",\"suggested_fix\":\"Badilisha “Daudi aliazimia kuuelekeza moyo wake katika njia ya utii” kuwa “Daudi aliazimia kuuelekeza moyo wake kwenye utii” au “kuufanya moyo wake ufuate njia ya utii,” ili isieleweke kuwa alikusudia kuuelekeza moyo wake wenyewe katika njia fulani.\",\"translation_quote\":\"Daudi aliazimia kuuelekeza moyo wake katika njia ya utii.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1912,
+    "content_evidence_truncated": false,
+    "content_sha256": "753996287f0dccca1e042dafbb8e0b959836b49332dd4e6cb3308ffbb1f32112",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6580,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6577,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7103
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

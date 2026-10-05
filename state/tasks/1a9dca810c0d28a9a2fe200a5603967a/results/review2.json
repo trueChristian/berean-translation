@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "74a15bf6-844a-42de-8f8c-41f9b55cdb90",
+    "response_id": "chatcmpl-EVcp7MHzucXgcq1dJYAkfh4i9cG94",
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5250
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «…Не воинством и не силою»",
+        "severity": "minor",
+        "source_quote": "even urgent personal Bible study, personal devotions, and discipleship cannot",
+        "suggested_fix": "Replace «усердное личное изучение Библии» with «неотложное личное изучение Библии» to preserve the source’s emphasis on urgency.",
+        "translation_quote": "так, как не могут даже усердное личное изучение Библии, личные молитвенные размышления и наставничество"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Tukiwa waaminifu…”\",\"severity\":\"major\",\"source_quote\":\"“many, if not most, of the ‘stories’”\",\"suggested_fix\":\"Replace “nyingi, kama si nyingi zaidi” with “nyingi, kama si nyingi kati ya zote” or another phrasing meaning “many, if not most.”\",\"translation_quote\":\"“nyingi, kama si nyingi zaidi, za ‘simulizi’”\"},{\"location\":\"Paragraph beginning “Kuna maswali tunayoweza…”\",\"severity\":\"major\",\"source_quote\":\"“Am I being advised to join others in standing up for our ‘rights’?”\",\"suggested_fix\":\"Change to a question meaning “Am I being advised to join others in standing up for our ‘rights’?”, for example: “Je, ninashauriwa kuungana na wengine kutetea ‘haki’ zetu?”\",\"translation_quote\":\"“Je, nashauriwe kuungana na wengine kutetea ‘haki’ zetu?”\"},{\"location\":\"Paragraph beginning “Kama nilivyosema awali…”\",\"severity\":\"major\",\"source_quote\":\"“He will NOT allow us to be tempted above that which we are able to bear.”\",\"suggested_fix\":\"Replace “HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili” with a faithful rendering of the source’s promise that God will not allow temptation beyond what we can bear, such as “HATARUHUSU tujaribiwe kupita kiasi tunachoweza kustahimili.”\",\"translation_quote\":\"“HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili.”\"},{\"location\":\"Paragraph beginning “John S. na Maria…”\",\"severity\":\"major\",\"source_quote\":\"“John S. and Maria (Horning) Kurtz were my great, great grandparents.”\",\"suggested_fix\":\"Change “babu na bibi wa babu yangu” to “babu na bibi wa babu/bibi zangu wa vizazi viwili vilivyopita” or an equivalent conveying “great-great-grandparents.”\",\"translation_quote\":\"“walikuwa babu na bibi wa babu yangu.”\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 1858,
+    "content_evidence_truncated": false,
+    "content_sha256": "3465e74d64d1a67b064ecd8d8cea27be99e55077e959b8408c9652e6c616337b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7600,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8072
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

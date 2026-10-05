@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dea40ff4-3a90-4370-b51e-be16f5fecbb2",
+    "response_id": "chatcmpl-EVcqoHpWteNBCAcvhPV6VnBUmxfYZ",
+    "usage": {
+      "completion_tokens": 713,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6993,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7709
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, the first three quotations in the <ul>",
+        "severity": "minor",
+        "source_quote": "“I will praise thee”; “I will love thee”; “I will call upon the Lord”",
+        "suggested_fix": "Use natural Bengali verb constructions in these quotations, for example: “হে সদাপ্রভু, আমি সমস্ত হৃদয় দিয়ে তোমার প্রশংসা করব”; “হে সদাপ্রভু, আমার শক্তি, আমি তোমাকে ভালোবাসব”; “প্রশংসার যোগ্য সদাপ্রভুকে আমি ডাকব।” Keep the existing emphasis and reference tags and positions unchanged.",
+        "translation_quote": "“আমি করব, হে সদাপ্রভু, সমস্ত হৃদয় দিয়ে তোমার প্রশংসা”; “আমি করব তোমাকে প্রেম”; “আমি করব সদাপ্রভুকে ডাক”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

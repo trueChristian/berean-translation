@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,75 @@
         },
         "total_tokens": 13666
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 703,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8713,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8710,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9416
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Текст статьи, абзац о грехе и браке",
+      "location": "Основной текст, абзац о грехе и цветах",
       "severity": "major",
-      "source_quote": "It takes loving marriages and introduces them to the throes of internal war.",
-      "suggested_fix": "Заменить на: «Он превращает любящие браки в поле ожесточённой внутренней борьбы.»",
-      "translation_quote": "Он приводит любящие супруги к жестокой внутренней войне."
+      "source_quote": "It can breathe its icy breath upon the fairest of flowers and wilt them in an instant.",
+      "suggested_fix": "Заменить на: «Он может ледяным дыханием коснуться самых прекрасных цветов и заставить их увянуть в одно мгновение.»",
+      "translation_quote": "Он может ледяным дыханием коснуться самых прекрасных цветов и в один миг увянуть их."
     },
     {
-      "location": "Текст статьи, абзац о знамениях и яслях",
+      "location": "Основной текст, абзац о знаке яслей",
       "severity": "major",
       "source_quote": "The sign of the manger in conjunction with their scriptural knowledge of Bethlehem were all that was needed for the shepherds to find the child.",
-      "suggested_fix": "Заменить на: «Знамения яслей и знания пастухов о Вифлееме, почерпнутые из Писания, было достаточно, чтобы найти Младенца.»",
-      "translation_quote": "Знамения яслей и знания пастухов о Писании, в котором говорилось о Вифлееме, было достаточно, чтобы найти Младенца."
+      "suggested_fix": "Заменить на: «Знамения яслей и знания пастухов о Вифлееме из Писания было достаточно, чтобы найти Младенца.»",
+      "translation_quote": "Знамение яслей вместе со знанием пастухов из Писания о Вифлееме — вот всё, что им было нужно, чтобы найти Младенца."
     },
     {
-      "location": "Текст статьи, абзац о песне и земном мире",
+      "location": "Основной текст, абзац о гостиничной толпе",
       "severity": "major",
-      "source_quote": "This is the popular, pampered peace the world promotes and portrays, but does not coincide with that of the babe in the meager manger.",
-      "suggested_fix": "Заменить на: «Это популярный, холёный мир, который пропагандирует и изображает мир, но он не совпадает с миром Младенца в убогих яслях.»",
-      "translation_quote": "Это популярный, холёный мир, который пропагандирует и изображает мир, но он не совпадает с миром Младенца в убогих яслях."
+      "source_quote": "The Inn Crowd is the place of popular reception, popular understanding, and popular behavior.",
+      "suggested_fix": "Заменить на: «Гостиничная толпа — это место всеобщего признания, общепринятых представлений и общепринятого поведения.»",
+      "translation_quote": "Толпа гостиницы — это популярное место, где принимают популярные представления и следуют популярным обычаям."
     },
     {
-      "location": "Заголовок статьи",
-      "severity": "minor",
-      "source_quote": "Outside the Inn Crowd",
-      "suggested_fix": "Рекомендуется: «Вне гостиничной толпы» — чтобы сохранить образ нахождения за пределами популярного окружения, а не просто пространственное «за пределами» гостиницы.",
-      "translation_quote": "За пределами гостиничной толпы"
+      "location": "Основной текст, абзац о Давиде и мотелях",
+      "severity": "major",
+      "source_quote": "The fussing child in the store bawls because his hands are full, and he cannot have more.",
+      "suggested_fix": "Заменить на: «Капризничающий ребёнок в магазине ревёт, потому что у него уже полны руки, а большего ему не дают.»",
+      "translation_quote": "Ребёнок в магазине кричит, потому что у него руки полны, а большего ему не дают."
+    },
+    {
+      "location": "Основной текст, абзац о Стефане и церкви в пустыне",
+      "severity": "major",
+      "source_quote": "This is he, that was in the church in the wilderness. vs.38.",
+      "suggested_fix": "Заменить на: «Это он был в церкви в пустыне (ст. 38).»",
+      "translation_quote": "Это он был в церкви в пустыне, ст. 38."
+    },
+    {
+      "location": "Заголовок и текст, заключительный гимн",
+      "severity": "major",
+      "source_quote": "So bring him incense, gold, and myrrh, / Come, peasant, king, to own him.",
+      "suggested_fix": "Заменить первые две строки на: «Принесите Ему ладан, золото и смирну, / Приди, простолюдин и царь, признай Его своим.»",
+      "translation_quote": "Принесите Ему ладан, золото и смирну, / Приди, бедняк и царь, признай Его своим."
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "249923335fae37e9e007dffcc4374d74",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "rus",
@@ -186,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

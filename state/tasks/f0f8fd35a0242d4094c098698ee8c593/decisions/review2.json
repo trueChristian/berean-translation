@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source/copyright line",
+      "severity": "minor",
+      "source_quote": "hymnary.org",
+      "suggested_fix": "Translate the translatable source label while retaining the proper website identifier, for example: «Πηγή: Ύμνοι της Πίστης #311» followed by «Πνευματικά δικαιώματα: Δημόσιο κτήμα» and «hymnary.org».",
+      "translation_quote": "Πηγή: Ύμνοι της Πίστης #311\n  Πνευματικά δικαιώματα: Δημόσιο κτήμα\n  hymnary.org"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

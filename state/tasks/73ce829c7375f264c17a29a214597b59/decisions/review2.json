@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph",
+      "severity": "minor",
+      "source_quote": "“fiendish demons”",
+      "suggested_fix": "Replace «τους δαιμονικούς δαίμονες» with «τους μοχθηρούς δαίμονες» to avoid the redundant wording while preserving the meaning.",
+      "translation_quote": "«τους δαιμονικούς δαίμονες»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fb5852b8-9c58-4435-8e19-a6178d38fa3e",
+    "response_id": "chatcmpl-EVcpFCM4eChUdHH2C1xrSnlEtHy8y",
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 717,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7777,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7774,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8608
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “On a side note”",
+        "severity": "minor",
+        "source_quote": "“one of our sister churches”",
+        "suggested_fix": "Replace “ہماری ایک ہم خیال کلیسیا” with “ہماری ایک ساتھی کلیسیا” to convey a sister congregation rather than merely a like-minded one.",
+        "translation_quote": "“ہماری ایک ہم خیال کلیسیا”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article body, vaccine concerns paragraph",
+      "severity": "major",
+      "source_quote": "before blindly accepting it as the jab-that-saves-the-world-from-COVID-19 remedy",
+      "suggested_fix": "Replace the ending with: “kabla ya kuikubali bila kufikiri kama chanjo inayookoa ulimwengu dhidi ya COVID-19.”",
+      "translation_quote": "kabla ya kuikubali bila kufikiri kama tiba ya chanjo inayookoa ulimwengu dhidi ya COVID-19"
+    },
+    {
+      "location": "Article body, section “Hatari Zinazokaribia za Udanganyifu”",
+      "severity": "major",
+      "source_quote": "We are not ignorant of Satan’s devices",
+      "suggested_fix": "Replace with: “Hatujui kwamba hatujui hila za Shetani” is not idiomatic; use “Tunazijua hila za Shetani” or “Hatujapuuza hila za Shetani,” preserving the assertion that the writer is not unaware of them.",
+      "translation_quote": "Hatujui kwa kutokujua hila za Shetani"
+    },
+    {
+      "location": "Article body, closing quotation, Luke 21:25–36, verse 29",
+      "severity": "major",
+      "source_quote": "Behold the fig tree, and all the trees",
+      "suggested_fix": "Translate “all the trees” explicitly, for example: “Tazameni mtini na miti yote.”",
+      "translation_quote": "Tazameni mtini na miti yote"
+    },
+    {
+      "location": "Article body, closing quotation, Luke 21:25–36, verse 36",
+      "severity": "major",
+      "source_quote": "Watch ye therefore, and pray always",
+      "suggested_fix": "Restore the sense of praying continually: “Basi kesheni, mkiomba daima...”",
+      "translation_quote": "Basi kesheni kila wakati, mkiomba"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

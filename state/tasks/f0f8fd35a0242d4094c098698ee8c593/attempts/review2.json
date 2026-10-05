@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Source/copyright line\",\"severity\":\"minor\",\"source_quote\":\"hymnary.org\",\"suggested_fix\":\"Translate the translatable source label while retaining the proper website identifier, for example: «Πηγή: Ύμνοι της Πίστης #311» followed by «Πνευματικά δικαιώματα: Δημόσιο κτήμα» and «hymnary.org».\",\"translation_quote\":\"Πηγή: Ύμνοι της Πίστης #311\\n  Πνευματικά δικαιώματα: Δημόσιο κτήμα\\n  hymnary.org\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 554,
+    "content_evidence_truncated": false,
+    "content_sha256": "483cde0c1e0420b045f9bfad40d91df249499fd0447fb9fd95ee5369da911ffd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2118
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

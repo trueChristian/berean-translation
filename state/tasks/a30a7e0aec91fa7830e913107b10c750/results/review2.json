@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c6c66f2f-cfbc-4487-a400-a3052e82ab3c",
+    "response_id": "chatcmpl-EVcqGl1GCKuSKKRQpWODWqzHtOB0w",
+    "usage": {
+      "completion_tokens": 142,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5306,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5303,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5448
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第九段：教会群体名称",
+        "severity": "major",
+        "source_quote": "various conservative, Anabaptist groups",
+        "suggested_fix": "将“各种保守的再洗礼派团体”改为“各种保守的安abaptist（再洗礼派）团体”并统一采用可辨识的中文译名；此处原文指历史上的 Anabaptist 群体，不应误作通常所说的“再洗礼派”。",
+        "translation_quote": "各种保守的再洗礼派团体"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

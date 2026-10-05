@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 10768
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 305,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7060,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7057,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7365
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning „Ich selbst war durch das Virus so krank …“",
+      "location": "HTML, Absatz „Verschwörungstheorien“: Definition von „conspiracy“",
       "severity": "major",
-      "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
-      "suggested_fix": "Ersetze „Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt.“ durch „Nur die tägliche Einnahme eines Medikaments mit eingeschränkter Verwendung und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlungen bewahrten mich vor einem Krankenhausaufenthalt.“",
-      "translation_quote": "Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt."
+      "source_quote": "“Conspiracy = a secret plan by a group to do something unlawful or harmful.”",
+      "suggested_fix": "Ersetze die Definition durch: „Verschwörung = ein geheimer Plan einer Gruppe, etwas Gesetzwidriges oder Schädliches zu tun.“",
+      "translation_quote": "„Verschwörung = ein geheimer Plan einer Gruppe, etwas Unrechtes oder Schädliches zu tun.“"
+    },
+    {
+      "location": "HTML, Absatz „Das Impfbüchlein“: Verweis auf die Zeitschrift",
+      "severity": "major",
+      "source_quote": "“our magazine, <em>The Heartbeat of the Remnant.</em>”",
+      "suggested_fix": "Übersetze den translatierbaren Zeitschriftentitel und erhalte die vorhandene Hervorhebung, zum Beispiel: „<em>Der Herzschlag der Übrigen.</em>“",
+      "translation_quote": "„<em>The Heartbeat of the Remnant.</em>“"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Für die natürliche deutsche Rubrikbezeichnung: „Vom Herausgeber“ (ohne vollständig großgeschriebenes „EDITOR“ in der Übersetzung).",
+      "translation_quote": "Vom EDITOR"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "0d60448e106bd97af8931c90f5a791f4",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -171,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

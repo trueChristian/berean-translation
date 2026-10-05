@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “For myself, I was so sick…”",
+      "severity": "major",
+      "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
+      "suggested_fix": "Ersätt meningen med: ”Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel vars användning är begränsad och fick en dubbel dos steroider jämfört med den rekommenderade dosen genom nebulisatorbehandlingar.”",
+      "translation_quote": "Det enda som gjorde att jag slapp sjukhusvård var att jag dagligen tog ett läkemedel med restriktioner och fick dubbel rekommenderad dos steroider genom behandling med nebulisator."
+    },
+    {
+      "location": "HTML, paragraph beginning “The children’s story in this issue…”",
+      "severity": "major",
+      "source_quote": "John was ordained to the ministry at the age of 27",
+      "suggested_fix": "Ersätt ”John vigdes till tjänst vid 27 års ålder” med ”John ordinerades till tjänst vid 27 års ålder” eller ”John vigdes till predikanttjänst vid 27 års ålder” för att tydligt återge att han ordinerades till ämbetet.",
+      "translation_quote": "John vigdes till tjänst vid 27 års ålder"
+    },
+    {
+      "location": "HTML, paragraph beginning “John S. and Maria…”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "Ändra ”mina farfars farföräldrar” till ”mina farfars farföräldrar och farmors farföräldrar” endast om det avses; för källans könsneutrala släktrelation är en korrekt lösning ”mina gammelfarföräldrar två generationer bakåt” eller ”mina anföräldrar i femte led”.",
+      "translation_quote": "John S. och Maria (Horning) Kurtz var mina farfars farföräldrar."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

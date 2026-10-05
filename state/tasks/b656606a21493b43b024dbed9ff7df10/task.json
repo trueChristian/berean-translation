@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 10835
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7124,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7121,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7643
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Abschnitt „Wachsam, vorbereitet und aufmerksam sein“, Zitat aus Offenbarung 22,20–21",
+      "location": "Artikeltext, Absatz „Die neue mRNA-Technologie“",
       "severity": "major",
-      "source_quote": "The grace of our Lord Jesus Christ be with you all. Amen",
-      "suggested_fix": "Die Gnade unseres Herrn Jesus Christus sei mit euch allen! Amen",
-      "translation_quote": "Die Gnade des Herrn Jesus sei mit allen! Amen"
+      "source_quote": "Some concern has been raised that this new mode of action could cause sterility in women of childbearing age.",
+      "suggested_fix": "Ersetze den entsprechenden Satz durch: „Es wurden Bedenken geäußert, dass diese neue Wirkungsweise bei Frauen im gebärfähigen Alter zu Unfruchtbarkeit führen könnte.“",
+      "translation_quote": "Es wurden Bedenken geäußert, dass diese neue Wirkungsweise bei Frauen im gebärfähigen Alter Unfruchtbarkeit verursachen könnte."
+    },
+    {
+      "location": "Artikeltext, Absatz „Auf der anderen Seite des Themas“",
+      "severity": "major",
+      "source_quote": "One thing is certain, this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.",
+      "suggested_fix": "Ersetze „in den Bereichen Klatsch, Lügen erzählen und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt“ durch „in den Bereichen Klatsch, Lügen erfinden und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt“; passe die Satzstellung bei Bedarf an.",
+      "translation_quote": "Eines ist sicher: Diese Seite des Themas hat das konservative täuferische Volk in den Bereichen Klatsch, Lügen erzählen und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt."
+    },
+    {
+      "location": "Artikeltext, Absatz „Das Zeichen des Tieres“, Zitat aus Offenbarung 13",
+      "severity": "major",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads",
+      "suggested_fix": "Übersetze die Stelle so, dass das Zeichen an der rechten Hand oder Stirn empfangen wird, nicht dass man es sich machen lässt; zum Beispiel: „Und es bewirkt, dass alle, die Kleinen und die Großen, die Reichen und die Armen, die Freien und die Sklaven, ein Zeichen an ihrer rechten Hand oder an ihrer Stirn empfangen.“",
+      "translation_quote": "Und es bewirkt, dass sie alle, die Kleinen und die Großen, die Reichen und die Armen, die Freien und die Sklaven, sich ein Zeichen an ihrer rechten Hand oder an ihrer Stirn machen lassen"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "b656606a21493b43b024dbed9ff7df10",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

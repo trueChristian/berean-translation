@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Current preaching styles…”",
+      "severity": "minor",
+      "source_quote": "Such is not erroneous, per se",
+      "suggested_fix": "Replace “Jambo hilo si lenye makosa, kwa kila hali” with “Jambo hilo si kosa lenyewe” to convey that the statement is not inherently erroneous.",
+      "translation_quote": "Jambo hilo si lenye makosa, kwa kila hali"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

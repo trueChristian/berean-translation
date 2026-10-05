@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,54 @@
         },
         "total_tokens": 10271
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, second paragraph",
-      "severity": "major",
-      "source_quote": "“I’ll try” ... “I will”",
-      "suggested_fix": "Replace “Nitafanya” with “Nitafanya” only for “I will,” and render “I’ll try” consistently as “Nitajaribu” throughout; specifically change the sentence about the first words from “Nitajaribu” only if needed, and retain the distinction between the two phrases.",
-      "translation_quote": "“Nitajaribu” ... “Nitafanya”"
     },
     {
-      "location": "Psalm quotations list, Psalm 17:5b",
-      "severity": "critical",
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 523,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6580,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6577,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7103
+      }
+    }
+  ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, orodha ya kauli za Daudi, nukuu ya Zaburi 17:5b",
+      "severity": "major",
       "source_quote": "I will be satisfied when I awake with Thy likeness. –Psalm 17:5b",
-      "suggested_fix": "Translate the quotation faithfully as printed and retain the reference as Zaburi 17:5b. Do not alter the reference to a different Psalm.",
+      "suggested_fix": "Badilisha “Nitaridhika niamkapo nikiwa na mfano wako” kuwa “Nitaridhika niamkapo nikiwa na sura yako” (au maneno mengine yanayohifadhi maana ya *likeness* kuwa mfano/sura ya Mungu), na hakikisha rejea imewekwa kama Zaburi 17:5b.",
       "translation_quote": "Nitaridhika niamkapo nikiwa na mfano wako. –Zaburi 17:5b"
     },
     {
-      "location": "Article body, paragraph beginning “Mara nyingi hatuelewi”",
+      "location": "HTML, sehemu ya Comparison, nukuu ya 2 Wakorintho 10:12",
       "severity": "major",
-      "source_quote": "Every day brings hundreds of small decisions.",
-      "suggested_fix": "Replace “mamia ya maamuzi madogo” with “mamia ya maamuzi madogo” only if retaining the source quantity; the current translation already conveys the source accurately.",
-      "translation_quote": "Kila siku huleta mamia ya maamuzi madogo."
+      "source_quote": "For we dare not make ourselves of the number, or compare ourselves with some that commend themselves: but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.",
+      "suggested_fix": "Sahihisha nukuu ili ihifadhi maana kwamba watu hao wanajipima kwa wao wenyewe na kujilinganisha wao kwa wao, badala ya kusema wanapojipima kwa kujilinganisha wao kwa wao. Kwa mfano: “Lakini wao, wakijipima kwa wao wenyewe na kujilinganisha wao kwa wao, hawana hekima.”",
+      "translation_quote": "Kwa maana hatuthubutu kujihesabu au kujilinganisha na baadhi ya watu wanaojisifu wenyewe; lakini wao wanapojipima kwa kujilinganisha wao kwa wao, hawana akili –2 Wakorintho 10:12."
     },
     {
-      "location": "Title",
-      "severity": "minor",
-      "source_quote": "i will",
-      "suggested_fix": "Use the title casing convention consistently if required: “Nitafanya.”",
-      "translation_quote": "Nitafanya"
+      "location": "HTML, aya inayotaja chaguo la Daudi la kusimamia moyo wake",
+      "severity": "major",
+      "source_quote": "David was determined to steer his heart in the way of obedience.",
+      "suggested_fix": "Badilisha “Daudi aliazimia kuuelekeza moyo wake katika njia ya utii” kuwa “Daudi aliazimia kuuelekeza moyo wake kwenye utii” au “kuufanya moyo wake ufuate njia ya utii,” ili isieleweke kuwa alikusudia kuuelekeza moyo wake wenyewe katika njia fulani.",
+      "translation_quote": "Daudi aliazimia kuuelekeza moyo wake katika njia ya utii."
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "a2ea2760c17a7618b3353e575739dbce",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -186,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

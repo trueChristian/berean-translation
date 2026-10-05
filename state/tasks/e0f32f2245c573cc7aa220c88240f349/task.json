@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 11221
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7230,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7227,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7768
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph quoting Romans 10:17",
-      "severity": "major",
-      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
-      "suggested_fix": "Ändra «predikan genom Kristi ord» till «hörandet genom Guds ord», så att citatet återger källans uttryck «the word of God».",
-      "translation_quote": "Alltså kommer tron av predikan, och predikan genom Kristi ord –Romarbrevet 10:17."
-    },
-    {
-      "location": "Article, final paragraph quoting Luke 21:36",
-      "severity": "major",
-      "source_quote": "Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass",
-      "suggested_fix": "Ändra «be att ni skall få kraft att undfly» till en formulering som återger att man ska «anses värdig att undfly», exempelvis «be att ni ska anses värdiga att undfly allt detta som ska ske».",
-      "translation_quote": "Var därför alltid vakna och be att ni skall få kraft att undfly allt detta som skall ske"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "e0f32f2245c573cc7aa220c88240f349",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swe",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

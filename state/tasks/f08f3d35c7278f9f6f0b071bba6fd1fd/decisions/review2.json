@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Updated Side Effects, paragraph beginning “I think one last thing…”",
+      "severity": "minor",
+      "source_quote": "One possible example of this is a doctor in Florida who got a COVID vaccine and then developed really low platelet counts and eventually died.",
+      "suggested_fix": "Rephrase the clause to avoid mixing the relative construction with a separate possessive clause; for example: “এর একটি সম্ভাব্য উদাহরণ হলেন ফ্লোরিডার একজন চিকিৎসক। তিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।”",
+      "translation_quote": "এর একটি সম্ভাব্য উদাহরণ হলো ফ্লোরিডার একজন চিকিৎসক, যিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

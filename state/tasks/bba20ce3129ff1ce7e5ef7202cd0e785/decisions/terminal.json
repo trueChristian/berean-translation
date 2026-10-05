@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, “Conscience in Crisis” paragraph",
+      "severity": "major",
+      "source_quote": "“obey God rather than man”",
+      "suggested_fix": "Replace “एक-साथ इकट्ठा होना छोड़ देने” with “एक साथ इकट्ठा होना छोड़ देने” only if desired for orthography; the substantive correction is to render the quoted phrase as “एक-दूसरे की संगति में एकत्र होना छोड़ देने” or equivalent, preserving that the concern is forsaking assembly, not merely failing to gather together.",
+      "translation_quote": "‘एक-साथ इकट्ठा होना छोड़ देने’"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

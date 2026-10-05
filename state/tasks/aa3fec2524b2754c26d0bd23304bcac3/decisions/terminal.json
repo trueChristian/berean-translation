@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "our measured timeline of years",
+      "suggested_fix": "Replace “årstidslinje” with “tidslinje över årtalen” or “årsräkning” to convey the chronology of years, not a seasonal timeline.",
+      "translation_quote": "vår uppmätta årtidslinje"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

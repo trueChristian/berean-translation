@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, copyright line\",\"severity\":\"minor\",\"source_quote\":\"Copyright: Public Domain\",\"suggested_fix\":\"Bytt «Felleseie» med «Falt i det fri» for å gjengi opphavsrettsstatusen tydeligere.\",\"translation_quote\":\"Opphavsrett: Felleseie\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 295,
+    "content_evidence_truncated": false,
+    "content_sha256": "588d80a8c73f6ee6ec719f54571041c4ff75e35149baad159a01e71c06fabb45",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1798,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2471
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

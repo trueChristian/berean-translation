@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a8d19d04-eff6-44b3-8f4d-652e57f253dd",
+    "response_id": "chatcmpl-EVcpJSx8wgR0ZNeDTqQg1rHUw84AT",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4614,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5347
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Current preaching styles…”",
+        "severity": "minor",
+        "source_quote": "Such is not erroneous, per se",
+        "suggested_fix": "Replace “Jambo hilo si lenye makosa, kwa kila hali” with “Jambo hilo si kosa lenyewe” to convey that the statement is not inherently erroneous.",
+        "translation_quote": "Jambo hilo si lenye makosa, kwa kila hali"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

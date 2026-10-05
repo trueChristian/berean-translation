@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 14647
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 963,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 931,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9233,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9230,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10196
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "둘째 문단",
-      "severity": "major",
-      "source_quote": "It has also been determined that the actual year ascribed to His birth is also inaccurate by 4-6 years.",
-      "suggested_fix": "방향을 특정하지 말고 다음과 같이 수정하세요: “그분의 탄생 연도로 여겨지는 해 역시 실제 연도와 4~6년 차이가 난다는 사실도 밝혀졌습니다.”",
-      "translation_quote": "그분의 탄생 연도로 여겨지는 해 역시 실제보다 4~6년 늦게 정해졌다는 사실도 밝혀졌습니다."
-    },
-    {
-      "location": "두 번째 찬송가",
-      "severity": "major",
-      "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
-      "suggested_fix": "부정 명령으로 바꾸지 말고 원문의 ‘fear’를 살려 다음처럼 수정하세요: “선한 그리스도인들이여, 두려워하라. 여기 죄인들을 위하여 / 침묵의 말씀이 간구하신다.”",
-      "translation_quote": "선한 그리스도인들이여, 두려워 말라. 죄인들을 위하여 / 침묵의 말씀이 간구하신다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "d5afa50bfd86f39a526137935e9795bd",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "kor",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

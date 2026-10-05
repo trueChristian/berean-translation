@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, first sentence\",\"severity\":\"minor\",\"source_quote\":\"Normally, we haven’t used our magazine to bring focus to any specific individual.\",\"suggested_fix\":\"Kwa kawaida, hatujayatumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi.\",\"translation_quote\":\"Kwa kawaida, hatujaitumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 411,
+    "content_evidence_truncated": false,
+    "content_sha256": "14279a8b04ea86f9ccd422761fbd1be24a1f87032152f7fed7fdf1f791d2a182",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5737,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6344
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

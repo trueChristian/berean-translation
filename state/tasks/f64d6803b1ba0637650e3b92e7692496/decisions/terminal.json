@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML body, paragraph quoting Romans 1:16",
+      "severity": "minor",
+      "source_quote": "…not ashamed of the gospel of Christ:",
+      "suggested_fix": "Replace “inte skamsen för Kristi evangelium” with the idiomatic Swedish “inte skämdes för Kristi evangelium”. Preserve the existing emphasis and HTML structure.",
+      "translation_quote": "…inte skamsen för Kristi evangelium:"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

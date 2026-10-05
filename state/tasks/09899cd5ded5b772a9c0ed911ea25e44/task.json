@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 9808
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 424,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6432,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6429,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7254
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph under “عدم القناعة” (quotation citing 1 Timothy 6:8)",
+      "location": "Quoted Scripture under “Comparison”",
       "severity": "major",
-      "source_quote": "And having food and raiment let us be therewith content –1 Timothy 6:8.",
-      "suggested_fix": "Replace the quoted Arabic text with: «وإذ لنا قوت وكسوة، فلنكتفِ بهما»; retain the existing reference «–تيموثاوس الأولى 6:8».",
-      "translation_quote": "وأما التقوى مع القناعة فهي تجارة عظيمة. لأننا لم ندخل العالم بشيء، وواضح أننا لا نقدر أن نخرج منه بشيء. فإن كان لنا قوت وكسوة فلنكتفِ بهما –تيموثاوس الأولى 6:8."
+      "source_quote": "“...they measuring themselves by themselves, and comparing themselves among themselves, are not wise”",
+      "suggested_fix": "Change «لا يفهمون» to «ليسوا حكماء» so the passage says that they are not wise, rather than that they do not understand.",
+      "translation_quote": "«...لكنهم إذ يقيسون أنفسهم على أنفسهم ويقارنون أنفسهم بأنفسهم، لا يفهمون»"
+    },
+    {
+      "location": "Quoted Scripture under “Discontentment” (1 Timothy 6:8)",
+      "severity": "major",
+      "source_quote": "“And having food and raiment let us be therewith content –1 Timothy 6:8.”",
+      "suggested_fix": "Replace the quoted text with «وإذ لنا قوت وكسوة، فلنكتفِ بهما» and retain the existing reference. Remove the added sentences about godliness, entering and leaving the world, which are not in the source quotation.",
+      "translation_quote": "«وأما التقوى مع القناعة فهي تجارة عظيمة. لأننا لم ندخل العالم بشيء، وواضح أننا لا نقدر أن نخرج منه بشيء. وإذ لنا قوت وكسوة، فلنكتفِ بهما –تيموثاوس الأولى 6:8.»"
+    },
+    {
+      "location": "Quoted Scripture in the list, Psalm 66:16b",
+      "severity": "major",
+      "source_quote": "“I will declare what he hath done for my soul.”",
+      "suggested_fix": "Change «لنفسي» to «لنفسي» only if intended to mean “my soul”; in clear Arabic, use «لروحي» to convey the source’s “for my soul.”",
+      "translation_quote": "«سأخبر بما صنعه لنفسي.»"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "09899cd5ded5b772a9c0ed911ea25e44",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ara",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

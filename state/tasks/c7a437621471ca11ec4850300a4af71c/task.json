@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 11155
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, concluding quotation of Luke 21:25–36, verse 36",
-      "severity": "major",
-      "source_quote": "that ye may be accounted worthy to escape all these things that shall come to pass",
-      "suggested_fix": "Replace « afin que vous ayez la force d’échapper à toutes ces choses qui arriveront » with « afin que vous soyez jugés dignes d’échapper à toutes ces choses qui arriveront ».",
-      "translation_quote": "afin que vous ayez la force d’échapper à toutes ces choses qui arriveront"
     },
     {
-      "location": "Article, opening quotation of Luke 21:25–28 and concluding quotation of Luke 21:25–36, verse 26",
-      "severity": "major",
-      "source_quote": "Men’s hearts failing them for fear, and for looking after those things which are coming on the earth",
-      "suggested_fix": "In both quotations, replace « les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre » with « les hommes seront saisis d’effroi à cause de l’attente des événements qui surviendront sur la terre ».",
-      "translation_quote": "les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 468,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7209,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7206,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7677
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “There are dangerous heresies around today”",
+      "severity": "major",
+      "source_quote": "“false teachings about ‘casting out’ sin, rather than ‘putting it away’, ‘putting it off ’, or ‘turning away from’”",
+      "suggested_fix": "Replace « sur le fait d’“expulser” le péché, au lieu de le “délaisser”, de s’en “dépouiller” ou de s’en “détourner” » with « sur le fait d’“expulser” le péché, au lieu de le “mettre de côté”, de s’en “dépouiller” ou de s’en “détourner” », preserving the paragraph’s existing HTML structure.",
+      "translation_quote": "« sur le fait d’“expulser” le péché, au lieu de le “délaisser”, de s’en “dépouiller” ou de s’en “détourner” »"
+    },
+    {
+      "location": "source.html, paragraph beginning “There are dangerous heresies around today”",
+      "severity": "major",
+      "source_quote": "“what often precedes people allowing deception to take root is that they first open themselves to false teachings which they embrace leaving them unable to discern what spirit is speaking to them.”",
+      "suggested_fix": "Revise « souvent, avant que des personnes ne laissent la tromperie prendre racine, elles s’ouvrent d’abord à de faux enseignements qu’elles adoptent, ce qui les rend incapables de discerner quel esprit leur parle » to make clear that embracing the false teachings leaves them unable to discern which spirit is speaking to them; for example: « souvent, les personnes qui laissent la tromperie prendre racine se sont d’abord ouvertes à de faux enseignements qu’elles ont adoptés, ce qui les rend incapables de discerner quel esprit leur parle ».",
+      "translation_quote": "« souvent, avant que des personnes ne laissent la tromperie prendre racine, elles s’ouvrent d’abord à de faux enseignements qu’elles adoptent, ce qui les rend incapables de discerner quel esprit leur parle »"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "c7a437621471ca11ec4850300a4af71c",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

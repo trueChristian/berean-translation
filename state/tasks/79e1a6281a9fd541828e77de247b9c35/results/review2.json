@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4387bbc5-6533-47b2-b0b3-591a909d86db",
+    "response_id": "chatcmpl-EVcprCpUwOGgBJOFFrYIVjxk4gwWI",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9839
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "The church that initially frowned upon the proposition eventually accepted the idea and by the fourth century was fully acclimated and indoctrinated to the hybrid mixture of that which was Christian and pagan.",
+        "suggested_fix": "Replace “Kanisa lililopinga wazo hilo mwanzoni hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kufundishwa mchanganyiko mseto wa mambo ya Kikristo na ya kipagani.” with “Kanisa ambalo mwanzoni lililikataa wazo hilo hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kupandikizwa kikamilifu mchanganyiko wa mambo ya Kikristo na ya kipagani.”",
+        "translation_quote": "Kanisa lililopinga wazo hilo mwanzoni hatimaye lilikubali, na kufikia karne ya nne lilikuwa limezoea kikamilifu na kufundishwa mchanganyiko mseto wa mambo ya Kikristo na ya kipagani."
+      },
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "understand the significance of the virgin birth apart from the emotional ties to the hybrid celebration",
+        "suggested_fix": "Replace “kuelewa umuhimu wa kuzaliwa kwake na bikira, bila kuhusisha hisia na sherehe mseto” with “kuelewa umuhimu wa kuzaliwa kwake na bikira, mbali na uhusiano wa kihisia na sherehe mseto.”",
+        "translation_quote": "kuelewa umuhimu wa kuzaliwa kwake na bikira, bila kuhusisha hisia na sherehe mseto"
+      },
+      {
+        "location": "Paragraph 6",
+        "severity": "major",
+        "source_quote": "Even these foolish and unlearned men knew of, and longed for, the anticipated Messiah.",
+        "suggested_fix": "Replace “Hata wanaume hawa wasio na elimu wala maarifa mengi walimjua Masihi aliyekuwa akitarajiwa na kumtamani.” with “Hata wanaume hawa wapumbavu na wasio na elimu walijua kuhusu Masihi aliyekuwa akitarajiwa, na walitamani kuja kwake.”",
+        "translation_quote": "Hata wanaume hawa wasio na elimu wala maarifa mengi walimjua Masihi aliyekuwa akitarajiwa na kumtamani."
+      },
+      {
+        "location": "Paragraph 12",
+        "severity": "major",
+        "source_quote": "To visit the Christ child will require us to haunt the place outside the inn.",
+        "suggested_fix": "Replace “Kumtembelea mtoto Kristo kutatutaka twende mara kwa mara mahali palipo nje ya nyumba ya wageni.” with “Kumtembelea mtoto Kristo kutatutaka tukae mara kwa mara mahali palipo nje ya nyumba ya wageni.”",
+        "translation_quote": "Kumtembelea mtoto Kristo kutatutaka twende mara kwa mara mahali palipo nje ya nyumba ya wageni."
+      },
+      {
+        "location": "Paragraph 17",
+        "severity": "major",
+        "source_quote": "They can sing the praises of a five-star hotel and diner",
+        "suggested_fix": "Replace “Wanaweza kuimba sifa za hoteli na mkahawa wa nyota tano” with “Wanaweza kusifu hoteli na mgahawa wa nyota tano.”",
+        "translation_quote": "Wanaweza kuimba sifa za hoteli na mkahawa wa nyota tano"
+      },
+      {
+        "location": "Paragraph 18",
+        "severity": "major",
+        "source_quote": "They can rejoice in another’s promotion, good fortune, and success. In doing so, they inherit the earth.",
+        "suggested_fix": "Replace “Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapopata bahati njema na anapofanikiwa. Kwa kufanya hivyo, watairithi dunia.” with “Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapobahatika na anapofanikiwa. Kwa kufanya hivyo, wanairithi dunia.”",
+        "translation_quote": "Wanaweza kufurahia mtu mwingine anapopandishwa cheo, anapopata bahati njema na anapofanikiwa. Kwa kufanya hivyo, watairithi dunia."
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

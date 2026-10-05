@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML body, paragraph quoting Romans 1:16\",\"severity\":\"minor\",\"source_quote\":\"…not ashamed of the gospel of Christ:\",\"suggested_fix\":\"Replace “inte skamsen för Kristi evangelium” with the idiomatic Swedish “inte skämdes för Kristi evangelium”. Preserve the existing emphasis and HTML structure.\",\"translation_quote\":\"…inte skamsen för Kristi evangelium:\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 423,
+    "content_evidence_truncated": false,
+    "content_sha256": "fabb93b543434f1441b4d4ab5227f63d651bff7c624dd554dbad46ddc6964eb3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 661,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5565,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6348
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

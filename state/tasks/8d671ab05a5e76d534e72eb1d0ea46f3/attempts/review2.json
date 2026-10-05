@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final paragraph, verse 35\",\"severity\":\"major\",\"source_quote\":\"35 For as a snare shall it come on all them that dwell on the face of the whole earth.\",\"suggested_fix\":\"Ganti kalimat ayat 35 dengan: “35 Sebab hari itu akan datang seperti perangkap atas semua orang yang diam di seluruh muka bumi ini.”\",\"translation_quote\":\"35 Sebab hari itu akan menimpa semua orang yang diam di seluruh muka bumi ini.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 473,
+    "content_evidence_truncated": false,
+    "content_sha256": "23c736dfd4e5d9fe984951d668588c04d977ed72e7afd843f8591bc8c3ee7787",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7248,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7245,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8166
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

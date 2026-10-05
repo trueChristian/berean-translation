@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37f3ac8b-50ef-40de-99a5-069ecbf477ac",
+    "response_id": "chatcmpl-EVcqV5lvmuMBesVAP7vWMgCmUVOi7",
+    "usage": {
+      "completion_tokens": 376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5994,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6373
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note paragraph",
+        "severity": "major",
+        "source_quote": "“the various conservative, Anabaptist groups toward which his heart was especially drawn”",
+        "suggested_fix": "Replace “রক্ষণশীল অ্যানাব্যাপ্টিস্ট গোষ্ঠীগুলোর প্রতি তাঁর হৃদয়ের আকর্ষণ ছিল বিশেষভাবে” with “বিভিন্ন রক্ষণশীল অ্যানাব্যাপ্টিস্ট গোষ্ঠীর প্রতি তাঁর হৃদয়ের বিশেষ টান ছিল”—the current Bengali wording appears to attach “various” to the preceding evangelical and Protestant denominations rather than to the conservative Anabaptist groups.",
+        "translation_quote": "“তাঁর সভাগুলোতে প্রচুর ইভানজেলিক্যাল ও প্রোটেস্ট্যান্ট সম্প্রদায়ের লোকেরা তাঁকে শুনতে আসতেন। তবে রক্ষণশীল অ্যানাব্যাপ্টিস্ট গোষ্ঠীগুলোর প্রতি তাঁর হৃদয়ের আকর্ষণ ছিল বিশেষভাবে”"
+      },
+      {
+        "location": "Paragraph beginning “Brother Mose was a true leader”",
+        "severity": "major",
+        "source_quote": "“He would express, sometimes with tears, his rejoicing in the fellowship and council of his brethren”",
+        "suggested_fix": "Change “তিনি আনন্দ প্রকাশ করতেন—কখনো কখনো চোখের জলে” to “তিনি আনন্দ প্রকাশ করতেন—কখনো কখনো চোখের জলে—তাঁর ভাইদের সহভাগিতা ও পরামর্শ পেয়ে” or equivalent, to retain that his rejoicing was in their fellowship and counsel.",
+        "translation_quote": "“তাঁর সঙ্গে বিভিন্ন মণ্ডলীর কল্যাণে কাজ করা ভাইদের সহভাগিতা ও পরামর্শে তিনি আনন্দ প্রকাশ করতেন—কখনো কখনো চোখের জলে।”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

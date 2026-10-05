@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 10367
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1063,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 828,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6815,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6812,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7878
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文，第4段，罗马书10:17引文",
+      "location": "Article, opening Scripture quotation and concluding Luke 21:25–26 quotation",
       "severity": "major",
-      "source_quote": "and hearing by the word of God",
-      "suggested_fix": "将引文中的“听道是从基督的话来的”改为“听道是从上帝的话来的”，以保留原文所说“上帝的话”。",
-      "translation_quote": "听道是从基督的话来的"
-    },
-    {
-      "location": "正文，“兽的印记”部分，关于保罗所称呼的末世统治者",
-      "severity": "major",
-      "source_quote": "Paul called him the Man of Sin",
-      "suggested_fix": "将“保罗称他为罪人”改为“保罗称他为罪恶之人”，以保留原文的特定称谓，而非泛指一个犯罪的人。",
-      "translation_quote": "保罗称他为罪人"
-    },
-    {
-      "location": "正文，路加福音21:28及启示录22:20-21引文",
-      "severity": "major",
-      "source_quote": "The grace of our Lord Jesus Christ be with you all.",
-      "suggested_fix": "将“愿主耶稣基督的恩惠常与众圣徒同在”改为“愿主耶稣基督的恩惠与你们众人同在”，保留原文对“你们众人”的称呼。",
-      "translation_quote": "愿主耶稣基督的恩惠常与众圣徒同在"
+      "source_quote": "“upon the earth distress of nations, with perplexity; the sea and the waves roaring; Men’s hearts failing them for fear, and for looking after those things which are coming on the earth”",
+      "suggested_fix": "In both quotations, revise the wording to keep the clauses distinct and preserve their meaning—for example: “地上的列国必有困苦，心中困惑；海浪翻腾；人因惧怕，又因期待那将临到世界的事，心都吓得衰竭……” Keep the existing HTML structure and Scripture references unchanged.",
+      "translation_quote": "“地上的邦国也有困苦，因海中波浪的响声，就慌慌不定；人因惧怕，并因盼望那将要临到世界的事，就吓得魂不附体”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "03c1360927e2bf5dc8b406a2e36a0d09",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "cmn",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

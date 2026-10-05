@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 10785
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 921,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 664,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7036,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7033,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7957
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “Aan de andere kant van de kwestie”",
+      "location": "HTML, Matteüs 10:16-citaat",
       "severity": "major",
-      "source_quote": "One thing is certain, this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.",
-      "suggested_fix": "Replace the sentence beginning “Eén ding staat vast” with: “Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld op het gebied van roddelen, het verzinnen en geloven van leugens, en het afleggen van een vals getuigenis.” This avoids adding the claim that their shortcomings were exposed and renders “making … a lie” as making up lies, rather than merely telling them.",
-      "translation_quote": "Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld en hun tekortkomingen aan het licht gebracht op het gebied van roddelen, leugens vertellen en geloven, en vals getuigen."
+      "source_quote": "“wise as serpents, and harmless as doves”",
+      "suggested_fix": "Vervang “oprecht als de duiven” door “onschuldig als de duiven” of een andere formulering die de betekenis van “harmless” weergeeft.",
+      "translation_quote": "“wijs als de slangen en oprecht als de duiven”"
+    },
+    {
+      "location": "HTML, Lucas 21:34-citaat",
+      "severity": "major",
+      "source_quote": "“your hearts be overcharged with surfeiting, and drunkenness, and cares of this life”",
+      "suggested_fix": "Vervang “losbandigheid” door een formulering voor overmatig eten of overdaad, zodat “surfeiting” niet wordt verward met losbandig gedrag; behoud daarnaast “dronkenschap” en “de zorgen van het dagelijks leven”.",
+      "translation_quote": "“uw hart niet op enig moment bezwaard wordt door losbandigheid, dronkenschap en de zorgen van het dagelijks leven”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "d134c18eb7a0f72d290b504c9cb02107",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nld",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

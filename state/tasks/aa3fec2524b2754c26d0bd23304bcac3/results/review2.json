@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9e34f7e9-f4d3-494c-89f0-53ee88725624",
+    "response_id": "chatcmpl-EVcqnCDisjzrTrDxWkIDCrofKU74y",
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 769,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8803,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9682
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "our measured timeline of years",
+        "suggested_fix": "Replace “årstidslinje” with “tidslinje över årtalen” or “årsräkning” to convey the chronology of years, not a seasonal timeline.",
+        "translation_quote": "vår uppmätta årtidslinje"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

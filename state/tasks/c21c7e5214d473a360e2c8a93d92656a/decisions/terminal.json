@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, copyright line",
+      "severity": "minor",
+      "source_quote": "Copyright: Public Domain",
+      "suggested_fix": "Bytt «Felleseie» med «Falt i det fri» for å gjengi opphavsrettsstatusen tydeligere.",
+      "translation_quote": "Opphavsrett: Felleseie"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

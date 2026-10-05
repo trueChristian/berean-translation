@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 12362
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 956,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 733,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8146,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8143,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9102
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph beginning “How we speak to one another certainly means a great deal.”",
+      "location": "source.html, Absatz mit Matthäus 23:14–15; entsprechender deutscher Vers",
       "severity": "major",
-      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
-      "suggested_fix": "Replace the sentence with: „Aber wenn wir bereit sind, die Wahrheit zu sagen, auch wenn dadurch jemand mit uns unzufrieden sein könnte, liegt dann nicht die Schuld bei uns?“",
-      "translation_quote": "Aber wenn wir nicht bereit sind, die Wahrheit zu sagen, sobald jemand dadurch unzufrieden mit uns sein könnte, liegt dann nicht die Schuld bei uns?"
+      "source_quote": "therefore ye shall receive the greater damnation.",
+      "suggested_fix": "Ersetze „darum werdet ihr ein umso härteres Urteil empfangen“ durch „darum werdet ihr eine umso größere Verdammnis empfangen“, damit die Aussage über Verdammnis erhalten bleibt.",
+      "translation_quote": "darum werdet ihr ein umso härteres Urteil empfangen."
+    },
+    {
+      "location": "source.html, Absatz mit Titus 2:15",
+      "severity": "minor",
+      "source_quote": "speak, and exhort, and rebuke with all authority",
+      "suggested_fix": "Gib „with all authority“ ausdrücklich wieder, etwa: „rede und ermahne und weise mit aller Vollmacht zurecht“.",
+      "translation_quote": "rede und ermahne und weise mit allem Nachdruck zurecht"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "1023d8932addb5630a272cda1d8a7a26",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -171,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

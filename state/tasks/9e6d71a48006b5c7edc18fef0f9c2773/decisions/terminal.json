@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Il fatto che questo bambino fosse stato concepito…”",
+      "severity": "major",
+      "source_quote": "The fact that this child was conceived by the Holy Ghost as detailed in Matthew 1:20",
+      "suggested_fix": "Sostituire «come descritto in Matteo 1:20» con «come indicato in Matteo 1:20» per rendere correttamente “as detailed” senza cambiare il riferimento.",
+      "translation_quote": "come descritto in Matteo 1:20"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

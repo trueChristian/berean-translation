@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 8701
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 806,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 695,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5346,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5343,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6152
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML paragraph 6",
-      "severity": "major",
-      "source_quote": "“The preacher needs to be intellectually prepared.”",
-      "suggested_fix": "Replace «πνευματικά προετοιμασμένος» with «διανοητικά προετοιμασμένος» to preserve the source’s assertion about intellectual preparation.",
-      "translation_quote": "«Ο κήρυκας χρειάζεται να είναι πνευματικά προετοιμασμένος.»"
-    },
-    {
-      "location": "HTML paragraph 6",
-      "severity": "major",
-      "source_quote": "“urgent personal Bible study, personal devotions, and discipleship”",
-      "suggested_fix": "Translate “personal devotions” into Greek, for example «οι προσωπικές λατρευτικές στιγμές», rather than leaving the English word in the Greek article.",
-      "translation_quote": "«η επείγουσα προσωπική μελέτη της Γραφής, ούτε οι προσωπικές devotions, ούτε η μαθητεία»"
+      "location": "HTML, final paragraph",
+      "severity": "minor",
+      "source_quote": "“fiendish demons”",
+      "suggested_fix": "Replace «τους δαιμονικούς δαίμονες» with «τους μοχθηρούς δαίμονες» to avoid the redundant wording while preserving the meaning.",
+      "translation_quote": "«τους δαιμονικούς δαίμονες»"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "73ce829c7375f264c17a29a214597b59",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ell",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

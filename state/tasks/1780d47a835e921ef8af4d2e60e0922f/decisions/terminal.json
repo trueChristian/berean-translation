@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML، مدیر کا نوٹ، پیراگراف 1",
+      "severity": "major",
+      "source_quote": "“They continued this for a number of years until it eventually went out of print temporarily due to their editors moving out of the area.”",
+      "suggested_fix": "«انہوں نے یہ کام کئی سال تک جاری رکھا، یہاں تک کہ ان کے مدیران کے علاقے سے چلے جانے کے باعث رسالہ عارضی طور پر اشاعت سے باہر ہوگیا۔»",
+      "translation_quote": "«انہوں نے کئی سال تک اسے جاری رکھا، یہاں تک کہ ان کے مدیران کے علاقے سے چلے جانے کے باعث یہ عارضی طور پر شائع ہونا بند ہوگیا۔»"
+    },
+    {
+      "location": "HTML، پولس کے حوالے کا اقتباس، پہلا جملہ",
+      "severity": "major",
+      "source_quote": "“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.”",
+      "suggested_fix": "«میں یونانیوں اور بربریوں، داناؤں اور نادانوں، دونوں کا مقروض ہوں۔»",
+      "translation_quote": "«میں یونانیوں اور غیر یونانیوں، داناؤں اور نادانوں، دونوں کا مقروض ہوں۔»"
+    },
+    {
+      "location": "HTML، ڈینی کیناسٹن کے ساتھ سفر کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“With much unction from the Holy One, they would preach the Gospel.”",
+      "suggested_fix": "«روح القدس کی بھرپور مسح کاری کے ساتھ وہ انجیل سناتے۔»",
+      "translation_quote": "«روح القدس کی بھرپور تحریک کے ساتھ وہ انجیل سناتے۔»"
+    },
+    {
+      "location": "HTML، انفرادی گفتگو کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“It could be a middle-aged person on a hospital bed, a youth in a living room, or a young adult who had responded to the Holy Spirit’s moving after a preaching service.”",
+      "suggested_fix": "«وہ ہسپتال کے بستر پر پڑا کوئی ادھیڑ عمر شخص، بیٹھک میں کوئی نوجوان، یا منادی کے اجتماع کے بعد روح القدس کی تحریک کا جواب دینے والا کوئی نوجوان بالغ ہو سکتا تھا۔»",
+      "translation_quote": "«وہ ہسپتال کے بستر پر پڑا ادھیڑ عمر شخص ہوسکتا تھا، بیٹھک میں کوئی نوجوان، یا کوئی نوجوان بالغ جس نے منادی کے اجتماع کے بعد روح القدس کی تحریک کا جواب دیا ہو۔»"
+    },
+    {
+      "location": "HTML، قیادت کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“for want of a man to stand in the gap.”",
+      "suggested_fix": "«کیونکہ خلا میں کھڑے ہونے کے لیے کوئی شخص موجود نہیں تھا۔»",
+      "translation_quote": "«کیونکہ کوئی شخص خلا کو پُر کرنے کے لیے کھڑا نہیں تھا۔»"
+    },
+    {
+      "location": "HTML، قیادت کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“he would frequently seek out the council of fellow ministers.”",
+      "suggested_fix": "«وہ اکثر ساتھی خادموں کی مجلس سے رجوع کرتے۔»",
+      "translation_quote": "«وہ اکثر ساتھی خادموں سے مشورہ لیتے۔»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

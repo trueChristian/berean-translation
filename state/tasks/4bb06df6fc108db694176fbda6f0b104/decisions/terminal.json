@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Let’s consider some examples in the Holy Bible”",
+      "severity": "major",
+      "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+      "suggested_fix": "Ganti “masing-masing dari mereka menderita demi mereka” dengan “masing-masing dari mereka menderita karena [lanjutan kalimat tidak tersedia dalam sumber]”. Sumber terputus setelah “their”; jangan menerjemahkannya seolah-olah para murid menderita demi orang lain.",
+      "translation_quote": "“Pikirkan para murid; masing-masing dari mereka menderita demi mereka. Pada akhirnya, mereka tidak dapat tidak berbicara tentang hal-hal yang telah mereka lihat dan dengar.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

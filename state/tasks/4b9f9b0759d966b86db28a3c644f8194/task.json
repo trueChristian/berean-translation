@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 8317
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 20,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5373,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5370,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5393
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, alinea over de predikingsreizen met Denny Kenaston",
-      "severity": "major",
-      "source_quote": "“One of them would preach one night, and the other the next night throughout the week.”",
-      "suggested_fix": "Vervang “De ene predikte de ene avond en de andere de volgende avond, de hele week door.” door “De ene predikte de ene avond en de andere de volgende avond, gedurende de hele week.”",
-      "translation_quote": "“De ene predikte de ene avond en de andere de volgende avond, de hele week door.”"
-    },
-    {
-      "location": "HTML, alinea over het zoeken van verlorenen",
-      "severity": "major",
-      "source_quote": "“Brother Mose sought the lost from any background and any place where they would come to listen.”",
-      "suggested_fix": "Vervang “Broeder Mose zocht de verlorenen, ongeacht hun achtergrond of de plaats waar ze vandaan kwamen, zolang ze maar wilden komen luisteren.” door “Broeder Mose zocht de verlorenen, ongeacht hun achtergrond, overal waar mensen kwamen luisteren.”",
-      "translation_quote": "“Broeder Mose zocht de verlorenen, ongeacht hun achtergrond of de plaats waar ze vandaan kwamen, zolang ze maar wilden komen luisteren.”"
-    },
-    {
-      "location": "HTML, alinea over zijn leiderschap",
-      "severity": "major",
-      "source_quote": "“the annual ministers’ meetings held in Indiana”",
-      "suggested_fix": "Vervang “de jaarlijkse predikantenbijeenkomsten in Indiana” door “de jaarlijkse bijeenkomsten van voorgangers in Indiana”.",
-      "translation_quote": "“de jaarlijkse predikantenbijeenkomsten in Indiana”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "4b9f9b0759d966b86db28a3c644f8194",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nld",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

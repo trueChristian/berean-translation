@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Quoted Scripture under “Comparison”",
+      "severity": "major",
+      "source_quote": "“...they measuring themselves by themselves, and comparing themselves among themselves, are not wise”",
+      "suggested_fix": "Change «لا يفهمون» to «ليسوا حكماء» so the passage says that they are not wise, rather than that they do not understand.",
+      "translation_quote": "«...لكنهم إذ يقيسون أنفسهم على أنفسهم ويقارنون أنفسهم بأنفسهم، لا يفهمون»"
+    },
+    {
+      "location": "Quoted Scripture under “Discontentment” (1 Timothy 6:8)",
+      "severity": "major",
+      "source_quote": "“And having food and raiment let us be therewith content –1 Timothy 6:8.”",
+      "suggested_fix": "Replace the quoted text with «وإذ لنا قوت وكسوة، فلنكتفِ بهما» and retain the existing reference. Remove the added sentences about godliness, entering and leaving the world, which are not in the source quotation.",
+      "translation_quote": "«وأما التقوى مع القناعة فهي تجارة عظيمة. لأننا لم ندخل العالم بشيء، وواضح أننا لا نقدر أن نخرج منه بشيء. وإذ لنا قوت وكسوة، فلنكتفِ بهما –تيموثاوس الأولى 6:8.»"
+    },
+    {
+      "location": "Quoted Scripture in the list, Psalm 66:16b",
+      "severity": "major",
+      "source_quote": "“I will declare what he hath done for my soul.”",
+      "suggested_fix": "Change «لنفسي» to «لنفسي» only if intended to mean “my soul”; in clear Arabic, use «لروحي» to convey the source’s “for my soul.”",
+      "translation_quote": "«سأخبر بما صنعه لنفسي.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

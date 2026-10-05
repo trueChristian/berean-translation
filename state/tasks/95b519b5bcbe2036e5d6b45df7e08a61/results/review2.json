@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aea02747-71ee-4153-a80c-3f483603f136",
+    "response_id": "chatcmpl-EVcqYvWsb0tsrbdpBGyVYq3SMI37W",
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1787,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2005
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, verse 1, line 2",
+        "severity": "major",
+        "source_quote": "My treasures are laid up somewhere beyond the blue;",
+        "suggested_fix": "استبدل «كنوزي مودعة في مكان ما وراء السماء؛» بـ «كنوزي محفوظة في مكان ما وراء زرقة السماء؛» للحفاظ على صورة النص عن السماء الزرقاء.",
+        "translation_quote": "كنوزي مودعة في مكان ما وراء السماء؛"
+      },
+      {
+        "location": "HTML, verse 3, line 3",
+        "severity": "major",
+        "source_quote": "He’s waiting now for me in heaven’s open door,",
+        "suggested_fix": "استبدل «إنه ينتظرني الآن عند باب السماء المفتوح،» بـ «إنه ينتظرني الآن في باب السماء المفتوح،» للمحافظة على معنى «in» في الأصل.",
+        "translation_quote": "إنه ينتظرني الآن عند باب السماء المفتوح،"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

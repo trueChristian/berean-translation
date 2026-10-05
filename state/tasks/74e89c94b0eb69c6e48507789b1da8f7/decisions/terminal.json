@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “For nearly two decades”",
+      "severity": "major",
+      "source_quote": "With much unction from the Holy One, they would preach the Gospel.",
+      "suggested_fix": "Replace «Με μεγάλη έμπνευση από τον Άγιο» with «Με μεγάλο χρίσμα από τον Άγιο» to preserve the source’s sense of spiritual anointing.",
+      "translation_quote": "Με μεγάλη έμπνευση από τον Άγιο, κήρυτταν το Ευαγγέλιο."
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Use «ΕΠΙΛΕΓΜΕΝΟ ΑΡΘΡΟ» to convey that this is a featured article, rather than the main article.",
+      "translation_quote": "ΚΥΡΙΟ ΑΡΘΡΟ"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

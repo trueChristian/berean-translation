@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Matteüs 10:16-citaat",
+      "severity": "major",
+      "source_quote": "“wise as serpents, and harmless as doves”",
+      "suggested_fix": "Vervang “oprecht als de duiven” door “onschuldig als de duiven” of een andere formulering die de betekenis van “harmless” weergeeft.",
+      "translation_quote": "“wijs als de slangen en oprecht als de duiven”"
+    },
+    {
+      "location": "HTML, Lucas 21:34-citaat",
+      "severity": "major",
+      "source_quote": "“your hearts be overcharged with surfeiting, and drunkenness, and cares of this life”",
+      "suggested_fix": "Vervang “losbandigheid” door een formulering voor overmatig eten of overdaad, zodat “surfeiting” niet wordt verward met losbandig gedrag; behoud daarnaast “dronkenschap” en “de zorgen van het dagelijks leven”.",
+      "translation_quote": "“uw hart niet op enig moment bezwaard wordt door losbandigheid, dronkenschap en de zorgen van het dagelijks leven”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

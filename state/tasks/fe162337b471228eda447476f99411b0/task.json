@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,46 @@
         },
         "total_tokens": 5197
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 656,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 472,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3322,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3319,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3978
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, poem stanza beginning “I ordered the rough ways”",
-      "severity": "major",
-      "source_quote": "I ordered the rough ways you have followed, / Not to disappoint, but to purge.",
-      "suggested_fix": "Jag lät dig gå de svåra stigarna → Jag ordnade de svåra vägar du har gått, / inte för att göra dig besviken, utan för att rena dig.",
-      "translation_quote": "Jag lät dig gå de svåra stigarna, / inte för att göra dig besviken, utan för att rena dig."
+      "location": "HTML, poem, stanza 4, line 1",
+      "severity": "minor",
+      "source_quote": "Life’s pathways would be clear.",
+      "suggested_fix": "Replace “alltid skulle ligga öppna” with “alltid skulle vara tydliga” to preserve the meaning of clear paths.",
+      "translation_quote": "alltid skulle ligga öppna."
     },
     {
-      "location": "HTML, poem stanza beginning “I pray that my heart would be yielded”",
+      "location": "HTML, poem, stanza 8, line 1",
       "severity": "minor",
-      "source_quote": "I pray that my heart would be yielded, / To the touch of the Master’s hand.",
-      "suggested_fix": "Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig. → Jag ber att mitt hjärta ska överlåtas / åt Mästaren och beröras av hans hand.",
-      "translation_quote": "Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig."
+      "source_quote": "Then, a rich voice spoke inside me,",
+      "suggested_fix": "Use “en fyllig röst” or “en djup röst” instead of “en rik stämma” to convey the voice’s quality rather than suggest wealth.",
+      "translation_quote": "Då talade en rik stämma inom mig:"
     }
   ],
+  "finished_at": "2026-10-05T13:23:06+00:00",
   "id": "fe162337b471228eda447476f99411b0",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swe",
@@ -172,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

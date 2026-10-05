@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, Psalm 52:9b quotation in the list\",\"severity\":\"major\",\"source_quote\":\"I will wait on thy name.\",\"suggested_fix\":\"Ersätt «förtrösta på ditt namn» med «hoppas på ditt namn» för att återge att David väntar/hoppas på Herrens namn, snarare än uttryckligen säger att han förtröstar på det.\",\"translation_quote\":\"Jag ska förtrösta på ditt namn.\"},{\"location\":\"Article, Psalm 17:5b quotation in the list\",\"severity\":\"major\",\"source_quote\":\"I will be satisfied when I awake with Thy likeness.\",\"suggested_fix\":\"Ersätt «vara nöjd när jag vaknar och ser din gestalt» med «vara nöjd när jag vaknar i din likhet» för att bevara innebörden «with thy likeness», inte att se Guds gestalt.\",\"translation_quote\":\"Jag ska vara nöjd när jag vaknar och ser din gestalt.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 849,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8d2d5b539934544c1dab1f6ac7ce904a9654c77c1d6f7f58b04fe704496e7d5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6495,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7391
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

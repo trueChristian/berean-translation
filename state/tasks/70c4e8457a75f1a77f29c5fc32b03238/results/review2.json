@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "02667ebb-f406-4971-a43f-98b470a41615",
+    "response_id": "chatcmpl-EVcqCWTqpaQyDpmH337OKPfjsQRrm",
+    "usage": {
+      "completion_tokens": 929,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4285,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5217
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, quotation under “A Quiet Spirit” (Isaiah 30:15)",
+        "severity": "major",
+        "source_quote": "“In returning and rest shall ye be saved; in quietness and in confidence shall be your strength”",
+        "suggested_fix": "Change the two conditional forms to preserve the source’s assured future statements: “...No retorno e no descanso sereis salvos; na tranquilidade e na confiança estará a vossa força: <strong>mas vós não quisestes</strong> –Isaías 30:15.” Keep the existing HTML tags and reference placement.",
+        "translation_quote": "“No retorno e no descanso estaria a vossa salvação; na tranquilidade e na confiança estaria a vossa força: <strong>mas vós não quisestes</strong> –Isaías 30:15.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “For myself”",
+        "severity": "minor",
+        "source_quote": "“I could not focus on important things like work and reaching out to others.”",
+        "suggested_fix": "Replace “o cuidado com os outros” with wording that conveys connecting with or supporting others, for example “o trabalho e o contato com outras pessoas.”",
+        "translation_quote": "“Não conseguia me concentrar em coisas importantes, como o trabalho e o cuidado com os outros.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

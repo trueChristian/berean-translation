@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 8587
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 341,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 315,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5557,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5554,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5898
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Editor’s Note, paragraph 1",
-      "severity": "major",
-      "source_quote": "“we felt it would be fitting to provide a small tribute”",
-      "suggested_fix": "Replace « nous avons estimé qu’il convenait de lui rendre un petit hommage » with « nous avons estimé qu’il convenait de rendre un petit hommage à Mose » to preserve the explicit reference to Mose.",
-      "translation_quote": "« nous avons estimé qu’il convenait de lui rendre un petit hommage »"
-    },
-    {
-      "location": "Article paragraph beginning “Brother Mose was a true leader”",
-      "severity": "major",
-      "source_quote": "“he would frequently seek out the council of fellow ministers”",
-      "suggested_fix": "Replace « il consultait souvent ses collègues ministres » with « il recherchait souvent les conseils de ses collègues ministres »; the source says he sought their counsel, not merely that he consulted them.",
-      "translation_quote": "« il consultait souvent ses collègues ministres »"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "148f0c85bf20228c3c56dfbed3f8ef3d",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

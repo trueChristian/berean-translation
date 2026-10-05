@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph, Ephesians 4:14–15 quotation",
+      "severity": "minor",
+      "source_quote": "But speaking the truth in love, may grow up into him in all things",
+      "suggested_fix": "Recast the clause for clear Bokmål while preserving the emphasis and markup: «; <strong>men ved å tale sannheten i kjærlighet</strong> kan vi vokse opp til ham i alle ting, han som er hodet, Kristus»",
+      "translation_quote": "; <strong>men tale sannheten i kjærlighet</strong> skal vi i alle ting vokse opp til ham som er hodet, Kristus"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

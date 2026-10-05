@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 5859
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 426,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3575,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3572,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4001
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “I used to pray that always”",
+      "location": "HTML, poem, paragraph beginning “I used to pray for someone”",
       "severity": "major",
-      "source_quote": "That no unwanted circumstance / Would make existence drear.",
-      "suggested_fix": "کوئی ناپسندیدہ صورتِ حال / زندگی کو اداس نہ کر دے۔",
-      "translation_quote": "کوئی ناپسندیدہ حالات / زندگی کو اداس نہ کر دے۔"
+      "source_quote": "To love, laugh with, and cherish, / And dissipate all strife.",
+      "suggested_fix": "Replace the final two lines of this stanza with: جس سے محبت کروں، جس کے ساتھ ہنسوں اور جسے عزیز رکھوں،<br>\n    اور ہر رنج و کشمکش مٹ جائے۔",
+      "translation_quote": "جس سے محبت کروں، ہنسوں، اسے عزیز رکھوں،<br>\n    اور ہر جھگڑے کو مٹا دوں۔"
     },
     {
-      "location": "source.html, paragraph beginning “I found also, I no longer walked alone”",
+      "location": "HTML, poem, paragraph beginning “I pray instead for humility”",
       "severity": "major",
-      "source_quote": "The Good Shepherd was there by my side!",
-      "suggested_fix": "وہ اچھا چرواہا میرے پہلو میں موجود تھا!",
-      "translation_quote": "نیک چرواہا میرے پہلو میں موجود تھا!"
+      "source_quote": "For an eye to serve, and share the blessings, / That the Lord does send my way.",
+      "suggested_fix": "Replace the second and third lines with: ایسی بصیرت کے لیے کہ خدمت کروں اور اُن برکتوں میں شریک ہوں،<br>\n    جو خداوند میری راہ میں بھیجتا ہے۔",
+      "translation_quote": "ایسی نگاہ کے لیے جو خدمت کرے اور اُن برکتوں کو بانٹے،<br>\n    جو خداوند میری راہ میں بھیجتا ہے۔"
     },
     {
-      "location": "source.html, final stanza",
+      "location": "HTML, poem, paragraph beginning “For I’ve found that true happiness”",
+      "severity": "major",
+      "source_quote": "Not moved through fire or strife.",
+      "suggested_fix": "Replace the final line with: نہ آگ یا کشمکش سے ڈگمگاتے ہوئے۔",
+      "translation_quote": "نہ کہ آگ یا مصیبت سے ڈگمگانے سے۔"
+    },
+    {
+      "location": "HTML, poem, final paragraph",
       "severity": "major",
       "source_quote": "And the real source of True Life superb.",
-      "suggested_fix": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔",
-      "translation_quote": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔"
+      "suggested_fix": "Replace the final line with: اور حقیقی، شاندار زندگی کا اصل سرچشمہ ہے۔",
+      "translation_quote": "اور اعلیٰ حقیقی زندگی کا اصل سرچشمہ ہے۔"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "0165c7a3fcf131aeec71fcb7d78dd8e1",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "urd",
@@ -179,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

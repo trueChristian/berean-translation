@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza 4, line 1",
+      "severity": "minor",
+      "source_quote": "Life’s pathways would be clear.",
+      "suggested_fix": "Replace “alltid skulle ligga öppna” with “alltid skulle vara tydliga” to preserve the meaning of clear paths.",
+      "translation_quote": "alltid skulle ligga öppna."
+    },
+    {
+      "location": "HTML, poem, stanza 8, line 1",
+      "severity": "minor",
+      "source_quote": "Then, a rich voice spoke inside me,",
+      "suggested_fix": "Use “en fyllig röst” or “en djup röst” instead of “en rik stämma” to convey the voice’s quality rather than suggest wealth.",
+      "translation_quote": "Då talade en rik stämma inom mig:"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

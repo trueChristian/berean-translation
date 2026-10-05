@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cab57864-b36b-4578-9098-16510b80bd59",
+    "response_id": "chatcmpl-EVcpCyr4Ig8hP3ycKcZMgXHt69Gsz",
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 864,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10507
+    }
+  },
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Updated Side Effects, paragraph beginning “I think one last thing…”",
+        "severity": "minor",
+        "source_quote": "One possible example of this is a doctor in Florida who got a COVID vaccine and then developed really low platelet counts and eventually died.",
+        "suggested_fix": "Rephrase the clause to avoid mixing the relative construction with a separate possessive clause; for example: “এর একটি সম্ভাব্য উদাহরণ হলেন ফ্লোরিডার একজন চিকিৎসক। তিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।”",
+        "translation_quote": "এর একটি সম্ভাব্য উদাহরণ হলো ফ্লোরিডার একজন চিকিৎসক, যিনি কোভিডের টিকা নেওয়ার পর তাঁর প্লেটলেটের সংখ্যা অত্যন্ত কমে যায় এবং শেষ পর্যন্ত তিনি মারা যান।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

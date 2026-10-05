@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Upon the choices of mankind hinge the earthly spread of either the kingdom of darkness or the Kingdom of Light.",
+      "suggested_fix": "Remplacer « Le déploiement terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité. » par « La propagation terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité. »",
+      "translation_quote": "Le déploiement terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité."
+    },
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+      "suggested_fix": "Remplacer « Sans possibilité de révocation et indépendamment de tout choix, la condamnation ou l’assurance est imposée à la conscience de celui qui entend. » par « Irrévocablement et indépendamment de tout choix, la damnation ou l’assurance est déposée sur la conscience de celui qui entend. »",
+      "translation_quote": "Sans possibilité de révocation et indépendamment de tout choix, la condamnation ou l’assurance est imposée à la conscience de celui qui entend."
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "They preached with expectancy, believing that their voices would move people at the core and bring about radical lifestyle changes.",
+      "suggested_fix": "Remplacer « Ils prêchaient avec confiance » par « Ils prêchaient dans l’attente », afin de conserver l’idée d’expectative plutôt que celle d’assurance.",
+      "translation_quote": "Ils prêchaient avec confiance"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "from Knowing therefore the terror of the Lord, we persuade men… and …We ought to obey God rather than men; to “God understands and feels your pain.”",
+      "suggested_fix": "Supprimer les balises <strong></strong> vides autour des citations ; elles ne correspondent à aucun passage en gras dans la source.",
+      "translation_quote": "<strong></strong><em>Sachant donc quelle crainte le Seigneur inspire, nous persuadons les hommes… –2 Corinthiens 5:11</em> et <em>…Il faut obéir à Dieu plutôt qu’aux hommes –Actes 5:29;</em> à <strong></strong>« Dieu comprend votre douleur et la ressent. »"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "minor",
+      "source_quote": "It heightens satisfaction in hypocritical living.",
+      "suggested_fix": "Remplacer « Cela renforce la satisfaction de vivre dans l’hypocrisie » par « Cela accroît le contentement que procure une vie hypocrite », pour éviter de faire entendre que la prédication accroît la satisfaction.",
+      "translation_quote": "Cela renforce la satisfaction de vivre dans l’hypocrisie."
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "…and report that God is in you of a truth",
+      "suggested_fix": "Remplacer « déclarera que Dieu est réellement au milieu de vous » par « déclarera que Dieu est véritablement en vous » ; conserver l’adresse plurielle du passage.",
+      "translation_quote": "déclarera que Dieu est réellement au milieu de vous"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 9",
+      "severity": "minor",
+      "source_quote": "It sears and hardens.",
+      "suggested_fix": "یہ ضمیر کو جھلسا کر سخت کر دیتا ہے۔",
+      "translation_quote": "یہ ضمیر کو داغ دار اور سخت کردیتا ہے۔"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "THE NEW TESTAMENT CHURCH",
+      "suggested_fix": "نئے عہدنامے کی کلیسیا",
+      "translation_quote": "نیا عہدنامہ کی کلیسیا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

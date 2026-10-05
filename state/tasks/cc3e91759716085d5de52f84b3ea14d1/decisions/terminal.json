@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "المتن، الفقرة التي تبدأ «وحين أضاءت السماوات المرصعة بالنجوم»",
+      "severity": "major",
+      "source_quote": "As the star-spangled heavens erupted to life, the shepherds gazed in mesmerized awe at the scene before them",
+      "suggested_fix": "استبدل «وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر» بـ«وحين دبّت الحياة في السماوات المرصعة بالنجوم، حدّق الرعاة في المشهد أمامهم مأخوذين بالدهشة».",
+      "translation_quote": "وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

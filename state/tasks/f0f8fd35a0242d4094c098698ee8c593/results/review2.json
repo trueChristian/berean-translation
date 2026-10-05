@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a7514f2f-46e1-4ebc-a985-8c28069e4103",
+    "response_id": "chatcmpl-EVcpMksQXfcTo3jHkKT8LdenL8Hcl",
+    "usage": {
+      "completion_tokens": 147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2118
+    }
+  },
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Source/copyright line",
+        "severity": "minor",
+        "source_quote": "hymnary.org",
+        "suggested_fix": "Translate the translatable source label while retaining the proper website identifier, for example: «Πηγή: Ύμνοι της Πίστης #311» followed by «Πνευματικά δικαιώματα: Δημόσιο κτήμα» and «hymnary.org».",
+        "translation_quote": "Πηγή: Ύμνοι της Πίστης #311\n  Πνευματικά δικαιώματα: Δημόσιο κτήμα\n  hymnary.org"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

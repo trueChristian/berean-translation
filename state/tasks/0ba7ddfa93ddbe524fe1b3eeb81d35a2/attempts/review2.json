@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Ester, a rainha”\",\"severity\":\"minor\",\"source_quote\":\"“If I perish, I perish.”\",\"suggested_fix\":\"Replace “Se perecer, pereci” with “Se perecer, perecerei” to preserve the conditional meaning and repeated future sense.\",\"translation_quote\":\"“Se perecer, pereci”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 361,
+    "content_evidence_truncated": false,
+    "content_sha256": "1aaca6a5cfee505ad5505efb490c76226b8885968a1740cbe24eb28c13af2582",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 532,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6693
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

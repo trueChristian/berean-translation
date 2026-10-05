@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, opening Scripture quotation and concluding Luke 21:25–26 quotation\",\"severity\":\"major\",\"source_quote\":\"“upon the earth distress of nations, with perplexity; the sea and the waves roaring; Men’s hearts failing them for fear, and for looking after those things which are coming on the earth”\",\"suggested_fix\":\"In both quotations, revise the wording to keep the clauses distinct and preserve their meaning—for example: “地上的列国必有困苦，心中困惑；海浪翻腾；人因惧怕，又因期待那将临到世界的事，心都吓得衰竭……” Keep the existing HTML structure and Scripture references unchanged.\",\"translation_quote\":\"“地上的邦国也有困苦，因海中波浪的响声，就慌慌不定；人因惧怕，并因盼望那将要临到世界的事，就吓得魂不附体”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 886,
+    "content_evidence_truncated": false,
+    "content_sha256": "cdc7389d0582cf1ff860bc6e64b018c24e6c3bcefbb7efa568b7b65089b4eccc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1063,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 828,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6812,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7878
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

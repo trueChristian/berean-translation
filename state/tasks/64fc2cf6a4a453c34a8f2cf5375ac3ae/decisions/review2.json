@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "can they feel God’s love, peace, and joy flowing from our life",
+      "suggested_fix": "Change “sien vloei” to “voel vloei” to retain the source’s sense of experiencing God’s love, peace, and joy.",
+      "translation_quote": "kan hulle God se liefde, vrede en vreugde op so ’n manier uit ons lewens sien vloei"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

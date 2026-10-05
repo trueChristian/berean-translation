@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, first sentence",
+      "severity": "minor",
+      "source_quote": "Normally, we haven’t used our magazine to bring focus to any specific individual.",
+      "suggested_fix": "Kwa kawaida, hatujayatumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi.",
+      "translation_quote": "Kwa kawaida, hatujaitumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

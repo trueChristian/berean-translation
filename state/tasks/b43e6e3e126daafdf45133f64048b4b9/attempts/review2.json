@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note; Schluss des Absatzes\",\"severity\":\"major\",\"source_quote\":\"“keep this torch (the magazine) burning for Truth.”\",\"suggested_fix\":\"Ersetzen Sie „diese Fackel – das Magazin – für die Wahrheit weiter brennen zu lassen“ durch „diese Fackel (das Magazin) für die Wahrheit weiter brennen zu lassen“, damit die im Original ausdrücklich angegebene Erläuterung in Klammern erhalten bleibt.\",\"translation_quote\":\"„diese Fackel – das Magazin – für die Wahrheit weiter brennen zu lassen“\"},{\"location\":\"Absatz zu den Reisen nach Kanada und Deutschland\",\"severity\":\"major\",\"source_quote\":\"“Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.”\",\"suggested_fix\":\"Formulieren Sie: „Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit; während sie verschiedene Gemeinden besuchten, sangen sie und Mose predigte.“ So bleibt erhalten, dass Mose sowohl sang als auch predigte.\",\"translation_quote\":\"„Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.“\"},{\"location\":\"Absatz über die Zusammenarbeit mit Denny Kenaston\",\"severity\":\"major\",\"source_quote\":\"“With much unction from the Holy One, they would preach the Gospel.”\",\"suggested_fix\":\"Ersetzen Sie „Mit großer Salbung vom Heiligen“ durch „Mit großer Salbung des Heiligen Geistes“ oder eine gleichwertige Formulierung, die ausdrücklich den Heiligen Geist als Ursprung der Salbung wiedergibt.\",\"translation_quote\":\"„Mit großer Salbung vom Heiligen predigten sie das Evangelium.“\"},{\"location\":\"Schlussabsatz\",\"severity\":\"critical\",\"source_quote\":\"“May we be found of Him in peace, without spot and blameless.”\",\"suggested_fix\":\"Ersetzen Sie den Schlusssatz durch: „Mögen wir von ihm in Frieden, ohne Flecken und untadelig gefunden werden.“ Das Original sagt nicht, dass wir von ihm „gefunden werden mögen“ in dem Sinne, dass er uns „von ihm“ (von Mose) findet; der Bezug ist Christus. Eine klare Formulierung wäre: „Mögen wir von Christus in Frieden, ohne Flecken und untadelig gefunden werden.“\",\"translation_quote\":\"„Mögen wir von ihm in Frieden gefunden werden, ohne Makel und untadelig.“\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 2422,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa81d55d9b42c9d04225e7bfc0df4704a43674d5ec6c8a51ab85fbda636a6155",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5882
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

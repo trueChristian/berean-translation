@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, gedicht, strofe die begint met ‘So now instead of praying’",
+      "severity": "major",
+      "source_quote": "So now instead of praying / For things of earthly ease, / I thank the Lord for sending things / That brought me to my knees.",
+      "suggested_fix": "Vervang deze strofe door: <p>Dus in plaats van te bidden<br>\n    Om aardse gemakken,<br>\n    Dank ik de Heer voor de dingen die Hij zond<br>\n    Die mij op mijn knieën brachten.</p>",
+      "translation_quote": "Dus bid ik nu in plaats daarvan / Om aardse gemakken, / Maar dank ik de Heer voor de dingen die Hij zond / Die mij op mijn knieën brachten."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

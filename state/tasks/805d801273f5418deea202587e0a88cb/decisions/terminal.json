@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “For myself…”",
+      "severity": "major",
+      "source_quote": "I could hardly go on.",
+      "suggested_fix": "Replace “hampir tidak sanggup melanjutkan hidup” with “hampir tidak sanggup melanjutkan” or “hampir tidak sanggup terus maju.” The source says she could barely go on; it does not specify that she could barely continue living.",
+      "translation_quote": "sampai-sampai hampir tidak sanggup melanjutkan hidup"
+    },
+    {
+      "location": "Article, definition of “sober”",
+      "severity": "minor",
+      "source_quote": "“to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Replace “bersikap sederhana” with “bersikap terkendali” or “menahan diri” to convey “temperate” in this context.",
+      "translation_quote": "“bersikap tenang dan terkendali dalam roh; bersikap sederhana dan tidak dikuasai perasaan.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

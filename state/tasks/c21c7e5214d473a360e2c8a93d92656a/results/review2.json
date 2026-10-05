@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cd3f6034-e7b0-4fbe-821c-a3ace79a35a0",
+    "response_id": "chatcmpl-EVcpHVPYPNLc8Ravv5p6K93Uj3JHt",
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1798,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2471
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, copyright line",
+        "severity": "minor",
+        "source_quote": "Copyright: Public Domain",
+        "suggested_fix": "Bytt «Felleseie» med «Falt i det fri» for å gjengi opphavsrettsstatusen tydeligere.",
+        "translation_quote": "Opphavsrett: Felleseie"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

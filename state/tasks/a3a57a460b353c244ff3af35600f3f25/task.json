@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 11569
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph beginning “John S. and Maria…”",
-      "severity": "major",
-      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
-      "suggested_fix": "Replace «جدّيَّ الأكبرين» بعبارة تدل بوضوح على أنهما جدّا جدّيّ الكاتب، مثل «كان جون س. وماريا (هورنينغ) كيرتز جدَّيْ جدّيّ الأكبرين».",
-      "translation_quote": "كان جون س. وماريا (هورنينغ) كيرتز جدّيَّ الأكبرين."
     },
     {
-      "location": "HTML opening paragraph",
-      "severity": "minor",
-      "source_quote": "Hopefully, you have found Christ as the anchor for your soul",
-      "suggested_fix": "استبدل «مرساة لأنفسكم» بـ«مرساة لنفوسكم» للحفاظ على الإشارة إلى النفس الواردة في الأصل.",
-      "translation_quote": "نرجو أن تكونوا قد وجدتم في المسيح مرساة لأنفسكم"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7210,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7207,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7437
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Body, “The Vaccines” paragraph",
+      "severity": "major",
+      "source_quote": "Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?",
+      "suggested_fix": "Replace «هل يمكن لهذه التقنية الجديدة، التي صُنعت على هيئة لقاح اصطناعي من الحمض النووي الريبي المرسال، أن تغيّر حمضي النووي بطريقة ما إذا سمحت لهم بوخز جلدي؟» with «هل يمكن لهذه التقنية الجديدة، التي صُنعت على هيئة لقاح اصطناعي من الحمض النووي الريبي المرسال، أن تغيّر حمضي النووي بطريقة ما إذا سمحت لهم بوخز جلدي؟» No correction needed to this sentence; the error is in the following question: replace «هل هذا اللقاح هو سمة الوحش؟» with «هل هذا اللقاح هو علامة الوحش؟»",
+      "translation_quote": "هل هذا اللقاح هو سمة الوحش؟"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "a3a57a460b353c244ff3af35600f3f25",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ara",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

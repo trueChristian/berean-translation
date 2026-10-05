@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,75 @@
         },
         "total_tokens": 11355
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 789,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7264,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7261,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8053
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, avsnittet om vaksinen",
-      "severity": "major",
-      "source_quote": "“Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?”",
-      "suggested_fix": "Erstatt «som er produsert som en syntetisk mRNA-vaksine» med «som er produsert som en syntetisk mRNA-vaksine»? Kilden sier «manufactured as a synthetic mRNA vaccine»; den norske formuleringen gjengir dette innholdet, så ingen endring er nødvendig.",
-      "translation_quote": "«Vil denne nye teknologien, som er produsert som en syntetisk mRNA-vaksine, på en eller annen måte endre DNA-et mitt hvis jeg lar dem stikke hull i huden min?»"
-    },
-    {
-      "location": "HTML, avsnittet om John S. Kurtz og Maria Horning",
-      "severity": "major",
-      "source_quote": "“John was ordained to the ministry at the age of 27”",
-      "suggested_fix": "Endre «ordinert til tjenesten» til «ordinert til tjeneste» eller «ordinert til prestetjenesten», slik at det ikke høres ut som han ble ordinert til en bestemt tjeneste.",
-      "translation_quote": "«John ble ordinert til tjenesten som 27-åring»"
-    },
-    {
-      "location": "HTML, avsluttende sitat fra Jakob 4:8",
+      "location": "Article body, paragraph 2",
       "severity": "minor",
-      "source_quote": "“Draw nigh to God, and he will draw nigh to you.”",
-      "suggested_fix": "Vurder «Hold dere nær til Gud, så skal han holde seg nær til dere» → «Kom nær til Gud, så skal han komme nær til dere» for å bevare den gjensidige bevegelsen i sitatet.",
-      "translation_quote": "«Hold dere nær til Gud, så skal han holde seg nær til dere.»"
+      "source_quote": "‘Six feet’ has become a well-recognized unit of measurement.",
+      "suggested_fix": "«Seks fot» er blitt en velkjent måleenhet.",
+      "translation_quote": "«To meter» er blitt en velkjent måleenhet."
+    },
+    {
+      "location": "Article body, paragraph 7",
+      "severity": "major",
+      "source_quote": "“if Trump doesn’t win the election then he sees no hope to continue living”",
+      "suggested_fix": "«Hvis Trump ikke vinner valget, ser han ikke noe håp om å fortsette å leve»",
+      "translation_quote": "«hvis Trump ikke vinner valget, ser han ikke noe håp om å fortsette å leve»"
+    },
+    {
+      "location": "Article body, paragraph 11",
+      "severity": "minor",
+      "source_quote": "“The uncertainty of it all (the virus, the election, and the vaccine) has spawned many, many conspiracy theories. Usually, if there is a negative connotation surrounding something, then we tend to close ourselves to the possibility that we may be involved.”",
+      "suggested_fix": "Usikkerheten rundt alt dette (viruset, valget og vaksinen) har ført til svært mange konspirasjonsteorier. Vanligvis har vi en tendens til å lukke oss for muligheten for at vi kan være involvert hvis noe forbindes med noe negativt.",
+      "translation_quote": "Usikkerheten rundt alt dette (viruset, valget og vaksinen) har ført til svært mange konspirasjonsteorier. Vanligvis har vi en tendens til å lukke oss for muligheten for at vi kan være involvert hvis noe forbindes med noe negativt."
+    },
+    {
+      "location": "Article body, paragraph 12",
+      "severity": "minor",
+      "source_quote": "“Almost every new ‘story’ will claim that ‘certain’ people are secretly involved in an all-encompassing agenda to use this certain negative issue of upheaval to bring about a specific negative change that will harm the masses.”",
+      "suggested_fix": "Nesten hver nye «historie» hevder at «visse» personer i hemmelighet er involvert i en altomfattende plan om å bruke dette bestemte negative omveltende forholdet til å få til en bestemt negativ endring som vil skade massene.",
+      "translation_quote": "Nesten hver nye «historie» hevder at «visse» personer i hemmelighet er involvert i en omfattende plan om å bruke nettopp dette negative omveltende forholdet til å få til en bestemt negativ endring som vil skade massene."
+    },
+    {
+      "location": "Article body, paragraph 16",
+      "severity": "minor",
+      "source_quote": "“Through it all, many have suffered in various ways.”",
+      "suggested_fix": "Som en liten tilleggsopplysning har vi tatt med en artikkel som gjør oppmerksom på livet til Mose Stoltzfus, en eldre bror fra en av søsterkirkene våre, som døde etter å ha fått covid-19.",
+      "translation_quote": "Som en liten tilleggsopplysning har vi tatt med en artikkel som hedrer Mose Stoltzfus, en eldre bror fra en av søsterkirkene våre, som døde etter å ha fått covid-19."
+    },
+    {
+      "location": "Article body, paragraph 21",
+      "severity": "major",
+      "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
+      "suggested_fix": "John S. og Maria (Horning) Kurtz var mine tippoldeforeldre.",
+      "translation_quote": "John S. og Maria (Horning) Kurtz var mine tipp-tipp-oldeforeldre."
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "80511f67726ecf75ec1ad45567d7809b",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -179,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

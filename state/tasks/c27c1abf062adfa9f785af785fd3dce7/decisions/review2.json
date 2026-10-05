@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “De verachte herders…”",
+      "severity": "major",
+      "source_quote": "“This is the difference between nominal worship and the heartfelt praise of His redeemed who will but follow Him to the manger.”",
+      "suggested_fix": "Replace the final clause with “die Hem daadwerkelijk tot aan de kribbe zullen volgen” or another Dutch rendering that preserves “who will but follow Him” without suggesting that they merely need to follow Him.",
+      "translation_quote": "“Dit is het verschil tussen louter uiterlijke aanbidding en de oprechte lofprijzing van zijn verlosten, die Hem maar hoeven te volgen tot aan de kribbe.”"
+    },
+    {
+      "location": "Hymn, stanza beginning “Why lies He…”",
+      "severity": "major",
+      "source_quote": "“Good Christians, fear, for sinners here / The silent Word is pleading.”",
+      "suggested_fix": "Translate “fear” as an exhortation to reverent fear, and preserve that the Word is pleading for sinners; for example: “Goede christenen, vreest, want hier pleit het stille Woord voor zondaars.”",
+      "translation_quote": "“Goede christenen, vreest, want voor zondaars hier / Pleit het stille Woord.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “De verachte herders…”",
+      "severity": "minor",
+      "source_quote": "“The despised shepherds lived most of their lives outside of the Inn Crowd”",
+      "suggested_fix": "Use “herbergmenigte” rather than “herbergcrowd” only if needed for consistency; the existing translation is otherwise understandable. (No correction needed for this wording.)",
+      "translation_quote": "“De verachte herders leefden het grootste deel van hun leven buiten de herbergmenigte”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

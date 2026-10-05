@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Let’s consider some examples in the Holy Bible.”",
+      "severity": "major",
+      "source_quote": "Consider the disciples, each one of them suffered for their",
+      "suggested_fix": "Replace “उनमें से हर एक ने अपने लिए दुख उठाया” with “उनमें से हर एक ने दुख उठाया।” The English source sentence is incomplete, so do not supply an object that it does not provide.",
+      "translation_quote": "शिष्यों के बारे में सोचिए; उनमें से हर एक ने अपने लिए दुख उठाया।"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "SPEAKING THE TRUTH in love",
+      "suggested_fix": "सत्य को प्रेम में बोलना",
+      "translation_quote": "सत्य बोलना प्रेम में"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

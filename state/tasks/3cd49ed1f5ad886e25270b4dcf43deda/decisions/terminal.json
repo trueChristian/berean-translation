@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, letzter Vers des letzten Gedichtabsatzes",
+      "severity": "major",
+      "source_quote": "And the real source of True Life superb.",
+      "suggested_fix": "Ersetze die letzte Zeile durch eine deutsche Formulierung, die besagt, dass Er die wahre Quelle des herrlichen/wahrhaftigen Lebens ist, etwa: „und die wahre Quelle des herrlichen Lebens.“",
+      "translation_quote": "und die wahre Quelle des großartigen Lebens."
+    },
+    {
+      "location": "html, Absatz beginnend „So now instead of praying“",
+      "severity": "major",
+      "source_quote": "So now instead of praying / For things of earthly ease, / I thank the Lord for sending things / That brought me to my knees.",
+      "suggested_fix": "Bewahre den Kontrast zwischen Beten um irdische Bequemlichkeit und Danken für die Dinge, die die Sprecherin in die Knie brachten. Zum Beispiel: „So bete ich jetzt nicht mehr / um irdische Bequemlichkeit, / sondern danke dem Herrn für die Dinge, die Er sendet / und die mich in die Knie zwangen.“",
+      "translation_quote": "So bete ich jetzt, statt / um irdische Bequemlichkeit zu bitten, / danke ich dem Herrn für die Dinge, die Er sendet / und die mich in die Knie zwangen."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

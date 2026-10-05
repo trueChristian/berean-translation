@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, opening Scripture quotation and concluding Luke 21:25–26 quotation",
+      "severity": "major",
+      "source_quote": "“upon the earth distress of nations, with perplexity; the sea and the waves roaring; Men’s hearts failing them for fear, and for looking after those things which are coming on the earth”",
+      "suggested_fix": "In both quotations, revise the wording to keep the clauses distinct and preserve their meaning—for example: “地上的列国必有困苦，心中困惑；海浪翻腾；人因惧怕，又因期待那将临到世界的事，心都吓得衰竭……” Keep the existing HTML structure and Scripture references unchanged.",
+      "translation_quote": "“地上的邦国也有困苦，因海中波浪的响声，就慌慌不定；人因惧怕，并因盼望那将要临到世界的事，就吓得魂不附体”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

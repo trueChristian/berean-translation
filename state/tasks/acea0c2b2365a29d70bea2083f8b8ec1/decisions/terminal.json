@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“Six feet” has become a well-recognized unit of measurement.",
+      "suggested_fix": "Для точности можно указать эквивалент в метрических единицах: «Шесть футов (около 1,8 метра) стали широко известной единицей измерения».",
+      "translation_quote": "«Шесть футов» стали широко известной единицей измерения."
+    },
+    {
+      "location": "html, paragraph on the vaccine",
+      "severity": "major",
+      "source_quote": "Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?",
+      "suggested_fix": "Заменить «воплощенная в синтетической мРНК-вакцине» на «используемая при производстве синтетической мРНК-вакцины»: «Может ли эта новая технология, используемая при производстве синтетической мРНК-вакцины, как-то изменить мою ДНК, если я позволю сделать мне укол?»",
+      "translation_quote": "Может ли эта новая технология, воплощенная в синтетической мРНК-вакцине, как-то изменить мою ДНК, если я позволю проколоть кожу?"
+    },
+    {
+      "location": "html, paragraph on conspiracy theories, definition of “conspiracy”",
+      "severity": "major",
+      "source_quote": "Conspiracy = a secret plan by a group to do something unlawful or harmful.",
+      "suggested_fix": "Исправить определение, сохранив оба варианта: «Заговор — это тайный план группы людей совершить что-то незаконное или причинить вред».",
+      "translation_quote": "Заговор — это тайный план группы людей совершить что-то незаконное или вредоносное."
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "major",
+      "source_quote": "Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+      "suggested_fix": "Передать повелительное значение “purify your hearts” и сохранить ссылку: «Приблизьтесь к Богу, и Он приблизится к вам. Очистите руки, грешники, и очистите сердца ваши, двоедушные — Иакова 4:8».",
+      "translation_quote": "Приблизьтесь к Богу, и приблизится к вам; очистите руки, грешники, исправьте сердца ваши, двоедушные — Иакова 4:8."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Conclusion paragraph, contrast between “I’ll try” and “I will”\",\"severity\":\"major\",\"source_quote\":\"the faithless “I’ll try” or the courageous “I will”?\",\"suggested_fix\":\"Replace ”بے ایمانی والا ”میں کوشش کروں گی“” with ”ایمان سے خالی ”میں کوشش کروں گی“” to preserve the contrast with the courageous “I will.”\",\"translation_quote\":\"بے ایمانی والا ”میں کوشش کروں گی“ یا حوصلہ مند ”میں ضرور کروں گی“؟\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 599,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c4b1eae0a1b69485e3980eddd942be311010c8207af2969a34758431bdf8421",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7777
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

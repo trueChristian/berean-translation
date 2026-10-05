@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph on preaching; quote from Romans 1:14–15",
+      "severity": "major",
+      "source_quote": "I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.",
+      "suggested_fix": "Replace the quoted wording with a faithful Indonesian translation that preserves the distinction: “Aku berutang kepada orang Yunani maupun orang barbar, kepada orang bijak maupun orang bodoh.” Keep the reference as Roma 1:14-15.",
+      "translation_quote": "Aku berutang kepada orang Yunani maupun orang bukan Yunani, kepada orang bijak maupun orang bodoh."
+    },
+    {
+      "location": "Article paragraph on preaching; quote from Romans 1:16",
+      "severity": "major",
+      "source_quote": "…the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek",
+      "suggested_fix": "Revise the quoted clause to preserve “to every one that believeth” as “bagi setiap orang yang percaya,” and render “to the Jew first, and also to the Greek” as “pertama-tama bagi orang Yahudi, dan juga bagi orang Yunani.” Keep the reference as Roma 1:16.",
+      "translation_quote": "…kuasa Allah yang menyelamatkan setiap orang yang percaya, pertama-tama orang Yahudi, tetapi juga orang Yunani"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

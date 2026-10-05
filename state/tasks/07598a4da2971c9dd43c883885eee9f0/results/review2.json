@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "00b12a1c-24ae-47e8-a02f-8473df5390d5",
+    "response_id": "chatcmpl-EVcpDYOsYhOq37gmpwWZiKxkQasIi",
+    "usage": {
+      "completion_tokens": 231,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7543,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7777
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning “One of the intriguing aspects…”",
+        "severity": "minor",
+        "source_quote": "“One of the intriguing aspects was that most of us lost our sense of taste and smell.”",
+        "suggested_fix": "Replace “boeiende aspekte” with “interessante aspekte” to better match the source’s neutral observation: “Een van die interessante aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”",
+        "translation_quote": "“Een van die boeiende aspekte was dat die meeste van ons ons smaak- en reuksintuig verloor het.”"
+      },
+      {
+        "location": "html, paragraph beginning “As you will notice…”",
+        "severity": "minor",
+        "source_quote": "“we needed funds if we were going to keep going forward.”",
+        "suggested_fix": "Use the idiomatic “voortgaan” rather than “voortgaan” with “wou voortgaan” is already acceptable; no correction needed.",
+        "translation_quote": "“ons fondse nodig gehad het as ons wou voortgaan.”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

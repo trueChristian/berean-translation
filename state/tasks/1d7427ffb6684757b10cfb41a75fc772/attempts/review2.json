@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 2\",\"severity\":\"major\",\"source_quote\":\"Even though it eventually cost Him His life\",\"suggested_fix\":\"इसे बदलकर “यद्यपि अंततः इसकी कीमत उन्हें अपना जीवन देकर चुकानी पड़ी” के बजाय “यद्यपि अंततः इसकी कीमत उन्हें अपना जीवन देकर चुकानी पड़ी” नहीं, बल्कि यीशु के लिए स्पष्ट रूप से लिखें: “यद्यपि अंततः इसकी कीमत यीशु को अपना जीवन देकर चुकानी पड़ी” करें।\",\"translation_quote\":\"यद्यपि अंततः इसकी कीमत उन्हें अपना जीवन देकर चुकानी पड़ी\"} ,{\"location\":\"HTML, paragraph 6\",\"severity\":\"major\",\"source_quote\":\"Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.\",\"suggested_fix\":\"वाक्य को इस अर्थ में सुधारें: “बिना वापसी के, और चुनाव की परवाह किए बिना, सुननेवाले के विवेक पर या तो दण्ड या आश्वासन रख दिया जाता है।”\",\"translation_quote\":\"न तो इसे वापस लिया जा सकता है, न ही चुनाव से बचा जा सकता है: सुननेवाले के विवेक पर या तो दण्ड की निश्चितता या आश्वासन रख दिया जाता है।\"},{\"location\":\"HTML, paragraph 9\",\"severity\":\"major\",\"source_quote\":\"It sears and hardens.\",\"suggested_fix\":\"स्रोत में कर्ता पिछले वाक्य का प्रभाव/एकरस, जोशहीन प्रचार है; इसे स्पष्ट करें: “यह विवेक को झुलसा देता और कठोर कर देता है।”\",\"translation_quote\":\"इससे विवेक दागदार और कठोर हो जाता है।\"},{\"location\":\"HTML, paragraph 11\",\"severity\":\"major\",\"source_quote\":\"Conviction never lacks emotion.\",\"suggested_fix\":\"“पाप का बोध” के स्थान पर “दोष-बोध/मन को दोषी ठहराया जाना” लिखें, उदाहरणार्थ: “दोष-बोध में कभी भावना का अभाव नहीं होता।”\",\"translation_quote\":\"पाप का बोध कभी भावनारहित नहीं होता।\"},{\"location\":\"HTML, paragraph 13\",\"severity\":\"major\",\"source_quote\":\"the fire in his bones can no longer be silent\",\"suggested_fix\":\"“उसकी हड्डियों में जलती आग चुप नहीं रह सकती” के बजाय “उसकी हड्डियों में जलती आग को वह अब और दबाकर नहीं रख सकता” जैसा स्वाभाविक अर्थ दें।\",\"translation_quote\":\"जब तक उसकी हड्डियों में जलती आग चुप नहीं रह सकती\"},{\"location\":\"HTML, paragraph 14\",\"severity\":\"major\",\"source_quote\":\"The husbandman must first taste and feed on his own fruits.\",\"suggested_fix\":\"“किसान को पहले अपने ही फल चखने और खाने चाहिए” के बजाय स्रोत का रूपक बनाए रखते हुए लिखें: “किसान को पहले अपने ही फल चखकर उनसे पोषण पाना चाहिए।”\",\"translation_quote\":\"किसान को पहले अपने ही फल चखने और खाने चाहिए।\"},{\"location\":\"HTML, paragraph 14\",\"severity\":\"major\",\"source_quote\":\"Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.\",\"suggested_fix\":\"स्रोत का कर्ता अस्पष्ट है, लेकिन “it” का अर्थ न बदलें: अनुवाद में “यह” के बजाय “यह [प्रचार]” न जोड़ते हुए, वाक्य को “विश्वास, आज्ञाकारिता और मेम्ने के लहू के द्वारा यह … को परास्त करता है” के अर्थ में रखें; वर्तमान में जोड़ “दुष्टात्माओं” को “भयंकर/पिशाचवत् दुष्टात्माएँ” के अर्थ में सुधारें।\",\"translation_quote\":\"विश्वास, आज्ञाकारिता और मेम्ने के लहू के द्वारा यह जानबूझकर किए गए पाप, दुष्टात्माओं, इन्द्रियासक्त देह-स्वभाव और शैतान को परास्त करता है।\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"The Urgency of “Anointed” Preaching\",\"suggested_fix\":\"अधिक स्वाभाविक हिंदी शीर्षक: “’अभिषिक्त’ प्रचार की तात्कालिकता”।\",\"translation_quote\":\"“अभिषिक्त” प्रचार की अत्यावश्यकता\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 6034,
+    "content_evidence_truncated": false,
+    "content_sha256": "5c79aa737ebb904d03d3cd24069b1833dc1f6f368386da4353dd8fac6d8d965e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5812
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

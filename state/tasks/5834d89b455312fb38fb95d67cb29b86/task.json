@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,96 @@
         },
         "total_tokens": 11873
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, final paragraph; James 4:8 quotation",
-      "severity": "major",
-      "source_quote": "Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
-      "suggested_fix": "Replace הַסּוֹסְסִים with a clear Modern Hebrew equivalent for “double minded,” such as הַהֲפַכְפְּכִים, while preserving the quotation’s existing HTML structure and reference.",
-      "translation_quote": "טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַסּוֹסְסִים – יעקב ד׳:8."
     },
     {
-      "location": "Article, “The virus hits home,” paragraph 2",
-      "severity": "major",
-      "source_quote": "I was so sick from the virus that I wasn’t able to work for over two months.",
-      "suggested_fix": "Revise לא יכולתי לעבוד יותר מחודשיים to make clear that the inability to work lasted longer than two months, for example: הייתי חולה כל כך מהנגיף, שלא יכולתי לעבוד במשך יותר מחודשיים.",
-      "translation_quote": "חליתי כל כך מהנגיף שלא יכולתי לעבוד יותר מחודשיים."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1193,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7490,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7487,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8683
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "פסקה 2",
+      "severity": "major",
+      "source_quote": "‘Six feet’ has become a well-recognized unit of measurement.",
+      "suggested_fix": "החליפו את ״שישה רגל״ ב״שישה רגליים״ או, בניסוח טבעי ומדויק יותר, ״מרחק של כשישה רגל (כ־1.8 מטרים)״.",
+      "translation_quote": "״שישה רגל״ הפכה ליחידת מידה מוכרת היטב."
+    },
+    {
+      "location": "פסקה 5",
+      "severity": "major",
+      "source_quote": "the separation of church and state",
+      "suggested_fix": "תקנו ל״הפרדת הכנסייה מן המדינה״, כדי לשמר את ההבחנה בין כנסייה למדינה.",
+      "translation_quote": "״הפרדת הדת מן המדינה״"
+    },
+    {
+      "location": "פסקה 6",
+      "severity": "major",
+      "source_quote": "he sees no hope to continue living and he is contemplating whether he should just take his own life and end it all.",
+      "suggested_fix": "תקנו ל״הוא אינו רואה תקווה להמשיך לחיות, ושוקל אם לשים קץ לחייו ולסיים הכול״.",
+      "translation_quote": "הוא לא רואה שום תקווה להמשיך לחיות, והוא שוקל אם פשוט לשים קץ לחייו ולסיים הכול."
+    },
+    {
+      "location": "פסקה 9",
+      "severity": "major",
+      "source_quote": "Is it true that there is somehow a microchip, or a multitude of nano robots immersed in that small volume of liquid?",
+      "suggested_fix": "תקנו ל״האם נכון שיש איכשהו שבב זעיר, או המוני רובוטים ננומטריים, הטבולים בכמות הנוזל הקטנה הזאת?״ התרגום הנוכחי אומר שהרובוטים שקועים בנפח הנוזל, ולא שהשבב או הרובוטים נמצאים בתוך החיסון.",
+      "translation_quote": "האם נכון שיש בו איכשהו שבב זעיר, או המוני רובוטים ננומטריים, השקועים בנפח הקטן הזה של נוזל?"
+    },
+    {
+      "location": "פסקה 15",
+      "severity": "major",
+      "source_quote": "My (Curvin’s) family contracted the Covid-19 virus",
+      "suggested_fix": "תקנו ל״משפחתי (משפחתו של קורווין) נדבקה בנגיף קוביד־19״. בסוגריים המקור מבהיר שהכוונה למשפחתו של קורווין, ולא לשמו של הדובר.",
+      "translation_quote": "משפחתי (של קורווין) נדבקה בנגיף קוביד־19"
+    },
+    {
+      "location": "פסקה 17",
+      "severity": "major",
+      "source_quote": "one restricted drug",
+      "suggested_fix": "תקנו ל״תרופה אחת שהשימוש בה מוגבל״, ולא ״תרופה אחת הנתונה לפיקוח״, שמשנה את אופי ההגבלה המתואר.",
+      "translation_quote": "תרופה אחת הנתונה לפיקוח"
+    },
+    {
+      "location": "פסקה 19",
+      "severity": "major",
+      "source_quote": "the whole issue of vaccines",
+      "suggested_fix": "תקנו ל״נושא החיסונים בכללותו״ או ״כל סוגיית החיסונים״.",
+      "translation_quote": "בנושא החיסונים כולו"
+    },
+    {
+      "location": "פסקה 21",
+      "severity": "major",
+      "source_quote": "One of these, which we have mentioned before is that of working towards having multiple authors write articles for the various specific columns",
+      "suggested_fix": "תקנו ל״אחת הדרכים, שהזכרנו בעבר, היא לפעול לכך שמחברים אחדים יכתבו מאמרים למדורים ייעודיים שונים״. התרגום משמיט את הרעיון שמדובר במדורים ייעודיים שונים.",
+      "translation_quote": "אחת מהן, שהזכרנו בעבר, היא לפעול לכך שמחברים אחדים יכתבו מאמרים למדורים מסוימים"
+    },
+    {
+      "location": "כותרת הפסקה האחרונה",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+      "suggested_fix": "תקנו את נוסח הציטוט לעברית בת זמננו: ״קִרְבוּ אֶל אֱלֹהִים וְהוּא יִקְרַב אֲלֵיכֶם. טַהֲרוּ אֶת יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ אֶת לְבַבְכֶם, הַפְכַּפְּכִים — יעקב ד׳:8״. התרגום הנוכחי משמיט את ״והוא״ ומשנה את ״הפכפכים״ ל״ההפכפכים״.",
+      "translation_quote": "קִרְבוּ אֶל אֱלֹהִים וְיִקְרַב אֲלֵיכֶם. טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַהֲפַכְפְּכִים – יעקב ד׳:8."
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "5834d89b455312fb38fb95d67cb29b86",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -172,13 +242,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

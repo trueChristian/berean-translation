@@ -2,7 +2,6 @@
   "article_id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 6955
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, final paragraph, quotation of Mazmur 16:8–9",
-      "severity": "major",
-      "source_quote": "“my heart is glad, and my glory rejoiceth”",
-      "suggested_fix": "Dalam kutipan itu, ganti “hatiku bersukacita, dan jiwaku bersorak-sorai” dengan “hatiku bersukacita, dan kemuliaanku bersorak-sorai” agar sesuai dengan makna teks sumber yang tercetak.",
-      "translation_quote": "“hatiku bersukacita, dan jiwaku bersorak-sorai”"
     },
     {
-      "location": "Article, heading “Roh yang Remuk,” kutipan Yesaya 57:15",
-      "severity": "major",
-      "source_quote": "“to revive the spirit of the humble”",
-      "suggested_fix": "Ganti “semangat orang-orang yang rendah hati” dengan “roh orang-orang yang rendah hati” agar istilah kunci dalam kutipan tetap sesuai dengan teks sumber.",
-      "translation_quote": "“untuk menghidupkan kembali semangat orang-orang yang rendah hati”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 727,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 491,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4485,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4482,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5212
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “For myself…”",
+      "severity": "major",
+      "source_quote": "I could hardly go on.",
+      "suggested_fix": "Replace “hampir tidak sanggup melanjutkan hidup” with “hampir tidak sanggup melanjutkan” or “hampir tidak sanggup terus maju.” The source says she could barely go on; it does not specify that she could barely continue living.",
+      "translation_quote": "sampai-sampai hampir tidak sanggup melanjutkan hidup"
+    },
+    {
+      "location": "Article, definition of “sober”",
+      "severity": "minor",
+      "source_quote": "“to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Replace “bersikap sederhana” with “bersikap terkendali” or “menahan diri” to convey “temperate” in this context.",
+      "translation_quote": "“bersikap tenang dan terkendali dalam roh; bersikap sederhana dan tidak dikuasai perasaan.”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "805d801273f5418deea202587e0a88cb",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ind",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/db672b88db7ac1a73fa51050b3b0d2743d20a0fd2adcbe9db5fd9da071a74cc2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"“This path leads to much sin, foolishness, immorality, and more.”\",\"suggested_fix\":\"Ganti “percabulan” dengan “perbuatan amoral” agar maknanya tetap seluas “immorality” dalam sumber.\",\"translation_quote\":\"“Jalan ini menuntun pada banyak dosa, kebodohan, percabulan, dan sebagainya.”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 410,
+    "content_evidence_truncated": false,
+    "content_sha256": "ea20d806b1c5e6ecfb702e2799aa18e3192f4631e9e9f32c029ea1b8d4b07650",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4474,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4471,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5202
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

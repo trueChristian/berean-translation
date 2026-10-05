@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph defining “sober”\",\"severity\":\"minor\",\"source_quote\":\"“to be calm and collected in spirit; to be temperate, dispassionate.”\",\"suggested_fix\":\"Ändra ”opartisk” till ”oberörd” eller ”behärskad”, så att betydelsen av ”dispassionate” återges utan innebörden ”impartial”.\",\"translation_quote\":\"”att vara lugn och samlad till sinnet; att vara måttfull och opartisk”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 468,
+    "content_evidence_truncated": false,
+    "content_sha256": "d8db72cd92f5d12e69a8304c593e9d358eac578d996cf6c19370e7e02c71f80c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4483,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5234
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

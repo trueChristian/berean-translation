@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f83ce0cb-2aa9-45d9-bbe6-99736fc646c6",
+    "response_id": "chatcmpl-EVcqHBc41bSC2cC4XU8ih9b2zxf3E",
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 483,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4402,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4999
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « Qu’est-ce que Satan essaie d’utiliser… »",
+        "severity": "minor",
+        "source_quote": "Let’s each allow God’s Spirit to honestly search our heart;",
+        "suggested_fix": "Remplacer par : « Laissons l’Esprit de Dieu sonder honnêtement le cœur de chacun ; »",
+        "translation_quote": "Laissons chacun l’Esprit de Dieu sonder honnêtement notre cœur ;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

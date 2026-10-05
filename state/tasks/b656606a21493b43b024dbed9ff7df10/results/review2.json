@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6656ee08-e265-48ed-9406-736cedabb8f8",
+    "response_id": "chatcmpl-EVcpBnezUjtOBpjLRtjbUNSr4UrMy",
+    "usage": {
+      "completion_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7121,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7643
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Artikeltext, Absatz „Die neue mRNA-Technologie“",
+        "severity": "major",
+        "source_quote": "Some concern has been raised that this new mode of action could cause sterility in women of childbearing age.",
+        "suggested_fix": "Ersetze den entsprechenden Satz durch: „Es wurden Bedenken geäußert, dass diese neue Wirkungsweise bei Frauen im gebärfähigen Alter zu Unfruchtbarkeit führen könnte.“",
+        "translation_quote": "Es wurden Bedenken geäußert, dass diese neue Wirkungsweise bei Frauen im gebärfähigen Alter Unfruchtbarkeit verursachen könnte."
+      },
+      {
+        "location": "Artikeltext, Absatz „Auf der anderen Seite des Themas“",
+        "severity": "major",
+        "source_quote": "One thing is certain, this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.",
+        "suggested_fix": "Ersetze „in den Bereichen Klatsch, Lügen erzählen und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt“ durch „in den Bereichen Klatsch, Lügen erfinden und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt“; passe die Satzstellung bei Bedarf an.",
+        "translation_quote": "Eines ist sicher: Diese Seite des Themas hat das konservative täuferische Volk in den Bereichen Klatsch, Lügen erzählen und glauben sowie falsches Zeugnis ablegen auf die Probe gestellt."
+      },
+      {
+        "location": "Artikeltext, Absatz „Das Zeichen des Tieres“, Zitat aus Offenbarung 13",
+        "severity": "major",
+        "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads",
+        "suggested_fix": "Übersetze die Stelle so, dass das Zeichen an der rechten Hand oder Stirn empfangen wird, nicht dass man es sich machen lässt; zum Beispiel: „Und es bewirkt, dass alle, die Kleinen und die Großen, die Reichen und die Armen, die Freien und die Sklaven, ein Zeichen an ihrer rechten Hand oder an ihrer Stirn empfangen.“",
+        "translation_quote": "Und es bewirkt, dass sie alle, die Kleinen und die Großen, die Reichen und die Armen, die Freien und die Sklaven, sich ein Zeichen an ihrer rechten Hand oder an ihrer Stirn machen lassen"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

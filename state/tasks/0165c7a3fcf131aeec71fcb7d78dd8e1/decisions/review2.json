@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, paragraph beginning “I used to pray for someone”",
+      "severity": "major",
+      "source_quote": "To love, laugh with, and cherish, / And dissipate all strife.",
+      "suggested_fix": "Replace the final two lines of this stanza with: جس سے محبت کروں، جس کے ساتھ ہنسوں اور جسے عزیز رکھوں،<br>\n    اور ہر رنج و کشمکش مٹ جائے۔",
+      "translation_quote": "جس سے محبت کروں، ہنسوں، اسے عزیز رکھوں،<br>\n    اور ہر جھگڑے کو مٹا دوں۔"
+    },
+    {
+      "location": "HTML, poem, paragraph beginning “I pray instead for humility”",
+      "severity": "major",
+      "source_quote": "For an eye to serve, and share the blessings, / That the Lord does send my way.",
+      "suggested_fix": "Replace the second and third lines with: ایسی بصیرت کے لیے کہ خدمت کروں اور اُن برکتوں میں شریک ہوں،<br>\n    جو خداوند میری راہ میں بھیجتا ہے۔",
+      "translation_quote": "ایسی نگاہ کے لیے جو خدمت کرے اور اُن برکتوں کو بانٹے،<br>\n    جو خداوند میری راہ میں بھیجتا ہے۔"
+    },
+    {
+      "location": "HTML, poem, paragraph beginning “For I’ve found that true happiness”",
+      "severity": "major",
+      "source_quote": "Not moved through fire or strife.",
+      "suggested_fix": "Replace the final line with: نہ آگ یا کشمکش سے ڈگمگاتے ہوئے۔",
+      "translation_quote": "نہ کہ آگ یا مصیبت سے ڈگمگانے سے۔"
+    },
+    {
+      "location": "HTML, poem, final paragraph",
+      "severity": "major",
+      "source_quote": "And the real source of True Life superb.",
+      "suggested_fix": "Replace the final line with: اور حقیقی، شاندار زندگی کا اصل سرچشمہ ہے۔",
+      "translation_quote": "اور اعلیٰ حقیقی زندگی کا اصل سرچشمہ ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

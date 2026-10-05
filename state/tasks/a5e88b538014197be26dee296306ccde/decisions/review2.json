@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph under “The Imminent Dangers of Deception”",
+      "severity": "major",
+      "source_quote": "“false teachings about ‘casting out’ sin, rather than ‘putting it away’, ‘putting it off ’, or ‘turning away from’ as the Scriptures teach.”",
+      "suggested_fix": "Replace «إخراج» with «طرد» to preserve the author's distinction between the false teaching of casting sin out and the scriptural alternatives of putting it away/off or turning away from it. Keep the remaining listed alternatives and HTML structure unchanged.",
+      "translation_quote": "«إخراج» الخطية، بدلًا من «طرحها» أو «خلعها» أو «الإعراض عنها»، كما تعلّمنا الكتب المقدسة."
+    },
+    {
+      "location": "HTML, final paragraph under “The Imminent Dangers of Deception”",
+      "severity": "major",
+      "source_quote": "“This is the danger of subjective experience becoming our guide in the realm of the spirit”",
+      "suggested_fix": "Replace «الاختبار الذاتي» with «الاختبار الشخصي» or another Arabic rendering that conveys a subjective, personally based experience; «ذاتي» suggests self-examination rather than subjective experience.",
+      "translation_quote": "هذا هو خطر أن يصبح الاختبار الذاتي دليلنا في عالم الروح"
+    },
+    {
+      "location": "HTML, paragraph quoting Revelation 13:16-18",
+      "severity": "major",
+      "source_quote": "“Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man”",
+      "suggested_fix": "Translate this quoted prose in Arabic, for example: «هنا الحكمة. من له فهم فليحسب عدد الوحش، لأنه عدد إنسان». Preserve the existing tags and reference.",
+      "translation_quote": "هنا الحكمة. من له فهم فليحسب عدد الوحش، فإنه عدد إنسان"
+    },
+    {
+      "location": "HTML, paragraph quoting Revelation 13:16-18",
+      "severity": "major",
+      "source_quote": "“And his number is Six hundred threescore and six”",
+      "suggested_fix": "Render the number explicitly in Arabic words, e.g. «وعدده ست مئة وستة وستون», rather than leaving the number itself untranslated.",
+      "translation_quote": "وعدده ست مئة وستة وستون"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

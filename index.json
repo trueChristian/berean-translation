@@ -697,6 +697,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
+      "html_sha256": "5e39be63125e32f831e8cc199aa20ab7b48024ea42f94240ffad49765914b8ed",
+      "human_reviewed": false,
+      "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.json",
+      "metadata_sha256": "f1426c55723d9d54401d2e81f9e8713773d121d92e685bf1e142090730915626",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gesang",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hierdie wêreld is nie my tuiste nie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
       "html_sha256": "f5b7646b9d42d9f27c7278a89f87dbaaa5e02a1587bb2f45e827a1ecd0faf097",
       "human_reviewed": false,
@@ -1325,6 +1348,29 @@
       "subtitle": null,
       "title": "Waarom Ek Nie Die Covid‑inspuiting Het Nie",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "3a6502dce2646f1807ee361ebea73b27bcdc101bde2600849f1c91961bbb27e5",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "08d79a6eefb1c33abe11da3ae7067d7300aff771d97d1265d8e52269ad38d197",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DIE GEDAGTES VAN ’N SENDELING",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DIE WAARHEID in liefde SPREEK",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -3290,6 +3336,62 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "e4eb1e23196bc1441027a38f6e9cc43c0ae2c5caf4efd576be0e6f83f45e8bf2",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "’n Oop Bybel wat op ’n tafel lê",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "8d7b4b5a8dfb68aff23f4b3f2147fa299f22af8ef78159ab11ee54b51be54bb4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASIE VIR DIE JEUG",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Waarvoor leef jy?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "f25c4c11194113e6ff8637cd0c70a2f2d231d07c9ec4e5e365e091e658170ce7",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "Berge weerkaats in ’n kalm meer onder ’n pers hemel",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "1110945cad527086b459d59228529a9c2711858c88da57d8012feaa5ffc85007",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "BEMOEDIGING VIR JONGER SUSTERS",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ons gees maak saak",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/ara/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "5dcf92d286be1c55e352a2306209f04502d6a489902a244f337092ff059e7cb2",
@@ -5219,6 +5321,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
+      "html_sha256": "d4b36547e8cc8b073bdf3dfe3641293525317e542d35447cea46c26f401defdd",
+      "human_reviewed": false,
+      "id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
+      "images": [
+        {
+          "alt": "حمامة بيضاء تطير في مواجهة سماء زرقاء",
+          "public_path": "/images/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.json",
+      "metadata_sha256": "1ff901963e07ac5b398f3e079c0d2c13ea57be01beb6d54b7350096ae4996393",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "مقال مميز",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تكريم «الأخ موز»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "3327854035fab1b6a1e19b106020cbe01f005eeb56f7d4746f2195ad087fd979",
       "human_reviewed": false,
@@ -6497,6 +6627,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "পৃথকতা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
+      "html_sha256": "307d5addb6bf04da514bc20ab8e1313eb27195d99548e637995e91ff203e5aa4",
+      "human_reviewed": false,
+      "id": "39530116-8c39-4abd-beb6-89f05771a4f8",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/39530116-8c39-4abd-beb6-89f05771a4f8.json",
+      "metadata_sha256": "1697c3da8a3a031f344b9b129838b8c058e01e4e85106f6414d2a3c2ec37e54e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "আধুনিক যুগের বিপদসমূহ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
+      "status": "ready",
+      "subtitle": "বিভ্রান্তিকর সময়ে বিশ্বাস",
+      "title": "অনিশ্চিত সময়ের জন্য উপদেশ",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -8108,6 +8261,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "dc88dc489f49afb008316b0d8b760397a733e35eba4bffe5c11975f4954d71fe",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "ইনজেকশন দেওয়ার জন্য প্রস্তুত সিরিঞ্জ ও সূঁচ",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "b4f56384093191169f98c72feed19b0d540f7b229c28af43dc6e6d79f842ba5d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "একজন চিকিৎসকের কথা",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "টিকা নেবেন… নাকি নেবেন না?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/cf07f132-92d4-49ba-b318-52520f77ca67.html",
       "html_sha256": "01e76a853c8d5e1314b675bac5aefa764fffd27003871b5a318e783ca0861099",
       "human_reviewed": false,
@@ -8851,6 +9032,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "分别",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
+      "html_sha256": "1cb4af9045de992f92ec1ba0cae6eb2251cbf3d7643790f90cf0bd8c6b988cab",
+      "human_reviewed": false,
+      "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.json",
+      "metadata_sha256": "bf0d418053b7f574aba3b1b0363daf096b04309fcc6f74fcfb1d6694f3b808e9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "圣诗",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
+      "status": "ready",
+      "subtitle": null,
+      "title": "这世界不是我的家",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -12666,6 +12870,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "417028621612bed3272685da9c3997a2a8ef1cd8625d55db20437ce07b279cdd",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Ein Prediger spricht in einem historischen Versammlungshaus zu einer großen Gemeinde",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "557efc57ae4ed0200bdce22c086b00754e84b6393292b7b717e4fd1db46f9608",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DIE GEMEINDE DES NEUEN TESTAMENTS",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Dringlichkeit „gesalbter“ Predigt",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "67c5e0545800bb71a442c771d621b2e822d5b048f4b3d49902b30f021dfa2641",
       "human_reviewed": false,
@@ -14236,6 +14468,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "a619fd9202a89a98caa45aa4b24ac9b33f74bc444bf805bb75cfd1762180ed4a",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "192a1c55fb8122ae21b3db70ac99528c9e4d29ccfe239bbb6e00e3f49732243b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΣΚΕΨΕΙΣ ΕΝΟΣ ΙΕΡΑΠΟΣΤΟΛΟΥ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ΛΕΓΟΝΤΑΣ ΤΗΝ ΑΛΗΘΕΙΑ με αγάπη",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
       "html_sha256": "449379521223f13e12d595fe09689def9f2afa565eb97b8ff1283335cd6c5af4",
       "human_reviewed": false,
@@ -15275,6 +15530,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "b8777a022773c808e9117f44284978d13c9e0ab03a482e41ee4ae6217f96dd80",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Ένας κήρυκας μιλά σε μια μεγάλη εκκλησία μέσα σε ένα ιστορικό κτίριο συνάθροισης",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "62ddf7dffdef0f21c1b0ec43b0ec895dcc36a22c49d9b940ebca3f6335156434",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Η ΕΚΚΛΗΣΙΑ ΤΗΣ ΚΑΙΝΗΣ ΔΙΑΘΗΚΗΣ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Το επείγον του «χρισμένου» κηρύγματος",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "4aeda05ce0a1b0d444f6dff1ed1f1b202868973f2324ed6e053f0f83abf7a1f7",
       "human_reviewed": false,
@@ -15673,6 +15956,34 @@
       "subtitle": null,
       "title": "Η Δόξα της Άνοιξης",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "384098631e12fc50359c3654b025d7fb793cce99f62bd0ac9c958f63fcede9c4",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Μια σύριγγα και βελόνα έτοιμες για ένεση",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "d445388eb90394386e78f94c14be354a5fcd5bc5d365e9c11388fa44010586a7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΜΙΑ ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Εμβολιασμός… Να γίνει ή να μη γίνει;",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -16774,6 +17085,29 @@
       "subtitle": null,
       "title": "Vous devez naître de nouveau",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
+      "html_sha256": "cfdb1e413a295e8b40bdd1edfab7ec8a1790797ae5e0a5bf550a80e8f0a2a150",
+      "human_reviewed": false,
+      "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.json",
+      "metadata_sha256": "6196e7261b33a75c92cd18e927483bba58475517bf6e5ca6c6465a4d53f3265e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Hymne",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ce monde n’est pas chez moi",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -18895,6 +19229,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
+      "html_sha256": "3e1c0fcb6b981b91858c23b7abf5a7ef98541c181e2188aeb42b6c10e0a8c36b",
+      "human_reviewed": false,
+      "id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
+      "images": [
+        {
+          "alt": "Une colombe blanche volant dans un ciel bleu",
+          "public_path": "/images/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.json",
+      "metadata_sha256": "2cfe70ed1f2ec8327fd17960cf010e233303631de70a62cbd8af018e5ef12c8c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTICLE À LA UNE",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hommage au « frère Mose »",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "facc94769c49b317816fb5768d36203b3b05eb103f566df9d1eb8df340fbc55e",
       "human_reviewed": false,
@@ -18965,6 +19327,34 @@
       "subtitle": null,
       "title": "La gloire du printemps",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "b990caf1feab2c67eef31f81f9195a939fb028882dece82b092febb52efccd4e",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Une seringue et une aiguille préparées pour une injection",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "ef13034252f0b9149e5acbc8cd3ce682c513254353fe31d1f6c665ecc60a28f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "PAROLE D’UN MÉDECIN",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Se faire vacciner… ou ne pas se faire vacciner?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -19558,6 +19948,62 @@
       "subtitle": null,
       "title": "Reste avec moi : tombe vite le soir",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "0c7e134bf01180b7a249295863a69011b59f27b0aced45fe411a9d79d67f4f3c",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Une Bible ouverte posée sur une table",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "61802d5a8d26fc687d1ab63d884a300082d267544a5661e498aae8ea00bea1c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATIONS POUR LES JEUNES",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pour quoi vivez-vous ?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "cb799365c652be257ce79994365d53ef22a5af2d670dba576f29db1dd3065f88",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "Montagnes se reflétant dans un lac calme sous un ciel violet",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "fc6807089630e976ce00c208a039ef407dec2f90523bfa8ae1d8305ee9bcb3cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ENCOURAGEMENT POUR LES JEUNES SŒURS",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Notre esprit compte",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -21029,6 +21475,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "29113f1cb04f3cd0bb67d32b4f03f10614c9d0b93274c97526456fabf689939e",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "211d298341aaea955e5b3f4d6f43385338e431a14b5b88466f4e8111c77097db",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बहन से बहन",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मैं करूँगी",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "97b872dee7e908df83f9f9ee9c118ac3ecb6aafff54b6b8588611d678bdbcdc3",
       "human_reviewed": false,
@@ -21332,6 +21801,52 @@
       "subtitle": null,
       "title": "प्रारंभिक अमेरिकी मेनोनाइट गिरिजा पर एक चिंतन",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
+      "html_sha256": "9f75c2c9b7b285dc20db2a7ef12cde16f11ad8f2dc0106aa282ef0de2e8709fd",
+      "human_reviewed": false,
+      "id": "39530116-8c39-4abd-beb6-89f05771a4f8",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/39530116-8c39-4abd-beb6-89f05771a4f8.json",
+      "metadata_sha256": "cce3ba10928c392a0e6eeaf4ec9d38104a2a0a22ac305d25f5d3772186f58ed8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "आज के ख़तरे",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
+      "status": "ready",
+      "subtitle": "उलझन के समय में विश्वास रखना",
+      "title": "अनिश्चित समय के लिए चेतावनी",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
+      "html_sha256": "ae2307488e8dffef15626e69ababa5e111b0d613101e03a4f8b2930693c27dda",
+      "human_reviewed": false,
+      "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.json",
+      "metadata_sha256": "7547d1920b995f80a62e482d54f0338cf1493b1eebadf22a2f82dda62312f981",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "भजन",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
+      "status": "ready",
+      "subtitle": null,
+      "title": "यह संसार मेरा घर नहीं",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -23747,6 +24262,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "aa823019d4d9013d5306439c8fecbcf58a0932eafe7e58763837e8b678832b00",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "d0d91859839b006c46db7d379682c9fb70f4401ffd84c75441fec7c9e46f15d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DARI SAUDARI UNTUK SAUDARI",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "aku akan",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "7f25bf510c7b316df968e2750410e37bbf7a401e8114004bc193deadfb9b1d9d",
       "human_reviewed": false,
@@ -25625,6 +26163,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.html",
+      "html_sha256": "877e4a3c9237b87f4165e8f896aee56bdd07c1ea506f13566aec28ea71bd91d0",
+      "human_reviewed": false,
+      "id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.json",
+      "metadata_sha256": "684e07107408a45656ff06c4ea40b12de0379f4704b69c8e39e41774917d2450",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dari EDITOR",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Editor",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "3b573d79ae411f0d855a896d9995df7eb2e550be10e49a68dd50f4a755d08189",
       "human_reviewed": false,
@@ -25927,6 +26488,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Pentingnya Khotbah yang “Diurapi”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
+      "html_sha256": "bd5432396a010df743a81ead0e8042baacbb395348d10d83a65589b27cd67f9a",
+      "human_reviewed": false,
+      "id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
+      "images": [
+        {
+          "alt": "Matahari terbit di atas ombak yang pecah di sepanjang pantai berbatu",
+          "public_path": "/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.json",
+      "metadata_sha256": "76587865f0fcabfeeab709453d668809adf68db748a436d48261791fd8e99e20",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Puisi",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dulu Aku Berdoa",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -26308,6 +26897,34 @@
       "subtitle": null,
       "title": "Kemuliaan Musim Semi",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "747ee92a5f743bda29023cd3620d28593587289180b1644000fd5018c2c2906c",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Sebuah jarum suntik dan jarum yang disiapkan untuk suntikan",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "ab4431331affa924216139211acd03349460d6f58f862e7aa7fe00ad2cf80d5a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SEPATAH KATA DARI SEORANG DOKTER",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Divaksinasi. . . Ya atau Tidak?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -26763,6 +27380,34 @@
       "subtitle": null,
       "title": "Tinggallah Bersamaku, Senja Cepat Menutup Hari",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "9a3354c31c59c291082537b72a8754509e4f725064775c4e51c25e22e038e414",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Alkitab terbuka terletak di atas meja",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "f9be3c7c83e28925c14fc8bf3b06b8fc1ecfb1b20eed394e34808875a2a6e884",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASI BAGI KAUM MUDA",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Untuk Apa Anda Hidup?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -29278,6 +29923,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "077af64237ea83fb9ae25a34a0d3563d45726654572ef0c925a4233133a92ecd",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Un predicatore si rivolge a una grande congregazione all’interno di una storica sala di riunione",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "1c59d636e7212dfe1e9223022846c04330c953772214dccc75f9b2ea07dd9916",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "LA CHIESA DEL NUOVO TESTAMENTO",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’urgenza della predicazione «unta»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "2c70a0631613c16318e0725db539e2877b8d1898010ba45eb6b48996f9127131",
       "human_reviewed": false,
@@ -29733,6 +30406,34 @@
       "subtitle": null,
       "title": "La gloria della primavera",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "5bb4ec2d813df875af6dd6257c31a3ee9a2124268aa30d4b7354b8489a8e13fa",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Una siringa e un ago preparati per un’iniezione",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "822443f3ecce982116d3595a1ed548fd75dc2cc1bab4bc7137c46f38d099edd3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UNA PAROLA DA UN MEDICO",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vaccinarsi… sì o no?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -30266,6 +30967,62 @@
       "subtitle": null,
       "title": "Resta con me: rapido cala il vespro",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "19ee11a896b47032d7e583ad874f6781bd39be159aa649471f673c2c45c2736f",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Una Bibbia aperta appoggiata su un tavolo",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "4387dd06d96b0a7891b3aecc17519b738ec12ade7ab2124ceb7b24e326e38286",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ISPIRAZIONI PER I GIOVANI",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Per che cosa stai vivendo?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "81e21999fe6a09d500621bb5809ce37a5c6b622d1d9d66819dd7cf6e7adab69d",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "Montagne riflesse in un lago calmo sotto un cielo viola",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "92cdc9f12b1cfaeba653655e4b2808072cbb4190e5d750b27c8081b56ce727f1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INCORAGGIAMENTO PER LE SORELLE PIÙ GIOVANI",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "il nostro spirito è importante",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31297,6 +32054,29 @@
       "subtitle": "나치 독일과 메노나이트",
       "title": "교회의 온전성",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "6b697a8a5ad93795759e4fc054b26b396d68dd0116c0f30d70f89072f0a830c5",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "b129d3c41450b987d823841995b03077cb127e7f186056782c72ec33b91d5bbc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "선교사의 단상",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "사랑 안에서 진리를 말하기",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -32752,6 +33532,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "0d0d22d28143464e6d36a2b35a12d5a28b27f85c0efba5a40073b0ad082be6fb",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "주사를 놓기 위해 준비된 주사기와 바늘",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "09a31dcec5486130db3e25b77f37c11c7670f6bf4f1847cc0407b9a9b5989214",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "의사의 한마디",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "백신 접종… 할 것인가, 말 것인가?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/cf07f132-92d4-49ba-b318-52520f77ca67.html",
       "html_sha256": "841cbc600e2ea1116910c6d5a43a6a39bb61512ac3bdbe669cf42940ff867d27",
       "human_reviewed": false,
@@ -32775,6 +33583,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "구속받은",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
+      "html_sha256": "d00f4b63707048a791d662095c5db8e6f5e3a8b25ae86e1fa1a4d589a47315e5",
+      "human_reviewed": false,
+      "id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
+      "images": [
+        {
+          "alt": "구유에 누운 아기 예수와 마리아와 요셉",
+          "public_path": "/images/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.json",
+      "metadata_sha256": "5eb5248a130fd3a6b5151d01cd3c43e494a6a7ab984f5fc973c6b9fb53626dfc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "승리하는 그리스도인의 삶",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "여관 사람들 무리 밖에서",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -33424,6 +34260,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Wat wij ons niet kunnen veroorloven",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "f2efd38d958d53e0a9d7ee7b5bec9e72df321a74e0197bf964e021863f2e58da",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "a72c3f2e6c5c8ff4eb4981882995d0ea82a7186535c71d16c97dbc5c9a7f9f49",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ZUSTER TOT ZUSTER",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ik zal",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -34319,6 +35178,29 @@
       "subtitle": null,
       "title": "Waarom ik de Covid-injectie niet heb genomen",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "85489abbcc0c583cb8f376409a64a4b978f54ab3c6fbf824accd72f9544426ea",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "80bf5329ccc936c4b8db4ee114b4dcf8d8ae2b6c9c3ab5be25c44a1268dd330b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "OVERPEINZINGEN VAN EEN ZENDELING",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DE WAARHEID SPREKEN in liefde",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -35419,6 +36301,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "b238d154c1a11e49195bcc79df5f1b5622cb581f449aff8d315f2f523492fa14",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Een prediker spreekt een grote gemeente toe in een historisch kerkgebouw",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "c627cd4af414bbfba3de42e826bbc1661976f978dbb08dec692c39f8de4f0638",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE KERK VAN HET NIEUWE TESTAMENT",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De urgentie van ‘gezalfde’ prediking",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "546687e4cd96472233a617c20a8c5ebb5d75cce43242a6a2a1ab5bf5502d8402",
       "human_reviewed": false,
@@ -35859,6 +36769,34 @@
       "subtitle": null,
       "title": "Groepsmoraal versus goddelijk oordeel",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
+      "html_sha256": "b1e1c6d49a400ceeb4cfb998efba3e9fa970040e73e58e451851291365a35b87",
+      "human_reviewed": false,
+      "id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
+      "images": [
+        {
+          "alt": "Een witte duif die tegen een blauwe hemel vliegt",
+          "public_path": "/images/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.json",
+      "metadata_sha256": "e534af14fd144402d02548f08ade618cd9dfcc54370db853476a2cebe41e3336",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Uitgelicht artikel",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Een eerbetoon aan ‘broeder Mose’",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -36868,6 +37806,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "8598c5c0439b34fe24d61c2ef514027f071a6c7b2ae07a6d8d9ac2950fe950a2",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "4406d5aaa496550a8f8f77b21a9c74d641f20c8371ff1e508bbf73227837d2f8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SØSTER TIL SØSTER",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jeg vil",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "8ffb075482f68d738d0a2fd6c8aad340b4256719ff99667ad9c2d0c84b48b0ac",
       "human_reviewed": false,
@@ -37247,6 +38208,29 @@
       "subtitle": null,
       "title": "Dere må bli født på ny",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
+      "html_sha256": "f9eae497a2178ca8955675c6999d3ce938e6a1d6805523d7eba0576875d6f0d3",
+      "human_reviewed": false,
+      "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.json",
+      "metadata_sha256": "adb078651e03580ab565c76898b8c59241af3e421c8af4b50e838263f204104f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Salme",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Denne verden er ikke mitt hjem",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37681,6 +38665,29 @@
       "subtitle": null,
       "title": "Hvorfor jeg ikke har tatt Covid‑sprøyten",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "0b46285f562c2c841f334b016cf45ec8f107fa1e23646f10bc3d6407b97f889a",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "8dc8349ebf31f8bbeb52d4b9d1c0d4fe0757a80b5465dbd766a0c45703c60840",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "EN MISJONÆRS TANKER",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Å TALE SANNHETEN i kjærlighet",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -38727,6 +39734,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
+      "html_sha256": "a3ba29112b989227ff738ffff8193ff1f6d5cb9ea2553238ec0d91825a29de07",
+      "human_reviewed": false,
+      "id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
+      "images": [
+        {
+          "alt": "Soloppgang over bølger som bryter langs en steinete strand",
+          "public_path": "/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.json",
+      "metadata_sha256": "a237916480d2e49acab2b0e88a2766b309a3432153c7cfc6735d6ff7f85d5b6d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jeg pleide å be",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
       "html_sha256": "65779665845499acb6b099f21839d9c78ed87c6b926c6902f62b3387a9bff04a",
       "human_reviewed": false,
@@ -39499,6 +40534,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "4d7704d63acc6262adc946cdd06eb888dfa81bb813b0c476a374894c6af5568c",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "En åpen bibel som ligger på et bord",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "5ed517b443f6b22f34e713b1f9c6c2734a46d4788310c86ebd7cccfe654a64b9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASJON FOR UNGDOM",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hva lever du for?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "72cc227578730eb53025937015a81a7c43eb7b32df873ff995707a33b058d7ba",
       "human_reviewed": false,
@@ -39717,6 +40780,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "O que não podemos nos permitir",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "173b3ce9cdc324accb9f21b135b8c76d0cd2565716ecabc6c35a276cfdca206a",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "e968984e961cb294694136e1bd80023432fcf86697cfe9d3f25b676a5e388893",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE IRMÃ PARA IRMÃ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eu farei",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -42241,6 +43327,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "7d5082a2be9becf0eb1bccaeea9faa2f0a06e3079d417718f4f50f5468d72461",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Um pregador dirigindo-se a uma grande congregação no interior de uma casa de reuniões histórica",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "b51649acf3822753c57b643708bb931d8bf0efa4dd952031583ae3cfcfc23869",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "A IGREJA DO NOVO TESTAMENTO",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A urgência da pregação “ungida”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "373e673197dbf03b9a70d47112c4238dfa7f0675a19f7fad9622bf47d765cf9f",
       "human_reviewed": false,
@@ -42903,6 +44017,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
+      "html_sha256": "596f14735b80cab1a5134879f5d0ea022b4da3fe5777c9079b890db15d65f117",
+      "human_reviewed": false,
+      "id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
+      "images": [
+        {
+          "alt": "Maria e José com o menino Jesus numa manjedoura",
+          "public_path": "/images/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.json",
+      "metadata_sha256": "aafc555ac4f098ecc5e0cdc7db4039f9cd956aeede92ada6ec70a727fe50ee1a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "VIDA CRISTÃ VITORIOSA",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fora da Turma da Hospedaria",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "c180ff9f1ab087c992e866d8b5cfc02606101f44550e9c7c2e01c2c55c62d761",
       "human_reviewed": false,
@@ -43418,6 +44560,34 @@
       "subtitle": null,
       "title": "Fica comigo: depressa cai o entardecer",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "cfac6fc2af8ecb0a6f1cb4f243cfb451d4e3235344d8d957ceae6b8e92110f49",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Uma Bíblia aberta sobre uma mesa",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "1469e683b4c2fc0043e1d0240fe62c04aca9ef60d9bc62b00bebfb398a8c49cd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRAÇÕES PARA JOVENS",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Para que você está vivendo?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45365,6 +46535,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "5f025c1a3a3037586a37bd6185aa8912ea49eee12c09da53998542160ced3e26",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Проповедник обращается к многочисленному собранию в историческом молитвенном доме",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "30037c9f63b10e98b7648e5295f8744e36f3f5af32644e07ea3df050610c83fc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "НОВОЗАВЕТНАЯ ЦЕРКОВЬ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Неотложность «помазанной» проповеди",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "4b8a7d553219b267294b037e448a1ea460e55135a6bd1772f091679321f4bb87",
       "human_reviewed": false,
@@ -45393,6 +46591,34 @@
       "subtitle": null,
       "title": "Кен и я",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
+      "html_sha256": "7ec4ca179fbddc388a492723a1cb2f9c8627884b1ff76bc8ab4e99187dcda02b",
+      "human_reviewed": false,
+      "id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
+      "images": [
+        {
+          "alt": "Рассвет над волнами, разбивающимися о скалистый берег",
+          "public_path": "/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.json",
+      "metadata_sha256": "779894e07c3a9ded60d735ef7c8bfc1d96b5760c7307ab012360b72f2d9c6cb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Стихотворение",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Прежде я молилась",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45680,6 +46906,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.html",
+      "html_sha256": "246ca0c76c96aafc8373f25d7b9a4ec3330a490542dcd8597c17bfd1af8c9469",
+      "human_reviewed": false,
+      "id": "c233b16f-7c75-4b40-b250-9ed3a1e336d5",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.json",
+      "metadata_sha256": "95615aa357a01f8066421d18d848df19ee14687507dd964b31a559499a589e38",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Стихотворение",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "87849e75ccc3073aac9745474f8f8ea5d24e0cee6db7f9f55f04876e5cff80b9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Смерть грешника",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "7d15109bd70bc8b3071d1020b029c8f92402c1efa7bae773f2538c85ae85f6e2",
       "human_reviewed": false,
@@ -45806,6 +47055,34 @@
       "subtitle": null,
       "title": "Слава весны",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "4fbffde18e14b9c9f9cf735750c9983c299c0b20dc59146dfe0710586a10a9f0",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Шприц и игла, подготовленные для инъекции",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "ec735816dc8c22eda3571d79496039149fed17afcbe1d3c6a2ed3b774814efaf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "СЛОВО ВРАЧА",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Вакцинироваться… Быть или не быть?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -46867,6 +48144,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Separación",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
+      "html_sha256": "1cbc68d797f1160d948e6a231e1d5b2250618be289159134a72bf10408d5e767",
+      "human_reviewed": false,
+      "id": "39530116-8c39-4abd-beb6-89f05771a4f8",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/39530116-8c39-4abd-beb6-89f05771a4f8.json",
+      "metadata_sha256": "4f798773f25de37706aabd53c5978f756cc9f91bb54332d8c46df3b4285f2c82",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "PELIGROS DE LA ACTUALIDAD",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
+      "status": "ready",
+      "subtitle": "Tener fe en tiempos desconcertantes",
+      "title": "Exhortación para tiempos de incertidumbre",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -48921,6 +50221,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "2326d1e5599ef3197df4eb7ce107a3972b13fc5936a57f197b007d11c7ab1f96",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Un predicador se dirige a una gran congregación en el interior de una casa de reunión histórica",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "17435f4e1b837dcfa7274a94ca4d3e2029cfc1e900ca841a815ad1f44b8a6ef9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "LA IGLESIA DEL NUEVO TESTAMENTO",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La urgencia de la predicación «ungida»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "95afecdffcc64a6096f8d12019a8926b89737da767354cdf4437a5b7821397c6",
       "human_reviewed": false,
@@ -49396,6 +50724,34 @@
       "subtitle": null,
       "title": "La gloria de la primavera",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
+      "html_sha256": "20a571c31591d529b1ceaa66530584b7e04f968791c068e1605fe9e1d49b2827",
+      "human_reviewed": false,
+      "id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
+      "images": [
+        {
+          "alt": "Una jeringa y una aguja preparadas para una inyección",
+          "public_path": "/images/articles/cee69319-ee10-424f-bdb3-b1fed948eee6-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.json",
+      "metadata_sha256": "95bfc5859a37fe48d02b29d1fed41606a5dcdb3e72e20ea75f6114d1d582ccd6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UNA PALABRA DE UN MÉDICO",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vacunarse… ¿sí o no?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -50600,6 +51956,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "b49ec7db98d67aa782df97d526ee3c83f0346b8b8aeb6758906c7afcb99bb7ad",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "bb276b55f79dc00cef59fd5b441e276a19e79890258df9d289e10e0656c943cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Mawazo ya Mmishonari",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "KUSEMA KWELI KATIKA upendo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
       "html_sha256": "29b6df2892c8023f989c7e6f6a97ee708f34f6dd9ecf81163ef2a10c5e8a6d2f",
       "human_reviewed": false,
@@ -51324,6 +52703,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "7595222bb15391d773e2f983d6212e8baf07eabc85d1e1f873f5639279709f85",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "Mhubiri akilihutubia kusanyiko kubwa ndani ya nyumba ya ibada ya kihistoria",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "487323a63bf410df19f2c19941f2a91e5d5ae2f1f960d0ac67cc7332e01ebbfb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "KANISA LA AGANO JIPYA",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uharaka wa Mahubiri “Yaliyotiwa Mafuta”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "7a8b4ed16913980116945ff6d372631f75df81b0598d3e73b8b4e2800666d4ce",
       "human_reviewed": false,
@@ -51504,6 +52911,57 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kutembea Pamoja Naye Katika Huzuni ya Msiba",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.html",
+      "html_sha256": "c9bd1d0a8c43c48fa063d5cbd984a3f6a3a6f56016a2a9304c35220f28f84021",
+      "human_reviewed": false,
+      "id": "c233b16f-7c75-4b40-b250-9ed3a1e336d5",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.json",
+      "metadata_sha256": "11fa50e1f0791de8cfc85c989ac9a1b41599ca12021f1421c12c4c99315db865",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Shairi",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "87849e75ccc3073aac9745474f8f8ea5d24e0cee6db7f9f55f04876e5cff80b9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kifo cha Mtenda Dhambi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
+      "html_sha256": "964ca350b28511081ecd02ad23d4dfa42e26a65f9fbc3f4535edbf110cbb4a88",
+      "human_reviewed": false,
+      "id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
+      "images": [
+        {
+          "alt": "Njiwa mweupe akiruka angani kwenye mandhari ya bluu",
+          "public_path": "/images/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.json",
+      "metadata_sha256": "3ddff01ed527114e24ea24a49ef4776792e9905f1204f42c01e35a32f17b0f6b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "MAKALA MAALUM",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Heshima kwa ‘Ndugu Mose’",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -52309,6 +53767,29 @@
       "subtitle": null,
       "title": "Ni måste födas på nytt",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
+      "html_sha256": "a5412a9a26c9bf207699799ca36046ce9c6fabbfbc9d5b4b64a8a888da341a34",
+      "human_reviewed": false,
+      "id": "39530116-8c39-4abd-beb6-89f05771a4f8",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/39530116-8c39-4abd-beb6-89f05771a4f8.json",
+      "metadata_sha256": "2aff4ed405496ee2779c16652cbed521299e9cbfda5c095a3fd0788fea026ee5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Faror i vår tid",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
+      "status": "ready",
+      "subtitle": "Att ha tro i förvirrande tider",
+      "title": "Förmaning för osäkra tider",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -53953,6 +55434,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
+      "html_sha256": "46ec560ec380d366a167627f92d26329313e207d04bfbf9a247078029b1143ba",
+      "human_reviewed": false,
+      "id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
+      "images": [
+        {
+          "alt": "Soluppgång över vågor som bryter mot en klippig strand",
+          "public_path": "/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.json",
+      "metadata_sha256": "df10bc80a6644ff1b13ada4914d6bb59a89676c199a827162eca23e2e4a60bc7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Förr brukade jag be",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "076b37c9d22ec5d7a34f3fc0a340208a4f0b3c8e347f7d9bb51559ba21307d6a",
       "human_reviewed": false,
@@ -54273,6 +55782,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
+      "html_sha256": "7177b2fd48b9b25e45d8f570fd44689222b43dc9d02b92bd0fe60ea1d7b58aae",
+      "human_reviewed": false,
+      "id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
+      "images": [
+        {
+          "alt": "En vit duva som flyger mot en blå himmel",
+          "public_path": "/images/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.json",
+      "metadata_sha256": "326385ee6c82d4a45c53f441a3a1f3d5ae7260276b80ccbe8bf09edccf75ce48",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTIKEL I FOKUS",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En hyllning till ”broder Mose”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "2480cbcf9dd5b47300eca30828488ac7ba3e7a9d9170c43c05e78a8a78c26aed",
       "human_reviewed": false,
@@ -54352,6 +55889,34 @@
       "subtitle": null,
       "title": "Utbrändhet",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
+      "html_sha256": "8719d7da0d5aada7a4bc6318ec5b08dc67dfc1f696110555dbaf8900e828bb3a",
+      "human_reviewed": false,
+      "id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
+      "images": [
+        {
+          "alt": "Maria och Josef med Jesusbarnet i en krubba",
+          "public_path": "/images/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.json",
+      "metadata_sha256": "0a72a2e97868d7176053184e1867332203651791c8eb8c2ba8a16d05c2adbd6f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ETT SEGRANDE KRISTET LIV",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Utanför värdshusets krets",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -54667,6 +56232,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vad lever du för?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "f3691545b6f0be596bac071c22c858dcff3557c646402ebe98ed3620b2d8f9de",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "Berg speglas i en stilla sjö under en lila himmel",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "ab89f30a3fb3e529872af51b64ed21e5ec96a8d531ffc33421c7eaa91d7b7755",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UPPMUNTRAN TILL YNGRE SYSTRAR",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vår ande är viktig",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -56400,6 +57993,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.html",
+      "html_sha256": "e4c0b41000c21a4054fd1d2e5ab08ecbbfbf5f1f924fbe92e6499f577ee678f5",
+      "human_reviewed": false,
+      "id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.json",
+      "metadata_sha256": "63972073875aea5eb773f59f4830983f9a80410e3b6fd60d8de0724aaabb7740",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "مدیر کی جانب سے",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مدیر کی جانب سے",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/a6ab0f33-e20a-4b19-ae47-f094395a54f8.html",
       "html_sha256": "f6a3f37249fc36cf0518b38545637902a6265f7ddf417ba381ccda48c7aee974",
       "human_reviewed": false,
@@ -56531,6 +58147,34 @@
       "subtitle": null,
       "title": "تنہائی",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
+      "html_sha256": "d4eca56014fd4a536ada0a4d1dda4274758c4b9c6fa165905d407b9e3fc29245",
+      "human_reviewed": false,
+      "id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
+      "images": [
+        {
+          "alt": "ایک واعظ تاریخی عبادت گاہ کے اندر ایک بڑی جماعت سے خطاب کرتے ہوئے",
+          "public_path": "/images/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.json",
+      "metadata_sha256": "add0f5c369ef60c836c640af44b4985951f098d11cdef989bac9a1409340ca40",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نیا عہدنامہ کی کلیسیا",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "”مسح شدہ“ منادی کی فوری اہمیت",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

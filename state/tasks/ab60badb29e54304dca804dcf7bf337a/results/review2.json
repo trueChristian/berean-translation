@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "690e3c6f-556d-4d3f-b48e-ee180f5b30b9",
+    "response_id": "chatcmpl-EVcrzgUws11aVdAToEXC4VN8KaBwU",
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 851,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4410,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4407,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5395
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Die gegenwärtigen Predigtstile…”",
+        "severity": "minor",
+        "source_quote": "<strong>from</strong> … <strong>to</strong>",
+        "suggested_fix": "Keep the source emphasis by putting the German contrast markers inside the existing <strong> tags (for example, „weg von“ and „hin zu“) and avoid duplicating those markers in the surrounding sentence.",
+        "translation_quote": "<strong></strong> … <strong></strong>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

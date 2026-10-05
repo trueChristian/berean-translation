@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, stanza 4, line 1\",\"severity\":\"minor\",\"source_quote\":\"Life’s pathways would be clear.\",\"suggested_fix\":\"Replace “alltid skulle ligga öppna” with “alltid skulle vara tydliga” to preserve the meaning of clear paths.\",\"translation_quote\":\"alltid skulle ligga öppna.\"},{\"location\":\"HTML, poem, stanza 8, line 1\",\"severity\":\"minor\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"Use “en fyllig röst” or “en djup röst” instead of “en rik stämma” to convey the voice’s quality rather than suggest wealth.\",\"translation_quote\":\"Då talade en rik stämma inom mig:\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 673,
+    "content_evidence_truncated": false,
+    "content_sha256": "5c6a4564a9acd105ee390aff540733d7208f30aabe774db7b95743255cc7bcec",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 656,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3978
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

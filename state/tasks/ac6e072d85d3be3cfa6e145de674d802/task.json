@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,60 +64,31 @@
         },
         "total_tokens": 7170
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 447,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 421,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4315,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4312,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4762
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, párrafo 2",
-      "severity": "major",
-      "source_quote": "the guilt of the blood of all men",
-      "suggested_fix": "Cambiar «de la culpa por la sangre de todos» por «de la culpa por la sangre de todos los hombres» para conservar el alcance explícito de «all men».",
-      "translation_quote": "la culpa por la sangre de todos"
-    },
-    {
-      "location": "HTML, párrafo 5",
-      "severity": "major",
-      "source_quote": "He cannot hang in the deceptive clutches of ambiguous indecision.",
-      "suggested_fix": "Cambiar «No puede permanecer atrapado en las engañosas garras de la indecisión ambigua» por «El oyente no puede quedar suspendido en las engañosas garras de una indecisión ambigua», conservando la idea de quedar indeciso, no simplemente atrapado.",
-      "translation_quote": "No puede permanecer atrapado en las engañosas garras de la indecisión ambigua."
-    },
-    {
-      "location": "HTML, párrafo 8",
-      "severity": "major",
-      "source_quote": "Current preaching styles have trended <strong>from</strong> ... <strong>to</strong> “God understands and feels your pain.”",
-      "suggested_fix": "Restituir <strong>de</strong> antes de los ejemplos citados y <strong>a</strong> antes de «Dios comprende y siente tu dolor», manteniendo ambos elementos en negrita y en su posición correspondiente.",
-      "translation_quote": "Los estilos de predicación actuales han pasado de <strong></strong><em>Sabiendo, pues, el temor del Señor, persuadimos a los hombres… –2 Corintios 5:11</em> y <em>…Es necesario obedecer a Dios antes que a los hombres –Hechos 5:29;</em> <strong>a</strong> «Dios comprende y siente tu dolor»."
-    },
-    {
-      "location": "HTML, párrafo 9",
-      "severity": "major",
-      "source_quote": "It kills vision and burden.",
-      "suggested_fix": "Cambiar «Mata la visión y el sentido de responsabilidad» por «Mata la visión y la carga [espiritual]», preservando la idea de burden como carga o preocupación sentida, no como responsabilidad.",
-      "translation_quote": "Mata la visión y el sentido de responsabilidad."
-    },
-    {
-      "location": "HTML, párrafo 10",
-      "severity": "major",
-      "source_quote": "and report that God is in you of a truth",
-      "suggested_fix": "Cambiar «declarará que verdaderamente Dios está entre ustedes» por «declarará que verdaderamente Dios está en ustedes», conservando «in you» y la segunda persona plural.",
-      "translation_quote": "declarará que verdaderamente Dios está entre ustedes"
-    },
-    {
-      "location": "HTML, párrafo 13",
-      "severity": "major",
-      "source_quote": "The husbandman must first taste and feed on his own fruits.",
-      "suggested_fix": "Cambiar «El labrador debe probar primero sus propios frutos y alimentarse de ellos» por «El labrador debe primero probar y alimentarse de sus propios frutos», para mantener la relación indicada por «taste and feed on».",
-      "translation_quote": "El labrador debe probar primero sus propios frutos y alimentarse de ellos."
-    },
-    {
-      "location": "HTML, párrafo 13",
-      "severity": "major",
-      "source_quote": "Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.",
-      "suggested_fix": "Aclarar el referente de «esto» sin alterar la afirmación: por ejemplo, «Por medio de la fe, la obediencia y la sangre del Cordero, [la predicación] vence el pecado voluntario, los demonios malignos, la carne sensual y a Satanás».",
-      "translation_quote": "Por medio de la fe, la obediencia y la sangre del Cordero, esto vence el pecado voluntario, los demonios malignos, la carne sensual y Satanás."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "ac6e072d85d3be3cfa6e145de674d802",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "spa",
@@ -207,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"the unbeguiled scene\",\"suggested_fix\":\"موجودہ «غیر مسخ شدہ منظر» کی جگہ «بے تصنع منظر» یا «اپنی اصل سادگی میں منظر» لکھیں، تاکہ مراد غیر فریب خوردہ/بے بناوٹ منظر ہو، نہ کہ مسخ نہ کیا گیا منظر۔\",\"translation_quote\":\"اس غیر مسخ شدہ منظر کو دیکھیں\"},{\"location\":\"پانچواں پیراگراف، آیت میکاہ 5:2\",\"severity\":\"major\",\"source_quote\":\"though thou be little among the thousands of Judah\",\"suggested_fix\":\"«اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے» کو «اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے» کی جگہ «اگرچہ تو یہوداہ کے قبیلوں میں چھوٹا ہے» کریں؛ یہاں مراد یہوداہ کے ہزاروں (قبیلوں/خاندانوں) میں چھوٹا ہونا ہے، نہ کہ ہزاروں افراد میں۔\",\"translation_quote\":\"اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے\"},{\"location\":\"آخری حصے کا تیسرا پیراگراف، اعمال 7:3 کا بیان\",\"severity\":\"major\",\"source_quote\":\"Stephen spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9\",\"suggested_fix\":\"«یوسف کے اپنے گھرانے سے بیچے جانے» کو «یوسف کے اپنے گھر سے بیچے جانے» کریں؛ اصل میں یوسف کے اپنے گھر سے فروخت کیے جانے کا ذکر ہے، گھرانے سے فروخت کیے جانے کا نہیں۔\",\"translation_quote\":\"یوسف کے اپنے گھرانے سے بیچے جانے\"}],\"passed\":false,\"score\":96}",
+    "content_bytes": 1813,
+    "content_evidence_truncated": false,
+    "content_sha256": "b7251cdcd2c0747b4af468733543edb66c9ff2539937229856fc0cc22d410173",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 404,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9246,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9243,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9650
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

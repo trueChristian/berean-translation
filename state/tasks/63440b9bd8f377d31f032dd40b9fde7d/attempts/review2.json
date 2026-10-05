@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Shairi, ubeti wa kwanza, mstari wa sita\",\"severity\":\"minor\",\"source_quote\":\"He boldly proclaimed his own sovereignty.\",\"suggested_fix\":\"Badilisha “Alitangaza kwa ujasiri enzi yake mwenyewe” kuwa “Alitangaza kwa ujasiri mamlaka yake mwenyewe.”\",\"translation_quote\":\"Alitangaza kwa ujasiri enzi yake mwenyewe.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 370,
+    "content_evidence_truncated": false,
+    "content_sha256": "748fd42f74f7ba134358f87f44d84b71712958c815597916ae9c601bdf832026",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 412,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1722,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2249
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

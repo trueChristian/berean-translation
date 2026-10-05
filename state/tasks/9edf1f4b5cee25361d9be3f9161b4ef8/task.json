@@ -2,7 +2,6 @@
   "article_id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,68 @@
         },
         "total_tokens": 7065
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, final paragraph before the figure (Psalm 16:8–9)",
-      "severity": "major",
-      "source_quote": "my flesh also shall rest in hope",
-      "suggested_fix": "Replace the corresponding Swahili clause with “mwili wangu nao utastarehe katika tumaini” (or an idiomatic equivalent that preserves both resting and hope).",
-      "translation_quote": "tena mwili wangu utakaa salama"
     },
     {
-      "location": "source.html, image alt text",
-      "severity": "minor",
-      "source_quote": "Mountains reflected in a calm lake beneath a purple sky",
-      "suggested_fix": "Change “Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau” to “Milima ikionekana kama taswira kwenye maji tulivu ya ziwa chini ya anga la zambarau.”",
-      "translation_quote": "Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 527,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4556,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4553,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5083
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“healthy and, even more importantly, Biblical emotional choices”",
+      "suggested_fix": "Badilisha sehemu hiyo iwe: “kujifunza kufanya maamuzi yenye afya ya kihisia na, muhimu zaidi, yanayopatana na Biblia.”",
+      "translation_quote": "“kuchagua hisia kwa njia yenye afya na, muhimu zaidi, inayotegemea Biblia”"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“Two are more general for everyone and two are specifically given for us ladies.”",
+      "suggested_fix": "Badilisha “zinawahusu wote” kwa “ni za jumla zaidi na zinawahusu kila mtu,” ili kuhifadhi maana ya kwamba aina mbili hizo ni za jumla kwa kila mtu.",
+      "translation_quote": "“Mbili ni za jumla zaidi na zinawahusu wote”"
+    },
+    {
+      "location": "Heading and discussion of “A Sober Spirit”",
+      "severity": "major",
+      "source_quote": "“A Sober Spirit”; “to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Tumia “Roho Yenye Utulivu” kama kichwa na, katika ufafanuzi, “kuwa mtulivu na mwenye kujizuia rohoni; kuwa na kiasi na kutotawaliwa na hisia.” Hivi vinatofautisha kiasi na utulivu wa roho unaosisitizwa na kifungu.",
+      "translation_quote": "“Roho Yenye Kiasi”; “kuwa mtulivu na mwenye kujizuia rohoni; kuwa na kiasi na kutotawaliwa na hisia.”"
+    },
+    {
+      "location": "Paragraph under “A Meek Spirit”",
+      "severity": "major",
+      "source_quote": "“moving only at His will.”",
+      "suggested_fix": "Badilisha mwisho wa sentensi uwe “akitenda tu kwa mapenzi Yake.”",
+      "translation_quote": "“huenda tu anapotaka yeye.”"
+    },
+    {
+      "location": "Paragraph under “A Quiet Spirit”",
+      "severity": "major",
+      "source_quote": "“It is an attitude of sitting back and letting God lead—whether exciting or boring”",
+      "suggested_fix": "Badilisha “kukaa kimya” kwa “kutulia na kumwacha Mungu akuongoze” ili kuhifadhi wazo la kutokujitahidi kudhibiti mambo, si kukaa kimya tu.",
+      "translation_quote": "“Ni mtazamo wa kukaa kimya na kumwacha Mungu akuongoze”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "9edf1f4b5cee25361d9be3f9161b4ef8",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -172,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/db672b88db7ac1a73fa51050b3b0d2743d20a0fd2adcbe9db5fd9da071a74cc2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
   "translation_model_actual": "gpt-6-luna"

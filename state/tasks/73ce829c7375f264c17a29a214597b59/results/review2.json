@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9bf8a09e-ca6f-477c-90dd-8aa3726e4fac",
+    "response_id": "chatcmpl-EVcqWlLFNuUpLSXujdknJTsE1IPP5",
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5346,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5343,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6152
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final paragraph",
+        "severity": "minor",
+        "source_quote": "“fiendish demons”",
+        "suggested_fix": "Replace «τους δαιμονικούς δαίμονες» with «τους μοχθηρούς δαίμονες» to avoid the redundant wording while preserving the meaning.",
+        "translation_quote": "«τους δαιμονικούς δαίμονες»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

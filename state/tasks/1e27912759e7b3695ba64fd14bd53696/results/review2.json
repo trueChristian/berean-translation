@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "778e5dc2-0b44-4e91-9bd1-d6bf30b78f31",
+    "response_id": "chatcmpl-EVcpJBBx1PnDJec1eLVDHwGUGPp0A",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4528,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5369
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "major",
+        "source_quote": "Paul urgently and passionately declared the whole counsel of God until his conscience was free from the guilt of the blood of all men.",
+        "suggested_fix": "Replace with: ״פאולוס הכריז בדחיפות ובתשוקה את מלוא עצתו של אלוהים, עד שהיה נקי מאשמת דמם של כל בני האדם.״",
+        "translation_quote": "פאולוס הכריז בדחיפות ובתשוקה את מלוא עצתו של אלוהים, עד שמצפונו השתחרר מאשמת דמם של כל בני האדם."
+      },
+      {
+        "location": "Article, paragraph 6",
+        "severity": "major",
+        "source_quote": "Urgency filled, passionate preaching propels, teaches, convicts, and moves individuals in ways that even urgent personal Bible study, personal devotions, and discipleship cannot.",
+        "suggested_fix": "Replace ״התמסרות אישית ללימוד ולתפילה״ with ״התמסרות אישית״, preserving the distinction from Bible study and discipleship; for example: ״...אפילו לימוד אישי ודחוף של המקרא, התמסרות אישית וחניכות אינם יכולים להניע.״",
+        "translation_quote": "...אפילו לימוד אישי ודחוף של המקרא, התמסרות אישית ללימוד ולתפילה וחניכות אינם יכולים להניע."
+      },
+      {
+        "location": "Article, paragraph 6",
+        "severity": "major",
+        "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+        "suggested_fix": "Replace ״בלי אפשרות לבטל זאת וללא קשר לבחירה״ with ״בלי אפשרות לבטל זאת, וללא תלות בבחירה״, to convey that the outcome is laid on the hearer's conscience regardless of choice.",
+        "translation_quote": "בלי אפשרות לבטל זאת וללא קשר לבחירה, מונחת על מצפונו של השומע או הרשעה או ביטחון."
+      },
+      {
+        "location": "Article, paragraph 8",
+        "severity": "major",
+        "source_quote": "Current preaching styles have trended from ... and ...; to “God understands and feels your pain.”",
+        "suggested_fix": "Retain the source's two-part contrast: change the first ״ומ־״ before the second Scripture quotation to ״אל״, and change the following ״אל״ before the quoted statement to ״לעבר״ or another idiomatic equivalent of “to.”",
+        "translation_quote": "סגנונות ההטפה כיום נטו לעבור מ־... ומ־...; אל ״אלוהים מבין את כאבכם ומרגיש אותו״."
+      },
+      {
+        "location": "Article, paragraph 9",
+        "severity": "major",
+        "source_quote": "It entrenches complacent legalism into the core of the heart of man.",
+        "suggested_fix": "Replace ״חוקיות שאננה״ with ״חוקיות דתית שאננה״ or ״פורמליזם דתי שאנן״, to express complacent legalism rather than legality.",
+        "translation_quote": "הוא מטמיע חוקיות שאננה עמוק בלב האדם."
+      },
+      {
+        "location": "Article, paragraph 13",
+        "severity": "major",
+        "source_quote": "Through such enabling grace, the parishioners will either be spiritually moved to deeper levels of passionate living, or their conscience will be hardened against the Holy Spirit’s convicting influence.",
+        "suggested_fix": "Change ״בני הקהילה ינועו״ to ״בני הקהילה יונעו״ (or ״יתעוררו״) so they are the recipients of spiritual movement, as in the source.",
+        "translation_quote": "באמצעות חסד זה המאפשר זאת, בני הקהילה ינועו מבחינה רוחנית לעבר רבדים עמוקים יותר של חיים נלהבים, או שמצפונם יתקשה בפני השפעתה המוכיחה של רוח הקודש."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"المتن، الفقرة التي تبدأ «وحين أضاءت السماوات المرصعة بالنجوم»\",\"severity\":\"major\",\"source_quote\":\"As the star-spangled heavens erupted to life, the shepherds gazed in mesmerized awe at the scene before them\",\"suggested_fix\":\"استبدل «وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر» بـ«وحين دبّت الحياة في السماوات المرصعة بالنجوم، حدّق الرعاة في المشهد أمامهم مأخوذين بالدهشة».\",\"translation_quote\":\"وحين أضاءت السماوات المرصعة بالنجوم بالحياة، حدّق الرعاة في المشهد أمامهم بذهول آسِر\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 863,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3f28fe465742f531063c7f94e6d64641751fdf126a307855ea1444247fea0af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8472,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8668
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

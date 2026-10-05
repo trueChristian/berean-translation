@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first paragraph (Romans 10:15 quotation)",
+      "severity": "minor",
+      "source_quote": "“How beautiful are the feet of them that preach the gospel of peace, and bring glad tidings of good things!”",
+      "suggested_fix": "Change the final phrase to “en blijde tijding van goede dingen brengen” to preserve the sense of joyful news.",
+      "translation_quote": "“Hoe lieflijk zijn de voeten van hen die het evangelie van vrede verkondigen en goede dingen verkondigen!”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

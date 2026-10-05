@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “What about in our churches?”; Hebrews 3:12–13 quotation\",\"severity\":\"major\",\"source_quote\":\"But exhort one another daily\",\"suggested_fix\":\"Replace «بل عظوا أنفسكم كل يوم» with «بل عظوا بعضكم بعضًا كل يوم» to preserve the mutual exhortation in the source.\",\"translation_quote\":\"بل عظوا أنفسكم كل يوم\"},{\"location\":\"Paragraph beginning “How we speak to one another”\",\"severity\":\"major\",\"source_quote\":\"But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?\",\"suggested_fix\":\"Render the printed double negative rather than changing it to unwillingness, for example: «لكن إذا كنا غير رافضين للتكلم بالحق، حتى إن كان ذلك سيُغضب أحدًا منا، ألسنا عندئذ مخطئين؟»\",\"translation_quote\":\"لكن إذا لم نكن مستعدين للتكلم بالحق حين يعني ذلك أن أحدًا سيغضب منا، ألسنا عندئذ مخطئين؟\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1124,
+    "content_evidence_truncated": false,
+    "content_sha256": "fffe5079c5e76a004ccb8d286f9767504bba47dd1c33080c88a84913f698c7b7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8190,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8187,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9072
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

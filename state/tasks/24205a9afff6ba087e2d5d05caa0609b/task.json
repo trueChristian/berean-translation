@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 14490
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 404,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9246,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9243,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9650
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “The fact that this child was conceived by the Holy Ghost,” Ezekiel 16:4 quotation",
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "the unbeguiled scene",
+      "suggested_fix": "موجودہ «غیر مسخ شدہ منظر» کی جگہ «بے تصنع منظر» یا «اپنی اصل سادگی میں منظر» لکھیں، تاکہ مراد غیر فریب خوردہ/بے بناوٹ منظر ہو، نہ کہ مسخ نہ کیا گیا منظر۔",
+      "translation_quote": "اس غیر مسخ شدہ منظر کو دیکھیں"
+    },
+    {
+      "location": "پانچواں پیراگراف، آیت میکاہ 5:2",
       "severity": "major",
-      "source_quote": "“neither wast thou washed in water to supple thee; thou wast not salted at all, nor swaddled at all”",
-      "suggested_fix": "In the Ezekiel quotation, replace “نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔” with “نہ تجھے پانی سے نہلایا گیا تاکہ تجھے نرم کیا جائے؛ تجھے بالکل نمک نہیں لگایا گیا، اور نہ ہی کپڑوں میں لپیٹا گیا۔” This restores the printed meaning: the water was to soften her, and she was not salted at all.",
-      "translation_quote": "“نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔”"
+      "source_quote": "though thou be little among the thousands of Judah",
+      "suggested_fix": "«اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے» کو «اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے» کی جگہ «اگرچہ تو یہوداہ کے قبیلوں میں چھوٹا ہے» کریں؛ یہاں مراد یہوداہ کے ہزاروں (قبیلوں/خاندانوں) میں چھوٹا ہونا ہے، نہ کہ ہزاروں افراد میں۔",
+      "translation_quote": "اگرچہ تو یہوداہ کے ہزاروں میں چھوٹا ہے"
+    },
+    {
+      "location": "آخری حصے کا تیسرا پیراگراف، اعمال 7:3 کا بیان",
+      "severity": "major",
+      "source_quote": "Stephen spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9",
+      "suggested_fix": "«یوسف کے اپنے گھرانے سے بیچے جانے» کو «یوسف کے اپنے گھر سے بیچے جانے» کریں؛ اصل میں یوسف کے اپنے گھر سے فروخت کیے جانے کا ذکر ہے، گھرانے سے فروخت کیے جانے کا نہیں۔",
+      "translation_quote": "یوسف کے اپنے گھرانے سے بیچے جانے"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "24205a9afff6ba087e2d5d05caa0609b",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "urd",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

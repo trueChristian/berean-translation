@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1edfcef3-b322-4165-8730-f04fb8c84306",
+    "response_id": "chatcmpl-EVcpwrktg2Z8pgOHCrGP4KOLmW1eC",
+    "usage": {
+      "completion_tokens": 628,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5418,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5415,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6046
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «دخل موز س. ستولتزفوس»",
+        "severity": "minor",
+        "source_quote": "leaving a legacy of godly faithfulness to the end",
+        "suggested_fix": "استبدل «إرثًا من الأمانة التقوية حتى النهاية» بـ «إرثًا من الأمانة لله حتى النهاية» لتكون العبارة أوضح وأكثر سلاسة في العربية.",
+        "translation_quote": "تاركًا إرثًا من الأمانة التقوية حتى النهاية"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,75 @@
         },
         "total_tokens": 9195
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Editor’s Note, paragraph",
-      "severity": "major",
-      "source_quote": "“passing out tracts”",
-      "suggested_fix": "Replace «رسالے» with «مذہبی پرچے» or «مذہبی پمفلٹ» so the sentence says they distributed tracts, not magazines.",
-      "translation_quote": "«سڑک پر گواہی دینے اور رسالے تقسیم کرنے کا اہتمام بھی کیا»"
     },
     {
-      "location": "Paragraph beginning “For nearly two decades…”",
-      "severity": "major",
-      "source_quote": "“starting Friday evening, going all day Saturday”",
-      "suggested_fix": "Replace «سارا ہفتہ یعنی ہفتہ کا دن» with «ہفتے کا پورا دن» (or another clear equivalent); the current wording can mean the whole week, not all day Saturday.",
-      "translation_quote": "«جمعہ کی شام شروع ہوتا، سارا ہفتہ یعنی ہفتہ کا دن جاری رہتا»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 683,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5889,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5886,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6572
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML، مدیر کا نوٹ، پیراگراف 1",
+      "severity": "major",
+      "source_quote": "“They continued this for a number of years until it eventually went out of print temporarily due to their editors moving out of the area.”",
+      "suggested_fix": "«انہوں نے یہ کام کئی سال تک جاری رکھا، یہاں تک کہ ان کے مدیران کے علاقے سے چلے جانے کے باعث رسالہ عارضی طور پر اشاعت سے باہر ہوگیا۔»",
+      "translation_quote": "«انہوں نے کئی سال تک اسے جاری رکھا، یہاں تک کہ ان کے مدیران کے علاقے سے چلے جانے کے باعث یہ عارضی طور پر شائع ہونا بند ہوگیا۔»"
+    },
+    {
+      "location": "HTML، پولس کے حوالے کا اقتباس، پہلا جملہ",
+      "severity": "major",
+      "source_quote": "“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.”",
+      "suggested_fix": "«میں یونانیوں اور بربریوں، داناؤں اور نادانوں، دونوں کا مقروض ہوں۔»",
+      "translation_quote": "«میں یونانیوں اور غیر یونانیوں، داناؤں اور نادانوں، دونوں کا مقروض ہوں۔»"
+    },
+    {
+      "location": "HTML، ڈینی کیناسٹن کے ساتھ سفر کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“With much unction from the Holy One, they would preach the Gospel.”",
+      "suggested_fix": "«روح القدس کی بھرپور مسح کاری کے ساتھ وہ انجیل سناتے۔»",
+      "translation_quote": "«روح القدس کی بھرپور تحریک کے ساتھ وہ انجیل سناتے۔»"
+    },
+    {
+      "location": "HTML، انفرادی گفتگو کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“It could be a middle-aged person on a hospital bed, a youth in a living room, or a young adult who had responded to the Holy Spirit’s moving after a preaching service.”",
+      "suggested_fix": "«وہ ہسپتال کے بستر پر پڑا کوئی ادھیڑ عمر شخص، بیٹھک میں کوئی نوجوان، یا منادی کے اجتماع کے بعد روح القدس کی تحریک کا جواب دینے والا کوئی نوجوان بالغ ہو سکتا تھا۔»",
+      "translation_quote": "«وہ ہسپتال کے بستر پر پڑا ادھیڑ عمر شخص ہوسکتا تھا، بیٹھک میں کوئی نوجوان، یا کوئی نوجوان بالغ جس نے منادی کے اجتماع کے بعد روح القدس کی تحریک کا جواب دیا ہو۔»"
+    },
+    {
+      "location": "HTML، قیادت کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“for want of a man to stand in the gap.”",
+      "suggested_fix": "«کیونکہ خلا میں کھڑے ہونے کے لیے کوئی شخص موجود نہیں تھا۔»",
+      "translation_quote": "«کیونکہ کوئی شخص خلا کو پُر کرنے کے لیے کھڑا نہیں تھا۔»"
+    },
+    {
+      "location": "HTML، قیادت کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“he would frequently seek out the council of fellow ministers.”",
+      "suggested_fix": "«وہ اکثر ساتھی خادموں کی مجلس سے رجوع کرتے۔»",
+      "translation_quote": "«وہ اکثر ساتھی خادموں سے مشورہ لیتے۔»"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "1780d47a835e921ef8af4d2e60e0922f",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "urd",
@@ -172,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

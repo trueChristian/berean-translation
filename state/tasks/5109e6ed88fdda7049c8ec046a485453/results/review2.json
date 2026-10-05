@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "38e6012e-542f-4af5-8c86-afc52da8abdb",
+    "response_id": "chatcmpl-EVcqM2obf8YQLviekegzuL2E8f0vG",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 705,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8809,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8806,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9689
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “পবিত্র বাইবেলের কয়েকটি উদাহরণ বিবেচনা করা যাক।”",
+        "severity": "major",
+        "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+        "suggested_fix": "Remove “তাঁদের জন্য” in “তাঁদের প্রত্যেকেই তাঁদের জন্য কষ্টভোগ করেছিলেন।” The source sentence is incomplete at “for their”; do not supply an unprinted object or attribute a specific reason for their suffering.",
+        "translation_quote": "“শিষ্যদের কথা ভাবুন—তাঁদের প্রত্যেকেই তাঁদের জন্য কষ্টভোগ করেছিলেন।”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

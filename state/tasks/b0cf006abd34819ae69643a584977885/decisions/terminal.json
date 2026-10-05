@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Når jeg tenker på bror Mose»",
+      "severity": "major",
+      "source_quote": "He was …not ashamed of the gospel of Christ: boldly proclaiming it to be …the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.",
+      "suggested_fix": "Erstatt den aktuelle setningen med: «Han skammet seg <em>…ikke over Kristi evangelium:</em> og forkynte frimodig at det er <em>…Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.</em>»",
+      "translation_quote": "Han skammet seg <em>…ikke over Kristi evangelium:</em> Han forkynte frimodig at det er <em>…Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

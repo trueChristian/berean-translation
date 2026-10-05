@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, «Etiske spørsmål» and «Andre vaksiner»",
+      "severity": "major",
+      "source_quote": "“Some of these vaccines are grown on cell lines that were derived from babies that were aborted in the 70s and 80s.” / “HEK293 fetal cells, which are derived from an aborted infant.”",
+      "suggested_fix": "Preserve the source’s wording that these cell lines derive from aborted babies/infants, rather than replacing that characterization with the less specific «fostre». For example: «Noen av disse vaksinene dyrkes på cellelinjer som stammer fra babyer som ble abortert på 70- og 80-tallet.» and «… HEK293-fosterceller, som stammer fra et spedbarn som ble abortert.»",
+      "translation_quote": "«Noen av disse vaksinene dyrkes på cellelinjer som stammer fra fostre som ble abortert på 70- og 80-tallet.» / «… HEK293-fosterceller, som stammer fra et abortert foster.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5022cd3f-94fc-43b3-931f-d65b34178a98",
+    "response_id": "chatcmpl-EVcpXHipJ8JcYteTtnlgD0MMEzqWn",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5737,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6344
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, first sentence",
+        "severity": "minor",
+        "source_quote": "Normally, we haven’t used our magazine to bring focus to any specific individual.",
+        "suggested_fix": "Kwa kawaida, hatujayatumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi.",
+        "translation_quote": "Kwa kawaida, hatujaitumia magazeti yetu kuelekeza fikira kwa mtu yeyote mahususi."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning «…لا بالقدرة ولا بالقوة»",
+      "severity": "major",
+      "source_quote": "“Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.”",
+      "suggested_fix": "استبدل «الدينونة» بـ«الهلاك» أو «الهلاك الأبدي» في هذه الجملة، مع إبقاء بقية النص كما هو؛ فالمقابلة هنا بين الهلاك واليقين، لا بين الدينونة واليقين.",
+      "translation_quote": "«وبلا رجعة، وبصرف النظر عن الاختيار، يُلقى على ضمير السامع إما الدينونة وإما اليقين.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

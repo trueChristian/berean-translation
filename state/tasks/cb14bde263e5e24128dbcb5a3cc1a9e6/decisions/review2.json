@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, ‘ষড়যন্ত্রের তত্ত্ব’ অংশের সংজ্ঞা",
+      "severity": "major",
+      "source_quote": "“Conspiracy = a secret plan by a group to do something unlawful or harmful. Theory = a supposition or a system of ideas intended to explain something.”",
+      "suggested_fix": "অনুবাদে সংজ্ঞাগুলোকে হুবহু এভাবে অর্থবদ্ধ করুন: “ষড়যন্ত্র = কোনো বেআইনি বা ক্ষতিকর কাজ করার জন্য একটি দলের গোপন পরিকল্পনা। তত্ত্ব = কোনো কিছু ব্যাখ্যা করার উদ্দেশ্যে করা অনুমান বা ধারণার একটি পদ্ধতি।”",
+      "translation_quote": "“ষড়যন্ত্র = কোনো বেআইনি বা ক্ষতিকর কাজ করার জন্য একটি দলের গোপন পরিকল্পনা। তত্ত্ব = কোনো কিছু ব্যাখ্যা করার উদ্দেশ্যে গড়ে তোলা অনুমান বা ধারণার একটি পদ্ধতি।”"
+    },
+    {
+      "location": "HTML, ‘ভাইরাস যখন ঘরে আঘাত হানে’ অংশের দ্বিতীয় অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.”",
+      "suggested_fix": "“নিয়ন্ত্রিত ওষুধ”কে “সীমাবদ্ধ ব্যবহারের ওষুধ” বা প্রসঙ্গমাফিক “নিয়ন্ত্রিতভাবে ব্যবহারের ওষুধ” করুন; উৎসের ‘restricted’ অর্থটি বজায় রাখুন।",
+      "translation_quote": "“হাসপাতালে ভর্তি হওয়া থেকে আমাকে যা রক্ষা করেছিল, তা হলো প্রতিদিন একটি নিয়ন্ত্রিত ওষুধ গ্রহণ এবং নেবুলাইজারের মাধ্যমে চিকিৎসায় স্টেরয়েডের সুপারিশকৃত মাত্রার দ্বিগুণ গ্রহণ।”"
+    },
+    {
+      "location": "HTML, ‘একটি আগ্রহের বিষয়’ অংশের দ্বিতীয় অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
+      "suggested_fix": "“আমার প্রপিতামহ-প্রপিতামহী”কে এমনভাবে সংশোধন করুন যাতে দুই প্রজন্ম আগের পূর্বপুরুষ বোঝায়, যেমন: “জন এস. ও মারিয়া (হর্নিং) কার্টজ আমার প্রপিতামহ ও প্রপিতামহী ছিলেন।”",
+      "translation_quote": "“জন এস. ও মারিয়া (হর্নিং) কার্টজ ছিলেন আমার প্রপিতামহ-প্রপিতামহী।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 2774
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 670,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 570,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1801,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1798,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2471
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, stanza 3, second line",
-      "severity": "major",
-      "source_quote": "I don’t expect to stop until I with Him stand,",
-      "suggested_fix": "Jeg regner ikke med å stanse før jeg står sammen med ham,",
-      "translation_quote": "Jeg venter ikke med å stanse før jeg står sammen med ham,"
-    },
-    {
-      "location": "HTML, stanza 4, third line",
+      "location": "source.html, copyright line",
       "severity": "minor",
-      "source_quote": "Their songs of sweetest praise drift back from heaven’s shore,",
-      "suggested_fix": "Deres skjønneste lovsanger driver hit fra himmelens strand,",
-      "translation_quote": "Deres sanger med den søteste lovprisning driver hit fra himmelens strand,"
+      "source_quote": "Copyright: Public Domain",
+      "suggested_fix": "Bytt «Felleseie» med «Falt i det fri» for å gjengi opphavsrettsstatusen tydeligere.",
+      "translation_quote": "Opphavsrett: Felleseie"
     }
   ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "c21c7e5214d473a360e2c8a93d92656a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

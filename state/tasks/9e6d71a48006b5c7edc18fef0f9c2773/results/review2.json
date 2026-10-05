@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cf4e9fd4-1ac2-47de-90dc-fdc5c6777562",
+    "response_id": "chatcmpl-EVcq5k0Cxq8P6Te8d0vspm3bSutY4",
+    "usage": {
+      "completion_tokens": 130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8847,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8980
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Il fatto che questo bambino fosse stato concepito…”",
+        "severity": "major",
+        "source_quote": "The fact that this child was conceived by the Holy Ghost as detailed in Matthew 1:20",
+        "suggested_fix": "Sostituire «come descritto in Matteo 1:20» con «come indicato in Matteo 1:20» per rendere correttamente “as detailed” senza cambiare il riferimento.",
+        "translation_quote": "come descritto in Matteo 1:20"
+      }
+    ],
+    "passed": false,
+    "score": 97
+  }
+}

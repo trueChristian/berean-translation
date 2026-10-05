@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Die gegenwärtigen Predigtstile…”\",\"severity\":\"minor\",\"source_quote\":\"<strong>from</strong> … <strong>to</strong>\",\"suggested_fix\":\"Keep the source emphasis by putting the German contrast markers inside the existing <strong> tags (for example, „weg von“ and „hin zu“) and avoid duplicating those markers in the surrounding sentence.\",\"translation_quote\":\"<strong></strong> … <strong></strong>\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 492,
+    "content_evidence_truncated": false,
+    "content_sha256": "f15ee477f17a6dc30b76b97019d388141e1f10eb89bbef345a1305949c4413cb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 851,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4410,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4407,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5395
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

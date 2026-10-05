@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “For nearly two decades”\",\"severity\":\"major\",\"source_quote\":\"With much unction from the Holy One, they would preach the Gospel.\",\"suggested_fix\":\"Replace «Με μεγάλη έμπνευση από τον Άγιο» with «Με μεγάλο χρίσμα από τον Άγιο» to preserve the source’s sense of spiritual anointing.\",\"translation_quote\":\"Με μεγάλη έμπνευση από τον Άγιο, κήρυτταν το Ευαγγέλιο.\"},{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"FEATURED ARTICLE\",\"suggested_fix\":\"Use «ΕΠΙΛΕΓΜΕΝΟ ΑΡΘΡΟ» to convey that this is a featured article, rather than the main article.\",\"translation_quote\":\"ΚΥΡΙΟ ΑΡΘΡΟ\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 795,
+    "content_evidence_truncated": false,
+    "content_sha256": "98716ecc2d16fd06e018e4ea049fcd3ec6c7d03a0aacbc6baf6e8beb720bbf56",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6638,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7493
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

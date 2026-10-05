@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c1021339-f280-4483-99cc-707ade3f2797",
+    "response_id": "chatcmpl-EVcqn47HLq7iDI3DXtetQzXzdNNJ2",
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4483,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5234
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph defining “sober”",
+        "severity": "minor",
+        "source_quote": "“to be calm and collected in spirit; to be temperate, dispassionate.”",
+        "suggested_fix": "Ändra ”opartisk” till ”oberörd” eller ”behärskad”, så att betydelsen av ”dispassionate” återges utan innebörden ”impartial”.",
+        "translation_quote": "”att vara lugn och samlad till sinnet; att vara måttfull och opartisk”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

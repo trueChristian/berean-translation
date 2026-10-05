@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “There are dangerous heresies around today”",
+      "severity": "major",
+      "source_quote": "“false teachings about ‘casting out’ sin, rather than ‘putting it away’, ‘putting it off ’, or ‘turning away from’”",
+      "suggested_fix": "Replace « sur le fait d’“expulser” le péché, au lieu de le “délaisser”, de s’en “dépouiller” ou de s’en “détourner” » with « sur le fait d’“expulser” le péché, au lieu de le “mettre de côté”, de s’en “dépouiller” ou de s’en “détourner” », preserving the paragraph’s existing HTML structure.",
+      "translation_quote": "« sur le fait d’“expulser” le péché, au lieu de le “délaisser”, de s’en “dépouiller” ou de s’en “détourner” »"
+    },
+    {
+      "location": "source.html, paragraph beginning “There are dangerous heresies around today”",
+      "severity": "major",
+      "source_quote": "“what often precedes people allowing deception to take root is that they first open themselves to false teachings which they embrace leaving them unable to discern what spirit is speaking to them.”",
+      "suggested_fix": "Revise « souvent, avant que des personnes ne laissent la tromperie prendre racine, elles s’ouvrent d’abord à de faux enseignements qu’elles adoptent, ce qui les rend incapables de discerner quel esprit leur parle » to make clear that embracing the false teachings leaves them unable to discern which spirit is speaking to them; for example: « souvent, les personnes qui laissent la tromperie prendre racine se sont d’abord ouvertes à de faux enseignements qu’elles ont adoptés, ce qui les rend incapables de discerner quel esprit leur parle ».",
+      "translation_quote": "« souvent, avant que des personnes ne laissent la tromperie prendre racine, elles s’ouvrent d’abord à de faux enseignements qu’elles adoptent, ce qui les rend incapables de discerner quel esprit leur parle »"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

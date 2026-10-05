@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo sobre Pedro; referencia a Lucas",
+      "severity": "critical",
+      "source_quote": "This account seems to have been quite significant since it is recorded by three of the gospel writers in Matthew 16:23, Mark 8:33, and Luke 4:8.",
+      "suggested_fix": "Conserva los números de capítulo y versículo del original, pero corrige la discrepancia bíblica del texto fuente solo si está autorizado; en una traducción fiel, traduce la referencia impresa como «Lucas 4:8».",
+      "translation_quote": "Este relato parece haber sido bastante significativo, ya que lo registran tres de los escritores de los Evangelios en Mateo 16:23, Marcos 8:33 y Lucas 4:8."
+    },
+    {
+      "location": "Párrafo sobre los discípulos y los mártires",
+      "severity": "major",
+      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
+      "suggested_fix": "Traduce el fragmento tal como está impreso, sin completar la frase truncada: «Pensemos en los discípulos: cada uno de ellos sufrió por su… Al final, no pudieron dejar de hablar de las cosas que habían visto y oído».",
+      "translation_quote": "Pensemos en los discípulos: cada uno de ellos sufrió por su… Al final, no pudieron dejar de hablar de las cosas que habían visto y oído."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

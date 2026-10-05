@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "50ef868a-0819-4bc3-9e76-a59da4d6632b",
+    "response_id": "chatcmpl-EVcpKVYaD01HqwcupGHwU9B6QK2Ul",
+    "usage": {
+      "completion_tokens": 1085,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 884,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9405
+    }
+  },
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Let’s consider some examples in the Holy Bible”",
+        "severity": "major",
+        "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+        "suggested_fix": "Ganti “masing-masing dari mereka menderita demi mereka” dengan “masing-masing dari mereka menderita karena [lanjutan kalimat tidak tersedia dalam sumber]”. Sumber terputus setelah “their”; jangan menerjemahkannya seolah-olah para murid menderita demi orang lain.",
+        "translation_quote": "“Pikirkan para murid; masing-masing dari mereka menderita demi mereka. Pada akhirnya, mereka tidak dapat tidak berbicara tentang hal-hal yang telah mereka lihat dan dengar.”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "98ef81d0-55e0-4fab-99fd-2dfa46789834",
+    "response_id": "chatcmpl-EVcpNazfl2rwmaE4Sb32cvSw5msnJ",
+    "usage": {
+      "completion_tokens": 921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7036,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7033,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7957
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Matteüs 10:16-citaat",
+        "severity": "major",
+        "source_quote": "“wise as serpents, and harmless as doves”",
+        "suggested_fix": "Vervang “oprecht als de duiven” door “onschuldig als de duiven” of een andere formulering die de betekenis van “harmless” weergeeft.",
+        "translation_quote": "“wijs als de slangen en oprecht als de duiven”"
+      },
+      {
+        "location": "HTML, Lucas 21:34-citaat",
+        "severity": "major",
+        "source_quote": "“your hearts be overcharged with surfeiting, and drunkenness, and cares of this life”",
+        "suggested_fix": "Vervang “losbandigheid” door een formulering voor overmatig eten of overdaad, zodat “surfeiting” niet wordt verward met losbandig gedrag; behoud daarnaast “dronkenschap” en “de zorgen van het dagelijks leven”.",
+        "translation_quote": "“uw hart niet op enig moment bezwaard wordt door losbandigheid, dronkenschap en de zorgen van het dagelijks leven”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

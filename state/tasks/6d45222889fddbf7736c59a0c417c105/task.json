@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,31 @@
         },
         "total_tokens": 12191
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 809,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7661,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7658,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8502
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph 2 (2 Corinthians 4:8)",
-      "severity": "major",
-      "source_quote": "we are perplexed, but not in despair",
-      "suggested_fix": "Translate “perplexed” as उलझन में हैं, preserving the contrast with “not in despair”; for example: “हम उलझन में तो हैं, पर निराश नहीं होते।”",
-      "translation_quote": "निरुपाय तो होते हैं, पर निराश नहीं होते"
-    },
-    {
-      "location": "HTML, paragraph 4 (Romans 10:17)",
-      "severity": "major",
-      "source_quote": "faith cometh by hearing, and hearing by the word of God",
-      "suggested_fix": "Replace “मसीह के वचन” with “परमेश्वर के वचन” so the quotation preserves the source’s wording and attribution.",
-      "translation_quote": "विश्वास सुनने से, और सुनना मसीह के वचन से होता है"
-    },
-    {
-      "location": "HTML, paragraph 8 (Matthew 10:16)",
-      "severity": "major",
-      "source_quote": "wise as serpents, and harmless as doves",
-      "suggested_fix": "Use a Hindi equivalent of “harmless” such as “हानिरहित” or “निर्दोष”; “भोले” can mean naïve and does not preserve the source’s contrast.",
-      "translation_quote": "साँपों के समान बुद्धिमान और कबूतरों के समान भोले बनो"
-    },
-    {
-      "location": "HTML, paragraph 22 (Revelation 22:20-21)",
-      "severity": "minor",
-      "source_quote": "The grace of our Lord Jesus Christ be with you all.",
-      "suggested_fix": "Include “मसीह” in the title: “हमारे प्रभु यीशु मसीह का अनुग्रह तुम सब पर बना रहे।”",
-      "translation_quote": "प्रभु यीशु का अनुग्रह तुम सब पर बना रहे।"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "6d45222889fddbf7736c59a0c417c105",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -186,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

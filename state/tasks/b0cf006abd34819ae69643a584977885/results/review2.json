@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5cf8afda-88f5-4a35-9d4b-e66b86064971",
+    "response_id": "chatcmpl-EVcrmbigkk2rtYM3wJuaX8Q78GVbe",
+    "usage": {
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5551,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5799
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Når jeg tenker på bror Mose»",
+        "severity": "major",
+        "source_quote": "He was …not ashamed of the gospel of Christ: boldly proclaiming it to be …the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.",
+        "suggested_fix": "Erstatt den aktuelle setningen med: «Han skammet seg <em>…ikke over Kristi evangelium:</em> og forkynte frimodig at det er <em>…Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.</em>»",
+        "translation_quote": "Han skammet seg <em>…ikke over Kristi evangelium:</em> Han forkynte frimodig at det er <em>…Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

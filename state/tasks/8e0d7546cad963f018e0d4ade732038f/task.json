@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 14194
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, mRNA vaccine explanation and antibody-testing paragraph",
-      "severity": "major",
-      "source_quote": "“the spike protein on the COVID virus”; “an antibody to the spike protein”",
-      "suggested_fix": "Replace “aarproteïen” in both places with “spykproteïen” (or another standard Afrikaans equivalent for “spike protein”).",
-      "translation_quote": "“die aarproteïen op die COVID-virus”; “’n teenliggaam teen die aarproteïen”"
     },
     {
-      "location": "Article body, “Almal anders” paragraph",
-      "severity": "major",
-      "source_quote": "“I would certainly lean towards getting the vaccine.”; “I would lean towards getting one of the vaccines.”",
-      "suggested_fix": "Replace “die entstof aan te beveel” and “een van die entstowwe aan te beveel” with wording that preserves the author's more qualified stance, such as “geneig wees om die entstof te kry” and “geneig wees om een van die entstowwe te kry.”",
-      "translation_quote": "“sou ek beslis geneig wees om die entstof aan te beveel”; “sou ek geneig wees om een van die entstowwe aan te beveel”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 564,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 430,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9017,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9014,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9581
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article body, paragraphs describing mRNA vaccines and antibody testing",
+      "severity": "major",
+      "source_quote": "“the spike protein on the COVID virus”; “an antibody to the spike protein”",
+      "suggested_fix": "Replace “spykerproteïen” in both places with an appropriate Afrikaans term for the viral spike protein, such as “spitsproteïen”.",
+      "translation_quote": "“die spykerproteïen op die COVID-virus”; “’n teenliggaam teen die spykerproteïen”"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "8e0d7546cad963f018e0d4ade732038f",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "afr",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

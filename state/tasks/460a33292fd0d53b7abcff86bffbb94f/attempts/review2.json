@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-05T13:23:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, <p> about traditional vaccines under “Chanjo Nyingine”\",\"severity\":\"major\",\"source_quote\":\"“to trigger the immune response. create immunity.”\",\"suggested_fix\":\"Replace the sentence with “... ili kuchochea mwitikio wa kinga na kuleta kinga.”\",\"translation_quote\":\"“ili kuanzisha mwitikio wa kinga. huleta kinga.”\"},{\"location\":\"HTML, <p> about Norway nursing-home patients under “Madhara Yaliyosasishwa”\",\"severity\":\"major\",\"source_quote\":\"“In Norway, nearly all of the patients in nursing homes were vaccinated against COVID.”\",\"suggested_fix\":\"Change “karibu wagonjwa wote waliokuwa katika nyumba za wazee” to “karibu wagonjwa wote katika nyumba za wazee.” (The source says nearly all patients in nursing homes—not nearly all nursing-home patients.)\",\"translation_quote\":\"“Nchini Norway, karibu wagonjwa wote waliokuwa katika nyumba za wazee walipatiwa chanjo dhidi ya COVID.”\"},{\"location\":\"HTML, <p> about immune response to mRNA vaccine under “Chanjo za Awali”\",\"severity\":\"minor\",\"source_quote\":\"“the body’s immune system will identify those proteins as foreign and begin to create antibodies to them.”\",\"suggested_fix\":\"For clearer agreement, use “mfumo wa kinga ya mwili utazitambua protini hizo kuwa za kigeni na kuanza kutengeneza kingamwili dhidi ya protini hizo.”\",\"translation_quote\":\"“mfumo wa kinga ya mwili utazitambua protini hizo kuwa za kigeni na kuanza kutengeneza kingamwili dhidi yake.”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1525,
+    "content_evidence_truncated": false,
+    "content_sha256": "d34444bf2a8113508ce92fbb38e5a2720bfc5c24143ca2889cad2bc07fae4485",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9043,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9040,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9414
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

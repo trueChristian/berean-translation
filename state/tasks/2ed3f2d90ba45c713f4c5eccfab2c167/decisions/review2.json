@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section “Todos os demais,” first paragraph",
+      "severity": "major",
+      "source_quote": "If someone has not had a COVID infection, I would certainly lean towards getting the vaccine.",
+      "suggested_fix": "Replace “eu certamente tenderia a recomendar que tomasse a vacina” with “eu certamente tenderia a tomar a vacina” to preserve the author’s personal inclination rather than make it a recommendation to others.",
+      "translation_quote": "Se alguém não teve uma infecção por COVID, eu certamente tenderia a recomendar que tomasse a vacina."
+    },
+    {
+      "location": "HTML, section “Todos os demais,” first paragraph",
+      "severity": "major",
+      "source_quote": "For those who are working in health care, I would lean towards getting one of the vaccines.",
+      "suggested_fix": "Replace “eu tenderia a recomendar uma das vacinas” with “eu tenderia a tomar uma das vacinas” to retain the author’s stated personal inclination, not turn it into advice.",
+      "translation_quote": "Para aqueles que trabalham na área da saúde, eu tenderia a recomendar uma das vacinas."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

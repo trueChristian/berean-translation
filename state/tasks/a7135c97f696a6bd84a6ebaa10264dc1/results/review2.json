@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "da735902-f081-4cd3-986c-8a03e4c5d823",
+    "response_id": "chatcmpl-EVcqrSyHpke1dsddgPshJUr4wAs3i",
+    "usage": {
+      "completion_tokens": 1316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1131,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8708,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8705,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10024
+    }
+  },
+  "received_at": "2026-10-05T13:23:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph containing the Isaiah 53:1–3 quotation",
+        "severity": "major",
+        "source_quote": "a man of sorrows, and acquainted with grief: and we hid as it were our faces from him",
+        "suggested_fix": "In the translated quotation, render “acquainted with grief” as “kjent med sorg” (or an equivalent conveying grief, not illness), and retain the source’s first-person plural in “we hid … our faces,” for example: “og vi skjulte ansiktet for ham, som det var.” Preserve the existing <em> tags and quotation structure.",
+        "translation_quote": "en mann av smerte, kjent med sykdom, en som folk skjulte ansiktet for"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

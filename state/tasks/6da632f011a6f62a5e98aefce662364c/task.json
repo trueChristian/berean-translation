@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,39 +64,75 @@
         },
         "total_tokens": 7488
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4472,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4469,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5170
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraphe 5 — Josué 24:15",
-      "severity": "major",
-      "source_quote": "“…choose you this day whom ye will serve…”",
-      "suggested_fix": "Remplacer par « …choisissez aujourd’hui qui vous voulez servir… »",
-      "translation_quote": "« …choisissez aujourd’hui qui vous voulez servir… »"
-    },
-    {
-      "location": "source.html, paragraphe 6 — expression sur la souveraineté",
-      "severity": "major",
-      "source_quote": "“Sovereignty deems that under passionate, Spirit-anointed preaching, the conscience cannot resist accountability.”",
-      "suggested_fix": "Traduire la proposition comme une affirmation de l’auteur, par exemple : « La souveraineté veut que, sous une prédication passionnée et ointe de l’Esprit, la conscience ne puisse résister à la responsabilité qui lui incombe. »",
-      "translation_quote": "« La souveraineté veut que, sous une prédication passionnée et ointe de l’Esprit, la conscience ne puisse résister à cette responsabilité. »"
-    },
-    {
-      "location": "source.html, paragraphe 8 — transition « de… à… »",
+      "location": "Paragraph 3",
       "severity": "minor",
-      "source_quote": "“Current preaching styles have trended from [deux références bibliques] to ‘God understands and feels your pain.’”",
-      "suggested_fix": "Supprimer les éléments `<strong></strong>` vides et formuler la transition clairement, par exemple : « Les styles de prédication actuels ont évolué, délaissant [références] au profit de “Dieu comprend votre douleur et la ressent.” »",
-      "translation_quote": "« Les styles de prédication actuels ont évolué, passant de <strong></strong><em>…</em> et <em>…</em> à <strong></strong>« Dieu comprend votre douleur et la ressent. » »"
+      "source_quote": "Upon the choices of mankind hinge the earthly spread of either the kingdom of darkness or the Kingdom of Light.",
+      "suggested_fix": "Remplacer « Le déploiement terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité. » par « La propagation terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité. »",
+      "translation_quote": "Le déploiement terrestre du royaume des ténèbres ou du Royaume de Lumière dépend des choix de l’humanité."
     },
     {
-      "location": "source.html, paragraphe 12 — dernière phrase",
+      "location": "Paragraph 6",
       "severity": "major",
-      "source_quote": "“Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.”",
-      "suggested_fix": "Rendre explicite que c’est la prédication qui triomphe, par la foi, l’obéissance et le sang de l’Agneau : « Par la foi, l’obéissance et le sang de l’Agneau, la prédication triomphe du péché volontaire, des démons malfaisants, de la chair sensuelle et de Satan. »",
-      "translation_quote": "« Par la foi, l’obéissance et le sang de l’Agneau, elle vainc le péché volontaire, les démons malfaisants, la chair sensuelle et Satan. »"
+      "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+      "suggested_fix": "Remplacer « Sans possibilité de révocation et indépendamment de tout choix, la condamnation ou l’assurance est imposée à la conscience de celui qui entend. » par « Irrévocablement et indépendamment de tout choix, la damnation ou l’assurance est déposée sur la conscience de celui qui entend. »",
+      "translation_quote": "Sans possibilité de révocation et indépendamment de tout choix, la condamnation ou l’assurance est imposée à la conscience de celui qui entend."
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "They preached with expectancy, believing that their voices would move people at the core and bring about radical lifestyle changes.",
+      "suggested_fix": "Remplacer « Ils prêchaient avec confiance » par « Ils prêchaient dans l’attente », afin de conserver l’idée d’expectative plutôt que celle d’assurance.",
+      "translation_quote": "Ils prêchaient avec confiance"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "from Knowing therefore the terror of the Lord, we persuade men… and …We ought to obey God rather than men; to “God understands and feels your pain.”",
+      "suggested_fix": "Supprimer les balises <strong></strong> vides autour des citations ; elles ne correspondent à aucun passage en gras dans la source.",
+      "translation_quote": "<strong></strong><em>Sachant donc quelle crainte le Seigneur inspire, nous persuadons les hommes… –2 Corinthiens 5:11</em> et <em>…Il faut obéir à Dieu plutôt qu’aux hommes –Actes 5:29;</em> à <strong></strong>« Dieu comprend votre douleur et la ressent. »"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "minor",
+      "source_quote": "It heightens satisfaction in hypocritical living.",
+      "suggested_fix": "Remplacer « Cela renforce la satisfaction de vivre dans l’hypocrisie » par « Cela accroît le contentement que procure une vie hypocrite », pour éviter de faire entendre que la prédication accroît la satisfaction.",
+      "translation_quote": "Cela renforce la satisfaction de vivre dans l’hypocrisie."
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "…and report that God is in you of a truth",
+      "suggested_fix": "Remplacer « déclarera que Dieu est réellement au milieu de vous » par « déclarera que Dieu est véritablement en vous » ; conserver l’adresse plurielle du passage.",
+      "translation_quote": "déclarera que Dieu est réellement au milieu de vous"
     }
   ],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "6da632f011a6f62a5e98aefce662364c",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -186,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

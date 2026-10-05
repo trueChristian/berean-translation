@@ -6,9 +6,32 @@
       "campaign": "gh-37154319644",
       "event": "requested",
       "task": "edbbbff6ff75c04ac7df733ca3763672"
+    },
+    {
+      "at": "2026-10-05T13:23:06+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "edbbbff6ff75c04ac7df733ca3763672"
     }
   ],
   "language": "ind",
   "latest_task": "edbbbff6ff75c04ac7df733ca3763672",
-  "published": null
+  "published": {
+    "html_path": "content/ind/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.html",
+    "html_sha256": "877e4a3c9237b87f4165e8f896aee56bdd07c1ea506f13566aec28ea71bd91d0",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+    "metadata_path": "content/ind/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.json",
+    "metadata_sha256": "684e07107408a45656ff06c4ea40b12de0379f4704b69c8e39e41774917d2450",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-6-luna) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327/\" data-source-article-id=\"a1f4c51b-a704-47c2-813f-d3cce04d5327\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
+    "published_at": "2026-10-05T13:23:06+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
+    "task": "edbbbff6ff75c04ac7df733ca3763672",
+    "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923"
+  }
 }

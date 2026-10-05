@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph containing the Ezekiel 16:4 quotation",
+      "severity": "major",
+      "source_quote": "thou wast not salted at all",
+      "suggested_fix": "Ganti frasa “tidak digosok dengan garam” menjadi “tidak digarami sama sekali” agar tindakan yang disebut dalam kutipan sesuai dengan teks sumber.",
+      "translation_quote": "tidak digosok dengan garam"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

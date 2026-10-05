@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 9251
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 532,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 429,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6158,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6693
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Discontentment, Philippians 4:11 quotation",
-      "severity": "major",
-      "source_quote": "for I have learned, in whatsoever state I am, therewith to be content",
-      "suggested_fix": "Replace “porque já aprendi a contentar-me com o que tenho” with wording that preserves being content in any circumstance, such as “porque aprendi a estar contente em qualquer situação em que me encontre”.",
-      "translation_quote": "porque já aprendi a contentar-me com o que tenho"
-    },
-    {
-      "location": "Esther paragraph",
+      "location": "HTML, paragraph beginning “Ester, a rainha”",
       "severity": "minor",
-      "source_quote": "Esther, the queen",
-      "suggested_fix": "Use the conventional Portuguese form “Ester, a rainha” in this paragraph.",
-      "translation_quote": "Esther, a rainha"
+      "source_quote": "“If I perish, I perish.”",
+      "suggested_fix": "Replace “Se perecer, pereci” with “Se perecer, perecerei” to preserve the conditional meaning and repeated future sense.",
+      "translation_quote": "“Se perecer, pereci”"
     }
   ],
+  "finished_at": "2026-10-05T13:23:03+00:00",
   "id": "0ba7ddfa93ddbe524fe1b3eeb81d35a2",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "por",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

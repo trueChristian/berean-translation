@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fde697cd-ccc1-4bfe-b3cd-a6fffc94174e",
+    "response_id": "chatcmpl-EVcp64i0sDAzVptqU82J3Dntm5P93",
+    "usage": {
+      "completion_tokens": 956,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 733,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8143,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9102
+    }
+  },
+  "received_at": "2026-10-05T13:23:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, Absatz mit Matthäus 23:14–15; entsprechender deutscher Vers",
+        "severity": "major",
+        "source_quote": "therefore ye shall receive the greater damnation.",
+        "suggested_fix": "Ersetze „darum werdet ihr ein umso härteres Urteil empfangen“ durch „darum werdet ihr eine umso größere Verdammnis empfangen“, damit die Aussage über Verdammnis erhalten bleibt.",
+        "translation_quote": "darum werdet ihr ein umso härteres Urteil empfangen."
+      },
+      {
+        "location": "source.html, Absatz mit Titus 2:15",
+        "severity": "minor",
+        "source_quote": "speak, and exhort, and rebuke with all authority",
+        "suggested_fix": "Gib „with all authority“ ausdrücklich wieder, etwa: „rede und ermahne und weise mit aller Vollmacht zurecht“.",
+        "translation_quote": "rede und ermahne und weise mit allem Nachdruck zurecht"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

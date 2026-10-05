@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8064
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "正文第9段",
-      "severity": "major",
-      "source_quote": "He even preached on city streets to those who never went to church.",
-      "suggested_fix": "将“他甚至在城市街头向从不上教会的人讲道。”改为“他甚至在城市街头向从不去教堂的人讲道。”",
-      "translation_quote": "他甚至在城市街头向从不上教会的人讲道。"
     },
     {
-      "location": "正文第15段",
-      "severity": "major",
-      "source_quote": "One thing that seemed to make him restless in spirit was to observe a situation where there was lack of leadership, for want of a man to stand in the gap.",
-      "suggested_fix": "将“只因没有人挺身而出填补缺口”改为“因为缺少一位挺身而出填补缺口的人”，以保留原文所说的缺乏领袖、无人承担这一原因。",
-      "translation_quote": "有一件事似乎会使他心里不安，那就是看到某种处境缺少领导，只因没有人挺身而出填补缺口。"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 142,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5306,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5303,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5448
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "正文第九段：教会群体名称",
+      "severity": "major",
+      "source_quote": "various conservative, Anabaptist groups",
+      "suggested_fix": "将“各种保守的再洗礼派团体”改为“各种保守的安abaptist（再洗礼派）团体”并统一采用可辨识的中文译名；此处原文指历史上的 Anabaptist 群体，不应误作通常所说的“再洗礼派”。",
+      "translation_quote": "各种保守的再洗礼派团体"
+    }
+  ],
+  "finished_at": "2026-10-05T13:23:05+00:00",
   "id": "a30a7e0aec91fa7830e913107b10c750",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "cmn",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

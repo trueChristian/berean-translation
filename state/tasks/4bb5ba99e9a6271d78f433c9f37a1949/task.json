@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "421ad5b2c5d3499bad532cfaa2d5cd18",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 13975
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 703,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 671,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8867,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8864,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9570
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "본문, “다른 백신들” 첫 문단",
-      "severity": "major",
-      "source_quote": "Janssen (Johnson and Johnson) Pharmaceuticals and Astra Zeneca are both working on vaccines that are more traditional vaccines—that is they grow the virus, then kill it, and then give small doses of the killed virus to trigger the immune response. create immunity.",
-      "suggested_fix": "해당 문장을 다음과 같이 고치십시오: “얀센(존슨앤드존슨) 제약회사와 아스트라제네카는 모두 좀 더 전통적인 백신을 개발하고 있습니다. 즉 바이러스를 배양한 뒤 죽이고, 죽은 바이러스를 소량 투여해 면역 반응을 유발하고 면역력을 형성합니다.”",
-      "translation_quote": "얀센(존슨앤드존슨) 제약회사와 아스트라제네카는 모두 좀 더 전통적인 백신을 개발하고 있습니다. 즉 바이러스를 배양한 뒤 죽이고, 죽은 바이러스를 소량 투여해 면역 반응을 유발합니다. 면역을 형성합니다."
-    },
-    {
-      "location": "제목",
-      "severity": "minor",
-      "source_quote": "Vaccinated. . . To Be or Not To Be?",
-      "suggested_fix": "제목을 “백신 접종… 할 것인가, 말 것인가?”처럼 옮겨 원문의 수사적 대비를 자연스러운 한국어로 살리십시오.",
-      "translation_quote": "백신 접종, 할 것인가 말 것인가?"
-    },
-    {
-      "location": "본문, “그 밖의 질문” 첫 문단",
-      "severity": "minor",
-      "source_quote": "There have been a number of questions about who was behind these vaccines and a variety of concerns with respect to their development.",
-      "suggested_fix": "“이 백신을 누가 배후에서 만들었는지”를 “이 백신을 누가 주도했는지”로 고치십시오. 원문은 백신 개발의 배후 주체에 관한 질문을 말하며, ‘배후에서 만들었다’는 표현은 한국어에서 부정적 함의를 덧붙입니다.",
-      "translation_quote": "이 백신을 누가 배후에서 만들었는지, 개발 과정에 여러 우려 사항이 있는지에 대한 질문이 여럿 있었습니다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-05T13:23:04+00:00",
   "id": "4bb5ba99e9a6271d78f433c9f37a1949",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "kor",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"
