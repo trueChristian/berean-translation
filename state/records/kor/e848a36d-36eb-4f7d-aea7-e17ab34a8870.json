@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "3376b7c7bb13eeed5599953b299818e4",
       "task": "c7527dd4a0a44a563e33017e57b5df42"
+    },
+    {
+      "at": "2026-10-05T22:55:30+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: selection_location: Invalid candidate character offsets",
+      "task": "c7527dd4a0a44a563e33017e57b5df42"
     }
   ],
   "language": "kor",

@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: quote_scope_changed: Selection must cover the complete delimited output quotation",
+  "stage": "correct"
+}

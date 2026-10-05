@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ace5da099d1249348118801cd49f832e",
   "campaign": "gh-37339848895",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,30 @@
   "downstream_previous_sha256": "0d8e1a207247b2c8fbd770423170cc46b348c84fbc689eb8fac24055f188d34f",
   "downstream_previous_task": "ad1ec009cbb36b397dd0022136da1ca1",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6813,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1919,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26142,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24255,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 32955
+      }
+    }
+  ],
+  "failure": "Scripture attention: quote_scope_changed: Selection must cover the complete delimited output quotation",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "<h2>La démence dans la Bible</h2> — paragraph quoting Ecclesiastes 12:1-7",
@@ -44,6 +66,7 @@
       "translation_quote": "« Mais le fruit de l'Esprit, c'est l'amour, la joie, la paix, la patience, la bonté, la bienveillance, la foi, la douceur, la tempérance: contre de telles choses il n'y a point de loi » (Galatians 5:22-23)."
     }
   ],
+  "finished_at": "2026-10-05T22:55:30+00:00",
   "id": "28efa5c074274d178f2b3aa4bb8ada6b",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "fra",
@@ -139,8 +162,8 @@
   "scripture_evidence_sha256": "98493015bbe36e523417a9ea2f04bf3f1146564545c74011b46607c472517747",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }

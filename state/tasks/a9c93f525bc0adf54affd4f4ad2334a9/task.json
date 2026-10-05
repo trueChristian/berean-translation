@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ace5da099d1249348118801cd49f832e",
   "campaign": "gh-37339848895",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,29 @@
   "downstream_previous_sha256": "6d08e11b7fe738428c3406624f50e115e1ad768f8fb1fe35db527562572e0988",
   "downstream_previous_task": "01508c36f758a48b6f5cf497e3948af9",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3416,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9201,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7314,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 12617
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese. Hy het gehoor hulle was op pad na Kalifornië. So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help.</p>",
@@ -145,9 +166,9 @@
   "scripture_evidence_path": "state/scripture/ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e.json",
   "scripture_evidence_sha256": "ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }

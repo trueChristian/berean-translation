@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "ad1ec009cbb36b397dd0022136da1ca1",
       "task": "28efa5c074274d178f2b3aa4bb8ada6b"
+    },
+    {
+      "at": "2026-10-05T22:55:30+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: quote_scope_changed: Selection must cover the complete delimited output quotation",
+      "task": "28efa5c074274d178f2b3aa4bb8ada6b"
     }
   ],
   "language": "fra",

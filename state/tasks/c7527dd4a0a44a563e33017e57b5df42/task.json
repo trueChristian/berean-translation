@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ace5da099d1249348118801cd49f832e",
   "campaign": "gh-37339848895",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,30 @@
   "downstream_previous_sha256": "2fe4818567033350502ef63f75655375fcdf31b97c87e00599ccbb59a873fb09",
   "downstream_previous_task": "3376b7c7bb13eeed5599953b299818e4",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6571,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1536,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 25960,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24073,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 32531
+      }
+    }
+  ],
+  "failure": "Scripture attention: selection_location: Invalid candidate character offsets",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html — paragraph beginning with \"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.\"",
@@ -44,6 +66,7 @@
       "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
     }
   ],
+  "finished_at": "2026-10-05T22:55:30+00:00",
   "id": "c7527dd4a0a44a563e33017e57b5df42",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -139,8 +162,8 @@
   "scripture_evidence_sha256": "5391d361baaa243f7cd4944719b678d07cfbdd0508ae565a302b71105f776501",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }
