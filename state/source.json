@@ -8318,9 +8318,9 @@
     },
     "817a4322-2b8b-4c6d-ad51-81fab9a21d98": {
       "fingerprints": {
-        "html_sha256": "e893c346551fd946ca0aa19db26670e43439f391897d0d0ff9e9b8a6ac443640",
+        "html_sha256": "0abf4111e58212e39daafe8dff0cf39267b33c068c7e2b9d55df1ea6ce78cda3",
         "metadata_sha256": "395f2ca1c1df7b5771dc5603901948b6c89f4e02b976fc4f4a736f8e45da6abd",
-        "structure_sha256": "309b551d0d1443ec66a37beb7b8a98d6205e162be84a6c7a43c949c764911428",
+        "structure_sha256": "16017141b8a6cab8dfc5eb258895b0c158d95b5ce220bed2ef5ae3af3b7468f2",
         "text_sha256": "6d0024858375c88d2a7dcb0eb41afad3a308d650bc58b9bf7fc5e9503387449c",
         "translation_metadata_sha256": "6f8cbf2ad755e49be89f37c6184d01077bde569d2b5640e50b9abaccc774b9a6"
       },
@@ -8328,7 +8328,7 @@
       "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
       "sequence": 2,
       "title": "WHY REVIVAL LEAVES",
-      "translation_key": "b8e494d6184b659475852b8d1c33b210ab7cd5f5aa0a0672615635edf9df856b"
+      "translation_key": "3d9ee43a9dc4d11eb9b0e9cff9d337299a114bed3bc7cb33198cc2138c6d6642"
     },
     "81a91478-5833-4e2a-939b-6149bf90af5d": {
       "fingerprints": {
@@ -16339,7 +16339,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "aed8a776ac257ec9740ce8b999045434167e05d95c010d79d0600e055900ab7f",
+  "content_sha256": "65958d55aacbc92d2b2e6677836e97608d627402f666fc5fc0de46612dabd0d8",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17755,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "29e37890a4be91d8d0483d791303be3c8e642c91"
+  "revision": "3a69e4b2e8dc86c5d17ad4a23f734f612b88525e"
 }

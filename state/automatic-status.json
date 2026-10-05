@@ -1,6 +1,427 @@
 {
   "allocated_usd": 6.0,
   "approved_total_usd": 30.0,
-  "attention": [],
+  "attention": [
+    {
+      "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "language": "afr",
+      "reason": "repeated_technical_failure_requires_attention"
+    },
+    {
+      "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "34125090-b480-4d63-b13a-33d47470f335",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "language": "por",
+      "reason": "provider_refusal_requires_owner_attention"
+    },
+    {
+      "article_id": "042fce50-3724-4100-b397-093c6d081e89",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "042fce50-3724-4100-b397-093c6d081e89",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "hin",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "spa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "fra",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "language": "ell",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "8f996405-d870-4074-947b-35190faad643",
+      "language": "hin",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "8f996405-d870-4074-947b-35190faad643",
+      "language": "ara",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "8f996405-d870-4074-947b-35190faad643",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
+      "language": "ben",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "language": "swa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "language": "ind",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "cmn",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "ara",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "ben",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "swa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "language": "ell",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
+      "language": "heb",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
+      "language": "ell",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
+      "language": "ara",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
+      "language": "por",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
+      "language": "swa",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
+      "language": "ita",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "hin",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "ara",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "ind",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "rus",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "nld",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "afr",
+      "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "swa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "swe",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
+      "language": "nob",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "spa",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "ara",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "urd",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "rus",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "swa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "kor",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "language": "swe",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
+      "language": "heb",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
+      "language": "nob",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "language": "hin",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "language": "spa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "language": "fra",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "language": "ell",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "language": "nob",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "language": "spa",
+      "reason": "legacy_response_outcome_unknown_requires_owner_attention"
+    },
+    {
+      "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "language": "spa",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "language": "deu",
+      "reason": "technical_failure_requires_attention"
+    },
+    {
+      "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "language": "cmn",
+      "reason": "technical_failure_requires_attention"
+    }
+  ],
   "pending_requests": 0
 }
