@@ -494,7 +494,7 @@ Funded progressing repairs can continue beyond three historical cycles. Repeated
 
 Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 / $10.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $100.000000 across 8 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
+Separately authorized manual workflow allocations: $130.000000 across 9 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
 active: 104 | already_translated: 108 | continuation_progress_uncertain_requires_attention: 7 | eligible_automatic: 1323 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 68
@@ -573,6 +573,8 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37154422984` | manual recovery | repair | active | 5 | 5 active | 0.13259235 | 1.522819 / 10.00 | [state](state/campaigns/gh-37154422984.json) |
 | `gh-37314284958` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.056390 / 30.00 | [state](state/campaigns/gh-37314284958.json) |
 | `gh-37314352672` | manual | translate | active | 90 | 90 active | 0.00000000 | 0.534760 / 30.00 | [state](state/campaigns/gh-37314352672.json) |
+| `gh-37333306531` | manual | translate | planned | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333306531.json) |
+| `gh-37333368552` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333368552.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
