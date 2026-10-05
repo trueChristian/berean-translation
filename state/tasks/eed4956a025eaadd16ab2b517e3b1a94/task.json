@@ -1,0 +1,138 @@
+{
+  "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37339848895",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "42b2345c76b06bb4f3e7e5ef70ba4d8a485b89ebb4519322f20ee1a24af8aa37"
+  },
+  "created_at": "2026-10-05T16:25:36+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.206259,
+    "review_reserved_usd": 0.877565,
+    "total_reserved_usd": 1.083824
+  },
+  "downstream_candidate_sha256": "0bdca97db078214cf550884f2766c9b6ee4a8eae3a22108f6161645f586347ab",
+  "downstream_key": "cc3e074f03ad8ebdeca0c584a96f426af5238af4766c2e2d276008bf9e9a538b",
+  "downstream_previous_sha256": "b8971bff902f2807826aefc1dff373f5867918925a56361e491c94a01d6753a1",
+  "downstream_previous_task": "5134e7e0a0b3703778241fe3ffdfe3c7",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\">(second sentence, paragraph 2)",
+      "severity": "critical",
+      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+      "suggested_fix": "Translate the entire quoted speech into Greek; do not leave English in the text. Preserve HTML tags and sentence order. For example, replace the mixed-language sentence with a full Greek rendering such as: «Πιθανότατα γύρω στους 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Ω, είναι 65 βαθμοί! Μαμά, μπορούμε να φάμε έξω;»",
+      "translation_quote": "«Πιθανότατα γύρω στο 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Hey, it’s 65 degrees! Μαμά, μπορούμε να φάμε έξω;»"
+    },
+    {
+      "location": "<p>(...they each packed their lunch...)</p> (paragraph mentioning apple)",
+      "severity": "major",
+      "source_quote": "They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.",
+      "suggested_fix": "Correct the subsequent sentence that describes what Adrianna did with the apple core. The source later says she \"threw her apple core to the dogs.\" Ensure the word for 'apple core' is translated as 'κουκούτσι/κοτσάνι του μήλου' (or 'σπόρος/κορμός του μήλου') rather than 'φλούδι' (apple peel). For example, replace the Greek wording in the paragraph where Adrianna 'threw the apple core to the dogs' with: «Έριξε το κουκούτσι του μήλου στους σκύλους» while preserving tags and order.",
+      "translation_quote": "Ο καθένας πακετάρισε το φαγητό του σε μια σακούλα αγορών και πήγαν στο σημείο του πικνίκ, μια μεγάλη, επίπεδη πέτρα σε ένα ξέφωτο στο δάσος. ... Έριξε το φλούδι του μήλου στους σκύλους και ξεκίνησε για το σπίτι."
+    }
+  ],
+  "id": "eed4956a025eaadd16ab2b517e3b1a94",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "ell",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/e0277c6c501b5a8fc52f741c6afe819a7df55347ed2738c747ebdffbbe08ba22.json",
+  "scripture_evidence_sha256": "e0277c6c501b5a8fc52f741c6afe819a7df55347ed2738c747ebdffbbe08ba22",
+  "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

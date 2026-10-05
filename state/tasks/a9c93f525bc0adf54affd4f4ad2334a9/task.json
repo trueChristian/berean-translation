@@ -1,0 +1,152 @@
+{
+  "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37339848895",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "0faed18fb2e079da0bb87c17a0f49c7029b25120903af289c08dc90b25e982b5"
+  },
+  "created_at": "2026-10-05T16:25:36+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.217322,
+    "review_reserved_usd": 0.891683,
+    "total_reserved_usd": 1.109005
+  },
+  "downstream_candidate_sha256": "5685b83319d4cd571d57fdd5fae95282242347a2e53765027cfb4a86e5d2ade3",
+  "downstream_key": "cf0ae02dfd435b35a4bbaaf6e6e3baac65d11eccf7bc5f98afcb7c46e697fdaa",
+  "downstream_previous_sha256": "6d08e11b7fe738428c3406624f50e115e1ad768f8fb1fe35db527562572e0988",
+  "downstream_previous_task": "01508c36f758a48b6f5cf497e3948af9",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese. Hy het gehoor hulle was op pad na Kalifornië. So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help.</p>",
+      "severity": "major",
+      "source_quote": "So, Ken told them about his terrible life and asked if they would give him a ride.",
+      "suggested_fix": "Replace the partly untranslated/incorrect phrase with an appropriate Afrikaans rendering preserving meaning. For example: “So, Ken het vir hulle van sy verskriklike lewe vertel en gevra of hulle hom 'n rit na Kalifornië sou gee.” Preserve existing HTML tags and attributes exactly.",
+      "translation_quote": "So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help."
+    },
+    {
+      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.</p>",
+      "severity": "minor",
+      "source_quote": "His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.",
+      "suggested_fix": "Replace the incorrect/awkward rendering “Sjipeiese” with a correct Afrikaans term. Suggested: “Hul­le is bekend as Sygane.” or “Hulle is genoem Sygane.” Keep original HTML tags and punctuation.",
+      "translation_quote": "Hulle is genoem Sjipeiese."
+    },
+    {
+      "location": "<p>…Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het…</p>",
+      "severity": "minor",
+      "source_quote": "That is why we were still visiting the dingy, smoke-stained shop after six years of very little apparent success.",
+      "suggested_fix": "Correct the mistranslation/typo “rookgeplote” to a standard Afrikaans rendering such as “rookgeplakte” or “deur rook gesteekte” (suggested: “rookgeplakte”). Example: “Dit is hoekom ons steeds die donker, rookgeplakte winkel besoek het na ses jaar van baie min skynbare sukses.” Preserve HTML structure.",
+      "translation_quote": "Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het ná ses jaar van baie min skynbare sukses."
+    },
+    {
+      "location": "<p>…In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring.</p>",
+      "severity": "minor",
+      "source_quote": "Instead of understanding and loving him, each new family brought more yelling, hatred, and beating.",
+      "suggested_fix": "The translation reads “geskrik” (frightened) which changes meaning of “yelling”. Replace with “meer geskreeu” or “meer geskrik” → use “meer geskreeu” to match source meaning. For example: “In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin meer geskreeu, haat en slae gebring.” Preserve HTML tags.",
+      "translation_quote": "In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring."
+    }
+  ],
+  "id": "a9c93f525bc0adf54affd4f4ad2334a9",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "afr",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e.json",
+  "scripture_evidence_sha256": "ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e",
+  "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
