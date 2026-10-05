@@ -4,7 +4,7 @@
   "automatic_policy_version": 3,
   "committed_usd": 6.0,
   "counts": {
-    "active": 251,
+    "active": 247,
     "already_translated": 108,
     "continuation_progress_uncertain_requires_attention": 7,
     "eligible_automatic": 1207,
@@ -2690,14 +2690,6 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
-      "language": "cmn",
-      "latest_task": "d3eb4830797641409f4d6785c3fccd75",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
       "language": "cmn",
@@ -2743,14 +2735,6 @@
       "language": "cmn",
       "latest_task": "a30a7e0aec91fa7830e913107b10c750",
       "processing_status": "queued",
-      "reason": "active"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
-      "language": "cmn",
-      "latest_task": "e726e6be656d1ca0efa9c281c02f5381",
-      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -6138,14 +6122,6 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
-      "language": "hin",
-      "latest_task": "2252e76d19c3c32fcfb64946fe5e84e0",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
       "language": "hin",
@@ -6632,14 +6608,6 @@
       "latest_task": "b955099c264037fe9673a89fe21a6676",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
-      "language": "ind",
-      "latest_task": "7ace95f44ad30deeba4744e86bfa3d64",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13259,6 +13227,6 @@
     }
   ],
   "settled_unused_usd": 0.0,
-  "source_revision": "be8b1c6a2b88469534eea17b46de17b01494283b",
+  "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }

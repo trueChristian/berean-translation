@@ -19,9 +19,32 @@
       "event": "downstream_repair_requested",
       "previous_task": "85b8858c1d46450282fafc1ec7aa8ef8",
       "task": "e726e6be656d1ca0efa9c281c02f5381"
+    },
+    {
+      "at": "2026-10-05T13:08:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e726e6be656d1ca0efa9c281c02f5381"
     }
   ],
   "language": "cmn",
   "latest_task": "e726e6be656d1ca0efa9c281c02f5381",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+    "html_sha256": "2d96074857f245bd5412cd3f71734d058dabf72100658ca36a09318b9b87fd55",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/cmn/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+    "metadata_sha256": "fa53d1cd2ed1a6c08b5176ad3080e487117fecc6ce2e415ac944eb77e238ea1b",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6.1-sol）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f/\" data-source-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-10-05T13:08:54+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
+    "task": "e726e6be656d1ca0efa9c281c02f5381",
+    "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a"
+  }
 }

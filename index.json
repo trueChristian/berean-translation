@@ -9842,6 +9842,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
+      "html_sha256": "b07329b714205f84c88b5fe07debe668177d2177392a24e4a9fda0777b77d0b9",
+      "human_reviewed": false,
+      "id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "images": [
+        {
+          "alt": "一只橙黑相间的蝴蝶停在红色浆果旁",
+          "public_path": "/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b43320f3-e4e8-450b-865c-099ef704149c.json",
+      "metadata_sha256": "a058321720d35c386d98783af41e485b93213b3197ce4667dfa15389037dd001",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "基督徒门徒训练",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
+      "status": "ready",
+      "subtitle": null,
+      "title": "在败坏的社会中保持道德纯洁",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
       "html_sha256": "852b23d543272a32598a4a985de7ea09d02bdefd1428aeb5cc78e544cf773d8d",
       "human_reviewed": false,
@@ -10120,6 +10148,34 @@
       "subtitle": null,
       "title": "编者的话",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "2d96074857f245bd5412cd3f71734d058dabf72100658ca36a09318b9b87fd55",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "白色兰花，花芯紫色",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "fa53d1cd2ed1a6c08b5176ad3080e487117fecc6ce2e415ac944eb77e238ea1b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "春天的荣光",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -21073,6 +21129,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "a8b529f9e8a5d9da909badb19b35ae48cbdf63f6b4ea210e536d64320df39024",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "एक पहाड़ी झील के ऊपर तारों से भरा रात का आकाश",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "df79eec895b5237edf6d5d6e72408470f12ba3e361dbd7f4b26db2fdb3c0888f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "भजन का इतिहास",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "समय की रेत डूब रही है",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "6a369d922b2b30e778099ce0697e2ff35c6b98ccc87b7ee0823f24c24d9f481e",
       "human_reviewed": false,
@@ -23055,6 +23139,38 @@
       "subtitle": null,
       "title": "Hanya dalam Kegelapan",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "9be9f236970888967395f333459631a70108f2df71e314379d793327f6784383",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "Seekor kupu-kupu berwarna oranye dan hitam di antara daun hijau",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "Setangkai anggrek kecil berwarna oranye",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "9a77a65d96aae4f2a9c19bf7e7ec4182746f3bfebac43f84a8cda2353d6af2f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KEHIDUPAN KRISTEN YANG BERKEMENANGAN",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kuasa, Kasih, dan Pikiran yang Sehat",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -55773,6 +55889,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "be8b1c6a2b88469534eea17b46de17b01494283b",
+  "observed_source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
   "source_repository": "trueChristian/berean-voice"
 }
