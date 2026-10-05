@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rebecca Weber"
+        }
+      ],
+      "raw": "by Rebecca Weber"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+    "images": [
+      {
+        "alt": "A vivid pink flower against a blue and green background",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg",
+        "repository_path": "public/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg",
+        "rights_note": "No caption, image credit, licence, or separate permission notice is printed for this photograph. The clean embedded inverted-Adobe CMYK JPEG was sample-inverted, converted to sRGB, recovered without the separate pale overlays, poem text, title, or byline, and baseline re-encoded at 300 dpi.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "A Princess of God",
+    "topics": [
+      "be5ecbbb-b97b-5534-b066-beb46cabe236",
+      "d0a018c2-6490-5c8e-a752-564336f510f6",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "660c6413-c65e-547c-8bed-077b85300559",
+      "aeaaf276-c9b7-588f-bd9e-4c1ed921cd5e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "85cfd2115ebfd4e7d5e3cd5f8b0085b07abdf713058ddf3be7644517bb03e5ce",
+    "metadata_sha256": "c7a33937cef27aa0c40ba2e95423777f4c87e08b717ea04f8e307a8badcbf690",
+    "structure_sha256": "d7764e4ca3b45250170d6b09b6bdc739b09bb97f057f0e30b57b633b6da02d71",
+    "text_sha256": "7e4bd00b145c1d63bf234af6616abf2751a9ea5275dc5b8e71f055d0f7c8f636",
+    "translation_metadata_sha256": "9bb0a9c89beb290652df3c06d8e379506b52ed1b3ad33222f9fa9acb013598d2"
+  },
+  "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"A vivid pink flower against a blue and green background\">\n  </figure>\n  <p class=\"poem\">A princess of God!<br>\n  It’s a calling sublime<br>\n  That merits my giving<br>\n  Of talent and time<br>\n  To grow in the glory<br>\n  Of what He would make--<br>\n  My Father, the King,<br>\n  Will all ugliness take<br>\n  Away from my heart,<br>\n  That it tarnish no more<br>\n  And bring me the jewels<br>\n  That He has in store.</p>\n  <p class=\"poem\">A princess of God!<br>\n  It’s a calling to live<br>\n  A life that to others<br>\n  Around me would give<br>\n  A diamond of hope,<br>\n  A desire for God,<br>\n  The truth of salvation<br>\n  By Jesus’ shed blood.<br>\n  A call to live godly<br>\n  In Jesus Christ,<br>\n  Adorned with His meekness<br>\n  And clothed with His light.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+  "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6"
+}

@@ -1,0 +1,250 @@
+{
+  "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:28:35+00:00",
+  "edition": {
+    "abbreviation": null,
+    "review_note": "No matching translation in the checked catalog; references remain unchanged.",
+    "status": "unavailable"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "bn",
+  "lookups": {
+    "kjv/59/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 59,
+        "chapter": 3,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:28:35.316167Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "James",
+          "book_nr": 59,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "James 3",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "James 3:1",
+              "text": "My brethren, be not many masters, knowing that we shall receive the greater condemnation.",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:2",
+              "text": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:3",
+              "text": "Behold, we put bits in the horses’ mouths, that they may obey us; and we turn about their whole body.",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:4",
+              "text": "Behold also the ships, which though they be so great, and are driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:5",
+              "text": "Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:6",
+              "text": "And the tongue is a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course of nature; and it is set on fire of hell.",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:7",
+              "text": "For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind:",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:8",
+              "text": "But the tongue can no man tame; it is an unruly evil, full of deadly poison.",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:9",
+              "text": "Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God.",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:10",
+              "text": "Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:11",
+              "text": "Doth a fountain send forth at the same place sweet water and bitter?",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:12",
+              "text": "Can the fig tree, my brethren, bear olive berries? either a vine, figs? so can no fountain both yield salt water and fresh.",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:13",
+              "text": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:14",
+              "text": "But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth.",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:15",
+              "text": "This wisdom descendeth not from above, but is earthly, sensual, devilish.",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:16",
+              "text": "For where envying and strife is, there is confusion and every evil work.",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:17",
+              "text": "But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "James 3:18",
+              "text": "And the fruit of righteousness is sown in peace of them that make peace. ",
+              "verse": 18
+            }
+          ]
+        },
+        "hash": "f7b73f15332e7270a1d2bf56970ce02252263213",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/59/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 59,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:28:36.316167Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:28:36 GMT",
+            "etag": "W/\"6aa59169-11f5\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/59/3.json"
+        }
+      },
+      "result_sha256": "35ba4ae09d8902ae65b5f5ec7d0cc89beb3d84262e86e8117f943ce65828ff0d",
+      "retrieved_at": "2026-10-05T13:28:36+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [],
+  "references": [
+    {
+      "block": "/article[1]/p[18]",
+      "classification": "reference_only",
+      "end": 141,
+      "identity": "9:47",
+      "printed_text": "9:47",
+      "start": 137
+    },
+    {
+      "block": "/article[1]/p[20]",
+      "classification": "reference_only",
+      "end": 434,
+      "identity": "3:4-5",
+      "printed_text": "3:4-5",
+      "start": 429
+    },
+    {
+      "block": "/article[1]/p[20]",
+      "classification": "reference_only",
+      "end": 549,
+      "identity": "18:7",
+      "printed_text": "18:7",
+      "start": 545
+    },
+    {
+      "block": "/article[1]/p[21]",
+      "classification": "reference_only",
+      "end": 516,
+      "identity": "James 3:13",
+      "printed_text": "Jas 3:13",
+      "start": 508
+    },
+    {
+      "block": "/article[1]/p[27]",
+      "classification": "reference_only",
+      "end": 306,
+      "identity": "2:12",
+      "printed_text": "2:12",
+      "start": 302
+    }
+  ],
+  "source_sha256": "384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c",
+  "version": "1"
+}

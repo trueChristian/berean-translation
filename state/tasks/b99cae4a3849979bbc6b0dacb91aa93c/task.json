@@ -1,0 +1,159 @@
+{
+  "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37314284958",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "81ef9562dd73beb9ee1e01c0e739b55eaca5c77b9b6ed0e233203d4c6a9c8806"
+  },
+  "created_at": "2026-10-05T13:24:42+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.223664,
+    "review_reserved_usd": 0.891705,
+    "total_reserved_usd": 1.115369
+  },
+  "downstream_candidate_sha256": "b0d137ffbe1c0a8da52196988fb6335cbe7808b0e701d2405dd8a23f27fb771f",
+  "downstream_key": "21f2fa5cffba6f43b7b7a7e7888c2a51e2eb3dbfe22ac2874a057d9ce37df507",
+  "downstream_previous_sha256": "e51c825c09897b6078d5c5abc7f2c504b55ad979c43a4887ae39005416682b90",
+  "downstream_previous_task": "98751ed33c854764acda5c83e1b4eea4",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "major",
+      "source_quote": "With one last attempt, I feebly yelled above the tension, “Ken, we don’t want to ...” but once more, I was rudely cut off.",
+      "suggested_fix": "Preserve the first-person structure and meaning. Restore a faithful, idiomatic Hebrew rendering keeping the narrator's person and the interrupted speech: e.g., “בניסיון אחרון צעקתי בקול חלש מעל המתיחות, ‘קן, אנחנו לא רוצים ל—’ אך שוב קוצצתי באופן בוטה.”",
+      "translation_quote": "בניסיון אחרון צעקתי בקול חלש מעל המתיחות, “קן, אנחנו לא רוצים ל…” אך שוב קוצצתי בחוסר מעודן."
+    },
+    {
+      "location": "multiple paragraphs (narrator pronouns)",
+      "severity": "major",
+      "source_quote": "“Get out of my shop! I don’t need people like you around me! And never come back!” My lips quivered as I looked into the dark, angry eyes of the yelling man. I blinked back the unbidden tears, realizing that once more, I had to leave this man that I loved.",
+      "suggested_fix": "The translation shifts narrator gender/verb forms (masculine vs. feminine) in places, producing inconsistency with the English. Keep Hebrew verb/gender forms consistent with the source narrator. If the source narrator uses first-person feminine (or masculine) throughout, mirror that. Example (masculine narrator): “צא מהחנות שלי! אין לי צורך באנשים כמותך סביבי! ואל תחזור לעולם!” שפתיי רעדו כשמבטי נעץ בעיניו הכועסות והאפילות של האיש שצעק. מחקתי בדמעה שלא רצתה לבוא, והבנתי שזו שוב הפעם שבה נאלצתי לעזוב את האיש שאהבתי.”",
+      "translation_quote": "“צא מהחנות שלי! אין לי צורך באנשים כמותך פה! ואל תחזור לעולם!” שפתיי רעדו כשמבטי נעץ בעיניו האפלות והכועסות של האיש שצעק. מחקתי בדמעה שלא רצתה לבוא, והבנתי שזו שוב הפעם שבה אני צריך לעזוב את האיש שאהבתי."
+    },
+    {
+      "location": "Paragraph describing the pawn shop (mid-article)",
+      "severity": "major",
+      "source_quote": "With slumped shoulders and downcast eyes, I turned to escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+      "suggested_fix": "The source specifies a 'pawn shop.' The translation must reflect that; later the translation inconsistently renders this as a 'pawn shop' but elsewhere as 'חנות השעון' (watch shop). Use a single, accurate term for pawn shop throughout (e.g., חנות משכנתא/חנות משכון/חנות פדיון — standard Hebrew: 'חנוּת משכון' or 'בית משכון' — choose consistent term). Replace incorrect 'חנות השעון' with the chosen term. Maintain 'dingy' as 'מוכתמת בעשן' or 'מוזנחת'.",
+      "translation_quote": "פניתי להימלט מגדרות החנות המוכתמת שלו; קולו, שהלך וגבר, טבע את התקווה האחרונה להקל.\n...\nעכשיו קן יושב בחנות השעון שלו, לבד, פצוע, עצוב ומחביא עצמו."
+    },
+    {
+      "location": "Paragraph with Sunday-school song (foster-home paragraph)",
+      "severity": "minor",
+      "source_quote": "He wiped his tears as he began to sing under his breath a song he had heard in Sunday school, “Jesus loves the little children, all the children of the world.”",
+      "suggested_fix": "The quoted English line appears in the source; in translation this line remains in English. Either (a) render the quoted hymn line in Hebrew in an idiomatic way while making clear it is a quoted verse/song the character recalled, or (b) if policy is to 'convey the printed English' when the source printed it in English, ensure the translation reproduces the English exactly and marks it as a quotation. Currently the translation leaves the English intact but does not typographically mark it as a quoted foreign-language fragment; make this explicit. Example: “…החל לשיר בלחש שיר ששמע בבית הספר של יום ראשון: ‘Jesus loves the little children, all the children of the world.’”",
+      "translation_quote": "הוא מחק את דמעותיו והחל לשיר בלחש שיר ששמע בבית הספר של יום ראשון: “Jesus loves the little children, all the children of the world.”"
+    },
+    {
+      "location": "Paragraph near the end about God's purpose for the narrator",
+      "severity": "major",
+      "source_quote": "God also wanted me to carry a burden in my youth. He knew how easily I would be distracted with money and fun. He knew that I needed a burden to carry, a soul to care for.",
+      "suggested_fix": "The translation here is garbled and changes meaning (nonsensical phrasing: “אלוהים גם רצה שנתאהב בעול במיעוט שנותיי”). Restore the intended meaning and theological nuance: e.g., “אלוהים גם רצה שאקח על עצמי נטל בנעוריי. הוא ידע כמה בקלות אתבלבל מאחיזת הכסף והפנאי. הוא ידע שאצטרך נשא כדי לשאת, נשמה לדאוג לה.” Preserve sentence order and clause meanings.",
+      "translation_quote": "אלוהים גם רצה שנתאהב בעול במיעוט שנותיי. הוא ידע כמה בקלות אהיה מוסח על ידי כסף וכיף. הוא ידע שאני צריך נשא לשאת, נשמה לדאוג לה."
+    }
+  ],
+  "id": "b99cae4a3849979bbc6b0dacb91aa93c",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "heb",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/1a68b8b892dde84a0acac731e5c7f347112e64941a74d76c4e1d28e769106852.json",
+  "scripture_evidence_sha256": "1a68b8b892dde84a0acac731e5c7f347112e64941a74d76c4e1d28e769106852",
+  "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

@@ -1,0 +1,541 @@
+{
+  "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:27:52+00:00",
+  "edition": {
+    "abbreviation": "statenvertaling",
+    "book_count": 67,
+    "catalog_description": "Dutch Statenvertaling Bijbel",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "https://bijbel.coas.nl/bijbel/",
+    "inventory_sha256": "f9dc0653863a903b2670c97606b9b34e70a85ffb0804f25ae22f94226def6dba",
+    "name": "Dutch Staten Vertaling",
+    "review_note": "Statenvertaling translation family dates to 1637; the exact catalog text edition is unspecified.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "nl",
+  "lookups": {
+    "kjv/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:52.264706Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Colossians",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Colossians 3",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Colossians 3:1",
+              "text": "If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:2",
+              "text": "Set your affection on things above, not on things on the earth.",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:3",
+              "text": "For ye are dead, and your life is hid with Christ in God.",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:4",
+              "text": "When Christ, who is our life, shall appear, then shall ye also appear with him in glory.",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:5",
+              "text": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:6",
+              "text": "For which things’ sake the wrath of God cometh on the children of disobedience:",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:7",
+              "text": "In the which ye also walked some time, when ye lived in them.",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:8",
+              "text": "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:9",
+              "text": "Lie not one to another, seeing that ye have put off the old man with his deeds;",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:10",
+              "text": "And have put on the new man, which is renewed in knowledge after the image of him that created him:",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:11",
+              "text": "Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all.",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:12",
+              "text": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:13",
+              "text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:14",
+              "text": "And above all these things put on charity, which is the bond of perfectness.",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:15",
+              "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:16",
+              "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:17",
+              "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:18",
+              "text": "Wives, submit yourselves unto your own husbands, as it is fit in the Lord.",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:19",
+              "text": "Husbands, love your wives, and be not bitter against them.",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:20",
+              "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:21",
+              "text": "Fathers, provoke not your children to anger, lest they be discouraged.",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:22",
+              "text": "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:23",
+              "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:24",
+              "text": "Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:25",
+              "text": "But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "7f38111a95700e41a47dd48adb1021cdbd0e55df",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:53.264706Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:53 GMT",
+            "etag": "W/\"6aa59169-17ea\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/51/3.json"
+        }
+      },
+      "result_sha256": "6a01192099200c5c6e0103098e2e31c438ac430dfb48ff46df8b4dfad66abaf5",
+      "retrieved_at": "2026-10-05T13:27:53+00:00",
+      "tool": "get_scripture"
+    },
+    "statenvertaling/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "statenvertaling"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:53.403496Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "statenvertaling",
+          "book_name": "Kolossenzen",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "nl",
+          "language": "Dutch",
+          "name": "Kolossenzen 3",
+          "translation": "Dutch Staten Vertaling",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:1",
+              "text": "Indien gij dan met Christus opgewekt zijt, zo zoekt de dingen, die boven zijn, waar Christus is, zittende aan de rechter hand Gods. ",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:2",
+              "text": "Bedenkt de dingen, die boven zijn, niet die op de aarde zijn. ",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:3",
+              "text": "Want gij zijt gestorven, en uw leven is met Christus verborgen in God. ",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:4",
+              "text": "Wanneer nu Christus zal geopenbaard zijn, Die ons leven is, dan zult ook gij met Hem geopenbaard worden in heerlijkheid. ",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:5",
+              "text": "Doodt dan uw leden, die op de aarde zijn, namelijk hoererij, onreinigheid, schandelijke beweging, kwade begeerlijkheid, en de gierigheid, welke is afgodendienst. ",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:6",
+              "text": "Om welke de toorn Gods komt over de kinderen der ongehoorzaamheid; ",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:7",
+              "text": "In dewelke ook gij eertijds hebt gewandeld, toen gij in dezelve leefdet. ",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:8",
+              "text": "Maar nu legt ook gij dit alles af, namelijk gramschap, toornigheid, kwaadheid, lastering, vuil spreken uit uw mond. ",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:9",
+              "text": "Liegt niet tegen elkander, dewijl gij uitgedaan hebt den ouden mens met zijn werken, ",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:10",
+              "text": "En aangedaan hebt den nieuwen mens, die vernieuwd wordt tot kennis, naar het evenbeeld Desgenen, Die hem geschapen heeft; ",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:11",
+              "text": "Waarin niet is Griek en Jood, besnijdenis en voorhuid, barbaar en Scyth, dienstknecht en vrije; maar Christus is alles en in allen. ",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:12",
+              "text": "Zo doet dan aan, als uitverkorenen Gods, heiligen en beminden, de innerlijke bewegingen der barmhartigheid, goedertierenheid, ootmoedigheid, zachtmoedigheid, lankmoedigheid; ",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:13",
+              "text": "Verdragende elkander, en vergevende de een den anderen, zo iemand tegen iemand enige klacht heeft; gelijkerwijs als Christus u vergeven heeft, doet ook gij alzo. ",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:14",
+              "text": "En boven dit alles doet aan de liefde, dewelke is de band der volmaaktheid. ",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:15",
+              "text": "En de vrede Gods heerse in uw harten, tot welken gij ook geroepen zijt in een lichaam; en weest dankbaar. ",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:16",
+              "text": "Het woord van Christus wone rijkelijk in u, in alle wijsheid; leert en vermaant elkander, met psalmen en lofzangen, en geestelijke liederen, zingende den Heere met aangenaamheid in uw hart. ",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:17",
+              "text": "En al wat gij doet met woorden of met werken, doet het alles in de Naam van de Heere Jezus, dankende God en de Vader door Hem. ",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:18",
+              "text": "Gij vrouwen, zijt uw eigen mannen onderdanig, gelijk het betaamt in den Heere. ",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:19",
+              "text": "Gij mannen, hebt uw vrouwen lief, en wordt niet verbitterd tegen haar. ",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:20",
+              "text": "Gij kinderen, zijt uw ouderen gehoorzaam in alles, want dat is de Heere welbehagelijk. ",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:21",
+              "text": "Gij vaders, tergt uw kinderen niet, opdat zij niet moedeloos worden. ",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:22",
+              "text": "Gij dienstknechten, zijt in alles gehoorzaam uw heren naar het vlees, niet met ogendiensten als mensenbehagers, maar met eenvoudigheid des harten, vrezende God. ",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:23",
+              "text": "En al wat gij doet, doet dat van harte als den Heere en niet den mensen; ",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:24",
+              "text": "Wetende, dat gij van den Heere zult ontvangen de vergelding der erfenis; want gij dient de Heere Christus. ",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Kolossenzen 3:25",
+              "text": "Maar die onrecht doet, die zal het onrecht dragen, dat hij gedaan heeft; en er is geen aanneming des persoons. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "371ba7f923e3e977eaafae6652e9c62eeb188b56",
+        "hash_source_url": "https://api.getbible.net/v2/statenvertaling/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "statenvertaling"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:54.403496Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:54 GMT",
+            "etag": "W/\"6aa5916f-18f7\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:47 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/statenvertaling/51/3.json"
+        }
+      },
+      "result_sha256": "7189398c98f0cb6f0fb0bd34aba127de35b01edf2475f8bd7635d1a6d6cc80e0",
+      "retrieved_at": "2026-10-05T13:27:54+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 82,
+              "start": 78,
+              "verse": 20
+            },
+            "source_text": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 20
+            },
+            "word_end": 15,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "book": 51,
+      "chapter": 3,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/51/3",
+      "english_verses": [
+        {
+          "chapter": 3,
+          "name": "Colossians 3:20",
+          "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+          "verse": 20
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Col 3:20",
+      "reference": "Colossians 3:20",
+      "source_end": 82,
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+      "source_start": 0,
+      "target_lookup": "statenvertaling/51/3",
+      "target_verses": [
+        {
+          "chapter": 3,
+          "name": "Kolossenzen 3:20",
+          "text": "Gij kinderen, zijt uw ouderen gehoorzaam in alles, want dat is de Heere welbehagelijk. ",
+          "verse": 20
+        }
+      ],
+      "verses": [
+        20
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "classification": "scripture_quotation",
+      "end": 92,
+      "identity": "Colossians 3:20",
+      "printed_text": "Col 3:20",
+      "start": 84
+    }
+  ],
+  "source_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+  "version": "1"
+}

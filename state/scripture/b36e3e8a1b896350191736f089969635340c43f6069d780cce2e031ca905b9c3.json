@@ -1,0 +1,541 @@
+{
+  "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:27:57+00:00",
+  "edition": {
+    "abbreviation": "korean",
+    "book_count": 66,
+    "catalog_description": "개역성경",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "Wikisource",
+    "inventory_sha256": "51b52aa3eb956a9d6f470d4a918812dfa191d82b17f6fa1f3a9dd8548ad92547",
+    "name": "Korean",
+    "review_note": "Catalog describes 1952/1961 Korean text, older than the other catalog option Korean KJV (2000).",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "ko",
+  "lookups": {
+    "kjv/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:57.163365Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Colossians",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Colossians 3",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Colossians 3:1",
+              "text": "If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:2",
+              "text": "Set your affection on things above, not on things on the earth.",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:3",
+              "text": "For ye are dead, and your life is hid with Christ in God.",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:4",
+              "text": "When Christ, who is our life, shall appear, then shall ye also appear with him in glory.",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:5",
+              "text": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:6",
+              "text": "For which things’ sake the wrath of God cometh on the children of disobedience:",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:7",
+              "text": "In the which ye also walked some time, when ye lived in them.",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:8",
+              "text": "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:9",
+              "text": "Lie not one to another, seeing that ye have put off the old man with his deeds;",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:10",
+              "text": "And have put on the new man, which is renewed in knowledge after the image of him that created him:",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:11",
+              "text": "Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all.",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:12",
+              "text": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:13",
+              "text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:14",
+              "text": "And above all these things put on charity, which is the bond of perfectness.",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:15",
+              "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:16",
+              "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:17",
+              "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:18",
+              "text": "Wives, submit yourselves unto your own husbands, as it is fit in the Lord.",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:19",
+              "text": "Husbands, love your wives, and be not bitter against them.",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:20",
+              "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:21",
+              "text": "Fathers, provoke not your children to anger, lest they be discouraged.",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:22",
+              "text": "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:23",
+              "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:24",
+              "text": "Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:25",
+              "text": "But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "7f38111a95700e41a47dd48adb1021cdbd0e55df",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:58.163365Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:58 GMT",
+            "etag": "W/\"6aa59169-17ea\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/51/3.json"
+        }
+      },
+      "result_sha256": "55cea5de4b9b17046e087de8814efb5088b1376ff80938f289e163b3d9896f27",
+      "retrieved_at": "2026-10-05T13:27:58+00:00",
+      "tool": "get_scripture"
+    },
+    "korean/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "korean"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:58.325744Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "korean",
+          "book_name": "골로새서",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "ko",
+          "language": "Korean",
+          "name": "골로새서 3",
+          "translation": "Korean",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "골로새서 3:1",
+              "text": "그러므로 너희가 그리스도와 함께 다시 살리심을 받았으면 위엣 것을 찾으라 거기는 그리스도께서 하나님 우편에 앉아 계시느니라 ",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:2",
+              "text": "위엣 것을 생각하고 땅엣 것을 생각지 말라 ",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:3",
+              "text": "이는 너희가 죽었고 너희 생명이 그리스도와 함께 하나님 안에 감취었음이니라 ",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:4",
+              "text": "우리 생명이신 그리스도께서 나타나실 그 때에 너희도 그와 함께 영광 중에 나타나리라 ",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:5",
+              "text": "그러므로 땅에 있는 지체를 죽이라 곧 음란과 부정과 사욕과 악한 정욕과 탐심이니 탐심은 우상 숭배니라 ",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:6",
+              "text": "이것들을 인하여 하나님의 진노가 임하느니라 ",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:7",
+              "text": "너희도 전에 그 가운데 살 때에는 그 가운데서 행하였으나 ",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:8",
+              "text": "이제는 너희가 이 모든 것을 벗어버리라 곧 분과 악의와 훼방과 너희 입의 부끄러운 말이라 ",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:9",
+              "text": "너희가 서로 거짓말을 말라 옛 사람과 그 행위를 벗어버리고 ",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:10",
+              "text": "새 사람을 입었으니 이는 자기를 창조하신 자의 형상을 좇아 지식에까지 새롭게 하심을 받는 자니라 ",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:11",
+              "text": "거기는 헬라인과 유대인이나 할례당과 무할례당이나 야인이나 스구디아인이나 종이나 자유인이 분별이 있을 수 없나니 오직 그리스도는 만유시요 만유 안에 계시니라 ",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:12",
+              "text": "그러므로 너희는 하나님의 택하신 거룩하고 사랑하신 자처럼 긍휼과 자비와 겸손과 온유와 오래 참음을 옷입고 ",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:13",
+              "text": "누가 뉘게 혐의가 있거든 서로 용납하여 피차 용서하되 주께서 너희를 용서하신 것과 같이 너희도 그리하고 ",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:14",
+              "text": "이 모든 것 위에 사랑을 더하라 이는 온전하게 매는 띠니라 ",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:15",
+              "text": "그리스도의 평강이 너희 마음을 주장하게 하라 평강을 위하여 너희가 한 몸으로 부르심을 받았나니 또한 너희는 감사하는 자가 되라 ",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:16",
+              "text": "그리스도의 말씀이 너희 속에 풍성히 거하여 모든 지혜로 피차 가르치며 권면하고 시와 찬미와 신령한 노래를 부르며 마음에 감사함으로 하나님을 찬양하고 ",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:17",
+              "text": "또 무엇을 하든지 말에나 일에나 다 주 예수의 이름으로 하고 그를 힘입어 하나님 아버지께 감사하라 ",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:18",
+              "text": "아내들아 남편에게 복종하라 이는 주 안에서 마땅하니라 ",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:19",
+              "text": "남편들아 아내를 사랑하며 괴롭게 하지 말라 ",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:20",
+              "text": "자녀들아 모든 일에 부모에게 순종하라 이는 주 안에서 기쁘게 하는 것이니라 ",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:21",
+              "text": "아비들아 너희 자녀를 격노케 말지니 낙심할까 함이라 ",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:22",
+              "text": "종들아 모든 일에 육신의 상전들에게 순종하되 사람을 기쁘게 하는 자와 같이 눈가림만 하지 말고 오직 주를 두려워하여 성실한 마음으로 하라 ",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:23",
+              "text": "무슨 일을 하든지 마음을 다하여 주께 하듯 하고 사람에게 하듯 하지 말라 ",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:24",
+              "text": "이는 유업의 상을 주께 받을 줄 앎이니 너희는 주 그리스도를 섬기느니라 ",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "골로새서 3:25",
+              "text": "불의를 행하는 자는 불의의 보응을 받으리니 주는 외모로 사람을 취하심이 없느니라  ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "51b4f8696e2bb3edc518f931d7830161e990f3f8",
+        "hash_source_url": "https://api.getbible.net/v2/korean/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "korean"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:59.325744Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:59 GMT",
+            "etag": "W/\"6aa59169-25d4\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/korean/51/3.json"
+        }
+      },
+      "result_sha256": "d70c04721caa752e3a3d0fd545b089db9e4822072be903bb8423c7cfb65dc567",
+      "retrieved_at": "2026-10-05T13:27:59+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 82,
+              "start": 78,
+              "verse": 20
+            },
+            "source_text": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 20
+            },
+            "word_end": 15,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "book": 51,
+      "chapter": 3,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/51/3",
+      "english_verses": [
+        {
+          "chapter": 3,
+          "name": "Colossians 3:20",
+          "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+          "verse": 20
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Col 3:20",
+      "reference": "Colossians 3:20",
+      "source_end": 82,
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+      "source_start": 0,
+      "target_lookup": "korean/51/3",
+      "target_verses": [
+        {
+          "chapter": 3,
+          "name": "골로새서 3:20",
+          "text": "자녀들아 모든 일에 부모에게 순종하라 이는 주 안에서 기쁘게 하는 것이니라 ",
+          "verse": 20
+        }
+      ],
+      "verses": [
+        20
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "classification": "scripture_quotation",
+      "end": 92,
+      "identity": "Colossians 3:20",
+      "printed_text": "Col 3:20",
+      "start": 84
+    }
+  ],
+  "source_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+  "version": "1"
+}

@@ -1,0 +1,541 @@
+{
+  "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:27:41+00:00",
+  "edition": {
+    "abbreviation": "arabicsv",
+    "book_count": 66,
+    "catalog_description": "Smith and van Dyck's al-Kitab al-Muqaddas (Arabic Bible)",
+    "core_66_verified": true,
+    "direction": "rtl",
+    "distribution_license": "Copyrighted; Permission granted to distribute non-commercially in SWORD format",
+    "distribution_source": "https://www.arabicbible.com/arabic-bible.html",
+    "inventory_sha256": "63dbacb642f3e0f62674785cbc83796111a690c4d03488a3f5c6c216f6eee18b",
+    "name": "Smith and Van Dyke",
+    "review_note": "1865 Smith and Van Dyke family. API metadata restricts redistribution; retain attribution and link to provider.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "ar",
+  "lookups": {
+    "arabicsv/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "arabicsv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:42.193913Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "arabicsv",
+          "book_name": "كولوسي",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "RTL",
+          "encoding": "UTF-8",
+          "lang": "ar",
+          "language": "Arabic",
+          "name": "كولوسي 3",
+          "translation": "Smith and Van Dyke",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:1",
+              "text": " فَإِنْ كُنْتُمْ قَدْ قُمْتُمْ مَعَ ٱلْمَسِيحِ فَٱطْلُبُوا مَا فَوْقُ، حَيْثُ ٱلْمَسِيحُ جَالِسٌ عَنْ يَمِينِ ٱللهِ. ",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:2",
+              "text": "ٱهْتَمُّوا بِمَا فَوْقُ لَا بِمَا عَلَى ٱلْأَرْضِ، ",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:3",
+              "text": "لِأَنَّكُمْ قَدْ مُتُّمْ وَحَيَاتُكُمْ مُسْتَتِرَةٌ مَعَ ٱلْمَسِيحِ فِي ٱللهِ. ",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:4",
+              "text": "مَتَى أُظْهِرَ ٱلْمَسِيحُ حَيَاتُنَا، فَحِينَئِذٍ تُظْهَرُونَ أَنْتُمْ أَيْضًا مَعَهُ فِي ٱلْمَجْدِ. ",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:5",
+              "text": "فَأَمِيتُوا أَعْضَاءَكُمُ ٱلَّتِي عَلَى ٱلْأَرْضِ: ٱلزِّنَا، ٱلنَّجَاسَةَ، ٱلْهَوَى، ٱلشَّهْوَةَ ٱلرَّدِيَّةَ، ٱلطَّمَعَ -ٱلَّذِي هُوَ عِبَادَةُ ٱلْأَوْثَانِ- ",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:6",
+              "text": "ٱلْأُمُورَ ٱلَّتِي مِنْ أَجْلِهَا يَأْتِي غَضَبُ ٱللهِ عَلَى أَبْنَاءِ ٱلْمَعْصِيَةِ، ",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:7",
+              "text": "ٱلَّذِينَ بَيْنَهُمْ أَنْتُمْ أَيْضًا سَلَكْتُمْ قَبْلًا، حِينَ كُنْتُمْ تَعِيشُونَ فِيهَا. ",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:8",
+              "text": "وَأَمَّا ٱلْآنَ فَٱطْرَحُوا عَنْكُمْ أَنْتُمْ أَيْضًا ٱلْكُلَّ: ٱلْغَضَبَ، ٱلسَّخَطَ، ٱلْخُبْثَ، ٱلتَّجْدِيفَ، ٱلْكَلَامَ ٱلْقَبِيحَ مِنْ أَفْوَاهِكُمْ. ",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:9",
+              "text": "لَا تَكْذِبُوا بَعْضُكُمْ عَلَى بَعْضٍ، إِذْ خَلَعْتُمُ ٱلْإِنْسَانَ ٱلْعَتِيقَ مَعَ أَعْمَالِهِ، ",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:10",
+              "text": "وَلَبِسْتُمُ ٱلْجَدِيدَ ٱلَّذِي يَتَجَدَّدُ لِلْمَعْرِفَةِ حَسَبَ صُورَةِ خَالِقِهِ، ",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:11",
+              "text": "حَيْثُ لَيْسَ يُونَانِيٌّ وَيَهُودِيٌّ، خِتَانٌ وَغُرْلَةٌ، بَرْبَرِيٌّ سِكِّيثِيٌّ، عَبْدٌ حُرٌّ، بَلِ ٱلْمَسِيحُ ٱلْكُلُّ وَفِي ٱلْكُلِّ. ",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:12",
+              "text": "فَٱلْبَسُوا كَمُخْتَارِي ٱللهِ ٱلْقِدِّيسِينَ ٱلْمَحْبُوبِينَ أَحْشَاءَ رَأْفَاتٍ، وَلُطْفًا، وَتَوَاضُعًا، وَوَدَاعَةً، وَطُولَ أَنَاةٍ، ",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:13",
+              "text": "مُحْتَمِلِينَ بَعْضُكُمْ بَعْضًا، وَمُسَامِحِينَ بَعْضُكُمْ بَعْضًا. إِنْ كَانَ لِأَحَدٍ عَلَى أَحَدٍ شَكْوَى، كَمَا غَفَرَ لَكُمُ ٱلْمَسِيحُ هَكَذَا أَنْتُمْ أَيْضًا. ",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:14",
+              "text": "وَعَلَى جَمِيعِ هَذِهِ ٱلْبَسُوا ٱلْمَحَبَّةَ ٱلَّتِي هِيَ رِبَاطُ ٱلْكَمَالِ. ",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:15",
+              "text": "وَلْيَمْلِكْ فِي قُلُوبِكُمْ سَلَامُ ٱللهِ ٱلَّذِي إِلَيْهِ دُعِيتُمْ فِي جَسَدٍ وَاحِدٍ، وَكُونُوا شَاكِرِينَ. ",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:16",
+              "text": "لِتَسْكُنْ فِيكُمْ كَلِمَةُ ٱلْمَسِيحِ بِغِنًى، وَأَنْتُمْ بِكُلِّ حِكْمَةٍ مُعَلِّمُونَ وَمُنْذِرُونَ بَعْضُكُمْ بَعْضًا، بِمَزَامِيرَ وَتَسَابِيحَ وَأَغَانِيَّ رُوحِيَّةٍ، بِنِعْمَةٍ، مُتَرَنِّمِينَ فِي قُلُوبِكُمْ لِلرَّبِّ. ",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:17",
+              "text": "وَكُلُّ مَا عَمِلْتُمْ بِقَوْلٍ أَوْ فِعْلٍ، فَٱعْمَلُوا ٱلْكُلَّ بِٱسْمِ ٱلرَّبِّ يَسُوعَ، شَاكِرِينَ ٱللهَ وَٱلْآبَ بِهِ. ",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:18",
+              "text": " أَيَّتُهَا ٱلنِّسَاءُ، ٱخْضَعْنَ لِرِجَالِكُنَّ كَمَا يَلِيقُ فِي ٱلرَّبِّ. ",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:19",
+              "text": "أَيُّهَا ٱلرِّجَالُ، أَحِبُّوا نِسَاءَكُمْ، وَلَا تَكُونُوا قُسَاةً عَلَيْهِنَّ. ",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:20",
+              "text": "أَيُّهَا ٱلْأَوْلَادُ، أَطِيعُوا وَالِدِيكُمْ فِي كُلِّ شَيْءٍ لِأَنَّ هَذَا مَرْضِيٌّ فِي ٱلرَّبِّ. ",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:21",
+              "text": "أَيُّهَا ٱلْآبَاءُ، لَا تُغِيظُوا أَوْلَادَكُمْ لِئَلَّا يَفْشَلُوا. ",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:22",
+              "text": "أَيُّهَا ٱلْعَبِيدُ، أَطِيعُوا فِي كُلِّ شَيْءٍ سَادَتَكُمْ حَسَبَ ٱلْجَسَدِ، لَا بِخِدْمَةِ ٱلْعَيْنِ كَمَنْ يُرْضِي ٱلنَّاسَ، بَلْ بِبَسَاطَةِ ٱلْقَلْبِ، خَائِفِينَ ٱلرَّبَّ. ",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:23",
+              "text": "وَكُلُّ مَا فَعَلْتُمْ، فَٱعْمَلُوا مِنَ ٱلْقَلْبِ، كَمَا لِلرَّبِّ لَيْسَ لِلنَّاسِ، ",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:24",
+              "text": "عَالِمِينَ أَنَّكُمْ مِنَ ٱلرَّبِّ سَتَأْخُذُونَ جَزَاءَ ٱلْمِيرَاثِ، لِأَنَّكُمْ تَخْدِمُونَ ٱلرَّبَّ ٱلْمَسِيحَ. ",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "كولوسي 3:25",
+              "text": "وَأَمَّا ٱلظَّالِمُ فَسَينَالُ مَا ظَلَمَ بِهِ، وَلَيْسَ مُحَابَاةٌ.  ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "1bc7e0b7bdeccdd20a1860bdb2c5a7f46abef507",
+        "hash_source_url": "https://api.getbible.net/v2/arabicsv/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "arabicsv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:43.193913Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:43 GMT",
+            "etag": "W/\"6aa59163-4bd3\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:35 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/arabicsv/51/3.json"
+        }
+      },
+      "result_sha256": "ec1eaaa11214dc518be970863a8cb2a55124d0a6a2e067cf2f0c5a0fe606d2aa",
+      "retrieved_at": "2026-10-05T13:27:43+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:40.997444Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Colossians",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Colossians 3",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Colossians 3:1",
+              "text": "If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:2",
+              "text": "Set your affection on things above, not on things on the earth.",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:3",
+              "text": "For ye are dead, and your life is hid with Christ in God.",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:4",
+              "text": "When Christ, who is our life, shall appear, then shall ye also appear with him in glory.",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:5",
+              "text": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:6",
+              "text": "For which things’ sake the wrath of God cometh on the children of disobedience:",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:7",
+              "text": "In the which ye also walked some time, when ye lived in them.",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:8",
+              "text": "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:9",
+              "text": "Lie not one to another, seeing that ye have put off the old man with his deeds;",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:10",
+              "text": "And have put on the new man, which is renewed in knowledge after the image of him that created him:",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:11",
+              "text": "Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all.",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:12",
+              "text": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:13",
+              "text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:14",
+              "text": "And above all these things put on charity, which is the bond of perfectness.",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:15",
+              "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:16",
+              "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:17",
+              "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:18",
+              "text": "Wives, submit yourselves unto your own husbands, as it is fit in the Lord.",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:19",
+              "text": "Husbands, love your wives, and be not bitter against them.",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:20",
+              "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:21",
+              "text": "Fathers, provoke not your children to anger, lest they be discouraged.",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:22",
+              "text": "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:23",
+              "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:24",
+              "text": "Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:25",
+              "text": "But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "7f38111a95700e41a47dd48adb1021cdbd0e55df",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:27:41.997444Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:27:41 GMT",
+            "etag": "W/\"6aa59169-17ea\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/51/3.json"
+        }
+      },
+      "result_sha256": "a65887f67d54a50ba9f5b779b193cedc0d75ab650320250126efa675c8e887d7",
+      "retrieved_at": "2026-10-05T13:27:42+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 82,
+              "start": 78,
+              "verse": 20
+            },
+            "source_text": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 20
+            },
+            "word_end": 15,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "book": 51,
+      "chapter": 3,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/51/3",
+      "english_verses": [
+        {
+          "chapter": 3,
+          "name": "Colossians 3:20",
+          "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+          "verse": 20
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Col 3:20",
+      "reference": "Colossians 3:20",
+      "source_end": 82,
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+      "source_start": 0,
+      "target_lookup": "arabicsv/51/3",
+      "target_verses": [
+        {
+          "chapter": 3,
+          "name": "كولوسي 3:20",
+          "text": "أَيُّهَا ٱلْأَوْلَادُ، أَطِيعُوا وَالِدِيكُمْ فِي كُلِّ شَيْءٍ لِأَنَّ هَذَا مَرْضِيٌّ فِي ٱلرَّبِّ. ",
+          "verse": 20
+        }
+      ],
+      "verses": [
+        20
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "classification": "scripture_quotation",
+      "end": 92,
+      "identity": "Colossians 3:20",
+      "printed_text": "Col 3:20",
+      "start": 84
+    }
+  ],
+  "source_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+  "version": "1"
+}

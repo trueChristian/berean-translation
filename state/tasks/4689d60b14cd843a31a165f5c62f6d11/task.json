@@ -1,0 +1,138 @@
+{
+  "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37314284958",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "969ef3beb525543ea136b8ca28b6e2a6538cc51e8c017aebb67b0002c0e043b7"
+  },
+  "created_at": "2026-10-05T13:24:42+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.19172,
+    "review_reserved_usd": 0.868298,
+    "total_reserved_usd": 1.060018
+  },
+  "downstream_candidate_sha256": "76cc3cb0c790f31a65d39f7eb590b52be945dcbe5e0f641e168eb00f0fd2ea87",
+  "downstream_key": "2d35ae3d56f1e69d1417d7caea6c1ff634ce10058b50bcdfda7ef5afc2575c7a",
+  "downstream_previous_sha256": "d1905527506b9af4af62f32cf9d1d4dc02ac254d2164d37855e9c8ab04526df3",
+  "downstream_previous_task": "843f9db51162cea71fb8af38dfa67747",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> third stanza, line 4 (\"These new births more divine:\")",
+      "severity": "major",
+      "source_quote": "These new births more divine:",
+      "suggested_fix": "Restore sense of 'births' (natal occurrences) rather than 'deeds'. Translate to Dutch conveying 'new births'—e.g. \"Deze nieuwgeboren wedergeboorten meer goddelijk:\" or \"Deze nieuwgeboren wedergeboorten, meer goddelijk:\"—keeping the substantive idea of new births/being-born rather than 'daden'. Preserve punctuation and stanza structure.",
+      "translation_quote": "Deze nieuwgeboren daden meer goddelijk:"
+    },
+    {
+      "location": "<div class=\"poem\"> fifth stanza, line 2–3 (\"Divine Redeemer, graciously\\nRenew this heart of mine.\")",
+      "severity": "minor",
+      "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+      "suggested_fix": "Fix word order, spelling and capitalization while preserving original HTML tags. Use a natural Dutch rendering that preserves theology and tone, for example: \"Goddelijke Verlosser, vernieuwing mij genadiglijk\\nDit hart van mij.\" or better \"Goddelijke Verlosser, vernieuw genadiglijk\\ndit hart van mij.\" Ensure 'genadiglijk' orthography is intentionally archaic if matching source tone; otherwise use modern 'genadig' (e.g. \"Goddelijke Verlosser, vernieuw genadig dit hart van mij.\"). Keep line breaks identical to source paragraph.",
+      "translation_quote": "Goddelijke Verlosser, vernieuw genadiglijk\nDit hart van mij."
+    }
+  ],
+  "id": "4689d60b14cd843a31a165f5c62f6d11",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "nld",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "scripture_evidence_path": "state/scripture/087052cbb382b06d45985840d87467c191b77dd64074906fd93fb8a4c0a94005.json",
+  "scripture_evidence_sha256": "087052cbb382b06d45985840d87467c191b77dd64074906fd93fb8a4c0a94005",
+  "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

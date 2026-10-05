@@ -1,0 +1,541 @@
+{
+  "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:27:59+00:00",
+  "edition": {
+    "abbreviation": "giovanni",
+    "book_count": 66,
+    "catalog_description": "Italian Giovanni Diodati Bibbia 1649",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "http://unbound.biola.edu/",
+    "inventory_sha256": "33c95747b2e668559f18ca15b7dfad52c4ca5278f89fa0c73a8ae68ebe20a5f7",
+    "name": "Giovanni Diodati Bible (1649)",
+    "review_note": "Oldest complete candidate identified in the checked catalog; module update dates were not used as publication dates.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "it",
+  "lookups": {
+    "giovanni/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "giovanni"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:28:00.688326Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "giovanni",
+          "book_name": "Colossesi",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "it",
+          "language": "Italian",
+          "name": "Colossesi 3",
+          "translation": "Giovanni Diodati Bible (1649)",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:1",
+              "text": "SE dunque voi siete risuscitati con Cristo, cercate le cose di sopra, dove Cristo è a sedere alla destra di Dio. ",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:2",
+              "text": "Pensate alle cose di sopra, non a quelle che son sopra la terra. ",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:3",
+              "text": "Perciocchè voi siete morti, e la vita vostra è nascosta con Cristo in Dio. ",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:4",
+              "text": "Quando Cristo, che è la vita vostra, apparirà, allora ancor voi apparirete con lui in gloria. ",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:5",
+              "text": "Mortificate adunque le vostre membra che son sopra la terra; fornicazione, immondizia, lussuria nefanda, mala concupiscenza, ed avarizia, che è idolatria. ",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:6",
+              "text": "Per le quali cose viene l’ira di Dio sopra i figliuoli della disubbidienza. ",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:7",
+              "text": "Nelle quali già camminaste ancor voi, quando vivevate in esse. ",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:8",
+              "text": "Ma ora deponete ancora voi tutte queste cose: ira, cruccio, malizia, e fuor della vostra bocca maldicenza, e parlar disonesto. ",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:9",
+              "text": "Non mentite gli uni agli altri, avendo spogliato l’uomo vecchio co’ suoi atti; ",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:10",
+              "text": "e vestito il nuovo, che si rinnova a conoscenza, secondo l’immagine di colui che l’ha creato. ",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:11",
+              "text": "Dove non vi è Greco e Giudeo, circoncisione e incirconcisione, Barbaro e Scita, servo e franco; ma Cristo è ogni cosa, ed in tutti. ",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:12",
+              "text": "Vestitevi adunque, come eletti di Dio, santi, e diletti, di viscere di misericordia, di benignità, d’umiltà, di mansuetudine, di pazienza; ",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:13",
+              "text": "comportandovi gli uni gli altri, e perdonandovi, se alcuno ha qualche querela contro ad un altro; come Cristo ancora vi ha perdonati, fate voi altresì il simigliante. ",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:14",
+              "text": "E per tutte queste cose, vestitevi di carità, che è il legame della perfezione. ",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:15",
+              "text": "Ed abbia la presidenza ne’ cuori vostri la pace di Dio, alla quale ancora siete stati chiamati in un corpo; e siate riconoscenti. ",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:16",
+              "text": "La parola di Cristo abiti in voi doviziosamente, in ogni sapienza; ammaestrandovi, ed ammonendovi gli uni gli altri, con salmi, ed inni, e canzoni spirituali; cantando con grazia del cuor vostro al Signore. ",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:17",
+              "text": "E qualunque cosa facciate, in parola, o in opera, fate ogni cosa nel nome del Signore Gesù, rendendo grazie a Dio, e Padre, per lui. ",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:18",
+              "text": "MOGLI, siate soggette a’ mariti, come si conviene nel Signore. ",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:19",
+              "text": "Mariti, amate le mogli, e non v’inasprite contro a loro. ",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:20",
+              "text": "Figliuoli, ubbidite a’ padri e madri, in ogni cosa; poichè questo è accettevole al Signore. ",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:21",
+              "text": "Padri, non provocate ad ira i vostri figliuoli, acciocchè non vengan meno dell’animo. ",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:22",
+              "text": "Servi, ubbidite in ogni cosa a quelli che son vostri signori secondo la carne; non servendo all’occhio, come per piacere agli uomini; ma in semplicità di cuore, temendo Iddio. ",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:23",
+              "text": "E qualunque cosa facciate, operate d’animo, facendolo come al Signore, e non agli uomini; ",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:24",
+              "text": "sapendo che dal Signore riceverete la retribuzione dell’eredità; poichè voi servite a Cristo, il Signore. ",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Colossesi 3:25",
+              "text": "Ma chi fa torto riceverà la retribuzione del torto ch’egli avrà fatto, e non vi è riguardo a qualità di persona.  ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "5efc477f7def7ec360ce79cc7eabc7e2d82c790b",
+        "hash_source_url": "https://api.getbible.net/v2/giovanni/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "giovanni"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:28:01.688326Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:28:01 GMT",
+            "etag": "W/\"6aa59168-1974\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:40 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/giovanni/51/3.json"
+        }
+      },
+      "result_sha256": "81f8c236775ad16db59f1c8fa97c219968b8cd93de5a7c320e12889dd659e050",
+      "retrieved_at": "2026-10-05T13:28:02+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/51/3": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 51,
+        "chapter": 3,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:27:59.520667Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Colossians",
+          "book_nr": 51,
+          "chapter": 3,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Colossians 3",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 3,
+              "name": "Colossians 3:1",
+              "text": "If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.",
+              "verse": 1
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:2",
+              "text": "Set your affection on things above, not on things on the earth.",
+              "verse": 2
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:3",
+              "text": "For ye are dead, and your life is hid with Christ in God.",
+              "verse": 3
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:4",
+              "text": "When Christ, who is our life, shall appear, then shall ye also appear with him in glory.",
+              "verse": 4
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:5",
+              "text": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
+              "verse": 5
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:6",
+              "text": "For which things’ sake the wrath of God cometh on the children of disobedience:",
+              "verse": 6
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:7",
+              "text": "In the which ye also walked some time, when ye lived in them.",
+              "verse": 7
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:8",
+              "text": "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
+              "verse": 8
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:9",
+              "text": "Lie not one to another, seeing that ye have put off the old man with his deeds;",
+              "verse": 9
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:10",
+              "text": "And have put on the new man, which is renewed in knowledge after the image of him that created him:",
+              "verse": 10
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:11",
+              "text": "Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all.",
+              "verse": 11
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:12",
+              "text": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;",
+              "verse": 12
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:13",
+              "text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+              "verse": 13
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:14",
+              "text": "And above all these things put on charity, which is the bond of perfectness.",
+              "verse": 14
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:15",
+              "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+              "verse": 15
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:16",
+              "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+              "verse": 16
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:17",
+              "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+              "verse": 17
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:18",
+              "text": "Wives, submit yourselves unto your own husbands, as it is fit in the Lord.",
+              "verse": 18
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:19",
+              "text": "Husbands, love your wives, and be not bitter against them.",
+              "verse": 19
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:20",
+              "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+              "verse": 20
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:21",
+              "text": "Fathers, provoke not your children to anger, lest they be discouraged.",
+              "verse": 21
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:22",
+              "text": "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:",
+              "verse": 22
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:23",
+              "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
+              "verse": 23
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:24",
+              "text": "Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
+              "verse": 24
+            },
+            {
+              "chapter": 3,
+              "name": "Colossians 3:25",
+              "text": "But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons. ",
+              "verse": 25
+            }
+          ]
+        },
+        "hash": "7f38111a95700e41a47dd48adb1021cdbd0e55df",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/51/3.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 51,
+          "chapter": 3,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:28:00.520667Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:28:00 GMT",
+            "etag": "W/\"6aa59169-17ea\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/51/3.json"
+        }
+      },
+      "result_sha256": "bf0ca5bbac7620e95af8b4ea9c286d6be80e5d77187830248bec2e6a8f3365ec",
+      "retrieved_at": "2026-10-05T13:28:00+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 82,
+              "start": 78,
+              "verse": 20
+            },
+            "source_text": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+            "start": {
+              "end": 8,
+              "start": 0,
+              "verse": 20
+            },
+            "word_end": 15,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "book": 51,
+      "chapter": 3,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/51/3",
+      "english_verses": [
+        {
+          "chapter": 3,
+          "name": "Colossians 3:20",
+          "text": "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
+          "verse": 20
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Col 3:20",
+      "reference": "Colossians 3:20",
+      "source_end": 82,
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord",
+      "source_start": 0,
+      "target_lookup": "giovanni/51/3",
+      "target_verses": [
+        {
+          "chapter": 3,
+          "name": "Colossesi 3:20",
+          "text": "Figliuoli, ubbidite a’ padri e madri, in ogni cosa; poichè questo è accettevole al Signore. ",
+          "verse": 20
+        }
+      ],
+      "verses": [
+        20
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "classification": "scripture_quotation",
+      "end": 92,
+      "identity": "Colossians 3:20",
+      "printed_text": "Col 3:20",
+      "start": 84
+    }
+  ],
+  "source_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+  "version": "1"
+}

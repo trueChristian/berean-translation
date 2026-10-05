@@ -1,0 +1,662 @@
+{
+  "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+  "classification_limit": "Uncited/unmarked quotations require independent reviewer detection; never synthesize them.",
+  "created_at": "2026-10-05T13:25:34+00:00",
+  "edition": {
+    "abbreviation": "modernhebrew",
+    "book_count": 66,
+    "catalog_description": "Modern Hebrew Bible",
+    "core_66_verified": true,
+    "direction": "rtl",
+    "distribution_license": "",
+    "distribution_source": "http://unbound.biola.edu/",
+    "inventory_sha256": "5455a110049e6b6bdd33cc3a46966440abd8193a75ca8e45ede04a73e457eebd",
+    "name": "Hebrew Modern",
+    "review_note": "Only complete Hebrew catalog candidate. Original publication date and rights provenance are unspecified; earliest-edition status needs human review.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "he",
+  "lookups": {
+    "kjv/45/6": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 45,
+        "chapter": 6,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:25:36.664652Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Romans",
+          "book_nr": 45,
+          "chapter": 6,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Romans 6",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 6,
+              "name": "Romans 6:1",
+              "text": "What shall we say then? Shall we continue in sin, that grace may abound?",
+              "verse": 1
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:2",
+              "text": "God forbid. How shall we, that are dead to sin, live any longer therein?",
+              "verse": 2
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:3",
+              "text": "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death?",
+              "verse": 3
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:4",
+              "text": "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.",
+              "verse": 4
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:5",
+              "text": "For if we have been planted together in the likeness of his death, we shall be also in the likeness of his resurrection:",
+              "verse": 5
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:6",
+              "text": "Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin.",
+              "verse": 6
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:7",
+              "text": "For he that is dead is freed from sin.",
+              "verse": 7
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:8",
+              "text": "Now if we be dead with Christ, we believe that we shall also live with him:",
+              "verse": 8
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:9",
+              "text": "Knowing that Christ being raised from the dead dieth no more; death hath no more dominion over him.",
+              "verse": 9
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:10",
+              "text": "For in that he died, he died unto sin once: but in that he liveth, he liveth unto God.",
+              "verse": 10
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:11",
+              "text": "Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord.",
+              "verse": 11
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:12",
+              "text": "Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof.",
+              "verse": 12
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:13",
+              "text": "Neither yield ye your members as instruments of unrighteousness unto sin: but yield yourselves unto God, as those that are alive from the dead, and your members as instruments of righteousness unto God.",
+              "verse": 13
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:14",
+              "text": "For sin shall not have dominion over you: for ye are not under the law, but under grace.",
+              "verse": 14
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:15",
+              "text": "What then? shall we sin, because we are not under the law, but under grace? God forbid.",
+              "verse": 15
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:16",
+              "text": "Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; whether of sin unto death, or of obedience unto righteousness?",
+              "verse": 16
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:17",
+              "text": "But God be thanked, that ye were the servants of sin, but ye have obeyed from the heart that form of doctrine which was delivered you.",
+              "verse": 17
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:18",
+              "text": "Being then made free from sin, ye became the servants of righteousness.",
+              "verse": 18
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:19",
+              "text": "I speak after the manner of men because of the infirmity of your flesh: for as ye have yielded your members servants to uncleanness and to iniquity unto iniquity; even so now yield your members servants to righteousness unto holiness.",
+              "verse": 19
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:20",
+              "text": "For when ye were the servants of sin, ye were free from righteousness.",
+              "verse": 20
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:21",
+              "text": "What fruit had ye then in those things whereof ye are now ashamed? for the end of those things is death.",
+              "verse": 21
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:22",
+              "text": "But now being made free from sin, and become servants to God, ye have your fruit unto holiness, and the end everlasting life.",
+              "verse": 22
+            },
+            {
+              "chapter": 6,
+              "name": "Romans 6:23",
+              "text": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord. ",
+              "verse": 23
+            }
+          ]
+        },
+        "hash": "524451b6c93cc9d4f7e54fe11c3d9bc577847d81",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/45/6.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 45,
+          "chapter": 6,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:25:37.664652Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:25:37 GMT",
+            "etag": "W/\"6aa59169-16a7\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/45/6.json"
+        }
+      },
+      "result_sha256": "cff124016a0c5aa74bb80e6a39a30e4290094c7b74af5c82222929363b55c588",
+      "retrieved_at": "2026-10-05T13:25:38+00:00",
+      "tool": "get_scripture"
+    },
+    "kjv/58/1": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 58,
+        "chapter": 1,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:25:34.540680Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Hebrews",
+          "book_nr": 58,
+          "chapter": 1,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Hebrews 1",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:1",
+              "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,",
+              "verse": 1
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:2",
+              "text": "Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds;",
+              "verse": 2
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:3",
+              "text": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;",
+              "verse": 3
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:4",
+              "text": "Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.",
+              "verse": 4
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:5",
+              "text": "For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son?",
+              "verse": 5
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:6",
+              "text": "And again, when he bringeth in the firstbegotten into the world, he saith, And let all the angels of God worship him.",
+              "verse": 6
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:7",
+              "text": "And of the angels he saith, Who maketh his angels spirits, and his ministers a flame of fire.",
+              "verse": 7
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:8",
+              "text": "But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom.",
+              "verse": 8
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:9",
+              "text": "Thou hast loved righteousness, and hated iniquity; therefore God, even thy God, hath anointed thee with the oil of gladness above thy fellows.",
+              "verse": 9
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:10",
+              "text": "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:",
+              "verse": 10
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:11",
+              "text": "They shall perish; but thou remainest; and they all shall wax old as doth a garment;",
+              "verse": 11
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:12",
+              "text": "And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.",
+              "verse": 12
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:13",
+              "text": "But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?",
+              "verse": 13
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:14",
+              "text": "Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation? ",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "fbaab9d97a3b67743e74aed231c9a7502317dd24",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/58/1.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 58,
+          "chapter": 1,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:25:35.540680Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:25:35 GMT",
+            "etag": "W/\"6aa59169-eee\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/58/1.json"
+        }
+      },
+      "result_sha256": "1c54f3ccc7265cb8bd1bf113db243f92f9b2bdd28a9e042c23041477c98827e9",
+      "retrieved_at": "2026-10-05T13:25:35+00:00",
+      "tool": "get_scripture"
+    },
+    "modernhebrew/58/1": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 58,
+        "chapter": 1,
+        "translation": "modernhebrew"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-04T13:25:35.684648Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "modernhebrew",
+          "book_name": "Hebrews",
+          "book_nr": 58,
+          "chapter": 1,
+          "direction": "RTL",
+          "encoding": "UTF-8",
+          "lang": "he",
+          "language": "Hebrew",
+          "name": "Hebrews 1",
+          "translation": "Hebrew Modern",
+          "verses": [
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:1",
+              "text": "האלהים אשר דבר מקדם פעמים רבות ובפנים שנים אל אבתינו ביד הנביאים דבר אלינו באחרית הימים האלה ביד בנו׃ ",
+              "verse": 1
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:2",
+              "text": "אשר נתנו ליורש כל וגם עשה בידו את העולמות׃ ",
+              "verse": 2
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:3",
+              "text": "והוא זהר כבודו וצלם ישותו ונושא כל בדבר גבורתו ואחרי עשתו בנפשו טהרת חטאתינו ישב לימין הגדלה במרומים׃ ",
+              "verse": 3
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:4",
+              "text": "ויגדל מאד מן המלאכים כאשר השם אשר נחלו יקר הוא משלהם׃ ",
+              "verse": 4
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:5",
+              "text": "כי אל מי מן המלאכים אמר מעולם בני אתה אני היום ילדתיך ועוד אני אהיה לו לאב והוא יהיה לי לבן׃ ",
+              "verse": 5
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:6",
+              "text": "ובהביאו את הבכור שנית לעולם אמר והשתחוו לו כל מלאכים אלהים׃ ",
+              "verse": 6
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:7",
+              "text": "הן על המלאכים הוא אמר עשה מלאכיו רוחות משרתיו אש להט׃ ",
+              "verse": 7
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:8",
+              "text": "אך על הבן אמר כסאך אלהים עולם ועד שבט מישר שבט מלכותך׃ ",
+              "verse": 8
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:9",
+              "text": "אהבת צדק ותשנא רשע על כן משחך אלהים אלהיך שמן ששון מחבריך׃ ",
+              "verse": 9
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:10",
+              "text": "ועוד אתה אדני לפנים הארץ יסדת ומעשה ידיך שמים׃ ",
+              "verse": 10
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:11",
+              "text": "המה יאבדו ואתה תעמד וכלם כבגד יבלו׃ ",
+              "verse": 11
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:12",
+              "text": "כלבוש תחליפם ויחלפו ואתה הוא ושנותיך לא יתמו׃ ",
+              "verse": 12
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:13",
+              "text": "ואל מי מן המלאכים אמר מעולם שב לימיני עד אשית איביך הדם לרגליך׃ ",
+              "verse": 13
+            },
+            {
+              "chapter": 1,
+              "name": "Hebrews 1:14",
+              "text": "הלא הם כלם רוחות השרת שלוחים לעזרה בעד העתידים לרשת את הישועה׃  ",
+              "verse": 14
+            }
+          ]
+        },
+        "hash": "22c70c9e3bf4893992ce5d8394564a14328d1e06",
+        "hash_source_url": "https://api.getbible.net/v2/modernhebrew/58/1.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 58,
+          "chapter": 1,
+          "kind": "chapter",
+          "translation": "modernhebrew"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-05T13:25:36.684648Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Mon, 05 Oct 2026 13:25:36 GMT",
+            "etag": "W/\"6aa5916c-1963\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:44 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/modernhebrew/58/1.json"
+        }
+      },
+      "result_sha256": "bd71b8950f073cdc7549983b593bcf954da0a84c24e2f3b52359b7bcaa3592ef",
+      "retrieved_at": "2026-10-05T13:25:37+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 120,
+              "start": 116,
+              "verse": 12
+            },
+            "source_text": "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands: They shall perish; but thou remainest; and they all shall wax old as doth a garment; And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 10
+            },
+            "word_end": 63,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "block": "/article[1]/p[4]",
+      "book": 58,
+      "chapter": 1,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/58/1",
+      "english_verses": [
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:10",
+          "text": "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:",
+          "verse": 10
+        },
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:11",
+          "text": "They shall perish; but thou remainest; and they all shall wax old as doth a garment;",
+          "verse": 11
+        },
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:12",
+          "text": "And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.",
+          "verse": 12
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Heb 1:10-12",
+      "reference": "Hebrews 1:10-12",
+      "source_end": 477,
+      "source_quote": "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands: They shall perish; but thou remainest; and they all shall wax old as doth a garment; And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail",
+      "source_start": 153,
+      "target_lookup": "modernhebrew/58/1",
+      "target_verses": [
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:10",
+          "text": "ועוד אתה אדני לפנים הארץ יסדת ומעשה ידיך שמים׃ ",
+          "verse": 10
+        },
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:11",
+          "text": "המה יאבדו ואתה תעמד וכלם כבגד יבלו׃ ",
+          "verse": 11
+        },
+        {
+          "chapter": 1,
+          "name": "Hebrews 1:12",
+          "text": "כלבוש תחליפם ויחלפו ואתה הוא ושנותיך לא יתמו׃ ",
+          "verse": 12
+        }
+      ],
+      "verses": [
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "references": [
+    {
+      "block": "/article[1]/p[1]",
+      "classification": "reference_only",
+      "end": 291,
+      "identity": "21:29-31",
+      "printed_text": "21:29-31",
+      "start": 283
+    },
+    {
+      "block": "/article[1]/p[4]",
+      "classification": "scripture_quotation",
+      "end": 490,
+      "identity": "Hebrews 1:10-12",
+      "printed_text": "Heb 1:10-12",
+      "start": 479
+    },
+    {
+      "block": "/article[1]/p[7]",
+      "classification": "reference_only",
+      "end": 133,
+      "identity": "5:7",
+      "printed_text": "5:7",
+      "start": 130
+    },
+    {
+      "block": "/article[1]/p[10]",
+      "classification": "reference_only",
+      "end": 357,
+      "identity": "Romans 6:13",
+      "printed_text": "Rom 6:13",
+      "start": 349
+    }
+  ],
+  "source_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+  "version": "1"
+}
