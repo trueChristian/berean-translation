@@ -786,7 +786,8 @@
   "source_revision": "29e37890a4be91d8d0483d791303be3c8e642c91",
   "status": "active",
   "task_counts": {
-    "in_batch": 5
+    "not_ready": 2,
+    "queued": 3
   },
   "tasks": [
     "dffc060b273799aed81537fb9d6caeac",
