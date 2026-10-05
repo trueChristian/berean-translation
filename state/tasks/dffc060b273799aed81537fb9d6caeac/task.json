@@ -2,6 +2,7 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "82364a23e03c43f399a9c7e1e3050aa3",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -145,8 +146,8 @@
   "scripture_evidence_sha256": "bff0a90bb57ab72c98b079d6aa279b1a062ab276e82bbc6166d6d1cb5e3755dd",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "correct",
-  "status": "queued",
-  "translation_attempts": 0,
+  "status": "in_batch",
+  "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
 }
