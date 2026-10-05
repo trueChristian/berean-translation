@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "72805ed87ac2ed27118010f71afcc1f0",
       "task": "22704b86f90e8e3fe21b8a54886c3b49"
+    },
+    {
+      "at": "2026-10-05T22:56:09+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 5:30; extra: 17:30",
+      "task": "22704b86f90e8e3fe21b8a54886c3b49"
     }
   ],
   "language": "heb",

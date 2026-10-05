@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b0574884-3ab6-4f2c-b4b9-2f94ef9e273e",
+    "response_id": "chatcmpl-EVgZYgTgoN8N8RstNeEYgZh6u6Gxk",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2057,
+        "cached_tokens": 1884
+      },
+      "total_tokens": 4549
+    }
+  },
+  "received_at": "2026-10-05T22:56:09+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Witte orchideeën met paarse centra\">\n  </figure>\n  <div class=\"poem\">\n    <p>De luister van de lente, hoe zoet!<br>\n    Het pasgeboren leven, hoe blij!<br>\n    Wat een vreugde de blije aarde te begroeten,<br>\n    Gehuld in nieuw, helder gewaad!</p>\n\n    <p>Goddelijke Verlosser, U prijs ik;<br>\n    Ik groet Uw uitgaan;<br>\n    Ik bemin U in de lieflijkheid<br>\n    Van Uw vernieuwde aarde.</p>\n\n    <p>Maar o, deze wonderen van Uw genade,<br>\n    Deze edeler werken van U,<br>\n    Deze wonderen, zoveel zoeter om te aanschouwen,<br>\n    Deze nieuwe geboorten, meer goddelijk:</p>\n\n    <p>Deze nieuwgeboren gloed van geloof zo sterk,<br>\n    Deze bloei van liefde zo schoon,<br>\n    Deze nieuwgeboren vervoering van zang,<br>\n    En de geurigheid van gebed!</p>\n\n    <p>Scheppende Geest, werk in mij<br>\n    Deze zoete wonderen van U;<br>\n    Goddelijke Verlosser, vernieuw genadig<br>\n    Dit hart van mij.</p>\n\n    <p>Laat steeds nieuw leven en kracht ontspringen,<br>\n    Laat steeds nieuwe vreugde gegeven worden;<br>\n    En schenk dat het blije nieuwe lied mag klinken<br>\n    Door de nieuwe aarde en de Hemel.</p>\n  </div>\n</article>\n",
+    "scripture_selections": [],
+    "section": null,
+    "subtitle": null,
+    "title": "De glorie van de lente"
+  }
+}

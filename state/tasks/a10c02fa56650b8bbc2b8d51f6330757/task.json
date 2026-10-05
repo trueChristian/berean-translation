@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c81b24f293a647239b263971891701ab",
   "campaign": "gh-37314284958",
   "continuation": {
     "cycle": 1,
@@ -20,7 +19,29 @@
   "downstream_previous_sha256": "b060a763e9db7135bfc8e2887ca4913c46e52f8427e98d8913b171af1b7dfbd8",
   "downstream_previous_task": "e51e5504e8851c353120ae92cbe2bf85",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2883,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7474,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5587,
+          "cached_tokens": 1884
+        },
+        "total_tokens": 10357
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "source.html — paragraph: \"No one can overextend themselves indefinitely. ...\" (Part 2, paragraph listing symptoms)",
@@ -131,9 +152,9 @@
   "scripture_evidence_path": "state/scripture/55bab917e839a5108720ccfba4b7e00dcf72e3e6477853c4a58784ef789cf62c.json",
   "scripture_evidence_sha256": "55bab917e839a5108720ccfba4b7e00dcf72e3e6477853c4a58784ef789cf62c",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }
