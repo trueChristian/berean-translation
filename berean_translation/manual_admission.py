@@ -16,6 +16,7 @@ from .state import TERMINAL
 VERSION = 1
 MAX_LEDGER_BYTES = 16 * 1024 * 1024
 MAX_EVENTS = 6
+MAX_ATTENTION_DETAIL_BYTES = 2048
 TEMPORARY = 'prefetch_wait_budget'
 MUTABLE = {'tasks', 'skipped', 'status', 'task_counts', 'reserved_usd',
            'reported_usage_usd', 'accounted_responses', 'cancel_requested', 'admission_counts'}
@@ -60,6 +61,53 @@ def transition(entry, status, reason):
         return
     entry.update(status=status, reason=reason)
     entry.setdefault('events', []).append({'status': status, 'reason': reason, 'at': now()})
+
+
+def _attention_text(message):
+    """Bound untrusted diagnostic data; retain visible Unicode, escape controls/markup."""
+    marker = ' [truncated]'
+    parts, size = [], 0
+    for char in message:
+        part = (f'\\u{ord(char):04x}' if char in '<>&' else
+                char if char.isprintable() else ascii(char)[1:-1])
+        size += len(part.encode('utf-8'))
+        if size > MAX_ATTENTION_DETAIL_BYTES - len(marker):
+            return ''.join(parts) + marker
+        parts.append(part)
+    return ''.join(parts)
+
+
+def record_attention_detail(entry, message):
+    """Append once at observation time, without modifying existing audit history."""
+    if entry['status'] != 'attention' or 'attention_detail' in entry:
+        return
+    detail = {'text': _attention_text(message),
+              'provenance_sha256': entry['provenance_sha256'],
+              'event_index': len(entry['events']) - 1,
+              'event_sha256': json_hash(entry['events'][-1])}
+    entry['attention_detail'] = {**detail, 'sha256': json_hash(detail)}
+
+
+def _validate_attention_detail(entry):
+    if 'attention_detail' not in entry:
+        return  # Existing v1 history has no reconstructable diagnostic obligation.
+    detail = entry['attention_detail']
+    if (not isinstance(detail, dict)
+            or set(detail) != {'text', 'provenance_sha256', 'event_index', 'event_sha256', 'sha256'}
+            or not isinstance(detail['text'], str) or not detail['text']
+            or len(detail['text'].encode('utf-8')) > MAX_ATTENTION_DETAIL_BYTES
+            or any(not char.isprintable() or char in '<>&' for char in detail['text'])
+            or type(detail['event_index']) is not int
+            or not 0 <= detail['event_index'] < len(entry['events'])
+            or detail['provenance_sha256'] != entry['provenance_sha256']
+            or detail['sha256'] != json_hash({k: v for k, v in detail.items() if k != 'sha256'})):
+        raise ContractError('Malformed manual admission attention detail')
+    event = entry['events'][detail['event_index']]
+    if (entry['provenance'] is None or entry['status'] not in ('attention', 'cancelled')
+            or event['status'] != 'attention' or event['reason'] == TEMPORARY
+            or detail['event_sha256'] != json_hash(event)
+            or not detail['text'].startswith(f'Scripture attention: {event["reason"]}: ')):
+        raise ContractError('Manual admission attention detail provenance changed')
 
 
 def save(state, ledger):
@@ -281,6 +329,7 @@ def _validate(state, campaign, ledger):
                 or entry['provenance_sha256'] != json_hash(entry['provenance'])
                 or entry['status'] not in UNFINISHED | {'admitted', 'cancelled'}):
             raise ContractError('Manual admission target provenance changed')
+        _validate_attention_detail(entry)
         proof = entry['provenance']
         if proof is None:
             if entry['status'] not in ('attention', 'cancelled'):
@@ -426,9 +475,10 @@ def resume(engine, campaign, request, *, new=False):
             save(state, ledger)
         except ScriptureAttention as exc:
             transition(entry, 'pending' if exc.reason == TEMPORARY else 'attention', exc.reason)
+            record_attention_detail(entry, str(exc))
             if not any(i['language'] == entry['item']['language'] and i['article_id'] == entry['item']['article_id']
                        for i in campaign['skipped']):
-                campaign['skipped'].append({**entry['item'], 'reason': exc.reason, 'detail': str(exc)})
+                campaign['skipped'].append({**entry['item'], 'reason': exc.reason, 'detail': _attention_text(str(exc))})
             save(state, ledger)
             state.save_campaign(campaign)
         except (ContractError, UnicodeError) as exc:
