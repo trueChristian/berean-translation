@@ -248,6 +248,23 @@ def describe_reference_difference(original: Counter, translated: Counter) -> str
     return f'missing: {describe(original - translated)}; extra: {describe(translated - original)}'
 
 
+def unmarked_clock_difference(original: str, translated: str, left: Counter, right: Counter) -> bool:
+    """Classify a rejected numeric change without exempting it from the gate.
+
+    Clear time cues can explain a diagnostic, but cannot establish an omitted
+    AM/PM period or authorize a twelve-hour conversion. Mixed Scripture/time
+    changes retain the general protected-reference diagnostic.
+    """
+    def values(text):
+        text = decimal_digits(text)
+        explicit = clock_mentions(text)
+        return Counter(reference_value(text[start:end])
+                       for start, end, _ in clock_mentions(text, localized=True)
+                       if not any(a <= start and end <= b for a, b, _ in explicit))
+    missing, extra = left - right, right - left
+    return bool(missing and not (missing - values(original)) and not (extra - values(translated)))
+
+
 def validate_translation(source: dict, candidate: dict, *, language: str | None = None) -> Fragment:
     if not isinstance(candidate, dict) or set(candidate) != {'html','title','subtitle','section'}:
         raise ContractError('Translation must contain exactly html, title, subtitle, section')
@@ -267,10 +284,15 @@ def validate_translation(source: dict, candidate: dict, *, language: str | None 
     if original.nonempty_blocks != translated.nonempty_blocks:
         raise ContractError('A substantive block was emptied or inserted')
     for path in dict.fromkeys([*original.text_by_block, *translated.text_by_block]):
-        left, right = protected_reference_numbers(' '.join(original.text_by_block.get(path, [])),
-                                                 ' '.join(translated.text_by_block.get(path, [])),
+        original_text = ' '.join(original.text_by_block.get(path, []))
+        translated_text = ' '.join(translated.text_by_block.get(path, []))
+        left, right = protected_reference_numbers(original_text, translated_text,
                                                  language=language)
         if left != right:
+            if unmarked_clock_difference(original_text, translated_text, left, right):
+                raise ContractError(f'Clock notation changed at {path}; preserve an unmarked source time '
+                                    'exactly and do not infer AM/PM; '
+                                    + describe_reference_difference(left, right))
             raise ContractError(f'Scripture chapter/verse numbers or ranges changed at {path}; '
                                 + describe_reference_difference(left, right))
     if not translated.text.strip():

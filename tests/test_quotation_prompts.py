@@ -67,6 +67,7 @@ class QuotationPromptTests(unittest.TestCase):
                 self.assertEqual(prompt, campaign['prompts'][name])
                 self.assertEqual(prompt, self.config.prompt(name))
                 self.assert_quotation_policy(prompt)
+                self.assertIn('When a source clock has no explicit AM/PM period, preserve its printed hour and minute exactly', prompt)
                 self.assertEqual(payload['source'], {key: self.fixture['source'][key]
                                                     for key in ('html', 'title', 'subtitle', 'section')})
                 self.assertEqual(payload['source_context'], {'byline': 'Miriam'})

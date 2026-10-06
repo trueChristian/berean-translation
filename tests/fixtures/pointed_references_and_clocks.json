@@ -1,0 +1,58 @@
+{
+  "repository": "trueChristian/berean-translation",
+  "revision": "17ab829f0c2179898ff28de0ba22e25035287696",
+  "cases": [
+    {
+      "kind": "pointed_book",
+      "task_id": "25208c78b2f979028095f9fb719c88dd",
+      "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+      "language": "heb",
+      "provenance": {
+        "task": {
+          "path": "state/tasks/25208c78b2f979028095f9fb719c88dd/task.json",
+          "sha256": "6f8a81355b800cab6a7f70e70d64ef7e18d90101dbe20060abdeb682535b0dd1",
+          "git_blob_sha": "a6c6634c27801e406fcfbe6ce93412b9175922c6",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/tasks/25208c78b2f979028095f9fb719c88dd/task.json"
+        },
+        "source": {
+          "path": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+          "sha256": "f39afa6ffe1381afac09fb6da52d854d858058dc2a6225dccd4e7ee5fdb5f2d0",
+          "git_blob_sha": "fc32c7d86c107fc84c2a8d5e8f1582621c137e0c",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json"
+        },
+        "correct": {
+          "path": "state/tasks/25208c78b2f979028095f9fb719c88dd/results/correct.json",
+          "sha256": "bbd5ca040ed1e7b8ccdc0483237e15b6c529189d33aef4b43c8ab49edb7c955c",
+          "git_blob_sha": "92fe32357ea35f523167b3087771ec12ec805d4c",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/tasks/25208c78b2f979028095f9fb719c88dd/results/correct.json"
+        }
+      }
+    },
+    {
+      "kind": "unmarked_clock",
+      "task_id": "22704b86f90e8e3fe21b8a54886c3b49",
+      "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "language": "heb",
+      "provenance": {
+        "task": {
+          "path": "state/tasks/22704b86f90e8e3fe21b8a54886c3b49/task.json",
+          "sha256": "e37788c3f0d7b29d3ca681f7558a8d2c7f327df5114d9ecf1a91c31477a399ed",
+          "git_blob_sha": "3fe47988d4ba675c8312c78b2118a2eb8621927c",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/tasks/22704b86f90e8e3fe21b8a54886c3b49/task.json"
+        },
+        "source": {
+          "path": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
+          "sha256": "b372d242e32e30aa8801aeddeca4b299ceb2ef4d320deeda9a6cfe3f0cfe6776",
+          "git_blob_sha": "172f3e0e768130c6a1fdacc7d7d4e22f4259949f",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json"
+        },
+        "correct": {
+          "path": "state/tasks/22704b86f90e8e3fe21b8a54886c3b49/results/correct.json",
+          "sha256": "e14c8325e60e021c11a2ed0c63bde9d943862459a4b7f22be2cb2fa6228dfdcf",
+          "git_blob_sha": "888a99546c78df4864e04737b9625277e92d9a01",
+          "url": "https://github.com/trueChristian/berean-translation/blob/17ab829f0c2179898ff28de0ba22e25035287696/state/tasks/22704b86f90e8e3fe21b8a54886c3b49/results/correct.json"
+        }
+      }
+    }
+  ]
+}

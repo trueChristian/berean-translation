@@ -131,3 +131,19 @@ attempts and zero reviews; German ALL NATURE SINGS retains its one prior review
 and one correction attempt. None receives a new review or publication merely
 because reference notation now validates. The authentic Korean The Strait Gate
 to Life remains a negative because John 4:16 was expanded to 4:15–16.
+
+## Pointed Hebrew book names and clock diagnostics
+
+The October 5, 2026 follow-up recognizes Hebrew pointing and cantillation within
+the existing finite book-name aliases, including the fetched `קֹהֶלֶת` spelling.
+It preserves the original decoded-text offsets and every book/ordinal/numeric
+identity. Punctuation is not pointing; unsupported word prefixes and hidden
+combining/format characters cannot expose a known suffix or conceal an ordinal.
+No additional book-letter spelling is inferred.
+
+A changed clock without an explicit source AM/PM period still fails. Clear time
+cues now produce a clock-specific diagnostic: `dinner at 5:30` must retain 5:30,
+rather than inferring 17:30. Explicit equivalent conversions such as 5:30 pm to
+17:30 keep their existing source-backed behavior. New frozen translation/review
+instructions explain this distinction; prior requests and held records retain
+their original bytes and outcomes.

@@ -82,6 +82,12 @@ _DECIMAL_ATOM = re.compile(_DECIMAL_TOKEN)
 _HEBREW_ATOM = re.compile(f'(?:{_DECIMAL_TOKEN}|{_HEBREW_TOKEN})')
 _BARE_COLON = re.compile(r'(?<![0-9])[0-9]+\s*:')
 _HEBREW_COLON = re.compile(rf'(?<![\w׳״])({_HEBREW_TOKEN})\s*:')
+# Pointing/cantillation changes the presentation of a known Hebrew book name,
+# not its identity. Match these marks in place so all returned spans still
+# address the original decoded text. Punctuation such as maqaf is excluded.
+_HEBREW_POINT_CHARS = '\u0591-\u05bd\u05bf\u05c1-\u05c2\u05c4-\u05c5\u05c7'
+_HEBREW_POINTS = re.compile('[' + _HEBREW_POINT_CHARS + ']')
+_OPTIONAL_HEBREW_POINTS = '[' + _HEBREW_POINT_CHARS + ']*'
 # Never match a Gospel/book suffix within an unsupported numbered identity.
 _PRECEDING_ORDINAL = re.compile(
     r"(?<![\w:,\-‐‑–—−־])(?:[0-9]+(?:st|nd|rd|th)?\.?|[IVX]+\.?|[אבגדהוזחט](?:[׳'’‘])?)\s*$", re.I)
@@ -166,7 +172,9 @@ def _number(token: str, language: str, *, suffix: bool = False) -> tuple[int, st
 def _alias_pattern(alias: str) -> str:
     if alias == 'Is.':
         return r'(?-i:Is\.?)'  # The English verb "is" is never a book alias.
-    return re.escape(alias).replace(r'\.', r'\.?').replace(r'\ ', r'\s*').replace('׳', "[׳'’‘]")
+    alias = _HEBREW_POINTS.sub('', alias)
+    pattern = re.escape(alias).replace(r'\.', r'\.?').replace(r'\ ', r'\s*').replace('׳', "[׳'’‘]")
+    return re.sub('[\u05d0-\u05ea]', lambda match: match[0] + _OPTIONAL_HEBREW_POINTS, pattern)
 
 
 @lru_cache(maxsize=12)
@@ -202,9 +210,14 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
         group = f'b{index}'
         groups.append(f'(?P<{group}>{_alias_pattern(alias)})')
         identities[group] = aliases[alias]
-    prefix = '(?:ו?[במ]|ו)?' if language == 'heb' else ''
-    return re.compile(r'(?<!\w)' + prefix + '(?:' + '|'.join(groups) +
-                      r')(?![^\W\d_])', re.I), identities
+    points = _OPTIONAL_HEBREW_POINTS
+    prefix = f'(?:(?:ו{points})?[במ]{points}|ו{points})?' if language == 'heb' else ''
+    # A combining mark at a boundary still belongs to its preceding letter;
+    # never recognize a known suffix inside an unrelated pointed word.
+    left = r'(?<![\w' + _HEBREW_POINT_CHARS + '])' if language == 'heb' else r'(?<!\w)'
+    right = (r'(?![^\W\d_]|[' + _HEBREW_POINT_CHARS + '])'
+             if language == 'heb' else r'(?![^\W\d_])')
+    return re.compile(left + prefix + '(?:' + '|'.join(groups) + ')' + right, re.I), identities
 
 
 def _space(text: str, position: int) -> int:
@@ -560,12 +573,24 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
 
 def _preceding_ordinal_start(text: str, position: int) -> int | None:
     """Keep the full unsupported ordinal prefix, including stacked ordinals."""
+    # A pointed unsupported ordinal must not expose a shorter unnumbered book.
+    # Keep an index map solely for this prefix check; citation offsets stay raw.
+    prefix = text[:position]
+    offsets = None
+    if any(unicodedata.category(char).startswith('M') or unicodedata.category(char) == 'Cf'
+           for char in prefix):
+        # This normalization only finds unsupported ordinals to reject. Other
+        # combining/format marks must not hide an ordinal from that check.
+        offsets = [index for index, char in enumerate(prefix)
+                   if not unicodedata.category(char).startswith('M') and unicodedata.category(char) != 'Cf']
+        normalized = ''.join(prefix[index] for index in offsets)
+        text, position = normalized, len(normalized)
     start = position
     while True:
         ordinals = [match for pattern in (_PRECEDING_ORDINAL, _PRECEDING_NAMED_ORDINAL)
                     if (match := pattern.search(text[:start]))]
         if not ordinals:
-            return start if start != position else None
+            return (offsets[start] if offsets is not None else start) if start != position else None
         start = min(match.start() for match in ordinals)
 
 
@@ -573,12 +598,24 @@ def _qualified_books(text: str, language: str, target_language: str | None = Non
                      *, retain_unsupported_ordinals: bool = False):
     book_pattern, identities = _book_pattern(language, target_language)
     for match in book_pattern.finditer(text):
+        if language == 'heb':
+            # Regex \w excludes combining/format characters. They cannot turn
+            # the suffix of an unrelated word into a standalone known book.
+            preceding = text[:match.start()]
+            while preceding and (unicodedata.category(preceding[-1]).startswith('M')
+                                 or unicodedata.category(preceding[-1]) == 'Cf'):
+                preceding = preceding[:-1]
+            if preceding and re.match(r'\w', preceding[-1]):
+                continue
         ordinal_start = _preceding_ordinal_start(text, match.start())
         if ordinal_start is not None and not retain_unsupported_ordinals:
             continue
         book = identities[match.lastgroup]
         if (language == 'heb' and book == '1 John'
-                and _PRECEDING_HEBREW_EPISTLE_TITLE.search(text[:match.start()])):
+                and _PRECEDING_HEBREW_EPISTLE_TITLE.search(
+                    ''.join(char for char in text[:match.start()]
+                            if not unicodedata.category(char).startswith('M')
+                            and unicodedata.category(char) != 'Cf'))):
             # A newly supported shorter name cannot salvage a larger title
             # whose unsupported attached prefix failed the normal boundary.
             continue
