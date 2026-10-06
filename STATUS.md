@@ -572,11 +572,11 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37154369621` | manual recovery | repair | finished | 5 | 4 complete, 1 held | 0.11890425 | 1.298473 / 10.00 | [state](state/campaigns/gh-37154369621.json) |
 | `gh-37154422984` | manual recovery | repair | finished | 5 | 5 complete | 0.17710360 | 1.522819 / 10.00 | [state](state/campaigns/gh-37154422984.json) |
 | `gh-37314284958` | manual recovery | repair | finished | 5 | 4 complete, 1 held | 0.12347420 | 1.382544 / 30.00 | [state](state/campaigns/gh-37314284958.json) |
-| `gh-37314352672` | manual | translate | active | 90 | 26 complete, 64 held | 0.21837706 | 1.490725 / 30.00 | [state](state/campaigns/gh-37314352672.json) |
+| `gh-37314352672` | manual | translate | finished | 90 | 26 complete, 64 held | 0.21837706 | 1.490725 / 30.00 | [state](state/campaigns/gh-37314352672.json) |
 | `gh-37333306531` | manual | translate | planned | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37333306531.json) |
 | `gh-37333368552` | manual recovery | repair | finished | 5 | 5 held | 0.28775395 | 1.633853 / 30.00 | [state](state/campaigns/gh-37333368552.json) |
 | `gh-37339703325` | manual | translate | finished | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37339703325.json) |
-| `gh-37339848895` | manual recovery | repair | active | 5 | 3 complete, 2 held | 0.23319125 | 1.530268 / 30.00 | [state](state/campaigns/gh-37339848895.json) |
+| `gh-37339848895` | manual recovery | repair | finished | 5 | 3 complete, 2 held | 0.23319125 | 1.530268 / 30.00 | [state](state/campaigns/gh-37339848895.json) |
 | `gh-37439892859` | manual | translate | admission_attention | 0 | 27 admission attention | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37439892859.json) / [admissions](state/manual-admissions/gh-37439892859.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
