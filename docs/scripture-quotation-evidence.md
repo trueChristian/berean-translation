@@ -72,7 +72,7 @@ but never receives an invented chapter checksum.
    and three-field shapes. Independent review receives the same full evidence,
    complete English article/candidate and selection audit. It verifies semantic
    scope, no expansion/omission, negation, attribution, printed citation identity
-   and edition correspondence. The gate canonicalizes provider-attested native book names plus existing reviewed German/Hebrew aliases and preserves book/chapter/verse identity/count. Unsupported alternative abbreviations require attention. Mechanical substring checks alone do not prove
+   and edition correspondence. The gate canonicalizes provider-attested native book names plus finite reviewed aliases for the target language and preserves book/chapter/verse identity/count. Unsupported alternative abbreviations require attention. Mechanical substring checks alone do not prove
    semantic equivalence. Publication rechecks the exact accepted claims.
 
 This initial conservative extractor is not a proof that every archive quotation
@@ -83,7 +83,7 @@ never applies AI citation gates to human edits.
 
 ## Deterministic selection metadata recovery
 
-New campaigns freeze `selection_normalization_version: "1"`. When a response's
+Version 1 freezes `selection_normalization_version: "1"`. When a response's
 selection coordinates fail, this permits a bounded metadata-only reconstruction
 for a complete, delimited quotation. The response must identify the same quote,
 original block and complete ordered verse inventory. The exact complete frozen
@@ -110,6 +110,34 @@ wrong. These pass deterministic replay after an in-memory opt-in; no semantic
 approval or paid retry is implied. The French response selects Martin 12:3–9
 against frozen Ecclesiastes 12:1–7 evidence and remains an attention hold. This
 change does not invent a cross-edition verse correspondence.
+
+## Version 2 structural scope and numeric metadata
+
+New campaigns freeze `selection_normalization_version: "2"`. Version 1 keeps its
+original delimited-only behavior. Version 2 additionally proves two finite
+source-backed forms: a trailing emphasis subtree whose complete quotation is
+followed only by its citation, or a whole paragraph inside a blockquote with the
+same quote/citation shape. It verifies the unchanged source snapshot and DOM,
+exact retrieved target text, matching structural boundary, and complete citation
+identity/count. Finding matching text somewhere in ordinary prose is insufficient.
+Repeated quotations need their own explicit frozen scopes; an extra occurrence
+without one is rejected. Citation tails use a finite grammar, including balanced
+wrappers and bounded punctuation, so a new ellipsis cannot masquerade as padding.
+
+After that independent proof, model-supplied positional integers are retained for
+audit but are not used as authority or required to fit a guessed text length.
+The original claim's serialized size, shape and integer types bound processing;
+verse identities/order and all word/scope checks remain mandatory. No target
+word, punctuation mark or article byte is inserted, deleted or rewritten.
+Whitespace-only gaps at the outer edges of adjacent selected verse pieces obey
+the existing trim-and-join contract. Missing punctuation or letters still fail.
+
+The October 6 fixtures cover all 25 new terminal corrections at
+`a282270816511ceab7890a1a642dfdf132c1e387`. Seventeen complete exact quotations
+and one further reference-alias case pass deterministic in-memory replay under
+the proposed version; five punctuation differences and two real HTML line-break
+changes remain held. No saved task is reopened or semantically approved by this
+replay. A mocked engine lifecycle verifies independent review remains necessary.
 
 ## Integration and bounds
 
