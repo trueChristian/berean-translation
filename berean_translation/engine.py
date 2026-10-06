@@ -18,7 +18,7 @@ from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
-from . import downstream, autonomous, stage_budget
+from . import downstream, autonomous, stage_budget, manual_admission
 from .attempts import archive, decision
 from .scripture_evidence import (ScriptureAttention, normalize_scripture_candidate,
     validate_scripture_candidate, freeze_scripture_evidence, policy as scripture_policy,
@@ -65,7 +65,9 @@ class Engine:
         except (ContractError, OSError, UnicodeError, KeyError):
             return True
 
-    def select_issues(self, selection, languages, operation, retry_failed=False):
+    def select_issues(self, selection, languages, operation, retry_failed=False, *, claim_index=None):
+        if claim_index is None:
+            claim_index = manual_admission.claims(self.state)
         source = self.state.read('state/source.json')
         issues = source['issues']
         if selection in ('all','outstanding'):
@@ -74,7 +76,7 @@ class Engine:
             for issue in issues:
                 for article in source['articles'].values():
                     if article['issue_id'] == issue['id'] and any(
-                        self.eligible(article,lang,operation,retry_failed)[0] for lang in languages):
+                        self.eligible(article,lang,operation,retry_failed, claim_index=claim_index)[0] for lang in languages):
                         return [issue['id']]
             return []
         aliases = {}
@@ -91,7 +93,9 @@ class Engine:
             raise ContractError('Issue aliases selected the same issue twice')
         return selected
 
-    def eligible(self, article, language, operation, retry_failed):
+    def eligible(self, article, language, operation, retry_failed, *, claim_index=None):
+        if manual_admission.covered(self.state, language, article['id'], article['translation_key'], claim_index=claim_index):
+            return False, 'manual_admission_pending'
         record = self.state.record(language,article['id'])
         latest_id = record.get('latest_task')
         task = self.state.read(f'state/tasks/{latest_id}/task.json') if latest_id else None
@@ -113,6 +117,7 @@ class Engine:
         return True,'new_or_changed_source'
 
     def accept_request(self, request):
+        manual_admission.restore_orphans(self.state)
         if request.get('autonomous'):
             return autonomous.accept(self, request)
         if request.get('operation') == 'repair':
@@ -122,12 +127,16 @@ class Engine:
             raise ContractError('Invalid queue request identity')
         recovery = recovery_selector(request, self.config.runtime['max_tasks_per_request'])
         existing = self.state.read(f'state/campaigns/{identity}.json')
+        if existing is None:
+            existing = manual_admission.restore_orphan(self.state, request)
         if existing:
             if ((existing.get('request_sha256') and existing['request_sha256'] != json_hash(request))
                     or (recovery and not existing.get('request_sha256'))):
                 raise ContractError('Campaign identity already exists with different immutable inputs')
             if existing.get('recovery_of_campaign'):
                 recorded_request(self.state, existing)
+            if self.state.read(manual_admission.path(identity)) or manual_admission.needs_resume(self.state, existing):
+                return manual_admission.resume(self, existing, request)
             return existing
         operation = request.get('operation')
         if operation not in ('translate','review'):
@@ -144,7 +153,8 @@ class Engine:
         refresh = request.get('source_refresh',False)
         if type(refresh) is not bool:
             raise ContractError('Request source_refresh must be a boolean')
-        selected = [] if recovery else self.select_issues(request.get('issues','next'),languages,operation,retry)
+        claim_index = manual_admission.claims(self.state)
+        selected = [] if recovery else self.select_issues(request.get('issues','next'),languages,operation,retry, claim_index=claim_index)
         source_index = self.state.read('state/source.json')
         refresh_ids, refresh_keys = None, None
         if refresh:
@@ -185,7 +195,7 @@ class Engine:
             planned, skipped = [],[]
             for article in articles:
                 for language in languages:
-                    allowed, reason = self.eligible(article,language,operation,retry)
+                    allowed, reason = self.eligible(article,language,operation,retry, claim_index=claim_index)
                     if refresh:
                         pub = self.state.record(language,article['id']).get('published')
                         if not pub:
@@ -237,6 +247,8 @@ class Engine:
                     'audit':view.writes.get(f'state/tasks/{probe["id"]}/scripture-selections.json')}
             campaign['recovery_scripture'] = frozen_scripture
             campaign['recovery_scripture_sha256'] = json_hash(frozen_scripture)
+        if manual_admission.supported(campaign):
+            return manual_admission.resume(self, campaign, request, new=True)
         # Persist the accepted full envelope before creating any recovery work.
         # This allocation is never freed, even if acceptance/staging later fails.
         self.state.save_campaign(campaign)
@@ -315,8 +327,9 @@ class Engine:
             if not may_continue(continue_work):
                 break
             request = read_json(path)
-            if (self.state.read(f'state/campaigns/{path.stem}.json') is not None or
-                    self.state.read(f'state/queue-errors/{path.stem}.json') is not None):
+            existing = self.state.read(f'state/campaigns/{path.stem}.json')
+            if (existing is not None and not manual_admission.needs_resume(self.state, existing)
+                    or self.state.read(f'state/queue-errors/{path.stem}.json') is not None):
                 continue
             if count >= self.config.runtime['max_pending_campaigns_per_tick']:
                 break
@@ -497,6 +510,7 @@ class Engine:
             self.finish(task,'not_ready',str(exc))
 
     def recover(self, batch):
+        manual_admission.validate_campaign(self.state, batch['campaign'])
         batch['last_reconciled_at'] = now()
         try:
             matches = self.provider.find(batch['id'])
@@ -519,6 +533,7 @@ class Engine:
         return False
 
     def submit(self, batch, *, continue_work=None):
+        manual_admission.validate_campaign(self.state, batch['campaign'])
         if not self.provider or not may_continue(continue_work):
             return
         if batch['status'] in ('submitting','submission_unknown'):
@@ -587,6 +602,7 @@ class Engine:
             return  # The intent push incorporated an edit; create has not been called.
         if self.hold_expired_prepared(batch, before_create=True):
             return
+        manual_admission.validate_campaign(self.state, batch['campaign'])
         try:
             remote = self.provider.create(batch['input_file_id'],batch['id'],batch['campaign'])
             batch.update(remote_id=remote['id'],status='submitted')
@@ -789,9 +805,12 @@ class Engine:
         limit = self.config.runtime['max_batches_per_tick'] if max_batches is None else max_batches
         downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         autonomous.validate_history(self.config, self.state)
+        manual_admission.validate_history(self.state)
         groups = defaultdict(list)
         for task in self.state.tasks():
             if task['status'] == 'queued':
+                if not manual_admission.admitted(self.state, task):
+                    continue  # A partially materialized admission cannot become billable.
                 if self.human_protected(task['language'], task['article_id']):
                     self.finish(task, 'cancelled', 'Human editorial authority permanently excludes further AI work')
                     continue
@@ -897,6 +916,10 @@ class Engine:
                 return abort_incomplete_recovery(self, campaign)
         campaign['cancel_requested'] = True
         self.state.save_campaign(campaign)
+        if self.state.read(manual_admission.path(identity)) or manual_admission.needs_resume(self.state, campaign):
+            request = self.state.read(f'state/queue/{identity}.json')
+            if request is not None:
+                manual_admission.resume(self, campaign, request)
         self.checkpoint('runtime: persist explicit campaign cancellation')
         for batch in self.state.batches():
             if batch['campaign'] != identity or batch['status'] in ('collected','results_invalid','upload_failed'):
@@ -920,6 +943,7 @@ class Engine:
 
     def tick(self, *, discover_source=True, continue_work=None):
         self.continue_work = continue_work
+        manual_admission.restore_orphans(self.state)
         self.state.sync_human_reviews(self.gitstore)
         autonomous.settle(self)
         if discover_source and may_continue(continue_work):
@@ -959,7 +983,13 @@ class Engine:
                                        and not campaign.get('recovery_acceptance_complete')):
                 continue
             tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in campaign['tasks']]
-            campaign['status'] = 'finished' if all(t['status'] in TERMINAL for t in tasks) else 'active'
+            admissions = manual_admission.counts(self.state, campaign)
+            if manual_admission.needs_resume(self.state, campaign):
+                campaign['admission_counts'] = admissions
+            campaign['status'] = (
+                'admission_attention' if not campaign.get('cancel_requested') and admissions.get('attention') else
+                'admission_pending' if not campaign.get('cancel_requested') and any(admissions.get(s) for s in ('pending', 'ready')) else
+                'finished' if all(t['status'] in TERMINAL for t in tasks) else 'active')
             campaign['task_counts'] = dict(sorted({s:sum(t['status']==s for t in tasks) for s in {t['status'] for t in tasks}}.items()))
             self.state.save_campaign(campaign)
         source = self.state.read('state/source.json', {'revision':None,'articles':{},'issues':[]})
@@ -967,7 +997,9 @@ class Engine:
         snapshot = {'utc_date':now()[:10],
             'source_revision':source['revision'],'articles_discovered':len(source['articles']),
             'issues_discovered':len(source['issues']),
-            'pending_tasks':sum(t['status'] not in TERMINAL for t in self.state.tasks())}
+            'pending_tasks':sum(t['status'] not in TERMINAL for t in self.state.tasks()),
+            'unfinished_manual_admissions':sum(sum(n for status,n in manual_admission.counts(self.state,c).items()
+                if status in manual_admission.UNFINISHED) for c in self.state.campaigns() if not c.get('cancel_requested'))}
         if heartbeat != snapshot:
             self.state.write('state/heartbeat.json',snapshot)
         result = self.state.derive(self.config)

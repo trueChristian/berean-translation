@@ -206,7 +206,10 @@ def resume_stage(state, previous):
     return None, 'technical_failure_requires_attention'
 
 
-def selection(engine, language, article, previous=None):
+def selection(engine, language, article, previous=None, *, manual_claims=None):
+    from .manual_admission import covered
+    if covered(engine.state, language, article['id'], article['translation_key'], claim_index=manual_claims, include_attention=True):
+        return None, 'manual_admission_pending'
     if engine.human_protected(language, article['id']):
         return None, 'human_reviewed_or_edited_protected'
     record = engine.state.record(language, article['id'])
@@ -253,6 +256,8 @@ def enqueue(engine):
             pending_manual.append(request)
     room = settings['max_active_tasks'] - sum(t['status'] not in TERMINAL for t in tasks) - pending_slots
     queued, held = [], []
+    from .manual_admission import claims
+    manual_claims = claims(state, include_attention=True)
     pairs = []
     for article in sorted(source.get('articles', {}).values(), key=lambda a: (a['issue_id'], a['sequence'], a['id'])):
         for language in config.languages:
@@ -270,7 +275,7 @@ def enqueue(engine):
                or previous and previous['id'] in request.get('previous_task_ids', [])
                for request in pending_manual):
             continue
-        spec, reason = selection(engine, language, article, previous)
+        spec, reason = selection(engine, language, article, previous, manual_claims=manual_claims)
         if reason:
             if reason not in ('active', 'already_translated', 'human_reviewed_or_edited_protected'):
                 held.append({'article_id': article['id'], 'language': language, 'reason': reason})

@@ -359,6 +359,10 @@ class State:
                             'active' if status in ('queued','in_batch') else
                             status if status in ('complete','proposal','cancelled') else 'unknown')
                 outcomes[category] += 1
+            from .manual_admission import counts, UNFINISHED
+            for status, count in counts(self, campaign).items():
+                if status in UNFINISHED and count and not campaign.get('cancel_requested'):
+                    outcomes['admission '+status] = count
             summary = ', '.join(f'{count} {label}' for label,count in outcomes.items() if count) or 'no task work'
             trigger = ('automatic archive' if campaign.get('autonomous') else
                        'hourly recovery' if campaign.get('downstream_request', {}).get('scheduled_hour') else
@@ -368,7 +372,9 @@ class State:
             rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
                         f'{summary} | {campaign.get("reported_usage_usd",0):.8f} | '
                         f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
-                        f'[state](state/campaigns/{campaign["id"]}.json) |')
+                        f'[state](state/campaigns/{campaign["id"]}.json)'
+                        + (f' / [admissions](state/manual-admissions/{campaign["id"]}.json)'
+                           if self.read(f'state/manual-admissions/{campaign["id"]}.json') else '') + ' |')
         batches = self.batches()
         if batches:
             rows += ['', '## Provider batch lifecycle', '',

@@ -244,7 +244,7 @@ def build_evidence(source, language_tag, frozen_policy, provider=None):
     return bundle
 
 
-def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, provider=None):
+def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, provider=None, language_tag=None):
     """Acceptance hook, AFTER human exclusion, BEFORE reservation/paid requests."""
     record = engine.state.record(language, source['article']['id'])
     publication = record.get('published') or {}
@@ -262,7 +262,7 @@ def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, p
                     raise ScriptureAttention('prefetch_wait_budget', 'Continue evidence collection in a later worker window')
                 return delegate.chapter(*args)
         provider = BoundedPrefetch()
-    bundle = build_evidence(source, engine.config.languages[language]['tag'], frozen_policy, provider)
+    bundle = build_evidence(source, language_tag or engine.config.languages[language]['tag'], frozen_policy, provider)
     sha = json_hash(bundle)
     path = f'state/scripture/{sha}.json'
     existing = engine.state.read(path)
