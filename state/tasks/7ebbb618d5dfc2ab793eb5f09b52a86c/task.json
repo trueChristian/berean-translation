@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dc79d75b864e45db8f8b540f0ead4e2c",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -40,32 +39,47 @@
         },
         "total_tokens": 16125
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 465,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 182,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10833,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9294,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11298
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph about the hymn tune (near end of article)",
-      "severity": "critical",
-      "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
-      "suggested_fix": "Translate or render this quoted refrain consistently into Italian (or keep the entire quoted hymn lines in English only if the source printed them in English and the translation is meant to reproduce them verbatim). Preserve the original punctuation and capitalization and, if translated, ensure the Italian matches the printed English meaning. Example Italian rendering: \"E gloria — gloria dimora nella terra di Immanuel.\"",
-      "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
+      "location": "source.html and translation.html, div.hymn > p:nth-child(15); scripture_evidence.quotes",
+      "severity": "major",
+      "source_quote": "Oh! I am my Beloved’s,\nAnd my Beloved’s mine!",
+      "suggested_fix": "Obtain approved Italian Scripture evidence for this embedded quotation from Song of Songs 6:3 and independently verify its semantic scope and verse correspondence. Then replace only these two lines with the corresponding approved substrings, preserving the existing HTML structure, and supply the required scripture_selections entry. Do not generate Scripture wording without evidence.",
+      "translation_quote": "Oh! Io sono del mio Diletto,\nE il mio Diletto è mio!"
     },
     {
-      "location": "Final paragraph closing quotation",
-      "severity": "critical",
-      "source_quote": "\"They lose nothing who gain Christ.\"",
-      "suggested_fix": "Translate this quoted statement into Italian (or retain it verbatim in English only if the authoritative English text is intended to appear untranslated). Preserve meaning and theological force. Example Italian rendering: \"Non perdono nulla coloro che acquistano Cristo.\"",
-      "translation_quote": "\"They lose nothing who gain Christ.\""
-    },
-    {
-      "location": "Hymn stanza 2 (hymn div, stanza labelled 2)",
+      "location": "translation.html, concluding paragraph beginning “Concludendo questa storia dell’inno”",
       "severity": "minor",
-      "source_quote": "Oh! well it is forever,\nOh! well forevermore\nMy nest hung in no forest\nOf all this death-doomed shore!",
-      "suggested_fix": "Adjust the Italian to convey the printed English meaning more clearly and idiomatically. The current \"Il mio nido appeso in nessuna foresta / Di tutta questa sponda destinata alla morte!\" is awkward and risks altering sense. Suggested Italian: \"Oh! bene è per sempre,\nOh! bene per sempre ancora:\nil mio nido non posa in alcuna foresta\ndi questa riva destinata alla morte!\" (preserving line breaks and poetic sense).",
-      "translation_quote": "\"Il mio nido appeso in nessuna foresta\nDi tutta questa sponda destinata alla morte!\""
+      "source_quote": "May we follow Christ with all our hearts and be vessels ready for the Master's use!",
+      "suggested_fix": "Replace “Possiamo seguire” with “Che possiamo seguire” to retain the author's wish or exhortation rather than state an ability; leave the remainder and HTML unchanged.",
+      "translation_quote": "Possiamo seguire Cristo con tutto il cuore ed essere vasi pronti all’uso del Maestro!"
     }
   ],
+  "finished_at": "2026-10-06T09:03:16+00:00",
   "id": "7ebbb618d5dfc2ab793eb5f09b52a86c",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -154,14 +168,16 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[42]: source /article[1]/div[1]/p[1]/strong[1]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[1]/strong[1]/em[1] ('end', 'em')",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3.json",
   "scripture_evidence_sha256": "1991cc4ec851d9c66dd053e535e49b05aafae92ce50b3d7b9a1f2712a690e2c3",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-6.1-sol"

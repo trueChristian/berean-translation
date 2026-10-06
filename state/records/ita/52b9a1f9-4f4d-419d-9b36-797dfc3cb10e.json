@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "a0493a9d976ed262ea68976159a0e083",
       "task": "7ebbb618d5dfc2ab793eb5f09b52a86c"
+    },
+    {
+      "at": "2026-10-06T09:03:16+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a separately funded continuation must pass admission",
+      "task": "7ebbb618d5dfc2ab793eb5f09b52a86c"
     }
   ],
   "language": "ita",

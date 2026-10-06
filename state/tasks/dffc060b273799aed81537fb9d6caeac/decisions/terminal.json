@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html: div.hymn > p:nth-of-type(15); scripture_evidence.quotes; scripture_selection_audit.selections",
+      "severity": "major",
+      "source_quote": "Oh! I am my Beloved’s,\nAnd my Beloved’s mine!",
+      "suggested_fix": "Obtain frozen approved-edition evidence for this embedded quotation from Song of Songs 6:3, independently verify its semantic correspondence, and supply the required selection audit. Then use only the corresponding approved target substrings within the existing <strong><em> structure, preserving the line break and surrounding hymn text. Do not generate replacement Scripture wording without evidence.",
+      "translation_quote": "آه! أنا لحبيبي،\nوحبيبي لي! Evidence quotes and audited selections are both empty."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

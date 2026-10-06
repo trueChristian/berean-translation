@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1d6e9d73-0276-4243-8d06-9f8c46c69e18",
+    "response_id": "chatcmpl-EVpjw9jlOQIMoAqOT6GWSeo2pTpR1",
+    "usage": {
+      "completion_tokens": 465,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 182,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9294,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11298
+    }
+  },
+  "received_at": "2026-10-06T09:03:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, div.hymn > p:nth-child(15); scripture_evidence.quotes",
+        "severity": "major",
+        "source_quote": "Oh! I am my Beloved’s,\nAnd my Beloved’s mine!",
+        "suggested_fix": "Obtain approved Italian Scripture evidence for this embedded quotation from Song of Songs 6:3 and independently verify its semantic scope and verse correspondence. Then replace only these two lines with the corresponding approved substrings, preserving the existing HTML structure, and supply the required scripture_selections entry. Do not generate Scripture wording without evidence.",
+        "translation_quote": "Oh! Io sono del mio Diletto,\nE il mio Diletto è mio!"
+      },
+      {
+        "location": "translation.html, concluding paragraph beginning “Concludendo questa storia dell’inno”",
+        "severity": "minor",
+        "source_quote": "May we follow Christ with all our hearts and be vessels ready for the Master's use!",
+        "suggested_fix": "Replace “Possiamo seguire” with “Che possiamo seguire” to retain the author's wish or exhortation rather than state an ability; leave the remainder and HTML unchanged.",
+        "translation_quote": "Possiamo seguire Cristo con tutto il cuore ed essere vasi pronti all’uso del Maestro!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

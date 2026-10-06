@@ -4,8 +4,9 @@
   "automatic_policy_version": 3,
   "committed_usd": 6.0,
   "counts": {
-    "active": 48,
+    "active": 45,
     "already_translated": 108,
+    "continuation_cooldown": 3,
     "continuation_progress_uncertain_requires_attention": 7,
     "eligible_automatic": 1349,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
@@ -830,8 +831,8 @@
       "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
       "language": "ara",
       "latest_task": "dffc060b273799aed81537fb9d6caeac",
-      "processing_status": "in_batch",
-      "reason": "active"
+      "processing_status": "not_ready",
+      "reason": "continuation_cooldown"
     },
     {
       "accepted_cycles": 0,
@@ -1486,8 +1487,8 @@
       "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
       "language": "ben",
       "latest_task": "17b80dc775fa6113a351dff88c9b5105",
-      "processing_status": "in_batch",
-      "reason": "active"
+      "processing_status": "not_ready",
+      "reason": "continuation_cooldown"
     },
     {
       "accepted_cycles": 0,
@@ -7142,8 +7143,8 @@
       "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
       "language": "ita",
       "latest_task": "7ebbb618d5dfc2ab793eb5f09b52a86c",
-      "processing_status": "in_batch",
-      "reason": "active"
+      "processing_status": "not_ready",
+      "reason": "continuation_cooldown"
     },
     {
       "accepted_cycles": 0,

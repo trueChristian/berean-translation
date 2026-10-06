@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e530faac-b1c8-46a8-b737-fb7f82e41764",
+    "response_id": "chatcmpl-EVpk70Vjfb3TfVpVcNNDosTukDP7i",
+    "usage": {
+      "completion_tokens": 616,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9208,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11363
+    }
+  },
+  "received_at": "2026-10-06T09:03:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html: div.hymn > p:nth-of-type(15); scripture_evidence.quotes; scripture_selection_audit.selections",
+        "severity": "major",
+        "source_quote": "Oh! I am my Beloved’s,\nAnd my Beloved’s mine!",
+        "suggested_fix": "Obtain frozen approved-edition evidence for this embedded quotation from Song of Songs 6:3, independently verify its semantic correspondence, and supply the required selection audit. Then use only the corresponding approved target substrings within the existing <strong><em> structure, preserving the line break and surrounding hymn text. Do not generate replacement Scripture wording without evidence.",
+        "translation_quote": "آه! أنا لحبيبي،\nوحبيبي لي! Evidence quotes and audited selections are both empty."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, div.hymn > p:nth-child(15); scripture_evidence.quotes",
+      "severity": "major",
+      "source_quote": "Oh! I am my Beloved’s,\nAnd my Beloved’s mine!",
+      "suggested_fix": "Obtain approved Italian Scripture evidence for this embedded quotation from Song of Songs 6:3 and independently verify its semantic scope and verse correspondence. Then replace only these two lines with the corresponding approved substrings, preserving the existing HTML structure, and supply the required scripture_selections entry. Do not generate Scripture wording without evidence.",
+      "translation_quote": "Oh! Io sono del mio Diletto,\nE il mio Diletto è mio!"
+    },
+    {
+      "location": "translation.html, concluding paragraph beginning “Concludendo questa storia dell’inno”",
+      "severity": "minor",
+      "source_quote": "May we follow Christ with all our hearts and be vessels ready for the Master's use!",
+      "suggested_fix": "Replace “Possiamo seguire” with “Che possiamo seguire” to retain the author's wish or exhortation rather than state an ability; leave the remainder and HTML unchanged.",
+      "translation_quote": "Possiamo seguire Cristo con tutto il cuore ed essere vasi pronti all’uso del Maestro!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

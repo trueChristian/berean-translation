@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:03:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html: article > p[12]; div.hymn > p[15]; div.hymn > p[19]; scripture_evidence.quotes; scripture_selection_audit.selections\",\"severity\":\"major\",\"source_quote\":\"Paragraph 12: “when I awake, I shall be satisfied with His likeness.” Hymn stanza 15: “I am my Beloved’s, / And my Beloved’s mine!” and “house of wine”. Hymn stanza 19: “My Lord says, ‘Come up hither,’”.\",\"suggested_fix\":\"Obtain approved Bengali Scripture evidence and semantic alignment for these embedded quotations before publication: Psalm 17:15, Song of Solomon 6:3 and 2:4, and Revelation 4:1. Then replace only the corresponding quotation words with the aligned approved target substrings and supply verified scripture_selections. Preserve the existing HTML, surrounding prose, poetic structure, and quotation delimiters; do not add printed references or generate fallback Scripture wording. If approved evidence remains unavailable, these quotations cannot pass the required verification.\",\"translation_quote\":\"Paragraph 12: “যখন জাগব, তাঁর সাদৃশ্যে তৃপ্ত হব।” Stanza 15: “আমি আমার প্রিয়তমের, / আর আমার প্রিয়তম আমার!” and “দ্রাক্ষারসের ঘরে”. Stanza 19: “আমার প্রভু বলেন, ‘এখানে উঠে এসো,’”. The frozen evidence and selection audit both contain no quotation entries.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1586,
+    "content_evidence_truncated": false,
+    "content_sha256": "3fce5bce0dcee49aa238476fb72ddb0484e293513d2565f3f17974eac5f28417",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 200,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11495,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12047
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

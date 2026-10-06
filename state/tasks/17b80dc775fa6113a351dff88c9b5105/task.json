@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dc79d75b864e45db8f8b540f0ead4e2c",
   "campaign": "gh-37333368552",
   "continuation": {
     "cycle": 1,
@@ -40,39 +39,40 @@
         },
         "total_tokens": 17925
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 549,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 200,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11498,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11495,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12047
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<div class=\"hymn\"> (entire hymn stanzas)",
+      "location": "source.html / translation.html: article > p[12]; div.hymn > p[15]; div.hymn > p[19]; scripture_evidence.quotes; scripture_selection_audit.selections",
       "severity": "major",
-      "source_quote": "All 19 hymn stanzas (The sands of time are sinking ... In Immanuel’s land.) — presented in English in source.html",
-      "suggested_fix": "Translate the hymn stanzas into Bengali (or, if the publication policy is to leave hymn texts in the original, explicitly preserve that policy in the translation). Preserve the existing HTML structure and tags exactly (the <div class=\"hymn\"> and contained <p>, <em>, <strong>, <br> tags and line breaks). Do not alter tag order, nesting, or attributes. Provide a Bengali rendering of the stanza text in place of the English lines, keeping stanza numbering and inline markup the same.",
-      "translation_quote": "Entire hymn block remains in English (The sands of time are sinking,... Where glory—glory dwelleth In Immanuel’s land.)"
-    },
-    {
-      "location": "Final quoted lines in article paragraphs",
-      "severity": "major",
-      "source_quote": "\"And glory, glory dwelleth in Immanuel's land.\" and \"They lose nothing who gain Christ.\" (both present in source.html)",
-      "suggested_fix": "Translate these quoted lines into Bengali to match the surrounding translated article text, or preserve them intentionally in English only if that matches editorial policy. If translated, keep the exact surrounding paragraph HTML and punctuation intact and replace only the quoted English text with a Bengali equivalent (preserving quotes and any inline emphasis tags).",
-      "translation_quote": "Both quoted lines remain in English inside the translated paragraphs."
-    },
-    {
-      "location": "Paragraph: \"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
-      "severity": "minor",
-      "source_quote": "\"... the royal and princely Master, my Lord Jesus ...\"",
-      "suggested_fix": "Avoid repeating the same adjective in Bengali. Replace the translation \"আমার রাজকীয় ও রাজকীয় স্বামী\" with a clearer rendering such as \"আমার রাজকীয় ও রাজসুলভ শ্রেষ্ঠত্ব—আমার প্রভু যিশু\" or simply \"আমার রাজকীয় ও রাজসুলভ প্রভু, আমার যিশু খ্রীষ্ট\" while preserving the original punctuation and quote marks. Keep the original HTML tags and paragraph structure.",
-      "translation_quote": "\"আমি আমার রাজকীয় ও রাজকীয় স্বামী, আমার প্রভু যিশু থেকে লোককে খ্রিস্ট প্রচার করার কমিশন পেয়েছি।\""
-    },
-    {
-      "location": "Proper nouns: Anwoth spelling inconsistency",
-      "severity": "minor",
-      "source_quote": "Source uses \"Anwoth\" consistently",
-      "suggested_fix": "Standardize the Bengali transliteration of the place name Anwoth across the article (for example, use consistently 'আনওথ' or 'আনওথে' depending on grammatical case). Make the change in-place, preserving HTML tags and attributes.",
-      "translation_quote": "Both \"আনওথে\" and \"আনওথ\" appear in different paragraphs."
+      "source_quote": "Paragraph 12: “when I awake, I shall be satisfied with His likeness.” Hymn stanza 15: “I am my Beloved’s, / And my Beloved’s mine!” and “house of wine”. Hymn stanza 19: “My Lord says, ‘Come up hither,’”.",
+      "suggested_fix": "Obtain approved Bengali Scripture evidence and semantic alignment for these embedded quotations before publication: Psalm 17:15, Song of Solomon 6:3 and 2:4, and Revelation 4:1. Then replace only the corresponding quotation words with the aligned approved target substrings and supply verified scripture_selections. Preserve the existing HTML, surrounding prose, poetic structure, and quotation delimiters; do not add printed references or generate fallback Scripture wording. If approved evidence remains unavailable, these quotations cannot pass the required verification.",
+      "translation_quote": "Paragraph 12: “যখন জাগব, তাঁর সাদৃশ্যে তৃপ্ত হব।” Stanza 15: “আমি আমার প্রিয়তমের, / আর আমার প্রিয়তম আমার!” and “দ্রাক্ষারসের ঘরে”. Stanza 19: “আমার প্রভু বলেন, ‘এখানে উঠে এসো,’”. The frozen evidence and selection audit both contain no quotation entries."
     }
   ],
+  "finished_at": "2026-10-06T09:03:16+00:00",
   "id": "17b80dc775fa6113a351dff88c9b5105",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -161,14 +161,16 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[111]: source /article[1]/div[1]/p[7]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[7]/em[1] ('end', 'em')",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/7d8e4ce3e256775f4b9d4c97f7a14dcc19f39dd5400f19388b4da1818e9a7b64.json",
   "scripture_evidence_sha256": "7d8e4ce3e256775f4b9d4c97f7a14dcc19f39dd5400f19388b4da1818e9a7b64",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-6.1-sol"
