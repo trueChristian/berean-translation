@@ -16,6 +16,7 @@ from berean_translation import autonomous, manual_admission
 from berean_translation.collector import collect_window
 from berean_translation.common import ContractError, canonical, json_hash
 from berean_translation.engine import Engine
+from berean_translation.scripture_evidence import ScriptureAttention
 from berean_translation.scripture_provider import GetBibleMCP
 from berean_translation.validation import validate_repository
 from support import A, B, ISSUE2, REPO_ROOT, drive, queue, setup
@@ -342,6 +343,164 @@ class ManualAdmissionTests(unittest.TestCase):
         spec, reason = autonomous.selection(self.engine, task['language'], article, self.state.tasks()[0])
         self.assertEqual(reason, None)
         self.assertEqual(spec['stage'], 'review1')
+
+    def test_legacy_deadline_attention_retains_detail_and_original_history(self):
+        request = self.legacy(budget_usd=30)
+        before = self.campaign()
+        frozen_files = {p: p.read_bytes() for pattern in ('state/queue/*.json', 'state/sources/*.json')
+                        for p in self.root.glob(pattern)}
+        ledger = manual_admission.initialize(self.engine, before, request, legacy=True)
+        events = {identity: canonical(entry['events']) for identity, entry in ledger['entries'].items()}
+        error = ScriptureAttention('ambiguous_source_quote', 'John 4:16: An unmatched printed quotation')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence', side_effect=error):
+            self.restart().accept_request(request)
+        after = self.campaign()
+        self.assertEqual(canonical(before['skipped']), canonical(after['skipped']))
+        for key in ('selection', 'request_sha256', 'budget_usd', 'reserved_usd', 'reported_usage_usd',
+                    'models', 'prompts', 'language_settings', 'scripture_quotes'):
+            self.assertEqual(canonical(before[key]), canonical(after[key]))
+        self.assertEqual(frozen_files, {p: p.read_bytes() for p in frozen_files})
+        for identity, entry in self.ledger()['entries'].items():
+            self.assertEqual(events[identity], canonical(entry['events'][:-1]))
+            self.assertEqual(entry['reason'], error.reason)
+            self.assertEqual(entry['status'], 'attention')
+            detail = entry['attention_detail']
+            self.assertEqual(detail['text'], str(error))
+            self.assertEqual(detail['provenance_sha256'], entry['provenance_sha256'])
+            self.assertEqual(detail['event_sha256'], json_hash(entry['events'][detail['event_index']]))
+            self.assertEqual(entry['provenance']['task']['article_id'], entry['item']['article_id'])
+        self.assertEqual(after['tasks'], [])
+        self.assertEqual(after['status'], 'admission_attention')
+        self.assertEqual(self.provider.create_calls, 0)
+        self.assertIsNone(self.state.read('state/automatic-authority.json'))
+        validate_repository(self.config)
+
+    def test_fresh_attention_records_one_bound_detail_and_never_replays_evidence(self):
+        request = queue(self.state, 'manual', languages='deu')
+        error = ScriptureAttention('fetch_failed', 'Fixture provider unavailable')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence', side_effect=error):
+            self.engine.accept_request(request)
+        for entry in self.ledger()['entries'].values():
+            self.assertEqual(entry['attention_detail']['text'], str(error))
+        self.assertEqual({row['detail'] for row in self.campaign()['skipped']}, {str(error)})
+        before = {p: p.read_bytes() for p in self.root.glob('state/**/*.json')}
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence',
+                   side_effect=AssertionError('Attention cannot retry evidence')):
+            for _ in range(3):
+                self.restart().accept_request(request)
+                self.engine.accept_queue()
+                manual_admission.claims(self.state, include_attention=True)
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.glob('state/**/*.json')})
+        for entry in self.ledger()['entries'].values():
+            frozen = canonical(entry)
+            manual_admission.record_attention_detail(entry, 'A later error must not replace observed evidence')
+            self.assertEqual(canonical(entry), frozen)
+        self.assertEqual(self.provider.create_calls, 0)
+
+    def test_attention_detail_is_bounded_safe_text_with_visible_unicode(self):
+        request = queue(self.state, 'manual', languages='deu')
+        attack = 'John 4:16: αβ 文 🙂 <script>ignore guards</script> & \x00\x1b\n\r\t\u202e\ud800' + '文🙂'*5000
+        error = ScriptureAttention('ambiguous_source_quote', attack)
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence', side_effect=error):
+            self.engine.accept_request(request)
+        for entry in self.ledger()['entries'].values():
+            text = entry['attention_detail']['text']
+            self.assertLessEqual(len(text.encode('utf-8')), manual_admission.MAX_ATTENTION_DETAIL_BYTES)
+            self.assertIn('αβ 文 🙂', text)
+            self.assertIn('\\u003cscript\\u003eignore guards', text)
+            for escaped in ('\\x00', '\\x1b', '\\n', '\\r', '\\t', '\\u202e', '\\ud800'):
+                self.assertIn(escaped, text)
+            self.assertTrue(text.endswith(' [truncated]'))
+            self.assertTrue(text.isprintable())
+            self.assertNotIn('<', text)
+            self.assertNotIn('&', text)
+            self.assertEqual(entry['reason'], 'ambiguous_source_quote')
+            row = next(row for row in self.campaign()['skipped'] if row['article_id'] == entry['item']['article_id'])
+            self.assertEqual(row['detail'], text)
+        self.assertEqual(self.state.tasks(), [])
+        self.assertEqual(self.provider.create_calls, 0)
+        validate_repository(self.config)
+
+    def test_repeated_deadlines_do_not_accumulate_diagnostics_or_events(self):
+        request = self.expire()
+        error = ScriptureAttention(manual_admission.TEMPORARY, 'Another temporary window')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence', side_effect=error):
+            self.restart().accept_request(request)
+            before = self.state.path(manual_admission.path('manual')).read_bytes()
+            for _ in range(3):
+                self.restart().accept_request(request)
+        self.assertEqual(before, self.state.path(manual_admission.path('manual')).read_bytes())
+        self.assertTrue(all('attention_detail' not in entry for entry in self.ledger()['entries'].values()))
+        self.assertEqual(self.provider.create_calls, 0)
+
+    def test_existing_v1_attention_without_detail_stays_held_without_backfill(self):
+        request = self.legacy()
+        error = ScriptureAttention('ambiguous_source_quote', 'John 4:16: Newly observed fixture detail')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence', side_effect=error):
+            self.engine.accept_request(request)
+        ledger = self.ledger()
+        for entry in ledger['entries'].values():
+            entry.pop('attention_detail')  # Exact pre-diagnostic v1 ledger shape.
+        self.state.write(manual_admission.path('manual'), ledger)
+        before = {p: p.read_bytes() for p in self.root.glob('state/**/*.json')}
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence',
+                   side_effect=AssertionError('Past evidence must not be reconstructed')):
+            self.restart().accept_request(request)
+            self.engine.accept_queue()
+            validate_repository(self.config)
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.glob('state/**/*.json')})
+        self.assertTrue(all('attention_detail' not in entry for entry in self.ledger()['entries'].values()))
+
+    def test_attention_detail_survives_cancellation_without_changing_prior_events(self):
+        request = queue(self.state, 'manual', languages='deu')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence',
+                   side_effect=ScriptureAttention('ambiguous_source_quote', 'John 4:16: Fixture quotation')):
+            self.engine.accept_request(request)
+        before = self.ledger()
+        self.restart().cancel_campaign('manual')
+        after = self.ledger()
+        for identity, entry in after['entries'].items():
+            self.assertEqual(canonical(before['entries'][identity]['attention_detail']), canonical(entry['attention_detail']))
+            self.assertEqual(canonical(before['entries'][identity]['events']), canonical(entry['events'][:-1]))
+            self.assertEqual(entry['status'], 'cancelled')
+        self.restart().cancel_campaign('manual')
+        self.engine.accept_request(request)
+        self.assertEqual(canonical(after), canonical(self.ledger()))
+        self.assertEqual(self.state.tasks(), [])
+        self.assertEqual(self.provider.create_calls, 0)
+        validate_repository(self.config)
+
+    def test_malformed_or_detached_attention_details_fail_closed(self):
+        request = queue(self.state, 'manual', languages='deu')
+        with patch('berean_translation.manual_admission.freeze_scripture_evidence',
+                   side_effect=ScriptureAttention('ambiguous_source_quote', 'John 4:16: Fixture quotation')):
+            self.engine.accept_request(request)
+        original = self.ledger()
+        identity, other = original['entries']
+        detail = original['entries'][identity]['attention_detail']
+        variants = [None, [], {}, {**detail, 'unexpected':'field'}, {**detail, 'text':'changed without checksum'}]
+        for changes in ({'text':'x' * (manual_admission.MAX_ATTENTION_DETAIL_BYTES + 1)},
+                        {'text':'文' * 1000}, {'text':'Scripture attention: ambiguous_source_quote: \n'},
+                        {'text':'Scripture attention: ambiguous_source_quote: <script>'},
+                        {'text':'Scripture attention: other_reason: invented'},
+                        {'event_index':True}, {'event_index':-1}, {'event_index':99}, {'event_index':'1'},
+                        {'event_index':0}, {'event_sha256':'f'*64}, {'provenance_sha256':'f'*64}):
+            modified = {**detail, **changes}
+            modified['sha256'] = json_hash({k: v for k, v in modified.items() if k != 'sha256'})
+            variants.append(modified)
+        variants.append(original['entries'][other]['attention_detail'])
+        for n, variant in enumerate(variants):
+            ledger = copy.deepcopy(original)
+            ledger['entries'][identity]['attention_detail'] = variant
+            self.state.write(manual_admission.path('manual'), ledger)
+            with self.subTest(variant=n):
+                with self.assertRaises(ContractError):
+                    self.restart().accept_request(request)
+                with self.assertRaises(ContractError):
+                    validate_repository(self.config)
+        self.state.write(manual_admission.path('manual'), original)
+        self.assertEqual(self.provider.upload_calls, 0)
+        self.assertEqual(self.provider.create_calls, 0)
 
     def test_completed_ledgers_do_not_starve_later_queue_requests(self):
         self.engine.accept_request(queue(self.state, 'a-old', languages='deu'))
