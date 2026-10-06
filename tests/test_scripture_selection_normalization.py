@@ -194,7 +194,7 @@ class SelectionNormalizationTests(unittest.TestCase):
         return result
 
     def test_new_frozen_policy_and_unknown_normalizer_version(self):
-        self.assertEqual(self.policy['selection_normalization_version'],'1')
+        self.assertEqual(self.policy['selection_normalization_version'],'2')
         self.campaign['scripture_quotes']['selection_normalization_version'] = '999'
         with self.assertRaisesRegex(ContractError,'normalization contract'):
             frozen_policy(self.campaign)

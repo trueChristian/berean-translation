@@ -12,6 +12,7 @@ from __future__ import annotations
 import re
 import unicodedata
 from functools import lru_cache
+from .common import ContractError
 from .scripture_books import CORE_BOOK_NAMES
 
 # The English identities are also accepted in localized text: language quality
@@ -33,6 +34,7 @@ _GERMAN_BOOKS = {
     'Epheser': 'Ephesians', 'Apg.': 'Acts',
     # Exact abbreviations in the immutable ALL NATURE SINGS correction.
     'Joh': 'John', 'Jes': 'Isaiah', 'Offb': 'Revelation', 'Kol': 'Colossians',
+    'Röm': 'Romans', 'Lk': 'Luke', '2 Kor': '2 Corinthians',
 }
 _HEBREW_BOOKS = {
     'בראשית': 'Genesis', 'שמות': 'Exodus', 'מתי': 'Matthew',
@@ -62,6 +64,7 @@ _HEBREW_BOOKS = {
     # Exact additional forms in the immutable Summer 2020 corrections.
     'הראשונה ליוחנן': '1 John', 'פטרוס הראשונה': '1 Peter',
     'גלטים': 'Galatians', 'טיטוס': 'Titus',
+    'פטרוס א׳': '1 Peter',
 }
 # The complete finite baseline is authoritative; observed, source-paired
 # spelling variants above remain exact aliases rather than fuzzy matching.
@@ -69,6 +72,14 @@ _GERMAN_BOOKS = {**{row[1]: row[0] for row in CORE_BOOK_NAMES}, **_GERMAN_BOOKS}
 _HEBREW_BOOKS = {**{row[2]: row[0] for row in CORE_BOOK_NAMES}, **_HEBREW_BOOKS}
 _HEBREW_BOOKS.update({row[2] + '׳': row[0] for row in CORE_BOOK_NAMES
                       if row[2].endswith((' א', ' ב'))})
+# Literal source-paired forms from the October 6 correction artifacts. These
+# are enabled only for the configured target language, never inferred from prose.
+_ADDITIONAL_LANGUAGE_BOOKS = {
+    'ita': {'Eb': 'Hebrews'},
+    'swe': {'Hebreerbrevet': 'Hebrews', 'Kol': 'Colossians'},
+    'afr': {'Kol': 'Colossians'},
+    'nob': {'Kol': 'Colossians'},
+}
 _DASHES = '-‐‑–—−־'
 _QUOTES = str.maketrans({"'": '׳', '‘': '׳', '’': '׳',
                         '"': '״', '“': '״', '”': '״'})
@@ -177,8 +188,9 @@ def _alias_pattern(alias: str) -> str:
     return re.sub('[\u05d0-\u05ea]', lambda match: match[0] + _OPTIONAL_HEBREW_POINTS, pattern)
 
 
-@lru_cache(maxsize=12)
-def _book_pattern(language: str, target_language: str | None = None) -> tuple[re.Pattern, dict[str, str]]:
+@lru_cache(maxsize=32)
+def _book_pattern(language: str, target_language: str | None = None,
+                  native_aliases: tuple = ()) -> tuple[re.Pattern, dict[str, str]]:
     paired = target_language if language == 'eng' else language
     supported = ({'deu': _GERMAN_BOOKS, 'heb': _HEBREW_BOOKS}.get(paired))
     identities_supported = set(supported.values()) if supported is not None else set(_ENGLISH_BOOKS)
@@ -195,12 +207,23 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
                     {'Psalms': 'Psalm', 'Song of Songs': 'Song of Solomon',
                      'Ps.': 'Psalm', 'Rev.': 'Revelation', 'Gen.': 'Genesis',
                      'Jer.': 'Jeremiah', 'Ecc.': 'Ecclesiastes', 'Is.': 'Isaiah',
-                     'Hebrew': 'Hebrews'}.items()
+                     'Hebrew': 'Hebrews', 'Mar.': 'Mark', 'Luk.': 'Luke',
+                     'Mat.': 'Matthew', 'Tit.': 'Titus', '1Pe.': '1 Peter',
+                     '2Co.': '2 Corinthians'}.items()
                     if identity in identities_supported})
     if language == 'deu':
         aliases.update(_GERMAN_BOOKS)
     elif language == 'heb':
         aliases.update(_HEBREW_BOOKS)
+    aliases.update(_ADDITIONAL_LANGUAGE_BOOKS.get(language, {}))
+    for alias, identity in native_aliases:
+        if (not isinstance(alias, str) or not alias.strip() or len(alias) > 200
+                or identity not in _ENGLISH_BOOKS):
+            raise ContractError('Invalid frozen native Scripture book alias')
+        existing = {name.casefold(): book for name, book in aliases.items()}
+        if alias.casefold() in existing and existing[alias.casefold()] != identity:
+            raise ContractError('Ambiguous frozen native Scripture book alias')
+        aliases[alias] = identity
     # Longest first avoids treating "1 John" as "John" and ordinal suffixes
     # as chapters. Recognize only the observed attached conjunction vav and
     # prepositions bet ("in") and mem ("from"), optionally combined with vav,
@@ -595,18 +618,17 @@ def _preceding_ordinal_start(text: str, position: int) -> int | None:
 
 
 def _qualified_books(text: str, language: str, target_language: str | None = None,
-                     *, retain_unsupported_ordinals: bool = False):
-    book_pattern, identities = _book_pattern(language, target_language)
+                     *, retain_unsupported_ordinals: bool = False, native_aliases: tuple = ()):
+    book_pattern, identities = _book_pattern(language, target_language, native_aliases)
     for match in book_pattern.finditer(text):
-        if language == 'heb':
-            # Regex \w excludes combining/format characters. They cannot turn
-            # the suffix of an unrelated word into a standalone known book.
-            preceding = text[:match.start()]
-            while preceding and (unicodedata.category(preceding[-1]).startswith('M')
-                                 or unicodedata.category(preceding[-1]) == 'Cf'):
-                preceding = preceding[:-1]
-            if preceding and re.match(r'\w', preceding[-1]):
-                continue
+        # Regex \w excludes combining/format characters. They cannot turn
+        # the suffix of an unrelated word into a standalone known book.
+        preceding = text[:match.start()]
+        while preceding and (unicodedata.category(preceding[-1]).startswith('M')
+                             or unicodedata.category(preceding[-1]) == 'Cf'):
+            preceding = preceding[:-1]
+        if preceding and re.match(r'\w', preceding[-1]):
+            continue
         ordinal_start = _preceding_ordinal_start(text, match.start())
         if ordinal_start is not None and not retain_unsupported_ordinals:
             continue
@@ -672,7 +694,8 @@ def has_source_chapter_introduction(text: str, chapters) -> bool:
 
 
 def reference_mentions(text: str, language: str, *, target_language: str | None = None,
-                       chapter_introductions: bool = False) -> list[tuple[int, int, str]]:
+                       chapter_introductions: bool = False,
+                       native_aliases: tuple = ()) -> list[tuple[int, int, str]]:
     """Return conservative (start, end, key) citation mentions.
 
     ``language`` is a trusted configured three-letter language code. Pass the
@@ -688,7 +711,8 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     mentions = []
     introductions = []
     for match, book, ordinal_start in _qualified_books(normalized, language, target_language,
-                                                       retain_unsupported_ordinals=language == 'heb'):
+                                                       retain_unsupported_ordinals=language == 'heb',
+                                                       native_aliases=native_aliases):
         if ordinal_start is not None:
             parsed = _unmarked_hebrew_citation(normalized, ordinal_start, match.end(), book)
             if parsed is not None:

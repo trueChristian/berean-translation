@@ -147,3 +147,16 @@ rather than inferring 17:30. Explicit equivalent conversions such as 5:30 pm to
 17:30 keep their existing source-backed behavior. New frozen translation/review
 instructions explain this distinction; prior requests and held records retain
 their original bytes and outcomes.
+
+## Source-paired October 6 spellings
+
+The complete correction artifacts add the exact English forms `Mar`, `Luk`,
+`Mat`, `Tit`, `1Pe`, and `2Co`; German `Lk`, `Röm`, and `2 Kor`; and Hebrew
+`פטרוס א׳`. Quotation validation also recognizes Italian `Eb`, Swedish
+`Hebreerbrevet`, and Afrikaans/Swedish/Norwegian `Kol` in their configured
+languages. These are finite identities, not a rule to ignore book words.
+The version-2 quotation helper matches trusted frozen native labels in place
+without rewriting text, preserving original offsets for complete-tail checks.
+Unknown names, hidden prefixes, changed ordinals, wrong books or references,
+and missing/duplicated occurrences remain rejected. Historical evidence is not
+regenerated merely because more source aliases are recognized.

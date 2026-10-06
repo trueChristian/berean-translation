@@ -14,9 +14,11 @@ from .html import Fragment, decimal_digits
 from .reference_notation import reference_mentions
 from .scripture_books import CORE_BOOK_NAMES
 from .scripture_provider import GetBibleMCP, ScriptureProviderError
+from .scripture_scope import ScopeFragment, ScopeProofError, StructuralScope
 
 VERSION = '1'
-SELECTION_NORMALIZATION_VERSION = '1'
+SELECTION_NORMALIZATION_VERSION = '2'
+SELECTION_NORMALIZATION_VERSIONS = ('1', '2')
 DEFAULT_MAX_EVIDENCE_BYTES = 500_000
 MAX_SELECTION_AUDIT_BYTES = 32768
 APPROVED_EDITIONS = {'en':'kjv','af':'aov','ar':'arabicsv','de':'luther1545',
@@ -43,7 +45,7 @@ def frozen_policy(campaign):
     value = campaign['scripture_quotes']
     if not isinstance(value, dict) or value.get('version') != VERSION:
         raise ContractError('Unsupported frozen Scripture quotation contract')
-    if value.get('selection_normalization_version') not in (None, SELECTION_NORMALIZATION_VERSION):
+    if value.get('selection_normalization_version') not in (None, *SELECTION_NORMALIZATION_VERSIONS):
         raise ContractError('Unsupported frozen Scripture selection normalization contract')
     return value
 
@@ -301,7 +303,7 @@ SELECTION_SCHEMA = {'type':'array','items':{'type':'object','additionalPropertie
     'required':['quote_id','block','start','end','fragments']}}
 
 
-def _selection_text(quote, selection):
+def _selection_text(quote, selection, *, allow_outer_whitespace=False):
     fragments = selection.get('fragments')
     alignment = quote['alignment']
     if not isinstance(fragments,list) or len(fragments) != len(alignment['fragments']):
@@ -323,8 +325,12 @@ def _selection_text(quote, selection):
             if previous and (verse < previous[0] or (verse == previous[0] and start < previous[1])):
                 raise ScriptureAttention('selection_order','Target spans may not overlap or reverse verse order')
             # No omission within one fragment; omissions require a source ellipsis.
-            if pieces and (verse != previous[0] + 1 or previous[1] != len(target[previous[0]]) or start != 0):
-                raise ScriptureAttention('unauthorized_omission','Discontinuous target fragments require a source ellipsis')
+            if pieces:
+                omitted_boundary = (bool(target[previous[0]][previous[1]:].strip() or text[:start].strip())
+                                    if allow_outer_whitespace else
+                                    previous[1] != len(target[previous[0]]) or start != 0)
+                if verse != previous[0] + 1 or omitted_boundary:
+                    raise ScriptureAttention('unauthorized_omission','Discontinuous target fragments require a source ellipsis')
             previous = (verse,end)
             pieces.append(text[start:end].strip())
         rendered.append(' '.join(pieces))
@@ -361,28 +367,74 @@ def _output_quote_spans(text, block):
             yield start + left, start + right, value[left:right]
 
 
-def check_selections(evidence, candidate, selections, *, require_exact_citations=False):
+def _bounded_selection_input(selections, maximum):
+    # Numeric claims are untrusted metadata. The serialized input size and
+    # shape bound parsing work; candidate text length is not an integer limit.
+    try:
+        within_bound = len(canonical(selections)) <= maximum
+    except (TypeError, ValueError, OverflowError, RecursionError) as exc:
+        raise ScriptureAttention('selection_size_limit','Selection input exceeds its frozen resource bound') from exc
+    if not within_bound:
+        raise ScriptureAttention('selection_size_limit','Selection input exceeds its frozen resource bound')
+
+
+def _structural_scope(evidence, candidate, source):
+    try:
+        return StructuralScope(evidence,source,candidate)
+    except ScopeProofError as exc:
+        raise ScriptureAttention('quote_scope_changed',str(exc)) from exc
+
+
+def _prove_scope(scope, quote, expected):
+    try:
+        return scope.prove(quote,expected)
+    except ScopeProofError as exc:
+        raise ScriptureAttention('quote_scope_changed',str(exc)) from exc
+
+
+def _selection_blocks(evidence, candidate, source, expanded):
+    scope = (_structural_scope(evidence,candidate,source) if expanded
+             and any(not quote.get('delimited') for quote in evidence['quotes']) else None)
+    try:
+        parsed = (scope.target if scope is not None else
+                  (ScopeFragment if expanded else Fragment)(candidate['html'],evidence['article_id']))
+    except ScopeProofError as exc:
+        raise ScriptureAttention('quote_scope_changed',str(exc)) from exc
+    return {key:''.join(parts) for key,parts in parsed.text_by_block.items()},scope
+
+
+def check_selections(evidence, candidate, selections, *, require_exact_citations=False,
+                     normalization_version='1', source=None, max_selection_bytes=MAX_SELECTION_AUDIT_BYTES):
+    expanded = normalization_version == '2'
+    if expanded:
+        _bounded_selection_input(selections,max_selection_bytes)
     if not isinstance(selections,list) or len(selections) != len(evidence['quotes']):
         raise ScriptureAttention('missing_selections','Every identified Scripture quotation needs one exact output claim')
-    blocks = {key:''.join(parts) for key,parts in Fragment(candidate['html'], evidence['article_id']).text_by_block.items()}
+    blocks,scope = _selection_blocks(evidence,candidate,source,expanded)
     # Existing numeric gates do not know every target language's book names.
     # Only provider-attested names and the existing reviewed aliases qualify.
     quoted_blocks = {quote['block'] for quote in evidence['quotes']}
     for block_path in quoted_blocks:
-        text = decimal_digits(blocks.get(block_path, ''))
-        for quote in evidence['quotes']:
-            if quote['block'] != block_path:
-                continue
-            native = evidence['lookups'][quote['target_lookup']]['result']['data']['book_name']
-            canonical_book = CORE_BOOK_NAMES[quote['book']-1][0]
-            text = re.sub(re.escape(native) + r'(?=\s*[0-9])', canonical_book+' ', text, flags=re.I)
-        language = {'de':'deu','he':'heb'}.get(evidence['language_tag'],'eng')
-        actual = Counter(key for _,_,key in reference_mentions(text,language))
+        if expanded:
+            from .scripture_citations import quotation_reference_mentions
+            actual = Counter(key for _,_,key in quotation_reference_mentions(
+                evidence, blocks.get(block_path, '')))
+        else:
+            text = decimal_digits(blocks.get(block_path, ''))
+            for quote in evidence['quotes']:
+                if quote['block'] != block_path:
+                    continue
+                native = evidence['lookups'][quote['target_lookup']]['result']['data']['book_name']
+                canonical_book = CORE_BOOK_NAMES[quote['book']-1][0]
+                text = re.sub(re.escape(native) + r'(?=\s*[0-9])', canonical_book+' ', text, flags=re.I)
+            language = {'de':'deu','he':'heb'}.get(evidence['language_tag'],'eng')
+            actual = Counter(key for _,_,key in reference_mentions(text,language))
+        exact_citations = require_exact_citations or expanded
         required = Counter(item['identity'] for item in evidence['references']
                            if item['block'] == block_path
-                           and (require_exact_citations or item['classification'] == 'scripture_quotation'))
+                           and (exact_citations or item['classification'] == 'scripture_quotation'))
         if (any(actual[key] != count for key,count in required.items())
-                or (require_exact_citations and actual != required)):
+                or (exact_citations and actual != required)):
             raise ScriptureAttention('citation_identity_changed','Quoted Scripture must retain the original book/chapter/verse identity and count')
     claims = {}
     intervals = {}
@@ -402,7 +454,11 @@ def check_selections(evidence, candidate, selections, *, require_exact_citations
             raise ScriptureAttention('selection_location','Invalid candidate character offsets')
         if quote.get('delimited') and not any(a == start and b == end for a,b,_ in _output_quote_spans(block,selection['block'])):
             raise ScriptureAttention('quote_scope_changed','Selection must cover the complete delimited output quotation')
-        if block[start:end] != _selection_text(quote,selection):
+        expected = _selection_text(quote,selection,allow_outer_whitespace=expanded)
+        if scope is not None and not quote.get('delimited'):
+            if _prove_scope(scope,quote,expected) != (start,end):
+                raise ScriptureAttention('quote_scope_changed','Selection must cover its complete original structural quotation')
+        if block[start:end] != expected:
             raise ScriptureAttention('quote_words_changed','Candidate Scripture words must exactly equal the retrieved target selections')
         for left,right in intervals.setdefault(selection['block'],[]):
             if start < right and left < end:
@@ -411,15 +467,21 @@ def check_selections(evidence, candidate, selections, *, require_exact_citations
     return True
 
 
-def repair_complete_selections(evidence, candidate, selections):
+def repair_complete_selections(evidence, candidate, selections, *, normalization_version='1',
+                               source=None, max_selection_bytes=MAX_SELECTION_AUDIT_BYTES):
     """Prove metadata for complete quotes without editing or guessing any words.
 
     The provider must still identify every original quote, structural block and
     ordered cited verse. Only numeric offsets may be repaired, and only when the
     full frozen text occurs once in the entire block and fills one delimited
-    quotation. Partial/ellipsis selections have no deterministic semantic scope
-    proof and are deliberately ineligible. This is not an independent review.
+    quotation. Version 2 also permits the frozen structural shapes proved by
+    StructuralScope, with one-to-one article occurrence accounting against
+    frozen scopes. Partial/ellipsis selections are deliberately ineligible.
+    This is not an independent review.
     """
+    expanded = normalization_version == '2'
+    if expanded:
+        _bounded_selection_input(selections,max_selection_bytes)
     if not isinstance(selections,list) or len(selections) != len(evidence['quotes']):
         raise ScriptureAttention('missing_selections','Every identified Scripture quotation needs one exact output claim')
     claims = {}
@@ -429,7 +491,7 @@ def repair_complete_selections(evidence, candidate, selections):
                 or selection['quote_id'] in claims):
             raise ScriptureAttention('selection_shape','Invalid or duplicated quote selection')
         claims[selection['quote_id']] = selection
-    blocks = {key:''.join(parts) for key,parts in Fragment(candidate['html'],evidence['article_id']).text_by_block.items()}
+    blocks,scope = _selection_blocks(evidence,candidate,source,expanded)
     repaired = []
     for quote in evidence['quotes']:
         selection = claims.get(quote['id'])
@@ -438,14 +500,16 @@ def repair_complete_selections(evidence, candidate, selections):
         alignment = quote['alignment']
         if (alignment['kind'] != 'complete' or len(alignment['fragments']) != 1
                 or alignment['ellipsis'] or alignment['leading_ellipsis'] or alignment['trailing_ellipsis']
-                or not quote.get('delimited')):
-            raise ScriptureAttention('selection_repair_scope','Only complete delimited quotations permit offset repair')
+                or (not expanded and not quote.get('delimited'))):
+            detail = ('Only complete independently scoped quotations permit offset repair' if expanded
+                      else 'Only complete delimited quotations permit offset repair')
+            raise ScriptureAttention('selection_repair_scope',detail)
         block = blocks.get(quote['block'],'')
-        # Incorrect character counts may instead count encoded bytes. These
-        # finite bounds admit that mistake without accepting arbitrary offsets.
+        # Version 1 retains its original byte-count ceiling. Version 2 bounds
+        # serialized input/parser work and proves the true offsets independently.
         start,end = selection['start'],selection['end']
         if (type(start) is not int or type(end) is not int
-                or not 0 <= start < end <= len(block.encode('utf-8'))):
+                or (not expanded and not 0 <= start < end <= len(block.encode('utf-8')))):
             raise ScriptureAttention('selection_location','Invalid bounded candidate character offsets')
         fragments = selection['fragments']
         verses = quote['target_verses']
@@ -458,7 +522,8 @@ def repair_complete_selections(evidence, candidate, selections):
                 raise ScriptureAttention('selection_shape','Expected exact integer verse/text offsets')
             if part['verse'] != verse['verse']:
                 raise ScriptureAttention('selection_repair_identity','Quotation repair cannot change or reorder selected verses')
-            if part['start'] != 0 or not 0 < part['end'] <= len(verse['text'].encode('utf-8')):
+            if (not expanded and (part['start'] != 0
+                    or not 0 < part['end'] <= len(verse['text'].encode('utf-8')))):
                 raise ScriptureAttention('selection_outside_evidence','Complete quotation repair requires bounded whole-verse claims')
         replacement = {**selection,'fragments':[[{'verse':v['verse'],'start':0,'end':len(v['text'])} for v in verses]]}
         expected = _selection_text(quote,replacement)
@@ -467,10 +532,16 @@ def repair_complete_selections(evidence, candidate, selections):
             raise ScriptureAttention('quote_words_changed','Complete frozen quotation is absent; metadata repair cannot change words')
         if block.find(expected,position+1) >= 0:
             raise ScriptureAttention('selection_repair_ambiguous','Complete frozen quotation has multiple output locations')
+        if scope is not None and not quote.get('delimited'):
+            position,proved_end = _prove_scope(scope,quote,expected)
+            if proved_end != position+len(expected):
+                raise ScriptureAttention('quote_scope_changed','Structural proof disagrees with exact target text')
         replacement.update(start=position,end=position+len(expected))
         repaired.append(replacement)
     # Reuse all strict word, delimiter, identity, location and overlap gates.
-    check_selections(evidence,candidate,repaired,require_exact_citations=True)
+    check_selections(evidence,candidate,repaired,require_exact_citations=True,
+                     normalization_version=normalization_version,source=source,
+                     max_selection_bytes=max_selection_bytes)
     return repaired
 
 
@@ -484,21 +555,24 @@ def normalize_scripture_candidate(state, task, result):
         raise ScriptureAttention('selection_shape','Versioned translation response requires Scripture selections')
     candidate = {key:result[key] for key in ('html','title','subtitle','section')}
     selections = result['scripture_selections']
+    version = contract.get('selection_normalization_version')
+    options = {'normalization_version':version,'source':state.source(task),
+               'max_selection_bytes':contract['max_selection_audit_bytes']}
     normalization = None
     try:
-        check_selections(evidence,candidate,selections)
+        check_selections(evidence,candidate,selections,**options)
     except ScriptureAttention as exc:
-        if contract.get('selection_normalization_version') != SELECTION_NORMALIZATION_VERSION:
+        if version not in SELECTION_NORMALIZATION_VERSIONS:
             raise
-        selections = repair_complete_selections(evidence,candidate,selections)
-        normalization = {'version':SELECTION_NORMALIZATION_VERSION,
+        selections = repair_complete_selections(evidence,candidate,selections,**options)
+        normalization = {'version':version,
                          'raw_result_sha256':json_hash(result),
                          'original_selections':copy.deepcopy(result['scripture_selections']),
                          'original_failure':exc.reason,
                          'independent_review_required':True}
     audit = {'version':VERSION,'evidence_sha256':task['scripture_evidence_sha256'],
              'candidate_sha256':json_hash(candidate),'selections':selections}
-    if contract.get('selection_normalization_version') == SELECTION_NORMALIZATION_VERSION:
+    if version in SELECTION_NORMALIZATION_VERSIONS:
         # Keep this outside the optional correction record so removing that
         # record cannot relabel repaired claims as the original input. Adoption
         # may assemble this input from a saved candidate and validated claims.
@@ -524,7 +598,10 @@ def validate_scripture_candidate(state, task, candidate):
     if len(canonical(selections)) > contract['max_selection_audit_bytes']:
         raise ScriptureAttention('selection_size_limit','Complete selection audit exceeds its frozen bound')
     normalization = selections.get('normalization')
-    if contract.get('selection_normalization_version') == SELECTION_NORMALIZATION_VERSION:
+    version = contract.get('selection_normalization_version')
+    options = {'normalization_version':version,'source':state.source(task),
+               'max_selection_bytes':contract['max_selection_audit_bytes']}
+    if version in SELECTION_NORMALIZATION_VERSIONS:
         original = (normalization.get('original_selections') if isinstance(normalization,dict)
                     else selections.get('selections'))
         if selections.get('input_result_sha256') != json_hash({**candidate,'scripture_selections':original}):
@@ -536,22 +613,22 @@ def validate_scripture_candidate(state, task, candidate):
     if normalization is not None:
         if (not isinstance(normalization,dict)
                 or set(normalization) != {'version','raw_result_sha256','original_selections','original_failure','independent_review_required'}
-                or contract.get('selection_normalization_version') != SELECTION_NORMALIZATION_VERSION
-                or normalization.get('version') != SELECTION_NORMALIZATION_VERSION
+                or version not in SELECTION_NORMALIZATION_VERSIONS
+                or normalization.get('version') != version
                 or normalization.get('independent_review_required') is not True
                 or normalization.get('raw_result_sha256') != json_hash({**candidate,'scripture_selections':normalization.get('original_selections')})):
             raise ScriptureAttention('selection_changed','Normalized selection provenance is missing/changed')
         original = normalization['original_selections']
         try:
-            check_selections(evidence,candidate,original)
+            check_selections(evidence,candidate,original,**options)
         except ScriptureAttention as exc:
             if normalization['original_failure'] != exc.reason:
                 raise ScriptureAttention('selection_changed','Normalized selection failure provenance changed') from exc
         else:
             raise ScriptureAttention('selection_changed','Selection normalization requires a recorded original failure')
-        if repair_complete_selections(evidence,candidate,original) != selections['selections']:
+        if repair_complete_selections(evidence,candidate,original,**options) != selections['selections']:
             raise ScriptureAttention('selection_changed','Normalized selections disagree with their deterministic proof')
-    check_selections(evidence,candidate,selections['selections'])
+    check_selections(evidence,candidate,selections['selections'],**options)
 
 
 def adopt_scripture_selection_audit(state, task, previous_task=None):
@@ -583,7 +660,7 @@ def adopt_scripture_selection_audit(state, task, previous_task=None):
         audit = state.read(f'state/tasks/{previous_task["id"]}/scripture-selections.json')
         campaign = state.read(f'state/campaigns/{task["campaign"]}.json')
         if (audit.get('normalization') and (frozen_policy(campaign) or {}).get('selection_normalization_version')
-                != SELECTION_NORMALIZATION_VERSION):
+                not in SELECTION_NORMALIZATION_VERSIONS):
             return False
         # Keep the raw provider claims visible to a new independent reviewer
         # when the adopted audit required deterministic offset normalization.

@@ -1,0 +1,1376 @@
+{
+  "version": 2,
+  "repository": "trueChristian/berean-translation",
+  "translation_pin": "a282270816511ceab7890a1a642dfdf132c1e387",
+  "campaign": "gh-37314352672",
+  "patch_pin": "f26ea6f2632815b376788a57ede70e8d55c87a4a",
+  "campaign_provenance": {
+    "canonical_sha256": "e8455b98753806f72ef6f2e4dbb07d11e059015ce3208aa09b875f499d423561",
+    "blob_sha256": "ed7f9e41fbc5203b89a52ec182e4cd2632619ded1c286f212d150f436bd42dff"
+  },
+  "counts": {
+    "exact_offset_only_outside_patch_scope": 10,
+    "quote_punctuation_changed": 5,
+    "exact_text_with_reference_parser_blocker": 7,
+    "reference_parser_only": 1,
+    "line_break_structure_changed": 2
+  },
+  "cases": [
+    {
+      "task_id": "c85a7cbdd2fd3bfadfed3dbb5c2ea877",
+      "language": "cmn",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "950fe74dde70f27ab944e8723370ba439cd0bf9c3049d9154cdf3d095d94f71a",
+        "content_bytes": 7624
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/task.json": {
+          "canonical_sha256": "8bf5e9fdbb9650cde8207efb3ab27d5285715d9773aabcb59ab3ec71c5ffc980",
+          "blob_sha256": "363d3374ed177e0738f2f6d7c3aea863244c562ecfb61fb5859ca3e96e82d640"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/results/correct.json": {
+          "canonical_sha256": "cc8d027c1205d6cb12df9df7c28a6dc9debd133218e094868d21fdbd54e87c9b",
+          "blob_sha256": "640a58276bd431e612d936b32be450cb256660820550d54fd0df74bdce4ecf17"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/scripture/8978bba2dc6533d2d5aabb708f30a5efb3eced65d409568f0cf896c2685e1cb9.json": {
+          "canonical_sha256": "8978bba2dc6533d2d5aabb708f30a5efb3eced65d409568f0cf896c2685e1cb9",
+          "blob_sha256": "c229aaf6ad0dc71fbbad3c24d12ce40f9b8c6f66132b6a32cd67cfbc40869169"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/attempts/translate.json": {
+          "canonical_sha256": "000997d285df2847f692acf10f38b10a1937f0f8b5e18f2fe8a3229d63f67f36",
+          "blob_sha256": "c73bdf260a803a8506ede125a1b9714e3745bbd686a50d8870fa4d08e5f05dbf"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/attempts/correct.json": {
+          "canonical_sha256": "2306f86ccf22983f278938446daeac435a7e682031d461526d28b13be197a819",
+          "blob_sha256": "f1ce8be82b4123dc0c1aa680dd0055bb8b6be5da6a3c19a237b9e91e28ea89b9"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/decisions/terminal.json": {
+          "canonical_sha256": "61f233be28d2d8c539aa1caed32fb829ed04b21d3cda84857900758ec3b5d29b",
+          "blob_sha256": "dc32c7e9563b6e2bdb0b544a729dd2aab370857b764b5554bc98cd1505fdb06f"
+        },
+        "state/tasks/c85a7cbdd2fd3bfadfed3dbb5c2ea877/candidate.json": {
+          "canonical_sha256": "919b617159d60428da7ecb22c91a1accad5990d0f5c8c60e0a871ec3c2e222f2",
+          "blob_sha256": "3c1202d656ab91969b6f20b28a6da3360e3d8b2f545eec92969cd5084b257f06"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "f3ec97e3b4042e2b776e153389823d82",
+      "language": "spa",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "d1651c3f323ba46fc813b2e14f63b2fe9356e0c484a3b59256c903f7c6a3d65a",
+        "content_bytes": 9100
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/task.json": {
+          "canonical_sha256": "134c14a3409b3341498dd29d316bdb674bb92cbddc199193dd1c1375ee68feee",
+          "blob_sha256": "3b190dfd8b03fa207ed52ec3af0af966f4b1450d0cd6ecdc3010decc297ffdea"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/results/correct.json": {
+          "canonical_sha256": "81b60f80df247f405d130d0a33fff30c39e25f1cbefdaa39af2955f3876df253",
+          "blob_sha256": "b479b1a85882c4423decd6f737dcbda3f711cd0ec916862d4b52c38e9e75c4a7"
+        },
+        "state/scripture/7d2fff31a478c9c713abe1a625c80cc4f4abd186fa0c022f388919576f74a6bd.json": {
+          "canonical_sha256": "7d2fff31a478c9c713abe1a625c80cc4f4abd186fa0c022f388919576f74a6bd",
+          "blob_sha256": "12f172fc979ea9c3970c6e301bad54bc2ce43482da091262fdf1f9976839bb23"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/attempts/translate.json": {
+          "canonical_sha256": "36b49190ad53b574bbe9c861a22c74405b955b1f9d4861884e251963cc48df7e",
+          "blob_sha256": "f79703f54359d4175d217cacec2be521584b581094e7dda2762a77969e331302"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/attempts/correct.json": {
+          "canonical_sha256": "d61ddc295153253d394d647e086bacbc707d307b3da612913d3125828393f233",
+          "blob_sha256": "c98f47926928ab69a58fbda1ae399f4ec49b0e23dae4c1d606c79b350f146f3a"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/decisions/terminal.json": {
+          "canonical_sha256": "7b5f2b3049f88e95655a32b34c54ecf1a76c81f9076f79906a2097a4ccaf5a0c",
+          "blob_sha256": "1d7ca1ce396e71531927fe07d4be24d028d4a84ef00cf03bd5b55f1a788c2289"
+        },
+        "state/tasks/f3ec97e3b4042e2b776e153389823d82/candidate.json": {
+          "canonical_sha256": "9e712e6cac3f75c692e8eae637a157c82537a67a9f14bf75a0c90dbe7a31fe40",
+          "blob_sha256": "0c8512a60a94dc19fef466caf5cd1dcdb7f8c738ef020ce284650d68874cf5bc"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "a9edfb5d146c9a6bf174fb089bb593ec",
+      "language": "ara",
+      "title": "From the Editor",
+      "classification": "quote_punctuation_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "1d6a34bf20252357ef2674761f316aad5372cf1a6e1459b8126e4270f0e24e4f",
+        "content_bytes": 11444
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/task.json": {
+          "canonical_sha256": "6c4ac220031a79cf2b998aa3f12d7be97cf7bb79c8299fec6d089ddf8f9df9f0",
+          "blob_sha256": "596af7152ff3575b76063ee313939e0f98693fb4f8351b8691c6ac59575f59ad"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/results/correct.json": {
+          "canonical_sha256": "78c1610eab0c3d027f057a38c80a283a56aacd833a46020c95d53bd4de65082f",
+          "blob_sha256": "f330151263c640b18c5d20f830fb4d2e979ff4055ff42d31426713e89b9ec129"
+        },
+        "state/scripture/76a578e65b51ab95d05d0ebca4fa3f5759f5d4f3839264d5c8697843572f7a44.json": {
+          "canonical_sha256": "76a578e65b51ab95d05d0ebca4fa3f5759f5d4f3839264d5c8697843572f7a44",
+          "blob_sha256": "52b489755a5c7f819dfcd8fe9c4c0f0e04a0d9df138dc96dc19d1ee74308a207"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/attempts/translate.json": {
+          "canonical_sha256": "21a2cf9004668bccaba164d2cd1518951c37b1cb23a045684bce89d315e90c7f",
+          "blob_sha256": "dc9524829e97a9bad2d45653ab1eb7d229e1f7839df26b5a7963dbeff4a65293"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/attempts/correct.json": {
+          "canonical_sha256": "5e10c42d23238b392874adceeae0b4562f4367cf1c84d5b706477db34a496294",
+          "blob_sha256": "d925e251455fbc287b6a968531793000277eec3b79cd87000cd338cb7e084613"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/decisions/terminal.json": {
+          "canonical_sha256": "ebec3e69efc8af8dfd5833646b603a4e5baf2612b6ab37f1c7b67b03d7582a80",
+          "blob_sha256": "425d750e10cf1b9f04fca2f9b1be18dd4ed7d6908edf5ecc48ab43ab13787ee6"
+        },
+        "state/tasks/a9edfb5d146c9a6bf174fb089bb593ec/candidate.json": {
+          "canonical_sha256": "e1e542bc1703ad248dd399b150133cb84ca1627d4d40e5bc8025d884c1ef54a4",
+          "blob_sha256": "2994b797501decdb85d3ff1421f27883205db2cdc5e4ea7dbe0956873d06252c"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "f8206cb9a3b0008fbcd75cbd046774cf",
+      "language": "fra",
+      "title": "From the Editor",
+      "classification": "quote_punctuation_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "4aad91cb4a815b3d4a5492a3a7fc1bb574b5be2ec4cd5c8350e39dd4377a12fb",
+        "content_bytes": 9803
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/task.json": {
+          "canonical_sha256": "759fa465ad4ff2f7e27947e648f9df000057ddcb07e3921504591abfb091f54d",
+          "blob_sha256": "9f190de9448b951679b419b5cb7ebe94481f45b3191eaa6e99d97dffdb72ef62"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/results/correct.json": {
+          "canonical_sha256": "35aa584d655e51e8a2adc9f5a4bd32559382b2bf870b64ffb17e20c7d8b052a9",
+          "blob_sha256": "dd185704876928f902bb78fc2935b0ddf9a0b69ebb940bb3d282d3e8f23d76b7"
+        },
+        "state/scripture/1ed1d6c79a3232c41334e12413371a8513a410046b07ff924cb2511e9ffa05c8.json": {
+          "canonical_sha256": "1ed1d6c79a3232c41334e12413371a8513a410046b07ff924cb2511e9ffa05c8",
+          "blob_sha256": "17185ca95b6dc68cc0d28945a7df082c124c003adea7d4b0ae5acdc855ff887c"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/attempts/translate.json": {
+          "canonical_sha256": "c21f4a95b524793c996f416ff8605829df5284a6ce8d75f18105529f1a136ebf",
+          "blob_sha256": "5c46f1fbf3970ab9025b35dfc24011f682c9c34ccb44487751cdf4e8a15055f2"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/attempts/correct.json": {
+          "canonical_sha256": "e2df606ba33f9e7189d390d4f283d9ab5821d42b1bd1aae1b197561cbb2bf519",
+          "blob_sha256": "a0388dc82acd0180113ff6e30b33e5cf348149bfecc17e736ce3c36b98561e37"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/decisions/terminal.json": {
+          "canonical_sha256": "492381d33084b6150b16826f23bc1bcffacc9a09a8b0d4a8e6195d5884d6caee",
+          "blob_sha256": "841508e4bfac85fb512887fd3e1e3b7ea3a038acce0463e58dc6c268546ab396"
+        },
+        "state/tasks/f8206cb9a3b0008fbcd75cbd046774cf/candidate.json": {
+          "canonical_sha256": "fd29b622c2e985f5c675fbf22023ad645c6aea696f6619a5cf56b8b82bb4fe69",
+          "blob_sha256": "a65fa76fca2302ec02e2dc3a15614ba100d28b729bfa7d963fb2aefda09de039"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "ecce2d44ab7de2e787c4e6e7c112efb3",
+      "language": "por",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "da90d4b1c8926f201bc1d14a9ad4df65372deb324570e37b704661b79fd96e3d",
+        "content_bytes": 9024
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/task.json": {
+          "canonical_sha256": "9f215d99eae229309e38ac66d06745a299160827a267f4b6b3c66fea5e8eef84",
+          "blob_sha256": "0336dac76969e8c51248918debd1dec9f58a0556dc4e51cc9846270173f0dedc"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/results/correct.json": {
+          "canonical_sha256": "088644dfaa02a71e927f6b7a62b1ef08f0cb8e8d71a96eabfc607f18e28620fe",
+          "blob_sha256": "4f7a71b8586fda1dbe635c27082ac71d000249263a83231c9467d8e0b7378c0f"
+        },
+        "state/scripture/7c5cdee657256d1ec33b7bf64fd254c508b656ee6185bd8576cc9a15c1fba720.json": {
+          "canonical_sha256": "7c5cdee657256d1ec33b7bf64fd254c508b656ee6185bd8576cc9a15c1fba720",
+          "blob_sha256": "d2b7522b2d3a5aed7d573bae10850a5c8f9f6224aeff2cb1386ff5cdc59e0a51"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/attempts/translate.json": {
+          "canonical_sha256": "ab332b03aae54a4c4fbffbbb2c2b4043753fa571f06cec98233259c89130886b",
+          "blob_sha256": "6e3ad77ed048c398e1e2e68314a8740dbf736e6305c92456383402cee03b208c"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/attempts/correct.json": {
+          "canonical_sha256": "af95f93f4c0652a83858b46f4fbf8d8b5901a5fe1af1b96e2d2b60e16a3290d5",
+          "blob_sha256": "5e7c4125f342cb128d6b49fb1beebe6078354bca454914f16d215ef5a5a357c6"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/decisions/terminal.json": {
+          "canonical_sha256": "76050fd2f59746432f02a6ee4be368a3a25bb7ca87adf2409ce71ae1f9ac0e55",
+          "blob_sha256": "f9b3e5113c4ea3180aa241076988fd799d11d71ff43b7b585eb327c02c547d3e"
+        },
+        "state/tasks/ecce2d44ab7de2e787c4e6e7c112efb3/candidate.json": {
+          "canonical_sha256": "7a2bdc3ad0942c9a7d2293e4c3f484d88289f5c102317d31460d501d19336c75",
+          "blob_sha256": "8b447631b6d38f714f2abe7f160ff0f609c1f88d10670c894170cfa1f914a1cb"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "8fc05e410bf36bd1f83f17b264bbfc4e",
+      "language": "rus",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "618c903c24a1f2961c04ea216004ce5f7384092646320b698eb9b981fd36f70c",
+        "content_bytes": 13800
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/task.json": {
+          "canonical_sha256": "225545f70bcb67c493b40fa183584302902cef6197051cb18606a09307b2e0f4",
+          "blob_sha256": "83266cb605b60a2e48afc22c009aa885bb1be2663b83ace22cbaf3f0996e3c46"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/results/correct.json": {
+          "canonical_sha256": "a33c09e9eae28fa70d7b5b5b5c0537ff47610e562018cbb20d76c567fcf4606b",
+          "blob_sha256": "2565df2babbdff52db885dfe5329eae895be873f710e0d250b73453e9e79723f"
+        },
+        "state/scripture/d64098d24965f2612bf060cc8f3995347722181cd02695fce7646ac8d5d7f1b2.json": {
+          "canonical_sha256": "d64098d24965f2612bf060cc8f3995347722181cd02695fce7646ac8d5d7f1b2",
+          "blob_sha256": "6521588510601fa9d58a5c54399485f65cc4647499c57b2d3e78620226ee978f"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/attempts/translate.json": {
+          "canonical_sha256": "9c1909e3b6a923d7e036d34aa6dfb4193f8344b9151b9906fceebde77e917071",
+          "blob_sha256": "387b6a678776d0918aba64d13dbc632fee5a54db61ff57776a5bbf030044733f"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/attempts/correct.json": {
+          "canonical_sha256": "afadb9f3e5802f36e341cecf0f6d9262b7ea9c59bc2a1c7c5c5e0643c9ddacc8",
+          "blob_sha256": "3e7b6aea48e082842017d862477fffd0b4723c93df3108e331adb805ac6e5a9d"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/decisions/terminal.json": {
+          "canonical_sha256": "491c400a3b8ea88c9a5facbed5d23cae47ba22cab680e6e030e7384f585c807c",
+          "blob_sha256": "7e0b7a259befbe398b534b959ae7f8c7c35caf558a904281492471b0c96d9d35"
+        },
+        "state/tasks/8fc05e410bf36bd1f83f17b264bbfc4e/candidate.json": {
+          "canonical_sha256": "43c3ea50901a3c1d8c3fdbcbde8a686eb5e2066aac03fe3c03ea70cf8c9ebf98",
+          "blob_sha256": "4672c3b12880b41bbba4b6727594d93751e7c54efa57e829c81cb3a29aa604a9"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "795fa41177ebdf35eaae9dc65b6538ee",
+      "language": "deu",
+      "title": "From the Editor",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "aaf0bec2d68709fa69da1791a68754f3d7b23060605daab81bf8d99b90faef1f",
+        "content_bytes": 9387
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/task.json": {
+          "canonical_sha256": "714c117a37885a7a1c4c82ab3806770ba2ed88e2e38314c90ccb4a04832ca429",
+          "blob_sha256": "e03a9e772505e2fcf55920c27d0afe458c369ffc966c723ebd0400588f8a4160"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/results/correct.json": {
+          "canonical_sha256": "7544ac3159cc06a19543b8ec150d75548bc1ae789defabd4f541915450a4c58e",
+          "blob_sha256": "6f6c85617af86bf32c66aa3c52208ddc5b304991b3afb26a20231e883faa051c"
+        },
+        "state/scripture/753fbc307e056ea2f49949dc69cbaab353242f8b545596d320626c89f38d7280.json": {
+          "canonical_sha256": "753fbc307e056ea2f49949dc69cbaab353242f8b545596d320626c89f38d7280",
+          "blob_sha256": "92238993357aca56262a14b9c7b1ac0c1ec1643ab5cabec536fae11dcef57339"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/attempts/translate.json": {
+          "canonical_sha256": "54e58a67809b440d73df67507fa081f9a7a751ed2d51bfeb71f0daf237be29dd",
+          "blob_sha256": "189a86e66eda44bfc299158dcc89494e080b9ee22fda88c8adf89e541ef7c895"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/attempts/correct.json": {
+          "canonical_sha256": "bbff6768923d40a536016f51eb90809375e92a7ac42fb97686f2708cf26eadd6",
+          "blob_sha256": "87c5c2734d544d94b8c5795b2466408d8471b1e8393d2ac04e4f6f58b4c1ae19"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/decisions/terminal.json": {
+          "canonical_sha256": "17ff1bf226e1c9e28c394c625cab6977e084d1a01b120babbe3ca81f631d4d1c",
+          "blob_sha256": "bd5048933e54cc1971329cc895879d69f36f9b3a8b1bc0671fb8d66107662411"
+        },
+        "state/tasks/795fa41177ebdf35eaae9dc65b6538ee/candidate.json": {
+          "canonical_sha256": "363fc459841ad7b92ed04f3eedf82f079ed4f35ed56c22ae7ea76ddfdc86b485",
+          "blob_sha256": "280295987ef10c09ff86cbd677950d4a9050665820552939cc381413367a18c8"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "7256ec163f5ba1587f19c2619b6c1e15",
+      "language": "nld",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "78f315c8ba501d328a5d524cb2e18ce37d1b590f8f68af0384acba48c57453c3",
+        "content_bytes": 8850
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/task.json": {
+          "canonical_sha256": "3caa2495203237a1610a54d1341cafd122a8a39f79f68f2c1bfd0e06604328d7",
+          "blob_sha256": "c8589561cfdfff596da2c1fd6be5f0f66a804915371d15852135f1a2d51ec426"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/results/correct.json": {
+          "canonical_sha256": "e1794436a036a5c03ce368aa4e92af98f27ddab43984e910ddfd893ed7be25a2",
+          "blob_sha256": "4d70d2d1918607f5303c76ddd0a1165ad66edfb347030d0298eb5bf77be96ae6"
+        },
+        "state/scripture/5172f2b732a080b3888ffbdf69915214da904d4b5b63ad7cf1bbf39a2f857197.json": {
+          "canonical_sha256": "5172f2b732a080b3888ffbdf69915214da904d4b5b63ad7cf1bbf39a2f857197",
+          "blob_sha256": "714e16a78075d170ac7419c298e280db2677d026e1e20450005a4c7147567551"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/attempts/translate.json": {
+          "canonical_sha256": "7e3e106a13a7f2c8f78487dc45b00d557c8632da5e736bb9e16116b9fad84153",
+          "blob_sha256": "4868f924886c28d19321561a4ab20f3eef45d37ea07b7810ce1b1078aa7d4f7a"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/attempts/correct.json": {
+          "canonical_sha256": "14c868eb4a6462868036b4b7cbf7ad7b2e13e73c767af3f791522363623f8d2d",
+          "blob_sha256": "30809866c4acb2ecf315745f451d10d97dde9d23a60dbdb3ac1125cafc0dc78d"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/decisions/terminal.json": {
+          "canonical_sha256": "d1792cffb3b7ae0036426e7f85208191d2c315dde9f6b112b0e8434c60ab42e5",
+          "blob_sha256": "9935307ac761264fd89cedb541cdf3a9fc5b0eb7f33df92ff357db47134780eb"
+        },
+        "state/tasks/7256ec163f5ba1587f19c2619b6c1e15/candidate.json": {
+          "canonical_sha256": "00b03f2c4a959e078e857c3e7f0d10755055093d1397bc89525f69c0f249d9da",
+          "blob_sha256": "e0d7ea0a8a58087920a4e410e5cd67e8466a38a97f9fa9b4d82d3127b87c3045"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "8add2c9374a296f14769682abd9653a6",
+      "language": "afr",
+      "title": "From the Editor",
+      "classification": "quote_punctuation_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "b5b78e8a94346cf11f2372c412ca9b4ca0a0dc688991fe7b4b37947abfa3db05",
+        "content_bytes": 8682
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/8add2c9374a296f14769682abd9653a6/task.json": {
+          "canonical_sha256": "99bfb64cb0bf35d682e801ce24e53c353e93ba914778c910fd9595dc2318dd27",
+          "blob_sha256": "b645d2864a3279488bae21ac611fb4e9d60af1a183b634911fd27ab172d5ff94"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/results/correct.json": {
+          "canonical_sha256": "9082b60c45d1db2f67f1f3963cce0fc56fbc079c3ebdbcbed96177e1787601e8",
+          "blob_sha256": "aa87866e3dd3ddcfeda5c7944db4336918cb843dcbf7ebe01c766c5412a5b3d4"
+        },
+        "state/scripture/510274c5996526fa32a33d516215895b493b2319c5f478cd49f53d5ad36d5080.json": {
+          "canonical_sha256": "510274c5996526fa32a33d516215895b493b2319c5f478cd49f53d5ad36d5080",
+          "blob_sha256": "32a2da105de0e6bdee704354ba67b8c03a667a6bd24438f88b922ef6f83221b8"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/attempts/translate.json": {
+          "canonical_sha256": "2a389e6ab4a99e23a569315844d796cc0ffa13df30518e388244d42a36162ed4",
+          "blob_sha256": "e0be738517e0a2c99797f1c4a615e2c1ec2086cfbb91d042c830ab4dad037710"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/attempts/correct.json": {
+          "canonical_sha256": "db0d9db73782077dfb5fb87d833b827a95fe43e773531134794e3acd0f29f0b8",
+          "blob_sha256": "88a46d22a5e9895152247cbca17df8bbb170a7d5580cac934a6541db6386352b"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/decisions/terminal.json": {
+          "canonical_sha256": "867f0224e57f12013433b9aa19e85aa5042c269381bf8c7567c698ef7736bc8f",
+          "blob_sha256": "1d981ade71f4dbf0f380ceb4c16788ce86c977c76aee62fecda45cacdeec25d1"
+        },
+        "state/tasks/8add2c9374a296f14769682abd9653a6/candidate.json": {
+          "canonical_sha256": "c0bb8d5f785b3678c54a2e4682a2902363b8a1748dad3445d332c038f4f44c4f",
+          "blob_sha256": "42e999ff79a7c5d8a9d4e10750f911afd75bea26a74a4c6c105fa1afbd85c5d7"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "5b2244d734d5de48b1a5fe63d4d886b9",
+      "language": "kor",
+      "title": "From the Editor",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "287da8ffcca7c5165c207394c3952858bba85297808c13248888db98b1703d37",
+        "content_bytes": 9907
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/task.json": {
+          "canonical_sha256": "6327c4c5e080a72e1a58083c510503e364e90a5181d26c517f0ad3d28be80643",
+          "blob_sha256": "ddd7406b93c1a89ad48ea4fb79a02f8bdfabe704f6a40cf02a0a59343cffedbc"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/results/correct.json": {
+          "canonical_sha256": "3168195681886bfca2a0b013a61f300180750dd48418d4186713352a97aa23c5",
+          "blob_sha256": "3407fb8b83e0b6143f2eb6a9996f2ba10785f3db3daedf08d8f4ccde8fc317ae"
+        },
+        "state/scripture/fbe667c78bd0040c28c18b830421b351700f1440a02fdd6e5efa11d70c46abdd.json": {
+          "canonical_sha256": "fbe667c78bd0040c28c18b830421b351700f1440a02fdd6e5efa11d70c46abdd",
+          "blob_sha256": "99f8dabda8725b7025049e8b92bd3f64bf93a29c46a7fee4082450b7189588b5"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/attempts/translate.json": {
+          "canonical_sha256": "ba1fda687aa3fe99d3784ad7d65a39d6e2e40fba04eab5907d68d562767cd4e4",
+          "blob_sha256": "b1f4ec42eb6a50b26015ecfce5c05732ab4b39df992a2c14318d7acb207d28aa"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/attempts/correct.json": {
+          "canonical_sha256": "8b16a3edd79fa0d4d35781ac4c9061af54b6774dd1136c537e672876d1d3ea51",
+          "blob_sha256": "6464ef3f7f9ab3daf561c72a3e2b558a16636174c3a7d5fb1b77997d24bb76a0"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/decisions/terminal.json": {
+          "canonical_sha256": "682bf4c054d391b5501ba4141708cea3620ceb73159688253748cdb585f4d781",
+          "blob_sha256": "073dea1605a493197d84a23396e0e351a31232dd663e4b0a3e97f107dd271197"
+        },
+        "state/tasks/5b2244d734d5de48b1a5fe63d4d886b9/candidate.json": {
+          "canonical_sha256": "195f9add0fdc2e0fae305f4092e04bc29290ea3a8cbe2be4e3e8da5d7c08e227",
+          "blob_sha256": "ecae139d0dae1d9df2f804936893dbdb1d68a69a5b70d0d6c101333974a8b7af"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "dae9edd65881bd01eb959b9110e761d4",
+      "language": "ita",
+      "title": "From the Editor",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "8076ae4bbf939868eddfaa2e06721bffa53ef964421c50827208298406927eb5",
+        "content_bytes": 9145
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/task.json": {
+          "canonical_sha256": "c5f5295de6d83bc49a3cddfc011d4914759b631dee03cfc44fee5336a10b2e70",
+          "blob_sha256": "5557c730de3c7ee134bc9071e024bfcc583f11cb5c890c286cd033e1861a1377"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/results/correct.json": {
+          "canonical_sha256": "e38290d3160fbec7f2b36fa68bb63692b1a9fa08590e0e98a927a60a0aed762b",
+          "blob_sha256": "7f5560c7c9fc241893bcb0e8a5d143eda12eaa02cae3bf7d1110c4ee3ae03ce5"
+        },
+        "state/scripture/ecd16748405bf374f0c19e2df360f5a357db347ec19a26c71882de70c9f735a7.json": {
+          "canonical_sha256": "ecd16748405bf374f0c19e2df360f5a357db347ec19a26c71882de70c9f735a7",
+          "blob_sha256": "ca348c59820fd49b8de0c46919bc488fd52f461961f71fcd1c189aa71944e85d"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/attempts/translate.json": {
+          "canonical_sha256": "62baf387179c0c0c89a94963eddbb46ffa1b4816159c26a6776b55fc090f156f",
+          "blob_sha256": "d8a1717d5e12e5ae3c0d614391b17a0564bd4136c92445c94da49d3900071584"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/attempts/correct.json": {
+          "canonical_sha256": "5d4bdb632aaf5784f877c60576d3b45f8bc7aeb219a3bce52506302125e041c2",
+          "blob_sha256": "ceadf75fef38d59dc72b43f8c4bf2531b5c8e92429bb749e2f65a73dc1cc8eb3"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/decisions/correct.json": {
+          "canonical_sha256": "5f8cc1f11c4f8cf75fea8e1bfc101aede54329c7ecb1eaed3c4d4abf1fd96c33",
+          "blob_sha256": "45e22230612ed92d56c2ef92f68a881b757acda3ad61ea7a0904e90dbc5d1647"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/decisions/terminal.json": {
+          "canonical_sha256": "bab39930fdc5df3a692b0cf87f1c8407712ca3ecaddfdea5a8d657d3a8d1b199",
+          "blob_sha256": "0d14c6642f36aa889903b29191f3d2a2e5b418d16dcd5af4ba3f26ddda6de072"
+        },
+        "state/tasks/dae9edd65881bd01eb959b9110e761d4/candidate.json": {
+          "canonical_sha256": "bdca236af4379c7a049ebe45c0ccd28d4d3d2deeadd0e4e7dda42c84a9456a02",
+          "blob_sha256": "a40bef6f2327c824ce2ab6bd186252c05a721cbc94b137545571b8126e28f3e2"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "4b293e272873fc299aa969f24fd16a8d",
+      "language": "heb",
+      "title": "From the Editor",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "36b0045de5c21bb2ee9f3cb870a9ec9e0c6127e6b7a7f567aa90b46310d51ffa",
+        "content_bytes": 10508
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/task.json": {
+          "canonical_sha256": "d85fb4d2c05138f6ba709fe3ba7a0e973ae00fe11a5eac7082f797c9b1404dbb",
+          "blob_sha256": "cbe0c9c2f5951d84701708e512984e35f7c0d29c1d3e9033a3ec8c9ae3e0ceb3"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/results/correct.json": {
+          "canonical_sha256": "7082b707dfab3f12e945e20d21e8e1a3373dce13dc3efba443ec5b8992b9e369",
+          "blob_sha256": "0e5e8fc64db3c59ec39c8a1afc1d337d83a6c94bb706ab042291f6cb6e335f25"
+        },
+        "state/scripture/bad127941b23327bdee778110239e722efeb38e7ed70b4eb83376cb009bbdc4a.json": {
+          "canonical_sha256": "bad127941b23327bdee778110239e722efeb38e7ed70b4eb83376cb009bbdc4a",
+          "blob_sha256": "f300d934bf2bd2c500cb7e88d66e133669cbee208b23287e422ae082b8db2b00"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/attempts/translate.json": {
+          "canonical_sha256": "24d46d3f9bff657326e6651fe0583d52a1a12cf0018bd499959125a40ba51d3d",
+          "blob_sha256": "7348f2ef47c9d9e36c22fb1120ad8a9891daed53e55b3319c04f9a6e7a7d4504"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/attempts/correct.json": {
+          "canonical_sha256": "7676b43eec3054a5d7bd2ac4211909126f2e892e6597f0334478203b8f22acc2",
+          "blob_sha256": "39eeb778e34c33ae4ff49d87493a2d60857dff263afd26ed8f4348bd1d06ce5d"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/decisions/correct.json": {
+          "canonical_sha256": "0d10d44122a53d16df8c4c593d66f5c56f5b7b9c1e42df99c408777712dab861",
+          "blob_sha256": "52abf33610aa186da6112ea65326c4fdd3ab00f26f35700bdbba1c1bdedb237a"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/decisions/terminal.json": {
+          "canonical_sha256": "6be4db7f30749f833fef5ac0ad5c2430cbadc12bc0d13c80760d7021935d389b",
+          "blob_sha256": "7ed9398066dcc20856c47d11f205f5cdadc38be95bf0fff8d7482062718a4bbc"
+        },
+        "state/tasks/4b293e272873fc299aa969f24fd16a8d/candidate.json": {
+          "canonical_sha256": "bd3db0103939c619890f8404febc709ab4bd0e7e03d8540bb25721cfbfa9791b",
+          "blob_sha256": "9343a7e76e15c6db51ee7e5ab25a5e3f4673530993848f28326fc6616dbc2aef"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "f217856f8fe09768ac6fdb83602f142b",
+      "language": "ell",
+      "title": "From the Editor",
+      "classification": "quote_punctuation_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "be360890b5d3edbc4711f18563cc4f0d78cb2ab3a99bbcdff3f3e6dbe6cf15a5",
+        "content_bytes": 15907
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/task.json": {
+          "canonical_sha256": "0b3faeb87d20d79c7b45f4127facafdcb5a42a28a76caa2d8e701d0353b8856f",
+          "blob_sha256": "90e1bc610e1931714dfb4b1c336737f79d56b6e6e3baccf533fcce6f48a87556"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/results/correct.json": {
+          "canonical_sha256": "605ed2df0583b673c711e667af6d75e3ca9029e92526c23290da209e21a242e8",
+          "blob_sha256": "5ee00686672de0f24b35378b17188548f5e2328b8eb4be648a09befdcb4754d3"
+        },
+        "state/scripture/ef975c7e4e7d849292713c06a331f32a823dd9099fe672b0eb2ea950a6856bc9.json": {
+          "canonical_sha256": "ef975c7e4e7d849292713c06a331f32a823dd9099fe672b0eb2ea950a6856bc9",
+          "blob_sha256": "e6f194a0740286f1a923d778199fe5bad5c4926774179a262bc191ebf585ee9e"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/attempts/translate.json": {
+          "canonical_sha256": "b97b5ecb63a8f314d5642397e1d6c77309509a7784f29a2b5a6af216b8c6d494",
+          "blob_sha256": "c58ce5ab341061e1d7630ceead5697175864ff217b786b0f86ea73a91debbe6e"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/attempts/correct.json": {
+          "canonical_sha256": "3304cd356e03c2c6012a39bb65fce8f3054e1d64ff6d95f159945a0f7788b662",
+          "blob_sha256": "8eb5411b665c9d8c11810578b3fb39568e79c779c49652e387bd2ebc587b19bb"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/decisions/correct.json": {
+          "canonical_sha256": "a03f5630fc31bdf28caa80b953408a2cc5a3e555a4a76761c74aceb4a306fb44",
+          "blob_sha256": "dd8b5fad3955390688401557810b81edc21c1939d48d775ea723fb35c70141a7"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/decisions/terminal.json": {
+          "canonical_sha256": "38275f9d75d6e5731b68cd9934c17633c99403a3ca5dd872c60460cdbca75e88",
+          "blob_sha256": "2200d328ab6edeef52cb4ab22d251d327183b7b2eaa08bd0b028a8ec46d397b7"
+        },
+        "state/tasks/f217856f8fe09768ac6fdb83602f142b/candidate.json": {
+          "canonical_sha256": "ee092896079ae986f251bf1fa267384127b51b5b4b02e1f5d686a6ed034b7aa2",
+          "blob_sha256": "6da33694526b4acf1e896ba40d968e575e59f051b6e584d2b629098df04d040f"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "6134ebb324340cdee72aaecf45068154",
+      "language": "swe",
+      "title": "From the Editor",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "1bfc6dfab7fc651cd6c68560bf365e1f031150403e696a4dd88db156b9724315",
+        "content_bytes": 8769
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/6134ebb324340cdee72aaecf45068154/task.json": {
+          "canonical_sha256": "0a834c830ebaf33826b0a49f862c5d1d58393d9ad9f83a057026cdafcfe6d5fa",
+          "blob_sha256": "d5bc5bd5bf89faf0df5053a2d9ba4b589812a3a98831a32343d2722ccd2bb88e"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/results/correct.json": {
+          "canonical_sha256": "1afc442baf5f19ec9c9d93359c301f46a3b77ea47326241a7947d2805490fd96",
+          "blob_sha256": "70c2655e2846e42a25d3263341d661e9167e1cae66d40e3030057ee14e08c34a"
+        },
+        "state/scripture/f0f946173d20d6acf320ac7d5db2f6c426307787f9c11d00e7cbbd178922342d.json": {
+          "canonical_sha256": "f0f946173d20d6acf320ac7d5db2f6c426307787f9c11d00e7cbbd178922342d",
+          "blob_sha256": "a018c3481a41ce8a3c19417d7d4954eb8e6b65caa5cbecb283943a9a317d6ef7"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/attempts/translate.json": {
+          "canonical_sha256": "3a1bd19c3229fd24b49bf4febbe1f1f1e78a90fe58a7e39a357be487cac57838",
+          "blob_sha256": "fcc612138bb613a3025598aa05066b1028c94697d3770f2dfc10e9b86793bfff"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/attempts/correct.json": {
+          "canonical_sha256": "7169d62ffce6405142a754ecd4e1a7d4b0b33cf55f29f258e9e2479e04e88113",
+          "blob_sha256": "aa370ee7ea9b0a755c125adffbf7a723dba4733e4d6adb7738dcb3f0a36954ba"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/decisions/correct.json": {
+          "canonical_sha256": "5f8cc1f11c4f8cf75fea8e1bfc101aede54329c7ecb1eaed3c4d4abf1fd96c33",
+          "blob_sha256": "45e22230612ed92d56c2ef92f68a881b757acda3ad61ea7a0904e90dbc5d1647"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/decisions/terminal.json": {
+          "canonical_sha256": "31a0e584a2aaee8573340a4c6a34373399d396ea70d02d95b9e7321a7b09c315",
+          "blob_sha256": "0bd14e3390d03e36a9ae1ecb66fede7800b03a5f77eb802766b35073474a73f7"
+        },
+        "state/tasks/6134ebb324340cdee72aaecf45068154/candidate.json": {
+          "canonical_sha256": "b1adabab247d2480f1a2068784b5897ee12904832edf3bf3c89c749b85cf1234",
+          "blob_sha256": "4d5225ba0d5300ed620702127655c66ec8021287c68afe6cb78a1bdbe9143174"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "2645ee361fcc9a6c827625c2b03a961a",
+      "language": "nob",
+      "title": "From the Editor",
+      "classification": "quote_punctuation_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "23dd3baf1e65c33acacb4a60dca94bca28962b0b77bdd53648b0454a19d59532",
+        "content_bytes": 8458
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/task.json": {
+          "canonical_sha256": "c486157aa98fe61421cfaf43acab446ce53aea3622f9f6789d48f77d706bf57b",
+          "blob_sha256": "b3a45e33af65efeb4e4eb95e38dcad13bd7577d743f10d53490a2edb657e3baa"
+        },
+        "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json": {
+          "canonical_sha256": "86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf",
+          "blob_sha256": "ed9b8b7f61737e8b20f8f3617043f2b8b79428833126c49850be86f98437de30"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/results/correct.json": {
+          "canonical_sha256": "65206de5ab7193b693b9edb4658ee50ed0b77a9251ee6fe9d3b974b747a3e32e",
+          "blob_sha256": "aaaa16c9eff90693c65bdd0c5e2fa43aa972d0d1c36cae88bb6de632437d9a1a"
+        },
+        "state/scripture/0392b71536c1153472accf29d40b29590a77d5d177f79a955e0eeda449e205c6.json": {
+          "canonical_sha256": "0392b71536c1153472accf29d40b29590a77d5d177f79a955e0eeda449e205c6",
+          "blob_sha256": "4e06555635353803f0c3f984f8d509149539d234c3e27b5bba56532f2719e8ea"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/attempts/translate.json": {
+          "canonical_sha256": "e4265329386ce0afa3394642a538022e18aaeb2c6d3600664ae81b610802e662",
+          "blob_sha256": "36e6914770a3a3c6ff6c43527dd8fdddaef9d2e87863adfeeb9b5dc2c7afbc43"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/attempts/correct.json": {
+          "canonical_sha256": "04036f68e53f71532ebb13231a92b3366c2afb9c9656a230b1e040db07ef310d",
+          "blob_sha256": "14383be1c1d547093009d475199f5ac966ee4d3126f97cbb6999457c7024bc68"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/decisions/correct.json": {
+          "canonical_sha256": "37443dea649593661fe93021735cf273b38347859902e0b2205c7e52170bcf1e",
+          "blob_sha256": "a34e6b69f22ef9121bdcceed375663b06d9ae1f2bc2b6a82e9be178d6b3dff2c"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/decisions/terminal.json": {
+          "canonical_sha256": "9a93e49bb7a90d85906e1179c0e17a94ee09063e0065ee77320d2e4270d20a21",
+          "blob_sha256": "a2afb54d1682ade5662ed5e075d2cc84f4d18c57f7d0ce151f2bb711280b6cd6"
+        },
+        "state/tasks/2645ee361fcc9a6c827625c2b03a961a/candidate.json": {
+          "canonical_sha256": "f464d8675bd6aeda3c00f08cb80b00fc9127b66ca64e7fad68ac017ec4dbc327",
+          "blob_sha256": "55f501855285de3fc6d11740da2baec592cb631c9eb8bf31ea2db307bb55305b"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "8290835b3abb54db96b81e1ff864acdf",
+      "language": "ara",
+      "title": "Joey’s Downfall",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "8c41881df126a9addc1d94af59091a05f2106ddaf0c59bf3b00a7f0e586ee3ee",
+        "content_bytes": 6309
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/task.json": {
+          "canonical_sha256": "b3b6ec0dda2896a5dcb6668e92ac0cf75db289732b52dd9014c4cdd3568d845b",
+          "blob_sha256": "a3093d9145fdfb0ff6a2a9bf3b8d3de68b9ae3f351234ff4328e65c4e34f60c2"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/results/correct.json": {
+          "canonical_sha256": "750408d9f141baa12a3d02b8e388e8c0dee32119ed33d7b467ad6a34cce98003",
+          "blob_sha256": "69690992279c8a1e658d9311ae091d2eb4684059cc1aa1f269de54dd4d375724"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/scripture/3f913b9e41ae2ddc3d1c39ea6472a1222f618662b350afe928b87de323ee30f0.json": {
+          "canonical_sha256": "3f913b9e41ae2ddc3d1c39ea6472a1222f618662b350afe928b87de323ee30f0",
+          "blob_sha256": "2500f43838ce1a0962223bdf85b29d147fa8837cfaf96106e8871c223e3bc788"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/attempts/translate.json": {
+          "canonical_sha256": "fc5eb3315dd3d085b27e7d0397bb9305e4a6427dfeb4aa10a2fd34ed04c8ef0f",
+          "blob_sha256": "b975d6cdbe16080e69e244bd942f7a4693f86a1755829acb1d42663f7e82299a"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/attempts/correct.json": {
+          "canonical_sha256": "2cd193a833c0c7d200c0c34f6e9a66a8a42e9ed41142b861d936809cc7649a67",
+          "blob_sha256": "4c38d715fc7ed07a65b60d9d29b72433a7c8d73843285c655d901a0012a6e95a"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/decisions/correct.json": {
+          "canonical_sha256": "37443dea649593661fe93021735cf273b38347859902e0b2205c7e52170bcf1e",
+          "blob_sha256": "a34e6b69f22ef9121bdcceed375663b06d9ae1f2bc2b6a82e9be178d6b3dff2c"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/decisions/terminal.json": {
+          "canonical_sha256": "4d67182caece3e8ccc02db7265f8c9d01e272f3f95784cd66e4f9a34fac76dff",
+          "blob_sha256": "4eb1eb76d958445fe1418998d39bd9c942fc0463ee0cfcb1ae9853b497237da0"
+        },
+        "state/tasks/8290835b3abb54db96b81e1ff864acdf/candidate.json": {
+          "canonical_sha256": "9f5448a5369b6aa428fc5c0792009d208d12c5b90cbf425f2c75ec6915f56e19",
+          "blob_sha256": "7673c96a81c5b3257b734ee3559bc2b942c31f240c13803b0045b3326f9e5cfd"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "794cf74fa4581fe9e726907726831306",
+      "language": "deu",
+      "title": "Joey’s Downfall",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "71107ddfc35e6d172bddaae77657dd9359b3d8cd491b94a00d256252ac1339a2",
+        "content_bytes": 5057
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/794cf74fa4581fe9e726907726831306/task.json": {
+          "canonical_sha256": "a8a39a5426d3e8c9e4854bb67f7243a550b656a96d3ad911d345e71676c27e1a",
+          "blob_sha256": "92ca731844095be41504b8d6eb2b1f5eb12bc6b3675073dfa42d4b11e92e5242"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/results/correct.json": {
+          "canonical_sha256": "84e7dd6df52e049b6af936c780fad3c2e459ebdce591f3717465d7b1bf82f278",
+          "blob_sha256": "e044da8c3f8e4b507d3ef7d133721de19a0e41e1ad70b252cc28db008c396a79"
+        },
+        "state/scripture/1b65f7b60ebe6a75e27da435ea867d3a3a8ea77125d43449daa0974b5ef89ad4.json": {
+          "canonical_sha256": "1b65f7b60ebe6a75e27da435ea867d3a3a8ea77125d43449daa0974b5ef89ad4",
+          "blob_sha256": "fd05408d04e614333e30852e81bb84bf8e34ab7c655a023486ffb33e943a4e93"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/attempts/translate.json": {
+          "canonical_sha256": "1576464ccefcd43563f3dbae332c0f3cfb7f41b4184c9c09234d9f5301b1ac77",
+          "blob_sha256": "3adce6ec306721ad39525ccf9f747ee79ea51ea977b876b47e7989dc48eda798"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/attempts/correct.json": {
+          "canonical_sha256": "8b287b2e9c59a6abcec04dbec668bd1cff004ed6758cdbc82dff0aa761209655",
+          "blob_sha256": "1814746e4755e8f56651ee119af0c08bef42ad37773467c803b400dc48ef5853"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/decisions/correct.json": {
+          "canonical_sha256": "eca2e6d7c3ef29863d79597cdf6013f60f61a44160881885287af900ae049da1",
+          "blob_sha256": "2f2b8be96955512f53db3085e85a4a07a15118b7c4b87c9b532e5a6fb9b5611f"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/decisions/terminal.json": {
+          "canonical_sha256": "6ae6bf5a831543be8110e6147a1830a7f3d96aac89ac98665cb25004b4a3e238",
+          "blob_sha256": "0050fabe3b6d3dd7ab4f2eff60a32f0020dd5e49c89f75109dd9c9e698866ed1"
+        },
+        "state/tasks/794cf74fa4581fe9e726907726831306/candidate.json": {
+          "canonical_sha256": "77ed9af48ade96e85c12cf572cb07e02117e9e2eb0c377995224cd4f823284f2",
+          "blob_sha256": "79a9390a287b539561ca269f0fd4445f5292cefa296a19a4335deceb934d742f"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "b67ee6859b29740d335eb70a59aaa863",
+      "language": "nld",
+      "title": "Joey’s Downfall",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "fc6152768dc0e6a37a5b095d6944c28b661b2d8e4932720dfb90208a060757f8",
+        "content_bytes": 4837
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/task.json": {
+          "canonical_sha256": "f33a3b9d9ab0799098bdadf621fc09b8d5171c5b553eb66f8903ff69f7e5bdf0",
+          "blob_sha256": "0149504a022388f612874432e9b29606c188f8e557475cfd469168a18451cc53"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/results/correct.json": {
+          "canonical_sha256": "6ae3d46b119d278459364bf3a80a9c5f966a2c20864b4136b1a865a274e2e142",
+          "blob_sha256": "184ed3e6ac3aeb3c836f5d7e0fd60b3b537deb5bcd017de938d380490790a25e"
+        },
+        "state/scripture/4ba2894ff2ffd88380b57d9dcc0ffc112387e21270af5f5e6453fa0deffac78f.json": {
+          "canonical_sha256": "4ba2894ff2ffd88380b57d9dcc0ffc112387e21270af5f5e6453fa0deffac78f",
+          "blob_sha256": "2309b1efa4fbb391356687eb6b43f479970b39cfedc4e83126ff2d28ae1081f0"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/attempts/translate.json": {
+          "canonical_sha256": "a369463608f242925bb4617fb2e787816e47e2da7f81ac9607ed2c4240d4979b",
+          "blob_sha256": "3600b2830c1e0d8160d858585d7de20eab19d4f8a6737acdaf70f474d0fd1896"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/attempts/correct.json": {
+          "canonical_sha256": "6480dcc613a29be3ee9c0f76176c073c65bdbf5e240be98c6dee38ee9621909e",
+          "blob_sha256": "5253515a2addb7423fa75459970320c0c0b4e69d5972fd1368dae8737aab1cb7"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/decisions/correct.json": {
+          "canonical_sha256": "37443dea649593661fe93021735cf273b38347859902e0b2205c7e52170bcf1e",
+          "blob_sha256": "a34e6b69f22ef9121bdcceed375663b06d9ae1f2bc2b6a82e9be178d6b3dff2c"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/decisions/terminal.json": {
+          "canonical_sha256": "d10fe4a07ffd276385bc1cc48e429b7bd5c3f9845fb1587026eb5d64a8c7a636",
+          "blob_sha256": "f31b60467a2478afcbf713fe8f9c34692b157e3d7df45f0ec9cc962be1bb6d5a"
+        },
+        "state/tasks/b67ee6859b29740d335eb70a59aaa863/candidate.json": {
+          "canonical_sha256": "10d44f4882f711ca8381dd06b25dee14970b62abc9bce1ab0fa00d348307407c",
+          "blob_sha256": "670fb70e7fd26082a3d035a75aa11033dfd36fef018cff3c87a0afe96f3b708e"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "8206c8132b9abc0582b3f7e18317c170",
+      "language": "afr",
+      "title": "Joey’s Downfall",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "f6c0bfbbe5c618ba5cde439fa52040a4c11dfffaaffd2a76d6eff097243a6ec5",
+        "content_bytes": 4798
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/task.json": {
+          "canonical_sha256": "3e49ecf1625f3f7fa0c1b96772774e3f3e32ee9d0001a678e75734fb293e0548",
+          "blob_sha256": "6af61496c61804267c84cd7c3aaa15c54cef8e8fc85fa37aff0ff10923bdf596"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/results/correct.json": {
+          "canonical_sha256": "373726e649b564cfb0ddc19c039ef16ba431de16b234c83b482df942a938f5b2",
+          "blob_sha256": "74c0f59ce70c891e3615f66cb3a0b4bbe0aabe8f8496a7eaefee366012b429f5"
+        },
+        "state/scripture/1db94da509cec7ab39359b26c670de17f25b7edde54a9e50049d3479f12d458f.json": {
+          "canonical_sha256": "1db94da509cec7ab39359b26c670de17f25b7edde54a9e50049d3479f12d458f",
+          "blob_sha256": "a4faa31f964cbe3d9c9f3d367161f967d0173a23fb8bf9a6e42647353d8eca57"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/attempts/translate.json": {
+          "canonical_sha256": "07c0eb4f8d4caa5e34da16ceff94a0a4d9d66096323db7bee5568cbeadce9aee",
+          "blob_sha256": "ec6b2012ca81851245fca04250cabab85ad48901415a6e82236a56bf587c24e7"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/attempts/correct.json": {
+          "canonical_sha256": "d74f979838995de4cfa9dff944adffe93fac44fe14df4972de64a22fe71bc7c1",
+          "blob_sha256": "c2a9711fc741e717b1e4a0463ca97ee144da130ed2fca88ac7493e22f6420a87"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/decisions/correct.json": {
+          "canonical_sha256": "5f8cc1f11c4f8cf75fea8e1bfc101aede54329c7ecb1eaed3c4d4abf1fd96c33",
+          "blob_sha256": "45e22230612ed92d56c2ef92f68a881b757acda3ad61ea7a0904e90dbc5d1647"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/decisions/terminal.json": {
+          "canonical_sha256": "f41753ea2600ca0ad91ef186eaa6763c827b4177d361115fe59eb915eda268ec",
+          "blob_sha256": "c9e0770c95786d77664feb9e9df14d25c514e5fa2b3654f21bf89d30e26fe5f2"
+        },
+        "state/tasks/8206c8132b9abc0582b3f7e18317c170/candidate.json": {
+          "canonical_sha256": "8aaae2a3a701f65efbacf047755fe7e019671db2b707c7e3c948fae3b6b3b223",
+          "blob_sha256": "f2f2c1a6c7cda488699f58b761163cb4c038a593717724050ba09c9cf3ca1f96"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "4d74894e2bdfe2a834b3471b0d52dc1c",
+      "language": "ita",
+      "title": "Joey’s Downfall",
+      "classification": "exact_offset_only_outside_patch_scope",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "bd989d2ed0bf27b31da94ce916d786beda9c1c45c0e05d20f3a38da0b07de40e",
+        "content_bytes": 5099
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/task.json": {
+          "canonical_sha256": "e7e2a3eb2d0acaef2ef24ada0f2b6860f2bdc8ba950c2b359d876f9661b126a4",
+          "blob_sha256": "f8b4d99a53dee7eed64c2300b7b20866fb101697eac4ce058011c52a866a0174"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/results/correct.json": {
+          "canonical_sha256": "f941f7f5008df5b739f499a8911c28962eb1754041fcd5bfaebfdae1fc8608b0",
+          "blob_sha256": "1737192cb48e9c4bb5c79eb8a477a2c1e237c617cb8b191cbcb93604e2345a1c"
+        },
+        "state/scripture/58c58c0bfa4942ca5bc4bd1206f19ec6736acc62e35766d92a7d60992c42117a.json": {
+          "canonical_sha256": "58c58c0bfa4942ca5bc4bd1206f19ec6736acc62e35766d92a7d60992c42117a",
+          "blob_sha256": "5bc77729d09e8e383920dddb02175498ca9a8668a134ff48804b98267f7c1b61"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/attempts/translate.json": {
+          "canonical_sha256": "b924d26dba1beabbe30cddd277408046e6584d9ac6c782463bd0d26efa4f82fc",
+          "blob_sha256": "60d8eaa11c66832a5b6f168c5dba976e5d017afca3d8afa67a2d507c128f6ad0"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/attempts/correct.json": {
+          "canonical_sha256": "5d709f1c0c7424d5b4fe674f308428c68d3e4e886bcdba451ef6ee3136365c99",
+          "blob_sha256": "6ff401e1430c209e605b02b53cbb367ed6f16404463365c933d4c429c5d6e81d"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/decisions/correct.json": {
+          "canonical_sha256": "37443dea649593661fe93021735cf273b38347859902e0b2205c7e52170bcf1e",
+          "blob_sha256": "a34e6b69f22ef9121bdcceed375663b06d9ae1f2bc2b6a82e9be178d6b3dff2c"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/decisions/terminal.json": {
+          "canonical_sha256": "6f34538faae3be0b8a7097a902859a97d727bd8ec13f9bf10bea1a1c40b95516",
+          "blob_sha256": "14dd51a259608fa849d36078fb449c8438f8ec2faed2bb5223ba9ae9e50918ff"
+        },
+        "state/tasks/4d74894e2bdfe2a834b3471b0d52dc1c/candidate.json": {
+          "canonical_sha256": "7db3cfc6c151b5b5b9af2f092fd0cecea7627492c30bb96ef29e205e0839d390",
+          "blob_sha256": "96b1f27af0eba5d4c98834ad04f3bb31792f4bfc9115632d89eec1384f9d5e72"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "7082acad6e13f4b7090233e5485890e9",
+      "language": "swe",
+      "title": "Joey’s Downfall",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "52c4113262b31b016aa69a004cba98501ef7f4f0cf39e62706dfe8faf472bc4f",
+        "content_bytes": 4601
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/task.json": {
+          "canonical_sha256": "21a0df80164885abbea4ecdb116b95a3d6153b44e35a9955c380ce74fd61b233",
+          "blob_sha256": "957739338bedb94e8e32670c3b9e28026d147dc608678f50119cff8da5933f70"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/results/correct.json": {
+          "canonical_sha256": "54e96e37dcf85f234fef77643a302b2f0f9908d1e2e42274795d3e798c4a4018",
+          "blob_sha256": "1fb1e7e9d9429f16aacd756b81bf52f201f3948c2d03b72354db2860f0805e6a"
+        },
+        "state/scripture/d7b1ac9302587f0cd14b80045cf5eaafba1ae942c5d44a0eeb62236b549130a3.json": {
+          "canonical_sha256": "d7b1ac9302587f0cd14b80045cf5eaafba1ae942c5d44a0eeb62236b549130a3",
+          "blob_sha256": "abcbc75b21541f19b319f8eb6cf968d4828624c45fd209240fc97a9a124a1f93"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/attempts/translate.json": {
+          "canonical_sha256": "a114bd4a42c0aa4ae99373c23f4d74a1c468c4cac3ee2ce8b4f6f4772d8d552a",
+          "blob_sha256": "bd1c393017c73fd4049f161f18057b1a30153848c4809e356bce985c52c9272f"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/attempts/correct.json": {
+          "canonical_sha256": "4a85c2301c9a7b5db0cf931c765624e73d74e944f340a440606e379a7917be95",
+          "blob_sha256": "6f89a468e44d650b899792f1354b750d1576e1c70bd74f36bb0b68a7da93e5a1"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/decisions/correct.json": {
+          "canonical_sha256": "5f8cc1f11c4f8cf75fea8e1bfc101aede54329c7ecb1eaed3c4d4abf1fd96c33",
+          "blob_sha256": "45e22230612ed92d56c2ef92f68a881b757acda3ad61ea7a0904e90dbc5d1647"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/decisions/terminal.json": {
+          "canonical_sha256": "3fb22de789fbfd387478f1b5a0e36220952bb709055a9a0d80c2d21bbe0d1367",
+          "blob_sha256": "a70358ccf9e06887018d3a68c15bd6e032428bfa2221e662204bdbf658758c05"
+        },
+        "state/tasks/7082acad6e13f4b7090233e5485890e9/candidate.json": {
+          "canonical_sha256": "f1aee9253c28420ff3a06be3235a2308c37e0b134f189c90b6fc3051012cd3f0",
+          "blob_sha256": "408bf6a82ae6e0d130b003387dacdfa3d19fb1925b1d93b907e4290fe33edd04"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "367a78b10e3f0e36a4a1fa6d80def5c4",
+      "language": "nob",
+      "title": "Joey’s Downfall",
+      "classification": "exact_text_with_reference_parser_blocker",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "f3002b8e2f17099c2c8ddbbe063caad29641c3e5a3cec5e92c8bd6952b49106a",
+        "content_bytes": 4605
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/task.json": {
+          "canonical_sha256": "dde56410196a066c85fc3f6a67cc698edc9b53b0b1f1d572384992342ac3c0ad",
+          "blob_sha256": "b80f087068161562a85008b4e842b6e5a65b86d45828f7094ec76ecb0ac07b14"
+        },
+        "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json": {
+          "canonical_sha256": "adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd",
+          "blob_sha256": "39c5c6223facee2bff7bc7d331093e39cf9d58b8f754f08f2075e4962501b2ff"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/results/correct.json": {
+          "canonical_sha256": "6f50f31282465fbea96a1de7a3eff5d189adef8b604ef15c2fd51e087d8e6752",
+          "blob_sha256": "37d2485645f293b88aa738ac52548f1ef564d96d4da54cd13203ba013c3628ff"
+        },
+        "state/scripture/3169880587c74f3a3d4ddfb1b968236bbbfcdf520f8c2313065e37134db84175.json": {
+          "canonical_sha256": "3169880587c74f3a3d4ddfb1b968236bbbfcdf520f8c2313065e37134db84175",
+          "blob_sha256": "bf16036e7c896b3b5615f161efae8133734af6e362e81ffd404262c95f47c4fc"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/attempts/translate.json": {
+          "canonical_sha256": "196310cec236ecfc179548c2a7f9498586d68d75740c272231ad0a05e51699b5",
+          "blob_sha256": "f89face1bb77e7517298294aa5e25a720d305b018a7e5f094bf0910f7d7d8903"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/attempts/correct.json": {
+          "canonical_sha256": "3d57c019a836c061189b373ce5bc05e3a2e3aec6ea0e3572e91a46a255b79025",
+          "blob_sha256": "a50ebe7499a51689228a73a6721a10ceb8bbcb4f70efd108995b94dba250ac01"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/decisions/correct.json": {
+          "canonical_sha256": "5f8cc1f11c4f8cf75fea8e1bfc101aede54329c7ecb1eaed3c4d4abf1fd96c33",
+          "blob_sha256": "45e22230612ed92d56c2ef92f68a881b757acda3ad61ea7a0904e90dbc5d1647"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/decisions/terminal.json": {
+          "canonical_sha256": "8fcdad5dd3b7e753d36cc27d7075ac1c111d7e4296cf66dcc12b1bd5aff679c8",
+          "blob_sha256": "a48fadb22600cc14ec23246bf3dab0d2d6f29d60d1ec715d27c8858ed4dd7dbd"
+        },
+        "state/tasks/367a78b10e3f0e36a4a1fa6d80def5c4/candidate.json": {
+          "canonical_sha256": "0c105880cc52ce762802cfa63d624892b263f3e528f6693c4bb2126913786932",
+          "blob_sha256": "5f9a29ecc3197fc6a737b2c9d4a79678ede3fb10d5c11ace0ba297a19191fd6f"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "912aa761fcc7a0482fc467066d5fd43d",
+      "language": "heb",
+      "title": "When Mothers Concede",
+      "classification": "reference_parser_only",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "7b2811a5c3bb44dfae5ec9f6d908da220c7713cf334eddd956500f8e7b1e23b9",
+        "content_bytes": 14307
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/task.json": {
+          "canonical_sha256": "243ea79c1857df436b1c5797a45d2bc92ad5f9229b6e539ea65daa676420b118",
+          "blob_sha256": "0804d589630801e3592a1b5c3d62546a90579ae3cc5b2e4b73331b1514a7b34e"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/results/correct.json": {
+          "canonical_sha256": "057a9246b59e67181298281fde5c1552ba94f9faf5256ac0bb53b85aa740ca3a",
+          "blob_sha256": "67fbc6607232250b90a5ce6576cd768f0b9506555702891528818d7eb8f49e2d"
+        },
+        "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json": {
+          "canonical_sha256": "384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c",
+          "blob_sha256": "57bef06b73374e31ff6f3eee4095944bf4d138f775f7ddc9a270a6307b123062"
+        },
+        "state/scripture/683659aebbac960b81576ed207d59c53e5963734c1f43a08b355ffa9e5f0a70b.json": {
+          "canonical_sha256": "683659aebbac960b81576ed207d59c53e5963734c1f43a08b355ffa9e5f0a70b",
+          "blob_sha256": "a82284ddd2d28c7abce300d8da12994eb9ee64f57c10e3d042886b87768f468b"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/attempts/translate.json": {
+          "canonical_sha256": "12eb1b5fce5d14bc4e8e07465891e6479fde117f3c484f980a9d323a5cce6c9a",
+          "blob_sha256": "88eccfa6f3cba5db0c797f39c3a1d00c44bddb05bac71db33e4b1c1bab00a536"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/attempts/correct.json": {
+          "canonical_sha256": "8e6a325f0144fc3b89885a826d6ef3163029827ea7ec3e84cc3fe9d9d5a3a0b7",
+          "blob_sha256": "77556c73c76fce135ccef5937d0f0f0bd40045463a0c9308b09b2c1efa2a1859"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/decisions/correct.json": {
+          "canonical_sha256": "d23933ade8c76e5de615d2bc9be778fbf42c1aabb7bc9fdd6de5f734ee337441",
+          "blob_sha256": "d3e06be4c283ffc26b9226fa940b7b9d4460531aabba9b92bec19a4fc240304f"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/decisions/terminal.json": {
+          "canonical_sha256": "23c94f599a45b21445367d748a396ec816af33fa79526e8807d7dd6516ed1467",
+          "blob_sha256": "0c12d33396d52275d7e82b97dc7182de34960203ad565084a30bc52b814ccabb"
+        },
+        "state/tasks/912aa761fcc7a0482fc467066d5fd43d/candidate.json": {
+          "canonical_sha256": "e3ad88d0ca0725be61a6abb7d6e4d175abc0e66aa9942848f543a8c43666f69a",
+          "blob_sha256": "9c2ca274d910158dc70782dc244dd686608765e09beb76025f23e19aaa37f62b"
+        }
+      },
+      "expected_v2_deterministic_pass": true
+    },
+    {
+      "task_id": "8bcf3639c7192e7b7cd0467e784c73e1",
+      "language": "cmn",
+      "title": "A Princess of God",
+      "classification": "line_break_structure_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "cc10ea077ecf40893be764154fd4a28b4c30464008241abd6d7d7c1abd9b2bb6",
+        "content_bytes": 1093
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/task.json": {
+          "canonical_sha256": "407a26abdcd610b2b85082b70e7aed5d61becab2451d4efd0aa4be8166c0aca5",
+          "blob_sha256": "3bb799be26fe20a17018fedac958d46e511c9996ab07ca069a74d009de921ba0"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/results/correct.json": {
+          "canonical_sha256": "34760d6bb0bafb3ea1f0c0148b15db2cf1141b959047748e0d290f431659f1a2",
+          "blob_sha256": "21f6cce50b1669937585222e91c5e00215df1baea1db635f1ea28f44b8bf679f"
+        },
+        "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json": {
+          "canonical_sha256": "7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17",
+          "blob_sha256": "1fc82f2dfb662ca9d9d3373ca6e4207d73d32d12f8b15ec236a2004882c04ff4"
+        },
+        "state/scripture/07397721ffbf39633c54e9406b2a10075601de5af491c139425616ae15234471.json": {
+          "canonical_sha256": "07397721ffbf39633c54e9406b2a10075601de5af491c139425616ae15234471",
+          "blob_sha256": "ab1263d31aae767bee629bf5f34111d66b33dc1cfffa94fae37fb314635b4459"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/attempts/translate.json": {
+          "canonical_sha256": "fa4926d035e3708b7a1c73640fa4d0b91b854303b1a0555cef8ec140bd109de5",
+          "blob_sha256": "bd7ea3bf9ec0ca74c8f7d57b5ab274f8db64442ae848e299f846f1787f958450"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/attempts/correct.json": {
+          "canonical_sha256": "ad56128ed1e27e6d68e5704add8ce7a5c32f75c22d892bc29cdd44a6c504950f",
+          "blob_sha256": "bd5783e30e0a0974eb1c7d589d2d2eca6ea4390f88580bf41ec53dc10fdaf0e6"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/decisions/correct.json": {
+          "canonical_sha256": "5b0d8e9836d715e87126310b0f7b7ea576f1464cf63a945b8fa707042c44ae6b",
+          "blob_sha256": "90f81545b625c2f72f0a838f595aa056135ada4f174650dbfe46500c512ad1d6"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/decisions/terminal.json": {
+          "canonical_sha256": "b749460fdfeaa90dc97b175ec6b9514f522210310b31b6d92ddc2c72aeb81706",
+          "blob_sha256": "d9667d75188dfec7b0e04587585a477c3bd38c5238bd56d295a7f9693ec9cb6f"
+        },
+        "state/tasks/8bcf3639c7192e7b7cd0467e784c73e1/candidate.json": {
+          "canonical_sha256": "6623350a925e5c5513be4435c107852219e45320dc65a279c71bb65fb1b336af",
+          "blob_sha256": "a5d74a2e1aa76330ecbe6ec694bb0cb8d63d79d9afbc9ab880c15e3262f1ba85"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    },
+    {
+      "task_id": "4dd8bb6ea7df33bad423b55158c31db2",
+      "language": "rus",
+      "title": "A Princess of God",
+      "classification": "line_break_structure_changed",
+      "attempt": {
+        "outcome": "structured_response",
+        "finish_reason": "stop",
+        "content_evidence_truncated": false,
+        "content_sha256": "54f01ea8f7f0b1de7dc10bc311447ceb5915f60de2e3a05791481c8d3473702f",
+        "content_bytes": 1510
+      },
+      "translation_attempts": 2,
+      "review_attempts": 0,
+      "artifacts": {
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/task.json": {
+          "canonical_sha256": "c54e77e16647161c8cfbd40b22e5772d33759c1acd175ccd44a4a2235b3ba9e2",
+          "blob_sha256": "bc303adb12afafc66aa8be9e2b4d12791cb911b1f7834c7ef33183a055717ae4"
+        },
+        "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json": {
+          "canonical_sha256": "7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17",
+          "blob_sha256": "1fc82f2dfb662ca9d9d3373ca6e4207d73d32d12f8b15ec236a2004882c04ff4"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/results/correct.json": {
+          "canonical_sha256": "c2c0e991f20bb097b5b2c753cb9d7e61451468e7e77b3af832b7b842433b27c1",
+          "blob_sha256": "de49b9a7370577374c9c1415b92e9a664f98db7476be60e5db4a19a5519efd4b"
+        },
+        "state/scripture/05cadf6d2d1801983b25c5b309d4f3348d684e30a2e4f5438db6a5729bcc1e47.json": {
+          "canonical_sha256": "05cadf6d2d1801983b25c5b309d4f3348d684e30a2e4f5438db6a5729bcc1e47",
+          "blob_sha256": "7bdbd28fc4d3d84cca86aec35026d5b20299b2da7d35e4354c9c8abe94361db7"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/attempts/translate.json": {
+          "canonical_sha256": "ea79c82611656b1504b5fa06f822b8ccb12895c8d0d47f4c12aba75dd3552d84",
+          "blob_sha256": "2d4a22d76892ddf2cfd294efa34d16bf5200a0504b92f83e5e179b362ab5bd8f"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/attempts/correct.json": {
+          "canonical_sha256": "0778fce6ceb8faf0748379cec88b0ed95e69e8b047bafb4544791510393a6d97",
+          "blob_sha256": "4f1e7a8a4bc844b4734c2c1b4acd63206f43b5cac163a2ce6622f0a81da23f68"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/decisions/correct.json": {
+          "canonical_sha256": "e53132aee3ad1ab5f1ff27f20f24bfc732e891e0eeb61420a740cf22a7ac4439",
+          "blob_sha256": "b5687931d8b7d106a09ac1aff2174b9bea788b47d3d51561c7404f3446e78048"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/decisions/terminal.json": {
+          "canonical_sha256": "1de871529c8a7de7f274cfb83ac29943956ed80ce733b359d20a3bf61ae838bf",
+          "blob_sha256": "9b596e26f5264384a13132c8161d33c83c8d0ed311f6e12b95756d51d01bafd3"
+        },
+        "state/tasks/4dd8bb6ea7df33bad423b55158c31db2/candidate.json": {
+          "canonical_sha256": "c60260e2d5e970a12798c8a7c6cd17126d9237636f00a02991ac3ddb81606159",
+          "blob_sha256": "7856ff9119ca590efab06358ce7235246be02f53816b880755e874142af89602"
+        }
+      },
+      "expected_v2_deterministic_pass": false
+    }
+  ],
+  "local_probe_sha256": {
+    "audit.py": "120861ecac445fe4018a5313037b38ae749e54ad67cdef3f4198877358be3f5e",
+    "diagnostics.py": "0702bf67f133820fe5a8cb4623f7e8710b1e7f88e50a41cfa9527b4c8f4dd513"
+  },
+  "scope": "Read-only full archived corrections; v2 opt-in exists only in test overlays. No saved hold is released.",
+  "normalization_version": "2"
+}
