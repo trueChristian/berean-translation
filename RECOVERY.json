@@ -5,12 +5,10 @@
   "committed_usd": 6.0,
   "counts": {
     "already_translated": 108,
-    "ambiguous_quote_reference": 6,
+    "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
     "eligible_automatic": 1372,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "missing_edition": 4,
-    "pending_automatic_admission": 7,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
     "technical_failure_requires_attention": 63
@@ -406,10 +404,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "afr",
       "latest_task": "eb144386d61b24476fb6da10455022e3",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-4384a92dd92024f0eda12c014a7bf654f2e1efee269f04f07f687fb5000fc112"
     },
     {
@@ -1175,7 +1174,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ara",
       "latest_task": "8e81c0c9b48d0d0da7ee2d248fd08bdc",
       "processing_status": "pending",
@@ -1809,11 +1808,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged.",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ben",
       "latest_task": "ac62bcd14c4cfd48776d7a6cfd80a7e1",
       "processing_status": "pending",
-      "reason": "missing_edition",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-2fd7d747f21de72259d16e2403abadf6a1500ae0eea59107d4c8f72dc4f4dab5"
     },
     {
@@ -2587,7 +2586,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "cmn",
       "latest_task": "066ef6704fda5f50904913f8b5aa5bd4",
       "processing_status": "pending",
@@ -3349,7 +3348,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "deu",
       "latest_task": "a8f6a52036881b4154fedd9f802d1acf",
       "processing_status": "pending",
@@ -4591,7 +4590,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "fra",
       "latest_task": "70ee4a875031df7b6f2f104eff487aca",
       "processing_status": "pending",
@@ -5465,10 +5464,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "heb",
       "latest_task": "85f98fedd784f5a78c859c5d0fa6107e",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba"
     },
     {
@@ -6234,11 +6234,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged.",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "hin",
       "latest_task": "c8cddc5e3bfb16a5a73b8f42c0e99875",
       "processing_status": "pending",
-      "reason": "missing_edition",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-cef7240828f36e56fe1ad717ac9a8d61dff9493d7cfb70eccd56c98b4ff307a4"
     },
     {
@@ -6820,11 +6820,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: missing_edition: id: No matching translation in the checked catalog; references remain unchanged.",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ind",
       "latest_task": "a79683e07e21195a69f702c4413665fa",
       "processing_status": "pending",
-      "reason": "missing_edition",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-ba6126afaa173226c6b5981603082cc37985badb6eb07aac6af62adb85e9f051"
     },
     {
@@ -7310,10 +7310,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ita",
       "latest_task": "06305a69d2bee39fe168bcafcf4f6d6a",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-18cacf9c2a1139ee72c8c857b7ddc865523dcf09bc86c50b85a97ca5b1a961dd"
     },
     {
@@ -7887,10 +7888,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "kor",
       "latest_task": "1e3d895db7ae50edcb40c725d1d0f4b1",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-ba96dcb4001acee68b232f3255bfdf18e21dbb4ae86b42e3958d3885dbfe5bfe"
     },
     {
@@ -8424,7 +8426,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "nld",
       "latest_task": "04a9f0a8bc8459f7701054ae0bb1422b",
       "processing_status": "pending",
@@ -8970,10 +8972,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "nob",
       "latest_task": "985ede1a5224ab07728d98cff034dd2a",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-15660960cb48c58881d83870ec22c083b01b311224b37bbe7d122ebe9f05fd21"
     },
     {
@@ -9947,7 +9950,7 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "rus",
       "latest_task": "2368281374cd1a7b8e106bbb1cf51561",
       "processing_status": "pending",
@@ -11141,10 +11144,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "swa",
       "latest_task": "2ea1c1aae4fa121dad8157b73e36f015",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-d031a7123b61e922a621da540403199bb1181dd915bc5c1842d1236b70eb721f"
     },
     {
@@ -11838,10 +11842,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "swe",
       "latest_task": "eb1800bc443963440849181748d35f52",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-ba4e42f56fe59e04685b00d40578898651928113e03bad0cbea58976a9f58ade"
     },
     {
@@ -12503,11 +12508,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "urd",
       "latest_task": "133fb840bb82e74457a4b035d394c570",
       "processing_status": "pending",
-      "reason": "missing_edition",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460"
     },
     {
