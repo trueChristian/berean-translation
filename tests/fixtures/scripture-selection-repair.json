@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "repository": "trueChristian/berean-translation",
+  "source_commit": "17ab829f0c2179898ff28de0ba22e25035287696",
+  "provenance": "Full immutable provider results, frozen evidence and English snapshot are already tracked under the paths below. Tests use canonical JSON hashes and an in-memory overlay; no production state or accepted history is rewritten. The new policy is opted into only in the overlay.",
+  "cases": [
+    {
+      "task_id": "25208c78b2f979028095f9fb719c88dd",
+      "language": "heb",
+      "task_path": "state/tasks/25208c78b2f979028095f9fb719c88dd/task.json",
+      "result_path": "state/tasks/25208c78b2f979028095f9fb719c88dd/results/correct.json",
+      "result_sha256": "7a15d87c25e3cade33ba3e47fae5139b53b439d6f198eb5fdfa6701b954ab4bd",
+      "evidence_path": "state/scripture/a7018be3a61d43b3edd46efd6c926cd7c8b97d08fe947790eafc957cd45e159d.json",
+      "evidence_sha256": "a7018be3a61d43b3edd46efd6c926cd7c8b97d08fe947790eafc957cd45e159d",
+      "source_path": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+      "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+      "recoverable_metadata": true
+    },
+    {
+      "task_id": "c7527dd4a0a44a563e33017e57b5df42",
+      "language": "kor",
+      "task_path": "state/tasks/c7527dd4a0a44a563e33017e57b5df42/task.json",
+      "result_path": "state/tasks/c7527dd4a0a44a563e33017e57b5df42/results/correct.json",
+      "result_sha256": "ddd020c07d6cd5d7b4d908808b3ab3f4ac6a2f9da9d5592de34c44308d0bd0a3",
+      "evidence_path": "state/scripture/5391d361baaa243f7cd4944719b678d07cfbdd0508ae565a302b71105f776501.json",
+      "evidence_sha256": "5391d361baaa243f7cd4944719b678d07cfbdd0508ae565a302b71105f776501",
+      "source_path": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+      "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+      "recoverable_metadata": true
+    },
+    {
+      "task_id": "09c40d7b604a067de6878ec559753976",
+      "language": "nob",
+      "task_path": "state/tasks/09c40d7b604a067de6878ec559753976/task.json",
+      "result_path": "state/tasks/09c40d7b604a067de6878ec559753976/results/correct.json",
+      "result_sha256": "9b9b16be1b71df5c8db57fbba887a2280b31688044f89a48d540ad3b22d7ce5d",
+      "evidence_path": "state/scripture/89a30136bb3822410122fbdd8d73ba1c219bbdad53dd607c695783e69c812811.json",
+      "evidence_sha256": "89a30136bb3822410122fbdd8d73ba1c219bbdad53dd607c695783e69c812811",
+      "source_path": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+      "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+      "recoverable_metadata": true
+    },
+    {
+      "task_id": "28efa5c074274d178f2b3aa4bb8ada6b",
+      "language": "fra",
+      "task_path": "state/tasks/28efa5c074274d178f2b3aa4bb8ada6b/task.json",
+      "result_path": "state/tasks/28efa5c074274d178f2b3aa4bb8ada6b/results/correct.json",
+      "result_sha256": "74bcef746a4c0426d3b7593bbad6f5319c9d72b05728ec879df485d9ff168479",
+      "evidence_path": "state/scripture/98493015bbe36e523417a9ea2f04bf3f1146564545c74011b46607c472517747.json",
+      "evidence_sha256": "98493015bbe36e523417a9ea2f04bf3f1146564545c74011b46607c472517747",
+      "source_path": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
+      "source_sha256": "43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602",
+      "recoverable_metadata": false
+    }
+  ]
+}

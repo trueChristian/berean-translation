@@ -81,6 +81,36 @@ cross-block associations can need attention. Human-controlled article/language
 pairs are excluded before fetching and from all subsequent AI paths; this policy
 never applies AI citation gates to human edits.
 
+## Deterministic selection metadata recovery
+
+New campaigns freeze `selection_normalization_version: "1"`. When a response's
+selection coordinates fail, this permits a bounded metadata-only reconstruction
+for a complete, delimited quotation. The response must identify the same quote,
+original block and complete ordered verse inventory. The exact complete frozen
+target text must occur once in that block and occupy one whole quoted scope.
+Every normal identity, word, occurrence, HTML and independent-review gate still
+applies. No article text is changed and no model request is added.
+
+The audit retains a canonical normalization-input hash, original selections,
+original failure and reconstructed claims. The input is a provider result or an
+application-assembled adopted candidate/claims pair. Validation recomputes the
+proof and checks the archived provider result whenever one exists. Partial quotations, ellipses, ambiguous matches,
+changed/missing words, changed verse inventory and oversized audits remain held.
+Older campaigns retain their frozen policy and request bytes; terminal holds are
+not reopened. New instructions also preserve a source clock's printed hour and
+minute when AM/PM is absent, rather than inferring a twelve-hour conversion.
+
+Output quote scopes ignore only whitespace immediately inside their delimiters,
+such as French `« text »` padding. Internal spaces, words and punctuation remain
+exact, and neither candidate nor frozen source text is rewritten.
+
+The October 5, 2026 fixtures preserve complete Hebrew, Korean and Norwegian
+responses whose Bible text was already exact but whose numeric offsets were
+wrong. These pass deterministic replay after an in-memory opt-in; no semantic
+approval or paid retry is implied. The French response selects Martin 12:3–9
+against frozen Ecclesiastes 12:1–7 evidence and remains an attention hold. This
+change does not invent a cross-edition verse correspondence.
+
 ## Integration and bounds
 
 `policy(config.root)` returns the frozen campaign contract and prompt addendum.
