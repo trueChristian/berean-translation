@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa6f8c2f-82f0-411e-ad17-1331584a3783",
+    "response_id": "chatcmpl-EW2bMcRLZ0XqLSEgsfi5RuDtaP4LU",
+    "usage": {
+      "completion_tokens": 949,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 404,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8392,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10880
+    }
+  },
+  "received_at": "2026-10-06T21:19:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html: the five quoted Scripture passages in paragraphs 18, 20 (two passages), 21, and 27",
+        "severity": "major",
+        "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); “...that, denying ungodliness and worldly lusts, we should live soberly...” (Tit 2:12).",
+        "suggested_fix": "These are genuine quoted Scripture passages, but scripture_evidence contains no corresponding quote entries and scripture_selections is empty. Obtain the required approved evidence for these quotations, then replace each quoted passage with the exact corresponding target-edition substring(s), preserving its omissions, ellipses, reference identity, placement, and HTML structure. Supply one scripture_selections item per evidence quote; do not generate Scripture wording without the evidence.",
+        "translation_quote": "“... det er bedre for deg å gå inn i Guds rike med ett øye ...” (Mark 9:47); “Men la det være hjertets skjulte menneske ...” (1 Pet 3:4–5); “... ve det mennesket som forårsaker fallet!” (Matt 18:7); “Hvem er vis og forstandig blant dere?” (Jak 3:13); “... at vi skal fornekte ugudelighet og verdslige lyster ...” (Tit 2:12)."
+      },
+      {
+        "location": "source.html and translation.html: paragraph 21",
+        "severity": "major",
+        "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty, both inside and out.”",
+        "suggested_fix": "Replace «De konservative menighetene som helhet» with «De enkle menighetene som helhet» (or another contextually appropriate Norwegian equivalent for “plain churches”), preserving the rest of the sentence.",
+        "translation_quote": "«De konservative menighetene som helhet er på en fryktelig kurs mot større usømmelighet, både innvendig og utvendig.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 72
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, /article[1]/p[18] (Mc 9:47)",
+      "severity": "major",
+      "source_quote": "…it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding contiguous wording for this quotation in scripture_selections; do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "…é melhor entrar no reino de Deus com um olho só do que, tendo dois olhos, ser lançado no fogo do inferno –Mc 9:47. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[20] (1Pe 3:4–5 and Mt 18:7)",
+      "severity": "major",
+      "source_quote": "But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves… –1Pe 3:4-5. …woe to that [wo]man by whom the offence cometh! –Mat 18:7.",
+      "suggested_fix": "Obtain approved target-language text for both cited passages and select the corresponding words, preserving the source omissions, ellipses, and references in scripture_selections; do not invent replacement Scripture wording without that evidence.",
+      "translation_quote": "Mas que o adorno seja o homem interior do coração, no incorruptível traje de um espírito manso e tranquilo, que é de grande valor diante de Deus. Pois assim também se adornavam antigamente as santas mulheres que esperavam em Deus… –1Pe 3:4-5. …ai daquele [daquela] por quem vem o tropeço! –Mt 18:7. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[21] (Tg 3:13)",
+      "severity": "major",
+      "source_quote": "Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom –Jas 3:13.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding wording in scripture_selections; the supplied lookup is for the English KJV and does not establish approved Portuguese wording.",
+      "translation_quote": "Quem é sábio e entendido entre vocês? Que mostre, por seu bom procedimento, suas obras em mansidão de sabedoria –Tg 3:13. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[27] (Tt 2:12)",
+      "severity": "major",
+      "source_quote": "…that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world –Tit 2:12.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding wording in scripture_selections; do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "…que, renunciando à impiedade e às paixões mundanas, vivamos neste presente século de maneira sóbria, justa e piedosa –Tt 2:12. (scripture_selections is empty)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

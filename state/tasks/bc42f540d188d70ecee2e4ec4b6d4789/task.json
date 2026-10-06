@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:36+00:00",
   "events": [
@@ -65,18 +64,61 @@
         },
         "total_tokens": 12991
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 484,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9659,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8120,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10921
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html /article[1]/p[18], p[20], p[21], p[27] (scripture quotations; corresponding translated paragraphs)",
+      "location": "source.html and translation.html, /article[1]/p[18] (Mc 9:47)",
       "severity": "major",
-      "source_quote": "Direct Scripture quotations are present at Mark 9:47 (“…it is better for thee to enter into the kingdom of God with one eye…”), 1 Peter 3:4–5 (“But let it [the adornment] be the hidden man of the heart…”), Matthew 18:7 (“…woe to that [wo]man by whom the offence cometh!”), James 3:13 (“Who is a wise [wo]man and endued with knowledge among you?”), and Titus 2:12 (“…that, denying ungodliness and worldly lusts…”).",
-      "suggested_fix": "Obtain the required approved Portuguese verse evidence for each quotation and revise the corresponding translated quotations to use only the matching target-verse words, preserving the source’s partial-quote boundaries, ellipses, attribution, and exact references. Do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "The corresponding Portuguese quotations are present in p.18 (“…é melhor entrares no reino de Deus…”), p.20 (“Mas seja o homem encoberto no coração…” and “…ai daquele [daquela]…”), p.21 (“Quem dentre vós é sábio e entendido?”), and p.27 (“…que, renunciando à impiedade…”); scripture_evidence.quotes is empty and scripture_selection_audit.selections is empty."
+      "source_quote": "…it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding contiguous wording for this quotation in scripture_selections; do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "…é melhor entrar no reino de Deus com um olho só do que, tendo dois olhos, ser lançado no fogo do inferno –Mc 9:47. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[20] (1Pe 3:4–5 and Mt 18:7)",
+      "severity": "major",
+      "source_quote": "But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves… –1Pe 3:4-5. …woe to that [wo]man by whom the offence cometh! –Mat 18:7.",
+      "suggested_fix": "Obtain approved target-language text for both cited passages and select the corresponding words, preserving the source omissions, ellipses, and references in scripture_selections; do not invent replacement Scripture wording without that evidence.",
+      "translation_quote": "Mas que o adorno seja o homem interior do coração, no incorruptível traje de um espírito manso e tranquilo, que é de grande valor diante de Deus. Pois assim também se adornavam antigamente as santas mulheres que esperavam em Deus… –1Pe 3:4-5. …ai daquele [daquela] por quem vem o tropeço! –Mt 18:7. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[21] (Tg 3:13)",
+      "severity": "major",
+      "source_quote": "Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom –Jas 3:13.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding wording in scripture_selections; the supplied lookup is for the English KJV and does not establish approved Portuguese wording.",
+      "translation_quote": "Quem é sábio e entendido entre vocês? Que mostre, por seu bom procedimento, suas obras em mansidão de sabedoria –Tg 3:13. (scripture_selections is empty)"
+    },
+    {
+      "location": "source.html and translation.html, /article[1]/p[27] (Tt 2:12)",
+      "severity": "major",
+      "source_quote": "…that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world –Tit 2:12.",
+      "suggested_fix": "Obtain the approved target-language verse text and select the corresponding wording in scripture_selections; do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "…que, renunciando à impiedade e às paixões mundanas, vivamos neste presente século de maneira sóbria, justa e piedosa –Tt 2:12. (scripture_selections is empty)"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "bc42f540d188d70ecee2e4ec4b6d4789",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "por",
@@ -165,7 +207,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +215,7 @@
   "scripture_evidence_sha256": "0d90c3201f9bd2e97ca41cee4cff885d3ec40ca89cbe3adfe645e379ce4909ef",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

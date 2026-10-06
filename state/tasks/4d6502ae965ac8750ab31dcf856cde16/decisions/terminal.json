@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]; scripture_evidence.quotes is empty and scripture_selection_audit.selections is empty",
+      "severity": "major",
+      "source_quote": "The article contains printed Scripture quotations identified by the references Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
+      "suggested_fix": "Have these Scripture quotations identified in the evidence and checked against approved target-language verse text, with the required selections recorded for each quote. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "The corresponding translated quotations appear in the cited paragraphs, but none has an evidence quote or scripture selection."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:52+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 13597
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 493,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10001,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8462,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10842
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations: /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], /article[1]/p[27]",
+      "location": "source.html /article[1]/p[4]",
       "severity": "major",
-      "source_quote": "Printed Scripture quotations with references: “...Mar 9:47”; “...1Pe 3:4-5”; “...Mat 18:7”; “...Jas 3:13”; “...Tit 2:12.”",
-      "suggested_fix": "Provide the required frozen scripture_evidence entries for these five quotations and review each Swedish quotation against its exact approved target_verses text, preserving the source ellipses, meaning, and reference identity. Do not invent or substitute Scripture wording without that evidence.",
-      "translation_quote": "Swedish Scripture quotations appear at the corresponding locations; scripture_evidence.quotes and scripture_selection_audit.selections are both empty."
+      "source_quote": "“When I was a young woman, I didn’t struggle with wanting to wear perfume or jewelry or even make-up.”",
+      "suggested_fix": "Ändra till exempelvis: ”När jag var ung kvinna kände jag ingen längtan efter att använda parfym, smycken eller ens smink.”",
+      "translation_quote": "”När jag var ung kvinna hade jag inte svårt att avstå från parfym, smycken eller ens smink.”"
+    },
+    {
+      "location": "source.html /article[1]/p[18], /article[1]/p[20] (två citat), /article[1]/p[21] och /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "Fem citerade bibelställen: Mark 9:47; 1 Pet 3:4–5; Matt 18:7; Jas 3:13; Tit 2:12.",
+      "suggested_fix": "Komplettera scripture_evidence och scripture_selections för samtliga fem citat enligt den angivna måltexten och kontrollera att de svenska citaten återger exakt rätt verser och de tryckta utelämningarna. Syntetisera inte bibeltext eller använd en engelsk reservtext.",
+      "translation_quote": "De fem bibelcitaten finns översatta i texten, men scripture_evidence.quotes och scripture_selections är tomma."
     }
   ],
+  "finished_at": "2026-10-06T21:19:55+00:00",
   "id": "07d3dd29eac8ab4a65a76d6974372856",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swe",
@@ -165,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +201,7 @@
   "scripture_evidence_sha256": "a9f6c5bfb93e202b6d277effdbec1fadbe105aa7e3081d2d5909a4457d466127",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html: paragraph containing Mark 9:47, 1 Peter 3:4–5, Matthew 18:7, James 3:13, and Titus 2:12",
+      "severity": "major",
+      "source_quote": "The article contains Scripture quotations at “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge...” (Jas 3:13); and “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the required Scripture evidence and selections for each quotation, then replace each quoted passage with the corresponding approved Hindi verse wording while preserving the source’s partial-quote boundaries, ellipses, references, and HTML structure. Do not invent Scripture text or use an English fallback.",
+      "translation_quote": "The corresponding passages are rendered as Hindi Scripture quotations, including “...दो आँखें रहते हुए नरक की आग में डाले जाने से अच्छा है...” (मरकुस 9:47) and “...कि हम अभक्ति और सांसारिक अभिलाषाओं से मन फेरकर...” (तीतुस 2:12); scripture_evidence.quotes and scripture_selection_audit.selections are both empty."
+    },
+    {
+      "location": "source.html and translation.html: paragraph beginning “If the mothers and women who once chose to abstain...”",
+      "severity": "major",
+      "source_quote": "“the future modesty of our churches” and “a terrible slide of immodesty”",
+      "suggested_fix": "Use Hindi wording that conveys modesty and immodesty in dress/conduct, rather than shyness and obscenity—for example, “भविष्य की मर्यादा” and “अशालीनता की भयानक ढलान,” adjusted naturally to the sentence.",
+      "translation_quote": "“भविष्य की लज्जाशीलता” and “अश्लीलता की एक भयानक ढलान”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

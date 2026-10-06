@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; cited quote Joel 2:25a",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "Treat this printed phrase as a partial Scripture quotation and provide its approved target-verse evidence and corresponding scripture_selection. Then replace only the quoted phrase with the exact semantically corresponding contiguous substring from the approved target verse, preserving the brackets/ellipsis treatment and the reference’s identity and placement. Do not invent or paraphrase Scripture wording.",
+      "translation_quote": "“归还蝗虫所吃掉的那些年岁！”（约珥书 2:25a）; scripture_selections: []"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

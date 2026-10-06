@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I am proposing that we mothers…”\",\"severity\":\"major\",\"source_quote\":\"I am proposing that we mothers are responsible in this offending by failing to teach our little ones—our girls—about true womanly adornment.\",\"suggested_fix\":\"Translate “are responsible” without weakening it to co-responsibility, for example: “dat wij moeders verantwoordelijk zijn voor dit tot struikelen brengen doordat we onze kleinen — onze meisjes — niet leren wat ware vrouwelijke versiering is.”\",\"translation_quote\":\"Ik stel dat wij moeders medeverantwoordelijk zijn voor dit tot struikelen brengen doordat we onze kleinen — onze meisjes — niet leren wat ware vrouwelijke versiering is.\"},{\"location\":\"Paragraph beginning “The context of that verse…”\",\"severity\":\"major\",\"source_quote\":\"Have you taught them to cast away the worldly enticements that, long term, will offend their eternal souls?\",\"suggested_fix\":\"Preserve the source’s “offend”/stumbling concept rather than replacing it with general harm; for example: “Heb je hun geleerd de wereldse verlokkingen weg te werpen die op den duur hun eeuwige ziel tot struikelen zullen brengen?”\",\"translation_quote\":\"Heb je hun geleerd de wereldse verlokkingen weg te werpen die op den duur hun eeuwige ziel zullen schaden?\"},{\"location\":\"Scripture quotations: paragraphs beginning “The Bible says…”, “I am proposing…”, “If the mothers…”, and the final paragraph\",\"severity\":\"major\",\"source_quote\":\"The article contains quoted Scripture at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.\",\"suggested_fix\":\"Supply the required scripture_evidence entries and corresponding verified scripture_selections for each quotation, using the approved Dutch target text and preserving the printed references, quotation scope, and ellipses. Do not retain or generate Bible wording as a substitute for the required evidence-based selections.\",\"translation_quote\":\"De Bijbel zegt: … – Mar 9:47; … – 1 Petr 3:4-5; … – Mat 18:7; … – Jak 3:13; … – Tit 2:12. scripture_selections: []\"}],\"findings_complete\":true,\"passed\":false,\"score\":70}",
+    "content_bytes": 2178,
+    "content_evidence_truncated": false,
+    "content_sha256": "f53ccc94e5f6e0ea753e83cbcecc659db5310454bc99da2fb0f6926add01d1e7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8256,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10922
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

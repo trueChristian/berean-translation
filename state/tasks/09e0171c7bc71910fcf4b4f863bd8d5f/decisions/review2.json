@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Sista stycket, kursiverat citat före (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "Ersätt citatorden med den semantiskt motsvarande exakta texten från den godkända svenska måltexten för Joel 2:25a. Bevara utelämningen inom hakparentes, kursiveringen och referensens placering. Den godkända vers-texten saknas i det tillhandahållna evidensunderlaget, så formulera inte en ersättning utan den.",
+      "translation_quote": "ge [oss] tillbaka de år som gräshopporna har ätit upp!"
+    },
+    {
+      "location": "Stycket som börjar ”Villkorslös kärlek innebär …”",
+      "severity": "major",
+      "source_quote": "Ann’s prayer and plea to God was",
+      "suggested_fix": "Ändra ”Anns bön och vädjan till Gud” inte i sig; korrigera i stället den senare formuleringen om förlåtelse i stycket som börjar ”Anns svar …”: använd ”fritt given förlåtelse” eller motsvarande, inte ”villkorslös förlåtelse”.",
+      "translation_quote": "villkorslös förlåtelse"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

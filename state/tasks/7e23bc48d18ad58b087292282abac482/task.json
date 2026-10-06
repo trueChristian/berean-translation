@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 7886
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1091,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5634,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4095,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6725
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html / translation.html, final paragraph, <em>…</em> quotation; scripture_selection_audit",
+      "location": "source.html and translation.html, paragraph 4",
       "severity": "major",
-      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
-      "suggested_fix": "Treat this as a Scripture quotation requiring evidence and a verified selection from the approved French Martin text. Add the corresponding quote evidence and selection; do not generate or guess the Bible wording. Preserve the printed reference identity and placement.",
-      "translation_quote": "« nous rendre les années qu’a dévorées la sauterelle ! » (Joël 2:25a); scripture_selection_audit.selections is empty"
+      "source_quote": "The devil was hard at work to destroy the unity and joy of these two whose marriage was going so beautifully. He allowed his heart and eyes to look at the allurements of the world and the deception of Satan.",
+      "suggested_fix": "Make the husband, not the devil, the clear subject of the second sentence—for example, « Mark laissa son cœur et ses yeux se tourner vers les attraits du monde et les tromperies de Satan. »",
+      "translation_quote": "Le diable s’employait avec acharnement à détruire l’unité et la joie de ce couple dont le mariage se déroulait si bien. Il laissa son cœur et ses yeux se tourner vers les attraits du monde et les tromperies de Satan."
+    },
+    {
+      "location": "source.html and translation.html, paragraph 10",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Attribute the response clearly to Ann, for example: « La réponse d’Ann à la repentance de Mark fut un pardon complet et sans réserve. »",
+      "translation_quote": "Ma réponse, celle d’Ann, à la repentance de Mark fut un pardon complet et sans réserve."
+    },
+    {
+      "location": "source.html and translation.html, final paragraph; Joel 2:25a quotation",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "The quoted passage is a Scripture quotation, but scripture_evidence contains no evidence quote and the selection audit is empty. Supply the exact corresponding partial wording from the approved Martin (1744) target verse, preserving the source’s partial scope and reference identity, and provide the required selection. Do not invent or paraphrase Scripture wording.",
+      "translation_quote": "nous rendre les années qu’a dévorées la sauterelle ! (Joël 2:25a)"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "7e23bc48d18ad58b087292282abac482",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -165,7 +200,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +208,7 @@
   "scripture_evidence_sha256": "2c342552e25b1c737db9fbe87f646ff2cd8cd9b6a5378a478da86990546b12aa",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, second poem, final two lines\",\"severity\":\"minor\",\"source_quote\":\"Adorned with His meekness<br>\\n  And clothed with His light.\",\"suggested_fix\":\"Smykket med Hans ydmykhet<br>\\n  Og kledd i Hans lys.\",\"translation_quote\":\"Smykket med Hans mildhet<br>\\n  Og kledd i Hans lys.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 365,
+    "content_evidence_truncated": false,
+    "content_sha256": "0484ce34d3a3b7fe3b5af390f571d93903e0e4ac6a7197301452d2bc609f8172",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3177,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1638,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3920
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

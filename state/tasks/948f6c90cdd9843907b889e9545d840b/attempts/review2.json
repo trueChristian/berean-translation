@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"scripture_evidence and corresponding quoted passages: /article[1]/p[18], p[20] (both quotations), p[21], and p[27]\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Scripture quotations printed in the source include “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47), “...the holy women also...adorned themselves...” (1Pe 3:4-5), “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7), “Who is a wise [wo]man...” (Jas 3:13), and “...denying ungodliness and worldly lusts...” (Tit 2:12).\",\n      \"suggested_fix\": \"Have the evidence extraction include these genuine Scripture quotations and review their corresponding translated text against the approved target verses. Do not generate or substitute Scripture wording without the required evidence.\",\n      \"translation_quote\": \"The corresponding translated quotations appear at /article[1]/p[18], p[20] (both quotations), p[21], and p[27]; scripture_evidence.quotes and scripture_selections are both empty.\"\n    },\n    {\n      \"location\": \"/article[1]/p[20]\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit...”\",\n      \"suggested_fix\": \"After obtaining the required Scripture evidence, translate the full quoted meaning, including the hidden person of the heart and the incorruptible quality; retain the source ellipsis and reference.\",\n      \"translation_quote\": \"“只要以那不能朽坏的为妆饰，就是以温柔、安静的灵为妆饰……”\"\n    },\n    {\n      \"location\": \"/article[1]/p[20]\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“...woe to that [wo]man by whom the offence cometh!”\",\n      \"suggested_fix\": \"After obtaining the required Scripture evidence, retain the source’s attribution that the woe is to the person through whom the stumbling comes; preserve the quotation’s ellipsis and reference.\",\n      \"translation_quote\": \"“……那叫人跌倒的有祸了！”\"\n    },\n    {\n      \"location\": \"/article[1]/p[18]\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“if something causes you to offend, or be offended, cast it far from you.”\",\n      \"suggested_fix\": \"Distinguish causing someone to stumble from being caused to stumble, and preserve both alternatives in the Chinese sentence.\",\n      \"translation_quote\": \"“如果有什么事使你犯罪，或使人跌倒，就把它远远丢开。”\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 2638,
+    "content_evidence_truncated": false,
+    "content_sha256": "320522ba9d9896eca453c08814c37163474f51540c50190f898ffdc492f94a41",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8342,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11389
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

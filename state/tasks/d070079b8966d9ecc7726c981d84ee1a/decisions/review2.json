@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraphs 18, 20 (two quotations), 21, and 27",
+      "severity": "major",
+      "source_quote": "Direct Scripture quotations: Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; Titus 2:12.",
+      "suggested_fix": "Add these quotations to scripture_evidence and review the French wording against the exact approved Martin (1744) verse text, preserving each printed partial quotation, ellipsis, and reference. Do not invent or substitute Scripture wording where the approved evidence is unavailable.",
+      "translation_quote": "Direct French Scripture quotations in the corresponding paragraphs, including « … il vaut mieux pour toi entrer dans le royaume de Dieu… » and « … qu’en renonçant à l’impiété… »"
+    },
+    {
+      "location": "Article paragraph 18",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Revise the French so it preserves both the idea of causing someone to stumble and of being caused to stumble; avoid rendering the first sense simply as being led to sin.",
+      "translation_quote": "« si quelque chose t’amène à pécher ou à devenir une occasion de chute, éloigne-le de toi. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

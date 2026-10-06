@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Scripture quotations: /article[1]/p[18], p[20] (two quotations), p[21], and p[27]; scripture_evidence.quotes and scripture_selection_audit.selections\",\"severity\":\"major\",\"source_quote\":\"The article contains substantive Scripture quotations at these locations, including “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47), “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5), “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7), “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13), and “...that, denying ungodliness and worldly lusts...” (Tit 2:12).\",\"suggested_fix\":\"Provide the required scripture_evidence entries and target-verse selections for each quotation, then verify that the Bengali wording faithfully conveys the printed source quotation, preserves its ellipses and references, and uses the exact approved target-verse substrings. Do not invent Scripture wording as a workaround.\",\"translation_quote\":\"The Bengali article renders these quotations, but scripture_evidence.quotes is [] and scripture_selection_audit.selections is [].\"},{\"location\":\"/article[1]/p[18]\",\"severity\":\"major\",\"source_quote\":\"“if something causes you to offend, or be offended, cast it far from you.”\",\"suggested_fix\":\"Revise this clause in Bengali to retain both possibilities in the source: causing someone to stumble/offend and being offended or caused to stumble. Do not replace either sense with being compelled to sin.\",\"translation_quote\":\"“কোনো কিছু যদি তোমাকে পাপে বাধ্য করে বা পাপের কারণ হয়, তবে তা তোমার কাছ থেকে দূরে সরিয়ে দাও”\"}],\"findings_complete\":true,\"passed\":false,\"score\":72}",
+    "content_bytes": 1872,
+    "content_evidence_truncated": false,
+    "content_sha256": "83d75a2deb4fdee39bf0f091055d91cd918547c443996ababeec7d4d73d385bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 890,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10423,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8884,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11745
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

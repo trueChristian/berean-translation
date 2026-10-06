@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8318
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html / translation.html, paragraph 4",
-      "severity": "major",
-      "source_quote": "The devil was hard at work to destroy the unity and joy of these two whose marriage was going so beautifully. He allowed his heart and eyes to look at the allurements of the world and the deception of Satan.",
-      "suggested_fix": "마귀는 아름답게 이어지던 이 두 사람의 결혼 생활에서 화합과 기쁨을 무너뜨리려고 열심히 일했습니다. 마크는 세상의 유혹과 사탄의 속임수에 마음과 눈을 돌렸습니다.",
-      "translation_quote": "마귀는 아름답게 이어지던 이 두 사람의 결혼 생활에서 화합과 기쁨을 무너뜨리려고 열심히 일했습니다. 그는 세상의 유혹과 사탄의 속임수에 마음과 눈을 돌리도록 내버려 두었습니다."
     },
     {
-      "location": "source.html / translation.html, 마지막 문단의 이탤릭체 인용문 (Joel 2:25a)",
-      "severity": "major",
-      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
-      "suggested_fix": "이 인용문은 인용된 성경 구절이므로, 승인된 한국어 성경 본문에서 의미와 구절 대응이 확인된 표현으로 교체하십시오. 확인된 본문을 사용하고 <em> 태그와 인용부호의 구조 및 (요엘 2:25a) 참조를 그대로 유지하십시오.",
-      "translation_quote": "<em>메뚜기가 먹은 [우리의] 햇수를 회복하여 주셨습니다!</em> (요엘 2:25a)"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 731,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 571,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5831,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4292,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6562
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph, italicized quotation before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "This is a genuine Scripture quotation that is missing from scripture_evidence. Add the corresponding quote evidence and use only the approved Korean target-verse wording for the quotation, with a matching scripture selection; do not generate or guess the verse wording.",
+      "translation_quote": "메뚜기가 먹은 [우리의] 햇수를 회복하여 주셨습니다!"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "a5ef1fe7f2b614fe0aa2d0f43231e484",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "kor",
@@ -172,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +194,7 @@
   "scripture_evidence_sha256": "7e8a8744391b386946394e4e9f51efa56a3c01896f9448772c017eed817e2a4e",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

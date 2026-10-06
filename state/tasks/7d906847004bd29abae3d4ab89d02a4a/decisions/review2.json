@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, second poem, lines beginning “A life that…”",
+      "severity": "major",
+      "source_quote": "A life that to others / Around me would give / A diamond of hope,",
+      "suggested_fix": "Replace the corresponding lines with: “Een leven dat aan anderen / Om mij heen een diamant van hoop zou schenken,” so that the life, not the people around the speaker, is the giver.",
+      "translation_quote": "Een leven dat anderen / Om mij heen zou schenken / Een diamant van hoop,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

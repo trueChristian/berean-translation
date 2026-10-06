@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Laatste alinea, citaat en verwijzing naar Joël 2:25a\",\"severity\":\"major\",\"source_quote\":\"God truly has fulfilled His promise to … <em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)\",\"suggested_fix\":\"Controleer dit citaat aan de hand van de exacte goedgekeurde Nederlandse tekst van Joël 2:25a en vervang alleen de citaatwoorden door het semantisch overeenkomende fragment uit die tekst. Behoud de ellips, de cursivering, de verwijzing en de plaatsing. De aangeleverde scripture_evidence bevat geen citaattekst of doelverzen om deze formulering te verifiëren.\",\"translation_quote\":\"God heeft werkelijk Zijn belofte vervuld om … <em>ons de jaren terug te geven die de sprinkhaan heeft opgegeten!</em> (Joël 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 825,
+    "content_evidence_truncated": false,
+    "content_sha256": "a3f3d142a9910db89956945b09a92f71521d2111d77432fd4608cb5f9bb301ce",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3952,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6220
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

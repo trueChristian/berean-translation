@@ -2,7 +2,6 @@
   "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:54+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 3728
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 660,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3075,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1536,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 3773
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Second poem, line 6",
-      "severity": "major",
-      "source_quote": "A desire for God,",
-      "suggested_fix": "Replace «Hamu ya kumtafuta Mungu,» with «Shauku ya Mungu,» to preserve the source’s desire for God rather than desire to seek God.",
-      "translation_quote": "Hamu ya kumtafuta Mungu,"
-    },
-    {
-      "location": "Image alt text",
-      "severity": "minor",
-      "source_quote": "A vivid pink flower against a blue and green background",
-      "suggested_fix": "Replace «Ua la waridi angavu» with «Ua la waridi ang’avu» only if referring to a rose is intended; otherwise use «Ua la waridi/ua lenye rangi ya waridi ang’avu» carefully to mean a vivid pink flower, not specifically a rose. For example: «Ua lenye rangi ya waridi ang’avu mbele ya mandhari ya samawati na kijani».",
-      "translation_quote": "Ua la waridi angavu mbele ya mandhari ya samawati na kijani"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "0cd4de8276b6995626e96ce1c534a51e",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swa",
@@ -172,7 +177,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +185,7 @@
   "scripture_evidence_sha256": "62861c52fe5fbd9380b007c23438979fed1808c061e973ecac7fdee8176ba6ec",
   "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
   "translation_model_actual": "gpt-6-luna"

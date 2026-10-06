@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, italicized quotation before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "The quotation is a genuine Scripture quotation, but scripture_evidence contains no corresponding quote or approved target-verse text. Obtain the required evidence and replace the Norwegian wording with the exact corresponding target-verse text, preserving the source’s partial-quote scope and ellipsis. Do not invent or expand Scripture wording.",
+      "translation_quote": "gi [oss] igjen de år som gresshoppen har fortært!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:44+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 14086
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1122,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 643,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10123,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8584,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11245
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations in article paragraphs 18, 20, 21, and 27",
+      "location": "Scripture quotations: /article[1]/p[18], /article[1]/p[20] (1 Peter 3:4–5 and Matthew 18:7), /article[1]/p[21], and /article[1]/p[27]",
       "severity": "major",
-      "source_quote": "The source contains quoted Scripture at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
-      "suggested_fix": "The supplied scripture_evidence has no quote entries and the selection audit has no selections, although these are genuine, explicitly marked Scripture quotations. Supply the required evidence and exact target-verse selections for each quotation, then ensure the Afrikaans wording uses the approved target text while preserving the printed partial quotes, ellipses, and references. Do not generate replacement Scripture wording without that evidence.",
-      "translation_quote": "Afrikaans Scripture quotations are present in these paragraphs, but scripture_selections is empty."
-    },
-    {
-      "location": "Scripture references in article paragraphs 18, 20, 21, and 27",
-      "severity": "major",
-      "source_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; Tit 2:12",
-      "suggested_fix": "Use conventional Afrikaans book names for the references (for example, Markus, 1 Petrus, Matteus, Jakobus, Titus), while keeping each chapter and verse number, range, and reference placement unchanged.",
-      "translation_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jak 3:13; Tit 2:12"
-    },
-    {
-      "location": "Article paragraph 18",
-      "severity": "major",
-      "source_quote": "if something causes you to offend, or be offended, cast it far from you.",
-      "suggested_fix": "Translate the second alternative as being caused to stumble or take offense, rather than as giving offense; preserve both alternatives in the sentence.",
-      "translation_quote": "as iets jou laat struikel of aanstoot gee, verwyder dit ver van jou af."
+      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire” (Mark 9:47); “But let it [the adornment] be the hidden man of the heart...” (1 Peter 3:4–5); “...woe to that [wo]man by whom the offence cometh!” (Matthew 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (James 3:13); “...that, denying ungodliness and worldly lusts, we should live soberly...” (Titus 2:12).",
+      "suggested_fix": "These are substantive Scripture quotations, but scripture_evidence identifies no quotes and the translation has no scripture selections for them. Retrieve approved evidence for each quotation, then revise the target wording and selections to match the required target-verse substrings, preserving the printed omissions, ellipses, reference identities, and placement. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "“...dit is vir jou beter om met een oog in die koninkryk van God in te gaan...” (Markus 9:47); “Maar laat dit die verborge mens van die hart wees...” (1 Petrus 3:4–5); “...wee die mens deur wie die struikeling kom!” (Matteus 18:7); “Wie is wys en met kennis toegerus onder julle?” (Jakobus 3:13); “...om die goddeloosheid en wêreldse begeerlikhede te verloën...” (Titus 2:12)."
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "bf67d8ffef7075b144f2cebcd90c5dc7",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "afr",
@@ -179,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 75,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -187,7 +194,7 @@
   "scripture_evidence_sha256": "b8bdf3ac56f582b3ca88eb9dae8ba7400efda74ee6a60295a056f205dd9e928a",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "19d98d74-b23d-498b-b417-02a35271682c",
+    "response_id": "chatcmpl-EW2b7qq08VRwkavDLwRianyuCHhxz",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 591,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3155,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1616,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3892
+    }
+  },
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, second poem, lines beginning “A life that…”",
+        "severity": "major",
+        "source_quote": "A life that to others / Around me would give / A diamond of hope,",
+        "suggested_fix": "Replace the corresponding lines with: “Een leven dat aan anderen / Om mij heen een diamant van hoop zou schenken,” so that the life, not the people around the speaker, is the giver.",
+        "translation_quote": "Een leven dat anderen / Om mij heen zou schenken / Een diamant van hoop,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

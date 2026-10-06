@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, Scripture quotations in p[18], p[20] (two quotations), p[21], and p[27]\",\"severity\":\"major\",\"source_quote\":\"“...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?...” (Jas 3:13); “...denying ungodliness and worldly lusts...” (Tit 2:12).\",\"suggested_fix\":\"Provide the required approved target-verse evidence and one scripture_selection for each quotation, using the exact target-edition text for the corresponding source wording and preserving the source ellipses, references, and their placement. The supplied evidence has quotes: [] and no Italian target-verse text, so the quotations cannot be verified or corrected from this evidence; do not invent replacement Scripture wording.\",\"translation_quote\":\"The corresponding Italian quotations appear in p[18], p[20] (two), p[21], and p[27]; scripture_selection_audit.selections is [].\"}],\"findings_complete\":true,\"passed\":false,\"score\":84}",
+    "content_bytes": 1162,
+    "content_evidence_truncated": false,
+    "content_sha256": "09c09b0cdeea55ec655ec504401c47ee10fb55c80548e79dbda461f52cc22f6d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10042,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8503,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10855
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

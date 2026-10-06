@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Laatste alinea, citaat en verwijzing naar Joël 2:25a",
+      "severity": "major",
+      "source_quote": "God truly has fulfilled His promise to … <em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "Controleer dit citaat aan de hand van de exacte goedgekeurde Nederlandse tekst van Joël 2:25a en vervang alleen de citaatwoorden door het semantisch overeenkomende fragment uit die tekst. Behoud de ellips, de cursivering, de verwijzing en de plaatsing. De aangeleverde scripture_evidence bevat geen citaattekst of doelverzen om deze formulering te verifiëren.",
+      "translation_quote": "God heeft werkelijk Zijn belofte vervuld om … <em>ons de jaren terug te geven die de sprinkhaan heeft opgegeten!</em> (Joël 2:25a)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

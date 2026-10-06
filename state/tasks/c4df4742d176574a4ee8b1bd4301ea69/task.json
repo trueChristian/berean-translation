@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:48+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13831
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 813,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10042,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8503,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10855
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]",
+      "location": "source.html and translation.html, Scripture quotations in p[18], p[20] (two quotations), p[21], and p[27]",
       "severity": "major",
-      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); “...denying ungodliness and worldly lusts...” (Tit 2:12).",
-      "suggested_fix": "Provide the required approved-verse evidence for each of these printed Scripture quotations and select the corresponding Italian target-verse substrings in scripture_selections, preserving each source omission, ellipsis, reference identity, and placement. Do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "The corresponding Italian Scripture quotations are present, but scripture_evidence.quotes and scripture_selections are both empty."
+      "source_quote": "“...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?...” (Jas 3:13); “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the required approved target-verse evidence and one scripture_selection for each quotation, using the exact target-edition text for the corresponding source wording and preserving the source ellipses, references, and their placement. The supplied evidence has quotes: [] and no Italian target-verse text, so the quotations cannot be verified or corrected from this evidence; do not invent replacement Scripture wording.",
+      "translation_quote": "The corresponding Italian quotations appear in p[18], p[20] (two), p[21], and p[27]; scripture_selection_audit.selections is []."
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "c4df4742d176574a4ee8b1bd4301ea69",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ita",
@@ -165,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +194,7 @@
   "scripture_evidence_sha256": "b8dcab2548c129b7395867f4fc3bdc64f7c1c306662be0d197bedcd06cb4fd9f",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

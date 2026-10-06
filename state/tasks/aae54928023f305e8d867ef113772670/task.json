@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:47+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 14786
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, /article[1]/p[18], p[20] (both quotations), p[21], and p[27]",
-      "severity": "major",
-      "source_quote": "Scripture quotations: “...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man...” (Mat 18:7); “Who is a wise [wo]man...” (Jas 3:13); and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
-      "suggested_fix": "Provide the missing scripture_evidence for these five printed quotations and use the corresponding exact Korean target-edition text for each quoted fragment, preserving the printed omissions, reference identities, and locations. Do not invent or substitute Scripture wording without that evidence.",
-      "translation_quote": "The corresponding Korean quotations in paragraphs 18, 20, 21, and 27; scripture_selection_audit.selections is empty."
     },
     {
-      "location": "source.html, /article[1]/p[21]",
-      "severity": "major",
-      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty, both inside and out.”",
-      "suggested_fix": "Translate “plain churches” to convey churches associated with plain/conservative dress, rather than “단정한 교회들” (neat/modest churches); retain the rest of the sentence’s meaning.",
-      "translation_quote": "“단정한 교회들은 안팎으로 심각하게 단정함을 잃어 가고 있습니다.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 482,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10458,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8919,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11370
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html /article[1]/p[18]; /article[1]/p[20] (both quotations); /article[1]/p[21]; /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "Direct Scripture quotations appear at these locations: “...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47”; “...the ornament of a meek and quiet spirit... –1Pe 3:4-5”; “...woe to that [wo]man by whom the offence cometh! –Mat 18:7”; “Who is a wise [wo]man and endued with knowledge among you? ... –Jas 3:13”; and “...denying ungodliness and worldly lusts... –Tit 2:12.”",
+      "suggested_fix": "These genuine Scripture quotations are absent from scripture_evidence, so their translated words cannot be approved or verified under the quotation contract. Supply the required approved target-verse evidence and corresponding scripture selections for each quotation; do not generate replacement Scripture wording or use an English fallback.",
+      "translation_quote": "The corresponding Korean Scripture quotations are present in the translation, but scripture_evidence.quotes and scripture_selection_audit.selections are both empty."
+    },
+    {
+      "location": "source.html /article[1]/p[21]",
+      "severity": "major",
+      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty, both inside and out.”",
+      "suggested_fix": "Translate “plain churches” without adding an explanation that identifies them as churches following traditional/conservative dress standards; preserve the source’s reference to plain churches.",
+      "translation_quote": "“전통적이고 보수적인 복장 기준을 따르는 교회들도 전체적으로 안팎에서 심각한 단정함의 퇴조를 겪고 있습니다.”"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "aae54928023f305e8d867ef113772670",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "kor",
@@ -172,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 76,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +201,7 @@
   "scripture_evidence_sha256": "427d87ea11825c7500ff10c69ec52a8596f24cec45d76de83c40df8480444196",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

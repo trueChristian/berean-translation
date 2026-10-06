@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "article.html, final paragraph, sentence beginning “My, Ann’s response”",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Preserve Mark as the speaker and Ann as the person responding; for example: «Моя жена Энн полностью и безоговорочно простила Марка в ответ на его покаяние».",
+      "translation_quote": "Я, Энн, ответила на покаяние Марка полным и безоговорочным прощением."
+    },
+    {
+      "location": "article.html, final paragraph; scripture selection for Joel 2:25a",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+      "suggested_fix": "Provide the required Scripture evidence and selection for this quotation, using the approved Russian target-verse wording for the corresponding partial text. Preserve the source ellipsis, brackets, and reference placement; do not generate or substitute Scripture wording without the approved evidence.",
+      "translation_quote": "возвратить [нам] годы, которые пожрала саранча! (Иоиль 2:25а)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8448edf1-5740-46c2-a5ca-ecd89a067673",
+    "response_id": "chatcmpl-EW2bI3x7LQWcXPMaMQJahRJn35Mjr",
+    "usage": {
+      "completion_tokens": 908,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4147,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6594
+    }
+  },
+  "received_at": "2026-10-06T21:19:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Sista stycket, kursiverat citat före (Joel 2:25a)",
+        "severity": "major",
+        "source_quote": "restore to [us] the years that the locust hath eaten!",
+        "suggested_fix": "Ersätt citatorden med den semantiskt motsvarande exakta texten från den godkända svenska måltexten för Joel 2:25a. Bevara utelämningen inom hakparentes, kursiveringen och referensens placering. Den godkända vers-texten saknas i det tillhandahållna evidensunderlaget, så formulera inte en ersättning utan den.",
+        "translation_quote": "ge [oss] tillbaka de år som gräshopporna har ätit upp!"
+      },
+      {
+        "location": "Stycket som börjar ”Villkorslös kärlek innebär …”",
+        "severity": "major",
+        "source_quote": "Ann’s prayer and plea to God was",
+        "suggested_fix": "Ändra ”Anns bön och vädjan till Gud” inte i sig; korrigera i stället den senare formuleringen om förlåtelse i stycket som börjar ”Anns svar …”: använd ”fritt given förlåtelse” eller motsvarande, inte ”villkorslös förlåtelse”.",
+        "translation_quote": "villkorslös förlåtelse"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 78
+  }
+}

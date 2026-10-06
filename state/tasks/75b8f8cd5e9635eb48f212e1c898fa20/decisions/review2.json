@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Quoted Scripture in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "Five Scripture quotations: Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; Titus 2:12.",
+      "suggested_fix": "These genuine Scripture quotations are absent from scripture_evidence, although they appear in the article. Obtain the required approved Arabic verse evidence and align each quotation to its corresponding target text, preserving each printed reference, quotation scope, and ellipsis. Do not invent replacement Scripture wording.",
+      "translation_quote": "«خير لك أن تدخل ملكوت الله بعين واحدة من أن تكون لك عينان وتُلقى في جهنم النار – مرقس 9:47»; «بل إنسان القلب الخفي... – 1 بطرس 3:4-5»; «...ويل لذلك الإنسان الذي به تأتي العثرة! – متى 18:7»; «من هو حكيم وعالم بينكم؟... – يعقوب 3:13»; «...أن ننكر الفجور والشهوات العالمية... – تيطس 2:12»"
+    },
+    {
+      "location": " /article[1]/p[18]",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Replace «إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة» with «إن كان شيء ما يجعلك تعثرين أو يعثركِ، فأبعديه عنكِ» (or an idiomatic equivalent preserving both senses of causing/experiencing stumbling).",
+      "translation_quote": "«إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة، فأبعديه عنك بعيدًا.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

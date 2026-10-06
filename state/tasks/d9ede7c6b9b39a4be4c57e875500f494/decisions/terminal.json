@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph 4; quoted wording before the sentence about a miracle",
+      "severity": "major",
+      "source_quote": "her commitment to “whither thou goest, I will go”",
+      "suggested_fix": "This is a quoted Scripture passage that was not identified in scripture_evidence. Do not invent or supply Scripture wording without approved target-verse evidence. Obtain the required evidence and render the corresponding target-language words while retaining the quotation and its placement.",
+      "translation_quote": "اس کے عہد ”تو جہاں جائے گی، میں بھی وہاں جاؤں گا“"
+    },
+    {
+      "location": "source.html and translation.html, final paragraph, emphasized quotation and reference",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+      "suggested_fix": "This is a quoted Scripture passage that was not identified in scripture_evidence. Do not invent or supply Scripture wording without approved target-verse evidence. Obtain the required evidence and render the corresponding target-language words, preserving the emphasis, omission, and reference placement.",
+      "translation_quote": "<em>جو برس ٹڈیوں نے کھا لیے تھے، وہ [ہمارے لیے] بحال کر دے!</em> (یوایل 2:25a)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

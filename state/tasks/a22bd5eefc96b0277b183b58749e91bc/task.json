@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,39 +64,40 @@
         },
         "total_tokens": 7975
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 720,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 556,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5604,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4065,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6324
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Final paragraph, italicized quotation; Joel 2:25a",
+      "location": "Final paragraph, italicized quotation before (Joel 2:25a)",
       "severity": "major",
-      "source_quote": "“restore to [us] the years that the locust hath eaten!”",
-      "suggested_fix": "This is a Scripture quotation, but scripture_evidence contains no corresponding quote or approved target-verse text. Supply the required approved evidence and selection, then use only the exact target-verse substring corresponding to the printed quotation, preserving its omission and reference. Do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "«gi [oss] igjen de år som gresshoppen har fortært!»"
-    },
-    {
-      "location": "Paragraph beginning “Then it happened…”, sentence containing “whither thou goest”",
-      "severity": "major",
-      "source_quote": "“whither thou goest, I will go”",
-      "suggested_fix": "Restore the omitted first-person clause in Bokmål: «dit du går, vil jeg gå».",
-      "translation_quote": "«dit du går»"
-    },
-    {
-      "location": "Paragraph beginning “Unconditional love means loving…”, sentence about Ann’s prayer",
-      "severity": "minor",
-      "source_quote": "“Ann’s prayer and plea to God was”",
-      "suggested_fix": "Avoid repeating «bønn»; for example: «Anns bønn og inderlige appell til Gud var».",
-      "translation_quote": "«Anns bønn og inderlige bønn til Gud var»"
-    },
-    {
-      "location": "Paragraph beginning “My, Ann’s response…”, first sentence",
-      "severity": "minor",
-      "source_quote": "“My, Ann’s response to Mark’s repentance was full and free forgiveness.”",
-      "suggested_fix": "Make the shared attribution clear and grammatical in Bokmål, for example: «Anns og min reaksjon på Marks omvendelse var å tilgi ham fullt og helt.»",
-      "translation_quote": "«Min, Anns, reaksjon på Marks omvendelse var full og fri tilgivelse.»"
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "The quotation is a genuine Scripture quotation, but scripture_evidence contains no corresponding quote or approved target-verse text. Obtain the required evidence and replace the Norwegian wording with the exact corresponding target-verse text, preserving the source’s partial-quote scope and ellipsis. Do not invent or expand Scripture wording.",
+      "translation_quote": "gi [oss] igjen de år som gresshoppen har fortært!"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "a22bd5eefc96b0277b183b58749e91bc",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nob",
@@ -186,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -194,7 +194,7 @@
   "scripture_evidence_sha256": "130216de88b52bfd4a2ef5fb114967e1930e9a387c3f23f3ec15a5713bb07686",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, Scripture quotations in p[18], p[20] (two quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "“...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?...” (Jas 3:13); “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the required approved target-verse evidence and one scripture_selection for each quotation, using the exact target-edition text for the corresponding source wording and preserving the source ellipses, references, and their placement. The supplied evidence has quotes: [] and no Italian target-verse text, so the quotations cannot be verified or corrected from this evidence; do not invent replacement Scripture wording.",
+      "translation_quote": "The corresponding Italian quotations appear in p[18], p[20] (two), p[21], and p[27]; scripture_selection_audit.selections is []."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

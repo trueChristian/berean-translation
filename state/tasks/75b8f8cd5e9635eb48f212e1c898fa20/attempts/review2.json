@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Quoted Scripture in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]\",\"severity\":\"major\",\"source_quote\":\"Five Scripture quotations: Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; Titus 2:12.\",\"suggested_fix\":\"These genuine Scripture quotations are absent from scripture_evidence, although they appear in the article. Obtain the required approved Arabic verse evidence and align each quotation to its corresponding target text, preserving each printed reference, quotation scope, and ellipsis. Do not invent replacement Scripture wording.\",\"translation_quote\":\"«خير لك أن تدخل ملكوت الله بعين واحدة من أن تكون لك عينان وتُلقى في جهنم النار – مرقس 9:47»; «بل إنسان القلب الخفي... – 1 بطرس 3:4-5»; «...ويل لذلك الإنسان الذي به تأتي العثرة! – متى 18:7»; «من هو حكيم وعالم بينكم؟... – يعقوب 3:13»; «...أن ننكر الفجور والشهوات العالمية... – تيطس 2:12»\"},{\"location\":\" /article[1]/p[18]\",\"severity\":\"major\",\"source_quote\":\"“if something causes you to offend, or be offended, cast it far from you.”\",\"suggested_fix\":\"Replace «إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة» with «إن كان شيء ما يجعلك تعثرين أو يعثركِ، فأبعديه عنكِ» (or an idiomatic equivalent preserving both senses of causing/experiencing stumbling).\",\"translation_quote\":\"«إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة، فأبعديه عنك بعيدًا.»\"}],\"findings_complete\":true,\"passed\":false,\"score\":78}",
+    "content_bytes": 1730,
+    "content_evidence_truncated": false,
+    "content_sha256": "3b8bb57166014eab0fe1da1d2e534ba3be34fe2847b1bb2d5174abde500691d0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1060,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 627,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8419,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11018
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

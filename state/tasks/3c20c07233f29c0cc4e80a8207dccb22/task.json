@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:30+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 14835
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Scripture quotations: article paragraphs 18, 20 (two quotations), 21, and 27",
-      "severity": "major",
-      "source_quote": "The article quotes Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
-      "suggested_fix": "The scripture_evidence lists no quotation entries, although these five passages are quoted in the article. Obtain the required approved Hindi verse evidence and selections, then replace each quoted passage with the exact corresponding approved target text, preserving partial-quote scope, ellipses, and the printed references. Do not create substitute Scripture wording without that evidence.",
-      "translation_quote": "“दो आँखें रहते हुए नरक की आग में डाले जाने से अच्छा है कि तेरे लिए एक आँख के साथ परमेश्वर के राज्य में प्रवेश करना बेहतर हो” (मरकुस 9:47); “परन्तु तुम्हारा शृंगार…” (1 पतरस 3:4-5); “…धिक्कार है उस [स्त्री] पर जिसके द्वारा ठोकर आती है!” (मत्ती 18:7); “तुम में बुद्धिमान और समझदार कौन है?” (याकूब 3:13); “…कि हम अभक्ति और सांसारिक अभिलाषाओं से मन फेरकर…” (तीतुस 2:12)."
     },
     {
-      "location": "Article paragraphs 1 and 21",
-      "severity": "minor",
-      "source_quote": "“plain mothers of today”; “The plain churches as a whole”",
-      "suggested_fix": "Translate “plain” in its religious/community sense rather than as “ordinary” or “simple”; for example, use a suitable Hindi rendering that identifies the plain/conservative church community in both places.",
-      "translation_quote": "“आज की साधारण माताएँ”; “कुल मिलाकर सादी कलीसियाएँ”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1073,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 567,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10479,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8940,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11552
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html: paragraph containing Mark 9:47, 1 Peter 3:4–5, Matthew 18:7, James 3:13, and Titus 2:12",
+      "severity": "major",
+      "source_quote": "The article contains Scripture quotations at “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge...” (Jas 3:13); and “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the required Scripture evidence and selections for each quotation, then replace each quoted passage with the corresponding approved Hindi verse wording while preserving the source’s partial-quote boundaries, ellipses, references, and HTML structure. Do not invent Scripture text or use an English fallback.",
+      "translation_quote": "The corresponding passages are rendered as Hindi Scripture quotations, including “...दो आँखें रहते हुए नरक की आग में डाले जाने से अच्छा है...” (मरकुस 9:47) and “...कि हम अभक्ति और सांसारिक अभिलाषाओं से मन फेरकर...” (तीतुस 2:12); scripture_evidence.quotes and scripture_selection_audit.selections are both empty."
+    },
+    {
+      "location": "source.html and translation.html: paragraph beginning “If the mothers and women who once chose to abstain...”",
+      "severity": "major",
+      "source_quote": "“the future modesty of our churches” and “a terrible slide of immodesty”",
+      "suggested_fix": "Use Hindi wording that conveys modesty and immodesty in dress/conduct, rather than shyness and obscenity—for example, “भविष्य की मर्यादा” and “अशालीनता की भयानक ढलान,” adjusted naturally to the sentence.",
+      "translation_quote": "“भविष्य की लज्जाशीलता” and “अश्लीलता की एक भयानक ढलान”"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "3c20c07233f29c0cc4e80a8207dccb22",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "hin",
@@ -172,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 74,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +201,7 @@
   "scripture_evidence_sha256": "9b6605132430969007835bf2f3420cdfcaf64c925182329bd5261900cafeeb18",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

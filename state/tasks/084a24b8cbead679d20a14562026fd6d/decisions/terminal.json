@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Scripture quotation and selection audit",
+      "severity": "major",
+      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "This is a substantive Scripture quotation, but scripture_evidence contains no quote for it and the selection audit has no selection. Obtain the required approved target-verse evidence and provide the corresponding Bengali quotation selection; do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "<em>পঙ্গপাল যে বছরগুলো খেয়ে ফেলেছিল, তা [আমাদের] ফিরিয়ে দিতে!</em> (যোয়েল ২:২৫ক)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "Printed Scripture quotations: “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?...” (Jas 3:13); and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Have the quotation extraction/evidence step identify these five printed Scripture quotations and provide their approved Russian verse text; then align each quotation with that evidence and provide the required Scripture selections. Do not invent or substitute Scripture wording without the approved evidence.",
+      "translation_quote": "The corresponding Russian quotations begin «…лучше тебе с одним глазом войти…»; «Но да будет сокровенный сердца человек…»; «…горе тому человеку…»; «Кто мудр и разумен…»; and «…отвергнув нечестие…». The audit has quotes: [] and selections: []."
+    },
+    {
+      "location": " /article[1]/p[20], quotation of 1 Peter 3:4–5",
+      "severity": "major",
+      "source_quote": "“...even the ornament of a meek and quiet spirit, which is in the sight of God of great price.”",
+      "suggested_fix": "Revise this part of the translated quotation so it conveys the source’s ornament/adornment imagery and the statement that it is precious in God’s sight, using the approved target Scripture text once available.",
+      "translation_quote": "«…в нетленной красоте кроткого и молчаливого духа, что драгоценно пред Богом.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

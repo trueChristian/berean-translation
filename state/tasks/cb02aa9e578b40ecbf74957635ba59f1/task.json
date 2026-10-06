@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:31+00:00",
   "events": [
@@ -65,32 +64,75 @@
         },
         "total_tokens": 13306
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1618,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 691,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9772,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8233,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11390
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "location": "HTML, párrafo 18: cita de Marcos 9:47",
       "severity": "major",
-      "source_quote": "The article contains Scripture quotations at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
-      "suggested_fix": "Have the Scripture-quotation extraction/evidence supplied for all five passages, then use the corresponding approved Spanish verse text for each quotation and provide the required scripture_selections. Do not invent or substitute Scripture wording.",
-      "translation_quote": "«…mejor te es entrar en el reino de Dios con un ojo…»; «Mas el hombre escondido del corazón…»; «…¡ay de aquel hombre…!»; «¿Quién es sabio y entendido…?»; «…que, renunciando a la impiedad…»"
+      "source_quote": "“…it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.”",
+      "suggested_fix": "Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada para la cita y sustituya el texto por los fragmentos exactos correspondientes de target_verses; añada la selección requerida sin cambiar la identidad ni la ubicación de la referencia.",
+      "translation_quote": "“…mejor te es entrar en el reino de Dios con un ojo que, teniendo dos ojos, ser echado al fuego del infierno –Mc 9:47.”"
     },
     {
-      "location": "source.html, /article[1]/p[18], p[20] (two references), p[21], and p[27]",
+      "location": "HTML, párrafo 20: cita de 1 Pedro 3:4-5",
       "severity": "major",
-      "source_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; Tit 2:12",
-      "suggested_fix": "Use conventional Spanish Bible book names in the printed references, preserving the exact chapter and verse numbers, ranges, and reference placement; for example, Mc 9:47, 1 Pe 3:4-5, Mt 18:7, Stg 3:13, and Tit 2:12.",
-      "translation_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; Tit 2:12"
+      "source_quote": "“...But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit… –1Pe 3:4-5.”",
+      "suggested_fix": "Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y use los fragmentos exactos de target_verses, conservando las omisiones y la elipsis de la cita; incluya la selección requerida y mantenga 1 Pe 3:4-5.",
+      "translation_quote": "“Mas el hombre escondido del corazón, en la incorruptibilidad de un espíritu afable y apacible… –1 Pe 3:4-5.”"
     },
     {
-      "location": "source.html, /article[1]/p[1]",
-      "severity": "minor",
-      "source_quote": "“What are plain mothers of today telling their daughters…”",
-      "suggested_fix": "Use wording that conveys the modest/plain-dressing sense in context, such as «madres de vestir sencillo», rather than «madres sencillas».",
-      "translation_quote": "«¿Qué les están diciendo las madres sencillas de hoy…»"
+      "location": "HTML, párrafo 20: comienzo de la cita de 1 Pedro 3:4-5",
+      "severity": "major",
+      "source_quote": "“But let it [the adornment] be the hidden man of the heart…”",
+      "suggested_fix": "Además de obtener y aplicar la selección aprobada para esta cita, asegúrese de conservar el sentido de la exhortación «But let it … be» y la aclaración entre corchetes sobre «the adornment» en el texto español respaldado por la evidencia.",
+      "translation_quote": "“Mas el hombre escondido del corazón…”"
+    },
+    {
+      "location": "HTML, párrafo 20: cita de Mateo 18:7",
+      "severity": "major",
+      "source_quote": "“…woe to that [wo]man by whom the offence cometh! –Mat 18:7.”",
+      "suggested_fix": "Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y sustituya el texto por el fragmento exacto correspondiente de target_verses; añada la selección requerida y conserve la elipsis y la referencia.",
+      "translation_quote": "“…¡ay de aquel hombre por quien viene el tropiezo! –Mt 18:7.”"
+    },
+    {
+      "location": "HTML, párrafo 21: cita de Santiago 3:13",
+      "severity": "major",
+      "source_quote": "“Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom –Jas 3:13.”",
+      "suggested_fix": "Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y use el fragmento exacto correspondiente de target_verses; añada la selección requerida sin alterar la referencia.",
+      "translation_quote": "“¿Quién es sabio y entendido entre vosotros? Muestre por buena conducta sus obras con mansedumbre de sabiduría –Stg 3:13.”"
+    },
+    {
+      "location": "HTML, párrafo 27: cita de Tito 2:12",
+      "severity": "major",
+      "source_quote": "“…that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world –Tit 2:12.”",
+      "suggested_fix": "Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y sustituya el texto por los fragmentos exactos correspondientes de target_verses; añada la selección requerida y mantenga la elipsis y la referencia.",
+      "translation_quote": "“…que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo templada, justa y piadosamente –Tit 2:12.”"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "cb02aa9e578b40ecbf74957635ba59f1",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "spa",
@@ -179,7 +221,7 @@
     }
   },
   "protected": false,
-  "quality_score": 74,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -187,7 +229,7 @@
   "scripture_evidence_sha256": "c152a46b16d1d1a7c6940c3f2a1feb009a3fa914e2cbaba11f0939c0e6381fb3",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

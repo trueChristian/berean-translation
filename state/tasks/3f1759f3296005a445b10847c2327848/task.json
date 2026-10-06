@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:40+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 14125
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1370,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 898,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10018,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8479,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11388
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]",
       "severity": "major",
-      "source_quote": "“...enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire” (Mark 9:47); “let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit...” (1 Peter 3:4–5); “...woe to that [wo]man by whom the offence cometh!” (Matthew 18:7); “Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom” (James 3:13); “...denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world” (Titus 2:12).",
-      "suggested_fix": "Have these five printed Scripture quotations identified and supplied through the approved target-edition evidence workflow, then replace only their quoted wording with the corresponding exact Russian Synodal text. Preserve each quotation’s partial scope, ellipses, HTML structure, and printed reference identity and placement. Do not invent or supply Scripture wording without the required evidence.",
-      "translation_quote": "Examples: «…лучше тебе с одним глазом войти в Царствие Божие…» (Мк. 9:47); «…в нетленной красоте кроткого и молчаливого духа…» (1 Пет. 3:4–5); «…горе тому человеку, через которого соблазн приходит!» (Мф. 18:7); «Кто мудр и разумен между вами? Докажи это на деле…» (Иак. 3:13); «…отвергнув нечестие и мирские похоти…» (Тит. 2:12)."
+      "source_quote": "Printed Scripture quotations: “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?...” (Jas 3:13); and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Have the quotation extraction/evidence step identify these five printed Scripture quotations and provide their approved Russian verse text; then align each quotation with that evidence and provide the required Scripture selections. Do not invent or substitute Scripture wording without the approved evidence.",
+      "translation_quote": "The corresponding Russian quotations begin «…лучше тебе с одним глазом войти…»; «Но да будет сокровенный сердца человек…»; «…горе тому человеку…»; «Кто мудр и разумен…»; and «…отвергнув нечестие…». The audit has quotes: [] and selections: []."
+    },
+    {
+      "location": " /article[1]/p[20], quotation of 1 Peter 3:4–5",
+      "severity": "major",
+      "source_quote": "“...even the ornament of a meek and quiet spirit, which is in the sight of God of great price.”",
+      "suggested_fix": "Revise this part of the translated quotation so it conveys the source’s ornament/adornment imagery and the statement that it is precious in God’s sight, using the approved target Scripture text once available.",
+      "translation_quote": "«…в нетленной красоте кроткого и молчаливого духа, что драгоценно пред Богом.»"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "3f1759f3296005a445b10847c2327848",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "rus",
@@ -165,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +201,7 @@
   "scripture_evidence_sha256": "2b45410c49fe18e3eb638b04f4d1819901608a50e0821219411ca39e4c56d893",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

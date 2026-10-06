@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:39+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 14552
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], and /article[1]/p[27]",
-      "severity": "major",
-      "source_quote": "The article contains Scripture quotations at Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
-      "suggested_fix": "Have these quotations identified and supplied as Scripture evidence, then provide the required scripture_selections for each. Do not generate or substitute Scripture wording without the corresponding approved target text.",
-      "translation_quote": "The corresponding Urdu quotations appear in these five paragraphs, but scripture_evidence.quotes and scripture_selections are both empty."
     },
     {
-      "location": "/article[1]/p[24]",
-      "severity": "major",
-      "source_quote": "“Mothers who are on break.”",
-      "suggested_fix": "Replace ذرا فرصت پر ہیں with wording that preserves the metaphor of mothers taking a break, such as وقفے پر ہیں.",
-      "translation_quote": "“ایسی ماؤں کے آثار ہیں جو ذرا فرصت پر ہیں۔”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 823,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 554,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8890,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11252
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html /article[1]/p[18], p[20] (three quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "The article quotes Scripture at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12. Examples include “...it is better for thee to enter into the kingdom of God with one eye...” and “...that, denying ungodliness and worldly lusts, we should live soberly...”",
+      "suggested_fix": "These are genuine Scripture quotations, but scripture_evidence identifies no quotation entries and the selection audit is empty. Obtain the required approved target-verse evidence for each quotation, then verify the Urdu wording and selections against that evidence. Do not generate or substitute Scripture wording without the required evidence; preserve the printed references and their placement.",
+      "translation_quote": "Corresponding Urdu quotations appear in /article[1]/p[18], p[20] (three quotations), p[21], and p[27], but none has a scripture selection."
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "fb7f60c08fb39ae0d0a0ce88651a500b",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "urd",
@@ -172,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +194,7 @@
   "scripture_evidence_sha256": "634d9f6735855b71db786073dfb7750bf6ea1dd6cc35258dd37d575a6df4eb76",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 7571
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html and translation.html, final paragraph; Joel 2:25a",
-      "severity": "major",
-      "source_quote": "restore to [us] the years that the locust hath eaten!",
-      "suggested_fix": "This is a printed Scripture quotation, but scripture_evidence contains no corresponding quote or target-verse text. Add the required approved evidence and use only its corresponding Dutch target-verse substring, preserving the partial-quote scope and reference placement; do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "ons de jaren terug te geven die de sprinkhaan heeft opgegeten!"
     },
     {
-      "location": "source.html and translation.html, paragraph beginning “Then it happened…”",
-      "severity": "major",
-      "source_quote": "“whither thou goest, I will go”",
-      "suggested_fix": "This is a recognizable Scripture quotation, but scripture_evidence contains no corresponding quote or target-verse text. Add the required approved evidence and use only the corresponding Dutch target-verse substring, preserving the partial-quote scope; do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "‘waar gij heengaat, zal ik heengaan’"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 729,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 498,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3952,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6220
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Laatste alinea, citaat en verwijzing naar Joël 2:25a",
+      "severity": "major",
+      "source_quote": "God truly has fulfilled His promise to … <em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "Controleer dit citaat aan de hand van de exacte goedgekeurde Nederlandse tekst van Joël 2:25a en vervang alleen de citaatwoorden door het semantisch overeenkomende fragment uit die tekst. Behoud de ellips, de cursivering, de verwijzing en de plaatsing. De aangeleverde scripture_evidence bevat geen citaattekst of doelverzen om deze formulering te verifiëren.",
+      "translation_quote": "God heeft werkelijk Zijn belofte vervuld om … <em>ons de jaren terug te geven die de sprinkhaan heeft opgegeten!</em> (Joël 2:25a)"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "bda3e8218071c0b5f879b072fc5bfcb7",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nld",
@@ -172,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +194,7 @@
   "scripture_evidence_sha256": "ad20d3f869aded63fd972bcdc5c258b6f30bb21cfff1710bb7901fd952918aa5",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

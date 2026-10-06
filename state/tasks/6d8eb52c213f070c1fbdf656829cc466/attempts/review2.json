@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html /article[1]/p[4]\",\"severity\":\"major\",\"source_quote\":\"her commitment to “whither thou goest, I will go” began a miracle.\",\"suggested_fix\":\"Treat this as a Scripture quotation in the quotation-evidence workflow and render the corresponding approved Greek Scripture wording in the translation, preserving the source’s partial-quote scope and quotation marks.\",\"translation_quote\":\"η δέσμευσή της να «όπου πας, θα πάω κι εγώ» έφερε ένα θαύμα.\"},{\"location\":\"source.html /article[1]/p[12]\",\"severity\":\"major\",\"source_quote\":\"restore to [us] the years that the locust hath eaten! (Joel 2:25a)\",\"suggested_fix\":\"Treat this as a Scripture quotation in the quotation-evidence workflow and render the corresponding approved Greek Scripture wording for this partial quotation, preserving the bracketed “[us],” ellipsis, and printed reference identity and placement.\",\"translation_quote\":\"αποκαταστήσει για [εμάς] τα χρόνια που έφαγε η ακρίδα! (Ιωήλ 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 1140,
+    "content_evidence_truncated": false,
+    "content_sha256": "c78aa6983811d63af31301b86e53e66322f8be28246bca3163f6a06370f9df4c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 573,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4821,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 7213
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:50+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 16355
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 484,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11247,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9708,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 12013
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article paragraphs 18, 20, 21, 27; scripture_evidence.quotes and scripture_selection_audit.selections",
+      "location": "source.html, /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], and /article[1]/p[27]",
       "severity": "major",
-      "source_quote": "Scripture quotations printed in the article include “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); and “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
-      "suggested_fix": "Have the scripture-quote extraction/evidence supplied for each of these printed quotations, then verify the corresponding Greek text against the approved target verses and provide the required scripture selections. Do not generate or substitute Scripture wording without the corresponding evidence.",
-      "translation_quote": "The corresponding Greek quotations are present in these paragraphs, but scripture_evidence.quotes is empty and scripture_selection_audit.selections is []; examples include «…είναι καλύτερα για σένα να μπεις στη βασιλεία του Θεού με ένα μάτι…» and «…να αρνηθούμε την ασέβεια και τις κοσμικές επιθυμίες…»."
+      "source_quote": "The article contains direct Scripture quotations at Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
+      "suggested_fix": "These are genuine Scripture quotations but scripture_evidence contains no quote entries and the selection audit is empty. Retrieve approved Greek verse evidence for each quotation, then render the corresponding target-edition words in these existing locations with selections that match the printed quotation scope, ellipses, and references. Do not create or substitute Scripture wording without that evidence.",
+      "translation_quote": "Corresponding Greek quotations appear in the same five locations, for example «…είναι καλύτερα για σένα να μπεις στη βασιλεία του Θεού…» (Μάρκ. 9:47) and «…να αρνηθούμε την ασέβεια…» (Τίτ. 2:12); scripture_selections is empty."
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "a7b9bbe77f5f7ab1d19f58718bb5d7db",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ell",
@@ -173,7 +194,7 @@
   "scripture_evidence_sha256": "0e64a2c821c69e441134171e880695168a78542fc30b4341020ce488e47bdf72",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

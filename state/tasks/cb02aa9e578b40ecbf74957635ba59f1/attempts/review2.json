@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo 18: cita de Marcos 9:47\",\"severity\":\"major\",\"source_quote\":\"“…it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.”\",\"suggested_fix\":\"Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada para la cita y sustituya el texto por los fragmentos exactos correspondientes de target_verses; añada la selección requerida sin cambiar la identidad ni la ubicación de la referencia.\",\"translation_quote\":\"“…mejor te es entrar en el reino de Dios con un ojo que, teniendo dos ojos, ser echado al fuego del infierno –Mc 9:47.”\"},{\"location\":\"HTML, párrafo 20: cita de 1 Pedro 3:4-5\",\"severity\":\"major\",\"source_quote\":\"“...But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit… –1Pe 3:4-5.”\",\"suggested_fix\":\"Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y use los fragmentos exactos de target_verses, conservando las omisiones y la elipsis de la cita; incluya la selección requerida y mantenga 1 Pe 3:4-5.\",\"translation_quote\":\"“Mas el hombre escondido del corazón, en la incorruptibilidad de un espíritu afable y apacible… –1 Pe 3:4-5.”\"},{\"location\":\"HTML, párrafo 20: comienzo de la cita de 1 Pedro 3:4-5\",\"severity\":\"major\",\"source_quote\":\"“But let it [the adornment] be the hidden man of the heart…”\",\"suggested_fix\":\"Además de obtener y aplicar la selección aprobada para esta cita, asegúrese de conservar el sentido de la exhortación «But let it … be» y la aclaración entre corchetes sobre «the adornment» en el texto español respaldado por la evidencia.\",\"translation_quote\":\"“Mas el hombre escondido del corazón…”\"},{\"location\":\"HTML, párrafo 20: cita de Mateo 18:7\",\"severity\":\"major\",\"source_quote\":\"“…woe to that [wo]man by whom the offence cometh! –Mat 18:7.”\",\"suggested_fix\":\"Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y sustituya el texto por el fragmento exacto correspondiente de target_verses; añada la selección requerida y conserve la elipsis y la referencia.\",\"translation_quote\":\"“…¡ay de aquel hombre por quien viene el tropiezo! –Mt 18:7.”\"},{\"location\":\"HTML, párrafo 21: cita de Santiago 3:13\",\"severity\":\"major\",\"source_quote\":\"“Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom –Jas 3:13.”\",\"suggested_fix\":\"Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y use el fragmento exacto correspondiente de target_verses; añada la selección requerida sin alterar la referencia.\",\"translation_quote\":\"“¿Quién es sabio y entendido entre vosotros? Muestre por buena conducta sus obras con mansedumbre de sabiduría –Stg 3:13.”\"},{\"location\":\"HTML, párrafo 27: cita de Tito 2:12\",\"severity\":\"major\",\"source_quote\":\"“…that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world –Tit 2:12.”\",\"suggested_fix\":\"Esta cita bíblica no figura en scripture_evidence. Obtenga la evidencia aprobada y sustituya el texto por los fragmentos exactos correspondientes de target_verses; añada la selección requerida y mantenga la elipsis y la referencia.\",\"translation_quote\":\"“…que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo templada, justa y piadosamente –Tit 2:12.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":72}",
+    "content_bytes": 3640,
+    "content_evidence_truncated": false,
+    "content_sha256": "426f6696052492d0f143c9c9199a331597cff42af3b85570d807e381742917ea",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 691,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9772,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8233,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11390
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

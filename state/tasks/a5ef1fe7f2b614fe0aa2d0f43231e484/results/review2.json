@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "53f972d2-c5d4-4a82-9e38-7fd682e1f772",
+    "response_id": "chatcmpl-EW2bNqAuk4BYXmiA7CX65LshBtlNJ",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5831,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4292,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6562
+    }
+  },
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, final paragraph, italicized quotation before (Joel 2:25a)",
+        "severity": "major",
+        "source_quote": "restore to [us] the years that the locust hath eaten!",
+        "suggested_fix": "This is a genuine Scripture quotation that is missing from scripture_evidence. Add the corresponding quote evidence and use only the approved Korean target-verse wording for the quotation, with a matching scripture selection; do not generate or guess the verse wording.",
+        "translation_quote": "메뚜기가 먹은 [우리의] 햇수를 회복하여 주셨습니다!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

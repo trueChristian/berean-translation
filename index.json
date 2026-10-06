@@ -41250,6 +41250,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "f4a2ba9b273a63b0777f31c661cb1b4a73d799642f08dac8d9c17248b0c7cf72",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "En strålende rosa blomst mot en blå og grønn bakgrunn",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "1685cf1a3b490bfa5ed35e60a5a380cdc13854c045c1d9ed58fa3c124bde020f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En prinsesse av Gud",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "0c737405eebca554c80707589af9b12a25d6cddd2fe1ee1c8b0fedceab044ea4",
       "human_reviewed": false,
@@ -43884,6 +43912,29 @@
       "subtitle": null,
       "title": "Salvos da boca do \"leão\"",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/a028f656-cd41-4330-9633-2a4b4ce028e3.html",
+      "html_sha256": "0f3664b3737b48bd34e81a4e207310ff59a4bc3395c2bdbbe841499afa33f925",
+      "human_reviewed": false,
+      "id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
+      "images": [],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/a028f656-cd41-4330-9633-2a4b4ce028e3.json",
+      "metadata_sha256": "883a7397dbb7b456087ffbf0bd123c6fb42fddb24697dcf3147c0680841af50e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nosso testemunho de que os caminhos de Deus dão certo",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -54160,6 +54211,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "af5afc49ef5f59ef3eee728388a505463c9668a4f6c7a6255fc250ab240ef98f",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Ua lenye rangi ya waridi ang’avu mbele ya mandhari ya samawati na kijani",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "211a00871da45ba852b8a19609dd9eed0f52c41719eed0d2910f06d05647e7e7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Shairi",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Binti Mfalme wa Mungu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "ae1ed7ff8718a5f967e9b7d7a79b2876a342fb177aa00f897052b160185eddb4",
       "human_reviewed": false,
@@ -57161,6 +57240,34 @@
       "subtitle": null,
       "title": "Vintersång",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "b5a5c84677a68d5961f6e1aae2d38d29aea3dbab764bdfbd6b7cd0b39d419e75",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "En lysande rosa blomma mot en blå och grön bakgrund",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "749c1697f0421486cad4bf31a66af0d35d34dcdb9779bf4d7104bda305746811",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En Guds prinsessa",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

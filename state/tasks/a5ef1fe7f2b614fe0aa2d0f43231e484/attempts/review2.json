@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph, italicized quotation before (Joel 2:25a)\",\"severity\":\"major\",\"source_quote\":\"restore to [us] the years that the locust hath eaten!\",\"suggested_fix\":\"This is a genuine Scripture quotation that is missing from scripture_evidence. Add the corresponding quote evidence and use only the approved Korean target-verse wording for the quotation, with a matching scripture selection; do not generate or guess the verse wording.\",\"translation_quote\":\"메뚜기가 먹은 [우리의] 햇수를 회복하여 주셨습니다!\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 644,
+    "content_evidence_truncated": false,
+    "content_sha256": "32275659865081f1f170a77d2085aa6efae12bbcafaccd08b151ffda8bfe2aad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5831,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4292,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6562
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

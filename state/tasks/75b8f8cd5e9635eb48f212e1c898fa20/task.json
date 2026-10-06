@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:32+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 13619
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1060,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 627,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9958,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8419,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11018
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html and translation.html: Scripture quotations in paragraphs 18, 20, 21, and 27 (source paths /article[1]/p[18], /article[1]/p[20], /article[1]/p[21], /article[1]/p[27])",
+      "location": "Quoted Scripture in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
       "severity": "major",
-      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
-      "suggested_fix": "The evidence identifies no Scripture quotes, but these printed quotations are genuine Scripture quotations and require review under the Scripture quotation contract. Add the corresponding evidence quotes, then use exact approved Arabic target-verse substrings and provide one scripture_selections item per quote. Preserve each printed reference, quote scope, and ellipsis; do not invent or substitute verse wording.",
-      "translation_quote": "“...خير لك أن تدخل ملكوت الله بعين واحدة...” (مرقس 9:47); “بل إنسان القلب الخفي...” (1 بطرس 3:4-5); “...ويل لذلك الإنسان الذي به تأتي العثرة!” (متى 18:7); “من هو حكيم وعالم بينكم؟” (يعقوب 3:13); “...أن ننكر الفجور والشهوات العالمية...” (تيطس 2:12)."
+      "source_quote": "Five Scripture quotations: Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; Titus 2:12.",
+      "suggested_fix": "These genuine Scripture quotations are absent from scripture_evidence, although they appear in the article. Obtain the required approved Arabic verse evidence and align each quotation to its corresponding target text, preserving each printed reference, quotation scope, and ellipsis. Do not invent replacement Scripture wording.",
+      "translation_quote": "«خير لك أن تدخل ملكوت الله بعين واحدة من أن تكون لك عينان وتُلقى في جهنم النار – مرقس 9:47»; «بل إنسان القلب الخفي... – 1 بطرس 3:4-5»; «...ويل لذلك الإنسان الذي به تأتي العثرة! – متى 18:7»; «من هو حكيم وعالم بينكم؟... – يعقوب 3:13»; «...أن ننكر الفجور والشهوات العالمية... – تيطس 2:12»"
+    },
+    {
+      "location": " /article[1]/p[18]",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Replace «إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة» with «إن كان شيء ما يجعلك تعثرين أو يعثركِ، فأبعديه عنكِ» (or an idiomatic equivalent preserving both senses of causing/experiencing stumbling).",
+      "translation_quote": "«إن كان شيء ما يجعلك تخطئين أو يجعلك سبب عثرة، فأبعديه عنك بعيدًا.»"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "75b8f8cd5e9635eb48f212e1c898fa20",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ara",
@@ -165,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +201,7 @@
   "scripture_evidence_sha256": "8ec0f515bbeba76273db2ae313c05c7d68f7b783362bf82db80bed1b3f1aaf69",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

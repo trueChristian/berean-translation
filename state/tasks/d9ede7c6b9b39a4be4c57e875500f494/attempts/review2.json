@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, paragraph 4; quoted wording before the sentence about a miracle\",\"severity\":\"major\",\"source_quote\":\"her commitment to “whither thou goest, I will go”\",\"suggested_fix\":\"This is a quoted Scripture passage that was not identified in scripture_evidence. Do not invent or supply Scripture wording without approved target-verse evidence. Obtain the required evidence and render the corresponding target-language words while retaining the quotation and its placement.\",\"translation_quote\":\"اس کے عہد ”تو جہاں جائے گی، میں بھی وہاں جاؤں گا“\"},{\"location\":\"source.html and translation.html, final paragraph, emphasized quotation and reference\",\"severity\":\"major\",\"source_quote\":\"restore to [us] the years that the locust hath eaten! (Joel 2:25a)\",\"suggested_fix\":\"This is a quoted Scripture passage that was not identified in scripture_evidence. Do not invent or supply Scripture wording without approved target-verse evidence. Obtain the required evidence and render the corresponding target-language words, preserving the emphasis, omission, and reference placement.\",\"translation_quote\":\"<em>جو برس ٹڈیوں نے کھا لیے تھے، وہ [ہمارے لیے] بحال کر دے!</em> (یوایل 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":78}",
+    "content_bytes": 1364,
+    "content_evidence_truncated": false,
+    "content_sha256": "8b6be73679bac9b74d15d35ae12580f232a8b2862f0f9e20630910e1391ab4fb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4262,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6773
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

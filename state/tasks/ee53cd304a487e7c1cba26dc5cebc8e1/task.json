@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 8200
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 853,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 658,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5500,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3961,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6353
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph 4: quotation “whither thou goest, I will go”",
+      "location": "source.html and translation.html, final paragraph, italicized Joel 2:25a quotation",
       "severity": "major",
-      "source_quote": "her commitment to “whither thou goest, I will go” began a miracle.",
-      "suggested_fix": "This is a recognizable Scripture quotation (Ruth 1:16), but it is missing from scripture_evidence. Have it identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
-      "translation_quote": "komitmennya untuk “ke mana engkau pergi, ke situ jugalah aku pergi” mulai menghasilkan mukjizat."
-    },
-    {
-      "location": "HTML, paragraph 12: italicized quotation and Joel 2:25a reference",
-      "severity": "major",
-      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
-      "suggested_fix": "The text quotes Scripture, but scripture_evidence lists Joel 2:25a as reference_only and provides no quote text. Have the quotation identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
-      "translation_quote": "memulihkan bagi [kami] tahun-tahun yang dimakan belalang! (Yoel 2:25a)"
-    },
-    {
-      "location": "HTML, paragraph 11: first sentence",
-      "severity": "major",
-      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
-      "suggested_fix": "Correct the attribution so Ann is identified as the one responding, for example: “Tanggapan saya, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus.”",
-      "translation_quote": "Tanggapanku, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus."
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "This is a Scripture quotation not represented in scripture_evidence. Obtain the required approved target-language verse evidence and quote selection, then replace only the italicized text with the semantically corresponding approved Indonesian words, preserving the ellipsis, brackets, italics, and reference placement. Do not invent or generate replacement Scripture wording without that evidence.",
+      "translation_quote": "<em>memulihkan bagi [kami] tahun-tahun yang dimakan belalang!</em> (Yoel 2:25a)"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "ee53cd304a487e7c1cba26dc5cebc8e1",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ind",
@@ -179,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -187,7 +194,7 @@
   "scripture_evidence_sha256": "688e7ac73ce055176d90e804afc48783006ae37d1700549d29c3946d5652b871",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

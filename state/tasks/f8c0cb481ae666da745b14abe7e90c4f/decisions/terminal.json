@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; quoted phrase before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "Add this quotation to the Scripture evidence and use the exact corresponding Spanish words from its approved target verse. Then provide its required scripture_selection with the exact location and target-verse substring; do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "devolvernos los años que devoró la langosta."
+    },
+    {
+      "location": "source.html and translation.html, paragraph 4; quoted phrase «whither thou goest, I will go» / «adonde tú vayas, yo iré»",
+      "severity": "major",
+      "source_quote": "whither thou goest, I will go",
+      "suggested_fix": "This recognizable Scripture quotation is absent from scripture_evidence. Add it to the evidence and use the exact corresponding Spanish words from its approved target verse, with the required scripture_selection at this location. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "adonde tú vayas, yo iré"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

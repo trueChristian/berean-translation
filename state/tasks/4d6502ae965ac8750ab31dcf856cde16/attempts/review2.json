@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]; scripture_evidence.quotes is empty and scripture_selection_audit.selections is empty\",\"severity\":\"major\",\"source_quote\":\"The article contains printed Scripture quotations identified by the references Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.\",\"suggested_fix\":\"Have these Scripture quotations identified in the evidence and checked against approved target-language verse text, with the required selections recorded for each quote. Do not generate or substitute Scripture wording without that evidence.\",\"translation_quote\":\"The corresponding translated quotations appear in the cited paragraphs, but none has an evidence quote or scripture selection.\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 864,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cde7738694a1f500dd801c458e4b5438dd2926e41a39dc5b867b7097d746ac4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8204,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10634
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

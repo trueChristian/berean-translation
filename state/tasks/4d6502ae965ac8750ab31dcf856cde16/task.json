@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:38+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13309
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 891,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 671,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9743,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8204,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10634
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]; scripture_selection_audit.selections",
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]; scripture_evidence.quotes is empty and scripture_selection_audit.selections is empty",
       "severity": "major",
-      "source_quote": "The article contains quoted Scripture at Mar 9:47, 1Pe 3:4-5, Mat 18:7, Jas 3:13, and Tit 2:12. For example: “...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.”",
-      "suggested_fix": "Have the application provide the required approved target-language Scripture evidence and regenerate the Scripture selections for all five quotations, preserving their printed meanings, ellipses, references, and placement. Do not invent Scripture wording or use an English fallback; verify each quotation against its approved target text.",
-      "translation_quote": "“...lebih baik bagimu masuk ke dalam Kerajaan Allah dengan satu mata daripada dengan dua mata dicampakkan ke dalam api neraka –Mar 9:47”; the other quoted passages appear at the listed locations. The audit contains “selections”: []."
+      "source_quote": "The article contains printed Scripture quotations identified by the references Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
+      "suggested_fix": "Have these Scripture quotations identified in the evidence and checked against approved target-language verse text, with the required selections recorded for each quote. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "The corresponding translated quotations appear in the cited paragraphs, but none has an evidence quote or scripture selection."
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "4d6502ae965ac8750ab31dcf856cde16",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ind",
@@ -165,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +194,7 @@
   "scripture_evidence_sha256": "6fb4a8818c2330eaa70e85371f1c34320addf2543f48dcb0b40dc5ea89ed2247",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

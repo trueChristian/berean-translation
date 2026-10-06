@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html /article[1]/p[4]",
+      "severity": "major",
+      "source_quote": "“When I was a young woman, I didn’t struggle with wanting to wear perfume or jewelry or even make-up.”",
+      "suggested_fix": "Ändra till exempelvis: ”När jag var ung kvinna kände jag ingen längtan efter att använda parfym, smycken eller ens smink.”",
+      "translation_quote": "”När jag var ung kvinna hade jag inte svårt att avstå från parfym, smycken eller ens smink.”"
+    },
+    {
+      "location": "source.html /article[1]/p[18], /article[1]/p[20] (två citat), /article[1]/p[21] och /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "Fem citerade bibelställen: Mark 9:47; 1 Pet 3:4–5; Matt 18:7; Jas 3:13; Tit 2:12.",
+      "suggested_fix": "Komplettera scripture_evidence och scripture_selections för samtliga fem citat enligt den angivna måltexten och kontrollera att de svenska citaten återger exakt rätt verser och de tryckta utelämningarna. Syntetisera inte bibeltext eller använd en engelsk reservtext.",
+      "translation_quote": "De fem bibelcitaten finns översatta i texten, men scripture_evidence.quotes och scripture_selections är tomma."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

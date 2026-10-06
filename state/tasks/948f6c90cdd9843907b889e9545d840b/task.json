@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:29+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 13545
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html and translation.html, Scripture quotations in paragraphs 18, 20 (two quotations), 21, and 27",
-      "severity": "major",
-      "source_quote": "Scripture quotations ending “Mar 9:47,” “1Pe 3:4-5,” “Mat 18:7,” “Jas 3:13,” and “Tit 2:12”",
-      "suggested_fix": "Provide the required scripture_evidence entries for these five quotations and render each from its exact approved Simplified Chinese target_verses text, with one scripture_selections item per quote and the required source block paths and offsets. Preserve each printed reference and its ellipses.",
-      "translation_quote": "对应的圣经引文分别以“可9:47”“彼前3:4-5”“太18:7”“雅3:13”和“多2:12”标注；scripture_evidence.quotes 和 scripture_selections 均为空。"
     },
     {
-      "location": "source.html and translation.html, paragraph 20 (the quotation ending 1Pe 3:4-5)",
-      "severity": "major",
-      "source_quote": "“in that which is not corruptible, even the ornament of a meek and quiet spirit”",
-      "suggested_fix": "Render the full quoted passage using the exact approved target text for 1 Peter 3:4-5. The translation must preserve the source’s meaning about what is incorruptible and the ornament of a meek and quiet spirit; do not leave out substantive parts of the printed quotation.",
-      "translation_quote": "“里面存着长久温柔、安静的心为妆饰”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1508,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9881,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8342,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11389
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "scripture_evidence and corresponding quoted passages: /article[1]/p[18], p[20] (both quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "Scripture quotations printed in the source include “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47), “...the holy women also...adorned themselves...” (1Pe 3:4-5), “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7), “Who is a wise [wo]man...” (Jas 3:13), and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Have the evidence extraction include these genuine Scripture quotations and review their corresponding translated text against the approved target verses. Do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "The corresponding translated quotations appear at /article[1]/p[18], p[20] (both quotations), p[21], and p[27]; scripture_evidence.quotes and scripture_selections are both empty."
+    },
+    {
+      "location": "/article[1]/p[20]",
+      "severity": "major",
+      "source_quote": "“But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit...”",
+      "suggested_fix": "After obtaining the required Scripture evidence, translate the full quoted meaning, including the hidden person of the heart and the incorruptible quality; retain the source ellipsis and reference.",
+      "translation_quote": "“只要以那不能朽坏的为妆饰，就是以温柔、安静的灵为妆饰……”"
+    },
+    {
+      "location": "/article[1]/p[20]",
+      "severity": "major",
+      "source_quote": "“...woe to that [wo]man by whom the offence cometh!”",
+      "suggested_fix": "After obtaining the required Scripture evidence, retain the source’s attribution that the woe is to the person through whom the stumbling comes; preserve the quotation’s ellipsis and reference.",
+      "translation_quote": "“……那叫人跌倒的有祸了！”"
+    },
+    {
+      "location": "/article[1]/p[18]",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Distinguish causing someone to stumble from being caused to stumble, and preserve both alternatives in the Chinese sentence.",
+      "translation_quote": "“如果有什么事使你犯罪，或使人跌倒，就把它远远丢开。”"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "948f6c90cdd9843907b889e9545d840b",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "cmn",
@@ -172,7 +207,7 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +215,7 @@
   "scripture_evidence_sha256": "258789a3fdd09c3401ffd9796472c87b6b514b1513883046e381707f19306e27",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

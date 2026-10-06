@@ -2,7 +2,6 @@
   "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:54+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 3850
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 737,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 591,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1616,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 3892
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html / first <p class=\"poem\">, lines beginning “That it tarnish no more” and “And bring me the jewels”",
+      "location": "source.html and translation.html, second poem, lines beginning “A life that…”",
       "severity": "major",
-      "source_quote": "My Father, the King, / Will all ugliness take / Away from my heart, / That it tarnish no more / And bring me the jewels / That He has in store.",
-      "suggested_fix": "Keep the King as the subject of both actions, and make the heart the thing no longer tarnished. For example: “Mijn Vader, de Koning, / zal alle lelijkheid / uit mijn hart wegnemen, / zodat mijn hart niet langer bezoedeld wordt, / en mij de juwelen brengen / die Hij voor mij heeft weggelegd.”",
-      "translation_quote": "Mijn Vader, de Koning, / Zal alle lelijkheid / Uit mijn hart wegnemen, / Opdat die het niet langer bezoedelt / En mij de juwelen brengt / Die Hij voor mij heeft weggelegd."
+      "source_quote": "A life that to others / Around me would give / A diamond of hope,",
+      "suggested_fix": "Replace the corresponding lines with: “Een leven dat aan anderen / Om mij heen een diamant van hoop zou schenken,” so that the life, not the people around the speaker, is the giver.",
+      "translation_quote": "Een leven dat anderen / Om mij heen zou schenken / Een diamant van hoop,"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "7d906847004bd29abae3d4ab89d02a4a",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nld",
@@ -165,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +194,7 @@
   "scripture_evidence_sha256": "fc8177f3e98724e92cc2e57a85937038f08ebdfd3dfb5adcfc5cceedc1f0f509",
   "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
   "translation_model_actual": "gpt-6-luna"

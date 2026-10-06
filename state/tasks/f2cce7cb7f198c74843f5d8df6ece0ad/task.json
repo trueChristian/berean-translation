@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 7750
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html /article[1]/p[4], quoted phrase “whither thou goest, I will go”; scripture_evidence and scripture_selections",
-      "severity": "major",
-      "source_quote": "her commitment to “whither thou goest, I will go” began a miracle.",
-      "suggested_fix": "This is a recognizable Scripture quotation, but no corresponding scripture_evidence quote or scripture_selection is present. Add the required evidence and use only its approved target_verses text for the corresponding Chinese phrase; do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "她对“你往哪里去，我也往哪里去”的委身，开始带来一个奇迹。"
     },
     {
-      "location": "source.html /article[1]/p[12], italicized quotation; scripture_evidence and scripture_selections",
-      "severity": "major",
-      "source_quote": "restore to [us] the years that the locust hath eaten!",
-      "suggested_fix": "This is a Scripture quotation, but the evidence identifies only Joel 2:25a as reference_only and provides no quote text or scripture_selection. Add the required evidence and replace the Chinese quotation only with the corresponding approved target_verses substring, preserving the source’s omission and reference placement.",
-      "translation_quote": "归还蝗虫所吃掉的那些年岁！"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 828,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 634,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5588,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4049,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6416
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; cited quote Joel 2:25a",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "Treat this printed phrase as a partial Scripture quotation and provide its approved target-verse evidence and corresponding scripture_selection. Then replace only the quoted phrase with the exact semantically corresponding contiguous substring from the approved target verse, preserving the brackets/ellipsis treatment and the reference’s identity and placement. Do not invent or paraphrase Scripture wording.",
+      "translation_quote": "“归还蝗虫所吃掉的那些年岁！”（约珥书 2:25a）; scripture_selections: []"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "f2cce7cb7f198c74843f5d8df6ece0ad",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "cmn",
@@ -180,7 +194,7 @@
   "scripture_evidence_sha256": "3618ad86c2367031e12819ae6fd6ac862e9a385c8d7f7d34f3da847e25ba9c00",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph; Scripture quotation and selection audit\",\"severity\":\"major\",\"source_quote\":\"<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)\",\"suggested_fix\":\"This is a substantive Scripture quotation, but scripture_evidence contains no quote for it and the selection audit has no selection. Obtain the required approved target-verse evidence and provide the corresponding Bengali quotation selection; do not generate or substitute Scripture wording without that evidence.\",\"translation_quote\":\"<em>পঙ্গপাল যে বছরগুলো খেয়ে ফেলেছিল, তা [আমাদের] ফিরিয়ে দিতে!</em> (যোয়েল ২:২৫ক)\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 835,
+    "content_evidence_truncated": false,
+    "content_sha256": "1baeb24ecc987ce9e14167d32368077c146e98088878267b87710f1e4d9799fc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4360,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6696
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

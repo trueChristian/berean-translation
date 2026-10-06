@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 8155
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html and translation.html, final paragraph, emphasized Scripture quotation and its reference",
-      "severity": "major",
-      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
-      "suggested_fix": "Obtain the required approved Afrikaans Scripture evidence for this quotation, then render the corresponding target-text fragment faithfully, preserving the partial-quotation scope, ellipsis, and reference placement. Include its required scripture selection; do not generate or substitute Scripture wording without the evidence.",
-      "translation_quote": "<em>die jare wat die sprinkaan [van ons] geëet het, aan [ons] terug te gee!</em> (Joël 2:25a); scripture_selection_audit.selections is empty."
     },
     {
-      "location": "translation.html, paragraph beginning “My, Ann’s response”",
-      "severity": "minor",
-      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
-      "suggested_fix": "Change the opening to “Ann se reaksie op Mark se bekering was om hom ten volle en vryelik te vergewe.”",
-      "translation_quote": "My, Ann, se reaksie op Mark se bekering was om hom volledig en vryelik te vergewe."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 650,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 473,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5763,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4224,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6413
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Scripture quotation associated with Joel 2:25a",
+      "severity": "major",
+      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "Have this quotation included in the Scripture evidence and select the corresponding exact target-edition words and fragments. Then update only the quoted text and required scripture_selections; do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "<em>die jare wat die sprinkaan [van ons] geëet het, aan [ons] terug te gee!</em> (Joël 2:25a)"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "a6982a2ad278af6c9711e48441577d1b",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "afr",
@@ -172,7 +186,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +194,7 @@
   "scripture_evidence_sha256": "668734ad6e6d636faebb1773da8d7b522fc6613d99219a249968c0346aa75c9a",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

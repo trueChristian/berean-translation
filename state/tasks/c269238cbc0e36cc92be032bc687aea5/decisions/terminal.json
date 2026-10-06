@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second poem, final two lines",
+      "severity": "minor",
+      "source_quote": "Adorned with His meekness<br>\n  And clothed with His light.",
+      "suggested_fix": "Smykket med Hans ydmykhet<br>\n  Og kledd i Hans lys.",
+      "translation_quote": "Smykket med Hans mildhet<br>\n  Og kledd i Hans lys."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

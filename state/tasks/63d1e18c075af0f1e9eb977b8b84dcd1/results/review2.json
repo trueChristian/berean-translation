@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0842cbd7-909b-4f70-91ea-55e22b322c7f",
+    "response_id": "chatcmpl-EW2b9XKHx16jppk1ULdOJvy6TOTVp",
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 467,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4182,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6487
+    }
+  },
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, paragraph 12 (Joel 2:25a)",
+        "severity": "major",
+        "source_quote": "restore to [us] the years that the locust hath eaten!",
+        "suggested_fix": "Add the corresponding Scripture quotation to the scripture evidence and select the exact semantically corresponding substring from its approved Hebrew target verse. Then update only the quoted text in the existing <em> element, preserving the reference and HTML structure.",
+        "translation_quote": "להשיב לנו את השנים אשר אכל הארבה!"
+      },
+      {
+        "location": "source.html and translation.html, paragraph 4",
+        "severity": "major",
+        "source_quote": "“whither thou goest, I will go”",
+        "suggested_fix": "Add this Scripture quotation to the scripture evidence and select its exact corresponding Hebrew target substring. Use that approved substring in the existing quotation, preserving its placement and the surrounding HTML.",
+        "translation_quote": "„באשר תלכי אלך”"
+      },
+      {
+        "location": "source.html and translation.html, paragraph 9",
+        "severity": "major",
+        "source_quote": "“the books are opened”",
+        "suggested_fix": "Assess this recognizable Scripture quotation for inclusion in the scripture evidence; if confirmed, select only its corresponding approved Hebrew target substring and replace the quoted words in place, preserving the existing HTML structure.",
+        "translation_quote": "„ייפתחו הספרים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 78
+  }
+}

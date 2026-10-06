@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html /article[1]/p[18], p[20] (three quotations), p[21], and p[27]\",\"severity\":\"major\",\"source_quote\":\"The article quotes Scripture at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12. Examples include “...it is better for thee to enter into the kingdom of God with one eye...” and “...that, denying ungodliness and worldly lusts, we should live soberly...”\",\"suggested_fix\":\"These are genuine Scripture quotations, but scripture_evidence identifies no quotation entries and the selection audit is empty. Obtain the required approved target-verse evidence for each quotation, then verify the Urdu wording and selections against that evidence. Do not generate or substitute Scripture wording without the required evidence; preserve the printed references and their placement.\",\"translation_quote\":\"Corresponding Urdu quotations appear in /article[1]/p[18], p[20] (three quotations), p[21], and p[27], but none has a scripture selection.\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 1036,
+    "content_evidence_truncated": false,
+    "content_sha256": "688299e3fa9a2a1aaea53a66817a82cca04ad7de5f9e026734ae5da8da14a69a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 554,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8890,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11252
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

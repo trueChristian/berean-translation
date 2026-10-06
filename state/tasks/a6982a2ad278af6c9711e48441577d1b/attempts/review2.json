@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph; Scripture quotation associated with Joel 2:25a\",\"severity\":\"major\",\"source_quote\":\"<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)\",\"suggested_fix\":\"Have this quotation included in the Scripture evidence and select the corresponding exact target-edition words and fragments. Then update only the quoted text and required scripture_selections; do not generate replacement Scripture wording without that evidence.\",\"translation_quote\":\"<em>die jare wat die sprinkaan [van ons] geëet het, aan [ons] terug te gee!</em> (Joël 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 689,
+    "content_evidence_truncated": false,
+    "content_sha256": "4cc1f79555fddfdfb26c1634b01dabd6a5bc8297fdf638a4368101e32523bf12",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 473,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5763,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4224,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6413
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

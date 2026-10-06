@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html and translation.html, final paragraph; quoted phrase before (Joel 2:25a)\",\n      \"severity\": \"major\",\n      \"source_quote\": \"restore to [us] the years that the locust hath eaten!\",\n      \"suggested_fix\": \"Add this quotation to the Scripture evidence and use the exact corresponding Spanish words from its approved target verse. Then provide its required scripture_selection with the exact location and target-verse substring; do not generate or substitute Scripture wording without that evidence.\",\n      \"translation_quote\": \"devolvernos los años que devoró la langosta.\"\n    },\n    {\n      \"location\": \"source.html and translation.html, paragraph 4; quoted phrase «whither thou goest, I will go» / «adonde tú vayas, yo iré»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"whither thou goest, I will go\",\n      \"suggested_fix\": \"This recognizable Scripture quotation is absent from scripture_evidence. Add it to the evidence and use the exact corresponding Spanish words from its approved target verse, with the required scripture_selection at this location. Do not generate or substitute Scripture wording without that evidence.\",\n      \"translation_quote\": \"adonde tú vayas, yo iré\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1329,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1b445bcd88c6c6cdbad2d675d197f8bed4373ead4b917a9123b4cba57b50fd1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 602,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3953,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6413
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

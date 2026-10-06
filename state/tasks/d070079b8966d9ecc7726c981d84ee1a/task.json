@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:33+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 13473
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 808,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9959,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8420,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10767
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Scripture quotations in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "location": "Article paragraphs 18, 20 (two quotations), 21, and 27",
       "severity": "major",
-      "source_quote": "The article contains quoted Scripture at Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
-      "suggested_fix": "The supplied scripture_evidence has no quote entries for these passages. Retrieve approved target-verse evidence for each quotation, then align the French text to the exact corresponding target-verse substrings, preserving the source’s partial-quote scope, ellipses, and reference placement. Do not generate or substitute Scripture wording without that evidence.",
-      "translation_quote": "« … il vaut mieux pour toi entrer dans le royaume de Dieu avec un seul œil… »; « Mais que votre parure soit l’homme caché du cœur… »; « … malheur à celui par qui l’occasion de chute arrive ! »; « Qui est sage et intelligent parmi vous ? »; « … qu’en renonçant à l’impiété et aux convoitises mondaines… »"
+      "source_quote": "Direct Scripture quotations: Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; Titus 2:12.",
+      "suggested_fix": "Add these quotations to scripture_evidence and review the French wording against the exact approved Martin (1744) verse text, preserving each printed partial quotation, ellipsis, and reference. Do not invent or substitute Scripture wording where the approved evidence is unavailable.",
+      "translation_quote": "Direct French Scripture quotations in the corresponding paragraphs, including « … il vaut mieux pour toi entrer dans le royaume de Dieu… » and « … qu’en renonçant à l’impiété… »"
+    },
+    {
+      "location": "Article paragraph 18",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Revise the French so it preserves both the idea of causing someone to stumble and of being caused to stumble; avoid rendering the first sense simply as being led to sin.",
+      "translation_quote": "« si quelque chose t’amène à pécher ou à devenir une occasion de chute, éloigne-le de toi. »"
     }
   ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "d070079b8966d9ecc7726c981d84ee1a",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -165,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -173,7 +201,7 @@
   "scripture_evidence_sha256": "7bd1f5069ae3166760b5a032c6e12000867a7c859d218d40c3090d433faba442",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

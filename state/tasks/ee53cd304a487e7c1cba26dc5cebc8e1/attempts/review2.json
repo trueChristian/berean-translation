@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph, italicized Joel 2:25a quotation\",\"severity\":\"major\",\"source_quote\":\"“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\"suggested_fix\":\"This is a Scripture quotation not represented in scripture_evidence. Obtain the required approved target-language verse evidence and quote selection, then replace only the italicized text with the semantically corresponding approved Indonesian words, preserving the ellipsis, brackets, italics, and reference placement. Do not invent or generate replacement Scripture wording without that evidence.\",\"translation_quote\":\"<em>memulihkan bagi [kami] tahun-tahun yang dimakan belalang!</em> (Yoel 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 791,
+    "content_evidence_truncated": false,
+    "content_sha256": "f9979bca9d2a79d85a0bec6a390f78c0528fc698103ad94590c7b51266a5d56c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 658,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5500,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3961,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6353
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

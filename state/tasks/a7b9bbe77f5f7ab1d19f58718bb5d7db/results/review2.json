@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d2203b3d-1f8a-4d33-a351-4a71b256cc66",
+    "response_id": "chatcmpl-EW2c0e2K7d0jG7XVjHskmHCe5yyL4",
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9708,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 12013
+    }
+  },
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], and /article[1]/p[27]",
+        "severity": "major",
+        "source_quote": "The article contains direct Scripture quotations at Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
+        "suggested_fix": "These are genuine Scripture quotations but scripture_evidence contains no quote entries and the selection audit is empty. Retrieve approved Greek verse evidence for each quotation, then render the corresponding target-edition words in these existing locations with selections that match the printed quotation scope, ellipses, and references. Do not create or substitute Scripture wording without that evidence.",
+        "translation_quote": "Corresponding Greek quotations appear in the same five locations, for example «…είναι καλύτερα για σένα να μπεις στη βασιλεία του Θεού…» (Μάρκ. 9:47) and «…να αρνηθούμε την ασέβεια…» (Τίτ. 2:12); scripture_selections is empty."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 82
+  }
+}

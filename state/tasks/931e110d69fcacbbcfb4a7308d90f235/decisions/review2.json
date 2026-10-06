@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Scripture quotation before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "Add this printed Scripture quotation to scripture_evidence and verify the German quotation against the approved target verse text, including its partial-quote scope and ellipsis. Then provide the required scripture_selection for this quotation; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "[uns] die Jahre zu erstatten, welche die Heuschrecke gefressen hat!"
+    },
+    {
+      "location": "source.html and translation.html, paragraph beginning “Then it happened”; quoted phrase “whither thou goest, I will go”",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Identify this Scripture quotation in scripture_evidence and verify the German phrase against the approved target verse text. Then provide the required scripture_selection for the partial quotation; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "„wohin du gehst, dahin gehe auch ich“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

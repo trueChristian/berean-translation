@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Scripture quotations in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]\",\"severity\":\"major\",\"source_quote\":\"“...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47”; “...the ornament of a meek and quiet spirit... –1Pe 3:4-5”; “...woe to that [wo]man by whom the offence cometh! –Mat 18:7”; “Who is a wise [wo]man and endued with knowledge among you? ... –Jas 3:13”; “...denying ungodliness and worldly lusts... –Tit 2:12.”\",\"suggested_fix\":\"These are substantive Scripture quotations, but none is identified in scripture_evidence; the evidence lists only references and scripture_selections is empty. Supply the approved target-verse evidence and then use its exact corresponding Kiswahili substrings for each quotation, preserving the source ellipses and references. Do not generate replacement Scripture wording without that evidence.\",\"translation_quote\":\"“...ni afadhali kwako kuingia katika ufalme wa Mungu...” (Marko 9:47); “...utu wa moyoni usioharibika...” (1 Petro 3:4-5); “...ole wake yule...” (Mathayo 18:7); “Ni nani aliye... mwenye hekima...” (Yakobo 3:13); “...tukatae ubaya na tamaa za kidunia...” (Tito 2:12).\"},{\"location\":\"Paragraph /article[1]/p[18]\",\"severity\":\"major\",\"source_quote\":\"“if something causes you to offend, or be offended, cast it far from you.”\",\"suggested_fix\":\"Revisit this interpretation against the printed source. Translate both alternatives—something causing you to offend and something causing you to be offended—without narrowing the statement to committing sin or causing another person to stumble.\",\"translation_quote\":\"“ikiwa kitu fulani kinakufanya utende dhambi, au kikamkosesha mwingine, kitupilie mbali nacho.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":70}",
+    "content_bytes": 1889,
+    "content_evidence_truncated": false,
+    "content_sha256": "00db2a0309c7bfb3d545413f7cbc32c502d5ba39d07cc5c08da0e0cda813c24c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 700,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8644,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11380
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations: /article[1]/p[18], /article[1]/p[20] (1 Peter 3:4–5 and Matthew 18:7), /article[1]/p[21], and /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire” (Mark 9:47); “But let it [the adornment] be the hidden man of the heart...” (1 Peter 3:4–5); “...woe to that [wo]man by whom the offence cometh!” (Matthew 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (James 3:13); “...that, denying ungodliness and worldly lusts, we should live soberly...” (Titus 2:12).",
+      "suggested_fix": "These are substantive Scripture quotations, but scripture_evidence identifies no quotes and the translation has no scripture selections for them. Retrieve approved evidence for each quotation, then revise the target wording and selections to match the required target-verse substrings, preserving the printed omissions, ellipses, reference identities, and placement. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "“...dit is vir jou beter om met een oog in die koninkryk van God in te gaan...” (Markus 9:47); “Maar laat dit die verborge mens van die hart wees...” (1 Petrus 3:4–5); “...wee die mens deur wie die struikeling kom!” (Matteus 18:7); “Wie is wys en met kennis toegerus onder julle?” (Jakobus 3:13); “...om die goddeloosheid en wêreldse begeerlikhede te verloën...” (Titus 2:12)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

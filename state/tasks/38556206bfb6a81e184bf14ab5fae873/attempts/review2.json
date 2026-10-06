@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T21:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Joel 2:25a quotation\",\"severity\":\"major\",\"source_quote\":\"“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\"suggested_fix\":\"This is a Scripture quotation, but scripture_evidence classifies Joel 2:25a as reference_only and supplies no quote evidence. Have the evidence extraction identify the quoted fragment, then render it using the exact corresponding words from the approved Italian target verse and provide the required scripture_selection. Do not generate or paraphrase Scripture words as a workaround.\",\"translation_quote\":\"«restituirci gli anni che la locusta ha divorato!» (Gioele 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 719,
+    "content_evidence_truncated": false,
+    "content_sha256": "c1787343e90553731ecc60d8288993c4a45497d709e66700fc34372344ed8df7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 674,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5656,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6333
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

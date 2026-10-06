@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 7698
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html /article/p[last], Scripture quotation and reference",
-      "severity": "major",
-      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
-      "suggested_fix": "Treat this as a Scripture quotation requiring approved-verse evidence and a corresponding scripture_selections entry. The current evidence lists no quote and the audit has no selection, so the quotation cannot be verified against the required German verse text. Do not invent or reconstruct Scripture wording; obtain the approved evidence and select the matching target text.",
-      "translation_quote": "„[uns] die Jahre zu erstatten, welche die Heuschrecke gefressen hat!“ (Joel 2:25a); scripture_selections: []"
     },
     {
-      "location": "source.html /article/p[11] (the paragraph beginning “My, Ann’s response…”)",
-      "severity": "major",
-      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
-      "suggested_fix": "Clarify that Mark is describing his wife Ann’s response, for example: „Die Reaktion meiner Frau Ann auf Marks Umkehr war von uneingeschränkter und bereitwillig gewährter Vergebung geprägt.“",
-      "translation_quote": "Meine – Anns – Antwort auf Marks Umkehr war uneingeschränkte und unbedingte Vergebung."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 922,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5532,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3993,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6454
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Scripture quotation before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "Add this printed Scripture quotation to scripture_evidence and verify the German quotation against the approved target verse text, including its partial-quote scope and ellipsis. Then provide the required scripture_selection for this quotation; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "[uns] die Jahre zu erstatten, welche die Heuschrecke gefressen hat!"
+    },
+    {
+      "location": "source.html and translation.html, paragraph beginning “Then it happened”; quoted phrase “whither thou goest, I will go”",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Identify this Scripture quotation in scripture_evidence and verify the German phrase against the approved target verse text. Then provide the required scripture_selection for the partial quotation; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "„wohin du gehst, dahin gehe auch ich“"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "931e110d69fcacbbcfb4a7308d90f235",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "deu",
@@ -172,7 +193,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +201,7 @@
   "scripture_evidence_sha256": "b5b21d8bae394022c9e9dbb90f9bb733f253f7242dabd1b0ce3f462ad03c9e12",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

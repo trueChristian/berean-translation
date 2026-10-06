@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b114d197a74747599eb0ccec683d15c5",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 8185
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html and translation.html, final paragraph (/article[1]/p[12]); Scripture quotation and selection audit",
-      "severity": "major",
-      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
-      "suggested_fix": "This is a Scripture quotation, but scripture_evidence identifies only a reference and supplies no quote evidence. Add the corresponding approved quote evidence and selection; then render the matching target-edition words in the existing <em> element, preserving the ellipsis, reference, and structure. Do not generate replacement Scripture wording without that evidence.",
-      "translation_quote": "<em>להשיב לנו את השנים אשר אכל הארבה!</em> (יואל 2:25א)"
     },
     {
-      "location": "source.html and translation.html, paragraph 11 (/article[1]/p[11])",
-      "severity": "major",
-      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
-      "suggested_fix": "Render this as Ann’s response, without making it Mark’s response; for example: „תגובתה של אן לחרטתו של מארק הייתה סליחה שלמה וחופשית.”",
-      "translation_quote": "תגובתי, של אן, לחרטתו של מארק הייתה סליחה שלמה וחופשית."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 467,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5721,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4182,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6487
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph 12 (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "Add the corresponding Scripture quotation to the scripture evidence and select the exact semantically corresponding substring from its approved Hebrew target verse. Then update only the quoted text in the existing <em> element, preserving the reference and HTML structure.",
+      "translation_quote": "להשיב לנו את השנים אשר אכל הארבה!"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 4",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Add this Scripture quotation to the scripture evidence and select its exact corresponding Hebrew target substring. Use that approved substring in the existing quotation, preserving its placement and the surrounding HTML.",
+      "translation_quote": "„באשר תלכי אלך”"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 9",
+      "severity": "major",
+      "source_quote": "“the books are opened”",
+      "suggested_fix": "Assess this recognizable Scripture quotation for inclusion in the scripture evidence; if confirmed, select only its corresponding approved Hebrew target substring and replace the quoted words in place, preserving the existing HTML structure.",
+      "translation_quote": "„ייפתחו הספרים”"
+    }
+  ],
+  "finished_at": "2026-10-06T21:19:56+00:00",
   "id": "63d1e18c075af0f1e9eb977b8b84dcd1",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "heb",
@@ -172,7 +200,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
@@ -180,7 +208,7 @@
   "scripture_evidence_sha256": "d497f2524aaa2dddc779733aec1a106a5e7d2964e06c70394f047694fd8abbb6",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"
