@@ -426,7 +426,142 @@
       "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
       "language": "ben",
       "reason": "continuation_progress_uncertain_requires_attention"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "fra",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "por",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "rus",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "deu",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "nld",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "afr",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "kor",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "ita",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "heb",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "ell",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "swe",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "language": "nob",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "cmn",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "spa",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "ara",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "fra",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "por",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "rus",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "deu",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "nld",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "afr",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "kor",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "ita",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "heb",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "ell",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "swe",
+      "reason": "manual_admission_pending"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "language": "nob",
+      "reason": "manual_admission_pending"
     }
   ],
-  "pending_requests": 5
+  "pending_requests": 10
 }
