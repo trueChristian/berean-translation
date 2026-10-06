@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, lines 3–4",
+      "severity": "minor",
+      "source_quote": "That merits my giving / Of talent and time",
+      "suggested_fix": "যে আহ্বানের মর্যাদা রাখতে / প্রতিভা ও সময় দিই",
+      "translation_quote": "যার যোগ্যতা রাখে / আমার প্রতিভা ও সময় দান।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:02:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, first stanza, lines 3–4\",\"severity\":\"minor\",\"source_quote\":\"That merits my giving / Of talent and time\",\"suggested_fix\":\"যে আহ্বানের মর্যাদা রাখতে / প্রতিভা ও সময় দিই\",\"translation_quote\":\"যার যোগ্যতা রাখে / আমার প্রতিভা ও সময় দান।\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 463,
+    "content_evidence_truncated": false,
+    "content_sha256": "f95f3d14766465ea126f03d3b27c8aaa98be0a58b234383f1c226aa390434c56",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1577,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3847
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

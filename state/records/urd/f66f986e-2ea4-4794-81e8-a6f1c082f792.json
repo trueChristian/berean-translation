@@ -6,9 +6,32 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "e2810bcd5090eeba093344138c83d560"
+    },
+    {
+      "at": "2026-10-06T09:02:36+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e2810bcd5090eeba093344138c83d560"
     }
   ],
   "language": "urd",
   "latest_task": "e2810bcd5090eeba093344138c83d560",
-  "published": null
+  "published": {
+    "html_path": "content/urd/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+    "html_sha256": "c9f788cd700bf9b3864285c67c3c9d6be14de77de37a474662d8103123623de6",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+    "metadata_path": "content/urd/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+    "metadata_sha256": "ec2a6ee49447992ec89b423fa52e2d8dc1ce6c14bfb45f9c901c2639b8526b69",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ur\" dir=\"rtl\" role=\"note\">\n  <p>اس مضمون کا ترجمہ OpenAI (ماڈل: gpt-6-luna) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔ <a href=\"/en/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792/\" data-source-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\" hreflang=\"en\">اصل انگریزی متن</a></p>\n</aside>",
+    "published_at": "2026-10-06T09:02:36+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+    "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
+    "task": "e2810bcd5090eeba093344138c83d560",
+    "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6"
+  }
 }

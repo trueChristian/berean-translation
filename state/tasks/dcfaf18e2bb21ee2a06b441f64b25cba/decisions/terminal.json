@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, /article[1]/p[5]",
+      "severity": "minor",
+      "source_quote": "“Whee, here we come!”",
+      "suggested_fix": "Replace «У-у-у, держитесь!» with an excited shout that conveys “here we come,” for example «Ура, мы едем!»",
+      "translation_quote": "«У-у-у, держитесь!»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

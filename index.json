@@ -4964,6 +4964,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/a028f656-cd41-4330-9633-2a4b4ce028e3.html",
+      "html_sha256": "fcc4a6c3deb509d84582edbbcf218629ced5fa970fffb286d6995d2c2661647d",
+      "human_reviewed": false,
+      "id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
+      "images": [],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a028f656-cd41-4330-9633-2a4b4ce028e3.json",
+      "metadata_sha256": "8b2315d7216671a171f2434f9fa9cef748caf6d4e0ee8a1df24960fcc10098b6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "شهادتنا بأن طرق الله تنجح",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "01f0cfbda79c9d270945a6044a120c5ffd1304e7693ef5cab362be4dd0657ec6",
       "human_reviewed": false,
@@ -8614,6 +8637,34 @@
       "status": "ready",
       "subtitle": "জগতের সর্বশ্রেষ্ঠ বিষয়",
       "title": "এই যে প্রেম",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "06fdc385a009de538308e5af678c2eebda3879b01e50be7a6ffda538afc0c8f0",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "নীল ও সবুজ পটভূমিতে উজ্জ্বল গোলাপি ফুল",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "0f6c719e1806b509297e76ce4b72cef8dd59ba8f172ab960e81e85ea7b714f23",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "কবিতা",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ঈশ্বরের এক রাজকন্যা",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -17349,6 +17400,34 @@
       "subtitle": null,
       "title": "Une réflexion sur la première Église mennonite américaine",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "9b36a3a73472586c84b9e9fb9a6879b8f51baa6cb17a01178d1a81f059f03be4",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "Un jeune garçon souriant, portant un casque et debout à côté d’un vélo rouge",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "2a48c597be8855cdc69ad0f6d0bc2c1beae4fecdf47dc317a4b3a40ce7c62e08",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RUBRIQUE DES ENFANTS",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La chute de Joey",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -32071,6 +32150,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "3215a614a926c07fe0fb32563de1a566daefea04e0d887213d16afce37539b2e",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "헬멧을 쓰고 빨간 자전거 옆에 서서 웃고 있는 어린 소년",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "b718865c9c4d59c3066b3aa4b25f347625e6df2e93e0d50c55d7742dd8a70cb3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "어린이 코너",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "조이의 추락",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/34125090-b480-4d63-b13a-33d47470f335.html",
       "html_sha256": "df80fc98f90167a41da6561e474ffea594be1b227c34c70c77f5a11078b136d9",
       "human_reviewed": false,
@@ -41839,6 +41946,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "92ab73f21799deccf9da484f6ae89bc74676bed9a3249e43f44044fa26e19df7",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "Um menino sorridente usando capacete e ao lado de uma bicicleta vermelha",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "ae36a02d255e0ad74e49aec020bc64055a6f454c0e487501c09f04ca12ff9706",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ESPAÇO INFANTIL",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A queda de Joey",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/34125090-b480-4d63-b13a-33d47470f335.html",
       "html_sha256": "5b28b90cc18ba320dc1cfc8478fafabcac94902fc1b132e47207bb37b6339275",
       "human_reviewed": false,
@@ -45762,6 +45897,34 @@
       "subtitle": null,
       "title": "Размышления о ранней американской меннонитской церкви",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "275cf8c1f6577a7f0e24f302bc68a23691b84fd2fd9b2fb8afd352684168df0b",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "Улыбающийся мальчик в шлеме стоит рядом с красным велосипедом",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "b52971c9417201c0751268594879268df8ca35f8d08da8bca0c98666443684af",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ДЕТСКИЙ УГОЛОК",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Падение Джоуи",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -51782,6 +51945,34 @@
       "subtitle": null,
       "title": "Canto de invierno",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "074862931dc7cb93b151689cb46faacd2b3a4cff353e5b716ca65ab11a25ef13",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Una flor de color rosa intenso sobre un fondo azul y verde",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "c5fa85051b3c0dc08673d831d9e478a8b6498c7065d95754e556c15f1aa11ce9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una princesa de Dios",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -59665,6 +59856,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "ضمیر کی خاطر",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "c9f788cd700bf9b3864285c67c3c9d6be14de77de37a474662d8103123623de6",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "نیلے اور سبز پس منظر کے سامنے شوخ گلابی پھول",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "ec2a6ee49447992ec89b423fa52e2d8dc1ce6c14bfb45f9c901c2639b8526b69",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نظم",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خدا کی شہزادی",
       "translation_model": "gpt-6-luna"
     },
     {

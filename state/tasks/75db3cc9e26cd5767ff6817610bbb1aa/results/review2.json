@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed837293-9d6d-4cf4-8841-6fb5baba5fe4",
+    "response_id": "chatcmpl-EVphZMlUgOO03zWCYJQYqD7wpGG29",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1577,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3847
+    }
+  },
+  "received_at": "2026-10-06T09:02:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza, lines 3–4",
+        "severity": "minor",
+        "source_quote": "That merits my giving / Of talent and time",
+        "suggested_fix": "যে আহ্বানের মর্যাদা রাখতে / প্রতিভা ও সময় দিই",
+        "translation_quote": "যার যোগ্যতা রাখে / আমার প্রতিভা ও সময় দান।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

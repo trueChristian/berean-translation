@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:02:36+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html and translation.html, /article[1]/p[5]\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“Whee, here we come!”\",\n      \"suggested_fix\": \"Replace «У-у-у, держитесь!» with an excited shout that conveys “here we come,” for example «Ура, мы едем!»\",\n      \"translation_quote\": \"«У-у-у, держитесь!»\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 472,
+    "content_evidence_truncated": false,
+    "content_sha256": "abc24d5884d4d2dce4f465eb91f4d7aa47a4954a75d261f90476121febe6aedf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 553,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9084,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7545,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 9790
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

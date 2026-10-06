@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ac29462-a3aa-4808-a84e-9ae7b7a440c9",
+    "response_id": "chatcmpl-EVphLTHdKF31omVl5Ol6Hb4vwlRUU",
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 604,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9252,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7713,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10111
+    }
+  },
+  "received_at": "2026-10-06T09:02:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, paragraph beginning “With a run and a hop…”",
+        "severity": "minor",
+        "source_quote": "With a run and a hop, he was on his bike.",
+        "suggested_fix": "‘달려와 폴짝 뛰어올라 자전거에 올라탔습니다.’처럼 달려와 뛰어오르는 동작을 살려 주세요.",
+        "translation_quote": "힘껏 뛰어올라 자전거에 올라탔습니다."
+      },
+      {
+        "location": "source.html / translation.html, same paragraph, sentence about Joey being taken home",
+        "severity": "minor",
+        "source_quote": "Our little, humbled “hero” of the hill was taken home to his mother",
+        "suggested_fix": "수동 표현 ‘데려가졌고’를 자연스러운 한국어로 바꾸세요. 예: ‘언덕의 풀이 죽은 작은 “영웅”은 집으로 돌아와 어머니에게 갔고…’",
+        "translation_quote": "풀이 죽은 우리의 작은 ‘영웅’은 집으로 데려가졌고"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

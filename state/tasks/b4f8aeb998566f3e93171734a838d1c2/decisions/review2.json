@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, first paragraph",
+      "severity": "major",
+      "source_quote": "“What are plain mothers of today telling their daughters about the carousel of cosmetics proffered for women?”",
+      "suggested_fix": "Replace „ungeschminkte Mütter“ with wording that conveys “plain mothers” as simple or modest mothers, for example „schlichte Mütter von heute“; retain the rest of the paragraph’s structure.",
+      "translation_quote": "„Was erzählen ungeschminkte Mütter von heute ihren Töchtern über das Karussell an Kosmetik, das Frauen angeboten wird?“"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 18",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended, cast it far from you.”",
+      "suggested_fix": "Revise „Wenn dich etwas zur Sünde verleitet oder Anstoß erregt“ to preserve both source possibilities: something causing you to stumble/offend and something by which you are offended. For example: „Wenn dich etwas zu Fall bringt oder du daran Anstoß nimmst, wirf es weit von dir.“",
+      "translation_quote": "„Wenn dich etwas zur Sünde verleitet oder Anstoß erregt, wirf es weit von dir.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
