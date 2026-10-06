@@ -2519,7 +2519,8 @@
     }
   ],
   "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
+  "task_counts": {},
   "tasks": []
 }

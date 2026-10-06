@@ -2712,8 +2712,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 65,
-    "not_ready": 25
+    "complete": 22,
+    "in_batch": 42,
+    "not_ready": 26
   },
   "tasks": [
     "c85a7cbdd2fd3bfadfed3dbb5c2ea877",
