@@ -6,10 +6,11 @@
   "counts": {
     "active": 45,
     "already_translated": 108,
+    "ambiguous_quote_reference": 3,
     "continuation_progress_uncertain_requires_attention": 8,
     "eligible_automatic": 1346,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "pending_automatic_admission": 5,
+    "missing_edition": 2,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
     "technical_failure_requires_attention": 63
@@ -1181,10 +1182,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
       "language": "ara",
       "latest_task": "8e81c0c9b48d0d0da7ee2d248fd08bdc",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25"
     },
     {
@@ -1814,10 +1816,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged.",
       "language": "ben",
       "latest_task": "ac62bcd14c4cfd48776d7a6cfd80a7e1",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "missing_edition",
       "request_id": "auto-2fd7d747f21de72259d16e2403abadf6a1500ae0eea59107d4c8f72dc4f4dab5"
     },
     {
@@ -2591,10 +2594,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
       "language": "cmn",
       "latest_task": "066ef6704fda5f50904913f8b5aa5bd4",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230"
     },
     {
@@ -4600,10 +4604,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]",
       "language": "fra",
       "latest_task": "70ee4a875031df7b6f2f104eff487aca",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-ebfc20fd6832341680fd380de9483aa81ef75f33efe5541a342657bce8af1c7a"
     },
     {
@@ -6241,10 +6246,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "detail": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged.",
       "language": "hin",
       "latest_task": "c8cddc5e3bfb16a5a73b8f42c0e99875",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "missing_edition",
       "request_id": "auto-cef7240828f36e56fe1ad717ac9a8d61dff9493d7cfb70eccd56c98b4ff307a4"
     },
     {
