@@ -19,6 +19,8 @@ from .scripture_scope import ScopeFragment, ScopeProofError, StructuralScope
 VERSION = '1'
 SELECTION_NORMALIZATION_VERSION = '2'
 SELECTION_NORMALIZATION_VERSIONS = ('1', '2')
+SOURCE_ASSOCIATION_VERSION = '2'
+MAX_UNCLAIMED_ALIGNMENT_WORK = 2_000_000
 DEFAULT_MAX_EVIDENCE_BYTES = 500_000
 MAX_SELECTION_AUDIT_BYTES = 32768
 APPROVED_EDITIONS = {'en':'kjv','af':'aov','ar':'arabicsv','de':'luther1545',
@@ -47,6 +49,8 @@ def frozen_policy(campaign):
         raise ContractError('Unsupported frozen Scripture quotation contract')
     if value.get('selection_normalization_version') not in (None, *SELECTION_NORMALIZATION_VERSIONS):
         raise ContractError('Unsupported frozen Scripture selection normalization contract')
+    if value.get('source_association_version') not in (None, '1', SOURCE_ASSOCIATION_VERSION):
+        raise ContractError('Unsupported frozen Scripture source association contract')
     return value
 
 
@@ -61,6 +65,7 @@ def policy(root, *, max_evidence_bytes=DEFAULT_MAX_EVIDENCE_BYTES):
             'edition_map': mapping, 'edition_map_provenance': provenance,
             'edition_map_sha256': json_hash(mapping), 'max_selection_audit_bytes': MAX_SELECTION_AUDIT_BYTES,
             'selection_normalization_version': SELECTION_NORMALIZATION_VERSION,
+            'source_association_version': SOURCE_ASSOCIATION_VERSION,
             'prompt_addendum': (root / 'prompts/scripture-quotes-v1.txt').read_text(encoding='utf-8')}
 
 
@@ -153,6 +158,11 @@ def _archive_chapter(evidence):
 def build_evidence(source, language_tag, frozen_policy, provider=None):
     if frozen_policy.get('version') != VERSION:
         raise ScriptureAttention('unknown_contract', str(frozen_policy.get('version')))
+    association = frozen_policy.get('source_association_version')
+    if association == SOURCE_ASSOCIATION_VERSION:
+        return _build_associated_evidence(source, language_tag, frozen_policy, provider)
+    if association not in (None, '1'):
+        raise ScriptureAttention('unknown_contract', str(association))
     mapping = frozen_policy['edition_map']
     if json_hash(mapping) != frozen_policy['edition_map_sha256']:
         raise ScriptureAttention('edition_map_changed', 'Frozen map hash differs')
@@ -244,6 +254,139 @@ def build_evidence(source, language_tag, frozen_policy, provider=None):
     return bundle
 
 
+def _build_associated_evidence(source, language_tag, contract, provider):
+    """New requests only: independently scoped quotations, never block joins."""
+    from .scripture_association import (associate, AssociationError, structure_hash,
+                                        delimiter_topology, unclaimed_marked_spans)
+    mapping = contract['edition_map']
+    if json_hash(mapping) != contract['edition_map_sha256']:
+        raise ScriptureAttention('edition_map_changed', 'Frozen map hash differs')
+    edition = mapping['locales'].get(language_tag)
+    if not edition:
+        raise ScriptureAttention('missing_edition', language_tag)
+    try:
+        parsed, references, scopes, ordinary = associate(source['html'], source['article']['id'])
+    except AssociationError as exc:
+        raise ScriptureAttention(exc.reason, str(exc)) from exc
+    except ScopeProofError as exc:
+        raise ScriptureAttention('unmarked_quote_scope', str(exc)) from exc
+    bundle = {'version': VERSION, 'source_association_version': SOURCE_ASSOCIATION_VERSION,
+              'source_sha256': json_hash(source), 'article_id': source['article']['id'],
+              'source_structure_sha256': structure_hash(parsed),
+              'source_delimiter_topology': {block: delimiter_topology(parsed.blocks[block])
+                                            for block in dict.fromkeys(q['block'] for q in scopes)},
+              'language_tag': language_tag, 'edition': copy.deepcopy(edition),
+              'edition_map_sha256': contract['edition_map_sha256'],
+              'edition_map_provenance': copy.deepcopy(contract['edition_map_provenance']),
+              'created_at': now(), 'lookups': {}, 'quotes': [], 'references': references,
+              'classification_limit': 'Only explicit scopes establish Scripture quotations; uncited/unmarked quotations and allusions require independent reviewer detection.'}
+    if scopes and (edition.get('status') != 'available' or not edition.get('abbreviation')):
+        raise ScriptureAttention('missing_edition', f'{language_tag}: {edition.get("review_note", "")}')
+    for scope in scopes:
+        if re.search(r'[\[\]{}]', scope['source_quote']):
+            raise ScriptureAttention('source_quote_annotation', f'{scope["reference"]}: {scope["source_quote"][:160]}')
+    provider = provider or GetBibleMCP()
+    def chapter(abbreviation, book, number):
+        identity = f'{abbreviation}/{book}/{number}'
+        if identity not in bundle['lookups']:
+            try:
+                bundle['lookups'][identity] = _archive_chapter(provider.chapter(abbreviation, book, number))
+            except ScriptureProviderError as exc:
+                raise ScriptureAttention('fetch_failed', str(exc)) from exc
+        if len(canonical(bundle)) > contract['max_evidence_bytes']:
+            raise ScriptureAttention('evidence_size_limit', 'Complete evidence exceeds its frozen bound; no text was truncated')
+        return identity, bundle['lookups'][identity]
+    for scope in scopes:
+        reference, quote = scope['reference'], scope['source_quote']
+        book, number, numbers = _reference(reference)
+        # Brackets are authored annotations, never disposable punctuation.
+        if re.search(r'[\[\]{}]', quote):
+            raise ScriptureAttention('source_quote_annotation', f'{reference}: {quote[:160]}')
+        if book == 19 and edition['abbreviation'] != 'kjv':
+            raise ScriptureAttention('unverified_versification', f'{reference} / {edition["abbreviation"]}')
+        english_id, english = chapter('kjv', book, number)
+        english_verses = _selected(english, numbers)
+        alignment = _unique_alignment(quote, english_verses)
+        if alignment is None:
+            whole = _unique_alignment(quote, english['result']['data']['verses'])
+            reason = 'printed_reference_mismatch' if whole else 'ambiguous_source_quote'
+            raise ScriptureAttention(reason, f'{reference}: {quote[:160]}')
+        target_id, target = chapter(edition['abbreviation'], book, number)
+        bundle['quotes'].append({**scope, 'id': f'q{len(bundle["quotes"])+1}',
+            'book': book, 'chapter': number, 'verses': numbers,
+            'english_lookup': english_id, 'target_lookup': target_id,
+            'english_verses': english_verses, 'target_verses': _selected(target, numbers),
+            'alignment': alignment,
+            'correspondence': 'same numeric addresses; semantic correspondence requires independent review'})
+    # Retain English evidence for explicit allusions without discovering a
+    # quotation by an arbitrary matching substring inside their prose.
+    for ref in references:
+        if ref['classification'] != 'reference_only':
+            continue
+        try:
+            book, number, numbers = _reference(ref['identity'])
+        except ScriptureAttention:
+            continue
+        _, english = chapter('kjv', book, number)
+        _selected(english, numbers)
+    # An owned reference must not hide a different genuine marked fragment.
+    # Already-fetched English chapters provide only a fail-closed backstop:
+    # never infer a missing printed citation or synthesize an output selection.
+    english_chapters = [(identity, english['result']['data']['verses'])
+                        for identity, english in bundle['lookups'].items() if identity.startswith('kjv/')]
+    work = 0
+    checked, blocks = set(), {}
+    for ref in references:
+        identity = (ref['block'], ref['identity'])
+        if identity in checked:
+            continue
+        checked.add(identity)
+        try:
+            book, number, numbers = _reference(ref['identity'])
+        except ScriptureAttention:
+            continue
+        english = bundle['lookups'][f'kjv/{book}/{number}']
+        verses = _selected(english, numbers)
+        wanted_text = ' '.join(v['text'] for v in verses)
+        wanted = _words(wanted_text)
+        text = parsed.blocks[ref['block']]
+        if ref['block'] not in blocks:
+            tokens = list(WORDS.finditer(text))
+            blocks[ref['block']] = (tokens, [m.group().replace('’', "'").casefold() for m in tokens])
+        tokens, normalized = blocks[ref['block']]
+        work += (max(1, len(wanted)) * len(normalized) + len(wanted) + len(normalized)
+                 + 3 * (len(text) + len(wanted_text)))
+        if work > MAX_UNCLAIMED_ALIGNMENT_WORK:
+            raise ScriptureAttention('source_association_limit', 'Complete cited-verse coverage exceeds its versioned work bound')
+        if not wanted:
+            continue
+        for index in range(len(normalized)-len(wanted)+1):
+            if normalized[index:index+len(wanted)] != wanted:
+                continue
+            begin, end = tokens[index].start(), tokens[index+len(wanted)-1].end()
+            if not any(q['block'] == ref['block'] and q['source_start'] <= begin
+                       and end <= q['source_end'] for q in scopes):
+                raise ScriptureAttention('unmarked_quote_scope',
+                    f'{ref["identity"]}: a complete cited verse occurs outside every proved quotation scope')
+    for span in unclaimed_marked_spans(parsed, scopes):
+        tokens = len(_words(span['text']))
+        for identity, verses in english_chapters:
+            corpus_tokens = sum(len(_words(v['text'])) for v in verses)
+            # The product conservatively bounds slice comparisons across all
+            # ellipsis fragments; character/token terms charge normalization,
+            # tokenization and coordinate construction as well.
+            work += (max(1, tokens) * corpus_tokens + tokens + corpus_tokens
+                     + 3 * (len(span['text']) + sum(len(v['text']) for v in verses)))
+            if work > MAX_UNCLAIMED_ALIGNMENT_WORK:
+                raise ScriptureAttention('source_association_limit', 'Unclaimed quotation alignment exceeds its versioned work bound')
+            if _unique_alignment(span['text'], verses) is not None:
+                raise ScriptureAttention('unassociated_source_quote',
+                    f'{span["block"]}: marked source text matches {identity} without its own proved citation: {span["text"][:160]}')
+    if len(canonical(bundle)) > contract['max_evidence_bytes']:
+        raise ScriptureAttention('evidence_size_limit', 'Complete evidence exceeds its frozen bound; no text was truncated')
+    return bundle
+
+
 def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, provider=None, language_tag=None):
     """Acceptance hook, AFTER human exclusion, BEFORE reservation/paid requests."""
     record = engine.state.record(language, source['article']['id'])
@@ -280,6 +423,11 @@ def load_evidence(state, task, *, require_fresh=False):
     evidence = state.read(path)
     if not evidence or json_hash(evidence) != sha or evidence['source_sha256'] != json_hash(state.source(task)):
         raise ScriptureAttention('evidence_changed','Evidence or its English snapshot is missing/changed')
+    contract = frozen_policy(state.read(f'state/campaigns/{task["campaign"]}.json'))
+    version = evidence.get('source_association_version', '1')
+    if (version not in ('1', SOURCE_ASSOCIATION_VERSION) or contract is None
+            or version != contract.get('source_association_version', '1')):
+        raise ScriptureAttention('evidence_changed', 'Evidence and frozen source association contracts disagree')
     if require_fresh:
         for lookup in evidence['lookups'].values():
             try:
@@ -379,8 +527,14 @@ def _bounded_selection_input(selections, maximum):
 
 
 def _structural_scope(evidence, candidate, source):
+    from .scripture_association import AssociationError
     try:
+        if evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION:
+            from .scripture_association import AssociationScope
+            return AssociationScope(evidence, source, candidate)
         return StructuralScope(evidence,source,candidate)
+    except AssociationError as exc:
+        raise ScriptureAttention(exc.reason, str(exc)) from exc
     except ScopeProofError as exc:
         raise ScriptureAttention('quote_scope_changed',str(exc)) from exc
 
@@ -393,8 +547,11 @@ def _prove_scope(scope, quote, expected):
 
 
 def _selection_blocks(evidence, candidate, source, expanded):
-    scope = (_structural_scope(evidence,candidate,source) if expanded
-             and any(not quote.get('delimited') for quote in evidence['quotes']) else None)
+    if evidence.get('source_association_version', '1') not in ('1', SOURCE_ASSOCIATION_VERSION):
+        raise ScriptureAttention('unknown_contract', 'Unsupported evidence source association contract')
+    associated = evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION
+    scope = (_structural_scope(evidence,candidate,source) if associated or (expanded
+             and any(not quote.get('delimited') for quote in evidence['quotes'])) else None)
     try:
         parsed = (scope.target if scope is not None else
                   (ScopeFragment if expanded else Fragment)(candidate['html'],evidence['article_id']))
@@ -406,6 +563,7 @@ def _selection_blocks(evidence, candidate, source, expanded):
 def check_selections(evidence, candidate, selections, *, require_exact_citations=False,
                      normalization_version='1', source=None, max_selection_bytes=MAX_SELECTION_AUDIT_BYTES):
     expanded = normalization_version == '2'
+    associated = evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION
     if expanded:
         _bounded_selection_input(selections,max_selection_bytes)
     if not isinstance(selections,list) or len(selections) != len(evidence['quotes']):
@@ -415,7 +573,10 @@ def check_selections(evidence, candidate, selections, *, require_exact_citations
     # Only provider-attested names and the existing reviewed aliases qualify.
     quoted_blocks = {quote['block'] for quote in evidence['quotes']}
     for block_path in quoted_blocks:
-        if expanded:
+        if associated:
+            from .scripture_association import mentions
+            actual = Counter(key for _,_,key in mentions(blocks.get(block_path, ''), evidence))
+        elif expanded:
             from .scripture_citations import quotation_reference_mentions
             actual = Counter(key for _,_,key in quotation_reference_mentions(
                 evidence, blocks.get(block_path, '')))
@@ -452,10 +613,14 @@ def check_selections(evidence, candidate, selections, *, require_exact_citations
         block = blocks.get(selection['block'],'')
         if type(start) is not int or type(end) is not int or not 0 <= start < end <= len(block):
             raise ScriptureAttention('selection_location','Invalid candidate character offsets')
-        if quote.get('delimited') and not any(a == start and b == end for a,b,_ in _output_quote_spans(block,selection['block'])):
+        if not associated and quote.get('delimited') and not any(a == start and b == end for a,b,_ in _output_quote_spans(block,selection['block'])):
             raise ScriptureAttention('quote_scope_changed','Selection must cover the complete delimited output quotation')
         expected = _selection_text(quote,selection,allow_outer_whitespace=expanded)
-        if scope is not None and not quote.get('delimited'):
+        if associated and (start, end) != scope.proofs[quote['id']][:2]:
+            raise ScriptureAttention('quote_scope_changed', 'Selection must cover its complete original quotation scope')
+        if associated and block[start:end] != expected:
+            raise ScriptureAttention('quote_words_changed','Candidate Scripture words must exactly equal the retrieved target selections')
+        if scope is not None and (associated or not quote.get('delimited')):
             if _prove_scope(scope,quote,expected) != (start,end):
                 raise ScriptureAttention('quote_scope_changed','Selection must cover its complete original structural quotation')
         if block[start:end] != expected:
@@ -653,7 +818,7 @@ def adopt_scripture_selection_audit(state, task, previous_task=None):
             return False
         # Retrieval timestamps/cache envelopes may change. The complete source,
         # quote alignment, selected verse words and edition identity may not.
-        keys = ('version','source_sha256','article_id','language_tag','edition',
+        keys = ('version','source_association_version','source_sha256','article_id','language_tag','edition',
                 'edition_map_sha256','quotes','references')
         if any(prior.get(key) != evidence.get(key) for key in keys):
             return False

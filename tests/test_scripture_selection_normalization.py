@@ -318,6 +318,10 @@ class SelectionNormalizationTests(unittest.TestCase):
 
     def test_repair_preserves_authorized_reference_only_citations_in_same_block(self):
         evidence = load_evidence(self.state,self.task)
+        # This test deliberately exercises the historical subset helper.
+        # New source-association contracts require exact citation identities;
+        # those controls live in test_scripture_source_association.py.
+        evidence['source_association_version'] = '1'
         reference = copy.deepcopy(evidence['references'][0])
         reference.update(identity='John 3:16',printed_text='John 3:16',classification='reference_only')
         evidence['references'].append(reference)
