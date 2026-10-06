@@ -2,7 +2,6 @@
   "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f2e4624e9a4421a9556ee37d551c32e",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:25:01+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 12963
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3160,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 690,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12594,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11064,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 15754
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"971b8ffa-3721-4c08-b693-5aba9989618c\">\n  <figure>\n    <img src=\"/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png\" alt=\"\">\n  </figure>\n  <p><em>Et il [Jésus] leur dit une parabole : Regardez le figuier et tous les arbres ; quand ils commencent à pousser, vous le voyez et vous savez de vous-mêmes que <strong>l’été est maintenant proche.</strong> De même, vous aussi, quand vous verrez ces choses arriver, sachez que <strong>le royaume de Dieu est proche</strong> –Luc 21:29-31.</em></p>\n  <p>L’été est bel et bien là, et les arbres ont poussé leurs bourgeons. Que"
     }
   ],
+  "finished_at": "2026-10-06T02:55:31+00:00",
   "id": "f8206cb9a3b0008fbcd75cbd046774cf",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -131,7 +152,7 @@
   "scripture_evidence_sha256": "1ed1d6c79a3232c41334e12413371a8513a410046b07ff924cb2511e9ffa05c8",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

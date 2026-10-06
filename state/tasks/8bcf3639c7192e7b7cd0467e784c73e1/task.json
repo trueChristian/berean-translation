@@ -2,7 +2,6 @@
   "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f2e4624e9a4421a9556ee37d551c32e",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:54+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 3250
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 415,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3501,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1971,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 4374
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[15]: source /article[1]/p[1]/br[11] ('start', 'br', ()); translation /article[1]/p[1] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[1]/br[1]; translation /article[1]/p[1]/br[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "<p class=\"poem\">神的公主！<br>\n  这是崇高的呼召，<br>\n  值得我献上<br>\n  才干与时光，<br>\n  在祂要塑造我的荣耀中<br>\n  不断成长——<br>\n  我的父，我的王，<br>\n  要除去我心中一切丑陋，<br>\n  使它不再蒙尘，<br>\n  并赐我祂所预备的<br>\n  珍宝。</p>"
     }
   ],
+  "finished_at": "2026-10-06T02:55:31+00:00",
   "id": "8bcf3639c7192e7b7cd0467e784c73e1",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "cmn",
@@ -131,7 +152,7 @@
   "scripture_evidence_sha256": "07397721ffbf39633c54e9406b2a10075601de5af491c139425616ae15234471",
   "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
   "translation_model_actual": "gpt-6-luna"

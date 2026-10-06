@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: citation_identity_changed: Quoted Scripture must retain the original book/chapter/verse identity and count",
+  "stage": "correct"
+}

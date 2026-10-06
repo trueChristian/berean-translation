@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+  "stage": "correct"
+}

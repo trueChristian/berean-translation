@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T02:55:30+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"Ярко-розовый цветок на синем и зелёном фоне\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Принцесса Божья!<br>\\n  Призвание высокое —<br>\\n  Оно стоит того,<br>\\n  Чтоб время и таланты<br>\\n  Отдать возрастанью<br>\\n  В сиянье того,<br>\\n  Кем Он хочет меня сделать.<br>\\n  Мой Отец, Царь,<br>\\n  Уберёт из сердца<br>\\n  Всё безобразное,<br>\\n  Чтоб больше не пятнало его,<br>\\n  И дарует мне драгоценности,<br>\\n  Приготовленные Им.</p>\\n  <p class=\\\"poem\\\">Принцесса Божья!<br>\\n  Призвание — жить<br>\\n  Так, чтобы другим<br>\\n  Вокруг меня дарить<br>\\n  Алмаз надежды,<br>\\n  Жажду Бога,<br>\\n  Истину спасения<br>\\n  Кровью, пролитой Иисусом.<br>\\n  Призвание — жить благочестиво<br>\\n  Во Христе Иисусе,<br>\\n  Украсившись Его кротостью<br>\\n  И облачившись в Его свет.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Поэзия\",\"subtitle\":null,\"title\":\"Принцесса Божья\"}",
+    "content_bytes": 1510,
+    "content_evidence_truncated": false,
+    "content_sha256": "54f01ea8f7f0b1de7dc10bc311447ceb5915f60de2e3a05791481c8d3473702f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 330,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1965,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 4256
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: incomplete_verse_selection: A complete source verse requires its complete target verse",
+  "stage": "correct"
+}

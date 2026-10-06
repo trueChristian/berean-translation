@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "f8206cb9a3b0008fbcd75cbd046774cf"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+      "task": "f8206cb9a3b0008fbcd75cbd046774cf"
     }
   ],
   "language": "fra",

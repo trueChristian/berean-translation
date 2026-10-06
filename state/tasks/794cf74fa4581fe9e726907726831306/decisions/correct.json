@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: quote_words_changed: Candidate Scripture words must exactly equal the retrieved target selections",
+  "stage": "correct"
+}

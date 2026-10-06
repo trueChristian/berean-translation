@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdc7defd-5c2a-40e4-b618-23f2ba3885e3",
+    "response_id": "chatcmpl-EVm6DwTr8RGSiLmBYYUW2OE8LeVKi",
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 237,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1864,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 4087
+    }
+  },
+  "received_at": "2026-10-06T02:55:31+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"نیلے اور سبز پس منظر کے سامنے شوخ گلابی پھول\">\n  </figure>\n  <p class=\"poem\">خدا کی شہزادی!<br>\n  یہ ایک بلند مقصد کی پکار ہے<br>\n  جس کے لیے میں اپنا ہنر<br>\n  اور وقت صرف کروں<br>\n  اُس جلال میں بڑھنے کے لیے<br>\n  جس صورت میں وہ مجھے ڈھالے گا—<br>\n  میرا باپ، بادشاہ،<br>\n  میرے دل کی ساری بدصورتی<br>\n  دور کر دے گا،<br>\n  تاکہ وہ پھر کبھی اُسے داغدار نہ کرے<br>\n  اور مجھے وہ جواہر عطا کرے<br>\n  جو اُس نے میرے لیے رکھے ہیں۔</p>\n  <p class=\"poem\">خدا کی شہزادی!<br>\n  یہ زندگی گزارنے کی ایک پکار ہے<br>\n  ایسی زندگی جو میرے آس پاس کے لوگوں کو<br>\n  عطا کرے<br>\n  امید کا ایک ہیرا،<br>\n  خدا کی آرزو،<br>\n  نجات کی سچائی<br>\n  یسوع کے بہائے ہوئے خون کے وسیلے سے۔<br>\n  خدا پرست زندگی گزارنے کی پکار<br>\n  یسوع مسیح میں،<br>\n  اُس کی حلیمی سے آراستہ<br>\n  اور اُس کے نور سے ملبوس۔</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "نظم",
+    "subtitle": null,
+    "title": "خدا کی شہزادی"
+  }
+}

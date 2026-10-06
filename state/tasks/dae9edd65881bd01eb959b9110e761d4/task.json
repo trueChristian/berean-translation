@@ -2,7 +2,6 @@
   "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f2e4624e9a4421a9556ee37d551c32e",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:25:30+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 13456
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1276,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12770,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11240,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 16629
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture attention: citation_identity_changed: Quoted Scripture must retain the original book/chapter/verse identity and count",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"971b8ffa-3721-4c08-b693-5aba9989618c\">\n  <figure>\n    <img src=\"/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png\" alt=\"\">\n  </figure>\n  <p><em>Ed egli [Gesù] disse loro una parabola: «Guardate il fico e tutti gli alberi. Quando germogliano, lo vedete e sapete da voi stessi che <strong>l’estate è ormai vicina.</strong> Così anche voi, quando vedrete accadere queste cose, sappiate che <strong>il regno di Dio è vicino</strong>» – Lc 21:29-31.</em></p>\n  <p>L’estate è davvero arrivata e gli alberi hanno germogliato. È un’espressione interessante per l’inglese m"
     }
   ],
+  "finished_at": "2026-10-06T02:55:31+00:00",
   "id": "dae9edd65881bd01eb959b9110e761d4",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ita",
@@ -131,7 +152,7 @@
   "scripture_evidence_sha256": "ecd16748405bf374f0c19e2df360f5a357db347ec19a26c71882de70c9f735a7",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

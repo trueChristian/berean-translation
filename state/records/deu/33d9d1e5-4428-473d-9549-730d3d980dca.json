@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "794cf74fa4581fe9e726907726831306"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: quote_words_changed: Candidate Scripture words must exactly equal the retrieved target selections",
+      "task": "794cf74fa4581fe9e726907726831306"
     }
   ],
   "language": "deu",

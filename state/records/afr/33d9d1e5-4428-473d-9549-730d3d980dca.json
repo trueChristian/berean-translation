@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "8206c8132b9abc0582b3f7e18317c170"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: citation_identity_changed: Quoted Scripture must retain the original book/chapter/verse identity and count",
+      "task": "8206c8132b9abc0582b3f7e18317c170"
     }
   ],
   "language": "afr",

@@ -2,7 +2,6 @@
   "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f2e4624e9a4421a9556ee37d551c32e",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:25:34+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 12646
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3357,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 824,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12529,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10999,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 15886
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"971b8ffa-3721-4c08-b693-5aba9989618c\">\n  <figure>\n    <img src=\"/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png\" alt=\"\">\n  </figure>\n  <p><em>וישא [ישוע] דברו אליהם במשל: הביטו בעץ התאנה ובכל העצים; כשהם מלבלבים, אתם רואים ויודעים מעצמכם ש<strong>הקיץ כבר קרוב.</strong> כך גם אתם, כשתראו את הדברים האלה מתרחשים, דעו ש<strong>מלכות אלוהים קרובה</strong> – לוקס 21:29-31.</em></p>\n  <p>הקיץ אכן כבר כאן, והעצים מלבלבים. איזה ביטוי מעניין בשפה האנגלית המודרנית שלנו, ובכל זאת אנחנו עדיין מבינים את משמעותו ויכולים לדמיין מה קורה — העלים נדחקים החוצה במקומות שהיו ח"
     }
   ],
+  "finished_at": "2026-10-06T02:55:30+00:00",
   "id": "4b293e272873fc299aa969f24fd16a8d",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "heb",
@@ -131,7 +152,7 @@
   "scripture_evidence_sha256": "bad127941b23327bdee778110239e722efeb38e7ed70b4eb83376cb009bbdc4a",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

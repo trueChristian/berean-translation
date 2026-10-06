@@ -1,0 +1,22 @@
+{
+  "candidate_sha256": "6cdec5d802b8f213721db16ed2acc4570fab0bef5bcdb16d28e8e9c85c59e0b2",
+  "evidence_sha256": "b69b993ffff8cd97704d580095a88b9f324ce721768c0f08d5d028e9a48d467c",
+  "selections": [
+    {
+      "block": "/article[1]/blockquote[1]/p[1]",
+      "end": 98,
+      "fragments": [
+        [
+          {
+            "end": 98,
+            "start": 0,
+            "verse": 20
+          }
+        ]
+      ],
+      "quote_id": "q1",
+      "start": 0
+    }
+  ],
+  "version": "1"
+}

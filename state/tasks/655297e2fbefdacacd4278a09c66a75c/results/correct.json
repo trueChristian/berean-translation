@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1a12cc4-7e00-467c-acc7-61432a669a86",
+    "response_id": "chatcmpl-EVm9stMz1eTWwEpzgtfQKRmxpxcro",
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2237,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 4216
+    }
+  },
+  "received_at": "2026-10-06T02:55:30+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"Una flor de color rosa intenso sobre un fondo azul y verde\">\n  </figure>\n  <p class=\"poem\">¡Una princesa de Dios!<br>\n  Es un llamado sublime<br>\n  que merece que ofrezca<br>\n  mi talento y mi tiempo<br>\n  para crecer en la gloria<br>\n  de lo que Él haría de mí:<br>\n  mi Padre, el Rey,<br>\n  quitará toda fealdad<br>\n  de mi corazón,<br>\n  para que ya no lo empañe<br>\n  y me traiga las joyas<br>\n  que tiene reservadas.</p>\n  <p class=\"poem\">¡Una princesa de Dios!<br>\n  Es un llamado a vivir<br>\n  una vida que dé a los demás<br>\n  que me rodean<br>\n  un diamante de esperanza,<br>\n  el deseo de Dios,<br>\n  la verdad de la salvación<br>\n  por la sangre derramada de Jesús.<br>\n  Un llamado a vivir piadosamente<br>\n  en Jesucristo,<br>\n  adornada con su mansedumbre<br>\n  y vestida de su luz.</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Una princesa de Dios"
+  }
+}

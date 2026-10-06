@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[1]/em[1]/strong[1]; translation /article[1]/p[1]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>And he [Jesus] spake to them a parable; Behold the fig tree, and all the trees; When they now shoot forth, ye see and know of your own selves that <strong>summer is now nigh at hand.</strong> So likewise ye, when ye see these things come to pass, know ye that <strong>the kingdom of God is nigh at hand</strong> –Luk 21:29-31.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[6:10], translation signature[6:6], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>예수께서 비유로 그들에게 말씀하셨다. “무화과나무와 모든 나무를 보라. 잎이 돋아나면 너희가 보고 여름이 가까이 온 줄을 스스로 아느니라. 이와 같이 너희도 이런 일이 일어나는 것을 보거든 하나님의 나라가 가까이 온 줄을 알라” –눅 21:29-31.</em></p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
+  "stage": "terminal"
+}

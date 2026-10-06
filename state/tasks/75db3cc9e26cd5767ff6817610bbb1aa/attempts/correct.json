@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T02:55:31+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"নীল ও সবুজ পটভূমিতে উজ্জ্বল গোলাপি ফুল\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">ঈশ্বরের রাজকন্যা!<br>\\n  এ এক মহৎ আহ্বান,<br>\\n  যার যোগ্যতা রাখে<br>\\n  আমার প্রতিভা ও সময় দান।<br>\\n  তাঁর গড়ে তোলার মহিমায়<br>\\n  বেড়ে উঠতে—<br>\\n  আমার পিতা, রাজা,<br>\\n  আমার হৃদয়ের সব কুৎসিততা<br>\\n  দূর করে দেবেন,<br>\\n  যেন তা আর কখনো কলঙ্ক না আনে,<br>\\n  আর দেবেন সেই রত্নগুলো,<br>\\n  যা তিনি আমার জন্য সঞ্চয় করে রেখেছেন।</p>\\n  <p class=\\\"poem\\\">ঈশ্বরের রাজকন্যা!<br>\\n  এ এক জীবন যাপনের আহ্বান,<br>\\n  এমন এক জীবন, যা<br>\\n  আমার চারপাশের অন্যদের দেবে<br>\\n  আশার এক হীরা,<br>\\n  ঈশ্বরের প্রতি আকাঙ্ক্ষা,<br>\\n  পরিত্রাণের সত্য<br>\\n  যিশুর ঝরানো রক্তের মাধ্যমে।<br>\\n  ধার্মিক জীবন যাপনের আহ্বান<br>\\n  যিশু খ্রিষ্টে,<br>\\n  তাঁর নম্রতায় সুশোভিত<br>\\n  এবং তাঁর আলোয় আবৃত।</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"কবিতা\",\"subtitle\":null,\"title\":\"ঈশ্বরের এক রাজকন্যা\"}",
+    "content_bytes": 1984,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6f6d4a423765efaa446cf6bf384d841ce62f238936295631be802227e803fef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 257,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3418,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3415,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4145
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

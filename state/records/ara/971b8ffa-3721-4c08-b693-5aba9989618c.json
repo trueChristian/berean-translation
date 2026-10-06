@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "a9edfb5d146c9a6bf174fb089bb593ec"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: selection_location: Invalid candidate character offsets",
+      "task": "a9edfb5d146c9a6bf174fb089bb593ec"
     }
   ],
   "language": "ara",

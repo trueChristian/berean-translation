@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "912aa761fcc7a0482fc467066d5fd43d"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[18]; missing: 9:47; extra: Mark 9:47",
+      "task": "912aa761fcc7a0482fc467066d5fd43d"
     }
   ],
   "language": "heb",

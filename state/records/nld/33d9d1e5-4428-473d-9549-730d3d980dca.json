@@ -6,6 +6,12 @@
       "campaign": "gh-37314352672",
       "event": "requested",
       "task": "b67ee6859b29740d335eb70a59aaa863"
+    },
+    {
+      "at": "2026-10-06T02:55:31+00:00",
+      "event": "not_ready",
+      "reason": "Scripture attention: incomplete_verse_selection: A complete source verse requires its complete target verse",
+      "task": "b67ee6859b29740d335eb70a59aaa863"
     }
   ],
   "language": "nld",

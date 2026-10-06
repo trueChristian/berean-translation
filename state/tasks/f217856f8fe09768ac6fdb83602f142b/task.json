@@ -2,7 +2,6 @@
   "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f2e4624e9a4421a9556ee37d551c32e",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:25:38+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 14261
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 913,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13955,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12425,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 18333
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture attention: selection_location: Invalid candidate character offsets",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"971b8ffa-3721-4c08-b693-5aba9989618c\">\n  <figure>\n    <img src=\"/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png\" alt=\"\">\n  </figure>\n  <p><em>Και τους είπε μια παραβολή: «Κοιτάξτε τη συκιά και όλα τα δέντρα· όταν αρχίζουν να βγάζουν φύλλα, βλέπετε και καταλαβαίνετε από μόνοι σας ότι <strong>το καλοκαίρι πλησιάζει.</strong> Έτσι κι εσείς, όταν δείτε να συμβαίνουν αυτά, να ξέρετε ότι <strong>η βασιλεία του Θεού πλησιάζει</strong>» –Λουκ. 21:29-31.</em></p>\n  <p>Το καλοκαίρι είναι πράγματι εδώ, και τα δέντρα έχουν βγάλει φύλλα. Τι ενδιαφέρουσα έκφραση για τη "
     }
   ],
+  "finished_at": "2026-10-06T02:55:31+00:00",
   "id": "f217856f8fe09768ac6fdb83602f142b",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ell",
@@ -131,7 +152,7 @@
   "scripture_evidence_sha256": "ef975c7e4e7d849292713c06a331f32a823dd9099fe672b0eb2ea950a6856bc9",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

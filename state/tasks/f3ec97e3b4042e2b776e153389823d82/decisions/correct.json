@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture attention: selection_location: Invalid candidate character offsets",
+  "stage": "correct"
+}
