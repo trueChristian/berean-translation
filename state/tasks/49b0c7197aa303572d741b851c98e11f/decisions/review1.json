@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first poem, lines 3–4",
+      "severity": "minor",
+      "source_quote": "That merits my giving / Of talent and time",
+      "suggested_fix": "Replace with a natural Swedish rendering such as “Som förtjänar att jag ger / av min talang och min tid”.",
+      "translation_quote": "Som förtjänar att jag ger / Av talang och tid"
+    },
+    {
+      "location": "source.html, second poem, final two lines",
+      "severity": "minor",
+      "source_quote": "Adorned with His meekness",
+      "suggested_fix": "Use “Smyckad med Hans ödmjukhet” to convey the humility implied by “meekness” in this context.",
+      "translation_quote": "Smyckad med Hans mildhet"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

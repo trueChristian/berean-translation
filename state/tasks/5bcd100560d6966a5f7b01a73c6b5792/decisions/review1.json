@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph 4 (Ruth quotation); paragraph 12 (Joel 2:25a quotation)",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go” … “restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "These are identifiable Scripture quotations missing from scripture_evidence. Add the corresponding quotation evidence and provide target-language selections from the approved target verses, preserving the source ellipsis and printed reference. Do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "«куда ты пойдешь, туда и я пойду» … «возвратить [нам] годы, которые пожрала саранча!» (Иоиль 2:25а)"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 11",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Preserve Ann as the person responding to Mark’s repentance. For example: «Я, Энн, ответила на покаяние Марка полным и безоговорочным прощением.»",
+      "translation_quote": "Мой ответ на покаяние Марка, — Энн, — был полным и безоговорочным прощением."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

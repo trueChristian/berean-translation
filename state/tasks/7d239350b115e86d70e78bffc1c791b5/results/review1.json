@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "70b4cf66-bd18-4303-a9c7-cd3b6b7009fb",
+    "response_id": "chatcmpl-EVpgYwxCMwFnrG3MZY00HEwKk0smX",
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 680,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3876,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6511
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, paragraph 2",
+        "severity": "major",
+        "source_quote": "“whither thou goest, I will go”",
+        "suggested_fix": "This is a Scripture quotation not represented in scripture_evidence. Obtain the approved target-language evidence for the corresponding quotation, then render it faithfully in Portuguese and preserve its quotation marks.",
+        "translation_quote": "«aonde fores, irei»"
+      },
+      {
+        "location": "source.html and translation.html, paragraph 12",
+        "severity": "major",
+        "source_quote": "God truly has fulfilled His promise to … restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+        "suggested_fix": "The quoted Scripture is not represented in scripture_evidence. Obtain the approved target-language evidence for this partial quotation and use the corresponding approved words, preserving the source ellipsis and the reference identity and placement.",
+        "translation_quote": "Deus realmente cumpriu Sua promessa de … restituir-nos os anos que o gafanhoto devorou! (Joel 2:25a)"
+      },
+      {
+        "location": "source.html and translation.html, paragraph 12",
+        "severity": "major",
+        "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+        "suggested_fix": "Clarify the attribution without making Mark the person forgiving himself: “A resposta de Ann ao arrependimento de Mark foi perdoá-lo plena e livremente.”",
+        "translation_quote": "Minha resposta, a resposta de Ann ao arrependimento de Mark, foi perdoá-lo plena e livremente."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 70
+  }
+}

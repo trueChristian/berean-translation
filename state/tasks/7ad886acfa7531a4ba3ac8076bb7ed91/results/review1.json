@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "372f4afc-7de5-49c9-b90b-4d513e828e95",
+    "response_id": "chatcmpl-EVpiAFo0fo16D3uUanbGLjrNAGmF8",
+    "usage": {
+      "completion_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3173,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1634,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3798
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, first poem: line corresponding to “That it tarnish no more”",
+        "severity": "minor",
+        "source_quote": "That it tarnish no more",
+        "suggested_fix": "Clarify that the heart will no longer be tarnished, for example: „damit es nicht länger befleckt wird“",
+        "translation_quote": "damit es nicht länger trübt"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

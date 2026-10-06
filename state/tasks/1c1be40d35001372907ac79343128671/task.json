@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5813
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1019,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 700,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5806,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4267,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6825
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Joel 2:25a quotation",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!”",
+      "suggested_fix": "This is a genuine Scripture quotation missing from scripture_evidence. Obtain the approved Hindi verse evidence, then replace only the quoted wording with the exact corresponding target-verse text, preserving the omission and reference identity. Do not create or paraphrase Scripture wording.",
+      "translation_quote": "“हमारे लिए उन वर्षों की भरपाई करेगा जिन्हें टिड्डियों ने खा लिया था!”"
+    },
+    {
+      "location": "source.html and translation.html, fourth paragraph",
+      "severity": "major",
+      "source_quote": "The devil was hard at work to destroy the unity and joy of these two whose marriage was going so beautifully. He allowed his heart and eyes to look at the allurements of the world and the deception of Satan.",
+      "suggested_fix": "Make the pronoun’s referent explicit so the passage says Mark, not the devil, let his heart and eyes turn toward worldly allurements and Satan’s deception.",
+      "translation_quote": "शैतान उन दोनों की एकता और आनंद को नष्ट करने में जी-जान से लगा था, जिनका विवाह इतनी सुंदरता से चल रहा था। उसने अपने मन और आँखों को संसार के आकर्षणों और शैतान के छल की ओर देखने दिया।"
+    }
+  ],
   "id": "1c1be40d35001372907ac79343128671",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "hin",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/777a0b1f7e6604eaf43e60e7d2cca9f57181e3d6e0d48c80dca98fbc6e26c5f0.json",
   "scripture_evidence_sha256": "777a0b1f7e6604eaf43e60e7d2cca9f57181e3d6e0d48c80dca98fbc6e26c5f0",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

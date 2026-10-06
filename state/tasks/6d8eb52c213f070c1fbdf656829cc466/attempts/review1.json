@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html /article[1]/p[4]; scripture_evidence.quotes and scripture_selection_audit.selections\",\"severity\":\"major\",\"source_quote\":\"“whither thou goest, I will go”\",\"suggested_fix\":\"Treat this recognizable Scripture quotation as a required quotation for review. Retrieve the corresponding approved target-edition verse text, replace the Greek wording with only the exact target-language substring corresponding to this printed fragment, and provide its scripture selection at this location. Preserve the quotation’s partial scope; do not expand it to the whole verse.\",\"translation_quote\":\"«πάει όπου πήγαινε κι εκείνος»; no Scripture quote or selection is recorded for this passage.\"},{\"location\":\"source.html /article[1]/p[12]; scripture_evidence.quotes and scripture_selection_audit.selections\",\"severity\":\"major\",\"source_quote\":\"<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)\",\"suggested_fix\":\"This is a marked Scripture quotation, but scripture_evidence contains no quote entry and the selection audit is empty. Retrieve the approved target-edition text for the printed reference Joel 2:25a, use the exact corresponding Greek substring while preserving the source’s partial wording and brackets, and record the selection here. Do not substitute another verse or expand the quote.\",\"translation_quote\":\"<em>αποκαταστήσει σε [εμάς] τα χρόνια που έφαγε η ακρίδα!</em> (Ιωήλ 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":78}",
+    "content_bytes": 1573,
+    "content_evidence_truncated": false,
+    "content_sha256": "38a78056f23b9837d783a882b38daaa01b1838574a8ea32bc2a77459ac0c6ca7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1062,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4823,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 7424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

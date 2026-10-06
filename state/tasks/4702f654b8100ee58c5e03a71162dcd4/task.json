@@ -2,7 +2,6 @@
   "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:54+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 3054
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 928,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 784,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3059,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1520,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 3987
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, first poem, lines beginning “To grow in the glory”",
+      "severity": "minor",
+      "source_quote": "To grow in the glory / Of what He would make--",
+      "suggested_fix": "Untuk mempertahankan gagasan tentang kemuliaan dan karya Tuhan, ubah menjadi: “Untuk bertumbuh dalam kemuliaan / dari pribadi yang hendak Dia bentuk—”",
+      "translation_quote": "Untuk bertumbuh dalam kemuliaan / Menjadi seperti yang Dia kehendaki—"
+    }
+  ],
+  "finished_at": "2026-10-06T09:01:55+00:00",
   "id": "4702f654b8100ee58c5e03a71162dcd4",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ind",
@@ -116,13 +145,15 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/dd2b7c913771ad2eecccafeb3351631846e27d05e62c65c2a9c2a65c0e034000.json",
   "scripture_evidence_sha256": "dd2b7c913771ad2eecccafeb3351631846e27d05e62c65c2a9c2a65c0e034000",
   "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, first poem, lines beginning “To grow in the glory”",
+      "severity": "minor",
+      "source_quote": "To grow in the glory / Of what He would make--",
+      "suggested_fix": "Untuk mempertahankan gagasan tentang kemuliaan dan karya Tuhan, ubah menjadi: “Untuk bertumbuh dalam kemuliaan / dari pribadi yang hendak Dia bentuk—”",
+      "translation_quote": "Untuk bertumbuh dalam kemuliaan / Menjadi seperti yang Dia kehendaki—"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

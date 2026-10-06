@@ -3190,6 +3190,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "ad28d00a99d4c504215feea3606646925e6ab422e8fbba784db6201e5fff6a3e",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "’n Helderpienk blom teen ’n blou en groen agtergrond",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "dd1cbdb7ab12fa0818443065d6a9109826d90d28d4c8933de942bb0b87d4a992",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedig",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’n Prinses van God",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.html",
       "html_sha256": "9b7b1c3c77b37777e44dfa8d432d87e1aa2d563c202663c7646c548a66ec2b08",
       "human_reviewed": false,
@@ -5786,6 +5814,34 @@
       "subtitle": null,
       "title": "نشيد الشتاء",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "8ddfce1337ab5c197ac05d55c68eaa25ac4e7de92b1a03c6d7d57af64b28e251",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "زهرة وردية زاهية على خلفية زرقاء وخضراء",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "4f215f03014e4cab5c149e62209c74559a6bf7e7fefd4c23a1f31ae91fca8fec",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "قصيدة",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "أميرة لله",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -9117,6 +9173,34 @@
       "subtitle": null,
       "title": "对早期美国门诺教会的反思",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "c08980c78bbc787dba4f9986818e9181c0643574f5fe3588958833e0ab1e0fae",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "一个戴着头盔、站在红色自行车旁微笑的小男孩",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "d573e42b0b8226d1e660a3c80b3b3489db59fd0a4788a556a5fcf597c5d8ee00",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "儿童园地",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "乔伊的惨败",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -13555,6 +13639,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "cd34ef3c5626025d9005bd2a4e7c3a3d007115f40f4ad520919e44a4a399944e",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Eine leuchtend rosafarbene Blume vor blau-grünem Hintergrund",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "c16c4c624341268ed3346a6f527ffd97d48b7f5fdec5420502d3c00b9a168990",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedicht",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eine Prinzessin Gottes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "7b960915c7b82d68452ea6254c600785b4095b83d2b6c1d94ef18cdd503b084d",
       "human_reviewed": false,
@@ -14104,6 +14216,34 @@
       "subtitle": null,
       "title": "Στοχασμός για την πρώιμη αμερικανική μεννονιτική εκκλησία",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "6f1d08060f317ebb35dccbd2bba324bd7093fe3049db892199113f0207db9726",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "Ένα χαμογελαστό αγόρι με κράνος, όρθιο δίπλα σε ένα κόκκινο ποδήλατο",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "133e1c57e46aac0f54ec0982a7abb9a6d0f6a0471e377c630fc39c475870b450",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΠΑΙΔΙΚΗ ΓΩΝΙΑ",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η πτώση του Τζόι",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -16456,6 +16596,34 @@
       "status": "ready",
       "subtitle": "Το μεγαλύτερο πράγμα στον κόσμο",
       "title": "Αυτό το πράγμα που λέγεται αγάπη",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "0e729d29249f2b810b8f87b9f4cd8cd62e338db414583fa8a30bd2cfd76573c6",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Ένα ζωηρό ροζ λουλούδι μπροστά σε γαλάζιο και πράσινο φόντο",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "958ef25f88c6ab6b4110ca91000d4f711441e3b8086819ffe8999e6423b96abd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Ποίημα",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Μια πριγκίπισσα του Θεού",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -19929,6 +20097,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "a3d57a852e2e8385e8be1083d1fcc08e1e382c444c1cf7b7ed753252c638d607",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Une fleur rose éclatante sur un fond bleu et vert",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "c1273800a160cbbe3c95321e2a4ee41dd5fdaf1a406ec692b43ee8c21c6263ef",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Une princesse de Dieu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.html",
       "html_sha256": "1071dd84eef0df25a8d47fef2ff52f1444d753ff8164fe4b9aa224a8665dbb73",
       "human_reviewed": false,
@@ -21468,6 +21664,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "קומו ושמחו",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "0e9e7eae75006e0f554505d1c5c22f61deda35cb062d9097c46ea97f1d34dfb3",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "פרח ורוד עז על רקע כחול וירוק",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "3989c2a60febbf03ceef100d0ed88f1e0fa339e20046b816142d964db53f7d58",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "שיר",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "נסיכה של אלוהים",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -24206,6 +24430,34 @@
       "subtitle": null,
       "title": "शीत गीत",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "b511aba7e096d1a07f973ebe2df99acc7672519ad1f3b0baa25c4bb2fa48c61f",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "नीले और हरे रंग की पृष्ठभूमि पर एक चमकीला गुलाबी फूल",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "9ccabdb96b0a3b623e3c6b603880d9c81520f14a319a5d95d97783630229d5b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "कविता",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "परमेश्वर की राजकुमारी",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -27536,6 +27788,34 @@
       "subtitle": null,
       "title": "Lagu Musim Dingin",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "92bf6f5fcc8fbf75fb1d9ab792029d28b6c22e7fae4494c2628dec9d488cb121",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Bunga berwarna merah muda cerah dengan latar biru dan hijau",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "7d06e5df2acc3214b68589ed8ace17d25f47ae0c46325b86324f82c30936df6b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Puisi",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Putri Allah",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31104,6 +31384,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "eb7b50409c4e9fe1b82776e0701fc6b05510e7e9924e200c479fc69abd4eedd1",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Un vivace fiore rosa su uno sfondo blu e verde",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "d80911db74791bf1fa8690bd4ee9336e576711c9fab4c5445bb147027f92e046",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poesia",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una principessa di Dio",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "8be6683ce8b2ebcca51c075cd68aa19a80c3c7a836b779f31f01dbecde97d42d",
       "human_reviewed": false,
@@ -34130,6 +34438,34 @@
       "subtitle": null,
       "title": "겨울 노래",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "2111ccbe5d8676b2ef988dcd24c5eb9ca3cd25dec42343f2608f25d8fbc69a3a",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "푸른색과 초록색 배경을 뒤로 선명한 분홍색 꽃",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "70bc2ea31b183e020426e3b480fcdcb7946d97c0ee9462195610e5f81688493c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "시",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "하나님의 공주",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -44729,6 +45065,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.html",
+      "html_sha256": "3ebcca51930f93ea1e777026e701b672c84a3d67da507e8eecf8d250439b372e",
+      "human_reviewed": false,
+      "id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
+      "images": [
+        {
+          "alt": "Uma flor rosa-viva contra um fundo azul e verde",
+          "public_path": "/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792.json",
+      "metadata_sha256": "ec6da2a94235a7161d753abf11bc9b9a1ce623227d3d052d6444a8a8173ae986",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uma Princesa de Deus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.html",
       "html_sha256": "2ec27f4e38677a1d688c71def1ce885cc2836b650eee4f7a581d7f7ec2952027",
       "human_reviewed": false,
@@ -48413,6 +48777,34 @@
       "subtitle": null,
       "title": "Una reflexión sobre la temprana iglesia menonita estadounidense",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
+      "html_sha256": "4c7b1341b47618571fb0008bb19e06a17ee5834b5726777a9051ab20806a491e",
+      "human_reviewed": false,
+      "id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "images": [
+        {
+          "alt": "Un niño sonriente con casco, de pie junto a una bicicleta roja",
+          "public_path": "/images/articles/33d9d1e5-4428-473d-9549-730d3d980dca-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/33d9d1e5-4428-473d-9549-730d3d980dca.json",
+      "metadata_sha256": "78df984f526036d96636637b58d3a14409084999a051565920a2c68a317871a7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RINCÓN INFANTIL",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La caída de Joey",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

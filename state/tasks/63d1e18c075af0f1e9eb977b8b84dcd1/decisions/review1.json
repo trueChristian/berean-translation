@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph (/article[1]/p[12]); Scripture quotation and selection audit",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "This is a Scripture quotation, but scripture_evidence identifies only a reference and supplies no quote evidence. Add the corresponding approved quote evidence and selection; then render the matching target-edition words in the existing <em> element, preserving the ellipsis, reference, and structure. Do not generate replacement Scripture wording without that evidence.",
+      "translation_quote": "<em>להשיב לנו את השנים אשר אכל הארבה!</em> (יואל 2:25א)"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 11 (/article[1]/p[11])",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Render this as Ann’s response, without making it Mark’s response; for example: „תגובתה של אן לחרטתו של מארק הייתה סליחה שלמה וחופשית.”",
+      "translation_quote": "תגובתי, של אן, לחרטתו של מארק הייתה סליחה שלמה וחופשית."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, first poem: line corresponding to “That it tarnish no more”",
+      "severity": "minor",
+      "source_quote": "That it tarnish no more",
+      "suggested_fix": "Clarify that the heart will no longer be tarnished, for example: „damit es nicht länger befleckt wird“",
+      "translation_quote": "damit es nicht länger trübt"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

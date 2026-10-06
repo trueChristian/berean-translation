@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph; Scripture quotation associated with Joel 2:25a\",\"severity\":\"major\",\"source_quote\":\"“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\"suggested_fix\":\"This is a Scripture quotation missing from scripture_evidence. Obtain the approved target-verse evidence for this quotation, then replace only the quoted words with the corresponding exact Spanish substring(s) and provide the required scripture_selection with its source block and offsets. Preserve the printed reference as Joel 2:25a; do not generate or substitute Scripture wording without the evidence.\",\"translation_quote\":\"<em>devolvernos los años que devoró la langosta.</em> (Joel 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 802,
+    "content_evidence_truncated": false,
+    "content_sha256": "0050d80c25c45bf3034e971666e13446656790266f53e27e4cedf742d76292ab",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3952,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6139
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

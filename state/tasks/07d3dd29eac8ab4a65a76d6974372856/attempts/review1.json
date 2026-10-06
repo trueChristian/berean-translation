@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Scripture quotations: /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], /article[1]/p[27]\",\"severity\":\"major\",\"source_quote\":\"Printed Scripture quotations with references: “...Mar 9:47”; “...1Pe 3:4-5”; “...Mat 18:7”; “...Jas 3:13”; “...Tit 2:12.”\",\"suggested_fix\":\"Provide the required frozen scripture_evidence entries for these five quotations and review each Swedish quotation against its exact approved target_verses text, preserving the source ellipses, meaning, and reference identity. Do not invent or substitute Scripture wording without that evidence.\",\"translation_quote\":\"Swedish Scripture quotations appear at the corresponding locations; scripture_evidence.quotes and scripture_selection_audit.selections are both empty.\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 860,
+    "content_evidence_truncated": false,
+    "content_sha256": "fb65f459f6166d57eb25ff593ac7ec52ba0da021ebf88a700370ed5b49019064",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 930,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 701,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9998,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10931
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

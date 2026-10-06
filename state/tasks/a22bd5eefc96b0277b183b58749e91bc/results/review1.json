@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "324b8a19-6c48-43ec-becc-4cdc5a1c37ca",
+    "response_id": "chatcmpl-EVph7Qg0TR6ZBoxPwtypLpceLtMzm",
+    "usage": {
+      "completion_tokens": 1072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4057,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6668
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, italicized quotation; Joel 2:25a",
+        "severity": "major",
+        "source_quote": "“restore to [us] the years that the locust hath eaten!”",
+        "suggested_fix": "This is a Scripture quotation, but scripture_evidence contains no corresponding quote or approved target-verse text. Supply the required approved evidence and selection, then use only the exact target-verse substring corresponding to the printed quotation, preserving its omission and reference. Do not generate or substitute Scripture wording without that evidence.",
+        "translation_quote": "«gi [oss] igjen de år som gresshoppen har fortært!»"
+      },
+      {
+        "location": "Paragraph beginning “Then it happened…”, sentence containing “whither thou goest”",
+        "severity": "major",
+        "source_quote": "“whither thou goest, I will go”",
+        "suggested_fix": "Restore the omitted first-person clause in Bokmål: «dit du går, vil jeg gå».",
+        "translation_quote": "«dit du går»"
+      },
+      {
+        "location": "Paragraph beginning “Unconditional love means loving…”, sentence about Ann’s prayer",
+        "severity": "minor",
+        "source_quote": "“Ann’s prayer and plea to God was”",
+        "suggested_fix": "Avoid repeating «bønn»; for example: «Anns bønn og inderlige appell til Gud var».",
+        "translation_quote": "«Anns bønn og inderlige bønn til Gud var»"
+      },
+      {
+        "location": "Paragraph beginning “My, Ann’s response…”, first sentence",
+        "severity": "minor",
+        "source_quote": "“My, Ann’s response to Mark’s repentance was full and free forgiveness.”",
+        "suggested_fix": "Make the shared attribution clear and grammatical in Bokmål, for example: «Anns og min reaksjon på Marks omvendelse var å tilgi ham fullt og helt.»",
+        "translation_quote": "«Min, Anns, reaksjon på Marks omvendelse var full og fri tilgivelse.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 82
+  }
+}

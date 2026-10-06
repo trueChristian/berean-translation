@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Joel 2:25a quotation",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!”",
+      "suggested_fix": "This is a genuine Scripture quotation missing from scripture_evidence. Obtain the approved Hindi verse evidence, then replace only the quoted wording with the exact corresponding target-verse text, preserving the omission and reference identity. Do not create or paraphrase Scripture wording.",
+      "translation_quote": "“हमारे लिए उन वर्षों की भरपाई करेगा जिन्हें टिड्डियों ने खा लिया था!”"
+    },
+    {
+      "location": "source.html and translation.html, fourth paragraph",
+      "severity": "major",
+      "source_quote": "The devil was hard at work to destroy the unity and joy of these two whose marriage was going so beautifully. He allowed his heart and eyes to look at the allurements of the world and the deception of Satan.",
+      "suggested_fix": "Make the pronoun’s referent explicit so the passage says Mark, not the devil, let his heart and eyes turn toward worldly allurements and Satan’s deception.",
+      "translation_quote": "शैतान उन दोनों की एकता और आनंद को नष्ट करने में जी-जान से लगा था, जिनका विवाह इतनी सुंदरता से चल रहा था। उसने अपने मन और आँखों को संसार के आकर्षणों और शैतान के छल की ओर देखने दिया।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

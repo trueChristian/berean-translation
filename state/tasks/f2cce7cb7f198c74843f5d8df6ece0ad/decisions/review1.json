@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html /article[1]/p[4], quoted phrase “whither thou goest, I will go”; scripture_evidence and scripture_selections",
+      "severity": "major",
+      "source_quote": "her commitment to “whither thou goest, I will go” began a miracle.",
+      "suggested_fix": "This is a recognizable Scripture quotation, but no corresponding scripture_evidence quote or scripture_selection is present. Add the required evidence and use only its approved target_verses text for the corresponding Chinese phrase; do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "她对“你往哪里去，我也往哪里去”的委身，开始带来一个奇迹。"
+    },
+    {
+      "location": "source.html /article[1]/p[12], italicized quotation; scripture_evidence and scripture_selections",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "This is a Scripture quotation, but the evidence identifies only Joel 2:25a as reference_only and provides no quote text or scripture_selection. Add the required evidence and replace the Chinese quotation only with the corresponding approved target_verses substring, preserving the source’s omission and reference placement.",
+      "translation_quote": "归还蝗虫所吃掉的那些年岁！"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

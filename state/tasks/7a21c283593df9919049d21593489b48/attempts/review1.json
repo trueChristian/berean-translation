@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, second poem, final two lines\",\"severity\":\"minor\",\"source_quote\":\"Adorned with His meekness / And clothed with His light.\",\"suggested_fix\":\"Keep the lines as descriptions of the godly life, for example: “주님의 온유함으로 단장하고 / 주님의 빛을 입은 채.”\",\"translation_quote\":\"주님의 온유함으로 단장하고 / 주님의 빛을 입으라.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 461,
+    "content_evidence_truncated": false,
+    "content_sha256": "57a24b0088c22aa90d55e1094b12e99450e2432289530c665a74dca33b15bfda",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 564,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1666,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3904
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

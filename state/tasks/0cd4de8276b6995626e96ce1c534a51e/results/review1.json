@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "244da026-1faf-4668-abab-3a8880efe1b9",
+    "response_id": "chatcmpl-EVphCY52aZPZtj07miBbisJW754c8",
+    "usage": {
+      "completion_tokens": 1038,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 790,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3072,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1533,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 4110
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second poem, line 6",
+        "severity": "major",
+        "source_quote": "A desire for God,",
+        "suggested_fix": "Replace «Hamu ya kumtafuta Mungu,» with «Shauku ya Mungu,» to preserve the source’s desire for God rather than desire to seek God.",
+        "translation_quote": "Hamu ya kumtafuta Mungu,"
+      },
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "A vivid pink flower against a blue and green background",
+        "suggested_fix": "Replace «Ua la waridi angavu» with «Ua la waridi ang’avu» only if referring to a rose is intended; otherwise use «Ua la waridi/ua lenye rangi ya waridi ang’avu» carefully to mean a vivid pink flower, not specifically a rose. For example: «Ua lenye rangi ya waridi ang’avu mbele ya mandhari ya samawati na kijani».",
+        "translation_quote": "Ua la waridi angavu mbele ya mandhari ya samawati na kijani"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations: /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "Printed Scripture quotations with references: “...Mar 9:47”; “...1Pe 3:4-5”; “...Mat 18:7”; “...Jas 3:13”; “...Tit 2:12.”",
+      "suggested_fix": "Provide the required frozen scripture_evidence entries for these five quotations and review each Swedish quotation against its exact approved target_verses text, preserving the source ellipses, meaning, and reference identity. Do not invent or substitute Scripture wording without that evidence.",
+      "translation_quote": "Swedish Scripture quotations appear at the corresponding locations; scripture_evidence.quotes and scripture_selection_audit.selections are both empty."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

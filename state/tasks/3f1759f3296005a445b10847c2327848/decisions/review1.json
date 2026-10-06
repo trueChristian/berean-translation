@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations in /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "“...enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire” (Mark 9:47); “let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit...” (1 Peter 3:4–5); “...woe to that [wo]man by whom the offence cometh!” (Matthew 18:7); “Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom” (James 3:13); “...denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world” (Titus 2:12).",
+      "suggested_fix": "Have these five printed Scripture quotations identified and supplied through the approved target-edition evidence workflow, then replace only their quoted wording with the corresponding exact Russian Synodal text. Preserve each quotation’s partial scope, ellipses, HTML structure, and printed reference identity and placement. Do not invent or supply Scripture wording without the required evidence.",
+      "translation_quote": "Examples: «…лучше тебе с одним глазом войти в Царствие Божие…» (Мк. 9:47); «…в нетленной красоте кроткого и молчаливого духа…» (1 Пет. 3:4–5); «…горе тому человеку, через которого соблазн приходит!» (Мф. 18:7); «Кто мудр и разумен между вами? Докажи это на деле…» (Иак. 3:13); «…отвергнув нечестие и мирские похоти…» (Тит. 2:12)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

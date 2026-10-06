@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, /article[1]/p[18], p[20] (two quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "The article contains Scripture quotations at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
+      "suggested_fix": "Have the Scripture-quotation extraction/evidence supplied for all five passages, then use the corresponding approved Spanish verse text for each quotation and provide the required scripture_selections. Do not invent or substitute Scripture wording.",
+      "translation_quote": "«…mejor te es entrar en el reino de Dios con un ojo…»; «Mas el hombre escondido del corazón…»; «…¡ay de aquel hombre…!»; «¿Quién es sabio y entendido…?»; «…que, renunciando a la impiedad…»"
+    },
+    {
+      "location": "source.html, /article[1]/p[18], p[20] (two references), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; Tit 2:12",
+      "suggested_fix": "Use conventional Spanish Bible book names in the printed references, preserving the exact chapter and verse numbers, ranges, and reference placement; for example, Mc 9:47, 1 Pe 3:4-5, Mt 18:7, Stg 3:13, and Tit 2:12.",
+      "translation_quote": "Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; Tit 2:12"
+    },
+    {
+      "location": "source.html, /article[1]/p[1]",
+      "severity": "minor",
+      "source_quote": "“What are plain mothers of today telling their daughters…”",
+      "suggested_fix": "Use wording that conveys the modest/plain-dressing sense in context, such as «madres de vestir sencillo», rather than «madres sencillas».",
+      "translation_quote": "«¿Qué les están diciendo las madres sencillas de hoy…»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

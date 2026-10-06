@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first poem, lines beginning “Away from my heart”",
+      "severity": "major",
+      "source_quote": "Away from my heart, / That it tarnish no more",
+      "suggested_fix": "Retain the sense that the removed ugliness will no longer tarnish the heart, for example: «Fra hjertet mitt, / så det ikke lenger blir tilsmusset».",
+      "translation_quote": "Fra hjertet mitt, / Så det ikke lenger flekker,"
+    },
+    {
+      "location": "source.html, second poem, final couplet",
+      "severity": "minor",
+      "source_quote": "Adorned with His meekness",
+      "suggested_fix": "Use «prydet med hans mildhet» or another Bokmål rendering of meekness that conveys gentleness, rather than humility.",
+      "translation_quote": "Smykket med Hans ydmykhet"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

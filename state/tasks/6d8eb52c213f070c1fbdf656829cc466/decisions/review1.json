@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html /article[1]/p[4]; scripture_evidence.quotes and scripture_selection_audit.selections",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Treat this recognizable Scripture quotation as a required quotation for review. Retrieve the corresponding approved target-edition verse text, replace the Greek wording with only the exact target-language substring corresponding to this printed fragment, and provide its scripture selection at this location. Preserve the quotation’s partial scope; do not expand it to the whole verse.",
+      "translation_quote": "«πάει όπου πήγαινε κι εκείνος»; no Scripture quote or selection is recorded for this passage."
+    },
+    {
+      "location": "source.html /article[1]/p[12]; scripture_evidence.quotes and scripture_selection_audit.selections",
+      "severity": "major",
+      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "This is a marked Scripture quotation, but scripture_evidence contains no quote entry and the selection audit is empty. Retrieve the approved target-edition text for the printed reference Joel 2:25a, use the exact corresponding Greek substring while preserving the source’s partial wording and brackets, and record the selection here. Do not substitute another verse or expand the quote.",
+      "translation_quote": "<em>αποκαταστήσει σε [εμάς] τα χρόνια που έφαγε η ακρίδα!</em> (Ιωήλ 2:25a)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

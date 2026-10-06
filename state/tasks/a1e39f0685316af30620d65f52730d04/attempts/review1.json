@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 12; Joel 2:25a quotation\",\"severity\":\"major\",\"source_quote\":\"“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\"suggested_fix\":\"The quote is a genuine Scripture quotation but has no corresponding scripture_evidence entry. Obtain approved target-language verse evidence and review the corresponding translation against it; do not supply or invent Scripture wording without that evidence.\",\"translation_quote\":\"<em>kuturudishia miaka iliyoliwa na nzige!</em> (Yoeli 2:25a)\"},{\"location\":\"Article, paragraph 2\",\"severity\":\"major\",\"source_quote\":\"Uncles and aunts had shown them.\",\"suggested_fix\":\"Translate only the stated relatives; remove the added cousins, for example: “Shangazi na wajomba zao walikuwa wamewaonyesha.”\",\"translation_quote\":\"Shangazi, wajomba, ami na binamu zao walikuwa wamewaonyesha.\"},{\"location\":\"Article, paragraph 11\",\"severity\":\"major\",\"source_quote\":\"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\"suggested_fix\":\"Keep Ann as the person responding to Mark’s repentance, for example: “Mwitikio wa Ann kwa toba ya Mark ulikuwa msamaha kamili na wa hiari.”\",\"translation_quote\":\"Mwitikio wangu, Ann, kwa toba ya Mark ulikuwa msamaha kamili na wa bure.\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 1337,
+    "content_evidence_truncated": false,
+    "content_sha256": "81b68f106dbde5140091bc4c59b295867a28eb976c7d919a59107ff7e85b7333",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4108,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6633
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

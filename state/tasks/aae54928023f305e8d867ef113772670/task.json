@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:47+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 10495
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1002,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 620,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10443,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8904,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11445
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, /article[1]/p[18], p[20] (both quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "Scripture quotations: “...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man...” (Mat 18:7); “Who is a wise [wo]man...” (Jas 3:13); and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the missing scripture_evidence for these five printed quotations and use the corresponding exact Korean target-edition text for each quoted fragment, preserving the printed omissions, reference identities, and locations. Do not invent or substitute Scripture wording without that evidence.",
+      "translation_quote": "The corresponding Korean quotations in paragraphs 18, 20, 21, and 27; scripture_selection_audit.selections is empty."
+    },
+    {
+      "location": "source.html, /article[1]/p[21]",
+      "severity": "major",
+      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty, both inside and out.”",
+      "suggested_fix": "Translate “plain churches” to convey churches associated with plain/conservative dress, rather than “단정한 교회들” (neat/modest churches); retain the rest of the sentence’s meaning.",
+      "translation_quote": "“단정한 교회들은 안팎으로 심각하게 단정함을 잃어 가고 있습니다.”"
+    }
+  ],
   "id": "aae54928023f305e8d867ef113772670",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "kor",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/427d87ea11825c7500ff10c69ec52a8596f24cec45d76de83c40df8480444196.json",
   "scripture_evidence_sha256": "427d87ea11825c7500ff10c69ec52a8596f24cec45d76de83c40df8480444196",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

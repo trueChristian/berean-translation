@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f509dd90-7309-4c7c-b454-61b23b7f3bbf",
+    "response_id": "chatcmpl-EVpfubhjIZLNGpC07LnxNjhnhWvYF",
+    "usage": {
+      "completion_tokens": 1079,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11548
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Scripture quotations: article paragraphs 18, 20 (two quotations), 21, and 27",
+        "severity": "major",
+        "source_quote": "The article quotes Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
+        "suggested_fix": "The scripture_evidence lists no quotation entries, although these five passages are quoted in the article. Obtain the required approved Hindi verse evidence and selections, then replace each quoted passage with the exact corresponding approved target text, preserving partial-quote scope, ellipses, and the printed references. Do not create substitute Scripture wording without that evidence.",
+        "translation_quote": "“दो आँखें रहते हुए नरक की आग में डाले जाने से अच्छा है कि तेरे लिए एक आँख के साथ परमेश्वर के राज्य में प्रवेश करना बेहतर हो” (मरकुस 9:47); “परन्तु तुम्हारा शृंगार…” (1 पतरस 3:4-5); “…धिक्कार है उस [स्त्री] पर जिसके द्वारा ठोकर आती है!” (मत्ती 18:7); “तुम में बुद्धिमान और समझदार कौन है?” (याकूब 3:13); “…कि हम अभक्ति और सांसारिक अभिलाषाओं से मन फेरकर…” (तीतुस 2:12)."
+      },
+      {
+        "location": "Article paragraphs 1 and 21",
+        "severity": "minor",
+        "source_quote": "“plain mothers of today”; “The plain churches as a whole”",
+        "suggested_fix": "Translate “plain” in its religious/community sense rather than as “ordinary” or “simple”; for example, use a suitable Hindi rendering that identifies the plain/conservative church community in both places.",
+        "translation_quote": "“आज की साधारण माताएँ”; “कुल मिलाकर सादी कलीसियाएँ”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 74
+  }
+}

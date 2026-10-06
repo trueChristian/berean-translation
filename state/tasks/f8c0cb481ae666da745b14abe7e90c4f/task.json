@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 5565
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 456,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3952,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6139
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Scripture quotation associated with Joel 2:25a",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "This is a Scripture quotation missing from scripture_evidence. Obtain the approved target-verse evidence for this quotation, then replace only the quoted words with the corresponding exact Spanish substring(s) and provide the required scripture_selection with its source block and offsets. Preserve the printed reference as Joel 2:25a; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "<em>devolvernos los años que devoró la langosta.</em> (Joel 2:25a)"
+    }
+  ],
   "id": "f8c0cb481ae666da745b14abe7e90c4f",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "spa",
@@ -116,13 +144,15 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/415396d32a980e3abb638a9ab9143dba0a637d96bcc5f79905b0a2dfc15e933f.json",
   "scripture_evidence_sha256": "415396d32a980e3abb638a9ab9143dba0a637d96bcc5f79905b0a2dfc15e933f",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

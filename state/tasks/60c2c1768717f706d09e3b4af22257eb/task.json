@@ -2,7 +2,6 @@
   "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:54+00:00",
   "events": [
@@ -25,9 +24,31 @@
         },
         "total_tokens": 3195
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 705,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 667,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3103,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1564,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 3808
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [],
+  "finished_at": "2026-10-06T09:01:55+00:00",
   "id": "60c2c1768717f706d09e3b4af22257eb",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "hin",
@@ -116,13 +137,15 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/b44f6376f1b4d67923a2045765fca708562a1708e86a3c11d4ceb97577d7dfd0.json",
   "scripture_evidence_sha256": "b44f6376f1b4d67923a2045765fca708562a1708e86a3c11d4ceb97577d7dfd0",
   "source_snapshot": "state/sources/7fd80800ba3f2818fc6b83dcf824cced436c87b575845b4449ff528e16379a17.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86420e07f2637e7c3397bed7668b64bf7e2a13ec3cd5d7901df32da85867e3a6",
   "translation_model_actual": "gpt-6-luna"

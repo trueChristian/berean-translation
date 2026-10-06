@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph, emphasized Scripture quotation and its reference",
+      "severity": "major",
+      "source_quote": "<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)",
+      "suggested_fix": "Obtain the required approved Afrikaans Scripture evidence for this quotation, then render the corresponding target-text fragment faithfully, preserving the partial-quotation scope, ellipsis, and reference placement. Include its required scripture selection; do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "<em>die jare wat die sprinkaan [van ons] geëet het, aan [ons] terug te gee!</em> (Joël 2:25a); scripture_selection_audit.selections is empty."
+    },
+    {
+      "location": "translation.html, paragraph beginning “My, Ann’s response”",
+      "severity": "minor",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Change the opening to “Ann se reaksie op Mark se bekering was om hom ten volle en vryelik te vergewe.”",
+      "translation_quote": "My, Ann, se reaksie op Mark se bekering was om hom volledig en vryelik te vergewe."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

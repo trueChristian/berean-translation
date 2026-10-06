@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 5843
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 716,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5801,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4262,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6517
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraphs 4 and 12; scripture_evidence quotes",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go” (paragraph 4); “restore to [us] the years that the locust hath eaten!” (Joel 2:25a, paragraph 12)",
+      "suggested_fix": "Add evidence entries for these identifiable Scripture quotations and review the corresponding Urdu against the exact approved target-verse text, preserving the printed reference and ellipsis. Do not invent Scripture wording if matching evidence cannot be obtained.",
+      "translation_quote": "”تو جہاں جائے گی، میں بھی وہاں جاؤں گا“ (paragraph 4); <em>جو برس ٹڈیوں نے کھا لیے تھے، وہ [ہمارے لیے] بحال کر دے!</em> (یوایل 2:25a)"
+    }
+  ],
   "id": "d9ede7c6b9b39a4be4c57e875500f494",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "urd",
@@ -116,13 +144,15 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/f569a6e93e9f921af9f86c5fcaafc98591ad91256c3532caa1c1e4f3252229c3.json",
   "scripture_evidence_sha256": "f569a6e93e9f921af9f86c5fcaafc98591ad91256c3532caa1c1e4f3252229c3",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

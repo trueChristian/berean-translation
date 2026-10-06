@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second poem, final two lines",
+      "severity": "minor",
+      "source_quote": "Adorned with His meekness / And clothed with His light.",
+      "suggested_fix": "Keep the lines as descriptions of the godly life, for example: “주님의 온유함으로 단장하고 / 주님의 빛을 입은 채.”",
+      "translation_quote": "주님의 온유함으로 단장하고 / 주님의 빛을 입으라."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

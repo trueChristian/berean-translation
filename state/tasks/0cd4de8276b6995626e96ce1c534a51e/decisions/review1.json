@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Second poem, line 6",
+      "severity": "major",
+      "source_quote": "A desire for God,",
+      "suggested_fix": "Replace «Hamu ya kumtafuta Mungu,» with «Shauku ya Mungu,» to preserve the source’s desire for God rather than desire to seek God.",
+      "translation_quote": "Hamu ya kumtafuta Mungu,"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A vivid pink flower against a blue and green background",
+      "suggested_fix": "Replace «Ua la waridi angavu» with «Ua la waridi ang’avu» only if referring to a rose is intended; otherwise use «Ua la waridi/ua lenye rangi ya waridi ang’avu» carefully to mean a vivid pink flower, not specifically a rose. For example: «Ua lenye rangi ya waridi ang’avu mbele ya mandhari ya samawati na kijani».",
+      "translation_quote": "Ua la waridi angavu mbele ya mandhari ya samawati na kijani"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

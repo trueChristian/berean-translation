@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, final paragraph, <em>…</em> quotation; scripture_selection_audit",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "Treat this as a Scripture quotation requiring evidence and a verified selection from the approved French Martin text. Add the corresponding quote evidence and selection; do not generate or guess the Bible wording. Preserve the printed reference identity and placement.",
+      "translation_quote": "« nous rendre les années qu’a dévorées la sauterelle ! » (Joël 2:25a); scripture_selection_audit.selections is empty"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

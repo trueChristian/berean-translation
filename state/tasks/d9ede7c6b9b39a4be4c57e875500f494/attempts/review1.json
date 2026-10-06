@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraphs 4 and 12; scripture_evidence quotes\",\"severity\":\"major\",\"source_quote\":\"“whither thou goest, I will go” (paragraph 4); “restore to [us] the years that the locust hath eaten!” (Joel 2:25a, paragraph 12)\",\"suggested_fix\":\"Add evidence entries for these identifiable Scripture quotations and review the corresponding Urdu against the exact approved target-verse text, preserving the printed reference and ellipsis. Do not invent Scripture wording if matching evidence cannot be obtained.\",\"translation_quote\":\"”تو جہاں جائے گی، میں بھی وہاں جاؤں گا“ (paragraph 4); <em>جو برس ٹڈیوں نے کھا لیے تھے، وہ [ہمارے لیے] بحال کر دے!</em> (یوایل 2:25a)\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 826,
+    "content_evidence_truncated": false,
+    "content_sha256": "140a765fa7ad43d200b269b81546407e4ce04a424c22120860402886e761862b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4262,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6517
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

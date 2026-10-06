@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 5587
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1072,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 649,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5596,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4057,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6668
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Final paragraph, italicized quotation; Joel 2:25a",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!”",
+      "suggested_fix": "This is a Scripture quotation, but scripture_evidence contains no corresponding quote or approved target-verse text. Supply the required approved evidence and selection, then use only the exact target-verse substring corresponding to the printed quotation, preserving its omission and reference. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "«gi [oss] igjen de år som gresshoppen har fortært!»"
+    },
+    {
+      "location": "Paragraph beginning “Then it happened…”, sentence containing “whither thou goest”",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Restore the omitted first-person clause in Bokmål: «dit du går, vil jeg gå».",
+      "translation_quote": "«dit du går»"
+    },
+    {
+      "location": "Paragraph beginning “Unconditional love means loving…”, sentence about Ann’s prayer",
+      "severity": "minor",
+      "source_quote": "“Ann’s prayer and plea to God was”",
+      "suggested_fix": "Avoid repeating «bønn»; for example: «Anns bønn og inderlige appell til Gud var».",
+      "translation_quote": "«Anns bønn og inderlige bønn til Gud var»"
+    },
+    {
+      "location": "Paragraph beginning “My, Ann’s response…”, first sentence",
+      "severity": "minor",
+      "source_quote": "“My, Ann’s response to Mark’s repentance was full and free forgiveness.”",
+      "suggested_fix": "Make the shared attribution clear and grammatical in Bokmål, for example: «Anns og min reaksjon på Marks omvendelse var å tilgi ham fullt og helt.»",
+      "translation_quote": "«Min, Anns, reaksjon på Marks omvendelse var full og fri tilgivelse.»"
+    }
+  ],
   "id": "a22bd5eefc96b0277b183b58749e91bc",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nob",
@@ -116,13 +165,15 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/130216de88b52bfd4a2ef5fb114967e1930e9a387c3f23f3ec15a5713bb07686.json",
   "scripture_evidence_sha256": "130216de88b52bfd4a2ef5fb114967e1930e9a387c3f23f3ec15a5713bb07686",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

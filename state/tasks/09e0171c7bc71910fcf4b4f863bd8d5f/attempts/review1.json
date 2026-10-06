@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Final paragraph, quotation and reference to Joel 2:25a\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God truly has fulfilled His promise to … restore to [us] the years that the locust hath eaten! (Joel 2:25a)\",\n      \"suggested_fix\": \"This is a Scripture quotation, but scripture_evidence contains no quote evidence for it and the selection audit has no corresponding selection. Add the exact approved target-language verse evidence for the printed quotation and provide its required selection; do not invent or supply Scripture wording without that evidence.\",\n      \"translation_quote\": \"Gud har verkligen uppfyllt sitt löfte att … ge [oss] tillbaka de år som gräshopporna har ätit upp! (Joel 2:25a)\"\n    },\n    {\n      \"location\": \"Paragraph beginning “My, Ann’s response to Mark’s repentance…”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\n      \"suggested_fix\": \"Correct the attribution to match the source as printed: revise “Mitt svar, Anns svar” so the sentence attributes the full and free forgiveness to Ann, without adding Mark as a co-respondent.\",\n      \"translation_quote\": \"Mitt svar, Anns svar, på Marks omvändelse var fullständig och villkorslös förlåtelse.\"\n    },\n    {\n      \"location\": \"Paragraph beginning “First, it must be said…”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It took many deep, heartfelt tears of repentance and close accountability to each other.\",\n      \"suggested_fix\": \"Use a natural Swedish expression for mutual accountability, such as “och att de regelbundet ställde varandra till svars”, rather than wording that can suggest keeping one another closely responsible.\",\n      \"translation_quote\": \"Det krävdes många djupa, innerliga tårar av ånger och att de höll varandra nära ansvariga.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1994,
+    "content_evidence_truncated": false,
+    "content_sha256": "9382992ecfd19f44810ba25c9356708a3c2a0b1881fa384e5929f52dc147f957",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4150,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6674
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

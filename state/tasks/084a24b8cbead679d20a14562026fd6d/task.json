@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5881
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 783,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 491,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5899,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4360,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6682
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph 4; scripture_evidence has no quote entry for this quoted phrase",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "Treat this quoted Scripture wording as a Scripture quotation: obtain the applicable approved Bengali verse evidence, then use the corresponding target-language words and provide the required scripture selection. Do not supply or reconstruct Scripture wording without that evidence.",
+      "translation_quote": "“তুমি যেখানে যাবে, আমিও সেখানে যাব”"
+    },
+    {
+      "location": "source.html and translation.html, final paragraph; scripture_evidence identifies Joel 2:25a as reference_only and has no quote entry",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+      "suggested_fix": "Obtain approved Bengali Scripture evidence for Joel 2:25a, then replace only the quoted phrase with its semantically corresponding approved target text, preserving the source ellipsis and reference placement, and provide the required scripture selection. Do not generate Scripture wording without that evidence.",
+      "translation_quote": "পঙ্গপাল যে বছরগুলো খেয়ে ফেলেছিল, তা [আমাদের] ফিরিয়ে দিতে! (যোয়েল ২:২৫ক)"
+    }
+  ],
   "id": "084a24b8cbead679d20a14562026fd6d",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ben",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/c869f96e129c9ec84500028ff49d5fc42d563beeacbac93349e7a3876033e28c.json",
   "scripture_evidence_sha256": "c869f96e129c9ec84500028ff49d5fc42d563beeacbac93349e7a3876033e28c",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5739
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1156,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 796,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5670,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4131,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6826
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph 4 (Ruth quotation); paragraph 12 (Joel 2:25a quotation)",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go” … “restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "These are identifiable Scripture quotations missing from scripture_evidence. Add the corresponding quotation evidence and provide target-language selections from the approved target verses, preserving the source ellipsis and printed reference. Do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "«куда ты пойдешь, туда и я пойду» … «возвратить [нам] годы, которые пожрала саранча!» (Иоиль 2:25а)"
+    },
+    {
+      "location": "source.html and translation.html, paragraph 11",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Preserve Ann as the person responding to Mark’s repentance. For example: «Я, Энн, ответила на покаяние Марка полным и безоговорочным прощением.»",
+      "translation_quote": "Мой ответ на покаяние Марка, — Энн, — был полным и безоговорочным прощением."
+    }
+  ],
   "id": "5bcd100560d6966a5f7b01a73c6b5792",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "rus",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/676f2dbe33850ae2465b04e4d78a7f47ec84d672d8bfdc204db3891141853d93.json",
   "scripture_evidence_sha256": "676f2dbe33850ae2465b04e4d78a7f47ec84d672d8bfdc204db3891141853d93",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

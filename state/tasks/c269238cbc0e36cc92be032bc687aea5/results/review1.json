@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8eed98eb-94e0-44af-bd07-1145618bb17d",
+    "response_id": "chatcmpl-EVphD8mppjfKnGqv4VoZT3sp2NvrD",
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 506,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1635,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3882
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first poem, lines beginning “Away from my heart”",
+        "severity": "major",
+        "source_quote": "Away from my heart, / That it tarnish no more",
+        "suggested_fix": "Retain the sense that the removed ugliness will no longer tarnish the heart, for example: «Fra hjertet mitt, / så det ikke lenger blir tilsmusset».",
+        "translation_quote": "Fra hjertet mitt, / Så det ikke lenger flekker,"
+      },
+      {
+        "location": "source.html, second poem, final couplet",
+        "severity": "minor",
+        "source_quote": "Adorned with His meekness",
+        "suggested_fix": "Use «prydet med hans mildhet» or another Bokmål rendering of meekness that conveys gentleness, rather than humility.",
+        "translation_quote": "Smykket med Hans ydmykhet"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}

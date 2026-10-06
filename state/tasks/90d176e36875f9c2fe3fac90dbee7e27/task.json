@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:42+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9882
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1180,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 813,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9783,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8244,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 10963
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html / translation.html, paragraphs 18, 20, 21, and 27 (Scripture quotations)",
+      "severity": "major",
+      "source_quote": "The article contains Scripture quotations at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.",
+      "suggested_fix": "Re-run Scripture-quotation extraction to obtain approved Dutch evidence for each quoted passage, then use the corresponding approved target-verse wording. Do not generate or paraphrase Scripture wording without that evidence; retain the printed references and their placement.",
+      "translation_quote": "The quotations are rendered in Dutch, but scripture_evidence.quotes is empty and scripture_selections is empty, so none of these quotations has approved target-verse evidence or an auditable selection."
+    },
+    {
+      "location": "source.html /article[1]/p[18] and /article[1]/p[19]; corresponding translation.html paragraphs",
+      "severity": "major",
+      "source_quote": "“if something causes you to offend, or be offended” and “The word offend is easy to read over”",
+      "suggested_fix": "Translate the idea consistently as causing someone to stumble or being caused to stumble, and render the following explanation with wording that preserves that sense; for example: “als iets jou tot struikelen brengt of jou tot struikelen brengt” is not sufficient for the contrast, so distinguish causing someone to stumble from stumbling oneself.",
+      "translation_quote": "“als iets je tot zonde brengt of ergernis geeft” and “Het woord ‘ergernis’ lees je gemakkelijk over het hoofd”"
+    }
+  ],
   "id": "90d176e36875f9c2fe3fac90dbee7e27",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nld",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/4c2d8cd60627758428c7f3a6a7928409a6cda88864c3f3c95bda2c7dba24a298.json",
   "scripture_evidence_sha256": "4c2d8cd60627758428c7f3a6a7928409a6cda88864c3f3c95bda2c7dba24a298",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

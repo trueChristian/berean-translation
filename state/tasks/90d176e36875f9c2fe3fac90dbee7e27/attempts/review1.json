@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, paragraphs 18, 20, 21, and 27 (Scripture quotations)\",\"severity\":\"major\",\"source_quote\":\"The article contains Scripture quotations at Mar 9:47; 1Pe 3:4-5; Mat 18:7; Jas 3:13; and Tit 2:12.\",\"suggested_fix\":\"Re-run Scripture-quotation extraction to obtain approved Dutch evidence for each quoted passage, then use the corresponding approved target-verse wording. Do not generate or paraphrase Scripture wording without that evidence; retain the printed references and their placement.\",\"translation_quote\":\"The quotations are rendered in Dutch, but scripture_evidence.quotes is empty and scripture_selections is empty, so none of these quotations has approved target-verse evidence or an auditable selection.\"},{\"location\":\"source.html /article[1]/p[18] and /article[1]/p[19]; corresponding translation.html paragraphs\",\"severity\":\"major\",\"source_quote\":\"“if something causes you to offend, or be offended” and “The word offend is easy to read over”\",\"suggested_fix\":\"Translate the idea consistently as causing someone to stumble or being caused to stumble, and render the following explanation with wording that preserves that sense; for example: “als iets jou tot struikelen brengt of jou tot struikelen brengt” is not sufficient for the contrast, so distinguish causing someone to stumble from stumbling oneself.\",\"translation_quote\":\"“als iets je tot zonde brengt of ergernis geeft” and “Het woord ‘ergernis’ lees je gemakkelijk over het hoofd”\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 1584,
+    "content_evidence_truncated": false,
+    "content_sha256": "d95e9b21cbb5e755dc59c122b37f61187e47ec53788b8f1be1e3f938bca78770",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1180,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8244,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10963
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

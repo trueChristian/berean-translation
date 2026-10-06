@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, blockquote p; Scripture quotation, Colossians 3:20",
+      "severity": "major",
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord –Col 3:20.",
+      "suggested_fix": "The selected Hebrew edition’s verse does not semantically correspond to the printed quotation: its wording says “the sons listen to your children” and “our Lord,” reversing the parent/child relationship and changing the attribution. Do not approve this selection as a faithful rendering. Resolve the verse correspondence and use only a verified, semantically aligned approved Hebrew verse selection; do not invent or paraphrase Scripture words.",
+      "translation_quote": "הבנים שמעו אל ילדיכם בכל דבר כי הוא לרצון לאדנינו׃ – קולוסים 3:20."
+    },
+    {
+      "location": "source.html / translation.html, second paragraph",
+      "severity": "minor",
+      "source_quote": "There was a big hill close to their house",
+      "suggested_fix": "Change “היה” to “הייתה” to agree grammatically with the feminine noun “גבעה”.",
+      "translation_quote": "ליד ביתם היה גבעה גדולה"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

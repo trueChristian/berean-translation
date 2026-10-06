@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / first <p class=\"poem\">, lines beginning “That it tarnish no more” and “And bring me the jewels”",
+      "severity": "major",
+      "source_quote": "My Father, the King, / Will all ugliness take / Away from my heart, / That it tarnish no more / And bring me the jewels / That He has in store.",
+      "suggested_fix": "Keep the King as the subject of both actions, and make the heart the thing no longer tarnished. For example: “Mijn Vader, de Koning, / zal alle lelijkheid / uit mijn hart wegnemen, / zodat mijn hart niet langer bezoedeld wordt, / en mij de juwelen brengen / die Hij voor mij heeft weggelegd.”",
+      "translation_quote": "Mijn Vader, de Koning, / Zal alle lelijkheid / Uit mijn hart wegnemen, / Opdat die het niet langer bezoedelt / En mij de juwelen brengt / Die Hij voor mij heeft weggelegd."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

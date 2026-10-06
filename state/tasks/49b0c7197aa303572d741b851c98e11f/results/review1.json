@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b2e4389a-eaa6-4747-9694-12b8b7b79747",
+    "response_id": "chatcmpl-EVpj5kgutue0Avwbvtqg4DVXBix21",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1649,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3840
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first poem, lines 3–4",
+        "severity": "minor",
+        "source_quote": "That merits my giving / Of talent and time",
+        "suggested_fix": "Replace with a natural Swedish rendering such as “Som förtjänar att jag ger / av min talang och min tid”.",
+        "translation_quote": "Som förtjänar att jag ger / Av talang och tid"
+      },
+      {
+        "location": "source.html, second poem, final two lines",
+        "severity": "minor",
+        "source_quote": "Adorned with His meekness",
+        "suggested_fix": "Use “Smyckad med Hans ödmjukhet” to convey the humility implied by “meekness” in this context.",
+        "translation_quote": "Smyckad med Hans mildhet"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

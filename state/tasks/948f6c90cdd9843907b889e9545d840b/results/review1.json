@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7099c697-5db9-4764-bb6f-9d5f94e862a5",
+    "response_id": "chatcmpl-EVpg736Fq10A4lJ953wrhoIhg2PvO",
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8335,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11013
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, Scripture quotations in paragraphs 18, 20 (two quotations), 21, and 27",
+        "severity": "major",
+        "source_quote": "Scripture quotations ending “Mar 9:47,” “1Pe 3:4-5,” “Mat 18:7,” “Jas 3:13,” and “Tit 2:12”",
+        "suggested_fix": "Provide the required scripture_evidence entries for these five quotations and render each from its exact approved Simplified Chinese target_verses text, with one scripture_selections item per quote and the required source block paths and offsets. Preserve each printed reference and its ellipses.",
+        "translation_quote": "对应的圣经引文分别以“可9:47”“彼前3:4-5”“太18:7”“雅3:13”和“多2:12”标注；scripture_evidence.quotes 和 scripture_selections 均为空。"
+      },
+      {
+        "location": "source.html and translation.html, paragraph 20 (the quotation ending 1Pe 3:4-5)",
+        "severity": "major",
+        "source_quote": "“in that which is not corruptible, even the ornament of a meek and quiet spirit”",
+        "suggested_fix": "Render the full quoted passage using the exact approved target text for 1 Peter 3:4-5. The translation must preserve the source’s meaning about what is incorruptible and the ornament of a meek and quiet spirit; do not leave out substantive parts of the printed quotation.",
+        "translation_quote": "“里面存着长久温柔、安静的心为妆饰”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 80
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]; scripture_selection_audit.selections\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The article contains quoted Scripture at Mar 9:47, 1Pe 3:4-5, Mat 18:7, Jas 3:13, and Tit 2:12. For example: “...it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.”\",\n      \"suggested_fix\": \"Have the application provide the required approved target-language Scripture evidence and regenerate the Scripture selections for all five quotations, preserving their printed meanings, ellipses, references, and placement. Do not invent Scripture wording or use an English fallback; verify each quotation against its approved target text.\",\n      \"translation_quote\": \"“...lebih baik bagimu masuk ke dalam Kerajaan Allah dengan satu mata daripada dengan dua mata dicampakkan ke dalam api neraka –Mar 9:47”; the other quoted passages appear at the listed locations. The audit contains “selections”: [].\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 1213,
+    "content_evidence_truncated": false,
+    "content_sha256": "577208b5eaa134be5b39965b550e4e7c839736e64938ba8c0497374da0e946a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 647,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8204,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10715
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

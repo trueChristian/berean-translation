@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:45+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 10200
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1185,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 578,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10179,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8640,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11364
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html: /article[1]/p[18], p[20] (two quotations), p[21], p[27]",
+      "severity": "major",
+      "source_quote": "The article quotes Scripture at Mar 9:47, 1Pe 3:4-5, Mat 18:7, Jas 3:13, and Tit 2:12. scripture_evidence identifies no quotes, and scripture_selections is empty.",
+      "suggested_fix": "Provide the required approved target-language Scripture evidence for each quoted passage and replace each translated quotation with the precisely corresponding target-verse text, preserving the source ellipses, quotation boundaries, references, and placement. Then supply one audited scripture_selections item per quotation. Do not generate substitute Scripture wording without evidence.",
+      "translation_quote": "Examples include “ni afadhali kwako kuingia katika ufalme wa Mungu…” (p[18]), “Lakini uzuri wenu uwe utu wa moyoni…” and “…ole wake yule…” (p[20]), and the quotations at p[21] and p[27]."
+    },
+    {
+      "location": "translation.html: /article[1]/p[2]",
+      "severity": "minor",
+      "source_quote": "“Would you let your girls use them?”",
+      "suggested_fix": "Correct the malformed word to: “Ungew ruhusu” is also not standard; use “Ungew aruhusu” only if referring to the girls. Prefer: “Ungew aruhusu binti zako wazitumie?”",
+      "translation_quote": "“Ungewruhusu binti zako vitumie?”"
+    },
+    {
+      "location": "translation.html: /article[1]/p[6]",
+      "severity": "minor",
+      "source_quote": "I wonder if I’ve changed, or if the times have changed, or what.",
+      "suggested_fix": "Correct the apparent typo to “nimebadilika”: “Naishia kujiuliza kama ni mimi niliye badilika, au nyakati zimebadilika, au nini.”",
+      "translation_quote": "“Naishia kujiuliza kama ni mimi niliye muuttika, au nyakati zimebadilika, au nini.”"
+    },
+    {
+      "location": "translation.html: /article[1]/p[16]",
+      "severity": "minor",
+      "source_quote": "the surrendering sigh of a mother unable to pass her principles on to her teenage daughters",
+      "suggested_fix": "Replace the unclear “sigha” with a natural Kiswahili rendering, for example: “kuugua kwa mama anayejisalimisha kwa kushindwa kuwafundisha binti zake matineja kanuni zake.”",
+      "translation_quote": "“sigha ya mama anayekubali kushindwa, asiyeweza kuwafundisha binti zake matineja kanuni zake”"
+    }
+  ],
   "id": "5d913cec69a92a9feebf8d3d268b33dd",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swa",
@@ -116,13 +165,15 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/e95a55955edc2584390300bf8dccfad5a30799d5a7994b1cef24a3906c5e69f0.json",
   "scripture_evidence_sha256": "e95a55955edc2584390300bf8dccfad5a30799d5a7994b1cef24a3906c5e69f0",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

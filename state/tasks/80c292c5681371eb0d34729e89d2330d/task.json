@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:35+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 10472
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 857,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10425,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8886,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11667
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Scripture quotations: /article[1]/p[18], p[20] (both quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "The article contains five Scripture quotations: the partial quotation ending “–Mar 9:47”; the quotation ending “–1Pe 3:4-5”; the partial quotation ending “–Mat 18:7”; the quotation ending “–Jas 3:13”; and the partial quotation ending “–Tit 2:12.”",
+      "suggested_fix": "These are genuine Scripture quotations, but scripture_evidence.quotes is empty and scripture_selections is empty. Obtain the applicable approved Bengali verse evidence, then provide one verified selection per quotation and update only the corresponding quoted wording as needed. Do not invent verse text or use an English fallback; preserve the printed references and their locations.",
+      "translation_quote": "The corresponding Bengali Scripture quotations appear in the same five paragraphs, but none has a scripture_selection."
+    },
+    {
+      "location": "Opening paragraph, /article[1]/p[1]",
+      "severity": "minor",
+      "source_quote": "“What are plain mothers of today telling their daughters about the carousel of cosmetics proffered for women?”",
+      "suggested_fix": "Use wording that conveys “plain” as modest/plain-dressing in this article’s context, rather than merely ordinary; for example, change “সাধারণ মায়েরা” to “সাদাসিধে পোশাকের মায়েরা” if that matches the intended sense.",
+      "translation_quote": "“আজকের সাধারণ মায়েরা নারীদের জন্য প্রস্তাবিত প্রসাধনীর এই ঘূর্ণায়মান সম্ভার সম্পর্কে তাঁদের মেয়েদের কী বলছেন?”"
+    }
+  ],
   "id": "80c292c5681371eb0d34729e89d2330d",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ben",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/ec32aae43fd496b7ad4542eabe5ba873dc3954deb6bcd40ee4a1058577c1d1fa.json",
   "scripture_evidence_sha256": "ec32aae43fd496b7ad4542eabe5ba873dc3954deb6bcd40ee4a1058577c1d1fa",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html and translation.html, paragraph 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“whither thou goest, I will go”\",\n      \"suggested_fix\": \"This is a Scripture quotation not represented in scripture_evidence. Obtain the approved target-language evidence for the corresponding quotation, then render it faithfully in Portuguese and preserve its quotation marks.\",\n      \"translation_quote\": \"«aonde fores, irei»\"\n    },\n    {\n      \"location\": \"source.html and translation.html, paragraph 12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God truly has fulfilled His promise to … restore to [us] the years that the locust hath eaten! (Joel 2:25a)\",\n      \"suggested_fix\": \"The quoted Scripture is not represented in scripture_evidence. Obtain the approved target-language evidence for this partial quotation and use the corresponding approved words, preserving the source ellipsis and the reference identity and placement.\",\n      \"translation_quote\": \"Deus realmente cumpriu Sua promessa de … restituir-nos os anos que o gafanhoto devorou! (Joel 2:25a)\"\n    },\n    {\n      \"location\": \"source.html and translation.html, paragraph 12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\n      \"suggested_fix\": \"Clarify the attribution without making Mark the person forgiving himself: “A resposta de Ann ao arrependimento de Mark foi perdoá-lo plena e livremente.”\",\n      \"translation_quote\": \"Minha resposta, a resposta de Ann ao arrependimento de Mark, foi perdoá-lo plena e livremente.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 70\n}",
+    "content_bytes": 1720,
+    "content_evidence_truncated": false,
+    "content_sha256": "15d169ec18ca739e8f46152f90791e4bb4a7c4c417c0e6c06eddfa764b362714",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 680,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3876,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6511
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

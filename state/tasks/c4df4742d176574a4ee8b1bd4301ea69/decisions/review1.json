@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (two quotations), /article[1]/p[21], and /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the required approved-verse evidence for each of these printed Scripture quotations and select the corresponding Italian target-verse substrings in scripture_selections, preserving each source omission, ellipsis, reference identity, and placement. Do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "The corresponding Italian Scripture quotations are present, but scripture_evidence.quotes and scripture_selections are both empty."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

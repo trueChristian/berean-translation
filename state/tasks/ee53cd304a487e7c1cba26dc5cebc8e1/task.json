@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:06+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 5469
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1090,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 689,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5507,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3968,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6597
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph 4: quotation “whither thou goest, I will go”",
+      "severity": "major",
+      "source_quote": "her commitment to “whither thou goest, I will go” began a miracle.",
+      "suggested_fix": "This is a recognizable Scripture quotation (Ruth 1:16), but it is missing from scripture_evidence. Have it identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "komitmennya untuk “ke mana engkau pergi, ke situ jugalah aku pergi” mulai menghasilkan mukjizat."
+    },
+    {
+      "location": "HTML, paragraph 12: italicized quotation and Joel 2:25a reference",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+      "suggested_fix": "The text quotes Scripture, but scripture_evidence lists Joel 2:25a as reference_only and provides no quote text. Have the quotation identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "memulihkan bagi [kami] tahun-tahun yang dimakan belalang! (Yoel 2:25a)"
+    },
+    {
+      "location": "HTML, paragraph 11: first sentence",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Correct the attribution so Ann is identified as the one responding, for example: “Tanggapan saya, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus.”",
+      "translation_quote": "Tanggapanku, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus."
+    }
+  ],
   "id": "ee53cd304a487e7c1cba26dc5cebc8e1",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ind",
@@ -116,13 +158,15 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/688e7ac73ce055176d90e804afc48783006ae37d1700549d29c3946d5652b871.json",
   "scripture_evidence_sha256": "688e7ac73ce055176d90e804afc48783006ae37d1700549d29c3946d5652b871",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

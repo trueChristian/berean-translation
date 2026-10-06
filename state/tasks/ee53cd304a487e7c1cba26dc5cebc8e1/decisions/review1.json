@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4: quotation “whither thou goest, I will go”",
+      "severity": "major",
+      "source_quote": "her commitment to “whither thou goest, I will go” began a miracle.",
+      "suggested_fix": "This is a recognizable Scripture quotation (Ruth 1:16), but it is missing from scripture_evidence. Have it identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "komitmennya untuk “ke mana engkau pergi, ke situ jugalah aku pergi” mulai menghasilkan mukjizat."
+    },
+    {
+      "location": "HTML, paragraph 12: italicized quotation and Joel 2:25a reference",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+      "suggested_fix": "The text quotes Scripture, but scripture_evidence lists Joel 2:25a as reference_only and provides no quote text. Have the quotation identified and reviewed under the Scripture quotation contract; do not generate or substitute Scripture wording without the required evidence.",
+      "translation_quote": "memulihkan bagi [kami] tahun-tahun yang dimakan belalang! (Yoel 2:25a)"
+    },
+    {
+      "location": "HTML, paragraph 11: first sentence",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Correct the attribution so Ann is identified as the one responding, for example: “Tanggapan saya, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus.”",
+      "translation_quote": "Tanggapanku, Ann, terhadap pertobatan Mark adalah pengampunan yang sepenuhnya dan tulus."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

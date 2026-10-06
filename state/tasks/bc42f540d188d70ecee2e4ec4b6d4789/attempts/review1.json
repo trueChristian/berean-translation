@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html /article[1]/p[18], p[20], p[21], p[27] (scripture quotations; corresponding translated paragraphs)\",\"severity\":\"major\",\"source_quote\":\"Direct Scripture quotations are present at Mark 9:47 (“…it is better for thee to enter into the kingdom of God with one eye…”), 1 Peter 3:4–5 (“But let it [the adornment] be the hidden man of the heart…”), Matthew 18:7 (“…woe to that [wo]man by whom the offence cometh!”), James 3:13 (“Who is a wise [wo]man and endued with knowledge among you?”), and Titus 2:12 (“…that, denying ungodliness and worldly lusts…”).\",\"suggested_fix\":\"Obtain the required approved Portuguese verse evidence for each quotation and revise the corresponding translated quotations to use only the matching target-verse words, preserving the source’s partial-quote boundaries, ellipses, attribution, and exact references. Do not generate or substitute Scripture wording without that evidence.\",\"translation_quote\":\"The corresponding Portuguese quotations are present in p.18 (“…é melhor entrares no reino de Deus…”), p.20 (“Mas seja o homem encoberto no coração…” and “…ai daquele [daquela]…”), p.21 (“Quem dentre vós é sábio e entendido?”), and p.27 (“…que, renunciando à impiedade…”); scripture_evidence.quotes is empty and scripture_selection_audit.selections is empty.\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 1452,
+    "content_evidence_truncated": false,
+    "content_sha256": "b69e561cd13594e7aae137083c43503d775589661051645ae6dae3b553f56624",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 654,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8122,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 10679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

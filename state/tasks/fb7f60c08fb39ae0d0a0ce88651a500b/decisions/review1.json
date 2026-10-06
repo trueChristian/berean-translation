@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Scripture quotations in /article[1]/p[18], /article[1]/p[20] (both quotations), /article[1]/p[21], and /article[1]/p[27]",
+      "severity": "major",
+      "source_quote": "The article contains Scripture quotations at Mark 9:47; 1 Peter 3:4–5; Matthew 18:7; James 3:13; and Titus 2:12.",
+      "suggested_fix": "Have these quotations identified and supplied as Scripture evidence, then provide the required scripture_selections for each. Do not generate or substitute Scripture wording without the corresponding approved target text.",
+      "translation_quote": "The corresponding Urdu quotations appear in these five paragraphs, but scripture_evidence.quotes and scripture_selections are both empty."
+    },
+    {
+      "location": "/article[1]/p[24]",
+      "severity": "major",
+      "source_quote": "“Mothers who are on break.”",
+      "suggested_fix": "Replace ذرا فرصت پر ہیں with wording that preserves the metaphor of mothers taking a break, such as وقفے پر ہیں.",
+      "translation_quote": "“ایسی ماؤں کے آثار ہیں جو ذرا فرصت پر ہیں۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

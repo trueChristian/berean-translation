@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1e30f14-a53d-4c9b-9ae4-5f1ad1e9a3d5",
+    "response_id": "chatcmpl-EVpgpgadUPNWoImSGU0XGpycoGXUt",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1648,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3921
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first poem, line beginning “That it tarnish no more”",
+        "severity": "minor",
+        "source_quote": "That it tarnish no more",
+        "suggested_fix": "Replace “Sodat dit nie meer besoedel nie” with “Sodat dit my hart nie meer bevlek nie” to make clear that the ugliness no longer stains the speaker’s heart.",
+        "translation_quote": "Sodat dit nie meer besoedel nie"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

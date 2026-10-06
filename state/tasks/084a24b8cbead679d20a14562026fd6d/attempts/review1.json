@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, paragraph 4; scripture_evidence has no quote entry for this quoted phrase\",\"severity\":\"major\",\"source_quote\":\"“whither thou goest, I will go”\",\"suggested_fix\":\"Treat this quoted Scripture wording as a Scripture quotation: obtain the applicable approved Bengali verse evidence, then use the corresponding target-language words and provide the required scripture selection. Do not supply or reconstruct Scripture wording without that evidence.\",\"translation_quote\":\"“তুমি যেখানে যাবে, আমিও সেখানে যাব”\"},{\"location\":\"source.html and translation.html, final paragraph; scripture_evidence identifies Joel 2:25a as reference_only and has no quote entry\",\"severity\":\"major\",\"source_quote\":\"restore to [us] the years that the locust hath eaten! (Joel 2:25a)\",\"suggested_fix\":\"Obtain approved Bengali Scripture evidence for Joel 2:25a, then replace only the quoted phrase with its semantically corresponding approved target text, preserving the source ellipsis and reference placement, and provide the required scripture selection. Do not generate Scripture wording without that evidence.\",\"translation_quote\":\"পঙ্গপাল যে বছরগুলো খেয়ে ফেলেছিল, তা [আমাদের] ফিরিয়ে দিতে! (যোয়েল ২:২৫ক)\"}],\"findings_complete\":true,\"passed\":false,\"score\":85}",
+    "content_bytes": 1468,
+    "content_evidence_truncated": false,
+    "content_sha256": "ffddeefcef2332e5b9be2eed2b86df45db5dd2fa483f76d164b3fd6238ef5033",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 491,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4360,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6682
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

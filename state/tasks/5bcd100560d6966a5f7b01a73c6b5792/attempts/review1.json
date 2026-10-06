@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html and translation.html, paragraph 4 (Ruth quotation); paragraph 12 (Joel 2:25a quotation)\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“whither thou goest, I will go” … “restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\n      \"suggested_fix\": \"These are identifiable Scripture quotations missing from scripture_evidence. Add the corresponding quotation evidence and provide target-language selections from the approved target verses, preserving the source ellipsis and printed reference. Do not generate or substitute Scripture wording without the required evidence.\",\n      \"translation_quote\": \"«куда ты пойдешь, туда и я пойду» … «возвратить [нам] годы, которые пожрала саранча!» (Иоиль 2:25а)\"\n    },\n    {\n      \"location\": \"source.html and translation.html, paragraph 11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\n      \"suggested_fix\": \"Preserve Ann as the person responding to Mark’s repentance. For example: «Я, Энн, ответила на покаяние Марка полным и безоговорочным прощением.»\",\n      \"translation_quote\": \"Мой ответ на покаяние Марка, — Энн, — был полным и безоговорочным прощением.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 1545,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c52783753ba10f8f9626c3965371dc8f7a07a844fcb1510625c4ad5a0acc96a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1156,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 796,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4131,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6826
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

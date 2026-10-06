@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph; Joel 2:25a",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "This is a printed Scripture quotation, but scripture_evidence contains no corresponding quote or target-verse text. Add the required approved evidence and use only its corresponding Dutch target-verse substring, preserving the partial-quote scope and reference placement; do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "ons de jaren terug te geven die de sprinkhaan heeft opgegeten!"
+    },
+    {
+      "location": "source.html and translation.html, paragraph beginning “Then it happened…”",
+      "severity": "major",
+      "source_quote": "“whither thou goest, I will go”",
+      "suggested_fix": "This is a recognizable Scripture quotation, but scripture_evidence contains no corresponding quote or target-verse text. Add the required approved evidence and use only the corresponding Dutch target-verse substring, preserving the partial-quote scope; do not generate or substitute Scripture wording without that evidence.",
+      "translation_quote": "‘waar gij heengaat, zal ik heengaan’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

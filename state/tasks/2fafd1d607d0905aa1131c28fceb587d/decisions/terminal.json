@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first poem, line following “Away from my heart,”",
+      "severity": "minor",
+      "source_quote": "That it tarnish no more",
+      "suggested_fix": "Replace «كيلا يعود يشوّه جماله» with «كيلا يعود قلبي إلى التلطّخ» to keep the reference to the heart and avoid adding “its beauty.”",
+      "translation_quote": "كيلا يعود يشوّه جماله"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

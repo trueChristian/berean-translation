@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7c54206-9a8c-45f5-8fff-13027ce7738d",
+    "response_id": "chatcmpl-EVpfuKCg7SllayiiyyDCv49dGPZVA",
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4095,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6320
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, final paragraph, <em>…</em> quotation; scripture_selection_audit",
+        "severity": "major",
+        "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+        "suggested_fix": "Treat this as a Scripture quotation requiring evidence and a verified selection from the approved French Martin text. Add the corresponding quote evidence and selection; do not generate or guess the Bible wording. Preserve the printed reference identity and placement.",
+        "translation_quote": "« nous rendre les années qu’a dévorées la sauterelle ! » (Joël 2:25a); scripture_selection_audit.selections is empty"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

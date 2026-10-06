@@ -2,7 +2,6 @@
   "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:02+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9481
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 721,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 447,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9025,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7486,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 9746
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html / translation.html, blockquote p; Scripture quotation, Colossians 3:20",
+      "severity": "major",
+      "source_quote": "Children, obey your parents in all things: for this is well pleasing unto the Lord –Col 3:20.",
+      "suggested_fix": "The selected Hebrew edition’s verse does not semantically correspond to the printed quotation: its wording says “the sons listen to your children” and “our Lord,” reversing the parent/child relationship and changing the attribution. Do not approve this selection as a faithful rendering. Resolve the verse correspondence and use only a verified, semantically aligned approved Hebrew verse selection; do not invent or paraphrase Scripture words.",
+      "translation_quote": "הבנים שמעו אל ילדיכם בכל דבר כי הוא לרצון לאדנינו׃ – קולוסים 3:20."
+    },
+    {
+      "location": "source.html / translation.html, second paragraph",
+      "severity": "minor",
+      "source_quote": "There was a big hill close to their house",
+      "suggested_fix": "Change “היה” to “הייתה” to agree grammatically with the feminine noun “גבעה”.",
+      "translation_quote": "ליד ביתם היה גבעה גדולה"
+    }
+  ],
   "id": "c385080916cb12cf6b856651215f0d60",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "heb",
@@ -116,13 +151,15 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/30bb813e9db9ab4479287b9dec97f5941c7e09f6195956e5ca19b20eb0ee8e63.json",
   "scripture_evidence_sha256": "30bb813e9db9ab4479287b9dec97f5941c7e09f6195956e5ca19b20eb0ee8e63",
   "source_snapshot": "state/sources/adfa157c4d7e290e1f1b2fc5030e6ac56d85371df0046b9b1fc4bd67bb432dcd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
   "translation_model_actual": "gpt-6-luna"

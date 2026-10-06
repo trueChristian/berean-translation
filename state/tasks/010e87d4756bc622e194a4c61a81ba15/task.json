@@ -2,7 +2,6 @@
   "article_id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:28:53+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9958
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 645,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9933,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8394,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 11248
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraphs 18, 20, 21, and 27: Scripture quotations in <em> elements",
+      "severity": "major",
+      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge...” (Jas 3:13); “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "The Scripture evidence contains no quote entries for these printed quotations, and the selection audit contains no selections. Supply the required approved evidence for each quotation, then replace only the quoted wording with the exact corresponding target_verses text, preserving partial-quote scope, ellipses, reference identity and placement. Do not invent or expand Scripture wording.",
+      "translation_quote": "«… det er bedre for deg å gå inn i Guds rike med ett øye …» (Mark 9:47); «… den milde og stille ånds uforgjengelige pryd …» (1 Pet 3:4–5); «… ve det mennesket som forårsaker fallet!» (Matt 18:7); «Hvem er vis og forstandig blant dere? …» (Jak 3:13); «… at vi skal fornekte ugudelighet og verdslige lyster …» (Tit 2:12)."
+    },
+    {
+      "location": "Article paragraph 20, the 1 Peter 3:4-5 quotation",
+      "severity": "major",
+      "source_quote": "“in that which is not corruptible, even the ornament of a meek and quiet spirit”",
+      "suggested_fix": "Once the approved target evidence is available, use the exact corresponding target substring for this source fragment. Ensure the wording expresses the source once, without adding a second “imperishable” description.",
+      "translation_quote": "«i det uforgjengelige, den milde og stille ånds uforgjengelige pryd»"
+    },
+    {
+      "location": "Article paragraph 21",
+      "severity": "minor",
+      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty”",
+      "suggested_fix": "Replace «De enkle menighetene» with wording that conveys the source’s reference to plain/conservative churches, such as «De tradisjonelle menighetene», if that matches the intended community context.",
+      "translation_quote": "«De enkle menighetene som helhet er på en fryktelig kurs mot større usømmelighet»"
+    }
+  ],
   "id": "010e87d4756bc622e194a4c61a81ba15",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "nob",
@@ -116,13 +158,15 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/b61bdabe2623cc017cec02446dc24265a70a117fba06b808076073b5cfa16f5e.json",
   "scripture_evidence_sha256": "b61bdabe2623cc017cec02446dc24265a70a117fba06b808076073b5cfa16f5e",
   "source_snapshot": "state/sources/384fee6199d82382510c1a656eed9887eca60dc73b74f4938b8388375f83178c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c",
   "translation_model_actual": "gpt-6-luna"

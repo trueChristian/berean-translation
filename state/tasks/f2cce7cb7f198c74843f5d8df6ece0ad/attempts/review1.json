@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html /article[1]/p[4], quoted phrase “whither thou goest, I will go”; scripture_evidence and scripture_selections\",\n      \"severity\": \"major\",\n      \"source_quote\": \"her commitment to “whither thou goest, I will go” began a miracle.\",\n      \"suggested_fix\": \"This is a recognizable Scripture quotation, but no corresponding scripture_evidence quote or scripture_selection is present. Add the required evidence and use only its approved target_verses text for the corresponding Chinese phrase; do not generate or substitute Scripture wording without that evidence.\",\n      \"translation_quote\": \"她对“你往哪里去，我也往哪里去”的委身，开始带来一个奇迹。\"\n    },\n    {\n      \"location\": \"source.html /article[1]/p[12], italicized quotation; scripture_evidence and scripture_selections\",\n      \"severity\": \"major\",\n      \"source_quote\": \"restore to [us] the years that the locust hath eaten!\",\n      \"suggested_fix\": \"This is a Scripture quotation, but the evidence identifies only Joel 2:25a as reference_only and provides no quote text or scripture_selection. Add the required evidence and replace the Chinese quotation only with the corresponding approved target_verses substring, preserving the source’s omission and reference placement.\",\n      \"translation_quote\": \"归还蝗虫所吃掉的那些年岁！\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1473,
+    "content_evidence_truncated": false,
+    "content_sha256": "20fb641763f7d941a622b02b8046cd9e2e3fa7fd57d5e330194943ca5f1f5d25",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 842,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4049,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6430
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

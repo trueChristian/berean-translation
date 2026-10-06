@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html /article/p[last], Scripture quotation and reference",
+      "severity": "major",
+      "source_quote": "“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)",
+      "suggested_fix": "Treat this as a Scripture quotation requiring approved-verse evidence and a corresponding scripture_selections entry. The current evidence lists no quote and the audit has no selection, so the quotation cannot be verified against the required German verse text. Do not invent or reconstruct Scripture wording; obtain the approved evidence and select the matching target text.",
+      "translation_quote": "„[uns] die Jahre zu erstatten, welche die Heuschrecke gefressen hat!“ (Joel 2:25a); scripture_selections: []"
+    },
+    {
+      "location": "source.html /article/p[11] (the paragraph beginning “My, Ann’s response…”)",
+      "severity": "major",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Clarify that Mark is describing his wife Ann’s response, for example: „Die Reaktion meiner Frau Ann auf Marks Umkehr war von uneingeschränkter und bereitwillig gewährter Vergebung geprägt.“",
+      "translation_quote": "Meine – Anns – Antwort auf Marks Umkehr war uneingeschränkte und unbedingte Vergebung."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

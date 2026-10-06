@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first poem, lines 3–4\",\"severity\":\"minor\",\"source_quote\":\"That merits my giving / Of talent and time\",\"suggested_fix\":\"Replace with a natural Swedish rendering such as “Som förtjänar att jag ger / av min talang och min tid”.\",\"translation_quote\":\"Som förtjänar att jag ger / Av talang och tid\"},{\"location\":\"source.html, second poem, final two lines\",\"severity\":\"minor\",\"source_quote\":\"Adorned with His meekness\",\"suggested_fix\":\"Use “Smyckad med Hans ödmjukhet” to convey the humility implied by “meekness” in this context.\",\"translation_quote\":\"Smyckad med Hans mildhet\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 684,
+    "content_evidence_truncated": false,
+    "content_sha256": "e5464b8a3cb3b8b45d62454697fecadd2b23702c71e4fcd9fe755c0b20ccf357",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1649,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3840
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

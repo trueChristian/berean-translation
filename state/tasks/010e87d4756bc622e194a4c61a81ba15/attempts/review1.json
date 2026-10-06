@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Article paragraphs 18, 20, 21, and 27: Scripture quotations in <em> elements\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge...” (Jas 3:13); “...that, denying ungodliness and worldly lusts...” (Tit 2:12).\",\n      \"suggested_fix\": \"The Scripture evidence contains no quote entries for these printed quotations, and the selection audit contains no selections. Supply the required approved evidence for each quotation, then replace only the quoted wording with the exact corresponding target_verses text, preserving partial-quote scope, ellipses, reference identity and placement. Do not invent or expand Scripture wording.\",\n      \"translation_quote\": \"«… det er bedre for deg å gå inn i Guds rike med ett øye …» (Mark 9:47); «… den milde og stille ånds uforgjengelige pryd …» (1 Pet 3:4–5); «… ve det mennesket som forårsaker fallet!» (Matt 18:7); «Hvem er vis og forstandig blant dere? …» (Jak 3:13); «… at vi skal fornekte ugudelighet og verdslige lyster …» (Tit 2:12).\"\n    },\n    {\n      \"location\": \"Article paragraph 20, the 1 Peter 3:4-5 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“in that which is not corruptible, even the ornament of a meek and quiet spirit”\",\n      \"suggested_fix\": \"Once the approved target evidence is available, use the exact corresponding target substring for this source fragment. Ensure the wording expresses the source once, without adding a second “imperishable” description.\",\n      \"translation_quote\": \"«i det uforgjengelige, den milde og stille ånds uforgjengelige pryd»\"\n    },\n    {\n      \"location\": \"Article paragraph 21\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“The plain churches as a whole are on a terrible slide of immodesty”\",\n      \"suggested_fix\": \"Replace «De enkle menighetene» with wording that conveys the source’s reference to plain/conservative churches, such as «De tradisjonelle menighetene», if that matches the intended community context.\",\n      \"translation_quote\": \"«De enkle menighetene som helhet er på en fryktelig kurs mot større usømmelighet»\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 72\n}",
+    "content_bytes": 2506,
+    "content_evidence_truncated": false,
+    "content_sha256": "031a012923cfa46b36b90682be9397bc2e9c06abe8f34ce67594bd05cd09365c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8394,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 11248
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

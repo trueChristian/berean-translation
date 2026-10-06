@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "992a199b84304bf18359bcf6e86a37f2",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 5729
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 952,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 564,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5655,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4116,
+          "cached_tokens": 1536
+        },
+        "total_tokens": 6607
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph, italicized quotation before (Joel 2:25a)",
+      "severity": "major",
+      "source_quote": "restore to [us] the years that the locust hath eaten!",
+      "suggested_fix": "This is a quoted Scripture passage, but scripture_evidence contains no quote entry or approved target verse text for it. Obtain the required evidence and render the corresponding Italian wording from that approved text; preserve the quotation’s partial scope, italics, and reference identity and placement. Do not generate or substitute Scripture wording without the evidence.",
+      "translation_quote": "restituirci gli anni che la locusta ha divorato!"
+    },
+    {
+      "location": "source.html and translation.html, paragraph beginning “My, Ann’s response”",
+      "severity": "minor",
+      "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+      "suggested_fix": "Clarify the awkward source phrasing in idiomatic Italian without changing who forgives whom; for example: «La risposta di Ann al pentimento di Mark fu un perdono pieno e generoso.»",
+      "translation_quote": "La mia, Ann, risposta al pentimento di Mark fu un perdono pieno e generoso."
+    },
+    {
+      "location": "translation.html, paragraph beginning “First, it must be said”",
+      "severity": "minor",
+      "source_quote": "It took many deep, heartfelt tears of repentance and close accountability to each other.",
+      "suggested_fix": "Replace «una stretta responsabilità reciproca» with an idiomatic rendering of mutual accountability, such as «un forte impegno a rendersi conto reciprocamente delle proprie azioni».",
+      "translation_quote": "molte lacrime profonde e sincere di pentimento e una stretta responsabilità reciproca."
+    }
+  ],
   "id": "38556206bfb6a81e184bf14ab5fae873",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ita",
@@ -116,13 +158,15 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "scripture_evidence_path": "state/scripture/822ee75d5e09f9557a4090eb780ffa537743347b88a24a270d1fbe391214389a.json",
   "scripture_evidence_sha256": "822ee75d5e09f9557a4090eb780ffa537743347b88a24a270d1fbe391214389a",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

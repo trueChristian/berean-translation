@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html /article/p[last], Scripture quotation and reference\",\"severity\":\"major\",\"source_quote\":\"“restore to [us] the years that the locust hath eaten!” (Joel 2:25a)\",\"suggested_fix\":\"Treat this as a Scripture quotation requiring approved-verse evidence and a corresponding scripture_selections entry. The current evidence lists no quote and the audit has no selection, so the quotation cannot be verified against the required German verse text. Do not invent or reconstruct Scripture wording; obtain the approved evidence and select the matching target text.\",\"translation_quote\":\"„[uns] die Jahre zu erstatten, welche die Heuschrecke gefressen hat!“ (Joel 2:25a); scripture_selections: []\"},{\"location\":\"source.html /article/p[11] (the paragraph beginning “My, Ann’s response…”)\",\"severity\":\"major\",\"source_quote\":\"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\"suggested_fix\":\"Clarify that Mark is describing his wife Ann’s response, for example: „Die Reaktion meiner Frau Ann auf Marks Umkehr war von uneingeschränkter und bereitwillig gewährter Vergebung geprägt.“\",\"translation_quote\":\"Meine – Anns – Antwort auf Marks Umkehr war uneingeschränkte und unbedingte Vergebung.\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 1322,
+    "content_evidence_truncated": false,
+    "content_sha256": "76679a75dd8c5141f6bc11ca19d40928cbb39285ffd7abe2192dd6eebb3cc334",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 842,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3985,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6677
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

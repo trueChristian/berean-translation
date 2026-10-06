@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, final paragraph, emphasized Scripture quotation and its reference\",\"severity\":\"major\",\"source_quote\":\"<em>restore to [us] the years that the locust hath eaten!</em> (Joel 2:25a)\",\"suggested_fix\":\"Obtain the required approved Afrikaans Scripture evidence for this quotation, then render the corresponding target-text fragment faithfully, preserving the partial-quotation scope, ellipsis, and reference placement. Include its required scripture selection; do not generate or substitute Scripture wording without the evidence.\",\"translation_quote\":\"<em>die jare wat die sprinkaan [van ons] geëet het, aan [ons] terug te gee!</em> (Joël 2:25a); scripture_selection_audit.selections is empty.\"},{\"location\":\"translation.html, paragraph beginning “My, Ann’s response”\",\"severity\":\"minor\",\"source_quote\":\"My, Ann’s response to Mark’s repentance was full and free forgiveness.\",\"suggested_fix\":\"Change the opening to “Ann se reaksie op Mark se bekering was om hom ten volle en vryelik te vergewe.”\",\"translation_quote\":\"My, Ann, se reaksie op Mark se bekering was om hom volledig en vryelik te vergewe.\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 1225,
+    "content_evidence_truncated": false,
+    "content_sha256": "71fdd81b47a2e5c9503ad5aebd4468b74ff78f476423002441795180a5e7cd6a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 657,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4221,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6713
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

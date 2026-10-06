@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f71adce0-1d25-41ba-afa0-53792484c7d9",
+    "response_id": "chatcmpl-EVpghpSqLpykFB1Oxtom0wMzsAIBn",
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4150,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 6674
+    }
+  },
+  "received_at": "2026-10-06T09:01:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, quotation and reference to Joel 2:25a",
+        "severity": "major",
+        "source_quote": "God truly has fulfilled His promise to … restore to [us] the years that the locust hath eaten! (Joel 2:25a)",
+        "suggested_fix": "This is a Scripture quotation, but scripture_evidence contains no quote evidence for it and the selection audit has no corresponding selection. Add the exact approved target-language verse evidence for the printed quotation and provide its required selection; do not invent or supply Scripture wording without that evidence.",
+        "translation_quote": "Gud har verkligen uppfyllt sitt löfte att … ge [oss] tillbaka de år som gräshopporna har ätit upp! (Joel 2:25a)"
+      },
+      {
+        "location": "Paragraph beginning “My, Ann’s response to Mark’s repentance…”",
+        "severity": "major",
+        "source_quote": "My, Ann’s response to Mark’s repentance was full and free forgiveness.",
+        "suggested_fix": "Correct the attribution to match the source as printed: revise “Mitt svar, Anns svar” so the sentence attributes the full and free forgiveness to Ann, without adding Mark as a co-respondent.",
+        "translation_quote": "Mitt svar, Anns svar, på Marks omvändelse var fullständig och villkorslös förlåtelse."
+      },
+      {
+        "location": "Paragraph beginning “First, it must be said…”",
+        "severity": "minor",
+        "source_quote": "It took many deep, heartfelt tears of repentance and close accountability to each other.",
+        "suggested_fix": "Use a natural Swedish expression for mutual accountability, such as “och att de regelbundet ställde varandra till svars”, rather than wording that can suggest keeping one another closely responsible.",
+        "translation_quote": "Det krävdes många djupa, innerliga tårar av ånger och att de höll varandra nära ansvariga."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, /article[1]/p[18], p[20] (both quotations), p[21], and p[27]",
+      "severity": "major",
+      "source_quote": "Scripture quotations: “...enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man...” (Mat 18:7); “Who is a wise [wo]man...” (Jas 3:13); and “...denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "Provide the missing scripture_evidence for these five printed quotations and use the corresponding exact Korean target-edition text for each quoted fragment, preserving the printed omissions, reference identities, and locations. Do not invent or substitute Scripture wording without that evidence.",
+      "translation_quote": "The corresponding Korean quotations in paragraphs 18, 20, 21, and 27; scripture_selection_audit.selections is empty."
+    },
+    {
+      "location": "source.html, /article[1]/p[21]",
+      "severity": "major",
+      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty, both inside and out.”",
+      "suggested_fix": "Translate “plain churches” to convey churches associated with plain/conservative dress, rather than “단정한 교회들” (neat/modest churches); retain the rest of the sentence’s meaning.",
+      "translation_quote": "“단정한 교회들은 안팎으로 심각하게 단정함을 잃어 가고 있습니다.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

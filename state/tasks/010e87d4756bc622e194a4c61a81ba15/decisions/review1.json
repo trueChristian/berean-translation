@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraphs 18, 20, 21, and 27: Scripture quotations in <em> elements",
+      "severity": "major",
+      "source_quote": "“...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “...the ornament of a meek and quiet spirit...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge...” (Jas 3:13); “...that, denying ungodliness and worldly lusts...” (Tit 2:12).",
+      "suggested_fix": "The Scripture evidence contains no quote entries for these printed quotations, and the selection audit contains no selections. Supply the required approved evidence for each quotation, then replace only the quoted wording with the exact corresponding target_verses text, preserving partial-quote scope, ellipses, reference identity and placement. Do not invent or expand Scripture wording.",
+      "translation_quote": "«… det er bedre for deg å gå inn i Guds rike med ett øye …» (Mark 9:47); «… den milde og stille ånds uforgjengelige pryd …» (1 Pet 3:4–5); «… ve det mennesket som forårsaker fallet!» (Matt 18:7); «Hvem er vis og forstandig blant dere? …» (Jak 3:13); «… at vi skal fornekte ugudelighet og verdslige lyster …» (Tit 2:12)."
+    },
+    {
+      "location": "Article paragraph 20, the 1 Peter 3:4-5 quotation",
+      "severity": "major",
+      "source_quote": "“in that which is not corruptible, even the ornament of a meek and quiet spirit”",
+      "suggested_fix": "Once the approved target evidence is available, use the exact corresponding target substring for this source fragment. Ensure the wording expresses the source once, without adding a second “imperishable” description.",
+      "translation_quote": "«i det uforgjengelige, den milde og stille ånds uforgjengelige pryd»"
+    },
+    {
+      "location": "Article paragraph 21",
+      "severity": "minor",
+      "source_quote": "“The plain churches as a whole are on a terrible slide of immodesty”",
+      "suggested_fix": "Replace «De enkle menighetene» with wording that conveys the source’s reference to plain/conservative churches, such as «De tradisjonelle menighetene», if that matches the intended community context.",
+      "translation_quote": "«De enkle menighetene som helhet er på en fryktelig kurs mot større usømmelighet»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

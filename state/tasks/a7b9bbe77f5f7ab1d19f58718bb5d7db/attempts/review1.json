@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraphs 18, 20, 21, 27; scripture_evidence.quotes and scripture_selection_audit.selections\",\"severity\":\"major\",\"source_quote\":\"Scripture quotations printed in the article include “...it is better for thee to enter into the kingdom of God with one eye...” (Mar 9:47); “But let it [the adornment] be the hidden man of the heart...” (1Pe 3:4-5); “...woe to that [wo]man by whom the offence cometh!” (Mat 18:7); “Who is a wise [wo]man and endued with knowledge among you?” (Jas 3:13); and “...that, denying ungodliness and worldly lusts...” (Tit 2:12).\",\"suggested_fix\":\"Have the scripture-quote extraction/evidence supplied for each of these printed quotations, then verify the corresponding Greek text against the approved target verses and provide the required scripture selections. Do not generate or substitute Scripture wording without the corresponding evidence.\",\"translation_quote\":\"The corresponding Greek quotations are present in these paragraphs, but scripture_evidence.quotes is empty and scripture_selection_audit.selections is []; examples include «…είναι καλύτερα για σένα να μπεις στη βασιλεία του Θεού με ένα μάτι…» and «…να αρνηθούμε την ασέβεια και τις κοσμικές επιθυμίες…».\"}],\"findings_complete\":true,\"passed\":false,\"score\":82}",
+    "content_bytes": 1413,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c555501dc5cd5e315200211e82b5d03eec5aca1a12297adb0462dde7938bc02",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 487,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9708,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 12070
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

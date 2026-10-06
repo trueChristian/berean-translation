@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "41b960fd-e89d-4cd2-be71-052d5cee583a",
+    "response_id": "chatcmpl-EVpgEr0I3StHWNHBdLL1MZaRRx9V1",
+    "usage": {
+      "completion_tokens": 928,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1520,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 3987
+    }
+  },
+  "received_at": "2026-10-06T09:01:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, first poem, lines beginning “To grow in the glory”",
+        "severity": "minor",
+        "source_quote": "To grow in the glory / Of what He would make--",
+        "suggested_fix": "Untuk mempertahankan gagasan tentang kemuliaan dan karya Tuhan, ubah menjadi: “Untuk bertumbuh dalam kemuliaan / dari pribadi yang hendak Dia bentuk—”",
+        "translation_quote": "Untuk bertumbuh dalam kemuliaan / Menjadi seperti yang Dia kehendaki—"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

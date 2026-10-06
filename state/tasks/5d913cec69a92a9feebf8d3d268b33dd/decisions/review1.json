@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html: /article[1]/p[18], p[20] (two quotations), p[21], p[27]",
+      "severity": "major",
+      "source_quote": "The article quotes Scripture at Mar 9:47, 1Pe 3:4-5, Mat 18:7, Jas 3:13, and Tit 2:12. scripture_evidence identifies no quotes, and scripture_selections is empty.",
+      "suggested_fix": "Provide the required approved target-language Scripture evidence for each quoted passage and replace each translated quotation with the precisely corresponding target-verse text, preserving the source ellipses, quotation boundaries, references, and placement. Then supply one audited scripture_selections item per quotation. Do not generate substitute Scripture wording without evidence.",
+      "translation_quote": "Examples include “ni afadhali kwako kuingia katika ufalme wa Mungu…” (p[18]), “Lakini uzuri wenu uwe utu wa moyoni…” and “…ole wake yule…” (p[20]), and the quotations at p[21] and p[27]."
+    },
+    {
+      "location": "translation.html: /article[1]/p[2]",
+      "severity": "minor",
+      "source_quote": "“Would you let your girls use them?”",
+      "suggested_fix": "Correct the malformed word to: “Ungew ruhusu” is also not standard; use “Ungew aruhusu” only if referring to the girls. Prefer: “Ungew aruhusu binti zako wazitumie?”",
+      "translation_quote": "“Ungewruhusu binti zako vitumie?”"
+    },
+    {
+      "location": "translation.html: /article[1]/p[6]",
+      "severity": "minor",
+      "source_quote": "I wonder if I’ve changed, or if the times have changed, or what.",
+      "suggested_fix": "Correct the apparent typo to “nimebadilika”: “Naishia kujiuliza kama ni mimi niliye badilika, au nyakati zimebadilika, au nini.”",
+      "translation_quote": "“Naishia kujiuliza kama ni mimi niliye muuttika, au nyakati zimebadilika, au nini.”"
+    },
+    {
+      "location": "translation.html: /article[1]/p[16]",
+      "severity": "minor",
+      "source_quote": "the surrendering sigh of a mother unable to pass her principles on to her teenage daughters",
+      "suggested_fix": "Replace the unclear “sigha” with a natural Kiswahili rendering, for example: “kuugua kwa mama anayejisalimisha kwa kushindwa kuwafundisha binti zake matineja kanuni zake.”",
+      "translation_quote": "“sigha ya mama anayekubali kushindwa, asiyeweza kuwafundisha binti zake matineja kanuni zake”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
