@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "be319f6e-7c6f-4d91-a92e-29ae6f7d304b",
+    "response_id": "chatcmpl-EW59UPFt0CsaWYikZPcpa3Rb4OV7C",
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10546,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10797
+    }
+  },
+  "received_at": "2026-10-06T21:19:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: div.hymn > p:nth-child(4), vierde versregel",
+        "severity": "minor",
+        "source_quote": "Though seven deaths lay between:",
+        "suggested_fix": "Vervang uitsluitend deze versregel door: \"Al moest ik onderweg zevenmaal sterven:\" en behoud de bestaande HTML-structuur.",
+        "translation_quote": "Al lagen er zeven doden tussen:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

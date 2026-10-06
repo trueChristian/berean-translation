@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "25025fbfac04437e90af5baf34dae678",
   "campaign": "gh-37339848895",
   "continuation": {
     "cycle": 1,
@@ -40,39 +39,39 @@
         },
         "total_tokens": 12617
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8349,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8484
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese. Hy het gehoor hulle was op pad na Kalifornië. So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help.</p>",
-      "severity": "major",
-      "source_quote": "So, Ken told them about his terrible life and asked if they would give him a ride.",
-      "suggested_fix": "Replace the partly untranslated/incorrect phrase with an appropriate Afrikaans rendering preserving meaning. For example: “So, Ken het vir hulle van sy verskriklike lewe vertel en gevra of hulle hom 'n rit na Kalifornië sou gee.” Preserve existing HTML tags and attributes exactly.",
-      "translation_quote": "So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help."
-    },
-    {
-      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.</p>",
+      "location": "translation.html, second paragraph",
       "severity": "minor",
-      "source_quote": "His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.",
-      "suggested_fix": "Replace the incorrect/awkward rendering “Sjipeiese” with a correct Afrikaans term. Suggested: “Hul­le is bekend as Sygane.” or “Hulle is genoem Sygane.” Keep original HTML tags and punctuation.",
-      "translation_quote": "Hulle is genoem Sjipeiese."
-    },
-    {
-      "location": "<p>…Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het…</p>",
-      "severity": "minor",
-      "source_quote": "That is why we were still visiting the dingy, smoke-stained shop after six years of very little apparent success.",
-      "suggested_fix": "Correct the mistranslation/typo “rookgeplote” to a standard Afrikaans rendering such as “rookgeplakte” or “deur rook gesteekte” (suggested: “rookgeplakte”). Example: “Dit is hoekom ons steeds die donker, rookgeplakte winkel besoek het na ses jaar van baie min skynbare sukses.” Preserve HTML structure.",
-      "translation_quote": "Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het ná ses jaar van baie min skynbare sukses."
-    },
-    {
-      "location": "<p>…In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring.</p>",
-      "severity": "minor",
-      "source_quote": "Instead of understanding and loving him, each new family brought more yelling, hatred, and beating.",
-      "suggested_fix": "The translation reads “geskrik” (frightened) which changes meaning of “yelling”. Replace with “meer geskreeu” or “meer geskrik” → use “meer geskreeu” to match source meaning. For example: “In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin meer geskreeu, haat en slae gebring.” Preserve HTML tags.",
-      "translation_quote": "In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring."
+      "source_quote": "my emotionally overwrought mind",
+      "suggested_fix": "Vervang “my emosioneel oorwrought gemoed” met “my emosioneel oorweldigde gemoed”; behou die bestaande HTML-struktuur.",
+      "translation_quote": "my emosioneel oorwrought gemoed"
     }
   ],
+  "finished_at": "2026-10-06T21:19:14+00:00",
   "id": "a9c93f525bc0adf54affd4f4ad2334a9",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -161,14 +160,16 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e.json",
   "scripture_evidence_sha256": "ea9cbd29153a0835f7cfff6c12a83686e552ddfde02f5538b96d562e119e1a1e",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-6.1-sol"

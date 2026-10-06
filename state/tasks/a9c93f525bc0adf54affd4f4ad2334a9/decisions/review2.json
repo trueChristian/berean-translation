@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, second paragraph",
+      "severity": "minor",
+      "source_quote": "my emotionally overwrought mind",
+      "suggested_fix": "Vervang “my emosioneel oorwrought gemoed” met “my emosioneel oorweldigde gemoed”; behou die bestaande HTML-struktuur.",
+      "translation_quote": "my emosioneel oorwrought gemoed"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0a9c50f6-7e7b-4218-a0c5-3f17814dfcb9",
+    "response_id": "chatcmpl-EVxxcrcJisicbrMYX7tLd1BoEYHpE",
+    "usage": {
+      "completion_tokens": 132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 25,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8349,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8484
+    }
+  },
+  "received_at": "2026-10-06T21:19:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, second paragraph",
+        "severity": "minor",
+        "source_quote": "my emotionally overwrought mind",
+        "suggested_fix": "Vervang “my emosioneel oorwrought gemoed” met “my emosioneel oorweldigde gemoed”; behou die bestaande HTML-struktuur.",
+        "translation_quote": "my emosioneel oorwrought gemoed"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

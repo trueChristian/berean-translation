@@ -2466,6 +2466,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "4c35223441fde6b396e35a7239c55cc2e445258e49fb45f3e24fc1ee2f3c29f3",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "'n Stedelike winkelfasade met 'n rooi deur en 'n straatlamp",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "'n Hand wat 'n oop boek vashou",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "cea7da82e61285d45659c7e904cbc2ed2e52d558860997ff4e2f42feb921fe73",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASIES VIR DIE JEUG",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ken en Ek",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "48bc79c53ba442ce6dd76e63f612caf73b6865ae578cac183f118a5d477dca8c",
       "human_reviewed": false,
@@ -14088,6 +14120,34 @@
       "subtitle": "και γύρω μου ηχεί η μουσική των σφαιρών.",
       "title": "ΟΛΗ Η ΦΥΣΗ ΤΡΑΓΟΥΔΑ",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "b6bde4c1208ba10357d0109368d1a8efb22abf46110cd7b588a03eb4a5c776bd",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Παιδί που κωπηλατεί με ένα μπλε καγιάκ σε μια λιμνούλα",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "5fc22e82140a0402b04d8b40b46b5b0d3e82f999e9528b3fe5bca0f8ffcdcb93",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Γωνιά των Παιδιών",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Διασκέδαση για Όλους",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -35634,6 +35694,34 @@
       "subtitle": null,
       "title": "Van de redacteur",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "58bef5701d4f95c13b5cc1316c4f6d407d76b11af2fdb5c6e46c4da317be463f",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Een met sterren bezaaide nachtelijke hemel boven een bergmeer",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "dc9a692d4d654cc2c7c2330cfb7e4de8da910de6b57b956817700c507e99f032",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HYMNENGESCHIEDENIS",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Het zand der tijden ZINKT",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

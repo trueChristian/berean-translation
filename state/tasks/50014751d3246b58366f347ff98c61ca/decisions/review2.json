@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: div.hymn > p:nth-child(4), vierde versregel",
+      "severity": "minor",
+      "source_quote": "Though seven deaths lay between:",
+      "suggested_fix": "Vervang uitsluitend deze versregel door: \"Al moest ik onderweg zevenmaal sterven:\" en behoud de bestaande HTML-structuur.",
+      "translation_quote": "Al lagen er zeven doden tussen:"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

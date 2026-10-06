@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "25025fbfac04437e90af5baf34dae678",
   "campaign": "gh-37339848895",
   "continuation": {
     "cycle": 1,
@@ -40,25 +39,31 @@
         },
         "total_tokens": 8893
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 73,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 41,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5953,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 5950
+        },
+        "total_tokens": 6026
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p class=\"drop-cap\">(second sentence, paragraph 2)",
-      "severity": "critical",
-      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
-      "suggested_fix": "Translate the entire quoted speech into Greek; do not leave English in the text. Preserve HTML tags and sentence order. For example, replace the mixed-language sentence with a full Greek rendering such as: «Πιθανότατα γύρω στους 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Ω, είναι 65 βαθμοί! Μαμά, μπορούμε να φάμε έξω;»",
-      "translation_quote": "«Πιθανότατα γύρω στο 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Hey, it’s 65 degrees! Μαμά, μπορούμε να φάμε έξω;»"
-    },
-    {
-      "location": "<p>(...they each packed their lunch...)</p> (paragraph mentioning apple)",
-      "severity": "major",
-      "source_quote": "They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.",
-      "suggested_fix": "Correct the subsequent sentence that describes what Adrianna did with the apple core. The source later says she \"threw her apple core to the dogs.\" Ensure the word for 'apple core' is translated as 'κουκούτσι/κοτσάνι του μήλου' (or 'σπόρος/κορμός του μήλου') rather than 'φλούδι' (apple peel). For example, replace the Greek wording in the paragraph where Adrianna 'threw the apple core to the dogs' with: «Έριξε το κουκούτσι του μήλου στους σκύλους» while preserving tags and order.",
-      "translation_quote": "Ο καθένας πακετάρισε το φαγητό του σε μια σακούλα αγορών και πήγαν στο σημείο του πικνίκ, μια μεγάλη, επίπεδη πέτρα σε ένα ξέφωτο στο δάσος. ... Έριξε το φλούδι του μήλου στους σκύλους και ξεκίνησε για το σπίτι."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-06T21:19:15+00:00",
   "id": "eed4956a025eaadd16ab2b517e3b1a94",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ell",
@@ -147,14 +152,16 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/e0277c6c501b5a8fc52f741c6afe819a7df55347ed2738c747ebdffbbe08ba22.json",
   "scripture_evidence_sha256": "e0277c6c501b5a8fc52f741c6afe819a7df55347ed2738c747ebdffbbe08ba22",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-6.1-sol"

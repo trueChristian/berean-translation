@@ -19,9 +19,32 @@
       "event": "downstream_repair_requested",
       "previous_task": "5134e7e0a0b3703778241fe3ffdfe3c7",
       "task": "eed4956a025eaadd16ab2b517e3b1a94"
+    },
+    {
+      "at": "2026-10-06T21:19:15+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "eed4956a025eaadd16ab2b517e3b1a94"
     }
   ],
   "language": "ell",
   "latest_task": "eed4956a025eaadd16ab2b517e3b1a94",
-  "published": null
+  "published": {
+    "html_path": "content/ell/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+    "html_sha256": "b6bde4c1208ba10357d0109368d1a8efb22abf46110cd7b588a03eb4a5c776bd",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/ell/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+    "metadata_sha256": "5fc22e82140a0402b04d8b40b46b5b0d3e82f999e9528b3fe5bca0f8ffcdcb93",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"el\" dir=\"ltr\" role=\"note\">\n  <p>Το άρθρο αυτό μεταφράστηκε με τεχνητή νοημοσύνη της OpenAI (μοντέλο: gpt-6.1-sol) και δεν έχει ακόμη ελεγχθεί από άνθρωπο. Το αγγλικό πρωτότυπο αποτελεί την αυθεντική έκδοση αναφοράς. Σε περίπτωση αμφιβολίας για το νόημα, συμβουλευτείτε το αγγλικό πρωτότυπο. <a href=\"/en/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704/\" data-source-article-id=\"1ec0f654-0dd1-48f3-9a68-3b15189e6704\" hreflang=\"en\">Αγγλικό πρωτότυπο</a></p>\n</aside>",
+    "published_at": "2026-10-06T21:19:15+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
+    "task": "eed4956a025eaadd16ab2b517e3b1a94",
+    "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1"
+  }
 }
