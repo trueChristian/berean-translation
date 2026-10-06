@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T16:43:38+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"Een levendige roze bloem tegen een blauwe en groene achtergrond\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Een prinses van God!<br>\\n  Het is een verheven roeping<br>\\n  Die het verdient dat ik<br>\\n  Mijn talent en tijd eraan wijd<br>\\n  Om te groeien in de heerlijkheid<br>\\n  Van wat Hij van mij wil maken--<br>\\n  Mijn Vader, de Koning,<br>\\n  Zal alle lelijkheid<br>\\n  Uit mijn hart wegnemen,<br>\\n  zodat mijn hart niet langer bezoedeld wordt,<br>\\n  en mij de juwelen brengen<br>\\n  Die Hij voor mij heeft weggelegd.</p>\\n  <p class=\\\"poem\\\">Een prinses van God!<br>\\n  Het is een roeping om te leven<br>\\n  Een leven dat anderen<br>\\n  Om mij heen zou schenken<br>\\n  Een diamant van hoop,<br>\\n  Een verlangen naar God,<br>\\n  De waarheid van de redding<br>\\n  Door het vergoten bloed van Jezus.<br>\\n  Een roeping om godvruchtig te leven<br>\\n  In Jezus Christus,<br>\\n  Getooid met Zijn zachtmoedigheid<br>\\n  En bekleed met Zijn licht.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Een prinses van God\"}",
+    "content_bytes": 1226,
+    "content_evidence_truncated": false,
+    "content_sha256": "5b7f549510aff9c3f9e6261956fe25f5b8c4523ced9c7c4609250fdb6c8405c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 172,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1735,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3850
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

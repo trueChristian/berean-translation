@@ -2,7 +2,6 @@
   "article_id": "a028f656-cd41-4330-9633-2a4b4ce028e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "417283a6f7dc4516856a7e85c5388d69",
   "campaign": "gh-37314352672",
   "created_at": "2026-10-05T13:26:07+00:00",
   "events": [
@@ -45,9 +44,30 @@
         },
         "total_tokens": 6633
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2133,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 244,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5844,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4314,
+          "cached_tokens": 1527
+        },
+        "total_tokens": 7977
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[12]/em[1] ('start', 'em', ()); translation /article[1]/p[12] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Article, paragraph 12; Joel 2:25a quotation",
@@ -71,6 +91,7 @@
       "translation_quote": "Mwitikio wangu, Ann, kwa toba ya Mark ulikuwa msamaha kamili na wa bure."
     }
   ],
+  "finished_at": "2026-10-06T16:43:39+00:00",
   "id": "a1e39f0685316af30620d65f52730d04",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swa",
@@ -167,7 +188,7 @@
   "scripture_evidence_sha256": "a7c58f0b75c3eda8935a03dab411faa4b4deb3c7e5758df4b5f8bc1669c46295",
   "source_snapshot": "state/sources/c54fa4226bc3571d72d5ba970bfd4c62db65eb663495f74611d338b1b68642ab.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f",
   "translation_model_actual": "gpt-6-luna"

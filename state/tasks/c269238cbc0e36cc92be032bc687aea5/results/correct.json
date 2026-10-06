@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7c7b97a2-9de8-44e8-903e-70dc1af532da",
+    "response_id": "chatcmpl-EVxTR9OPLeNb96aZIxDx4NRja5eCa",
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 225,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1711,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3878
+    }
+  },
+  "received_at": "2026-10-06T16:43:39+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f66f986e-2ea4-4794-81e8-a6f1c082f792\">\n  <figure>\n    <img src=\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\" alt=\"En strålende rosa blomst mot en blå og grønn bakgrunn\">\n  </figure>\n  <p class=\"poem\">En prinsesse av Gud!<br>\n  Det er et opphøyd kall<br>\n  Som fortjener at jeg gir<br>\n  Av mine evner og min tid<br>\n  For å vokse i herligheten<br>\n  Av det Han vil forme meg til –<br>\n  Min Far, Kongen,<br>\n  Vil ta bort all stygghet<br>\n  Fra hjertet mitt,<br>\n  Så det ikke lenger blir tilsmusset,<br>\n  Og gi meg juvelene<br>\n  Han har i vente.</p>\n  <p class=\"poem\">En prinsesse av Gud!<br>\n  Det er et kall til å leve<br>\n  Et liv som gir andre<br>\n  Rundt meg<br>\n  En diamant av håp,<br>\n  En lengsel etter Gud,<br>\n  Frelsens sannhet<br>\n  Ved Jesu utgytte blod.<br>\n  Et kall til å leve gudfryktig<br>\n  i Jesus Kristus,<br>\n  Smykket med Hans mildhet<br>\n  Og kledd i Hans lys.</p>\n</article>\n",
+    "scripture_selections": [],
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "En prinsesse av Gud"
+  }
+}

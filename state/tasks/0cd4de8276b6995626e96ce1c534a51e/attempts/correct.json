@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T16:43:38+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f66f986e-2ea4-4794-81e8-a6f1c082f792\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/f66f986e-2ea4-4794-81e8-a6f1c082f792-1.jpg\\\" alt=\\\"Ua lenye rangi ya waridi ang’avu mbele ya mandhari ya samawati na kijani\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Binti mfalme wa Mungu!<br>\\n  Ni wito mtukufu<br>\\n  Unaostahili nitoe<br>\\n  Vipawa na wakati<br>\\n  Ili nikue katika utukufu<br>\\n  Wa kile Anachotaka kunifanya--<br>\\n  Baba yangu, Mfalme,<br>\\n  Ataondoa ubaya wote<br>\\n  Moyoni mwangu,<br>\\n  Ili usitie doa tena<br>\\n  Na kuniletea vito<br>\\n  Alivyonitunzia.</p>\\n  <p class=\\\"poem\\\">Binti mfalme wa Mungu!<br>\\n  Ni wito wa kuishi<br>\\n  Maisha ambayo kwa wengine<br>\\n  Walionizunguka yatawapa<br>\\n  Almasi ya tumaini,<br>\\n  Shauku ya Mungu,<br>\\n  Ukweli wa wokovu<br>\\n  Kwa damu ya Yesu iliyomwagika.<br>\\n  Wito wa kuishi maisha ya utauwa<br>\\n  Katika Yesu Kristo,<br>\\n  Nikiwa nimepambwa kwa upole Wake<br>\\n  Na kuvikwa nuru Yake.</p>\\n</article>\\n\",\"scripture_selections\":[],\"section\":\"Shairi\",\"subtitle\":null,\"title\":\"Binti Mfalme wa Mungu\"}",
+    "content_bytes": 1096,
+    "content_evidence_truncated": false,
+    "content_sha256": "de2e266583069da9613186f0899d82b68d54a9eeaa93da083560d4606423cdf0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1652,
+        "cached_tokens": 1527
+      },
+      "total_tokens": 3728
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
