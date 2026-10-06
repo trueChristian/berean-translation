@@ -76,6 +76,8 @@ def validate_repository(config, check_index=True):
             raise ContractError('Campaign budget invariant violated')
         if any(identity not in tasks for identity in campaign['tasks']):
             raise ContractError('Campaign references a missing task')
+    from . import manual_admission
+    manual_admission.validate_history(state)
     validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
     from .downstream import validate_history
     validate_history(config, state, tasks)

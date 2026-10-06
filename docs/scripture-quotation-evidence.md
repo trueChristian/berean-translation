@@ -159,6 +159,9 @@ another request. A new campaign must retrieve fresh evidence. Already-submitted
 request/audit history remains immutable and is not reused as an operational
 Scripture cache for future campaigns.
 
+Manual requests interrupted only by the collector prefetch deadline resume under
+the original envelope; see [manual admission and legacy proof](manual-scripture-admission.md).
+
 ## Verification
 
 On 2026-10-04 an isolated environment with `mcp==2.2.0`, `httpx==0.28.1` and
