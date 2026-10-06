@@ -2647,7 +2647,8 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 90
+    "in_batch": 65,
+    "not_ready": 25
   },
   "tasks": [
     "c85a7cbdd2fd3bfadfed3dbb5c2ea877",
