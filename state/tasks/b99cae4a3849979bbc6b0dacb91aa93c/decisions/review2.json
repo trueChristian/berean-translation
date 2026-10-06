@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html: paragraph beginning “Ken was 13 years old”",
+      "severity": "minor",
+      "source_quote": "there was no one with whom he could share his problem",
+      "suggested_fix": "החליפו את הצירוף ב־“ולא היה איש שקן יכול היה לשתף בבעיה שלו”, כך שיהיה ברור שקן הוא הזקוק למישהו לשתף אותו.",
+      "translation_quote": "ולא היה מי שיוכל לשתף אותו בבעיה שלו"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

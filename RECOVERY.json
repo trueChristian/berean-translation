@@ -4,7 +4,7 @@
   "automatic_policy_version": 3,
   "committed_usd": 6.0,
   "counts": {
-    "active": 100,
+    "active": 96,
     "already_translated": 108,
     "continuation_progress_uncertain_requires_attention": 7,
     "eligible_automatic": 1323,
@@ -5490,14 +5490,6 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
-      "language": "heb",
-      "latest_task": "b99cae4a3849979bbc6b0dacb91aa93c",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
       "language": "heb",
@@ -8576,14 +8568,6 @@
       "latest_task": "c2e61699e5b384852a31159895cb2296",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
-      "language": "nld",
-      "latest_task": "4689d60b14cd843a31a165f5c62f6d11",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12210,14 +12194,6 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
-      "language": "swe",
-      "latest_task": "2e14f2a6448bf8749a448e540879b5e0",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
       "language": "swe",
@@ -12912,14 +12888,6 @@
       "latest_task": "a4eef86276d1c8c5d77f99a3dacbc3c5",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
-      "language": "urd",
-      "latest_task": "a10c02fa56650b8bbc2b8d51f6330757",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,

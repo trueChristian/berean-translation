@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "137e7b83-4b21-4744-9fc4-65731c4cf32c",
+    "response_id": "chatcmpl-EVlxea2I0R45QsyLCPbB9ghJ4SbBs",
+    "usage": {
+      "completion_tokens": 228,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8114,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6575,
+        "cached_tokens": 1536
+      },
+      "total_tokens": 8342
+    }
+  },
+  "received_at": "2026-10-06T02:54:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html: paragraph beginning “Ken was 13 years old”",
+        "severity": "minor",
+        "source_quote": "there was no one with whom he could share his problem",
+        "suggested_fix": "החליפו את הצירוף ב־“ולא היה איש שקן יכול היה לשתף בבעיה שלו”, כך שיהיה ברור שקן הוא הזקוק למישהו לשתף אותו.",
+        "translation_quote": "ולא היה מי שיוכל לשתף אותו בבעיה שלו"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "/article[1]/ul[1]/li[3]",
+      "severity": "minor",
+      "source_quote": "A homemaker should anticipate all her family’s needs.",
+      "suggested_fix": "Ändra texten inom samma li-element till: \"En hemmafru bör förutse alla behov i sin familj.\"",
+      "translation_quote": "En hemmafru bör förutse alla sin familjs behov."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

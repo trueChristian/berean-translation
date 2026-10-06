@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "35e3a338c0f045eaab368240e48f4f0d",
   "campaign": "gh-37314284958",
   "continuation": {
     "cycle": 1,
@@ -40,39 +39,39 @@
         },
         "total_tokens": 9875
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 219,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 104,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6671,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6668,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6890
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>Are you declining a request because life is too full, or is it an excuse?</p> (Part 2, paragraph beginning \"Identifying overload\")",
-      "severity": "major",
-      "source_quote": "Are you declining a request because life is too full, or is it an excuse?",
-      "suggested_fix": "Replace the mistranslated phrase with a correct Swedish rendering preserving sentence structure. Example: \"Tackar du nej till en förfrågan därför att livet är för fullt, eller är det en ursäkt?\"",
-      "translation_quote": "Negr du tackar nej till en förfrågan för att livet är för fullt, eller är det en ursäkt?"
-    },
-    {
-      "location": "<p>Household duties and caring for our families fill our days. Sometimes those tasks alone make us extremely busy.</p> (Part 1, paragraph beginning \"Household duties\")",
+      "location": "/article[1]/ul[1]/li[3]",
       "severity": "minor",
-      "source_quote": "Sometimes those tasks alone make us extremely busy.",
-      "suggested_fix": "Adjust wording to a more natural Swedish equivalent that retains the same meaning. Example: \"Ibland gör bara dessa uppgifter oss extremt upptagna.\"",
-      "translation_quote": "Ibland gör de uppgifterna oss ensamma extremt upptagna."
-    },
-    {
-      "location": "<p>Symptoms of overload can include lack of sleep, strained relationships, procrastination, fear of failure, and a susceptible immune system.</p> (Part 2, paragraph beginning \"No one can overextend themselves indefinitely.\")",
-      "severity": "minor",
-      "source_quote": "a susceptible immune system",
-      "suggested_fix": "Render the phrase in idiomatic Swedish to convey weakened immune function. Example: \"ett försvagat immunförsvar\" or \"överkänsligt immunsystem\" depending on preferred idiom.",
-      "translation_quote": "ett mottagligt immunsystem"
-    },
-    {
-      "location": "<p>There are so many good things to be involved in, and new inspirations come daily. Sometimes tasks can be incorporated into my/our schedule.</p> (Part 2, paragraph beginning \"This has saved me a great deal of stress.\")",
-      "severity": "minor",
-      "source_quote": "Sometimes tasks can be incorporated into my/our schedule.",
-      "suggested_fix": "Fix the slash spacing and choose a single consistent pronoun form as in the source. Example: \"Ibland kan uppgifter införlivas i mitt/vårt schema.\" (no space after slash) or decide \"mitt schema\" or \"vårt schema\" to match the authorial voice.",
-      "translation_quote": "Ibland kan uppgifter införlivas i mitt/ vårt schema."
+      "source_quote": "A homemaker should anticipate all her family’s needs.",
+      "suggested_fix": "Ändra texten inom samma li-element till: \"En hemmafru bör förutse alla behov i sin familj.\"",
+      "translation_quote": "En hemmafru bör förutse alla sin familjs behov."
     }
   ],
+  "finished_at": "2026-10-06T02:54:49+00:00",
   "id": "2e14f2a6448bf8749a448e540879b5e0",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -161,14 +160,16 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/38192240dcf51b256b9a447bd274027031399e5f75458264907a975a2f88af15.json",
   "scripture_evidence_sha256": "38192240dcf51b256b9a447bd274027031399e5f75458264907a975a2f88af15",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-6.1-sol"

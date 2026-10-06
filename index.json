@@ -21163,6 +21163,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "72835fb3b22303b449da4bc10578d85a376ce9daa01d926d3b1f60900154726e",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "חזית חנות עירונית עם דלת אדומה ופנס רחוב",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "יד מחזיקה ספר פתוח",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "b6fc4348daa80f7e97d8e938b1742178da431015c97415e806f1f9333087e497",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "השראות לנוער",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "קן ואני",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
       "html_sha256": "4f60639011f5f93f91b6e4a42283fc18522d474f1444370d83cf5b2a4cc5f93e",
       "human_reviewed": false,
@@ -37110,6 +37142,34 @@
       "subtitle": null,
       "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "32609c3ea21665efef76fd765a6d33a31405344ed63569b9180c8367f8aec5c3",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "Witte orchideeën met paarse centra",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "4d73a9f476820250ad585f8938ab60f20dfde3ed5d3df8ca4732f870338def74",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De glorie van de lente",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -56485,6 +56545,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "9ad179febd2e42af018fd03d455a8e2e95b5fc6ea6706901959654e9b5481f92",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "En tvättmaskin och tvättkorgar i ett rum",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "En anteckningsbok, pennor, kaffe och en växt på ett skrivbord",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "ad9b151aa7f0154d7ad81a143905ee49edc179736292ce7be0cf90e4a828de3c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Syster till syster",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Överbelastningssyndromet",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
       "html_sha256": "ffa0e910515046d267151cb923dd6b83e396ebee8b04b039ffd40ff071632671",
       "human_reviewed": false,
@@ -59218,6 +59310,38 @@
       "subtitle": null,
       "title": "طب کی گوگلائزیشن",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "554902c605d8bcb7ebae0a9c5c7f7657bf0c78e47eaf3808c4148947cec1b0e7",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "ایک کمرے میں واشنگ مشین اور کپڑوں کی ٹوکریاں",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "ایک میز پر ایک نوٹ بُک، قلم، کافی، اور ایک پودا",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "49dfcb7bfcf04b476b4c9e9b35923087595c6fab2bd358e6e3e91f520f602fca",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بہن سے بہن",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "اوورلوڈ سنڈروم",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

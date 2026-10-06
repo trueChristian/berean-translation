@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-06T02:54:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"/article[1]/ul[1]/li[3]\",\"severity\":\"minor\",\"source_quote\":\"A homemaker should anticipate all her family’s needs.\",\"suggested_fix\":\"Ändra texten inom samma li-element till: \\\"En hemmafru bör förutse alla behov i sin familj.\\\"\",\"translation_quote\":\"En hemmafru bör förutse alla sin familjs behov.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 382,
+    "content_evidence_truncated": false,
+    "content_sha256": "f18bcc00b81bffd2f7950bf48279c9322b3d9e847b9053f8b6410a98ed64f146",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 219,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6671,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6668,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6890
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
