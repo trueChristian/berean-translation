@@ -8,6 +8,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:20+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -44,8 +49,8 @@
         }
       },
       "provenance_sha256": "ee2c7473b8a3c3c00d40f35755fde14cb49d274b5d99f309f95db38d4be63e4b",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "0672ae7153ccfb1fc375effab60f075e"
     },
     "151e1235fece0c61dea4e2683201ed64": {
@@ -54,6 +59,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:43+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -90,8 +100,8 @@
         }
       },
       "provenance_sha256": "cc934c093db73f51b8b1c9dc6d26f1916f9fe6a62b5f7060c8beb7d3137d2713",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "151e1235fece0c61dea4e2683201ed64"
     },
     "1606e1a1853f68120791262611ad89fd": {
@@ -100,6 +110,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:46+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -136,8 +151,8 @@
         }
       },
       "provenance_sha256": "1d71315183a914fbb0df5309db3326f910307c4c01b16c7655ad0718916b5dfa",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "1606e1a1853f68120791262611ad89fd"
     },
     "17361762edfd4ede8fe0dc00ac1a9e44": {
@@ -146,6 +161,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:49+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -182,8 +202,8 @@
         }
       },
       "provenance_sha256": "14921b6a0faa3a1731a52fcdedd4c712ff9ec335cb3f2f5231a20901a190ea43",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "17361762edfd4ede8fe0dc00ac1a9e44"
     },
     "1925bdb2ab02b43f92257833834b58ad": {
@@ -192,6 +212,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:59+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -228,8 +253,8 @@
         }
       },
       "provenance_sha256": "40fcfebe9e937fdd5fb75d2d9693a290c26ffef7ab82afea1e4c6f06b364f04e",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "1925bdb2ab02b43f92257833834b58ad"
     },
     "1cea9497904281a152206bc8fba64c34": {
@@ -238,6 +263,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:51+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -274,8 +304,8 @@
         }
       },
       "provenance_sha256": "4f200c262df5979791102d3900cf480178cf5d19bed947dc55374654b3cd817e",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "1cea9497904281a152206bc8fba64c34"
     },
     "226106a2382aa51602808e228673cb30": {
@@ -284,6 +314,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:15+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -320,8 +355,8 @@
         }
       },
       "provenance_sha256": "00bf09bf17375f79254172b1353a27d6992b55885ab5e09cd9b6addfec9b7981",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "226106a2382aa51602808e228673cb30"
     },
     "34df7bfec1545547b5221e9dbe2498c0": {
@@ -330,6 +365,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:28+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -366,8 +406,8 @@
         }
       },
       "provenance_sha256": "4173c0ca4224c7f05a2677a0def215a318561d6f9f50902e21db342b92f7f0c6",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "34df7bfec1545547b5221e9dbe2498c0"
     },
     "44ea238bf82d1f50f866d2425de4c2a4": {
@@ -376,6 +416,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:17+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -412,8 +457,8 @@
         }
       },
       "provenance_sha256": "69380cbe0d012fb98ead3fd1685f26c201ad8616869f8f63e3c90862f35270e3",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "44ea238bf82d1f50f866d2425de4c2a4"
     },
     "5efc1b5e6c24219865d1eb7b6f350992": {
@@ -422,6 +467,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:18+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -458,8 +508,8 @@
         }
       },
       "provenance_sha256": "1116f6d1ba7aa6884de1424f02af12a6585afa6fab0b7bbe84f3ed63cf63f8e7",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "5efc1b5e6c24219865d1eb7b6f350992"
     },
     "6e0093313413f9b11f35989d8ac5e780": {
@@ -468,6 +518,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:41+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -504,8 +559,8 @@
         }
       },
       "provenance_sha256": "81bfaab98e88d22bdc3d05e9561dd9188aab1c43220a5681b2af9070e9ebad6a",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "6e0093313413f9b11f35989d8ac5e780"
     },
     "9757cf018c5d0d0c4c1807fbedb2d5c2": {
@@ -514,6 +569,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:57+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -550,8 +610,8 @@
         }
       },
       "provenance_sha256": "c1b731442a7e397f529fa92e97afb46784ff0d32264e5e95547bee3763d4e00c",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "9757cf018c5d0d0c4c1807fbedb2d5c2"
     },
     "9a9c2773c3209f4a364363129ded7149": {
@@ -560,6 +620,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:09+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -596,8 +661,8 @@
         }
       },
       "provenance_sha256": "5853f9041d7aa64d9d25ee8121a7631254db5dd398608b1dd57047722582d3a3",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "9a9c2773c3209f4a364363129ded7149"
     },
     "a1dcc632cf2d27cd0dc28cf6080a9075": {
@@ -606,6 +671,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:01+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -642,8 +712,8 @@
         }
       },
       "provenance_sha256": "f0d9eafe4c9d3c1d94c70f06b775a2db7b54e9084190e921c23e52841542c3d9",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "a1dcc632cf2d27cd0dc28cf6080a9075"
     },
     "ae7b4ff61f97dc205ac8c19251cbab40": {
@@ -652,6 +722,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:03+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -688,8 +763,8 @@
         }
       },
       "provenance_sha256": "3da1130ad7dd40d4afabee1fc056f6c436f0e67962e4e1b8c0698b659eb123a2",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "ae7b4ff61f97dc205ac8c19251cbab40"
     },
     "b5b2807ae835bdb893b4360154ccb9a7": {
@@ -698,6 +773,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:30+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -734,8 +814,8 @@
         }
       },
       "provenance_sha256": "4a29cab80a452dd1bbb89fe49bf9b5dd6d46c33a25b8d9666271c9df88bb2a02",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "b5b2807ae835bdb893b4360154ccb9a7"
     },
     "bcf0a80be2fea90eacfd0b1a412b3178": {
@@ -744,6 +824,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:13+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -780,8 +865,8 @@
         }
       },
       "provenance_sha256": "251f9dce66c40736f9f619bfd203c72424bce8bf871ddf78dce41f24a43a7a5e",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "bcf0a80be2fea90eacfd0b1a412b3178"
     },
     "c8469446ae3655c0223e3881290428eb": {
@@ -790,6 +875,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:07+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -826,8 +916,8 @@
         }
       },
       "provenance_sha256": "727cb85db7c4482d462adb4d321493bced9b8ca1690c8f7a9fec10c76d8edb8b",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "c8469446ae3655c0223e3881290428eb"
     },
     "cb4433a40cb68a5e3b63f73e1def03ec": {
@@ -836,6 +926,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:48+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -872,8 +967,8 @@
         }
       },
       "provenance_sha256": "1b75f2f9d7bd1720679b439785340eb3d20978d4bf9d7b78d17a16f418256395",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "cb4433a40cb68a5e3b63f73e1def03ec"
     },
     "ceab925bf735df0faf026bbe68aedb78": {
@@ -882,6 +977,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:10+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -918,8 +1018,8 @@
         }
       },
       "provenance_sha256": "c296a2034c3ed89d053afe7a968f81a2ef8ee8a4c546a0789cf3add5874cbe52",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "ceab925bf735df0faf026bbe68aedb78"
     },
     "db5d3ed7f97a3e8f53a1b5d6a3b9a7b6": {
@@ -928,6 +1028,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:55+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -964,8 +1069,8 @@
         }
       },
       "provenance_sha256": "9f89f082ca53c177639924aba21b6b813e77c4d22f90e7d252f2b36cf3ac8e7d",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "db5d3ed7f97a3e8f53a1b5d6a3b9a7b6"
     },
     "dfcb625126bb88e0ad9d4912c244d266": {
@@ -974,6 +1079,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:47:53+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1010,8 +1120,8 @@
         }
       },
       "provenance_sha256": "d319930cd785b7e25b3be9be7ea90d8bda41b1d670e53e05a99f3c5f67749b0e",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "dfcb625126bb88e0ad9d4912c244d266"
     },
     "e2db20633320123f81deacc6e607ec58": {
@@ -1020,6 +1130,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:22+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1056,8 +1171,8 @@
         }
       },
       "provenance_sha256": "5eb205142618f3c46baf03e8ab57172e56b38eb610f0657aee4dea937aaca50b",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "e2db20633320123f81deacc6e607ec58"
     },
     "ec6500b4f0b2187aea4d8b5a9756fa7d": {
@@ -1066,6 +1181,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:05+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1102,8 +1222,8 @@
         }
       },
       "provenance_sha256": "ff46e9211f6b54e94f2bd04c3364251e0ae94fd2167def6b9b1585313fedd323",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "ec6500b4f0b2187aea4d8b5a9756fa7d"
     },
     "ef421b08c7b807d2324a209a97d07384": {
@@ -1112,6 +1232,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:31+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1148,8 +1273,8 @@
         }
       },
       "provenance_sha256": "c50f33e723a246918d89a6ef6dd5010d15009a8336d5f31e36b20cc37a994046",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "ef421b08c7b807d2324a209a97d07384"
     },
     "f93af02eeb840160fc532609cb9a8bcf": {
@@ -1158,6 +1283,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:24+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1194,8 +1324,8 @@
         }
       },
       "provenance_sha256": "5e55a2e5f4886de445f70e6d3ab68ae6ccb599eb76208d095e4067be2c62a312",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "f93af02eeb840160fc532609cb9a8bcf"
     },
     "ff79731df3b0591d45eb04bc4a8b6008": {
@@ -1204,6 +1334,11 @@
           "at": "2026-10-06T16:46:59+00:00",
           "reason": "prefetch_wait_budget",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-06T16:48:26+00:00",
+          "reason": "ambiguous_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1240,8 +1375,8 @@
         }
       },
       "provenance_sha256": "3accb40da12f78b423f8f0d99784004069ccc19c28a5d5e6d2d18937cf7d0f99",
-      "reason": "prefetch_wait_budget",
-      "status": "pending",
+      "reason": "ambiguous_source_quote",
+      "status": "attention",
       "task_id": "ff79731df3b0591d45eb04bc4a8b6008"
     }
   },

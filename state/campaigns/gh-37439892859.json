@@ -1,4 +1,7 @@
 {
+  "admission_counts": {
+    "attention": 27
+  },
   "budget_usd": 30.0,
   "created_at": "2026-10-06T09:09:16+00:00",
   "dry_run": false,
@@ -2519,7 +2522,7 @@
     }
   ],
   "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
-  "status": "finished",
+  "status": "admission_attention",
   "structural_feedback_version": "1",
   "task_counts": {},
   "tasks": []
