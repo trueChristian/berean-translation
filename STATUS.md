@@ -577,6 +577,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37333368552` | manual recovery | repair | active | 5 | 5 held | 0.28775395 | 1.633853 / 30.00 | [state](state/campaigns/gh-37333368552.json) |
 | `gh-37339703325` | manual | translate | finished | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37339703325.json) |
 | `gh-37339848895` | manual recovery | repair | active | 5 | 2 held, 3 active | 0.20700100 | 1.530268 / 30.00 | [state](state/campaigns/gh-37339848895.json) |
+| `gh-37439892859` | manual | translate | active | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37439892859.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
