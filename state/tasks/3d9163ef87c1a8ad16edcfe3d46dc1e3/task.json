@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "434ce204eff44dd68a85d066cc2d0f1b",
   "campaign": "gh-37154422984",
   "continuation": {
     "cycle": 1,
@@ -40,32 +39,31 @@
         },
         "total_tokens": 5982
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 86,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 60,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3375,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3372,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3461
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p>…When the Psalmist wrote…</p> (second paragraph of source.html)",
-      "severity": "major",
-      "source_quote": "When the Psalmist wrote, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
-      "suggested_fix": "Translate Psalmist as ‘গীতিকার’ or ‘কবি’ (preserving theological sense) and preserve the exact English scriptural quotation in parentheses as in the source. For example: “নিশ্চয়ই গীতিকার যখন লেখেছিলেন, “Let the floods clap their hands… (Psalms 98:8-9).”",
-      "translation_quote": "নিশ্চয়ই পুরাণকার যখন লেখেছিলেন, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9), তখন এই উদ্দীপ্ত বছরের সময়টাই ছিল।"
-    },
-    {
-      "location": "<p>…Hymn History article…</p> (fourth paragraph of source.html)",
-      "severity": "minor",
-      "source_quote": "Millions who never experienced Christ the fountain as described in the Hymn History article in this issue:",
-      "suggested_fix": "Render the title reference idiomatically and clearly in Bengali while preserving the sense that this is the magazine section/title. Use a readable translation such as “এই সংখ্যায় প্রকাশিত ‘Hymn History’ শিরোনামের নিবন্ধে বর্ণিত ফোয়ারা” or keep the English title in quotes if it is a section name: “...as described in the ‘Hymn History’ article in this issue.”",
-      "translation_quote": "লক্ষ লক্ষ যারা কখনোই খ্রিস্ট—এই সংস্করণ-ইতিহাস-গীতের নিবন্ধে বর্ণিত ফোয়ারা হিসেবে অভিজ্ঞ হয়নি:"
-    },
-    {
-      "location": "<p>…words of the prophet Isaiah…</p> (final paragraphs before closing)",
-      "severity": "minor",
-      "source_quote": "let us be reminded of the words of the prophet Isaiah, “For as the earth bringeth forth her bud …” (Isaiah 61:11).",
-      "suggested_fix": "Translate ‘the prophet Isaiah’ correctly and avoid redundant phrasing. For example: “তাহলে চলুন নবী ইশায়ার (Isaiah) এর কথাগুলো স্মরণ করি: “For as the earth bringeth forth her bud …” (Isaiah 61:11).” Preserve the exact English scripture quotation in parentheses as in the source.",
-      "translation_quote": "তেমন আমরা আমাদের বাগান রোপণ করি এবং গাছগুলোকে ফুলে ফোটতে দেখি, তেমনি নবজাত জীবনের কথা স্মরণ করিয়ে দেয় নববাণী—যেমন নববাণী Isaiah-এর কথায় আছে, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)।"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-06T02:54:06+00:00",
   "id": "3d9163ef87c1a8ad16edcfe3d46dc1e3",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -154,12 +152,14 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-6.1-sol"

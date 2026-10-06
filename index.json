@@ -3421,6 +3421,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "2dff5eac68b8ba6251496a6ed5b73fff7cd0a5a20191342631156e91649b37ed",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "فراشة برتقالية وسوداء بين أوراق خضراء",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "ساق أزهار أوركيد برتقالية صغيرة",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "9bb21d4f38c508b5226d32a5a765fb6f399c6bd8c679bb57a15b2d514665feca",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "الحياة المسيحية المنتصرة",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "القوة والمحبة وعقل متزن",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/10d20eec-3e71-404f-9f8d-8068b010381e.html",
       "html_sha256": "5c4e214ec8d67613b06a50ff9e2c703723dd5a0f30746d39a1a6ba0a0ef0c8d6",
       "human_reviewed": false,
@@ -7167,6 +7199,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "65baf8cd3800c2a20b92f1177da0d1c236ae504428d924ae2131e15d4854d1d1",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "একটি বাটিতে বাসা বাঁধা ছোট পাখির পাশে সাদা ফুল",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "f2d3b3566ba3cc3b4c4f6bb6f8d3f300f098dee8f5b0eae5337e2ac731755f2a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "সম্পাদকের পক্ষ থেকে",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সম্পাদকের পক্ষ থেকে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/64012528-bcec-4189-96b5-32a226869815.html",
       "html_sha256": "1623a827dac60d0b0a5a159e7ea3c833a4f594e2d22988a9322a8c5dd2d3d548",
       "human_reviewed": false,
@@ -8072,6 +8132,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
+      "html_sha256": "0e1d365ea2f80bd1af593f2117b9a5be0ddaad7d719329a7caefdecd7fcca8f8",
+      "human_reviewed": false,
+      "id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "images": [
+        {
+          "alt": "কমলা ও কালো রঙের একটি প্রজাপতি লাল বেরির পাশে বসে আছে",
+          "public_path": "/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/b43320f3-e4e8-450b-865c-099ef704149c.json",
+      "metadata_sha256": "3b15e1ae1e60880f4b86134496e8e0068c851028a621fc9d169715689d95e7f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "খ্রীস্টীয় শিষ্যত্ব",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
+      "status": "ready",
+      "subtitle": null,
+      "title": "কলুষিত সমাজে নৈতিকভাবে পবিত্র",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "7614ecf70b92b63e2acc7663138a3045829ba7713f9f496d01bacc01de4c5ada",
       "human_reviewed": false,
@@ -8647,6 +8735,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "97effceff3a005c66719b8324fe8b95b5af3f26bef727a8995b787bb3436c17f",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "在绿叶间的一只橙黑相间的蝴蝶",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "一枝小型橙色兰花花茎",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "1e5435514fdbe3b69d9d528da11f37ffcc44ab4d39ddb34fd419f6069b417a8b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "得胜的基督徒生活",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "能力、爱与清醒的心智",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.html",
       "html_sha256": "8ef44388141a3f3e155c6b5f2d9b7a0d9c2fe5225b671a7076760fe2eda70df3",
       "human_reviewed": false,
@@ -9120,6 +9240,38 @@
       "subtitle": null,
       "title": "上帝会回应祷告吗？",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "33a25ef2f60c322fce37c8d3ebe6be865bc5a1cda9102230732b6516778c4551",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "绿叶映衬下的一朵黄花",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "一株马勃菌生长在长满苔藓的森林地面上",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "d0a0d04a61acde1ade6dd1ea4b7d09b7a56f4c67374e8c58fd121bcee1f02863",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "神的属性",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "神从锡安这美的完美之境发出光辉。诗篇 50:2",
+      "title": "神：美的完美",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
