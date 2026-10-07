@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5ceea096-6bc0-463b-bd1d-bafb20b929be",
+    "response_id": "chatcmpl-EWAClYMBFs3Or12XlYPKFY687DE6c",
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2184,
+        "cached_tokens": 1933
+      },
+      "total_tokens": 4752
+    }
+  },
+  "received_at": "2026-10-07T06:35:41+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>Nous entendons tous ces discours sur les beautés de la gloire<br>\n    La Bible parle et raconte sa propre histoire.<br>\n    Là-haut, il y a un lieu sans labeur ni conflits.<br>\n    Pourtant, l’Église peut oublier cette vie,<br>\n    Si la présence de Dieu brille comme le soleil,<br>\n    Le chant, si doux, inclut tout le monde.<br>\n    Si le ciel est réel, je vais poser une question.<br>\n    Pourquoi tant se concentrer sur une vie qui ne durera pas ?<br>\n    Nous bâtissons nos somptueuses demeures ici-bas, sur cette terre,<br>\n    Nous avons dû oublier combien tout cela vaut peu.<br>\n    Nous regardons nos biens et disons que nous sommes bénis,<br>\n    Oubliant qu’ils brûleront bientôt avec tout le reste.<br>\n    Les trésors ont de la valeur, nous en convenons.<br>\n    Mais déposons-les au ciel, où ils resteront pour toujours.<br>\n    Perdrions-nous notre vie pour l’amour du bon Seigneur ?<br>\n    Alors nous gagnerions l’éternité et prendrions part au ciel.<br>\n    Ou si nous aimons notre vie, la Bible dit clairement<br>\n    que nous perdrions notre chance d’accéder à ce ciel si précieux.<br>\n    Si le ciel est réel, nous devons être dans la confusion,<br>\n    Car il semble que c’est cette vie qui nous amuse.<br>\n    Si le ciel nous attend, et que nous savons que nous y irons,<br>\n    Pourquoi donc craindre quand la mort nous frappe ?<br>\n    Quand la vie prochaine, c’est le ciel, l’éternité avec Lui,<br>\n    Alors la mort est le commencement ; pourquoi donc est-elle sinistre ?<br>\n    Notre vie n’est qu’une vapeur, nous dit le Bon Livre.<br>\n    Raisonnons avec sagesse et changeons notre regard.</p>\n  </div>\n</article>\n",
+    "scripture_selections": [],
+    "section": null,
+    "subtitle": null,
+    "title": "Si le ciel est réel"
+  }
+}
