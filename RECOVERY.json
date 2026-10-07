@@ -2,24 +2,26 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 7.097022,
+  "committed_usd": 8.274424,
   "counts": {
     "active": 1,
     "already_translated": 108,
     "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
-    "eligible_automatic": 1312,
+    "eligible_automatic": 1313,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "pending_automatic_admission": 40,
+    "missing_edition": 1,
+    "pending_automatic_admission": 31,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
-    "source_quote_annotation": 3,
+    "source_association_limit": 1,
+    "source_quote_annotation": 6,
     "technical_failure_requires_attention": 63,
-    "unresolved_quote_reference": 13
+    "unresolved_quote_reference": 16
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 10.254321,
+  "gross_allocated_usd": 11.431723,
   "items": [
     {
       "accepted_cycles": 0,
@@ -288,10 +290,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "afr",
       "latest_task": "0320be0adf0b2525d2e98781725b6af3",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-1c227d81be220a0d9a61dcb182821b4f2e09ada94d3c114d1ae3dd28461605a6"
     },
     {
@@ -854,9 +857,8 @@
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "ara",
       "latest_task": "a1177783688fa4439f62297365d32cac",
-      "processing_status": "pending",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2009,10 +2011,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ben",
       "latest_task": "5d45931b193da591e5e1240f0103850a",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "unresolved_quote_reference",
       "request_id": "auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3"
     },
     {
@@ -3193,10 +3196,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "deu",
       "latest_task": "b9ea8831d22628cc424eaea71064fa4b",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa"
     },
     {
@@ -3527,10 +3531,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "deu",
       "latest_task": "32cc90ecae2816c31f01e39264ad5c0c",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "unresolved_quote_reference",
       "request_id": "auto-282c9307dbbdccc3f0d36a69f46c136278f85a1546426007f34c3003ca1ff3a0"
     },
     {
@@ -3968,10 +3973,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "ell",
       "latest_task": "14edbc526c6ab12775fcffae9c4abffa",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf"
     },
     {
@@ -5508,10 +5514,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "heb",
       "latest_task": "c9ba280f6978613a74c74f2d73ff77e2",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_association_limit",
       "request_id": "auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11"
     },
     {
@@ -6024,10 +6031,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
+      "detail": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged.",
       "language": "hin",
       "latest_task": "959482d0be5d9a52862e9d1a4217e0a7",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "missing_edition",
       "request_id": "auto-03eda9bc8a4559c7fb9a903c3e8584eb08b1f79fa0252c7aed11d9dc551dc242"
     },
     {
@@ -9134,10 +9142,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "nob",
       "latest_task": "2a5b7fd787ce56aca78ddba8fd2a9a89",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "unresolved_quote_reference",
       "request_id": "auto-23baa30e58521d0f8d487247d5a41537a559a3fa645a1566305f620b3d7af8a3"
     },
     {
