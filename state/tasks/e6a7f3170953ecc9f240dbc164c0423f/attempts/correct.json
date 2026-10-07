@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-07T06:35:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>We horen al die praat over de schoonheden van de heerlijkheid<br>\\n    De Bijbel spreekt en vertelt zijn eigen verhaal.<br>\\n    Daarboven is een plaats, zonder zwoegen of strijd.<br>\\n    Toch kan de kerk dat leven vergeten,<br>\\n    Als Gods aanwezigheid straalt als de zon,<br>\\n    Het zoete gezang iedereen omvat.<br>\\n    Als de hemel echt is, stel ik een vraag.<br>\\n    Waarom zoveel aandacht voor een leven dat niet blijft bestaan?<br>\\n    We bouwen hier op aarde onze herenhuizen,<br>\\n    We moeten vergeten zijn hoe weinig het waard is.<br>\\n    We kijken naar onze spullen en zeggen dat we gezegend zijn,<br>\\n    Vergetend dat ze straks met de rest zullen verbranden.<br>\\n    Schatten zijn waardevol, daar zijn we het over eens.<br>\\n    Maar leg ze in de hemel, waar ze voor altijd zullen zijn.<br>\\n    Zouden we ons leven verliezen omwille van de goede Heer?<br>\\n    Dan zouden we de eeuwigheid winnen en deelhebben aan de hemel.<br>\\n    Of ons leven liefhebben, waarover de Bijbel duidelijk is:<br>\\n    We zouden onze kans op de dierbare hemel verliezen.<br>\\n    Als de hemel echt is, moeten we in de war zijn,<br>\\n    Want het lijkt erop dat juist dit leven ons vermaakt.<br>\\n    Als de hemel ons wacht, en we weten dat we daarheen zouden gaan,<br>\\n    Waarom zijn we dan bang als de dood toeslaat?<br>\\n    Als het volgende leven de hemel is, de eeuwigheid bij Hem,<br>\\n    Dan is de dood het begin; waarom is dat dan zo somber?<br>\\n    Ons leven is maar een damp, zo vertelt het Goede Boek.<br>\\n    Laten we wijs nadenken en onze blik veranderen.</p>\\n  </div>\\n</article>\\n\",\"scripture_selections\":[],\"section\":null,\"subtitle\":null,\"title\":\"Als de hemel echt is\"}",
+    "content_bytes": 1805,
+    "content_evidence_truncated": false,
+    "content_sha256": "e703d8c835fac00711bc82547176878f8d0f262504bfa62096fa013f81b2cf53",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4685
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
