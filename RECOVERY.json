@@ -2,26 +2,26 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 10.59145,
+  "committed_usd": 11.749305,
   "counts": {
-    "active": 3,
+    "active": 4,
     "already_translated": 108,
     "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
     "eligible_automatic": 1313,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
     "missing_edition": 5,
-    "pending_automatic_admission": 21,
+    "pending_automatic_admission": 18,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
     "source_association_limit": 3,
-    "source_quote_annotation": 7,
+    "source_quote_annotation": 8,
     "technical_failure_requires_attention": 63,
-    "unresolved_quote_reference": 17
+    "unresolved_quote_reference": 18
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 13.748749,
+  "gross_allocated_usd": 14.906604,
   "items": [
     {
       "accepted_cycles": 0,
@@ -3052,12 +3052,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "deu",
-      "latest_task": "a20d94816f4908ac2e917026dff28edf",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "4346849f85abbe9cca7ce8de50c633f6",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8380,10 +8380,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "nld",
       "latest_task": "5e9438eb9967b0c02d8eaa22fb768614",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-8355d7454a0128c5fad244ee91dbd573c722b5c95dbb51bd31c09caa350a0295"
     },
     {
@@ -8793,9 +8794,8 @@
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "nob",
       "latest_task": "b30b135bfba7f47b00a2339be91abf6a",
-      "processing_status": "pending",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10091,10 +10091,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "rus",
       "latest_task": "d349877e25a06c26c2fb048cab1a77ee",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "unresolved_quote_reference",
       "request_id": "auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507"
     },
     {

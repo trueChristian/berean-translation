@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 9.433153,
-  "automatic_allocation_index": 7,
-  "automatic_allocation_usd": 1.158297,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 10.59145,
+  "automatic_allocation_index": 8,
+  "automatic_allocation_usd": 1.157855,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "cb1f9217dae1ee5143b72411027eb51a6d6ab91274351ed5b10e2f8a334bc3be",
+  "automatic_frozen_sha256": "19adc13b8dc4d3cd231a0e441ad11a4e9c4af9ee1586684feb9c4dbca8b2c8b7",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-781467b54eefd2df07cf9bcb73707e652bbc772acb9d8603eabee087135b4c1b",
+    "id": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "candidate_sha256": "465172d1b537f055323439b9aa0de1c1e4c0457ea007f2450097683013211c49",
+      "candidate_sha256": "e6f8e9358834e07c3839a3714e5b9d6d703d446bf15153321b05e25cb044d885",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "deu",
-      "previous_task_id": "a20d94816f4908ac2e917026dff28edf",
-      "previous_task_sha256": "2cfaa8b3f83a116bfa68e2ef0ff49f38b24cf685ce003a3cba23b77e323f26b9",
+      "language": "nob",
+      "previous_task_id": "b30b135bfba7f47b00a2339be91abf6a",
+      "previous_task_sha256": "3e843093556b556064630662769edb4eb07131ff1b18942a819f1c12c5999645",
       "recovery": true,
       "stage": "correct",
       "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
@@ -35,8 +35,8 @@
     "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb": "ae4cbe74d1ab467cdfc9a16c767256030fdfda683ef02ec2f77d9084f2a76703"
   },
   "autonomous": true,
-  "budget_usd": 1.158297,
-  "created_at": "2026-10-07T13:53:53+00:00",
+  "budget_usd": 1.157855,
+  "created_at": "2026-10-07T13:54:19+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -46,20 +46,21 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-781467b54eefd2df07cf9bcb73707e652bbc772acb9d8603eabee087135b4c1b",
+    "id": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
     "language_settings": {
-      "deu": {
+      "nob": {
         "aliases": [
-          "ger"
+          "no",
+          "nor"
         ],
         "dir": "ltr",
-        "english_label": "Englisches Original",
-        "guidance": "Use standard contemporary German.",
-        "name": "German",
-        "native_name": "Deutsch",
-        "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-        "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-        "tag": "de"
+        "english_label": "Engelsk original",
+        "guidance": "Use contemporary Norwegian Bokmål, not Nynorsk.",
+        "name": "Norwegian (Bokmål)",
+        "native_name": "Norsk bokmål",
+        "notice": "Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: {model}) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen.",
+        "reviewed_notice": "Denne artikkelen er gjennomgått av et menneske, selv om den opprinnelig ble oversatt med KI. Den engelske originalen er fortsatt den autoritative versjonen.",
+        "tag": "nb"
       }
     },
     "max_output_tokens": 32768,
@@ -431,29 +432,29 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-781467b54eefd2df07cf9bcb73707e652bbc772acb9d8603eabee087135b4c1b",
+  "id": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
   "initial_task": {
     "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-    "automatic_previous_task": "a20d94816f4908ac2e917026dff28edf",
+    "automatic_previous_task": "b30b135bfba7f47b00a2339be91abf6a",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-781467b54eefd2df07cf9bcb73707e652bbc772acb9d8603eabee087135b4c1b",
-    "created_at": "2026-10-07T13:53:53+00:00",
+    "campaign": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
+    "created_at": "2026-10-07T13:54:19+00:00",
     "events": [],
     "findings": [
       {
-        "location": "HTML paragraph 2",
+        "location": "HTML, paragraph beginning «Den kvelden snakket familien igjen»",
         "severity": "major",
-        "source_quote": "“I’ve been thinking that we could take a trip next week with school being off.”",
-        "suggested_fix": "Replace „wenn die Schule ausfällt“ with „wenn schulfrei ist“, for example: „Ich habe mir überlegt, dass wir nächste Woche, wenn schulfrei ist, einen Ausflug machen könnten“",
-        "translation_quote": "„Ich habe mir überlegt, dass wir nächste Woche, wenn die Schule ausfällt, einen Ausflug machen könnten“"
+        "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
+        "suggested_fix": "Bytt «Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham» med «Hvis brevet hadde kommet fram til bror Oscar».",
+        "translation_quote": "Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham, ville de ha gjort seg klare til å ta imot oss."
       }
     ],
-    "id": "4346849f85abbe9cca7ce8de50c633f6",
+    "id": "9db500695d5cff94f2eba61a919b4dbf",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "deu",
+    "language": "nob",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -542,8 +543,8 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/15993b3f8ced44deccc9b1078525be08f52d4f358b057acae43db78694e18818.json",
-    "scripture_evidence_sha256": "15993b3f8ced44deccc9b1078525be08f52d4f358b057acae43db78694e18818",
+    "scripture_evidence_path": "state/scripture/e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98.json",
+    "scripture_evidence_sha256": "e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98",
     "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
     "stage": "correct",
     "stage_budget": {
@@ -551,10 +552,10 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.225782,
-        "review2": 0.932515
+        "correct": 0.225267,
+        "review2": 0.932588
       },
-      "total_reserved_usd": 1.158297,
+      "total_reserved_usd": 1.157855,
       "version": 1
     },
     "status": "queued",
@@ -566,22 +567,23 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "deu": {
+    "nob": {
       "aliases": [
-        "ger"
+        "no",
+        "nor"
       ],
       "dir": "ltr",
-      "english_label": "Englisches Original",
-      "guidance": "Use standard contemporary German.",
-      "name": "German",
-      "native_name": "Deutsch",
-      "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-      "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-      "tag": "de"
+      "english_label": "Engelsk original",
+      "guidance": "Use contemporary Norwegian Bokmål, not Nynorsk.",
+      "name": "Norwegian (Bokmål)",
+      "native_name": "Norsk bokmål",
+      "notice": "Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: {model}) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen.",
+      "reviewed_notice": "Denne artikkelen er gjennomgått av et menneske, selv om den opprinnelig ble oversatt med KI. Den engelske originalen er fortsatt den autoritative versjonen.",
+      "tag": "nb"
     }
   },
   "languages": [
-    "deu"
+    "nob"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -677,7 +679,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "f14c9f744cbedbc84e393c99acd97fe6c61ce123e06e9886772660f95679815d",
+  "request_sha256": "7bcd079dadaab485cc3c2fc9a8083e2fe310719d139cebd312fd3b5f28318bf3",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -957,11 +959,11 @@
   "selection": [
     {
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "candidate_sha256": "465172d1b537f055323439b9aa0de1c1e4c0457ea007f2450097683013211c49",
+      "candidate_sha256": "e6f8e9358834e07c3839a3714e5b9d6d703d446bf15153321b05e25cb044d885",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "deu",
-      "previous_task_id": "a20d94816f4908ac2e917026dff28edf",
-      "previous_task_sha256": "2cfaa8b3f83a116bfa68e2ef0ff49f38b24cf685ce003a3cba23b77e323f26b9",
+      "language": "nob",
+      "previous_task_id": "b30b135bfba7f47b00a2339be91abf6a",
+      "previous_task_sha256": "3e843093556b556064630662769edb4eb07131ff1b18942a819f1c12c5999645",
       "recovery": true,
       "stage": "correct",
       "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
@@ -974,15 +976,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.225782,
-      "review2": 0.932515
+      "correct": 0.225267,
+      "review2": 0.932588
     },
-    "total_reserved_usd": 1.158297,
+    "total_reserved_usd": 1.157855,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "4346849f85abbe9cca7ce8de50c633f6"
-  ]
+  "tasks": []
 }
