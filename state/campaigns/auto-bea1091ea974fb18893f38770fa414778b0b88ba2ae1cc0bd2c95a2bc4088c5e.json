@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 8.129527,
-  "automatic_allocation_index": 3,
-  "automatic_allocation_usd": 1.063159,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 9.192686,
+  "automatic_allocation_index": 4,
+  "automatic_allocation_usd": 1.061635,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "defbcbb285a97c3790cac016ecac21b8dd97442ec2df4ba1b4f50e8c7e6d792c",
+  "automatic_frozen_sha256": "6800521fffeeea73bb420e5a8f2b420f0388b77cb2f7a8cffab88384104db184",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb",
+    "id": "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-      "candidate_sha256": "2140d6d156c54fff0fbcccb10608e607706b4124d5ba32930ed8fb522236992b",
+      "candidate_sha256": "06c9dffca8dbee6e9249ad75f47c0fae0d60511f48d5fe71c687a839dd749bdd",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "fra",
-      "previous_task_id": "fe2614c4c44e81feeeb9839c14529416",
-      "previous_task_sha256": "de7edeb25fef601fc354197fa8b89bbe2f24b8b0d6b393d6f74056d41b9d95ab",
+      "language": "ind",
+      "previous_task_id": "6e64bafd94827de5bc16770f4f2978a5",
+      "previous_task_sha256": "35ef5dede1978fb8a7b4fdbb9d201969125b21cc370d21d68375c87a036b09f9",
       "recovery": true,
       "stage": "correct",
       "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
@@ -31,8 +31,8 @@
   },
   "automatic_settlement_credits": {},
   "autonomous": true,
-  "budget_usd": 1.063159,
-  "created_at": "2026-10-07T00:47:55+00:00",
+  "budget_usd": 1.061635,
+  "created_at": "2026-10-07T00:48:15+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -42,20 +42,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb",
+    "id": "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e",
     "language_settings": {
-      "fra": {
-        "aliases": [
-          "fre"
-        ],
+      "ind": {
+        "aliases": [],
         "dir": "ltr",
-        "english_label": "Original anglais",
-        "guidance": "Use standard internationally intelligible French.",
-        "name": "French",
-        "native_name": "Français",
-        "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-        "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-        "tag": "fr"
+        "english_label": "Naskah asli bahasa Inggris",
+        "guidance": "Use standard Bahasa Indonesia.",
+        "name": "Indonesian",
+        "native_name": "Bahasa Indonesia",
+        "notice": "Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: {model}) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris.",
+        "reviewed_notice": "Artikel ini telah ditinjau oleh manusia, meskipun awalnya diterjemahkan dengan AI. Naskah asli berbahasa Inggris tetap menjadi versi rujukan yang berwenang.",
+        "tag": "id"
       }
     },
     "max_output_tokens": 32768,
@@ -427,43 +425,43 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb",
+  "id": "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e",
   "initial_task": {
     "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-    "automatic_previous_task": "fe2614c4c44e81feeeb9839c14529416",
+    "automatic_previous_task": "6e64bafd94827de5bc16770f4f2978a5",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb",
-    "created_at": "2026-10-07T00:47:55+00:00",
+    "campaign": "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e",
+    "created_at": "2026-10-07T00:48:15+00:00",
     "events": [],
     "findings": [
       {
-        "location": "Poème, lignes 3–4",
+        "location": "Poem, lines 13–14",
         "severity": "major",
-        "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life,",
-        "suggested_fix": "Remplacer par : « Là-haut, il y a un lieu sans labeur ni conflits. / Pourtant, l’Église peut oublier cette vie, » afin de conserver l’idée de l’existence d’un lieu sans peine ni conflit, et le contraste avec l’Église qui peut oublier cette vie.",
-        "translation_quote": "Là-haut, il y a un lieu sans labeur ni conflits. Pourtant, l’Église peut oublier cette vie,"
+        "source_quote": "Treasures are worthy, of that we agree. But lay them in heaven where forever they’ll be.",
+        "suggested_fix": "Ganti dua baris ini dengan: “Harta itu berharga, kita semua sepakat. / Namun, simpanlah harta itu di surga, tempatnya kekal.”",
+        "translation_quote": "Harta adalah sesuatu yang layak diperjuangkan, kita sepakat. Namun, simpanlah di surga, tempatnya untuk selamanya."
       },
       {
-        "location": "Poème, ligne 5",
+        "location": "Poem, line 16",
         "severity": "major",
-        "source_quote": "If the presence of God, shines as the sun,",
-        "suggested_fix": "Remplacer « Si » par « Puisque » : « Puisque la présence de Dieu brille comme le soleil, »",
-        "translation_quote": "Si la présence de Dieu brille comme le soleil,"
+        "source_quote": "Then eternity we’d gain, and heaven partake.",
+        "suggested_fix": "Ganti dengan: “Maka kita akan memperoleh kekekalan dan mengambil bagian di surga.”",
+        "translation_quote": "Maka kita akan memperoleh hidup kekal dan mendapat bagian di surga."
       },
       {
-        "location": "Poème, lignes 19–20",
+        "location": "Poem, lines 17–18",
         "severity": "major",
-        "source_quote": "If heaven is real, we must be confused / For it seems it’s this life, that has us amused.",
-        "suggested_fix": "Rendre explicitement le lien d’inférence et l’idée que cette vie nous amuse, par exemple : « Si le ciel est réel, nous devons être dans la confusion, / Car il semble que c’est cette vie qui nous divertit. »",
-        "translation_quote": "Si le ciel est réel, nous devons être dans la confusion, / Car il semble que cette vie nous amuse."
+        "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+        "suggested_fix": "Ganti dua baris ini dengan: “Atau mencintai hidup kita—Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk memperoleh surga yang begitu berharga.”",
+        "translation_quote": "Ataukah kita mencintai hidup kita, padahal Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk meraih surga yang begitu berharga."
       }
     ],
-    "id": "3c6dcdf718ffd8cc922410507b060a63",
+    "id": "438f839cf2fe7e01951c8224d3fff635",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "fra",
+    "language": "ind",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -552,8 +550,8 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/b5211389ba95e3facb9c25d1016fabca42157d2c3e75f874a8dc495bacd6e961.json",
-    "scripture_evidence_sha256": "b5211389ba95e3facb9c25d1016fabca42157d2c3e75f874a8dc495bacd6e961",
+    "scripture_evidence_path": "state/scripture/9ca620d2d404cc26ffee9f2239f78015552a8a08a0a3fe5546f74dc12d6801ce.json",
+    "scripture_evidence_sha256": "9ca620d2d404cc26ffee9f2239f78015552a8a08a0a3fe5546f74dc12d6801ce",
     "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
     "stage": "correct",
     "stage_budget": {
@@ -561,10 +559,10 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.193079,
-        "review2": 0.87008
+        "correct": 0.192545,
+        "review2": 0.86909
       },
-      "total_reserved_usd": 1.063159,
+      "total_reserved_usd": 1.061635,
       "version": 1
     },
     "status": "queued",
@@ -576,22 +574,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "fra": {
-      "aliases": [
-        "fre"
-      ],
+    "ind": {
+      "aliases": [],
       "dir": "ltr",
-      "english_label": "Original anglais",
-      "guidance": "Use standard internationally intelligible French.",
-      "name": "French",
-      "native_name": "Français",
-      "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-      "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-      "tag": "fr"
+      "english_label": "Naskah asli bahasa Inggris",
+      "guidance": "Use standard Bahasa Indonesia.",
+      "name": "Indonesian",
+      "native_name": "Bahasa Indonesia",
+      "notice": "Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: {model}) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris.",
+      "reviewed_notice": "Artikel ini telah ditinjau oleh manusia, meskipun awalnya diterjemahkan dengan AI. Naskah asli berbahasa Inggris tetap menjadi versi rujukan yang berwenang.",
+      "tag": "id"
     }
   },
   "languages": [
-    "fra"
+    "ind"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -687,7 +683,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "6176c092d05af0cfd5e6108cd6fccc4727488bab7764a04998f537dcd3fd03b5",
+  "request_sha256": "569bf7503fad331b07e3671bdb98b621c9ba49fe5849f77ce0aacd78fdee58f0",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -967,11 +963,11 @@
   "selection": [
     {
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-      "candidate_sha256": "2140d6d156c54fff0fbcccb10608e607706b4124d5ba32930ed8fb522236992b",
+      "candidate_sha256": "06c9dffca8dbee6e9249ad75f47c0fae0d60511f48d5fe71c687a839dd749bdd",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "fra",
-      "previous_task_id": "fe2614c4c44e81feeeb9839c14529416",
-      "previous_task_sha256": "de7edeb25fef601fc354197fa8b89bbe2f24b8b0d6b393d6f74056d41b9d95ab",
+      "language": "ind",
+      "previous_task_id": "6e64bafd94827de5bc16770f4f2978a5",
+      "previous_task_sha256": "35ef5dede1978fb8a7b4fdbb9d201969125b21cc370d21d68375c87a036b09f9",
       "recovery": true,
       "stage": "correct",
       "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
@@ -984,15 +980,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.193079,
-      "review2": 0.87008
+      "correct": 0.192545,
+      "review2": 0.86909
     },
-    "total_reserved_usd": 1.063159,
+    "total_reserved_usd": 1.061635,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "3c6dcdf718ffd8cc922410507b060a63"
-  ]
+  "tasks": []
 }
