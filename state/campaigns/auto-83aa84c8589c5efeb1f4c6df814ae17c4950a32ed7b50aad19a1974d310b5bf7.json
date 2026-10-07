@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 6.0,
-  "automatic_allocation_index": 1,
-  "automatic_allocation_usd": 1.066231,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 7.066231,
+  "automatic_allocation_index": 2,
+  "automatic_allocation_usd": 1.063296,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "6708705eac714a38e3c599a911b5edee8322c37521717f1b424dd8459cff79f2",
+  "automatic_frozen_sha256": "01025875211faf4897f25f84ed1e87715b9b9affa2754a94f9ef082a12081906",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef",
+    "id": "auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-      "candidate_sha256": "424e032a7d1331773a6db59ece2606dd0757126b05b02499e8ccb42c858b95a3",
+      "candidate_sha256": "6498fbffa2af408e6a3955964eba24d23bb90970bd5e71d093838cec996d6b33",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "rus",
-      "previous_task_id": "a192fee7beb1dccfc3a6997e3ac9977a",
-      "previous_task_sha256": "6f8e436b6d83e8168480c5ce635c3387679f67599a5605f4ab083b8b98444383",
+      "language": "nld",
+      "previous_task_id": "076b44acaaa937f9781f8f3efa76004e",
+      "previous_task_sha256": "79f387c2b1db5e38d4f32206b13da84ae0e99e06c8c6cf4394c093535d95c9ae",
       "recovery": true,
       "stage": "correct",
       "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
@@ -31,8 +31,8 @@
   },
   "automatic_settlement_credits": {},
   "autonomous": true,
-  "budget_usd": 1.066231,
-  "created_at": "2026-10-07T00:47:13+00:00",
+  "budget_usd": 1.063296,
+  "created_at": "2026-10-07T00:47:34+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -42,18 +42,20 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef",
+    "id": "auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7",
     "language_settings": {
-      "rus": {
-        "aliases": [],
+      "nld": {
+        "aliases": [
+          "dut"
+        ],
         "dir": "ltr",
-        "english_label": "Английский оригинал",
-        "guidance": "Use standard contemporary Russian.",
-        "name": "Russian",
-        "native_name": "Русский",
-        "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
-        "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
-        "tag": "ru"
+        "english_label": "Engels origineel",
+        "guidance": "Use standard contemporary Dutch.",
+        "name": "Dutch",
+        "native_name": "Nederlands",
+        "notice": "Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: {model}) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel.",
+        "reviewed_notice": "Dit artikel is door een mens nagekeken, hoewel het oorspronkelijk met AI is vertaald. Het Engelse origineel blijft de gezaghebbende versie.",
+        "tag": "nl"
       }
     },
     "max_output_tokens": 32768,
@@ -425,50 +427,43 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef",
+  "id": "auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7",
   "initial_task": {
     "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-    "automatic_previous_task": "a192fee7beb1dccfc3a6997e3ac9977a",
+    "automatic_previous_task": "076b44acaaa937f9781f8f3efa76004e",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef",
-    "created_at": "2026-10-07T00:47:13+00:00",
+    "campaign": "auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7",
+    "created_at": "2026-10-07T00:47:34+00:00",
     "events": [],
     "findings": [
       {
-        "location": "HTML, стихотворение, строки 3–6",
+        "location": "HTML, poem, lines 3–6",
         "severity": "major",
         "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life, If the presence of God, shines as the sun, The singing so sweet, includes everyone.",
-        "suggested_fix": "Там, наверху, есть место, где нет ни труда, ни раздоров. Однако церковь может забыть об этой жизни, где присутствие Бога сияет, как солнце, а сладостное пение доступно каждому.",
-        "translation_quote": "Там, наверху, нет ни труда, ни раздоров. И всё же церковь может забыть о той жизни, Где присутствие Бога сияет, как солнце, А сладостное пение объединяет всех."
+        "suggested_fix": "Preserve the contrast and conditional meaning in Dutch, for example: “Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten: als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.”",
+        "translation_quote": "Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten, Als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen."
       },
       {
-        "location": "HTML, стихотворение, строка 8",
-        "severity": "minor",
-        "source_quote": "Why so much focus on a life that won’t last?",
-        "suggested_fix": "Почему так много внимания уделяется жизни, которая не продлится вечно?",
-        "translation_quote": "Почему так много внимания жизни, что не продлится?"
-      },
-      {
-        "location": "HTML, стихотворение, строки 15–18",
+        "location": "HTML, poem, line 9",
         "severity": "major",
-        "source_quote": "Would we lose our life, for the good Lord’s sake? Then eternity we’d gain, and heaven partake. Or love our life, which the Bible is clear We’d lose our chance, at heaven so dear.",
-        "suggested_fix": "Отдали бы мы свою жизнь ради благого Господа? Тогда обрели бы вечность и стали причастны небесам. Или полюбили бы свою жизнь — а Библия ясно говорит: мы потеряли бы шанс попасть в столь дорогие нам небеса.",
-        "translation_quote": "Отдали бы мы свою жизнь ради благого Господа? Тогда мы обрели бы вечность и разделили участь небес. Или полюбить свою жизнь — а Библия ясно говорит: Мы потеряли бы шанс попасть в столь дорогие нам небеса."
+        "source_quote": "We build our mansions here on this earth,",
+        "suggested_fix": "Translate “mansions” as “herenhuizen” or another suitable Dutch equivalent for large houses, rather than “herenhuizen” only if the intended sense is preserved; avoid implying more than the source states.",
+        "translation_quote": "We bouwen hier op aarde onze herenhuizen,"
       },
       {
-        "location": "HTML, стихотворение, строка 25",
-        "severity": "minor",
-        "source_quote": "Our life’s but a vapor, the Good Book conveys.",
-        "suggested_fix": "Наша жизнь — лишь пар, как говорит Священная книга.",
-        "translation_quote": "Наша жизнь — лишь пар, как говорит Священное Писание."
+        "location": "HTML, poem, lines 23–24",
+        "severity": "major",
+        "source_quote": "When the next life is heaven, eternity with Him, Then death is the beginning, so why is it grim?",
+        "suggested_fix": "Use Dutch phrasing that retains the question about why death is grim, such as: “Als het volgende leven de hemel is, de eeuwigheid bij Hem, dan is de dood het begin—waarom is dat dan zo somber?”",
+        "translation_quote": "Als het volgende leven de hemel is, de eeuwigheid bij Hem, Dan is de dood het begin; waarom is hij dan zo somber?"
       }
     ],
-    "id": "ac560aa322a0a581069b5f3db804d8aa",
+    "id": "e6a7f3170953ecc9f240dbc164c0423f",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "rus",
+    "language": "nld",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -557,8 +552,8 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/1b0157dbf64e38f5c1ab6b242cdf32d0ac6531fb30ce982251ba1990edf05cd4.json",
-    "scripture_evidence_sha256": "1b0157dbf64e38f5c1ab6b242cdf32d0ac6531fb30ce982251ba1990edf05cd4",
+    "scripture_evidence_path": "state/scripture/7862bd9c2cd43a7b99eba4f895af57efd90e411484f321b15a131ec76374c638.json",
+    "scripture_evidence_sha256": "7862bd9c2cd43a7b99eba4f895af57efd90e411484f321b15a131ec76374c638",
     "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
     "stage": "correct",
     "stage_budget": {
@@ -566,10 +561,10 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.195928,
-        "review2": 0.870303
+        "correct": 0.193253,
+        "review2": 0.870043
       },
-      "total_reserved_usd": 1.066231,
+      "total_reserved_usd": 1.063296,
       "version": 1
     },
     "status": "queued",
@@ -581,20 +576,22 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "rus": {
-      "aliases": [],
+    "nld": {
+      "aliases": [
+        "dut"
+      ],
       "dir": "ltr",
-      "english_label": "Английский оригинал",
-      "guidance": "Use standard contemporary Russian.",
-      "name": "Russian",
-      "native_name": "Русский",
-      "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
-      "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
-      "tag": "ru"
+      "english_label": "Engels origineel",
+      "guidance": "Use standard contemporary Dutch.",
+      "name": "Dutch",
+      "native_name": "Nederlands",
+      "notice": "Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: {model}) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel.",
+      "reviewed_notice": "Dit artikel is door een mens nagekeken, hoewel het oorspronkelijk met AI is vertaald. Het Engelse origineel blijft de gezaghebbende versie.",
+      "tag": "nl"
     }
   },
   "languages": [
-    "rus"
+    "nld"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -690,7 +687,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "b0ad3f5e33be2bd915965ae9b09860a02e615a6c5e1b71f83f07d5c804651e9c",
+  "request_sha256": "cf0937e1288ae7db20c9991fecbd942e6acf99c51b731a34c755102578731f7e",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -970,11 +967,11 @@
   "selection": [
     {
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-      "candidate_sha256": "424e032a7d1331773a6db59ece2606dd0757126b05b02499e8ccb42c858b95a3",
+      "candidate_sha256": "6498fbffa2af408e6a3955964eba24d23bb90970bd5e71d093838cec996d6b33",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "rus",
-      "previous_task_id": "a192fee7beb1dccfc3a6997e3ac9977a",
-      "previous_task_sha256": "6f8e436b6d83e8168480c5ce635c3387679f67599a5605f4ab083b8b98444383",
+      "language": "nld",
+      "previous_task_id": "076b44acaaa937f9781f8f3efa76004e",
+      "previous_task_sha256": "79f387c2b1db5e38d4f32206b13da84ae0e99e06c8c6cf4394c093535d95c9ae",
       "recovery": true,
       "stage": "correct",
       "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
@@ -987,15 +984,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.195928,
-      "review2": 0.870303
+      "correct": 0.193253,
+      "review2": 0.870043
     },
-    "total_reserved_usd": 1.066231,
+    "total_reserved_usd": 1.063296,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "ac560aa322a0a581069b5f3db804d8aa"
-  ]
+  "tasks": []
 }
