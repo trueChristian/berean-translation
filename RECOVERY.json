@@ -2,26 +2,26 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 8.274424,
+  "committed_usd": 9.433153,
   "counts": {
-    "active": 1,
+    "active": 2,
     "already_translated": 108,
     "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
     "eligible_automatic": 1313,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "missing_edition": 1,
-    "pending_automatic_admission": 31,
+    "missing_edition": 2,
+    "pending_automatic_admission": 26,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
-    "source_association_limit": 1,
-    "source_quote_annotation": 6,
+    "source_association_limit": 2,
+    "source_quote_annotation": 7,
     "technical_failure_requires_attention": 63,
-    "unresolved_quote_reference": 16
+    "unresolved_quote_reference": 17
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 11.431723,
+  "gross_allocated_usd": 12.590452,
   "items": [
     {
       "accepted_cycles": 0,
@@ -853,12 +853,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "ara",
-      "latest_task": "a1177783688fa4439f62297365d32cac",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "27b76b8b214ccf60e017c3796405cb8f",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -3400,10 +3400,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "deu",
       "latest_task": "453b597e9ca953ca45d89900638d4d5c",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_association_limit",
       "request_id": "auto-63597743a7bc88d65e7b63cdefd1b1151ee2275344a72307dc5424bc3c575111"
     },
     {
@@ -5072,9 +5073,8 @@
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "heb",
       "latest_task": "d5de24d8125a363c82156f5fe01a1e63",
-      "processing_status": "pending",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5718,10 +5718,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "heb",
       "latest_task": "99935516cf59d50e16e48f53aa4646aa",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "unresolved_quote_reference",
       "request_id": "auto-65addc392e87b59f843a51cdea088dae5a7160204b2d411163466efb82d43590"
     },
     {
@@ -7253,10 +7254,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "ita",
       "latest_task": "79600caee64e19d7a748a881082d4f94",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968"
     },
     {
@@ -12429,10 +12431,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
       "language": "urd",
       "latest_task": "ceef4ac135048c0957e67597a392993e",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "missing_edition",
       "request_id": "auto-494b3abd96ec2ac3ce7ef5697c66c663c4bc30679a66408493ced7597192d832"
     },
     {

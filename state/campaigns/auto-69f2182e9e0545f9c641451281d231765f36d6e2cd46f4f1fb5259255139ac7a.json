@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 7.097022,
-  "automatic_allocation_index": 5,
-  "automatic_allocation_usd": 1.177402,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 8.274424,
+  "automatic_allocation_index": 6,
+  "automatic_allocation_usd": 1.158729,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "e0a9cbade8067a10ef46ed24b4da91fd057886b497e306d19faa2aa6eaa273f6",
+  "automatic_frozen_sha256": "a393972012d312b4d0c2aee240e066ff2dfa262f76ae4adeda1f7d4489ed5fba",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
+    "id": "auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "candidate_sha256": "bb66947ea557905cd06fd281583b140866b4047880cc0a95bc22d2bd19b52527",
+      "candidate_sha256": "35d78112bb95dc4e049cd3d1065e84abf841201b60f59e0734b5b63f44b4f356",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "ara",
-      "previous_task_id": "a1177783688fa4439f62297365d32cac",
-      "previous_task_sha256": "910d0eddf3f19a2fe4fb7817c2325512d3e0d30276273f274da58a1b7dea9fb0",
+      "language": "heb",
+      "previous_task_id": "d5de24d8125a363c82156f5fe01a1e63",
+      "previous_task_sha256": "10e3913e9322683540593c5d11431cfa684e1b17acbb9ee6ea7831b2d7254996",
       "recovery": true,
       "stage": "correct",
       "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
@@ -35,8 +35,8 @@
     "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb": "ae4cbe74d1ab467cdfc9a16c767256030fdfda683ef02ec2f77d9084f2a76703"
   },
   "autonomous": true,
-  "budget_usd": 1.177402,
-  "created_at": "2026-10-07T13:52:38+00:00",
+  "budget_usd": 1.158729,
+  "created_at": "2026-10-07T13:53:17+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -46,18 +46,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
+    "id": "auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a",
     "language_settings": {
-      "ara": {
+      "heb": {
         "aliases": [],
         "dir": "rtl",
-        "english_label": "الأصل الإنجليزي",
-        "guidance": "Use Modern Standard Arabic, not a regional dialect.",
-        "name": "Arabic",
-        "native_name": "العربية",
-        "notice": "تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: {model})، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي.",
-        "reviewed_notice": "راجع شخص هذه المقالة، مع أنها تُرجمت في الأصل باستخدام الذكاء الاصطناعي. يظل النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة.",
-        "tag": "ar"
+        "english_label": "המקור באנגלית",
+        "guidance": "Use contemporary Modern Hebrew, not reconstructed biblical Hebrew.",
+        "name": "Hebrew",
+        "native_name": "עברית",
+        "notice": "מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: {model}) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית.",
+        "reviewed_notice": "מאמר זה נבדק בידי אדם, אף שתורגם במקור בעזרת בינה מלאכותית. המקור באנגלית נותר הנוסח המוסמך.",
+        "tag": "he"
       }
     },
     "max_output_tokens": 32768,
@@ -429,29 +429,36 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
+  "id": "auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a",
   "initial_task": {
     "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-    "automatic_previous_task": "a1177783688fa4439f62297365d32cac",
+    "automatic_previous_task": "d5de24d8125a363c82156f5fe01a1e63",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
-    "created_at": "2026-10-07T13:52:38+00:00",
+    "campaign": "auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a",
+    "created_at": "2026-10-07T13:53:17+00:00",
     "events": [],
     "findings": [
       {
-        "location": "source.html, paragraph beginning “That evening at the supper table”",
+        "location": "Paragraph 3",
         "severity": "major",
-        "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us. But this way, they did not even know we were coming to visit.”",
-        "suggested_fix": "غيّر ضمائر المفرد إلى الجمع للحفاظ على أن أهل الأخ أوسكار هم من كانوا سيستعدون ولم يكونوا يعلمون بالزيارة: «فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا. لكن بهذه الطريقة، لم يكونوا يعلمون حتى أننا قادمون للزيارة.»",
-        "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا. لكن بهذه الطريقة، لم يكن حتى يعلم أننا قادمون لزيارته.»"
+        "source_quote": "“Why don’t we plan to visit the congregation at Bethel Fellowship next Sunday then?”",
+        "suggested_fix": "Replace the transliteration with a Hebrew rendering that preserves the organization’s name, for example: ״אז למה שלא נתכנן לבקר בקהילה של בית־אל פֶּלוֹשִׁיפּ (Bethel Fellowship) ביום ראשון הבא?״",
+        "translation_quote": "״אז למה שלא נתכנן לבקר בקהילה של בית־אל פֶּלוֹשִׁיפּ ביום ראשון הבא?״"
+      },
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
+        "suggested_fix": "Use a conventional Hebrew transliteration of Peight, such as פייט, rather than פייט as currently written only if the source name is intended as pronounced /peɪt/? The current text already has פייט; no change needed.",
+        "translation_quote": "״אתכנן לשלוח מכתב לאח אוסקר פייט כדי להודיע להם שאנחנו באים.״"
       }
     ],
-    "id": "27b76b8b214ccf60e017c3796405cb8f",
+    "id": "1ebf4bd6a8c4439377ef1163b50be6b6",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "ara",
+    "language": "heb",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -540,8 +547,8 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279.json",
-    "scripture_evidence_sha256": "bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279",
+    "scripture_evidence_path": "state/scripture/26fd727ac971c7f518b138283953d50306d7625b2f67f55d19fe93077ddc7896.json",
+    "scripture_evidence_sha256": "26fd727ac971c7f518b138283953d50306d7625b2f67f55d19fe93077ddc7896",
     "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
     "stage": "correct",
     "stage_budget": {
@@ -549,10 +556,10 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.233204,
-        "review2": 0.944198
+        "correct": 0.226744,
+        "review2": 0.931985
       },
-      "total_reserved_usd": 1.177402,
+      "total_reserved_usd": 1.158729,
       "version": 1
     },
     "status": "queued",
@@ -564,20 +571,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "ara": {
+    "heb": {
       "aliases": [],
       "dir": "rtl",
-      "english_label": "الأصل الإنجليزي",
-      "guidance": "Use Modern Standard Arabic, not a regional dialect.",
-      "name": "Arabic",
-      "native_name": "العربية",
-      "notice": "تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: {model})، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي.",
-      "reviewed_notice": "راجع شخص هذه المقالة، مع أنها تُرجمت في الأصل باستخدام الذكاء الاصطناعي. يظل النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة.",
-      "tag": "ar"
+      "english_label": "המקור באנגלית",
+      "guidance": "Use contemporary Modern Hebrew, not reconstructed biblical Hebrew.",
+      "name": "Hebrew",
+      "native_name": "עברית",
+      "notice": "מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: {model}) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית.",
+      "reviewed_notice": "מאמר זה נבדק בידי אדם, אף שתורגם במקור בעזרת בינה מלאכותית. המקור באנגלית נותר הנוסח המוסמך.",
+      "tag": "he"
     }
   },
   "languages": [
-    "ara"
+    "heb"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -673,7 +680,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "84dd80dd548f3780d2dfc0a204ee7ab154f615df04828ff33f9c1730e2dc321b",
+  "request_sha256": "c9b40a74b52cfdf28d3d8efadb2105d037b2b27319c43dc5edb9f681fd3a8dd6",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -953,11 +960,11 @@
   "selection": [
     {
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "candidate_sha256": "bb66947ea557905cd06fd281583b140866b4047880cc0a95bc22d2bd19b52527",
+      "candidate_sha256": "35d78112bb95dc4e049cd3d1065e84abf841201b60f59e0734b5b63f44b4f356",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "ara",
-      "previous_task_id": "a1177783688fa4439f62297365d32cac",
-      "previous_task_sha256": "910d0eddf3f19a2fe4fb7817c2325512d3e0d30276273f274da58a1b7dea9fb0",
+      "language": "heb",
+      "previous_task_id": "d5de24d8125a363c82156f5fe01a1e63",
+      "previous_task_sha256": "10e3913e9322683540593c5d11431cfa684e1b17acbb9ee6ea7831b2d7254996",
       "recovery": true,
       "stage": "correct",
       "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
@@ -970,15 +977,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.233204,
-      "review2": 0.944198
+      "correct": 0.226744,
+      "review2": 0.931985
     },
-    "total_reserved_usd": 1.177402,
+    "total_reserved_usd": 1.158729,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "27b76b8b214ccf60e017c3796405cb8f"
-  ]
+  "tasks": []
 }
