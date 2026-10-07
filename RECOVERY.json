@@ -2,7 +2,7 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 11.749305,
+  "committed_usd": 10.698132,
   "counts": {
     "active": 4,
     "already_translated": 108,
@@ -12791,7 +12791,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 3.157299,
+  "settled_unused_usd": 4.208472,
   "source_revision": "3e9673f0a56af778fba0d4bd1c4d41a681430234",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }
