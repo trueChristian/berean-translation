@@ -999,7 +999,7 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "queued": 1
+    "in_batch": 1
   },
   "tasks": [
     "ac560aa322a0a581069b5f3db804d8aa"
