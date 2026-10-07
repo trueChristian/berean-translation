@@ -18,7 +18,7 @@ Observed English revision: `f454b2d575b6a491982a483cd69708bddb270669`
 | `heartbeat-remnant-2022-winter` | 10 | 84 / 200 | 0 | 116 | 0 |
 | `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 128 | 0 |
 | `heartbeat-remnant-2022-summer` | 9 | 99 / 180 | 0 | 81 | 0 |
-| `heartbeat-remnant-2022-spring` | 9 | 85 / 180 | 1 | 94 | 0 |
+| `heartbeat-remnant-2022-spring` | 9 | 85 / 180 | 2 | 93 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 128 / 220 | 0 | 92 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 132 / 220 | 0 | 88 | 0 |
 | `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 68 | 0 |
@@ -125,7 +125,7 @@ Observed English revision: `f454b2d575b6a491982a483cd69708bddb270669`
 | `urd` (ur) | 97 / 1167 | 0 | 0 | 86 | 127 |
 | `rus` (ru) | 101 / 1167 | 0 | 1 | 82 | 130 |
 | `deu` (de) | 80 / 1167 | 0 | 0 | 102 | 129 |
-| `nld` (nl) | 124 / 1167 | 0 | 0 | 63 | 111 |
+| `nld` (nl) | 124 / 1167 | 0 | 1 | 62 | 110 |
 | `afr` (af) | 121 / 1167 | 3 | 0 | 66 | 98 |
 | `swa` (sw) | 67 / 1167 | 0 | 0 | 118 | 145 |
 | `kor` (ko) | 110 / 1167 | 0 | 0 | 73 | 114 |
@@ -332,7 +332,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2022-spring` | `urd` | 3 / 9 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-spring` | `rus` | 3 / 9 | 0 | 1 | 5 | 0 |
 | `heartbeat-remnant-2022-spring` | `deu` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-spring` | `nld` | 6 / 9 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `nld` | 6 / 9 | 0 | 1 | 2 | 0 |
 | `heartbeat-remnant-2022-spring` | `afr` | 6 / 9 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2022-spring` | `swa` | 6 / 9 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2022-spring` | `kor` | 6 / 9 | 0 | 0 | 3 | 0 |
@@ -485,7 +485,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 ## Automatic archive work
 
 Scheduled collection creates missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
-Automatic committed ceiling: $8.129527 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
+Automatic committed ceiling: $9.192686 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
 New automatic work reserves its complete remaining stage chain, up to $10 per envelope. Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. Usage is provider-reported and priced at frozen rates, not invoice reconciliation.
 Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.
 [Recovery frontier](RECOVERY.json) records current holds and funding.
@@ -497,7 +497,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 1 | already_translated: 108 | ambiguous_quote_reference: 17 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1353 | legacy_response_outcome_unknown_requires_owner_attention: 12 | pending_automatic_admission: 11 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_quote_annotation: 2 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 5
+active: 2 | already_translated: 108 | ambiguous_quote_reference: 17 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1353 | legacy_response_outcome_unknown_requires_owner_attention: 12 | pending_automatic_admission: 9 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_quote_annotation: 2 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 6
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -520,7 +520,8 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
 | `auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.000000 / 1.07 | [state](state/campaigns/auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef.json) |
-| `auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7` | automatic archive | automatic | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.06 | [state](state/campaigns/auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7.json) |
+| `auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.000000 / 1.06 | [state](state/campaigns/auto-83aa84c8589c5efeb1f4c6df814ae17c4950a32ed7b50aad19a1974d310b5bf7.json) |
+| `auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb` | automatic archive | automatic | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.06 | [state](state/campaigns/auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb.json) |
 | `downstream-2026100311` | hourly recovery | repair | finished | 1 | 1 complete | 0.01892725 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
 | `downstream-2026100316` | hourly recovery | repair | finished | 1 | 1 complete | 0.03712335 | 0.301512 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
 | `downstream-2026100318` | hourly recovery | repair | finished | 1 | 1 complete | 0.04786850 | 0.313693 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
