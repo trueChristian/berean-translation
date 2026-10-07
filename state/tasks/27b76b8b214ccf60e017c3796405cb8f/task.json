@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83e1c4df226c4cb58fc3561d07ee05c6",
   "campaign": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
   "created_at": "2026-10-07T13:52:38+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 1762,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13098,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14863
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "source.html, paragraph beginning “That evening at the supper table”",
@@ -112,7 +133,7 @@
   "scripture_evidence_path": "state/scripture/bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279.json",
   "scripture_evidence_sha256": "bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -124,8 +145,8 @@
     "total_reserved_usd": 1.177402,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
