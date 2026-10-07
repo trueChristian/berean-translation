@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa3a514c19d346bf92f70d5c1e9a77ae",
   "campaign": "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e",
   "created_at": "2026-10-07T00:48:15+00:00",
   "events": [
@@ -28,32 +27,31 @@
         },
         "total_tokens": 4635
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3460,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3457,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3521
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, lines 13–14",
-      "severity": "major",
-      "source_quote": "Treasures are worthy, of that we agree. But lay them in heaven where forever they’ll be.",
-      "suggested_fix": "Ganti dua baris ini dengan: “Harta itu berharga, kita semua sepakat. / Namun, simpanlah harta itu di surga, tempatnya kekal.”",
-      "translation_quote": "Harta adalah sesuatu yang layak diperjuangkan, kita sepakat. Namun, simpanlah di surga, tempatnya untuk selamanya."
-    },
-    {
-      "location": "Poem, line 16",
-      "severity": "major",
-      "source_quote": "Then eternity we’d gain, and heaven partake.",
-      "suggested_fix": "Ganti dengan: “Maka kita akan memperoleh kekekalan dan mengambil bagian di surga.”",
-      "translation_quote": "Maka kita akan memperoleh hidup kekal dan mendapat bagian di surga."
-    },
-    {
-      "location": "Poem, lines 17–18",
-      "severity": "major",
-      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
-      "suggested_fix": "Ganti dua baris ini dengan: “Atau mencintai hidup kita—Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk memperoleh surga yang begitu berharga.”",
-      "translation_quote": "Ataukah kita mencintai hidup kita, padahal Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk meraih surga yang begitu berharga."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-07T23:47:53+00:00",
   "id": "438f839cf2fe7e01951c8224d3fff635",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -142,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/9ca620d2d404cc26ffee9f2239f78015552a8a08a0a3fe5546f74dc12d6801ce.json",
   "scripture_evidence_sha256": "9ca620d2d404cc26ffee9f2239f78015552a8a08a0a3fe5546f74dc12d6801ce",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
@@ -160,7 +160,7 @@
     "total_reserved_usd": 1.061635,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6.1-sol"

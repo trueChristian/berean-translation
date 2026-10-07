@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "6e64bafd94827de5bc16770f4f2978a5",
       "task": "438f839cf2fe7e01951c8224d3fff635"
+    },
+    {
+      "at": "2026-10-07T23:47:53+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "438f839cf2fe7e01951c8224d3fff635"
     }
   ],
   "language": "ind",
   "latest_task": "438f839cf2fe7e01951c8224d3fff635",
-  "published": null
+  "published": {
+    "html_path": "content/ind/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
+    "html_sha256": "88a08045f7b3f880bf09ff567e8ba0d88082cb4de88dfbf6132a5412de056c7d",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "metadata_path": "content/ind/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.json",
+    "metadata_sha256": "feb828a56036f82022156cf6e8b1733ff23b80b98a6751be054b2a29c18c0ccb",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-6.1-sol) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9/\" data-source-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
+    "published_at": "2026-10-07T23:47:53+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+    "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
+    "task": "438f839cf2fe7e01951c8224d3fff635",
+    "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
+  }
 }
