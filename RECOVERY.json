@@ -4,18 +4,18 @@
   "automatic_policy_version": 3,
   "committed_usd": 11.749305,
   "counts": {
-    "active": 4,
+    "active": 5,
     "already_translated": 108,
     "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
-    "eligible_automatic": 1313,
+    "eligible_automatic": 1312,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "missing_edition": 5,
-    "pending_automatic_admission": 18,
+    "missing_edition": 6,
+    "pending_automatic_admission": 15,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
     "source_association_limit": 3,
-    "source_quote_annotation": 8,
+    "source_quote_annotation": 10,
     "technical_failure_requires_attention": 63,
     "unresolved_quote_reference": 18
   },
@@ -7800,10 +7800,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "kor",
       "latest_task": "e06f09277ec0f593b55aa49b6e9ff87e",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f"
     },
     {
@@ -8790,12 +8791,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "nob",
-      "latest_task": "b30b135bfba7f47b00a2339be91abf6a",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "9db500695d5cff94f2eba61a919b4dbf",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8888,10 +8889,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "nob",
       "latest_task": "b65d118a032926f736390d990352893c",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_quote_annotation",
       "request_id": "auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c"
     },
     {
@@ -12290,10 +12292,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
+      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
       "language": "urd",
       "latest_task": "93c5521909062217a19dd8f97a2e72ea",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "missing_edition",
       "request_id": "auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08"
     },
     {
