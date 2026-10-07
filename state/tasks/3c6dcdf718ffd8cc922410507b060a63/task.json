@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ba6091a0ea7d47bab87f7891a106b567",
   "campaign": "auto-b51a885064b798a7b52b952f8e82d642d95d28f5614f481ee9256af2597b68eb",
   "created_at": "2026-10-07T00:47:55+00:00",
   "events": [
@@ -28,32 +27,31 @@
         },
         "total_tokens": 4752
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 83,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 51,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3564,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3561,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3647
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poème, lignes 3–4",
-      "severity": "major",
-      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life,",
-      "suggested_fix": "Remplacer par : « Là-haut, il y a un lieu sans labeur ni conflits. / Pourtant, l’Église peut oublier cette vie, » afin de conserver l’idée de l’existence d’un lieu sans peine ni conflit, et le contraste avec l’Église qui peut oublier cette vie.",
-      "translation_quote": "Là-haut, il y a un lieu sans labeur ni conflits. Pourtant, l’Église peut oublier cette vie,"
-    },
-    {
-      "location": "Poème, ligne 5",
-      "severity": "major",
-      "source_quote": "If the presence of God, shines as the sun,",
-      "suggested_fix": "Remplacer « Si » par « Puisque » : « Puisque la présence de Dieu brille comme le soleil, »",
-      "translation_quote": "Si la présence de Dieu brille comme le soleil,"
-    },
-    {
-      "location": "Poème, lignes 19–20",
-      "severity": "major",
-      "source_quote": "If heaven is real, we must be confused / For it seems it’s this life, that has us amused.",
-      "suggested_fix": "Rendre explicitement le lien d’inférence et l’idée que cette vie nous amuse, par exemple : « Si le ciel est réel, nous devons être dans la confusion, / Car il semble que c’est cette vie qui nous divertit. »",
-      "translation_quote": "Si le ciel est réel, nous devons être dans la confusion, / Car il semble que cette vie nous amuse."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-07T13:50:33+00:00",
   "id": "3c6dcdf718ffd8cc922410507b060a63",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -142,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/b5211389ba95e3facb9c25d1016fabca42157d2c3e75f874a8dc495bacd6e961.json",
   "scripture_evidence_sha256": "b5211389ba95e3facb9c25d1016fabca42157d2c3e75f874a8dc495bacd6e961",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
@@ -160,7 +160,7 @@
     "total_reserved_usd": 1.063159,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6.1-sol"

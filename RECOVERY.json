@@ -4,7 +4,7 @@
   "automatic_policy_version": 3,
   "committed_usd": 10.254321,
   "counts": {
-    "active": 2,
+    "active": 1,
     "already_translated": 108,
     "ambiguous_quote_reference": 17,
     "continuation_progress_uncertain_requires_attention": 8,
@@ -4535,14 +4535,6 @@
       "latest_task": "cf0a0b028d63abacd17efc5eaedfee81",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
-      "language": "fra",
-      "latest_task": "3c6dcdf718ffd8cc922410507b060a63",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
