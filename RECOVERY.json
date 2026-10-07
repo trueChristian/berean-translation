@@ -8371,7 +8371,7 @@
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
       "language": "nld",
       "latest_task": "e6a7f3170953ecc9f240dbc164c0423f",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
