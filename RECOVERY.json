@@ -6780,7 +6780,7 @@
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
       "language": "ind",
       "latest_task": "438f839cf2fe7e01951c8224d3fff635",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
