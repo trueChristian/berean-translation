@@ -9887,7 +9887,7 @@
       "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
       "language": "rus",
       "latest_task": "ac560aa322a0a581069b5f3db804d8aa",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
