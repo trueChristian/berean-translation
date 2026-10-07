@@ -984,6 +984,9 @@
   },
   "status": "active",
   "structural_feedback_version": "1",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "9db500695d5cff94f2eba61a919b4dbf"
   ]
