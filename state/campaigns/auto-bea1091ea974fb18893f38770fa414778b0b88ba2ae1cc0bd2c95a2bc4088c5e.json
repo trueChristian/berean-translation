@@ -988,6 +988,9 @@
   },
   "status": "active",
   "structural_feedback_version": "1",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "438f839cf2fe7e01951c8224d3fff635"
   ]
