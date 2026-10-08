@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27ade53417a3476c8462e8cf7e361772",
   "campaign": "auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73",
   "created_at": "2026-10-07T13:52:38+00:00",
   "events": [
@@ -28,18 +27,40 @@
         },
         "total_tokens": 14863
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 113,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12813,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12810,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13121
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “That evening at the supper table”",
+      "location": "source.html and translation.html: final paragraph before figure; scripture_evidence.quotes",
       "severity": "major",
-      "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us. But this way, they did not even know we were coming to visit.”",
-      "suggested_fix": "غيّر ضمائر المفرد إلى الجمع للحفاظ على أن أهل الأخ أوسكار هم من كانوا سيستعدون ولم يكونوا يعلمون بالزيارة: «فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا. لكن بهذه الطريقة، لم يكونوا يعلمون حتى أننا قادمون للزيارة.»",
-      "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا. لكن بهذه الطريقة، لم يكن حتى يعلم أننا قادمون لزيارته.»"
+      "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+      "suggested_fix": "Obtain approved Scripture evidence for this partial quotation of Romans 8:28, then replace only the quoted words with the exact semantically corresponding target substring and add its scripture_selections entry. Preserve the paragraph, Myrtle’s attribution, and the absence of a printed reference; do not expand the quotation.",
+      "translation_quote": "أجابت ميرتل: «إن كل الأشياء تعمل معًا للخير للذين يحبون الله.»"
     }
   ],
+  "finished_at": "2026-10-08T03:02:06+00:00",
   "id": "27b76b8b214ccf60e017c3796405cb8f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -128,9 +149,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279.json",
   "scripture_evidence_sha256": "bd64879c9647620edb424aaa8bb0702a224073cefef0e371e3bec12835631279",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
@@ -146,7 +169,7 @@
     "total_reserved_usd": 1.177402,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6.1-sol"

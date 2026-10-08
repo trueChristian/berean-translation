@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6ef7eb9a-b803-455e-a729-5e6634953a13",
+    "response_id": "chatcmpl-EWVkgnSCupqmV1i5ipFPuC4qGRZKa",
+    "usage": {
+      "completion_tokens": 308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12810,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13121
+    }
+  },
+  "received_at": "2026-10-08T03:02:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html: final paragraph before figure; scripture_evidence.quotes",
+        "severity": "major",
+        "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+        "suggested_fix": "Obtain approved Scripture evidence for this partial quotation of Romans 8:28, then replace only the quoted words with the exact semantically corresponding target substring and add its scripture_selections entry. Preserve the paragraph, Myrtle’s attribution, and the absence of a printed reference; do not expand the quotation.",
+        "translation_quote": "أجابت ميرتل: «إن كل الأشياء تعمل معًا للخير للذين يحبون الله.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
