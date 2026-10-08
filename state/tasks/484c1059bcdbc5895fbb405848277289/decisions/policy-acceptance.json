@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-08T12:27:18+00:00",
+  "batch_input_sha256": "738339f355915ffae08d660828ea457c5bceebf7393735d831cedd241f11f0cd",
+  "candidate_sha256": "42bc50042b2fc5cdc64610aa9a775de520fa1795e92ec3b8ae0392264095056b",
+  "current_english_revision": "96b577111cda10260297ec6ea87bce275d10efab",
+  "event": "policy_accepted",
+  "previous_status": "not_ready",
+  "previous_task_sha256": "2cb8ef77c70165da5582a6fde1f9a6dbf9162c59ddaaf717dde6433a3fc04525",
+  "prompt_version": "2.0.0",
+  "quality_threshold": 95,
+  "reason": "Previously paid review passes the current ordinary quality policy; retired holds removed.",
+  "request_line_sha256": "4084678861dbae5c037d0249a05f2f711455d5a60bae9b0cab64b1d216261a0c",
+  "review_batch": "b6a5707c36f94a0085861885061cffb7",
+  "review_path": "state/tasks/484c1059bcdbc5895fbb405848277289/results/review2.json",
+  "review_sha256": "59e04cf9015d4c6ca4ef143a34d1befe56cf70e757e85ec5453a4a84fb67ce33",
+  "score": 99,
+  "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json"
+}

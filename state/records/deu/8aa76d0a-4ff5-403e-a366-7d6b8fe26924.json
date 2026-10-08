@@ -12,9 +12,34 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[20]; missing: none; extra: !invalid[deu] 1 Samuel 8, ",
       "task": "71313d71ac5c36c8aa20c95647caa675"
+    },
+    {
+      "at": "2026-10-08T12:27:18+00:00",
+      "event": "policy_accepted",
+      "review_path": "state/tasks/71313d71ac5c36c8aa20c95647caa675/results/review2.json",
+      "review_sha256": "d4548858395c21baadc73e241bff74efde2e87ecfc2d379693478f2e84f014b4",
+      "score": 98,
+      "task": "71313d71ac5c36c8aa20c95647caa675"
     }
   ],
   "language": "deu",
   "latest_task": "71313d71ac5c36c8aa20c95647caa675",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+    "html_sha256": "3f82d05df1339a06f5c5d0b042916c12e5e93f3af0ba3989555df0ad38424618",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+    "metadata_path": "content/deu/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+    "metadata_sha256": "9b526c03bc0aef01186ffda1f62ecf9eb56735a2eca66f6ae302bbaab6c8da6a",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-6-luna) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924/\" data-source-article-id=\"8aa76d0a-4ff5-403e-a366-7d6b8fe26924\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-10-08T12:27:18+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+    "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
+    "task": "71313d71ac5c36c8aa20c95647caa675",
+    "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53"
+  }
 }

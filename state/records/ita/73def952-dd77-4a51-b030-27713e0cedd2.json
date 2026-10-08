@@ -12,9 +12,34 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "51be3a29a517c3329933c93fe5dad3f5"
+    },
+    {
+      "at": "2026-10-08T12:27:18+00:00",
+      "event": "policy_accepted",
+      "review_path": "state/tasks/51be3a29a517c3329933c93fe5dad3f5/results/review2.json",
+      "review_sha256": "f1db7c5d56f174b649e20519dc822482693f478cae63799073a42bbfb6a61901",
+      "score": 95,
+      "task": "51be3a29a517c3329933c93fe5dad3f5"
     }
   ],
   "language": "ita",
   "latest_task": "51be3a29a517c3329933c93fe5dad3f5",
-  "published": null
+  "published": {
+    "html_path": "content/ita/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+    "html_sha256": "f2a8105e5e84126d19fca17d73a2528cb88777d6d40ed1558c00254dbeb3de84",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "metadata_path": "content/ita/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+    "metadata_sha256": "0971e52acc5b95aa9145a0e689d61e590180783666acc8b8937f7dcdcc2e7e0a",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"it\" dir=\"ltr\" role=\"note\">\n  <p>Questo articolo è stato tradotto con l’intelligenza artificiale di OpenAI (modello: gpt-6-luna) e non è ancora stato revisionato da una persona. L’originale inglese è la versione autorevole. In caso di dubbi sul significato, consultare l’originale inglese. <a href=\"/en/articles/73def952-dd77-4a51-b030-27713e0cedd2/\" data-source-article-id=\"73def952-dd77-4a51-b030-27713e0cedd2\" hreflang=\"en\">Originale inglese</a></p>\n</aside>",
+    "published_at": "2026-10-08T12:27:18+00:00",
+    "quality_score": 95,
+    "review_model": "gpt-6-luna",
+    "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+    "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
+    "task": "51be3a29a517c3329933c93fe5dad3f5",
+    "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13"
+  }
 }

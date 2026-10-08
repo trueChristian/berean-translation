@@ -80,6 +80,24 @@
         },
         "total_tokens": 2727
       }
+    },
+    {
+      "at": "2026-10-08T12:27:18+00:00",
+      "batch_input_sha256": "2956eaff6e55185499329c9bc2095f582f0fea71859575c2b9c3c365c9fa0155",
+      "candidate_sha256": "dfb1c06d41a4d039f6ed878a3cf506930ca598e749608eddbbd8a3fae8606261",
+      "current_english_revision": "96b577111cda10260297ec6ea87bce275d10efab",
+      "event": "policy_accepted",
+      "previous_status": "not_ready",
+      "previous_task_sha256": "e75ba3647bbcd6619f8ac1919f22ab3dab2541fc71b1e6b4e667d6baba481d68",
+      "prompt_version": "2.0.0",
+      "quality_threshold": 95,
+      "reason": "Previously paid review passes the current ordinary quality policy; retired holds removed.",
+      "request_line_sha256": "2b150e2f84feecc0f65023fd2136e56867fc8c336c5916d80642028e74c7755f",
+      "review_batch": "0cabf89a6edc49198f585243c2192e61",
+      "review_path": "state/tasks/e25fa1a1b2d4a08e1dc93661f6f8ccb9/results/review2.json",
+      "review_sha256": "7d929dd7a0d854785b61c5dd9162635e78b6619c76b82164793fbfab8cbbaeef",
+      "score": 98,
+      "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json"
     }
   ],
   "failure": "Final review failed; no further automatic correction is allowed",
@@ -149,7 +167,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "not_ready",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
