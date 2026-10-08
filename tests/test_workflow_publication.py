@@ -39,7 +39,10 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertEqual(self.document['on']['workflow_run'], {
             'workflows': ['AI — Translate articles', 'AI — Improve translations',
                           'AI — Discover English changes'], 'types': ['completed']})
-        self.assertEqual(self.document['on']['push'], {'branches': ['main'], 'paths': ['content/**']})
+        self.assertEqual(self.document['on']['push'], {
+            'branches': ['main'],
+            'paths': ['content/**', 'berean_translation/**', 'config/**', 'prompts/**',
+                      '.github/workflows/ai-worker.yml']})
         operation = self.document['on']['workflow_dispatch']['inputs']['operation']
         self.assertEqual(operation['options'], ['collect', 'cancel', 'resolve-absent'])
         self.assertEqual(operation['default'], 'collect')
