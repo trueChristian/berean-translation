@@ -8,6 +8,7 @@ from .common import ContractError, digest, json_hash, now, read_json, read_regul
 from .html import split_article, validate_translation, human_notice
 from .review_notice import validate_human_content, validate_recorded_notice
 from . import publication_edits
+from .plain_policy import is_plain
 
 TERMINAL = {'complete','not_ready','proposal','cancelled','budget_blocked','source_error'}
 
@@ -139,7 +140,8 @@ class State:
                     if pub['human_reviewed']:
                         validate_human_content(candidate, tail, record['article_id'])
                     else:
-                        validate_translation(source, candidate, language=record['language'])
+                        validate_translation(source, candidate, language=record['language'],
+                            scripture_validation=not is_plain(pub))
                     if pub.pop('edit_issue', None) is not None:
                         self.save_record(record)
                     continue
@@ -194,7 +196,8 @@ class State:
             validate_recorded_notice(pub, tail)
             source_snapshot = self.source(pub)
             parsed = (validate_human_content(candidate, tail, record['article_id']) if pub['human_reviewed']
-                      else validate_translation(source_snapshot, candidate, language=record['language']))
+                      else validate_translation(source_snapshot, candidate, language=record['language'],
+                          scripture_validation=not is_plain(pub)))
             current = source['articles'].get(record['article_id'])
             status = 'ready' if current and current['translation_key'] == pub['translation_key'] else 'stale'
             if current is None:
@@ -220,6 +223,124 @@ class State:
                 'observed_source_revision':source['revision'],
                 'articles':sorted(entries,key=lambda x:(x['language'],x['id']))}
 
+    def work_summary(self, config, *, index=None, tasks=None):
+        """Classify every source/language pair once, independently of old attempts.
+
+        Accepted publications stay published while a replacement is queued,
+        running or held. Admission ledgers describe work that has no task yet;
+        include them without authorizing work or rewriting their audit history.
+        """
+        source = self.read('state/source.json', {'articles': {}, 'issues': []})
+        index = self.projection(config) if index is None else index
+        tasks = self.tasks() if tasks is None else tasks
+        by_id = {task['id']: task for task in tasks}
+        records = {(record['language'], record['article_id']): record for record in self.records()}
+        publications = {(item['language'], item['id']): item for item in index['articles']}
+        campaigns = {campaign['id']: campaign for campaign in self.campaigns()}
+        admissions = {}
+        pending_automatic_requests = 0
+
+        def admit(language, article_id, status, reason=None):
+            key = (language, article_id)
+            # An attention hold is visible even when another campaign also
+            # requested the same pair. Active paid work takes precedence below.
+            if key not in admissions or status == 'attention':
+                admissions[key] = {'status': status, 'reason': reason}
+
+        from .manual_admission import attention_superseded, legacy_targets
+        for campaign in campaigns.values():
+            if campaign.get('cancel_requested') or campaign.get('dry_run'):
+                continue
+            ledger = self.read(f'state/manual-admissions/{campaign["id"]}.json')
+            if ledger is None:
+                for item in legacy_targets(campaign):
+                    admit(item['language'], item['article_id'], 'pending', 'manual_admission_pending')
+                continue
+            for entry in ledger.get('entries', {}).values():
+                if entry.get('status') not in ('pending', 'ready', 'attention'):
+                    continue
+                if (entry.get('status') == 'attention' and entry.get('provenance')
+                        and attention_superseded(self, campaign, entry)):
+                    continue
+                item = entry['item']
+                materialized = by_id.get(entry.get('task_id'))
+                if materialized is not None:
+                    continue
+                admit(item['language'], item['article_id'], entry['status'], entry.get('reason'))
+
+        # Explicit never-admitted queue selections have known identities. Broad
+        # requests retain their own non-authorizing campaign/admission reports
+        # until selection is materialized; do not guess their future targets.
+        for path in sorted((self.root / 'state/queue').glob('*.json')):
+            request = read_json(path)
+            if path.stem in campaigns or self.read(f'state/queue-errors/{path.stem}.json'):
+                continue
+            selection = request.get('selection')
+            if not isinstance(selection, dict) or not selection.get('article_id'):
+                continue
+            if request.get('autonomous'):
+                pending_automatic_requests += 1
+            hold = self.read(f'state/automatic-holds/{path.stem}.json', {})
+            reason = hold.get('reason')
+            admit(selection['language'], selection['article_id'],
+                  'attention' if reason and reason != 'prefetch_wait_budget' else 'pending',
+                  reason or 'pending_automatic_admission')
+
+        categories = ('published', 'unstarted', 'queued', 'active', 'held_without_publication')
+        counts = dict.fromkeys(categories, 0)
+        replacement_counts = dict.fromkeys(('queued', 'active', 'held'), 0)
+        pairs = []
+        source_errors = source.get('source_errors', {})
+        for article_id, article in source.get('articles', {}).items():
+            for language in config.languages:
+                key = (language, article_id)
+                record = records.get(key, {})
+                task = by_id.get(record.get('latest_task'))
+                publication = publications.get(key)
+                admission = admissions.get(key)
+                source_error = article.get('source_error') or source_errors.get(article_id)
+                status = task.get('status') if task else None
+                if status == 'in_batch':
+                    work = 'active'
+                elif source_error:
+                    work = 'held_without_publication'
+                elif status == 'queued':
+                    work = 'queued'
+                elif admission and admission['status'] == 'attention':
+                    work = 'held_without_publication'
+                elif admission:
+                    work = 'queued'
+                elif status == 'complete' and publication:
+                    work = 'finished'
+                elif status in TERMINAL:
+                    work = 'held_without_publication'
+                else:
+                    work = 'unstarted'
+                category = 'published' if publication else work
+                counts[category] += 1
+                row = {'language': language, 'article_id': article_id,
+                       'issue_id': article['issue_id'], 'category': category,
+                       'published': bool(publication),
+                       'stale': bool(publication and publication['status'] != 'ready')}
+                if task:
+                    row['latest_task'] = task['id']
+                if admission:
+                    row.update(admission_status=admission['status'],
+                               reason=admission['reason'] or 'manual_admission_' + admission['status'])
+                if source_error:
+                    row.update(source_attention=True, reason='source_error')
+                replacement_pending = bool(admission or (task and status != 'complete'))
+                if publication and replacement_pending and work in ('queued', 'active', 'held_without_publication'):
+                    replacement = 'held' if work == 'held_without_publication' else work
+                    row['replacement_status'] = replacement
+                    replacement_counts[replacement] += 1
+                pairs.append(row)
+        return {'target_pairs': len(pairs), 'counts': counts,
+                'pending_automatic_requests': pending_automatic_requests,
+                'source_stale': sum(row['stale'] for row in pairs),
+                'source_attention': sum(bool(row.get('source_attention')) for row in pairs),
+                'replacement_counts': replacement_counts, 'pairs': pairs}
+
     def derive(self, config):
         index = self.projection(config)
         self.write('index.json',index)
@@ -228,57 +349,72 @@ class State:
         task_by_id = {t['id']:t for t in tasks}
         current_tasks = {(r['language'],r['article_id']):task_by_id[r['latest_task']]
                          for r in self.records() if r.get('latest_task') in task_by_id}
-        entries = {(e['language'],e['id']):e for e in index['articles']}
+        work = self.work_summary(config, index=index, tasks=tasks)
+        issue_pairs, language_pairs, issue_language_pairs = {}, {}, {}
+        for pair in work['pairs']:
+            issue_pairs.setdefault(pair['issue_id'], []).append(pair)
+            language_pairs.setdefault(pair['language'], []).append(pair)
+            issue_language_pairs.setdefault((pair['issue_id'], pair['language']), []).append(pair)
+        report_generation = self.read('state/report-generation.json', {})
+        last_collection = self.read('state/last-collection.json', {})
+        generated_at = report_generation.get('generated_at') or last_collection.get('completed_at') or 'not recorded'
         rows = ['# Translation status','',
                 'Generated from the pinned source catalogue and durable work records. No API call is made by this report.',
-                '', 'Ready means source-compatible and exportable here; live deployment is verified separately.',
+                '', f'Generated: {generated_at}.',
+                'Published means an accepted translation is exportable here; live deployment is verified separately.',
+                'Target categories are disjoint. Accepted publications remain published during replacement work. '
+                'Source-stale versions and replacement outcomes are reported separately.',
+                'Ready means source-compatible and exportable here; live deployment is verified separately.',
                 'Finished means processing has stopped, not that every requested translation passed. Held items still need action.',
                 '',f'Observed English revision: `{source["revision"] or "not yet discovered"}`','',
-                '| Issue selector | Articles | Ready / target | Active | Not ready | Stale |',
-                '| --- | ---: | ---: | ---: | ---: | ---: |']
+                f'Total target: {work["target_pairs"]} article/language pairs. '
+                + ' | '.join(f'{category.replace("_", " ")}: {count}' for category, count in work['counts'].items()) + '.', '']
+        if last_collection:
+            collection = last_collection.get('collection', {})
+            rows += [f'Last collection: {last_collection.get("completed_at", "not recorded")}; '
+                     f'newly published: {last_collection.get("newly_published", 0)}; '
+                     f'stop reason: {collection.get("stop_reason", "not recorded")}; '
+                     f'submitted batches remaining: {collection.get("submitted_batches", "not recorded")}.', '']
+        rows += ['| Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |',
+                 '| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
         for issue in source['issues']:
             ids = [a['id'] for a in source['articles'].values() if a['issue_id'] == issue['id']]
-            counts = {'ready':0,'active':0,'not_ready':0,'stale':0}
-            for language in config.languages:
-                for identity in ids:
-                    entry = entries.get((language,identity))
-                    task = current_tasks.get((language,identity))
-                    if entry:
-                        counts['ready' if entry['status'] == 'ready' else 'stale'] += 1
-                    if task and task['status'] not in TERMINAL:
-                        counts['active'] += 1
-                    elif task and task['status'] in ('not_ready','budget_blocked','source_error'):
-                        counts['not_ready'] += 1
-            rows.append(f'| `{issue["source_id"]}` | {len(ids)} | {counts["ready"]} / {len(ids)*len(config.languages)} | {counts["active"]} | {counts["not_ready"]} | {counts["stale"]} |')
+            pairs = issue_pairs.get(issue['id'], [])
+            counts = {category: sum(pair['category'] == category for pair in pairs) for category in work['counts']}
+            rows.append(f'| `{issue["source_id"]}` | {len(ids)} | {counts["published"]} / {len(pairs)} | '
+                        f'{counts["unstarted"]} | {counts["queued"]} | {counts["active"]} | '
+                        f'{counts["held_without_publication"]} | {sum(pair["stale"] for pair in pairs)} | '
+                        f'{sum(pair.get("replacement_status") == "held" for pair in pairs)} |')
         rows += ['', '## Language readiness', '',
-                 '| Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |',
-                 '| --- | ---: | ---: | ---: | ---: | ---: |']
+                 '| Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |',
+                 '| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
         for language, settings in config.languages.items():
             pubs = [e for e in index['articles'] if e['language'] == language]
             latest = [t for (code,_),t in current_tasks.items() if code == language]
+            pairs = language_pairs.get(language, [])
+            counts = {category: sum(pair['category'] == category for pair in pairs) for category in work['counts']}
             rows.append(f'| `{language}` ({settings["tag"]}) | '
-                        f'{sum(e["status"]=="ready" for e in pubs)} / {len(source["articles"])} | '
+                        f'{counts["published"]} / {len(pairs)} | '
+                        f'{counts["unstarted"]} | {counts["queued"]} | {counts["active"]} | '
+                        f'{counts["held_without_publication"]} | {sum(pair["stale"] for pair in pairs)} | '
+                        f'{sum(pair.get("replacement_status") == "held" for pair in pairs)} | '
                         f'{sum(e["human_reviewed"] for e in pubs)} | '
-                        f'{sum(t["status"] not in TERMINAL for t in latest)} | '
-                        f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
                         f'{sum(t["translation_attempts"] > 1 for t in latest)} |')
         rows += ['', '## Issue / language work', '',
-                 'Only combinations with requested or published work appear below. Counts of pending/failed candidates are separate from existing public versions.', '',
-                 '| Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |',
-                 '| --- | --- | ---: | ---: | ---: | ---: | ---: |']
+                 'Every source issue and configured language appears, including unstarted work. '
+                 'Replacement failures never subtract accepted publications.', '',
+                 '| Issue | Language | Published / articles | Unstarted | Queued / admission | Active | Held without publication | Failed replacements |',
+                 '| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |']
         for issue in source['issues']:
             ids = {a['id'] for a in source['articles'].values() if a['issue_id'] == issue['id']}
             for language in config.languages:
-                pubs = [entries[(language,identity)] for identity in ids if (language,identity) in entries]
-                latest = [current_tasks[(language,identity)] for identity in ids if (language,identity) in current_tasks]
-                if not pubs and not latest:
-                    continue
+                pairs = issue_language_pairs.get((issue['id'], language), [])
+                counts = {category: sum(pair['category'] == category for pair in pairs) for category in work['counts']}
                 rows.append(f'| `{issue["source_id"]}` | `{language}` | '
-                            f'{sum(e["status"]=="ready" for e in pubs)} / {len(ids)} | '
-                            f'{sum(e["human_reviewed"] for e in pubs)} | '
-                            f'{sum(t["status"] not in TERMINAL for t in latest)} | '
-                            f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
-                            f'{sum(t["status"]=="proposal" for t in latest)} |')
+                            f'{counts["published"]} / {len(ids)} | '
+                            f'{counts["unstarted"]} | {counts["queued"]} | {counts["active"]} | '
+                            f'{counts["held_without_publication"]} | '
+                            f'{sum(pair.get("replacement_status") == "held" for pair in pairs)} |')
         recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
         # Keep reporting on the same exact, non-recyclable ledger as acceptance.
         # Local imports avoid the recovery modules' dependency on TERMINAL.
@@ -287,9 +423,17 @@ class State:
         funding = funding_ledger(self)
         from . import autonomous
         automatic = autonomous.enabled(config) or self.read(autonomous.AUTHORITY_PATH) is not None
-        recovery_frontier = (autonomous.frontier(config, self, tasks) if automatic else
+        recovery_frontier = (autonomous.frontier(config, self, tasks, work_summary=work) if automatic else
                              frontier(config, self, tasks=list(task_by_id.values()), funding=funding))
         self.write('RECOVERY.json', recovery_frontier)
+        if automatic:
+            self.write('state/automatic-status.json', {
+                'allocated_usd': recovery_frontier['committed_usd'],
+                'approved_total_usd': recovery_frontier['approved_total_usd'],
+                'pending_requests': work['pending_automatic_requests'],
+                'attention': [pair for pair in work['pairs'] if pair['category'] == 'held_without_publication'],
+                'target_pairs': work['target_pairs'], 'counts': work['counts'],
+                'replacement_counts': work['replacement_counts'], 'generated_at': generated_at})
         allocated = funding['shared_policy_usd']
         cap = money(recovery_policy.get('total_budget_usd', 0))
         if not recovery_policy.get('enabled'):
