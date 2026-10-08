@@ -474,7 +474,7 @@ def resume(engine, campaign, request, *, new=False):
             transition(entry, 'admitted', 'original_manual_envelope')
             save(state, ledger)
         except (ContractError, UnicodeError) as exc:
-            if entry['status'] != 'attention':
+            if entry['status'] != 'attention' or entry['reason'] != str(exc):
                 transition(entry, 'attention', str(exc))
                 save(state, ledger)
     campaign['admission_counts'] = counts(state, campaign)
