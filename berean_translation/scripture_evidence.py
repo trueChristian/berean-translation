@@ -367,6 +367,15 @@ def _build_associated_evidence(source, language_tag, contract, provider, *,
     # never infer a missing printed citation or synthesize an output selection.
     english_chapters = [(identity, english['result']['data']['verses'])
                         for identity, english in bundle['lookups'].items() if identity.startswith('kjv/')]
+    if component_contract and contract['source_association_version'] == '3':
+        from .scripture_matching import check_backstop
+        bundle['source_association_version'] = '3'
+        bundle['source_association_work'] = check_backstop(
+            parsed, references, scopes, english_chapters, reference_address,
+            unclaimed_marked_spans(parsed, scopes), maximum=MAX_UNCLAIMED_ALIGNMENT_WORK)
+        if len(canonical(bundle)) > contract['max_evidence_bytes']:
+            raise ScriptureAttention('evidence_size_limit', 'Complete evidence exceeds its frozen bound; no text was truncated')
+        return bundle
     work = 0
     checked, blocks = set(), {}
     for ref in references:
@@ -573,7 +582,8 @@ def _bounded_selection_input(selections, maximum):
 def _structural_scope(evidence, candidate, source):
     from .scripture_association import AssociationError
     try:
-        if evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION:
+        if (evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION
+                or (evidence.get('version') == '2' and evidence.get('source_association_version') == '3')):
             from .scripture_association import AssociationScope
             return AssociationScope(evidence, source, candidate)
         return StructuralScope(evidence,source,candidate)
