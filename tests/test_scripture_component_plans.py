@@ -509,7 +509,7 @@ class JacquesComponentPlanTests(unittest.TestCase):
                 self.assertIs(result['publication_ready'], False)
                 self.assertEqual(tree_bytes(self.root), before)
                 send.assert_not_called(); self.assert_unadmitted()
-        doc = yaml.load((REPO_ROOT / '.github/workflows/ai-scripture-components.yml').read_text(),
+        doc = yaml.load((REPO_ROOT / 'docs/historical-workflows/ai-scripture-components.yml').read_text(),
                         Loader=yaml.BaseLoader)
         inputs = doc['on']['workflow_dispatch']['inputs']
         self.assertEqual(inputs['entry_ids']['default'], '')

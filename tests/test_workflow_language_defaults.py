@@ -17,7 +17,7 @@ from support import A, B, REPO_ROOT, drive, queue, setup
 
 
 def workflow(name):
-    return yaml.load((REPO_ROOT / ('docs/historical-workflows' if name == 'ai-recover.yml' else '.github/workflows') / name).read_text(encoding='utf-8'),
+    return yaml.load((REPO_ROOT / ('docs/historical-workflows' if name in ('ai-recover.yml', 'ai-repair.yml', 'ai-scripture-components.yml') else '.github/workflows') / name).read_text(encoding='utf-8'),
                      Loader=yaml.BaseLoader)
 
 
@@ -57,10 +57,17 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
                 self.assertEqual(inputs['issues']['default'], '')
                 self.assertEqual(inputs['budget_usd']['default'], budget)
                 self.assertEqual(inputs['dry_run']['default'], 'true')
-                self.assertEqual(inputs['retry_failed']['default'], 'false')
+                if operation == 'translate':
+                    self.assertEqual(inputs['retry_failed']['default'], 'false')
+                else:
+                    self.assertNotIn('retry_failed', inputs)
                 env = document['jobs']['enqueue']['steps'][-1]['env']
-                for field in ('language', 'languages', 'budget_usd', 'dry_run', 'retry_failed'):
+                for field in ('language', 'languages', 'budget_usd', 'dry_run'):
                     self.assertEqual(env[f'INPUT_{field.upper()}'], '${{ inputs.' + field + ' }}')
+                if operation == 'translate':
+                    self.assertEqual(env['INPUT_RETRY_FAILED'], '${{ inputs.retry_failed }}')
+                else:
+                    self.assertNotIn('INPUT_RETRY_FAILED', env)
                 request = self.workflow_request(operation)
                 self.assertEqual(request['languages'], 'all')
                 self.assertEqual(request['issues'], 'next')

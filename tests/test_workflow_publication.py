@@ -37,14 +37,14 @@ class WorkflowPublicationTests(unittest.TestCase):
             'group': 'berean-translation-state-writer', 'cancel-in-progress': 'false'})
         self.assertEqual(self.document['on']['schedule'], [{'cron': '7,22,37,52 * * * *'}])
         self.assertEqual(self.document['on']['workflow_run'], {
-            'workflows': ['AI — OpenAI', 'AI — Review',
-                          'AI — Repair held translations'], 'types': ['completed']})
+            'workflows': ['AI — Translate articles', 'AI — Improve translations',
+                          'AI — Discover English changes'], 'types': ['completed']})
         self.assertEqual(self.document['on']['push'], {'branches': ['main'], 'paths': ['content/**']})
         operation = self.document['on']['workflow_dispatch']['inputs']['operation']
         self.assertEqual(operation['options'], ['collect', 'cancel', 'resolve-absent'])
         self.assertEqual(operation['default'], 'collect')
         collect = self.steps['Collect results or perform the requested maintenance']
-        for command in ('tick --publish --wait-seconds 600 --poll-seconds 60',
+        for command in ('tick --no-discover --publish --wait-seconds 600 --poll-seconds 60',
                         'cancel --campaign "$CAMPAIGN" --publish',
                         'resolve-absent --batch "$BATCH_ID" --confirmed-no-remote-batch --publish'):
             self.assertIn('.venv/bin/python -m berean_translation ' + command, collect['run'])

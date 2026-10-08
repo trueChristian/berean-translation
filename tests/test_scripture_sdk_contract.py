@@ -28,8 +28,8 @@ class ScriptureSDKContractTests(unittest.TestCase):
             transport = streamable_http_client(ENDPOINT)
             Client(transport, cache=None, read_timeout_seconds=45)
 
-    def test_ci_installs_the_same_scripture_dependencies_as_the_collector(self):
+    def test_historical_sdk_dependencies_are_absent_from_active_collection(self):
         root = Path(__file__).resolve().parents[1]
         self.assertIn('-r requirements-scripture.txt', (root/'requirements-dev.txt').read_text())
-        self.assertIn('-r requirements-scripture.txt', (root/'.github/workflows/ai-worker.yml').read_text())
+        self.assertNotIn('-r requirements-scripture.txt', (root/'.github/workflows/ai-worker.yml').read_text())
         self.assertIn('mcp==' + SDK_VERSION, (root/'requirements-scripture.txt').read_text())

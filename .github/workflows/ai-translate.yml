@@ -1,4 +1,4 @@
-name: AI — OpenAI
+name: AI — Translate articles
 
 on:
   workflow_dispatch:

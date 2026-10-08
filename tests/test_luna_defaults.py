@@ -22,7 +22,7 @@ LUNA = 'gpt-6-luna'
 
 
 def workflow_inputs(name):
-    document = yaml.load((REPO_ROOT / ('docs/historical-workflows' if name == 'ai-recover.yml' else '.github/workflows') / name).read_text(),
+    document = yaml.load((REPO_ROOT / ('docs/historical-workflows' if name in ('ai-recover.yml', 'ai-repair.yml', 'ai-scripture-components.yml') else '.github/workflows') / name).read_text(),
                          Loader=yaml.BaseLoader)
     return document['on']['workflow_dispatch']['inputs']
 
@@ -84,7 +84,7 @@ class LunaRegistryTests(unittest.TestCase):
 
     def test_every_workflow_picker_matches_registry_and_preserves_recovery_defaults(self):
         for filename, default in (
-            ('ai-translate.yml', LUNA), ('ai-review.yml', LUNA),
+            ('ai-translate.yml', LUNA), ('ai-review.yml', 'gpt-6.1-sol'),
             ('ai-recover.yml', 'gpt-5-mini'), ('ai-repair.yml', 'gpt-6.1-sol'),
         ):
             inputs = workflow_inputs(filename)

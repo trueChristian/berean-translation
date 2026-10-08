@@ -1,0 +1,57 @@
+name: AI — Discover English changes
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Once an hour, offset from the busiest scheduled start time. Collection has
+    # its own 15-minute fallback and does not repeatedly rescan upstream English.
+    - cron: '3 * * * *'
+
+permissions:
+  contents: write
+
+# Source discovery and result collection share one serialized mutable writer.
+# Manual enqueuers use unique immutable files and do not join this group.
+concurrency:
+  group: berean-translation-state-writer
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out trusted main and review history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Read current English main once for discovery
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: trueChristian/berean-voice
+          ref: main
+          path: .build/source
+          sparse-checkout: content/articles
+          persist-credentials: false
+      - name: Discover and queue authorized translation work
+        env:
+          BEREAN_SOURCE_CHECKOUT: .build/source
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -m berean_translation tick --discover-only --publish
+      - name: Validate the resulting runtime records
+        run: python3 -m berean_translation validate
+      - name: Retain recovery evidence after a failed checkpoint
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: discovery-recovery-${{ github.run_id }}
+          path: |
+            state/
+            index.json
+            STATUS.md
+            RECOVERY.json
+          if-no-files-found: warn
+          retention-days: 14

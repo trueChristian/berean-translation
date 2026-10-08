@@ -1,4 +1,4 @@
-name: AI — Collect and discover
+name: AI — Collect and continue
 
 on:
   workflow_dispatch:
@@ -25,12 +25,16 @@ on:
     # the top of the hour; GitHub does not guarantee scheduled start times.
     - cron: '7,22,37,52 * * * *'
   workflow_run:
-    workflows: ["AI — OpenAI", "AI — Review", "AI — Repair held translations"]
+    workflows: ["AI — Translate articles", "AI — Improve translations", "AI — Discover English changes"]
     types: [completed]
   push:
     branches: [main]
     paths:
       - 'content/**'
+      - 'berean_translation/**'
+      - 'config/**'
+      - 'prompts/**'
+      - '.github/workflows/ai-worker.yml'
 
 permissions:
   contents: write
@@ -61,7 +65,7 @@ jobs:
       - name: Install the official OpenAI SDK
         run: |
           python3 -m venv .venv
-          .venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt -r requirements-scripture.txt
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt
       - name: Read current English main once for this collection cycle
         if: github.event_name != 'workflow_dispatch' || inputs.operation == 'collect'
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -87,7 +91,7 @@ jobs:
               # Stop starting work at safe boundaries after ten minutes. Leave
               # the remaining job time for an in-flight operation, its durable
               # checkpoints and final validation; this is not a hard interrupt.
-              .venv/bin/python -m berean_translation tick --publish --wait-seconds 600 --poll-seconds 60
+              .venv/bin/python -m berean_translation tick --no-discover --publish --wait-seconds 600 --poll-seconds 60
               ;;
             cancel)
               .venv/bin/python -m berean_translation cancel --campaign "$CAMPAIGN" --publish

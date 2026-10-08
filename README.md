@@ -1,80 +1,77 @@
 # Berean translation
 
-An independent, resumable OpenAI Batch translation runtime for the authoritative English articles in [`trueChristian/berean-voice`](https://github.com/trueChristian/berean-voice). Python and GitHub Actions manage requests, source revisions, translations, quality checks, review history and website-ready exports. There is no database, permanently running server, website framework or image duplication.
+Translate the complete English articles from [`trueChristian/berean-voice`](https://github.com/trueChristian/berean-voice) with OpenAI's Batch API, review their meaning and language quality, and publish accepted translations for the [Remnant website](https://github.com/trueChristian/remnant.truechristian.church).
 
-**Publication policy:** a translation that passes the automated checks is available for website export immediately, with a localized AI notice. Human editing is first class: a collaborator edits the content or its notice and commits normally; attribution and protection are recorded automatically. English always remains authoritative. Failed candidates are retained for inspection but are never exported as finished translations.
+**Ordinary translations pass at 95/100. Optional improvements to published translations pass at 98/100.** These scores are review rubrics, not measured percentages of accuracy. English remains authoritative. A complete, technically valid translation that meets its threshold and preserves the source meaning becomes available immediately, with the localized AI notice.
 
-## English editors do not maintain hashes
+**Scripture matching is retired from translation processing.** The AI translates quotations and references as part of the complete article. There is no GetBible prefetch, Bible-edition requirement, exact quotation alignment, quotation-offset contract, or special Scripture publication gate. The website's Scripture modal owns retrieval from the selected Bible edition. Read [the current processing and migration policy](docs/plain-translation-runtime.md); earlier Scripture documents describe historical contracts only.
 
-Edit an English article in `berean-voice`, commit the normal source change, and stop. This repository's collector reads English `main`, matches article UUIDs against its language records, and computes its own fingerprints to detect revisions. It ignores core `manifest.json` and `navigation.json` completely. A new article is missing work; a changed article is outdated work; unchanged articles are skipped. No source-side regeneration or manually copied commit/hash is required.
+## Automatic operation
 
-The collector automatically creates and drains work across the whole archive and all twenty configured languages. New translation, review, saved-candidate repair and source refresh share the owner-approved cumulative $30 authority. Every new automatic task reserves its complete remaining stages, with an envelope of at most $10. Human-reviewed pairs are permanently excluded. Downloading `main` once per run avoids mixed source versions. See [automatic archive operation and budget settlement](docs/autonomous-archive.md).
+The scheduled discovery workflow reads current English `main`, finds new and changed articles, and queues authorized work. The collector submits and polls OpenAI batches, receives completed results, advances independent review and bounded correction, publishes accepted translations, and resumes eligible failures. OpenAI does not call this repository back; GitHub Actions polls it.
 
-## Activate after merging the implementation
+All twenty configured languages participate. New translation, source refresh, and saved-candidate recovery share the existing cumulative **$30 automatic authority**, without renewal. New automatic work reserves its complete remaining stages; each campaign envelope remains at most $10. Separate accepted manual and historical envelopes keep their original limits. A new run or changed prompt never resets budget or attempt history.
 
-1. Add an Actions repository secret named **`OPENAI_API_KEY`** under **Settings → Secrets and variables → Actions**. Use an OpenAI API project with billing and access to the selected models. Do not put the key in a file, workflow input, issue, pull request or chat.
-2. Enable GitHub Actions. The request and collector workflows need `contents: write` in this repository. The workflow files request it explicitly; organization policy or a protected `main` may still prevent the standard Actions token from making the runtime commits. Configure an appropriate permitted automation path rather than disabling protections indiscriminately. No personal token is needed for the supplied public English archive.
-3. The scheduled **AI — Collect and discover** workflow starts and resumes authorized work automatically. Its best-effort schedule is every 15 minutes. During active work it polls once a minute for up to ten minutes, collecting completed batches and advancing review/correction. No manual translation dispatch is needed.
-4. Inspect [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for progress, funding, and explicit attention holds. Disable repository Actions to stop starting work; already submitted provider batches may finish.
-5. Optional **AI — OpenAI**, **AI — Review**, and **AI — Repair held translations** workflows remain for a specific issue or stronger model. New manual defaults are $30; previews remain free. Existing accepted manual budgets and history never change.
-
-A dry-run request is deliberately a free selection preview, not a certified price quotation or a translation-quality assessment; it does not pause separately authorized existing campaigns or automatic archive work. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
+Discovery and collection share one serialized state writer. Manual requests persist unique immutable queue files, so concurrent requests are not lost to GitHub's limited pending-run concurrency queue. Submitted batches can run concurrently. Unknown submissions are reconciled by their stored submission identity and are never blindly resubmitted.
 
 ## Workflows
 
-| Workflow | Purpose | Paid requests |
+Only five workflows are active:
+
+| Workflow | Responsibility | Schedule or trigger |
 | --- | --- | --- |
-| **AI — OpenAI** | Persist one manual translation request with issue/language/model selections. | The collector submits the authorized work; this enqueuer has no OpenAI secret. |
-| **AI — Review** | Request a new bounded AI review of existing translations or saved failed candidates. | Review, and at most one correction plus final review. |
-| **AI — Repair held translations** | Optional bounded manual repair with selectable stronger models. | A separately authorized one-time manual envelope; automatic recovery needs no dispatch. |
-| **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | The shared automatic archive authority plus existing separately authorized campaigns. |
-| **Translation runtime checks** | Offline regression tests, installed SDK contract check, repository validation and read-only source compatibility check. | None. |
+| **AI — Translate articles** | Select an issue, languages, models, and a manual budget; persist a translation bundle. | Manual dispatch; free preview is the default. |
+| **AI — Discover English changes** | Discover upstream English changes and queue automatic work within its standing authority. | Hourly at minute 3, or manual dispatch. |
+| **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Every 15 minutes; successful manual/discovery workflows; published human edits; manual dispatch. |
+| **AI — Improve translations** | Review existing publications against English with stronger models; validate accepted replacements at 98. Saved unpublished candidates use the ordinary 95 threshold. | Manual dispatch; free preview is the default. |
+| **Translation runtime checks** | Run offline regression tests, dependency contract checks, and repository/source validation. | Pull requests, pushes to main, or manual dispatch; no paid requests. |
 
-Manual workflows are intentionally restricted to `main`. Merge the implementation before trying to run production translation work. Do not add an API secret to a pull-request test environment.
+The specialized repair and Scripture-inspection workflows are retired. Their YAML is retained under [`docs/historical-workflows/`](docs/historical-workflows/) as inert evidence for historical requests and offline tests. They do not appear as active Actions workflows.
 
-### Select multiple languages and issues
+## Run production work
 
-The single-language dropdown includes all twenty languages and **all**. The optional **languages** field overrides it with a comma-separated list, for example `afr,deu,spa`. Three-letter folder codes and the registered two-letter/language-tag aliases are accepted. Duplicate aliases for the same language are rejected.
+1. Merge the reviewed implementation into `main`. Production workflows use trusted `main`; a pull request does not activate them.
+2. Ensure the repository Actions secret **`OPENAI_API_KEY`** is set and Actions can commit runtime changes with `contents: write`. Manual enqueuers and discovery do not receive the OpenAI secret.
+3. Run **AI — Discover English changes**, then **AI — Collect and continue** if immediate pickup is wanted. Their schedules subsequently continue automatically.
+4. Read [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for publications, primary progress counters, batches, remaining funding, and specific holds.
 
-The issue dropdown supplies **next**, **all**, **outstanding** and **custom**. For particular issues, copy one or several `source_id` values or UUIDs from `STATUS.md` / `state/source.json` into the **issues** field, separated by commas; this overrides the preset. The live issue list is discovered from the core repository, not hardcoded into workflow YAML. GitHub's native workflow dropdown cannot dynamically populate from a repository file or select multiple values, so validated list inputs provide those capabilities.
+New manual requests default to a $30 ceiling and **dry_run=true**. A preview makes no paid requests or reservations for that selection; it does not suspend other previously authorized work. Select **dry_run=false** to authorize the selected bundle. Adding a missing API key resumes existing authorized queued work, so inspect those requests first if their intent has changed.
 
-**next** selects the first issue in the source catalogue with eligible work for the selected languages and operation. It does not guess chronology from seasonal dates. **all** and **outstanding** both examine all selected source issues, but normal translation eligibility still excludes completed, active and protected work. A request currently allows up to 1,000 article/language tasks; whole-archive completion is handled by automatic resumable pages. Batch sizes have separate safety limits.
+### Choose articles and languages
 
-Concurrent manual runs create different immutable queue files. OpenAI batches may run simultaneously, while one collector serializes mutable repository writes. Re-running the same GitHub workflow run is idempotent; submitting a new run creates a new request, whose article eligibility checks still prevent duplicate translation charges. Completed translations are selectable for review, not silently translated again. Explicit **retry_failed** is required to retry an unsuccessful translation through **AI — OpenAI**.
+Use the language dropdown for one code or **all**, or override it with a comma-separated **languages** list such as `afr,deu,spa`. Registered language-tag aliases are accepted. Duplicate aliases for one language are rejected.
 
-### Historical exact candidate recovery
+The issue selector supports **next**, **all**, **outstanding**, and **custom**. Supply comma-separated issue `source_id` values or UUIDs from `STATUS.md` or `state/source.json` in **issues** to override that preset. **next** selects the first catalogue issue with eligible work; it does not infer chronology from a seasonal label. Up to 1,000 article/language tasks can be selected in one manual request; automatic bounded pages continue through the whole archive.
 
-The separate exact-recovery dispatch UI is retired because normal recovery is automatic. Historical `recovery_of_campaign` / `previous_task_ids` requests, immutable selections, original-cap allocations and cancellation rules remain valid. Their accepted envelopes are never reassigned to the new automatic authority. The previous workflow is retained only as an [inert historical fixture](docs/historical-workflows/ai-recover.yml).
+Manual translation and its independent reviewer default to **gpt-6-luna**. Optional improvement and its independent validation default to **gpt-6.1-sol**. Models, context limits, and rates are frozen from `config/models.json` at acceptance. Existing accepted requests retain their original paid authorization, models, and history.
 
-### Model selection and expenditure
+## Translation, review, and improvement
 
-New translation and review default to **gpt-6-luna**. Automatic held-candidate recovery and the optional manual repair workflow default to **gpt-6.1-sol**. Models, context limits and Batch pricing are frozen at acceptance from `config/models.json`; these choices do not certify theological quality. Existing accepted campaigns retain their original models and request contracts.
+The normal path is a translation, independent review, and publication at 95. A failed review can receive one correction followed by final review. At most two translation/correction requests and two reviews are submitted per task. The model receives the complete English article, context-preservation instructions, and configured terminology guidance. It must preserve meaning, negation, attribution, names, references, headings, paragraphs, images, captions, notes, and metadata; it must not summarize or invent.
 
-All model work uses OpenAI's Batch API; there is no hidden synchronous fallback. Each campaign has a USD reservation ceiling covering translation, review, correction and final review. The runtime reserves a conservative input/output upper estimate before each batch submission and retains actual returned token usage for comparison. Input estimates deliberately overestimate using UTF-8 bytes plus framing allowance. The application never recycles an uncertain reservation to authorize more work.
+There is no special Scripture acceptance layer. Ordinary meaning review still checks quotations as article prose. Basic technical checks still reject incomplete responses, unsafe or malformed HTML, changed article identities or image URLs, missing substantive content, refusals, and invalid JSON. A score at the threshold does not excuse a substantive meaning error. Contradictory no-change reviewer findings are not automatically treated as substantive rejection evidence.
 
-New automatic work cannot start until the complete remaining stage chain fits its envelope. Legacy stage-funded tasks may still finish as **budget_blocked**; automatic recovery retains their saved candidate and continues the appropriate stage under the shared authority. Proven unused new-automatic reservations can settle with complete terminal usage evidence; unknown charges remain reserved. Application limits depend on the configured model rates and are not a provider billing guarantee; also configure appropriate OpenAI project/account budgets and alerts, and verify whether they enforce a hard cap before relying on them. Review the rate table before large campaigns.
+Existing held candidates are reconsidered through the plain-translation policy. Saved candidates receive review before paying for another translation. Retired Scripture holds no longer require editions or evidence. Migration adds auditable processing events and preserves original requests, candidates, paid attempts, and findings. Uncertain provider outcomes and refusals are not silently converted into accepted work.
 
-The quality path is strictly:
+Optional improvement compares the existing accepted translation with original English and uses the 98 threshold. The current public translation remains available while a proposed replacement is processed. An accepted improvement archives the previous version and replaces the public files; a failed improvement leaves the previous publication available. Human-edited pairs remain permanently protected from AI replacement.
 
-```text
-translation → independent review → publish with notice when accepted
-                         ↓ failed
-              one correction → final review → publish or not_ready
-```
+## Accurate progress
 
-At most two translation/correction requests and two review requests are submitted per task. A score of 95/100 is an acceptance rubric, not a statistical measurement of 95% accuracy. Major/critical findings always block acceptance. Missing/truncated/refused responses, altered IDs/URLs, malformed HTML, missing substantive blocks and changed Scripture chapter/verse numbers fail structural checks. Model requests include the complete source article, theological-preservation instructions, and any configured per-language glossary. New work prefetches approved GetBible Scripture evidence and validates exact selected target words before review/publication. Missing editions, uncertain source/reference alignment and unverified versification remain explicit holds; see [the Scripture evidence contract](docs/scripture-quotation-evidence.md).
+Each eligible article/language pair contributes to one primary category: **unstarted**, **queued**, **active**, **held without publication**, or **published**. These categories account for the eligible total without counting one pair twice. Counts of upgrade attempts and historical failures are separate diagnostics; a failed newer attempt does not turn an accepted publication into an unfinished pair. Source freshness is reported explicitly rather than relabeling a retained stale translation as current.
 
-Already accepted publications are retained when English changes or disappears.
-The display export labels them `stale` or `source_removed`, preserves the original
-source revision, and supplies verifiable historical metadata for the website.
-The website keeps its no-loss guard and retrieves historical dependencies; stale
-work is never relabeled current. See [the retained export contract](docs/runtime-contract.md#retained-accepted-publications).
+Reports include collection timing and provider state. A successful collector run means the runtime completed its work safely, not that every translation was accepted. A submitted Batch can remain processing between polls. Compare provider completion observations and local collection times only when both are recorded; historical entries without those observations cannot establish their delay.
 
-## Languages and folder/URL identity
+## English editing and website compatibility
+
+English editors change HTML and canonical catalogue metadata in `berean-voice` and commit normally. They do not regenerate manifests, maintain hashes, or copy revisions into this repository. Discovery reads `index.json` and the format-2.0 catalogue, ignores source `manifest.json` and `navigation.json`, and computes translation-owned fingerprints from a coherent English checkout.
+
+The translation output remains `content/<code>/articles/<original-uuid>.html` with its matching `.json` sidecar. The sidecar contains translated `title`, `subtitle`, and `section`, preserving absent or empty values. Images remain shared `/images/articles/<uuid>-<sequence>.<ext>` URLs. No English articles, images, website, or database are duplicated here.
+
+Accepted publications are retained when English changes or disappears, with truthful stale/source-removed status and their original source provenance. A source refresh does not remove the last accepted publication while its replacement is pending. Existing UUIDs, language codes, export structure, and the Remnant consumer contract are preserved.
 
 | Language | Folder | Website language tag | Direction |
 | --- | --- | --- | --- |
-| Mandarin, initially Simplified Chinese | `cmn` | `zh-Hans` | LTR |
+| Mandarin, Simplified Chinese | `cmn` | `zh-Hans` | LTR |
 | Hindi | `hin` | `hi` | LTR |
 | Spanish | `spa` | `es` | LTR |
 | Arabic | `ara` | `ar` | RTL |
@@ -93,96 +90,29 @@ work is never relabeled current. See [the retained export contract](docs/runtime
 | Hebrew | `heb` | `he` | RTL |
 | Modern Greek | `ell` | `el` | LTR |
 | Swedish | `swe` | `sv` | LTR |
-| Norwegian, initially Bokmål | `nob` | `nb` | LTR |
+| Norwegian, Bokmål | `nob` | `nb` | LTR |
 
-The website owns route spelling, `hreflang`, language-switch presentation and any icons. Languages are not equated with national flags. Mandarin and Norwegian variants are explicit initial choices, not interchangeable labels; add a separate, reviewed configuration for another variant. Localized notice text and terminology guidance should also receive native-language review.
+The website owns route spelling, language switches, and Scripture modals. Languages are not equated with national flags. The [Remnant website](https://github.com/trueChristian/remnant.truechristian.church) polls both source repositories' `main` revisions on an **hourly**, best-effort schedule, rebuilding when revisions differ from the last successful deployment. No translation-repository notification token or website dispatch is required.
 
-## Repository layout and review history
+## Human editing
 
-```text
-config/                       Language registry, model choices, limits and glossaries
-prompts/                      Translation and independent review instructions
-berean_translation/           Python CLI and runtime modules
-content/<language>/articles/  Published HTML and translated metadata sidecars
-state/queue/                  Immutable automatic and manual requests
-state/automatic-budget.json   Frozen shared automatic authority and legacy baseline
-state/automatic-settlements/  Immutable complete-usage settlement events
-state/campaigns/              Selections, budget reservations and campaign status
-state/tasks/                  Candidates, per-stage findings, model/usage history
-state/batches/                Exact JSONL inputs, batch IDs and recovery state
-state/records/                Article/language identity, publication and review history
-state/sources/                Hash-verified pinned source snapshots
-state/source.json             Last discovered source issue/article catalogue
-state/heartbeat.json          Current meaningful source/work snapshot, refreshed at least daily
-index.json                    Generated website-facing translation catalogue
-STATUS.md                     Generated issue, language and campaign status
-```
+A human collaborator edits published HTML or the title/subtitle/section sidecar and commits normally. The collector recognizes Git attribution, preserves the edited article body, updates internal metadata, and protects the pair from every future AI review, repair, or retranslation. Notice wording is presentation, not an authorization protocol. The runtime supplies the localized human-first notice with an English link and no public reviewer name or model version.
 
-The initial checkout has no fake articles or pretend completed batches. Runtime directories appear as genuine work is performed. Every translation retains the original article UUID. Its HTML sidecar contains translated `title`, `subtitle`, and `section`; captions and alt text are translated in the HTML. Absent source metadata stays absent. Authors, credits, source provenance and grouping identities remain available from the English source.
+A technically broken working file is preserved and isolated with a diagnostic. Its hash-verified last accepted copy remains exportable while unrelated work continues. No model call repairs human edits. Uncommitted or bot-authored changes cannot claim human review.
 
-Inspect `state/tasks/<task-id>/results/review1.json` and `review2.json` for the actual findings and rubric scores. A corrected task retains its initial result, correction result, model identities, request usage and attempt counts. The public file is separate from its pending candidate; failed re-review does not replace a last good translation. The reports distinguish public readiness from the status of newer candidates.
+## Recovery and maintenance
 
-### Human review
+The collector automatically resumes eligible failures using saved candidates and bounded funding. New work has its own scheduling allocation so repairs cannot occupy every available slot. Exhausted budgets, unresolved provider outcomes, substantive repeated failures, and protected human content remain visible rather than being reset or silently bypassed.
 
-Edit a published HTML file or its adjacent title/subtitle/section JSON and commit or merge normally. You may change the prose, structure, Scripture references, and the entire presentation notice, including retaining the link to English. You do not need to remove a block, use prescribed review wording, edit status fields, or maintain hashes.
+Use **AI — Collect and continue**, operation **cancel**, with a campaign ID to stop that campaign's unsubmitted work and request cancellation of submitted batches. Existing publications remain intact. Cancellation retains task history and allocations; it is not a refund. An interrupted historical acceptance is closed through this same cancellation path, not by deleting records.
 
-The collector recognizes the human commit, records its attribution, updates metadata internally, and protects that publication from later AI replacement. Human editorial authority is independent of notice text and AI quality, source-parity or reference checks. The article body is preserved verbatim. The system replaces the presentation note with a localized human-first notice: reviewed by a human, originally translated by AI, with an authoritative English link and no model version or reviewer name. Model and English-source history remain traceable internally. Safe HTML rendering, the stable article identity and readable JSON still apply.
+For **submission_unknown**, collection reconciles the persisted unique submission key with provider batches. Only after confirming that the provider created no matching batch should an owner choose **resolve-absent** with the internal batch ID and explicit confirmation. Slow processing alone does not establish absence.
 
-A technically broken working file is isolated with a visible per-article diagnostic. The edited file stays intact and its hash-verified last accepted copy remains available for export while other articles continue. Committing a repair clears that diagnostic automatically. No model call repairs or rewrites a human edit. Uncommitted or bot-authored changes cannot claim human attribution.
+Checkpoint pushes are never forced. A failed durable checkpoint blocks the next external side effect, and failed Actions runs retain recovery artifacts. Disjoint Git changes can rebase; same-file conflicts require resolution without overwriting concurrent work.
 
-Human review is the final authority tier. The article/language pair is permanently excluded from every new AI review, repair, retranslation and audit, including forced/manual requests and later English changes. Further human commits remain welcome. Already-submitted AI results remain auditable and cannot overwrite the human publication. Prepared mixed batches exclude the human-controlled requests and retain unchanged requests for the other articles without another reservation or attempt. Repository attribution records the collaborator’s action; it is not independent certification of linguistic accuracy.
+## Export and development
 
-### New and changed English articles
-
-The scheduled collector discovers new issues and articles and queues eligible missing article/language pairs automatically. It also identifies stale/withdrawn translations. Existing candidates resume before first-time work; bounded pages continue across later runs without manual **next** requests.
-
-The translation runtime computes source text, markup and translation-metadata fingerprints automatically; source editors never maintain them. Those local fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
-
-### Automatic refresh of changed English
-
-New source refreshes share the same automatic authority as first-time work and recovery. Their exact current English fingerprint is frozen, human-reviewed pairs are excluded, and the last good publication remains available while a replacement is processed. A changed source is rechecked before submission and publication. Accepted historical source-refresh campaigns retain their original $10, one-issue/language envelopes; those old envelopes are not retroactively reassigned to the new cap. [The archive policy](docs/autonomous-archive.md) records the migration boundary and settlement rules.
-
-## Recovery and cancellation
-
-**No progress yet:** inspect the collector workflow and `STATUS.md`. A submitted OpenAI batch may still be processing. The worker polls active batches within its bounded window, then exits; idle runs exit immediately. Manually running **collect** is safe and does not create a duplicate campaign. Scheduled runs are subject to GitHub scheduling availability, not a guaranteed completion deadline. The single state-writer concurrency group is unchanged; a maintenance/cancellation run may wait for the active collector to finish. No new service, token, or synchronous model fallback is required.
-
-**Provider time versus collection delay:** new observations retain the provider's Unix lifecycle timestamps in `remote_*_at` and its request counts. `last_polled_at` records the last read attempt; `remote_observed_at` is the latest successful provider observation. `collected_at` is when this application collected terminal results; legacy `completed_at` remains a local-collection alias, never the provider completion time. Older records lacking provider timestamps cannot establish how much delay occurred at OpenAI versus waiting for a collector. Compare `remote_completed_at` with `collected_at` only when both exist; terminal failures/expiry/cancellation have their own provider timestamps. Read/download/reconciliation failures retain safe diagnostics and resume without creating replacement batches.
-
-**Missing API key:** discovery and durable selection still work, but no OpenAI request is sent. Add the repository secret after checking that queued paid requests are still intended.
-
-**Budget blocked / not ready:** the automatic queue resumes eligible saved work when the complete remaining chain fits. Audited settlement can free unused new-automatic headroom; the $30 authority never silently renews. Repeated/uncertain progress, refusals and unknown provider outcomes remain visible attention holds. Optional manual model overrides have their own explicit budgets.
-
-**Interrupted exact-recovery acceptance:** an `acceptance_incomplete` campaign
-already owns its full envelope but cannot submit partially staged tasks. To close
-it safely, run **AI — Collect and discover**, operation **cancel**, with that recovery
-campaign ID. This explicit action audits the immutable request, original records,
-and only the exact deterministic children. It records `acceptance_aborted`, cancels
-any never-submitted staged children, and retains candidate-only artifacts and
-unstaged selections in an auditable partition. Repository validation and normal
-later work can then continue. No missing tasks are created, and the full allocation
-and every selected original task ID remain permanently consumed.
-
-If the abort itself is interrupted (`acceptance_aborting`), repeat **cancel** for
-the same campaign to finish only its recorded cancellation. If a local CLI abort
-created a commit but its final push failed, its retry must not claim success while
-that commit is unpublished: retain that checkout for audit and rerun cancel from
-a fresh `main` checkout (the Actions workflow already uses a fresh checkout). Unexpected batch,
-paid-attempt, result, altered-candidate or foreign-history evidence causes a
-read-only rejection; inspect the evidence instead of deleting history or resetting
-flags. There is no automatic acceptance resume or refund. The equivalent trusted,
-durable CLI operation is `python -m berean_translation cancel --campaign <id> --publish`.
-
-**Cancel:** run **AI — Collect and discover**, operation **cancel**, and supply the campaign ID from `STATUS.md`. The runtime checkpoints the owner's request, asks OpenAI to cancel submitted work, and prevents unsubmitted work from starting. OpenAI may charge for requests already completed; cancellation is not a refund. Existing good published translations remain intact.
-
-**submission_unknown:** the runtime persisted submission intent before calling OpenAI, but did not obtain a reliable batch ID. It searches OpenAI batch metadata on later collection runs instead of submitting again. If a matching batch is found it resumes automatically. If no match is found, it continues to wait safely. Only after checking the OpenAI project and confirming no corresponding batch was created should an owner use **resolve-absent**, supply the internal batch ID and check **confirmed_no_remote_batch**. This authorizes one fresh submission; do not use it merely because processing is slow.
-
-**Git write failure:** the next external side effect is blocked until the preceding checkpoint is durable. The failure artifact retains local state for inspection. Check Actions write permission and `main` rules. Never force-push over concurrent work. An uncertain remote submission is recoverable using its already-pushed unique key even when the latest response checkpoint failed.
-
-The discovery/work report refreshes when its source or pending-work snapshot changes, as well as at least once per UTC day. A same-day campaign completion therefore updates pending work immediately. Check Actions if the collector stops, including scheduled-workflow inactivity restrictions.
-
-## Website integration
-
-The future website reads compatible translations from a pinned commit. It does not copy `state/`, instructions, prompts or credentials. From the clean translation checkout, with the English repository checked out at the website's selected source revision:
+From a clean translation checkout with the website-selected English revision checked out alongside it:
 
 ```bash
 python3 -m berean_translation export \
@@ -191,13 +121,9 @@ python3 -m berean_translation export \
   --base /
 ```
 
-The English checkout must be clean. The translation exporter computes its own fingerprints directly from that checkout; there is no prerequisite core manifest. Export rejects an uncommitted translation checkout, compares each publication with that fresh source scan, and emits compatible HTML, sidecars, a display index and file hashes. For a Pages project site, supply its actual base path instead of `/`. Image attributes and the notice's English link receive the base prefix without changing matching prose. The site uses shared images from the English archive.
+The exporter verifies source fingerprints and accepted publication hashes, emits compatible HTML/sidecars plus display metadata, and never exports raw processing state. It refuses to erase an existing nonempty output directory. Use the actual Pages base path where applicable. The initial notice's English route is configured by `config/runtime.json.english_route`.
 
-The initial notice links to `/en/articles/<article-uuid>/`. Implement that route in the website or change `config/runtime.json.english_route` **before first publication**. This repository does not deploy a site or invent its future domain. The exporter never erases an existing nonempty output directory.
-
-## Local development and tests
-
-Python 3.11 or later is required. GitHub Actions uses Ubuntu 24.04's Python with a virtual environment. The official OpenAI SDK is pinned in `requirements.txt`; the anonymous GetBible MCP client is pinned in `requirements-scripture.txt`. Model and language configuration is reviewed separately.
+Python 3.11 or later is required. The active collector installs only the official OpenAI SDK from `requirements.txt`. `requirements-scripture.txt` is retained solely for historical evidence clients and offline SDK regression tests; active translation does not depend on MCP or GetBible.
 
 ```bash
 python3 -m venv .venv
@@ -208,21 +134,13 @@ python -m berean_translation validate
 python -m compileall -q berean_translation tests
 ```
 
-Tests use artificial articles and simulated API responses, including failures and lost acknowledgements. They do not produce genuine translations or spend money. The SDK resource-contract test needs the installed official SDK; it is skipped in offline environments without it. CI installs the dependency and checks it without a network model call. Real local bare-Git tests exercise durable checkpoints, concurrent enqueuers, conflicts and human-review attribution.
+Tests use artificial source articles and simulated provider responses. They do not produce live translations or spend money. Real local bare-Git tests cover checkpoints, concurrency, conflicts, and human attribution. Production commands require trusted `main`, a durable authenticated origin, and `--publish`:
 
-`python -m berean_translation discover --check-only` is a read-only live compatibility check, not a translation. Production collection is `python -m berean_translation tick --publish` on `main`; it requires an authenticated origin push path and an API key for already-authorized paid work. Add `--wait-seconds 600 --poll-seconds 60` for the workflow's bounded pickup behavior (default is still one unrestricted tick). A positive wait budget includes initial work and stops queue acceptance, collection and preparation at resumable boundaries inside a tick. An in-flight operation finishes its durable checkpoints, so reserve extra time for API I/O and final validation. Once submission intent is recorded, the worker records its result or uncertainty before yielding. Prepared batches retain their exact payload, reservation, attempt and uploaded-file identity for the next run. Waits are limited to 900 seconds and poll intervals to 30–300 seconds. All ticks in one window reuse the initial coherent English source scan. Unknown submissions do not keep a runner alive by themselves and are never blindly resubmitted. The CLI rejects real-key collection or maintenance without `--publish`: local-only mode is for tests and credential-free discovery, not production submission.
+```bash
+python -m berean_translation tick --discover-only --publish
+python -m berean_translation tick --no-discover --publish --wait-seconds 600 --poll-seconds 60
+```
 
-See [AGENTS.md](AGENTS.md) for agent instructions and [the runtime contract](docs/runtime-contract.md) for invariants. Initial structural tests do not establish real theological translation quality; conduct a small representative, human-reviewed trial before authorizing a large multilingual campaign.
+The positive collection wait budget includes initial work and yields at resumable boundaries. An in-flight operation finishes its durable checkpoints. Prepared batches retain their exact payload and reservations for the next run. Unknown submissions do not keep a runner alive by themselves. Read-only source compatibility checks use `python -m berean_translation discover --check-only`.
 
-## Website publication
-
-The [Remnant website](https://github.com/trueChristian/remnant.truechristian.church)
-checks both source repositories' current `main` revisions on an hourly,
-best-effort schedule. It rebuilds when they differ from the last successful
-deployment and skips unchanged revisions. Failed deployments remain eligible for
-retry on a later check; scheduled start times are not guaranteed. Use **Run
-workflow** in the website repository to force a build and deployment immediately.
-
-This repository only maintains and validates its source data. Website export,
-build and deployment are owned by the website repository; no website notification
-credential or enablement variable is required here.
+See [AGENTS.md](AGENTS.md), [the current processing policy](docs/plain-translation-runtime.md), and [the retained publication/export contract](docs/runtime-contract.md#retained-accepted-publications). Older specialized Scripture documents and retired workflow fixtures explain historical provenance rather than current admission rules.
