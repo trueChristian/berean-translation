@@ -16,6 +16,10 @@ BOT_IDENTITY = ('-c', 'user.name=github-actions[bot]', '-c',
                 'user.email=41898282+github-actions[bot]@users.noreply.github.com')
 
 
+class NoHumanEditEvidence(ContractError):
+    """An explicit uncommitted, absent-history or bot-attributed path outcome."""
+
+
 class GitStore:
     def __init__(self, root: Path, publish: bool = False):
         self.root, self.publish = root, publish
@@ -125,13 +129,26 @@ class GitStore:
                                 'Run cancel for the same campaign from a fresh main checkout; '
                                 'retain the failed checkout for audit. No allocation was released.')
 
-    def human_edit_evidence(self, relative: str) -> dict:
-        if self.git('status', '--porcelain', '--untracked-files=all', '--', relative).stdout.strip():
-            raise ContractError('Human review edits must be committed before synchronization')
-        result = self.git('log','-1','--format=%H%n%an%n%ae%n%cI','--',relative).stdout.splitlines()
-        if len(result) != 4 or '[bot]' in (result[1] + result[2]).lower():
-            raise ContractError('Removing the notice must be committed by a human repository collaborator')
-        return dict(zip(('commit','author','email','time'),result))
+    def human_edit_evidence(self, relative: str, *, all_history: bool = False) -> dict:
+        status = self.git('status', '--porcelain', '--untracked-files=all', '--', relative).stdout
+        if status.strip():
+            # A first-publication intent may prove our own untracked bytes. It
+            # never proves authority over a tracked dirty/staged/deleted path.
+            if any(not line.startswith('?? ') for line in status.splitlines()):
+                raise ContractError('Human review edits must be committed before synchronization')
+            if not all_history:
+                raise NoHumanEditEvidence('Human review edits must be committed before synchronization')
+        args = ('log',) + (() if all_history else ('-1',))
+        result = self.git(*args, '--format=%H%n%an%n%ae%n%cI', '--', relative).stdout.splitlines()
+        if not result:
+            raise NoHumanEditEvidence('No committed path history establishes human ownership')
+        if len(result) % 4:
+            raise ContractError('Git human attribution history is incomplete')
+        for offset in range(0, len(result), 4):
+            item = result[offset:offset + 4]
+            if '[bot]' not in (item[1] + item[2]).lower():
+                return dict(zip(('commit','author','email','time'), item))
+        raise NoHumanEditEvidence('Removing the notice must be committed by a human repository collaborator')
 
     def publication_at_commit(self, publication: dict, commit: str) -> dict:
         if not re.fullmatch(r'[0-9a-f]{40}', commit):
