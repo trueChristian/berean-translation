@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b42426d9-d2f1-4595-8679-b64594f64ba8",
+    "response_id": "chatcmpl-EWVnDtv0MBJK3cOPXJyu5CW0AkFaa",
+    "usage": {
+      "completion_tokens": 286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10270,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8682,
+        "cached_tokens": 1585
+      },
+      "total_tokens": 10556
+    }
+  },
+  "received_at": "2026-10-08T03:02:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "/article[1]/p[17] (Myrtle’s closing reply); scripture_evidence.quotes",
+        "severity": "major",
+        "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+        "suggested_fix": "Obtain approved Scripture evidence and semantic alignment for this partial quotation of Romans 8:28, then replace only the quoted Scripture words with the corresponding approved contiguous target substring and add its scripture_selection entry. Preserve Myrtle’s attribution, quotation delimiters, and paragraph structure; do not expand the quotation or add a printed reference.",
+        "translation_quote": "״כל הדברים אכן פועלים יחד לטובה עבור האוהבים את אלוהים,״ השיבה מירטל."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

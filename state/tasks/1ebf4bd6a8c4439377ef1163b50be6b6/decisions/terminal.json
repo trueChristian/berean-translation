@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "/article[1]/p[17] (Myrtle’s closing reply); scripture_evidence.quotes",
+      "severity": "major",
+      "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+      "suggested_fix": "Obtain approved Scripture evidence and semantic alignment for this partial quotation of Romans 8:28, then replace only the quoted Scripture words with the corresponding approved contiguous target substring and add its scripture_selection entry. Preserve Myrtle’s attribution, quotation delimiters, and paragraph structure; do not expand the quotation or add a printed reference.",
+      "translation_quote": "״כל הדברים אכן פועלים יחד לטובה עבור האוהבים את אלוהים,״ השיבה מירטל."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
