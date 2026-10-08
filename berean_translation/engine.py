@@ -19,6 +19,7 @@ from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
 from . import downstream, autonomous, stage_budget, manual_admission, scripture_component_runtime as components
+from . import plain_policy
 from .attempts import archive, decision
 from .scripture_evidence import (ScriptureAttention, normalize_scripture_candidate,
     validate_scripture_candidate, freeze_scripture_evidence, policy as scripture_policy,
@@ -40,13 +41,104 @@ class Engine:
         self.state.component_gitstore = lambda: self.gitstore
 
     def checkpoint(self, message):
-        self.state.derive(self.config)
+        # Durable task/budget/provider checkpoints precede external effects.
+        # Aggregate reports are derived once at the end of a plain-policy pass.
+        if not plain_policy.enabled(self.config):
+            self.state.derive(self.config)
         self.gitstore.checkpoint(message)
+
+    def task_campaign(self, task):
+        campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
+        return plain_policy.effective_campaign(self.state, task, campaign)
+
+    def evaluation_campaign(self, task):
+        """Apply current acceptance to paid results without rewriting requests."""
+        campaign = self.task_campaign(task)
+        if plain_policy.enabled(self.config) and not plain_policy.is_plain(campaign):
+            campaign = copy.deepcopy(campaign)
+            campaign.update(plain_policy.frozen_fields(self.config))
+            campaign['quality_threshold'] = self.config.runtime['quality_threshold']
+            campaign['upgrade_quality_threshold'] = self.config.runtime['upgrade_quality_threshold']
+            campaign.pop('scripture_quotes', None)
+        return campaign
+
+    def validate_candidate(self, task, candidate):
+        plain = plain_policy.is_plain(self.evaluation_campaign(task))
+        if not plain:
+            validate_scripture_candidate(self.state, task, candidate)
+        validate_translation(self.state.source(task), candidate, language=task['language'],
+                             scripture_validation=not plain)
 
     def discover(self):
         discovered = self.source_client.discover()
         self.state.write('state/source.json',discovered)
+        if plain_policy.enabled(self.config):
+            paths = {}
+            for identity, article in discovered['articles'].items():
+                if article.get('source_error'):
+                    continue
+                snapshot = self.source_client.snapshot(identity)
+                path = f'state/sources/{json_hash(snapshot)}.json'
+                self.state.write(path, snapshot)
+                paths[identity] = path
+            self.state.write('state/source-snapshots.json', {
+                'revision': discovered['revision'], 'articles': paths})
         return discovered
+
+    def restore_source_cache(self):
+        """Use discovery's coherent immutable source set during collection."""
+        if self.source_client.index is not None:
+            return
+        inventory = self.state.read('state/source.json', {})
+        cache = self.state.read('state/source-snapshots.json', {})
+        if not cache or cache.get('revision') != inventory.get('revision'):
+            # One initial read seeds existing installations at policy activation.
+            self.discover()
+            return
+        snapshots = {}
+        for identity, path in cache.get('articles', {}).items():
+            snapshot = self.state.source({'source_snapshot': path})
+            article = inventory.get('articles', {}).get(identity)
+            if (not article or snapshot['article']['id'] != identity
+                    or snapshot['revision'] != cache['revision']
+                    or snapshot['translation_key'] != article['translation_key']):
+                raise ContractError('Cached English source identity changed')
+            snapshots[identity] = snapshot
+        self.source_client.revision = cache['revision']
+        self.source_client.index = inventory
+        self.source_client.snapshots = snapshots
+
+    def retire_legacy_unsubmitted(self):
+        """Retain old payloads/reservations; recover saved work with new policy.
+
+        Submitted and uncertain batches must be collected/reconciled normally.
+        Only a proven never-created prepared payload may be retired here.
+        """
+        if not plain_policy.enabled(self.config):
+            return
+        for batch in self.state.batches():
+            if (batch['status'] != 'prepared' or batch.get('remote_id')
+                    or batch.get('submission_started_at')):
+                continue
+            tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+            if not tasks or any(plain_policy.is_plain(self.task_campaign(task))
+                                or components.is_component(self.state, task) for task in tasks):
+                continue
+            batch.update(status='cancelled_before_submission', create_not_called=True,
+                         exclusion_reason='plain_translation_policy_retirement')
+            self.state.save_batch(batch)
+            for task in tasks:
+                task['failure_kind'] = 'policy_retired'
+                self.finish(task, 'not_ready', 'Retired unsubmitted contract; resume under plain translation policy')
+        for task in self.state.tasks():
+            if (task['status'] != 'queued' or plain_policy.is_plain(self.task_campaign(task))
+                    or components.is_component(self.state, task)):
+                continue
+            campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
+            if campaign.get('cancel_requested') or campaign.get('status') == 'acceptance_incomplete':
+                continue
+            task['failure_kind'] = 'policy_retired'
+            self.finish(task, 'not_ready', 'Retired queued contract; resume saved candidate under plain translation policy')
 
     def human_protected(self, language, article_id):
         record = self.state.record(language, article_id)
@@ -96,6 +188,8 @@ class Engine:
         return selected
 
     def eligible(self, article, language, operation, retry_failed, *, claim_index=None):
+        if article.get('source_error'):
+            return False, 'source_error'
         if manual_admission.covered(self.state, language, article['id'], article['translation_key'], claim_index=claim_index):
             return False, 'manual_admission_pending'
         record = self.state.record(language,article['id'])
@@ -232,6 +326,9 @@ class Engine:
                     'quality_threshold':self.config.runtime['quality_threshold']}
         from .review_contract import frozen_fields
         campaign.update(frozen_fields(self.config))
+        campaign.update(plain_policy.frozen_fields(self.config))
+        if plain_policy.is_plain(campaign):
+            campaign['upgrade_quality_threshold'] = self.config.runtime['upgrade_quality_threshold']
         if self.config.runtime.get('scripture_quotes_enabled', False):
             campaign['scripture_quotes'] = scripture_policy(self.config.root)
         if refresh:
@@ -294,6 +391,11 @@ class Engine:
                     'base_metadata_sha256':pub['metadata_sha256'] if pub else None,
                     'translation_model_actual':pub['model'] if pub else None,
                     'translation_attempts':0,'review_attempts':0,'events':[]}
+            if plain_policy.is_plain(campaign):
+                task.update(plain_policy.frozen_fields(self.config))
+                if operation == 'review' and pub:
+                    task['accepted_baseline'] = self.state.publication_candidate(pub)[0]
+                    task['baseline_quality_score'] = pub['quality_score']
             if operation == 'review':
                 candidate = (frozen_recovery[item['previous_task_id']]['candidate'] if recovery else
                              self.state.publication_candidate(pub)[0] if pub else self.state.candidate(previous))
@@ -331,9 +433,12 @@ class Engine:
 
     def accept_queue(self, *, continue_work=None):
         count = 0
-        for path in sorted((self.config.root/'state/queue').glob('*.json'), key=lambda p: (
+        paths = sorted((self.config.root/'state/queue').glob('*.json'), key=lambda p: (
                 p.stem.startswith('auto-'),
-                self.state.read(f'state/automatic-holds/{p.stem}.json', {}).get('last_checked_at', ''), p.name)):
+                self.state.read(f'state/automatic-holds/{p.stem}.json', {}).get('last_checked_at', ''), p.name))
+        if plain_policy.enabled(self.config):
+            paths = autonomous.fair_admission_paths(self.state, paths)
+        for path in paths:
             if not may_continue(continue_work):
                 break
             request = read_json(path)
@@ -399,15 +504,14 @@ class Engine:
         if task['protected'] or (pub and (pub['human_reviewed'] or pub.get('edit_issue'))):
             return self.finish(task,'proposal','AI suggestions never overwrite human-reviewed work')
         source, candidate = self.state.source(task),self.state.candidate(task)
-        validate_scripture_candidate(self.state, task, candidate)
-        validate_translation(source,candidate,language=task['language'])
+        self.validate_candidate(task, candidate)
         if pub:
             if (digest(read_regular_bytes(self.state.path(pub['html_path']))) != task['base_html_sha256'] or
                     json_hash(self.state.read(pub['metadata_path'])) != task['base_metadata_sha256']):
                 return self.finish(task,'proposal','Published content changed while this task was running')
         elif task['base_html_sha256'] is not None:
             return self.finish(task,'proposal','Previous publication changed or was removed')
-        campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
+        campaign = self.evaluation_campaign(task)
         model = task['translation_model_actual']
         if not model:
             raise ContractError('Cannot publish without the actual translation model identity')
@@ -419,6 +523,18 @@ class Engine:
             return self.finish(task,'proposal','Untracked existing translation files were not overwritten')
         text = candidate['html'].strip() + '\n\n' + footer + '\n'
         metadata = {k:candidate[k] for k in ('title','subtitle','section')}
+        if pub:
+            old_candidate, _, old_text = self.state.publication_candidate(pub)
+            archived = {'publication': copy.deepcopy(pub), 'html': old_text,
+                        'metadata': {key: old_candidate[key] for key in ('title', 'subtitle', 'section')}}
+            archive_path = (f'state/publication-history/{task["language"]}/{task["article_id"]}/'
+                            f'{json_hash(archived)}.json')
+            existing = self.state.read(archive_path)
+            if existing is not None and existing != archived:
+                raise ContractError('Accepted publication archive changed')
+            self.state.write(archive_path, archived)
+            record['history'].append({'event': 'publication_replaced', 'previous_task': pub['task'],
+                                     'task': task['id'], 'archive': archive_path, 'at': now()})
         write_text(self.state.path(html_path),text)
         self.state.write(metadata_path,metadata)
         record['published'] = {'html_path':html_path,'metadata_path':metadata_path,
@@ -428,6 +544,8 @@ class Engine:
                 'human_reviewed':False,'human_review':None,'notice_html':footer,
                 'html_sha256':digest(text),'metadata_sha256':json_hash(metadata),
                 'quality_score':task['quality_score'],'published_at':now(),'task':task['id']}
+        if plain_policy.is_plain(campaign):
+            record['published'][plain_policy.FIELD] = plain_policy.VERSION
         self.state.save_record(record)
         self.finish(task,'complete')
 
@@ -456,15 +574,33 @@ class Engine:
             self.state.write(f'state/tasks/{task["id"]}/results/{stage}.json',
                              {'result':result,'provenance':provenance,'received_at':now()})
             task['events'].append({'stage':stage,'model':provenance['model'],'usage':provenance['usage']})
-            campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
+            original_campaign = self.task_campaign(task)
+            campaign = self.evaluation_campaign(task)
+            plain = plain_policy.is_plain(campaign)
+            if plain and not plain_policy.is_plain(original_campaign):
+                task.setdefault('processing_policy', {
+                    plain_policy.FIELD: plain_policy.VERSION, 'applied_at': now(),
+                    'quality_threshold': campaign['quality_threshold'],
+                    'upgrade_quality_threshold': campaign['upgrade_quality_threshold'],
+                    'original_request_contract_sha256': json_hash({key: original_campaign.get(key)
+                        for key in ('prompt_version', 'prompts', 'review_contract_version',
+                                    'quality_threshold', 'scripture_quotes')})})
+                publication = self.state.record(task['language'], task['article_id']).get('published')
+                if (original_campaign['operation'] == 'review' and publication
+                        and 'accepted_baseline' not in task):
+                    baseline, _, _ = self.state.publication_candidate(publication)
+                    task['accepted_baseline'] = baseline
+                    task['baseline_quality_score'] = publication.get('quality_score')
             if stage in ('translate','correct'):
                 task['translation_model_actual'] = provenance['model']
                 raw_result = result
-                if campaign.get('scripture_quotes') and isinstance(result, dict) and all(k in result for k in ('html','title','subtitle','section')):
+                if original_campaign.get('scripture_quotes') and isinstance(result, dict) and all(k in result for k in ('html','title','subtitle','section')):
                     result = {k:result[k] for k in ('html','title','subtitle','section')}
+                    if plain:
+                        raw_result = result
                 self.state.save_candidate(task,result)
                 try:
-                    result = normalize_scripture_candidate(self.state, task, raw_result)
+                    result = raw_result if plain else normalize_scripture_candidate(self.state, task, raw_result)
                     self.state.save_candidate(task,result)
                     stage_budget.enforce(task, result)
                     if 'cycle_budget' in task:
@@ -474,7 +610,7 @@ class Engine:
                         except ContractError:
                             task['failure_kind'] = 'candidate_size_limit'
                             raise
-                    validate_translation(self.state.source(task),result,language=task['language'])
+                    self.validate_candidate(task, result)
                 except ContractError as exc:
                     diagnostic_findings = None
                     if (stage == 'translate' and not task.get('downstream_recovery')
@@ -501,8 +637,10 @@ class Engine:
                 task['quality_score'] = result.get('score')
                 task['findings'] = result.get('findings',[])
                 from .review_contract import frozen_version
-                passed = accepted_review(result, campaign['quality_threshold'],
-                                         contract_version=frozen_version(campaign))
+                from .requests import review_threshold
+                passed = accepted_review(result, review_threshold(campaign, task),
+                                         contract_version=frozen_version(campaign), plain_policy=plain,
+                                         source=self.state.source(task), candidate=self.state.candidate(task))
                 if result.get('findings_complete') is False:
                     # A partial report is evidence for attention, not permission
                     # to queue another paid correction or publish a candidate.
@@ -675,10 +813,13 @@ class Engine:
         scripture_policy = frozen_policy(campaign)
         if scripture_policy is None:
             return False
+        tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+        tasks = [task for task in tasks if not plain_policy.is_plain(self.task_campaign(task))]
+        if not tasks:
+            return False
         if scripture_policy.get('version') == '2':
             from .scripture_component_evidence import reject_component_runtime
             reject_component_runtime(scripture_policy)
-        tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
         try:
             for task in tasks:
                 load_evidence(self.state, task, require_fresh=True)
@@ -1031,13 +1172,40 @@ class Engine:
         self.state.derive(self.config)
         self.checkpoint('runtime: record campaign cancellation results')
 
-    def tick(self, *, discover_source=True, continue_work=None):
+    def tick(self, *, discover_source=True, discover_only=False, continue_work=None):
+        started_at = now()
+        published_before = { (record['language'], record['article_id']):
+                             (record.get('published') or {}).get('task') for record in self.state.records() }
         self.continue_work = continue_work
         manual_admission.restore_orphans(self.state)
         self.state.sync_human_reviews(self.gitstore)
         autonomous.settle(self)
+        plain = plain_policy.enabled(self.config)
+        if plain and not discover_only and may_continue(continue_work):
+            self.retire_legacy_unsubmitted()
+            # Already-funded results progress even if the English scan fails.
+            self.collect(continue_work=continue_work)
+            self.retire_legacy_unsubmitted()
+            autonomous.settle(self)
+        source_available = True
         if discover_source and may_continue(continue_work):
-            self.discover()
+            try:
+                self.discover()
+                self.state.write('state/discovery-status.json', {'observed_at': now(), 'status': 'complete'})
+            except ContractError as exc:
+                if not plain:
+                    raise
+                source_available = False
+                self.state.write('state/discovery-status.json', {
+                    'observed_at': now(), 'status': 'held', 'detail': str(exc)})
+        elif plain and not discover_only and may_continue(continue_work):
+            try:
+                self.restore_source_cache()
+            except ContractError as exc:
+                source_available = False
+                self.state.write('state/discovery-status.json', {
+                    'observed_at': now(), 'status': 'held', 'detail': str(exc)})
+        if (discover_source or plain and not discover_only) and source_available and may_continue(continue_work):
             if autonomous.owns_automatic_work(self.config, self.state):
                 if may_continue(continue_work):
                     autonomous.enqueue(self)
@@ -1051,18 +1219,18 @@ class Engine:
                 autonomous.stage_accepted(self, campaign)
         prepared = 0
         automatic = autonomous.owns_automatic_work(self.config, self.state)
-        if automatic and may_continue(continue_work):
+        if automatic and not plain and not discover_only and may_continue(continue_work):
             # Complete funded stages before potentially slow read-only Scripture
             # prefetch. A provider outage cannot starve already accepted work.
             self.collect(continue_work=continue_work)
             autonomous.settle(self)
             if may_continue(continue_work):
                 prepared = self.prepare(continue_work=continue_work)
-        if may_continue(continue_work):
+        if not discover_only and source_available and may_continue(continue_work):
             self.accept_queue(continue_work=continue_work)
-        if not automatic and may_continue(continue_work):
+        if not automatic and not plain and not discover_only and may_continue(continue_work):
             self.collect(continue_work=continue_work)
-        if may_continue(continue_work):
+        if not discover_only and may_continue(continue_work):
             self.prepare(continue_work=continue_work,
                          max_batches=max(0, self.config.runtime['max_batches_per_tick'] - prepared))
         autonomous.settle(self)
@@ -1092,6 +1260,13 @@ class Engine:
                 if status in manual_admission.UNFINISHED) for c in self.state.campaigns() if not c.get('cancel_requested'))}
         if heartbeat != snapshot:
             self.state.write('state/heartbeat.json',snapshot)
+        if plain:
+            self.state.write('state/last-collection.json', {
+                'started_at': started_at, 'completed_at': now(),
+                'operation': 'discover' if discover_only else 'collect',
+                'newly_published': sum(bool(record.get('published')) and
+                    record['published']['task'] != published_before.get((record['language'], record['article_id']))
+                    for record in self.state.records())})
         result = self.state.derive(self.config)
         self.checkpoint('runtime: update source discovery and translation publication index')
         return result

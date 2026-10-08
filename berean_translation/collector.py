@@ -12,7 +12,7 @@ MIN_POLL_SECONDS = 30
 MAX_POLL_SECONDS = 300
 
 
-def collect_window(engine, *, wait_seconds=0, poll_seconds=60,
+def collect_window(engine, *, wait_seconds=0, poll_seconds=60, discover_source=True,
                    monotonic=time.monotonic, sleep=time.sleep):
     """Run once, then poll while submitted work remains and time permits.
 
@@ -28,12 +28,20 @@ def collect_window(engine, *, wait_seconds=0, poll_seconds=60,
         raise ContractError(f'Collector wait must be 0..{MAX_WAIT_SECONDS} seconds')
     if type(poll_seconds) is not int or not MIN_POLL_SECONDS <= poll_seconds <= MAX_POLL_SECONDS:
         raise ContractError(f'Collector poll interval must be {MIN_POLL_SECONDS}..{MAX_POLL_SECONDS} seconds')
+    if type(discover_source) is not bool:
+        raise ContractError('Source discovery selection must be boolean')
+    from .state import State
+    actual_state = isinstance(engine.state, State)
+    before_batches = {b['id']: (b['status'], b.get('remote_id')) for b in engine.state.batches()} if actual_state else {}
+    before_tasks = {t['id'] for t in engine.state.tasks()} if actual_state else set()
+    before_publications = {(r['language'], r['article_id']): r.get('published', {}).get('task')
+                           for r in engine.state.records() if r.get('published')} if actual_state else {}
     deadline = monotonic() + wait_seconds
     continue_work = (lambda: monotonic() < deadline) if wait_seconds else None
     if continue_work is None:
-        engine.tick()
+        engine.tick(**({} if discover_source else {'discover_source': False}))
     else:
-        engine.tick(continue_work=continue_work)
+        engine.tick(discover_source=discover_source, continue_work=continue_work)
     ticks = 1
     while True:
         pending = sum(batch['status'] in ('submitted', 'cancelling')
@@ -58,5 +66,18 @@ def collect_window(engine, *, wait_seconds=0, poll_seconds=60,
         # Reuse the coherent source snapshot read once at the start of this run.
         engine.tick(discover_source=False, continue_work=continue_work)
         ticks += 1
+    statistics = {}
+    if actual_state:
+        after = engine.state.batches()
+        statistics = {
+            'batches_collected': sum(b['status'] == 'collected' and
+                                     before_batches.get(b['id'], (None, None))[0] != 'collected' for b in after),
+            'batches_submitted': sum(bool(b.get('remote_id')) and
+                                     not before_batches.get(b['id'], (None, None))[1] for b in after),
+            'tasks_created': sum(t['id'] not in before_tasks for t in engine.state.tasks()),
+            'translations_published': sum(r.get('published') is not None and
+                r['published'].get('task') != before_publications.get((r['language'], r['article_id']))
+                for r in engine.state.records())}
     return {'ticks': ticks, 'stop_reason': reason, 'submitted_batches': pending,
+            'discover_source': discover_source, **statistics,
             'wait_budget_seconds': wait_seconds, 'poll_interval_seconds': poll_seconds}

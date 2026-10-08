@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 from uuid import uuid4
-from .common import ContractError, csv_values, loads, read_json, write_json
+from .common import ContractError, csv_values, loads, now, read_json, write_json
 from .collector import collect_window
 from .config import Config
 from .engine import Engine
@@ -16,6 +16,7 @@ from .queue import enqueue_github
 from .source import SourceClient
 from .state import State
 from .validation import export, validate_repository
+from . import plain_policy
 
 
 def env_bool(name, default=False):
@@ -86,6 +87,11 @@ def main(argv=None):
     discover.add_argument('--check-only',action='store_true')
     worker = commands.add_parser('tick')
     worker.add_argument('--publish',action='store_true')
+    mode = worker.add_mutually_exclusive_group()
+    mode.add_argument('--discover-only', action='store_true',
+                      help='Read coherent English source and queue work without calling OpenAI')
+    mode.add_argument('--no-discover', action='store_true',
+                      help='Collect and resume using the last coherent discovered source snapshot')
     worker.add_argument('--wait-seconds',type=int,default=0,
                         help='Bounded active-work pickup window (0..900 seconds; default: one tick)')
     worker.add_argument('--poll-seconds',type=int,default=60,
@@ -117,6 +123,8 @@ def main(argv=None):
         elif args.command == 'derive':
             result = state.derive(config)
         elif args.command in ('inspect-scripture-components', 'enqueue-scripture-components-env'):
+            if plain_policy.enabled(config):
+                raise ContractError('Scripture processing is retired; use ordinary translation or improvement review')
             from .scripture_component_plans import (ChapterProvider, inspect_jacques, build_request,
                 validate_request as validate_component_request, external_path)
             enqueue = args.command == 'enqueue-scripture-components-env'
@@ -215,10 +223,26 @@ def main(argv=None):
             if os.environ.get('OPENAI_API_KEY') and not args.publish:
                 raise ContractError('Real-key collection and maintenance require --publish for durable checkpoints')
             store = GitStore(config.root,publish=args.publish)
-            provider = OpenAIProvider() if os.environ.get('OPENAI_API_KEY') else None
+            provider = (OpenAIProvider() if os.environ.get('OPENAI_API_KEY')
+                        and not getattr(args, 'discover_only', False) else None)
             engine = Engine(config,SourceClient(config),provider,store)
             if args.command == 'tick':
-                collection = collect_window(engine,wait_seconds=args.wait_seconds,poll_seconds=args.poll_seconds)
+                window_started_at = now()
+                if args.discover_only:
+                    engine.tick(discover_only=True)
+                    collection = {'ticks': 1, 'stop_reason': 'discovery_complete', 'submitted_batches': 0}
+                else:
+                    collection = collect_window(engine,wait_seconds=args.wait_seconds,poll_seconds=args.poll_seconds,
+                                                discover_source=not args.no_discover)
+                if plain_policy.enabled(config):
+                    report = state.read('state/last-collection.json', {})
+                    report.update(started_at=window_started_at, completed_at=now(),
+                                  collection=collection)
+                    if 'translations_published' in collection:
+                        report['newly_published'] = collection['translations_published']
+                    state.write('state/last-collection.json', report)
+                    state.derive(config)
+                    engine.checkpoint('runtime: report completed collection window')
                 result = validate_repository(config)
                 result['api_key_configured'] = bool(provider)
                 result['collection'] = collection
