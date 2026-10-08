@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html: /article[1]/p[16] (Myrtle’s closing reply); scripture_evidence.quotes",
+      "severity": "major",
+      "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+      "suggested_fix": "Retrieve approved Scripture evidence for this additional partial quotation of Romans 8:28 and add its evidence alignment and scripture selection. Then replace only the quoted words with the exact semantically corresponding contiguous substring of the approved target verse. Preserve the paragraph, quotation delimiters, speaker attribution, and absence of a printed citation; do not expand to the whole verse.",
+      "translation_quote": "«Alle ting virker sammen til det gode for dem som elsker Gud», svarte Myrtle."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

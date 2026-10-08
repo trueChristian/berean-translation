@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "467708ee82614d3da55063a7bd896792",
   "campaign": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
   "created_at": "2026-10-07T13:54:19+00:00",
   "events": [
@@ -28,18 +27,40 @@
         },
         "total_tokens": 12313
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 327,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 144,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10668,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10665,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10995
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «Den kvelden snakket familien igjen»",
+      "location": "source.html and translation.html: /article[1]/p[16] (Myrtle’s closing reply); scripture_evidence.quotes",
       "severity": "major",
-      "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
-      "suggested_fix": "Bytt «Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham» med «Hvis brevet hadde kommet fram til bror Oscar».",
-      "translation_quote": "Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham, ville de ha gjort seg klare til å ta imot oss."
+      "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+      "suggested_fix": "Retrieve approved Scripture evidence for this additional partial quotation of Romans 8:28 and add its evidence alignment and scripture selection. Then replace only the quoted words with the exact semantically corresponding contiguous substring of the approved target verse. Preserve the paragraph, quotation delimiters, speaker attribution, and absence of a printed citation; do not expand to the whole verse.",
+      "translation_quote": "«Alle ting virker sammen til det gode for dem som elsker Gud», svarte Myrtle."
     }
   ],
+  "finished_at": "2026-10-08T10:26:10+00:00",
   "id": "9db500695d5cff94f2eba61a919b4dbf",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -128,9 +149,11 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "scripture_evidence_path": "state/scripture/e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98.json",
   "scripture_evidence_sha256": "e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
@@ -146,7 +169,7 @@
     "total_reserved_usd": 1.157855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6.1-sol"
