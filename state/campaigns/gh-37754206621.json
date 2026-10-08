@@ -2412,5 +2412,6 @@
   "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
   "status": "admission_attention",
   "structural_feedback_version": "1",
+  "task_counts": {},
   "tasks": []
 }
