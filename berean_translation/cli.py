@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 from uuid import uuid4
-from .common import ContractError, csv_values, loads, read_json
+from .common import ContractError, csv_values, loads, read_json, write_json
 from .collector import collect_window
 from .config import Config
 from .engine import Engine
@@ -44,6 +44,27 @@ def manual_repair_authorization(request):
             'actor': request.get('requested_by')}
 
 
+def component_authorization():
+    from .scripture_component_plans import WORKFLOW
+    repository = os.environ.get('GITHUB_REPOSITORY', '')
+    workflow = repository + '/' + WORKFLOW + '@refs/heads/main'
+    if (os.environ.get('GITHUB_ACTIONS') != 'true'
+            or os.environ.get('GITHUB_EVENT_NAME') != 'workflow_dispatch'
+            or os.environ.get('GITHUB_REF') != 'refs/heads/main'
+            or os.environ.get('GITHUB_WORKFLOW_REF') != workflow):
+        raise ContractError('Component selection requires the trusted main Scripture workflow_dispatch context')
+    return {'kind': 'github_workflow_dispatch', 'repository': repository,
+            'workflow_ref': workflow, 'run_id': os.environ.get('GITHUB_RUN_ID', ''),
+            'actor': os.environ.get('GITHUB_ACTOR', '')}
+
+
+def component_summary(package):
+    return {key: package[key] for key in ('sha256', 'source_sha256', 'current_source_revision',
+            'holds', 'funding_allocated', 'publication_ready', 'selected_entry_ids')} | {
+        'evidence_backed_entries': [{key: item[key] for key in ('entry_id', 'language', 'stage_budget')}
+                                   for item in package['entries']]}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=Path.cwd())
@@ -52,6 +73,15 @@ def main(argv=None):
     validation.add_argument('--recognize-human-edits',action='store_true')
     commands.add_parser('derive')
     commands.add_parser('enqueue-env')
+    components = commands.add_parser('inspect-scripture-components',
+        help='Read-only bounded Jacques source/evidence inspection; no admission or model calls')
+    components.add_argument('--evidence-dir', type=Path)
+    components.add_argument('--fetch-evidence', action='store_true',
+        help='Explicitly fetch missing anonymous approved GetBible chapter envelopes')
+    components.add_argument('--output', type=Path,
+        help='Write the complete hash-bound package outside the repository')
+    commands.add_parser('enqueue-scripture-components-env',
+        help='Trusted main workflow only; dry-run and empty selection by default')
     discover = commands.add_parser('discover')
     discover.add_argument('--check-only',action='store_true')
     worker = commands.add_parser('tick')
@@ -86,6 +116,42 @@ def main(argv=None):
             result = validate_repository(config)
         elif args.command == 'derive':
             result = state.derive(config)
+        elif args.command in ('inspect-scripture-components', 'enqueue-scripture-components-env'):
+            from .scripture_component_plans import (ChapterProvider, inspect_jacques, build_request,
+                validate_request as validate_component_request, external_path)
+            enqueue = args.command == 'enqueue-scripture-components-env'
+            authorization = component_authorization() if enqueue else None
+            raw_selection = os.environ.get('INPUT_ENTRY_IDS', '').strip() if enqueue else ''
+            selected = csv_values(raw_selection) if raw_selection else []
+            dry_run = env_bool('INPUT_DRY_RUN', True) if enqueue else True
+            output = os.environ.get('SCRIPTURE_COMPONENT_PLAN_OUTPUT') if enqueue else args.output
+            output = external_path(config.root, output) if output else None
+            identity = 'component-gh-' + authorization['run_id'] if enqueue else None
+            previous = state.read(f'state/queue/{identity}.json') if enqueue else None
+            if previous is not None:
+                validate_component_request(config, previous)
+                if previous['authorization'] != authorization or previous['selected_entry_ids'] != selected:
+                    raise ContractError('This workflow run already has a different immutable component selection')
+                # A rerun cannot refresh timestamps/evidence and replace its request.
+                result = {'already_queued': True, 'request': identity,
+                          'selected_entry_ids': selected, 'publication_ready': False}
+            else:
+                if enqueue and not dry_run and not selected:
+                    raise ContractError('Admission requires an explicit nonempty list of inspected entry IDs')
+                directory = os.environ.get('SCRIPTURE_COMPONENT_EVIDENCE_DIR') if enqueue else args.evidence_dir
+                provider = ChapterProvider(config.root, directory, fetch=True if enqueue else args.fetch_evidence)
+                # No OpenAI provider, tick, discovery State write, or Git checkpoint.
+                engine = Engine(config, SourceClient(config), None, GitStore(config.root, publish=False))
+                package = inspect_jacques(engine, provider)
+                if output:
+                    write_json(output, package)
+                result = component_summary(package)
+                result.update(dry_run=dry_run, requested_entry_ids=selected)
+                if not dry_run:
+                    request = build_request(package, selected, request_id=identity, authorization=authorization)
+                    result['queue'] = enqueue_github(config, request, authorization['repository'], os.environ.get('GH_TOKEN', ''))
+                elif not output and not enqueue:
+                    result = package
         elif args.command == 'enqueue-env':
             if os.environ.get('GITHUB_REF') != 'refs/heads/main':
                 raise ContractError('Manual paid-work requests must run from main')
