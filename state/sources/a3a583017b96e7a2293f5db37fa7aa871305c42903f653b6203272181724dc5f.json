@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Jennifer René Daniel"
+        }
+      ],
+      "raw": "Jennifer René Daniel"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "494ad7cd-d4b9-41d4-b393-52c277f86298",
+    "images": [
+      {
+        "alt": "Mountain road and buildings with the printed poem over the landscape",
+        "caption": null,
+        "credit": null,
+        "height": 321,
+        "public_path": "/images/articles/494ad7cd-d4b9-41d4-b393-52c277f86298-1.jpg",
+        "repository_path": "public/images/articles/494ad7cd-d4b9-41d4-b393-52c277f86298-1.jpg",
+        "rights_note": "No image credit or separate licence is printed. Extracted the only image object 122 (504 × 321), preserving the complete landscape and orientation. The title, full poem, and author name are irreversibly baked into this single source raster; no clean background, separate mask, or text overlay exists. Removing them by crop would discard most of the composed illustration, so the exact source composition is retained under the documented unavoidable-overlay exception. The thin separately painted page rule/frame is omitted. The poem is also transcribed as semantic HTML. Grayscale source converted to baseline sRGB JPEG with native dimensions and nonzero 72-dpi density; no CMYK inversion or synthesized pixels.",
+        "role": "poem illustration",
+        "sequence": 1,
+        "source_page": 31,
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note"
+        },
+        "width": 504
+      }
+    ],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "If Christ is My Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e15fa3f556d3f6b2ec38b4d189d492665136d31765a5d148c91c3ca00b15d833",
+    "metadata_sha256": "73230c1f76b32b11e82c2ecff88971c7171fdac077ee8f2beeed159686aca6f3",
+    "structure_sha256": "9f7024186954efa3bb3a368a798adcb5febc60497cfeb41ded628dddcbbc3725",
+    "text_sha256": "d26a41cf005a0a861572b325fb7e5ca4be09269ca84fae94d4941a8614b5e191",
+    "translation_metadata_sha256": "55f709849833a39b456493e096f3e61e6e6c8816a06b188802f93cc91436bc9a"
+  },
+  "html": "<article data-article-id=\"494ad7cd-d4b9-41d4-b393-52c277f86298\">\n<figure><img src=\"/images/articles/494ad7cd-d4b9-41d4-b393-52c277f86298-1.jpg\" alt=\"Mountain road and buildings with the printed poem over the landscape\"></figure>\n  <p class=\"poem\"><strong>If Christ is my life, I would value each day<br>\nTo follow His precepts, to heed and obey,<br>\nTo seek His approval in all that I am,<br>\nTo live out His purpose, to fulfill His plan.</strong></p>\n  <p class=\"poem\"><strong>The things of this life will seem mundane and small<br>\nWhen He is my mainstay, who gave up His all,<br>\nThe hopes and ambitions which consumed my time<br>\nWill fade into nothing when His will is mine.</strong></p>\n  <p class=\"poem\"><strong>If Christ is my life, I'd be burdened with prayer<br>\nThat all whom I influence will meet Him ‘up there’.<br>\nMy life will have meaning—be wrapped up in Him<br>\nWho loved me and saved me and freed me from sin.</strong></p>\n  <p><strong>Jennifer René Daniel</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "bfbaf6d59c82c408cb3ba3333feb0933ed6a21ca182aed1b1e9fd75918d96182"
+}

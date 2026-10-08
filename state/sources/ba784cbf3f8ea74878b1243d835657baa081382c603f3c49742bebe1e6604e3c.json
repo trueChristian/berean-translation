@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Maryland",
+          "name": "Krislyn Shank",
+          "role": null
+        }
+      ],
+      "raw": "Krislyn Shank (age 17) Maryland"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6fb626a6-774a-43be-8268-918f4adcaffc",
+    "images": [],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Free Indeed",
+    "topics": [
+      "f17883d4-d170-5dff-b66c-e13eaa0557af"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a1d4e28e95a68123231744579a3c19f88397d94edba701b2e34aa294ee485742",
+    "metadata_sha256": "ecc1f43badded062cc1e53a7b81cdd43ccd639fed485a297831036ae1866c0a4",
+    "structure_sha256": "86d162d69bbfbf94742494e262e7e15f93271551eb42e3d6ab013f5eda579bde",
+    "text_sha256": "2181b006aea58d91182e6a3f8537cc690d96db494a2408aff384fa74d1098eb6",
+    "translation_metadata_sha256": "40ce713fadd8c5c70f53e8c7ccbb7790544ff79966b107f4f8bb1986f796cfc4"
+  },
+  "html": "<article data-article-id=\"6fb626a6-774a-43be-8268-918f4adcaffc\">\n  <p class=\"poem\">You say you are free;<br>Yet you are bound<br>To pleasure,<br>To hate,<br>To the opinions of your peers.</p>\n  <p class=\"poem\">I say I am bound;<br>Yet I am free<br>For service,<br>For love,<br>For submission to the will of my God.</p>\n  <p class=\"poem\">And in this my bound liberty,<br>I am far more free<br>Than you are<br>In your liberated bondage.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c38582f8786a992765911fd38e3fadee49667b0cdd709f69b761f80c6c369c83"
+}

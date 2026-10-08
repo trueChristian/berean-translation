@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "d1c8d979-0219-4f2c-ae8b-5f1a584c118c",
+    "images": [
+      {
+        "alt": "Courtroom illustration with a man raising one hand, another man behind a rail, and a seated judge",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d1c8d979-0219-4f2c-ae8b-5f1a584c118c-1.jpg",
+        "repository_path": "public/images/articles/d1c8d979-0219-4f2c-ae8b-5f1a584c118c-1.jpg",
+        "rights_note": "Clean embedded courtroom illustration object 94 exported with the rightmost one pixel omitted to match its 282.18-point published clipping width against the 282.7175-point image transform. No rotation or flip. Article title, body, double frame and surrounding grey article panel are separate page layout and omitted; the image’s own flat grey background is intrinsic to the sole base raster and is retained without alteration. Raw image dictionary, page resources, paint order, rectangular clipping, and graphics state object 232 inspected. This is a single untiled DeviceGray base image with no soft mask or transparency group and no opacity/fade overlay. No image-specific credit or reuse restriction is printed. Grayscale channels expanded to RGB and saved as baseline sRGB JPEG with embedded sRGB profile, 300 dpi density, terminal EOI and no trailing bytes. Full Pillow and FFmpeg decoding passed without warnings; Skia Canvas rendering passed. Final image opened and visually compared with the rendered PDF and raw base at full useful resolution, including centre, edges and corners. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            588,
+            620
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded published crop only",
+          "output_dimensions": [
+            588,
+            620
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            589,
+            620
+          ],
+          "source_object": 94
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "My Substitute",
+    "topics": [
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c0eabdd802462334598e6478752d4311eaf509d12124ca732503295338c4ba5f",
+    "metadata_sha256": "a4d82f64d159ef2ca9330b0a405392b0adbbda2739682bd79b722bbff7f77a19",
+    "structure_sha256": "8a9206b72807d2992156990408941e900d3440331dbec9b4aab76dccba4c7b17",
+    "text_sha256": "8e69725f62d535d54effdc08ebb78a524b1a64b27e00f30cb3a34535f6095213",
+    "translation_metadata_sha256": "7510333d94c3ef19bd3d31ad36370d568190248c7c0c8ab0b40df3aee331a844"
+  },
+  "html": "<article data-article-id=\"d1c8d979-0219-4f2c-ae8b-5f1a584c118c\">\n  <figure><img src=\"/images/articles/d1c8d979-0219-4f2c-ae8b-5f1a584c118c-1.jpg\" alt=\"Courtroom illustration with a man raising one hand, another man behind a rail, and a seated judge\"></figure>\n  <p>When I was a boy, I saw a sight I never can forget—a man tied to a cart, and dragged before the people’s eyes through the streets of my native town, his back torn and bleeding from the lash. It was a shameful punishment. For many offences? No; for ONE offence.</p>\n  <p>Did any of the townsmen offer to divide the lashes with him? No; he who committed the offence bore the penalty alone.</p>\n  <p>When I was a student at the University, I saw another sight I can never forget—a man brought out to die. His arms were pinioned, his face was pale as death—thousands of eyes were upon him as he came up from the jail in sight. Did any man ask to die in his place? Did any friend come and loose the rope, and say, “Put it round my neck, and I will die in his stead?” No; he underwent the sentence of the law. For many offenses? No; for ONE offense.</p>\n  <p>I saw another sight (it matters not when) myself a sinner, standing on the brink of ruin, deserving naught but hell. For one sin? No; for many. Many sins committed against the unchanging laws of God. But again I looked, and saw JESUS, my Substitute, scourged in my stead, and dying on the cross for me. I looked, and cried. I claimed Him as my Saviour, and was forgiven. I realized that He had taken my place—and thanked God for giving Him to die in my stead.</p>\n  <p>How simple it all becomes when God opens our eyes! The law demands justice; the Gospel delights in mercy, through satisfied justice. Moses blesses the law-doer; Jesus pardons the law-breaker, the guilty, and saves the lost.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "dc98bf303ddbb73f1ffa95d8fd1582eec6b2f6c2e6b137132765ffc335389497"
+}

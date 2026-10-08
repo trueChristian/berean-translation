@@ -1,0 +1,310 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Kara White"
+        }
+      ],
+      "raw": "by Kara White"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "2ca55998-a516-4fe9-996e-cced67d11aa7",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-1.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-1.jpg",
+        "rights_note": "Clean embedded sunburst object 151, repeated on pages 28–31; represented once. Rotated 180 degrees to match the PDF matrix. Pale tone is intrinsic to the sole flattened raster, with no separable opacity, soft mask or recoverable darker base. Separate section title, byline and gray rules omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "decorative background",
+        "sequence": 1,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            1050,
+            388
+          ],
+          "rotation_degrees": 180,
+          "source_dimensions": [
+            1050,
+            388
+          ],
+          "source_object": 151
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Young women sitting with an older woman during a visit.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-2.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-2.jpg",
+        "rights_note": "Embedded photograph object 100; the black frame, outer white surround and drop shadow are baked into the only raster. A source-pixel crop just inside the frame removes those treatments without synthesizing pixels. Intrinsic camera date stamp retained. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            510,
+            380
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            508,
+            378
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            532,
+            400
+          ],
+          "source_object": 100
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Two women sitting together in a living room.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-3.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-3.jpg",
+        "rights_note": "Embedded photograph object 104; a source-pixel crop just inside its baked black frame removes the frame, outer white surround and drop shadow. Intrinsic camera date stamp retained. No synthetic pixels. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 29,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            507,
+            380
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            505,
+            378
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            529,
+            400
+          ],
+          "source_object": 104
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Four women seated around a dining table.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-4.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-4.jpg",
+        "rights_note": "Embedded photograph object 108; a source-pixel crop just inside its baked black frame removes the frame, outer white surround and drop shadow. No synthetic pixels. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 4,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            580,
+            352
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            578,
+            350
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            600,
+            381
+          ],
+          "source_object": 108
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Young women visiting an older woman in a living room.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-5.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-5.jpg",
+        "rights_note": "Embedded photograph object 109; a source-pixel crop just inside its baked black frame removes the frame, outer white surround and drop shadow. No synthetic pixels. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 5,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            571,
+            380
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            569,
+            378
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            595,
+            400
+          ],
+          "source_object": 109
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Four women seated together in a living room.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-6.jpg",
+        "repository_path": "public/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-6.jpg",
+        "rights_note": "Embedded photograph object 113; a source-pixel crop just inside its baked black frame removes the frame, outer white surround and drop shadow. Intrinsic camera date stamp retained. No synthetic pixels. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 6,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            507,
+            380
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            505,
+            378
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            531,
+            400
+          ],
+          "source_object": 113
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 28
+    },
+    "subtitle": "Ministry to Area Widows from Zion Christian Fellowship, Wellman, IA",
+    "title": "Sonshine Girls",
+    "topics": [
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "d7a5df6e-661e-5089-a9bb-9a979b04a6f6"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "31f1ad2888d52271168361133a39820ec6c9da7f4898546ad66efa722ba4bc0d",
+    "metadata_sha256": "d9cfa8e8f9a6693234cd6c129491d9a9b5d52d0b5dacb18f63f659b9f7382647",
+    "structure_sha256": "5cb7fbef250ef9bc8fdde407fa5e9a075513fc3f0e488c0513e939894a947ddd",
+    "text_sha256": "db537a3b951e83533645fa48eb578f6f4913f71907b9e6b66d4f729d47a4b073",
+    "translation_metadata_sha256": "bbefcbed6dc0d1b430a8381a21329e9fe7847d3ae2154ed409c2e4f57b73083d"
+  },
+  "html": "<article data-article-id=\"2ca55998-a516-4fe9-996e-cced67d11aa7\">\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-1.jpg\" alt=\"\"></figure>\n  <blockquote><p><em>“Pure religion before God and the Father is this, to visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.” James 1:27</em></p></blockquote>\n  <p>The ministry of visiting widows has provided an amazing amount of opportunities and blessings into our lives as young ladies at Zion Christian Fellowship in Wellman, Iowa. We trust it has also touched the lives of those to whom we minister. When I returned from five months in Africa, I felt like a fifth wheel - not sure where I fit in our church and community. I wanted to be doing something for the Kingdom of God. After hearing the overflow of our Pastor’s wife’s heart for the multitude of area widows- I began seeking some way I could reach out to them.</p>\n  <p>In January of 2004, a few months after my return, this ministry was born and has provided an outlet for my desire to touch others for God’s glory. I remember an article in the Remnant in which there was a picture of a young woman knocking on a door in the wintertime, and Brother Denny shared how to get into homes and share the gospel. We have found so much freedom to share Jesus Christ with these ladies as they welcome us in to sing, share and pray. One of the ladies referred to us as the ‘Sonshine Girls’ and the name stuck. I’ve marveled at the experiences we’ve had just opening God’s Word by way of testimony or from a special blessing in our personal devotions. Also, songs will often lead into spiritual discussions. The response to God’s Word is very revealing. Some enter into the conversation with enthusiasm, while others listen quietly or change the subject whenever spiritual topics arise. Yet, whether they respond or not, we have sowed a seed that later they can ponder in their quiet moments. Occasionally our efforts reach beyond the older ladies to a visiting granddaughter or son who arrives while we are there. The widows are usually anxious to introduce us and have us sing a song for them. An unexpected captive audience provides a golden opportunity for that soul to be touched and potentially changed for a lifetime by listening to a hymn, hearing a testimony or closing prayers.</p>\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-2.jpg\" alt=\"Young women sitting with an older woman during a visit.\"></figure>\n  <p>When we began, four girls were going out on Tuesdays and ministering to ladies we knew who lived alone. Gathering at the church at 3:30 we prayed together before heading out. We scheduled the first stop for 4:00, then 5:00, ate supper together at 6:00 and saw one more lady at 7:00. Soon we were running out of contacts, so I talked to a Mennonite neighbor lady who is well acquainted with the people in this area. She proved to be a valuable asset as she provided list after list whenever we needed more contacts. These ladies were, almost without fail, people I had never heard of, so I usually used my neighbor’s name as a point of reference when making arrangements to visit in the ladies’ homes. I would call Monday evening or Tuesday morning to ask if we girls could sing for them. I often introduced us using our church name. The best time to reach them seemed to be around 7:00p.m. We would meet back at church around 8:30 to pick up our cars, allowing us to be home by 9:00.</p>\n  <p>As the ministry has developed, more girls have become involved. We now have 3-4 groups of 3-5 girls, each with their own ‘circuit’. We try to keep our groups consistent. Presently we have 3 regular group leaders and 3 assistant leaders. When a group leader can’t come the assistant takes over. This prevents the widow from needing to adjust to a whole new group of girls. This is important not only for the widows’ sake, but also for us as we build relationships with them and get to know where they are spiritually and how to reach out to them in meaningful ways.</p>\n  <p>Due to other responsibilities not all the girls can come every week. The first and third week we just visit two widows with those girls who can come, and all get together the second week- including eating supper(each bringing one dish) as a group at the church or in a church family’s home. The fourth week we usually see 2-3 widows and take supper to eat with them. That is a very special time of blending hearts in a more informal setting.</p>\n  <p>With different ladies we naturally have different responses to our visits. Some are nominal Christians, others vibrant; some quiet and reserved, others vivacious and talkative. Our visits have included some from Amish, Mennonite, Methodist, and Community Christian Churches. On the phone some sound like they aren’t looking forward to our visit but then when we arrive they receive us very warmly. Others bubble over from the start, so thankful to have someone visit. Most thank us for coming and ask us to come back again. There have been, however a few that we have dropped. In one instance the lady seemed cool toward us and sat through our visits with hardly a word. Since she didn’t have a phone visits couldn’t easily be pre-arranged to give her opportunity to say ‘no’. After 3 or so visits I realized the need to approach her and see whether she wanted us to come back. I finally asked her if she would rather us stop coming, while making it clear we want to keep coming if it would be a blessing to her. She confirmed she’d rather we not come. It was a burden and a relief to my heart to let her go, as she seemed to really need salvation; yet I hated to impose upon her if she resented us intruding into her life. Soon after that, the caretaker of one of our ladies called and said she’d like us to stop coming. With 3 rejections of this kind in a relatively short time I was beginning to feel nervous about calling to make arrangements for our visits. While sharing this with one of the other girls she said, “If we don’t open ourselves up to rejection we’ll never be able to minister...” That was so true and what I needed to hear. After all, the Word of God does speak of believers not being popular with the world and expecting to receive persecution.</p>\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-3.jpg\" alt=\"Two women sitting together in a living room.\"></figure>\n  <p>If I can’t handle these little tests how will I endure much worse things? Yet, of the 40-50 widows/single ladies visited, we rarely have one who wants to be dropped. In fact it can be overwhelming at times when realizing the huge number of widows all around us! We can’t hope to reach them all, but ministering to the ones we can has been a tremendous blessing. Recently we’ve stopped adding ladies to our list as fewer girls have been available during the busy summer months. This makes it hard when we hear of a lady who was informed by a friend of our visits and said with disappointment- “they never came to visit me...” Truly, the opportunities abound to reach out and bless others!</p>\n  <p>Our goals for this ministry are: to provide encouragement, to bring Jesus to those who are unsaved, and to give opportunity for the ladies to share their wisdom with us. We sing a good part of the evening, share impromptu testimonies, meaningful Bible verses, small talk, ask questions, etc. During our first time or two we often ask how they came to know the Lord - assuming we feel they would be comfortable with the question. Their answers help us see where they are spiritually. One thing which we have found most precious and valuable is closing with prayer. The group leader usually asks them if they have any special need they’d like us to pray about and then opens it up for anyone to pray. Their requests include a physical need, a wayward grandson, or a desire to be faithful to the end. Some pray out loud with us and others don’t. Often we get a glimpse into their hearts at this point that we may not see so much otherwise. Tears sometimes flow and very often they thank us sincerely for praying for them. Some, who are more reserved, express gratefulness in their prayer for our visit though they wouldn’t have the courage to say it to us directly.</p>\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-4.jpg\" alt=\"Four women seated around a dining table.\"></figure>\n  <p>Some of our visits stand out from the rest as especially meaningful. One sweet, quiet lady when asked if we could pray for her shared that, yes, she’d like us to pray for her because she’s been discouraged. When the last of us girls prayed and we opened our eyes there were fresh tears on her cheeks. Who knows if our being there may have lifted her back up to hope that was almost gone? Another lady surprised us with tears before we had even started to sing. With a shaky voice she told us as we looked for our first hymn number that we shouldn’t mind her if she starts to cry, but some of these songs are just so meaningful to her! It has been amazing to see even those whose guest books are full touched by the type of visit we give. That is our desire, by God’s grace to meet a need that otherwise is unmet in the hearts of these dear ladies.</p>\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-5.jpg\" alt=\"Young women visiting an older woman in a living room.\"></figure>\n  <p>Another special visit was when it was just one other girl and I, and we had arranged to see a widow lady I had come to know and love over the months of visiting. We planned to do something special since we just had two in our group. We brought in supper, visited, sang and ate together. This sister just overflows with the grace and Spirit of Christ and I love to be in her home. She isn’t free from trials but her years of walking with the Lord provide a wealth of experience with which to bless us young ones. I had prayed that God would give me a gem from our visit that I could take home with me. As our visit was drawing to a close I still didn’t feel like God had answered my prayer and I prolonged our stay a bit, hoping to give her more opportunity. Soon the conversation turned and I saw God answering my cry. In our discussion on sacrificing for the Lord she replied that she did not see it as a sacrifice when it was for Jesus’ sake. He’d done so much for her, how could the little bit she had given back to Him be considered a sacrifice? Those words sunk deep into my heart. I pondered them as I left, for during that time I felt like I was making a big sacrifice for the Lord regarding some issues I was struggling over. Those words continue to re-play in my mind, and I’m sure during many future ‘sacrifices’ I will remember and ponder that deep principle spoken by a lady who from many years of experience was no stranger to real commitment to Christ! We have so much we can learn from these ladies - even unconverted ones have much practical wisdom. It is a challenge though, to know how to draw it out of them as many are not used to giving advice to younger ones. Too often they are a forgotten, discarded part of our society and many have grown used to just keeping to themselves and plodding through one lonely day after another.</p>\n  <p>Last spring, a few months after we’d started our widow’s ministry, we had our first ‘Widow Supper’. Since we were inviting older single women as well we called it a ‘Special Ladies Banquet’. Due to considerable contact with the area widows we were able to invite around 40 ladies whose homes we had already been in. 33 ladies were able to come and we also had our church sisters and girls age 12 and up. For those interested in having a supper for the widows in your area, there is a very helpful tape by Sue Brechbill available from Charity Gospel Tape Ministry. We tried to involve more church people in reaching out by having each family make 2-3 little coupons for a service they were willing to provide. We announced at the end of our program that these service coupons were available for them to look through and take one each. We had a wide variety of options offered. The coupons for a family’s coming to sing in their home and window washing seemed to be best received, though they varied from filling a bird feeder to minor roof repair. Some widows who had children who help them did not take a coupon.</p>\n  <p>One lady expressed that her children would be offended if she would let someone else do what they could. That’s the way it should be, but it’s nice when we can fill in the gap for those who aren’t so blessed. Our extra coupons we take along on our Tuesday visits to pass out as we see needs. We kept a record of who took what coupon so that we could see if they weren’t using it and encourage them to call their coupon family. We are eagerly anticipating our second Special Ladies’ Banquet this spring!</p>\n  <figure><img src=\"/images/articles/2ca55998-a516-4fe9-996e-cced67d11aa7-6.jpg\" alt=\"Four women seated together in a living room.\"></figure>\n  <p>We’d love to correspond with anyone interested in starting up a similar ministry. Please feel free to ask questions.</p>\n  <p>Write to:</p>\n  <p>Sonshine Girls<br>32740 132nd St.<br>Kinross, IA 52335</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b1e9666c1acf72db8eee39127f05db7ad1a653206e67eb9964a9c31f28501a23"
+}

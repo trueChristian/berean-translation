@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ralph Acosta"
+        }
+      ],
+      "raw": "~Ralph Acosta"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "16b51668-067e-45fe-b0dd-4357620150eb",
+    "images": [
+      {
+        "alt": "A traveler carrying a bundle and reading a book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/16b51668-067e-45fe-b0dd-4357620150eb-1.jpg",
+        "repository_path": "public/images/articles/16b51668-067e-45fe-b0dd-4357620150eb-1.jpg",
+        "rights_note": "Text-free grayscale separation image object 147, inverted from the PDF sample encoding into baseline sRGB/RGB JPEG at native 540 × 685 pixels. The pale source image is preserved without the separately painted poem typography or footer. No article-specific image permission or licence is printed; publisher permission reported by the project owner.",
+        "role": "poem background illustration",
+        "sequence": 1,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "When Things go Wrong",
+    "topics": [
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "4896beb5-d08b-51cf-a626-d8cef3c1b2ec"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "59357c3e85fc0a01de1ed9d4ba66ac1d9edeb1413659ce4641acbb76b320013f",
+    "metadata_sha256": "97fd78010b778a556a5095e877699cc69cd708cf3e8c80768d4983b4705fe4d8",
+    "structure_sha256": "c82168c152cb3ca02dd7f99deb03bad59fbff62e707a7654670608671355a175",
+    "text_sha256": "8af13c109d26be998bcb6f570abeb527d51be587ca61d73fbec5af45feb6d7c0",
+    "translation_metadata_sha256": "60d366e69a3b43723c14c742d1e5f1f1a7c43ca4a6783d41d0cfb22977fd4dca"
+  },
+  "html": "<article data-article-id=\"16b51668-067e-45fe-b0dd-4357620150eb\">\n  <figure><img src=\"/images/articles/16b51668-067e-45fe-b0dd-4357620150eb-1.jpg\" alt=\"A traveler carrying a bundle and reading a book\"></figure>\n  <div class=\"poem\">\n    <p>When things go wrong, as they sometimes will,<br>\n    When the road you’re trudging seems all uphill,<br>\n    When the funds are low and the debts are high,<br>\n    And you want to smile, but you have to sigh,<br>\n    When care is pressing you down a bit-<br>\n    Rest if you must, but don’t you quit.</p>\n    <p>Life is queer with its twists and turns,<br>\n    As every one of us sometimes learns,<br>\n    And many a fellow turns about<br>\n    When he might have won had he stuck it out.<br>\n    Don’t give up though the pace seems slow-<br>\n    You may succeed with another blow.</p>\n    <p>Often the goal is nearer than<br>\n    It seems to a faint and faltering man;<br>\n    Often the struggler has given up<br>\n    When he might have captured the victor’s cup;<br>\n    And he learned too late when the night came down,<br>\n    How close he was to the golden crown.</p>\n    <p>Success is failure turned inside out-<br>\n    The silver tint in the clouds of doubt,<br>\n    And you never can tell how close you are,<br>\n    It might be near when it seems afar;<br>\n    So stick to the fight when you’re hardest hit-<br>\n    It’s when things seem worst that you must not quit.</p>\n  </div>\n  <p>~Ralph Acosta</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d808fc8a6423c4c94d005c8d4d3408c0e7d0c75dd193cc8f64234915f200dc7b"
+}

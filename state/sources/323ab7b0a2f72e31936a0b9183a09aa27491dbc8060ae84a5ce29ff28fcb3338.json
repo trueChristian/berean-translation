@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles E. Orr",
+          "role": null
+        }
+      ],
+      "raw": "Charles E. Orr"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "5168bd59-597f-43f2-ad37-e9763b1aae6c",
+    "images": [
+      {
+        "alt": "A black-and-white botanical illustration of a cluster of grapes with leaves",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-1.png",
+        "repository_path": "public/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-1.png",
+        "rights_note": "No image-specific licence, source, or separate-permission notice is printed. The issue-level Art notice states “Some images ©2001-2011” and lists www.clipart.com and www.sxc.hu without identifying this asset’s individual source. The embedded one-channel Separation/Black raster was normalized to an sRGB PNG at its published 305×360 dimensions, preserving the crop, orientation, and content.",
+        "role": "lead grape illustration",
+        "sequence": 1,
+        "source_page": 15
+      },
+      {
+        "alt": "Rows of crops growing in a cultivated field",
+        "caption": "Ye are God’s cultivated field!",
+        "credit": null,
+        "public_path": "/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-2.jpg",
+        "repository_path": "public/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-2.jpg",
+        "rights_note": "No image-specific licence, source, or separate-permission notice is printed. The issue-level Art notice states “Some images ©2001-2011” and lists www.clipart.com and www.sxc.hu without identifying this asset’s individual source. The embedded photograph was re-encoded at its published 400×267 dimensions as a standards-normalized three-component baseline sRGB JPEG with nonzero 150 dpi JFIF density, preserving the crop, orientation, and content; the separate gray drop-shadow raster was correctly omitted as page decoration.",
+        "role": "cultivated field photograph",
+        "sequence": 2,
+        "source_page": 16
+      }
+    ],
+    "issue_id": "52c67fc6-2d91-51a3-ae55-c8134ad2ed53",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "On Fruit Bearing",
+    "topics": [
+      "8b5761ab-0c6b-5b3d-a0bf-af75a1e33d50",
+      "7765eef1-b410-528e-bcde-39382c685de1",
+      "b490f423-a9ab-52e1-a166-b3461ee0801d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e25208c90ea932cf53d30691ff9a498d439038244a1b25100f8ae7c23a8a7d68",
+    "metadata_sha256": "c10fd3453a71c08eb7ba29f0e72875eaf779cdf742633dec678cbdd9a83ee561",
+    "structure_sha256": "a7340130752588761430c9c47b3a161e0f916d5cdef0992f94ee9225905b7db6",
+    "text_sha256": "2a308c20c4ae00353c0594b585bccad1f28001ed63892c09341636d76fdbb070",
+    "translation_metadata_sha256": "a89969ad1a02d36c424d5c6501f61312db4ad9490f6515120614e57c4dfad8c0"
+  },
+  "html": "<article data-article-id=\"5168bd59-597f-43f2-ad37-e9763b1aae6c\">\n  <figure>\n    <img src=\"/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-1.png\" alt=\"A black-and-white botanical illustration of a cluster of grapes with leaves\">\n  </figure>\n  <p>The following beautiful language is found in Isa. 51:3: “For the Lord shall comfort Zion: he will comfort all her waste places; and he will make her wilderness like Eden, and her desert like the garden of the Lord; joy and gladness shall be found therein, thanksgiving, and the voice of melody.” Zion is a metaphor signifying the church of God. It is, therefore, the church which the Lord will comfort and whose wilderness will be made an Eden. But what is the church of God? This is a very important question; one which all people should fully understand, and one which is very easily answered. You will learn at once by reading Ephesians 1:22,23 and Colossians 1:18,24 that the church is the body of Christ, and in 1 Corinthians 12:27 we are plainly told that Christians are the body of Christ. They are, therefore, the church of God.</p>\n  <p>Dear reader, if you are a Christian, you have been born of the Spirit; you have passed from death unto life; you have been translated from the kingdom of darkness into the kingdom of light; you have been created anew. You are, therefore, a member of the body of Christ, and all such members make up the church of God.</p>\n  <p>The children of Israel were the church of God in the old dispensation, and He dwelt in a tabernacle or temple they built for Him. In this more glorious gospel dispensation, those who have been born of the Spirit and made pure in heart are the church of God. In this Holy Spirit dispensation we do not build temples for the Lord to dwell in; for “know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?” 1 Co. 3:16 “What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?” 1 Co. 6:19 In this blessed gospel day Christians are the “habitation of God through the Spirit.” If you are a Christian, God dwells in your heart; your body is His glorious temple. This is a most stupendous thought, but it is true. In your soul is the sweet heavenly manna, the budding rod, and the ark of the covenant overshadowed by the cherubim of glory.</p>\n  <p>When God created man He placed him in a garden which He had planted eastward in Eden. In this garden God made to grow every tree that was pleasant to the sight and good for food; also, the tree of life and the tree of knowledge of good and evil were in this garden, and a river to water it. It is said that God “walked in the garden in the cool of the day.” That was in the day of literal things. We are now in the day of spiritual things, when our bodies have become the temple of God through the Spirit, and our hearts are His lovely garden. It is in this garden He dwells; it is there He walks. See 2 Corinthians 6:16. When the south winds blow and the spices flow out, He comes into His garden to eat His pleasant fruits; He gathers the myrrh and the spices, He eats honey and drinks wine and milk. See Canticles 4:16 and 5:1. This is sweet language, and is expressive of the purity of the Christian heart, where God dwells, and where He walks in the gentleness of His Spirit, delighting Himself in the tender Christian graces that are budding and blooming all along the peaceful avenues of the soul. Like as the gentle south wind blows upon the flowers of the garden and scatters the fragrance; so the Spirit of God fans the heavenly graces implanted in the heart, and a fragrance flows out of the Christian life, awaking admiration in the minds of all who come into its presence.</p>\n  <p>The trees that were pleasant to the sight and good for food in the literal garden of Eden symbolize the graces of the regenerated heart, which are lovely to behold, which feed the souls of those who look upon your noble Christian walk, and which become a “tree of life” to the desert hearts of men. In the garden of the Lord blooms the rose of Sharon and the lily-of-the-valley. These are beautiful emblems of the Christ-life in the Christian soul. The river which flowed through Eden’s literal garden represents the deep, broad river of peace which flows in the heart that has tasted of redeeming love.</p>\n  <p>A young heart filled with the mild, meek spirit of Christ, and a young life laden in rich profusion with kind words, generous deeds, and gentle, modest ways, is the most beautiful object that ever graced this mundane sphere. Angels look down and marvel, and throughout all heaven is awakened songs of joy and praise. It is your privilege to be filled with Jesus now; to be clothed in white and walk in purity. It is also your privilege as you journey down life’s way to grow more kindly; to be more and more like Jesus; for the sweet graces of heaven to bloom more beautifully in your heart and life; and the beauty of your young Christian life to give way to more beauteous ripened age. If you attend to all Christian duties and live in prayer and devotion to God, your soul will become more and more weighted down with the riches of heaven, and, looking out through the casement, your soul will hail with joy the convoy that has come to bear it to its home of eternal rest.</p>\n  <figure>\n    <img src=\"/images/articles/5168bd59-597f-43f2-ad37-e9763b1aae6c-2.jpg\" alt=\"Rows of crops growing in a cultivated field\">\n    <figcaption>Ye are God’s cultivated field!</figcaption>\n  </figure>\n  <p>The Savior in speaking of Himself said, “I am the vine,” and in speaking of Christians He said, “Ye are the branches,” and speaking of God He said, “My Father is the husbandman.” This very clearly and strikingly illustrates the duty of a Christian, and the position he occupies. Christians sustain the same relation to Christ that the branches do to the vine. As the branch receives life through the vine and bears fruit, so the Christian receives life through Christ and bears fruit. The object of fruit-bearing is the glory of God. You should be desirous of bearing as great an abundance of fruit as possible, and do all you can to increase your fruitfulness, since “herein is God glorified, that you bear much fruit.”</p>\n  <p>The apostle Paul in speaking of Christians said, “Ye are God’s husbandry.” 1 Co. 3:9 If you will examine the Greek text you will find that a more proper rendering would be, “Ye are God’s field.” Greek scholars tell us that the Greek term from which husbandry is translated in our common version signifies a cultivated field. It answers to the Hebrew word “sadeh,” which means a field sown and under cultivation.</p>\n  <p>From this you will be enabled to yet more fully understand the true position you occupy under God. You are His fertile field, where He has under cultivation the precious fruits of the kingdom of heaven. The Husbandman has rooted up every plant that He has not planted, and has sown there the seeds of righteousness.</p>\n  <p>Not only are your hearts the “garden of the Lord” where blooms the “rose of Sharon” and the “lily-of-the-valley” in all the sweetness of their fragrance and beauty, but they are also the Lord’s fertile field, where the amiable Christian graces are to bud, bloom, and bear fruit. Your duty as a Christian is to bear fruit for God, that He may be glorified. Every fruit-bearing branch, therefore, He purges, that it may bring forth more fruit. The successful farmer carefully removes all the foreign growth out of his field, and then cultivates his plants, that he may reap the greatest possible harvest.</p>\n  <p>Delicious fruits are brought from the tropical clime to this land of ours, and they awaken in our hearts an admiration for that delightsome country. We long to travel through those sunny lands. You are God’s fertile field. In your life has been placed the beautiful fruits of the heavenly land. As this world looks upon your life and beholds these fruits, admiration will be awakened in their hearts for the fruitful fields of heaven. They will be influenced by your life to seek the kingdom of God and its riches so that they may taste of its fruits now and forever. If you will walk with God and live devoted to Him, those precious fruits of the Spirit will become more plentiful and beautiful in your life as you journey down the way, making you a greater blessing to the hearts of others. To this end you must live. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "49470c63658385b17c426bcf895145789de38b728349677f08ade1c5bf5b0dd6"
+}

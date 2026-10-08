@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Ephrata, PA",
+          "name": "JoAnna Raber",
+          "role": null
+        }
+      ],
+      "raw": "—JoAnna Raber (Age 17) Ephrata, PA"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "2bfd1dd0-1380-4ff7-a36e-5e6fed7df29a",
+    "images": [],
+    "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "My Cranky Self",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "83d8adf446d8b42cfc721d51fa7c934cdae019d6ef00388aee30a79e17956dd6",
+    "metadata_sha256": "b077c485f0b3b9c62f1f0c88ef605384a5cd6d02e5363531dbb718414497dfe1",
+    "structure_sha256": "218364ab16deb1557e2c244e862977c2e7ccbc5dc12750750c46961c34844b1c",
+    "text_sha256": "c66afdc73b97fa3060930eb2a76df6dfe02dd013f410eb115bb0388b33e49108",
+    "translation_metadata_sha256": "679e85d30336219698b13ff8c7e58427a502904219f7ed95c4a3eeaa98e63ef2"
+  },
+  "html": "<article data-article-id=\"2bfd1dd0-1380-4ff7-a36e-5e6fed7df29a\">\n  <p class=\"poem\">I grumble in the morning, “There’s so much to do,<br>\n  It’s my turn to do dishes, why couldn’t it be you?”<br>\n  The baby is sick with a fever you say;<br>\n  There goes my hopes of sewing today.<br>\n  Don’t touch me, don’t bump, I already said “No,<br>\n  I’m not gonna help you if you’re so slow.”<br>\n  I complain and I grumble, ‘til I’m all tied in knots.<br>\n  I’ve been disrespectful to mom, and cross with the tots.</p>\n\n  <p class=\"poem\">At night when upon my bed I lay<br>\n  I feel very miserable as I think of my day.<br>\n  “I’m awfully terrible,” I tell myself with a groan,<br>\n  Where is the good example that I should have shown.<br>\n  In my dreams I’m so often lovely and sweet;<br>\n  I imagine myself blessing those whom I meet.<br>\n  I picture myself a kindhearted girl,<br>\n  Singing and cleaning ‘til my head’s in a swirl,<br>\n  Rocking baby brother who’s teething and sick;<br>\n  Laughing along with an annoying trick.</p>\n\n  <p class=\"poem\">But I’ve been thinking, and come to a conclusion;<br>\n  To think good works “happen” is just a delusion.<br>\n  It takes time with God, reading and praying,<br>\n  And with a tender heart, His will obeying.<br>\n  And suddenly a flame in your heart will spark,<br>\n  Glowing from within, it shatters the dark.<br>\n  No longer need I be a sweet girl in my “dream”;<br>\n  I can be the <em>real</em> thing, a cheerful sunbeam.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "31be3294a05b2a42d2fde529f8a99e953a946473c02d574af3dd16efd6f3bcc0"
+}

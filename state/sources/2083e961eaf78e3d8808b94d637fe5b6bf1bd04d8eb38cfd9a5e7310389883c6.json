@@ -1,0 +1,130 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Taken from the Martyrs Mirror"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b",
+    "images": [
+      {
+        "alt": "Engraving of a woman surrounded by a crowd in a city street",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-1.jpg",
+        "repository_path": "public/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-1.jpg",
+        "rights_note": "Clean embedded image object 31. Separate gray introduction panel and title treatment omitted. Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            600,
+            492
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            600,
+            492
+          ],
+          "source_object": 31
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a woman chained in a prison cell",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-2.jpg",
+        "repository_path": "public/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-2.jpg",
+        "rights_note": "Clean embedded image object 35. One source pixel trimmed from right and bottom to follow the published rectangular clipping (114.76 × 212.44 PDF points within an image matrix of 115.2008 × 213.1215 points). Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            199,
+            369
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            199,
+            369
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            200,
+            370
+          ],
+          "source_object": 35
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 7
+    },
+    "subtitle": "God’s hand displayed for Elizabeth and Hadewijk in 1549",
+    "title": "Set the Captives FREE",
+    "topics": [
+      "eaf5d08b-c212-52ed-88d7-9c629b0f7262",
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c",
+      "13607865-d967-50a5-ae9a-024549fcf142"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "84b7f878e8c19f134ee43172a2677d8070a734db8de9bfe1760f00dcae8870a8",
+    "metadata_sha256": "c423b7d353d6f1a82e39cc1a2bc0e492189d52ba902f34020d7f3309ab8460c0",
+    "structure_sha256": "8df857e45c68f3aba0560b84506c2c91f84122fa5f4a9ed5d21d2436bade0b37",
+    "text_sha256": "da45a2b6cdb36458846a22bdcf4233ad041a783cf189fd71894cbbce393ee46d",
+    "translation_metadata_sha256": "49dfae428f65d59dd7636c1c4c8b9ba9efc240d4ccf285711f27010715bd387b"
+  },
+  "html": "<article data-article-id=\"c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b\">\n  <p><em>Do you find the Martyr’ Mirror to be a bit difficult to read? Old English combined with many horrible and gruesome details of torture that makes us shudder and shrink away from? But don’t give up, there are some wonderful stories of deliverance in there too! There is also much doctrine and theology in some of those writings of years ago when the times were hard for those who believed that the Word of God held more authority then the religious leaders of the day. Some of these people were educated priests, others were simple folks, and even some were children who suffered imprisonment, torture and death at the hands of those who were considered the spiritual authorities of the day. They stood firm in their belief and would not compromise in the least no matter how awful and cruel their executioners were. But sometimes they were set free by God’s mighty power. One such account follows here that reminded me of the story of Samuel back in Old Testament times because just like Samuel heard God as a child this Godly woman was called by name by God Himself.</em></p>\n  <p><em>It also reminded me of the story of Peter who was imprisoned and was set free by an angel. The story is actually two people who both were led of God; Elizabeth died a martyr while Hadewijk was miraculously released from prison and escaped the hands of her persecutors. -Dean</em></p>\n  <figure>\n    <img src=\"/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-1.jpg\" alt=\"Engraving of a woman surrounded by a crowd in a city street\">\n  </figure>\n  <p>This Elizabeth was of a noble family, and had in her youth been put by her parents into the convent of Tieng, near Lier near East Friesia. She was to learn various arts, and also the Latin language. There she accidentally, or rather through the direction of God, came into possession of a Latin New Testament. By the constant reading of it and meditating on it she obtained so much knowledge of the will or God, that she became distressed with her way of life. Because she saw no chance to change her life according to the Bible while staying at the convent, much less under the parental roof, she decided, after much conflict and reflection, secretly to escape from the convent, trusting to the fatherly providence of Almighty God for help and guidance. To accomplish this, she made an agreement with a milkmaid of the convent, that she should change clothes with her, and thus assist her to escape from the convent early in the morning, in the guise of a milkmaid. After Elizabeth escaped, she first came to Lier, and without her knowing it (by God’s divine guidance), to a certain house, in which there lived Anabaptists, who upon learning her circumstances and condition, took her in, and instructed her still more fully in the way of God.</p>\n  <p>After some time, fearing that search might be made for Elizabeth, they brought her to Leeuwarden, and there left her with a pious sister of the Anabaptist church, named Hadewijk, with whom she was afterward apprehended.</p>\n  <p>Now this Hadewijk was married to a certain drummer of the company quartered at Leeuwarden. Hadewijk’s husband, having neither to go marching, nor to mount guard, etc., worked in a certain shop to gain a livelihood for his wife and children. There, working together with him was a very pious Anabaptist brother who at that time was put in bonds and condemned to death for the sake of his religion. His company was ordered to the place of execution when this pious brother was to be offered up. The company was to form a circle around him to prevent an uproar. This drummer conscientiously objected to serve in his capacity as a drummer at that time and under such circumstances. He also spoke of this to his wife Hadewijk, who disagreed with him in this matter, and told him to go do his duty.</p>\n  <p>This then he decided he must do; but decided he would first get himself partially intoxicated, in order to feel less compassion for the innocently doomed man. But this intoxication, instead of taking away his sense of compassion, only increased it, and he became very bold and his tongue was loosened. He told the spectators of the piety and virtues of this martyr so well known to him and why he was so maltreated.</p>\n  <p>He showed how wickedly the authorities, (who were instigated by the clergy), acted in this matter. He boldly proclaimed that it were better to arrest and persecute wicked men, whoremongers, adulterers, unrighteous, and such like, as there were plenty of these in the city; indeed, even among the clergy. Some laughed, others laid it to heart. Some said, “The drummer is drunk;” others, “He is crazy,” etc. But when he had become sober and was himself again, he reflected on what he had done and what in all probability he now had to expect.</p>\n  <p>Because of this, he decided to leave the city of Leeuwarden, his company, and the Roman Catholic Church. He begged his wife to go with him, but she could not approve of it, and after he left, she never knew where he had went.</p>\n  <p>But Hadewijk began to think over things after some time had passed. So she inquired after the Anabaptists, found opportunity to attend the exhortations, and embraced the faith. She was not only baptized upon her faith, but also allowed herself to be seized together with Elizabeth who had escaped from the convent. Being confined in a separate cell from Elizabeth, it was announced to her that on the next day she should be examined and have to defend herself in a considerable number of articles, which caused her exceeding great distress and anxiety, especially since she could neither read nor write, and was more pious and willing than experienced.</p>\n  <figure>\n    <img src=\"/images/articles/c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b-2.jpg\" alt=\"Engraving of a woman chained in a prison cell\">\n  </figure>\n  <p>Consequently, she earnestly pleaded with God, that the exceeding good and loving Father would be pleased to look with compassion upon her, His poor handmaiden. She knew that God knew best her inability and unfitness and asked him not to try her above her ability, but to deliver and save her by His divine hand.</p>\n  <p>While she was engaged in prayer, a voice called to her exclaiming, “Hadewijk!” Looking up and around her, and seeing no one, she continued in her fervent prayer. A second time she heard the voice, but again seeing no one, she persevered in her supplications until the same voice said to her the third time, “Hadewijk, I tell thee, come out!” Seeing the door open, she put on her hood, and went out of the prison, but did not know where to hide herself.</p>\n  <p>She went into the church for the time being, where she soon heard those who came there say that the gates of the city had been closed because a certain Anabaptist woman had escaped from prison. No one knew how she had escaped, but there was great reason to suspect witchcraft in the matter. Because of this, very diligent search was being made for her everywhere. Just as she left the church she heard the drummer in the street exclaim that whoever could identify her, should receive one hundred guilders, but whoever concealed her should forfeit one hundred and fifty guilders, which frightened her even more.</p>\n  <p>Afraid to go into her own house, and yet compelled to seek shelter somewhere, she went to the house of her former master and mistress. Before she was married, she had served them very faithfully for some time, and because of this they thought much of her. These people she requested to please give her shelter in this distress, but they refused to do it. So she went away almost in despair, and came before the priest’s house, where lived a certain half-witted fellow who was well-known to her. Because he was standing at the door, she asked him to conceal her. So he did, taking her up into the attic, and provided her with food and drink.</p>\n  <p>But in the night he came to her, and made indecent advances to her. Here the embarrassment was greater than ever; she had to deal with one who was strong of body and passions, and reasoning had little influence. If she screamed her life was in danger. Because of this she prayed, calling upon God for help in her great distress, and committed herself to her Redeemer.</p>\n  <p>Then she pleaded with this fellow to abstain from so evil a deed, because it would be adultery and she had a husband; and adulterers and adulteresses had to burn forever in hell. After hearing this he left her in peace and went away, saying, “The woman is too wise in the Scriptures; I have no chance with her.”</p>\n  <p>The next day he went to the Zuypmarket, to Hadewijk’s brother-in-law, who daily brought buttermilk there for sale. He told him that he had, unknown to anyone, concealed his sister-in-law in the priest’s house, and advised him to come with his boat to the back stairs of the priest’s house. There he could take her into the boat, and carry her out of the city through the floodgate, which he did. And so it was that this lamb Hadewijk, through the miraculous hand of God, escaped the claws of the ravening wolves. She fled to Emden, and lived the remainder of her life in the meetinghouses of the Anabaptists, where she fell asleep in the Lord.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "51ecf67ea4e56a695f584bc4589e3a47602645f24277d2ec81fc3157583303d9"
+}

@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1834-1892",
+          "name": "Charles Spurgeon"
+        }
+      ],
+      "raw": "Charles Spurgeon (1834-1892)"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "e5056885-3f77-469e-b042-02ed498d0e15",
+    "images": [
+      {
+        "alt": "An illustration showing a young man above and a ragged man among pigs below.",
+        "caption": null,
+        "credit": "Frank Beard",
+        "public_path": "/images/articles/e5056885-3f77-469e-b042-02ed498d0e15-1.png",
+        "repository_path": "public/images/articles/e5056885-3f77-469e-b042-02ed498d0e15-1.png",
+        "rights_note": "Clean lossless embedded grayscale object 106. Both parts form one illustration. The intrinsic artist signature “Frank Beard” remains in the raster. Separate article title, byline and scripture text are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "Grayscale",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch.",
+          "output_dimensions": [
+            468,
+            559
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            468,
+            559
+          ],
+          "source_object": 106,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "Grayscale",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "What is Holiness?",
+    "topics": [
+      "3b69fdad-e957-5e8b-a946-db683c653271",
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a71746ff3d1bdd31be13a2152758b480406a7280b439a244e76543e1a48a80b0",
+    "metadata_sha256": "cbda2072aaf3d830f32d62545d5d97e87c607d30553d2e23d45840418278e6bf",
+    "structure_sha256": "2fa6d9669921f0f4ae26d68d51beed3dc0c627ad8f76cb26ab424e22b38ec395",
+    "text_sha256": "34423428bc7ada0fc24edb2e9514c887c90552f45b3307b4ddc633107949a331",
+    "translation_metadata_sha256": "3e14149b5163ff2ce14ac54d3431fd9e63c8836c6cd4b63b4d3d97cdfb1b5c9b"
+  },
+  "html": "<article data-article-id=\"e5056885-3f77-469e-b042-02ed498d0e15\">\n  <p><em>This is the law of the house; Upon the top of the mountain the whole limit thereof round about shall be most holy. Behold, this is the law of the house.</em><br>Ezekiel 43:12</p>\n  <figure><img src=\"/images/articles/e5056885-3f77-469e-b042-02ed498d0e15-1.png\" alt=\"An illustration showing a young man above and a ragged man among pigs below.\"></figure>\n  <p>What is holiness? I know what it is, and yet I cannot in a few words define it. I will bring out its meaning by degrees, but I shall not do better than the poor Irish lad who had been converted to the faith. When he was asked by the missionary, “Patrick, what is holiness?” “Sir,” said he, “it is having a <em>clane</em> inside.” Just so—morality is a clean outside, but holiness is being clean within. Morality is a dead body washed and laid in clean white linen: holiness is the living form in perfect purity. To be just to man is morality, to be hallowed unto God is holiness. The church of God must not be reputedly good, but really pure; she must not have a name for virtue, but her heart must be right before God, she must have a clean inside. Our lives must be such that observers may peep within doors and may see nothing for which to blame us. Our moral cleanliness must not be like that of a bad housewife, who sweeps the dirt under the mats, and puts away rags and rottenness in the corner cupboards. We must be so clear of the accursed thing that even if they dig in the earth they will not find an Achan’s treasure hidden there. God desireth truth in the inward parts, and in the hidden part he would make us to know wisdom.</p>\n  <p>We might instructively divide holiness into four things, and first would be its negative side, <em>separation</em> from the world. There may be morality, but there can be no holiness in a worldling. The man who is as other men are, having experienced no change of nature and knowing no change of life, is not yet acquainted with Scriptural holiness. The word to every true saint is, “Come ye out from among them. Be ye separate: touch not the unclean thing.” If we are conformed to the world we cannot be holy. Jesus said of all His saints, “They are not of the world, even as I am not of the world.” We are redeemed from among men that we may be like our Redeemer, “holy, harmless, undefiled, separate from sinners.” We are not to be separate as to place, avoiding men with monkish fanaticism, for nobody mixed more with sinners than did our Lord. “This man receiveth sinners and eateth with them” is the old reproach, but yet our Lord was not one of them, as everybody could see: nothing could be more clear than the difference between the lost sheep and the Shepherd who came among them seeking out His own. Every action, every word, every movement betokened that He was another man from the sinner whom He sought to bless.</p>\n  <p>So must it be with us. As the lily among thorns so must we be among the mass of men. My fellow-professors, are you different from those among whom you dwell? Are you as different from them as a Jew is from a Gentile? Now, a Jew may do what he likes, he may live in the same style as an Englishman, a Pole, or a German, and he may in garb, in business, in speech be like the people among whom he dwells, but the image of father Jacob is upon him, and he cannot disguise the fact that he is an Israelite. If he is converted to Christianity, still he does not lose his nationality; you can still perceive that he is of the seed of Abraham. So ought it to be with the real Christian; wherever he is, and whatever he does, men ought to spy out that he is of the sect that is everywhere spoken against, and not an ordinary man. The title “the Peculiar People,” belongs to all the followers of Jesus. They are strangers and sojourners, aliens and foreigners in this world for they have come out at the divine call to be separated unto the Lord forever. There is no holiness without separateness from the world.</p>\n  <p>Holiness next consists very largely in <em>consecration.</em> The holy things of the sanctuary were holy because they were dedicated to God. No one drank out of the sacred vessels except God’s servants the priests; no victims were killed by the sacrificial knife, or laid upon the altar except such as were consecrated to Jehovah, for the altar was holy, and the fire thereof was holy. So must it be with us if we are to be holy: we must belong to Jehovah, we must be consecrated to Him, and be used for His own purposes. Not nominally only, but really, and as a matter of fact, we must live for God, and labor for God. That is our reason for existence, and if we answer not this end, we have no excuse for living; we are blots upon the face of nature, waste places, and barren trees that cumber the ground. Only so far as we are bringing glory to God are we answering the end and design of our creation. We are the Lord’s priests, and if we do not serve Him we are base pretenders. As Christians we are not our own, but bought with a price, and if we live as if we were our own we offend our Redeemer. Will a man rob God? Will he rob Jesus of the purchase of His blood? Can we consent that the world, the flesh, the devil should use the vessels which are dedicated to God? Shall such sacrilege be tolerated? No, let us feel that we are the Lord’s, and that His vows are upon us, binding us to lay ourselves out for him alone.</p>\n  <p>This is an essential ingredient of holiness: the cleanest bowl in the sanctuary was not holy because it was clean; it became holy when, in addition to being cleansed, it was also hallowed unto the Lord. This is more than morality, decency, honesty, and virtue. You tell me of your generosity, your goodness, and you pious intentions—what of these? Are you consecrated, for if you are not consecrated to God you know nothing of holiness. This is the law of the house, that the church is consecrated to Christ, and that every man that comes into her midst must be the same. We must live for God and for His glorious kingdom, or we are not holy. Oh to make a dedication of ourselves to God without reserve, and then to stand to it forever: this is the way of holiness.</p>\n  <p>But this does not complete the idea of holiness unless you add to it <em>conformity</em> to the will and character of God. If we are God’s servants, we must follow God’s commands: we must be ready to do as our Master bids us because He is the Lord, and must be obeyed. We must make the Lord Jesus our example, and as Ezekiel says, “we must measure the pattern.” It must be our meat and drink to do the will of Him that sent us. Our rule is not our judgment, much less out fancy, but the word of God is our statute book. We are to obey God that we may grow like God. The question to be asked is, ‘What would the Lord have me do?’ or, ‘What would Christ Himself have done under the circumstances?’ Not, what is my wish, but what will please Him. Having been begotten again by God into the image of Christ, and so having become His true children we are to grow up into Him in all things who is the head, being imitators of God as dear children, for so, and so only, shall we be holy. Do understand, then, that with regard to the whole range of the church, however wide her action, conformity to the character of God is law of the house.</p>\n  <p>I must add, however, to make up the idea of holiness, that there must be a close communion between the soul and God; and consecrated to God, yet if he never had any communication with God, the idea of holiness would not be complete. The temple becomes holy because God dwells in it. He came into the most holy place in a most especial manner, and this accounted for its being the holy of holies; even so special communion with the Lord special holiness. God’s presence demands and creates holiness. And so, brothers and sisters, if we would be holy we must dwell in God, and God must dwell in us. We cannot be holy at a distance from God. How is it with you? How is it with this church? Is God with us in all our services? Is He recognized in all our efforts? Does He reign in all our hearts? Does Jesus abide with us, for this is according to the law of the house that God should be everywhere recognized, that we should in all things conform to His will, in all things be consecrated to His purposes, and for His sake in all things be separated from the rest of mankind. This is the law of the house.</p>\n  <p>Now, secondly, I want you help while I <em>say let us examine ourselves by this law.</em> Let each man question himself as to whether he has carefully observed the law of the house. Brethren, the church of God is holy. It is founded by a holy God upon holy principles and for holy purposes. She has been redeemed by a holy Savior, with a holy sacrifice, and dedicated to holy service. Her great glory is the Holy Spirit, whose influences and operations are all holy. Her law-book is the Holy Bible, her armory is the holy covenant, her comfort is holy prayer. Her convocations are holy assemblies; her citizens are holy men and women; she exists for holy ends, and follows after holy examples. Dear hearer, are you then as part of her “holiness to the Lord?” Ask yourself questions, founded on what I have already said. Do I so live as to be <em>separated?</em> Is there in my business a difference between me and those and those with whom I trade? Are my thoughts different? Does the current of my desire run in a different direction? Am I at home with the ungodly, or does their sin vex me? Am I one of them, or am I as a speckled bird among them? Search, brethren; search and see whether ye be holy in that sense or no.</p>\n  <p>Next, let each one ask, “Am I <em>consecrated?</em> Am I living to God with my body, with my soul, with my spirit? Am I using my substance, my talents, my time, my voice, my thoughts for God’s glory? What am I living for? Am I making pretence to live to God, and am I after all really living to self? Am I like Ananias and Sapphira, pretending to give all, and yet keeping back a part of the price?” The preacher would search his own heart, and he begs you all to search yours.</p>\n  <p>Next ask the question, am I living in <em>conformity</em> to the mind of the holy God? Am I living as Christ would have lived in my place? Do I as a master, as a servant, as a husband, as a wife, or as a child, act as God Himself would have me act so that He could say to me, “Well done, thou good and faithful servant?” He is a jealous God: am I obeying Him with care? If I am not walking in obedience to God I am behaving disorderly, I am breaking the law of the house, and that house the house of the living God. Ought we not to take heed lest we insult the king in His own palace, and perish from the way when His wrath is kindled but a little.</p>\n  <p>Then again, do I live in <em>communion</em> with God? I cannot be holy and yet have a wall of division between God and me. Is there a great gulf of separation between the Lord and me? Then I am a stranger to holiness. I must have fellowship with Him, or else I am living in a manner that is sinful, dangerous, grievous, and injurious. Brother, sister, let me put this pressing question: Do you walk with God? Do you abide in fellowship with Jesus? I know there are some who would rather not give an answer to that question. I have met with believers who have said, “If you asked me whether I was drunken or dishonest, I should say ‘No,’ at once. If you asked me whether I have been upright and moral, I could say ‘Yes,’ most certainly. But when you say, ‘Are you walking in communion with the Lord? Are you enjoying habitual fellowship with God?’ I am not prepared to give you an answer, for I am weak upon this point.”</p>\n  <p>Are there not some professors among you who do not see the face of God by the month together, and seldom enjoy the presence of God at all? Their nearness to God is a thing of rare occasions, and not of everyday consciousness. At a meeting, when religious excitement stirs them they are little warmed up, but their general temperature suits the North Pole rather than the Equator. But, oh dear friends, this will not do. We want you to dwell near to God always: to wake up in the morning with His light saluting the eyes of your soul; and to be with Him while you are engaged in domestic concerns or out in the busy world. We want you often to have a secret word with the Well-beloved during the day, and to go to bed at night feeling how sweet it is to fall asleep upon the Saviour’s bosom. Brother, how sweet to say, “When I awake I am still with thee.” Jealous hearts count it a sorrow when even their dreams disorder their minds, and prevent their thinking of the Lord in their first conscious moment. I would to God we were so encompassed with divine love, so completely sanctified, so thoroughly holy, that we never lost for an instant a sense of the immediate presence of the Most High.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f8d17b2213d0c25b662b773f01a6584cf5de25e04cfc209312538636435b5443"
+}

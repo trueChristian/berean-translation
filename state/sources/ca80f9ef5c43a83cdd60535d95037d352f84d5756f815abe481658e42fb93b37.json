@@ -1,0 +1,56 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 185,
+          "death_year": 254,
+          "location": null,
+          "name": "Origen",
+          "role": null
+        }
+      ],
+      "raw": "Origen (c. 185-254)"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "98e522ea-f992-438f-86e7-2588963ef008",
+    "images": [],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Voices from the Early Church",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "Dying and Resurrecting with Christ",
+    "topics": [
+      "2f6f3b98-879e-51ad-bd65-fa180b219ff9",
+      "3b83ed3e-5bbe-59d5-86cc-41a401577a6e",
+      "1b0db828-35fe-5219-8706-6bfbf0e7f371",
+      "8d34dd3c-ba6a-5f2b-add8-dc8dd79c3ead"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2ff87758dd97f7da1c0cc1378f8818b169fd65be549c094cd42654e0a7c98bb3",
+    "metadata_sha256": "a03a92b59caece6121b0e698cb36b6195c31c3c3aa893f8aaade254fb2e88b52",
+    "structure_sha256": "7d09846fd78562ec01d7abcd4b6e7ef0c878974a7763f537ea15783a26ad71ed",
+    "text_sha256": "86b8662867eb048b1dcd56fcaa6c53e3342bf46ad437a705b269ee1ce7261582",
+    "translation_metadata_sha256": "540fcb4b922ebd6c2e2e9f334dff51a0606c80767e9cc132118cca12dbfad156"
+  },
+  "html": "<article data-article-id=\"98e522ea-f992-438f-86e7-2588963ef008\">\n  <p class=\"drop-cap\">Just as no living man can be buried with a dead man, so no one who is still living to sin can be buried together in baptism with Christ, who has died to sin. Therefore, those who are hastening to baptism ought to take care as a matter of first importance that they should first die to sin. And in this way, they can be buried with Christ through baptism, so they might say, “Always carrying around the death of Jesus Christ in our body so that the life of Jesus Christ might be manifested in our mortal flesh.”</p>\n\n  <p>Now the manner in which the life of Jesus Christ is manifested in the body, Paul himself makes known when he says, “But no longer do I live, but Christ lives in me.” This is the same thing the apostle John also writes in his epistle when he says, “Every spirit which confesses that Jesus Christ has come in the flesh is from God.” Surely in that passage it is not the one who shall have spoken these syllables and pronounced them in this common confession that shall seem to be led by the Spirit of God, but the one who has fashioned his life in such a way and has produced the fruit of good works, such that he has demonstrated by the very devotion of his own works and thoughts that Christ has come in the flesh and that he is dead to sin and alive to God.</p>\n\n  <p>Now that we have explained as well as we could what is means to be buried with Christ, let us consider what else he says: “So that just as Christ rose from the dead through the glory of the Father, so we too might walk in newness of life.” If we were buried together with Christ according to what we said above, namely according to the fact that we died to sin, it is certainly consistent with this that since Christ rises again from the dead, we also shall rise together with Him. And since He is sitting at the right hand of the Father, we too shall be said to sit together with Him in the heavens, according to what the same apostle says elsewhere, “He raised us together with Christ and made us sit together in the heavenly places.”</p>\n\n  <p>But Christ rose through the glory of the Father; and we—if we have died to sin and been buried together with Christ, because all who see our good works glorify our Father in heaven—shall deservedly be said to have been raised together with Christ through the glory of the Father, that we might walk in newness of life. Now the newness of life is when we lay aside “the old man with his deeds” and put on “the new, who has been created according to God” and “who is being renewed in the knowledge of God according to the image of him who created him.”</p>\n\n  <p>For you must not imagine that the renewing of the life, which is said to have been done once, suffices. On the contrary, at all times and daily, this newness must, if it can be said, be renewed. For this is what the apostle says, “Even if he who is our outer man is being corrupted, he who is inner is being renewed day by day.” For just as the old is constantly aging and from day to day becoming older, so also this new one is constantly being renewed, and there is never a time when his renewing is not increasing. Just consider those who are making progress in the faith and who daily shine forth in the virtues, how they are always adding better things to their good works and eagerly searching for more noble things to add to their noble deeds, how they grow rich in understanding, in knowledge, and in wisdom. The things which previously seemed to be less clearly understood, they later discern as things plain to see and distinctly evident.</p>\n\n  <p>Consider whether you would not say that a man of this sort is in his dealings being daily renewed—just as, on the contrary, as we have said, the person who has begun to grow old shall continue to get worse and is found daily to grow older and to deteriorate further in himself. So then let us walk in newness of life, showing ourselves daily as new persons and, so to speak, as increasingly more beautiful people, uniting the beauty of our face with Christ, as in a mirror and, beholding the Lord’s glory, let us be transformed into the same image by which Christ, rising from the dead, has ascended from the earthly lowliness to the glory of the Father’s majesty. ~</p>\n\n  <p class=\"source-note\">Scheck, Thomas P. (trans.) <em>Origen: Commentary on the Epistle to the Romans, Books 1-5.</em> Catholic University of America Press, 2001. p. 358-360.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2"
+}

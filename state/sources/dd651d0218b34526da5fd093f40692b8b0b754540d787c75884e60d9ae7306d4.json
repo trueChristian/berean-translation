@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "– Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cf07f132-92d4-49ba-b318-52520f77ca67",
+    "images": [
+      {
+        "alt": "Sunlight streaming through a leafy forest",
+        "caption": null,
+        "credit": "Andrew Schwartz ©",
+        "public_path": "/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg",
+        "repository_path": "public/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 8 to Andrew Schwartz ©; no license terms or separate permission requirement are stated. The clean full-page embedded inverted-Adobe CMYK JPEG was sample-inverted, converted to sRGB, stripped, and baseline re-encoded without changing its dimensions, crop, or orientation; the separate poem-panel assets and all overlaid text were excluded.",
+        "role": "full-page background photograph",
+        "sequence": 1,
+        "source_page": 8
+      }
+    ],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "Redeemed",
+    "topics": [
+      "9ea02874-7a57-5114-8360-1268f7f792d1",
+      "05c2dfac-6ad8-5ea0-99ef-d6022f8cb346",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "326bca9f-b5fe-56cb-b54e-f3e1447ae818"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "07b374c28e3aef3af9e612bc7353f58afb5a452698b0566984aba0b6769a5847",
+    "metadata_sha256": "d6ded3a23b33c3c9fc906dcc052708d285d7a6659f8318e86d466ddfb86584a3",
+    "structure_sha256": "c120f57f9050c24af6035ece73da615ba389bcd027244ac7e1fe66c04fe561d5",
+    "text_sha256": "1cfd67fc7c995e616e82110a7c0c679a29c2ccb4cfe76fcc17ae13c43b20dabb",
+    "translation_metadata_sha256": "d5326831540a7a6c71590bd9fdb2c3e0e94798a9118e682ce430dea56e173235"
+  },
+  "html": "<article data-article-id=\"cf07f132-92d4-49ba-b318-52520f77ca67\">\n  <figure>\n    <img src=\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\" alt=\"Sunlight streaming through a leafy forest\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>His pillow was wet, tears continued to flow,<br>\n    Oh! Where is the day? This night would not go.<br>\n    Decisions he made; he would never forget.<br>\n    His wife and his children, oh the regret!<br>\n    (You don’t know what you have, until it is gone.)<br>\n    He reached for the bottle, awaiting the dawn.<br>\n    The days came and went, they seemed like a blur.<br>\n    He needed some answers, to fix how things were.<br>\n    ‘Go to your neighbors’, a small voice he heard.<br>\n    ‘But he is a Christian!’ the thought seemed absurd.<br>\n    ‘He has the answers, so do not delay!’<br>\n    He decided to go, but just not today.<br>\n    He laid on his bed, his burden too great.<br>\n    ‘Go to your neighbors, it’s still not too late!’<br>\n    The call was so great, he got off the floor,<br>\n    Put on his boots and went for the door.<br>\n    His neighbor was home, his smile so warm;<br>\n    He told him of Jesus, his life He’d transform.<br>\n    It hardly seemed true, the words that he spoke.<br>\n    It all seemed so clear! He wept as he broke.<br>\n    The love of God flooded his needy soul,<br>\n    He knew with no doubt that he was made whole.<br>\n    A call to his wife, he did with no wait.<br>\n    “Oh, do please come home, God has taken the hate!”<br>\n    With his family by his side, his sins in the sea,<br>\n    He could hardly wait, to be who God made him to be.</p>\n\n    <p class=\"byline\">– Barry Grant</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e7cdbcc930ae79ba671e7483532d0c089c66a7b511a407e75cdef72b4141716b"
+}

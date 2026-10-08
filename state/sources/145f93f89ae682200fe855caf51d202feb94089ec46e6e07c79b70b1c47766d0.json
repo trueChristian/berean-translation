@@ -1,0 +1,96 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip"
+        }
+      ],
+      "raw": "by Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "999e275c-30d5-41f0-9c70-08e43ef2aae5",
+    "images": [
+      {
+        "alt": "An engraved hand holds a pen.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-1.jpg",
+        "repository_path": "public/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-1.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 19; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 19
+      },
+      {
+        "alt": "A sword and a pitchfork cross diagonally.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-2.jpg",
+        "repository_path": "public/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-2.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 19; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 19
+      },
+      {
+        "alt": "Two carved reliefs of armed men on a Czech monument.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-3.jpg",
+        "repository_path": "public/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-3.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 19; image-specific creator and license are not stated.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 19
+      },
+      {
+        "alt": "Pale drawing of a hand holding a pen.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-4.jpg",
+        "repository_path": "public/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-4.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 20; image-specific creator and license are not stated. This same PDF object appears five times on page 20; exported once.",
+        "role": "repeated decorative illustration",
+        "sequence": 4,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 19
+    },
+    "subtitle": "Which Will You Choose?",
+    "title": "A Pen or A Sword",
+    "topics": [
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26",
+      "e076a45a-2014-5d02-b18b-ac6397515f22",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "98c0fc74aeb480e24a28cf31a4919f9498b455c78a79ab38b05795029a794d9f",
+    "metadata_sha256": "f653a2ae8d735a7f68114150ecc14336baffbdb1a967ad9fd5d2c7d693176e7e",
+    "structure_sha256": "3c3d17645842e9ccd64556604db64e59f1ff5991c7a5fe18d29af3f2cc482aae",
+    "text_sha256": "fa02dac57ea7cce4e30308f6002863552587bde9f2eae454bd8f456e4344e982",
+    "translation_metadata_sha256": "bbc36e89e39124ef2636897ce7f2e80f222d56e7f4b0cc386f83976feece93e8"
+  },
+  "html": "<article data-article-id=\"999e275c-30d5-41f0-9c70-08e43ef2aae5\">\n  <figure>\n    <img src=\"/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-1.jpg\" alt=\"An engraved hand holds a pen.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-2.jpg\" alt=\"A sword and a pitchfork cross diagonally.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-3.jpg\" alt=\"Two carved reliefs of armed men on a Czech monument.\">\n  </figure>\n  <p>You see two men, armed to the teeth, warring for righteousness. One is looking left, the other right (on purpose, for the composite I made). They are real historical figures, etched as a relief in stone. On the left is John, on the right is Peter. No, they are not John and Peter the apostles. They are men you likely never heard of—John Zizca and Peter Chelcicky.</p>\n  <p>John and Peter hailed from medieval times, in the early days of the 1400s. Both of these Bohemians (now called the Czech Republic) had a zeal for God, and a desire that the church of Jesus recover from the Roman Catholic apostasy. John picked up his sword to defend against the Catholic crusaders. Peter picked up his pen.</p>\n  <p>Look at the above picture.</p>\n  <p>One-eyed John Zizca was a formidable man to war against. Five times he and his peasant warriors repelled Catholic crusaders who had come to squelch the “heresy” that was spreading like a prairie fire across Bohemia. With their farming tools and what small weapons they could scrounge up, they became known as the “terror of Europe”. Spinning in glee from the successful defense of their homeland, they even took to the offensive and made a few raids into neighboring countries.</p>\n  <p>They had a mission—a God-ordained mission—at least in their own minds. The Roman Church had turned from the original paths of the New Testament, and these “warriors of God” were set for the defense of the true Gospel. When the Pope called for a crusade and sent an army to squash them, one of them declared: “The time to wander with a pilgrim’s staff is over, now we shall have to march, sword in hand.” So John and company grabbed swords, pitchforks, clubs and whatever else one could use to fight for the truth, and went to war for God.</p>\n  <p>Except Peter Chelcicky. Standing almost alone, he picked up his pen. Writing to the “warriors of God,” he told them, “You will not bring the kingdom of heaven to earth as long as the hell of hatred burns in your hearts.” Occupying his time in his little homestead and writing, Peter eventually wrote some fifty articles and books. Most of them are still in Bohemian, but a few have been translated to other languages. Several centuries after the death of his body, Peter’s writings still live and produce fruit. The following quotes are a few of the gems:</p>\n  <figure>\n    <img src=\"/images/articles/999e275c-30d5-41f0-9c70-08e43ef2aae5-4.jpg\" alt=\"Pale drawing of a hand holding a pen.\">\n  </figure>\n  <blockquote>\n    <p>We are like people who have come to a house that has been burnt down and try to find the original foundations. This is the more difficult in that the ruins are grown over with all sorts of undergrowths, and many think that these undergrowths are the foundations, and say, “This is the foundation...,” so that in the novelties that have grown up, they think to have found the foundation, whereas they have found something quite different from and contrary to the true foundations.</p>\n    <p>This makes the search more difficult, for if all said, “The old foundation has been lost among the ruins,” then many would begin to dig and search for it and to really begin a true work of building upon it; as Nehemiah and Zerubbabel did after the destruction of the temple. It is much more difficult now to restore the spiritual ruins—so long fallen down—and get back to the former state, for which no other foundation can be laid than Jesus Christ, from Whom the many have wandered away and turned to other gods and made foundations of them.</p>\n  </blockquote>\n  <blockquote><p>Since (the time of Constantine when church and state united) all live in hypocrisy, from the least to the greatest, figuring out how to be Christian while doing everything their flesh desires. Everyone seeks the honor of the world and flatters it with pleasant talk. Everyone wants peace with the world to avoid suffering its persecution in any way—so to compare today’s Christianity with that of the early church is like comparing night to day.</p></blockquote>\n  <blockquote><p>When a people wise in this world see Christ—abandoned, dressed in the garb of poverty, and surrounded by danger—they turn away from Him and follow after wealthy and popular men who serve God with great learning in cathedrals, in armies, with civil authority, with thumbscrews, city halls, pillories and gallows. The whole wise world runs after them, but only “fools” dare follow Christ and suffer the ridicule of all.</p></blockquote>\n  <blockquote><p>Oh how small and barren is the dominion of earthly kings compared with the dominion of Christ! Earthly rulers heap burdens and suffering on their subjects instead of freedom and consolation. By way of contrast, the kingdom of Christ is so powerful and perfect that if the whole world accepted Him, it would have peace and all things would work together for good. There would be no need of temporal rulers anymore, for all would live by grace and truth.</p></blockquote>\n  <blockquote><p>They prepare Christ as a sweet sauce for the world, so that the world may not have to shape its course after Him and His heavy Cross, but that they may conform to the world; and they make Him softer than oil, so that every wound may be soothed, and the violent, thieves, murderers and adulterers may have an easy entrance into heaven.</p></blockquote>\n  <p>In the Czech Republic today, you can find the above-pictured reliefs as memorials to John Zizca and Peter Chelcicky. John died from the plague, leaving the wish that his skin should be used to make drums so that he could still lead his soldiers onward, even after his death. Peter died in obscurity: no one knows the details of his final days.</p>\n  <p>Two soldiers.<br>Two methods of battle.<br>Two gospels.<br>Two distinct kingdoms.<br>A pen or a sword: <em>which will you choose?</em></p>\n  <p>Taken from<br><em>The Birth, Life, and Death of the Bohemian Revival</em><br>available online at www.primitivechristianity.org</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "901d229e66d6199fe0f1121d0e77d89eed53b5eaf90d3865b3137c4643a4e656"
+}

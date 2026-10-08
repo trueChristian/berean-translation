@@ -1,0 +1,47 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Darren Brubaker"
+        }
+      ],
+      "raw": "—Darren Brubaker"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "94f9ad84-2cb9-4511-9c5f-e25b2e6f1643",
+    "images": [],
+    "issue_id": "6e434782-fad8-50a6-84db-a97babd8c346",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "Christians Vote?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e582c080c9924ccb2f4db3cea5640ba3165eb84f207a2de53285bf74d54a3d32",
+    "metadata_sha256": "2dfbc846496d6b0e66ec6c65f9843e2685e0144a1d1cf3ddaae753f5e363a725",
+    "structure_sha256": "8b7e09d93e49b6475094d1a53a7fae0b64f431deb85f7175c2e0b85cfd72cc1a",
+    "text_sha256": "f297b6b0a6725aeb62ee3833da8ff0ad5f836f74c290e95880c90fc30f9ba264",
+    "translation_metadata_sha256": "1d546de0bfa3e355b1a0659c46004fd1d850553cbc2b809477aa348c51bffaa1"
+  },
+  "html": "<article data-article-id=\"94f9ad84-2cb9-4511-9c5f-e25b2e6f1643\">\n  <div class=\"poem\">\n    <p>As we near the next election, “Christians, vote!” is oft the plea.<br>\n    “Elect yourselves a godly leader if you want your liberty.”</p>\n\n    <p>Is it true, O fellow pilgrims, has Christ promised freedom here?<br>\n    “On earth you will be persecuted.” Didn’t Jesus make it clear?</p>\n\n    <p>We pass through but for a moment and our homeland is above.<br>\n    Have we not elected Jesus for that country that we love?</p>\n\n    <p>Should we really choose a leader who would call our men to war?<br>\n    Should we rather follow Jesus Who commands to kill no more?</p>\n\n    <p>If we truly trust our Father, why elect a mortal man?<br>\n    God is King o’er all the nations ever since the world began.</p>\n\n    <p>If our focus is on heaven and our hearts are over there,<br>\n    Let us drop earth’s politics and serve this nation with our prayers.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a09ceb972f20fd40452d2e0fd4cf1a7e686298b15e09daff5100c72860e19dba"
+}

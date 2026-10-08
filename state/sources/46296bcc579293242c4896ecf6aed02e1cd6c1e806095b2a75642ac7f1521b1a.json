@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Nate Saint",
+          "role": null
+        }
+      ],
+      "raw": "By Nate Saint, written just before he was martyred by the Auca Indians in South America."
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000",
+        "59e78031-c269-52d1-9b00-08dba0398cb4"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "618e8fb5-f7a3-430f-ae11-717f4f98e216",
+    "images": [],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "2bcc76d9a19390d81d2222ac006948fbe61f455997449f2d9bb2b00d9026acd5",
+    "metadata_sha256": "0d83641376e9b48e4c3426e134b858c6c23e06cb40634b27886cfdd978d277c9",
+    "structure_sha256": "355ffa5d7914391f4a30bbfdb314810d539a302d2d30196a5de66207c99d6e78",
+    "text_sha256": "a502a5dc4fa3f9d7cc000af861a67744cdde5dec99c1b41d95275e34e7e049ac",
+    "translation_metadata_sha256": "faa2c58b3bf2ef0ac56c18368808295ccbdb105e82f9338a26c1398c1efd6634"
+  },
+  "html": "<article data-article-id=\"618e8fb5-f7a3-430f-ae11-717f4f98e216\">\n  <p class=\"drop-cap\">If God would grant us the vision, the word ‘sacrifice’ would disappear from our lips and thoughts; we would hate the things that seem now so dear to us; our lives would suddenly be too short; we would despise time-robbing distractions and charge the enemy with all our energies in the name of Christ. May God help us to judge ourselves by the eternities that separate the Aucas from a comprehension of Christmas, and Him, who, though He was rich, yet for our sakes became poor so that we might, through His poverty, be made rich. Lord God, speak to my own heart and give me to know Thy holy will and the joy of walking in it. Amen. ~</p>\n  <p><em>By Nate Saint, written just before he was martyred by the Auca Indians in South America.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9094c6c9107cd3c1a3e8b672cce16363a6005bb9fb44b8e0caa24b958b08d005"
+}

@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "David J. Lichtenberger"
+        }
+      ],
+      "raw": "by David J. Lichtenberger"
+    },
+    "categories": {
+      "additional": [
+        "976a7e08-e662-50b6-a13d-c787f72c7666",
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "94dd443b-18d7-49fc-81f5-15b359bc6427",
+    "images": [],
+    "issue_id": "c9a9c184-9c75-4029-a839-f6082d61542d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "The Modest Dress",
+    "topics": [
+      "8b345ddb-8046-5651-b04f-924af67af18b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "99ce1ebc6f788c5c122ffad89f048e3a0159aeef8fd1c5292e19a1ee8eca1f1f",
+    "metadata_sha256": "a1365c670d3852aacdd461325cc182715a49876ec872ac9af6bfa6eab1dd42c3",
+    "structure_sha256": "3b90ae8aba6c7ffd803a4c8cfe2e0530119feb0fc73c7148322a6fb5f583a535",
+    "text_sha256": "fac5758fa30ee2da919c8f8f4779584eede4f6781b93042b812832c195833305",
+    "translation_metadata_sha256": "af14e2c8fabc96c4d140db7cad2279b9f46d215e6766ebf29b8307dbe760b821"
+  },
+  "html": "<article data-article-id=\"94dd443b-18d7-49fc-81f5-15b359bc6427\">\n<p><strong>This unusual poem was sent to us s few months ago. I was impressed by this young man’s testimony. This poem does much to reveal the powerful effect of a modestly dressed, godly young lady. This note was attached to the submitted poem:</strong></p>\n<blockquote><p><strong><em>“I’m not sure who I’m writing this to, but I’m sending you this poem to use as you see fit. It is a testimony of how God has used the modesty of a young girl’s actions and dress to show me His awesome power. Without seeing the kindness and grace of God through this young girl, I would not be writing you today. I know I may not be the world’s greatest poet, but if you can use it, my heart would be blessed. My prayer is that it may help some youth to see the importance of modest dress.”</em></strong></p></blockquote>\n<p class=\"poem\">While walking through life’s garden<br>One precious Summer’s eve;<br>I saw the Savior’s kindness,<br>And started to believe.</p>\n<p class=\"poem\">I saw a young girl walking<br>With confidence and ease;<br>Her dress was loving kindness,<br>And way down past the knees.</p>\n<p class=\"poem\">Her hair was veiled and modest<br>With a submissive hanging veil;<br>With glory God had crowned her—<br>I’ll give you more detail.</p>\n<p class=\"poem\">Her eyes were clear as crystals—<br>Not a shadow there of guilt,<br>She sweetly smiled in innocence<br>Of my awful pain and guilt.</p>\n<p class=\"poem\">You see, my sins were many—<br>I scarcely dared to gaze<br>Upon the face of a stranger—<br>I was sure my face would blaze.</p>\n<p class=\"poem\">She didn’t look down on me—<br>She just calmly said hello;<br>It was amazing grace,<br>And caused my heart to slow.</p>\n<p class=\"poem\">I saw her heart was kindness—<br>With confidence she was clothed;<br>With mercy and with grace<br>And to wisdom was betrothed.</p>\n<p class=\"poem\">Her life was full of light,<br>And gentleness her name;<br>And since the day I met her,<br>I will never be the same.</p>\n<p class=\"poem\">And so I’ll show His kindness<br>To the sin sick and the lost;<br>I’ll live my simple life for Him—<br>Whatever the cost.</p>\n<p class=\"poem\">This is a testimony<br>Of how a modest dress,<br>Will save a man from lust,<br>And bring him to confess.</p>\n<p class=\"poem\">It’s because of Christ, our Savior,<br>Who shows us right from wrong;<br>Who heals the broken hearted,<br>And gives them a new song.</p>\n<p class=\"poem\">So would you show this kindness—<br>For beauty’s vanity turns to dust;<br>Won’t you help the lusting man<br>Find someone to trust?</p>\n<p class=\"poem\">For I’ve given my life to Jesus,<br>He has saved me by His grace;<br>And when I stand upon that shore<br>I’ll look upon His face.</p>\n<p class=\"poem\">My heart was torn and tattered—<br>It was bruised and bleeding hard;<br>He sent His angelic stranger<br>To pull out every shard.</p>\n<p class=\"poem\">To show me His precious love<br>And that the Lamb was slain;<br>And when He said, ‘Just as I am,’<br>The wounds were not in vain.</p>\n<p class=\"poem\">A simple, faithful, honest smile<br>Will warm the heart that’s cold;<br>Just as a boiling fire<br>Refines the Jeweler’s gold.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6417ae2887bf8acb5f82dd2307603d14a8d94f4ee065b9f342f8ce2fdc1cfe61"
+}

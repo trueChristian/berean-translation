@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a796463b-e5b4-45fe-bf64-af91daa42aed",
+    "images": [
+      {
+        "alt": "Stone steps leading through a wooded landscape.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a796463b-e5b4-45fe-bf64-af91daa42aed-1.jpg",
+        "repository_path": "public/images/articles/a796463b-e5b4-45fe-bf64-af91daa42aed-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Embedded PDF image object 73 is the source; no replacement pixels or synthetic retouching were used. The published rectangular clipping bounds were mapped to the nearest native source pixels [0, 0, 492, 668]; separately painted article text, rules and frames were omitted. An unavoidable pale wash is already flattened into the only embedded raster; there is no unwashed base, soft mask, transparency group or exact reversible blend evidence. Its source tonal values were retained, without claiming an overlay-free asset. Native grayscale samples expanded to RGB and encoded as a baseline sRGB JPEG with nonzero 72 dpi density; no CMYK conversion or sample inversion was necessary. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence is inferred.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "fda64a2f-faeb-4516-9c08-4259c95e88c5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "pRAYeR ANSWeReD BY CRoSSeS",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "192f0f756a62f6f9e5b27bdc172c101a660c1bf575c2405336632b21abc640f4",
+    "metadata_sha256": "a4477ddc05efb8fea6dee483fe8c176e136c66baab3a66804b80e9d21c6bc1e9",
+    "structure_sha256": "3de65e73dfb38bc2e7a3da059689862b9273a892ebe3c5dc998129d3a0deee79",
+    "text_sha256": "3f5c47802ba10a285b90a78818f41eb6344bc69b51e457441f985da7297f33e5",
+    "translation_metadata_sha256": "ae572d17fef5c2c62d9b85f2fa29b04547fc158145d68ec5c9baa3f55cafbb2d"
+  },
+  "html": "<article data-article-id=\"a796463b-e5b4-45fe-bf64-af91daa42aed\">\n  <figure>\n    <img src=\"/images/articles/a796463b-e5b4-45fe-bf64-af91daa42aed-1.jpg\" alt=\"Stone steps leading through a wooded landscape.\">\n  </figure>\n  <p class=\"poem\">I asked the Lord that I might grow<br>\nIn faith and love and every grace,<br>\nMight more of His salvation know,<br>\nAnd seek more earnestly His face.</p>\n  <p class=\"poem\">I hoped that in some favored hour<br>\nAt once He’d answer my request,<br>\nAnd by His love’s constraining power,<br>\nSubdue my sins and give me rest.</p>\n  <p class=\"poem\">Instead of this, He made me feel<br>\nThe hidden evils of my heart,<br>\nAnd let the angry powers of hell<br>\nAssault my soul in every part.</p>\n  <p class=\"poem\">Yea, more, with His own hand He seemed<br>\nIntent to aggravate my woe;<br>\nCrossed all the fair designs I schemed,<br>\nBlasted my hopes, and laid me low.</p>\n  <p class=\"poem\">“Lord, why is this?” I trembling cried,<br>\n“Wilt Thou pursue Thy worm to death?”<br>\n“ ‘Tis in this way,” the Lord replied,<br>\n“I answer prayer for grace and faith;</p>\n  <p class=\"poem\">“These inward trials I employ,<br>\nFrom self and pride to set thee free,<br>\nAnd break thy schemes of earthly joy,<br>\nThat thou may’st seek thy all in Me.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a5ea32d70d8cf5a5a41b55b89b3e0fe0b176f7a70be0b434900d7625f9b8b4aa"
+}

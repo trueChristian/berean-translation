@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "-Author unknown (Adapted)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+    "images": [
+      {
+        "alt": "A black-and-white globe centered on Africa",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png",
+        "repository_path": "public/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png",
+        "rights_note": "No image-specific credit or reuse restriction is printed. The page-2 masthead lists non-specific art credits (‘Some images ©2001-2011’, www.clipart.com, and www.sxc.hu), but none can be assigned to this image. The clean embedded RGB/sRGB PNG was copied byte-for-byte without transformation.",
+        "role": "title illustration",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "We Are World Christians",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ec8a510442f9149f7a5d87f3a6048fe8274933dcaf108c59708866ae246c9cae",
+    "metadata_sha256": "b2f0e7aec9e8299dd06bf9583f4636d619268918ad28b2cecfe3d188256a663a",
+    "structure_sha256": "6dcbfcb28847dfea681122de9d4e959eb46a54998360a377b89e3fd377b143c2",
+    "text_sha256": "270607a3fe1af901185a28e479d86f0f64ef9d940c744565f8fdf7ba627a34c9",
+    "translation_metadata_sha256": "f6aabf74a8d659aedece86a922fb2fe9353318ad05b447a8e21bc7379c21f626"
+  },
+  "html": "<article data-article-id=\"6f528c85-5ee6-4ccd-804f-63652b5c3a1d\">\n  <figure>\n    <img src=\"/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png\" alt=\"A black-and-white globe centered on Africa\">\n  </figure>\n  <p>We are “World Christians.” (But not worldly Christians.) We put God’s love for all people first. No race is superior to another, no government is more loved than another, no country is dearer than another. We don’t put our nation’s economy before God’s economy. He tells us to seek first His kingdom. He will then meet our needs.</p>\n  <p>We are driven to action daily with the knowledge that billions of people do not know our Savior. Our passion in life, our unquenchable desire, is to take God’s love to them.</p>\n  <p>No task is too small for us. All that limits us is our willingness to believe that God can enable us to do it.</p>\n  <p>We are sold out to Jesus Christ our Savior and Lord. Nothing less. We understand following Him means absolute death to ourselves. It costs everything to be His disciple.</p>\n  <blockquote>\n    <p>Don’t give us blessings—give us grace to be unquestionably obedient to every last command and desire of Yours.</p>\n    <p>Don’t give us status—give us a place to serve.</p>\n    <p>Don’t give us things for our use—use us.</p>\n    <p>Don’t give us a mansion to live in—give us a springboard to take Christ’s love to the whole world.</p>\n    <p>Don’t give us good jobs—put us to work.</p>\n    <p>Don’t give us comfort—command us.</p>\n    <p>Don’t give us pleasure—give us perspective.</p>\n    <p>Don’t give us satisfaction—teach us sacrifice.</p>\n    <p>Don’t give us entertainment—enable us.</p>\n    <p>Don’t give us good salaries—give us strength to do Your will.</p>\n  </blockquote>\n  <p>Our great joy in life is in pleasing our Lord-and there is no other joy comparable.</p>\n  <p>We’re tired of playing religion, tired of seminaries and Bible Schools that pump out thinkers who have no action, tired of church life that consists of a few regular functions and sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency. Life is not some 70 years stretch we endure until Christ returns or takes us home, nor is it a time to seek personal fulfillment.</p>\n  <p>We don’t seek self-actualization—we pursue the actualization of God’s love in all hearts.</p>\n  <p>We don’t seek our personal rights—we seek to see all people set free.</p>\n  <p>We make no plans—we take orders.</p>\n  <p>We have no complaints—except our thankless hearts.</p>\n  <p>We have no excuses—they limit God.</p>\n  <p>We don’t ask for reasons—we ask for responsibility.</p>\n  <p>We don’t give 10% of our income to God—we give it all.</p>\n  <p>We don’t work for Him from 8-5—we are His 24 hours of each day.</p>\n  <p>We are not stoics—we hurt and cry when loved ones leave us. But we hurt all the more for people who pass into eternity without making Jesus Christ their Lord. We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”</p>\n  <p>We are not cynics. Although there are unanswered questions, we know Christ has all the answers.</p>\n  <p>We are not bitter. Although we have been hurt, Christ is our healer.</p>\n  <p>We don’t spend endless hours squabbling over sideline issues, such as specific views of eschatology.</p>\n  <p>We don’t take pride in acquiring things.</p>\n  <p>We say it is senseless to talk of availability or willingness. We would rather obey and do the job, not talk about it.</p>\n  <p>-Author unknown (Adapted)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe"
+}

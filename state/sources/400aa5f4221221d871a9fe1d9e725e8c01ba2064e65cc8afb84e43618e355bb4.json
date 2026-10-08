@@ -1,0 +1,116 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Paul Lamicela"
+        }
+      ],
+      "raw": "by Paul Lamicela"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "36a38c92-5594-4643-8796-a737718af599",
+    "images": [
+      {
+        "alt": "A panoramic group portrait of Youth Bible School students and staff.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-1.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-1.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 29; image-specific creator and license are not stated. Cropped below the panorama to remove title/byline and away from decorative frame and pushpins; cutout silhouette is intrinsic to the source.",
+        "role": "group photograph",
+        "sequence": 1,
+        "source_page": 29
+      },
+      {
+        "alt": "People gather on the steps of Ephrata Christian Fellowship.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-2.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-2.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 29; image-specific creator and license are not stated. Cropped away the separate white frame, shadow, and pushpins baked around the photograph.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 29
+      },
+      {
+        "alt": "Youth Bible School participants meet around tables in a large hall.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-3.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-3.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 30; image-specific creator and license are not stated. Cropped away the white frame, shadow, and pushpins.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 30
+      },
+      {
+        "alt": "A crowd of participants stands together at an indoor gathering.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-4.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-4.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 31; image-specific creator and license are not stated. Cropped away the white frame, shadow, and pushpins.",
+        "role": "photograph",
+        "sequence": 4,
+        "source_page": 31
+      },
+      {
+        "alt": "A man reclines with his feet propped on another chair.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-5.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-5.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 31; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 31
+      },
+      {
+        "alt": "Students gather around a speaker indoors.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/36a38c92-5594-4643-8796-a737718af599-6.jpg",
+        "repository_path": "public/images/articles/36a38c92-5594-4643-8796-a737718af599-6.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 32; image-specific creator and license are not stated. Cropped away the white frame, shadow, and pushpins.",
+        "role": "photograph",
+        "sequence": 6,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "Youth Bible School 2008",
+    "topics": [
+      "19d37772-1cdc-55b8-8b79-3d5105a1c2ab",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "f17883d4-d170-5dff-b66c-e13eaa0557af"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7369385d9920ff4d847e7645c8d3a0cf7cae6367e9ba342f5fd203f230b243a8",
+    "metadata_sha256": "26dba23ef2671f9ff0b191fe35ba284b2ef1eead6bec21734149fc6d3c814d20",
+    "structure_sha256": "a3fede7c3eb164da51ed5fed630fdbcdb4d37b0460ce2896178dacd639f576af",
+    "text_sha256": "fea7db00580ab5b9d5ed4f19eef402af382e7f4b66f3690b03cd7178805b23af",
+    "translation_metadata_sha256": "4ee16e9012747bfca89d359b4ac031990e3ecf83e97d7c4803b7ff52bdf45f0c"
+  },
+  "html": "<article data-article-id=\"36a38c92-5594-4643-8796-a737718af599\">\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-1.jpg\" alt=\"A panoramic group portrait of Youth Bible School students and staff.\">\n  </figure>\n  <h2>Introduction</h2>\n  <p>Youth Bible School 2008—the largest year ever. There were 667 students in attendance. We received much teaching and many challenges. Since YBS, I have heard several testimonies from youth whose lives were influenced and changed by the week. Praise the Lord for what He did!</p>\n  <p>One common theme this year was living a life of obedient faith. Mose Stoltzfus related to us the life of Moses, which was a life full of obedience to and trust in God. Denny Kenaston reminded us of the walk of faith and obedience that the first-generation Christians (our parents) took and urged us to continue in that walk and to go further. John D. Martin sketched profiles of people’s lives in the Bible who chose to live the life of faith, and those who chose to go the way of folly. In this article, I will share the main thoughts, as well as highlights, from the week.</p>\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-2.jpg\" alt=\"People gather on the steps of Ephrata Christian Fellowship.\">\n  </figure>\n  <h2>Mose Stoltzfus:<br>The Life of Moses</h2>\n  <p>Brother Mose Stoltzfus shared on the life of Moses, focusing on his birth through the Exodus. I especially enjoyed hearing messages about Moses’ life, as he is one of my favorite characters in the Bible. I am amazed at his closeness to God. Moses spoke to God and heard God speak clearly to him, over and over again.</p>\n  <p>Brother Mose explained how Moses grew up in a royal setting. He had wealth, affluence, an excellent education, and access to everything else Egypt had to offer, including its sin. However, he chose to make a complete break from Egypt and turn his back on it. He decided to follow God, not Egypt. Brother Mose challenged each of us to also make a clear break from the world. In order to be fully-committed disciples of Jesus, we must follow Him alone, not Him and Egypt.</p>\n  <p>Moses led the Israelites out of Egypt around the age of eighty, and died at one hundred twenty. This means that for the first eighty years of his life, or two thirds of his entire life, he was in preparation. Brother Mose shared that we must be patient with God and allow Him to take His time preparing us for the work He is calling us to. It is very important that we be teachable and yielded to the Lord. It is also imperative that if we will someday be leaders, we must learn how to follow and how to be a servant-leader. Stubbornness will prolong our preparation time—and we do not want to spend two thirds of our life preparing if we don’t have to! The more flexible we are, the easier it will be for God to prepare us.</p>\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-3.jpg\" alt=\"Youth Bible School participants meet around tables in a large hall.\">\n  </figure>\n  <p>Moses trusted God and obeyed Him implicitly. Over and over, God gave Moses clear commands that seemed ludicrous from a human perspective. But Moses kept proving his belief in God by his absolute obedience. True, he did have a couple of failures, but the overwhelming testimony from his life is “obedience.” Brother Mose challenged us to be obedient to God. God wants to lead us, but we need to follow. He cannot effectively use someone who is disobedient.</p>\n  <p>I very much appreciated Brother Mose Stoltzfus’ overview on the life of Moses. I was very challenged to be pliable and moldable in God’s hands so that He can prepare me for service in His kingdom. I want to follow Moses’ example of obedience to and trust in the Lord, so that I can be as close to Him as Moses was. May God make each of us like Moses!</p>\n  <h2>John D. Martin:<br>Profiles of Faith and Folly</h2>\n  <p>In each session, Brother John D. Martin taught on a pair of characters—one wise and one foolish. He covered Abraham and Lot, Jacob and Esau, Elijah and Ahab, Leah and Rachel, and Paul and Demas. We saw that those who choose to live a life of obedience and faith are greatly blessed and make a difference in the world, whereas those who live a foolish life often face tragic consequences, and at best their lives are wasted.</p>\n  <p>One example of these contrasts is Esau and Jacob. Esau seemed like a “nice guy” to the average onlooker, while Jacob seemed to be more of a “rough character.” However, God viewed them differently. Jacob was spiritually receptive, while Esau seemed totally unconcerned about the spiritual realm. Jacob responded to God, and, in spite of his many mistakes, he followed God and God was able to create His chosen people from Jacob. Ultimately, he became the progenitor of the Christ. In contrast, what did Esau have to show for his life at the end?</p>\n  <p>On Friday, Brother John D. contrasted Paul and Demas. He shared how Paul was willing to suffer and sacrifice incredibly for Jesus. He persevered through stress, beatings, imprisonments, and other persecution. He never gave up. Paul left the Church an incredible legacy through his writings and the testimony of his life.</p>\n  <p>What about Demas? There is very little information in the Bible about Demas, but we know that he was a companion of Paul at one time. It seems, however, that when the opposition became very great, Demas threw in the towel. He wasn’t willing to sacrifice past a certain point. Brother John D. said that Demas did not necessarily forsake Christianity, he just left the heat of the battle. We read this tragic report from Paul: “Demas hath forsaken me, having loved this present world.” This is the legacy of Demas. This should be frightful to us. While we may not forsake Christianity, are we shrinking from suffering? Do we want to leave a legacy like Paul or Demas?</p>\n  <p>There was another point that Brother John D. discussed on Friday which made that message the highlight of his series for me. He talked about the “mystery of faith” which the Apostle Paul introduced to the world and for which he was severely persecuted. I had never thought of this concept in this way. (See Eph. 3)</p>\n  <p>In the Old Testament, there were many prophecies of the coming Messiah. Many aspects of Jesus’ ministry and of God’s new plan for His people were prophesied. It was even prophesied that God wanted to redeem the whole world, including the Gentiles. However, there was one aspect of God’s plan that had never been mentioned: that God would eliminate the distinctions of “Jew” and “Gentile” and create a totally new class of people! To be God’s chosen, a Gentile does not become a Jew, and a Jew who chooses to follow Jesus does not truly stay a Jew. They both become Christians—a totally new entity. In Christ, there are no more separations—we are all one: “There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus” (Gal. 3:28).</p>\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-4.jpg\" alt=\"A crowd of participants stands together at an indoor gathering.\">\n  </figure>\n  <p>Unity in the Church is a very important matter to God. It is so sad that we see so many walls and so much fighting, mistrust, and separations in the Church today. Brother John D. said that the differences that the Jews and Gentiles struggled with were greater than the differences that separate us from each other. And if they could come together and be unified, so can we (see Jn 17)!</p>\n  <p>Which road will we choose? Will we take the path of folly and, like Esau, have nothing but a bowl of lentils—or perhaps far worse—to show for it at the end? Or will we choose the path of faith and obedience and make our lives count for God’s Kingdom?</p>\n  <h2>Denny Kenaston:<br>The Faith of Your Fathers</h2>\n  <p>This series was directed to the second-generation Christians, who made up the majority of the students at YBS. During the first few days, Brother Denny Kenaston focused on what we have received from the first generation. He used the account of the Israelites conquering the Promised Land. There were mountains and lands full of enemies—many of them mighty giants—that needed to be conquered. It wasn’t easy. In much the same way, the first generation had to fight many hard battles to gain the spiritual mountains that they have now. In many ways, we have simply grown up taking for granted what our parents have fought for. Brother Denny encouraged us to be grateful to the first generation for all they have given us, not to take anything for granted, and not to throw off what our parents agonized to gain.</p>\n  <p>Then he turned his attention squarely to us—generation two.</p>\n  <p>It is a natural tendency for us to become complacent and, frankly, very lazy. In a powerful message on Thursday, Brother Denny addressed what could be called the “easy chair syndrome.” He illustrated this problem vividly by sitting on a lawn chair on the platform with his feet up. He showed us the danger of just settling in and getting comfortable, enjoying the Christian environment that we have grown up in.</p>\n  <p>He then jolted us with Jesus’ parable of the talents. The servant who was entrusted with one talent did not lose what he had been given. In fact, he kept it perfectly safe and offered it back to the master at the proper time. What was so bad about that? Yet Jesus indicated that he was an utter failure. If we merely keep all that has been given to us but do not go forward and gain more, can we expect to be judged any differently than the complacent servant?</p>\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-5.jpg\" alt=\"A man reclines with his feet propped on another chair.\">\n  </figure>\n  <p>There is much more land to be possessed. What we have is not nearly all that is available for us! We must get off of the chair, kick it (as Brother Denny did on the platform), and march forward. Much has been given to us; therefore, much will be required from us. There are many mountains that we can see outlined in the distance, such as prayer, missions, revival, and church unity. (John D. Martin specifically encouraged us as the second generation to go after the mountain of church unity.) We are very blessed to have what we have now, but if we compare our Christianity to the New Testament, we will quickly discover that God wants to give us far more. Since God is infinite, how can we expect to ever gain all that He has for us?</p>\n  <p>We as the second generation are the future of the Church. We must strive for a Christianity that is holy, uncompromising, loving, unified, ablaze with God’s Spirit, saving the lost, influencing the world for Jesus Christ—once again turning the world upside down. (Dean Taylor urged us to catch this vision in his message on Tuesday evening. See below.)</p>\n  <h2>Chorus</h2>\n  <p>As always, chorus was a highlight of YBS for me. The songs chosen were beautiful and inspiring. Brother Earl Fox did an excellent job directing us—in spite of the fact that there were nearly one hundred more of us this year than last year!</p>\n  <h2>Evening Messages</h2>\n  <figure>\n    <img src=\"/images/articles/36a38c92-5594-4643-8796-a737718af599-6.jpg\" alt=\"Students gather around a speaker indoors.\">\n  </figure>\n  <p>We received very challenging and evangelistic messages in the evenings from Emanuel Esh, Dean Taylor, David Mast, and Mel Esh.</p>\n  <p>On Tuesday evening, Brother Dean Taylor shared a powerful message in which he posed this question to us: are we thermometers, merely recording the temperature of the culture and changing with it; or are we thermostats, setting the temperature? There is a huge difference between those two objects. All too often, we find ourselves in the thermometer category. And because we are in this state, the Church today is in danger of being cast aside as an “irrelevant social club.” The true, Spirit-filled church is the opposite: in Acts, we read that opponents of the Church complained that it was turning the world upside down. That is the thermostat Church. I believe that Christianity should affect every aspect of society. Unfortunately, what we see today is more like the world having an effect on every aspect of the Church! (<em>Brother Dean quoted Dr. Martin Luther King, Jr.’s very revealing assessment of the Church in his letter from Birmingham Jail. This letter can be accessed at <u>www.stanford.edu/group/King/frequentdocs/birmingham.pdf.</u></em>)</p>\n  <p>In many ways, revival is a return to “thermostat Christianity.” Brother Dean quoted four points from Evan Roberts (a young man used mightily by God in one of the Welsh revivals) on preparing for revival:</p>\n  <ol>\n    <li>Every sinful thing must be put away.</li>\n    <li>Every doubtful indulgence must be sacrificed for the sake of holiness.</li>\n    <li>There must be prompt obedience to the voice of the Holy Spirit.</li>\n    <li>There must be public confession of Christ before everyone.</li>\n  </ol>\n  <p>Let’s return to original, biblical, thermostat Christianity!</p>\n  <h2>Conclusion</h2>\n  <p>Now there is a fork in the road. Will we choose to live in Egypt or to “suffer with the people of God,” the way of faith or the way of folly, the way of ease and complacency or the way of conquering more mountains? Which path will we choose?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "4cbaca12d7c3abd83820cc0274d1b890772d8546a1c82ef1e613b8a79a7d863f"
+}

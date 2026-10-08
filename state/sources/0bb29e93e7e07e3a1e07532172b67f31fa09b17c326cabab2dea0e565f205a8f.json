@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e6b6901e-f210-454c-a424-0ca92eb725ce",
+    "images": [
+      {
+        "alt": "A wooden cross beside snow-covered rocks under a blue sky.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e6b6901e-f210-454c-a424-0ca92eb725ce-1.jpg",
+        "repository_path": "public/images/articles/e6b6901e-f210-454c-a424-0ca92eb725ce-1.jpg",
+        "rights_note": "Original PDF image object 122; source RGB. Exported as standards-normalized baseline RGB/sRGB JPEG, quality 98, nonzero 72 dpi density; no CMYK samples or inversion. Published rectangular clipping mapped to nearest native pixel bounds [0, 1, 470, 376]. Clean mountain-and-cross base recovered before the separately painted Perfect Love title and poem typography; those overlays are omitted. No individual image creator, source or licence is printed.",
+        "role": "background_photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "b432e14b-b55d-44f5-8c1a-d23d6bbaead6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Perfect Love",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f3a7887b2ed4ac3caa8f7c4957ebdf18d96b8288033a5898bbc1c815ed4223a1",
+    "metadata_sha256": "324a4c41c578cfc126e28867acdcc094f865d28f1f71c7c9bfac3285bf5dd2d9",
+    "structure_sha256": "c1a2eda8944e7abbc9520e277bb1013fd8767ca29df94ed4dd14e942f23eeed9",
+    "text_sha256": "cdb113ce9f6fcf962d3587a6c1535eb8c5cd09e5a0cd9e9778f2a0ea8f343888",
+    "translation_metadata_sha256": "ab58d5bc0c9e9fc0e4cc5f857f084b80ddedd122dcd62fb05b9dbb89a4eb8f18"
+  },
+  "html": "<article data-article-id=\"e6b6901e-f210-454c-a424-0ca92eb725ce\">\n  <figure>\n    <img src=\"/images/articles/e6b6901e-f210-454c-a424-0ca92eb725ce-1.jpg\" alt=\"A wooden cross beside snow-covered rocks under a blue sky.\">\n  </figure>\n  <p class=\"poem\"><strong><em>It is a self-abandonment,<br>\n  a wandering out of ourselves.<br>\n  It is a voluntary death, wherein<br>\n  the lover dies to himself and all his own interests,<br>\n  not thinking of them or caring for them any more.<br>\n  He minds nothing, but how he may please<br>\n  and bless the one whom he loves.</em></strong></p>\n  <p class=\"poem\"><strong><em>Be it God,<br>\n  be it a person,<br>\n  be it a family,<br>\n  or be it a people.</em></strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d050eeeb31b47249e27538dd1bd447830e77c2fa85e3cf70074ab5216b9d8f95"
+}

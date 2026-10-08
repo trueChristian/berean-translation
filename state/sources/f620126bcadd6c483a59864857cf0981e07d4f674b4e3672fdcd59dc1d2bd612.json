@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Wolfgang Sailer"
+        }
+      ],
+      "raw": "-Wolfgang Sailer, ca. 1500-1550\n-Songbook of the Hutterian Brethren, #283"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "ab6f2bb9-4dbc-4030-84e5-2068dc9c5518",
+    "images": [
+      {
+        "alt": "Sunlight streaming through trees in mist",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ab6f2bb9-4dbc-4030-84e5-2068dc9c5518-1.jpg",
+        "repository_path": "public/images/articles/ab6f2bb9-4dbc-4030-84e5-2068dc9c5518-1.jpg",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Original embedded full-page PDF image object 183, re-encoded as standards-normalized baseline sRGB JPEG with nonzero 150 dpi JFIF density. The separable mailing panel and poem lettering were omitted.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 16,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "6a3e7d22-888c-5e67-b5bc-d631d5871987"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "22aab439a3ebce950341b2a89e5a235b288afe73ddc9fc659891e8710d002fe1",
+    "metadata_sha256": "6e3a0d520c7710a4eb8b353333d5546eae0191dfea56e4c997a9e6969900ecc0",
+    "structure_sha256": "e87c0c5039970eef2840701daa18c5406ef931aa0558583324981ea856919fc7",
+    "text_sha256": "ec5d1d409d337f97eacc688c165090b5fbaf82a9027cf0e7ffa76e86b8034228",
+    "translation_metadata_sha256": "fd2ac7d9e56c96b334e8b49d465b00f7d5d8b7edd580d5fc2a2dc9b0286b6165"
+  },
+  "html": "<article data-article-id=\"ab6f2bb9-4dbc-4030-84e5-2068dc9c5518\">\n  <figure><img src=\"/images/articles/ab6f2bb9-4dbc-4030-84e5-2068dc9c5518-1.jpg\" alt=\"Sunlight streaming through trees in mist\"></figure>\n  <p class=\"poem\">Flee, dark night!<br>Joyful sunlight, drive all evil away!<br>World, I want no more of your honor, pride, and power.<br>I want to love you, Lord, alone!<br>Let the sun of your favor shine on my heart, since Christ<br>the Beloved has carried my sins away.</p>\n  <p>-Wolfgang Sailer, ca. 1500-1550<br>-Songbook of the Hutterian Brethren, #283</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c80ed5b9a0298688fa3a5064fea0f09867164930329c3599b6cecd7b9fbf0e05"
+}

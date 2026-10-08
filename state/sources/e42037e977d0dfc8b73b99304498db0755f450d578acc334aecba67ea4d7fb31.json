@@ -1,0 +1,136 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "G.G. Warren",
+          "role": null
+        }
+      ],
+      "raw": "by G.G. Warren"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "19270b64-7f17-4623-b361-5486354b7303",
+    "images": [
+      {
+        "alt": "Jacob rests beneath a stairway filled with angels",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg",
+        "repository_path": "public/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg",
+        "rights_note": "Extracted the original embedded image object 64 from printed page 15. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [2, 2, 591, 713] from the 592 × 714 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB. Small intrinsic artist lettering is retained in the raster; its complete spelling is not reliably legible, so no creator name has been inferred.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 15,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            591,
+            713
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            589,
+            711
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            592,
+            714
+          ],
+          "source_object": 64
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Jacob kneels before a winged angel",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg",
+        "repository_path": "public/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg",
+        "rights_note": "Extracted the original embedded image object 63 from printed page 15. No separate image credit or image-specific permission wording is printed. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 15,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            450,
+            366
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            450,
+            366
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            366
+          ],
+          "source_object": 63
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "How Men Grow",
+    "topics": [
+      "16a1b70b-b55c-55ae-a18e-9511dd9ef26f",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e58e0670e9ee8617e66fbb1be0823e7fe8d4e5879f1a3b823d38c6bf3413c61f",
+    "metadata_sha256": "e1e2c1691b1e3f6b78d3f287d3d257218576cc3502cd0aa71ff7fbbf5cbf7853",
+    "structure_sha256": "2ab96c07bbf7313b0e5bd7490919b0948ddf22c3d346112cb0a3f5212902189c",
+    "text_sha256": "5c9431d3cc7bebee840864d33acb2f93ac3d7e13e9795ea20d8718646655091e",
+    "translation_metadata_sha256": "83b6c4edf1e8a62174458d173c1c3c05f525da65bf77ea665af3f08c134692ad"
+  },
+  "html": "<article data-article-id=\"19270b64-7f17-4623-b361-5486354b7303\">\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\" alt=\"Jacob rests beneath a stairway filled with angels\"></figure>\n  <p>To rightly estimate any phase in any man’s life, we must consider it as a chapter in the process of his growth upward—or downward.</p>\n  <p>Consider Jacob at Bethel when a ladder came down from Heaven ministering God’s love to him. Some find fault with Jacob’s vow at Bethel as being selfish and mercenary. If God will do this for Jacob, then Jacob will do this for God! How much nobler to stay one’s self upon God with a generosity such as Abraham’s, which trusts all to Him!</p>\n  <p>But Jacob was at the very beginning of his spiritual life at Bethel. He had just had his first glimpse of the vision which was to shape that life to its close. He naturally rises to no height of self-abandonment He honestly states the case as it strikes him, and takes God at His word in the practical commonplace way which was characteristic of him.</p>\n  <p>But at Jabbok, Jacob went further. Once more Divine powers and presences come into his life and this time he has no bargain to make with them. He doesn’t asks for safety for himself, or the preservation of his property, or the mollification of his brother’’ anger. He asks just the blessing which God can bestow, and leaves it to take any shape or to carry any meaning which God may give it. He drives no bargain now, but trusts and adores. Then it was there that his old name Jacob, the Supplanter, ceased to fit the man, and he became Israel, “a Prince of God.”</p>\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\" alt=\"Jacob kneels before a winged angel\"></figure>\n  <p>And so God takes us from one stage to another, from narrow and selfish views of our relation to Him, to the hour when of all His gifts we ask nothing but the blessing that expresses His gladness in us, and helps to our gladness in Him.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb"
+}

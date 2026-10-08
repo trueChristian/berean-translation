@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip"
+        }
+      ],
+      "raw": "~Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "33bbaaa4-dcf7-4f93-83a8-12baf57017d5",
+    "images": [
+      {
+        "alt": "oval photograph of a boy beside a large chainsaw and cut timber",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/33bbaaa4-dcf7-4f93-83a8-12baf57017d5-1.png",
+        "repository_path": "public/images/articles/33bbaaa4-dcf7-4f93-83a8-12baf57017d5-1.png",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #11; none; clean embedded image. Exported as web-compatible RGB/sRGB PNG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 1,
+        "source_page": 9
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "Tool? Or Toy?",
+    "topics": [
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba",
+      "92851eaf-551e-562f-9a60-8efff905ed54",
+      "79026687-5f1c-5c05-8305-c63a5d165b2c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "905d43417884b80486fab2ff0b6624cf08578e842d14c261979a5d3ec3a6e0e2",
+    "metadata_sha256": "347c700cd8fb89f25c3f13565387e712df7f90f22773ae87e0896a931d3ec24a",
+    "structure_sha256": "3cb0f770f1d6d4a39edaacd26a489dbb99df2931708171775aaa6e1d09854107",
+    "text_sha256": "c36acdf2be434729d47bffaefe4a5d78980603eb80265267efc06b9254ca4657",
+    "translation_metadata_sha256": "a4ae0077fa865cf28e7182d65a8ae4e853a4eaab2d3f0fee57b2c65d2a63d961"
+  },
+  "html": "<article data-article-id=\"33bbaaa4-dcf7-4f93-83a8-12baf57017d5\">\n  <figure><img src=\"/images/articles/33bbaaa4-dcf7-4f93-83a8-12baf57017d5-1.png\" alt=\"oval photograph of a boy beside a large chainsaw and cut timber\"></figure>\n  <p>I trust you would rebuke me.</p>\n  <p>I mean, if I let my son Daniel use that humongous chainsaw for a toy, you would rebuke me wouldn’t you?</p>\n  <p>660 Stihl chainsaws are a very efficient tool for milling logs like the one Daniel is standing on. In about six minutes, I could cut off a board 22 inches wide by eight feet long.</p>\n  <p>But you need not rebuke me: I never let Daniel play with that saw, other than to hold it up for the picture perhaps. Faster than you could say “Be careful with that saw, son!”, it could rip off a little boy’s leg. In fact, that saw was so powerful that I was almost afraid to run it myself!</p>\n  <p>I say all this to make a point: tools are tools, and toys are toys.</p>\n  <p>The Internet can be a useful tool. I myself have used it to find a manual for my wife’s sewing machine, got a good bargain for a vehicle on an online auction, located hard-to-find parts for small engines, and other practical uses.</p>\n  <p>But just like I did not let my son play with the 660 Stihl, I do not let him play with the Internet. Never. Period. Faster than you can say, “Be careful with the Internet, son!”, he could click into something that would rip apart his innocent little heart.</p>\n  <p>I am tacking this little piece at the end of the previous article on social networking as a plea for all of us to take a serious look at Internet use. Are we using the Internet as a tool, or as a toy?</p>\n  <p>Let’s get real practical: If you would suddenly drop off all Internet use, would the kingdom of heaven feel any loss? Or would it feel a gain?</p>\n  <p>These are the questions we all need to ask ourselves. And, when we are through asking them about Internet use, we need to just keep right on going into other areas of our life.</p>\n  <p>I challenge all of us to “clean house” of everything in our life that we, as adults, are using as a toy, and not a tool for the advancement of righteousness, peace, and joy. ~Mike Atnip</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cffd6fefbf914933d75471c94a0938dd9f439c4ab913b0e65c7b3ed534f7d73f"
+}

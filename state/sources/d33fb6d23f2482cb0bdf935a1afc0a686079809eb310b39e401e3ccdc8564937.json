@@ -1,0 +1,82 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "707bf535-04d2-4ea4-8844-67cd4e6d3f60",
+    "images": [
+      {
+        "alt": "An auctioneer and two people on a platform before a gathered crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/707bf535-04d2-4ea4-8844-67cd4e6d3f60-1.jpg",
+        "repository_path": "public/images/articles/707bf535-04d2-4ea4-8844-67cd4e6d3f60-1.jpg",
+        "rights_note": "Clean source image object 116; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            352,
+            238
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            352,
+            238
+          ],
+          "source_object": 116,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": "ìTHREE BIDDERSî",
+    "title": "A LADY SOLD BY AUCTION",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a860bc896dedc28ca08de7064a08869fb67af75dccdcee9e42d8165682ffe348",
+    "metadata_sha256": "e6341551ed63fab8f705a738bc0fd0e19613103abcabbe6ffb9b37fe8ee7132b",
+    "structure_sha256": "84dc69d95569c19ec5422aede657bf469c10c3dc73fbd22d5dc3080e93a1fbed",
+    "text_sha256": "74545768e3863e8f8e68ddd7a5f660480948a0239f747c1a8e2132151890e289",
+    "translation_metadata_sha256": "7afe110c4decc377844089ad9affd21b25bc9f471fadc7cbd6e7f8664b699792"
+  },
+  "html": "<article data-article-id=\"707bf535-04d2-4ea4-8844-67cd4e6d3f60\">\n  <figure><img src=\"/images/articles/707bf535-04d2-4ea4-8844-67cd4e6d3f60-1.jpg\" alt=\"An auctioneer and two people on a platform before a gathered crowd\"></figure>\n  <p><em>A true incident in the life of Rowland Hill</em></p>\n  <p class=\"poem\">Will you listen, friends, for a moment,<br>While a story I unfold;<br>A marvelous tale, of a wonderful sale<br>Of a noble lady of old:<br>How hand and heart, at an auction mart,<br>Soul and body, she was sold.”</p>\n  <p class=\"poem\">’Twas in the broad king’s-highway,<br>Near a century ago,<br>That a preacher stood—though of noble blood—<br>Telling the fallen and low<br>Of a Savior’s love, and a home above,<br>And a peace that they all might know.</p>\n  <p class=\"poem\">All crowded around to listen;<br>They wept at the wondrous love,<br>That could wash their sins, and receive them in<br>His spotless mansions above:—<br>While slow through the crowd, a lady proud<br>Her gilded chariot drove.</p>\n  <p class=\"poem\">“Make room,” cried the haughty outrider,<br>“You are closing the king’s highway;<br>My lady is late, and their Majesties wait,<br>Give way, good people, I pray.”<br>The preacher heard, his soul was stirred,<br>And he cried to the rider, “Nay.”</p>\n  <p class=\"poem\">His eye like the lightning flashes;<br>His voice like a trumpet rings.<br>“Your grand days, and your fashions and ways<br>Are all but perishing things.<br>’Tis the king’s highway, but I hold it to-day<br>In the name of the King of kings.”</p>\n  <p class=\"poem\">Then—bending his gaze on the lady,<br>And marking her soft eye fall,—<br>“And now in His name, a sale I proclaim,<br>And bids for this fair lady call.<br>Who will purchase the whole—her body and soul,<br>Coronet, jewels, and all?”</p>\n  <p class=\"poem\">“I see already three bidders,”<br>The World steps up as the first,<br>“I will give her my treasures, and all the pleasures<br>For which my votaries thirst;<br>She shall dance each day, more joyous and gay,<br>With a quiet grave at the worst”.</p>\n  <p class=\"poem\">But out spake the Devil, boldly:<br>“The kingdoms of earth are mine.<br>Fair lady, thy name, with an envied fame,<br>On their brightest tablets shall shine;<br>Only give me thy soul, and I give thee the whole,<br>Their glory and wealth to be thine.”</p>\n  <p class=\"poem\">“And pray what hast Thou to offer,<br>Thou Man of Sorrows unknown?”<br>And He gently said, “My blood I have shed,<br>To purchase her for mine own.<br>To conquer the grave, and her soul to save,<br>I trod the winepress alone.</p>\n  <p class=\"poem\">“I will give her My cross of suffering,<br>My cup of sorrow, to share;<br>But with endless love, in My home above,<br>All shall be righted there:<br>She shall walk in light, in a robe of white,<br>And a radiant crown shall wear.”</p>\n  <p class=\"poem\">“Thou hast heard the terms, fair lady,<br>That each hath offered for thee.<br>Which wilt thou choose, and which wilt thou lose,<br>This life, or the life to be?<br>The fable was mine, but the choice is yet thine,<br>Sweet lady, which of the three?”</p>\n  <p class=\"poem\">She took from her hand the jewels,<br>The coronet from her brow;<br>“Lord Jesus,” she said, as she bowed her head,<br>“The highest bidder art Thou,<br>Thou gav’st for my sake Thy life, and I take<br>Thy offer—and take it now.</p>\n  <p class=\"poem\">“I know the World and her pleasures,<br>At best they weary and cloy;<br>And the Tempter is bold, but his honors and gold<br>Prove ever a fatal decoy;<br>I long for Thy rest—Thy bid is the best;<br>Lord, I accept it with joy!”</p>\n  <p class=\"poem\">“Amen,” said the noble preacher;<br>And the people wept aloud.<br>Years have rolled on—and they all have gone<br>Who formed that awe-struck crowd.<br>Lady and throng have been swept along<br>On the wind like a morning cloud.</p>\n  <p class=\"poem\">But the Savior has claimed His purchase,<br>And around His radiant seat,<br>A mightier throng, in a joyful song,<br>The wond’rous story repeat;<br>And a form more fair is bending there,<br>Laying her crown at His feet.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "bce565765e87ee583e4c717d73e62b5c4b351da0e73cd0dcd364ca5e61d251f3"
+}

@@ -1,0 +1,97 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Salesville, Ohio",
+          "name": "Sarah Raber",
+          "role": null
+        }
+      ],
+      "raw": "Written by Sarah Raber\nSalesville, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "bb70a7bb-68b1-4cdd-b85a-f732afefeaa2",
+    "images": [
+      {
+        "alt": "A uniformed soldier carrying a rifle with a bayonet.",
+        "caption": null,
+        "credit": null,
+        "height": 318,
+        "public_path": "/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-1.png",
+        "repository_path": "public/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-1.png",
+        "rights_note": "Original PDF page 24 image object 85; no separate image licence or credit is stated. Source grey raster background retained; separate page panel, title, and border omitted. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 24,
+        "source_xref": 85,
+        "transformations": "Original lossless embedded image extracted at source pixel dimensions without cropping, rotation, or material retouching.",
+        "verification": {
+          "encoded_bytes": 14574,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "PNG 121x318 Gray Grayscale 37.799999999999997158 37.799999999999997158",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 121
+      },
+      {
+        "alt": "A heart with a closed door in its center.",
+        "caption": null,
+        "credit": null,
+        "height": 125,
+        "public_path": "/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-2.png",
+        "repository_path": "public/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-2.png",
+        "rights_note": "Original PDF page 24 image object 86; no separate image licence or credit is stated. Source grey raster background retained; separate page panel, poem text, and border omitted. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 24,
+        "source_xref": 86,
+        "transformations": "Original lossless embedded image extracted at source pixel dimensions without cropping, rotation, or material retouching.",
+        "verification": {
+          "encoded_bytes": 3633,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "PNG 126x125 Gray Grayscale 37.799999999999997158 37.799999999999997158",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 126
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 24
+    },
+    "subtitle": "Proverbs 4:23",
+    "title": "Keep Thy Heart With All Diligence",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "086351760a6c3fa61d128c51a6707cd7e34d155165d19ab4924b150690957df4",
+    "metadata_sha256": "1fac22fede90d7aafb76305c9a8888b56d51757807b8210274e42965bfcbc6c1",
+    "structure_sha256": "d397fa9d738ea52652633c97bf0d234e21042ce32182e758a2a2e9f15cc5ff9e",
+    "text_sha256": "8dc298e0cbbfb9627d988f8a3afe1284a4fa98f191094a71f5b51ddaae2b31ab",
+    "translation_metadata_sha256": "7a8b3562df36601523ee9836a245249602e80fd93d641782a8eb2c9c7a60401f"
+  },
+  "html": "<article data-article-id=\"bb70a7bb-68b1-4cdd-b85a-f732afefeaa2\">\n  <figure><img src=\"/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-1.png\" alt=\"A uniformed soldier carrying a rifle with a bayonet.\"></figure>\n  <figure><img src=\"/images/articles/bb70a7bb-68b1-4cdd-b85a-f732afefeaa2-2.png\" alt=\"A heart with a closed door in its center.\"></figure>\n  <div class=\"poem\">\n    <p><strong>My friend, the choices that you make,<br>The many things you do…<br>Decisions, though they may seem small,<br>End up defining you.</strong></p>\n    <p><strong>The books you read, the things you buy,<br>The places that you go…<br>You face decisions every day;<br>You answer “yes” or “no.”</strong></p>\n    <p><strong>Each choice you make is like a seed;<br>That seed will surely grow;<br>For what you plant within your heart<br>Takes root within your soul.</strong></p>\n    <p><strong>That angry word when caught off guard—<br>An accident?—Oh no!<br>It just exposed the heart’s true state,<br>Laid out for all to know.</strong></p>\n    <p><strong>“But, that’s not really me,” you say.<br>Oh no? Then may I ask,<br>Where did it come from—truly, friend—<br>If not behind the mask?</strong></p>\n    <p><strong>Can words or thoughts or actions come<br>From where they’ve never been?<br>For what goes in comes surely out;<br>This is a proven thing.</strong></p>\n    <p><strong>The secret pleasures you delight in,<br>On which your spirit feeds,<br>Those things which occupy your thoughts<br>Will soon show forth in deeds.</strong></p>\n    <p><strong>What you will do when no one sees<br>Is who you really are;<br>And like a mirror actions will<br>Reflect the state of heart.</strong></p>\n    <p><strong>You make a choice—that choice makes you—<br>A law of life that stands.<br>So think about each choice, my friend,<br>When you are making plans.</strong></p>\n    <p><strong>And so that heart of yours, beware,<br>And diligently keep.<br>For issues that pertain to life<br>Will flow from out of it!</strong></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7cf97d062098549134311943a437b6728b98294ad0eae32cdd7cb2257e54f47d"
+}

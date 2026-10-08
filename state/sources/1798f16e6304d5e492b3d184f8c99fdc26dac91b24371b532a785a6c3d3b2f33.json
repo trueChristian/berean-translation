@@ -1,0 +1,128 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Leonard Ravenhill"
+        }
+      ],
+      "raw": "by Leonard Ravenhill"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "22db867f-04df-467f-b0ac-9165526ff57d",
+    "images": [
+      {
+        "alt": "Illustration of Peter in prison beside an angel and a sleeping guard",
+        "caption": "Peter in prison! What a jolt!",
+        "credit": null,
+        "public_path": "/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-1.jpg",
+        "repository_path": "public/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-1.jpg",
+        "rights_note": "Clean embedded image object 23. Rounded white corners are intrinsic to the source raster. Separate caption omitted from image and transcribed in figcaption. Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            450,
+            444
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            444
+          ],
+          "source_object": 23
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Drawing of a key",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-2.jpg",
+        "repository_path": "public/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-2.jpg",
+        "rights_note": "Clean embedded image object 27. The shaped clipping path removes only the white surround; complete key artwork retained. No layout text or background panel is baked into the asset. Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            291,
+            87
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            291,
+            87
+          ],
+          "source_object": 27
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "Faith Laughs at IMPOSSIBILITIES",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c1baa87adab955bf9021918549beaf73b990bb747f2a2cb3488d9077df711cef",
+    "metadata_sha256": "80f8118958e905f1824f9f28e6e113529a94ecc4a5afc7a467395d0f9000849e",
+    "structure_sha256": "c3b8040ce3d8723b63186ebb2b9beab4d7563c72773c04be52348895d8708d58",
+    "text_sha256": "0f6e1c5551e800ead3f7bad9e25deaa2909007c0fdeacc6bc29b95822d06ce78",
+    "translation_metadata_sha256": "fc8b71caf346b8344f2b968e0c22931ee4e927877e394f60e2351788d31f82b5"
+  },
+  "html": "<article data-article-id=\"22db867f-04df-467f-b0ac-9165526ff57d\">\n  <p>We are too far removed from the actual scene to catch the atmosphere of dismay the Christians of that day felt.</p>\n  <figure>\n    <img src=\"/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-1.jpg\" alt=\"Illustration of Peter in prison beside an angel and a sleeping guard\">\n    <figcaption><strong>Peter in prison! What a jolt!</strong></figcaption>\n  </figure>\n  <p>Peter had moved from Pentecost to prison, from jeers to spears. He was guarded by sixteen soldiers. One wonders why such a defenseless man needed such a group to watch him. Could it be that Herod feared the supernatural, seeing he knew that Jesus escaped such a group that guarded Him?</p>\n  <p>Had Peter been hedged in by sixteen hundred soldiers, the problem would not have been increased nor the escape less sure. Peter was bound not only by two chains, but also by the thick walls of the prison, by the three wards of the prison, and finally by an iron gate.</p>\n  <p>When Peter is in prison, does the church organize a plan to get him released? No. When Peter is jailed, do the believers offer a plea to Herod or suggest a price to offer the lawmakers for his freedom? No. Peter had released others at the hour of prayer; now others must believe for his release.</p>\n  <p>Right through the book of Acts, which might be called The Acts of Prayer, we find prayer and more prayer. Dig into the book and discover this power that motivated the early church. In the twelfth chapter of Acts we find a group that prayed. Though a host encamped against Peter, in this were these believers confident: there was a God who could and would deliver. The one never-failing rescue operation was prayer. There was no hedging about in the prayers of those who made intercession for Peter. Prayer was made without ceasing by the church unto God for him. They did not seem to be concerned whether Herod should die or not. They did not pray that they might escape Peter’s fate. They were not asking that they have another exodus to a more hospitable country. They prayed for one person: Peter. They prayed for one thing: his release. The answer proves the point: “Whatsoever ye shall ask,... that will I do”</p>\n  <p>Some shabby interpreters of this story have said that when the pray-ers heard that Peter was at the door, they were unbelieving. I cannot accept this assumption. I am sure that they prayed with expectation. I like to think that they were for the moment staggered by the immediacy of the answer. They could be excused if they raised their eyebrows when Peter said, “I got out quite easily with an angel escort “ (Next time you pass through the magic self-opening door at your supermarket, remember that the first door to open of its own accord was operated from above!)</p>\n  <p>Angel deliverances seem to find no place in our modern theology. Perhaps we would like the Lord to answer our prayers with the least embarrassment to us. After all, who expects that the angelic ranks should be disturbed just to bring deliverance to a praying soul? But supernatural results came for many of the praying saints of apostolic days. The Lord geared a property-damaging earthquake to get deliverance for an apostle. Prayer is dynamite.</p>\n  <p>There is no weapon formed against prayer that can neutralize it. Some things can delay answers to prayer, but nothing can stop the full purpose of God. “Though it tarry, wait for it.”</p>\n  <p>The first requirement in prayer is to believe—</p>\n  <ul>\n    <li>Believe that God is and that “he is a rewarder of them that diligently seek him.”</li>\n    <li>Believe that God is alive and therefore has power-not only for Peter’s deliverance, but for ours.</li>\n    <li>Believe that God is love and that He cares for His own.</li>\n    <li>Believe that God is power and therefore no power can stand against Him.</li>\n    <li>Believe that God is truth and therefore cannot lie.</li>\n    <li>Believe that God is kind and that He will never abdicate His throne or fail in His promise.</li>\n  </ul>\n  <p>Reflecting on the story of Peter, I am rebuked, humiliated, chagrined, stung. Why? Because there are some great modern saints, Watchman Nee for one, who for years have suffered and been held captive by communists and others. Many of the saints today are shut up in prison. The same fate has befallen some of God’s choice witnesses in Vietnam and in the Congo.</p>\n  <p>Such perils to other members of the Body demand concern, concentration, and consecration to a committed plan of prayer on their behalf. I fear that prayer has not been made to God without ceasing for these suffering kinsmen.</p>\n  <p>Mr. Bunyan shows us his Christian held captive by the Giant Despair in Doubting Castle. The key to his deliverance was Promise. We Christians are in captivity on many levels today personal, domestic, church, and missionary enterprise. But fetters break and dungeons fall when prayer is made by the church unto God—</p>\n  <ul>\n    <li>Prayer without ceasing;</li>\n    <li>Prayer that might shatter our status quo;</li>\n    <li>Prayer that drains us of every other interest;</li>\n    <li>Prayer that excites us by its immense possibilities;</li>\n    <li>Prayer that sees God as the One that rules on high, almighty to save;</li>\n    <li>Prayer that laughs at impossibilities and cries, “It shall be done”;</li>\n    <li>Prayer that sees all things beneath His feet;</li>\n    <li>Prayer that is motivated with desire for God’s glory.</li>\n  </ul>\n  <figure>\n    <img src=\"/images/articles/22db867f-04df-467f-b0ac-9165526ff57d-2.jpg\" alt=\"Drawing of a key\">\n  </figure>\n  <p>The praying of the believer can become a ritual. The place of prayer is more than a dumping ground for all our anxieties, frets, and fears. The place of prayer is not a place to drop a shopping list before the throne of a God with endless supplies and limitless power.</p>\n  <p>I believe the place of prayer is not only a place where I lose my burdens, but also a place where I get a burden. He shares my burden and I share His burden. “My yoke is easy and my burden is light.” To know that burden, we must hear the voice of the Spirit. To hear that voice, we must be still and know that He is God.</p>\n  <p>This calamitous hour in the affairs of men demands a church healthier than the one we have. This blatant manifestation of evil in the youth and in the violation of God’s commandments throughout the world calls for a faith that will not shrink.</p>\n  <p>Can we let our prayer swords rust in the scabbards of doubt? Shall our prayer harps hang tuneless on the willows of unbelief—</p>\n  <ul>\n    <li>If God is a god of matchless power and incredible might,</li>\n    <li>If the Bible is the unchangeable Word of the living God,</li>\n    <li>If the virtue of Christ is as fresh today as when He first made the offering of Himself to God after His resurrection,</li>\n    <li>If He is the one and only mediator today,</li>\n    <li>If the Holy Spirit can quicken us as He did our spiritual fathers, Then all things are possible today.</li>\n  </ul>\n  <p>The seas were boiling, the winds were howling, the sails were tearing, the spars were flying, the stars were hiding, Euroclydon was blasting. The people were cringing and crying, sobbing and sighing. One man alone was praising. All were expecting death save Paul. Amidst a scene of hopelessness, if ever there was one, Paul cries, <strong>“Sirs, I believe God”</strong> (Acts 27).</p>\n  <p>As things seem to fall apart these days, I am going to join Paul. I am going to say in faith, “Sirs, I believe God.” Will you join me?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5f9a1f2401d3cb4d54ec879d7cb2310c2db74df4e106324477521aa8a58e38a1"
+}

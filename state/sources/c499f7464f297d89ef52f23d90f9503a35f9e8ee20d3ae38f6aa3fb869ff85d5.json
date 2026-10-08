@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "a3b8ac83-47f6-4fb5-b9df-ad8696077a05",
+    "images": [],
+    "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "DRUG PROBLEM",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e96db6e975088d76e1af9a19540cb107b82ed4b6fe24ad88288d4631240b7bfa",
+    "metadata_sha256": "31c3c3866c107fbf3bbcb58e9539333f71f42fc8809aa72e4d259d5b6dfeba47",
+    "structure_sha256": "8b28ceb0b13f9e787e61b720b82755b23dec90bdb64575ccf8053c68098f5dc6",
+    "text_sha256": "d4df4ff76d715e7361111a73cb2373ed9971defb67a6bb71d601ae09a75ba2d6",
+    "translation_metadata_sha256": "628aedb34bca0ecfa3befd772523ee49d9a37b359a1c249bf111cf1420cb0697"
+  },
+  "html": "<article data-article-id=\"a3b8ac83-47f6-4fb5-b9df-ad8696077a05\">\n  <p>I had a drug problem when I was a young person and a teenager.</p>\n  <p>I was drug to church on Sunday morning. I was drug to church on Sunday night. I was drug to church on Wednesday night. I was drug to Sunday School every week. I was drug to Vacation Bible School.</p>\n  <p>I was drug to the family altar to read the Bible and pray. I was also drug to the woodshed when I disobeyed my parents.</p>\n  <p>Those drugs are still in my veins. And they affect my behavior in everything I do and say and think. They are stronger than cocaine, crack, or heroine.</p>\n  <p>If our children would have this drug problem, the world would certainly be a better place.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5849c1dce10cdc7f9bfb75de6a431296048aff2c745f9127a78b55f91eaa4b7e"
+}

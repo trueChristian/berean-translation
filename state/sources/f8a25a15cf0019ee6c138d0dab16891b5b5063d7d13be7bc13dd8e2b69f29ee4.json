@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
+    "images": [],
+    "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "publication_note": "Source: Hymns of Faith #311; Copyright: Public Domain; hymnary.org.",
+      "status": "eligible"
+    },
+    "section": "Hymn",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "This World is Not My Home",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "d4a47a03-5692-571d-995d-e67d197740b4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4ab97699c9e239878afa93b66f8b5e92ff15e4d0d16a478b482f5715bfa07000",
+    "metadata_sha256": "51162d5c38bffeba5a856ddd9d1d80dc7738d495ca891a9ac748c8f8b4d58956",
+    "structure_sha256": "8506109f3cebbd6340de8a5141fcf2f4bba9f1daf3bc087a11fca29ceafdf91a",
+    "text_sha256": "d96674dbc2723ef41aa3981404a88f18c48f0969a28bedbff52a21a26c944338",
+    "translation_metadata_sha256": "ceb1dceabf37656059ec79b0f145432fc788267e415f61081907fa995fa13093"
+  },
+  "html": "<article data-article-id=\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\">\n  <div class=\"hymn\">\n    <p><em>1. This world is not my home, I’m just a passing through<br>\n    My treasures are laid up somewhere beyond the blue;<br>\n    The angels beckon me from heaven’s open door,<br>\n    And I can’t feel at home in this world anymore.</em></p>\n\n    <h2>Chorus:</h2>\n\n    <p><em>O Lord, you know I have no friend like you,<br>\n    If heaven’s not my home, then Lord what will I do?<br>\n    The angels beckon me from heaven’s open door,<br>\n    And I can’t feel at home in this world anymore.</em></p>\n\n    <p><em>2. They’re all expecting me, and that’s one thing I know,<br>\n    My Savior pardoned me and now I onward go;<br>\n    I know He’ll take me thro’, tho’ I am weak and poor,<br>\n    And I can’t feel at home in this world anymore.</em></p>\n\n    <p><em>3. I have a loving Savior up in glory-land,<br>\n    I don’t expect to stop until I with Him stand,<br>\n    He’s waiting now for me in heaven’s open door,<br>\n    And I can’t feel at home in this world anymore.</em></p>\n\n    <p><em>4. Just up in glory-land we’ll live eternally,<br>\n    The saints on every hand are shouting victory,<br>\n    Their songs of sweetest praise drift back from heaven’s shore,<br>\n    And I can’t feel at home in this world anymore.</em></p>\n  </div>\n\n  <p><em>Source: Hymns of Faith #311<br>\n  Copyright: Public Domain<br></em>\n  hymnary.org</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79"
+}

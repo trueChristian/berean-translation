@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "86c51292-42f6-489e-83f6-1af47bd09750",
+    "images": [],
+    "issue_id": "5f14401b-358f-4995-8dfe-a5c590c7cf33",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "My Life, My All",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c706273ecc69759e18e93edb632f0f8f7b2a0a6750762e3216b779510181d219",
+    "metadata_sha256": "79aca709c715a9b65aabb44dbe37bf061eeb84623693ac939a088f323c991177",
+    "structure_sha256": "6d51de7c862821dc44f77335e015e59dbef542764e169167a003b11e48682e05",
+    "text_sha256": "7cbc6211d8f30d9ae56d2ec7895077eba9f56ffc9fcd921639c91d0fb0c5ce86",
+    "translation_metadata_sha256": "6842b0e36fff5f1beaf12c5b5abc458f015e878eb740fc841b2b20d6eefec5ea"
+  },
+  "html": "<article data-article-id=\"86c51292-42f6-489e-83f6-1af47bd09750\">\n  <blockquote>\n    <p><strong>“Also I heard the voice of the Lord, saying, whom shall I send, and who will go for us?”</strong></p>\n    <p><strong>“Then said I, hear am I; send me.”</strong></p>\n    <p><strong>Isaiah 6:8</strong></p>\n  </blockquote>\n  <p class=\"poem\">Comfy and cozy in my home so sweet,<br>\nCouches and tables, tidy and neat.<br>\nBrand new floor—the best one can buy;<br>\nPlush, rich carpet to step on and sigh.<br>\nA bedroom for each of the members so dear,<br>\nNice warm quilts—the cold I shan’t fear.<br>\nBeautiful music fills each lovely room;<br>\nCentral vacuum—no need for a broom.<br>\nWindows that tilt, so easy to clean;<br>\nGarage for my car—what more do I need!<br>\nOh, I cannot forget the beautiful lawn,<br>\nWhite picket fence, flowers and all.<br>\nSwings for the children, a glider for me,<br>\nBut, Lord, what is this, oh, what do I see?<br>\nIs that a home there on that hill?<br>\nIt is only of plywood, no window or sill.<br>\nHe takes me inside, What’s this on the floor?<br>\nNo beautiful carpet, but dirt door to door.<br>\nOne room is this home for all members inside,<br>\nWho sleep all together when evening draws nigh.<br>\nNo beautiful music, blankets, or beds,<br>\nNo quilts or soft pillows to lay weary heads.<br>\nNo need for a vacuum, a palm branch will do;<br>\nTo tidy the floor, it serves as a broom.<br>\nNo dirty windows that tilt in for ease,<br>\nThis home has no need for any of these.<br>\nOh, Lord, their backyard has no lush grass<br>\nFor the children to play on, for time to pass.<br>\nThe swing is a vine from a nearby tree,<br>\nNo pretty flowers, oh, how can it be!<br>\nWhile I sit in comfort, life filled with ease,<br>\nThey daily struggle for food to appease.<br>\nWhile I fill my head with your precious word,<br>\nTheir hearts remain darkened for they haven’t yet heard<br>\nOf the hope filled life only Jesus can give,<br>\nOf the blessed news a Savior for them lives.<br>\nOh Lord tell me what, what shall I do?<br>\nFor surely they must be told all about You.<br>\nI give You my life and luxuries all,<br>\nI give You my family, whatever the call,<br>\nI give You whatever You will ask of me,<br>\nAll, so these captive souls can truly be set free.</p>\n  <p>To the glory and praise of God Almighty<br>\nAnd His blessed Son, Jesus Christ,<br>\nMy Redeemer and Saviour</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "345b3c6c6177a5080b2411414319329259ae11a8da078b2dc57b7040b03e274f"
+}

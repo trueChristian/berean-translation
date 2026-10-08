@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1863-1945",
+          "location": null,
+          "name": "G. Campbell Morgan"
+        }
+      ],
+      "raw": "by G. Campbell Morgan"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "769d1c67-27cb-42b4-8d3b-abee10277e7f",
+    "images": [
+      {
+        "alt": "G. Campbell Morgan portrait",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-1.jpg",
+        "repository_path": "public/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-1.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. Clean portrait object (xref 85); omitted separate frame/shadow and publisher Passion title lettering. The life dates and biographical paragraph below the article are part of the text transcription; do not duplicate them as a figcaption.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 14
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-2.jpg",
+        "repository_path": "public/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-2.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. Full-page flame raster is the PDF base image (xref 83). The pale gray tonal wash is intrinsic to its pixels; a blurred text banner, framing and soft rectangular photo panel are separate publisher treatments omitted from this export.",
+        "role": "article background",
+        "sequence": 2,
+        "source_page": 14
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Preaching with Passion",
+    "topics": [
+      "7f8e6e3c-322b-5d2d-b390-05235f99a977",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a81822a8a0b448948fbb442bcf1ba275603963f31431da190803e9b29f46fdc1",
+    "metadata_sha256": "8968d500a4bca1dbab71200ae09e753a8d1fbf5f92b71702846271347ac5c712",
+    "structure_sha256": "393b39d48272dff7e9eb48cef17975242baa3fb36e595e3235c23f492593d045",
+    "text_sha256": "95350d2e34b347e09cc66de3de1a01deb63dccd36314af1fad7f2dc407662ce8",
+    "translation_metadata_sha256": "c89183499f97fca87ac7cc487dc6180d9b177f5e524cd1b240ba401208137d4a"
+  },
+  "html": "<article data-article-id=\"769d1c67-27cb-42b4-8d3b-abee10277e7f\">\n<p>IN THE TRUE SERMON there must always be passion. Our Lord’s testimony concerning John, His forerunner, was this: “He was a burning and a shining light” (John 5:35). It is one thing to shine; it is quite another to burn as well.</p>\n  <figure>\n    <img src=\"/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-1.jpg\" alt=\"G. Campbell Morgan portrait\">\n  </figure>\n<p>Half the sermons today—may I be forgiven if I am cruel—are failing because they lack the note of passion. A man was formerly said to “handle his text.” If he handles his text he cannot preach at all. But when his text handles him, when it grips and masters and possesses him, and in experience he is responsive to the thing he is declaring, having conviction of the supremacy of truth and experience of the power of truth, I think that must create passion. I am not arguing for mere excitement. Painted fire never burns, and an imitated enthusiasm is the most empty thing that can possibly exist in a preacher. Given the preacher with a message from the whole Bible, seeing its bearing on life at any point, I cannot personally understand that man not being swept sometimes right out of himself by the fire and the force and the fervor of his work.</p>\n<p>The preacher should never address a crowd without remembering his ultimate citadel is the citadel of the human will. He may travel along the line of emotions, but he is after the will. He may approach along the line of intellect, but he is after the will. When preaching becomes merely discussion in the realm of the intellect, or—forgive my use of the word—fooling in the realm of the emotions, and when preaching ends in the intellectual or emotional, it fails. It is successful only when it is able to storm the will, under the will of God.</p>\n<p>The preacher comes with good news; but he does not come with something to be trifled with. His message has an insistent demand, because he comes on behalf of a King.</p>\n<p><em>G. Campbell Morgan (1863-1945) -<br>A famous preacher in England used of God to<br>write many books which are referenced by thousands today.<br>Known for his mastery of expositional preaching.</em></p>\n  <figure>\n    <img src=\"/images/articles/769d1c67-27cb-42b4-8d3b-abee10277e7f-2.jpg\" alt=\"\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "adca015425e7f55d12c5580a016f2c525bd16e46dc9deffa24a75bf7442977cb"
+}

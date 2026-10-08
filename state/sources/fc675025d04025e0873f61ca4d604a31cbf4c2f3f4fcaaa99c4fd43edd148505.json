@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "David Bercot",
+          "role": "Reviewer"
+        }
+      ],
+      "raw": "A Book Review by David Bercot"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "4d5189ec-c866-4cdc-8ba1-749ec3c1afa4",
+    "images": [
+      {
+        "alt": "Cover of A Change of Allegiance",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-1.jpg",
+        "repository_path": "public/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-1.jpg",
+        "rights_note": "Source object 130 is the book cover, including intrinsic title and photograph; inverted from Black separation samples to match PDF. invert Black separation sample values to match PDF rendering; encode in sRGB/RGB.",
+        "role": "article image",
+        "sequence": 1,
+        "source_page": 20
+      },
+      {
+        "alt": "Dean and Tania Taylor in military uniform",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-2.jpg",
+        "repository_path": "public/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-2.jpg",
+        "rights_note": "Source object 132 is a clean photograph; inverted from Black separation samples to match PDF. invert Black separation sample values to match PDF rendering; encode in sRGB/RGB.",
+        "role": "article image",
+        "sequence": 2,
+        "source_page": 20
+      },
+      {
+        "alt": "Rick and a companion hammering on the Berlin Wall",
+        "caption": "Rick and I hammering on the Berlin Wall",
+        "credit": null,
+        "public_path": "/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-3.jpg",
+        "repository_path": "public/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-3.jpg",
+        "rights_note": "Source object 131 includes a baked white-on-black caption along its bottom. Crop removes the caption strip; exact caption retained separately. invert Black separation sample values to match PDF rendering; crop extracted raster to (0, 0, 327, 355); encode in sRGB/RGB.",
+        "role": "article image",
+        "sequence": 3,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "ef088180-22ec-4bbe-a4d2-36bf1e2b5cdd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "A Book Review",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": "by Dean Taylor",
+    "title": "A Change of Allegiance",
+    "topics": [
+      "649d37ab-7011-545e-8f58-c9f374fd3bfe",
+      "102a0a40-2eb0-5006-a1af-ad40faa62fdc"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "35b5a89d7870103898d61157e27d3e4ce22cc6fc433ae750217b152a1e4aab81",
+    "metadata_sha256": "f2d8ebd1043b7d7b482e523c8637f2372b277286b61c3b9c6958f839f4bd030c",
+    "structure_sha256": "22b7c025d1cfda6644634ba116fc56d6d426bbd048d91334f290419f45c543b1",
+    "text_sha256": "c614d33f18671b48de71eb0e2efee51d8ee8a7deed638d6375be5a02e62ceaf5",
+    "translation_metadata_sha256": "15411c38f990ea12a16a52a6a2507db7e0127434541cbaa1a00a38b7217039cc"
+  },
+  "html": "<article data-article-id=\"4d5189ec-c866-4cdc-8ba1-749ec3c1afa4\">\n<p>There are a number of books available on the subject of nonresistance, but <em>A Change of Allegiance</em> by Dean Taylor is one of the best I’ve ever read. One of the things that makes this book unique is that it is written from the perspective of a soldier. Both Dean Taylor and his wife Tania were soldiers in the U. S. Army when they came to the conviction from reading Scripture that war is wrong.</p>\n<figure>\n  <img src=\"/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-1.jpg\" alt=\"Cover of A Change of Allegiance\">\n</figure>\n<figure>\n  <img src=\"/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-2.jpg\" alt=\"Dean and Tania Taylor in military uniform\">\n</figure>\n<p>Much of <em>A Change of Allegiance</em> reads like an exciting novel (with a surprise ending!) as Taylor tells the story of what happened after Tania and he applied to be discharged from the army as conscientious objectors. At that point in time, they were stationed in Germany, and the Gulf War of 1990 was just beginning. All of these events in their lives were happening against the backdrop of the fall of communism in Eastern Europe and the tearing down of the Berlin Wall.</p>\n<p>As Taylor unfolds the suspenseful drama of his own situation, he also explains the biblical basis for his decision, together with the facts of Christian history he learned. He discusses the early Christians and their firm stand against war and then describes how things changed with Constantine. He goes on to talk about the Crusades, the endless wars between professing Christians throughout history, and even how German “Christians” fought for Hitler in Nazi Germany.</p>\n<p>Taylor also details how various individual Christians, like Erasmus, and various Christian groups through the centuries—such as the Waldensians, Czech Brethren, and Anabaptists—embraced nonresistance. Taylor’s graphic description of the training he went through as an American soldier to kill others should open the eyes of even the staunchest God-and-country patriots.</p>\n<figure>\n  <img src=\"/images/articles/4d5189ec-c866-4cdc-8ba1-749ec3c1afa4-3.jpg\" alt=\"Rick and a companion hammering on the Berlin Wall\">\n  <figcaption>Rick and I hammering on the Berlin Wall</figcaption>\n</figure>\n<p>One particularly valuable aspect of Taylor’s book is his sensible answers to some of the most common questions that are asked to nonresistant Christians:</p>\n<ul>\n  <li><em>Why was war allowed in the Old Testament if it’s wrong for Christians?</em></li>\n  <li><em>What if someone broke in your house and were threatening your wife and children?</em></li>\n  <li><em>Why didn’t John the Baptist tell the soldiers who came to him to leave the army?</em></li>\n  <li><em>What about Cornelius, the Roman centurion?</em></li>\n  <li><em>Isn’t there such a thing as a “Just War”?</em></li>\n  <li><em>Doesn’t Romans 13 tell us to obey our governments when we’re drafted?</em></li>\n</ul>\n<p><em>A Change of Allegiance</em> is enhanced by photos (including one of the belt buckles worn by Nazi soldiers that say “God Is With Us”). The book also includes an invaluable reference guide for someone who is presently in the military and is convicted to apply for a conscientious objector discharge.</p>\n<aside>\n  <p><em>A Change of Allegiance</em> sells for $9.95 and can be ordered directly from:</p>\n  <p>Radical Reformation Books<br>www.RadicalReformation.com</p>\n  <p>or</p>\n  <p>Scroll Publishing Co.<br>PO Box 122, Amberson, PA 17210<br>(717) 349-7033<br>www.scrollpublishing.com</p>\n</aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5e8fd18ca4aa02029a092a45b35bb2d17bc8d379b58b4a6d3e52ef2cce37d584"
+}

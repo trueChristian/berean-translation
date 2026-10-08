@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles Spurgeon"
+        }
+      ],
+      "raw": "by Charles Spurgeon"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "55214f9d-c56b-440d-b932-2e067a22dd9a",
+    "images": [
+      {
+        "alt": "A person reaching toward a large wooden door while others look on",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/55214f9d-c56b-440d-b932-2e067a22dd9a-1.jpg",
+        "repository_path": "public/images/articles/55214f9d-c56b-440d-b932-2e067a22dd9a-1.jpg",
+        "rights_note": "PDF Separation JPEG object 65 (501×389): inverted samples to match the rendered page and encoded baseline RGB/sRGB. The shaded article panel and heading are publisher layout, not part of the image. No article-specific credit or licence statement is printed.",
+        "role": "Illustration beside the heading",
+        "sequence": 1,
+        "source_page": 6
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 6
+    },
+    "subtitle": null,
+    "title": "Sacred Picklocks",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "b39a977d-c495-5061-b773-971cf4a191ce"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "785f94063d1e89b1272947ac984cf251b3bdae26e8967df9842c5d8129dbdcea",
+    "metadata_sha256": "ea9ef1130f2aba1cfe98870dd0966c314203a902110914c921df3e32ee8c1835",
+    "structure_sha256": "e9f1bd7167d67699260b29343a5a6526d75aac47d6d5b2d5c104ca91988bd86a",
+    "text_sha256": "e68780eb67f188581975aa08b8111cf41ab0d5ac81480e17ac02b06341675630",
+    "translation_metadata_sha256": "bd58ca4cb5ff7c0d2708550380c8a9663e136273c5912ba1f453d837fd627e69"
+  },
+  "html": "<article data-article-id=\"55214f9d-c56b-440d-b932-2e067a22dd9a\">\n  <figure><img src=\"/images/articles/55214f9d-c56b-440d-b932-2e067a22dd9a-1.jpg\" alt=\"A person reaching toward a large wooden door while others look on\"></figure>\n  <p>Whenever you cannot understand a text, open your Bible, bend your knee, and pray over that text; and if it does not split into atoms and open itself, try again.</p>\n  <p>If prayer does not explain it, it is one of the things God did not intend for you to know, and you may be content to be ignorant of it.</p>\n  <p>Prayer is the key that opens the cabinets of mystery!</p>\n  <p>Prayer and faith are sacred picklocks that can open secrets, and obtain great treasures! There is no college for holy education like that of the blessed Spirit, for He is an ever-present tutor, to whom we have only to bend the knee, and He is at our side, the great expositor of truth!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "993727d456db61a03bb587e6d73eda789c6ce282571077c9e9f700b88be3565d"
+}

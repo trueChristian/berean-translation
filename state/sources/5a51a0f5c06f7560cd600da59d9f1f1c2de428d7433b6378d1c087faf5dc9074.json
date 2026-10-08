@@ -1,0 +1,115 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Denny Kenaston"
+        }
+      ],
+      "raw": "by Denny Kenaston"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "56d0d022-65e9-40de-b478-d7d701c03661",
+    "images": [
+      {
+        "alt": "Costumed performers appear in a theater scene.",
+        "caption": null,
+        "credit": null,
+        "height": 242,
+        "public_path": "/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-1.jpg",
+        "repository_path": "public/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean source xref 85 recovered; no image overlay.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 24,
+        "source_pdf_object": 85,
+        "transformations": [
+          "DeviceGray JPEG converted to three-channel sRGB baseline JPEG at original dimensions, quality 98, 4:4:4, 72 dpi; no inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 360×242",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 360x242 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 360
+      },
+      {
+        "alt": "Two theater masks show smiling and frowning expressions.",
+        "caption": null,
+        "credit": null,
+        "height": 233,
+        "public_path": "/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-2.jpg",
+        "repository_path": "public/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-2.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean source xref 158 recovered without separate body text and pull quote. Same background is repeated on pages 26 and 27 and represented once. Pale tones are encoded in the sole source raster; no soft mask, separable wash, or reliable black-point evidence exists for an exact inverse, so published tones retained.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 25,
+        "source_pdf_object": 158,
+        "transformations": [
+          "DeviceGray JPEG converted to three-channel sRGB baseline JPEG at original dimensions, quality 98, 4:4:4, 72 dpi; no inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 263×233",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 263x233 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 263
+      }
+    ],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "pages": [
+        24,
+        25,
+        26,
+        27,
+        32
+      ],
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "The Dangers of Drama",
+    "topics": [
+      "23cce848-88a2-5732-8bfd-e371b31d81d3",
+      "b43eaaa6-ba48-5bc1-b5bb-4c86e586adf4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8d8e1cfc40974764488655e4064929183ecb4caf6a47d1cf6c2328a49a28ecbe",
+    "metadata_sha256": "c875cffbf1c55ea656e0a566a294c4a05470218b5b7ebf8ec30b6917999bd14b",
+    "structure_sha256": "a1e20c36eaee21f217d913de7a67239ef6c1861c264a3c8199f187c54e5b22a8",
+    "text_sha256": "766b109b990febb10cb09ca3e3dcec49210e2ccec135386d4b3ecedab533ba42",
+    "translation_metadata_sha256": "68f0465062fdbef257591ef8e1968bff3a1a9ae52ed6cbc4cda9e23c852f67d9"
+  },
+  "html": "<article data-article-id=\"56d0d022-65e9-40de-b478-d7d701c03661\">\n  <figure><img src=\"/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-1.jpg\" alt=\"Costumed performers appear in a theater scene.\"></figure>\n  <blockquote><p><em>“Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God. Moreover it is required in stewards, that a man be found faithful.” I Corinthians 4:1-2</em></p></blockquote>\n  <p>I would like to address the issues of drama and the religious movie. There is a question in the hearts of many of God’s people about these new emerging methods of “edification.” While some are questioning, the bulk of the people are flocking after the latest “Christian” craze. There is a serpent lurking in the tree of knowledge today, calling to Christians everywhere, saying, “Come and eat of this new fruit.” I see many dangers in these seemingly moving methods of “edification.” Is there anything wrong with it? Are Christian movies changing the world? This is a good question. I am not sure I can answer it with my limited knowledge of what is happening in the “christian world.” I do know that millions of people in this land have now watched dozens of these new movies, and I don’t see a lot of change in the moral climate of our land.</p>\n  <h2>Playacting</h2>\n  <p>So, what is wrong with the “sanctified movie”? Let us consider first of all the issue of drama. Drama is playacting. Drama is people acting out a lie. It is when a person pretends to be someone that they are not. I find it interesting to study the origin of words. As I studied the word actor, which is one who plays the part in a play or movie, I found an interesting change. The word should be hypocrite. No one is going to give the star of the show this title, so we call them actors. This word comes to us out of the Bible. Jesus used the word when he described the true character of the Pharisee. It literally means playacting, “to feign a part that is not real.” Jesus reproved the religious because they were acting out a part that was not real in their life. I know there is a difference in open playacting and hidden hypocrisy, but not that much difference. This clearly expresses the concern that I have. The religious movie is full of hypocrisy. It is not real, not true and is acted out on pretense. How can this be a right way to preach the gospel or edify the saints?</p>\n    <figure><img src=\"/images/articles/56d0d022-65e9-40de-b478-d7d701c03661-2.jpg\" alt=\"Two theater masks show smiling and frowning expressions.\"></figure>\n<h2>Playing the Sinner and Sinning at the Play</h2>\n  <p>Jackie and I saw a Christian movie many years ago when we were still in Bible School. We had never considered the right or wrong of Christian theatrics. We had thrown our television away years before this, but this was a new twist for us. We were sitting there enjoying the theme as it unfolded, and suddenly it dawned on us what was taking place. A man and a woman were kissing and hugging each other on the screen. My wife said it first. She said, “Honey, they are not married.” Wow, she was right. But it was “okay” because it was Christian. It was for the cause of Christ, and maybe someone would get saved. We continued to watch with our new revelation. Then there was a man on the screen who was drunk and out of his mind. The actor (hypocrite) had to really play his part. He did a good job convincing us all that he was a drunken sot. Again we began to compare notes quietly with each other. How can this be right, to act like a drunk? This is a damning sin. Our conviction began to form right then and there. Friend, let us reason together. How can this be right? What reason could possibly be good enough to justify this kind of behavior? Would you let your wife kiss another person for the sake of the gospel? I wouldn’t, and I don’t think you would either. Recently I heard the testimony of a father who was convicted about this nonsense by his six year old son. The two of them were watching a movie together, and the son saw some of this kind of stuff on the screen. He asked his father, “Daddy, is it alright to do this because it is a movie?” The dad was speechless. That was the last movie they watched.</p>\n  <h2>The Pseudo Power of Unreal Emotions</h2>\n  <p>Consider the emotional dynamics of the religious movie or play. Did you know that a movie must be acted out on a higher than normal emotional level, or the movie would not be very interesting? An actor must learn to release their varied emotional expressions in the extreme mode. If anger must be acted out, it must be an outburst of rage with loud screaming. This cannot be done unless the actor enters into that rage with their whole heart. This has to be defiling. All of the other emotions are the same. A foolish drunk must enter into the emotions of that drunk. A lover must also do the same. These extreme emotions make the movie exciting. It also creates a powerful emotional effect on the audience. People are very responsive to these movies, but does it bring any repentance which takes place in the will of man? I don’t think so. If these movies are so powerful, where is the revival? We need to keep our children and ourselves out of the unreal world of the movies. Millions of people have trained their emotional responses, in real life, by these extremes. The result is weird, hard-to-understand relationships in real life. Do your children a favor—keep them away from this hypocrisy.</p>\n  <h2>Plays and Movies for the Children</h2>\n  <p>I can hardly hold back the tears as I allow my heart to come under the burden of our children. What an evil, poisonous baby-sitter we have hired to come in and entertain the next generation of disciples and church leaders. All that I have written above is enough to spoil the godly seed among us, but this is worse yet. We have figured out that children love foolishness. So in the name of “relating to the children, on their level,” man has come up with a whole array of plays and movies for the “kids.” These productions are full of dangerous deception. Where is our discernment? We have “christian cartoons” and silly plays that make the children laugh while they “learn about Moses, Noah, and Jesus Christ.” Many of God’s people have followed the world into the “innocent animal movies.” My dear brothers and sisters, the serpent is in those movies. They are full of “innocent” witchcraft, new age teaching, and eastern religion.</p>\n  <p>Recently, I had an obligation to go to a typical Evangelical church service. When we arrived, we were told, with quite a bit of excitement, that we will have a play put on by the children for the Sunday morning service. I hurt deeply in my heart all the way through this “ministry to the church.” The producers of the play mixed a CNN Broadcasting reporter into the story of Joshua leading the children of Israel into the Promised Land. I could hardly bear the sacrilege. I sat and watched a young lady throw selfish fits of anger about her make up running in the wilderness. She bossed and degraded several young men who tried to reason with her. She manifested spirits of envy and jealousy when someone else got some attention. I could go on and on, but the point is made. All the while the saints were roaring with laughter at all this display of evil. When the play was finished, the pastor gave a five minute presentation of the gospel. They all patted each other on the back, and went home.</p>\n  <h2>Deceptive Ministry at Best</h2>\n  <p>I wonder what the Apostle Paul would do with these “sanctified plays and movies”? Read the verses in the beginning again, now that we have reasoned a while. Paul just finished writing about the glorious spirit-filled ministry of the New Testament preacher, in chapter three. This is a holy, pure, without wax, (sincere) ministry. We must remember that the apostle had a very powerful life changing effect on those he ministered to. He knew this was done by the pure, clean, ministry of the Holy Spirit. In verse two he uses some convicting phrases that apply to our subject at hand. Look at them:</p>\n  <ul>\n    <li>Hidden things of dishonesty.</li>\n    <li>Not walking in craftiness.</li>\n    <li>Handling the Word of God deceitfully.</li>\n  </ul>\n  <p>Because of the purity of the ministry, this kind of deception is not allowed. He goes one glorious step further when he mentions the real, truthful life he lived among men and in the sight of God. These verses surely apply to the “ministry” of the Christian play and movie. Jeremiah said in his day, “Cursed be he that doeth the work of the Lord deceitfully.”</p>\n  <p>Forty years ago, A.W. Tozer wrote an article titled, “The Menace of the Religious Movie.” I have pulled some excerpts out of it for our meditation. He was a prophet in his day, and many disliked him because he preached against the latest new ideas in the church. I wonder what he would say today? Things have changed even more since he walked the earth. He stood and spoke like a thorn in the side of a departing Evangelicalism. They did not listen; that is obvious by the example here given. This is very normal in the churches. The church I visited is a “good church.” Consider the words of the prophet Tozer:</p>\n  <blockquote>\n    <p>The plain fact is that no vital spiritual truth can be taught by the movie. The movie addresses its message primarily to the eye, and to the ear only incidentally. Were the message addressed to the ear as in the Scriptures, the picture would have no meaning and could be omitted without loss to the intended effect. Words can say all that God intends them to say, and this they can do without the aid of pictures.</p>\n    <p>That religion and amusement are forever opposed to each other by their very essential natures is apparently not known to this new school of religious entertainers. Their effort to slip up on the reader and administer a quick shot of saving truth while his mind is on something else is not only futile, it is in fact not too far short of being plain dishonest. The hope that they can convert a man while he is occupied with the doings of some imaginary hero reminds one of the story of the Catholic missionary who used to sneak up on sick people and children and splash a little holy water on them to guarantee their passage to the city of gold.</p>\n    <p>It is not uncommon to find around the theater human wreckage washed up by the years, men and women who have played false parts so long that the power to be sincere has forever gone from them. They are doomed to everlasting duplicity. Every act of their lives is faked, every smile is false, every tone of their voice artificial. The curse does not come causeless. It is not only by chance that the actor’s profession has been notoriously dissolute. Hollywood and Broadway are two sources of corruption which [have turned] America into a Sodom.</p>\n    <p>Indeed, history will show that no spiritual advance, no revival, no upsurge of spiritual life has ever been associated with acting in any form. The Holy Spirit never honors pretense.</p>\n    <p>Is the appearance of the religious movie symptomatic of the low state of spiritual health we are in today? I fear so. Only the absence of the Holy Spirit from the pulpit and lack of true discernment on the part of professing Christians can account for the spread of religious drama among so-called Bible believing churches. A Spirit-filled church could not tolerate it.</p>\n    <p>The whole preach-the-gospel-with-movies idea is founded upon the same basic assumptions as Modernism—namely, that the Word of God is not final, and that we of this day have a perfect right to add to it or alter it wherever we think we can improve it.</p>\n  </blockquote>\n  <h2>The Dangerous Effects of Drama</h2>\n  <p>First of all, the defiling effect upon the “actors” who play the part of the various characters in the movie. As I stated already, the actor must enter into the spirit of the act he is doing. Any one who can bring himself to act a part for any purpose must first have grieved the Spirit and silenced His voice within his heart. Then the whole business will appear good to him.</p>\n  <p>Secondly, it identifies religion with the theatrical world. In the name of Jesus Christ, we have joined in with Hollywood in hopes of edifying one another. It is entertainment, just like Hollywood is. This is worldly. John said, “Love not the world, neither the things that are in the world.” We are losing our separation, as we join in with the world.</p>\n  <p>Thirdly, we are training the palate of our children with a taste for drama. This becomes an easy jump for them at a time of foolish liberty. First, <em>The Sound of Music,</em> then, who knows what they will justify? They will not be satisfied with the inferior stuff the religious movie can offer. They will demand the real thing. What can the parents say, when we have taught them to gather around the video with popcorn and soda?</p>\n  <p>Fourthly, the next generation will gradually see Christianity as another form of amusement. This is already happening if you look around you. The contemporary church is “reaching out to the next generation” with new music, a new gym, new dress standards and, yes, the movies. Can you see what is happening? The church building is like a theater, or a roller rink. “Hey guys, what do we do tonight? Let’s go over to Entertainment Fellowship Church. They are having a party there.”</p>\n  <p>Fifthly, the movies have a defiling effect on the audience. As we view a movie, we see and hear all that has been mentioned above. Many evil emotions are manifested in one of these productions. These are portrayed for the purpose of teaching. In one movie, you might bring your children in contact with several of these extreme, evil attitudes. The audience is affected in many ways. They learn to manifest the same spirit, as they have seen displayed before them. They become dull to the evil and are no longer grieved by it. As they set wicked things before their eyes, their conscience is clouded. They find it more difficult to muse on good things, because it is easier to be amused with entertainment.</p>\n  <h2>In Conclusion</h2>\n  <p>Sixthly, the precious wasted time that it takes to sit, again and again, and see the latest movie must be accounted for on judgement day. Who has time for such an utterly empty use of their time? I don’t see how a dedicated servant of Christ could possibly find time to fritter away on such nonsense. Maybe this seems too strong—if so, forgive me. I have no desire to offend anyone. May the Lord of the harvest stamp eternity on the eyes of our hearts, that we may better use His gift of life and time.</p>\n  <p>I have written my piece. I have produced my cause. I have brought forth my strong reasons. Where is discernment in the church today? Very few are concerned about all this departure. We have lost the Holy Ghost, Who gives the gift of discernment. We have followed Israel of old, and united our experience with theirs.</p>\n  <blockquote><p><strong><em>“For my people have committed two evils; they have forsaken me the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water.” Jeremiah 2:13</em></strong></p></blockquote>\n  <p>Oh, how far the church in America has fallen! She has lost her way in a fast departing culture. She has filled her buildings and paid the bills, but lost the Holy Ghost. And all the while she proclaims that revival has come. Shall we sit in guilty silence while this goes on? I think not. Let us rise up and be counted as a Remnant that has seen the Lord and His holiness.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5292cab43bdf9ca631ed32f8daa63fd877b9f5c79e9c3ddc5ec8703f70ac9cc4"
+}

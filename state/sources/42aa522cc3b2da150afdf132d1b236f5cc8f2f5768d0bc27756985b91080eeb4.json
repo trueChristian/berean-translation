@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "a99aedb2-3777-4b4a-ac04-ffc651cbbae7",
+    "images": [
+      {
+        "alt": "A mailbox marked with the publication address, with flowers climbing its post.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a99aedb2-3777-4b4a-ac04-ffc651cbbae7-1.png",
+        "repository_path": "public/images/articles/a99aedb2-3777-4b4a-ac04-ffc651cbbae7-1.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 119 (98×157 grayscale PNG) with original pixels retained. Publication name/address and gray background are intrinsic to this raster. Separate rounded gray heading panel, title and article text omitted. No crop, rotation, flip or recompression.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": "Extracted PDF base image object 119 (98×157 grayscale PNG) with original pixels retained. Publication name/address and gray background are intrinsic to this raster. Separate rounded gray heading panel, title and article text omitted. No crop, rotation, flip or recompression.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final image opened and compared with the source page and raw base object. Edges, corners and centre checked; omitted separable layout treatments and any unavoidable rasterized text exception are described in transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "1c304e186192708c4977909331b738e54e0418d600eef7b3110f48d921611592",
+    "metadata_sha256": "4f55ab65ce7001805971f387d1bd0304100e7e204784e4ed539b964b81057d36",
+    "structure_sha256": "98dbd2e3b94c1c01419b8393024243f86059e8891e52b67101ae28305ffe8a15",
+    "text_sha256": "1828e92121b96e2a0d8bcdab127fa9c2ef5c9b4501af74297a8fbb4a543545eb",
+    "translation_metadata_sha256": "199fa5fde1bb989e88f1d025a1eeb0a235124419ae11eb076f1a6231ec6b8043"
+  },
+  "html": "<article data-article-id=\"a99aedb2-3777-4b4a-ac04-ffc651cbbae7\">\n  <figure><img src=\"/images/articles/a99aedb2-3777-4b4a-ac04-ffc651cbbae7-1.png\" alt=\"A mailbox marked with the publication address, with flowers climbing its post.\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <p>Dear Charity Ministries,</p>\n  <p>Greetings in the Holy Name of the Lord! It has been very much on my heart today to write a note of testimony to what God has been doing in our lives since we came home from Youth Bible School. Indeed, HE has begun a good work &amp; we trust Him to continue it until the day of Jesus Christ. He brought us back home praying for revival.</p>\n  <p>Our prayer life has so deepened &amp; grown, it is unlike ever before. Oh, we bless the Lord for coming down in our midst &amp; breaking us &amp; teaching us of Him. We are learning things we never knew of before; of what it is to travail in prayer, to come away with our eyes stinging from having wept so much. What a wonderful blessing to see my sister (16 yrs. old) go apart often as she can to pray. Even going away from visiting with friends to meet with her Lord. And our brother (13)...crying out to God for the souls in Ghana in a prayer meeting of us 3 children a couple nights after we came home. Oh, the burden for souls that He has bestowed, both far &amp; near! The Lord did exceeding abundantly above all that we could ask or think, &amp; has given us the privilege to begin interceding together. The first week we were home not a night went by but that all of us youth were gathered before the throne pouring our hearts out to the Lord in prayer (and other times too during the day). Prayer for those in authority over us, prayer for laborers for the harvest fields of God, &amp; intercession for the unreached multitudes of the world. And for ourselves that God would start His reviving work in our own hearts &amp; lives; then we could see it spread from there—<strong>that He would be glorified in all the earth.</strong> And by God’s grace, we are continuing in that vision, &amp; it is growing. Now Mama is joining us too, and we are praying for Dad daily.</p>\n  <p>As we have been before Him our own undoneness has become so evident. Many times His precious Spirit has convicted us of sin &amp; then in yielding to Him there is such cleansing &amp; freedom in the power of His Blood! Alleluia. We bless His Name for breaking us &amp; molding &amp; transforming us into His likeness. To Him be all the glory!</p>\n  <p><em>Michigan</em></p>\n  <hr>\n  <p>Dear Remnant,</p>\n  <p>May the grace of our Lord be with you all. Thank you for being such a wonderful ministry. I rejoice in the Lord for the talents you have used for His glory. Thank you for being there to help others and to work for His Kingdom. Have you ever considered translating the Godly Home into Spanish?</p>\n  <p><em>Puerto Rico</em></p>\n  <hr>\n  <p>Dear Remnant,</p>\n  <p>You have been heavy upon my heart for several weeks and I have wanted to write you a letter of thanks and encouragement. God the Father of our Lord Jesus Christ has greatly ministered to others and me through the Remnant magazine. In a world where there are so many ministries that are leavened by worldly ways, songs, and doctrines, I thank God for the truth that you publish. The teachings you publish are truly living waters and the bread of life. Thank you for standing for the truth without compromise.</p>\n  <p>God is establishing a body of believers in our dayroom, and we are warring against the flesh that hinders the Bible studies we have started. Many of the men have been delivered from the false doctrine of divorce and remarriage. We are now praying for restitution in all of our marriages, and we are refusing the lies that say that men in prison can not be fathers and husbands. We can pray, write letters, and pray that God will turn the hearts of our authorities. We believe that God can do this, if a man serves God with all his heart in prison.</p>\n  <p>I would like to be a part of your church someday if God permits. Thank you for being obedient to our Lord and Savior Jesus Christ.</p>\n  <p><em>Texas</em></p>\n  <hr>\n  <p>Dear Charity Ministry,</p>\n  <p>My wife and I have been lead down a road quite unexpected. We were not raised in an atmosphere like the one Bro. Denny teaches about. The kind of faith that we grew up around was quite weak. We thank God that He has put in our hearts a vision that is parallel with His will. We have chosen to homeschool our children and allow the Lord to set the size of our family. We strongly desire to raise up a godly seed. God is showing me the purpose of Christian families and I am amazed how far we as a nation have fallen. My goal as a pastor is to show and teach families the holy standard of God’s Word. It is truly beautiful. I praise God for having mercy on me by letting me see these wonderful visions. However, I fall drastically short and feel way behind. At this time, I am unsure where God will lead us from here. I would love to live for a while in an atmosphere of like-minded brethren. I would also like God to transform us right here where we are that we might manifest His sweet will in front of the congregation we presently serve.</p>\n  <p>All of this said, I wanted your ministry to know that it has a like-minded pastor in Oklahoma strongly desiring the Lord to raise up the remnant for His glory in this nation. I long for my family to be heavily involved in serving God proclaiming the truth in word and deed. I also covet your prayers. I feel somewhat alone in this area and do not want to fall short in my calling.</p>\n  <p><em>Oklahoma</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3d387c69dcc8afbb21ccab49ccee09dcf963f53ed2bd5ae63bfbcc6187e59021"
+}

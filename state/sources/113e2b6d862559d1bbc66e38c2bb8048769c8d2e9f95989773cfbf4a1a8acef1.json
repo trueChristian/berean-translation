@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Andrew Weaver",
+          "role": "Reviewer"
+        }
+      ],
+      "raw": "by Andrew Weaver"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "acaa3e5a-9b5a-428e-87b6-7d7fb5a830fa",
+    "images": [
+      {
+        "alt": "Jesus teaching a seated group outdoors.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/acaa3e5a-9b5a-428e-87b6-7d7fb5a830fa-1.png",
+        "repository_path": "public/images/articles/acaa3e5a-9b5a-428e-87b6-7d7fb5a830fa-1.png",
+        "rights_note": "Clean base image object 98, preserving its published rectangular clipping path. Separate book-review banner, title, and page furniture omitted. No creator/source credit or image-specific reuse notice is printed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 29,
+        "transformations": "Isolated original object 98 with exact PDF clipping operators, decoded at its native 267 × 160 pixels into lossless RGBA PNG; published orientation and aspect ratio retained.",
+        "verification": {
+          "container_integrity": "passed",
+          "imagemagick_full_raster_decode": "passed",
+          "images_against_pdf": "verified_by_ai",
+          "pillow_full_raster_decode": "passed",
+          "raw_object_and_overlay_audit": "verified_by_ai",
+          "skia_canvas_full_raster_decode": "passed",
+          "web_color": "RGB/sRGB or RGBA PNG; no CMYK files"
+        }
+      }
+    ],
+    "issue_id": "53fc67f3-b7cd-4f33-a6d7-1e506a2154b0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 40,
+      "pages": [
+        29,
+        40
+      ],
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "The School of Christ",
+    "topics": [
+      "649d37ab-7011-545e-8f58-c9f374fd3bfe"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "16562411c48ca8f44b896f19782f3107ae1cbd07e716d43401dea33695bc176f",
+    "metadata_sha256": "0e04786b28cf02d0bdf7fe80f0340d82831dae49a0e9d90527f1d70aa3f0a1a8",
+    "structure_sha256": "6ecd4f20040e3f2d4f03f35ca44891257369bc40856a1f9945f7cdfda36ad20c",
+    "text_sha256": "28505f483149cf55fd0086f261649ac0ddf7ff8a1de055306329dc2e241d3c83",
+    "translation_metadata_sha256": "0024d3cd1fc1ac5801aadfd1482d85c2a4e66dba8c003025dcc79de40f1d70c7"
+  },
+  "html": "<article data-article-id=\"acaa3e5a-9b5a-428e-87b6-7d7fb5a830fa\">\n  <p>If you are willing to invest a little time and perseverance in search of printed treasure, consider this little gold mine of a book by T. Austin-Sparks. He was a humble, unassuming servant of God who was reluctant to do much writing for fear that it would draw undue attention to himself instead of to Jesus Christ. He did, however, give his blessing to publishing this little book, which is simply a transcript of a series of his messages. His own preface best describes <em>The School of Christ: Firstly, try to remember all through that the spoken form is retained. The messages were given in conference, and the reader must try to get into the spirit and mind of listening, and not only reading… This explains much that would not be the character of a precisely literary production. It has its difficulties for readers, but it also has its values. Then, my advice is that not too much, indeed not a lot, should be attempted at once. Almost every page requires thinking about, and weariness can only overtake if too much is read without quiet meditation.</em></p>\n  <figure>\n    <img src=\"/images/articles/acaa3e5a-9b5a-428e-87b6-7d7fb5a830fa-1.png\" alt=\"Jesus teaching a seated group outdoors.\">\n  </figure>\n  <p>As the speaker/author makes clear, this is not a book to hurry through. Although it contains less than a hundred pages, you should spread your reading of it over many days, with time for careful reflection. The message it contains is too important to dilute through haste.</p>\n  <p>The School of Christ does not mean a school where we learn about Christ, but where we learn Christ Himself. The author explains… <em>We could take up everything there is about Christ as doctrine, as teaching, but that is not what we are after. It is Christ Himself…</em> Speaking of the Holy Spirit as the Teacher in this school, T. Austin-Sparks says… <em>The mark of a life governed by the Holy Spirit is that such a life is continually and ever more and more occupied with Christ, that Christ is becoming greater and greater as time goes on… Is that the nature of your spiritual life? If not, then there is something wrong.</em></p>\n  <p>A foundational truth in learning Christ is that He is altogether different from your natural self. <em>We cannot produce from this nature anything acceptable to God. If you attain your best, you have not commenced Christ. You are still hunting round for something somewhere, some rag of goodness in yourself that you can present to God that will please Him, satisfy Him and answer to His requirements. You will never find it…there is only One in this universe concerning whom God can say from His heart “in whom I am well pleased”, and that is the Lord Jesus Christ. If ever you and I are going to come into that favor, it will be as “in Christ Jesus”, never in ourselves.</em></p>\n  <p>Describing the transformation of faithful students in this school of Christ the author explains… <em>It is not that they become so much better, but it is that Christ within becomes so much more real as a power.</em> And he warns that we must be in a place… <em>where we are perfectly open and ready for the biggest consequence of the Holy Spirit putting His finger upon anything in our lives needing to be dealt with.</em></p>\n  <p>In this school, we learn eventually that our pet doctrines, fads, and experiences are not the key to the abundant life. We read… <em>’Its’ do not work! It is all a matter of the Person, the Lord Jesus, and the Holy Spirit will never save us by an ‘it’. He will always bring us to the Person… We take the Acts and the Epistles as setting forth the technique of the Church and adopt it as a crystallized system of practice, order, form, and teaching, and the weakness in the whole position is that the Lord Jesus has been missed and lost.</em></p>\n  <p>Reminding the reader that God’s ultimate goal in everything is His own glory, T. Austin-Sparks says… <em>The degree of glory ultimately will be the measure of Christ that each one of us has. That in turn depends upon how much you and I by faith are really making Christ the basis of our life, the very basis of our living, of our being…</em></p>\n  <p>I urge you to read this little booklet carefully and then enroll in the lifelong school of learning Christ. Even death is not the end of studying our great Subject, for in all the ages to come God will be showing us the exceeding riches of his grace toward us in Christ Jesus. Only then at last we will know as we are known and reach the final stage of the eternal <em>School of Christ.</em></p>\n  <aside>\n    <p>This book is available free upon request by writing to:</p>\n    <p><strong>Emmanuel Church</strong><br>12000 East 14th St<br>Tulsa, OK 74128-5016<br>U.S.A.</p>\n  </aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f585602076a22c43dada44ec4e4a04c6667580fb59fceb8c7fc7b4c0f7086da0"
+}

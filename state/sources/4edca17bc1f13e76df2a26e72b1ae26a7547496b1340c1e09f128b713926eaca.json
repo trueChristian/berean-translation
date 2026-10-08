@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "630d2537-83ca-4d87-91fe-bd028457f99b",
+    "images": [
+      {
+        "alt": "A kneeling man praying in silhouette",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/630d2537-83ca-4d87-91fe-bd028457f99b-1.png",
+        "repository_path": "public/images/articles/630d2537-83ca-4d87-91fe-bd028457f99b-1.png",
+        "rights_note": "No image credit, licence, or separate permission notice is printed for this illustration. The integrated page artwork was rendered at 300 dpi with text suppressed and converted to sRGB, preserving the complete 2550-by-3300-pixel published silhouette and border artwork without the poem, title, byline, or page number.",
+        "role": "full-page poem illustration",
+        "sequence": 1,
+        "source_page": 18
+      }
+    ],
+    "issue_id": "788c32b7-cf6d-5b87-a325-a8acfd2f6fc5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 18,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "The Preacher",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "13607865-d967-50a5-ae9a-024549fcf142"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "63ba6fcdf2e8d1a39ee63797865b0267d1d0bcbc943e89f46dd2f2ad8844ead8",
+    "metadata_sha256": "8c327d24366629363cbdd73daf89ffc6c4b87f7a03f3dbf3c00b4e50f533f871",
+    "structure_sha256": "20cdaaaaa72ffe79ffb64c5c3f98e8ac12ede8231370c661def664333476218d",
+    "text_sha256": "e213180a4a3a52253b9bdfa69d2e9025ef00db1cf5c3adbaef80d76f791faa28",
+    "translation_metadata_sha256": "086371e0bb1487c15c27a704341bc07c3bd6f9bc8bad73d6a0d7890e5ac16413"
+  },
+  "html": "<article data-article-id=\"630d2537-83ca-4d87-91fe-bd028457f99b\">\n  <figure>\n    <img src=\"/images/articles/630d2537-83ca-4d87-91fe-bd028457f99b-1.png\" alt=\"A kneeling man praying in silhouette\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Alone in his house, a sinner found grace.<br>\n    Not knowing exactly just what he might face.<br>\n    What he had found, he could not deny,<br>\n    He had to tell someone, at least he would try.</p>\n\n    <p>The world seemed so dark, now that he’d found God,<br>\n    People walked by, without even a nod.<br>\n    “I have good news,” he continued to say,<br>\n    Their response was a “no,” or “not today.”<br>\n    “These people don’t care, I don’t understand!<br>\n    I thought they’d be happy, and then shake my hand.”<br>\n    “He changed my life! I was lost but now found!”<br>\n    But the people walked by, with not even a sound.<br>\n    He then felt a tear, roll down his cheek,<br>\n    “If they only knew, then they too would seek.<br>\n    They’re too busy with life, too bound by their sin.<br>\n    They don’t even realize there’s a victory to win!”</p>\n\n    <p>“It’s heaven or hell, you’re not ready to die!”<br>\n    “Repent from your sins, the end is nigh!”<br>\n    As they walked by, they had nothing to tell,<br>\n    “O please wake up, you’re headed for hell!”<br>\n    He continued to preach, hoping one soul he would find,<br>\n    But they just laughed, saying he’d lost his mind.<br>\n    He did not give up, because his joy was too great.<br>\n    He continued to preach and continued to wait.<br>\n    Day after day, he went out to the street.<br>\n    Day after day, persecution he’d meet.</p>\n\n    <p>Then one day, his voice was not heard.<br>\n    The people walked by, whom Satan had lured.<br>\n    Everyone knew it, although nothing was said,<br>\n    The man with the burden, the preacher, was dead.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e3be42b39774b19f686620e71c3b998865eef715a2a5f987688e506f88d59ddd"
+}

@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "0c49a927-0edf-4e8b-aef9-af0c273120ad",
+    "images": [
+      {
+        "alt": "Dewdrops on green blades of grass.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c49a927-0edf-4e8b-aef9-af0c273120ad-1.jpg",
+        "repository_path": "public/images/articles/0c49a927-0edf-4e8b-aef9-af0c273120ad-1.jpg",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Original RGB raster has irreversibly baked poem/title/scripture text. Meaningful unobstructed grass crop (18,480)-(630,810) from 648×828 retains published lower background within page bleed, at 612×330. Baseline RGB JPEG, quality 95, 72 dpi. No generation, inpainting, healing or synthesized pixels. Separate postal/publisher overlays omitted; full poem independently transcribed in HTML.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": "Original RGB raster has irreversibly baked poem/title/scripture text. Meaningful unobstructed grass crop (18,480)-(630,810) from 648×828 retains published lower background within page bleed, at 612×330. Baseline RGB JPEG, quality 95, 72 dpi. No generation, inpainting, healing or synthesized pixels. Separate postal/publisher overlays omitted; full poem independently transcribed in HTML.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 125,
+          "pixel_dimensions": [
+            612,
+            330
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Spiritual Leadership",
+    "topics": [
+      "bab57494-d427-59dd-b225-fb93dc2a2cad"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bba833e0919c537147e50b4eed24f9efcbb8e31fdeafa250c4417f9616c6debd",
+    "metadata_sha256": "35fd7aedcf9e9ad1324e406a7f9a3e1cd5dcd82a99b1418965cc4acdd8259a63",
+    "structure_sha256": "1bb0dca50f2f599a199ed3132feca2fc6141ea106a29e7aef9f9844660394608",
+    "text_sha256": "427c4a5c4b438793ce0cb52c882da1d895019329d4a7f2c4db68d43fe085683b",
+    "translation_metadata_sha256": "fb3fd72c6eb9fc04c3e1157968643873501cc174e15fbb60b96cfd71e8b383ec"
+  },
+  "html": "<article data-article-id=\"0c49a927-0edf-4e8b-aef9-af0c273120ad\">\n  <figure><img src=\"/images/articles/0c49a927-0edf-4e8b-aef9-af0c273120ad-1.jpg\" alt=\"Dewdrops on green blades of grass.\"></figure>\n  <p class=\"poem\"><strong>When a man rules his family<br>righteously in the fear of God.<br>He is anointed with spiritual authority.<br>His influence shines on them<br>like the morning sun on a clear blue day.<br>They grow like fresh grass<br>in the sunlight after a rain.<br>His effectual life comes down on them<br>like showers that water the earth.<br>His righteous family will flourish,<br>and peace shall prevail in his house.</strong></p>\n  <p><strong>adapted from<br>2 Samuel 23:3,4<br>Psalm 72:6,7</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "18a574b232deca9c427a268eda335668e3d31cf1cd72a5feca00f7eee0d2db50"
+}

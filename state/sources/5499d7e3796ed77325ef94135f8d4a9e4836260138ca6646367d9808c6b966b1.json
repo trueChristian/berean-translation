@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "591aef68-a942-47a7-b57d-2e0894573dad",
+    "images": [
+      {
+        "alt": "A flower-covered mailbox bearing the magazine name and address",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/591aef68-a942-47a7-b57d-2e0894573dad-1.png",
+        "repository_path": "public/images/articles/591aef68-a942-47a7-b57d-2e0894573dad-1.png",
+        "rights_note": "Original PDF image object 114 on printed page 31. Retained the original source raster, orientation and framing; no rotation or flip. Saved losslessly as RGB PNG. The mailbox lettering and gray rectangular matte are intrinsic to the only lossless source raster; the gray matte is retained as an unavoidable source-appearance exception. The separate large rounded heading panel and article text are omitted. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 31
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "175f1b5c099548643d01b3784e2628924f26cd7f30dbe3c622e8cf1c79e8d8ef",
+    "metadata_sha256": "cc8c1ca012baa5dc53684eb5e9c9451449b229258921dd7fe6c5d61fca60be6f",
+    "structure_sha256": "0489807675e6e1ab59dec5e19cba2d5b5620f9b82a4298f4e294d992dda9fc18",
+    "text_sha256": "7ac008dbb1b65594221c55c8bbaf663c6b0d55d4c7391b36eecdcdac65a27d19",
+    "translation_metadata_sha256": "563981350016dc36e3ec2472f3b76b9012cee7663f149466e5ef6bfb3cdcb7ad"
+  },
+  "html": "<article data-article-id=\"591aef68-a942-47a7-b57d-2e0894573dad\">\n  <figure>\n    <img src=\"/images/articles/591aef68-a942-47a7-b57d-2e0894573dad-1.png\" alt=\"A flower-covered mailbox bearing the magazine name and address\">\n  </figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>We know how busy you are doing the Lord’s work, but we just had to write a brief note of thanks to you. Through your ministry we are being blessed beyond measure! There are no plain churches in our area, and your tapes are truly a blessing to us. Finally, we aren’t feeling so alone in our beliefs! We hope to one day visit with the fellowship there. Until then, we just want you to know you are in our prayers, and we thank God for all of you.</p>\n    <p><em>Kinston, NC</em></p>\n  </section>\n  <section>\n    <p>Your magazine continues to provide blessing for our entire family. Our 18-year-old daughter recently had a large tumor removed from her chest and neck. The poem “My name is I AM” on the back of the May/June issue especially ministered to her in its encouragement to “live in this moment” with His presence rather than “in the future with its problems and fears” without Him. Thank you for your ministry!</p>\n    <p><em>Portland, OR</em></p>\n  </section>\n  <section>\n    <p>We love the Remnant. It is so simply refreshing! It speaks to our hearts. Thank God for the old paths and those who still desire to follow them. God bless your ministry. It is needed so much in this day and age. Thank you, thank you, thank you!</p>\n    <p><em>Clinton, ME</em></p>\n  </section>\n  <section>\n    <p>Greetings,</p>\n    <p>Your magazine is a great benefit. There are very few magazines and publications being printed today with the knowledge to inform believers of the direction that the Holy Spirit and the Scriptures would lead us.</p>\n    <p><em>WA</em></p>\n  </section>\n  <section>\n    <p>Ladies and Gentlemen:</p>\n    <p>I am a separated woman with two young children. I am trying to do the impossible—stay at home and home-school my children. But, praise God, nothing is impossible with Him!</p>\n    <p>I just wanted to thank you for your free ministry. My family and I are growing spiritually in many ways we never would without this biblical and timely information.</p>\n    <p>My situation now is not comfortable enough where I can send you what your newsletter and tapes are worth, but I’m sure every bit helps. Please accept this gift and know I’m praying for you all.</p>\n    <p><em>Winchester, VA</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5366a8aeb09c7ecc6a89da0034e7a509ad97009190650ddc27d11a01371165b4"
+}

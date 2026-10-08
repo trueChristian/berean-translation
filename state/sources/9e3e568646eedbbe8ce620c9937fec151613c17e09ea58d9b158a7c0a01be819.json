@@ -1,0 +1,122 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-1.jpg",
+        "repository_path": "public/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-1.jpg",
+        "rights_note": "Embedded three-note motif object 62 appears twice around the heading; represented once using its left-hand 15-degree counterclockwise orientation. Its gray rectangle and gray note tone are flattened into the sole raster and retained as an unavoidable baked treatment; no reliable exact inverse blend or clean separate source exists. The same motif elsewhere in the issue uses a different published source crop/tone and belongs to a different article. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            162,
+            105
+          ],
+          "rotation_degrees": 15,
+          "source_dimensions": [
+            148,
+            69
+          ],
+          "source_object": 62
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of figures playing stringed instruments",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-2.png",
+        "repository_path": "public/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-2.png",
+        "rights_note": "Clean embedded illustration object 61. Its hand-drawn enclosing line and gray substrate are intrinsic to the sole raster and retained; separately painted heading, quotation and surrounding panel omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Lossless RGB/sRGB PNG with embedded profile; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": null,
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            687,
+            676
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            687,
+            676
+          ],
+          "source_object": 61
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "complete lossless PNG",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Music",
+    "topics": [
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "af07ef5e9e9824254a00d282ce015e39fb06c377dffbfc8dc9d5a85b06e96488",
+    "metadata_sha256": "0f0fe7a9c77e0e88dc120d198085f15c7ecad8d55972f52da404c5d60707ec60",
+    "structure_sha256": "93d6c90954af1713f86038b6357312f2df3fef944526f8b8ac0834c1b19b5c89",
+    "text_sha256": "a3fccb77dcf3194bca3afaafcb049e194a36b6afe9c7e0d966e1efb10fda602b",
+    "translation_metadata_sha256": "003788a3abbf074fa0e2d7ce108fafc41a903872a2e7d2170eb0e463b7c8caa2"
+  },
+  "html": "<article data-article-id=\"5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2\">\n  <figure>\n    <img src=\"/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-1.jpg\" alt=\"\">\n  </figure>\n  <p>J.S. Bach said, “All music should have no other end and aim than the glory of God and the soul’s refreshment; where this is not remembered there is no real music but only a devilish hub-bub.” He headed his compositions: “J.J.” “Jesus Juva” which means “Jesus help me.” He ended them “S.D.G.” “Soli Dei gratia” which means “To God alone the praise.”</p>\n  <figure>\n    <img src=\"/images/articles/5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2-2.png\" alt=\"Engraving of figures playing stringed instruments\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "12dbc4a4558a9c8bc9e61ad18f2affa468cda11bcde1d05dbd420c32238d5d7a"
+}

@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author unknown"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "834dcbc2-39c5-4942-acc6-234ebca43d1c",
+    "images": [
+      {
+        "alt": "The printed prayer over a photograph of light entering a curtained window.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/834dcbc2-39c5-4942-acc6-234ebca43d1c-1.jpg",
+        "repository_path": "public/images/articles/834dcbc2-39c5-4942-acc6-234ebca43d1c-1.jpg",
+        "rights_note": "PDF image object 129. Only source raster already combines the complete printed prayer, title and byline with the window photograph and pale photographic treatment. There is no separate typography, clean underlying photograph, mask, tile or transparency group. No unobstructed crop preserves the useful window subject, so the complete source composite is retained as a documented unavoidable baked-overlay exception. Separate outer frame and running footer omitted; no pixels synthesized. No asset-specific image credit or permission restriction is printed; no individual licence inferred. DeviceGray samples replicated into RGB/sRGB without changing luminance; no CMYK inversion. Standards-normalized baseline JPEG with nonzero 96 dpi density.",
+        "role": "prayer and background photograph",
+        "sequence": 1,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "original embedded image extraction; recorded source-pixel crop only",
+          "output_dimensions": [
+            504,
+            680
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            504,
+            680
+          ],
+          "source_object": 129
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "independent_image_review": "passed source correspondence, full-resolution crop, colour and overlay checks",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "A Prayer for Quiet Time",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d0a4b8d30da446cf49ab38b93fad704044e71a77e83a7238d02a6edb070173e9",
+    "metadata_sha256": "1fb22ac3198bbd8df02bc1436d11ccad9311b9e2e8b7e5a9441f03b2f85b31cf",
+    "structure_sha256": "1f60f8515f6d04b84195ccb1c515dfde76088f75b0eb0fffc67a966d2ee38e96",
+    "text_sha256": "bb783764e8f77901ab4efe825365184cf9b51ff9a8b6b1a25ae1d0d05194aa94",
+    "translation_metadata_sha256": "0ebb0a54fd5f5dee8d7b1c2ce33e4879959c3cfd912c929446666743f4c1f1ae"
+  },
+  "html": "<article data-article-id=\"834dcbc2-39c5-4942-acc6-234ebca43d1c\">\n<figure><img src=\"/images/articles/834dcbc2-39c5-4942-acc6-234ebca43d1c-1.jpg\" alt=\"The printed prayer over a photograph of light entering a curtained window.\"></figure>\n<p class=\"poem\">O Holy Spirit of God come into my heart and fill me;<br>\nI open up the windows of my soul to let Thee in.<br>\nI surrender my whole life to Thee;<br>\nCome and possess me, fill me with light and truth.<br>\nI offer to Thee the one thing I really possess.<br>\nMy capacity for being filled by Thee.<br>\nOf myself I am an empty vessel.<br>\nFill me so that I may live the life of the Spirit,<br>\nThe life of Truth and Goodness,<br>\nThe life of Beauty and Love,<br>\nThe life of Wisdom and Strength.<br>\nAnd guide me today in all things:<br>\nGuide me to the people I should meet or help,<br>\nTo the circumstances in which I can best serve Thee,<br>\nWhether by my actions or my sufferings.<br>\nBut above all make Christ to be formed in me,<br>\nThat I may dethrone self in my heart and make Him King,<br>\nSo that He is in me and I in Him,<br>\nToday and forever.</p>\n<p class=\"poem\">Amen</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c92279441de7ff10712c30af04fb96c7c54b4c7ec97f99424dd5d94a399d5458"
+}

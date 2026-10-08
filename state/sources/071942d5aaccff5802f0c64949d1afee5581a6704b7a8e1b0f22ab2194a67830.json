@@ -1,0 +1,167 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Leonard Ravenhill"
+        }
+      ],
+      "raw": "by Leonard Ravenhill"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7fe63551-500f-4963-8b75-e17ae8cfd46a",
+    "images": [
+      {
+        "alt": "Seated people resting in chairs",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-1.png",
+        "repository_path": "public/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-1.png",
+        "rights_note": "Original embedded PDF image object 127; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The source raster has a light-gray ground matching the page treatment; it is inseparable and retained without an unproven color inversion or synthesized replacement. No separate image credit or article-specific image reuse restriction is printed. Original lossless grayscale PNG extraction retained without recompression or color alteration.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 33,
+        "transformation": {
+          "export_pixel_dimensions": [
+            450,
+            207
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 127,
+          "source_pixel_dimensions": [
+            450,
+            207
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "lossless grayscale PNG",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A man asleep against a stone column",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-2.jpg",
+        "repository_path": "public/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-2.jpg",
+        "rights_note": "Original embedded PDF image object 129; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The source raster has a light-gray ground matching the page treatment; it is inseparable and retained without an unproven color inversion or synthesized replacement. The intrinsic artist signature is preserved; no name or license is inferred from it. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 33,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            387,
+            389
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 129,
+          "source_pixel_dimensions": [
+            387,
+            389
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Men sleeping in church pews",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-3.jpg",
+        "repository_path": "public/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-3.jpg",
+        "rights_note": "Original embedded PDF image object 128; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The source raster has a light-gray ground matching the page treatment; it is inseparable and retained without an unproven color inversion or synthesized replacement. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 33,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            661,
+            504
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 128,
+          "source_pixel_dimensions": [
+            661,
+            504
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "SITTING AT EASE IN ZION?",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7d4a7d4f9558f8b5a28f6606aeb71af7258c60841d98143c004dc61cf0152249",
+    "metadata_sha256": "5f4a9e7085c22c2e9202d55f4733234b22d929f0d0336cb78cf19c32e3c872fe",
+    "structure_sha256": "392685c4f9efef5c10a85cc0dc04f23f3981aca5d02410b3a5c9477330a23bed",
+    "text_sha256": "14e52d27b03d56da74489456a4c52b3730e6dd88aa0afeb31bb221cbe48858f4",
+    "translation_metadata_sha256": "387ecb57182d5513fa52a26f8053d674ac4d1cc1d6a0337d572713c88438accb"
+  },
+  "html": "<article data-article-id=\"7fe63551-500f-4963-8b75-e17ae8cfd46a\">\n  <figure><img src=\"/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-1.png\" alt=\"Seated people resting in chairs\"></figure>\n  <figure><img src=\"/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-2.jpg\" alt=\"A man asleep against a stone column\"></figure>\n  <p class=\"poem\"><strong>Could a mariner sit idle if he heard the drowning cry?<br>\n  Could a doctor sit in comfort and let his patients die?<br>\n  Could a fireman sit idle, let men burn and give no hand?<br>\n  Could you sit at ease in Zion with the world around you damned?</strong></p>\n  <figure><img src=\"/images/articles/7fe63551-500f-4963-8b75-e17ae8cfd46a-3.jpg\" alt=\"Men sleeping in church pews\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f9fef123c0dfedf5b69cd2c3078d022d2709cc2d192d9d16ec92d8e18720fd59"
+}

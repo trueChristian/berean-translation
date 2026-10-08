@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "68c1cbf8-0f14-4f6d-b03b-248e330b2170",
+    "images": [
+      {
+        "alt": "A bird silhouetted against the sun above the sea.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/68c1cbf8-0f14-4f6d-b03b-248e330b2170-1.jpg",
+        "repository_path": "public/images/articles/68c1cbf8-0f14-4f6d-b03b-248e330b2170-1.jpg",
+        "rights_note": "Clean base PDF image object 162 exported with the published rectangular clip mapped to nearest native pixel bounds [0, 1, 502, 387]; no rotation or flip. Separate colored article typography omitted; the light and haze are intrinsic to the source photograph. JPEG container normalized to baseline sRGB with nonzero 72 dpi density; no CMYK conversion or sample inversion was needed. No individual image credit or license is printed; the masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "background",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "1b71c997-6dfc-4be4-a75f-e14cb1034695",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Guarding the Spirit of Your Home",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "34664b43597df77b0b8698b03cff7a020de86a2bcab8c41fab100a6593960a51",
+    "metadata_sha256": "9a649a5a78aad8f5df67f64454a8011578a96a4b476def83596fc13deb42a5cb",
+    "structure_sha256": "fa249594ef02b29daa96b5b39f2733d58594be18a9290cf0344859374cea5108",
+    "text_sha256": "f12b5e70d389c95d9ca7ca67e9e09e7cc4930fe35f8d48eb79907778accef941",
+    "translation_metadata_sha256": "06a9341170d396080648d28792550933b1ecf09af45260a1681e126cc8ee7dfc"
+  },
+  "html": "<article data-article-id=\"68c1cbf8-0f14-4f6d-b03b-248e330b2170\">\n  <figure><img src=\"/images/articles/68c1cbf8-0f14-4f6d-b03b-248e330b2170-1.jpg\" alt=\"A bird silhouetted against the sun above the sea.\"></figure>\n  <p class=\"poem\"><strong>Beloved Sisters, do not judge and criticize your husbands,<br>or your husbands will judge and criticize you.<br>Beloved Sisters, do not judge and look down upon your husbands,<br>or God will judge you.<br>To the degree that you judge and find fault with your husbands,<br>to that degree shall God and others judge you.<br>Why do you focus on the speck in your husbands’ eye,<br>and you do not see the beam in your own eye?<br>Why do you say to your husband,<br>“Let me correct the speck in your eye?”<br>and behold, there is a big timber in your eye.</strong></p>\n  <p class=\"poem\"><strong>If you do this, you are a hypocrite,<br>you chase away the Spirit from your home.</strong></p>\n  <p class=\"poem\"><strong>Why do you judge and scrutinize your husband’s<br>actions?<br>For he has a judge who will correct him.<br>Who do you think you are, to take God’s place and pass judgement?<br>Beloved Sisters, let us stop judging and finding fault with our husbands.<br>Let us stop speaking evil of them, and questioning their every move.<br>For what ever a wife soweth, that shall she also reap.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0f98c7d35be4add059a84360fac9da4c540fff8c9b14212ea13c7db30c53d142"
+}

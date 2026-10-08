@@ -1,0 +1,92 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "d1e24fce-f20f-4d64-b32c-fa9340b8cdd9",
+    "images": [
+      {
+        "alt": "Cover of The Kingdom That Turned the World Upside Down by David W. Bercot",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d1e24fce-f20f-4d64-b32c-fa9340b8cdd9-1.jpg",
+        "repository_path": "public/images/articles/d1e24fce-f20f-4d64-b32c-fa9340b8cdd9-1.jpg",
+        "rights_note": "Clean source image object 106; separately painted headings, article text, panels, rules and decorative framing are omitted. The title and author lettering are intrinsic to the printed book cover and retained.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "book_cover",
+        "sequence": 1,
+        "source_page": 29,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            172,
+            266
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            172,
+            266
+          ],
+          "source_object": 106,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        29,
+        30,
+        31,
+        33
+      ],
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "The Kingdom That Turned the World Upside Down",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "5ffbf7ecc9add717b6298bbabef0e16e6e2d3024f0fdd6898afb4ce74b00b73b",
+    "metadata_sha256": "ff4d3fdbf020d71b678c52e1b2912b894160850de2496e5b0b5e18a978f046fc",
+    "structure_sha256": "c231ac5bb4c0968c7ec04b07dc7ac20425a77927565eab7714d287c0e19fd5a2",
+    "text_sha256": "b8d40c9a0fe3a404876f2313816556fb5c4400afef029c1d84ad8e65e9e9f27e",
+    "translation_metadata_sha256": "6c0f9f335aeec50bce7e0c3055d44e8f291b666771cb3e51229b8335889ba22d"
+  },
+  "html": "<article data-article-id=\"d1e24fce-f20f-4d64-b32c-fa9340b8cdd9\">\n  <figure><img src=\"/images/articles/d1e24fce-f20f-4d64-b32c-fa9340b8cdd9-1.jpg\" alt=\"Cover of The Kingdom That Turned the World Upside Down by David W. Bercot\"></figure>\n  <p>I’ll never forget the first time I ever saw a book by David Bercot. I was in a book store in Germany outside of a U.S. Army/Air Force base and had recently been converted. Newly awakened, the Scriptures were coming more alive every day. However, I had found that trying to implement and live out what I was learning in the Word of God was growing more and more difficult. The literal teachings of Jesus, as well as the apostle’s teachings on issues such as nonresistance, materialism, modesty and holiness seemed clear to me, but I knew of no group of Christians that believed or practiced any of them. I thank the Lord that He then led me to David Bercot’s first book, “<em>Will the Real Heretic Please Stand Up.</em>” This challenging and insightful book high-lights the beliefs and practices of the early church, examining their historical testimony in the light of God’s Word. What an encouragement it was to see that the early church had believed and practiced much of what the Holy Spirit had been revealing to my heart!</p>\n  <p>It has now been over 15 years since that book was written. Over those many years, David has had the opportunity to live out many of the convictions that he has written about. The title of one of David’s later books, “We Don’t Speak Great Things, We Live Them,” probably best bespeaks the theme that has compelled David, as he has continuously endeavored to put his beliefs into practice. In the process, he has allowed himself to be shaped and molded by God many times over the years. This shaping has not always been easy. At one time David formed a religious society, structured much like that of the early Methodists, with hopes of working within a conservative branch of the Anglican Church. However, he quickly saw that this was a mistake and only lasted about two years in this setting. Fortunately, God used this experience in his life to reveal many of the fallacies that exist in the church today. Since then, David has prepared numerous CD’s and articles in hopes of warning others of the dangers that he experienced.</p>\n  <p>For a little over two years now, David and his family have attended a conservative Mennonite church and have been blessed by the genuine fellowship and Christian witness that they have experienced in their midst. In 2000, David launched a relief program which extends help to the poor in Honduras, and this is where he and his wife, Deborah, have focused much of their time and energy since.</p>\n  <p>Springing from this lifetime of learning and experience, David has now written what many believe is his best book thus far, “The Kingdom That Turned the World Upside Down.” In this book David sifts through the various customs and clichés of modern Christianity, pointing the reader to the literal teachings of Jesus Christ. In particular, David focuses on the kingdom that Jesus established here on earth—the kingdom of God. David writes that he feels that Jesus’ teachings on the kingdom of God have in many ways been forgotten by the church today.</p>\n  <p>He writes,</p>\n  <blockquote><p><em>“The irony is that the message of the kingdom is almost totally missing from the gospel that’s preached today. As a result, a lot of Christians don’t realize that the kingdom of God is a present reality on earth. In fact, they don’t even know what the kingdom of God is. Consequently, they never make the kingdom commitment that Christ requires.”</em></p></blockquote>\n  <p>Defining the kingdom of God, David writes:</p>\n  <blockquote><p><em>“Every kingdom has four basic components: (1) a ruler or rulers, (2) subjects, (3) a domain or area of rulership, and (4) laws. God’s kingdom is no different…. Its ruler is Jesus Christ, who reigns from heaven. Earthly kingdoms periodically change rulers and policies. In contrast, Jesus is eternal, and His policies don’t change.</em> ‘Jesus Christ is the same yesterday, today, and forever.’” <em>(Heb. 13:8)</em></p></blockquote>\n  <p>He further explains,</p>\n  <blockquote><p><em>“Who are the subjects of the kingdom of God? The Jews? No, Jesus told the Jews quite pointedly,</em> ‘I say to you, the kingdom of God will be taken from you and given to a nation bearing the fruits of it.’ <em>(Mt. 21:43) Who was this nation to whom Jesus said He would give the kingdom? The Romans? The British? The Americans? No, it was none of these, for the scriptures tell us,</em> ‘there is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. And if you are Christ’s then you are Abraham’s seed, and heirs according to the promise.’ <em>(Gal. 3:28, 29) So all of us who belong to Christ—all of us who are genuinely born again—we are the subjects of this kingdom.”</em></p></blockquote>\n  <p>Speaking of when this kingdom will be manifested he wrote,</p>\n  <blockquote><p><em>“A lot of Christians have the idea that the kingdom of God is something only in the future. But, no, the kingdom of God is something that is here right now. Paul wrote to the Colossians,</em> ‘He has delivered us from the power of darkness and conveyed us into the kingdom of the Son of His love.’ <em>(Col 1:13) Paul speaks in the past tense. God has already conveyed us into His kingdom. He doesn’t bring us into His kingdom after we die. He brings us into His kingdom as soon as we are born again.”</em></p></blockquote>\n  <p>After clearly setting forth the reality of a literal kingdom brought in by Jesus, David goes on to show that this literal kingdom has literal expectations of its citizens. Following a citation of the surprisingly severe oath that is required for new U.S. citizens, David states,</p>\n  <blockquote><p><em>“The United States, like most other governments, will not allow those who wish to become citizens to straddle the fence. Naturalized citizens can’t claim that their loyalty and allegiance belong to the United States if they retain allegiance to some foreign government. Our government won’t allow that. It wants undivided loyalty from any who apply for citizenship. So it should come as no surprise that the King requires similar loyalty from those who whish to apply for citizenship in His kingdom…. If we truly understand the kingdom and grasp what it means, it will be more precious to us than anything we own.”</em></p></blockquote>\n  <p>David then addresses the “kingdom teachings,” touching on many of our most sensitive areas. He really takes the reader out of his comfort zones and does not tip-toe around or try to explain away any of Jesus’ words. He takes a very frank look at some modern day Christian views of mammon, exposing how many of these views are in direct opposition to Scripture. One of the things I most appreciated about this section is its direct honesty. As a husband and father, minister, writer, and title attorney, David has known full well the trials that test the modern American Christian. Yet, he is very straightforward and even painfully honest as he prompts some very convicting self-examination on this issue. He points out what a heart issue this subject really is. I feel this chapter provokes some deep soul-searching that is desperately needed in the church today.</p>\n  <p>From here, he dives into the subject of honesty. This chapter is particularly incisive. Touching on such areas as honesty in the workplace, dishonesty in Christian literature, taking oaths and even fake healing, David helps uncover our real heart in obeying the command, <em>‘But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.”</em> (Mt. 5:33, Jas. 5:12)</p>\n  <p>I will say I found this book to be one of the most challenging and thought-provoking books I have ever read. David does give a fair warning to the reader that he was not going to water down the teachings of Jesus. He states at the end of chapter four,</p>\n  <blockquote><p><em>“In the pages that follow, we’re going to be looking at a handful of the new values and challenging laws of the kingdom. But we’re not going to water them down or explain them away. We’re going to take them straight on. Will Jesus’ laws step on some of our toes? Most definitely!”</em></p></blockquote>\n  <p>Just when you think it is safe to turn the page, David then asks the reader to step out of his comfort zones once again as he touches on what is perhaps one of the worst American Christian epidemics of our time–divorce. He presents some very sound Biblical teaching on what seems to be a very difficult, if not seemingly impossible, area to address. Citing the historical progress and recent statistics of divorce he reveals,</p>\n  <blockquote><p><em>“…the divorce rate among born-again American Christians was higher than the divorce rate among Americans as a whole.” He writes, “Divorce is so acceptable among evangelical Christians here in the South that divorce lawyers will sometimes place the Christian fish logo by their advertisements in the Yellow Pages.”</em></p></blockquote>\n  <p>If all this were not enough to make us think, David then begins the second part of the book, “The Big Stumbling Block.” In this section he discusses the very forgotten and controversial issue of loving our enemies and more specifically, the existence of the “two kingdoms.” Providing a clear distinction between the kingdom of God and the kingdom of this world, David steers far from the average “pacifist” approach on this subject. Instead, he very distinctly presents a clear Biblical call to actively live in another kingdom and to forcefully fight with another weapon.</p>\n  <p>Finally, David gives some very inspiring historical accounts of Christians, both now and through the ages, who have held devoutly to many of the kingdom teachings he has addressed. Thankfully, he does not simply paint a picture of some fictitious church which exists only in the figment of his imagination and then leave the reader there. As expected, his treatment of history is both fascinating and discerning. He gives some intriguing accounts of the pilgrim church as evidenced through the historic testimonials of groups such as the Waldensians, the Swiss Reformers and early Anabaptists, and he conveys an honest assessment of what it was that made these groups different from the modern church. He also demonstrates how many of these groups started out pure and then allowed their teachings to become watered down, which then leads into his next chapter, “A Hybrid is Born.”</p>\n  <p>He subsequently brings the historical testimony up to date and leaves us with this final charge:</p>\n  <blockquote><p><em>“The ball is now in our court. If every other Christian on earth ignores or explains away Jesus’ teachings, this in no way excuses disobedience in you and me. When the Lord has spoken to us directly in the Scriptures, what others say is irrelevant. As the late evangelist, Leonard Ravenhill, used to say, ‘Jesus is either absolute, or He’s obsolete.’ There is no middle ground.”</em></p></blockquote>\n  <p>Polished throughout with numerous captivating illustrations, personal testimonies, modern statistics and historical facts, David’s book is a pleasure to read. More importantly, this book could prove very helpful for people coming out of a worldly church setting and trying to find their way. You may not agree with everything written in the book, but I assure you, you will be challenged as you look at your church and your life in the light of the Biblical account of “the kingdom that turned the world upside down.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a437c66f314f45a0ecb8bce17220a6b7822e2b4828d0ec0b134b5cdc5e6bc51c"
+}

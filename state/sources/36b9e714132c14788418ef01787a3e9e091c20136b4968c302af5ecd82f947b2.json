@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ernest Little"
+        }
+      ],
+      "raw": "by Ernest Little, 1907"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "359ea7ff-10b8-4512-9ee5-3a4c515b3e27",
+    "images": [
+      {
+        "alt": "A sunlit path through trees",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/359ea7ff-10b8-4512-9ee5-3a4c515b3e27-1.jpg",
+        "repository_path": "public/images/articles/359ea7ff-10b8-4512-9ee5-3a4c515b3e27-1.jpg",
+        "rights_note": "PDF image object 147. Useful unobstructed source-pixel crop [37, 990, 1313, 1688] of object 147 retains the woodland path below the baked poem. The crop remains inside the printed page bounds, excludes all poem typography, and omits the separately painted mailing panel. No pixels synthesized. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source grayscale converted to RGB (or source RGB preserved) and normalized as baseline sRGB JPEG with nonzero 72 dpi density; output dimensions match the retained source-pixel region. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Untrodden Way",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "c987aaa5-9902-5dc1-abf1-1d58331a330f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8c138fb6984d55dad9d82b5b5d29979e356f2e51ad6e89cbb55166f1d59567c4",
+    "metadata_sha256": "ac6b551c0a4be4ce124574d7166ea4449e09a6a5cb424097c2a71f981a40fe24",
+    "structure_sha256": "d82d2dd67f84c93c41114f4c94672574e911fd0315baa421f46a9877572ed71c",
+    "text_sha256": "59b6a6aa293bd504941ee1470508a3e331cd46fea0829f2a9ff321645b08af68",
+    "translation_metadata_sha256": "ac0afa73ce5038607f23456f4066fb0aa1cf1243166bb1a2013045e44dc5fa80"
+  },
+  "html": "<article data-article-id=\"359ea7ff-10b8-4512-9ee5-3a4c515b3e27\">\n<figure>\n  <img src=\"/images/articles/359ea7ff-10b8-4512-9ee5-3a4c515b3e27-1.jpg\" alt=\"A sunlit path through trees\">\n</figure>\n<p class=\"poem\"><strong>The pathway of the year<br>\nIs hidden and untried;<br>\nI will not fear, for at my side<br>\nIs One who cheers<br>\nThrough all the years;<br>\nI do in Him confide.</strong></p>\n<p class=\"poem\"><strong>Through darkness compass me,<br>\nAnd clouds about me fall,<br>\nThey cannot harm;<br>\nThrough all the days<br>\nGod is my Guide, I shall not slide,<br>\nHe orders all my ways.</strong></p>\n<p class=\"poem\"><strong>When at my journey’s end<br>\nI reach the land of light.<br>\nI shall forget<br>\nThe perils past,<br>\nAnd wond’ring, trace the way of grace<br>\nThat brings me rest at last.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d69a44985448c5d82d8604a2456727ff78592cc65ae0c0ddd69a192e7e4d5813"
+}

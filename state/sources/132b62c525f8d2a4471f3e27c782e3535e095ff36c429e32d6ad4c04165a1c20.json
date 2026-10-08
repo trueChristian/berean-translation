@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Geoffrey Lehmann",
+          "role": null
+        }
+      ],
+      "raw": "- Geoffrey Lehmann"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "275410f3-88d3-42c6-a774-edd7f30e7861",
+    "images": [
+      {
+        "alt": "Jesus kneeling in prayer beside a rock.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/275410f3-88d3-42c6-a774-edd7f30e7861-1.jpg",
+        "repository_path": "public/images/articles/275410f3-88d3-42c6-a774-edd7f30e7861-1.jpg",
+        "rights_note": "No item-specific source, credit or reuse restriction is printed. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 77. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate white frame and poem text omitted. Enlarged faded background object 76 is a repeated crop of this complete illustration with no unique image content and is represented once by this clean foreground asset.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": "PDF base image object 77. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate white frame and poem text omitted. Enlarged faded background object 76 is a repeated crop of this complete illustration with no unique image content and is represented once by this clean foreground asset.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "My Passion",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "768c7d871b50efe88c3ea8171495d9a08bc66cc076a6a6a2029d9e5f9c6b6768",
+    "metadata_sha256": "781644ad4a0d1bda215572f264877be5062c6947e79aabd45fb932aaf7d6cdb4",
+    "structure_sha256": "12fcb3feaa0ff384ff2cbbf869d3d30d65715aad8e68247422ffda52c81655b3",
+    "text_sha256": "843ffa58a5e6da124fda30bc05305cc451fd7e417772b3ea65626330ec09abf4",
+    "translation_metadata_sha256": "c73eb88641a55b2240eccb958268e8b6cac13b06e3f05d2043b49e9bb8e68bbb"
+  },
+  "html": "<article data-article-id=\"275410f3-88d3-42c6-a774-edd7f30e7861\">\n  <blockquote><p class=\"poem\">“Oh my God, possess my soul with such a fervent love of<br>thee that it may transcend all earthly loves. Bring my<br>whole being into such a deep fellowship with Thee that Thy<br>love may flow through me to permeate all around,<br>filling those I meet with Thy joy which none can take away.<br>That Thy touch may be Thee in me, so that in the daily<br>affairs of life it will be as gentle and tender, yet as firm and<br>strong, as was Thine in Christ Jesus. That Thy peace,<br>the peace of Thy presence that passeth all understanding,<br>may flow through me as Thy river, the river of Life,<br>will flow from Thy throne to the healing of the nations.”</p></blockquote>\n  <p><em>- Geoffrey Lehmann</em></p>\n  <p><em>taken from</em><br>“The Himalayan Heartbeat”<br><em>by Ken Anderson</em></p>\n  <figure><img src=\"/images/articles/275410f3-88d3-42c6-a774-edd7f30e7861-1.jpg\" alt=\"Jesus kneeling in prayer beside a rock.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a62b96ba8cd8f8e6a2aac378257519a177115d10cc19d037ccbf851d9b647d43"
+}

@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Katharine A. Hodge"
+        }
+      ],
+      "raw": "by Katharine A. Hodge"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f1f8d898-1108-4e49-9e62-b12667509107",
+    "images": [
+      {
+        "alt": "A wooden vessel and long pestle beside a sunlit window, with the poem printed over the photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f1f8d898-1108-4e49-9e62-b12667509107-1.jpg",
+        "repository_path": "public/images/articles/f1f8d898-1108-4e49-9e62-b12667509107-1.jpg",
+        "rights_note": "Extracted the original embedded image object 140 from printed page 36. No separate image credit or image-specific permission wording is printed. The poem is irreversibly baked into the sole background raster and is retained as an explicit unavoidable overlay exception to preserve the complete wooden vessel and composition. The separately painted mailing panel, postage box, publication title and publisher/address text are omitted by extracting the base raster. The retained poem is also transcribed in semantic HTML; no pixels hidden by it were reconstructed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [38, 38, 1313, 1688] from the 1350 × 1727 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 3-component RGB to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            38,
+            38,
+            1313,
+            1688
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            1275,
+            1650
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1350,
+            1727
+          ],
+          "source_object": 140
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Gifts of Christ",
+    "topics": [
+      "98831891-d3af-59bf-9c95-821ac504dd26",
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7f4c15f9200690738d55b63d09e964ec1344144362690146954ab043117b3ea3",
+    "metadata_sha256": "b48210c53318f8c15349167f4be722032c358ce163be8bfa2508c34815451ed4",
+    "structure_sha256": "9fdb4de8a93b79533cb1fc28d566e1b483707d6d7649c72d694c79a38b332bc6",
+    "text_sha256": "44dc63b8b9388222dfe5d77012849f5e3df55997f37d4d99bd03dbc21266ef06",
+    "translation_metadata_sha256": "9bf19fb25bde03fc71e7a7d938fa4bfa7c4f8a2a2c7fd7521a438cd7e6af52cc"
+  },
+  "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <figure><img src=\"/images/articles/f1f8d898-1108-4e49-9e62-b12667509107-1.jpg\" alt=\"A wooden vessel and long pestle beside a sunlit window, with the poem printed over the photograph\"></figure>\n  <p class=\"poem\"><strong>Hast thou a sin?<br>Some heavy weight that feign would hinder thee<br>From running well? To have Christ’s liberty,<br>O captive soul, let go; let go, and see<br>Where Jesus will begin.</strong></p>\n  <p class=\"poem\"><strong>Hast thou a care?<br>Then roll that care of thine on to God;<br>‘Tis not His wish for thee to bear that load;<br>Leave it with Him, and thou wilt tread life’s road<br>As if thou walked on air.</strong></p>\n  <p class=\"poem\"><strong>Hast thou Christ’s joy?<br>The share the happiness He gives with those<br>Who’s lives are brimming o’re with human woes;<br>His joy transcendeth all, and fuller grows,<br>This, nothing can destroy.</strong></p>\n  <p class=\"poem\"><strong>Hast thou His peace?<br>Christ’s peace that passeth human thought and ken,<br>So calm, so pure and deep. ‘Tis only when<br>We know such restfulness—but not ‘till then—<br>All fretfulness can cease.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2cff8d8f0f5bdf5fde38358695a9184da284bb0aa967e6073c45a47e3c000a08"
+}

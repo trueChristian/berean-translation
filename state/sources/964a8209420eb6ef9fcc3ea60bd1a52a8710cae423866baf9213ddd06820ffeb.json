@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Greg Gordon"
+        }
+      ],
+      "raw": "by Greg Gordon"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "49f566f1-6dd8-4fad-a3a4-443d429354a9",
+    "images": [
+      {
+        "alt": "A preacher addressing an assembled group",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-1.jpg",
+        "repository_path": "public/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-1.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density.",
+        "role": "historical illustration",
+        "sequence": 1,
+        "source_page": 25
+      },
+      {
+        "alt": "Portrait of Greg Gordon in front of bookshelves",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-2.jpg",
+        "repository_path": "public/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-2.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. The printed `Greg Gordon - www.sermonindex.net` line is a body/footer attribution, not an image caption; retain it in the article text.",
+        "role": "portrait",
+        "sequence": 2,
+        "source_page": 25
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "Dry-Eyed Teaching",
+    "topics": [
+      "7f8e6e3c-322b-5d2d-b390-05235f99a977",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "906ca2eafae3c7da2f0560c457bb2d82d5ddebc6671abf7f064ac33f7f9b32a7",
+    "metadata_sha256": "d027e2d39b94978e67c48e91f6339d2fec815f0136ca4aa13e1b9b5a43d67cef",
+    "structure_sha256": "009748aa509fd80cc7815c70915074e98c6fa5055cc165e7e8b77e45e30cd1ed",
+    "text_sha256": "83f5652c15cf77be185e546b33e4967792a4a1d06a49dd27807a46220318270b",
+    "translation_metadata_sha256": "76c34bda2d6b3d88bb7a1ece4e4c3afc8a8e3553b5e608dd9dff02543b564930"
+  },
+  "html": "<article data-article-id=\"49f566f1-6dd8-4fad-a3a4-443d429354a9\">\n  <figure>\n    <img src=\"/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-1.jpg\" alt=\"A preacher addressing an assembled group\">\n  </figure>\n<p>PASTOR, IF YOU ARE SHARING you are not caring for your people. If you are simply talking you are not tearing down the strongholds of the enemy. We need preaching in this late hour. Dry-eyed teaching will not produce life in men. Henry Blackaby comments that during times of revival “powerful, scriptural preaching” is exhibited: “Powerful preaching is a hallmark of true revival. Revival preachers demonstrate their commitment to the authority and sufficiency of the Scriptures, with bold, urgent, and uncompromising preaching, as they set before God’s people the way of life and death. Powerful, Spirit-filled sermons concerning sin, Christ and the cross penetrate the hearts of the saved and lost alike with the realities of eternity. Concerning a sermon Whitfield preached in Scotland (1742), one present reported, ‘During the time of divine worship, solemn, profound reverence overspread every countenance. Many cry out in the bitterness of their soul. Some…from the stoutest men, to the most tender child, shake and tremble and a few fall down as dead….when the …preacher speaks of redeeming Love, and talks of the precious Savior…all seem to breathe after Him….’”</p>\n<p>Hear the confession of Mr. Robe, a minister used in the 1742 revival in Kilsyth, Scotland. Hear what was the doctrine that was so zealously propagated, and which God’s Holy Spirit honored so much in his day: “I feared to daub or deal slightly with my people, but told great and small that they were by nature the children of the Devil, while they were in the state of unbelief; and that if they continued so to the end, I told them, in our Lord’s plain terms, they would be damned. I resolved that I would cry aloud, and not spare, and preach with the seriousness and fervor of one that knew that my hearers must either be prevailed with or be damned; and so that they might discern I was in good sadness with them, and really meant as I spoke. Aware that the greater part of every public audience is secure, unconcerned, and fearless, I preached the terrors of the law in the strongest terms I could, that is to say, in express Scripture terms. Yet I ever delighted to follow up such statement with a declaration of the gospel of the grace of God. After the law had done its office, I have seen the congregation in tears of joy when the law of grace from Mount Zion was proclaimed.” Preacher, are you dealing slightly with your people? Are you proclaiming the utmost “terrors of the law” to your people and their true condition by nature?</p>\n  <figure>\n    <img src=\"/images/articles/49f566f1-6dd8-4fad-a3a4-443d429354a9-2.jpg\" alt=\"Portrait of Greg Gordon in front of bookshelves\">\n  </figure>\n<p>Greg Gordon - www.sermonindex.net</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e788601bd8fc9c96f8ae17387f7dcea5e61b28de7e942ea2f9e9fefc228ff946"
+}

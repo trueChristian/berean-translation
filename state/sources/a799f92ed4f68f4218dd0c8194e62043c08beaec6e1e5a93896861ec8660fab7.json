@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "(Author unknown 1890’s)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b51fb03c-eeff-4104-8b5d-3f6caeb6cddb",
+    "images": [
+      {
+        "alt": "People near a storm-tossed ship",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b51fb03c-eeff-4104-8b5d-3f6caeb6cddb-1.png",
+        "repository_path": "public/images/articles/b51fb03c-eeff-4104-8b5d-3f6caeb6cddb-1.png",
+        "rights_note": "The illustration is one overlapping two-piece composition: object 101 supplies its lower rectangular portion and object 102 supplies its upper elliptical portion. Both are reassembled once at their exact source coordinates; no pixels are synthesized. Separable article typography and page furniture are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "flip": null,
+          "method": "Only source image objects 101 and 102, their exact paint order, transformation matrices and clipping paths rendered at the published coordinates at 72 dpi, matching the embedded raster resolution. No page typography, panel or border included. Lossless RGB PNG.",
+          "output_dimensions": [
+            219,
+            219
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            [
+              218,
+              113
+            ],
+            [
+              217,
+              211
+            ]
+          ],
+          "source_objects": [
+            101,
+            102
+          ],
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "Let Your Bucket Down!",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "692b6709104c42787be398cbb511eeb2df3e737e5c659c1a2dbfa281d9813c90",
+    "metadata_sha256": "bf3e9593a64a4ebb52c5a3d7979661358ffa80624950b133782dea016f00eea0",
+    "structure_sha256": "b63c141b0e1de98a82baa5a218f7839e715cd750fe71f12248247d0636c58f2f",
+    "text_sha256": "0e42c96b390c50acba95a4e7bfc88aca7699c8b209a20f489a115a88fc50406a",
+    "translation_metadata_sha256": "71e95c292048ef8e700879507538ae86a33664fe6e982e96ea4cbd8d41186644"
+  },
+  "html": "<article data-article-id=\"b51fb03c-eeff-4104-8b5d-3f6caeb6cddb\">\n  <figure><img src=\"/images/articles/b51fb03c-eeff-4104-8b5d-3f6caeb6cddb-1.png\" alt=\"People near a storm-tossed ship\"></figure>\n  <p>The great river Amazon pours out so mighty a stream of fresh water into the Atlantic, that for miles, out of sight of land, just opposite the mouth of the river, the water in the ocean is entirely fresh water. Some years ago a sailing ship left Europe for a South American port, and, through storm and mishap, was so long on its voyage, that the water on board began to give out; and though the crew took every care, they shortly found themselves with their last tank or cask empty.</p>\n  <p>A day or two later, becalmed in a hot climate, to their great joy and relief they sighted another vessel, and when near enough to signal, they ran up their flags telling of their piteous position: “We’re dying for want of water.” To their astonishment, the reply, which came back quickly, seemed almost to mock them: “There is water all around you; let your bucket down?” Little did they know that they were just then crossing the mighty Amazon’s current, and instead of being in salt water they were actually sailing in fresh water without even knowing it.</p>\n  <p>Water all around! Fellow-traveler, you may be crying out, “What must I do to be saved,” little realizing that the ocean of God’s love is all around you. Oh! “Let you bucket down!”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9c9c7212302f612dc7989242f7b0856ad81d4ce6c2fc9a0262a70769b4671fdb"
+}

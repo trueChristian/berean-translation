@@ -1,0 +1,144 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Shelbyville, IN",
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "Barry Grant\nShelbyville, IN"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "fac37c80-d157-4543-8b49-8bdf869e9d4a",
+    "images": [
+      {
+        "alt": "An ornate key on an open book beside tulip leaves and buds.",
+        "caption": null,
+        "credit": "© Nadiika Kravets",
+        "public_path": "/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-1.jpg",
+        "repository_path": "public/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 27; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The unobstructed right-hand photo panel is cropped from the page; the left body text and running footer are excluded. Text visible on the book is intrinsic photographic content. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            845,
+            0,
+            1736,
+            2233
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            891,
+            2233
+          ],
+          "output_dimensions": [
+            891,
+            2247
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1736,
+            2233
+          ],
+          "source_object": 27,
+          "vertical_scale_to_published_aspect": 1.006085192697769
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Trees and a small building beside a pond.",
+        "caption": null,
+        "credit": "© Belle Vie Images",
+        "public_path": "/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-2.jpg",
+        "repository_path": "public/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-2.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 32; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. A meaningful unobstructed lower-page landscape crop preserves all trees and the complete building. The text-bearing upper region and bottom running footer are excluded. The pale fade above the treetops and faint reverse-page show-through are irreversible in the source and retained; no inverse blend is justified by the object evidence. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article background",
+        "sequence": 2,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            1344,
+            1528,
+            1939
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1528,
+            595
+          ],
+          "output_dimensions": [
+            1528,
+            574
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1528,
+            2048
+          ],
+          "source_object": 32,
+          "vertical_scale_to_published_aspect": 0.9655330882352942
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 4
+    },
+    "subtitle": null,
+    "title": "A New Creation",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f040d9046bf42f0aa0569cd6c88968f1f2e9591dc11821417f09440139b98dda",
+    "metadata_sha256": "fda434a24bb81c42b2d339c80a3c727ee4527a1281e0dbe8d20f631308f002dc",
+    "structure_sha256": "2abfce687d2b147e96b6e9e69edf277cf4900bd345a0bf80260c94a1da202442",
+    "text_sha256": "e49357334816f8544c4aa899d691c36961ad0f09ad2043123106d9db2f882214",
+    "translation_metadata_sha256": "205f6614be3337e268ad92c9d50844520e8c3693063b45e6c2abc2b7a16503db"
+  },
+  "html": "<article data-article-id=\"fac37c80-d157-4543-8b49-8bdf869e9d4a\">\n  <blockquote><p><em>Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God. Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother’s womb, and be born? Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. That which is born of the flesh is flesh; and that which is born of the Spirit is spirit. (John 3:3-6)</em></p></blockquote>\n  <p>A man stumbles through the night—angry, discouraged, lonely, and sick. He needs another fix, but has no money to buy more drugs. He heads to his usual place to crash, an abandoned church house. Life is hard; all he knows are tough streets. He enters the empty building and settles down in his usual corner. As he tries to sleep, he is repelled by the stench of his own body. He whispers to himself, <em>something must change.</em></p>\n  <p>As he sleeps, he hears the sound of singing! He sits up to see the old pews lined with people. Smiling people, families—old and young alike. He sees happy expressions and peaceful faces. The picture is so vivid in his mind that he can not shake it. He has not been to church since his mother’s funeral when he was six years old.</p>\n  <p>Suddenly, recognizing his own condition, he feels uncomfortable. He is not at all like those people he sees singing in the pews. He is a wicked man. A tear slides down his cheek as he remembers all the wrong that he has done. What was just a way of life to him before now repulses him. How can it all change; how can <em>he</em> change? In desperation, he bows his face to the floor and prays. He cries out to God, begging for forgiveness. He pleads for another chance. He knows he does not possess the power to change himself, and if there is to be any hope for him, a power much greater than himself needs to intercede.</p>\n  <p>Then, there is a change—a calm. He sits in awe. He has no explanation, but he is different; he can feel it! He is a new creature.</p>\n  <p>Jesus says a man must be born again to inherit the Kingdom of God. As we look at the landscape of our churches today, what do we see? Do we see God working among us in this way? Do we believe a new birth like this is possible?</p>\n  <p>When a man moves to the country of Haiti, at first, he will be very much outside his own culture. However, the longer he lives there, the more he will fit into the Haitian culture around him. If that man raises a family in Haiti, his children will be much more accustomed to the Haitian culture as they grow older. After a generation or two, the family will become a fixed part of that culture.</p>\n  <p>How does it look in our church culture? It is very difficult to change one’s culture. A person is born into a certain way of living, and it takes much time, even generations, for one to fully enter another culture. Yet if our new birth is of God, the kingdom of heaven will become our new culture immediately upon our entering it. If our Christian experience is merely a cultural lifestyle, then it will be very difficult for someone outside of it to enter it. It can happen, but it is difficult and takes much time and effort, usually ending in a return to their original culture.</p>\n  <p>Let’s look at an example. Some time ago, I received a text saying that in a certain town in Ohio, Haitian immigrants were eating cats. This person wondered if this could possibly be true. I responded that in Haiti, felines are actually considered a delicacy. In Haiti, you don’t see many stray cats running around because they tend to be highly sought after. Hence, when a Haitian comes to a town with many cats, it is not a surprise that a stray cat could be added to the menu. It is normal in their culture.</p>\n  <p>This may be an extreme example, however, the point is that our cultural past does not immediately change when we move to a location that has a different culture. But God does change us when we enter His kingdom.</p>\n  <h2>The new birth</h2>\n  <p>Jesus says we must be born again. The old man must first die, giving way for the opportunity for a new birth. Just as Christ himself died and was resurrected, so we must die and be resurrected as a new creature in Christ!</p>\n  <p>This new birth is not a slow change. It takes years, decades, or even generations. It’s a transformation, a miracle of the Creator God. If our conversions are not of God, then it becomes about us and our church’s culture. The growth in our churches will mainly be from within our own congregations. When someone from outside our culture joins us, they will struggle to become one of us. Yes, they may be part of the group, but they will always be different.</p>\n  <figure>\n    <img src=\"/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-1.jpg\" alt=\"An ornate key on an open book beside tulip leaves and buds.\">\n  </figure>\n  <p>Christianity is about God, not us. We are not Christians because we are good people, not because we are honest businessmen, not because we dress a certain way or affiliate with certain people. Being a Christian is not because of how we live, the way we talk, or because of things we do. Being a Christian is only because of what God has done in us. When our lives are hidden in Him, it is not about us and our way of doing life, it is about Jesus. Then, after He has done a work in us and continues that work, then and only then will we be different. This difference isn’t because a culture suddenly became part of us; it’s because the Creator God birthed us anew with His Spirit. And because He is one God and His Spirit is one Spirit, then we, His children who have been born into His Kingdom, will also be one. We will be alike, think alike, talk alike, look alike, and act alike. It is the Kingdom of God on earth. It is a miracle.</p>\n  <p>Jesus said, “That which is born of the flesh is flesh; and that which is born of the Spirit is spirit” (John 3:6). What does He mean? If you are born of the flesh, then you will live of the flesh. The Bible tells us very clearly that the flesh can do no good thing. It is wicked, carnal, selfish, and earthly. The flesh only thinks of itself, and there is nothing good about it at all. As Paul tells us in Romans 8:8, it is impossible for the flesh to please God. However, we are all born of flesh, we are all born into this carnal, earthly, human flesh. We are not able to please God by how we live. Even being born into a very godly culture is not enough to please God. Something needs to happen in our hearts personally. This may be confusing because the flesh is very good at fooling people into thinking it is spiritual. The flesh can dress right, talk right, and to most, seem right. However, as we already said, it cannot please God. The flesh tries to do good, but it is proud as it tries to do good. It tries to help people, but does so only to be seen by men. At times the flesh can seem very good, even godly, but God truly knows the heart.</p>\n  <p>The flesh is flesh, and the spirit is spirit, and they are opposed to each other. They do not co-exist in a person’s heart. A person cannot be of the flesh and of the spirit. In today’s Christianity, people try to mix these two together. But this is not possible. If you are of the flesh, still in a carnal state, but trying to live a Christian life, you will find that you fail daily. You may be good at not swearing, stealing, lying, or killing, but struggle with patience, long suffering, loving people who treat you wrongly, and turning the other cheek. It takes the Spirit of God to overcome those things. At the time Jesus was on earth, the Pharisees thought they were following God perfectly, at least until Jesus began to speak. When He taught about loving your enemies and blessing those who curse you, they were no longer interested. It was outside of their own power to do those things.</p>\n  <p>Today, it is no different. Many people claim to be born again but do very poorly in living supernatural lives, walking daily after the Spirit. So what do they do? They water down the power of the gospel and attempt to live lives that cater to both the flesh and the Spirit. The terms “We’re all sinners” and “No one’s perfect” are commonly heard. They bring down the high standard of the gospel of Jesus Christ to a standard that unregenerate fleshly humans can reach. In these cases, there never was a new birth, there never was a transformation.</p>\n  <p>When one is born again, just like Paul in Romans 7, they admit that they can’t do it on their own, they admit that when they try to do good, it is sin. And they cry out to the God of all creation to miraculously change them. And God does just that—He changes them from fleshly to spiritual! The old man and his ways die, giving way to the new birth, the new man, a spirit-filled being. “Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new” (2 Corinthians 5:17).</p>\n  <p>Jesus left us a final message before He ascended to heaven. He told us to go and make disciples. Dear brothers and sisters, we cannot do this unless we have been truly born again ourselves. Yes, we can attract people to our culture, we can entice people to live like we do, but this will not bring in people who are desiring a forgiveness of their sins! The world is hurting and is looking for answers. They are trying to find solutions to their problems, and they are coming up empty. As God’s people, we should be able to lead them to the solution; the Lamb of God who came to take away the sin of the world! Jesus came not to start a culture or group, but to change the people from darkness to light, to free them from their sin forever. He came to give them life everlasting and a peace that passes all understanding.</p>\n  <p>The new birth is a miracle—a work of God. It’s the answer to this world’s problems and has been since the day of Pentecost. If we neglect this work of God and trade it in for a cheap, cultural lifestyle, we and the world around us miss out on the greatest gift.</p>\n  <p>Dear brothers and sisters, we must get back to the basics. We must believe that God can truly save us from our sins. We must believe that God can keep us from sin. It is God’s will that His church be spotless and holy. What God does in the Christian’s life is truly supernatural and is only of God. It should be that when a sinner with no hope meets a blood-bought saint, that sinner would never be the same.</p>\n  <p>All through the Bible, God wanted to show His power through His people. He reduced Gideon’s army of thousands to just 300 men. He sent the shepherd boy David to fight the giant. He parted the Red Sea for His people. God never intended for mankind to be able to please Him in their own strength. He never intended for the Christian to be able to live on their own strength. God works in man to cause man to be able to live in a way that could not be done without Him. He intends His children to live lives that show forth His power! When people meet a Christian, God desires that they would know that He has met with them.</p>\n  <p>The message of the new birth is the same as it has always been; the old man dies, and the new man is birthed by the Spirit of the living God. His life is a living testimony of this transformation. Dear brothers and sisters, let us, as 21st-century Christians, rise up to the challenge. Marvel not that I say you must be born again!</p>\n  <figure>\n    <img src=\"/images/articles/fac37c80-d157-4543-8b49-8bdf869e9d4a-2.jpg\" alt=\"Trees and a small building beside a pond.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0d016e3d15af155742e3fc7945ea9e376978e0f79b04bfc82e552feeff6bb6b0"
+}

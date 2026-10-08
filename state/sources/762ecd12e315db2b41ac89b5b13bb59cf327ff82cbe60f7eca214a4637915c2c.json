@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "14ed443a-4a0f-4365-945a-9bd4bc0cb33c",
+    "images": [
+      {
+        "alt": "A roadside mailbox bearing the magazine address",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/14ed443a-4a0f-4365-945a-9bd4bc0cb33c-1.jpg",
+        "repository_path": "public/images/articles/14ed443a-4a0f-4365-945a-9bd4bc0cb33c-1.jpg",
+        "rights_note": "Original embedded PDF image object 137; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Meaningful unobstructed mailbox crop removes the irreversibly baked heading and translucent reading panel; the address lettering on the mailbox remains intrinsic to the only source raster. The separate introductory text is transcribed in HTML. No pixels were synthesized. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            0,
+            0,
+            495,
+            230
+          ],
+          "export_pixel_dimensions": [
+            495,
+            230
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 137,
+          "source_pixel_dimensions": [
+            1050,
+            522
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "99e30c2e-a1a4-5da7-9ca7-8587269a4246",
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7641a40554483ded19feee8217a5127e66f43a80305e2c7b0e2b7587a55c1a30",
+    "metadata_sha256": "1b249e89fc56fd3ec407ff4705f3297b344794c1ddbb3ff1ff8c7d7f403b795f",
+    "structure_sha256": "0f1902a4a62942b30e06bafc45eb9c82ce82f578fa2e07cf32e597d6ba8ccd2d",
+    "text_sha256": "d1efebb5f057510100c0e744ad2a3a4a16471e2dfaad973172224d12a3ac39b1",
+    "translation_metadata_sha256": "ec38e8b44c981eeb43d6293d6d91993c33d065be3446469284008b4c117be26f"
+  },
+  "html": "<article data-article-id=\"14ed443a-4a0f-4365-945a-9bd4bc0cb33c\">\n  <figure><img src=\"/images/articles/14ed443a-4a0f-4365-945a-9bd4bc0cb33c-1.jpg\" alt=\"A roadside mailbox bearing the magazine address\"></figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n  <p>Update on the telemarketing article from March/April 2005</p>\n  <p><em>I recently received a call from a telemarketer with a strong Indian accent. After I started to ask her just a few simple questions about her life she began to unload a huge burden of sin, guilt, and depression. After some questioning she eventually let me know that she was calling from Calcutta, India! I was able to spend about 20 minutes with her on the telephone. I feel she was very responsive to the gospel. She gave me her home number and I have been attempting to reach her. Her name is Cheryl, please pray for her conversion. My encouragement is that we continue to harvest this ripe crop and pray for the Mission to the Telemarketers! ~Bro. Dean</em>Dear</p>\n  <p>Remnant,</p>\n  <p>Thank you for the wonderful Holy Spirit filled articles in the Remnant. They are water to my soul. I pray for you to keep on going for Jesus and that those who are being prompted by the Lord Jesus to write for the Remnant will not be afraid but will share what is in the hearts.</p>\n  <p>Thank you for speaking truth in a day when it is very hard to find it anymore.</p>\n  <p>The article on witnessing to telemarketers was a great encouragement as was the issue on music!</p>\n  <p><em>from E-mail</em></p>\n  <p>Dear Friends,</p>\n  <p>I enjoy many of the articles in your magazine and after reading one, I feel that I have been richly fed! I appreciate that your goal is to proclaim the truth of God’s Word as it is and not watered down and diluted! That is why I feel fed and challenged and encouraged! I learned a lot from the article “Becoming a Channel of God’s Power” and my prayer is that I would be united with Christ and that He would be the power in me! May God richly bless your ministry!</p>\n  <p>Also, we wanted to give you a quick thank-you for the excellent articles on television and modern music that were featured in the last few Remnants. They were a big blessing to us, as we’ve come out of many of those things in the last several years.</p>\n  <p>We very much appreciate the work that your ministry performs. Thank you for standing for the TRUTH in a day and age of rampant compromise. Continue to press on, being “sober, and vigilant, for your adversary the devil walks about, seeking whom he may DEVOUR!”</p>\n  <p><em>Persia, IA</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "78cbf002bed568a3d185dc38b0567f43186365d3d700d8677ffef4283e1808fc"
+}

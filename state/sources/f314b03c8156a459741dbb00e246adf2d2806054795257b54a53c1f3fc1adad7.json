@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, OH",
+          "name": "Joel Hostetler"
+        }
+      ],
+      "raw": "Joel Hostetler\nCoshocton, OH"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "9998080a-f62f-4190-9980-da11bf8f8fde",
+    "images": [
+      {
+        "alt": "A branching lightning bolt illuminates storm clouds above a dark wooded landscape.",
+        "caption": null,
+        "credit": "© Nathan Leinbach",
+        "public_path": "/images/articles/9998080a-f62f-4190-9980-da11bf8f8fde-1.jpg",
+        "repository_path": "public/images/articles/9998080a-f62f-4190-9980-da11bf8f8fde-1.jpg",
+        "rights_note": "Page 2 credits © Nathan Leinbach for page 35. No article-specific permission requirement is printed and no separate licence is inferred. Inspected page content stream, image object 151, paint order, resources and rendered page: the only base is a single RGB scanned-page raster (ICCBased object 11 identifies IEC 61966-2.1 sRGB) with typography already baked into its lower half; there are no alternate photograph objects, tiles, masks or transparency groups. The unobstructed upper photograph is cropped directly from that base, excluding the lower article text and running footer; a narrow photographed paper edge and photo-boundary pixels are omitted. No publisher typography, reading panels or layout decorations remain in the photograph; no hidden pixels reconstructed. Vertical resampling reproduces the source PDF image placement aspect ratio. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            6,
+            1572,
+            1097
+          ],
+          "flip": null,
+          "method": "original embedded raster extraction and unobstructed source-pixel crop; vertical Lanczos resampling by (792/2110)/(612/1572) to reproduce the PDF placement aspect ratio",
+          "output_dimensions": [
+            1572,
+            1052
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1572,
+            2110
+          ],
+          "source_object": 151
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "How Great Thou Art",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "a25611f0-ac2f-58a4-8911-c1e01807fce0",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c1e792a741b7145b4c0322c2ef2a4a51bf5b2f3643a41f6e76272422f6950d99",
+    "metadata_sha256": "4e3aa9aa2aa8343e7fdfa4f00cdb2057568b57cd086943f12cb47de81c0b2264",
+    "structure_sha256": "a863c64c2e817050e98b2b3c5a511092d43d2fd5b794c9406e2ccad57fe33261",
+    "text_sha256": "9ece31cbae6e1dcc98b5548c6aa32e5281b7a6a4e1126521abec3943fc7f9b4a",
+    "translation_metadata_sha256": "4570f79737152155260bcfa4ca602487be5667178759cd01e074b232359d046f"
+  },
+  "html": "<article data-article-id=\"9998080a-f62f-4190-9980-da11bf8f8fde\">\n  <p>“Give unto the LORD, O ye mighty, give unto the LORD glory and strength. Give unto the LORD the glory due unto his name; worship the LORD in the beauty of holiness. The voice of the LORD is upon the waters: the God of glory thundereth: the LORD is upon many waters. The voice of the LORD is powerful; the voice of the LORD is full of majesty. The voice of the LORD breaketh the cedars; yea, the LORD breaketh the cedars of Lebanon. He maketh them also to skip like a calf; Lebanon and Sirion like a young unicorn. The voice of the LORD divideth the flames of fire. The voice of the LORD shaketh the wilderness; the LORD shaketh the wilderness of Kadesh. The voice of the LORD maketh the hinds to calve, and discovereth the forests: and in his temple doth every one speak of his glory. The LORD sitteth upon the flood; yea, the LORD sitteth King for ever. The LORD will give strength unto his people; the LORD will bless his people with peace” (Psalm 29:1–11).</p>\n  <p>This psalm of David is an exclamation of the untold greatness of our God. The amazing and awesome storms sweeping the land—dark clouds, driving wind, pelting rain, flashes of lightning, rolling thunder, rushing rivers, and swaying trees—all speak volumes of the mighty power of our Creator! The hymn history we are exploring today centers on the power of nature and the calm after the storm. In fact, two of such storms are what inspired the writing of this hymn we all love to sing, “How Great Thou Art”!</p>\n  <h2>Carl Boberg and a Storm In Sweden</h2>\n  <p>Carl Boberg was born in 1859 in Sweden, into the family of a shipyard carpenter. After several years as a sailor, he experienced conversion at age 19, attended Bible school, and later became a pastor in his hometown. At 26, Boberg wrote a poem that would become one of the two most popular hymns in the world.</p>\n  <p>In 1890, he became editor of an evangelistic magazine, eventually owning and managing it until 1916. Hymnologist J. Irving Erickson wrote, “Under Carl’s leadership, the periodical became an increasingly important arm of the evangelical movement.” Boberg published multiple poetry collections and hymns, though only a few were translated into English. The best known is “How Great Thou Art.”</p>\n  <p>Boberg’s inspiration came after visiting a country estate near the coastal town of Mönsterås, Sweden. He and his friends attended a church service on a bright, sunny afternoon. On the way home, they were caught in a violent midday storm—flashing lightning, roaring winds, and pounding rain. Boberg thought they might die. But just as suddenly as it came, the storm passed. The sun broke through, the sky turned brilliant blue, birds sang sweetly in the trees, and church bells rang in the distance. This profound experience caused Boberg to “fall to his knees in humble adoration of his mighty God.” A nine-stanza poem beginning with the Swedish words <em>O Store Gud, nar jag den varld beskader</em> captured his exaltation of how great God is. He later wrote:</p>\n  <p>“There were loud claps of thunder, and the lightning flashed across the sky. Strong winds swept over the meadows and billowing fields of grain. However, the storm was soon over, and the clear sky appeared with a beautiful rainbow . . . I opened my window toward the sea and heard the church bells . . . That same evening I wrote a poem which I titled <em>O Store Gud</em> (O Great God).”</p>\n  <p>His nine-stanza poem was published in 1886 but seemed forgotten until three years later, when someone paired it with a traditional Swedish melody. Boberg republished it in his newspaper in 1891 with the music. It grew popular among persecuted Baptist and Mission Friends congregations in Sweden and was eventually translated into German and Russian.</p>\n  <p>Boberg originally drew from Psalm 8, praising creation and God’s might. His poem later became the foundation for our hymn today.</p>\n  <h2>Stuart Hine and the English Hymn</h2>\n  <p>The next chapter of this hymn’s history brings us to Stuart K. Hine, born in London in 1899. Converted at age 14, he later became a missionary to Eastern Europe. In 1933, while in Ukraine, Hine first heard Boberg’s hymn sung in Russian. The Swedish original had been translated into German in 1907 and into Russian in 1912 by pastor Ivan Prokhanoff.</p>\n  <figure>\n    <img src=\"/images/articles/9998080a-f62f-4190-9980-da11bf8f8fde-1.jpg\" alt=\"A branching lightning bolt illuminates storm clouds above a dark wooded landscape.\">\n  </figure>\n  <p>Hine and his wife began singing the Russian version at evangelistic meetings. In June 1934, Hine embarked on a 300-mile missionary journey by bicycle into the Carpathian Mountains. There, he experienced a powerful storm reminiscent of Boberg’s experience nearly 50 years earlier. Deeply moved by the storm and by the hymn, Hine translated portions into English and later added two new verses of his own. Hine published the English version in 1949 in <em>Grace and Peace</em>, a publication read in at least 15 countries. British missionaries soon carried the hymn to Africa, Asia, and India.</p>\n  <h2>The Hymn Reaches the World</h2>\n  <p>Around 1950, evangelist Dr. Edwin Orr heard tribal believers in Assam, India, singing Hine’s new version of this hymn. He brought it back to the United States. In 1954, it reached the hands of George Beverly Shea, who sang it nearly 100 times during Billy Graham’s 1957 New York Crusade. By 1959, it became the theme for Graham’s weekly broadcast, and the hymn spread worldwide. It has been recorded over 1,800 times and is consistently ranked just behind “Amazing Grace” as one of the most beloved hymns ever written.</p>\n  <p>“How Great Thou Art” was a favorite hymn of at least three U. S. presidents, and it has been sung across nations, denominations, and cultures. From a Swedish sailor’s quiet poem to a worldwide anthem of praise, its journey is a witness to God’s greatness. “How Great Thou Art” is not just a hymn but a testament to the beauty of creation and the awe of God’s power, rooted in a profound personal experience that has touched millions worldwide!</p>\n  <p>May every storm, every sunrise, and every breath remind us to proclaim with David: “The LORD sitteth King for ever.”</p>\n  <p><em>Sources: Wikipedia, Hymnary.org</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cc5ccf3c628eecc6dc3648a7b755dd960848b0df0ab8e3f689436c3c88daccb6"
+}

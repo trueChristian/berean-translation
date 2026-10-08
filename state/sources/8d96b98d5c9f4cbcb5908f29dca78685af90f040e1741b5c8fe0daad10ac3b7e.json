@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Mrs. David (Linda) Peachy"
+        }
+      ],
+      "raw": "by Mrs. David (Linda) Peachy"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "55774668-36d0-483d-a9b0-93a06f1a531b",
+    "images": [
+      {
+        "alt": "A man and woman seated together outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/55774668-36d0-483d-a9b0-93a06f1a531b-1.jpg",
+        "repository_path": "public/images/articles/55774668-36d0-483d-a9b0-93a06f1a531b-1.jpg",
+        "rights_note": "Original PDF image object 83 on printed page 23. Rendered only the original image and its published elliptical clipping path at the original raster dimensions; separate frame strokes, surrounding panels and typography are omitted. Decoded grayscale samples normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion was needed. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Our Great Physician Jesus Christ",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3a4ce596cf0867cc90e888917bbd39a97b9d8a84b04eebae907e006dd8c55c40",
+    "metadata_sha256": "149c148ca70cf421679676f893bc660bf1a7cf1eaff633c4f18e02a6b84bdd35",
+    "structure_sha256": "6f91cfba6a0c3dfb561ba667702e4203061b91f968daaa847f8be654a545875d",
+    "text_sha256": "7c56216f7a6ec79e2cc789f7916ec7883999333a2e4583fce03fc817dae96f66",
+    "translation_metadata_sha256": "368b0415df33295df6c2e5b8bb918a46cbef434caae69c6c8ff06b1337c80ec0"
+  },
+  "html": "<article data-article-id=\"55774668-36d0-483d-a9b0-93a06f1a531b\">\n  <figure>\n    <img src=\"/images/articles/55774668-36d0-483d-a9b0-93a06f1a531b-1.jpg\" alt=\"A man and woman seated together outdoors\">\n  </figure>\n  <p>In 1996 I became very ill. We went to our family doctor and she said there seemed to be infection in my body. I was running a high fever and was growing weaker every day. She prescribed antibiotics and sent me to our local hospital for x-rays. The x-rays did not show what she was looking for, and I did not improve, but continued to grow weaker.</p>\n  <p>On a Thursday evening our two boys and their families were with us, and they saw that I was turning a yellowish color. They, with my husband decided to take me to Centre Community Hospital in State College. One of our sons took my husband and me to this hospital about 45 minutes away from our place.</p>\n  <p>When we arrived at the hospital, there were soon doctors and nurses on my case. I was placed on oxygen, IVs, and the heart monitor. My sugar and blood pressure were high. My lungs had excess fluid. For the next few days there were many tests done, which only confused the doctors. They finally called it a viral disease (hepatitis), but they didn’t know which kind. By this time there were six doctors on my case. Doctor Wolfe was the main one, whom we will always remember as very open and honest. During this time I was allowed only liquids.</p>\n  <p>On Saturday evening I told my husband to call our pastor and ask him to anoint me with oil as taught in James 5. At that time I was still in the Constant Care Unit. On Sunday morning I awoke and had such peace in my heart. Though weakened in body, my spirit took wings. I sang and praised God all morning.</p>\n  <p>On Sunday P.M. my desire was granted and I was anointed with oil in the name of Jesus. God became so real to me, and He gave me a blessed assurance that soon I would be a healed, healthy wife, mother and grandmother again. This peace sustained me through the weeks ahead. When I was released from the hospital, the medical doctor told us there is no modern medication for my sickness. He therefore released me to go home if my family would care for me. Doctor Wolfe also made it very clear that my condition was such that if my pancreas stopped working I would die. He gave very little hope of surviving this illness, which they now diagnosed as pancreatitis.</p>\n  <p>I went home from the hospital trusting God and the witness I had from Him in my heart. My family and friends visited and blest us with prayer and food, and much love, thanks to God.</p>\n  <p>With Jesus by my side and carrying me through the valley of the shadow of death, my soul rejoiced. I raised my weakened arms to Him in prayer. I could honestly say, “Thy will be done; whether I live or die, I am your child.” My husband faithfully cared for me day and night. As the days passed by, I felt my strength returning, and my feelings of sickness leaving. In three month’s time, God had restored my health to normal. Praise His holy Name. The Great Physician carried me through, not because I am worthy, but because He is worthy of all honor, glory and praise. He is indeed my all in all! He is coming soon.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5ca7a52f8d708111f146adf082cc67d5978a6451886ab3a066a8195485f311c6"
+}

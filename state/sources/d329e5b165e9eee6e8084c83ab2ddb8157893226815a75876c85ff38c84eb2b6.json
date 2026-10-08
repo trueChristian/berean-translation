@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "79753481-7330-4a01-ae62-eda1cfc9f32c",
+    "images": [
+      {
+        "alt": "A man sitting beside a tent in a wooded camp",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/79753481-7330-4a01-ae62-eda1cfc9f32c-1.png",
+        "repository_path": "public/images/articles/79753481-7330-4a01-ae62-eda1cfc9f32c-1.png",
+        "rights_note": "PDF image object 143. Original object 143 with its exact published rounded-rectangle clipping path reproduced as alpha. The surrounding decorative frame, gray panel and heading are omitted. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Tenting Time",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "3b367b8d-fd25-5fc1-a992-9c1d0bdac1ac"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c8f6b0341e3f2ade439dc42274525988ebd81059f68f5ced67762d206b15147a",
+    "metadata_sha256": "bba839faa3e6896a540015b284b1364ac295716bd8b165833effed7a29f352f8",
+    "structure_sha256": "cd499fa50faa7fcf81716985ea388f20ecdd864eabcd8c9626388e1d946e7faa",
+    "text_sha256": "822306c445478c6c11852c669f15404f13d10ec499bfcc90b0d69ea8eb29ce6c",
+    "translation_metadata_sha256": "d954b320c8b9ab21c2cf68fb625c4f93b936ede7f041a995a79364b5da7bba39"
+  },
+  "html": "<article data-article-id=\"79753481-7330-4a01-ae62-eda1cfc9f32c\">\n<figure>\n  <img src=\"/images/articles/79753481-7330-4a01-ae62-eda1cfc9f32c-1.png\" alt=\"A man sitting beside a tent in a wooded camp\">\n</figure>\n<p>How apt we are to forget that this is only a “tenting-time”, and that rest is not permanent here, but elsewhere, further on. We drive our stakes and fasten our tent-cords, and then settle down as though we were quite contented and did not wish to move any further.</p>\n<p>“Master, it is good for us to be here.” And if the Master sees it necessary to disturb us, and make us march on to something better, He sends a gust and overthrows our tent. Is not this a scriptural view of calamity as experienced by the Christian? Who, then, is wise? Is it he who by his persistency in pilgrimage needs no tribulations? But who shall say of himself, or of whom shall it be said by another, that he needs no affliction? That is true wisdom which while thankful for and encouraged by Christian sympathy in extremity, is most of all thankful to God for the proof which the visitation affords that He has not forgotten His servant in his folly, but has graciously stirred up his nest, and quickened his spiritual perception and moved his weary feet to pursue the journey to the Land of Rest.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9a7e475f51d7e18b99eb56a5171b9881d04f1989d8750615913459efb148c839"
+}

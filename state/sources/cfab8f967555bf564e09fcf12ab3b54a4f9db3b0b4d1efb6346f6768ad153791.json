@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "taken from the Martyr’s Mirror"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+    "images": [
+      {
+        "alt": "An engraving of two women wearing wreaths being led through a crowd.",
+        "caption": null,
+        "credit": null,
+        "height": 358,
+        "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg",
+        "repository_path": "public/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg",
+        "rights_note": "Clean embedded base object 108; full published image content and orientation preserved. Separately painted article text, rules, frame and background layout omitted. The lower-page detail (object 107) is an enlarged horizontally mirrored crop of the lower-left part of this engraving, with no unique image content; represented once by the complete scene from object 108. No individual image credit or licence is stated in the PDF. Normalized as a baseline RGB JPEG with embedded sRGB profile and nonzero 150 dpi density; original grayscale appearance preserved where applicable. Final file visually checked against PDF and source asset; complete warning-free loads through Pillow and ffmpeg, then natural-size Skia Canvas decode/paint/readback; encoded colour space confirmed sRGB. The general masthead states “Some images © 2001-2004 www.arttoday.com”; it does not identify which images this covers, so attribution of this individual image is uncertain and no licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": 108,
+        "source_page": 33,
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, paint at natural dimensions and raster readback passed.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow/libjpeg",
+            "FFmpeg native MJPEG"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset and compared it with its source page and raw source image; complete subjects, orientation and documented layout/overlay disposition verified.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        },
+        "width": 450
+      }
+    ],
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "Two Young Girls",
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "d98d2776-11d0-5852-be8d-67a88feaeb5e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1496837c802d6d7da0c6eeb58569aa6c30a66f80d18d3638bc9486d301e99aac",
+    "metadata_sha256": "4ff8ebda09484f1c87e702c322b08ecb3ff41365139405929e67e39380280446",
+    "structure_sha256": "c7326acc185592d6cd65cfb73a1383cf521ecb78e2c48159b87a4e8143b6f487",
+    "text_sha256": "152a03b41630e8f50d72b973b3c7e48687fa2df65423b09c10700ef1981a8ae6",
+    "translation_metadata_sha256": "7d6cf680e075d0b371380afa36b5b3f8759fedc19736c26a40a13357adba7bae"
+  },
+  "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p>About the year 1550, it happened in the bishopric of Bamberg, that two young girls espoused and received Christ by faith, were baptized upon their faith, according to the doctrine of Christ, and arising from sin, sought to walk in newness of life with Christ.</p>\n  <p>On this account the anti-Christians sought to hinder them in this good resolution, and to quench their good intention as much as lay in their power: They therefore cast these two young lambs into prison, where they tortured them with great severity, and sought also with other unchristian means to cause them to apostatize; but as they were firmly built upon Christ, they remained faithful and steadfast during the entire trial. (Col. 2:7; Rev. 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"An engraving of two women wearing wreaths being led through a crowd.\">\n  </figure>\n  <p>Hence, the authorities, who herein generally follow the advice of the false prophets, condemned them to death; at which they were joyful and undaunted. When they were led out to execution, their persecutors, by way of reproach and mockery, placed wreaths of straw upon their heads; whereupon one said to the other, “Since the Lord Christ wore a crown of thorns for us, why should not we wear these crowns of straw in honor of Him? The faithful God shall for this place a beautiful golden crown and glorious wreath upon our heads.” Thus these two young branches armed themselves with patience, according to the example of their Captain Jesus, remained faithful unto death, died steadfastly, and obtained, through grace, the glorious crown with God in heaven.</p>\n  <p>The girl’s adversaries remarked that they died quite undauntedly and steadfastly, and that they had the true foundation and ground of the Christian faith in their Redeemer Christ Jesus, whom they openly confessed, and called upon in their distress, wherein they steadfastly died with a firm hope.</p>\n  <p>The executioners were so impressed with the way that they died that afterwards they started to doubt as to whether they themselves were not in greater error before God, than these young girls, even though the girls were Anabaptists.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d799cd1fe65eab01f79ecb1b4a5d232fda160c62cba65d99e068650cf0113b0f"
+}

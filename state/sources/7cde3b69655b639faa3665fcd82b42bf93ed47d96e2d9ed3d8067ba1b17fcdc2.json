@@ -1,0 +1,47 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "b820707c-fd83-47f5-b3da-d1e0aac6db2e",
+    "images": [],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "A Self-Examination Test",
+    "topics": [
+      "0f3e0ca7-f12e-59d5-8c2c-cb3fead876a5",
+      "6cacc347-89dd-528b-89ff-fe7d5e7573f3",
+      "862c3071-6aee-5a28-ae7b-356175f29db1",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1899e0c3c4e1b837c51d91be227928a8490f09661f82e9f1c0db568bee14dda3",
+    "metadata_sha256": "04a37b14aad3a8e351ecba3734c908e91ba2d31e373ccfdd1204616c99d49540",
+    "structure_sha256": "ae84ae4db104ac7f3359329ff2fc4a1243d6a823ca23efa87655d2dc5fcd8c2d",
+    "text_sha256": "8265153b2aa8a345e7b8b3174c444e57dabf8de6d6d60f1d945189a1ee77bdd9",
+    "translation_metadata_sha256": "389f01445c72934b97b5bfa4eced71c01844caa637dbb5d44576c41fb8095f70"
+  },
+  "html": "<article data-article-id=\"b820707c-fd83-47f5-b3da-d1e0aac6db2e\">\n  <p><strong>These are the 22 questions the members of John Wesley’s Holy Club asked themselves each day in their private devotions over 200 years ago:</strong></p>\n  <p>Am I consciously or unconsciously creating the impression that I am better than I really am? In other words, am I a hypocrite?</p>\n  <p>Am I honest in all my acts and words, or do I exaggerate?</p>\n  <p>Do I confidentially pass on to another what was told to me in confidence?</p>\n  <p>Can I be trusted?</p>\n  <p>Am I a slave to dress, friends, work or habits?</p>\n  <p>Am I self-conscious, self-pitying, or self-justifying?</p>\n  <p>Did the Bible live in me today?</p>\n  <p>Do I give it time to speak to me every day?</p>\n  <p>Am I enjoying prayer?</p>\n  <p>When did I last speak to someone else of my faith?</p>\n  <p>Do I pray about the money I spend?</p>\n  <p>Do I get to bed on time and get up on time?</p>\n  <p>Do I disobey God in anything?</p>\n  <p>Do I insist upon doing something about which my conscience is uneasy?</p>\n  <p>Am I defeated in any part of my life?</p>\n  <p>Am I jealous, impure, critical, irritable, touchy or distrustful?</p>\n  <p>How do I spend my spare time?</p>\n  <p>Am I proud?</p>\n  <p>Do I thank God that I am not as other people, especially as the Pharisee who despised the publican?</p>\n  <p>Is there anyone whom I fear, dislike, disown, criticize, hold a resentment toward or disregard? If so, what am I doing about it?</p>\n  <p>Do I grumble or complain constantly?</p>\n  <p>Is Christ real to me?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "02e033083f4675eee6f0045ba546ef04957419bc25d3b2c5359af7c50b76d721"
+}

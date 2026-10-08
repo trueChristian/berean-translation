@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Katie Good"
+        }
+      ],
+      "raw": "–Katie Good"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "22aeddf9-1c5e-42b7-a70e-4521362293c4",
+    "images": [
+      {
+        "alt": "Frost crystals forming textured patterns on glass",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/22aeddf9-1c5e-42b7-a70e-4521362293c4-1.jpg",
+        "repository_path": "public/images/articles/22aeddf9-1c5e-42b7-a70e-4521362293c4-1.jpg",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 20; rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "ac238571-c56c-5d66-983d-7f37969bbf1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Broken into Beautiful",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "546c01515eb521f84b49f18e0b6df2bd87f1c5b37e48590098962d451f5aa952",
+    "metadata_sha256": "e38bfcaf3aeb73967554de838c035cc645abfb9f0b1a8f86731bdd78f41e8d4a",
+    "structure_sha256": "86c82cbcb09c8c8ef2f6cb584d213660d4462217f2fd340bbd087c597e712517",
+    "text_sha256": "bad0f4c4a2fd471741c50f83ebd453b8b69d9d4e33d86fad46c8f824acf3587b",
+    "translation_metadata_sha256": "e07a5f0ef32544222729d178f338b6846502ee581859fe1872f99a45f61525f6"
+  },
+  "html": "<article data-article-id=\"22aeddf9-1c5e-42b7-a70e-4521362293c4\">\n  <figure>\n    <img src=\"/images/articles/22aeddf9-1c5e-42b7-a70e-4521362293c4-1.jpg\" alt=\"Frost crystals forming textured patterns on glass\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Torn and battered, tattered shreds,<br>\n    Shards of a heart broken;<br>\n    Bleeding wounds, trials and tears,<br>\n    Pain of a word ill spoken.</p>\n\n    <p>She holds on tight to the broken bits-<br>\n    Shatters of dreams once hoped for.<br>\n    Tears wash her cheeks like rivers of rain;<br>\n    Shoulders sunk ‘neath the weight she’s bore.</p>\n\n    <p>She dares not lift her hanging head;<br>\n    The travelers passing by<br>\n    Understand not the cry of her heart,<br>\n    They hurry, unheeding her sigh.</p>\n\n    <p>The dusk deepens on, still they march<br>\n    Unheedingly on their way.<br>\n    “She’s a mess,” one says to the other.<br>\n    “I haven’t time. Another day.”</p>\n\n    <p>At last one pauses on the onward trek<br>\n    Stoops low to the fallen one.<br>\n    A few short words in a whisper low,<br>\n    “The victory can still be won.”</p>\n\n    <p>Then onward again the traveler moves.<br>\n    “Stop. Stop!” the fallen cries.<br>\n    “How can you say, when I’ve lost everything!<br>\n    I’ve fallen, here my fate clearly lies.”</p>\n\n    <p>“My life is in shatters. Try as I may<br>\n    I can’t piece back the pieces.<br>\n    Yes, for you, victory. For me? Defeat.<br>\n    You’re not lying here in these ditches.”</p>\n\n    <p>The traveler turns and speaks again,<br>\n    “My friend, you are quite mistaken.<br>\n    I, too, have lain in the bogging depths,<br>\n    By all on this road forsaken.”</p>\n\n    <p>“I cried in misery, torment, in rage;<br>\n    The hope within me was shattered.<br>\n    My heart throbbed in agony, injustices burned,<br>\n    My endurance worn beyond tattered.”</p>\n\n    <p>“No strength to go on, I lay in the mire.<br>\n    I was broken, myself my foe,<br>\n    When onward by a workman passed<br>\n    In his hands a stained-glass window.”</p>\n\n    <p>“The sun shone down on that dirt highway,<br>\n    The glass that light reflected.<br>\n    The colors shone in the light, distinct;<br>\n    The shards someone had perfected.”</p>\n\n    <p>“I saw those shards and I pondered deep<br>\n    The beauty in that glass reflected.<br>\n    Yet each one of those pieces was once a whole,<br>\n    Shattered to be perfected.”</p>\n\n    <p>“My friend, the shatters of your own life<br>\n    Do not shine at now as a rainbow.<br>\n    But if you’ll place them all in the Master’s hands<br>\n    He’ll create that stained glass window.”</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7da67a8aa1c0004858663ad3d2d683f4a3251dd515c76806eb800cfee0577e89"
+}

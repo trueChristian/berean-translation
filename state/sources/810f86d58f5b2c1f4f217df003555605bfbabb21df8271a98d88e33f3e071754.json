@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "--Bro. Denny"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9514e8ea-e431-5806-a5f3-0953a922c074"
+    },
+    "id": "0bf1b51d-876c-4dea-b470-2be1ea1bfbe3",
+    "images": [],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "Home Histories",
+    "topics": [
+      "76b8f216-8c11-5378-90f6-37fe3f41d329"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f8d67360d7628c1ae84d9cec71b6aef8d4ff8cd050eba432e5c22bbe1205bf3b",
+    "metadata_sha256": "98b525c7c77f87f63f0f2aafce75b7ad1c6d78982dbe1d3e5c853af48a79b3d4",
+    "structure_sha256": "aa59699b3c30c22609953d6845c5a4c6090d8be979ba4ceaea66ef0df62c1922",
+    "text_sha256": "c801647afb5a2cca83961a5a00814d5ebbcd44be7f4f8666cced463822dc7a31",
+    "translation_metadata_sha256": "3cedb433c9e94033bc06acceea6a6671604467644abadbf975b90f4545bc529b"
+  },
+  "html": "<article data-article-id=\"0bf1b51d-876c-4dea-b470-2be1ea1bfbe3\">\n  <p>Dear faithful readers of Home Histories,</p>\n  <p>There is no article on the history of godly homes in this issue of the Remnant. I am sorry about this. I have been writing a book on the home, eight hours a day for the last two months. Many have requested that I tackle this project for years. I am now getting around to it. The Home History is missing because I needed to keep my “home focus” on the book. I hope to publish it by the end of summer. I will keep you posted on its availability.</p>\n  <p>Also, I continually have a real challenge finding good, solid material on godly homes of the past. If anyone has a suggestion for future articles, please send me a letter with information.</p>\n  <p><em>--Bro. Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "bf35cfc0ddde9e8f80cf55a4f32488d708caec60e0309ec5bc96a3e93d206098"
+}

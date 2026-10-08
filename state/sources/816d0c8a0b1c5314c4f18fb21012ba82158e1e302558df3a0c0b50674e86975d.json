@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Chuquisaca, Bolivia, South America",
+          "name": "Mike Atnip"
+        }
+      ],
+      "raw": "by Mike Atnip\nChuquisaca, Bolivia, South America"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cdda21ec-4744-433f-82b6-13227912749b",
+    "images": [
+      {
+        "alt": "A robed figure overlooking a landscape",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cdda21ec-4744-433f-82b6-13227912749b-1.jpg",
+        "repository_path": "public/images/articles/cdda21ec-4744-433f-82b6-13227912749b-1.jpg",
+        "rights_note": "Original PDF image object 43 on printed page 12. Retained the original source raster, orientation and framing; no rotation or flip. Decoded grayscale samples normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion was needed. Separate poem text, gray title panel and page border are omitted. The only source raster already has a pale/faded appearance; it has no soft mask, transparency group, alternate clean base or recoverable exact blend evidence. This irreversible source fade is retained as an explicit source-appearance exception; no contrast reconstruction or synthesized pixels were used. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 12
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 12,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "Catch the Vision",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "83dea51695f6a662f77d0f44ef16e7fe5cedcb7f8f16b87170e533143551b1bb",
+    "metadata_sha256": "d624c24b16233a5fd205722ddac95f3b702b9bd1433793d32473f54913a209aa",
+    "structure_sha256": "24c0ef37f5547e1e572e21531e8c2a14b3ac3528fb6a89ab6940bf665e5bb645",
+    "text_sha256": "57fb738290794613d3164bf51c194559b3e6c33edded278fee51f3351dda7262",
+    "translation_metadata_sha256": "e58daf224af83e51b9608660e4a0d0c7f5f5e222bfca65e220d42d6d12acef97"
+  },
+  "html": "<article data-article-id=\"cdda21ec-4744-433f-82b6-13227912749b\">\n  <figure>\n    <img src=\"/images/articles/cdda21ec-4744-433f-82b6-13227912749b-1.jpg\" alt=\"A robed figure overlooking a landscape\">\n  </figure>\n  <p class=\"poem\">Catch the vision of a banner<br>Lifted high and raising hope<br>To blood-spattered, weary soldiers<br>Who have felt the bruising stroke.</p>\n  <p class=\"poem\">Catch the vision of a healing<br>For the heart contrite with sin,<br>Bringing beauty for the ashes—<br>Bringing peace amidst the din.</p>\n  <p class=\"poem\">Catch the vision of a captive<br>Bursting forth from prison door<br>To announce the great deliv’rance<br>To the hurting, to the poor.</p>\n  <p class=\"poem\">Catch the vision of the blinded,<br>Praises from his lips streaming.<br>He has seen God’s mighty kingdom—<br>He’s like a man a-dreaming.</p>\n  <p class=\"poem\">Catch the vision of Jerus’lem,<br>Glorious city on a hill,<br>A lamp burning with great brightness,<br>Motivated by His will.</p>\n  <p class=\"poem\">Catch the vision of the holy,<br>No desire but to please Him:<br>Left behind the temporary,<br>All earth’s notions, ev’ry whim.</p>\n  <p class=\"poem\">Catch the vision of a pilgrim,<br>Blazing trails, eyes on the goal.<br>He is mocked; he is so battered.<br>But he has grace, bless his soul!</p>\n  <p class=\"poem\">Catch the vision of a meeting,<br>Of a King, and of a bride.<br>Expectations surge within her—<br>For eternity! By His side!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "90a2e741317bb7eff0888aa73442f1013da9d7983a347cbca6dd901b3a66dabe"
+}

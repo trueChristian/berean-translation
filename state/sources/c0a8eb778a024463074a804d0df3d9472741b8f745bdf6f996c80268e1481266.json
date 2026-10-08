@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dave Esh",
+          "role": null
+        }
+      ],
+      "raw": "by Dave Esh"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "0e25c6e4-cd6e-4765-87af-94be982809d0",
+    "images": [
+      {
+        "alt": "A seated man with a young boy beside him.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0e25c6e4-cd6e-4765-87af-94be982809d0-1.png",
+        "repository_path": "public/images/articles/0e25c6e4-cd6e-4765-87af-94be982809d0-1.png",
+        "rights_note": "PDF base image object 48; source 209×288 pixels. Published PDF clipping path applied as a lossless alpha mask at native pixel dimensions; no rotation or flip. Separately painted border/frame omitted. Lossless PNG export. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 9
+      }
+    ],
+    "issue_id": "472c9f50-2e8f-460e-8a99-0b7e48a24ab8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "A Chip Off the Old Block",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3af6ba68b20dfec686d34ea8709df85bc4675087e36985569eff32363a3d7907",
+    "metadata_sha256": "9fc304649ed666645a1289cb77fb31c14ca577ed2d40527f8abd692e8e6f9b61",
+    "structure_sha256": "11ddaab8f6838ca49f684fb1dbb6bc9dbce04ce312d864450af45e7810499eb3",
+    "text_sha256": "54b853cd946a9e6ba2fd000d940c29832229c4783325d12a164deffb2906fbc4",
+    "translation_metadata_sha256": "e37d9a666b98d8f1b0dc8516672e95f2588595feddda3f3c35cb6c009dc83734"
+  },
+  "html": "<article data-article-id=\"0e25c6e4-cd6e-4765-87af-94be982809d0\">\n  <p class=\"poem\">There is a little shadow that follows after me,<br>\n    And he imitates my actions, often to a tee.<br>\n    It can be quite amusing or embarrassing at times;<br>\n    I see my many weaknesses as he recites my lines.<br>\n    He’s constantly mimicking the way that I talk<br>\n    And even tries to duplicate the stride in my walk.</p>\n  <figure>\n    <img src=\"/images/articles/0e25c6e4-cd6e-4765-87af-94be982809d0-1.png\" alt=\"A seated man with a young boy beside him.\">\n  </figure>\n  <p class=\"poem\">When friends see this shadow, they, likely as not,<br>\n    Will laughingly call him “a chip off the old block”.<br>\n    “A chip off the old block”, an extension of self–<br>\n    It’s more than training or teaching or giving of wealth.<br>\n    But I’m cloning and building a likeness of me,<br>\n    For as the seed that is planted, so grows the tree.</p>\n  <p class=\"poem\">And the fruit thereof, whether it be good or bad,<br>\n    Depends much on the actions of my little boy’s Dad.<br>\n    For our lives are as books, with each day as a page,<br>\n    And so often our children can be used as a gauge.<br>\n    Are they bright?, happy?, do they live without fear?<br>\n    We can see much the same things looking into a mirror.</p>\n  <p class=\"poem\">So, behold your children, look deep into their eyes;<br>\n    What they are, or become, should be no surprise.<br>\n    Then rejoice, or repent, whatever you need to do,<br>\n    Because you will be looking at an extension of you.<br>\n    “A chip off the old block”, “made from the same mold”–<br>\n    Our legacy will continue, as the future unfolds.</p>\n  <p class=\"poem\">So, are we like our Father, if our Father is God?<br>\n    Do we walk as he walked when on this earth He trod?<br>\n    Are we loving and faithful, gentle and kind?<br>\n    Giving food to the hungry and sight to the blind?<br>\n    If we are Godly examples and build on the Rock,<br>\n    We’ll be honored to hear “he’s a chip off the old block”.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "54bb27e55947b4196ca053a820778808b86c3f16f2d141cd20be6ed0bdf64d69"
+}

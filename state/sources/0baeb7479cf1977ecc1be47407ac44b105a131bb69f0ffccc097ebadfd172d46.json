@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "c9085861-93f5-4d48-9354-71c14df318cf",
+    "images": [
+      {
+        "alt": "An illustrated mailbox with flowers around its post.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c9085861-93f5-4d48-9354-71c14df318cf-1.png",
+        "repository_path": "public/images/articles/c9085861-93f5-4d48-9354-71c14df318cf-1.png",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Original 98×157 grayscale PNG. Tiny publication name/address on the mailbox and gray background are intrinsic to the sole raster and retained. Separate large heading and rounded introductory panel omitted.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": "Original 98×157 grayscale PNG. Tiny publication name/address on the mailbox and gray background are intrinsic to the sole raster and retained. Separate large heading and rounded introductory panel omitted.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "L",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 110,
+          "pixel_dimensions": [
+            98,
+            157
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "2979b2c77d3207d7815dda65a5bf9668643e8717939214c85397619c1659f889",
+    "metadata_sha256": "faa6717205f2f0ac96143dec548ab4f67ce31bcd1dc5fe4dce9b31879721d730",
+    "structure_sha256": "711a9e91e8590b6bbe1d874b6891163ec057b8f911a9646fe67673010ce23267",
+    "text_sha256": "dab07f5c09f9e8d99a75da747c813cd6e5af394bf365a1d8124a03b056778d3b",
+    "translation_metadata_sha256": "e9fadc4f6965a6f0f4ba81a97d661de4b46604ab7cc78e603c51eeefddf8b5ca"
+  },
+  "html": "<article data-article-id=\"c9085861-93f5-4d48-9354-71c14df318cf\">\n  <figure><img src=\"/images/articles/c9085861-93f5-4d48-9354-71c14df318cf-1.png\" alt=\"An illustrated mailbox with flowers around its post.\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <section>\n    <p>Dear <em>Remnant</em>,</p>\n    <p>Greetings in Jesus’ most precious name. Thank you so much for your ministry to others. We have been using your tapes to pass out to people, hoping that the Lord will work in their lives. Thank you for the articles on the home and on a deeper walk with God. Our family tries to live a Spirit-filled life in the midst of a confusing religious community. Please pray for the people in our area, that the Lord will show them that all they need is Jesus.</p>\n    <p><em>Tennessee</em></p>\n  </section>\n  <section>\n    <p>Dear <em>Remnant</em>,</p>\n    <p>Thank you so much for the “Godly Home” series. I have two small children, and I am also a first-generation Christian. I desperately want to do the right things for God, but I simply do not know how. Thank you also for the <em>Remnant</em> magazine. It is so inspiring and wonderful. It is a true blessing that brings me to tears as I read it.</p>\n    <p><em>Queens, New York</em></p>\n  </section>\n  <section>\n    <p>Dear <em>Remnant</em>,</p>\n    <p>Greetings in Jesus’ most worthy name, a name above all others. Glory be to the Creator God, our Father, and the Almighty Three in One.</p>\n    <p>I would like to thank you for letting the love of Christ shine through you in this dark world. Through the tapes and the <em>Remnant</em> magazine, I have been so blessed and encouraged through all of you. I was especially blessed by the articles about the church in China. It was a blessing to hear how real God is to them.</p>\n    <p>As I read, I could feel the strong spiritual bond with them that only comes between “real” Christians. Meeting in secret places with one or two other believers is very real in my life. Even writing to my Christian friends (without getting caught) can be a challenge.</p>\n    <p>In times when I feel like I am standing alone, I am encouraged to read how He cares for His own. I am looking forward to the day when I can have full fellowship with the Remnant of God’s people who are really on fire for Him.</p>\n    <p><em>Missouri</em></p>\n  </section>\n  <section>\n    <p>Dear Bro Denny,</p>\n    <p>First of all, I want to thank God for sending your ministry my way. The daily messages and written articles are a blessing to my whole family. The music we have received is so peaceful to our hearts. I can’t wait to meet all of you there. I love to read the letters in the <em>Remnant</em>, and I will continue to send you money each month to help.</p>\n    <p>Please pray for my whole family. We have ten children, thirty grandchildren, and seventeen great-grandchildren. I have truly been blessed.</p>\n    <p><em>Montana</em></p>\n  </section>\n  <section>\n    <p>Dear <em>Remnant</em>,</p>\n    <p>Greetings in the precious name of Jesus. We really enjoy the <em>Remnant</em> magazine, and want to encourage you to keep producing this family encourager. We enjoy the articles very much, especially the Home Histories. We are challenged by these men and women of the past, who raised their families in honesty and the fear of God.</p>\n    <p><em>Ontario, Canada</em></p>\n  </section>\n  <section>\n    <p>Dear Editor,</p>\n    <p>Please send me a year subscription to the <em>Remnant</em>. Your magazine has been a spiritual uplift for me. I home school my children, and I plan to use some of the articles this coming school year.</p>\n    <p>We are the only plain people in our area. We have been shunned for dressing modestly. We have been laughed at, picked at, and mocked by friends and family. But we still plan to do what is right in the eyes of God. We home church at this time. My husband has grown into a strong Christian. It delights my heart to see the changes in my little family. There are five of us. I hope this offering is enough to help you keep up the ministry.</p>\n    <p><em>Kentucky</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d342b6bee2544011da51e8c5a5a8312ed9fa6fe5d59286574adec7897ad29fb2"
+}

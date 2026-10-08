@@ -1,0 +1,184 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip"
+        }
+      ],
+      "raw": "by Mike Atnip"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "f529cb8e-693b-46b1-a56a-c25d793ef9b6",
+    "images": [
+      {
+        "alt": "A goat standing among steep rocky cliffs",
+        "caption": "THE SCAPEGOAT.",
+        "credit": null,
+        "public_path": "/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-1.jpg",
+        "repository_path": "public/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-1.jpg",
+        "rights_note": "Original embedded image object 32 on printed page 8. No separate image credit or image-specific permission requirement is printed. The intrinsic engraving caption THE SCAPEGOAT. is retained in the source raster and faithfully transcribed in figcaption. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "opening engraving",
+        "sequence": 1,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            543,
+            750
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            543,
+            750
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            543,
+            750
+          ],
+          "source_object": 32
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A robed man places his hands on a goat while other people stand nearby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-2.jpg",
+        "repository_path": "public/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-2.jpg",
+        "rights_note": "Original embedded image object 36 on printed page 9. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 9,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            410,
+            238
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            410,
+            238
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            411,
+            239
+          ],
+          "source_object": 36
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A shaggy goat stands in a barren landscape near water and distant mountains",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-3.jpg",
+        "repository_path": "public/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-3.jpg",
+        "rights_note": "Original embedded image object 40 on printed page 10. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            601,
+            391
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            599,
+            389
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            603,
+            392
+          ],
+          "source_object": 40
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 12,
+      "start": 8
+    },
+    "subtitle": "Our Scapegoat",
+    "title": "JESUS",
+    "topics": [
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537",
+      "070854c3-dde7-5efd-a27d-30979196df0e",
+      "cfe7e1b2-e5b0-580a-99e2-182f58f55d41"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b5f3a5c3d44d381d9f60a902a697d3fec3bef6a64ce68a78c014c13696dea439",
+    "metadata_sha256": "3c25fe422ebc9a5189924e666336edf3eda3dea21a645028e8f62536bbf5e221",
+    "structure_sha256": "dbfa886b89b438edbf329c2da1aa4d453b30b78d542b884282e4759fbf74c05b",
+    "text_sha256": "6b7eb18521a95560ec9b667e4bc58b5f5f9d8ae51de78209f68e24865f04cfc9",
+    "translation_metadata_sha256": "2d8d957f10b15a1f25989121e2803d903af63af917c5c9e671a6df2b036eecc3"
+  },
+  "html": "<article data-article-id=\"f529cb8e-693b-46b1-a56a-c25d793ef9b6\">\n  <figure>\n    <img src=\"/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-1.jpg\" alt=\"A goat standing among steep rocky cliffs\">\n    <figcaption>THE SCAPEGOAT.</figcaption>\n  </figure>\n  <blockquote>\n    <p>Behold the Lamb of God,<br>which taketh away the sin of the world<br>John 1:29</p>\n  </blockquote>\n  <p>Are you like me? I mean, does the book of Leviticus at times seem a bit of an unnecessary appendix to the revelation of God to man?</p>\n  <p>If so, join me for a few minutes in an exciting journey into the realms of types, figures and shadows. Once the shadow is seen for what (or who!) it really is, Leviticus will be changed into a gold mine for you! In addition, your life may just change forever as well!</p>\n  <p>Shadows are slippery objects. It is hard to get a grip on one, and unless the body that makes the shadow is understood, all kinds of weird imaginations can arise. Having the New Testament before us is of immeasurable help, since Jesus and the apostles have given us a jump-start in unwinding the mysteries of the Levitical law.</p>\n  <p>But imagine it! Think how it must have been for an Old Testament Jew, sitting in a synagogue, listening to the droning voice of a Rabbi go through the seemingly endless and unnecessary details of the various sacrifices. I am sure that the vast majority of the Old Testament saints missed the point entirely, and focused upon the physical and temporary applications. I myself would likely have done just the same. Probably only the few who were walking close to God had their spiritual eyes and ears open, awaiting the fulfillment of these majestic prophecies.</p>\n  <p>Shall we look into the heavenly realms and see what God “spoke before” unto his people? You will likely go away with a deeper love for Jesus, our scapegoat!</p>\n  <h2>Defining the Scapegoat</h2>\n  <p>For the sake of space, I will not include the text of the scriptures of this article, but it is extremely important to read the sixteenth chapter of Leviticus, or be thoroughly acquainted with it. This chapter is a “foreshadow of things to come”, and lays some foundational theology for the New Covenant salvation. Unfortunately, theologians down through the centuries have added a lot of baggage to the theme of salvation, and in doing so, have diverted the attention from the essence of New Covenant redemption. For this reason, we are going to study some root definitions of some commonly used words. We will begin with:</p>\n  <h3>“Sin Offering”</h3>\n  <p>The Hebrew root has the idea of plain old sin. The “offering” part really is not in the original language, but is an added word to complete the surmised intention. (This is probably very correct.) The root word is based on the idea of “to miss”, in the sense of to err from the intended goal. This could be illustrated in the flight of an arrow, which is intended for a bulls-eye, but “misses” the target completely. We would not normally say so, but this could be called a “sin” instead of a miss. In our modern English, we might say a “mess-up”. The point to keep in mind is that this word usually has reference to an act or action, not to a condition. Hence, “sin-offering” would have to do with deeds that have been committed that have “missed” the goal of obedience to God.</p>\n  <h3>“Atonement”</h3>\n  <p>With this word we need to unload a bit of theological baggage perhaps. This word does NOT mean forgiveness, although the idea of forgiveness is often included in atonement. The root word means “to cover over”, and is used to describe how Noah covered the ark with pitch. By an extension, it has the idea of appeasement. Perhaps this could be illustrated by an angry person confronting his enemy with a list of injustices that he feels he has received. The offending party then makes good for each count of the charges, and they are marked out one by one. When the two part ways, the charges have been “covered over”, and the offended party feels appeased.</p>\n  <p>The fact that this word is not the same as “forgiveness” is clearly illustrated in verses like Leviticus 4:20b, <em>“and the priest shall make an atonement for them, and it shall be forgiven them.”</em> Here we see the priest making the atonement, but someone else (God) doing the forgiving. The priest is doing something to appease the offended, and God accepts it and forgives. Sometimes the word “reconcile” is used to translate this word. To reconcile means to bring two offended parties to peace. Both reconcile and appease often refer to the actions done by a third party in a dispute.</p>\n  <figure>\n    <img src=\"/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-2.jpg\" alt=\"A robed man places his hands on a goat while other people stand nearby\">\n  </figure>\n  <p>Other Old Testament verses seem to have the idea of “purging” when they use this word. This does not contradict the idea of appeasement or reconciliation, but focuses more on what needs to happen for these to take place in a person: the offense needs purged, or taken away.</p>\n  <h3>“Scapegoat”</h3>\n  <p>The Hebrew word for “scapegoat” has always been a challenge to translators. In fact, there is not a clear agreement as to exactly where the Hebrew word is rooted. In such cases, the context is of utmost importance.</p>\n  <p>To define this word, once again we must unload several centuries of sophisticated theology, and look at the simple meaning of the word. The literal translation would be something along the line of “the going-away goat” or the “disappearing goat” or the “entire-removal goat”. As you can see, our English language has no good word for these ideas. The word that the KJV translators used, “scapegoat”, derived from the idea of a goat that is habitually getting out of his fence or pen, and heading away from home. Since he is always “escaping”, such a goat was called a “scapegoat”.</p>\n  <p>In the original days of the KJV translation, this would be as close a translation as “going-away goat” or “disappearing goat”. However, in the centuries that have followed, the word scapegoat has come to mean “a person who takes the blame for somebody else”. This is a misleading idea for the Hebrew thought! I will explain further on as to why.</p>\n  <figure>\n    <img src=\"/images/articles/f529cb8e-693b-46b1-a56a-c25d793ef9b6-3.jpg\" alt=\"A shaggy goat stands in a barren landscape near water and distant mountains\">\n  </figure>\n  <h2>The Story of the Scapegoat</h2>\n  <p>Let us look at Leviticus chapter sixteen again. First of all, in verse one, we see a mention made of the death of the two sons of Aaron. This is a somber forewarning to all who think to appease the wrath of God against sinners by any other means than that which the following verses spell out. Shall we learn from them?</p>\n  <p>Next, we see mention made of Aaron, who is to do the atoning work. The New Testament clearly indicates that Jesus Christ is the fulfillment of this “high priest”. So from here on in the chapter, we can insert the name Jesus in place of Aaron. In verse eight, we find the first mention of the “scapegoat”. Two goats were to be taken to the door of the tabernacle, and by lot one was to be chosen to be the goat for the LORD, and the other was to be the “disappearing goat”. The first goat had to die. His life was to be an offering for the “mess-ups” or “missed marks” of the people. Since without the shedding of blood there can be no remission for sins, God demanded the blood of a goat. According to verse 16, his blood was to appease for the “transgressions” (literally this word refers to “rebellions”) against God</p>\n  <p>This first goat is clearly a shadow of Jesus dying on the cross, and giving his pure, sinless life as a ransom to pay for our “missed marks”. In the modern day sense of the word, this goat was the “scapegoat”. He took the penalty that others deserved, and paid the debt that others owed. But, as mentioned already, the meaning of “scapegoat” is NOT “taking the blame”. Let us look now at the “azazel”, the goat of “entire removal”.</p>\n  <p>This second goat had to be <em>“presented alive before the LORD”.</em> The reason for this is that he had a job to do that required life. The job of the first goat required a death, but now there was more to be done. The wrath of God against the “mess-ups” (by using this term, I do not want to negate the terribleness of sin. I use this term to focus on the fact of “ungodly deeds already committed) was now appeased. But what about the very cause of these actions? Here is where another goat was called for.</p>\n  <p>In verse 10, we see the phrase <em>“to let him go for a scapegoat into the wilderness”</em>. The next mention of this goat is in verse 20. Again, we see the need for a live goat. In verse 21, Aaron was to lay his hands upon the goat, and confess all the “iniquities” of the people. This word does not refer to deeds already committed, but rather to the “crookedness” or “perverseness” from which the “mess-ups” sprang. Now, we are dealing with conditions, not actions.</p>\n  <p>Continuing on in the same verse, we see that <em>“all their transgressions in all their sins”</em> was to be placed upon this live goat. The root idea of the word “transgressions” is that of “rebellion”, or a “breaking away from authority”. This, of course, is the root cause of “sins”, which are deeds carried out.</p>\n  <p>Next, we see these “crookednesses” and “revolts from authority” “put” on the head of the live goat. He is then “sent away” to a <em>“land not inhabited”.</em> The words “not inhabited” refer to a separated place, where the goat will likely never come back from. So ends the story of the “scapegoat”.</p>\n  <h2>The Taking Away of Sin</h2>\n  <p>One day while John the Baptist was in the midst of his ministry, he saw Jesus of Nazareth approaching him. He seems to have been overtaken with a spirit of prophecy, and suddenly exclaimed, <em>“Behold the Lamb of God, which taketh away the sin of the world.”</em> (John 1:29) Have you ever wondered why he did not say, “which forgives the sins of the world”? There is a reason why he said, “taketh away”! He was referring to Jesus, as our scapegoat that carried away all our “sin” (note, NOT plural, sins! Also note that “taketh away” is NOT the same Greek word used for forgiveness.)</p>\n  <p>Can you see him? Can you picture Jesus, resurrecting from the dead after becoming the sin-offering goat that gave his life as an appeasement for sins committed? He still had a work to do! The committed sins were now atoned for. But what of the very nature of sin, its very roots? And so, to “take away sin”, he presented himself alive before his Father, to finish the salvation of helpless mankind.</p>\n  <p>Perhaps some may ask, “But why did God use two goats in the shadow, when Jesus was only one person, and he fulfilled both? The answer seems to be that God wanted to foreshadow both the death AND the resurrection of Jesus. Besides, goats do not normally resurrect! Once the first goat died, he could not perform the work of the “scapegoat”.</p>\n  <p>But Jesus did resurrect. He died to pay the debt that we owed, and rose again to “take away” the “crookedness” and “rebellion” of our human nature. What good would a mere forgiveness of past sins do, if we, as a result of our perverse nature, continued to sin every day? Likewise, what would we do if we could stop sinning, but still had an unpayable debt upon us? God, in his mercy to us, has provided a full salvation: pardon and purging!</p>\n  <p>John tells us in his first epistle, chapter 3 and verse 5: <em>“And ye know that he was manifested to take away our sins”.</em> In this verse, the plural “sins” is used. However, the term “take away” is used instead of “pardon”. The words “take away” reminds us again of the “scapegoat”, whose name could well be “take-away goat”. All the iniquity of the people was placed upon him, and he carried it away, so it would no more bother them. This was the reason Jesus was “manifested”, or brought into the world!</p>\n  <p>Of course, the shadows could not do what the reality was able. For this, we read in Hebrews 10:4 that <em>“it is not possible for the blood of bulls and goats to take away sins”.</em> Continuing on, we read how that <em>“a body”</em> was prophesied to come. The word “body”, in this verse and in verse 10 of the same chapter, refers to “that which causes a shadow”. Jesus caused the shadow of the goats in Leviticus 16, and thus we read in verse 10 of Hebrews 10, that <em>“we are sanctified through the offering of the body</em> (that which caused the shadow) <em>of Christ”.</em> In other words, Jesus Christ was the fulfillment of the prophecies of the two goats mentioned in Leviticus 16, and by means of him, our life can be sanctified, or, made without sin! When the spotlight of the Gospel shines upon Jesus in reference to his death on the cross, he makes a shadow of the sin-offering goat in Leviticus 16, who dies to pay the penalty of committed sins. When the light moves a bit, and we look at Jesus in view of his resurrection, he makes the shadow of the “scapegoat”, the one who “takes away” sin.</p>\n  <p>In the realm of modern Christianity, we need to be aware of two modes of thinking that miss the intention of the lesson of the scapegoat. The first erroneous doctrine says that the sin-offering goat and the scapegoat accomplished the same thing- that is, they foreshadowed the forgiveness of sins. If this were the case, New Covenant salvation would differ little from Old Covenant salvation. This way of thinking definitely gets a boost from the modern, evolutionized definition of “scapegoat”, which has changed from what the original intention was. A true, biblical “scapegoat” is not someone who takes the blame, but rather someone who “carries sin away” to a “separated place”.</p>\n  <p>The other common erroneous mode of thinking concerning the scapegoat is this: the two goats represent two distinct operations of salvation, which occur at different times, often separated by years, in the life of a believer. Looking at Leviticus 16 again, we find that the word “atonement”, which means “reconciliation”, is connected with both the sin-offering goat and the scapegoat. (See verses 10 and 16) Without both aspects, mankind has not received New Covenant atonement. To be forgiven, yet not converted (changed) at heart is like a pig that has been washed from wallowing in the mire: you have a clean pig, who is still a pig, and will return to the mud-hole at first opportunity. To be changed at heart, yet not forgiven, is like a pig that has been born again, and no more desires the mud-hole, yet is still covered with stinky mud. To be reconciled to God, there must needs be an inner cleansing and an outer. Such New Testament verses like <em>“holiness, without which no man shall see the Lord”</em> (He. 12:14) and <em>“God hath… chosen you to salvation through sanctification of the Spirit…”</em> (2 Th. 2:13) reveal the necessity of a holy heart to be able to be reconciled (atoned) to God.</p>\n  <p>The good news is that <em>“whosever will”</em> may be partaker of this <em>“so great a salvation”.</em> Jesus has become our sin-offering goat and our scapegoat. He <em>“was delivered for our offenses</em> (made our sin-offering goat) <em>and was raised again for our justification.</em> (made our scapegoat)<em>”</em> (Ro. 4:25)</p>\n  <p>I can hear it already… “Wait a minute! Now you are saying that the scapegoat is a type of justification, not sanctification!”</p>\n  <p>Actually, in a sense, I am saying both! I intend to explore the different aspects of the word “justification” in another chapter. However, for now, let it suffice to say that the word justification is sometimes used in the sense of “being made just right”. You have probably heard that the meaning of “justification” is “just as if I had never sinned”. This is correct…sometimes. But, sometimes it is used in the sense of something being made “just like it is supposed to be”, or, “made just like the original”. Only the context of each use can help us to discern which sense was intended. In the case of Romans 4:25, where Paul speaks of the atoning virtues of the death and resurrection of Jesus, it seems to me that he is referring to the meaning of “conform exactly”, or, as the Latin root word [<em>justus,</em> “just, proper, exact or upright”<em>,</em> and <em>facio,</em> “to make or do”] indicates “make upright”; make just right!</p>\n  <p>John explains the atoning work of Jesus in similar terms. In his first general epistle, chapter 1 and verse 9, we read: <em>“If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.”</em> Again, we see Jesus as our sin-offering goat, appeasing God, as touching our committed sins, by the offering of his spotless life. However, he does not stop there. John continues on to say that Jesus also became our scapegoat, who would purify us from all “unrighteousness”. A quick look at the Greek word used for “unrighteousness” will reveal that it is a negative form of “justice”. One could coin the words “ajusticeness” or “injusticeness”. These are not really words in English, but they help us to see that Jesus came to this world to “justify” our “injusticeness”; to “take away” the sinfulness of our crooked and perverse hearts, making them just or upright once again! This is the fullest meaning of the word “justification”; “to make just”.</p>\n  <p>Have you fled for refuge to Jesus? Has he become your personal sin-offering goat? Has he become your scapegoat? If not, he invites you to surrender your life to his authority. He can then forgive AND take away your sins.</p>\n  <p>What a savior!! Don’t you love him more now?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e8bf1e7b6d4a3662c6f66189761e431d0631d83e898afaf9d674262b9187cf65"
+}

@@ -1,0 +1,170 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1816–1900",
+          "location": null,
+          "name": "J. C. Ryle"
+        }
+      ],
+      "raw": "by J. C. Ryle (1816–1900)"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "afe5122b-824d-4658-af86-1ececd3d3ade",
+    "images": [
+      {
+        "alt": "Chrysalis hanging from a branch",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 28,
+        "public_path": "/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-1.jpg",
+        "repository_path": "public/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-1.jpg",
+        "rights_note": "Original embedded PDF image object 28; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            360,
+            480
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 28,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            360,
+            480
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Butterfly with its wings spread",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 29,
+        "public_path": "/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-2.jpg",
+        "repository_path": "public/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-2.jpg",
+        "rights_note": "Original embedded PDF image object 29; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. Rotated clockwise 25 degrees to match the PDF placement matrix; white canvas expands to retain every source pixel. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "opening illustration",
+        "sequence": 2,
+        "source_page": 7,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            430,
+            371
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 29,
+          "rotation_clockwise_degrees": 25,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            360,
+            241
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Illustration of a butterfly, chrysalises, and a caterpillar among branches and leaves",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 36,
+        "public_path": "/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-3.jpg",
+        "repository_path": "public/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-3.jpg",
+        "rights_note": "Original embedded PDF image object 36; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. Unobstructed inner illustration cropped to remove the baked thin rectangular frame and outer page margin. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "closing illustration",
+        "sequence": 3,
+        "source_page": 9,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            12,
+            14,
+            359,
+            515
+          ],
+          "export_pixel_dimensions": [
+            347,
+            501
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 36,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            375,
+            528
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Are You Born Again?",
+    "topics": [
+      "f6f99110-040b-52df-ae00-56df469d87cc",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "3b69fdad-e957-5e8b-a946-db683c653271"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "65668c11435ec546d240981758625cb2d9bfdf11990e775813b17f04f8a8988d",
+    "metadata_sha256": "febd1bf0b6dbd4c5cc2ee53ce1d99cbf19ea2e3ac466854ccda97323f22df637",
+    "structure_sha256": "7b22a8a5ffdde0ba6d98a28680712703a33e3e8c4ad75304f2b7a35999f9d18b",
+    "text_sha256": "ca8e57d9e8f257a72bf5836801fd73baa2829c8c957f69e902f42bef7f2967bf",
+    "translation_metadata_sha256": "ea9d3aa19f844159cf19b80989f20b41cef7e3b4b54af3c547c53fca0c47d1d9"
+  },
+  "html": "<article data-article-id=\"afe5122b-824d-4658-af86-1ececd3d3ade\">\n  <figure>\n    <img src=\"/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-1.jpg\" alt=\"Chrysalis hanging from a branch\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-2.jpg\" alt=\"Butterfly with its wings spread\">\n  </figure>\n  <p>Are you born again? This is one of life’s most important questions. Jesus Christ said, “Except a man be born again, he cannot see the kingdom of God” (John 3:3).</p>\n  <p>It is not enough to reply, “I belong to the church; I suppose I’m a Christian.” Thousands of nominal Christians show none of the signs of being born again which the Scriptures have given us—many listed in the First Epistle of John.</p>\n  <h2>1.<br>“Whosoever is born of God doth not commit sin.” (I John 3:9)<br>“Whosoever is born of God sinneth not.” (I John 5:18)</h2>\n  <p>A person who has been born again, or regenerated, does not habitually commit sin. He no longer sins with his heart and will and whole inclination. There was probably a time when he did not think about whether his actions were sinful or not, and he did not always feel grieved after doing evil. There was no quarrel between him and sin; they were friends. But the true Christian hates sin, flees from it, fights against it, considers it his greatest plague, resents the burden of its presence, mourns when he falls under its influence, and longs to be completely delivered from it. Sin no longer pleases him, nor is it even a matter of indifference to him; it has become a horrible thing which he hates. However, he cannot eliminate its presence within him.</p>\n  <p>If he said that he had no sin, he would be lying (I John 1:8). But he can say that he hates sin and that the great desire of his soul is not to commit sin at all. He cannot prevent bad thoughts from entering his mind, or shortcomings, omissions, and defects from appealing in both his words and his actions. He knows that “in many things we offend all” (James 3:2). But he can truly say, in the sight of God, that these things cause him grief and sorrow and that his whole nature does not consent to them. What would the apostle say about you? Are you born again?</p>\n  <h2>2.<br>“Whosoever believeth that Jesus is the Christ is born of God.” (I John 5:1)</h2>\n  <p>A man who is born again, or regenerated, believes that Jesus Christ is the only Saviour who can pardon his soul, that He is the divine person appointed by God the Father for this very purpose, and beside Him there is no Saviour at all. In himself he sees nothing but unworthiness. But he has full confidence in Christ, and trusting in Him, he believes that his sins are all forgiven. He believes that, because he has accepted Christ’s finished work and death on the cross, he is considered righteous in God’s sight, and he may look forward to death and judgment without alarm.</p>\n  <p>He may have fears and doubts. He may sometimes tell you that he feels as if he had no faith at all. But ask him if he is willing to trust in anything instead of Christ, and see what he will say. Ask him if he will rest his hope of eternal life on his own goodness, his own works, his prayers, his minister, or his church, and listen to his reply. What would the apostle say about you? Are you born again?</p>\n  <h2>3.<br>“Every one that doeth righteousness is born of Him.” (I John 2:29)</h2>\n  <p>The man who is born again, or regenerated, is a holy man. He endeavors to live according to God’s will, to do the things that please God and to avoid the things that God hates. He wishes to continually look to Christ as his example as well as his Saviour and to prove himself to be Christ’s friend by doing whatever He commands. He knows he is not perfect. He is painfully aware of his indwelling corruption. He finds an evil principle within himself that is constantly warring against grace and trying to draw him away from God. But he does not consent to it, though he cannot prevent its presence.</p>\n  <p>Though he may sometimes feel so low that he questions whether or not he is a Christian at all, he will be able to say with John Newton, “I am not what I ought to be, I am not what I want to be, I am not what I hope to be in another world; but still I am not what I once used to be, and by the grace of God I am what I am.” What would the apostle say about you? Are you born again?</p>\n  <h2>4.<br>“We know that we have passed from death unto life, because we love the brethren.” (I John 3:14)</h2>\n  <p>A man who is born again has a special love for all true disciples of Christ. Like his Father in heaven, he loves all men with a great general love, but he has a special love for those who share his faith in Christ. Like his Lord and Saviour, he loves the worst of sinners and could weep over them; but he has a peculiar love for those who are believers. He is never so much at home as when he is in their company.</p>\n  <p>He feels they are all members of the same family. They are his fellow soldiers, fighting against the same enemy. They are his fellow travelers, journeying along the same road. He understands them, and they understand him. They may be very different from himself in many ways—in rank, in station and in wealth. But that does not matter. They are his Father’s sons and daughters and he cannot help loving them. What would the apostle say about you? Are you born again?</p>\n  <h2>5.<br>“Whatsoever is born of God overcometh the world.” (I John 5:4)</h2>\n  <p>A man who is born again does not use the world’s opinion as his standard of right and wrong. He does not mind going against the world’s ways, ideas and customs. What men think or say no longer concerns him. He overcomes the love of the world. He finds no pleasure in things which seem to bring happiness to most people. To him they seem foolish and unworthy of an immortal being.</p>\n  <p>He loves God’s praise more than man’s praise. He fears offending God more than offending man. It is unimportant to him whether he is blamed or praised; his first aim is to please God. What would the apostle say about you? Are you born again?</p>\n  <h2>6.<br>“He that is begotten of God keepeth himself.” (I John 5:18)</h2>\n  <p>A man who is born again is careful of his own soul. He tries not only to avoid sin but also to avoid everything which may lead to it. He is careful about the company he keeps. He knows that evil communications corrupt the heart and that evil is more catching than good, just as disease is more infectious than health. He is careful about the use of his time; his chief desire is to spend it profitable.</p>\n  <p>He desires to live like a soldier in an enemy country—to wear his armor continually and to be prepared for temptation. He is diligent to be watchful, humble, prayerful man. What would the apostle say about you? Are you born again?</p>\n  <p>These are the six great marks of a born again Christian. There is a vast difference in the depth and distinctness of these marks in different people. In some they are faint and hardly noticeable. In others they are bold, plain and unmistakable, so anyone may read them. Some of these marks are more visible than others in each individual. Seldom are all equally evident in any one person.</p>\n  <p>But still, after every allowance, here we find boldly painted six marks of being born of God.</p>\n  <p>How should we react to these things? We can logically come to only one conclusion—only those who are born again have these six characteristics, and those who do not have these marks are not born again. This seems to be the conclusion to which the apostle intended us to come. Do you have these characteristics? <strong>Are you born again?</strong></p>\n  <figure>\n    <img src=\"/images/articles/afe5122b-824d-4658-af86-1ececd3d3ade-3.jpg\" alt=\"Illustration of a butterfly, chrysalises, and a caterpillar among branches and leaves\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b76d0ef1d6a920f7414a886b26d1a8b60ff644ae5043c6d0165573f9b8c51c80"
+}

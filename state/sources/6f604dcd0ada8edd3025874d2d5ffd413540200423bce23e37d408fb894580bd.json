@@ -1,0 +1,249 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "ece32d5b-520d-4cc9-a058-785f8d4a3fc0",
+    "images": [
+      {
+        "alt": "A prisoner stretched on a rack in a stone chamber",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-1.jpg",
+        "repository_path": "public/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-1.jpg",
+        "rights_note": "Clean source image object 75; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 21,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            246,
+            175
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            246,
+            175
+          ],
+          "source_object": 75,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Prisoners and armed men gathered in a courtroom",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-2.jpg",
+        "repository_path": "public/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-2.jpg",
+        "rights_note": "Clean source image object 74; separately painted headings, article text, panels, rules and decorative framing are omitted. The original engraving’s tiny caption is intrinsic to the only source raster and is preserved within it. Its wording is not reliably legible at native resolution, so no transcription, attribution or licence is inferred.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 21,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            175,
+            160
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            175,
+            160
+          ],
+          "source_object": 74,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Iron restraints lying on the ground",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-3.jpg",
+        "repository_path": "public/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-3.jpg",
+        "rights_note": "Clean source image object 80; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            210,
+            42
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            210,
+            42
+          ],
+          "source_object": 80,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A prisoner standing beside an armed escort",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-4.jpg",
+        "repository_path": "public/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-4.jpg",
+        "rights_note": "Clean source image object 79; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            57,
+            161
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            57,
+            161
+          ],
+          "source_object": 79,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man bound to a stake surrounded by flames",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-5.jpg",
+        "repository_path": "public/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-5.jpg",
+        "rights_note": "Clean source image object 84; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 23,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            88,
+            274
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            88,
+            274
+          ],
+          "source_object": 84,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "In the year 1558...",
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2f013ab63cc98f1d552c7e0d5b594fd78ce8210a361f2e85a59744896df04a53",
+    "metadata_sha256": "49e4cdeccabdf42d485daf9041165f07f44255a43bec3ad87f1de143a0ac33f8",
+    "structure_sha256": "98aba343eee506e2053f4f55cfd694c11422aa7738cd63f4c8c9b4b3db5322c7",
+    "text_sha256": "6d1b2150c963c5a6de4525480de11c60c1ce958e0bd7d57db8e235a9c7d234af",
+    "translation_metadata_sha256": "c625c752e786bad86fe8a41b7d50560c1359cdd9790e8141c6d99cd989b63c61"
+  },
+  "html": "<article data-article-id=\"ece32d5b-520d-4cc9-a058-785f8d4a3fc0\">\n  <figure><img src=\"/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-1.jpg\" alt=\"A prisoner stretched on a rack in a stone chamber\"></figure>\n  <p>In the year 1558, Brother Hans Smit, a minister of the Word of God, was sent forth by the church to seek and gather those that were eager for the truth. Acts 13:3. When he therefore, being divinely called, undertook to travel through the Netherlands, he, together with five brethren and six sisters, was apprehended in the city of Aix-la-Chapelle, on the ninth of January. While they were assembled there in a house, to speak of the Word of God, and were engaged in prayer, many servants and children of Pilate came there in the night through treachery, with spears, halberds, and bare swords, and well provided with ropes and bonds, and surrounded the house, and bound and apprehended these children of God. They even took with them a mother with her infant that lay in the cradle. But the prisoners were valiant and comforted one another, to be undismayed, since they were imprisoned for the truth of God; and being thus of good cheer, they began to sing for joy. They were very soon separately confined, in which the sisters rejoiced, and sang, so that the people were astonished. In the morning they were brought before the judge, who talked with each separately, and then remanded them to prison, when he perceived their steadfastness. However, the next day the minister was again summoned before the lords, that he should tell them, how many he had baptized, who they were and where the church held their meetings. But he told them, that they should know that he would rather lose his life (John 15:13) than by telling this become a traitor, whereupon he was tortured and racked for about a quarter of an hour, to which he willingly submitted, himself taking off his clothes, and going to the rack. When they could accomplish nothing by it, they went away, but soon returned, and said, “You must tell us. What we have asked you, or we shall torture you so as to rack your limbs asunder.</p>\n  <figure><img src=\"/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-2.jpg\" alt=\"Prisoners and armed men gathered in a courtroom\"></figure>\n  <p>Thereupon they bound him hand and foot, and tied to his feet a large stone weighing little less than a hundred pounds, and thus drew him up, so that the ring on the stone broke, and the stone remained on the ground. But they took a rope, fastened it to the stone, in place of the broken ring, and hung the stone to his foot, and left him suspended thus for some time; however, they could not accomplish their purpose. Hence they let him down, and put him in prison until Sunday morning, when the lords came from the city with seven priests, who asked him concerning his calling; whereupon he said that he had not put himself into the ministry, but God and His Spirit in His church; for as God sent His Son, and the Son the apostles into all the world, so He still sends His ministers through His Spirit, that they should first preach the Word of God, and then baptize such as hear, understand and believe it, but not young infants. They also asked him concerning the magistracy, whether he regarded it as Christian or not. He replied that in the first place he regarded them as ministers of God, but that they were deceived and wrongly taught by the priests, and not incorporated into the Christian church. They also inquired of him the origin of the magistracy. He replied that office and power are of God. They then asked him, whether they were Christians. He answered that if they denied and forsook themselves, took up the cross, abandoned their tyranny and pomp, and followed Christ, they could be Christians, not otherwise. They also interrogated him with regard to swearing. He said that Christ had forbidden it. And much more, which it would take too long to write.</p>\n  <figure><img src=\"/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-3.jpg\" alt=\"Iron restraints lying on the ground\"></figure>\n  <p>After this they put him back into prison, where they left him until Monday evening, when the judge came again, with several others, and also a monk, to dispute with him. But they did not accomplish much, for he put the monk to utter confusion, so that the latter was glad to get away. Many other monks and priests were sent yet, to dispute with him; but they were all put to shame and derision, and were not able to cause this pious man to apostatize. Shortly after they were brought forth again and examined; but God continually gave them bold utterance, and wisdom, so that they could find no fault, or cause of death in him, save only that they did not sufficiently esteem the Emperor.</p>\n  <p>Several of the lords said that if these should be put to death, they should leave home. Once the brethren and sisters were all twelve left together from four o’clock in the morning until ten in the evening. They were joyful and of good cheer, and conversed with one another from the Word of God, and began to pray and praise God.</p>\n  <p>Brother Hans, as the minister, led them in prayer, as loud as he could, so that the people ran together and listened. But when the lords heard of this, they sent the bailiff thither, who asked them why they had made such a loud noise. They replied that they had been praying; however, they had concluded just before he came. Brother Matthias said, “We will call upon God whether anybody opposes or not.” In the evening about ten o’clock they were separated again, and led away. On their way through the city, they joyfully sang, and made known their faith.</p>\n  <p>When the minister heard that he was to die, he commenced to sing joyfully and thanked God for it, and earnestly besought Him to count him acceptable.</p>\n  <p>The 23<sup>rd</sup> of August was the day fixed for the execution of the minister, Hans, and brother Henderick. They were brought before the court into the vault near the pillory. Much people flocked together, also some who were their friends, and had sent them food and drink. They went smilingly through the people to the place of execution, and seeing the great concourse of people coming from every direction, the minister said, “O what a beautiful feast day we shall have, since so much people are coming.” They were very joyful, and hoped to get into paradise.</p>\n  <p>(To their disappointment the execution was delayed and they were put back in prison and suffered until autumn when they were finally led out to their execution.)</p>\n  <figure><img src=\"/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-4.jpg\" alt=\"A prisoner standing beside an armed escort\"></figure>\n  <p>Hans Smit, as the minister, was first executed. When being led through the city, he sang joyfully; he did not speak much afterwards, but went briskly to the place of execution, as a patient, dumb lamb. There he was strangled at the stake with a rope, and then bound fast with a chain, and singed with fire. Thus he offered his sacrifice, on the 19th of October, A. D. 1558. Three days after, the others were brought forth, and sentenced to death, namely, Henderick Adams and his brother-in-law, Hans Beck.</p>\n  <p>There was one among the councilors at Aix-la-Chapelle, who was always violently opposed to the brethren, and hence it happened on one occasion, when they were disputing with Henderick, and the latter would not be moved, that this councilor became angry, and said, “Away with them, away with them, to death and the fire; for all is lost on them; no pardon should be offered them any more,” etc. But Brother Henderick said to him, “You will not live to see my death;” which was verified, for he died three days before Henderick, on the same day that the minister Hans Smit was executed. When on his deathbed, and near his end, he fell into great despair, plucked out his beard, and cried out most dreadfully, declaring that he had judged many persons, and had certainly sinned therein, and that God would punish him for his bloodthirstiness.</p>\n  <p>Now when Brother Henderick Adams and the other brother were led to death, the executioner bound his hands so tightly that his fingers turned black; but he lifted up his hands to God, praising Him, that he was counted worthy to suffer this. In the meantime the bonds on his hands became loose. They were tied again, just as hard as before; but it was of no avail; for when he lifted up his hands again, the bonds fell off as before, which occurred several times, so that the judge became angry, and said to the executioner, that he should bind them fast; but the executioner replied, “You can easily see that binding is of no use here.” The last time Henderick flung the bond away among the people, so that he was not bound any more, and said, “It is not God’s will, that I should be bound.” He also said that such violence was contrary to God, and continued to speak boldly unto the end.</p>\n  <figure><img src=\"/images/articles/ece32d5b-520d-4cc9-a058-785f8d4a3fc0-5.jpg\" alt=\"A man bound to a stake surrounded by flames\"></figure>\n  <p>Thereupon these two brethren, Henderick Adams and his brother-in-law were (like previously the minister) strangled at the stake, with a rope, and then bound to the stake with a chain, and singed with fire; which took place on the 22nd day of the month of October, A. D. 1558. A great number of people were present on this occasion.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "13227209b7a735f18a61a44c35ca6bdc1ca6abd2d7e7cb5c1678868a00537db6"
+}

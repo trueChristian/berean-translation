@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Clovis, NM",
+          "name": "Mrs. Richard Downin"
+        }
+      ],
+      "raw": "by Mrs. Richard Downin\nClovis, NM"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "7e2da9a2-fad5-4d84-809b-187b7922adbd",
+    "images": [
+      {
+        "alt": "A woman with a head covering looking upward",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7e2da9a2-fad5-4d84-809b-187b7922adbd-1.jpg",
+        "repository_path": "public/images/articles/7e2da9a2-fad5-4d84-809b-187b7922adbd-1.jpg",
+        "rights_note": "Original embedded image object 102 from printed page 27; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        27,
+        35
+      ],
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "The Blessing of Obedience",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "36b4ffaf71e4e481342525a3a216b21d5103d7ec0e55d7f3e1dcf4592db6fecf",
+    "metadata_sha256": "03ad52a55844e8e9c37f04c285555ad7fcbf089c6a959f507f7b4a64ccdfe6ce",
+    "structure_sha256": "fb07eeb747dc599f826811204f2fd8964e6affa5331f209b3b4aa41afeb61f1f",
+    "text_sha256": "c9092577f3096e91d07a28ad5ccf2216a40b1c2afe8640f595204c4291733655",
+    "translation_metadata_sha256": "109dca2726ddd1bd37375f6949c69d9a3201db6cd44a235baf4924bc99f080d2"
+  },
+  "html": "<article data-article-id=\"7e2da9a2-fad5-4d84-809b-187b7922adbd\">\n  <figure>\n    <img src=\"/images/articles/7e2da9a2-fad5-4d84-809b-187b7922adbd-1.jpg\" alt=\"A woman with a head covering looking upward\">\n  </figure>\n  <p>I began wearing the headship veil over two years ago after much prayerful consideration and study. At the time we were attending a Baptist church. I was not thrilled with the thought of being the only woman in the church with a veil on and the only one who I knew of in my town as well.</p>\n  <p>But, the Holy Spirit kept telling me to obey the word regardless of what others thought of me. So I decided I would obey and begin to veil my head at all times.</p>\n  <p>When I first began to wear it I noticed that I was starting to act more submissive because I had the reminder on my head. And my husband starting noticing too and became gentler towards me.</p>\n  <p>I decided that I would not tell anyone what I was doing unless I was asked. One lady did ask. When I gave her the verses in 1 Corinthians 11, she yelled at me and told me that my hair was the covering. Another lady came up to me and told me that I was a legalist. Others separated from me. Some actually pointed and laughed at me on occasions. I was also left out of ladies functions at church. I was no longer invited after I began veiling.</p>\n  <p>There were also many good things that began to happen as a direct result of my obedience to this command in Scripture. All of a sudden, lost people were approaching me. People ask for tracts, sit next to me and ask questions, and ask me what church I attend. That never happened before I covered my head, and I had been saved for nine years before that!</p>\n  <p>As time went on I became lonely and wanted to have fellowship with other ladies who veiled their heads in obedience to this Scripture. It seemed that there was no one around. I prayed and waited, still knowing that whether or not there was one soul around me who practiced this I still had to.</p>\n  <p>So for two years I continued this practice with no friends nearby who had a clue what I was doing. Then I received an email from a sister in Christ whom I had met a year earlier in a homeschool meeting. I was the only one with veiled head and I had no idea that she noticed me. She told me that the Father had convicted her to cover her head as well and that she was glad that I was a testimony to her about veiling.</p>\n  <p>I cried when I read her email because I had been alone in this for so long. Jesus knew my need to have another sister in Christ to share with. Yet, Jesus was not done blessing me after this.</p>\n  <p>I immediately called this sister and we decided to get together to go over the verses together and share resources. She said she would bring another lady who was considering veiling. After I hung up the phone with her the Father brought to mind two sisters that I knew. One of them had asked me about veiling and I had given her a tract. The other one had been listening to tapes from Charity Gospel Ministries, but I had no idea which tapes.</p>\n  <p>So I called them. The first lady wanted to attend. The second lady told me that her husband had been studying it, and she wanted to study it some more as well.</p>\n  <p>We met and had a lovely time of fellowship. The next day one of the ladies I invited began veiling her head and has shared with me the wonderful blessings the Father has given to her since obeying. Now, He has blessed me with two sisters here where I live who wear the headship veiling.</p>\n  <p>I would like to encourage all sisters in Christ to continue veiling their heads even if alone and outcast because of it. You never know who is watching.</p>\n  <aside><p><em>We are looking for other women who have a testimony relating to wearing the veiling. If you or someone you know would have something to share we would appreciate a written copy of their story. They would be considered in the possible publication of a new book on the Christian woman’s veiling.</em></p></aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6c6759d57ed2a1846d391fd3348362c9c3a12d7f464b0538d610e0bcf81f5716"
+}

@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "a61b77e0-a9b3-49f7-ae47-8a5253457c01",
+    "images": [
+      {
+        "alt": "Illustration of a person walking among thatched village buildings.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a61b77e0-a9b3-49f7-ae47-8a5253457c01-1.jpg",
+        "repository_path": "public/images/articles/a61b77e0-a9b3-49f7-ae47-8a5253457c01-1.jpg",
+        "rights_note": "Clean embedded source object 70; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. DeviceGray source converted to RGB/sRGB, preserving luminance; no CMYK sample inversion. Standards-normalized baseline JPEG, 72 dpi, embedded sRGB ICC profile. The gray substrate is intrinsic to the only source raster and is retained. Separately painted gray article panel and decorative border masks 63–69 are omitted. Source 360×297 raster is cropped to 360×296: the PDF image height is 296.1574 pt while the published clipping height is 295.5 pt, clipping approximately 0.66 source pixel at the bottom; the final row is removed without resizing.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 15,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            360,
+            296
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline JPEG; quality 95; 4:4:4; 72 dpi; embedded sRGB ICC profile",
+          "method": "original embedded grayscale image converted to RGB/sRGB",
+          "output_dimensions": [
+            360,
+            296
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            360,
+            297
+          ],
+          "source_object": 70
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "A Twelve-Year-Old Missionary",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "adfa2697c0a94fe3891ae159cfef5364cd00f3c201d69cb128d429bcb90b5e2c",
+    "metadata_sha256": "50442c395bc49d400e2ebc8b1aa412c2deb9ebe7c068790343da6944792a629a",
+    "structure_sha256": "f1bacbe7e8c222890a43a0708426c76b69f7fae92e4287a48b0c9be66fdfd998",
+    "text_sha256": "9d181325545b654962a57c9ca96f9a26d1e23c0f6c123ee3ddfedd2ee9b91647",
+    "translation_metadata_sha256": "4922f7503771f0ac91a563864a1a822427ef61cfc04cf9d9c3f75994885bb09a"
+  },
+  "html": "<article data-article-id=\"a61b77e0-a9b3-49f7-ae47-8a5253457c01\">\n  <figure>\n    <img src=\"/images/articles/a61b77e0-a9b3-49f7-ae47-8a5253457c01-1.jpg\" alt=\"Illustration of a person walking among thatched village buildings.\">\n  </figure>\n  <p>Years ago when Robert Moffat was in Africa, he traveled far into the interior. One day he came to a tree upon which a board was fixed, saying that a Christian school was to be found in a village not far away.</p>\n  <p>He was amazed, for he believed himself to be the first white man in that part. Making his way toward the village, he met a little native girl about twelve years of age, to whom he said: “I saw a board fastened to a tree saying that there was a Christian school held in the village; would you be so good to lead me to the teacher?”</p>\n  <p>The little girl hung her head shyly and made no reply.</p>\n  <p>Do you know the teacher?” he asked. She replied this time with a nod.</p>\n  <p>“Well who is the teacher? He persisted. Looking up into his face now, but still shyly, she answered, “I am the teacher.”</p>\n  <p>Mr. Moffat discovered that the little girl had once been taken to a distant tribe, where she heard a missionary tell the people of the love of Jesus; and she had now become the first missionary to her own people.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "29c3dbe2ea387a143f1354b017189a44d20a39422f58c4ed1aa497d2bcb01dcf"
+}

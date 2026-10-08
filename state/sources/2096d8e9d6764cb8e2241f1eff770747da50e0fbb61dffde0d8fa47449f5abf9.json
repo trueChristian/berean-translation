@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Santiago, Costa Rica",
+          "name": "James Troyer",
+          "role": null
+        }
+      ],
+      "raw": "—James Troyer\n—Santiago, Costa Rica"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "1c6bc9f7-00f7-490f-8b4e-97310b31eb9e",
+    "images": [
+      {
+        "alt": "Sailors aboard the rigging and deck of a ship.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1c6bc9f7-00f7-490f-8b4e-97310b31eb9e-1.jpg",
+        "repository_path": "public/images/articles/1c6bc9f7-00f7-490f-8b4e-97310b31eb9e-1.jpg",
+        "rights_note": "Invert /Separation grayscale PDF samples and reassemble retained source pieces with 1px PDF-coordinate overlap; encode baseline RGB JPEG. Reassembled base ship image objects 113 (529x333) and 114 (529x45), ordered top strip above main at PDF coordinates; object 115 is separate dark opacity/colour fade treatment omitted. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Ship illustration",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Ah, That Motley Crew!",
+    "topics": [
+      "89c5a9d7-0aa4-5760-bfe6-f868626b6d91",
+      "15fded78-2bae-5612-8e6d-863871109109"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2c3822a8bfb71c689353ecbac6e8658a15a937ae5a2d5a9104221c1d62b335f8",
+    "metadata_sha256": "d0cab20a1ee87501399a1465eb239a9c017c57fcb13249c03de4b82d8608092c",
+    "structure_sha256": "fcd8378e0d19579213f778173c581a24577079e6b487eab41d701a4ae9a05ee8",
+    "text_sha256": "21a2929145bddd9e37f7e0e2795b1f839984bb5bd531ada80b3a41c98a138d3e",
+    "translation_metadata_sha256": "05ab6250599143fbd719000c56b1bb222a10dc50778c12bf56e2004728e44e01"
+  },
+  "html": "<article data-article-id=\"1c6bc9f7-00f7-490f-8b4e-97310b31eb9e\">\n  <figure><img src=\"/images/articles/1c6bc9f7-00f7-490f-8b4e-97310b31eb9e-1.jpg\" alt=\"Sailors aboard the rigging and deck of a ship.\"></figure>\n  <p class=\"poem\">Ah, that Crew! The Crew that mans<br>That awesome Ship whose voyage spans<br>From earth to heaven, the sea of time,<br>A chosen Crew, a Ship sublime.</p>\n  <p class=\"poem\">A Crew unlike all crews, aboard<br>A Ship unlike all ships; the Lord<br>And Captain, standing at the wheel,<br>Is Christ Himself. Around Him kneel</p>\n  <p class=\"poem\">The adoring Crew. They’ll die, they’ll live,<br>Their sweat and toil and tears they’ll give<br>But for the chance to man His Ship<br>On this immortal, heavenly trip!</p>\n  <p class=\"poem\">Brave men they are, both young and old;<br>By utter loyalty made bold,<br>From every nation, come to serve<br>With arm and sinew, heart and nerve,</p>\n  <p class=\"poem\">They flee no danger, feel no fear;<br>Their faith is firm, their mission clear;<br>Their calling and commitment sure,<br>Their hearts and motives all are pure</p>\n  <p class=\"poem\">Through calm, through gale, through dreadful night,<br>Old sailors, veterans of the fight—<br>New sailors, doing all they can—<br>They’re all but students of the Man</p>\n  <p class=\"poem\">Who guides the Ship. Not men of fame,<br>No skilled elite who’ve earned a name,<br>No pompous churchmen in the dress<br>Of artificial holiness;</p>\n  <p class=\"poem\">No robes too starched, no minds too great,<br>To stoop and lift a fallen mate,<br>Or dive into a murky wave<br>Some dying sinner’s life to save.</p>\n  <p class=\"poem\">Their aristocracy, their pride,<br>Their past has all been laid aside,<br>Ah, what a Crew! Unlikely Crew,<br>Each one unique, yet each one true;</p>\n  <p class=\"poem\">Original, authentic, made<br>For his own place, (no parts are played)<br>Unswerving from the Pilot’s plan,<br>Their only Model is that Man!</p>\n  <p class=\"poem\">For them He struggled, suffered, bled,<br>Now their last drop of blood they’d shed<br>For Him. In this, in this alone<br>These varying men are all made one ...</p>\n  <p class=\"poem\">They know their Captain! What a life!<br>They are redeemed; no storms or strife<br>Can kill their joy. Made free, made new,<br>Oh, what a motley, joyous Crew!</p>\n  <p class=\"poem\">Love is the watchword on the decks;<br>With love they reach out to the wrecks<br>Of other ships around them lost,<br>To souls upon the billows tossed.</p>\n  <p class=\"poem\">With hearts as tender as their Lord’s<br>They meet the foe and draw their swords<br>And make the hosts of hell retreat.<br>A love that never knows defeat.</p>\n  <p class=\"poem\">They love so much it overflows,<br>No greater joy a Crew mate knows<br>Then when from billowy depths of sin<br>A drowning man is brought safe in,</p>\n  <p class=\"poem\">Finds joy and life forever new,<br>And fellowship among the Crew.</p>\n  <p>—James Troyer<br>—Santiago, Costa Rica</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ecf1a7f7196f1952bafcde77a4ee1c3ae090962f6d036565c63a6301af942aab"
+}

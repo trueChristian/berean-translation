@@ -1,0 +1,141 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Namibia",
+          "name": "Llewellyn van der Merwe"
+        }
+      ],
+      "raw": "by Llewellyn van der Merwe"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000",
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "bd0b23ac-be3e-45b5-8782-83679a911aba",
+    "images": [
+      {
+        "alt": "Four children in a small cart",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-1.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-1.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 2 visible constituents in a single flattened PDF collage xref 101; crop (105, 55, 420, 332) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Seated van der Merwe family with children",
+        "caption": "The van der Merwe family",
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-2.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-2.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 2 visible constituents in a single flattened PDF collage xref 101; crop (620, 75, 950, 334) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 18
+      },
+      {
+        "alt": "Jaco van der Merwe seated indoors",
+        "caption": "Jaco van der Merwe",
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-3.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-3.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 106; crop (50, 50, 240, 301) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 19
+      },
+      {
+        "alt": "Van der Merwe family standing beneath a tree",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-4.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-4.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 106; crop (265, 55, 615, 320) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 19
+      },
+      {
+        "alt": "Woman and small child indoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-5.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-5.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 106; crop (675, 47, 975, 310) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 5,
+        "source_page": 19
+      },
+      {
+        "alt": "Group of children outside a children’s home",
+        "caption": "Children’s home in Windhoek",
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-6.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-6.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 110; crop (55, 55, 355, 298) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 6,
+        "source_page": 20
+      },
+      {
+        "alt": "Church family standing together",
+        "caption": "Our Church family",
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-7.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-7.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 110; crop (390, 48, 645, 305) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 7,
+        "source_page": 20
+      },
+      {
+        "alt": "Congregation at a church service",
+        "caption": "Grootfontein Church Service",
+        "credit": null,
+        "public_path": "/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-8.jpg",
+        "repository_path": "public/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-8.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. One of 3 visible constituents in a single flattened PDF collage xref 110; crop (700, 103, 995, 323) selects only original visible pixels, removing baked backing/shadows and caption panels. Some photo corners/outer margins are lost because the source collage flattens overlaps; no hidden pixels were synthesized.",
+        "role": "article photograph",
+        "sequence": 8,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "THE BLESSING CORNER",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "From Africa",
+    "topics": [
+      "bd34abbc-25f2-5c08-87bf-2245fcc82609",
+      "46c3d0eb-21b7-5812-8b12-335d5badc3d4",
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "49dac007c624cceed4cc9812bc891354cd8411190184a04db0e72d70591422c2",
+    "metadata_sha256": "4392792d8207bddd160504755534aca9277ebb3c25bb0d9598633a879880379d",
+    "structure_sha256": "02e4a54a44f81cb8bbe3b518a067131f1913ca16478ec2fcc5004cbb73315069",
+    "text_sha256": "88dd74cb38b8f4826d678998e962488ba2f4553c5090609a8133fb275aee2e39",
+    "translation_metadata_sha256": "011153b869096601b067557d710a6b22295b559d56a060823bcf8f0e9937593a"
+  },
+  "html": "<article data-article-id=\"bd0b23ac-be3e-45b5-8782-83679a911aba\">\n<p>I am delighted to write a brief update about the Lord’s work here in Namibia, especially in our lives. We have quite a story to tell of God’s dealings with us until now. We started out totally ignorant and for that reason many unpleasant things were used of God to show us on the way that we are in today. I am sure we must be among those with whom God is most patient. Many things could have been avoided would there have been more mature brothers around to lead us by their example. But alas, we were alone in Africa; seeking God with thousands of other confused “Christians” around; only the Lord could help us. We had little discernment and like wandering sheep were soon drawn to danger by joining a movement called Youth with a Mission.</p>\n<p>This all happened after my wife and I were wonderfully saved out of the most unthinkable darkness, where both of us were living fully in the world as drug abusers and fornicators, thinking ourselves to be Christian. Well, pride and ambitions quickly manifested its ugly head in our lives during our time in YWAM. God really had to step in again to wake us up. We lost everything for the second time around as we left YWAM in obedience to a call from God to come back to Namibia and be “nobody.” We were confused and disillusioned, yet trusted the Lord for the impossible.</p>\n<p>Staying in Swakopmund, a coastal town of Namibia, we found ourselves in a “Church of England” serving as youth workers. Our first child, Hannah, was born during this time and all those changes at once nearly crushed us both. We soon realized that most of these dear people had no reality with God, besides the pastor who seemed to have a real love for the Lord. He spent many hours teaching us theology. This we can see today counteracted lots of the charismatic confusion and gave us some understanding. Our search for truth led us to another church, also in Swakopmund. This was a seemingly sound church. They were what you could call a house fellowship that has grown into a church. They were closer to the truth than any we have found so far.</p>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-1.jpg\" alt=\"Four children in a small cart\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-2.jpg\" alt=\"Seated van der Merwe family with children\">\n    <figcaption>The van der Merwe family</figcaption>\n  </figure>\n<p>All this time you must keep in mind that, since we went to Youth with a Mission, I had no vocation; our only income was the contributions of those we ministered to. This was much used of God to keep us on our knees. Not forgetting the fact that it was also humbling, we made our needs known to the Lord and many a times were overwhelmed by the many ingenious ways He would work out to provide. To my shame an undisciplined, lazy lifestyle made us stagnate, and we could see the Lord’s displeasure.</p>\n<p>There opened an opportunity for us to run a small Bible school, called Amana, for refugees from Angola and DRC on a little farm close to Usakos. So we spent most of our time alone in the wilderness. You see, it was not that I was not a hard worker; it was more a lack of direction and vision. My days were full of activities, yet empty. My quiet times were almost nonexistent. I tried to change it but to no avail. There was something missing. We would find that changes we made only lasted for a short time.</p>\n<p>With no motivation and very little financial support, the pressure was huge. I saw all my dreams and plans die, fall away, and end. I would cry to God as I was fixing our pickup and seeing the last fuel wasted because of a hole in the tank, and hear Him say, “Trust Me”. We would go down to visit the church 86 miles away in Swakopmund. Thinking back, we were often so discouraged to see the worldliness that was slowly creeping into the church, and the way their children were seeking their enjoyments in the broken cisterns of the world. It was like going into a war zone. Our time on the “plot”, as we would call it, seemed like a much safer place to which we could retreat. About twenty people attended the Bible School during this time, some leaving rejoicing, some not. It was a wilderness for all of us, especially me.</p>\n<p>Then God answered my heart’s cry. He sent us a Godly Home set from Charity Ministries. Oh my, what a joy. It was like God sent revival. The church we were with nearly dimmed out the vision we once had of a godly home, because we wondered if it is really possible, and judging from the examples we saw, it was not. I cried to God to forgive me, for seeking the praises of men and so neglecting His high calling. God deeply blessed us and our vision was renewed. Glory, victory over self was slowly coming in view. In response we started sending out copies all over. God worked it out for us to move to the capital of Namibia, Windhoek, after a few months. The Lord during our stay at Amana also added Malachi, our first boy. So with two children we moved, because the Bible school had to close, since the owner of the little farm had other plans with it.</p>\n<p>We started a little fellowship in Windhoek together with another member of the church who was also the son-in-law of the pastor in Swakopmund. My wife was still dressing immodestly, and due to the misguidance of our leaders we still allowed the world’s influences (TV, computer games) in our home. Our Lord had to again step in with a loud voice. There was a big church conflict. My coworker’s wife was completely out of place and I felt it my duty to correct him and his wife. Can you think? What a mess.</p>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-3.jpg\" alt=\"Jaco van der Merwe seated indoors\">\n    <figcaption>Jaco van der Merwe</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-4.jpg\" alt=\"Van der Merwe family standing beneath a tree\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-5.jpg\" alt=\"Woman and small child indoors\">\n  </figure>\n<p>Again the Lord challenged me to evaluate all our ways, for the tree was bearing the wrong fruit, it seemed to me. My father Jaco van der Merwe, who had also by now found Christ Jesus, was crying with me to God for direction. We had been on a steady diet of Charity’s sermons since we received the Godly Home set. But we, for the most part, thought their views on dress, the head covering and position towards the world were just for them, not for us, until then. But these crises made me reconsider it all, not to mention that the very thing that caused all the trouble was the position of the sisters in church and home. My father and I fasted seven days seeking God’s face. I came back, and knew we were going to lose all again for the third time around. Everything must change. By this time TV and computer games were not even an issue. We threw that out long already. My wife covered her head and changed her clothes. The very next day we were asked to leave the church, or repent.</p>\n<p>“God,” I said, “send us to Ghana or Angola or Democratic Republic of Congo. Send us anywhere, God, for it seems to me our time has come to leave.” But right there we heard God say, “No, you will stay in Windhoek and take the responsibility of the called out ones in Windhoek, who will stand for the truth of God’s Word.” A church split occurred. Most stayed with the previous church thinking that we had lost our minds and fallen from grace. Others came seeking reality with God and knowing their lives were not bringing forth streams of living water as the Word of God promised. They, like us, were not willing to go on with all the compromise as if it was all normal. In those dark and pressuring times God through many different scriptures and faithful brothers opened the door to start a remnant church called Ekklesia.</p>\n<p>Soon God added to us some more truth-seeking brothers and we started regular outreaches in the streets and malls in town. We also started a CD ministry, sending sermons all over as much as we could. We would download sermons from Charity’s web site, and send them to as many people as we knew. O how much we still did not understand, like little children who found great treasure.</p>\n<p>The Lord was taking us far deeper. He started opening our understanding to the death of self more than ever before. We saw victory over sin clearer, and were greatly encouraged to forsake all. In my life I started seeing my selfish motives and many other vile things that I thought were not there anymore. This grieved me and night after night I would cry to God over my wretched state. I understood that He promised full salvation, yet in my members I saw fleshly desires fighting to destroy the work of God. How great is our blindness to our own sinfulness. I know that I, for one, spent years teaching others while in my own bosom lurked jealousy, envy, pride, anger, lust and other hideous abominations. I at first argued with the Lord as I used to. How easily I could accuse others and defend self, but when the Lord opened my eyes I found it all to be hypocrisy and deceit in the light of His presence. I could see me; oh how disgusting it was. I wept much. How little I knew of the glory God was working in me.</p>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-6.jpg\" alt=\"Group of children outside a children’s home\">\n    <figcaption>Children’s home in Windhoek</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-7.jpg\" alt=\"Church family standing together\">\n    <figcaption>Our Church family</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/bd0b23ac-be3e-45b5-8782-83679a911aba-8.jpg\" alt=\"Congregation at a church service\">\n    <figcaption>Grootfontein Church Service</figcaption>\n  </figure>\n<p>The Lord had me just where He wanted me, for in death there is life. I discovered that acknowledging my needs and believing God is able to change me is very significant. He gives grace to the humble but the proud he knows afar off.</p>\n<p>The whole church was impacted by this dealing of God in my life, like a ripple in a pond. I could preach with authority and a number of times the whole fellowship was on their knees weeping before God. We could see God working. O how wonderful it is when He is among the poor and needy. We saw many faces come and go, sadly only a few stayed. Then the Lord even took those who stayed through even more fires, and some of those also fell back. To this day we have found that the truth is often evil spoken of and despised. There are so many other churches giving men false comfort in their sin; therefore we are ever rejoicing to see even one come to the saving knowledge of Jesus Christ. A salvation from self and sin whereby God is of power to manifest His Son in our flesh by His indwelling Holy Spirit. Our hearts are burning for mission work though we are only five brothers in the brotherhood and completely outnumbered in the fight. The desire to see others come to the Light and give God glory is like an unquenchable passion. This has caused many forms of outreach.</p>\n<p>During every eight weeks my father travels all over Namibia, so God started using this opportunity to reach among the poor and rich around the country. In Grootfontein we are seeing a small group of Damara-Nama people responding to the truth. We also working with a children’s home in Windhoek, and most of these children have found the fear of God.</p>\n<p>The Lord also sent Brother Flyod back to the Democratic Republic of Congo (old Zaire). He is our first sent missionary and is finding tremendous opposition against the true Gospel of Jesus Christ among the churches. You know, the charismatic world has taken over the DRC (as they call it). To us it has always been so sad when you see how easily the poor of Africa get deceived. It seems that the fact that they are illiterate or unfamiliar with the Word of God makes them vulnerable. Then add their own sinfulness and lust for power, and deception has millions to prey on. We are trusting God to visit him some time in the near future. Reaching those in the jungles will be a huge venture, so we are seeking God for direction and wisdom. Brother Flyod with many tears is also waiting on God to send help seeing that he also has a clear vision for the unreached in the jungles of the DRC.</p>\n<p>We lack the numbers, experience and finances to really attempt frontier missions. Yet Brother Flyod and other mission projects are all happening due to God’s cry. Therefore we wait on Him for eagle’s wings. There is much more to say about the work of the Lord here and the things that are happening around us today, but this is a brief overview of some of the events leading up to where God is working with us today. I am sure you can see that we stumbled along desperately seeking reality with God. We glory in Jesus Christ who is able to build His church in spite of us. I know God is busy raising up a testimony in Namibia, but there is still much work. Jesus said, “I will build my church and the gates of hell shall not prevail against it.”</p>\n<p>Visit their website: <u>www.HisEkklesia.org</u></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "266c1718f629b7bba0c9f8ee76c412da7a2c26adc712dab5210596488f2c46de"
+}

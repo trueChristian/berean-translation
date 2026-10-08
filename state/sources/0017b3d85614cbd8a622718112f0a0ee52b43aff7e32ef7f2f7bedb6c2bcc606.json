@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Bro. Dean"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "fe619ee3-c6fd-4dae-a245-268cac617a99",
+    "images": [
+      {
+        "alt": "A man seated at a desk beside a window",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe619ee3-c6fd-4dae-a245-268cac617a99-1.jpg",
+        "repository_path": "public/images/articles/fe619ee3-c6fd-4dae-a245-268cac617a99-1.jpg",
+        "rights_note": "Original embedded PDF image object xref 140. No separate image-specific permission notice is printed. The issue masthead credits “Some images © 2001-2007 clipart.com / photos.com” without identifying which assets; no individual licence is inferred. Grayscale/RGB source encoded as baseline RGB/sRGB JPEG at 72 dpi for browser compatibility; orientation and useful resolution retained.",
+        "role": "editor photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "c9a9c184-9c75-4029-a839-f6082d61542d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Letter from the Editor and 2nd Quarter 2007 Financial Report",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "65e4c090c6fcd5ec13d3cf1f340977a4f87855278384528fd0d19a24be44e5e7",
+    "metadata_sha256": "0242d4320a9fe028189227bab4c1d4477a83a6821529288de58fd0d5c788f05f",
+    "structure_sha256": "fc79935e887b6c7d7a383eca46e746df9862dae91555c76283d29f53482dc532",
+    "text_sha256": "dd402842bf4ea9d3b9dbd1cc7d40a0a74532db67bfd7c8604ffd5ecad9326c65",
+    "translation_metadata_sha256": "2bbca3ebd803beb8beefe795c7bdb83b5a086f9bcee5393e24aa22550c613269"
+  },
+  "html": "<article data-article-id=\"fe619ee3-c6fd-4dae-a245-268cac617a99\">\n<figure>\n  <img src=\"/images/articles/fe619ee3-c6fd-4dae-a245-268cac617a99-1.jpg\" alt=\"A man seated at a desk beside a window\">\n</figure>\n<p>Greetings to each of you in Jesus’ Name! We hope this issue finds you blessed in the joys of summer! We have lots of new writers this issue. Many thanks to those of you who have submitted articles and other materials. We marvel each time at the Lord’s provision for this work. How we praise God!</p>\n<p>In this issue you will find a continuation of the article on Divorce and Remarriage. You’ll also find we have another challenging article from Rachel Weaver. Some folks have told me, “I do get the <em>Remnant Magazine,</em> however, I do not always have time to read all of it…” Well, if you find this to be one of those times, I do understand—Summer is a busy season for all of us! Perhaps you can pick it up later, and gather a bit here and there. However, I would encourage you to please take a moment to look over this issue’s Book Review. May the Lord bless each of you, once again, as you read this issue of <em>The Heartbeat of the Remnant!</em></p>\n<p>~Bro. Dean</p>\n<table>\n<tbody>\n<tr><th>04/01/07 Beginning Balance</th><td><strong>$15,686.71</strong></td></tr>\n<tr><th colspan=\"2\">Receipts</th></tr>\n<tr><td>Tape Ministry Donations</td><td>$40,821.56</td></tr>\n<tr><td>Remnant Subscription Donations</td><td>$5,807.26</td></tr>\n<tr><th>Total Receipts</th><td><strong>$46,628.82</strong></td></tr>\n<tr><th colspan=\"2\">Disbursements</th></tr>\n<tr><td>UPS &amp; Postage</td><td>$4,951.67</td></tr>\n<tr><td>Tapes, Albums, CD’s &amp; Labels</td><td>$11,482.04</td></tr>\n<tr><td>Equipment &amp; Software Purchases</td><td>$517.62</td></tr>\n<tr><td>Equipment Maint &amp; Repairs</td><td>$333.20</td></tr>\n<tr><td>Mailing &amp; Office Supplies</td><td>$2,431.15</td></tr>\n<tr><td>Rent</td><td>$2,250.00</td></tr>\n<tr><td>Telephone</td><td>$910.89</td></tr>\n<tr><td>Website Development &amp; Maintenance</td><td>$773.90</td></tr>\n<tr><td>Building Improvements</td><td>$180.00</td></tr>\n<tr><td>Miscellaneous</td><td>$4,794.11</td></tr>\n<tr><td>Payroll Expense</td><td>$18,500.01</td></tr>\n<tr><td>Books &amp; Catalogs</td><td>$0.00</td></tr>\n<tr><td>Remnant Publishing &amp; Mailing</td><td>$5,803.36</td></tr>\n<tr><th>Total Disbursements</th><td><strong>$52,927.95</strong></td></tr>\n<tr><th>06/30/07 Ending Balance</th><td><strong>$9,387.58</strong></td></tr>\n<tr><th>Difference</th><td><strong>-$6,299.13</strong></td></tr>\n</tbody>\n</table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5a46d6babb01e88b6f75cce1e40661329371b93a74982bd79c39c23fccf1c5ca"
+}

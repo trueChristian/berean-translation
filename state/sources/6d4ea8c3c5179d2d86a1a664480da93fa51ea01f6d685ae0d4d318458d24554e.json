@@ -1,0 +1,119 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver",
+          "role": null
+        }
+      ],
+      "raw": "Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "103f9dba-5fc8-4384-9161-226f96d1ff5a",
+    "images": [
+      {
+        "alt": "Flowering hyacinth stalk",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-1.jpg",
+        "repository_path": "public/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-1.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original PDF grayscale separation JPEG image object 102, inverted to match page and encoded baseline sRGB JPEG at 544 × 1010 pixels; section heading/title and byline are separate typography excluded from image.",
+        "role": "opening flower photograph",
+        "sequence": 1,
+        "source_page": 22
+      },
+      {
+        "alt": "Bowl of fruit with grapes and other fruit",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-2.jpg",
+        "repository_path": "public/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-2.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original PDF grayscale separation JPEG image object 107, inverted to match page and encoded baseline sRGB JPEG at 660 × 594 pixels; article text painted around it is omitted.",
+        "role": "fruit bowl illustration",
+        "sequence": 2,
+        "source_page": 23
+      },
+      {
+        "alt": "Banana beside the fruit bowl",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-3.jpg",
+        "repository_path": "public/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-3.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original PDF indexed image object 106, converted to baseline sRGB JPEG at 308 × 207 pixels with clean white background. A tiny overlapping object 108 is part of the same printed collage and is represented once by the banana export.",
+        "role": "banana illustration",
+        "sequence": 3,
+        "source_page": 23
+      },
+      {
+        "alt": "Measuring cup beside a handwritten recipe",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-4.jpg",
+        "repository_path": "public/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-4.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original PDF indexed image object 115 contains separable publisher pull-quote typography baked into its lower band. An unobstructed 1050 × 495 pixel top crop preserves the substantive photograph without the pull quote; printed words repeat the following body thought and are not included as pixels.",
+        "role": "kitchen photograph",
+        "sequence": 4,
+        "source_page": 25
+      },
+      {
+        "alt": "Bruised apple with a hole in the side lying on grass",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-5.jpg",
+        "repository_path": "public/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-5.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original clean grayscale separation JPEG image object 119, inverted to match page and encoded baseline sRGB JPEG at 1125 × 632 pixels; the separate p26 pull-quote strip object 120 and line object 121 are omitted.",
+        "role": "illustrative photograph",
+        "sequence": 5,
+        "source_page": 26
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        35
+      ],
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "The Heart of the Matter",
+    "topics": [
+      "64af4c5a-115b-50b0-ae07-5d75a56b13aa",
+      "7765eef1-b410-528e-bcde-39382c685de1",
+      "8027dd12-af78-5fb4-b5e2-dfad753ce6a4",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a7c2194437151289f565ed925949280febb174c10553609c41a5c3c6e16c6322",
+    "metadata_sha256": "4a627521f3fafd80f3739245ef5ffdc88f2aadc2e67abeed5cc04f1ceaaea2af",
+    "structure_sha256": "0f9df48edd0feb50465401c77082eabd5e52e9ecf326f5b47f5f9c692669df1e",
+    "text_sha256": "f4df09bd85ea74d90ce20e5d9198b47672b6b918828d90565dce86af40e4a0f1",
+    "translation_metadata_sha256": "a233e3d920a29f14507c266305825aa1f312620b53cd5ffe75ab1bce548cde0f"
+  },
+  "html": "<article data-article-id=\"103f9dba-5fc8-4384-9161-226f96d1ff5a\">\n  <figure><img src=\"/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-1.jpg\" alt=\"Flowering hyacinth stalk\"></figure>\n  <p>I have been thinking a lot about the verse, “And yet I show unto you a more excellent way.” (1 Co. 12:31) What is this way? It is the way of perfect love. We knew that all the time, didn’t we? But what does Paul really mean and why does he feel a need to say it that way? I have been pondering all this, then last night God dropped a tiny book into my hands, <em>Love—The Greatest Thing in the World</em>, written by Henry Drummond. As I was listening to someone read it aloud, I realized that what the author was saying was the answer to my ponderings. I will quote from the book, changing the old English form somewhat.</p>\n  <blockquote><p><em>Again He says, “Love is the fulfillment of the law.” Did you ever think what He meant by that? In those days, men were working hard to earn their passage to Heaven by keeping the Ten Commandments and the 110 commandments that they had manufactured out of the Ten. Christ came and said, “I will show you a more simple way. If you do that one thing, you will do all these 110 without ever thinking about them. If you love, you will unconsciously fulfill the whole law.” You can readily see for yourselves how that must be so. Take any of the commandments. “Thou shalt have no other gods before me.” If a man loves God, you will not need to tell him that. Love is the fulfilling of that law. “Do not take God’s name in vain.” Would a man ever dream of taking His name in vain if he really loved God? Remember the Sabbath day to keep it holy.” Would he not be too glad to have one day in seven to dedicate more exclusively to the object of his affection? ... You would never dream of urging him not to covet what his neighbor had. He would rather they possessed it than himself. In this way, “love is the fulfilling of the law.” It is the rule for fulfilling all law, the new commandment for keeping the old commandment, Christ’s one secret of the Christian life.</em></p></blockquote>\n  <figure><img src=\"/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-2.jpg\" alt=\"Bowl of fruit with grapes and other fruit\"></figure>\n  <figure><img src=\"/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-3.jpg\" alt=\"Banana beside the fruit bowl\"></figure>\n  <p>Sometimes in living, I find myself getting so consumed with the need to do what Jesus says, that I forget to “be” what He has asked me to be. When I am in that mode, I am far more like my Old Testament counterparts than I would like to admit. Think with me for a minute.</p>\n  <blockquote><p><em>Paul contrasts love with sacrifice and martyrdom: “If I give my body to be burned and have not love it profits me nothing.” Missionaries can take nothing greater to a heathen land than the ... reflection of the love of God upon their own character. That is the universal language. It may take them years to speak in Chinese or in the dialects of India. But from the day they land, that language of love, understood by all, will be pouring forth its unconscious eloquence. It is the man ... not his words. His character is his message ... . Take into your sphere of labor—where you also mean to lay down your life—that simple love, and your lifework must succeed. You can take nothing greater; you need take nothing less.</em></p></blockquote>\n  <p>It is my life, my character, not my words, that show who I really am. As I meditated on what I had read, I applied the words to my heart and life. How do I fit in to that? Am I making sacrifices and forgetting the most important thing? Do I find myself annoyed and discouraged, when after a long, hard day, no one seems to notice or appreciate? Do I find my spirit rising up within me when someone contradicts me, says an unkind word, or starts a false report about me? Where is my Christ-love?</p>\n  <p>Drummond talks about the spectrum of love, and I find myself convicted. It is too easy to read down over the love chapter and remain unchanged, because we have read it so often and our mind flows with the words and does not stop to really meditate. Here is what the author says are the nine ingredients of love, the beautiful spectrum that covers all things.</p>\n  <ul>\n    <li>Patience – Love suffers long.</li>\n    <li>Kindness – Love is kind.</li>\n    <li>Generosity – Love envies not.</li>\n    <li>Humility – Love is not proud.</li>\n    <li>Courtesy – Love does not behave herself in an unseemly way.</li>\n    <li>Unselfishness – Love does not her own good.</li>\n    <li>Good Temper – Love is not easily provoked.</li>\n    <li>Guilelessness – Love takes no account of evil.</li>\n    <li>Sincerity – Love rejoices in the truth.</li>\n  </ul>\n  <blockquote><p><em>... You will observe that all of these are in relation to life, to the known today and the near tomorrow, to our fellowman, and not to the unknown eternity. We hear so much about love to God. Christ also spoke about love to man ...”</em></p></blockquote>\n  <p>It is easier for me to think about loving God whom I cannot see, than loving a sister who has a struggle with me. It is easier to talk about living for God than to actually put these nine things into shoe leather in my family, every day. This kind of love is the heart of the Gospel. This is the heart of Christianity, and yet I fall so short. How can I expect my husband and my children to know that I love God if I often do not measure up in these ways? They hear my life louder than they hear my words, and no amount of teaching by words can make up for my life if I am not living it in the law of love and kindness.</p>\n  <p>Let’s explore how these virtues work out in real life.</p>\n  <blockquote><p><em><strong>Patience – the normal attitude of passive love.</strong> Not in a hurry; calm ... wearing the ornament of a meek and quiet spirit. Love suffers long, bears all things, believes all things, hopes all things. Love understands, therefore waits.</em></p></blockquote>\n  <p>This one really touches me. I am so quick to make instant decisions and give ultimatums. I know that when I stop to think and take time to correct my child in love I am much more understanding. Oh, to be loving in all my training and correction! Have you ever watched a mother who truly reflects the meek and quiet spirit? If you did, you will notice how much more sensitive and careful her children are with others. Her life has spoken more loudly than her words. Her children are a mirror and a window to her daily life. This kind of love works itself out in how we deal with our weaker brothers and sisters, too. We, knowing the love of Christ, take time to pray for them, to lift up the hands that hang down and to undo the heavy burdens so that the oppressed might go free. If we were only as patient with others as our God is with us, the church and the world would sit up and take notice and profit by it.</p>\n  <blockquote><p><em><strong>Kindness – active love.</strong> Have you ever noticed how much of Christ’s life was spent doing kind things? ... He spent a great proportion of His time simply making people happy ... . ”The greatest thing,” says someone, “a man can do for his Heavenly Father is to be kind to His children.” I wonder why it is that we are not kinder than we are? How much the world needs it! How easily it is done! How infallibly it is remembered. ... “I shall pass through this world but once. Any good thing therefore, that I can do, or any kindness that I can show to any human being, let me do it now. Let me not defer or neglect it, for I shall not pass this way again.”</em></p></blockquote>\n  <p>This makes me think of a wedding address that a father made recently, to the new couple. “Be nice to others.” He reminded them that no matter what happened, they should always be nice to each other. He said it again and again about various circumstances. He said it so often that it stuck with me. Love is nice to others. It puts the good of your husband, your children, and others before yourself, no matter what the circumstance. Serving is active love. It puts new meaning into life for you and the ones you are serving. When you live a servant’s life, you unconsciously teach that life to your children. When they learn that lesson, early in life, it will make it so much easier for them to live the love of kindness. Let us be “nice” to others.</p>\n  <blockquote><p><em><strong>Generosity – love in competition with others.</strong> Whenever you attempt a good work, you will find others doing the same kind of work and probably doing it better. Do not envy them. Envy is a feeling of ill will to those who are doing the same thing as we are, a spirit of competition. ... The Christian needs to envy only one thing—the large, rich, generous soul that “envies not.”</em></p></blockquote>\n  <p>Ah! She was asked to…and I never have a chance to … Have you ever noticed how this attitude clouds a whole day or life if it is not repented of? I have nothing to gain and nothing to lose that was not given me by Jesus. If no one notices me, it does not matter.</p>\n  <blockquote><p><em><strong>Humility – love in hiding.</strong> ... to put a seal upon your lips and forget what you have done. After you have been kind, after you have stolen forth into the world (or at home) and done that beautiful work, go back into the shade and say nothing about it. Love hides from itself and waives even self-satisfaction.</em></p></blockquote>\n  <p>I want to be a servant—and only a servant like my Master. Servants get no notice. I am not here for attention, but to bring glory to my Father. As a young mother, this was a real struggle for me. No one noticed the loads of diapers, the mountains of wash, the never-ending cleaning. But as I learned that this was only my reasonable service and that my real calling was to glorify my Father, I found a freedom that I had never had before. I was working for Jesus and He noticed; and that was all that mattered.</p>\n  <blockquote><p><em><strong>Courtesy - ... love in society.</strong> This is love in relation to etiquette. Politeness has been defined as love in trifles. Courtesy is said to be love in little things. And one of the secrets of politeness is to love ... . The ungentle soul, the inconsiderate, unsympathetic nature is not courteous.</em></p></blockquote>\n  <p>Am I courteous to my children and husband? Am I as patient with them and as kind to them as I am to those I meet while shopping or to my brothers and sisters at church? Do I stop to see to my children’s little needs with the same consideration that I have for others? Do I have a double standard in my heart? Is my heart full of care for others in the little things? These are real questions that make my heart stop and ponder.</p>\n  <blockquote><p><em><strong>Unselfishness – love does not seek her own cause.</strong> ... we are to ignore our rights and eliminate the personal element altogether from our calculations. It is not hard to give up our rights. They are often eternal. The difficult thing to give up is ourselves. The more difficult thing is not to seek things for ourselves at all ... I must take that back. It is only true of a partly selfish heart. Nothing is a hardship to true love. I believe that Christ’s yoke is easy, it is just His way of taking life. It is a happier way than any other. The most obvious lesson in Christ’s teaching is that there is no happiness in having and getting anything, but only in giving ... . “It is more blessed to give than to receive.”</em></p></blockquote>\n  <figure><img src=\"/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-4.jpg\" alt=\"Measuring cup beside a handwritten recipe\"></figure>\n  <blockquote>\n    <p><em><strong>Good Temper – love is not provoked.</strong> Nothing could be more striking than to find this here. We are inclined to look upon bad temper as a harmless weakness. We speak of it as a ... family failing, a matter of upbringing, a matter of our culture, not a thing to take into a very serious account, in estimating a man’s character. And yet, here, right in the heart of this analysis of love, it finds a place ... .</em></p>\n    <p><em>The peculiarity of ill temper is that it is the vice of the virtuous. It is often the one blot upon an otherwise noble character. You know men and women who are nearly perfect, but for an easily ruffled, quick-tempered, touchy disposition ... . There is no place in Heaven for a disposition like this ... . You will see, then, why temper is significant. It is not in what it is alone, but in what it reveals. This is why I speak of it with such unusual plainness. It is a test for love—a symptom, a revelation of an unloving nature at the bottom of the heart. It is the intermittent fever that speaks of intermittent disease within ... . A want of patience, a want of kindness, a want of generosity, a want of courtesy, a want of unselfishness are all instantaneously brought out in one flash of temper.</em></p>\n    <p><em>Hence it is not enough to deal with the temper. We must go to the source and change the inmost nature and the angry, impatient spirit will die away. Souls are made sweet, not by taking the acid fluid out, but by putting something in—a great love, a new spirit, the Spirit of Christ ... . Will power does not change men. Time does not change men. Christ does. Therefore, “Let this mind be in you which was also in Christ Jesus.”</em></p>\n  </blockquote>\n  <p>Like Drummond, I think this ingredient of love is one that I am really needing to deal with in my own life. Maybe I do not yell at my children, but what about the inward gritting of the teeth and the impatient spirit that my child can sense. This is harmful to his sensitive spirit, too. It is well that we do not let ourselves go and say unkind, cutting things that we later regret, but have we done well when we have an inward bad attitude? I think not. Our bad attitudes come from an unsanctified heart and to truly be part of the loving Christ we must deal with these. Our children can only mirror our bad attitudes and when they do, we call it rebellion and disobedience. How much, much better it would be if we modeled the right spirit of love for them so that they could be led up the pathway of love more easily. May my attitudes and actions become like my Master who was the example of love.</p>\n  <blockquote><p><em><strong>Guilelessness - love giving unsuspicious grace for others.</strong> The possession of this is a great secret to living out life in difficult times ... . In an atmosphere of suspicion, men shrivel up, but in the atmosphere of love, they expand and find encouragement and educative fellowship. It is a wonderful thing that here and there in this hard uncharitable world there should still be left a few rare souls who think no evil. What a stimulus to even meet with it for a day! ... The respect of another is the first restoration of the self-respect that many a man has lost. Our ideal of what he is becomes to him the hope and pattern of what he may become.</em></p></blockquote>\n  <figure><img src=\"/images/articles/103f9dba-5fc8-4384-9161-226f96d1ff5a-5.jpg\" alt=\"Bruised apple with a hole in the side lying on grass\"></figure>\n  <p>Our children grow and flourish in an atmosphere of blessing and respect. How can we hope to teach them about love if we call them names and heap suspicion and disrespect on them? Children are like flowers. They drink up the rain of love and gentleness and they hold up their heads and smile when we fill them with this regularly. But when we miss the gentle part and are angry and suspicious, they hang their heads and the light goes out of their eyes. Let us be the ones who bless and encourage our children.</p>\n  <blockquote>\n    <p><em><strong>Sincerity – love rejoicing in the truth.</strong> He who loves will love truth. He will rejoice, not in what he has been taught to believe, not in the doctrine of the church, but “in the truth.” He will accept only what is real; he will strive to get at the facts, he will search for truth with an humble unbiased mind and cherish what he finds at any sacrifice ... .</em></p>\n    <p><em>So much for the analysis of love. Now the business of our lives is to have these things fitted into our characters. That is the supreme work to which we need to address ourselves in this world, to learn to love... To love abundantly is to live abundantly, and to love forever is to live forever ... .</em></p>\n  </blockquote>\n  <p>I cannot say it any better. Let us fall on our knees to seek the Lord and repent of our selfish ways so that we can live abundantly and love forever. ~</p>\n  <p><em>Editor’s note:</em></p>\n  <p>The above-mentioned booklet, <em>The Greatest Thing in the World</em>, is available for viewing at http://www.elcristianismoprimitivo.com/english/greatest-thing.htm</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "37fbd7733dc9570be058aff82276ff4a8a4df5f84967378cbd459574e51422b4"
+}

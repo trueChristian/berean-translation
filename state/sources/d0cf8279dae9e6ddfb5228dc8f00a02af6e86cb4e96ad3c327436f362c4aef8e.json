@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Big Prairie, Ohio",
+          "name": "David S. Leid"
+        }
+      ],
+      "raw": "by David S. Leid\nBig Prairie, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
+    "images": [
+      {
+        "alt": "Two boys racing bicycles downhill while a small dog runs into the road",
+        "caption": "\"PRIDE GOETH BEFORE\nDESTRUCTION, AND AN\nHAUGHTY SPIRIT BEFORE\nA FALL\"\n-PROVERBS 16:18",
+        "credit": "Lydia Bauman",
+        "public_path": "/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg",
+        "repository_path": "public/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg",
+        "rights_note": "The masthead credits Lydia Bauman for artwork on page 9; no separate license is stated. Rely on the publisher permission reported by the project owner and preserve the credit before production publication. The embedded illustration was copied byte-for-byte without transformation; the unique printed verse overlay is preserved as exact semantic figcaption text.",
+        "role": "story illustration",
+        "sequence": 1,
+        "source_page": 9
+      }
+    ],
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "THE BICYCLE RACE",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "7abc414e1fe503bb92f39aea86fdd8f7c7ed697cdba8045dd2d7c26ccc20d750",
+    "metadata_sha256": "ae89f8ff704832aa22a575a93ec14d76287d6b2dec9d9d1050edd3d2f230d536",
+    "structure_sha256": "e1c301ae2bef0ee3d8c3c3c8f3e2ddc7326a155f8acb2c34b7b1f63a287e01df",
+    "text_sha256": "fb903427b3e02ca9f7b0a15d6b35ce7b05f8b928fff258d9f057b77d06d2b56c",
+    "translation_metadata_sha256": "aafc7bb0321d8638a09ac939d56a20c47da78762285681f4712f3d71c9311ffa"
+  },
+  "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>It was one of those Sunday afternoons in late spring when the sun was finally shining warmly. It was the time of year when little boys seem to have plenty of extra energy. Little Davy was sitting on the road bank with some neighborhood boys who had stopped by. He felt like jumping up and down in anticipation of the upcoming race.</p>\n\n  <p>Two older boys, Big David and Paul, showed up with brand-new bicycles. These were not the ordinary bicycles the other boys had. They were beautiful Vista bicycles with gleaming new paint, shiny chrome fenders, and three speeds. These bicycles glided smoothly on the chip-and seal road without a rattle. With new ball bearings, they whizzed along with hardly any effort being applied to the pedals. Even though there did not seem to be much difference between the bicycles, Big David’s was a gleaming chestnut brown, and Paul’s a sparkling metal flake blue.</p>\n\n  <p>“Well,” Big David began to brag, “With my longer legs, and freshly sprayed WD40, my bike is sure to be the fastest.”</p>\n\n  <p>“No,” challenged Paul, “my shorter legs can pump faster, and Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.”</p>\n\n  <p>“A race! A race!” the other boys said, “Why not settle it with a race?”</p>\n\n  <p>“Okay,” Big David said, “We’ll have a race and see whose bike is really the fastest.”</p>\n\n  <p>“You bet!” Paul agreed. “We’ll start at the top of Billy’s hill and race all the way down to the bottom,” he said, pointing to the road bank where the other boys were sitting.</p>\n\n  <p>One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.</p>\n\n  <p>“Go Paul!” and “Go Big David!” shouted the boys at the bottom of the hill. All the commotion woke up Little Davy’s rat terrier dog, Nellie. Yapping loudly, Nellie zoomed around the silo as fast as her four little legs could carry her. She headed straight for Big David’s bicycle in the front, barking loudly to try to make it stop. Poor Nellie did not realize another bicycle was trying to pass up the first one.</p>\n\n  <p>Thump, the passing bicycle hit the dog! Crash, bang, the two bicycles ran into each other!</p>\n\n  <p>“Hey – aye!” Oooff! Two boys flew over the handlebars and landed hard on the road. Those shining bicycles were no longer gleaming. They were lying on a heap, scratched and streaked with tar. Nellie limped back beside the silo and stayed lying there for several hours.</p>\n\n  <p>The other boys stood on the bank with their mouths open. Quickly, they ran to the two big boys lying by their new bicycles. “Are you okay?” they asked.</p>\n\n  <p>“I’ll be okay,” Paul said slowly, “but no more races. Who even cares whose bike is the fastest.”</p>\n\n  <p>Even though Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Two boys racing bicycles downhill while a small dog runs into the road\">\n    <figcaption>\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18</figcaption>\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17"
+}

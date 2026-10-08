@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "from Herald of His Coming"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "d84344f8-d9cd-4c1d-8127-9dab43185b06",
+    "images": [
+      {
+        "alt": "Mother and children seated around a table with bowed heads",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "030b434a02fe453bd616186ad84d5361f96412d7",
+        "public_path": "/images/articles/d84344f8-d9cd-4c1d-8127-9dab43185b06-1.jpg",
+        "repository_path": "public/images/articles/d84344f8-d9cd-4c1d-8127-9dab43185b06-1.jpg",
+        "rights_note": "Original embedded PDF image object 80; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 21,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            542,
+            446
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 80,
+          "source_pixel_dimensions": [
+            542,
+            446
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": "In The conversion of preacher T. DeWitt Talmage.",
+    "title": "The Gift of a Praying Mother",
+    "topics": [
+      "9690a7f5-1591-5eaa-b967-4015215c3661",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "05c2dfac-6ad8-5ea0-99ef-d6022f8cb346",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "73a8de75d4caf582bd35248983d8cc834ac56a524df5b8ee38e3d98f9da3c2fd",
+    "metadata_sha256": "e78b2ef0def13ec7b85641a5cfe29d7b29b23c9969d772672fc1fc9218d299f8",
+    "structure_sha256": "0d5b4c8225dadce9c1b9df9d5e0845756cff3b3ede02011925cc1612e181cc7a",
+    "text_sha256": "629a67ecba85e37c13e61dad304132a3fd9b8070a294be1d30eeb2fe8c682ab6",
+    "translation_metadata_sha256": "eeed528942267b86b5b137cfb623064bac4e514dc7953e1ca0c14f710e8f0182"
+  },
+  "html": "<article data-article-id=\"d84344f8-d9cd-4c1d-8127-9dab43185b06\">\n  <figure>\n    <img src=\"/images/articles/d84344f8-d9cd-4c1d-8127-9dab43185b06-1.jpg\" alt=\"Mother and children seated around a table with bowed heads\">\n  </figure>\n  <p>When David Talmage, the father of the famous preacher, T. DeWitt Talmage, was an eighteen-year-old boy still living at home with his brother Jacob and his sister, one night the three of them were going to a party.</p>\n  <p>Their mother, who was an invalid, just before they left, called them to her bedside and said, You are going out to a festive party; but I want you to know that I shall be on my knees praying for you until you return.</p>\n  <p>They went, and on their return passed their mother’s door at two o’clock, catching a glimpse of her still kneeling by her bed.</p>\n  <p>Early the next morning, Mother Talmage wakened her husband and asked him to get up and see what was the matter, for she heard someone weeping.</p>\n  <p>Going hastily down to the living room Father Talmage found his daughter on her knees weeping, but when he undertook to speak to her, she said, Go to the barn, father, for David is in worse need of you than I am. I shall be all right.</p>\n  <p>Going to the barn the old gentleman found David weeping his heart out from the mighty conviction that had seized him. However, when Mr. Talmage had prayed a short time with him, David said, Go to Jacob, he needs you more than I do now, I presume. He’s in the wagon shed.</p>\n  <p>So it turned out that the Lord saved all three of the Talmage children that morning, in answer to the determined and definite praying of their mother.</p>\n  <p>David had a sweetheart living down the lane, and rising from his knees, he went right down to her home and told her the wonderful news about himself and his brother and sister being saved, urging her to give her heart to God.</p>\n  <p>In the prayer there they had together she, too, was added to the host of the redeemed. The news reaching the church produced a tremendous sensation, and a gracious and widespread revival followed!</p>\n  <p>This sweetheart of David’s later became the mother of T. DeWitt Talmage. Some years afterwards she made a solemn covenant with four other women to meet with them every Wednesday afternoon and pray for their children, until every child in the five homes was saved.</p>\n  <p>The covenant was kept until every child in the five families was converted.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f7b28aa75e0501db51c87d969e6b1ff76ce430a8d43c5f7721d87991a74236cc"
+}

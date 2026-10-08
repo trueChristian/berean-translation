@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Charles Wesley"
+        }
+      ],
+      "raw": "By Charles Wesley (1742)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+    "images": [
+      {
+        "alt": "An old wooden door beside a weathered wall and blossoming branches.",
+        "caption": null,
+        "credit": "© Nadiika Kravets",
+        "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg",
+        "repository_path": "public/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 36; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The meaningful unobstructed left strip preserves the doorway and visible flowering branches. The poem/title-bearing faded right region and bottom footer are excluded. Source photographic softness, residual pale toning and any scanned-paper show-through remain; hidden pixels were not synthesized. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            495,
+            2095
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            495,
+            2095
+          ],
+          "output_dimensions": [
+            495,
+            2049
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1656,
+            2191
+          ],
+          "source_object": 36,
+          "vertical_scale_to_published_aspect": 0.9781190431444143
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Wrestling Jacob",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "06fd744a5d8d062157ba38a90e50de8a0982015ecca3a34c5254b18615a979d9",
+    "metadata_sha256": "37a703da64d405daf3f488ed0cbbfbd72b0fe72398588e2f77fa05127690f6eb",
+    "structure_sha256": "59b967a86b6c75fcc983fec17bc46c4ea8f84a6630e01af3cdd4d8f2c56201bb",
+    "text_sha256": "491cb16e510a2496a71cdf1ae02930c21d5d8053bf04e24157f1979ef3dadb4f",
+    "translation_metadata_sha256": "fd176c205db8bfbe1ac0be473cefd04ae220266ea5c5dad4a7ecf198fc784c51"
+  },
+  "html": "<article data-article-id=\"6c25be17-3343-451b-afeb-ed9c56942fd0\">\n  <figure>\n    <img src=\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\" alt=\"An old wooden door beside a weathered wall and blossoming branches.\">\n  </figure>\n  <p class=\"poem\">Come, O thou Traveller unknown,<br>Whom still I hold, but cannot see;<br>My company before is gone,<br>With thee all night I mean to stay,<br>And wrestle till the break of day.</p>\n  <p class=\"poem\">I need not tell thee who I am,<br>My misery and sin declare;<br>Thyself hast called me by my name,<br>Look on thy hands, and read it there!<br>But who, I ask thee, who art thou?<br>Tell me thy name, and tell me now.</p>\n  <p class=\"poem\">In vain thou strugglest to get free,<br>I never will unloose my hold:<br>Art thou the Man that died for me?<br>The secret of thy love unfold:<br>Wrestling, I will not let thee go,<br>Till I thy name, thy nature know.</p>\n  <p class=\"poem\">’Tis all in vain to hold thy tongue,<br>Or touch the hollow of my thigh;<br>Though every sinew be unstrung,<br>Out of my arms thou shalt not fly;<br>Wrestling I will not let thee go,<br>Till I thy name, thy nature know.</p>\n  <p class=\"poem\">What though my shrinking flesh complain,<br>And murmur to contend so long?<br>I rise superior to my pain,<br>When I am weak, then I am strong;<br>And when my all of strength shall fail,<br>I shall with the God-man prevail.</p>\n  <p class=\"poem\">My strength is gone, my nature dies,<br>I sink beneath thy weighty hand;<br>Faint to revive, and fall to rise;<br>I fall, and yet by faith I stand:<br>I stand, and will not let thee go,<br>Till I thy name, thy nature know.</p>\n  <p class=\"poem\">Yield to me now—for I am weak,<br>But confident in self-despair;<br>Speak to my heart, in blessings speak,<br>Be conquered by my instant prayer:<br>Speak, or thou never hence shalt move,<br>And tell me if thy name is Love.</p>\n  <p class=\"poem\">’Tis Love! ’tis Love! thou diedst for me,<br>I hear thy whisper in my heart;<br>The morning breaks, the shadows flee,<br>Pure, universal Love thou art:<br>To me, to all, thy mercies move—<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">My prayer hath power with God; the grace<br>Unspeakable I now receive;<br>Through faith I see thee face to face,<br>I see thee face to face and live!<br>In vain I have not wept and strove—<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">I know thee, Saviour, who thou art,<br>Jesus, the feeble sinner’s friend;<br>Nor wilt thou with the night depart,<br>But stay and love me to the end,<br>Thy mercies never shall remove,<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">The Sun of Righteousness on me<br>Hath rose with healing in his wings;<br>Withered my nature’s strength, from thee<br>My soul its life and succour brings;<br>My help is all laid up above—<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">Contented now upon my thigh<br>I halt, till life’s short journey end;<br>All helplessness, all weakness, I<br>On thee alone for strength depend;<br>Nor have I power from thee to move—<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">Lame as I am, I take the prey,<br>Hell, earth, and sin with ease o’ercome;<br>I leap for joy, pursue my way,<br>And as a bounding hart fly home,<br>Through all eternity to prove<br>Thy nature and thy name is Love.</p>\n  <p class=\"poem\">To God be glory for the day<br>When I could see thy smiling face,<br>Thy mercy’s dawn, thy morning ray,<br>And all the riches of thy grace:<br>Forever shall my song remove,<br>Thy nature and thy name is Love.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff"
+}

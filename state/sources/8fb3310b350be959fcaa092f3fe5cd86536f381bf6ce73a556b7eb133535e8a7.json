@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Pikeville, Tennessee",
+          "name": "Susan Chapman",
+          "role": "wife of Jeff Chapman"
+        }
+      ],
+      "raw": "by Susan Chapman"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "1005b067-e399-4a2c-8c1c-f06799a62d79",
+    "images": [
+      {
+        "alt": "A family posed together for a group portrait",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1005b067-e399-4a2c-8c1c-f06799a62d79-1.jpg",
+        "repository_path": "public/images/articles/1005b067-e399-4a2c-8c1c-f06799a62d79-1.jpg",
+        "rights_note": "Clean source image object 94; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            312,
+            237
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            312,
+            237
+          ],
+          "source_object": 94,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "We Will Believe God",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "65dd0b7c-0461-5807-bd07-7339c88251f1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0a6aabe3d5e20215209489540cd7cd5a50047764c4cde17146c9336f30546c69",
+    "metadata_sha256": "336469fa0d27d952f9b93f1bd51f01c204201bfd0b6ffef69ebd22024d09dd4e",
+    "structure_sha256": "fd4d12ddf8ecb744cf8725d98fe81b1f2ca1d6d035cf322ccb86540c16784efa",
+    "text_sha256": "37fa44e2e263bd96163a6d365b5c07ac421b030ceceb7f85e9fbe181806364e0",
+    "translation_metadata_sha256": "0c2c9aac44be6c90e87c7717becb943f8defe3daca39242c82fc7fe79b086822"
+  },
+  "html": "<article data-article-id=\"1005b067-e399-4a2c-8c1c-f06799a62d79\">\n  <figure><img src=\"/images/articles/1005b067-e399-4a2c-8c1c-f06799a62d79-1.jpg\" alt=\"A family posed together for a group portrait\"></figure>\n  <p>Though already a busy family of ten, we were blessed abundantly with the arrival of Joshua Abel in September of 2003. It makes it easier for the family to settle back into a routine if the new baby is content and will rest fairly well, but I noticed right away that this baby was fussier than any of the others had been. He acted like he was in pain.</p>\n  <p>One evening during a particularly lengthy crying spell, I was changing Joshua’s diaper when I noticed he had a hernia protruding from his lower right abdomen. Our fourth child had a hernia repaired at 20 months, and I had been through hernia surgery myself so I recognized the telltale lump right away. “So this is what is causing all the pain,” I said to my husband as we examined it closer.</p>\n  <p>In the following days, I checked the hernia each time I changed his diaper and noticed it bulging on occasion, so we decided to have the pediatrician look at it. Both of us knew that hernia repair surgery is not considered dangerous in itself, but knew that we did not want our tiny son to be put under general anesthesia before he was even 2 months old!</p>\n  <p>Only a day or two later, I discovered what I thought was another hernia on the other side of the baby’s abdomen. My heart broke as I thought how painful these hernias could be for such a small baby. I tearfully told the older children that we must all try to keep Joshua from crying because this could cause the hernias to rupture. Our family began to pray to God for Joshua’s healing.</p>\n  <p>It did not take long for me to suspect that this new lump was not a hernia. It could not be pushed in as the other one could, and it didn’t feel the same. Let me confess, fear rose up in my heart. I do not have much medical knowledge but I’m sure I imagined the worst. My husband assured me that God was in control and that he personally was not worried a bit. He was so matter-of-fact about it that he almost seemed unconcerned. I anxiously awaited our appointment with the pediatrician.</p>\n  <p>“Yes, there’s a hernia on the right, but this lump on the left concerns me. I would like for you to see a specialist at the children’s hospital in Knoxville.” I felt my hands get sweaty and I tried not to cry but I could again feel fear creep into my heart, as the pediatrician telephoned the doctor in the city.</p>\n  <p>I’ll never forget the ride home from the pediatrician’s office. I sat in the back seat next to Joshua’s car seat just so I could hold his little hand. I knew in my heart that God was in control of every aspect of our lives, but I also knew that there are trials we all must face and this could be mine. “I will trust and not be afraid,” I quoted over and over to myself as tears slid down my cheeks. What a blessing to catch my husband’s face in the rearview mirror and see no fear there, no panic, no doubt—only peace and even joy as he whistled a hymn. This was such a comfort to me. “We will believe God,” he said, “and not a doctor.”</p>\n  <p>The following church service we asked for anointing with oil and prayer for Joshua. We called a few dear friends and asked them to pray as well. At home we fasted and had special prayer for Joshua several times each day. We requested that everyone pray specifically that the doctor would give us a diagnosis without any tests, scans, x-rays, MRI’s, etc., and that it would be a good report. I recalled my husband’s words, “We will believe God…,” often throughout the week, and my faith grew.</p>\n  <p>“It’s called a Cord Lipoma,” the surgeon explained as he drew us a diagram detailing the inside of the abdomen. “We recommend that you have the hernia repaired and the Lipoma removed at the same time.” He explained that it was not painful and rarely dangerous, but could cause problems later on. He scheduled surgery for 2 weeks later. “Thank you Jesus!” my heart sang all the way home. Our specific prayer had been answered, but God was not finished yet.</p>\n  <p>About 3 days before the surgery my husband bought a newspaper to use as an object lesson in the children’s class he would be teaching at church. “Find an article about the flu,” he told me. When I found the article and began reading it to him, we learned all about the terrible flu epidemic of the season, the many children that had died from it and the overflowing hospital emergency rooms. “I don’t think we should take Joshua in for surgery; he could catch the flu—or worse. God can totally heal him. Let’s believe God,” my husband said.</p>\n  <p>“Amen,” I thought. God had proven himself faithful already so we cancelled the surgery. Though Joshua had more than a few crying spells over the next 6 weeks, the hernia never protruded again, though I checked for it and the Lipoma cyst every time I bathed him or changed his diaper. I was monitoring that cyst to make sure it wasn’t growing. One evening as I was dressing Joshua for bed, my hand automatically reached to feel the cyst. As I searched and checked for it, my heart began to race. Where was it? I pushed and probed his belly until he began to giggle but there was no cyst there! I called down the stairs to my husband, “Come quickly!” Together we felt and felt for the cord Lipoma, but it was gone—completely gone! We poured out our hearts in praise and thanksgiving to our Lord Jesus and, “We will believe you, God,” echoed in my mind.</p>\n  <blockquote><p><em>“Now unto Him that is able to<br>do exceedingly abundantly above<br>all that we can ask or think…”<br>Ephesians 3:20</em></p></blockquote>\n  <p>(*Susan Chapman is the wife of Jeff Chapman. Jeff and Susan and their nine children reside in Pikeville, Tennessee.)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0fdfcaaa039985c145daac5e3b40deb5647cd9f460fde1e8caf2ef2c8b8819d7"
+}

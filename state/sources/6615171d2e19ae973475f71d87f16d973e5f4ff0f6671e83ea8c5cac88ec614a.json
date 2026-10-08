@@ -1,0 +1,78 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Andrew Weaver"
+        }
+      ],
+      "raw": "by Andrew Weaver"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "38b76049-0ded-4f8a-9490-74e28d8bee8b",
+    "images": [
+      {
+        "alt": "A person crosses a deep gap on a narrow bridge marked FAITH.",
+        "caption": null,
+        "credit": null,
+        "height": 288,
+        "public_path": "/images/articles/38b76049-0ded-4f8a-9490-74e28d8bee8b-1.jpg",
+        "repository_path": "public/images/articles/38b76049-0ded-4f8a-9490-74e28d8bee8b-1.jpg",
+        "rights_note": "Original PDF page 32 image object 114; no separate image licence or credit is stated. Clean base extracted; the word FAITH is intrinsic and substantive to the illustration. Separate Book Review heading panel omitted. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "source_xref": 114,
+        "transformations": "Embedded base image extracted; grayscale converted to RGB/sRGB without inversion where applicable; standards-normalized baseline JPEG at original pixel dimensions with nonzero 72 dpi density.",
+        "verification": {
+          "encoded_bytes": 44293,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "JPEG 210x288 sRGB Grayscale 72 72",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 210
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        32,
+        33,
+        35
+      ],
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "The Christian’s Secret of a Happy Life",
+    "topics": [
+      "649d37ab-7011-545e-8f58-c9f374fd3bfe",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6000a648e92c7e49ae2bfc1c66055e12479925faae2331b5e8f61fef1abb5e76",
+    "metadata_sha256": "9ad0b72846a402ba67fe2689bf7269473dea41c89dda609407bc69a9d1bac951",
+    "structure_sha256": "7e9fa39cfac7cbbebbf30c7e81b0ba72e548ce5613826e397f11b480420ed447",
+    "text_sha256": "997e79a3293d1756c7c790809501ece900b83b3c5399bcdfd6a3e5ea5b460d53",
+    "translation_metadata_sha256": "2e2b5e2b502f5687b2df13f8501f96bf46b257061bb0a39a7f9f16fd3b4357fa"
+  },
+  "html": "<article data-article-id=\"38b76049-0ded-4f8a-9490-74e28d8bee8b\">\n  <figure><img src=\"/images/articles/38b76049-0ded-4f8a-9490-74e28d8bee8b-1.jpg\" alt=\"A person crosses a deep gap on a narrow bridge marked FAITH.\"></figure>\n  <p>Since its publication 130 years ago, this book has remained a favorite among Christian readers. Unlike many books written in that period, the language is very simple and uncomplicated, and you will find it a pleasure to read. <em>The Christian’s Secret of a Happy Life</em> is an invitation to live the Christian life as God intended us to—in victory and joy. The author refers to this as the “life hid with Christ in God” and shares many of her own experiences of learning to live this life.</p>\n  <p>Her preface gives an excellent introduction to the book:</p>\n  <blockquote>\n    <p>What I have to tell in this little book is no new story…. Many times it has been lost sight of, and the church has seemed to fall into almost hopeless darkness and lifelessness. But the “secret” has always been preserved by an apostolic succession of those who have walked and talked with God. The truths I have to tell are not theological, but practical. The book is sent out in tender sympathy and yearning love for all struggling, weary souls, of whatever creed or name; and its message goes right from my heart to theirs.</p>\n  </blockquote>\n  <p>The first chapter explains how the author came to see that Christians were meant to be full of a joy that would attract unbelievers to this life in Christ:</p>\n  <blockquote>\n    <p>A keen observer once said to me, “You Christians seem to have a religion that makes you miserable. You are like a man with a headache. He does not want to get rid of his head, but it hurts him to keep it. You cannot expect outsiders to seek very earnestly for anything so uncomfortable.” Then for the first time I saw, as in a flash, that the religion of Christ ought to be, and was meant to be, to its possessors, not something to make them miserable, but something to make them happy; and I began then and there to ask the Lord to show me the secret of a happy Christian life.</p>\n  </blockquote>\n  <p>Speaking of the life of alternating failure and victory that so many have accepted as normal, the first chapter asks:</p>\n  <blockquote>\n    <p>But <em>is</em> this all? Had the Lord Jesus only this in His mind when He laid down His precious life to deliver you from your sore and cruel bondage to sin? Did He propose to Himself only this partial deliverance? Did “enabling us always to triumph” mean that we’re only to triumph sometimes? Does being “saved to the uttermost” mean the meager salvation we see manifested among us now? Can we dream that the Savior, who was wounded for our transgressions and bruised for our iniquities, could possibly see of the travail of His soul and be satisfied in such Christian lives as fill the Church today?</p>\n    <p>In the very outset, then, settle down on this one thing, that Jesus came to save you, now, in this life, from the power and dominion of sin, and to make you more than conquerors through His power. Can we, for a moment, suppose that the holy God, who hates sin in the sinner, is willing to tolerate it in the Christian, and that He has even arranged the plan of salvation in such a way as to make it impossible for those who are saved from the guilt of sin, to find deliverance from its power?</p>\n  </blockquote>\n  <p>In the chapter “How to Enter In” the author sums up our responsibility in two steps:</p>\n  <blockquote>\n    <p>First, entire abandonment; and second, absolute faith. No matter what may be the complications of your peculiar experience, no matter what your difficulties, or your surroundings, or your “peculiar temperament,” these two steps, definitely taken and unwaveringly persevered in, will certainly bring you out sooner or later into the green pastures and still waters of the life hid with Christ in God.</p>\n  </blockquote>\n  <p>A later chapter speaks about some difficulties involving faith:</p>\n  <blockquote>\n    <p>Your idea of faith, I suppose, has been something like this. You have looked upon it as in some way a sort of thing — either a religious exercise of soul, or an inward, gracious disposition of heart; something tangible, in fact, which, when you have secured it, you can look at and rejoice over, and use as a passport to God’s favor, or a coin with which to purchase His gifts. And you have been praying for faith, expecting all the while to get something like this; and never having received any such thing, you are insisting upon it that you have no faith. Now faith, in fact, is not in the least like this. It is nothing at all tangible. It is simply believing God; and, like sight, it is nothing apart from its object. You might as well shut your eyes and look inside, and see whether you have sight, as to look inside to discover whether you have faith. You see something, and thus know that you have sight; you believe something, and thus know that you have faith.</p>\n    <p>It seems strange that people whose very name of Believers implies that their chief characteristic is that they believe, should have to confess that they have doubt. Most Christians have settled down under their doubts, as to a sort of inevitable malady, from which they suffer acutely, but to which they must try to be resigned as a part of the necessary discipline of this earthly life; and they lament over their doubts as a man might lament over his rheumatism, making themselves out as “interesting cases” of special and peculiar trial, which require the tenderest sympathy and the utmost consideration.</p>\n    <p>Just as well might I join in with the laments of a drunkard, and unite with him in prayer for grace to endure the discipline of his fatal appetite, as to give way for one instant to the weak complaints of these enslaved souls, and try to console them under their slavery. To [both] I would dare to do nothing else but proclaim the perfect deliverance which the Lord Jesus Christ has in store for them, and beseech them…to avail themselves of it and be free. Not for one moment would I listen to their despairing excuses. You ought to be free, you can be free, you must be free!</p>\n  </blockquote>\n  <p>Another chapter is entitled “Difficulties Concerning Failures” and it begins thus:</p>\n  <blockquote>\n    <p>The very title of this chapter may perhaps startle some. “Failures,” they will say; “we thought there were no failures in this life of faith!” To this I would answer that there ought not to be, and need not be; but, as a fact, there sometimes are, and we must deal with facts, and not with theories. No safe teacher of this interior life ever says that it becomes impossible to sin; they only insist that sin ceases to be a necessity, and that a possibility of continual victory is opened before us. When a believer, who has, as he trusts, entered upon the highway of holiness, finds himself surprised into sin, he is tempted either to be utterly discouraged, and to give everything up as lost; or else in order to preserve the doctrines untouched, he feels it necessary to cover his sin up, calling it infirmity, and refusing to be candid and above-board about it. Either of these courses is equally fatal to any real growth and progress in the life of holiness. The great point is an instant return to God. Our sin is no reason for ceasing to trust, but only an unanswerable argument why we must trust more fully than ever.</p>\n    <p>We are not preaching a <em>state</em>, but a <em>walk</em>. The highway of holiness is not a <em>place</em>, but a <em>way</em>. Sanctification is not a thing to be picked up at a certain stage of our experience, and forever after possessed, but it is a life to be lived day by day, and hour by hour.</p>\n  </blockquote>\n  <p>The chapter “Bondage or Liberty” shows clearly the vast difference between a life of grace and life under the law:</p>\n  <blockquote>\n    <p>Here are two men who neither of them steals. Outwardly their actions are equally honest; but inwardly there is a vital difference. One man has a dishonest nature that wants to steal, and is only deterred by the fear of a penalty; while the other possesses an honest nature that hates thieving, and could not be induced to steal, even by the hope of a reward. The one is honest in the spirit; the other is honest only in the flesh. No words are needed to say of which sort the Christian life is meant to be.</p>\n    <p>So deeply is the idea that the Christian life is a species of bondage ingrained in the church, that, whenever any of the children of God find themselves “walking at liberty” they at once begin to think there must be something wrong in their experience, because they no longer find anything to be a “cross” to them. As well might a wife think there must be something wrong in her love for her husband, when she finds all her services for him are pleasure instead of a trial!</p>\n  </blockquote>\n  <p>I hope this sampling of this book’s riches has been enough to persuade you to read it for yourself and uncover more. May God bless you and enable you to daily enjoy <em>The Christian’s Secret of A Happy Life.</em></p>\n  <aside><p><strong>The Christian’s Secret of A Happy Life</strong><br>is available through your local bookstore.</p></aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "eebb25bb641eed7a7056c6bcb08dbd0373983f83a12de0f5d1f59e07cd0574fa"
+}

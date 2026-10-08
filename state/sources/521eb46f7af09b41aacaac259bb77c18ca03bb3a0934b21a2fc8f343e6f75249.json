@@ -1,0 +1,96 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rodger Hertzler"
+        }
+      ],
+      "raw": "by Rodger Hertzler"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "44a970cf-d23c-5e24-a196-0b08595d01ba"
+    },
+    "id": "216f3f3f-af90-4920-88cb-5e950f320ecc",
+    "images": [
+      {
+        "alt": "An open case holding bottles and medical instruments",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-1.jpg",
+        "repository_path": "public/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-1.jpg",
+        "rights_note": "PDF image object xref 110. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Source-pixel crop [90, 62, 497, 554]. Source-pixel crop isolates the medical case and omits flattened article title/subtitle. The gray gradient surrounding the case is irreversibly baked into the only raster and retained as an explicit exception. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 26
+      },
+      {
+        "alt": "A person operating a large suspended-bell apparatus",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-2.jpg",
+        "repository_path": "public/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-2.jpg",
+        "rights_note": "PDF image object xref 111. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred.  Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 26
+      },
+      {
+        "alt": "Two connected vessels with a curved tube",
+        "caption": null,
+        "credit": "DEBRAY",
+        "public_path": "/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-3.png",
+        "repository_path": "public/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-3.png",
+        "rights_note": "PDF image object xref 115. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. The small DEBRAY signature is preserved in the source drawing. Lossless RGB PNG; retained source pixels and dimensions preserved.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 27
+      },
+      {
+        "alt": "Hands holding a syringe and pills and writing with a pen",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-4.png",
+        "repository_path": "public/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-4.png",
+        "rights_note": "PDF image object xref 122. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred.  Lossless RGB PNG; retained source pixels and dimensions preserved.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 26
+    },
+    "subtitle": "Medical, Natural, or Supernatural",
+    "title": "Health Care",
+    "topics": [
+      "41c83473-aba5-580f-afdb-dc1c40450897",
+      "1adc5bef-6efc-5d8b-821f-01a4bf96ffea",
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ebed9704b8d9f2465e98a6a84c1564c45844940765f641dc650bf586497881d7",
+    "metadata_sha256": "37e53d297526a73725ee2fadc1f5d729aa819c69ce56f15a86a32d685d7ab755",
+    "structure_sha256": "b71e25ab7a9bc3c9931a4b349dac72d9cca92f4240e6f6380f3d58918a8b68c9",
+    "text_sha256": "0bf367221770900e1768d7366e9e553fce07980228e6e7aa5b6e0fd4fa950090",
+    "translation_metadata_sha256": "e70d5bc7a95768db99440146d285df6daed991570a18e831f55b25555f48820c"
+  },
+  "html": "<article data-article-id=\"216f3f3f-af90-4920-88cb-5e950f320ecc\">\n<figure>\n  <img src=\"/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-1.jpg\" alt=\"An open case holding bottles and medical instruments\">\n</figure>\n<p>We live in a world which offers us an almost endless list of choices when it comes to taking care of our health. We are bombarded every day by advertisements promoting a huge variety of products, procedures, and practitioners, all of them promising to either make us healthy or else keep us healthy.</p>\n<p>For the Bible-believing Christian, does it matter how we choose among the various health-care options? Is this a choice that is basically amoral, without any definite “right and wrong”? Or, is it a decision that will significantly impact both our spiritual lives and our eternal destiny?</p>\n<p>In the minds of many people, the various health care options can be neatly divided into two categories: <em>medical</em> and <em>natural.</em> The <em>medical</em> category (or “conventional medicine”) includes most of the drugs, surgeries, and other therapies that are approved by the government and used by licensed physicians. The <em>natural</em> category supposedly includes everything that falls outside of the <em>medical</em> category.</p>\n<p>Although this simple classification system seems so sensible and right, it is, in fact, dead wrong. Not only is it wrong, but it is also dangerous: so dangerous that Satan has been able to use this lie, I fear, to bring multitudes into the bondage of sin.</p>\n<p>Why is this classification system so wrong? What makes it so dangerous? The answer lies in the fact that there are actually three categories, not two.</p>\n<p>It is simply not true that whenever we step out of the medical field that we have automatically entered the natural. Because there is also a third category of health care, the <em>supernatural.</em></p>\n<p>There have been many well-meaning people who chose not to use conventional medicine (often for very good reasons) and opted instead to go with what they thought to be a natural therapy. In doing so, however, they inadvertently stepped not into the natural, but into the supernatural.</p>\n<figure>\n  <img src=\"/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-2.jpg\" alt=\"A person operating a large suspended-bell apparatus\">\n</figure>\n<p>Natural health care remedies are good, right, and a blessing from God. Supernatural remedies, except for prayer and anointing with oil, are strictly forbidden by God.</p>\n<p>Supernatural health care practices (sometimes called <em>occult</em> or <em>New Age</em> health practices) are included in the sin that God calls <em>witchcraft</em> or <em>sorcery.</em> It is nothing less than tapping into the power of Satan and his demonic forces. God says in His Word that those who practice such things shall not inherit the kingdom of God, but shall have their part in the lake of fire. (Galatians 5:20-21, Revelation 21:8) The sin of witchcraft was one of the reasons God drove out the Canaanites before Israel. It was this sin, in part, that cost Saul his kingship. And it was because of this sin, among others, that wicked King Manasseh was carried captive to Babylon.</p>\n<p>If this is true, then it becomes extremely important that we be able to discern whether or not a particular therapy fits into this <em>supernatural</em> category. Once we recognize what really is at stake with this issue, it simply won’t be satisfactory to say, “Well, people have different opinions about these issues. Since we probably won’t be able to change anyone’s mind anyway, there’s not much point in spending a lot of time investigating them.” (If this is our response, it reveals that we do not view this sin of witchcraft with the hatred God has for it.)</p>\n<p>The truth is, if we, our family members, or our fellow church members have been involved in occult activities (even if it has been in ignorance), then it is imperative that we discover the truth and discover it very soon. All sin, especially a sin as serious as witchcraft, will bring us into a bondage to Satan that can only be broken by confession, repentance, and the cleansing power of the blood of Jesus. Our personal victory, the purity of our churches, and the destiny of our eternal souls are all depending on our willingness to find this truth and respond to it.</p>\n<figure>\n  <img src=\"/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-3.png\" alt=\"Two connected vessels with a curved tube\">\n</figure>\n<p>So how can we know whether or not a particular remedy fits into the supernatural category? Is there a reliable way to test a therapy and determine, with a reasonable level of certainty, whether or not it is sin?</p>\n<p>Yes, thankfully, there is. Although the details vary, there are three simple points that generally characterize any therapy which derives its power from the realm of darkness.</p>\n<ul>\n<li>There is no explanation about its effectiveness that makes sense scientifically.</li>\n<li>The healing power is not dependent on Christ or on His Word.</li>\n<li>Those who promote the therapy tie its effectiveness to some sort of power which, when analyzed, proves to be a <em>non-physical</em> (and therefore spiritual) power.</li>\n</ul>\n<p>To determine whether or not this third point applies to a particular therapy, we may have to dig a little deeper into the materials promoting the therapy, or into the history of the therapy’s origin. The names used to describe this non-physical power are as varied as the therapies themselves. Some of them even use scientific-sounding names, such as <em>magnetism</em> or <em>electricity,</em> to identify this power; however, the characteristics of this power are vastly different from those of the magnetism or electricity that can be observed and tested in the scientific world. Here are some examples of the names that have been given to this power:</p>\n<p><strong>Vital Energy<br>Vital Force<br>Universal Energy<br>Innate Intelligence<br>Healing Force<br>Life Force<br>Electromagnetic Energy<br>Electricity<br>Meridians<br>Chi</strong></p>\n<p>When a particular therapy fits all three of the characteristics listed above, we can be nearly certain that it fits into what the Bible calls the sin of witchcraft. We ought therefore to avoid it, pray against it, and if we’ve ever gotten personally involved, repent and renounce it thoroughly.</p>\n<p>Based, then, on the three-point test described above, which of the popular therapies in use today match the characteristics of a <em>supernatural</em> therapy? Although there are doubtless many more than what we could possibly list in this article, here is a list of just a few therapies that seem to qualify as witchcraft when subjected to this test.</p>\n<p><strong>Reflexology<br>Applied Kinesiology<br>Acupuncture<br>Acupressure<br>Homeopathy (with <em>potentization</em>)<br>Radiesthesia (pendulums, etc.)<br>Yoga<br>Meditation<br>Hypnotherapy</strong></p>\n<p>Does this mean that the case is totally closed on all these procedures? No. Our conclusions should always be open to re-examination if new evidence comes to light. But as long as all the existing evidence points to the conclusion that these things truly are witchcraft, we ought to deal with them just as we would any other practice that is an abomination in the sight of God.</p>\n<hr>\n<p>As you attempt to discern between right and wrong regarding health care therapies, please beware of certain false ideas that Satan has set as pitfalls to hinder you in your search for truth. Following are a number of myths regarding health therapies which will tend to generate clouds of confusion around an area where God wants there to be light and understanding.</p>\n<h2>Myth 1</h2>\n<p><strong>Any phenomenon that is not understood by scientists must be witchcraft.</strong></p>\n<p>Science is constantly making new discoveries about the natural world we live in, and some perfectly natural occurrences are therefore still in the realm of the unknown. This by itself does not prove anything to be witchcraft, and we should not judge something to be witchcraft based on this criterion alone. We should rather put it to the three-point test described above to see if it meets all the characteristics of the occult. Also ask whether or not the phenomenon acts like true science. Does it yield the same results under identical circumstances? Or do the results vary widely with no reasonable explanation for the variation? Does it make claims that are clearly outside the realm of science, such as the ability to treat the soul and the spirit?</p>\n<h2>Myth 2</h2>\n<p><strong>If it works, it must be scientific.</strong></p>\n<p>In a largely secular country like the United States, many of us have bought into the idea that wherever we see real results, there must be a natural or rational explanation for those results. The idea that anything is the result of supernatural forces is written off as mere superstition. The truth is, supernatural forces really do exist and those forces really can produce results that defy any natural or rational explanation.</p>\n<h2>Myth 3</h2>\n<p><strong>If it is witchcraft, it won’t work for Christians.</strong></p>\n<p>Occult health practices have been known to yield amazing results for Christians as well as for non-Christians. God has warned His people not to dabble in the occult, and God doesn’t warn us about things that are not possible for us to do. If we consciously choose to ignore His warnings and use witchcraft anyway, it seems as though we open ourselves up to Satan’s power and forego the protection that God has otherwise provided for us.</p>\n<h2>Myth 4</h2>\n<p><strong>If it is witchcraft, the guilt lies with the practitioner, not with the patient.</strong></p>\n<p>The logic used here is that as long as I am not practicing witchcraft myself, but rather <em>hiring someone else to do it,</em> then I personally am not guilty. This does not seem to be consistent with Scripture, however. God poured out his judgment on Saul because of the sin of witchcraft. Yet the truth is that Saul did not actually practice the witchcraft himself, but rather <em>hired someone else to practice it for him.</em> It was this wicked deed that incurred the wrath of the Almighty.</p>\n<h2>Myth 5</h2>\n<p><strong>It’s not possible to really know the truth about these therapies.</strong></p>\n<p>Some say that the widely varying opinions about health care remedies make it nearly impossible to really know the truth about them. However, 1 John 1:5 tells us that “God is light, and in him is no darkness at all.” We can be sure that the same God Who has warned us so thoroughly about the sin of witchcraft sincerely wants us to know what does and what doesn’t qualify as witchcraft. If we find ourselves throwing up our hands and saying, “I just don’t know the answer,” it’s probably either because we have not been willing to do an honest investigation or else we’ve already decided for personal reasons what our position (or lack of position) will be. God is always faithful to reveal truth to a seeking heart, especially about an issue with such far-reaching consequences as this one. <em>“And ye shall know the truth, and the truth shall make you free.” (John 8:32)</em></p>\n<h2>Myth 6</h2>\n<p><strong>If a trusted person (a medical doctor, a family member, a fellow Christian, or a church leader) recommends a therapy, it must be OK.</strong></p>\n<p>Satan has mixed his practices throughout so much of the health care industry that we ought to carefully examine health therapies from any source, including medical doctors and fellow church members. Many of the people who use supernatural therapies are doing it in ignorance. Let’s show mercy to these precious souls by first of all refusing the treatment, and then by warning them about the consequences of what they are doing.</p>\n<h2>Myth 7</h2>\n<p><strong>Even if a procedure does appear to be supernatural, it could just as well be God’s power rather than Satan’s power that makes it work.</strong></p>\n<p>Most of these remedies will work even without prayer in the name of Jesus, even if the patient is living in known sin, and even for those who give no acknowledgement whatsoever to the God of the Bible. Where this is true, we can be sure that the power comes from Satan and not from God.</p>\n<p>In James 5:13-16, God gives us His method for dealing with health issues supernaturally. It is anointing with oil and prayer in Jesus’ name, along with confession of sin and repentance where necessary. Whenever we are presented with a supernatural therapy that falls outside of Biblical guidelines, we ought to reject it without apology.</p>\n<h2>Myth 8</h2>\n<p><strong>As long as I avoid practicing these “questionable” things myself, I don’t need to worry about others in my church practicing them.</strong></p>\n<p>Keeping in mind that we’re not dealing with a private sin like bitterness or lust, but rather the sin of witchcraft (which is likened to rebellion in 1 Samuel 15:23), listen to what God says about this:</p>\n<blockquote>\n<p><em>“And have no fellowship with the unfruitful works of darkness, but rather reprove them. For it is a shame even to speak of those things which are done of them in secret.” (Ephesians 5:11-12)</em></p>\n<p><em>“Know ye not that a little leaven leaveneth the whole lump? Purge out therefore the old leaven, that ye may be a new lump . . .” (1 Corinthians 5:6-7)</em></p>\n<p><em>“But I say, that the things which the Gentiles sacrifice, they sacrifice to devils, and not to God: and I would not that ye should have fellowship with devils. Ye cannot drink the cup of the Lord, and the cup of devils: ye cannot be partakers of the Lord’s table, and of the table of devils. Do we provoke the Lord to jealousy? are we stronger than he?” (1 Corinthians 10:20-22)</em></p>\n</blockquote>\n<figure>\n  <img src=\"/images/articles/216f3f3f-af90-4920-88cb-5e950f320ecc-4.png\" alt=\"Hands holding a syringe and pills and writing with a pen\">\n</figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "93d6ea2c05e1da040bc485d2ac0d60daac65e6796e5894ef04431754dbab7d52"
+}

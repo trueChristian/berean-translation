@@ -1,0 +1,200 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Mbeya, Tanzania",
+          "name": "Sheryl Zeiset"
+        }
+      ],
+      "raw": "Sheryl Zeiset\nMbeya, Tanzania"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "a235bdfc-afca-43a9-b095-abc11aaf5a70",
+    "images": [
+      {
+        "alt": "A woman and three young children hold hands among flowers.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-1.jpg",
+        "repository_path": "public/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-1.jpg",
+        "rights_note": "Page 2 credits © Photography by Laurel for page 17. No article-specific permission requirement is printed; no separate licence is inferred. Raw object 77, page resources, paint order, clipping and graphics state were inspected: the only source image is a single RGB scanned-page raster, with sRGB ICC profile in object 11, no alternative clean photograph objects, tiles, soft masks or transparency groups. Typography and layout are already baked into the scan. Crop retains the photograph beneath the article text; the upper white text panel and narrow bottom scan-edge artifact are omitted. No hidden pixels were synthesized. The source photographic blur, lighting and texture are retained. Vertical resampling reproduces the PDF placement aspect ratio. Encoded as baseline sRGB JPEG with embedded profile and nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1532,
+            1728,
+            2272
+          ],
+          "flip": null,
+          "method": "original embedded raster extraction and unobstructed source-pixel crop; vertical Lanczos resampling by (page_height/source_height)/(page_width/source_width) to reproduce published aspect",
+          "output_dimensions": [
+            1728,
+            717
+          ],
+          "pdf_page_dimensions": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1728,
+            2307
+          ],
+          "source_object": 77
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A tall stem of pink flowers with yellow and purple flowers behind it.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-2.jpg",
+        "repository_path": "public/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-2.jpg",
+        "rights_note": "Page 2 credits © Photography by Laurel for page 18. No article-specific permission requirement is printed; no separate licence is inferred. Raw object 81, page resources, paint order, clipping and graphics state were inspected: the only source image is a single RGB scanned-page raster, with sRGB ICC profile in object 11, no alternative clean photograph objects, tiles, soft masks or transparency groups. Typography and layout are already baked into the scan. Crop retains the full-height left photograph; the right text panel and narrow photo-boundary pixels are omitted. No hidden pixels were synthesized. The source photographic blur, lighting and texture are retained. Vertical resampling reproduces the PDF placement aspect ratio. Encoded as baseline sRGB JPEG with embedded profile and nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            3,
+            675,
+            2344
+          ],
+          "flip": null,
+          "method": "original embedded raster extraction and unobstructed source-pixel crop; vertical Lanczos resampling by (page_height/source_height)/(page_width/source_width) to reproduce published aspect",
+          "output_dimensions": [
+            675,
+            2444
+          ],
+          "pdf_page_dimensions": [
+            598.0,
+            843.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1736,
+            2344
+          ],
+          "source_object": 81
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Yellow flowers in front of a softly blurred dark background.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-3.jpg",
+        "repository_path": "public/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-3.jpg",
+        "rights_note": "Page 2 credits © Photography by Laurel for page 19. No article-specific permission requirement is printed; no separate licence is inferred. Raw object 85, page resources, paint order, clipping and graphics state were inspected: the only source image is a single RGB scanned-page raster, with sRGB ICC profile in object 11, no alternative clean photograph objects, tiles, soft masks or transparency groups. Typography and layout are already baked into the scan. Crop retains the unobstructed upper-left photograph; surrounding white text region, narrow skewed white boundary and upper-left photographed page-edge artifact are omitted. No hidden pixels were synthesized. The source photographic blur, lighting and texture are retained. Vertical resampling reproduces the PDF placement aspect ratio. Encoded as baseline sRGB JPEG with embedded profile and nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 19,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            80,
+            45,
+            825,
+            774
+          ],
+          "flip": null,
+          "method": "original embedded raster extraction and unobstructed source-pixel crop; vertical Lanczos resampling by (page_height/source_height)/(page_width/source_width) to reproduce published aspect",
+          "output_dimensions": [
+            745,
+            717
+          ],
+          "pdf_page_dimensions": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1776,
+            2338
+          ],
+          "source_object": 85
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Mothers and the Great Commission",
+    "topics": [
+      "4f9300ad-a83d-56c6-8aeb-2907c08f2c04",
+      "cabe81fc-0080-5122-a745-bb6c1147d89a",
+      "4325fdd8-4363-524b-9445-2a2c86de1cf1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b54f3e09465a3d10f7184ffb3e74e77adf4605d70fadcf9de201b00482b88596",
+    "metadata_sha256": "416b998359ad917f083b671fb9224bd23d35b69c129c0a981b10ac0ddfb100a1",
+    "structure_sha256": "29e20027cf63e8467d66371c2b90d57e1f8bb8652be9152183599d1cc41205ee",
+    "text_sha256": "8ac10c9387c34da822ce03a29a2ca50fad2a6ee5042cebbfc946e53e54ee336d",
+    "translation_metadata_sha256": "af57d002005881b816885e69f3ab7b79fdb0b3bbeaf33f9c3733ce8a0433dc69"
+  },
+  "html": "<article data-article-id=\"a235bdfc-afca-43a9-b095-abc11aaf5a70\">\n  <p>Have you ever wondered how you, a busy mother of children, can obey Jesus’ command of going into all the world and preaching the gospel? I have. Even though I live across the ocean and some people call me a ‘missionary,’ I often wrestle with knowing how to make this mandate practical in my own life. While I’m still learning how to navigate this, I am also learning how important—and how very short—the child-raising years are and how beautifully they fit into the call of God for us women. Here I have listed seven hindrances or misconceptions that I believe affect us women, and our ability to be productive in the kingdom of God.</p>\n  <h2>1. We struggle with our flesh or unresolved personal issues.</h2>\n  <p>In John 15, Jesus says, “As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.” Our relationship with Jesus is the foundation of everything we do, the most important priority in our lives. The fruit in our lives grows out of this relationship. It affects our discernment, how we mother our children, and even our desire to be involved in others’ lives. If our spiritual life is not healthy, the people around us will suffer, rather than be built up.</p>\n  <p>If we’re struggling with laziness, procrastination, or selfishness, we won’t have our homes in order, nor will we have an outward focus. If we allow unhealthy habits to form, they will eventually control our lives. If we fail to be obedient in keeping our own souls fed and inspired, our spiritual discernment will be clouded, and we will be consumed with ourselves and the disorder in our hearts.</p>\n  <p>If you have buried pain or trauma from your past, seek help. Redemption and healing are possible and can transform you into a person equipped to help others.</p>\n  <h2>2. We think the Great Commission is for those who move overseas.</h2>\n  <p>Rather than categorizing ministry and thinking my quiet home doesn’t fit into any category, let’s start viewing intentional mothering as one of the most important ways we can further the kingdom of God. The tender young years are the only chance we have to fill our children’s minds with truth and the Word of God. So soon those years are over, and our teenagers are a product of our investments. We can’t go back and redo it. The reality is that we can move overseas and win souls for Christ, yet if we neglect our home and family in our heroic efforts, we miss the mark. Our children are the first disciples God gives to us.</p>\n  <figure><img src=\"/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-1.jpg\" alt=\"A woman and three young children hold hands among flowers.\"></figure>\n  <figure><img src=\"/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-2.jpg\" alt=\"A tall stem of pink flowers with yellow and purple flowers behind it.\"></figure>\n  <h2>3. We are entrenched in our own culture.</h2>\n  <p>We are a part of a vibrant and healthy community of women who have farmed, harvested, and preserved for many generations. This is a healthy lifestyle. Our children learn valuable work ethics, and the family is fed. But we also live with expectations that often hinder us. If this stage of life is particularly busy, perhaps to stay healthy and have time for others, we could leave the garden for a year. Or let the weeds grow a bit more, without worrying what the neighbors will think.</p>\n  <p>Culturally, we have high expectations for clean houses, home-baked bread, and perfect landscaping. Even though all these things are good in their place, people care more about your care and hospitality than about the immaculate perfection of your house. The love of Jesus is felt in a real way when a busy mother willingly gives of her time to prepare a meal, make an encouraging phone call, or any one of a host of creative things her hands can do for others.</p>\n  <h2>4. Our lives are lived within our small subculture.</h2>\n  <p>If you’ve never been introduced to people of other cultures and aren’t comfortable relating to them, you deny yourselves many rich experiences. Even with a family, it is possible to explore the possibilities in nearby neighborhoods and cities.</p>\n  <p>I have many memories of my parents inviting people into our home. Without knowing what they were doing, they were establishing a family culture of openness and love for people vastly different from us. “Hope and love for everyone,” was my Dad’s life slogan. I remember a single mom and her little daughter from Chicago, looking for a better life, then a dad with four children, trying to get his bearings after separating from an adulterous relationship. It was troubled, angry teenagers and lonely single moms. I have no idea how they found these people, but we were rarely without someone extra in our home, which gave us endless exercise in being patient with different cultures, people, and personalities. I’m sure we weren’t always gracious, but that didn’t keep my parents from making these choices.</p>\n  <h2>5. We believe that we need to be involved in something outside our home.</h2>\n  <p>Deep down, somehow, some of us have the misconception that the duties of home, the endless dirty dishes, the mountains of laundry, the dirty floors, and the hungry tummies are disconnected from a viable ministry. But we need to adjust our perspective. The years of babies and diapers are precious years and so full of potential. During these years, our children are our disciples, and oh, the potential wrapped up in these little hearts! For us mothers, if done well, this will be the most successful ministry we’ll ever have.</p>\n  <p>In her book, <em>Beholding and Becoming</em>, Ruth Chou Simons says,</p>\n  <blockquote><p><em>“Given a choice, I would rather have the Lord send me to Africa than clean out my pantry. I’d rather dig wells in impoverished lands, seeing progress and visible fruit, than work through math problems again with my child . . . So often we are quick to say, “Send me, Lord! as long as He doesn’t send us to . . . the unseen work of sowing the truth of God’s Word right within the walls of our messy home.”</em><sup>1</sup></p></blockquote>\n  <figure><img src=\"/images/articles/a235bdfc-afca-43a9-b095-abc11aaf5a70-3.jpg\" alt=\"Yellow flowers in front of a softly blurred dark background.\"></figure>\n  <p>And might I add, disorganized pantries and math problems also exist in Africa. I’m not sure where “seeing progress and visible fruit” comes in, as that doesn’t seem to happen fast in any part of the world. Raising children or any work of God is like a rising bowl of yeast dough—slow and steady.</p>\n  <p>We often underestimate the power and potential of our small lives and the choices we make. Setting a simple, pretty table, making food, and inviting people can be done with your children, teaching them valuable things in the process. Your attitude about unexpected visitors or unplanned opportunities to welcome people into your home is contagious. You are training a spirit of love and welcoming your children without saying a word. You can be a gracious or grudging hostess. I don’t remember ever feeling resentful about the many people in and out of our home, except for the time a dysfunctional family descended on us for the weekend when we were all down with the stomach flu, and their first words were, “Eeew, it smells sick in here.” Perhaps my parents should have had some boundaries, but they successfully built an unselfish family culture, which I long to pass on to my children as well. My Mom used her home to minister to others, rather than pursue something that excluded us, which I think was her secret ingredient. She sewed and cooked and invited in, all with her children around her, learning, absorbing, and working together. She was constantly present for us. So much so that inviting others in wasn’t a negative for us children.</p>\n  <h2>6. We believe it is our husband who has the calling to minister.</h2>\n  <p>And he does. You enable and support him in whatever calling he has by keeping his home and giving him a lovely place to come home to. But it is important to recognize our tendency to hide behind our husbands and forget that God has also given us gifts that He expects us to use in the church. Speaking words of encouragement and wisdom to other women, “preaching” at women’s meetings, exhorting and admonishing as a healthy part of the church. We need to know how to use our voices. “The older women likewise are to be reverent in behavior . . . they are to teach what is good and so train the young women to love their husbands and children, to be self-controlled, pure, working at home, kind, and submissive to their own husbands, that the word of God may not be reviled” (Titus 2: 3–5).</p>\n  <h2>7. We are taken up with the fads and fashions of the world.</h2>\n  <p>Sewing new dresses, shopping, coffee shops, and decorating your house can all be a part of a healthy lifestyle, but if done in excess or to keep up with all the newest fads, they will define your life. None of these things are sinful—perhaps a coffee shop is the best place to meet a friend. Shopping and sewing are a necessary part of life to care well for our families, but we only have twenty-four hours in each day. Perhaps in our minds we are doing it all - reaching out to people, finding opportunities to serve others, inviting people in, but we’re also keeping an up-to-date house and wearing all the newest. This is likely an illusion. One or the other usually defines our life, and we’re the only ones who can make the choice.</p>\n  <p>The easiest thing for us humans to do is gauge our lives by what is normal around us, to live the status quo quietly. But we need to ask if the status quo is in line with the Word of God and what we believe about eternity.</p>\n  <p>We all go through stages when our energies are expended on ourselves and our family. And that is okay. God will give us wisdom to know when to rest and when to give ourselves for others. Morning sickness and ill health sometimes have us on the couch for hours a day, and it’s all we can do to keep life floating. Perhaps you’re going through a dark night of the soul, and you need to focus on your own emotional health, or you are facing challenges with a needy teenager. This, then, is the assignment God has for you. To make another baby, to learn lessons of patience, to heal, and to focus on family. The important thing is to tune in to what God wants to do in us, through us, by his spirit, and not give in to the lesser things of this world that so quickly steal our time and focus.</p>\n  <p>By God’s grace, we can become women of strength and purpose, with our eyes focused on preparing our children and others for eternity. This is the Great Commission, and we have an irreplaceable role. We have only one life to live, let’s live it earnestly and well.</p>\n  <p><sup>1</sup> Ruth Chou Simons, <em>Beholding and Becoming</em>, page 69</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b9caa6c12d0a69460c81476ba03183230b23c8d253806d899c496f781b1bf33a"
+}

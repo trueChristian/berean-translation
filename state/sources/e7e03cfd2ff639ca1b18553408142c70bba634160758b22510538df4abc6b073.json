@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Gladys, Virginia",
+          "name": "Vincent “John” Waldron",
+          "role": "MD"
+        }
+      ],
+      "raw": "Vincent “John” Waldron, MD\nGladys, Virginia"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "44a970cf-d23c-5e24-a196-0b08595d01ba"
+    },
+    "id": "545d5674-2e4f-4c25-9aa9-0cec6be58a2c",
+    "images": [
+      {
+        "alt": "Fresh vegetables, fruit, nuts, and legumes arranged on a light surface.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/545d5674-2e4f-4c25-9aa9-0cec6be58a2c-1.jpg",
+        "repository_path": "public/images/articles/545d5674-2e4f-4c25-9aa9-0cec6be58a2c-1.jpg",
+        "rights_note": "Page 2 credits © Adobe Stock Images for page 31. No article-specific permission requirement is printed; no separate licence is inferred. Inspected the page resources, image object, paint order, clipping, masks, and transparency: a single full-page scanned RGB raster is painted across 612 × 792 pt, followed by the invisible OCR layer (ExtGState 8 has /ca 0). No separate photograph, alternate image, tiles, soft mask, clipping path, or transparency group exists. Source ICCBased object 11 identifies sRGB. The native source-pixel crop omits surrounding article columns and page furniture. Vertical Lanczos resampling reproduces the PDF placement aspect ratio; no rotation, flip, retouching, synthesized pixels, or CMYK inversion was applied. The published photograph is the full-height right-side arrangement. The baked paper show-through from the photographed magazine scan remains visible on the pale surface; it cannot be removed without synthesizing pixels. No separable layout overlay remains. Encoded as baseline sRGB JPEG at 96 dpi.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            860,
+            0,
+            1780,
+            2356
+          ],
+          "flip": null,
+          "method": "original embedded scan extraction and source-pixel crop; vertical Lanczos resampling by (792/source_height)/(612/source_width) to reproduce the PDF placement aspect ratio",
+          "output_dimensions": [
+            920,
+            2304
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1780,
+            2356
+          ],
+          "source_object": 135
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density; EOI at EOF with no trailing bytes",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "A WORD FROM THE DOCTOR",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Health Benefits of Eating Whole Foods",
+    "topics": [
+      "34ff8a1a-9130-5308-9d85-23b6f7f85f34",
+      "1fe11bb8-3ea0-5bf6-93fb-d5da55d7c77b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "322f5a7d81efb3458fdc5ff17f72b14c78752bb5ab682130b34872179df0061e",
+    "metadata_sha256": "f9007650a6ed7a5682ef3b36694adcaa858b5882408f355d43e4bfb3e7b07205",
+    "structure_sha256": "fd2e11bc844e8417bd644fe2b78cc773307206c1019b1a87b14f88573872392b",
+    "text_sha256": "68e3e12c34fd4df265c375b305e286788668d01a43c514268c408276bd48515c",
+    "translation_metadata_sha256": "c8f079fcfe304209072d3d1b62e927a76277a8a0430d2408a1dc2f1f7be1a7a1"
+  },
+  "html": "<article data-article-id=\"545d5674-2e4f-4c25-9aa9-0cec6be58a2c\">\n  <p>“You doctors are so negative!” The lady said, pulling out her bow and proceeding to shoot the messenger. “You tell all the things we aren’t supposed to do or eat, and I just feel discouraged! Basically, if I like something, I probably shouldn’t eat it, right?”</p>\n  <p>“Not exactly,” I said. “I’m sure it seems like it, but there are an awful lot of foods that are healthy to eat that also taste good. It’s just that modern Americans don’t eat a lot of them. We have developed a taste for things that are a lot sweeter or saltier than people a couple of hundred years ago would have eaten.”</p>\n  <p>“Maybe,” my patient didn’t seem convinced. “I’m sure lots of people liked sweet things in the 1800s. Why, it even talks about sweet things in the Bible.”</p>\n  <p>“People have liked sweet things for a long time, but cane sugar and corn syrup weren’t available until recently. In the Bible times, people would have used honey or dates to sweeten things. In colonial times, people used molasses, too, but they just didn’t have lots of these things, and so their food wasn’t nearly as sweet as it is today.”</p>\n  <p>“Hmph,” Melanie said. “Still, it would be nice to know things that are OK to eat and not simply think about the stuff to cut out.”</p>\n  <p>“You’re right,” I agreed. “There are a lot of things that we should be eating, and if your diet is full of them, you won’t think as much about the unhealthy foods you aren’t eating.”</p>\n  <p>Americans do eat more than their share of sugar and salt. In 1800, the average American consumed around 22 grams of sugar a day. Today, the daily intake of sugar is closer to 227 grams. Salt intake has increased from under 1000 mg to around 3400 mg a day.</p>\n  <p>In many ways, we are healthier despite our diet. We have better sanitation, better access to clean water, and medications that treat the negative impact of our choices of food. High blood pressure, obesity, and diabetes are all diseases that have skyrocketed. Eating healthier options could reduce or even eliminate the need to take medication to control these diseases.</p>\n  <h2>Moderation in Everything</h2>\n  <p>“Hast thou found honey? eat so much as is sufficient for thee, lest thou be filled therewith, and vomit it” (Proverbs 25:16).</p>\n  <p>The ancient Israelites didn’t struggle with the temptation to eat too much sugar for the same reason they didn’t struggle with the temptation to eat too much ice cream. It simply wasn’t available for them. Only kings and nobles could have had the option to eat richer foods, and even for them, the assortment of foods available was much more limited than today.</p>\n  <p>The idea of wandering into a grocery store and seeing the shelves stocked with hundreds of different items—many with ingredients from the far corners of the earth—is a new concept. We benefit (and suffer) from the results of globalization.</p>\n  <p>It means that we can eat grapes from Chile, Mandarin oranges from Spain, and avocados from Central America. It also means there are boxes of cheap, unhealthy items waiting to fall into our shopping carts.</p>\n  <h2>Whole Foods</h2>\n  <p>It is hard to talk about diets without mentioning the things we should avoid. At the same time, God created a world that has many healthy and tasty options.</p>\n  <p>Whole foods include meat, vegetables, fruits, and grains. The idea is simply that they have minimal amounts of processing. If they are preserved through canning or freezing, it is without additives. Even things like sugar or salt are not added.</p>\n  <p>I think most people think of fruit—if you eat an apple or a grape, you are eating a “whole food.” Many other things fit this category. Oatmeal, brown rice, and dried beans are all whole foods. The same with meat that has not had preservatives added to it.</p>\n  <p>At one time, these would have comprised most of the foods that people ate. Times seem to have changed considerably.</p>\n  <h2>Reduction in Gastrointestinal Issues</h2>\n  <p>We live in a world with lots of bacteria. There are bacteria on our skin and in our digestive system. Most of these bacteria are beneficial. They assist with digestion, prevent bad bacteria from growing, and even make the Vitamin K our bodies need to form clotting factors.</p>\n  <figure>\n    <img src=\"/images/articles/545d5674-2e4f-4c25-9aa9-0cec6be58a2c-1.jpg\" alt=\"Fresh vegetables, fruit, nuts, and legumes arranged on a light surface.\">\n  </figure>\n  <p>The problem is that bacteria can get out of balance quite easily. The most obvious time that this happens is when someone takes an antibiotic. Antibiotics don’t know the difference between good bacteria and bad bacteria. You might take the antibiotic to clear up a sinus infection, but it kills enough bacteria in your mouth that you develop thrush (an overgrowth of yeast in the mouth). Or it could lead to digestive issues.</p>\n  <p>Taking in too much sugar and not enough fiber can also lead to bacterial imbalances. Too many of the wrong bacteria lead to indigestion, as well as obesity and higher levels of inflammation.</p>\n  <p>Whole foods help this because they have lower sugar content and much more fiber. Many of them, like yogurt and kimchi, have natural probiotics (healthy bacteria) in them. The result is a healthier gut that contains the right mix of bacteria to help us maintain health.</p>\n  <p>There is a suggestion that transplanting bacteria from the digestive systems of thin people to obese individuals could help them lose weight. This works in mice. It doesn’t seem to work in people.</p>\n  <p>The problem is simply that if you get this sort of transplant, but do nothing to change your diet, over time, the bacteria in your digestive tract will slowly return to their old state. You have simply fed the wrong bacteria, just as you did before, and the result is an unhealthy digestive system.</p>\n  <h2>Whole Foods Help with Weight</h2>\n  <p>People who eat a lot of whole foods tend to have fewer issues with obesity than those who eat more ultra-processed foods.<sup>1</sup> There are a few reasons for this.</p>\n  <p>First, whole foods tend to have less calorie density compared to ultra-processed foods. Even though fruit has natural sugar in it, it has fewer calories. A medium-sized Gala apple has about 90 calories, 0 grams of fat, and 3 grams of fiber. A couple of sandwich cookies from a popular brand contain 140 calories, 7 grams of fat, and 0 grams of fiber. To be honest, I don’t think the two cookies would satisfy me.</p>\n  <p>Second, whole foods break down more slowly in our systems than more processed foods. There is a reason that you are hungry an hour after eating certain foods and still feel full several hours after eating others. The reason has to do with the length of time it takes to digest the various foods.</p>\n  <p>Food that has more complex carbohydrates, more fiber, and less sugar tends to break down more gradually. A cooked cup of old-fashioned oatmeal contains around 27 grams of carbohydrate, and a cup of a popular children’s breakfast cereal contains 33 grams of carbohydrate. While 6 grams of carbohydrate doesn’t sound like a lot, what is different is the complexity of the carbohydrates and the fiber. Oatmeal contains around 6.5 grams of fiber per cup, while the children’s breakfast cereal contains less than 1 gram of fiber. Is it any wonder that the children who eat breakfast cereal need a mid-morning snack?</p>\n  <p>One final thing to mention is that whole foods tend to result in us feeling full more quickly. Scientists call this “satiety.” The idea is that our brains are looking for a certain mix of protein, fat, and carbohydrate to tell us when we have had enough. It simply doesn’t see this mix quickly (if ever) with processed foods.</p>\n  <p>This is why people can eat so many potato chips at a sitting, but fill up much faster on a home-cooked meal. Not only will the whole foods stick with us longer, but they also make us feel full faster.</p>\n  <p>It isn’t enough to cut out ultra-processed foods. It is important to fill that empty spot in our diet with healthy foods that reduce our need to overeat. Otherwise, we will wander through days hungry and irritable—empty of foods we crave and lacking the foods we need.</p>\n  <h2>Reduce Inflammation</h2>\n  <p>Inflammation is not necessarily a bad thing. Our bodies are designed to produce an inflammatory response when there is any kind of injury or infection going on. If you are running, step into a hole, and twist your ankle, your body produces an inflammatory response.</p>\n  <p>Our bodies open blood vessels to the area, increasing the amount of nutrition and oxygen getting to the damaged muscles and tendons. This results in the swelling and warmth we notice in the ankle. Pain fibers complain if we continue to run or even walk on the ankle. The body even sends additional infection-fighting cells to the area to guard it from infection. The end result is that our body protects the injured limb and attempts to heal it as quickly as possible.</p>\n  <p>The problem is that often inflammation is not related to a specific injury or infection. It is simply our baseline state. This inflammatory state can produce chronic pain, allergies and asthma, and even autoimmune illnesses. Even depression has links to elevated inflammation in our bodies.</p>\n  <p>The point is not that simply eating whole foods will eliminate these issues, but it could help reduce them. Eating diets that have plenty of fiber, less saturated and trans fats, and lots of complex carbohydrates seems helpful to control inflammation. Many people want some magic supplement or pill that they can take to bring all of this into balance.<sup>2</sup></p>\n  <p>Maybe there is such a thing out there, but, if so, I have not seen any indication of it. On the other hand, there is no doubt that healthy eating patterns more often than not lead to healthy individuals.</p>\n  <h2>How to Start</h2>\n  <p>I suppose how difficult a change this is depends very much on how bad your diet is currently. If you are someone who normally takes in very little fiber and eats a lot of processed foods, it could be a challenge to make a change.</p>\n  <p>In fact, people who eat a lot of ultra-processed foods find that increasing their fiber intake upsets their stomachs. It is wise to begin slowly and gradually increase the amount of fiber. Begin eating more raw fruits and vegetables.</p>\n  <p>Having your own garden is a good way to get these sorts of foods into your diet. Buying from people who grow these vegetables is another way.</p>\n  <p>Look at labels. Finding foods that have fewer ingredients, more fiber, and less saturated fat is the way to go.</p>\n  <h2>Give it Time</h2>\n  <p>The problem with improving diet is that it takes time to show results. Many of us want results fast—yesterday if possible. Taking a pill might work immediately, but changing your diet will only produce results if you stick with it.</p>\n  <p>Simply reducing your sugar intake will produce some improvement fairly quickly, simply because our sugar levels won’t be climbing and then dropping. On the other hand, the time needed to reduce inflammation and restore digestive balance is considerably longer.</p>\n  <p>The point is not simply to change your diet for a week or two. Our goal is to commit to a long-term change.</p>\n  <h2>Conclusion</h2>\n  <p>Health is not guaranteed. Many people eat healthy and still have accidents or even develop cancer. We live in a fallen world, and since the Garden of Eden, all of us are gradually moving towards the day when we will leave this world.</p>\n  <p>At the same time, God has given us the ability to study and to understand things that will improve our health. If we use the knowledge we have, we will have more energy to devote to the mission He has set for us.</p>\n  <p>There is no single pill that will lead to good health, nor is there a special supplement that will eliminate all pain and inflammation. By eating a diet full of whole foods, we can reduce our need for some of these other things and even avoid a trip or two to the doctor.</p>\n  <p class=\"footnote\"><sup>1</sup> https://www.nature.com/articles/nutd20173</p>\n  <p class=\"footnote\"><sup>2</sup> https://pmc.ncbi.nlm.nih.gov/articles/PMC4958288/</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "203c184de70cc1d504e3dd52a194be640447e4cacf2b31f7dfa2f191573aeff0"
+}

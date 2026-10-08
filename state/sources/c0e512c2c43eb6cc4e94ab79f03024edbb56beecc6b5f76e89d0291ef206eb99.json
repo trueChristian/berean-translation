@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Sir Frances Drake",
+          "role": null
+        }
+      ],
+      "raw": "~Sir Frances Drake 1577"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "4fa4c74d-d2b0-433f-8108-15ed3ef8a9db",
+    "images": [],
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Disturb us, Lord",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3ca7bacfa3f91e0197a7fac9b4d3abf7d23e124c961eb7030befd75e69943647",
+    "metadata_sha256": "861a54d29ee716f7980a00bbb07ace42b6c6c6e83aef69c00079639eb008ac00",
+    "structure_sha256": "77b5e4adf360a8e50f6de3135185a9bec4fded0006283021269c073bd212a050",
+    "text_sha256": "28f3ecc461f626ca9da740f8eb440c15a78777e91734dab51025715101dd0036",
+    "translation_metadata_sha256": "4fb14a235cac25f33ae66c21555c497fa954eafd16082552bcb6aca9f80bea94"
+  },
+  "html": "<article data-article-id=\"4fa4c74d-d2b0-433f-8108-15ed3ef8a9db\">\n  <div class=\"poem\">\n    <p><strong>Disturb us, Lord,</strong> when<br>\n    we are too well pleased with ourselves;<br>\n    When our dreams have come true<br>\n    Because we have dreamed too little;<br>\n    When we arrived safely<br>\n    Because we sailed too close to the shore.<br>\n    Disturb us, Lord, when<br>\n    With the abundance of things we possess<br>\n    We have lost our thirst<br>\n    For the waters of life;<br>\n    Having fallen in love with life,<br>\n    We have ceased to dream of eternity;<br>\n    And in our efforts to build a new earth,<br>\n    We have allowed our vision<br>\n    Of the new heaven to dim.<br>\n    Disturb us, Lord, to dare more boldly,<br>\n    To venture on wider seas<br>\n    Where storms will show your mastery;<br>\n    Where losing sight of land,<br>\n    We shall find the stars.</p>\n\n    <p>We ask You to push back<br>\n    The horizons of our hopes;<br>\n    And to push into the future<br>\n    In strength, courage, hope, and love.</p>\n  </div>\n\n  <p class=\"byline\">~Sir Frances Drake 1577</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52"
+}

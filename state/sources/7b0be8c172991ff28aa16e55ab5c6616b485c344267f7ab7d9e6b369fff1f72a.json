@@ -1,0 +1,96 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Brandon Byler"
+        }
+      ],
+      "raw": "by Brandon Byler"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "588b25d4-0ae7-4af7-8aab-e3813fbbcc7d",
+    "images": [
+      {
+        "alt": "A hand holding a pair of balance scales beneath dark clouds",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/588b25d4-0ae7-4af7-8aab-e3813fbbcc7d-1.jpg",
+        "repository_path": "public/images/articles/588b25d4-0ae7-4af7-8aab-e3813fbbcc7d-1.jpg",
+        "rights_note": "Original embedded image object 28 on printed page 7. No separate image credit or image-specific permission requirement is printed. The exact original image paint command and elliptical clipping path are rendered alone at the native source scale. No text, title panel or other page paint is included. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            637,
+            462
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "render original image-only PDF paint command with its exact elliptical clipping path; no text or other page objects; 166.67 dpi native source scale",
+          "output_dimensions": [
+            638,
+            463
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            637,
+            462
+          ],
+          "source_object": 28
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "It’s Not Black and White, It’s Black + White",
+    "topics": [
+      "79026687-5f1c-5c05-8305-c63a5d165b2c",
+      "19550f61-ecfe-5f3a-9f27-43a807eab093",
+      "71b4f992-d7ff-5b6a-b1d5-2f08160b4dfa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "28aa8eee9a77904e35126ea02bb7665f82918083179f4cec0fa52efed11c8373",
+    "metadata_sha256": "ee43e26ee895e51591880211ceec52130b51e3c34f26dc529c0db641dcf16110",
+    "structure_sha256": "80c52994fbd093a51233df2ecdcd20b95bd4e3510e2486f4297ae60f6b22534e",
+    "text_sha256": "52e7f953db91e1e598228aa50c5fd9ba936db5a9416449692112ab457e9c4f11",
+    "translation_metadata_sha256": "1cc3d5ba4fc2d6994083812b0e83cad706007d698fc08de34c4d2e677ce5e038"
+  },
+  "html": "<article data-article-id=\"588b25d4-0ae7-4af7-8aab-e3813fbbcc7d\">\n  <p>Clear black-and-white distinctions are not appreciated in much of the Church like they once were. In fact, much of what we believe and live appears to be one big GRAY, and most folks seem content to keep it that way. No need to dig out any personal convictions, no need to think about how to live carefully according to the Bible. If some believe one thing and some another and it looks as if God is blessing the whole muddle, who are we to step in and suggest that the Word gives us clear guidelines (or even <u>principles</u>!) about what Christians ought and ought not do.</p>\n  <p>However, is it possible that we have become so compromised with the world that we find it quite soothing to continue mixing black and white into one big pot of gray. It may look like the soup of tolerance, but I guarantee you it has proven to be the poison of impotence. The Bride has slurped down the whole pot and finds that she is powerless to effect change within herself, let alone those around her. She tries to preach absolutes of the Word while proclaiming relativity of practices (standards). The only resulting “absolute” the Church’s compromising union has birthed is the notion that the Word is relative and the practices are completely unnecessary—if not suspiciously legalistic. Essentially, the donkey and horse have been put together and the outcome is as sterile as the mule.</p>\n  <figure>\n    <img src=\"/images/articles/588b25d4-0ae7-4af7-8aab-e3813fbbcc7d-1.jpg\" alt=\"A hand holding a pair of balance scales beneath dark clouds\">\n  </figure>\n  <p>Instead of the keenness of discernment we have the confusion of delusion—contented self-delusion. Thus, folks are frolicking in the gray fog each one doing what is right in his own eyes. Each one expecting God to bless and help them no matter what they do or don’t do. Is it any wonder that the church continues to shift toward condoning outright sinfulness? After all, white is unrealistic and legalistic, but gray is wonderful. Gray is so uncertain, so tolerant, so open. Most everyone agrees that gray is a quite sensible position to take.</p>\n  <p>Oh, and <strong>black?</strong> Why, more and more it’s looking like just another shade of gray.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "89471b512274f3b3cdbe5c06401e4888a14cfe7408f961ad710aad2402fd6b70"
+}

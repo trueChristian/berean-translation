@@ -1,0 +1,89 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Alan Redpath"
+        }
+      ],
+      "raw": "by Alan Redpath"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7",
+    "images": [
+      {
+        "alt": "Men in a small boat on a stormy sea",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "c2cbfff052ae260915bbe2adc63516d259ed404b",
+        "public_path": "/images/articles/2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7-1.jpg",
+        "repository_path": "public/images/articles/2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7-1.jpg",
+        "rights_note": "Original embedded PDF image object 108; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 29,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            1,
+            0,
+            685,
+            496
+          ],
+          "export_pixel_dimensions": [
+            684,
+            496
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 108,
+          "source_pixel_dimensions": [
+            685,
+            497
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": "Does Jesus Care?",
+    "title": "Sinking Ship",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "74cd49231fb36338ee641b0ad24fb1a5699989782a33c7970b2b212e64a9458d",
+    "metadata_sha256": "d8365d3177b95f9027343806e12641485acd934d489ab024aaf51a8fb8a0b5f0",
+    "structure_sha256": "ba352c277dca02c44c4ab2b4ee3636ecfd7e393fb5811104c1f655642b49edf7",
+    "text_sha256": "dc76fc5df716b37fbd5b9d3210cb2f0ed2bbb3fbaa1a26fbeeac9f7f74983809",
+    "translation_metadata_sha256": "2ac0e7129892d5bf06441bc5a3ccfba80e43e7c98c27b1c21c6ed4fb5bd7e2c4"
+  },
+  "html": "<article data-article-id=\"2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7\">\n  <figure>\n    <img src=\"/images/articles/2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7-1.jpg\" alt=\"Men in a small boat on a stormy sea\">\n  </figure>\n  <p>That is the question we asked, no doubt, in s spirit of complaint. “If you loved us, Lord, then rescue us.” How soon they began to doubt Him! How soon they were ready to rebel, even though they called Him Master! . . . “Does God care? If He does, why doesn’t He rescue me? The waves are beating upon the ship of my life and it is full, and He knows I cannot take much more of this. Master, carest Thou not that we are perishing?”</p>\n  <p>. . . There is no such thing as a law of nature that operates on its own. Behind every law that operates is the power of God, and when we speak about the law of nature we are describing the way in which God works. . . . God is permitting to continue to operate within the sphere of the human body the ordinary laws of destruction. . . He is behind every law that He ever made. That is why you will find that many a Christian who has gone through times of untold suffering and trouble has suddenly changed this question, “Master, carest Thou not that I perish?” and has been enabled to say, “This is the Lord’s doing; let Him do that which is good in His sight.” For he has come to see that God does not permit the overwhelming of the storm to touch one of His children except He has a purpose in it.</p>\n  <p>. . . Gold is poured into the furnace because it is gold and has to be refined; you do not put rubbish into that kind of furnace. Corn is threshed because it is corn, but you do not bother to do that with weeds. A diamond of exceptional beauty and quality is gong to undergo far more cutting than any other stone because the owner desires more of its beauty (Learning to Live, p. 50-52).</p>\n  <p>Most gladly therefore I will rather glory in my infirmities, that the power of Christ may rest upon me” (2 Corinthians 12:9).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "36b860c5d5582a12e2ab62dcdafe565161751cde3fc0654f59a2cc59834aeefb"
+}

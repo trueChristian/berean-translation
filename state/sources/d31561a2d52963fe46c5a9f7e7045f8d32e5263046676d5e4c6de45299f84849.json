@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "c0c54efd-2fe8-4f0d-9231-f961f3b114c2",
+    "images": [
+      {
+        "alt": "A mailbox on a post entwined with flowering vines.",
+        "caption": null,
+        "credit": null,
+        "height": 157,
+        "public_path": "/images/articles/c0c54efd-2fe8-4f0d-9231-f961f3b114c2-1.png",
+        "repository_path": "public/images/articles/c0c54efd-2fe8-4f0d-9231-f961f3b114c2-1.png",
+        "rights_note": "Original PDF page 34 image object 121; no separate image licence or credit is stated. Mailbox lettering and grey background are intrinsic to the source raster and retained; the separate letters heading panel is omitted. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "source_xref": 121,
+        "transformations": "Original lossless embedded image extracted at source pixel dimensions without cropping, rotation, or material retouching.",
+        "verification": {
+          "encoded_bytes": 4817,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "PNG 98x157 Gray Grayscale 37.799999999999997158 37.799999999999997158",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 98
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "fcaa8e3f-d0bd-5591-8638-314cf1c87857"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "baa23374df1967ba3d85c324fe3784700b648ee8cbdb6b392229c2dbbc5109d7",
+    "metadata_sha256": "e081634821f6c037bbf457c3b90f0e8dbd2c5106f0ff18f182fd44c56a5dc0c0",
+    "structure_sha256": "249d697dbec8f788b8390da48fa11a35673c17e087fe04581ca2a936a5a0c069",
+    "text_sha256": "4f6b4e7122ea390c5756f8d4b551a4c76656d343a46cf751ac5e2ed4ce587969",
+    "translation_metadata_sha256": "2f03d73c9bb997a995d95af234b8a4fa36c1d68ebf7acd40284787493a9a00c0"
+  },
+  "html": "<article data-article-id=\"c0c54efd-2fe8-4f0d-9231-f961f3b114c2\">\n  <figure><img src=\"/images/articles/c0c54efd-2fe8-4f0d-9231-f961f3b114c2-1.png\" alt=\"A mailbox on a post entwined with flowering vines.\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for <em>The Blessing Corner</em> of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <section>\n    <p>My dear friends in Christ at Charity,</p>\n    <p>I thank you so much for the Remnant and the Mission Newsletter. How blessed and fed I have been through those publications. I yearn for such solid Bible teaching at the church my husband and I attend. Because of the lack of strong Bible teaching, I am “starving to hear the Word.” I so desire solid food, but all we get is watered down milk. Your publications certainly fill the gap.</p>\n    <p>Please pray for us that we may seek a fellowship of believers where the Word is taught and followed. Pray too for our current fellowship, just newly formed, that the Spirit will move and set everyone on fire for the Lord.</p>\n    <p>Thank you for being a solid rock for me where I can be fed and read of other like-minded Christians. I have grown from reading your publications and hearing your various tape sets. What a blessing! I have gleaned so much. May God continue to bless your ministry. The hurting world so needs your ministry. How the hurting need fed; how they need the Lord! Thank you.</p>\n    <p><em>Alexandria, OH</em></p>\n  </section>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>I want to take this opportunity to encourage you to continue on faithfully in your noble work. Our home has been so blessed this winter by the issues of this magazine. I am a happy new mom, and all the home histories have been a real challenge and encouragement. I am so thankful for this kind of material. The pages of faith, brokeness, commitment and evangelism have also been such a blessing here. Keep up the good work. May your efforts be blessed.</p>\n    <p><em>Mrs. Daniel Miller</em></p>\n    <p>P.S. I love the covers on the magazine. They really speak the Bible and are so inspiring. My prayers are with you.</p>\n  </section>\n  <section>\n    <p>Dear Charity,</p>\n    <p>Greetings in the name of our wonderful Lord and risen Savior, Jesus Christ. How precious Jesus is to me.</p>\n    <p>Before I go any further, I would like to thank all of you for your wonderful testimony and the light you show forth. You are as a rainbow in the midst of a stormy world. I pray for you and your ministry often, asking God almighty to shine through you more and more. And let me tell you, He has answered that prayer over and over!</p>\n    <p>I love to read the Remnant, especially the <em>Blessings Corner</em> and the letters from believers around the world. The teaching sections are unlike anything I have ever seen, save the Bible itself. One can certainly tell the authors are practicing what they preach. They are filled with the Holy Spirit. Other than the Bible, these articles are the most scriptural based pieces around. Thank-you for making them available to me.</p>\n    <p>I also would like to send a big thank you to those Christians who help support the ministries at Charity. There are many of us who cannot afford to help money-wise. We do hold you in our prayers though!</p>\n    <p>Thank you again for allowing God to use you!</p>\n    <p><em>Dundee, MI</em></p>\n  </section>\n  <section>\n    <p>Dear Brothers and Sisters in Christ,</p>\n    <p>Greetings sent to you from Zimbabwe, Africa and in the name of our soon coming Lord and Savior of this world!</p>\n    <p>First, I would like to thank you so much for sending me the Remnant for the past five years. It has really made that tremendous difference not only to me but also to all the people I share the magazine with. Every section (topic) in that magazine is just so inspiring and challenging. I know that I am not the only one who has found joy, love, truth and peace through your magazine. May it continue to be a real blessing!</p>\n    <p>May the Almighty richly bless all of you as you labor for Him. Be assured that you are not doing it for men but for Him and your reward is awaiting you in Heaven. Thanks a lot!</p>\n    <p><em>Your sister in Christ,<br>Jane Nzvingwe<br>Zimbabwe</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7d572a38b6ae4ff0a53bb915e2d011504bd57088987f553261f5731d7c22d058"
+}

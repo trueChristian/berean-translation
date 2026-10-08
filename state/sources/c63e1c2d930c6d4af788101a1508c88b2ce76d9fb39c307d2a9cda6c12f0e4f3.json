@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "65cde85d-5f09-47af-ac75-0a3ea061d639",
+    "images": [
+      {
+        "alt": "An ornate goblet.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-1.png",
+        "repository_path": "public/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-1.png",
+        "rights_note": "PDF base image object 94; source 346×500 pixels. Original PDF image-mask stencil painted with its source CalRGB value 0.263 0.263 0.267 (rendered sRGB (64, 64, 65)), with transparent unpainted pixels; surrounding page panel omitted. Published full base composition and orientation retained. Lossless PNG export. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 22
+      },
+      {
+        "alt": "A decorated goblet.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-2.png",
+        "repository_path": "public/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-2.png",
+        "rights_note": "PDF base image object 95; source 242×406 pixels. Original PDF image-mask stencil painted with its source CalRGB value 0.263 0.263 0.267 (rendered sRGB (64, 64, 65)), with transparent unpainted pixels; surrounding page panel omitted. Published rectangular clipping reproduced by native-pixel crop (0, 0, 240, 406); no rotation or flip. Lossless PNG export. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 22
+      },
+      {
+        "alt": "A pottery vase with a narrow neck and floral decoration.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-3.jpg",
+        "repository_path": "public/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-3.jpg",
+        "rights_note": "PDF base image object 96; source 180×234 pixels. Published rectangular clipping reproduced by native-pixel crop (1, 1, 178, 233); no rotation or flip. Encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; source DeviceGray/CalRGB data required no CMYK inversion. The gray background is intrinsic to the only source raster and preserved; the separately painted page panel and outline are omitted. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 22
+      }
+    ],
+    "issue_id": "472c9f50-2e8f-460e-8a99-0b7e48a24ab8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "A Chosen Vessel",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f716e30358f0eaafc660aa73cb32d79aeb37f0d043d6448f88787c0ae1d71905",
+    "metadata_sha256": "e9886c001b2f638837798e8b408fb8f3e54fdffcb836cca7fde348b5f8f00474",
+    "structure_sha256": "e6c2e7b83e8e7a14cb22b7794e881e6d9ee80cb6e368e077aa470def19d947d5",
+    "text_sha256": "832df9a05d313acd2c285cc65f0f2543d784a99d9cca1567b02974010da0bcf4",
+    "translation_metadata_sha256": "4c4b4700921ed4ebabc4a39ae70c5c9421f0a0981f5e3c59459d149e58151e6f"
+  },
+  "html": "<article data-article-id=\"65cde85d-5f09-47af-ac75-0a3ea061d639\">\n  <p class=\"poem\">The Master was searching for a vessel to use;<br>\n  Before Him were many, which one would He choose?</p>\n  <p class=\"poem\">“Take me,” cried the gold one, “I’m shiny and bright.<br>\n  I’m of great value, and I do things just right.<br>\n  My beauty and luster will outshine the rest,<br>\n  And for someone like you, Master, gold would be best.”</p>\n  <figure><img src=\"/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-1.png\" alt=\"An ornate goblet.\"></figure>\n  <p class=\"poem\">The Master passed on with no word at all,<br>\n  And looked at a silver urn, narrow and tall.<br>\n  “I’ll serve you, dear Master, I’ll pour out your wine,<br>\n  I’ll be on your table whenever you dine!<br>\n  My lines are so graceful, my carvings so true,<br>\n  And silver will always compliment you.”</p>\n  <figure><img src=\"/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-2.png\" alt=\"A decorated goblet.\"></figure>\n  <p class=\"poem\">Unheeding, the Master passed on to the brass,<br>\n  Wide-mouthed and shallow, and polished like glass.<br>\n  “Here! Here!” cried the vessel, “I know I will do,<br>\n  Place me on your table for all men to view.”</p>\n  <p class=\"poem\">“Look at me,” cried the goblet of crystal so clear,<br>\n  “My transparency shows my contents so clear.<br>\n  Though fragile am I, I will serve you with pride,<br>\n  And I’m sure I’ll be happy in your house to abide.”</p>\n  <p class=\"poem\">The master came next to a vessel of wood,<br>\n  Polished and carved, it solidly stood.<br>\n  “You can use me, dear Master,” the wooden bowl said,<br>\n  “But I’d rather you use me for fruit, not for bread.”</p>\n  <figure><img src=\"/images/articles/65cde85d-5f09-47af-ac75-0a3ea061d639-3.jpg\" alt=\"A pottery vase with a narrow neck and floral decoration.\"></figure>\n  <p class=\"poem\">The Master looked down and saw a vessel of clay,<br>\n  Empty and broken it helplessly lay.<br>\n  No hope had the vessel, that the Master might choose<br>\n  To cleanse and make whole, to fill and to use.</p>\n  <p class=\"poem\">“Ah! This is the vessel, I’ve been hoping to find.<br>\n  I’ll mend it and use it and make it all mine.<br>\n  I need not the vessel with pride of its self,<br>\n  Not one that is narrow to sit on the shelf.<br>\n  Not one that is big-mouthed and shallow and loud,<br>\n  Not one that displays his contents so proud.<br>\n  Not one that thinks he can do all things just right,<br>\n  But this plain, earthly vessel, filled with power and might.”</p>\n  <p class=\"poem\">Then gently he lifted the vessel of clay,<br>\n  Mended and cleansed it, and filled it that day.<br>\n  Spoke to it kindly, “There’s work you must do—<br>\n  Just pour out and serve others, as I pour into you.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "dc5c6e486eb5945604b6ec8dd2b6767cb7a7530ad49009804cda21fe6853b082"
+}

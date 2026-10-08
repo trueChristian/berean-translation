@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "9eeae65c-9e43-4059-aea3-dc57633a3e8d",
+    "images": [
+      {
+        "alt": "Good’s Store building, people and parking area",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-1.jpg",
+        "repository_path": "public/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-1.jpg",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. All five original PDF photo tiles (objects 110–114) reassembled at their exact print coordinates. The pale bottom/right opacity fade was irreversibly baked into the source tiles, so it remains as a documented exception; no missing pixels were synthesized.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 28
+      },
+      {
+        "alt": "Roadside Good’s Store sign",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-2.jpg",
+        "repository_path": "public/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-2.jpg",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Clean adjacent original PDF image tiles 118 and 119 reassembled at their print coordinates, omitting the one-pixel overlap.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 29
+      },
+      {
+        "alt": "People meeting around a conference table",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-3.jpg",
+        "repository_path": "public/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-3.jpg",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Original embedded PDF image object 120, re-encoded as standards-normalized baseline sRGB JPEG with nonzero 150 dpi JFIF density; crop and dimensions preserved.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "“You won’t find those here ...”",
+    "topics": [
+      "102f0529-3552-5cea-aef3-867de018b9d4",
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d",
+      "bb05b712-abe4-5cce-99f8-8e5e7ba58dc1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e7003833bba7e696d66f6154075c6197b664810f4fe1c9076878ed7c8e88d9ca",
+    "metadata_sha256": "f4602e38bd7a157b13f8808696b8710235d37011d4bc066204e2d144507689a9",
+    "structure_sha256": "0d486720d71535eef8a2fdb526a10a3c2e1dc00cf52d65f7ba94779502ac798d",
+    "text_sha256": "1f795dee60f10e260b1f61969cb22c6a88d828f0f5018e02d48b078040e1771b",
+    "translation_metadata_sha256": "f701654ec5770010298dd826729796c616194be802d0a63ba7a3c87f3e6ab69d"
+  },
+  "html": "<article data-article-id=\"9eeae65c-9e43-4059-aea3-dc57633a3e8d\">\n  <figure><img src=\"/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-1.jpg\" alt=\"Good’s Store building, people and parking area\"></figure>\n  <p>An interesting thing happened last month here in Lancaster County. The day was September 11, and an apparently patriotic elderly gentleman went into Good’s Store looking to purchase a few new flags to adorn his lawn—as a kind of “9-11” memorial. When he couldn’t find any flags in the store, he asked one of the sales clerks why they didn’t have any flags. He didn’t like the answer! In a statement to the Lancaster newspaper, the man reported:</p>\n  <blockquote>\n    <p><em>“After looking for some time, I inquired as to where they (US Flags) were kept. The clerk and then the manager’s answer astounded me. I was told,</em> <strong>‘... we don’t sell those here and we never will’. ‘You won’t find THOSE here ...’</strong> <em>the little girl at the register said as she wrinkled her nose.</em> <strong>I was confused, so I pressed further and asked why. I was told firmly by the manager ... ‘We are a conservative Christian store and we don’t take sides; having American flags does that.’</strong> <em>He echoed what the female cashier said when I said ‘sides to what?’ and answered:</em> <strong>‘That would be patriotic, and we don’t get involved in the whole state and country thing.’</strong> <em>When I reminded him that he operates a business in America and relies on Americans to purchase his ‘Goods,’ and that Americans are in harm’s way NOW protecting his rights to worship freely and sell his ‘Goods’ in a capitalistic and free society, he said:</em> <strong>‘that may be, but we’re not part of that.’</strong> <em>‘Oh, really?’ I said. When I asked who owned the operation he reluctantly told me a gentleman by the name of</em> <strong>Burkholder</strong> <em>and those are his policies/beliefs. I left the $66.00 worth of merchandise at Customer Service.” (Quoted from lancasteronline.com—bold print is from the original.)</em></p>\n  </blockquote>\n  <p>This incident quickly caught the attention of local radio, newspaper, websites, and even the local television station as they all came to this little Mennonite-owned variety store to get “the story.” If this young sales clerk would just have said something like “they’re sold out” or “I’ll check on it,” the guy would have probably just gone away. Commendably however, she shared her convictions. Impressively, in spite of all the media attention, the store never backed down. When I heard about it, I sent an encouraging email to their manager. Through that, I had the opportunity to meet the owner, Ken Brubaker. As we talked, I discovered that there were actually several things that the store refused to sell—such as Santa Clauses, jack-o-lanterns, and even girl’s pants! It was a blessing to see a business with some integrity. A few days later, I had the opportunity to come to their management board meeting to address their management staff. Given the opportunity to speak to them, I blessed them for their stand, and encouraged them to keep it up.</p>\n  <figure><img src=\"/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-2.jpg\" alt=\"Roadside Good’s Store sign\"></figure>\n  <p>America, like all countries, has many idols. The flag—to many—is certainly one of them. Paragraph (j) Section (8) of the US Flag Code states: “The flag represents a living country and is itself considered a living thing.” Sound scary? I think so. After continual attention and pointed questions, Good’s Store released their official position to the newspaper and to all that inquired. Here it is:</p>\n  <blockquote><p>We do not sell the American flag because of our Anabaptist faith (Mennonite, Amish, etc.), which holds to the belief and interpretation of the New Testament teaching of love for our enemies, non-violence, and non-participation in war. (Matt. 5:38-39; James 5:5-6; I Peter 3:13-18) Because the flag often represents support for military action as the solution to world problems, both the prior and the present generation of owners have chosen not to sell the flag. We believe that the freedoms that we enjoy are a privilege and a blessing from God, and believe it is our duty to support our civil government in following its laws and paying taxes where not in conflict with our interpretation of the Bible and the teachings of Jesus Christ. We also acknowledge that by choosing this as a principle of our faith and conviction, we may have to suffer for our faith if God chooses it to be so. We desire to live as faithful followers of Jesus Christ in our community according to our interpretation of the Bible. Finally, we want to affirm our respect for those who differ with us on this and other matters of faith.</p></blockquote>\n  <figure><img src=\"/images/articles/9eeae65c-9e43-4059-aea3-dc57633a3e8d-3.jpg\" alt=\"People meeting around a conference table\"></figure>\n  <p>Well said, Good’s Store! I hope that your stand encourages other businesses to let their convictions permeate even their business life. Oh, and just one more thing—I found it interesting to read the feedback from folks posting on the Lancaster paper website, concerning the article about Good’s Store not selling the flag. Some of the patriots seemed pretty upset that they were not able to purchase their flag at Good’s Store. One writer reassured them, however, “I’m sure Walmart will sell you a flag—made in China.” ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a50d6d95b80b3f07b76b340f27a3f0b93bbbc00294fbb5674a8d51095f75640d"
+}

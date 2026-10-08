@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "S. S. Nelson"
+        }
+      ],
+      "raw": "by S. S. Nelson"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "8cf70c57-95d5-4ebb-ba24-227f4778f086",
+    "images": [
+      {
+        "alt": "A preacher addressing a seated congregation",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8cf70c57-95d5-4ebb-ba24-227f4778f086-1.jpg",
+        "repository_path": "public/images/articles/8cf70c57-95d5-4ebb-ba24-227f4778f086-1.jpg",
+        "rights_note": "PDF image object 139. Original embedded asset retained at native dimensions and published orientation. Separate page typography, surrounding panel/frame and duplicated pull quotes omitted where present. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source grayscale converted to RGB; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "When You Preach",
+    "topics": [
+      "7f8e6e3c-322b-5d2d-b390-05235f99a977",
+      "d7a5df6e-661e-5089-a9bb-9a979b04a6f6"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6c8259a3b3bb0bce17ce8ab7ea248e0eb350ddb4460896766e8f2a3cdf038f87",
+    "metadata_sha256": "ae3b4fc3dba2d506234ef5da89f727ceb8616e3fb8e58607988e97531c9b2903",
+    "structure_sha256": "c03f388c9608a8154174f2e4224fd88f6a6a603b110e7165cca7c81d7fc1b1e3",
+    "text_sha256": "b69a0e618c35e3a0c76b102000c5d9fe20abcb0d1a647dc1fc889bbad342d89a",
+    "translation_metadata_sha256": "0687eb66553c768bb17aaa179bd69162e4501fc7d3a4856900f63edcda07b575"
+  },
+  "html": "<article data-article-id=\"8cf70c57-95d5-4ebb-ba24-227f4778f086\">\n<figure>\n  <img src=\"/images/articles/8cf70c57-95d5-4ebb-ba24-227f4778f086-1.jpg\" alt=\"A preacher addressing a seated congregation\">\n</figure>\n<p class=\"drop-cap\">When you enter the pulpit make no apologies. You may not be a big preacher but you have just as big a Gospel to preach as any preacher who ever lived. If you have a God-given message, deliver it. If you do not, the spiritual people will soon discover that you are firing only a dud. No matter how well you clothe a sermon with golden rhetoric and fine sentences, it is not a golden tongue that counts but a tongue of fire.</p>\n<p>Leave self out of the pulpit but take Christ in. Do not waste time with a long preface or introduction but reach the truths of your sermon as early as possible. Do not keep on talking after you have finished your sermon. It is better to keep the people longing than to send them away loathing. Do not harp too much on one string. A hard scolding rarely ever brings the anointing of God’s spirit upon a meeting. Preach to the people and never at them, especially those who are absent. Be just as faithful on the rainy days and rough nights as when the auditorium is crowded. Take care of your character and let the Lord and the people take care of your reputation. Let the Lord and the people look after your needs.</p>\n<p>Keep the faith even at the cost of losing your charge and everything else, even your life. Do not criticize the people for not liking you too well. Maybe you have too high an opinion of yourself. Remember that shouting and noise is not always spiritual power; and empty vessels may ring louder than one filled. Often lean and empty souls make noise to keep up a pretense. Powder is not shot. Thunder is not lightning. Powder may be necessary for a shot and thunder may follow lightning but the shot and lightning do the hitting. Always be a friend of sinners but never of sin.</p>\n<p>Be sure a sermon which does not bless the speaker will not bless the hearers. Be sure if you ride hobbies that finally you will be riding alone. Long stored sermons are likely to be old and musty and mildewed unless revitalized by much prayer and waiting on the Lord. Rehashed sermons will not fill the bill for a spiritual church. Education is good but may be as cold as an iceberg in the pulpit unless it is saturated with heavenly fire. Do not preach for money. Many a good preacher has bowed to the dollar mark. Do not favor the rich more than the poor. Make no difference. Remember you belong to the Lord and are the servant of all whom you serve. Always preach with the knowledge that a call to preach is the highest calling that mortal man can receive this side of heaven. Remember, this may be the last message some one may ever receive or it might be the last one you may ever deliver.</p>\n<p>No matter what training you may have received, no matter what your education may be, remember, the Lord is not looking for career preachers. No matter whose hands have been laid on you, if you have not been called by the Lord and anointed by the Holy Spirit to preach the Gospel, you are not the Lord’s preacher.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9194211363e0e101f8cc2b62d999c1f1df47ba2fa2298a89edb1e2705a4d5ae3"
+}

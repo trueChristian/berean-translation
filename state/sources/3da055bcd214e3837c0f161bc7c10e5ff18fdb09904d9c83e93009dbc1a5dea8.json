@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Perkins, OK",
+          "name": "Anna L. Martin"
+        }
+      ],
+      "raw": "Anna L. Martin\nPerkins, OK"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "e4a449b3-06b6-4826-9f6f-013aa192a096",
+    "images": [
+      {
+        "alt": "A lampshade and pull chain before a softly lit window",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-1.jpg",
+        "repository_path": "public/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-1.jpg",
+        "rights_note": "No separate caption, credit, license, or permission restriction is printed for this image on page 20. The 1922x650 clean source-photo band was assembled from embedded objects 549 and 550 at their pixel-identical two-pixel overlap, omitting the separate section-header bar, article text, and flattened white reading panel. Because PDF/X-1a does not retain the complete unobscured photograph, this is its largest deterministic clean region; it was normalized to a baseline sRGB JPEG without generation, inpainting, scaling, or a duplicate export. Rely on the publisher permission reported by the project owner.",
+        "role": "unobscured article-background detail",
+        "sequence": 1,
+        "source_page": 20
+      },
+      {
+        "alt": "Clasped hands resting on an open Bible",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-2.jpg",
+        "repository_path": "public/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-2.jpg",
+        "rights_note": "No separate caption, credit, license, or permission restriction is printed for this image on page 21. The 2550x1217 image is an exact 300-dpi crop of the largest unobscured printed photograph region below the reading panel and its shadow (page y=500–792). Because PDF/X-1a flattened the panel into the other tiles and does not retain the complete clean original, this deterministic crop preserves the praying hands and open Bible without generation, inpainting, speculative retouching, or a duplicate export; it was encoded as a baseline sRGB JPEG. Rely on the publisher permission reported by the project owner.",
+        "role": "unobscured article-background detail",
+        "sequence": 2,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "2fedbc37-858d-5f5f-b18f-b865ac648429",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Psalm 46: When Mothers Pray",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8ca68af90445de270661575f21bcb555874b7fc786cd5fdd366f4f7e7b76d32e",
+    "metadata_sha256": "7691902ede330454426e97d7e8f44aa3eda9e91aa752a927ff4c60f3997ad758",
+    "structure_sha256": "3b887550a9facd632ac08ac135746d8547028ea62a3db61d55a1af334449beb2",
+    "text_sha256": "d42df8a3e4d2feff44af3edb4dcd6abb7407c07f0bc714d8afe36a50a23d0e9f",
+    "translation_metadata_sha256": "c5a964c98a233c50ae4cb6c3ad477ec2df1c45c875f1679a4935faf017528907"
+  },
+  "html": "<article data-article-id=\"e4a449b3-06b6-4826-9f6f-013aa192a096\">\n  <figure>\n    <img src=\"/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-1.jpg\" alt=\"A lampshade and pull chain before a softly lit window\">\n  </figure>\n  <p><em>Sometimes, Lord, I come before You with a weary mind. The morning has been long… loud with teasing and tension… trampled on and trodden over. Or maybe I am the trampled one. I feel spent already. I don’t have the quiet mind with which one ought to approach the Most High God, but I come anyway. I must. I need You. Today, I heard again the dismal headlines from this sin-sick world. And God, I am afraid, not for myself, but for my children. You give us families like flocks; but we are so inadequate to shelter them from the evil overtaking the earth. Dusky, unnamed fears crouch at the edge of my consciousness, shadowing my daily duties with uneasiness. Things like training, meals, children’s hearts, friends to reach, apologies to make, character to attain—these throng my mind in demanding multitude, leaving me with half-formed prayers and scattered requests. But beyond those regular needs hover disease, deceit, and death. Yet Your Word is all-sufficient. I come before You now, opening this Gift, seeking strength to sustain me. And how fitting is this: today’s reading is Psalm 46, beloved and timeless words. Lord, as I read, my mind makes comment, applying Your words to my life.</em></p>\n  <p>********************************************</p>\n  <p><strong>“God is our refuge and strength, a very present help in trouble.”</strong><em> A Presence more present than the ever-present clamor of little people. A refuge from the burning of noontide nerves. A strength to discipline once more, to give reproof instead of a snap, to listen when I’d rather lock a door behind me.</em></p>\n  <p><strong>“Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;</strong><em> though Islam rule the world, though an atomic bomb sear across the earth.</em></p>\n  <p><strong>“Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.”</strong><em> Though the prophecies of the book of Revelation come true in my offspring’s days.</em> <strong>“Selah.”</strong><em> Selah. Selah? In these uncertain times? Sit back and think about that—</em><strong>therefore will not we fear</strong><em>—because of God. God is our refuge: my refuge, my children’s refuge.</em></p>\n  <p><strong>“There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.”</strong><em> I know gladness. This treasure that You have poured into my hands as precious little gem-souls is gladness. Sometimes it feels like a river. Sometimes I feel like I am drowning under Your wealth, and other times I simply know gladness in the city of God. When we kneel at twilight as a family, it feels like the holy place of the most High. Would that I could keep us all as we are now, innocent and safe! But I can’t, I can’t...</em></p>\n  <p><strong>“God is in the midst of her; she shall not be moved: God shall help her, and that right early.”</strong><em> Perhaps this ‘her’ was not written for the woman of God. But it fits. I have this gift of God within me, and I should not be moved. Oh, but I am. Mornings go, evenings come, and I am moved. Weariness, love, tears and joy assault my womanly being. God’s Word does not move</em><strong><em>:</em></strong> <strong>God shall help her.</strong><em> God shall help me! </em><strong>and that right early.</strong><em> Early: on time, in time, over time.</em></p>\n  <p><strong>“The heathen raged, the kingdoms were moved: he uttered his voice, the earth melted.”</strong><em> Yes, Lord, yes. The heathen are raging. I fear for my posterity, lest they be devoured by that roaring lion that stalks about openly these days, arrogantly handling deceit until it appears as truth. But the key phrase, the anchoring point of life, finishes these frightening words: Your’s is the commanding voice. The heathen may rage, but when You speak, humanity melts away.</em></p>\n  <figure>\n    <img src=\"/images/articles/e4a449b3-06b6-4826-9f6f-013aa192a096-2.jpg\" alt=\"Clasped hands resting on an open Bible\">\n  </figure>\n  <p><strong>“The Lord of hosts is with us; the God of Jacob is our refuge. Selah.”</strong><em> I relax into the arms of this God of Jacob, embraced by a truth established long before my vaporous lifetime.</em></p>\n  <p><strong>“Come, behold the works of the Lord, what desolations he hath made in the earth.”</strong><em> He hath made? Yea, He alone. Earthquakes in random places are by Your design. Fires and floods. Famines. Help me to view them as Your works, not events against which to construct a husk of man-made shelter.</em></p>\n  <p><strong>“He maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder; he burneth the chariot in the fire.”</strong><em> <u>He</u> does this! The psalmist constantly brings me back to You, Lord. The cheeky charades of men are but chess pawns in the hand of the almighty God. Herein is comfort beyond comprehension. Men think they win a war, but really, it is You who ends it. You break the strength of nations. You set up and take down. Why then do I fret over the tides of tumult?</em></p>\n  <p><strong>“Be still, and know that I am God:”</strong><em> likely the most impossible thing for a woman, a mother-woman to do. I can’t even read this verse without interrupting. I’m still for the moment, Lord, but any time now the children will awaken from their nap. The laundry is crispy-dried, supper will soon be late, I didn’t make that phone call for my husband yet, and these are only the most immediate tasks. How does one be still as a mom, anyway? In my mind? Oh. It had been still, but already it is off—</em><strong>“I will be exalted among the heathen, I will be exalted in the earth.”</strong><em> Not a perfect family, not a photo album lifestyle, no wealth of well-meant works, but You, O Holy God, will be praised. In the end, after it all, <u>You</u> will <u>be.</u> This is weighty. This puts to silence demanding ambitions. This is stillness.</em></p>\n  <p><strong>“The Lord of hosts is with us; the God of Jacob is our refuge. Selah.”</strong><em> I must arise now, I must plan, I must toil. The gladness of the streams of God flow through me, evidence of the Strength that I sought and found here in this quiet hour. You who have refuged your people since the time of Jacob will hide me and mine today, tomorrow, and always.</em></p>\n  <p>**********************************************</p>\n  <p><em>You are faithful, oh Lord of hosts. Once again, Your Word has ministered peace into my heart. Thank You. Your promises shine on my fears, dissolving them by the light of Truth. I do not understand life any better, but I realize anew how blessed I am to call You my God. Help me to be still in my mind, the single fact that You are God anchoring me amid the surge of duty. Help me to carry this Selah into the rest of my day.</em></p>\n  <p><em>Amen.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2f2a8d4358e754d014e03ceec968d837bb3fa1d347f25d1e59526b3e3c28f38c"
+}

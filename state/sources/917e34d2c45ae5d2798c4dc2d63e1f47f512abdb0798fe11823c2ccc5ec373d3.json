@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Augustus M. Toplady"
+        }
+      ],
+      "raw": "~Augustus M. Toplady"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c5c62fa7-3024-4d4c-9aa9-de190736188c",
+    "images": [
+      {
+        "alt": "Sunlight shines through dark clouds, with the poem printed over the sky",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c5c62fa7-3024-4d4c-9aa9-de190736188c-1.jpg",
+        "repository_path": "public/images/articles/c5c62fa7-3024-4d4c-9aa9-de190736188c-1.jpg",
+        "rights_note": "Original embedded image object 140 on printed page 36. No separate image credit or image-specific permission requirement is printed. The poem, title and byline are irreversibly baked into the only cloud photograph. They are retained as an explicit unavoidable-overlay exception to preserve the full useful cloud composition; the poem is also transcribed into semantic HTML. The separately painted mailing panel, address, publication masthead and postage box are omitted. Page-edge bleed is cropped to the published page. No concealed pixels were reconstructed. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source ICC RGB to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            38,
+            38,
+            1313,
+            1688
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            1275,
+            1650
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1350,
+            1727
+          ],
+          "source_object": 140
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Encompassed",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b97aec50a44f1ed50937bd4e71f3f1593c9993735ec34d78f6c6fdbd437eb820",
+    "metadata_sha256": "f224641a2f5a7f8341dd29eef06235db2ebc8a0cbe774de5e3a0ed06ba0ef425",
+    "structure_sha256": "e59cd72a0120dc84651761b887692b0828cda6fb34ee34dbc255b3d5a5bf29ed",
+    "text_sha256": "45b72d5fc48d4eb338db45194189741b8ebf793158214da0493469a1ceb8e423",
+    "translation_metadata_sha256": "ea10237e31437dd27659603bad702e662806b6d8cff3475cfe4c7e58f3c46753"
+  },
+  "html": "<article data-article-id=\"c5c62fa7-3024-4d4c-9aa9-de190736188c\">\n  <figure>\n    <img src=\"/images/articles/c5c62fa7-3024-4d4c-9aa9-de190736188c-1.jpg\" alt=\"Sunlight shines through dark clouds, with the poem printed over the sky\">\n  </figure>\n  <p class=\"poem\"><strong><em>Encompassed with clouds of distress,<br>\nAnd tempted all hope to resign,<br>\nI pant for the light of thy face,<br>\nThat I in thy beauty may shine.<br>\nDisheartened with waiting so long,<br>\nI sink at thy feet with my load;<br>\nAll plaintive I pour out my song,<br>\nAnd stretch forth my hands unto God.</em></strong></p>\n  <p class=\"poem\"><strong><em>Shine, Lord, and my terror shall cease;<br>\nThe blood of atonement apply;<br>\nAnd lead me to Jesus for peace,<br>\nThe Rock that is higher than I.<br>\nSpeak, Savior, for sweet is thy voice;<br>\nThy presence is fair to behold;<br>\nI thirst for thy Spirit, with cries<br>\nAnd groanings that cannot be told.</em></strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2dcebf096ad2f611d25e638203eb24f2a53c0c560e8a9c43a8a14a56d5670c1b"
+}

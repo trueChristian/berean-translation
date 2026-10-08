@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Tertullian",
+          "role": null
+        }
+      ],
+      "raw": "Tertullian (c.160 – c.220 AD)"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "976a7e08-e662-50b6-a13d-c787f72c7666"
+    },
+    "id": "a8d32739-6115-44d9-b024-d98d5ae9214d",
+    "images": [],
+    "issue_id": "741bac3b-c01c-483d-8837-db76602fbe4f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Voices from the Early Church",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Inside and Out",
+    "topics": [
+      "8b345ddb-8046-5651-b04f-924af67af18b",
+      "6ae93bcb-d17f-581c-9421-01248a6e3178",
+      "4512cfd9-f11a-52c1-8239-b9f0c7ec9274",
+      "494add59-7a1e-504d-ab65-b626610b684d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e734e65cba674f4ae9eaef85a4e1c047da929fd2c199ca9aefd91dc3ac4a6e8a",
+    "metadata_sha256": "94d2988e7f8ab92c2f50077a84b2973d9b7c37f6b4476e1adeba501184cff76e",
+    "structure_sha256": "206ee5b8773515d6f420d9cbba760641fe59b968e87a32d31e7bdb4fef8fd2d2",
+    "text_sha256": "1563b647a2a4f03ea3024d80aeec261f1b6ba2b793978928da0f78fa018aa3b1",
+    "translation_metadata_sha256": "aefd91b2dd83d3cf8f9cf970f23ac4fc513b0547b004a6191d683bc07fa9f4cd"
+  },
+  "html": "<article data-article-id=\"a8d32739-6115-44d9-b024-d98d5ae9214d\">\n  <p class=\"lead\"><em>It is not enough that God know us to be chaste: we must appear so before men. Especially in these times of persecution we must accustom our bodies to the hardships which they may likely be called to suffer.</em></p>\n\n  <p>Perhaps some woman will say: “To me it is not necessary to be approved by men; for I do not require the testimony of men: God is the inspector of the heart.” We all know that; provided, however, we remember what the same God has said through the apostle: “Let your integrity appear before men.”<sup>1</sup> Why is that? So that evil may have no access whatsoever to you, and that you may be an example and testimony to the evil. Furthermore, what does it mean to “Let your works shine?”<sup>2</sup></p>\n\n  <p>Why, moreover, does the Lord call us the light of the world; why has He compared us to a city built upon a mountain, if we do not shine in the middle of darkness and stand out in the middle of them who are sunk down? If you hide your lamp beneath a bushel, you must necessarily be left quite in darkness, and be bumped against by many. The things which make us bright lights in the world are these—our good works. Besides that, whatever is good—provided it be truly good—does not love darkness. In fact, it joys in being manifested, and exults over the very mockeries which are made at it.</p>\n\n  <p>To Christian modesty, it is not enough to be modest, but must <em>appear</em> modest also. For modesty should be so great in measure that it flows out from the mind to the clothes. It should burst out from the conscience to the outward appearance; so that even from the outside it may be seen what is furnishing the inside.</p>\n\n  <p>For those delicacies that tend (by their softness and effeminacy) to “unman the manliness”<sup>3</sup> of faith are to be discarded. Otherwise, I doubt if the wrist that has been used to wearing a pretty bracelet will endure wearing handcuffs! I know not whether the leg that has rejoiced in the anklet will permit itself to be squeezed into the leg shackle! I fear the neck, surrounded with pearl and emerald nooses, will give no room to the broadsword!</p>\n\n  <p>Wherefore, blessed sisters, let us meditate on hardships, and we shall not feel them. Let us abandon luxuries, and we shall not regret them. Let us stand ready to endure every violence, having nothing which we may fear to leave behind. It is these things which are the bonds which hinder our hope.</p>\n\n  <p>Let us cast away earthly ornaments if we desire heavenly. Love not gold; the substance in which are branded all the sins of the people of Israel. You ought to hate what ruined your fathers; what was adored by them who were forsaking God. Even then we find gold is food for the fire.<sup>4</sup></p>\n\n  <p>But Christians always, and now more than ever, pass their times not in gold but in iron: the scarves of martyrdom are now preparing: the angels who are to carry us are now waiting! Do you go forth to meet them already arrayed in the “cosmetics” and “ornaments” of prophets and apostles; drawing your whiteness from simplicity, your ruddy hue from modesty; painting your eyes with bashfulness, and your mouth with silence; implanting [as earrings] in your ears the words of God; fitting on your necks the yoke of Christ?</p>\n\n  <p>Submit your head to your husbands, and you will be enough adorned. Busy your hands with spinning; keep your feet at home; and you will “please” better than by arraying yourselves in gold. Clothe yourselves with the silk of uprightness, the fine linen of holiness, the purple of modesty. Thus painted, you will have God as your Lover! ~</p>\n\n  <p class=\"footnote\"><sup>1</sup> Philippians 4:5, 2 Corinthians 8:21, and Romans 12:17.</p>\n  <p class=\"footnote\"><sup>2</sup> Matthew 5:16</p>\n  <p class=\"footnote\"><sup>3</sup> That is, take away the real strength of. Here, Tertullian is saying that a showy lifestyle will take the strength out of faith.</p>\n  <p class=\"footnote\"><sup>4</sup> Exodus 32, where the gold of their ornaments was burned in a fire.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a2ab0300dd75c8a775be8f3a690e4e5bafd7738c9372ec14ed0294833cde6cf6"
+}

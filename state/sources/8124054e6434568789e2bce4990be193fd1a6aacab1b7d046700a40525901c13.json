@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "94dddad2-cc75-5292-86c4-8f450af98ad4"
+    },
+    "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+    "images": [
+      {
+        "alt": "Waterfalls seen from a rocky overlook with several figures.",
+        "caption": null,
+        "credit": null,
+        "height": 572,
+        "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg",
+        "repository_path": "public/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg",
+        "rights_note": "Clean embedded base object 55; original 554×572 rectangular framing, orientation and underlying source pixels retained. The separately painted irregular layout clipping path is omitted: it otherwise hides parts of the artwork; no content was synthesized. All separately painted article text and page furniture omitted. No individual image credit or licence is stated in the PDF. Normalized as a baseline RGB JPEG with embedded sRGB profile and nonzero 150 dpi density; original grayscale appearance preserved where applicable. Final file visually checked against PDF and source asset; complete warning-free loads through Pillow and ffmpeg, then natural-size Skia Canvas decode/paint/readback; encoded colour space confirmed sRGB. The general masthead states “Some images © 2001-2004 www.arttoday.com”; it does not identify which images this covers, so attribution of this individual image is uncertain and no licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": 55,
+        "source_page": 17,
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, paint at natural dimensions and raster readback passed.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow/libjpeg",
+            "FFmpeg native MJPEG"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset and compared it with its source page and raw source image; complete subjects, orientation and documented layout/overlay disposition verified.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        },
+        "width": 554
+      }
+    ],
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Past Redemption Point",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "220fa5b4-8cd4-53ca-ba1c-e06e36c60b58",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "27b147b9522126b210139e1322cfaccd41e17ef8f0bc745d570a9635dc6caf1f",
+    "metadata_sha256": "9dd4368b914548a4f2a86d9ba0d0e8d8ceced38553f48362c3d870921e30189f",
+    "structure_sha256": "5d24e2f2a990bb151ef74475d1ff43568779214a08f974c8e1077cad3b756d95",
+    "text_sha256": "557b4e1b41e52aa4b0657ce303b0ff24fd98deb67f526d3999f73fb65a808a14",
+    "translation_metadata_sha256": "19ad8c1b4c92b7cb1f09219af2c2357708f74898e9e17d5319e65ba5539a0257"
+  },
+  "html": "<article data-article-id=\"1f294c3b-4295-4493-8a52-a33af40f298b\">\n  <p>The English Channel waters flowed broad and deep, never crossed in their entire breadth by any human arm. Fired with ambition to do what none had done before, and conscious of muscular power, the celebrated swimmer Matthew Webb swam those twenty-five miles, and set foot on the coast of France.</p>\n  <p>Oft in the water, and always unscathed, he seemed to think he bore a charmed life; and looking at the boiling current of Niagara, determined to risk his life for fame—fame that never yet satisfied any yearning, human heart—saying, “It’s all luck, and the end, I don’t think about that; I’m going to take my chance.”</p>\n  <p>For the last time, though he knew it not, on the 24th of July 1883 he dressed in his familiar swimming garments, and took the fatal leap into the angry, whirling torrent, rising from his dive, as usual, to float and strike out, but the eddying waters had him as a straw in their giant grasp, and hurled him unseen and powerless into the vortex he had so badly braved; lost in sight of thousands standing in safety round him, safe themselves, but with no power to help him.</p>\n  <p>On the shore of that great river is a rock called “past Redemption Point.” A little cape jutting into the water, unnoticed by travelers, but beyond it not human being has ever been known to be saved. On one side is life, hope, and salvation; on the other, death, despair, damnation; and only such a little way apart.</p>\n  <p>In the overflowing stream of life we are daily drawing nearer the point whence no traveler returns; and you know not how soon you may drift, half dreaming, “past redemption point.” That whisper in the heart today of a text learned by a mother’s knee; that wonderful preservation in a moment of intense danger; that day you stood by an open grave and looked into its unfathomed mysteries; that illness that drew you so near the Kingdom of God, yet not inside—Oh! who shall say when the Voice shall plead with you for the last time.</p>\n  <figure>\n    <img src=\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\" alt=\"Waterfalls seen from a rocky overlook with several figures.\">\n  </figure>\n  <p>Can you tell which of these circumstances shall be the “Past Redemption Point” of your life? God says, “My Spirit shall not always strive with men (Gen 6:3)” and “If thou knewest, even though, at least in this thy day, the things that belong to thy peace! but now they are hid from thine eyes (Lk 19:42).”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c81f06857fbdbb9ac5c2b8b043d5ee25a4f98dc0eaff7e25a0c18ac442f25db0"
+}

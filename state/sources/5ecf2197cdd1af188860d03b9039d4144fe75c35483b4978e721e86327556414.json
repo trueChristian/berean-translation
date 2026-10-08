@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ida L. Cornett",
+          "role": null
+        }
+      ],
+      "raw": "- Ida L. Cornett -"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6e69ccfa-3d58-4e0b-a3bb-ac72114e2b9c",
+    "images": [
+      {
+        "alt": "Two hands clasped together.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6e69ccfa-3d58-4e0b-a3bb-ac72114e2b9c-1.jpg",
+        "repository_path": "public/images/articles/6e69ccfa-3d58-4e0b-a3bb-ac72114e2b9c-1.jpg",
+        "rights_note": "No article-specific permission restriction, image credit or image-specific license is printed. No image source or license is inferred. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 39. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate title, poem text and text shadows omitted; intrinsic photographic focus/blur retained.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 11,
+        "transformation": "PDF base image object 39. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate title, poem text and text shadows omitted; intrinsic photographic focus/blur retained.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "THE FATHER’S HAND",
+    "topics": [
+      "b1950920-8da5-5695-87e1-74a9c63e402c",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a21f2d63ad8ae2a872142428f8ffb5cb71e595e50f2df99bce453d5d767a305e",
+    "metadata_sha256": "866a7329a9f8f7adad4305d5b9aa3512d7474ab64c64e8c4f5cbb7e467e40b0c",
+    "structure_sha256": "015a7ca8165dd5068d17bd6e1a725c5c3921ee58470ae83d597232e94b78d889",
+    "text_sha256": "262cf9c9af0459f21c592f605ae84669672019cd159ca6784bb74cb9a9840c57",
+    "translation_metadata_sha256": "01ec23431dedbca3a2b988cb8a592eaef16d21978354cecddc0ee2ede72ea8d9"
+  },
+  "html": "<article data-article-id=\"6e69ccfa-3d58-4e0b-a3bb-ac72114e2b9c\">\n  <figure>\n    <img src=\"/images/articles/6e69ccfa-3d58-4e0b-a3bb-ac72114e2b9c-1.jpg\" alt=\"Two hands clasped together.\">\n  </figure>\n  <p class=\"poem\"><strong>While through this changing world below<br>\n  I would not choose my path to go;<br>\n  ‘Tis the Father’s hand that leadeth me,<br>\n  Then O how safe His child must be.</strong></p>\n  <p class=\"poem\"><strong>Sometimes we walk in sunshine bright,<br>\n  Sometimes in darkness of the night;<br>\n  Sometimes the way I cannot see<br>\n  But Father’s hand still leadeth me.</strong></p>\n  <p class=\"poem\"><strong>Sometimes there seems no way to take,<br>\n  But Father’s hand a way doth make.<br>\n  Sometimes I hear Him gently say,<br>\n  “Come follow Me, this is the way”.</strong></p>\n  <p class=\"poem\"><strong>Why should I mind the way I go?<br>\n  His way is best for me, I know.<br>\n  He is my strength, my truth, my way,<br>\n  He is my comfort, rod, and stay.</strong></p>\n  <p class=\"poem\"><strong>So on we travel hand in hand,<br>\n  Bound for the heavenly promised land<br>\n  Always through all Eternity,<br>\n  I’ll praise His name for leading me.</strong></p>\n  <p><em>- Ida L. Cornett -</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3859c582fa000a581bd01c897d963254c4c845f2086f22154696db7f53e736d3"
+}

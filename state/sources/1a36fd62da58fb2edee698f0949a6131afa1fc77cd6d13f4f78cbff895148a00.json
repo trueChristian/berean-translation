@@ -1,0 +1,161 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "F. B. Meyer"
+        }
+      ],
+      "raw": "by F. B. Meyer"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "b5b39e7f-dd95-4bc5-9432-0448112ab399",
+    "images": [
+      {
+        "alt": "Portrait of F. B. Meyer.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-1.jpg",
+        "repository_path": "public/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 28. The small surrounding frame is already baked into the sole source raster; retained because no separate unframed base exists and no pixels were synthesized. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "author portrait",
+        "sequence": 1,
+        "source_page": 6,
+        "transformation": "Extracted PDF base image object 28. The small surrounding frame is already baked into the sole source raster; retained because no separate unframed base exists and no pixels were synthesized. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A woman serving a seated bearded man.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-2.png",
+        "repository_path": "public/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-2.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 32. Clean grayscale base preserved. Original PNG pixels and dimensions retained without recompression.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 7,
+        "transformation": "Extracted PDF base image object 32. Clean grayscale base preserved. Original PNG pixels and dimensions retained without recompression.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A bearded man speaking with a woman gathering sticks.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-3.jpg",
+        "repository_path": "public/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-3.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 35. Clean base including its intrinsic engraved border preserved. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 8,
+        "transformation": "Extracted PDF base image object 35. Clean base including its intrinsic engraved border preserved. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man carrying a child down steps toward a woman.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-4.jpg",
+        "repository_path": "public/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-4.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 38. Clean base preserved. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 9,
+        "transformation": "Extracted PDF base image object 38. Clean base preserved. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        27
+      ],
+      "start": 6
+    },
+    "subtitle": null,
+    "title": "The Test of Home Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "cedbfddc9189f01a51a1b98149edfc9ad07553ec6af27b28897288b558329761",
+    "metadata_sha256": "28bf25c2cad83bfebb48cfe2a70de3e3b3241cd0720ab765ea1abce38eb0d081",
+    "structure_sha256": "e6a7ecac1ac177f878ac3db3e3ad92569134a9b5dec85dcd24f22fedc14a650c",
+    "text_sha256": "83ba46b66f61157e3135c4d5323e362a0bf1f2012862663f7744346c8a42c2cd",
+    "translation_metadata_sha256": "9825ca95501379f51337d7a0f8d9e9b64119f13e3e7b70aa54d64a8f7684b4cc"
+  },
+  "html": "<article data-article-id=\"b5b39e7f-dd95-4bc5-9432-0448112ab399\">\n  <figure><img src=\"/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-1.jpg\" alt=\"Portrait of F. B. Meyer.\"></figure>\n  <p>Many a man might bear himself as a hero and saint in the solitudes of Cherith, or on the heights of Carmel, and yet wretchedly fail in the home life of Zarephath. It is one thing to commune with God in the solitudes of nature and perform splendid acts of devotion and zeal for Him in the presence of thousands, but it is quite another to walk with Him day by day in the midst of a home with its many calls for the constant forgetfulness of self. Blessed, indeed, is the home life on whose threshold we cast aside our reserve, our attitude of self-defense, our suspicions and our fears, and resign ourselves to the unquestioning trust of those whose love puts the tenderest construction on much that the world exaggerates and distorts!</p>\n  <p>And yet it would be idle to deny that there is much to try and test us just where the flowers bloom and the voices of hate and passion die away in distant murmurs. There is a constant need for the exercise of gentleness, patience, self-sacrifice, and self-restraint. And beneath the test of home life with its incessant duties and demands, many men break down—even men whose characters seem far above the average.</p>\n  <p>This ought not to be, nor need it be. If our religion is what it should be, it will resemble the law of gravitation, which not only controls the planets in their spheres but guides the course of each dust grain through the autumn breeze and determines the fall of a rose petal fluttering to the path. Everything will come beneath its sway—each look, each word, each trivial act. Indeed, we shall show the reality and thoroughness of our religion when it is no longer a garment to be put off and on at will, but when it pervades us as life does the organism in which it is contained. The truly religious man will be as sweet in irritating gnat stings as in crushing calamities, as self-denying for a child as for a crowd, as patient over a spoiled or late meal as over an operation which summons all his manhood to the front. “My grace is sufficient for thee” (2 Corinthians 12:6) is the one answer of Jesus Christ to all inquiries, the one reply to all excuses and complaints about trying circumstances.</p>\n  <p>Your home life was chosen for you by the unerring skill of One who knows you better than you know yourself and who cannot make a mistake. It has been selected as the best school of grace for you. Its burdens were poised on the hand of infinite love, before they were placed on your shoulders. Its pressure has been carefully measured by scales more delicate than those which chemists use. And now, looking down upon you, the Master says: “There is nothing in your life that may not be lived in Me, for Me, through Me, and I am willing to enable you to be sweet, and noble, and saint-like in it all.”</p>\n  <p>In the last chapter we saw something of the power and Spirit with which Elijah was filled. It was nothing less than the Holy Ghost Himself, and we learned that that same glorious gift is for each of us. Indeed, it is our bounden duty never to rest until we are filled with that same fullness and clothed in that same robe. But we are now to follow him into a home and see how he bears the test of home life, and we shall learn to admire and love him the more. He lived a truly human life. He was not too great or good for human nature’s daily food.</p>\n  <p>He was the same man in the widow’s house as on Carmel’s heights. He is like one of those mountains to which we have referred, piercing the heavens with unscalable heights but clothed about the lower parts with woodlands, verdant fields, and smiling bowers where bees gather honey, and children play. He shows that when a man is full of the Holy Ghost, it will be evidenced by the entire tenor of his daily walk and conversation. In this he reminds us of Luther, the Elijah of modern times, who stood alone against the apostasy of the Romish church; but whose family life was a model of beauty—an oasis in the desert. Let those who only know Luther as the Reformer read his letters to his little daughter, and they will be captivated by the winsomeness and tenderness of that great and gentle soul.</p>\n  <h2>Elijah Teaches Us Contentment</h2>\n  <figure><img src=\"/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-2.png\" alt=\"A woman serving a seated bearded man.\"></figure>\n  <p>The fare in the widow’s home was frugal enough and there was only enough of it for their daily needs. Human nature, which was as strong in the prophet as in the rest of us, would have preferred to be able to count sacks of meal and barrels of oil. It would have been pleasant to go into some spacious storeroom and, looking around on the abundant provision, say, “I have goods enough to carry me through the years of famine. I will eat, drink, and be merry.” But this is not God’s way nor is it the healthiest discipline for our better life.</p>\n  <p>God’s rule is, Day by day. God provides for each day as it comes. The manna fell on the desert sands each day, enough for that day. But it fell every day without fail. God will provide us with enough strength each day to meet that day’s demands: “as thy days, so shall thy strength be” (Deuteronomy 33:25). And they who live like this are constantly reminded of their blessed dependence on their Father’s love. They are led back again to the life of the little child. They know nothing of those temptations to self-sufficiency, which work ruin in the rich as the myriads of minute insects of the southern seas silently eat away the bottoms of mighty vessels, which are able to defy the storms. If God were to give us the choice between seeing our provision and keeping it ourselves or not seeing it and leaving Him to deal it out, day by day; most of us would be almost sure to choose the former alternative. It gratifies our sense of importance to count up our stores, our barrels, and our sacks. It invests us with so much superiority to our neighbors. It gives such a sense of security. But we should be far wiser to say, “I am content to trust Thee, Father, the living God who gives us all things richly to enjoy. Keep Thou the stores under Thine own hand; they will give me less anxiety, they will not lead me into temptation, they will not expose me to be jealous of others less favored than myself.”</p>\n  <figure><img src=\"/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-3.jpg\" alt=\"A bearded man speaking with a woman gathering sticks.\"></figure>\n  <p>And those who live thus are not worse off than others; nay, in the truest sense, they are better off because the responsibility of maintaining them rests wholly upon God. They are delivered from the fret of anxiety, the strain of daily care, and the temptations, which make it almost impossible for a rich man to enter the kingdom of God. If God guarantees, as He does, our support, does it much matter whether we can SEE the sources from which He will obtain it? It might gratify our curiosity, but it would not make them more sure. They are in existence and beneath His eye; and they will come safely to our hand. The main thing is to understand the precious promise, “Seek ye first the kingdom of God and his righteousness, and all these things shall be added unto you” (Matthew 6:33). Then let us go on doing our duty, filling our time, and working out the plan of our life. We may be as free from care as the birds that have neither storehouse nor barn. We may laugh as merrily as the child who comes in from school to eat and goes out again to play and is utterly thoughtless about his next meal. We may be entirely destitute, our pantry bare, our money exhausted, and our means of livelihood gone. But our Father has ample resources. His are the cattle on a thousand hills, and His the waving cornfields, and the myriad fish of the ocean depths. His hired servants have bread enough and to spare, He has prepared a supply for our need, and He will deliver it in time. We only need to trust Him.</p>\n  <p>It is impossible to tell whose eyes may read these words, but if they should be read by those whose aim it is to be independent, let them consider what they mean. Do they mean to be independent of God or of men? They will live to see that they can be independent of neither. And the serious question presents itself, Is this a worthy aim for those who are bought slaves of Christ? Surely we are meant to be stewards; not storing up our Lord’s money for ourselves, but administering for Him all that we do not need for the maintenance of ourselves and our dear ones in the position of life in which God has placed us. And our only worldly aim should be to lay out our Lord’s money to the very best advantage so that we may render Him an account with joy when He comes to reckon with us.</p>\n  <p>If, on the other hand, these words are read by those who are dependent on daily supplies—with little hope of ever owning more than the daily handful of meal and the little oil at the bottom of the cruse—let them be comforted by the example of Elijah. “Be content with such things as ye have; for he hath said, I will never leave thee, nor forsake thee” (Hebrews 13:5). The bottom of the barrel may have been scraped today; but tomorrow there will be just enough in it for tomorrow’s needs. The last drop of oil may have been drained today, but there will be enough for tomorrow. Anxiety will not do you good; but the prayer of faith will. “Your Father knoweth what things ye have need of.” He who lit life’s flame knows how much fuel is required to keep it burning. Throw all responsibility on God. He who gave His own Son will with Him freely give all things. Do not listen to the arch-liar, who bids you distrust and despair. He has never yet been justified by the event. His prophecies have always proved false. His insinuations are simply beds of rank and poisonous stinging nettles. Do not lie down in them, but trample them beneath your feet. Oh that we might learn, though it be in the school of privation to be content in whatever state we are and to be able to cry with one of Elijah’s compeers, “I can do all things through Christ which strengtheneth me” (Philippians 4:13). “For thus saith the LORD God of Israel, The barrel of meal shall not waste, neither shall the cruse of oil fail, until the day that the LORD sendeth rain upon the earth” (1 Kings 17:14).</p>\n  <h2>Elijah Also Teaches Us Gentleness Under Provocation</h2>\n  <figure><img src=\"/images/articles/b5b39e7f-dd95-4bc5-9432-0448112ab399-4.jpg\" alt=\"A man carrying a child down steps toward a woman.\"></figure>\n  <p>We do not know how long the mother hung over her dying child. He may have been struck down like the little fellow who cried, “My head! my head!” and faded in one summer’s afternoon, or he may have lingered beneath the spell of a wearying illness which not only wore out his life but overtaxed his mother’s nerves so that she spoke unadvisedly and cruelly to the man who had brought deliverance to her home. “Art thou come unto me to call my sin to remembrance, and to slay my son?” (1 Kings 17:18). A remark so uncalled for and unjust might well have stung the prophet to the quick or prompted a bitter reply. And it would doubtless have done so, had his goodness been anything less than inspired by the Holy Ghost. But one of the fruits of His indwelling is gentleness. “The fruit of the Spirit is love, joy, peace, long-suffering, gentleness” (Galatians 5:22). The nature breathed into the spirit by the blessed Spirit of God is identical with His own which is love: and... “Charity [love] suffereth long, and is kind...is not easily provoked...beareth all things; believeth all things; hopeth all things; endureth all things” (1 Corinthians 13:4-7). Thus it happened that Elijah simply said, “Give me thy son” (1 Kings 17:19). If there were a momentary uprising of indignation it was immediately quelled by the Dove, which had come to brood in the nest of his heart.</p>\n  <p>We need more of this practical godliness. Many deceive themselves. They go to fervid meetings and profess that they have placed all upon the altar. They speak as if they were indeed filled with the Holy Ghost. But when they return to their homes, the least friction, or interference with their plans, or mistake on the part of others, or angry outburst arouses a sudden and violent manifestation of temper. Such people have not yet experienced His special grace. There is much more for them to learn. He who first led them to Jesus is able to make them meek with His meekness, and gentle with His gentleness. He can give them victory over their natural infirmities as well as over all conscious sin. He can work so great a transformation within them that “instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree; and it shall be to the LORD for a name, for an everlasting sign that shall not be cut off” (Isaiah 55:13).</p>\n  <p>If the Holy Spirit is really filling the heart, there will come over the rudest, the least refined, the most selfish person a marvelous change. There will be a gentleness in speech, a softness of the voice, a tender thoughtfulness in the smallest actions, an expression of abiding peace on the face. These shall be the evident seal of the Holy Ghost, the mint-mark of heaven. Are they evident in ourselves?</p>\n  <p class=\"poem\">Gentle Spirit, dwell with me,<br>I myself would gentle be;<br>And with words that help and heal,<br>Would Thy life in mine reveal.</p>\n  <p><em>Author Unknown</em></p>\n  <h2>Elijah Teaches Us Also The Power Of A Holy Life</h2>\n  <p>Somewhere in the background of this woman’s life there was a dark deed which dwarfed all other memories of wrongdoing and stood out before her mind as her sin (1 Kings 17:18). What it was we do not know. It may have been connected with the birth of that very son. It had probably been committed long years before and had then filled her with a keen agony of mind, for conscience is not inoperative even in the hearts of the children of idolatry and heathendom (Romans 2:14-15). But in later years, the keen sense of remorse had become dulled; conscience long outraged had grown benumbed. Sometimes she even lost all recollection of her sin for weeks and months together. We all have a wonderful faculty of dismissing from us an unwelcome thought, just as men try to hide from themselves the obvious symptoms of a disease which is sapping the forces of life.</p>\n  <p>Memory fixes all impressions and retains them. It never permits them to be destroyed, though it may not always be able to produce them instantly to a given call. Some memories are like well-classified libraries in which you can readily discover even the smallest pamphlet, while others are so confused that they are useless for practical purposes. Yet, even in these nothing that ever came within their range has ever been lost, and whenever the right clue is presented there is an immediate resurrection and recovery of sounds and sights and trains of thought long buried. How terrible will it be when the lost soul is met on the threshold of the dark world to which it goes, by the solemn words, “Son, Remember!” And what more fearful punishment could we imagine than being compelled to meet again and confront the hideous past, summoned by an inevitable remembrancer while conscience, no longer stupefied and drugged, is sensitive enough to convince of the exceeding sinfulness of sin.</p>\n  <p>It is remarkable how different is the mental stimulus which is required by different castes of mind to awaken dormant memories. In the case of some, the handwriting on an old letter, a picture, a scent borne on the breeze, or a song will be enough. Their own sorrow reminded Joseph’s brethren of their disgraceful behavior to their brother thirty years before. But in the case of the woman of Zarephath it was Elijah’s holy life, combined with her own terrible sorrow. Beneath the spell of these two voices her memory gave up its dead, and her conscience was quickened into vigorous life. “Art thou come unto me to call my sin to remembrance?” (1 Kings 17:18).</p>\n  <p>Oh, to live in the power of the Holy Ghost! Our looks would sometimes then convict the stoutest sinners of sin, as it is recorded of Finney whose grieved face brought conviction to a young woman and through her to a whole factory of operatives. Our holy walk would be a standing rebuke, a mirror in which the sin-pocked might see the ravages wrought by sin. Our words would then be sharp two-edged swords, piercing to the dividing of the joints and marrow, of soul and spirit.</p>\n  <p>And if any shall be conscious of some hidden but unforgiven sin, let that one know that all efforts to forget will some day be unavailing. Sickness, or bereavement, or bitter loss may come. Then that sin will spring up as if only committed yesterday, in all its horror and agony. It is said that the spirit of the victim haunts the murderer until he makes reparation by confession and surrender. There is some truth in it, for sin is only blotted out of remembrance, both of God and the soul, when it has been confessed and put beneath the blood of Jesus. Confess your sin and claim that cleansing now, and you will hear the voice of God saying, “Their sins and iniquities will I remember no more” (Hebrews 10:17).</p>\n  <h2>Elijah Teaches Us The Secret Of A Giving Life</h2>\n  <p>It is a characteristic of those who are filled with the Holy Ghost, that they carry with them everywhere the spirit of life, even resurrection life. We shall not only convince men of sin, but we shall become channels through which the divine life may enter them. Thus was it with the prophet. But mark the conditions under which alone we shall be able to fulfill this glorious function.</p>\n  <h3>1. Lonely Wrestlings</h3>\n  <p>“He took him out of her bosom, and carried him up into a loft, where he abode, and laid him upon his own bed. And he cried unto the LORD” (1 Kings 17:19-20). We are not specific enough in prayer, and we do not spend enough time in intercession, dwelling with holy ardor on each beloved name and on each heartrending case. What wonder that we achieve so little!</p>\n  <h3>2. Humility</h3>\n  <p>“He stretched himself upon the child three times” (1 Kings 17:21). How wonderful that so great a man should spend so much time and thought on that slender frame and be content to bring himself into direct contact with that which might be thought to defile! It is a touching spectacle, but we must imitate it in some measure. We must seek the conversion of children, winning them before Satan or the world attach them. But to do so, we must stoop to them; becoming as little children to win little children for Jesus.</p>\n  <h3>3. Perseverance</h3>\n  <p>“He stretched himself upon the child three times, and cried unto the LORD” (1 Kings 17:21). He was not soon daunted. It is thus that God tests the genuineness of our desire. These deferred answers lead us to lengths of holy boldness and pertinacity of which we should not otherwise have dreamed, but from which we shall never go back. “Men ought always to pray, and not to faint! (Luke 18:1).</p>\n  <p>And his supplication met with the favor of God. “The LORD heard the voice of Elijah; and the soul of the child came into him again, and he revived” (1 Kings 17:22). And as the prophet presented him to the grateful and rejoicing mother, he must have been beyond all things gratified with her simple testimony to the reality and power of the life which the Holy Ghost had begotten within him: “Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth” (1 Kings 17:24). And what was the result of all? Her work was small, her conceptions obscure, her home Gentile and heathen. Yet, because her motives were noble and her spirit in sympathy with Elijah’s, it was announced by Him, at whose throne we must all stand for our reward, that she had done what she could, and her crown should shine as brightly as that placed on the brow of the prophet of God. We are rewarded, not according to our sphere or the results of our work, but according to the sincerity and beauty of our motives. These may be as lofty in an obscure widow as in Elijah himself.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "327a3adfeb0ca0c17990ac1ac32fe535ae128768bc2dca6f6e1a935425fd428a"
+}

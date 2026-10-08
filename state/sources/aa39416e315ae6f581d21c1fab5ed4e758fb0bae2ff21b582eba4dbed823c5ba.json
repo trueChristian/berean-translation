@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Robert A. West"
+        }
+      ],
+      "raw": "Robert A. West"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "77a6f2d1-3ddd-4eed-9b80-9db2be0c922e",
+    "images": [
+      {
+        "alt": "A single yellow leaf on dark wet pavement",
+        "caption": null,
+        "credit": "Belle Vie Images",
+        "public_path": "/images/articles/77a6f2d1-3ddd-4eed-9b80-9db2be0c922e-1.jpg",
+        "repository_path": "public/images/articles/77a6f2d1-3ddd-4eed-9b80-9db2be0c922e-1.jpg",
+        "rights_note": "The page-2 masthead credits Belle Vie Images for printed page 32; no separate permission notice or license terms are stated. The clean embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG without changing its published dimensions, crop, orientation, or content.",
+        "role": "full-page poem background photograph",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "6e434782-fad8-50a6-84db-a97babd8c346",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "COME, LET US TUNE OUR loftiest song",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c37b6a82bd0f9011be636464e8cb00c5672343aa77fab42f425a03880d1f1e3e",
+    "metadata_sha256": "fd92e81350674289f470f50d9d661b4ade2d9d4d33982850ec85268dafc18b52",
+    "structure_sha256": "6058218dfbe33ecc2d7f0f2553150404829263a10e34775823c422a096e5787d",
+    "text_sha256": "f5835248cc2b3aa18f74e39c2d850d363701896fe4f678ce6dfd81e6f072622e",
+    "translation_metadata_sha256": "caf8db2451e63ebd210b5548db19403d1c7ead6dd8986ac6646fcf3d58303861"
+  },
+  "html": "<article data-article-id=\"77a6f2d1-3ddd-4eed-9b80-9db2be0c922e\">\n  <figure>\n    <img src=\"/images/articles/77a6f2d1-3ddd-4eed-9b80-9db2be0c922e-1.jpg\" alt=\"A single yellow leaf on dark wet pavement\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Come, let us tune our loftiest song<br>\n    And raise to Christ our joyful strain;<br>\n    Worship and thanks to Him belong,<br>\n    Who reigns and shall forever reign.</p>\n\n    <p>His sovereign power our bodies made;<br>\n    Our souls are His immortal breath;<br>\n    And when His creatures sinned He bled<br>\n    To save us from eternal death.</p>\n\n    <p>Burn, every breast with Jesus’ love;<br>\n    Bound every heart with rapturous joy;<br>\n    And saints on earth, with saints above,<br>\n    Your voices in His praise employ.</p>\n\n    <p>Extol the Lamb with loftiest song;<br>\n    Prolong for Him your cheerful strain;<br>\n    Worship and thanks to Him belong,<br>\n    Who reigns and shall forever reign.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "51952956c3ce624174e0a110b143f6d95261f6b1fb8ec5cda479b49df32f3caf"
+}

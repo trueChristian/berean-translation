@@ -1,0 +1,40 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "066b88aa-3fa6-4240-98c0-b2781414757a",
+    "images": [],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "The Fruit of Brokenness",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "afdb22da07701ce768d93a588f9d172a3660fba8f906b5bc2853bde7ca127337",
+    "metadata_sha256": "f7b12fe7946b040257b5581bd6cb203dc4b5e5f10a1168e69ef8f3e9a0bfbeb6",
+    "structure_sha256": "bd9e987b397e298ff2a39129df7de7f9e68e28f3d1a06b66f94948b121e20b22",
+    "text_sha256": "1ba99faab9cff4c36ccc5d65511e7891f4b190303f27ec6f72b98fe965c75add",
+    "translation_metadata_sha256": "af021cd34e3509df1113555ba19f969c2ecef990184815f54db36f7db71b83bd"
+  },
+  "html": "<article data-article-id=\"066b88aa-3fa6-4240-98c0-b2781414757a\">\n  <p>Norman Mesel gives the account of an evangelistic team who were going from door to door in a certain community. Many doors were slammed shut in their faces and there seemed to be a general disinterest. After a hard day, the team approached their hotel for a night of rest only to hear laughter and the loud commotion of a party taking place. One of the team members was brokenhearted as he looked upon the people with the eyes of Christ. With tears flowing down his cheeks, he began singing above the noise of the crowd:</p>\n  <p class=\"lyrics\">Man of sorrows, what a Name<br>For the Son of God Who came<br>Ruined sinners to reclaim!<br>Hallelujah! What a Savior!</p>\n  <p>The room became completely silent as the brokenhearted youth continued singing:</p>\n  <p class=\"lyrics\">Bearing shame and scoffing rude,<br>In my place condemned He stood;<br>Sealed my pardon with His blood;<br>Hallelujah! What a Savior!</p>\n  <p>The rest of the team joined in…</p>\n  <p class=\"lyrics\">Lifted up was He to die,<br>“It is finished,” was His cry.<br>Now in Heaven exalted high;<br>Hallelujah! What a Savior!</p>\n  <p>An amazing thing happened as the Spirit of God swept through the crowd! People began crying, repenting, and getting saved! The next day over 100 people met for worship, where only a handful had met before. Oh, the power of a broken heart and the faith and courage of one youth who was willing to be a fool for Christ!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c0d2b3a277b7a793c4b91a86b83452a220f16aa0c8d75b5358d3b9d47547e990"
+}

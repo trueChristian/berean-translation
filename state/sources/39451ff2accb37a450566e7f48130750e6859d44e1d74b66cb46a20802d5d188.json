@@ -1,0 +1,116 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver"
+        }
+      ],
+      "raw": "by Rachel Weaver"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "6497a93f-bea4-44dd-bbe5-da90318f3d48",
+    "images": [
+      {
+        "alt": "Sunlight breaks through clouds above the sea.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-1.jpg",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-1.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 22; image-specific creator and license are not stated. Cropped to remove title and byline baked into the top of the photograph; the source has an intrinsic pale fade toward the bottom.",
+        "role": "article background photograph",
+        "sequence": 1,
+        "source_page": 22
+      },
+      {
+        "alt": "The printed three-stanza Day by Day hymn in a gray panel, credited to Lina Sandell.",
+        "caption": null,
+        "credit": "Lina Sandell",
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-2.png",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-2.png",
+        "rights_note": "The hymn is credited “~Lina Sandell” in the printed panel on page 22. The complete panel is rendered from the source PDF at 300 dpi; no separate image-specific permission notice is printed.",
+        "role": "hymn panel",
+        "sequence": 2,
+        "source_page": 22
+      },
+      {
+        "alt": "Decorative foliage and flowers around a small rural scene.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-3.jpg",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-3.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 23; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 23
+      },
+      {
+        "alt": "A basket of flowers.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-4.jpg",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-4.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 24; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 24
+      },
+      {
+        "alt": "A bouquet made from bare, thorny stems.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-5.jpg",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-5.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 25; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 25
+      },
+      {
+        "alt": "Three long thorny stems.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-6.jpg",
+        "repository_path": "public/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-6.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 26; image-specific creator and license are not stated.",
+        "role": "illustration",
+        "sequence": 6,
+        "source_page": 26
+      }
+    ],
+    "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Day by Day",
+    "topics": [
+      "10340eb3-62f2-5d38-8c0e-36ca3bd2503d",
+      "6c7b3485-0894-5c43-9ca5-dfb913e45c90",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "03fd187d8162dd4c57f29d2c2fcc982a02bf53300b88a7fed75b469f57945622",
+    "metadata_sha256": "dc6664a1edd918bd58f9a3a1c89aaf89e9c906e7e6a1995f5ef637755b35f566",
+    "structure_sha256": "87c16d076a4c42c56b19eb351411a1a93c2852c5a296b5f820c2fe8ee90c5e7c",
+    "text_sha256": "0b2f188e4c4d2bee66ab404e4286f38cafdfdce8670176fd767bbf7243fb917a",
+    "translation_metadata_sha256": "44428278b1ab955d33085acc99072649838b8eb2b156601d783050deee6d3bb7"
+  },
+  "html": "<article data-article-id=\"6497a93f-bea4-44dd-bbe5-da90318f3d48\">\n  <figure><img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-1.jpg\" alt=\"Sunlight breaks through clouds above the sea.\"></figure>\n  <p><em>“As thy days, so shall thy strength be.”</em> Deut. 33:25b</p>\n  <figure><img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-2.png\" alt=\"The printed three-stanza Day by Day hymn in a gray panel, credited to Lina Sandell.\"></figure>\n  <p>What a beautiful thought! Each day brings enough strength for the things we have to face. If we look back at Exodus 16:4, this thought is exemplified for us in the manna given to the children of Israel.</p>\n  <blockquote><p><em>“Then said the LORD unto Moses, Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain rate every day, that I may prove them, whether they will walk in my law, or no. {Heb. the portion of a day in his day}</em></p></blockquote>\n  <p>When they picked up more, it got wormy and was not available for the next day. But every morning except for the Sabbath, there was manna in abundance for that day!</p>\n  <p>This priceless principle is still true for us. We can “gather” or use the portion of grace that God gives to us every day. He never gives us grace for tomorrow’s worries. There is only enough for today.</p>\n  <p>As I was reading and meditating on that thought, I realized what an unspeakable comfort it was. This takes away all care for tomorrow. Only the cares of today are yours; tomorrow is your Father’s. What value that thought has! Too easily, we neglect today as we look ahead at the future and worry and fret. We forget that the value of each day, and how we spend it, is so important in the whole picture of the years to come. God does not ask us to carry tomorrow’s load, today. In fact He offers to carry our load today if we will allow Him to. He has promised us… <em>“As thy days, so shall thy strength be.” Deut. 33:25</em> Taken simply, this means there will always be enough strength for today. Maybe that is all there will be. You may not have extra, but you will have enough. What an amazing consolation!</p>\n  <p>It is when we learn to understand this concept that we begin to grow in grace. We begin to understand that our own limitations do not matter so much as long as we know God, depend on Him, and obey Him. God has taken the moments and the days and bound them together so that we might begin to take the measure of them. When we look ahead in the morning or look back over the day that we have finished, and weigh the moments, we learn to value and use them more carefully. We learn that our Father was always there with us. We find that His promise was true and there was enough for that day. We learn to know ourselves better and see where we did not fly to Him for grace and strength. We learn what happens when we do not use our moments as He intended us to use them.</p>\n  <p>Just as God did for the children of Israel, He gives us new manna every morning. He gives us a new day, new strength, new hope, and the promise to be with us. <em>“This I recall to my mind, therefore have I hope. It is of the LORD’S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”</em> Lamentations 3:21-23 God did not give us one, long, unbroken stretch of time to live in. If He had, we would become weary, more weary than we have ever been and we could not have made it. Instead, He graciously broke our time up into days and nights. Each day we can rise again and walk with Him. Yesterday and its sorrows are past. Today is a new day and its mercies are new. We walk through the day—then He brings the night for our weary bodies and minds to renew and recharge themselves. When we wake, let us wake and thank the Lord for the “new” day.</p>\n  <figure><img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-3.jpg\" alt=\"Decorative foliage and flowers around a small rural scene.\"></figure>\n  <p>When I began to learn that lesson, even a sleepless night, or an interrupted night took on a different feel. Here was a bright new day to live for Jesus. No matter how tired I was, I began to wake and thank God for the new day and the new mercies that He was going to have for me. That change of attitude made so much difference in my day. I woke with a thankful heart. That thankful heart made each trial and trouble seem smaller. Thankfulness is one of the keys to a victorious Christian life. You see it all through the Word.</p>\n  <blockquote><p><em>Ps 69:30 “I will praise the name of God with a song, and will magnify him with thanksgiving.”</em></p></blockquote>\n  <blockquote><p><em>Ps 95:2 “Let us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.”</em></p></blockquote>\n  <blockquote><p><em>Ps 100:4 “Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.”</em></p></blockquote>\n  <blockquote><p><em>Col 2:7 “Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.</em></p></blockquote>\n  <blockquote><p><em>Col 4:2 “Continue in prayer, and watch in the same with thanksgiving....”</em></p></blockquote>\n  <p>A thankful heart allows God to have His way with us. He inhabits the praise of His people. Whether you wake to a day of health or sickness, joy or sorrow, struggle or victory, let it be with this in mind, <em>“ This is the day which the LORD hath made; we will rejoice and be glad in it.” Psalm 118:24</em> I will trust God to do with my day what He desires and learn to walk with Him more closely than before. <em>“I will trust and not be afraid.” Isa. 12:2</em></p>\n  <p>Along with the new day, the new strength and the abundant grace, God also sends blessings. Have you ever experienced the special touch of God’s hand that comes through another person? Perhaps it is an encouraging phone call, an unexpected visit from a friend, a card in the mailbox, or just a verse of song that your daughter is singing as she does her chores. These little gifts are rays of sunshine, treasures that are not to be lightly esteemed. As I learn to look for the blessings that God leaves in my way, I become more thankful. These blessings are strewn along our pathway far more often than we know.</p>\n  <figure><img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-4.jpg\" alt=\"A basket of flowers.\"></figure>\n  <ul>\n    <li><em>Health to do the work at hand–some of my friends are not blessed with good health</em></li>\n    <li><em>A lovely sunrise or sunset to remind me of God’s greatness</em></li>\n    <li><em>A great big hug from my child and a warm “I love you, Mom”</em></li>\n    <li><em>The car filled up with gas by my thoughtful husband</em></li>\n    <li><em>Just enough of flour in the bucket to finish my baking – God cares about details.</em></li>\n    <li><em>An encouraging call from a friend I had not heard from for a long time</em></li>\n    <li><em>Time to sit and read with the whole family – each day together is a gift from God!</em></li>\n    <li><em>Special time in prayer with my Father where my heart is strengthened.</em></li>\n    <li><em>Enough gas to get me to the gas pump when the gauge was on empty!</em></li>\n    <li><em>A basket of goodies on my table from a busy friend whom I love dearly</em></li>\n    <li><em>A talk with a loving, respectful young person – there are still some around!</em></li>\n    <li><em>A verse in my devotions that specifically ministered to my need – God is speaking into my life!</em></li>\n  </ul>\n  <p>Make it a habit to look for the lovely things in each day and attribute them to the loving hand of God. It not only changes your day, but it will change your life. Thankfulness as a daily habit makes us into stronger Christians.</p>\n  <p>Today I was reminded of a small story that I had read about ten years ago.</p>\n  <section aria-label=\"The Thorn Story\">\n    <h2>The Thorn Story</h2>\n    <p class=\"byline\">by George Matheson</p>\n  <p>Sandra felt as low as the heels of her Birkenstocks as she pushed against a November gust and the florist shop’s door. Her life had been easy, like a spring breeze.</p>\n  <p>Then in the fourth month of her second pregnancy, a minor automobile accident stole her ease. During this Thanksgiving week, she would have delivered a son. She grieved her loss. As if that wasn’t enough, her husband’s company threatened a transfer. Then her sister, whose holiday visit she coveted, called saying that she could not come. What’s worse, Sandra’s friend infuriated her by suggesting her grief was a “God-given” path to maturity, that would allow her to empathize with others who suffer.</p>\n  <p>“Had she lost a child? NO—she has no idea what I’m feeling.” Sandra shuddered.</p>\n  <p>Thanksgiving? “Thankful for what?” she wondered. “For a careless driver whose truck was hardly scratched when he rear-ended her? For an airbag that saved her life, but took that of her child?”</p>\n  <p>“Good afternoon, can I help you?” The flower shop clerk’s approach startled her. “Sorry,” said Jenny, “I just didn’t want you to think I was ignoring you.”</p>\n  <p>“I...I need an arrangement,” said Sandra.</p>\n  <p>“For Thanksgiving?”</p>\n  <p>Sandra nodded.</p>\n  <p>“Do you want ‘Beautiful but Ordinary’, or would you like to challenge the day with a customer favorite I call the ‘Thanksgiving Special’”?</p>\n  <p>Jenny saw Sandra’s curiosity and continued, “I am convinced the flowers will tell stories, and that each arrangement insinuates a particular feeling. Are you looking for something that conveys gratitude this Thanksgiving?”</p>\n  <p>“Not exactly,” Sandra blurted. “Sorry, but in the last five months, everything that could go wrong has.” Sandra regretted her outburst, but was surprised when Jenny said, “I have the perfect arrangement for you.”</p>\n  <p>The door’s small bell suddenly rang. “Barbara, hi!” Jenny said. She politely excused herself from Sandra, and walked toward a small workroom. She quickly reappeared, carrying a massive arrangement of green bows and long-stemmed thorny roses; only the ends of the rose stems were neatly snipped, no flowers. “Want this in a box?” Jenny asked Barbara.</p>\n  <figure>\n    <img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-5.jpg\" alt=\"A bouquet made from bare, thorny stems.\">\n  </figure>\n  <p>Sandra watched for Barbara’s response. “Was this a joke?” she thought. “Who would want rose stems with no flowers!” She waited for laughter, for someone to notice the absence of flowers atop the thorny stems, but neither woman did.</p>\n  <p>“Yes, please. It’s exquisite!”, said Barbara. “You’d think after three years of getting the special, I’d not be so moved by its significance, but it’s happening again. My family will love this one! Thanks.”</p>\n  <p>Sandra stared. “Why so normal a conversation about so strange an arrangement?” she wondered. “Aaaaaaaa”, said Sandra, pointing. “That lady...just left with....”</p>\n  <p>“Yes?” replied Jenny.</p>\n  <p>“Well...she had no flowers!” blurted Sandra.</p>\n  <p>“Yep, that’s the special. I call it the ‘Thanksgiving Thorns Bouquet’.”</p>\n  <p>In spite of herself, Sandra chuckled and said “But why do people pay for that?”</p>\n  <p>“Do you really want to know?”</p>\n  <p>“I couldn’t leave this shop without knowing! I’d think about nothing else!”</p>\n  <p>“That might be good,” said Jenny.</p>\n  <p>“Well,” she explained, “Barbara came into the shop three years ago, feeling very much like you feel today. She thought she had very little to be thankful for. She had lost her father to cancer, the family business was failing, her son was into drugs, and she faced major surgery.”</p>\n  <p>“Ouch,” said Sandra.</p>\n  <p>Jenny continued, “That same year, I lost my husband. I assumed complete responsibility for the shop, and for the first time, spent the holidays alone. I had no children, no husband, no family nearby, and too great a debt to allow any travel.”</p>\n  <p>“What did you do?”</p>\n  <p>“I learned to be thankful for thorns.”</p>\n  <p>Sandra’s eyebrows lifted as she asked, “Thorns?”</p>\n  <p>Jenny replied, “I’m a Christian, Sandra. I’ve always thanked God for good things in life, and I never thought to ask Him why good things happened to me. But when hard times hit, did I ever ask! It took time to learn that dark times are important. I always enjoyed the flowers of life, but it took thorns to show me the beauty of God’s comfort. You know, the Bible says that God comforts us when we are afflicted, and from His consolation, we learn to comfort others.”</p>\n  <p>Sandra gasped, “A friend read that passage to me, and I was furious! I guess the truth is, I don’t want comfort. I’ve lost a baby, and I’m angry with God.” Jenny started to ask Sandra to “go on”, when the door’s bell diverted their attention.</p>\n  <p>“Hey Phil!” shouted Jenny, as a balding rotund man entered the shop. She gently touched Sandra’s arm, and moved to welcome the customer.</p>\n  <p>“I’m here for twelve thorny long-stemmed stems!” Phil laughed heartily. “I figured as much,” said Jenny. “I’ve got them ready.” She lifted a tissue-wrapped arrangement from the refrigerated cabinet.</p>\n  <p>“Beautiful,” said Phil. “My wife will love them!”</p>\n  <p>Sandra could not resist asking, “These are for your wife?”</p>\n  <p>Phil saw that Sandra’s curiosity matched his when he first heard of the “Thorn Bouquet.”</p>\n  <p>Sandra said, “Do you mind me asking, ‘Why thorns?’”</p>\n  <p>“I’m glad you asked,” Phil replied. “Four years ago, my wife and I nearly divorced. After forty years, we were in a real mess: but we slogged through, problem by rotten problem. We rescued our marriage...our love really. Last year, at Thanksgiving, I stopped in here for flowers. I must have mentioned surviving a tough process, because Jenny told me that for a long time, she had kept a vase of rose stems...stems!...as a reminder of what she learned from ‘thorny times’. That was good enough for me! I took home stems! My wife and I decided to label each one for a specific ‘thorny’ situation, and give thanks for what the problem taught us. I’m pretty sure this ‘stem review’ is becoming a tradition.”</p>\n  <figure>\n    <img src=\"/images/articles/6497a93f-bea4-44dd-bbe5-da90318f3d48-6.jpg\" alt=\"Three long thorny stems.\">\n  </figure>\n  <p>Phil paid Jenny, and thanked her again, and as he left, said to Sandra, “I highly recommend the Special!”</p>\n  <p>“I don’t know if I can be thankful for the ‘thorns’ in my life”, Sandra said to Jenny.</p>\n  <p>“Well, my experience says, that ‘thorns’ make roses more precious. We treasure God’s providential care more during trouble than at any other time.</p>\n  <p>“Remember, Sandra...Jesus wore a crown of ‘thorns’, so that we might know His love. Do not resent ‘thorns’.”</p>\n  <p>Tears rolled down Sandra’s cheeks. For the first time since the accident, she loosened her grip on resentment. “I’ll take twelve long-stemmed thorns, please”.</p>\n  <p>“I hoped you would,” Jenny said. “I’ll have them ready in a minute. Then, every time you see them, remember to appreciate both good and hard times. We grow through both.”</p>\n  <p>“Thank you, what do I owe you?” asked Sandra.</p>\n  <p>“Nothing. Nothing but a pledge to work toward healing your heart. The first year’s arrangement is always on me.” Jenny handed a card to Sandra, saying “I’ll attach a card like this to your arrangement, but maybe you’d like to read it first. Go ahead, read it.”</p>\n  <blockquote><p><em>My God, I have never thanked Thee for my ‘thorn’! I have thanked Thee a thousand times for my roses, but never once for my ‘thorn’. Teach me the glory of the cross I bear. Teach me the value of my ‘thorns’. Show me that I have climbed to Thee by the path of pain. Show me that my tears have made my rainbow.</em></p></blockquote>\n  </section>\n  <p>Take the challenge—lean on God and learn to be thankful for each day, for each thorn.</p>\n  <p>Then go a step farther and help someone else to see God in each passing moment. That is what God has placed us here to do. <em>“As thy days, so shall thy strength be.” Deut. 33:25b</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "43bb4eb1ad0137c5ad5f3ef3e0de07a1b44fe669bfbdf905f4c676dd738d7811"
+}

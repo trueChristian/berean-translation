@@ -1,0 +1,92 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Warsaw, OH",
+          "name": "Iva Mast"
+        }
+      ],
+      "raw": "by Iva Mast\nWarsaw, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+    "images": [
+      {
+        "alt": "Colorful school supplies and a stethoscope around a pale background",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg",
+        "repository_path": "public/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 16-17; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was re-encoded at unchanged 1103x852 dimensions as a standards-normalized baseline sRGB JFIF JPEG with 100 dpi density; crop and orientation are unchanged.",
+        "role": "header illustration",
+        "sequence": 1,
+        "source_page": 16
+      },
+      {
+        "alt": "An empty classroom with rows of desks",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg",
+        "repository_path": "public/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 16-17; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was re-encoded at unchanged 484x349 dimensions as a standards-normalized baseline sRGB JFIF JPEG with 100 dpi density; crop and orientation are unchanged.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 17
+      },
+      {
+        "alt": "Children stacking their hands together",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg",
+        "repository_path": "public/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 16-17; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was re-encoded at unchanged 484x466 dimensions as a standards-normalized baseline sRGB JFIF JPEG with 100 dpi density; crop and orientation are unchanged.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 17
+      },
+      {
+        "alt": "An ambulance driving with its emergency lights on",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg",
+        "repository_path": "public/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 16-17; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was re-encoded at unchanged 358x832 dimensions as a standards-normalized baseline sRGB JFIF JPEG with 100 dpi density; crop and orientation are unchanged.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "A Life Changing Influence",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a2f1be8466d3f1e15f198f1b84834a6e7e2c8f7bbd7bffc0440e06c4a2d5a37a",
+    "metadata_sha256": "949e5538b7ca92f372978a3f72f0ad36c01e090c68661fe854dd1e47bfc70cbc",
+    "structure_sha256": "f1f47c3786605df3ae4083b3ceba9a90698dc3a8573042fd272d08a3c0decf81",
+    "text_sha256": "494ccfcdf8c4c3d58c18733f3e34ae693887d4d2976913dc7d2f31321e3d3ec7",
+    "translation_metadata_sha256": "bf49060cb50a09c0bebd559423e6614fba4f9a52cfbe53cffd6ce088ad01b2bc"
+  },
+  "html": "<article data-article-id=\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\">\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\" alt=\"Colorful school supplies and a stethoscope around a pale background\">\n  </figure>\n  <p class=\"drop-cap\">As a child, you might think you can’t make a difference in the lives of people around you, but that is not true! Your little acts of kindness will not soon be forgotten. Being a true friend to someone who is hurting can change that person’s life forever.</p>\n  <p>This is the true story of “Hadassah” (not her real name) a young girl who was very much looking forward to starting school. Once she started first grade, what a disappointment it was to find that the second-grade girls were ready for someone to be mean to, or so it seemed. Maybe it would have been better if Hadassah had stood up to them, but she didn’t. Instead, she chose to act as if it didn’t hurt and tried to ignore them. Some days were better than others, but sadly this went on for three or four years.</p>\n  <p>Sure, there were good times too, but many evenings she walked home from school, crying most of the way and wishing that she wouldn’t need to go back to school the next day!</p>\n  <p>One day, one of the girls lost her pen. She was sure that Hadassah had stolen it. This was very disturbing to a very conscientious Hadassah. At the next recess she was blamed for cheating on her flash cards. Many other made-up stories were also passed around among the girls.</p>\n  <p>However, there was one little girl in that second-grade group of girls whose name we’ll say was “Esther”. She was Hadassah’s best friend and supported her all through those difficult years.</p>\n  <p>Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for. Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now, so those patients usually died very young. As Esther’s sickness became worse, the days that she felt well enough to be in school were rare. Since Esther was well-liked, the days when she was in school were special to everyone. Perhaps Esther realized she would be in heaven before the other girls—we don’t know for sure. But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>\n  <p>Hadassah still remembers seeing the emergency squad go past her house when they took Esther to the hospital for the last time. It was a very sad group of schoolgirls when Esther died at the age of 13. Esther had touched the hearts of many people in her short life, including the nurses who had cared for her during her stay in the hospital. Hadassah still remembers seeing some of the nurses crying at Esther’s funeral. Do you think Hadassah will ever forget Esther? Never!</p>\n  <p>Besides being her best friend, another bright spot for Hadassah was that when Esther was in school the other girls weren’t as mean to her (Hadassah). It so happened that in about the fourth grade, Esther was in school more often. One day she went home and told her parents what she was witnessing in school—how the other girls were against Hadassah and were being so mean to her. Esther’s father brought this problem up in the next parent/teacher meeting. What a night and day change started the very next day! One of the girls even came to Hadassah and apologized. Finally, they could all be friends and today those girls are Hadassah’s “old school friends”.</p>\n  <p>It’s worth it to stand beside someone who is being treated unkindly. Your support may be what God uses to help your friend to go through their hard times in a good way! And share it with your parents, they can help find a way to change the problem.</p>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\" alt=\"An empty classroom with rows of desks\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\" alt=\"Children stacking their hands together\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"An ambulance driving with its emergency lights on\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2"
+}

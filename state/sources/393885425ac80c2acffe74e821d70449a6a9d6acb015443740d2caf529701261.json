@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "ecfb477d-6699-41f3-a6d9-bc1442a3bcf9",
+    "images": [
+      {
+        "alt": "Mounted soldiers and troops passing a house",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ecfb477d-6699-41f3-a6d9-bc1442a3bcf9-1.jpeg",
+        "repository_path": "public/images/articles/ecfb477d-6699-41f3-a6d9-bc1442a3bcf9-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 64. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. Source-pixel crop (0, 660, 1050, 1417). The sole source raster includes a flattened pale fade behind the separately painted article text. Cropped away the blank upper layout area; retained a useful lower illustration crop and its unavoidable baked fade. No clean underlying object, mask, or exact inverse blend is available. Separate title, body text, and page furniture are omitted. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 15
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "“I Make You Captain of My Guard!”",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "dead0a596ba9f51398733215e6fd285089dc6ec0e774f084971b74ad670b79d6",
+    "metadata_sha256": "992f04d8bf3d78c1ae45fa889b1ae9a78d64028cd5b7e43101b47d2930036db6",
+    "structure_sha256": "ef9c2f33b15f7546c445ca9c70d8250910fcffcc43da7cd822fa494ca00b6ae1",
+    "text_sha256": "7b4fedc6c34251aa248e504a73c140f811d3031feb783bf036f8cc0d99b7f9df",
+    "translation_metadata_sha256": "e18c4b81b68c52337f4257dcd3e5ff6e9e77838a381ab8e4f36059169e9bbc77"
+  },
+  "html": "<article data-article-id=\"ecfb477d-6699-41f3-a6d9-bc1442a3bcf9\">\n<p class=\"drop-cap\">It is said of Napoleon that while he was reviewing his army one day, his horse became frightened at something, and the Emperor lost his rein. The horse lost restraint and went away at full speed, putting the Emperor’s life in great danger. As hard as he tried he just could not get hold of the rein. Suddenly a private from the ranks saw it, and sprang out of the ranks towards the horse, and was successful in getting hold of the horse’s head at the peril of his own life. The Emperor was very much pleased. Touching his hat, he said to him, “I make you Captain of my Guard.”</p>\n<p>The soldier never even returned to his line, but walked right up to the front of the formation. Stepping out where no common foot soldiers go, he went up to where the chief body-guard stood. The captain of the body-guard ordered him back into the ranks, but he said “No! I won’t go!” “Why not?” “Because I am Captain of the Guard.” “<em>You</em> Captain of the Guard?” “Yes;” replied the soldier. “Who said it?” At that, the former private pointing to the Emperor; said, “He said it.” That was enough.</p>\n<p>Nothing more could be said. He took the Emperor at his word. My friends, if God says anything, let us take Him at His word. “He that believeth on the Lord Jesus Christ shall not perish, but have everlasting life.” Don’t you believe it? Don’t you believe you have got everlasting life? It can be the privilege of every child of God to believe and then know that you have got it.</p>\n<figure>\n<img src=\"/images/articles/ecfb477d-6699-41f3-a6d9-bc1442a3bcf9-1.jpeg\" alt=\"Mounted soldiers and troops passing a house\">\n</figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3e8125c2b4bb427ab860a97cbc58db2a4861bd1741af76e33c40992b44d8b401"
+}

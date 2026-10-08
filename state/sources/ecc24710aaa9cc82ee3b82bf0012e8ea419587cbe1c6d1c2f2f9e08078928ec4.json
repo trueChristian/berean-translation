@@ -1,0 +1,120 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Horatius Bonar",
+          "role": null
+        }
+      ],
+      "raw": "by Horatius Bonar"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "bf3fe140-80b2-4120-841d-f5e87a2f4a04",
+    "images": [
+      {
+        "alt": "An assembly watches men performing a sacrifice before mountains",
+        "caption": "The blood, as the emblem of substitution, and the fire, as the symbol of God’s wrath upon the substitute, were seen in all the parts of Israel’s service; but especially in the daily burnt offering",
+        "credit": null,
+        "pdf_object_xref": 79,
+        "public_path": "/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-1.jpg",
+        "repository_path": "public/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-1.jpg",
+        "rights_note": "Original embedded PDF image object 79; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 20,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            500,
+            324
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 79,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            500,
+            324
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A robed man raises both arms before a large assembly in a courtyard",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 86,
+        "public_path": "/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-2.jpg",
+        "repository_path": "public/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-2.jpg",
+        "rights_note": "Original embedded PDF image object 86; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 22,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            564,
+            381
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 86,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            564,
+            381
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "The Blood of Sprinkling",
+    "topics": [
+      "87d9ba46-bf4d-5d45-a7c6-ce37e88c60be",
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "487a9d92c9ccafba48b9cc2e490297b8cb1cad4a904a20feded22e004ac3a83b",
+    "metadata_sha256": "a834cc97eb800f84b9f34ac8b7b9240e21cfa44ae769d20019ce4e62c5b78d96",
+    "structure_sha256": "a5f0302b83906c238913e5a5e84f370840e6129c84ddb209da0414b01403a326",
+    "text_sha256": "125b583b7b4bfd7121b3fc1540363dbc22843f31b02e1628e19e9cea2b026cd5",
+    "translation_metadata_sha256": "fdebeb77e408462275e9e774e78fcc78aa01d282edc5e4f678d4c9811e9f1fc0"
+  },
+  "html": "<article data-article-id=\"bf3fe140-80b2-4120-841d-f5e87a2f4a04\">\n  <p>But an inquirer asks, “What is the special meaning of the blood, of which we read so much? How does it speak peace? How does it ‘purge the conscience from dead works?’ What can blood have to do with the peace, the grace, and the righteousness of which we have been speaking?”</p>\n  <p>God has given the reason for the stress which he lays upon the blood; and, in understanding this, we get to the very bottom of the grounds of a sinner’s peace.</p>\n  <p>The sacrifices of old, from the days of Abel downward, furnishes us with the key to the meaning of the blood, and explain the necessity for its being “shed for the remission of sins.” “Not without blood”[20] was the great truth taught by God from the beginning; the inscription which may be said to have been written on the gates of tabernacle and temple. For more than two thousand years, during the ages of the patriarchs, there was but one great sacrifice—the burnt offering. This, under the Mosaic service, was split into parts—the peace offering, trespass offering, sin offering, etc. In all of these, however, the essence of the original burnt offering was preserved—by the blood and the fire, which were common to them all. The blood, as the emblem of substitution, and the fire, as the symbol of God’s wrath upon the substitute, were seen in all the parts of Israel’s service; but specially in the daily burnt offering, the morning and evening lamb, which was the true continuation and representative of the old patriarchal burnt offering. It was to this that John referred when he said “Behold the Lamb of God, that taketh away the sin of the world.” Israel’s daily lamb was the kernel and core of all the Old Testament sacrifices; and it was its blood that carried them back to the primitive sacrifices, and forward to the blood of sprinkling that was to speak better things than that of Abel.</p>\n  <figure>\n    <img src=\"/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-1.jpg\" alt=\"An assembly watches men performing a sacrifice before mountains\">\n    <figcaption><strong>The blood, as the emblem of substitution, and the fire, as the symbol of God’s wrath upon the substitute, were seen in all the parts of Israel’s service; but especially in the daily burnt offering</strong></figcaption>\n  </figure>\n  <p>In all these sacrifices the shedding of the blood was the infliction of death. The “blood was the life;” and the pouring out of the blood was the “pouring out of the soul.” This blood shedding or life-taking was the payment of the penalty for sin; for it was threatened from the beginning, “In the day thou eatest thereof thou shalt surely die;” and it is written, “The soul that sinneth, it shall die,” and again, “The wages of sin is death.”</p>\n  <p>But the blood shedding of Israel’s sacrifices could not take sin away. It showed the way in which this was to be done, but it was in fact more a “remembrance of sins,” than an expiation. It said life must be given for life, ere sin can be pardoned; but then the continual repetition of the sacrifices showed that there was needed richer blood than Moriah’s altar was ever sprinkled with, and a more precious life than man could give.</p>\n  <p>The great blood-shedding has been accomplished; the better life has been presented; and the one death of the Son of God has done what all the deaths of old could never do. His one life was enough; his one dying paid the penalty; and God does not ask two lives, or two deaths, or two payments. “Christ was once offered to bear the sins of many. In that he died, he died unto sin once.” “He offered one sacrifice for sins forever.”</p>\n  <p>The “sprinkling of the blood,” was the making use of the death, by putting it upon certain persons or things, so that these persons or things were counted to be dead, and, therefore, to have paid the law’s penalty. So long as they had not paid that penalty, they were counted unclean and unfit for God to look upon; but as soon as they had paid it, they were counted clean and fit for the service of God. Usually when we read of cleansing, we think merely of our common process of removing stains by water and soap. But this is not the figure meant in the application of the sacrifice. The blood cleanses, not like the prophet’s “nitre and much soap,” but by making us partakers of the death of the Substitute. For what is it that makes us filthy before God? It is our guilt, our breach of law, and our being under sentence of death in consequence of our disobedience. We have not only done what God dislikes, but what his righteous law declares to be worthy of death. It is this sentence of death that separates us so completely from God, making it wrong for him to bless us, and perilous for us to go to him.</p>\n  <p>When thus covered all over with that guilt whose penalty is death, the blood is brought in by the great High Priest. That blood represents death; it is God’s expression for death. It is then sprinkled on us, and thus death, which is the law’s penalty, passes on us. We die. We undergo the sentence; and thus the guilt passes away. We are cleansed! The sin which was like scarlet becomes as snow; and that which was like crimson becomes as wool. It is thus that we make use of the blood of Christ in believing; for faith is just the sinner’s employing the blood. Believing what God has testified concerning this blood, we become one with Jesus in his death; and thus we are counted in law, and treated by God, as men who have paid the whole penalty, and so been “washed from their sins in his blood.”[21]</p>\n  <p>Such are the glad tidings of life, through him who died. They are tidings which tell us, not what we are to do, in order to be saved, but what He has done. This only can lay to rest the sinner’s fears; can “purge his conscience;” can make him feel as a thoroughly pardoned man. The right knowledge of God’s meaning in this sprinkling of the blood, is the only effectual way of removing the anxieties of the troubled soul, and introducing him into perfect peace.</p>\n  <p>The gospel is not the mere revelation of the heart of God in Christ Jesus. In it the righteousness of God is specially manifested; and it is this revelation of the righteousness that makes it so truly “the power of God unto salvation.” The blood shedding is God’s declaration of the righteousness of the love which he is pouring down upon the sons of men; it is the reconciliation of law and love; the condemnation of the sin and the acquittal of the sinner. As “without shedding of blood there is no remission; so the gospel announces that the blood has been shed by which remission flows; and now we know that “the Son of God is come,” and that “the blood of Christ cleanses us from all sin.” The conscience is satisfied. It feels that God’s grace is righteous grace, that his love is holy love. There it rests.</p>\n  <p>It is not by incarnation but by blood shedding that we are saved. The Christ of God is no mere expounder of wisdom; no mere deliverer or gracious benefactor; and they who think they have told the whole gospel, when they have spoken of Jesus revealing the love of God, do greatly err. If Christ be not the Substitute, he is nothing to the sinner. If he did not die as the Sinbearer, he has died in vain. Let us not be deceived on this point, nor misled by those who, when they announce Christ as the Deliverer, think they have preached the gospel. If I throw a rope to a drowning man, I am a deliverer. But is Christ no more than that? If I cast myself into the sea, and risk my life to save another, I am a deliverer. But is Christ no more? Did he but risk his life? The very essence of Christ’s deliverance is the substitution of Himself for us, his life for ours. He did not come to risk his life; he cam to die! He did not redeem us by a little loss, a little sacrifice, a little labor, a little suffering, “He redeemed us to God by his blood;” “the precious blood of Christ.” He gave all he had, even his life, for us. This is the kind of deliverance that awakens the happy song, “To him that loved us, and washed us from our sins in his own blood.”</p>\n  <figure>\n    <img src=\"/images/articles/bf3fe140-80b2-4120-841d-f5e87a2f4a04-2.jpg\" alt=\"A robed man raises both arms before a large assembly in a courtyard\">\n  </figure>\n  <p>The tendency of the world’s religion just now is, to reject the blood; and to glory in a gospel which needs no sacrifice, no “Lamb slain.” Thus, they go “in the way of Cain.” Cain refused the blood, and came to God without it. He would not own himself a sinner, condemned to die, and needing the death of another to save him. This was man’s open rejection of God’s own way of life. Foremost in this rejection of, what is profanely called by some scoffers, “the religion of the shambles,” we see the first murderer; and he who would not defile his altar with the blood of a lamb, pollutes the earth with his brother’s blood.</p>\n  <p>The heathen altars have been red with blood; and to this day they are the same. But these worshippers know not what they mean, in bringing that blood. It is associated only with vengeance in their minds; and they shed it, to appease the vengeance of their gods. But this is no recognition either of the love or the righteousness of God. “Fury is not in him;” whereas their altars speak only of fury. The blood which they bring is a denial both of righteousness and grace.</p>\n  <p>But look at Israel’s altars. There is blood; and they who bring it know the God to whom they come. They bring it in acknowledgment of their own guilt, but also of his pardoning love. They say, “I deserve death;” but let this death stand for mine; and let the love which otherwise could not reach me, by reason of guilt, now pour itself out on me.”</p>\n  <p>Inquiring soul! Beware of Cain’s error on the one hand, in coming to God without blood; and beware of the heathen error on the other, in mistaking the meaning of the blood. Understand God’s mind and meaning, in “the precious blood” of his Son. Believe his testimony concerning it; so shall thy conscience be pacified, and thy soul find rest.</p>\n  <p>It is into Christ’s death, that we are baptized, and hence the cross, which was the instrument of that death, is that in which we glory. The cross is to us the payment of the sinner’s penalty, the extinction of the debt, and the tearing up of the bond or handwriting which was against us. And as the cross is the payment, so the resurrection is God’s receipt in full, for the whole sum, signed with his own hand. Our faith is not the completion of the payment, but the simple recognition on our part of the payment made by the Son of God. By this recognition, we become so one with Him who died and rose, that we are henceforth reckoned to be the parties who have paid he penalty, and treated as if it were we ourselves who had died. Thus are we justified from the sin, and then made partakers of the righteousness of him, who was not only delivered for our offences, but who rose again for our justification.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "abc6cde27c2896bb1c255986e5c41b252711deab8afc2f5300c4904adb0033c4"
+}

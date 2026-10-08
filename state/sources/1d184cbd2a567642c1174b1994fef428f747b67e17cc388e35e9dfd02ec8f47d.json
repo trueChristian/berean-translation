@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Titanyen, Haiti",
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "By Barry Grant | Titanyen, Haiti"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6cf38cda-02b1-4a4d-8326-19b440015f2c",
+    "images": [
+      {
+        "alt": "Sunset reflected on a lake beside silhouetted trees",
+        "caption": null,
+        "credit": "pixabay.com",
+        "public_path": "/images/articles/6cf38cda-02b1-4a4d-8326-19b440015f2c-1.jpg",
+        "repository_path": "public/images/articles/6cf38cda-02b1-4a4d-8326-19b440015f2c-1.jpg",
+        "rights_note": "The page-2 masthead credits pixabay.com for printed page 35; no separate permission notice or licence terms are stated. The clean embedded inverted-Adobe CMYK background was sample-inverted, converted to sRGB, and baseline-encoded at its published 1715-by-2218 dimensions and 202 dpi without poem text or the cross layout, while retaining its crop and orientation.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "1d33b847-4514-5cad-bb2b-b62194674900",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Recommitment",
+    "topics": [
+      "dc4e3adc-1f8d-519e-8547-13022f6df66b",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5bc4d3173bf10dd27bd24518e3aa9de6f18235d8086d7496886f3a3cbc44de3c",
+    "metadata_sha256": "1664d15efe28ea986164fe037ea5f45be3364152825ca053d1c556da3ac18f12",
+    "structure_sha256": "de73f2a6d83573c1ae7476de1ee31a85b5161d57753b78e7834958f435f59131",
+    "text_sha256": "49c73df7274171fa2e50aba9f01913f4ac8068bd20d94e1b93dc04d4888e0e3d",
+    "translation_metadata_sha256": "57d40f59d5d99953e2a84f6660cdf71b6917f9f894228f3b146029afea086453"
+  },
+  "html": "<article data-article-id=\"6cf38cda-02b1-4a4d-8326-19b440015f2c\">\n  <figure>\n    <img src=\"/images/articles/6cf38cda-02b1-4a4d-8326-19b440015f2c-1.jpg\" alt=\"Sunset reflected on a lake beside silhouetted trees\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>The sun sets on another day.<br>\n    Kneeling, you realize you have nothing to say.<br>\n    It’s been so long since the fire burned hot,<br>\n    Replaced with darkness, your stomach a knot.<br>\n    It didn’t take much, just a slow drift away;<br>\n    If there’s no change, what a dear price to pay!<br>\n    But why so hard this narrow way?<br>\n    If it would be easy, I could do it today!<br>\n    This battle is real, my life’s on the line.<br>\n    Oh God! Please help me my life to refine.<br>\n    I feel sudden hope, God, You are really there.<br>\n    Yes, I feel Your presence, You really do care!<br>\n    Oh, forgive me I plead, please grant another try!<br>\n    Whatever you ask, my gaze is on high.<br>\n    Thank You, my Lord, my Sovereign Friend.<br>\n    My life on the altar until the very end!</p>\n  </div>\n\n  <p><em>By Barry Grant | Titanyen, Haiti</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f9a501c1f63869382d77e5dfcb68c72aa87303216e97cda9145efe495f72e4d3"
+}

@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Oberlin",
+          "role": null
+        }
+      ],
+      "raw": "-Oberlin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "d8a07ef1-b69f-4eaa-a8e6-964fe1007275",
+    "images": [],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "42f1a8d5-21c5-5868-a31a-3dff109a9e96"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7a6018ebda96df0a0965cba53acbc2c54000efbffebea65beff9debaf05b88db",
+    "metadata_sha256": "7c6297b2ffee33d9760c3344af96e560ed571a8a76004c850cf1a92f73ceeb94",
+    "structure_sha256": "449cf0cd4efb968d0e497c04f15af1db8a50db1225a6db464d43fa8c2020fb48",
+    "text_sha256": "44d13f43b698fc84bba133dbf88f09745aabe598290a14b4b94a7dc00a3a136b",
+    "translation_metadata_sha256": "fd9b7842e382fcf9f1fad998dc02bf475e948f4fc8e0563df5001d192f0cda52"
+  },
+  "html": "<article data-article-id=\"d8a07ef1-b69f-4eaa-a8e6-964fe1007275\">\n  <p class=\"poem\">O Lord, Thy heavenly grace impart,<br>And fix my frail inconstant heart;<br>Henceforth my chief desire shall be,<br>To dedicate myself to Thee!<br>To Thee, my God, to Thee!</p>\n  <p class=\"poem\">Whate’er pursuits my time employ,<br>One thought shall fill my soul with joy;<br>That silent, secret thought shall be,<br>That all my hopes are fix’d on Thee<br>On Thee, my God on Thee!</p>\n  <p class=\"poem\">Thy glorious eye pervadeth space,<br>Thou’rt present, Lord, in every place,<br>And, wheresoe’er my lot may be,<br>Still shall my spirit cleave to Thee<br>To Thee, my God, to Thee!</p>\n  <p class=\"poem\">Renouncing every worldly thing,<br>Safe, ‘neath the covert of Thy wing,<br>My sweetest thought henceforth shall be,<br>That all I want I find in Thee,<br>In Thee, my God, in Thee!</p>\n  <p><em>-Oberlin</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f02fcda75192660d3e30bb037374023474b9b5d701ebd493db3b90ed529a8c86"
+}

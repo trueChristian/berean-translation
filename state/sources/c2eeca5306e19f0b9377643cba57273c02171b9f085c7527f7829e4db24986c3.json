@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Unknown",
+          "role": "Words and music"
+        },
+        {
+          "location": null,
+          "name": "Mike Atnip",
+          "role": "Harmonizer"
+        }
+      ],
+      "raw": "Unknown\nUnknown\nHar. Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "78f9f69c-fb93-4e61-847e-b1c74a18aab5",
+    "images": [
+      {
+        "alt": "Sheet music and lyrics for Love is Like a Breath of Heaven",
+        "caption": null,
+        "credit": "Unknown\nUnknown\nHar. Mike Atnip",
+        "public_path": "/images/articles/78f9f69c-fb93-4e61-847e-b1c74a18aab5-1.png",
+        "repository_path": "public/images/articles/78f9f69c-fb93-4e61-847e-b1c74a18aab5-1.png",
+        "rights_note": "The score prints two separate “Unknown” credits and “Har. Mike Atnip”; no licence, copyright, or separate-permission notice appears. The meaningful vector/font-based score region was rendered and cropped at 300 dpi as an sRGB PNG, retaining its title, credits, notation, and aligned lyrics while excluding the recurring section banner, commentary, footer, and page number.",
+        "role": "rendered sheet music",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 20,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Love is Like a Breath of Heaven",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "64af4c5a-115b-50b0-ae07-5d75a56b13aa",
+      "6cacc347-89dd-528b-89ff-fe7d5e7573f3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "119a25de35c9af520348e6fdee21c266c185880455efa962b5c879e1a4255ea1",
+    "metadata_sha256": "58af28a933f123514ef369e23df60aeef4076f9ee5a1de7afa714772cc7495d4",
+    "structure_sha256": "ffe5371030947f096e0850fed10f1a4e362d3f6a6d649c5cd698ed011a7f02e1",
+    "text_sha256": "b5f94a65d0aa1c54480949550f6a43f452fa7305c081b7e30324356e17f73fc4",
+    "translation_metadata_sha256": "2464dcfadf31125ab5712d685f4903c81ab4187b543aeb4f3d97245d6a7d88e1"
+  },
+  "html": "<article data-article-id=\"78f9f69c-fb93-4e61-847e-b1c74a18aab5\">\n  <figure>\n    <img src=\"/images/articles/78f9f69c-fb93-4e61-847e-b1c74a18aab5-1.png\" alt=\"Sheet music and lyrics for Love is Like a Breath of Heaven\" loading=\"lazy\">\n  </figure>\n\n  <p>This song has a simple melody, but one person described it as “the most scriptural song I ever heard.” It is a song worthy to add to your collection.</p>\n\n  <p>Since I only heard the melody and never had notes or harmony, this music may not match the “official” music, if there is any out there. If anyone knows who the author is, or if any music has been published with this song, please contact me. <em>-Mike Atnip</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9ceba19da622f9b168f694655cd2c9d699bcd1864ca9e751c908775593c2a592"
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "efffe061-e17b-45b0-81aa-74edf4736b76",
+    "images": [],
+    "issue_id": "934674be-3d92-5ead-975d-588238f753ab",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "MINISTRY UPDATES/FINANCIAL REPORT",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "118127e087e7bececd7ff0d9b520d627574a3aa41e72eef49488a74f5bd48701",
+    "metadata_sha256": "0580c329671355e3a889be525fbdfb2a4de95c16d86eaec373a5fff3becb5e97",
+    "structure_sha256": "bc1a45aed41b80006c53ae46604d8023764ef29bb3d557bedf350949ee851215",
+    "text_sha256": "7fb40b50f53cce7e9ee8442f6c72363eccf174f34bf2bbb9e0c117f282373dbe",
+    "translation_metadata_sha256": "ddb40e874593dc40b469243e964a445eb4388bbe483bc8cc663b1916979f8f97"
+  },
+  "html": "<article data-article-id=\"efffe061-e17b-45b0-81aa-74edf4736b76\">\n  <p><em>Dear reader,</em></p>\n  <p>It is now over two years since we began publishing <em>The Heartbeat of the Remnant</em> magazine. There have been many blessings and benefits, along with numerous challenges associated with starting a project of this size. We wish to sincerely thank each one of you for all you have done to make this a possibility. There have been many prayers, many notes of appreciation, and many phone calls of encouragement. Finally, we could have never made it this far had it not been for all of you who supported us financially. A big thank you to each one for any way in which you have helped support this work. We are planning to start publishing our financial report annually in order to save space in the quarterly magazine and to provide a more accurate overall picture of our income and outflow. To date, God has been providing for our needs with each quarterly publication.</p>\n  <p>For many of you there has probably been some confusion about who we are and what we have to offer. Some have wondered if we have more than one magazine, with The Berean Voice being the second. We will try to explain this as simply as possible. <em>Faith Christian Fellowship</em> is a conservative, Anabaptist church in Holmes County, Ohio. Some over three years ago, this church developed a ministry outreach, which was given the name, <em>The Berean Voice</em>. This ministry, <em>The Berean Voice</em>, was set up in an effort to provide conservative, Anabaptist churches with resources to assist them as they endeavor to further the work of God’s Kingdom. Following is a breakdown of the different aspects of the work The Berean Voice is involved in.</p>\n  <h3>The Berean Voice</h3>\n  <ul>\n    <li><em>The Heartbeat of the Remnant</em> (quarterly magazine)</li>\n    <li>Available Resources\n      <ul>\n        <li>CDs &amp; CD sets</li>\n        <li>Booklets</li>\n        <li>Books</li>\n      </ul>\n    </li>\n    <li>Website\n      <ul>\n        <li>Online magazine</li>\n        <li>Printed articles</li>\n        <li>Audio messages</li>\n      </ul>\n    </li>\n    <li>Discipleship Ministries\n      <ul>\n        <li>Sharing a series of meetings in different communities on how churches can disciple their own</li>\n        <li>Assisting various difficult situations via phone or email—personal, marriage, family, emotional, mental disorders, and suicidal tendencies</li>\n        <li>Church leaders bringing serious difficult situations they don’t know what to do with, for us to give them hands-on discipleship so they can then continue discipling themselves</li>\n      </ul>\n    </li>\n  </ul>\n  <p>We have been receiving an increasing number of requests for literature, discipleship, and help in understanding how to utilize the discipleship model successfully. Would you join us in prayer for God’s wisdom as we consider His will how we can best respond to all these requests. Would you also prayerfully consider how the Lord would have you join us in this time of expanding our efforts in response to these needs?</p>\n  <h3>Articles and Poems</h3>\n  <p>We finally have our writer’s guidelines put together, which we are including in this magazine issue along with the contributor agreement. Our reprint policy can be found inside the front cover. All of this should be self-explanatory, but if you have more questions please contact us using the contact information inside the front cover. Bottomline, we are in great need of articles, in order to build an inventory to choose from when putting an issue together. This will greatly enhance our efficiency. If God is moving you to put some articles or poems together for us, please do so according to the writer’s guidelines and the contributor agreement. If you’re not sure about your writing abilities, don’t let that hinder you. We have various people involved with editing and we can usually refine articles that need some help with grammar and punctuation.</p>\n  <h3>Prayer Requests</h3>\n  <ul>\n    <li>Pray that God would help us to be good stewards of the resources He provides.</li>\n    <li>Pray that God would give us wisdom in knowing how best to respond to all the requests that continue to come.</li>\n    <li>Pray that God would give us discernment in knowing which articles He wants us to publish.</li>\n  </ul>\n  <h3>Needs</h3>\n  <ul>\n    <li>Articles &amp; Poems -see the <em>Writer’s Guidelines</em> and the <em>Contributor Agreement</em> included in this issue.</li>\n    <li>Feedback &amp; Input regarding which topics would be good to have articles written about.</li>\n    <li>Ongoing finances to keep the Remnant magazine going—monthly or quarterly works the best. Donations can be mailed using the provided <em>remittance envelope</em> in this magazine or online at www.bereanvoice.org. Once there, click on the <em>donate</em> feature.</li>\n    <li>Finances to start expanding our resources in response to the growing number of needs and requests that are coming.</li>\n  </ul>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d1c41e4976eb97182ba68b292bbe6d76729d6655510a09c0c08aaf13885bfde3"
+}

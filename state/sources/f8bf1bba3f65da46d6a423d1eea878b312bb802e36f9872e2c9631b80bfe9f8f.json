@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Sylvan Ressler",
+          "role": null
+        }
+      ],
+      "raw": "Sylvan Ressler\nSylvan Ressler"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "09f037f6-74ca-41c0-864c-e3c4c09cd451",
+    "images": [
+      {
+        "alt": "Sheet music and lyrics for Thy Courts, O Lord",
+        "caption": null,
+        "credit": "Sylvan Ressler",
+        "public_path": "/images/articles/09f037f6-74ca-41c0-864c-e3c4c09cd451-1.png",
+        "repository_path": "public/images/articles/09f037f6-74ca-41c0-864c-e3c4c09cd451-1.png",
+        "rights_note": "The printed music notices state “May not be copyrighted,” “May freely be used for the honor and glory of God,” and “Public Domain.” The full score, title, names, lyrics, and notices in the page-34 Scribd JPEG image-layer sprite were cropped at x=1, y=1, width=771, height=950, omitting only the separate gray page-furniture band stored at y=953–997, then normalized to 8-bit sRGB and encoded as an RGB PNG at 96 ppi without scaling, changing orientation, or altering the musical content.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "b549b07a-0dd3-55bb-9bc8-d417154f192a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "publication_note": "May not be copyrighted | May freely be used for the honor and glory of God | Public Domain",
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Thy Courts, O Lord",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ab2d9a848fdf24d63e2a64a927c307bdec3a7b1dc7c3dd740f7ce904e20600ea",
+    "metadata_sha256": "a9f6d1419f7ebe8596cf97a9eccf43a95b41665677016ac2183c0b15415ca11d",
+    "structure_sha256": "474f698622208d19e00c70736511148356e3eaa2ed0a5e3eeed5d290da07755a",
+    "text_sha256": "dfdd45645564fe6df82166fd66930d716f62837a1e46affb4383404becd4f5c5",
+    "translation_metadata_sha256": "7316bfabe76c84ef1a10c841d1e802d466a991eb9c58a938a864fc5a4b30db94"
+  },
+  "html": "<article data-article-id=\"09f037f6-74ca-41c0-864c-e3c4c09cd451\">\n  <figure>\n    <img src=\"/images/articles/09f037f6-74ca-41c0-864c-e3c4c09cd451-1.png\" alt=\"Sheet music and lyrics for Thy Courts, O Lord\">\n  </figure>\n  <ol class=\"lyrics\">\n    <li>Thy courts, O Lord, a hallowed place, Wherein to sing Thy praise,<br>\n    And render forth in worship strong A thousand voices raise.<br>\n    Thy truths are bread for hungry souls, Thy waters quench our thirst,<br>\n    And by Thy mercies and Thy grace, Our wounded spirits nursed.</li>\n    <li>Ancient of days, our source of life, Beginning and the End,<br>\n    And at Thy throne, O King of Heav’n, Cause hearts to bow and bend.<br>\n    You rule and reign in majesty, Man moves at Thy command.<br>\n    Thou liftest up the fallen ones, By Thy outstretched hand.</li>\n    <li>We come into Thy presence, Lord, With cheerful hearts to bring,<br>\n    All of our gifts and all our praise That from our lips may spring.<br>\n    Our dwelling place shall always be Around Thy glorious throne,<br>\n    Oh, nevermore from Thee to wander, Nevermore to roam.</li>\n  </ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f8c01131370d193a9d8861638f71e5d078df46904b122954745179bae3abe31e"
+}

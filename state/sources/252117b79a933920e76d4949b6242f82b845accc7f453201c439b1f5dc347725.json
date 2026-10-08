@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Amy Carmichael",
+          "role": null
+        }
+      ],
+      "raw": "Amy Carmichael"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "663da224-39d7-4c13-8154-e155dc2aaffc",
+    "images": [
+      {
+        "alt": "Hands holding a crown of thorns above the printed poem.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/663da224-39d7-4c13-8154-e155dc2aaffc-1.jpg",
+        "repository_path": "public/images/articles/663da224-39d7-4c13-8154-e155dc2aaffc-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. The only PDF source picture is object 126, one flattened 648×828 CalRGB JPEG with illustration, poem, text shadows, outer frame/drop shadow and page gradient baked together. Cropped native source pixels [76,76,571,518] to retain the complete inner picture panel (495×442), excluding the outer frame, frame shadow and surrounding page gradient. The poem wording and its text shadows cannot be separated from the only raster; retained as an explicit unavoidable-overlay exception. A text-free upper strip would remove essential lower hand and crown content. No inpainting, generation or retouching. Saved baseline RGB/sRGB JPEG at quality95 and72dpi; no CMYK conversion.",
+        "role": "poem illustration with irreversibly embedded text",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": "The only PDF source picture is object 126, one flattened 648×828 CalRGB JPEG with illustration, poem, text shadows, outer frame/drop shadow and page gradient baked together. Cropped native source pixels [76,76,571,518] to retain the complete inner picture panel (495×442), excluding the outer frame, frame shadow and surrounding page gradient. The poem wording and its text shadows cannot be separated from the only raster; retained as an explicit unavoidable-overlay exception. A text-free upper strip would remove essential lower hand and crown content. No inpainting, generation or retouching. Saved baseline RGB/sRGB JPEG at quality95 and72dpi; no CMYK conversion.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final image opened and compared with the source page and raw base object. Edges, corners and centre checked; omitted separable layout treatments and any unavoidable rasterized text exception are described in transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "cd46878baea8225a6e07d9dd00079b5dae257ba566485681bf1604dfa48fbb4e",
+    "metadata_sha256": "5c7829f0f1f64ab8b126926da402df95b3d3e58f1119bce4e82398c2e670a2fb",
+    "structure_sha256": "e1961f94a655d16e2d888e4c6530ddfd4bc7e3813a4399f14de3f39f4cb20c5c",
+    "text_sha256": "acb21994617b7325c7ac4233cad05821616fe979cfd01e379ff055bda7688bfe",
+    "translation_metadata_sha256": "2b3ec4a8b0c556e9a811790b18dbc9e8635f8e2997e89c4cfc57361f07ae3f25"
+  },
+  "html": "<article data-article-id=\"663da224-39d7-4c13-8154-e155dc2aaffc\">\n  <figure><img src=\"/images/articles/663da224-39d7-4c13-8154-e155dc2aaffc-1.jpg\" alt=\"Hands holding a crown of thorns above the printed poem.\"></figure>\n  <p class=\"poem\"><strong>Hast thou no scar?<br>No hidden scar on foot, or side, or hand?<br>I hear thee sung as mighty in the land,<br>I hear them hail thy bright ascendant star:<br>Hast thou no scar?</strong></p>\n  <p class=\"poem\"><strong>Hast thou no wound?<br>Yet, I was wounded by the archers, spent.<br>Leaned me against the tree to die, and rent<br>By ravening beasts that compassed me, I swooned:<br>Hast thou no wound?</strong></p>\n  <p class=\"poem\"><strong>No wound? No scar?<br>Yes, as the master shall the servant be,<br>And pierced are the feet that follow Me;<br>But thine are whole. Can he have followed far<br>Who has no wound? No scar?</strong></p>\n  <p><strong>Amy Carmichael</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2b13e16ce41602a1d035901e90dcb08cd2ea272eefbc23acf14c3ff1b73f3764"
+}

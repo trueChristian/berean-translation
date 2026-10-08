@@ -1,0 +1,129 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Wolf Road & 153rd Street, Orland Park, IL 60467",
+          "name": "Vernon C. Lyons",
+          "role": "Ashburn Baptist Church"
+        }
+      ],
+      "raw": "by Vernon C. Lyons"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "732b141d-2363-436c-80f4-625589e4f12a",
+    "images": [
+      {
+        "alt": "A drive-through worker handing out a bag beneath a DRIVE THRU sign.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/732b141d-2363-436c-80f4-625589e4f12a-1.jpg",
+        "repository_path": "public/images/articles/732b141d-2363-436c-80f4-625589e4f12a-1.jpg",
+        "rights_note": "PDF image object 124. Clean original grayscale raster contains the intrinsic DRIVE THRU lettering. Separate article title, subtitle, text, rules and page furniture omitted. No mask, tile or transparency group. No asset-specific image credit or permission restriction is printed; no individual licence inferred. DeviceGray samples replicated into RGB/sRGB without changing luminance; no CMYK inversion. Standards-normalized baseline JPEG with nonzero 96 dpi density.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "original embedded image extraction; recorded source-pixel crop only",
+          "output_dimensions": [
+            173,
+            166
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            173,
+            166
+          ],
+          "source_object": 124
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "independent_image_review": "passed source correspondence, full-resolution crop, colour and overlay checks",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man running with one hand raised to his hat.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/732b141d-2363-436c-80f4-625589e4f12a-2.jpg",
+        "repository_path": "public/images/articles/732b141d-2363-436c-80f4-625589e4f12a-2.jpg",
+        "rights_note": "PDF image object 125. Clean original grayscale raster. Its pale drawing tones are present in the only source pixels, with no established reversible uniform wash, and are retained exactly. Separate surrounding article text and page furniture omitted; no mask, tile or transparency group. No asset-specific image credit or permission restriction is printed; no individual licence inferred. DeviceGray samples replicated into RGB/sRGB without changing luminance; no CMYK inversion. Standards-normalized baseline JPEG with nonzero 96 dpi density.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "original embedded image extraction; recorded source-pixel crop only",
+          "output_dimensions": [
+            169,
+            201
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            169,
+            201
+          ],
+          "source_object": 125
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "independent_image_review": "passed source correspondence, full-resolution crop, colour and overlay checks",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 30
+    },
+    "subtitle": "Our culture demands convenience Christianity.\nWe want it short, simple, fast and cheap.",
+    "title": "McChurch",
+    "topics": [
+      "71b4f992-d7ff-5b6a-b1d5-2f08160b4dfa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "cfe227bb08a9948392e68bb222f111b7fb215f649ac3e72a333dc3e0bd050bfc",
+    "metadata_sha256": "58d8f5a5461f245ede8df2d6b59f15bc09925c46205d989fc6f15f8ca5ffb90f",
+    "structure_sha256": "3eb56d6287c11c6f1b2bee9227974f78a1756cf772757359f438e02952b90aff",
+    "text_sha256": "1b472d13d1642d0978a312e9d613e2c804471502dafb812b62f046bbf83fef6d",
+    "translation_metadata_sha256": "031a16f47cf3a9df82c802712891d010e4734c46d16f9ecd9d40f6a34acbc88d"
+  },
+  "html": "<article data-article-id=\"732b141d-2363-436c-80f4-625589e4f12a\">\n<figure><img src=\"/images/articles/732b141d-2363-436c-80f4-625589e4f12a-1.jpg\" alt=\"A drive-through worker handing out a bag beneath a DRIVE THRU sign.\"></figure>\n<p>The McBible does not have the tedious 66 books, but just a few with short sentences and simple words at the fifth grade level. There are numerous pictures and some pages ruled with lines so that you can add your own spiritual thoughts, just in case you get a new revelation.</p>\n<p>The McWorship service is all sweetness and love with nothing offensive. The McSermon is easily digested with a minimum of nutrition and a maximum of fat. Each McPrayer is centered on temporal and material things to keep the mind from wandering to the spiritual which is often illusive for the modern American. To keep the kids awake the McHymns are hip-hop style.</p>\n<p>McMarriages are performed for folk who like quicky relationships and throw-away vows are the big feature. For those who still hold some traditional notions, there are pre-marital sessions with junk counseling.</p>\n<p>The McPastor is a touchy-feely guy who majored in pop psychology and has an in-depth understanding of felt needs.</p>\n<p>McSins, commonly called boo-boos, are easily forgiven with fast prayers and of course are soon repeated, but not taken too seriously. There is an effort to virtually eliminate the negative and dwell 100% on the positive.</p>\n<figure><img src=\"/images/articles/732b141d-2363-436c-80f4-625589e4f12a-2.jpg\" alt=\"A man running with one hand raised to his hat.\"></figure>\n<p>This whole business is sustained by the McTithe, which is not 10%, but whatever stray dollars happen to be left in the wallet.</p>\n<p>The McYouth program is short on Bible study and discipleship, and long on fun and games. It’s designed to give the kids what they want and to teen-sit them so that their parents can go out and have fun evenings without worrying about their kids getting into drugs and sex.</p>\n<p>McChurch is staffed, not by professionals, but by hasitly hired, part-timers whose strongest spiritual slogan is “Have a nice day”.</p>\n<p>This is the church that offers McFellowship, which is not bonding, but just a quick “Hello” with a handshake and a hug and a hope that you do not become too responsible for the other person’s life or spiritual well being.</p>\n<p>McSalvation does not have any deep doctrine of substitutionary atonement and regeneration, but a simple human decision or a nod of the head is more than adequate to bring a person into McKingdom, where he hopes to live happily now and in the hereafter.</p>\n<p>All of this ends up in a McHeaven where there are no golden streets, but arches that appear over a broad entrance where the grill is scorching and the deep fry grease super hot.</p>\n<p><em>Vernon C. Lyons<br>Ashburn Baptist Church<br>Wolf Road &amp; 153rd Street, Orland Park, IL 60467</em><br>November 2004 Christ Life Ministries Feature Article at<br><u>www.christlifemin.org</u></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "16b33498aaf8b11d3bbb8017fcdfb9dd41b976a0ab0922dcf2c0cf91754cac99"
+}

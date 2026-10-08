@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles Wesley"
+        }
+      ],
+      "raw": "by Charles Wesley"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f3b6d2e3-f25b-42da-a140-5208ab236aa7",
+    "images": [
+      {
+        "alt": "Illustration of a man preaching to a gathered crowd.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f3b6d2e3-f25b-42da-a140-5208ab236aa7-1.jpg",
+        "repository_path": "public/images/articles/f3b6d2e3-f25b-42da-a140-5208ab236aa7-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Clean embedded PDF image object 61 was used. The separate frame, title panel, and page border were omitted. The faded repeat object 65 on page 17 adds no unique image content and is represented once by this clean image; no faded duplicate was exported. The grayscale source was re-encoded as a baseline RGB/sRGB JPEG at its original pixel dimensions with nonzero 72 dpi density; no CMYK inversion was needed. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence inferred.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 16
+      }
+    ],
+    "issue_id": "5f14401b-358f-4995-8dfe-a5c590c7cf33",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Primitive Christianity",
+    "topics": [
+      "15fded78-2bae-5612-8e6d-863871109109",
+      "f396833d-db0d-5879-8fc7-0b9e43bd718d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ff648f396d4f5f5f56a1696a168acf5e7495781d03f805d338384207f8011a4c",
+    "metadata_sha256": "cf8c2b4e9e98c78228fb16a38bb0c3b08bc6826764e0cb9487e3c14e49e4885f",
+    "structure_sha256": "f1edd75059f6e5f597abd587c4651a108586258bdd79b08f8974c8ef99e307ad",
+    "text_sha256": "9e2c38bf03b657702dd347c2cfdf0d918612e7a4a9fc5279326a31c332b3542f",
+    "translation_metadata_sha256": "8b49892072defae36beb776b4d1f78ae53d89311431255842bba0c05e94170a9"
+  },
+  "html": "<article data-article-id=\"f3b6d2e3-f25b-42da-a140-5208ab236aa7\">\n  <figure>\n    <img src=\"/images/articles/f3b6d2e3-f25b-42da-a140-5208ab236aa7-1.jpg\" alt=\"Illustration of a man preaching to a gathered crowd.\">\n  </figure>\n  <p class=\"poem\">HAPPY the souls who first believed,<br>\n  To Jesus and each other cleaved,<br>\n  Joined by the unction from above,<br>\n  In mystic fellowship of love!</p>\n  <p class=\"poem\">Meek, simple followers of the Lamb,<br>\n  They lived and spake and thought the same;<br>\n  Brake the commemorative bread,<br>\n  And drank the Spirit of their Head.</p>\n  <p class=\"poem\">On God, they cast their every care:<br>\n  Wrestling with God in mighty prayer.<br>\n  They claimed the grace, through Jesus given;<br>\n  By prayer they shut and opened heaven.</p>\n  <p class=\"poem\">To Jesus they performed their vows:<br>\n  A little Church in every house,<br>\n  They joyfully conspired to raise<br>\n  Their ceaseless sacrifice of praise.</p>\n  <p class=\"poem\">Propriety was there unknown,<br>\n  None called what he possessed his own;<br>\n  Where all the common blessings share,<br>\n  No selfish happiness was there.</p>\n  <p class=\"poem\">With grace abundantly endued,<br>\n  A pure, believing multitude!<br>\n  They all were of one heart and soul,<br>\n  And only love inspired the whole.</p>\n  <p class=\"poem\">O what an age of golden days!<br>\n  O what a choice, peculiar race!<br>\n  Washed in the Lamb’s all-cleansing blood,<br>\n  Anointed kings and priests to God.</p>\n  <p class=\"poem\">Where shall I wander now to find<br>\n  The successors they left behind?<br>\n  The faithful whom I seek in vain,<br>\n  Are ‘minished from the sons of men.</p>\n  <p class=\"poem\">Ye different sects, who all declare,<br>\n  “Lo, here is Christ!” or, “Christ is there!”<br>\n  Your stronger proofs divinely give,<br>\n  And show me where the Christians live.</p>\n  <p class=\"poem\">Your claim, alas! Ye cannot prove,<br>\n  Ye want the genuine mark of love:<br>\n  Thou only, Lord, thine own canst show;<br>\n  For sure thou hast a Church below.</p>\n  <p class=\"poem\">The gates of hell cannot prevail,<br>\n  The Church on earth can never fail:<br>\n  Ah! join me to thy secret ones!<br>\n  Ah! gather all thy living stones!</p>\n  <p class=\"poem\">Scattered o’er all the earth they lie,<br>\n  Till thou collect them with thine eye,<br>\n  Draw by the music of thy name,<br>\n  And charm into a beauteous frame.</p>\n  <p class=\"poem\">For this the pleading Spirit groans,<br>\n  And cries in all thy banished ones:<br>\n  Greatest of gifts, thy love, impart,<br>\n  And make us of one mind and heart!</p>\n  <p class=\"poem\">Join every soul that looks to thee<br>\n  In bonds of perfect charity:<br>\n  Now, Lord, the glorious fullness give.<br>\n  And all in all forever live!</p>\n  <h2>Part 2.</h2>\n  <p class=\"poem\">Jesus, from whom all blessings flow,<br>\n  Great Builder of thy Church below,<br>\n  If now thy Spirit moves my breast,<br>\n  Hear, and fulfill thy own request!</p>\n  <p class=\"poem\">The few that truly call thee Lord,<br>\n  And wait thy sanctifying word,<br>\n  And thee their utmost Savior own,<br>\n  Unite, and perfect them in one.</p>\n  <p class=\"poem\">Gather them in on every side,<br>\n  And in thy tabernacle hide;<br>\n  Give them a resting-place to find,<br>\n  A covert from the storm and wind.</p>\n  <p class=\"poem\">O find them out some calm recess,<br>\n  Some unfrequented wilderness!<br>\n  Thou, Lord, the secret place prepare,<br>\n  And hide and feed “the woman” there.</p>\n  <p class=\"poem\">Thither collect thy little flock,<br>\n  Under the shadow of their Rock:<br>\n  The holy seed, the royal race,<br>\n  The standing monuments of thy grace.</p>\n  <p class=\"poem\">O let them all thy mind express,<br>\n  Stand forth thy chosen witnesses!<br>\n  Thy power unto salvation show,<br>\n  And perfect holiness below:</p>\n  <p class=\"poem\">The fullness of thy grace receive,<br>\n  And simply to thy glory live;<br>\n  Strongly reflect the light divine,<br>\n  And in a land of darkness shine.</p>\n  <p class=\"poem\">In them let all mankind behold<br>\n  How Christians lived in days of old;<br>\n  Mighty their envious woes to move,<br>\n  A proverb of reproach—and love.</p>\n  <p class=\"poem\">O make them of one soul and heart,<br>\n  The all-conforming mind impart;<br>\n  Spirit of peace and unity,<br>\n  The sinless mind that was in thee.</p>\n  <p class=\"poem\">Call them into thy wondrous light,<br>\n  Worthy to walk with thee in white;<br>\n  Make up thy jewels, Lord, and show<br>\n  The glorious, spotless Church below.</p>\n  <p class=\"poem\">From every sinful wrinkle free,<br>\n  Redeemed from all iniquity;<br>\n  The fellowship of saints make known;<br>\n  And O, my God, might I be one!</p>\n  <p class=\"poem\">O might my lot be cast with these,<br>\n  The least of Jesus’ witnesses!<br>\n  O that my Lord would count me meet<br>\n  To wash his dear disciples’ feet!</p>\n  <p class=\"poem\">This only thing do I require,<br>\n  Thou knowest tis all my heart’s desire,<br>\n  Freely what I receive to give,<br>\n  The servant of thy Church to live:</p>\n  <p class=\"poem\">After my lowly Lord to go,<br>\n  And wait upon the saints below;<br>\n  Enjoy the grace to angels given,<br>\n  And serve the royal heirs of heaven.</p>\n  <p class=\"poem\">Lord, if I now thy drawings feel,<br>\n  And ask according to thy will,<br>\n  Confirm the prayer, the seal impart,<br>\n  And speak the answer to my heart!</p>\n  <p class=\"poem\">Tell me, or thou shalt never go,<br>\n  “Thy prayer is heard, it shall be so”—<br>\n  The word hath passed thy lips—and I<br>\n  Shall with thy people live and die.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3000230837303a0be2d709f5a6bcf7763021e48e9bd48f6efcbc7776bf9165ee"
+}

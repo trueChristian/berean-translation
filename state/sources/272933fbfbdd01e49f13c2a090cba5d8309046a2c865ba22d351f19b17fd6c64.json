@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John A. James"
+        }
+      ],
+      "raw": "by John A. James, 1828"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "43153834-8298-4c82-b7f2-b003c96499da",
+    "images": [
+      {
+        "alt": "An older woman seated with a mother and children, one child holding a book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/43153834-8298-4c82-b7f2-b003c96499da-1.jpg",
+        "repository_path": "public/images/articles/43153834-8298-4c82-b7f2-b003c96499da-1.jpg",
+        "rights_note": "PDF Separation JPEG object 117 (750×363): inverted samples to match the rendered page and encoded baseline RGB/sRGB. The title, byline, ornamental page border/shadow and article text are separate publisher layout and omitted from this image. No article-specific credit or licence statement is printed.",
+        "role": "Family illustration above the title",
+        "sequence": 1,
+        "source_page": 11
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "The First Book They Read",
+    "topics": [
+      "55fff2dd-3f79-5c7f-a7fa-73e125bfbfec",
+      "67fc0cbd-74dd-5540-be14-7e3badd4dd56"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d7623bfd04c7d7ab37ae2e1b311d9d3d7d1b65bf7cc6a43cf7b6c06a72f8d4bd",
+    "metadata_sha256": "7426b7396dc259b10434947775a70ad32bc80f6d745177993370cf5646253470",
+    "structure_sha256": "4797c1ea8136a6c89d1a13ab1afbb3595b54dd8f25a812ce76557404814d44ee",
+    "text_sha256": "9b940d9dfa0e2e75369b02a1c8eefb9b1c62de07366f0625eaef4adb225aa29c",
+    "translation_metadata_sha256": "d6300f982762856f2eb1ea61b7f92f61b8ca8cba5fdd846951efe2a4a10c0c95"
+  },
+  "html": "<article data-article-id=\"43153834-8298-4c82-b7f2-b003c96499da\">\n  <figure><img src=\"/images/articles/43153834-8298-4c82-b7f2-b003c96499da-1.jpg\" alt=\"An older woman seated with a mother and children, one child holding a book\"></figure>\n  <p><em>“Train up a child in the way he should go.” Proverbs 22:6</em></p>\n  <p>Education in modern parlance, means nothing more than instruction, or the communication of knowledge to the mind; and a good education means, the opportunity of acquiring all kinds of learning, science, and what are called achievements.</p>\n  <p>But properly speaking, education in the true and higher import of the term, means: “the implanting of right dispositions, the cultivation of the heart, the guidance of the temper, the formation of the character.”</p>\n  <p>The most important part of education is that which relates to the communication of <strong>godly principles</strong>, and the formation of <strong>moral habits</strong>.</p>\n  <p>You educate your children <strong>by:</strong> your example, your conversations, your likings and dislikings, your home life, your daily behavior, these, these will educate them!</p>\n  <p>You began educating your children the moment they were capable of forming an idea. This unconscious education is of more constant and powerful effect, and of far more consequence than that which is direct and apparent. This education goes on at every instant of time. It goes on like time—you can neither stop it nor turn its course.</p>\n  <p>Your children <em>may</em> read many books, but the <strong>first book they read</strong>, and that which they continue to read, and by far the most influential—is that of their parents’ example and daily deportment.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "bccb87948c2984c0a27256ac775592d49807e083c3971d8a65987c2fc4b55c97"
+}

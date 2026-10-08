@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "dc12799c-2bd7-44d1-9d67-fa13b678fedb",
+    "images": [
+      {
+        "alt": "A seated snake charmer playing a wind instrument beside a cobra",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dc12799c-2bd7-44d1-9d67-fa13b678fedb-1.jpg",
+        "repository_path": "public/images/articles/dc12799c-2bd7-44d1-9d67-fa13b678fedb-1.jpg",
+        "rights_note": "Clean embedded image object 68. Only the tiny left-edge crop established by the printed clipping rectangle is applied; the article title, body and continuation bar are separate layout and excluded. No image-specific source, credit or separate-permission notice is printed. General issue credits do not identify this asset. Image dictionary, page resources, paint order, clipping paths and graphics state inspected: one untiled DeviceGray base object, no soft mask, opacity fade, transparency group or image overlay. Source grayscale converted to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density. No CMYK inversion applies. Complete Pillow and FFmpeg raster decodes passed without warnings; Skia Canvas render passed. Final image visually compared at full resolution with raw source and published page; centre, edges and corners contain no removable overlays. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            0,
+            450,
+            776
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; crop at PDF clipping bounds rounded to source pixels",
+          "output_dimensions": [
+            448,
+            776
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            776
+          ],
+          "source_object": 68
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "“It’s Got No Sting!”",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "220fa5b4-8cd4-53ca-ba1c-e06e36c60b58"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "deee980bf05510e797057ce19c8e1c9c4a7cddb2c2289d0a1ca59120d3cf1711",
+    "metadata_sha256": "0c32a205e27b7b45825a9dfca2328324f60f0f8a20dfe29fa17c8db3a1e7af09",
+    "structure_sha256": "74ca88bd4e64002fc566dbd51664ed4fe0362116022904cc804d4e8e22c0fa09",
+    "text_sha256": "ae359197c9bfbe5dd81f0e7dfe8a94428f3e6e8be959f23be80d0a04ea98d8fb",
+    "translation_metadata_sha256": "ff5166cb812741e15ad91e9c2e8eb2ee9d1a04341ce335e6637086bf9b843d58"
+  },
+  "html": "<article data-article-id=\"dc12799c-2bd7-44d1-9d67-fa13b678fedb\">\n  <figure>\n    <img src=\"/images/articles/dc12799c-2bd7-44d1-9d67-fa13b678fedb-1.jpg\" alt=\"A seated snake charmer playing a wind instrument beside a cobra\">\n  </figure>\n  <p class=\"drop-cap\">A crowd had gathered on the seashore, and, as is often usual, attracted others. On nearing it, we made our way through the outer edge, and were able to look over the heads of a number of boys who were intently gazing on a dangerous serpent which the showman had in his hands, and which curled round his arms and neck. A venomous snake, whose bite was of the deadliest; but the man seemed to have charmed it, for though it shot out its forked tongue and touched him, it was quite harmless, and none of the evil effects we read of ensured. Most of the observers were amazed and puzzled, some not a little frightened, and various were the remarks made; but at last one clever onlooker explained the cause of its doing no harm, and cried out, “Oh! it’s got no sting.” That was the solution. The sting, or venom bag, had been extracted, and the reptile rendered harmless.</p>\n  <p>Why are we afraid to die? Is it not on account of sin? We know assuredly that death is dreadful, and why? Because it has a sting. God says: “The sting of death is sin.” If only we could extract the sting, death would no longer be terrible. Who can extract the deadly poison? We cannot, but the Lord Jesus Christ has removed it already for all who are His. In Him “we have redemption through His blood, even the forgiveness of sins.” “His own self bare our sins in His own body on the tree.” And so death is swallowed up in victory.</p>\n  <blockquote>\n    <p><em>O death, where is thy sting? O grave, where is thy victory?<br>\n    The sting of death is sin; and the strength of sin is the law.<br>\n    But thanks be to God, which giveth us the victory through our Lord Jesus Christ.<br>\n    (1 Corinthians 15:55-57)</em></p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "1f1f4569f3061ab8133dc0aa9391afce5eb4a8b50e929aa0f0921e65216faf39"
+}

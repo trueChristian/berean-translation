@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, OH",
+          "name": "Rachel Martin"
+        }
+      ],
+      "raw": "Rachel Martin\nGlenmont, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+    "images": [
+      {
+        "alt": "Storm clouds over a prairie road, left half of a two-page photograph",
+        "caption": null,
+        "credit": "publicdomainpictures.net",
+        "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg",
+        "repository_path": "public/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg",
+        "rights_note": "The page-2 masthead credits publicdomainpictures.net for printed page 32; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "storm landscape spread, left half",
+        "sequence": 1,
+        "source_page": 32
+      },
+      {
+        "alt": "Storm clouds over a prairie, right half of a two-page photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg",
+        "repository_path": "public/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg",
+        "rights_note": "No separate page-33 credit is printed; this is the complementary right half of the storm landscape credited to publicdomainpictures.net on printed page 32. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "storm landscape spread, right half",
+        "sequence": 2,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Encouragement for Christian Women",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "‘Til the Storm Passes By",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "f763c5ea-8687-5101-974e-3d016826bf73",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0bc835dd8966dc34d15d6e6fba59560db5092953599a289d922ed6b5f42290de",
+    "metadata_sha256": "1d51c921a1820e621e26698a2f7369018a3fc765ea1d39efe167d7844fa046dd",
+    "structure_sha256": "b72eaf9bf8911807e90c4ff5c4b02898eab5e7b729bd9beae7e152c1348805f1",
+    "text_sha256": "701998f1371bf47196bbca3440e4d549f1df1747d64c5af961a98b9f3d42f850",
+    "translation_metadata_sha256": "60e1e396e7a181b9501c05ebf6cdd5e79bfb0ddba7335c254fe2ad30c056eae1"
+  },
+  "html": "<article data-article-id=\"affa9e6e-7d44-4174-ae66-fd44cfaeeaa0\">\n  <figure>\n    <img src=\"/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg\" alt=\"Storm clouds over a prairie road, left half of a two-page photograph\">\n  </figure>\n\n  <p class=\"drop-cap\">We all have a story. Some feel like Job sometimes. Some have lost parents, or partners, or children, or siblings, or friends. Some suffer from severe illness. Some will never recover from their illnesses. Our loved ones might have a terminal illness. Maybe a husband or parent is abusive or unfaithful. Like Job, our friends might have turned against us. Maybe there are problems in the church that seem impossible to fix. It could be something like a colicky baby, or a hyper child. Maybe we just have a cold and are feeling like everything is going wrong. The list is endless. We can relate to the words of this song.</p>\n  <div class=\"lyrics\">\n    <h2>Till the Storm Passes By</h2>\n    <p>In the dark of the midnight have I oft hid my face,<br>\n    While the storm howls above me, and there’s no hiding place.<br>\n    ‘Mid the crash of the thunder, Precious Lord, hear my cry,<br>\n    Keep me safe till the storm passes by.</p>\n\n    <p>refrain:</p>\n    <p>Till the storm passes over, till the thunder sounds no more,<br>\n    Till the clouds roll forever from the sky;<br>\n    Hold me fast, let me stand in the hollow of Thy hand,<br>\n    Keep me safe till the storm passes by.</p>\n    <p>Many times Satan whispered, “There is no need to try,<br>\n    For there’s no end of sorrow, there’s no hope by and by”<br>\n    But I know Thou art with me, and tomorrow I’ll rise<br>\n    Where the storms never darken the skies.</p>\n\n    <p>When the long night has ended and the storms come no more,<br>\n    Let me stand in Thy presence on the bright peaceful shore;<br>\n    In that land where the tempest, never comes, Lord, may I<br>\n    Dwell with Thee when the storm passes by.</p>\n\n    <p><em>–by Mosie Lister</em></p>\n  </div>\n  <p>When I was a little girl, I thought the author was referring to thunderstorms. I was afraid of thunderstorms. Now I understand that he was referring to the storms of life we go through. On July 14, 2013, I suddenly ended up in the hospital with a life-threatening heart attack caused by a spontaneous coronary artery dissection. What a shock for a 40-year-old mother. The storm was howling, and the thunder was crashing. There was no hiding place from the danger, for it was within me. I only had one heart and it could not be trusted. What if it happens again? Would I die? Then my children would be motherless.</p>\n  <p>This song was one I’d pray in the dark of the midnight when I couldn’t sleep, and fear threatened to overwhelm me. The Lord’s presence was very real to me. I came through this storm with a greater awareness of how God reveals Himself to us in a deeper way when we are going through hard times. We must choose to yield ourselves completely to Him, and say, “Not my will, but Thine be done.”</p>\n  <p>When the disciples were out on the sea in the storm, Jesus was with them. He is with us too. We can trust Him. Nothing will happen that is not according to His will. We do not always understand why things happen, but that’s okay. An old preacher used to quote:</p>\n  <blockquote class=\"poem\">\n    <p>“Not now, but in the coming years,<br>\n    It may be in the better land<br>\n    We’ll read the meaning of our tears,<br>\n    And there, sometime, we’ll understand.”</p>\n  </blockquote>\n  <p>It is so important that we accept what God allows in our lives. Accepting does not mean we don’t do anything about it. We will go to the doctor if necessary. We will reach out to others for comfort and council. We will still have all kinds of feelings, but we should have peace. We can’t wallow in self-pity and have a “poor me” attitude. <em>And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.</em> I believe that. I can’t always see the good, but God does.</p>\n  <p>Life is hard sometimes, but the song tells about the time when the long night has ended, and the storms come no more. Dear sisters, let’s remain faithful and lean hard on the Lord through the storms of life.</p>\n  <p><em>And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea. And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband. And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God. And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away. Revelation 21:1-4.</em></p>\n  <figure>\n    <img src=\"/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg\" alt=\"Storm clouds over a prairie, right half of a two-page photograph\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a"
+}

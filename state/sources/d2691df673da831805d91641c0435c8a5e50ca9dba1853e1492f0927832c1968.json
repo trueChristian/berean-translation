@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Timothy Hoover",
+          "role": null
+        }
+      ],
+      "raw": "Timothy Hoover"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c802cb5c-a80a-4f32-bd6b-5ec2d5be3670",
+    "images": [
+      {
+        "alt": "Musical score and lyrics for Living Water",
+        "caption": null,
+        "credit": "Mel. by Timothy Hoover; Arr. & Har. by John David Hoover and Edna Hoover",
+        "public_path": "/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-1.png",
+        "repository_path": "public/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-1.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Original RGB PNG; raster itself contains score, title, lyrics, and music credits. The separate printed “Not to be copyrighted.” line belongs in article HTML.",
+        "role": "musical score with five verses",
+        "sequence": 1,
+        "source_page": 34
+      },
+      {
+        "alt": "The Hoover family gathered outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-2.jpg",
+        "repository_path": "public/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-2.jpg",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Two adjacent source JPEG tiles joined at PDF coordinates with one-pixel overlap. Original 603×446 composite cropped to 582×426 to exclude rightmost 21-pixel grey bevel and bottom 20-pixel dark band baked into source; no pixels synthesized. Normalized baseline RGB JPEG at 150 ppi.",
+        "role": "family photograph with song history",
+        "sequence": 2,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Living Water",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b8d0af093bfc3f6da9b00dd21cc5d43e98311540d2995b361a232c475c5708ec",
+    "metadata_sha256": "ff9de71745d34740996206b10cf0d69b0935b3e333be6a51bcdb398634d3dbfb",
+    "structure_sha256": "c170a2475ca13f0e004dd4e9c706a525f94e699313e190b6821dabc4d625319c",
+    "text_sha256": "bfc2d350f8b3d73662eed80f8ee8af4427bd48e69616ef5fb76f7761a2a03695",
+    "translation_metadata_sha256": "355064693d4d4dcba4e4943c6e2867c4e7978b1a45a70bf862b6478db25fcba6"
+  },
+  "html": "<article data-article-id=\"c802cb5c-a80a-4f32-bd6b-5ec2d5be3670\">\n  <figure>\n    <img src=\"/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-1.png\" alt=\"Musical score and lyrics for Living Water\">\n  </figure>\n\n  <p>Not to be copyrighted.</p>\n\n  <h2>About the song on the opposite page ...</h2>\n  <figure>\n    <img src=\"/images/articles/c802cb5c-a80a-4f32-bd6b-5ec2d5be3670-2.jpg\" alt=\"The Hoover family gathered outdoors\">\n  </figure>\n  <p>Timothy and Joan Hoover live near Myerstown, PA, where they raise and sell organic produce. They and their ten children attend nearby Harmony Christian Fellowship.</p>\n  <p>This song was birthed one Sunday morning when Timothy went to do his chores in the barn, praying and meditating and seeking direction for his life. When he returned to the house singing this song, his wife asked him, “Who taught you that song?” “It was the Lord,” was his answer.</p>\n  <p>Timothy’s brother John David and sister Edna helped with the notation and harmony.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e23d322feb7814839fc0df263f4dbd71dd484013fc85f8af61eb999c38463c8c"
+}

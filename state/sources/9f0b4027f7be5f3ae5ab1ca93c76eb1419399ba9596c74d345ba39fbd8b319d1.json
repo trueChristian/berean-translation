@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Lois Martin"
+        }
+      ],
+      "raw": "by Lois Martin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "27c29b70-fa4d-46c9-b8b4-86eee564c108",
+    "images": [
+      {
+        "alt": "Masked medical staff performing surgery",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/27c29b70-fa4d-46c9-b8b4-86eee564c108-1.jpg",
+        "repository_path": "public/images/articles/27c29b70-fa4d-46c9-b8b4-86eee564c108-1.jpg",
+        "rights_note": "Original embedded PDF image object 93; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 23,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            670,
+            478
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 93,
+          "source_pixel_dimensions": [
+            670,
+            478
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Heart Surgery",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "46700a9d33a9af0eb701f9af8465ad92c9b70404d577d4f125b5bf2eb8ef54bc",
+    "metadata_sha256": "f9ecda1f2fc0f28822bdd3992954ad00ae66f903cf1e0b672837af7633dd98c9",
+    "structure_sha256": "77c64020f986dc1626aec9024933421a2d9fee268f6e7081354e76ae00fc8cd4",
+    "text_sha256": "e011daea8a116e8b53368c2fb9266c882bed2c17d7f74d788c9d89bbf6c3a3e0",
+    "translation_metadata_sha256": "ba4d1b0a40e204c1522bde51e19dba55590b3b2e5bcfb6203302e726bac14f33"
+  },
+  "html": "<article data-article-id=\"27c29b70-fa4d-46c9-b8b4-86eee564c108\">\n  <p>My heart was not working right! For quite some time, I covered the symptoms. I was quite good at pretending that everything was OK. But deep down inside I knew something was very wrong!</p>\n  <p>I called the Great Physician many times, asking for help. I read the “Heart Manuel” and tried so very hard to make my heart work properly! To look at me, you could not tell that something was wrong. At times I thought my heart was working better, but then something would happen and I knew the problem was still there.</p>\n  <p>Finally, I could take it no longer! I went to the Great Physician’s office for an exam. He lovingly and thoroughly examined my heart. A diagnostic test revealed the problem. Chains were wrapped tightly around my heart, preventing it from beating with love! Chains of bitterness, anger and hate! The chains had been there for many years! In fact, I was not even aware that they were there!</p>\n  <figure>\n    <img src=\"/images/articles/27c29b70-fa4d-46c9-b8b4-86eee564c108-1.jpg\" alt=\"Masked medical staff performing surgery\">\n  </figure>\n  <p>I told the Great Physician to remove the chains! He gently pulled them loose. In some places he had to use his knife to cut them free. Oh the pain! It was hard getting the chains off! They had been there so long! It would have felt better to just leave them there, but I knew that for my heart to work properly and to love fully and freely, the chains had to go!</p>\n  <p>The Great Physician hates to see such chains around a heart! That day in his office, he poured out his wrath toward my chains on his Son and then looked at me with such love that I fell at his feet weeping! I had allowed those chains to grow there! He should have poured out His wrath on me! I looked at the Son and saw nothing but love in His eyes! A great tender love that seemed to sooth the pain of the wounds where the chains had been!</p>\n  <p>After the Great Physician pulled the last chain free, I felt such relief! The Son was there wiping away my tears, assuring me of their love! The Great Physician took my hand and helped me to stand! I walked out of that office a different person! I could not fathom the love that had just been shown to me! My heart was beating and throbbing with love! Just the way it was supposed to!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cfddb82410216ddf6f2b28ce80bc5eb29a1aff15f4f3deef679bd1ea1e91f17a"
+}

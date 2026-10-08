@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Claudia Esh"
+        }
+      ],
+      "raw": "Claudia Esh"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "2c1b0b8f-a276-4b44-b84d-53c0641fc121",
+    "images": [
+      {
+        "alt": "A group gathered in a mountain valley around a speaker",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c1b0b8f-a276-4b44-b84d-53c0641fc121-1.jpg",
+        "repository_path": "public/images/articles/2c1b0b8f-a276-4b44-b84d-53c0641fc121-1.jpg",
+        "rights_note": "The page-2 masthead gives only a general image source credit, without attributing this particular illustration or specifying separate permission. The embedded 467 × 343 grayscale JPEG had inverse PDF sample values; samples were inverted and exported as a baseline RGB/sRGB JPEG, matching the published rendering. A separate blurred title raster and publisher gray panel are layout treatments and were omitted.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 11
+      }
+    ],
+    "issue_id": "82d9c013-5a75-453c-9193-1270033b393d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "The Beauty of “We”",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "fb1c9ec3be041e73fb123dad4f5a2bf9df5a78c5392de8aefcb957662c7c8b54",
+    "metadata_sha256": "808bc53ebddb85440ce9c226cc3230e7630eeed3a7214549a6ec69ea6fc93950",
+    "structure_sha256": "4a62c651bdf7e3dafb14911a5992ac274554852c6c98d21a6d1fe4b7578e6b4d",
+    "text_sha256": "c10ead038e72eaada8189680fd38fc64e8a4925e7d0b27909269b097f2e2c744",
+    "translation_metadata_sha256": "eca8f50c053823164154b1ce0b14d145857a4355b7fb2486c204424dc39616a3"
+  },
+  "html": "<article data-article-id=\"2c1b0b8f-a276-4b44-b84d-53c0641fc121\">\n  <figure><img src=\"/images/articles/2c1b0b8f-a276-4b44-b84d-53c0641fc121-1.jpg\" alt=\"A group gathered in a mountain valley around a speaker\"></figure>\n  <p class=\"drop-cap\">I saw an interesting article this evening. It was about the Anabaptists and had a sentence that I’ve been thinking about: ‘I sometimes wonder what it would have been like to have been part of the “we” of Michael Sattler’s congregation at Horb, or Conrad Grebel’s group of followers in Zurich.’</p>\n  <p>He’s not the only one. But what did he mean by using “we” in that sense? You’d think he would have said part of the ‘church’ or something like that. But the fact is that in the Christian church, the little word “we” takes on a profound and beautiful new tone.</p>\n  <p>Imagine those ancient creeds. “This I believe” sounds rather arrogant, cocky, even critical. But “This we believe” is mellow, lovely, and strong. It is the combined voice of a unified church, the harmony of hundreds of voices singing the same heavenly song.</p>\n  <p>This generation is individualistic to the core. I don’t know if that is all wrong; God made us each unique and has a distinctive plan for each of us. But I do believe that it is easy to get so caught up in “I” that we forget the beauty of “we.” Today’s world rushes off, each to his own agenda, with his own vendettas and loves and prides, shouting about no partisanship, and then they look back in dismay ten years later and wonder why everything fell apart.</p>\n  <p>They may as well ask why it doesn’t work to hitch one horse to each end of a cart. Until we find the unity that comes through Christ, we can forget about making a difference. I don’t mean a forced unity of agreeing on every little detail; that’s almost impossible and it’s unnecessary anyway.</p>\n  <p>No, I mean rediscovering the beauty of “we.” Caring about each other enough to stop gossiping. Sharing the same vision of a unified body. Pressing toward the same goals of a relationship with God, an evangelized world and a holy eternity. But the problem with that is that it takes sacrifice. It takes giving. It takes devotion. It takes agape love.</p>\n  <p>Does it take more than we are willing to give?</p>\n  <p>Individualism takes nothing. You reap the benefits of all that you work for. If you get slack, you’re the one to suffer. Not so when you’re part of a “we.” In that kind of a community, when one part hurts, they all do. When one is joyful, they all are. And when they make a difference, they do it together.</p>\n  <p>In fact, most of the time the reason they make a difference is because they are together. I suppose the Holy Ghost could have baptized all those early believers individually while they were waiting in their houses. But that’s not the way God did it. He sent the Comforter when “they were all with one accord in one place.” And I have a feeling that even if they had been visited separately, they wouldn’t have stayed apart for very long.</p>\n  <p>Why? Because they were a “we.” Togetherness characterized the early decades of the church. It was a beautiful thing. It drew other people, individualistic people, to renounce their own agendas and become part of this holy, God-led “we.”</p>\n  <p>As a writer much wiser than I once said, “Behold, how good and how pleasant it is for brethren to dwell together in unity!”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "304c78ce691d34baba8ff30566a4e0e2afbe42a0758d0b264e8b5787d6c0a938"
+}

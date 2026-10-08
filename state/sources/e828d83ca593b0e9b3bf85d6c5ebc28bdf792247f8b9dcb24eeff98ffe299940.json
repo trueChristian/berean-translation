@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "A. W. Tozer",
+          "role": null
+        }
+      ],
+      "raw": "~A. W. Tozer"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "d68a5b18-070f-4b4e-a7a6-63072b39e4ca",
+    "images": [
+      {
+        "alt": "Man holding a book in front of his mouth",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d68a5b18-070f-4b4e-a7a6-63072b39e4ca-1.jpg",
+        "repository_path": "public/images/articles/d68a5b18-070f-4b4e-a7a6-63072b39e4ca-1.jpg",
+        "rights_note": "No image-specific permission restriction, credit, or licence is printed. Original embedded PDF image object 98 uses inverted grayscale separation samples; inverted and re-encoded as baseline sRGB JPEG at its original 239 × 314 pixels. No printed layout overlay is included.",
+        "role": "illustrative photograph",
+        "sequence": 1,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "Too Timid to Tell the Truth",
+    "topics": [
+      "7936e75c-ab93-5d91-aa74-c2dd7c6bc2aa",
+      "89fc5b7b-40a6-5c06-a31e-17e796c9e29b",
+      "d55dee41-c357-5c42-9ec4-52352698d8d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "637a3aa2e2eeaebf8b22e06d2f660c7badc02c40796176b241510eee742bb35f",
+    "metadata_sha256": "7fd176b07cf621b6d129a1b47e50990ff226dcbc0c8728d9201762569c5cf8d6",
+    "structure_sha256": "806f94bc31def918744839e61c3a367d4e683feae57d2d175b98fedbda702063",
+    "text_sha256": "8088804d2a91757b9a1593941d49d83c1e552fe1a3a82fad3eb2b7e5fc54146c",
+    "translation_metadata_sha256": "396d0f9fea593b70ea5e257cd6ef8fe4c0f41e541ce76f76efde882fa973d2a1"
+  },
+  "html": "<article data-article-id=\"d68a5b18-070f-4b4e-a7a6-63072b39e4ca\">\n  <blockquote><p><em>“Now when they saw the boldness of Peter and John, and perceived that they were uneducated and untrained men, they marveled. And they realized that they had been with Jesus”. --Acts 4:13</em></p></blockquote>\n  <p>The contemporary moral climate does not favor a faith as tough and fibrous as that taught by our Lord and His apostles. The delicate, brittle saints being produced in our religious hothouses today are hardly to be compared with the committed, expendable believers who once gave their witness among men. And the fault lies with our leaders. They are too timid to tell the people all the truth. They are now asking men to give to God that which costs them nothing.</p>\n  <p>Our churches these days are filled (or one-quarter filled) with a soft breed of Christian that must be fed on a diet of harmless fun to keep them interested. About theology they know little. Scarcely any of them have read even one of the great Christian classics, but most of them are familiar with religious fiction and spine tingling films. No wonder their moral and spiritual constitution is so frail. Such can only be called weak adherents of a faith they never really understood. ~A. W. Tozer</p>\n  <figure><img src=\"/images/articles/d68a5b18-070f-4b4e-a7a6-63072b39e4ca-1.jpg\" alt=\"Man holding a book in front of his mouth\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6de8ba0b785f93ef7b849041c3679f36c6a75c1d0847bfa11fb24c1e8ad123fe"
+}

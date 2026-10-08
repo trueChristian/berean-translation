@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ian Thomas"
+        }
+      ],
+      "raw": "by Ian Thomas"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "cf4457c7-ae5f-4825-9279-dc30f3169818",
+    "images": [
+      {
+        "alt": "Illustration of three figures beside a wall, including a seated person reaching toward a child",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cf4457c7-ae5f-4825-9279-dc30f3169818-1.jpg",
+        "repository_path": "public/images/articles/cf4457c7-ae5f-4825-9279-dc30f3169818-1.jpg",
+        "rights_note": "PDF image object 171, a clean base illustration. Inverted inverse grayscale Separation JPEG samples and encoded baseline RGB/sRGB JPEG with 150 dpi density. The separate page panel (object 169), image drop shadow (object 170), and small decorative element (object 172) are layout treatments and were omitted. No article-specific image credit or licence statement is printed.",
+        "role": "Illustration of three figures beside a wall",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Your Picture or Your Life?",
+    "topics": [
+      "5933107a-a052-501e-9826-e25cb5a7e990",
+      "c09be55d-9b4d-56ff-bde4-5d80920e74da"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a54f969d86c1c85b8191deb49c516b05ff4999d01097a25ab227c66c8de045a8",
+    "metadata_sha256": "ec141ace7708ecfa0ac33cd7bd8a92f4d9c2c5681af7001e8c98e01daf784a81",
+    "structure_sha256": "5a36789805c9fd3fb637f62c8fd9e9c2abc1afd1342f2b373581a2b9137ba819",
+    "text_sha256": "e37117f086be072c68cc380dea15dfc33a6678b8dbc61d59328395ad62a37869",
+    "translation_metadata_sha256": "91628f4ab2fac20661e167f02a1c215c78a2df1165861727e437591a79b8c936"
+  },
+  "html": "<article data-article-id=\"cf4457c7-ae5f-4825-9279-dc30f3169818\">\n  <figure><img src=\"/images/articles/cf4457c7-ae5f-4825-9279-dc30f3169818-1.jpg\" alt=\"Illustration of three figures beside a wall, including a seated person reaching toward a child\"></figure>\n  <p>The artist, way up on the scaffolding, stood back to admire his own handiwork. He had been painting the most beautiful picture on the underside of the cathedral dome. And as he paused in his work and stood on the platform, he was intoxicated as he drank in the sheer genius of his own ability. It was beautiful; he never would have dreamed that it would turn out so well. And completely enraptured, he stepped back to get a better look, and stepped back yet again, and again, until one more step backward would send him plunging to his death on the stone floor of the lofty cathedral. But he was totally unaware, he was caught up in his own handiwork, he was intoxicated, he was drinking it in—it filled him with himself! And just at that precise moment his assistant, also on the platform, saw the danger and grasped the situation—one step and the artist would plunge to his death. And with amazing presence of mind picked up a bucket of paint and threw it on the freshly painted picture. The artist leaped forward in a rage and said “You spoiled my picture!” His assistant quietly said “Yes, sir, I spoiled your picture—but I saved your life!”</p>\n  <p>When Satan is smart enough and subtle enough to persuade us that we can do something for Jesus, in the natural energy of our own humanity, it comes as a shock when somebody comes along and “spoils your picture”, crashes your dreams, and reduces you to all that God intended you to be apart from Him—nothing.</p>\n  <p>The Lord Jesus, deliberately choosing to be born a human being, emptied Himself, humbled Himself, made Himself of no reputation. Literally translated, He made Himself all that He knew man to be apart from God—nothing. So that He in us might be all that He allowed the Father to be in Him—everything; without Whom He could do nothing. That is the Gospel.</p>\n  <p>Which would you like—your picture or your life?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5a7cb5588298b06a3afe82b6a8836ecbf06e1d2638683b15378de3191e8a0118"
+}

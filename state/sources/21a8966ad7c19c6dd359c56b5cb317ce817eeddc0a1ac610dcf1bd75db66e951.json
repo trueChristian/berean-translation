@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "F. B. Myer"
+        }
+      ],
+      "raw": "by F. B. Myer"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "86198738-8767-4cc9-859e-fe5597538286",
+    "images": [
+      {
+        "alt": "A man on a rocky shore reaching toward a distant ship",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/86198738-8767-4cc9-859e-fe5597538286-1.jpg",
+        "repository_path": "public/images/articles/86198738-8767-4cc9-859e-fe5597538286-1.jpg",
+        "rights_note": "PDF image object xref 31. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. The line border and initials are intrinsic to the only source drawing; the separate gray page panel is omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "CASTAWAY",
+    "topics": [
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "3d632141-4519-55b5-9ca4-c8656472fad8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "be1d0d73d10c3ec17f8f9215615913c4e7aca5a00dfbb7d58a6230df4234d2be",
+    "metadata_sha256": "daba3e62264e2277a77fb71f41241b5da84fe5e387f249ea9a6224e356f1661f",
+    "structure_sha256": "9d733e58c8781415ea2f9082aa178a12657a33866c18bc5d937d822e3860ef42",
+    "text_sha256": "e36f566f6b7de34108f616a1938f596b6e08a8c94add72476d79b276ab55a3dc",
+    "translation_metadata_sha256": "be7ef71ca71dac351ae085f02898b6ce337f46af6a05b5f6dd983b45441fed2b"
+  },
+  "html": "<article data-article-id=\"86198738-8767-4cc9-859e-fe5597538286\">\n<figure>\n  <img src=\"/images/articles/86198738-8767-4cc9-859e-fe5597538286-1.jpg\" alt=\"A man on a rocky shore reaching toward a distant ship\">\n</figure>\n<p>I invite your attention to a few words found in 1 Cor 9:27: “Lest that by any means, when I have preached to others, I myself should be a castaway.”</p>\n<p>Paul was too eager and too practical a man to dally with a bogy dread. Since then he intimates that it was his daily fear lest, after having preached to others, he might himself be a castaway, I suppose that there were but few hours in his life when this dread did not haunt him. After he had founded so many churches, written so many epistles, and exercised so wide, spread an influence, in his quiet moments he was perpetually face to face with this awful nightmare, that the day might come when he would be a castaway; and the thought drove him almost to madness.</p>\n<p>When he was traveling over the blue Aegean, when he was sitting making his tents, when he was engaged in dictating his epistles, the thought would come back and back upon his heart: “I may yet be a castaway.”</p>\n<p>Have you ever feared this? I am not sure that a man ever reaches his highest development without something of the element of fear, and I ask you now if in your life you know something of this haunting dread? May I confess to you that it has become a great dread of my own? and if many days pass, and no one writes to tell me of help derived from my ministry, and no one comes to join our church, and no one seems to be influenced by my life or word, I sit myself down and say: “Good God, has the time come at last to me when for some reason I, too, am to be a castaway?”</p>\n<p>And reverently, humbly, but most searchingly, I ask you, my hearer, whether it may not be possible that this very moment you are already a castaway.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "271e4b09ce2c0744d37242ea84d7cd1a5dda22842df13486c8f9a3ea6a0365ae"
+}

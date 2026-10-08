@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Hicksville, OH",
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "by Barry Grant\nHicksville, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "1b59b086-09fb-46c6-98f1-e926f80f17ac",
+    "images": [
+      {
+        "alt": "A rocky road ascending through green hills in Haiti",
+        "caption": null,
+        "credit": null,
+        "credit_candidates": [
+          "Photography By Laurel",
+          "Edward Martin"
+        ],
+        "public_path": "/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-1.jpg",
+        "repository_path": "public/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-1.jpg",
+        "rights_note": "The page-2 masthead lists both Photography By Laurel and Edward Martin for printed page 7 without binding either credit to this image; no separate permission notice or license terms are stated. The embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG because the source JPEG had undefined JFIF density; pixel dimensions, published crop, orientation, and content were preserved.",
+        "role": "opening-page photograph",
+        "sequence": 1,
+        "source_page": 7
+      },
+      {
+        "alt": "Green and brown hills under a pale sky in Haiti",
+        "caption": null,
+        "credit": "Edward Martin",
+        "public_path": "/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-2.jpg",
+        "repository_path": "public/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-2.jpg",
+        "rights_note": "The page-2 masthead credits Edward Martin for printed pages 8 and 9; no separate permission notice or license terms are stated. One embedded image spans the two printed pages and was standards-normalized as a baseline 96-dpi sRGB JPEG because the source JPEG had undefined JFIF density; pixel dimensions, published crop, orientation, and content were preserved.",
+        "role": "two-page spread photograph",
+        "sequence": 2,
+        "source_page": 8
+      }
+    ],
+    "issue_id": "5b37aca8-4c81-5079-80f9-33af1c139beb",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "MUSINGS OF A MISSIONARY",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "This Is The Way, Walk Ye In It",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "fd090d44cecf535321bac925b758f4cdc773f9e6ccddc98f08694e23ec70eed3",
+    "metadata_sha256": "3c4a0f64a08001c41680725fbb5af9d4b62d8a0db59a15e13178668b89e70559",
+    "structure_sha256": "40f46aab251e066f7917c5a77f53d7e13c95046240eaa1c8880b34394996698e",
+    "text_sha256": "39c356794879b1f381c5028883a5a4a07efbf2e82ddcc651262972f5d8e3229b",
+    "translation_metadata_sha256": "8f69a7308adca55ce686b9afb40410bbd3f7a187bbbfbc64ee2ad704f401b4d1"
+  },
+  "html": "<article data-article-id=\"1b59b086-09fb-46c6-98f1-e926f80f17ac\">\n  <p>It was February 22, 2016, when our family stepped off the airplane in Port-Au-Prince, Haiti. I was excited. When I was converted, I told God I would go where He wanted me to go and say what He wanted me to say. Now here we were, in a foreign land. As we were waiting in the slow-moving, noisy line, hot and tired, many thoughts went through my mind. I looked at my wife and two small boys. ‘How long will we be here?’ ‘Will the gospel be accepted?’ ‘Will we all leave?’ There were tensions at home, because some of our family didn’t think we should go to such a place. It was not a good place for children. However, like Paul, in Acts 21, God had sent us; how could we not go?</p>\n  <figure>\n    <img src=\"/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-1.jpg\" alt=\"A rocky road ascending through green hills in Haiti\" loading=\"lazy\">\n  </figure>\n  <p>Our time in Haiti was a rich blessing. Despite many fears, our family thrived. We were truly fulfilled in the work of the Lord. Being able to preach in nearly any church, and to a captive audience, was something I had not expected. There was no shortage of work. Traveling daily to tell the good news led us into many unique situations, and it seemed clear that God’s hand was involved.</p>\n  <p>We made mistakes. We learned a lot—about life, about ourselves, about each other, about our God.</p>\n  <p>God had given us a message, a burden, and a people to share it with. The many tragedies and hardships were welcomed as small obstacles in our journey to minister to these dear people. Stepping out of one culture and into a culture completely different was refreshing. It was a learning experience that will hopefully never be forgotten. A culture where the unexpected is anticipated; a culture where the spirit world is relied upon, and where prayer is not shameful. Miracles abound and demons roam free. Nothing is unordinary.</p>\n  <figure>\n    <img src=\"/images/articles/1b59b086-09fb-46c6-98f1-e926f80f17ac-2.jpg\" alt=\"Green and brown hills under a pale sky in Haiti\" loading=\"lazy\">\n  </figure>\n  <p>In short, Haiti was a place where we needed God every day. Time and time again, it seemed our lives were on the line, no one to call, nothing to do, but cry out to God, and God was always there, waiting to help a child of His in need. It was revolutionary. It was a place where money didn’t rule, in fact in most places it was nonexistent. It was a place where reputation didn’t matter; nothing was posted online. It forced us to be real, to deal with the realities of who we were, and deal with the consequences of what we did. There was time for people, and for friendships. There was time for family, and most importantly, there was time for God.</p>\n  <p>Although everyday brought its challenges, we found that grace did much more abound. Many evenings we sat together as a family and marveled at the goodness of God. We often had opportunities to humbly thank God for His protecting hand. To thank Him for being there when no one else was.</p>\n  <p>Many times, when we found ourselves at a crossroads, we would seek the Lord. At times the direction was clear; other times it was not. Once a direction was chosen, there were times we questioned it. Did we discern God’s will correctly? Eventually, God in His mercy, would confirm the direction He had chosen. Often the path that God led us on was challenging, difficult, and times it seemed impossible. However, God’s peace would assure us that everything was going to be alright.</p>\n  <p>I’ve talked with many people trying to find God, people that desire to be Christians, however, they seem to fall short in that quest. I realize they fall short because they don’t want it bad enough. They seem to want their own way more than God’s way, and they are not able to help it. It’s just the way it is. Jesus likened the kingdom of heaven to a <em>…treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field –Matthew 13:44.</em> If he wanted the treasure, as all people do, yet if he didn’t want it badly enough, he might go home and sell only some of his things. He might sell many things; he could even tell people that he had found something great. However, if there were things that he refused to sell, then he has lied to himself by deciding that it is not necessary to sell everything. Selling what he did was a great sacrifice, but it wasn’t enough. For, to obtain the treasure, one must sell all—everything. If he doesn’t do everything necessary to obtain the treasure, he then will go away feeling rejected. Although the field was ready to be bought, the buyer, however, was not ready to buy. Once all is sold, there is always enough money there to buy the field. The catch that leads most to losing out on the treasure is simply hanging on to something worth only a trifle.</p>\n  <p>A soul that sells all and gets the field that holds the treasure is set. A peace that passeth all understanding solidifies his decision and leads him through all of life’s troubles.</p>\n  <p>Some of those difficult times were brought on when things out of our control seemed to deter us from the mission God had us on, or so we thought. Several times we seemed to be sure of the path God had us on, and we were used to opposition, in fact it was opposition that helped confirm the path was the right path. However, when the opposition got so strong that we were deterred from our path, we would find that in fact it was God who was opposing us, trying to change our course.</p>\n  <p>An example of this, chosen from several, was when my wife Julia was expecting our 4th child. We had a midwife chosen from the city to help with labor. We had our last child in the city and although things didn’t go ideally, things turned out well. With all the unrest and country lockdowns due to riots, my wife had an uneasiness about having the baby in Port. She wondered if we weren’t supposed to go back to the states for the birth. I rejected the idea because of all the time it would take. We had too much going on to take several months off. As the due date approached, her thoughts remained the same. Then I received a message from the midwife. They had been robbed several times in the past month and had decided to close down and head back to the states. I read the message to my wife, and she again wondered if God didn’t want us to go back for the birth. I took it as something evil trying to stop our work, something that we could easily overcome.</p>\n  <p>When we couldn’t find anyone to help with the birth, I also began to wonder what God was saying. “Should we go to the states for the birth?” I prayed. It did seem to be what God was saying. I didn’t understand, yet I moved ahead with the change in plans. She was legally too close to the due date to fly however we had no trouble getting back to the states where our stateside midwife helped deliver a healthy baby boy. Julia’s parents came to see the little one. Later that same night her mother complained of pain in her stomach, which ended with her admission to the hospital. In short, she was full of cancer, and she died in a few short weeks. It was devastating to my dear wife; they had always been close, however what if we wouldn’t have come home? With a new baby without a passport, we would have missed it all. God knew it would have been too much for Julia. I’m thankful for God’s mercy, especially when I seemed to be kicking against the pricks.</p>\n  <p>After four busy, exciting, and growing years we found that God’s clear leading landed us 30 minutes down the road at the Christian Aid Ministries base, serving as director. I never would have predicted this; however, God works in mysterious ways. I had many more things to learn. It was here where we met some of the most trying times of our lives. God was still faithful; it was very good for me and my family.</p>\n  <p>When we thought we had been pushed to our limits, the kidnapping happened. What was God saying? We had been working on planting another church nearby, the building was finished, and services were soon to start, then the kidnapping brought that to an abrupt halt, along with many other things that God seemed to be doing. I came to a peace with the idea that we had come face to face with evil again. There were forces out there that wanted to bring God’s work to ruin, but who would win this war? We had fought many such battles, however, this one was different. The battle wasn’t just between my family and evil, it seemed to be between the Anabaptist church and evil. Who would win? I had a strong feeling that this battle would not end well, that we were not ready for this fight, that defeat was inevitable. However, I also felt that it was going to be for the good, to help open the eyes of so many that had been out of the fight for decades; for many that had fallen asleep.</p>\n  <p>After it was all over (62 days later), the mission was abandoned, and the workers went home. “But at least everyone was safe!” I heard it over and over again. It didn’t soothe anything for me. I never thought that getting home safely was the objective; few Christian missionaries before us did.</p>\n  <p>I prayed long and hard about my family’s future. Was Haiti no longer where God wanted us? The answer again was clear—God wanted us in the States—so that is where we currently are. I always knew there was a big need for missionaries, however I didn’t realize that the need for them was in America.</p>\n  <p>We have decided to help with an outreach church in Shelbyville, Indiana, close to Indianapolis. It requires another move, however we feel that God again is leading, as He has done so faithfully in the past. Reaching out to souls lost in despair is still the church’s work; it’s still God’s heart. I believe we need revival in our Anabaptist churches. We need to shake ourselves awake and rekindle the fires that our forefathers lit. When we love our lives, we will lose them. More importantly, we will lose the battle between good and evil. When we lose our lives for Christ’s sake we gain them, and we fight on, overcoming in the fight for souls—ours and those of folks with whom we relate. This battle is contagious—it’s what turns the world upside down. Our children will want to abandon their lives and live for the cause of Christ as well.</p>\n  <p>Please help me pray for another great awakening, amongst us, amongst our people. It won’t be an easy journey, trials will test us at every turn, the devil with all his troops will be waiting, yet that’s where the Christian thrives, in this very battle.</p>\n  <blockquote class=\"poem\"><p>Not to the strong is the battle,<br>\n  Not to the swift is the race.<br>\n  Yet to the true and the faithful<br>\n  Victory is promised through grace.</p></blockquote>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7d58362ec63d24882d6bf00d5552cb5923098a1e3f76f478580498944f689acc"
+}

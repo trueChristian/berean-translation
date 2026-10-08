@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "70fb6a6f-c616-4a62-a8f6-8f83aea38532",
+    "images": [
+      {
+        "alt": "The poem The Kitchen Sink printed over a sink containing dishes and soap suds",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/70fb6a6f-c616-4a62-a8f6-8f83aea38532-1.jpg",
+        "repository_path": "public/images/articles/70fb6a6f-c616-4a62-a8f6-8f83aea38532-1.jpg",
+        "rights_note": "Original embedded PDF image object 141; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the source bleed to the published page boundary. The title, poem and source credit are irreversibly baked into the only source raster and remain as an explicit unavoidable-overlay exception, preserving both sink basins and the dishes. Separate magazine logo, address and postage panel omitted. No clean photographic base exists and no hidden pixels were synthesized. No separate image credit or article-specific image reuse restriction is printed. Source sRGB samples retained; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "poem_background",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "colour_conversion": "source ICC profile 232 is sRGB IEC61966-2.1; sRGB preserved",
+          "crop_pixels_left_top_right_bottom": [
+            38,
+            38,
+            1313,
+            1688
+          ],
+          "export_pixel_dimensions": [
+            1275,
+            1650
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 141,
+          "source_pixel_dimensions": [
+            1352,
+            1725
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Kitchen Sink",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "75952f7e-5123-5cb9-8a6f-bcb75336e69f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "288468118aa033ae1ea81645dd9258ade6313fe91fbdd14dd985699a7d48cc23",
+    "metadata_sha256": "bcf0afd601230d5872201933ec7160b826f51e97ff5c616c226256f14d7907c5",
+    "structure_sha256": "79005cf03ae6824e1a8858fe473fe57e7e591a22c050803ae4750ed95298cc9b",
+    "text_sha256": "77258e85fe900d4f0017039e4b4115c24bd568e7ea06f5df62f039768e0b537b",
+    "translation_metadata_sha256": "73a4558542b4463c7a9b0496c8fa8a2cfe1a95dedd82757e32ab017124f07889"
+  },
+  "html": "<article data-article-id=\"70fb6a6f-c616-4a62-a8f6-8f83aea38532\">\n  <figure><img src=\"/images/articles/70fb6a6f-c616-4a62-a8f6-8f83aea38532-1.jpg\" alt=\"The poem The Kitchen Sink printed over a sink containing dishes and soap suds\"></figure>\n  <p class=\"poem\"><strong>Perhaps you’re at a steaming sink,<br>\n  A wall before your eyes;<br>\n  But sister, you can leap that wall,<br>\n  Escape the kitchen sighs.<br>\n  You’re washing pots and pans my dear,<br>\n  But think of it this way,<br>\n  Each piece to represent a soul,<br>\n  For whom you weep and pray.</strong></p>\n  <p class=\"poem\"><strong>Then as you plunge those dishes in,<br>\n  They’re souls you dearly love,<br>\n  Committed to the cleansing Blood,<br>\n  The stains of sin remove.<br>\n  Oh sister, give each dish a name,<br>\n  And make your washing up,<br>\n  A time of intercessory prayer;<br>\n  Revive believing hope.</strong></p>\n  <p class=\"poem\"><strong>You’ve laid unnumbered dishes down,<br>\n  But in your heart you know,<br>\n  You’ve laid unnumbered burdens down<br>\n  Where healing waters flow.<br>\n  Thus from that steaming kitchen sink.<br>\n  Upon the wings of prayer,<br>\n  You rise beyond confining walls,<br>\n  An angel unaware.</strong></p>\n  <p>From “Farm House Cooking”<br>\n  Kountry Korner Varity Store</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d68d29a26c1f1a046575f2babe35dc6798ac45093768bb7e4c05fdd32399e154"
+}

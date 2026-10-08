@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "~Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "0862fd6d-7c62-456c-8b3f-abb513f498ce",
+    "images": [],
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Running the Race Together",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "19702a675865f2e808ad5381f3cb72970146d2770730d48048e9e29bf4f94045",
+    "metadata_sha256": "a3dd83f8039339cc75971edd80310501a1bc9b433a7ae6ce1ea57936decec94c",
+    "structure_sha256": "d94d7baed4ebd31e33dc24034885906f88a6780720372b9932ec9305ab24614f",
+    "text_sha256": "40b1e1c37101995d1301b232afed42d69f889b3f78e7728463858d9942f95f21",
+    "translation_metadata_sha256": "b03c680e5afaeafe21f6c86356dbf74d7e2fc50a6856292a94e45f262f531080"
+  },
+  "html": "<article data-article-id=\"0862fd6d-7c62-456c-8b3f-abb513f498ce\">\n  <p class=\"drop-cap\">When the starter’s gunshot was heard, all of the contestants started toward the finish line. Granted, they were not as fast as the regular high school racers. In fact, because of their handicaps, they were so slow that they even talked to each other along the way.</p>\n\n  <p>About ¾ of the way to the goal, something happened. Suzie fell and skinned her knee. She began to cry because it hurt. Carl, who was beside her, stopped and spoke kindly to her. All of those who were behind her, when they caught up, stopped also to add their condolences. Some called ahead to the rest of the gang to let them know what was happening. Because the others were not too far ahead, they heard the calls of those behind them and came back to be with Suzie too.</p>\n\n  <p>After a while, when she was feeling better, two of her friends helped her to stand up. Then the friends standing beside her and holding her arms said, “We will help you to the finish line.” All of the others also said, “So will we!” At that point, everyone held hands and made their way slowly down the track, keeping pace with limping Suzie. Then, as one big wide chain, they all crossed the finish line together! ~Author unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05"
+}

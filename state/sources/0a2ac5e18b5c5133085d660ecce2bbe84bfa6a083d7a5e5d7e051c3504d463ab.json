@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "A BOOK REVIEW BY DEAN TAYLOR"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "aec53018-3515-40c2-9347-8276571177cf",
+    "images": [
+      {
+        "alt": "Cover of Through the Eye of a Needle, showing a camel.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/aec53018-3515-40c2-9347-8276571177cf-1.jpg",
+        "repository_path": "public/images/articles/aec53018-3515-40c2-9347-8276571177cf-1.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 27; image-specific creator and license are not stated.",
+        "role": "book cover",
+        "sequence": 1,
+        "source_page": 27
+      },
+      {
+        "alt": "Books standing in a row, including leaning volumes.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/aec53018-3515-40c2-9347-8276571177cf-2.jpg",
+        "repository_path": "public/images/articles/aec53018-3515-40c2-9347-8276571177cf-2.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 27; image-specific creator and license are not stated. Left book group cropped from the two groups flanking baked review-header typography.",
+        "role": "decorative book illustration",
+        "sequence": 2,
+        "source_page": 27
+      },
+      {
+        "alt": "A second row of standing and leaning books.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/aec53018-3515-40c2-9347-8276571177cf-3.jpg",
+        "repository_path": "public/images/articles/aec53018-3515-40c2-9347-8276571177cf-3.jpg",
+        "rights_note": "Published in The Heartbeat of the Remnant, January/February/March 2009, page 27; image-specific creator and license are not stated. Right book group cropped from the same header, omitting baked review-header typography.",
+        "role": "decorative book illustration",
+        "sequence": 3,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "A Book Review",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Through the Eye of a Needle",
+    "topics": [
+      "649d37ab-7011-545e-8f58-c9f374fd3bfe",
+      "e16fa525-448d-504a-8ebc-927c62ec6e8f",
+      "ff6ad80a-580c-5627-ae33-02ab80581a20"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c4f5734c59e0c042fcf9b7e09c64eac57fb5849287c3ea4b0ab45e6bc8eff94c",
+    "metadata_sha256": "75a9d0ac890e6a15ce674b6e297d2f3cb2516512d6d7ecb6b50005ceee57765f",
+    "structure_sha256": "3ce1bc92fee0f6af65bbe4c7a88d07778e373800e8792bbf481a66f7bbcd483b",
+    "text_sha256": "edd8912e1b9eb419e1853ed57535937c6cc6fe40725fe491cdbd8b5dde1d32a2",
+    "translation_metadata_sha256": "04e09710404b3ac1211155db7e4c0282c0e8ccef197a44bb5abe8163e1acd8ef"
+  },
+  "html": "<article data-article-id=\"aec53018-3515-40c2-9347-8276571177cf\">\n  <figure>\n    <img src=\"/images/articles/aec53018-3515-40c2-9347-8276571177cf-1.jpg\" alt=\"Cover of Through the Eye of a Needle, showing a camel.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/aec53018-3515-40c2-9347-8276571177cf-2.jpg\" alt=\"Books standing in a row, including leaning volumes.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/aec53018-3515-40c2-9347-8276571177cf-3.jpg\" alt=\"A second row of standing and leaning books.\">\n  </figure>\n  <p>Some book topics make quick and easy successes. It is no mystery why titles such as <em>Your Best Life Now</em> by Joel Osteen made a quick jump to the top of the Christian best-seller lists. Tickling ears will always be popular. Roger Hertzler, on the other hand, has written a book that probably won’t make the best-seller lists any time soon. <em>Through the Eye of a Needle</em> is a challenging book that hits western Christians where it hurts—the accumulation of wealth.</p>\n  <p>Basing the title of his book on the challenging words of Christ, “It is easier for a camel to go through the eye of a needle than for a rich man to enter the Kingdom of God,” Hertzler’s book touches on areas such as retirement, investment accounts, covetousness, and the whole idea of “laying up treasures” in general. Hertzler encapsulates this doctrine in the simple phrase “the doctrine of nonaccumulation”.</p>\n  <p>Right at the outset, let me say that many of our readers will have difficulty with some of the things written in this book. But even though you may not agree with every single point, there is no doubt that Hertzler’s words are much needed in our modern American, materialistic culture.</p>\n  <h2>Two Pillars</h2>\n  <p>Early in the book, Hertzler introduces the foundation of Jesus’ teaching of nonaccumulation by describing two doctrinal pillars. The first pillar is a bit controversial. In general, most Americans would probably say it’s OK to have “treasures” on this earth, as long as your heart is not in them. Hertzler argues that this thinking is completely backward. He quotes Jesus’ words from the Sermon on the Mount, “Lay not up for yourselves treasures on earth” (Matt 6:19). In much the same practical way that the Anabaptists would view the Sermon on the Mount teachings on war and divorce, Hertzler argues that Jesus’ teaching is much more than just an attitude. He argues that regardless of whether we think our heart is in our treasures or not, Jesus simply tells us not to have “treasures”, whether they be bank accounts, investments, properties, or a bunch of excess stuff.</p>\n  <p>The second pillar is perhaps even more controversial. Hertzler quotes Jesus’ words, “Sell that ye have, and give alms.” What makes this verse so controversial is that Hertzler reminds the reader that in this passage, Jesus is not speaking to the rich young ruler, but to his disciples.</p>\n  <blockquote><p><em>“But rather seek ye the kingdom of God; and all these things shall be added unto you. Fear not, little flock; for it is your Father’s good pleasure to give you the kingdom. Sell that ye have, and give alms; provide yourselves bags which wax not old, a treasure in the heavens that faileth not, where no thief approacheth, neither moth corrupteth. For where your treasure is, there will your heart be also” (Luke 12:31-34).</em></p></blockquote>\n  <p>Further into the book, Hertzler does not just leave the reader with negative overtones and guilt trips. One of the most refreshing things about the book is his excitement over our “investment opportunities“ in the heavenly bank account. Following up Jesus’ words about not storing up treasures on earth, Hertzler emphasizes that Jesus went on to say, ‘But lay up for yourselves treasures in Heaven.” Hertzler says, “In today’s terminology, then, He is telling us to <em>accumulate wealth</em> in Heaven, to <em>invest</em> in Heaven, to <em>save for retirement</em> in Heaven. He is telling us, in essence, to make investments in Heaven in much the same way that people of this world make investments on earth. But how do we do this? What do we physically have to do to lay up treasure in Heaven? Luke 12:33 gives us the answer. ‘Sell that ye have, and give alms; provide yourselves bags which wax not old, <em>a treasure in the heavens</em> that faileth not, where no thief approacheth, neither moth corrupteth.’ So it’s by <em>giving alms</em> that we can make a real investment in a real place called Heaven! And this investment is totally secure from all the problems (thieves, rust, recessions, inflation, and stock market corrections) associated with earthly investments! What’s more, the rate of return is far better than that which any mutual fund manager has ever been able to consistently produce (‘a hundredfold’ according to Matthew 19:29).”</p>\n  <p>The challenging thing about Hertzler’s positive attitude is that he tells us that simply being “poor” in itself is not enough. There are plenty of self-righteous poor people in religious circles. He goes on to say that the positive part of this command is very important. Hertzler writes,</p>\n  <blockquote><p>The doctrine of nonaccumulation, therefore, means more than simply“don’t accumulate.”It also means, according to Luke 12:33, that we are to practice lavish generosity. There are many people who don’t accumulate earthly wealth, but at the same time do not really practice biblical nonaccumulation. Perhaps because of either laziness or else excessive spending, they simply do not have any resources available to accumulate. Maybe they have even read Jesus’command not to lay up treasures on earth, and in response have cut back on their work, or have started to live in luxury, or have otherwise begun to squander those funds that they formerly had been putting into a savings account each month. In other words, they have stopped laying up treasures on earth, but have not started laying up treasures in Heaven. They simply are not laying up treasures <em>anywhere.</em></p></blockquote>\n  <p>Ouch!</p>\n  <p>Hertzler proceeds from the teachings of Christ up through the Apostles, and then on into Acts and other related passages of Scripture to support his view. Further, he trails through church history, quoting many early Moravians, Anabaptists, and other committed Christians who also embraced this doctrine.</p>\n  <p>Concluding the book, Hertzler portrays an imaginary scenario entitled “Frank the Wise Investor.” In this scenario, it is 1986 and Frank has invested in a new little company called Microsoft. He shows how Frank spends all his life saving his pennies to invest everything he could into his account. Some even made fun of how hard he worked, and how frugal he was, putting all his money away in that little account. Finally, at the end of his life, Frank was one of the wealthiest men in the world. Everyone nodded their head in agreement and said, “Frank was a wise investor.” Completing the analogy, Hertzler lays the question to us from a heavenly perspective, asking the fundamental question that I think sums up the heart of this book:</p>\n  <p><strong>“Are we‘wise investors’in God’s account?”</strong></p>\n  <p><strong>This book can be read online at:</strong><br>www.elcristianismoprimitivo.com/througheyeofneedle.pdf<br>www.watchmangospelsigns.com/resources/Through_the_Eye_of_a_Needle.pdf</p>\n  <p><strong>Or you can purchase the book for $5.95 from:</strong><br>Scroll Publishing Co.<br>P.O Box 122, Amberson, PA 17210<br>www.scrollpublishing.com</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5ee12bc69e9500e3f3e34723923b1a68e195b4a4a4273ba79a4133e0d7a0b760"
+}

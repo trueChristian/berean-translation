@@ -1,0 +1,79 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "61b0bd32-7c21-4e51-909a-dcd3198c7bf6",
+    "images": [
+      {
+        "alt": "Engraving of a ruined Roman amphitheatre",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 63,
+        "public_path": "/images/articles/61b0bd32-7c21-4e51-909a-dcd3198c7bf6-1.png",
+        "repository_path": "public/images/articles/61b0bd32-7c21-4e51-909a-dcd3198c7bf6-1.png",
+        "rights_note": "Original embedded PDF image object 63; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; PNG retained without lossy conversion.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            373,
+            374
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 63,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            373,
+            374
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 15
+    },
+    "subtitle": "A Disciple of the Apostle John, Devoured by Wild Beasts in a Circus at Rome, for the Testimony of the Son of God, A.D. 111",
+    "title": "IGNATIUS",
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "355aa66cec492cc2a43a45730fb248d4498f08b7d716ec08806cfba371382ea0",
+    "metadata_sha256": "a0fca77a1f378459798757d68b049d101e2885b2db94d597d841c3e37935239c",
+    "structure_sha256": "8606da1d3c9871b73e7bf17ab8c97259d1c1731e63207a1019a17c7333f8f302",
+    "text_sha256": "8e7e465b9020dc65bf9b27f867f9562bfacdec8a840121be9f94ed95ca3459bb",
+    "translation_metadata_sha256": "9eaa3bb6841e297ce0ba998420e161416b700dcbef067e1d8aed1b26047a899a"
+  },
+  "html": "<article data-article-id=\"61b0bd32-7c21-4e51-909a-dcd3198c7bf6\">\n  <p>Ignatius, a disciple of the apostle John, was in the service of Christ at Antioch in Syria. He was a very God-fearing man, and faithful and diligent in his duties. He was surnamed Theophorus, that is, The Bearer of God, apparently because he often spoke the name of God and his Saviour with his mouth, and showed a godly life.</p>\n  <p>He would frequently say, “The life of man is a continual death, unless Christ lives in us.” Also, “The crucified Christ is my only and entire love.” And, “He that allows himself to be called after any other than Christ is not of God.” And again, “As the world hates the Christians, so God loves them.”</p>\n  <p>After winning victories against the Dacians, Armenians, Assyrians, and other eastern nations, Emperor Trajan gave thanks at Antioch unto the gods. He offered great sacrifices unto them, as though these victories had proceeded from them. Ignatius reproved the Emperor for it openly in the temple.</p>\n  <p>The Emperor was very angry about this and ordered Ignatius to be arrested. Because Ignatius was held in great respect in Antioch, the emperor did not have him punished there for fear of an uproar. He gave him into the hands of ten soldiers, and sent him bound, to Rome, to have him punished there.</p>\n  <p>In the meantime his sentence of death was revealed to him; how and where he was to die. He was to be torn to pieces by wild beasts at Rome. On his way there, he wrote several consolatory letters to his friends, the faithful in Christ Jesus. He sent letters to different churches, at Smyrna, Ephesus, Philadelphia, Trallis, Magnesia, Tarsus, Philippi, and especially to the church of Christ at Rome. This letter he sent before his arrival there.</p>\n  <p>It appears that the thought of being torn to pieces by the teeth of wild beasts was constantly on his mind during the journey. This was not as a matter of dread, but of earnest desire. He mentioned this in his letter to the church at Rome, writing, “Journeying from Syria to Rome, by water and by land, by day and by night, I fight with wild beasts, bound between ten leopards(soldiers), who, the more I stroke, and show myself friendly to them, the more cruel and hateful they become. However, through the cruelties and torments which they daily inflict upon me, God is purifying me. However, that is not what justifies me. O that I were already with the beasts, which are ready to devour me. I hope that, before long, I shall find them as I wish them to be; that is, cruel enough to destroy me quickly. But if they will not fall upon and tear me, I shall kindly allure them, so that they will not spare me, as they have already spared several Christians, but will quickly tear me in pieces, and devour me. Forgive me for speaking thus; I know what I need. Now only I begin to be a disciple of Christ. I regard neither things visible nor things invisible, (at which the world is amazed). It is sufficient for me if I but become a partaker of Christ. Let the devil and evil men afflict me with all manner of pain and torment, with fire, with cross, with fighting against wild beasts, with scattering of the members and bones of my body; all this I esteem very little, if I but enjoy Christ. Only pray for me, that inward and outward strength be given me, not only to speak or write this, but also to perform and endure it, so that I may not only be called a Christian, but also be found one in truth.”</p>\n  <p>Upon arrival at Rome, he was delivered by the soldiers to the governor, along with the letters of the Emperor, which contained his sentence of death. He was kept in prison several days, until a certain feast day of the Romans. Then the Governor, according to the order of the Emperor, had him brought out into the amphitheatre.</p>\n  <figure>\n    <img src=\"/images/articles/61b0bd32-7c21-4e51-909a-dcd3198c7bf6-1.png\" alt=\"Engraving of a ruined Roman amphitheatre\">\n  </figure>\n  <p>First of all they attempted, by many torments, to persuade him to blaspheme the name of Christ, and offer sacrifice to the gods. However, Ignatius did not weaken in his faith, but was only strengthened in refusing to offer heathen sacrifices. Then he was condemned by the Roman Senate, to be immediately cast in to the lions. As Ignatius was led away from the presence of the Senate, to the innermost enclosure, or pit of the lions, he frequently repeated the name of Jesus in the conversation which he carried on with the believers on the way, as well as in his secret prayer to God. Being asked why he did so, he replied, “My dear Jesus, my Saviour, is so deeply written in my heart, that I feel confident, that if my heart were to be cut open and chopped to pieces, the name of Jesus would be found written on every piece.”</p>\n  <p>With this the pious man indicated that not only his mouth, but the innermost parts of his heart were filled with the love of Jesus. For out of the abundance of the heart the mouth speaketh. Thus, also Paul, being filled with the love of Jesus Christ, has used, in his letters, as much as two hundred times (as has been counted) the words, “Our Lord Jesus Christ.” The name “Jesus” he employs as much as five hundred times.</p>\n  <p>Great crowds of people were assembled to witness the death of Ignatius. The report had spread throughout the whole city that a bishop had been brought from Syria who had been sentenced by the Emperor to fight against the wild beasts. Ignatius was brought out and placed in the middle of the amphitheatre. Then Ignatius, with a bold heart, addressed the people which stood around, “O you Romans, all you who have come to witness with your own eyes this combat; I want you to understand that this punishment has not been laid on me because of any wrong or crime. I have committed no wrong, but I long to go to God, and it is my insatiable desire to be in His presence. For, I am the grain of God. I am ground by the teeth of the beast, that I may be found a pure bread of Christ, who is to me the bread of life.” Ignatius spoke these things while he stood in the middle of the amphitheatre, and heard the lions roar. The brethren of the church also stood among the people and heard and can testify to this.</p>\n  <p>As soon as he had spoken these words, two dreadful, hungry lions were let out to him from their pits, which instantly tore and devoured him, leaving almost nothing, or, at least, very little, even of his bones. Thus fell asleep, happy in the Lord, this faithful martyr of Jesus Christ, A. D. 111, in the 12th year of Emperor Trajan.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "24e3808cefc80e91a037c88aa72a8922caccd97d1e705c18348dabd1323edfe9"
+}

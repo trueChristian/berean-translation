@@ -1,0 +1,129 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Watchman Nee"
+        }
+      ],
+      "raw": "by Watchman Nee"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "692419c1-b3f7-429e-ab4c-f87f23ef3cb4",
+    "images": [
+      {
+        "alt": "A kneeling man and a standing angel in a wooded setting",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "7b2cbf700169837bd4793da5cedcb5cd801706d4",
+        "public_path": "/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-1.jpg",
+        "repository_path": "public/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-1.jpg",
+        "rights_note": "Original embedded PDF image object 120; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            2,
+            2,
+            285,
+            431
+          ],
+          "export_pixel_dimensions": [
+            283,
+            429
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 120,
+          "source_pixel_dimensions": [
+            287,
+            433
+          ]
+        }
+      },
+      {
+        "alt": "A man praying with other kneeling people behind him",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "b28d425868a9c270e1bb236297338289a0fa5664",
+        "public_path": "/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-2.jpg",
+        "repository_path": "public/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-2.jpg",
+        "rights_note": "Original embedded PDF image object 124; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 33,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            0,
+            0,
+            450,
+            313
+          ],
+          "export_pixel_dimensions": [
+            450,
+            313
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 124,
+          "source_pixel_dimensions": [
+            450,
+            314
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "The Principle of Praying Thrice",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "c31d253f-48f8-53a3-a511-66372a6a5ac8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3c80c88f57c94ccb6e5bdeb0feb91bd18eceba373ed604e23e9c54b1ddab5dd1",
+    "metadata_sha256": "832cefb9e146277a522ae2797e47f99fa0e45d3f0e8f56be3f05fe98bd2895e3",
+    "structure_sha256": "262d02cdb2f4dcbe49ba315341a82f58a49ce6d88c99ff911afc13c430bbb74f",
+    "text_sha256": "8a459494df7ebc9d82044af94a2791dba08b3e81e5d7cd5aae1f610ceba02706",
+    "translation_metadata_sha256": "40d1c1c7312eba2a631b58734b8822acc9a322eba114bfbd8f8bea837d827d4a"
+  },
+  "html": "<article data-article-id=\"692419c1-b3f7-429e-ab4c-f87f23ef3cb4\">\n  <blockquote>\n    <p>“And He left them again, and went away, and prayed a third time, saying again the same words.” Matt 26:44</p>\n    <p>“Concerning this thing I besought the Lord thrice, that it might depart from me.” 2 Cor 12:8</p>\n  </blockquote>\n  <figure>\n    <img src=\"/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-1.jpg\" alt=\"A kneeling man and a standing angel in a wooded setting\">\n  </figure>\n  <p>There is one particular secret about prayer that we should know about, which is, a praying three times to the Lord. This “thrice” is not limited to only three times, it may be many times. The Lord Jesus asked God three times in the garden of Gethsemane until His prayer was heard-at which point He stopped. Paul too prayed to God three times, and ceased praying after he was given God’s word. Hence all prayers should heed the principle of thrice. This “thrice” does not mean that we need only pray once, twice, and three times, and then stop. It simply signifies the fact that before we stop we must pray thoroughly until God hears us.</p>\n  <p>This principle of three times is most significant. Not only in our personal prayer do we need to pay attention to such a principle, even in our prayer meetings we must attend to it. If we expect our prayer in a prayer meeting to fulfill the ministry of the church in accomplishing whatever God wants us to accomplish, we should well remember this important principle. The principle of praying thrice is to pray thoroughly, a praying through until we are clear on God’s will, until we obtain His answer. In a prayer meeting, never reflect that since a matter has already been prayed for by a certain brother it does not need my prayer anymore. For example, a sister is sick and we pray for her. Not because one brother has already prayed for that sister do I not need to add my prayer. No, that brother has prayed once, I may pray the second time, and another may pray the third time. This does not imply that each prayer must be prayed by three persons. Prayer must be offered with burden. Sometimes we may have to pray five or ten times. What is important is that there needs to be prayer till the burden is discharged. This is the principle of praying thrice. This is the secret to success in a prayer meeting. Let us not allow our prayer to jump about like a grasshopper: hopping to another matter before the first one is thoroughly prayed through, and before this second matter is thoroughly prayed for, we are found skipping back to the very first matter. Such hopping around prayer does not discharge burdens, and is therefore difficult to obtain God’s answer. Such prayer has little use and does not fulfill the ministry of prayer.</p>\n  <p>In order to fulfill the ministry of prayer we must have a burden for prayer before God. We do not intend to set up a law; we only wish to present this principle here. Let us recognize this one thing: burden is the secret of prayer. If a person does not feel within him burden to pray for a particular matter he can hardly succeed in prayer. In a prayer meeting some brothers and sisters may mention a great many subjects for prayer. But if you are not touched inwardly, you cannot pray. Therefore every brother and sister who comes to a prayer meeting ought to have prayer burden so as to pray. At the same time do not be totally absorbed in only considering what burden you yourself have; you should also sense the burdens of other brothers and sisters in the meeting. For example, one sister may be troubled by her husband; one brother may be sick. If in a prayer meeting one person asks God to save the sister’s husband, and this is followed by another person who asks God to heal the brother’s sickness, and in turn this is followed by still another individual who remembers before God something else, then each person is only praying for his own particular matter. Such prayer is not in accordance with the principle of praying thrice. For in the example just given, what is happening is that before one matter has been thoroughly prayed for the second topic is already being prayed for. Consequently, in a prayer meeting the brethren who are gathered must notice if a prayer burden for the first matter has been discharged. If all pray for that sister and the prayer burden is discharged, the believers can then pray for the sick brother. Before the prayer burden of the first topic has been lifted, those praying together should not switch to the second and third subjects of prayer. Suppose the entire gathering is yet involved with one particular matter. Then no one present should try to inject another prayer that is only according to his own personal feeling.</p>\n  <figure>\n    <img src=\"/images/articles/692419c1-b3f7-429e-ab4c-f87f23ef3cb4-2.jpg\" alt=\"A man praying with other kneeling people behind him\">\n  </figure>\n  <p>Brethren should learn to touch the spirit of the entire gathering. They must learn to enter into the feeling of the whole assembly. Let us see that some matters may only need to be prayed once and the burden for such is over and done with. But other matters perhaps need to be prayed twice. While still other matters probably have to be prayed three or five times before the various burdens for them are discharged. Irrespective of the number of times, the burden must be discharged before prayer on a particular item is ended. The principle of praying three times is none other than to pray until the burden is lifted. In all this, of course, believers should also understand the difference between personal prayer and corporate prayer. When one is praying alone he thinks only of his personal burdens; but in corporate prayer each one should notice the burden of the meeting instead of paying attention to one’s own burdens alone. Hence in a prayer meeting the brethren must learn to sense the feeling of the gathering. For some items, praying once for each of them is enough. There is no need to pray again, since the assembly has no longer any burden for it. But for other items, praying once is not sufficient. Each of these matters needs to be prayed for again and possibly a third or fifth time. Before one burden is discharged, no one should commence to pray about another item. All must wait until the first burden has been lifted and then someone can change to another subject as the Lord gives another burden for prayer.</p>\n  <p>So in the prayer meeting, let us learn to pray over a matter by allowing one person, two persons, three or five persons to pray as necessary. Yet not in the sense of each praying his own prayer, but a praying with one accord as we gather together. Praying with one accord is something we must learn. A person may be able to pray by his own self, five persons may all be capable of praying respectively, but all of us, when we come together must learn a new way of praying, which is a praying with one accord. Let us see that corporate prayer does not come automatically; it has to be learned. If two of you shall agree on earth as touching anything that they shall ask, it shall be done for them of my Father who is in heaven” (Matt.18.19). This is not a small concern. We should learn how to sense the feeling of others, learn to touch what is called the prayer of the church, and learn when a prayer burden has been lifted. And thus will we know how to fulfill in the meeting the ministry of prayer.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cf75139cd22654e7c98d05feeb0cac58705112bafff5ee6251a2a934aeef4b29"
+}

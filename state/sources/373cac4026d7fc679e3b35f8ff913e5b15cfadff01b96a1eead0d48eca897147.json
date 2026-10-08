@@ -1,0 +1,146 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, Pennsylvania",
+          "name": "Steve Ebersole"
+        }
+      ],
+      "raw": "Steve Ebersole\nMyerstown, Pennsylvania"
+    },
+    "categories": {
+      "additional": [
+        "44a970cf-d23c-5e24-a196-0b08595d01ba"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "74eb7e32-78db-4e85-996a-4017e7df70d3",
+    "images": [
+      {
+        "alt": "An open weathered doorway and tall window in an empty room.",
+        "caption": null,
+        "credit": "© Nadiika Kravets",
+        "public_path": "/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-1.jpg",
+        "repository_path": "public/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-1.jpg",
+        "rights_note": "Page 2 credits © Nadiika Kravets for page 9. The page photograph is cropped just inside its slanted left border and narrow top/bottom paper edges, excluding the adjacent article column and footer while preserving the doorway, window, light fitting and photographed room. No article-specific permission requirement is printed; no separate licence is inferred. Inspected the sole base object, resources, paint order and page render: a single scanned RGB raster plus invisible OCR (/ca 0), with no alternate clean asset, tiles, masks or transparency groups. All lettering/layout outside the crop is excluded; no source pixels are retouched. The crop is vertically resampled only to reproduce the PDF placement aspect, and encoded as a baseline RGB JPEG with embedded source sRGB profile and nonzero 96 dpi density. No CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 9,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_coordinate_space": "source raster",
+          "crop_pixels": [
+            880,
+            3,
+            1672,
+            2190
+          ],
+          "flip": null,
+          "method": "Original source-pixel crop; vertical Lanczos resampling by 0.9866688125318526 to reproduce PDF placement aspect ratio.",
+          "output_dimensions": [
+            792,
+            2158
+          ],
+          "rotation_degrees": 0,
+          "rotation_direction": null,
+          "source_dimensions": [
+            1672,
+            2193
+          ],
+          "source_object": 44
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded source sRGB profile, nonzero density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A young child in a yellow floral dress among garden flowers.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-2.jpg",
+        "repository_path": "public/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-2.jpg",
+        "rights_note": "Page 2 credits © Brimming Focus Photography for page 10. The unobstructed top photograph is cropped directly from the sole scanned-page object, excluding the lower article text and narrow white paper boundary. The page is unusually sized at 598 × 843 points; its original PDF aspect is preserved. No article-specific permission requirement is printed; no separate licence is inferred. Inspected the sole base object, resources, paint order and page render: a single scanned RGB raster plus invisible OCR (/ca 0), with no alternate clean asset, tiles, masks or transparency groups. All lettering/layout outside the crop is excluded; no source pixels are retouched. The crop is vertically resampled only to reproduce the PDF placement aspect, and encoded as a baseline RGB JPEG with embedded source sRGB profile and nonzero 96 dpi density. No CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_coordinate_space": "source raster",
+          "crop_pixels": [
+            0,
+            2,
+            1568,
+            912
+          ],
+          "flip": null,
+          "method": "Original source-pixel crop; vertical Lanczos resampling by 1.0329009470821742 to reproduce PDF placement aspect ratio.",
+          "output_dimensions": [
+            1568,
+            940
+          ],
+          "rotation_degrees": 0,
+          "rotation_direction": null,
+          "source_dimensions": [
+            1568,
+            2140
+          ],
+          "source_object": 48
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded source sRGB profile, nonzero density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 8
+    },
+    "subtitle": "from a Biblical Perspective",
+    "title": "Examining Reactive Attachment Disorder",
+    "topics": [
+      "1cd422b4-5792-58e6-bee6-d13c7784a0c9",
+      "e8455dc3-9ea9-50ad-8b49-ca5277a6a3fd",
+      "c9f86811-fb99-5d09-afa1-e6e0564031ff"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c88071c046048ab4c1b1c0ceb2c57c739f625a13d3804467cb9b2aae12e5ec53",
+    "metadata_sha256": "5dc897ba77625f725f42b50c3b5a5f6880eef3ba160eb829d6c248c1486a6b36",
+    "structure_sha256": "8a13afb093b457b06536ba8d6d09550a8d85f62a21d84e8cbcb073241e93341b",
+    "text_sha256": "34f20816067e17367e2f4f35fbfad621c942e2b209a226c4e037655b6c663f6a",
+    "translation_metadata_sha256": "099545b59b5ddef74c1cc3057ffff6ba25d5c1f15de7a557079fc011367746ee"
+  },
+  "html": "<article data-article-id=\"74eb7e32-78db-4e85-996a-4017e7df70d3\">\n  <p>In understanding Reactive Attachment Disorder (RAD), let us begin by breaking down the terms.</p>\n  <h2>Reactive</h2>\n  <p>The word reactive means something that responds or reacts—often in a strong or abnormal way—to external events or impressions. In the context of RAD, it refers to how a child reacts or fails to react appropriately to attempts at emotional bonding or care from others, particularly caregivers. It suggests a response to something, usually early relational trauma or neglect. Each one of us, as children of God, realizes we cannot rely on our natural impulses for our reactions, but rather test every response to what God asks from His children.</p>\n  <h2>Attachment</h2>\n  <p>Attachment refers to the emotional bond that forms between a child and their caregiver, especially in the early years. A secure attachment helps a child feel safe, loved, and able to explore the world with confidence. It’s foundational to emotional development, trust, and healthy relationships later in life. When attachment is disrupted or never forms properly, it may deeply affect a person’s inclination to relate to others. Each one of us as God’s child needs to embrace the fact that God is continually seeking to drive out our selfishness and, for this reason, tests our attachments.</p>\n  <h2>Disorder</h2>\n  <p>A disorder typically means something is functioning outside the norm, often viewed as a medical or psychological dysfunction. It implies that the way someone thinks, feels, or behaves is significantly impaired or different from what is typical or expected.</p>\n  <h2>What Is Reactive Attachment Disorder?</h2>\n  <p>When combined in one phrase, Reactive Attachment Disorder describes a condition where a child has serious challenges to their ability to form healthy emotional attachments, in reaction to early experiences of neglect, abuse, abandonment, or inconsistent caregiving.</p>\n  <p>Children with a RAD predisposition may:</p>\n  <ul>\n    <li>Resist comfort or affection, even when offered sincerely</li>\n    <li>Seem indifferent to caregivers</li>\n    <li>Show little emotional expression</li>\n    <li>Struggle with trust, empathy, or forming relationships</li>\n    <li>Sometimes they will swing between extreme withdrawal and intense, inappropriate closeness.</li>\n    <li>Also shows itself in extreme mood swings.</li>\n  </ul>\n  <p>This behavior is a personal journey. Two children may have very similar experiences, even of trauma and/or abuse in their early lives, and be very different in nature. However, when it begins to show up, parents may quickly connect with the despair this relationship tends to bring. It feels so hopeless to have a child intentionally react against your love for them, and it is normal to look around for “professional” answers.</p>\n  <h2>Why It’s Perceived as a Disorder</h2>\n  <p>RAD is often labeled a disorder because the child’s emotional responses and behaviors fall outside what’s considered “normal” in child development. These children may not seek out or respond to love in expected ways, which can alarm and/or frustrate caregivers. From a clinical standpoint, these attachment patterns are seen as indicators of emotional and relational dysfunction that will follow the individual for life.</p>\n  <p>But it’s important to recognize that this so-called disorder often has a very understandable root: a child reacting to loss, trauma, or misattunement. Or it may reveal that God has wired the child’s brain in a way that only He understands, in preparation for the work He has for this child. It is not necessarily a sign of something wrong with the brain or inherently broken in the child. Perhaps this is an understandable response to difficult or painful early circumstances or a stage the child is working through that God wants you to connect with. When touched in his heart by the Love of God, this child who tends toward aloofness may learn and experience the deep bonds of love.</p>\n  <p>In short, RAD can be more helpfully understood not as a mental illness, but as a relational injury—a wounded heart reacting to a wounded past. The “disorder” is not always about dysfunction in the child but may be a desperate attempt to cope with disrupted love, often in ways that seem strange or troubling to others.</p>\n  <p>Additionally, elements of RAD will emerge in otherwise “normal” families, simply because of the vast spectrum of personalities God creates within our human family and the brokenness that affects every human story.</p>\n  <h2>The Role of Personality and Temperament</h2>\n  <p>God designed humanity with wonderful and confounding diversity. Some children are born tenderhearted, easily comforted, and eager to please. Others arrive strong-willed, intense, and seemingly impervious to affection. (Our family used to call that “born with only knees and elbows”!) These differences are not malfunctions—they are by design. Scripture reminds us that God knits us together in our mother’s womb (Psalm 139:13), and that includes our emotional makeup.</p>\n  <p>RAD is not fundamentally a brain disorder. It is not rooted in a chemical imbalance or structural flaw. Instead, it is a relational and emotional disruption, often intensified by the natural differences in how God has created each person. Because RAD is not a problem with the brain, psychiatric medications will not address the root cause. In fact, they may hinder the healing process. By dulling emotional sensitivity and suppressing the need for relational connections, medications can cause a child to grow up detached from normal human emotions, responses, and relationships—and perhaps even choose a lifestyle of permanent emotional impairment.</p>\n  <p>The answer, then, is not to medicate away what we may feel is a relational injury, but to pursue healing through intentional, God-designed connection. God allows us to face problems we do not know how to solve, so we reach out to connect with His greater wisdom. “If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him. But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed” (James 1:5–6).</p>\n  <figure>\n    <img src=\"/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-1.jpg\" alt=\"An open weathered doorway and tall window in an empty room.\" />\n  </figure>\n  <h2>The Dual Nature of Children</h2>\n  <p>Another important dynamic for parents and caregivers is to remember that all children have a dual nature.</p>\n  <p>First, your child is created in God’s image and has the ability to connect with Him when taught about Him. That is why it is important to teach children to sing, pray, and talk with God in the early stages of their lives. Your child should learn Bible stories, especially those about people who chose to believe in God even when He seemed far away, as well as stories about Jesus and His tender love for all children.</p>\n  <figure>\n    <img src=\"/images/articles/74eb7e32-78db-4e85-996a-4017e7df70d3-2.jpg\" alt=\"A young child in a yellow floral dress among garden flowers.\" />\n  </figure>\n  <p>Second, your child also has a fallen human nature, a nature with a tendency toward foolishness and naughtiness. As a parent, you can relate to that struggle. You can admit your brokenness and the fact that your heavenly Father must give you chastisement through difficult circumstances. You can acknowledge your own tendency to pull away from Him when He really wants you to draw closer to Him.</p>\n  <p>With this knowledge of the child’s dual nature, parents or caregivers can expect both remarkable acts of kindness and creativity, as well as incredible displays of selfishness, to be normal behavior. Parents and caregivers can also reward good behavior generously and discipline rebellion and violence patiently.</p>\n  <h2>The Adoption Dynamic: More Than Just a New Family</h2>\n  <p>Adoption is beautiful, redemptive, and incredibly difficult. It’s not simply a child joining a new home—it’s a child losing one family and trying to attach to another, often after deep emotional trauma. Clearly, the brain wires early. When that wiring is disrupted, a child’s ability to trust, feel safe, and receive love can be greatly affected.</p>\n  <p>Adoptive parents often come into the child’s life later, after the child has already experienced separation or inconsistent care. This can create a bond that is functional but emotionally distant, especially if the adoptive parents are unsure how to connect or if they feel rejected when their efforts are met with coldness or defiance. Many adoptive parents, despite their best intentions, begin to emotionally withdraw, not out of cruelty, but because of exhaustion or disillusionment. They may shift into “survival mode” rather than parenting from a place of emotional abundance.</p>\n  <h2>Why Adopted Children Often Feel They Don’t Belong</h2>\n  <p>Even in the healthiest adoptive families, children may carry a deep, often unspoken, question: “Do I truly belong here?” This isn’t just about how they’re treated—it’s about identity. They are growing up in a family they weren’t born into, possibly with different cultural, genetic, or temperamental backgrounds. Subtle cues, such as differing interests, communication styles, or physical traits, can compound the feeling of being “other.”</p>\n  <p>Sometimes, these children are deeply loved but don’t feel loved because the love doesn’t reach them in a way they can recognize. And the child may push away the very affection they crave, reinforcing a cycle of alienation and frustration.</p>\n  <h2>A Normal Reaction to an Abnormal Situation</h2>\n  <p>Seen in this light, RAD, or at least the attachment difficulties that resemble it, is not always a rare psychiatric condition. It can be a normal, even predictable response to loss, mismatched personalities, and emotional confusion. What psychology labels as a “disorder” may actually be a heart’s protest against feeling unwanted, unseen, or unsafe.</p>\n  <p>The Gospel offers hope here. Jesus Himself stepped into our broken stories to restore connection to God and to one another. Attachment, at its root, is about connection. It’s about being known and loved. While therapy and structure may help in some cases, healing often begins with compassion: seeing the child not as a problem to be fixed, but as a soul to be pursued. Whatever our view, we must realize the Bible tells us to raise our children in the nurture and admonition of the Lord. If we desire His blessing, we must follow His direction and not make exceptions because we feel our child has special trauma.</p>\n  <h2>The Role of Biblical Discipline in Healing</h2>\n  <p>Another powerful and often overlooked tool in healing RAD is the role of proper biblical discipline. True discipline is not cold or mechanical—it is relational. When done correctly, Biblical chastisement actually strengthens the bond between parent and child.</p>\n  <p>When a parent takes the time to connect emotionally with their child before and after corporal punishment, it sends a clear and powerful message: “I see you, I love you, and I care about your heart.” This emotional connection, combined with consistency and affection, can be a turning point for the child. It shows them that boundaries are based on love, not rejection.</p>\n  <p>Many parents report that when they discipline with a heart of compassion and closeness, the child’s heart begins to soften. Emotional walls begin to lower. The child starts to experience a love that is not based on performance, fear, or manipulation, but on a steadfast connection. In this way, proper discipline doesn’t push a child away, but invites them in.</p>\n  <p>Remember, RAD is not a mystery to God. He understands the pain of broken relationships and the ache of disconnection. He also provides the tools for restoration: patient love, emotional attunement, godly discipline, and above all, His own example of pursuing us when we were distant and hard-hearted. Healing is possible, not through medication or labels, but through love that is both tender and truthful.</p>\n  <h2>Is RAD a Disorder or a Choice?</h2>\n  <p>We want to examine a Bible passage that helps us explore RAD, both between a child and his parent, and between an adult and his God. Hebrews 12 has a key to understanding RAD. While the Bible doesn’t use modern psychiatric terms, it speaks clearly about the choices people make in response to pain, discipline, and hardship. This Scripture explains that God disciplines those He loves, just like a good parent does. The passage says: “For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons” (Hebrews 12:6–8).</p>\n  <p>The word “chastisement” means “to be separated from.” In other words, when correction or chastisement lacks connection, it may cause deep estrangement. This separation can occur on the part of the one doing the disciplining if he disciplines with anger in his heart. Or this separation may be on the part of the one receiving the discipline if they refuse to see that their discipline or correction is an act of love. Either way, when the one disciplined chooses or senses alienation from the one doing the discipline, then the chastisement will fail in its purpose.</p>\n  <h2>How This Applies to RAD</h2>\n  <p>Children (and adults) all go through difficult experiences. These can feel unfair or painful. When this happens, we each have a choice:</p>\n  <ul>\n    <li>We can endure the pain, trust our caregiver or God, and grow through the experience.</li>\n    <li>Or we can pull away, decide the one disciplining us is unfair or unloving, and separate ourselves emotionally. This second response is what leads to RAD—a child (or adult) who withdraws from a relationship because they believe their caregiver (or God) is harsh or unkind.</li>\n  </ul>\n  <p>Hebrews 12 says that those who accept discipline will be “trained by it” and will later enjoy “the peaceful fruit of righteousness.” But those who reject discipline and grow bitter (like Esau mentioned in verse 16) will forfeit a deeper connection and blessing.</p>\n  <p>RAD isn’t a disorder someone is stuck with—it’s a choice. A child can choose to withdraw or choose to trust and stay close. As adults, we can do the same in our relationship with God.</p>\n  <p>Parents are encouraged to discipline their children lovingly and remain emotionally available. Over time, with patience, care, and loving explanations of these principles, children can learn to trust and build strong bonds.</p>\n  <h2>Concluding Thoughts</h2>\n  <p>The Bible calls us to “lift your drooping hands . . . so that what is lame . . . may be healed” (Hebrews 12:12–13 ESV). In other words, healing is possible when we choose to trust instead of pulling away. Let us cling to the hand and heart of our Father when we are disciplined. And let us embrace our children in love and patience when we need to provide corrective discipline. And let us pray that the Holy Spirit will work in our hearts and strengthen us in our walk with God.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "fd2e0d3cdc882e686fded63370ec85d20fbc9514d72370801f785f0095ba7930"
+}

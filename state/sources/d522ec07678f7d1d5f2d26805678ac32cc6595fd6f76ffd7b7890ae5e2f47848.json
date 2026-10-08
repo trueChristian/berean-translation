@@ -1,0 +1,149 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dundee, Ohio",
+          "name": "Josh Yoder"
+        }
+      ],
+      "raw": "Josh Yoder\nDundee, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "6692289b-a394-402f-b159-246bebae9dc5",
+    "images": [
+      {
+        "alt": "A lit candle in a dark setting.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/6692289b-a394-402f-b159-246bebae9dc5-1.jpg",
+        "repository_path": "public/images/articles/6692289b-a394-402f-b159-246bebae9dc5-1.jpg",
+        "rights_note": "Photography by Laurel credited to page 7 in the page 2 credits. Useful unobstructed candle crop lies entirely below the baked title, byline/location and white tab. Retains natural light, dark surroundings and scanned paper texture. Page resources, paint order and image dictionaries inspected: one full-page RGB scan with zero-opacity OCR text; no soft mask, tiles, clipping reconstruction or transparency-group base image. Source ICC profile is IEC 61966-2.1 sRGB. Final baseline JPEG has sRGB profile and nonzero 96 dpi density; no CMYK conversion or inversion required. No pixels synthesized and no licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 0.99547511 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "article opening photograph",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            590,
+            1680,
+            2184
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1680,
+            1587
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1680,
+            2184
+          ],
+          "source_object": 35,
+          "vertical_scale_to_pdf_placement": 0.995475113122172
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A white barn beyond a wooden fence and a leaf-strewn path.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/6692289b-a394-402f-b159-246bebae9dc5-2.jpg",
+        "repository_path": "public/images/articles/6692289b-a394-402f-b159-246bebae9dc5-2.jpg",
+        "rights_note": "Photography by Laurel credited to page 9 in the page 2 credits. Native-pixel crop isolates the photograph below the article text and trims the original scan’s vertically smeared lower edge. Barn, fence, trees and path remain intact. No text panel, footer or other page furniture retained. Page resources, paint order and image dictionaries inspected: one full-page RGB scan with zero-opacity OCR text; no soft mask, tiles, clipping reconstruction or transparency-group base image. Source ICC profile is IEC 61966-2.1 sRGB. Final baseline JPEG has sRGB profile and nonzero 96 dpi density; no CMYK conversion or inversion required. No pixels synthesized and no licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 0.99040206 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved. The rightmost 14 source pixels are also trimmed to omit the black scanner-edge strip without losing the barn, fence or path.",
+        "role": "article closing photograph",
+        "sequence": 2,
+        "source_page": 9,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1170,
+            1698,
+            2167
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1698,
+            987
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1712,
+            2237
+          ],
+          "source_object": 44,
+          "vertical_scale_to_pdf_placement": 0.9904020615845802
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Humility in the Industrial Revolution",
+    "topics": [
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357",
+      "f0b54656-ce75-5a6c-a712-5ab9f5b44c9d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4ca7af5bc23c5500991ceb09ff9cbab4000d58b4177e682ab078365aafb0e66c",
+    "metadata_sha256": "a18a9b1410494288b5eeb03b9293356c4f00b62c62532b4ef99e33e5eef75841",
+    "structure_sha256": "46c80b6f935bd8bb1c670cafbffc63bab7745d7939a61498ba2181f8e53eb5b2",
+    "text_sha256": "537e109d3ff9b93333782139412622d5a9b4b641ba408ce13a064feba8d89b83",
+    "translation_metadata_sha256": "953775b574870bc3e6dbfd2d6a08b07a1f37f0d5cf61b604ee266fbe2ff1b0a3"
+  },
+  "html": "<article data-article-id=\"6692289b-a394-402f-b159-246bebae9dc5\">\n  <figure>\n    <img src=\"/images/articles/6692289b-a394-402f-b159-246bebae9dc5-1.jpg\" alt=\"A lit candle in a dark setting.\">\n  </figure>\n  <p>The history of the human race has been one of largely even technological aptitude from the Flood until relatively recently, transportation was limited by the speed of a horse or camel. Clothing, food, and housing were limited to what could be personally woven, grown, or built. Trade routes made some variation possible, but usually only for the ultra-wealthy. For thousands of years, humanity lived and operated on a materially even playing field.</p>\n  <p>Starting in the mid-1700s, the world entered a period of rapid change, altering life on a societal level. Comforts in food, dress, housing, and transportation that had been reserved almost exclusively for nobility and the ultra-wealthy suddenly became available. No longer did a farmer need to rely on one change of clothes, the most that his wife could produce for him from her spinning wheel and loom. Now, she could purchase yards of cotton or calico and supply her family with extensive wardrobes.</p>\n  <p>As many people of the day pointed out, this change from bare simplicity to an extravaganza of factory-produced options was a good thing for Western civilization. Democratic ideals were spreading during the American and French revolutions, and they called for the pursuit of life, liberty, and, most importantly, happiness. What better way to be happy than to possess all that one’s heart could desire?</p>\n  <p>There was certainly much to desire. As early as 1785, Paris became home to the world’s first fashion magazine, <em>Cabinet des Modes ou les Modes Nouvelles.</em> This lively and colorful publication paraded the bows, buttons, and ever-changing styles made possible by an abundance of easily produced material goods. Soon, even the poor classes could realistically follow and copy the trends of the day, begauding themselves in ribbons, waistcoats, and top hats.</p>\n  <p>The fashion craze spread worldwide. Those who have read the Laura Ingalls Wilder series will remember the <em>Godey’s Lady’s Book</em> that was often referred to in matters of dress, home furnishings, and the like. This <em>Lady’s Book</em> was not only a fashion publication, it enveloped every area of home life, offering articles and recommendations on everything from holiday furnishings to how to dress your husband like a dandy.</p>\n  <p>Now that we have some background on this change in living standards, let us turn our attention to the church of the time.</p>\n  <p>As with any societal advancement, the Industrial Revolution and the change in thinking and practice that it brought to society were keenly felt in the church. The first Anabaptists were often indistinguishable from their neighbors in dress and housing. Even with an emphasis on simplicity, the labor-intensive process of making clothes and providing for one’s material needs often meant that general society lived much on the same plane as each other. This can be evidenced by the fact that many early Anabaptists could not be distinguished from their Catholic and Protestant neighbors without being questioned on spiritual matters. Their clothing, housing, and furnishings were much the same as those of their surrounding community.</p>\n  <p>Now, however, this homogenous society life changed largely within a generation. Issues and concerns that had not needed to be addressed in bygone times suddenly rose to the forefront of the church’s teaching and doctrine. As with any new circumstance, these questions of dress and simplicity were not always easy for the church to agree on. The struggles and schisms that this produced are documented for our benefit. There is one man in the midst of this upheaval whom I would like to highlight, both for his response and for the effect that he had on the generations that followed him.</p>\n  <p>John M. Brenneman was a Mennonite minister and writer who lived during these tumultuous times. Born in 1816 and dying in 1895, he witnessed a time full of drastic change in society and the church. As a minister, John was on the front lines confronting these changes, doing so both in his local congregation and through extensive writing. He seems to have had a particular burden for the youth of the Mennonite churches, and often directed his writings and encouragements toward them.</p>\n  <p>It seems that in the midst of his many duties, John realized in his Industrial Revolution what we may all identify in our Technological Revolution: drastic change affects the church first through our minds and expectations before it produces fruit in our lives.</p>\n  <p>In his work <em>Pride and Humility,</em> John lays out in no uncertain terms what he feels the church of his day has been guilty of backsliding in: pride.</p>\n  <p>The question of pride and humility was no new thought to the Mennonites of the day. Since the mass immigration to the expanding United States, Anabaptists had asked themselves the question: how will religious freedom and material prosperity affect the church? This was a uniquely relevant question, as material abundance and civil freedom were things almost unheard of for the several centuries that the Anabaptists had stayed in the Old World.</p>\n  <p>Part of the church’s answer to that question was to develop a deeply rooted and practical doctrine of humility, drawing directly from Jesus’ example. The necessity of humility and the wickedness of pride were not unfamiliar topics in John Brenneman’s day, and yet he wrote <em>Pride and Humility</em> with a fervent clarity and sincerity that can be felt through the page.</p>\n  <p>John begins his book with 1 Peter 5:5, “God resisteth the proud, but giveth grace to the humble.” He immediately references Peter’s words from earlier in the chapter, where church elders are exhorted to shepherd and guide their flocks.</p>\n  <p>This sets the tone for the book. John is pleading both as a Christian brother and as a pastor who must give an account for his shepherding. Quoting the Psalms, he soon establishes that the proud man is known by his proud look and words (Psalms 17:10, Proverbs 21:4) and that God will not tolerate the proud (Psalms 101:5).</p>\n  <p>The strength and perhaps what sets John’s message apart is his willingness to endeavor to make a practical application from the Word clearly. He makes his arguments from Scripture and makes no excuses.</p>\n  <p>What then can we learn from this example? When faced with new circumstances, John M. Brenneman went to the Scriptures. Like all good Christian theologians, his writings are peppered with Biblical anecdotes, references, and examples. Even in using the writings of other Christians, such as Mennonites, John clearly ties Scripture into every point that he makes.</p>\n  <p>Second, by looking at the generations coming before and after John, we can deduce some rather interesting points. First, some context. When the photograph was first introduced, many sincere Christians saw it as a prideful thing to partake in. As this technology became more widespread, this sentiment began to fall away, and taking portrait photographs soon became a popular feature of the mid-Industrial Revolution.</p>\n  <p>This matter, as you may have guessed, travelled as far as the Mennonites. Arriving with increasing worldliness and laxity in dress, the photograph was seen as a part of the larger problematic change taking place in the Mennonite church. Thus, John Brenneman clearly took a stand against it. He not only took a stand, but he also acted on his belief. To this day, we do not have any photos of John. We do, however, have pictures of John’s father and of John’s children. This illustrates another lesson for us. John was met with a tidal wave of worldliness. Not allowing himself to be besmirched by any part of it. However, by the time his children had homes of their own, the photograph was prevalent enough that they seem to have felt comfortable in having their pictures taken. I will not draw conclusions here for the reader; each must search for the meaning and pattern within the life of this Godly man. Was he in the right to take a stand even though we might disagree with some of his practical applications? Why did he write against both the outward and inward manifestations of pride, instead of addressing it as just a heart issue?</p>\n  <p>These are questions that may help us in our own times. We continually see monumental change, and the life and writings of John Brenneman offer us an interesting insight into a similar situation. What is it that we must do here in our time to hear those words, “Well done, thou good and faithful servant?”</p>\n  <figure>\n    <img src=\"/images/articles/6692289b-a394-402f-b159-246bebae9dc5-2.jpg\" alt=\"A white barn beyond a wooden fence and a leaf-strewn path.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9287563472c533bbb002f25a47695707598ce6af8a0ac11ad894f6bb2b5cdba7"
+}

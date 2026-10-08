@@ -1,0 +1,51 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver",
+          "role": null
+        }
+      ],
+      "raw": "—Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "18c20b04-c671-406c-9adf-4993e823b618",
+    "images": [],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Water – to Wine",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0bf550741a2b2257899a1ff1ae6ba7b16ca1a4f5efdca8247a47725cf650997f",
+    "metadata_sha256": "f347dc56d85b262fc702c45a46718bbe8b0b95aa0761c62c6575f3844c6cebb0",
+    "structure_sha256": "61a783de3afbc0ee97a4a68ab73e51d90adb3ce882493d27e04b4c9a181b83ec",
+    "text_sha256": "f64b059db461f3eb5776d1636db53ad577d2af3ad11ef4b08dd8af691c2730b4",
+    "translation_metadata_sha256": "e67a7d7448c23e9f23875e82c73bfdd9d3feb69de4f461dcd561cde3a3ae7340"
+  },
+  "html": "<article data-article-id=\"18c20b04-c671-406c-9adf-4993e823b618\">\n  <p class=\"poem\">The wine was gone; the pots were dry,<br>And just a Man was standing by.<br>“Now all these pots, with water fill.”<br>He said these words—stayed, standing still.<br>With awe the servants looked at Him,<br>And then they filled them to the brim.<br>What said He next? “Now draw it up,<br>And take the governor a cup.”<br>“A cup of this? This water here?”<br>The servants trembled with some fear.<br>But they obeyed that very hour,<br>And God reached down in all His power!<br>That water turned to special brew,<br>And only faithful servants knew!</p>\n  <p class=\"poem\">A need for wine abounds today,<br>A need for men to serve and pray!<br>Our God calls out for vintage wine—<br>A wine that’s neither yours nor mine.<br>When you step out in faith to fill<br>Your vessel up and do His will,<br>Your plain, old water turns to wine—<br>Turned by the power of God divine.<br>With leap of faith we dip and pour<br>And sweat and struggle back for more;<br>We trembling, take it to all men,<br>And this we do again, again.<br>Then, lo, it turns before our eyes<br>Into a wonderful surprise!</p>\n  <p class=\"poem\">When we have none, God in His way<br>Meets our obedience day by day.<br>Our water turns to vintage wine—<br>That is not yours and is not mine!<br>This miracle has but one plan:<br>To manifest God’s self to man,<br>So that all men around may see<br>The wine of God through you and me.</p>\n  <p><em>—Rachel Weaver</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a10841ca91b36eea499f85008304688444e03a952141c2b3464967c0adc1162c"
+}

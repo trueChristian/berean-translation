@@ -1,0 +1,53 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Jared Stump",
+          "role": null
+        }
+      ],
+      "raw": "Jared Stump"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+    "images": [],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "God’s Saving Grace",
+    "topics": [
+      "9ca69b72-863d-59d2-bc06-a22a787b1a58",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "2930d7e0-3f5e-5299-b27e-fa8f21d15595"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c18de7030e6bce0c8f9e21010f1032b1b6b114204fc4cb37b7b9c8366a625bda",
+    "metadata_sha256": "87639182f6bc1d06b95c30fc4324bf1ccbebbe1a76f11402a8a0b0bf7b6eb7ba",
+    "structure_sha256": "8c521a66fc55b25ccf33fa7e06ea4f6b8ef74568d02639e39dad90850d5f5bd1",
+    "text_sha256": "4a592d36452b6a678c4177f3d634e9297a808217d57ee3ecf8822e2218cef749",
+    "translation_metadata_sha256": "2b7147096641414ea0763e6b35c582b8c16c6609221a89e82decfb745b1576b1"
+  },
+  "html": "<article data-article-id=\"47c2bd87-06a9-4c31-854b-84c64975d399\">\n  <div class=\"poem\">\n    <p>There are many questions that go through my mind;<br>\n    The answers to which I can’t seem to find.<br>\n    When I look at my brothers who just can’t agree,<br>\n    I begin to wonder … is there hope for me?</p>\n\n    <p>Why can’t we all in unity dwell?<br>\n    Is it not possible? Can we not tell?<br>\n    Why is there so much strife within?<br>\n    Brother against brother, oh, what a sin!</p>\n\n    <p>What have we done that God says is wrong;<br>\n    That He’d take our blessing and remove our song?<br>\n    Have we taken our eyes and our love off the Lord?<br>\n    Have we fallen in sin and perhaps dropped our sword?</p>\n\n    <p>If these are the reasons why life is this way,<br>\n    Then wouldn’t you agree that it’s high time to pray?<br>\n    And plead with God that somehow we<br>\n    Would be able to dwell in unity?</p>\n\n    <p>I’m not sure that I ever will know<br>\n    How “Christians” can strive with each other so.<br>\n    If they’d only obey what the Bible says,<br>\n    They could love one another for the rest of their days!</p>\n\n    <p>If we could love each other with fervency,<br>\n    I truly believe that that is the key.<br>\n    How else can we live in this world of woe,<br>\n    Without living the way the Bible says so?</p>\n\n    <p>I’ve said all that in order to say this;<br>\n    Without abiding in Christ, our life is amiss.<br>\n    There’s no telling the kind of problems we’ll face,<br>\n    If we don’t live our lives by GOD’S SAVING GRACE.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624"
+}

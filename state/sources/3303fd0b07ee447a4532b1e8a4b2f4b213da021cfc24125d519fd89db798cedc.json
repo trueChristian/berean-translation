@@ -1,0 +1,182 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mollie Jo Cassidy"
+        }
+      ],
+      "raw": "by Mollie Jo Cassidy"
+    },
+    "categories": {
+      "additional": [
+        "85b345ae-ce23-56a2-9249-2cfa79293657",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+    "images": [
+      {
+        "alt": "A young man with a guitar serenades a woman at an open window",
+        "caption": null,
+        "credit": "WS (initials in illustration)",
+        "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg",
+        "repository_path": "public/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg",
+        "rights_note": "Extracted the original embedded image object 95 from printed page 24. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 517, 748] from the 517 × 750 source. Orientation is unchanged. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB. The intrinsic initials “WS” are legible in the lower-right corner; no expanded creator name is given.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            517,
+            748
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            517,
+            748
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            517,
+            750
+          ],
+          "source_object": 95
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Two bonneted women sit on a bench beside birds",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg",
+        "repository_path": "public/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg",
+        "rights_note": "Extracted the original embedded image object 102 from printed page 26. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 473, 580] from the 474 × 580 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            473,
+            580
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            473,
+            580
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            474,
+            580
+          ],
+          "source_object": 102
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A woman carries a vessel on her head along a rocky path",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg",
+        "repository_path": "public/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg",
+        "rights_note": "Extracted the original embedded image object 106 from printed page 27. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [1, 1, 216, 516] from the 216 × 516 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            1,
+            216,
+            516
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            215,
+            515
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            216,
+            516
+          ],
+          "source_object": 106
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 24
+    },
+    "subtitle": "For Young Ladies",
+    "title": "Emotional Freedom",
+    "topics": [
+      "bad0e42a-5e78-5b7d-bd28-65042ae509d4",
+      "f9835ab9-889a-5558-8ebe-d601e3b4cbcc",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "465100c201ba15f56446dfe30b27a416d9f61f435ff4e907be701fe297adb276",
+    "metadata_sha256": "8d926bd83a8fb6d50699f2b17c9450145260cbb27dbe673891638b5e1b23b38e",
+    "structure_sha256": "952e9aff4d23f05dc838675e9133ef6855fa1cd52642c9d2ffbc7c164cd1e6fe",
+    "text_sha256": "d2f53ea8c5a471ca6347332c75a103d73eace7d1233e56422d28c9f78032be3c",
+    "translation_metadata_sha256": "7337a73f9e326c91d36a52997ca9ebc75f44c9d15a75a6f5f217cb927e3b1dbd"
+  },
+  "html": "<article data-article-id=\"e08f3c82-7473-48d6-a445-1e8bf9f01d6f\">\n  <p>As young ladies, we are created with a need for emotional fulfillment. Though the desire for marriage is a God-given gift, the Lord has also supplied abundant grace to live happily without a life partner, for as few or many years as He should choose. In this season of singleness, the Lord intends for us to find true freedom in being totally His and given over to His matchless love. These years also hold a unique opportunity for intense spiritual growth and ministry.</p>\n  <p>Because of its potential, this special season of life is targeted by the enemy. If satan can enslave a soul in their youth, he succeeds in stealing many precious gifts of eternal value: a victorious Christianity, intimacy with the Lord, and an anointed ministry. Our youth years are times when many important battles are fought and life patterns are set. Often, these battles and choices are so formative that, as a result of them, we live our adult years in either bondage or freedom. As unmarried young women, perhaps our greatest battle lies in maintaining a pure heart and in keeping those God-given emotions in check. I personally believe that what we do—more exactly, who we are—in this special season of life is incalculably crucial.</p>\n  <p>Basically, I see two options. Bondage or Freedom. Bondage to emotional longings for romantic fulfillment. Or, freedom to live joyfully, contentedly, and to love the Lord with all our hearts.</p>\n  <p>Because of the love and power of my Lord Jesus Christ, I have known this sweet freedom. It has been so beautiful, rewarding, and satisfying, that I am not content to contain my joy. The truths that I have discovered in my journey with the Lord have such life-changing potential, that I cannot hold my peace.</p>\n  <figure>\n    <img src=\"/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg\" alt=\"A young man with a guitar serenades a woman at an open window\">\n  </figure>\n  <p>And so, my desire in writing this article is to first of all to sing the praises of my Beloved. He has revealed His love to me and captured my heart. His promises have not failed.</p>\n  <p>Then, I want to share my vision for emotional freedom. Someone once wisely said: “Vision without action is a dream. Action without vision is a nightmare. But action with vision brings beautiful reality.” The things I share here are some of my visions. But it is more than that for me. It is beautiful reality; it is my testimony. Because vision must have action to be reality, I have included some practical things we all can do to obtain emotional freedom. But, first things first.</p>\n  <h2>We Need to Have the Vision for It</h2>\n  <p>For those of you who are walking in freedom, many truths I share will not be new. My desire is to encourage you; don’t grow weary in well doing! May God continue to give you victory. And please pray for me and my relationship with God.</p>\n  <p>But, my burden is especially for those who are not walking in victory. Some of you may be in bondage to your emotions, and fighting a losing battle. You hope you can just “make it” through your single years. You feel a heavy weight, an intense, unfulfilled longing. You don’t know the wonderful, satisfying love of Jesus Christ. You’re not happy. You’re not free. Oh, as you read this article, let faith and hope arise in your soul: you can be liberated to wholly love the Lord Jesus! God wants to do a great work in you. . . and He is able! May you know the Truth, Jesus Christ, Who will set you free. And “If the Son therefore shall make you free, ye shall be free indeed. “ (John 8:36)</p>\n  <h2>Steps to Victory</h2>\n  <p>As in every aspect of the Christian walk, we cannot be victorious in our own strength. Our own efforts will prove futile and frustrating. We need divine grace, the desire and power to do God’s will. When we come in brokenness before the Lord, offering up our hearts to His keeping, He accepts our consecration. The only way we can truly keep our hearts emotionally pure is by actually giving them to the Lord Jesus and entrusting them to His keeping. As the Good Shepherd, He never loses or misplaces that which is committed to His trust. “. . . for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day. “ (2. Tim. 1:12)</p>\n  <p>One step we can take after initial consecration is to remove all provision for the flesh. “Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul.” (1 Peter 2:11) It’s hard enough dealing with our own affections and desires without adding to them the temptations that come from worldly videos, music, and books that stir us up emotionally! These things hinder love for Jesus, breed discontentment, and cloud our spiritual vision. Let’s make a radical effort to remove all damaging influences from our lives. To purge ourselves from these weights frees us to run our race.</p>\n  <p>We need the wise counsel of our Heavenly Father, and our earthly parents, to know how to walk in pure relationships with young men. God has also given us common sense. If we truly desire to keep our hearts pure then we won’t do things that stir up our emotions unnecessarily. “ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14) Our heart’s purity is too precious a thing to risk. Avoid unhealthy situations. This includes developing any special friendships with other young men. A girl who is devoted wholly to Jesus should treat all the young men the same, with no special friendliness to any one in particular. It is Biblical to treat them as brothers in the Lord—but special, close friendships (outside of a holy courtship relationship) are dangerous and create unnecessary struggles.</p>\n  <h2>Dealing with Emotions</h2>\n  <p>A very foundational aspect of emotional freedom is releasing all competing affections to the Lord. A competing affection is an emotional longing or romantic attraction that hinders obedience and love toward Jesus. Regardless of our marital status, Christ requires and deserves first place in our hearts. However, emotional freedom is not an absence of desire for marriage or an indifference toward young men. Rather, this is a liberty to love the Lord wholeheartedly and without distraction. This principle is found in I Corinthians 7:35.</p>\n  <figure>\n    <img src=\"/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg\" alt=\"Two bonneted women sit on a bench beside birds\">\n  </figure>\n  <p>It is important to understand that emotional attraction toward young men is not evil. Nor is it love; it is merely a feeling of liking them. Furthermore, our emotions need not be something we despise, as a “hindrance” or “problem.” They only become a problem when they are out of place, when they control us. God’s heart is to use the battle for emotional purity to make us intimately dependent on Him. As we respond to His Shepherding, the very things that drive us to our knees will be used to make us women of God. And then we can understand how even this struggle can ultimately result in a lifetime (and eternity) of good.</p>\n  <p>What we do with our emotions determines whether we will walk in freedom or bondage. If a young lady chooses to hold on to her desires, to feed them, and to keep them a secret, her soul will become enslaved to them. The right thing to do when we feel an emotional drawing toward a particular young man is to immediately and completely give it to the Lord. For “ . . . they that are Christ’s have crucified the flesh with the affections and lusts .” (Galatians 5:24)</p>\n  <p>We read in Genesis that God, the eternal matchmaker, put Adam to sleep while He prepared him a life partner, Eve. When God’s time was fully come, Adam awoke and was made one with Eve, God’s “perfect choice.” This account of the first marriage is, to me, a picture of what God desires to do in our lives. God is able and willing to bring a true rest to our hearts. Emotionally speaking, “he giveth his beloved sleep.” (Psalm 127:2) Yet, as we rest in the arms of the Father, we can be confident that He is not sleeping! He is preparing the perfect choice of a life partner for us, as He did for Adam. In light of these truths, reflect on these tender promises of God: “ . . . he that keepeth thee will not slumber . . nor sleep. . . The LORD is thy keeper. . .” (Psalm 121:3~5) When God “awakens” us at the appointed time, may our testimony be “I laid me down and slept; I awaked; for the LORD sustained me.” (Psalm 3:5)</p>\n  <figure>\n    <img src=\"/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg\" alt=\"A woman carries a vessel on her head along a rocky path\">\n  </figure>\n  <p>The Lord has also given us human authorities, usually our parents, to help and guide us through these issues. God wants us to “give” our hearts to our parents and to keep open communication with them about our emotional struggles. Their watchful care is a wonderful blessing! Honest accountability with our dad and mom helps us greatly in achieving emotional freedom. Even a little deceitfulness will significantly hinder victorious living. The more honest and open we are with both God and our authorities, the more freedom we will enjoy. At first, it may be embarrassing or difficult to speak to your parents about boys and desires for marriage. But, for me, it only gets easier after time.</p>\n  <p>Sometimes we face a more serious emotional drawing toward a young man, especially as we grow into womanhood. By “serious” I mean this is not just a passing whim. Maybe you really feel you’d like to marry someone in particular, and you just “can’t shake” the emotional drawing you feel. In many ways, the answers are the same: give the desire to God and keep open and honest with authorities. We must be even more vigilant to guard our hearts and outward behavior toward an individual we are especially drawn to.</p>\n  <p>But, that’s not enough. A trustful submission to the Father’s plan will give us victory over our emotions. Submission is an act of the will under the control of God’s Spirit. We may not feel right away like anything has changed. Often there’s a gap between our emotions and our will, but don’t let that be confusing.</p>\n  <p>In our times of need, we can call upon the Lord and pour out our hearts to Him in complete honesty. “God, I just have to tell you how strongly I feel about ‘so and so.’ I feel like I want this relationship, Lord. But I really want your will more. As best as I know how, I surrender and give this totally to you. . . even if you don’t give that which I desire. Help me!” And He will. He draws nigh to the humble, broken heart, and fills it with His own grace.</p>\n  <p>This situation reminds me of what David said when he was offered free materials for a sacrifice unto the Lord: “And the king said. . . neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. . . (2 Samuel 24:24) Many times it’s a sacrifice that really costs. Or at least it feels like it.</p>\n  <p>I want a higher perspective on surrender. I want to be so conscious of Who the Lord is and what He has done for me that I can freely sacrifice unto Him. . . no matter how hard or how painful it feels. It is fearful distrust, earthly mindedness, or willfulness that make surrender difficult. Surrender becomes a joy when we have an unwavering, child-like faith in the Father’s absolute goodness and perfect love. But, as the old hymn states, “ . . we never can prove the delights of His love until all on the altar we lay; For the favor He shows and the joy He bestows are for them who will trust and obey.” (John H. Sammis, “Trust and Obey)</p>\n  <p>So let us joyfully offer to the Lord even that which costs. Let us have a passion for God’s will to be accomplished in our lives. Let us make a glad surrender to Him now, instead of a sad surrender later. One day in Glory every sacrifice will fade away in the joy of His Presence.</p>\n  <h2>Longings Satisfied</h2>\n  <p>Vigilantly guarding our hearts, without satisfying our need for love and security, will leave us empty and restless. Because of this, emotional freedom is not complete without an intimate relationship with the Saviour. As Oswald Chambers stated, “The human heart must have satisfaction, but there is only one being who can satisfy the last aching abyss of the human heart, and that is our Lord Jesus Christ.”</p>\n  <p>Many people, even Christians, vainly seek for happiness in people or earthly things. In an effort to find satisfaction, we girls are especially prone to viewing marriage as the ultimate life goal. Thoughts like “Once I’m married I’ll really be happy” can be part of our mindset, even unconsciously and subtly.</p>\n  <p>Of course, there is much happiness and fulfillment in marriage—God designed it to be so! However, the danger in making marriage an idol is that we look to man for what only God can do. This mistake will set us up for future disappointment. As wonderful as husbands are, husbands are human. They fail, they are limited, and they don’t live forever. I am persuaded of the absolute necessity to be secured and established firstly in the love of God. Furthermore, if we believe that marriage is the source of basic fulfillment, we are incorrectly assuming that those God calls to celibacy are incapable of knowing true completion, that they’re somehow missing out on the highest happiness. Worst of all, we’re saying that God just can’t meet our needs.</p>\n  <p>But this is simply not true. As our Creator, Jesus Christ is fully capable of satisfying our hearts. This is a ministry that He has reserved for Himself, although He adds His gifts of human love. It is the will of our Father that we are content now, with Him alone. I’m sure that even our married friends and our mothers would readily testify that God is the basis of true joy, that nothing or no one else could ever satisfy the deepest longings of our soul.</p>\n  <p>In fact, I feel that finding fulfillment in Christ is one of the best ways to prepare for marriage! When our expectation is in God, all the love and joy in marriage will be like icing on the cake. A truly happy marriage is one where each partner is firstly in love with Jesus and satisfied in Him. But first we have to get to the place where we don’t need romance. . . Where we’re so satisfied in God that whatever else He gives is received in overflowing gratitude as an additional blessing.</p>\n  <p>Unlike earthly marriages, our relationship with Jesus will last throughout all eternity. Therefore, it is well worth the effort to develop our relationship with Him. One vital way to develop closeness with Jesus is by spending time with Him. Communication through reading God’s Word and responding in prayer are basic ways to get close to His heart. Intimacy with the Lord is spontaneous and continual, not always structured and formal. Walking with God goes beyond the morning quiet time. He wants us to be close enough to bring every heartache and joy to Him as we go through our day to day lives.</p>\n  <p>Since I was 15 years old, I have made it my goal to find intimacy and fulfillment in the Lord Jesus Christ. I have put romance away until the time appointed by God and have turned my emotional focus toward the Lord. And with joy I can testify that He has and still is fulfilling the promise He made to me: “For he satisfieth the longing soul, and filleth the hungry soul with goodness. (Ps 107:9)</p>\n  <p>One of the greatest blessings of this emotional freedom is the stability and satisfaction that Jesus gives. “ Hope deferred maketh the heart sick: but when the desire cometh, it is a tree of life. “ (Prov. 13:12) Christ is our Hope that cannot be deferred. There need be no heartsickness when we’re in love with Jesus! It is totally unnecessary to experience drastic emotional ups and downs and intense unfulfilled longings. Of course, there may be days when we feel down and struggle more. But, overall, there can be a stability and satisfaction in Christ that carries on through singlehood victoriously and joyfully.</p>\n  <p>I’m not saying something that is just a great dream: it can be reality for every one of us! You can be as free as you want to be! You get as much of Christ as you want! He is a rewarder of those who diligently seek Him. I have full confidence in His ability: He is not lacking in the supply required to meet our deepest needs!</p>\n  <h2>Ardent Lovers of Jesus Christ</h2>\n  <p>Amy Carmichael is one whose life I greatly admire because of her intimacy with Jesus. Her intense devotion to Christ and the ministry kept her from falling prey to discontentment. But there was a specific time in her life where God spoke to her in a special way that gave her strength to walk through life single unto the Lord. This is what she shared with one of her Dohnavur family members:”On this day many years ago I went away alone to a cave in a mountain called Arima, in Japan. I felt many feelings of fear about the future. That was why I went there. I wanted to be alone with God. “The devil kept on whispering, ‘It’s all right now, but what about afterwards? You are going to be very lonely.’ And he painted pictures of loneliness. I can see them still.</p>\n  <p>“Then I turned to my God in a kind of desperation and said, “Lord, what can I do? How can I go on to the end?” and He said, “None of them that trust in Me shall be desolate.” (Psalm 34:22)</p>\n  <p>“That word has been with me ever since, and I give it to you now. It has been fulfilled to me. It will be fulfilled to you. Only live for Him Who redeemed you and trust Him to take care of you, and He will.”” (Candles in the Dark, by Amy Carmichael, pg. 17)</p>\n  <p>Reading her testimony almost brings chills to me as I contemplate the awesome meaning of what she shared: “. . . It has been fulfilled to me. It will be fulfilled to you.” And it will be fulfilled to us, if we will also dare to believe God to keep His promises. Do we trust Christ to intimately love us . . . to sustain . . . to satisfy? According to our faith, be it unto us.</p>\n  <p>Amy Carmichael is an example of what I call a “lover” of Jesus. She loved Him on purpose, with the desire for sweet intimacy. She once penned some words that expose her heart’s longings: “You will, I believe and trust, become more and more in love with a crucified Saviour. He wants lovers. Oh how tepid is the love of so many who call themselves by His name. How tepid is our own - my own - in comparison with the lava fires of His eternal love. I pray that you may be an ardent lover, the kind of lover who sets others on fire.” (Amy Carmichael, Candles in the Dark, pg. 107)</p>\n  <p>My heart’s deep desire is to be one of the Lord’s true lovers, like the Apostle John, and like Mary, who sat at His feet. Not only do I want to be close to Him, but I want my life to cause others to pursue after Him. I would like to be that kind of ardent lover who sets others on fire. I’m trusting the Lord to make me such, to continue the work He’s begun. I have hopes of the Lord saying to me once He calls me Home: “thy love to me was wonderful.” (2 Sam. 1:26)</p>\n  <h2>In Conclusion . . .</h2>\n  <p>It is thrilling to think about the purity and vibrancy of a young woman who is emotionally free. In love with Jesus and satisfied in Him, her radiant joy is contagious. She carries the fragrance of Christ that draws others to seek after Him. But we know that such a beautiful testimony is not attained by wishful thinking. It begins with choices to walk in freedom, to surrender desires for marriage, to love the Lord with all our hearts, and to believe that Christ is totally capable to meet our needs.</p>\n  <p>I wonder how many of you will make these choices. Will you choose emotional freedom? Which of you, one year from now, will have the testimony of being true lovers of Jesus? Will you know the fullness of joy that is found in His sweet Presence? How many of you will you hear Him say “thy love to me was wonderful?” The choice is yours. Clearly, it’s a choice that holds untold impact on lives beyond your own. The world around you will know, sooner or later, the choice you made.</p>\n  <p>I hope and pray that you will follow the Shepherd to the “high places” of His love. . . to the abundant life of joy and freedom. His love is like an inexhaustible sea, and His promises are sure enough to carry us through. We only need to take one day at a time. With restful confidence in the One Who leads . . . let us enjoy the journey.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a"
+}

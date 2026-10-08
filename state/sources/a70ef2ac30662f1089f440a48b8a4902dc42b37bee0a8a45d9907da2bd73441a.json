@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Judith Yoder",
+          "role": null
+        }
+      ],
+      "raw": "—Judith Yoder"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "2678f630-bcec-45a4-9588-0cc69f70de4e",
+    "images": [],
+    "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "In Pursuit of Virtue",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "48099ba38bb722734f80b46634f18a0f66d4ef095462e8f30c1217a225180d38",
+    "metadata_sha256": "25dec1a2a9df640d87560ffb2ea48fde55504873dbe50a5cb2b74236b913d3cc",
+    "structure_sha256": "9b7eb74593c0192fe6ec9c0da6eb8b6e50e906b3a3d14c4f6d940dc0d0e0254e",
+    "text_sha256": "809f1f92c99ddc9e4b7455050a80ba72f3ab87346ff3a98cc033ed823dc6e296",
+    "translation_metadata_sha256": "501273bc179451fcc3cd13ce4f550bdea069ce80e46367c69c80d469c952926b"
+  },
+  "html": "<article data-article-id=\"2678f630-bcec-45a4-9588-0cc69f70de4e\">\n  <p class=\"poem\">What is a virtuous woman?<br>\n  Indeed,<br>\n  that is an intensely momentous question.<br>\n  For how can we attain that which we cannot define?<br>\n  After sundry attempts to attain the ultimate,<br>\n  a conclusion has been reached.<br>\n  A virtuous woman<br>\n  exudes an aura of quietness and confidence<br>\n  even in the midst of direly vexatious circumstances,<br>\n  because she knows she is in God’s perfect will.<br>\n  She is not afraid to stand<br>\n  alone<br>\n  or to be<br>\n  “different”<br>\n  if it glorifies God.<br>\n  She does not heap up for herself<br>\n  the tawdry tinsel<br>\n  of this world,<br>\n  nor help others build empires to self.<br>\n  She realizes that there is a time to speak<br>\n  and a time to be silent,<br>\n  and is not found guilty of empty babblings.<br>\n  She will not plague people<br>\n  with long-winded eulogies of her accomplishments,<br>\n  aspirations,<br>\n  antiques,<br>\n  figments of her imagination,<br>\n  or grousing about her illnesses.<br>\n  She whines not, neither does she flirt.<br>\n  Her wisdom is boundless,<br>\n  her tact and endurance indeed astounding,<br>\n  and your likelihood of meeting her is virtually nil.</p>\n\n  <p class=\"poem\">Why?<br>\n  Because we have slipped into a<br>\n  mindless,<br>\n  spineless<br>\n  torpor.<br>\n  We have become quite imbalanced.<br>\n  One extreme<br>\n  is completely mealy and wobbly-souled,<br>\n  the other,<br>\n  odiously brazen.<br>\n  We are in dire need of young women who will abstain<br>\n  from being bedizened slaves to fashion and public opinion<br>\n  and rise to resolute maturity.<br>\n  Let us be totally dedicated to seeking God.</p>\n\n  <p class=\"poem\">For only in seeking Him<br>\n  Is true virtue and equilibrium found.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "74f1764fec56c590950858b463c7d0394232ee7463e41b5b39a8a2698088922d"
+}

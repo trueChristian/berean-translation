@@ -1,0 +1,102 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "94dddad2-cc75-5292-86c4-8f450af98ad4"
+    },
+    "id": "d6ce18ae-ec67-4637-9a0c-2221d588d26a",
+    "images": [
+      {
+        "alt": "Judgment scene above flames.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d6ce18ae-ec67-4637-9a0c-2221d588d26a-1.jpg",
+        "repository_path": "public/images/articles/d6ce18ae-ec67-4637-9a0c-2221d588d26a-1.jpg",
+        "rights_note": "Original PDF image object 26 on page 7 was the sole grayscale raster and contained the title, white reading panel/border and flat flame treatment. The separately painted body and page furniture were omitted during extraction. The requested edit now removes the flattened overlays as well. On 2026-10-01 the project owner explicitly requested removal of this image’s text and overlays in PR #83. The built-in image editing tool reconstructed obscured areas while retaining the full composition and original output dimensions. This is an authorized AI-edited derivative, not exact recovery of hidden PDF pixels; fine details and textures may differ from the source. No image-specific credit or reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying which images; no individual attribution or licence is inferred.",
+        "role": "article background",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "authorized_edit": {
+            "authorization": "Project owner explicitly requested text and overlay removal from this canonical image in PR #83.",
+            "date": "2026-10-01",
+            "pixel_fidelity": "AI reconstruction; not exact recovery of the pixels hidden by the flattened overlays.",
+            "prompt_summary": "Remove all lettering, translucent reading panels and borders; preserve the full composition, aspect ratio, natural scene and framing. Reconstruct obscured details. No crop or new typography. Remove the flat decorative flame band while retaining coherent illustrated fire.",
+            "tool": "built-in image_gen"
+          },
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "User-authorized built-in image editing removes the flattened text and layout panels from the original export and reconstructs the obscured picture. The complete generated composition is resampled without cropping to the existing dimensions and encoded as a baseline RGB/sRGB JPEG, quality 94, nonzero 72 dpi density. Original PDF object dimensions and crop remain recorded as source provenance.",
+          "omitted_layout_overlays": [
+            "separate article body",
+            "page furniture"
+          ],
+          "output_dimensions": [
+            504,
+            681
+          ],
+          "removed_flattened_overlays": [
+            "baked article title",
+            "baked translucent reading panel and border",
+            "baked flame treatment"
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            504,
+            681
+          ],
+          "source_object": 26,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "The updated JPEG was fully decoded, painted and read back with Skia Canvas (@napi-rs/canvas); the rendered output was opened and visually checked for clean edges, colours, complete composition and absence of typography/panels.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "Two AI readers independently opened both corrected final JPEGs and compared them with their original exports: all title/byline text, rectangular panels and borders are removed, the complete compositions and original dimensions remain, and no cropping, corruption or truncation is visible. The judgment image’s flat lower flame overlay is replaced by coherent illustrated fire. Reconstructed areas and fine detail are explicitly treated as AI synthesis, not source-exact pixels.",
+          "overlay_audit": "verified_by_ai",
+          "source_fidelity_note": "On 2026-10-01 the project owner explicitly requested removal of this image’s text and overlays in PR #83. The built-in image editing tool reconstructed obscured areas while retaining the full composition and original output dimensions. This is an authorized AI-edited derivative, not exact recovery of hidden PDF pixels; fine details and textures may differ from the source.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e2fda69-4f9b-450f-815c-39c3200bb634",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "The Resurrection of the Unsaved",
+    "topics": [
+      "cfe7e1b2-e5b0-580a-99e2-182f58f55d41",
+      "71ed5d17-92f3-5075-9fe0-6c2605d6c813",
+      "3aa5d6ec-22d9-58a4-be87-97523a2d558f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "fe45f234be1e1f064c9f4ee6eeac1d2ac139623f59281ab7ef8c80c3e939b6f6",
+    "metadata_sha256": "3851b5cd1fa3964050e044ec1443d78d39b409ed994d9add313ad036d5bf6335",
+    "structure_sha256": "a132400041db703062b07b6c0a83108d02c661c4663fb738d1530642bdff251e",
+    "text_sha256": "1583c24bfa8fe3579941b3ed988c0cbab92d33a9a2b528654813503b20018336",
+    "translation_metadata_sha256": "86ea3641ce1cea3402676206d944619acbcbcac3cdbdd5ab9d61fcf0af929753"
+  },
+  "html": "<article data-article-id=\"d6ce18ae-ec67-4637-9a0c-2221d588d26a\">\n  <figure><img src=\"/images/articles/d6ce18ae-ec67-4637-9a0c-2221d588d26a-1.jpg\" alt=\"Judgment scene above flames.\"></figure>\n  <p>To you who are unsaved, the word “resurrection” has no music—when you hear that the body shall rise again—yes, that the soul and body shall live and Christ shall sit in judgment. Think not when your body is put into the soil you have done with it. You cannot cast away or set aside God’s own revelation—the Bible—which tells so clearly that small and great shall rise when the Archangel’s trump shall sound. Yes, then from the Church Yard, the Sea, and the Battle-field, thousands upon thousands who have slept, all will awake and be there, at that Great Judgment seat—that “great and terrible day—” as it is called. Unsaved Sinner, think what then will be your position—unless in life, you had claimed the Lord Jesus Christ as your Saviour. Then His words will come to mind:</p>\n  <blockquote>\n    <p>“Then shall they call upon me, but I will not answer; they shall seek me early, but they shall not find me: For that they hated knowledge, and did not choose the fear of the LORD: They would none of my counsel: they despised all my reproof. Therefore shall they eat of the fruit of their own way, and be filled with their own devices. For the turning away of the simple shall slay them, and the prosperity of fools shall destroy them. But whoso hearkeneth unto me shall dwell safely, and shall be quiet from fear of evil.”<br>Proverbs 1:28-33</p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e806186ec961ff32e62dbfd39e83018940b423939ccd23e1f8bbb9d908b38201"
+}

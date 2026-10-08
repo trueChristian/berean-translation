@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Oscar C. Eliason"
+        }
+      ],
+      "raw": "Oscar C. Eliason"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "ba84cac6-413c-49f5-a229-d74ed4913f69",
+    "images": [
+      {
+        "alt": "Bright yellow and orange flames against a dark background.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/ba84cac6-413c-49f5-a229-d74ed4913f69-1.jpg",
+        "repository_path": "public/images/articles/ba84cac6-413c-49f5-a229-d74ed4913f69-1.jpg",
+        "rights_note": "Page 2 Photo Credits identifies © Adobe Stock Images for page 7. No separate permission requirement or licence is stated. Poem text, title, byline and rule are baked into the upper source raster. A meaningful unobstructed crop of the full-width lower flames excludes all publisher typography and preserves the principal continuous fire band; the upper dark field and isolated upper tongues are outside this crop. No hidden pixels reconstructed. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1650,
+            1644,
+            2128
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            1644,
+            478
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1644,
+            2128
+          ],
+          "source_object": 35
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "A Voice from Hell",
+    "topics": [
+      "3aa5d6ec-22d9-58a4-be87-97523a2d558f",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a398fc549998f5e12bf7c7212a63a252b27e2362922f8ddd2aa233a5c521b35d",
+    "metadata_sha256": "9eb82d30e79132aada020f9e7ab494da2d8fed171c1da453378cfdb5138d3793",
+    "structure_sha256": "a46a6bbc6c41ddcf85622aa741c307069b5006ffcc8ff919ebfd788898f76229",
+    "text_sha256": "4c83167fe93c464c58455ea1e92d90aab186567b2d42ab606c067de91b2b8efc",
+    "translation_metadata_sha256": "c3a00f14f9408563731ae65c221bd7ecd6c69fd81ee7d1d6da3a672fff2d54ad"
+  },
+  "html": "<article data-article-id=\"ba84cac6-413c-49f5-a229-d74ed4913f69\">\n  <p class=\"poem\">Oh, why am I here in this place of unrest<br />\nWhen others have entered the land of the blest?<br />\nGod’s way of salvation was preached unto men;<br />\nI heard it and heard it, again and again.</p>\n  <p class=\"poem\">Why did I not listen and turn from my sin<br />\nAnd open my heart and let Jesus come in?<br />\nFor vain earthly pleasures my soul did I sell<br />\nThe way I had chosen has brought me to hell.</p>\n  <p class=\"poem\">I wish I were dreaming, but ah, it is true.<br />\nThe way to be saved I had heard and I knew;<br />\nMy time on the earth, oh, so quickly fled by,<br />\nHow little I thought of the day I would die.</p>\n  <p class=\"poem\">When God’s Holy Spirit was pleading with me,<br />\nI hardened my heart and I turned from His plea.<br />\nThe way that was sinful, the path that was wide,<br />\nI chose and I walked till the time that I died.</p>\n  <p class=\"poem\">Eternally now, I must dwell in this place.<br />\nIf I from my memory could but erase<br />\nThe thoughts of my past which are haunting me so.<br />\nOh, where is a refuge to which I can go?</p>\n  <p class=\"poem\">This torture and suff’ring, how long can I stand?<br />\nFor Satan and demons this only was planned.<br />\nGod’s refuge is Jesus, the One that I spurned;<br />\nHe offered salvation, but from Him I turned.</p>\n  <p class=\"poem\">My brothers and sisters I wish I could warn.<br />\nFar better ‘twould be if I had not been born.<br />\nThe price I must pay is too horrid to tell<br />\nMy life without God led directly to Hell.</p>\n  <p class=\"poem\">Oh, soul without Christ, will these words be your cry?<br />\nGod’s Word so declares it that all men must die.<br />\nFrom hell and its terrors, Oh, flee while you may!<br />\nSo, come to the Saviour; He’ll save you today!</p>\n  <figure><img src=\"/images/articles/ba84cac6-413c-49f5-a229-d74ed4913f69-1.jpg\" alt=\"Bright yellow and orange flames against a dark background.\" /></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "8f0bb74bb929e6159c238175c53723174db14e4ebfcabf6b47ae67c643d6b81e"
+}

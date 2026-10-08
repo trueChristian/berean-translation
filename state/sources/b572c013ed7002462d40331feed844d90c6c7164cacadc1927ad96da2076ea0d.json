@@ -1,0 +1,44 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Andrew Weaver"
+        }
+      ],
+      "raw": "by Andrew Weaver"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "df9d7334-d576-4ae3-9604-e644fe082d73",
+    "images": [],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 30
+    },
+    "subtitle": "by Edwin & Lillian Harvey",
+    "title": "Royal Insignia",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e49745a01426c3f3209877c30d836b16e92d9d4879ad604f98c4e792a96bc47d",
+    "metadata_sha256": "b1a6986a979391713a36fecba07d0488a9dd382886d6a2f1613ad2e3c61bff62",
+    "structure_sha256": "d65161bdb05436019c10fc613e3b22b57189ee8ac01753e3f3c19e46d77bb5e9",
+    "text_sha256": "7e02c3ee04c2509f5935adb47238fbaf854e3ca369a8bed56ede7ed88af5a59a",
+    "translation_metadata_sha256": "65458df3bd21ec4c06d05ac7b76564f445faf8b40b2dcec84e32a2abbca65cca"
+  },
+  "html": "<article data-article-id=\"df9d7334-d576-4ae3-9604-e644fe082d73\">\n<p><em>Royal Insignia</em> is the fruit of twenty years of gathering little gems from the writings and sermons of almost two hundred different people, most of them very godly men and women. These gems have been compiled into ninety-eight readings of two pages each on the subject of humility. <em>Royal Insignia</em> represents widely varied walks of life, periods of history, and persuasions of doctrine. The writers’ common bond is their insight into the diabolical nature of pride and the heavenly beauty of humility.</p>\n  <p>The authors explain the book’s title like this: <em>Man, God’s highest creation, fell by pride, which has henceforth become the insignia of the kingdom of this world. Read any advertisment; listen to the media, and you will immediately recognize the insignia of the serpent. If this be true, then every born again child of God ought to wear the insignia of Christ in His humility, meekness, and lowliness.</em> Elsewhere they invite the reader to…<em>read how others have traveled this journey of descent. As they descended they discovered wings with which to soar into the heavenlies with Christ Jesus.</em></p>\n  <p>Some of the first chapters of <em>Royal Insignia</em> take an unvarnished look at the route we must travel as we ‘descend up’ to God, Whose lofty habitation is with the lowly. <em>It isn’t the big shot, the big man that God wants- it’s the broken man. God uses the man whom he has crushed until he is nothing but a doormat for people to walk on in order that they might come to Jesus.</em> A quote from another person describes it thus: <em>Faith is dependence upon God. And this God-dependence only begins when self-dependence ends. And self-dependence only comes to its end, with some of us, when sorrow, suffering, affliction, broken plans and hopes bring us to that place of self-helplessness and defeat.</em></p>\n  <p>Another chapter shows the great contrast between the carnal mind and God’s mind as each interprets the circumstances of our lives. <em>Blessed day, when those things in which we trusted are snatched from us. We call it tragedy, God calls it blessedness…Blessed bereavement which casts me for companionship upon Jesus. Blessed bankruptcy which causes me to rest on Eternal Resources instead of the riches that have wings and fly away. Blessed ill health that flings me upon the mighty virtue and healing that comes from Jesus, the Great Physician. Blessed failure in my ministry which at last reveals to me that my own efforts are unavailing and my best works ephemeral. Blessed collapse of all self-confidence, for I now have the all-sufficient One, Who came to be my life, my wisdom, my sanctification, my redemption, and most of all, my righteousness.</em></p>\n  <p>A chapter entitled “The God-Blinded Soul” includes these challenging words: <em>Humility does not rest, in final count, upon bafflement and discouragement and self-disgust at our shabby lives, a browbeaten, dog-slinking attitude. It rests upon the disclosure of the consummate wonder of God, upon finding that only God counts, that all our own self-originated intentions are works of straw…But the blinding God blots out this self and gives humility and true selfhood as wholly full of Him. For as He gives obedience so He graciously gives us what measure of humility we will accept. Even that is not our own, but His Who also gives obedience.</em></p>\n  <p>Another chapter emphasizes that both boasting and belittling of oneself are rooted in pride and preoccupation with self. <em>Boasting is an evidence that we are pleased with self, and belittling that we are disappointed in it. Either way we reveal that we have a high opinion of ourselves. The belittler is chagrined that one as obviously superior as he should not have done better, and he punishes himself by making uncomplimentary remarks about himself. That he does not really mean what he says may be proved quite easily. Let someone else say the same things. His eager defense of himself will reveal how he feels and has secretly felt all the time.</em></p>\n  <p>Little children, with their utter lack of self-consciousness, often provide us with our best examples of unfeigned humility. A group of children once formed a club and the first rule they agreed upon expresses this truth with profound simplicity: <em>Nobody act big, nobody act small, everybody act medium.</em> They understood the hypocrisy of faked humility and proved once again that God’s deep truths are hidden from the wise of this world and revealed unto babes.</p>\n  <p>Since this book is composed of ninety-eight separate readings, there is no need to read it from cover to cover to receive the challenge of its message. In fact, it is one that you will probably find yourself opening at random, reading a page or two, and then pondering deeply. We trust that God can use this book to lead you into the true humility in which you are unaware that your life is adorned with the <em>Royal Insignia.</em></p>\n  <aside>\n    <p>This book is available<br>from the publisher:</p>\n    <p><strong>Harvey Christian Publishers</strong><br>3107 Hwy 321 • Hampton, TN 37658 USA</p>\n    <p>(423) 768-2297</p>\n  </aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3610096e75e5c07b48bd8034fd884d378af5594340db6b13c7e98171dd6a82ee"
+}

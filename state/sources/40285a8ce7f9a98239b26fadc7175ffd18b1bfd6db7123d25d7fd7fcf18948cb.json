@@ -1,0 +1,136 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Janelle Zimmerman",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Jeremy Martin",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Samuel Kenaston",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Jennifer Brown",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Jeff Barker",
+          "role": null
+        }
+      ],
+      "raw": "Janelle Zimmerman\nJeremy Martin\nSamuel Kenaston\nJennifer Brown\nJeff Barker"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9",
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "a538a70d-4b18-426c-814b-809502feaa44",
+    "images": [
+      {
+        "alt": "Janelle Zimmerman standing with a child outdoors.",
+        "caption": "Janelle Zimmerman",
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-1.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-1.jpg",
+        "rights_note": "Clean base PDF image object 55; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [1, 1, 139, 191]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 17
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-2.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-2.jpg",
+        "rights_note": "Clean base PDF image object 155; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Native dimensions retained. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed. Repeated identical placements on page 18 and twice on page 19 are represented once from page 17.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 17
+      },
+      {
+        "alt": "Jeremy Martin with three children outdoors.",
+        "caption": "Jeremy Martin",
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-3.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-3.jpg",
+        "rights_note": "Clean base PDF image object 59; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Rotated 90 degrees clockwise to match the printed orientation. Published rectangular clip mapped to nearest native pixel bounds [1, 0, 180, 176] after rotation. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 18
+      },
+      {
+        "alt": "A young man holding a microphone on a bus.",
+        "caption": "Samuel Keaston\nLeading singing on the LCM bus\nwhile picking up and taking home\nthe children",
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-4.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-4.jpg",
+        "rights_note": "Clean base PDF image object 60; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [1, 1, 172, 221]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 4,
+        "source_page": 18
+      },
+      {
+        "alt": "Jennifer Brown with children.",
+        "caption": "Jennifer Brown",
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-5.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-5.jpg",
+        "rights_note": "Clean base PDF image object 64; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [1, 1, 130, 262]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 5,
+        "source_page": 19
+      },
+      {
+        "alt": "Jeff Barker standing beside a hammock with a bus in the background.",
+        "caption": "Jeff Barker\nLCM bus in the background",
+        "credit": null,
+        "public_path": "/images/articles/a538a70d-4b18-426c-814b-809502feaa44-6.jpg",
+        "repository_path": "public/images/articles/a538a70d-4b18-426c-814b-809502feaa44-6.jpg",
+        "rights_note": "Clean base PDF image object 68; source RGB; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [1, 1, 220, 157]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 6,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Freedom Through Service",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "55947c5764b651f944787fa87ccfdf01931803d4e3c3b6e58636bcd7fdae5802",
+    "metadata_sha256": "d7167ee41e3eaea2ae59dabdfadd7cbae25b082211e2ccc8b7c20f54aff597f9",
+    "structure_sha256": "bee57b7cb8616da70e9b80632c4f0a79cffa5f2d3effb37f4e11e5c3dc6804b0",
+    "text_sha256": "e66660fd3d12680f5ba473280cc9b75fdd113a26b7bb3120581701cc66b21830",
+    "translation_metadata_sha256": "35d76254b5bc95aa4ef65d83ad288aeb77433baed9cedef2661d085b7af2ba02"
+  },
+  "html": "<article data-article-id=\"a538a70d-4b18-426c-814b-809502feaa44\">\n  <section class=\"introduction\">\n    <p><em>Welcome to </em>The Blessing Corner<em>. In this section of </em>The Remnant<em>, we plan to print testimonies of obedience and the blessings that follow when we choose to walk in God’s ways.</em></p>\n    <p><em>If you have a short testimony of blessing that would fit in this corner, we would love to hear from you. Articles like these encourage others to walk in obedience to the word of God. So let us edify one another.</em></p>\n    <p><em>Our hearts are warmed as we read the accounts of God’s blessings and training of these who, though timid, stepped out by faith. The principle that we are focusing on this month is one of the hardest for most to obey. Loving your neighbor, that is, the world full of people around you. This requires much selflessness, and much crucifixion of the flesh.</em></p>\n    <p><em>Man without God is basically a self-centered being. His basic motivation is focused on how he may please himself. His world is very small and in most cases has very little meaning. When a person turns to the Lord for salvation, he henceforth no longer lives unto himself, but unto Him who washed him in His own blood. This begins a process whereby God turns the focus of a life outward on a world around him. The Lord Jesus wants to live His life through us. For many Christians, this brings a tremendous struggle. Because of pride and insecurity, most hold back and never get involved. Common statements made by those who hold back are “I’m not ready, I’m not mature enough, I’m too shy.” We have learned through the years that most people, who fearfully wait for growth, never mature. Maturity comes quickly when we exercise ourselves by faith. If we step into the water, God will part the sea. Most Christians are joyfully surprised when they discover a living God leading them in their service for Him. Inspiration comes that they never experienced before. Wisdom, love, and faith spring up in their heart as they work with the needy around them. The following testimonies are examples of this mysterious blessing that comes when we chose to no longer live unto ourselves.</em></p>\n  </section>\n  <section class=\"testimony\">\n    <p>When I first started going Tuesday nights with the Lancaster Children’s Ministry, I had only planned on helping a few weeks, but God had other plans. It is now two and one-half years and God has really blessed and changed my life. After seeing so many broken homes that the children have, it has made me very grateful for the Christian home that God has placed me in. I realize that God has blessed me so I can bless others and not keep the blessings just for myself. It has caused me to stop and think about where I could be if I would be in their shoes. By going into the city it has given me a new perspective of what many people experience. God has been teaching me to trust Him and let His words flow through me and to love the ones difficult to love. It has stretched me many times to keep believing that God is still working in the lives of the children, especially after a night when you felt like you were talking to a wall. I also have to keep believing that the seed is being planted even though I don’t see any outward changes and to trust God for the results. I remember one night in particular when we were teaching on the evils behind Halloween. We felt like no one was really listening because the lights kept being turned off, making everyone scream, etc. The following week after Halloween we found out that at least one half of them decided not to wear their costumes and go trick or treating. Praise the Lord!</p>\n    <figure>\n      <img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-1.jpg\" alt=\"Janelle Zimmerman standing with a child outdoors.\">\n      <figcaption><strong>Janelle Zimmerman</strong></figcaption>\n    </figure>\n    <p>It has been such a blessing to build relationships with the children and also amazing how attached we can become. Some children we have only for a few nights and others for a year or more until they move, etc. It is disappointing when we don’t know what has happened to them or if we will ever see them again. It has been sobering to think that each one has a soul and will spend eternity in Heaven or Hell.</p>\n    <p>I especially enjoyed when the older girls opened up and asked many sincere questions. It is very stretching to try to answer their questions, but I have learned that God gives the right words at the right time when we allow Him to flow through us.</p>\n    <p>It was also very good for me to step out of “my own little world” and to get involved in the lives of others, including all of the fellow team workers. It has been an encouragement to see everyone work together and see the talents and gifts in each of them. I learned to appreciate and value their character as we work together in unity.</p>\n    <p>I praise God for what He has done and realize it is all because of Jesus that we have anything to give or any reason to love others. I am very humbled at Christ’s love for me and am grateful that God is not finished purifying me.</p>\n    <p><em>Rejoicing in Jesus!<br>Janelle Zimmerman</em></p>\n  </section>\n  <figure><img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-2.jpg\" alt=\"\"></figure>\n  <section class=\"testimony\">\n    <blockquote><p><em>“For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord.”<br>Isaiah 55:8</em></p></blockquote>\n    <p>I have found this verse very true in my life over the past few years. A few years ago God placed a burden on my heart for the lost, and a desire to reach out to them. The question was, “Where and how, Lord?” After some time of seeking God and seeing my own drawing to children, I decided to visit the Lancaster Children’s Ministry on a Tuesday night. Well, the children stole my heart from the first night out. I jumped into a very big class that needed a few more workers to maintain order. The first night, I was given the job of taking disobedient children home. I was very comfortable with this job, and through it I began to see into their hearts. I saw that these bad children were crying for love and attention. I began to learn to pour the love of God upon them and hear their woes in those short trips to their houses. As time went on God started taking me out of my comfort zone. The ministry was growing greatly and changes were taking place. The class in which I was helping was losing two of the key teachers. I was asked to take one of the teaching positions. I had not had much teaching experience up till this time. I not only received more responsibility with teaching, I was also asked to be the leader of the class. Wow! Changes!! Oh, the growth that has come from this stretching opportunity.</p>\n    <p>There were a few things God started teaching me through this time. One was that if I was to be a leader of a group I needed to be fully under the authorities in my life. This was something that I was struggling with at that point. God really drove the need and importance of this deeply into my heart. I also began to see as never before, how I need to depend wholly on God. I needed something to give to these children. There were decisions that needed to be made, and I didn’t have the answers. I thought I was a pretty good Christian, but God began to show me there is nothing good in me.</p>\n    <p>I also learned that being a leader was more then giving direction, but also being sensitive to the other teachers in our group, hearing their suggestions, struggles, and being an encouragement to them.</p>\n    <p>The LCM had become a very real part of my life, almost to the place where I thought I could never leave it. God, in His sovereign ways, allowed circumstances to happen that brought me to the place where I was willing to quit. I thought I <strong>was</strong> leaving, then it was like God said, “No, I want you to stay.” Once God saw I was willing to go, He said, “Wait, you are to STAY.” The direction was so clear. I have not doubted it since. This is where God wants me for now. Through this time He also showed me that His white harvest fields are much larger than the children of Lancaster. I am very content where God has me till He further leads.</p>\n    <figure>\n      <img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-3.jpg\" alt=\"Jeremy Martin with three children outdoors.\">\n      <figcaption><strong>Jeremy Martin</strong></figcaption>\n    </figure>\n    <p>At the end here, I want to thank God for His wondrous ways of teaching, reproving, and growing us up. He has blessed me in all these ways through the Lancaster Children’s Ministry.</p>\n    <p><em>Jeremy Martin</em></p>\n  </section>\n  <section class=\"testimony\">\n    <p>It was about four years ago that I started going into Lancaster to be a part of the children’s ministry. I thought it would be good to be involved in an outreach effort, and since my older siblings were already involved in LCM I automatically started tagging along with them. In the beginning I basically helped out wherever I was needed and learned a lot as I watched others interact with the families. God began a work in my own life as I witnessed the circumstances that the children lived under. Most were on welfare and about 95% of the homes were fatherless. The first impression this made was to bring about a real gratefulness in my heart for the many blessings that have been mine since birth just because of where we live, who my parents are, the life choices they’ve made, and the influences that I was spared from being exposed to growing up.</p>\n    <p>After I saw where their lives were heading, to be without God, it began to give me a vision of what God wanted to do for them and that He could use ME to help fulfill His purposes for them. This vision started a cycle that generated overall purpose in every area of my life as I began to come out of myself to reach out to them. I am more quiet by nature and sort of wondered how God could use ME. It has been a tremendous growing experience as the Lord has given me more responsibility little by little. As He has revealed the children’s needs, it has driven me to take action. God has guided me to quit looking inward and open my eyes and heart to the eternal destiny of these we are working with. In this way I am getting a taste of His heart towards the needs of the city children, and am realizing that we have an awesome responsibility to minister to these whom He already spilt His very blood for. I don’t ever want to let go of the gripping fact that He uses human flesh to carry His word to these souls. “He has no hands but our hands, He has no feet but our feet, He has no mouth but our mouth.” I am seeing that as I obey the commands of Christ, He is using the outreach of that obedience to influence every area of my life.</p>\n    <p>When we get falsely accused or have to endure hot tempers and fighting, it can sometimes cause us to temporarily question our usefulness in reaching the children. Then we catch a glimpse of some of them being around the throne saying, “Glory and honor and blessing be unto the Lamb forever and ever,” and every little trial fades in the background and the Lord renews our strength and directs our paths again. I am so thankful for this opportunity and am pleasantly surprised by the fruit and growth He is working in my life as a result of being involved in LCM.</p>\n    <figure>\n      <img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-4.jpg\" alt=\"A young man holding a microphone on a bus.\">\n      <figcaption><strong>Samuel Keaston</strong><br><strong><em>Leading singing on the LCM bus<br>while picking up and taking home<br>the children</em></strong></figcaption>\n    </figure>\n    <p><em>Samuel Kenaston</em></p>\n  </section>\n  <section class=\"testimony\">\n    <p>I well remember the first time I heard about Lancaster Children’s Ministry. We were living in California at the time, and just beginning our walk as a sanctified Christian family, leaving behind the worldly church we used to attend. Something about this ministry stuck in my heart, and though not really thinking it would happen, I said to myself, “If we ever move to Pennsylvania, I want to be a part of Lancaster Children’s Ministry!”</p>\n    <p>Following God’s leading, we moved out here a little more than a year later, and I have been involved in Children’s Ministry ever since! Has LCM changed my life? Oh, yes it has! I jumped into it, hoping to be a blessing to some needy children, never realizing the wealth of lessons God wanted to teach me through it. I have been stretched in ways I had never imagined!</p>\n    <p>It became very obvious right from the start that when you walk into the lives of those children, you are entering another culture! A culture filled with depravity, anger, pain, and very little love. I saw right away that what these children need above all else is the love of Christ. Yes, we know and do teach the consequences for sin, but more then anything, we seek to share the love of Christ with these hungry, love-starved children. What an adventurous path this goal has taken us down! I started out as one afraid to share my faith, and now look for every opportunity to lift up Christ to these children. Yes, there are times that I would rather keep quiet and let someone else speak up, but I do know that I am more willing to share than I have ever been.</p>\n    <figure>\n      <img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-5.jpg\" alt=\"Jennifer Brown with children.\">\n      <figcaption><strong>Jennifer Brown</strong></figcaption>\n    </figure>\n    <p>I have also seen time and time again, the power of prayer. We begin every evening pouring out our hearts to God, begging for a spirit of peace, for soft hearts, for patience in trials, and He has given it. He may see fit not to give us a peaceful night, but in those times, He always provides a double measure of grace and patience if we will but call upon Him.</p>\n    <p>I have been a part of LCM for two and a half years, and yet each Tuesday night is like a new adventure to me. I love this ministry, and am so thankful that God has given me the opportunity to serve Him in this way!</p>\n    <p><em>Jennifer Brown</em></p>\n  </section>\n  <section class=\"testimony\">\n    <p>As I look back over the last seven years, it is amazing to see how God changed me from a selfish, critical person to one who cares for others, and one who supports my ministers. I find great joy in serving God in the church that once I was critical of. How did this happen? Let me share my testimony. Pro. 19:20-21 says, “HEAR counsel, and receive instruction, that thou mayest be wise in thy latter end. There are many DEVICES in a man’s HEART; nevertheless the counsel of the Lord, that shall stand.”</p>\n    <p>These are good words, very good words; but for a man with a closed heart, my “hearing” as mentioned in verse 20 was only that of my own “devices” coming from my selfish “heart”. I started developing a critical spirit right after we moved from Connecticut to Pennsylvania (March 1994). The next two years were a very difficult time for my family and me. I was listening to counsel that pleased my own mind. This counsel usually spoke against the church and its authority. This opened me up to many destructive attitudes. Soon there was no longer any fruit in my life. My wife and I were at odds with each other. There was much stress in our family. I kept convincing myself I was right by pointing out the faults in others. It got so bad that we left the church for about six months. I used to tell myself that I’ll never go back.</p>\n    <p>During that time alone I felt the Lord speaking to me. He kept showing me my selfishness and my critical spirit. He gave me a vision of where my family was heading. It scared me. He was teaching me to look inward instead of outward. I kept arguing with the Lord, pointed out everybody’s faults, pointing out what I thought to be error in doctrine, and in teaching. I’m not good at dates, and I’m not sure of the chronological order of events but God finally got through this stony heart of mine and showed me clearly I was the one in error and sin. I confessed it all to God and asked His forgiveness.</p>\n    <p>We decided to go back to church. Some time after that I felt the Lord telling me to confess my critical spirit to the whole church. I had never done anything like that before. I had heard many people get up at church and confess a sin or share a blessing, but I had no idea, absolutely no idea, the effect it would have on me. I stood up a bit shaky and faced the congregation. With a sincere heart I confessed my sin to the people. As I did this, something changed inside of me. I soon started to see that they were not just people any more, they were brothers and sisters. The hard crust over my eyes was melting away, the “keep your distance attitude” I had was breaking down. Praise God, this was only the beginning. I started making friends at church and this brought more acceptance by them. God changed my heart, from one of being critical, to one who just wanted to be a faithful brother in the church.</p>\n    <p>At the same time that all of this was happening in my life, God created a desire in my heart to get involved in evangelism with my older boys. I had heard about the Lancaster (city) children’s ministry and decided to visit. It was perfect and I felt it was God’s will to be involved. My heart’s desire was to just be a servant there and do whatever needed to be done. We had been there about a year and I was asked by one of our pastors to lead this ministry. I could hardly believe what these ears were hearing. I was not looking for any kind of leadership position, I wasn’t even sure I wanted it, but OH how wonderful it felt knowing I could be trusted with a responsibility this big. I just thanked the Lord over and over for his forgiving me and now blessing me and my family.</p>\n    <p>It will soon be five years since I started in the children’s ministry. It has been such a rewarding and fulfilling experience for me personally. I often see it as a gift from God and a reminder of what God can do through a changed heart.</p>\n    <p>During this time of revival in my heart, my wife and three older sons went to Bill Gothard’s Basic seminar. There were many principles I saw much more clearly, but the principle of authority really gripped my heart. I can still see in my mind that umbrella of safety protecting me under my authority and the illustration of what can happen if I step out from under that umbrella; I would no longer be shielded from Satan’s darts. From that day forward I purposed in my heart to obey, honor and pray for my authority. Being in my late 30’s at the time, I know that I was a “late bloomer” on this principle. I didn’t really have parents to submit under (as would a child) or even an employer for that matter, but I did have church leaders. I had them to submit to. I can’t say it was always easy but I knew it was right. One thing that really helped me was to pray for them. It put them in my heart more often.</p>\n    <p>Jeff Barker</p>\n    <figure>\n      <img src=\"/images/articles/a538a70d-4b18-426c-814b-809502feaa44-6.jpg\" alt=\"Jeff Barker standing beside a hammock with a bus in the background.\">\n      <figcaption><strong>Jeff Barker</strong><br><strong><em>LCM bus in the background</em></strong></figcaption>\n    </figure>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "60e0bc80bfe09e9b5acb7a52646589a414d720f96d58e283f6fc61f16daded62"
+}

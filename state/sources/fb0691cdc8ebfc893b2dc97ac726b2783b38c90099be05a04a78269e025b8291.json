@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John J. Hostetler",
+          "role": null
+        }
+      ],
+      "raw": "John J. Hostetler"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+    "images": [],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "King of the Earth",
+    "topics": [
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357",
+      "c09be55d-9b4d-56ff-bde4-5d80920e74da",
+      "75cfe6ba-64d6-56fc-b41a-66e7189a18f3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b7cd8e57d879747ed906676aa830d86291c7e79671373a72594ee2b59e3a10a5",
+    "metadata_sha256": "e43d7f6477fe2deb3d32f2d897ab59a170a92be83d9d1c10a7bb93d0f4fde78e",
+    "structure_sha256": "67568c4d30d06a74ce3d3d2e7b8e73abd686e436ef05734382742a344b12bcc3",
+    "text_sha256": "ebcea09e4a9b330e359ed3d30f7f167d837103822d20e1f6c04a00abf5fb4af5",
+    "translation_metadata_sha256": "43fa89bc2255dc249f284c73494c8d06823cff8b7fabaa0caeb1a6eeb27b5c12"
+  },
+  "html": "<article data-article-id=\"924514c7-52be-4e2b-ab75-3141e14ea9a0\">\n  <p class=\"drop-cap\">Some time ago, while traveling through Virginia, I picked up a copy of “The Roanoke Times,” with a picture of Moammar Gadhafi on the cover. They quoted him as saying, “I am a fighter, a revolutionary from the tents. I will die as a martyr at the end.” Who would not, if a regime of forty years duration was being threatened? We see the same thing many times throughout history, kings and emperors using all the means at their disposal to keep from losing their power, some even sacrificing the lives of millions of faithful followers.</p>\n\n  <p>These earthly kingdoms, and how they function, caused me to think of another kingdom (and ruler) whose boundaries are not drawn on the globe. This tyrant sways his scepter over kings, presidents, the wealthy, and peasants alike; few are the individuals who will not bow at his shrines. This ruler denies his people nothing, yet all his followers are never truly happy (actually, most are quite miserable), and in the end will all be destroyed. I hear you say, “That must be the devil you’re talking about.” No, his name is not Satan, though the devil is his counselor.</p>\n\n  <p>His name is Self! He lives in human hearts. Some of his attributes are: self-will, self-preservation, self-praise, self-pity, self-conceit, and self-love, to name a few. In fact, my dictionary devotes almost a whole page to the various forms that self takes to retain its self-respect. Looking at the list, we can find a few that are good, but always as an antidote to Self itself. Self-denial is commendable, as long as it is practiced without self-consciousness. Self-abasement can be a form of pride that is often mistaken as a good thing. Someone comments on the good job you’ve done, and you say, “Oh, it’s not that good,” while you feel self-satisfaction rising in your heart because someone noticed. On the other hand, when someone criticizes your efforts, self-vindication and self-excusing rise in self-defense.</p>\n\n  <p>In total contrast to all these machinations of Self and the self-life, our Savior began His sojourn among men in a lowly stable. Soon after, His parents, fearing that Herod (another selfish despot) would kill Him, fled into Egypt. From there they returned to live in the lowly town of Nazareth. This son of a carpenter was not born into the ranks of the nobility or ruling party of His time, but into that of the disadvantaged. “Is not this Joseph’s son; are not his mother and brethren with us?”</p>\n\n  <p>As He walked among men, He displayed true selflessness; no self-exaltation could be detected. The words that He spoke in Matthew 11:28-29 (Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls) were not born of self-importance. They came from a desire that men might cease to follow their selfish ways and be born anew into the kingdom of God, where Self must die, being crucified in those who have died with Him. ~</p>\n\n  <p class=\"source-note\">(Taken from the April, 2011 issue of <em>Love of the Truth</em>.)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc"
+}

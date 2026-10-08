@@ -1,0 +1,98 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Denny Kenaston"
+        }
+      ],
+      "raw": "by Denny Kenaston"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "33eddcb3-60ad-4f27-bdd7-c0920599dde8",
+    "images": [
+      {
+        "alt": "The sun above a distant horizon",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-1.jpg",
+        "repository_path": "public/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-1.jpg",
+        "rights_note": "PDF image object xref 14. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Source-pixel crop [150, 350, 1050, 548]. Title, byline, part label, sermon note, edge fade and bottom shadow are irreversibly flattened into xref 14. This unobstructed source-pixel panorama crop keeps the sun and horizon without those treatments. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 3
+      },
+      {
+        "alt": "A robed man speaking to a gathered crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-2.jpg",
+        "repository_path": "public/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-2.jpg",
+        "rights_note": "PDF image object xref 15. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred.  Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 3
+      },
+      {
+        "alt": "A group of men gathered in a room",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-3.png",
+        "repository_path": "public/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-3.png",
+        "rights_note": "PDF image object xref 19. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred.  Lossless RGB PNG; retained source pixels and dimensions preserved.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 4
+      },
+      {
+        "alt": "A man speaking before a seated gathering",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-4.jpg",
+        "repository_path": "public/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-4.jpg",
+        "rights_note": "PDF image object xref 23. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred.  Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 5
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": {
+      "id": "aedd8c12-7ba7-4a54-ab4d-5c4c8b7b4eb6",
+      "part": 1,
+      "total_parts": null
+    },
+    "source_pages": {
+      "end": 6,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Baptism of the Holy Ghost & New Testament Reality",
+    "topics": [
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d",
+      "d695a1e9-84d6-5617-8f2f-3a2c81b2eb89",
+      "3b69fdad-e957-5e8b-a946-db683c653271"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b3f146c55336fa07490be9a5534aa4361e2131bda35eafac6860adae3f01523a",
+    "metadata_sha256": "d7128405d6289ea0780cc1c0aa1452a25b9f6a6428f5037e6bba9a02ae94bbbf",
+    "structure_sha256": "84d128319f1914a8e48fa6001da10800214f799a8de40665e5e64f24253f117d",
+    "text_sha256": "6435afeb67c3395f6b0ee3f72e455a4c4e35740e4e06dfc2be240a09a5ac3f73",
+    "translation_metadata_sha256": "e5665ab1a3e62597cd1f58c59155e23d3446437757372232958cca727c929010"
+  },
+  "html": "<article data-article-id=\"33eddcb3-60ad-4f27-bdd7-c0920599dde8\">\n<figure>\n  <img src=\"/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-1.jpg\" alt=\"The sun above a distant horizon\">\n</figure>\n<p><em>Sermon transcription from Leadership Seminar 2002</em></p>\n<p class=\"drop-cap\">I don’t know, maybe this week is like what Ezekiel was talking about there back in the Old Testament. Remember when he talked about this river flowing out from under the throne of heaven? And he went so far and he was in to his ankles, and then he went so far and he was in up to knees, and then he went so far and he was in up to his waist, and then he was swimming! Do it, Lord, do it.</p>\n<p>Let’s stand for a word of prayer. Can we do that?</p>\n<blockquote><p><em>Lord we love you this morning. We come to you in Jesus’ name. We thank you for loving us. We don’t really understand it, but we thank you that you do, you love us. Father, we come to you this morning because we have no where else to go. We come to you this morning because we don’t have anything to say. If you don’t give us something to say, Lord, we know. We come to you this morning because without you we can do nothing, and so we pray that you will again this morning, and throughout the day, anoint this day with your presence. Anoint this preacher with your anointing, Lord, with your message for the day. Anoint the ears of our heart, Lord, the eyes of our understanding this day. We pray in Jesus’ name, Amen.</em></p></blockquote>\n<p>This morning I want to speak on the Baptism of the Holy Ghost, and New Testament reality. What is the effect of the anointing of the Holy Ghost in a believer’s life? The prophet Samuel was speaking prophetically to Saul during the time he was to be anointed king. He said these words to Saul. He said, <em>“The Spirit of the Lord will come upon thee, and thou shall prophesy and shall be turned into another man.”</em> That’s powerful. The Spirit of the Lord is going to come upon you, Saul, and you will prophesy, and you shall be turned into another man. That puts the whole thing in a nutshell, doesn’t it? The one hundred and twenty in the upper room, and the apostles, I’m sure that they could say those very words. <em>‘When the day of Pentecost was fully come, the Spirit of the Lord came upon us, and we prophesied and we were turned into another man’</em>.</p>\n<figure>\n  <img src=\"/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-2.jpg\" alt=\"A robed man speaking to a gathered crowd\">\n</figure>\n<p>Before that, they had dull apprehensions of the truth that Jesus was speaking to them. Before that, they had a weak vision, seeing very dimly the things that Christ was trying to describe to them that would happen in the future. Before that, they were a feeble bunch, with a feeble faith. Before that, they were weak in their brotherly love one for another, and their resolutions were short lived. They were fearful, they were doubters, they were running scared, and I think we could probably say just to describe just an overall description of them… I mean, they were very sincere. These were the men that had enough insight to see way beyond those Pharisees who knew their Bibles inside and out. They had enough insight to say, <em>‘We have found the Messiah’</em>. They were full of religious zeal. They were seeking the highest that they knew.</p>\n<p>They were not evil, wicked men, but they were moving in the natural rather than in the spiritual. I think that’s a good description. They had open hearts, they had found the Messiah, they had forsaken all, they treasured His word, but yet they moved in the realm of the natural so much of the time. That’s a good description of them.</p>\n<p>Maybe it’s a good description of us also. We are here, we love to be here, we love the Word, we’re exited about what’s happening here, but if we give an overall evaluation of our day-to-day life, we move in the natural, rather than the spiritual, most of the time. I mean, Peter was so bold when Christ began to prophesy to them, and tell them that He was going to go to the cross, and shed His blood, which would be the redemption of all mankind. Peter was so much in the natural and so out of tune in the spiritual that Christ had to say to him, <em>“Get thee behind me, Satan. Thou savorest not the things that be of God, but savorest the things that be of men.”</em></p>\n<p>They moved in the realm of the natural so much of the time, but after Pentecost, they were changed into another man. Peter was changed into another man after Pentecost. They began to move in the realm of the spirit. Their character was transformed. They were different men. Their words became quick and powerful, life changing words. Their words cut to the heart.</p>\n<figure>\n  <img src=\"/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-3.png\" alt=\"A group of men gathered in a room\">\n</figure>\n<p>Imagine, just a little bit with me this morning, the day after Pentecost. Yesterday was a busy day, Peter was busy all day long. There was a lot going on during the day of the Pentecost. I’m not sure how many people he baptized himself, but I’m sure when he laid his head down to go to sleep, at the end of that day, the day of Pentecost, he was very weary in body. He woke up the next morning, he heard the Lord speaking in him, <em>“Good morning, Peter.”</em> With the ears of his heart he heard the voice of His Saviour the Lord Jesus Christ who told him, <em>“He dwelleth with you, and shall be in you. I will not leave you comfortless, Peter. I will come to you.”</em> That was the day after Pentecost. Imagine when they all got together, and began to share,</p>\n<blockquote><p><em>“I’m just so different, I’m just so different!”<br>“I am, too! I mean the Lord is just speaking inside of my heart!”<br>“It’s that same way with me!”<br>“Oh, praise God, this is wonderful!”<br>“Yes, it is! I wonder what it all means?”<br>“I do too!”</em></p></blockquote>\n<p>You know those conversations went on the day after Pentecost. Maybe they dropped down on their knees together and started praying, <em>“Oh, Lord, now we understand what you were talking about, Lord! We don’t know what we’re doing. Lead us, oh God. Oh, please help us to know that to do. Give us your guidance Lord. Thank you that you didn’t leave us comfortless; you didn’t leave us as an orphan, but you did come to us”</em>.</p>\n<p>You know Him, he is with you, but He shall be in you. Now do you think that the Lord Jesus was giving those apostles a doctrinal teaching when He said those words to them, or do you think he was trying to help them to understand that they would have a totally different experience after that day? How many of you think he was giving him a doctrinal statement? [no one] Good.</p>\n<p>Now it is a doctrinal statement, don’t misunderstand me. It is a doctrinal statement, but that is not all it is. <em>“He dwelleth with you and He shall be in you. I will not leave you comfortless, I will come to you.”</em> Just picture that. He’s been with them for three and a half years. Every problem they had, they just went and said, <em>“Lord what should we do?”</em> It was all cared for. Every question they had, they just went to Him and said, <em>“Well Lord, we don’t understand this, could you explain it?”</em>, and He gave them the answer. Every situation that they faced: <em>“We have all of these people who need to eat, we don’t know what to do with them,”</em> He took care of it. But now they were standing on the Mount of Olives and he just disappeared out of their sight. But now it’s the day after Pentecost and they understand. He didn’t leave us comfortless.</p>\n<p>What is the effect of the anointing of the Holy Ghost in the life of the believers? That He, God, would raise up, by that anointing, holy people, with holy hearts, living holy lives, filled with holy character, who walk with a Holy God, and speak holy words, that are anointed by the Holy Spirit.</p>\n<p>Brethren, that is what the anointing of the Holy Ghost is all about. That is what it’s all about. That is what is in the longing heart of God for his people. God is an awesome, Holy God. One half-a-second glimpse of this Holy God that we’ve been talking about all week long… one half of a second glimpse of Him would bring every one of us down on our face in utter abandonment, and it’s the longing of the heart of God that His great name would be sanctified among the heathen by the way that His people move and live and act and speak in this world around us.</p>\n<figure>\n  <img src=\"/images/articles/33eddcb3-60ad-4f27-bdd7-c0920599dde8-4.jpg\" alt=\"A man speaking before a seated gathering\">\n</figure>\n<p>That’s the longing of his heart, and it was the joy that was set before the Lord Jesus as He despised the shame and endured the cross. Don’t you think for a minute, brethren, that Jesus went through all of that so that He could buy a one-way ticket to heaven for you and me. He didn’t go through all of that so that we could live our own selfish lives all of our days, and end up in glory for all of eternity after that. Brethren, that’s not what Jesus went to the cross for. He went to the cross that he might raise up, through the anointing that was poured out because of that cross, a holy people anointed with the holy ghost, speaking holy words!</p>\n<p>We all know that, that’s nothing new to us. That’s not a new revelation, but it’s good for us to consider again and again. To explain the whole plan of God in a very simple nutshell: <strong>that Anointing was given to make us like Jesus,</strong> and you can spend the rest of your life figuring out what all of that means—Amen!? To make us a chosen generation, a royal priesthood, a holy nation, a peculiar people that show forth the praises or the virtues of him who hat called us out of darkens and into His marvelous light. That is what the anointing of the Holy Spirit is all about, brethren, to cause us to glorify God; to cause us to love God with all of our heart and mind and soul and strength; to turn our hearts away from selfishness, to love your neighbors as yourself. This is what the anointing of the Holy Spirit is all about; that we henceforth no longer live unto ourselves but unto Him.</p>\n<p>As I see the baptism of the Holy Spirit I see a twofold purpose of the baptism of the Holy Spirit. Number one, to empower us to be New Testament Christians, emphasizing the “be”, and number two, to empower us to do exploits in building God’s kingdom while we are here upon this earth. That combination, brothers, is pretty powerful when you put the two together. To be New Testament Christians, doing exploits of kingdom building while we are here upon this earth, that is what the anointing is all about.</p>\n<p>Brethren, new covenant reality comes through, and by, the overwhelming presence of the living God coming upon us and abiding. Think about that. New covenant reality comes through, and by, our being overwhelmed by the presence of the living God and abiding in that Presence. That’s the only way it comes.</p>\n<p>Consider this morning Christ the Anointed One. I told you earlier this week that we would come back to that word. I want to consider Christ the Anointed One this morning. He is the mediator of the New Testament. He is the mediator of the new covenant. He through the anointing, mediates, dispenses, and gives forth the reality of the new covenant in our hearts and our lives. That’s where it comes from. He is the mediator. Just like this natural world we live in, there is a mediator of the will. When someone dies, there is an executor that has been appointed, that executor is the one who mediates the will to those who are written in the will. He dispenses to those the things that are written in the will, and the Lord Jesus Christ, the anointed one, he as mediator, gives that which was written in the will. He mediates the reality of the new covenant. Consider these words.</p>\n<p>The Bible speaks of <em>spiritual warfare.</em> In Ephesians chapter 6 it speaks of <em>spiritual mindedness.</em> In Romans chapter 8 it speaks of a <em>spiritual walk.</em> The Bible speaks about <em>spiritual weapons</em> in Second Corinthians chapter 10, and <em>spiritual gifts</em> in first Corinthians chapter 12. The Bible speaks of <em>spiritual fruit</em> in Galatians chapter 5, and <em>spiritual armor</em> in Ephesians chapter 6, and it speaks of a <em>glorious spiritual ministry</em> in Second Corinthians chapter 3.</p>\n<p>Now all of these things are only reality in a believer’s life if they are overwhelmed with the presence of the Living God. Those spiritual realities, they don’t mean very much at all if we are not going to live in the power of the Holy Spirit. None of these can happen without the anointing, brethren, it makes no sense at all. They’re far away somewhere—these are only far away concepts if we are not filled with the Spirit of God.</p>\n<p><strong>[to be continued in the next issue]</strong></p>\n<p><em>This recording, as well as many others,<br>are available by calling Charity Ministries at<br>1-800-227-7902 or online at <u>www.charityministries.org</u>.<br>Ask for tape index #2873.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6589b6a346b59b1ac73053a44fdbffffd8824c1bb64fd1ddd16a7a91b3317868"
+}

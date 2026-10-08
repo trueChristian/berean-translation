@@ -1,0 +1,56 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b0a77b5a-bb21-41df-a1f9-1f3feba16a5a",
+    "images": [
+      {
+        "alt": "A train emerging from a mountain tunnel with an inset interior view",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b0a77b5a-bb21-41df-a1f9-1f3feba16a5a-1.jpg",
+        "repository_path": "public/images/articles/b0a77b5a-bb21-41df-a1f9-1f3feba16a5a-1.jpg",
+        "rights_note": "PDF image object xref 106. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. The circular inset and its INSIDE VIEW lettering are intrinsic source illustration content. Separate page border and gray panel omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 25
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "Cling Close to the Rock",
+    "topics": [
+      "e586bda8-3e92-56c9-9629-4bbed47922f3",
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d8376739419d52a3754e944b0cee5ee3f191a78c677130d1493948623671f8b8",
+    "metadata_sha256": "11c5393671d4c2e396d35a39d6bb20be342d39ae0caa1f01b20b007a23feb0d9",
+    "structure_sha256": "a27ff28d0e1bd2749160187788407e6fa02a00baf1d6e122049ee24115f419d0",
+    "text_sha256": "fa4b66d5e409c518a38468fb550232fa7bebb03a0ecd6a1221cdb79dd453901d",
+    "translation_metadata_sha256": "a62ebe9fb5043bf488ae3ac1117aa44267651926a66c1f0082744daa61d183b4"
+  },
+  "html": "<article data-article-id=\"b0a77b5a-bb21-41df-a1f9-1f3feba16a5a\">\n<p class=\"drop-cap\">Little Johnny and his sister were one day going through a long, narrow tunnel. The railroad company had built small clefts here and there through the tunnel, so that if any one got caught in the tunnel when the train was passing, they could save themselves.</p>\n<p>After this little boy and girl had gone some distance in the tunnel, they heard a train coming. They were frightened at first, but the sister just put her little brother in one cleft, and she hurried and hid in another. The train came thundering along, and as it passed, the sister cried out, “Johnny, cling close to the rock!” and they were safe.</p>\n<figure>\n  <img src=\"/images/articles/b0a77b5a-bb21-41df-a1f9-1f3feba16a5a-1.jpg\" alt=\"A train emerging from a mountain tunnel with an inset interior view\">\n</figure>\n<p>The “Rock of Ages” may be beaten by the storms and waves of adversity, but “cling close to the rock,” Christians, and all will be well. The waves don’t touch the Christian; he is sheltered by the Rock “that is higher than I,” by the One who is the strong arm, and the Savior who is mighty and willing to save.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "17b2784f25a6807a0b2a699ce2f2c0cf276dc642cd561a703d6b8220de0920dd"
+}

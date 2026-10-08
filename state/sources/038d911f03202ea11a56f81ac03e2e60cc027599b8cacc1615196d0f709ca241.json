@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "–By Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "94dddad2-cc75-5292-86c4-8f450af98ad4"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c233b16f-7c75-4b40-b250-9ed3a1e336d5",
+    "images": [],
+    "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 6
+    },
+    "subtitle": null,
+    "title": "The Death of a Sinner",
+    "topics": [
+      "220fa5b4-8cd4-53ca-ba1c-e06e36c60b58",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "447174b4ec51909b32d7aa5477d1f3a8b9d675eb07510e2091fc5f91a31ff5ba",
+    "metadata_sha256": "7af724841239f050d65031b0155efa460408f3496fe8d4ed4c42b9ebf599572b",
+    "structure_sha256": "c6f444aaf45ca7947fbe8927b324fc88f347488a62d450e927bd1158923c9717",
+    "text_sha256": "9d9351e2a38121f6298ee912a4517aac66429a6c4c6b5ea591aad2b4af4ef5e3",
+    "translation_metadata_sha256": "5db009ad0b4fbf49732a710646f54e60ca26b506395318091f74d80c1a6777d0"
+  },
+  "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>Death seemed certain, the doctors all said.<br>\n    Was it really true “That in days he’d be dead”?<br>\n    He didn’t want to admit, yet he was driven by fear.<br>\n    He broadened his shoulders, hid every tear.<br>\n    Before he knew when his end might be,<br>\n    He boldly proclaimed his own sovereignty.<br>\n    To admit his fear of what is unknown,<br>\n    Would be worse than death and eternity alone.</p>\n\n    <p>“No one can know my anguish inside!<br>\n    I’ll act like I’m fine, my feelings I’ll hide.<br>\n    People speak of God, oh the anger that brings!<br>\n    Please go away, or talk of other things!”<br>\n    Alone on the bed, his mind starts to race.<br>\n    “I’m tired of bondage; could there be grace?<br>\n    No, it will never work, for me it’s too late.”<br>\n    With his back turned on God, he awaited his fate.</p>\n\n    <p>The preacher knew not what exactly to say,<br>\n    At the funeral of the man who had gone his own way.<br>\n    All that he knew, was that he’d made a bad choice,<br>\n    Hardening his heart and blocking God’s voice.<br>\n    There’s no changing it now, he must pay the cost.<br>\n    Death swallowed its victim—his soul eternally lost.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "87849e75ccc3073aac9745474f8f8ea5d24e0cee6db7f9f55f04876e5cff80b9"
+}

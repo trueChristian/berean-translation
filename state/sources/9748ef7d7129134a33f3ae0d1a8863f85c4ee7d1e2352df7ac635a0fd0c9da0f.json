@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author Unknown",
+          "role": null
+        }
+      ],
+      "raw": "—Author Unknown"
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "35229f2e-80ab-484b-a435-9acf9818975f",
+    "images": [
+      {
+        "alt": "A pencil-style illustration of unborn twins curled together in a womb",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/35229f2e-80ab-484b-a435-9acf9818975f-1.jpg",
+        "repository_path": "public/images/articles/35229f2e-80ab-484b-a435-9acf9818975f-1.jpg",
+        "rights_note": "No image-specific caption, credit, licence, source, copyright mark, or separate permission notice is printed. Page 2 provides only the non-specific masthead credit ‘Some images ©2001-2011 / www.clipart.com / www.sxc.hu’; it cannot be assigned to this illustration. The PDF applied inverted decode semantics to the embedded 451 × 383 pixel one-channel separation JPEG; its samples were inverted to match the printed pale pencil drawing on a white field and encoded as a standards-normalized three-component baseline RGB/sRGB JPEG at 150 ppi, preserving the published dimensions, crop, aspect ratio, orientation, and content.",
+        "role": "inline illustration",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "7b66dc2b-492e-5b1f-8104-be30583e6f80",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": "The conversation of a set of twins in the womb of their mother ...",
+    "title": "The Conversation of the Unborn Twins",
+    "topics": [
+      "02575046-c4e1-5a38-a1e6-ff9b7c0ca147",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "1cd9410d-e4b9-5ef6-96b9-a1bc78a4d243"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2be52a9e19f9a5e121395ec1aa45e3c416df48efbc6d724fc449aca88323a8d4",
+    "metadata_sha256": "ffb3c9283f02ffd56e93ede100cc222f39a9f7e9ebb1ea170bc41dcd4762bc5a",
+    "structure_sha256": "9bff8ea931c7a495cb0e5567f0a46f048a8148d7cc11944ca8c3f48c9356788c",
+    "text_sha256": "dbf48b3402c67eb5766a240a102177beb8ef2553117ab025f6dec29cf0a1f333",
+    "translation_metadata_sha256": "43f23306b3361670b0fd086796273e437dffdfb7d015b6172b434f038abe7fa9"
+  },
+  "html": "<article data-article-id=\"35229f2e-80ab-484b-a435-9acf9818975f\">\n  <p>“Say, do you actually believe in life after birth?” the one twin asks.</p>\n  <p>“Yes, definitely! Inside we grow and are prepared for what will come outside,” answered the other twin.</p>\n  <p>“I believe that’s nonsense!” says the first. “There can’t be life after birth—what is that supposed to look like?”</p>\n  <p>“I don’t exactly know either. But there will certainly be much more light than in here. And maybe we will be walking about and eat with our mouths?”</p>\n  <p>“I’ve never heard such nonsense! Eating with the mouth? What a crazy idea. There is the umbilical cord that nourishes us. And how do you want to walk about? The umbilical cord is much too short.”</p>\n  <figure>\n    <img src=\"/images/articles/35229f2e-80ab-484b-a435-9acf9818975f-1.jpg\" alt=\"A pencil-style illustration of unborn twins curled together in a womb\">\n  </figure>\n  <p>“I am sure it is possible. It’s just that everything will be a little bit different.”</p>\n  <p>“You are crazy! Nobody ever came back after birth. Life is over with birth. That’s it.”</p>\n  <p>“I admit that nobody knows what life after birth will look like. But I do know that we will see our mother then, and that she will take care of us.”</p>\n  <p>“Mother???? But you don’t believe in a mother, do you? Where is she?”</p>\n  <p>“She is here, all around us. We are and we live within her and through her. Without her we couldn’t exist at all!”</p>\n  <p>“Nonsense! I’ve never sensed a mother, consequently she doesn’t exist.”</p>\n  <p>“Yes, sometimes, when we are very quiet you can hear her sing, or feel how she caresses our world.”</p>\n  <p>—Author Unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "32e5c502179e98f155119698bdf0ac575b0ae564fa6f0803ec8ccb710cb8511b"
+}

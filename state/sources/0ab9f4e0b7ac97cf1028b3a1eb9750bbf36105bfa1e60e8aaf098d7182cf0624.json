@@ -1,0 +1,67 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b82a0428-e9b3-4ea3-9f2b-cbbf80d908b8",
+    "images": [
+      {
+        "alt": "A kneeling figure holding a staff before a standing king.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b82a0428-e9b3-4ea3-9f2b-cbbf80d908b8-1.jpg",
+        "repository_path": "public/images/articles/b82a0428-e9b3-4ea3-9f2b-cbbf80d908b8-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 55. Clean base preserved; surrounding page panel and diagonal divider omitted. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 21,
+        "transformation": "Extracted PDF base image object 55. Clean base preserved; surrounding page panel and diagonal divider omitted. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "The Fool",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c472f4eb0a9916b596a88dd801b35b3c0e08c1d10056dbcfb7e43b2f2a619455",
+    "metadata_sha256": "92fb6b3013370650c49ca285f5d03e68e7a29cb21349ecaba980aadaf2838a4d",
+    "structure_sha256": "400372ea7a259ed0a6681d2c2df1cc7ceacb5ef9ee4763a4beb67a07c644440e",
+    "text_sha256": "2b71d2cbcc6c74ee07dbe418c1348624770e010395b6c2514b5858b1c5d1f0a1",
+    "translation_metadata_sha256": "8d42125c9e51dd206cd134fba76ab837d4f3f901e9289c330d107e6ea73f55cc"
+  },
+  "html": "<article data-article-id=\"b82a0428-e9b3-4ea3-9f2b-cbbf80d908b8\">\n  <p>A certain king kept a fool in his house, as some rich men did in olden times for their amusement. This king gave a staff to his fool and charged him to keep it until he met with a greater fool than himself, and if he met with such a one to deliver it over to him.</p>\n  <p>Not many years later, the king fell sick. His fool came to see him and was told of his master’s fatal illness. “And where shall you go?” asked the fool. “On a long journey,” answered the king. “And when will you come back, within a month?” “No.” “In a year?” Again the king replied, “No.” “When then—never?” And the king replied, “Never.”</p>\n  <figure><img src=\"/images/articles/b82a0428-e9b3-4ea3-9f2b-cbbf80d908b8-1.jpg\" alt=\"A kneeling figure holding a staff before a standing king.\"></figure>\n  <p>“And what provision have you made for the place you are going?” asked the fool. “None at all.” answered the king. “So, you are going away forever and have made no provisions for your departure? Here, take my staff,” said the fool, “for I am not guilty of any such folly as that.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6ad6c264ea69613e961b22f305c107b27a3b536a7ab8720b01e690a642257e8a"
+}

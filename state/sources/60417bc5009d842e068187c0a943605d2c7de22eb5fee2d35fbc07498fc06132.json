@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Bill Britton",
+          "role": null
+        }
+      ],
+      "raw": "by Bill Britton"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "e003fde2-1cfc-4ff8-80e6-eb08eb3c9f91",
+    "images": [
+      {
+        "alt": "A crowned king seated on a throne.",
+        "caption": null,
+        "credit": null,
+        "height": 229,
+        "public_path": "/images/articles/e003fde2-1cfc-4ff8-80e6-eb08eb3c9f91-1.jpg",
+        "repository_path": "public/images/articles/e003fde2-1cfc-4ff8-80e6-eb08eb3c9f91-1.jpg",
+        "rights_note": "Original PDF page 19 image object 66; no separate image licence or credit is stated. Clean base extracted without the extended grey page panel or its outline. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 19,
+        "source_xref": 66,
+        "transformations": "Embedded base image extracted; grayscale converted to RGB/sRGB without inversion where applicable; standards-normalized baseline JPEG at original pixel dimensions with nonzero 72 dpi density.",
+        "verification": {
+          "encoded_bytes": 26417,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "JPEG 157x229 sRGB Grayscale 72 72",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 157
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": "Dying to Self",
+    "title": "Dethrone the King",
+    "topics": [
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0418f4db6e5872efae5a1d29c2d1ba310e7e3d00cb5c9ec2e2a9178ead0cce26",
+    "metadata_sha256": "6eba2835111c8ec2cbfae5543f95b5a1fb43933ccd98a40283eb7cb18a7cd484",
+    "structure_sha256": "0c88094e5de51b2c3beba536dc6dc534e9ec89dbaf4f2866ad3ee0c61e405716",
+    "text_sha256": "0995d422edcd37706d6dfece74918bbe1ccfb7e6b33844c0b1b13972501cacaf",
+    "translation_metadata_sha256": "7c7ad45fba19765ced6670bf34411763500bf69933a644f54ee5abb5b829d284"
+  },
+  "html": "<article data-article-id=\"e003fde2-1cfc-4ff8-80e6-eb08eb3c9f91\">\n  <figure><img src=\"/images/articles/e003fde2-1cfc-4ff8-80e6-eb08eb3c9f91-1.jpg\" alt=\"A crowned king seated on a throne.\"></figure>\n  <p>When you are forgotten or neglected or purposely set at naught, and you don’t sting or hurt with the insult or the oversight, but your heart is happy, being counted worthy to suffer for Christ—that is dying to self.</p>\n  <p>When your good is evil spoken of, when your wishes are crossed, your advice disregarded or your opinions ridiculed, and you refuse to let anger rise in your heart or even to defend yourself, but take it all in patient, loving silence—that is dying to self.</p>\n  <p>When you lovingly, patiently bear any disorder and irregularity, any impunctuality or any annoyance—when you come face to face with waste, folly, extravagance, spiritual insensibility—and endure it as Jesus endured it—that is dying to self.</p>\n  <p>When you are content with any food, any offering, any raiment, any climate, any society, any solitude, any interruption by the will of God—that is dying to self.</p>\n  <p>When you never refer to your self in conversation, or to record your own good works, or itch after commendation, when you can truly love to go unknown—that is dying to self.</p>\n  <p>When you can see your brother or sister have his or her needs met and can honestly rejoice in spirit and can feel no envy nor question God, while your own needs are far greater and in more desperate circumstances—that is dying to self.</p>\n  <p>When you can receive correction and reproof from one of less stature than yourself and can humbly submit inwardly as well as outwardly, finding no rebellion or resentment rising up within your heart—that is dying to self.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "aa2f635652f256f3bd024e9e89558a95309e9e96ca07eec1fa89d113d11ea7f1"
+}

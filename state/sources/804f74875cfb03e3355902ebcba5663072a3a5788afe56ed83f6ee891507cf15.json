@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rodney Roberson",
+          "role": null
+        }
+      ],
+      "raw": "by Rodney Roberson"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "37c2ae1a-af9f-40d8-aa76-746566c608cf",
+    "images": [
+      {
+        "alt": "Two bare feet.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-1.jpg",
+        "repository_path": "public/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-1.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Reconstructed only grayscale base objects xref 81 and 82 in their original PDF paint order, coordinates and rectangular clips. Separately painted title, byline, gray backing panels and frame omitted. The pale gray treatment is baked into both only-source rasters; no unfaded source or exact reversible blend is available, so it is retained explicitly. Normalized baseline RGB JPEG, 72 dpi.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": "Exact PDF base-object reconstruction at 72 dpi using xref 81 then 82, original matrices and clipping rectangles; cropped to the base illustration bounds."
+      },
+      {
+        "alt": "A pair of lace-up boots.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-2.jpg",
+        "repository_path": "public/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-2.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Embedded grayscale JPEG xref 86. Separate article text omitted. The pale wash and rectangular gray backdrop are irreversibly baked into the only source raster; no clean base or exact reversible blend is present. Retained exactly without synthetic repair, then encoded as baseline RGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "pages": [
+        18,
+        19
+      ],
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "JoSèÍS FeeT",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "643d884e560fb4f2066df4fadcb55b7b2b3934da971456ed461a8a16ebbd0353",
+    "metadata_sha256": "6c00abf3eb55cb60048e7bc96e21d6bffd83ee301cb62994290ff9452a9b60d6",
+    "structure_sha256": "59e669132935721399a706dc86ed8c06db9e2e455fad409da2d8b9a19ded88e3",
+    "text_sha256": "6a0703a9cb4df59bc2b660f9d87585f95ec2a5be7100060c220fe18a4850d6d4",
+    "translation_metadata_sha256": "e61e3d61929e1f266a7b00867f0d1a2fb4fa8af1babe520df9c59535cdaedae0"
+  },
+  "html": "<article data-article-id=\"37c2ae1a-af9f-40d8-aa76-746566c608cf\">\n  <figure><img src=\"/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-1.jpg\" alt=\"Two bare feet.\" /></figure>\n  <p>It was turning out to be a bad night at the Marin County shelter for the homeless in San Rafael, California. With rain pouring down and a temperature in the 40s, our gym-sized armory was nearing its capacity of 125. All the cots and sleeping mats had been assigned, but people were still coming, and in no time there were complaints about shortages. Soon some of the blacks and Latinos started accusing my fellow workers and me of racial favoritism. We were white.</p>\n  <p>I was working at the shelter as a full-time counselor. Actually my duties were more like those of a handyman, but the money I earned was helping me pay my way through seminary.</p>\n  <p>When the arguments started, I knew we were in trouble. The armory echoed with shouts and profanity. Some of the street people were trying to take sleeping mats away from others. When Bobbie, a black woman who worked late, found we hadn’t saved her a mat as usual, she began to object loudly and accuse me of prejudice.</p>\n  <p>In the midst of all this, a Latino man named José, who had received one of the last sleeping mats, made his bed in the middle of the armory. He threw down his mat, fell on it, removed his tattered boots and collapsed in a drunken stupor. The stench of José’s feet filled the air. The street people, ordinarily not picky about odors, began to raise a great protest.</p>\n  <p>I had been passing out towels when a group of men—black and whites—insisted I did something about José. The obvious solution was to persuade him to take a shower, but when two other workers and I tried to wake him, it was no use. He was breathing, but nothing would rouse him. We discussed carrying him to the shower, but he weighed over 200 pounds, deadweight, and we could hardly move him. When someone suggested we drag him back out to the sidewalk, a howl of protests swept through the other Latinos.</p>\n  <p><em>God, how am I supposed to handle this situation?</em> I prayed in desperation. <em>I don’t know what to do!</em> Only a few nights earlier one of my fellow workers had been attacked and choked during one of the frequent melees at the armory.</p>\n  <p>Then a thought occurred to me: <em>If I can’t get José into the shower, maybe I can bring the shower to him.</em> We didn’t have a washbasin, but in the kitchen I found a large bowl and a container of lemon-scented dishwashing liquid. Armed with a washcloth, towel and the bowl of full warm soapy water, I headed back toward José. From all over the armory, stares of anger and suspicion followed me.</p>\n  <p>Back at José’s mat, I knelt, rolled up his pant legs, and began to remove his filthy athletic type soaks, which were soggy on the bottom but dried to cardboard stiffness on top. I finally managed to tug them off, leaving the weave of the fabric imprinted on his skin. The stench would have been overwhelming if it had not been for the scent of the lemon bubbles in the bowl.</p>\n  <p>It took some persuasion, but one of the men who helped with the mats finally agreed to throw the socks away and take José’s boots outside to air. Then I went to work with the lemon soap and washcloth. For several minutes I carefully cleaned José’s calves and ankles, feet and toes. In no time the water was black.</p>\n  <p>I took the towel and dried the area, then, still on my knees, turned to pick up the bowl. As I did, I saw a forest of legs and knees surrounding me. <em>Have they come to throw us both out?</em> I wondered.</p>\n  <p>Slowly, warily, I stood up. My eyes came to rest on the face of one of the black men who had been protesting the loudest. And he was grinning! I had never seen him smile before! I looked from face to face. I was stunned. They were smiling—men and women of all races. And Bobbie, with tears in her eyes, stepped forward, took my soapy hands in hers and kissed them.</p>\n  <figure><img src=\"/images/articles/37c2ae1a-af9f-40d8-aa76-746566c608cf-2.jpg\" alt=\"A pair of lace-up boots.\" /></figure>\n  <p>Nothing could have prepared me for what I experienced at that moment. No sermon, no seminary class. It was as if Jesus’ words had come to life in me: “Whosoever will be chief among you, let him be your servant.” (Matthew 20:27) It had not been intentional; I was simply doing my job. But by carrying out this unpleasant task, I had won over an entire auditorium of street people, and gained their respect.</p>\n  <p>A quiet hush fell on the National Guard armory in San Rafael that night. The shouting and the threats were gone. Someone who had both a mat and a cot gave his to Bobbie. And after some looking around, we even came up with a fresh pair of socks for José.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2d0f8b10371f0a0a443cd914792ae61a1899e6b46f16a2782a8a8f665d1f4688"
+}

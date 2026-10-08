@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "99dcd51d-1634-41ee-bd63-02deb6e8c9a4",
+    "images": [
+      {
+        "alt": "An envelope, a blank card, and a pen.",
+        "caption": null,
+        "credit": null,
+        "height": 323,
+        "public_path": "/images/articles/99dcd51d-1634-41ee-bd63-02deb6e8c9a4-1.png",
+        "repository_path": "public/images/articles/99dcd51d-1634-41ee-bd63-02deb6e8c9a4-1.png",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 143 is the source.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": 143,
+        "source_page": 35,
+        "transformations": [
+          "Decoded the original one-bit CCITT ImageMask object 143 to black foreground on white, matching its PDF stencil semantics; native 435 × 323 pixels."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 435
+      }
+    ],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d83f96f2f7139e2a3aac5572be070fd58de61f7f61812358dd317e88432abb7f",
+    "metadata_sha256": "e1f784981ed2dca9a178267c8b7d5542e7acdfce34cf1fcf94d56b1d54b6e41a",
+    "structure_sha256": "cfaae9e85d603b42ea47e285869df7f0daec364573e49ff498adf9eb499e16b5",
+    "text_sha256": "fbbb6f3b9cc18c439d9dcdfbd32b117d69baed5c0def44e2f4bc39abbde53933",
+    "translation_metadata_sha256": "51f1a74ce7080741bc4f41f0ff7472e5efe775fdec27e86211ba9ba4e6395bb0"
+  },
+  "html": "<article data-article-id=\"99dcd51d-1634-41ee-bd63-02deb6e8c9a4\">\n  <figure><img src=\"/images/articles/99dcd51d-1634-41ee-bd63-02deb6e8c9a4-1.png\" alt=\"An envelope, a blank card, and a pen.\"></figure>\n  <p>We, the publishers of The Remnant magazine, want to give a big, hearty <strong>“Thank You”</strong> to all of you who expressed your support of the ministry of printing The Remnant. We are encouraged to say the least. Below is a very small example of the letters we have received from you. Keep them coming, even if you have some constructive critizism, we want to hear that also. We are very new at this kind of ministry and consider all that is written. I personally read all the letters that are sent, and we hope to move into more two-way correspondence as the Lord provides a secretary.</p>\n  <p><em>-The Editor</em></p>\n  <section>\n    <p>We enjoy the Remnant very much and find many of the articles encouraging and helpful in remaining faithful to God and living a separated lifestyle when many people we know feel separation is not necessary. God bless your ministry!</p>\n    <p><em>Middletown, PA</em></p>\n  </section>\n  <section>\n    <p>Super magazine! Your articles are great! They are not fast reading—meant to be digested slowly and applied to your life. I can tell a lot of thought goes into this magazine. Thank-you for printing it and sending it to me. I share it with two other families.</p>\n    <p>P.S. Your covers are attractive, too!</p>\n    <p><em>Opelika, AL</em></p>\n  </section>\n  <section>\n    <p>We have found the “new” magazine to be excellent. The book reviews have been very helpful. We are reading (and re-reading) both “The Calvary Road” and “The Release of the Spirit.” Although we have been believers for 20+ years, we have never been taught this concept of godly “brokenness.” These two books and some of the tapes from Charity Gospel Tape Ministry have been a real help and the Lord is using them to draw me and my family closer to him.</p>\n    <p>The study on “Meekness 101” was also a help. We used it in our family devotions. It is not an easy lesson to put into practice, especially for our young ones, but it is a good start from them.</p>\n    <p>We are part of a two-family house church. All ages participate in the meeting together. We celebrate the Lord’s Table as part of a full meal. Meeting this way has helped us grow spiritually a great deal. We are praying that the Lord will lead other families who have a real zeal for the Lord to join us.</p>\n    <p>Thank-you for your ministry to us via tapes and the magazine.</p>\n    <p><em>Plainfield, CT</em></p>\n  </section>\n  <section>\n    <p>We love the new format of The Remnant. We’ve been having you send us 20 copies to distribute to others. Could you please send us 30 copies now? Our mailing list has increased. Thank-you!</p>\n    <p><em>Mogaddre, OH</em></p>\n  </section>\n  <section>\n    <p>I very much enjoy the Book Review and Home Histories articles. I have ordered the books that are highlighted in these sections and use them for devotions and/or home-school studies.</p>\n    <p><em>Lake Elsinore, CA</em></p>\n  </section>\n  <section>\n    <p>We cannot express our gratitude and appreciation that we are able by your generosity to receive The Remnant and the tapes from the ministry. Thank-you with all our hearts and may the Lord richly and abundantly bless you. We’d love to continue to receive the magazine. The articles are inspiring and challenging. They are a real faith booster. Thank-you!</p>\n    <p><em>Pilot Mound, MB, Canada</em></p>\n  </section>\n  <section>\n    <p>Thank-you so much for your inspiring magazine, The Heartbeat of The Remnant. The Lord has encouraged me to step back and allow my husband to lead. Because of reading the 2 articles you had on this subject for the sisters, I have been motivated to continue stepping back. Any more of this type of article would be greatly appreciated. It is the first thing I look for each time I receive your magazine. God has used the articles for our spiritual growth. Keep up the good work!</p>\n    <p><em>Methuen, MA</em></p>\n  </section>\n  <section>\n    <p>As a father, I have appreciated the new format of The Remnant. The segments on Home Histories have been an inspiration to me. These articles help me to be consistent and faithful in my leadership in the home. It has also given me a greater vision of what God would have my home and family to be.</p>\n    <p><em>Bellingham, WA</em></p>\n  </section>\n  <section>\n    <p>Thank you, thank you, and thank you! There are no publications out there like yours— godly, hard hitting in self denial, and unworldliness. It is also a tremendous encouragement to persevere in raising large Christ centered families for the Lord’s glory and service. Great job.</p>\n    <p><em>Hamlin, NY</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6c01f2a67a285e7f27754be81a8579d4738e657b2f0e5c70b1eb016629c79e35"
+}

@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Curvin Wenger",
+          "role": "Editor"
+        }
+      ],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "44a970cf-d23c-5e24-a196-0b08595d01ba",
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "a5ae3b35-c647-41fe-a111-e60a56aa0fab",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a5ae3b35-c647-41fe-a111-e60a56aa0fab-1.png",
+        "repository_path": "public/images/articles/a5ae3b35-c647-41fe-a111-e60a56aa0fab-1.png",
+        "rights_note": "No credit, source, permission notice, or license terms are printed for this decorative quill. The embedded indexed-colour image and its soft mask were combined into a transparent sRGB PNG at the published 456-by-456 dimensions; crop and orientation are unchanged. The repeated smaller quill on page 29 was not exported as a duplicate image.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "f1d8ec0b-e63c-5164-8d41-9d57b6c96f07",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "pages": [
+        3,
+        29
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "32b4b3c5-89d5-5664-bd1d-7f7c1b718913",
+      "39ebfc50-718c-55f6-884c-c500b24a5bc0",
+      "e5488a4b-a56b-5157-9616-cd90c9ac68d9"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ce22d52689fd9f23c18dfde156a60fe86077c1c89a41ac0fa68ef7a8f526247b",
+    "metadata_sha256": "073f84024ae0354f76d8ffa12cba1b5d9f649975a7a6510a95b7f50297c4838e",
+    "structure_sha256": "2cacf63ce520f321b7603bf634acd2aceed4e3fb3a7e4d4a3cfb2ac80e91f68c",
+    "text_sha256": "556f39704d6359fa0e4c57f345af7d2a50c50412f067b899955e41bf66d13c56",
+    "translation_metadata_sha256": "ed322f60f91b0179ebdb4e95991a4f0c55df6b32e4f75fc5a2ebccea030b9a1f"
+  },
+  "html": "<article data-article-id=\"a5ae3b35-c647-41fe-a111-e60a56aa0fab\">\n  <figure>\n    <img src=\"/images/articles/a5ae3b35-c647-41fe-a111-e60a56aa0fab-1.png\" alt=\"\">\n  </figure>\n\n  <p>Greetings in the name of our Lord and Savior, Jesus Christ. The year 2021 is fast drawing to a close and what a year it has been. Well, not just 2021, but also the year 2020. Recently, I saw a sign outside a church that read something like, “Sorry, normal is not coming back, but Jesus is”. How true; both statements—what was considered normal before Covid <strong><em>isn’t</em></strong> coming back, and, Jesus <strong><em>is</em></strong> coming back.</p>\n\n  <p>Just the other week I was speaking with a brother who commented that he believes that with the way everything has been unfolding since Covid-19 began its global spread, that surely, we have entered the beginning of the end of time. If we but look around us certainly we each see the signs of unrest, uncertainty, and apprehension unfolding since the beginning of the pandemic. Lawlessness is on the rise—looting and rioting has become more commonplace in some of the larger cities of the USA, and in other parts of the world.</p>\n\n  <h3>Our Magazine Schedule</h3>\n\n  <p>This issue of the magazine is running behind schedule by several months, for which we offer our apologies to our readers. Primarily, the blame rests on my (Curvin’s) shoulders as the editor. There are, for the most part, two main contributors for this delay—1) long term complications from Covid-19, and 2) the unexpected need to move on a very short notice.</p>\n\n  <p>I (Curvin) never fully recovered from getting Covid-19 in October of 2020. Then during the late summer of 2021, our family contracted another virus which took its toll on my already weakened immune system. For most of August and September my main focus was simply trying to survive from day to day. My lungs, my mind, and my energy were all functioning well below normal (to put it mildly). I thank God that finally I was able to find a doctor who prescribed several strong drugs. Within three to four days, I started to recover quite rapidly. Since then, my physical and mental abilities have returned to almost 80 percent of where they were prior to when I initially contracted Covid. It has been a long, hard journey and I am thankful that God saw fit to grant me healing. I thank each one who has prayed for us during this time, and I wish each of you God’s richest blessings.</p>\n\n  <p>Since our move we are mostly settled in to our new accommodations, and with my renewed health, I am feeling encouraged and energized to once more press into the harness of my editorial duties. Please pray for us as a board as we consider making some changes in our endeavors to prevent any future lag in production of a similar nature.</p>\n\n  <h3>Covid-19 and Vaccines</h3>\n\n  <p>Our (Curvin and Eileen's) oldest daughter is working part-time in a nursing home and is going to nursing school to become an LPN—both of which are pushing the Covid vaccine. Add to this my year-long battle with Covid and my interest has been keenly aroused as I have followed many of the news reports and research results regarding Covid-19, the various treatment options, and the ensuing vaccines.</p>\n\n  <p>We (The Berean Voice) ran a series of articles in past issues of The Remnant evaluating vaccines in general. We tried to present a fair and balanced view, while defining a perspective, that overall, vaccines (as they were originally designed) are valid and important for the sake of public and personal health. We discouraged folks from taking a strong “anti-” position, no matter which side of the issue they were on. We also gave recognition to the reality of possible severe side effects (however rare they might be) of various vaccines. Through it all, we endeavored to point out the unspeakable suffering and loss associated with specific diseases that vaccines have been proven to be very effective in preventing. Such diseases as polio, smallpox, mumps, and tetanus to name a few.</p>\n\n  <p>Suddenly we have a whole new set of circumstances to consider and evaluate. Covid-19, a run-away virus with nothing in the medical arsenal to stop its global spread, and geneticists, flush with pride and enthusiasm regarding their recent advances in genetics and medicine. Prior to Covid becoming a public issue, the world of genetics had advanced to the point of gene editing and genetic engineering. This means they have dissected the human body down to cells, genes, and DNA to the point of being able to manipulate the human body according to their will (not God’s will) whether for good or ill. (Perhaps we can go into this more in detail in a future article.)</p>\n\n  <p>Vaccines have originally and traditionally been understood to act somewhat in this manner. First, the origin of any specific disease was studied, and the responsible organism or micro-organism was discovered. Second, lab technicians or some other professionals would take the causative agent (virus or bacteria) and work with it to develop a weakened form. Third, they would assemble this weakened form into a controlled dosage amount containing a limited number of the viruses or bacteria. Fourth, individuals would be given a specific dosage of this “vaccine” thus introducing their body to a weakened form of the disease through a “controlled” minimal “load” of the causative agent. Thus, the individual was afforded a “safe” manner of contracting the disease in order for their body to easily, efficiently, and effectively fight it off, thereby developing antibodies. Once these “real” antibodies were developed in that person’s body, that individual was, for all intents and purposes, immune against that disease if they were to ever come in contact with it at a later date.</p>\n\n  <p>However, the vaccines for Covid-19 act more like the vaccines do for the flu—both are not true vaccines when compared to the original design, purpose, and function of vaccines. In fact, in September of 2021, the CDC changed the definition of a vaccine from that which produces “immunity” to that which produces “protection”. This is because, just like the flu vaccine, the Covid-19 vaccines are known to not necessarily “prevent” (through immunity) a person from contracting the disease at a later date. This is in contrast to such diseases as polio, tetanus, and smallpox which when receiving a vaccine for, the bodies of most individuals will develop immunity, thereby preventing that person from contracting the disease at a later date.</p>\n\n  <p>So, this wholesale push trying to get as many individuals vaccinated for Covid-19 is a completely different story. 1) Any vaccine manufactured using mRNA technology, by definition, is an experimental drug, in that it has not been proven using the standard procedures of safety and efficacy trials. 2) The silencing of critics is questionable, problematic, and alarming, not to mention a clear violation of free speech in the USA. 3) The overwhelming drive to sideline safe and effective drugs that have been proven to work is alarming and raises huge question marks. Add to this that one of the most reputable medical journals in the world retracted the key article (because it was determined to be a fraud) which was being referenced by the medical professionals to claim that one of these drugs was not only not effective, but also dangerous.</p>\n\n  <p>There have been numerous claims by reputable medical professionals that these vaccines cause birth defects when given to pregnant mothers, and that they cause infertility issues. It is now openly admitted that the vaccines are known to cause some people to develop heart problems after receiving it. And there are multiple claims of sudden deaths resulting shortly after receiving the shot. Since we believe that we are created in God’s image, and that our bodies are the temples of the Holy Spirit, we should be very cautious about taking this step. At the very least, as God’s image bearers, we are recommending that Christians should wait until time proves these claims either true or false, before making the decision of giving in to this push.</p>\n\n  <p>Simply stated, we would caution that New Testament Bible-believing Christians should not get this vaccine until they have done their own research, have carefully prayed about it, and have consulted other individuals of like-precious faith. Why? 1) This technology is similar in nature to what the world’s geneticists have developed to create synthetic life in the laboratory. 2) This technology is using manmade/synthetic stuff (for lack of a better term) to manipulate the created makeup of our bodies to do what they (whoever it is that is behind the technology) think that it should do. No longer are we talking about discovering a pathogen then introducing a weakened form of that “naturally-occurring” pathogen to the body to allow a God-created response to develop antibodies. Here we are now talking about introducing something man-made into a God-created body and trying to “trick” the natural responses through a synthetic means. This is unprecedented in nature, and in scope, and only time will tell what all negative outcomes will result.</p>\n\n  <p>Bottomline, all of history tells the same story: Any time something new is created or manufactured and then put into public use, there are ALWAYS “bugs” to work out.</p>\n\n  <h3>Vaccine Booklet</h3>\n\n  <p>Several issues ago, we told our readers that we were moving forward with putting all those articles into booklet form. With the emergence of the Covid-19 vaccines we held off on this printing until we could evaluate how those articles and the new “type” of vaccines would agree or disagree with each other so as to not send a wrong message. As God provides direction we will move ahead with this project in the very near future. Our apologies to any of our readers who were anticipating these booklets by this time.</p>\n\n  <p><em>Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy, To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen. –Jude 1:24-25.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e0effce062fe75428b812f6d0c5a0071090728cb3e42dc56f3020fd0219249f1"
+}

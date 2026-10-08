@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Theodore Roosevelt",
+          "role": null
+        }
+      ],
+      "raw": "~Theodore Roosevelt"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "da69b76d-a7fe-4454-92f6-50b72a863990",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/da69b76d-a7fe-4454-92f6-50b72a863990-1.png",
+        "repository_path": "public/images/articles/da69b76d-a7fe-4454-92f6-50b72a863990-1.png",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The issue-level art notice states “Some images © 2001-2012,” followed by www.clipart.com and www.sxc.hu; the PDF does not identify this asset’s individual source. The two embedded image tiles were joined in their published arrangement and stored as an sRGB PNG, preserving the published dimensions, crop, orientation, and content.",
+        "role": "decorative sword watermark",
+        "sequence": 1,
+        "source_page": 31
+      }
+    ],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "It’s Not the Critic That Counts",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3f9796afabd6af5216b7495a5951b51f0c09170716a22c0ae2dfbec01dbc741c",
+    "metadata_sha256": "ae039b301c63cc56e4d1bc8baf4a91585d83bb8ae365473ad4905846ae82aa24",
+    "structure_sha256": "8e80c53af3176f1b9a69d6b103419f0808a660fe88abb788a83e5032c80d1ea3",
+    "text_sha256": "39ee4797ee7cec15064e5196138fafe34d78c42aaf40ed8c237b5e0933d51e08",
+    "translation_metadata_sha256": "5bcacef0676f1807b68e78b168d713c594b9b928d1826537945d3043c1cdd542"
+  },
+  "html": "<article data-article-id=\"da69b76d-a7fe-4454-92f6-50b72a863990\">\n  <figure>\n    <img src=\"/images/articles/da69b76d-a7fe-4454-92f6-50b72a863990-1.png\" alt=\"\">\n  </figure>\n  <blockquote>\n    <p>“It is not the critic that counts,<br>\n    nor the man who points out how<br>\n    the strong man stumbled,<br>\n    nor where the doer of deeds could<br>\n    have been done better.</p>\n    <p>The credit belongs to the man<br>\n    who is actually in the arena—<br>\n    whose face is marred<br>\n    by dust and sweat and blood;<br>\n    who strives valiantly—<br>\n    who errs and comes short again<br>\n    and again—<br>\n    who knows the great enthusiasms,<br>\n    the great devotions,<br>\n    and spends himself in a worthy<br>\n    cause;</p>\n    <p>Who at best knows the end of<br>\n    the triumph of high achievement,<br>\n    and who at worst, if he fails,<br>\n    at least fails while doing greatly,<br>\n    so that his place shall never be<br>\n    with those cold and timid souls<br>\n    who know neither victory nor<br>\n    defeat!”</p>\n  </blockquote>\n  <p>~Theodore Roosevelt</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "64eba2aac653a75b709e101cff57b9a23d5fbecdb804db1877a3f539f6f817a8"
+}

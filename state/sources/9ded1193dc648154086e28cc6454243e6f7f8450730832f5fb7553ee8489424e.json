@@ -1,0 +1,391 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+    "images": [
+      {
+        "alt": "A person reaches through prison bars above the words “FREE US from BONDAGE”",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg",
+        "rights_note": "Extracted the original embedded image object 13 from printed page 3. No separate image credit or image-specific permission wording is printed. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            377,
+            507
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            377,
+            507
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            377,
+            507
+          ],
+          "source_object": 13
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A prisoner behind bars with an angel beside him",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg",
+        "rights_note": "Extracted the original embedded image object 17 from printed page 4. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 656, 518] from the 658 × 518 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            656,
+            518
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            656,
+            518
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            658,
+            518
+          ],
+          "source_object": 17
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Women and children gathered in a bare room",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg",
+        "rights_note": "Extracted the original embedded image object 18 from printed page 4. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [1, 1, 469, 510] from the 470 × 510 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            1,
+            469,
+            510
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            468,
+            509
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            470,
+            510
+          ],
+          "source_object": 18
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A guard walks in front of prisoners wearing striped clothing",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg",
+        "rights_note": "Extracted the original embedded image object 23 from printed page 5. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [2, 1, 580, 445] from the 581 × 446 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            1,
+            580,
+            445
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            578,
+            444
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            581,
+            446
+          ],
+          "source_object": 23
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A long line of prisoners standing outside a building",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg",
+        "rights_note": "Extracted the original embedded image object 22 from printed page 5. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 750, 457] from the 750 × 458 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 5,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            750,
+            457
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            750,
+            457
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            750,
+            458
+          ],
+          "source_object": 22
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "People scattered across a city square",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg",
+        "rights_note": "Extracted the original embedded image object 27 from printed page 6. No separate image credit or image-specific permission wording is printed. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 6,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            375,
+            270
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            375,
+            270
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            375,
+            270
+          ],
+          "source_object": 27
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A woman reads to people seated inside a prison cell",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg",
+        "rights_note": "Extracted the original embedded image object 28 from printed page 6. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [2, 0, 407, 375] from the 407 × 375 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 7,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            0,
+            407,
+            375
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            405,
+            375
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            407,
+            375
+          ],
+          "source_object": 28
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "An engraved illustration of a bottle lying on its side",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg",
+        "repository_path": "public/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg",
+        "rights_note": "Extracted the original embedded image object 32 from printed page 7. No separate image credit or image-specific permission wording is printed. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 8,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            347,
+            129
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            347,
+            129
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            347,
+            129
+          ],
+          "source_object": 32
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 3
+    },
+    "subtitle": "The Angel Of The Prisons",
+    "title": "Mathilde Wrede",
+    "topics": [
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "cd42f468-6b2c-5f56-abf2-82062af463d1",
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3ec0582ebfe61e560356b6f61c50350561c4276df245aabdd5c44b257485ff22",
+    "metadata_sha256": "3846ed48394a1a2f5a18c267078d9bb5b8132a08bce7777b301538ec2dfd04a1",
+    "structure_sha256": "07adf1bdad87f3a1a22e73ec98f61d3b58beb3fb7388600de204929cf07912eb",
+    "text_sha256": "6135c2f4581247c2316c1a30e750c0d4287a0adcbf1b77e15abfd23932dded1b",
+    "translation_metadata_sha256": "4d02fc21b575c47b04551a0039920fdcfd153e5b6862b86e553361126bc37e9f"
+  },
+  "html": "<article data-article-id=\"0c677d9e-ce73-4b27-a03f-d5457f7f1072\">\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg\" alt=\"A person reaches through prison bars above the words “FREE US from BONDAGE”\">\n  </figure>\n  <p>In 1900, the International Prison Congress was held in St. Petersburg. The greatest jailor on earth, the Tsar of all the Russias, the turnkey of the great ice dungeon, Siberia, opened the sessions. Grand dukes and other notables of Russian high society were present in force. There were gala dinners and receptions. At one session a French sociologist in evening dress read a paper on incorrigibles. It shone in faultless rhetoric. “This class of criminals are hopelessly sick. No reclamation is possible. All that can be done is, in one or another way, to render them harmless.”</p>\n  <p>When the last word had fallen a slight figure was seen making her way to the platform. She asked the indulgence of the chairman, and then in a silvery voice, speaking in French, said: “There is, gentlemen, one agency by which every criminal can be transformed, even one who is, as they say, incorrigible. That is the power of God. Laws and systems cannot change the heart of a single criminal but God can. I am persuaded that we ought above all to occupy ourselves with the souls of prisoners, and with their spiritual life.”</p>\n  <p>The congress applauded. It was a message social congresses do not often hear.</p>\n  <p>The apparition was Miss Mathilde Wrede, the Baroness Wrede, in fact, though she never seemed concerned about her title. She bears a more unique title, “The Angel of the Prisons.”</p>\n  <p>Her father was the provincial Governor of Vasa, Finland. She first became interested in the imprisoned by watching some who came to make repairs on the governor’s house and grounds, men under guard and of gloomy countenance. Again, as a little girl, she saw by accident the smith welding red-hot irons on a group of prisoners. After that the lovely birthday furniture of her chamber, which her father had given her as a present, failed to satisfy her. It was prison-made.</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg\" alt=\"A prisoner behind bars with an angel beside him\">\n  </figure>\n  <p>She was brought up in a world of culture, educated carefully with the lovely training of the Scandinavian schools, and was a gifted musician. One evening, in which she had planned to go with her father to a society function, she went instead to a revival meeting in which a layman was preaching. His text was John 3:16, and Mathilde Wrede responded, as tens of thousands have done before to the golden words. It was an embarrassment to her father and his entourage, but in her own heart the hallelujah bird was singing. Some days after, a prisoner came to her home to repair a lock and, conversing with him, she told of the great things God had done for her. “Ah, Miss,” he answered, “you should come out and tell us prisoners about it. We need it enough.” She promised to go, and she went. Then she went again. She had entered upon her life work.</p>\n  <p>To her final decision, she had remarkable guidance. She had in this early time agreed to visit a prisoner but decided to put it off in order to pay a pressing society call. On the night before, in vision or dream, which she could not tell, a prisoner came into her white chamber with irons on hands and feet, rattling as he went. In the middle of the room he halted and looked at her with sorrowful eyes. She heard words with startling distinctness: “thousands of poor, chained prisoners sigh for life, freedom, and peace. Speak to them the word of Him who can make them free, so long as you have time.”</p>\n  <p>Then the apparition vanished.</p>\n  <p>She tossed about greatly disturbed, thinking of her youth, delicate health, and the burden prison work would entail. Finally she opened her Bible. Her eyes fell first on Jer.1:6: “Ah, Lord God! Behold, I cannot speak; for I am a child. But the Lord said unto me, Say not, I am a child; for thou shalt go to all that I shall send thee, and whatsoever I command thee thou shalt speak.” With a prayer, she asked for a confirmation of her commission. The next passage that struck her eyes was Ezek.3:11: “Go, get thee to them of the captivity, unto the children of thy people, and speak to them.”</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg\" alt=\"Women and children gathered in a bare room\">\n  </figure>\n  <p>Sometime after, she was called to Helsingfors, the capital, and, passing a chain-gang on the streets, asked herself why she should not utilize her leisure in visiting the prisons there. She went to the head of the prison administration, introduced herself as the daughter of the Governor of Vasa, and asked for a permit to visit any and all jails and prisons of Finland. The director asked her age.</p>\n  <p>“I am twenty.”</p>\n  <p>“Not exactly an advanced age.”</p>\n  <p>“That is a fault that will correct itself in time.”</p>\n  <p>She got her permit with the observation that it was given in the conviction that it would not be long used. “A ballroom would soon be felt to be a more suitable place for her than prison interiors.”</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg\" alt=\"A guard walks in front of prisoners wearing striped clothing\">\n  </figure>\n  <p>Her ministry began in the Kakola prison, near Abo, where four hundred life-sentenced are interned. She was asked to speak to them in chapel on Good Friday. When she had finished, they were weeping. Day after day she visited them at their cell doors, preaching, teaching, writing for them, encouraging them, sympathizing with them. The most desperate, even maniacal prisoners calmed in her presence. One prisoner described the effect her first appearance made upon him, pining as he was behind the thick prison walls. “I remember distinctly the moment when, for the first time, I saw her standing in the doorway of my cell. It was as if daylight were streaming in, as if spring had come with its greenery in the barrenness of winter.”</p>\n  <p>For forty years, Mlle. Wrede ministered to men and women behind the bars. She had a government ticket on all Finnish state railways and took a general oversight not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged. One gets the impression from reading the incidents of her life of a special <em>charisma</em> given to this woman for the work for which she was called. Her biographer thinks the same, and, after speaking of her natural capacities, her tact, good judgment, tenderness, adds:</p>\n  <p>“She was ever known as of friendly disposition but now there streamed through her an entirely new feeling, a hot sympathy for those suffering men such as she could not have imagined before. It was as if a spark of divine love had set her heart afire.”</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg\" alt=\"A long line of prisoners standing outside a building\">\n  </figure>\n  <p>“Idolized” is a lean word to express her place in the hearts of Finnish prisoners. The Russian government was relentlessly pursuing a policy of repression in Finland, and batches of prisoners were dispatched at intervals from Wiborg to the Siberian mines. Mlle. Wrede was on hand to bid farewell to them and to comfort them as they passed into their Siberian life sentence. One can imagine the state of these breaking, bleeding hearts. On one occasion they asked her to leave before the final scene. They felt ashamed of their cropped heads and exile prison garb. When, however, on the last evening, she crossed the prison court, an arm stretched out through every grated window to her, and one of the prisoners called out sobbing, “Farewell, thou dearest, daughter of our Fatherland, thou only true friend of the prisoners.”</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg\" alt=\"People scattered across a city square\">\n  </figure>\n  <p>When on vacation she usually spent some weeks with her intimate friend, the Princess Lieven, in the Kromon Castle, Livonia. On coming home, she went to her lodging in a little Helsingfors back street, hired from another friend, Miss Hedwig Haartmann, the leader of the Salvation Army in Finland. <em>In this, her home, she lived on the same fare as the prisoners in prison, and they knew it.</em> Such were the contrasts in this life – related by birth to the highest breeding and by choice to the greatest need. Daytimes she engaged in visiting the prisons; evenings were given up to other troubled, tempted men and women who came to consult her. She often went about the country visiting her ex-convicts of many years standing. Everywhere she was accorded enthusiastic reception. One ex-convict invited her to his home and slept on the floor before her door like a dog so that she should not be disturbed in any way.</p>\n  <p>She spent herself to the uttermost farthing. When, after a night of insomnia, she felt a certain reluctance to take up her daily task, she would say to herself encouragingly, “Today I have again the privilege of being occupied with my Father’s business.” Then while going down the stairway she would continue, “O my poor body! How tired you are! We are now going to try again to get a-going. Up to now you have shown yourself obedient and patient when love spurred you to work. I thank you. I know you will not leave me in the lurch.”</p>\n  <p>So much has happened in the last years of European life that the detail of history blurs in many minds and one forgets the terrible contests between the Red and White factions in Finland that followed the Russian revolution. When it broke out, Russian soldiers stormed the Kakola prison and set the prisoners at large. These ex-convicts, together with the Jacobin elements which the revolution churned up from the depths, took the reins in their hands and a Terror followed that made a fair imitation of that of ’93. They tell of country people tied to chairs with tongues nailed down to their tables and bread placed before them. Then they were left to starve. When the Whites returned to power they paid their scores in full weight coin.</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg\" alt=\"A woman reads to people seated inside a prison cell\">\n  </figure>\n  <p>Mlle. Wrede was in family connections White; in her career, she was closely in touch with Red society as represented in the prisons in which she ministered. On the table of her living room stood during all this troubled time, a glass with two flowers, one red, one white. These typified her double relationships. Her door was open to both Reds and Whites. All in need, all who were mourning over dead or imprisoned loved ones, came to her to get advice, sympathy, and help. She often quoted the words in Acts, <strong>“And Paul dwelt two whole years in his own hired house, and received all that came in unto him.”</strong> In the amnesty times her quarters were overrun with ex-prisoners who in shoals, came to her and besieged her from morning till night. The Red Guardists treated her with childlike respect and kindness and she was able to intercede for many with whom it otherwise would have gone hard.</p>\n  <p>One day a pair of Finnish Bolshevists came to her apartment and demanded money. “Money I have,” she answered, “but it is for the old and sick.”</p>\n  <p>“But we are hungry.”</p>\n  <p>“So am I. My breakfast is coming, and you may share it with me.” When it came it was a single slice of bread and little cabbage. The pair involuntarily laughed, and one whispered, “We have surely stumbled in on Mathilda Wrede.”</p>\n  <figure>\n    <img src=\"/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg\" alt=\"An engraved illustration of a bottle lying on its side\">\n  </figure>\n  <p>“Yes,” she said, “I am, indeed, Mathilda Wrede. As you see, the breakfast will not suffice for all, but if you will come to supper there will be enough and we will confer on how such capable and industrious men as yourselves may earn your own meals.”</p>\n  <p>They went off with “many thanks” and hat in hand.</p>\n  <p>Here, as everywhere, drink is the first cause of imprisonment, drink ending in quarrels and murder. One day she was met on the street by an old prisoner who had been drinking. She asked him if he had work.</p>\n  <p>“Oh, yes, I am an asphalteur.”</p>\n  <p>“Are you well paid?”</p>\n  <p>“Oh, yes.”</p>\n  <p>“Then you no doubt put your money in the bank.”</p>\n  <p>“Sure! I carry each week much money to the bank.”</p>\n  <p>“That’s good. In what bank do you deposit it?”</p>\n  <p>“It all goes to the Sinebrychoff Bank (one of the great breweries of Helsingfors).”</p>\n  <p>“But L-, that is terribly sad. If you haven’t self-control enough to do otherwise, give me your money and I will deposit it in a real bank.”</p>\n  <p>“No, thanks. I’ll keep it. I am used to beer and must have it as long as I can get a drop.”</p>\n  <p>“ ‘As long as I can get a drop.’ These words re-echoed in my ears. When ever will this murderous flood of intoxicating drink that engulfs homes, bodies, and souls be stanched?”</p>\n  <p>The story is told of a life prisoner whom Mlle. Wrede had often visited in prison, a man earnestly desirous of deliverance from sin. One day he surprised her by asking, “Would you lend me, Miss, your brooch?”</p>\n  <p>For years she had worn this silver shield inscribed in Finnish with the words, <em>Anno ja Rauha,</em> “Grace and Peace.”</p>\n  <p>“Don’t ask me why,” he continued; “just trust it to me and an hour afterward you shall have it again.”</p>\n  <p>Mlle. Wrede was wont, as far as possible, to defer to the wishes of prisoners, so she put it into his hands. An hour later it was returned but with no explanation. She could see, however, that in his mind there was a quiet satisfaction.</p>\n  <p>Some time after, she called again on him, and without saying a word he offered her a brooch, the exact replica of hers, but apparently in ivory. “How beautiful!” she exclaimed. “Where did you get the ivory? Is it really your work? It is far lovelier than the old one.”</p>\n  <p>“It is not ivory,” he answered. “Some months ago I found a bone in the soup, and I immediately thought to make a brooch of it for Miss Wrede. It has been in the sunshine for a long time, to dry out all the particles of grease. Later I shaped it as yours.” Then followed the unforgettable words:</p>\n  <p>“In the pot in which they cook soup for prisoners one seeks in vain for delicate morsels. Grant that this is a bone from an old cow. From it a prisoner has shaped a jewel for you. One can easily think of a life-sentenced person as an evil and worthless thing. But you have said that God in His goodness can deliver a man as bad as I have been. The sun of His love can consume all my sins as the power of sunshine has cleansed this bone. The thief on the cross was brought by Jesus to Paradise. The Lord in His mercy has a place for me in His kingdom, a great sinner but a pardoned one.”</p>\n  <p>Mathilda Wrede’s last words were: “Tonight I cross the frontier. Can any be as happy as I!”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738"
+}

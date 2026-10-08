@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "A. W. Tozer"
+        }
+      ],
+      "raw": "by A. W. Tozer"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "0a485caf-72ca-46c9-a982-7671d5b6a671",
+    "images": [
+      {
+        "alt": "Illustration of clasped hands raised in prayer",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0a485caf-72ca-46c9-a982-7671d5b6a671-1.jpg",
+        "repository_path": "public/images/articles/0a485caf-72ca-46c9-a982-7671d5b6a671-1.jpg",
+        "rights_note": "PDF image object 34. Embedded PNG/index image retained in published polarity and encoded baseline RGB/sRGB JPEG. No article-specific image credit or licence statement is printed; general masthead notes some images ©2001–2008 clipart.com / fotolia.com, without identifying this asset.",
+        "role": "Illustration of praying hands raised at a window",
+        "sequence": 1,
+        "source_page": 5
+      }
+    ],
+    "issue_id": "fc10b0ef-1255-413c-8283-f5d6f83232b5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "Praying . . . till we PRAY",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f76edefbb0dfb5215503aa2ac2db0924d45a1b2fe8807326ac399e3faf05107f",
+    "metadata_sha256": "81aca78c08b594293dc8f5faf0d4a0592b0ed377a437dba49470bcd1b58f271c",
+    "structure_sha256": "4dfd4afca60fefd86739ddd9dfa99404edd7638b2f0048eb3755570add60ae04",
+    "text_sha256": "1051bc466f750ef4546376d6c0d9eb63f9fae2e6705788548befa884a9107930",
+    "translation_metadata_sha256": "2787c5906cb7c745b048b877a754ae6f96a33deb4f544ea15965c5ec7dd5d569"
+  },
+  "html": "<article data-article-id=\"0a485caf-72ca-46c9-a982-7671d5b6a671\">\n  <figure>\n    <img src=\"/images/articles/0a485caf-72ca-46c9-a982-7671d5b6a671-1.jpg\" alt=\"Illustration of clasped hands raised in prayer\">\n  </figure>\n\n  <p class=\"drop-cap\">Dr. Moody Stuart, a great praying man of a past generation, once drew up a set of rules to guide him in his prayers. Among these rules is this one: “Pray till you pray.” The difference between praying till you quit and praying till you pray is illustrated by the American evangelist John Wesley Lee. He often likened a season of prayer to a church service, and insisted that many of us close the meeting before the service is over. He confessed that once he arose too soon from a prayer session and started down the street to take care of some pressing business. He had only gone a short distance when an inner voice reproached him. “Son,” the voice seemed to say, “did you not pronounce the benediction before the meeting was ended?” He understood, and at once hurried back to the place of prayer where he tarried till the burden lifted and the blessing came down.</p>\n\n  <p>The habit of breaking off our prayers before we have truly prayed is as common as it is unfortunate. Often the last ten minutes may mean more to us than the first half hour, because we must spend a long time getting into the proper mood to pray effectively. We may need to struggle with our thoughts to draw them in from where they have been scattered through the multitude of distractions that result from the task of living in a disordered world.</p>\n\n  <p>Here, as elsewhere in spiritual matters, we must be sure to distinguish the ideal from the real. Ideally we should be living moment-by-moment in a state of such perfect union with God that no special preparation is necessary. But actually there are few who can honestly say that this is their experience. Candor will compel most of us to admit that we often experience a struggle before we can escape from the emotional alienation and sense of unreality that sometimes settle over us as a sort of prevailing mood.</p>\n\n  <p>Whatever a dreamy idealism may say, we are forced to deal with things down on the level of practical reality. If when we come to prayer our hearts feel dull and unspiritual, we should not try to argue ourselves out of it. Rather, we should admit it frankly and pray our way through. Some Christians smile at the thought of “praying through,” but something of the same idea is found in the writings of practically every great praying saint from Daniel to the present day. We cannot afford to stop praying till we have actually prayed.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b6af7bc7a009b3954651d296dd51df8f6f3bf5eeee7fae273d038cfc87914193"
+}

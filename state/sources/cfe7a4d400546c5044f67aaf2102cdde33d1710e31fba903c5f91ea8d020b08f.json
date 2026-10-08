@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "3dfe461f-c7c7-45fd-a025-021d84717697",
+    "images": [],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "Correction!",
+    "topics": [
+      "23cce848-88a2-5732-8bfd-e371b31d81d3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e062ed9a6a1462edc5a1a8cc02d6d507ba38583992eb9c28a4f76a9e47f99e7c",
+    "metadata_sha256": "63dafcdbd44f3f016e6be3643d079fa18d2d29dbfa1628676272d76fd7f0303d",
+    "structure_sha256": "85f0491d1434b8cbc13e11c3cccd85db2eb8b3a7e9e2239e3b76014817213a24",
+    "text_sha256": "69e980befe55c6e3123bd63bfaf1fa7563086c67aa6ce0a3aeff8d7bac002ebe",
+    "translation_metadata_sha256": "57bf3fb8fc18547558b5fdebe2eafa9dad6307167ac8a5141613be8580deb680"
+  },
+  "html": "<article data-article-id=\"3dfe461f-c7c7-45fd-a025-021d84717697\">\n  <p>Oops! The verse below should have appeared below the title of <em>The Dangers of Drama</em>, page 24 of the May/June 2002 Remnant.</p>\n  <blockquote><p><em>“Therefore seeing we have this ministry, as we have received mercy, we faint not; but have renounced the hidden things of dishonesty, not walking in craftiness, nor handling the word of God deceitfully; but by manifestation of the truth commending ourselves to every man’s conscience in the sight of God.” II Corinthians 4:1-2</em></p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "1eb44ac34a370a332098debacf1eb18a561e0637bf4ffd700a751ba5ebd7af06"
+}

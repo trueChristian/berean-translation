@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "~Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "94dddad2-cc75-5292-86c4-8f450af98ad4"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7477ee2a-84a0-48a1-b020-2ae471e2dcd3",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7477ee2a-84a0-48a1-b020-2ae471e2dcd3-1.png",
+        "repository_path": "public/images/articles/7477ee2a-84a0-48a1-b020-2ae471e2dcd3-1.png",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The clean background was stored in the PDF as four adjacent sRGB JPEG tiles; those tiles were combined losslessly in their published positions into one 912 × 1376 sRGB PNG, without the separately rendered poem text.",
+        "role": "decorative background",
+        "sequence": 1,
+        "source_page": 10
+      }
+    ],
+    "issue_id": "4ece4257-ac97-59c4-9a46-5ee9d7fb95d1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 10,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Carelessly Drifting",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "855589ceba1a61b7ebb336951702f9629509c01ad6b632e071ac2e2eea0fcf31",
+    "metadata_sha256": "3cd4efb76166667a4633fe39b26088dcab896a67b24a2c4e59b2aeafa669ee06",
+    "structure_sha256": "b2b0c24850f827f9ad0b176f2d8f17d01aadc5e68d9739f834ff722d3addf29d",
+    "text_sha256": "74337c87cd81581b903637fa392be9f45f48ab8c8dfbf9d13b950adca72e37bf",
+    "translation_metadata_sha256": "067954cc86baa2feeb5bfb7a1c1cb12678cae1a79f482ceb384230ffd462f1f1"
+  },
+  "html": "<article data-article-id=\"7477ee2a-84a0-48a1-b020-2ae471e2dcd3\">\n  <div class=\"poem\">\n    <p>Carelessly drifting, the world rushes on,<br>\n    For pleasure and folly, a gay, giddy throng;<br>\n    Led on by the glitter, the pride, and the show,<br>\n    So careless and thoughtless as years come and go;<br>\n    Unheeding the voice of the watchman on high,<br>\n    “O turn ye, O turn ye, for why will ye die?”</p>\n\n    <p>Carelessly drifting away from their God ,<br>\n    Away from His people, away from His Word;<br>\n    Bewitched and enchanted with sin’s siren song,<br>\n    They plunge in the whirlpool of folly and wrong;<br>\n    Forgetting the holy, the pure, and the true,<br>\n    Still onward the byways of sin they pursue.</p>\n\n    <p>Carelessly drifting, the wise and the great,<br>\n    The rich and the poor alike drift to their fate;<br>\n    For gold and for silver, for honor and fame,<br>\n    So blind and deluded their glory’s their shame,<br>\n    Forsaking true wisdom and knowledge for dross;<br>\n    They seek for mere bubbles—in hell they’ll be lost.</p>\n\n    <p>Carelessly drifting from Jesus and right,<br>\n    Still farther and farther into the dark night;<br>\n    The prayers and the tears of loved ones they crush,<br>\n    Like filth in the streets as onward they rush,<br>\n    Hard’ning their heart as an adamant stone,<br>\n    Rejecting the blood for their sins to atone.</p>\n\n    <p>Carelessly drifting from heaven and home,<br>\n    From bright fields Elysian forever to roam;<br>\n    Far, far, from God’s mercy, His smiles, and His love,<br>\n    To suffer forever ‘neath His wrath from above;<br>\n    The blackness of darkness they choose for their fate,<br>\n    They awake to their doom when alas ‘tis too late!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/7477ee2a-84a0-48a1-b020-2ae471e2dcd3-1.png\" alt=\"\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7633520db1a3a8af877d03a29ae1bd3e9a6ee307f083342936f026476abc9853"
+}

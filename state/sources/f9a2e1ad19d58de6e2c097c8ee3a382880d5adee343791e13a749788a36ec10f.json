@@ -1,0 +1,47 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Tammy Wollman Stoltzfus"
+        }
+      ],
+      "raw": "—Tammy Wollman Stoltzfus\nNovember 21, 2000"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "db843985-881d-46b7-9730-62a66089c97b",
+    "images": [],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "Humility",
+    "topics": [
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357",
+      "f0b54656-ce75-5a6c-a712-5ab9f5b44c9d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "aa9bfe9b704444afa8c7d71fff0db18ccac8263974a26031c80ab692b62975f9",
+    "metadata_sha256": "8f826af8cc05a85d0465e846114b97e32e41ad1ffe363f31ba2a29223db178bb",
+    "structure_sha256": "11cb387a196c204de8791a3bdd64559cf3288b65ff073241a5648c1784e9af6e",
+    "text_sha256": "2671a917822c94b44dcdd5f8d9640f8b67fcee729af063c4fad615cf816aa7dc",
+    "translation_metadata_sha256": "68fafaaa946ca024667d19981d827866442c1e054e3ca1b8df3b678a00a6bf6d"
+  },
+  "html": "<article data-article-id=\"db843985-881d-46b7-9730-62a66089c97b\">\n  <p class=\"poem\">At any cost, O Lord, for any price<br>And may I never call it sacrifice<br>There is one grace, one thing I must possess<br>Humility is what I need, I’ve none, I must confess.</p>\n  <p class=\"poem\">This wretched pride I fear possesses me<br>And keeps my Lord from drawing close to me<br>It causes me to serve myself, and yet<br>Turn away when others cry, “Help.”</p>\n  <p class=\"poem\">This evil vice corrodes the soul within<br>We cannot call it less than godless sin<br>Too oft ignored in many a Christian’s life<br>It is the source and root of every strife.</p>\n  <p class=\"poem\">Root out destructive tares that pride has sown<br>I would possess a nature like Thine own<br>Wilt Thou not, Lord, to me, impart<br>This my prayer: A humble servant’s heart?</p>\n  <p class=\"poem\">A heart with not a thought for me or mine<br>No praise, or honor, which are Thine<br>Make me a lowly vessel in Thy hand<br>Ever waiting Thy command.</p>\n  <p class=\"poem\">When others meet me, may they see<br>The meek and lowly Lamb in me.<br>Laying down his life again<br>To save the people from their sin</p>\n  <p class=\"poem\">As much as pride now possesses me<br>So make me possess, in full, humility<br>At any cost, O Lord, for any price<br>And may I never call it sacrifice.</p>\n  <p><em>—Tammy Wollman Stoltzfus<br>November 21, 2000</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "119ca99707640a3708508e498c47718f7cca4486211233b0bb6934b14bd68eed"
+}

@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "731557dc-79d3-4e72-9c76-3cc93c3d32f4",
+    "images": [
+      {
+        "alt": "A mailbox labeled with The Remnant publication address, with flowers climbing its post.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/731557dc-79d3-4e72-9c76-3cc93c3d32f4-1.png",
+        "repository_path": "public/images/articles/731557dc-79d3-4e72-9c76-3cc93c3d32f4-1.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 104. Clean grayscale base preserved; the address lettering and light gray background are intrinsic to the sole raster. Separate section heading, text, and rounded panel omitted. Original PNG pixels and dimensions retained without recompression.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": "Extracted PDF base image object 104. Clean grayscale base preserved; the address lettering and light gray background are intrinsic to the sole raster. Separate section heading, text, and rounded panel omitted. Original PNG pixels and dimensions retained without recompression.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0eedd56e8dc3b33181d5fa6fd95385d29b24ddbfab0adcbd776c767014d8343f",
+    "metadata_sha256": "8fbfcff32ae154a3273e08fe333df9637b399560af75a93853f6d4fd34fefc8f",
+    "structure_sha256": "24a97f6ee381a8214b977f0dbd2d9e259b849cf4b2b8065863ada5e553de2362",
+    "text_sha256": "1bf145a5fb0737c26e726e9deb42a0eb3cc108db763a6b694d245fdb4acf0782",
+    "translation_metadata_sha256": "fc2103b37f984977167a3eabeb4f8cdfcf5a0adddbc76b80210179bc4d84311d"
+  },
+  "html": "<article data-article-id=\"731557dc-79d3-4e72-9c76-3cc93c3d32f4\">\n  <figure><img src=\"/images/articles/731557dc-79d3-4e72-9c76-3cc93c3d32f4-1.png\" alt=\"A mailbox labeled with The Remnant publication address, with flowers climbing its post.\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <p>Dear Friends in Christ,</p>\n  <p>We’re unable to express to you how much your publications mean to us in rich blessings. Of course we enjoyed the articles on China and can tell you that we hold “Heavenly Man” in highest esteem. It has been several years since we’ve heard him preach, yet his messages remain fresh, through the work of the Spirit.</p>\n  <p>We realize God is anointing your ministry, as well, for one article after another speaks so exactly to our deep needs, giving light for our way. May the Lord encourage you that your labor is not in vain in the Lord and grant “a jubilant pining and longing for God…that brings spiritual torrents and whirlwinds of seeking and self-denial.”</p>\n  <p>“Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness; being enriched in everything to all bountifulness, which causeth through us thanksgiving to God.” II Cor. 9:10, 11</p>\n  <p><em>China</em></p>\n  <hr>\n  <p>Dear Remnant,</p>\n  <p>I am a young lady turning 18 on the 29<sup>th</sup> of this month. I am writing to thank you so much for <em>The Heartbeat of the Remnant</em> and Charity Christian Missions magazines and your Tape Ministry. My family and I really enjoy them. We are a homeschooling Christian family who love God dearly. I thoroughly enjoyed Denny Kenaston’s articles and interviews with the Chinese brothers. (Radical Chinese House Churches, Pt. 1 &amp; 2, issues Jan-Feb 2003 &amp; March-April 2003) I have felt a huge burden for the Chinese brethren’s lack of Bibles. I am considering studying to be a missionary to China. Right now, I don’t really know what God will lead me to do. I will be trying to get my GED started soon. Anyway, thank you again for your ministries. May God richly bless you!</p>\n  <hr>\n  <p>Dear Brethren,</p>\n  <p>Just writing a note to ask you to continue sending the magazine to us. It is indeed such a blessing. My husband often photocopies key articles and hands them out to men at work and those God has put in our path to disciple. A few weeks ago I read “The Sacrifice,” (a prayer—anonymous author) to the ladies in our county jail. You could hear a pin drop. <em>The Remnant</em> does reach beyond the mailing list to be sure.</p>\n  <p>God bless you in all you do that brings glory to His Name. The time is soon coming that we will see Him face to face, and these articles indeed are so helpful in preparing His bride.</p>\n  <p><em>Maryland</em></p>\n  <hr>\n  <p>Charity Ministry,</p>\n  <p>My wife and I have been led down a road quite unexpected. We were not raised in an atmosphere like that Brother Denny teaches. The kind of faith we grew up around was quite weak. We thank God that He has put in our hearts a vision that is parallel with His will. We have chosen to home school our children and allow the Lord to set the size of our family. We strongly desire to raise up a godly seed. God is showing me the purpose of Christian families. I am amazed how far we as a Christian nation have fallen. My goal as a pastor is to show and teach families the holy standard of God. It is truly beautiful. I praise God for having mercy on me by letting me see these wonderful views. However, I feel I fall drastically short and feel way behind. At this time, I am unsure where God will lead from here. I would love to live for a while in an atmosphere of like-minded brethren. I would also like for God to transform us right here where we are that we might manifest His sweet will in front of the congregation we presently serve.</p>\n  <p>All of this said, I wanted this ministry to know that it has a like-minded pastor in Oklahoma strongly desiring the Lord to raise up the remnant for His glory in this nation. I long for my family to be heavily involved in being used by God to proclaim the truth in word and deed. I also covet your prayers. I feel somewhat alone in this area, and do not want to fall short in my calling.</p>\n  <p><em>Oklahoma</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5d97e544ee8be99b42ebde232fff3a3fce922fd79a5c701e85c23729b8778bac"
+}

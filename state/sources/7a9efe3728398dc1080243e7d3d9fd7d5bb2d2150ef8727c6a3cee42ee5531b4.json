@@ -1,0 +1,101 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Athens, Wisconsin",
+          "name": "Lee Rufener"
+        }
+      ],
+      "raw": "Lee Rufener\nAthens, Wisconsin"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "afb391a2-30ba-44e3-a83d-72aa06c67466",
+    "images": [
+      {
+        "alt": "A brown rock hyrax resting on pale rocks among grasses.",
+        "caption": null,
+        "credit": "© Pixabay",
+        "public_path": "/images/articles/afb391a2-30ba-44e3-a83d-72aa06c67466-1.jpg",
+        "repository_path": "public/images/articles/afb391a2-30ba-44e3-a83d-72aa06c67466-1.jpg",
+        "rights_note": "Masthead on printed page 2 states “© Pixabay | pagee: 14” (source spelling retained); no individual licence or separate permission requirement is stated. The only source is page-scan PDF image object 64 (1648 × 2224 RGB pixels), with the original page already flattened into it. PDF object/resources, paint order, clipping and transparency inspected: no separate clean photograph, tile, soft mask or transparency group exists. A meaningful unobstructed source-pixel photograph crop [0, 998, 1648, 1990] omits all article/poem text and attribution above and the running footer below, with a small sky/rock edge trim to avoid the skewed scan boundary. No pixels synthesized, retouched or opacity-adjusted. Source PDF ICC profile object 11 is sRGB IEC61966-2.1; exported as baseline sRGB JPEG with embedded sRGB profile and nonzero 96 dpi density. The narrow left-edge horizontal scan distortion near the lower part of the photograph is already present in the supplied source raster and is retained without repair; it is not export corruption. Final output uses vertical-only Lanczos resampling by 1.0445971 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "closing photograph",
+        "sequence": 1,
+        "source_page": 14,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            998,
+            1648,
+            1990
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1648,
+            1036
+          ],
+          "placed_page_dimensions_points": [
+            598.0,
+            843.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1648,
+            2224
+          ],
+          "source_object": 64,
+          "vertical_scale_to_pdf_placement": 1.0445970982411394
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 12
+    },
+    "subtitle": "The conies are but a feeble folk, yet make they their houses in the rocks (Proverbs 30:26).",
+    "title": "At Home Among the Rocks",
+    "topics": [
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3",
+      "e16fa525-448d-504a-8ebc-927c62ec6e8f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "58fb8eb35d64ac571727e9da459d0893c7c6b0df296d605c2027f7d7221be52d",
+    "metadata_sha256": "1a81a6b5614d132a7f8f420b070eb0f8bf99879711c3dac8b80c16d0e732946a",
+    "structure_sha256": "19a9e833c0bb5c40f13e605e6a6e01dba1d7882b5da6da2202efb0c45967ba2e",
+    "text_sha256": "4c74b55d27565014779a2a34dd078bd5b7225d1dbe9582b245ffc6791cd76421",
+    "translation_metadata_sha256": "56dc74dc774989588225ee91fff392671e289c7bc8d0f256008724b3ab032cc9"
+  },
+  "html": "<article data-article-id=\"afb391a2-30ba-44e3-a83d-72aa06c67466\">\n  <p>I shall take the liberty to stretch the Biblical character of the coney (rock badger) into a creature more common to us today, known as the groundhog. They certainly are a despised folk, as they bear the brunt of the farmers’ curses and often become the pointed object of a rifle scope. But apart from the real estate they occupy in the fields of the farmer, these detested creatures own a block on every calendar.</p>\n  <p>The second month of the year derives its title from Februa, the mother of the pagan Roman god, Mars. The pre-Christian Romans burned candles to Februa in hopes that she would influence her son to bring about an early spring. The expectations and aspirations of these early earth dwellers failed to enter into an appreciation of the sublime “treasures of the snow” (Job 38:22) and had hinged their hurried hope on the ridiculous event marked on the second day of the second month…Groundhog Day.</p>\n  <p>People have long credited animals with the ability to forecast the weather. Many watch the color of the woolly worms in the fall to predict how harsh the winter will be. It was the early English settlers who considered the badger as the harbinger prophet of springtime. As they observed the creatures of the new world, they decided that the American badger was a furry marmot that the Indians long had called <em>wejac</em> or <em>woodchuck</em> in English. As the spiral of mistaken identity continued to warp and twist, they later ascribed the name of groundhog to the native woodchuck.</p>\n  <p>Time birthed the legend to life that on February 2, the drowsy groundhog rouses from his deep slumber and takes a peek out the door of his burrow. If he sees his shadow, he is frightened and scurries right back into his cozy bed, while his instincts inform him that there will be six more weeks of winter. If the day is cloudy, there is no shadow cast, and the old sage sees the end of winter in sight, and continues on with life at that time. This traditional convolution centers in Punxatawney, Pennsylvania, where the custom is annually revived, and observers note all these happenings with much fanfare and excitement. But the furry sleepers, if they move at all, just roll over in their beds like many of their human counterparts when they don’t have to get up. While the celebrated event gives those who dread the chill of winter a diversion for a day, it does no harm to the star of the show, who is not impressed by this claim to fame anyway. His prophetic message lies not in his instinctive prediction of the weather, but in the fact that he makes his home in the rocks.</p>\n  <p>“The high hills are a refuge for the wild goats; and the rocks for the conies” (Psalm 104:18). Some may resist the thought that there is a positive lesson to be gleaned from the despised varmint, but Christ was avid to point out that even mindless flowers can teach us to trust. I am thus unashamed to concur that these humble earth dwellers can teach us something about choice. While we have grown accustomed to believing that the way to happy success is the path of least resistance, the groundhog denies this, and so does our Lord.</p>\n  <p>“Whosoever cometh to me, and heareth my sayings, and doeth them, I will shew you to whom he is like: he is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock” (Luke 6:47–48). Building a house upon the rock is no more difficult than building upon the sand, provided the digging has already been done. It is the deep digging that is often neglected in the Christian life. But here our Lord graciously lent us the parable, explained the end result of those who refuse to dig, and then “ended all his sayings (Luke 7:1). While we are given no specifics as to what this digging entails, we can safely conclude that it is the removal of something from our lives. Thus, we seek the wisdom of the groundhog.</p>\n  <p>It goes without question that the groundhog cannot choose against his nature. Nevertheless, it is his natural choice to make his home in the rocks and apply his energies to the work of digging deep. When man was removed from the Garden of Eden, he, too, was commissioned to work. “In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return” (Gen. 3:19). For six millennia, man has been obedient to that calling. But over the past 100 years, we have experienced a major shift. The Industrial Revolution has invented and produced labor-saving devices that replace the need for sweat. Most men now go to work to push buttons, stare into computer screens, operate power tools, or manage people. It is not that we are not industrious in our ease, but our nature will never again embrace the difficulties found in living among the stark density of cheerless rocks.</p>\n  <p>I do not claim that there is more merit in operating a bow saw over a chainsaw, an ax over a log splitter, a wheelbarrow over a skid steer, or a wood stove over a high-efficiency gas furnace. The problem arises in the spiritual realm, where we are just as apt to circumvent self-denial, choosing to make our home among the cushions rather than the rocks.</p>\n  <p>“Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me. For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it. For what is a man profited, if he shall gain the whole world, and lose his own soul? Or what shall a man give in exchange for his soul?” (Matt. 16:24–26). Self-denial, then, is the first principle of discipleship. Without it, you cannot walk one step with Christ, and He will not walk one step with you. This passage is clearly speaking of the salvation of our lives or the losing of our souls. We are not forced to dig deep in such a way, but the terms are still firmly in place. To deny self is to say no to the cravings of the body, lustful ambitions, sinful indulgences, and, more specifically, its love of pleasure. Man departed from God by refusing to deny self while building on the sands of pleasure. To return to God, he must turn around by performing the opposite behavior. While many pleasures are sinful, some are a gift from God, and man finds his greatest difficulty in sorting out between the two.</p>\n  <p>Our modern society has reached a plateau of unprecedented enthrallment. Past generations have all been acquainted with a degree of pleasure, but modern inventions in America have made it available and affordable for all. Our ancestors all knew the delight of a young man with a maid, a baby’s first smile, and the securing of the harvest for the winter. They also were faintly acquainted with the sweetness of honey and the joyful mirth of music and song. But it is the sheer quantity and quality of such unbounded pleasure that differentiates their pleasure from ours. Our showers are hot; our drinks are cold; our bedrooms are exquisite and private; our music is professionally recorded by the finest musicians; confectionery sweets and dainty morsels are available on every corner and afforded by even the poor. Though we are speaking only of the legitimate pleasures, the previously limited access to such has been lifted, and we are left to our own discipline to govern such delights. Despite having more available sources of pleasure than ever before in history, we are probably the unhappiest people who have ever lived. Our generation faces an unprecedented challenge to resist the barrage of sensual stimuli and deny ourselves. It seems our lives have rivaled that of Solomon in the abundance of delectation extended to us.</p>\n  <p>“I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure… I sought in mine heart to give myself unto wine… I made me great works; I builded me houses; I planted me vineyards: I made me gardens and orchards, and I planted trees in them of all kind of fruits: I made me pools of water … I gat me men singers and women singers, and the delights of the sons of men, as musical instruments, and that of all sorts … And whatsoever mine eyes desired I kept not from them, I withheld not my heart from any joy; for my heart rejoiced in all my labour: and this was my portion of all my labour … Then I looked on all the works that my hands had wrought, and on the labour that I had laboured to do: and, behold, all was vanity and vexation of spirit, and there was no profit under the sun.” (Ecc. 2:1–11)</p>\n  <p>In spite of the plethora of pleasures about us, it seems to produce a certain numbness that we now call <em>anhedonia</em>. This is a reduced ability to experience pleasure, while a feeling of joylessness and cheerlessness settles in. Our food must be tastier, smoother, and crispier than our last dainty meal. Our music must be more creative and professional than previously heard. Our autos must be nicer than the previous one. Even in our churches, preachers must out-wow their last sermons or attendance may drop. We are progressively becoming addicted and dependent upon consistent creative flushes of new novelties to recharge our sense of happiness. In our perpetual passionate pursuit of pleasure, we often trample right over it. In reality … we are literally being thrilled to death!</p>\n  <p>There are obviously pleasures that bestow a blessing and those that carry a curse. At God’s “right hand there are pleasures for evermore” (Psalms 16:11). Pleasure is a healthy and necessary part of human existence, enabling us to experience a beautiful life. The steam locomotive in 1880, followed by Ford’s automobile, the Wright brothers’ plane, Franklin’s electricity, Bell’s phone, and Edison’s motion pictures, were all precursory miniature heralds of the greatest pleasure-skewing device ever, the computer with its ensuing internet. In our quest for greater output, nothing has accelerated the pace of life, increased competitiveness, reduced rest, and filled in our leisure time more than its advent. It has consistently delivered the wrong sort of pleasure while slowly pilfering the glorified version God has given. As the Internet soars, the inner man sours.</p>\n  <p>What does the coney have to advise our generation? They make their home in the rocks. While their rat cousins prefer to dwell among the sewers and excrement of the human rat race, these <em>feeble folk</em> are content to dig. But their lives are far from stoic anti-pleasure-ism. The social prairie dogs are among the dearest emblems of fun-loving and playful family creatures on earth. They teach us that we can enjoy just as much exultation in losing ourselves in the common little things as in a glorified occasion. It can be exhilarating to get recklessly lost in your garden. But when pleasure becomes misdirected, we become focused upon purloining something instead of joining something. David was vulnerable to this temptation and was “drawn away of his own lust, and enticed” (James 1:14). Likewise, “Samson said unto his father, Get her for me; for she pleaseth me well” (Judges 14:3). Both Bathsheba and Delilah offered powerful, enticing pleasure to these men of God. But in their grasping for it, both men surrendered the very bliss they thirsted for. Pleasure, then, is not to be attained only in the moment of receiving, but in the waiting and anticipation that something very special is yet to befall us. When it arrives instantly, it bids us adieu just as quickly. Pleasure that is at home among the common rocks will far surpass our persistent lust for progress and promotion any day. Our fondest memories lie not in the electric moments when the lightning flashes through the gloomy clouds of our lives, illuminating our path with momentary glitter. Rather, they are nourished by the warm glow of daylight in the soul that fills the mind with a steady and perpetual serenity, in full assurance that the thrill of springtime will arrive in its own good pleasure.</p>\n  <p class=\"poem\"><em>Pleasures lie thickest where no pleasures seem;<br>There’s not a leaf that falls upon the ground<br>But holds some joy of silence or of sound,<br>Some sprite begotten of a summer dream.</em></p>\n  <p><em>Laman Blanchard, Sonnet VII, “Hidden Joys”</em></p>\n  <figure>\n    <img src=\"/images/articles/afb391a2-30ba-44e3-a83d-72aa06c67466-1.jpg\" alt=\"A brown rock hyrax resting on pale rocks among grasses.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a4572d5329c4f003df153998df6da605291318f65585dbe3fcbdb4fdec44304e"
+}

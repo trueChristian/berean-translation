@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Klagenfurt, Karnten, Austria",
+          "name": "Anthoni Erfordter",
+          "role": "song author"
+        }
+      ],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c522e017-97ab-419f-90cc-ea0f1c4741e8",
+    "images": [],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "BLOOD IS THE COLOR OF OUR BAND!",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "13607865-d967-50a5-ae9a-024549fcf142"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c0e19f4fe5b07cc7c223799115e07150b974328dcf45bb00f83aa46c5fad6088",
+    "metadata_sha256": "728c6eb0ae3cee7a049e3f0244c0ed40e548fc0d85d3ad0ec52caef2d75dfab9",
+    "structure_sha256": "c1faa26b388ec920c8329ae7e73ce802d9bff937460b4dd2d4e3cf7156b9a596",
+    "text_sha256": "619f1a213ae1a30e78c295198ce473774f0819403460c987211deb6f830263a9",
+    "translation_metadata_sha256": "8b6f622d7f3fd32fb206a3dda542a6c072edb712a7e5b4c122b068231e35abf7"
+  },
+  "html": "<article data-article-id=\"c522e017-97ab-419f-90cc-ea0f1c4741e8\">\n  <p><em>Anthoni Erfordter of Klagenfurt, Karnten, Austria, was converted by two Anabaptist messengers. He suffered much from local authorities and family, and eventually fled to Moravia, leaving his wife and children behind, never to see them again. He wrote the following song in 1541.</em></p>\n\n  <div class=\"lyrics\">\n    <p>Oh God, to whom shall I tell the story of my great misery? Whoever honors your name must be flogged, tormented, tortured, and put to shame as a dangerous heretic. Men desire to kill him and give him the sword and fire for his reward.</p>\n\n    <p>With this good news his disciples go out, preaching the gospel to every creature and baptizing those that believe. For this they suffer great opposition from the Antichrist. They have to leave their wives and children. Men take their possessions, and all their friends forsake them. Wherever they flee, their persecutors discover them to torture them on the rack, behead them, or burn them alive.</p>\n\n    <p>But look, you knights of Christ, nothing on earth is unbearable if we stick to Him. He is our captain. He will stand with us and defend us with a glorious power. Let us give everything to Him, for His kingdom will stand forever.</p>\n\n    <p>Go from me, wicked world! I have given my life and body to Christ! Possessions, friends, money—do not hold me back! The fear of man can hold me no more. Though the emperor himself oppose me, though the police and the hangman do with my body as they wish, they can do nothing to my soul. It does not belong into their jurisdiction.</p>\n\n    <p>Willingly we will accept the stripes they give us, knowing that our Father will not receive any rebel against his discipline. But those that stay true and pure He will make His heirs. Therefore, Christians, chosen knights, be brave! Clutch your weapons in your hands. Be ready! Let no one drive you back! Fight manfully as long as life and breath remain!</p>\n\n    <p>The wicked ones will rage against you. But do not worry. Our bodies must suffer. Blood is the color of our band! Arm yourselves with the mind of Christ, who made His way through much suffering into eternal life. Daughter of Zion, see your king comes riding on an humble beast! He comes to swap your little suffering for the kingdom of heaven! Now world, I tell you goodbye! With joy I go riding off to meet my Father. Stay with me, Lord. Be my companion on the way and all the sorrow will be nothing to me. Protect my soul and I will stay with you unto the end.</p>\n  </div>\n\n  <p>~Free translation from <em>Lieder der Hutterischen Brüder</em> (Hutterian Brethren Songbook), 108</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "165ffc86d789f91dabf9a6aeddca1313f8b4fa89c8636b85439bec0566d2c1a3"
+}

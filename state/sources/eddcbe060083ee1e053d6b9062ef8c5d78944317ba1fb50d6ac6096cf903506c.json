@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Jaleesa D. Henderson"
+        }
+      ],
+      "raw": "Jaleesa D. Henderson"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "9b698649-bc80-4909-bdb5-ac16d0c029c9",
+    "images": [
+      {
+        "alt": "Faded praying hands on a parchment-like background with ornate corners",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/9b698649-bc80-4909-bdb5-ac16d0c029c9-1.jpg",
+        "repository_path": "public/images/articles/9b698649-bc80-4909-bdb5-ac16d0c029c9-1.jpg",
+        "rights_note": "No image credit, licence, or separate permission notice is printed for this background. Sixty-three embedded inverted-CMYK tiles were sample-inverted, converted to sRGB, and reconstructed into the clean full-page background at 2550 by 3300 pixels and 300 dpi, then baseline-encoded without the separate poem, title, subtitle, byline, or page text.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "bb87ee48-40aa-574c-b7a8-9898b928b451",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": "(Luke 18)",
+    "title": "Continuing Endurance",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "7cbeb8b9-7135-5056-a214-12c171f77b8e",
+      "6c7b3485-0894-5c43-9ca5-dfb913e45c90"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e418fac9cd668c80196c749a0346381357e09d53afc61d8e2a19de3e985bb311",
+    "metadata_sha256": "0d9b7647ea1d3f92724f06d80b83ec8c2491151794f6d6b077288f4c7f14cd8e",
+    "structure_sha256": "6ab4e62445b5ce4c62edb468de3fa45f0fbd57c6035889f2bd9ae255e37fe10e",
+    "text_sha256": "38d6b42798ca20d5f199fcf208362dd352f12c215f985fe649a3b95c9825b5bd",
+    "translation_metadata_sha256": "5a4058e1eb527cee89fc752d2b0df8168b7edc959687d4d07f792c93b2af268b"
+  },
+  "html": "<article data-article-id=\"9b698649-bc80-4909-bdb5-ac16d0c029c9\">\n  <figure>\n    <img src=\"/images/articles/9b698649-bc80-4909-bdb5-ac16d0c029c9-1.jpg\" alt=\"Faded praying hands on a parchment-like background with ornate corners\">\n  </figure>\n\n  <p class=\"epigraph\"><em>Continue in prayer, and watch in the same with thanksgiving... -Colossians 4:2</em></p>\n\n  <div class=\"poem\">\n    <p>The judge with whom the widow pled<br>\n    Would have ignored,<br>\n    But she implored<br>\n    Him to avenge her. So he said<br>\n    That he would heed<br>\n    And fill her need.<br>\n    He didn’t have a fear for God,<br>\n    But intellect<br>\n    Without respect<br>\n    For men. He loathed her frequent prod<br>\n    And anxious cries;<br>\n    Her tear-filled eyes.</p>\n\n    <p>We Christians ought to cry in prayer<br>\n    Aloud to God<br>\n    With feet unshod<br>\n    On holy ground that lays off care:<br>\n    “Thy will be done”—<br>\n    Our own we shun;<br>\n    Unceasingly we ought to pray<br>\n    With thanks or pleas<br>\n    On bended knees;<br>\n    Throughout our labours every day;<br>\n    At home, abroad—<br>\n    We talk with God.</p>\n\n    <p>A human judges fellow-men—<br>\n    Our God, His saints,<br>\n    Although He waits<br>\n    Upon His timing—how and when.<br>\n    God’s people must<br>\n    Submit and trust:<br>\n    He sees the view we find obscure<br>\n    And knoweth best,<br>\n    So let us rest.<br>\n    God’s ways are high; His methods sure…<br>\n    With one accord,<br>\n    Speak to our Lord.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5f7ff2dd95dfadaee289cb7a9a34b694217678685be5cd2761a9fcd0200edc04"
+}

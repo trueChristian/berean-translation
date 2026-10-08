@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Linda Lapp"
+        }
+      ],
+      "raw": "-Linda Lapp"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "40f96de8-cd9d-4e7d-8780-778b255149f5",
+    "images": [
+      {
+        "alt": "The poem Except a Corn of Wheat...Die printed over a close view of wheat",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 54,
+        "public_path": "/images/articles/40f96de8-cd9d-4e7d-8780-778b255149f5-1.jpg",
+        "repository_path": "public/images/articles/40f96de8-cd9d-4e7d-8780-778b255149f5-1.jpg",
+        "rights_note": "Original embedded PDF image object 54; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. The title, poem and byline are irreversibly baked into the only available wheat raster. No meaningful unobstructed crop can preserve the wheat composition; exact source raster retained under the unavoidable-overlay exception. No pixels synthesized. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "poem_background",
+        "sequence": 1,
+        "source_page": 14,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            1045,
+            1411
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 54,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            1045,
+            1411
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "unavoidable baked typography retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Except a Corn of Wheat...Die",
+    "topics": [
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8ca01ade722ff6c9255fe897840c88507477004dc2f7fb02ffc1ff67729b7312",
+    "metadata_sha256": "e6a6e0039e0977b752ac436f7a7af6286b682f875c7e6019dba80fc778f4ad54",
+    "structure_sha256": "e4ebc3a3a61152122744a13792636289baed47cee19a5d11ce3ec4b1341b7508",
+    "text_sha256": "87ee1a79245aca30002af0f340aee6c4d88b4bb44bfe9081fee48ddcb71685c6",
+    "translation_metadata_sha256": "df868b00c5cd854f916f4bafa20809106579e68cf3fdfb23a09ac5547a6eed7e"
+  },
+  "html": "<article data-article-id=\"40f96de8-cd9d-4e7d-8780-778b255149f5\">\n  <figure>\n    <img src=\"/images/articles/40f96de8-cd9d-4e7d-8780-778b255149f5-1.jpg\" alt=\"The poem Except a Corn of Wheat...Die printed over a close view of wheat\">\n  </figure>\n  <p class=\"poem\"><strong>I seemed to walk with the eye of my mind,<br>Through a field of sun-ripened grain;<br>Rippling, it swayed in the cool evening breeze,<br>As I pondered a “death-life” of pain.</strong></p>\n  <p class=\"poem\"><strong>I bent to retrieve a single, full stalk<br>Of that richly nourishing wheat,<br>And thought as I gazed at the fruit in my hands,<br>Of the life made by death complete.</strong></p>\n  <p class=\"poem\"><strong>Before there was fruit, before there was life,<br>A kernel of wheat had to die;<br>And from that surrender, LIFE sprang upward,<br>A promise of fruit multiplied.</strong></p>\n  <p class=\"poem\"><strong>I lifted my tear-filled eyes to the sky,<br>And whispered, “My Lord, can it be,<br>That fruit of a life consumed by Your love<br>Is found but in death’s victory?”</strong></p>\n  <p class=\"poem\"><strong>He turns to me; Oh the love on His face!<br>As He whispers in accent so low,<br>“My child, the fruit you are longing for,<br>Is found in death’s chilling woe.”</strong></p>\n  <p class=\"poem\"><strong>\"One kernel of wheat falls into the ground,<br>Its death gives way to new life;<br>Even so as you die to willful desire,<br>Life springs from death’s sacrifice.”</strong></p>\n  <p class=\"poem\"><strong>“Your agenda, your will, your purpose in life,<br>The visions and dreams of your soul,<br>Must fall on the ground of surrender’s soil,<br>Should abundant fruit be your goal.”</strong></p>\n  <p class=\"poem\"><strong>“I’ve put in the center of each corn of wheat,<br>The prospect of life-giving fruit,<br>And oh how I thrill when through death its increase<br>Is made plain in Christ-filled pursuit.”</strong></p>\n  <p class=\"poem\"><strong>Awed at the marvelous ways of my God<br>Glad that His ways exceed mine,<br>I turn my tear-stained face toward His voice,<br>And whisper, “My Lord, let me die!”</strong></p>\n  <p class=\"poem\"><strong>“Death to myself, and death to my dreams,<br>Yes, death to the things I hold dear;<br>Oh give me but death, that the fruit You deserve,<br>May in turn Thy Great Name revere.”</strong></p>\n  <p class=\"poem\"><strong>“My Lord take this fruit, sprung from death unto life,<br>And grind it to finest of meal.<br>Make bread for the hungry to feast and be filled;<br>Broken bread. Thus death’s final seal.”</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "4550ef73fa211832aa0143cbff57e7535d0a8e71c47d1e27b323749d333f29ce"
+}

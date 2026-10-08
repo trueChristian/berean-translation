@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Michael Sattler",
+          "role": "early Anabaptist martyr"
+        }
+      ],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "9514e8ea-e431-5806-a5f3-0953a922c074"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "30637e28-4fcf-487a-a24d-49906c2810b9",
+    "images": [
+      {
+        "alt": "Jesus speaking with a group of religious leaders",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-1.jpg",
+        "repository_path": "public/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-1.jpg",
+        "rights_note": "No image-specific source, licence, or separate permission notice is printed. The page-2 masthead says “Some images ©2001-2008 clipart.com / fotolia.com” but does not attribute this individual asset. Embedded Separation/Black JPEG decoded with sample inversion to baseline three-channel sRGB, retaining the published art and useful resolution.",
+        "role": "Pharisees illustration",
+        "sequence": 1,
+        "source_page": 26
+      },
+      {
+        "alt": "A group of scribes standing together",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-2.jpg",
+        "repository_path": "public/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-2.jpg",
+        "rights_note": "No image-specific source, licence, or separate permission notice is printed. The page-2 masthead says “Some images ©2001-2008 clipart.com / fotolia.com” but does not attribute this individual asset. Embedded Separation/Black JPEG decoded with sample inversion to baseline three-channel sRGB, retaining the published art and useful resolution.",
+        "role": "Scribes illustration",
+        "sequence": 2,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "82d9c013-5a75-453c-9193-1270033b393d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 26
+    },
+    "subtitle": "Faith and works as seen by early Anabaptist martyr, Michael Sattler, in 1527",
+    "title": "BEWARE OF THE SCRIBES AND THE PHARISEES!",
+    "topics": [
+      "f22af402-4835-56ba-987e-9a90f071d93d",
+      "6db2117c-b93c-5cd4-9883-77bea76742be",
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2e6d0a3dde74a7375563a79d59639a97c9ef1ed79999bca757f01c679ddc4272",
+    "metadata_sha256": "6998877506716e3e1cad08049ea6b7f74759d34128650dfa01e1defa48d07d95",
+    "structure_sha256": "5fec076f10c8c25a7c64385b01a81f10b0873da75860d28ae0cf44f44c38f9e7",
+    "text_sha256": "f6eb7e2685200a23eaa97646e91c1368c3cac1ec1098551d1aa090df7a986e66",
+    "translation_metadata_sha256": "ee524c412bebd7e13cd4a414f7260330e8b160a361897370c4a8442284606803"
+  },
+  "html": "<article data-article-id=\"30637e28-4fcf-487a-a24d-49906c2810b9\">\n  <figure><img src=\"/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-1.jpg\" alt=\"Jesus speaking with a group of religious leaders\"></figure>\n  <h2>Pharisees</h2>\n  <p>Therefore, when one speaks of justification through Christ, one must also speak of that faith, which cannot be without works of repentance—yea not without love, which is an anointing. For such an anointed faith, which is given to one from the resurrection of the dead, is the only Christian Faith, and is reckoned unto righteousness (Rom. 4).</p>\n  <p>Again, when one speaks of works, one must preach not, after the manner of the work-righteousness, the works of the law but the works of faith. That is a turning away from works, creatures, and your own self, through faith in Christ the crucified one. Not as what man can do <em>from himself</em>—but what he really can do in the power of faith. Which thereby are not man’s works but God’s since the <em>willing and the ability</em> to turn to God are not of man but the gift of God through Jesus Christ our Lord.</p>\n  <blockquote>Verily, blessed be he who remains on the middle path.</blockquote>\n  <p>Who turns aside neither to the works righteous who:</p>\n  <ul>\n    <li>Promised blessedness or the forgiveness of sins, through work done without faith, i.e., through that which, in one’s works one thinks is one’s own; thus they turn aside to the left and lead others that way,</li>\n    <li>Preaching works in such a way that they think no more of faith, and which neither to see nor to hear anything about faith, that is necessary to salvation, so that all their works are lime plums, i.e., ceremonies without faith.</li>\n  </ul>\n  <figure><img src=\"/images/articles/30637e28-4fcf-487a-a24d-49906c2810b9-2.jpg\" alt=\"A group of scribes standing together\"></figure>\n  <h2>Scribes</h2>\n  <p>Nor to the side of the scribes, who although they have forsaken works, they turn aside to the right, and teach in the name of the “gospel” a faith without works, and take the poor obedient Christ who:</p>\n  <ul>\n    <li>Had no place to lay His head (Luke 9)</li>\n    <li>Who speaks without complaint or self defense, (Luke 22),</li>\n    <li>[Who said] “nevertheless, Father, not my will but thy will be done”</li>\n  </ul>\n  <p>[These scribes] take Him as their satisfaction, but will not hear what He says:</p>\n  <ul>\n    <li>“Come, follow me” (Luke 9).</li>\n    <li>“He who does not forsake all that he possesses, cannot be my disciple” (Luke 14).</li>\n    <li>“He who would follow me, let him deny himself and take up his cross and follow me” (Mark 8).</li>\n  </ul>\n  <p>Yes, the Father must also be a fanatic to them, when He says, “This is my beloved Son, in whom I take satisfaction; hear Him.” They make of Christ, after His humanity, what the pope has made out of the saints, namely a golden calf. Following the precedent of the Jews, that is they confess Christ as the son of David and then deny Him, yea, call Him a fanatic, since God’s Word and Son was sent into the world, to manifest the obedience or righteousness of His Father not alone in words but also in works, so that all who would believe in Him should not perish in their death, but be delivered from death.</p>\n  <p>All of their preaching and fruits are like prickly thistles. They say much about faith and yet know neither what Christ nor faith is. They reject works without faith in order to raise up faith without works.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2bcbf2b19332da78dee75d596ee52f345dc6c351d93715ac21d7ec942d4c9ef8"
+}

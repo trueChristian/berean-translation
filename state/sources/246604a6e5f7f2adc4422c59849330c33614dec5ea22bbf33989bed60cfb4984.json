@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "76009211-1c2a-4f55-a4be-17d515e9cfcd",
+    "images": [
+      {
+        "alt": "A man carrying another man on his shoulders",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/76009211-1c2a-4f55-a4be-17d515e9cfcd-1.jpg",
+        "repository_path": "public/images/articles/76009211-1c2a-4f55-a4be-17d515e9cfcd-1.jpg",
+        "rights_note": "Original embedded image object 50 from printed page 13; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Clean, unfaded corner source represents all four repeated corner placements and the same illustration enlarged behind the poem. Faded object 48 is fully covered by object 49; the enlarged crop adds no unique scene content. Omitted poem text, pale page panels, and redundant faded derivatives. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "poem illustration",
+        "sequence": 1,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "I AM HABIT",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "6593750e5ad5e575ed14a68280909450911e1b52856759e1894d4067dbb75bc7",
+    "metadata_sha256": "fb24784f0c3a720c67f31510cb4cd8dbbed8d72ad9425d1d2bea94ce580f3398",
+    "structure_sha256": "f275cfe75f0511fcdd370b993565d723a15c12cdd039f369a7eb25da02f2cf73",
+    "text_sha256": "460ee4ac62b1a63f764fa052c84791e37c2cc43ea687a3220ef479d11ccf5a74",
+    "translation_metadata_sha256": "4a4c93b85edff43cc7ba007f5686f378ed6f97bbe85c1a5d200e110039831a35"
+  },
+  "html": "<article data-article-id=\"76009211-1c2a-4f55-a4be-17d515e9cfcd\">\n  <figure>\n    <img src=\"/images/articles/76009211-1c2a-4f55-a4be-17d515e9cfcd-1.jpg\" alt=\"A man carrying another man on his shoulders\">\n  </figure>\n  <div class=\"poem\">\n    <p>It is mighty hard to shake me.<br>\n    In my brawny arms I take thee,<br>\n    I can either make or break thee.<br>\n    I am habit.</p>\n\n    <p>Through each day, I slowly mold thee.<br>\n    Soon my tightening chains enfold thee,<br>\n    Then it is with ease I hold thee;<br>\n    Thus, a habit.</p>\n\n    <p>I can be both good or vile.<br>\n    I can even be worth your while<br>\n    Or the cause of your bitter cry,<br>\n    I am habit.</p>\n\n    <p>Oft I’ve proved myself a pleasure,<br>\n    Proved myself a priceless treasure<br>\n    Or a meanness passed all measure<br>\n    Thus, a habit.</p>\n\n    <p>Harmless though I sometimes be,<br>\n    Yet my strange force is like a magnet<br>\n    Like a great and greedy dragnet,<br>\n    I am habit.</p>\n\n    <p>Though you sometimes fear or doubt me,<br>\n    No one yet has lived without me.<br>\n    I am present all about thee,<br>\n    Thus, a habit.</p>\n\n    <p>Choose me well when you are starting,<br>\n    Seldom is an easy parting,<br>\n    I am a devil or a darling.<br>\n    I am habit.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ecafe042e1e7661ab350d1cff88f0293e0b48832a11087e7175f39f1dc20d21d"
+}

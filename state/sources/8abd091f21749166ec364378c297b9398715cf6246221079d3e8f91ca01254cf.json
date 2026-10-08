@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "George Brunk II",
+          "role": null
+        }
+      ],
+      "raw": "From a sermon delivered by George Brunk II.\nPreached at Orrville, Ohio in September, 1951, titled “God’s Provision for Holiness.”"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "3d6f4ab9-ef64-4028-aa3c-d51f3d03a04b",
+    "images": [],
+    "issue_id": "4ece4257-ac97-59c4-9a46-5ee9d7fb95d1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": "and holiness, without which no man shall see the Lord. He. 12:14",
+    "title": "Follow peace with all men,",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "289c68dbd446f025f4eabef2ad352ce2f1c1dabd9925d5f7b8421dcf979c9a55",
+    "metadata_sha256": "373a0eb8a51af96045c65832abe9b1715da63f00fb61cdc31b783e2a21fe40a8",
+    "structure_sha256": "63cffaaee0bf313bc0839312b416780ea788694a42bc858c057d1f035a41929b",
+    "text_sha256": "ee7f5464a9d1a0f2f2441792ad789fc632e173c66035786d86aabde7a0a087f8",
+    "translation_metadata_sha256": "8e4d682698b1e3391a544823bc3ceded09122d8771d53688878f92ceb646a059"
+  },
+  "html": "<article data-article-id=\"3d6f4ab9-ef64-4028-aa3c-d51f3d03a04b\">\n  <p class=\"drop-cap\">Now this passage of Scripture says that we are to follow peace with all men, especially those in the church, and holiness, without which no man shall see the Lord. There is a certain responsibility that we have to those who are brethren in the church. We are to love them, and to love them devoutly. And for you people out there that claim to be nonresistant, and love your enemies, you don’t go to war … I’d like you to tell me how on earth you’re going to ask Uncle Sam to exempt you from military service, from going out there and engaging in warfare against your fellow men when you haven’t demonstrated your ability yet to love each other in the church. That’s a problem I can’t figure out—can you? Hmm? That’s one I can’t figure out.</p>\n\n  <p>Beloved, if I understand the doctrine of nonresistance and the refusal to go to war, it rests on one’s love for men, love for his enemies, that’s what I understand. Am I right brethren? We love our enemies! We love them! “No, no no, we can’t go to war … we love our enemies!”</p>\n\n  <p>Oh, you do? And yet you’re down there grinding your mouth and eating your gums day after day against somebody else in the church, and scoffing and scorning and finding fault and criticizing and condemning and judging and jealous and envious and covetous and critical … and then when wartime comes you send in a special application in to Washington, to President Truman, and say “I’m one of the chosen saints of God out there in Wayne County, Ohio, and I just love my enemies so much, Brother Truman, I just can’t go to war.”</p>\n\n  <p>No, you can’t go to war—but you can stay at home and shoot a dagger into the heart of one of your brethren in the church, and you can use that tongue to lash people in the community, and you can gossip and criticize and find fault with preachers and everybody else under the sun, but you’re such a sanctified little saint of God you can’t go to war. You show me a fellow that can whip people with his tongue, gossip, covet, and envy, and be jealous and proud, and I’ll tell you he’s eligible for the front lines of the army. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "99c4dcd3a57a664fccc9a5f4aa12baaa144833aff435a856dae0a419884b2145"
+}

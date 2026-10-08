@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b251228e-5824-4b83-9236-8184391222d9",
+    "images": [
+      {
+        "alt": "A hand holding an open pocket watch",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b251228e-5824-4b83-9236-8184391222d9-1.png",
+        "repository_path": "public/images/articles/b251228e-5824-4b83-9236-8184391222d9-1.png",
+        "rights_note": "PDF image object 4. The clean 122×113 grayscale image object 4 from the contents thumbnail is the same signed pocket-watch drawing repeated at larger size twice on page 3. It is exported once without upscaling. Page-3 object 14 irreversibly combines the heading, frame, gray panel and enlarged pale repeat; choosing the clean thumbnail avoids these overlays. The signature is retained in the image; no uncertain signature transcription is invented. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Waiting",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8eb39e75ec3089c8307902d9e29eb0deb862629ae801aee9ec4e21e047e07b70",
+    "metadata_sha256": "2b9885fab30f8a92c9a81ef1607816d78db2e6d0f74104c870177219dcc55ecb",
+    "structure_sha256": "cfac749675b19dced26d325c8cbeba4eae3915177f282ffc9b46b143f661a479",
+    "text_sha256": "798399b918958358434dea3f6536db8a251ddc9f6da67ba121b392e23534b184",
+    "translation_metadata_sha256": "066b9e16553c92ba1a2bd58d0624fe26b86d9482877254fd6d98e1824cfeea48"
+  },
+  "html": "<article data-article-id=\"b251228e-5824-4b83-9236-8184391222d9\">\n<figure>\n  <img src=\"/images/articles/b251228e-5824-4b83-9236-8184391222d9-1.png\" alt=\"A hand holding an open pocket watch\">\n</figure>\n<p class=\"drop-cap\">The greatest joy of an active mind is to be doing, to be achieving. O! It is a balm for all the woes of life, to be able to look upon the beneficial results of ones own labor. I have heard a man say he would almost be willing to bear the gigantic trials of the Apostle Paul’s life, if he might but do his work and achieve his success. On such a nature it is at this point that sickness presses most painfully. To “be still” is no way consistent with the natural will; except, when weary with weakness there comes a desire for rest.</p>\n<p>And when flush with the joy of work, even the natural craving for rest is sometimes met with a feeling of impatience. There rise the feelings of a young horse tightly reined in and fretted with restraint. The soul pants for another body, one with vigor to execute the will of the inner man. There is such a liability to forget that in this world the outer and inner man are inseparably connected; and that the outer very significantly affects the inner.</p>\n<p>Paul’s “thorn in the flesh” was essential, because it helped to complete his character. And blessed is he who in sickness is conscious of its beneficial effects upon himself. But O! We are foolish, thoughtless, and sensuous. The eye and the ear, the taste and the touch, are all keenly awake to the objects of the material world. But the objects of the spirit world, the truths which are recognized not by sense, but are only obvious to hope, faith and love in their highest applications, these are not realized.</p>\n<p>But who that by tribulation has learned the path to wisdom, shall not be thankful for the discipline, is not he one of those “that mourn” and “shall be comforted”?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "07ee630cef46a397a55239c10dc27430e6f7dd93bb48e9515579a49725136a55"
+}

@@ -1,0 +1,51 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 1842,
+          "death_year": 1895,
+          "location": null,
+          "name": "Daniel S. Warner",
+          "role": null
+        }
+      ],
+      "raw": "Daniel S. Warner (1842-1895)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "90180fb7-c941-483c-a4e1-8d45335b1131",
+    "images": [],
+    "issue_id": "5ba8507d-53a4-5863-9900-c3f62898ad44",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 6
+    },
+    "subtitle": null,
+    "title": "Reigning in this Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "949cf77ed7eef9480349d69fd78eb1221333b64d89f0a16d14c8a949a3131f2f",
+    "metadata_sha256": "258ed80439184052b241344e2f31a59a9ee665d6bc546d612bdb1ac85c7b5a81",
+    "structure_sha256": "828c22269e4e9d60bfe0431e5b2883d64d473a6718f0c454167a49f4166cf141",
+    "text_sha256": "7db613969a301c2c4b71e42a086dcf3ccd6e4aed0049b03c22078fc7796a446f",
+    "translation_metadata_sha256": "69f10d52f40d28381168ede56a43e923d7fdc1e0ddb1085c19461f229b3a9fba"
+  },
+  "html": "<article data-article-id=\"90180fb7-c941-483c-a4e1-8d45335b1131\">\n  <blockquote>\n    <p><em>For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.</em><br>\n    Romans 5:17</p>\n  </blockquote>\n\n  <div class=\"lyrics\">\n    <p>Do you triumph, O my brother,<br>\n    Over all this world of sin?<br>\n    In each storm of tribulation,<br>\n    Does your Jesus reign within?</p>\n\n    <p><em>Ch.</em><br>\n    I am reigning, sweetly reigning,<br>\n    Far above this world of strife;<br>\n    In my blessed, loving Savior,<br>\n    I am reigning in this life.</p>\n\n    <p>One we hail as King immortal,<br>\n    He did earth and hell subdue;<br>\n    And bequeathing us His glory,<br>\n    We are kings anointed too.</p>\n\n    <p>Shall we, then, by sin be humbled?<br>\n    Must we yield to any foe?<br>\n    No, by heaven’s gift we’re reigning<br>\n    Over all this world below.</p>\n\n    <p>Oh, what grace and high promotion,<br>\n    That in Jesus I should be<br>\n    Raised from sin to royal honor,<br>\n    Even reigning, Lord, with Thee.</p>\n\n    <p>All this life is blissful sunshine,<br>\n    Earth is subject at our feet;<br>\n    Heaven pours its richest blessings<br>\n    Round our throne of love complete.</p>\n\n    <p>Then we’ll sing and shout the story,<br>\n    Of the wondrous blood divine;<br>\n    Full salvation, glory, glory!<br>\n    I am reigning all the time.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3b0f8cf5c64b19361d89face8facd5730f95aa3c14847db22aeb6add7a618804"
+}

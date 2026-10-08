@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Christina Benjamin",
+          "role": null
+        }
+      ],
+      "raw": "Christina Benjamin"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "79a88322-8779-4eee-bf0c-f230b07aeef5",
+    "images": [
+      {
+        "alt": "A closed black Holy Bible with a ribbon bookmark",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/79a88322-8779-4eee-bf0c-f230b07aeef5-1.jpg",
+        "repository_path": "public/images/articles/79a88322-8779-4eee-bf0c-f230b07aeef5-1.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com and www.sxc.hu without mapping this image to either source. The embedded image was encoded as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving the published dimensions, crop, orientation, and content.",
+        "role": "Bible photograph",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "e4a7fc78-9aac-5bb1-9566-12c2a6c03eff",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "In the Image of Christ",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "977b88595e44d93766497787d7c69a6218f14c928b16d445b82e8885c0bccf4e",
+    "metadata_sha256": "c4d543b2af8ed1c8d7b2df3bef54de9f0b6606b9ec942e7e7eca97b549ad32b8",
+    "structure_sha256": "dda2c3837cad5efe78bdfd503cbc4ee6fc0913b8b1ab42f84776a94e36e7dbbf",
+    "text_sha256": "9c36f05c4c2755e5db5eabaa0a7b8894b3d84fc84cdab4b12b64e559d674f978",
+    "translation_metadata_sha256": "df4eac46be777443c8deb9a875647a411149311ec6c2fed1a152df29f93813c5"
+  },
+  "html": "<article data-article-id=\"79a88322-8779-4eee-bf0c-f230b07aeef5\">\n  <blockquote>\n    <p>God is with thee in all that thou doest.<br>\n      Genesis 21 :22</p>\n  </blockquote>\n  <p>Greetings to my dear sisters in Christ!</p>\n  <p>I had just bought a new Bible cover for my Bible, so I decided to just flip through from Genesis forward and savor the notes and highlighted portions in my Bible. Well, one verse jumped out at me that I had put a note by. It was Genesis 21.22 where Phicol tells Abraham that God is with him in all that he does. My note was a cross reference to where Isaac experienced the same thing in Genesis 26:28 when Abimilech confessed that he saw certainly that the Lord was with him.</p>\n  <p>My first move was to pray that others would see that certainly the Lord is with each of my family members. Then as I considered myself, I was reminded of a circumstance that had taken place only minutes before wherein I did not reflect that the Lord certainly was with me because I did not maintain His peace and joy as I should have. I asked for forgiveness and then I prayed that others would see that certainly He is with me. This wonderful picture of someone acknowledging that God is with another person is repeated many times over in Scripture.</p>\n  <figure>\n    <img src=\"/images/articles/79a88322-8779-4eee-bf0c-f230b07aeef5-1.jpg\" alt=\"A closed black Holy Bible with a ribbon bookmark\">\n  </figure>\n  <ul>\n    <li>Baalam said it about Israel. Nu. 23:21</li>\n    <li>An angel said it of Gideon. Ju. 6:12</li>\n    <li>Samuel said it of Saul. 1 Sa. 10:7</li>\n    <li>A servant of Saul said it of David. 1 Sa. 16:18</li>\n    <li>Abigail said it about David. 1 Sa. 25:29</li>\n    <li>Azariah, the prophet, said it of King Asa and all Judah and Benjamin. 2 Ch. 15:2</li>\n    <li>King Jehoshapat said it about the judges he appointed over Israel. 2 Ch. 19:6</li>\n    <li>The Gentiles shall say it of Israel. Ze. 8:23</li>\n    <li>Emmanuel, the name of Jesus himself, means God is with us. Mt. 1:23</li>\n    <li>Gabriel said it of Mary. Lu. 1:28</li>\n    <li>Paul said it of those who are risen with Christ and are seeking those things which are above. Co. 3:3</li>\n  </ul>\n  <p>Dear Father, we want to be changed into the same image from glory to glory by Your Spirit (1 Co. 3.18). O Thou who loves us with an everlasting love, draw us to Yourself with Your loving kindness which is better than life (Je. 31.3; Ps. 63.3). O Jesus who has chosen us out of this world, cause us to approach unto You (Ps. 65:4; Jn. 15.19). We will set You always before our face so that we are not moved by the circumstances of life and the assaults and temptations of the flesh, the world, and Satan (Ps. 16.8), for it is by being upright in this way, we shall dwell in Your Presence (Ps. 140.13). As You, the Altogether Lovely One, draw us, we will run after You (So. 1.4); yea, our souls will follow hard after You (Ps. 63.8). We will deny ourselves, take up our cross, and follow You each day (Mt. 16.24) listening to Your tender voice that guides us in the way that we should go (Is. 30.21). May our love towards each other increase and abound yet more and more in knowledge and in all judgment (1 Th. 3.12; Ph. 1.9), for it is by our loving one another, that all men shall see that we are Your disciples (Jn. 13.35). In Jesus name … amen! ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ab1ed9494bf40129521343b3ee636c61f037698048fb4506994df4a5db685ed6"
+}

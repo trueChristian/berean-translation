@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "37729b47-9cf2-4956-a533-fde26bb6fd3c",
+    "images": [
+      {
+        "alt": "Engraving of soldiers marching in a column",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/37729b47-9cf2-4956-a533-fde26bb6fd3c-1.jpg",
+        "repository_path": "public/images/articles/37729b47-9cf2-4956-a533-fde26bb6fd3c-1.jpg",
+        "rights_note": "Clean embedded illustration object 76. Separate section panel, rules and text omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 21,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            487,
+            298
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            487,
+            298
+          ],
+          "source_object": 76
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "Let’s Try it GOD’S WAY",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "7a017f8e-787a-57f2-bcf0-4a25f3da11cf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "91ebdc4ca82968d0bee7ba40eb71781ed4b04d3f6cbfc4e4e908f64818bcd27d",
+    "metadata_sha256": "483e4470b10d377309016b75710a2438fa05783c4e9048ed1a50160cdebff28d",
+    "structure_sha256": "095ddccc430e148814e6a73aac9c85eefa6657f17ec43f9257b34afd7eb6f069",
+    "text_sha256": "cb4881f54218f9fd9cee2e5ee2966732d3793bfab264459caeac38ccf0952df7",
+    "translation_metadata_sha256": "b3ac027d5da3814afc76a706272a10a3153dd558186a1f246b16cad7de62c918"
+  },
+  "html": "<article data-article-id=\"37729b47-9cf2-4956-a533-fde26bb6fd3c\">\n  <p>The citizens of Feldkirch, Austria, didn’t know what to do. Napoleon’s massive army was preparing to attack. Soldiers had been spotted on the heights above the little town, which was situated on the Austrian border. A council of citizens was hastily summoned to decide whether they should try to defend themselves or display the white flag of surrender. It happened to be Easter Sunday, and the people had gathered in the local church. The pastor rose and said, “Friends, we have been counting on our own strength, and apparently that has failed. As this is the day of our Lord’s resurrection, let us just ring the bells, have our services as usual, and leave the matter in His hands. We know only our weakness, and not the power of God to defend us.” The council accepted his plan and the church bells rang. The enemy, hearing the sudden peal, concluded that the Austrian army had arrived during the night to defend the town. Before the service ended, the enemy broke camp and left.</p>\n  <figure><img src=\"/images/articles/37729b47-9cf2-4956-a533-fde26bb6fd3c-1.jpg\" alt=\"Engraving of soldiers marching in a column\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d33c5864b2da3b5beeeea36c7aadcdbb7d626653d864a72f9080a2f682bd8c5d"
+}

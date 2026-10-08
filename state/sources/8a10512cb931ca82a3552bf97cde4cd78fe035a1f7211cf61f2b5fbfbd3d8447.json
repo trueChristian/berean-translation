@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Dwight L. Moody"
+        }
+      ],
+      "raw": "from Golden Counsel\nby Dwight L. Moody, 1899"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "eb5aa215-314b-4e44-b9ae-533e88d0b855",
+    "images": [
+      {
+        "alt": "Two seated men examining an open book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eb5aa215-314b-4e44-b9ae-533e88d0b855-1.jpg",
+        "repository_path": "public/images/articles/eb5aa215-314b-4e44-b9ae-533e88d0b855-1.jpg",
+        "rights_note": "Clean source image object 13; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            288,
+            205
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            288,
+            205
+          ],
+          "source_object": 13,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 4,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Bible Marking",
+    "topics": [
+      "9673646c-3954-5324-9acb-3e3f17647e91",
+      "b39a977d-c495-5061-b773-971cf4a191ce"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4473a6402780ac191ff6f8f3ce0d1e4112af4e5e520051c838e097a487c7d8be",
+    "metadata_sha256": "38877e1eb28ded12d3103cd136870bc793554217b5cdc7ef0ca34b2021cdb75d",
+    "structure_sha256": "39cf2f1ad82712395424acd96c329b9315a45e254377bccb17afc661378043b5",
+    "text_sha256": "a973b6503f6ee803679d7715f0324c993b3b0533cd15ec888cdbcff2e2edd825",
+    "translation_metadata_sha256": "5caa176c1425ff3e2d964035ea1eb5f745dbc534de040c65c218477625b6e42c"
+  },
+  "html": "<article data-article-id=\"eb5aa215-314b-4e44-b9ae-533e88d0b855\">\n  <figure>\n    <img src=\"/images/articles/eb5aa215-314b-4e44-b9ae-533e88d0b855-1.jpg\" alt=\"Two seated men examining an open book\">\n  </figure>\n  <p class=\"drop-cap\">An old writer said that some books are to be tasted, some to be swallowed, some to be chewed and digested. The Bible is one that you can never finish with. It is like a bottomless well; you can always find fresh truth gushing forth from its pages. “No Scripture,” said Spurgeon, “is exhausted by a single explanation. The flowers of God’s garden bloom not only double, but sevenfold; they are continually pouring forth fresh fragrance.” Hence the great fascination of constant and earnest Bible study. I thank God there is a height in the Book that I have never been able to reach, a depth that I have never been able to fathom.</p>\n  <p>Hence also the necessity of marking your Bible. Unless you have an uncommon memory, you cannot retain the good things you hear. If you trust to your ear alone, they will escape you in a day or two; but, if you mark your Bible, and enlist the aid of your eye, you will never lose them. The same applies to things you read.</p>\n  <p>Every one ought to study the Bible with two ends in view—his own growth in knowledge and grace, and passing it on to others. We ought to have four ears—two for ourselves, and two for other people. My Bible is worth a good deal to me because I have so many passages marked that, if I am called upon to speak at any time, I am ready. We ought to be prepared to pass around heavenly thoughts and truths, just as we do the coin of the realm.</p>\n  <p>Bible-marking should be made the servant of memory; a few words will recall a whole sermon. It sharpens the memory, instead of blunting it, if properly done, because it gives prominence to certain things that catch the eye, which by constant reading you get to learn by heart. It helps you to locate texts. It saves preachers and class-leaders the trouble of writing out notes of their addresses. Once in the margin, always ready.</p>\n  <p>There is a danger, however, of overdoing a system of marking, and of making your marks more prominent than the Scripture itself. If the system is complicated it becomes a burden, and you are liable to get confused. It is easier to remember the texts than the meaning of your marks.</p>\n  <p>The simplest way to mark is to underline the words, or to make a stroke alongside the verse. Another good way is to go over the printed letters with your pen, and make them thicker. The word will stand-out like heavier type. For example, mark “only” in Psalm 62 in this way.</p>\n  <p>When any word or phrase is often repeated in a book or chapter, put consecutive numbers in the margin over against each text. Thus, “the fear of the LORD” in Prov. 1:7, 29, and so on. Number the ten plagues in this way. In the second chapter of Habakkuk are five “woes” against five common sins.</p>\n  <p>When there is a succession of promises or charges in a verse, it is better to write the numbers small at the beginning of each promise. Thus, there is a sevenfold promise to Abraham in Gen. 12:2, 3, “<sup>1</sup>I will make of thee a great nation, <sup>2</sup>and I will bless thee, <sup>3</sup>and make thy name great, <sup>4</sup>and thou shalt be a blessing, <sup>5</sup>and I will bless them that bless thee, <sup>6</sup>and curse him that curseth thee, <sup>7</sup>and in thee shall all families of the earth be blessed.” In Prov. 1:22, we have <sup>1</sup>simple ones, <sup>2</sup>scorners, <sup>3</sup>fools.</p>\n  <p>Put a cross in the margin against things not generally observed. For example, the law regarding women’s wearing men’s clothes, and regarding bird’s-nesting, in Deut. 22:5, 6; the sleep of the poor man and of the rich man compared, Eccl. 5:12.</p>\n  <p>On blank pages at the beginning and end of your Bible, jot down texts to answer the various kinds of difficulties that you meet in talking to people in the inquiry-room: “can’t hold out,” “too great a sinner,” “fear persecution,” etc. Also on these blank pages write short Bible readings and outlines of sermons.</p>\n  <p>In addition to the examples already given, I find it helpful to mark...</p>\n  <ol>\n    <li>Scripture references. Opposite Gen. 1:1 write, “Through faith. Heb. 11:3,” because there we read, “Through faith we understand that the worlds were framed by the word of God.” Opposite Gen. 28:2 write, “An answer to prayer, Gen. 35:3.” Opposite Matt. 6:33 write, “1 Kings 17:3” and “Luke 10:42,” which give illustrations of seeking the kingdom of God first. Opposite Gen. 37:7 write, “Gen. 50:18,” which gives the fulfillment of the dream. You can connect the prophets with the historical books, the epistles with the Acts, in this way.</li>\n    <li>Notes to recall a sermon, story, or hymn. Against Ps. 119:59,60, I have written, “The prodigal son’s epitaph.” This recalls John McNeill’s sermon on those texts.</li>\n    <li>Railway connections; that is, connections made by fine lines running across the page. In Dan. 6, connect “will deliver” (v.16), “able to deliver” (v.20), and “hath delivered” (v.27). In Ps. 66, connect “Come and see” (v.5) with “come and hear” (v.16).</li>\n    <li>At the beginning of every book, a short summary of its contents, something like the summary given in some Bibles at the head of chapters.</li>\n    <li>Key-words for books and chapters. Genesis is the book of beginnings; Exodus, of redemption. The key-word of the first chapter of John is “receiving”; second chapter, “obedience”; and so on.</li>\n    <li>Any text that marks a religious crisis in life. I heard Mr. Meyer preach on 1 Cor. 1:9, and he asked his hearers to write in their Bibles that they were that day “called unto the fellowship of his Son Jesus Christ our Lord.”</li>\n  </ol>\n  <p>Do not buy a Bible that you are unwilling to mark and use. An interleaved Bible gives the most room for notes and suggestions.</p>\n  <p>Be precise and concise in your marking; for instance, Neh. 13:18, “A warning from history.”</p>\n  <p>Never mark anything because you saw it in the Bible of some one else. If it does not come home to you, if you do not understand it, do not put it down.</p>\n  <p>Never pass a nugget without trying to grasp it. Then mark it down.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "eb711bfa12e7cdd9f48b7c34974bb5573f368aa386ca4d7172dd4f9ebddaf521"
+}

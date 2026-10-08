@@ -1,0 +1,90 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "9514e8ea-e431-5806-a5f3-0953a922c074"
+      ],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "bac60748-ff7c-4801-8d67-4f5c2692bc16",
+    "images": [
+      {
+        "alt": "An engraving of a mounted official, soldiers and a man being led toward a fire.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bac60748-ff7c-4801-8d67-4f5c2692bc16-1.jpg",
+        "repository_path": "public/images/articles/bac60748-ff7c-4801-8d67-4f5c2692bc16-1.jpg",
+        "rights_note": "Clean base engraving object 37, with separately painted panel, heading, rule and frame omitted. The narrow smoke-and-fire crop in object 41 on page 11 repeats this engraving without unique image content and is represented once. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred. A tiny engraved signature along the lower edge is intrinsic to the source and preserved; its full wording is not confidently legible at the supplied native resolution, so no artist attribution is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            536,
+            432
+          ],
+          "repeated_source_pages": [
+            11
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            536,
+            432
+          ],
+          "source_object": 37,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Miracles from the Martyrs Mirror",
+    "topics": [
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26",
+      "494add59-7a1e-504d-ab65-b626610b684d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "703c65aa68bbd2b7a909264b98f9306ce7ef47cf4b6a84b45ac52a61c51c6c91",
+    "metadata_sha256": "997626142d0800091ed616b0f561909ff291b4896356a874a03238a7cee66113",
+    "structure_sha256": "340ad1264dff889d08536c47fcf5fbcf54d65433efeeae3af895dcd35900794c",
+    "text_sha256": "db62f05be8f737e2ad2a2f1bed2a3966118c2a0a403dea86b3dcabdb64735f6e",
+    "translation_metadata_sha256": "e9f6b7f72d54c91b371504625647897493b82bdba4330f91b629c2b976572021"
+  },
+  "html": "<article data-article-id=\"bac60748-ff7c-4801-8d67-4f5c2692bc16\">\n  <figure>\n    <img src=\"/images/articles/bac60748-ff7c-4801-8d67-4f5c2692bc16-1.jpg\" alt=\"An engraving of a mounted official, soldiers and a man being led toward a fire.\">\n  </figure>\n  <blockquote>\n    <p><em>“And now, Lord, behold their threatenings:<br>\n    and grant unto thy servants,<br>\n    that with all boldness they may speak thy word,<br>\n    By stretching forth thine hand to heal;<br>\n    and that signs and wonders may be done<br>\n    by the name of thy holy child Jesus.<br>\n    And when they had prayed,<br>\n    the place was shaken where they were<br>\n    assembled together;<br>\n    and they were all filled with the Holy Ghost,<br>\n    and they spake the word of God with boldness.”</em></p>\n    <p>Acts 4:29-31</p>\n  </blockquote>\n  <h2>Leonhard Keyeser, 1527</h2>\n  <p>When the believers greatly increased under persecution and the cross (Ex. 1:12), there was, in Bavaria, a learned priest of the mass, named Leonhard Keyser, who examined the writings of Zwingli and Luther, and also went to Wittenberg, where he conferred with the doctors and commemorated the Supper with them.</p>\n  <p>Having returned to Bavaria, he examined the fruits and doctrine of the Anabaptists, as well as of Zwingli and Luther, and joined himself under the cross to the separated cross-bearing church of the Anabaptists, in the year 1525, and forthwith continued in his ministry, with great power and zeal, undaunted by all the tyranny which arose over the believers, in the way of drowning, burning and putting to death. (Acts 9:20)</p>\n  <p>In the second year of his ministry, Leonhard Keyser was apprehended at Scharding, in Bavaria, and condemned by the bishop of Passau and other priests and capitulars, to be burned on Friday before St. Lawrence day, in August of the same year. Having bound him on a cart, they took him to the fire, the priests going alongside, and speaking Latin to him, but he, on account of the people, answered them in German; even as they had refused to speak to him in German before the court, which he had frequently requested.</p>\n  <p>When he came out into the field, and was approaching the fire, he, bound, as he was, leaned down at the side of the cart, and plucked a flower with his hand, saying to the judge, who rode on horseback along side of the cart, “Lord judge, here I pluck a flower; if you can burn this flower and me, you have justly condemned me; but, on the other hand, if you cannot burn me and this flower in my hand, consider what you have done and repent,”</p>\n  <p>Thereupon the judge and the three executioners threw an extraordinary quantity of wood into the fire, in order to burn him immediately to ashes by the great fire. But when the wood was entirely burned up, his body was taken from the fire uninjured. Then the three executioners and their assistants built another great fire of wood, which when it was consumed, his body still remained uninjured!!! Only his hair and his nails were somewhat burnt brown, and, the ashes having been removed from his body, the latter was found smooth and clear, and the flower in his hand, not withered, or burnt in the least, the executioners then cut his body into pieces, which they threw into a new fire. When the wood was burned up, the pieces lay unconsumed in the fire. Finally they took the pieces and threw them into the river.</p>\n  <p>The judge was so terrified by this occurrence that he resigned his office, and moved to another place. His chief servant, who was with the judge, and saw and heard all this, came to us in Moravia, became our brother and lived and died piously. So that it might not be forgotten, our teachers have recorded this as it came from his own lips, and now cause it to be promulgated and made known.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9d401a59c511eb16664ca2fa03a3746c9288e4b69ac29402f458aea6e4a3f30c"
+}

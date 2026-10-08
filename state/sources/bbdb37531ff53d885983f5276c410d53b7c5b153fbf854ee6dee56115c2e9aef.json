@@ -1,0 +1,245 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Daniel Kenaston"
+        }
+      ],
+      "raw": "by Daniel Kenaston"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "e4a74ee5-29c5-4a7b-b215-c400bf0f937a",
+    "images": [
+      {
+        "alt": "Charity African Missions logo with a globe and an outline of Africa.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-1.png",
+        "repository_path": "public/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-1.png",
+        "rights_note": "Clean embedded source object 44; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. Original 1-bit CCITT image mask reconstructed losslessly using its published ink colour, PDF Cs5 [0.161, 0.145, 0.149], on white. The extracted mask has reversed visual polarity, so mask-white pixels receive RGB (41,37,38). The separate heading separator rule is omitted.",
+        "role": "section logo",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "original CCITT stencil represented at native dimensions in RGB PNG using published ink and white background",
+          "output_dimensions": [
+            447,
+            322
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            447,
+            322
+          ],
+          "source_object": 44
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of three banknotes.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-2.jpg",
+        "repository_path": "public/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-2.jpg",
+        "rights_note": "Clean embedded source object 43; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. DeviceGray source converted to RGB/sRGB, preserving luminance; no CMYK sample inversion. Standards-normalized baseline JPEG, 72 dpi, embedded sRGB ICC profile.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline JPEG; quality 95; 4:4:4; 72 dpi; embedded sRGB ICC profile",
+          "method": "original embedded grayscale image converted to RGB/sRGB",
+          "output_dimensions": [
+            216,
+            94
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            216,
+            94
+          ],
+          "source_object": 43
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of a radiant light over water, clouds, trees, and distant buildings.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-3.jpg",
+        "repository_path": "public/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-3.jpg",
+        "rights_note": "Clean embedded source object 48; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. DeviceGray source converted to RGB/sRGB, preserving luminance; no CMYK sample inversion. Standards-normalized baseline JPEG, 72 dpi, embedded sRGB ICC profile.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 11,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline JPEG; quality 95; 4:4:4; 72 dpi; embedded sRGB ICC profile",
+          "method": "original embedded grayscale image converted to RGB/sRGB",
+          "output_dimensions": [
+            325,
+            234
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            325,
+            234
+          ],
+          "source_object": 48
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of a bundled stack of banknotes.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-4.jpg",
+        "repository_path": "public/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-4.jpg",
+        "rights_note": "Clean embedded source object 52; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. DeviceGray source converted to RGB/sRGB, preserving luminance; no CMYK sample inversion. Standards-normalized baseline JPEG, 72 dpi, embedded sRGB ICC profile.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline JPEG; quality 95; 4:4:4; 72 dpi; embedded sRGB ICC profile",
+          "method": "original embedded grayscale image converted to RGB/sRGB",
+          "output_dimensions": [
+            212,
+            146
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            212,
+            146
+          ],
+          "source_object": 52
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of a seated man on a large money bag marked with a dollar sign.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-5.jpg",
+        "repository_path": "public/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-5.jpg",
+        "rights_note": "Clean embedded source object 56; no separate image credit or article-specific reuse restriction is printed. No licence inferred. Source object, paint order, clipping and masks were inspected; separately painted headings, body text, pull quotes, rules and running footer are omitted. Final image centre, edges and corners visually checked against source. DeviceGray source converted to RGB/sRGB, preserving luminance; no CMYK sample inversion. Standards-normalized baseline JPEG, 72 dpi, embedded sRGB ICC profile.",
+        "role": "article illustration",
+        "sequence": 5,
+        "source_page": 13,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline JPEG; quality 95; 4:4:4; 72 dpi; embedded sRGB ICC profile",
+          "method": "original embedded grayscale image converted to RGB/sRGB",
+          "output_dimensions": [
+            180,
+            222
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            180,
+            222
+          ],
+          "source_object": 56
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 10
+    },
+    "subtitle": "in a Dissolving World",
+    "title": "Missions, Money, and Motives",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b0028fb78ffb80e591633dda371437cd272d40e5ff6477e5524017218c40f187",
+    "metadata_sha256": "838840761e7be55f2d36c6e5dd27137411d258ce2fa3c36eb5b50d122fa52904",
+    "structure_sha256": "0b6389f91194426d0d1a67909869860b4b66191dbae272ac6f3bcf2841423935",
+    "text_sha256": "b3d3a6477c6c9d866690450c24d4466d8d9af872a24815a10e5b4f2a0af5f290",
+    "translation_metadata_sha256": "cc7016b1646726be36c2fffca31236b754c47f8422b8e16d77e76d04de1c1c5f"
+  },
+  "html": "<article data-article-id=\"e4a74ee5-29c5-4a7b-b215-c400bf0f937a\">\n  <figure>\n    <img src=\"/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-1.png\" alt=\"Charity African Missions logo with a globe and an outline of Africa.\">\n  </figure>\n  <p>I have been meditating recently on the subject of money and the incredible hold that it so easily develops on our lives and hearts. I find that even living here far away from the wave of materialism that you daily encounter, I must make it a spiritual routine to take stock of my heart and make sure that I am staying free from a clutching, hording spirit when I relate to money. Most of the time, God uses these check-ups to show me several areas where my heart is in danger of being ensnared, and then directs me to do something for His kingdom with the money or possession that threatens my soul. Obedience in this generally deals a deathblow to the tentacles that were reaching out and beginning to hold my heart, and sets me free again to serve Christ whole-heartedly. Sometimes, though, the things that God asks me to do are not easy, and my emotions cry out against the sacrifice that Christ is asking me to make.</p>\n  <p>Generally, God gives me grace to obey His command in my heart, and I make the sacrifice He is requiring of me. But truly, I long to stay at such a place in my relationship to God that using my resources for His Kingdom would not be viewed in my heart as a necessary yielding of my rights, but in the more positive light of investing in the most stable bank in the universe! It is out of this heart cry and its resulting meditations that these thoughts were born. I love when God gives me a real-life situation in this world that perfectly correlates to the things He is doing in my heart, hence helping me to grasp easily what He desires for me! I hope that sharing these thoughts will give you a new way of viewing God’s demands on your life, and that it will result in a renewed desire to “convert” the “currency” of your life into an eternal unchanging form!</p>\n  <figure>\n    <img src=\"/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-2.jpg\" alt=\"Illustration of three banknotes.\">\n  </figure>\n  <h2>Physical Example</h2>\n  <p>The education arm of the Ghanaian government is currently embarking on a huge exercise to inform the public about a change of currency that should take place in the next two years. The money we currently use here is called the <em>Cedi</em> and it has been in use for the more than 45 years since independence. This currency is to be replaced by the <em>Eco</em>, a new currency that will be shared by several west-African countries including Ghana and Nigeria. Their desire is to create a large zone in which only one currency is used, thereby encouraging cross-border trade and giving each of these countries a more stable currency than they previously had. This is in line with international moves to create large blocs of people that all trade with a shared currency (i.e., the <em>Euro</em>, <em>Eco</em>, or CFA <em>Franc</em>). Hopes are high that this will result in a better standard of living for the countries involved as trade and investment grow.</p>\n  <p>If you know anything about the challenges of transportation in rural Africa, and understand even a little of the reluctance to change felt by most rural peoples, you may realize the incredible task ahead of the government here if they are to succeed in informing and convincing Ghanaians to yield up their old currency for this new and “better” form of money. Usually during this sort of currency changeover, there is a period of years during which both the old and new currencies are accepted on the markets and in the bank, and it is during this time that governments work hard to convince people of the benefits of bringing in their old bills to receive the new currency. Most of the population accepts the new bills in good faith, and soon the use of the currency is widespread. But there are always people who because of fear or nostalgia refuse to change to the new currency. Some of these people have hoarded money in mattresses or boxes under their beds for many years, and they are not at all ready to give this up to receive some new bills. Many times the new currency is in lower denominations than the one currently used, and it is not easy to convince village folk that the 100 <em>Eco</em> bill you are offering them has more value than the stacks of bills they now hold so tightly.</p>\n  <p>As the period of dual currency acceptance draws to a close, the government redoubles its efforts to make sure that all of the old currency has been traded in for the new, only now they change tactics. Instead of trying to convince people of the things they will gain by accepting the new bills, they now pull out their most powerful argument. They try to help the rural public to understand that in a few months’ time the old currency they hold in stacks under their beds will no longer have any value. Their message basically is, “Trade it in now, or you will lose all of its value!” Even with the best efforts of governments to convince their people of these truths, every currency changeover has stories of people who refused to exchange their money and hence are ruined financially when their money is no longer accepted.</p>\n  <p>People laugh at these “old-timers” who would not accept the new and improved money, but all of us are up against a currency change of greater importance than all of these put together. Yet many of us are proving to be quite obstinate about exchanging the dissolving currency of this life for the eternal gold of heavenly rewards! This is the vein in which God has been challenging my thoughts recently.</p>\n  <figure>\n    <img src=\"/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-3.jpg\" alt=\"Illustration of a radiant light over water, clouds, trees, and distant buildings.\">\n  </figure>\n  <h2>Heavenly Currency</h2>\n  <blockquote>\n    <p><em>“Lay not up for yourselves treasures on earth…but lay up for yourselves treasures in heaven…”</em> (Matthew 6:19-20).</p>\n  </blockquote>\n  <p>We easily put emphasis on the “do not” element of a passage without recognizing that the real heart of God for us is in the positive or “do” part of the verse. Many times the focus of messages using this verse as their text seems to be negative in content: God commands us <strong>not</strong> to lay up treasure on this earth. In reality, these verses take as a background fact the truth that all of us will lay up our treasure or invest our resources somewhere, and God is simply guiding us as to <strong>where</strong> we should place them!</p>\n  <p>Sometimes it is healthy for us to look at the commands of Jesus not in the light of submission to His higher authority (though this is right), but rather with the recognition that God is allowing us to prepare ahead for things which will catch much of the world by surprise. In these verses, God is like the government of a country undergoing a currency change, trying to convince us of the benefits that we will receive from switching to the new currency. God appeals to our intellect: “Why put your resources in a place where uncertainties abound, where theft is rampant, and where decay and devaluation are laws of life? Why not put it in a place where none of these things are present, and where your investment is guaranteed to be waiting for you upon your arrival?”</p>\n  <p>It is only a change of currency, and oh, what an exchange it is—from the decaying, changing currency of this world and its fading pleasures, to the unchanging, ever-new gold of heaven and the pleasures that are at His right hand forever! This oft-repeated but rarely practiced quote comes to my mind: “He is no fool who gives what he cannot keep to gain what he cannot lose.” Look at God’s demand for us to put our financial and other resources at His disposal in the light of it being a good investment for the future instead of a sacrifice today. This may help us to more readily yield up all we are to His purposes in our lives. It has certainly aided me in this direction.</p>\n  <h2>All Will Dissolve</h2>\n  <blockquote>\n    <p><em>“Seeing then that all these things shall be dissolved, what manner of persons ought ye to be in all manner of holy conversation and godliness”</em> (2 Peter 3:11).</p>\n  </blockquote>\n  <p>The Greek word translated “dissolved” means “to break up, melt, or destroy.” Think of unflavored gelatin as it dissolves in a pot of boiling water. It totally dissolves, leaving behind no trace to prove it ever existed. This view of our earthly lives, relationships, and resources must be healthy for us, or else God would not have placed before us such a graphic scene of devastation (2 Peter 3:10) and then asked us what kind of lives we should live in view of this coming dissolution of everything we know, love, and hold on to. Again, God’s heart for His people is not negative. He does not desire to scare us by this description of the future of this world, but rather to motivate us to pour out our lives in His Kingdom purposes by realizing that this world is a passing mirage that will soon disappear.</p>\n  <figure>\n    <img src=\"/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-4.jpg\" alt=\"Illustration of a bundled stack of banknotes.\">\n  </figure>\n  <p>Let us return to the physical example for a moment and draw a parallel. The government will convince some to yield up their old currency by explaining to them the great benefits to be gained in doing so. But others must be convinced through shaking them with the reality that the money they now hold will lose all of its value at a predetermined time.</p>\n  <p>God is doing the same thing for us in this passage. He is trying to convince us to pour out our lives and resources in His work by showing us that these things will soon be valueless if we don’t. It is a sobering reality to mentally watch every earthly thing that we have labored for and longed toward suddenly dissolve in a spinning mass of hot water, or be burned up in a fire of unimaginable proportions, to use biblical imagery. But these are only negative thoughts if we are unwilling to convert all of these things we own or talents that we posses into heavenly currency. If our hearts are truly willing, this assured destruction of the things (currency) that we now hold as valuable should only motivate us to throw ourselves into changing as much of this as possible into heavenly coin. We get an advance warning, and hence a wonderful chance to exchange all these passing, earthly things for that which will never fade away! Let’s take this chance!</p>\n  <h2>Miseries for the Rich</h2>\n  <blockquote>\n    <p><em>“Go to now ye rich men, weep and howl for your miseries which shall come upon you. Your riches are corrupted....Your gold and silver is cankered....</em>(James 5:1-3).</p>\n  </blockquote>\n  <p>We have focused on the positive elements of this truth and have desired to let these physical examples motivate us to willingly trade in our dissolving money and resources for the eternal blessings of being forever “present with the Lord.” Certainly though, any meditation on these verses and the truths they illuminate would not be complete without looking for a moment at the awful negative reality that refusing them will activate in our lives.</p>\n  <p>In the spiritual world, as in the physical, there will always be those individuals who, when faced with the positives of trading in their old currency, and further convinced with the reality that the old will soon lose all of its value, turn away still to hold with clutching fingers to the only thing they have ever known as money. To place their trust in something that to them seems unsure is impossible, and they hold onto their devaluing currency all the way to its worthless end. The day soon comes when even should they load up a whole carload of the old money, it could not buy them anything; Its value has dissolved!</p>\n  <figure>\n    <img src=\"/images/articles/e4a74ee5-29c5-4a7b-b215-c400bf0f937a-5.jpg\" alt=\"Illustration of a seated man on a large money bag marked with a dollar sign.\">\n  </figure>\n  <p>May God arrest our attention while there is still time to exchange our resources for heavenly treasure, and save us from the tragedy of finding out too late that all we are holding onto is of no value. May he save us from one day waking up to discover that though we went to sleep as upper-middle class Americans, we now have nothing of any value! May he save us from the fate of the rich man, who, finding himself in hell, was reduced to begging for the first time in his life, <em>“and he cried and said...send Lazarus, that he may dip the tip of his finger in water, and cool my tongue”</em> (Luke 16:24). Oh, the awful realization of having nothing of value, of going from having everything to possessing nothing in one day!</p>\n  <p>Dear friends, I know that many of you, along with myself, sincerely desire to lay up treasure in heaven and break free from the things that entangle us here. Yet we find ourselves so easily ensnared again by nice-sounding arguments and the curse of the status quo. The result is that we are crippled from truly pouring out our lives and resources for His Kingdom. Because of this, His Kingdom suffers and our currency continues to erode in value. This article is written as much as a journal of what God is teaching me and what I desire as it is a teaching or sermon for you, and I entreat you to accept it as such.</p>\n  <p>Here is my closing thought and prayer: May God keep us from forever toiling in circles in Philippians 3:7 counting all loss for Christ, but never really getting to verse 8 where Paul says that he has suffered the loss of all those things that he counted loss in verse seven. It is in the actual <strong>suffering loss</strong> that the blessing key is found, not in the <strong>counting loss</strong>, good as that may be. The sovereignty of a thing must be handed over before an exchange can occur, and only as we yield the ownership of our lives and resources over to God’s purposes in this world can we be assured of receiving heavenly currency in return for the things we have laid down. Matthew 19:29 is still true. <em>“And every one that hath forsaken... for my name’s sake, shall receive an hundredfold, and shall inherit everlasting life.”!</em></p>\n  <p>May we lay down our lives and loves to His glory and to our future! May we trade in our earthly resources for heavenly currency while there is still time, and may we do it with the hilarity of one who knows that he is changing something of small value and stability for something of infinitely greater value and longevity! May we be the manner of persons we ought to be.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3d51d13dfb59faf7ad0acb1c0ad91eb28629daa2b9e15c5d65949680599ced2c"
+}

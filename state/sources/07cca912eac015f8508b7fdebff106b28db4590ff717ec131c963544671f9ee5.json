@@ -1,0 +1,115 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1866-1932",
+          "name": "Annie J. Flint"
+        }
+      ],
+      "raw": "by Annie J. Flint, 1866-1932"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "71e30451-7860-462c-9956-310b0ff431bc",
+    "images": [
+      {
+        "alt": "A church doorway framed by stonework and autumn leaves.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/71e30451-7860-462c-9956-310b0ff431bc-1.jpg",
+        "repository_path": "public/images/articles/71e30451-7860-462c-9956-310b0ff431bc-1.jpg",
+        "rights_note": "Original PDF image object 129 on page 36 was the sole CalRGB raster and contained the title/byline and translucent panel. Initial extraction converted CalRGB to sRGB and cropped [18,19,630,811] to the complete published 612×792 view, omitting separately painted poem and mailing typography. The requested edit now removes the flattened overlays as well. On 2026-10-01 the project owner explicitly requested removal of this image’s text and overlays in PR #83. The built-in image editing tool reconstructed obscured areas while retaining the full composition and original output dimensions. This is an authorized AI-edited derivative, not exact recovery of hidden PDF pixels; fine details and textures may differ from the source. No image-specific credit or reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying which images; no individual attribution or licence is inferred.",
+        "role": "article background",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "authorized_edit": {
+            "authorization": "Project owner explicitly requested text and overlay removal from this canonical image in PR #83.",
+            "date": "2026-10-01",
+            "pixel_fidelity": "AI reconstruction; not exact recovery of the pixels hidden by the flattened overlays.",
+            "prompt_summary": "Remove all lettering, translucent reading panels and borders; preserve the full composition, aspect ratio, natural scene and framing. Reconstruct obscured details. No crop or new typography.",
+            "tool": "built-in image_gen"
+          },
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            18,
+            19,
+            630,
+            811
+          ],
+          "flip": null,
+          "method": "User-authorized built-in image editing removes the flattened text and layout panels from the original export and reconstructs the obscured picture. The complete generated composition is resampled without cropping to the existing dimensions and encoded as a baseline RGB/sRGB JPEG, quality 94, nonzero 72 dpi density. Original PDF object dimensions and crop remain recorded as source provenance.",
+          "omitted_layout_overlays": [
+            "separate poem text",
+            "mailing panel",
+            "postal box",
+            "publisher typography"
+          ],
+          "output_dimensions": [
+            612,
+            792
+          ],
+          "removed_flattened_overlays": [
+            "baked title and byline",
+            "baked translucent reading panel"
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            648,
+            830
+          ],
+          "source_object": 129,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "The updated JPEG was fully decoded, painted and read back with Skia Canvas (@napi-rs/canvas); the rendered output was opened and visually checked for clean edges, colours, complete composition and absence of typography/panels.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "Two AI readers independently opened both corrected final JPEGs and compared them with their original exports: all title/byline text, rectangular panels and borders are removed, the complete compositions and original dimensions remain, and no cropping, corruption or truncation is visible. The judgment image’s flat lower flame overlay is replaced by coherent illustrated fire. Reconstructed areas and fine detail are explicitly treated as AI synthesis, not source-exact pixels.",
+          "overlay_audit": "verified_by_ai",
+          "source_fidelity_note": "On 2026-10-01 the project owner explicitly requested removal of this image’s text and overlays in PR #83. The built-in image editing tool reconstructed obscured areas while retaining the full composition and original output dimensions. This is an authorized AI-edited derivative, not exact recovery of hidden PDF pixels; fine details and textures may differ from the source.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e2fda69-4f9b-450f-815c-39c3200bb634",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Inner Chamber",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "9538d8fb-7c90-57aa-b14d-af52754f5f6c",
+      "0f3e0ca7-f12e-59d5-8c2c-cb3fead876a5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "20b4a37ae9cb51050e2ba7da5b7b327c9c7291e686fdea73da7ea414ea52e98a",
+    "metadata_sha256": "3fc6259e961d35f681cfa4537a14f634b821bbf42a9e122a5c6bbda5b51e03f5",
+    "structure_sha256": "eac4a29c4e7e6e451a9054df1526356cb50021293e76e96b7f317149b5be01d6",
+    "text_sha256": "d9fa3fef1907a12fbf5f04353e6b48589362a07f23db58ba15287a3241e8227c",
+    "translation_metadata_sha256": "611473877e968ccbdffd0e8bf557a8e2e23b8de4545244dda6c6a4e7ea0aa4cb"
+  },
+  "html": "<article data-article-id=\"71e30451-7860-462c-9956-310b0ff431bc\">\n  <figure>\n    <img src=\"/images/articles/71e30451-7860-462c-9956-310b0ff431bc-1.jpg\" alt=\"A church doorway framed by stonework and autumn leaves.\">\n  </figure>\n  <p class=\"poem\">The House of the Lord has many chambers,<br>\n  Large and lofty, or low and small;<br>\n  And some who turn from the world’s broad highways<br>\n  And find the door to the Entrance Hall,<br>\n  Are satisfied with its shade and coolness,<br>\n  To know they have come to the House of a Friend,<br>\n  And, resting there in the peace and quiet,<br>\n  They think they have fared to their journey’s end.</p>\n  <p class=\"poem\">And some are content with the Ante-Chamber,<br>\n  That opens out of the entrance hall,<br>\n  With the winds that blow from the spicy gardens,<br>\n  The musical splash of the fountain’s fall;<br>\n  They feast on the fruits of the Spirit’s giving<br>\n  And muse on the thought of the joys to come,<br>\n  And resting there in the peace and quiet,<br>\n  Are glad that the Lord has brought them home.</p>\n  <p class=\"poem\">But those who have heeded His invitation<br>\n  To come up higher and enter in<br>\n  To the Upper Room of the Master’s dwelling,<br>\n  To stores of treasures their way shall win.<br>\n  What eye hath seen them? What mind conceived them?<br>\n  What heart hath dreamed of the things concealed,<br>\n  The joys prepared for the Lord’s beloved,<br>\n  To those who seek them alone revealed?</p>\n  <p class=\"poem\">Clothed with His glory they leave His presence,<br>\n  Girt with His power they walk abroad<br>\n  Who find the door to the Inner Chamber,<br>\n  The secret place of the Most High God.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2399e7a2b79992d32dce7413ec84b5e5d57da57f336b6cb9c0b6f27b457fae0d"
+}

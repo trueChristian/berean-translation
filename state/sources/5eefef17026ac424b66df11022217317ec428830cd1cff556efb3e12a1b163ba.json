@@ -1,0 +1,168 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "b90378a3-1fae-4535-b33f-ccc4edf514ea",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-1.jpg",
+        "repository_path": "public/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-1.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 19 exists on PDF page 3, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [677, 35, 898, 312] (left, top, right, bottom) without resizing, rotation or pixel repair. The meaningful feather region is cropped free of the printed section heading and connecting baseline flourish; the original scanned paper is retained. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "decorative section illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            677,
+            35,
+            898,
+            312
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            221,
+            277
+          ],
+          "rotation_degrees": 0,
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Yellow birdhouse on a frost-covered fence post in a snowy field.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-2.jpg",
+        "repository_path": "public/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-2.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 19 exists on PDF page 3, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [787, 700, 1576, 2156] (left, top, right, bottom) without resizing, rotation or pixel repair. The unobstructed lower photographic region omits the separate editorial column, heading and most upper fade/show-through; residual source scan texture is unchanged. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "opening photograph",
+        "sequence": 2,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            787,
+            700,
+            1576,
+            2156
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            789,
+            1456
+          ],
+          "rotation_degrees": 0,
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Edward Martin’s signature.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-3.jpg",
+        "repository_path": "public/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-3.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 19 exists on PDF page 3, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [82, 1935, 337, 2044] (left, top, right, bottom) without resizing, rotation or pixel repair. The handwritten signature is cropped separately from the typed author name and body text; scanned paper is retained. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "author signature",
+        "sequence": 3,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            82,
+            1935,
+            337,
+            2044
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            255,
+            109
+          ],
+          "rotation_degrees": 0,
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the EDITOR",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "dd2c747e762fa9a628cfc4aa7a2c26700df1a1bce175cec0af0386bcdc703316",
+    "metadata_sha256": "952d64ffa7fbd604718d352e84bd573d2aaf8b16e0ebd111b76adbde82d54ff5",
+    "structure_sha256": "4f057bb4345c651af4974cd3de57a71ff50189a778192f5cd4a5f24fac02b494",
+    "text_sha256": "95b5c4784bd39f758d2d27c5e6bc48c77759f74360c7086a18b499448d8ce077",
+    "translation_metadata_sha256": "917a79471bc69ec10dd722f32f0a179d9161bfc42be1ec825b4c9539ee320cb1"
+  },
+  "html": "<article data-article-id=\"b90378a3-1fae-4535-b33f-ccc4edf514ea\">\n  <figure><img src=\"/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-1.jpg\" alt=\"\"></figure>\n  <figure><img src=\"/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-2.jpg\" alt=\"Yellow birdhouse on a frost-covered fence post in a snowy field.\"></figure>\n  <p>As we gaze out the window, we notice a change in the air. It does not matter what season we are in; nature is constantly changing. Winter gives way to spring, spring bursts forth into summer, summer’s fullness bears fruit in glorious autumn, and autumn fades into the icy grip of winter. And so, at least for those in the northern climes, the four seasons roll on. The writer of Genesis says, <em>“While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease”</em> (Genesis 8:22). Christians believe this foundational Biblical principle; we accept this change in nature without question.</p>\n  <p>Why is it that changes in our human relationships and interactions are more difficult to accept? Children are born, marry, and move out. New friends move into our lives, and old friends move out. Longtime friends and family members pass on to their eternal reward, leaving behind only a memory and a legacy. How we accept and embrace change will reflect in joy and peace, or the lack thereof, in our lives. The late pastor and writer Warren Wiersbe said it this way: <em>“You and I cannot change or control the world around us, but we can change and control the world within us.”</em></p>\n  <p>I face a change that, in one sense, is difficult to embrace, yet on the other hand brings rest. I’ve enjoyed serving as editor of this magazine for the last several years. But the time has come for me to move on. I sense a need first to care for my own spiritual well-being, to pour into my family’s needs, and to carry the burden of our church that the Lord has called me to oversee. These cares and burdens are preventing me from investing the time and energy I feel are needed to adequately do justice as the editor of The Heartbeat of the Remnant. The Berean Voice board has graciously released me to make the change. Plans are in place for an editorial team, composed of some board members and perhaps others, to oversee bringing The Heartbeat of the Remnant to print every quarter.</p>\n  <p>Though constant change is in the air, our lives are not yet over. The time is steadily approaching when our parting breath will give way to our legacy, which will be inherited by those left behind. Until then, let us, by the grace of God, embrace change and ponder the wisdom of King Solomon, <em>“To every thing there is a season, and a time to every purpose under the heaven”</em> (Ecclesiastes 3:1).</p>\n  <figure><img src=\"/images/articles/b90378a3-1fae-4535-b33f-ccc4edf514ea-3.jpg\" alt=\"Edward Martin’s signature.\"></figure>\n  <p>Edward Martin</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cd9b787bd4ef4ab33ae96954e4057dab8de98383cdf1e0e4ddecb160cbcc3582"
+}

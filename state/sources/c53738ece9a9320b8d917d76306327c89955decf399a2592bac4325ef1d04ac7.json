@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "L.H.",
+          "role": null
+        }
+      ],
+      "raw": "~L.H."
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "dfc80edf-efff-4f43-a0b6-f0328948b30b",
+    "images": [
+      {
+        "alt": "Illustration of a barefoot woman in a worn coat and hat",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dfc80edf-efff-4f43-a0b6-f0328948b30b-1.png",
+        "repository_path": "public/images/articles/dfc80edf-efff-4f43-a0b6-f0328948b30b-1.png",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com without mapping this image to that source. The clean embedded sRGB raster was retained as a 406 × 752 sRGB PNG; its density metadata was normalized to 150 ppi without changing its crop, orientation, or content.",
+        "role": "central illustration",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "c2a74b77-fa78-5891-9aa5-a22f70c4515d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "The Girl Who Could Be Me",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "9e346ddb8ab20d0cba1ef10b5e0e25fcf6e1bf032a111ae234470ceb90912b66",
+    "metadata_sha256": "0394308567796e3e950e0fc5fd524036f996dbdaff8b738b1956afd37d8231cc",
+    "structure_sha256": "d39ed68e87fbe50f0836face99a177a3cb839dac9df1a07746cc6794434e6cb2",
+    "text_sha256": "7c0eeae28f09ae662c9b6d8c30958d0482b3651e368f7b9c6dec6e678566d593",
+    "translation_metadata_sha256": "d5ef6c1ca1cb271c115d1eefda2a09cd39044557c53909eeea93bc2c4174cb99"
+  },
+  "html": "<article data-article-id=\"dfc80edf-efff-4f43-a0b6-f0328948b30b\">\n  <figure>\n    <img src=\"/images/articles/dfc80edf-efff-4f43-a0b6-f0328948b30b-1.png\" alt=\"Illustration of a barefoot woman in a worn coat and hat\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Sometimes I’ve seen her …<br>\n    Maybe at the mall<br>\n    Pushing one of those carts<br>\n    That always slants the wrong way,<br>\n    Going crookedly,<br>\n    Bent —<br>\n    Like her own life.<br>\n    Her face washed out,<br>\n    Pale and pinched,<br>\n    Hungry, but not for food,<br>\n    Bearing a load too large to handle.<br>\n    Then I look at her<br>\n    And wonder why that isn’t me.</p>\n\n    <p>I’ve seen her on the street, too,<br>\n    In lots of different ways —<br>\n    She’s not always the same<br>\n    But she’s always,<br>\n    Always lost.<br>\n    Like some little child in a crowd<br>\n    Of thousands of people<br>\n    Equally lost,<br>\n    Or just too busy to point the way<br>\n    To become<br>\n    Unlost.<br>\n    I know her because I always watch for her.<br>\n    But who is she?<br>\n    She is the girl<br>\n    Who could be me.</p>\n\n    <p>Sometimes it seems wherever I look<br>\n    I see her,<br>\n    Troubled and bruised; in sinful misery,<br>\n    Wretchedly poor in heart,<br>\n    Drowning in sorrow of mind —<br>\n    Perhaps from what she’s done<br>\n    Or perhaps<br>\n    What others have done to her.</p>\n\n    <p>Sometimes …<br>\n    When I watch her<br>\n    I avert my eyes in pride<br>\n    So I don’t have to see<br>\n    Her pain<br>\n    And filthiness;</p>\n\n    <p>Until God<br>\n    With His two-edged sword<br>\n    Cuts open my heart<br>\n    And naked I stand,<br>\n    Trembling.<br>\n    Remembering that<br>\n    There but for the grace of God<br>\n    Am I.</p>\n  </div>\n\n  <p class=\"byline\"><em>~L.H.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b9d3446524f87c6bb25c0e2e550ea876bbba578ba45c90402e1c92e0221ddaed"
+}

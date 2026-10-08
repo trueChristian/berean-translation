@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Edward Martin",
+          "role": "Editor"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "042fce50-3724-4100-b397-093c6d081e89",
+    "images": [
+      {
+        "alt": "Gutenberg Bible on display at the U.S. Library of Congress",
+        "caption": "Gutenberg Bible on display at the U.S. Library of Congress.",
+        "credit": "Wiki Commons",
+        "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg",
+        "repository_path": "public/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg",
+        "rights_note": "The issue credits Wiki Commons on page 3; confirm any source-specific attribution or license requirements before production publication.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e7b560338a9aec2919ae1f6d362f73fa5f5943b95ffc5904ef825616362c084b",
+    "metadata_sha256": "719a993fd0a4f6a35dd966151a2861cf6675d5395a9a243e14f0338028c24bb1",
+    "structure_sha256": "9fb14980fe696209de7fab8a9c8435aec73546ccad3a649ad1cf15d754fca122",
+    "text_sha256": "81496b278284c15500b4ebadfa39f9ab350199bb32d470eff5b4db7a7b11f193",
+    "translation_metadata_sha256": "4801966f3598781fee349d461ed4ced30adcb3820ebaea8d96afad99794cde55"
+  },
+  "html": "<article data-article-id=\"042fce50-3724-4100-b397-093c6d081e89\">\n<p>January 21, 1525, was the 500th anniversary of Anabaptism. Five hundred years ago, a monumental event in the history of the Christian church occurred. A small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland. The state church government of Zürich had ordered parents to have their infants baptized or face being banished from their homes. Gathering together for Scripture studies and prayer meetings was outlawed, too. Yet, on this momentous winter evening, Feliz Mantz, Conrad Grebel, George Blaurock, and a few others took their obedience one step further. After praying and committing to serve God faithfully, George Blaurock asked Conrad Grebel to baptize him in true Christian faith, which Conrad did. The others also requested baptism, and George, in turn, also baptized them. And thus, Anabaptism, as we know it, was born.</p>\n\n<p>Though these three men played a key part in Anabaptist history, the Reformation did not begin with them. The real catalyst for flaming the fires of revival was kindled 88 years earlier. In 1436, a German goldsmith named Johannes Gutenberg invented a moveable type printing press. This dramatically improved printing, and books could be printed in greater quantities. Instead of a few books only in the hands of the wealthy, the common person could now afford to buy books. The first books to be printed on the Gutenberg press were Bibles. When common folks began to buy and read Bibles, they began to realize that the darkness of religious oppression was keeping them from understanding the true light of God’s Word. And thus, the Reformation was born.</p>\n\n<p>Fast forward 588 years. The printed paper still inspires men and women. But today, it is much easier to print a periodical magazine such as The Heartbeat of the Remnant. We simply take up the pen or keyboard and write. Our document is then digitally edited and electronically sent to the printer. After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours. It is then finished and mailed to 51 countries around the world and many states in the U.S. Printing has come a long way since 1436 when each page had to be set up and printed individually.</p>\n\n<figure>\n  <img src=\"/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg\" alt=\"Gutenberg Bible on display at the U.S. Library of Congress\">\n  <figcaption><em>Gutenberg Bible on display at the U.S. Library of Congress.</em></figcaption>\n</figure>\n\n<p>According to a 2010 Google project, just under 130 million books were published globally. Since then, UNESCO estimates that approximately 2.2 million new titles are published each year. By adding these yearly publications to the initial count, we can estimate that as of 2024, there are more than 160 million unique books in the world. This number does not account for books that may have gone out of print or been discontinued since their initial publication. The wise preacher was right when he wrote, “And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).</p>\n\n<p>Let’s use this freedom of the press to God’s glory while we have the chance. I work for Christian Aid Ministries, and we regularly hear testimonies from Christians in closed and restricted countries who are extremely blessed to receive Christian literature. One person from an undisclosed location wrote, “. . . we all take turns reading the magazine in church. A very edifying magazine. God bless you! God’s blessings.” Hearing testimonies like this makes me more thankful for what we have. But I’m sure people in persecuted countries value their Christian literature more highly than we who have Bibles and Christian literature in abundance.</p>\n\n<p>In this issue, we reprinted two articles by request. A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019. May our churches demonstrate the virtues and our homes radiate the beauty that is portrayed in these timeless articles.</p>\n\n<p>Blessings to all,</p>\n\n<p>Edward Martin</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c"
+}

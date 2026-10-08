@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Emma Kuepfer Holdeman"
+        }
+      ],
+      "raw": "—Emma Kuepfer Holdeman"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
+    "images": [
+      {
+        "alt": "A snow-covered road winding through an evergreen forest",
+        "caption": null,
+        "credit": "Brimming Focus Photography",
+        "public_path": "/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg",
+        "repository_path": "public/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg",
+        "rights_note": "The masthead credits Brimming Focus Photography on page 10; no separate license is stated. Rely on the publisher permission reported by the project owner and preserve the credit before production publication. The embedded asset was copied byte-for-byte without transformation.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 10
+      }
+    ],
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 10,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "The Pathway of Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8577689266967bbd84bf67eab4428cb86c677a3069822bf23d178912002d010b",
+    "metadata_sha256": "c66ddd38125742400641b4161b771f066fe22b008974f67b6f8f72b54d6f9364",
+    "structure_sha256": "bb34e25138f8e15e3d1dbd5da759a3b0f7483d9535f02c7680962e5de8ce7552",
+    "text_sha256": "afdbbcb2073d1d9af49e3fad2b9ee1d8e2a8fd4553730de6303d2f4dd6e4e2ba",
+    "translation_metadata_sha256": "278ad7eb28bd97fb09b7c026f9dbb4d4bd1c58a7ce4721b246a7269b4475b457"
+  },
+  "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"A snow-covered road winding through an evergreen forest\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Life is like a winding pathway<br>\n    For the multitude of souls,<br>\n    Who are briskly walking onward,<br>\n    Heedless of their final goal.</p>\n\n    <p>Life is mostly what we make it,<br>\n    Straight or crooked, one of twain;<br>\n    We’ll receive just what we merit—<br>\n    Our eternal loss or gain.</p>\n\n    <p>O dear souls! upon life’s pathway,<br>\n    Lean upon your Savior’s breast;<br>\n    There no foe can e’er molest you,<br>\n    ‘Til you reach eternal rest.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd"
+}

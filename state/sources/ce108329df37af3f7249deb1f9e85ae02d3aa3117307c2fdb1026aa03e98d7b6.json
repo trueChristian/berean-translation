@@ -1,0 +1,149 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, Ohio",
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "by Edward Martin\nGlenmont, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+    "images": [
+      {
+        "alt": "An open Bible and a potted green plant beside a curtained window.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg",
+        "repository_path": "public/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 57; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The lower photo region preserves the entire visible Bible, pot and plant leaves. The title/byline panel above is omitted by an unobstructed crop. Text printed on the photographed Bible remains intrinsic content. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            848,
+            1724,
+            2300
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1724,
+            1452
+          ],
+          "output_dimensions": [
+            1724,
+            1408
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1724,
+            2300
+          ],
+          "source_object": 57,
+          "vertical_scale_to_published_aspect": 0.9700255754475703
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Red buds on tree branches against a softly blurred background.",
+        "caption": null,
+        "credit": "© Jonathan Martin",
+        "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg",
+        "repository_path": "public/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 65; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The complete rectangular photo panel is cropped inside its paper border; adjacent body text is excluded. Background blur and colour are intrinsic and retained. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 14,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            95,
+            0,
+            780,
+            1220
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            685,
+            1220
+          ],
+          "output_dimensions": [
+            685,
+            1207
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1632,
+            2135
+          ],
+          "source_object": 65,
+          "vertical_scale_to_published_aspect": 0.9892271662763465
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 12
+    },
+    "subtitle": "Finding Peace in an Emotional Crisis",
+    "title": "Jesus Christ, the Answer to Broken Humanity",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "eae06def-4dfa-58c1-8384-2115509836ba",
+      "1cd422b4-5792-58e6-bee6-d13c7784a0c9"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9f2264ed59822e728a782ac185fc87f596544716b2434000a841d1f6b2a80eca",
+    "metadata_sha256": "d6c0a99b1112e5a3145c081e078bc9fbb63ce9693f90d544494e5702d3757004",
+    "structure_sha256": "f1a9b8571bc394caf653ae8c10d596d68758c347a83bdcc35bec2f1d1e9f838d",
+    "text_sha256": "2a817c7e73966f25343258351f005266af3ae360c9425681be39f34a3d9e0ea6",
+    "translation_metadata_sha256": "aaa5c6041f2ef0a68d784dd635a440cdb4392ebf0ae24c373fc4e2a1d4a2eb3f"
+  },
+  "html": "<article data-article-id=\"324b0fa1-c057-471e-8e90-8eb699e8285a\">\n  <figure>\n    <img src=\"/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg\" alt=\"An open Bible and a potted green plant beside a curtained window.\">\n  </figure>\n  <p>We live in a world filled with broken relationships. Pain, confusion, and the results of abuse are seen everywhere. Sometimes, these emotions and others are found hidden together in the heart of a person. That person may be you.</p>\n  <p>Responses to emotional pain are also seen all around us. Hatred, unforgiveness, anger, withdrawal, abuse, and more are frequent responses to emotional brokenness and pain experienced in a person’s life. News articles are filled with stories of people acting out their responses to their inner pain. Counseling centers are booked months and sometimes years in advance by people waiting to find relief for their turmoil and pain. One of those persons may be you.</p>\n  <p>The world is also filled with programs, products, practitioners, books, and medications. All claim to offer some form of relief for emotional pain. Some do provide a temporary reprieve, and sometimes even long-term benefits. People spend millions of dollars pursuing products and persons in an attempt to find lasting freedom and deliverance. Yet true, heartfelt peace seems to elude them. You may be one of these persons.</p>\n  <h2>Emotional pain is nothing new</h2>\n  <p>It is not a new phenomenon in the 21<sup>st</sup> century. Brokenness and sin have been ongoing since the fall of man in the Garden of Eden. The first recorded evidence is seen in Genesis 3. “And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself” (Genesis 3:10). Adam was afraid. Afraid of what? Adam and Eve were fearful to meet God because they were experiencing the result of sin in their lives. They were afraid that their sin would be exposed. The physical nakedness that concerned them was only an outward manifestation of the spiritual nakedness they were experiencing for the first time in their lives.</p>\n  <p>All children experience the fear of being exposed. As they approach the age of accountability, children become aware of doing wrong. They experience the fear of meeting the God whom they have disobeyed. They are afraid of being exposed. Even children growing up in godless homes are afraid of being caught in wrongdoings. Most times, children don’t know what to do with this fear, so they stuff it deep down into their hearts, attempting to cover it with fig leaves. This is the beginning of emotional pain that is buried deep in the crevices of the heart. As children grow, they encounter more instances of disobedience and willful expressions. The emotions of fear, frustration, and turmoil that follow are again stuffed down into the heart.</p>\n  <p>Sadly, sometimes children are wronged and abused. This brings a level of emotional pain that a child should never have to deal with. Rejection, worthlessness, fear, and confusion are crowded into a heart that is now nearly ready to explode. Other children stumble unwittingly, or sometimes curiously, onto adult content that is far above their understanding and defiles their minds. This defilement, too, is stuffed into their now-darkened heart. They stumble into adolescence and young adulthood, burdened down with emotional baggage and no answers on how to find freedom. They may, like Cain, respond in anger when they encounter God. “But unto Cain and to his offering he had not respect. And Cain was very wroth, and his countenance fell” (Genesis 4:5). You may have been one of these children.</p>\n  <h2>Finding solutions to emotional struggles without finding peace with God is humanism</h2>\n  <p>No one wants to live in emotional pain. Mental agony drives people or their loved ones to find solutions. And purported solutions abound. Secular and Christian bookstore shelves are filled with books on mental and emotional health. People of all walks and professions of life offer remedies. Psychiatrists present a plethora of medications to numb the pain and elevate the mood. In extreme cases, in the darkest or most dangerous times of a person’s life, these medications can help bring some stability, but medication itself cannot give a person peace with God.</p>\n  <p>Psychologists offer talk therapy. They use cognitive-behavioral therapy to try to help individuals recognize and understand how their thoughts influence their emotions and behaviors. They try to help people reframe negative or unrealistic thoughts with more balanced and rational thinking patterns. All this is attempted without God. Even “Christian” psychology may use a mystical form of therapeutic practice that combines elements of prayer, spiritual reflection, and psychological healing. In this approach, individuals seek guidance and healing by engaging in quiet, contemplative prayer with the intention of “listening” for God’s voice. This therapy places a strong emphasis on inner healing, where past hurts, negative beliefs, or traumatic experiences are brought to light—even emotions that have been forgotten. It is beneficial for individuals to talk about their struggles, but finding peace for emotional struggles without finding salvation through Jesus Christ is a futile effort.</p>\n  <p>Alternative health practitioners offer herbs, tinctures, and teas as solutions to emotional struggles. In Genesis 1, God created green herbs and trees for food. Some of these have medicinal and healing properties. They are good for the health and well-being of humanity. But no tea, vitamin, or health food remedy will take the place of the Person of Jesus Christ in finding healing in the life of a struggling person.</p>\n  <p>True peace only comes through being born again. When Nicodemus came to Jesus with questions about life, Jesus told him that unless he is born again, he cannot see the kingdom of heaven (John 3:3). Many people run all over the world looking for solutions to the confusion and heaviness in their hearts. Maybe you have been one of those people.</p>\n  <figure>\n    <img src=\"/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg\" alt=\"Red buds on tree branches against a softly blurred background.\">\n  </figure>\n  <h2>Salvation according to the Bible</h2>\n  <p>What is true Biblical salvation? What did Jesus mean when he said, “Ye must be born again” (John 3:7)? Sometimes, we make the gospel message more complex and confusing than God, the author of the Bible, intended it to be. Apostle Paul was concerned about this. “For I am jealous over you with godly jealousy: for I have espoused you to one husband, that I may present <em>you as</em> a chaste virgin to Christ. But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ” (2 Corinthians 11:2-3). The Good News of salvation is simple and not difficult to obtain. Let’s walk through these simple Biblical steps of salvation:</p>\n  <h3>Confession</h3>\n  <p>The first instance of people confessing their sins was when they came to be baptized by John the Baptist. “And were baptized of him in Jordan, confessing their sins” (Matthew 3:6). The first step of salvation is to confess your sins to God. God knows your sins anyway. In prayer, come before Him, telling Him who you are. Be specific. As God brings things to your mind, confess them to Him. If you have stolen things, tell God that you are a thief. If you have lied, confess to God that you are a liar. If you have been involved in dark moral sins, any form of witchcraft, unforgiveness, murder, or a deeply sinful or emotional past, you must have help with confessing these things to God. “Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much” (James 5:16). Seek the help of a minister or an experienced Christian. Never work through these things alone with someone of the opposite gender. Having someone with you is helpful as they prompt your mind and guide you in confessing your sins to God.</p>\n  <h3>Repentance</h3>\n  <p>Repentance is an easy word to understand. It simply means to “turn away from” or to “change one’s mind”. Now that you confessed your sins, tell God in prayer that you are willing to turn away from them. You will go in the other direction and walk away from those sins. “Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord” (Acts 3:19). “Repent therefore of this thy wickedness, and pray God, if perhaps the thought of thine heart may be forgiven thee” (Acts 8:22). By repenting of your sins, you are telling God you are willing to walk away from your sinful life, turn the other direction, and walk to God.</p>\n  <h3>Call on Jesus</h3>\n  <p>“For whosoever shall call upon the name of the Lord shall be saved” (Romans 10:13). Now that you have confessed and repented of your sins, call on the name of the Lord Jesus to wash your sins away. He promised that if you call on Him, He will wash you clean with His shed blood. He gave Himself as a sacrifice so His pure, sinless blood can atone for your sins. “And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved” (Acts 2:21). “Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers; But with the precious blood of Christ, as of a lamb without blemish and without spot” (1 Peter 1:18-19). “Then will I sprinkle clean water upon you, and ye shall be clean: from all your filthiness, and from all your idols, will I cleanse you. A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them. And ye shall dwell in the land that I gave to your fathers; and ye shall be my people, and I will be your God” (Ezekiel 36:25-28).</p>\n  <h3>Believe by faith</h3>\n  <p>The Philippian jailer asked Paul and Silas about salvation. “And brought them out, and said, Sirs, what must I do to be saved? And they said, Believe on the Lord Jesus Christ, and thou shalt be saved . . .” (Acts 16:30-31). You confessed and repented of your sins; you called on Jesus to wash them away with His blood. Believe by faith that He has kept His promise and that you are now a child of God. “That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved” (Romans 10:9). “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life” (John 3:16). Thank the Lord that He has taken your sins away. Praise Him for making you His child. Ask Him to fill you with His Holy Spirit.</p>\n  <p>There are varying instances of individuals finding salvation in the New Testament, but the ingredients of confessing sin, repentance, calling on Jesus to wash one’s sins away, and believing by faith are repeated throughout Scripture. Sealing one’s faith by baptism as a response to a clear conscience before God is also necessary. “The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ” (1 Peter 3:21). That person with a clear conscience can be you!</p>\n  <h2>Working through mental and emotional burdens</h2>\n  <p>It is not possible to find true peace and victory over emotional struggles without first being born again. The new birth is not the end of the matter but rather the beginning of a Spirit-filled life. A person who has been thinking dark and negative thoughts will need ongoing help to work through their thoughts and behavior to bring them into alignment with the Scriptures. The Apostle Paul wrote that we should be renewed in the spirit of our minds. “If so be that ye have heard him, and have been taught by him, as the truth is in Jesus: That ye put off concerning the former conversation the old man, which is corrupt according to the deceitful lusts; And be renewed in the spirit of your mind” (Ephesians 4:21-23). This is an important topic and more could be written about it.</p>\n  <h2>Maintaining a Christ-filled life</h2>\n  <p>The new birth is not a once-saved, always-saved event. It is not a free ticket to heaven that gives us the liberty to live like a child of the devil. It is not merely a charismatic, emotional event.</p>\n  <p>The new birth is an entrance into the kingdom of heaven here on this earth. It is a wrestling with one’s sins at the Strait Gate and a beginning on a pathway that leads to a heavenly country. “Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat: Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it” (Matthew 7:13-14).</p>\n  <p>The born-again believer rests securely in the hand of his heavenly Father. He is promised all the glories and beauties of heaven. Being born again should cause one to weep emotional tears of joy because his sins are washed away.</p>\n  <p>But the journey has only begun. As long as we travel through this sin-cursed world, our lives will be troubled with temptations. Satan will do his best to draw us away. Our flesh must be brought under subjection. “And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me” (Luke 9:23). We must crucify the desires of our flesh daily, but we now are filled with the Spirit of God, and in His strength we go forth each day.</p>\n  <p>If we fall into sin, God’s free gift of salvation is available for us. We confess and repent and ask God for a clean heart again. “But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin. If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.” (1 John 1:7,9).</p>\n  <p>It is important that we maintain a Christ-filled, Spirit-led life. Feed on the Word of God daily. Pray and seek His divine guidance. He will sanctify us and show us areas that we need to surrender to Him. He will bless us with all spiritual blessings in heavenly places. He makes us accepted in Him. We have continual redemption through His blood and the forgiveness of sins.</p>\n  <p>There may be other tools that help us along on our Christian journey, but true, Biblical salvation through Jesus Christ is the only lasting solution to bring us freedom from emotional bondage. “Thanks be unto God for his unspeakable gift” (2 Corinthians 9:15). The free gift of salvation is available for you.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52"
+}

@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Evan Roberts"
+        }
+      ],
+      "raw": "by Evan Roberts"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "4df82115-048c-44a6-a7ea-3ff9aea94d09",
+    "images": [
+      {
+        "alt": "An oval world map",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-1.jpg",
+        "repository_path": "public/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-1.jpg",
+        "rights_note": "PDF image object 35. Separate article heading, byline and body typography omitted. The pale map is already flattened into object 35; no unwashed base or verifiable inverse blend exists, so its exact source tone is retained. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source grayscale converted to RGB; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 8
+      },
+      {
+        "alt": "Evan Roberts seated with an open book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-2.jpg",
+        "repository_path": "public/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-2.jpg",
+        "rights_note": "PDF image object 36. Original embedded asset retained at native dimensions and published orientation. Separate page typography, surrounding panel/frame and duplicated pull quotes omitted where present. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source grayscale converted to RGB; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 8
+      }
+    ],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 8
+    },
+    "subtitle": "(Fresh from the Welch Revival of 1904)",
+    "title": "A Message To The World",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "af10995d43a6352a28831f5f6ee6c4a2330b9f138fffc363881466498275af9b",
+    "metadata_sha256": "6d4ca8aa3f03f25eed11fb4e02bf14a515cdd6b48b7cb887700203b035240433",
+    "structure_sha256": "ffa2b2a021708948860e0ac2cbfd0bceb58add2df5dae6ce4089577050c071b3",
+    "text_sha256": "c9c646ce37f00931442ef2167d702dc360467e95dbfea48ec23ca7623f1fd52e",
+    "translation_metadata_sha256": "e6bd62f432a91a55fc186808a7717fb279611f156221ce01f58fedb9157a6170"
+  },
+  "html": "<article data-article-id=\"4df82115-048c-44a6-a7ea-3ff9aea94d09\">\n<figure>\n  <img src=\"/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-1.jpg\" alt=\"An oval world map\">\n</figure>\n<figure>\n  <img src=\"/images/articles/4df82115-048c-44a6-a7ea-3ff9aea94d09-2.jpg\" alt=\"Evan Roberts seated with an open book\">\n</figure>\n<p class=\"drop-cap\">The Power of the revival in South Wales is not of men, but of God. He has been close to us and has shown us the way.</p>\n<p>There is no question of creed or of dogma in this movement. The work that is being done has the support, I believe, of all Christian people and Christian churches in our country. I have merely preached the religion of Jesus Christ as I myself have experienced it.</p>\n<p>God has “made me glad,” and I am showing others the great joy of serving Him, a joy so great and so wonderful that I shall never be able to express it in its completeness. We are teaching no sectarian doctrine, only the wonder and the beauty of Christ’s love, the love of man for Him, and the love of man for man.</p>\n<p>I have been asked concerning my methods. I have none. I never prepare the words I shall speak. I leave all that to Him. I am not the source of this revival. I am only one agent in what is growing to be a multitude. I am not moving men’s hearts and changing men’s lives; not I, but “God worketh in me.” I have found what is, in my belief, the highest kind of Christianity. I desire to give my life, which is all I have to give, to helping others to find it also. Many have already found it, thank God, and many more are finding it through them.</p>\n<p>This is my work as He has pointed it out to me. His Spirit came to me one night, when upon my knees I asked Him for guidance, and five months later I was baptized with the Spirit. He has led me as He will lead all those who, conscious of their human weakness, lean upon Him as children upon a father. I know that the work which has been done through me is not due to any human ability that I possess. It is His work and to His Glory. “I was not ever thus, nor prayed that Thou should’st lead me on. I loved to choose and see my path, but now lead Thou me on.”</p>\n<p>I desire nothing but to be allowed to continue this work that has begun. “The Lord is my Shepherd. I fear no want.” All things necessary He has provided, and will provide. I wish no personal following, only the world for Christ.</p>\n<p>Some things have been said about our meetings, and about me which are not true; but God’s truth has not been hurt by these misstatements, and they, therefore, matter little. I believe, too, that He has put it into the hearts of those who have written of the revival to say helpful things, for some of the papers have carried our message to many whom we have not personally reached.</p>\n<p>I believe that the world is upon the threshold of a great religious revival, and I pray daily that I may be allowed to help bring this about.</p>\n<p>I beseech all those who confess Christ to ask Him to-day, upon their knees, if He has not some work for them to do now. He will lead them all as He has led us. He will make them pillars of smoke by day and pillars of fire by night to guide all men to Him.</p>\n<p>Wonderful things have happened in Wales in a few weeks, but these are only a beginning. The world will be swept by His Spirit as by a rushing, mighty wind. Many who are now silent Christians, negative Christians, Christians whose belief means little to them and nothing to anyone else, will lead in the movement. Groping, hesitating, half-hearted Christians will see a great Light and will reflect this Light to thousands of those in utter darkness. The whole world will hear His message of “peace, good-will toward men,” and listening, will be blessed. Thousands upon thousands will do more than we have accomplished, as God gives them power. This is my earnest faith, if the churches will but learn the great lesson of obedience to the voice of the Holy Spirit. Obedience! Obedience!! Obedience!!!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "8506eb0ca7ad01c7b554c7a84da857753c722b907bdacad610074e7ed125ac22"
+}

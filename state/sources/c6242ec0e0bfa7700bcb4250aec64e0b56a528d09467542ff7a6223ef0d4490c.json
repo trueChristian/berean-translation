@@ -1,0 +1,110 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4",
+        "9514e8ea-e431-5806-a5f3-0953a922c074"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "c9cda67c-6031-4ebf-8553-a2baa80c2180",
+    "images": [
+      {
+        "alt": "Close-up of handwriting in the Hutterian Chronicles",
+        "caption": null,
+        "credit": "Stephen Taylor",
+        "public_path": "/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-1.jpg",
+        "repository_path": "public/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-1.jpg",
+        "rights_note": "The page-2 masthead credits Stephen Taylor for photographs on printed pages 3, 34, and 35; no separate permission notice or licence terms are stated. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density; its crop, orientation, and content were unchanged.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 3
+      },
+      {
+        "alt": "A comet drawn in the Hutterian Chronicles",
+        "caption": "Comet drawn in the Hutterian Chronicles",
+        "credit": null,
+        "public_path": "/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-2.jpg",
+        "repository_path": "public/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-2.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com without mapping this drawing to that source. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density; its crop, orientation, and content were unchanged.",
+        "role": "comet drawing",
+        "sequence": 2,
+        "source_page": 3
+      },
+      {
+        "alt": "The wooden box holding the Hutterian Chronicles",
+        "caption": "This wooden box “guards” the original, handwritten Hutterian Chronicles.",
+        "credit": "Stephen Taylor",
+        "public_path": "/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-3.jpg",
+        "repository_path": "public/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-3.jpg",
+        "rights_note": "The page-2 masthead credits Stephen Taylor for photographs on printed pages 3, 34, and 35; no separate permission notice or licence terms are stated. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density; its crop, orientation, and content were unchanged.",
+        "role": "manuscript box photograph",
+        "sequence": 3,
+        "source_page": 34
+      },
+      {
+        "alt": "Blank spaces in the Hutterian Chronicles’ Table of Martyrs",
+        "caption": "The original manuscript of The Hutterian Chronicles left blank spaces and pages in the Table of Martyrs, probably because they expected that later generations who would live godly in Christ Jesus would need to be added.",
+        "credit": "Stephen Taylor",
+        "public_path": "/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-4.jpg",
+        "repository_path": "public/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-4.jpg",
+        "rights_note": "The page-2 masthead credits Stephen Taylor for photographs on printed pages 3, 34, and 35; no separate permission notice or licence terms are stated. The photograph was stored as two horizontally adjacent sRGB JPEG tiles; they were joined at their published positions into one 559 × 372 standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving its crop, orientation, and content.",
+        "role": "Table of Martyrs manuscript detail",
+        "sequence": 4,
+        "source_page": 35
+      },
+      {
+        "alt": "Blank and handwritten pages in the Hutterian Chronicles’ Table of Martyrs",
+        "caption": "The original manuscript of The Hutterian Chronicles left blank spaces and pages in the Table of Martyrs, probably because they expected that later generations who would live godly in Christ Jesus would need to be added.",
+        "credit": "Stephen Taylor",
+        "public_path": "/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-5.jpg",
+        "repository_path": "public/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-5.jpg",
+        "rights_note": "The page-2 masthead credits Stephen Taylor for photographs on printed pages 3, 34, and 35; no separate permission notice or licence terms are stated. The photograph was stored as two horizontally adjacent sRGB JPEG tiles; they were joined at their published positions into one 559 × 372 standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving its crop, orientation, and content.",
+        "role": "Table of Martyrs open-book spread",
+        "sequence": 5,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "c2a74b77-fa78-5891-9aa5-a22f70c4515d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        3,
+        34,
+        35
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "An Ancient Message from Blank Paper",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "5e9b80d72d79fc44f859d53b6b90e5b797a967838abef8671293908727b7cda7",
+    "metadata_sha256": "5c63d33bd4f59dedf7ee75a4c4aaae252105960bf699ba022f183c0957299c47",
+    "structure_sha256": "41982346cab6c502d2a7dc6a7b54252a3e1729c27578ae3518630d1d5858dcfe",
+    "text_sha256": "a6bcef5ce8db192a205bd92606aa7b9eb1f84e7397b27dff7ac27a41b72ca6e6",
+    "translation_metadata_sha256": "e1bf6641bb047047e6a1317398f01c41db3f1f9552ae78f73946ae3b4313f69f"
+  },
+  "html": "<article data-article-id=\"c9cda67c-6031-4ebf-8553-a2baa80c2180\">\n  <p class=\"drop-cap\">This has been a very busy time around here. About two months ago, packing up our household items and renting our house to a local brother, my family and I headed out West to Elmendorf Christian Community. Experiencing a challenging new level of brotherhood, we have already been stretched in many ways.</p>\n\n  <p>Elmendorf had its official start about 17 years ago as a revived Hutterite colony. During this time God was awakening many brothers from among these people. Older brothers like Jake Wurtz, who recently died at 86 here in Elmendorf, and Paul Walter from Ft. Pitt Colony who also recently died, carried a vision for a revived colony for decades.</p>\n\n  <p>Their beginning years were challenging and it took a lot of courage to do the things they did. At times they were very alone. But God sent blessings from many different places. Not long after, Altona, another community in Minnesota, also experienced renewal and they too longed to see God at work among dedicated Christian brethren.</p>\n\n  <p>One of the blessings that God sent in these early years to these newly revived brethren was the preaching ministry of Mose Stoltzfus. In those days, Bro. Mose was preaching across the Western plains. Sometimes by himself and other times with either Denny Kenaston or Zac Poonen, Bro. Mose witnessed many new births and zealous commitments during that time. The brothers here tell me of how God really stretched them during these early years.</p>\n\n  <p>Since those beginning years, like all renewed Anabaptist groups, these revived Hutterites have needed to discern God’s particular calling for them. They have needed to walk in the blessing of renewal and do so without “throwing the baby out with the bathwater.” My years in Lancaster County have shown me that this is not always an easy task.</p>\n\n  <h3>In the West</h3>\n\n  <p>In just two months it has already been quite an experience for the Taylor family. New places are always full of new treasures. It has been fun exploring the history as well as the new spiritual life of this area.</p>\n\n  <p>One of the things that I couldn’t wait to do out here was to see Bon Homme Colony located in South Dakota. Bon Homme was the first place the Hutterites came when they immigrated to America in 1875. On this journey to America, the Hutterites brought with them an ancient, handwritten copy of <em>The Hutterian Chronicles</em>. The <em>Chronicles</em> is a journal recording the trials and successes that the brethren experienced through the centuries. The <em>Chronicles</em> was always passed down from one generation to another. Since they came to America, this copy of the <em>Chronicles</em> has been kept at Bon Homme. I really wanted to see this old book. Thankfully, just this week I had a chance to make it out to Bon Homme to see it. But the visit ended up being even more interesting than I had thought.</p>\n\n  <figure>\n    <img src=\"/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-1.jpg\" alt=\"Close-up of handwriting in the Hutterian Chronicles\" loading=\"lazy\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-2.jpg\" alt=\"A comet drawn in the Hutterian Chronicles\" loading=\"lazy\">\n    <figcaption>Comet drawn in the Hutterian Chronicles</figcaption>\n  </figure>\n\n  <h3>The message from blank paper</h3>\n\n  <p>The minister at Bon Homme entered carrying an old wooden box, complete with vintage postage stamps and brittle hinges. Taking the old, leather book out of the box, he laid the handwritten copy of <em>The Hutterian Chronicles</em> on his desk.</p>\n\n  <p>It seemed odd to see the <em>Chronicles</em> kept in this old box. Even though it was somewhat ridiculous that this ancient book is kept this way, there couldn’t help but be something romantic about the whole thing. Flipping through the pages, the handwritten script told a story of its own. Some of the writers used elaborate calligraphy; others wrote with fine, neat lettering. All, however, told a story of a different time and a different place. Today their time and place seems far away from our own.</p>\n\n  <p>There were many interesting things in this old book to see. For example, I saw the comet that one of the ministers drew in the margins in 1585. Little drawings like this revealed the anticipation that these brethren had over even the smallest thing.</p>\n\n  <p>For example, after seeing a comet in 1618 the <em>Chronicles</em> reports:</p>\n\n  <blockquote>\n    <p>On November 29, 1618, around four o’clock in the morning an extraordinary comet appeared. It was brilliant and had a very long tail, such as is rarely seen. After that, it appeared each morning a little earlier until it rose exactly at midnight … it was watched with great awe and terror and was last seen close to the North Star, where it faded away. In the years following we were to learn, with much suffering and sorrow, what it had signified.</p>\n  </blockquote>\n\n  <p>Little did they know when the brethren saw that comet that they were on the brink of the terrible 30 Years’ War. This was the war between the Catholics and Protestants to decide who would win the “spiritual” control of their kingdoms. Caught in the crossfire, Anabaptists all over Europe suffered terrible persecution from both sides. When I read the descriptions of these military attacks on the brethren as recorded in the <em>Chronicles</em>, I grimace. These were a people well accustomed to suffering.</p>\n\n  <h3>Martyr table</h3>\n\n  <p>But of all of the pages in the <em>Chronicles</em> that I wanted to see, the most interesting one was the Table of Martyrs. I paged through the old <em>Chronicles</em> until I found it. This table is a list of how many Anabaptist martyrs were killed per city. It is quite a sobering sight to see. In vertical columns down the page, each geographic region is listed. Then under those regions is listed how many martyrs were killed per city. For example, listed under the “Salzburg region” you read Salzburg–38, Berchtesgaden–18, etc. Or in the “Austria area” you find Neustadt–2 or Lembach–45. The table is impressive. The vertical columns are divided into two halves with martyr-related scriptures such as “Behold I send you out like sheep among wolves (Mt. 10:16)” written down the middle.</p>\n\n  <h3>The discovery</h3>\n\n  <p>I was glad when I found the table in the original, and it was nice to see the calligraphy and artwork that surrounded it. But as I studied it closely I discovered a startling difference between this original copy and the one that I have in English today. In the modern versions (both German and English) after each geographic region is listed, the text proceeds right into the next region.<sup>1</sup> At the end of the whole thing, when the tables are complete, the text simply goes on to the regular narrative. But in the original, ancient version there was a conspicuous difference—blanks!<sup>2</sup> There were sections left after each region that were left intentionally blank. Even more than this, after all the geographic regions were listed, there were left an additional two complete blank pages. These blank pages were prepared with center column Bible references and markings in the margins about martyrdom.</p>\n\n  <figure>\n    <img src=\"/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-3.jpg\" alt=\"The wooden box holding the Hutterian Chronicles\" loading=\"lazy\">\n    <figcaption>This wooden box “guards” the original, handwritten Hutterian Chronicles.</figcaption>\n  </figure>\n\n  <p>It made me ask the question, “Why were all these blanks left here when the original <em>Chronicles</em> were being written?” I think the answer is obvious. The original writers of <em>The Hutterian Chronicles</em> expected their successors to continue the path of martyrdom, and even left blanks for the new martyrs to be included!</p>\n\n  <ol class=\"footnotes\">\n    <li>See <em>The Chronicles of the Hutterian Brethren</em> Vol. 2 pg. 64-67</li>\n    <li>(See back cover)</li>\n  </ol>\n\n  <h3>Why did it stop?</h3>\n\n  <p>These blanks really made me think: why has the persecution stopped? I tell myself, “Well, things are different now, and we live in an age of peace.” But I wonder, have the persecutions stopped because the world is a nicer place; or is it because I have grown so much like the world that I am no longer a threat? The apostle spoke pretty matter-of-factly when he said, “All that will live godly in Christ Jesus shall suffer persecution.” 2 Ti. 3:12</p>\n\n  <p>The brethren who left those blanks in the <em>Chronicles</em> saw the world in a much different light than we do today. One of their own, a Hutterite martyr and missionary years ago, had something to say as to why persecution stops. Writing on this theme, Jeronime Käls wrote a letter from prison saying:</p>\n\n  <blockquote>\n    <p>Many in our time think the opposition has ended. They look back and think the war is over. But they are deceived; if they would live the life they would get persecuted again. As long as the lion has its cubs with him, he might act friendly and playful enough. But when he loses his little ones, or his prey, he cannot keep himself back. He rages and roars. He rants and he raves, as only lions can, until fire shoots from his eyes!</p>\n\n    <p>Certainly Peter does not warn us in vain that Satan comes upon us like a roaring lion or a wolf at nightfall. But, may God be praised, the Lion of the tribe of Judah is bigger and stronger than the lion of the Philistines. He has already split the other lion’s head and wounded his body. Therefore he knows that his time is short, and he will soon be overcome. Therefore he is so desperate, so angry. He sees the lake of fire into which he will be thrown.</p>\n\n    <p>Watch yourselves, therefore, heroes of Israel! Take courage, strong men of Zion! Rejoice, oh city of Jerusalem! The time of your triumph is near. All tears will be washed from your eyes. The reward of your labors stands ready. Just hold on a little while longer! The fat cattle have already been butchered, the fowls have all been plucked. The tables stand ready and the guests have begun to arrive!”</p>\n  </blockquote>\n\n  <figure>\n    <img src=\"/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-4.jpg\" alt=\"Blank spaces in the Hutterian Chronicles’ Table of Martyrs\" loading=\"lazy\">\n    <img src=\"/images/articles/c9cda67c-6031-4ebf-8553-a2baa80c2180-5.jpg\" alt=\"Blank and handwritten pages in the Hutterian Chronicles’ Table of Martyrs\" loading=\"lazy\">\n    <figcaption>The original manuscript of The Hutterian Chronicles left blank spaces and pages in the Table of Martyrs, probably because they expected that later generations who would live godly in Christ Jesus would need to be added.</figcaption>\n  </figure>\n\n  <p>I’ve said for years that I want to be ready for persecution. I’ve said confidently that if someone ever challenged my faith I would never deny Christ. But the blanks in that Table of Martyrs challenge me even further than merely “being ready.” More than just “being ready” for persecution, those blanks challenge me to live a life in such a way that persecution is almost expected. I pray God will give me and my family the grace to live a life that would glorify God like this—no matter the cost. Who knows, perhaps if we are faithful, one of us will end up being written on a table like this.</p>\n\n  <p>In this issue we tackle the question of using psychology in the counseling rooms. This subtle influence creeps into our churches and people become convinced that their sin is someone else’s fault, among other things. We also have a long historical article that is quite relevant in our church situations today. We watch, as it were, a slow-motion replay of the events … hopefully to see their good moves and their mistakes and learn from them. For the sisters, we include two complementary articles on the high calling of being a keeper of the home. Our enemies would have us to believe that a woman driving a bulldozer is more noble than one who raises children!</p>\n\n  <p>May this issue of <em>The Heartbeat of the Remnant</em> find us watching!<br>\n  ~Bro. Dean</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2d260ac752ce486a025756d7e90d644033ca67080a4eb50b17ee2651e7ff94a5"
+}

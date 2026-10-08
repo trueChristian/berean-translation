@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Darren Brubaker"
+        }
+      ],
+      "raw": "–Darren Brubaker"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c6d7895b-ceee-44f0-a6c8-7d5642958042",
+    "images": [
+      {
+        "alt": "Snow-covered evergreens beside a narrow creek",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c6d7895b-ceee-44f0-a6c8-7d5642958042-1.jpg",
+        "repository_path": "public/images/articles/c6d7895b-ceee-44f0-a6c8-7d5642958042-1.jpg",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 35; rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "ac238571-c56c-5d66-983d-7f37969bbf1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "What Is a Blessing?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b7f2c3731e55eb8697918a7e2ee570fa0795e21d677f697941fc92e7b5fab38b",
+    "metadata_sha256": "81f8c64391756ce686bafe9763cbfe6a84ff8e71dc371bfba857b947f1c57011",
+    "structure_sha256": "045061d741bcbf60de1dfe3611c7d1a5718cb8d5af626d4290bb55add32b8a81",
+    "text_sha256": "a7e3a177f44dfac139c0bfbe0428d2333c3a97fa681c2fff906eecf2f9912884",
+    "translation_metadata_sha256": "6cf74d3aab70169003d5894d88f8359761d5862e0bc313af5244ac3e1d4d359a"
+  },
+  "html": "<article data-article-id=\"c6d7895b-ceee-44f0-a6c8-7d5642958042\">\n  <figure>\n    <img src=\"/images/articles/c6d7895b-ceee-44f0-a6c8-7d5642958042-1.jpg\" alt=\"Snow-covered evergreens beside a narrow creek\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>It seems that Christians rich and poor,<br>\n    Persecuted or free,<br>\n    Claim that God has richly blessed them.<br>\n    But can this really be?</p>\n\n    <p>One or the other must be wrong<br>\n    So let’s have a little quiz<br>\n    And see if we can figure out<br>\n    What a true blessing is.</p>\n\n    <p>A blessing is a gift from God<br>\n    That makes us love Him more.<br>\n    It makes us long to be with Him<br>\n    On heaven’s golden shore.</p>\n\n    <p>A blessing profits us throughout<br>\n    That long eternity.<br>\n    It’s something we do not deserve,<br>\n    Yet it’s completely free.</p>\n\n    <p>Is it perhaps a mansion grand<br>\n    Or just a cottage small,<br>\n    That makes us long for Heaven’s home<br>\n    Beyond the jasper wall?</p>\n\n    <p>Is it cupboards full of good food<br>\n    In this world here below?<br>\n    Or maybe it is hunger, thirst<br>\n    That makes us long to go.</p>\n\n    <p>Perhaps it is a bumper crop,<br>\n    A summer with much rain.<br>\n    Or does a drought bring longing for<br>\n    That bountiful shore to gain?</p>\n\n    <p>Does having a big bank account<br>\n    Make us for heaven sigh?<br>\n    Or does poverty bring a longing<br>\n    For treasure in the sky?</p>\n\n    <p>Is it second-hand clothes, or ones<br>\n    Designed to fit just right<br>\n    That makes us long to join the throng<br>\n    Of angels robed in white?</p>\n\n    <p>Is it a healthy life, or one<br>\n    With sickness, pills, and pain,<br>\n    That makes us put all effort forth<br>\n    That healthful shore to gain?</p>\n\n    <p>Is it freedom of religion<br>\n    To worship without fear<br>\n    Or persecution bitter fierce<br>\n    That makes our faith so dear?</p>\n\n    <p>Is it ease or is it sorrow<br>\n    That makes us long each day<br>\n    To have God take us in His arms<br>\n    And wipe all tears away?</p>\n\n    <p>Oh when the end of time has come<br>\n    And earth shall be no more,<br>\n    Kneeling by God’s blissful throne<br>\n    What will we thank Him for?</p>\n\n    <p>Will we thank Him for earth’s riches<br>\n    That filled our hearts with strife;<br>\n    Or for the rough way that has led<br>\n    Unto the tree of life?</p>\n\n    <p>So in conclusion, friends, let’s take<br>\n    That strait and narrow way.<br>\n    We say we’re only pilgrims here,<br>\n    So why not live that way?</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "996a152acdacebd3eacc5eae0c11a7e3dfa5d0e9c9f83d2b128a98f510d9425b"
+}

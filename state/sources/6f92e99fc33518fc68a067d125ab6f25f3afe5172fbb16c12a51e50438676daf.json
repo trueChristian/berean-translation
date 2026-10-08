@@ -1,0 +1,99 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Athens, Wisconsin",
+          "name": "Lee Rufener"
+        }
+      ],
+      "raw": "Lee Rufener\nAthens, Wisconsin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "eab36978-f9e2-481d-a3cd-d6721f07a41e",
+    "images": [
+      {
+        "alt": "A round loaf of bread on a wooden board beside green foliage.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/eab36978-f9e2-481d-a3cd-d6721f07a41e-1.jpg",
+        "repository_path": "public/images/articles/eab36978-f9e2-481d-a3cd-d6721f07a41e-1.jpg",
+        "rights_note": "Page 2 credits © Photography by Laurel for page 14. No article-specific permission requirement is printed; no separate licence is inferred. Raw object 64, page resources, paint order, clipping and graphics state were inspected: the only source image is a single RGB scanned-page raster, with sRGB ICC profile in object 11, no alternative clean photograph objects, tiles, soft masks or transparency groups. Typography and layout are already baked into the scan. Crop retains the unobstructed bread photograph above the curved white text panel; panel, title/byline block, body text, page furniture and scan edges are omitted. No hidden pixels were synthesized. The source photographic blur, lighting and texture are retained. Vertical resampling reproduces the PDF placement aspect ratio. Encoded as baseline sRGB JPEG with embedded profile and nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 14,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            1602,
+            695
+          ],
+          "flip": null,
+          "method": "original embedded raster extraction and unobstructed source-pixel crop; vertical Lanczos resampling by (page_height/source_height)/(page_width/source_width) to reproduce published aspect",
+          "output_dimensions": [
+            1600,
+            685
+          ],
+          "pdf_page_dimensions": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1604,
+            2099
+          ],
+          "source_object": 64
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Christ the Bread",
+    "topics": [
+      "d51df41b-8b1f-59d9-9fd5-8524bca0dd3b",
+      "4f8e92de-9740-5a2b-8710-dc4584da68da",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4d9168ac7bc40ca1754f7f4e50a962b1b71303f6ac2b37984aed144f72d45f03",
+    "metadata_sha256": "a4455bd310e923b1d9f4af2d1eb4d79d80b533ebd2d8407964ac3215bb7e7249",
+    "structure_sha256": "feba4797fd55c088bf6a2c71a153682c613b4dea249c6984b3e36f6562cc26ab",
+    "text_sha256": "22df7cc74551680dcd59d5bb3313be9ca0c7cfa9a20b04e0aba5ed9323679563",
+    "translation_metadata_sha256": "f03022bb296efe1caf4f9a6251e3e8f145d88a335553f4c72477ab7bc623de73"
+  },
+  "html": "<article data-article-id=\"eab36978-f9e2-481d-a3cd-d6721f07a41e\">\n  <figure><img src=\"/images/articles/eab36978-f9e2-481d-a3cd-d6721f07a41e-1.jpg\" alt=\"A round loaf of bread on a wooden board beside green foliage.\"></figure>\n  <p>The feeding of the five thousand is the fourth miracle recorded by John, and is the only miracle recorded by all four evangelists. John was the last to write an account of Christ, and he normally did not repeat much of what was already written by the others. Still, after the first three accounts were generated, John thought it necessary to draw us back into the scene for a valuable lesson. Nine scant verses describe the event, but forty-five are required to teach the message of the manna. Although the miracle seemed to produce a crowd of followers so zealous to follow him across the lake to Capernaum, Jesus did not seem to be impressed. “Jesus answered them and said, Verily, verily, I say unto you, Ye seek me, not because ye saw the miracles, but because ye did eat of the loaves, and were filled. Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed” (John 6:26–27). Jesus had become their hero because He had miraculously fed them. But He discerned something off foundation about their enthusiastic support. “Then said they unto him, Lord, evermore give us this bread” (John 6:34). Jesus had come to give them bread from heaven, but of a different kind than they understood.</p>\n  <p>“And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst” (John 6:35). This was the first of three similar proposals, and it inspired the murmuring. The hopes of making Him the object of a kingly coronation just twenty-six verses previous was now becoming a questionable proposition. But Christ did not back down from their offense. “Murmur not among yourselves . . . I am that bread of life . . . I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, which I will give for the life of the world” (John 6:44–51). This second declaration set off the Jews to striving among themselves, and a prattled discussion ensued. At this, Christ appeared to defy every rule of prudent speaking by pressing His point further.</p>\n  <p>“Verily, verily, I say unto you, Except ye eat the flesh of the Son of man, and drink his blood, ye have no life in you. Whoso eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day. For my flesh is meat indeed, and my blood is drink indeed. He that eateth my flesh, and drinketh my blood, dwelleth in me, and I in him” (John 6:53–56). This was too much for the crowd of wannabe followers. These devout Jews would not even eat pork, let alone people. This seemed to be a preposterous scandal. “Many therefore of his disciples, when they had heard this, said, This is an hard saying; who can hear it? . . . From that time many of his disciples went back, and walked no more with him” (John 6:66). The crowd incorporated an exodus <em>en masse</em> as thousands of followers and disciples turned their backs and departed. Some wonder why more of them could not have seen through the figurative speech of our Lord. They were offended just because they didn’t understand. This scripture is read repetitively across the pulpits of our land, and modern disciples are not offended. We understand that Jesus was not asking us to eat His flesh and drink His blood literally, so we are not offended. But what is Jesus asking us to do? Perhaps if we understood the depth of this volatile metaphor, we would be offended also.</p>\n  <h2>What it does not mean</h2>\n  <p>Many believe that Christ is merely pointing to partaking in communion. At the last supper, “Jesus took bread, and blessed it, and brake it, and gave it to the disciples, and said, Take, eat; this is my body. And he took the cup, and gave thanks, and gave it to them, saying, Drink ye all of it; for this is my blood of the new testament, which is shed for many” (Matthew 26:26–28). This is a parallel passage given to the remaining twelve disciples later, and it points to the same truth. However, to understand the significance of it, we must determine if the principles portrayed in John 6 are pointing to the communion table or if the rituals of the communion table are pointing to the teachings of John 6. The churches that believe the former have incorporated a doctrine called transubstantiation. They believe that at the holy ordinance of communion, the bread and wine must actually undergo a transformation into the body and blood of Christ so that the partakers of the prescript can fulfill the teachings of Christ in eating His flesh and drinking His blood. Though this creates an easier doctrine to endorse, it is wrong.</p>\n  <p>Unfortunately, most believers today do not believe this is a hard saying. The reason is that they probably do not understand it. They understand that Jesus is speaking figuratively. They can conceive it, believe it, receive it, and are not offended. If it were only hard because of their ignorance, then Christ was nonsensical for purposely confusing them. He could have spoken plainly about His real intention and retained all His loyal followers. Perhaps those who immediately recognized it as a hard saying understood His intent better than those of us who follow two centuries later. If we do comprehend our Lord’s intention, perhaps we will be faced with the same difficult decision of continuing forward through the painful unknown or turning to the same well-traveled path of nominal retreat.</p>\n  <p>As believers, we have one thing in common. In the church, “there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all” (Colossians 3:11). But as humans, we find another commonality. We all interpret scripture to fit our own preferences and thus possess our own interpretation of Christ. But what does He consist of? Would your Jesus carry a smartphone and use the internet? What genre of music would He listen to? Would He be hard-working or laid back? Macho or effeminate? Would He wear shorts or watch sports? Would He drive a car? What kind? Most of us would answer those questions based upon our own opinions of what we would do. But there is only one answer to each question. Christ was not a nebulous, chameleon-like character who vacillated by default into whatever environment He was in. We live in a one-size-fits-all world, but Christ fit in with no one. He permeated the environment everywhere He went. He will not conform His opinion to coincide with ours. To the contrary, He predestined us “to be conformed to the image of his Son” (Romans 8:29). Herein lies the thrust of the message and the offense to the masses. When following Christ caters to our preferences, we will readily do so. When it counters our will, we are offended. Who wouldn’t want to witness a miracle? Even “when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him” (Luke 23:8). So it is only natural that “those men, when they had seen the miracle that Jesus did, said, This is of a truth that prophet that should come into the world. When Jesus therefore perceived that they would come and take him by force, to make him a king, he departed again into a mountain himself alone” (John 6:14–15). Many today would think the course taken by Christ to be counterintuitive. Here was a successful ministry with a large quantity of loyal disciples. Christ came to be the King, but not of a fleshly kingdom.</p>\n  <p>“Jesus answered them and said, Verily, verily, I say unto you, Ye seek me, not because ye saw the miracles, but because ye did eat of the loaves, and were filled” (John 6:26). He was not interested in feeding their flesh with earthly bread. This variety of followers are not followers at all, but must be continually catered to or else they will be offended and leave. Churches today are full of them. If they enjoy being there, agree with everything that goes on, feel good after the service, and are lovingly confirmed by all, they will continue to follow. This is absurdity. We are called to eat the flesh of Christ, not to feed our own. We must follow Him because of who He is rather than what He does for us.</p>\n  <p>There are tremendous benefits to being followers of the Lamb. “Bless the LORD, O my soul, and forget not all his benefits: who forgiveth all thine iniquities; who healeth all thy diseases; who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies; who satisfieth thy mouth with good things; so that thy youth is renewed like the eagles” (Psalm 103:2–5). Many will crown Him King as long as we are the benefactors and our physical, social, and emotional desires are satisfied. If our King will defeat our enemies, provide us a prosperous economy, and secure us a comforting culture, He will be our King. But Christ will always refuse such a position in any of our lives. In fact, He purposely offended them to bring their false front to an end. Jesus will not beg, persuade, apologize, or place soft, tender words in exchange for the honest truth.</p>\n  <p>“And Jacob vowed a vow, saying, If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and raiment to put on, so that I come again to my father’s house in peace; then shall the LORD be my God: and this stone, which I have set for a pillar, shall be God’s house: and of all that thou shalt give me I will surely give the tenth unto thee” (Genesis 28:20–22). This is not much different than the thousands who voted for Christ as King. And it is the vow of many modern Christians. IF God will give me what I want, I will give him a tenth back. We want Jesus to look like us. We will follow Jesus as long as we have the relationships we want, as long as our marriage is happy, our friends are many, our bank account has plenty, our job is satisfactory, and our preacher encourages us positively. This is not worship, Lordship, or even partnership. It is selfiship. Instead, Christ asks us to eat his flesh. In the same way we hunger for earthly bread, we must desire His will. We cannot claim to follow Him when we first esteem . . .</p>\n  <h2>Our Positions</h2>\n  <p>“If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple” (Luke 14:26). Many profess to eat Christ but refuse to speak truth to family. Like Eli, they unknowingly kick at the sacrifices of God by refusing to discipline their sons, and they make themselves fat with the bread of this earth. This is a hard saying. Who can bear it? Abraham ate the flesh of Christ when he offered his son upon the altar. This is faith that follows. “Now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me” (Genesis 22:12). It was nonsensical, but Abraham did it. Christ did it. God did it. And it is still a hard saying. “He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me” (Matthew 10:37).</p>\n  <h2>Our Passions</h2>\n  <p>“But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart. And if thy right eye offend thee, pluck it out, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell. And if thy right hand offend thee, cut it off, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell” (Matthew 5:28–30). We are not offended at this passage because we know Christ did not mean it to be taken literally. But what did He mean? We must surely cut something off. And be assured that something will be very dear to us. Heaven requires it of us. Lustful thoughts, selfish deeds, comforting habits, sensual dress, self-promotion. There are many things that we do to make us feel good about ourselves. In these, we find our individual identity, but we also find our hell.</p>\n  <h2>Our Possessions</h2>\n  <p>“Sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me. And when he heard this, he was very sorrowful: for he was very rich. And when Jesus saw that he was very sorrowful, he said, How hardly shall they that have riches enter into the kingdom of God! For it is easier for a camel to go through a needle’s eye, than for a rich man to enter into the kingdom of God. And they that heard it said, Who then can be saved?” (Luke 18:22–26). Of course, we are wise enough to know that this does not apply to everybody. But to whom does it apply? If we do not eat His flesh, we cannot be His disciples. Nothing earthly is safe about following our Lord, for all that is earthly is on the block. He will not stop until He owns every nook and cranny of our hearts. We may stand naked and bewildered like the disciples, wondering at the ways of our Lord. Still, we must follow on. He alone has the words of eternal life, and we dare not go away when the hard sayings come. We all want to be encouraged. But we dare not allow ourselves to be encouraged to be selfish, for “whosoever doth not bear his cross, and come after me, cannot be my disciple” (Luke 14:27).</p>\n  <p>The love of Christ will tell us hard things, give us hard things, and feed us hard things, so that we may learn that His gifts are not better than His person. He does not extend harsh words from a heart of maliciousness, carelessness, or callousness. But we must eat His flesh if we desire to have eternal life. It means to partake in life the way He did, to display compassion though it may never return to you, to love though you may be betrayed in return. It may mean to say I and my father are one, one day, and my God, my God, why have you forsaken me the next day. It means to turn our misdirected appetites away from this miserable earth and eat the true food of eternal life. “For my flesh is meat indeed, and my blood is drink indeed” (John 6:55). Those who continue to follow in this way are a living miracle.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "940a583c816b57e1e0d911ca21736a7905fee27a37b223058ed55f5245834e41"
+}

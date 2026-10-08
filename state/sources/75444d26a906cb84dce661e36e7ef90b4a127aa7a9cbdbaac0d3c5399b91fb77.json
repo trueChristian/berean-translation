@@ -1,0 +1,47 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rebecca Weber"
+        }
+      ],
+      "raw": "By Rebecca Weber"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "45af3d42-e93e-4fa7-ba27-4839bceb092a",
+    "images": [],
+    "issue_id": "934674be-3d92-5ead-975d-588238f753ab",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "In Return",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "814112f6be9ca82eed52f33f27a504355b94e00c5cd34baa405a36d3e130f652",
+    "metadata_sha256": "a598c65b237d905e6356454365a431c29cf1ea949b682f1d0d7f66eb92262fdd",
+    "structure_sha256": "4f0cb0a600a5911938f30666ef1bc31d3f54d3919a71f81d7397651af4f934f4",
+    "text_sha256": "b10a2aa29de5c5b471e584f35a296bcb6a4d80f791e0b03a080435fb8e0b007c",
+    "translation_metadata_sha256": "05a402efda94491b1119decba9a8a5dde75d6e932992020c18e4290fccdb1f96"
+  },
+  "html": "<article data-article-id=\"45af3d42-e93e-4fa7-ba27-4839bceb092a\">\n  <p class=\"poem\">The Lord is asking for your love;<br>\n    He wants it for His own.<br>\n    A jealous God, He cannot have<br>\n    Another on His throne.<br>\n    But as you yield to Him your love<br>\n    He spills His love on you;<br>\n    He asks a lot but gives so much,<br>\n    As no one else could do.</p>\n  <p class=\"poem\">The Lord is asking that the dreams<br>\n    You cherish in your heart−<br>\n    Of shadowy and future things-<br>\n    To Him be set apart.<br>\n    But as you yield to Him your dreams<br>\n    His plans will take their place;<br>\n    He asks a lot, but gives so much−<br>\n    A future drenched with grace!</p>\n  <p class=\"poem\">The Lord is asking that your life<br>\n    Be given up to Him<br>\n    Along with all that makes it yours−<br>\n    The things without, within.<br>\n    But as you yield to him your life,<br>\n    On you His life He pours.<br>\n    He asks a lot, but gives so much:<br>\n    His rich and overflowing store−<br>\n    Himself−forevermore!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "2a6e4df58e874e2b987efc5e8b75da7cb9039ba70a14d881d76efaf88c78765b"
+}

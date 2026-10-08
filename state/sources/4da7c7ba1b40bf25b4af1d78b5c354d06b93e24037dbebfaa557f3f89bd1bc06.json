@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "b8d1f881-2f87-4891-afb9-b9dc18852c3a",
+    "images": [
+      {
+        "alt": "A snow-covered mountain above forested slopes and lakes.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b8d1f881-2f87-4891-afb9-b9dc18852c3a-1.jpg",
+        "repository_path": "public/images/articles/b8d1f881-2f87-4891-afb9-b9dc18852c3a-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Embedded PDF image object 89 is the source; no replacement pixels or synthetic retouching were used. The published rectangular clipping bounds were mapped to the nearest native source pixels [1, 1, 497, 454]; separately painted article text, rules and frames were omitted. An unavoidable pale wash is already flattened into the only embedded raster; there is no unwashed base, soft mask, transparency group or exact reversible blend evidence. Its source tonal values were retained, without claiming an overlay-free asset. Native grayscale samples expanded to RGB and encoded as a baseline sRGB JPEG with nonzero 72 dpi density; no CMYK conversion or sample inversion was necessary. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence is inferred.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "fda64a2f-faeb-4516-9c08-4259c95e88c5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Alone with God",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f7a32ef0ac6d49c4cb62dfff01ba545ae48b50d042cc305c0fd0854c0033892e",
+    "metadata_sha256": "7de4e8f5eccb7adf607559ae9ed9cdcf7463b019aa071a38c5d496cf72ccd274",
+    "structure_sha256": "88eedcd26f34cfbdc1684cda8531c0ff93b03c64620dea2c5b0d4045c0291279",
+    "text_sha256": "dc37f2d4fbacca2b2a55402498c34d3b70cb034415668642fe7735e21aae59b5",
+    "translation_metadata_sha256": "f264ce312c58743698dca055ab26bf15242d15a083d7cf09731986719ba8612d"
+  },
+  "html": "<article data-article-id=\"b8d1f881-2f87-4891-afb9-b9dc18852c3a\">\n  <figure>\n    <img src=\"/images/articles/b8d1f881-2f87-4891-afb9-b9dc18852c3a-1.jpg\" alt=\"A snow-covered mountain above forested slopes and lakes.\">\n  </figure>\n  <p class=\"poem\">I met with God in the morning,<br>\nWhen all was dark and still,<br>\nAnd asked for strength and courage,<br>\nHis love my heart to fill.</p>\n  <p class=\"poem\">I spent some time before Him,<br>\nBowed low upon my knee,<br>\nTo thank Him for His mercy,<br>\nAnd that He cares for me.</p>\n  <p class=\"poem\">It seemed to calm my spirit<br>\nTo be with Him alone.<br>\nOh, what a place of blessing<br>\nBefore His awesome throne!</p>\n  <p class=\"poem\">I rose to face my duties,<br>\nMy heart all free from care,<br>\nFor I had dropped my worries<br>\nWhile kneeling down in prayer!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "aa6f583aeae41a3ea82757ea69affebe63d41d14681dce1ed8f11a2f26b2c060"
+}

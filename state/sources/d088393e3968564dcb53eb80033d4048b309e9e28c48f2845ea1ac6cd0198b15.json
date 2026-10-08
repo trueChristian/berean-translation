@@ -1,0 +1,56 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 1674,
+          "death_year": 1748,
+          "location": null,
+          "name": "Isaac Watts",
+          "role": null
+        }
+      ],
+      "raw": "Isaac Watts (1674-1748)"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "3077c488-50e7-4951-8263-624e529ece4a",
+    "images": [],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "Come, Holy Spirit, heavenly Dove,",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d",
+      "64af4c5a-115b-50b0-ae07-5d75a56b13aa",
+      "0f3e0ca7-f12e-59d5-8c2c-cb3fead876a5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1e4e02d8a55236e0ce2cc31e90eb5ad4b85867388dfbbe838e1c39a6b83c089c",
+    "metadata_sha256": "41b2e065abf911f89a9541db9234a6ccd4e34f0b9b23636ef221a26507d187be",
+    "structure_sha256": "04110fdf0858dd2cbd634b71a4a1b3721603c7c6dda20f84d173df10703c08f7",
+    "text_sha256": "8e8b8729be72a991f57173f43043ce7ba66e3608bfe00b0c2a296c6b80fd3712",
+    "translation_metadata_sha256": "6c7cd4c2f08b51781a18ca9a42154494ddb500e024f34b0c3c18f68e91867bb7"
+  },
+  "html": "<article data-article-id=\"3077c488-50e7-4951-8263-624e529ece4a\">\n  <div class=\"poem\">\n    <p><strong>Come, Holy Spirit, heavenly Dove,</strong><br>\n    With all Thy quick’ning powers;<br>\n    Kindle a flame of sacred love<br>\n    In these cold hearts of ours.</p>\n\n    <p>Look how we grovel here below,<br>\n    Fond of these trifling toys;<br>\n    Our souls can neither fly nor go<br>\n    To reach eternal joys.</p>\n\n    <p>In vain we tune our formal songs,<br>\n    In vain we strive to rise;<br>\n    Hosannas languish on our tongues,<br>\n    And our devotion dies.</p>\n\n    <p>Dear Lord! and shall we ever live<br>\n    At this poor dying rate?<br>\n    Our love so faint, so cold to Thee,<br>\n    And Thine to us so great!</p>\n\n    <p>Come, Holy Spirit, heavenly Dove,<br>\n    With all Thy quick’ning powers;<br>\n    Come, shed abroad the Savior’s love<br>\n    And that shall kindle ours.</p>\n\n    <p class=\"byline\">Isaac Watts (1674-1748)</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "83c517dd09e3387b2bcda014703e603ad8b39660dd7a6a910f5276a8f48d88ed"
+}

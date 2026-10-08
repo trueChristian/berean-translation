@@ -1,0 +1,183 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "David Brown"
+        }
+      ],
+      "raw": "by David Brown"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "21090339-b5d7-437e-9376-c299f8dbada9",
+    "images": [
+      {
+        "alt": "Men in a military planning room, with a man pointing to a wall map",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-1.jpg",
+        "repository_path": "public/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-1.jpg",
+        "rights_note": "Original embedded image object 13 on printed page 3. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            450,
+            297
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            450,
+            297
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            297
+          ],
+          "source_object": 13
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A radar display with bright signals and a numbered circular scale",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-2.jpg",
+        "repository_path": "public/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-2.jpg",
+        "rights_note": "Original embedded image object 17 on printed page 4. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            1,
+            510,
+            511
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            509,
+            510
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            511,
+            512
+          ],
+          "source_object": 17
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Military personnel gathered around a circular plotting table",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-3.jpg",
+        "repository_path": "public/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-3.jpg",
+        "rights_note": "Original embedded image object 21 on printed page 5. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            512,
+            516
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            510,
+            514
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            514,
+            518
+          ],
+          "source_object": 21
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 3
+    },
+    "subtitle": "A SPIRITUAL DEFENSE CONDITION",
+    "title": "DEFCON 1",
+    "topics": [
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2df972fbba0c8de243e0772fe6754fe287992d4c86ec3ca1f86bf4c525a2081c",
+    "metadata_sha256": "31a80d419680ceb4e419d410cdb61c9a7166b739314a5a85f6133ed3483254a3",
+    "structure_sha256": "531d4ace5ff4f8998e04899418d7e362bd41bc6707dac514cb72636ebecfaccf",
+    "text_sha256": "10edbda9e854ab338339600e501c563e15efe48608fbd18f8474cadfec89a8bb",
+    "translation_metadata_sha256": "4f6ab7bcbf2791e013ce906dd4bd4ff452bc6f1e3c56cc55dc1f8c31e93ef4b7"
+  },
+  "html": "<article data-article-id=\"21090339-b5d7-437e-9376-c299f8dbada9\">\n  <figure>\n    <img src=\"/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-1.jpg\" alt=\"Men in a military planning room, with a man pointing to a wall map\">\n  </figure>\n  <p><em>Transcribed from a message preached at Living Hope Christian Fellowship; Terre Hill, PA</em></p>\n  <p>I appreciate opening in song. It takes awhile to forget the world, and get past all the distractions of the morning; to put our thoughts on God. If you think about it in terms of the Old Testament Temple, it takes awhile to move from the busy-ness of the Temple court to the Holy Place. From the sunlight to the candle light; and singing is like letting your eyes adjust. There is the shewbread, the lamp stand, the altar of incense. We wait for our high priest, the Holy Spirit.</p>\n  <p>I cannot think of a better way to spend the first few hours of my 50<sup>th</sup> birthday, than to be here. But I have not been up here before. Am I prepared for this? No. I’d say that I respect the gift that God has given to those who come up here week after week. Praise God, I am thankful for you.</p>\n  <p>Yes, there is a certain amount of fear inside of me. The enemy has been attacking and it feels like an ambush. Like that valley mentioned last week, with the enemy up in the heights. But I have been encouraged, and by God’s grace I am going to move forward against the enemy and his lies.</p>\n  <p>As I pondered about what to say in these few minutes, I considered the messages of the last Lord’s Day. I considered where we are as a new fellowship. I considered the flow of things here, and it seemed best to step back a bit and look at ourselves and our situation. As we hear sometimes, this message is for me.</p>\n  <p>We are all on a road. We are all on a spiritual journey. Here is where we are, from God’s point of view. He knows exactly where we are. Here is where we should be, which may be different for each of us. But the problem can be that this is where we think we are.</p>\n  <p>When we think we are closer to the goal God has for us now, we don’t press forward. We become complacent—until God speaks to us, sometimes through a series of meetings or a message, sometimes just being alone with God. And we see ourselves more like He sees us. And we sense the gulf between where we really are and where we should be.</p>\n  <p>I ask the question, “Have we been too comfortable”, or “Have we been too distracted to see where we are”, “Are we alert, are we aware of what is going on”? Please turn to 1 Peter 5:8. There is another reason we are hindered. “Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour....” The title of this message is “A Spiritual Defense Condition”.</p>\n  <p>Most of us are far removed from the military. We ourselves have never been involved in it. We don’t have relatives who are either. It is far from our thinking. Some here have been involved and have come to repudiate, to push off, what the military stands for; power &amp; might in this world.</p>\n  <p>Yes, we understand the role of civil government in restraining unregenerate man. Yet we recognize, as regenerated members of God’s family that this world is in between two powers; God &amp; Satan. There is a spiritual battle going on.</p>\n  <figure>\n    <img src=\"/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-2.jpg\" alt=\"A radar display with bright signals and a numbered circular scale\">\n  </figure>\n  <p>Since World War II, our military has developed a way of classifying readiness for war. It is called the Defense Readiness Condition, or DEFense CONdition, abbreviated DEFCON. And there are 5 levels:</p>\n  <ol reversed start=\"5\">\n    <li>Normal peacetime readiness. These are their terms, I’ll call this level “Relaxed”.</li>\n    <li>Normal but increased intelligence and security. “Awareness”.</li>\n    <li>Increase in force readiness above normal readiness. “Be careful”.</li>\n    <li>Further increase in force readiness, but less than maximum readiness. “Watch out”. And there may be battles at this point also.</li>\n    <li>Maximum force readiness. “All out war”</li>\n  </ol>\n  <p>I thought of this example of these levels:</p>\n  <ul>\n    <li>You are driving into some state park—condition 5, relaxed.</li>\n    <li>The welcoming ranger that gives you a pass says to be aware of the bears in the park—condition 4, awareness.</li>\n    <li>You set up a tent somewhere in the state park and a ranger stops by and says “be careful, there are bears in the area”—condition 3, be careful.</li>\n    <li>You wake up in the night and hear a bear outside your tent—condition 2, watch out.</li>\n    <li>The bear is looking at you through the door of the tent—condition 1, all out war.</li>\n  </ul>\n  <p>To give you some real military examples of these levels:</p>\n  <ul>\n    <li>The United States was at DEFCON 4 throughout most of the Cold War, that open rivalry that developed between the United States and its allies and the Soviet Union and its allies. Be aware of the bears.</li>\n    <li>The military was at DEFCON 3 during the Middle East War in 1973, also called the Yom Kippur War, when the Soviet Union threatened to take the side of the Arabs against Israel. DEFCON 3 was also declared following the September 11 attacks, for a time. There are bears in the area.</li>\n    <li>The military was at DEFCON 2 for most all of the Cuban Missile Crisis, that tense confrontation between the United States and Soviet Union over their nuclear missiles in Cuba, aimed at us. There is a bear outside the tent.</li>\n    <li>In 1969, during the Vietnam War, the United States attempted to bluff the Communists in North Vietnam by briefly declaring DEFCON 1. Nuclear forces were put into readiness. Nuclear-armed bombers circled over North Vietnam. As far as the crew in those planes knew, they were going to drop bombs at any moment. For Vietnam, the bear was looking at them.</li>\n  </ul>\n  <p>Do we know that there is a war? Do we know what our spiritual defense condition should be?</p>\n  <p>Aug. 7, 1990, Operation Desert Shield began in order to deal with an aggressive Iraq. A few days earlier Iraq had taken Kuwait by force. The US military was sent to be a deterrent to Iraq and to protect Saudi Arabia. But there was not open conflict. Wednesday, Jan. 16, 1991, I went to work. A meeting that included Air Force officers from the Military Airlift Command was taking place that day at our offices. I wasn’t part of that meeting, but it was my turn to answer the phone for our group and I took a call from an Air Force General and he asked in a polite, calm manner to speak to another officer he knew was at that meeting. I knew this was an important meeting, but I did one of those things that you realize after the words come out, “oh, why did I say that to a general”? I said “I’m sorry, he’s in a meeting. May I take a message?” He repeated his request in a very calm way, but I understood—“go get him”. I made sure that the officer took the call. I was use to working with this officer, and as he talked to this general, he turned and looked at me. I thought his expression was different, but I went back to my work. All the military people left the meeting a couple of minutes later—unusual, but not too odd. I went home to my family with no concerns.</p>\n  <p>The next day, Thursday, Jan. 17, I went through my normal work duties. Later that day President Bush announced that Operation Desert Storm had begun; war had been declared on Iraq. I got a prickly feeling when I thought about that call the day before. Later I learned that the United States Joint Chiefs of Staff had declared Defense Condition 2, probably shortly before that phone call. And that general was calling all Military Airlift Command personnel back to headquarters for war. But I was not part of the military and was not told. I was a civilian. I did not have any need to know, I was not part of the war. I didn’t need to increase my readiness.</p>\n  <p>Do we understand the spiritual application? Are we looking at this war between Satan and God as an observer? “Oh, I’m just a civilian”. “I come here because I enjoy the atmosphere.” “I come here because I have some needs.” And we all do. But where is our focus, on ourselves? “I’m busy with work.” “I just take care of the home and raise children.” “I’m not a missionary.” “I’m not really part of the war.” Oh?</p>\n  <figure>\n    <img src=\"/images/articles/21090339-b5d7-437e-9376-c299f8dbada9-3.jpg\" alt=\"Military personnel gathered around a circular plotting table\">\n  </figure>\n  <p>Sometimes a whole county can be caught off guard; their defense condition is not high enough. Pearl Harbor was a shock to our country in World War II.</p>\n  <p>That World War has some lessons for us. Let’s look at the Pacific region for a minute. Each war has objectives, strategies, and tactics. Down at the lowest level, tactics are the plans to use certain aircraft and kinds of ships in certain situations. At the highest level objectives are the vision. The Allied vision was “we are going to take Japan”, the evil empire. For us this would be the gates of Hell, and Satan and his army.</p>\n  <p>A strategy is the method to obtain the objective. The Allies knew that the military on the mainland of Japan was too difficult to attack from a distance. And Japan was increasing it’s dominion over the Pacific, taking island after island. The first part of the strategy was to contain Japan from advancing to their next targets of Australia and the Aleutian Islands off of Alaska. The second part of the strategy was to slowly take territory back. This was done by capturing key islands on the way back toward Japan, the objective. Once this was done, the Allies could get within range of the island of Japan and more easily weaken their military, and also weaken the leaders resolve to continue the war. Please understand that this in an earthly example of warfare, we believe in battling through prayer. But Satan has his own objectives, strategies and tactics.</p>\n  <p>You can turn this whole picture around and look at this island of Japan as an individual being attacked by the enemy. Now we are Japan, and Satan is coming after us. The islands being the territory Satan battles over, sometimes taking ground, sometimes losing. Or smaller churches could be viewed as islands in Satan’s war on a movement. Are we being alert?</p>\n  <p>Does our enemy contain us from advancing? Does he keep us too busy? Too complacent? Too fascinated with the world? Is he taking an island or two from us?</p>\n  <p>It is important to note that the military does not panic when the defense condition goes up. It just carries on with the plan. Neither should we falter and panic if Satan gains some ground. Carry on with the plan. Put our trust in God’s wisdom and strength, obey Him and PRAY. Ground taken can be retaken. But we have to be aware; this is a war with real casualties.</p>\n  <p>In the military when the defense condition goes up, they move forward under the direction of their leaders.</p>\n  <p>In a war;</p>\n  <ul>\n    <li>the military strength (which is under control) is directed toward the enemy,</li>\n    <li>the soldiers encourage each other, and</li>\n    <li>the leaders press for victory.</li>\n  </ul>\n  <p>As one general from World War II said to those in the military, “Yours is the profession of arms, the will to win, the sure knowledge that in war there is no substitute for victory, that if you lose, the Nation will be destroyed...” I need to see this for my family, and we need to see this for our fellowship.</p>\n  <p>Do we see ourselves as civilians; not involved in the war? Older men, younger men, how do we view the spiritual war we are in? What defense condition should we be at in our homes and in our fellowship? Are we aware; are we training for the battle?</p>\n  <p>I’m not sure how to balance this. We don’t want to focus on Satan, there is a bigger goal—the proclaiming of the Good News of Jesus Christ. We don’t want to have an overpowering fear of him. Philippians 1:27-28a, “Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel; And in nothing terrified by your adversaries...”</p>\n  <p>But view this as a call to awareness, to evaluate our own defense condition. What Defense Condition should we declare, individually and as a fellowship? 1 Peter 5:8 “Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour...” This applies to individuals, families, fellowships, movements, any collection of God’s people. Our Lord Jesus, who is our great example and pattern, was not afraid of Satan, but He was aware of him. May we be the same, and not let Satan be a hindrance to our progress.</p>\n  <p>It is my desire to see every one of us moving forward on this spiritual road, unhindered by this enemy.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f81f47f74cfa359a15c2b643e092de0ce0864e6e3957b880fe7c375645585789"
+}

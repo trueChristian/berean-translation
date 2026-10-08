@@ -1,0 +1,56 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "A. B. Simpson"
+        }
+      ],
+      "raw": "by A. B. Simpson"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "1139bfb4-a17a-403a-8b56-182574cbf8dc",
+    "images": [
+      {
+        "alt": "A seated refiner working beside a furnace",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1139bfb4-a17a-403a-8b56-182574cbf8dc-1.jpg",
+        "repository_path": "public/images/articles/1139bfb4-a17a-403a-8b56-182574cbf8dc-1.jpg",
+        "rights_note": "Original PDF image object 47 on printed page 13. Retained the original source raster, orientation and framing; no rotation or flip. Decoded grayscale samples normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion was needed. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "It is the Lord",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "1395f05aa2136bae2cc05c3d06ace0824deff36247a167f4a0df9fbb18c773c4",
+    "metadata_sha256": "4f3a6a3ff260f16985b3c02a84a62a21c5f2b3e3f24e6d4a3eff231a35af8c50",
+    "structure_sha256": "d151b3a2cee7abea496026eb17da9ada48c5a252deacdeb17aad4670f5162c20",
+    "text_sha256": "27ccfb8b29c80cadec32d7a5a5d666cbb76e1bcd200a08665403800b352a9a73",
+    "translation_metadata_sha256": "4874ee3542cb4f476d3f369f4d4f2a96472d7985228bf794f9bda941f51faa11"
+  },
+  "html": "<article data-article-id=\"1139bfb4-a17a-403a-8b56-182574cbf8dc\">\n  <figure>\n    <img src=\"/images/articles/1139bfb4-a17a-403a-8b56-182574cbf8dc-1.jpg\" alt=\"A seated refiner working beside a furnace\">\n  </figure>\n  <blockquote><p><em>“All things work together for good to them that love God....”<br>Romans 8:28</em></p></blockquote>\n  <p>Every moment the great Refiner is waiting to add some new touch to your strength and beauty, and fit you for a higher place in His eternal life. We are so prone to think that these things that come to us are accidents, incidents, mishaps or personal injuries from personal hands. But after a while we learn that His hand is above every other hand, His love above every hateful blow. You get up in the morning and find everything wrong in the kitchen and dining room and you say, “Oh, it is that cook; it is that wretched stove.” Oh, no; it is the Lord trying and proving you. You come down to business and find things wrong in your store and you say, “Oh, it is that careless janitor.” No, it is the Lord trying and proving you. You open your mail expecting a check according to promise from some person. It is not there. You say, “Oh, it is this dishonest and unprincipled man.” No, it is the Lord trying and proving your faith. You meet with a friend, the very one that you look to for help and comfort, and something happens to try you more keenly, and everything in your life seems to become a source of annoyance.</p>\n  <p>You say, “Oh, it is the inconsiderateness of others.” No, it is the Lord showing you something in you that is wrong and that He wants to have buried away.</p>\n  <p>God tries us, proves us, and establishes us. It is not by a very quick process. “He shall sit as a refiner and purifier of silver.” He sits down to His work; He takes plenty of time. He will wait years with you over a single lesson if you make Him to do so, or He will get you through it at once if you are willing to take the quicker process and the hotter fire.</p>\n  <p>How touching is the love that will take so much trouble with all these little matters. No wonder that Job should say, “Lord, what is man that thou shouldest magnify him? And that thou shouldest set thine heart upon him? And that thou shouldest visit him every morning, and try him every moment?”</p>\n  <p>And so He comes to you every moment, as Job says, from morning to night. If you would understand life as He does, you would see nothing but God; and as you meet Him in everything, you would see nothing but God’s ever presence, and every unfriendly blow be warded off. Against every fiery dart you would have a shield of faith that nothing can pierce, and out of every storm you would shout with the great apostle, “None of these things move me.” Beloved, they will come until they don’t move you. “For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake.” “That he might present to himself a glorious church not having spot of wrinkle or any such thing, but that is should be holy and without blemish.” “Not as though I had already attained...I press toward the mark....”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "39b45f981eefb693dec688da130988b13b6646730b332d484da651e31cbfda0e"
+}

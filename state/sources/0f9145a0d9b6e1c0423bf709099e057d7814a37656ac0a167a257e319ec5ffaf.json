@@ -1,0 +1,148 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "8c3576e5-f595-4a67-a5d9-329212cedc39",
+    "images": [
+      {
+        "alt": "A tilted image of The Heartbeat of The Remnant magazine cover.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-1.jpg",
+        "repository_path": "public/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-1.jpg",
+        "rights_note": "The miniature magazine-cover object 119 is isolated using its exact PDF image matrix and rendered at native useful resolution. The published clockwise tilt is preserved; the separate offset shadow is omitted. Typography and framing intrinsic to the cover thumbnail remain as substantive graphic content. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Isolated exact original PDF image matrix, rendered at native source-pixel density; empty bounding-box corners are white. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            266,
+            312
+          ],
+          "pdf_image_matrix": [
+            90.4572982788086,
+            20.42490005493164,
+            -26.45509910583496,
+            117.16380310058594,
+            452.03631591796875,
+            69.88807678222656
+          ],
+          "render_dpi": 163.046003,
+          "repeated_source_pages": [],
+          "rotation_degrees": 12.723788,
+          "source_dimensions": [
+            210,
+            272
+          ],
+          "source_object": 119,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A tilted audio cassette.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-2.jpg",
+        "repository_path": "public/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-2.jpg",
+        "rights_note": "Cassette object 120 is isolated using its exact PDF image matrix and rendered at native useful resolution, preserving its printed counterclockwise tilt. No surrounding article text or layout frame is included. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Isolated exact original PDF image matrix, rendered at native source-pixel density; empty bounding-box corners are white. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            125,
+            97
+          ],
+          "pdf_image_matrix": [
+            50.99810028076172,
+            -13.66349983215332,
+            8.63290023803711,
+            32.221500396728516,
+            350.67279052734375,
+            148.310302734375
+          ],
+          "render_dpi": 150.009216,
+          "repeated_source_pages": [],
+          "rotation_degrees": -14.998533,
+          "source_dimensions": [
+            110,
+            70
+          ],
+          "source_object": 120,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": "April–June 2004 Financial Report",
+    "title": "Charity Gospel Tape Ministry & The Heartbeat of The Remnant",
+    "topics": [
+      "0ade9728-d895-5710-84b2-09af80abdc84",
+      "46c3d0eb-21b7-5812-8b12-335d5badc3d4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5bb8539c7e49d5077cd2eab7f766ba2d0544f60a864f004b68ee4f7ff1d2c5e5",
+    "metadata_sha256": "74c9f2cbde02bbd55faebda5abc78f2e70d47d43d3f1aef3af631b19e8dc33e3",
+    "structure_sha256": "8902098cddcc21b4f5c0eaef1d8d2ee6421c3ea1cbd391cf4513d3ace7f6b508",
+    "text_sha256": "1d9424c49941200c1fc0f74e8edf369dcfcd7998f4d6a7bb7c58facb20f659d3",
+    "translation_metadata_sha256": "609df9efc0365cfa643d867cc2c8bae3757fd58a985a0c3becc1e8b84f859a3c"
+  },
+  "html": "<article data-article-id=\"8c3576e5-f595-4a67-a5d9-329212cedc39\">\n  <figure><img src=\"/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-1.jpg\" alt=\"A tilted image of The Heartbeat of The Remnant magazine cover.\"></figure>\n  <figure><img src=\"/images/articles/8c3576e5-f595-4a67-a5d9-329212cedc39-2.jpg\" alt=\"A tilted audio cassette.\"></figure>\n  <p>Greetings of love in Jesus’ name to all our faithful supporters. So many of you have sent us letters of encouragement, prayed for us continually, and given to keep this ministry going. I wish I could share with you all the stories I receive as I travel across the country.</p>\n  <p>I think of the man who came up to me after a meeting to share how he was introduced to the tape ministry. He was doing his laundry at a local Laundromat, and noticed a Charity Gospel Tape lying in the trashcan. It was a low time for him, and his heart was searching the Lord for answers, and direction. He reached in through the rubble, and picked up the tape, listened to it, and his life has never been the same.</p>\n  <p>Then there was the dear sister who found a set of Godly Home tapes at the local Salvation Army thrift store for one dollar. She and her husband had been searching for answers to some of the problems in their home. God opened their eyes and the home was transformed in a matter of months.</p>\n  <p>I will share one more with you. We received a letter from a man who was so encouraged about the tape ministry. He sent his wife to a curriculum fair for some needed books for the next school year. They had very little money but bought what they could with their small income. His wife came upon John &amp; Anna Weaver’s tape ministry table and they encouraged her to take what she thought they could use and not to worry about the cost. When she arrived home with more than expected, they sat down to listen to these free tapes. As they listened, they both began to weep. The messages bore witness in their hearts to the truths that God had been showing them. But everyone was telling them they were getting too extreme.</p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">04/01/04 Beginning Balance</th><td><strong>$1,597.24</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$39,465.98</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$4,159.00</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$43,624.98</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$5,601.33</td></tr>\n      <tr><td>Tapes, Albums, CD’s &amp; Labels</td><td>$12,059.13</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$1,667.80</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$577.67</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$1,828.12</td></tr>\n      <tr><td>Rent</td><td>$1,800.00</td></tr>\n      <tr><td>Telephone</td><td>$1,150.61</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$557.01</td></tr>\n      <tr><td>Miscellaneous</td><td>$393.87</td></tr>\n      <tr><td>Payroll Expense</td><td>$13,400.01</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$0.00</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$5,517.46</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$44,553.01</strong></td></tr>\n      <tr><th scope=\"row\">06/30/04 Ending Balance</th><td><strong>$669.21</strong></td></tr>\n      <tr><th scope=\"row\">Difference</th><td><strong>-$928.03</strong></td></tr>\n    </tbody>\n  </table>\n  <p>Space will not allow me to tell of the countless fathers who testify of the impact the tapes have on them as they listen on the way to work. Many men have said, “I just had to stop the car, and weep for a while as God convicted me of my needy heart.”</p>\n  <p>I share these testimonies with you to bless you and assure you of a sound investment in the Kingdom of God. Your prayers and financial support are having a tremendous influence in this world. As I read the many letters, I realize again, “This ministry is one of the most effective ones dollar-per-dollar that I have ever seen.”</p>\n  <p>Once again, thank you for all your help and support. We could not do it without your help.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5d567e7c4955d025a56fb7a464876bd2b07b5fc47cefe0461f97952d3fc184d4"
+}

@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "dee169a7-ef99-43fe-a45f-72e02184a475",
+    "images": [
+      {
+        "alt": "portrait of a smiling bearded man",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-1.png",
+        "repository_path": "public/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-1.png",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #2; none; clean embedded image. Exported as web-compatible RGB/sRGB PNG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 1,
+        "source_page": 3
+      },
+      {
+        "alt": "portrait of a bearded man seated at a desk",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-2.png",
+        "repository_path": "public/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-2.png",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #3; none; clean embedded image. Exported as web-compatible RGB/sRGB PNG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 2,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "a11ef93c-3a32-5cdc-bad0-ae4c564f5156",
+      "98831891-d3af-59bf-9c95-821ac504dd26",
+      "bb05b712-abe4-5cce-99f8-8e5e7ba58dc1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "cfabb0fa2808e990e62645ebd6b15d9ff5b142f56392c27d5e8b2221b343a6c7",
+    "metadata_sha256": "0eadac57a518643de3bcccf173555ccb19fbee438a469520849540b5729a045d",
+    "structure_sha256": "410acf1de729fdfe3345d6a7f6e1d219566bdb947af822d9bbb1374051227d71",
+    "text_sha256": "e8d00834fc9102dd1d3d0a5fe0f1070f0a9769be1a01016c41859fb66212dbe4",
+    "translation_metadata_sha256": "346a037717372a2d5a642c82e465a99d05b39b496cf3b6d811012081dc6f30cd"
+  },
+  "html": "<article data-article-id=\"dee169a7-ef99-43fe-a45f-72e02184a475\">\n  <p>I heard at work last month that the President of the United States, Barack Obama, was recently awarded the Nobel Peace Prize. Many people were shocked by the news; especially when they found out that the nominations for the award concluded only three months after he became President. Many asked, “So what did he actually do to merit an award of bringing peace to the world?” I heard that someone in the news replied that he won simply because he was not ex-president George Bush! Finally, the crew at the Nobel Peace Prize office said that it was because Barack Obama, in such a short time, changed the “attitude” of the world into one of “hope.”</p>\n  <figure><img src=\"/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-1.png\" alt=\"portrait of a smiling bearded man\"></figure>\n  <p>As a card-carrying member (spiritually speaking) of the Kingdom of God, I don’t take part in American politics and elections. Additionally, I like to show respect and even pray for them “that we may lead a quiet and peaceable life in all godliness and honesty.” (2 Ti. 2:2) So in some ways, I guess I should be happy that the President won this award. But it concerns me.</p>\n  <p>There are two things about this “spirit of world peace” that concerns me. First of all, I can’t help but be concerned when the world talks about “global peace.” I’m reminded of the superficial peace gained in Judah during the time of Jeremiah. “They have healed also the hurt of the daughter of my people slightly, saying, Peace, peace; when there is no peace.” (Je. 6:14) The other thing about this is that it’s a bit of a global thermometer to the way they feel about the fighting, poverty, and wars of the last century. The way I see it, if a leader need only to say the word “hope” and the whole world collectively cheers, what does that say about the desperate hunger of a people emaciated from a spiritual diet of death and destruction. Oh brethren, it is time for the true message of hope—from the eternal Prince of Peace—to feed this hunger! It’s the only thing that will.</p>\n  <figure><img src=\"/images/articles/dee169a7-ef99-43fe-a45f-72e02184a475-2.png\" alt=\"portrait of a bearded man seated at a desk\"></figure>\n  <p>Locally here, Mike Atnip and his family made it safely into town, and he has been busy at work here on <em>The Heartbeat of the Remnant.</em> He told me a few days ago that that he was volunteering to help bring the magazine back to its former bi-monthly status. I took him up on his offer. So pray for us as we endeavor to follow the Spirit of God in what we should say and what we should print. It is our prayer that you will be richly blessed by this issue of <em>The Heartbeat of the Remnant.</em></p>\n  <p>~Dean Taylor</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "202e0cf939087d12135e6042583a801b50d0cf375fd12769568dccb7fe9b2e46"
+}

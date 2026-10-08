@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Adrianna Fanton"
+        }
+      ],
+      "raw": "~by Adrianna Fanton"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+    "images": [
+      {
+        "alt": "A double rainbow arcs over dark trees beneath a stormy sky",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg",
+        "repository_path": "public/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed page 35. The clean text-free embedded assets from printed pages 34 and 35 were joined horizontally without scaling to reconstruct the panorama; grayscale overlay and mask assets were omitted.",
+        "role": "panoramic poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Look At The Rainbow",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "015433f83c7c79fd4aeef90f6bd3fdc03d616bfab6d23450e628574c519abe76",
+    "metadata_sha256": "488ad8afa12b079b51a5c1dd2e897b50c46b7846793cb920fb259a67f92dd473",
+    "structure_sha256": "8fa49fc211dd916f7dda6f0525b2cfe774bb3b5cd555a39c5c2ff9bf39f02e65",
+    "text_sha256": "7dd7e7a6b0fbdcdfd8621a0d14c61c5d67e77f3d18b6e60925cc946d8d0f4b26",
+    "translation_metadata_sha256": "d705056421a4f3b7f3e16b9292450c0a5fa3a44a67263cc9f5004b15d39579eb"
+  },
+  "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"A double rainbow arcs over dark trees beneath a stormy sky\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>The storm was dark and threatening,<br>\n    Dark clouds billowed o’er head.<br>\n    Lightning flashed around me,<br>\n    Fears gripped and filled me with dread.</p>\n\n    <p>Thunder rolled out its forebodings.<br>\n    My heart felt heavy and numb.<br>\n    All around the storm was raging,<br>\n    The turmoil inside struck me dumb.</p>\n\n    <p>Not only was the danger around me,<br>\n    But just as real was the peril within.<br>\n    I trembled as I looked at the future,<br>\n    Not knowing how next to begin.</p>\n\n    <p>What lay behind the fog?<br>\n    The wind whistled in my ears.<br>\n    Suggesting questions, tripping my feet,<br>\n    And ladening me down with fears.</p>\n\n    <p>This storm had removed all signs of the path,<br>\n    That one time I had thought I could see.<br>\n    Now, all the familiar was gone to my eyes,<br>\n    Each step taken hesitatingly.</p>\n\n    <p>At the end of myself, I cried out in fear...<br>\n    \"Lord, come unto me! Tarry not, oh my King!\"<br>\n    Silence reigned heavy, I felt all alone,<br>\n    Only to hope did I cling.</p>\n\n    <p>Then a still, but strong voice spoke in my ear,<br>\n    \"My precious child, look up.\"<br>\n    Why such a request? When engulfed as I was,<br>\n    In the fog that refused to break up.</p>\n    <p>Still in hope, I lifted my eyes,<br>\n    Trembling at the dark clouds around.<br>\n    Yet as I looked, I saw something more,<br>\n    A treasure in the sky there was found.</p>\n\n    <p>Amidst all the dark and threatening clouds,<br>\n    There it was! A cleft of light!<br>\n    A rainbow shone through, of loveliest hue,<br>\n    A beacon amidst this dark night.</p>\n\n    <p>\"My child, fear not, you were never alone.<br>\n    Not for a second could I leave your side.<br>\n    Though the path is obscure, and there is much to endure,<br>\n    Do not doubt that in Me you can hide.\"</p>\n\n    <p>\"Yes, for now, you walk amidst trials,<br>\n    Fears threaten both inside and out.<br>\n    You wonder and question what is next to be done,<br>\n    Dangers seem to laugh and flout.\"</p>\n\n    <p>\"But here I have placed My rainbow,<br>\n    That amidst all the darkness and fear,<br>\n    You can see that My promise is certain.<br>\n    I will never forsake, but always be near.\"</p>\n\n    <p>\"If you keep your eyes on this promise,<br>\n    My light will guide your way.<br>\n    The fears and dangers surrounding,<br>\n    Will then be held at bay.\"</p>\n\n    <p>\"This promise can also open to you,<br>\n    The secrets that are hid 'midst the storm.<br>\n    For My strength and power are manifest,<br>\n    When these to My will conform.\"</p>\n\n    <p>\"So, My child, gaze long at the rainbow.<br>\n    Ponder the message it brings.<br>\n    Though all around you is angry and wild,<br>\n    Remember the promise that it sings.\"</p>\n\n    <p class=\"byline\">~by Adrianna Fanton</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61"
+}

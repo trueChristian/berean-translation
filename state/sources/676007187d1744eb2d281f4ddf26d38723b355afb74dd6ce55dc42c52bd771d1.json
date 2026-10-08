@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Andrew Weaver",
+          "role": null
+        }
+      ],
+      "raw": "by Andrew Weaver"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "194d7463-f32d-418e-a5df-b5669abd2a7d",
+    "images": [
+      {
+        "alt": "Portrait of Oswald J. Smith.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-1.jpg",
+        "repository_path": "public/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Clean embedded PDF image object 119 was used. The publisher’s rounded-corner clip and outline were omitted; the original rectangular portrait is preserved. The grayscale source was re-encoded as a baseline RGB/sRGB JPEG at its original pixel dimensions with nonzero 72 dpi density; no CMYK inversion was needed. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence inferred.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 31
+      },
+      {
+        "alt": "A man standing at a pulpit among chairs inside a tent.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-2.jpg",
+        "repository_path": "public/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-2.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Clean embedded PDF image object 123 was used. The publisher’s rounded-corner clip and outline were omitted; the original rectangular photograph is preserved. The grayscale source was re-encoded as a baseline RGB/sRGB JPEG at its original pixel dimensions with nonzero 72 dpi density; no CMYK inversion was needed. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence inferred.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "5f14401b-358f-4995-8dfe-a5c590c7cf33",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "The Revival We Need",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "89e9d4ac33c5fd19ea564b083e7e1537b6793deaf4adce05f0d8bc520a386159",
+    "metadata_sha256": "9e1ee9f938b681811fa18bd76b6a68644b3e765247e55474a8de179508f3975d",
+    "structure_sha256": "d649e50a302e28f5af86b0f82131e1ad6c230f40af85493afb30c16c2506a00a",
+    "text_sha256": "0cd5ae5976441d83cf7b68e56400d9faaf15b49458c614d3a9bcea1a298bfe9a",
+    "translation_metadata_sha256": "07d29c4cf3ed8720fd3bf0f92a6fcb85742fc24de2dec517571087e11e5ce6f0"
+  },
+  "html": "<article data-article-id=\"194d7463-f32d-418e-a5df-b5669abd2a7d\">\n  <p>Oswald J. Smith was born in Odessa, Ontario, in 1889, the oldest of 10 children. At the age of 16, he heard of a revival in Toronto and felt compelled to go. Riding up on a subway and squeezing through a crowd of approximately 3,000 people in Toronto’s Massey Hall, Smith claimed the very best seat he could find in order to hear the preaching of R. A. Torrey. Night after night he felt conviction. Finally, on a night specially dedicated to boys, Torrey gave the altar call by age, starting from ages twenty-five and over, and then on down. Smith responded, and that night Jesus Christ came into his life.</p>\n  <figure>\n    <img src=\"/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-1.jpg\" alt=\"Portrait of Oswald J. Smith.\">\n  </figure>\n  <p>Speaking of that night Smith said:</p>\n  <blockquote><p><em>Then suddenly it happened. I cannot explain it even today. I just bowed my head, put my face between my hands and in a moment the tears gushed through my fingers and fell on the chair, and there stole into my boyish heart a realization of the fact that the great change had taken place. Christ had entered, and I was a new creature. I had been born again. There was no excitement, no unusual feeling, but I knew that something had happened and that ever after, all life would be different.</em></p></blockquote>\n  <p>And different it was.</p>\n  <p>As soon as Oswald returned home, his one prayer was, “Lord, what will You have me do?” He longed for missions work, but he had poor health, and was consequently rejected by his church mission board. However, in 1908, while in Bible school, he started carrying the gospel to the Indians and backwoods people of Canada, and it was there that he actually preached his first sermon.</p>\n  <p>Eventually, his zeal for missions and revival took him to over 70 countries. He was very instrumental in awakening the church to the needs of world missions and was a pioneer in mission conferences and missions propagation. Two of his lasting slogans were, “Why should anyone hear the Gospel <em>twice</em> before <em>everyone</em> has heard it once?” And, “I must go, or send a substitute.”</p>\n  <p>Smith composed over 1,200 hymns, penned thousands of poems, as well as countless printed sermons, and authored thirty-five books, which were translated into over 128 languages. Of such a great legacy, perhaps his most timeless contribution came in the form of a much-needed wake-up call to the church of his day. The book was appropriately titled, <em>The Revival We Need</em>, and is still as relevant today as it ever was then.</p>\n  <p>Renowned missionary Jonathan Goforth said of the book:</p>\n  <blockquote><p><em>Dr. Smith’s book...for its size, is the most powerful plea for revival I have ever read. He has truly been led by the Spirit of God in preparing it.... Had I the wealth of a millionaire, I would put</em> The Revival We Need <em>in every Christian home on this continent, and confidently look for a revival which would sweep round the world.</em></p></blockquote>\n  <p>In his book, Smith recounts the mighty works of God in the great revivals of the past. Studying these revivals proved to be a constant source of inspiration and vision for his life. Speaking of them he said, <em>“I have watched them, listened to them, lived with them, until I have almost felt the spirit of the atmosphere in which they lived.”</em> The book is literally saturated with testimonies, quotes, victories and failures, first hand journal accounts and news reports from men such as Wesley, Whitefield, Finney, Evan Roberts, David Brainerd, Hudson Taylor and many more.</p>\n  <figure>\n    <img src=\"/images/articles/194d7463-f32d-418e-a5df-b5669abd2a7d-2.jpg\" alt=\"A man standing at a pulpit among chairs inside a tent.\">\n  </figure>\n  <p>Smith speaks directly to the church about hindrances to true revival. He chides the church for its prayerlessness, its lack of repentance, its powerlessness and its lack of soul travail. He writes:</p>\n  <blockquote><p><em>Oh, my brethren, the trouble is not with God. It lies right here with ourselves. He is willing, more than willing. But we are not ready. And He is waiting for us. Are we going to keep Him waiting long?</em></p></blockquote>\n  <p>Smith boldly exhorts the church by exclaiming that she has a “responsibility for revival.” He considered a mere status-quo attitude of church life heresy. He states:</p>\n  <blockquote><p><em>People who are satisfied to meet together simply to have a good time among themselves, are far away from God. Real spirituality always has an outcome. There will be a yearning and a love for souls. We have gone to places that have a name of being very deep and spiritual, and have often found that it was all in the head, the heart was unmoved; and there was, not infrequently, hidden sin somewhere. ‘Having a form of Godliness but denying the power thereof.’ Oh, the pathos of it all! Let us then challenge our spirituality and ask what it produces; for nothing less than a genuine revival in the Body of Christ resulting in a true awakening among the unsaved will ever satisfy the heart of God.</em></p></blockquote>\n  <p>Speaking on “the lack of soul travail” he wrote:</p>\n  <blockquote><p><em>We read in Isa. 66:8, that ‘as soon as Zion travailed she brought forth her children;’ and this as the most fundamental element in the work of God. Can children be born without pain? Can there be birth without travail? Yet how many expect in the spiritual realm that which is not possible in the natural! Oh, my brethren, nothing, absolutely nothing short of soul-travail will bring forth spiritual children! Finney tells us that he had no words to utter, he could only groan and weep when pleading with God for a lost soul. That was true travail.</em></p></blockquote>\n  <p>If we are truly walking with God, Smith claimed we should naturally be experiencing His promise that “ye will receive power.” He wrote:</p>\n  <blockquote><p><em>But have we the Enduement of Power? I don’t mean have we ‘claimed it’ and gone forth reckoning it ours, but, have we the experience? If there is no outcome, we certainly have not. If we are Spirit-filled there will be Holy Spirit fruit. Men will break down in our meetings and sob out their sins to God. Let us see the fruit if we are to believe in the Anointing. ‘Ye shall receive Power.’ And when Peter got it, 3,000 were saved. And so with John Smith, Samuel Morris, Chas G. Finney and others—there was fruit. This is the evidence, this is the test, and only this. If I am a man of God endued with power from on High, souls will break down under my preaching; if I am not, nothing out of the ordinary will take place. Let this be the test for every preacher. By this we stand or fall.</em></p></blockquote>\n  <p>Smith had some strong words to the church of that day that Christians would do well to pay heed to today. He greatly lamented that the church was full of unconverted souls. He cried out that preaching that lacked the conviction of sin was one of the main causes for this unfortunate state. He writes:</p>\n  <blockquote><p><em>How disappointing are the methods of present-day Evangelism! How shallow and unreal when compared with the genuine work of the Spirit! All this pressing, coaxing, urging; standing up, raising the hand, coming to the front, etc., all such public display as it is carried on in modern campaigns may be entirely in the flesh. Not that pleading with men is unscriptural. God forbid! But with conviction absent it is fruitless. And modern Evangelism with its chilling irreverence, uncalled for slang, and spirit-grieving frivolity, let alone its lamentable professionalism, can by no means lead up to conviction of sin and result in a spiritual outcome.</em></p></blockquote>\n  <p>Even though this book was originally written in 1925, I was amazed at how pertinent its message is today. As its title claims, it is the “revival we need.”</p>\n  <aside>\n    <p>This book was just recently republished and can be ordered online from <em>www.homefirespub.com</em> or ordered from your local bookstore. It can also be viewed free online at:</p>\n    <p><em>http://www.gospeltruth.net/OJSmith/revival_we_need.htm</em></p>\n  </aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e7e019e655d95f04bcfca2e6c3a486f1702b7afe87dcc2c2ced8afc8ffc476eb"
+}

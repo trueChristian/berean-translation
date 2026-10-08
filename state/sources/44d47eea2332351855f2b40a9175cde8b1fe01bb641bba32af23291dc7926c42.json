@@ -1,0 +1,53 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 185,
+          "death_year": 254,
+          "location": null,
+          "name": "Origen",
+          "role": null
+        }
+      ],
+      "raw": "Origen (A.D. 185-254)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "ae906c68-56e9-404e-801e-bb21d54682f0",
+    "images": [],
+    "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Voices from the Early Church",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 16
+    },
+    "subtitle": "Writing against Celsus, a Greek Philosopher, concerning political involvement",
+    "title": null,
+    "topics": [
+      "4512cfd9-f11a-52c1-8239-b9f0c7ec9274",
+      "c21da7f2-4b42-5a75-b300-f9788977eea8",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929",
+      "e076a45a-2014-5d02-b18b-ac6397515f22"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8be9780bbd32fd728bcecd2e5e73181105f7baf2eac1cb6c91640b48f949ee2e",
+    "metadata_sha256": "9ec57003fdcf613e2f55f285ff8df413fdd63f45e20ea82068f3028aef9fd54b",
+    "structure_sha256": "080fd7046cb3c0fccc7f74a298e5924d9a692bce024a9e5590e516f07bc981fa",
+    "text_sha256": "c75157afc106afaffcd0f5c2349616ae4d72fd4e09f56077a8ee672126c0513f",
+    "translation_metadata_sha256": "9548c9b65d1cfd43307093b17827bdaf43e3a81640363e04faabc7737e2dade4"
+  },
+  "html": "<article data-article-id=\"ae906c68-56e9-404e-801e-bb21d54682f0\">\n  <p>Celsus urges us “to help the king with all our might, and to work with him in the preservation of justice, to fight for him; and if he requires it, to fight under him, or lead an army along with him.” We reply to this saying that we <em>do</em> give help to kings. We give, so to speak, a divine help by “putting on the whole armor of God.” Ep. 6:11 We do this in obedience to the command of the apostle Paul, “I exhort, therefore, that first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; for kings, and for all that are in authority.” 1 Ti. 2:1-2 The more someone excels in piety, the more effective help he provides to kings. Yes, it is even more help than that which is given by soldiers, who go forth to fight and kill as many of the enemy as they can.</p>\n  <p>And since we by our prayers conquer all demons who stir up war, lead to the violation of oaths, and disturb the peace, we in this way are much more helpful to the kings than those who go into the field to fight for them. In this way we <em>do</em> take our part in public affairs, when along with righteous prayers we practice self-denial and meditations, which teach us to despise pleasures and not to be led away by them. And none fight better for the king than we do. We do not indeed fight <em>under</em> him, although he require it; but we fight <em>on his behalf</em>, forming a special army—an army of piety—by offering our prayers to God.</p>\n  <p>Celsus also urges us to “take office in the government of the country, if that is required for the maintenance of the laws and the support of religion.” But we recognize in each kingdom the existence of another kingdom, founded by the Word of God, and we exhort those who are mighty in word and of blameless life to guide churches [instead of a civil office—ed.]. We reject those who are ambitious of ruling; rather in the church of God we constrain those who because of much modesty have little desire to take a public office. And those who rule over us well are under the constraining influence of the great King, whom we believe to be the Son of God, God the Word. And if those who govern in the church and are called rulers of the divine nation—that is, the church—rule well, they rule in accordance with the divine commands, and never allow themselves to be led astray by worldly politics.</p>\n  <p>It is not for the purpose of escaping public duties that Christians decline public offices, but that they may reserve themselves for a diviner and more necessary service in the church of God—for the salvation of men. And this service is both necessary and right.~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f30e6ccb02e3129d5955337dc0ef4578e24e51d77c01e1d6567a4d3f2249b9a4"
+}

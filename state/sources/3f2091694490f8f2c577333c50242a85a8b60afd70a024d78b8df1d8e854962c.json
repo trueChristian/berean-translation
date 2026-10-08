@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Johann Cruger",
+          "role": null
+        }
+      ],
+      "raw": "Johann Cruger"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e02adb88-4d36-4b8b-bd39-406cc23e16f3",
+    "images": [
+      {
+        "alt": "Sunbeams breaking through a cloudy sky above dark hills",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e02adb88-4d36-4b8b-bd39-406cc23e16f3-1.jpg",
+        "repository_path": "public/images/articles/e02adb88-4d36-4b8b-bd39-406cc23e16f3-1.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean full-page cloud photograph from embedded PDF object 414; separately painted hymn, mailing panel, logo and postal text omitted from the image.",
+        "role": "hymn background photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e449abed3011fe424de7e0b840b722aa275614e638e5285b8b24c66a683249c0",
+    "metadata_sha256": "8457a3239c9d790ed2206ba8147a4f49c22fe67efc1a1d60aeaea2c9f8af4bee",
+    "structure_sha256": "d613ab856495d28b53f20a5e46a873a31888a05ad89bccb9445d0bf857b31587",
+    "text_sha256": "b996fa3da1af50fdf764e782aa38cb55ba89a7ae48dc9a4898ae4b9be5ae6da0",
+    "translation_metadata_sha256": "9e6ee09edf0286fa21ab6f3dd192a0cf668211c820511dd4a21536d9d744ab35"
+  },
+  "html": "<article data-article-id=\"e02adb88-4d36-4b8b-bd39-406cc23e16f3\">\n  <figure>\n    <img src=\"/images/articles/e02adb88-4d36-4b8b-bd39-406cc23e16f3-1.jpg\" alt=\"Sunbeams breaking through a cloudy sky above dark hills\">\n  </figure>\n  <p class=\"lyrics\">Holy Ghost, dispel our sadness;<br>\n  Pierce the clouds of nature’s night;<br>\n  Come, great Source of joy and gladness,<br>\n  Breathe Your life and spread Your light.<br>\n  From the height which knows no measure,<br>\n  As a gracious shower descend,<br>\n  Bringing down the richest treasure<br>\n  Man can wish, or God can send.</p>\n  <p class=\"lyrics\">Author of the new creation,<br>\n  Come with blessing and with power.<br>\n  Make our hearts your habitation;<br>\n  On our souls Your graces shower.<br>\n  Hear, O hear our supplication,<br>\n  Blessed Spirit, God of peace!<br>\n  Rest upon this congregation,<br>\n  With the fullness of Your grace.</p>\n  <p><em>Johann Cruger</em><br>\n  <em>Praxis Pietatis Melica, 1648</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "6aa1b9b7d41950ccdbc0226e58bab7bc619f5520924ba46580d31332823262e3"
+}

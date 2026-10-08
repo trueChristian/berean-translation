@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Marcia Zimmerman",
+          "role": null
+        }
+      ],
+      "raw": "Marcia Zimmerman"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "38af92fc-8038-48c1-9276-5983c17e0a08",
+    "images": [
+      {
+        "alt": "Illustration of a house",
+        "caption": "That they may teach the young women ...",
+        "credit": null,
+        "public_path": "/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-1.png",
+        "repository_path": "public/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-1.png",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The issue-level art notice states “Some images © 2001-2012,” followed by www.clipart.com and www.sxc.hu; the PDF does not identify this asset’s individual source. The embedded RGB image was stored as an sRGB PNG, preserving the published dimensions, crop, orientation, and content.",
+        "role": "Sisters’ Corner house illustration",
+        "sequence": 1,
+        "source_page": 14
+      },
+      {
+        "alt": "Illustration of a woman serving food and washing dishes",
+        "caption": "Sometimes, as we live and work “behind the scenes” in our homes, we can feel like we are not doing much to seek the lost.",
+        "credit": null,
+        "public_path": "/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-2.jpg",
+        "repository_path": "public/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-2.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The issue-level art notice states “Some images © 2001-2012,” followed by www.clipart.com and www.sxc.hu; the PDF does not identify this asset’s individual source. The embedded image was encoded as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi density, preserving the published dimensions, crop, orientation, and content.",
+        "role": "woman doing kitchen work illustration",
+        "sequence": 2,
+        "source_page": 15
+      }
+    ],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "pages": [
+        14,
+        15,
+        17
+      ],
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Just as Thou Wilt",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "12e407441fe95d9d922a0c501310b9bda682535a1ce76b147fa239c03dd30bd3",
+    "metadata_sha256": "f8033f75201a54bd0f243f9e0ec06500e16e785e1bb6c90b714b0a3bf71d0e48",
+    "structure_sha256": "55bf24cb1743ff3cb11981b1eaeb4abb2b41291e105c6709c3521eab28fb692a",
+    "text_sha256": "2b86e55ec24b54521968eb18a97f98f53ff33440c71675589b35a6187a99da58",
+    "translation_metadata_sha256": "bb3190762dc67619acd64eed3709cd58ea415915d3706118123c1213faad07c9"
+  },
+  "html": "<article data-article-id=\"38af92fc-8038-48c1-9276-5983c17e0a08\">\n  <figure>\n    <img src=\"/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-1.png\" alt=\"Illustration of a house\">\n    <figcaption>That they may teach the young women ...</figcaption>\n  </figure>\n  <p class=\"poem\">Lord, speak to me, that I may speak<br>\n  In living echoes of Thy tone …</p>\n  <p>The day is long. Often weary and worn, we would faint beneath the responsibilities placed in our field of service. The enemy of souls whispers (or sometimes thunders) lies to us that we cannot make it or that we are not doing a good enough job. Oh sisters, take heart! Let us believe that all power is available to us to speak in living echoes of Jesus’ tone amidst the trials and pressures of everyday living. By His grace (power) and by His Spirit’s direction we surely can bring glory to God, even in the most trying of circumstances …</p>\n  <p>The key to being a living echo of Jesus’ tone? Go to the Source of the echo … the place of quiet before Him in communion, preferably before the day begins. He brings refreshment and new strength through His Spirit guiding us into all truth as we read the precious words of His Book.</p>\n  <p>“Prayer is the Christian’s vital breath.” In my short years of walking with Him, I’ve observed that the mothers with the greatest grace upon their lives are the ones who place a premium on their time alone with God. I know mothers who go to bed early and get up early so they can be sure to have that time with Him before the day begins and duties press around them. Other mothers take that time during some quiet in the middle of the day. No matter when it is, that time of sitting at the feet of Jesus is key to being a living echo of His tone.</p>\n  <p>Abiding in Him will ensure our lives are echoing Jesus’ tone. To abide in Him requires dying daily to our wants, our hopes, our dreams, our personal likes and dislikes—who “we are”—in order to live the life He came to give in abundance, always and only for the glory of the Father.</p>\n  <p>“Take it to the Lord in prayer” has been a vital link down through the ages to mothers, wives, and daughters being able to speak in living echoes of His tone. As the burdens press and the cares distress, making a habit of “praying always for all things” goes a long way in helping us to bring glory to God as we relate to those in our homes and communities.</p>\n  <p>When the summer heat decreases our physical stamina, do we believe in and reach for that grace that enables us to be a living echo of Jesus’ tone?</p>\n  <p>When immaturity rears its annoying head in young members of the family, do we rely on that power, the outpouring of the Holy Spirit in our lives, to be a living echo of Jesus’ tone?</p>\n  <p>When our husband/father asks something of us that requires us to rearrange our plans for today, do we adjust our schedule to theirs so that in the Spirit of Christ, we are living echoes of His tone?</p>\n  <p>When a sister shares a struggle she is having, we can be living echoes of Jesus’ tone by caring about her and by biblically helping her to find an answer to her need.</p>\n  <p>When we are misunderstood or falsely accused, and we are left with “only God” to avenge our cause, do we believe that it is possible to be a living echo of Jesus’ tone, and follow the example of Him who “like a lamb before His shearers (was) dumb”?</p>\n  <p class=\"poem\">As Thou hast sought, so let me seek,<br>\n  Thy erring children, lost and lone.</p>\n  <p>Sometimes as we live and work “behind the scenes” in our homes, we can feel like we are not doing much to seek the lost. But listen, dear ones … being a daughter or a mother at home with the family day in and day out is no meaningless place to fill. The little ones who come to us, with souls that will never die, must know their purpose in being created, and eventually come to understand their need of Jesus Christ and new life in Him. That is a full-time task, and one that bears the highest importance for us in God’s plan.</p>\n  <p>Someone is needed who will serve the head of the home, helping him to carry out his vision for bringing the gospel to our community as a family unit, the way the Lord planned it to be. Are we organized and managing our time enough to be able to do that? It will mean laying down some personal interests in order to fill this place the Lord has given us. Oh, Lord, give us wives and daughters filled with vision and purpose in understanding why God put them where He did, and gladness of heart to obey that call!</p>\n  <figure>\n    <img src=\"/images/articles/38af92fc-8038-48c1-9276-5983c17e0a08-2.jpg\" alt=\"Illustration of a woman serving food and washing dishes\">\n    <figcaption>Sometimes, as we live and work “behind the scenes” in our homes, we can feel like we are not doing much to seek the lost.</figcaption>\n  </figure>\n  <p>Then there are the clerks we relate to in town who need a smile, a friendly word, or a caring ear. What about the older woman struggling with her groceries to the car? Do we have time to stop and lend her a hand and word of care? Do we teach our daughters to help them with a cheerful smile, even though they may feel shy? How about the lady and her daughter who look rather distressed in the store parking lot as they view the flat tire on their van? What about the neighbor whose wife left him with two young daughters to raise? Would he appreciate a basket of fresh green beans and a caring note from the family? How about the widower farmer in the community who would enjoy a caring invitation for a visit and a home-cooked meal shared around a family table? There are lost and erring relatives and friends to pray for, asking God to put the desire for Jesus in their hearts. Jn. 6:44 Never do we have time to shirk our place of responsibility in kingdom work.</p>\n  <p>Jesus has sought us quite intensely. Mt. 18:10-14 His is a love and compassion that we will never reach perfectly while here on earth, but He expects us to walk as He walked, and to live as He lived … so let us walk on toward that perfection. He wants to put His love and compassion in our hearts. As He sought us, so let us seek. We may not completely know the hearts of those He puts in our path to bless, but He knows them. As He leads, and as our families are well cared for, let us seek those in our communities who need Him, whether they need to be born again, or simply need friends who care about them enough to bless them.</p>\n  <p class=\"poem\">Oh feed me, Lord, that I may feed<br>\n  Thy hungering ones with manna sweet.</p>\n  <p>Spending time in the Word—and obeying what the Lord shows us—is a sure way to be able to feed others what He has fed us. If we are to going to have sweet manna to feed those within our care, it is imperative that we feed on that sweet manna ourselves. In this generation, it is so easy to just pick up a book filled with a mixture of psychobabble and Scripture, self-help suggestions mixed with nuggets of real truth, to “find answers” for what we seek. But that is not God’s way nor is it His answer to biblical sisterhood. His Words are pure, like silver tried in a furnace of fire seven times. No other words are as pure as His Word. Sweet manna comes from that Word alone and can be had in abundant measure, pressed down and running over, if we but gather it. The example of the noble Bereans in Acts 17:10-12 is a challenge for us to follow even today.</p>\n  <p>The olive plants sitting around our tables need that sweet manna … they need to know what the Lord thinks of any heart issue that arises, what He says about modesty, hospitality, gossip, pride, having a servant’s heart, or loving our enemy. They need to hide that sweet manna in their hearts through Bible memory. Do we take the time to help them (and memorize right along with them!)?</p>\n  <p>Our sisters in Christ, while hopefully not “erring,” as the song speaks of, need that sweet manna, too. They may be struggling with weariness, fear, or wrongful treatment against them. Do we have sweet manna to pass along to them? God intends that we should admonish and encourage one another, provoking one another to love and to good works. He. 10:24; Ro. 15:14</p>\n  <p class=\"poem\">Oh use me, Lord, use even me,<br>\n  Just as Thou wilt, and when and where,<br>\n  Until Thy blessed face I see,<br>\n  Thy rest, Thy joy, Thy glory share.</p>\n  <p>Amen.</p>\n  <p>Just as Thou wilt … and when … and where. What a blessed place of surrender in Christ! This is exactly where He needs us mortals of clay (yes, we who, without Him, are sinners with no excuse and without hope) to be, so that He can fulfill His purpose through us and, most importantly, so that God will receive glory from us each day that He gives us breath. What a blessing to know those overcomers who have kept their garments unspotted from the world, who have chosen to give Him their ALL …</p>\n  <p>There is coming a day, dear sisters, when we shall lay our earthly duties down and rest forever. Often we sigh for that eternal rest, where there is no sickness to attend, no sorrow to dismay, and no temptation for us to stray from the fold of God and live for our own pleasure. There is coming a day when we shall rest beside the beautiful river of God, a much better rest than any man can ever invent here below. What a day that will be! Jesus will be there. We shall see Him face to face at last, the One who died for us and whose life we echoed here on earth.</p>\n  <p>Until then, beloved, may we keep ourselves in the love of God. ~</p>\n  <p>Excerpts are from the hymn <em>“Lord, Speak to Me,”</em> written by Frances R. Havergal.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e0e63b7a46e6d1d9e9f2633e729ab3bb70dd1f4edbbb7f31da8de323e986e879"
+}

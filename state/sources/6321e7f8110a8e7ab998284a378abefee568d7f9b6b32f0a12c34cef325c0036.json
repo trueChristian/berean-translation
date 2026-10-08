@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "near Odon, IN",
+          "name": "Chester Lehman",
+          "role": null
+        }
+      ],
+      "raw": "Chester Lehman"
+    },
+    "categories": {
+      "additional": [
+        "85b345ae-ce23-56a2-9249-2cfa79293657"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "17930b42-95a6-4302-99b7-51ed2390ef9b",
+    "images": [
+      {
+        "alt": "A dog sitting with its tongue showing",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/17930b42-95a6-4302-99b7-51ed2390ef9b-1.jpg",
+        "repository_path": "public/images/articles/17930b42-95a6-4302-99b7-51ed2390ef9b-1.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. PDF Separation/Black source samples inverted to match PDF decode and normalized to baseline RGB/sRGB JPEG.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Tricki Complex",
+    "topics": [
+      "5f8f9b13-91da-537a-a547-e6e82bc7b78d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4a80dedc2bd4cb66619c59053a32a94e104a17fa71e6741647dfe744cad0774f",
+    "metadata_sha256": "d18cf811036738e2bcd5e3c67afad780f3fc28a9c182804a046e6dee45a9daae",
+    "structure_sha256": "6982e1ee0707e0022a55954296f59a5d5eeb5e912bebf4f8b1bbd8ab568122ad",
+    "text_sha256": "e0fa72753e1efae5f8b5bdfa8aad95e53319bbad2bf0df973507f5c9fc311785",
+    "translation_metadata_sha256": "bd5e780d8f898da8812140a7d76324a1be536bd8340891953af3ee6aaa3d3fc3"
+  },
+  "html": "<article data-article-id=\"17930b42-95a6-4302-99b7-51ed2390ef9b\">\n  <figure><img src=\"/images/articles/17930b42-95a6-4302-99b7-51ed2390ef9b-1.jpg\" alt=\"A dog sitting with its tongue showing\"></figure>\n  <p class=\"drop-cap\">James Herriot, the beloved English veterinarian, recounts in one of his books the humorous story of Tricki Woo. An otherwise sensible person, his owner, Mrs. Pumphrey, imagined that Tricki descended from an ancient Chinese dynasty, and she coddled her dog like royalty. No delicacy was denied him—scones, fudges, liver pudding—he had it all, and his figure showed it. When Tricki’s health declined, Mr. Herriot remonstrated that Mrs. Pumphrey had to take things in hand and withhold treats. And she claimed to do so, in minute amounts for a short time, perhaps two scones instead of three; but she simply couldn’t bear any deprivation of Tricki’s appetite (she truly “loved” him). The day came when his fat and poor health immobilized him; he could no longer romp with the other dogs, and Mr. Herriot whisked him away to his own office for a few days of cure—no food. Tricki became a new dog.</p>\n  <p>We see in Mrs. Pumphrey a tragic phenomenon. In a circumstance of boundless indulgence, one can initiate a slight withdrawal, then crow about heroic restraint. Ten steps toward debauchery, one step back, and we have a new saint. Wise men shake their heads.</p>\n  <p>Let’s speak of our youth in their mission endeavors (in generalized terms, of course). We see a commendable awakening of responsibility toward the Great Commission. Some good things are happening at the veterinarian’s office. What, though, is happening at home? Churches may congratulate themselves on pulling off smoothly the monumental task of a youth group mission trip, but is the living at home showing the fruit of fullness of character and service to others?</p>\n  <p>Young person, do you want to do “hard things” for God? Do you have a burden for the building of His kingdom? Good. Start with learning to sweat in the garden over a hoe or in the street over a broom. Stick with a job—paid or unpaid—even when it becomes unpleasant. Bring erratic sleep and diet schedules into disciplined productivity. In your <em>limited</em> use of communication technology, save your “pearls” for special people rather than spewing out your life details all over the public face. Erase from your vocabulary those words borrowed from worthless movies—the words you text but which can’t be printed here. Cut the worthless movies. Stay at home and enjoy stillness instead of racing over the continent to throw your offerings at the next tournament. Read a book. Go to church, your church, every service … Sunday School, too.</p>\n  <p>Share a room cheerfully with a sibling. Cultivate respect for your authorities and live within the bounds they set for you. Realize that obsession with non-rules detracts just as much from knowing Christ as obsession with rules. Do all of the above, then remember something: For the most part, these are quite ordinary things, or they used to be. Tricky Tricki complex. Do what is right in the pit of daily living before you dream of serving God by smuggling Bibles in the darkest corner of the earth. Otherwise, don’t attempt to convince anyone that God has called you to a work. What your home life is here will become your home life over there.</p>\n  <p>To all of us: let’s stop feeding Tricki Woo. He’s too fat. (Hear this, Mom and Dad Pumphrey.) Our mission efforts should result in real service rather than rite-of-passage badges into glorified sainthood for adventure seekers—adventure seekers flinging around money. “Mission” trips are not enhanced by being rich men’s playgrounds (rich men are already preoccupied with needle eyes).</p>\n  <p>Have I raised your ire? Maybe there is hope for Tricki Woo. ~</p>\n  <p><em>Chester and Janice Lehman live near Odon, IN, farming a small orchard to pay the bills and to make contacts for Christ. The family of eleven attends Shalom Mennonite Fellowship, where Chester pastors and crusades against mediocrity. Chester may be contacted by writing to 13381 E - 1325 N, Odon, IN 47562.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0068f4cedd9e978b18f3888c837813036d63dc8d15b3174fafcc10697236f7ea"
+}

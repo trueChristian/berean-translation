@@ -1,0 +1,282 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dornsife, Pennsylvania",
+          "name": "Rick Hess"
+        }
+      ],
+      "raw": "Rick Hess\nDornsife, Pennsylvania"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "7b64c74b-c4d6-4a98-b95c-b34823831d64",
+    "images": [
+      {
+        "alt": "Stone and timber buildings of the Ephrata Cloister with a bare tree and paths in front.",
+        "caption": null,
+        "credit": "© WikiCommons CC3",
+        "public_path": "/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-1.jpg",
+        "repository_path": "public/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-1.jpg",
+        "rights_note": "Page 2 credits © WikiCommons CC3 for page 20. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 89, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The entire photograph is retained without a crop; no publisher text, panels, bars, rules or other overlays occur in this image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 20,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1664,
+            2181
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            1664,
+            2153
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1664,
+            2181
+          ],
+          "source_object": 89,
+          "vertical_scale": 0.9873506486501065
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Wooden benches and a balcony inside the Saal meeting house.",
+        "caption": "“Saal” meeting house",
+        "credit": "© WikiCommons CC3",
+        "public_path": "/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-2.jpg",
+        "repository_path": "public/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-2.jpg",
+        "rights_note": "Page 2 credits © WikiCommons CC3 for page 22. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 97, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            104,
+            776,
+            679
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            776,
+            576
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1712,
+            2213
+          ],
+          "source_object": 97,
+          "vertical_scale": 1.0011429786555381
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Two facing pages of a handwritten Cloister song book with musical notation.",
+        "caption": "Cloister song book",
+        "credit": "© WikiCommons CC3",
+        "public_path": "/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-3.jpg",
+        "repository_path": "public/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-3.jpg",
+        "rights_note": "Page 2 credits © WikiCommons CC3 for page 22. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 97, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. The photographed songbook notation and lettering are intrinsic image content and remain as printed; the source photograph itself cuts off some outer text. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            774,
+            793,
+            1467
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            793,
+            694
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1712,
+            2213
+          ],
+          "source_object": 97,
+          "vertical_scale": 1.0011429786555381
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A simple room with a window, a wooden bench and a small table with a candle.",
+        "caption": "Sleeping and devotional quarters",
+        "credit": "© WikiCommons CC3",
+        "public_path": "/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-4.jpg",
+        "repository_path": "public/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-4.jpg",
+        "rights_note": "Page 2 credits © WikiCommons CC3 for page 22. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 97, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1574,
+            805,
+            2133
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            805,
+            560
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1712,
+            2213
+          ],
+          "source_object": 97,
+          "vertical_scale": 1.0011429786555381
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Two timber buildings at the Ephrata Cloister beside a lawn and paths.",
+        "caption": "Sisters’ house on the left and“Saal” meeting house on the right.",
+        "credit": "© WikiCommons CC3",
+        "public_path": "/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-5.jpg",
+        "repository_path": "public/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-5.jpg",
+        "rights_note": "Page 2 credits © WikiCommons CC3 for page 24. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 106, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 5,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1664,
+            925
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            1664,
+            920
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1664,
+            2165
+          ],
+          "source_object": 106,
+          "vertical_scale": 0.9946474663768509
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHURCH HISTORY",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 20
+    },
+    "subtitle": "in the Conestoga Valley",
+    "title": "Contrasts, Contentions, and the Cloistered Life",
+    "topics": [
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c",
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2030e46721c34bff94180063e4388c83d8cdb73e82192b2551068dcc1ddc989d",
+    "metadata_sha256": "c25f88f91af2e105220c3db6a22044915168cff115d48e80afeb7243cdb4edb9",
+    "structure_sha256": "5b67e62d51af15ea8d9be16b8f0df9ccd18552ad085fae0ca0eda3d10095678a",
+    "text_sha256": "6862770e02e7d969df69fc135df96fca121b04d6b8082c299ef8442605fdb661",
+    "translation_metadata_sha256": "d1eee1284f928e6c7def0160501b5f572595742518068bda12312a0bd3ae1895"
+  },
+  "html": "<article data-article-id=\"7b64c74b-c4d6-4a98-b95c-b34823831d64\">\n  <figure><img src=\"/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-1.jpg\" alt=\"Stone and timber buildings of the Ephrata Cloister with a bare tree and paths in front.\"></figure>\n  <p>The seventeenth century was a time of considerable unrest in Europe. From 1618–1648, the bloody 30 Years War raged over much of Europe and the Scandinavian countries. What was the fight about? It was trying to decide whether the Roman Catholic Church, the Reformed Church of Switzerland and Germany, or the Lutheran Church should be the ruling state religion. At the end of the 30 years of devastation, some areas, like the Pfaltzland, were 70% depopulated, either by the battles, the famines, or the plague. Finally, when Europe had almost expended all its resources and wasted its people, the Peace of Westphalia was signed, allowing the lords of the various territories to each choose one of the three churches to be their state religion. This meant peace for anyone in those three churches, but also meant many soon fell back into their careless state of unsanctified, nominal living. The Anabaptists (Swiss Brethren and Dutch Mennonites), other nonconforming Christian groups, and Jews, who had suffered excruciating tortures, imprisonment, property confiscations, and horrendous martyrdoms since 1525, were still not totally free or safe to practice their faith.</p>\n  <p>In 1671 and 1677, William Penn visited the persecuted Swiss and German refugees, inviting them to help him with a Holy Experiment in the New World (Pennsylvania). The high risk of crossing the Atlantic was regarded by many as only a distant dream. Soon, a few left for Pennsylvania and others tried to prepare on very limited budgets. William Penn also extended this offer to persecuted people in Britain, so people began arriving in Pennsylvania from many different directions.</p>\n  <h2>Contrasts:</h2>\n  <p>In 1679, a son was born to a stable, wealthy grain miller in Schriesheim, Germany. This man, a member of the Reformed Church, was named Alexander Mack. As he grew up, he had the privileges and comforts that wealth and caring parents could afford. He married Anne Margarethe Kling in 1701 and started a family, following his Father’s footsteps as a Miller.</p>\n  <p>When Alexander was 12 years old, another little boy was born only about 10 miles away in Ebach, Germany. This child’s mother named him Johann Conrad Beissel. His father died two months before he was born. Sadly, when Conrad was only 8 years old, he lost his dear mother. In order to survive, the young orphan was apprenticed to a baker. He had a sad and difficult life. Conrad grew to be a rather solemn, reflective, and somewhat radical youth. Eventually (while he somehow evaded the authorities for many years), this earned him the sentence of banishment from Germany due to his radical political and religious views.</p>\n  <p>In 1705, Alexander Mack, his wife, and others began to long for a more serious form of religion than the state church could offer. Bible studies in homes were forbidden by the state churches, but some were so hungry for deeper truth and a holy life that they risked entertaining Bible study groups in their homes. They were sometimes called “Pietists.” Most pietists didn’t leave their state church affiliations but longed for deeper communion. Alexander became acquainted with Ernst Christoph Hochmann, who was considered a radical Pietist and was holding Bible study meetings in his mill. Hochmann was arrested, and by default, Mack became a leader. About this time, Conrad Beissel either heard Mack speak or heard of his message and became very interested in being his follower. The group was known for its zeal and powerful preaching of the Word of God. It wasn’t long until the authorities knew about the meetings and organized a raid. Alexander and his wife decided to flee, leaving their home and good livelihood behind.</p>\n  <figure><img src=\"/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-2.jpg\" alt=\"Wooden benches and a balcony inside the Saal meeting house.\"><figcaption>“Saal” meeting house</figcaption></figure>\n  <figure><img src=\"/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-3.jpg\" alt=\"Two facing pages of a handwritten Cloister song book with musical notation.\"><figcaption>Cloister song book</figcaption></figure>\n  <figure><img src=\"/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-4.jpg\" alt=\"A simple room with a window, a wooden bench and a small table with a candle.\"><figcaption>Sleeping and devotional quarters</figcaption></figure>\n  <p>In 1708, near Schwartzenau, Germany, eight believers, (including Alexander) convinced of the need for believer’s baptism, immersed each other. Forsaking their state churches, they formed the Schwartzenau Baptist, later known as the German Baptist Brethren.</p>\n  <p>The “Great Frost”, one of the coldest winters in 500 years, hit Europe in the winter of 1708–1709. It was so cold that many of the root crops stored inside the ground cellars froze, causing widespread suffering. Some decided it was high time to head for America. Among one group of the Swiss Brethren were families with the surnames Herr, Mylin, Kundig, Bauman, Muller, and Funk who, with the financial help of Dutch Mennonites, made the trip to Philadelphia. They settled temporarily at Germantown, one of Philadelphia’s suburbs, spending the first winter there. The women spun flax and wool for the weavers in Germantown, but the men traveled to a new community of Mennonites, which began in the Skippack wilderness, northwest of Philadelphia. Here, they learned the skills needed to build log cabins.</p>\n  <p>By 1710, they were ready to go to the wilderness frontier of Conestoga (modern-day Lancaster County). They sought and received a patent for 10,000 acres of this richly forested valley. There they began the laborious task of clearing rocks and trees, preparing safe dwellings, and growing enough food in the wilderness to survive. By the end of 1717, as many as 65 more families<sup>1</sup> had settled in Conestoga (including the author’s fore parents, Hans &amp; Magdalena Hess).</p>\n  <p>Along with the many persecuted faiths, some very unique radicals came to Philadelphia as well. One of these was named Johannes Kelpius, who, along with several other single men, wanted to live as mystic religious hermits in the caves along the Wissahickon Creek outside of Philadelphia. Back in Germany, Conrad Beissel heard about this group and, in 1720, came across to join them. When he arrived at the Philadelphia harbor, he discovered that Kelpious had died and the hermits had disbanded. Instead, he apprenticed himself as a weaver with Peter Becker, the bishop of the Germantown German Baptists. When Conrad’s one-year apprenticeship was up, he longed to get out of the civilization of Germantown. He moved out to the edge of the Conestoga settlement, where he lived in a small, crude, one-room cabin with two other single men. They were each to provide a third of the food needed.</p>\n  <p><sup>1</sup> Mennonite surnames of families who had settled in the Conestoga Valley by 1717:</p>\n  <p><em>Bachman, Bare/Bae, BellerBrand/Brandt, Brechbuhl/Brechtbill, Burkholder, Brenneman, Brubacher/Brubaker, Byer/Byers, Conrad, Denlinger, Eby, Erisman, Forrer/Forry, Frederick, Haan, Hershey, Hess, Hochstetter, Hoober/Hoover, Kauffman, Keagy, Kreider, Landis, Lehman, Martin, Newcomer, Negli, Nissley, Rudolf, Schantz, Shenk/Shank, Snider/Snyder, Stehman, Steiner, Witmer/Witwer</em></p>\n  <h2>Contentions:</h2>\n  <p>Although Conrad met with the Swiss Brethren (by this time known generally as Mennists or Mennonites), he never joined them. His restless spirit wanted more than he was finding in this quiet, stoic, Swiss group. Even though he didn’t have the responsibility of a family of his own, it seems Conrad felt much more spiritual than his fellow settlers.</p>\n  <p>We don’t have a document or the letter, but Conrad seems to be the only likely link between the Conestoga Mennonites and Peter Becker’s group, 60 miles away in Germantown. By 1723, the German Baptists heard of this group of cold, unspiritual Swiss out on the frontier, and it troubled them enough that about 60 people walked to Conestoga to hold spiritual meetings to stir them to a spiritual awakening.</p>\n  <p>At the end of the revival meetings, 17 new converts, including Mennonite elder Negli and his wife, as well as Conrad Beissel, made confession and were baptized by immersion the same day. The Germantown group had not been organized that long themselves, so it appears they had not come prepared to start a new church plant in Conestoga. They ordained the only man they knew, Conrad Beissel, to be the first elder of that new congregation. It would appear that their motives were good and genuine. But it didn’t seem to occur to them that if a leader had been enlightened, they could have left the Mennonite congregation intact, praying that others, too, would grow deeper, rather than separately start a new, inexperienced group. Is there a chance some sense of superiority may have influenced their decision? Did they suppose that they would be a stronger spiritual group if they left what was perceived as the weaker group?</p>\n  <p>Conrad proved to be a charismatic speaker, but it wasn’t long until trouble was brewing in this new congregation. Now with the platform to share some of his own radical views, he began to teach on doctrines such as seventh-day Sabbath keeping, the superiority of singleness over marriage, and vegetarianism. But his followers weren’t following him. It seems Conrad wouldn’t hear the counsel of others who tried to balance his doctrine with the Word of God. He claimed that these doctrines were the original teachings of Alexander Mack. After a few years as the lead elder, he became frustrated with his congregation and left them to live a solitary life in the wilderness. He headed north to what is today the town of Ephrata. But he was not alone for long. There were some who sympathized with him and joined him there. From here, they made ventures back to the Mennonites and Brethren to try and draw converts away. Is it possible that a spirit of spiritual superiority led him to forsake his flock and feel the only way they could be “saved” is to get them out of their current congregations? How different would it have been if Conrad had been discipled and gained experience before he became the leader?</p>\n  <p>Finally, the German Baptists had had enough. In 1728, they called for a meeting with their members and Beissel’s followers at a bank barn between Rothsville and Akron, PA. They laid a split rail on the barn hill, with Conrad on one side, and had all the German Baptists make a decision. “Today, we are splitting the church. If you are for Beissel, jump over the rail to him, but we aren’t going to be going back and forth anymore.”</p>\n  <p>By 1729, the remainder of the German Baptists in Europe, including Alexander Mack, immigrated to Pennsylvania. The lack of peace in the American churches must have troubled Alexander. He longed for reconciliation and desired to see Conrad face-to-face. When they met, he realized Conrad had been aware of some things he had said in the early days while trying to find his own way with the pietist movement. He explained to Conrad that he had long forsook those ideas as false and would no longer teach them, encouraging him to forsake them as well. What should Conrad have done, now that he knew that the one he claimed to be defending didn’t believe in the doctrine he was teaching? Did spiritual pride keep him from saying, “I was wrong”?</p>\n  <h2>The Cloistered Life:</h2>\n  <p>Conrad rejected the counsel of Alexander Mack, although he still honored him by not pursuing the Brethren. In 1732, Conrad organized the Seventh Day German Baptist Church and the Ephrata Cloister Commune. All who lived in the Cloister were bound to celibacy. Anyone who wanted to marry needed to live outside the walls of the Cloister, but could come to church. These were known as householders. At the zenith, there were about 80 celibate members and 200 householders.</p>\n  <p>The Cloister members dressed in an undyed linen, hooded cape habit, much like medieval monks. Men and women dressed similarly. In many ways, the Cloister was like an Anabaptist version of a 15th-century European monastery. The daily diet and schedule were very disciplined, with a nice balance of physical labor, prayer, and artistic expression. The single members lay down to rest on their wooden pillows and bench beds from 9:00 PM to midnight. Then they arose to gather in the “Saal” or meeting house from midnight until 2:00 for worship. From 2:00 AM until 5:00 AM, they could sleep some more.</p>\n  <figure><img src=\"/images/articles/7b64c74b-c4d6-4a98-b95c-b34823831d64-5.jpg\" alt=\"Two timber buildings at the Ephrata Cloister beside a lawn and paths.\"><figcaption>Sisters’ house on the left and“Saal” meeting house on the right.</figcaption></figure>\n  <p>The group was consistently nonresistant and practiced believer’s baptism. They raised vegetables and herbs, had fruit orchards, and operated a large bakery. They opened a school for the community’s children and operated one of the rare colonial-period print shops (making the first translation and printing of the <em>Martyrs’ Mirror</em> in German for the Mennonites). During the Revolutionary War, they operated the Cloister as a hospital for British and American soldiers. The Cloister members were very musically inclined and had a very unusual form of a cappella singing, even developing their own method for writing musical notes. They made some of the most detailed and beautiful Fraktur art to be found anywhere. They sent out barefooted preacher/missionaries in many directions to preach Conrad’s doctrines. All these practices are good things, but why aren’t they still functioning today?</p>\n  <p>Conrad became the main preacher for the group, sometimes speaking as long as five hours. As time went on, Conrad delved into more bazaar doctrines, prophesying that Jesus would return during his own lifetime. He encouraged married couples to separate to live a truly spiritual life. He entered into a second-century heresy, believing a form of Gnostic dualism, teaching that there were two gods rather than one. The Old Testament god—male and violent. The New Testament god—female, meek, and gentle. He even gave “her” a name from the second-century heresy.</p>\n  <p>Would it have been better for him to have been willing to receive counsel, even if it was a rebuke from his brethren? Did an attitude of superior spirituality actually keep him from hearing God’s truth? In the end, his commune didn’t last long after his death in 1768. Many were disillusioned after their dynamic leader’s prophecies proved untrue. The Cloister membership declined sharply, with the very last celibate member dying in 1813.</p>\n  <p>Where are the Cloister brethren, the German Baptists, and the Mennonites today, nearly 260 years after Beisel’s death? What can we learn from the contentions between these three groups? Am I really superior to my other Christian brothers? Should I even think that way? Am I willing to hear the counsel of my brethren? It is often easier to see the mistakes and weaknesses of others than it is to see our own mistakes, while thinking we are stronger. Is the church of Jesus Christ sustainable, repeatable, multiplying, and multi-generational? Or is it self-destructive and destined to extinction? What does true, strong spirituality really look like?</p>\n  <p>“Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted. Bear ye one another’s burdens and so fulfill the law of Christ” (Galatians 6:1–2).</p>\n  <p>“When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy Grandmother, Lois; and thy Mother Eunice; and I am persuaded that in thee, also” (2 Timothy 1:5).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "06233ba20523cb7c313fe0fe38108bd7f131e5ba72234d09d746e397aeecd870"
+}

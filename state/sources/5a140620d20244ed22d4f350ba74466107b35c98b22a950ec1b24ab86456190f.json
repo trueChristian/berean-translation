@@ -1,0 +1,68 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "--Bro. Denny"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "926bfde7-3eb5-4bb7-9eca-d38a90d92dab",
+    "images": [
+      {
+        "alt": "An audio cassette.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-1.png",
+        "repository_path": "public/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-1.png",
+        "rights_note": "Base object 96 retained with the published fifteen-degree counterclockwise rotation. Isolated original PDF image paint and clipping operations, retaining published orientation; transparent outside the published clip. Rendered at 144 dpi; all separate typography, frames, panels and shadows omitted. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 24
+      },
+      {
+        "alt": "Water cascading through a green woodland.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-2.jpg",
+        "repository_path": "public/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-2.jpg",
+        "rights_note": "Clean base PDF image object 102 exported; source pixels and tonality retained. This clean base belongs to the miniature magazine cover printed beside the report. The separately painted cover title, banner, frame and gradient border were omitted; no title is intrinsic to object 102. Source raster cropped to (0, 0, 75, 95) in native pixel coordinates to reproduce the published rectangular clipping; no rotation or flip. JPEG container normalized to baseline sRGB with nonzero 72 dpi density (source JPEG had zero JFIF density); no CMYK assets or sample inversion involved. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "cover-thumbnail photograph",
+        "sequence": 2,
+        "source_page": 24
+      }
+    ],
+    "issue_id": "8c7d190e-02b9-427e-9891-346d83e3007a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Charity Gospel Tape Ministry &\nThe Heartbeat of The Remnant",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 24
+    },
+    "subtitle": "January – March 2001",
+    "title": "Quarterly Financial Report",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3eb145db459123366ff4101f9b27fe8aa13b09320422b1a47c6694f15265e4f8",
+    "metadata_sha256": "0a914bced5409343b0e29bfb9413dd1ab2e2e7ef801e11cc67b735f0d39c0e1a",
+    "structure_sha256": "ce4cceec34dd4b146d15a42a76221887263e9b8e215d431debb0b4569b28e2dc",
+    "text_sha256": "5fa6b40478fe0d6d6931701edda361caad6f8bcc4cccce1e47ff4a4e2e529252",
+    "translation_metadata_sha256": "18cab3243647e2ac9d347c0777a307bea429e488ce8d376621bc4d56983221d5"
+  },
+  "html": "<article data-article-id=\"926bfde7-3eb5-4bb7-9eca-d38a90d92dab\">\n  <figure>\n    <img src=\"/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-1.png\" alt=\"An audio cassette.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/926bfde7-3eb5-4bb7-9eca-d38a90d92dab-2.jpg\" alt=\"Water cascading through a green woodland.\">\n  </figure>\n  <p>Dear Brothers and Sisters,</p>\n  <p>Below, you will find the quarterly financial records for the Tape Ministry and the Remnant. The bottom line needs a little explanation. There are two reasons for the large negative balance. First of all, we have changed the way we produce the Godly Home Series. The continued increase in demand for this set has been a real challenge to the workers that produce the tapes. Because of this, we sought for other ways to meet this rising demand. We found a place that would produce them for us at just a little more than what we have to pay. However, we must order them a thousand sets at a time. Then we must also pay for them when we receive them. This was a large expense all at once. The second reason has to do with the tape set albums. We ordered a very large quantity of these, at a sizeable discount. This also had to be paid up front, thus, another large negative balance.</p>\n  <p>We are committed to keep these ministries functioning on a freewill basis. This has its challenges at times, I’m sure you can imagine. We get so many positive, grateful responses from people who have been touched and changed, who didn’t have the money, that the other approach is not an option. To those who do help us financially, Thank You again. Your labors are not in vain. In my twenty-five years of ministry I have never seen a more fruitful ministry than the tapes, and the other ministries that have flowed out from the tapes. The letters never cease to slow down. Letters of beautiful testimony, “God changed my life through a tape”, or, “God changed my life through an article that I received.”</p>\n  <p><strong>God Bless You All!</strong></p>\n  <p><em>--Bro. Denny</em></p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">01/01/01 Beginning Balance</th><td><strong>$1,294.00</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$36,875.33</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$4,753.37</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$41,628.70</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$6,431.46</td></tr>\n      <tr><td>Tapes &amp; Albums</td><td>$41,107.78</td></tr>\n      <tr><td>Computer/Equipment/Supplies</td><td>$1,696.16</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$1,055.36</td></tr>\n      <tr><td>Electricity</td><td>$306.22</td></tr>\n      <tr><td>Telephone</td><td>$940.93</td></tr>\n      <tr><td>Miscellaneous</td><td>$800.00</td></tr>\n      <tr><td>Payroll Expense</td><td>$5,675.00</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$519.00</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$10,906.56</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$69,438.47</strong></td></tr>\n      <tr><th scope=\"row\">03/31/00 Ending Balance</th><td><strong>-$26,515.77</strong></td></tr>\n      <tr><th scope=\"row\">Difference</th><td><strong>-$27,809.77</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3b22f1df92d91145dd2b51e97de36f1e5c079f7ee509dc4fe978d5db381967c3"
+}

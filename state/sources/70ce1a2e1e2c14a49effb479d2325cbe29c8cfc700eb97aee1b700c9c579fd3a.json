@@ -1,0 +1,150 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Rome, Pennsylvania",
+          "name": "Elizabeth Rust"
+        }
+      ],
+      "raw": "Elizabeth Rust\nRome, Pennsylvania"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "77fad9bd-e155-4f8b-9412-68f96cd634ca",
+    "images": [
+      {
+        "alt": "Silhouette of a child reading beneath a tree.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-1.jpg",
+        "repository_path": "public/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-1.jpg",
+        "rights_note": "Useful unobstructed crop preserves the tree trunk and complete seated child while excluding the adjacent baked Children’s Corner words and the right canopy extension. No individual credit printed for this section illustration. Faint scan show-through belongs to the original paper, not separate artwork. Page resources, paint order and image dictionaries inspected: one full-page RGB scan with zero-opacity OCR text; no soft mask, tiles, clipping reconstruction or transparency-group base image. Source ICC profile is IEC 61966-2.1 sRGB. Final baseline JPEG has sRGB profile and nonzero 96 dpi density; no CMYK conversion or inversion required. No pixels synthesized and no licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 0.9841629 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            248,
+            215
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            248,
+            212
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1740,
+            2288
+          ],
+          "source_object": 48,
+          "vertical_scale_to_pdf_placement": 0.9841628959276019
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A girl raises her hand among children listening to a teacher with dinosaur pictures.",
+        "caption": null,
+        "credit": "© Belle Vie Creative",
+        "public_path": "/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-2.jpg",
+        "repository_path": "public/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-2.jpg",
+        "rights_note": "Belle Vie Creative credited to page 11 in the page 2 credits. Native-pixel crop isolates the complete classroom illustration above the article text. Explicit unavoidable source-scan exception: printed feathered edges, paper texture and faint reverse-page text show-through are inseparable from the only raster and retained; there is no clean base image to recover. No separately removable panel, title, footer, bar or other typography is included. Page resources, paint order and image dictionaries inspected: one full-page RGB scan with zero-opacity OCR text; no soft mask, tiles, clipping reconstruction or transparency-group base image. Source ICC profile is IEC 61966-2.1 sRGB. Final baseline JPEG has sRGB profile and nonzero 96 dpi density; no CMYK conversion or inversion required. No pixels synthesized and no licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 1.01847526 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "story illustration",
+        "sequence": 2,
+        "source_page": 11,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            180,
+            160,
+            1600,
+            1030
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1420,
+            886
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1744,
+            2216
+          ],
+          "source_object": 52,
+          "vertical_scale_to_pdf_placement": 1.0184752601401572
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "ELiZABETH AND THE DiNoSAuRS",
+    "topics": [
+      "a25611f0-ac2f-58a4-8911-c1e01807fce0",
+      "5b247a86-6428-53ec-93fe-0dbf3120aca6",
+      "7936e75c-ab93-5d91-aa74-c2dd7c6bc2aa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "59d14d56d74842affcffdf419c9d6f9353624a3a525adfb0c0dec5adbfb5a75a",
+    "metadata_sha256": "4c667b10e1ef6ea10e298d5b48fe4e47868142ab78358273760af18683f61bf4",
+    "structure_sha256": "5d51188e50765e21dcfa6cc8ab2c27bdc4c3c4912c99916da9a4b84d70c13015",
+    "text_sha256": "3ea5abc3534de96d0eff6c31bc256812142ec59abcaf92bfab7a226be16243f5",
+    "translation_metadata_sha256": "086753e4be16b447fe023fcb676b4a6eee9b51d85e3aa5cd12732032a53f1f56"
+  },
+  "html": "<article data-article-id=\"77fad9bd-e155-4f8b-9412-68f96cd634ca\">\n  <figure>\n    <img src=\"/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-1.jpg\" alt=\"Silhouette of a child reading beneath a tree.\">\n  </figure>\n  <p><strong><em>Author’s note: This is a true story from the author’s childhood, when she attended a public school but also went to church on Sundays, like many Americans. The author is very grateful to Christ our Savior, who brought her through the setting of public school and made her a part of the family of God, much like He did with Rahab and Ruth. Perhaps this little story will help you remember to pray for children who are constantly told lies about God and His Bible. God’s power is greater than those lies, and He can deliver those children out of the Kingdom of Darkness and bring them into the marvelous Kingdom of Light.</em></strong></p>\n  <p>There was once a little girl named Elizabeth who was in Mrs. DeVou’s first-grade class in a little town in Massachusetts. One day, Elizabeth was sitting with her classmates on the rug in the front of the room, ready to have a science lesson. Mrs. DeVou was going to teach them about dinosaurs! That sounded very exciting to Elizabeth.</p>\n  <p>They looked at great big pictures of the T. Rex, and of the brontosaurus, triceratops, and stegosaurus, as well as other types of dinosaurs. Elizabeth liked the look of the stegosaurus best, with all the triangles coming up out of its back, but she liked the word triceratops better than stegosaurus. She was having a really good time learning about these animals and how some of them ate meat, and some ate plants, and all sorts of other interesting things. And then the teacher said something that confused Elizabeth immensely.</p>\n  <p>“Dinosaurs lived a long time before man existed. Man and dinosaurs never lived together at the same time,” Mrs. DeVou said.</p>\n  <p>Elizabeth scrunched up her face when she thought about this, much the way anyone might scrunch up their face when they don’t understand what someone has just said. Elizabeth had heard the words, but they didn’t make sense.</p>\n  <p>The teacher had said that man and dinosaurs didn’t live at the same time. How could that be? Elizabeth remembered from her Bible that God had spent one week making everything, and then He had looked at it all and called it good. Then God had taken a day to rest and enjoy it. If she remembered correctly, God had made all the animals on one of the last days, and that same day He had made Adam. So if Adam was made the same day as all the animals, and a dinosaur was a type of animal, then surely Adam and the dinosaurs must have been living on the earth together. Elizabeth’s hand shot into the air.</p>\n  <p>“Yes, Elizabeth?” said Mrs. DeVou.</p>\n  <p>“That doesn’t make sense,” said Elizabeth.</p>\n  <p>“What doesn’t make sense?” said the teacher very kindly.</p>\n  <p>“That man and dinosaurs didn’t live together. They had to live together. They were created on the same day,” explained Elizabeth.</p>\n  <p>“No, they lived thousands of years apart. Dinosaurs were around for a very long time, and then they all died, and thousands of years later, man evolved. So they did not live together.”</p>\n  <p>“But the Bible said that animals and man were created on the same day. And a dinosaur is just a type of animal. There was no time for them all to die before Adam was made. It doesn’t make sense.”</p>\n  <figure>\n    <img src=\"/images/articles/77fad9bd-e155-4f8b-9412-68f96cd634ca-2.jpg\" alt=\"A girl raises her hand among children listening to a teacher with dinosaur pictures.\">\n  </figure>\n  <p>Mrs. DeVou took a deep breath. I’m sure it was very hard for her to try to decide what to say next.</p>\n  <p>“We aren’t talking about the Bible, Elizabeth. Maybe that is what the Bible says, but the textbook I am teaching from says that dinosaurs and man lived thousands of years apart. And the textbook is the one that has it right.”</p>\n  <p>Elizabeth could tell that it was not her place to argue with the teacher, although she really, really wanted to. How could the teacher say the Bible was wrong? The Bible was true, from beginning to end. So Elizabeth took a deep breath herself and said,“Okay, but I’m still going to believe the Bible. I think dinosaurs must have lived at the same time as humans.”</p>\n  <p>Elizabeth had a hard time listening to the rest of the lesson that day. And often when they had science classes, Elizabeth wondered if any of it was worth believing. For a long time, several years in fact, Elizabeth didn’t like science. She thought that science was bad. But science is not bad. Science is the study of God’s world, and that is not a bad thing at all. Science is a lovely thing! It shows us what a wonderful, imaginative, creative God made the world and everything in it.</p>\n  <p>But not everyone believes in God. The people who wrote the textbook that Elizabeth was learning from did not believe in God, so they did not think about what the Bible had to say about when dinosaurs lived and when man lived. They had their own ideas and wrote science lessons based on those ideas. Since they don’t believe in God, they had to come up with their own ideas that wouldn’t include God, and that is why they say the earth is much older than it really is.</p>\n  <p>Much of what scientists think and share is true, but not all of it is true. It is always a good idea to make sure what you learn agrees with the Bible. The Bible tells us a lot about God’s creation. God wants us to know about the world He created. The earth has many things that show how wise, creative, and marvelous the mind of God is. Learning about God’s creation is wonderful, but as with learning everything, it is best to make sure you are learning the real truth.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f635d91f205646ef668725afd1c5dd0c33664eb225f2ded6d731b74f86adf9b8"
+}

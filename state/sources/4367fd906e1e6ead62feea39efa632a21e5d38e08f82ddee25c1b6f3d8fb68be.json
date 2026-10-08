@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Sister Eva of Friedenshort"
+        }
+      ],
+      "raw": "by Sister Eva of Friedenshort"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "62ffed2a-03a2-44bc-94a2-97a38cf1a64e",
+    "images": [],
+    "issue_id": "c9a9c184-9c75-4029-a839-f6082d61542d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "95bf1fd5454e267df1fe9bb3d3ef3b4b3c02215e01e5555a85a479a9013c314d",
+    "metadata_sha256": "079b1d262c389d9828feef528e3cd2b1b674afd37679b91dd2bbbcb766476303",
+    "structure_sha256": "f54029fe1aee9d04ff5ed39e2effa86f5e245ecfd2a65db31cbc1bffde2b4cc6",
+    "text_sha256": "48cb7fc65afe83494b1dc45b760470e2a755e05b4fc2ac4b7d82518378e5c526",
+    "translation_metadata_sha256": "57fbc88f6f9ee8022d42a0732b5e5251821f2c5421d8e8e66750891f2b57c1a7"
+  },
+  "html": "<article data-article-id=\"62ffed2a-03a2-44bc-94a2-97a38cf1a64e\">\n<p><em>This sums up the spirit of Phil. 2:5-8:</em></p>\n<p class=\"poem\">Because we children of Adam want to be great<br><strong>–HE BECAME SMALL.</strong><br>Because we are always seeking to climb higher<br><strong>–HE STEPPED DOWN.</strong><br>Because we will not stoop<br><strong>–HE HUMBLED HIMSELF.</strong><br>Because we want to rule<br><strong>–HE CAME TO SERVE.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ed85f015d938f56e2c67d467c72b9d4f27d433c772253ea9bb1447ee588f4e4a"
+}

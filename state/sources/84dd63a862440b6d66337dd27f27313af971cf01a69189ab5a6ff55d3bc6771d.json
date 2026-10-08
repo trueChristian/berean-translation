@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Helen Mallicoa"
+        }
+      ],
+      "raw": "Helen Mallicoa"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "69583771-9cc5-4b3e-aff1-e6c5968f7f50",
+    "images": [
+      {
+        "alt": "A lightning storm and a mountain above a lake accompany the printed poem My Name is I AM.",
+        "caption": null,
+        "credit": null,
+        "height": 503,
+        "public_path": "/images/articles/69583771-9cc5-4b3e-aff1-e6c5968f7f50-1.jpg",
+        "repository_path": "public/images/articles/69583771-9cc5-4b3e-aff1-e6c5968f7f50-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Sole source xref 140 is a flattened collage containing lightning and mountain/lake photographs plus title, poem, and Helen Mallicoa byline. No clean photograph constituents or separable typography exist in the PDF. Full original source raster content retained as an explicit unavoidable baked-typography exception; no pixels synthesized. Separate outer decorative frame and mailing panel omitted.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 40,
+        "source_pdf_object": 140,
+        "transformations": [
+          "Source RGB JPEG had one trailing newline byte after EOI; re-encoded as standard baseline sRGB JPEG, 72 dpi, quality 98, 4:4:4 at unchanged 504×503 dimensions. Full published collage preserved."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 504×503",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 504x503 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 504
+      }
+    ],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 40,
+      "start": 40
+    },
+    "subtitle": null,
+    "title": "My Name is I AM",
+    "topics": [
+      "9538d8fb-7c90-57aa-b14d-af52754f5f6c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bf913cfff87e616426df100998e0c3885c5b77048b2c4ea520abe71b135a11cb",
+    "metadata_sha256": "af59c44f6e492118c01f2d677a67ed0e60f68649dd241e8a30efc637d4c96a74",
+    "structure_sha256": "1f4be5bb899302ef12d3d8f2eb9be97192f83fd803ca49335ca3250933cf19f0",
+    "text_sha256": "f83f031b1b2027a34887da0c5bd48551b8566313bc7f29852c2aa260393c2176",
+    "translation_metadata_sha256": "87bcaa9679b7aa57b7bc8e8ce264497c3c998475b28c416d39c7cdb39c9d9c08"
+  },
+  "html": "<article data-article-id=\"69583771-9cc5-4b3e-aff1-e6c5968f7f50\">\n  <figure><img src=\"/images/articles/69583771-9cc5-4b3e-aff1-e6c5968f7f50-1.jpg\" alt=\"A lightning storm and a mountain above a lake accompany the printed poem My Name is I AM.\"></figure>\n  <p class=\"poem\">When you live in the past,<br>with its mistakes and regrets,<br>it is hard. I am not there.<br>My name is not I Was.</p>\n  <p class=\"poem\">When you live in the future,<br>with its problems and fears,<br>it is hard. I am not there.<br>My name is not I Will Be.</p>\n  <p class=\"poem\">When you live in this moment,<br>it is not hard. I am here.<br><strong>My name is I AM.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3573484a7a68bcea0af3124ed8246b3cbd2248019ce597a90279dc4285c7af33"
+}

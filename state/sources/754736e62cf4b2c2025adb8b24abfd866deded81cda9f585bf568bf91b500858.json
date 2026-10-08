@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Theodore L. Cuyler"
+        }
+      ],
+      "raw": "by Theodore L. Cuyler"
+    },
+    "categories": {
+      "additional": [
+        "94dddad2-cc75-5292-86c4-8f450af98ad4"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+    "images": [
+      {
+        "alt": "A seated painter holding a palette beside an easel",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg",
+        "repository_path": "public/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg",
+        "rights_note": "Extracted the original embedded image object 68 from printed page 16. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 320, 408] from the 322 × 409 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            320,
+            408
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            320,
+            408
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            322,
+            409
+          ],
+          "source_object": 68
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Painting for Eternity",
+    "topics": [
+      "3aa5d6ec-22d9-58a4-be87-97523a2d558f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5a99786b01d5619f9fb74f44bdb2ed6a5d520783710cefb0d04df353422905c0",
+    "metadata_sha256": "1defd35ed63e3577c6edacf1aacb46450cbd7ebce8c1a1cd07a09c24c995a411",
+    "structure_sha256": "6b5843b5c541e4515cd488271589a0cdf113af4310b669c68b6d351d4dc76084",
+    "text_sha256": "562d02a8e56399d419d93b9cd7f0c2a02e6007f21638db864ed505fab36c0a9a",
+    "translation_metadata_sha256": "5217ee2dd56a82e2068fc4caef5e38247cf3d25193da779ca565dc0d33e480e2"
+  },
+  "html": "<article data-article-id=\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\">\n  <figure>\n    <img src=\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\" alt=\"A seated painter holding a palette beside an easel\">\n  </figure>\n  <p>When Apelles, the Greek painter, was asked why he bestowed so much labor upon his pictures, he replied, “Because I am painting for eternity.” He used the word as a bold figure of speech; but we may use the word literally when we say that we are painting the pictures of our lives for eternity. We use fast colors. Whatever pure and holy word or deed be wrought into that picture will stand there, imperishable and immortal. Whatever selfish or sinful thing be painted on that life-canvas can never be washed out, except by the application of the blood of Jesus here in this present life. Now or never that precious blood availeth. When death comes, the process of painting stops! No strokes of penitence or of faith can be added to it then. No guilty spots can be washed out then. The painting is finished, and finished for ever.</p>\n  <p>Death frames the picture, and sends it on to the Judgment Day for exhibition. Not a “private preview” before a select company, but a public exhibition before an assembled multitude whom no man can number. For God will bring every word and every work into judgment, whether it be good or whether it be evil. The picture of out lives which is presented before the “great white throne” will be forever unchangeable. If the canvas is adorned with deeds, however humble, for the glory of God, then the life-work will stand as an everlasting memorial of Divine grace. If the life was only spent for the gratification of sinful self, then the wretched picture of it will only be held up to “shame and everlasting contempt.”</p>\n  <p>We may desire most intensely to alter the portraiture then, and to improve it, but the pencil and the colours were left behind us; the hand will have lost its cunning for evermore. We may importunately beg and beseech the righteous Judge to give us one more opportunity. The irreversible answer will be, “He that is unjust, let him be unjust still; he that is filthy, let him be filthy still. He that is righteous, let him be righteous still; he that is holy let him be holy still.” Seeing that these things are true, what manner of persons ought we to be in all holy conversation and godliness.</p>\n  <p>When the noble Russell was executed as a martyr to freedom, he handed his watch to a friend who stood beside him on the scaffold. “Take this watch,” said he, “for I have no more to do with <em>time.</em> My thoughts now are only about eternity.” The utterance of the dying martyr is a word in season for us all. We pastors who are setting about the Master’s work anew may well take note of the fact that we are preaching for eternity! Let every parent who reads this paragraph inquire of conscience, “Am I training up my children not only for this world, but for the world to come?” Let every man of business ask himself whether he is only aiming to fill a bag that is full of holes, or, as God’s steward, is laying up treasures in heaven? Young friend, are you training yourself in self-indulgence, or for the immortal crown?</p>\n  <p>Upon the walls of an institution in Montreal, I saw this summer, this brief line—“Nothing is long except eternity.” That was a motto for every pastor’s study, and for the walls of every dwelling. Let us all write it up before us on the arch of the heavens. “Nothing is worth living for but eternity.”</p>\n  <p class=\"poem\">Let the clanging bells of time<br>\n  With their changes rise and fall!<br>\n  But in undertones sublime—<br>\n  Sounding deep beyond them all—<br>\n  Is a voice that <em>must</em> be heard,<br>\n  As our moments onward flee,<br>\n  And it speaketh but this word<br>\n  <strong>‘Eternity! Eternity!’</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6"
+}

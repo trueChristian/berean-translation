@@ -1,0 +1,67 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 1989,
+          "location": null,
+          "name": "Karissa Hiebert",
+          "role": null
+        }
+      ],
+      "raw": "Karissa Hiebert, 2010 (b. 1989)"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "01e1bd6f-f251-4835-8729-2a052e4d514d",
+    "images": [
+      {
+        "alt": "Sheet music and lyrics for To Be Like Thee by Karissa Hiebert",
+        "caption": null,
+        "credit": "Karissa Hiebert, 2010 (b. 1989)",
+        "public_path": "/images/articles/01e1bd6f-f251-4835-8729-2a052e4d514d-1.png",
+        "repository_path": "public/images/articles/01e1bd6f-f251-4835-8729-2a052e4d514d-1.png",
+        "rights_note": "The page explicitly states: ‘This song is not copyrighted and is free to be published for the glory of God.’ Nine embedded tiles were reassembled into the single published score, tonally quantized for web delivery, and encoded as a grayscale PNG at 150 ppi while preserving the published dimensions, crop, orientation, notation, and text.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "94907374-d678-5e74-bed3-a8ce2ba93730",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "To Be Like Thee",
+    "topics": [
+      "75cfe6ba-64d6-56fc-b41a-66e7189a18f3",
+      "42f1a8d5-21c5-5868-a31a-3dff109a9e96",
+      "3b69fdad-e957-5e8b-a946-db683c653271",
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6d278dd96ad66d49bfb0d48d42192c1cb2d49ac0c572399fe84f62a27cad469c",
+    "metadata_sha256": "a8c276fc60431d7d1233b91a33537c6b33f166e755ec9a995ebedd2fb3b7a9d4",
+    "structure_sha256": "75c9264a386c7126b0968ed8d5c92a2095b5afeff6bdd953ac536fa8541a5142",
+    "text_sha256": "b818102b19a7d9d51c086a7fef3e325101fe1aea130a9ef7a8b5f9a6f2e83cab",
+    "translation_metadata_sha256": "c48d04c05490a60b165fc2e39063a92107b0dca2841d89218a069f872361b8dc"
+  },
+  "html": "<article data-article-id=\"01e1bd6f-f251-4835-8729-2a052e4d514d\">\n  <figure>\n    <img src=\"/images/articles/01e1bd6f-f251-4835-8729-2a052e4d514d-1.png\" alt=\"Sheet music and lyrics for To Be Like Thee by Karissa Hiebert\" loading=\"lazy\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>Lord, I would be like Thee, in all Thy purity; I would be wholly,<br>\n    Thine, and yield Thee what is mine. Oh may I do Thy will: Not mine, but<br>\n    Thine, fulfill; My heart, my will, I now resign; My life to be only Thine.</li>\n    <li>Lord, I would be like Thee; Thy likeness is my plea; Devoted I would<br>\n    be, and serve Thee faithfully. Grant me a love so true That for Thee<br>\n    all I’d do; O light the flame of my spiritual fire; O be Thou my only desire.</li>\n    <li>Lord, I would be like Thee, that all around may see Thy holiness and<br>\n    love that comes from heav’n above. O draw me close to Thee ’til all see<br>\n    Christ in me; My life I give, my all each day; O use me, dear Lord, I pray.</li>\n  </ol>\n\n  <div class=\"lyrics\">\n    <p><strong>REFRAIN</strong></p>\n    <p>To be like Thee is my greatest desire; O Master, here, oh here am I! O<br>\n    take me and make me like Thee, blessed Lord; To be like Thee is my greatest desire.</p>\n\n    <p><em>After final chorus</em></p>\n    <p>To be like Thee is my greatest desire. Amen!</p>\n  </div>\n\n  <p><em>This song is not copyrighted and is free to be published for the glory of God.</em></p>\n\n  <p>Karissa Hiebert lives near Lowe Farm, MB, Canada, with her parents and six of her siblings. She helps with housework and homeschooling, teaches piano, and enjoys music and writing. This particular song was inspired one Sunday morning when she took her little brother downstairs at church to rock him to sleep, and started singing to him. The words and music are an echo of her heart’s desire, to be like Christ. Karissa helps in publishing a magazine for young sisters in Christ, <em>All Glorious Within</em>. Information about the magazine can be obtained by writing: All Glorious Within, Box 2, Lowe Farm, MB R0G 1E0. Website: www.allgloriouswithin.org</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0d4b85659637f97655f05e97fe63b02b9e68883a9bb11bfc3eb963c348d10b84"
+}

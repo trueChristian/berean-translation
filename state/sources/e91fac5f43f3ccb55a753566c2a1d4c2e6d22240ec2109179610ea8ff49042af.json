@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Soren Kierkegaard",
+          "role": null
+        }
+      ],
+      "raw": "—Soren Kierkegaard"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "22d6c0e1-ac83-46e4-b80c-e24fde12e8d0",
+    "images": [],
+    "issue_id": "e4a7fc78-9aac-5bb1-9566-12c2a6c03eff",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "The Matter is Quite Simple",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b3268cb86e96a4d39e626debecd570219d0b063da626f0e80bf16dedcbd21b8c",
+    "metadata_sha256": "92f1c218ab9f51f6d35c997eec8a7e7a4fbbaa20fd277c9e0590ca830acc4e68",
+    "structure_sha256": "6a99cafe6eb1ea70bf82d9aa2c3e8133fa4ba4efecc2835ff4fb7294aa37e8ad",
+    "text_sha256": "d286aecb597f85eb41ce949612ef3dc37f4fb535f26226c6a58078998d42dd74",
+    "translation_metadata_sha256": "0b6c6191093e382d3f546ab0261586010138d67b9479125d29a643203c93ac67"
+  },
+  "html": "<article data-article-id=\"22d6c0e1-ac83-46e4-b80c-e24fde12e8d0\">\n  <blockquote>\n    <p>“The matter is quite simple. The Bible is very easy to understand. But we Christians are a bunch of scheming swindlers. We pretend to be unable to understand it because we know very well that the minute we understand we are obliged to act accordingly. Take any words in the New Testament and forget everything except pledging yourself to act accordingly. ‘My God,’ you will say, ‘if I do that my whole life will be ruined.’</p>\n    <p>Herein lies the real place of Christian scholarship. Christian scholarship is the Church’s prodigious invention to defend itself against the Bible, to ensure that we can continue to be good Christians without the Bible coming too close. Dreadful it is to fall into the hands of the living God. Yes, it is even dreadful to be alone with the New Testament.”</p>\n  </blockquote>\n  <p>—Soren Kierkegaard</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "99aed5017819eddc0c6d9ae57c26c8c6eadb0fd761bc88139be9985276802188"
+}

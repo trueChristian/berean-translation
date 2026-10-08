@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Gerard Du Toit",
+          "role": null
+        }
+      ],
+      "raw": "–Gerard Du Toit"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "8b96ac01-56b0-4b4e-952d-35a209bdd143",
+    "images": [],
+    "issue_id": "1b71c997-6dfc-4be4-a75f-e14cb1034695",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 10,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Prayer s Revealing Challenge",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "842bf0889a168a4e94a55d92bd6964c5c01bc1aad00b4e1509a923a1b2ad5c19",
+    "metadata_sha256": "0a175ba74533a86ecb707efc93422b58a75cacc257fb568021112ef2c192bce3",
+    "structure_sha256": "7c77727f1b5d3e47aafd74c4162908c8fec775f81aa61570f4fc427ab449ff83",
+    "text_sha256": "a490115c978ae03f3cf6f0935cd43b0329d0cdaa44e7ebb8c0210e0afb392c98",
+    "translation_metadata_sha256": "c5f6b111f9383e05a931f31e2fbd5eb84fe37d7341c1a084b2d413343a32b676"
+  },
+  "html": "<article data-article-id=\"8b96ac01-56b0-4b4e-952d-35a209bdd143\">\n  <p>There are many things that you can do in the Christian life, and not be right with God. Think about it a moment. You can read your Bible and not be right. You can go to church faithfully. You can lead your family in devotions. You can tell someone about the Lord Jesus. You can even preach the sermon on Sunday morning, and do it without an open heaven. But prayer is the great revealer of a man’s true spiritual condition. You cannot have an effective, activating prayer life unless you are continually walking with a clear heart before God. Let us slowly ponder our prayer life before the all searching eye of God. How is it really? Do you have a pattern of answered prayer in your experience? The effective, fervent prayer of a righteous man avails.</p>\n  <p>–Gerard Du Toit</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "1b43391baab4174be63eff2cadfcdc57187984d20d421937b1e45f8e053fc3ba"
+}

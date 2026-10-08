@@ -1,0 +1,140 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Shelbyville, Indiana",
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "Barry Grant\nShelbyville, Indiana"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "8217b078-a164-411f-bcbd-056253d4bb3e",
+    "images": [
+      {
+        "alt": "Green hills divided into fields, with scattered trees and buildings.",
+        "caption": null,
+        "credit": "© Nathan Leinbach",
+        "public_path": "/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-1.jpg",
+        "repository_path": "public/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-1.jpg",
+        "rights_note": "Page 2 Photo Credits identifies © Nathan Leinbach for page 4. No separate permission requirement or licence is stated. Unobstructed photograph crop excludes title, byline, decorative colour square and the photographed curved upper paper boundary; no material subject is removed. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            671,
+            1652,
+            2217
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            1651,
+            1490
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1652,
+            2218
+          ],
+          "source_object": 23
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A palm tree before a hillside, with the printed pull quote over the photograph.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-2.jpg",
+        "repository_path": "public/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-2.jpg",
+        "rights_note": "Page 2 Photo Credits identifies © Adobe Stock Images for page 6. No separate permission requirement or licence is stated. The photograph region contains irreversibly baked white pull-quote typography and an olive-gold tonal wash in the only source raster. These unavoidable publisher overlays are retained explicitly under the source-raster exception: a text-free left strip would cut the palm and remove most hillside context, and no retained black/white points establish an exact inverse wash. No inpainting, cloning, synthetic reconstruction or colour inverse was attempted. Cropped only the photograph region, excluding surrounding prose and its thin boundary. The repeated pull quote is not separately duplicated in semantic HTML because its entire wording already occurs in the body. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph with printed pull quote",
+        "sequence": 2,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            792,
+            676
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            790,
+            657
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1568,
+            2081
+          ],
+          "source_object": 31
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 4
+    },
+    "subtitle": null,
+    "title": "The Inconvenient Revival",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "07fc698f362608b251525c7f897d4abcf09b4972317248070adc18ade9a42171",
+    "metadata_sha256": "929a58ce68ec4b2229d8fce317ba1136bdb073d60985a162e8b7b09b8ff75064",
+    "structure_sha256": "3f4c82dce2e85626b780f567f68d1d30d2a96a3e51c396220439f42a08615a73",
+    "text_sha256": "6a0569834bfacf9c10b6dbec2d52d011632ef57c7320d78e6e16e5c35aa0c729",
+    "translation_metadata_sha256": "ae76970eafe83c3eb90a050645a14a21d7eab76e903670f40f7bd26c66e0b1d5"
+  },
+  "html": "<article data-article-id=\"8217b078-a164-411f-bcbd-056253d4bb3e\">\n  <figure><img src=\"/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-1.jpg\" alt=\"Green hills divided into fields, with scattered trees and buildings.\" /></figure>\n  <p>A powerful, Spirit-filled message is preached. The Almighty God is working in the hearts of sinners. It’s a miracle. The enemy of our souls is also working, trying to deceive the hearer. Finally, a heart breaks and pleads for mercy, then another, and another. As the fires of revival spread, the powers of the enemy are broken. The ruthless, lying serpent is overcome. The church is refreshed, and the brotherhood is built and strengthened. The Kingdom of Heaven is at hand.</p>\n  <p>Revival swept the world for thousands of years. One never knew when or where the sparks would catch fire. It was exciting, refreshing. Church groups all over the world would call on a preacher, clear their schedules, and pray for revival. But what about in our day? Have the fires of revival been quenched? Is the Almighty God no longer at work?</p>\n  <p>Dear reader, the answer is clear, the reason is obvious. We do not have time for revival. Yes, we still want it. Yes, we still schedule the meetings and call for a preacher. However, our busy lives must go on as undisturbed as possible. The service must start and end on time, for our precious schedules must not be hindered. As our churches struggle to survive, our youth lose interest, and the world comes in. Our personal lives thrive, and our entertainment, fun, and excitement are at a high. Our businesses have never been stronger, and our bank accounts have never been fuller.</p>\n  <p>When God starts a revival, He finishes the work. Revivals begin, continue, and are finished on the backs of countless hours of prayer. Many hours are poured into counseling and discipleship. It’s an exciting work for the believers in the church. However, it is very inconvenient for the worldly-minded Christian.</p>\n  <p>I received a call from a desperate pastor, “Please come preach revival meetings.” The normal question followed, “How long are you planning to have the meetings?”</p>\n  <p>“Brother, we want you to preach until God comes!” Oh, that more leaders would commit to that! We will preach, pray, and seek God until He comes and He speaks to us! Jacob wrestled with the angel, declaring he would not give up until he received a blessing! Oh, that the church of our day would get that desperate, calling on the name of our God for true repentance-filled revival to sweep our churches, our towns, our country. But how can God do this when we lack the time or desire?</p>\n  <p>As the church leaders discussed who should preach at their annual revivals, a particular preacher’s name was suggested. The pastor asked, “Isn’t that the preacher that stirs people up everywhere he goes?” Yes! And brother, that is exactly what we need! The Bible says the same thing about the disciples; “And when they found them not, they drew Jason and certain brethren unto the rulers of the city, crying, these that have turned the world upside down are come hither also” (Acts 17:6). Could it be that we want passive revival preachers, so the workload is lighter and we can quietly return to our homes and beds? God help us! If we truly seek the Lord for revival and take the condition of our churches seriously, we will become desperate. Little else in life would matter.</p>\n  <p>God sent His Son to die on the cross so the world could be free from the bondage of sin, allowing humans to be free from the enemy’s power. It truly is all that matters. After we die, nothing else will matter! We must get our priorities right. We must not let the enemy of our souls continue to lie to us.</p>\n  <p>A pastor recently shared with me the story of the day he was saved from his sin over 60 years ago. As a young man, he sat through the Sunday evening sermon, and God was working in his heart. The battle for his soul was on. Finally, he surrendered and gave his heart to the Lord. The pastor of the church then announced that God was at work in their midst, and they would continue the meetings! This little group met faithfully, calling on the name of the Lord for more than three weeks! With joy in his faltering voice and tears in his eyes, the elderly brother said more than 30 souls had been added to the fold during those three weeks. Praise God when His people will drop everything to seek the Lord for revival!</p>\n  <p>Freedom from sin is the message that convicts the unregenerate soul. Can it be, the sinner asks. Can I really be freed from this bondage? The answer is yes! Too many preachers water down the saving power of the Gospel of Jesus Christ. Too many Christians believe the Christian life is just a culture they were born into. Oh, what a shame! No wonder we return to our slumber after a week of revival meetings!</p>\n  <p>As we started a church outreach in this community, all the neighbors buzzed with the news, the Amish or Mennonites are moving in. We invited everyone to a cookout, and nearly 100 people showed up. They wanted to meet these new people. It was very clear that they thought of us as a cultural group, not as Christian people. I shared my testimony with them, telling them that I was born a sinner and had lived a wicked life. After graduating from high school, I joined the military. Drug and alcohol addiction hindered me in many ways. After spending many stints in jail, I surrendered to the One who said He could free me from this bondage, and He did! I was free at last! I proclaimed to this group of neighbors that everyone needed to surrender to the Lord, just as I had done. I began following Christ in a real way, applying the scriptures to my life. I explained that if they wanted to be Christians, they too would have to do the same. We are not just a culture, but we are disciples of the Lord Jesus.</p>\n  <p>The American church has been deceived into thinking that they can be Christians and do what they want, dress how they want, go where they want, say what they want, and ultimately live how they want. Brothers and sisters, we, the Anabaptists, are following swiftly in their footsteps! We must pray for revival to spark. Pray for a man of God who will come and sacrifice his reputation and ego, and preach the truth about the state of our churches. We need preachers who are ready to do what they did in the days of old, and preach until the crowds drown them out, “Crucify Him!”</p>\n  <figure><img src=\"/images/articles/8217b078-a164-411f-bcbd-056253d4bb3e-2.jpg\" alt=\"A palm tree before a hillside, with the printed pull quote over the photograph.\" /></figure>\n  <p>I was preaching in Haiti when some American Mennonites walked into the service. I had never seen them before. I was preaching on the new birth from the depths of my heart. These dear Haitian people just needed to surrender. The enemy of their souls was holding them tight in bondage. “We must see the treasure, go home, and sell all and buy the field! We need to be completely free from sin! Crucify the flesh and become new creatures!” I was preaching as a dying man. But I feared what the Mennonites would say, until I saw a tear roll down one of their faces.</p>\n  <p>After the message, the elder of the visiting group said, “We need this kind of preaching in America! I’m afraid we have fallen asleep!”</p>\n  <p>My response was simple, “America will not have it.”</p>\n  <p>Dear reader, it is true, in America, we want a lukewarm gospel that allows us to sleep. We want a watered-down gospel that allows us to live in pleasure and comfort! We desire a powerless Gospel that permits us to keep our sin. God help us, dear people! We cannot let this continue! Wake up, thou that sleepest! We don’t have time to relax and enjoy life. The master of the vineyard is coming back. Oh, dear reader, how will he find us?</p>\n  <p>I’ve heard many messages preached at revival meetings that stir the people to repentance, only to be watered down at the end by lukewarm American theology. The sinner relaxes and goes home justified in his own mind, only to be very surprised on judgment day!</p>\n  <p>As I pastored the church in Haiti, I had a rude awakening one morning. When we started the church, there were no converts who came to the service; only sinners who did not know God. After several months, the crowds continued to grow and the building was filled to capacity. However, I knew if I told them the truth, most would leave. If I told them that the church needs to be free from sin, that if you count the cost, and the cost is too high, you need to leave. If you’re not tired of your sin and want to walk away from it forever, you can’t return. I battled with this for some time.</p>\n  <p>Early one Sunday morning, I had a vision, which was the first of this kind I had experienced. It was as if the Lord had returned, and it was all over. I remember being filled with unexplainable joy. I was up in the clouds walking, all by myself, and up ahead I saw a throne. As I got closer, I could see the Lord sitting on the throne. I was excited! But as I approached the great throne, I was suddenly filled with terror. I could see Jesus shaking his head! I remember thinking, What happened? What went wrong? How did I fail Him? As I stood before the Lord, shaking His head, he pointed behind me. I turned around, and what I saw froze my very being. All the Haitians stood there. I knew exactly what was happening. I returned my fearful, tearful gaze back to Jesus as He spoke: “Why didn’t you tell them the truth?” That was all He said. I awoke and was never the same.</p>\n  <p>As I took the pulpit that morning, I had a different message to share. Everyone loved the powerful preaching, however, they didn’t take it personally. They didn’t think that they needed to change anything. That morning, with tears in my eyes, I told them about the vision. I apologized for not being the pastor that I should have been. I told them that if they are living in sin and don’t feel the need to leave it, they were not welcome to come back. We needed a pure church where the saints of God could glorify Him in truth and in Spirit. It was a rough couple of weeks, however, the fruit was simply amazing!</p>\n  <p>Dear people, I truly feel this is what we need in our churches here in the States. We need to clean house. We have enough insincere people in the church, and we must raise the standard! We need churches that are aflame with the power of God. Churches that are full of Spirit-filled people, living Spirit-filled lives! Jesus says several times that the world will know we are Christians by our love for one another. The way we deny ourselves and love our brother will cause the world to know. Let us lay down our lives, our opinions, our sins, and take up our cross and follow Him! The church would then be revived, the world would then again wonder, and the very gates of Hell would not prevail!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a0555fd8a73caac7de296b5779f24405275e814dc68c511482a75e8681dcf31a"
+}

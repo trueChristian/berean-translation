@@ -1,0 +1,108 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rick Hess"
+        }
+      ],
+      "raw": "Rick Hess"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "90100e26-9fe9-40a7-bfed-8a44154b0d27",
+    "images": [
+      {
+        "alt": "left forearm and hand wearing a shackle",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-1.jpg",
+        "repository_path": "public/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-1.jpg",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #12; Adobe grayscale sample inversion; publisher title omitted. Exported as web-compatible RGB/sRGB JPG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 1,
+        "source_page": 10
+      },
+      {
+        "alt": "right forearm and hand wearing a shackle",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-2.jpg",
+        "repository_path": "public/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-2.jpg",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #13; Adobe grayscale sample inversion; publisher title omitted. Exported as web-compatible RGB/sRGB JPG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 2,
+        "source_page": 10
+      },
+      {
+        "alt": "mountain fortress at Masada",
+        "caption": "Masada, pictured above, was a Zealot fort near the Dead Sea. The name Masada comes from a Hebrew word meaning “stronghold.” Are we building strongholds upon false conceptions of God, strongholds that will some day fall like Masada did?",
+        "credit": null,
+        "public_path": "/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-3.png",
+        "repository_path": "public/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-3.png",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #14; none; clean embedded image; separate caption omitted. Exported as web-compatible RGB/sRGB PNG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 3,
+        "source_page": 11
+      },
+      {
+        "alt": "historical illustration of a crowd before Jesus",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-4.jpg",
+        "repository_path": "public/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-4.jpg",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #15; none; clean embedded image; separate caption omitted. Exported as web-compatible RGB/sRGB JPG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 4,
+        "source_page": 12
+      },
+      {
+        "alt": "oval family group photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-5.png",
+        "repository_path": "public/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-5.png",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #17; none; clean embedded image; separate author biography retained as body. Exported as web-compatible RGB/sRGB PNG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 5,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Bondage in Freedom",
+    "topics": [
+      "de33f557-edc2-55c4-abce-92d355702cd7",
+      "bb05b712-abe4-5cce-99f8-8e5e7ba58dc1",
+      "ff6ad80a-580c-5627-ae33-02ab80581a20",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "efd471abf10d4979e7ec216a3ec54fb431aeeb7077a2314e22e26257bceec084",
+    "metadata_sha256": "36f7aa7335f172349dc5e1ad3bcbf7ba927d5ee21eef928f4b551b2d909bc146",
+    "structure_sha256": "41616f2a8e254adde2f1d6d6b33c99c74d6f21a97801a1a10bf46abd5725a47f",
+    "text_sha256": "45bb2ce59ed56f265a919ff24c1c0a40b85a1a1c7041d9bf0d7763fb3f34adc8",
+    "translation_metadata_sha256": "cbfa9bcb9c7e3ee3e4b1930445612d2c4f129adb1ce2a2bb54194c47e620a168"
+  },
+  "html": "<article data-article-id=\"90100e26-9fe9-40a7-bfed-8a44154b0d27\">\n  <figure>\n    <img src=\"/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-1.jpg\" alt=\"left forearm and hand wearing a shackle\">\n    <img src=\"/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-2.jpg\" alt=\"right forearm and hand wearing a shackle\">\n  </figure>\n\n  <p class=\"drop-cap\">In April 1992, an angry resident of Sanilac County, Michigan, wrote a letter to the Michigan Department of Natural Resources. He was announcing his rejection of the “Corporate State of Michigan and the United States.” He was denying his citizenship and their authority over him. And, he was expressly revoking his signature on any hunting or fishing licenses that they had asked him to sign, which he viewed as contracts that fraudulently bound him to the government. Three years later this man would become known to the world: Terry Nichols, friend and accomplice of Timothy McVeigh, who bombed the Oklahoma City Federal Building.</p>\n\n  <p>These men subscribe to a very unique set of beliefs. Their system of beliefs arose in the 1970’s, out of the anti-establishment movement, developing more fully in the 1980’s into anti-government movements. There are various groups with varying degrees of involvement in anti-governmental actions, from vigilante groups, White Supremacist groups, to groups that profess to be churches (some closely paralleling Anabaptists in certain ways), as well as Islamic and pseudo-Jewish groups. Their doctrines are promoted by tracts, vigilante courts, seminars, and shortwave radio, as well as Internet “Schools of Common Law” and preaching.</p>\n\n  <p>Their tactics vary greatly. Obviously, most of them do not blow up buildings, but in varying degrees they despise and deny the secular government’s right to have authority over them. They believe they are standing for their rights; they are “freedom fighters,” using many tactics against the “great beast” of the US government. Typically they reject driver’s licenses, mandatory auto insurances, vehicle registrations, Social Security numbers, birth certificates, marriage licenses, and even the use of ZIP codes! They are known for using all sorts of methods to hinder the government, such as employing fraudulent liens, lawsuits, bogus financial instruments, fake auto ID’s, misuse of IRS forms, threats to government officials and their families, and various financial scams … even occasionally to armed standoffs with the police. They call themselves by different names: Sovereign Citizens, The Posse, Ambassadors of Heaven, or most often … Freemen. They would say they are true patriots, standing for life, liberty, and the pursuit of happiness. Some would say that only Yahweh is their authority and Him alone will they obey.</p>\n\n  <p>Really, none of these things are altogether new.</p>\n\n  <p>I’d like to jump back 2000 years and ask a few questions to stir our memory. Who were the Zealots? Why did they end up not following the Lord Jesus Christ? Why did they, for the most part, miss the salvation that God had sent for them?</p>\n\n  <p>The Zealots were a fanatical right-wing sect who were alive and well when Jesus was teaching and preaching in Israel. They were a political party of the Jews who (along with many others) despised the Roman dominion over them. They were very nationalistic, militantly opposing the Roman government. Their name means “Jealous” or “Zealous” in the Aramaic language. They were self-professed followers of Levi and Simeon (who avenged their sister’s rape upon Shechem), Phinehas (who speared a Jewish man and Moabitish woman for their fornication, staying the plague in the camp), and Elijah (who slew the 850 prophets of Baal and Ashteroth).</p>\n\n  <p>They believed they were truly devoted to God and His laws alone. Though they held some similar views with the Pharisees, they were distinctly different on a few points. Zealots felt it was treason against God to pay tribute to Rome, since God alone is Israel’s King. They were willing to use any method of guerilla warfare to fight for Jewish independence. Although they were His contemporaries, sadly, the majority of them never accepted Jesus Christ as their Lord and God-sent Messiah!</p>\n\n  <p>Their movement eventually degenerated into a band of cut-throats called Sicarii (<em>dagger-men</em>, in Latin). Their increased fanaticism provoked the Jewish-Roman war of the first century. In 66 A.D., they attempted to take full control of Jerusalem. This led to the horrible siege and destruction of the city of Jerusalem by the Roman general Titus in 70 A.D. This was what Jesus had warned would come to pass (Matthew 24), before he was crucified outside the city walls. The last Zealot stronghold was the highly fortified Masada, which fell to the Romans in 73 A.D. when some 900 Zealots committed mass suicide, rather than surrender to the Roman authorities.</p>\n\n  <p>Why, when the Zealots were so desirous to serve God and to know and do His will, did they miss becoming followers of the only true Saviour, the Lord Jesus Christ?</p>\n\n  <p>The problem was that they had a totally false concept of what freedom is in the Kingdom of God. Like many other similar movements since that time, this false belief became a mighty stronghold in their lives. They failed to understand that true freedom comes when:</p>\n\n  <ul>\n    <li>I am submitted to the Lordship of Jesus Christ;</li>\n    <li>I am submitted to Him in all my ways;</li>\n    <li>I am subject to earthly authorities when I am not asked to disobey Christ;</li>\n    <li>Like Jesus, I accept suffering for being obedient to the Father, patiently.</li>\n  </ul>\n\n  <figure>\n    <img src=\"/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-3.png\" alt=\"mountain fortress at Masada\">\n    <figcaption><strong><em>Masada, pictured above, was a Zealot fort near the Dead Sea. The name Masada comes from a Hebrew word meaning “stronghold.” Are we building strongholds upon false conceptions of God, strongholds that will some day fall like Masada did?</em></strong></figcaption>\n  </figure>\n\n  <p>When you study Jesus’ teachings, it is not hard to see why the Zealots could not follow Jesus while still in their stronghold of false belief. Consider the following areas where Christ’s teaching contradicts the “Freemen” mentality:</p>\n\n  <ol>\n    <li>Jesus birth, in fulfillment of the ancient prophecies, was at Bethlehem, due to his parent’s submission to the Roman census and taxation. (Luke 2:1-6)</li>\n    <li>Jesus said: “Blessed are the meek.” Matthew 5:5</li>\n    <li>Jesus said: “Blessed are the peacemakers.” Matthew 5:9</li>\n    <li>He blessed them who accept persecution patiently. Matthew 5:10-12</li>\n    <li>He taught that it was important not only to accept the authority of the Roman soldier who asks you to carry his pack for a mile, but to volunteer to take it a second mile! Matthew 5:41</li>\n    <li>He gave all His followers the calling to “love your enemies; do good to them that hate you; bless them who despitefully use you and persecute you.” Matthew 5: 43-48</li>\n    <li>Regardless of popular belief, He said that <em>these are qualifications for being called the children of God!</em> Matthew 5:45</li>\n    <li>He taught that the things that are truly valuable are not on this earth. Matthew 6:19-21</li>\n    <li>He gave His followers a formula of how we should respond to every other person when He said, “Do onto others as you would have them do onto you.” Mt. 7:12</li>\n    <li>He told all of His followers that if He is truly their Lord, these things will be a part of their lives. “Not everyone that sayeth unto me Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.” Mt. 7:21</li>\n    <li>Jesus commended a Roman centurion for his great faith and contrasted it with the Jews’ unbelief. Mt. 8:5-13</li>\n    <li>Jesus taught to “flee,” not resist persecution. Mt. 10:22-28</li>\n    <li>The test of true love for Christ is in our willingness to “take up the cross” of submission and forbearance. Mt. 10:37-39</li>\n    <li>Jesus’ declarations to Peter “the freedom fighter”:\n      <ul>\n        <li>When he rebuked Jesus for talking about his crucifixion: “Get behind me, Satan.” Mt. 16:21-28</li>\n        <li>When he instructed Peter to go pay tax for both Peter and himself. Mt. 17:24-27</li>\n        <li>When he reproved Peter for using the sword to resist his arrest. Mt. 26:51-54</li>\n      </ul>\n    </li>\n    <li>Jesus consistently taught that His kingdom is not like the world’s kingdom in operations. Mt. 20:25-28</li>\n    <li>He told the Jews who were trying to trap Him in his words “Give unto Caesar that which is Caesar’s”: Pay your taxes! Mt. 22:17-22</li>\n    <li>When Jesus taught His followers that Jerusalem was going to be destroyed, He warned them to flee, <em>not</em> fight for it. Some notable historians tell us that when Jerusalem fell, there was not one Christian left in it. They apparently obeyed their Lord!</li>\n    <li>Jesus’ open declaration to Pilate, “My kingdom is not of this world: if my kingdom were of this world, then would my servants fight, that I should not be delivered to the Jews: but now is my kingdom not from hence.” Jn. 18:36</li>\n    <li>Jesus did not resist Judas, His betrayer, even though He knew of his plot against Him.</li>\n    <li>The last command Jesus gave was for His followers to go into all the world and preach to every tribe, nation, language, and people group. Not only that, but baptize them and <em>receive them as equals</em> into the kingdom of God. The early Church understood this well: Jews didn’t become Gentiles, Gentiles didn’t become Jews; they both needed to be born again and be converted to become Christians under the New Covenant. Matt. 28:18-20</li>\n  </ol>\n\n  <p>All this was unthinkable to the Zealots, whose “stronghold of false doctrine” blinded them to believe that God only speaks Hebrew, only accepts Hebrew culture, only saves Jews, and only desires Israel as a nation.</p>\n\n  <figure>\n    <img src=\"/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-4.jpg\" alt=\"historical illustration of a crowd before Jesus\">\n  </figure>\n\n  <p>One of the greatest reasons the Zealots didn’t choose Jesus was that they had already chosen another “saviour”: The man Barabbas, who was chosen for sedition (rebellion to government authority) and murder. His name ironically means:</p>\n\n  <p>Bar = “son of” and abba = “the father”.</p>\n\n  <p>When the crowd was crying “Free Barabbas!”, they were saying “We choose the son of the Father!” But God has only one begotten son, the Lord Jesus Christ, and for Him they cried “Crucify him, crucify him!” They followed a deceiver, a false deliverer, a false Messiah. Their end was death, destruction, and bondage to sin, self, and Satan … and for those who never repented, an eternity in Hell.</p>\n\n  <p>So, what should I do if I realize that I have believed a lie and have allowed myself to be influenced by the Zealots of our day?</p>\n\n  <ol>\n    <li>Repent and submit to the rightful Lordship of Jesus in your life! “Rebellion is as the sin of witchcraft,” and no witch is right with God!</li>\n    <li>In this day of easy-believism and cheap grace, you may need to be genuinely born again, surrendering your all to our resurrected Lord. Have you ever seen yourself as hopelessly lost, without a single plea before the crucified Lord Jesus? If your life still belongs to you, you are not one of His!</li>\n    <li>Believe His word! “Submit yourself to every ordinance of man for the Lord’s sake, whether it be to the king, as supreme, or unto governors, as them that are sent by him for the punishment of evildoers, and for the praise of them that do well. For so is the will of God, that with welldoing ye may put to silence the ignorance of foolish men: As free; and not using your liberty as a cloak of maliciousness, but as servants of God. Honor all men. Love the brotherhood. Fear God. Honor the King.” I Pe. 2:13-17</li>\n    <li>Recognize that God is the final authority, who raises up whom He will and puts down whom He will. Remember Pharaoh, Nebuchadnezzar, etc. Many times God uses the ungodly to chasten His people.</li>\n    <li>God has established earthly government and authority. The home, church, employment and the government all establish order in society; the opposite is chaos and anarchy (which is really every man being his own lord). Ro. 13:1-14</li>\n    <li>Be ready to make godly appeals to the government when asked to do what is against the Lord’s will for us.</li>\n    <li>Be ready to suffer like Jesus did, patiently, resigned to die, if needed to fulfill the will of God the Father. 1 Pe. 3: 8-18</li>\n  </ol>\n\n  <p>May God bless you with the true freedom of the sons of God!</p>\n\n  <figure>\n    <img src=\"/images/articles/90100e26-9fe9-40a7-bfed-8a44154b0d27-5.png\" alt=\"oval family group photograph\">\n  </figure>\n\n  <p><em>Rick and Cherry Hess live near Myerstown, Pennsylvania, where he works as a Research &amp; Development Cook at Dutch Valley Foods. They have 11 children ranging in age from two months to 29 years old. Two sons are married, one son has gone to be with the Lord, and a single daughter is serving in Haiti. Seven of the children are still at home. Rick and his family attend Harmony Christian Fellowship, which meets in the Myerstown area of Lebanon/Berks County, Pennsylvania .</em></p>\n\n  <p><em>Rick and Cherry along with their family have been blessed to serve in Haiti (1997-2000) and still enjoy going back to visit and encourage the church there. He currently helps stateside with the committee of H.I.M., Harmony’s mission outreach to the Sichela tribe of Rukwa Valley in western Tanzania. Rick enjoys preaching the gospel, organic gardening and farming, studying history—especially of the church—and their three grandchildren (included in the above picture).</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b1091ae033ea2ec8f01cc6bb22973f1ef549e0ae16e398cae88dc8e6acfa0256"
+}

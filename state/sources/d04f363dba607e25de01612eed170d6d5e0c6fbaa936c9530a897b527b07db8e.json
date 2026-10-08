@@ -1,0 +1,119 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "911d7f21-f64f-463f-a9ab-37563b244ba9",
+    "images": [
+      {
+        "alt": "An audio cassette.",
+        "caption": null,
+        "credit": null,
+        "height": 52,
+        "public_path": "/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-1.jpg",
+        "repository_path": "public/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-1.jpg",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 41 is the source.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": 41,
+        "source_page": 11,
+        "transformations": [
+          "Rendered only object 41 with its exact published 15-degree counterclockwise transform and clipping path at 72 dpi; 67 × 52 pixels.",
+          "Encoded as baseline RGB JPEG with nonzero 72 dpi JFIF density; no CMYK data, synthesized detail, or retouching."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 67
+      },
+      {
+        "alt": "A deer drinking from water, with its reflection below.",
+        "caption": null,
+        "credit": null,
+        "height": 95,
+        "public_path": "/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-2.jpg",
+        "repository_path": "public/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-2.jpg",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 47 is the source. Exported the clean deer base asset from the layered miniature cover. Omitted separately painted publication title, issue/date box, verse, footer banner, border, outer color field, and shadow tiles. The source photograph itself is low resolution and softly toned; no pixel reconstruction was attempted.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_object": 47,
+        "source_page": 11,
+        "transformations": [
+          "Encoded as baseline RGB JPEG with nonzero 72 dpi JFIF density; no CMYK data, synthesized detail, or retouching."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 76
+      },
+      {
+        "alt": "Volunteers arranging tapes into albums along a long table.",
+        "caption": null,
+        "credit": null,
+        "height": 310,
+        "public_path": "/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-3.jpg",
+        "repository_path": "public/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-3.jpg",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 58 is the source.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_object": 58,
+        "source_page": 12,
+        "transformations": [
+          "Encoded as baseline RGB JPEG with nonzero 72 dpi JFIF density; no CMYK data, synthesized detail, or retouching."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 215
+      }
+    ],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Charity Gospel Tape Ministry &\nThe Heartbeat of The Remnant",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 12,
+      "start": 11
+    },
+    "subtitle": "April – June 2001",
+    "title": "Quarterly Financial Report",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "45bc87697030ec34ad970ff9fef152f4f394b29ad53708fe5de14dee750429d8",
+    "metadata_sha256": "91afc62e036438129bbdd2425b12b8f8dac86886109308d6b30968427c6333b3",
+    "structure_sha256": "8513ada581de04f1cc05e4a01b0a369131f00a8a410c813c00c91d5fea27b33b",
+    "text_sha256": "a7e818bccec229f6fe476b27299ba3631bcdfe330eb651756dde478cf6be77fc",
+    "translation_metadata_sha256": "2ccab0e10601c1088d89e879165954e20f04f732ffa4bde4bb97acef22f9a79a"
+  },
+  "html": "<article data-article-id=\"911d7f21-f64f-463f-a9ab-37563b244ba9\">\n  <figure>\n    <img src=\"/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-1.jpg\" alt=\"An audio cassette.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-2.jpg\" alt=\"A deer drinking from water, with its reflection below.\">\n  </figure>\n  <p>Dear Brothers and Sisters in Christ,</p>\n  <p>Below you will find the financial records of the Tape Ministry and The Remnant for the second quarter of this year. As you can see, we are coming out of the red. For this we are very grateful to God and to all of you who pray for the ministry and support it with your gifts. We continue to face many challenges in our offering supported ministry, however, we are full of confidence for the future. It is the Lord’s ministry, and He always pays His way.</p>\n  <h2>The Remnant</h2>\n  <p>Our heart has been filled with courage and rejoicing as we see the overwhelming response from so many to the form we sent you. Thank you! We have received so much positive and constructive input from many of you. If you have not filled out the little questionnaire, we still welcome your response. If you have misplaced it, a simple note in the mail would be fine. We would love to hear from you, and again, it helps us keep our mailing list active. The Remnant subscription list continues to grow considerably at each new printing. Praise the Lord! Let us work together to spread a good clear word from the printed page. Pass it on to someone else, loan it if you want it back, or send us the names of those you are sure would enjoy reading it.</p>\n  <table>\n    <tbody>\n      <tr><th>04/01/01 Beginning Balance</th><td><strong>-$26,515.77</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$63,287.19</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$9,491.50</td></tr>\n      <tr><th>Total Receipts</th><td><strong>$72,778.69</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$3,605.81</td></tr>\n      <tr><td>Tapes &amp; Albums</td><td>$30,555.85</td></tr>\n      <tr><td>Computer/Equipment/Supplies</td><td>$553.24</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>10.49</td></tr>\n      <tr><td>Electricity</td><td>$184.41</td></tr>\n      <tr><td>Telephone</td><td>$935.89</td></tr>\n      <tr><td>Miscellaneous</td><td>-$20.00</td></tr>\n      <tr><td>Payroll Expense</td><td>$5,592.50</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$154.65</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$6,875.55</td></tr>\n      <tr><th>Total Disbursements</th><td><strong>$48,448.39</strong></td></tr>\n      <tr><th>06/30/01 Ending Balance</th><td><strong>-$2,185.47</strong></td></tr>\n      <tr><th>Difference</th><td><strong>$24,330.30</strong></td></tr>\n    </tbody>\n  </table>\n  <h2>Tape Ministry</h2>\n  <p>The tape ministry, well, how can I say it? It continues to be a most fruitful ministry. I cannot count how many times a brother has come to me in my travels and shared his testimony with me. It goes something like this: “I was driving somewhere and decided to listen to one of the tapes that were given to me. As I began to listen, I became convicted about a need in my life. Soon I was crying, and had to pull the car over and weep my heart out to God. My life has never been the same.” By God’s grace, we want to get the Word out in as many ways as possible. Thank you for your help and prayers. As I shared some time ago, we are getting The Godly Home tapes done professionally to save time. This has really lightened the load on the workers in the tape ministry. On the right is a picture of many volunteers who gathered together to put 12,000 Godly Home tapes into tape albums. Let us all be busy in the work of the Lord. Maranatha!</p>\n  <figure>\n    <img src=\"/images/articles/911d7f21-f64f-463f-a9ab-37563b244ba9-3.jpg\" alt=\"Volunteers arranging tapes into albums along a long table.\">\n  </figure>\n  <h2>New Location</h2>\n  <p>For the last few years the Tape Ministry and The Remnant have been operating in very crowded working conditions. When we started the Tape Ministry we never dreamed that it would grow the way it has in the last few years. Praise the Lord for these kind of good problems. These two ministries have been located in the basement of the church. They have overflowed to one of the nursery rooms, the storage shed outside, and filled up every corner of empty space available. There is adequate room for our present needs, and room for expansion, in the building where the Ephrata church will be located, so we are going to move the operations over to that location. <strong>Please note:</strong> All tapes and sets will be available for self service at both of the church locations—only the daily operations will move to Ephrata. The 800 number will remain the same, and we will keep you posted on other number changes as we receive them. Please note also there will be considerable renovation expenses as we prepare the new sight for operations.</p>\n  <h2>www.CharityMinistries.org</h2>\n  <p>We have been encouraged by many for the last two years that we need to have a Web site for the ministry. This has been a matter of much prayer and discussion. We are clear with the Lord to take this step, and seek your prayers about the outreach that this could bring to many. The Web site is <strong>www.charityministries.org</strong>. Under this address we will have five major divisions:</p>\n  <p>❶ <strong>Charity Gospel Tape Ministry</strong> • On this page you will be able to view the tape listing in its entirety. You will be able to place an order for tapes or other material. You will also be able to download a select amount of sermon tapes to listen to later.</p>\n  <p>❷ <strong>The Heartbeat of The Remnant</strong> • This page will have information about The Remnant, as well as a few issues of the Remnant that can be downloaded. You will be able to subscribe to the magazine as well.</p>\n  <p>❸ <strong>Charity Christian Missions</strong> • On this page you will find information about missions. The Missions Newsletter will be available to read and a few back issues can be downloaded. Up to date information from each Missionary in Africa and Haiti will also be at this sight.</p>\n  <p>❹ <strong>Announcement Page</strong> • This page will save our workers much time. They receive many calls about special meetings, different men’s preaching schedule etc. On this page you will find this type of information. This announcement section can be used by other churches also if they want to inform people of special meetings. We will try to keep it up to date monthly.</p>\n  <p>❺ <strong>Church Directory</strong> • In this section, we plan to list the churches that you find listed in the front of the tape catalogue, however, we will have much more information about each church. We will have the location, a map to find them, size of congregation, ministers, age of the church, etc.</p>\n  <p>Please be patient with us as we develop this web site. We are only learning how these things work.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "fb6e71e0562c732bb7a7dca56e8f8d69b597ef4f8230081d69c68d307e6e741e"
+}

@@ -1,0 +1,118 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "T. Austin-Sparks"
+        }
+      ],
+      "raw": "by T. Austin-Sparks"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "13c317f2-91dc-4e35-81a8-b4e2fd45a263",
+    "images": [
+      {
+        "alt": "Collage showing scientific experiments and experimenters",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "af146c44c85d690fbb90f934b9ed357c7d3d47b4",
+        "public_path": "/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-1.jpg",
+        "repository_path": "public/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-1.jpg",
+        "rights_note": "Original embedded PDF image object 112; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The ten numbered constituent illustrations are intrinsic parts of a single source collage and remain together in one canonical export. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "collage",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            351,
+            450
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 112,
+          "source_pixel_dimensions": [
+            351,
+            450
+          ]
+        }
+      },
+      {
+        "alt": "An ox-drawn cart with men walking beside it",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "251df805b6168f30fc0898faa4da1799a8ebebad",
+        "public_path": "/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-2.jpg",
+        "repository_path": "public/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-2.jpg",
+        "rights_note": "Original embedded PDF image object 116; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 31,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            450,
+            260
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 116,
+          "source_pixel_dimensions": [
+            450,
+            260
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "The INTRUSION of Natural Life in the Service of GOD",
+    "topics": [
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "c09be55d-9b4d-56ff-bde4-5d80920e74da",
+      "1adc5bef-6efc-5d8b-821f-01a4bf96ffea"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6baa4ffdd6c5cd7ff6f56cfcd7b1d3f7c4cd75c77824070c1b9fbfd752953c6c",
+    "metadata_sha256": "43a97d45d1a23aa3284432d25315d5e96f29a029ffd68c2d61e63d9ee635af38",
+    "structure_sha256": "b9cf9a55e88898d8608a78291393472b702dbf8b841376bdf5e83d0eca3d9e5d",
+    "text_sha256": "48b25f5e1d7d85f5e3d746658e4019af4ae66a466063b9e7d65f34b969c19c9f",
+    "translation_metadata_sha256": "11a381b7c369629b5ef0d1a49dccffaeda687201b3e5614c4ffe2610e5de7793"
+  },
+  "html": "<article data-article-id=\"13c317f2-91dc-4e35-81a8-b4e2fd45a263\">\n  <p>We have been at pains to show that Christianity has become very largely another Judaism, an outward system and a historic tradition. But it has become more than this. In its principles, methods, and means, it has largely become conformed to this world or age. Were we wanting to deal with the negative or defective aspect of things, it would not be difficult to write whole chapters on the weaknesses of present-time organized Christianity; but we would rather use our time and space on the positive line.</p>\n  <p>Let us, however, appeal to our brethren in responsibility to think again and seriously before the Lord as to the true nature and origin of much that goes to make up the meansof propaganda and publicity of work for God. Let us take account of such things as the prominence given to human honors, glories, titles, reputations, distinctions. That men have gained these or been given them in various spheres of life - politics, philanthropy, industry, adventure, war, sport, entertainment, science, art, or education - may be quite all right in itself, but that those things should be so largely used as the ground of appeal may just imply that Christ is not sufficient as standing on His own merits, but must be surrounded by these natural embellishments. Must Christ be recommended or His servants accepted because of some human association of the word ‘’great’’ in some earthly connection?</p>\n  <figure>\n    <img src=\"/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-1.jpg\" alt=\"Collage showing scientific experiments and experimenters\">\n  </figure>\n  <p>Again, let us be very careful, for the same purpose, of the encroachment of the entertainment feature of sacred service. ‘’Lovers of pleasure’’ is an endtime characteristic, and the age is running headlong thither. Is it necessary to go with the age in order to attract? Is the gospel dependent upon this ‘’make up’’ for its effectiveness and appeal?</p>\n  <p>Once more: let us watch that we are not carried away by the illusion of bigness. Many a once powerful instrument of God, personal or collective, has lost its spiritual value and impact when it has become big or popular. There is a Satanic snare in bigness, and we may by this illusion lose our very faculty for seeing just where God is doing His deepest work, and how. Often God’ s truest work is hidden. It is becoming difficult, if not impossible, for many servants of God to believe or understand that anything of real account can be done unless it is well known and in the public eye.</p>\n  <p>When David put the Ark upon a new cart and things went just so far and then came to an ignominious and tragic impasse, it was not due to a lack of sincerity, devotion, zeal, energy, or wholeheartedness, but because he had all unwittingly drawn up from his subconsciousness an idea and method which had originated with the Philistine diviners. Those diviners had once put the Ark upon a new cart to send it back into Israel. David had fled in an hour of weakness to dwell in the land of the Philistines and had been infected with the methods and means of that world. When God made the breach upon Uzzah that he dies before the Lord, it would have been too hard and severe, in the light of the zeal for the Lord, if there had not been some extra factor. That factor was the hand of another spiritual system back of ‘’this present evil world’’ of which the diviners were the representatives and servants and whom God had already plagued and cursed. There was no reason why Uzzah should be spared and the Philistines destroyed if the same factor obtained in both cases.</p>\n  <p>No amount of zeal can save us in the end if the principles are false. But note how subtle it all was. There was not the remotest idea that things were basically wrong. The idea of bringing up the Ark (the Testimony) to its right and full place was right and according to God’s mind. The earnestness and utterness left nothing to be desired. The motive and its passion were wholly commendable. But somewhere, somehow, Antichrist (in principle) was hidden in the constitution of things, the energy of the flesh, the soul-life actuated or taken charge of by that which was not the Spirit of God.</p>\n  <figure>\n    <img src=\"/images/articles/13c317f2-91dc-4e35-81a8-b4e2fd45a263-2.jpg\" alt=\"An ox-drawn cart with men walking beside it\">\n  </figure>\n  <p>If the soul, which is the natural side of man’s being, is predominant on any or all of its sides, intellectual, emotional, or volitional, then the door is wide open to deception; and deception, being what it is, does not mean that there is no zeal for God, but rather that it is zeal but not according to knowledge. It is only as the child of God lives in and is governed by the Holy Spirit through his renewed spirit, not firstly his soul, that he will be made aware of ‘’the things that differ”, even in his service for God.</p>\n  <p>David was eventually shown what the Holy Spirit had indicated in the Scriptures as to God’s principles of service, and he found by tragic experience that spiritual principles are more important than zeal and energy, although these latter were no less when the true basis was established. Satan is very subtle and will espouse our zeal for God if by so doing he can eventually bring shame and dishonor into God’s testimony.</p>\n  <p>God sees through it and would warn us of it. The trouble so largely is that, as in David’s case, the drive and abandon associated with a great idea for God just ride rough-shod over quiet waiting upon God and inquiry of Him as to His mind concerning the means and methods to be employed. The point at which disaster will befall very much that is engaged in for God in all sincerity is that which leaves no time for quiet detachment, for unhurried waiting upon God. There may be prayer, but it is prayer with a drive of work behind it, instead of the other way round. The question is, Did you get that method, that means, that program in the secret place with God, direct from Him? Have you put everything back until all heat and hurry have been subjected to the judgment of the Holy Spirit? Or are you just getting on with it because it is for the Lord?</p>\n  <p>Why must judgment begin at the house of God? It cannot be because of a greater or lesser degree of Christian goodness or zeal. There must be something more in it than that!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e83f4502a295966acbe771386addfb1b56a6c3d09b55ae8e31835ccf2cc7235c"
+}

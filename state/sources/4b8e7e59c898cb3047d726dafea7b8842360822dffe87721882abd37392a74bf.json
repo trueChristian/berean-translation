@@ -1,0 +1,97 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Kyndra Steinmann",
+          "role": null
+        }
+      ],
+      "raw": "Kyndra Steinmann"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "4cca26f0-52bc-4a15-a6d0-755ed7eb3385",
+    "images": [
+      {
+        "alt": "Musical notes printed above the article title.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-1.png",
+        "repository_path": "public/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-1.png",
+        "rights_note": "Source vector crop; no article text or page furniture. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Article music-note illustration",
+        "sequence": 1,
+        "source_page": 24
+      },
+      {
+        "alt": "A young child sings while holding an open book.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-2.jpg",
+        "repository_path": "public/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-2.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Child singing photograph",
+        "sequence": 2,
+        "source_page": 25
+      },
+      {
+        "alt": "A young boy sings from an open book.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-3.jpg",
+        "repository_path": "public/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-3.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Child singing photograph",
+        "sequence": 3,
+        "source_page": 25
+      },
+      {
+        "alt": "A young child singing.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-4.jpg",
+        "repository_path": "public/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-4.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Child singing photograph",
+        "sequence": 4,
+        "source_page": 26
+      }
+    ],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "Mothers, Sing with Your Children!",
+    "topics": [
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "4f9300ad-a83d-56c6-8aeb-2907c08f2c04",
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "54d79d142a9ff35e92b716cfdaec8b98f9b6b6f18b279b6c738c38c66f0ddbb4",
+    "metadata_sha256": "2f6f25b8517ee2af1cacd753497e637ead89c72de3bf87819b06e4a198c6f96e",
+    "structure_sha256": "b79a740c1aff848ee558483b95aee1a278f61776b4bc59bd6150f258f443ef4c",
+    "text_sha256": "6845ec8ea25c51adddea5275524ae3fc2e8eaecee455c2b30bf681dc5fa12a54",
+    "translation_metadata_sha256": "e6f5d2b01efc29bc119ed71235e10f9ace9d267e902587f50d3d3933794e29f4"
+  },
+  "html": "<article data-article-id=\"4cca26f0-52bc-4a15-a6d0-755ed7eb3385\">\n  <figure><img src=\"/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-1.png\" alt=\"Musical notes printed above the article title.\"></figure>\n  <p>It’s the end of the day, and you have five things to do before supper is on the table. The preschoolers are tired and grumpy, and your husband is late getting home again. What do you do?</p>\n  <p>Sing!</p>\n  <p>It is morning and raining … again. In fact, it has been raining all week, and you know the children have been cooped up too long and will fight with each other all day. As you go into their room to wake them up … sing!</p>\n  <p>Sitting in the car, waiting for someone to come out of the store, the children are hungry, you’ve been running errands all morning, and it’s time to go home and take naps … how do you spend the time?</p>\n  <p>Sing!</p>\n  <p>Whatever the circumstance, singing can dramatically change the attitude with which you (and your children) deal with daily life.</p>\n  <p>I have been told by people who were not raised in Christian homes that they always enjoyed it when their mothers sang. The songs were not necessarily “Christian” or even “religious” in nature, but these children knew that all was right with their world because “Mommy was happy enough to sing.”</p>\n  <p>Sisters, we have a wonderful opportunity to teach our children to have a cheerful attitude and to praise the Lord in every situation. We can show them by our example of song that everything is all right in their world. Our singing lets them know that Mommy is indeed happy, even when things are going terribly wrong; because she knows that God is in control. Whether we stop what we are doing to sing with them, or continue with our work while they sit on a chair to calm down and sing with us, they are learning that they can praise God and adjust their attitudes.</p>\n  <p>This is not always easy. I have had many experiences of singing through tears, when having “one of those days.” Sometimes I can barely sing above a whisper when I start, but God gives grace through my feeble effort, and slowly calm and peace descend first on my heart, and then in my home.</p>\n  <p>Almost any song in praise of God will help the situation, but I have found that hymns do the most to change my attitude. Songs such as <em>Praise to the Lord the Almighty</em> give praise to God for who He is, and refocus my attention from the last-minute rush of supper preparations to the One whom I am serving by making supper for my family. Songs that are actual Scripture verses set to music also help to refocus my mind and heart.</p>\n  <p>The following are some hymns that we like to sing together (hymn numbers are from <em>The Christian Hymnary</em>):</p>\n  <p><em>Come, Thou Almighty King (5)<br>Come, Heaven-Bound Pilgrims (16)<br>Great God, Indulge My Humble Claim (23)<br>Blessing and Honor and Glory and Power (26)<br>Holy, Holy, Holy (29)</em></p>\n  <h2>Teaching hymns and songs to preschoolers</h2>\n  <p>Someone said to me the other day, “You must spend a lot of time singing with your children; they know so many songs.”</p>\n  <p>I started to think about that and realized that, actually, I do very little formal teaching of singing. We do have a singing time in the evening while I am finishing making supper. The children (ages three and two) sit on chairs, and we sing songs that they pick. I find this calming to all of us, but I rarely use this time to teach new songs.</p>\n  <p>So how do they learn new songs?</p>\n  <figure><img src=\"/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-2.jpg\" alt=\"A young child sings while holding an open book.\"></figure>\n  <p>They hear them throughout the day, and they hear them sung by a person rather than on a recording. We do listen to recordings sometimes, but they rarely will sing those songs or request them. It seems that they think of recorded music as something to listen to, not something to participate in or imitate on their own.</p>\n  <p>Songs that they have heard their parents sing are obviously songs that—in their minds—they too can sing. How sweet to hear their (sometimes garbled) renditions of hymns while they play or ride in the car!</p>\n  <p>I tend to sing whenever I am doing something that doesn’t require my full attention—like ironing or washing dishes. The hymnal can easily be propped up where I am working. They play around, and sometimes I will tell them, “This is a new one, listen so you can learn it.”</p>\n  <p>If I really want them to learn a new song or hymn, I will sing it to them every time I sit down to rock them, for a week or so. That way they hear it once or twice a day at a time when they have nothing else to distract them. Preschoolers memorize very easily, so it does not take much for them to learn most of the words to a song.</p>\n  <p>Another place to practice new songs is during family worship. We have done this several ways; sometimes singing the same hymn every time we have family worship until we have all learned it, sometimes just doing that for a week until we are more familiar with it.</p>\n  <p>Preschoolers will probably not memorize hymns (or any other memory work) exactly word for word. Some words are too hard to say at this age, or have no meaning to them and are hard to remember. Try to explain new words, but don’t worry too much about comprehension. They will understand what they are saying/singing better as they grow. At this age, all you are trying to do is to give them a mental “library” of songs that they are familiar with and can help sing.</p>\n  <p>Keep your singing times relaxed and fun; this isn’t a good time to train about sitting still, etc. You want them to pay attention, but don’t worry too much if their attention wanders and they are finished singing after a song or two. Sing every day for just a little bit longer, and eventually they will be able to sing for a half hour or more.</p>\n  <p>Try to encourage them to sing out, but sing sweetly—not just loudly. This is mostly a matter of example, but at some point they will figure out that they can sing in funny voices or while making faces at each other. Explain that when we sing songs of praise, we are singing to God, and that being silly is not respectful. Then remind them as necessary, since they will not be old enough to always recognize what types of behavior are disrespectful.</p>\n  <h2>Singing in church</h2>\n  <p>We want our children to think that church is for them too, not just something that they must endure while we participate in it. In our congregation, the Sunday service begins with singing and a short devotional. We encourage the children to sing all the songs that they know.</p>\n  <figure><img src=\"/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-3.jpg\" alt=\"A young boy sings from an open book.\"></figure>\n  <p>Our three-year-old sits next to me on the end of the bench, where he can see the song leader. When a song number is given, I quickly look it up, and then whisper the first few lines to him. If he knows the song, that’s usually enough to remind him, and I’ll whisper to him to sing. If it’s not a song he knows, I’ll tell him to sing what he can, sometimes whispering the chorus or telling him to “sing the alleluias.”</p>\n  <p>I try to also encourage him by whispering that I liked the way he sang, or by smiling at him while singing. During the week we will work on songs that we sing in church. At one point, we started at the beginning of the hymnal and sang in family worship the hymns that we sing frequently in church. This gave the children a good familiarity with them, and also gave us the opportunity to focus a little bit on dynamics of singing, since several songs we sing frequently have lines that are sung louder or softer than others. Preschoolers are not too young to learn to listen to the other singers and sing loudly or softly, and will enjoy practicing these kinds of things.</p>\n  <p>I also try to notice the children’s singing in church and comment on it at home. “You sang really nicely on the alleluias today.” Or, “I like the way you sing nice and loudly during the children’s message.” These kinds of remarks really encourage them and help them to keep trying to participate in the service.</p>\n  <figure><img src=\"/images/articles/4cca26f0-52bc-4a15-a6d0-755ed7eb3385-4.jpg\" alt=\"A young child singing.\"></figure>\n  <p>All of these ways to incorporate singing into daily life may seem time-consuming, but will soon seem natural if you work on singing with your children every day.</p>\n  <p>As a final encouragement to you to sing with your children, I will share the following. I have been writing this while in the hospital with our youngest child, two-month-old William. I sing to him throughout the day when he needs to be soothed or put to sleep. Although I don’t sing very loudly, I have noticed that the rooms we occupy (we’ve moved into and out of the PICU during our stay) are calmer than the rooms around them. The nurses come in and out, and sometimes appear to have made an excuse to come in for a minute in order to have a moment or two outside of the often tense hospital atmosphere with its many demands. God gives grace when we honor Him, and I believe that He has blessed our rooms with peace in a way that others can see. May He also bless your homes as you sing with your children!</p>\n  <p><em>Sam and Kyndra Steinmann attend Dayspring Christian Fellowship in Amherst, Virginia, with their three children, Frederick (3), Susannah (2), and William (3 months). Before her marriage to Sam, Kyndra served as a schoolteacher, which skills she used after her marriage (before having children of her own) in assisting others in their congregation with homeschooling. Since the writing of this article, William is home from the hospital, doing well. ~</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "25b9589ec1e87ca5bcb18ea5a1ad8be18cff9ad912eb7e2763ed65eeb87ccb53"
+}

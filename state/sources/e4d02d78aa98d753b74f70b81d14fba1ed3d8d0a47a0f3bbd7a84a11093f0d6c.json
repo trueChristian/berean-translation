@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "25d5cf37-4756-4905-8eca-cdb817ade997",
+    "images": [
+      {
+        "alt": "A larger hand resting over a smaller hand",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/25d5cf37-4756-4905-8eca-cdb817ade997-1.jpg",
+        "repository_path": "public/images/articles/25d5cf37-4756-4905-8eca-cdb817ade997-1.jpg",
+        "rights_note": "No image-specific licence, source, or separate-permission notice is printed. The issue-level Art notice states “Some images ©2001-2011” and lists www.clipart.com and www.sxc.hu without identifying this asset’s individual source. The embedded image was re-encoded at its published 518×309 dimensions as a standards-normalized three-component baseline sRGB JPEG with nonzero 150 dpi JFIF density, preserving the crop, orientation, and content.",
+        "role": "lead kindness illustration",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "52c67fc6-2d91-51a3-ae55-c8134ad2ed53",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "provenance_note": "The printed line “—Taken from The Sword and Trumpet” is a source attribution only and does not state or imply that separate permission is required.",
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": "Be ye kind one to another.",
+    "title": "Kindness",
+    "topics": [
+      "8027dd12-af78-5fb4-b5e2-dfad753ce6a4",
+      "100c7b02-c021-5bc8-8a0e-030874be2022",
+      "136da942-e1ec-59fc-8429-ca385b59a458"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6202243ca4518dc26180c65c12ce76dbb1c83294e00d78a3c3c1949d4dff2975",
+    "metadata_sha256": "64a1e2e289cb6cfa9207e81954089bd33ce1716e19c2d21c8a626ffa5ef1ef89",
+    "structure_sha256": "0fee75995edaf91f55a06d8430fc2074199b2ec934035cbffda7f4899f87c715",
+    "text_sha256": "bb9113dfbc812fa0d1ed47d29dc8c0fc6a19c8db2e1535eaee34987026458010",
+    "translation_metadata_sha256": "221a2d64c85cdf6354d7a007d202d909ff4aecd1fafeec5fd28e816a6702c77e"
+  },
+  "html": "<article data-article-id=\"25d5cf37-4756-4905-8eca-cdb817ade997\">\n  <figure>\n    <img src=\"/images/articles/25d5cf37-4756-4905-8eca-cdb817ade997-1.jpg\" alt=\"A larger hand resting over a smaller hand\">\n  </figure>\n  <p>Gentleness is enumerated, by the apostle, among the “fruit of the Spirit,” and yet there are some apparently religious men to be met with, in whose make-up gentleness does not hold a conspicuous place. How it enhances our esteem for the Christian who possesses a large share of it. How it enlarges his sphere of usefulness, and adds grace to his profession of religion.</p>\n  <p>The rough, honest-hearted man may do good in the world, through the self-denial he manifests, and the true and holy faith which is in him. But of greater efficacy would be his life-labor in the service of his divine Master, if in his daily walk he would give manifest expression to the gentle virtues of love, meekness, and tender courtesy.</p>\n  <p>Do good graciously. Let young and old bear in mind that a good act done in a rough spirit may hurt more than it heals. A rough manner obliterates the obligation conferred, and sometimes leaves unpleasant remembrances concerning those who have labored for our good.</p>\n  <p>Almost every heart has within it a store of kindly affections, and if there was only a more general effort made to manifest the warmth of our love, and the gentleness of true Christian courtesy, a change for the better would appear in most families and communities.</p>\n  <p>One writer says:</p>\n  <blockquote>\n    <p>I am one of those whose lot in life has been to go out into an unfriendly world at an early age; and of nearly twenty families in which I have made my home in the course of about nine years, there were only three or four that could be properly designated as happy families. The source of trouble was not so much the lack of love, as the lack of care to manifest it.</p>\n  </blockquote>\n  <p>What a world of misery is suggested by that last remark! What power resides in the small courtesies of life! In a look, a word, a tone, how much happiness or sorrow may be communicated.</p>\n  <p>Mercies in rich abundance are showered down upon us by the Giver of all good gifts. If we are grateful, let us manifest it by the love and kindness exercised toward those about us, showing appreciation for favors from others and covering with a cloak of charity the austerity and coldness of those who have not yet learned the secret of dispensing the milk of human kindness.</p>\n  <p>Kindness and love are powerful levers to operate within our associations with mankind. If we habitually use them, we shall be more and more convinced that the exercise of them is as beneficial to others as it is necessary to our growth and spiritual warfare.</p>\n  <p>None of this, however, is to be interpreted so as to justify that laxity of discipline so prevalent in the homes and churches in these times when parents—like old Eli—are destroying their children by a destructive tenderness, and ministers and bishops buy favor and popularity—like the unjust steward—by telling disloyalists to sit down quickly and write four score, when the scales of Gospel truth demand a hundred.</p>\n  <p>Better bear the ill-will of children for a time than by lack of discipline to help them on to transgression and ruin. Alas for that minister who gains to himself friends by laxity, and gathers numbers by tenderness with disloyalties. ~</p>\n  <aside class=\"publication-note\">\n    <p>—Taken from <em>The Sword and Trumpet</em></p>\n  </aside>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "7d1c48ec1df50d04469e2880072006147e26f1181314449517c21270d318fbf2"
+}

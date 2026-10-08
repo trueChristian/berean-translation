@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, Pennsylvania",
+          "name": "Esther Good"
+        }
+      ],
+      "raw": "Esther Good\nMyerstown, Pennsylvania"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "c1a59f10-6bd7-43e4-b686-9be8b6cb3145",
+    "images": [
+      {
+        "alt": "A bride and groom leaning their heads together outside a building.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/c1a59f10-6bd7-43e4-b686-9be8b6cb3145-1.jpg",
+        "repository_path": "public/images/articles/c1a59f10-6bd7-43e4-b686-9be8b6cb3145-1.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 105 exists on PDF page 24, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [324, 12, 1588, 701] (left, top, right, bottom) without resizing, rotation or pixel repair. A meaningful unobstructed crop preserves the couple’s faces and upper bodies while excluding Sister to Sister, the article title, byline, and most lower fade. Most of the bouquet and lower bodies are beneath the baked title/fade and are outside this crop. Mild lower fading remains unchanged. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            324,
+            12,
+            1588,
+            701
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1264,
+            689
+          ],
+          "rotation_degrees": 0,
+          "source_object": 105
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "A Shoulder to Lean On",
+    "topics": [
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "ec263955-265e-5ecf-b7bb-70c1bdbb6c1f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4efc81c45c744a3cd5ee24bac88c2c6ca799c6633a51545664985442a7051c78",
+    "metadata_sha256": "3f87d22dce7d7be24cfe9d48498230a30bbab4bb5a1b07985265892f93a4153d",
+    "structure_sha256": "db457c8982e44390e1adb8b19399da023f60639b8dd5f1bfe2b8aa4366b36b41",
+    "text_sha256": "4fe75a60c50e3dda3dcfb1944a9bff63d053da25a9f5bd114987a58aeb0c63e8",
+    "translation_metadata_sha256": "d8a2b6b9229934cada78ae751cfbbea4eb22b4317cdb65fa701817704b396161"
+  },
+  "html": "<article data-article-id=\"c1a59f10-6bd7-43e4-b686-9be8b6cb3145\">\n  <figure><img src=\"/images/articles/c1a59f10-6bd7-43e4-b686-9be8b6cb3145-1.jpg\" alt=\"A bride and groom leaning their heads together outside a building.\"></figure>\n  <p>What does it take to have a “shoulder to lean on? We’re going to think of our shoulders as a foundation for a house. It needs to be solid with LOTS of strength to carry the weight of the frame and the roof. Whatever pleases the owner/builder to add to call it “his house” - uniquely mine - like NO other. A house he is well pleased with, to proudly show off to others. Did you ever have a family member or friend build a new house? When you go to visit, what is one of the first things you do? They WANT to show you through the house, right? Likewise, our shoulders need to be strong, with LOTS of strength to carry the weight of the house God places on our shoulders, and He will look down and say, “Uniquely mine, well-built with precious wood and stones of brokenness, humility, love. God is VERY pleased when a tender, needy, broken soul comes along. He says, “Come to this house, here is a pair of shoulders I know you can safely lean on, and be shown a clear example of peace, joy, and happiness.”</p>\n  <p>As I pondered the strength a shoulder needs to be for others to lean on, my mind “flipped” through the many “files” of shoulders I leaned heavily on as I went through being a child, a bride, a wife, and now a mother. It helped me take on the responsibility and study this topic. Also, studying Proverbs 31 and many other Bible verses, which teach us that God will be there to help us have a shoulder for others to lean on.</p>\n  <p>As a bride and wife. . . “I will that the younger women marry”(1 Timothy 5:14).” God calls us to marriage, loving our husbands, and giving them a shoulder to lean on. As we look back to becoming a bride and a wife to “the best man in the world”, what foundation did I lay, and now, what foundation am I helping our daughters lay, or grand-daughters and other younger women?</p>\n  <p>The first foundation that I began to lay was at a very young age, for a boy who was the “dream” of my life. I seemingly had all my young heart could wish for, yet an emptiness stirred from deep within. We loved our times together, and our love blossomed. God was faithful in bringing people and circumstances into our lives that drew our attention more to our Creator, taking our focus off of ourselves. The pull we felt between our flesh and what we were learning was tremendous. Through this, to my delight, I was asked to be his wife! As we were happily planning for our life together and also being directed on Biblical ways, God chose to snuff his life out through a vehicle accident, a day after he had given me his engagement gift, and we had gotten our engagement pictures back. It has left me with questions, yet it was through that experience that I found God and also a “determination” to be ready at any phase of life, as well as a burden to help others live for God during their youth and their courtship. I’m overwhelmed with gratitude and thanksgiving for the people who helped me through the burying of one “foundation” and taught me to lay a solid foundation, showing me what a shoulder to lean on is all about.</p>\n  <p>In courtship, we develop a mutual love for each other, coupled with the love of God in our hearts, giving life a deep, abiding sense of warmth, inner peace, satisfaction, and purpose. A beautiful bride is beautiful in Christian character - beautiful facial features and figure are not the focus. A bride filled with Christian character has a simple, inexpensive wardrobe, for simplicity complements the life within her heart. Beauty shines forth, NOT in fabric but in eternal fabrics of strength and honor, not in the pattern of the dress, but in the behavior patterns of loving obedience. “Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; 4 But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price” (1 Peter 3:3-4). Our wedding day, no doubt, was one of the happiest and most outstanding days of our whole lives. It was the accumulation and realization of long-cherished dreams, hopes, and plans. As young girls, we look forward to this day with happy expectations, and as married women, we recall the time with pleasant memories. It is THE day yet, ONLY a day!!</p>\n  <p>Did we prayerfully plan for our wedding and focus much more on our marriage? As brides, we did not have a working knowledge of the responsibilities that will very soon be ours, something we CANNOT walk away from. It The hum-drum of cooking, baking, gardening, canning, washing, mending, ironing, scrubbing, cleaning, sewing, mending, stretching dollars and/or pinching penny’s, plus bearing children is and endless list of plain, simple, boring, demanding, exhausting, and dirty work, BUT it is great, and I love it because of choosing to stay focused, doing the hard work of dying to self and not going on feelings. Maturity is essential for the demanding relationship of marriage.</p>\n  <p>One never builds without choosing the best builder and having a well-thought-out blueprint. Let’s do the same as we build - use the best builder, God, and follow His blueprint. Building costs too much, is way too taxing, demanding, exhausting, and difficult to be without it. Let us always keep our “blueprint” written upon our hearts. It gives great strength to our shoulders to carry things the way God would have us to build on them throughout our lives.</p>\n  <p>What a privilege to be a wife, we are the queen of our husband’s life - a shoulder to lean on - he can safely trust in and love her.</p>\n  <p>May we daily keep the “Fear of the Lord” in our hearts, the basis of our beauty, and this will keep our marriage happy and enduring. All of us who are married here know how high our ideals were as a new bride. It doesn’t take long after becoming a wife for those ideals we wished to attain as a wife to come shattering down around us. It can almost feel like it sounds when our children are singing “The Foolish Man”, and have the house built on sand come crashing down. We know in our minds we won’t live perfectly, BUT neither did we expect our “house” to crash so-o soon! However, sinking into despair and discouragement isn’t the answer either. But rather, we should immerse ourselves in the persistent efforts of getting up and trying each time we fail. This will make our best even better, growing stronger and lovelier as we face each new stage of building - it’s all about sacrifice and toil.</p>\n  <p>Our husband has perfect confidence in our management because we are trustworthy, dependable, virtuous, and he knows we won’t keep any permanent secret from him. He can trust to share with us his joys and sorrows; he is assured of our whole devotion to him. “She will do him good . . . ALL the days of her life. . .She looks well to the ways of her household, and eateth not the bread of idleness” (Proverbs13-16, 24, 27). Our goodness takes action - being industrious, our heart, head, and hands are devoted to home, our place of duty. We richly provide for each need; our willing, cheerful service is motivated by love. Strenuous duties are ours, keeping our minds cleared of jealousy, bitterness, and any sin that will drain or sap physical strength. Our bodies are temples of the Holy Ghost, and let us do our best to make them a fit place for Him to dwell.</p>\n  <p>What about joyfulness? We set the atmosphere. Happiness depends on what happens, but joy comes from the Holy Spirit. A wife who has this indwelling in her will create a joyous home atmosphere.</p>\n  <p>Being submissive is an important part of building as well. “For the husband is the head of the wife, even as Christ is the head of the church: and he is the saviour of the body. 24 Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. 33 Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband” (Ephesians 5:23-23, 33). Likewise, ye wives, be in subjection to your own husbands” (1 Peter 3:1). The world’s attitude of rebellion to this Biblical principle has brought much unhappiness into a vast number of homes and families. Submissiveness is a working together - he as a king, director, lord, ruler, and she as a queen, help-meet, helper.</p>\n  <p>To have a shoulder for our husbands to lean on - means for me to be trustworthy, thrifty, industrious, properly prepared, efficient, energetic, unselfish, sympathetic, mentally alert, honorable, lovable, joyful, submissive all supplies needed to build and ALL supplies found in God’s warehouse. With God, we CAN do this great job - having a shoulder for our husbands to lean on. As we strive daily to fulfill our role, we find peace, serenity, and avoid many a spiritual battle.</p>\n  <p><em>To be continued in the next issue - A Shoulder to Lean on in Motherhood.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "007ec7889e4a89c2aba2e946258bcb52014cc5fb10b970a5d89aca14fa03a839"
+}

@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Origen",
+          "role": null
+        }
+      ],
+      "raw": "~Origen"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "ca098c32-fa2a-4cde-b2de-4c1f8332a529",
+    "images": [],
+    "issue_id": "f40a2f4d-ea49-5427-b4ba-01b7c15c11ad",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Voices from the Early Church",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "Come, Come, O My Young People!",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3ebaa1f896bd8a802e79a009324e3b17fc3374b3320e9a712613d96d342f8541",
+    "metadata_sha256": "4e853323a05a9e71e640c1671e21a6575999c5000ae6f48444cdd6426f15117d",
+    "structure_sha256": "6269ca0bd2547470bb221a215af0f9aec4c476fbad392fd9c53209dcc9f92653",
+    "text_sha256": "45c00ee7cb271f2348e80dafe8a879cc23ffc13c96ed2dde1cf02c8c45be226e",
+    "translation_metadata_sha256": "c59d15e8403cf7ae4bb5a4acd0800c99c8c047d2cb20acde14a02fe3700cb9c7"
+  },
+  "html": "<article data-article-id=\"ca098c32-fa2a-4cde-b2de-4c1f8332a529\">\n  <p>For if you become not again as little children, and be born again, as saith the Scripture, you shall not receive the truly existent Father, nor shall you ever enter into the kingdom of heaven.</p>\n\n  <p>For in what way is a stranger permitted to enter? Well, as I take it, then, when he is enrolled and made a citizen, and receives one to relate to him as a father. When this happens:</p>\n\n  <ul>\n    <li>he will be occupied with the Father’s concerns</li>\n    <li>he will be counted worthy to be made His heir</li>\n    <li>he shall share the kingdom of the Father with His own dear Son</li>\n  </ul>\n\n  <p>For this is the firstborn church, composed of many good children; these are “the firstborn enrolled in heaven, who hold high festival with so many myriads of angels.” We, too, are firstborn sons, who are reared by God, who are the genuine friends of the Firstborn.</p>\n\n  <p>We are the first of all other men who have attained to the knowledge of God; the first who have been wrenched away from our sins and the first who have been severed from the devil. ~Origen</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "5eee393f3e7be24fadb99b32b158d36a0fd0d646f128f314d18b4bb9fd3abe58"
+}

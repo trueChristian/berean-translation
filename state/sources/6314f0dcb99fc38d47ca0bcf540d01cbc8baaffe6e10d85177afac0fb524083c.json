@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Marguerite Wilkinson",
+          "role": null
+        }
+      ],
+      "raw": "—Marguerite Wilkinson"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "894895bc-1b0b-4f33-a9b9-b7242c114387",
+    "images": [],
+    "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "GUILTY",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e5b60cec3ad8b750049e50e5bb21adb20c858ff9c4ee65ee734cf6620ab74bc5",
+    "metadata_sha256": "497af77c0c2aeb98a3487eab825bdf47e0aefb6fb759aedc6a9a0078eb57ee59",
+    "structure_sha256": "f163a946ae6d5ef2e4c7486426f20f08160979426fac1159b2730e3e26a3761c",
+    "text_sha256": "802333516613bde2f602aabcf2c5c0440e5cd03bc9d07668c86126008173c117",
+    "translation_metadata_sha256": "be6afa4b7f4c4b04849763ddb29bc5814bd53383e63a5c7e593717382a6a1c54"
+  },
+  "html": "<article data-article-id=\"894895bc-1b0b-4f33-a9b9-b7242c114387\">\n  <p class=\"poem\">I never cut my neighbor’s throat,<br>\n  My neighbor’s gold I never stole;<br>\n  I never spoiled his house and land;<br>\n  But God have mercy on my soul!</p>\n\n  <p class=\"poem\">For I am haunted night and day<br>\n  By all the deeds I have not done;<br>\n  Oh, unattempted loveliness!<br>\n  Oh, costly valor never won!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "fec1c6a44b545f2f64e16e56912a449a7f65a7ec82ef215d3207f907f66540c0"
+}

@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "094d0bb6-2b7d-4a86-9de4-116f1b95fcbe",
+    "images": [
+      {
+        "alt": "An illustrated salt shaker",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/094d0bb6-2b7d-4a86-9de4-116f1b95fcbe-1.png",
+        "repository_path": "public/images/articles/094d0bb6-2b7d-4a86-9de4-116f1b95fcbe-1.png",
+        "rights_note": "PDF image object 104. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 25
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "The Salt of the Earth",
+    "topics": [
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5e2ce93a367a3ce7c1b6b5ea8e36eb95d26730819b7ade3bd294bd09eabfb3c0",
+    "metadata_sha256": "34c73c8eff0868299aa42459cde74e5abc74d1447b674f3dc4a225655a83d06b",
+    "structure_sha256": "038877c696299c77a77d1607f310335a1ed4e1df37b1394d19bef2f4ecf22c33",
+    "text_sha256": "ea0e502884cf3b8af2ad8dd8f2649e493b567bade74472429b21547b64de9d9f",
+    "translation_metadata_sha256": "1eb9f0d4650e14129276e586c330f7149f7aa86d7b11c5c8c7d17adb683692db"
+  },
+  "html": "<article data-article-id=\"094d0bb6-2b7d-4a86-9de4-116f1b95fcbe\">\n<figure>\n  <img src=\"/images/articles/094d0bb6-2b7d-4a86-9de4-116f1b95fcbe-1.png\" alt=\"An illustrated salt shaker\">\n</figure>\n<p>Who can estimate the force of a righteous life? Men have little faith in such a force, we know, but it is a force, nevertheless. Men say that meekness is weakness, strict conscientiousness is childishness, and that the uprightness of faith exists only in theory; but do they speak the truth? They believe in energy, self-will, most of all in hard cash; but how little do they suspect the power which exists in the faith of a feeble child!</p>\n<p>Rock salt is tangible; men can see it, can feel it; they place faith in it because they can trace its beneficial effects; and so they do not doubt that rock salt is a <em>power</em> in preserving any matter to which it may be applied. But when Jesus Christ spoke of “the salt of the earth”, they either misapplied His words or they wondered; only a few disciples discovered His meaning, and those few in every age have been misunderstood by the rest of mankind. And “the salt of the earth” is a mystery still to the mass of mankind. They never look for it; they do not suspect its agency or its presence. And while God takes care of this salt, and pounds it and refines it and sometimes put it through severe processes that it may not lose its savour, men are unconscious that it preserves the world.</p>\n<p>Can we wonder that when tribulation, time and time again, never fails to bring us to brokenness, consistency and harmony with His designs, that God frequently has chosen to apply it?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "f8df5f18c0f8b082f7f032f5c4ea30d7f86c7f1ef53d8294a3c0bf8bc4b9f89d"
+}

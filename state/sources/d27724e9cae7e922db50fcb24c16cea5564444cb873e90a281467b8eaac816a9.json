@@ -1,0 +1,130 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Holmesville, Ohio",
+          "name": "Sue Coblentz"
+        }
+      ],
+      "raw": "Sue Coblentz\nHolmesville, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-1.jpg",
+        "repository_path": "public/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-1.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 72 exists on PDF page 16, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [118, 96, 795, 347] (left, top, right, bottom) without resizing, rotation or pixel repair. The open-book illustration is cropped free of the Children’s Corner words; its green background and lower white boundary are irreversibly scanned with the illustration. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "decorative section illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            118,
+            96,
+            795,
+            347
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            677,
+            251
+          ],
+          "rotation_degrees": 0,
+          "source_object": 72
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Raindrops running down a window.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-2.jpg",
+        "repository_path": "public/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-2.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 72 exists on PDF page 16, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [0, 1290, 1420, 1904] (left, top, right, bottom) without resizing, rotation or pixel repair. The lower photograph is cropped below all prose; the irreversibly scanned light fade at its top is retained. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "story photograph",
+        "sequence": 2,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1290,
+            1420,
+            1904
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1420,
+            614
+          ],
+          "rotation_degrees": 0,
+          "source_object": 72
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": "And the Police",
+    "title": "CALEB AND ANGELA",
+    "topics": [
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e6f4ec57425aef97717af2d579881d1086764e6e0e6698c69a2329e8a929c20a",
+    "metadata_sha256": "cbf3529f2fb050c700d07fed8b1a7d17a39df20749d367d9e8d0bf457abb837c",
+    "structure_sha256": "658da47429fe48b2ce8ce1822db71bd9d8e1950301fe0f0b6a64370fd6965d65",
+    "text_sha256": "2f74ff08edce05576e722ff73a951a2765495191ba84ad93713978029bbc6f0e",
+    "translation_metadata_sha256": "55c2f267dc3b5285dc2402a20cbceb2e4c8e7140a8dd65aa75e96a84484cc01b"
+  },
+  "html": "<article data-article-id=\"573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb\">\n  <figure>\n    <img src=\"/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-1.jpg\" alt=\"\">\n  </figure>\n  <p>Angela and Caleb are six years old. They are twins. Caleb is tall, with blond hair, blue eyes, and freckles. Angela is short, with black hair, brown eyes, and rosy cheeks.</p>\n  <p>Caleb helps Angela play with her dolls. They pretend Angela is the mother, and Caleb is the preacher. Sometimes Caleb says things that he heard at Sunday School.</p>\n  <p>One day, Caleb said, “I don’t have anything to preach today. Let’s go outside to play.”</p>\n  <p>“Let’s,” Angela put Dolly Mae back into her crib. Caleb hung the diaper bag on its hook. Angela covered Dolly Mae with the pink blanket.</p>\n  <p>Caleb ran to the window. Large drops splattered against the screen, and rain ran down the sides of the house.</p>\n  <p>“We can’t go outside,” said Angela. “It’s raining.”</p>\n  <p>“I can see that,” snapped Caleb. “Of course it’s raining just when we want to go outside.”</p>\n  <p>“What can we do now?” asked Angela.</p>\n  <p>Caleb spied Mother’s phone, lying on the stand. He picked it up.</p>\n  <figure>\n    <img src=\"/images/articles/573a0ca5-65ff-40d1-beeb-6b2cdc0d95fb-2.jpg\" alt=\"Raindrops running down a window.\">\n  </figure>\n  <p>“Mother said we aren’t allowed to play with the phone.”</p>\n  <p>“I know,” Caleb said. He pushed a few buttons. The phone didn’t open up. It was locked with a password.</p>\n  <p>A few words came on the screen, but they were long words he didn’t know. Then he put the phone down. He didn’t see that it was ringing.</p>\n  <p>“Let’s play hide-n-seek,” said Angela.</p>\n  <p>Caleb didn’t feel like playing, but he didn’t know what else to do. “Fine,” he said. “You count.”</p>\n  <p>Angela started to count, “One, two, three...” Caleb ran to hide behind Father and Mother’s bed.</p>\n  <p>Suddenly, the phone rang. Caleb heard Angela answer, then he heard her scared voice. He jumped out of his hiding place.</p>\n  <p>“Who is it?” he asked.</p>\n  <p>“Yes, my mother is here,” Angela said into the phone. “Yes, I will go get her.”</p>\n  <p>Angela ran to the basement steps. “Mother! Mother!” she called.</p>\n  <p>Mother came running. “What’s wrong?”</p>\n  <p>Angela handed the phone to Mother and looked at Caleb with large, scared eyes.</p>\n  <p>“Hello,” said Mother. She held Angela close.</p>\n  <p>She told the person her phone number and her address. “No, nothing is wrong. You must have the wrong number,” She listened some more, her forehead wrinkled.</p>\n  <p>“I’m sorry,” she said, “I will talk to the children to make sure that it doesn’t happen again.”</p>\n  <p>Mother hung up the phone. “It was the police.”</p>\n  <p>“He said I must never play with my mother’s phone,” Angela said, “But it wasn’t me, it was Caleb.”</p>\n  <p>Caleb was puzzled. “Why would the police call just because I was playing with your phone? Did the president make a law that says children may not have phones? Will they take me to jail?”</p>\n  <p>“No, Caleb. You must have called the police by accident. My phone has a safety lock on it for a reason, and the only calls you can make are emergency calls. They wanted to see what was wrong. If you had not picked up the phone, Angela, the police would have come to our door.” Mother frowned. “Didn’t I tell you that you may not play with my phone?”</p>\n  <p>“I told you too,” said Angela.</p>\n  <p>“Shh,” said Mother. “Angela, you are not Caleb’s police.”</p>\n  <p>Caleb hung his head. His face was white, and his heart thumped fast.</p>\n  <p>“The police will only take people to jail who have been very naughty,” said Mother. “People who obey do not have to be afraid of the police; they are there to take care of us. But children who disobey must be punished by their parents.”</p>\n  <p>She took Caleb to the bedroom and gave him a spanking. As she dried his tears, Mother explained, “The Bible tells us that children must always obey their parents. If children don’t learn to obey their parents when they are young, they will be tempted to disobey God when they are older.” Then she said. “Now, you must go to your bedroom and stay in bed until I call you. You will not call the police again, will you?”</p>\n  <p>Caleb shook his head. He lay down on his bed and looked out the window at the rain.</p>\n  <p>No, he decided. I will not call the police again. I will obey mother. And I am very glad the police will not take me to jail.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "750cd136435e7f47140831183d132f119aa09f2607b366e72357cf45610f9bb0"
+}

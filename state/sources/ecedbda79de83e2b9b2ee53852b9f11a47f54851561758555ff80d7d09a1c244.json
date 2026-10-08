@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "f49d5932-689a-4c85-b17f-3db59ffe61fc",
+    "images": [
+      {
+        "alt": "A mailbox bearing the publication name and contact information",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f49d5932-689a-4c85-b17f-3db59ffe61fc-1.jpeg",
+        "repository_path": "public/images/articles/f49d5932-689a-4c85-b17f-3db59ffe61fc-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 146. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. Source-pixel crop (0, 0, 510, 245). The sole header raster has baked title lettering, publication contact lettering, and a translucent reading panel. A useful mailbox crop removes the title and reading panel; the unavoidable publication contact lettering on the mailbox is retained exactly. Separate introductory text and page furniture are omitted. No clean underlying image or mask exists. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "header illustration",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "f396833d-db0d-5879-8fc7-0b9e43bd718d",
+      "fcaa8e3f-d0bd-5591-8638-314cf1c87857"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f8cffe47f84cec2ae050c873466930fe1f4e2fca2b1031e920ce1deb6f668cdb",
+    "metadata_sha256": "1b6f11504edc7ea7c995936d5975f6337a908a71abd5875dc98440b3de4ae237",
+    "structure_sha256": "7559d2958def7d4cd0bf2aa1faaa59f777bc060e47c98b52493679178b636a7b",
+    "text_sha256": "55164878360e547e0bc06630576947ff779065ff5758d508770d4e7f2c5e4416",
+    "translation_metadata_sha256": "a47d7a142c3dcfd93d589e03e106ac1699c04fb5ccf088b3a50996f734b6647f"
+  },
+  "html": "<article data-article-id=\"f49d5932-689a-4c85-b17f-3db59ffe61fc\">\n<figure>\n<img src=\"/images/articles/f49d5932-689a-4c85-b17f-3db59ffe61fc-1.jpeg\" alt=\"A mailbox bearing the publication name and contact information\">\n</figure>\n<p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n<p>Dear Remnant,</p>\n<p>Thank you for this much needed publication. We will continue to pray for you and the Charity Gospel Tape Ministry. Your Godly ministries have touched and changed many lives. May our precious LORD bless you all.</p>\n<p>“And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins.” 1 Peter 4:8-9</p>\n<p><em>from E-mail</em></p>\n<hr>\n<p>Dear Brethren,</p>\n<p>A brother gave me your magazine, which I carefully gone through. The article by Alex Marini on The age of T.V. in an age of Grace, really work wonders in my life and family. When I finish reading, I gave it to my wife and having gone through also I can see her nodding her head in approval. By the grace of God, I am pastor ,but I have this devil’s box at home, I do agree with you on the effects and others, thus, I told my children that the TV is having faults, thus; this is the 12th day that the Lord had delivered me and my family, praise the Lord! I am receiving a lot of correspondence all over the world, but for the fact that yours came from that same America and change my life and family just at the first reading is in fact a testimony. I will continue to tell others and I believe that this will change their lives also. Thank you and God bless you.</p>\n<p><em>Abidjan, West Africa</em></p>\n<hr>\n<p>Thank you so very much for that article by Dean Taylor in the most recent Remnant. It was an encouragement for me to see that God is allowing us to see His Word the same and to have the same views of it.</p>\n<p>We, in modern day and age, would rather hang on to our favorite petty doctrines even if it meant splitting a church rather than laying down our views and opinions to keep the unity of the brotherhood. And by the way, having such a high regard for our own view of scripture is not only pride and immaturity, it is selfish and hateful. Why proud? We do not want to accept the humble truth of another brother. Why immature? Maturity looks at the big picture, The Great Commission, and how we aught to do everything we can to fulfill it, not spin our wheels at home. Why selfish and hateful? We do not care about how our brother feels; we just have to get this doctrine “straightened up.” Oh that God would open our eyes to see what He sees! Oh that our hearts and minds would be consumed with that which resides in His heart and mind! Oh that we would base our Christianity on the Bible and not on this heathen culture of our modern day and age. A while ago I did a children’s lesson on unity. I took one matchstick and asked one of the older boys to come and try to break it. Of course it snapped easily. I went on and added about 10 or 15 and asked him to try again. He couldn’t do it… Jesus prayed that we would be one.</p>\n<p><em>With love,<br>A servant from Manitoba</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e340216782a694ed5c23557b8ad1435133bae137f8337204f602252d17ee57c1"
+}

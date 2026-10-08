@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "e8debe1a-1867-47a1-a45f-21595bd4a4e1",
+    "images": [],
+    "issue_id": "4ece4257-ac97-59c4-9a46-5ee9d7fb95d1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "There are two ways to rule the world.",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d677cd5ad0e71b492415bd5c980a0617ea1bdbbcfc0170a5dfbd85f330393105",
+    "metadata_sha256": "7c6aa980ceaf92cdf52f394e57a155e213bbe9d7c1ad736aabaa4a1ae5f1b3b6",
+    "structure_sha256": "49fb83b349e424744cc8d7cb97a0510da7f0faad92f5dd8d2c9b65d2cc49489a",
+    "text_sha256": "30838f3b9579ede64c21782dfaf5f520604de639b2ed9fa480b1bd0b03bfd8d3",
+    "translation_metadata_sha256": "0a04c1899061bc391f7b3ef028d8480afcd23aca7db2a313eeb9b50b0fa5a0b1"
+  },
+  "html": "<article data-article-id=\"e8debe1a-1867-47a1-a45f-21595bd4a4e1\">\n  <p class=\"poem\">The first is to conquer the world<br>\n  through force and coercion<br>\n  and rule the world as a tyrant.</p>\n  <p class=\"poem\">The other is to create a world so small<br>\n  that you remove all competition.</p>\n  <p class=\"poem\">In the end, both are just as destructive<br>\n  to the people around them.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "387ca470c986ba5229d22295d9ef029420b7d1c538b36c5c07eecd6ab35e3633"
+}

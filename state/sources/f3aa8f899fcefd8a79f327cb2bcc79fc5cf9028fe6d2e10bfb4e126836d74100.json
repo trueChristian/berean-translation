@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 1644,
+          "death_year": 1718,
+          "location": null,
+          "name": "William Penn",
+          "role": null
+        }
+      ],
+      "raw": "by William Penn (1644-1718)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "94dddad2-cc75-5292-86c4-8f450af98ad4"
+    },
+    "id": "1c762697-04ff-47f7-8967-4654972dbbe7",
+    "images": [],
+    "issue_id": "52c67fc6-2d91-51a3-ae55-c8134ad2ed53",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Oh Christendom!",
+    "topics": [
+      "71ed5d17-92f3-5075-9fe0-6c2605d6c813",
+      "9fdb6e89-2588-51fc-925f-9dc761c8074d",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "db0bb0e39b58ffb3a514ca0e5b139199e1e5370cd43e0a7a95274f17cfc2c7de",
+    "metadata_sha256": "e7b1003b1e873d74e45abdd935cead651c740f4f7fb8f5f98680f845e1a2a314",
+    "structure_sha256": "602b4578e2b45d3ac266f3e6f7a602c905c64d5beee98fa2b43df3fce2882aa6",
+    "text_sha256": "2d8341a22cf9531f7d60b2aa2d25274d9018f7ff50750b1a6ac76d963f5b9a19",
+    "translation_metadata_sha256": "da3bef141ed71ca8757e906b4c36ca97e3141931f40abde6e63f9c07f38b0e84"
+  },
+  "html": "<article data-article-id=\"1c762697-04ff-47f7-8967-4654972dbbe7\">\n  <p>It is at that day proud and luxurious Christians shall learn that God is no respecter of persons; that all sects and names shall be swallowed up in these two kinds, sheep and goats, just and unjust; and the very righteous must have a trial for it; which made that holy man cry out, “If the righteous scarcely be saved, where shall the ungodly and the sinner appear?” 1 Pe. 4:18 If their thoughts, words, and works must stand the test, and come under scrutiny before the imperial Judge of heaven and earth, how then should the ungodly be exempted? No; we are told by Him that cannot lie, many shall then even cry, “Lord, Lord!” set forth their profession, and recount the works that they have done in His name, to motivate Him to mercy, and yet be rejected with this direful sentence, “Depart from me, you workers of iniquity; I know you not.” Mt. 7:23 As if He had said, Depart from me, you evil doers; though you have professed me, I have never known you; your vain and evil lies have made you unfit for my holy kingdom. Go away from here and go to the gods whom you have served; your beloved lusts which you have worshipped, and the evil world that you have so much coveted and adored. Let them save you now, if they can, from the wrath to come upon you, which is the wages of the deeds you have done. Here is the end of their work that built upon the sand; the breath of the Judge will blow it down, and woeful will the fall be.</p>\n  <p>He casts the eye of love upon his own sheep, and invites them, saying, “Come, you blessed of my Father” (Mt. 25:34); those, who through patient continuance in well-doing, have long waited for immortality. The Judge tells them that you have been the true companions of my tribulation and cross, and, with unwearied faithfulness, in obedience to my holy will, valiantly endured to the end, looking to me, the author of your precious faith, for the recompense of reward that I have promised to “they who love me, and faint not.” Oh! enter you into the joy of your Lord, and inherit the kingdom prepared for you from the foundation of the world.</p>\n  <p>Oh Christendom! My soul most fervently prays, that after all your lofty profession of Christ, and His meek and holy religion, your unsuitable and unchristian life may not cast you out at that great judgment court of the world, and lose you so a great salvation at last. Hear me once, I implore you: can Christ be your Lord, and you not obey Him? or, can you be His servant, and never serve Him? “Be not deceived, such as you sow, shall you reap.” Ga. 6:7 He is not your savior while you reject His grace in your heart, by which He should save you by purification. Come, from what has He saved you? Has He saved you from your sinful lusts, your worldly affections, and vain conversations? If not, then He is not your savior! For, though He is offered a savior to all, yet He is actually a savior to those only that are saved by Him; and none are saved by Him that live in those evils by which they are lost from God, and which He came to save them from. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "60c5b2abb4642a254b1901d331b035c66d038cf3b5debb78dbe91a6221812496"
+}

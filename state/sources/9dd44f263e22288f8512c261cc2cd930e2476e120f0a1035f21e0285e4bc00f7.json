@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "f3bf062f-c795-42d3-a1fe-075cce20ffe9",
+    "images": [
+      {
+        "alt": "Illustration of a standing preacher addressing a gathered crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f3bf062f-c795-42d3-a1fe-075cce20ffe9-1.jpg",
+        "repository_path": "public/images/articles/f3bf062f-c795-42d3-a1fe-075cce20ffe9-1.jpg",
+        "rights_note": "Clean embedded illustration object 81. Publisher-added rounded clipping and surrounding reading panel omitted, preserving the original base-image pixels. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            522,
+            272
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            522,
+            272
+          ],
+          "source_object": 81
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Assurance of Salvation",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4443c80178d8fc364f979cd11ea24666fa45b31a84370ca966be60533b3db40d",
+    "metadata_sha256": "bbdc88c4451d346487b76058319b6d6cb9762f5cf992f78b124417b21e1e80da",
+    "structure_sha256": "0b79434767d87d9698d043935e2625734778e6d4e06109271964e1b834ced647",
+    "text_sha256": "a2223a1c452203351825b836a2bb1812202f1e9e1fa5d57b3720b24e37062474",
+    "translation_metadata_sha256": "295dbd04c0710b99139049c0a92e5a418837ad25e7c9e51a0948d9a0d7de9163"
+  },
+  "html": "<article data-article-id=\"f3bf062f-c795-42d3-a1fe-075cce20ffe9\">\n  <p>After John Wesley had been preaching for some time, some one said to him, “Are you sure, Mr. Wesley, of your salvation?” “Well,” he answered, “Jesus Christ died for the whole world.” “Yes, we all believe that; but are you sure that you are saved?” Wesley replied that he was sure that provision had been made for his salvation. “But are you sure, Wesley, that you are saved?” It went like an arrow to his heart, and he had no rest or power until that question was settled. Many men and many women go on month after month, and year after year, without power, because they do not know their standing in Christ; they are not sure of their own footing for eternity. Latimer wrote Ridley once that when he was settled and steadfast about his own salvation he was as bold as a lion, but if that hope became eclipsed he was fearful and afraid and was disqualified for service. Many are disqualified for service because they are continually doubting their own salvation.</p>\n  <figure><img src=\"/images/articles/f3bf062f-c795-42d3-a1fe-075cce20ffe9-1.jpg\" alt=\"Illustration of a standing preacher addressing a gathered crowd\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "92a58f11382d272c4919a13a22d0e5cf6a4c29c66f92580c22bf7395f3a64cb1"
+}

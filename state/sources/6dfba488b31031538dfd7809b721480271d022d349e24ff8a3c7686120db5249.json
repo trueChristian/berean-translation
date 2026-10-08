@@ -1,0 +1,103 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Cleveland, NC",
+          "name": "Mannie Troyer",
+          "role": null
+        }
+      ],
+      "raw": "From a sermon by\nMannie Troyer\nCleveland, NC"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "962e7a33-244d-483d-bcdc-c173fb5f47c6",
+    "images": [
+      {
+        "alt": "An illustration of men nailing a man to a wooden cross.",
+        "caption": "The Old Cross",
+        "credit": null,
+        "height": 180,
+        "public_path": "/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-1.png",
+        "repository_path": "public/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-1.png",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 15; separately painted caption, rectangular frame and title-panel gradient omitted. Original line-art pixels retained.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "source_pdf_object": 15,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 140×180",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 140x180 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 140
+      },
+      {
+        "alt": "An ornate cross surrounded by flowers.",
+        "caption": "The New Cross",
+        "credit": null,
+        "height": 194,
+        "public_path": "/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-2.jpg",
+        "repository_path": "public/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-2.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 14; separately painted caption, rectangular frame and title-panel gradient omitted.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 3,
+        "source_pdf_object": 14,
+        "transformations": [
+          "Source grayscale JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; intrinsic dimensions, orientation and image content preserved. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 109×194",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 109x194 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 109
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "DYING TO LIVE",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "bb4ddb9f44a7bfd97c2c09215b215f13a01cee93eb80c81e8db51fd7ff05860b",
+    "metadata_sha256": "8d4bacde51242d2e20ff03d6f8bc536d9e578baf44f89e6aca1201140e0fd241",
+    "structure_sha256": "46356cb6de64bcdc6372918cbc74d99df5ff87a426e17dbd724d38274d2ce7a5",
+    "text_sha256": "98f1684724d774e5bd74e4f355a5b6ea0a5a7f4615acfe7cb5eb59cfc88b98c4",
+    "translation_metadata_sha256": "27c9984667fb9dc008d747cf4ceb6695a8ca8444adf5ab1240fd310b97d0445a"
+  },
+  "html": "<article data-article-id=\"962e7a33-244d-483d-bcdc-c173fb5f47c6\">\n  <figure>\n    <img src=\"/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-1.png\" alt=\"An illustration of men nailing a man to a wooden cross.\">\n    <figcaption><strong><em>The Old Cross</em></strong></figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/962e7a33-244d-483d-bcdc-c173fb5f47c6-2.jpg\" alt=\"An ornate cross surrounded by flowers.\">\n    <figcaption><strong><em>The New Cross</em></strong></figcaption>\n  </figure>\n  <p>In Galatians 2:20 we read, <em>“I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.”</em> The Christian life begins with death and continues with a crucified, dying life.</p>\n  <p>The doctrine of death to self is urgently needed today. Much emphasis is placed on what Christ did <em>for</em> man, but very little on what Christ wants to do <em>in</em> man. Christ wants to do much more in you than just give you a one-time conversion experience. He wants to reign supreme. This means self must die. The modern church is seeking the satisfied life and avoiding the crucified life. The crucified life demands death. True Christianity never was and never will be popular because it demands death.</p>\n  <p>If Christ is not on the throne of your heart, then self is on the throne. Many religious people today know that there is something drastically wrong and missing in their hearts. People know they are not what they ought to be. They try a variety of things to improve themselves through sheer will-power and self-discipline, hoping to be acceptable to God without going through the death route. Self can live very sacrificially and will give up a lot of things as long as it doesn’t have to die.</p>\n  <p>Self cannot be improved away. It has to die because life can only come out of death. Before we can possess the abundant life, we must personally experience Calvary. The Bible tells us in John 3:6, <em>“That which is born of the flesh is flesh.”</em> Our flesh will remain flesh until it dies and makes room for the Spirit.</p>\n  <p>Romans 10:1-3 says, <em>“Brethren, my heart’s desire and prayer to God for Israel is, that they might be saved. For I bear them record that they have a zeal of God, but not according to knowledge. For they being ignorant of God’s righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God.”</em> The righteousness of God is made available to us through the blood of Jesus Christ. It took death to spill that blood. Our righteousness is dependent on our participation in that death. Too many people want to escape hell without dying to self, and they try to establish their own righteousness. Self will endure a lot of hardships as long as it can continue to rule.</p>\n  <p>The confusion that plagues today’s religious world comes from a watered-down, perverted Christianity. Always making room for self, this Christianity has invented its own cross. As A.W. Tozer said, “The new cross lets Adam live without interfering in his life. His motivation is unchanged. The new cross allows a person to still live his own pleasure. Only now he takes delight in singing choruses, spiritual songs and watching religious movies instead of singing worldly songs and drinking hard liquor. The new cross does not slay the sinner. It redirects him. It gears him into a cleaner way of living and saves his self-respect. The message of the new cross is slanted in a direction to make it acceptable to the public. The philosophy behind it may seem sincere, but its sincerity is deception. God offers life at the cross, not an old improved life but a life that comes out of death.”</p>\n  <p>John 12:24, <em>“Verily, verily, I say unto you, Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit.”</em> Nothing can bear fruit acceptable to God except a grain of wheat that has died. Out of that dead kernel will come a great crop. We are known by our fruit. Unless you have died to self, you don’t have any. You can play at righteousness, play religion and play church. Unless you die, you have missed the mark.</p>\n  <p>What does the Bible demand from an awakened sinner? He must repent and believe. He must forsake his sin and himself. The awakened sinner can count on God to enable him to do this. The reason so many religious people today are defeated is a mistrust of God. Because they fear God’s Hand in their lives, they try to be a Christian on their own, leaving self on the throne.</p>\n  <p>Without God’s participation in our lives, we <em>cannot</em> be fruit bearing Christians. Without our participation with Him in death, God <em>will not</em> make us fruit bearing Christians. Luke 9:23, 24, <em>“And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it.”</em> This is the simplicity of coming to the end of the road and dying to self. In Luke 14:26, <em>“If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple.”</em></p>\n  <p>In Christian experience victory does not come by trying. It comes by dying, and only out of this death will come fruit.</p>\n  <p>In this land there are many professing Christians who remain alone for years without finding and identifying with a local body of believers. While I don’t judge them, I think most of these people are going to stay alone until they fall to the ground and die. There is too much self on the throne for them to submit and commit themselves to a local body, which is God’s plan and design for all Christians. These people will keep alone until they become willing to die.</p>\n  <p>Dying to live is not just something we believe. It is also something we do. If it is not, we have faith without works. If we believe something, it will motivate us to <em>do</em>. We are not saved by works. We are saved by a faith that works. If our faith does not produce the fruit which comes from dying, we don’t have saving faith.</p>\n  <p>Like the prodigal son, when we come to saving faith, we are permanently changed. The prodigal son came to the end of himself in the pigpen. Right there he surrendered and crucified his will for the will of the father. When he saw himself for who he was, and he saw God for who He is, he said, “I will arise and go to my father. I am not worthy of anything.” Dying to self is a matter of surrendering our will to God’s will. We too must arise and go to our Father.</p>\n  <p>Dying to self is not a once-in-a-lifetime matter. It has its beginning with repentance and conversion. At that time one dies to all the self of which he is aware. After conversion, as the Christian grows and makes new discoveries in his life, he senses a lingering presence of self that is reluctant and resisting death.</p>\n  <p>This is my testimony. When I repented in 1974 and became a born-again Christian, I was totally honest with God. I was transparent and confessed and acknowledged everything that my conscience knew. As I grew in the Lord, I made discoveries that shocked me. The Lord showed me there was still self which would not give up and die.</p>\n  <p>This is why the Bible tells us we must die daily. We must take up our cross daily. Every born-again Christian’s heart should pray, “Lord show me if there be any wicked way in my heart.” Death is not only an experience that stays at conversion. Dying to live must be a way of life.</p>\n  <p>We can count on God to supply us with many opportunities to keep ourselves crucified. If we are what we need to be, we will welcome these experiences as opportunities to die to self. Every unpleasant experience may be God’s way of helping us to become more like Jesus. Look at His example in Philippians 2:5-8, <em>“Let this mind be in you, which was also in Christ Jesus: Who, being in the form of God, thought it not robbery to be equal with God: But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross.”</em></p>\n  <p>Examine yourself. If a command from God or other rightful authority arouses inner rebellion, it is time to make certain that you obey. By disobeying the commandment, you are giving self a longer leash at the very point where it has the most freedom—in the heart of rebellion.</p>\n  <p>If you have been wronged and the thought of vengeance is sweet, self is alive. If you swell in prosperity but shrink in adversity, self is on the throne.</p>\n  <p>Yet if you are ignored, your good spoken evil of, your wishes crossed, your tastes offended, your advice disregarded, or your opinions ridiculed and you remain unhurt and not embittered—you are dying to live. If you are content with any food, any raiment, any climate and any society, you have death to self and you have victory.</p>\n  <p>Romans 6:2, <em>“How shall we, that are dead to sin, live any longer therein?…Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin.”</em></p>\n  <p>In closing, Colossians 3:3, <em>“For ye are dead, and your life is hid with Christ in God.”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "bee3e31202968000ca3d86a83c4fa56181ff3103388c9707eef355443b198b3b"
+}

@@ -1,0 +1,68 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "M. A."
+        },
+        {
+          "location": null,
+          "name": "Mike Atnip",
+          "role": "arr."
+        }
+      ],
+      "raw": "M. A., 2005\nMike Atnip, 2005; arr."
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "517181c6-32a6-4645-8ecf-09b94b173f61",
+    "images": [
+      {
+        "alt": "Printed musical notation and lyrics for Ode to the King",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/517181c6-32a6-4645-8ecf-09b94b173f61-1.png",
+        "repository_path": "public/images/articles/517181c6-32a6-4645-8ecf-09b94b173f61-1.png",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Full native 2292 × 1614 PDF CCITT stencil image object 164, inverted to printed black-on-white at its intrinsic 303 dpi; the separate solicitation artwork beneath it was excluded. Printed score states PUBLIC DOMAIN.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Ode to the King",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b0b24e0eb2b646aa9c1e7b448ab4309d55df9e92f66bff273649861bfdde311b",
+    "metadata_sha256": "36a91f7a757cc4fd17cb67f7c61645f029a5f609ee1d22834365720d5a713c73",
+    "structure_sha256": "fd8bcf80817b27a5772263cb2f3bbc129a46ad89849816eb7f0b969a82cc70e0",
+    "text_sha256": "1cf84f1107d13edd18ffe0418f7a7e9b2dcea4a44166a734f6969f5536569f43",
+    "translation_metadata_sha256": "61b4764f38006c6a0a1cbed878e60c8adbde3bac6848984d48a435d4a49024fd"
+  },
+  "html": "<article data-article-id=\"517181c6-32a6-4645-8ecf-09b94b173f61\">\n  <p>PSALM 24:7-10; 71:23<br>M. A., 2005</p>\n  <figure><img src=\"/images/articles/517181c6-32a6-4645-8ecf-09b94b173f61-1.png\" alt=\"Printed musical notation and lyrics for Ode to the King\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9e6fd9c7feb46dc7ac0b12cfcdf9d0388d51ca276cfb62c3cd135a850a63694e"
+}

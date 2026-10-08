@@ -1,0 +1,68 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "4d346a56-cc11-4d40-99b8-6983743bef15",
+    "images": [
+      {
+        "alt": "A man and his reflection in a mirror, with another figure seated nearby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-1.jpg",
+        "repository_path": "public/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-1.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. Clean source illustration xref 174; the separately painted frame and shadow are omitted.",
+        "role": "historical illustration",
+        "sequence": 1,
+        "source_page": 29
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-2.jpg",
+        "repository_path": "public/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-2.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. Reconstructed only five PDF base raster tiles xrefs 167, 166, 165, 170, 171 at their exact 150-ppi page coordinates; thin border strips, blurred title banner and translucent reading panel omitted. The pale fade is intrinsic to the base tile pixels; no cleaner source or exact reversible blend is present.",
+        "role": "article background",
+        "sequence": 2,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "The Window and the Mirror",
+    "topics": [
+      "79026687-5f1c-5c05-8305-c63a5d165b2c",
+      "c09be55d-9b4d-56ff-bde4-5d80920e74da"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "42c4a330c652c515ba54373e02cba523454ae4bc510b82f9ab93dd4527745cdd",
+    "metadata_sha256": "3f7a96bf3a8a80c8e6549423a9a9a87571e863727e9cf7ad0910a27542956e47",
+    "structure_sha256": "60e55a6d748a662a79d521e117cfe1701b56e263d00ec046cb6bd608d0364da6",
+    "text_sha256": "f0cd2df8578a4ab6c77c529fc35f1d0e8c6c0b58e7e74277c738ae1df8f7d490",
+    "translation_metadata_sha256": "bd2c9253c78ab010c6098195c02609b7ac63fcdcb858a098c2e6f690e37a3dd4"
+  },
+  "html": "<article data-article-id=\"4d346a56-cc11-4d40-99b8-6983743bef15\">\n  <figure>\n    <img src=\"/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-1.jpg\" alt=\"A man and his reflection in a mirror, with another figure seated nearby\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/4d346a56-cc11-4d40-99b8-6983743bef15-2.jpg\" alt=\"\">\n  </figure>\n<p>A very rich young man went to see a rabbi in order to ask his advice\nabout what he should do with his life. The rabbi led him over to the window and asked him:</p>\n<p>“What can you see through the glass?”</p>\n<p>“I can see men coming and going and a blind man begging for alms in the street.”</p>\n<p>Then the Rabbi showed him a large mirror and said to him:</p>\n<p>“Look in this mirror and tell me what you see.”</p>\n<p>“I can see myself.”</p>\n<p>“And you can’t see the others. Notice that the window and the mirror are both\nmade of the same basic material, glass; but in the mirror, because the glass is\ncoated with a fine layer of silver, all you can see is yourself. You should compare\nyourself to these two kinds of glass. Poor, you saw other people and felt compassion\nfor them. Rich—covered in silver—you see yourself. You will only be worth\nanything when you have the courage to tear away the coating of silver covering\nyour eyes in order to be able to see again and love your fellow man.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "20df18fdaa1a6ef58526d731e71c5662d3ba2b1bc10181c73778c3d41f31120d"
+}

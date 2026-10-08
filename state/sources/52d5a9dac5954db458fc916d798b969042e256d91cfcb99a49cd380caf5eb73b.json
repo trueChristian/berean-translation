@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "-Bro. Denny"
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "d6c85621-754d-45e6-af4c-da1f66bc9fca",
+    "images": [
+      {
+        "alt": "An audio cassette.",
+        "caption": null,
+        "credit": null,
+        "height": 51,
+        "public_path": "/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-1.png",
+        "repository_path": "public/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-1.png",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Isolated PDF image object 29 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 8,
+        "transformation": "Isolated PDF image object 29 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 66
+      },
+      {
+        "alt": "A small reproduction of the issue cover artwork.",
+        "caption": null,
+        "credit": null,
+        "height": 95,
+        "public_path": "/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-2.jpg",
+        "repository_path": "public/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-2.jpg",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Embedded object 36 at full native 76×95 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. Separately painted cover-miniature frame tiles and surrounding typography omitted; the tiny wording intrinsic to the source artwork remains. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 8,
+        "transformation": "Embedded object 36 at full native 76×95 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 76
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Charity Gospel Tape Ministry &\nThe Heartbeat of The Remnant",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 8
+    },
+    "subtitle": "July – September 2001",
+    "title": "Quarterly Financial Report",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0d8415a4366a617ca7db7ab1b462e157c58886483e209ef1ea70e0253e0569da",
+    "metadata_sha256": "a08c04ae9610179794fd77ac64f3a3cbd3c83faa0ab4b032fa4e71feb4291205",
+    "structure_sha256": "0504d9f496a2e24ea84e40d8e4be157b182b315282fd37dd007f1f4e7b386f93",
+    "text_sha256": "90183d12033b76af521dc87594ce4c4be84c747951f1bd6da0506239ea5fd84a",
+    "translation_metadata_sha256": "500f9688a81fd30ac40621ea55054b311595475620bf7ac396340f8a87f35ae6"
+  },
+  "html": "<article data-article-id=\"d6c85621-754d-45e6-af4c-da1f66bc9fca\">\n  <figure>\n    <img src=\"/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-1.png\" alt=\"An audio cassette.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/d6c85621-754d-45e6-af4c-da1f66bc9fca-2.jpg\" alt=\"A small reproduction of the issue cover artwork.\">\n  </figure>\n  <p>Beloved Brothers and Sisters,</p>\n  <p>We find ourselves rejoicing again and again as the Lord keeps caring for His tape ministry and publication ministry. Our faith is being strengthened as we watch the many different ways that the financial needs are being meet. Thank you for your help and prayers. I assure you that both of these investments are bearing much fruit in the kingdom. As you can see by the financial statement, the bottom lines look encouraging.</p>\n  <p>It is with much excitement that I bring you the report published below. This is the tape ministry in full action. Beautiful things are happening among a very special people group called the Hutterites living in Manitoba, Canada. They are a people of German descent, and there are about forty thousand of them living in North America. They are a religious group who live in community; that is, they have one purse and live on large farms together. Many of them are in need of the new birth. Thousands of cassette tapes, as well as many copies of the Remnant magazine, have been distributed among this people group for the last several years. The people have very little personal money, and have not been able to cover costs for the tapes and magazines. That means you have been covering the expenses of this work.</p>\n  <p>There is a sowing time, and there is a reaping time. We have felt for some time that reaping time is coming among these dear people. Well, it has begun. The Spirit of God is beginning to visit these hungry souls with light, and life, and salvation. Praise be to God!!! Look and see what God is doing, and join in with the angels in heaven as they rejoice.</p>\n  <p><em>-Bro. Denny</em></p>\n  <table>\n    <tbody>\n      <tr><th>07/01/01 Beginning Balance</th><td><strong>$2,185.47</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$54,067.05</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$7,851.33</td></tr>\n      <tr><th>Total Receipts</th><td><strong>$61,918.38</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$6,968.16</td></tr>\n      <tr><td>Tapes &amp; Albums</td><td>$13,492.43</td></tr>\n      <tr><td>Computer/Equipment/Supplies</td><td>$3,801.91</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$259.50</td></tr>\n      <tr><td>Electricity</td><td>$301.58</td></tr>\n      <tr><td>Telephone</td><td>$1,296.35</td></tr>\n      <tr><td>Miscellaneous</td><td>$616.30</td></tr>\n      <tr><td>Payroll Expense</td><td>$4,730.00</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$1,356.00</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$13,046.30</td></tr>\n      <tr><th>Total Disbursements</th><td><strong>$45,868.53</strong></td></tr>\n      <tr><th>09/30/01 Ending Balance</th><td><strong>$13,864.38</strong></td></tr>\n      <tr><th>Difference</th><td><strong>$16,049.85</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "065f7e305e664d31c364c5ae8c9257fd9713353479618b340dcebdb729379f72"
+}

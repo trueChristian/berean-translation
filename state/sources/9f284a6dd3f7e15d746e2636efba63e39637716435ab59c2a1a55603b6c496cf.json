@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Susan M. Stalter"
+        }
+      ],
+      "raw": "—Susan M. Stalter"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "bf5fdc53-7b51-42f6-a7a7-a033b624a847",
+    "images": [
+      {
+        "alt": "A snow-covered rural landscape",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bf5fdc53-7b51-42f6-a7a7-a033b624a847-1.jpg",
+        "repository_path": "public/images/articles/bf5fdc53-7b51-42f6-a7a7-a033b624a847-1.jpg",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 7; the two tiled embedded image segments were joined at their shared boundary, their inverted CMYK samples were converted to sRGB, and the complete image was re-encoded as a standards-normalized baseline JPEG for faithful browser display. Rely on the publisher permission reported by the project owner.",
+        "role": "article image",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "2fedbc37-858d-5f5f-b18f-b865ac648429",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "A Brand New Year",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a3698f11ecd68e1dbb89df6b8670df3ec930fde1698577606f0027283edad5f3",
+    "metadata_sha256": "74135a8ef578036efa2647aab6827392fde2f3d3121bf4c72106bf8a5a813edb",
+    "structure_sha256": "d063b762f64c65376e99e1262ebb6e83bbcb5f6d8944c1cd805a87805c8d948c",
+    "text_sha256": "0793dc19be6cd0ac89301bdcd5f87d4ad944230aa9019ca295720a5d516c666c",
+    "translation_metadata_sha256": "54be428efaa785cf6d047163201e3c04de237f5440b63b9104ca4c28402232d9"
+  },
+  "html": "<article data-article-id=\"bf5fdc53-7b51-42f6-a7a7-a033b624a847\">\n  <figure>\n    <img src=\"/images/articles/bf5fdc53-7b51-42f6-a7a7-a033b624a847-1.jpg\" alt=\"A snow-covered rural landscape\">\n  </figure>\n  <p class=\"poem\">Another year has swiftly flown;<br>\n    Its days will not again be known.<br>\n    They’re spent and gone beyond recall.<br>\n    Through it, was Jesus Lord of all?</p>\n  \n  <p class=\"poem\">Another year is ushered in;<br>\n    It’s free from spot and stain of sin.<br>\n    God hands it, silently, to you.<br>\n    Through it, will you to Him be true?</p>\n  \n  <p class=\"poem\">It may be Christ will come again,<br>\n    Before this year shall have an end.<br>\n    So from His statutes do not bend,<br>\n    And simply trust Him as your friend!</p>\n  <p><em>—Susan M. Stalter</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ae2cbad867766aa347a55c9836ad6e20220b9c873219c5bd164063473c86734d"
+}

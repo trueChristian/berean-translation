@@ -1,0 +1,132 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Gospel Defense League"
+        }
+      ],
+      "raw": "from Gospel Defense League"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "302b1457-df06-4e48-8582-577b6f40351e",
+    "images": [
+      {
+        "alt": "A man addressing a gathered crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/302b1457-df06-4e48-8582-577b6f40351e-1.jpg",
+        "repository_path": "public/images/articles/302b1457-df06-4e48-8582-577b6f40351e-1.jpg",
+        "rights_note": "Original embedded PDF image object 67; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            362,
+            447
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 67,
+          "source_pixel_dimensions": [
+            362,
+            447
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A robed man speaking amid a crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/302b1457-df06-4e48-8582-577b6f40351e-2.jpg",
+        "repository_path": "public/images/articles/302b1457-df06-4e48-8582-577b6f40351e-2.jpg",
+        "rights_note": "Original embedded PDF image object 71; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 17,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            330,
+            450
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 71,
+          "source_pixel_dimensions": [
+            330,
+            450
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 18,
+      "start": 16
+    },
+    "subtitle": "Christian teachings based on the Bible are\na natural target for the application of...",
+    "title": "They Call It “HATE SPEECH”",
+    "topics": [
+      "e076a45a-2014-5d02-b18b-ac6397515f22"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "324b3d5ec7ed2575b69238ca805d376dec5c27548b896e67ddba5e21ae215cfd",
+    "metadata_sha256": "bcdb1674a306e26faec5fe94eddbaed0aa5813f631da45ac46239c67ef5d01f1",
+    "structure_sha256": "1207ac6ee6eb36475aa1ae91d9d9cfb4045fc893e097430ea0a2d5f1c31c8aa5",
+    "text_sha256": "372e1383c61d10510f8d21028a281c74e9af3766e5df7349049ddc8f9e79dc3b",
+    "translation_metadata_sha256": "3e9b11a91113bf53476c09818a519deebf76afec6f5cfe3618bff7d8a837e9b4"
+  },
+  "html": "<article data-article-id=\"302b1457-df06-4e48-8582-577b6f40351e\">\n  <figure><img src=\"/images/articles/302b1457-df06-4e48-8582-577b6f40351e-1.jpg\" alt=\"A man addressing a gathered crowd\" /></figure>\n  <p>In 2004 the South African Government drafted a Bill for the <em>“Prohibition of Hate Speech”.</em> Its purpose is to <em>“criminalise hate speech,”</em> for the Constitution, Ch. 2, Sect. 16, demands that <em>“advocacy of hatred that is based on race, ethnicity, gender or religion, and that constitutes incitement to cause harm,”</em> be outlawed. Surely no Christian would disagree, because hatred, except of evil and sin, is forbidden in the Scriptures. Jesus even said: <em>“You have heard that it was said, ‘You shall love your neighbour and hate your enemy.’ But I say to you, Love your enemies and pray for those who persecute you.”</em> (Matt. 5:43-44)</p>\n  <p>So what exactly constitutes <em>“Hate”?</em> The Department of Justice and Constitutional Development says: <em>“The objects of the Promotion of Equality and Prevention of Unfair Discrimination Act, 2000 (Act 4 of 2000), are... the eradication of unfair discrimination, hate speech and harassment... The (UN) Convention on the Elimination of All Forms of Racial Discrimination, to which South Africa is a signatory, requires States Parties to declare, among other, the dissemination of ideas based on racial superiority or hatred a punishable offence.”</em> - Hate then is <em>“racial superiority and hatred,”</em> and these must be criminalised. The law proposes that whoever disseminates <em>“ideas based on racial superiority”</em> or <em>“propagates religious superiority”</em> will, on first conviction, be fined or imprisoned for up to 3 years, and on second conviction fined and/or convicted to up to six years.</p>\n  <p><em>“Hate”</em> or <em>“superiority” speech</em> will, however, be a criminal offence only when expressed in <em>“public”.</em> But what is <em>“public”?</em> A <em>“public place,”</em> says the proposed bill, <em>“includes any place to which the public have access as of right or by invitation, whether express or implied, and whether or not a charge is made for admission to the place.”</em> The question then is: Are churches public or private places? Can a minister be penalised if he preaches against idolatry and sin and if he extols the Christian life as being <em>superior</em> to the pagan? In other countries <em>“hate speech”</em> laws are applied to suppress such religious teaching. Recent cases in Australia, Sweden, and Canada have shown that Christian teachings based on the Bible are a natural target for the application of <em>“hate speech laws”.</em> The Bible has even been called <em>“hate literature,”</em> especially in Canada where public expression against homosexuality is outlawed.</p>\n  <p>The whole point of religion is to show that there is a better way, a higher purpose, a <em>“superior”</em> existence for man. Our Lord Jesus Christ is the very Son of God, the second person of the Trinity. He is unique. He is the only way to the Father. There is no other name by which we can be saved. There is no more excellent way. It is Christ and His religion that have made South Africa great. It is Christ who has given this country superiority over every other nation in Africa. But this superiority is now to be <em>“criminalised.”</em> Indeed, much of the present political contention about language, education, the judiciary, farming, labour etc. is a struggle against all that which is superior.</p>\n  <p>The Gospel is under attack because it is divisive. Pagan religions are generally holistic, claiming that all is one, and that divisions are evil. But the Gospel divides. It makes distinctions! It discriminates between God and man, angels and devil, good and evil, right and wrong. It divides heaven and hell, humans and animal, male and female, saint and sinner. The whole created world is governed by separation, distinction and discrimination, as evident in the Law of Nature and the Moral Law. A man must know these distinctions, for they determine his identity. He needs to know his standing before God, his gender, race, and heritage. He needs to know that there is a broad and a narrow way, that the one leads to life and the other to destruction. He must learn to <em>“rightly divide the word of truth”</em> (2 Tim. 2:15), which is <em>“sharper than any twoedged sword.”</em> (Heb. 4:12) The pagan who thinks holistically hates such divisions. Good and evil are all the same to him. The Humanist Manifesto II point 11, for instance, extols MORAL EQUALITY, saying: <em>“The principle of moral equality must be furthered through elimination of all discrimination based upon race, religion, sex, age, or national origin.”</em></p>\n  <figure><img src=\"/images/articles/302b1457-df06-4e48-8582-577b6f40351e-2.jpg\" alt=\"A robed man speaking amid a crowd\" /></figure>\n  <h2><em>“Hate Law”</em> is directed against Biblical Christianity.</h2>\n  <p>It is clear then that the aim of the hate-law advocates is to establish <em>moral equality</em> in a secular society. If one believes in moral equality, then a corrupt personage, when caught, is not dismissed from his post, because it does not matter whether he be good or bad. If, however, a Christian demands that such a person be called to account, he is accused of <em>“religious superiority”</em> and <em>“racial hatred.”</em> - Who then is responsible for bringing <em>hate</em> laws upon us? Is it not the South African ‘religious community’ who has paved the way? In December 1990 a <em>National Inter-Faith Conference on Religion-State Relations</em> was held in Johannesburg. Among the Christian participants were Dr Gerrie Lubbe, Prof. Klippies Kritzinger, Dr Frank Chikane (then General Secretary of the SA Council of Churches), Rev Caesar Molebatsi and others. Following closely upon the <em>Rustenburg Conference</em> and taking their inspiration from it, this multi-faith gathering discussed whether to keep or remove Biblical Christianity from public life in the <em>New South Africa.</em> With apparent concern for religious freedom Dr Chikane said: <em>“I would like to say that... the struggle for freedom of religion can only make sense within the context of the struggle for justice and therefore for the freedom of all. The struggle for freedom of religion is intrinsically part of the struggle for justice. Any demand for freedom of religion outside the struggle for justice is dangerous and must be combatted.”</em> In other words, religion must serve the revolution. Religious freedom outside the revolution must be combatted. On the basis of this thinking, <em>Hate Speech Bills</em> are enacted all over the world to silence the non-revolutionary Christian voice. Humanist governments are clearly tired of Biblical Christian resistance against sin laws which sanction abortion, pornography, prostitution, gun control, homosexual marriage etc. Such resistance is deemed to be counter-revolutionary! Dr Chikane also made much reference to the United Nation’s 1981 <em>“Declaration on the Elimination of all Forms of Intolerance and of Discrimination Based on Religion or Belief.”</em> This is a typically schizophrenic document in that it grants the <em>“right to freedom of thought, conscience, religion, or whatever belief,”</em> yet at the same time demands that <em>“any distinction, exclusion, restriction or preference based on religion or belief... constitutes an affront to human dignity...”</em> and is an <em>“obstacle to peaceful relations between nations.”</em></p>\n  <p>The United Nations Organisation is, of course, hostile to Christ and zealously promotes Humanism. The South African government, too, promotes Humanism. In the light of the Constitution it is already illegal to preach that Jesus is the only way to the Father (John 14:6). It is illegal to criticise or condemn other religions as being false (Acts 19:23-29; Rev. 17). It is illegal to call homosexuality sinful and to <em>“discriminate”</em> against sodomites, forbidding them to be church members or pastors. (Rom. 1:24-27; 1 Cor. 6:9-11) It is illegal to <em>“discriminate against women”</em> preventing them from becoming ministers. (1 Tim. 2:11-15; 1 Cor. 14:34). It is illegal to raise children in the admonition of the Lord and protect them from wicked influences or false religions. (Eph. 6:4) The Constitution of 1996 says: <em>“This Constitution is the supreme law of the Republic; law or conduct inconsistent with it is invalid, and the obligations imposed by it must be fulfilled.”</em> (Ch. 1, sect. 2) In 1996, an acting judge even ruled that the Bible could no longer be part of the law of a church denomination. - All unchristian new laws are the natural outcome of our humanistic constitution.</p>\n  <h2>The World Council of Churches</h2>\n  <p>The World Council of Churches has also paved the way for <em>“hate” laws.</em> It has long renounced all Christian <em>“religious superiority”</em> in favour of an idolatrous multi-faith. In Geneva, from 7-9 June 2005, it gathered more than 100 spiritual leaders in its <em>“commitment ... to deepened interreligious relations.”</em> The speakers were Hindus, Muslims, Buddhists, Jews, Zoroastrians, African spiritualists and a Christian from India - one Christian among 16! Can such still be called a Council of <em>Churches?</em> Like its satellite the SACC, the WCC sees its role as <em>“promoting ... understanding between people of different religions and cultures”</em> and to address <em>“social justice issues.”</em> This is why, in South Africa, the Churches are increasingly invited by the SACC and the ANC Government to engage in <em>“poverty alleviation.”</em> They are asked to further the revolution through <em>“social transformation.”</em></p>\n  <p>The battle against Christianity is intensifying. Christians are falsely accused of <em>“hatred”,</em> and therefore their voice, and the voice of God, is to be silenced It is high time that the Churches take seriously the First Commandment and <em>fight the good fight of faith.</em> God says: <em>“I am the LORD your God. You shall have no other gods before me.”</em> (Ex. 20:1) <em>“You shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength: this is the first commandment.”</em> (Mark 12:30) Our Churches must stand for God and against the <em>“Prohibition of Hate Speech.”</em> They must stop being intimidated by accusations of <em>“racial discrimination”</em> and <em>“racial hatred”</em> and <em>“religious superiority.”</em> If there is hatred in South Africa, it certainly does not come from the Christians! On the contrary, this country’s exceptional racial harmony is due to the Christian spirit of its peoples. May God preserve this spirit in South Africa!</p>\n  <p>Gospel Defense League<br />\nPO Box 587<br />\nSea Point, 8060 RSA<br />\nSouth Africa<br />\nTel/Fax (021) 510-6854</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "4c519961ca158c52d88e01c0e4cb9c34a31519ccf77dbb8f5147b206da1e2c1c"
+}

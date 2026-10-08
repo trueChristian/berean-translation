@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "age": 15,
+          "location": null,
+          "name": "Brittany Clark"
+        }
+      ],
+      "raw": "by Brittany Clark\nAge: 15"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "afc5e691-313e-46f5-9646-1d685351d3cb",
+    "images": [],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "Thine All in All",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "c987aaa5-9902-5dc1-abf1-1d58331a330f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ce50de9fc051b39dcf40d8f1418361d3d09161a420e80d3bb3e1ff9a5ec64a81",
+    "metadata_sha256": "e36dfadf59d02a6fb85d02381d14a9b4af82e572d80aeb677002a5d2cf98623c",
+    "structure_sha256": "61535bc54b9258a3023a052bf28f053f6891c6a46a9ce7c577d775a86511f27b",
+    "text_sha256": "aa9a1f78a2e45662e918a9785acd983f2aedaa56b368eba580dee12de92a9a42",
+    "translation_metadata_sha256": "2340ffb952d732267aec12566510e5917de880ecd75ea492940f704989dacb3c"
+  },
+  "html": "<article data-article-id=\"afc5e691-313e-46f5-9646-1d685351d3cb\">\n<p class=\"poem\"><strong>Art thou weary, heavy-laden?<br>Hear thee now sweet words of peace;<br>“Come unto Me and rest.”</strong></p>\n<p class=\"poem\"><strong>Dost thou struggle to rise above thy trials?<br>Have cares of life been thrust upon thee?<br>“Fear thou not, for I am with thee.”</strong></p>\n<p class=\"poem\"><strong>Hast all security been uprooted,<br>From thy life, thy home, thy heart?<br>“I am unchanging, rest in Me.”</strong></p>\n<p class=\"poem\"><strong>Dost thou continually seem to fail,<br>In conquering temptations ’round thee?<br>“Take heart, for I will help thee.”</strong></p>\n<p class=\"poem\"><strong>Hast thou been forsake, betrayed,<br>By thy friends, perhaps thy loved ones?<br>“I will never leave thee, nor forsake thee, child.”</strong></p>\n<p class=\"poem\"><strong>Art thou in the depths of despair?<br>Does the road ahead look bleak?<br>“Never fear; I will hold thine hand.”</strong></p>\n<p class=\"poem\"><strong>Hast thou been wounded, hurt, dismayed,<br>Disappointed by life’s trials?<br>“I will never disappoint thee.”</strong></p>\n<p class=\"poem\"><strong>Art thou crushed beneath a grief,<br>Perhaps the passing of a loved one?<br>“Do not grieve thus; in Me they rest.”</strong></p>\n<p class=\"poem\"><strong>Dost thou feel burdened with sin?<br>Art thou soul-sick, weary, dismayed?<br>“’Twas for such as thee I came to die.</strong></p>\n<p class=\"poem\"><strong>“Hear thee now, thou child of Mine,<br>I paid the ransom at Calvary.<br>I love thee. In Me thou wilt find rest.</strong></p>\n<p class=\"poem\"><strong>“I have called thee by thy name,<br>Thee have I chosen; none other,<br>I want thee to be My child.</strong></p>\n<p class=\"poem\"><strong>“Come tell to Me thy troubles,<br>I have not turned Mine ear from thee.<br>I never slumber, never sleep.</strong></p>\n<p class=\"poem\"><strong>“Earnestly seek Me, and thou wilt find,<br>Knock, and the door shall be opened,<br>Ask, and I will give to thee.</strong></p>\n<p class=\"poem\"><strong>“Take heart, I will revive th.y soul.<br>Allow thy heart to famish?<br>Thus shall I never do.</strong></p>\n<p class=\"poem\"><strong>“Trust in Me and thou shalt find,<br>Thy needs fulfilled, thy hopes complete.<br>Thou mayest therefore rest assured.</strong></p>\n<p class=\"poem\"><strong>“I will guide thee, love, uphold thee,<br>’Till thy journey be complete.<br>As I was with Moses, so I am with thee.</strong></p>\n<p class=\"poem\"><strong>“In My bosom thou wilt find,<br>Peace, nowhere found in all the world.<br>I am thy Shelter in the time of storm.</strong></p>\n<p class=\"poem\"><strong>“Though thy life is full of sorrow,<br>Hate, betrayal, by all,<br>Peace be thine, My peace give I to thee.</strong></p>\n<p class=\"poem\"><strong>“In all the storms of life,<br>Through all thy tears and sighs,<br>I am thine All in All.”</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b14d825f1e0f8f55867ba75eebff747eedf2de151b23c913e112e811715db61d"
+}

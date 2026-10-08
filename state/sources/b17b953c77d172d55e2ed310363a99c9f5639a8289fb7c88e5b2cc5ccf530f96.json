@@ -1,0 +1,102 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Oklahoma",
+          "name": "Mollie Jo Cassidy",
+          "role": "Sister to Colin, Caleb, Micah, Jared, Hannah, and dear little Noah"
+        }
+      ],
+      "raw": "by Mollie Jo Cassidy"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "f2f7539b-ec81-427c-b6ec-db7ba57a1c3d",
+    "images": [
+      {
+        "alt": "A group of adults and children posing outdoors.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2f7539b-ec81-427c-b6ec-db7ba57a1c3d-1.jpg",
+        "repository_path": "public/images/articles/f2f7539b-ec81-427c-b6ec-db7ba57a1c3d-1.jpg",
+        "rights_note": "Original family photograph object 86. The white vignette around the edges is irreversibly baked into the sole source raster; there is no soft mask, transparency group, separate overlay or alternate clean base. The complete published photograph is retained with that unavoidable source treatment, without cropping people or synthesizing pixels. Separate section label, title, text and page rules are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            764,
+            611
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            764,
+            611
+          ],
+          "source_object": 86,
+          "unavoidable_flattened_overlays": [
+            "white edge vignette"
+          ]
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        24,
+        25,
+        35
+      ],
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "Our Comforter",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "65dd0b7c-0461-5807-bd07-7339c88251f1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "157803687885bc2d80dfcf751bb706173baa7a69166fe62cd8f8cc9361db92e0",
+    "metadata_sha256": "ce104fa9826b934469aa13f92c5f1aa34020e583da51fc6af63a842711e066ce",
+    "structure_sha256": "8671d4346891ff437adeb4d561e1871b68cd62c3877e3b72638ee86f4b10850f",
+    "text_sha256": "4f506169dc595a114c3acbc4d2094dc289bef036f7b63cd498d19bf22092aebe",
+    "translation_metadata_sha256": "ca9d103587a89a404dec938b8ca12814aadb1ea4696b6037bb785eae7bcce4d0"
+  },
+  "html": "<article data-article-id=\"f2f7539b-ec81-427c-b6ec-db7ba57a1c3d\">\n  <p>Greetings in Jesus’ Name from Oklahoma! This past week I encountered a very frightful experience. I was sitting on the steps on our back porch with my brother Colin and my grandmother who was visiting at the time. My other brothers were attempting to chase down the goat escapees. Little Noah (4) decided to join in the fun and ran off with everyone else. I started calling to him to come back, because I knew it could be a dangerous situation with animals and big brothers running around the yard.</p>\n  <figure>\n    <img src=\"/images/articles/f2f7539b-ec81-427c-b6ec-db7ba57a1c3d-1.jpg\" alt=\"A group of adults and children posing outdoors.\">\n  </figure>\n  <p>As little Noah started to come back in the direction of the house, I saw another potential disaster in the making. Our male Great Pyrenees dog (Huge variety!) was tied to a nearby tree and was getting excited about the commotion with the loose goats; he was right in Noah’s pathway back to me. As Noah made his way to me, Gabriel went running and his long chain flew across the yard hitting Noah in the lower legs, picking him up and causing him to land on his face on the ground.</p>\n  <p>I immediately went and picked Noah up from the ground. (Which I shouldn’t have done, in case his neck had broken.) As I was carrying him toward the house, I asked my brother to get my dad. At this point, I looked down at Noah and realized that this was far more serious than I thought. His body was stiff and changing colors. I saw no signs of breathing or life at all. As I reflected later at what happened during this time, I can best describe it as hanging on a thread between life and death. I became very emotionally upset as the reality of what was happening hit me. I didn’t know if Noah would die or not, and the pain of that realization was crushing. I began to plead “JESUS,” but I don’t remember what else I said. At a moment like that, you suddenly realize how depraved man really is. God is the one who is in control, and when someone is dying, you can really feel your dependence on the Almighty, and you know you’re at His mercy.</p>\n  <p>When my dad came out, he took Noah’s stiff body and laid it on the ground. He began doing CPR, while my mom called the ambulance. After just a couple times, Noah began breathing! Then, he went limp and proper color returned. When Noah started crying, I think I was no longer fearful of him dying, but the moments when that question of death had hung over me had left my heart so grieved.</p>\n  <p>My parents, Noah, and I rushed to the ER, after canceling the ambulance. The people were so kind there. Since he had a head injury, they wanted to give Noah a CAT scan. The scan did not show a major problem in the brain or c-spine, for which we are so grateful. They showed us what to watch for since he had such trauma to his head. Noah’s nose was broken and swelling up badly to where he could only breathe out of one nostril. We were able to bring him home and care for him here.</p>\n  <p>As I waited outside the radiology room during the CT scan, my mind began to rehearse all that had happened. I began to ask myself: “Could anyone else know how I felt at that time when my heart was breaking? Would anyone else know the pain and helplessness you feel when you have a lifeless body in your arms?” (Let me add here that there are many who would know my grief; yea, and more grief than I felt: those who have experienced the death of a loved one. I would not want to appear insensitive to the lasting grief of the many who have lost a child or loved one, and never regained that life, like I did Noah’s.)</p>\n  <p>As I pondered these thoughts within myself, I realized that God was close to me at that time when I was grieving, because He promises to be near to the broken in heart. And then, God began speaking to my heart in a special way. I know God felt my grief because He watched His own beloved Son die. He saw Him struggling to breathe and enduring the excruciating pain as His battered body hung on the rugged cross. Yes, He knew the agony of watching someone you love die.</p>\n  <p>But, I realized, that the difference between God’s grief and mine was that God had all power to save His Son’s life and I had none to save Noah. (—None in my own strength and abilities.) I was helpless, God was (and is) all-powerful. “If I was in God’s ‘shoes,’ would I allow Noah to die in order to save the souls of others?” I couldn’t answer my own question. But this one thing I knew, I would never believe or tolerate the lie that “God doesn’t understand our human grief.” No, after I got that picture of God, standing by, LETTING His Son struggle through His last breath, I knew that truly my Father was acquainted with all my grief, and with everybody’s grief, for that matter. No one would be able to convince me otherwise. My heart was so filled with gratefulness to God, not only for hearing my cries for my brother and sparing his life, but more importantly, for letting Jesus Christ DIE for my sins and the sins of the whole world. How much I owe Him!</p>\n  <p>When I got home late that night, I wrote these things down in my journal. I wanted to remember; I wanted to never forget the special way God spoke to me and the mercy He showed in hearing my cries for Noah. As I sat at my desk, I turned to the Psalm for the day (July 23), yes it was Psalm 23. My eyes fell upon these words: “...he restoreth my soul....yea, though I walk through the valley of the shadow of death, I will fear no evil, for THOU ART WITH ME.”</p>\n  <p>I went to my mother’s room and she was reading the same words and shared “he restoreth my soul” with me. She also told me that when she told our pastor how Noah’s accident was especially hard on me, he had prayed “Lord, restore her soul.” I knew it was a three-fold confirmation. Yes, the Lord had and would restore my soul.</p>\n  <p>In the days following the accident, little Noah was extra precious to me. I wanted to kiss him and hold him and just rejoice over his little life. I am so blessed. This incident has left me changed. I know in a new way now that death can come when you’re least expecting it. Are you ready, my friend? Prepare to meet your God. You may not have the time or the mental capacity to repent when death comes for you. I urge you to be ready, and to urge others to be ready. He comes as a thief in the night, and we know not when it will be.</p>\n  <p><em>Abiding in the Vine,<br>\n  Mollie Jo Cassidy</em></p>\n  <p><em>Sister to Colin, Caleb, Micah,<br>\n  Jared, Hannah, and dear little Noah</em></p>\n  <p>PS: If any of you have lost a loved one, I do pray that this story does not hurt you. Your grief is lasting, but the Lord spared me that sorrow for now. I do not want to pretend to know how you feel; but rather, may this letter help you in knowing that God is your comforter.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "cbd3978bc16680ed3acd88d2456cad41bcc1f87f54ab1f2515fb71b625c396d1"
+}

@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Ky.",
+          "name": "J.",
+          "role": null
+        }
+      ],
+      "raw": "—J. from Ky."
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "14a3e3e5-448e-495a-9e00-c5316912c679",
+    "images": [],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Like Fallen Leaves",
+    "topics": [
+      "d51df41b-8b1f-59d9-9fd5-8524bca0dd3b",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ac192d6ad8f28178c09ad3815e7582a95fa750a7bee0521df2ee53b7fc59c158",
+    "metadata_sha256": "06333a77250b4941e754bf3af68c5d76d916377b701b906eebb4a3c6b50dee14",
+    "structure_sha256": "c214e38c461970e8922f3624f5ae22464f0ac3edcf4b702e0b552e5fe81fa462",
+    "text_sha256": "1046498fcae7b5eb35a09fbd4cd66a286cca74707e4078ba54ade4beddb5c05e",
+    "translation_metadata_sha256": "39639ea9a51b60adeaa303756b877fc7ab853b81ef1754472036c3307136da7d"
+  },
+  "html": "<article data-article-id=\"14a3e3e5-448e-495a-9e00-c5316912c679\">\n  <p class=\"poem\">Like fallen leaves so men have died,<br>\n  And time did quick their name erase;<br>\n  Like winter scenes they’re passed aside<br>\n  By those who must give others place.</p>\n  <p class=\"poem\">There are but few whose name lives on<br>\n  For wealth or pow’r or noble cause;<br>\n  But none does match the tribute strong<br>\n  To one for whom the world does pause.</p>\n  <p class=\"poem\">Each passing year poor maid and king<br>\n  Bestows respect on Jesus’ name;<br>\n  Cathedral bells will world-wide ring,<br>\n  The streets will hush the day He came.</p>\n  <p class=\"poem\">The world that met Him once with hate<br>\n  And scarce begrudged Him half His years<br>\n  Today His birth will celebrate<br>\n  With solemn vigil, gifts, and cheers.</p>\n  <p class=\"poem\">Such transformation, clear, sublime,<br>\n  Such retribution fitting, just,<br>\n  Can only be explained sublime!<br>\n  Unless—forbear—such made distrust!</p>\n  <p class=\"poem\">Unless it is that He’s not here<br>\n  To strip our mock devotion bare;<br>\n  To challenge our traditions dear,<br>\n  Our pageants nor our icons spare.</p>\n  <p class=\"poem\">Not here to ask, ‘Why call me Lord,<br>\n  And yet My words explain away?’<br>\n  Make no mistake, religion’s sword<br>\n  Would surely pierce His side today.</p>\n  <p class=\"poem\">No, nothing’s changed—the world nor Christ,<br>\n  His love is strong and friends are few;<br>\n  The same whose will was sacrificed<br>\n  Today requires as much from you.</p>\n  <p class=\"poem\">Sincerely seek to know His will<br>\n  And then in love His words obey;<br>\n  Obedience plain is better still<br>\n  Than all religion’s vain display.</p>\n  <p>—J. from Ky.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d34fd5148ea30913663a6f7e9726d942cbd54a0862a66f3a6851d18ee4d6a673"
+}

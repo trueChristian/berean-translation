@@ -1,0 +1,100 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "e287ea36-8b9d-4d08-aa35-d9a6b7113981",
+    "images": [
+      {
+        "alt": "Grayscale illustration of women with covered heads",
+        "caption": null,
+        "credit": null,
+        "height": 95,
+        "public_path": "/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-1.jpg",
+        "repository_path": "public/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-1.jpg",
+        "rights_note": "No image credit or separate licence is printed. Extracted clean grayscale base object 100 (76 × 95) from the miniature issue cover in the report heading. The separately painted issue masthead/date/motto, border, shadow tiles (objects 94–99), and surrounding report furniture are omitted. Underlying composition and orientation retained; no embedded text or opaque reading panel remains. Grayscale source converted to baseline sRGB JPEG with native dimensions and nonzero 72-dpi density; no CMYK inversion or synthesized pixels.",
+        "role": "report header illustration",
+        "sequence": 1,
+        "source_page": 27,
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note"
+        },
+        "width": 76
+      },
+      {
+        "alt": "Audio cassette tilted counterclockwise",
+        "caption": null,
+        "credit": null,
+        "height": 51,
+        "public_path": "/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-2.jpg",
+        "repository_path": "public/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-2.jpg",
+        "rights_note": "No image credit or separate licence is printed. Extracted cassette base object 160 (58 × 37) and rendered only that object with its published transform [55.9431, 14.9884, -9.4089, 35.1179] at native effective resolution, producing 66 × 51 pixels and retaining the approximately 15-degree counterclockwise orientation. White canvas accommodates the rotation; no content was synthesized. The same cassette is used twice in the excluded New Tape Sets advertisement on page 28; those ad instances are not additional article exports. Baseline sRGB JPEG with nonzero 72-dpi density.",
+        "role": "report header illustration",
+        "sequence": 2,
+        "source_page": 27,
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note"
+        },
+        "width": 66
+      },
+      {
+        "alt": "Six people standing together in a room lined with cassette boxes",
+        "caption": null,
+        "credit": null,
+        "height": 277,
+        "public_path": "/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-3.jpg",
+        "repository_path": "public/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-3.jpg",
+        "rights_note": "No image credit or separate licence is printed. Extracted sole family-photo base object 101 (385 × 277), in published upright orientation. The white rounded corners and softened photo edge are baked into this raster and are retained as an unavoidable layout treatment because no rectangular clean base exists; separately painted outer article frame/shadows are omitted. No title, caption, or text overlay is present. Grayscale source converted to baseline sRGB JPEG with native dimensions and nonzero 72-dpi density; no CMYK inversion or synthesized pixels.",
+        "role": "family photograph",
+        "sequence": 3,
+        "source_page": 27,
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note"
+        },
+        "width": 385
+      }
+    ],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Charity Gospel Tape Ministry &\nThe Heartbeat of The Remnant",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "start": 27
+    },
+    "subtitle": "January – December 2001",
+    "title": "Year End Financial Report",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a4f67477fb1166c802f0abdbb99d78ed589ca8d03da95c31c504fb2ea1e74495",
+    "metadata_sha256": "ebb10e105c9c47cd7c6cdf7eb9c6316417e1b3558a50dba6e2504f24718f2a3c",
+    "structure_sha256": "74126b375f8897e677e04b0657df203edd09b9fc336db571afefc6c681d692e7",
+    "text_sha256": "e50fce6615c4d5b713f0b5bb50bfb2d5be0bc54232936827efdeb2b1adee1c1a",
+    "translation_metadata_sha256": "38b985036715982a2c0d6d7c0f265c8b56f6f2a926149c374163ae7919372aa8"
+  },
+  "html": "<article data-article-id=\"e287ea36-8b9d-4d08-aa35-d9a6b7113981\">\n  <figure>\n    <img src=\"/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-1.jpg\" alt=\"Grayscale illustration of women with covered heads\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-2.jpg\" alt=\"Audio cassette tilted counterclockwise\">\n  </figure>\n  <h2><em>New Family Joins Charity Ministries</em></h2>\n  <p>Three months ago, as we sat in the regular board meeting for <em>The Remnant</em> publication, and the Tape Ministry, some needs were laid on the table for discussion. The ministry had been growing and expanding, presenting us with several blessed challenges which demanded solutions. The practical sides of these challenges were discussed as follows:</p>\n  <ul>\n    <li><em>We need more volunteer workers in the tape ministry.</em></li>\n    <li><em>As the Remnant grows, we need help in the pre-publication process.</em></li>\n    <li><em>The Web site is in need of much more development.</em></li>\n    <li><em>We need a man who has management abilities to oversee and co-ordinate all of the new personnel.</em></li>\n    <li><em>This manager needs to be an older man with authority so that young ladies can volunteer and all will work together appropriately.</em></li>\n    <li><em>It would be nice to have an older sister who could take some of the many counseling calls from sisters who need advice.</em></li>\n  </ul>\n  <p>While all of these needs were on the table for consideration, someone mentioned the David Mong Family from the congregation in Bedford, PA. It was stated that Brother David had experience in management, and we all agreed that I should look into the possibility of him coming to help in the work.</p>\n  <p>So I sat together with the whole family and shared with them the needs we had in the ministry. I then asked Brother David if he had any leading to come and help us. The whole family sat as if in awe. David answered, “We have been earnestly praying as a family since April for God to use us in building His Kingdom.” The answer had come.</p>\n  <figure>\n    <img src=\"/images/articles/e287ea36-8b9d-4d08-aa35-d9a6b7113981-3.jpg\" alt=\"Six people standing together in a room lined with cassette boxes\">\n  </figure>\n  <p>Consider how the Lord took care of our many needs:</p>\n  <ul>\n    <li><em>David can handle the management needs very well.</em></li>\n    <li><em>David is an older man and can provide the proper authority and oversight to open the door for young ladies to help.</em></li>\n    <li><em>David’s wife, Elizabeth, has good computer skills, and she has a burden to counsel with sisters.</em></li>\n    <li><em>Their two girls, Megan and Lauren, have computer, editing, and data entry skills.</em></li>\n    <li><em>Alex has computer skills, and he can help in making tapes also.</em></li>\n    <li><em>Lorraine Wurtz, who is currently living with them, can also help in the tape room and fill in at home with some of the domestic work.</em></li>\n  </ul>\n  <p>The Lord answered all the needs with one suggestion! We are grateful for the whole family and the many ways that they have all pitched in to strengthen and expand the work. They moved here from Bedford, PA about the time of Bible school, and they have been learning and serving ever since. The Remnant and Tape Ministry offices have taken on a beautiful family atmosphere.</p>\n  <p>We continue to function as a faith ministry, which has great challenges, but exciting blessings. You will find a financial statement for the year listed below. There are many opportunities that lie ahead of us, especially as we have funds to develop the new web site. All of us here thank all of you out there who have prayed for us and supported the ministry with your gifts. We have received so many letters informing us of the daily prayers that are lifted up for us. Thank you, and know this, that much thanksgiving is rising up before God because of your kind help.</p>\n  <p>The tapes continue to go out as usual—over one hundred fifty thousand of them this last year. The testimonies of changed lives because of them are more than we can share with you.</p>\n  <p>The Remnant publication has grown by one thousand five hundred copies through this last year. We have been so encouraged by the responses we received.</p>\n  <p>The new Charity Ministries web site is receiving three thousand solid visits per month, from all over the world. Many orders are being made through this new avenue, saving us much labor and phone costs.</p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">01/01/01 Beginning Balance</th><td><strong>$1,294.00</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$210,851.86</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$28,589.00</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$239,440.86</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$23,256.57</td></tr>\n      <tr><td>Tapes &amp; Albums</td><td>$120,744.29</td></tr>\n      <tr><td>Computer/Equipment/Supplies</td><td>$14,691.77</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$1,325.35</td></tr>\n      <tr><td>Rent &amp; Electric</td><td>$3,192.21</td></tr>\n      <tr><td>Telephone</td><td>$5,440.93</td></tr>\n      <tr><td>Miscellaneous</td><td>$3,088.42</td></tr>\n      <tr><td>Payroll Expense</td><td>$22,572.50</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$3,875.67</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$40,276.17</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$238,463.88</strong></td></tr>\n      <tr><th scope=\"row\">12/31/01 Ending Balance</th><td><strong>$2,270.98</strong></td></tr>\n      <tr><th scope=\"row\">Difference</th><td><strong>$976.98</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0185ee06aad113e4791244a3fcd97decf07eaf276a2b5f266655d3772336f8d9"
+}

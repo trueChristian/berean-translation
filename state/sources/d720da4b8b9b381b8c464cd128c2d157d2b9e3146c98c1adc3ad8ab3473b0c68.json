@@ -1,0 +1,82 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "78563ba6-9c38-470a-9690-6a206c55e2e7",
+    "images": [
+      {
+        "alt": "A mailbox bearing the magazine’s name and address, with flowers climbing its post",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/78563ba6-9c38-470a-9690-6a206c55e2e7-1.jpg",
+        "repository_path": "public/images/articles/78563ba6-9c38-470a-9690-6a206c55e2e7-1.jpg",
+        "rights_note": "Clean embedded mailbox illustration object 140; intrinsic mailbox lettering and gray raster substrate retained. Separately painted rounded section panel, section title, invitation text, Scripture panel, rules and running footer omitted. DeviceGray source converted to RGB/sRGB; no CMYK inversion. Image dictionaries, page resources, paint order, clipping and graphics state were inspected; there are no masks, tiles, transparency groups or opacity washes. No asset-specific credit or permission notice is printed; issue-level image credits do not identify this asset. Final source-crop correspondence, centre, edges and corners were visually checked. Complete Pillow and FFmpeg decoding completed without warnings; Skia Canvas rendering visually passed.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "standards-normalized baseline JPEG, quality 95, 4:4:4, 96 dpi, embedded sRGB profile",
+          "method": "original embedded image; grayscale converted to RGB without changing luminance",
+          "output_dimensions": [
+            180,
+            290
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            180,
+            290
+          ],
+          "source_object": 140
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "complete baseline JPEG; nonzero density; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "99e30c2e-a1a4-5da7-9ca7-8587269a4246"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4d0c92a5c0de9bd02f533305669b487aad89de2cc7fbb8085b5468aee8ce1f1f",
+    "metadata_sha256": "925bc76f83391a2e35a4fbe8caaffce43fb75b822c3fa1710400cf705aae05bc",
+    "structure_sha256": "229fcee42189962e31eea494cd46b83735690f3b5ec6d1c125c2b42e4bd1dd7d",
+    "text_sha256": "35905bd08ca5c1e98af2f866ee792f7a3de849b4b07c3ed29fa8ddb34915aff0",
+    "translation_metadata_sha256": "203351a1a97917352c1f489d8e7507524912d0cc08144a8f10b1a8f041a6da4e"
+  },
+  "html": "<article data-article-id=\"78563ba6-9c38-470a-9690-6a206c55e2e7\">\n  <figure>\n    <img src=\"/images/articles/78563ba6-9c38-470a-9690-6a206c55e2e7-1.jpg\" alt=\"A mailbox bearing the magazine’s name and address, with flowers climbing its post\">\n  </figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <p>Dear Friends,</p>\n  <p>Thank you for the good work that you are doing in sending out the words of life. There is much that I can testify about my life as a result of reading your materials and listening to Charity Gospel Tapes.</p>\n  <p>My heart will be at rest or peace when the work of Charity will start in Kenya. I’m still praying that God will make it possible. What I have read and listened to I would like it to reach many who are in need of the true Word of God</p>\n  <p>I know there are many missions and churches in Kenya but I can testify that what I have tasted with you, I can liken it to the account of Jesus and the Samaritan woman. No other wells could have solved her problem but when she drunk from Jesus’ well, all was settled.</p>\n  <p>God bless you and strengthen you in the work.</p>\n  <p><em>Musungu, Kenya</em></p>\n  <p>Dear Sir</p>\n  <p>We would hereby just like to thank you for sending us ‘The Heartbeat of the Remnant’.</p>\n  <p>We have been truly blessed by it. Here in Namibia we have a small Fellowship of believers and have been sharing many of the articles among the brethren. We can only testify that the Spirit of the Lord makes us all part of His body in Christ, because we are of the same mind.</p>\n  <p>May the Lord bless you as you give so freely that which you have received.</p>\n  <p>Yours sincerely in Christ,<br>Llewellyn and Roline<br><em>Namibia</em></p>\n  <blockquote>\n    <p>Ho, every one that thirsteth, come ye to the waters,<br>and he that hath no money; come ye, buy, and eat; yea, come,<br>buy wine and milk without money and without price.   Isaiah 55:1</p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "d9fdbf96b4f261a812e6b76aee22e50dd14e519fdafa6db8fb98b1004b994933"
+}

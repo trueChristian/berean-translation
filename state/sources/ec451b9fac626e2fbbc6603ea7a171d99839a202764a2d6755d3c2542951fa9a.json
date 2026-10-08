@@ -1,0 +1,90 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Perkins, OK",
+          "name": "Anna L. Martin"
+        }
+      ],
+      "raw": "Anna L. Martin\nPerkins, OK"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "41840dd1-50a8-4995-aeab-dc46da8a1509",
+    "images": [
+      {
+        "alt": "Makeup brushes arranged around a compact of pressed powder",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-1.jpg",
+        "repository_path": "public/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-1.jpg",
+        "rights_note": "No caption, image credit, licence, or separate permission notice is printed for this photograph. Three embedded inverted-Adobe CMYK JPEG fragments were sample-inverted, converted to sRGB, assembled at their published seam positions, recovered without the section strip, and baseline re-encoded at 300 dpi.",
+        "role": "article opener photograph",
+        "sequence": 1,
+        "source_page": 32
+      },
+      {
+        "alt": "A pale pink lipstick in a silver tube",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-2.jpg",
+        "repository_path": "public/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-2.jpg",
+        "rights_note": "No caption, image credit, licence, or separate permission notice is printed for this photograph. Four embedded inverted-Adobe CMYK JPEG fragments were sample-inverted, converted to sRGB, assembled vertically without article overlays, and baseline re-encoded at 300 dpi.",
+        "role": "decorative cosmetics photograph",
+        "sequence": 2,
+        "source_page": 33
+      },
+      {
+        "alt": "Perfume bottles arranged with white and purple flowers",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-3.jpg",
+        "repository_path": "public/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-3.jpg",
+        "rights_note": "No caption, image credit, licence, or separate permission notice is printed for this photograph. Three embedded inverted-Adobe CMYK JPEG fragments were sample-inverted, converted to sRGB, assembled at their published overlap seams, and baseline re-encoded at 300 dpi.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "When Mothers Concede",
+    "topics": [
+      "9690a7f5-1591-5eaa-b967-4015215c3661",
+      "a0f330a9-9a11-5cfb-8a7e-cbef22c118a6",
+      "8b345ddb-8046-5651-b04f-924af67af18b",
+      "aec2d105-5676-51d9-9192-25e3480c7fa5",
+      "da97cb19-bcd2-5866-8aad-9b808a6b0430",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba",
+      "e91cd9ec-e21c-57b8-a1ae-879d3fee3864"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3a5d0023f621a17728a6981b5a0173a2f2de7d5e5d8c7f62e300e183ab7fa00e",
+    "metadata_sha256": "cadecf5da1ea453cfae134cfaedb5d2482907d4e65110e4c1c10f90f165e4297",
+    "structure_sha256": "d5d5d9418129feb5070ad0774213c8bfe94b6572e802b43e99efdc4160e30d36",
+    "text_sha256": "aa8610e168369aaeb46ce333b9c5e82c07413bf3e3dc90dc8bb56d0fedb000cf",
+    "translation_metadata_sha256": "4331c5ff4a20a0d10692c68ec2f0ae37d5d15457941096e316093952ea87184a"
+  },
+  "html": "<article data-article-id=\"41840dd1-50a8-4995-aeab-dc46da8a1509\">\n  <figure>\n    <img src=\"/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-1.jpg\" alt=\"Makeup brushes arranged around a compact of pressed powder\">\n  </figure>\n  <p class=\"drop-cap\">“What are plain mothers of today telling their daughters about the carousel of cosmetics proffered for women?” This is a question I have pondered many times as I observe the girls in the church benches grow into womanhood. My wonder is weighted with concern. Listen in with me as two sisters talk about this topic.</p>\n  <p>“What do you do about things like a touch of acne cover-up or even make-up?” Minnie asked the sister sitting across the table from her. “Would you let your girls use them?”</p>\n  <p>This wasn’t exactly a normal tea-time topic. Krista tightened inside, wondering where Minnie might be going with this question. “What do you mean?” she replied. “Make-up…what do you mean by that? I guess that’s not something I’ve considered as an option for our girls. Now something to cover acne seems different to me. I’ve used that myself, and I’m a mom!”</p>\n  <p>Minnie chuckled with Krista over her sheepish confession before explaining herself. “When I was a young woman, I didn’t struggle with wanting to wear perfume or jewelry or even make-up. But now…my girls keep asking about things, and I’m not sure what to tell them. Recently a question came up about Ava and her struggle with her pale complexion. My oldest daughter said, ‘You know, Mom, if those of us with dark complexions pluck our eyebrows so they don’t stand out as much, is it any worse if Ava darkens hers? You know, just to add a little character to her face. Or maybe just a dab of color on her cheeks. Some of us wear acne cover up. What’s the difference? Is there any harm in that?’”</p>\n  <p>Krista nodded and shrugged in one expressive, noncommittal movement. “I can understand that reasoning.”</p>\n  <p>Minnie’s responsive shrug and nod looked a lot like Krista’s as she continued with her story. “I can see their point, too. I told the girls I don’t know; maybe it doesn’t matter as much as I thought it did. And besides, when I look around at the rest of our young women, I see the same things. I kind of wonder if I’ve changed, or if the times have changed, or what. I don’t remember seeing these things in the church when I was younger.”</p>\n  <p>Krista nodded again, this time with certainty. But Minnie had more to say. “It was the same way when the girls wanted to start wearing body sprays and perfumes. My husband didn’t want them to, and neither did I, but I didn’t have a good reason to tell them not to. It’s hard because when you let the oldest one do one thing, it gets passed on down the line. I still don’t like it, but I tell myself it’s probably just my personality to not like scents…” Her voice hung uncertainly between the two women, then she shrugged off a closing comment. “It’s not like it’s dangerous or anything.”</p>\n  <p>Krista nodded again, anxious to get the subject changed. She didn’t have answers, and Minnie’s conclusion was simple enough: these things young women were using lately weren’t really dangerous. Or were they?</p>\n  <hr>\n  <figure>\n    <img src=\"/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-2.jpg\" alt=\"A pale pink lipstick in a silver tube\">\n  </figure>\n  <p>This incident was occupying my mind the morning after I heard about it when my small son crowed just a little too happily. His tone tugged my attention into the kitchen where he rocked on a rickety chair. He waved a serrated knife in the air, laden with apple cake crumbs, burbling about his victory in reaching such an item. My dismay tried to stir me from my chair, but I laid a staying hand over my concern. He was so happy, after all. I had just sat down for what felt like the first time in the morning and I hardly had the energy for another battle—even just a battle with a baby over a knife. I felt like I had been waging battles all morning, maybe all my motherhood.</p>\n  <p>It wasn’t that dangerous, surely. He’d lay it down in a moment and go on to do something else. What were the odds he would actually fall and get hurt? And he was plainly pleased to experiment with his ability to reach things hitherto forbidden. It felt good to see him happy. (What is it in our mother-hearts that irresistibly, sometimes unreasonably, responds to seeing our children happy?)</p>\n  <p>His eyes glittered with triumph as he held the knife over the cake pan, pushing his tummy against the table edge in order to get a few more oh-so-sweet crumbs. The chair began scooting out from under his fat little legs. Should I take the moment to teach another lesson or should I take the chance he wouldn’t get hurt?</p>\n  <p>The thought of the serrated edge and his ignorant pink tongue won out. There are dangers in this big world he can’t imagine, reasons for the boundaries set around him he doesn’t comprehend. But his mother knows. I understand what knives are for. They are tools and they are not for children.</p>\n  <hr>\n  <p>This is a call for us mothers. This is a plea for ladies to recognize the dangers of these entrapments. This is for ones who have tasted the sweet, crumby edge of this world’s tools for women. <em>This is for those of us with daughters.</em></p>\n  <p><em>What are we teaching them?</em> What are we saying to them when they beg for that first bottle of body spray? What is our response when they appear for the third or three-hundredth time with their hair nattily arranged in a style we know our husbands do not approve of? What do we do when they pull a snug little shrug from the sweater rack and say, “Aw, Mom, you’re just outdated…”?</p>\n  <p>The body spray turns into perfume, and the perfume gets louder until it brazenly wears titles a married woman should blush to see, let alone a young girl possess. The hairstyles ebb and flow with the trends, drooping here a little, curling there a little, and—God forbid—occasionally glinting with highlights. The shrugs get tighter, and the sleeves get shorter until it becomes hard to see there is a plain dress under the layers of pullover knits.</p>\n  <p>And you respond, <em>maybe it’s not as dangerous as I thought it was.</em> What is this? Is it the surrendering sigh of a mother unable to pass her principles on to her teenage daughters? Perhaps, like me, you also find it challenging to take time for the baby of the family. The knife in his hand, after all, makes him happy. And that is refreshing after a morning of tantrums. Besides, you know how yummy cake crumbs are. It’s not like it’s really dangerous or anything.</p>\n  <p>He might pierce his tongue or stab out his eye, but otherwise, the risks are low.</p>\n  <p>The Bible says <em>…it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire –Mar 9:47.</em> This is a hard gospel. (We weren’t promised an easy one.) But the beginning of the verse offers an obvious yet often overlooked escape route—if something causes you to offend, or be offended, cast it far from you.</p>\n  <p>The context of that verse is Jesus’ words on offending the little ones. Do your daughters fall outside that label? Have you taught them to cast away the worldly enticements that, long term, will offend their eternal souls? The word offend is easy to read over, yet it is piled with portent. Earlier in the chapter, Jesus references it with words like “millstone” and “woe.”</p>\n  <p>I am proposing that we mothers are responsible in this offending by failing to teach our little ones—our girls—about true womanly adornment. <em>But let it [the adornment] be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves… –1Pe 3:4-5.</em> That millstone word applies to each of us. Jesus says, <em>…woe to that [wo]man by whom the offence cometh! –Mat 18:7.</em> He emphasizes this statement in Scripture with an uncharacteristic exclamation point.</p>\n  <p>If the mothers and women who once chose to abstain from habits which belong to women of the world don’t have enough reason for their daughters to do the same, hope is extinguished for the future modesty of our churches. Today, the embers flicker uncertainly as fellow coals grow cold. The plain churches as a whole are on a terrible slide of immodesty, both inside and out. <em>Who is a wise [wo]man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom –Jas 3:13.</em></p>\n  <p>The worldly woman’s trappings are tools of the enemy and they are not for the children of God.</p>\n  <figure>\n    <img src=\"/images/articles/41840dd1-50a8-4995-aeab-dc46da8a1509-3.jpg\" alt=\"Perfume bottles arranged with white and purple flowers\">\n  </figure>\n  <p>This is a plea, a call, for us mothers to stand up. Are we brave enough, committed enough, to teach the younger women the serrated dangers of this lustful world?</p>\n  <p>All around us in the church is the evidence of mothers who are on break. Mothers rocking serenely, happy to see their children happy. Their conviction and fight for truth evaporated somewhere between the first and last child. Our children will pay for this offense.</p>\n  <p>Our girls need answers. Young women need intentional guidance. Newlyweds need rebuke when they start getting off track. The downward spiral of decaying standards is about to spin with a vengeance as young-married sisters begin to raise a new generation of daughters on Pinterest and pedicures. Hoping they won’t get hurt is not going to cut it.</p>\n  <p>The principles of holy living for a Christian woman have not changed. Neither has the sin that motivates the world. What, then, has changed? We as sisters have lost sight of the clear difference that God says should exist between the women of God and the women of this world.</p>\n  <p>For the cause of our Lord Jesus Christ, let’s take a stand and be a teacher of good things. Whatever our stage in life, there is a younger woman coming behind us. Let us teach them <em>…that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world –Tit 2:12.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a26fc0f22b6357e9064d79cc3f4f47df37d40a388abff843b46c8799820b601c"
+}

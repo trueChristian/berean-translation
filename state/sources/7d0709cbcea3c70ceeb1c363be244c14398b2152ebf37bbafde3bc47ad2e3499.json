@@ -1,0 +1,127 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "E. M. Bounds",
+          "role": null
+        }
+      ],
+      "raw": "by E. M. Bounds"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "864fd53d-da40-4478-9e1c-e62177efa866",
+    "images": [
+      {
+        "alt": "Crowds gathered outside large revival tents",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 71,
+        "public_path": "/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-1.png",
+        "repository_path": "public/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-1.png",
+        "rights_note": "Original embedded PDF image object 71; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; PNG retained without lossy conversion.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            525,
+            357
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 71,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            525,
+            357
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A preacher addressing a large outdoor gathering among trees and tents",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 75,
+        "public_path": "/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-2.jpg",
+        "repository_path": "public/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-2.jpg",
+        "rights_note": "Original embedded PDF image object 75; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 19,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            729,
+            463
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 75,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            729,
+            463
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "pages": [
+        18,
+        19,
+        27
+      ],
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Revivals That Stay",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "7f8e6e3c-322b-5d2d-b390-05235f99a977"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7127e0637563b975ebe551b4a23fff42d88d87178a5fd53ea8b9d6fa0e91281e",
+    "metadata_sha256": "6bb5886b17fffe8c3bafbb5c33d4e0772454520dd44cb8eb1edfeeba9b254b68",
+    "structure_sha256": "0aa0b281c3c668aef61bd15a04be9d3c4a5715f7cbc6db7b93ecb0d2d81099f2",
+    "text_sha256": "7876a1f02ec20b08fc7b7a253bc7421df1dfd6f889fb0048949db58abb818897",
+    "translation_metadata_sha256": "095009d8dd57f5f156485c90ed1ca4207c6e8008b6308f35171c2c67933508e6"
+  },
+  "html": "<article data-article-id=\"864fd53d-da40-4478-9e1c-e62177efa866\">\n  <figure><img src=\"/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-1.png\" alt=\"Crowds gathered outside large revival tents\"></figure>\n  <p>Revivals are among the charter rights of the church. They are the evidences of its divinity, the tokens of God’s presence, the witness of his power. The frequency and power of these extraordinary seasons of grace are the tests and preservers of the vital force in the church. The church which is not visited by these seasons is as sterile in all spiritual products as a desert, and is not and cannot meet the designs of God’s church. Such churches may have all the show and parade of life, but it is only a painted life.</p>\n  <p>The revival element belongs to the individual, as well as to the church, life. The preacher whose experience is not marked by these inflows of great grace may question with anxious scrutiny whether he is in grace. The preacher whose ministry does not over and over again find its climax of success and power in these gracious visitations of God may well doubt the genuineness of his call, or be disquieted as to its continuance.</p>\n  <p>Revivals are not simply the reclamation of a backslidden church. They do secure this end, but they do not find their highest end in this important result. They are to invigorate and mature by one mighty act the feeble saints; they also pass on to sublimer regions of faith and experience the advanced ones of God’s elect. They are the fresh baptisms—the more powerful consecration of a waiting, willing, working church to a profounder willingness, and a mightier ability for a mightier work. These revivals are the pitched battles and the decisive victories for God, when the slain of the Lord is many, and his triumph glorious.</p>\n  <p>There are counterfeit revivals well executed, well calculated to deceive the most wary. These are deceptive and superficial, with many pleasant, entertaining, delusive features, entirely lacking in the offensive features which distinguish the genuine ones. The pain of penitence, the shame of guilt, the sorrow and humiliation of sin, the fear of hell—these marks of the genuine are lacking in the counterfeit. The test of a genuine revival is found in its staying qualities. The counterfeit is but a winter spurt, as evanescent and fitful as the morning cloud or early dew—both soon gone—and the sun but the hotter for the mockery of the cloud and because of the fleeting dew. These surface revivals do more harm than good, like a surface thaw in midwinter which only increases the hardness and roughness of tomorrow’s freeze. The genuine revival goes to the bottom of things; the sword is not swaddled in cotton, nor festooned with flowers, but pierces to the dividing asunder of soul and spirit and of the joints and marrow.</p>\n  <p>A genuine revival marks an era in the life of the church. It plants the germs of the great spiritual principles which grow and mature through all the changing seasons that follow. Revival seasons are favoring seasons, when the tides of salvation are at their flood, when all the waves and winds move heavenward...days of emancipation and return and rapture. The church needs revivals; it cannot live, it cannot do its work without them. Revivals which will lift it above the sands of worldliness that shallow the current and impede the sailing. Revivals which will radicate the great spiritual principles, which are worn threadbare in many a church. It is true that in the most thorough work some will fall away, but when the work is genuine and far-reaching, as it ought to be, the waste will scarcely be felt in the presence of the good that remains.</p>\n  <figure>\n    <img src=\"/images/articles/864fd53d-da40-4478-9e1c-e62177efa866-2.jpg\" alt=\"A preacher addressing a large outdoor gathering among trees and tents\">\n  </figure>\n  <p>The first element, in a revival whose effects will stay, is that the revival spring from within the church, the native outgrowth of the spiritual condition of the church. The so-called revivals do not spring from the repentance, faith, and prayers of the church, but are induced by foreign and outside forces. Many of the religious movements of the day have no foundation in the travailing throes of the church. By outside pressure, the presence and reputation of an evangelist, of imported singers and imported songs, an interest is awakened, a passing impression made, but these are quite different from the concern aroused by the presence of God and the mighty power of his almighty Spirit. In the manufactured revival there is an interest which does not deepen into conviction, which is not subdued into awe, which cannot be molded into prayer, nor agitated by fears. There is the utter absence of the spirit of prayer; neither has the spirit of repentance any place; lightness and frivolity reign; tears are strange and unwelcome visitors. The church-members, instead of being on their knees in intercession, or mingling their wrestling cries with the wrestling penitents, or joining in rapturous praise with their rapturous deliverance, are simply spectators of a pleasing entertainment, in which they have but a momentary interest, the results of which, viewed from a spiritual standpoint, are far below zero. A revival means a burdened church and a burdened pastor and burdened penitents.</p>\n  <p>The revival whose results are gracious and abiding must spring from the spiritual contact of pastor and church with God. A season of fasting and prayer of deep humiliation and confession are the conditions from which a genuine and powerful work springs.</p>\n  <p>The nature of the preaching is of the first importance. Its character will grade the converts and measure the depth of the work. The word of God in its purity and strength must be given. The law of God in its spiritual demands must arouse the conscience, and pierce and lay bare the heart. If there ever is a time for sentimental anecdotes, for the exercise of wit, if the preacher is ever justified in pausing to soften the sympathies or inflame the fancy, it is not at this period.</p>\n  <p>The object must not be to increase the impulses, or move on the surface, or work on tender emotions, but to convict the conscience, search out the sinner and expose his sins, to alarm the guilty soul, and intensify the faith and effort of the believer. The word of God is the imperishable and vitalizing seed. The Spirit of God is the quickening energy that is to be let loose. The word of God is the sword of the Spirit. The sword must be unsheathed, and cut with both edges.</p>\n  <p>The spirit of prayer must be the one evident and prevailing spirit. The spirit of prayer is but the spirit of faith, the spirit of reverence, the spirit of supplies, of grace, and mercy and is increased. This spirit holds in its keeping the success of the word and power of the Holy Spirit; as the spirit of prayer fail these fail. If the spirit of prayer is absent or is quenched, God is not in the assembly. He comes and stays only in the cloud of glory formed by the incense of a church whose flame of prayer is ascending to him. All genuine revivals are simply God coming with great grace to his Church. The revival that springs from heart contact of the church with God, which is directed and intensified by the pure preaching of the pure word of God, and in which, and through which, prayer, mighty prayer, prevails, will be a revival that will stay in its coming.</p>\n  <p>Taken from <em>Christian Advocate</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "8e2b3b00e87ad85b288d390a69001a9ef04c51fee4417ff9f1bce170eb7523b5"
+}

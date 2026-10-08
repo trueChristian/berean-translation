@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "eae04170-ac94-4f14-b0dd-64726d9eca20",
+    "images": [
+      {
+        "alt": "A sword over blue storm clouds and lightning above a dark tree line.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eae04170-ac94-4f14-b0dd-64726d9eca20-1.jpg",
+        "repository_path": "public/images/articles/eae04170-ac94-4f14-b0dd-64726d9eca20-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 110. The lightning, sky, tree line, and translucent sword are one embedded source composite. Separately painted poem title, poem text, mailing address, logo, postage panel and rule omitted. Cropped only the bleed to the published page trim, rounded to the nearest source pixels (1275 by 1650); no rotation, flip, synthetic reconstruction, or retouching. The PDF source profile is sRGB IEC61966-2.1. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "poem background illustration",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": "Extracted PDF base image object 110. The lightning, sky, tree line, and translucent sword are one embedded source composite. Separately painted poem title, poem text, mailing address, logo, postage panel and rule omitted. Cropped only the bleed to the published page trim, rounded to the nearest source pixels (1275 by 1650); no rotation, flip, synthetic reconstruction, or retouching. The PDF source profile is sRGB IEC61966-2.1. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "A Warrior’s Prayer",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "1ce0296135ec1b0b96dc3214635195cd274e6c789aa0e52d6d8662825dec5041",
+    "metadata_sha256": "75da74080f232a8f6636bf30c72c4a0c6d339e0f7fd2e5dad3468e65e2443ac9",
+    "structure_sha256": "e8525a2b8ff5a14ef17fe4b0a403d4ee0b2e5421fbf970ff8059ceeaad12a60b",
+    "text_sha256": "82ff4ec8a982318cb79a5555bb2ee6efb70ae689f06b0167d7dd4c313afb444d",
+    "translation_metadata_sha256": "586e2067246fcbe9858c0c5bd8779d4cf4ee1e602818a6bdc4a92de0fbaae12f"
+  },
+  "html": "<article data-article-id=\"eae04170-ac94-4f14-b0dd-64726d9eca20\">\n  <figure><img src=\"/images/articles/eae04170-ac94-4f14-b0dd-64726d9eca20-1.jpg\" alt=\"A sword over blue storm clouds and lightning above a dark tree line.\"></figure>\n  <p class=\"poem\">Heavenly Father,<br>Your warrior prepares for battle.<br>Today I claim victory over Satan by putting on<br>The whole armor of God!</p>\n  <p class=\"poem\">I put on the girdle of truth!<br>May I stand firm in the truth of your Word<br>So I will not be a victim of Satan’s lies.</p>\n  <p class=\"poem\">I put on the breastplate of righteousness!<br>May it guard my heart from evil<br>So I will remain pure and holy,<br>Protected under the blood of Jesus Christ.</p>\n  <p class=\"poem\">I put on the shoes of peace!<br>May I stand firm in the good news of the gospel<br>So your peace will shine through me<br>and be a light to all I encounter.</p>\n  <p class=\"poem\">I take the shield of faith!<br>May I be ready for Satan’s fiery darts<br>Of doubt, denial and deceit<br>So I will not be vulnerable to spiritual defeat.</p>\n  <p class=\"poem\">I put on the helmet of salvation!<br>May I keep my mind focused on You<br>So Satan will not have a stronghold on<br>my thoughts.</p>\n  <p class=\"poem\">I take the sword of the Spirit!<br>May the two-edged sword of your Word<br>Be ready in my hands<br>So I can expose the tempting words of Satan.</p>\n  <p class=\"poem\">By faith your warrior has put on<br>The whole armor of God!</p>\n  <p class=\"poem\">I am prepared to live this day<br>in spiritual victory!</p>\n  <p class=\"poem\">Amen.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "8e14a0c54a7db8a0da31264f8a3e5473eb9846a2f3bd465f1c30b963d39644a9"
+}

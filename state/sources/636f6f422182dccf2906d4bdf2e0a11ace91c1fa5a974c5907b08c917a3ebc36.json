@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Jennifer Rene’Daniel"
+        }
+      ],
+      "raw": "by Jennifer Rene’Daniel"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7a286672-8be3-4e14-a9ca-f1780d9845b6",
+    "images": [
+      {
+        "alt": "A man walking with a staff while bent beneath a large burden",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7a286672-8be3-4e14-a9ca-f1780d9845b6-1.jpg",
+        "repository_path": "public/images/articles/7a286672-8be3-4e14-a9ca-f1780d9845b6-1.jpg",
+        "rights_note": "PDF image object xref 151. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Source-pixel crop [38, 207, 743, 1685]. The only raster contains poem typography and a translucent panel on its right side. This useful unobstructed source-pixel crop preserves the left portion with the burdened figure and staff, omitting all baked poem text and reading panel. The right edge of the figure is outside the crop. Separate mailing typography is omitted; crop stays within the printed PDF clipping bounds. No pixels synthesized. Original RGB source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article background illustration",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "I See a Person Bending",
+    "topics": [
+      "bc95d774-390e-5ae4-bd4e-bae247259b87",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e3923c70a9a68870cd6ff4dbaf20bf7082462bb904fcaa026845c0c94faa0c72",
+    "metadata_sha256": "19888f06008282dcdd18c6a4508798e712fec910b4493b4313b66ecd315e31bd",
+    "structure_sha256": "623cf8ea084e2aba01835dbb5509306f62f9a2fa1836b5a1239cad358f997cd0",
+    "text_sha256": "4ddd434a6a64a6830951dc41fe0005590e3e8765aceb74112f3635c0f1216c2c",
+    "translation_metadata_sha256": "d671fdc2f931e5189d631bb3eada5e0b8f72562f4e18bf408c0e1f4e03b4e920"
+  },
+  "html": "<article data-article-id=\"7a286672-8be3-4e14-a9ca-f1780d9845b6\">\n<figure>\n  <img src=\"/images/articles/7a286672-8be3-4e14-a9ca-f1780d9845b6-1.jpg\" alt=\"A man walking with a staff while bent beneath a large burden\">\n</figure>\n<p class=\"poem\"><strong>I see a person bending<br>Beneath a heavy load<br>So many “whys” and “wherefores”<br>Are in that burden stowed<br>Each day the weight is growing<br>The back more crooked bent<br>Despairing and despondent<br>The heart within is rent!</strong></p>\n<p class=\"poem\"><strong>But outstretched hands are waiting<br>Within each laden day<br>A whispering voice is pleading<br>Upon his darkened way<br>Give up your burden dear one<br>Just hand it o’er to Me<br>Then you can walk uprightly<br>My way more clearly see!</strong></p>\n<p class=\"poem\"><strong>Oh change the “whys” and “wherefores”<br>And let God’s will be done<br>For child, when they are lifted<br>‘Tis half the battle won<br>The load is so much lighter<br>The path more smooth ahead<br>When God doth bear beside you<br>That crushing load of lead!</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "9a2c70ea8e2d69363e52ac1c5c225969e605fe5adfb682c574f9b2851685002a"
+}

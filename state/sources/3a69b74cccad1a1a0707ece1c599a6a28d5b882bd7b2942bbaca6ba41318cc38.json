@@ -1,0 +1,240 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millersburg, Ohio",
+          "name": "Paul Hershberger"
+        }
+      ],
+      "raw": "Paul Hershberger\nMillersburg, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "c8e8ffd0-a26f-45b5-b681-047c36258d73",
+    "images": [
+      {
+        "alt": "Parents walk along a garden path with two young children.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-1.jpg",
+        "repository_path": "public/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-1.jpg",
+        "rights_note": "Page 2 credits © Brimming Focus Photography for page 26. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 115, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            841,
+            2215
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            841,
+            2190
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1692,
+            2215
+          ],
+          "source_object": 115,
+          "vertical_scale": 0.9885539768954986
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "An open book and green flowers rest on a wicker basket beside a tree.",
+        "caption": null,
+        "credit": "© Nadiika Kravets",
+        "public_path": "/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-2.jpg",
+        "repository_path": "public/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-2.jpg",
+        "rights_note": "Page 2 credits © Nadiika Kravets for page 27. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 119, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. The book’s printed lettering is intrinsic photograph content, not a publisher-added overlay. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            882,
+            0,
+            1724,
+            2274
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            842,
+            2231
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1724,
+            2274
+          ],
+          "source_object": 119,
+          "vertical_scale": 0.9811164571369445
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A family walks away along a garden path amid trees and tall grasses.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-3.jpg",
+        "repository_path": "public/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-3.jpg",
+        "rights_note": "Page 2 credits © Brimming Focus Photography for page 28. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 123, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1343,
+            1732,
+            2286
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            1732,
+            925
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1732,
+            2286
+          ],
+          "source_object": 123,
+          "vertical_scale": 0.9804950851731769
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "An open book lies on a wicker basket with green flowers behind it.",
+        "caption": null,
+        "credit": "© Nadiika Kravets",
+        "public_path": "/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-4.jpg",
+        "repository_path": "public/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-4.jpg",
+        "rights_note": "Page 2 credits © Nadiika Kravets for page 29. No article-specific permission requirement is printed; no licence terms beyond the stated credit are inferred. Inspected the page content stream, resources, paint order, image object 127, clipping and transparency: the base is a single full-page RGB scanned raster with an sRGB IEC61966-2.1 ICC profile, no mask, tiles, alternate clean image or transparency group; its searchable text layer is invisible. The photograph is recovered directly as an unobstructed native source-pixel crop. Adjacent body text, caption, page furniture and narrow slanted paper-border pixels are excluded; no meaningful subjects are removed and no pixels hidden by typography are synthesized. No publisher text, reading panel, colour wash or other overlay remains in the exported image. The book’s printed lettering is intrinsic photograph content, not a publisher-added overlay. Vertical Lanczos resampling reproduces the image aspect ratio established by its PDF placement. Encoded as a baseline sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 29,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1624,
+            872
+          ],
+          "flip": null,
+          "method": "native embedded raster extraction, unobstructed source-pixel crop, and vertical Lanczos resampling by the PDF placement scale ratio",
+          "output_dimensions": [
+            1624,
+            910
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1624,
+            2193
+          ],
+          "source_object": 127,
+          "vertical_scale": 1.0439357822930058
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero 96 dpi density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "INSPIRATIONS FOR YOUTH",
+    "sequence": 9,
+    "series": {
+      "id": "8b87c521-01dd-5e0c-af7a-c1c6ccbb894c",
+      "part": 5,
+      "total_parts": 5
+    },
+    "source_pages": {
+      "end": 29,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "Give Me Thine Heart",
+    "topics": [
+      "efe9fa60-497a-580c-9aa2-c1aac7027cdf",
+      "e8455dc3-9ea9-50ad-8b49-ca5277a6a3fd",
+      "ba02dcec-aa79-583e-ba4a-1e2668abb44b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "67493beae9a83831d67e6ed9b98670ed1598a726f8ac417fc3dd7cf02bb8a506",
+    "metadata_sha256": "85efac3fb4331c903307c576ff7c44b6aa296d505b526bb56eb2909224bec616",
+    "structure_sha256": "e7ce11193ef390104418c138bf3a3cdbd6511e0c95ec07337f33a12a0e1b948f",
+    "text_sha256": "63f4db4b02a9acd0c56e48f5f38580827ca3a054189a2dfbecc03992cdf74eab",
+    "translation_metadata_sha256": "a7b0d7433d11596ce0556b32cf20ca9970e1190984053a4aa4dcdc32f54c58d2"
+  },
+  "html": "<article data-article-id=\"c8e8ffd0-a26f-45b5-b681-047c36258d73\">\n  <p>A Christ-centered Courtship <em>is a series of messages on godly courtship preached by Paul Hershberger. Over the last ten years, he preached these messages several times at different locations. Recently, we had them transcribed and abridged for reading clarity. After printing all five articles in</em> The Heartbeat of the Remnant, <em>we will publish them in a booklet. This is the fifth of five articles.</em></p>\n  <p>There are <strong>five goals for this series:</strong></p>\n  <ol>\n    <li>To turn the hearts of the fathers to their children.</li>\n    <li>To turn the hearts of the children to their fathers.</li>\n    <li>That parents would get a burden to lead their children into the perfect will of God for their lives.</li>\n    <li>That young people would get a burden to seek God, find fulfillment and purpose in walking with God, and mature in their manners and character.</li>\n    <li>That young men and women would rise up to be godly fathers and mothers with a vision to raise another godly generation.</li>\n  </ol>\n  <p>“Give me thine heart” is an important ingredient if you want the blessing of a Christ-centered courtship.</p>\n  <p>“Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse” (Malachi 4:5–6).</p>\n  <p>Initially, I want to address readers who do not currently have a father in their lives. As you read this article, you might wonder, “What should I do? Do you have guidance for me?” If you lack a spiritual authority in your life, I encourage you to pray about it, seek the Lord, and find one. Don’t act hastily, but seek counsel. Make it a priority because you will be blessed if you have a spiritual authority to turn to for guidance. Maybe you have a father who isn't interested in providing any spiritual direction. The answer remains the same. Find a spiritual authority to submit to and seek guidance from.</p>\n  <h2>Fathers, turn your hearts to your children.</h2>\n  <p>“Give me thine heart” is about laying the right foundation. In Malachi 4:5–6, we read “Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children . . .”</p>\n  <p>This word <em>turn</em> means “to turn back, not necessarily with the idea of returning to the starting point, but generally to retreat, or to come to it again.” I can identify with that definition as we look at this subject of fathers turning their hearts to their children. How many times over do we fathers need to come to a point where we say, “I’ve gotten distracted; I need to turn again my heart to my children. I need to refocus my heart on my children”? Even though we’re pressing in, we need the reminder to turn our hearts to our children again.</p>\n  <p>Fathers, be personally and vitally connected to your children’s lives. Understand and care about what is happening in their hearts. When they face challenging times, or when you see them walking through a difficult valley, be the priest in your home who falls on his face and cries out to God, “Lord, we need You. My son or daughter needs You. O God, would You have mercy on us?” The older our children get, and the more challenging things may be, the more we dads find ourselves on our faces, crying, “God, they’ve got to make it through this one. Don’t let this destroy them. God, let this be a building block in their lives.” Go ahead and let your heart get involved. Cry beautiful tears. God is listening and He cares!</p>\n  <p>We all heard the saying, “The hand that rocks the cradle rules the world.” We hear about how effective mothers’ prayers are. But if we fathers would get on our faces and cry out to God, turn our hearts to our children, and beg God to move in the hearts of our children, it just may be more effective than their mothers’ prayers. After all, we are the priests in our homes. Perhaps the reason that “the hand that rocks the cradle rules the world” is that fathers have slacked off. It shouldn’t be that way. Let’s turn our hearts to our children with a passion and beg God for direction.</p>\n  <figure><img src=\"/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-1.jpg\" alt=\"Parents walk along a garden path with two young children.\"></figure>\n  <p>If we turn our hearts to our children and fall on our faces before God and ask Him, He will give us direction. He will lead us in very practical ways. And yes, our wives can be a blessing by our side. But generally, it is we fathers who struggle with keeping our hearts focused in the right place. Often, Mom has burdens about the needs of the children, but Dad get distracted. The need is for fathers to turn their hearts toward their children.</p>\n  <p>Let’s come back to Malachi 4:6: “And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.”</p>\n  <p>We are in a sad state in our country regarding children turning their hearts to their fathers. The hearts of the children are turned away from the fathers, and the hearts of the fathers are also turned away from the children. We see much of this curse around us. But oh, we do not have to partake of it. We don’t need to live in this sad condition.</p>\n  <h2>Children, turn your hearts to your fathers</h2>\n  <p>The turning of hearts goes two ways. Jesus also came to turn the hearts of the children to their fathers.</p>\n  <p>Young people and children, if you are struggling, don’t pull your heart back from your father and your mother. It is a snare to clam up and pull your heart back from them! As you grow up and begin to mature, it’s very natural to try to spread your wings a bit. You may think, <em>I’m getting old enough to think like an adult.</em> Yes, all that is true, but don’t close up your heart. Make a decision to turn your heart to your parents. The heart is that deep inner part of you. One of the definitions of the word <em>heart</em> in Hebrew is “the center of anything.” That deep inner you—open it up to Mom and Dad. Turn your heart to your father.</p>\n  <p>Proverbs 23:22–26 will be the text for the rest of this article: “Hearken unto thy father that begat thee, and despise not thy mother when she is old. Buy the truth, and sell it not; also wisdom, and instruction, and understanding. The father of the righteous shall greatly rejoice: and he that begetteth a wise child shall have joy of him. Thy father and thy mother shall be glad, and she that bare thee shall rejoice. My son, give me thine heart, and let thine eyes observe my ways.”</p>\n  <p>“My child, give me thine heart.” This can be the difference between whether this <em>Godly Courtship</em> series is a whole bunch of great information or whether you practically apply it in your life</p>\n  <p>Many of you are growing up in Christian homes with parents watching over your hearts—caring, teaching, and guiding you. But there will come a day when you need to decide to give your heart to your parents. There will also be a day when you become accountable before God, and you need to yield your heart and will to Him. I want to address something beyond that yet, in the area of finding a life partner. What is your plan for the future? Are you willing to surrender and be under your parents’ authority in this sensitive matter? Are you willing to yield your heart to your father and mother and say, “Dad and Mom, I’m not doing anything until I have your blessing”? As a young man—“I’m not moving forward unless you are clear. You see my life, and if I’m ready for it. You are clear about what’s in my heart.” As a young lady—“I’m not open to hearing a request from anyone unless it comes through Dad.”</p>\n  <p>There is safety and protection under the umbrella of parental authority, but outside of it lies the world, Satan, self, and independence. The reason young people resist yielding their hearts to their parents is that they are saying, “I have my own ideas. I’d like to be in charge and want to be independent on this matter.” But the world is out there, Satan is out there with his snares and traps to destroy you, and it’s not safe. However, in the matter of finding a life companion, there is safety and protection when you submit yourselves under parental authority. Then, when God brings everything together and everyone is clear, you will be so blessed. You’ll look back and say, “Why would anybody want anything differently? They have no idea what they’re missing.”</p>\n  <figure><img src=\"/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-2.jpg\" alt=\"An open book and green flowers rest on a wicker basket beside a tree.\"></figure>\n  <h2>1. Hearken unto your father.</h2>\n  <p>“Hearken unto thy father that begat thee” (Proverbs 23:22). The word <em>hearken</em> means “to hear intelligently, to give attention, or to be obedient.” It means you’re respectfully listening and you’re giving him your full attention. You give attention to what he’s saying; you’re hearing it, understanding it, receiving it, and willing to act on it. Hear with your heart.</p>\n  <p>Young people’s minds are sharp and witty, and they usually can think fast. But if we get honest, Dad and Mom know much more because of their experience in life. A 44-year-old dad isn’t going to think at the same speed as an 18- or 20-year-old son is going to think. That’s okay, but it still doesn’t change who is more experienced, who is leading, and who should give direction. Hearken, listen, and receive instruction. Young people, you can be a tremendous blessing and asset to parents who are slowing down. Hearken and listen because there’s much to learn, if you give your heart.</p>\n  <h2>2. Despise not your mother.</h2>\n  <p>In the same verse, Proverbs 23:22, “Hearken unto thy father that begat thee, and despise not thy mother when she is old.” If you are struggling with these first two points, you likely will resist giving your heart. You need to yield those “Oh, Dad!” or “Oh, Mom!” attitudes.</p>\n  <p>Despise not your mother. <em>Despise</em> simply means “to disrespect.” What is your attitude toward your mother? Is she old-fashioned and out of date? Is she slow, or perhaps not very bright? Do you look down on her and ignore her? These are sobering questions. It’s good for you to take inventory. Your bad attitude toward your Mom could be standing in the way of receiving God’s blessings.</p>\n  <p>Love your mother. She is the one who travailed in childbirth for you! She cared for you as a helpless baby, nurtured you during your childhood, and gave countless hours of sacrifice. In fact, your Mom might be worn out, tired, and slow because of you! Really—I’m serious! She may not be skipping and running around anymore because she gave her life to you! How dare you show anything but the highest respect and honor for Mom? She has prayed many prayers and cried many tears for you! Young people, there’s someone very special in your life: your mom. Whatever you do, don’t despise her if you want God’s blessings in your life. Hearken to your father and despise not your mother.</p>\n  <h2>3. Buy the truth.</h2>\n  <p>“Buy the truth, and sell it not; also wisdom, and instruction, and understanding” (Proverbs 23:23). The word <em>buy</em> has definitions like “procure, especially by purchase, to own.” It’s also used as “recover” and “redeem,” among other words. Buy the truth! The word <em>truth</em> is “stability, certainty, truth, and truth-worthiness.” This is how we look at the Word of God. Buy the truth, own it, procure it, and redeem it. Go after it with all you have. Some items have high prices. How much of the truth do you want? If you pay a small price, you get just a little bit. But you can pay more and you get more. I have a secret for you. You don’t need any dollars, euros, yen, or pounds to get it. God asks, “Will you give me your heart?” Buying the truth is connected with giving your heart.</p>\n  <p>He doesn’t stop with just “buy the truth.” He says, “Buy the truth and sell it not.” The word <em>sell</em> here means “to sell literally as merchandise”, but it also means “to surrender.” Buy the truth and sell it not. Buy the truth and don’t surrender it. Make commitments to pursue the Word of God. Don’t give in to peer pressure, but seek a sanctified and honorable life. Be one of those Christians who are preparing for what God has for them in the future. Buy the truth and sell it not.</p>\n  <h2>4. Buy wisdom.</h2>\n  <p>Buy wisdom. In the same verse, it says, “Buy the truth and sell it not.” Then he says, “also wisdom.” We are also to buy wisdom. This passage encourages young people to pursue wisdom. You can have a blessed life if you seek and pursue wisdom. That’s a rare commodity in young people today, but it’s still available, and you can have it. Seek the counsel of God, precept upon precept, and line upon line. Even if someone says, “Ah, you’re being a little old-fashioned,” or “Why are you so super-sensitive?” don’t surrender it.</p>\n  <figure><img src=\"/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-3.jpg\" alt=\"A family walks away along a garden path amid trees and tall grasses.\"></figure>\n  <p>John D. Martin’s definition of wisdom is, “Wisdom is doing what I would have done if I had known everything that was going to happen once it’s over.” We can’t get this kind of wisdom on our own. We need God because we don’t know what the future holds. We are human and have limitations, but God doesn’t. When wisdom says to turn the other way, you avoid problems that you never even knew about. Buy wisdom, don’t sell it, and don’t surrender it.</p>\n  <figure><img src=\"/images/articles/c8e8ffd0-a26f-45b5-b681-047c36258d73-4.jpg\" alt=\"An open book lies on a wicker basket with green flowers behind it.\"></figure>\n  <h2>5. Buy instruction.</h2>\n  <p>The first definition of <em>instruction</em> is “chastisement.” It also says, “reproof, warning, instruction, and also restraint.” You may say, “I’m going to spend time and soul money on getting instruction.” But who likes chastisement? If you are willing to die to yourself so you can spring forth in newness of life, you might want that kind of instruction. It is so easy for us to look at failure and say, “I messed up again. I’m just a good-for-nothing.” Those thoughts are from Satan! If we fail and recognize it, we now have the opportunity to be an overcomer. When chastisement comes or reproof comes, it’s an opportunity to learn and grow.</p>\n  <h2>6. Buy understanding.</h2>\n  <p>The word <em>understanding</em> simply means “understanding.” Here is another definition: “to separate mentally, that is to distinguish; in general, to understand; to be able to think right.” We need understanding according to the Word of God. We need to find God’s way of thinking about things. Therefore, if we are buying the truth and not selling it, if we’re buying wisdom and not selling it, and we’re buying instruction and not selling it, we have a good chance to buy understanding.</p>\n  <p>Sometimes young people say, “I just don’t understand why.” We don’t always need to understand everything. Still, when we receive understanding from God, many things begin to make sense that previously didn’t. What a blessing to see young people able to think with understanding, according to the Word of God, as mature Christians.</p>\n  <h2>7. Give me thine heart.</h2>\n  <p>“My son, give me your heart. Let your eyes observe my ways” (Proverbs 23:26). This word <em>heart</em> has several meanings. It mainly refers to “the physical heart.” It is also broadly used to describe feelings, the will, and even the intellect. The last meaning is “the center of anything.” Young person, my plea is, give your heart to your father with the depth of your feelings. Give your heart to your father with the depth of your will. Give your heart to your father, even in the depths of your intellect. Give your heart—the very center of your being—to your father and your mother.</p>\n  <p>You may live at home with your parents, but there may be an issue in your heart. You have it all securely padlocked away. You might wear the right clothes. When you go to church, you try not to do anything that seems like you don’t like Dad or Mom. Son, daughter, “Give me thine heart” is God’s call for you. Bring your heart to your father and your mother. Bring your heart—the depth of your being—and your feelings, your will, your intellect, and the very center of your being, and voluntarily give your heart specifically to your father, but also to your mother. When it comes to finding a life companion, make a commitment not to let your emotions go to anyone until Mom and Dad approve. You need to verbally (not just a decision in your heart) tell your parents, “I give my heart to you, Dad and Mom.”</p>\n  <p>“The father of the righteous shall greatly rejoice: and he that begetteth a wise child shall have joy of him. Thy father and thy mother shall be glad, and she that bare thee shall rejoice” (Proverbs 23:24–25).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "af774244fbdd8ce2c252f4809af475d03627ed67e251dbf13230ba2e58845bc1"
+}

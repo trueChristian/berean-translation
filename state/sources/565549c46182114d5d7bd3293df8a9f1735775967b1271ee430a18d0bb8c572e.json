@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Reese Howells"
+        }
+      ],
+      "raw": "by Reese Howells"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf",
+    "images": [
+      {
+        "alt": "Jesus surrounded by men, women, and children",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf-1.jpg",
+        "repository_path": "public/images/articles/c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf-1.jpg",
+        "rights_note": "Original embedded PDF image object 133; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The source raster has a light-gray ground matching the page treatment; it is inseparable and retained without an unproven color inversion or synthesized replacement. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            600,
+            501
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 133,
+          "source_pixel_dimensions": [
+            600,
+            501
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "The Sufferings of Christ",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "75952f7e-5123-5cb9-8a6f-bcb75336e69f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "df36f7b3969450e20e06ba669206e89d0bae6985f7fe1da0133876a962ac83fa",
+    "metadata_sha256": "f0be3443a8003ce3c724dca5e50272315791471eb1b4f3092747b3149fa5716d",
+    "structure_sha256": "25a228ba69a8d9437db5ebefab6700b5d83e29f45a7f8ff3e4c9ae6bad8a98a2",
+    "text_sha256": "fa6467d76868e0bada79cd036a731384745a26057b59ce3856ba52ae1ab5bf6f",
+    "translation_metadata_sha256": "bb3a0f17530a2ab025ab24ff2d6a576354061b4c146c1dda97e5ed43d305aae8"
+  },
+  "html": "<article data-article-id=\"c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf\">\n  <figure><img src=\"/images/articles/c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf-1.jpg\" alt=\"Jesus surrounded by men, women, and children\"></figure>\n  <p>There are sufferings still left for the Church, to be fulfilled in us, but you cannot come to Christ’s sufferings until you have finished with your own. The afflictions of Christ are the afflictions of the kingdom and he is afflicted with us in them. As Isaiah said, “in all their afflictions he was afflicted and the angel of his presence saved them.” In my intercessions I never once thought that he would allow me to suffer anything that he did not suffer with me.</p>\n  <p>There is a great difference between self-affliction and the affliction for the sake of others. The sufferings of Christ are the sweetest thing on earth. The apostle Paul told the Colossians that he rejoiced in his sufferings for their sake, and his word to the Philippian church was “that I may know him, and the power of his resurrection, and the fellowship of his sufferings, being made conformable unto his death.” This is intercession.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "b0daec044e0207cc0dc7eedbaa696b7e9bccbdbe81a0004968e0d4b3da1bfb4f"
+}

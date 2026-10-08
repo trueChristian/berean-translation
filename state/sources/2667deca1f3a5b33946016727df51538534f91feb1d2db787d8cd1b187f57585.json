@@ -1,0 +1,51 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "c07ac821-a121-4328-8c8c-00a7575ef082",
+    "images": [
+      {
+        "alt": "Roadside mailbox and grass beneath the printed Precious Letters from Our Readers heading",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c07ac821-a121-4328-8c8c-00a7575ef082-1.jpg",
+        "repository_path": "public/images/articles/c07ac821-a121-4328-8c8c-00a7575ef082-1.jpg",
+        "rights_note": "Source image xref 222 is the only 1050x522 embedded raster and already contains the mailbox address, headline and pale right-side wash baked into its pixels. A clean unobstructed crop would lose the mailbox/header subject; retained full published raster as an unavoidable overlay exception. Inverse grayscale samples converted to baseline sRGB JPEG at source dimensions, without synthesized pixels.",
+        "role": "article opening illustration and printed graphic heading",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "dc47443b9fe06aa322dd212390bc898e87b4ce1f30e5d74d0beb327e8f54eb56",
+    "metadata_sha256": "f69522ef87d899ace58f46ca7cc52849ad8d0d399412859f47ba23626fe6fcf6",
+    "structure_sha256": "377bc1c1af89e6fdcd21b98c4edbb500c4648813ce467fa0c378c51c879c70eb",
+    "text_sha256": "98ddb0294e8b9e0703ca9a0df71b1b763a11393970d83d1b575e110317f28476",
+    "translation_metadata_sha256": "c6c67829cda98846378b4538668b761fcfa45a73666be92f59db81f8e954f30c"
+  },
+  "html": "<article data-article-id=\"c07ac821-a121-4328-8c8c-00a7575ef082\">\n  <figure>\n    <img src=\"/images/articles/c07ac821-a121-4328-8c8c-00a7575ef082-1.jpg\" alt=\"Roadside mailbox and grass beneath the printed Precious Letters from Our Readers heading\">\n  </figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about The Remnant or any section of it.</strong></p>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>We want to thank you for your challenging and inspiring publication. My wife and I and our two boys are doing missionary work in South Africa. We have had some of the articles translated into the language of the Basotho people. I have also made copies of some articles and sent them to my uncle who is in prison in Missouri.</p>\n    <p><em>Ladybrand, South Africa</em></p>\n  </section>\n  <section>\n    <p>Dear Charity,</p>\n    <p>I would just like to thank you for publishing the poem called A Modest Dress in the July/August/September 2007 Issue. It really encouraged me to stand strong in what the Lord has placed in my heart as convictions, and not merely preferences, as some people call my way of dressing. Down here where we live, we have no regular/nearby likeminded fellowship; the closest godly Anabaptist brotherhood church is a 2,200 km drive away. I’m extremely blessed to be in contact with them, and they are a great encouragement to me in my ‘plain walk’. With no likeminded brotherhood of brothers and sisters nearby for regular Sunday worship, the test of standing strong as a Remnant people is really a test! By coming in contact and association with them (the Australian Christian Brotherhood) and you, it has planted new convictions in my heart and has strengthened my stand as a Christian. I’m so thankful for the godly reading materials and messages that God has made available to us; The Remnant and Charity Gospel Tape Ministries are one of them. I have no question that God’s standard of modesty is really a principle that God has made for the Christian to practice. Abide in Jesus and WE SHALL NOT BE MOVED! God bless you.</p>\n    <p><em>A young sister in Christ,<br>Judienne Faith S. (15)<br>Victoria, Australia</em></p>\n  </section>\n  <section>\n    <p>Dearly beloved,</p>\n    <p>I greet you in the name of the Lord Jesus Christ. Thank you so much for your bowels of love through the THE REMNANT magazine which I receive from you regularly. This has been a great treasure to me in particular. May the Lord continue to prosper the work he has committed into your hands. I am forever grateful for keeping me on the list of subscribers for this jewel.</p>\n    <p>I will therefore love to have my subscription renewed. Thank you so much and may the Lord reward your labor of love.</p>\n    <p><em>Sincerely yours in Christ,<br>Samuel S Oladipo<br>Little Elm, TX</em></p>\n  </section>\n  <section>\n    <p>Dear brother Denny Kenaston in Christ,</p>\n    <p>Thaaaaaaank you for the words of Truth. I received the magazine Remnant and have studied. Baptism of the Holy Ghost and New Testament reality by you is wonderful to read and to preach here.</p>\n    <p><em>Thank you once again,<br>Lily<br>India</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "3ce2d1fa2c4b0a4ea6b1cf56ea8c8060cb6c2b2f98cf781e98c368a7513601b1"
+}

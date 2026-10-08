@@ -1,0 +1,97 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mollie Jo Cassidy"
+        }
+      ],
+      "raw": "by Mollie Jo Cassidy"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "fda998bc-fda9-4449-ac28-27e932f956ee",
+    "images": [
+      {
+        "alt": "A speaker holding a ball above a bucket at a lectern",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-1.jpg",
+        "repository_path": "public/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-1.jpg",
+        "rights_note": "PDF image object xref 126. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Separate double-line frame omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 30
+      },
+      {
+        "alt": "A man directing a seated choir",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-2.jpg",
+        "repository_path": "public/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-2.jpg",
+        "rights_note": "PDF image object xref 130. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Separate double-line frame omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 31
+      },
+      {
+        "alt": "Rows of people seated in a large meeting room",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-3.jpg",
+        "repository_path": "public/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-3.jpg",
+        "rights_note": "PDF image object xref 134. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Separate double-line frame omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 32
+      },
+      {
+        "alt": "A large choir performing before a seated audience",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-4.jpg",
+        "repository_path": "public/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-4.jpg",
+        "rights_note": "PDF image object xref 138. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Separate double-line frame omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "2006 Charity Youth Bible School Report",
+    "topics": [
+      "19d37772-1cdc-55b8-8b79-3d5105a1c2ab",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "f7e40fce-04bc-52e2-b54e-01072bfbaec4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ea8ec2c60e969e7d1ce702158f7ffde6f06667ff031eabd86527c87a9678a94c",
+    "metadata_sha256": "a0532b22eade209abe1b7ddfcdc4afc4dd55a96f956ead2c7e99a1cd601ecbb2",
+    "structure_sha256": "9b08dfd068d6e209e29e7097c18f51580843d1224c2177177a0fb7a28c5ada62",
+    "text_sha256": "ce2d99f8cdf8b40b4d415d347826b4b84c131fb60bf5d4bb0f62e4908b439240",
+    "translation_metadata_sha256": "0f26ff643e2f042713b7468ddf074d3d175e63b21a5e89c5a9f4a1c7d3ea49f2"
+  },
+  "html": "<article data-article-id=\"fda998bc-fda9-4449-ac28-27e932f956ee\">\n<figure>\n  <img src=\"/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-1.jpg\" alt=\"A speaker holding a ball above a bucket at a lectern\">\n</figure>\n<p class=\"drop-cap\">Over 600 youth gathered at Ephrata Christian Fellowship for the annual Charity Youth Bible School. This was a week of intense Bible study, Spiritual exhortation, prayer, worship, and fellowship. This report is given in hopes of glorifying God for the great things He has done and to encourage the readership as we see God’s work in the lives of many young people from across our nation and other countries.</p>\n<p>Monday morning commenced with an exhortation to the student body by Brother Mark Brubaker, Bible School coordinator. <em>“We want to see God changing you into a different, more spiritual person,”</em> he said. <em>“Our purpose here is not a social event—but to seek the Lord without distraction. Your focus is to seek God this week. ‘I am here to hear from God.’ Let that settle in. We’re not here to make new friends, but to meet with God. In all of this, there is an opportunity for you to hear from God.”</em> It was what we needed as a student body to start the week off right.</p>\n<h2>Tests of True faith</h2>\n<p><em>by Ross Ulrich</em></p>\n<p>In these five sessions, Brother Ross gave us a detailed and inspirational overview of the Book of James, focusing on the tests of faith given therein. Brother Ross’ genuine love for the Word opened up the book of James in a precious way, and I doubt most of us will read this book the same way ever again. Some major topics included: Victory Amid Temptations, Love in Action, Impartiality, Working Faith, The Tongue, Living for Self or Living for Christ, and A Few Practical Tests of Faith.</p>\n<p>On Wednesday morning Brother Ross taught James 3, <em>“The Tongue Chapter.”</em> This was a convicting session. He began with: <em>“The tongue, perhaps more than anything else, is a super ‘heartometer.’ The study of this chapter may very well help you answer the question of where you are in your Christian walk.”</em> In our study of James the focus was practical tests of true faith. So this session was key. <em>“Whoever controls your tongue, controls your body. Whichever direction your tongue is turned, your whole life follows.”</em> We learned the impact that the tongue has for good or evil. Is your tongue a well of life or of death? It’s a heart issue; a corrupt spring cannot give sweet water.</p>\n<h2>Nonconformity<br>to the World</h2>\n<p><em>by Dean Taylor and Patrick Waldner</em></p>\n<p>These sessions focused on practical areas of life in which God calls us to follow His Word, and not the fashion of this present world. “These issues are controversial for a reason—because they’re completely counter to the world,” said brother Dean at the start of the week. <em>“Ask yourself: ‘Why do I do what I do? From where do I get my cues? The Word of God competes with everything else you’re exposed to in the world.”</em> The Nonconformity topics were: Nonresistance, The Biblical Principles of Godly Dress, and The Principles of Godly Music.</p>\n<p>Speaking about the Kingdom of the World and the Kingdom of God brother Dean said, <em>“The clearer that line is of where the two kingdoms are, the clearer becomes these doctrines.”</em> We were challenged with the fact that although the Kingdom of God is a Spiritual Kingdom, it has got to be visible in our spirits, in our lives. <em>“Your life and devotion is not to be mixed up with earthly politics, etc. . . Let it go, be devoted soldiers!”</em> brother Dean exhorted. This teaching was a help to many young students in answering questions and making the doctrine clear in our hearts.</p>\n<p>Patrick Waldner shared on The Destructive Influence of Visual Entertainment and The Transforming Power of The Living Word. In these two sessions, Brother Patrick warned us of the destructive dangers of visual entertainment and exhorted us to give ourselves more fully to the Word of God. He said <em>“In visual entertainment, control switches from the left to the right hemisphere of the brain. The left part of your brain is the seat of logical and critical thinking. The right part of your brain does not think critically, but responds emotionally. It is possible to become addicted to visual entertainment, and many have.”</em> Visual entertainment is escapism, putting your head in the sand. You use the right side of your brain in receiving visual entertainment, it’s amusement. <em>“Amuse” means “not to think.”</em> The TV is the plug-in drug. It can stimulate in a similar way to heroin and cocaine.</p>\n<p>Brother Patrick stressed the need to get God’s heart on the matter, not just set rigid restrictions for ourselves. <em>“The law excites the flesh to transgress. We need a principle within! We need the Holy Spirit of God to write His Laws on our hearts!”</em></p>\n<h2>Chorus</h2>\n<p><em>by Earl Fox</em></p>\n<p>Every afternoon the student body spent an hour of chorus rehearsal with director Earl Fox. It was a blessing to fill our hearts with wholesome songs of praise and testimony in preparation to share them with others on Sunday. Our program included the following selections: “Come, Gracious Spirit, Heavenly Dove,” “All Hail, Immanuel,” “Oh, Praise the Lord,” “Hosanna,” “I’d Rather Have Jesus,” “Saviour, While My Heart is Tender,” “Do You Love the World,” “Where Will You Spend Eternity?”, “Strength to Watch and Pray,” and “An Easter Hallelujah.” The message of these songs reinforced the truths we were hearing during the sessions and helped solidify them in our hearts. It was such a blessing to sing and praise the Lord with over 600 other youth!</p>\n<figure>\n  <img src=\"/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-2.jpg\" alt=\"A man directing a seated choir\">\n</figure>\n<figure>\n  <img src=\"/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-3.jpg\" alt=\"Rows of people seated in a large meeting room\">\n</figure>\n<h2>Lordship Teaching</h2>\n<p><em>by Dale Gish</em></p>\n<p>In the afternoon session, Monday through Thursday, Brother Dale Gish spoke to us on the topics of the Lordship of Jesus Christ, Brokenness, Separation from the World, and the Obedience of Faith. Brother Dale’s emphasis was getting our hearts in a place of submission to the Lordship of Jesus Christ so that the out-workings of our life would be that of faith and obedience.</p>\n<p>Dale said <em>“Jesus Christ is not Lord if He doesn’t have complete liberty in every detail of who you are,”</em> Brother Dale explained. <em>“If Jesus is not Lord of all, then He is not Lord at all.”</em> All week long we were challenged to crown Jesus King of our lives. We are fighting a battle, and the battle is always at the line, wherever your line is. We must let God have His way with us. And when faith is worked out in everyday living, that’s when God looks beautiful to those around us.</p>\n<p><em>“You cannot be of service to anyone but yourself until you’re broken,”</em> Brother Dale said. <em>“Your brokenness is a big part of your beauty. God can’t use your talents until you’re broken. The anointing is not going to be on your life until you’re broken . . . <strong>you</strong> might look good, but not <strong>God.</strong> Brokenness is a mindset. It doesn’t take long for a broken person to obey.”</em> Brother Dale’s message on brokenness stirred conviction in our hearts, and many sought God on their knees for brokenness in response to this message.</p>\n<p>On Thursday, in his final session, Brother Dale shared on the temptation of Christ. He explained how Jesus’ example relates to our obedience of faith in the temptation to drift from truth, specifically in the matter of dress. <em>“Christ’s communion was unbroken, even in the wilderness. Jesus heard Satan’s voice saying to make stones into bread. What’s wrong with that? But Jesus sensed a foreign authority. And He rejected that influence with Scripture. ‘I listen to my Father only.’ What Satan had in mind, where he was headed with this was to get Jesus to fall down and worship him. Satan wanted to accomplish it by drift, step by step. Satan’s first step was to get Jesus to hear Satan’s voice and to do what He could never prove wrong by Scripture. There’s nothing wrong with ________, but <u>whose</u> voice are you hearing? If it’s the voice of the enemy, then reject it with scripture. God has some laws that are in full effect, even in this age of grace, and one of those laws is the law of sowing and reaping: you reap <u>what</u> you sow, you reap <u>more</u> than you sow, you reap <u>later</u> than you sow. Drift takes time before it takes toll. Is it the heart of Scripture to say ‘What’s wrong with it’? How about: ‘Does it bring revival? Does it perfect holiness in the fear of God?’”</em></p>\n<h2>Prayer and Sharing Time</h2>\n<p><em>as prayer groups</em></p>\n<p>Students were assigned to prayer groups of about 8-10 students each. Every afternoon we had an hour or so together to seek God. We shared our hearts—our struggles, our questions, our testimonies. We shared in times of sweet fellowship and discussion. And we prayed. This was a vital element in Bible School week since it encouraged students to be honest about needs and then to get down on your knees and seek God together for answers.</p>\n<p>Every afternoon before prayer and sharing one of the Principals would share a short exhortation with us. But on Wednesday and Thursday there was a special private session for young ladies and for young men, respectively. These sessions were a highlight for many—a special time to be like family and hear the heart of a mother (Cindy Rubio) on modesty (for the young ladies) and the heart of a father (Denny Kenaston) on moral purity (for the young men).</p>\n<h2>Revival Services</h2>\n<p><em>by Jerry Mawhorr</em></p>\n<p>Brother Jerry shared with us in the revival services Monday, Tuesday, and Thursday night on repentance, the course of sin, hating sin and loving righteousness—and on Friday night, he preached on fulfilling the ministry of reconciliation: <em>“Preaching the Gospel is God’s instrument for saving souls. The devil knows this and he tries to shut that mouth. You can’t be right with God and not open your mouth. One day you will give account of how you fulfilled the ministry of reconciliation.”</em></p>\n<p>Charles Spurgeon once said: <em>“Soul-winning is the chief business of every Christian. Indeed, it should be the main pursuit of every believer.”</em> The heart of God yearns that we youth would give our lives for His sake and the Gospel’s.</p>\n<p>On Saturday afternoon the student body assembled for chorus rehearsal and a testimony service. Families and friends joined us for the testimony meeting, which lasted a couple hours. It was an encouragement to hear what God had been doing in the lives of fellow students.</p>\n<p>Sunday was a beautiful climax to a wonderful week of blessing. In the morning service brother Mose Stoltzfus gave the main message, <em>“The Way of Cain or the Way of Abel.”</em> This was a powerful challenge to each student to take heed, lest sin should lie at the door of our lives. <em>“There is in all of us a possibility, a propensity, and even an urge to do wrong . . . to take the way of Cain, as Jude says . . . God wants to give us a witness that we’re righteous. You don’t want to live without that. If you go your own way, take the way of Cain—sin lieth at the door. The possibility of sin should grow dimmer and dimmer as time goes on, and the possibility of falling slimmer and slimmer.”</em></p>\n<p>Following the lunch fellowship meal was a Singing and Testimony Service. This was also a blessed time of listening to testimonies and various singing groups comprised of Bible school students.</p>\n<p>Sunday evening, families and friends from far and near gathered for the Chorus sharing and evening service with Jerry Mawhorr. The students gave their music program, interspersed with student testimonies, and the evening concluded with a final message with Brother Jerry.</p>\n<figure>\n  <img src=\"/images/articles/fda998bc-fda9-4449-ac28-27e932f956ee-4.jpg\" alt=\"A large choir performing before a seated audience\">\n</figure>\n<p>It is evident that Bible School 2006 was blessed of God—many were saying that there was something special about this Bible School week. And there was. Hearts were open to God’s moving. The preaching was anointed and spoke to our needs. People were praying and seeking God. Students were respectful and submissive to authorities. There was an atmosphere there conducive to revival. And the revival God stirred there will continue and grow in the hearts of those that diligently seek Him. Let us who have tasted of His workings fan the flame in our hearts and not lose that which we gained at Bible School. Let’s not lose our first love. Go on with God.</p>\n<p><em>Recordings of these Bible School sessions,<br>as well as other years and much more,<br>are available by calling Charity Ministries at<br>1-800-227-7902 or online at <u>www.charityministries.org</u>.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "e22db095bb2ac3f790fe96b6354d8ce4fe9daf4998bdc7ca6f82521927cdab4d"
+}

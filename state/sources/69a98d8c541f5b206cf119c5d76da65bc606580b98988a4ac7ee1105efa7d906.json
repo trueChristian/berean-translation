@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, Pennsylvania",
+          "name": "Steve Ebersole"
+        }
+      ],
+      "raw": "Steve Ebersole\nMyerstown, Pennsylvania"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+    "images": [
+      {
+        "alt": "Long leafy branches hanging against a pale background.",
+        "caption": null,
+        "credit": "© Belle Vie Images",
+        "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg",
+        "repository_path": "public/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 49; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The unobstructed upper-right crop preserves the complete hanging foliage including its lowest tips; the title, byline and scripture panel are excluded. Faint paper show-through is irreversibly present in the source raster. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article background",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            861,
+            0,
+            1664,
+            1596
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            803,
+            1596
+          ],
+          "output_dimensions": [
+            803,
+            1575
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1664,
+            2182
+          ],
+          "source_object": 49,
+          "vertical_scale_to_published_aspect": 0.9868981506443091
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "He Shall Save His People From Their Sins",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b6beabc2b45f45908e130ae6f388fba0783bd0b8535c2662b0458847bfc6ffab",
+    "metadata_sha256": "92d3a860aade8af83864d3dd0e8b3f24fd23054481d76d210aa956d3a4998c1f",
+    "structure_sha256": "57576d32c8eff7113800e6b69f1c4aaa6d074c7304b63b4b6d882bafa7c8bb68",
+    "text_sha256": "c68a31b661972b7c95c283c5355fff0de6c499c8b2e7625a777b0abad41dd5a6",
+    "translation_metadata_sha256": "834bdb3a6470941a4daf30021f5d157d1bb024b13d29d3a9ffede1b0cba5595e"
+  },
+  "html": "<article data-article-id=\"01a0a64f-d629-4e05-b1ec-993f86ef4d68\">\n  <figure>\n    <img src=\"/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg\" alt=\"Long leafy branches hanging against a pale background.\">\n  </figure>\n  <blockquote><p><em>“And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins” (Matthew 1:21).</em></p></blockquote>\n  <p>These are the words Joseph heard from the mouth of the angel who was telling him to marry Mary. This direction and promise of salvation from sins gave Joseph assurance where he had doubts before.</p>\n  <p>These same words have assured many people through the ages that their sins were forgiven through Jesus.</p>\n  <p>The problem is that these words and similar salvation promises are often taken out of the larger gospel context. They are misquoted to assure people of eternal salvation in the context of partial obedience or even outright sin.</p>\n  <p>There were two conditions that qualified and energized the salvation that Jesus brought. These conditions must still be met today if we are to find our names written in the Lamb’s book of life.</p>\n  <blockquote><p><strong>The first condition is that we must be willing to own our sins, including our sinful nature, in humble, honest repentance and confession.</strong></p></blockquote>\n  <p>Many of the Pharisees did not want to acknowledge their sinful state. Here are some verses in John 3:18-21 that help us grasp this obstacle. “And men loved darkness rather than light, because their deeds were evil. For everyone that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved. But he that doeth truth cometh to the light, that his deeds may be made manifest, that they are wrought in God” (John 3:19-21).</p>\n  <p>In a performance-based culture, it is humiliating to acknowledge sinful acts or habitual practices. It is tempting to admit mistakes with vague acknowledgments such as “I haven’t always done as I should have.” Owning our sins is the very narrow gate that all who want to be a part of the kingdom of heaven must enter.</p>\n  <p>In a sense, the publicans and harlots had a lower hurdle for entering the kingdom of heaven. These people already knew about their sins. They readily acknowledged their needs, opening their hearts to Jesus’ ongoing gospel message. “And all the people that heard him, and the publicans, justified God, being baptized with the baptism of John. But the Pharisees and lawyers rejected the counsel of God against themselves, being not baptized of him” (Luke 7:29-30).</p>\n  <p>The more difficult challenge came to those who had carefully hidden their sins. We all have sins, but some are open and may be sent beforehand to judgment. The hidden ones cannot be forgiven and will meet the sinner at his final judgment. “Some men’s sins are open beforehand, going before to judgment; and some <em>men</em> they follow after. Likewise also the good works <em>of some</em> are manifest beforehand; and they that are otherwise cannot be hid” (1 Timothy 5:24-25).</p>\n  <blockquote><p><strong>The second condition is that we must be willing to turn away from the practice of our sins. Jesus gives this condition as a requirement to receive forgiveness.</strong></p></blockquote>\n  <p>This may be discerned in a few of His directives to penitent sinners:</p>\n  <ul>\n    <li>“And Jesus said unto her, Neither do I condemn thee: go, and sin no more” (John 8:11).</li>\n    <li>“Go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me” (Mark 10:21).</li>\n    <li>“When thou art converted, strengthen thy brethren” (Luke 22:32).</li>\n    <li>“And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it” (Luke 9:23-24).</li>\n  </ul>\n  <p>Today, the popular version of the gospel is that when a person believes in Christ, he is forgiven of all his past, present, and future sins. Divorced and remarried couples are assured they may stay in that state. Those living extravagant or selfish lifestyles are assured of a loving heavenly Father. Christians supposedly live as sinners; they just live without any guilt! Really?</p>\n  <p>Will John the Baptist need to apologize to Herod for not offering to take him to Jesus so he could be forgiven and remain with Herodias? (Read Mark 6:16-28.) Did he have to be so confrontational and thereby lose his head?</p>\n  <p>No, Jesus came to save people from their past sins and their sinful/selfish lifestyles. Let us not compromise His message and experience the torments of an eternity without the gospel. Instead, let us be faithful to the cross-bearing that Jesus taught so we can be partakers with the truly redeemed in eternity. Let us also be brothers to others in cross-bearing, helping them live a life of Christian obedience, truly free from both past and present sins.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab"
+}

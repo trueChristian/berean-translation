@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Amy Smoker",
+          "role": null
+        }
+      ],
+      "raw": "Amy Smoker"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca",
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "d366da73-92bc-4670-9b91-8cd65dc143df",
+    "images": [],
+    "issue_id": "25053b3d-e79b-5257-adf4-b75dc86fc7c8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "Prayer of a Hidden Woman",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "92d10e3b4618482a87db5aabbc302ed8c3cc201bd068b3871bae039bcbd78d1d",
+    "metadata_sha256": "2d1d2eea96dd12be0e491a8e26590a04e1d807c4f46265ca91186c06c54e289b",
+    "structure_sha256": "6a2bc40e3b5cb16ae57ce0d18df876008487624f560f4346e25935958ba5b80f",
+    "text_sha256": "48608c5a76f06be38c469dfd24e4767ae8a791c74cb036950befd26c2451654f",
+    "translation_metadata_sha256": "e1038e81dfe51392fc9b56b14fc9b2e2d1119a61d2e902cecab9e64ce14f83ba"
+  },
+  "html": "<article data-article-id=\"d366da73-92bc-4670-9b91-8cd65dc143df\">\n  <div class=\"poem\">\n    <p><em>Lord, I would be a helper meet<br>\n    For this dear man I love,<br>\n    The one I reverence and respect,<br>\n    As to my Lord above;</em></p>\n\n    <p><em>The one I prize and I esteem,<br>\n    Admire exceedingly;<br>\n    The one to whom I will submit,<br>\n    Adapt to joyfully;</em></p>\n\n    <p><em>The one to whom I give much worth,<br>\n    To whom I will defer;<br>\n    The one I bless above the rest,<br>\n    I honor and prefer;</em></p>\n\n    <p><em>The one I venerate and praise,<br>\n    I value and adore;<br>\n    The one I notice and regard<br>\n    And reverence more and more.</em></p>\n\n    <p><em>Lord, I would be a virtuous wife—<br>\n    May godly fear be found;<br>\n    My husband’s heart can trust in me;<br>\n    I am to him a crown.</em></p>\n\n    <p><em>Support, encourage, and forgive—<br>\n    I’ll do him good always;<br>\n    A mouth that utters wisdom’s words<br>\n    And kindness all my days.</em></p>\n\n    <p><em>A meek and quiet spirit, Lord—<br>\n    Adornment of great price;<br>\n    It is not vain and will not fade—<br>\n    Nought else, Lord, will suffice.</em></p>\n\n    <p><em>Lord, I would choose to build my man<br>\n    Into a leader strong,<br>\n    A man of faith known in the gates,<br>\n    Forsaking worldly throng;</em></p>\n\n    <p><em>A man who sets his vision high,<br>\n    Pursuing godly seed,<br>\n    Who leads our home in holy fear<br>\n    And humbly sees his need;</em></p>\n\n    <p><em>A man of purpose, man of prayer,<br>\n    Who hungers for the Word;<br>\n    A man who yearns for those yet lost,<br>\n    For those who’ve never heard.</em></p>\n\n    <p><em>Lord, I would stand behind my man,<br>\n    Engage in fervent prayer—<br>\n    For prayer can move Your mighty hand<br>\n    When battles are fought there.</em></p>\n\n    <p><em>Lord, I would be Your servant here—<br>\n    Oh, fill me with Your power;<br>\n    A hidden woman I would be—<br>\n    Oh, use me in this hour.</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "ea15c7af0c9f099cbb17fde7f045aab872f0ba1e24f40a4bd33e1957bf7924ef"
+}

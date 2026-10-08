@@ -1,0 +1,53 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Daniel Beachy",
+          "role": null
+        }
+      ],
+      "raw": "~Daniel Beachy"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285",
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "c0288b4d-909f-4f35-81cb-5f2518891d54",
+    "images": [],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "Love Left Behind",
+    "topics": [
+      "64af4c5a-115b-50b0-ae07-5d75a56b13aa",
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914",
+      "16a1b70b-b55c-55ae-a18e-9511dd9ef26f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3717780ce7fcb967353d7d4f19968e1bee7cc7732c1bc09be00f24d8ea433924",
+    "metadata_sha256": "202a90f93133e7befe92a4dd43d257bc74a56def04c29d63f5ec338f61033257",
+    "structure_sha256": "4c665139afde4cbce856fc7f4205648f6111f2b5d90d7f3fd2d71f12906dbd57",
+    "text_sha256": "bb83e6700ed2b9768c8bc8ff4554eef93883fb3057366ea907a3ee9f5d9abdfb",
+    "translation_metadata_sha256": "659991b20d4b4bc3487529985d25d1fe6c494b0cf9dfe5145619c04c4606e1f1"
+  },
+  "html": "<article data-article-id=\"c0288b4d-909f-4f35-81cb-5f2518891d54\">\n  <p>The church at Ephesus had many good works, they had much knowledge, but they had left the first love. How do we leave our first love? It seems we too easily get the idea we’ve <em>lost</em> our first love and don’t know how to find it. The way it really happens is we choose what will be our first love. It’s not lost; but left. Not forgotten, but forsaken.</p>\n\n  <p>It’s like a man walking alone carrying a burden for one he loves with all his heart. As he journeys towards his destination, he sees another bundle containing gold, silver, and other valuables. “Well (he may say), I can’t carry both bundles very far, but this looks like a good thing, this will allow me to live more comfortably. I will try it once.” And so he goes on for a while until he finds out that these two packages can’t be carried together; one will have to go.</p>\n\n  <p>“Why, I’ve hardly picked up this new bundle and I’m getting tired already.” After some deliberation he takes the first bundle off his back, finds a good place to put it by the side of the road, and proceeds down the road with the second. “I’ll come back and get that later,” he decides, “once I’ve found a secure place to store these other things.” Thus he <em>leaves</em> his first love, for the second one. <em>~Daniel Beachy</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "translation_key": "a36519f9bb037ad290ab3eefcc24d40a463c704d3f966ad1a7ea24b9e5281ad4"
+}
