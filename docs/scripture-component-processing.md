@@ -133,8 +133,10 @@ properly authorized evidence under the future append-only lifecycle.
 - The private append-only offline revision journal is implemented; see
   `scripture-admission-revisions.md`. Authoritative live admission/materialization
   and real funding for exact never-paid predecessors remain disabled.
-- A separate completed-publication update path with exact predecessor/publication
-  hashes and last-good-publication retention
+- The separate offline completed-publication update journal is implemented; see
+  `scripture-publication-updates.md`. Its exact predecessor-bound processing and
+  final acceptance retain the current publication. Live update admission and
+  replacement remain disabled.
 - Durable reservation, prepared-request, upload, uncertain-create reconciliation,
   collection and independently accepted-review records bound to this protocol
 - Human/source/publication drift checks before work and before publication, plus
