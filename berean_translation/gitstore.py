@@ -4,7 +4,6 @@ A worker owns the state paths. Enqueuers add unique immutable queue files and ma
 advance main concurrently; only disjoint remote edits can be rebased automatically.
 """
 from __future__ import annotations
-import json
 import os
 import re
 import subprocess

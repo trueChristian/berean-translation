@@ -1,3 +1,2 @@
 -r requirements.txt
--r requirements-scripture.txt
 PyYAML==6.0.3

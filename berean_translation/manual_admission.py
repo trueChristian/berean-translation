@@ -1,18 +1,11 @@
-"""Resume only never-paid manual Scripture prefetch, under the original envelope.
-
-Campaign selection and skips remain audit history. This separate v1 ledger owns
-admission progress; it is not a new request, retry allowance or funding source.
-"""
+"""Resume frozen, never-paid manual admissions under their original authority."""
 from __future__ import annotations
 
 import copy
 import re
 from datetime import datetime
 from .common import ContractError, canonical, digest, json_hash, now, read_json
-from .scripture_evidence import (ScriptureAttention, adopt_scripture_selection_audit,
-                                  freeze_scripture_evidence)
 from .state import TERMINAL
-from . import plain_policy
 
 VERSION = 1
 MAX_LEDGER_BYTES = 16 * 1024 * 1024
@@ -22,7 +15,7 @@ TEMPORARY = 'prefetch_wait_budget'
 MUTABLE = {'tasks', 'skipped', 'status', 'task_counts', 'reserved_usd',
            'reported_usage_usd', 'accounted_responses', 'cancel_requested', 'admission_counts'}
 UNFINISHED = {'pending', 'ready', 'attention'}
-SCRIPTURE_HOLDS = {
+RETIRED_HOLDS = {
     'prefetch_wait_budget', 'awaiting_prefetch', 'ambiguous_source_quote',
     'ambiguous_quote_reference', 'unresolved_quote_reference', 'unmarked_quote_scope',
     'unassociated_source_quote', 'printed_reference_mismatch', 'source_quote_annotation',
@@ -38,7 +31,7 @@ def path(identity):
 
 def supported(campaign):
     return (campaign.get('operation') in ('translate', 'review')
-            and campaign.get('scripture_quotes') and not campaign.get('dry_run')
+            and not campaign.get('dry_run')
             and not any(campaign.get(k) for k in
                         ('autonomous', 'source_refresh', 'recovery_of_campaign', 'downstream_recovery')))
 
@@ -53,15 +46,7 @@ def needs_resume(state, campaign, *, config=None):
     ledger = state.read(path(campaign['id']))
     if ledger is not None:
         validate(state, campaign, ledger)
-    if ledger:
-        from .scripture_component_runtime import materialized
-        if any('component_revision' in e and not materialized(state, campaign, e)
-               for e in ledger['entries'].values()):
-            return True
-        settings = config if config is not None else state.read('config/runtime.json', {})
-        if plain_policy.enabled(settings) and any(_can_migrate(e) for e in ledger['entries'].values()):
-            return True
-    return (any(e['status'] in ('pending', 'ready') for e in ledger['entries'].values())
+    return (any(_can_resume(e) for e in ledger['entries'].values())
             if ledger else bool(legacy_targets(campaign)))
 
 
@@ -80,31 +65,6 @@ def transition(entry, status, reason):
     entry.setdefault('events', []).append({'status': status, 'reason': reason, 'at': now()})
 
 
-def _attention_text(message):
-    """Bound untrusted diagnostic data; retain visible Unicode, escape controls/markup."""
-    marker = ' [truncated]'
-    parts, size = [], 0
-    for char in message:
-        part = (f'\\u{ord(char):04x}' if char in '<>&' else
-                char if char.isprintable() else ascii(char)[1:-1])
-        size += len(part.encode('utf-8'))
-        if size > MAX_ATTENTION_DETAIL_BYTES - len(marker):
-            return ''.join(parts) + marker
-        parts.append(part)
-    return ''.join(parts)
-
-
-def record_attention_detail(entry, message):
-    """Append once at observation time, without modifying existing audit history."""
-    if entry['status'] != 'attention' or 'attention_detail' in entry:
-        return
-    detail = {'text': _attention_text(message),
-              'provenance_sha256': entry['provenance_sha256'],
-              'event_index': len(entry['events']) - 1,
-              'event_sha256': json_hash(entry['events'][-1])}
-    entry['attention_detail'] = {**detail, 'sha256': json_hash(detail)}
-
-
 def _validate_attention_detail(entry):
     if 'attention_detail' not in entry:
         return  # Existing v1 history has no reconstructable diagnostic obligation.
@@ -121,7 +81,7 @@ def _validate_attention_detail(entry):
         raise ContractError('Malformed manual admission attention detail')
     event = entry['events'][detail['event_index']]
     if (entry['provenance'] is None
-            or (entry['status'] not in ('attention', 'cancelled') and 'plain_migration' not in entry)
+            or (entry['status'] not in ('attention', 'cancelled') and 'resume_fields' not in entry)
             or event['status'] != 'attention' or event['reason'] == TEMPORARY
             or detail['event_sha256'] != json_hash(event)
             or not detail['text'].startswith(f'Scripture attention: {event["reason"]}: ')):
@@ -142,9 +102,6 @@ def counts(state, campaign):
     result = {}
     for entry in ledger['entries'].values():
         status = entry['status']
-        if 'component_revision' in entry:
-            from .scripture_component_runtime import materialized
-            status = 'admitted' if materialized(state, campaign, entry) else 'ready'
         result[status] = result.get(status, 0) + 1
     return result
 
@@ -307,12 +264,12 @@ def initialize(engine, campaign, request, *, legacy=False):
                           'candidate_path': candidate_path, 'candidate_sha256': json_hash(candidate)}
             entry.update(provenance=provenance, provenance_sha256=json_hash(provenance))
             transition(entry, 'pending', TEMPORARY if legacy else
-                       'awaiting_translation' if plain_policy.is_plain(campaign) else 'awaiting_prefetch')
+                       'awaiting_translation')
         except (ContractError, UnicodeError) as exc:
             transition(entry, 'attention', str(exc))
     save(state, ledger)
     state.save_campaign(campaign)
-    engine.checkpoint('runtime: freeze manual admission provenance before Scripture prefetch')
+    engine.checkpoint('runtime: freeze original manual admission provenance')
     return ledger
 
 
@@ -340,7 +297,7 @@ def _validate(state, campaign, ledger):
                 or set(entry['item']) != {'language', 'article_id'}
                 or (entry['item']['language'], entry['item']['article_id']) not in target_pairs
                 or not isinstance(entry.get('events'), list)
-                or not 1 <= len(entry['events']) <= MAX_EVENTS + (3 if 'plain_migration' in entry else 0)
+                or not 1 <= len(entry['events']) <= MAX_EVENTS + (2 if 'resume_fields' in entry else 0)
                 or any(not isinstance(event, dict) or set(event) != {'status', 'reason', 'at'}
                        or not all(isinstance(v, str) and len(v) <= 4096 for v in event.values())
                        for event in entry['events'])
@@ -354,11 +311,6 @@ def _validate(state, campaign, ledger):
                 or entry['status'] not in UNFINISHED | {'admitted', 'cancelled'}):
             raise ContractError('Manual admission target provenance changed')
         _validate_attention_detail(entry)
-        if 'plain_migration' in entry:
-            _validate_plain_migration(campaign, entry)
-        if 'component_revision' in entry:
-            from .scripture_component_runtime import validate_revision
-            validate_revision(state, campaign, entry)
         proof = entry['provenance']
         if proof is None:
             if entry['status'] not in ('attention', 'cancelled'):
@@ -382,32 +334,32 @@ def _validate(state, campaign, ledger):
                     or (proof['candidate_path'] is not None and proof['candidate_path'] !=
                         f'state/manual-admission-candidates/{proof["candidate_sha256"]}.json')):
                 raise ContractError('Manual admission task changed its frozen contract')
-        fields = entry.get('ready_fields')
-        if fields is not None and plain_policy.is_plain(fields):
-            allowed = {plain_policy.FIELD}
-            baseline = (entry.get('plain_migration') or {}).get('accepted_baseline')
-            if baseline is not None:
+        historical = entry.get('ready_fields')
+        if historical is not None and (not isinstance(historical, dict)
+                or entry.get('ready_sha256') != json_hash(historical)):
+            raise ContractError('Manual admission prepared history changed')
+        fields = entry.get('resume_fields', historical)
+        if 'resume_fields' in entry:
+            allowed = {'plain_policy_resumed', 'stage'}
+            if 'accepted_baseline' in fields:
                 allowed.update({'accepted_baseline', 'baseline_quality_score'})
-            if 'plain_migration' in entry:
-                allowed.add('plain_policy_migration_sha256')
-            if (set(fields) != allowed or entry.get('ready_sha256') != json_hash(fields)
-                    or ('plain_migration' in entry and fields.get('plain_policy_migration_sha256') !=
-                        entry['plain_migration']['sha256'])
-                    or ('plain_migration' not in entry and not plain_policy.is_plain(campaign))):
-                raise ContractError('Plain manual admission prepared task changed')
-            if baseline is not None and (fields['accepted_baseline'] != baseline['candidate']
-                    or fields['baseline_quality_score'] != baseline['quality_score']):
-                raise ContractError('Plain manual admission changed its accepted baseline')
-        elif fields is not None and (not isinstance(fields, dict)
-                or set(fields) - {'scripture_evidence_path', 'scripture_evidence_sha256', 'stage', 'scripture_resume_reason'}
-                or entry.get('ready_sha256') != json_hash(fields)
-                or fields.get('scripture_evidence_path') != f'state/scripture/{fields.get("scripture_evidence_sha256")}.json'
-                or not isinstance(fields.get('scripture_evidence_sha256'), str)
-                or not re.fullmatch(r'[a-f0-9]{64}', fields['scripture_evidence_sha256'])
-                or ('stage' in fields and (campaign['operation'] != 'review' or fields['stage'] != 'correct'))):
-            raise ContractError('Manual admission prepared task changed')
+                if (campaign['operation'] != 'review' or proof['task'].get('base_html_sha256') is None
+                        or json_hash(fields['accepted_baseline']) != proof['candidate_sha256']
+                        or type(fields.get('baseline_quality_score')) is not int
+                        or not 0 <= fields['baseline_quality_score'] <= 100):
+                    raise ContractError('Manual admission changed its accepted baseline')
+            count = entry.get('resume_event_count')
+            if (not isinstance(fields, dict) or set(fields) != allowed
+                    or fields['plain_policy_resumed'] is not True
+                    or fields['stage'] != proof['task']['stage']
+                    or entry.get('resume_sha256') != json_hash(fields)
+                    or type(count) is not int or not 1 <= count < len(entry['events'])
+                    or entry.get('resume_events_sha256') != json_hash(entry['events'][:count])
+                    or entry['events'][count]['reason'] != 'plain_translation_resumed'
+                    or entry['events'][count]['status'] != 'ready'):
+                raise ContractError('Manual admission policy resumption changed')
         if entry['status'] in ('ready', 'admitted') and fields is None:
-            raise ContractError('Manual admission lacks prepared evidence')
+            raise ContractError('Manual admission lacks prepared task fields')
         if entry['status'] == 'admitted':
             task = state.read(f'state/tasks/{identity}/task.json')
             if not task or identity not in campaign['tasks'] or task['campaign'] != campaign['id']:
@@ -459,135 +411,21 @@ def requested_event(task):
     return {'event': 'requested', 'task': task['id'], 'campaign': task['campaign'], 'at': task['created_at']}
 
 
-def _can_migrate(entry):
+def _can_resume(entry):
     return (entry.get('status') in UNFINISHED and entry.get('provenance') is not None
-            and 'component_revision' not in entry and 'plain_migration' not in entry
-            and (entry['status'] in ('pending', 'ready') or entry.get('reason') in SCRIPTURE_HOLDS))
-
-
-def _validate_plain_migration(campaign, entry):
-    """The overlay is additive; original admission proof and events remain frozen."""
-    migration = entry['plain_migration']
-    keys = {'version', 'at', 'original_campaign_sha256', 'provenance_sha256',
-            'policy', 'previous_ready_fields', 'original_events_sha256',
-            'original_events_count', 'accepted_baseline', 'sha256'}
-    if (not isinstance(migration, dict) or set(migration) != keys
-            or type(migration['version']) is not int or migration['version'] != 1
-            or not isinstance(migration['at'], str)
-            or migration['original_campaign_sha256'] != json_hash(contract(campaign))
-            or migration['provenance_sha256'] != entry['provenance_sha256']
-            or migration['sha256'] != json_hash({k: v for k, v in migration.items() if k != 'sha256'})
-            or type(migration['original_events_count']) is not int
-            or not 1 <= migration['original_events_count'] < len(entry['events'])
-            or migration['original_events_sha256'] !=
-                json_hash(entry['events'][:migration['original_events_count']])
-            or entry['events'][migration['original_events_count']] !=
-                {'status':'ready', 'reason':'plain_translation_policy_migration', 'at':migration['at']}):
-        raise ContractError('Plain manual migration changed its original history')
-    policy = migration['policy']
-    allowed = {plain_policy.FIELD, 'prompts', 'prompt_version', 'review_contract_version', 'upgrade_quality_threshold'}
-    if (not isinstance(policy, dict) or not plain_policy.is_plain(policy)
-            or set(policy) - allowed or not {plain_policy.FIELD, 'prompts', 'prompt_version'} <= policy.keys()
-            or not isinstance(policy['prompt_version'], str) or not policy['prompt_version']
-            or not isinstance(policy['prompts'], dict) or set(policy['prompts']) != {'translation', 'review'}
-            or any(not isinstance(value, str) or not value.strip() for value in policy['prompts'].values())):
-        raise ContractError('Malformed frozen plain manual policy')
-    from .review_contract import frozen_version
-    frozen_version(policy)
-    if type(policy.get('upgrade_quality_threshold')) is not int or policy['upgrade_quality_threshold'] != 98:
-        raise ContractError('Plain manual replacement review must retain its 98-point threshold')
-    baseline = migration['accepted_baseline']
-    if baseline is not None and (not isinstance(baseline, dict)
-            or set(baseline) != {'candidate', 'quality_score'} or campaign['operation'] != 'review'
-            or entry['provenance']['task'].get('base_html_sha256') is None
-            or json_hash(baseline['candidate']) != entry['provenance']['candidate_sha256']
-            or type(baseline['quality_score']) is not int or not 0 <= baseline['quality_score'] <= 100):
-        raise ContractError('Plain manual migration changed its accepted baseline')
-    original = entry['events'][migration['original_events_count'] - 1]
-    if original['status'] not in ('pending', 'ready', 'attention') or (
-            original['status'] == 'attention' and original['reason'] not in SCRIPTURE_HOLDS):
-        raise ContractError('Plain migration cannot reopen an unrelated admission hold')
-    previous_fields = migration['previous_ready_fields']
-    if previous_fields is not None and (not isinstance(previous_fields, dict)
-            or set(previous_fields) - {'scripture_evidence_path', 'scripture_evidence_sha256',
-                                      'stage', 'scripture_resume_reason'}):
-        raise ContractError('Plain migration changed its previous evidence fields')
-
-
-def migrate_manual_admissions(engine, campaign, ledger=None):
-    """Resume never-paid Scripture admission holds inside their original authority.
-
-    Accepted tasks, candidate/provider history, requests, source snapshots,
-    campaign contracts and spending allocations are never rewritten. The same
-    admission identity receives new frozen prompts only before its first task.
-    """
-    if (not plain_policy.enabled(engine.config) or plain_policy.is_plain(campaign)
-            or campaign.get('cancel_requested')):
-        return ledger
-    state = engine.state
-    ledger = ledger if ledger is not None else state.read(path(campaign['id']))
-    if ledger is None:
-        return None
-    validate(state, campaign, ledger)
-    batch_tasks = {custom_id.split(':', 1)[0] for batch in state.batches()
-                   for custom_id in batch.get('custom_ids', [])}
-    for entry in ledger['entries'].values():
-        if not _can_migrate(entry):
-            continue
-        if state.read(f'state/tasks/{entry["task_id"]}/task.json') is not None or entry['task_id'] in batch_tasks:
-            continue  # Existing/reserved task bytes keep their historical policy.
-        boundary = getattr(engine, 'continue_work', None)
-        if boundary is not None and not boundary():
-            break
-        try:
-            _, record = _guard(engine, campaign, entry)
-        except (ContractError, UnicodeError):
-            continue  # Source/human/lineage guards are not Scripture holds.
-        from .review_contract import frozen_fields as review_fields
-        policy = {**plain_policy.frozen_fields(engine.config), **review_fields(engine.config),
-                  'prompt_version':engine.config.runtime['prompt_version'],
-                  'upgrade_quality_threshold':engine.config.runtime.get('upgrade_quality_threshold', 98),
-                  'prompts':{name:engine.config.prompt(name) for name in ('translation', 'review')}}
-        baseline = None
-        if campaign['operation'] == 'review' and record.get('published'):
-            baseline = {'candidate':state.read(entry['provenance']['candidate_path']),
-                        'quality_score':record['published']['quality_score']}
-        stamp = now()
-        migration = {'version':1, 'at':stamp,
-                     'original_campaign_sha256':json_hash(contract(campaign)),
-                     'provenance_sha256':entry['provenance_sha256'], 'policy':policy,
-                     'previous_ready_fields':copy.deepcopy(entry.get('ready_fields')),
-                     'original_events_sha256':json_hash(entry['events']),
-                     'original_events_count':len(entry['events']), 'accepted_baseline':baseline}
-        migration['sha256'] = json_hash(migration)
-        entry['plain_migration'] = migration
-        fields = {plain_policy.FIELD:1, 'plain_policy_migration_sha256':migration['sha256']}
-        if baseline is not None:
-            fields.update(accepted_baseline=copy.deepcopy(baseline['candidate']),
-                          baseline_quality_score=baseline['quality_score'])
-        entry.update(ready_fields=fields, ready_sha256=json_hash(fields),
-                     status='ready', reason='plain_translation_policy_migration')
-        entry['events'].append({'status':'ready', 'reason':entry['reason'], 'at':stamp})
-        save(state, ledger)
-    return ledger
+            and (entry['status'] in ('pending', 'ready') or entry.get('reason') in RETIRED_HOLDS))
 
 
 def resume(engine, campaign, request, *, new=False):
+    """Admit the original selected work, with current policy and no new funding."""
     state = engine.state
     ledger = state.read(path(campaign['id']))
     if ledger is None:
         ledger = initialize(engine, campaign, request, legacy=not new)
     validate(state, campaign, ledger)
-    ledger = migrate_manual_admissions(engine, campaign, ledger)
+    batch_tasks = {custom_id.split(':', 1)[0] for batch in state.batches()
+                   for custom_id in batch.get('custom_ids', [])}
     for entry in ledger['entries'].values():
-        if 'component_revision' in entry:
-            from .scripture_component_runtime import enabled, resume as resume_component
-            if campaign.get('cancel_requested'):
-                from .scripture_component_runtime import cancel_materialized as cancel_component
-                cancel_component(engine, campaign, entry)
-            elif enabled(engine.config):
-                resume_component(engine, campaign, entry)
-            continue
         if entry['status'] not in UNFINISHED:
             continue
         if campaign.get('cancel_requested'):
@@ -595,43 +433,35 @@ def resume(engine, campaign, request, *, new=False):
             transition(entry, 'cancelled', 'campaign_cancelled_by_owner')
             save(state, ledger)
             continue
-        if entry['status'] == 'attention':
+        if not _can_resume(entry) or entry['task_id'] in batch_tasks:
             continue
         boundary = getattr(engine, 'continue_work', None)
         if boundary is not None and not boundary():
             break
         try:
-            source, record = _guard(engine, campaign, entry)
-            task = copy.deepcopy(entry['provenance']['task'])
-            task['models'] = copy.deepcopy(campaign['models'])
-            if entry['status'] == 'pending':
-                if plain_policy.is_plain(campaign):
-                    task.update({plain_policy.FIELD:1})
-                else:
-                    task.update(freeze_scripture_evidence(engine, source, task['language'],
-                        frozen_policy=campaign['scripture_quotes'],
-                        language_tag=campaign['language_settings'][task['language']]['tag']))
-                if task['stage'].startswith('review') and not plain_policy.is_plain(campaign):
-                    # The candidate and predecessor were frozen before the first
-                    # deadline, and guard rechecks that predecessor on replay.
-                    proof = entry['provenance']
-                    state.save_candidate(task, state.read(proof['candidate_path']))
-                    previous = state.read(f'state/tasks/{proof["previous_task_id"]}/task.json') if proof['previous_task_id'] else None
-                    if not adopt_scripture_selection_audit(state, task, previous):
-                        task.update(stage='correct', scripture_resume_reason='saved_candidate_requires_quotation_audit')
-                fields = {k: v for k, v in task.items() if k != 'models' and entry['provenance']['task'].get(k) != v}
-                entry.update(ready_fields=fields, ready_sha256=json_hash(fields))
-                transition(entry, 'ready', 'plain_translation_ready' if plain_policy.is_plain(campaign)
-                           else 'evidence_frozen')
+            proof = entry['provenance']
+            existing = state.read(f'state/tasks/{entry["task_id"]}/task.json')
+            if existing is not None and 'resume_fields' not in entry:
+                continue  # Materialized historical tasks retain their exact bytes.
+            _, record = _guard(engine, campaign, entry)
+            if 'resume_fields' not in entry:
+                fields = {'plain_policy_resumed':True,
+                          'stage':proof['task']['stage']}
+                if campaign['operation'] == 'review' and record.get('published'):
+                    fields.update(accepted_baseline=state.read(proof['candidate_path']),
+                                  baseline_quality_score=record['published']['quality_score'])
+                entry.update(resume_fields=fields, resume_sha256=json_hash(fields),
+                             resume_event_count=len(entry['events']),
+                             resume_events_sha256=json_hash(entry['events']))
+                transition(entry, 'ready', 'plain_translation_resumed')
                 save(state, ledger)
-                source, record = _guard(engine, campaign, entry)
-            else:
-                task.update(copy.deepcopy(entry['ready_fields']))
-            existing = state.read(f'state/tasks/{task["id"]}/task.json')
+                _, record = _guard(engine, campaign, entry)
+            task = {**copy.deepcopy(proof['task']), **copy.deepcopy(entry['resume_fields']),
+                    'models':copy.deepcopy(campaign['models'])}
             if existing is not None and existing != task:
                 raise ContractError('original_task_identity_already_used')
-            if entry['provenance']['candidate_path'] is not None:
-                state.save_candidate(task, state.read(entry['provenance']['candidate_path']))
+            if proof['candidate_path'] is not None:
+                state.save_candidate(task, state.read(proof['candidate_path']))
             state.save_task(task)
             event = requested_event(task)
             if event not in record['history']:
@@ -643,17 +473,10 @@ def resume(engine, campaign, request, *, new=False):
             state.save_campaign(campaign)
             transition(entry, 'admitted', 'original_manual_envelope')
             save(state, ledger)
-        except ScriptureAttention as exc:
-            transition(entry, 'pending' if exc.reason == TEMPORARY else 'attention', exc.reason)
-            record_attention_detail(entry, str(exc))
-            if not any(i['language'] == entry['item']['language'] and i['article_id'] == entry['item']['article_id']
-                       for i in campaign['skipped']):
-                campaign['skipped'].append({**entry['item'], 'reason': exc.reason, 'detail': _attention_text(str(exc))})
-            save(state, ledger)
-            state.save_campaign(campaign)
         except (ContractError, UnicodeError) as exc:
-            transition(entry, 'attention', str(exc))
-            save(state, ledger)
+            if entry['status'] != 'attention':
+                transition(entry, 'attention', str(exc))
+                save(state, ledger)
     campaign['admission_counts'] = counts(state, campaign)
     if not campaign.get('cancel_requested'):
         campaign['status'] = ('admission_attention' if campaign['admission_counts'].get('attention') else
@@ -669,9 +492,6 @@ def admitted(state, task):
         return True
     ledger = state.read(path(task['campaign']), {})
     entry = ledger.get('entries', {}).get(task['id'], {})
-    if 'component_revision' in entry:
-        from .scripture_component_runtime import materialized
-        return materialized(state, state.read(f'state/campaigns/{task["campaign"]}.json'), entry)
     return entry.get('status') == 'admitted'
 
 
@@ -723,7 +543,7 @@ def cancel_materialized(engine, campaign, entry):
     task = state.read(f'state/tasks/{entry["task_id"]}/task.json')
     if task is None:
         return
-    proof, fields = entry['provenance'], entry.get('ready_fields')
+    proof, fields = entry['provenance'], entry.get('resume_fields', entry.get('ready_fields'))
     if proof is None or fields is None:
         raise ContractError('Cannot cancel an unproven manual materialization')
     expected = {**proof['task'], **fields, 'models':campaign['models']}

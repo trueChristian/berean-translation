@@ -1,81 +1,21 @@
-# Bounded translation stability improvements
+# Translation stability
 
-This change extends PR #9's reasoning-review headroom work. It does not retry old
-campaigns, relax publication gates, authorize new spending, or certify a model's
-linguistic/theological quality.
+Ordinary translation and its reviewer default to `gpt-6-luna`; optional improvement defaults to `gpt-6.1-sol`. Manual selection defaults to all languages with free preview enabled. An explicit language list or model choice takes precedence. More languages do not increase a campaign's dollar ceiling. Read [pricing and reservations](model-pricing.md) and [current processing](plain-translation-runtime.md).
 
-## Defaults and cost
+## Complete reviews and bounded correction
 
-Ordinary Translate and Review now default to all configured languages, with free
-preview still the default. An explicit language or comma-separated override still
-wins. Exact-task recovery and bounded held recovery do not acquire broad language
-selectors. Campaign/task limits and explicit dollar caps are unchanged; selecting
-more languages does not increase a campaign's budget.
+Reasoning-enabled review requests reserve an 8,192-token completion cap, including hidden reasoning; ordinary nonreasoning review retains its configured base. The model must return complete JSON within its cap. Truncation remains a failure rather than an acceptance shortcut. Caps are frozen at acceptance and cannot authorize spending outside the funded envelope.
 
-The newer affordable ordinary model/reviewer default is `gpt-6-luna` with low
-reasoning. All model pickers include it; stronger downstream repair/review retain
-`gpt-6.1-sol`. Existing source-refresh policy retains its approved `gpt-5-mini`
-models. Registry/request compatibility and conservative pricing are tested
-against the documented API contract, but account access and Berean quality are
-unverified by paid calls. See [pricing](model-pricing.md). Existing campaigns keep
-the model, prompts, output limits and prices frozen at their original acceptance.
+When a candidate fails a structural check, the existing single correction receives bounded source/candidate markup excerpts, separate paths, and concrete preservation guidance. The full English article and candidate remain the authoritative inputs. Excerpts are untrusted data rather than application instructions or a license to mechanically transplant wording.
 
-New reasoning-review campaigns reserve an 8,192-token total completion budget,
-including hidden reasoning, while nonreasoning reviews retain 3,000. A larger cap
-can prevent some reasoning-only truncation, but cannot guarantee visible JSON.
-The existing stage reservation still refuses a request that cannot fit its
-campaign envelope. More headroom does not raise the dollar cap.
+Diagnostics use the strict parser and expose several independent structural problems before consuming the correction opportunity. The output is limited to eight detail findings, 600 characters per quoted excerpt, and 20,000 UTF-8 JSON bytes, with an explicit omission marker. Unsafe or malformed markup receives a bounded diagnostic rather than permissive parsing. The original gate result remains in processing history.
 
-## Structural correction evidence
+Structural diagnostics protect article identity, image attributes, comments, semantic markup, and complete content. Scripture quotation/reference matching has been removed. Ordinary independent review assesses meaning and language quality at 95, or 98 for accepted-publication improvement. Invalid no-change reviewer suggestions do not establish substantive errors; genuine meaning defects still require correction.
 
-The strict HTML signature, attribute, reference, metadata and semantic gates are
-unchanged. When a new version-1 campaign's initial translation fails a structural
-check, its existing single correction gets several bounded source/candidate
-markup excerpts, separate source and target paths, and concrete preservation
-guidance. Multiple errors are exposed before using the only correction attempt.
-The full English and candidate remain authoritative input; excerpts are untrusted
-context, not instructions, literal text alignment or permission to insert markup
-mechanically. Emphasis belongs around the corresponding target-language meaning.
+## Durable progress
 
-Diagnostics use the same strict parser, align signatures within structural text
-blocks, and report at most eight detail findings plus an explicit omission marker.
-Quotes are at most 600 characters each and the entire findings JSON is at most
-20,000 UTF-8 bytes. HTML/event work is bounded too. Malformed/forbidden markup
-gets a bounded fallback diagnostic; it is never parsed permissively or accepted.
-The original gate decision and the diagnostic findings are retained in audit.
+Fresh translations and saved-candidate recovery have separate scheduling allocations. Every admitted automatic task reserves its complete remaining stages under the existing cumulative authority. Submission checkpoints remain durable while aggregate reports refresh separately to reduce bookkeeping overhead.
 
-`structural_feedback_version` is frozen when a campaign is accepted. Older
-campaigns without that version continue to build their original correction
-feedback/request bytes. Existing saved batch payloads and task history are not
-rewritten. No extra model call, correction or automatic markup transplant is added.
+Primary pair counts are disjoint: published, unstarted, queued, active, and held without publication. Replacement outcomes and source freshness are separate. A campaign marked finished has stopped processing; it may still contain rejected candidates. Failed improvements leave the accepted publication available.
 
-Regression fixtures are short authentic source/translation excerpts, with original
-file hashes and task/source/result paths. They include missing Nero emphasis,
-Mandarin A Call to Holiness's separated strong/em omissions, lost caption breaks,
-missing superscript and split emphasis. These prove the diagnostics cover observed
-failures and keep rejecting them. They do not prove improved live acceptance.
-
-## Completion reporting and recovery
-
-`finished` remains the durable terminal-processing state used by existing recovery
-contracts. The generated status report now explicitly separates processing state
-from task outcomes (complete, held, active, proposal, cancelled, unknown). A
-finished campaign with held work is not described as wholly successful. Current
-source-compatible publication readiness remains in the issue/language tables;
-website deployment must be verified separately.
-
-The report also states whether new downstream recovery is paused or whether the
-next hourly envelope is budget blocked. Hourly recovery remains disabled until a
-separately approved total cap is configured. Explicit main-branch manual repair
-runs use their own one-time ceiling and report those allocations separately.
-Once authorized, eligible held pairs
-have one bounded repair plus independent review, not an unlimited retry loop.
-Every accepted envelope remains allocated after failure/cancellation. Policy
-refusals, unknown legacy outcomes, changed source, and exhausted source attempts
-remain visible holds requiring owner attention.
-
-Offline whole-issue tests exercise all-language work, retained holds, explicitly
-funded mocked repair, independent review and repository publication. Budget-blocked
-runs, failed re-review retaining a prior publication, and append-only report
-rendering are covered. Mock outputs do not measure translation accuracy; no paid
-run or production activation is part of these changes.
+Offline tests exercise complete stage chains, precise counters, cost/attempt ceilings, lost submission acknowledgments, human-edit protection, and compatible export. They do not measure live translation accuracy or authorize paid work.

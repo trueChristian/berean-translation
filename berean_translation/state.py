@@ -4,11 +4,10 @@ import copy
 from datetime import datetime, timezone
 from pathlib import Path
 from .batch_telemetry import provider_error
-from .common import ContractError, digest, json_hash, now, read_json, read_regular_bytes, safe_path, write_json, write_text
+from .common import ContractError, digest, json_hash, read_json, read_regular_bytes, safe_path, write_json, write_text
 from .html import split_article, validate_translation, human_notice
 from .review_notice import validate_human_content, validate_recorded_notice
 from . import publication_edits
-from .plain_policy import is_plain
 
 TERMINAL = {'complete','not_ready','proposal','cancelled','budget_blocked','source_error'}
 
@@ -140,8 +139,7 @@ class State:
                     if pub['human_reviewed']:
                         validate_human_content(candidate, tail, record['article_id'])
                     else:
-                        validate_translation(source, candidate, language=record['language'],
-                            scripture_validation=not is_plain(pub))
+                        validate_translation(source, candidate, language=record['language'])
                     if pub.pop('edit_issue', None) is not None:
                         self.save_record(record)
                     continue
@@ -196,8 +194,7 @@ class State:
             validate_recorded_notice(pub, tail)
             source_snapshot = self.source(pub)
             parsed = (validate_human_content(candidate, tail, record['article_id']) if pub['human_reviewed']
-                      else validate_translation(source_snapshot, candidate, language=record['language'],
-                          scripture_validation=not is_plain(pub)))
+                      else validate_translation(source_snapshot, candidate, language=record['language']))
             current = source['articles'].get(record['article_id'])
             status = 'ready' if current and current['translation_key'] == pub['translation_key'] else 'stale'
             if current is None:
@@ -300,6 +297,8 @@ class State:
                 admission = admissions.get(key)
                 source_error = article.get('source_error') or source_errors.get(article_id)
                 status = task.get('status') if task else None
+                accepted_task = bool(publication and task
+                                     and record.get('published', {}).get('task') == task['id'])
                 if status == 'in_batch':
                     work = 'active'
                 elif source_error:
@@ -310,7 +309,7 @@ class State:
                     work = 'held_without_publication'
                 elif admission:
                     work = 'queued'
-                elif status == 'complete' and publication:
+                elif publication and (status == 'complete' or accepted_task):
                     work = 'finished'
                 elif status in TERMINAL:
                     work = 'held_without_publication'
@@ -329,7 +328,7 @@ class State:
                                reason=admission['reason'] or 'manual_admission_' + admission['status'])
                 if source_error:
                     row.update(source_attention=True, reason='source_error')
-                replacement_pending = bool(admission or (task and status != 'complete'))
+                replacement_pending = bool(admission or (task and status != 'complete' and not accepted_task))
                 if publication and replacement_pending and work in ('queued', 'active', 'held_without_publication'):
                     replacement = 'held' if work == 'held_without_publication' else work
                     row['replacement_status'] = replacement
@@ -415,40 +414,24 @@ class State:
                             f'{counts["unstarted"]} | {counts["queued"]} | {counts["active"]} | '
                             f'{counts["held_without_publication"]} | '
                             f'{sum(pair.get("replacement_status") == "held" for pair in pairs)} |')
-        recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
         # Keep reporting on the same exact, non-recyclable ledger as acceptance.
-        # Local imports avoid the recovery modules' dependency on TERMINAL.
-        from .downstream import funding_ledger, frontier
-        from .recovery import money
+        from .downstream import funding_ledger
         funding = funding_ledger(self)
         from . import autonomous
-        automatic = autonomous.enabled(config) or self.read(autonomous.AUTHORITY_PATH) is not None
-        recovery_frontier = (autonomous.frontier(config, self, tasks, work_summary=work) if automatic else
-                             frontier(config, self, tasks=list(task_by_id.values()), funding=funding))
+        recovery_frontier = autonomous.frontier(config, self, tasks, work_summary=work)
         self.write('RECOVERY.json', recovery_frontier)
-        if automatic:
-            self.write('state/automatic-status.json', {
-                'allocated_usd': recovery_frontier['committed_usd'],
-                'approved_total_usd': recovery_frontier['approved_total_usd'],
-                'pending_requests': work['pending_automatic_requests'],
-                'attention': [pair for pair in work['pairs'] if pair['category'] == 'held_without_publication'],
-                'target_pairs': work['target_pairs'], 'counts': work['counts'],
-                'replacement_counts': work['replacement_counts'], 'generated_at': generated_at})
-        allocated = funding['shared_policy_usd']
-        cap = money(recovery_policy.get('total_budget_usd', 0))
-        if not recovery_policy.get('enabled'):
-            recovery_status = 'Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.'
-        elif allocated + money(recovery_policy.get('campaign_budget_usd', 0)) > cap:
-            recovery_status = 'Budget blocked: the next hourly recovery envelope does not fit the remaining authorization.'
-        else:
-            recovery_status = 'Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.'
-        if automatic:
-            values = autonomous.ledger(self)
-            automatic_cap = recovery_frontier['approved_total_usd']
-            rows += ['', '## Automatic archive work', '',
-                'Scheduled collection creates missing work across the whole archive and all configured languages. '
+        self.write('state/automatic-status.json', {
+            'allocated_usd': recovery_frontier['committed_usd'],
+            'approved_total_usd': recovery_frontier['approved_total_usd'],
+            'pending_requests': work['pending_automatic_requests'],
+            'target_pairs': work['target_pairs'], 'counts': work['counts'],
+            'replacement_counts': work['replacement_counts'], 'generated_at': generated_at})
+        rows += ['', '## Automatic archive work', '',
+                f'Automatic policy enabled: {autonomous.enabled(config)}. '
+                'Scheduled discovery and collection create missing work across the whole archive and all configured languages. '
                 'Disable repository Actions to stop starting work; already submitted provider batches may finish.',
-                f'Automatic committed ceiling: ${recovery_frontier["committed_usd"]:.6f} / ${automatic_cap:.2f}. '
+                f'Automatic committed ceiling: ${recovery_frontier["committed_usd"]:.6f} / '
+                f'${recovery_frontier["approved_total_usd"]:.2f}. '
                 'This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. '
                 'Accepted legacy refresh and manual envelopes retain their separate original authority.',
                 'New automatic work reserves its complete remaining stage chain, up to $10 per envelope. '
@@ -457,16 +440,15 @@ class State:
                 'Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, '
                 'refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.',
                 '[Recovery frontier](RECOVERY.json) records current holds and funding.']
-        rows += ['', '## Legacy held-work recovery authority' if automatic else '## Held-work recovery', '', recovery_status,
-                 f'Hourly/shared-policy funding. Accepted lifetime recovery allocations: ${allocated:.6f} / ${cap:.2f}. '
+        rows += ['', '## Previously accepted recovery authority', '',
+                 f'Accepted shared allocations: ${funding["shared_policy_usd"]:.6f} '
+                 f'across {funding["shared_policy_count"]} runs. '
                  'Allocations are not recycled after failure or cancellation.',
                  f'Separately authorized manual workflow allocations: ${funding["manual_workflow_usd"]:.6f} '
                  f'across {funding["manual_workflow_count"]} accepted runs. Each run is limited to its own explicit ceiling; '
-                 'these permanent allocations do not consume or enable the hourly policy.',
-                 'New continuation requests allow at most three accepted cycles per article/language/English fingerprint, '
-                 'including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.',
-                 '[Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, '
-                 'eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.',
+                 'each prior run retains its frozen funding and attempt limits.',
+                 '[Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes '
+                 'and explicit blocking reasons. It is a derived report, not spending authority.',
                  ' | '.join(f'{reason}: {count}' for reason, count in recovery_frontier['counts'].items()),
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
         from .review_diagnostics import preserved_review_diagnostics, render_review_diagnostics
@@ -511,7 +493,6 @@ class State:
             trigger = ('automatic archive' if campaign.get('autonomous') else
                        'hourly recovery' if campaign.get('downstream_request', {}).get('scheduled_hour') else
                        'manual recovery' if campaign.get('downstream_recovery') else
-                       'exact recovery' if campaign.get('recovery_of_campaign') else
                        'source refresh' if campaign.get('source_refresh') else 'manual')
             rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
                         f'{summary} | {campaign.get("reported_usage_usd",0):.8f} | '

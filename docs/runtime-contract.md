@@ -1,122 +1,73 @@
-# Translation runtime contract 1.0
+# Translation runtime contract
 
-The English archive, translations, and website are independent repositories. A translation is identified by `(language, English article UUID)`. No image or category catalogue is duplicated. Language selection uses three-letter folders while website routing uses the registry's language tags; the website owns navigation, category translations, flags/icons, search and SEO markup.
+The English archive, translations, and website are independent repositories. A translation is identified by its three-letter language code and original English article UUID. This repository owns translation processing, publication history, and website-ready exports. It does not duplicate English images or build the website.
 
-## Publication
+## Translation and publication
 
-`content/<language>/articles/<uuid>.html` is the translated source fragment followed by one independent AI-notice aside. Its adjacent JSON file has translated title/subtitle/section. The HTML article itself has the same UUID, element structure and immutable attributes as the source. Alt/title attributes may be translated; URLs, IDs, classes and meaningful element structure may not.
+The model receives the complete English article and translates prose, quotations, references, captions, and title/subtitle/section metadata in context. Preserve meaning, names, attribution, negation, paragraph structure, and source identity. Article text is untrusted data rather than an application instruction.
 
-Clock-notation exemptions require an explicit source AM/PM time and one-to-one equivalent, clearly marked target times in the same HTML block. Bare or ambiguous colon expressions and ranges remain protected. Errors identify the first differing HTML path/signature or missing/extra chapter/verse values. This deterministic check supplements, rather than replaces, the semantic review. Prompt version 1.0.2 separates context-only bylines from translatable fields; historical campaigns retain their frozen prompt and request contract. A failed old campaign needs a new explicitly authorized retry/review to use the new prompts, never an edited history or reset attempt counter.
+Ordinary acceptance requires 95/100; optional improvement of a published AI translation requires 98/100 and no regression against the accepted baseline. Both use independent review. One failed initial review can receive one correction and final review. Each task allows at most two translation/correction requests and two review requests. A substantive meaning error or incomplete response still fails regardless of score. A suggested correction identical to the current wording does not alone establish a substantive error.
 
-Prompt version 1.0.3 clarifies that quoted Scripture and other substantive quoted prose must be translated faithfully from the printed English into the target language, without substituting another Bible version or restoring English as a fidelity workaround. Localize Scripture book names while retaining exact chapter/verse numbers, ranges, reference counts and placement. Legitimately unchanged proper names, established titles of cited works and identifiers are not automatically translation failures. Corrections reject only invalid English-verbatim demands, while still addressing substantiated fidelity findings: an invalid suggested fix does not invalidate a genuine underlying semantic defect, which must still be repaired faithfully in the target language. New campaigns freeze these instructions for translation, both reviews and the bounded correction; existing campaigns, including 1.0.2, keep their original frozen prompts and are never migrated. The 95-point threshold, major/critical holds, attempt limits and spending caps are unchanged. Artificial offline prompt/request regressions verify packaging and immutability, not live model compliance or theological translation quality.
+There is no GetBible dependency or special reference, quotation, edition, evidence, offset, or versification gate. Ordinary semantic review covers quotations as article prose. Runtime checks protect complete output, safe HTML, article UUIDs, image paths, meaningful source structure, and readable metadata. Refusals, truncated output, invalid JSON, and missing results remain explicit failures.
 
-`index.json` describes public translation records. `human_reviewed: false` is not a publication blocker. `status: ready` means the last accepted translation matches the observed English translation fingerprint; human-reviewed and AI-unreviewed articles are both allowed. An already accepted translation remains exported when its English source changes or disappears, with status `stale` or `source_removed` and its original source provenance. Source revision, actual translation/reviewer models and output fingerprints remain traceable.
+Accepted HTML lives at `content/<language>/articles/<uuid>.html` with an independent localized notice. Its matching sidecar contains `title`, `subtitle`, and `section`, preserving absent/empty values. Alt/title attributes may be translated; shared image URLs and stable identities remain unchanged. Public files are distinct from pending candidates under `state/tasks/`.
 
-Failed or pending candidates live under `state/tasks`, not public `content`. A failed re-review never removes an existing good version. Human-reviewed article/language pairs are permanently excluded from every new AI request, including manual review and forced retries. Already-submitted suggestions cannot replace them. These proposals include full candidate JSON and findings; applying changes to the existing reviewed HTML/metadata is a normal human commit, without adding an AI notice or silently changing provenance.
+A failed replacement never removes the last accepted publication. Accepted improvements archive the previous version before replacing public files. Source changes mark retained publications stale instead of deleting them. `index.json` describes accepted publications; human review is not a prerequisite for initial AI publication.
 
-Human editorial authority is recorded after a committed human change to an existing publication, independent of the visible notice. Prose, structure, reference numbers and notice wording are not compared with AI quality rules. Git history supplies attribution; this records a collaborator's editorial action, not independent certification of linguistic accuracy. The article body remains verbatim; the system regenerates a localized human-first presentation notice without model/version or reviewer identity, retaining the English-authority link. An unreadable or technically unsafe edit is isolated per article, with its observed file hashes and reason recorded; a hash-verified accepted snapshot supplies the public payload until the human commits a repair. Legacy accepted copies are recovered from saved task candidates or independently hash-matched Git history. Snapshots are immutable and never spending authority.
+## Human editorial authority
 
-Human exports add `human_edit` (commit, author, email, time) and `notice_present` to the existing `human_reviewed: true` / `ai_notice_required: false` flags. The generated footer uses `data-translation-notice="human-reviewed"`; input notice text and marker count never establish authority. `images` describes the accepted human HTML, not English image parity. An isolated edit adds `pending_edit` with a reason and `serving_last_accepted: true`; hashes refer to the actual accepted exported payload. AI-only publications retain their strict gates. Stale/source-removed entries carry the retained-publication contract below; the website no-loss guard remains the final backstop against dropping any already-served pair.
+A collaborator can edit the published HTML, sidecar, or notice and commit normally. Git attribution establishes the human action. Notice text is presentation, not a control protocol. The runtime preserves article-body bytes, updates metadata internally, and provides the localized human-first notice with an authoritative English link.
 
-## State and durability
+A human-edited article/language pair is permanently excluded from every later AI review, repair, retranslation, or audit, including forced requests and later source changes. Already-submitted results remain processing history and cannot overwrite human work. Human prose and reference values do not undergo AI fidelity gates.
 
-1. Manual Actions workflows persist unique immutable queue requests, without a shared enqueuer concurrency group. The single collector may also persist exact, deterministic requests under the enabled owner-authorized source-refresh policy.
-2. The collector checks out current `main`, synchronizes human review, resolves upstream `main` to a commit, reads the eligible IDs from `index.json`, and computes article fingerprints itself from current English HTML and relevant metadata. A sparse checkout reads current English `main` once; missing/stale core manifests do not matter.
-3. It resolves issue selectors from that snapshot, skips processed/active/protected combinations, freezes model settings/prompts/glossaries, and creates durable tasks and hash-named source snapshots.
-4. For each stage it prepares single-model JSONL batches, reserves conservative token-cost ceilings, and pushes the reservation before calling OpenAI.
-5. It persists the uploaded file ID, then submission intent, then calls Batch creation once with retries disabled. A lost response remains `submission_unknown`; subsequent ticks search Batch metadata instead of making another paid request.
-6. Further ticks within the bounded active polling window, or later collector runs, download completed output/error files and match every result by `custom_id`, never line order. Partial expiry preserves successful items; missing items fail closed without automatic billed retries. A polling window reuses the initial coherent source scan.
-7. A passed review publishes immediately. A failed first review allows one correction and final review. A final failure remains `not_ready`.
+Unreadable or technically unsafe edits are isolated without deleting their bytes. The hash-verified last accepted snapshot remains exportable while unrelated articles continue. A later human repair clears the diagnostic. Snapshots record accepted output and never grant spending authority.
 
-Every checkpoint refreshes the publication index/status in the same commit. Batch work can run concurrently at OpenAI; repository mutation is serialized. An enqueuer or human may move main during a worker checkpoint. Disjoint changes are rebased without force; overlapping file edits halt safely. An in-progress request with a lost remote ID can be recovered through its persistent submission key even when an artifact is unavailable.
+Human exports retain `human_reviewed: true`, `ai_notice_required: false`, `human_edit` attribution, and `notice_present`. Isolated edits add `pending_edit` with a reason and `serving_last_accepted: true`; hashes refer to the accepted exported payload. AI-only publications retain their ordinary validation gates.
 
-## Limits and expenditure
+## Source discovery and resumable Batch work
 
-The configured model list is an explicit allowlist of dated model snapshots and Batch token rates. The default is a cost-conscious `gpt-4.1-mini` candidate, not a claim that it is the cheapest model meeting a proven translation-quality benchmark. Lower-cost `gpt-4.1-nano`, `gpt-5-mini` and higher-capability `gpt-4.1` choices remain selectable. The list is deliberately not an unvalidated automatic model-discovery mechanism.
+Discovery reads a coherent English `main` checkout through `index.json`, format-2.0 `catalogue.json`, and `content/articles/<uuid>.html`. It ignores source `manifest.json` and `navigation.json`. Editors never maintain hashes or synchronize revisions manually. Fingerprints are computed here from source text, structure, and translated metadata. Image-pixel or unrelated category changes alone do not purchase another translation.
 
-A campaign records its USD cap, conservative reserved cost and API-reported token-usage estimate. Input estimates use UTF-8 bytes plus a framing allowance; output tokens are explicitly limited. Reservations are never silently released and reused. A subsequent stage that cannot fit the remaining cap becomes `budget_blocked` and does not call OpenAI. Selecting a very large batch with too small a budget can therefore stop after translation but before review; the saved candidate can be selected in **AI — Review** without paying to translate it from scratch. Caps are application safeguards based on the configured rate table, not a provider billing guarantee. Configure OpenAI project/account budgets and alerts as an independent safeguard, verify whether they impose a hard cap rather than merely notifying, and review rates before a large campaign.
+**AI — Discover English changes** runs hourly. **AI — Collect and continue** runs every 15 minutes and after successful manual/discovery workflows. Both share the serialized state writer. Manual translation and improvement enqueuers persist unique immutable requests without that concurrency group. New work and recovery receive separate scheduling allocations so a repair backlog cannot consume all admissions.
 
-No more than two translations/corrections and two reviews occur per task. No billable endpoint is automatically retried. File uploads have a separate three-failure bound. Manual re-review/retry is a new, explicitly authorized bounded campaign. Discovery never authorizes a first translation of an article/language pair. The separately approved automatic source-refresh policy applies only to already-published AI pairs whose current source fingerprint changed: gpt-5-mini for both stages, at most $10 per one-issue/language campaign, at most five new campaigns per initial scan, exact source selections and all-history fingerprint deduplication. These caps are per campaign, not an aggregate lifetime/daily spending cap. Failed/cancelled/budget-blocked fingerprints require manual intervention; active, human-reviewed, withdrawn and compatible work is excluded. Immutable requests and frozen campaign policy/usage provide the spending ledger. Disabling the policy pauses unaccepted automatic requests; already-accepted work needs explicit cancellation.
+The collector uses OpenAI's Batch API:
 
-## Exact manual candidate recovery
+1. Freeze a request's selection, source snapshots, model settings, prompts, prices, and permitted stages.
+2. Persist the task and conservative cost reservation plus exact JSONL payload before external submission.
+3. Persist the uploaded input-file ID, then submission intent, before one billable Batch creation.
+4. Store the returned remote Batch ID, or record `submission_unknown` if acknowledgment is uncertain.
+5. Poll stored batches and match downloaded output/error results by `custom_id`, never line order.
+6. Advance the independent review/correction chain and publish accepted output.
 
-The dedicated recovery workflow emits review-only immutable requests containing
-`recovery_of_campaign` and a nonempty unique `previous_task_ids` allowlist. There
-are no language/issue fallback selectors; combining selection families fails
-closed. Explicit budget (at most six USD decimal places) and dry-run fields are required. A target must exist once,
-belong to the finished original campaign, be the latest terminal `not_ready` task,
-have a saved candidate and hash-verified source/model provenance, match current
-source, and have no public/human-reviewed replacement or overlapping active work.
-The entire selection is rejected if any target fails. No automatic hold filter,
-new language detector, or semantic acceptance rule is introduced.
+OpenAI does not call this repository back. Collection polls active batches once a minute within a 600-second work window. It yields at resumable boundaries, leaving durable prepared requests for later runs. In-flight operations finish their checkpoint sequence; the deadline is an admission boundary, not an interrupt. The 20-minute Actions job leaves time for setup, I/O, final checkpoints, and validation.
 
-Accepted campaigns record `recovery_allocation_usd` equal to the full budget,
-`previous_task_ids`, immutable request snapshot/hash, frozen selection/provenance and `recovery_budget`. The accepted envelope is audited against that snapshot and its queue request when present.
-For each original campaign, its reserved ceiling plus **all** accepted recovery
-envelopes must remain within its original cap. Allocation history is additive:
-finished, failed, cancelled, partially accepted and unused allocations still count.
-Neither actual usage nor cancellation returns headroom. Deduplication scans the
-same all-history ledger, not merely current latest tasks or active campaigns.
-The single serialized collector owns acceptance, so requests enqueued concurrently
-cannot reserve the same headroom. The original campaign is not rewritten.
+Unknown submissions are searched by their unique metadata key rather than resubmitted. Only explicit owner confirmation that no matching remote batch exists can resolve absence. No hidden synchronous endpoint or automatic billable retry is permitted. Missing/expired results preserve successful independent items and failed evidence without silently purchasing replacements.
 
-Dry runs record a selection report only, with zero allocation and no tasks or
-stage reservations. Their remaining-after amount is hypothetical. Replaying an
-identical request returns its prior report/campaign; changed inputs with the same
-identity are rejected. A paid request needs a new identity after a preview.
-Acceptance durably checkpoints the full envelope before materializing tasks and marks
-`recovery_acceptance_complete` only after all selected tasks exist. Interrupted
-acceptance is a diagnostic blocker, never permission to submit partial work or
-recycle the allocation.
+Git checkpoints never force-push. Disjoint concurrent changes can rebase; overlapping edits stop safely. A failed durable checkpoint blocks the next external side effect. Report generation is separated from essential submission checkpoints so aggregate bookkeeping does not consume every work window.
 
-An owner can explicitly abort interrupted acceptance through the existing
-`cancel` operation. Preflight freezes/checks the original record snapshot as well
-as task/candidate/source hashes and enumerates only deterministic children derived
-from the campaign/language/article identities. It rejects unexpected child paths,
-results, batch records, reservations, attempts, model events, candidate changes or
-foreign record/history evidence before writing anything. This includes candidate
-files created before task records and task records created before record/history
-or campaign-list updates.
+## Funding and migration
 
-A durable `acceptance_aborting` journal records a timestamp and exact partitions:
-materialized tasks, candidate-only artifacts, and entirely unstaged child IDs.
-Repeated explicit cancellation can finish that same local-only abort idempotently.
-A terminal retry also verifies that origin contains its checkpoint; a locally
-committed but failed final push requires another explicit cancel from a fresh
-main checkout, retaining the failed checkout for audit. It cannot report a durable
-abort based solely on an empty local diff.
-Materialized children receive one cancelled status/history entry; candidate-only
-artifacts remain untouched; no missing task is created. Terminal
-`acceptance_aborted` keeps `recovery_acceptance_complete=false`, the full immutable
-request/selection/allocation, and a task list containing only materialized children.
-The validator checks this terminal schema, immutable original history prefix,
-cancellation evidence and retained artifacts. Legitimate later work may extend
-article records without invalidating the abort. All planned previous IDs stay
-consumed and the entire envelope remains allocated, even when no task existed.
-An incomplete/aborting campaign cannot submit recovery work; an explicit terminal
-abort restores valid repository state without rewriting old tasks or deleting
-history. Any evidence of already-submitted work is a blocker for this specialized
-abort rather than something to conceal or relabel.
+Whole-archive/all-language automatic work retains the cumulative shared $30 authority approved October 4, 2026, without renewal. New translation, source refresh, and saved-stage recovery share that ledger. Each new automatic envelope reserves the complete remaining chain and is at most $10. Separate accepted manual and legacy envelopes keep their original paid authorizations, models, rates, and limits.
 
-Each new task starts at review1 with the original candidate and pinned source,
-new frozen campaign prompts/settings, and immutable previous task/candidate hashes.
-The original records, attempt counters, results, candidate, source cache and public
-files remain untouched. Existing runtime reservation and quality checks govern
-review1, at most one correction, and review2 within the recovery envelope. Runtime
-validation audits provenance and cumulative allocations. Failed recovery does not
-publish or overwrite human work; accepted review still needs at least 95 and no
-major/critical findings. Offline tests establish selection and ledger behavior,
-not model compliance, billing guarantees or theological translation quality.
+Only complete terminal usage evidence can settle proven unused new-automatic headroom through immutable priced events. Partial usage, missing responses, uncertain submissions, and unproven cancellation retain their reservations. Actual usage is provider-reported at frozen rates, not invoice certainty. A changed prompt, model, run ID, or source revision never resets attempt history or authorizes another standing cap.
 
-## Source compatibility
+The October 8 plain policy removes retired Scripture prerequisites. Reuse existing candidates and re-review them under the current rules before buying another translation. Preserve original envelopes, submitted payloads, snapshots, results, findings, attempt counts, and funding evidence. Record migration through auditable processing events. Removing a retired hold does not itself prove a candidate acceptable. Refusals, unknown provider outcomes, and human protection remain effective.
 
-The source reader consumes archive format 2.0: `index.json.articles`, `catalogue.json.issues`, and `content/articles/<uuid>.html`. It does not read a core manifest or navigation file. It computes fingerprints inside the translation runtime, stores the observed inventory in `state/source.json`, and verifies each HTML fragment and its indexed image references. Existing compatible translation keys are preserved by retaining the previous fingerprint recipe.
+The removed implementation is available in Git history; current code, dependencies, tests, workflows, and documentation do not retain dormant Scripture execution paths.
 
-Compatibility uses the source text, structure and translation-metadata fingerprints. Shared image pixel replacements do not incur a new translation. A wording change, structural change, or translated metadata change marks the previous translation stale. Conservative invalidation is intentional; this version does not silently transplant reviewed prose into changed markup. Snapshot caches are not independently authoritative and must never be edited.
+## Reporting and validation
+
+Each eligible article/language pair contributes once to **published**, **unstarted**, **queued**, **active**, or **held without publication**. Their sum equals the eligible total. Pending/failed replacement attempts and source freshness are separate diagnostics. Accepted output remains published while its proposed replacement is active or held. Reports include collection timing, provider observations where available, and newly published counts.
+
+`finished` means a campaign stopped processing, not that every candidate passed. A successful Actions run means runtime processing completed safely, not that all translation work was accepted. `remote_*_at` fields describe observed provider lifecycle timestamps; `collected_at` describes local pickup. Legacy records lacking both cannot establish provider versus collection delay.
+
+`index.json`, `STATUS.md`, and `RECOVERY.json` are derived projections, not editorial or spending authority. `validate --recognize-human-edits` refreshes them after recognizing legitimate Git changes. CI performs this only in its own checkout. Authors never hand-maintain reports or fingerprints.
+
+Run the offline regression suite, repository validation, workflow YAML checks, and read-only source compatibility validation. Tests simulate provider behavior and do not measure real translation quality or use paid credentials. Active dependencies are the official OpenAI SDK plus development YAML validation; no MCP client is installed.
 
 ## Website export
 
-The website must pin both repository checkouts. From the clean translation checkout:
+From a clean translation checkout with the website-selected English revision alongside it:
 
 ```bash
 python -m berean_translation export \
@@ -125,102 +76,20 @@ python -m berean_translation export \
   --base /
 ```
 
-For a Pages project path use the actual site's base, for example `--base /articles/`. The export includes translated HTML/sidecars, a display index, and a file-hash manifest. It contains no state, prompts, configuration, snapshots, skipped audit records, or images. The website uses the English repository's shared images and canonical article/group associations. It should use the exported translated `images[].alt` when generating image accessibility metadata.
+Export verifies selected-English fingerprints and accepted output hashes. It emits public HTML/sidecars, a display index, and file hashes, without raw state, prompts, configuration, or copied images. The consumer uses the English repository's shared assets. Output is promoted only when complete; existing nonempty destinations are never erased. Base-path rewriting affects actual image and English-link attributes, not matching prose. The configurable initial English route is `/en/articles/{article_id}/`.
 
-Export compares every publication with a fresh runtime scan of the **selected** English checkout, not merely the translation repository's most recent poll. Incompatible, removed, unready and failed candidates are omitted. Output is assembled in a temporary sibling directory and promoted only when complete. Existing nonempty destinations are never erased. Base-path rewriting affects actual image attributes and the application's English-link attribute, not matching text inside article prose.
-
-The configurable initial English route is `/en/articles/{article_id}/`. The website must implement that route or update `config/runtime.json.english_route` before initial publication. No live website URL is invented here.
-
-## Provider and platform references
-
-- OpenAI Batch lifecycle, ordering, expiration and 50% Batch rates: https://developers.openai.com/api/docs/guides/batch
-- Official Python SDK: https://github.com/openai/openai-python
-- Token pricing (recheck before production bulk work): https://developers.openai.com/api/docs/pricing
-- Model snapshot/capability references: https://developers.openai.com/api/docs/models/gpt-4.1-mini and the corresponding configured model pages.
-- GitHub manual inputs and concurrency behavior: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
-
-Batch stage completion can take up to its provider processing window. A collector polls submitted batches every 60 seconds within a 600-second window, then leaves remaining work to later runs. It exits immediately when no submitted/cancelling batch remains or no provider is configured. The positive wait budget includes initial work and is also checked between whole queue acceptances, collected batches and preparation units, and before uploads or submission intent. This prevents one tick from starting an entire backlog after the polling window has elapsed. The default zero budget retains a single unrestricted tick for callers that supply their own runtime boundary.
-
-This is a soft admission deadline, not an interrupt: an in-flight operation and its durable checkpoint finish first. Once the worker begins recording submission intent, it makes its single create call and records the response or uncertainty even if the deadline passes meanwhile. Yielding before intent leaves a prepared batch with its original payload, reservation, attempt count and any uploaded input-file ID. The next collector resumes that identity instead of reserving or uploading again. A real interruption after intent still follows the existing conservative reconciliation rules. The worker finalizes campaign status and derived reports before returning to repository validation.
-
-Bounded collection visits the least recently checked batches first, using a saved `last_collector_visit_at` alongside existing observation clocks. This includes paused prepared work and failed reads, so a slow prefix does not repeatedly consume every run. The visit timestamp describes local work only and never implies a provider poll, submission or completion. Terminal batches are not updated by this scheduling bookkeeping.
-
-The 20-minute workflow retains a 600-second work window, leaving the remaining time for setup, in-flight I/O, durable checkpoints and validation. A single unusually slow operation can still exceed that allowance; increasing the archive does not make this a hard wall-clock guarantee. No retry, attempt, budget, concurrency, or publication guard is relaxed. The fallback schedule is every 15 minutes, offset from the hour; GitHub may delay scheduled runs, so this is not a completion SLA or a replacement for monitoring Actions. Public-repository schedules can be disabled after inactivity.
-
-Provider observations retain `remote_*_at` lifecycle timestamps (Unix seconds), request counts, status, and `last_polled_at`. `collected_at` is local terminal-results pickup time; `completed_at` remains its legacy local-time alias. Do not infer provider timings for older records without those fields. Failed rows and provider failures remain terminal or safely recoverable under the existing rules; telemetry never authorizes a retry.
-
-Successful state checkpoints are real commits. The report in `state/heartbeat.json` records actual successful discovery counts, source revision and pending tasks. It refreshes on meaningful snapshot changes and at least once per UTC day, so same-day completion is visible without meaningless idle keepalive changes.
-## Reasoning-review output headroom
-
-New ordinary campaigns freeze a model-aware review completion limit when they are
-accepted: 3,000 tokens for non-reasoning reviewers, and at least 8,192 for a
-registered reviewer with reasoning enabled, bounded by that model's output limit.
-`review_output_tokens` remains the ordinary base; `reasoning_review_output_tokens`
-is the finite reasoning-review floor. The downstream recovery policy retains its
-separate explicit 8,192-token review limit. Reasoning and visible JSON share the
-completion cap, so this provides headroom, not guaranteed JSON completion.
-
-The acceptance rule also covers newly accepted exact-candidate re-reviews and
-authorized source-refresh campaigns; downstream repair keeps its separate policy.
-Queued requests not yet accepted use the policy in force at acceptance. Already
-accepted campaigns, their recorded limits, request bytes, attempts and
-reservations are unchanged. No failed work is replayed. The full resolved limit
-is included in context checks and conservative reservations before submission.
-Campaign dollar caps are never raised: the larger reservation can leave fewer
-reviews affordable in a fixed-budget campaign. At the registered GPT-5-mini Batch
-output rate, 8,192 instead of 3,000 increases the output reservation by $0.005192
-per review. Truncation, refusals, malformed responses and quality failures still
-fail closed; no automatic fallback or extra attempt is introduced.
-
-## Never-submitted batch exclusion
-
-Human control is rechecked before preparation, upload and the billable create, including edits incorporated by a checkpoint rebase. A prepared mixed batch is retained as cancelled-before-submission; its replacement contains only byte-identical authorized requests for unaffected articles. The replacement records `reservation_reused_from`, and the original records `replacement_batch`. The conservative existing reservation is carried forward, never added again, released or recycled; campaign allocation and task attempts are unchanged. Validation checks the one-to-one link, exact subset and proof that create was not called. An already uncertain submission still follows reconciliation and is never partitioned or blindly recreated.
-
-## Derived-report regeneration
-
-`validate --recognize-human-edits` always rebuilds `index.json`, `STATUS.md` and `RECOVERY.json` after recognition, then performs the same strict repository validation. This also supports accepted records that were backfilled before their reports. The reports are display projections, not human-review or spending authority. Repeating recognition is idempotent for unchanged inputs. CI refreshes them only in its checkout; the normal serialized collector publishes them with its durable checkpoints before billable work. No author needs to maintain generated reports or hashes.
-
+The Remnant website polls both repositories' `main` revisions hourly and rebuilds changed inputs. Deployment is owned by the website; this repository sends no notification or deployment dispatch.
 
 ### Retained accepted publications
 
-Export never omits a previously accepted publication merely because the selected
-English revision changed or removed it. Its status is `stale` or `source_removed`,
-`retained` is true, and `retention_reason` is `english_changed` or `english_removed`.
-`source_revision` and `source_translation_key` remain the accepted historical
-values. `current_source_translation_key` is the current English key or null when
-removed. The entry's `issue_id` retains the accepted source article's issue.
-The manifest lists these entries under `retained`; they are not counted as omitted.
+Export never omits an accepted publication merely because selected English changed or disappeared. Its status is `stale` or `source_removed`, `retained` is true, and `retention_reason` is `english_changed` or `english_removed`. `source_revision` and `source_translation_key` retain accepted values; `current_source_translation_key` is the current English key or null. The original `issue_id` remains. The manifest lists retained entries separately rather than as omitted.
 
-`retained_source` contains the frozen normalized `article`, `fingerprints`,
-`repository`, `revision` and `translation_key`, plus `snapshot_sha256`,
-`article_id`, `html_repository_path`, `html_sha256`, `index_repository_path`
-and `catalogue_repository_path`. The consumer retrieves the English HTML and
-needed catalogue/assets from that exact Git revision, without running historical
-code. It verifies the HTML hash and reconstructs the original six-field snapshot
-(the first five fields plus `html`) to verify `snapshot_sha256` using canonical
-JSON. This binds historical metadata and HTML together. The original snapshot's
-`metadata_sha256` is not a standalone hash of the normalized article object.
-Raw state, original HTML and images are not copied into this display export.
+`retained_source` contains the frozen normalized `article`, `fingerprints`, `repository`, `revision`, and `translation_key`, plus `snapshot_sha256`, `article_id`, `html_repository_path`, `html_sha256`, `index_repository_path`, and `catalogue_repository_path`. The consumer retrieves English HTML and assets from that exact Git revision, verifies its HTML hash, and reconstructs the original six-field snapshot to verify `snapshot_sha256` using canonical JSON. The original `metadata_sha256` is not a standalone hash of the normalized article object. Raw state, English HTML, and images are not copied into this display export.
 
-The website must explicitly support this contract, keep source-version labels
-truthful, and retain verified historical image and grouping dependencies. An
-unverifiable retained dependency fails the candidate deployment safely; it does
-not authorize silently removing an existing article or labeling stale work current.
-Human-reviewed retained pairs stay permanently excluded from AI work.
-
+The website retains verified historical grouping/image dependencies and truthful source-version labels. An unverifiable dependency fails deployment safely rather than silently removing an already-served pair. Human-reviewed retained pairs remain excluded from AI work.
 
 ### Unexpected working-file isolation
 
-A renamed, copied or extra content file never becomes an accepted publication
-merely by existing. Human-edit synchronization inventories these paths under
-`state/content-isolation.json`, leaves their bytes untouched, and reports them
-while accepted records continue from verified copies. Symlinks are not followed,
-unsupported file types are not read, and changes after synchronization require
-another synchronization before validation. Unknown files at a source/language
-publication path also exclude that pair from paid AI work.
+Renamed, copied, or extra content files do not become accepted publications merely by existing. Human synchronization inventories them under `state/content-isolation.json`, preserves their bytes, and reports them while verified accepted copies continue serving. It does not follow symlinks or read unsupported files. Unknown files at a publication path also exclude that pair from paid AI work.
 
-Automatic checkpoints exclude isolated working paths, so an untracked editor
-copy is not silently added to Git. If someone has already staged an isolated
-file in the worker checkout, publication pauses without modifying their staging.
-No isolated file is copied into the website export or treated as human-reviewed
-without a recognized accepted-publication record.
+Automatic checkpoints exclude isolated paths. An already-staged isolated file pauses publication without changing the editor's staging. Such files are neither exported nor classified as human-reviewed without a recognized publication record.

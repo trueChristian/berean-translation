@@ -16,10 +16,8 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-24.04
-    # The 1,120-test suite took 18m39s on Actions before archive/source checks.
-    # Jacques queue/replay coverage adds over two minutes locally. Preserve every
-    # validation gate with bounded headroom for the larger offline suite.
-    timeout-minutes: 30
+    # Leave bounded headroom for the complete offline suite and source checks.
+    timeout-minutes: 15
     steps:
       - name: Check out the exact change and review history
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1

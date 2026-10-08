@@ -43,24 +43,23 @@ Chat Completions requests.
 
 ## Defaults and bounded alternatives
 
-New ordinary manual translation and review campaigns default to GPT-6 Luna in
-the runtime and both workflows. It is also selectable in the exact-candidate
-recovery and held-translation repair workflows. Its short-context uncached input
-rate is 60% lower and its output rate 75% lower than the existing GPT-5 mini Batch
-registry rates; this is a rate comparison, not a prediction of total spend or
-translation quality. Cached input, reasoning use, output length, retries, and the
-long-context tier affect actual cost. The application retains the 16,384-token
-ordinary translation/correction cap and the 8,192-token reasoning-review cap.
-Both review stages include reasoning within that cap.
+Ordinary translation and its independent reviewer default to `gpt-6-luna`.
+Optional improvement of published AI translations defaults to `gpt-6.1-sol`
+for generation and validation. Both manual workflows offer the configured
+model registry, with explicit selections preserved in accepted requests.
+The specialized manual repair and exact-candidate-recovery workflows are removed.
 
-Downstream recovery selects GPT-6.1 Sol by default and permits the more expensive
-GPT-6 Astra or cheaper Luna as manual options. Recovery uses a 32,768-token
-translation/correction cap and an 8,192-token review cap. These are application caps below the model
-maximum. Higher model capability does not certify theological accuracy or relax
-the existing publication gates. Exact-candidate recovery retains GPT-5 mini as
-its workflow default. Explicit model selections remain authoritative, and the
-new defaults do not alter frozen campaigns, publish held candidates, increase
-spending limits, or enable automatic downstream recovery.
+Luna's short-context uncached input rate is 60% lower and its output rate 75% lower
+than the existing GPT-5 mini Batch registry rates; this compares configured rates
+rather than predicting total spend or quality. The ordinary translation/correction
+cap is 16,384 tokens and the reasoning-review cap is 8,192, including reasoning.
+Existing funded downstream campaigns retain their 32,768-token generation and
+8,192-token review caps, original model settings, rates, and dollar ceilings.
+
+A stronger model does not establish improved source fidelity by itself. Initial
+translations use 95 and optional accepted-publication improvements use 98, with
+meaning and technical validity required. Current defaults do not reprice old
+requests, reset paid history, or increase the standing budget.
 
 ## Conservative reservation and reported usage
 
@@ -87,9 +86,9 @@ Campaign acceptance copies the registry into the campaign/task records. All
 costing uses those frozen entries, so a later registry change cannot silently
 reprice accepted work. Historical entries without cache/tier fields keep their
 original conservative input/output calculation. The four older registry entries
-are unchanged. In particular, the separately authorized automatic source-refresh
-policy remains on `gpt-5-mini` with its existing limits; stronger recovery models
-do not expand that standing authorization.
+are unchanged. Already accepted `gpt-5-mini` source-refresh envelopes retain their original
+models and limits. New source refreshes use the canonical autonomous scheduler
+under the same shared authority as new translations and saved-candidate recovery.
 
 Offline tests cover cache mixes, tier boundaries, rounding, reasoning accounting,
 missing usage, frozen campaigns, context rejection, and blocking before upload
