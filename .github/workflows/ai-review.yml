@@ -1,4 +1,4 @@
-name: AI — Review
+name: AI — Improve translations
 
 on:
   workflow_dispatch:
@@ -43,7 +43,7 @@ on:
         type: string
         default: ""
       model:
-        description: "Translation/correction model"
+        description: "Improvement model; accepted replacements must score at least 98"
         type: choice
         options:
           - gpt-4.1-mini
@@ -53,9 +53,9 @@ on:
           - gpt-6-luna
           - gpt-6.1-sol
           - gpt-6-astra
-        default: gpt-6-luna
+        default: gpt-6.1-sol
       review_model:
-        description: "Independent review request model"
+        description: "Independent validation model for improvements and saved candidates"
         type: choice
         options:
           - gpt-4.1-mini
@@ -65,7 +65,7 @@ on:
           - gpt-6-luna
           - gpt-6.1-sol
           - gpt-6-astra
-        default: gpt-6-luna
+        default: gpt-6.1-sol
       budget_usd:
         description: "Optional manual campaign USD ceiling, including all stages"
         type: string
@@ -74,10 +74,6 @@ on:
         description: "Preview selections only: no translations, reservations, or paid requests"
         type: boolean
         default: true
-      retry_failed:
-        description: "Explicitly retry previously attempted items (translate only); costs a new bounded campaign"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -107,5 +103,4 @@ jobs:
           INPUT_REVIEW_MODEL: ${{ inputs.review_model }}
           INPUT_BUDGET_USD: ${{ inputs.budget_usd }}
           INPUT_DRY_RUN: ${{ inputs.dry_run }}
-          INPUT_RETRY_FAILED: ${{ inputs.retry_failed }}
         run: python3 -m berean_translation enqueue-env

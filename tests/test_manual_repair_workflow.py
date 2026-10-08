@@ -101,7 +101,7 @@ class ManualRepairWorkflowTests(unittest.TestCase):
         (self.config, self.state, self.source, self.provider,
          self.git, self.engine) = setup(self.root)
         self.workflow = yaml.load(
-            (REPO_ROOT / '.github/workflows/ai-repair.yml').read_text(),
+            (REPO_ROOT / 'docs/historical-workflows/ai-repair.yml').read_text(),
             Loader=yaml.BaseLoader)
         steps = [step for step in self.workflow['jobs']['enqueue']['steps'] if 'run' in step]
         self.assertEqual(len(steps), 1, 'Exercise the workflow shell rather than a copied CLI command')

@@ -205,7 +205,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
 
     def test_workflow_exposes_only_safe_repair_inputs(self):
         import yaml
-        workflow = yaml.load((REPO_ROOT / '.github/workflows/ai-repair.yml').read_text(),
+        workflow = yaml.load((REPO_ROOT / 'docs/historical-workflows/ai-repair.yml').read_text(),
                              Loader=yaml.BaseLoader)
         self.assertEqual(workflow['name'], 'AI — Repair held translations')
         self.assertEqual(set(workflow['on']), {'workflow_dispatch'})
@@ -227,7 +227,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
 
     def test_workflow_preserves_queue_and_trusted_collector_boundaries(self):
         import yaml
-        workflow = yaml.load((REPO_ROOT / '.github/workflows/ai-repair.yml').read_text(),
+        workflow = yaml.load((REPO_ROOT / 'docs/historical-workflows/ai-repair.yml').read_text(),
                              Loader=yaml.BaseLoader)
         self.assertNotIn('concurrency', workflow)
         self.assertEqual(workflow['permissions'], {'contents': 'write'})
@@ -247,7 +247,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
         })
         worker = yaml.load((REPO_ROOT / '.github/workflows/ai-worker.yml').read_text(),
                            Loader=yaml.BaseLoader)
-        self.assertIn(workflow['name'], worker['on']['workflow_run']['workflows'])
+        self.assertNotIn(workflow['name'], worker['on']['workflow_run']['workflows'])
         self.assertEqual(worker['concurrency'], {
             'group': 'berean-translation-state-writer', 'cancel-in-progress': 'false'})
         for guard in ("conclusion == 'success'", "head_branch == 'main'",

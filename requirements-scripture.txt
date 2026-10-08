@@ -1,4 +1,5 @@
-# Tested anonymous GetBible MCP client. Install alongside requirements.txt.
+# Historical GetBible MCP clients, retained for old evidence/contract tests only.
+# The active translation and collector workflows install requirements.txt alone.
 mcp==2.2.0
 httpx==0.28.1
 # Official SDK 2.2 uses httpx2 internally; include SOCKS support for managed hosts.

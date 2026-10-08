@@ -126,7 +126,10 @@ class ContractTests(unittest.TestCase):
     def test_source_html_tampering_is_detected(self):
         self.upstream.revision = 'b'*40
         self.upstream.contents[f'content/articles/{A}.html'] += 'tampered'
-        with self.assertRaises(ContractError): self.engine.discover()
+        observed = self.engine.discover()
+        self.assertIn(A, observed['source_errors'])
+        self.assertIsNone(observed['articles'][A]['translation_key'])
+        self.assertTrue(observed['articles'][B]['translation_key'])
 
     def test_ineligible_article_is_not_accepted(self):
         self.upstream.revision = 'b'*40
