@@ -58,7 +58,7 @@ class QuotationPromptTests(unittest.TestCase):
 
     def test_new_campaign_packages_quotation_policy_at_every_stage(self):
         _, campaign, task = self.accept()
-        self.assertEqual(campaign['prompt_version'], '1.0.3')
+        self.assertEqual(campaign['prompt_version'], '2.0.0')
         frozen_source = self.state.path(task['source_snapshot']).read_bytes()
         for stage in STAGES:
             with self.subTest(stage=stage):

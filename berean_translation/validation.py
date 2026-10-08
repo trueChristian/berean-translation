@@ -62,6 +62,80 @@ def validate_publications(config, check_index=True):
     return result
 
 
+def validate_publication_history(config, *, state=None, tasks=None):
+    """Verify immutable replacement backups without re-reviewing old content.
+
+    This belongs to full runtime validation only. A damaged historical backup
+    must not prevent export of independently verified current publications.
+    """
+    state = State(config.root) if state is None else state
+    tasks = {task['id']: task for task in state.tasks()} if tasks is None else tasks
+    referenced = {}
+    for record in state.records():
+        language, identity = record['language'], uuid(record['article_id'])
+        for event in record.get('history', []):
+            if event.get('event') != 'publication_replaced':
+                continue
+            relative = event.get('archive')
+            prefix = f'state/publication-history/{language}/{identity}/'
+            if (language not in config.languages or not isinstance(relative, str)
+                    or not relative.startswith(prefix)
+                    or not re.fullmatch(r'[a-f0-9]{64}\.json', relative[len(prefix):])):
+                raise ContractError('Publication archive path disagrees with its language/article identity')
+            archive = state.read(relative)
+            if archive is None:
+                raise ContractError(f'Referenced publication archive is missing: {relative}')
+            if (not isinstance(archive, dict) or set(archive) != {'publication', 'html', 'metadata'}
+                    or json_hash(archive) != Path(relative).stem):
+                raise ContractError('Publication archive content-address hash changed')
+            publication = archive['publication']
+            if (not isinstance(publication, dict)
+                    or publication.get('html_path') != f'content/{language}/articles/{identity}.html'
+                    or publication.get('metadata_path') != f'content/{language}/articles/{identity}.json'):
+                raise ContractError('Archived publication paths disagree with their stable identity')
+            if any(not isinstance(event.get(field), str)
+                   or not re.fullmatch(r'[a-f0-9]{32}', event[field])
+                   for field in ('previous_task', 'task')):
+                raise ContractError('Publication archive replacement task linkage changed')
+            previous = tasks.get(event['previous_task'])
+            replacement = tasks.get(event['task'])
+            if (publication.get('task') != event.get('previous_task')
+                    or previous is None or replacement is None
+                    or previous['id'] == replacement['id']
+                    or any(task.get('language') != language or task.get('article_id') != identity
+                           for task in (previous, replacement))):
+                raise ContractError('Publication archive replacement task linkage changed')
+            if (not isinstance(archive['html'], str) or not isinstance(archive['metadata'], dict)
+                    or set(archive['metadata']) != {'title', 'subtitle', 'section'}
+                    or digest(archive['html']) != publication.get('html_sha256')
+                    or json_hash(archive['metadata']) != publication.get('metadata_sha256')):
+                raise ContractError('Archived publication HTML or metadata hashes changed')
+            snapshot = publication.get('source_snapshot')
+            if (not isinstance(snapshot, str)
+                    or not re.fullmatch(r'state/sources/[a-f0-9]{64}\.json', snapshot)):
+                raise ContractError('Archived publication source snapshot path changed')
+            source = state.source(publication)
+            if (source.get('article', {}).get('id') != identity
+                    or source.get('repository') != config.runtime['source_repository']
+                    or source.get('revision') != publication.get('source_revision')
+                    or not re.fullmatch(r'[a-f0-9]{40}', publication.get('source_revision', ''))
+                    or source.get('translation_key') != publication.get('translation_key')
+                    or source.get('fingerprints', {}).get('html_sha256') != digest(source['html'])
+                    or translation_key(source['fingerprints']) != publication['translation_key']):
+                raise ContractError('Archived publication source identity or provenance changed')
+            if relative in referenced:
+                raise ContractError('Publication archive is linked by more than one replacement event')
+            referenced[relative] = event
+    directory = state.path('state/publication-history')
+    if directory.exists() and not directory.is_dir():
+        raise ContractError('Publication archive root must be a directory')
+    actual = {path.relative_to(state.root).as_posix() for path in directory.rglob('*')
+              if path.is_file() or path.is_symlink()}
+    if actual != set(referenced):
+        raise ContractError('Publication archives and replacement history references disagree')
+    return len(referenced)
+
+
 def validate_repository(config, check_index=True):
     state = State(config.root)
     result = validate_publications(config, check_index=check_index)
@@ -98,6 +172,7 @@ def validate_repository(config, check_index=True):
         if not 0 <= task['translation_attempts'] <= 2 or not 0 <= task['review_attempts'] <= 2:
             raise ContractError('Attempt limit violated')
         state.source(task)
+    validate_publication_history(config, state=state, tasks=tasks)
     for campaign in state.campaigns():
         from .review_contract import frozen_version
         frozen_version(campaign)

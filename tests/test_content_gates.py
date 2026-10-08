@@ -278,7 +278,7 @@ class BylineRequestTests(unittest.TestCase):
                      'models': self.config.models}
 
     def test_new_campaigns_separate_context_from_exact_translation_fields_at_every_stage(self):
-        self.assertEqual(self.campaign['prompt_version'], '1.0.3')
+        self.assertEqual(self.campaign['prompt_version'], '2.0.0')
         for stage in ('translate', 'review1', 'correct', 'review2'):
             with self.subTest(stage=stage):
                 line, _, _ = build_request(self.config, self.state, {**self.task, 'stage': stage})
