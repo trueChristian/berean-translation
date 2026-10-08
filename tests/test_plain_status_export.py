@@ -165,4 +165,3 @@ class PlainStatusExportTests(unittest.TestCase):
         self.state.save_record(record)
         with self.assertRaisesRegex(ContractError, 'Scripture chapter/verse'):
             validate_publications(self.config)
-
