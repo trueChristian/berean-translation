@@ -28,7 +28,7 @@ def _hold(reason, detail):
 def validate_component_policy(contract):
     """An explicit new version; default/historical policies never opt in."""
     if (not isinstance(contract, dict) or contract.get('version') != EVIDENCE_VERSION
-            or contract.get('source_association_version') != '2'
+            or contract.get('source_association_version') not in ('2', '3')
             or contract.get('selection_normalization_version') != '2'
             or contract.get('api_version') != 'v2'):
         _hold('component_contract', 'Component evidence requires the explicit v2 contract')
@@ -78,11 +78,12 @@ def validate_component_policy(contract):
     return contract
 
 
-def component_policy(root, source, plans):
+def component_policy(root, source, plans, *, source_association_version='2'):
     """Construct an explicit offline policy from supplied plans, never infer one."""
     from .scripture_evidence import policy
     result = policy(root)
     result['version'] = EVIDENCE_VERSION
+    result['source_association_version'] = source_association_version
     result['max_component_candidate_bytes'] = 500000
     result['authored_components'] = {'version': COMPONENT_VERSION,
         'source_sha256': json_hash(source), 'plans': copy.deepcopy(plans), 'plans_sha256': json_hash(plans)}
