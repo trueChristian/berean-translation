@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 8.435196,
-  "automatic_allocation_index": 9,
-  "automatic_allocation_usd": 1.139728,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 9.574924,
+  "automatic_allocation_index": 10,
+  "automatic_allocation_usd": 1.074199,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,22 +11,22 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "7fbaefcab93aad5694cc1560a49bd9e578e136150f08c141119b1414bcd56c54",
+  "automatic_frozen_sha256": "3f8ac003c55977571a01faf92736a5d67b6d534ea7cbe0e39884bc29e69a0e2d",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49",
+    "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
-      "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
-      "candidate_sha256": "c58f9dc70ed15a1d07bcf73152354648e25eb013639e35efd361d3e0974219ca",
-      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
-      "language": "deu",
-      "previous_task_id": "ea334535d8e3fad94eb5b49ff21532e5",
-      "previous_task_sha256": "d756278247dc9a64b3c14971d356372879c6f58090dae5ebae9e7ac80f651277",
+      "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "candidate_sha256": "6d9ba3d318c1ebf079ded0fc172c598f9fce46420093ca3cdfa3159cae6aa668",
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ben",
+      "previous_task_id": "c2a52f5e496867329888d2aa44ac45dd",
+      "previous_task_sha256": "14026837e2a8c57ca420a67d46a3988db7de6d063f4ff22eb5d400f3e2814acd",
       "recovery": true,
       "stage": "correct",
-      "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f"
+      "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61"
     }
   },
   "automatic_settlement_credits": {
@@ -38,8 +38,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 1.139728,
-  "created_at": "2026-10-08T03:08:53+00:00",
+  "budget_usd": 1.074199,
+  "created_at": "2026-10-08T03:09:34+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -49,20 +49,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49",
+    "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
     "language_settings": {
-      "deu": {
-        "aliases": [
-          "ger"
-        ],
+      "ben": {
+        "aliases": [],
         "dir": "ltr",
-        "english_label": "Englisches Original",
-        "guidance": "Use standard contemporary German.",
-        "name": "German",
-        "native_name": "Deutsch",
-        "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-        "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-        "tag": "de"
+        "english_label": "মূল ইংরেজি পাঠ",
+        "guidance": "Use standard contemporary Bengali in Bengali script.",
+        "name": "Bengali",
+        "native_name": "বাংলা",
+        "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
+        "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
+        "tag": "bn"
       }
     },
     "max_output_tokens": 32768,
@@ -434,29 +432,29 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49",
+  "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
   "initial_task": {
-    "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
-    "automatic_previous_task": "ea334535d8e3fad94eb5b49ff21532e5",
+    "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+    "automatic_previous_task": "c2a52f5e496867329888d2aa44ac45dd",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49",
-    "created_at": "2026-10-08T03:08:53+00:00",
+    "campaign": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
+    "created_at": "2026-10-08T03:09:34+00:00",
     "events": [],
     "findings": [
       {
-        "location": "source.html paragraph 4 (about discipleship)",
+        "location": "HTML, stanza beginning “This promise can also open to you”",
         "severity": "major",
-        "source_quote": "Disciple has almost the same spelling as discipline.",
-        "suggested_fix": "Restore the author's original point about the English-word similarity. Suggested German rendering that preserves the intended meaning: \"Im Englischen ist ‹disciple› fast genauso geschrieben wie ‹discipline›.\" (This keeps the observation that it is an English spelling similarity.)",
-        "translation_quote": "Das Wort Jünger hat fast die gleiche Schreibweise wie Disziplin."
+        "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+        "suggested_fix": "Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.",
+        "translation_quote": "কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।"
       }
     ],
-    "id": "d19225799bf2f28dd11661633b297ef0",
-    "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
-    "language": "deu",
+    "id": "124112de9ec2f0e2f4a39dde5fa60558",
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "language": "ben",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -545,46 +543,44 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/0610baa7a65030f212f7d6f532b13660a5def3123929886b369a8eebc53676eb.json",
-    "scripture_evidence_sha256": "0610baa7a65030f212f7d6f532b13660a5def3123929886b369a8eebc53676eb",
-    "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
+    "scripture_evidence_path": "state/scripture/cea7350cc07afa6fcb42220182cfe9ade23f57b3062bcbdf150b4013c0dbb18d.json",
+    "scripture_evidence_sha256": "cea7350cc07afa6fcb42220182cfe9ade23f57b3062bcbdf150b4013c0dbb18d",
+    "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
     "stage": "correct",
     "stage_budget": {
       "initial_stage": "correct",
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.220763,
-        "review2": 0.918965
+        "correct": 0.200639,
+        "review2": 0.87356
       },
-      "total_reserved_usd": 1.139728,
+      "total_reserved_usd": 1.074199,
       "version": 1
     },
     "status": "queued",
     "translation_attempts": 0,
-    "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
-    "translation_model_actual": "gpt-5-mini-2025-08-07"
+    "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
+    "translation_model_actual": "gpt-6-luna"
   },
   "issues": [
-    "0fc3e612-5622-5b7c-987c-9dca3404fcb5"
+    "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "deu": {
-      "aliases": [
-        "ger"
-      ],
+    "ben": {
+      "aliases": [],
       "dir": "ltr",
-      "english_label": "Englisches Original",
-      "guidance": "Use standard contemporary German.",
-      "name": "German",
-      "native_name": "Deutsch",
-      "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-      "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-      "tag": "de"
+      "english_label": "মূল ইংরেজি পাঠ",
+      "guidance": "Use standard contemporary Bengali in Bengali script.",
+      "name": "Bengali",
+      "native_name": "বাংলা",
+      "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
+      "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
+      "tag": "bn"
     }
   },
   "languages": [
-    "deu"
+    "ben"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -680,7 +676,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "e27b016270312d89c1d8ffb6013fbbf743565a4a7ac12e4e08d8ebda2e20aa15",
+  "request_sha256": "29bdd2f6142c4e43aafecb034c1d5198e1ae899a51eeeaa244fd841e507fe714",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -959,33 +955,31 @@
   },
   "selection": [
     {
-      "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
-      "candidate_sha256": "c58f9dc70ed15a1d07bcf73152354648e25eb013639e35efd361d3e0974219ca",
-      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
-      "language": "deu",
-      "previous_task_id": "ea334535d8e3fad94eb5b49ff21532e5",
-      "previous_task_sha256": "d756278247dc9a64b3c14971d356372879c6f58090dae5ebae9e7ac80f651277",
+      "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "candidate_sha256": "6d9ba3d318c1ebf079ded0fc172c598f9fce46420093ca3cdfa3159cae6aa668",
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ben",
+      "previous_task_id": "c2a52f5e496867329888d2aa44ac45dd",
+      "previous_task_sha256": "14026837e2a8c57ca420a67d46a3988db7de6d063f4ff22eb5d400f3e2814acd",
       "recovery": true,
       "stage": "correct",
-      "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f"
+      "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61"
     }
   ],
   "skipped": [],
-  "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.220763,
-      "review2": 0.918965
+      "correct": 0.200639,
+      "review2": 0.87356
     },
-    "total_reserved_usd": 1.139728,
+    "total_reserved_usd": 1.074199,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "d19225799bf2f28dd11661633b297ef0"
-  ]
+  "tasks": []
 }
