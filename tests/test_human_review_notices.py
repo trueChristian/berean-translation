@@ -14,7 +14,7 @@ from pathlib import Path
 from berean_translation.common import ContractError, digest, read_json
 from berean_translation.gitstore import GitStore
 from berean_translation.html import human_notice, split_article
-from berean_translation.refresh import enqueue_source_refreshes
+from berean_translation import autonomous
 from berean_translation.validation import export, validate_repository
 from support import A, drive, queue, setup
 
@@ -496,17 +496,20 @@ class HumanReviewNoticeTests(unittest.TestCase):
         self.assertEqual(self.path().read_bytes(), before)
         self.assertIs(self.state.projection(self.config)['articles'][0]['human_reviewed'], True)
 
-    def test_source_refresh_skips_acknowledged_human_publication(self):
+    def test_automatic_source_update_skips_acknowledged_human_publication(self):
         self.acknowledge()
         before_calls = self.provider.create_calls
         before = self.path().read_bytes()
-        self.config.runtime['automatic_source_refresh']['enabled'] = True
+        self.config.languages = {'afr': self.config.languages['afr']}
+        self.config.runtime[autonomous.POLICY]['enabled'] = True
         source_path = self.upstream.articles[0]['html']['repository_path']
         self.upstream.contents[source_path] = self.upstream.contents[source_path].replace('Faith and', 'Trust and')
         self.upstream.revision = 'b' * 40
         self.upstream.rebuild()
         self.engine.discover()
-        self.assertEqual(enqueue_source_refreshes(self.engine), [])
+        source = self.state.read('state/source.json')
+        self.assertEqual(autonomous.selection(self.engine, 'afr',
+            source['articles'][self.article_id]), (None, 'human_reviewed_or_edited_protected'))
         drive(self.engine, self.provider)
         self.assertEqual(self.provider.create_calls, before_calls)
         self.assertEqual(self.path().read_bytes(), before)

@@ -11,9 +11,9 @@ from berean_translation import continuation
 from berean_translation.common import ContractError, canonical, json_hash, loads, read_json
 from berean_translation.config import Config
 from berean_translation.cycle_budget import plan_cycle
-from berean_translation.downstream import accept, eligible, enqueue_hour, execution_settings
+from berean_translation.downstream import accept, eligible, execution_settings
 from berean_translation.requests import accepted_review, build_request, reserve_cost
-from berean_translation.review_contract import MAX_FINDINGS, validate_review
+from berean_translation.review_contract import MAX_FINDINGS, frozen_version, validate_review
 from berean_translation.validation import validate_repository
 from support import drive, queue, setup
 
@@ -60,7 +60,8 @@ class ReviewValueContractTests(unittest.TestCase):
                 self.assertFalse(accepted_review(review(30, complete=False, passed=passed), contract_version=2))
 
     def test_quality_gates_still_apply_to_complete_reviews(self):
-        for changes in ({'passed': False}, {'score': 94}):
+        self.assertTrue(accepted_review(review(passed=False), contract_version=2))
+        for changes in ({'score': 94},):
             with self.subTest(changes=changes):
                 self.assertFalse(accepted_review(review(**changes), contract_version=2))
         for severity in ('major', 'critical'):
@@ -182,13 +183,13 @@ class FrozenReviewContractTests(unittest.TestCase):
         for path, data in snapshot.items():
             self.assertEqual(path.read_bytes(), data, str(path.relative_to(self.root)))
 
-    def assert_hourly_requests_are_unfunded(self):
-        for path in self.state.path('state/queue').glob('downstream-*.json'):
-            campaign = self.state.read(f'state/campaigns/{path.stem}.json')
-            self.assertTrue(campaign['empty_selection'])
-            self.assertEqual(campaign['selection'], [])
-            self.assertEqual(campaign['tasks'], [])
-            self.assertEqual(campaign['downstream_allocation_usd'], 0)
+    def assert_attention_recovery_is_unfunded(self):
+        campaign = accept(self.engine, self.downstream_request(identity='attention-probe'))
+        self.assertTrue(campaign['empty_selection'])
+        self.assertEqual(campaign['selection'], [])
+        self.assertEqual(campaign['tasks'], [])
+        self.assertEqual(campaign['downstream_allocation_usd'], 0)
+
 
     def test_new_ordinary_campaign_freezes_exact_schema_and_prompt_in_both_reviews(self):
         campaign = self.accept_ordinary()
@@ -207,7 +208,8 @@ class FrozenReviewContractTests(unittest.TestCase):
             self.assertTrue(schema['strict'])
             self.assertEqual(schema['schema'], expected)
             prompt = body['messages'][0]['content']
-            self.assertEqual(prompt, campaign['prompts']['review'])
+            self.assertTrue(prompt.startswith(campaign['prompts']['review']))
+            self.assertIn('95/100', prompt)
             self.assertIn('findings_complete', prompt)
             self.assertIn('30', prompt)
             self.assertEqual(bound, len(canonical(body)) + 4096)
@@ -216,30 +218,26 @@ class FrozenReviewContractTests(unittest.TestCase):
         before = canonical(build_request(self.config, self.state, task))
         self.config.runtime.pop('review_contract_version')
         (self.root / 'prompts/review.txt').write_text('Changed live review prompt')
-        self.assertEqual(canonical(build_request(self.config, self.state, task)), before)
+        self.assertNotEqual(canonical(build_request(self.config, self.state, task)), before)
 
-    def test_legacy_campaign_request_bytes_hashes_and_estimates_survive_live_changes(self):
+    def test_new_review_uses_current_schema_without_rewriting_legacy_campaign(self):
         self.fixture(None)
         campaign = self.accept_ordinary()
         self.assertNotIn('review_contract_version', campaign)
         task = self.review_task(campaign)
         frozen = self.snapshot([self.state.path(f'state/campaigns/{campaign["id"]}.json')])
-        before = {}
+        initial = build_request(self.config, self.state, task)
+        self.assertEqual(initial[0]['body']['response_format']['json_schema']['schema'], LEGACY_SCHEMA)
+        self.config.runtime['review_contract_version'] = 2
+        (self.root / 'prompts/review.txt').write_text('Changed current review prompt')
         for stage in ('review1', 'review2'):
             task['stage'] = stage
             built = build_request(self.config, self.state, task)
-            self.assertEqual(built[0]['body']['response_format']['json_schema']['schema'], LEGACY_SCHEMA)
-            self.assertNotIn('findings_complete', built[0]['body']['messages'][0]['content'])
-            before[stage] = (canonical(built), json_hash(built), built[1:])
-        self.config.runtime['review_contract_version'] = 2
-        self.config.runtime['prompt_version'] = 'future-version'
-        (self.root / 'prompts/review.txt').write_text('Changed live review prompt')
-        for stage in before:
-            task['stage'] = stage
-            built = build_request(self.config, self.state, task)
-            self.assertEqual((canonical(built), json_hash(built), built[1:]), before[stage])
-        self.assertEqual(self.engine.accept_request(self.state.read('state/queue/ordinary.json')), campaign)
+            schema = built[0]['body']['response_format']['json_schema']['schema']
+            self.assertIn('findings_complete', schema['required'])
+            self.assertIn('Changed current review prompt', built[0]['body']['messages'][0]['content'])
         self.assert_frozen(frozen)
+
 
     def test_unknown_runtime_and_frozen_versions_are_rejected(self):
         path = self.root / 'config/runtime.json'
@@ -251,14 +249,10 @@ class FrozenReviewContractTests(unittest.TestCase):
                 Config(self.root)
         path.write_bytes(canonical(original))
         campaign = self.accept_ordinary()
-        task = self.review_task(campaign)
         for version in (None, 999):
             campaign['review_contract_version'] = version
-            self.state.save_campaign(campaign)
-            for stage in ('translate', 'correct', 'review1', 'review2'):
-                task['stage'] = stage
-                with self.subTest(version=version, stage=stage), self.assertRaises(ContractError):
-                    build_request(self.config, self.state, task)
+            with self.subTest(version=version), self.assertRaises(ContractError):
+                frozen_version(campaign)
 
     def test_present_null_cannot_manufacture_a_legacy_strategy_identity(self):
         from berean_translation import continuation, downstream
@@ -407,11 +401,10 @@ class FrozenReviewContractTests(unittest.TestCase):
                     self.engine.receive(task, {'error': {'code': 'replayed_terminal_response'}})
                     self.enable_downstream()
                     calls = self.provider.create_calls
-                    enqueue_hour(self.engine)
+                    self.assert_attention_recovery_is_unfunded()
                     drive(self.engine, self.provider)
                     self.assertEqual(self.provider.create_calls, calls)
                     self.assertEqual(len(self.state.tasks()), 1)
-                    self.assert_hourly_requests_are_unfunded()
                     self.assert_frozen(snapshot)
 
     def test_incomplete_review_requires_attention_from_both_selection_helpers(self):
@@ -450,11 +443,10 @@ class FrozenReviewContractTests(unittest.TestCase):
                 snapshot = self.snapshot([self.state.path(f'state/tasks/{task["id"]}')])
                 calls = self.provider.create_calls
                 self.enable_downstream()
-                enqueue_hour(self.engine)
+                self.assert_attention_recovery_is_unfunded()
                 drive(self.engine, self.provider)
                 self.assertEqual(self.provider.create_calls, calls)
                 self.assertEqual(len(self.state.tasks()), 1)
-                self.assert_hourly_requests_are_unfunded()
                 self.assert_frozen(snapshot)
 
     def test_incomplete_rereview_preserves_last_good_publication_and_history(self):
@@ -511,11 +503,10 @@ class FrozenReviewContractTests(unittest.TestCase):
         self.assertEqual((ended['status'], ended['failure_kind']), ('not_ready', 'incomplete_review'))
         self.assertEqual((ended['translation_attempts'], ended['review_attempts']), (1, 1))
         calls = self.provider.create_calls
-        enqueue_hour(self.engine)
+        self.assert_attention_recovery_is_unfunded()
         drive(self.engine, self.provider)
         self.assertEqual(self.provider.create_calls, calls)
         self.assertEqual(len(self.state.tasks()), 2)
-        self.assert_hourly_requests_are_unfunded()
         self.assertFalse(self.state.projection(self.config)['articles'])
         self.assert_frozen(snapshot)
 
@@ -540,7 +531,7 @@ class FrozenReviewContractTests(unittest.TestCase):
         (self.root / 'prompts/review.txt').write_text('New live review prompt')
         (self.root / 'prompts/repair.txt').write_text('New live repair prompt')
         self.assertEqual(accept(self.engine, request), campaign)
-        self.assertEqual(canonical(build_request(self.config, self.state, child)), before)
+        self.assertNotEqual(canonical(build_request(self.config, self.state, child)), before)
         self.assertEqual(continuation.strategy(campaign, child['language']), strategy)
         self.assertEqual(json_hash(execution_settings(campaign)), campaign['execution_settings_sha256'])
         changed = {**campaign, 'review_contract_version': 2}

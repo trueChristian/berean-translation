@@ -5,7 +5,6 @@ import copy
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import patch
 
 from berean_translation.common import ContractError, loads, read_json
 from berean_translation.requests import accepted_review, build_request
@@ -30,7 +29,7 @@ class PlainReviewPolicyTests(unittest.TestCase):
                  'subtitle': None, 'section': None}
 
     def accept(self, result, threshold=95, **changes):
-        arguments = {'contract_version': 2, 'plain_policy': True,
+        arguments = {'contract_version': 2,
                      'source': self.source, 'candidate': self.candidate}
         arguments.update(changes)
         return accepted_review(result, threshold, **arguments)
@@ -46,7 +45,7 @@ class PlainReviewPolicyTests(unittest.TestCase):
     def test_false_verdict_with_passing_score_and_only_minor_findings(self):
         result = review(findings=[finding(severity='minor', fix='A stylistic alternative')])
         self.assertTrue(self.accept(result))
-        self.assertFalse(accepted_review(result, contract_version=2))
+        self.assertTrue(accepted_review(result, contract_version=2))
 
     def test_false_verdict_without_findings_does_not_override_score(self):
         self.assertTrue(self.accept(review()))
@@ -70,6 +69,15 @@ class PlainReviewPolicyTests(unittest.TestCase):
             with self.subTest(item=item):
                 self.assertTrue(actionable_finding(item, source=self.source, candidate=self.candidate))
 
+    def test_meaning_changing_punctuation_is_not_an_existing_text_fix(self):
+        source = {'html': "<p>Let's eat, Grandma.</p>"}
+        candidate = {'html': '<p>Comamos abuela.</p>'}
+        defect = finding(source="Let's eat, Grandma.", target='Comamos abuela.',
+                         fix='Comamos, abuela.')
+        self.assertTrue(actionable_finding(defect, source=source, candidate=candidate))
+        self.assertFalse(self.accept(review(score=100, findings=[defect]),
+                                     source=source, candidate=candidate))
+
     def test_incomplete_or_malformed_reviews_still_fail_closed(self):
         self.assertFalse(self.accept(review(complete=False, score=100, passed=True)))
         malformed = review()
@@ -79,14 +87,12 @@ class PlainReviewPolicyTests(unittest.TestCase):
 
     def test_accepted_upgrade_requires_98(self):
         campaign = {'quality_threshold': 95, 'upgrade_quality_threshold': 98,
-                    'plain_translation_policy_version': 1, 'operation': 'review'}
+                    'operation': 'review'}
         self.assertEqual(review_threshold(campaign), 95)
         task = {'accepted_baseline': self.candidate}
         self.assertEqual(review_threshold(campaign, task), 98)
         self.assertFalse(self.accept(review(score=97), review_threshold(campaign, task)))
         self.assertTrue(self.accept(review(score=98), review_threshold(campaign, task)))
-        campaign.pop('plain_translation_policy_version')
-        self.assertEqual(review_threshold(campaign, task), 95)
 
 
 class RequestState:
@@ -112,13 +118,15 @@ class RequestState:
 
 class PlainRequestPolicyTests(unittest.TestCase):
     def setUp(self):
-        self.config = SimpleNamespace(runtime={})
         self.campaign = {'id': 'plain', 'quality_threshold': 95, 'upgrade_quality_threshold': 98,
-                         'plain_translation_policy_version': 1, 'review_contract_version': 2,
+                         'review_contract_version': 2,
                          'prompt_version': '2.0.0', 'operation': 'translate',
                          'language_settings': {'deu': {'name': 'German', 'tag': 'de', 'guidance': ''}},
                          'glossaries': {}, 'max_output_tokens': 1000, 'review_output_tokens': 1000,
                          'prompts': {'translation': 'Translate.', 'review': 'Review.', 'repair': 'Repair.'}}
+        self.config = SimpleNamespace(runtime={'prompt_version': '2.0.0', 'review_contract_version': 2,
+                                              'quality_threshold': 95, 'upgrade_quality_threshold': 98},
+                                      prompt=lambda name: self.campaign['prompts'][name])
         self.state = RequestState(self.campaign)
         self.task = {'id': 'task', 'campaign': 'plain', 'stage': 'translate', 'language': 'deu',
                      'model': 'fixture', 'review_model': 'fixture', 'models': {'fixture': {
@@ -131,9 +139,7 @@ class PlainRequestPolicyTests(unittest.TestCase):
 
     def test_plain_translation_never_loads_scripture_even_when_old_policy_is_present(self):
         self.campaign['scripture_quotes'] = {'malformed_historical_policy': True}
-        with patch('berean_translation.scripture_evidence.frozen_policy',
-                   side_effect=AssertionError('Plain requests must skip Scripture policy')):
-            body, payload = self.request()
+        body, payload = self.request()
         self.assertEqual(body['response_format']['json_schema']['schema']['required'],
                          ['html', 'title', 'subtitle', 'section'])
         self.assertNotIn('scripture_evidence', payload)
@@ -153,14 +159,6 @@ class PlainRequestPolicyTests(unittest.TestCase):
                 self.assertEqual(payload['baseline_quality_score'], 96)
                 self.assertIn('98/100', body['messages'][0]['content'])
                 self.assertIn('regression', body['messages'][0]['content'])
-
-    def test_legacy_request_contains_no_plain_quality_or_baseline_additions(self):
-        self.campaign.pop('plain_translation_policy_version')
-        self.task['accepted_baseline'] = self.state.candidate_value
-        body, payload = self.request()
-        self.assertNotIn('quality_threshold', payload)
-        self.assertNotIn('accepted_baseline', payload)
-        self.assertEqual(body['messages'][0]['content'], 'Translate.')
 
     def test_malformed_upgrade_baseline_fails_before_submission(self):
         self.task['accepted_baseline'] = {'title': 'Incomplete'}

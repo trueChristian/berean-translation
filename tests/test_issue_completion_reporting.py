@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 from berean_translation.common import ContractError, canonical
 from berean_translation.downstream import accept, ledger
-from berean_translation.recovery import money
+from berean_translation.common import money
 from berean_translation.validation import validate_repository
 from support import A, ISSUE, setup, queue, drive
 
@@ -73,9 +73,11 @@ class IssueCompletionTests(unittest.TestCase):
         tasks=self.state.tasks()
         tasks[0]['status']='proposal'; tasks[1]['status']='cancelled'
         for task in tasks:self.state.save_task(task)
-        before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')}
+        before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                if path.name != 'automatic-status.json'}
         self.state.derive(self.config)
-        self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')})
+        self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                                if path.name != 'automatic-status.json'})
         text=self.state.path('STATUS.md').read_text()
         self.assertIn('1 proposal',text);self.assertIn('1 cancelled',text)
         self.assertIn('Processing state',text)
@@ -112,17 +114,19 @@ class IssueCompletionTests(unittest.TestCase):
         first=accept(self.engine,request)
         self.assertEqual(len(first['tasks']),1)
         self.assertEqual(ledger(self.state)[0],money('.1'))
-        before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')}
+        before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                if path.name != 'automatic-status.json'}
         next_request={**request,'id':'budget-boundary-next','budget_usd':.2}
 
-        for cap,status in ((.299999,'Budget blocked:'),(.3,'Enabled:')):
+        for cap in (.299999, .3):
             with self.subTest(cap=cap):
                 policy['total_budget_usd']=cap
                 self.state.derive(self.config)
                 text=self.state.path('STATUS.md').read_text()
-                self.assertIn(status,text)
-                self.assertIn('Accepted lifetime recovery allocations: $0.100000 / $0.30.',text)
-                self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')})
+                self.assertIn('Accepted shared allocations: $0.100000 across 1 runs.',text)
+                self.assertNotIn('hourly recovery', text)
+                self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                                        if path.name != 'automatic-status.json'})
                 validate_repository(self.config)
                 if cap < .3:
                     with self.assertRaisesRegex(ContractError,'lifetime spending envelope exhausted'):

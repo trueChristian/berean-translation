@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 from berean_translation.common import canonical, digest, json_hash
 from berean_translation.config import Config
-from berean_translation.downstream import frontier
+from berean_translation.autonomous import frontier
 from berean_translation.review_contract import validate_review
 from berean_translation.review_diagnostics import preserved_review_diagnostics
 from berean_translation.state import State
@@ -33,8 +33,6 @@ class ReviewDiagnosticsTests(unittest.TestCase):
         self.root = Path(temporary.name)
         shutil.copytree(REPO_ROOT / 'config', self.root / 'config')
         shutil.copytree(REPO_ROOT / 'prompts', self.root / 'prompts')
-        shutil.copytree(REPO_ROOT / 'data', self.root / 'data')
-        shutil.copytree(REPO_ROOT / 'docs/third-party', self.root / 'docs/third-party')
         self.state, original = State(self.root), State(REPO_ROOT)
         self.config = Config(self.root)
         self.config.runtime['autonomous_translation']['enabled'] = False
@@ -83,7 +81,8 @@ class ReviewDiagnosticsTests(unittest.TestCase):
     def immutable_bytes(self):
         return {path.relative_to(self.root).as_posix(): path.read_bytes()
                 for name in ('state', 'content')
-                for path in self.state.path(name).rglob('*') if path.is_file()}
+                for path in self.state.path(name).rglob('*')
+                if path.is_file() and path.name != 'automatic-status.json'}
 
     def assert_first_not_classified(self):
         self.assertNotIn(self.identity, {item['task_id'] for item in self.diagnostics()})
@@ -91,7 +90,7 @@ class ReviewDiagnosticsTests(unittest.TestCase):
     def test_actual_49_and_32_findings_preserve_hashes_publication_decisions_and_task_bytes(self):
         before = self.immutable_bytes()
         published = self.state.projection(self.config)
-        recovery = frontier(self.config, self.state)
+        recovery = frontier(self.config, self.state, self.state.tasks())
         diagnostics = self.diagnostics()
         self.assertEqual(len(diagnostics), 2)
         for item in diagnostics:

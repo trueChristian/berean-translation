@@ -262,12 +262,13 @@ class AutonomousQueueTests(unittest.TestCase):
         self.state.write('state/queue/old-shared.json', request)
         accepted = downstream.accept(self.engine, request)
         self.assertEqual(accepted['downstream_allocation_usd'], 6)
-        self.config.runtime['automatic_source_refresh']['enabled'] = True
         article = self.state.read('state/source.json')['articles'][B]
-        self.engine.accept_request({'id':'old-refresh', 'operation':'translate', 'issues':article['issue_id'],
+        refresh = self.engine.accept_request({'id':'old-refresh', 'operation':'translate', 'issues':article['issue_id'],
             'languages':'afr', 'model':'gpt-5-mini', 'review_model':'gpt-5-mini', 'budget_usd':10,
-            'dry_run':False, 'retry_failed':False, 'source_refresh':True, 'article_ids':[B],
-            'source_translation_keys':{B:article['translation_key']}})
+            'dry_run':False, 'retry_failed':False})
+        # Historical separate authority survives even though its old enqueuer is retired.
+        refresh['source_refresh'] = True
+        self.state.save_campaign(refresh)
         before = canonical(self.state.read('state/campaigns/old-shared.json'))
         self.config.runtime['autonomous_translation']['enabled'] = True
         self.config.runtime['automatic_new_translation'] = True

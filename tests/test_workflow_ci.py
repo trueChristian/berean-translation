@@ -15,8 +15,8 @@ class WorkflowCITests(unittest.TestCase):
         self.job = self.workflow['jobs']['test']
         self.steps = {step['name']: step for step in self.job['steps']}
 
-    def test_measured_full_suite_has_bounded_validation_headroom(self):
-        self.assertEqual(self.job['timeout-minutes'], '30')
+    def test_full_suite_has_bounded_validation_headroom(self):
+        self.assertEqual(self.job['timeout-minutes'], '15')
         self.assertEqual(self.workflow['permissions'], {'contents': 'read'})
         self.assertNotIn('pull_request_target', self.workflow['on'])
         self.assertEqual(self.workflow['concurrency']['cancel-in-progress'], 'true')

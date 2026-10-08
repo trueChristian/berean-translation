@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 from berean_translation.common import ContractError, canonical, json_hash, loads
-from berean_translation.downstream import accept, enqueue_hour, ledger, validate_history
+from berean_translation.downstream import accept, ledger, validate_history
 from berean_translation.requests import build_request
 from berean_translation.validation import validate_repository
 from support import A, B, setup, queue, drive
@@ -41,9 +41,8 @@ class DownstreamTests(unittest.TestCase):
             self.engine.prepare(); self.provider.complete_all(responder); self.engine.collect()
         self.state.derive(self.config)
 
-    def test_disabled_acceptance_and_hourly_are_free(self):
+    def test_disabled_acceptance_is_free(self):
         calls = self.provider.create_calls
-        enqueue_hour(self.engine)
         with self.assertRaises(ContractError): accept(self.engine,self.request())
         preview=accept(self.engine,self.request(dry_run=True))
         self.assertEqual(len(preview['selection']),2)
@@ -133,18 +132,6 @@ class DownstreamTests(unittest.TestCase):
         self.assertEqual(task['status'],'complete')
         self.assertEqual((task['translation_attempts'],task['review_attempts']),(1,1))
         validate_repository(self.config)
-
-    def test_hourly_queue_is_deduplicated_and_small(self):
-        self.enable()
-        with patch('berean_translation.downstream.datetime') as clock:
-            clock.now.return_value.strftime.return_value='2026-10-02T12'
-            enqueue_hour(self.engine); enqueue_hour(self.engine)
-        requests=list(self.state.path('state/queue').glob('downstream-*.json'))
-        self.assertEqual(len(requests),1)
-        request=self.state.read(str(requests[0].relative_to(self.root)))
-        self.assertEqual(request['max_articles'],3)
-        self.engine.accept_queue()
-        self.assertEqual(ledger(self.state)[0],1)
 
     def test_disabling_pauses_prepared_submission(self):
         self.enable(); c=accept(self.engine,self.request())

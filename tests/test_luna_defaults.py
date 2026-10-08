@@ -22,7 +22,7 @@ LUNA = 'gpt-6-luna'
 
 
 def workflow_inputs(name):
-    document = yaml.load((REPO_ROOT / ('docs/historical-workflows' if name in ('ai-recover.yml', 'ai-repair.yml', 'ai-scripture-components.yml') else '.github/workflows') / name).read_text(),
+    document = yaml.load((REPO_ROOT / '.github/workflows' / name).read_text(),
                          Loader=yaml.BaseLoader)
     return document['on']['workflow_dispatch']['inputs']
 
@@ -82,10 +82,9 @@ class LunaRegistryTests(unittest.TestCase):
             0.00875)
         self.assertIsNone(usage_cost(self.model, {'prompt_tokens': 100000}))
 
-    def test_every_workflow_picker_matches_registry_and_preserves_recovery_defaults(self):
+    def test_every_active_workflow_picker_matches_registry_and_operation_defaults(self):
         for filename, default in (
             ('ai-translate.yml', LUNA), ('ai-review.yml', 'gpt-6.1-sol'),
-            ('ai-recover.yml', 'gpt-5-mini'), ('ai-repair.yml', 'gpt-6.1-sol'),
         ):
             inputs = workflow_inputs(filename)
             for field in ('model', 'review_model'):
@@ -95,15 +94,13 @@ class LunaRegistryTests(unittest.TestCase):
                     self.assertEqual(inputs[field]['default'], default)
             self.assertEqual(inputs['dry_run']['default'], 'true')
 
-    def test_runtime_defaults_keep_separate_owner_approved_policies(self):
+    def test_runtime_defaults_use_shared_authority_with_bounded_recovery(self):
         runtime = read_json(REPO_ROOT / 'config/runtime.json')
         self.assertEqual(runtime['default_model'], LUNA)
         self.assertEqual(runtime['default_review_model'], LUNA)
         self.assertTrue(runtime['automatic_new_translation'])
         self.assertEqual(runtime['autonomous_translation']['total_budget_usd'], 30)
-        self.assertEqual(runtime['automatic_source_refresh'], {
-            'enabled': True, 'model': 'gpt-5-mini', 'review_model': 'gpt-5-mini',
-            'budget_usd': 10, 'max_campaigns_per_tick': 5})
+        self.assertNotIn('automatic_source_refresh', runtime)
         self.assertEqual(runtime['automatic_downstream_recovery'], {
             'enabled': True, 'total_budget_usd': 10, 'campaign_budget_usd': 1,
             'max_articles': 3, 'model': 'gpt-6.1-sol', 'review_model': 'gpt-6.1-sol',

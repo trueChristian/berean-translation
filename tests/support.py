@@ -125,7 +125,9 @@ class FakeProvider:
     def default_result(line):
         stage = line['custom_id'].split(':')[1]
         if stage.startswith('review'):
-            result = {'score':97,'passed':True,'findings':[]}
+            payload = loads(line['body']['messages'][1]['content'])
+            result = {'score':99 if 'accepted_baseline' in payload else 97,
+                      'passed':True,'findings':[]}
             schema = line['body']['response_format']['json_schema']['schema']
             if 'findings_complete' in schema['required']:
                 result['findings_complete'] = True
@@ -160,16 +162,13 @@ def setup(root, *, review_contract_version=None):
     shutil.copytree(REPO_ROOT/'prompts',root/'prompts')
     # Generic runtime tests exercise manual requests. Scheduled-policy tests opt
     # in explicitly; owner-approved production settings must not add unrelated
-    # simulated campaigns to legacy fixtures.
+    # simulated campaigns to focused manual fixtures.
     runtime = read_json(root/'config/runtime.json')
-    runtime['scripture_quotes_enabled'] = False
-    runtime.pop('plain_translation_policy_version', None)
     runtime['automatic_new_translation'] = False
     runtime['autonomous_translation']['enabled'] = False
-    runtime['automatic_source_refresh']['enabled'] = False
     runtime['automatic_downstream_recovery'].update(enabled=False, total_budget_usd=0)
-    # Existing hand-authored review fixtures model the frozen legacy contract.
-    # New-contract integration tests opt in explicitly and exercise its schema.
+    # Raw three-field historical reviews remain an explicit parsing fixture.
+    # Current review-schema integration tests opt in to the completeness field.
     runtime.pop('review_contract_version', None)
     if review_contract_version is not None:
         runtime['review_contract_version'] = review_contract_version

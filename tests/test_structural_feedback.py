@@ -232,13 +232,13 @@ class StructuralFeedbackTests(StructuralFeedbackAssertions, unittest.TestCase):
                 self.assertIn('<p><em>Original.</em></p>', findings[0]['source_quote'])
 
     def test_unknown_nonstructural_error_keeps_bounded_context_without_invented_alignment(self):
-        source, candidate = documents('<p>Read John 3:16.</p>', '<p>Lisez Jean 3:17.</p>')
-        findings = self.rejected_findings(source, candidate)
-        self.assertEqual(len(findings), 1)
-        self.assertIn('Scripture chapter/verse', findings[0]['suggested_fix'])
-        self.assertNotIn('source signature[', findings[0]['suggested_fix'])
+        source, candidate = documents('<p>A fact.</p>', '<p>Un fait.</p>')
         error = 'Unknown failure: ' + '🔒' * 20000
-        self.assert_bounded_findings(correction_findings(source, candidate, error))
+        findings = correction_findings(source, candidate, error)
+        self.assertEqual(len(findings), 1)
+        self.assertIn('Unknown failure', findings[0]['suggested_fix'])
+        self.assertNotIn('source signature[', findings[0]['suggested_fix'])
+        self.assert_bounded_findings(findings)
 
     def test_unusable_document_shapes_fail_safely(self):
         source, candidate = documents('<p>Source.</p>', '<p>Traduction.</p>')

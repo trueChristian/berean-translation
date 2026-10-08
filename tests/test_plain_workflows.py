@@ -19,7 +19,7 @@ class PlainWorkflowTests(unittest.TestCase):
         self.assertEqual(active, {'ai-translate.yml', 'ai-discover.yml', 'ai-worker.yml',
                                   'ai-review.yml', 'ci.yml'})
         for retired in ('ai-repair.yml', 'ai-scripture-components.yml', 'ai-recover.yml'):
-            self.assertTrue((ROOT / 'docs/historical-workflows' / retired).is_file())
+            self.assertFalse((ROOT / 'docs/historical-workflows' / retired).exists())
 
     def test_discovery_and_collection_share_the_serialized_state_writer(self):
         discovery = workflow('ai-discover.yml')
@@ -52,6 +52,8 @@ class PlainWorkflowTests(unittest.TestCase):
         self.assertNotIn('requirements-scripture.txt', commands)
         self.assertNotIn('scripture-components', commands)
         self.assertIn('tick --no-discover --publish', commands)
+        self.assertFalse((ROOT / 'requirements-scripture.txt').exists())
+        self.assertNotIn('requirements-scripture', (ROOT / 'requirements-dev.txt').read_text())
 
     def test_improvement_uses_stronger_defaults_without_changing_translation_defaults(self):
         translation = workflow('ai-translate.yml')

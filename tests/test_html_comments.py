@@ -2,7 +2,7 @@
 from __future__ import annotations
 import unittest
 from berean_translation.common import ContractError
-from berean_translation.html import Fragment, reference_numbers, split_article, validate_translation
+from berean_translation.html import Fragment, split_article, validate_translation
 
 ARTICLE_ID = '11111111-1111-4111-8111-111111111111'
 COMMENT = '<!-- Source layout note: the repeated pull quote is not duplicated. John 9:9 -->'
@@ -17,7 +17,7 @@ class SourceCommentTests(unittest.TestCase):
     def test_source_comment_is_preserved_but_is_not_article_text(self):
         parsed = validate_translation(self.source, self.candidate)
         self.assertNotIn('Source layout note', parsed.text)
-        self.assertEqual(reference_numbers(parsed.text), reference_numbers('John 3:16'))
+        self.assertNotIn('John 9:9', parsed.text)
         self.assertIn(('comment', COMMENT[4:-3]), parsed.signature)
 
     def test_translating_removing_moving_or_inserting_comments_is_rejected(self):

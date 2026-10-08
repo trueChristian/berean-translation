@@ -1,1 +1,0 @@
-Offline fixtures: selected John 4:15–16 verse data from anonymous live MCP on 2026-10-04. Full chapter envelopes were reduced to two verses for unit tests; the expiry was changed to 2099. They are not production evidence and their published scope hash does not authenticate these edited fixture bytes. KJV and Luther1545 attribution/edition identities remain in each fixture.
