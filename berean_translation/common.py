@@ -8,6 +8,7 @@ import re
 import stat
 import tempfile
 from datetime import datetime, timezone
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
 from uuid import UUID
@@ -118,6 +119,22 @@ def positive_money(value: str | float, maximum: float = 500.0) -> float:
     if not math.isfinite(number) or not 0 < number <= maximum:
         raise ContractError(f'Budget must be between zero and {maximum} USD')
     return number
+
+
+def money(value):
+    """Read a nonnegative USD ledger amount without rounding its precision."""
+    try:
+        result = Decimal(str(value))
+    except (InvalidOperation, ValueError) as exc:
+        raise ContractError('Invalid budget ledger') from exc
+    if not result.is_finite() or result < 0 or result > 1000000000:
+        raise ContractError('Invalid budget ledger')
+    _, digits, exponent = result.as_tuple()
+    while digits and digits[-1] == 0:
+        digits, exponent = digits[:-1], exponent + 1
+    if digits and exponent < -6:
+        raise ContractError('Budgets and ledgers require at most six decimal places in USD')
+    return result
 
 
 def csv_values(value: str) -> list[str]:

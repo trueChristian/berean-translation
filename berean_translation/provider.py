@@ -1,9 +1,8 @@
 """Official OpenAI SDK adapter. Batch creation is NEVER transparently retried."""
 from __future__ import annotations
-import io
 import os
 from typing import Protocol
-from .common import ContractError, loads
+from .common import ContractError
 
 
 class BatchProvider(Protocol):

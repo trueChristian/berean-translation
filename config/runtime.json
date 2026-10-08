@@ -6,7 +6,6 @@
   "default_review_model": "gpt-6-luna",
   "quality_threshold": 95,
   "upgrade_quality_threshold": 98,
-  "plain_translation_policy_version": 1,
   "max_translation_attempts": 2,
   "max_tasks_per_request": 1000,
   "max_batch_requests": 500,
@@ -25,13 +24,6 @@
   "review_contract_version": 2,
   "automatic_discovery": true,
   "automatic_new_translation": true,
-  "automatic_source_refresh": {
-    "enabled": true,
-    "model": "gpt-5-mini",
-    "review_model": "gpt-5-mini",
-    "budget_usd": 10,
-    "max_campaigns_per_tick": 5
-  },
   "automatic_downstream_recovery": {
     "enabled": true,
     "total_budget_usd": 10,
@@ -49,6 +41,5 @@
     "max_envelope_usd": 10,
     "max_active_tasks": 50,
     "page_size": 20
-  },
-  "scripture_quotes_enabled": false
+  }
 }

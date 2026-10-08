@@ -16,8 +16,6 @@ class Config:
             raise ContractError('Missing repository configuration')
         from .review_contract import frozen_version
         frozen_version(self.runtime)
-        from .plain_policy import enabled
-        enabled(self)
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', self.runtime['source_repository']):
             raise ContractError('Invalid source repository')
         for code, language in self.languages.items():
@@ -70,29 +68,10 @@ class Config:
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
             if type(self.runtime.get(field)) is not int or self.runtime[field] <= 0:
                 raise ContractError('Runtime size/count limits must be positive integers')
-        if type(self.runtime.get('scripture_components_runtime_enabled', False)) is not bool:
-            raise ContractError('Scripture component runtime gate must be a boolean')
-        if type(self.runtime.get('scripture_quotes_enabled', False)) is not bool:
-            raise ContractError('Scripture quote policy switch must be boolean')
         from .autonomous import policy as autonomous_policy
         automatic = autonomous_policy(self)
         if type(self.runtime.get('automatic_new_translation')) is not bool or (self.runtime['automatic_new_translation'] and not automatic['enabled']):
             raise ContractError('Automatic new work requires the bounded shared spending authority')
-        refresh = self.runtime.get('automatic_source_refresh', {'enabled': False})
-        if not isinstance(refresh, dict) or type(refresh.get('enabled')) is not bool:
-            raise ContractError('Automatic source refresh must have a boolean enabled setting')
-        if refresh['enabled'] or set(refresh) != {'enabled'}:
-            if set(refresh) != {'enabled', 'model', 'review_model', 'budget_usd', 'max_campaigns_per_tick'}:
-                raise ContractError('Invalid automatic source refresh policy fields')
-            if any(refresh.get(field) != 'gpt-5-mini' for field in ('model', 'review_model')):
-                raise ContractError('Automatic source refresh requires gpt-5-mini translation and review')
-            self.model(refresh['model']); self.model(refresh['review_model'])
-            budget = refresh.get('budget_usd')
-            if type(budget) not in (int, float) or not math.isfinite(budget) or not 0 < budget <= min(10, self.runtime['max_campaign_usd']):
-                raise ContractError('Automatic source refresh budget must be positive and at most $10 per campaign')
-            limit = refresh.get('max_campaigns_per_tick')
-            if type(limit) is not int or not 1 <= limit <= 5:
-                raise ContractError('Automatic source refresh permits at most five campaigns per discovery tick')
         from .downstream import validate_policy
         validate_policy(self)
         if self.runtime.get('structural_feedback_version') not in (None, '1'):

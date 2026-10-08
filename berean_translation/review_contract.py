@@ -13,9 +13,8 @@ MAX_FINDINGS = 30
 
 def review_threshold(campaign, task=None):
     """Use the campaign's frozen threshold, with stricter replacement review."""
-    from .plain_policy import is_plain
-    threshold = campaign['quality_threshold']
-    if is_plain(campaign) and (task or {}).get('accepted_baseline') is not None:
+    threshold = campaign.get('quality_threshold', 95)
+    if (task or {}).get('accepted_baseline') is not None:
         threshold = campaign.get('upgrade_quality_threshold', 98)
     if type(threshold) is not int or not 0 <= threshold <= 100:
         raise ContractError('Review threshold must be an integer from 0 through 100')
@@ -26,6 +25,13 @@ def _normalized_text(value):
     """Compare evidence as visible Unicode words, ignoring quotation marks."""
     value = html.unescape(re.sub(r'<[^>]*>', ' ', value))
     return ' '.join(re.findall(r'\w+', unicodedata.normalize('NFKC', value).casefold()))
+
+
+def _no_op_text(value):
+    """Ignore display wrappers while retaining meaning-bearing punctuation."""
+    value = html.unescape(re.sub(r'<[^>]*>', ' ', value))
+    value = ' '.join(unicodedata.normalize('NFKC', value).split())
+    return value.strip('"\'“”‘’«»„‟‹›「」『』')
 
 
 def _article_text(value):
@@ -53,8 +59,8 @@ def actionable_finding(finding, *, source=None, candidate=None):
     if (not source_quote or not target_quote or source_quote not in source_text
             or target_quote not in target_text):
         return True
-    suggested = _normalized_text(finding['suggested_fix'])
-    if suggested == target_quote:
+    suggested = _no_op_text(finding['suggested_fix'])
+    if suggested == _no_op_text(finding['translation_quote']):
         return False
     return True
 

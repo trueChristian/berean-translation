@@ -30,7 +30,7 @@ Discover source IDs from `index.json`, compute fingerprints here from HTML and r
 
 Each eligible article/language pair has exactly one primary category: unstarted, queued, active, held without publication, or published. Their sum equals the eligible total. Report improvement attempts and historical failed candidates separately; a failed replacement does not invalidate an accepted publication. Include meaningful collection timing and newly published counts. Never label stale output current or imply a successful worker means its candidates passed.
 
-Keep only five active workflows: manual article translation, English discovery, result collection/continuation, optional improvement review, and offline CI. Retired specialized YAML belongs under `docs/historical-workflows/`, outside active Actions. Historical Scripture code, clients, and tests are retained for provenance/regression coverage, not new processing requirements. The active worker installs `requirements.txt` without the optional historical MCP dependencies.
+Keep only five active workflows: manual article translation, English discovery, result collection/continuation, optional improvement review, and offline CI. Remove retired specialized YAML, Scripture runtime modules, clients, configuration/data, fixtures, tests, and documentation. Git history preserves the old implementation; durable paid requests, results, findings, and allocation history remain audit records. The worker installs only `requirements.txt`, with no MCP dependency.
 
 Discovery and collection are scheduled separately and share `berean-translation-state-writer` concurrency. Both operate on trusted `main`. Manual enqueuers persist unique files without that shared concurrency group so GitHub's pending-run limit cannot lose requests. A collector processes all successful enqueues and discovery runs; it does not deploy or notify the website. The website polls repository revisions hourly itself.
 
@@ -50,14 +50,14 @@ Whole-archive/all-language automatic work retains the cumulative shared $30 auth
 
 Only new automatic reservations with complete terminal usage evidence may settle proven unused headroom through immutable events at frozen rates. Partial/unknown usage and uncertain submissions retain their full ceiling. Preserve all original paid authorizations, permanent allocations, predecessor histories, model/rate snapshots, and attempt counts. The owner-approved plain policy may change current processing requirements through auditable events; it cannot alter historical billing evidence or manufacture a fresh paid envelope.
 
-Legacy bounded recovery contracts, source-lineage ceilings, cooldowns, canceled/aborted acceptance records, and unresolved provider outcomes remain auditable. Do not reset them when prompts, models, prices, or unrelated English commits change. Historical fixture workflows do not provide new authorization. Normal collector recovery must honor the remaining funding and human protections.
+Legacy bounded recovery contracts, source-lineage ceilings, cooldowns, canceled/aborted acceptance records, and unresolved provider outcomes remain auditable. Do not reset them when prompts, models, prices, or unrelated English commits change. Normal collector recovery must honor the remaining funding and human protections.
 
 Checkpoint pushes are never forced. Rebase only disjoint changes; same-file conflicts block the next external side effect. Cancellation goes through the durable collector, preserving records and allocations. Do not hand-edit terminal or frozen predecessor records.
 
 ## Validation and delivery
 
-Run `python -m unittest discover -s tests -v`, `python -m berean_translation validate`, and workflow YAML checks. Cover plain translation and 95 acceptance, 98 improvement without regression, saved-candidate recovery, accurate primary counters, complete Batch lifecycle, funding/attempt ceilings, uncertain submissions, human protection, source discovery, and compatible export. Retain historical offline regression coverage. CI can recognize legitimate committed human changes in its read-only checkout; it does not publish them.
+Run `python -m unittest discover -s tests -v`, `python -m berean_translation validate`, and workflow YAML checks. Cover plain translation and 95 acceptance, 98 improvement without regression, saved-candidate recovery, accurate primary counters, complete Batch lifecycle, funding/attempt ceilings, uncertain submissions, human protection, source discovery, and compatible export. CI can recognize legitimate committed human changes in its read-only checkout; it does not publish them.
 
 Use one implementation branch and one PR unless the owner changes that arrangement. Add separately reviewable commits. Do not merge your own implementation. Report only checks actually executed, distinguishing offline simulations from live API requests and Actions. Never claim an unverified push, PR, publication, deployment, or completed translation.
 
-The current policy is documented in `docs/plain-translation-runtime.md`. Earlier Scripture documentation is historical and must not reintroduce retired gates into current processing.
+The current policy is documented in `docs/plain-translation-runtime.md`. Do not reintroduce removed Scripture code or dependencies as a dormant compatibility layer.

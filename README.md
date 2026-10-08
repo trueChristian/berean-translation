@@ -4,7 +4,7 @@ Translate the complete English articles from [`trueChristian/berean-voice`](http
 
 **Ordinary translations pass at 95/100. Optional improvements to published translations pass at 98/100.** These scores are review rubrics, not measured percentages of accuracy. English remains authoritative. A complete, technically valid translation that meets its threshold and preserves the source meaning becomes available immediately, with the localized AI notice.
 
-**Scripture matching is retired from translation processing.** The AI translates quotations and references as part of the complete article. There is no GetBible prefetch, Bible-edition requirement, exact quotation alignment, quotation-offset contract, or special Scripture publication gate. The website's Scripture modal owns retrieval from the selected Bible edition. Read [the current processing and migration policy](docs/plain-translation-runtime.md); earlier Scripture documents describe historical contracts only.
+**Scripture matching is retired from translation processing.** The AI translates quotations and references as part of the complete article. There is no GetBible prefetch, Bible-edition requirement, exact quotation alignment, quotation-offset contract, or special Scripture publication gate. The website's Scripture modal owns retrieval from the selected Bible edition. Read [the current processing and migration policy](docs/plain-translation-runtime.md).
 
 ## Automatic operation
 
@@ -26,7 +26,7 @@ Only five workflows are active:
 | **AI — Improve translations** | Review existing publications against English with stronger models; validate accepted replacements at 98. Saved unpublished candidates use the ordinary 95 threshold. | Manual dispatch; free preview is the default. |
 | **Translation runtime checks** | Run offline regression tests, dependency contract checks, and repository/source validation. | Pull requests, pushes to main, or manual dispatch; no paid requests. |
 
-The specialized repair and Scripture-inspection workflows are retired. Their YAML is retained under [`docs/historical-workflows/`](docs/historical-workflows/) as inert evidence for historical requests and offline tests. They do not appear as active Actions workflows.
+The specialized repair and Scripture-inspection workflows and their runtime dependencies have been removed. Git history preserves the previous implementation; durable paid requests, results, and allocations remain audit records.
 
 ## Run production work
 
@@ -123,7 +123,7 @@ python3 -m berean_translation export \
 
 The exporter verifies source fingerprints and accepted publication hashes, emits compatible HTML/sidecars plus display metadata, and never exports raw processing state. It refuses to erase an existing nonempty output directory. Use the actual Pages base path where applicable. The initial notice's English route is configured by `config/runtime.json.english_route`.
 
-Python 3.11 or later is required. The active collector installs only the official OpenAI SDK from `requirements.txt`. `requirements-scripture.txt` is retained solely for historical evidence clients and offline SDK regression tests; active translation does not depend on MCP or GetBible.
+Python 3.11 or later is required. The collector installs the official OpenAI SDK from `requirements.txt`. Development adds YAML validation through `requirements-dev.txt`; there are no MCP or GetBible dependencies.
 
 ```bash
 python3 -m venv .venv
@@ -143,4 +143,4 @@ python -m berean_translation tick --no-discover --publish --wait-seconds 600 --p
 
 The positive collection wait budget includes initial work and yields at resumable boundaries. An in-flight operation finishes its durable checkpoints. Prepared batches retain their exact payload and reservations for the next run. Unknown submissions do not keep a runner alive by themselves. Read-only source compatibility checks use `python -m berean_translation discover --check-only`.
 
-See [AGENTS.md](AGENTS.md), [the current processing policy](docs/plain-translation-runtime.md), and [the retained publication/export contract](docs/runtime-contract.md#retained-accepted-publications). Older specialized Scripture documents and retired workflow fixtures explain historical provenance rather than current admission rules.
+See [AGENTS.md](AGENTS.md), [the current processing policy](docs/plain-translation-runtime.md), and [the retained publication/export contract](docs/runtime-contract.md#retained-accepted-publications).

@@ -2,7 +2,7 @@
 
 The reviewer and the local validator must use the same response contract. New
 campaigns freeze `review_contract_version: 2` at acceptance, including ordinary
-translation, explicit re-review, exact recovery, and downstream recovery.
+translation, explicit improvement, and funded downstream recovery.
 The version selects both the schema and the response instructions. It is included
 in new downstream execution and strategy identities; it does not reset any
 lineage, attempt count, budget or permanent allocation.
@@ -28,8 +28,8 @@ model contradicts its instructions by returning `passed: true` and score 100.
 The worker preserves every returned finding, does not queue a correction from
 that report, and does not admit an automatic or manual downstream successor.
 A changed strategy cannot bypass this attention condition. A complete, valid
-negative review retains the existing bounded correction behavior. Approval still
-requires score at least 95, `passed: true`, a complete report, and no major or
+negative review retains the existing bounded correction behavior. Ordinary approval still
+requires score at least 95 (98 for an accepted-publication improvement), `passed: true`, a complete report, and no major or
 critical finding, in addition to the independent structural and source gates.
 
 ## Frozen legacy requests

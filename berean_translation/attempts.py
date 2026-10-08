@@ -1,6 +1,6 @@
 """Immutable, bounded response evidence, including provider and parse failures."""
 from __future__ import annotations
-from .common import ContractError, canonical, digest, now
+from .common import ContractError, digest, now
 from .batch_telemetry import request_failure
 
 

@@ -14,17 +14,11 @@ class PlanningState:
     def __init__(self, state, campaign, source, candidate):
         self.state, self.campaign, self.snapshot, self.value = state, campaign, source, candidate
         self.planning = True
-        self.writes = {}
 
     def read(self, path, default=None):
         if path == f'state/campaigns/{self.campaign["id"]}.json':
             return self.campaign
         return self.state.read(path, default)
-
-    def write(self, path, value):
-        if not path.endswith('/scripture-selections.json'):
-            raise ContractError('Read-only admission cannot write runtime state')
-        self.writes[path] = value
 
     def source(self, task):
         return self.snapshot
@@ -59,8 +53,6 @@ def plan(config, state, task, campaign, source, candidate=None):
             bound += 2 * candidate_bytes - 4
         if unknown_findings:
             bound += 2 * findings_bytes - 2
-        if stage.startswith('review') and campaign.get('scripture_quotes'):
-            bound += 2 * campaign['scripture_quotes']['max_selection_audit_bytes'] - 4
         model = task['models'][task['review_model'] if stage.startswith('review') else task['model']]
         output = line['body']['max_completion_tokens']
         if bound + output > model['context_tokens']:

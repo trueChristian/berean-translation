@@ -6,16 +6,15 @@ and refresh envelopes retain their own authority and are never repurposed.
 """
 from __future__ import annotations
 import copy
-import re
 from collections import deque
 from datetime import datetime, timezone
-from .common import ContractError, digest, json_hash, now, read_json
-from .recovery import money
+from .common import ContractError, csv_values, digest, json_hash, money, now, read_json
 from .state import TERMINAL
-from . import continuation, downstream, stage_budget, plain_policy
+from . import continuation, downstream, stage_budget
 
 POLICY = 'autonomous_translation'
 AUTHORITY_PATH = 'state/automatic-budget.json'
+CURRENT_PROMPT_VERSION = '2.0.0'
 
 
 class BudgetUnavailable(ContractError):
@@ -41,11 +40,6 @@ def policy(config):
 
 def enabled(config):
     return policy(config)['enabled']
-
-
-def owns_automatic_work(config, state):
-    # Pausing a migrated authority must never reactivate legacy spending paths.
-    return enabled(config) or state.read(AUTHORITY_PATH) is not None
 
 
 def legacy_allocations(state):
@@ -142,25 +136,34 @@ def prior_chain(state, previous):
     return result
 
 
-def resume_stage(state, previous, *, plain=False):
+def uses_current_review(state, task, prompt_version=CURRENT_PROMPT_VERSION):
+    """Compare recorded request provenance; this is not a runtime policy gate."""
+    if task.get('plain_policy_resumed') is True:
+        return True  # Explicit manual resumption event under the current contract.
+    campaign = state.read(f'state/campaigns/{task["campaign"]}.json', {})
+    return campaign.get('prompt_version') == prompt_version
+
+
+def resume_stage(state, previous, *, prompt_version=CURRENT_PROMPT_VERSION):
     """Reuse saved generation/review work without rewriting old terminal records."""
-    from .scripture_component_runtime import is_component
-    if is_component(state, previous):
-        return None, 'component_continuation_requires_separate_authority'
     if downstream.refusal(previous):
         return None, 'provider_refusal_requires_owner_attention'
-    if plain and not plain_policy.is_plain(previous):
+    if previous['status'] not in ('not_ready', 'budget_blocked') or previous.get('batch'):
+        return None, 'terminal_outcome_requires_attention'
+    kind = previous.get('failure_kind')
+    if not kind and ('Missing, ambiguous, or truncated model response' in previous.get('failure', '')
+                    or previous.get('provider_failure', {}).get('code') == 'provider_error'):
+        return None, 'legacy_response_outcome_unknown_requires_owner_attention'
+    candidate = state.candidate(previous)
+    if not uses_current_review(state, previous, prompt_version):
         # The new review contract is a separately funded child of the exact
         # saved predecessor, never a rewrite of its attempts or rejection.
         # First assess the whole saved translation under the ordinary rules;
         # old quotation/structure findings are not instructions to repair it.
-        if previous['status'] not in ('not_ready', 'budget_blocked') or previous.get('batch'):
-            return None, 'terminal_outcome_requires_attention'
-        if downstream.usable_candidate(state.candidate(previous)) and previous.get('translation_model_actual'):
+        if downstream.usable_candidate(candidate) and previous.get('translation_model_actual'):
             return 'review1', None
         if previous.get('failure_kind') == 'policy_retired':
             return 'translate', None
-    kind = previous.get('failure_kind')
     if kind == 'invalid_result' and previous.get('stage') in ('review1', 'review2'):
         from .review_contract import MAX_FINDINGS
         archived = state.read(f'state/tasks/{previous["id"]}/results/{previous["stage"]}.json', {})
@@ -168,12 +171,6 @@ def resume_stage(state, previous, *, plain=False):
         findings = value.get('findings') if isinstance(value, dict) else None
         if isinstance(findings, list) and len(findings) > MAX_FINDINGS:
             return None, 'preserved_review_overflow_requires_attention'
-    if not kind and ('Missing, ambiguous, or truncated model response' in previous.get('failure', '')
-                    or previous.get('provider_failure', {}).get('code') == 'provider_error'):
-        return None, 'legacy_response_outcome_unknown_requires_owner_attention'
-    candidate = state.candidate(previous)
-    if previous['status'] not in ('not_ready', 'budget_blocked') or previous.get('batch'):
-        return None, 'terminal_outcome_requires_attention'
     history = prior_chain(state, previous)
     paid_recoveries = [t for t in history if t.get('autonomous_recovery') or t.get('downstream_recovery')]
     if paid_recoveries:
@@ -186,10 +183,9 @@ def resume_stage(state, previous, *, plain=False):
         if (datetime.now(timezone.utc) - finished).total_seconds() < 3600:
             return None, 'continuation_cooldown'
     technical = ('truncated', 'invalid_response', 'invalid_result')
-    if kind in technical and sum(t.get('failure_kind') in technical for t in history) >= 2:
+    current_history = [t for t in history if uses_current_review(state, t, prompt_version)]
+    if kind in technical and sum(t.get('failure_kind') in technical for t in current_history) >= 2:
         return None, 'repeated_technical_failure_requires_attention'
-    if kind == 'scripture_evidence_expired':
-        return previous['stage'], None  # A proven never-submitted payload needs newly frozen evidence.
     if not downstream.usable_candidate(candidate) or not previous.get('translation_model_actual'):
         if kind in ('truncated', 'invalid_response', 'invalid_result'):
             return 'translate', None
@@ -198,7 +194,7 @@ def resume_stage(state, previous, *, plain=False):
     if quality:
         if paid_recoveries:
             current_anchors = continuation.anchors(previous, state.source(previous))
-            for older in history[1:]:
+            for older in current_history[1:]:
                 if older['translation_key'] != previous['translation_key']:
                     continue
                 if json_hash(candidate) == json_hash(state.candidate(older)):
@@ -213,7 +209,7 @@ def resume_stage(state, previous, *, plain=False):
         return previous['stage'], None
     if previous['stage'] in ('review1', 'review2') and kind in ('truncated', 'invalid_response', 'invalid_result'):
         if sum(t['stage'].startswith('review') and t.get('failure_kind') in
-               ('truncated', 'invalid_response', 'invalid_result') for t in history) >= 2:
+               ('truncated', 'invalid_response', 'invalid_result') for t in current_history) >= 2:
             return None, 'repeated_review_failure_requires_attention'
         return previous['stage'], None
     if kind == 'invalid_result' and previous['stage'] in ('translate', 'correct'):
@@ -230,10 +226,6 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
     if engine.human_protected(language, article['id']):
         return None, 'human_reviewed_or_edited_protected'
     record = engine.state.record(language, article['id'])
-    if previous:
-        from .scripture_component_runtime import is_component
-        if is_component(engine.state, previous):
-            return None, 'component_continuation_requires_separate_authority'
     if previous and previous['status'] not in TERMINAL:
         return None, 'active'
     pub = record.get('published')
@@ -243,7 +235,8 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
         return None, 'provider_refusal_requires_owner_attention'
     stage, reason = ('translate', None)
     if previous and previous['translation_key'] == article['translation_key']:
-        stage, reason = resume_stage(engine.state, previous, plain=plain_policy.enabled(engine.config))
+        stage, reason = resume_stage(engine.state, previous,
+                                     prompt_version=engine.config.runtime['prompt_version'])
     if reason:
         return None, reason
     spec = {'language': language, 'article_id': article['id'], 'translation_key': article['translation_key'],
@@ -251,16 +244,20 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
             'previous_task_id': previous['id'] if previous else None,
             'previous_task_sha256': json_hash(previous) if previous else None,
             'candidate_sha256': json_hash(engine.state.candidate(previous)) if previous else None,
-            'recovery': bool(previous and previous['translation_key'] == article['translation_key']),
-            **plain_policy.frozen_fields(engine.config)}
+            'recovery': bool(previous and previous['translation_key'] == article['translation_key'])}
     return spec, None
+
+
+def selection_matches(expected, recorded):
+    """Keep immutable old selector metadata without reviving old processing."""
+    return expected is not None and {key: recorded.get(key) for key in expected} == expected
 
 
 def fair_admission_paths(state, paths):
     """Keep manual priority, then alternate fresh work and recovery admissions.
 
-    Existing holds stay eligible at the back of their lane; a large repair or
-    Scripture-prefetch backlog cannot consume every bounded admission pass.
+    Existing holds stay eligible at the back of their lane; a large repair
+    backlog cannot consume every bounded admission pass.
     """
     manual, fresh, recovery = [], [], []
     for path in paths:
@@ -281,6 +278,32 @@ def fair_admission_paths(state, paths):
     return result
 
 
+def pending_covers(config, source, request, language, article):
+    """Give queued manual article selections priority over automatic spending."""
+    if request.get('dry_run') is True or request.get('operation') not in ('translate', 'review'):
+        return False
+    try:
+        if language not in config.select_languages(request.get('languages', 'all')):
+            return False
+    except (ContractError, TypeError, AttributeError):
+        return False
+    exact = request.get('article_ids')
+    if exact is not None:
+        return isinstance(exact, list) and article['id'] in exact
+    selector = request.get('issues', 'next')
+    if selector in ('all', 'outstanding', 'next'):
+        return True
+    if not isinstance(selector, str):
+        return False
+    aliases = {value: issue['id'] for issue in source.get('issues', [])
+               for value in (issue['id'], issue.get('slug'), issue.get('source_id')) if value}
+    try:
+        selected = csv_values(selector)
+    except ContractError:
+        return False
+    return article['issue_id'] in {aliases.get(value) for value in selected}
+
+
 def enqueue(engine):
     if not enabled(engine.config):
         return []
@@ -290,16 +313,23 @@ def enqueue(engine):
     tasks = state.tasks()
     by_id = {t['id']: t for t in tasks}
     source = state.read('state/source.json', {})
+    from .manual_admission import claims
+    manual_claims = claims(state, include_attention=True)
     pending, pending_manual, pending_slots = [], [], 0
     for path in sorted((config.root / 'state/queue').glob('*.json')):
         request = read_json(path)
-        if (request.get('autonomous') and plain_policy.enabled(config)
-                and not plain_policy.is_plain(request.get('selection', {}))
+        if (request.get('autonomous')
                 and not state.read(f'state/campaigns/{path.stem}.json')
                 and not state.read(f'state/queue-errors/{path.stem}.json')):
-            state.write(f'state/queue-errors/{path.stem}.json', {
-                'error': 'Never-accepted legacy admission superseded by plain translation policy',
-                'request': path.stem, 'superseded_policy_version': 1})
+            spec = request['selection']
+            article = source.get('articles', {}).get(spec['article_id'])
+            previous = by_id.get(spec['previous_task_id'])
+            expected, _ = selection(engine, spec['language'], article, previous,
+                                    manual_claims=manual_claims) if article else (None, None)
+            if expected is not None and not selection_matches(expected, spec):
+                state.write(f'state/queue-errors/{path.stem}.json', {
+                    'error': 'Never-accepted request superseded by current translation selection',
+                    'request': path.stem})
         if request.get('autonomous') and not state.read(f'state/campaigns/{path.stem}.json') and not state.read(f'state/queue-errors/{path.stem}.json'):
             pending.append((request['selection']['language'], request['selection']['article_id']))
             if state.read(f'state/automatic-holds/{path.stem}.json') is None:
@@ -309,9 +339,7 @@ def enqueue(engine):
               and not state.read(f'state/queue-errors/{path.stem}.json')):
             pending_manual.append(request)
     room = settings['max_active_tasks'] - sum(t['status'] not in TERMINAL for t in tasks) - pending_slots
-    queued, held = [], []
-    from .manual_admission import claims
-    manual_claims = claims(state, include_attention=True)
+    queued = []
     pairs = []
     for article in sorted(source.get('articles', {}).values(), key=lambda a: (a['issue_id'], a['sequence'], a['id'])):
         for language in config.languages:
@@ -322,15 +350,11 @@ def enqueue(engine):
     for article, language, previous in pairs:
         if (language, article['id']) in pending:
             continue
-        from .refresh import _pending_covers
-        if any(_pending_covers(config, source, request, language, article)
-               or previous and previous['id'] in request.get('previous_task_ids', [])
+        if any(pending_covers(config, source, request, language, article)
                for request in pending_manual):
             continue
         spec, reason = selection(engine, language, article, previous, manual_claims=manual_claims)
         if reason:
-            if reason not in ('active', 'already_translated', 'human_reviewed_or_edited_protected'):
-                held.append({'article_id': article['id'], 'language': language, 'reason': reason})
             continue
         (recoveries if spec['recovery'] else fresh).append(spec)
     # Only eligible pairs count toward each lane's quota. Published items and
@@ -353,10 +377,6 @@ def enqueue(engine):
                 raise ContractError('Automatic queue identity changed')
             continue
         state.write(path, request); queued.append(identity)
-    state.write('state/automatic-status.json', {'attention': held,
-        'allocated_usd': float(ledger(state)['allocated_usd']),
-        'approved_total_usd': state.read(AUTHORITY_PATH)['approved_total_usd'],
-        'pending_requests': len(pending) + len(queued)})
     if queued:
         engine.checkpoint('runtime: enqueue exact archive work before admission and paid requests')
     return queued
@@ -370,14 +390,12 @@ def template(config, identity, recovery):
         model, review_model = config.runtime['default_model'], config.runtime['default_review_model']
     return {'id': identity, 'model': model, 'review_model': review_model,
         'models': copy.deepcopy(config.models), 'prompt_version': config.runtime['prompt_version'],
-        'structural_feedback_version': config.runtime.get('structural_feedback_version'),
         'prompts': {name: config.prompt(name) for name in ('translation', 'review', 'repair')},
         'language_settings': copy.deepcopy(config.languages),
         'glossaries': read_json(config.root / 'config/glossaries.json')['languages'],
         'max_output_tokens': config.runtime['automatic_downstream_recovery']['max_output_tokens'] if recovery else config.runtime['max_output_tokens'],
         'review_output_tokens': config.runtime['automatic_downstream_recovery']['review_output_tokens'] if recovery else config.review_output_limit(review_model),
         'quality_threshold': config.runtime['quality_threshold'], **frozen_fields(config),
-        **plain_policy.frozen_fields(config),
         'automatic_continuation_policy': {'version': 3, 'cooldown_seconds': 3600, 'progress_required': True, 'funding': 'cumulative_authority'}}
 
 
@@ -408,7 +426,7 @@ def accept(engine, request):
     previous = state.read(f'state/tasks/{spec["previous_task_id"]}/task.json') if spec['previous_task_id'] else None
     record = state.record(spec['language'], spec['article_id'])
     current, reason = selection(engine, spec['language'], article, previous) if article else (None, 'source_removed')
-    if current != spec or record.get('latest_task') != spec['previous_task_id']:
+    if not selection_matches(current, spec) or record.get('latest_task') != spec['previous_task_id']:
         raise ContractError('Automatic exact selection is no longer eligible: ' + str(reason))
     source = state.source(previous) if spec['recovery'] else engine.source_client.snapshot(article['id'])
     if source['translation_key'] != spec['translation_key']:
@@ -431,21 +449,8 @@ def accept(engine, request):
         'translation_attempts': 0, 'review_attempts': 0, 'events': [],
         'findings': copy.deepcopy(previous.get('findings', [])) if spec['recovery'] else [],
         'rejection_reason': 'Audit the full candidate against the authoritative English and substantiate each finding'}
-    task.update(plain_policy.frozen_fields(config))
-    if plain_policy.is_plain(task) and previous and not plain_policy.is_plain(previous):
+    if previous and not uses_current_review(state, previous, config.runtime['prompt_version']):
         task['findings'] = []
-        task['plain_policy_migration_from'] = previous['id']
-    if config.runtime.get('scripture_quotes_enabled', False) and not plain_policy.is_plain(execution):
-        from .scripture_evidence import policy as scripture_policy, freeze_scripture_evidence, adopt_scripture_selection_audit
-        execution['scripture_quotes'] = scripture_policy(config.root)
-        task.update(freeze_scripture_evidence(engine, source, task['language'], frozen_policy=execution['scripture_quotes']))
-        if task['stage'].startswith('review'):
-            view = stage_budget.PlanningState(state, execution, source, candidate)
-            adopted = adopt_scripture_selection_audit(view, task, previous)
-            if adopted:
-                task['initial_scripture_audit'] = view.writes[f'state/tasks/{task["id"]}/scripture-selections.json']
-            else:
-                task.update(stage='correct', scripture_resume_reason='saved_candidate_requires_quotation_audit')
     budget = stage_budget.plan(config, state, task, execution, source, candidate)
     task['stage_budget'] = budget
     stage_budget.enforce(task, candidate)
@@ -491,8 +496,6 @@ def stage_accepted(engine, campaign, candidate=None):
             candidate = state.candidate(previous)
             if candidate is not None:
                 state.save_candidate(task, candidate)
-        if task.get('initial_scripture_audit'):
-            state.write(f'state/tasks/{task["id"]}/scripture-selections.json', task['initial_scripture_audit'])
         state.save_task(task)
     if record.get('latest_task') != task['id']:
         record['latest_task'] = task['id']
@@ -520,7 +523,8 @@ def validate_history(config, state):
         if previous and (json_hash(previous) != spec['previous_task_sha256']
                          or json_hash(state.candidate(previous)) != spec['candidate_sha256']):
             raise ContractError('Automatic recovery predecessor evidence changed')
-        if stage_budget.plan(config, state, original, campaign, state.source(original), candidate) != campaign['stage_budget']:
+        if (campaign.get('prompt_version') == config.runtime['prompt_version'] and
+                stage_budget.plan(config, state, original, campaign, state.source(original), candidate) != campaign['stage_budget']):
             raise ContractError('Automatic complete-stage reservation changed')
         task = state.read(f'state/tasks/{original["id"]}/task.json')
         if campaign.get('automatic_acceptance_complete') and (task is None or campaign['tasks'] != [original['id']]):
@@ -528,9 +532,7 @@ def validate_history(config, state):
         if task:
             for key in ('id', 'campaign', 'article_id', 'issue_id', 'language', 'translation_key', 'source_snapshot',
                         'model', 'review_model', 'models', 'stage_budget', 'autonomous', 'autonomous_recovery',
-                        'automatic_previous_task', 'base_html_sha256', 'base_metadata_sha256',
-                        'plain_translation_policy_version', 'plain_policy_migration_from',
-                        'scripture_evidence_path', 'scripture_evidence_sha256', 'initial_scripture_audit', 'scripture_resume_reason'):
+                        'automatic_previous_task', 'base_html_sha256', 'base_metadata_sha256'):
                 if task.get(key) != original.get(key):
                     raise ContractError('Automatic task provenance changed')
             if task['stage'] not in campaign['stage_budget']['stages_usd']:
@@ -671,7 +673,7 @@ def frontier(config, state, tasks, *, work_summary=None):
         elif task['translation_key'] != article['translation_key']:
             reason = 'eligible_source_refresh' if enabled(config) else 'automatic_paused'
         else:
-            _, reason = resume_stage(state, task, plain=plain_policy.enabled(config))
+            _, reason = resume_stage(state, task, prompt_version=config.runtime['prompt_version'])
             reason = reason or ('eligible_automatic' if enabled(config) else 'automatic_paused')
         rows.append({'language': task['language'], 'article_id': task['article_id'], 'latest_task': task['id'],
                      'processing_status': task['status'], 'reason': reason,
@@ -691,11 +693,12 @@ def frontier(config, state, tasks, *, work_summary=None):
             'reason':hold.get('reason', 'pending_automatic_admission'),
             **{k:hold[k] for k in ('detail','required_usd','remaining_usd') if k in hold}}
     if hasattr(state, 'work_summary'):
-        # Admission failures occur before a task exists. Missing pairs and those
-        # holds still belong in the recovery frontier instead of disappearing
-        # from issue totals until the first paid request can be submitted.
+        # Include admission/source holds without duplicating every untouched
+        # pair. STATUS and automatic-status retain the full target counts.
         summary = work_summary if work_summary is not None else state.work_summary(config, tasks=tasks)
         for pair in summary['pairs']:
+            if pair['category'] == 'unstarted':
+                continue
             key = (pair['language'], pair['article_id'])
             article = articles.get(pair['article_id'], {})
             admission = pair.get('admission_status')
@@ -707,8 +710,7 @@ def frontier(config, state, tasks, *, work_summary=None):
             reason = ('source_error_requires_attention' if article.get('source_error') else
                       pair.get('reason') or
                       ('manual_admission_attention' if admission == 'attention' else
-                       'manual_admission_pending' if admission in ('pending', 'ready') else
-                       'unstarted' if pair['category'] == 'unstarted' else pair['category']))
+                       'manual_admission_pending' if admission in ('pending', 'ready') else pair['category']))
             by_pair[key] = {**by_pair.get(key, {}), 'language': key[0], 'article_id': key[1],
                 'latest_task': pair.get('latest_task'), 'processing_status': pair['category'],
                 'reason': reason,

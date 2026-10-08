@@ -2,7 +2,6 @@
 from __future__ import annotations
 import html
 import re
-import unicodedata
 from collections import Counter, defaultdict
 from html.parser import HTMLParser
 from itertools import zip_longest
@@ -148,127 +147,7 @@ class Fragment(HTMLParser):
         return ' '.join(self.text_parts)
 
 
-# Book names and surrounding prose need not have spaces in every language.
-# A digit boundary preserves the complete chapter number while recognizing
-# references such as 马可福音10:7 and their missing/changed counterparts.
-# Typographic hyphens are range punctuation, never a reason to drop the endpoint.
-REFERENCE_NUMBER = re.compile(r'(?<!\d)\d+\s*:\s*\d+(?:\s*[-‐‑–—]\s*\d+)?')
-EXPLICIT_CLOCK = re.compile(
-    r'(?<![\w:\-‐‑–—])(?P<hour>1[0-2]|0?[1-9])'
-    r'(?::(?P<minute>[0-5][0-9]))?\s*(?P<period>[ap])\.?\s*m\.?(?!\w)', re.I)
-# These are positive clock cues, not a list of Bible books to exclude. Unknown
-# or bare colon expressions remain protected, even when they look like times.
-CLOCK_PREFIX = re.compile(
-    r'(?<!\w)(?:at|around|about|om|omstreeks|rond|'  # English, Afrikaans, Dutch
-    r'a las|de las|hacia las|'                     # Spanish
-    r'à|vers|às|pelas|por volta das|perto das|'     # French, Portuguese
-    r'alle|verso le|um|gegen|'                     # Italian, German
-    r'pukul|jam|saa|'                             # Indonesian, Swahili
-    r'около|примерно в|в|στις|'                    # Russian, Greek
-    r'klockan|klokken|klokka|kl\.|'                # Swedish, Norwegian Bokmål
-    r'الساعة|בשעה|השעה)\s*$', re.I)              # Arabic, Hebrew
-CLOCK_SUFFIX = re.compile(
-    r'^\s*(?:(?:uur|hours?|o[’\']clock|heures?|horas?|Uhr|'
-    r'बजे|টায়|টায়|بجے)(?!\w)|'                 # Hindi, Bengali, Urdu
-    r'时|에|경)', re.I)                            # Simplified Chinese, Korean
-
-
-def decimal_digits(text: str) -> str:
-    return ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in text)
-
-
-def reference_value(value: str) -> str:
-    return re.sub(r'\s+', '', value).translate(str.maketrans('‐‑–—', '----'))
-
-
-def reference_numbers(text: str) -> Counter:
-    # Without an authoritative source, never guess that a colon number is a clock.
-    return Counter(reference_value(match.group()) for match in REFERENCE_NUMBER.finditer(decimal_digits(text)))
-
-
-def clock_mentions(text: str, *, localized: bool = False) -> list:
-    mentions = []
-    for match in EXPLICIT_CLOCK.finditer(text):
-        hour = int(match['hour']) % 12 + (12 if match['period'].lower() == 'p' else 0)
-        mentions.append((match.start(), match.end(), (hour, int(match['minute'] or 0))))
-    if localized:
-        for match in REFERENCE_NUMBER.finditer(text):
-            # A range is always a protected reference. Do not match a prefix of
-            # one, accept impossible clock values, or reuse an explicit clock.
-            if not re.fullmatch(r'(?:[01]?[0-9]|2[0-3]):[0-5][0-9]', match.group()):
-                continue
-            if any(start <= match.start() and match.end() <= end for start,end,_ in mentions):
-                continue
-            if CLOCK_PREFIX.search(text[:match.start()]) or CLOCK_SUFFIX.match(text[match.end():]):
-                mentions.append((match.start(), match.end(), tuple(map(int, match.group().split(':')))))
-    return mentions
-
-
-def protected_reference_numbers(original: str, translated: str, *, language: str | None = None) -> tuple[Counter, Counter]:
-    original, translated = decimal_digits(original), decimal_digits(translated)
-    if language in ('deu', 'heb'):
-        # Only trusted task/publication language enables localized citation
-        # grammar. Keep original offsets for the source-backed clock rules.
-        from .reference_notation import (chapter_reference_mentions,
-                                         has_source_chapter_introduction, reference_mentions)
-        source_references = reference_mentions(original, 'eng', target_language=language)
-        source_chapters = (chapter_reference_mentions(original, 'eng', source_references,
-                                                      target_language=language)
-                           if language == 'deu' else [])
-        chapter_introductions = has_source_chapter_introduction(original, source_chapters)
-        target_references = reference_mentions(translated, language,
-                                               chapter_introductions=chapter_introductions)
-        if chapter_introductions:
-            target_chapters = chapter_reference_mentions(translated, language, target_references)
-            source_references += source_chapters
-            target_references += target_chapters
-    else:
-        source_references = [(m.start(), m.end(), reference_value(m.group()))
-                             for m in REFERENCE_NUMBER.finditer(original)]
-        target_references = [(m.start(), m.end(), reference_value(m.group()))
-                             for m in REFERENCE_NUMBER.finditer(translated)]
-    source_clocks = clock_mentions(original)
-    target_clocks = clock_mentions(translated, localized=True)
-    # Only a complete, one-to-one equivalent set of explicit source clocks can
-    # justify exemptions in the corresponding HTML block. Extra copies, wrong
-    # times, and clocks elsewhere in the article cannot consume a reference.
-    if not source_clocks or Counter(x[2] for x in source_clocks) != Counter(x[2] for x in target_clocks):
-        return Counter(x[2] for x in source_references), Counter(x[2] for x in target_references)
-
-    def without_clocks(references, clocks):
-        return Counter(value for left, right, value in references
-                       if not any(start <= left and right <= end for start,end,_ in clocks))
-
-    return without_clocks(source_references, source_clocks), without_clocks(target_references, target_clocks)
-
-
-def describe_reference_difference(original: Counter, translated: Counter) -> str:
-    def describe(values):
-        return ', '.join(f'{value} (x{count})' if count > 1 else value for value,count in sorted(values.items())) or 'none'
-    return f'missing: {describe(original - translated)}; extra: {describe(translated - original)}'
-
-
-def unmarked_clock_difference(original: str, translated: str, left: Counter, right: Counter) -> bool:
-    """Classify a rejected numeric change without exempting it from the gate.
-
-    Clear time cues can explain a diagnostic, but cannot establish an omitted
-    AM/PM period or authorize a twelve-hour conversion. Mixed Scripture/time
-    changes retain the general protected-reference diagnostic.
-    """
-    def values(text):
-        text = decimal_digits(text)
-        explicit = clock_mentions(text)
-        return Counter(reference_value(text[start:end])
-                       for start, end, _ in clock_mentions(text, localized=True)
-                       if not any(a <= start and end <= b for a, b, _ in explicit))
-    missing, extra = left - right, right - left
-    return bool(missing and not (missing - values(original)) and not (extra - values(translated)))
-
-
-def validate_translation(source: dict, candidate: dict, *, language: str | None = None,
-                         scripture_validation: bool = True) -> Fragment:
-    if type(scripture_validation) is not bool:
-        raise ContractError('Scripture validation switch must be boolean')
+def validate_translation(source: dict, candidate: dict, *, language: str | None = None) -> Fragment:
     if not isinstance(candidate, dict) or set(candidate) != {'html','title','subtitle','section'}:
         raise ContractError('Translation must contain exactly html, title, subtitle, section')
     if not isinstance(candidate['html'], str):
@@ -286,19 +165,6 @@ def validate_translation(source: dict, candidate: dict, *, language: str | None 
                                     f'translation {right_path} {repr(right)[:240]}')
     if original.nonempty_blocks != translated.nonempty_blocks:
         raise ContractError('A substantive block was emptied or inserted')
-    if scripture_validation:
-        for path in dict.fromkeys([*original.text_by_block, *translated.text_by_block]):
-            original_text = ' '.join(original.text_by_block.get(path, []))
-            translated_text = ' '.join(translated.text_by_block.get(path, []))
-            left, right = protected_reference_numbers(original_text, translated_text,
-                                                     language=language)
-            if left != right:
-                if unmarked_clock_difference(original_text, translated_text, left, right):
-                    raise ContractError(f'Clock notation changed at {path}; preserve an unmarked source time '
-                                        'exactly and do not infer AM/PM; '
-                                        + describe_reference_difference(left, right))
-                raise ContractError(f'Scripture chapter/verse numbers or ranges changed at {path}; '
-                                    + describe_reference_difference(left, right))
     if not translated.text.strip():
         raise ContractError('Translation has no text')
     for left, right in zip(original.images, translated.images):

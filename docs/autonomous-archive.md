@@ -1,15 +1,15 @@
 # Automatic archive translation
 
-The collector discovers current English `main`, queues missing work across every
-article and all configured languages, collects provider batches, and advances
-saved translations through review and repair. No manual “next” dispatch is needed.
-The normal schedule runs every 15 minutes; active collection windows poll already
-submitted work between those runs. Turn off repository Actions to stop starting
+The hourly discovery workflow reads current English `main` and queues missing
+and changed work across every article and all configured languages. The collector
+runs every 15 minutes, polls provider batches, and advances saved translations
+through independent review and bounded correction. No manual “next” dispatch is
+needed. Active collection windows poll already submitted work between those runs. Turn off repository Actions to stop starting
 work. Batches already accepted by OpenAI can still finish there.
 
 `page_size` and `max_active_tasks` bound one worker's queue/concurrency. They are
-not completion limits. Later ticks select the next eligible pairs. Recovery of
-saved candidates has priority over new translation. A held final-review stage
+not completion limits. Later ticks select the next eligible pairs. New translations and saved-candidate recovery have separate scheduling
+allocations so recovery cannot consume all admissions. A held final-review stage
 resumes that review; a saved correction input resumes correction and review.
 Candidates and historical terminal tasks are never erased or rewritten.
 
@@ -19,7 +19,7 @@ Candidates and historical terminal tasks are never erased or rewritten.
 automatic cap is $30 cumulative, with no renewal. Existing accepted shared
 recovery allocations (currently $6 in production) form an explicit immutable
 baseline. Existing accepted source-refresh campaigns retain their separate
-original authority. Existing manual and exact-recovery allocations retain their
+original authority. Existing manual allocations retain their
 original caps, provenance and non-recyclable history.
 
 All newly automatic translation, source refresh and recovery uses the same
@@ -64,18 +64,17 @@ policy refusals stop for attention. Successors wait at least one hour. Every
 cycle is a new exact child of the latest predecessor; it cannot reset or fork
 history. Existing version-1/version-2 requests retain their frozen semantics.
 
-## Optional workflows
+## Workflows
 
-The scheduled collector and CI are sufficient for the normal path. Optional
-manual translation/review/repair workflows remain for choosing a stronger model
-or a specific issue. New manual defaults are $30 and all languages; ordinary
-manual selection remains `next` so it does not construct an oversized whole
-archive campaign. Preview remains the default. Manual repair's small selection
-is one explicitly funded batch; it is not an automatic archive completion limit.
-The redundant exact-candidate-recovery dispatch UI is retired; its historical
-request schema remains supported and its former workflow is preserved as an
-inert documentation fixture. Collector maintenance retains cancellation and
-owner-confirmed reconciliation of an absent provider batch.
+The five active workflows are manual translation, hourly English discovery,
+result collection/continuation, optional improvement review, and offline CI.
+Specialized repair and Scripture workflows, their executable archives, and
+Scripture dependencies have been removed; Git history preserves the old code.
+Manual defaults remain $30 with free previews. Ordinary translation uses 95;
+optional replacement of an accepted AI publication uses 98 and retains the
+previous public version until an accepted improvement exists. Collector
+maintenance retains cancellation and explicit reconciliation of a provider batch
+confirmed absent. See [current operation](../README.md#workflows).
 
-All tests use offline provider simulations. A passing test is not a live
-translation-quality assessment or proof of provider billing.
+All tests simulate provider results offline and do not establish live translation
+quality or grant further spending authority.
