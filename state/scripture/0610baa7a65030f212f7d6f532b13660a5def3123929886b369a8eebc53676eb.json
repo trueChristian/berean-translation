@@ -1,0 +1,548 @@
+{
+  "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+  "classification_limit": "Only explicit scopes establish Scripture quotations; uncited/unmarked quotations and allusions require independent reviewer detection.",
+  "created_at": "2026-10-08T03:08:53+00:00",
+  "edition": {
+    "abbreviation": "luther1545",
+    "book_count": 66,
+    "catalog_description": "German Luther Übersetzung von 1545 (moderne Rechtschreibung)",
+    "core_66_verified": true,
+    "direction": "ltr",
+    "distribution_license": "Public Domain",
+    "distribution_source": "http://www.luther-bibel-1545.de/",
+    "inventory_sha256": "7701a56ff4b8658ca48234dfc74103b6d3cea224a13877939c8e52be96f0154a",
+    "name": "Luther (1545)",
+    "review_note": "Oldest complete candidate identified in the checked catalog; module update dates were not used as publication dates.",
+    "status": "available"
+  },
+  "edition_map_provenance": {
+    "api_version": "v2",
+    "checked_at": "2026-10-04",
+    "client_package": "mcp==2.2.0",
+    "file_sha256": "99e34d01726bdefba7e1028788368d04cf730f5f64683ee0fb6c4b1bc726b87f",
+    "mcp_docs": "https://getbible.net/mcp/",
+    "mcp_endpoint": "https://mcp.getbible.net/",
+    "mcp_source_commit": "5d7487f86862f9921a2620f3c8b7779a5e05e280",
+    "mcp_source_url": "https://github.com/getbible/mcp/blob/5d7487f86862f9921a2620f3c8b7779a5e05e280/src/getbible_mcp/server.py",
+    "rights_note": "Edition mapping is owner-approved provenance, not a new redistribution license. Keep all per-edition distribution_license, distribution_source and review_note values. Afrikaans/Arabic are restricted, Hebrew rights unspecified; KJV/Almeida metadata is GPL. MCP software licensing does not relicense Bible content.",
+    "schema_version": 1,
+    "server_package": "getbible-mcp==2.1.3",
+    "source_blob_sha": "72edb06f4a52262390a2b672e86815ebab74ac55",
+    "source_commit": "0b0a8fc52cbbd47bef8e1f84328a825d169d0543",
+    "source_path": "data/scripture-translations.json",
+    "source_repository": "trueChristian/remnant.truechristian.church",
+    "source_url": "https://github.com/trueChristian/remnant.truechristian.church/blob/0b0a8fc52cbbd47bef8e1f84328a825d169d0543/data/scripture-translations.json"
+  },
+  "edition_map_sha256": "62d1e9baa81a901a107f0f2259a8e5eaca30e2070b5f5dac1baa7fa63ef789fc",
+  "language_tag": "de",
+  "lookups": {
+    "kjv/50/4": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 50,
+        "chapter": 4,
+        "translation": "kjv"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-07T03:08:54.169026Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "kjv",
+          "book_name": "Philippians",
+          "book_nr": 50,
+          "chapter": 4,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "en",
+          "language": "English",
+          "name": "Philippians 4",
+          "translation": "King James Version",
+          "verses": [
+            {
+              "chapter": 4,
+              "name": "Philippians 4:1",
+              "text": "Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.",
+              "verse": 1
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:2",
+              "text": "I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.",
+              "verse": 2
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:3",
+              "text": "And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.",
+              "verse": 3
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:4",
+              "text": "Rejoice in the Lord alway: and again I say, Rejoice.",
+              "verse": 4
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:5",
+              "text": "Let your moderation be known unto all men. The Lord is at hand.",
+              "verse": 5
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:6",
+              "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
+              "verse": 6
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:7",
+              "text": "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+              "verse": 7
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:8",
+              "text": "Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.",
+              "verse": 8
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:9",
+              "text": "Those things, which ye have both learned, and received, and heard, and seen in me, do: and the God of peace shall be with you.",
+              "verse": 9
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:10",
+              "text": "But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity.",
+              "verse": 10
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:11",
+              "text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.",
+              "verse": 11
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:12",
+              "text": "I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.",
+              "verse": 12
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:13",
+              "text": "I can do all things through Christ which strengtheneth me.",
+              "verse": 13
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:14",
+              "text": "Notwithstanding ye have well done, that ye did communicate with my affliction.",
+              "verse": 14
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:15",
+              "text": "Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only.",
+              "verse": 15
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:16",
+              "text": "For even in Thessalonica ye sent once and again unto my necessity.",
+              "verse": 16
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:17",
+              "text": "Not because I desire a gift: but I desire fruit that may abound to your account.",
+              "verse": 17
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:18",
+              "text": "But I have all, and abound: I am full, having received of Epaphroditus the things which were sent from you, an odour of a sweet smell, a sacrifice acceptable, wellpleasing to God.",
+              "verse": 18
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:19",
+              "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus.",
+              "verse": 19
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:20",
+              "text": "Now unto God and our Father be glory for ever and ever. Amen.",
+              "verse": 20
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:21",
+              "text": "Salute every saint in Christ Jesus. The brethren which are with me greet you.",
+              "verse": 21
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:22",
+              "text": "All the saints salute you, chiefly they that are of Cesar’s household.",
+              "verse": 22
+            },
+            {
+              "chapter": 4,
+              "name": "Philippians 4:23",
+              "text": "The grace of our Lord Jesus Christ be with you all. Amen.  It was written to the Philippians from Rome by Epaphroditus. ",
+              "verse": 23
+            }
+          ]
+        },
+        "hash": "255b2dbe00edf33488ef56d0ae28608f33443e07",
+        "hash_source_url": "https://api.getbible.net/v2/kjv/50/4.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 50,
+          "chapter": 4,
+          "kind": "chapter",
+          "translation": "kjv"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-08T03:08:55.169026Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Thu, 08 Oct 2026 03:08:55 GMT",
+            "etag": "W/\"6aa59169-1770\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:41 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/kjv/50/4.json"
+        }
+      },
+      "result_sha256": "79acd2703a1fc69869c634928fdf3c6d1b117cf07dfa042f791cac1c8bd6f0cf",
+      "retrieved_at": "2026-10-08T03:08:56+00:00",
+      "tool": "get_scripture"
+    },
+    "luther1545/50/4": {
+      "arguments": {
+        "api_version": "v2",
+        "book": 50,
+        "chapter": 4,
+        "translation": "luther1545"
+      },
+      "client_version": "2.2.0",
+      "endpoint": "https://mcp.getbible.net/",
+      "result": {
+        "cache": {
+          "cacheable": true,
+          "expires_at": "2026-11-07T03:08:55.845528Z",
+          "hash_validation_required": true,
+          "max_retention_seconds": 2592000,
+          "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+          "recommended": true,
+          "remaining_ttl_seconds": 2591999
+        },
+        "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+        "consistency_checked": true,
+        "consistency_retries": 0,
+        "data": {
+          "abbreviation": "luther1545",
+          "book_name": "Philipper",
+          "book_nr": 50,
+          "chapter": 4,
+          "direction": "LTR",
+          "encoding": "UTF-8",
+          "lang": "de",
+          "language": "German",
+          "name": "Philipper 4",
+          "translation": "Luther (1545)",
+          "verses": [
+            {
+              "chapter": 4,
+              "name": "Philipper 4:1",
+              "text": "Also, meine lieben und gewünschten Brüder, meine Freude und meine Krone, bestehet also in dem HErrn, ihr Lieben! ",
+              "verse": 1
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:2",
+              "text": "Die Evodia ermahne ich, und die Syntyche ermahne ich, daß sie eines Sinnes seien in dem HErrn. ",
+              "verse": 2
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:3",
+              "text": "Ja, ich bitte auch dich, mein treuer Geselle, stehe ihnen bei, die samt mir über dem Evangelium gekämpft haben mit Clemens und den andern meinen Gehilfen, welcher Namen sind in dem Buch des Lebens. ",
+              "verse": 3
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:4",
+              "text": "Freuet euch in dem HErrn allewege; und abermal sage ich: Freuet euch! ",
+              "verse": 4
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:5",
+              "text": "Eure Lindigkeit lasset kund sein allen Menschen. Der HErr ist nahe. ",
+              "verse": 5
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:6",
+              "text": "Sorget nichts, sondern in allen Dingen lasset eure Bitte im Gebet und Flehen mit Danksagung vor GOtt kund werden. ",
+              "verse": 6
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:7",
+              "text": "Und der Friede GOttes, welcher höher ist denn alle Vernunft, bewahre eure Herzen und Sinne in Christo JEsu!] ",
+              "verse": 7
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:8",
+              "text": "Weiter, liebe Brüder, was wahrhaftig ist, was ehrbar, was gerecht, was keusch, was lieblich, was wohl lautet, ist etwa eine Tugend, ist etwa ein Lob, dem denket nach. ",
+              "verse": 8
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:9",
+              "text": "Welches ihr auch gelernet und empfangen und gehöret und gesehen habt an mir, das tut, so wird der HErr des Friedens mit euch sein. ",
+              "verse": 9
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:10",
+              "text": "Ich bin aber hoch erfreuet in dem HErrn, daß ihr wieder wacker worden seid, für mich zu sorgen, wiewohl ihr allewege gesorget habt; aber die Zeit hat's nicht wollen leiden. ",
+              "verse": 10
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:11",
+              "text": "Nicht sage ich das des Mangels halben; denn ich habe gelernet, bei welchen ich bin, mir genügen lassen. ",
+              "verse": 11
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:12",
+              "text": "Ich kann niedrig sein und kann hoch sein; ich bin in allen Dingen und bei allen geschickt, beide, satt sein und hungern, beide, übrig haben und Mangel leiden. ",
+              "verse": 12
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:13",
+              "text": "Ich vermag alles durch den, der mich mächtig macht, Christus. ",
+              "verse": 13
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:14",
+              "text": "Doch ihr habt wohl getan, daß ihr euch meiner Trübsal angenommen habt. ",
+              "verse": 14
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:15",
+              "text": "Ihr aber von Philippi wisset, daß von Anfang des Evangeliums, da ich auszog aus Mazedonien, keine Gemeinde mit mir geteilet hat nach der Rechnung der Ausgabe und Einnahme denn ihr alleine. ",
+              "verse": 15
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:16",
+              "text": "Denn gen Thessalonich sandtet ihr zu meiner Notdurft einmal und danach aber einmal. ",
+              "verse": 16
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:17",
+              "text": "Nicht, daß ich das Geschenk suche, sondern ich suche die Frucht daß sie überflüssig in eurer Rechnung sei. ",
+              "verse": 17
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:18",
+              "text": "Denn ich habe alles und habe überflüssig. Ich bin erfüllet, da ich empfing durch Epaphroditus, was von euch kam, ein süßer Geruch, ein angenehm Opfer, GOtt gefällig. ",
+              "verse": 18
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:19",
+              "text": "Mein GOtt aber erfülle alle eure Notdurft nach seinem Reichtum in der Herrlichkeit in Christo JEsu! ",
+              "verse": 19
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:20",
+              "text": "Dem GOtt aber und unserm Vater sei Ehre von Ewigkeit zu Ewigkeit! Amen. ",
+              "verse": 20
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:21",
+              "text": "Grüßet alle Heiligen in Christo JEsu. Es grüßen euch die Brüder, die bei mir sind. ",
+              "verse": 21
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:22",
+              "text": "Es grüßen euch alle Heiligen, sonderlich aber die von des Kaisers Hause. ",
+              "verse": 22
+            },
+            {
+              "chapter": 4,
+              "name": "Philipper 4:23",
+              "text": "Die Gnade unsers HErrn JEsu Christi sei mit euch allen! Amen.  Geschrieben von Rom durch Epaphroditus.  ",
+              "verse": 23
+            }
+          ]
+        },
+        "hash": "b4db422614d953104fbfd703de0f707c8e28a973",
+        "hash_source_url": "https://api.getbible.net/v2/luther1545/50/4.sha",
+        "scope": {
+          "api_version": "v2",
+          "book": 50,
+          "chapter": 4,
+          "kind": "chapter",
+          "translation": "luther1545"
+        },
+        "source": {
+          "api_version": "v2",
+          "fetched_at": "2026-10-08T03:08:56.845528Z",
+          "headers": {
+            "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+            "content-type": "application/json",
+            "date": "Thu, 08 Oct 2026 03:08:56 GMT",
+            "etag": "W/\"6aa5916a-17d8\"",
+            "last-modified": "Sat, 12 Sep 2026 17:52:42 GMT",
+            "vary": "Accept-Encoding"
+          },
+          "service": "api",
+          "status_code": 200,
+          "url": "https://api.getbible.net/v2/luther1545/50/4.json"
+        }
+      },
+      "result_sha256": "e51cb724b9d42f23f8759bd25ac3a1ddfed27aa980093ccd0c2be1dafd38ce65",
+      "retrieved_at": "2026-10-08T03:08:57+00:00",
+      "tool": "get_scripture"
+    }
+  },
+  "quotes": [
+    {
+      "alignment": {
+        "ellipsis": [],
+        "fragments": [
+          {
+            "end": {
+              "end": 106,
+              "start": 99,
+              "verse": 11
+            },
+            "source_text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content",
+            "start": {
+              "end": 3,
+              "start": 0,
+              "verse": 11
+            },
+            "word_end": 21,
+            "word_start": 0
+          }
+        ],
+        "kind": "complete",
+        "leading_ellipsis": false,
+        "trailing_ellipsis": false
+      },
+      "association": {
+        "citation_side": "inside",
+        "delimiter_ordinal": null,
+        "external": false,
+        "external_mode": null,
+        "kind": "em",
+        "path": "/article[1]/p[1]/em[1]",
+        "plain_tail": false,
+        "quote_end_paths": [
+          "/article[1]/p[1]/em[1]"
+        ],
+        "quote_start_paths": [
+          "/article[1]/p[1]/em[1]"
+        ],
+        "reference_end": 346,
+        "reference_end_paths": [
+          "/article[1]/p[1]/em[1]"
+        ],
+        "reference_ordinal": 0,
+        "reference_start": 330,
+        "reference_start_paths": [
+          "/article[1]/p[1]/em[1]"
+        ]
+      },
+      "block": "/article[1]/p[1]",
+      "book": 50,
+      "chapter": 4,
+      "correspondence": "same numeric addresses; semantic correspondence requires independent review",
+      "delimited": false,
+      "english_lookup": "kjv/50/4",
+      "english_verses": [
+        {
+          "chapter": 4,
+          "name": "Philippians 4:11",
+          "text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.",
+          "verse": 11
+        }
+      ],
+      "id": "q1",
+      "printed_reference": "Philippians 4:11",
+      "reference": "Philippians 4:11",
+      "source_end": 328,
+      "source_quote": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content",
+      "source_start": 222,
+      "target_lookup": "luther1545/50/4",
+      "target_verses": [
+        {
+          "chapter": 4,
+          "name": "Philipper 4:11",
+          "text": "Nicht sage ich das des Mangels halben; denn ich habe gelernet, bei welchen ich bin, mir genügen lassen. ",
+          "verse": 11
+        }
+      ],
+      "verses": [
+        11
+      ]
+    }
+  ],
+  "references": [
+    {
+      "association_owner": "scripture_scope",
+      "block": "/article[1]/p[1]",
+      "classification": "scripture_quotation",
+      "end": 346,
+      "identity": "Philippians 4:11",
+      "ordinal": 0,
+      "printed_text": "Philippians 4:11",
+      "start": 330
+    }
+  ],
+  "source_association_version": "2",
+  "source_delimiter_topology": {
+    "/article[1]/p[1]": []
+  },
+  "source_sha256": "ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7",
+  "source_structure_sha256": "819c105769435d2d7cbcfc34db1ddced20b683dd96e3291d7eefd2e2321f5a93",
+  "version": "1"
+}

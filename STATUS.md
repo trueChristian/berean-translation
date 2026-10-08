@@ -485,7 +485,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 ## Automatic archive work
 
 Scheduled collection creates missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
-Automatic committed ceiling: $8.435196 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
+Automatic committed ceiling: $9.574924 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
 New automatic work reserves its complete remaining stage chain, up to $10 per envelope. Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. Usage is provider-reported and priced at frozen rates, not invoice reconciliation.
 Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.
 [Recovery frontier](RECOVERY.json) records current holds and funding.
@@ -497,7 +497,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 2 | already_translated: 108 | ambiguous_quote_reference: 17 | continuation_cooldown: 2 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1281 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 6 | pending_automatic_admission: 46 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_association_limit: 3 | source_quote_annotation: 10 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 18
+active: 2 | already_translated: 108 | ambiguous_quote_reference: 17 | continuation_cooldown: 2 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1282 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 6 | pending_automatic_admission: 45 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_association_limit: 3 | source_quote_annotation: 10 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 18
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -519,6 +519,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 
 | Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
+| `auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49` | automatic archive | automatic | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.14 | [state](state/campaigns/auto-06f63cbb308ccbfa85d55de0633fee5abc06256a570434da351e10403f38ed49.json) |
 | `auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73` | automatic archive | automatic | active | 1 | 1 held | 0.04274100 | 0.340442 / 1.18 | [state](state/campaigns/auto-45009766d6786abe35c9be417e899df0997ddb5621c00137c3d1d4786e6f6a73.json) |
 | `auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef` | automatic archive | automatic | finished | 1 | 1 complete | 0.01171900 | 0.263261 / 1.07 | [state](state/campaigns/auto-5aadb720e613ddd21179e8aefc4ed6de7d5e3861bcb7552135b03d3753a2e8ef.json) |
 | `auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a` | automatic archive | automatic | active | 1 | 1 held | 0.03045315 | 0.327026 / 1.16 | [state](state/campaigns/auto-69f2182e9e0545f9c641451281d231765f36d6e2cd46f4f1fb5259255139ac7a.json) |
