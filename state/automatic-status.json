@@ -1,5 +1,5 @@
 {
-  "allocated_usd": 11.749305,
+  "allocated_usd": 10.698132,
   "approved_total_usd": 30.0,
   "attention": [
     {
@@ -563,5 +563,5 @@
       "reason": "manual_admission_pending"
     }
   ],
-  "pending_requests": 89
+  "pending_requests": 100
 }
