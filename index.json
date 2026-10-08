@@ -12767,6 +12767,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "3f82d05df1339a06f5c5d0b042916c12e5e93f3af0ba3989555df0ad38424618",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Eine Gravur, die Achan zeigt, wie er während einer Schlacht Beute an sich nimmt",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "9b526c03bc0aef01186ffda1f62ecf9eb56735a2eca66f6ae302bbaab6c8da6a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Inspirationen für Jugendliche",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Wünsche deines Herzens",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "df1480305c33f0a77707facab8dcde4cc37fd8dfa1c3276ec29c1ac38c18ce16",
       "human_reviewed": false,
@@ -13717,6 +13745,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Donner, Tornados und Vertrauen",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "61e953953a1c73736bdc926b25f4e0515a592cb6f33c1c23792a83ecd209729e",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Ein einzelner kahler Baum auf einem verschneiten Feld",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "97aa7735aadd398d788452fd5c6d24e790a22e72657b27b2ef97e83d24609e82",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedicht",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Winterlied",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -21404,6 +21460,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "אם גן עדן אמיתי",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.html",
+      "html_sha256": "353db464acdb8c1fa5cca66e208a5fb20c5505100792ec0231b2186b3ca11a76",
+      "human_reviewed": false,
+      "id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
+      "images": [
+        {
+          "alt": "אבוקדו, ביצים, ירקות, פטריות וסכין מסודרים על קרש חיתוך",
+          "public_path": "/images/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9-1.jpg"
+        },
+        {
+          "alt": "שני אנשים צועדים ביער המואר באור השמש",
+          "public_path": "/images/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.json",
+      "metadata_sha256": "a8183d3e97fe69dbe5bf59a9c294bbc628e5b9118dec64288ca9683659cc2651",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "דברי רופא",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מערכת חיסון בריאה",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -29684,6 +29772,38 @@
       "subtitle": null,
       "title": "Dall'editore",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "f2a8105e5e84126d19fca17d73a2528cb88777d6d40ed1558c00254dbeb3de84",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "Barchetta riflessa nell’acqua calma",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "Remi di legno consumati e rotti su alcune assi",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "0971e52acc5b95aa9145a0e689d61e590180783666acc8b8937f7dcdcc2e7e0a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "L’angolo dei bambini",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "«Devo dirlo?»",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

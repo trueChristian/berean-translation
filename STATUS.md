@@ -2,502 +2,2167 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
+Generated: 2026-10-08T12:27:18+00:00.
+Published means an accepted translation is exportable here; live deployment is verified separately.
+Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
 Observed English revision: `75eb5963bd7e112102bc9629739ffd4e9fb3ba65`
 
-| Issue selector | Articles | Ready / target | Active | Not ready | Stale |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 109 | 0 |
-| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 63 | 0 |
-| `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
-| `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
-| `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
-| `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 102 | 0 |
-| `heartbeat-remnant-2022-winter` | 10 | 84 / 200 | 0 | 116 | 0 |
-| `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 128 | 0 |
-| `heartbeat-remnant-2022-summer` | 9 | 99 / 180 | 1 | 80 | 0 |
-| `heartbeat-remnant-2022-spring` | 9 | 89 / 180 | 2 | 89 | 0 |
-| `heartbeat-remnant-2021-summer` | 11 | 128 / 220 | 0 | 92 | 0 |
-| `heartbeat-remnant-2021-spring` | 11 | 132 / 220 | 0 | 88 | 0 |
-| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 68 | 0 |
-| `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 99 | 0 |
-| `heartbeat-remnant-2020-spring` | 12 | 146 / 240 | 0 | 94 | 0 |
-| `heartbeat-remnant-2020-winter` | 13 | 155 / 260 | 0 | 105 | 0 |
-| `heartbeat-remnant-2019-summer` | 11 | 26 / 220 | 0 | 64 | 0 |
-| `heartbeat-remnant-2019-spring` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2019-winter` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-winter` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-summer` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2021-fall` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2020-fall` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2019-fall` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | 8 | 0 / 160 | 0 | 0 | 0 |
-| `heartbeat-remnant-2024-autumn` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2023-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-07` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-05` | 9 | 0 / 180 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-01` | 9 | 0 / 180 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-11` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-09` | 7 | 0 / 140 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-07` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-05` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-03` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2012-01` | 6 | 0 / 120 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-11` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-09` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-07` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-03` | 17 | 0 / 340 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2010-11` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2007-special-edition` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2010-09` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2010-07` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2010-05` | 9 | 0 / 180 | 0 | 0 | 0 |
-| `heartbeat-remnant-2009-10` | 15 | 0 / 300 | 0 | 0 | 0 |
-| `heartbeat-remnant-2009-07` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2009-04` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2009-01` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2008-07` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2008-special-edition` | 9 | 0 / 180 | 0 | 0 | 0 |
-| `heartbeat-remnant-2008-04` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2008-01` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2007-07` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2007-04` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2007-01` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2006-10` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2006-07` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2006-03` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2006-01` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-11` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-09` | 15 | 0 / 300 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-07` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-05` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-03` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-11` | 9 | 0 / 180 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-09` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-07` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-05` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-07` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-05` | 10 | 0 / 200 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-07` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-05` | 14 | 0 / 280 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-03` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-01` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-11` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2010-01` | 11 | 0 / 220 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-09` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-07` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-05` | 12 | 0 / 240 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-03` | 15 | 0 / 300 | 0 | 0 | 0 |
-| `heartbeat-remnant-2001-01` | 15 | 0 / 300 | 0 | 0 | 0 |
-| `heartbeat-remnant-2000-11` | 16 | 0 / 320 | 0 | 0 | 0 |
-| `heartbeat-remnant-2000-09` | 13 | 0 / 260 | 0 | 0 | 0 |
-| `heartbeat-remnant-2002-11` | 12 | 0 / 240 | 0 | 0 | 0 |
+Total target: 23340 article/language pairs. published: 2124 | unstarted: 19620 | queued: 51 | active: 3 | held without publication: 1542.
+
+Last collection: 2026-10-08T12:27:18+00:00; newly published: 4; stop reason: audited_saved_reviews_accepted; submitted batches remaining: 0.
+
+| Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 0 | 0 | 1 | 0 | 108 |
+| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 0 | 0 | 63 | 0 | 0 |
+| `heartbeat-remnant-2024-winter` | 11 | 136 / 220 | 0 | 0 | 0 | 84 | 0 | 0 |
+| `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 0 | 0 | 83 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 0 | 0 | 110 | 0 | 0 |
+| `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 0 | 0 | 102 | 0 | 0 |
+| `heartbeat-remnant-2022-winter` | 10 | 84 / 200 | 0 | 0 | 0 | 116 | 0 | 0 |
+| `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 0 | 0 | 128 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | 9 | 99 / 180 | 0 | 15 | 1 | 65 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | 9 | 89 / 180 | 0 | 31 | 2 | 58 | 0 | 0 |
+| `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 0 | 0 |
+| `heartbeat-remnant-2021-spring` | 11 | 134 / 220 | 0 | 0 | 0 | 86 | 0 | 0 |
+| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 0 | 0 |
+| `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 0 | 0 | 99 | 0 | 0 |
+| `heartbeat-remnant-2020-spring` | 12 | 146 / 240 | 0 | 0 | 0 | 94 | 0 | 0 |
+| `heartbeat-remnant-2020-winter` | 13 | 155 / 260 | 0 | 0 | 0 | 105 | 0 | 0 |
+| `heartbeat-remnant-2019-summer` | 11 | 26 / 220 | 0 | 5 | 0 | 189 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | 8 | 0 / 160 | 160 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | 7 | 0 / 140 | 140 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | 6 | 0 / 120 | 120 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | 17 | 0 / 340 | 340 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | 15 | 0 / 300 | 300 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | 15 | 0 / 300 | 300 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | 15 | 0 / 300 | 300 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | 15 | 0 / 300 | 300 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | 16 | 0 / 320 | 320 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 
 ## Language readiness
 
-| Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 99 / 1167 | 0 | 0 | 85 | 114 |
-| `hin` (hi) | 101 / 1167 | 0 | 0 | 84 | 124 |
-| `spa` (es) | 139 / 1167 | 0 | 1 | 44 | 89 |
-| `ara` (ar) | 92 / 1167 | 0 | 0 | 96 | 127 |
-| `fra` (fr) | 130 / 1167 | 0 | 0 | 57 | 96 |
-| `ben` (bn) | 92 / 1167 | 0 | 1 | 92 | 134 |
-| `por` (pt) | 146 / 1167 | 0 | 0 | 38 | 93 |
-| `ind` (id) | 119 / 1167 | 0 | 0 | 65 | 107 |
-| `urd` (ur) | 97 / 1167 | 0 | 0 | 86 | 127 |
-| `rus` (ru) | 102 / 1167 | 0 | 0 | 82 | 130 |
-| `deu` (de) | 80 / 1167 | 0 | 1 | 101 | 127 |
-| `nld` (nl) | 125 / 1167 | 0 | 0 | 62 | 110 |
-| `afr` (af) | 121 / 1167 | 3 | 0 | 66 | 98 |
-| `swa` (sw) | 67 / 1167 | 0 | 0 | 118 | 145 |
-| `kor` (ko) | 110 / 1167 | 0 | 0 | 73 | 114 |
-| `ita` (it) | 129 / 1167 | 0 | 0 | 56 | 93 |
-| `heb` (he) | 48 / 1167 | 0 | 0 | 135 | 142 |
-| `ell` (el) | 104 / 1167 | 0 | 0 | 83 | 118 |
-| `swe` (sv) | 111 / 1167 | 0 | 0 | 74 | 120 |
-| `nob` (nb) | 108 / 1167 | 0 | 0 | 78 | 124 |
+| Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| `cmn` (zh-Hans) | 99 / 1167 | 981 | 4 | 0 | 83 | 0 | 4 | 0 | 114 |
+| `hin` (hi) | 101 / 1167 | 981 | 5 | 0 | 80 | 0 | 7 | 0 | 124 |
+| `spa` (es) | 139 / 1167 | 981 | 1 | 1 | 45 | 0 | 4 | 0 | 89 |
+| `ara` (ar) | 92 / 1167 | 981 | 4 | 0 | 90 | 0 | 8 | 0 | 127 |
+| `fra` (fr) | 130 / 1167 | 981 | 2 | 0 | 54 | 0 | 7 | 0 | 96 |
+| `ben` (bn) | 92 / 1167 | 981 | 3 | 1 | 90 | 0 | 7 | 0 | 134 |
+| `por` (pt) | 146 / 1167 | 981 | 2 | 0 | 38 | 0 | 4 | 0 | 93 |
+| `ind` (id) | 119 / 1167 | 981 | 5 | 0 | 62 | 0 | 6 | 0 | 107 |
+| `urd` (ur) | 97 / 1167 | 981 | 3 | 0 | 86 | 0 | 5 | 0 | 127 |
+| `rus` (ru) | 102 / 1167 | 981 | 3 | 0 | 81 | 0 | 4 | 0 | 130 |
+| `deu` (de) | 82 / 1167 | 981 | 3 | 1 | 100 | 0 | 2 | 0 | 127 |
+| `nld` (nl) | 125 / 1167 | 981 | 0 | 0 | 61 | 0 | 7 | 0 | 110 |
+| `afr` (af) | 121 / 1167 | 981 | 0 | 0 | 65 | 0 | 7 | 3 | 98 |
+| `swa` (sw) | 67 / 1167 | 981 | 3 | 0 | 116 | 0 | 7 | 0 | 145 |
+| `kor` (ko) | 110 / 1167 | 981 | 2 | 0 | 74 | 0 | 3 | 0 | 114 |
+| `ita` (it) | 130 / 1167 | 981 | 1 | 0 | 55 | 0 | 5 | 0 | 93 |
+| `heb` (he) | 49 / 1167 | 981 | 4 | 0 | 133 | 0 | 3 | 0 | 142 |
+| `ell` (el) | 104 / 1167 | 981 | 1 | 0 | 81 | 0 | 7 | 0 | 118 |
+| `swe` (sv) | 111 / 1167 | 981 | 4 | 0 | 71 | 0 | 5 | 0 | 120 |
+| `nob` (nb) | 108 / 1167 | 981 | 1 | 0 | 77 | 0 | 6 | 0 | 124 |
 
 ## Issue / language work
 
-Only combinations with requested or published work appear below. Counts of pending/failed candidates are separate from existing public versions.
+Every source issue and configured language appears, including unstarted work. Replacement failures never subtract accepted publications.
 
-| Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | `cmn` | 10 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-summer` | `hin` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `spa` | 10 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-summer` | `ara` | 10 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2024-summer` | `fra` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `ben` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `por` | 10 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-summer` | `ind` | 10 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2024-summer` | `urd` | 10 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-summer` | `rus` | 10 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-summer` | `deu` | 10 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-summer` | `nld` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `afr` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `swa` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `kor` | 10 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-summer` | `ita` | 10 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-summer` | `heb` | 9 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-summer` | `ell` | 10 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-summer` | `swe` | 10 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-summer` | `nob` | 10 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2024-spring` | `cmn` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `hin` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `spa` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-spring` | `ara` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-spring` | `fra` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `ben` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `por` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `ind` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `urd` | 10 / 11 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2024-spring` | `rus` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `deu` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `nld` | 11 / 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2024-spring` | `afr` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-spring` | `swa` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2024-spring` | `kor` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `ita` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `heb` | 3 / 11 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2024-spring` | `ell` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-spring` | `swe` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-spring` | `nob` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-winter` | `cmn` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-winter` | `hin` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-winter` | `spa` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-winter` | `ara` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-winter` | `fra` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-winter` | `ben` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-winter` | `por` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-winter` | `ind` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2024-winter` | `urd` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-winter` | `rus` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2024-winter` | `deu` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2024-winter` | `nld` | 10 / 11 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2024-winter` | `afr` | 9 / 11 | 1 | 0 | 2 | 0 |
-| `heartbeat-remnant-2024-winter` | `swa` | 2 / 11 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2024-winter` | `kor` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-winter` | `ita` | 10 / 11 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2024-winter` | `heb` | 1 / 11 | 0 | 0 | 10 | 0 |
-| `heartbeat-remnant-2024-winter` | `ell` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2024-winter` | `swe` | 10 / 11 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2024-winter` | `nob` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-summer` | `cmn` | 8 / 13 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-summer` | `hin` | 11 / 13 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-summer` | `spa` | 12 / 13 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-summer` | `ara` | 6 / 13 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-summer` | `fra` | 11 / 13 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-summer` | `ben` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2023-summer` | `por` | 12 / 13 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-summer` | `ind` | 11 / 13 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-summer` | `urd` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-summer` | `rus` | 8 / 13 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-summer` | `deu` | 7 / 13 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-summer` | `nld` | 12 / 13 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-summer` | `afr` | 9 / 13 | 1 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-summer` | `swa` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2023-summer` | `kor` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-summer` | `ita` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-summer` | `heb` | 2 / 13 | 0 | 0 | 11 | 0 |
-| `heartbeat-remnant-2023-summer` | `ell` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-summer` | `swe` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-summer` | `nob` | 11 / 13 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-spring` | `cmn` | 3 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-spring` | `hin` | 1 / 10 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2023-spring` | `spa` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-spring` | `ara` | 2 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2023-spring` | `fra` | 6 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-spring` | `ben` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-spring` | `por` | 8 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-spring` | `ind` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-spring` | `urd` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-spring` | `rus` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-spring` | `deu` | 2 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2023-spring` | `nld` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-spring` | `afr` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-spring` | `swa` | 1 / 10 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2023-spring` | `kor` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2023-spring` | `ita` | 9 / 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-spring` | `heb` | 0 / 10 | 0 | 0 | 10 | 0 |
-| `heartbeat-remnant-2023-spring` | `ell` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-spring` | `swe` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-spring` | `nob` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-winter` | `cmn` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-winter` | `hin` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-winter` | `spa` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-winter` | `ara` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-winter` | `fra` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-winter` | `ben` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-winter` | `por` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-winter` | `ind` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-winter` | `urd` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-winter` | `rus` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2023-winter` | `deu` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-winter` | `nld` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2023-winter` | `afr` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2023-winter` | `swa` | 1 / 12 | 0 | 0 | 11 | 0 |
-| `heartbeat-remnant-2023-winter` | `kor` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2023-winter` | `ita` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-winter` | `heb` | 1 / 12 | 0 | 0 | 11 | 0 |
-| `heartbeat-remnant-2023-winter` | `ell` | 2 / 12 | 0 | 0 | 10 | 0 |
-| `heartbeat-remnant-2023-winter` | `swe` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2023-winter` | `nob` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-winter` | `cmn` | 2 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2022-winter` | `hin` | 3 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-winter` | `spa` | 8 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-winter` | `ara` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-winter` | `fra` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-winter` | `ben` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `por` | 6 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-winter` | `ind` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `urd` | 1 / 10 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2022-winter` | `rus` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `deu` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-winter` | `nld` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `afr` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-winter` | `swa` | 1 / 10 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2022-winter` | `kor` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `ita` | 6 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-winter` | `heb` | 1 / 10 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2022-winter` | `ell` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `swe` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-winter` | `nob` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-fall` | `cmn` | 3 / 11 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2022-fall` | `hin` | 2 / 11 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2022-fall` | `spa` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-fall` | `ara` | 3 / 11 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2022-fall` | `fra` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-fall` | `ben` | 1 / 11 | 0 | 0 | 10 | 0 |
-| `heartbeat-remnant-2022-fall` | `por` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-fall` | `ind` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-fall` | `urd` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-fall` | `rus` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-fall` | `deu` | 2 / 11 | 0 | 0 | 9 | 0 |
-| `heartbeat-remnant-2022-fall` | `nld` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-fall` | `afr` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-fall` | `swa` | 1 / 11 | 0 | 0 | 10 | 0 |
-| `heartbeat-remnant-2022-fall` | `kor` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-fall` | `ita` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-fall` | `heb` | 0 / 11 | 0 | 0 | 11 | 0 |
-| `heartbeat-remnant-2022-fall` | `ell` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-fall` | `swe` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-fall` | `nob` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-summer` | `cmn` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-summer` | `hin` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-summer` | `spa` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-summer` | `ara` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-summer` | `fra` | 7 / 9 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-summer` | `ben` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-summer` | `por` | 8 / 9 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2022-summer` | `ind` | 8 / 9 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2022-summer` | `urd` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-summer` | `rus` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-summer` | `deu` | 3 / 9 | 0 | 1 | 5 | 0 |
-| `heartbeat-remnant-2022-summer` | `nld` | 7 / 9 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-summer` | `afr` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-summer` | `swa` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-summer` | `kor` | 4 / 9 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-summer` | `ita` | 9 / 9 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2022-summer` | `heb` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-summer` | `ell` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-summer` | `swe` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-summer` | `nob` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-spring` | `cmn` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-spring` | `hin` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-spring` | `spa` | 6 / 9 | 0 | 1 | 2 | 0 |
-| `heartbeat-remnant-2022-spring` | `ara` | 4 / 9 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-spring` | `fra` | 4 / 9 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-spring` | `ben` | 2 / 9 | 0 | 1 | 6 | 0 |
-| `heartbeat-remnant-2022-spring` | `por` | 8 / 9 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2022-spring` | `ind` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-spring` | `urd` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-spring` | `rus` | 4 / 9 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-spring` | `deu` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-spring` | `nld` | 7 / 9 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-spring` | `afr` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-spring` | `swa` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-spring` | `kor` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-spring` | `ita` | 5 / 9 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2022-spring` | `heb` | 2 / 9 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2022-spring` | `ell` | 6 / 9 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2022-spring` | `swe` | 3 / 9 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-spring` | `nob` | 4 / 9 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-summer` | `cmn` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `hin` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-summer` | `spa` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-summer` | `ara` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-summer` | `fra` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `ben` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `por` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-summer` | `ind` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `urd` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-summer` | `rus` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-summer` | `deu` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2021-summer` | `nld` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `afr` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-summer` | `swa` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-summer` | `kor` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `ita` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2021-summer` | `heb` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-summer` | `ell` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-summer` | `swe` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-summer` | `nob` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `cmn` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `hin` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-spring` | `spa` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-spring` | `ara` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-spring` | `fra` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-spring` | `ben` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-spring` | `por` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-spring` | `ind` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-spring` | `urd` | 4 / 11 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2021-spring` | `rus` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `deu` | 3 / 11 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2021-spring` | `nld` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `afr` | 11 / 11 | 1 | 0 | 0 | 0 |
-| `heartbeat-remnant-2021-spring` | `swa` | 5 / 11 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-spring` | `kor` | 8 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-spring` | `ita` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-spring` | `heb` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `ell` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `swe` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-spring` | `nob` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-winter` | `cmn` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-winter` | `hin` | 9 / 12 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-winter` | `spa` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-winter` | `ara` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-winter` | `fra` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2021-winter` | `ben` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-winter` | `por` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2021-winter` | `ind` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-winter` | `urd` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2021-winter` | `rus` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `deu` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `nld` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `afr` | 11 / 12 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2021-winter` | `swa` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `kor` | 9 / 12 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2021-winter` | `ita` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-winter` | `heb` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2021-winter` | `ell` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `swe` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2021-winter` | `nob` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-summer` | `cmn` | 3 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2020-summer` | `hin` | 8 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2020-summer` | `spa` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-summer` | `ara` | 6 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-summer` | `fra` | 7 / 10 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-summer` | `ben` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-summer` | `por` | 8 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2020-summer` | `ind` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-summer` | `urd` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-summer` | `rus` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-summer` | `deu` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-summer` | `nld` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-summer` | `afr` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-summer` | `swa` | 2 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-summer` | `kor` | 6 / 10 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-summer` | `ita` | 5 / 10 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-summer` | `heb` | 2 / 10 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-summer` | `ell` | 8 / 10 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2020-summer` | `swe` | 3 / 10 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2020-summer` | `nob` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-spring` | `cmn` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-spring` | `hin` | 9 / 12 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-spring` | `spa` | 9 / 12 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-spring` | `ara` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-spring` | `fra` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `ben` | 9 / 12 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-spring` | `por` | 10 / 12 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2020-spring` | `ind` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `urd` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `rus` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-spring` | `deu` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-spring` | `nld` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `afr` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `swa` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-spring` | `kor` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2020-spring` | `ita` | 8 / 12 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-spring` | `heb` | 5 / 12 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2020-spring` | `ell` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-spring` | `swe` | 7 / 12 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-spring` | `nob` | 6 / 12 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-winter` | `cmn` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-winter` | `hin` | 7 / 13 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2020-winter` | `spa` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-winter` | `ara` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-winter` | `fra` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-winter` | `ben` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-winter` | `por` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-winter` | `ind` | 8 / 13 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-winter` | `urd` | 6 / 13 | 0 | 0 | 7 | 0 |
-| `heartbeat-remnant-2020-winter` | `rus` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-winter` | `deu` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-winter` | `nld` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-winter` | `afr` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-winter` | `swa` | 5 / 13 | 0 | 0 | 8 | 0 |
-| `heartbeat-remnant-2020-winter` | `kor` | 8 / 13 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2020-winter` | `ita` | 11 / 13 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2020-winter` | `heb` | 2 / 13 | 0 | 0 | 11 | 0 |
-| `heartbeat-remnant-2020-winter` | `ell` | 9 / 13 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2020-winter` | `swe` | 10 / 13 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2020-winter` | `nob` | 7 / 13 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2019-summer` | `cmn` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `hin` | 1 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `spa` | 2 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2019-summer` | `ara` | 2 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2019-summer` | `fra` | 2 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2019-summer` | `ben` | 1 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `por` | 3 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `ind` | 1 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `urd` | 1 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `rus` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `deu` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `nld` | 0 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2019-summer` | `afr` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `swa` | 1 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2019-summer` | `kor` | 2 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2019-summer` | `ita` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `heb` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `ell` | 2 / 11 | 0 | 0 | 3 | 0 |
-| `heartbeat-remnant-2019-summer` | `swe` | 1 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2019-summer` | `nob` | 1 / 11 | 0 | 0 | 4 | 0 |
+| Issue | Language | Published / articles | Unstarted | Queued / admission | Active | Held without publication | Failed replacements |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| `heartbeat-remnant-2024-summer` | `cmn` | 10 / 10 | 0 | 0 | 0 | 0 | 4 |
+| `heartbeat-remnant-2024-summer` | `hin` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `spa` | 10 / 10 | 0 | 0 | 0 | 0 | 4 |
+| `heartbeat-remnant-2024-summer` | `ara` | 10 / 10 | 0 | 0 | 0 | 0 | 8 |
+| `heartbeat-remnant-2024-summer` | `fra` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `ben` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `por` | 10 / 10 | 0 | 0 | 0 | 0 | 4 |
+| `heartbeat-remnant-2024-summer` | `ind` | 10 / 10 | 0 | 0 | 0 | 0 | 6 |
+| `heartbeat-remnant-2024-summer` | `urd` | 10 / 10 | 0 | 0 | 0 | 0 | 5 |
+| `heartbeat-remnant-2024-summer` | `rus` | 10 / 10 | 0 | 0 | 0 | 0 | 4 |
+| `heartbeat-remnant-2024-summer` | `deu` | 10 / 10 | 0 | 0 | 0 | 0 | 2 |
+| `heartbeat-remnant-2024-summer` | `nld` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `afr` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `swa` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `kor` | 10 / 10 | 0 | 0 | 0 | 0 | 3 |
+| `heartbeat-remnant-2024-summer` | `ita` | 10 / 10 | 0 | 0 | 0 | 0 | 5 |
+| `heartbeat-remnant-2024-summer` | `heb` | 9 / 10 | 0 | 0 | 0 | 1 | 3 |
+| `heartbeat-remnant-2024-summer` | `ell` | 10 / 10 | 0 | 0 | 0 | 0 | 7 |
+| `heartbeat-remnant-2024-summer` | `swe` | 10 / 10 | 0 | 0 | 0 | 0 | 5 |
+| `heartbeat-remnant-2024-summer` | `nob` | 10 / 10 | 0 | 0 | 0 | 0 | 6 |
+| `heartbeat-remnant-2024-spring` | `cmn` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `hin` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `spa` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-spring` | `ara` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2024-spring` | `fra` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `ben` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `por` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `ind` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `urd` | 10 / 11 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2024-spring` | `rus` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `deu` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `nld` | 11 / 11 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-spring` | `afr` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2024-spring` | `swa` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2024-spring` | `kor` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-spring` | `ita` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `heb` | 3 / 11 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2024-spring` | `ell` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `swe` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-spring` | `nob` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-winter` | `cmn` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-winter` | `hin` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-winter` | `spa` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-winter` | `ara` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-winter` | `fra` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-winter` | `ben` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2024-winter` | `por` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-winter` | `ind` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2024-winter` | `urd` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2024-winter` | `rus` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-winter` | `deu` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2024-winter` | `nld` | 10 / 11 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2024-winter` | `afr` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-winter` | `swa` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2024-winter` | `kor` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2024-winter` | `ita` | 10 / 11 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2024-winter` | `heb` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2024-winter` | `ell` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2024-winter` | `swe` | 10 / 11 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2024-winter` | `nob` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `cmn` | 8 / 13 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-summer` | `hin` | 11 / 13 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-summer` | `spa` | 12 / 13 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-summer` | `ara` | 6 / 13 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-summer` | `fra` | 11 / 13 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-summer` | `ben` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2023-summer` | `por` | 12 / 13 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-summer` | `ind` | 11 / 13 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-summer` | `urd` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `rus` | 8 / 13 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-summer` | `deu` | 7 / 13 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-summer` | `nld` | 12 / 13 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-summer` | `afr` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `swa` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2023-summer` | `kor` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `ita` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `heb` | 2 / 13 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2023-summer` | `ell` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-summer` | `swe` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-summer` | `nob` | 11 / 13 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-spring` | `cmn` | 3 / 10 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-spring` | `hin` | 1 / 10 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2023-spring` | `spa` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-spring` | `ara` | 2 / 10 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2023-spring` | `fra` | 6 / 10 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-spring` | `ben` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-spring` | `por` | 8 / 10 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-spring` | `ind` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-spring` | `urd` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-spring` | `rus` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-spring` | `deu` | 2 / 10 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2023-spring` | `nld` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-spring` | `afr` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-spring` | `swa` | 1 / 10 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2023-spring` | `kor` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2023-spring` | `ita` | 9 / 10 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-spring` | `heb` | 0 / 10 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2023-spring` | `ell` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-spring` | `swe` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-spring` | `nob` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-winter` | `cmn` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-winter` | `hin` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-winter` | `spa` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-winter` | `ara` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-winter` | `fra` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-winter` | `ben` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-winter` | `por` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-winter` | `ind` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-winter` | `urd` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-winter` | `rus` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-winter` | `deu` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-winter` | `nld` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-winter` | `afr` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2023-winter` | `swa` | 1 / 12 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2023-winter` | `kor` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2023-winter` | `ita` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2023-winter` | `heb` | 1 / 12 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2023-winter` | `ell` | 2 / 12 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2023-winter` | `swe` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-winter` | `nob` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-winter` | `cmn` | 2 / 10 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2022-winter` | `hin` | 3 / 10 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2022-winter` | `spa` | 8 / 10 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-winter` | `ara` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-winter` | `fra` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-winter` | `ben` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `por` | 6 / 10 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-winter` | `ind` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `urd` | 1 / 10 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2022-winter` | `rus` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `deu` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-winter` | `nld` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `afr` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-winter` | `swa` | 1 / 10 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2022-winter` | `kor` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `ita` | 6 / 10 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-winter` | `heb` | 1 / 10 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2022-winter` | `ell` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-winter` | `swe` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-winter` | `nob` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-fall` | `cmn` | 3 / 11 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2022-fall` | `hin` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2022-fall` | `spa` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-fall` | `ara` | 3 / 11 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2022-fall` | `fra` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-fall` | `ben` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2022-fall` | `por` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-fall` | `ind` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-fall` | `urd` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2022-fall` | `rus` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-fall` | `deu` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2022-fall` | `nld` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-fall` | `afr` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-fall` | `swa` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2022-fall` | `kor` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2022-fall` | `ita` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-fall` | `heb` | 0 / 11 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2022-fall` | `ell` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-fall` | `swe` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-fall` | `nob` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `cmn` | 2 / 9 | 0 | 2 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `hin` | 5 / 9 | 0 | 1 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-summer` | `spa` | 6 / 9 | 0 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-summer` | `ara` | 2 / 9 | 0 | 1 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-summer` | `fra` | 7 / 9 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-summer` | `ben` | 3 / 9 | 0 | 1 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `por` | 8 / 9 | 0 | 1 | 0 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | `ind` | 8 / 9 | 0 | 1 | 0 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | `urd` | 5 / 9 | 0 | 1 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-summer` | `rus` | 5 / 9 | 0 | 1 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-summer` | `deu` | 3 / 9 | 0 | 1 | 1 | 4 | 0 |
+| `heartbeat-remnant-2022-summer` | `nld` | 7 / 9 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-summer` | `afr` | 6 / 9 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-summer` | `swa` | 3 / 9 | 0 | 1 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `kor` | 4 / 9 | 0 | 1 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-summer` | `ita` | 9 / 9 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | `heb` | 2 / 9 | 0 | 2 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `ell` | 3 / 9 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2022-summer` | `swe` | 6 / 9 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-summer` | `nob` | 5 / 9 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-spring` | `cmn` | 5 / 9 | 0 | 2 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `hin` | 3 / 9 | 0 | 3 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `spa` | 6 / 9 | 0 | 0 | 1 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `ara` | 4 / 9 | 0 | 3 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `fra` | 4 / 9 | 0 | 2 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `ben` | 2 / 9 | 0 | 1 | 1 | 5 | 0 |
+| `heartbeat-remnant-2022-spring` | `por` | 8 / 9 | 0 | 1 | 0 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ind` | 3 / 9 | 0 | 3 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `urd` | 3 / 9 | 0 | 1 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-spring` | `rus` | 4 / 9 | 0 | 2 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `deu` | 2 / 9 | 0 | 2 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-spring` | `nld` | 7 / 9 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `afr` | 6 / 9 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `swa` | 6 / 9 | 0 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `kor` | 6 / 9 | 0 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `ita` | 5 / 9 | 0 | 1 | 0 | 3 | 0 |
+| `heartbeat-remnant-2022-spring` | `heb` | 2 / 9 | 0 | 2 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-spring` | `ell` | 6 / 9 | 0 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `swe` | 3 / 9 | 0 | 4 | 0 | 2 | 0 |
+| `heartbeat-remnant-2022-spring` | `nob` | 4 / 9 | 0 | 1 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `cmn` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `hin` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-summer` | `spa` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-summer` | `ara` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-summer` | `fra` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `ben` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `por` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-summer` | `ind` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `urd` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-summer` | `rus` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-summer` | `deu` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2021-summer` | `nld` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `afr` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-summer` | `swa` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-summer` | `kor` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `ita` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-summer` | `heb` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-summer` | `ell` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-summer` | `swe` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-summer` | `nob` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-spring` | `cmn` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-spring` | `hin` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-spring` | `spa` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-spring` | `ara` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-spring` | `fra` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-spring` | `ben` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-spring` | `por` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-spring` | `ind` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-spring` | `urd` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2021-spring` | `rus` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-spring` | `deu` | 4 / 11 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2021-spring` | `nld` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-spring` | `afr` | 11 / 11 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-spring` | `swa` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-spring` | `kor` | 8 / 11 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-spring` | `ita` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-spring` | `heb` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-spring` | `ell` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-spring` | `swe` | 7 / 11 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-spring` | `nob` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-winter` | `cmn` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-winter` | `hin` | 9 / 12 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-winter` | `spa` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-winter` | `ara` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-winter` | `fra` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2021-winter` | `ben` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-winter` | `por` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2021-winter` | `ind` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2021-winter` | `urd` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2021-winter` | `rus` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `deu` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `nld` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `afr` | 11 / 12 | 0 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2021-winter` | `swa` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `kor` | 9 / 12 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2021-winter` | `ita` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-winter` | `heb` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2021-winter` | `ell` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `swe` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2021-winter` | `nob` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-summer` | `cmn` | 3 / 10 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2020-summer` | `hin` | 8 / 10 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2020-summer` | `spa` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-summer` | `ara` | 6 / 10 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-summer` | `fra` | 7 / 10 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-summer` | `ben` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-summer` | `por` | 8 / 10 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2020-summer` | `ind` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-summer` | `urd` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-summer` | `rus` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-summer` | `deu` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-summer` | `nld` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-summer` | `afr` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-summer` | `swa` | 2 / 10 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-summer` | `kor` | 6 / 10 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-summer` | `ita` | 5 / 10 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-summer` | `heb` | 2 / 10 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-summer` | `ell` | 8 / 10 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2020-summer` | `swe` | 3 / 10 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2020-summer` | `nob` | 4 / 10 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-spring` | `cmn` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-spring` | `hin` | 9 / 12 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-spring` | `spa` | 9 / 12 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-spring` | `ara` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-spring` | `fra` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `ben` | 9 / 12 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-spring` | `por` | 10 / 12 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2020-spring` | `ind` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `urd` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `rus` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-spring` | `deu` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-spring` | `nld` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `afr` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `swa` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-spring` | `kor` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2020-spring` | `ita` | 8 / 12 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-spring` | `heb` | 5 / 12 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2020-spring` | `ell` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-spring` | `swe` | 7 / 12 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-spring` | `nob` | 6 / 12 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-winter` | `cmn` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-winter` | `hin` | 7 / 13 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2020-winter` | `spa` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-winter` | `ara` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-winter` | `fra` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-winter` | `ben` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-winter` | `por` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-winter` | `ind` | 8 / 13 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-winter` | `urd` | 6 / 13 | 0 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2020-winter` | `rus` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-winter` | `deu` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-winter` | `nld` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-winter` | `afr` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-winter` | `swa` | 5 / 13 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2020-winter` | `kor` | 8 / 13 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2020-winter` | `ita` | 11 / 13 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2020-winter` | `heb` | 2 / 13 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2020-winter` | `ell` | 9 / 13 | 0 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2020-winter` | `swe` | 10 / 13 | 0 | 0 | 0 | 3 | 0 |
+| `heartbeat-remnant-2020-winter` | `nob` | 7 / 13 | 0 | 0 | 0 | 6 | 0 |
+| `heartbeat-remnant-2019-summer` | `cmn` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `hin` | 1 / 11 | 0 | 1 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `spa` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `ara` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `fra` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `ben` | 1 / 11 | 0 | 1 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `por` | 3 / 11 | 0 | 0 | 0 | 8 | 0 |
+| `heartbeat-remnant-2019-summer` | `ind` | 1 / 11 | 0 | 1 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `urd` | 1 / 11 | 0 | 1 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `rus` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `deu` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `nld` | 0 / 11 | 0 | 0 | 0 | 11 | 0 |
+| `heartbeat-remnant-2019-summer` | `afr` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `swa` | 1 / 11 | 0 | 1 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `kor` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `ita` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `heb` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `ell` | 2 / 11 | 0 | 0 | 0 | 9 | 0 |
+| `heartbeat-remnant-2019-summer` | `swe` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-summer` | `nob` | 1 / 11 | 0 | 0 | 0 | 10 | 0 |
+| `heartbeat-remnant-2019-spring` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-spring` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-winter` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-winter` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-summer` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-fall` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2020-fall` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2019-fall` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `cmn` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `hin` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `spa` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `ara` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `fra` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `ben` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `por` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `ind` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `urd` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `rus` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `deu` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `nld` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `afr` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `swa` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `kor` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `ita` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `heb` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `ell` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `swe` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `nob` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-autumn` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-autumn` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-07` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `ara` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `fra` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `ben` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `por` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `ind` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `urd` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `rus` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `deu` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `nld` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `afr` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `swa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `kor` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `ita` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `heb` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-05` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `ara` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `fra` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `ben` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `por` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `ind` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `urd` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `rus` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `deu` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `nld` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `afr` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `swa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `kor` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `ita` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `heb` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-01` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-11` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `cmn` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `hin` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `spa` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `ara` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `fra` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `ben` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `por` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `ind` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `urd` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `rus` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `deu` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `nld` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `afr` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `swa` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `kor` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `ita` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `heb` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `ell` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `swe` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-09` | `nob` | 0 / 7 | 7 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-07` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-05` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-03` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `cmn` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `hin` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `spa` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `ara` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `fra` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `ben` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `por` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `ind` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `urd` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `rus` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `deu` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `nld` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `afr` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `swa` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `kor` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `ita` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `heb` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `ell` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `swe` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2012-01` | `nob` | 0 / 6 | 6 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-11` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-09` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-07` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `cmn` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `hin` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `spa` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `ara` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `fra` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `ben` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `por` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `ind` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `urd` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `rus` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `deu` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `nld` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `afr` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `swa` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `kor` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `ita` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `heb` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `ell` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `swe` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-03` | `nob` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-11` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-special-edition` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-09` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-07` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `ara` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `fra` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `ben` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `por` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `ind` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `urd` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `rus` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `deu` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `nld` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `afr` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `swa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `kor` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `ita` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `heb` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-05` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `cmn` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `hin` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `spa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `ara` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `fra` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `ben` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `por` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `ind` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `urd` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `rus` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `deu` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `nld` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `afr` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `swa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `kor` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `ita` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `heb` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `ell` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `swe` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-10` | `nob` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-07` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-04` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `ara` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `fra` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `ben` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `por` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `ind` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `urd` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `rus` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `deu` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `nld` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `afr` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `swa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `kor` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `ita` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `heb` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `cmn` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `hin` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `spa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `ara` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `fra` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `ben` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `por` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `ind` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `urd` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `rus` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `deu` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `nld` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `afr` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `swa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `kor` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `ita` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `heb` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `ell` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `swe` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | `nob` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `ara` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `fra` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `ben` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `por` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `ind` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `urd` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `rus` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `deu` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `nld` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `afr` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `swa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `kor` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `ita` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `heb` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-09` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-07` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-05` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-03` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `ara` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `fra` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `ben` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `por` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `ind` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `urd` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `rus` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `deu` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `nld` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `afr` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `swa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `kor` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `ita` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `heb` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `ara` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `fra` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `ben` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `por` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `ind` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `urd` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `rus` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `deu` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `nld` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `afr` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `swa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `kor` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `ita` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `heb` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-01` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-11` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `cmn` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `hin` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `spa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `ara` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `fra` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `ben` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `por` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `ind` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `urd` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `rus` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `deu` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `nld` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `afr` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `swa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `kor` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `ita` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `heb` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `ell` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `swe` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | `nob` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `cmn` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `hin` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `spa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `ara` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `fra` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `ben` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `por` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `ind` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `urd` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `rus` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `deu` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `nld` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `afr` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `swa` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `kor` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `ita` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `heb` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `ell` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `swe` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | `nob` | 0 / 15 | 15 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `cmn` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `hin` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `spa` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `ara` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `fra` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `ben` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `por` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `ind` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `urd` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `rus` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `deu` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `nld` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `afr` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `swa` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `kor` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `ita` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `heb` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `ell` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `swe` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | `nob` | 0 / 16 | 16 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-11` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
 
 ## Automatic archive work
 
-Scheduled collection creates missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
+Automatic policy enabled: True. Scheduled discovery and collection create missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
 Automatic committed ceiling: $9.473812 / $30.00. This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. Accepted legacy refresh and manual envelopes retain their separate original authority.
 New automatic work reserves its complete remaining stage chain, up to $10 per envelope. Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. Usage is provider-reported and priced at frozen rates, not invoice reconciliation.
 Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.
 [Recovery frontier](RECOVERY.json) records current holds and funding.
 
-## Legacy held-work recovery authority
+## Previously accepted recovery authority
 
-Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
-Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 / $10.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
-New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
-[Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 3 | already_translated: 108 | ambiguous_quote_reference: 19 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1278 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 6 | pending_automatic_admission: 46 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_association_limit: 4 | source_quote_annotation: 10 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 18
+Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
+Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; each prior run retains its frozen funding and attempt limits.
+[Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
+active: 3 | already_translated: 108 | ambiguous_quote_reference: 59 | ambiguous_source_quote: 13 | awaiting_prefetch: 5 | eligible_automatic: 1347 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 11 | pending_automatic_admission: 46 | provider_refusal_requires_owner_attention: 1 | source_association_limit: 4 | source_quote_annotation: 25 | unassociated_source_quote: 2 | unmarked_quote_scope: 20 | unresolved_quote_reference: 48
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -559,7 +2224,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-36911053601` | manual | translate | finished | 10 | 9 complete, 1 held | 0.06972947 | 0.342436 / 10.00 | [state](state/campaigns/gh-36911053601.json) |
 | `gh-36911235156` | manual | translate | finished | 220 | 130 complete, 90 held | 2.07687006 | 9.431976 / 10.00 | [state](state/campaigns/gh-36911235156.json) |
 | `gh-36981712493` | manual | translate | finished | 60 | 18 complete, 42 held | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
-| `gh-36985402305` | manual | translate | finished | 220 | 135 complete, 85 held | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
+| `gh-36985402305` | manual | translate | finished | 220 | 136 complete, 84 held | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
 | `gh-36992568621` | manual | translate | finished | 260 | 176 complete, 84 held | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
 | `gh-37007803504` | manual | translate | finished | 200 | 90 complete, 110 held | 2.25316856 | 9.223544 / 10.00 | [state](state/campaigns/gh-37007803504.json) |
 | `gh-37007882719` | manual | translate | finished | 240 | 137 complete, 103 held | 2.07931833 | 9.956063 / 10.00 | [state](state/campaigns/gh-37007882719.json) |
@@ -568,10 +2233,10 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37008194209` | manual | translate | finished | 180 | 98 complete, 82 held | 1.53773587 | 7.399660 / 10.00 | [state](state/campaigns/gh-37008194209.json) |
 | `gh-37045474073` | manual | translate | finished | 180 | 85 complete, 95 held | 0.53759431 | 2.991708 / 10.00 | [state](state/campaigns/gh-37045474073.json) |
 | `gh-37108593335` | manual recovery | repair | finished | 5 | 1 complete, 4 held | 0.00909794 | 0.068242 / 10.00 | [state](state/campaigns/gh-37108593335.json) |
-| `gh-37108628649` | manual | translate | finished | 220 | 128 complete, 92 held | 0.54431204 | 3.393326 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
+| `gh-37108628649` | manual | translate | finished | 220 | 129 complete, 91 held | 0.54431204 | 3.393326 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
 | `gh-37109005676` | manual recovery | repair | finished | 5 | 5 held | 0.26054750 | 1.513698 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
 | `gh-37109037884` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.01145422 | 0.075083 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
-| `gh-37109077881` | manual | translate | finished | 220 | 132 complete, 88 held | 0.56007440 | 3.329526 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
+| `gh-37109077881` | manual | translate | finished | 220 | 134 complete, 86 held | 0.56007440 | 3.329526 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
 | `gh-37109120670` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `gh-37109168265` | manual | translate | finished | 42 | 38 complete, 4 held | 1.44131250 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
 | `gh-37119584204` | manual | translate | finished | 240 | 172 complete, 68 held | 0.51505726 | 3.356577 / 10.00 | [state](state/campaigns/gh-37119584204.json) |

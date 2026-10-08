@@ -12,9 +12,34 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "e25fa1a1b2d4a08e1dc93661f6f8ccb9"
+    },
+    {
+      "at": "2026-10-08T12:27:18+00:00",
+      "event": "policy_accepted",
+      "review_path": "state/tasks/e25fa1a1b2d4a08e1dc93661f6f8ccb9/results/review2.json",
+      "review_sha256": "7d929dd7a0d854785b61c5dd9162635e78b6619c76b82164793fbfab8cbbaeef",
+      "score": 98,
+      "task": "e25fa1a1b2d4a08e1dc93661f6f8ccb9"
     }
   ],
   "language": "deu",
   "latest_task": "e25fa1a1b2d4a08e1dc93661f6f8ccb9",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+    "html_sha256": "61e953953a1c73736bdc926b25f4e0515a592cb6f33c1c23792a83ecd209729e",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+    "metadata_path": "content/deu/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+    "metadata_sha256": "97aa7735aadd398d788452fd5c6d24e790a22e72657b27b2ef97e83d24609e82",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-5-mini-2025-08-07) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9/\" data-source-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-10-08T12:27:18+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+    "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
+    "task": "e25fa1a1b2d4a08e1dc93661f6f8ccb9",
+    "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712"
+  }
 }

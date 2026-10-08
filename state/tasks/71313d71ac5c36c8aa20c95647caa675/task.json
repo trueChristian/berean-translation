@@ -84,6 +84,24 @@
         },
         "total_tokens": 8235
       }
+    },
+    {
+      "at": "2026-10-08T12:27:18+00:00",
+      "batch_input_sha256": "738339f355915ffae08d660828ea457c5bceebf7393735d831cedd241f11f0cd",
+      "candidate_sha256": "a29842280ccee1fd16a1d3d30185670719b2afc566b256dce4ccecf6d5210744",
+      "current_english_revision": "96b577111cda10260297ec6ea87bce275d10efab",
+      "event": "policy_accepted",
+      "previous_status": "not_ready",
+      "previous_task_sha256": "cc68573239dd243ecec3524f9f6049b98cb7e2a864e17b87d269013d0ca2939a",
+      "prompt_version": "2.0.0",
+      "quality_threshold": 95,
+      "reason": "Previously paid review passes the current ordinary quality policy; retired holds removed.",
+      "request_line_sha256": "00de1f798826421c662fc2f23d53439d481f40c822d9c97be379a88a77fba679",
+      "review_batch": "b6a5707c36f94a0085861885061cffb7",
+      "review_path": "state/tasks/71313d71ac5c36c8aa20c95647caa675/results/review2.json",
+      "review_sha256": "d4548858395c21baadc73e241bff74efde2e87ecfc2d379693478f2e84f014b4",
+      "score": 98,
+      "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json"
     }
   ],
   "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[20]; missing: none; extra: !invalid[deu] 1 Samuel 8, ",
@@ -192,7 +210,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
   "stage": "review2",
-  "status": "not_ready",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"
