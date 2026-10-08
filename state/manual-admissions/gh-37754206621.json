@@ -3,11 +3,23 @@
   "campaign_sha256": "1dc01664447441d61677d5365b35fdd8cedfc49c32b5733a913c6148dfd2c336",
   "entries": {
     "01709041558a362b7bca89f892553b63": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "173b2322640ed0da6a3d7f0f3fecde98ba59b1db092ba776fcf4439a6dd1770f",
+        "provenance_sha256": "3245cba3081f155a01bc3eace7d6bd1ba42b9a2f95f0241562bfcf3dc4201518",
+        "sha256": "6aad94c4f1abe9481cbf21628c195e7105a946faf990d2b916df1cc79e9ba25e",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:34+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -44,16 +56,28 @@
         }
       },
       "provenance_sha256": "3245cba3081f155a01bc3eace7d6bd1ba42b9a2f95f0241562bfcf3dc4201518",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "01709041558a362b7bca89f892553b63"
     },
     "02b14750be15d3eaeba45e39ee9f48bd": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ab04545fe7a1a0c3f451373ba82020f3b9e92ec9d9bfc43efac6d90dc19f0f52",
+        "provenance_sha256": "748104c56bfc08ad2d6b877056a68e5a08e3751170e318687d0d91b260440831",
+        "sha256": "259c7de3dbf89ec4c8e0144136b1216363ed7b1e4ba1c95b7dd241088e77cfdc",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:06+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -90,16 +114,28 @@
         }
       },
       "provenance_sha256": "748104c56bfc08ad2d6b877056a68e5a08e3751170e318687d0d91b260440831",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "02b14750be15d3eaeba45e39ee9f48bd"
     },
     "03443fa874892eabe6747d04bf4f7938": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "4a544c933c6e253793499ffe7d83ce60a184285fd4d9a26d3424eb974ccb68ff",
+        "provenance_sha256": "aecabec12276d486c868b4d3023c491918324de9c19c5903ef7d1b3c7f1ee01f",
+        "sha256": "f6557857995517972199e154c12d64de774c558137bb0cdb8636331603d21f92",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:27+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -136,16 +172,28 @@
         }
       },
       "provenance_sha256": "aecabec12276d486c868b4d3023c491918324de9c19c5903ef7d1b3c7f1ee01f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "03443fa874892eabe6747d04bf4f7938"
     },
     "06292d7b2a991663a9cfc9b16141b877": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "f893886ffe1f88fa30fe0bc19d4629179021d64806bb7e055da808fb552be77f",
+        "provenance_sha256": "5d581565f34200514e87459ba9364917cc4843a5457d6840323144a9673c2eb7",
+        "sha256": "d63b769e4672231d562d465b63e37c564c3f28e8db49f2f42f4de1d3ff2ebacd",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:32+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -182,16 +230,28 @@
         }
       },
       "provenance_sha256": "5d581565f34200514e87459ba9364917cc4843a5457d6840323144a9673c2eb7",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "06292d7b2a991663a9cfc9b16141b877"
     },
     "09580049afef9643900f5e5b16962606": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "994ed94601e71dca16529d5be225520826ceee39b474dbe6753edbab4ae2102c",
+        "provenance_sha256": "a507343b22cc8b40b76eab230d294492fb12c23018fbee63f2c35cda02ee9e84",
+        "sha256": "8f8a4da6c6aa739d58d8fa904bfef61ab08833a1d51112f820bc3765b1fa5528",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:16+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -228,16 +288,28 @@
         }
       },
       "provenance_sha256": "a507343b22cc8b40b76eab230d294492fb12c23018fbee63f2c35cda02ee9e84",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "09580049afef9643900f5e5b16962606"
     },
     "0cd1e0b8f275aaa729ce3ab2c900438c": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "a88c0fef55684c0f3da31306c1528ece4502d42a8e892405deb3d94166f6023a",
+        "provenance_sha256": "b076be435760a3764226685f60d1d9e95026c85e7a224c3fc437733644a48575",
+        "sha256": "568304fe4b47645bede2ddc1b5823d49558c0bc73a42fe81c83fcef3c402ceb2",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:03+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -274,16 +346,28 @@
         }
       },
       "provenance_sha256": "b076be435760a3764226685f60d1d9e95026c85e7a224c3fc437733644a48575",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "0cd1e0b8f275aaa729ce3ab2c900438c"
     },
     "0d001779b78b50a43c7ecc7e09d696f6": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "110ef1d4fc3de761bbd0a95e6bf84eab6a3380dfa2962bee500d6cfa4c74da80",
+        "provenance_sha256": "d8af6ad03df7f010cbd1563add1bd0492a93968638b8cf17e2217f5fe4130092",
+        "sha256": "910f08e1fa7c94697d596e148ff9c9605699f1cc9b39317016c8312a251ba430",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:02+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -320,16 +404,28 @@
         }
       },
       "provenance_sha256": "d8af6ad03df7f010cbd1563add1bd0492a93968638b8cf17e2217f5fe4130092",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "0d001779b78b50a43c7ecc7e09d696f6"
     },
     "128a508b3e13429ced03bdf6f59778cc": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "43d3bc74b7955cf618f979053411c30cc1360081c4dabc19709996eec5ebff59",
+        "provenance_sha256": "c7d6ae2aec987b3d04dc987efd9e501b6ba8d70f0bbc47c1d355a9e6ac48b9da",
+        "sha256": "6204ccf68a6ad5525d8ba0a3637b1d07a15edbda69474ad087ac305b6eaf9d5a",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:29+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -366,16 +462,28 @@
         }
       },
       "provenance_sha256": "c7d6ae2aec987b3d04dc987efd9e501b6ba8d70f0bbc47c1d355a9e6ac48b9da",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "128a508b3e13429ced03bdf6f59778cc"
     },
     "13440d33ebba6adfe06094d5644f4344": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "adc1fedf3281303d84b673f27b4a764c552b2eae32d6be12803aa10c1cc2cf23",
+        "provenance_sha256": "17bd5ec2a1066b28b7058ab006f7680e825281f1ca2b223970cfc05041026fd5",
+        "sha256": "08a0028928a65409ed405e6c8c7de4e1b1803e7d0454f9427f0aebe743d160c9",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:09+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -412,16 +520,28 @@
         }
       },
       "provenance_sha256": "17bd5ec2a1066b28b7058ab006f7680e825281f1ca2b223970cfc05041026fd5",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "13440d33ebba6adfe06094d5644f4344"
     },
     "145d4e96d644c72c832fedec0cfb0986": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "02ffd55b9c7e83a98383a78a19de19be2961fda2599b9b91fe8955b03d81246d",
+        "provenance_sha256": "8ff8f172a2a82fc97374b6ecdac00b3a5391f9cfd135c0947203f72b45ef458f",
+        "sha256": "534709a6b9c926f5c19593716f62d9c76bb8d415dcc4b88b1d44904ae152cba4",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:58+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -458,16 +578,28 @@
         }
       },
       "provenance_sha256": "8ff8f172a2a82fc97374b6ecdac00b3a5391f9cfd135c0947203f72b45ef458f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "145d4e96d644c72c832fedec0cfb0986"
     },
     "15a5fe5214f091e23054d4ec7c3cf2a5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "36132b19812c3ef8e7eed70b3635be1dcc23db2aea6c981ecbbc26704e18c5db",
+        "provenance_sha256": "0a25d5abb15e2b8f4ccd4e3a0b78f61f89a4f6f628ee7ae09fbf40c2eaa896d4",
+        "sha256": "3e22826d2dfe88b473d97609997284fcba6147365d34bc46f36c27c40f5728f9",
+        "text": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged."
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:21+00:00",
+          "reason": "missing_edition",
+          "status": "attention"
         }
       ],
       "item": {
@@ -504,16 +636,28 @@
         }
       },
       "provenance_sha256": "0a25d5abb15e2b8f4ccd4e3a0b78f61f89a4f6f628ee7ae09fbf40c2eaa896d4",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "missing_edition",
+      "status": "attention",
       "task_id": "15a5fe5214f091e23054d4ec7c3cf2a5"
     },
     "1a5664aaaa1ef1cde2fb7df50f39f12d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "a88c0fef55684c0f3da31306c1528ece4502d42a8e892405deb3d94166f6023a",
+        "provenance_sha256": "16b3a8d2c2a5fa460bca6e6b1f3adc6852fec9985cd83592c6f41fc0d6f8f0b3",
+        "sha256": "9bf9d73c2ab9487bc228762ba2871ec63bea7244ba44ac894bba01b069a59afb",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:03+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -550,16 +694,28 @@
         }
       },
       "provenance_sha256": "16b3a8d2c2a5fa460bca6e6b1f3adc6852fec9985cd83592c6f41fc0d6f8f0b3",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "1a5664aaaa1ef1cde2fb7df50f39f12d"
     },
     "1a71410cb5e9e23bb15365fb1717466f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8f46fb0a9802009729897475a5985ff0c79766560ac1d70edeed5e8694de9cb1",
+        "provenance_sha256": "dbb60300fb0c23db813de8413d35c210d19686afcef7d82cf9d671d981131166",
+        "sha256": "53d6f69462c09ddf0318909515fd542a549fd9d89d01ec7deb55d504c29a2a1e",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:28+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -596,16 +752,28 @@
         }
       },
       "provenance_sha256": "dbb60300fb0c23db813de8413d35c210d19686afcef7d82cf9d671d981131166",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "1a71410cb5e9e23bb15365fb1717466f"
     },
     "1d75b8620a4348357dc2ba144ae3033d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "d336f2f617b0bd71a9f84ac4c1f0ba31e794fbb43897761d58bd59e1039bb401",
+        "provenance_sha256": "961aabd40133ef88cac391725478e3f10fb5ad55954cf7f73277d0510f79ab93",
+        "sha256": "f0b4222181e86e4fba000e38267b7174eae1c3b44f50398b333549db421f8d9c",
+        "text": "Scripture attention: missing_edition: sw: Swahili catalog text has 26 books, missing the Old Testament and Philippians; references remain unchanged."
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:24+00:00",
+          "reason": "missing_edition",
+          "status": "attention"
         }
       ],
       "item": {
@@ -642,16 +810,28 @@
         }
       },
       "provenance_sha256": "961aabd40133ef88cac391725478e3f10fb5ad55954cf7f73277d0510f79ab93",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "missing_edition",
+      "status": "attention",
       "task_id": "1d75b8620a4348357dc2ba144ae3033d"
     },
     "25c3c203b1280179026a6d923b85b695": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1d6bdb51de93bcd10267ede1337b82bd51c61634881b3474cd2d4d61d69a9991",
+        "provenance_sha256": "7f80559202f05b85baf8d13d13c92dbe36ad97ef1abca1e7ca39c31da020ba64",
+        "sha256": "42ef03fe526587f69acb74a6fe51ae3c04d2f6f1dbb32babd5229b4427040ca1",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:31+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -688,16 +868,28 @@
         }
       },
       "provenance_sha256": "7f80559202f05b85baf8d13d13c92dbe36ad97ef1abca1e7ca39c31da020ba64",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "25c3c203b1280179026a6d923b85b695"
     },
     "27e49d25b2df8f339cf48fa15f4cabcd": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "6d0d066d22a2fbe89dc01318b675a96868475366284e7132b2cd6f0dcbee2747",
+        "provenance_sha256": "8b77c3b50d6f70f5bd6d690e5d538aa431156c02b4023273f18cf664dd11da5a",
+        "sha256": "57b3cf2226e52bd854ea22e56fe5f91dae8d248839b0d28f710f98a98f9455da",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:19+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -734,16 +926,28 @@
         }
       },
       "provenance_sha256": "8b77c3b50d6f70f5bd6d690e5d538aa431156c02b4023273f18cf664dd11da5a",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "27e49d25b2df8f339cf48fa15f4cabcd"
     },
     "2a8575636dd01b85602e11d6baedc3ca": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e87db2d7f787ad00eb40d8e88550f26bff1475e19a53aadd02d775eb413e470e",
+        "provenance_sha256": "419b91731b65ef175c985f92709685689f99d9eb446b1d7ace7c34072065d673",
+        "sha256": "d459315ca4acc726b1d81141afb1b42e6f5c38b15ccd4023d04bc7898487042c",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:36+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -780,16 +984,28 @@
         }
       },
       "provenance_sha256": "419b91731b65ef175c985f92709685689f99d9eb446b1d7ace7c34072065d673",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "2a8575636dd01b85602e11d6baedc3ca"
     },
     "2aba07a5fa2101e300094010e3604d08": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "36132b19812c3ef8e7eed70b3635be1dcc23db2aea6c981ecbbc26704e18c5db",
+        "provenance_sha256": "4af0c26d45d9f47147e7f61938977790ae430d9cc7b7957ef91044c82d002ccf",
+        "sha256": "6b1bfd8e2c1cbfcfcf98826da42153331de29c2b9bfa13b5b30890efeb046798",
+        "text": "Scripture attention: missing_edition: id: No matching translation in the checked catalog; references remain unchanged."
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:21+00:00",
+          "reason": "missing_edition",
+          "status": "attention"
         }
       ],
       "item": {
@@ -826,16 +1042,28 @@
         }
       },
       "provenance_sha256": "4af0c26d45d9f47147e7f61938977790ae430d9cc7b7957ef91044c82d002ccf",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "missing_edition",
+      "status": "attention",
       "task_id": "2aba07a5fa2101e300094010e3604d08"
     },
     "2db60dfae2ee95439b49a144f94323b5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "03013e1c7e1e0a69cb491c514d84bdbeb51d1c65f4e40a3b3d8a74e8736dc4d4",
+        "provenance_sha256": "b6c7410507e32abc5d758c04404b834799797202da5dda3ed4f82b758d4630a7",
+        "sha256": "f78ad50753e7b4ed0bb7bddb854db746e2f666e2025e393493ae927a5c44ec68",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:35+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -872,16 +1100,28 @@
         }
       },
       "provenance_sha256": "b6c7410507e32abc5d758c04404b834799797202da5dda3ed4f82b758d4630a7",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "2db60dfae2ee95439b49a144f94323b5"
     },
     "2e927e1eea4aaf5a309b5b54d2bc5da5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fd9b8b4fc6550f0c9e7b7e91f5b8f0d0ee6dd01d0856a61b2e8c3a96cbe721b3",
+        "provenance_sha256": "8ea10186db8c008ce45623ca87106a993de6432b5a5087967f633701a24f0e6b",
+        "sha256": "e1923ecc9a9463a29c52d07371b3d8b646c0b5815c02ed18a053318f816e64d8",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:14+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -918,16 +1158,28 @@
         }
       },
       "provenance_sha256": "8ea10186db8c008ce45623ca87106a993de6432b5a5087967f633701a24f0e6b",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "2e927e1eea4aaf5a309b5b54d2bc5da5"
     },
     "30a15597267038cfb6d240928a9de44b": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "9fea9800fe28d0bc458aa22fd7b3b17bb777c82e2e05b7bf6695aab4569878d4",
+        "provenance_sha256": "1e56d93d17983bd50a6f8cce86907d2cde766d8ad35c149d54b550df37e5dd60",
+        "sha256": "1ba4ec72cf4535066f8fda7154cf140520be7204e42d81beca4a910427406d73",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:50+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -964,16 +1216,28 @@
         }
       },
       "provenance_sha256": "1e56d93d17983bd50a6f8cce86907d2cde766d8ad35c149d54b550df37e5dd60",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "30a15597267038cfb6d240928a9de44b"
     },
     "331d647d2ba220028f3cde744e8f93f5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "279c31a091b450d87835fc768f2d5541d56bb8ff82376ad1d54c600295e17975",
+        "provenance_sha256": "fdd3ad08678cf960f8ec4b85a8f17dcf45be1da19d95f3eb769a92311ea7509c",
+        "sha256": "a5fb9d1360d60f0eae13c4cc527b2d5a61db342e100905bf1c3d8afd4545551b",
+        "text": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged."
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:20+00:00",
+          "reason": "missing_edition",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1010,16 +1274,28 @@
         }
       },
       "provenance_sha256": "fdd3ad08678cf960f8ec4b85a8f17dcf45be1da19d95f3eb769a92311ea7509c",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "missing_edition",
+      "status": "attention",
       "task_id": "331d647d2ba220028f3cde744e8f93f5"
     },
     "341f4a9a2c4e50a2f35fe6e552ae7aff": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "79380e9fe774dcbcb6cead422f2e9158216c3d0e4cae366b39326245d8486f3f",
+        "provenance_sha256": "4fe9cdbc3ff47cbc19524d1f178c1c331dc2be0e66dead0bcf997f9f118fa831",
+        "sha256": "9ccd1b4ffbdfea6829c8df07cdf9e127c8e460b91fd6bf33ebeb3c3facb5a584",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:18+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1056,16 +1332,28 @@
         }
       },
       "provenance_sha256": "4fe9cdbc3ff47cbc19524d1f178c1c331dc2be0e66dead0bcf997f9f118fa831",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "341f4a9a2c4e50a2f35fe6e552ae7aff"
     },
     "3437134ff12d24b50104791ede2fcd9d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "d054ad71986b9c7699620af4f99b248e3d0da5e28af85af2e46ca5fd027d98a2",
+        "provenance_sha256": "4132ed4254a32ecfe6acf0a4c1ac8dac9a1b20c27a43a59eaf1b40dd761c1817",
+        "sha256": "a20f3f169162b096680564113e3d104be892e57dd3b67cb09add82c4b7de386e",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:57+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1102,16 +1390,28 @@
         }
       },
       "provenance_sha256": "4132ed4254a32ecfe6acf0a4c1ac8dac9a1b20c27a43a59eaf1b40dd761c1817",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "3437134ff12d24b50104791ede2fcd9d"
     },
     "34cd0f5821aa78ce2b0ad33d67d16215": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "cd9bd22d117a926d04fc1ab88e09f841d8638aa4818308c531bea3fba34bfec6",
+        "provenance_sha256": "a332ba6b4d9d9dd4f476fffc61aab20267489c5a5018635f644def00ffbc0d2c",
+        "sha256": "a38dbbbabb0b58f17e0bccf3bf09f5662a3cad59566cda91e03b4d557c3998e7",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:05+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1148,16 +1448,28 @@
         }
       },
       "provenance_sha256": "a332ba6b4d9d9dd4f476fffc61aab20267489c5a5018635f644def00ffbc0d2c",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "34cd0f5821aa78ce2b0ad33d67d16215"
     },
     "356b1a46653d38574362f64e21b6e740": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fa44561d3c76d5392298ea425f71425db6d5e86515a59b3e3184cb24b233faed",
+        "provenance_sha256": "cf56219ae050b8a600edace5c812bc3d882aa719dffbe8e508e70b924fc83884",
+        "sha256": "79210ca4487f51910d496d3d8c32fa5abcd1ee7027e9f2447181e670721c5e5b",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:51+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1194,16 +1506,28 @@
         }
       },
       "provenance_sha256": "cf56219ae050b8a600edace5c812bc3d882aa719dffbe8e508e70b924fc83884",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "356b1a46653d38574362f64e21b6e740"
     },
     "378c3408ea7b3cea412acd08da406cd5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "c65664c5d4c5e8e51eaf25c5019b87955449a1251a8308db45d5f8b364a7abd2",
+        "provenance_sha256": "eb2842e26427580f74b9c17a89fa9b3cc76d96a0e1700391af718df745a3448f",
+        "sha256": "28328103aa1d6add7ff3f094a775850fcb6da5a3a055bc2b17f656127c127536",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:59+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1240,8 +1564,8 @@
         }
       },
       "provenance_sha256": "eb2842e26427580f74b9c17a89fa9b3cc76d96a0e1700391af718df745a3448f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "378c3408ea7b3cea412acd08da406cd5"
     },
     "37be288c2409dc3835b71f5c5684fcec": {
@@ -1383,11 +1707,23 @@
       "task_id": "38af37d44e8e9e07fa3247ac6bfac41f"
     },
     "3b56b33b3b0bafce2a4c43a4172ccaf2": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "6c0fd6a5ba58bf0e56fa3e35e803196b8309cde27783baed2536b0b4b3d9c496",
+        "provenance_sha256": "1377ded95efc5b1b23125c64501eff010113ac736bb20bc92deafa406ca4156c",
+        "sha256": "ca69a49080270078b82474a86d405ad136b056cd7ada4d2a0f881137ad8083f8",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:04+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1424,8 +1760,8 @@
         }
       },
       "provenance_sha256": "1377ded95efc5b1b23125c64501eff010113ac736bb20bc92deafa406ca4156c",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "3b56b33b3b0bafce2a4c43a4172ccaf2"
     },
     "41c8f0d2077792c0240552e113f22fd2": {
@@ -1433,6 +1769,11 @@
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:16:20+00:00",
+          "reason": "prefetch_wait_budget",
           "status": "pending"
         }
       ],
@@ -1470,16 +1811,28 @@
         }
       },
       "provenance_sha256": "d0b6ab6656f6d761e68f3e314be158427c86c27ef9639da6f32656a5951c66c6",
-      "reason": "awaiting_prefetch",
+      "reason": "prefetch_wait_budget",
       "status": "pending",
       "task_id": "41c8f0d2077792c0240552e113f22fd2"
     },
     "440bd679b2b4fc52ef12fe4ab2b94e2a": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fa44561d3c76d5392298ea425f71425db6d5e86515a59b3e3184cb24b233faed",
+        "provenance_sha256": "15f1f133f16a8d48bdc99579551151a6b3fb9cfc8d8f4488aac01233f6214961",
+        "sha256": "83f5bcf52ca2f53b64370c30948bfb5346ee334e7241c592833e505d8b0bac25",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:51+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1516,8 +1869,8 @@
         }
       },
       "provenance_sha256": "15f1f133f16a8d48bdc99579551151a6b3fb9cfc8d8f4488aac01233f6214961",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "440bd679b2b4fc52ef12fe4ab2b94e2a"
     },
     "442c915bca04ca970a648ec63f3b54e8": {
@@ -1567,11 +1920,23 @@
       "task_id": "442c915bca04ca970a648ec63f3b54e8"
     },
     "4447a9576658b9bdcb80c3384a71f6dc": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "2cdabc35039f4f1843a690e42f99ec55cae9a57e0575e841cff35243fc7d9646",
+        "provenance_sha256": "8a7652ff10b78e6dd40fd1af0a8a7c1ca0e437aa8be501671dc5adf6661bb621",
+        "sha256": "6f52b299c3089ef15037070746be3b7e4346650f9ab4c4fa9d54531551f8b336",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:53+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1608,16 +1973,28 @@
         }
       },
       "provenance_sha256": "8a7652ff10b78e6dd40fd1af0a8a7c1ca0e437aa8be501671dc5adf6661bb621",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "4447a9576658b9bdcb80c3384a71f6dc"
     },
     "46e30c4028845fda735b1c9d44e3a306": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "f893886ffe1f88fa30fe0bc19d4629179021d64806bb7e055da808fb552be77f",
+        "provenance_sha256": "02a4f248a5a7d97a34853c856171bec601dfbd8a9e2fa05e0ed461cb81022840",
+        "sha256": "b7e1acfb3cacdcd20d75bfefd69f715690c5dcf5fdd1706bcb6a5be02a930e58",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:32+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1654,8 +2031,8 @@
         }
       },
       "provenance_sha256": "02a4f248a5a7d97a34853c856171bec601dfbd8a9e2fa05e0ed461cb81022840",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "46e30c4028845fda735b1c9d44e3a306"
     },
     "4703466d1b4334f2235b88773754ff0a": {
@@ -1705,11 +2082,23 @@
       "task_id": "4703466d1b4334f2235b88773754ff0a"
     },
     "4780a106a0d3b598b0fbf397cfadf9c4": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "47713c9ed61428e9ffa78dde3eef65c3886cafbb32bea6db36cb617d308c67c8",
+        "provenance_sha256": "7afb93dc6b5966cfb5bf3680e97ca5a1d40c444f73c819b16acb51f2ab1d2142",
+        "sha256": "226271beb5e1410950b73024d5cac4b2f9e3e7674006df164aba3bbdd674abe2",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:25+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1746,16 +2135,28 @@
         }
       },
       "provenance_sha256": "7afb93dc6b5966cfb5bf3680e97ca5a1d40c444f73c819b16acb51f2ab1d2142",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "4780a106a0d3b598b0fbf397cfadf9c4"
     },
     "4836dfd03367a41d5b556a1f0e7b7fd8": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8dbb03174d12d117a2a31ebc9bc67979f0505eff7e575eef404c893c356a04e1",
+        "provenance_sha256": "eba9984414d4366772de3076b62dc18ef6d54561ab8c304f117c804da064d355",
+        "sha256": "1ab2750c659472f0867906768071da21f38a5d5ac1b90a2f3a52ffeea4fd5c9c",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:08+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1792,16 +2193,28 @@
         }
       },
       "provenance_sha256": "eba9984414d4366772de3076b62dc18ef6d54561ab8c304f117c804da064d355",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "4836dfd03367a41d5b556a1f0e7b7fd8"
     },
     "484c3719771b7182fbf926fa21907266": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "2cdabc35039f4f1843a690e42f99ec55cae9a57e0575e841cff35243fc7d9646",
+        "provenance_sha256": "ce23efce064c903f10f5f29cccc3ebc9b06b772cb04d9b4d3f6f3a6bb88d1592",
+        "sha256": "83d0aeddf4da518fe2575b53a181e0de4bac1e563625675b508a5d4a9aafa105",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:53+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1838,16 +2251,28 @@
         }
       },
       "provenance_sha256": "ce23efce064c903f10f5f29cccc3ebc9b06b772cb04d9b4d3f6f3a6bb88d1592",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "484c3719771b7182fbf926fa21907266"
     },
     "4ac45af96d618d685a46a6861b0f5c7b": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8f738cdf8122ec253f9f71650f831ba9765285e3046155b560df489556337654",
+        "provenance_sha256": "338be2dbbf523e8fdd534f4f647470094a1ec99e1975b6ea9858c4b971be7c26",
+        "sha256": "89c6c6c8c6e966b770bb38a30d8f9187bcc0fc3126ec41773dc5154752a62323",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:12+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1884,16 +2309,28 @@
         }
       },
       "provenance_sha256": "338be2dbbf523e8fdd534f4f647470094a1ec99e1975b6ea9858c4b971be7c26",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "4ac45af96d618d685a46a6861b0f5c7b"
     },
     "4b6e85f69157e25a6f537de7863eabf0": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "156c401ccea659b1741cdb2fedd14b2bef321c6ad1c903cc9975605b0e573d43",
+        "provenance_sha256": "d1e3a1006bdcdd22e9f916817cf87f61baa49c3d0a0c7c937399f2bad5e754cf",
+        "sha256": "b42b4449ecf2c6c786b1fca13f4b179f5427851d751b858008f3f9cf3b7b8020",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:23+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1930,16 +2367,28 @@
         }
       },
       "provenance_sha256": "d1e3a1006bdcdd22e9f916817cf87f61baa49c3d0a0c7c937399f2bad5e754cf",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "4b6e85f69157e25a6f537de7863eabf0"
     },
     "4bb8ec4c9f55699ccbaa52b708407f22": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e87db2d7f787ad00eb40d8e88550f26bff1475e19a53aadd02d775eb413e470e",
+        "provenance_sha256": "c58a2ac0df7dd01cb67a889a9850755fc6781e4c835d6ab3781670054ba4986c",
+        "sha256": "f55c0ac8136a9caed01951a0f407e3459db612bf5e9855a0edf205e0be65cd20",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:36+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1976,16 +2425,28 @@
         }
       },
       "provenance_sha256": "c58a2ac0df7dd01cb67a889a9850755fc6781e4c835d6ab3781670054ba4986c",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "4bb8ec4c9f55699ccbaa52b708407f22"
     },
     "4e80d5245323e240ebd503dc94669fb1": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "d932e4f1a9efe995e6bb66613e85111c64e150f7ef7402fa53e1f51a25393c27",
+        "provenance_sha256": "7a532fcc90f89147b20eb86803eea47c73f3a38a66ca05a834418801639465b8",
+        "sha256": "f25e89fca9dc64d8db4072cbc20ea30f39a2f1223554ca164cef283d80935c38",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:00+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2022,16 +2483,28 @@
         }
       },
       "provenance_sha256": "7a532fcc90f89147b20eb86803eea47c73f3a38a66ca05a834418801639465b8",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "4e80d5245323e240ebd503dc94669fb1"
     },
     "4f3b81b0556d214c74a042eff0453be6": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "cd9bd22d117a926d04fc1ab88e09f841d8638aa4818308c531bea3fba34bfec6",
+        "provenance_sha256": "dbf4a0dc210164f4cd16496dffd0f31c3ea3172fb8d8b588fa5053c008de8ff5",
+        "sha256": "98e7b401941185354e10745c5ca5a7c82e76406d30f65b44e558890b42aa25a8",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:05+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2068,16 +2541,28 @@
         }
       },
       "provenance_sha256": "dbf4a0dc210164f4cd16496dffd0f31c3ea3172fb8d8b588fa5053c008de8ff5",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "4f3b81b0556d214c74a042eff0453be6"
     },
     "5096fdbba9e314e609e04a9caacdd1f9": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ce662ad488d6c38914d799224e1ee9fcddfec8ed2af27a8d91134b1d4248697f",
+        "provenance_sha256": "b56b09cf2f2b61e0f2529d76658e43e1e35f923adb55f2de9ddad0bf294413f2",
+        "sha256": "bd05a6652b28d98f3334bb447498641c46e1afa9eac0b6811116e38119391f4d",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:26+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2114,16 +2599,28 @@
         }
       },
       "provenance_sha256": "b56b09cf2f2b61e0f2529d76658e43e1e35f923adb55f2de9ddad0bf294413f2",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "5096fdbba9e314e609e04a9caacdd1f9"
     },
     "5119817d961f889d8d1d79e0bd4310fa": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8978b9dc876a21d293afe16c26486afacdc8f23d6d900e9b296a6e87f95b5a49",
+        "provenance_sha256": "68ce2a3850bdeb36c178707f6651524530309f06c307ae596e7ce7bca9dcc095",
+        "sha256": "88799e93e9e5c4f22fff06e9d31bc0745f6b297fbd28d467cd0ad9ca9ff6a70d",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:27+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2160,16 +2657,28 @@
         }
       },
       "provenance_sha256": "68ce2a3850bdeb36c178707f6651524530309f06c307ae596e7ce7bca9dcc095",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "5119817d961f889d8d1d79e0bd4310fa"
     },
     "53e663caf79fa6dd1ecd425e8eb9ce62": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ab04545fe7a1a0c3f451373ba82020f3b9e92ec9d9bfc43efac6d90dc19f0f52",
+        "provenance_sha256": "ee5e27509422ed685bb1df3f0eb61c48e3b3cbdf58a0e5b2dfd3e18ee3c76065",
+        "sha256": "bb9b3e1fe65ae0267b92997d1855d8dd8d3de9fabd81207322ad3af21304211e",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:06+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2206,16 +2715,28 @@
         }
       },
       "provenance_sha256": "ee5e27509422ed685bb1df3f0eb61c48e3b3cbdf58a0e5b2dfd3e18ee3c76065",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "53e663caf79fa6dd1ecd425e8eb9ce62"
     },
     "547433866611ba42de7717a218abcff0": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e3e3e8e443943f2b0988fe9b752deb1f3850ba4c5759b51d2b164fc74ebc1b1e",
+        "provenance_sha256": "50aa50abd036a5e91a88890c6b870bb83af4815b8cc9107aab491eb838d24899",
+        "sha256": "177fcc11bae393a0ca5841edb48c61d51f1ff9e43d9383011e033f669cab73cb",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:20+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2252,16 +2773,28 @@
         }
       },
       "provenance_sha256": "50aa50abd036a5e91a88890c6b870bb83af4815b8cc9107aab491eb838d24899",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "547433866611ba42de7717a218abcff0"
     },
     "577a0a719605aff7b26c8edf6326b0ee": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ab1f19a893d1ff655f718299632832605f715850f983ce6e4622770419cd5269",
+        "provenance_sha256": "3cea61d544b091c18005615d883e02ce29cb56e890788cb323ecbbc36b492496",
+        "sha256": "5c4e9cf81b521dbb89f9c2154aaaeb5b228d944d17fe93fe148d220a252b0555",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:54+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2298,16 +2831,28 @@
         }
       },
       "provenance_sha256": "3cea61d544b091c18005615d883e02ce29cb56e890788cb323ecbbc36b492496",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "577a0a719605aff7b26c8edf6326b0ee"
     },
     "5940e07db93484ca29da6c24001966e9": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fcad43fc646adda327f4594eb091964a288f22e9104ac0d360de6f66d158d4c1",
+        "provenance_sha256": "740d9e0bbdcfe3495d520605c66b451b6aeb7d765fd65a6fdec645f5bc4086a0",
+        "sha256": "2e6152a3370fcaad1a021370a3e2f640cb2f001d1d46cbe9cbf45356ae8ef40f",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:30+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2344,16 +2889,28 @@
         }
       },
       "provenance_sha256": "740d9e0bbdcfe3495d520605c66b451b6aeb7d765fd65a6fdec645f5bc4086a0",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "5940e07db93484ca29da6c24001966e9"
     },
     "5bcec0a9f8670cc6d7836f405a51dd79": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fdcff05b988a075ec23c49106ff5688038ab9fab2970d51a247784fefe19c810",
+        "provenance_sha256": "ae7006eaca4555deb868bdcafa5b2a0e2bab5b532702d301f05d710f9ad5efc1",
+        "sha256": "45ec6eb87daded266e990ba04c1067cec42e925e08514259537c79e0b768070e",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:33+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2390,16 +2947,28 @@
         }
       },
       "provenance_sha256": "ae7006eaca4555deb868bdcafa5b2a0e2bab5b532702d301f05d710f9ad5efc1",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "5bcec0a9f8670cc6d7836f405a51dd79"
     },
     "5e5ddc71392b3f5e77330d6386e35e5d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fcad43fc646adda327f4594eb091964a288f22e9104ac0d360de6f66d158d4c1",
+        "provenance_sha256": "aceb7bac192e39b5abf4c30c1841148c14fef25435bef7d8238ef5fe8bb91c3f",
+        "sha256": "6a233cc5f5926555c888ef64f710ccfaa6e2e14125ee81c7a32ed810c1cb4a71",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:30+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2436,16 +3005,28 @@
         }
       },
       "provenance_sha256": "aceb7bac192e39b5abf4c30c1841148c14fef25435bef7d8238ef5fe8bb91c3f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "5e5ddc71392b3f5e77330d6386e35e5d"
     },
     "5ffc5d4d705e20b1a87e48e3c2aa8c14": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fd9b8b4fc6550f0c9e7b7e91f5b8f0d0ee6dd01d0856a61b2e8c3a96cbe721b3",
+        "provenance_sha256": "8c4ce016709dfe0158dfa7eb6b9d7f25c4de21c4ac7ad7b9d7ddbe065bf10bbe",
+        "sha256": "f1e8c85deee310732baacc1d42fdfb56b7ef2d74efae7976419f2a8facc56f96",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:14+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2482,16 +3063,28 @@
         }
       },
       "provenance_sha256": "8c4ce016709dfe0158dfa7eb6b9d7f25c4de21c4ac7ad7b9d7ddbe065bf10bbe",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "5ffc5d4d705e20b1a87e48e3c2aa8c14"
     },
     "6118f8b53b46e12c4c9c49c74b2e9027": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "4cdfe0b465da368d553e21464ba381cc1ee77613726ce1c59f9cd3a48a8968f7",
+        "provenance_sha256": "88471016f9541b425152a4df0a27bc2f315b915c51e10d7e1f451cf115f7042f",
+        "sha256": "fd55aaace05c2dd8dc9f8063cef7b609c47fb8994409d8eb45bb759858f3eb6a",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:22+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2528,16 +3121,28 @@
         }
       },
       "provenance_sha256": "88471016f9541b425152a4df0a27bc2f315b915c51e10d7e1f451cf115f7042f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "6118f8b53b46e12c4c9c49c74b2e9027"
     },
     "620943a26aea03540f3e42a14f7da699": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "adc1fedf3281303d84b673f27b4a764c552b2eae32d6be12803aa10c1cc2cf23",
+        "provenance_sha256": "5f9dae96c299cbb92c10b17753744a0caafb0d2820910277725bbd7ba30e1cb1",
+        "sha256": "d1da63e5cead270e2899bbc6b3c583a0b79fdde2a2381922f4bd524f3136be1a",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:09+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2574,16 +3179,28 @@
         }
       },
       "provenance_sha256": "5f9dae96c299cbb92c10b17753744a0caafb0d2820910277725bbd7ba30e1cb1",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "620943a26aea03540f3e42a14f7da699"
     },
     "62f21bd88231be23c0eeb75cb35b5ccb": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "5cfa93eda78e958fec2aa0ce446db844ea269e3bc618789200206fc4bf1016a2",
+        "provenance_sha256": "698a89df7f49fd82d0cc600fbc47764aae07c0d5b90e9214f001003f686668aa",
+        "sha256": "080f689b3b8fb448009067bfa061a04640a45ecbb0e6a4b27d81b886214fc815",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:10+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2620,8 +3237,8 @@
         }
       },
       "provenance_sha256": "698a89df7f49fd82d0cc600fbc47764aae07c0d5b90e9214f001003f686668aa",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "62f21bd88231be23c0eeb75cb35b5ccb"
     },
     "638f1a41eca76dbbd95b548f74a34412": {
@@ -2717,11 +3334,23 @@
       "task_id": "66032be712f020a3e3238367bcfcb795"
     },
     "67aeaf3b4355bd006727866377e95bf7": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "02ffd55b9c7e83a98383a78a19de19be2961fda2599b9b91fe8955b03d81246d",
+        "provenance_sha256": "45382b0a073b01586b65636994d41b5f88657a4604ddfc8a144b109de81136b1",
+        "sha256": "9776f4c22b1a729e37972695aac87396862fd7638215c447a032d24d51a9a8c1",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:58+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2758,8 +3387,8 @@
         }
       },
       "provenance_sha256": "45382b0a073b01586b65636994d41b5f88657a4604ddfc8a144b109de81136b1",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "67aeaf3b4355bd006727866377e95bf7"
     },
     "6b73f85a7fbc4d5c9bfc49b081a6c58e": {
@@ -2809,11 +3438,23 @@
       "task_id": "6b73f85a7fbc4d5c9bfc49b081a6c58e"
     },
     "6e292658a12610261887520815776041": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8f46fb0a9802009729897475a5985ff0c79766560ac1d70edeed5e8694de9cb1",
+        "provenance_sha256": "14037af9f5d107d7933991dd57ab24ab6ba970903026e7cc88c3ab5149ac1864",
+        "sha256": "5f551be195a6c25de6acce75658a79dd36de05be9b3fe44dbdec6523ad521ce6",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:28+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -2850,8 +3491,8 @@
         }
       },
       "provenance_sha256": "14037af9f5d107d7933991dd57ab24ab6ba970903026e7cc88c3ab5149ac1864",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "6e292658a12610261887520815776041"
     },
     "6fc6ef7365e13272d91f7d21cd0292eb": {
@@ -3039,11 +3680,23 @@
       "task_id": "72ca2aebf3455f172566b228a00507a0"
     },
     "75f899e1851e0a65008c05be6a86070e": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ab04545fe7a1a0c3f451373ba82020f3b9e92ec9d9bfc43efac6d90dc19f0f52",
+        "provenance_sha256": "9e8d626727680eb4171e536bc0625edfc4937d96af73dc31d0b70ce82d6d0543",
+        "sha256": "d5f6b105737387458a1b3fb3316065da7aaa16c05f6aa6da9e64e9d4d99b67a0",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:06+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3080,16 +3733,28 @@
         }
       },
       "provenance_sha256": "9e8d626727680eb4171e536bc0625edfc4937d96af73dc31d0b70ce82d6d0543",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "75f899e1851e0a65008c05be6a86070e"
     },
     "795b3ba8c2a8425a32ee22a6ee044eea": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "d932e4f1a9efe995e6bb66613e85111c64e150f7ef7402fa53e1f51a25393c27",
+        "provenance_sha256": "3d9e640cb1d5f4dd0cdc274e84612efb253e229e16ab608c2bcfb18a0a0c31f8",
+        "sha256": "55414195c1658516f9939cbd7723ce0193c7808d2acd1afe7628fb8e28c6234a",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:00+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3126,16 +3791,28 @@
         }
       },
       "provenance_sha256": "3d9e640cb1d5f4dd0cdc274e84612efb253e229e16ab608c2bcfb18a0a0c31f8",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "795b3ba8c2a8425a32ee22a6ee044eea"
     },
     "7967a87e6e2ad3153f55d2d332fb3946": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "173b2322640ed0da6a3d7f0f3fecde98ba59b1db092ba776fcf4439a6dd1770f",
+        "provenance_sha256": "e304a800953b67350e32eecba002f4f4f904e982082b2195ae20eef804e42132",
+        "sha256": "ccd075742c4e761b20d6adb89f74caa9cb99998a3200cf6c621f5c1965c8eff5",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:34+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3172,16 +3849,28 @@
         }
       },
       "provenance_sha256": "e304a800953b67350e32eecba002f4f4f904e982082b2195ae20eef804e42132",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "7967a87e6e2ad3153f55d2d332fb3946"
     },
     "79d1531d622487e22fe85ec2cfb6af9f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1d6bdb51de93bcd10267ede1337b82bd51c61634881b3474cd2d4d61d69a9991",
+        "provenance_sha256": "c14c63ff7b5529f5cb7dd49c7b0a034bd8e0a49e0d32f05993a20e0607aee5d4",
+        "sha256": "033b8c641c4365107d697c7bb22e7d7d151c8858757529366926f932fef43632",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:31+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3218,16 +3907,28 @@
         }
       },
       "provenance_sha256": "c14c63ff7b5529f5cb7dd49c7b0a034bd8e0a49e0d32f05993a20e0607aee5d4",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "79d1531d622487e22fe85ec2cfb6af9f"
     },
     "7a1e844101f5c76419b2a46ddf8cd871": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "53e5738c5041fbc51db7210793362ca6d9367b882c44c56c15f4835775dd1f5f",
+        "provenance_sha256": "6402583188c48ed638a7141f5b41619ab905c42b15815522de59de39841cbeee",
+        "sha256": "6c9f395469853afb9f110253950ba6eaf8e9c6fc91c5ad0c871d6d94cff2093f",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:56+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3264,16 +3965,28 @@
         }
       },
       "provenance_sha256": "6402583188c48ed638a7141f5b41619ab905c42b15815522de59de39841cbeee",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "7a1e844101f5c76419b2a46ddf8cd871"
     },
     "7c57d0796da87b530d22815d9bd46f89": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "9e42504b59927edd24b6fbe7bf52745a65dfba88519b4d1aecf133dbee365e85",
+        "provenance_sha256": "f6edba7d4dc24823e2ec6dbee4979966dcf3177f9cc0f3366cdacd60f79f2778",
+        "sha256": "68549d0d9c7ba2876fc65a905e542f927f3568d012d973123b71a9fad871be1f",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:01+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3310,16 +4023,28 @@
         }
       },
       "provenance_sha256": "f6edba7d4dc24823e2ec6dbee4979966dcf3177f9cc0f3366cdacd60f79f2778",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "7c57d0796da87b530d22815d9bd46f89"
     },
     "7ed39cea13a875c9029e6a7ea41397c9": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8dbb03174d12d117a2a31ebc9bc67979f0505eff7e575eef404c893c356a04e1",
+        "provenance_sha256": "cc48c9026e446815c67e367e63ef02acb291e0b4971e85684f25ee126edcfdec",
+        "sha256": "92091d62069b3262a8c1e4edbb9a91e1582d11ad6a0df7257bc912bba4073192",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:08+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3356,16 +4081,28 @@
         }
       },
       "provenance_sha256": "cc48c9026e446815c67e367e63ef02acb291e0b4971e85684f25ee126edcfdec",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "7ed39cea13a875c9029e6a7ea41397c9"
     },
     "81ba13dca91e3adb823bfd234f0fec85": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1780a45e4ec739d092c5ea49d6a5f22ccdfa45476c5a9588e7429d7f9102c3bc",
+        "provenance_sha256": "7345a76762ef456e070cb1f4d77b80b5d39a2cacb7d6f2e6b421058f7e2e333b",
+        "sha256": "a1d3fd5560eab24ab2eb0a7ee7494031397375c323ad0a8972519f9ee3fcedd0",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:17+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3402,16 +4139,28 @@
         }
       },
       "provenance_sha256": "7345a76762ef456e070cb1f4d77b80b5d39a2cacb7d6f2e6b421058f7e2e333b",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "81ba13dca91e3adb823bfd234f0fec85"
     },
     "8322c6ee19246ccdaf9d3d4e0b7c3a84": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "3f65f793b32238628ec3b4137b64f052477752ee9c3cefd78345ebfb9ea60ea3",
+        "provenance_sha256": "8302194d75614b3ac261f19a032a88d85a22fa09f1ed1e7d50b3f999ef297a14",
+        "sha256": "b584034e114ef846453861e356bf43edbcb2fe2997a57fdaf36064fbbf8a13bd",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:37+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3448,16 +4197,28 @@
         }
       },
       "provenance_sha256": "8302194d75614b3ac261f19a032a88d85a22fa09f1ed1e7d50b3f999ef297a14",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "8322c6ee19246ccdaf9d3d4e0b7c3a84"
     },
     "85751cb75c84e8250fc70ba54695d546": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "3f65f793b32238628ec3b4137b64f052477752ee9c3cefd78345ebfb9ea60ea3",
+        "provenance_sha256": "4b31056e5f69b979a545c20322cdcc62655fce2c36ca3d2d3d8a980ea2e18442",
+        "sha256": "8bb486c040f4145e64a0526cd28b377cb003b5f58de30ce1e5fd8179cbdb848e",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:37+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3494,16 +4255,28 @@
         }
       },
       "provenance_sha256": "4b31056e5f69b979a545c20322cdcc62655fce2c36ca3d2d3d8a980ea2e18442",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "85751cb75c84e8250fc70ba54695d546"
     },
     "881df0ecdf0d2ac0b5654038c4fee91b": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "32c8d293ccfc7f6574a21484e2c6cc571a5e8928867761f87435a1dc9c3831e7",
+        "provenance_sha256": "09db111ced49b173b76943e8ddf613a06cc61bb3340f89995e8cb8c5bdaeb576",
+        "sha256": "3bf4680b795a6785af2c670eefa0b62f4dda88baafa4dc7536afd2e380d069c0",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:55+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3540,16 +4313,28 @@
         }
       },
       "provenance_sha256": "09db111ced49b173b76943e8ddf613a06cc61bb3340f89995e8cb8c5bdaeb576",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "881df0ecdf0d2ac0b5654038c4fee91b"
     },
     "8883099db6a33e4572228605e4667040": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "53e5738c5041fbc51db7210793362ca6d9367b882c44c56c15f4835775dd1f5f",
+        "provenance_sha256": "e27f066cb79a50c5fa14682a75dc6aae44b13bdce668d1595fa3e7296cd2bf3b",
+        "sha256": "86bda219e839643709b6f2faa6d31b8a84f0f56561c8579c1aa58176200ec3f0",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:56+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3586,16 +4371,28 @@
         }
       },
       "provenance_sha256": "e27f066cb79a50c5fa14682a75dc6aae44b13bdce668d1595fa3e7296cd2bf3b",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "8883099db6a33e4572228605e4667040"
     },
     "89d0ff8c4cf9790fbb5e1a8acc28f593": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "3f65f793b32238628ec3b4137b64f052477752ee9c3cefd78345ebfb9ea60ea3",
+        "provenance_sha256": "8602bf12c08fce262318c4fc3c3ed1d0e5e3c5ae420555a5ddc2be9951ad85b5",
+        "sha256": "33619f6c79f4e6a9eae5a551b4bfa0350658a41806416376121174b6ac294db7",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:37+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3632,16 +4429,28 @@
         }
       },
       "provenance_sha256": "8602bf12c08fce262318c4fc3c3ed1d0e5e3c5ae420555a5ddc2be9951ad85b5",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "89d0ff8c4cf9790fbb5e1a8acc28f593"
     },
     "8b34b1f8ed3fc087078d54c64b423139": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e5a494d7e6e13740a354bf924bda5f5fdc57ff55e2df408ad8ba96e9121717b6",
+        "provenance_sha256": "43e81ebe48b3cd2768c1dbdfd3fddbfb5794ad873c5727e3b9ff3e7969b652aa",
+        "sha256": "f2590f2a9b5081f81ec2425d84dc2f9f4de9e8a437eafb9540b4211054e6c994",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:11+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3678,16 +4487,28 @@
         }
       },
       "provenance_sha256": "43e81ebe48b3cd2768c1dbdfd3fddbfb5794ad873c5727e3b9ff3e7969b652aa",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "8b34b1f8ed3fc087078d54c64b423139"
     },
     "8df82ddb592b15e814ef8fd279c823c5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ce662ad488d6c38914d799224e1ee9fcddfec8ed2af27a8d91134b1d4248697f",
+        "provenance_sha256": "4ce8f9388a7035295fc3a344f1f6ba353be7088d0a21eaa6d2f3f1054a4d9a80",
+        "sha256": "1fb8085d0cd0f6a4ea9daf6f5979d38c4ff80d81d60f0cf76afc73593d4cf5e0",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:26+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3724,16 +4545,28 @@
         }
       },
       "provenance_sha256": "4ce8f9388a7035295fc3a344f1f6ba353be7088d0a21eaa6d2f3f1054a4d9a80",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "8df82ddb592b15e814ef8fd279c823c5"
     },
     "8f915af75b1fa764b057f32525320f58": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "03013e1c7e1e0a69cb491c514d84bdbeb51d1c65f4e40a3b3d8a74e8736dc4d4",
+        "provenance_sha256": "0e1bde14d04a5d7d2d19bc4db6fea485bc414921100dae130659664627c6e38d",
+        "sha256": "2659204b02fe25218be757cd8bc3da0e6e81aeea92725768333f2d3d9aceab35",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:35+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3770,16 +4603,28 @@
         }
       },
       "provenance_sha256": "0e1bde14d04a5d7d2d19bc4db6fea485bc414921100dae130659664627c6e38d",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "8f915af75b1fa764b057f32525320f58"
     },
     "949c2fd46145032aa487fad6b76ef592": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1e6532472cd9c073869d0916a198b0c2f40421d7fdd635d597bf2b1767df0c55",
+        "provenance_sha256": "985179b7dbcccd4246e6080a485069b0fc235147b1c37d0b8508318ea53618d8",
+        "sha256": "6f318807729ac1a89a5442236e217c6f2cc801151e93534783b82821741c840a",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:15+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3816,16 +4661,28 @@
         }
       },
       "provenance_sha256": "985179b7dbcccd4246e6080a485069b0fc235147b1c37d0b8508318ea53618d8",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "949c2fd46145032aa487fad6b76ef592"
     },
     "995e23ac3fe865cb19cc922b7195a6e4": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "53e5738c5041fbc51db7210793362ca6d9367b882c44c56c15f4835775dd1f5f",
+        "provenance_sha256": "f2ee1fee661c65e726cdd223a4cce32d6cc20ae12997f6dc5d5b64ee3925ed54",
+        "sha256": "647469484db973aa480a5032247217d93b098a8f2f85b92bd43e07f860d68495",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:56+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3862,16 +4719,28 @@
         }
       },
       "provenance_sha256": "f2ee1fee661c65e726cdd223a4cce32d6cc20ae12997f6dc5d5b64ee3925ed54",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "995e23ac3fe865cb19cc922b7195a6e4"
     },
     "9a642afd793282e7702e44ed7d46b48f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e11926396a90dba776de15633162a86862b9f0d297643b0d574515b12e5c6ce4",
+        "provenance_sha256": "aa7be41cf14f0052bc6e073550855dceed9e3998b536d3c9f08aabf19106e13d",
+        "sha256": "7566ae505a096bc1708a38ed7457e8c35d10c6e5a8bd2cc379b6c70997499319",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:24+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3908,16 +4777,28 @@
         }
       },
       "provenance_sha256": "aa7be41cf14f0052bc6e073550855dceed9e3998b536d3c9f08aabf19106e13d",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "9a642afd793282e7702e44ed7d46b48f"
     },
     "9a95c642979aa8a92358c738fcf7d14b": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "5410a2e02c3074362232e03b727df703238b927bc8e67cab8200e3b0326657f9",
+        "provenance_sha256": "a84e9001721ce7406e0473322839f31441527f8a0d6d7638f765916d0289fb79",
+        "sha256": "70f3edb839b622dc3febb5001770c9344201fae741bf2ff34b4d8a615c683511",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:07+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -3954,16 +4835,28 @@
         }
       },
       "provenance_sha256": "a84e9001721ce7406e0473322839f31441527f8a0d6d7638f765916d0289fb79",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "9a95c642979aa8a92358c738fcf7d14b"
     },
     "9c1ff7606fc0875168249a83e3a7539b": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "c90b5afae9693dc93716c5492e0a8c3e92bd0dbf1e60f2c3b31dd4412b30aa9e",
+        "provenance_sha256": "16b01fb7042c50aa1c9bc0b60fa67a84f0d5165fd8c7ebf0ddb179842a43ea0b",
+        "sha256": "729b9d232b882721f91b42ab0e41cbc4491f11056dbcaa295fe77f6941f3d201",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:52+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4000,16 +4893,28 @@
         }
       },
       "provenance_sha256": "16b01fb7042c50aa1c9bc0b60fa67a84f0d5165fd8c7ebf0ddb179842a43ea0b",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "9c1ff7606fc0875168249a83e3a7539b"
     },
     "a048f32674da8ef35b5222beec4d2b8a": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "191cd0859af93383e421c3e46dfb2b2f7b777e962cdac5c82d758b46a509f893",
+        "provenance_sha256": "481c54fbb448d314c23ad17addb53bc6bf084ad1c3911e3a6800a8ecf440236e",
+        "sha256": "ad7128d2507f3c491cfc104ed5c0a770eacfd6e5ffd9e6052a9b26899c49e709",
+        "text": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged."
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:18+00:00",
+          "reason": "missing_edition",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4046,16 +4951,28 @@
         }
       },
       "provenance_sha256": "481c54fbb448d314c23ad17addb53bc6bf084ad1c3911e3a6800a8ecf440236e",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "missing_edition",
+      "status": "attention",
       "task_id": "a048f32674da8ef35b5222beec4d2b8a"
     },
     "a2f8e17730f5becf723f851e187d4cf5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "994ed94601e71dca16529d5be225520826ceee39b474dbe6753edbab4ae2102c",
+        "provenance_sha256": "858e82ea383f1331005d6e54c36cebb75d003a2e427795cb29dcc45739f0fd4e",
+        "sha256": "bdc26376239a0dfb47aacf8183facc664c47547434ca47c83f32d37982160d70",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:16+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4092,16 +5009,28 @@
         }
       },
       "provenance_sha256": "858e82ea383f1331005d6e54c36cebb75d003a2e427795cb29dcc45739f0fd4e",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "a2f8e17730f5becf723f851e187d4cf5"
     },
     "a3a9947b913282b5042530d2e5cbc125": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "c65664c5d4c5e8e51eaf25c5019b87955449a1251a8308db45d5f8b364a7abd2",
+        "provenance_sha256": "975420839f94a15759f50f3839fb10a56f092b5ca710c930e55aef23547c2166",
+        "sha256": "1755b1c138a349fd45c6dcebad0eee0cbc00580d1c036dd8d0e3f9a7b7336efd",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:59+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4138,16 +5067,28 @@
         }
       },
       "provenance_sha256": "975420839f94a15759f50f3839fb10a56f092b5ca710c930e55aef23547c2166",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "a3a9947b913282b5042530d2e5cbc125"
     },
     "a62ed3db32927b939f9a45e5c7a084e2": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "32c8d293ccfc7f6574a21484e2c6cc571a5e8928867761f87435a1dc9c3831e7",
+        "provenance_sha256": "abaf6e732563af8436508de6c8222f4ae44d5b7e0c44c38965822e960876624d",
+        "sha256": "2f64fb9f9e18288f6fcc2b735dc5bfd9a3f830d80f561139f21b36d4a01cb0f8",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:55+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4184,16 +5125,28 @@
         }
       },
       "provenance_sha256": "abaf6e732563af8436508de6c8222f4ae44d5b7e0c44c38965822e960876624d",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "a62ed3db32927b939f9a45e5c7a084e2"
     },
     "a712cea2e5e6d3468019d31ac58db40f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "739d2f7db6936b71da7028fe41971311f63e3b09c3207bf172c5b22f105bf021",
+        "provenance_sha256": "d9a7cdb6a65ca9863ae867a1384918a4aab8493d4dbd78b73e3b9fb183eeebd2",
+        "sha256": "ed42b8f6ee2353e197d406c5b3d1acd25e644c62a647c65e6bae2217114b8171",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:09+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4230,8 +5183,8 @@
         }
       },
       "provenance_sha256": "d9a7cdb6a65ca9863ae867a1384918a4aab8493d4dbd78b73e3b9fb183eeebd2",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "a712cea2e5e6d3468019d31ac58db40f"
     },
     "a7abf81261394e095ca2f7f75790bf41": {
@@ -4281,11 +5234,23 @@
       "task_id": "a7abf81261394e095ca2f7f75790bf41"
     },
     "a8cf86d137b9c4fdf4a6d15e9f039268": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fcad43fc646adda327f4594eb091964a288f22e9104ac0d360de6f66d158d4c1",
+        "provenance_sha256": "34cd96dd1fbe33cf54ec74636adc8cd624e194cf67bd52df677d6bd3e5440fb2",
+        "sha256": "d0ef1d00ad48cb7efd7095ac9e6598b51b348b7722354f0351c53ac73b405d3b",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:30+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4322,16 +5287,28 @@
         }
       },
       "provenance_sha256": "34cd96dd1fbe33cf54ec74636adc8cd624e194cf67bd52df677d6bd3e5440fb2",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "a8cf86d137b9c4fdf4a6d15e9f039268"
     },
     "abfb8190e6efd089bd86574e413212e5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "c90b5afae9693dc93716c5492e0a8c3e92bd0dbf1e60f2c3b31dd4412b30aa9e",
+        "provenance_sha256": "5cec6c280ebf3b51191324178ee9668a1d07cf34b0ce2b900095f15cfa3a1a44",
+        "sha256": "2152a8a3f240d5a788e1cbc7e6c446f1a4c50f9dd524d4b81d912f8c243c3925",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:52+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4368,16 +5345,28 @@
         }
       },
       "provenance_sha256": "5cec6c280ebf3b51191324178ee9668a1d07cf34b0ce2b900095f15cfa3a1a44",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "abfb8190e6efd089bd86574e413212e5"
     },
     "ac615f60a686fe23231662322cf6fb23": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e5a494d7e6e13740a354bf924bda5f5fdc57ff55e2df408ad8ba96e9121717b6",
+        "provenance_sha256": "8cb3caf8433e70502216eeeb761cd2413084e3b88de01d030157c60c5a2fa570",
+        "sha256": "2c596bffb8626a126166eb422d0038f8aebde49524e8479b0312d0af870a3000",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:11+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4414,16 +5403,28 @@
         }
       },
       "provenance_sha256": "8cb3caf8433e70502216eeeb761cd2413084e3b88de01d030157c60c5a2fa570",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "ac615f60a686fe23231662322cf6fb23"
     },
     "addff7d887ef8d70cbf2916dba19ddb8": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "6d0d066d22a2fbe89dc01318b675a96868475366284e7132b2cd6f0dcbee2747",
+        "provenance_sha256": "2a14fc3097665bca37cbd43852cc4ef46263c67cccdaac4990905757c01de05f",
+        "sha256": "a301c59ac82f52262576e5b4d38e5e08b40bba79912709de05ad71d6ce125fb1",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:19+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4460,16 +5461,28 @@
         }
       },
       "provenance_sha256": "2a14fc3097665bca37cbd43852cc4ef46263c67cccdaac4990905757c01de05f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "addff7d887ef8d70cbf2916dba19ddb8"
     },
     "ae1ffd849d2f9e4ffc9511bdc4dd0cd0": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "d054ad71986b9c7699620af4f99b248e3d0da5e28af85af2e46ca5fd027d98a2",
+        "provenance_sha256": "34df2fa40582fb58956c4a2fd7bd4f9a3aa9765dc0cef0538d6314ea1112e416",
+        "sha256": "0a7befbcc748eff5258da81d7f1edf3eea36b6f452c84bee30e213b85424e1da",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:57+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4506,16 +5519,28 @@
         }
       },
       "provenance_sha256": "34df2fa40582fb58956c4a2fd7bd4f9a3aa9765dc0cef0538d6314ea1112e416",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "ae1ffd849d2f9e4ffc9511bdc4dd0cd0"
     },
     "b1f993b1a09388f1b97711e32c8c2c72": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "156c401ccea659b1741cdb2fedd14b2bef321c6ad1c903cc9975605b0e573d43",
+        "provenance_sha256": "8e7cde5ef50fb8fd465beefae36081119410a055d8f29d1c949713126fc9582f",
+        "sha256": "b4626ecaa8afcf4b7ace6a84d6c4d28dc823121ecd1513e0d8de432d2964def7",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:23+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4552,16 +5577,28 @@
         }
       },
       "provenance_sha256": "8e7cde5ef50fb8fd465beefae36081119410a055d8f29d1c949713126fc9582f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "b1f993b1a09388f1b97711e32c8c2c72"
     },
     "b51e07a09f954b21598264fa5da78243": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "110ef1d4fc3de761bbd0a95e6bf84eab6a3380dfa2962bee500d6cfa4c74da80",
+        "provenance_sha256": "ceaefef2a9a2f12ae6d17f5a4fb6b7bc049b02caa0f77f3c0c90f6e9a71adb89",
+        "sha256": "e187a813e7bbf390c137896b624e06c925505580a8dc4d2f261d8b5b6365f58f",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:02+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4598,16 +5635,28 @@
         }
       },
       "provenance_sha256": "ceaefef2a9a2f12ae6d17f5a4fb6b7bc049b02caa0f77f3c0c90f6e9a71adb89",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "b51e07a09f954b21598264fa5da78243"
     },
     "b69fa2a716fd5a5bd8d06fe3e9f5b1ea": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "6c0fd6a5ba58bf0e56fa3e35e803196b8309cde27783baed2536b0b4b3d9c496",
+        "provenance_sha256": "f4629e7424efd6cc16d00e19562ff14e5899a574f2c58d321a475f3530418ee0",
+        "sha256": "494347f369b375065bad3352386d4306222ab64f4fe4b778909aff8bb9c3941a",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:04+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4644,16 +5693,28 @@
         }
       },
       "provenance_sha256": "f4629e7424efd6cc16d00e19562ff14e5899a574f2c58d321a475f3530418ee0",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "b69fa2a716fd5a5bd8d06fe3e9f5b1ea"
     },
     "b823a424ee8fbd937af4291433e03509": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "6c0fd6a5ba58bf0e56fa3e35e803196b8309cde27783baed2536b0b4b3d9c496",
+        "provenance_sha256": "dbec24eddf4dcc7710fbf2b27f3424058881af5f372c1306bb3a750221b913d9",
+        "sha256": "71ebccdadd03f8265f6af78337146cbb47709bbd072bde384e382a916d59ca26",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:04+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4690,8 +5751,8 @@
         }
       },
       "provenance_sha256": "dbec24eddf4dcc7710fbf2b27f3424058881af5f372c1306bb3a750221b913d9",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "b823a424ee8fbd937af4291433e03509"
     },
     "b9116f9231c87689fac55b07238331d4": {
@@ -4741,11 +5802,23 @@
       "task_id": "b9116f9231c87689fac55b07238331d4"
     },
     "bd84a490dd4af6b777bcb585499aeecf": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1e6532472cd9c073869d0916a198b0c2f40421d7fdd635d597bf2b1767df0c55",
+        "provenance_sha256": "dd9d87edfc56d3bd22db6ec6468e459cf7e87cd91b40356e275ef84fa9bc3fb7",
+        "sha256": "8484c98a29247ae96b42ed0d61f1d1bb39e8c3c331fc878997341edf00a40877",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:15+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4782,16 +5855,28 @@
         }
       },
       "provenance_sha256": "dd9d87edfc56d3bd22db6ec6468e459cf7e87cd91b40356e275ef84fa9bc3fb7",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "bd84a490dd4af6b777bcb585499aeecf"
     },
     "bdc242b3cf787ceb00bfc0ef7f6e9c00": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fdcff05b988a075ec23c49106ff5688038ab9fab2970d51a247784fefe19c810",
+        "provenance_sha256": "5cecd6cd1fc878f3ee4095b1f26f34e73f0b4ac4217084ec8e6b0c5efad97f45",
+        "sha256": "c152388e89e0121343673ffacb822dfbd18d5f6fd2a566d9cddfd34577395c71",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:33+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4828,16 +5913,28 @@
         }
       },
       "provenance_sha256": "5cecd6cd1fc878f3ee4095b1f26f34e73f0b4ac4217084ec8e6b0c5efad97f45",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "bdc242b3cf787ceb00bfc0ef7f6e9c00"
     },
     "c274753d8b10259a05d5ab2092e85f0d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "2cdabc35039f4f1843a690e42f99ec55cae9a57e0575e841cff35243fc7d9646",
+        "provenance_sha256": "863ad0a93dfb95938fca7aa4502b367f2b4771d612b9b847490c29cfeebf9a90",
+        "sha256": "d1274c81cd8ffbb4f3284e119f4c9a1c6445ab9b33bcf0883584dc6197c0d43c",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:53+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -4874,8 +5971,8 @@
         }
       },
       "provenance_sha256": "863ad0a93dfb95938fca7aa4502b367f2b4771d612b9b847490c29cfeebf9a90",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "c274753d8b10259a05d5ab2092e85f0d"
     },
     "c6fa22410d8967f58266e3e2054310e4": {
@@ -4971,11 +6068,23 @@
       "task_id": "c9da34276549335a6090c36c5707c8c6"
     },
     "cd83f85dcb94902563b0c3f5b65a63d5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e3e3e8e443943f2b0988fe9b752deb1f3850ba4c5759b51d2b164fc74ebc1b1e",
+        "provenance_sha256": "65448c3612bd5c2f52931a0b70c94594a9a2390ec2dea63f110a9ad0ce2b7c99",
+        "sha256": "a9fa479f9254f21b086ece7d97a0a97340b07cc057885cef628bb7d6f594cacb",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:20+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5012,16 +6121,28 @@
         }
       },
       "provenance_sha256": "65448c3612bd5c2f52931a0b70c94594a9a2390ec2dea63f110a9ad0ce2b7c99",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "cd83f85dcb94902563b0c3f5b65a63d5"
     },
     "ce6d387e0fc601db94dd5ebf82db0a17": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1d76af3b9339439cc6e47b303c9da7803dde6607bd2263a82d4d749ac44cc888",
+        "provenance_sha256": "e3fde542d7dd5ea8d3ff8d558450c1b0d4e6296b2968a75d8edeeb6ccc23cf58",
+        "sha256": "7f6d3314d12f63f5c9d3c6d31cf16227d95ad8aecc6b42ca9868b045374841c5",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:13+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5058,16 +6179,28 @@
         }
       },
       "provenance_sha256": "e3fde542d7dd5ea8d3ff8d558450c1b0d4e6296b2968a75d8edeeb6ccc23cf58",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "ce6d387e0fc601db94dd5ebf82db0a17"
     },
     "ceef0467e8406f896884f120be24da97": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1bad223bd812b594b03149a919c6076667ecc2c502be8130946e345f576c0b01",
+        "provenance_sha256": "babefac72ad30fa56be68209023dade53fea7fcfeec2197a01b5372c34daa251",
+        "sha256": "4157cce7311485ee497009a4c507d923cd6f694421baaa38860311589838178c",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:29+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5104,8 +6237,8 @@
         }
       },
       "provenance_sha256": "babefac72ad30fa56be68209023dade53fea7fcfeec2197a01b5372c34daa251",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "ceef0467e8406f896884f120be24da97"
     },
     "cf80815726756887c19d9887997e0e62": {
@@ -5155,11 +6288,23 @@
       "task_id": "cf80815726756887c19d9887997e0e62"
     },
     "d3086422d965d3570d96b35a86bfca1f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "02ffd55b9c7e83a98383a78a19de19be2961fda2599b9b91fe8955b03d81246d",
+        "provenance_sha256": "b9ab9524ecd47c3ae4b66ce79d059194ca945e02a7e2aee306aa986d2d4cbc8a",
+        "sha256": "d2c7256eb6c0a54c48e23e443aa57406335287b193768ad1660f2416e579fde1",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:58+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5196,16 +6341,28 @@
         }
       },
       "provenance_sha256": "b9ab9524ecd47c3ae4b66ce79d059194ca945e02a7e2aee306aa986d2d4cbc8a",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "d3086422d965d3570d96b35a86bfca1f"
     },
     "d411a8b0e4f46533fe2ca07605f908b5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fd9b8b4fc6550f0c9e7b7e91f5b8f0d0ee6dd01d0856a61b2e8c3a96cbe721b3",
+        "provenance_sha256": "d9d84cb8e56a8fbbebbf3b63cfc7e0213dc9b930f6ded107731e7728cf4cd970",
+        "sha256": "eef9ff97378e1d7fd000563e13c61e690d9ec639d946c9dfd22d603d14c552dc",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:14+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5242,8 +6399,8 @@
         }
       },
       "provenance_sha256": "d9d84cb8e56a8fbbebbf3b63cfc7e0213dc9b930f6ded107731e7728cf4cd970",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "d411a8b0e4f46533fe2ca07605f908b5"
     },
     "d6c53d814148d8b56ab4b51ed0d08898": {
@@ -5293,11 +6450,23 @@
       "task_id": "d6c53d814148d8b56ab4b51ed0d08898"
     },
     "d7153c7d4d476f03e304c3da22d4cf12": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1d76af3b9339439cc6e47b303c9da7803dde6607bd2263a82d4d749ac44cc888",
+        "provenance_sha256": "ebbc2fda5fb7a636fa98cea2be441a02797cf4749524b708af8eb7c497c9063a",
+        "sha256": "7ea5729788ed6c8c8db233d94bb89e44fc7436255ccf09cb8135b9aaabbe5e44",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:13+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5334,16 +6503,28 @@
         }
       },
       "provenance_sha256": "ebbc2fda5fb7a636fa98cea2be441a02797cf4749524b708af8eb7c497c9063a",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "d7153c7d4d476f03e304c3da22d4cf12"
     },
     "db2d8abb72be379685c94ff8af8b21c0": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8f738cdf8122ec253f9f71650f831ba9765285e3046155b560df489556337654",
+        "provenance_sha256": "30a611641041aa1ac68a6f4800d5e973a96504e4637904576bc9ebe8d8a75a71",
+        "sha256": "9b933bd7b600623bd1e3ae17b9ef15f8a0bad8153c609b90dd4e94b61018c444",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:12+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5380,16 +6561,28 @@
         }
       },
       "provenance_sha256": "30a611641041aa1ac68a6f4800d5e973a96504e4637904576bc9ebe8d8a75a71",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "db2d8abb72be379685c94ff8af8b21c0"
     },
     "e7caa600c1fddfc6a173f0c06b3e34c5": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fd8f355bdd7089612ee3f93a6f4d8cff03b14ad0ae42b26e1a20a3fcac38c02c",
+        "provenance_sha256": "9a2ebb58f8d60913a8fd481a1b25e9eaa5c807df6bbce80e5964166f231ebf17",
+        "sha256": "0493938773df9781bf2284e54236f7ba36541ee2b17f8f4aee024e343853a527",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:01+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5426,16 +6619,28 @@
         }
       },
       "provenance_sha256": "9a2ebb58f8d60913a8fd481a1b25e9eaa5c807df6bbce80e5964166f231ebf17",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "e7caa600c1fddfc6a173f0c06b3e34c5"
     },
     "ec2ee53f1e8bfebbff08377bc7c61c7a": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "5cfa93eda78e958fec2aa0ce446db844ea269e3bc618789200206fc4bf1016a2",
+        "provenance_sha256": "3876d63c498345deddaa538e7d8f2315f44aabe240010d0418a6e9289b83faef",
+        "sha256": "f42d815ef4b623b49302f6b71b9d365b5144ae2bc24f19df3a2869859d618198",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:10+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5472,16 +6677,28 @@
         }
       },
       "provenance_sha256": "3876d63c498345deddaa538e7d8f2315f44aabe240010d0418a6e9289b83faef",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "ec2ee53f1e8bfebbff08377bc7c61c7a"
     },
     "ee6a085ae8044804914d7c91a153737d": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "fd8f355bdd7089612ee3f93a6f4d8cff03b14ad0ae42b26e1a20a3fcac38c02c",
+        "provenance_sha256": "c61b75432b2df44258b0406bab4d6ec289fe8847af93968010185ffd7092c289",
+        "sha256": "fcceeb21732a340a4e6ef4ee0cc257211927e270574a8a3542bd712c3bc9ad59",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:01+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5518,16 +6735,28 @@
         }
       },
       "provenance_sha256": "c61b75432b2df44258b0406bab4d6ec289fe8847af93968010185ffd7092c289",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "ee6a085ae8044804914d7c91a153737d"
     },
     "f3dcf4fccc1f9727c8a2a7481af8a824": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "8f46fb0a9802009729897475a5985ff0c79766560ac1d70edeed5e8694de9cb1",
+        "provenance_sha256": "25d0f25ade72641f7e24e259e4ad694accfaee3ff11eb7b0e337fc833487ff44",
+        "sha256": "a8adf3e90806aaa2fcc34d9adcd78ef29db6d31180a077ade0afe32d4e326fb6",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:28+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5564,16 +6793,28 @@
         }
       },
       "provenance_sha256": "25d0f25ade72641f7e24e259e4ad694accfaee3ff11eb7b0e337fc833487ff44",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "f3dcf4fccc1f9727c8a2a7481af8a824"
     },
     "f4e3313673ce22280e091e9ea3e1f37e": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "e5a494d7e6e13740a354bf924bda5f5fdc57ff55e2df408ad8ba96e9121717b6",
+        "provenance_sha256": "ad80c1e2629964b4be1d81db221aaf158ddff71c9a3973ce4bc4224f81eea3ce",
+        "sha256": "68513280605d5821334a560d915754f67e14ac36759a9e513c88bba6a41fd527",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:11+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5610,16 +6851,28 @@
         }
       },
       "provenance_sha256": "ad80c1e2629964b4be1d81db221aaf158ddff71c9a3973ce4bc4224f81eea3ce",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "f4e3313673ce22280e091e9ea3e1f37e"
     },
     "f4e334876154759eec4714a9acde332c": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "5410a2e02c3074362232e03b727df703238b927bc8e67cab8200e3b0326657f9",
+        "provenance_sha256": "d3de56d6c67678d90d4424b6bd23c8e75d8303ec1f50766e8356bc94dbf33658",
+        "sha256": "b2264b712bd56ff74ebe0f916b4344443fefcabd2e6a7c51b70604b2f2138ba1",
+        "text": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:07+00:00",
+          "reason": "unresolved_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5656,16 +6909,28 @@
         }
       },
       "provenance_sha256": "d3de56d6c67678d90d4424b6bd23c8e75d8303ec1f50766e8356bc94dbf33658",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unresolved_quote_reference",
+      "status": "attention",
       "task_id": "f4e334876154759eec4714a9acde332c"
     },
     "f549ec35bd399efa4c6a69b5c09e9e6f": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "994ed94601e71dca16529d5be225520826ceee39b474dbe6753edbab4ae2102c",
+        "provenance_sha256": "24ce6fae7aacc366ab7687f25945debcf4b504e8c2b69cf4bb5b7fb504faa11a",
+        "sha256": "e4548254c54c8f5463ebb4f70c0c4c97203aab91f6fa6ff225dd4e2a58e2a881",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:16+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5702,16 +6967,28 @@
         }
       },
       "provenance_sha256": "24ce6fae7aacc366ab7687f25945debcf4b504e8c2b69cf4bb5b7fb504faa11a",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "f549ec35bd399efa4c6a69b5c09e9e6f"
     },
     "f7d11a76161694d91f55d53d88f53fb9": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ab1f19a893d1ff655f718299632832605f715850f983ce6e4622770419cd5269",
+        "provenance_sha256": "1c0a7aa93fc0505cac683530f47a96748d8ea3d61e300ce16a4c4cf8bc2f99ac",
+        "sha256": "56cae2f15b90da2b6b1935c90a8a0dff73da770d8e530c48ee5462f523a98e69",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:14:54+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5748,16 +7025,28 @@
         }
       },
       "provenance_sha256": "1c0a7aa93fc0505cac683530f47a96748d8ea3d61e300ce16a4c4cf8bc2f99ac",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "f7d11a76161694d91f55d53d88f53fb9"
     },
     "faa8dcf78791d9e04431475bb9c1c089": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "47713c9ed61428e9ffa78dde3eef65c3886cafbb32bea6db36cb617d308c67c8",
+        "provenance_sha256": "c02e7f35a4608a531164217606b56d31a623fc8e515662793f83bef47c7a2861",
+        "sha256": "36d2c856125e07ac77f8ddd85015d86dbcf33f60e64fdfe0d408188c358333bf",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:25+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5794,16 +7083,28 @@
         }
       },
       "provenance_sha256": "c02e7f35a4608a531164217606b56d31a623fc8e515662793f83bef47c7a2861",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "faa8dcf78791d9e04431475bb9c1c089"
     },
     "fb2b9277d96daa4f51ad4b3af39d3f64": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "1780a45e4ec739d092c5ea49d6a5f22ccdfa45476c5a9588e7429d7f9102c3bc",
+        "provenance_sha256": "ab456c114f5582fac36282b12f00df9695f26c58f3d8f1ae1de2d631e81307ac",
+        "sha256": "5a704388ba219b65f3c96d760705496cbb5e3d708a6ab6f0285da0df9a1c8a10",
+        "text": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:17+00:00",
+          "reason": "unmarked_quote_scope",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5840,8 +7141,8 @@
         }
       },
       "provenance_sha256": "ab456c114f5582fac36282b12f00df9695f26c58f3d8f1ae1de2d631e81307ac",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unmarked_quote_scope",
+      "status": "attention",
       "task_id": "fb2b9277d96daa4f51ad4b3af39d3f64"
     },
     "fd732c4cf4b20a8fa502c8458328cc70": {
@@ -5891,11 +7192,23 @@
       "task_id": "fd732c4cf4b20a8fa502c8458328cc70"
     },
     "fdd96eda8307d94a1439dd4fd66708a9": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "4cdfe0b465da368d553e21464ba381cc1ee77613726ce1c59f9cd3a48a8968f7",
+        "provenance_sha256": "0b88013c4c4d9076e20df8fb8ec8e1f26951811a427b186d95c1603fc705dd55",
+        "sha256": "dbee7f00b4a2186ba2396c435ec771306b569a24cdca23ec117f245dd767d29e",
+        "text": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:22+00:00",
+          "reason": "source_quote_annotation",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5932,16 +7245,28 @@
         }
       },
       "provenance_sha256": "0b88013c4c4d9076e20df8fb8ec8e1f26951811a427b186d95c1603fc705dd55",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "source_quote_annotation",
+      "status": "attention",
       "task_id": "fdd96eda8307d94a1439dd4fd66708a9"
     },
     "feef62065e1a243c02eaffe59a6d2ec4": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "173b2322640ed0da6a3d7f0f3fecde98ba59b1db092ba776fcf4439a6dd1770f",
+        "provenance_sha256": "eec0fcc699e7ccd3af7d559a9234eb5ab7897af02ca5e38b326090b0f780af2f",
+        "sha256": "748309a311481cd749097971cb2ea57ddbbe2dd6cea5200d4c74beb0ea1423f8",
+        "text": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T09:15:34+00:00",
+          "reason": "ambiguous_quote_reference",
+          "status": "attention"
         }
       ],
       "item": {
@@ -5978,8 +7303,8 @@
         }
       },
       "provenance_sha256": "eec0fcc699e7ccd3af7d559a9234eb5ab7897af02ca5e38b326090b0f780af2f",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "ambiguous_quote_reference",
+      "status": "attention",
       "task_id": "feef62065e1a243c02eaffe59a6d2ec4"
     }
   },

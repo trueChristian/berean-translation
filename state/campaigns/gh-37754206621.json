@@ -1,4 +1,8 @@
 {
+  "admission_counts": {
+    "attention": 110,
+    "pending": 20
+  },
   "budget_usd": 30.0,
   "created_at": "2026-10-08T09:14:26+00:00",
   "dry_run": false,
@@ -1737,10 +1741,676 @@
       "article_id": "f66f986e-2ea4-4794-81e8-a6f1c082f792",
       "language": "nob",
       "reason": "already_translated"
+    },
+    {
+      "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner",
+      "language": "hin",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner",
+      "language": "ben",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner",
+      "language": "ind",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner",
+      "language": "urd",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[10]: marked quotation has no independent citation/allusion owner",
+      "language": "swa",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "cmn",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "hin",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "spa",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "ara",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "fra",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "ben",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "por",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "ind",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "urd",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "rus",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "deu",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "nld",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "afr",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "swa",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "kor",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "ita",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "heb",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "ell",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "swe",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[12]: citation lacks a complete explicit scope",
+      "language": "nob",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "cmn",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "hin",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "spa",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "ara",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "fra",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "ben",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "por",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "ind",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "urd",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "rus",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "deu",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "nld",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "afr",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "swa",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "kor",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "ita",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "heb",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "ell",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "swe",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[4]: marked material has unowned citations",
+      "language": "nob",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "cmn",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "hin",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "spa",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "ara",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "fra",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "ben",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "por",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "ind",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "urd",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "rus",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "deu",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "nld",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "afr",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "swa",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "kor",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "ita",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "heb",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "ell",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "swe",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
+      "detail": "Scripture attention: unmarked_quote_scope: /article[1]/p[1]",
+      "language": "nob",
+      "reason": "unmarked_quote_scope"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "cmn",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged.",
+      "language": "hin",
+      "reason": "missing_edition"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "spa",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "ara",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "fra",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged.",
+      "language": "ben",
+      "reason": "missing_edition"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "por",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: missing_edition: id: No matching translation in the checked catalog; references remain unchanged.",
+      "language": "ind",
+      "reason": "missing_edition"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
+      "language": "urd",
+      "reason": "missing_edition"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "rus",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "deu",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "nld",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "afr",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: missing_edition: sw: Swahili catalog text has 26 books, missing the Old Testament and Philippians; references remain unchanged.",
+      "language": "swa",
+      "reason": "missing_edition"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "kor",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "ita",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "heb",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "ell",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "swe",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "detail": "Scripture attention: source_quote_annotation: Romans 2:4: …the goodness of God [that] leadeth thee to repentance",
+      "language": "nob",
+      "reason": "source_quote_annotation"
+    },
+    {
+      "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner",
+      "language": "hin",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner",
+      "language": "ben",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner",
+      "language": "ind",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner",
+      "language": "urd",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
+      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/blockquote[1]/p[1]: marked quotation has no independent citation/allusion owner",
+      "language": "swa",
+      "reason": "unresolved_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "cmn",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "hin",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "spa",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "ara",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "fra",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "ben",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "por",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "ind",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "urd",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "rus",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "deu",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "nld",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "afr",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "swa",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "kor",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "ita",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "heb",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "ell",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "swe",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[4]: citation lacks a complete explicit scope",
+      "language": "nob",
+      "reason": "ambiguous_quote_reference"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "detail": "Scripture attention: prefetch_wait_budget: Continue evidence collection in a later worker window",
+      "language": "cmn",
+      "reason": "prefetch_wait_budget"
     }
   ],
   "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
-  "status": "active",
+  "status": "admission_attention",
   "structural_feedback_version": "1",
   "tasks": []
 }
