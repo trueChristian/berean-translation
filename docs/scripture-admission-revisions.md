@@ -117,8 +117,10 @@ provider submission invariants.
 
 Still required: actual versioned admission materialization, durable real budget
 reservation, upload/unknown-create/result handling, independently accepted-review
-records, and before-publication drift/human checks. A separate completed-publication
-update path must preserve exact predecessor identity and last-good publication.
+records, and before-publication drift/human checks. The separate offline
+completed-publication lifecycle in `scripture-publication-updates.md` now preserves
+exact predecessor identity and last-good publication; its live admission and
+publication remain disabled.
 Do not remove live v2 gates on the strength of an offline-prepared event.
 Portuguese inflection adaptation remains held; no new editorial decision was
 needed for this stage's supported cases.

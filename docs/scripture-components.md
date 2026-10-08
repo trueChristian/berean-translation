@@ -129,9 +129,10 @@ and independent linguistic review. This implementation does not grant it.
    exact response bindings and bounded correction/review handling; see
    `scripture-component-processing.md`. Durable provider/result admission and
    independently accepted review records are still required before live use.
-2. Implement separately reviewed append-only admission revisions for proven
-   never-paid holds. Completed/public tasks need a distinct exact-predecessor
-   update contract. Neither may rewrite historical contracts or recycle budgets.
+2. Separate offline append-only journals now cover proven never-paid holds
+   (`scripture-admission-revisions.md`) and exact completed-publication updates
+   (`scripture-publication-updates.md`). Their live admission/funding remains
+   disabled. Neither rewrites historical contracts or recycles budgets.
 3. Exercise end-to-end restart/concurrency, cancellation, human edits, source and
    publication drift, funding ceilings and failed-update-keeps-publication cases.
 4. Only after those guards pass, deliberately enable an appropriate new default
