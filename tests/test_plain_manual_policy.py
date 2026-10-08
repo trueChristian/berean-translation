@@ -134,17 +134,48 @@ class PlainManualAdmissionTests(unittest.TestCase):
         request, campaign, before = self.hold()
         with patch.object(self.engine, 'human_protected', return_value=True):
             manual_admission.resume(self.engine, campaign, request)
-        self.assertEqual(self.state.read(manual_admission.path(campaign['id'])), before)
+        after = self.state.read(manual_admission.path(campaign['id']))
+        for identity, entry in after['entries'].items():
+            self.assertEqual(entry['reason'], 'human_reviewed_or_edited_protected')
+            self.assertEqual(entry['events'][:-1], before['entries'][identity]['events'])
         self.assertEqual(self.state.tasks(), [])
+        manual_admission.save(self.state, before)
         source = self.state.read('state/source.json')
         source['articles'][A]['translation_key'] = 'f' * 64
         self.state.write('state/source.json', source)
         manual_admission.resume(self.engine, campaign, request)
         entry = next(e for e in self.state.read(manual_admission.path(campaign['id']))['entries'].values()
                      if e['item']['article_id'] == A)
-        self.assertEqual(entry, next(e for e in before['entries'].values() if e['item']['article_id'] == A))
+        original = next(e for e in before['entries'].values() if e['item']['article_id'] == A)
+        self.assertEqual(entry['reason'], 'source_changed_since_manual_selection')
+        self.assertEqual(entry['events'][:-1], original['events'])
         self.assertFalse(manual_admission._can_resume({'status':'attention', 'provenance':{},
                                                      'reason':'original_review_candidate_changed'}))
+
+    def test_existing_attention_reports_current_lineage_guard_without_admitting(self):
+        request, campaign, before = self.hold()
+        original_contract = copy.deepcopy(manual_admission.contract(campaign))
+        for entry in before['entries'].values():
+            record = self.state.record(entry['item']['language'], entry['item']['article_id'])
+            record['history'].append({'event':'fixture_lineage_change'})
+            self.state.save_record(record)
+        manual_admission.resume(self.engine, campaign, request)
+        after = self.state.read(manual_admission.path(campaign['id']))
+        manual_admission.validate(self.state, campaign, after)
+        for identity, entry in after['entries'].items():
+            original = before['entries'][identity]
+            self.assertEqual(entry['status'], 'attention')
+            self.assertEqual(entry['reason'], 'publication_or_latest_task_changed_since_manual_selection')
+            self.assertEqual(entry['events'][:-1], original['events'])
+            self.assertEqual(entry['provenance'], original['provenance'])
+            self.assertEqual(entry['attention_detail'], original['attention_detail'])
+        self.assertEqual(self.state.tasks(), [])
+        self.assertEqual(self.provider.create_calls, 0)
+        self.assertEqual(manual_admission.contract(campaign), original_contract)
+        self.assertEqual(campaign['reserved_usd'], 0)
+        self.assertEqual(campaign['reported_usage_usd'], 0)
+        manual_admission.resume(self.engine, campaign, request)
+        self.assertEqual(self.state.read(manual_admission.path(campaign['id'])), after)
 
     def test_existing_or_reserved_task_bytes_are_preserved(self):
         request, campaign, ledger = self.hold()
