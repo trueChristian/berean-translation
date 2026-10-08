@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author Unknown",
+          "role": null
+        }
+      ],
+      "raw": "Author Unknown"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "4c5bb125-517f-476b-a4eb-2ce8c8e101c9",
+    "images": [
+      {
+        "alt": "A person kneeling in prayer",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4c5bb125-517f-476b-a4eb-2ce8c8e101c9-1.png",
+        "repository_path": "public/images/articles/4c5bb125-517f-476b-a4eb-2ce8c8e101c9-1.png",
+        "rights_note": "The issue masthead gives only unassigned general art provenance (“Some images ©2001-2012,” www.clipart.com, and www.sxc.hu); it prints no asset-specific credit, permission notice, or license for this image. The page-32 Scribd JPEG image-layer sprite was cropped to its published CSS clip at x=1, y=5, width=290, height=278, normalized to 8-bit sRGB, and encoded as an RGB PNG at 96 ppi without scaling or changing orientation. The issue does not identify this asset’s individual source or source-specific terms.",
+        "role": "prayer illustration",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "b549b07a-0dd3-55bb-9bc8-d417154f192a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        32,
+        33
+      ],
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "I Must Pray in Secret!",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0c25113b48e70642410be3d2858b3ca9e099d5cc596cbc047f074bde7d74e5ab",
+    "metadata_sha256": "366becb70bbf03c31df00a36b7af2bf76e26e5ffb1af1e497ac525e8446d2c1a",
+    "structure_sha256": "d37d54bab2865aa7cc8e4ed4b4348d79d39543a4207c8a340db69804ea134e51",
+    "text_sha256": "acd2bf1ea2b9bc85860a8fd6a202e858020e84dcbfe6fcbc4a37414c09216da8",
+    "translation_metadata_sha256": "725badf0fee9778a398a2a35d335d3e0a909e2dc7ff3a84a8ab1e373fa22a16d"
+  },
+  "html": "<article data-article-id=\"4c5bb125-517f-476b-a4eb-2ce8c8e101c9\">\n  <figure>\n    <img src=\"/images/articles/4c5bb125-517f-476b-a4eb-2ce8c8e101c9-1.png\" alt=\"A person kneeling in prayer\">\n  </figure>\n  <p>That I must pray is a moral axiom; it is self-evident, it needs no proof. It is as much the instinct of my nature as it is the command of heaven. Prayer is my communion with God. It is my language of worship, as a man; of dependence, as a creature; of submission, as a subject; of confession, as a sinner; of thankfulness, as the recipient of mercies; of supplication, as a needy being. As a Christian, I find it “my vital breath, my native air.” Without it I cannot live. I <em>must</em> pray; for if I do not, I shall spiritually suffocate.</p>\n  <p>But not only must I pray—pray in the family, in the social circle, in the walks of business, winging my thoughts in aspirations to the heaven—but I must also pray <em>in secret</em>. Some place I must have that I can call “my closet”—some place where I can go away by myself, and shut out the world, and be alone with my God. Some place, it must be, where, like Isaac in the field, and Peter on the housetop, and Daniel in his chamber, and the blessed Savior on the mountain, I may “pray to my Father which is in secret.” I must have a time for this duty, and stated time; for if I have not, it will never become a habit; and if not a habit, I shall be apt to neglect it, and it will not become inwoven with my spiritual existence, as a part of my soul’s life, nor will it have that power of association, that current and glow of feeling, without which duty is never delightful. Often, too, must I attend to this duty—often improve the delightful privilege of private converse with heaven.</p>\n  <p>Daniel, even when prime minister of a kingdom, was three times a day found in his closet. He did not pray too much in secret. I had better pray more, rather than less. Like them, like all eminent saints, often must I be found in my closet, with serious reflection, with self-examination, with the Bible open before me, in solemn, and fervent, and wrestling communion with God. Yes, I must often pray in secret.</p>\n  <p>I must pray in secret, for God commands it. “Enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret.” Mt. 6:6 This is God’s command, and I may not, I dare not, disobey it. “He seeth in secret,” and if in secret I do not pray to Him, He will be grieved and angry with me; while, if I do, He, as He has promised, “will reward me openly.”</p>\n  <p>I must pray in secret, for of all communion with heaven, that which is secret is the sweetest. The dearest converse of earthly friends is that which is most private, that which most shrinks from the gaze, the almost profaning gaze of others. Much enjoyment may bosom friends find in the general mingling of the social circle; but the highest of the social joys would be at an end, if there were no subsequent and private hour, when they could sit down together and talk over the incidents of that circle, and everything that was of most and dearest interest to themselves.</p>\n  <p>And so it is with the Christian. Public communion with God he may richly prize and enjoy. But sweetest of all is his communion with Him in secret; when in the sacred retirement of the closet, with no earthly eye upon him he can pour out his soul in solitude to his Maker. From the very instinct of his nature, of all prayer, that which is secret is dearest to him. Prayer, in every form, is his joy, his strength; but <em>secret</em> prayer is a luxury to his soul.</p>\n  <p>I must pray in secret, for as an individual I have secret and peculiar necessities. My temptations are peculiar, and to Him I would go for peculiar strength. I have secret trials and sorrow which the world may never know, and yet to God I can pour them forth, know that He will never reveal them; knowing that He will sympathize with them all; that in all He will cheer, aid, and direct me. If a parent, I can pray for a child; if a friend, for a friend; if a minister, for each of my people according to their peculiar case. In public, joining as I there do with others, I can only say, “our Father”—can only ask for general blessings. But, blessed be God, in secret I can say, “O <em>my</em> Father, if it be possible, let this cup pass from me”; let this temptation be removed, this blessing be granted, this evil habit be broken, this trial which rends my heart be taken away. In this, let the way of public duty be made plain; in this grace let me grow; let this enemy be forgiven; let this friend be blessed. In such a particular prayer, I find my nearest approach to my Savior, the clearest views of self, the almost vivid light of God’s countenance, the deepest sense of personal obligation, the mightiest strength, whether to resolve, or to do, or to suffer.</p>\n  <p>I must pray in secret, for if I do not, I shall not grow in grace. Of all the means of spiritual growth, none do I find more efficient or blessed than this. In secret communion with God, I feel as if He were personally with me; and this gives strength and vividness to every obligation. Distinctly confessing my sin—then, if ever, I avoid it. Asking for distinct blessings—then, if ever, do I earnestly strive for their attainment. The thought that I have been with God—this, I find, has an abiding effect on the life. After this, truth is more impressed, temptation has less power, the world less influence. Coming with David from the closet, with David I am able to say, “My heart is fixed, O God, my heart is fixed.” Mine is that “calm and heavenly frame” which elevates above the world, and fills with the Spirit of Jesus, and girds for every holy effort. Coming from the closet—then, if ever, am I firm in duty, cheered under sorrow, strengthened against sin. And so with every child of God. Never was there one who loved his closet, who lived much in it, that was not a spiritual, a growing Christian.</p>\n  <p>I must pray in secret, for if I sin by neglecting my closet, I shall soon be left to other sins. Declension, inconsistency, formality, and backsliding, all begin in the closet, in the neglect of secret prayer, “Away from God’s presence,” He will “take His Holy Spirit from us.” Going away from Him, neglecting communion with Him, He will leave us. And left of Him, spiritual darkness, if not spiritual death, will be upon us. Neglect the closet, and next the family altar will be neglected, and then the circle of social prayer, and then the Bible, and then, perhaps, the sanctuary, and all the means of grace. Neglect the closet, and you know not where or how far you may wander; you know not when, if ever, you will return. Neglect the closet, and soon you will abandon it; abandon it, and soon you will be left of God to dark, if not to damning sin—perhaps to endless ruin.</p>\n  <p>I must, then, must pray in secret; statedly, frequently, earnestly. God enjoins it. My highest enjoyment and my individual and peculiar necessities demand it. I must do it, that I may grow in grace—may not decline in spirituality—may not wander from God. To pray in secret!</p>\n  <p>It is a solemn duty, a glorious and blessed privilege, thus to hold converse with the Most High; as a child with a father, as a friend with a friend, thus to commune with Him, and breathe His spirit, and receive His impress, His image, upon my heart. May I ever prize—may I ever improve it. By divine grace, I will. God’s grace, God’s Spirit assisting me, I will pray in secret. Daily and faithfully will I do it, till from prayer on earth, I am raised to praise in heaven. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4456fd1d607bdf844a5dfdb008457a1a25252d286d983ab951de468adb0676b9"
+}

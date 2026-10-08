@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "400977eb-3421-51cc-992f-b947d2cda0f4"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e",
+    "images": [
+      {
+        "alt": "A pale illustration of an empty glass Coca-Cola bottle",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e-1.png",
+        "repository_path": "public/images/articles/5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e-1.png",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The pale bottle was stored in the PDF as two vertically adjacent sRGB JPEG components; those components were combined at their published positions into one sRGB PNG at 150 ppi without the separately rendered article text.",
+        "role": "decorative background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "41c5b6cc-f63c-5044-a15f-dd5847aa3f25",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Coca-Cola and the King",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e0b57e815a9e4fe6044895ca33c5c2d75a9cd83020765475cde659dba27254f8",
+    "metadata_sha256": "b070177588e26136e45a7a2054e06577fe100e91381aaf69ce36c2de7443ddfc",
+    "structure_sha256": "8826e0e5986871fa76440a924aa9cccc8679168cab07934eba1d000f883180ba",
+    "text_sha256": "66dff23d3ab27357c4391fac1166fe65a1b8ca6f7785e009588220b11a01f65e",
+    "translation_metadata_sha256": "e7592605f662b350a62147b2ecb8da98c636f232bcfe4bfdf0d9077ced639f17"
+  },
+  "html": "<article data-article-id=\"5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e\">\n  <p class=\"lead\"><span class=\"drop-cap\">A</span> few years ago when Daniel Kenaston, a missionary in West Africa, was home on furlough, he preached a sermon that really made me think. He told of a journey that he took deep into the bush to reach a remote African tribe. The tribe was so secluded that it appeared as if no white man had ever been there. When Daniel arrived the villagers were happy to see him, and they wanted to take Daniel to meet their king. Daniel was very excited and honored by this.</p>\n\n  <figure>\n    <img src=\"/images/articles/5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e-1.png\" alt=\"A pale illustration of an empty glass Coca-Cola bottle\">\n  </figure>\n\n  <p>As he came closer to the king’s chair his mind was spinning, thinking about what the meeting would be like. After he went through all the ceremonial protocol that is typical for that culture, the king said that he wanted to give Daniel a gift. Daniel was honored.</p>\n\n  <p>The king sent his servant back to get the gift. As the servant came closer, Daniel noticed that he had a black bag in his hand. He wondered, “What could possibly be in that bag?” When Daniel considered how remote this tribe was, it made him really curious about what the gift could possibly be. The servant handed the bag to the king, and the king slowly pulled the gift out of the bag. Daniel couldn’t believe it! To his surprise, the gift was nothing but an empty Coca-Cola bottle.</p>\n\n  <p>Daniel smiled and thanked the king for the gift, but when he got back home the Lord smote his heart. Pondering the gift and considering how utterly remote the tribe was, Daniel thought, “How terrible it is that Coca-Cola got to this remote, unreached African tribe before the gospel did.”</p>\n\n  <p>If only the church would have the dedication and persistence that commercial America has, we could circle the globe with the Gospel many times over. God give us a burden for the lost that surpasses that of American consumerism! ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "eedda1627ea950312823c459c37ed1ff5b4c0769528ae29ff0495450db6aba2f"
+}

@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Francis of Assisi"
+        }
+      ],
+      "raw": "Francis of Assisi"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "96a4b941-e99e-4705-89c4-3d1c505f9c27",
+    "images": [
+      {
+        "alt": "Prayer text over a mountain landscape beside a robed man",
+        "caption": null,
+        "credit": null,
+        "height": 503,
+        "public_path": "/images/articles/96a4b941-e99e-4705-89c4-3d1c505f9c27-1.jpg",
+        "repository_path": "public/images/articles/96a4b941-e99e-4705-89c4-3d1c505f9c27-1.jpg",
+        "rights_note": "No image credit or separate licence is printed. Extracted sole devotional-composition object 140 (504 × 503). The prayer title, text, attribution, mountain photograph, and robed-figure artwork are flattened into this only source raster; no clean photograph or separate figure base exists. Cropping away the text would remove most of the composed devotional image, so the complete source composition is retained under the documented unavoidable-overlay exception. The separately painted outer green/pink frame, raster shadow tiles (objects 231–242), and mailing panel are omitted. The prayer is also transcribed as semantic HTML. Original RGB JPEG had an extra trailing newline after its EOI marker; re-encoded as a standards-normalized baseline sRGB JPEG with nonzero 72-dpi density, unchanged dimensions and orientation, without CMYK inversion or synthesized content.",
+        "role": "devotional illustration",
+        "sequence": 1,
+        "source_page": 36,
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note"
+        },
+        "width": 504
+      }
+    ],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Prayer of St. Francis",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c137be059b3aaa91370df545aa60a0f83453b810a7a9f779bd21db6022bd1964",
+    "metadata_sha256": "dc8341842301a34367428cc2604b9804ceb90085d2a9d42ceacf34c0dc420c18",
+    "structure_sha256": "5f7ce9084068cec458ef5d77f12964b71851037d4772713a63af9dc7f20d099b",
+    "text_sha256": "dc07c60d8254503482aad587738f0c2eec3e086d370bd8d152d7d57e280a1c4a",
+    "translation_metadata_sha256": "a41398aa6733c30b1903ee6b91b62dec7b07a4f91752fcf7c98261b6868f9a22"
+  },
+  "html": "<article data-article-id=\"96a4b941-e99e-4705-89c4-3d1c505f9c27\">\n<figure><img src=\"/images/articles/96a4b941-e99e-4705-89c4-3d1c505f9c27-1.jpg\" alt=\"Prayer text over a mountain landscape beside a robed man\"></figure>\n  <p class=\"poem\">Lord, make me an instrument of thy peace<br>\n<em>Where there is hatred...let me show love<br>\nWhere there is injury...pardon<br>\nWhere there is doubt...faith<br>\nWhere there is dispair...hope<br>\nWhere there is darkness...light<br>\nWhere there is sadness...joy</em></p>\n  <p class=\"poem\">O Master, grant that I may not so much seek<br>\n<em>To be consoled...as to console<br>\nTo be understood...as to understand<br>\nTo be loved...as to love<br>\nFor it is in giving...that we receive<br>\nIt is in pardoning...that we are pardoned<br>\nAnd it is in dying...that we are born to eternal life</em></p>\n  <p><em>Francis of Assisi</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "989edeb5cd9febb42b1d8f261106dd3ab06162df27f444824bc03bbd2e45b759"
+}

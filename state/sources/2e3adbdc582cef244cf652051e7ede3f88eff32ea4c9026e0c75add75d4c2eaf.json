@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, PA",
+          "name": "Louella H. Burkholder"
+        }
+      ],
+      "raw": "Louella H. Burkholder\nMyerstown, PA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
+    "images": [
+      {
+        "alt": "A fuel gauge with its needle near empty",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-1.png",
+        "repository_path": "public/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-1.png",
+        "rights_note": "No caption, image credit, licence, or separate-permission notice is printed. The clean embedded inverted-Adobe CMYK JPEG was sample-inverted, converted to sRGB, stripped, and normalized as a PNG without article text.",
+        "role": "title illustration",
+        "sequence": 1,
+        "source_page": 16
+      },
+      {
+        "alt": "An old car stopped on a dark road with another vehicle's headlights behind it",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-2.jpg",
+        "repository_path": "public/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-2.jpg",
+        "rights_note": "No caption, image credit, licence, or separate-permission notice is printed. The clean embedded inverted-Adobe CMYK JPEG was sample-inverted, converted to sRGB, stripped, and baseline re-encoded without changing its dimensions, crop, or orientation.",
+        "role": "story illustration",
+        "sequence": 2,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Trust—Be Not Afraid",
+    "topics": [
+      "4fae0d12-6925-54f3-85f5-4cad0171f98a",
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "7a017f8e-787a-57f2-bcf0-4a25f3da11cf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0200531ac91ffe83de25c0381cf58e5747eb86c03110d12ebeffd8075383d481",
+    "metadata_sha256": "2b5644404483ef3bcde5b57b46bb9cbf4513039dc393ab4fcba3aa0348041426",
+    "structure_sha256": "b5bbea02b12f5ca20295834df58f4f6c188622208257590a16b7f6af1e96796a",
+    "text_sha256": "c9076037c9cb563d12c208fd262b87974b5c05ae8ef055b6974f63a9b76c6fc3",
+    "translation_metadata_sha256": "ca0d7e22894c975498b2d4d31752abecf98ba2e0d16900933d58de8858ac1674"
+  },
+  "html": "<article data-article-id=\"4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d\">\n  <figure>\n    <img src=\"/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-1.png\" alt=\"A fuel gauge with its needle near empty\">\n  </figure>\n\n  <p class=\"drop-cap\">Mile after mile sped by as Carol drove the old Chevy along the busy interstate highway toward home. Between intervals of silence and conversation, Carol and her two sisters, Elaine and Gloria, lifted their voices in song, giving thanks and praise to their Creator. How thankful they were for the opportunity to spend the evening with their friends at Pine Creek Church and to receive another inspiring message from God’s Word.</p>\n  <p>Suddenly their smooth travel was interrupted by signs of trouble. “Now what can be wrong with this car?” Carol worried out loud as she guided the stalled car to the side of the road. “Oh, no, girls, we’re out of gas! I was in such a hurry this evening that I forgot to check the gauge. I thought the tank was almost full when we left home, and… Oh no!” wailed Carol again. “Dad put the cell phone on the counter for me to take along, and I forgot that also!”</p>\n  <p>“Whatever are we going to do now?” exclaimed Elaine. “Here we are, stranded in the dark, no gas, no phone, and seven more miles to our exit! And another thing, people just don’t stop very quickly these days and offer help. They know that most everyone carries a phone. This seems almost impossible to me!” she mournfully uttered from the back seat.</p>\n  <p>As the girls lapsed into silence, the old Chevy seemed to shake in protest as a long row of trucks whizzed by. “You know,” said Gloria, “I was just remembering Brother Lester’s message this evening. How can we forget so quickly! Maybe God has allowed this to happen to us so our faith might be increased as we place our trust in Him. Let’s take this to the Lord in prayer. Let’s look for a miracle from God’s hand.”</p>\n  <p>Together the girls bowed their heads and pled for the Lord’s protection and help.</p>\n  <p>“You know, I feel better already,” smiled Elaine. “I was so worried and fearful, but since we prayed and committed everything to God, I have confidence that He will watch over us. I’m so glad we have a God who hears all of our cries. What would we do without His comforting Holy Spirit? Let’s sing again.”</p>\n  <div class=\"poem\">\n    <p>“Joys are flowing like a river,<br>\n    Since the Comforter has come;<br>\n    He abides with us forever,<br>\n    Makes the trusting heart His home.<br>\n    Blessed quietness, holy quietness,<br>\n    Blest assurance in my soul!<br>\n    On the stormy sea Jesus speaks to me,<br>\n    And the billows cease to roll!”</p>\n    <p><em>-Manie P. Ferguson, 19th century</em></p>\n  </div>\n  <p>As the girls sang song after song, their hearts were deeply stirred. How quiet and peaceful they felt, even though they were stranded on a dark highway thirteen miles from home. Car after car, and truck after truck sped by without stopping. Then they noticed a pickup truck, with two dirt bikes on the back, slowing down. It pulled off the road several hundred feet ahead of them, and slowly began to back up. The girls’ voices were stilled in silence as they desperately cried out to God from the bottom of their hearts. When the truck came to a halt, two husky, long-haired men jumped out. Carol rolled her window down as a man wearing a red-checked flannel jacket approached.</p>\n  <figure>\n    <img src=\"/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-2.jpg\" alt=\"An old car stopped on a dark road with another vehicle's headlights behind it\">\n  </figure>\n  <p>“What’s the trouble here, girls?” he asked, glancing over the car.</p>\n  <p>“We’re out of gas,” Carol quickly replied.</p>\n  <p>“Well, I’d say we’re pretty lucky. We have a can of gas with us. How far do you need to go yet?”</p>\n  <p>“About thirteen miles.”</p>\n  <p>“Good. We’ll just pour some of our gas into your tank and you can be on your way again. No payment necessary.”</p>\n  <p>“O thank you so much,” responded Carol. “We were praying that God would send us help, and He did more than we could ever have thought! Thanks so much.”</p>\n  <p>“Yes, yes”, replied the man gruffly, “You’re pretty lucky we came along. We’re just glad to help you out.”</p>\n  <p>Several minutes later, the girls were on their way again. “You know,” said Carol, “when I saw that truck pull over, I was scared and glad at the same time. I began to scold myself again for not having that cell phone with me. But then I asked God to help me completely trust in Him and not be afraid. After all, isn’t He much more dependable than any cell phone? This has been such a faith booster for me. How different this may have turned out, if we had depended solely on our cell phones or “good luck” as those men called it. It must grieve our Father’s heart tremendously when we do not place our trust in Him.”</p>\n  <p>“It’s just as Brother Lester preached this evening”, added Gloria. “Remember some of those verses? <em>I waited patiently for the LORD; and he inclined unto me, and heard my cry … And he hath put a new song in my mouth, even praise unto our God… Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies. –Psa 40:1-4.</em> This makes me so happy I just want to keep singing and thanking the Lord!”</p>\n  <p>Again, the girls raised their voices in song:</p>\n  <div class=\"poem\">\n    <p>“His eye is always watching,<br>\n    His ear is keen to hear;<br>\n    His love is all-sufficient<br>\n    To calm the gravest fear.<br>\n    Then trust Him in shine and shade;<br>\n    Trust Him, be not afraid:<br>\n    He’s walking close beside thee;<br>\n    His hand will safely guide thee;<br>\n    His wings securely hide thee;<br>\n    Then trust! Be not afraid.”</p>\n    <p><em>-Charles H. Gabriel, 1856-1932</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48"
+}

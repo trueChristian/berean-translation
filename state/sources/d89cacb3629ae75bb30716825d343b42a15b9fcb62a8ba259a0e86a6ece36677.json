@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip",
+          "role": null
+        }
+      ],
+      "raw": "-Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "b8c8f161-1019-4249-b4a3-0cdcb53a2399",
+    "images": [
+      {
+        "alt": "Firefighters directing water onto a burning building.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b8c8f161-1019-4249-b4a3-0cdcb53a2399-1.jpg",
+        "repository_path": "public/images/articles/b8c8f161-1019-4249-b4a3-0cdcb53a2399-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Clean embedded PDF image object 85 was used. The separate dark title panel and article title were omitted. The grayscale source was re-encoded as a baseline RGB/sRGB JPEG at its original pixel dimensions with nonzero 72 dpi density; no CMYK inversion was needed. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence inferred.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "5f14401b-358f-4995-8dfe-a5c590c7cf33",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "The Church Fire",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b140f3cec713fb12179d9b2a61cee8508447ff9b79415e60cc64a486d99d0290",
+    "metadata_sha256": "ae2c329a6de87fb12c5086f9d7e2d6ce86b95b4ad8e854c64fbc3b1c81d19353",
+    "structure_sha256": "a256964f4defea42a7aead0542ae7cee9ec300abc18737abd02a840dbe563382",
+    "text_sha256": "2571f2ff996a0f28cbfd1795a3b312c0a682135cd2f1b390a9330029e4e7048d",
+    "translation_metadata_sha256": "942d198c4aa2d3d56626cd65bc8d3b7992e3b6cb9ef3e3b98041da777481a951"
+  },
+  "html": "<article data-article-id=\"b8c8f161-1019-4249-b4a3-0cdcb53a2399\">\n  <figure>\n    <img src=\"/images/articles/b8c8f161-1019-4249-b4a3-0cdcb53a2399-1.jpg\" alt=\"Firefighters directing water onto a burning building.\">\n  </figure>\n  <p><em><strong>Dear reader:</strong> Please consider this parable. Jesus spoke in His day with parables to bring forth a truth, and I have attempted to do the same. Remember, though, to take these earthly symbols and compare them to heavenly or spiritual things. May God enlighten your heart with this story.</em></p>\n  <p>Somewhere, in a sleepy vale that lies betwixt Israel and Shinar, was a church. Things were going along quite smoothly and the day was progressing rather normally when the cry arose.</p>\n  <p>“FIRE!”</p>\n  <p>“The church is on fire!”</p>\n  <p>Now, this arose no small stir among the people of the land, as they were all devoted to their church. And, of course, the natural thing to do was try to put the fire out. The fire chief, when summoned, wasted no time to go about his duty. With the roar of engines and wail of sirens, his flashy red fire trucks sped to the scene. By the time he arrived, the flames were dancing high into the sky. However, he was a master at such fires, and had put out quite a number of this kind in his day. Without hesitation, water was squirted at the base of the flames, and foam suppressant was liberally applied.</p>\n  <p>But something was wrong. The flames climbed higher and the heat was increasing. It was getting to the point that the firefighters were becoming too uncomfortable to work.</p>\n  <p>“Something’s amiss, Chief. The fire is increasing. If it continues to do, so our water will evaporate before it even hits the flames!”</p>\n  <p>With a scowl, the chief scratched his chin. “We must find out why! We must, or my beloved church will be consumed!” He spoke of it as “His church” as he had a controlling influence upon many of its members.</p>\n  <p>Then he saw it. There, behind the church, some men were busily at work throwing things into the flames! What? Throwing chunks of coal and cans of gas? It is no wonder the water and foam would not work!</p>\n  <p>The chief commanded, “Stop them!” And since he had a big influence over the people, they hastily listened to him and arrested the agitators. Within a short time, the effects of the water and foam could be readily seen, and soon the fire was completely eradicated.</p>\n  <p>The people rejoiced and patted one another’s backs.</p>\n  <p>“Whew, that was close!”</p>\n  <p>“Yes, the chief did a swell job. At least the main structure was saved.”</p>\n  <p>“It surely is an ugly mess though. See how those rotten beams are exposed now? Perhaps the fire was a blessing to expose how rotten the church was on the inside.”</p>\n  <p>“Aw, don’t worry. Those beams can be covered over in no time, so no one will ever know. The chief has a good crew of carpenters who often remodel for him after a fire like this.”</p>\n  <p>“Say, how did this fire get started anyhow?”</p>\n  <p>“Lightning, so I’m told.”</p>\n  <p>“And what about those men agitating the fire? What for men are they?”</p>\n  <p>“Ah, they’re some of those crazies who believe in holy living, and, can you imagine, they even claim a man has no right to self-defense? We will fix ’em though, and banish them forever from this land!”</p>\n  <p>And so, life continued on in Sleepyvale. The church was patched over and soon the strains of music could be heard compelling the inhabitants of the land to come bow and worship. They rejoiced in their victory over the fire, although a few were worried about the rotten beams that had been covered over.</p>\n  <p>And Jesus? Well, Jesus wept.</p>\n  <p>Yes, Jesus wept for His church. His church had been ruined, not by the flames, but by the foam and water.</p>\n  <p>You see, Jesus wants His church to burn. He desires the fire of the Spirit to rage throughout His people, so as to burn away their flimsy adornments and expose their rotten innards. The lightning of His Word had started the fire, and his true ministers had heaped on the coal of total consecration and the gasoline of honest humility. Had not the fire chief (Satan) intervened, the place would have surely burned away, leaving only those things that could withstand fire. Eventually, the heat would have become so intense as to burn away even the perpetual fog that had enshrouded the land. And the shining of the sun would have revealed to the inhabitants that they were, indeed, wandering from Israel and towards the beastly Babylon.</p>\n  <p>Even Satan, with his fire trucks of foul spirits, would have had to back off. The heat would have become too hot for his workers, and they would have had to back away. But alas, the people chose to side with him and not with the “crazies.” Had they chosen to side with the coal-throwers, they could have saved their church in the end, yet so, as by fire. But now, they face an impending judgment, and an eternity in the lake of fire, unless they repent.</p>\n  <p>Let us look a bit into the chief’s fire-extinguishing methods.</p>\n  <p>First, the water. For a fire to burn, three things are necessary: fuel, heat, and oxygen. Water does two things to a fire: smothers it and cools it. So when a fire truck of a foul spirit tries to quench the burning of the Holy Ghost within your bosom, you must resist by throwing on some chunks of high-grade consecration, and pour on some honest, humble soul-searching. Then the devil’s lukewarmness will not have a chance. His water will evaporate before it can get in to cool you down.</p>\n  <p>Now the foam. Foam is a specialty extinguisher and a good one for extremely hot fires. Foam works by preventing oxygen from meeting the fuel, thereby smothering a fire.</p>\n  <p>And if you want the fire to go out within you, just let Satan spray on a bit of old-fashioned “love for the world” (The chief loves the <em>El Materialismo</em> brand; it is <strong>very</strong> effective.) When love to God (holiness) is smothered, and not allowed to prosper and grow, mark this down: <strong><u>The fire will go out.</u></strong></p>\n  <p>So, dear reader, have you seen yourself? Has Satan been applying water of lukewarmness onto your spirit? Or what about some secret little desire for this world? The wages of either are eventual separation from God, known in the Bible as eternal death.</p>\n  <p><em>“Remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly and will remove thy candlestick out of his place, except thou repent.”</em> Rev. 2:5</p>\n  <p><em>“...<strong>BECAUSE THOU HAST LEFT THY FIRST LOVE.</strong>”<br>Rev. 2:4</em></p>\n  <p><em>-Mike Atnip</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c2ecb7215ccf0c5ec5779af3aaf56e3e7138d9f97bfd51f62aeb7c06c7df91f3"
+}

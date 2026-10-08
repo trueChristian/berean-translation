@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "fee24365-2464-4f49-977e-ef36ac95c530",
+    "images": [
+      {
+        "alt": "A potter’s hand shapes a clay vessel on a wheel",
+        "caption": null,
+        "credit": "Back cover photo: © Ewa Nowosielska - Fotolia.com",
+        "public_path": "/images/articles/fee24365-2464-4f49-977e-ef36ac95c530-1.jpg",
+        "repository_path": "public/images/articles/fee24365-2464-4f49-977e-ef36ac95c530-1.jpg",
+        "rights_note": "The printed masthead credits the back cover photograph exactly as recorded; no image licence is inferred. Clean original embedded RGB image xref 188, 900×1152 pixels. Re-encoded as baseline sRGB JPEG with nonzero JFIF density to normalize the Adobe APP14-only container and trailing byte. Separate mailing typography, poem lettering, postage box, and translucent reading panel are omitted.",
+        "role": "hymn background photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "82d9c013-5a75-453c-9193-1270033b393d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "be523b84-148a-5633-9947-03c7c310d50a",
+      "42f1a8d5-21c5-5868-a31a-3dff109a9e96"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "228520904461f7cd15e43c22be78f5f676b96e170feace9eff233327e94b10b4",
+    "metadata_sha256": "882d6dda1635ea1c708a501551c78ce729457e6ac4fd7cd23bf2b7ce2d4b9209",
+    "structure_sha256": "a167fc27878165d3251bc624bd03e7da1e125b2b1adbd43493c1d9c0090ad744",
+    "text_sha256": "026205757fc99ae582ce23d8c56e3a97d68628ded5961d6099028c91b2e2527e",
+    "translation_metadata_sha256": "f63956258b2d32d0dcb29d15f5323d2f94e88b9a9c69edc7415e926da0de94f8"
+  },
+  "html": "<article data-article-id=\"fee24365-2464-4f49-977e-ef36ac95c530\">\n  <figure>\n    <img src=\"/images/articles/fee24365-2464-4f49-977e-ef36ac95c530-1.jpg\" alt=\"A potter’s hand shapes a clay vessel on a wheel\">\n  </figure>\n  <p class=\"poem\">Have Thine own way, Lord! Have Thine own way! Thou art the Potter, I am the clay.<br>\n  Mold me and make me after Thy will, while I am waiting, yielded and still.</p>\n  <p class=\"poem\">Have Thine own way, Lord! Have Thine own way! Search me and try me, Master, today!<br>\n  Whiter than snow, Lord, wash me just now, as in Thy presence humbly I bow.</p>\n  <p class=\"poem\">Have Thine own way, Lord! Have Thine own way! Wounded and weary, help me, I pray!<br>\n  Power, all power, surely is Thine! Touch me and heal me, Savior divine.</p>\n  <p class=\"poem\">Have Thine own way, Lord! Have Thine own way! Hold o’er my being absolute sway!<br>\n  Fill with Thy Spirit ’till all shall see Christ only, always, living in me.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "1ea52cfbf70cab3cd56abe103d0186e4a5195bf97f5504b173c2006a290fe251"
+}

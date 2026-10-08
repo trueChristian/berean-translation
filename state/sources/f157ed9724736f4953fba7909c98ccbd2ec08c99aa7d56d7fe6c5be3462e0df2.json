@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Ned Brown"
+        }
+      ],
+      "raw": "by Ned Brown"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "5116bc88-59ba-4a62-b691-09291618eeb5",
+    "images": [
+      {
+        "alt": "A man tending an injured man beside a donkey",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5116bc88-59ba-4a62-b691-09291618eeb5-1.jpg",
+        "repository_path": "public/images/articles/5116bc88-59ba-4a62-b691-09291618eeb5-1.jpg",
+        "rights_note": "Clean source image object 64; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred. Tiny signatures/markings at the engraving’s lower edge are intrinsic and retained; the full lettering is not confidently legible at native resolution, so no artist attribution is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            229,
+            294
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            229,
+            294
+          ],
+          "source_object": 64,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "pages": [
+        18,
+        19,
+        20,
+        28
+      ],
+      "start": 18
+    },
+    "subtitle": "The Key to Unity",
+    "title": "Charity",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a5ce5df4e2968cf1db9f970b0a16f5e616b46938982b095b83b83daa9144814a",
+    "metadata_sha256": "96ec77ede2d952759bbb6ed0984957cf26539f60dcb09cf77203f8fa9cee481c",
+    "structure_sha256": "6c90a3d27bd82fad7e068ca3e2115d9b7ca57b8dec5b49d594f4327c5064e017",
+    "text_sha256": "eaa4e06cfa2ddcc7010af06b56ef7a869a4bfa3ec34cb78ca5692ab92e13eea3",
+    "translation_metadata_sha256": "a00ee8622c7f3b90639983a4782f58494549ad5960c7549f36a354b34a06546d"
+  },
+  "html": "<article data-article-id=\"5116bc88-59ba-4a62-b691-09291618eeb5\">\n  <figure>\n    <img src=\"/images/articles/5116bc88-59ba-4a62-b691-09291618eeb5-1.jpg\" alt=\"A man tending an injured man beside a donkey\">\n  </figure>\n  <p>It seems that man, in his innocence before the fall, would have been able to keep the two great commandments (upon which all the law and the prophets were hung) without effort. He had no controversy with God and could walk with Him in transparency—something essential if we are to love our creator with all our heart, soul, mind and strength. Adam also had a perfect relationship with his only neighbor and loved her as himself. This love flowed out of the immediate recognition that she was bone of his bone and flesh of his flesh. So close were they in relationship that God could say in Gen. 5:2, “Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.”</p>\n  <p>An immediate consequence of the fall was a severing of these relationships that made it impossible to keep the great commandments any longer. Both Adam and his wife sought a covering that would hide them from the presence of God. Moreover, when they were questioned concerning the new way in which they were relating to their Maker, their answers revealed a change in the way that they related to one another. No longer did Adam acknowledge Eve as bone of his bone and flesh of his flesh. Instead, he pointed a finger of blame that separated her from himself. What God had joined together as one flesh, man had put asunder by choosing to develop as an individual, apart from God and the helpmeet that had been given him—a direction which required an allegiance in rebellion with the fallen prince of this world.</p>\n  <p>The next generation continued this course of separation by rebellion to its logical conclusion with Cain rising up against his brother in defiance of God’s counsel and slaying his own flesh and blood—the tragic beginning of human history fraught with man committing every imaginable atrocity against his fellow man. Even the setting apart of a nation to live under divine covenant (that if kept perfectly would have restored those chosen to a right relationship with God and their neighbor) had little effect on men that were bent, through the corruption of sin, on destroying one another. Jewish history, as recorded in the Old Testament, is full of accounts of wars with surrounding pagan nations as well as descendants of Abraham fighting one another.</p>\n  <p>The twelve tribes united themselves under King David (a man after God’s heart.) Israel came to David at Hebron “...saying, Behold, we are thy bone and thy flesh.” (1 Chron 11:1) However, this united kingdom only lasted through the reign of Solomon, who when he was old “did evil in the sight of the Lord, and went not fully after the Lord, as did his father David.” (1 Kings 11:6) This turning away from God resulted in a divided kingdom. Once separated, the Northern Kingdom turned further away from the love of God and her somewhat faithful Southern sister soon followed her into idolatry. Estranged from God, the relationship between the two kingdoms resembled closely the relationship of their first two kings: “And there was war between Rehoboam and Jeroboam all the days of his life.” (1 Kings 15:6)</p>\n  <p>The dismal failure of God’s chosen nation to keep the two great commandments (and therefore all his other commandments) eventually brought judgement and severe correction—intended to turn Israel’s idolatrous heart back to her Lord. History indicates that this chastisement of captivity was outwardly successful in curing idolatry. However, not long after their release, the conduct of some of the returning remnant causes one to wonder how effective it was in changing their heart condition. In Neh 5:5 some of poorer brethren cried out to Nehemiah:</p>\n  <blockquote>\n    <p><em>Yet now our flesh is as the flesh of our brethren, our children as their children: and, lo, we bring into bondage our sons and our daughters to be servants, and some of our daughters are brought unto bondage already: neither is it in our power to redeem them; for other men have our lands and vineyards.</em></p>\n  </blockquote>\n  <p>Under strong rebuke and public pressure the guilty relented, but the incident gives evidence of a deeply rooted condition that neither righteous laws nor severe punishment could correct.</p>\n  <p>By the time of Christ this condition had advanced under the written code to produce the hardness of heart that Jesus encountered in most of the Pharisees and to a lesser degree in His own disciples. Zealous for the Law of Moses (by which they thought to attain righteousness before God) their hearts were far from His concerning their own brethren and more so concerning women, children, Samaritans and gentiles. And as He taught them an exceedingly higher standard of righteousness than the Pharisees had attained under the law (especially in regard to the two great commandments,) they responded in astonishment with questions like, “who then can be saved?” As the only cure for their desperate condition and only answer to their desperate question, Christ offered Himself on the cross as the righteous fulfillment of the law:</p>\n  <blockquote>\n    <p><em>... what the law could not do, in that it was weak through the flesh, God sending His own Son in the likeness of sinful flesh, and for sin, condemned sin in the flesh: That the righteousness of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.</em> (Rom 8:3)</p>\n  </blockquote>\n  <p>This blessed gift from a merciful and just God having been made, we might expect those living under the new covenant of grace to be free and able again to keep the great commandments. There are indications that the early church in Jerusalem had a good measure of success in this. Acts 2:44-3:1 records:</p>\n  <blockquote>\n    <p><em>And all that believed were together, and had all things common; And sold their possessions and goods, and parted them to all men, as every man had need. And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart, Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.</em></p>\n  </blockquote>\n  <p>However, Paul’s letter to the Corinthians indicates that not all the early churches faired so well as the one in Jerusalem. Far from being of “one accord” and having “singleness of heart,” this church was plagued with contentions and divisions. Paul addresses these early in his epistle and then mentions them again in Chapter 11 concerning the Lord’s supper. Here he rebukes the Corinthians:</p>\n  <blockquote>\n    <p><em>When ye come together therefore into one place, this is not to eat the Lord’s supper. For in eating every one taketh before other his own supper: and one is hungry, and another is drunken. What? have ye not houses to eat and to drink in? or despise ye the church of God, and shame them that have not? What shall I say to you? shall I praise you in this? I praise you not.</em> (1 Cor 11:20-22)</p>\n  </blockquote>\n  <p>Skipping to verse 29, he goes on to say, “<em>For he that eateth and drinketh unworthily, eateth and drinketh damnation to himself, not discerning the Lord’s body.</em>” Some may argue that the “Lord’s body” refers to the bread of the Lord’s supper, but considering the context of the passage and the letter it seems more likely that Paul is referring here to the “body of Christ”— that is the <em>ekklesia.</em> They were not recognizing what Adam discerned before the fall—that these brothers and sisters at the Lord’s table were bone of their bone and flesh of their flesh. Unlike those believers at Jerusalem who “had all things in common” and shared their bread with one another in gladness, these Corinthians were still too carnal to even do this in form at the Lord’s table. And so, carnality is the main issue that Paul addresses in his epistle to them:</p>\n  <blockquote>\n    <p><em>And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, even as unto babes in Christ. I have fed you with milk, and not with meat: for hitherto ye were not able to bear it, neither yet now are ye able. For ye are yet carnal: for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men?</em> (1 Cor 3:1-3)</p>\n  </blockquote>\n  <p>Today, through this epistle, God also searches our hearts individually and corporately. We can have many things in place including spiritual gifts, sound doctrine, right sacraments and foreign missions, but if we are lacking in this area we are as a “clanging cymbal” and “resounding gong” and can offer nothing to a lost world but another dead religion—for the love of the brethren is the testimony of the church. Furthermore, any attempt to attain this love of the brethren in the flesh is doomed to failure. Communes and colonies are clear evidence of this. They are trying to put the cart before the horse.</p>\n  <p>The carnal man has no power to subdue the natural bent of the old nature that tends toward ambition, competition, envy, and strife. Spending three years with the incarnate Son of God was not even enough to convert fallen men—who on the eve of their Lord’s crucifixion were debating about who was the greatest. Even after being “sifted by the Devil,” Peter could not yet answer the Lord’s question, “do you <em>agape</em> me,” in the affirmative but responds, “Lord, you know I <em>phileo</em> you,” a term of affection and endearment but not the love required by the first commandment. And, without this love in place, Peter could not love his neighbor either—which is evidenced by his response at the end of this dialog with Jesus: <em>“what shall this man do?”</em></p>\n  <p>It was not until Pentecost, when Peter was filled with the Holy Spirit, and the love of God was shed abroad in his heart that he could love not only the neighbor of his choosing, but also the Samaritan, the gentile and even the enemy who would someday lead him where he did not desire to go. What the law could not do for Peter (and us) in that it was weak through the flesh and what three years of discipleship under the Lord, Himself, could not do for Peter in that he was weak in the flesh, God accomplished through the death, burial, resurrection, and assention of Christ and the consequential outpouring of the Holy Spirit upon man. In these events the fallen Adamic nature was crucified with Christ and out of his death was raised up a new man in Christ—being “born again” through the power of His Spirit on the day of Pentecost. God’s ultimate intention in this monumental event was not to produce Spirit empowered individuals (who would be tempted to exalt themselves over their brethren) but to produce a Spirit empowered body in which individual members recognized all other members as bone of their bone and flesh of their flesh. So Paul, endeavoring to communicate this truth, resorts to the metaphor of the “bride of Christ” to explain the mystery of this collective body:</p>\n  <blockquote>\n    <p><em>Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word, That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish. So ought men to love their wives as their own bodies. He that loveth his wife loveth himself. For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church: For we are members of his body, of his flesh, and of his bones. For this cause shall a man leave his father and mother, and shall be joined unto his wife, and they two shall be one flesh. This is a great mystery: but I speak concerning Christ and the church. Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.</em> (Eph 5:25-33)</p>\n  </blockquote>\n  <p>Oh, how gracious and merciful is our God and how unsearchable is the mystery of His love toward us in that, “<em>while we were yet sinners Christ died for us.</em>” Moreover, to us He has imparted the Holy Spirit, without which we would be incapable of returning that love or shedding it abroad in our hearts to others. Christ has opened the way for us to have once again what the first man and woman had before the fall—a right relationship with God and our neighbor. Ultimately, His love abounds to us in this—if by the power He supplies, we resist the Devil and remain faithful, He promises to consummate these relationships for all eternity. Praise His Holy Name!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d12e4dda1553f224b77e8e0a66a45985aa4bc2e03506f8fb8f2d3d0752893d95"
+}

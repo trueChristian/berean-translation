@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Jennie Daniel",
+          "role": null
+        }
+      ],
+      "raw": "-Jennie Daniel"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "0525aa51-3c1a-4677-ab84-a9389bb5035e",
+    "images": [
+      {
+        "alt": "A plow standing in a furrowed field with a farmhouse in the distance.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0525aa51-3c1a-4677-ab84-a9389bb5035e-1.jpg",
+        "repository_path": "public/images/articles/0525aa51-3c1a-4677-ab84-a9389bb5035e-1.jpg",
+        "rights_note": "Clean base PDF image object 146; source L; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [0, 0, 329, 444]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 40
+      }
+    ],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 17,
+    "series": null,
+    "source_pages": {
+      "end": 40,
+      "start": 40
+    },
+    "subtitle": null,
+    "title": "I didn’t Turn",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "017495ec2a95052796c5beb6adb0d10d354342b59025f0ed7081cb5402d512fc",
+    "metadata_sha256": "1fe7b0022c14fe489a1a0c721e50d7bf24b6df0164e6f185ea1574fa265cf157",
+    "structure_sha256": "6858041216f758f540be4ec841b35bf468d607ead66b947aabb5735ddce3e17f",
+    "text_sha256": "e7ff15cdb2c05f7ff57906f3642e242053d7c69000a12d8fbd9f7543635328e4",
+    "translation_metadata_sha256": "6412401520162aa04c1eef981554e68905ad38eea229c25d4fc61d474a1e6dbd"
+  },
+  "html": "<article data-article-id=\"0525aa51-3c1a-4677-ab84-a9389bb5035e\">\n  <figure><img src=\"/images/articles/0525aa51-3c1a-4677-ab84-a9389bb5035e-1.jpg\" alt=\"A plow standing in a furrowed field with a farmhouse in the distance.\"></figure>\n  <p class=\"poem\">Look back? - What sorrow for the soul<br>Who turns from God who made him whole<br>Who turns from Christ’s own holiness<br>To lead a life of wretchedness.</p>\n  <p class=\"poem\">Look back? - ah no - that cannot be<br>My child the world is past for thee<br>The pleasures, friends of yesterday<br>Are left behind upon My way.</p>\n  <p class=\"poem\">Look back? - on sin, depravity?<br>Take heed my child, I cry to thee<br>‘Tis forward into victory<br>If you would only follow Me.</p>\n  <p class=\"poem\">“Look back? oh no - when all is done<br>And I the crown at last hath won<br>T’will be my joy to testify<br>I didn’t turn, my God deny.”</p>\n  <p><em>-Jennie Daniel</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4a7ecc9884ee0a23ca045e6dfb824788ecf2d4c8ec423f078f52a63f19bb5e47"
+}

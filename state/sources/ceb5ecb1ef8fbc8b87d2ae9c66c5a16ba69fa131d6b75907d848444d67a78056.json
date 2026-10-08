@@ -1,0 +1,100 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "e42b9bfa-1aad-46ca-8c89-7d19535e7eea",
+    "images": [
+      {
+        "alt": "Jesus seated while men press a crown of thorns onto his head.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-1.jpg",
+        "repository_path": "public/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-1.jpg",
+        "rights_note": "No item-specific source, credit or reuse restriction is printed. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 110. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate title and surrounding typography omitted.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": "PDF base image object 110. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate title and surrounding typography omitted.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Portrait of Gregory Mantle holding an open book.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-2.png",
+        "repository_path": "public/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-2.png",
+        "rights_note": "No item-specific source, credit or reuse restriction is printed. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 109. Native 143×165 PNG raster rendered from the original image and exact published Bezier oval clipping path; separate gray backing ellipse and black outline omitted. No other page content rendered. Separate gray backing ellipse and black border omitted. The pale feathered oval vignette is baked into the sole source raster and retained; it is not claimed to have been removed.",
+        "role": "portrait",
+        "sequence": 2,
+        "source_page": 32,
+        "transformation": "PDF base image object 109. Native 143×165 PNG raster rendered from the original image and exact published Bezier oval clipping path; separate gray backing ellipse and black outline omitted. No other page content rendered. Separate gray backing ellipse and black border omitted. The pale feathered oval vignette is baked into the sole source raster and retained; it is not claimed to have been removed.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGBA PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        32,
+        33,
+        35
+      ],
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Beyond Humiliation: The Way of the Cross",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "43591e1ed8eb6517a938f87c7751eb9084caa05efd06876147ec4fcfc971bdcf",
+    "metadata_sha256": "7cf42cde03857563b59ed92c4a7f1fcb0adc981677906e89ba7b3aa9e524fe33",
+    "structure_sha256": "43c9b42eff5ee73c3ef333cf928bfc18363906afb6b460beb800f86eed89cf65",
+    "text_sha256": "845ef99df0c16a09e6c9c10645bb922dc27830d61976122c91e7d2eeecf00f9e",
+    "translation_metadata_sha256": "774ff68419a1a2c69d771d66f8ba6565f0af1914fd757535fb946dbd18a86ada"
+  },
+  "html": "<article data-article-id=\"e42b9bfa-1aad-46ca-8c89-7d19535e7eea\">\n  <figure><img src=\"/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-1.jpg\" alt=\"Jesus seated while men press a crown of thorns onto his head.\"></figure>\n  <blockquote><p><em>“These are the days of marvelous religious activity; but think of the disproportion between activity and achievement! Are there not multitudes of Christian workers who have grown so accustomed to failure that they have almost ceased to expect success? Surely, with so much preaching and teaching, with so much Bible circulation and tract distribution, we ought not only to be holding our ground, but to be making inroads upon the kingdom of darkness. Yet we are not nearly keeping pace with the increasing population of the world, and today there are more millions sitting in darkness and in the shadow of death than ever there were.”</em></p></blockquote>\n  <figure><img src=\"/images/articles/e42b9bfa-1aad-46ca-8c89-7d19535e7eea-2.png\" alt=\"Portrait of Gregory Mantle holding an open book.\"></figure>\n  <p>These were the words of Gregory Mantle. As a circuit preacher in England, missionary to India, China and Japan, writer, editor, and revival preacher, Mantle learned first hand the difference between the fallow ground of self-exertion and the rich harvest of a life and ministry alive in Christ.</p>\n  <p>Gregory Mantle was raised in a Christian home and attributed his salvation in part to the prayers and example of a godly mother and father. In recounting his conversion, he recalled his return home one evening after having attended a night service in which the preacher taught on the theme of “Being Past Feelings” (Eph. 4:19) and during which he fell under deep conviction. Upon entering his room, he cast himself to his bedside, and with penitent tears called upon God for pardon and salvation. When he looked up, he said he saw his father and mother standing there with tears running down their faces, because their prayers were being answered and their boy was coming to Jesus.</p>\n  <p>Soon after his conversion, Mantle found himself immersed in a life of ministry. For fifty-two years Mantle served the Lord in ministry, becoming well acquainted with its ups and downs. He learned to trust the omnipotent hand of God in times of success and failure—in joy and in grief. While much of his life’s work lays hidden, an epitome remains in his book, “Beyond Humiliation: The Way of The Cross.”</p>\n  <p>Mantle starts with an all-out attack on our most formidable and insidious foe—<em>self.</em> He warns that if we are not careful, through pride and vainglory, we could easily deceive ourselves into thinking we are something we are not. He urges us to examine whether much of the truth of who we really are may be too painful to face with honesty. He also gives some sobering caution, <em>“Before we invite God to search us, let us pause and ask whether we are willing that he should make a through work of this self-discovery, however painful and humbling it may be. If not, we had better not begin; for it is better to be without the light than to possess it and be disobedient.”</em></p>\n  <p>In confrontation of a self-deceived life he challenges, <em>“We may be claiming and even professing the experience of holiness, and yet know nothing of a total death to the carnal or natural life. The dress and conversation of the inhabitants of Canaan are imitable; but the true Divine life is as inimitable as life always is. Let us not mistake phraseology for experience, the maiming of the enemy for his death, sanctimoniousness for sanctification, unctuousness for unction, or the knowledge of the truth for the Spirit of truth, for when truths have once been fully revealed and been made a part of orthodoxy, the history of them does not necessarily imply an operation of the Spirit of God.”</em></p>\n  <p>Mantle believed strongly that nothing has wreaked so much havoc on the church as when men who, having no fear of God, proudly parade themselves as Christians while all the while they were really impostors of holiness. He chided, <em>“Nothing has done so much to discredit the teaching of holiness as the unlovely, censorious, self-assertive, spirit that has, alas! been so often displayed by those who have professed to know the experience.”</em></p>\n  <p>Commentating on John 12:24, <em>“…except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit”</em>, he stated that we cannot experience the true fruitfulness in Christ until we completely die. He really felt this to be an underlying cause for the barrenness of the church of his day. On this same note he explains further, <em>“Many, in their eagerness to succeed, are continually crying to God for the gift of spiritual power. But God cannot fulfill their desire, for He is a jealous God, and will not give His glory to another; and to trust men and women with spiritual power who are full of self-assertion would only be to feed their vanity and promote their self-idolization and love of self-display.”</em></p>\n  <p>Mantle taught that the crucifixion of <em>“self”</em> was a continual process, alerting the reader to be watchful for our temptation to pride as we grow in holiness. He noted that if we are truly maturing, then we should notice other areas of our lives needing to be put to death. He also gave a caution to search our hearts diligently, and that we not deceive ourselves into putting to death smaller things as a cover-up for the greater sins which we may be reluctant to resign. He wrote, <em>“There is a subtle temptation, as in the case of Saul, to destroy to worthless and keep alive the best; in other words, to destroy the gross and spare the refined manifestations of evil. But when we claim to have fulfilled the commandment of the Lord, the searching question comes to many of us with the same terrible power, as it must have come to the disobedient king: ‘what meaneth then this bleating of the sheep in mine ears; and the lowing of the oxen, which I hear.’”</em></p>\n  <p>Written more than a half a century before the advent of television and a century prior to the innovation we now call the Internet, Mantle warned Christians of his day not to fall prey to the lust of the flesh, and gave some strong words concerning the dangers of seeking gratification through self-indulgence and entertainment. He said, <em>“Think over the grim catalogue of Old Testament saints, and of New Testament saints too, who have fallen through the lust of the eyes. Let us not gratify this desire in any measure in even glancing at the poisoned pictures, and the poisoned literature which are thrust upon us today, and which are utterly unworthy of admission into Christian homes. It is a thousand times better to keep the heart pure, to have ‘nothing between,’ even though it means ignorance of a book over which the world has, for a few brief days, gone mad.”</em></p>\n  <p>Mantle’s overriding message was that the end result of a self-crucified life should not culminate in an idle, cloistered mysticism but rather, a life of fruitful service and action, led by God. The following passage best summarizes the heart of his cry: <em>“Fullness of life will certainly result in activity and intensity. The man who is really united to Jesus has his own life destroyed out of him and the life of Christ communicated to him. The life that Christ reproduces in us cannot be idle, unsympathetic, cold, parsimonious, or seclusive from men’s joys and sorrows... There ought to be no room for the objection that this life of perfect union with a risen Saviour leads to an introspective and largely meditative life. It is difficult to detect anything that is introspective in the lives of George Fox and John Wesley, for example after they had entered into resurrection-life…God is not the God of the dead, but of the living, and this newness of life is the crowning joy of union with the risen Jesus. We blunder when we make the mystic grave the goal; for we are the children of the resurrection, and the goal is life so unspeakably energizing, fresh, free, and joyous, as that words fail to describe its blessedness.”</em></p>\n  <p>Unfortunately, this book is now out of print. However, I did find a few copies available through:</p>\n  <p><strong>Rare Christian Books</strong><br>19275 Highway 28<br>Dixon, MO 65459 USA</p>\n  <p>Phone/Fax (573) 336-7316</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ac9b8dfaf81abe77949b14d8a01ad85b3e8d8270e2b077bcf3e99980f1941a4f"
+}

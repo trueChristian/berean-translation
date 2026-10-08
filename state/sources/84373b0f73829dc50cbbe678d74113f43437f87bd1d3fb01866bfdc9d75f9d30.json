@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Thomas Watson"
+        }
+      ],
+      "raw": "by Thomas Watson"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "67bceb61-cb79-40a3-851f-a9e4de0a2269",
+    "images": [
+      {
+        "alt": "Sheep and lambs in a field",
+        "caption": null,
+        "credit": "© landsendphotography.com - Fotolia.com",
+        "public_path": "/images/articles/67bceb61-cb79-40a3-851f-a9e4de0a2269-1.jpg",
+        "repository_path": "public/images/articles/67bceb61-cb79-40a3-851f-a9e4de0a2269-1.jpg",
+        "rights_note": "PDF Separation JPEG object 72 (970×1344): inverted samples to match the rendered page and encoded baseline RGB/sRGB. This is the only overlay-free sheep raster; its pale tonal fade is irreversibly baked into its raw pixels and retained without retouching. Later object 90 visibly bakes the article text into a lower-resolution copy and is omitted; separately painted page frame/shadows and lettering are omitted. Credit is printed vertically on page 7; it is a source credit, not a licence or separate-permission instruction.",
+        "role": "Sheep photograph behind the article text",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "I Know My Sheep",
+    "topics": [
+      "070854c3-dde7-5efd-a27d-30979196df0e",
+      "dce1b08d-f0a4-5f1c-8295-0a44aab49b23"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "92ded67c348fd27e65f2dd6f8d5c40710e14feae54737e184b824577a16b99e1",
+    "metadata_sha256": "4390185efaed56ce69e868ab95861f56127dbbd688d113f52bc29f5cc32e91c5",
+    "structure_sha256": "dfaaec5defcaf729e5605329d0762886adcf72f25a07efeae04d3054540380ca",
+    "text_sha256": "0c72285aa753cae6252580f77fa1560a2a5948f762fb60d5d7c832f2de67da85",
+    "translation_metadata_sha256": "c5479bede8e0e55bc08d28f0f4fc053f1f34fb3612ade6a33f15f3cf4a8fa27a"
+  },
+  "html": "<article data-article-id=\"67bceb61-cb79-40a3-851f-a9e4de0a2269\">\n  <figure><img src=\"/images/articles/67bceb61-cb79-40a3-851f-a9e4de0a2269-1.jpg\" alt=\"Sheep and lambs in a field\"></figure>\n  <p>“I am the good shepherd; <strong>I know My sheep.</strong>” John 10:14</p>\n  <p>Christ knows <em>all</em> His sheep. His <em>knowing</em> His sheep is His <em>loving</em> them. This is a great consolation.</p>\n  <p>He knows every one of their <strong>names.</strong> John 10:3, “He calls His own sheep by name.”</p>\n  <p>He knows all the <strong>sighs</strong> and <strong>groans</strong> they make. Psalm 38:9, “My groaning is not hidden from You.”</p>\n  <p>Christ knows every <strong>tear</strong> they shed. “I have seen your tears!” 2 Kings 20:5. He bottles their tears as precious wine. Psalm 56:8, “You keep track of all my sorrows. You have collected all my tears in Your bottle. You have recorded each one in Your book.”</p>\n  <p>He knows all their <strong>sufferings.</strong> “I have seen the way the Egyptians are oppressing them.” Ex. 3:9. “The Lord saw the bitter suffering of everyone in Israel.” 2 Kings 14:26</p>\n  <p>Christ knows all their good <strong>works</strong>—all their works of piety and charity. “I know all the things you do. I have seen your hard work and your patient endurance.” Revelation 2:2</p>\n  <p>“I am the good shepherd; <strong>I know My sheep.</strong>” <strong>What a comfort is this!</strong></p>\n  <p>“He will place the <em>sheep</em> at His right hand and the <em>goats</em> at His left. Then the King will say to those on the right—Come, you who are blessed by My Father, inherit the Kingdom prepared for you from the foundation of the world!” Matthew 25:33-34</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fbc0091f2e5803c99340fb23dac146c309c3737dc2b6d50f5a32644d1875dee3"
+}

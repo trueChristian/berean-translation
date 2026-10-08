@@ -1,0 +1,99 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dublin, GA",
+          "name": "Carolyn Yoder"
+        }
+      ],
+      "raw": "by Carolyn Yoder\nDublin, GA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "b08acac9-e6df-41ae-a564-afd9d9e9592a",
+    "images": [
+      {
+        "alt": "The poem All the Way printed over a field beneath cloudy sky",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b08acac9-e6df-41ae-a564-afd9d9e9592a-1.jpg",
+        "repository_path": "public/images/articles/b08acac9-e6df-41ae-a564-afd9d9e9592a-1.jpg",
+        "rights_note": "Original embedded PDF image object 78; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped only the baked exterior border and drop shadow. The title, complete poem, byline and gray photographic treatment are irreversibly baked into the only source raster; no clean field base exists. A small remaining field strip would not faithfully represent the scene, so the complete substantive composite is retained as an explicit unavoidable-overlay exception; no pixels were synthesized or inverse-blended. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "poem_background",
+        "sequence": 1,
+        "source_page": 19,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            18,
+            18,
+            1057,
+            1436
+          ],
+          "export_pixel_dimensions": [
+            1039,
+            1418
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 78,
+          "source_pixel_dimensions": [
+            1104,
+            1471
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "ALL THE WAY",
+    "topics": [
+      "be523b84-148a-5633-9947-03c7c310d50a",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "335ed8c637e4ce6930491beae3141cb1c1287c22573a7e0d0adbcc5d400748f8",
+    "metadata_sha256": "0d86132ed94159dcf085e03cc63c99181eee83a67111383a9ae9c7912432013e",
+    "structure_sha256": "76c50ae7909f86b78553e1bf8189869f890125a9c786c361887cc8666a9087cf",
+    "text_sha256": "9ab98c142d482da5bcc10b0ab87af81b03dc3f0f568f99482242a14fc416d5ec",
+    "translation_metadata_sha256": "72398acf7fc1ebb62fca9b55df1800258aa3d939c993acdfecdced7c9fd9101a"
+  },
+  "html": "<article data-article-id=\"b08acac9-e6df-41ae-a564-afd9d9e9592a\">\n  <figure><img src=\"/images/articles/b08acac9-e6df-41ae-a564-afd9d9e9592a-1.jpg\" alt=\"The poem All the Way printed over a field beneath cloudy sky\" /></figure>\n  <p class=\"poem\"><strong>Jesus, I’ll follow You all the way,<br />\nMy heart so merrily and blithely did say.<br />\nAnything, Lord, I’m willing to take,<br />\nFor the honor and glory of Your Name’s sake.<br />\nAnd He asked, “All the way?”</strong></p>\n  <p class=\"poem\"><strong>Spirit of God, fill me up to the brim,<br />\nEmpty me totally of sin, dark and grim,<br />\nClean up my life and let me reflect<br />\nYour Spirit of Love; don’t let me neglect.<br />\nAnd He asked, “Fill to the brim?”</strong></p>\n  <p class=\"poem\"><strong>Holy Father, make me truly like You<br />\nHoly in spirit, words, and deeds too,<br />\nLet me live daily Your praises to sing<br />\nAnd all my life exalt my blessed King.<br />\nAnd He asked, “Truly like Me?”</strong></p>\n  <p class=\"poem\"><strong>“My child,” He replied to my questioning glance,<br />\n“Your life will be sweeter and greatly enhance<br />\nBy yielding to me when the storm winds arise<br />\nAnd clouds at midday darken the skies.”</strong></p>\n  <p class=\"poem\"><strong>“True strength is measured by the test of the storm,<br />\nFor, lo, any tree can stand in the norm.<br />\nIf it’s still your desire to sell out for Me,<br />\nI’ll lovingly guide you o’er life’s raging sea.</strong></p>\n  <p class=\"poem\"><strong>“In the mountain tops, you will hear the bird’s song,<br />\nIn the valley below—I’ll be your song,<br />\nIn the thick and the thin, I’ll be by your side,<br />\nIf in my presence you choose to abide.</strong></p>\n  <p class=\"poem\"><strong>“When the going gets rough, and the valley so long,<br />\nDon’t throw up your hands, but break forth in song.<br />\nMy grace is sufficient to carry you through,<br />\nJust trust me and rest—I know what to do.”<br />\nAnd I said, “Thank you, Lord.”</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "feea46fb65ca229db387c1429202cd08095e8d376c058d2304fb09f227b21e7a"
+}

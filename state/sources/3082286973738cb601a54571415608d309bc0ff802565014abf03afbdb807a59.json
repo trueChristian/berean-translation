@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "b95441d5-cb14-4481-83a7-1a04bd355bfa",
+    "images": [
+      {
+        "alt": "A television set with an empty screen",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-1.jpg",
+        "repository_path": "public/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-1.jpg",
+        "rights_note": "Original embedded image object 81 from printed page 21; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Poem title, body text, and surrounding page decoration are separate objects and omitted. The pale television shading is already flattened into the sole source raster (no soft mask, transparency group, alternative base object, or evidenced exact inverse blend); retained without inventing darker pixels. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "poem background illustration",
+        "sequence": 1,
+        "source_page": 21
+      },
+      {
+        "alt": "A hammer striking a television set",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-2.jpg",
+        "repository_path": "public/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-2.jpg",
+        "rights_note": "Original embedded image object 82 from printed page 21; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. The PDF applies an outline clipping path to this same illustration; surrounding white contains no additional artwork. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "One-Eyed Monster",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8f508e9da42cc995898971320d572edf4af2943b7172cb9a46e4cd6b6b6078e2",
+    "metadata_sha256": "1035262ebbaa8cde224b82da01514e915a0371ef34095791aecd6b1393cd9cb9",
+    "structure_sha256": "317f33d9a0ad24855974d5c02a88408a56d2a47f21d23d888a01039344aa3638",
+    "text_sha256": "8ca2ab09fcd8dc1bf177fd742dfa5a25b0195525fc1fac29d62d1827991119ae",
+    "translation_metadata_sha256": "fcdc91e433f1ec5446585a7488bcb31b448a54c90a5631c335d0e19a5769c624"
+  },
+  "html": "<article data-article-id=\"b95441d5-cb14-4481-83a7-1a04bd355bfa\">\n  <figure>\n    <img src=\"/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-1.jpg\" alt=\"A television set with an empty screen\">\n  </figure>\n  <p class=\"poem\">We have an idol in our home<br>\n  with one great glaring eye,<br>\n  He occupies the foremost place<br>\n  and I will tell you why</p>\n\n  <p class=\"poem\">We sacrifice to him our time:<br>\n  because he’ll entertain<br>\n  And to our bulging eyes display<br>\n  all of life’s sorry train</p>\n\n  <p class=\"poem\">Of vice, and crime, and viciousness,<br>\n  or horror, shame, and sin<br>\n  (We’ve wasted many precious hours<br>\n  since we have let him in.)</p>\n\n  <p class=\"poem\">For now he dominates our home,<br>\n  for God we have no time,<br>\n  Our eyes are dimmed by gunsmoke and<br>\n  our mind is filled with crime.</p>\n\n  <p class=\"poem\">“I bring into your living room<br>\n  bartender, harlot, thief,<br>\n  And from the sick commercials<br>\n  I give you no relief.</p>\n\n  <p class=\"poem\">“I brainwash children, and prepare<br>\n  their minds by what they hear;<br>\n  I make attractive: violence,<br>\n  sin, cigarettes, and beer.</p>\n\n  <p class=\"poem\">“You speak of young delinquents and<br>\n  deplore their evil deeds<br>\n  While I continue merrily<br>\n  to sow the vicious seeds.</p>\n\n  <p class=\"poem\">“The cheating wife, or husband,<br>\n  is the accepted thing,<br>\n  We’re living in a ‘modern’ world,<br>\n  Go to it, have your fling!</p>\n\n  <p class=\"poem\">“Away with outworn ‘standards’,<br>\n  our day is modernized,<br>\n  There’s no such thing as right or wrong,<br>\n  for sin is glamorized.</p>\n\n  <p class=\"poem\">“I set the world’s criteria,<br>\n  I am the household god<br>\n  (If you protest against me,<br>\n  you’re a puritanic clod!)</p>\n\n  <p class=\"poem\">“I am the one that rules your home,<br>\n  from God I turn your heart,<br>\n  I fill your mind with banal trash<br>\n  by foul hypnotic art.”</p>\n\n  <p class=\"poem\">“Once family altars occupied<br>\n  the place where we now see<br>\n  The glaring eye of Cyclops,<br>\n  though now he’s called ‘TV’.”</p>\n\n  <p>taken from:<br>\n  <em>The Evangelist of Truth<br>\n  9901 Pendleton Pike<br>\n  Indianapolis, IN 462636</em></p>\n\n  <h2><em>Synonyms for TV:</em></h2>\n  <p>The Plug-in Drug, Trojan horse in the home, ReBELivision, junk tube, mind-mangling machine, Hell’s chaperone, open sewer, HELLevision, instrument of character destruction, debilitating bandit of the brain, abominable box, the mass hypnotic, smelly vision, the shrine of Hell, the devil’s big stick, the flickering blue parent, nefarious kleptomaniac, the great wasteland, the god with the glass face, Tormenting Vulture, Transformer of Values, electronic bondage, public enemy #1, the idol of America, the calamity of this country, &amp; damnable instrument of Satan to “program” you—a wicked, godless, devil-possessed device!</p>\n\n  <figure>\n    <img src=\"/images/articles/b95441d5-cb14-4481-83a7-1a04bd355bfa-2.jpg\" alt=\"A hammer striking a television set\">\n  </figure>\n  <p><em>“Mine eye affecteth mine heart...” Lamentations 3:51</em></p>\n  <p><em>“I will set no wicked thing before mine eyes: I hate the work of them that turn aside; it shall not cleave to me.” Psalm 101:3</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f93b8370f18ff78c984edb1153e7401321e6663f305b3ec3877dc116379cf667"
+}

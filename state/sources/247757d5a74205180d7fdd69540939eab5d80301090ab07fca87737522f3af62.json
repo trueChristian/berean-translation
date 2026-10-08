@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "unknown Ghanian",
+          "role": null
+        }
+      ],
+      "raw": "~By an unknown Ghanian"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f957067f-a69c-4321-a3cd-b28fe861eb40",
+    "images": [],
+    "issue_id": "e4a7fc78-9aac-5bb1-9566-12c2a6c03eff",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "Jesus",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f2d96e5e74ca2ff3820f110274c417a20a443ad5732e543a53034c2fde28b944",
+    "metadata_sha256": "80ae22af5f8613e0c21896d62824279ccdf32691f65c2d6772950b840e18f8a8",
+    "structure_sha256": "63bd49d39b9b19a423f73c39d3ce48f80522e25e85abd6282b1194c5dc9edcca",
+    "text_sha256": "f1796802da046a77048844c8bf023e69d42664c62d1089b832277c72c247bd24",
+    "translation_metadata_sha256": "efc5a07ee3025cfd301f2b4c1c060de39d7cc8b42433dd8f20dde147954b8722"
+  },
+  "html": "<article data-article-id=\"f957067f-a69c-4321-a3cd-b28fe861eb40\">\n  <p class=\"poem\">This man is a man of contrasts!<br>\n    To Judah, He is a lion,<br>\n    Yet He is the Lamb of God.<br>\n    He is a Lamb,<br>\n    Yet He is also the Good Shepherd.<br>\n    He paid tribute,<br>\n    Yet He is a King.<br>\n    He is King of kings,<br>\n    Yet He came to serve and to die.</p>\n  <p class=\"poem\">This man is man of real contrasts!<br>\n    He is the Bread of Life,<br>\n    Yet He hungered in the wilderness.<br>\n    He is the water of life,<br>\n    Yet He thirsted on the cross.<br>\n    He is the spring of life,<br>\n    Yet He is also a rock.<br>\n    He has no place to lay His head,<br>\n    Yet He is our rest and our refuge.<br>\n    He was called a devil,<br>\n    Yet He casts out demons.<br>\n    He prayed,<br>\n    Yet He hears our prayers.</p>\n  <p class=\"poem\">This man is a man of true contrasts!<br>\n    The lowly carpenter of Nazareth,<br>\n    Yet the Great Architect of the universe.<br>\n    He was sold for thirty pieces of silver,<br>\n    Yet He redeems sinners.<br>\n    He wept,<br>\n    Yet He dries our tears.<br>\n    He died,<br>\n    Yet He destroyed death.</p>\n  <p class=\"poem\">This man, yes! a man of eternal contrasts!<br>\n    And so the Son of God<br>\n    Is also the Son of man.<br>\n    The eternally righteous son of God,<br>\n    Yet killed as a criminal by men.<br>\n    But as God is not a man,<br>\n    And man is not God,<br>\n    The contrasts in Jesus<br>\n    Mean the unity of God and man.</p>\n  <p>~By an unknown Ghanian</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fa2be013e7b0f9f25c457c646fe92ba25831363cc265e44937218d1f0e425a95"
+}

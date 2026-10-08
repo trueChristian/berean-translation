@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Oscar Romero",
+          "role": null
+        }
+      ],
+      "raw": "~Oscar Romero"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "7d6d6577-a9d9-4202-8362-9191ab4df5f9",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7d6d6577-a9d9-4202-8362-9191ab4df5f9-1.png",
+        "repository_path": "public/images/articles/7d6d6577-a9d9-4202-8362-9191ab4df5f9-1.png",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The issue-level art notice states “Some images © 2001-2012,” followed by www.clipart.com and www.sxc.hu; the PDF does not identify this asset’s individual source. The four embedded image tiles were joined in their published arrangement and stored as an sRGB PNG, preserving the published dimensions, crop, orientation, and content.",
+        "role": "seedling background image",
+        "sequence": 1,
+        "source_page": 28
+      }
+    ],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "The Long View",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c8c09d9c5a730b9efe386631db97399b99e429a13093ab3599a04fda62b5a1f0",
+    "metadata_sha256": "3274932398e3efea284bcda1573941e894eb73345a2501b700e595c67df6666b",
+    "structure_sha256": "b644857c585f7e61c8310051000f499e508ee25099bdfbdf87c29f6d0b2355f6",
+    "text_sha256": "e49703199bb8a23a87c925f6521300f649d49e80567e47481b54bb38cf146bc2",
+    "translation_metadata_sha256": "172d6b45a35ba4cc2a8f553d15962829f06adbf95c2baacfc6ff7d736b1360dd"
+  },
+  "html": "<article data-article-id=\"7d6d6577-a9d9-4202-8362-9191ab4df5f9\">\n  <figure>\n    <img src=\"/images/articles/7d6d6577-a9d9-4202-8362-9191ab4df5f9-1.png\" alt=\"\">\n  </figure>\n  <blockquote>\n    <p>“It helps, now and then, to step back and take a long view. The kingdom is not only beyond our efforts, it is even beyond our vision. We accomplish in our lifetime only a tiny fraction of the magnificent enterprise that is God’s work. Nothing we do is complete, which is a way of saying that the kingdom always lies beyond us.</p>\n    <p>No statement says all that could be said. No prayer fully expresses our faith. No confession brings perfection. No pastoral visit brings wholeness. No program accomplishes the church’s mission. No set of goals and objectives includes everything.</p>\n    <p>This is what we are about. We plant the seeds that one day will grow. We water seeds already planted, knowing that they hold future promise. We lay foundations that will need further development. We provide yeast that produces far beyond our capabilities. We cannot do everything, and there is a sense of liberation in realizing that.</p>\n    <p>This enables us to do something, and to do it very well. It may be incomplete, but it is a beginning, a step along the way, an opportunity for the Lord’s grace to enter and do the rest. We may never see the end results, but that is the difference between the master builder and the worker. We are workers, not master builders; ministers, not messiahs. We are prophets of a future not our own. Amen.”</p>\n  </blockquote>\n  <p>~Oscar Romero</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "35d87363a0592a12aaf2d01194e1cb636ae63c7f4932646ac91751a87c85f69c"
+}

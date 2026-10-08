@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Arthur Guiterman"
+        }
+      ],
+      "raw": "Arthur Guiterman\nGaily the Troubadour, 1936"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "2c60ae9c-dd8b-4f66-936f-ed6f94ec9927",
+    "images": [
+      {
+        "alt": "A cross overlooking the sea",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c60ae9c-dd8b-4f66-936f-ed6f94ec9927-1.jpg",
+        "repository_path": "public/images/articles/2c60ae9c-dd8b-4f66-936f-ed6f94ec9927-1.jpg",
+        "rights_note": "Embedded photo object 80 is the only source and includes irreversibly baked title, poem and attribution over the left side. A meaningful unobstructed right-side source-pixel crop preserves the complete visible cross and sea while omitting that typography. No hidden pixels reconstructed or synthesized. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            510,
+            0,
+            1050,
+            750
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            540,
+            750
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1051,
+            750
+          ],
+          "source_object": 80
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "godless",
+    "topics": [
+      "71b4f992-d7ff-5b6a-b1d5-2f08160b4dfa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a8975661b0317c03627077bedd10a28b83202a953c376cf6a80ff933d11c36d9",
+    "metadata_sha256": "59fa0b42db8331bd7c12ae12f22ae7544a1e6f4e4e8d90b7249997a9ff69733c",
+    "structure_sha256": "3c29a1abf87b747dea78e6c729e62c72914695d7db3d956fbd21b402e3e26dca",
+    "text_sha256": "9198258a50c5fdc19ee08196b43ec04808ae3097c9ad303d5268a12e3ae51513",
+    "translation_metadata_sha256": "ea221da2b2a9eb50dce7c43c19979c10e13b2981964e8f01ce979e15d497b28c"
+  },
+  "html": "<article data-article-id=\"2c60ae9c-dd8b-4f66-936f-ed6f94ec9927\">\n  <figure><img src=\"/images/articles/2c60ae9c-dd8b-4f66-936f-ed6f94ec9927-1.jpg\" alt=\"A cross overlooking the sea\"></figure>\n  <p class=\"poem\"><strong>First dentistry was painless;<br>\nThen bicycles were chainless<br>\nAnd carriages were horseless<br>\nAnd many laws, enforceless.<br>\nNext, cookery was fireless,<br>\nTelegraphy was wireless,<br>\nCigars were nicotineless<br>\nAnd coffee, caffeineless.<br>\nSoon oranges were seedless,<br>\nThe putting green was weedless,<br>\nThe college boy hatless,<br>\nThe proper diet, fatless,<br>\nNow motor roads are dustless,<br>\nThe latest steel is rustless,<br>\nOur tennis courts are sodless,<br>\nOur new religions, godless.</strong></p>\n  <p><strong>Arthur Guiterman<br>Gaily the Troubadour, 1936</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9849de650bbb505de8f883f68947bfad440a40f02cae8d787caf9c221d7e5a8e"
+}

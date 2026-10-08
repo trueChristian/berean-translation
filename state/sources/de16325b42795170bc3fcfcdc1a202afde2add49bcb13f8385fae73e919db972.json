@@ -1,0 +1,111 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver",
+          "role": null
+        }
+      ],
+      "raw": "Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "ccbccd6f-c51e-4e7e-a758-a9237aa8cc63",
+    "images": [
+      {
+        "alt": "A basket filled with strawberries",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-1.jpg",
+        "repository_path": "public/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-1.jpg",
+        "rights_note": "No caption, creator credit, license, or article-specific permission notice is stated. The clean embedded 401×268 RGB JPEG was re-encoded as a standards-normalized baseline sRGB JPEG at 150 ppi because the extracted asset had undefined JFIF density. Dimensions, published crop, orientation, vignette, and content were preserved.",
+        "role": "lead photograph",
+        "sequence": 1,
+        "source_page": 28
+      },
+      {
+        "alt": "A woman seated at a desk writing",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-2.jpg",
+        "repository_path": "public/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-2.jpg",
+        "rights_note": "No caption, creator credit, license, or article-specific permission notice is stated. The embedded 301×552 separation/grayscale JPEG used inverse sample polarity in the PDF. Its samples were inverted to match the rendered page and it was converted to a standards-normalized baseline RGB/sRGB JPEG at 150 ppi. Dimensions, oval crop, orientation, and content were preserved.",
+        "role": "inline illustration",
+        "sequence": 2,
+        "source_page": 29
+      },
+      {
+        "alt": "A man hoeing a garden",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-3.jpg",
+        "repository_path": "public/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-3.jpg",
+        "rights_note": "No caption, creator credit, license, or article-specific permission notice is stated. The embedded 492×455 separation/grayscale JPEG used inverse sample polarity in the PDF. Its samples were inverted to match the rendered page and it was converted to a standards-normalized baseline RGB/sRGB JPEG at 150 ppi. Dimensions, crop, orientation, and content were preserved.",
+        "role": "inline illustration",
+        "sequence": 3,
+        "source_page": 29
+      },
+      {
+        "alt": "A watering can and garden tools",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-4.jpg",
+        "repository_path": "public/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-4.jpg",
+        "rights_note": "No caption, creator credit, license, or article-specific permission notice is stated. The embedded 371×320 separation/grayscale JPEG used inverse sample polarity in the PDF. Its samples were inverted to match the rendered page and it was converted to a standards-normalized baseline RGB/sRGB JPEG at 150 ppi. Dimensions, crop, orientation, and content were preserved.",
+        "role": "inline illustration",
+        "sequence": 4,
+        "source_page": 30
+      },
+      {
+        "alt": "A still life of assorted garden vegetables",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-5.jpg",
+        "repository_path": "public/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-5.jpg",
+        "rights_note": "No caption, creator credit, license, or article-specific permission notice is stated. The published still life was stored as three adjacent inverse-polarity separation/grayscale JPEG tiles (508×488, 508×488, and 74×488). The tiles were joined left-to-right without overlap or rescaling, their samples were inverted to match the rendered page, and the 1090×488 result was encoded as a standards-normalized baseline RGB/sRGB JPEG at 150 ppi. The published crop, aspect ratio, orientation, and content were preserved.",
+        "role": "closing photograph",
+        "sequence": 5,
+        "source_page": 30
+      }
+    ],
+    "issue_id": "7b66dc2b-492e-5b1f-8104-be30583e6f80",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "note": "The complete article, quoted letter, poem attribution, final scripture, image areas, and final line were visually checked. No wording requires separate permission to copy, reproduce, use, or reprint the article or any image.",
+      "pages_checked": [
+        28,
+        29,
+        30
+      ],
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "Marriage Is Like a Garden",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "17770a20c9071cac6d5da521ac92340e3d2355f6089148df8384483c2287eeff",
+    "metadata_sha256": "d84928cdb691b0bbc9c0213af0e9b8f5e3ead4635d03b6b7a5acf165f30b62b7",
+    "structure_sha256": "b577080e32c06721e107ef7b3dee9c57548fbe17335b53b698b81a05633ecfb8",
+    "text_sha256": "f6b28d97e06c857ebbcc554f703dd43ce75effb972138cc719dfb950e54c8050",
+    "translation_metadata_sha256": "ad7e893172439c208e4ea2331eeddce770bfbc758069a401d31bb0d35278be60"
+  },
+  "html": "<article data-article-id=\"ccbccd6f-c51e-4e7e-a758-a9237aa8cc63\">\n  <figure>\n    <img src=\"/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-1.jpg\" alt=\"A basket filled with strawberries\" loading=\"lazy\">\n  </figure>\n  <p>Let me take you back 33 years ago when a young man and a young lady were courting.</p>\n  <p>They lived about 600 miles apart and most of their courting was done by letter. One day, after about a year of courtship, mostly by mail, the young lady was feeling very insecure. She looked at the problems in the home where she was born and in many of the homes of the students that she was teaching. As she looked, she realized that the wife and mother of the home held a very important key to making the home happy. She knew that it also depended on the man, but she was looking at her own role. She began to wonder if she could do her part to make a happy home. She knew this was God’s plan, but she had never had a good role model to watch closely. Could she do it? Was it better for her to stay single and teach school and be happy in the calling she was finding so fulfilling?</p>\n  <p>One night she wrote these things to the young man. She asked to be relieved from the relationship and she shared her fears with him. She wrote what she believed that marriage was to be, and how few people she knew that really lived that way. It was a rather long letter, and it ended with these words: “You have not done anything that makes me want to dissolve the relationship. It is rather that I am not sure that I can be who I need to be, and so I would like to end this relationship, though I have enjoyed it very much.”</p>\n  <p>The young man was very surprised when he received this letter. He was happy and secure and had good role models in his home. He understood a tiny bit about where the young lady was coming from, but he did not want to lose her. He was a patient, quiet, thinking young man, and he did not panic. They were not accustomed to spending much time on the phone because it was expensive, so he did not call her. Rather he went about his normal work, thinking and praying. It was the last of March, and they were planting an early garden. He was in charge of much of the work in the garden since his mother had heart problems, and as he was planting, he began to see the likeness between a marriage and a garden. By the time the soil was tilled and the peas, lettuce, spinach, and radishes were in the ground, his allegory was ready to be written. This is what he wrote:</p>\n  <blockquote>\n    <p>Tonight my books and students’ report cards must wait, for I am going to have a good talk with you.</p>\n    <p>This evening we were planting garden and I made some comparisons that I want to share. I was thinking about your letter and decided that in some ways marriage is like a garden. We certainly would not plant seeds if we did not expect them to grow. Nor do we look for the whole crop the day after we plant. Neither can we do all the hoeing and watering that will be needed, ahead of time. I am planning to do some hoeing this summer, and we will probably pull some thistles. If it gets dry, we may need to water the garden. We will train the bean vines up the poles as they grow, and certainly not before they have trailers. When the fruit is ripe we will enjoy it, since that is why we planted the garden.</p>\n    <figure>\n      <img src=\"/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-2.jpg\" alt=\"A woman seated at a desk writing\" loading=\"lazy\">\n    </figure>\n    <p>I think you would consider me a very unusual gardener if I told you I was not expecting any weeds to come up, or if I thought the peas would pick themselves and the strawberries would jump into the dishpan on their own. But you also think I am a little “funny” if I told you that I didn’t think my strawberry plants would ever bear strawberries, or my lettuce, lettuce leaves. It will take some of my time to have a garden, and there might be times when I will need to stay home to care for it, when I could have gone away if I did not have a garden.</p>\n    <p>Have you been following my line of thinking? Did you read between the lines? I think you did, but in case it is not clear I am going to make it clear. I certainly would not be courting you (planting) if I did not expect to reap a happy future. Even though the blessings of your friendship are many, I am expecting more (and Dad tells me, better ones! Sometimes I wonder how—but I believe it since he said so).</p>\n    <p>I certainly cannot solve the problems that will “grow” before they get here, nor can I add the needed “moisture” before it is dry. However, I am expecting that there will be some little problems to “hoe” out as time progresses. Maybe I will need to do some unpleasant things because they are needed (pulling thistles).</p>\n    <p>But you see, I want a “garden” in spite of that. I am ready to get a little “dirty” to enjoy the results. You and I will both need the “waters” of encouragement when things get a little “dry.” We will need to build the home as we get there; we cannot do it ahead of time. (But we do have a blueprint.) And of course we expect to enjoy the fully-ripe fruit of love. Isn’t that why we are planting?</p>\n    <p>Now don’t you think that I would be deceived if I told you that I thought you were perfect and we would never have a bit of problems? (I want to remind you that I am not perfect either.) To be sure, if we let the weeds of misunderstanding grow until they are as tall as we are, we would certainly have trouble pulling them out! But we can “hoe” them out before they are even very noticeable. This will stimulate the “good” plants to faster growth.</p>\n    <p>I would be deluded to think that fruits of love would hop into my lap without any effort, or to think that there will likely not be any fruit of love. To be sure, it will take some of my time. I will need to spend time with “the family.” But when it is done, will I not say that it was worth it all? And if I had another chance (year), would I not do the same? Would I not be thankful?</p>\n    <figure>\n      <img src=\"/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-3.jpg\" alt=\"A man hoeing a garden\" loading=\"lazy\">\n    </figure>\n    <p>Imagine with me for a moment how you would feel if this letter was only one paragraph long, telling you that if that is the way things are, I am not interested anymore. What if it was telling you that we will just forget it all? Would the color drain from your face and something go tight in your stomach? Do you think you would care? Have the “seeds” sprouted? Are they healthy, tender plants? I think we have just “hoed” our “garden” again. This is the kind of thing that I am talking about. When there are problems or misunderstandings, we need to work with them and communicate our hearts to each other.</p>\n    <p>Let’s look at another side of it. Do you think that God would have instituted marriage if it cannot be worked out? Do you think He would have used marriage as a type of the relationship between Christ and the church if it could not be worked out correctly? What is God’s attitude toward marriage anyway? Should we stagger at the promises of God? Has He not promised that He will never give us more than we can handle with Him? Why then should you think that you are not able to face marriage? Is not marriage God’s all-wise plan? Did God lead you this way? If your answer is “yes,” are there any grounds for doubt? “Never doubt in the dark what God told you in the light.” Please understand me. I am not scolding you. I am only asking these questions to stimulate your mind. I only want to encourage you ...”</p>\n  </blockquote>\n  <p>We were that young couple thirty-three years ago. A year and a few months later we were married. We experienced “dry” times and “wet” times. We pulled weeds and hoed thistles. We had “crop damage” and even “crop failure.” Through it all, we desired to keep Jesus first, to claim His promises and do things His way. When things went wrong, we would try again. True to God’s promises, we are experiencing a harvest of the sweet fruits of love, joy, and peace.</p>\n  <p>Many times as we look back over our lives, we remember the letter that Myron wrote when we were both young. The message is still the same. We have shared it with other struggling couples, and we would like to share it with you. Perhaps it will make a difference in your “garden of love.” Perhaps it will give you hope. Maybe it will give you the desire to try again even if your garden is full of thistles.</p>\n  <figure>\n    <img src=\"/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-4.jpg\" alt=\"A watering can and garden tools\" loading=\"lazy\">\n  </figure>\n  <p>Do not give up—even if your ground is hard and dry. Till your ground with prayer and water it with kind words. Patiently do the day-to-day work in it, weeding and planting and tending it with care. You will not fail to be rewarded by God for your labor of love. Your Heavenly Father takes notice of each kind word and deed and every cup of cold water in Jesus’ name. The promises are yours and the power to have victory is yours through faith in Christ Jesus, the Master Gardener. The fruit is worth the labor!</p>\n  <blockquote class=\"poem\">\n    <p>Go, labor on; spend and be spent,<br>\n    Thy joy to do the Father’s will.<br>\n    It is the way the Master went;<br>\n    Should not the servant tread it still?</p>\n    <footer>-<em>Horatius Bonar</em></footer>\n  </blockquote>\n  <blockquote>\n    <p>“<em>... Heirs together of the grace of life, that your prayers be not hindered.</em>” 1 Pe. 3:7 ~</p>\n  </blockquote>\n  <figure>\n    <img src=\"/images/articles/ccbccd6f-c51e-4e7e-a758-a9237aa8cc63-5.jpg\" alt=\"A still life of assorted garden vegetables\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c29157c229fdb98afd005f62de9d6bbf85f6497471b7bd7e0104adda7f0174a3"
+}

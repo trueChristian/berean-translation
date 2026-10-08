@@ -1,0 +1,130 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Jonathan Edwards"
+        }
+      ],
+      "raw": "by Jonathan Edwards"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "ba204973-5346-48b3-9a8b-a4ce5646514b",
+    "images": [
+      {
+        "alt": "Engraved portrait of Jonathan Edwards",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-1.jpg",
+        "repository_path": "public/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-1.jpg",
+        "rights_note": "Clean embedded image object 15. Elliptical layout clipping only affects white background; complete portrait artwork retained. Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            258,
+            311
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            258,
+            311
+          ],
+          "source_object": 15
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of Paul parting from the disciples",
+        "caption": "PAUL PARTING FROM THE DISCIPLES.",
+        "credit": null,
+        "public_path": "/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-2.jpg",
+        "repository_path": "public/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-2.jpg",
+        "rights_note": "Clean embedded image object 19. Caption is intrinsic to the only source raster and retained, with an exact semantic figcaption for accessibility; no separate publisher overlay is baked into the export. Source image dictionaries, page resources, paint order, clipping paths and graphics states were inspected. The asset is untiled, without a soft mask or transparency group; graphics state 232 has no opacity blend. Separate page typography, rules and furniture are omitted. No image-specific credit, licence or reuse restriction is printed; general issue-level credits do not identify this asset. DeviceGray source converted without sample inversion to baseline sRGB JPEG with embedded sRGB profile, quality 95, 4:4:4 sampling and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding passed without warnings. Skia Canvas rendering and full-resolution visual comparison to the source page passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded asset; source-pixel crop only where recorded",
+          "output_dimensions": [
+            750,
+            544
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            750,
+            544
+          ],
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "pages": [
+        3,
+        4,
+        9
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "A Defense of Passion, Joy, and Zeal for the Things of God",
+    "topics": [
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "18ac5e23482151b1371899f5e4ddf15fcc3427103723692423a50eab3902e3fe",
+    "metadata_sha256": "7df8c14a49ca713d417048f7062837e9e6dba95c7fbb218e282e1c131d880c5c",
+    "structure_sha256": "19d28d2ed3b543cf6899dd098025debbf890158cfe60cc55cd729e5a8cf03777",
+    "text_sha256": "cd88da62efc1ca4ca8778bc617f7a5065877a6897d057569b91a9e696029b9e5",
+    "translation_metadata_sha256": "7339efd96e43cf6d070d07981b60be861c769e3b509a26e46d270369dc83c5f0"
+  },
+  "html": "<article data-article-id=\"ba204973-5346-48b3-9a8b-a4ce5646514b\">\n  <p>It is no sign one way or the other, that religious affections are very great, or raised very high.</p>\n  <figure>\n    <img src=\"/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-1.jpg\" alt=\"Engraved portrait of Jonathan Edwards\">\n  </figure>\n  <p>Some are ready to condemn all high affections: if persons appear to have their religious affections raised to an extraordinary pitch, they are prejudiced against them, and determine that they are delusions, without further inquiry. But if it be, as has been proved, that true religion lies very much in religious affections, then it follows, that if there be a great deal of true religion, there will be great religious affections; if true religion in the hearts of men be raised to a great height, divine and holy affections will be raised to a great height.</p>\n  <p>Love is an affection, but will any Christian say, men ought not to love God and Jesus Christ in a high degree? And will any say, we ought not to have a very great hatred of sin, and a very deep sorrow for it? Or that we ought not to exercise a high degree of gratitude to God for the mercies we receive of him, and the great things he has done for the salvation of fallen men? Or that we should not have very great and strong desires after God and holiness? Is there any who will profess, that his affections in religion are great enough; and will say, “I have no cause to be humbled, that I am no more affected with the things of religion than I am; I have no reason to be ashamed, that I have no greater exercises of love to God and sorrow for sin, and gratitude for the mercies which I have received?” Who is there that will bless God that he is affected enough with what he has read and heard of the wonderful love of God to worms and rebels, in giving his only begotten Son to die for them, and of the dying love of Christ; and will pray that he may not be affected with them in any higher degree, because high affections are improper and very unlovely in Christians, being enthusiastical, and ruinous to true religion?</p>\n  <p>Our text plainly speaks of great and high affections when it speaks of “repining with joy unspeakable, and full of glory:” here the most superlative expressions are used, which language will afford. And the Scriptures often require us to exercise very high affections: thus in the first and great commandment of the law, there is an accumulation of expressions, as though words were wanting to express the degree in which we ought to love God: “Thou shalt love the Lord thy God with all thy heart, with all thy soul, with all thy mind, and with all thy strength.” So the saints are called upon to exercise high degrees of joy: “Rejoice,” says Christ to his disciples, “and be exceeding glad,” Matt. 5:12. So it is said, Psalm 68:3, “Let the righteous be glad: let them rejoice before God: yea, let them exceedingly rejoice.” So in the book of Psalms, the saints are often called upon to shout for joy; and in Luke 6:23, to leap for joy. So they are abundantly called upon to exercise high degrees of gratitude for mercies, to “praise God with all their hearts, with hearts lifted up in the ways of the Lord, and their souls magnifying the Lord, singing his praises, talking of his wondrous works, and declaring his doings.”</p>\n  <p>And we find the most eminent saints in Scripture often professing high affections. Thus the Psalmist speaks of his love, as if it were unspeakable; Ps. 119:97, “O how love I thy law!” So he expresses a great degree of hatred of sin, Ps. 139:21, 29: “Do not I hate them, O Lord, that hate thee? And am not I grieved with them that rise up against thee? I hate them with perfect hatred.” He also expresses a high degree of sorrow for sin: he speaks of his sins “going over his head as a heavy burden that was too heavy for him: and of his roaring all the day, and his moisture being turned into the drought of summer,” and his bones being as it were broken with sorrow. So he often expresses great degrees of spiritual desires, in a multitude of the strongest expressions which can be conceived of; such as “his longing, his soul’s thirsting as a dry and thirsty land, where no water is, his panting, his flesh and heart crying out, his soul’s breaking for the longing it hath,” &amp;c. He expresses the exercises of great and extreme grief for the sins of others, Ps. 119:136, “Rivers of water run down mine eyes, because they keep not thy law.” And verse 53, “Horror hath taken hold upon me, because of the wicked that forsake thy law.” He expresses high exercises of joy, Ps. 21:1: “The king shall joy in thy strength, and in thy salvation how greatly shall he rejoice.” Ps. 71:23 “My lips shall greatly rejoice when I sing unto thee.” Ps. 63:3, 4, 5, 6, 7, “Because thy loving kindness is better than life; my lips shall praise thee, Thus will I bless thee, while I live: I will lift up my hands in thy name. My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with joyful lips; when I remember thee upon my bed, and meditate on thee in the night watches. Because thou hast been my help; therefore in the shadow of thy wings will I rejoice.”</p>\n  <p>The Apostle Paul expresses high exercises of affection. Thus he expresses the exercises of pity and concern for others’ good, even to anguish of heart; a great, fervent, and abundant love, and earnest and longing desires, and exceeding joy; and speaks of the exultation and triumphs of his soul, and his earnest expectation and hope, and his abundant tears, and the travails of his soul, in pity, grief, earnest desires, godly jealousy, and fervent zeal, in many places that have been cited already, and which therefore I need not repeat. John the Baptist expressed great joy, John 3:39. Those blessed women that anointed the body of Jesus, are represented as in a very high exercise of religious affection, on occasion of Christ’s resurrection, Matt. 28:8: “And they departed from the sepulcher with fear and great joy.”</p>\n  <figure>\n    <img src=\"/images/articles/ba204973-5346-48b3-9a8b-a4ce5646514b-2.jpg\" alt=\"Engraving of Paul parting from the disciples\">\n    <figcaption>PAUL PARTING FROM THE DISCIPLES.</figcaption>\n  </figure>\n  <p>It is often foretold of the church of God, in her future happy seasons here on earth, that they shall exceedingly rejoice: Ps. 89:15, 16, “They shall walk, O Lord, in the light of thy countenance. In thy name shall they rejoice all the day: and in thy righteousness shall they be exalted.” Zech. 9:9, “Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold thy King cometh,” &amp;c. The same is represented in innumerable other places. And because high degrees of joy are the proper and genuine fruits of the gospel of Christ, therefore the angel calls this gospel, “good tidings of great joy, that should be to all people.”</p>\n  <p>The saints and angels in heaven, that have religion in its highest perfection, are exceedingly affected with what they behold and contemplate of God’s perfections and works. They are all as a pure heavenly flame of fire in their love and in the greatness and strength of their joy and gratitude: their praises are represented, “as the voice of many waters and as the voice of a great thunder.” Now the only reason why their affections are so much higher than the holy affections of saints on earth, is, they see the things they are affected by, more according to their truth, and have their affections more conformed to the nature of things. And therefore, if religious affections in men here below, are but of the same nature and kind with theirs, the higher they are, and the nearer they are to theirs in degree, the better, because therein they will be so much the more conformed to truth, as theirs are.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f5859a323e9a05cbae8e57524d307a281007677862548a737a0ddad794277d88"
+}

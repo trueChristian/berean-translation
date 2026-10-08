@@ -1,0 +1,131 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Killbuck, Ohio",
+          "name": "Dwayne Stoltzfus"
+        }
+      ],
+      "raw": "Dwayne Stoltzfus\nKillbuck, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "9a1995a0-dad2-4769-a267-2d05ae256e2b",
+    "images": [
+      {
+        "alt": "Bare trees beside a snow-covered field.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-1.jpg",
+        "repository_path": "public/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-1.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 48 exists on PDF page 10, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [0, 750, 1568, 2067] (left, top, right, bottom) without resizing, rotation or pixel repair. Pages 10–11 visibly form a continuous panorama. This distinct left-hand source region preserves the full tree landscape; empty upper sky is cropped to reduce severe reverse-page show-through. Remaining show-through is baked into the source and is retained. The masthead explicitly credits page 10. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "opening landscape photograph",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            750,
+            1568,
+            2067
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1568,
+            1317
+          ],
+          "rotation_degrees": 0,
+          "source_object": 48
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Snow-covered fields with distant silos and bare trees.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-2.jpg",
+        "repository_path": "public/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-2.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 52 exists on PDF page 11, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [0, 1340, 1548, 2060] (left, top, right, bottom) without resizing, rotation or pixel repair. Pages 10–11 visibly form a continuous panorama. This distinct right-hand source region contains unique field/silo detail and is cropped below all Slow Down prose. Faint reverse-page show-through and the baked upper fade remain. The masthead credits page 10 of this panorama; no separate page-11 credit is printed. The two page regions are not stitched or resampled. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "closing landscape photograph",
+        "sequence": 2,
+        "source_page": 11,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1340,
+            1548,
+            2060
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1548,
+            720
+          ],
+          "rotation_degrees": 0,
+          "source_object": 52
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Slow Down",
+    "topics": [
+      "3e9611a8-f79d-544b-901f-4e8227b39b80",
+      "e299dccf-417c-549a-940d-796c4ccded56"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "08a5fc6f6e395cd306adbee8de0e962ff25692797a2b90838cdea0d4663992b7",
+    "metadata_sha256": "097f2c936df60f32ad25cb31fd37a138a1b552eab4fca5a73d35b0e6228df807",
+    "structure_sha256": "c326ee3fc7a878223ac5f9e8b65035490871f96d19169bc25e8e7ff15c606c98",
+    "text_sha256": "e6493b545f462a2abbc8490ce90babf47f46a844804c0fc2956e9e08823542ae",
+    "translation_metadata_sha256": "5f346499a42bf0da8a8967c80ba5d38c55bccab3af21e4feb52868bba0e1789a"
+  },
+  "html": "<article data-article-id=\"9a1995a0-dad2-4769-a267-2d05ae256e2b\">\n  <figure><img src=\"/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-1.jpg\" alt=\"Bare trees beside a snow-covered field.\"></figure>\n  <p>Life is full of decisions. Daily, we are faced with thousands of choices—what we eat, what we wear, what we say, where we go, etc. The choices we make affect our lifestyle. Our lifestyle affects how busy we are. Our level of busyness then becomes a choice.</p>\n  <p>While the analogy of running a race is used in the Bible, walking is primarily used to describe the Christian life. Ephesians 5 tells us to “walk in love and walk as children of light.” Later on, we are told to “walk circumspectly.”</p>\n  <p>When we race around trying to go to every conference, every reunion, every fundraiser, every invitation, every activity, our Christian walk turns into a run.</p>\n  <p>We tend to blame others for making our lives so busy. While it’s true that other people can quickly plan our lives and make us busy, as individuals and leaders in our homes, <em>we</em> are responsible for how busy we are. Busyness is a choice. Sometimes it’s better for our spiritual lives and our families if we say “no” to an activity or invitation—as good as it may be. If we don’t take control of our schedule, others will.</p>\n  <p>Our high-tech world is taking our time captive. Let’s be careful that we don’t glory in being so busy. Recognize the fact that God created humans with limitations—we can’t do everything. Learn to say, “I would love to do that and feel it’s a noble work, but my plate is full enough.”</p>\n  <p>God wants us to run away from fornication and youthful lusts, but then to walk in love and redeem the time. God wants us to be still—to slow down—so we can commune with Him. Schedule times of rest and quietness, and learn to appreciate them.</p>\n  <p>While idleness is the devil’s workshop, busyness can be his tranquilizer. Colossians 4:5 tells us to “Walk in wisdom toward them that are without, redeeming the time.” Being too busy can dull our senses to wise living. It can make us so tired that we lose sharpness to the devil’s tactics. It can make us so tired that the Sunday morning sermon lulls us to sleep.</p>\n  <p>“He maketh me to lie down in green pastures: he leadeth me beside the still waters” (Psalm 23:2). Consider your life—are you running through the pastures and splashing through the waters? Or are you walking with God and being still enough to know Him?</p>\n  <figure><img src=\"/images/articles/9a1995a0-dad2-4769-a267-2d05ae256e2b-2.jpg\" alt=\"Snow-covered fields with distant silos and bare trees.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "1707baf54d5b78317d81982e43820350be72c1a18d48d9d0dd2692d371ab50ae"
+}

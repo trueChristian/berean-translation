@@ -1,0 +1,92 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ella Kellog",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Rachel Weaver",
+          "role": "Revised and edited"
+        }
+      ],
+      "note": "Selected from a 1905 writing by Ella Kellog",
+      "raw": "Selected from a 1905 writing by Ella Kellog\nRevised and edited by Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "f11097cf-8054-4ecf-886b-1e8cee008b76",
+    "images": [
+      {
+        "alt": "An illustration of a seated mother with a baby and two children.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f11097cf-8054-4ecf-886b-1e8cee008b76-1.jpg",
+        "repository_path": "public/images/articles/f11097cf-8054-4ecf-886b-1e8cee008b76-1.jpg",
+        "rights_note": "No article-specific permission restriction, image credit or image-specific license is printed. No image source or license is inferred. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 43. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate gray title panel and surrounding frame omitted.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": "PDF base image object 43. Grayscale source converted to baseline RGB JPEG, quality 95, native dimensions and crop, standard 96 dpi density; no rotation, flip or retouching. Separate gray title panel and surrounding frame omitted.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": {
+      "id": "adfb4b51-2bb8-465a-bb9a-d044630c1ad3",
+      "part": 1,
+      "total_parts": null
+    },
+    "source_pages": {
+      "end": 19,
+      "pages": [
+        12,
+        13,
+        14,
+        19
+      ],
+      "start": 12
+    },
+    "subtitle": "A SACRED TRUST",
+    "title": "Parenthood",
+    "topics": [
+      "b834013d-7b5e-59cd-9cf6-3cedee692313",
+      "e8455dc3-9ea9-50ad-8b49-ca5277a6a3fd"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "369cc43ac46af453ac0e42c5540a6fa2ad16a024ae2ebd539dfc0da4ef7a1f25",
+    "metadata_sha256": "01847052b44c27112707457556f0620a6aff0ceadb5556019f6d9ac6b4baf58c",
+    "structure_sha256": "0013002a5485cc60fe2978e293089d5879be054045ad3077b2e9d1b11ea45e5d",
+    "text_sha256": "19a0e30bf8232b5c6d336d452f2f251ee4de4e6abc5aba59ca30a96f739c8bf5",
+    "translation_metadata_sha256": "6cf3b44b5e7b1134a034dfb4c38bca4478e0234427d1cc53365cd3d678630279"
+  },
+  "html": "<article data-article-id=\"f11097cf-8054-4ecf-886b-1e8cee008b76\">\n  <figure>\n    <img src=\"/images/articles/f11097cf-8054-4ecf-886b-1e8cee008b76-1.jpg\" alt=\"An illustration of a seated mother with a baby and two children.\">\n  </figure>\n  <p>No occupation, profession or mission in life is of so great importance, no privilege so high and holy, no calling so full of wonderful possibilities as that of parenthood. We are entrusted, in a great measure, with the working out of God’s ideal for each child in our family. To the extent that this trust is fulfilled, these individual characters shall be rounded out in fullness of noble man- or womanhood, or dwarfed by neglect and deformed by sin.</p>\n  <p>It is a blessed privilege to give a careful start to the little pilgrim just entering upon life’s journey, and to develop with reverent care the image planted there by God, the Creator. It is a wonderful opportunity for us to so accustom the child to a pure and holy atmosphere that he cannot breathe freely in any other. If we neglect these very impressionable first years of our child’s life and let them slip by unimproved, no matter how hard we work in later years, the result will never be as perfect as it might have been if we had carefully trained them early in precept and principle.</p>\n  <p>Our highest duties reach beyond feeding and clothing our little ones. This “working together” with God in the building of each child’s character is our special prerogative, and no engrossment in outside interests should prevent us from this calling. In our attempt to direct the growth of our children in right ways, we must become constantly involved in our own spiritual and emotional development. No one would think of going on a mission to a foreign land without a careful study of the country, as far as is obtainable from the knowledge and experience gained by others who have been there. Yet many parents take on a far more comprehensive charge of giving directions to the character of their child and training his soul, with little or no knowledge of how to accomplish the task, and often with no thought to learn. They clothe and feed the child and provide for his physical needs, but they miss the needs of his inner nature.</p>\n  <p>Our obligation extends far beyond the child’s body. Its whole being is entrusted to us so that we may draw out the beauty of possibilities that God has put there and develop it for service to the Master. The very best which we, with the help of God, can attain is none too much for this high calling.</p>\n  <p>A constant discipline of self is a necessary requisite for effective work in character shaping. We must learn to be good models, for what we <strong>ARE</strong> will teach the child far more that what we <strong>SAY</strong>. We should represent Christ so well, that our children, imitating us, will follow Him and become more like Him.</p>\n  <p>In addition to the love and tenderness, which every child should have from birth, there are other qualities that every godly parent needs:</p>\n  <h2>PATIENCE</h2>\n  <p>Webster’s 1882 dictionary defines patience as, “...endurance without murmurings or fretfulness. A calm temper which bears evil without murmuring or discontent...perseverance: constancy in labor or exertion.” Every parent needs an abundant measure of patience. It is needed when we are tired and when the children are fretful or ill. We need it when they are full of fun and noise. Patience should be inseparably connected with child life in our home.</p>\n  <p>Our impatience begets impatience in the child and usually results in great losses for both. Christ said, <em>“In patience possess ye your souls.” (Luke 21:19)</em> Some translations read, <em>“In patience win your lives.”</em> And patience is just as surely the success to winning the hearts of your children. Do not be discouraged when fruit for your effort comes slowly. God taught the Israelites, <em>“precept upon precept, line upon line, here a little and there a little.”</em> Just so, we need to learn to deal patiently with our little folks.</p>\n  <h2>SELF-CONTROL</h2>\n  <p>The definition of self-control is, “to remain in control of one’s self, namely to control our feelings and our passions and our habits.” We are forming other lives by our example, and self-control is as necessary to the parent as inexhaustible patience. If we would like to teach godly character, we must control our own feelings, thoughts, and actions. We cannot teach self-control if we do not possess it. The Proverb writer says, <em>“He that controls his spirit is better that he that ruleth a city.”</em> When we become upset with our children while we are training them, we hinder and mar the results. God would teach us self-control so that we can teach our children this discipline.</p>\n  <h2>LOYALTY TO TRUTH</h2>\n  <p>Loyalty to truth is simply a strict adherence to truth. Parents must be the living embodiment of truth and loyalty to any principle they would like to instill into their children’s lives. Keep your word with the children. All promises made and forgotten or broken intentionally are lessons in dishonesty. Dishonesty in any form breeds dishonesty in your child. If you do not wish to have your child deceive you, do not deal falsely with others. Your child is watching. Pay your bills on time, return borrowed books, give honest answers, and be real in the life you live. If you pretend to be someone you are not, your children know it and think less of you for it.</p>\n  <h2>SYMPATHY</h2>\n  <p>This is the quality of being affected by the feelings of another. A bond of sympathy and companionable relationship should exist between every child and his parents. When we truly understand our children’s needs, we take the time to listen sympathetically to them. We identify with them in times of difficulty and share with them in prayer times. One little one at her grandmother’s house for the night was having a very difficult time when told that it was her bedtime. The understanding grandmother took her up in her lap and held her close for a few minutes. “You need a bit of comfort,” she said. The little one cuddled up and calmed down. She was then led away sweetly to bed. A few days later at home she faced a big disappointment. She ran to her mother, took hold of her skirt and said, “I need some comfort like Grandma has.” The puzzled mother asked Grandma what the child meant and the wise grandmother explained. Each child needs to have the confidence that we know and care for them. This is especially important, and equally difficult in families where the little ones come close together. This sympathy comes from a listening, loving heart. It is born of a close walk with the Master, “for He had compassion on them.”</p>\n  <h2>INSIGHT</h2>\n  <p>Parents need to know their children and understand their hearts, their desires, their tendencies, and their aspirations. This kind of caring and insight binds your child’s heart to you. It is closely interwoven with sympathy. When you acknowledge that you both need to obtain the same grace, pardon, and strength in your struggles against temptation, your child is greatly encouraged. How can you obtain such caring and insight into their life? There is only one way! It comes from the Divine fountain of knowledge. <em>“If any of you lack wisdom, let him ask of God, that giveth to all men liberally... And it shall be given him.” (James 1:5)</em> God always gives us wisdom when we recognize our need of Him and are obedient to Him.</p>\n  <h2>UNITY</h2>\n  <p>Parents must be in agreement with each other. Arguments, hasty words, and expressing differing opinions in regards to discipline must not happen in our homes. We will not always agree on everything. No two people of positive character are likely to. But, all differences can be talked over pleasantly and courteously. Nothing is more disastrous to good home government than for a child to perceive that a father does not respect the mother’s opinion, or when a mother has no regard for the conviction of the father… <em>“…Being heirs together of the grace of life, that your prayers be not hindered.” (I Peter 3:7)</em></p>\n  <h2>FAITHFULNESS</h2>\n  <p>God does not demand great deeds of us in child training. Rather, He asks for continued obedience and faithfulness in the little duties that come to hand every day in our lives. Such faithfulness is nothing less that the most conscientious, careful, loyal effort within our power, unceasingly put forth.</p>\n  <p>Nothing is too small to count. There is no point where it is safe to relax our endeavors. If our hands are slack for even a day, doing our work carelessly, we pay for it dearly. Consistency in training is so important. Faithfulness pays great dividends. It produces happy, relaxed, obedient children and rewarded parents. Lax discipline produces harried parents and children who are extremely difficult to manage.</p>\n  <h2>HEALTH</h2>\n  <p>If we are to be well fitted to fulfill our responsibilities in the ablest manner, we must possess sound, good health. Children’s active minds and bodies place incessant demands even upon those in the best of health.</p>\n  <p>When we are nervous and irritable, the feeling is likely to be mutual, and the whole atmosphere of the home becomes one of impatience and irritability. Well-rested and well-nourished parents have a distinctly calming affect upon the atmosphere around them. The ill health of any parent is likely to exert a disturbing influence on the child’s character. No measure within the parents’ power should be neglected to gain good health, both for the sake of themselves and their children. While this is the ideal, it is not always attainable. Once we have done our best to meet this area of need, we must then trust the Lord, and remember that His grace is sufficient for every situation.</p>\n  <p><em>To be continued...</em></p>\n  <p class=\"poem\">Help us to smooth the path of knowledge for the little feet;<br>\n  Make the ways of wisdom beautiful and sweet.<br>\n  Teach us, we pray Thee, guide us all the way.<br>\n  Strengthen us to lead them upward every day.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fcc69d3b02079e58169da5e3fa19df2318fd87b842a730d23086cc993a29f10f"
+}

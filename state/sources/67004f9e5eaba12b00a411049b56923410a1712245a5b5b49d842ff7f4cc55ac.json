@@ -1,0 +1,141 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Denny Kenaston"
+        }
+      ],
+      "raw": "Taken from the book The Pursuit of Godly Seed, by Denny Kenaston"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "94b26a7a-763b-4554-a25c-70739be3b84f",
+    "images": [
+      {
+        "alt": "Three travelers carrying belongings and staffs.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-1.jpg",
+        "repository_path": "public/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-1.jpg",
+        "rights_note": "Original embedded image object 13 on printed page 3; raw object, page paint order, clipping and graphics state inspected. Clean base illustration excludes separately painted heading, epigraph, page furniture and outer rounded frame. No image-specific credit or reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying which images; no individual attribution or licence is inferred. No generation, inpainting, cloning, healing or material retouching was used.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original DeviceGray JPEG expanded to RGB without changing the grayscale values; standards-normalized baseline sRGB JPEG with nonzero 72 dpi density.",
+          "omitted_layout_overlays": [
+            "separate heading and epigraph",
+            "outer rounded frame",
+            "page furniture"
+          ],
+          "output_dimensions": [
+            504,
+            254
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            504,
+            254
+          ],
+          "source_object": 13,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final encoded file fully decoded, painted and read back; browser-rendered PNG opened and visually compared with the source object and published PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "This unchanged image was independently opened and compared with the rendered PDF and raw source object at initial extraction. Composition, crop, orientation, colour and integrity passed. Source-pixel correspondence, allowing the documented colour/crop transformation and high-quality JPEG recompression, was independently checked; no discrepancies remain.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A family gathered around a table while a man reads.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-2.jpg",
+        "repository_path": "public/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-2.jpg",
+        "rights_note": "Original embedded image object 136 on printed page 4; raw object, page paint order, clipping and graphics state inspected. Same object 136 is repeated unchanged on page 5; represented once. Separately painted pull-quote panel and border are omitted. No image-specific credit or reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying which images; no individual attribution or licence is inferred. No generation, inpainting, cloning, healing or material retouching was used.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 4,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original DeviceGray JPEG expanded to RGB without changing the grayscale values; standards-normalized baseline sRGB JPEG with nonzero 72 dpi density.",
+          "omitted_layout_overlays": [
+            "pull-quote panel and border",
+            "page furniture"
+          ],
+          "output_dimensions": [
+            216,
+            193
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            216,
+            193
+          ],
+          "source_object": 136,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final encoded file fully decoded, painted and read back; browser-rendered PNG opened and visually compared with the source object and published PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "This unchanged image was independently opened and compared with the rendered PDF and raw source object at initial extraction. Composition, crop, orientation, colour and integrity passed. Source-pixel correspondence, allowing the documented colour/crop transformation and high-quality JPEG recompression, was independently checked; no discrepancies remain.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e2fda69-4f9b-450f-815c-39c3200bb634",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "A Motivating Vision for Our Homes",
+    "topics": [
+      "76b8f216-8c11-5378-90f6-37fe3f41d329",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba",
+      "86676326-e0fe-523f-abd9-06fcd1a1db12",
+      "4325fdd8-4363-524b-9445-2a2c86de1cf1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c51997e3875f69806f77a4304ebf2893b6cf9956e4fd6f645c72f453f4fed75c",
+    "metadata_sha256": "a840acd0c42da4327fe45c27004a610f1d8696291ca088251f56d627169a53e7",
+    "structure_sha256": "6cce5158f19a364ece43c9847c9c4eff971585508caa425dd18348cee4407e1b",
+    "text_sha256": "188e768d4749a92819df0e84b13ec0d1bc0c91ceb8d9d6e747ba50acdf829f91",
+    "translation_metadata_sha256": "edc9664ada57497aec5a724972761f0ecc43b1e94475f1c89fad6569be6b6122"
+  },
+  "html": "<article data-article-id=\"94b26a7a-763b-4554-a25c-70739be3b84f\">\n  <blockquote>\n    <p><em>Where there is no <strong>vision</strong>, the people perish,<br>but he that keepeth the Law, happy is he.<br>Proverbs 29:18</em></p>\n  </blockquote>\n  <figure><img src=\"/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-1.jpg\" alt=\"Three travelers carrying belongings and staffs.\"></figure>\n  <p>There was, in the days of Samuel the Prophet, a sad state of affairs in Israel. The ministers of the day had lost their relationship with God, and compromise was creeping in on every hand. God uses a few revealing words, which describe the condition of the nation at that time. <em>“There was no open vision”</em> (I Sam. 3:1). Although we have several chapters of sad commentary to read after this statement, these words say it all, in a nutshell. There was no open vision, and the people were perishing. We seem to be suffering from some of the same in modern America. I can think of no better words to describe the sad state of present day American Christianity.</p>\n  <p>What is a vision? It is important to give some definition to this powerful little word, because I will be using it many times. In fact, the hope and future of your family lies hidden in this one word. When I us the word vision, I am referring to a vision that is a mental image imprinted upon the heart by the Spirit of God. A vision is that which you see with the eyes of your heart. The Apostle Paul described it as something <em>“written…with the Spirit of the living God…in the fleshly tables of the heart.”</em> (II Cor. 3:3) A vision is a spiritual revelation of the mind and will of God. That revelation usually comes through the avenue of the Scriptures. When we read the Word of God in the Spirit, dreams and visions flame up in our hearts.</p>\n  <p>I was surprised and blessed one day as I was studying the Hebrew word “dream.” It means, “to make healthy,” or “to be strengthened.” It is an ideal, or aspiration, that makes us healthy and strong. Isn’t that beautiful? We know that dreams work like that in man. When a man has a dream, he comes alive, he is filled with energy, and his whole being is consumed with what he sees and wants. This is what I mean, when I use the word vision.</p>\n  <figure><img src=\"/images/articles/94b26a7a-763b-4554-a25c-70739be3b84f-2.jpg\" alt=\"A family gathered around a table while a man reads.\"></figure>\n  <p>Probably the most famous verse in the Bible on this subject is the one listed at the beginning of this chapter. <em>“Where there is no vision, the people perish”</em> A study of this verse is very revealing to our present day American problems. The people as a whole do not see what God sees or wants. There is a lack of open vision in our land. That spiritual seeing of the heart is missing in too many churches and homes.</p>\n  <p>The word “perish” is even more descriptive. It means, “To cast off restraint.” It does not mean to go to hell. It is much more practical then that. Allow me to paraphrase my study of the verse. “Where there is not a spiritual seeing of God’s will in the heart, the people will cast off restraint, go naked, and live like savages.” Wow! What a picture of the degenerated condition of America. In addition, of course, the end of that process is they will go to hell. We must get a captivating view of God’s will today and hold the eyes of our heart upon it until it motivates and activates us to keep his Laws again. We know that this whole process of degeneration begins when a people who know God cease to walk closely with him. The seeing of the heart grows dim because it is God’s presence in the heart that stimulates vision. As the vision grows dim, the people begin to cast off restraint. We know the rest of the story. This explains the confusion of much of American Christianity.</p>\n  <p>All these thoughts preface my burden for our homes. We must get a motivating vision for our homes. Only God can give us such a vision, however, we have our part to play also. When we begin to sigh and cry unto God with a longing aspiration, he is obligated to impart to us a revelation of his will, as well as a revelation of our need. It is my personal conviction that, because we lack this spiritual seeing of the heart, our homes lack substance and direction. My constant prayer, as I write these chapters, is that God would graciously grant us that seeing experience again and again. This seeing brings a transforming of the heart, and of course, a transformation of the home will follow.</p>\n  <p>Having a vision is so important. I cannot emphasize it enough. Your journey through this book must be more than a time of gathering information. New information usually lasts a few weeks and then falls to the back of our memory. However, a vision is life changing, and it will last for many years. By the time Jackie and I finish the task of raising our children, we will have about forty years invested in the project (not to mention the years of grandparenting that follows the parenting). My desire, <em>“by grace through faith”</em> is to impart to you a vision for your children that will burn in you and consume you for many years to come.</p>\n  <p>Let us ponder some of the inner dynamics of a God-breathed vision. God moves and motivates His people by giving them a vision. The Bible is filled with examples of this inner working of God’s spirit. When God is about to do something, He begins with a vision in the heart of a man or a people. When God spoke to Abraham, He gave him a promise, but that promise had a vision of His will in it. God began to <em>“call those things which be not as though they were”</em> (Rom. 4:17b). Abraham saw them with the eyes of his heart, and began to act accordingly. This is how a vision works in the heart of man.</p>\n  <p>God spoke to the children of Israel in Deuteronomy 28. He painted a beautiful picture of a people, baptized in, and overflowing with blessings. This was meant to be a vision for all who would see it, believe it, and obey the conditions that he gave them. As we study the history of this people, there are times when they were literally blessed in everything they did. Those who walked in the vision that they saw, received the reality of a life that is blessed on every side.</p>\n  <p>Now, all these inner dynamics apply to our homes as well. The Bible is pregnant with God’s heart for our homes. His promises, His will, and His visions are waiting there to be birthed in our hearts. Visions are born when the Spirit of God takes the Word of God, and makes it alive in our hearts. The New Testament word for this inner dynamic is the Greek word “rhema.” It literally means, God speaking His Word to me. We all know the joy of this experience when a verse just jumps off the page and into our hearts. We know it is God speaking to us personally through His word. As parents, we should be earnestly seeking God for these “rhema’s” for our families. God will give them to us. We must have faith. He will do it!</p>\n  <p>The Prophet Joel spoke of a day to come when the Spirit of God would be poured out upon God’s people. He described the results of this anointing in some thrilling pictures. One of those pictures was a people filled with dreams and visions. This happened on the Day of Pentecost, fifty days after Christ’s ascension. On that day, 3,120 people were filled with the promise of the Father. That anointing, and the visions that came from it caused those people to fill Jerusalem with the doctrine of Christ and his resurrection. We still live in the age of this prophecy. We are to be a people filled with visions born by that same Spirit. God wants to fill our hearts with dreams and visions of a godly home. It is His will, and He is waiting to give us more than we ask.</p>\n  <h2>A Disease in the Eyes</h2>\n  <p>In the last days of the apostle John, Christ sent a message to the church at Laodicea, through him. Laodicea was a lukewarm church, which had been hot and full of the reality of Christ at one time. Among other things, they had lost their vision. Spiritually, they could not see anymore. They were beginning to cast off restraints, and Christ even told them they were naked, wretched, and blind. What a perfect description of the definition I gave earlier. They were perishing. His counsel to them concerning their blindness was <em>“anoint thine eyes with eye salve, that thou mayest see”</em> (Rev. 3:18c). We all know that God is referring to the eyes of the heart in these verses. He finished by pleading with them, speaking words of true reality. Let us read them out loud slowly here.</p>\n  <blockquote>\n    <p><em>Behold, I stand at the door and knock:<br>If any man hear my <strong>voice</strong>, and open the door,<br>I will come in to him, and will sup with him,<br>And he with Me. Rev. 3:20</em></p>\n  </blockquote>\n  <p>Christ’s words to the brothers and sisters at Laodicea were strong yet true. He was outside of their lives looking in. The reality of fellowship was gone. His voice was knocking, knocking, but they did not hear. They did not want to hear, and their ears became dull. He pleads with them to let Him in, through repentance. He promised them beautiful restored communion, and assured them of his love.</p>\n  <p>Beloved, where is your vision? What do you see with the eyes of your heart? As you sit and read these words, how do they find you personally? When was the last time you heard from God, and you knew it. Do you have eye disease like the Laodicean’s did? They were thinking they had everything together, when in reality, they were falling apart. Maybe you feel these words are not proper to write in a book. However, let us reason together. I would be a very unkind friend to stir your heart about having a vision, and then not tell you how you can get one.</p>\n  <p>Visions come from God. He is the author of every one of them. If there is no reality in your life, you will find it hard to get a vision, and hold on to it. I want the instructions that will follow, to be more than the “how to’s” of raising children for God. What we see is very important. God always precedes the reality of what he is going to do, with a vision. That is exciting, if you know where you are going, because, according to the testimony of Abraham, what you see, you will have. However, if you do not see, that is very troubling because, if you do not see, you will not have. What you see with the eyes of your heart now probably will determine where your family will be in five years. Beloved parents, let us break our hearts before God and seek Him for an open vision for our families. It is better to weep now, then to weep later when it is too late. I will spend the next few chapters expounding the vision that God wants for our homes, but we must have a good and honest heart as the one described in the parable of the sower.</p>\n  <p>I will close this chapter with some of the most encouraging words in the Bible. Paul, writing to the church at Ephesus, admonished them with an overflowing proclamation about God. He said that God was able (full of power) <em>“to do exceedingly abundantly above all that we ask or think, according to the power that worketh in us”</em> (Eph. 3:20). If I understand this verse, that covers our dreams and visions completely. Let us get ourselves to the place where this <em>“power that worketh in us,”</em> is working in us personally, and then the sky is the limit.</p>\n  <p><em>Father, we bow together before You who see. We know that You see us even as we sit here pondering what we have read. Give us a vision for our homes dear Lord. Open the eyes of our hearts to see. I desperately need You to work in my heart this very moment. I want to move into the rest of this book with an open face before you. Soften my heart to receive your imprint of a godly home. In Jesus Christ name, Amen.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "246db57e67a22138b5773ddc91f9de249db6a2b4ea9d95f18340aaedd0092ed1"
+}

@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Betty Stam",
+          "role": "Missionary Martyr"
+        }
+      ],
+      "raw": "- Betty Stam -\nMissionary Martyr"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cba5e203-d81e-40a3-a3be-690c4de11399",
+    "images": [
+      {
+        "alt": "Snow-covered mountains above dark trees, with the printed poem I’m Standing.",
+        "caption": null,
+        "credit": null,
+        "height": 504,
+        "public_path": "/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg",
+        "repository_path": "public/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg",
+        "rights_note": "Original PDF page 36 image object 128; no separate image licence or credit is stated. The poem title, complete poem, byline and translucent reading panel are irreversibly baked into the only mountain raster. No clean base or alternative crop retaining the complete mountain composition exists in the PDF. The exact source image content is retained under the unavoidable-overlay exception; it is not claimed to be overlay-free. Separate decorative cover frame and mailing panel are omitted. No inpainting, synthesis, or speculative inverse blend applied. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "background",
+        "sequence": 1,
+        "source_page": 36,
+        "source_xref": 128,
+        "transformations": "Embedded RGB JPEG standards-normalized as a baseline sRGB JPEG with nonzero 72 dpi density at the original 506 × 504 pixel dimensions, because the original source JPEG has 1 trailing bytes after its EOI marker. No cropping, rotation, synthesis, or material retouching.",
+        "verification": {
+          "encoded_bytes": 136248,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "unavoidable baked-in title, poem, byline and translucent panel documented",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "JPEG 506x504 sRGB TrueColor 72 72",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 506
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "I’m Standing",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a364e6f0666f32ba3bda5bc2f0753a0b99321b81bdda57ff56db8c443e01cabc",
+    "metadata_sha256": "f7b6567b9bc90915148d60e9f8892245d64ca11909b0c6b8c133a66967595cef",
+    "structure_sha256": "0df6d666b774b9e9341ae529222fd2d45154c4811dd56453031346016659b9d1",
+    "text_sha256": "ff2d8214e98e829b0670af67213bf0cb58cf24be22c1f8b430a1fcb2e28bcd30",
+    "translation_metadata_sha256": "01ecc52e316b0b6c2addcc08a47c727633ede50e74c67fe8a83c8667e4ad099d"
+  },
+  "html": "<article data-article-id=\"cba5e203-d81e-40a3-a3be-690c4de11399\">\n  <figure><img src=\"/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg\" alt=\"Snow-covered mountains above dark trees, with the printed poem I’m Standing.\"></figure>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>There is a mist that blinds my sight.<br>Steep jagged rocks, front, left and right,<br>Lower, dim, gigantic, in the night.<br>Where is the way?</strong></p>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>The black rock hems me in behind.<br>Above my head a moaning wind<br>Chills and oppresses heart and mind.<br>I am afraid!</strong></p>\n  <p class=\"poem\"><strong>He answered me, and on His face<br>A look ineffable of grace,<br>Of perfect, understanding love,<br>Which all my murmuring did remove.</strong></p>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>Since Thou hast spoken, Lord, I see<br>Thou hast beset – these rocks are Thee!<br>And, since Thy love encloses me,<br>I stand and sing.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3534c2c2a7a6e2d346af5a219678879317cb730fa2497335a74c754e88c5ab45"
+}

@@ -1,0 +1,67 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "a896f508-a257-45f6-82a3-6f807736b7d9",
+    "images": [
+      {
+        "alt": "Portrait of L. E. Maxwell",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-1.jpg",
+        "repository_path": "public/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-1.jpg",
+        "rights_note": "Original PDF image object 87 on printed page 24. Retained the original source raster, orientation and framing; no rotation or flip. Decoded grayscale samples normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion was needed. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 24
+      },
+      {
+        "alt": "A figure looking up at a crucified man, with birds and sheep nearby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-2.jpg",
+        "repository_path": "public/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-2.jpg",
+        "rights_note": "Original PDF image object 92 on printed page 25. Retained the original source raster, orientation and framing; no rotation or flip. Decoded grayscale samples normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion was needed. No individual creator credit or article-specific reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 25
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "Born Crucified",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c802e56efac9ecde186dd94312ec913cc448dd8157ca1cc271972689fe0f8409",
+    "metadata_sha256": "c9ce0ae93a9813817509c405b1ffb3b4db7b3e31ff224b11bebf9033d1d87b8e",
+    "structure_sha256": "7ab729ed2348c71223867e0e4fc1360e671af01bdfdd98e54fe15c6f83db63c0",
+    "text_sha256": "d1ba32cced871e29595748f824299acc43923a659b10d62c9df79e45f18dd6a7",
+    "translation_metadata_sha256": "4735ae5f0922d5d0c2ffbfb235db42865f02b5fd963c83edd09aa81de6f0fd1d"
+  },
+  "html": "<article data-article-id=\"a896f508-a257-45f6-82a3-6f807736b7d9\">\n  <figure>\n    <img src=\"/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-1.jpg\" alt=\"Portrait of L. E. Maxwell\">\n  </figure>\n  <p>At a furious rate the Christian media today is churning out countless books, CDs, T-shirts, and paraphernalia promoting more pleasure and ease in the Christian life. Careless titles such as <em>He’s Gonna’ Toot and I’m Goona’ Scoot</em> plague the Christian marketplace. To such slapdash attitudes, Maxwell’s book, <em>Born Crucified</em>, makes an unapologetic rebuke.</p>\n  <p>Written in 1945, Maxwell’s diagnosis of the church finds it fatally infected by the insidious disease of self. Refreshingly, Maxwell prescribes the ageless cure for this ever-enduring malady—the Cross! Written in a preaching style full of great illustrations and antidotes, Maxwell exposes many common frustrations, weaknesses, and sins that continue to vex the believer today.</p>\n  <p>In admonition to the fainting saint who is striving in vain to have spiritual victory, Maxwell incites that no real spiritual life and victory can be achieved without first dying to self. He writes: <em>“In the power of Christ’s death I must refuse my old life. On the basis of Calvary and of my oneness with Christ in His death, I must refuse to let self lord it over me. I must choose whether I will be dominated by that hideous monster self or by Christ. The life that ‘Christ lives in me’ must have a happy ‘yet not I’ at its very heart. How can I have the benefits of Christ’s death while I still want my own way? Self must be dethroned.”</em></p>\n  <p>With words born out of personal testimony, Maxwell makes a most penetrating exhortation to parents. He states: <em>“Many parents will suffer a painful inner crucifixion through learning to discipline their children. Those who have not disciplined themselves—how can they discipline their children? Children are being denied proper and godly discipline today because the parents have not yet learned to hate their ‘own flesh.’ Not having laid the Cross on his own flesh, the parent denies the Cross to his child. ‘He who spares his rod hates his son’ (Prov. 13:24).”</em></p>\n  <p>Drawing from his own real-life experiences of having seen his children face disease and discouragement on the African mission field, he further warns parents: <em>“Few Christian parents are governed by these simple implications of Calvary. We are thinking of good Christian homes. Parents are often so wrapped up in their own children that they cannot bear to see them take the way of the Cross. They shield them from the path of suffering. Christian young people are often eager to go to all lengths for God and follow Christ to the ends of the earth, but the parents refuse to take the way of the Cross, either for themselves or for their children.”</em></p>\n  <p>Writing to a predominately conservative Christian audience, he cautions the church not to become too sure or high-minded. He warns: <em>“It is likely that many of my readers are, as a whole, unworldly. But let me ask; are you the victim of a single worldliness? To what thing are you passionately attached? You may rightly condemn the teenager’s love of the dance, the show, the theater. But are you under the spell of politics, or art, or science, or money, or ambition, or social popularity, or business power? The world is a different world to a young person than it is to the middle-aged person. But the narcotic is no less deadly.”</em></p>\n  <p>Digging deep into the heart he challenges Christians to search those inner motives. He writes: <em>“When we thus begin to renounce self, we shall find that this will generally be done through our submission to someone in the family or business circle. Home missions are good; foreign missions are better; but ‘submissions’ at home and abroad are best of all.”</em></p>\n  <figure>\n    <img src=\"/images/articles/a896f508-a257-45f6-82a3-6f807736b7d9-2.jpg\" alt=\"A figure looking up at a crucified man, with birds and sheep nearby\">\n  </figure>\n  <p>He goes on to admonish that as we die to our self, the instrument of execution must always be the Cross. However, with an insightful admonishment to the way we use the common phrase “bearing my cross” he shows that the Cross should never be looked upon with disdain but only with joy. He writes, <em>“Many times you have cried, ‘Anything but that, Lord.’ You have feared it might come upon you. And there it is, staring you in the face. To obey God will now occasion new pain and shame and disgrace. But in divine wisdom it will apply Calvary more deeply to self. Take it up, therefore; stretch your hands out upon it, and there make a fresh break with self…. We must not think of our cross as something compulsory or unavoidable such as misfortune, infirmity, or calamity. Our cross is the voluntary embracing of a path which exposes self to fresh denial, and death, and which may actually cost us our life. When we embrace the Cross, Golgotha is our goal.”</em></p>\n  <p>Maxwell beautifully empowers his strong teachings on holiness with the balm of hope from the promises of Christ. He writes: <em>“And the necessary shock that has to come to the believer is that Christ’s standards are completely beyond the reach of the flesh. Who naturally loves his enemies, rejoices in persecution, hates himself, and goes the second mile? Yet these things are native to the true Christian life.”</em> Quoting from F. J. Huegel he states: <em>“We have been proceeding upon a false basis. We have conceived of the Christian life as an imitation of Christ. It is not an imitation of Christ. It is a participation of Christ.”</em></p>\n  <p>Finally, he charges the Church to get back into the battle. To a church steeped in softness and ease he cries, <em>“Oh, the pity of it, the shame, the awful tragedy of it all! Emancipated, redeemed, and blood-bought, but still in bondage to the world, to the flesh, and to the devil. In retreat and defeat, flouted and routed! Soldiers of Christ, halt! About-face! Claim your freedoms—crucified to the world, crucified to the flesh, crucified just where the serpent was crushed.”</em></p>\n  <p>This book is highly challenging and encouraging. Oh, if we could individually and corporately lay hold of and embrace the restorative execution of the cross—what an abundant life we would have in Christ! For indeed it is true, <em>“He that findeth his life shall lose it: and he that loseth his life for my sake shall find it”</em> (Matt 10:39).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "cd384c0eabb2fbf72126de009c2e1d8f13025ef1e20dd89d0c1759dc08791ae3"
+}

@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "—Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "2e72a049-6de1-4ceb-bc41-5303f8007dc8",
+    "images": [],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "The Special Teacher",
+    "topics": [
+      "55fff2dd-3f79-5c7f-a7fa-73e125bfbfec",
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f",
+      "cd42f468-6b2c-5f56-abf2-82062af463d1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f4f375470596db9a54d99fc9e748b517aae8c829b3b892578b1dc4489ea66f36",
+    "metadata_sha256": "a397d92a8bc1bac2f41cd95c2a90f8c1d4b461c9de8f132fa9886a3222f4d5ee",
+    "structure_sha256": "b40403ccea7778d51111ae12b28c74e3a88b5110b20a16bf8be795862ace50a1",
+    "text_sha256": "591297c93c31b35b216f0f1b70a4e15f227c779ef7fa55893fbda89fbfba69c3",
+    "translation_metadata_sha256": "99a8c8c883246ea7cc6886cb64e2dd56a97ed2e7a34a49a60455e5e139750dff"
+  },
+  "html": "<article data-article-id=\"2e72a049-6de1-4ceb-bc41-5303f8007dc8\">\n  <div class=\"poem\">\n    <p>“Now say it over again with me: “Two plus two is four.””<br>\n    We’ll say it over a thousand times, then say it even more.<br>\n    Day after day I teach this lad, who is so very slow.<br>\n    I teach him how to tie his shoes and where the buttons go.<br>\n    I’m told, ‘You cannot teach this child; it is a waste of time.<br>\n    Just give him a chair, away over there—forget him; he’ll be just fine.”<br>\n    But can I leave him locked inside, not knowing how to cope?<br>\n    He needs someone to teach him—some love, some worth, some hope.<br>\n    I want to help him all I can, though it is hard and slow.<br>\n    So, “Fellow, let’s get started. We have a ways to go.”<br>\n    The first thing I must do, to teach this little lad,<br>\n    Is turn him ‘round and make him know he’s not entirely bad.<br>\n    Then next comes math and reading; he’ll learn to write and spell.<br>\n    He’ll learn to laugh and live in tune, in many things do well.<br>\n    With hours and hours of struggle, the years will slowly pass.<br>\n    He will be glad and so will I, for he has learned at last.<br>\n    He’ll be a man and earn a living, though some may call him dumb.<br>\n    No one may know, or even care, how far this boy has come.<br>\n    You say, “Why do you do it? There’s no reward.” But see?<br>\n    Each little child I look upon, I’m really seeing me.<br>\n    I had a Master Teacher, looking down in love on me;<br>\n    He led me through dark valleys and set my spirit free.<br>\n    Oh, God, You take each one of us—the deaf, the lame, the blind;<br>\n    You teach us, patiently, to live more lovingly and kind.<br>\n    If You cared just enough for us our pain and hurt to see,<br>\n    But left us way off over there, just where would our lives be?</p>\n\n    <p>—Author unknown</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ae00a3666732133c025435fa608a80ccfa7feae705775edd7395e9935d93c381"
+}

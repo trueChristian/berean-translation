@@ -1,0 +1,80 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "ea67134e-49cc-41db-b48f-3fe777d18bda",
+    "images": [
+      {
+        "alt": "A mailbox bearing the publication’s name and contact details",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "be15ff13d57cfda6fbf94e6ca10a11c42020db3f",
+        "public_path": "/images/articles/ea67134e-49cc-41db-b48f-3fe777d18bda-1.jpg",
+        "repository_path": "public/images/articles/ea67134e-49cc-41db-b48f-3fe777d18bda-1.jpg",
+        "rights_note": "Original embedded PDF image object 131; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The sole source raster has a baked section-title banner and a large faded white reading panel. A meaningful unobstructed crop preserves the mailbox and its intrinsic printed markings while omitting the banner and panel. No source pixels reconstructed. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            65,
+            0,
+            515,
+            215
+          ],
+          "export_pixel_dimensions": [
+            450,
+            215
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 131,
+          "source_pixel_dimensions": [
+            1050,
+            522
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b0a71906882165de322e83b2eb8dd4a84b3a2607a968595aca9e66151f324018",
+    "metadata_sha256": "759e7474e61a8f65896b79cf3b00d3eac9feffdbd64e921fce89dfcb901e0a45",
+    "structure_sha256": "f072829ea7949f2b6efd17d886806b9b51e04fad1dcbd1cf71f23decf065176d",
+    "text_sha256": "0b9bcb70d0d839dfee5258fe2ea339c57e2f82a9773902716577dedf37d6403a",
+    "translation_metadata_sha256": "d467303ed5966138686a20c72cb96429bf0495813989165b2dc9c2fd14c07a15"
+  },
+  "html": "<article data-article-id=\"ea67134e-49cc-41db-b48f-3fe777d18bda\">\n  <figure><img src=\"/images/articles/ea67134e-49cc-41db-b48f-3fe777d18bda-1.jpg\" alt=\"A mailbox bearing the publication’s name and contact details\"></figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n  <p>Dear Friends,</p>\n  <p>We want to thank you for the most excellent article for young ladies by May Jo Cassidy in this recent issue of the Remnant. We find so many good articles each time we receive it but I wanted to write especially regarding this one.</p>\n  <p>We have three girls, two young ladies in this category, who can really glean wonderfully from this article. It is also a huge help to me as a mother in guiding them through the questions surrounding emotional desires. It was so wonderfully written, inspired by the Holy Spirit. I want to thank Mary Jo for placing herself in a position of obedience before the Lord to where she could be so wonderfully used by Him.</p>\n  <p><em>God’s blessing to you all,<br>Nancy in NY</em></p>\n  <hr>\n  <p><em>Mixed opinions over<br>the article<br>“The Cowboy Spirit.”</em></p>\n  <p>“…I live and work on a 10,000 acre ranch and none of what was written could I even relate to.... Did the writer bother to talk to people who live and work on ranches? Is the main idea of “how we dress” the real question the author is getting at? Several times he kept back tracking about the clothes, then he would bring it back up again. Is everyone to dress like plains people? Who decides if it is modest? If a person is humble and meek? Do we all have to look alike with matching shirts, blouses that are home-made?....”</p>\n  <p><em>Chico, TX</em></p>\n  <hr>\n  <p>“…The Last issue of the Remnant was, as usual, filled with spiritual food: wholesome, uplifting, and most edifying. The article on “the Cowboy spirit”, was very well worded. People watch believers, and they can tell the genuine from the artificial. Christ can tell the difference too, For behold, He tries the reins to give every man according to His Deeds. A Meek and quiet spirit…Yea, our: clothing, lifestyle, and conduct/behavior all needs to be controlled by our Savior….Alleluia! What a blessing that article was!...”</p>\n  <p><em>Gladys, VA</em></p>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "412f024a4ad846ac9f01ff4981787048e536994951c1ddaf637d58c82570786f"
+}

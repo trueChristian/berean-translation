@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "38004939-950c-427e-8c87-3ed7e45dea83",
+    "images": [
+      {
+        "alt": "Two envelopes and a sheet of writing paper.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/38004939-950c-427e-8c87-3ed7e45dea83-1.png",
+        "repository_path": "public/images/articles/38004939-950c-427e-8c87-3ed7e45dea83-1.png",
+        "rights_note": "Original vector artwork rendered at 300 dpi from the isolated published region [64, 54, 156, 149] in PDF points. Lossless sRGB PNG; no article typography, frames or page furniture included. No individual image creator or licence printed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 39
+      }
+    ],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 16,
+    "series": null,
+    "source_pages": {
+      "end": 39,
+      "start": 39
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3d4fa426cf840cf65c5177d9749e21d0c5f9df1554ed5325fdaf85cbb6a0b803",
+    "metadata_sha256": "72affbdab96098c73941d57386f4c0f65ee7bcc92c4da2eea77209fee58de62d",
+    "structure_sha256": "3c4603483794e9e2670fb20339ba4925f66d4974774dc3222955ed99ae98560b",
+    "text_sha256": "59d4f61dd2a8ad6619b66203f00051a836ad7fbebb271020e8ddb61377607d9c",
+    "translation_metadata_sha256": "aaad62e77ef8d5373cdf82256b695199e03624dbdfeb3ed4d5098051b030d199"
+  },
+  "html": "<article data-article-id=\"38004939-950c-427e-8c87-3ed7e45dea83\">\n  <figure><img src=\"/images/articles/38004939-950c-427e-8c87-3ed7e45dea83-1.png\" alt=\"Two envelopes and a sheet of writing paper.\"></figure>\n  <p>Dear editors,</p>\n  <p>Thank-you for the new Remnant. We are enjoying it very much. We read it from cover to cover with much interest, and we are sharing many of the articles with other saints here in the Netherlands. As I read the testimony of Rose Ann Lapp, my heart reflected back to the Lords healing in my life. For most of my adult life, I have been afflicted with recurring back problems. At times, the pain seemed more that I could bear. I have been to many Chiropractors through the years. Three years ago I had a fall that laid me up for weeks. I thought that I would never be able to sit normal again. We prayed to the Lord for his healing hand. With joy I can testify, the Lord has healed my back completely. I haven’t needed an adjustment for three years. Thanks be unto God.</p>\n  <p><em>Ralph &amp; Nellie Kouwen<br>The Netherlands</em></p>\n  <p>Dear Heartbeat of the Remnant,</p>\n  <p>Thank-you for sending us the Remnant and encouraging so many souls to keep on pressing on in the race for Jesus Christ. Bro Denny might remember the Stolk family from Oregon, John &amp; Mary Stolk. They are my in-laws. I’m married to their 3<sup>rd</sup> son David. It was so encouraging and healing for us to read the account of Daniel Kauffman’s death and funeral. You see, exactly one month after Daniel went home; our Daniel Stolk went home. He was the youngest of seven children. Their testimonies are very much alike. Our Daniel was 22, and all he wanted was to live his life to the glory of God, and be in the center of His will.</p>\n  <p>It was God’s perfect timing to take Daniel home, not an accident. It happened on the top of a mountain. He, two of his brothers, and some young people, were hiking. Daniel lost his footing and started to slide. Some rocks were knocked lose and started to slide also. Daniel’s head was crushed beneath the stones, and instantly he was on higher ground. He loved to climb in the mountains, and always wanted to go higher. He has now gone up higher.</p>\n  <p>The Funeral was like Daniel Kauffman’s funeral. The Lord was there in a very real way and everyone knew it. God was glorified. We were all challenged by Daniel’s life, by his death. He was so pure and ready to meet the Lord at any time. He was always seeking after God, and wanting only to please him. In all Daniel’s belongings, we could not find one ungodly thing. What a challenge for all of us, the young and the old.</p>\n  <p>The two Daniels are having a wonderful time together in heaven, with the Lord, I’m sure. Oh that we may join them soon to see our Lord, face to face. What a wonderful day that will be. Are we ready?</p>\n  <p class=\"poem\">Do something you would like to<br>be doing, when Jesus comes.<br>Say something you would like<br>to be saying, when Jesus comes.<br>Go somewhere you would like<br>to be found, when Jesus comes.</p>\n  <p>“Therefore, be ye also ready: for in such an hour as ye think not, the Son of Man cometh” Matt 24:44. Or, He will call our name like He did Daniel’s and Daniel’s.</p>\n  <p>We send our love and greetings to you all in the name of our Lord Jesus Christ. May he bless you all and you ministry abundantly.</p>\n  <p>Love in Christ,<br>David &amp; Esther Stolk<br>Silverton, Oregon</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ac440cefd32352e6f5e96f092dc3e74c0b8c1ef968c4eb27a8bb91d4a0b03c31"
+}

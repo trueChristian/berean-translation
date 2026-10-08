@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a48edd12-d7cc-4f82-b894-7fa025906f12",
+    "images": [
+      {
+        "alt": "A steam locomotive traveling through a forest",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a48edd12-d7cc-4f82-b894-7fa025906f12-1.png",
+        "repository_path": "public/images/articles/a48edd12-d7cc-4f82-b894-7fa025906f12-1.png",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 7; rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "ac238571-c56c-5d66-983d-7f37969bbf1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "152972ddd4ab0e68c4da4e34769c2393d2e025e45968dd30ea4b77f2bd1ec514",
+    "metadata_sha256": "313c17531d2dfe81536d69a40f7485a8e77824200b7e2646e2cde8ffb9fb1c70",
+    "structure_sha256": "12ca14a8d52c00517ff040144154669263cfe5a90cde369b5f07f0e90ccca379",
+    "text_sha256": "d1bf8a72f604b80fd2a298691acc830da1aedc0bf277d090490f8b8c08b7ff7b",
+    "translation_metadata_sha256": "96a5a4587db1b85cc6fa481d39ab2ece8326a46fa880a25996f1cc84bd883792"
+  },
+  "html": "<article data-article-id=\"a48edd12-d7cc-4f82-b894-7fa025906f12\">\n  <figure>\n    <img src=\"/images/articles/a48edd12-d7cc-4f82-b894-7fa025906f12-1.png\" alt=\"A steam locomotive traveling through a forest\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>As a man was wandering into the night,<br>\n    He searched for something, not found by sight.<br>\n    His heart was heavy, his flame growing dim.<br>\n    He thought of his future, the outlook seemed grim.<br>\n    “Why go on? What’s the purpose of life?”<br>\n    Remembering the past, cut just like a knife.<br>\n    He knew he was bitter, he would no more deny.<br>\n    As anger drove him, he decided to die.<br>\n    He had arrived, his decision was made.<br>\n    He stood on the tracks, hoping the train not delayed.<br>\n    He felt great relief, as he heard the whistle blow.<br>\n    But suddenly a new thought, “Where will I go?”<br>\n    He dove from danger, as the train roared by.<br>\n    “Where will I go?” he could hear himself cry.<br>\n    Over and over the question replayed.<br>\n    As he thought of eternity, the present did fade.<br>\n    The thoughts of childhood, the sermons he’d heard,<br>\n    Came flooding back, his whole being was stirred.<br>\n    “It’s Jesus Christ, His burden is light!”<br>\n    The message came clear, from out of the night.<br>\n    He pled with God, broken by sin.<br>\n    He would not stop ‘til this battle he’d win.<br>\n    The devil was desperate, his victim so near,<br>\n    But God saw a sinner, a life he held dear.<br>\n    Into the night the battle did rage.<br>\n    Saint or sinner, what would be this man’s wage?<br>\n    The peace of God flowed over like rain;<br>\n    Rejoicing he wept, he felt no more pain.<br>\n    With joy in his step, and victory in his heart,<br>\n    He left praising God, “How great Thou art!”</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3ade0e0c181b232414a3684607211031bfd38201d931f3e0c3843954f80c9634"
+}

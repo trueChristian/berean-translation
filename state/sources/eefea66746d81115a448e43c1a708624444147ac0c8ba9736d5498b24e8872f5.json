@@ -1,0 +1,101 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dundee, Ohio",
+          "name": "Chris Miller"
+        }
+      ],
+      "raw": "Chris Miller\nDundee, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "f24b8d7f-e7f8-4d1a-8769-75beff728b5e",
+    "images": [
+      {
+        "alt": "An open Bible in sunlight with shadows across its pages.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/f24b8d7f-e7f8-4d1a-8769-75beff728b5e-1.jpg",
+        "repository_path": "public/images/articles/f24b8d7f-e7f8-4d1a-8769-75beff728b5e-1.jpg",
+        "rights_note": "Masthead credits Photography by Laurel for page 24. Native crop retains the useful unobstructed open-Bible photograph above all article text and page furniture. Text visible on the photographed Bible is intrinsic image content, not an article overlay. No caption is printed. Page paint-order, image objects and resources inspected: one full-page RGB raster, no clean underlying photo, tiles, masks or transparency groups; subsequent invisible OCR text uses ExtGState /ca 0. Source ICCBased profile is sRGB IEC61966-2.1. Crop retains source crop content before the documented aspect-ratio resampling without rotation, flipping, retouching, enhancement or synthesized content; encoded as baseline sRGB JPEG with a nonzero 96 dpi density. No CMYK inversion was needed. No individual image licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 1.0435908 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1716,
+            681
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1716,
+            711
+          ],
+          "placed_page_dimensions_points": [
+            598.0,
+            843.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1716,
+            2318
+          ],
+          "source_object": 105,
+          "vertical_scale_to_pdf_placement": 1.0435908016656037
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "FOR THE YOUTH",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Fully Committed?",
+    "topics": [
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f475255087308445ce87c109c102769d61ca98b5ffd66251045c24ed53d37ead",
+    "metadata_sha256": "aa5754019363f640925f2ac532fa16bced17c2fa84b0efb1394bd79dc0f24610",
+    "structure_sha256": "94c69bcc6cd03a292608718da7882b1dd7a14efa9fa0819475b3236a03182589",
+    "text_sha256": "55e2d201e78263228ba7f5b4c0144f032a7fce89e8b81ec75009a3d12d6faf9c",
+    "translation_metadata_sha256": "37d10078b08d4bdb7487effe90374f05f00f66be13c1f81932f237ca84630793"
+  },
+  "html": "<article data-article-id=\"f24b8d7f-e7f8-4d1a-8769-75beff728b5e\">\n  <p><em>Let no man despise thy youth: but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity (1 Timothy 4:12).</em></p>\n  <p>It was just a few years ago when I remember lying in bed at night with lots of questions about what my future would hold, wondering what God has in store for my life, wondering how I can best serve Him, and be involved in His kingdom. This is a normal thing for youth with young minds, lots of ambition, and a whole life ahead of us. You are not abnormal when you face these questions.</p>\n  <h2>The time to start preparing for your future is NOW!</h2>\n  <p>Your walk with God, convictions, moral values, prayer life, and purity are all part of your preparation for the future. The things you are passionate about, your everyday habits, being under authority, and the person you are when nobody is watching, are shaping your character. If there are things in our lives that are not where they ought to be, my prayer and burden is that we are not just pushing these things down the road and expecting them to miraculously change at some later point in our lives! I will tell you a personal story about myself that is humbling to share, and yet I thought it could be a blessing for someone else.</p>\n  <p>Around a year ago, I found myself being quite intrigued by the U. S. presidential election and all the whoos and wows that go with it. I found myself being drawn into the excitement, hearing the different perspectives and all the un-Christlike attitudes and statements. In simple terms, I was filling myself with the kingdom of this world. Before long, I was spending way too much time feeding on these things. I realized that it was taking away from time that should have been spent filling my mind with upbuilding things that would strengthen my spiritual life and draw me closer to the goal.</p>\n  <h2>Goals and Commitments</h2>\n  <p>When a person decides to join the U. S. military, does he just one day think it would be sort of neat to join up and three years later, he just happens to be part of it in active duty? Recently, I read a book about a man who joined the Air Force as a young man. In his case, it was something he first dreamed about and then put his dreams into action. He put in much effort and discipline; he was committed to putting his all into it, and trying his level best even when there were times he thought he wouldn’t make it. There were times of discouragement, times of feeling like a failure, and times when he had to be studying his lessons while his friends thought he just didn’t have any time for fun. It was his commitment and the end goal that kept driving him.</p>\n  <p>Our Christian life and our personal walk with God are very similar. But I’m afraid that at times we take it too lightly and are not serious enough. When we decide to commit our lives to Christ, we are joining a heavenly kingdom. We are committed to joining the battle in winning souls back to him, to live lives that are pure, holy, without sin, that bring honor and Glory to Jesus Christ! So the question must be asked: without <strong>goals and commitments,</strong> will we be able to remain faithful in that heavenly kingdom? What is it that will keep us on that straight and narrow path that Jesus talks about in Matthew 7:13–14? ”Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat: Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.”</p>\n  <p>My desire is that our thoughts would be stirred, and we would be able to do some self-examination and see if where we are headed is taking us where we want to go. If we don’t, we are like a boat floating down the river—the outcome is inevitable. The currents of the world we face today are only getting stronger and are leading many people astray. “Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God” (Hebrews 12:1–2). Have you joined the race? Are there weights and besetting sins in your life? What does it mean to lay aside every weight? Is it possible to be <strong><em>free</em></strong> from sin? Are there things in your life that are holding you back, things that are distracting you from doing what you know God wants you to be doing? It is very important for us to be able to identify those things and ask God to show us the things that are hindering us from being completely and fully surrendered to him. Take a moment to think and meditate on those questions and consider the direction of your life.</p>\n  <figure>\n    <img src=\"/images/articles/f24b8d7f-e7f8-4d1a-8769-75beff728b5e-1.jpg\" alt=\"An open Bible in sunlight with shadows across its pages.\">\n  </figure>\n  <p>Coming back to the story I mentioned earlier about myself, I’ve made changes and committed to not getting involved like I did before because of how it was affecting my spiritual life. I have found it refreshing and a blessing to pull away from the kingdom of this world and to find an accountability partner. We share together how we are doing in this area, as well as other areas of our spiritual life.</p>\n  <p>If we are going to remain faithful, we <em>must</em> have strong <strong>commitments</strong> and a continual focus on the <strong>goal</strong> because without a vision the people perish. “Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the lord out of a pure heart” (2 Timothy 2:22).</p>\n  <p>First, we need to be completely sold out to serving under the Lordship of Jesus Christ—fully surrendered to Him, no matter the cost. We need to be committed to loving the truth, having faith, and simply believing God and His Word for what it says. Be committed to living above sin and the devil. Thank God the devil has already been defeated! Be willing to die to self and take up the cross of Christ. Be committed to cutting off the weights and the sin that so easily besets us, and cut off the things that are taking our eyes off Jesus. Live morally pure and upright in all conversation, thoughts, and actions. Seek God and love Him with your whole heart, and put yourself under the authorities that God has placed in your life.</p>\n  <p>Be faithful with the things God has put in front of you at this very moment. Tell God about your commitments and seek Him with a completely surrendered and broken heart. Ask Him to lay burdens on your heart for His kingdom. Forgetting the peer pressures of the world around us, find something to pour your heart into that will have a lasting impact. Find ways to serve and glorify God in your everyday life through serving those around you. Visit the elderly, help your neighbors, put your heart into the church, and be a support in every way possible. There are so many ways we can spend our time building God’s Kingdom and preparing for what He has for us. If God sees us being faithful in the small things, He will no doubt send bigger things our way. As we learn to trust Him, we don’t need to worry about our future because we know God’s plans are <em>always</em> higher and far better than ours.</p>\n  <p>True fulfillment comes from serving God and living a Christ-centered life, so we must be committed to making that our highest priority! “For me to live is Christ, and to die is gain” (Philippians 1:21). We should live our lives in such a way that Christ is our <em>life!</em></p>\n  <p>In conclusion, my hope is that this article will inspire your thoughts, desires, and actions to be fully committed to living out the heavenly kingdom! “Draw nigh to God and he will draw nigh to you” (James 4:8).</p>\n  <p>I am looking forward to the day when my Maker returns for His bride and takes us home to be with Him, where we’ll praise and worship Him around the throne <strong><em>forever!</em></strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "07b6dfc5c2075429f7fa14b4921693dd6ed925b190062fa9993aeda77519ecf2"
+}

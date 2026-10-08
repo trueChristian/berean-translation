@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "A. W. Tozer"
+        }
+      ],
+      "raw": "by A. W. Tozer"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "28efba40-5361-4be0-b3b1-78996b29c371",
+    "images": [
+      {
+        "alt": "Two people bowing their heads in prayer beside chairs",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 67,
+        "public_path": "/images/articles/28efba40-5361-4be0-b3b1-78996b29c371-1.jpg",
+        "repository_path": "public/images/articles/28efba40-5361-4be0-b3b1-78996b29c371-1.jpg",
+        "rights_note": "Original embedded PDF image object 67; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 17,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            397,
+            723
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 67,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            397,
+            723
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Praying Till We PRAY",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3000744d233df6183175e5e1d93ab64b930d2dfa7d24ebd7f7ca0371f162e028",
+    "metadata_sha256": "a2717c5539b00b1058b206f1cfe64b469f391dd03688da2f2064acb44937938d",
+    "structure_sha256": "f83dc4ed14eb5ffc4c9c2be1c35f7c7a40eda9ea94fd5a45294f545ddf3666a9",
+    "text_sha256": "1051bc466f750ef4546376d6c0d9eb63f9fae2e6705788548befa884a9107930",
+    "translation_metadata_sha256": "8e226c9f2df964ff93f6d0e960810927bc4e3080cb1a604e582f958ddfa9e27d"
+  },
+  "html": "<article data-article-id=\"28efba40-5361-4be0-b3b1-78996b29c371\">\n  <p>Dr. Moody Stuart, a great praying man of a past generation, once drew up a set of rules to guide him in his prayers. Among these rules is this one: “Pray till you pray.” The difference between praying till you quit and praying till you pray is illustrated by the American evangelist John Wesley Lee. He often likened a season of prayer to a church service, and insisted that many of us close the meeting before the service is over. He confessed that once he arose too soon from a prayer session and started down the street to take care of some pressing business. He had only gone a short distance when an inner voice reproached him. “Son,” the voice seemed to say, “did you not pronounce the benediction before the meeting was ended?” He understood, and at once hurried back to the place of prayer where he tarried till the burden lifted and the blessing came down.</p>\n  <figure>\n    <img src=\"/images/articles/28efba40-5361-4be0-b3b1-78996b29c371-1.jpg\" alt=\"Two people bowing their heads in prayer beside chairs\">\n  </figure>\n  <p>The habit of breaking off our prayers before we have truly prayed is as common as it is unfortunate. Often the last ten minutes may mean more to us than the first half hour, because we must spend a long time getting into the proper mood to pray effectively. We may need to struggle with our thoughts to draw them in from where they have been scattered through the multitude of distractions that result from the task of living in a disordered world.</p>\n  <p>Here, as elsewhere in spiritual matters, we must be sure to distinguish the ideal from the real. Ideally we should be living moment-by-moment in a state of such perfect union with God that no special preparation is necessary. But actually there are few who can honestly say that this is their experience. Candor will compel most of us to admit that we often experience a struggle before we can escape from the emotional alienation and sense of unreality that sometimes settle over us as a sort of prevailing mood.</p>\n  <p>Whatever a dreamy idealism may say, we are forced to deal with things down on the level of practical reality. If when we come to prayer our hearts feel dull and unspiritual, we should not try to argue ourselves out of it. Rather, we should admit it frankly and pray our way through. Some Christians smile at the thought of “praying through,” but something of the same idea is found in the writings of practically every great praying saint from Daniel to the present day. We cannot afford to stop praying till we have actually prayed.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d11a61cd67388694e18f130694d93b4e375ea3b153d82015652d3877e420a2cc"
+}

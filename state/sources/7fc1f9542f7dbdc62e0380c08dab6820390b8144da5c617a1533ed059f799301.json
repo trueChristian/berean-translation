@@ -1,0 +1,187 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Tape Ministry"
+        }
+      ],
+      "raw": "--The Tape Ministry"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "2050850e-0ab8-4ca7-9ff2-419a1d45fecd",
+    "images": [
+      {
+        "alt": "Charity Gospel Tape Ministry logo with a world map and cassette",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-1.jpg",
+        "repository_path": "public/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-1.jpg",
+        "rights_note": "Original embedded image object 128 on printed page 33. No separate image credit or image-specific permission requirement is printed. Lettering, world map, cassette and oval logo design, including its baked shadow, are intrinsic to the sole logo raster and are preserved. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "ministry logo",
+        "sequence": 1,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            300,
+            163
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            300,
+            163
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            300,
+            163
+          ],
+          "source_object": 128
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Charity Ministries logo with its website and fellowship names",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-2.jpg",
+        "repository_path": "public/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-2.jpg",
+        "rights_note": "Original embedded image object 129 on printed page 33. No separate image credit or image-specific permission requirement is printed. Logo lettering, website, rules and fellowship names are intrinsic to the sole logo raster and are preserved. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "ministry logo",
+        "sequence": 2,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            300,
+            90
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            300,
+            90
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            300,
+            90
+          ],
+          "source_object": 129
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A tilted Remnant magazine cover showing a lighthouse beside the sea",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-3.jpg",
+        "repository_path": "public/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-3.jpg",
+        "rights_note": "Original embedded image object 127 on printed page 33. No separate image credit or image-specific permission requirement is printed. The original image paint command and clipping path are rendered alone at the native source scale to preserve the printed clockwise tilt. The cover lettering is intrinsic to this thumbnail, not a separate overlay. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "magazine cover thumbnail",
+        "sequence": 3,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            184,
+            238
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "render original image-only PDF paint command with its exact clipping path; no text or other page objects; 150 dpi source scale",
+          "output_dimensions": [
+            233,
+            274
+          ],
+          "rotation_degrees": 12.72,
+          "source_dimensions": [
+            184,
+            238
+          ],
+          "source_object": 127
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        33,
+        35
+      ],
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "July-September 2005 Financial Report",
+    "topics": [
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82",
+      "0ade9728-d895-5710-84b2-09af80abdc84"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8f961934ecfdbe16a6d8c8f92a4446ee57b5cd913b9c058671a14dc7302a1a1e",
+    "metadata_sha256": "6154c8fc9bcf7672691610a9336bf23aaa3859f84dd07b303bb21ca477718553",
+    "structure_sha256": "f8d4acdd8dc4ab5bdb39d9aa6ced8cc538921083e7c24b7ac3b515737c7eb54a",
+    "text_sha256": "ec916f32457f9bc0e3e5fdec231b46907d796e5efd66f5a9e697e0a8afd1f7a1",
+    "translation_metadata_sha256": "470500bebaef8d537c3cff4b94ae08a106a453f8c0cdd56d38a4d5dd69cf5169"
+  },
+  "html": "<article data-article-id=\"2050850e-0ab8-4ca7-9ff2-419a1d45fecd\">\n  <figure>\n    <img src=\"/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-1.jpg\" alt=\"Charity Gospel Tape Ministry logo with a world map and cassette\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-2.jpg\" alt=\"Charity Ministries logo with its website and fellowship names\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/2050850e-0ab8-4ca7-9ff2-419a1d45fecd-3.jpg\" alt=\"A tilted Remnant magazine cover showing a lighthouse beside the sea\">\n  </figure>\n  <p>Greetings in Jesus’ Name! We would like to give a little update about the Tape Ministry.</p>\n  <p>As we continue from day to day here in the Tape Ministry we thank God for all who have supported us. Your cards and letters of appreciation have been a great blessing and encouragement to us.</p>\n  <p>We are continually busy taking orders, answering phone calls, replying to emails, writing letters, and the list goes on. Not to mention the necessary routine work of keeping the database updated, correcting addresses, keeping the web site current with new messages, uploading the Remnant and Missions newsletter, and keeping ahead of all the other requests that come our way. We are currently sending out approximately three thousand messages per week. Thank you for keeping us busy with your requests!</p>\n  <p>We currently have four to five workers here every day with most of them volunteer. These are part-time and not coming in every day. However, we are looking for another fulltime volunteer. We are looking for a Christian young man who is responsible and willing to dedicate his time to this mission field. He needs to have an aptitude for computer work. If you are looking for a place to do some volunteer work and meet these requirements please call us. We are actively pursuing someone to fill this position.</p>\n  <p>We would like to begin offering our messages on regular CD. An increasing number of people are requesting this, primarily because their vehicles do not have cassette tape players in them. This will mean an upgrade of our equipment to be able to produce any significant amount. We feel this will only increase the availability of the Word of God to more people. We will continue offering our messages on tape and in the MP3 format.</p>\n  <p>Also, we have recently produced and edited the Godly Home Series on DVD. This is an excellent way to hear the series with the advantage of having visual stimulation as well. We are requiring it be used in a group setting. We will be advertising this on our web site and in “The Remnant” later. If you are interested please call or write to us for more information. We hope to have it available by the end of the year.</p>\n  <p>Our web site visitors are gradually increasing in number. We have many of our messages there as well as “The Heartbeat of the Remnant” and the Missions Newsletter.</p>\n  <p>You can visit us at <u>www.charityministries.org</u> or call us at 1-800-227-7902.</p>\n  <p>Thank you for your support and especially your prayers. <em>--The Tape Ministry</em></p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">07/01/05 Beginning Balance</th><td><strong>$10,213.74</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$41,983.33</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$6,544.25</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$48,527.58</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$5,260.38</td></tr>\n      <tr><td>Tapes, Albums, CD’s &amp; Labels</td><td>$15,990.01</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$215.89</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$4,261.75</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$1,847.28</td></tr>\n      <tr><td>Rent</td><td>$2,250.00</td></tr>\n      <tr><td>Telephone</td><td>$1,061.76</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$513.07</td></tr>\n      <tr><td>Building Improvements</td><td>$0.00</td></tr>\n      <tr><td>Miscellaneous</td><td>$6,033.28</td></tr>\n      <tr><td>Payroll Expense</td><td>$14,200.01</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$1,967.20</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$11,069.30</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$64,669.93</strong></td></tr>\n      <tr><th scope=\"row\">09/30/05 Ending Balance</th><td><strong>-$5,928.61</strong></td></tr>\n      <tr><td><em>Difference</em></td><td><em>-$16,142.35</em></td></tr>\n    </tbody>\n  </table>\n  <p>As you can see by this financial report, we are again struggling financially. Since we have made the decision to not borrow money for the support of this ministry, we are asking for your support both prayerfully and financially. All can pray, some can give.</p>\n  <p>Again, thank you to all that have supported us in the past and we pray for your support in the future.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ba08c828d28c8398991d8f131936620ddc7f199cb6180866b21d05a1b20c1558"
+}

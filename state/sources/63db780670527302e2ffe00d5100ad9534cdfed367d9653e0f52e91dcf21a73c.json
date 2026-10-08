@@ -1,0 +1,141 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Doug Nichols"
+        }
+      ],
+      "raw": "by Doug Nichols"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c",
+    "images": [
+      {
+        "alt": "A person lies in bed under a striped blanket.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-1.jpg",
+        "repository_path": "public/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-1.jpg",
+        "rights_note": "Original embedded image object 88 on printed page 23. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "bedside illustration",
+        "sequence": 1,
+        "source_page": 23,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            375,
+            336
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            375,
+            336
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            375,
+            336
+          ],
+          "source_object": 88
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man holding a hat stands beside a patient lying in bed.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-2.jpg",
+        "repository_path": "public/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-2.jpg",
+        "rights_note": "Original embedded image object 92 on printed page 24. No separate image credit or image-specific permission requirement is printed. The exact original image paint command and polygon clipping path are rendered alone at the native source scale. No surrounding article text is included. The small intrinsic artist signature is retained; its complete reading is uncertain and no creator name is inferred. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "doctor and patient illustration",
+        "sequence": 2,
+        "source_page": 24,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            514,
+            750
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "render original image-only PDF paint command with its exact clipping path; no text or other page objects; 150 dpi source scale",
+          "output_dimensions": [
+            515,
+            751
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            514,
+            750
+          ],
+          "source_object": 92
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 23
+    },
+    "subtitle": "Originally: Giving Honor to the Little Man of Mindoro for the Glory of God!",
+    "title": "The Fruit of One Single Act of Kindness",
+    "topics": [
+      "8027dd12-af78-5fb4-b5e2-dfad753ce6a4",
+      "cd42f468-6b2c-5f56-abf2-82062af463d1",
+      "4896beb5-d08b-51cf-a626-d8cef3c1b2ec"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "fff62a9a8b80e6902c3011084c16e3570776eee12af5eea01dc8a514126c323e",
+    "metadata_sha256": "cbe6419b7085a9450fed99239d2fa07bd8de50786af212d14041b82098f3f709",
+    "structure_sha256": "2540b8c17bcd0abcd085607bc1deb94b5a88e6b48dc50a2c57bde57c506e65d8",
+    "text_sha256": "e8330295b3e127231ab39fe6cf2e7e8a79e9f1c3fdde359611f75f30781eeda8",
+    "translation_metadata_sha256": "7f411af8a1cb6da841e0734304f20213d6622b9f7676c35638366ad51db0af8a"
+  },
+  "html": "<article data-article-id=\"ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c\">\n  <p>Margaret and I began our ministry in the Philippines in 1970 on the small island of Mindoro. As new missionaries, we were discouraged. We not only struggled to learn a new language and a new culture, but we also had no income for three months. In fact, we did not even have one dollar. Early one morning during a typhoon, Margaret shook me awake and groaned in pain. “Doug, my side hurts!”</p>\n  <p>I ignored the wind and rain blowing against our little house and jumped out of bed. Flipping through our medical book, I decided she might have appendicitis. But how could I find a doctor at this time of night? Perhaps the neighbors could help. When I woke them up at 2 a.m., they told me of a Christian Filipino doctor who had a small mission clinic about 15 kilometers away. When they let me borrow their scooter, I wrapped Margaret up and put her on the back.</p>\n  <figure>\n    <img src=\"/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-1.jpg\" alt=\"A person lies in bed under a striped blanket.\">\n  </figure>\n  <p>I drove slowly in the pouring rain, trying to miss the potholes in the muddy dirt road. About 4 a.m., I knocked on the doctor’s door. Even though Filipinos are friendly and hospitable, I was nervous at the reception we might receive at that hour.</p>\n  <p>A small man in his nightclothes opened the door. He smiled graciously and asked, “May I help you?” “Doctor,” I said, “my wife seems to be seriously ill. Can you please help?” After examining Margaret, the doctor announced that he needed to operate for appendicitis right away. We laid her on a table, and I held a lantern while he gave her a spinal shot and performed an appendectomy.</p>\n  <p>The doctor wanted to watch Margaret closely in case of infection, so we cleared a space and set up a bed in his storeroom. For five days, this little doctor and his assistants cared for Margaret. They even fed us, as we were penniless. While Margaret rested and slept, I helped at the clinic by cutting grass, sorting medical supplies, helping with record keeping, sharing the Word of God, and caring for patients.</p>\n  <figure>\n    <img src=\"/images/articles/ff94b6a8-a88a-4175-bfe2-8bbe45d2d49c-2.jpg\" alt=\"A man holding a hat stands beside a patient lying in bed.\">\n  </figure>\n  <p>When it was time to leave, we were embarrassed over our lack of funds. “Doctor,” I said, “you’ve saved my wife’s life, and we’re so grateful.” Jokingly, I added, “ I have no money to pay now, but I can give you my watch, my wedding ring, and the gold in my false teeth. But seriously, how can I pay you?”</p>\n  <p>This loving, gracious man took my hands in his, looked up at this tall new missionary and said, “Brother, there is no charge. The Lord brought you to my country to serve my people in the name of Christ, so I can serve you. There is no charge, brother, no charge!”</p>\n  <p>Margaret and I left that little out-of-the-way clinic no longer discouraged but with a renewed love for Christ, His work, and for the people He had called us to serve. Because of the kindness, graciousness, and compassion of this little man from Mindoro, we have been able to continue in ministry for 35 years.</p>\n  <p>Recently, I spoke to a church of 2,400 people in Metro Manila, Philippines. The title of my message was, “Don’t Just Stand There, Put on Something,” based on Colossians 3:1–14. As I spoke about the garment of kindness that we should put on, I told the story about the little doctor of Mindoro. I then said, “It has been 35 years since I have seen that doctor—until this morning. Ladies and gentlemen, may I introduce Dr. Romeo Santiago, the godly little doctor from Mindoro!”</p>\n  <p>Dr. Santiago was sitting near the front. His daughters had heard that I was speaking that morning and had brought him from bed rest, since he had been in a Manila hospital for various physical problems.</p>\n  <p>When the doctor staggered to his feet with the help of a cane and his daughters, the church erupted in thunderous applause. The congregation wept and continued to applaud. The pastors immediately went to shake his hands, and people encircled him, embracing him and thanking him again and again. It was a wonderful outpouring of praise to God for this doctor’s faithful Christian life.</p>\n  <p>God, in His gracious and sovereign will, encouraged over 2,000 people in their Christian walk with this simple story and in personally meeting Dr. Santiago, who has served God faithfully for many years.</p>\n  <p>Dear friend, you may never be so honored. You may not have even ten people applaud your name, but you will never know the impact of what simple acts of compassion, kindness, humility, gentleness, forgiveness, forbearance, and love will have on the gospel to God’s glory to the ends of the earth.</p>\n  <p>Because of the kindness of Dr. Santiago, Margaret and I were encouraged to remain in the ministry. You, too, can reach out to others with simple acts of kindness in Jesus’ name for His glory. Who knows? Perhaps 15, 25, or 35 years from now someone will say to you, “Remember when you helped me? Your kindness so encouraged me in my walk with God that I have served Him for many years. Thank you so much. To God be the glory.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0e785e287a365f9208aae7cd037e3736c480c79974044e0c8d2d6652a7fafef9"
+}

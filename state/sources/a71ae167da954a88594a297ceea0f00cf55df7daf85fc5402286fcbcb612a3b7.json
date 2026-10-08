@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rebecca Weber"
+        }
+      ],
+      "raw": "~Rebecca Weber"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "70a6ffc9-7d3b-472d-b886-39c63de6fa50",
+    "images": [
+      {
+        "alt": "Warm sunset sky behind silhouetted palm fronds",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/70a6ffc9-7d3b-472d-b886-39c63de6fa50-1.jpg",
+        "repository_path": "public/images/articles/70a6ffc9-7d3b-472d-b886-39c63de6fa50-1.jpg",
+        "rights_note": "No image credit, licence, or separate permission notice is printed for this background. Fourteen embedded inverted-CMYK transparency tiles were sample-inverted, converted to sRGB, and composited in PDF paint order on a 350-dpi canvas; edge bleed was cropped and the published pale center panel retained, while all separate title, poem, byline, and page text was omitted.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 11
+      }
+    ],
+    "issue_id": "bb87ee48-40aa-574c-b7a8-9898b928b451",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "A Prayer For Words Fitly Spoken",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "189d9960-4c6d-5357-9278-45afc08cd947",
+      "59f215c7-2846-5495-b326-2cfc27843ad3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "70204ed681482dbd0109c2da9eb329ef9293d4b1964433777017fc40804ab7d9",
+    "metadata_sha256": "7fae7ef31821ef76480a81b66070011c05b5bae07ea5d05b4533cd337b601bb6",
+    "structure_sha256": "d4f4c9cd990037b02ee5fdca786e10710b988f733ff03ea99ac5400e2be4c3cc",
+    "text_sha256": "202e821748ff3f87d197682ce04d7785fe82e3466425db7ce1235668ffdc7976",
+    "translation_metadata_sha256": "4d6077a346f3dd9c1549cab29d162ff82ba9c65faa086a3a71df89f60bf36b73"
+  },
+  "html": "<article data-article-id=\"70a6ffc9-7d3b-472d-b886-39c63de6fa50\">\n  <figure>\n    <img src=\"/images/articles/70a6ffc9-7d3b-472d-b886-39c63de6fa50-1.jpg\" alt=\"Warm sunset sky behind silhouetted palm fronds\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>O, Lord, breathe your life in each<br>\n    word that I speak;<br>\n    Help me in each sentence your<br>\n    honour to seek.<br>\n    Refrain me when words that will<br>\n    do no one good<br>\n    Would come to my lips; help me<br>\n    speak what I should.<br>\n    And when opportunity<br>\n    comes on my way<br>\n    To witness for you, guide, O<br>\n    Lord, what I say.<br>\n    O give me the courage to<br>\n    speak as I ought--<br>\n    To lift up your name and the<br>\n    things you have taught;<br>\n    That none have occasion my<br>\n    speech to condemn,<br>\n    That through my words Christ would be<br>\n    shining to them.</p>\n\n    <p class=\"byline\"><em>~Rebecca Weber</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "8f44a1ff7dcfadb658f68e6df1a559932ac33a3f7dc953135ba7a9c105b34c0f"
+}

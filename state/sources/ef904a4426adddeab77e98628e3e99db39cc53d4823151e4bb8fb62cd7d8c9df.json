@@ -1,0 +1,67 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6675e3be-25f0-4595-aa7e-ddb2fbed6722",
+    "images": [
+      {
+        "alt": "Pink flowering shrubs cover a green hillside beneath a blue sky.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6675e3be-25f0-4595-aa7e-ddb2fbed6722-1.jpg",
+        "repository_path": "public/images/articles/6675e3be-25f0-4595-aa7e-ddb2fbed6722-1.jpg",
+        "rights_note": "No item-specific source, credit or reuse restriction is printed. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 124. Unobstructed lower landscape crop (18,422)-(630,810) from 650×828 RGB source, resulting 612×388. Top poem text is irreversibly baked in sole raster; meaningful lower landscape retained. Page bleed excluded, separately painted postal overlays omitted. No pixels synthesized. Separate postal/publisher overlays omitted. Irreversibly baked poem text lies outside the meaningful lower-landscape crop; the exact poem is independently transcribed in HTML.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": "PDF base image object 124. Unobstructed lower landscape crop (18,422)-(630,810) from 650×828 RGB source, resulting 612×388. Top poem text is irreversibly baked in sole raster; meaningful lower landscape retained. Page bleed excluded, separately painted postal overlays omitted. No pixels synthesized. Separate postal/publisher overlays omitted. Irreversibly baked poem text lies outside the meaningful lower-landscape crop; the exact poem is independently transcribed in HTML.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Parental Love",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "5804285fc4f62a5b6ec8648a90eccde94e5f11ba524e0eaf6d8d9a569c56dc40",
+    "metadata_sha256": "63cd0959a480fd16e64836be3bf2784e9f038c11419cdc4f3b47b694391b6fdf",
+    "structure_sha256": "6938ae4d8d3f49edf0bb2b021c8152a482c78d83c8f82c0eb3bfb02bb1411709",
+    "text_sha256": "b4ab1050741b8a7a296616cf7dd151f56494a9706cde91f37f2e412c070b3f51",
+    "translation_metadata_sha256": "9776720eed44a327508fcb9d3d0bb0d4d7a2db9fbd36fb360186c08030476599"
+  },
+  "html": "<article data-article-id=\"6675e3be-25f0-4595-aa7e-ddb2fbed6722\">\n  <figure><img src=\"/images/articles/6675e3be-25f0-4595-aa7e-ddb2fbed6722-1.jpg\" alt=\"Pink flowering shrubs cover a green hillside beneath a blue sky.\"></figure>\n  <p class=\"poem\"><strong>Though I speak the words of God to my children,<br>and have not love, I am a sounding brass.</strong></p>\n  <p class=\"poem\"><strong>Though I spank my children with consistent diligence,<br>and have not love, I am nothing.</strong></p>\n  <p class=\"poem\"><strong>If I have all the right standards, and enforce them religiously,<br>and separate my family from all evil,<br>and have not love, it profiteth me nothing.</strong></p>\n  <p class=\"poem\"><strong>Though I have made many sacrifices for my children,<br>if I have not love, it profiteth me nothing.</strong></p>\n  <p class=\"poem\"><strong>Love suffereth long, and is kind to the children.<br>Love is not easily provoked by the children.<br>Love beareth all things, and believeth all things for the children.<br>Love hopeth all things, and endureth all things for the children.<br>Love never fails.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "47582f4924410f068c79b74b271c56062e0a894fd68357ea7d641e1b07ea2be0"
+}

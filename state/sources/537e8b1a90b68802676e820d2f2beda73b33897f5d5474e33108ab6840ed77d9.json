@@ -1,0 +1,138 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": null,
+          "role": "The Editor"
+        }
+      ],
+      "raw": "-The Editor"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "a0845312-06a2-4d8b-82ed-076c7305fcc1",
+    "images": [
+      {
+        "alt": "Thorns and grape clusters surrounding the words Do men gather grapes of thorns?",
+        "caption": "Do men gather grapes of thorns?",
+        "credit": null,
+        "height": 279,
+        "public_path": "/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-1.jpg",
+        "repository_path": "public/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Source object 14. Question lettering is intrinsic substantive text in the only source raster and is retained; no separately painted title typography is included.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "source_pdf_object": 14,
+        "transformations": [
+          "Grayscale source JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; source pixel dimensions and orientation retained. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 279x279 sRGB None 72x72",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 279
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "height": 676,
+        "public_path": "/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-2.jpg",
+        "repository_path": "public/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-2.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean base object 13. Separate white article-reading panel and all article typography omitted, preserving the complete underlying grapevine.",
+        "role": "decorative illustration",
+        "sequence": 2,
+        "source_page": 3,
+        "source_pdf_object": 13,
+        "transformations": [
+          "Grayscale source JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; source pixel dimensions and orientation retained. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 232x676 sRGB None 72x72",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 232
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "height": 63,
+        "public_path": "/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-3.jpg",
+        "repository_path": "public/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-3.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean base object 152, represented once for six identical uses on pages 4 (twice), 5, 6 and 7 (twice).",
+        "role": "decorative illustration",
+        "sequence": 3,
+        "source_page": 4,
+        "source_pdf_object": 152,
+        "transformations": [
+          "Grayscale source JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; source pixel dimensions and orientation retained. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser_render": "verified_by_ai_in_Chromium",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 119x63 sRGB None 72x72",
+          "full_raster_decoding": "Pillow and ImageMagick passed without warnings",
+          "overlay_audit": "verified_by_ai; any unavoidable baked treatments documented in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 119
+      }
+    ],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 3
+    },
+    "subtitle": "A Divine Fruit Inspector",
+    "title": "William Law",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b303130ddb324bea09883e51ab7a21b4eeea95511d3ca162511d5c573ddb812c",
+    "metadata_sha256": "1e5c1f8107dd174ece559b5f34fe22018f3f68dbce4587c711b8348829c62370",
+    "structure_sha256": "64561bb3a6ac027cebda1e8c850254dc1502adece7cc3a99ee60a6e4d2c09c8b",
+    "text_sha256": "739b763c9bb5de68fe9c7adf21e84a4c1eb18b23ac4e39e00e597ed3895ae926",
+    "translation_metadata_sha256": "272d000ed1b7894fd7a55e93e8566d4ac969c9ac7dfbab161db5dd00a8d6a401"
+  },
+  "html": "<article data-article-id=\"a0845312-06a2-4d8b-82ed-076c7305fcc1\">\n  <figure><img src=\"/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-1.jpg\" alt=\"Thorns and grape clusters surrounding the words Do men gather grapes of thorns?\"><figcaption><strong><em>Do men gather grapes of thorns?</em></strong></figcaption></figure>\n  <figure><img src=\"/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-2.jpg\" alt=\"\"></figure>\n  <blockquote>\n    <p><em>Ye shall know them by their fruits.<br>\n    Do men gather <u>grapes of thorns</u>, or <u>figs of thistles</u>?<br>\n    Even so every good tree bringeth forth good fruit;<br>\n    But a corrupt tree bringeth forth evil fruit.<br>\n    A good tree <u>cannot</u> bring forth evil fruit,<br>\n    Neither can a corrupt tree bring forth good fruit.<br>\n    Every tree that bringeth not forth good fruit<br>\n    Is hewn down, and cast into the fire.<br>\n    Wherefore by their fruits ye shall know them.</em></p>\n    <p><em>Not every one that saith unto me, Lord, Lord,<br>\n    shall enter into the Kingdom of heaven;<br>\n    But he that doeth the will of my Father which is in heaven.</em></p>\n    <p>Matt. 7:16-21</p>\n  </blockquote>\n  <p>William Law’s writings are some very strong medicine from the past. He was a contemporary of the Wesleys’, and was known by all as a radical. He lost his ordination because he would not bow to some of the directives of the state run Church of England. He was a man who lived what he preached and governed his life in accord with the many clear statements that you will read in the following pages. Most of the Christians of his day did not like him because they felt his standard was too high. He was a man who took the command to love God supremely very seriously. Though he wrote nearly three hundred years ago, his words seem very contemporary.</p>\n  <p>We have gleaned the following definitive statements from a nearly unknown book called <em>William Law on Christian Perfection</em>, by Bethany Publishers. Although this is not a book review, I highly recommend reading the whole book. In a day when fruit is sadly lacking in the professing church, and everyone is boldly claiming to have the true faith of Christ, it seems good to allow a divine fruit inspector to check the trees. Let us heed the words of the Apostle Paul, “examine yourselves, whether ye be in the faith; prove your own selves.” <em>-The Editor</em></p>\n  <figure><img src=\"/images/articles/a0845312-06a2-4d8b-82ed-076c7305fcc1-3.jpg\" alt=\"\"></figure>\n  <h2>1. The Fruit of a New Nature</h2>\n  <p>This is the sole end of Christianity: to lead us from all thoughts of rest and repose here, to separate us from worldly tempers, to deliver us from the folly of our passions, and to unite us to God, the true fountain of all good. The mighty change which Christianity aims at, then, is to put us into a new state, reform our whole natures, purify our souls and make them the inhabitants of heavenly and immortal bodies.</p>\n  <p>Christianity is not a school for teaching moral virtue, or polishing our manners, or forming us to live in the world with decency and gentility. It is deeper in its designs and much nobler in its ends. It implies an entire change of life, a dedication of our souls and bodies unto God in the strictest and highest sense of the words.</p>\n  <p>Death is not more certainly a separation of our souls from our bodies than the Christian life is a separation of our souls from worldly dispositions, vain indulgences, and unnecessary cares.</p>\n  <p>Christianity…is a kingdom of heaven begun upon earth, and by being made members of it, we are entered into a new state of goods and evils.</p>\n  <p>Eternity alters the face of and nature of everything in this world. Life is only a trial. Prosperity becomes adversity, pleasures a mischief, and nothing a good but as it increases our hope, purifies our natures, and prepares us to receive higher degrees of happiness.</p>\n  <p>Christianity is, therefore, a course of holy discipline solely fitted to the cure and recovery of fallen spirits and intends such a change in our nature as may raise us to a nearer union with God and qualify us for such a higher degree of happiness. St. John tells us one sure mark of our new birth when he says, “whatsoever is born of God overcometh the world.” The new birth, or the Christian life, is considered as opposition to the world and all that is in it—its vain cares, its false glories, its proud designs, its sensual pleasures. If we have overcome these so as to be governed by other cares, other glories, other designs, and other pleasures, then we are born of God. Then is the wisdom of this world and the friendship of this world turned into the wisdom and friendship of God, which will forever keep us “heirs of God and joint-heirs with Christ.”</p>\n  <h2>2. The Fruit of Worldly Cares</h2>\n  <p>The Christian religion which aims to raise a new, spiritual, and as yet invisible world, and to place man in a certain order among thrones, principalities, and spiritual beings, is at entire enmity with this present, corrupt state of flesh and blood. It ranks the present world along with the flesh and the devil as an equal enemy to those glorious ends and that perfection of human nature which our redemption proposes.</p>\n  <p>The gospel lays its first foundation in the renunciation of the world as a state of false goods and enjoyments which feed the vanity and corruption of our nature, fill our hearts with foolish and wicked passions, and keep us separate from God, the only source of happiness.</p>\n  <p>“My kingdom,” says the Lord, “is not of this world.” A further representation of the distinction that exists between this kingdom and the concerns of the world follows:</p>\n  <blockquote><p><em>A certain man made a great supper, and bade many: and sent his servant at suppertime to say to them that were bidden, come, for all things are now ready. And they all with one consent began to make excuse. The first said, I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused. Another said, I have bought five yoke of oxen, and I go to prove them: I pray thee have me excused. Another said, I have married a wife, and therefore I cannot come.</em></p></blockquote>\n  <p>We find that the master of the house was angry and said, “None of those men which were bidden shall taste of my supper.” Our Savior a little afterwards applies it all in this manner, “Whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple.”</p>\n  <p>It is no more pardonable to be less affected by the things of religion for the sake of any worldly business than for the indulgence of our pride or any other passion. Christianity is a calling that puts an end to all other callings.</p>\n  <p>Men of serious business and management generally censure those who trifle away their time in idle and impertinent pleasures. But they don’t consider that attention to business in which they are skilled may get hold of the heart and render man as vain and odious in the sight of God as any other gratification. Though they may call it an honest care, a creditable industry, or any other plausible name....</p>\n  <p>It is granted that some cares are made necessary by the necessities of nature; the same may also be observed of some pleasures. The pleasures of eating, drinking, and rest are equally necessary. But if religion and reason do not limit these pleasures, we fall from rational creatures into gluttons and epicures. In like manner, our care after some worldly things is necessary, but if this care is not bounded by the just wants of nature, if it fills the mind with false desires and cravings, it is vain and irregular.</p>\n  <p>For this reason our Lord points His doctrines at the most common employments to teach us that they may occupy our minds inordinately and distract us far from our true good. He calls us from such cares to convince us that even the necessities of life must be sought with a kind of indifference. How much do Christians generally vary from this ideal!</p>\n  <p>Christianity commands us “to take no thought, saying What shall we eat? or, What shall we drink?” Yet Christians are restless till they can eat sumptuously. They are to be indifferent about raiment, but they are full of concern about fine array. They are to take no thought for the morrow, yet many of them think they have lived in vain if they are not able to leave large estates when they die.</p>\n  <h2>3. The Fruit of a True Love for God</h2>\n  <p>Christians are to love God with all their hearts, with all their souls, with all their minds, and with all their strength, and their neighbors as themselves… A man who has his head and his heart taken up with worldly concerns can not love God with all his soul and with all his strength. This is like a man who will have his eyes on the ground, yet trying to look towards heaven with all the strength of his sight. This is impossible. If we are to love God with all our heart and with all our soul, it is absolutely necessary that we be first persuaded to have no happiness, but in Him alone. Also, that we are capable of no other good but what arises from our enjoyment of divine nature. We may be assured that we never truly believe this truth, until we resign or renounce all pretensions to any other happiness. For to desire the happiness of riches at the same time that we know all happiness is in God is as impossible as to desire the happiness of sickness when we are sure that no bodily state is happy but that of health. We are as much obliged to renounce the world with all our heart and strength as we are to love God with all our heart and strength. It is as impossible to do one without the other as to exert all our strength in two different ways at the same time.</p>\n  <p>Let anyone deal faithfully with himself—consult his own experience, his inner feelings—and consider whether when his soul is taken up with the enjoyments of this life, he feels that his soul is loving God with all its forces and strength. Let any man say that he feels this strong tendency of his soul towards God while it tends towards earthly goods, and I may venture to depart from all that I have said.</p>\n  <p>Nothing can be more plain than this: if we are to fill our souls with a new love, we must empty it of all other affections. (Page 64-65)</p>\n  <p>If we know that loving God with all our heart and soul is so opposed to the tempers and infirmities of our nature, why do we not remove every hindrance, renounce every vain affection, and with double diligence practice all means of forming this divine temper?</p>\n  <p>He who has renounced the world as having nothing in it that can render him happy will find his heart at liberty to aspire to God in the highest degrees of love and desire. (Page 66-67)</p>\n  <h2>4. The Fruit of Desiring Riches</h2>\n  <p>It is not the desire of great riches; it is the desire of riches and a satisfaction in the pleasure of them that is the snare and temptation, that fills men’s minds with foolish and hurtful lusts and keeps them in the same state of worldly folly as those whose desires are greater.</p>\n  <p>You want to leave fortunes to your children that they may have their share of achievement in the world.</p>\n  <p>Suppose that you succeed in your intentions to leave your children rich. What must you say to them when you are dying? Will you then tell them that you have the same opinion of the greatness and value of riches as you ever had, and that you feel the pleasure of remembering how much thought and care you have taken to get them? Will you tell them that you have provided for their ease, indulgence, and station in the world and they can now do no better than to eat and drink and take their fill of such enjoyments as riches afford? This would be dying like an atheist.</p>\n  <p>On the other hand, if you will die like a good Christian, you will not endeavor to fill their minds with such thoughts. Will you not tell them that they will soon be in a state when the world will signify no more to them than it does to you, and that there is a deceitfulness, a vanity, a littleness in the things of life, which only dying men feel as they ought?</p>\n  <p>Will you not tell them that all your own failings, irregularities of life, defects in devotions, strengths of passions, and failure in Christian perfection have been owing to wrong opinions of the value of worldly things, and that if you had always seen the world in the same light as now, your life would have been more devoted to God and you would have lived more in all those heavenly affections in the which you now desire to die?</p>\n  <p>Will you not tell them that it is the enjoyment of the world that corrupts the hearts and blinds the minds of all people, and that the only way to know what good there is in devotion, what excellence in piety, what wisdom in holiness, what happiness in heavenly affection, what vanity in this life, and what greatness in eternity, is to die to the world and all worldly dispositions?</p>\n  <p>If you die in a spirit of piety, and you love them as Christ loved His disciples, you must tell them the truth. Your kindness will impel you to exhort them to renounce all self-enjoyments that are contrary to those holy tempers and heavenly affections which you now find to be the only good and happiness of human nature.</p>\n  <h2>5. The Fruit of Idleness and Indulgence</h2>\n  <p>Ambition and worldly cares distract the mind and fill it with false concerns. However, even these are in a nearer state to religion than idleness and indulgence. Ambition and worldly cares, though they employ the mind wrongly, preserve some degree of activity in it, which by some means may take a right turn. But idleness and indulgence are <u>the death and burial of the soul</u>.</p>\n  <p>I have been more severe upon this disposition because it is so common and is even acknowledged without shame. People who would not be thought of as reprobates are not afraid to let you know that they do little but eat and drink and sleep and take such diversions as suit with their ease. Yet such a state of life nourishes the corruption of our nature and exposes us to the vanity of the world.</p>\n  <p>“Watch and pray,” said our Savior, “that ye fall not into temptation.” The devil’s advice is to be idle and indulge; then you will yield to every temptation. If watching and prayer have any tendency to prevent our falling into temptation, it is certain that idleness and indulgence must in an equal degree make us incapable of resisting them.</p>\n  <p>How is it that Christianity cures the corruption of our nature? It does it by teaching us to live and act by principles of reason and righteousness. These are: first, God is our only good—we cannot possibly be happy but in enjoyment of Him as He reveals Himself to us; second, our souls are immortal spirits that are here only in a state of trial and probation; third, we must all appear before the judgment seat of Christ to receive the sentence of eternal life or eternal death.</p>\n  <p>Judging and thinking, choosing and avoiding, hoping and fearing, loving and hating according to these principles becomes a new creature left in the world to prepare himself to live with God in everlasting happiness.</p>\n  <p>The happiness of true religion, which is a happiness in God alone, is a great contradiction to all our natural opinions, not only because it proposes a good which our senses cannot relish, but because it leads us from all those imaginary enjoyments to which our hearts have become attached.</p>\n  <p>Religion, therefore, has as much power over us as it has power over our natural tempers and the judgments of our senses. If it has made us deny ourselves and reject the opinions of mere flesh and blood, then it is the pure religion James talks about.</p>\n  <h2>6. The Fruit of True Devotion to God</h2>\n  <p>Whenever we are in the spirit of prayer, when our hearts are lifted up to God breathing out holy petitions to the throne of grace, we receive from that, the encouragement to be constant and fervent in it. We are then joining with an intercession at the right hand of God and doing for ourselves on earth what our blessed Savior is doing for us in heaven. Who can consider his redemption as now carrying on by an intercession in heaven without feeling himself agreeable to God when the constancy of his prayers bears some resemblance to the Lord’s constant activity? This shows us also that we are most of all to desire those prayers which are offered up at the altar where the body and blood of Christ are joined with them. Our prayers are only acceptable to God through the merits of Jesus Christ, so we may be sure that we are praying to God in the most prevailing way when we pray in the name of Christ and plead His merits in the highest manner we can.</p>\n  <p>Since it is the heart only that is devout, I shall consider devotion chiefly as a state and attitude of the heart, for it is in this sense only that Christians are called to a constant state of devotion. They are not to be always on their knees in acts of prayer, but they are to be always in the state and spirit of devotion.</p>\n  <p>There is but one way to arrive at a true state of devotion, and that is to get right notions about ourselves, and of the divine nature. Having a full view of the relation we bear to God, our souls may as constantly aspire after Him as they constantly aspire after happiness. This also shows us the absolute necessity of all those aforementioned doctrines of humility and renunciation of the world. If devotion is founded in a sense of the poverty, misery, and weakness of our nature, then nothing can more effectually destroy the spirit of devotion than pride, vanity, and indulgence of any kind. These stop the breath of prayer and extinguish the flame of devotion as water extinguishes common fire.</p>\n  <p>If prayer is also founded in right notions of God, in believing Him to be the sole cause of all our happiness, then everything that takes this truth out of our minds, or makes us less sensible to it, makes us far less capable of devotion. Hence worldly cares, false satisfactions, and vain pleasures are to be renounced that we may be able to pray effectually. The spirit of prayer has no further hold of us than so far as we see our wants and imperfections, and likewise the infinite fullness and all-sufficiency of God. When we thoroughly feel these two great truths, then are we in the spirit of true prayer.</p>\n  <p>If you would desire therefore to be in the state of devotion, you must practice all those ways of life that may humble you in your own sight. You must forbear all those indulgences and vanities which blind your heart and give you false notions of yourself; you must seek that way of life and accustom yourself to such practices as may best convince you of the vanity of the world and the littleness of everything but God. This is the only foundation of prayer. You can desire it only in such a degree as you feel you want it. It is certain, therefore, that whatever lessens or abates the feelings of your wants, lessens the spirit and fervor of your devotion.</p>\n  <p>Again, suppose you were to call a man from a joyful feast, from pleasures of songs, music and dancing, and tell him to go into the next room to grieve for half an hour and then to return to his mirth. You may tell him that to mourn is a very excellent thing and highly becoming to a rational creature. It is possible he might obey you as far as to go into the room appointed for mourning; he may sit still, look grave, sigh and hang his head and stay out his half hour. But you are sure he cannot really grieve for this reason: he is in a state of festival joy and hopes to return to the feast.</p>\n  <p>This is the state of great numbers of Christians. They are always at a feast; their lives are nothing but a succession of such pleasure and satisfactions as affect and hurry their minds like the festival joys of drinking, music, and dancing. When they go to devotions, they are just as capable of it as the man who is rejoicing at the feast is capable of mourning at the same time. Let not the readers think this is the case only of people of great means; it applies equally to those in lower stations of life.</p>\n  <p>Whoever, therefore, finds himself unable to relish strains of devotion may be certain that it is owing to the way of life he is in. He may also be assured that life is wanting in virtues of humility, self-denial, and renunciation of worldly good since these virtues as naturally prepare and dispose the soul to aspire after God as a sense of sickness disposes one to wish for health.</p>\n  <p><em>Excerpts taken from</em> William Law on Christian Perfection, <em>edited and abridged by Erwin Rudolph.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "61c7ca22791658ac012bdb72481cbb91562d867bc9a5ad14aed0b60bf697906e"
+}

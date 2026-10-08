@@ -1,0 +1,210 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "B. M. Palmer"
+        },
+        {
+          "location": null,
+          "name": "J. W. Alexander"
+        }
+      ],
+      "raw": "Taken from The Family\nby B. M. Palmer & J. W. Alexander"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "327747e0-4fa9-413a-ba74-c48f5eae9c42",
+    "images": [
+      {
+        "alt": "Family members gathered with open books in a home",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "1d72464fda8e0035a352240635ec6b9faa1f33a7",
+        "public_path": "/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-1.jpg",
+        "repository_path": "public/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-1.jpg",
+        "rights_note": "Original embedded PDF image object 61; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            600,
+            545
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 61,
+          "source_pixel_dimensions": [
+            600,
+            545
+          ]
+        }
+      },
+      {
+        "alt": "Family gathered around a table while a man reads from a book",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "20f0f844d8185c1179ed72e492363ce6fcbd17df",
+        "public_path": "/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-2.jpg",
+        "repository_path": "public/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-2.jpg",
+        "rights_note": "Original embedded PDF image object 65; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The below-image text is a duplicate body pull quote; omitted from the image and not duplicated as a caption. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 17,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            0,
+            0,
+            611,
+            492
+          ],
+          "export_pixel_dimensions": [
+            611,
+            492
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 65,
+          "source_pixel_dimensions": [
+            612,
+            494
+          ]
+        }
+      },
+      {
+        "alt": "Adults and children gathered around a table with hands clasped",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "f4376dd2cf37973ac584d0cc5ca15a69c45d54bc",
+        "public_path": "/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-3.jpg",
+        "repository_path": "public/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-3.jpg",
+        "rights_note": "Original embedded PDF image object 69; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The below-image text is a duplicate body pull quote; omitted from the image and not duplicated as a caption. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 18,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            0,
+            2,
+            570,
+            725
+          ],
+          "export_pixel_dimensions": [
+            570,
+            723
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 69,
+          "source_pixel_dimensions": [
+            572,
+            728
+          ]
+        }
+      },
+      {
+        "alt": "A seated man and woman with a young child between them in a home",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "08d385c745d712a02e552746e14c8cc9d81ff884",
+        "public_path": "/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-4.jpg",
+        "repository_path": "public/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-4.jpg",
+        "rights_note": "Original embedded PDF image object 73; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 19,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            1,
+            0,
+            436,
+            281
+          ],
+          "export_pixel_dimensions": [
+            435,
+            281
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 73,
+          "source_pixel_dimensions": [
+            437,
+            283
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "The Influence of Family Worship on Children",
+    "topics": [
+      "8ed108f9-3ccb-5850-af9d-7b0b089bf935",
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081",
+      "bab57494-d427-59dd-b225-fb93dc2a2cad"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "91d57c66e4583a2ce4d268ce3c7cf7e9a5fcbcb5fc9d0b34fb6031184773b10d",
+    "metadata_sha256": "ba88f3069118e627059a21888afe97b06af4baef32ce1c3f27cf8d96430db326",
+    "structure_sha256": "a9665ec8a411290dd4dfa01b86a6538504f28bd9a3a7aef3420639a615dbc392",
+    "text_sha256": "ad9c08ac48601855c0d23788f64a42c977a896bf2dabe52610cea31822fef0b4",
+    "translation_metadata_sha256": "1db12872fa452e583ed7a95de54dd2ce7d789303c4a3a0590976ba447b23f74d"
+  },
+  "html": "<article data-article-id=\"327747e0-4fa9-413a-ba74-c48f5eae9c42\">\n  <figure>\n    <img src=\"/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-1.jpg\" alt=\"Family members gathered with open books in a home\">\n  </figure>\n  <p>There are many readers of these pages who, like the author, can go back to no period of recollection in which the worship of God was not duly observed under the parental roof; and they will agree in testifying that this is among the chief blessings for which they have to thank an ever-gracious Providence. If called upon to name the principal benefit of the institution, we should indicate it’s benign operation on the children of the house.</p>\n  <p>The simple fact, that parents and offspring meet together every morning and evening for the Word of God and prayer, is a great fact in household annals. It is the inscribing of God’s name over the lintel of the door. It is the setting up of God’s altar. The dwelling is marked as a house of prayer. Religion is thus made a substantive and prominent part of the domestic plan. The day is opened and closed in the name of the Lord. From the very dawn of reason, each little one grows up feeling that God must be honored in every thing; that no business of life can proceed without Him; and that the day’s work, or study, would be unsheltered, disorderly, and in a manner profane, but for this consecration. When such a child comes, in later years, to mingle with families where there is no worship, there is an unavoidable shudder, as if among heathen or infidel companions.</p>\n  <p>As prayer is the main part of all Family Worship, so the chief benefit to children is that they are the subjects of such prayer. As the great topic of the parent’s heart is his offspring, so they will be his great burden at the throne of grace. And what is there, which the father and mother can ever do for their beloved ones, that may be compared with their bearing them to God in daily supplication? And when are they so likely to do this with melting affection, as when kneeling amidst the group of sons and daughters? And what prayers are more likely to be answered, than those which are more offered thus? The direct influence of family-prayer is then to bring down the benediction of Almighty God upon the children of the house. In saying this, though we should not add another word, we adduce a sufficient and triumphant reason for the custom of our fathers. But there are incidental and collateral advantages which must not be overlooked.</p>\n  <figure>\n    <img src=\"/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-2.jpg\" alt=\"Family gathered around a table while a man reads from a book\">\n  </figure>\n  <p>Daily worship, in common, encourages children to acts of devotion. It reminds them, however giddy or careless they may be, that God is to be adored. In many ways it suggests to them the duty and blessedness of praying for themselves. They are here familiarized with what may be called the method of prayer; and have manifold petitions brought before their minds, which may afterwards be made their own. While the favored circle is bowed before God, there is scarcely a son or daughter who will not sometimes be arrested by the voice of the father in supplication, and prompted to appropriate the petition. In many instances, we may suppose, the first believing prayers of the Christian youth ascend from the fireside. Slight impressions, otherwise transient, are thus fixed, and infant aspirations are carried up with the volume of domestic incense. Is it too much to say, that in this way, Family Worship becomes the means of everlasting salvation to multitudes?</p>\n  <p>The confessions, thanksgivings, and petitions of a wise householder, will take their form and color from the circumstances of his house. Unless enslaved to a rigid form, he cannot but vary his requests with the changing condition of his family; and, therefore, he will naturally suit the words of devotion to the state of his children. It must be obvious, that in this way, even when prayer is most singly directed to it’s proper end, a number of incidental suggestions must occur, which will carry all the solemnity and pungency of exhortation, caution, and consolation. He who is prayed for, will know and feel that he is prayed for. Paths of duty will be indicated; dangers will be marked; sins will be arranged before conscience; divine blessings will be set forth as infinitely desirable. By the same means, through God’s blessing, incentives to piety will be reiterated, convictions deepened, ad the object of faith placed in open light. Where all this is done day by day, the heart of the child must experience some affection, until it be steeled by habitual resistance.</p>\n  <p>The daily regular and solemn reading of God’s holy Word, by a parent before his children, is one of the most powerful agencies of a Christian life. We are prone to undervalue this cause. It is a constant dropping, but it wears it’s mark into the rock. A family thus trained cannot be ignorant of the Word. The whole Scriptures come repeatedly before the mind. The most heedless child must observe and retain some portion of the sacred oracles: the most forgetful must treasure up some passages for life. No one part of juvenile education is more important. Between families thus instructed, and those where the Bible is not read, the contrast is striking. To deny such a source of influence to the youthful mind is an injustice, at the thought of which a professor of Christianity may well tremble. The filial affections are moulded by Family-Worship. The child beholds the parent in a peculiar relation. Nowhere is the Christian father so venerable as where he leads his house in prayer. The tenderness of love is hallowed by the sanctity of reverence. A chastened awe is thrown about the familiar form, and parental dignity assumes a new and sacred aspect. There is surely nothing unnatural in the supposition that a froward child shall find it less easy to rebel against the rule of one whom he daily contemplates in an act of devotion. The children look more deeply into the parent’s heart by the medium of family prayer. A single burst of genuine fatherly anxiety in the midst of ardent intercession, may speak to the child a volume of long-hidden and travailing grief and love. Such words, uttered on the knees, though from plain untutored man, are sometimes as arrows in the heart of unconverted youth. The child is forced to say within himself, “how can I offend against the father who daily wrestles with God in my behalf? How can I be careless about the soul, for which he is thus concerned?” And often when separated from the domestic circle, has the wanderer bethought himself, My father and mother are now praying to God for their boy! He is little read in the human heart who failed to recognize here a great element of filial piety, or who refuses to believe that the tenderness of a child’s attachment is increased by the stated worship of the household.</p>\n  <figure>\n    <img src=\"/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-3.jpg\" alt=\"Adults and children gathered around a table with hands clasped\">\n  </figure>\n  <p>There is a kindred influence upon fraternal affection. Praying together is a certain means of attachment; those who pray for one another cannot but love. Think of it, and confess how impossible it is foe sons and daughters, every day, during all the sunny years of youth, to bow down side by side in common devotions and mutual intercessions, without feeling that their affection is rendered closer and holier by the very act. Brothers and sisters who have thus been led together to the throne of grace from infancy, are linked by ties unknown to the rest of the world. but the topic merits a separate discussion.</p>\n  <p>Delightful as is the syllable HOME, it is made tenfold more so by prayer. The ancient lares, or gods of the house, were cherished, and their altar was the domestic hearth. They were vanity and a lie: “but our God is in the heavens.” The house of our child-hood is always lovely, but the presence of the Almighty Protector makes it a sanctuary, and his altar causes home to be doubly home. However long we live, or however far we wander, it will ever abide in memory as the place of prayer, the cradle of our childlike devotions, the circle which enclosed father, and mother, and sister, and brother, in it’s sacred limit. Now that which adds to the charm and influence of home, affords a mighty incentive to good, and a mighty check to evil. To make a child love his home, is to secure him against a thousand temptations. Families who live without God forego all such advantages and recollections. The domestic fireside no doubt has its religious associations; it is less revered; we believe it is less loved.</p>\n  <figure>\n    <img src=\"/images/articles/327747e0-4fa9-413a-ba74-c48f5eae9c42-4.jpg\" alt=\"A seated man and woman with a young child between them in a home\">\n  </figure>\n  <p>In families where there is daily praise of God, in Psalms and hymns and spiritual songs, there is an additional influence on the young. At no age are we more impressed by music, and no music is so impressive as that which is the vehicle of devotion. The little imitative creatures begin to catch the melodies long before they can understand the words. Without any exception they are delighter with this part of the service, and their proficiency is easy in proportion. no choir can be compared with that of a goodly household, where old and young, day after day, and year after year, lift up the voice in harmony. Such strains give a jocund opening to the day, and cheer the harassed mind after labor is done. Sacred song tranquillizes and softens the mind, makes an opening for higher influences, and prepares voice and heart for the public praise of God. The practice is the more important, as it is well known that in order to attain it’s perfection, the voice should be cultivated from an early age. Nor should we omit to mention the store of psalms and hymns which are thus treasured in the memory. By this it is, even more than by public worship, that the Scottish peasantry to so great an extent have the old versions of the psalms by rote, in great part or in whole. But this is a topic which we reserve for another place.</p>\n  <p>In the rearing of youth, nothing can be thought insignificant which goes to train the thoughts, or gives strength and direction to the habits. It is by repetition of perpetual, patience touches, small in themselves, that the straggling branches of the vine are led by the gardener to grow and spread aright. It is by ten thousand dots and inappreciable dots and scratches that the plate of the engraver is made to represent the portrait or the landscape. So it is by an ever-renewed application of right principles, that parental care, in the hand of sovereign grace, gives Christian habit to the infant mind. In so precious a work nothing is unimportant: we must give heed to the minutest influences, as we save the filings of gold, and the dust of diamonds. For this reason we ascribe to domestic worship a large share in creating useful habits in the young. We scruple not to say that a child receives advantage by being led to do <em>any thing</em>, provided it be innocent, at stated times, with frequent repetition, and with proper care. The daily assembling of a household, at regular periods, for a religious purpose, directly tends to promote good habits. It is a useful lesson for the speechless babe, to acquire the patient stillness of the hour of prayer. It is good for a family to have a religious motive to early rising, and timely attention to personal neatness. It is something to have punctuality in the observance of two hours each day, enforced from the very dawn of life. Those who may be tempted to put this aside with a smile, should first institute a comparison in regard to these particulars, between any two families, of which one worships, and the other worships not. We are willing to abide by the result of the examination, for we are sure that in the latter will be found a great looseness of domestic arrangement, tardy rising, a slovenly toilet, a long, irregular, time- wasting breakfast, more conformable to the modern fashion that to the Christian usage; evenings without an affectionate rally of the house; and late hours of retiring, or no fixed hours at all.</p>\n  <p>Parents who may read this book are respectfully invited to consider whether they do not owe it to their children to give them the daily worship of God. Especially are the sons and daughters of the church, whose own youth was hallowed by this constant observance, charged to recall their impressions of the past, and to reckon up the advantages which they are denying to their offspring.</p>\n  <p>Christian children must give account at the last day, for the privilege of family prayer. It becomes them to be asking whether they are making use of the instrumentality. Customary means of this kind, we know, are apt to become formalities. When the family is gathered, the careless or drowsy child may hear as though he hear not, and kneel as though he kneel not; may attend to no syllable of God’s Word, and join in no single petition. But let us remember that every instance of Family Worship affords a means of direct approach to the Most High, and thus a means of saving his soul. Blessed are those children, who, early in their youthful days, remember the God of their fathers, and begin life by choosing him as the guide of their youth! To such, every act of worship is a solemnity and a delight, gradually ripening the soul for faithful service on earth, and for the praises of heaven. Most earnestly is it to be desired, who have been catechized, who have been, during all their youth, embraced in the circle of domestic prayer, should now, when themselves placed at the head of families, carry forward the blessed institutions in which they have been reared, and convey the words of life to coming generations. “We will not hide then from their children, showing to the generations to come the praises of the Lord, and His strength, and His wonderful works that He hath done.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2c2509c7f87bec2cad03025a0e497ebf62b0e2afed7b8bc6d1168048527cb418"
+}

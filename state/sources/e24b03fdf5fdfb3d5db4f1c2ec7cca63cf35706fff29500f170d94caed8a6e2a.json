@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, OH",
+          "name": "Simon Martin"
+        }
+      ],
+      "raw": "Simon Martin\nGlenmont, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa",
+    "images": [
+      {
+        "alt": "Watercolor painting of a boy hanging upside down from a snowy shed roof",
+        "caption": null,
+        "credit": "Painting by Lydia Bauman",
+        "public_path": "/images/articles/ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa-1.jpg",
+        "repository_path": "public/images/articles/ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa-1.jpg",
+        "rights_note": "The page-2 masthead states “Page 19: Painting by Lydia Bauman”; no separate permission notice or license terms are stated. The 553-by-2239 page-18 strip and the 2559-by-2239 page-19 embedded sRGB JPEG were joined at the exact spread boundary and baseline-encoded in sRGB without changing the published panorama’s content, orientation, or height.",
+        "role": "two-page article painting",
+        "sequence": 1,
+        "source_page": 18
+      }
+    ],
+    "issue_id": "f1d8ec0b-e63c-5164-8d41-9d57b6c96f07",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "An Upside-Down Lesson",
+    "topics": [
+      "f408372a-11b1-5f7b-825e-9cc78c559189",
+      "0318d143-5277-597c-af01-cb4bc81f1b03",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "099b5061ec89864f033bd139ed08addb286c38994ec581545699d576b22fc0f5",
+    "metadata_sha256": "edaf605dec0402e87f2cc2be122a721cfda5b7c122e3879a25bd38442f221ef5",
+    "structure_sha256": "cca0947a76c27e6f50bde945ea7fec0d110e4ce6c8cede79c2f2a69a9ff6f0fd",
+    "text_sha256": "d93240fbcfbed3be6f486745f9b6e58dd0732043ebaeea2190668ad3e3e33f03",
+    "translation_metadata_sha256": "e93738e3c2c1a2ad55406a73927d4907fa3143b0c6610301363aec2aea084388"
+  },
+  "html": "<article data-article-id=\"ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa\">\n  <blockquote>\n    <p>“And whatsoever ye do, do it heartily, as unto the Lord, and not unto men.”<br>\n    Colossians 3:23</p>\n  </blockquote>\n\n  <p class=\"drop-cap\">When I was younger, I lived in western Iowa with the rest of my family. We lived on a small property with a big farmhouse and several old outbuildings. My siblings and I went on many adventures, some of which got us in trouble. In this story, I will tell you of a time I got myself into some big trouble.</p>\n\n  <p>We had a long shed with a roof that was higher on the one side than the other. Sometimes in the winter the south wind would drift the snow all the way up to the roof on the short side. Then we would climb to the top of the roof and sled down the roof and all the way to the bottom of the drift.</p>\n\n  <p>One snowy, winter day, when I was about seven years old, my dad, and my older brother, and I were in an old overgrown pasture cutting firewood. Dad was running the chainsaw while my brother and I were pulling the firewood on sleds to the shed where we stacked it.</p>\n\n  <p>After a while, I got tired of stacking firewood. I slipped away and went to the shed where the snow had drifted up to the edge of the roof again. I climbed up and walked over to the side where it was further down to the ground. I looked over the edge and right there was a big, deep snowdrift—just perfect to jump into. That is just what I did! After I did it once, I had to do it again, so up I climbed once more. Meanwhile, my brother and dad kept working without me.</p>\n\n  <p>I walked to the edge of the roof and prepared to jump. I closed my eyes and leaped over the edge. Suddenly, I was violently yanked out of my exhilarating jump. A rusty old nail had been sticking out right on the edge of the roof. The bottom of my overalls had gotten caught on the nail and there I was, stuck, hanging upside down in midair! The ground below me was way too far for me to reach. And there was no way I could pull myself back up. I was stuck! I immediately panicked and began screaming wildly for help. Dad was running the chainsaw, so he didn’t hear my desperate cries. I was in trouble!</p>\n\n  <p>Finally, after what seemed like a very long time, I saw my brother trudging through the snow with the sled, going back for another load of firewood. When he heard my screams, he looked at me in great surprise. Then he left his sled behind and ran as fast as he could to get dad. I heard the chainsaw shut off, then after a bit I heard them coming. When they got to me, hanging there in utter helplessness, they quickly helped me down. After they got me unhooked and back on my feet, we went back to cutting firewood. I had learned my lesson—I made sure to not goof off anymore until we were finished.</p>\n\n  <p>That day, I learned that even if our work is boring and we don’t enjoy it, the best thing to do is to keep at our work until we are done. Being lazy gets us in trouble. When we get caught up in the habit of laziness, it is much easier for us to give in to sins like disobedience and lying. Those things will have devastating effects in our lives. Always remember, sin starts like a tiny spark, but if we do not put that spark out, it can become a raging fire.</p>\n\n  <figure>\n    <img src=\"/images/articles/ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa-1.jpg\" alt=\"Watercolor painting of a boy hanging upside down from a snowy shed roof\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b5b280c6c2ebe916aeb17a2736c03d4565b2ec15b04b5bc2e34123afb984cd93"
+}

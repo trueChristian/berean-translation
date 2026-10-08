@@ -1,0 +1,230 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+    "images": [
+      {
+        "alt": "A lion and other animals watch a dancing child",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg",
+        "repository_path": "public/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg",
+        "rights_note": "Extracted the original embedded image object 44 from printed page 10. No separate image credit or image-specific permission wording is printed. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            670,
+            623
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            670,
+            623
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            670,
+            623
+          ],
+          "source_object": 44
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      },
+      {
+        "alt": "A plaque describing C. S. Lewis and his friends meeting at the back room of a pub",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg",
+        "repository_path": "public/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg",
+        "rights_note": "Extracted the original embedded image object 52 from printed page 12. No separate image credit or image-specific permission wording is printed. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            225,
+            173
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            225,
+            173
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            225,
+            173
+          ],
+          "source_object": 52
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      },
+      {
+        "alt": "A TIME magazine cover featuring a portrait of C. S. Lewis",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg",
+        "repository_path": "public/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg",
+        "rights_note": "Extracted the original embedded image object 51 from printed page 12. No separate image credit or image-specific permission wording is printed. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            113,
+            150
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            113,
+            150
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            113,
+            150
+          ],
+          "source_object": 51
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      },
+      {
+        "alt": "C. S. Lewis seated with a book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg",
+        "repository_path": "public/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg",
+        "rights_note": "Extracted the original embedded image object 56 from printed page 13. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 194, 240] from the 195 × 240 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 13,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            194,
+            240
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            194,
+            240
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            195,
+            240
+          ],
+          "source_object": 56
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "start": 10
+    },
+    "subtitle": "CHRISTIAN BEWARE!",
+    "title": "The Lion, The Witch, and the Happy Meal:",
+    "topics": [
+      "b43eaaa6-ba48-5bc1-b5bb-4c86e586adf4",
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "84f0d29cd760a226104a9121b16edaa3b437d535f5a6c685a7e3520bff2af4c4",
+    "metadata_sha256": "898e6dcbb99b4855db06be8d79e8e467455799f4b63aa3e1809e629ab6152504",
+    "structure_sha256": "d3c9544fd71143a6776c5814274276f744137066fda80dcbe8bae3da984bf6bb",
+    "text_sha256": "c4e63624a0a529c6febe22b65b80ef3f20623d815a9c4fd556e1212b554c7467",
+    "translation_metadata_sha256": "0c89f4ac8e1708bcc76d49a5303944b18518849948d04ee9c13c0c0b8364016c"
+  },
+  "html": "<article data-article-id=\"a5c8b070-97f8-4050-9ac5-89af497287b0\">\n  <figure><img src=\"/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg\" alt=\"A lion and other animals watch a dancing child\"></figure>\n  <p>At the end of a short visit with my brother and his family this past weekend in South Carolina, we said our last goodbyes over a late night dinner at the local McDonald’s. I don’t care much for fast food—especially McDonald’s—but facing a 13 hour drive home we agreed with my brother that it might make a nice grand finale for all our children.</p>\n  <p>My brother and I grew up at total odds when it came to spiritual things, he an agnostic evolutionist, and me the professing fundamentalist. It seemed we were always at odds on just about every topic. Looking back, I regret most of those debates we had in our childhood. If anything, I think I pushed him further into his godless convictions by arguing with him so often in the flesh. But now here we were almost 25 years later with our wives and children, looking at the vastly different outcomes of each of our lives.</p>\n  <p>Earlier that day we had finally gotten past the surface and I was able to ask him how he felt about God. I asked him what he felt the repercussions would be of raising children in an environment completely void of God. We then entered more discussion as he proceeded to give his old arguments and I offered my usual apologetics against the claims of the “Big Bang Theory” and evolution. From there we went on to discuss his distrust of “organized religion” and his disdain for church-going hypocrites. He concluded with the statement that he is looking for a Christianity that is more believable than what has classically been taught. He had read enough of the Bible to consider the majority of it as “unsophisticated” and was seeking a faith that “could combine science and religion together.” In essence, he said he wanted a “reasonable religion.” The idea of a holy, moral, law-requiring God was medieval to him. He wanted a god that could be seen and clearly postulated.</p>\n  <p>Feeling troubled by our discussion I later discussed the conversation with my wife. She said that she was concerned that there seemed to be no burden of spiritual need in their lives. Until they have that, she feared our words would most likely be meaningless. She recommended that we continue more urgently to pray for that hunger in their souls.</p>\n  <p>But now at the end of our visit, as I sat there groping for my final words, struggling over the obvious offenses and failed compromises of the weekend, I reached into my 4-year-old’s Happy Meal and pulled out the “toy” with the title “White Witch” on it. The theme was from Disney’s newest secular invasion “Narnia.” As I looked around I suddenly noticed that the whole place had big pictures of lions, witches and wardrobes all over it.</p>\n  <p>“Narnia” is the latest movie sensation out by Walt Disney. The movie is based upon the book, <em>The Lion, The Witch and The Wardrobe</em>, written by C.S. Lewis in 1950. I asked my brother if they had seen the movie, and of course, they had. So I began to discuss some of the beliefs and practices of C.S. Lewis. Having read many of Lewis’ works, I found myself tempted to use his intellectual approach to Christianity as a type of religion that my brother might finally accept...but I had to stop myself. Like my wife said, if there is no sense of need then what’s the use? He needed to see that he was a sinner in need of a savior, not merely add psychological Christianity to his already “sophisticated” philosophical mindset. So we gathered the children, instructed them to put the witches in the trash can, and headed back home to Pennsylvania.</p>\n  <p>On the 13 hour drive back home I thought a lot about C.S. Lewis and pondered why he is now becoming so popular. I thought about my brother’s desire for a relative, rational, and modern religion and concluded that he was not alone. Lately it seems that Hollywood has awakened to the potential capital gains it can tap into from unsuspecting Evangelical and Catholic Christians. The film “The Passion” brought in record sales and since then many smaller film companies have joined in to win the Evangelical and Catholic dollar. The seasoned gold hunter Walt Disney is not at all new to these tactics and is an age old enemy of Christianity and the Cross. Wes Penre, who warns about the influence of many secret societies says, “Walt Disney was a 33<sup>rd</sup> degree Freemason and an illuminist. Behind all those cartoons, magazines, movies etc., is a hidden agenda to mess up our children’s minds. Disney’s production over the years is filled with Masonic symbolism, occult over- and under-tones, mind control and indoctrination. He is preparing our younger generations for the New World Order, and introduces them to sorcery (black magic) as being a ‘cool thing.’”</p>\n  <p>That Disney has had an agenda against conservative Christianity is no new thing. What surprises me now is the wide spread acceptance that C.S. Lewis has received through Disney. Walk into any Christian bookstore, pick up most any Christian book catalog or go to a Christian book website and you’ll see Narnia and C. S. Lewis plastered everywhere. C.S. Lewis has never been so popular! But what did C.S. Lewis believe? Exactly what is he teaching our children and others through his books and subsequent movies?</p>\n  <figure><img src=\"/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg\" alt=\"A plaque describing C. S. Lewis and his friends meeting at the back room of a pub\"></figure>\n  <figure><img src=\"/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg\" alt=\"A TIME magazine cover featuring a portrait of C. S. Lewis\"></figure>\n  <p>Clive Staples Lewis spent the first part of his life an ardent intellectual atheist. He was a literature professor at Oxford from 1925 to 1954, and professor of medieval and Renaissance literature at Cambridge University from 1954-1963. However, after 1954 he was primarily a writer. He claimed a change in his life which caused him to begin believing in God and abandon his belief of atheism. He wrote many books defending his view of Christianity. One of his most popular books, <em>Mere Christianity</em>, was basically a Christian defense against the claims of atheism. However, what he is probably most famous for is a series of sorcery-fantasy books called <em>The Chronicles of Narnia</em> which claim to be full of hidden Christian messages and overtones.</p>\n  <p>C.S. Lewis originally became popular in a time when science, psychology, relativism and cynicism were all coming strongly against the church. Much like my brother, many people then were losing faith in the simplistic message of the Bible. Science was growing exponentially and the church was losing ground daily. As a last ditch effort, the church began to look for a “reasonable” faith that could be explained scientifically. This was the scene onto which the notable atheist and intellectual C.S. Lewis emerged, claiming to have converted to Christianity. He began to write books, debate and give seminars on Christianity all over the world. The world was a bit taken back by his intellectual approach and in 1947 he even made the cover of Time magazine, labeling him the “apostle to the skeptics.” However, unlike the apostles of old, who rebuked the culture and religious structure of the age by presenting an uncompromising gospel, I am afraid that C.S. Lewis allowed the simple Gospel to become polluted in his attempt to win over the intellectuals. Talking about holy things in an unholy way can be very damaging. Sporting his cigar and beer drinking demeanor as he debated Christian themes, I feel he often rendered many holy doctrines of the Bible as mere esoteric nuances and trendy dialogs.</p>\n  <p>One of the hardest things for intellectuals to accept is the narrow, egocentric-sounding concept that Christianity is the only way to Heaven. Jesus said, <em>“I am the way, the truth, and the life: no man cometh unto the Father, but by me (John 14:6)”.</em> Being completely at odds with such an exclusive idea, the skeptics and intellectuals were glad to hear form C.S.Lewis in his book <em>Mere Christianity</em>, that some pagans may belong to God without knowing it. He wrote, “There are people in other religions who are being led by God’s secret influence to concentrate on those parts of their religion which are in agreement with Christianity, and who thus belong to Christ without knowing it. For example, a Buddhist of good will may be led to concentrate more and more on the Buddhist teaching about mercy and to leave in the background (though he might still say he believed) the Buddhist teaching on certain points. Many of the good Pagans long before Christ’s birth may have been in this position.” Narrow minded as it may seem, the Bible clearly teaches that <em>“Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved (Acts 4:12)”.</em></p>\n  <p>Another thing that intellectuals have a difficulty with is all the talk about Heaven and Hell. Gold, music and crowns in Heaven—fire, darkness and torment in Hell, seems too much like a child’s story to be reasonable and believable. Unfortunately, C.S Lewis felt the same way. Speaking on Heaven, Lewis intellectualized the Biblical language saying “All the scriptural imagery (harps, crowns, gold, etc.) is, of course, a merely symbolical attempt to express the inexpressible. Musical instruments are mentioned because for many people (not all) music is the thing known in the present life which most strongly suggests ecstasy and infinity. Crowns are mentioned to suggest the fact that those who are united with God in eternity share His splendor and power and joy. Gold is mentioned to suggest the timelessness of heaven (gold does not rust) and the preciousness of it.”</p>\n  <p>In reference to Hell, instead of seeing literal fire and torment, Lewis implied that Hell was merely a state of mind. In <em>The Great Divorce</em> he said “...every shutting-up of the creature within the dungeon of its own mind is, in the end, Hell.” If Hell becomes intellectualized then certainly witches, demons and goblins would be considered safe amusements for our children. I found it interesting that when asked about so called “white witches,” the late Anton LaVey, author of the <em>Satanic Bible</em>, and high priest of the Church of Satan, scoffed at the distinction saying “There is no difference in Satanism, between white and black witchcraft or magic.” It is sad when demon possessed mad men have more wisdom and insight than many professing Christians.</p>\n  <figure><img src=\"/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg\" alt=\"C. S. Lewis seated with a book\"></figure>\n  <p>The Bible itself, with such unbelievable stories as the parting of the Red Sea by Moses, Noah and the ark, or even Elijah’s fiery chariot, is simply too much to swallow for the a modern scientific man. Unfortunately, Lewis dismissed many of these historical events as Christian mythology. In <em>The Problem of Pain</em>, Lewis wrote “I have the deepest respect for Pagan myths, still more for myths in the Holy Scriptures.” In his book, <em>Reflections on the Psalms</em>, he wrote “I have therefore no difficulty accepting, say, the view of those scholars who tell us that the account of Creation in Genesis is derived from earlier Semitic stories which were Pagan and mythical.” Jesus not only believed these stories were true but preached that these men were still living in heaven and God was still their God. 1Cor 10:11 states: <em>“Now all these things happened unto them for ensamples: and they are written for our admonition, upon whom the ends of the world are come.”</em></p>\n  <p>Distinguishing between which myths to believe and which to discard seemed to be a struggle for C.S. Lewis. In an interview with Roger Lancelyn Green for his book, <em>C.S. Lewis: A Biography</em>, Lewis was speaking of the difficult time he had when his wife was struggling with sickness saying “I had some ado to prevent Joy and myself from relapsing into Paganism in Attica! At Daphni it was hard not to pray to Apollo the Healer. But somehow one didn’t feel it would have been very wrong - would have only been addressing Christ sub specie Apollinis.”</p>\n  <p>As influential as Lewis has been as a Christian apologist, after reviewing many of his beliefs, the embarrassing question that still has to be asked is ‘was C.S. Lewis even a Christian?’ Many foundational teachings seem to be missing in his works. Speaking of the Atonement, Lewis said that “Christ’s death was not a substitution for us, but rather something like the Roman Catholic idea of the storing-up of grace.” The late Dr. Martyn Lloyd Jones said of him: “Because C.S. Lewis was essentially a philosopher, his view of salvation was defective in two key respects: (1) Lewis believed and taught that one could reason oneself into Christianity, and (2) he was an opponent of the substitutionary and penal theory of the Atonement (Christianity Today 20-12-63)”.</p>\n  <p>John MacArthur, in a thought provoking paper entitled <em>“Open Theism’s Attack On The Atonement”</em> criticizes C.S. Lewis’ idea of salvation saying:</p>\n  <blockquote><p>...the wind of [new-model theology’s] influence blows in through every crack when we read C. S. Lewis’s Chronicles of Narnia stories. Lewis was no theologian, and there’s no doubt that his views were squidgy on the question of eternal punishment. He held other views that make old-model evangelicals shudder. But one wonders if he really would have been in sympathy with open theists’ quest for a tamed and toned-down deity. …That same basic false assumption was the starting point for the heresy of open theism. New-model theologians began with the assumption that God could not be good and terrible at the same time, so they set out to divest Him of whatever attributes they did not like. Like the Socinians and liberals who preceded them, they have set out on a misguided quest to make God “good” according to a humanistic, earthbound definition of “good.” They are devising a god of their own making…In the final book of the Narnia series, a wicked ape drapes a lion skin over a witless ass and pretends the ass is Aslan. It is a sinister and dangerous pretense, and in the end it leads countless Narnians astray. The god of open theism is like an ass in an ill-fitting lion’s skin. And it is leading many away from the glorious God of Scripture…God is both good <em>and</em> fearsome. His wrath is as real as his love. And though He has <em>“mercy for thousands, forgiving iniquity and transgression and sin, [He] will by no means clear the guilty”</em> without satisfying His own justice and wrath (Exod. 34:7).</p></blockquote>\n  <p>There is no substitute for the blood, no short cut through repentance, and no innovation without the Holy Spirit convicting of sin, bringing repentant sinners to grace and salvation. As simple, foolish and unsophisticated as that may seem, there is still no other way. Jesus warned us of false ways of salvation saying <em>“Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber. But he that entereth in by the door is the shepherd of the sheep. To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out. And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his voice. And a stranger will they not follow, but will flee from him: for they know not the voice of strangers (John 10: 1-5)”.</em> Why is the Church not heeding the Master’s warning and fleeing from these strange voices?</p>\n  <p>Writing to the Corinthians the Apostle Paul said many centuries ago <em>“The cross is to them that perish foolishness; but unto us which are saved it is the power of God. For it is written, I will destroy the wisdom of the wise, and will bring to nothing the understanding of the prudent. Where is the wise? where is the scribe? where is the disputer of this world? hath not God made foolish the wisdom of this world? For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe. For the Jews require a sign, and the Greeks seek after wisdom: But we preach Christ crucified, unto the Jews a stumbling block, and unto the Greeks foolishness; But unto them which are called, both Jews and Greeks, Christ the power of God, and the wisdom of God. Because the foolishness of God is wiser than men; and the weakness of God is stronger than men. For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called: But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence. (I Cor. 1:18-29)”.</em></p>\n  <p>In conclusion, the next time Disney thinks they can rattle the Christian’s cage and we will come running in, bringing our children’s open minds to sit and listen to their destructive doctrines and lies, show them your strength and stay at home and teach your children from the Word of God! Teach them to listen carefully for the Shepherd’s cry and be ready to flee the voice of the stranger. Teach them to beware of this bloodless, intellectual ‘Christianity’ and stay close to the simple truths found in the Word of God. Without question <em>“Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour (1 Peter 5:8)”.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1"
+}

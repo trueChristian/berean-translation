@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": null,
+          "role": "The Editor"
+        }
+      ],
+      "raw": "--The Editor"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "4e5dd38f-b961-431b-a0dd-6dfb18dbeacc",
+    "images": [
+      {
+        "alt": "Three children holding books.",
+        "caption": null,
+        "credit": null,
+        "height": 212,
+        "public_path": "/images/articles/4e5dd38f-b961-431b-a0dd-6dfb18dbeacc-1.png",
+        "repository_path": "public/images/articles/4e5dd38f-b961-431b-a0dd-6dfb18dbeacc-1.png",
+        "rights_note": "No separate image credit or licence is printed. Sole source PDF object 68 has the soft circular gray frame irreversibly baked into its pixels. Source oval clipping outline applied as transparency; full children preserved. No separate clean illustration exists, and removing the circular treatment would remove the children’s lower bodies or require invented pixels. Unavoidable baked frame retained explicitly.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 19,
+        "source_pdf_object": 68,
+        "transformations": [
+          "Exact published PDF clipping outline rasterized only into an antialiased alpha channel at intrinsic image dimensions; source RGB pixel values retained. No source pixels synthesized."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 233×212",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 233x212 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 233
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "Sharpened Words for Little Ones",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "5227ea67b767297afd506971d7626e28519f85b5328fa284e8231b081b45ef02",
+    "metadata_sha256": "773ecba343391fd42efce3951926c277c49f96ff326519adb7de511348d733cf",
+    "structure_sha256": "102d28fc5c36e553ecdda3e58a4d5656ffa715c0c76f0d906eecfc3f1acafd54",
+    "text_sha256": "5fc9e928ad0d936c6c0dbdeb260f5b374a8661d67cd4e946947a3e5a205cc33e",
+    "translation_metadata_sha256": "7b1131fe104ff88f3d9c807e88d6c6e813fd5b2347d072a0ad58a46a98605cf0"
+  },
+  "html": "<article data-article-id=\"4e5dd38f-b961-431b-a0dd-6dfb18dbeacc\">\n  <figure><img src=\"/images/articles/4e5dd38f-b961-431b-a0dd-6dfb18dbeacc-1.png\" alt=\"Three children holding books.\"></figure>\n  <p><em>Dear parents,</em></p>\n  <p><em>The soul of a child is molded one day at a time, 365 days a year, for twenty years. Although this is a long commitment for a father and mother to make, it is the way God has ordained for a small baby to be brought to a place of Christian maturity. There are many ways we could look at this task. We could say, “Oh no! 7,300 days of duty until I’m done.” Or we could say, “Praise God! I have 7,300 precious days to mold the mind, will and emotions of my child for God.” You may be at either end of this spectrum of parental desire or somewhere in the middle. I must confess that there are days when I am filled with enthusiasm for the task of the day, and there are days when I simply do what I do out of a sense of duty. We call it holy grit at our house. I have been amazed through the years at how many times I have entered into my responsibility out of duty only to see the Lord add to my task the inspiration and enthusiasm.</em></p>\n  <p><em>Sharpened Words is designed to aid you on those days when you lack ideas from which to teach. Take these ideas and build upon them. Add your own personal illustrations and make family applications. Oh, the beautiful, rewarding exercise of molding the soul of a child! The potential of each one can hardly be measured at the time of the molding. I want to encourage you to keep on being faithful to the task. The days will come when you will begin to see the beautiful character of Christ forming in your son or your daughter. May God bless your times of teaching. --The Editor</em></p>\n  <p><strong>God bless you as you teach!</strong></p>\n  <h2>Thy Word is a Lamp and a Light</h2>\n  <p>You will need to find a lantern for this lesson. Most people have one after Y2K. The verse you want to use is found in Psalm 119:105, “Thy word is a lamp unto my feet, and a light unto my path.” This is a nighttime family devotion, as it will work best in the dark. While sitting in a dark room, take the lit lantern in hand and explain how a lantern is used for dual purposes. Not only do we use it to see where we are to place the next step, but we also use it to shine out ahead.</p>\n  <p>After you have explained the use of the lantern, teach on the verse and make the applications in everyday life. Take the family on a walk through the dark house with the lantern on. They will love it. It is like camping out to them. You can keep making illustrations as you are going through the house using the lantern to show the next step at times and to show the way out ahead at times.</p>\n  <h2>Walk in the Light</h2>\n  <p>If we walk in the light that God gives us, He will give us more light. If we chose to ignore the light that God gives us, eventually we will experience clouds and darkness. This is a principle in the word of God. The text you want to use is I John 1:5-9. You want to read this whole portion because it speaks about light and darkness. Look for a very thin piece of material around the house, one you can easily see through. Some kind of netting or gauze would be best. I used some three-inch strips of mosquito netting. You will need a couple of three-foot lengths to make the illustration very clear.</p>\n  <p>You might want to explain how this whole process of light and darkness works in the soul of man first and give a couple of stories out of your own journey. Having done this, call for a volunteer. As the child is standing before the family, discuss how people reject light by saying no to some new principle in the Word. Take the netting and wrap it around the eyes of the child one time. He or she will still be able to see but it will be foggy. This is what happens to the eyes of our conscience each time we say no. Go around a few times illustrating ‘no’ each time you cover his eyes. It will keep getting darker as you go. Soon he will be blind, seeing nothing.</p>\n  <h2>Getting Out of Darkness</h2>\n  <p>This is the second half of the previous lesson on light. You want to begin where you left off before. Take a child and wrap his or her eyes till the child cannot see. Review with them how a person gets into this darkened state of heart. In this lesson we are going to learn the steps involved in getting clear. These are very important foundation stones in a child’s life. They will use them often as they learn to walk in the Spirit. Here you will emphasize the principles of confession, godly sorrow (mourning) and repentance. This should be a teaching time on these three words. After you have taught them briefly, you can start to unwrap the child’s eyes one turn at a time. Act out the exercise as you are going. Things will get clearer and easier to see as you go. Keep on repenting until all the netting is off and your child can see again. Make a time of rejoicing over it and then sum up the lesson.</p>\n  <h2>The Parable of the Sower</h2>\n  <p>There are many family devotions hidden in this parable. I should probably call this a combination home school project and family teaching. The idea for these lessons came from a dear brother and friend of mine who lives in Holland.</p>\n  <p>You will want to enlist your dear wife to help you prepare for these lessons, as there are a good bit of preparations. Have your wife obtain four pots for planting seeds. In these pots we are going to prepare four different kinds of soil. The first two will need to have hard packed soil in them, and the other two must have soft, loose soil. You will need some good seeds to use in the illustrations and also some weed seeds (these are easy to find). I recommend a larger pot for one of the pots with loose soil because we want this one to actually produce fruit.</p>\n  <ul>\n    <li><strong>Pot 1:</strong> Hard packed soil. Place a seed on top of the soil and let it lie.</li>\n    <li><strong>Pot 2:</strong> Hard packed soil. Dig a short distance into the soil and place a seed in the hole. Cover it with soil. You will want to water this one so it will spring up and then die.</li>\n    <li><strong>Pot 3:</strong> Soft, loose soil. Plant a good seed and many weed seeds together so they can all grow up in one place. We know from experience that the weeds will outgrow the good seed. They will soon choke the good plant, and it will not produce good fruit.</li>\n    <li><strong>Pot 4:</strong> Soft, loose soil. Plant a good seed and be prepared to care for the plant. It must produce fruit; so you cannot neglect it.</li>\n  </ul>\n  <p>Now that you have done this with the family, it is a good, teachable opportunity to spend a couple of days teaching from the parable in the Bible. After a few days, you will want to come back to the pots. By this time the seed that had no root in it will have sprung up and begun to wither. A few days later the seed that was sown among thorns will be ready for illustration. Finally, the seed that was sown in the good ground will be ready to use. If you care for this plant well the children will refer to it often, even as they eat its fruit around the family table.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fa996785626bf1c440335384137f11e02c67b3df13dc3554f4787f1a1a5959a5"
+}

@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+    "images": [
+      {
+        "alt": "A submarine traveling on the surface of the sea",
+        "caption": "A submarine patrols the seas above, while below a Quaker hugs a native in Pennsylvania. Which picture represents Jesus better?",
+        "credit": null,
+        "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg",
+        "repository_path": "public/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg",
+        "rights_note": "No image-specific credit or separate-permission wording is printed. The page-2 masthead states generally, ‘Some images ©2001-2011 / www.clipart.com / www.sxc.hu,’ but does not identify which source, if either, applies to this image. The embedded 300x193 JPEG was re-encoded without crop, flip, rotation, scaling, or content alteration as a standards-normalized baseline three-component sRGB JPEG at 150 ppi.",
+        "role": "upper image in paired comparison",
+        "sequence": 1,
+        "source_page": 3
+      },
+      {
+        "alt": "A historical illustration of a Quaker embracing a Native person in Pennsylvania",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg",
+        "repository_path": "public/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg",
+        "rights_note": "No image-specific credit or separate-permission wording is printed. The page-2 masthead states generally, ‘Some images ©2001-2011 / www.clipart.com / www.sxc.hu,’ but does not identify which source, if either, applies to this image. The embedded 300x417 JPEG was re-encoded without crop, flip, rotation, scaling, or content alteration as a standards-normalized baseline three-component sRGB JPEG at 150 ppi.",
+        "role": "lower image in paired comparison",
+        "sequence": 2,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "34cb039a-29ad-571e-8600-3a6ca6ddb54b",
+      "102f0529-3552-5cea-aef3-867de018b9d4",
+      "8dd67bf8-a034-5d47-909c-b42c90f2234a",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a1086c76c5d72e4388398de4471af49d916a82cc9d38d9de6a294e87189cc1ed",
+    "metadata_sha256": "a2ebfd938375b4083192196934bbf402f91f2d171fd9fe42b1d05d99b63cdd5f",
+    "structure_sha256": "f2dbf585147aeae82877a02031be3520e4660b1a71421acb5a4f4ec5514be493",
+    "text_sha256": "7e0d8c6ec8b06f27a930bb052b5a102a7f07e9e6e53bcd62a99ee049acf77526",
+    "translation_metadata_sha256": "e7b36b07e1e1d4d2c918b3ebbf57fcf01f11af7605c90f20bedf0cf1f4cc15e3"
+  },
+  "html": "<article data-article-id=\"8cbf980c-3d5c-4a98-8a1f-9553593803e3\">\n  <p class=\"drop-cap\">A few months ago, a young man named Michael Izbicki made quite a stir in the headlines. The excitement originated from the voice of protest over this young man’s application for conscientious objector after graduating from the prestigious US Naval Academy. This was a particularly hard blow to the military because Izbicki was a bright, talented cadet near the top of his class. As always, the “Christians” said the hardest things. One of his Navy commanders said that the “pacifist strain of Christianity that Mr. Izbicki embraced was inconsistent with mainstream Christian faith.” The same commander even said that the Quakers who supported Mr. Izbicki were like “the Rev. Jim Jones and his People’s Temple, a suicide cult.” Coming from a guy who makes a career out of commanding floating airports and nuclear submarines all capable of ushering in Armageddon at the touch of a button—I find his comments a bit ironic. What I find interesting and even scary is to see how the media is portraying peaceful, genuine attempts to follow Jesus.</p>\n\n  <figure>\n    <img src=\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg\" alt=\"A submarine traveling on the surface of the sea\" loading=\"lazy\">\n    <img src=\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg\" alt=\"A historical illustration of a Quaker embracing a Native person in Pennsylvania\" loading=\"lazy\">\n    <figcaption>A submarine patrols the seas above, while below a Quaker hugs a native in Pennsylvania. Which picture represents Jesus better?</figcaption>\n  </figure>\n\n  <p>I wonder how many people ever even take the time to consider what they say they believe. The change for Michael Izbicki came when he was taking a psychological exam after graduation from the naval academy in 2008. A single question on the psychological exam did it—would he launch a missile carrying a nuclear warhead? When he actually thought about it ... he said “no.” After this, everything changed for him.</p>\n\n  <p>Just last week I saw posted on the wall at work a political cartoon parodying the Statue of Liberty in an unusual pose. Instead of the normal torch perched in her right hand, some artist had placed a gruesome head of Osama Bin Laden. Underneath the statue were written the words “Game Over.” You would think that the combined intelligence of 6000 years of human history would tell us that this “game” is not over.</p>\n\n  <p>The “game” will only be heating up until the end of the age. <em>“And the woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days.”</em> The way to win this “game” has never changed, and it never will change until that day. Christ showed us the way: <em>“And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.</em> Re. 12:5-6, 11</p>\n\n  <p>In this issue we look into having well-rounded (if a pentagon can be called round) view of Christianity. We humans tend to react instead of act, sometimes causing divisions with other believers who are approaching Christ and His teachings with a different emphasis. And speaking of divisions, take a look at the article called “The Cause of Division ... and the Cure.”</p>\n\n  <p>Division would probably make little inroads in the church if we would all practice Gelassenheit. For those unfamiliar with the term, it is a German word that the Anabaptists often used to describe their “letting go” of the old life. This article is an overview of a little known tract by a relatively unknown author who helped ignite the Anabaptist revival in the early 1500s, but later he drifted back into a sort of compromise. Hence, Karlstadt’s writings are not well known today, even though he had a strong influence into early Anabaptism.</p>\n\n  <p>Then we look at books. Both the negative ones that need to go to the burn pile, and one that needs to be in the lap of your child. Origen then speaks to us about dying with Christ and baptism.</p>\n\n  <p>Next we consider the doctrine of the two kingdoms. As those who have experienced a spiritual rebirth, we are now citizens of Christ’s kingdom. But ... we also have to deal with the governments of this world, whose laws and values many times clash with Christ’s law and values.</p>\n\n  <p>And we end up with a poem on grace. Grace that keeps us living and portraying the implanted character of Jesus.</p>\n\n  <p>May this issue of <em>The Heartbeat of the Remnant</em> stir you to love Him more! ~Bro. Dean</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221"
+}

@@ -1,0 +1,81 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "388a13e3-6075-4bdd-8dda-1304b5ee92c4",
+    "images": [
+      {
+        "alt": "Sunset light illuminating clouds",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "1682ae668b876b77247cd39b06dcbae4eded80a1",
+        "public_path": "/images/articles/388a13e3-6075-4bdd-8dda-1304b5ee92c4-1.jpg",
+        "repository_path": "public/images/articles/388a13e3-6075-4bdd-8dda-1304b5ee92c4-1.jpg",
+        "rights_note": "Original embedded PDF image object 135; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The sole source raster has Psalms 44:1-8 lettering irreversibly baked into its upper portion. A meaningful unobstructed lower cloud crop omits that lettering and source bleed. The scripture is fully transcribed in the article. Separately painted mailing panel, publication label, and postage markings omitted. No source pixels reconstructed. Converted RGB source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "background photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            38,
+            835,
+            1313,
+            1688
+          ],
+          "export_pixel_dimensions": [
+            1275,
+            853
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 135,
+          "source_pixel_dimensions": [
+            1352,
+            1725
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "b39a977d-c495-5061-b773-971cf4a191ce",
+      "85cb5d71-76ce-501c-ac9b-6e8263d78ccf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "94c70160f36a366e9aff516798d8a21a1d2764a370f4fb7676746c803525fbe3",
+    "metadata_sha256": "bc93c0787c09a8c2a8d526d25e0747a9fc07782dbaaf2a4d75e4e25ac2169376",
+    "structure_sha256": "149116bbdd7ee1d1f2b2ce5e6986cc394c5fad27253d9604b1b18e3c62e75c7c",
+    "text_sha256": "aae293b29c6126f379b73aeee1beef0f5336b5f607c900bc14b2ced0335292b2",
+    "translation_metadata_sha256": "1ed2a53575ee054e7b4ab48b590c352dcbd3902f45a6bd5d220d6f2182589620"
+  },
+  "html": "<article data-article-id=\"388a13e3-6075-4bdd-8dda-1304b5ee92c4\">\n  <p class=\"poem\"><strong>We have heard with our ears, O God, our fathers have told us,<br>\nwhat work thou didst in their days, in the times of old.<br>\nHow thou didst drive out the heathen with thy hand, and plantedst them;<br>\nhow thou didst afflict the people, and cast them out.<br>\nFor they got not the land in possession by their own sword,<br>\nneither did their own arm save them: but thy right hand, and thine arm,<br>\nand the light of thy countenance, because thou hadst a favour unto them.<br>\nThou art my King, O God: command deliverances for Jacob.<br>\nThrough thee will we push down our enemies:<br>\nthrough thy name will we tread them under that rise up against us.<br>\nFor I will not trust in my bow, neither shall my sword save me.<br>\nBut thou hast saved us from our enemies,<br>\nand hast put them to shame that hated us.<br>\nIn God we boast all the day long,<br>\nand praise thy name for ever.<br>\nSelah.</strong></p>\n  <p><strong>Psalms 44:1-8.</strong></p>\n  <figure><img src=\"/images/articles/388a13e3-6075-4bdd-8dda-1304b5ee92c4-1.jpg\" alt=\"Sunset light illuminating clouds\"></figure>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9ae910102836e30b1a2f54180c5c18b53c90d7b222325800a46a8a7ddc27cded"
+}

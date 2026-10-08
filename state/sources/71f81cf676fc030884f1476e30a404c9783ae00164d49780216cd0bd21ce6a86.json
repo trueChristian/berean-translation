@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1663-1728",
+          "location": null,
+          "name": "Cotton Mather"
+        }
+      ],
+      "raw": "by\nCotton Mather 1663-1728"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "883ef855-5122-41ca-a892-eff8766f71b2",
+    "images": [
+      {
+        "alt": "Family gathered around a table.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/883ef855-5122-41ca-a892-eff8766f71b2-1.jpg",
+        "repository_path": "public/images/articles/883ef855-5122-41ca-a892-eff8766f71b2-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Clean embedded PDF image object 13 was used. The article heading and gray title panel are separate page furniture and were omitted. The grayscale source was re-encoded as a baseline RGB/sRGB JPEG at its original pixel dimensions with nonzero 72 dpi density; no CMYK inversion was needed. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence inferred.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "5f14401b-358f-4995-8dfe-a5c590c7cf33",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        3,
+        4,
+        33
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "RESOLVES",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ba2091d0fc4f16370c47416ba1c8f9093ce4d4f74ee69959571766d4208570d8",
+    "metadata_sha256": "40fb88e9aa80f930fd934942ef1ddfb1197047d0a68685edc7164dafc520d40a",
+    "structure_sha256": "2d44f7f326a957b2ff34b6cf8f38b74d2ca87c3081977e5a514a0db59589253a",
+    "text_sha256": "0118b82b91e6f307dc381b5717bdba39d8609c8884a904dea7b5a79786a0774d",
+    "translation_metadata_sha256": "7d7a90b4f4bebf49be74d996a6fc1e846f080931a443b76041afe70325a5f831"
+  },
+  "html": "<article data-article-id=\"883ef855-5122-41ca-a892-eff8766f71b2\">\n  <figure><img src=\"/images/articles/883ef855-5122-41ca-a892-eff8766f71b2-1.jpg\" alt=\"Family gathered around a table.\"></figure>\n  <p><em>Editors comments:</em><br>Cotton Mather belonged to a Boston Puritan family. His father was Increase Mather, president of Harvard College and the foremost New England minister of his day. When Cotton entered Harvard at twelve, he could already read Greek, Latin, and Hebrew and had mastered most of the Greek New Testament. But because of a bad stammer he felt unsuited for the ministry and instead studied medicine. However, by 1680 he had overcome the stammer and began a ministry of preaching. Unfortunately, Cotton Mather became very involved in the Salem witch trials of 1692. However, later in his life, he changed many of these views. He wrote over 400 books, many of which had to do with the raising of children and education. Taken from <em>The Puritans: A Sourcebook of Their Writings</em> (edited by Perry Miller and Thomas H. Johnson), the following is quoting Cotton Mather’s writing entitled “Some Special Points Relating to the Raising of My Children.”</p>\n  <h2>Point #1</h2>\n  <p>I pour out continual prayers and cries to the God of all grace for them that He will be a Father to my children, and bestow His Christ and His grace upon them, and guide them with His councils, and bring them to His glory. And in this action, I mention them distinctly, every one by name unto the Lord.</p>\n  <h2>Point #2</h2>\n  <p>I begin betimes to entertain them with delightful stories, especially Scriptural ones. And still conclude with some lesson of piety, bidding them to learn that lesson from the story. And thus, every day at the table, I have used myself to tell a story before I rise, and make the story useful to the olive plants about the table.</p>\n  <h2>Point #3</h2>\n  <p>When the children at any time accidentally come in my way, it is my custom to let fall some sentence or other, that it may be monitory and profitable to them. This matter proves to me, a matter of some study, and labor, and contrivance. But who can tell, what may be the effect of a continual dropping?</p>\n  <h2>Point #4</h2>\n  <p>I essay betimes, to engage the children, in exercises of piety; and especially secret prayer, for which I give them very plain and brief directions, and suggest unto them the petitions, which I would have them to make before the Lord, in which I therefore explain to their apprehension and capacity. And I often call upon them, “Child, don’t you forget every day, to go alone, and pray as I have directed you!”</p>\n  <h2>Point #5</h2>\n  <p>Betimes I try to form in the children a temper of benignity. I put them upon doing of services and kindnesses for one another, and for other children. I applaud them, when I see them delight in it. I upbraid all aversion to it. I caution them exquisitely against all revenges of injuries. I instruct them, to return good offices for evil ones. I show them, how they will by this goodness become like to the Good God, and His Glorious Christ. I let them discern, that I am not satisfied, except when they have a sweetness of temper shining in them.</p>\n  <h2>Point #6</h2>\n  <p>As soon as its possible, I make the children learn to write. And when they can write, I employ them in writing out the most agreeable and profitable things that I can invent for them. In this way, I propose to fill their minds with excellent things, and have a deep impression made upon their minds by such things.</p>\n  <h2>Point #7</h2>\n  <p>I mightily endeavor it, that the children may betimes, be acted by principles of reason and honor. I first beget in them an high opinion of their Father’s love to them and of His being best able to judge what shall be good for them. Then I make them sensible; it’s a folly for them to pretend unto any wit and will of their own; they must resign all to me, who will be sure to do what is best; my word must be their law. I cause them to understand, that it is an hurtful and a shameful thing to do amiss. I aggravate this, on all occasions; and let them see how amiable they will render themselves by well doing. The first chastisement, which I inflict for an ordinary fault, is to let the child see and hear in me an astonishment, and hardly able to believe that the child could do so abase a thing, but believing that they will never do it again. I would never come to give a child a blow; except in case of obstinacy; or some gross enormity. To be chased for awhile out of my presence, I would make to be looked upon, as the sorest punishment in the family. I would by all possible insinuations gain this point upon them, for them to learn all the brave things in the world, is the bravest thing in the world. I am not fond of proposing play to them, as a reward of any diligent application to learn what is good, lest they should think diversion to be a better and nobler thing than diligence. I would have them come to propound and expect, at this rate, I have done well and now I will go to my father; he will teach me some curious thing for it. I must have them count it a privilege, to be taught; and I sometimes manage the matter so that my refusing to teach them something is their punishment. The slavish way of education, carried on with raving and kicking and scourging (in schools as well as families), is abominable, and a dreadful judgment of God upon the world.</p>\n  <h2>Point #8</h2>\n  <p>Though I find it a marvelous advantage to have the children strongly biased by principles of reason and honor, (which, I find, children will feel sooner than is commonly thought for) yet I would neglect no endeavors, to have higher principles infused into them. I therefore betimes awe them with the eye of God upon them. I show them, how they must love Jesus Christ; and show it, by doing what their parents require of them. I often tell them of the good angels, who love them and help them, and guard them: and who take notice of them: and therefore must not be disobliged. Heaven and hell, I set before them, as consequences of their behavior here.</p>\n  <h2>Point #9</h2>\n  <p>When the children are capable of it, I take them alone, one by one; and after my charges unto them, to fear God, and serve Christ, and shun sin, I pray with them in my study and make them the witnesses of the agonies, with which I address the throne of grace on their behalf.</p>\n  <h2>Point #10</h2>\n  <p>I find much benefit, by a particular method, as of catechizing the children, so of carrying the repetition of public sermons unto them. The answers of the catechism I still explain with abundance of brief questions, which make them to take in the meaning of it, and I see that they do so. And when the sermons are to be repeated, I choose to put every truth into a question, to be answered still, with, Yes, or, No. In this way I awaken their attention as well as enlighten their understanding. And in this way I have an opportunity, to ask, do you desire such or such a grace of God? And the like. Yea, I have an opportunity to demand, and perhaps, to obtain their consent unto the glorious articles of the New Covenant. The Spirit of Grace may fall upon them in this action; and they may be seized by Him, and held as His temples, through eternal ages.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b97fa7bd2cdacb35b7bc2ba506990a4b222e31190c895ef672408c93dbb2ed75"
+}

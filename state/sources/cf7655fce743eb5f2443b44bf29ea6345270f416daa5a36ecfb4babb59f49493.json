@@ -1,0 +1,107 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1615-1691",
+          "location": null,
+          "name": "Richard Baxter"
+        }
+      ],
+      "raw": "by Richard Baxter (1615-1691)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "02259ee6-5e05-42b5-9759-b43f14a0f2b8",
+    "images": [
+      {
+        "alt": "Faint illustration of a stooping man in a hat",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-1.jpg",
+        "repository_path": "public/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-1.jpg",
+        "rights_note": "Clean embedded base illustration xref 100, image ordinal 58, used without the separately painted PRIDE title, blurred title duplicate, gradient bars and composite fragments on printed page 15. Inverse grayscale samples converted to baseline sRGB JPEG at original pixel dimensions. No source pixels synthesized.",
+        "role": "article opening illustration",
+        "sequence": 1,
+        "source_page": 15
+      },
+      {
+        "alt": "Engraving of a preacher speaking to a congregation",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-2.jpg",
+        "repository_path": "public/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-2.jpg",
+        "rights_note": "Clean embedded PDF image xref 101, image ordinal 60, converted from inverse grayscale samples to baseline sRGB JPEG at original pixel dimensions; the engraving and its ornamental border are intrinsic to one raster; no separable layout overlay is baked into the export.",
+        "role": "historical illustration",
+        "sequence": 2,
+        "source_page": 15
+      },
+      {
+        "alt": "Engraving of a man bent under labels of sin and temptation",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-3.jpg",
+        "repository_path": "public/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-3.jpg",
+        "rights_note": "Clean embedded PDF image xref 117, image ordinal 69, converted from inverse grayscale samples to baseline sRGB JPEG at original pixel dimensions; the printed article photo/illustration contains no separable layout overlay.",
+        "role": "historical illustration",
+        "sequence": 3,
+        "source_page": 16
+      },
+      {
+        "alt": "Illustration of Jesus washing the feet of his followers",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-4.jpg",
+        "repository_path": "public/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-4.jpg",
+        "rights_note": "Clean embedded PDF image xref 119, image ordinal 70, converted from inverse grayscale samples to baseline sRGB JPEG at original pixel dimensions; the printed article photo/illustration contains no separable layout overlay.",
+        "role": "historical illustration",
+        "sequence": 4,
+        "source_page": 17
+      },
+      {
+        "alt": "Engraving of a preacher addressing a crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-5.jpg",
+        "repository_path": "public/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-5.jpg",
+        "rights_note": "Clean embedded PDF image xref 121, image ordinal 71, converted from inverse grayscale samples to baseline sRGB JPEG at original pixel dimensions; the engraving and its ornamental border are intrinsic to one raster; no separable layout overlay is baked into the export.",
+        "role": "historical illustration",
+        "sequence": 5,
+        "source_page": 18
+      }
+    ],
+    "issue_id": "623177b3-f944-481e-a029-64fb487e70b6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 18,
+      "start": 15
+    },
+    "subtitle": "The Sly and Subtle Insinuating Enemy",
+    "title": "PRIDE",
+    "topics": [
+      "f0b54656-ce75-5a6c-a712-5ab9f5b44c9d",
+      "2b7dcb93-6ed0-5d9c-8730-e901cbc7f860"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "460562d22a7c8c9755db7c0e79fbc024c817787c23c103d0c874f934fd897459",
+    "metadata_sha256": "7e9c6aee9bb991d5673071b6f4c51fd1138525d11273724bf77df698061d0bdb",
+    "structure_sha256": "18bc34958a4f43421aa4ea4c968d0ff38819efcc257841716c30d89ab95ec2e3",
+    "text_sha256": "20de47ae8ea8feac942b6deb6ece701f1dbece1582fc010d524c4edccead9ad3",
+    "translation_metadata_sha256": "78e17952e0c69639cc82c697f5be3723c718c3ea7f25db2b6943838c2bbb98f7"
+  },
+  "html": "<article data-article-id=\"02259ee6-5e05-42b5-9759-b43f14a0f2b8\">\n  <figure>\n    <img src=\"/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-1.jpg\" alt=\"Faint illustration of a stooping man in a hat\">\n  </figure>\n  <p>One of our most heinous and palpable sins is PRIDE. This is a sin that has too much interest in the best of us, but which is more hateful and inexcusable in us than in other men. Yet is it so prevalent in some of us, that it influences our discourses, it chooses our company, it forms our countenances, it puts the accent and emphasis upon our words. It fills some men’s minds with aspiring desires, and designs: it possesses them with envious and bitter thoughts against those who stand in their light, or who by any means eclipse their glory, or hinder the progress of their reputation.</p>\n  <p>Oh what a constant companion, what a tyrannical commander, what a sly and subtle insinuating enemy, is this sin of pride! It goes with men everywhere they go: to buy a home, to buy clothes, etc. It chooses the clothes one wears, their trimming, and fashion. Fewer ministers would ruffle it out in the fashion in hair and habit, if it were not for the command of this tyrannous vice. And I wish that this were all the damage it does to a minister, or the worst. But, alas! How frequently does it go with us to our study, and there sit with us and do our work! How often does it choose our preaching subject, and, more frequently still, our words and manner of preaching!</p>\n  <figure>\n    <img src=\"/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-2.jpg\" alt=\"Engraving of a preacher speaking to a congregation\">\n  </figure>\n  <p>God commands us to be as plain as we can, that we may inform the ignorant; and as convincing and serious as we are able, that we may melt and change their hardened hearts. But pride stands by and contradicts all, and produces its toys and silly trifles. It pollutes rather than polishes; and, under pretence of praiseworthy ornaments, dishonors our sermons with childish gauds: as if a prince were to be decked in the habit of a stage-player, or a painted fool. It persuades us to paint the window that it may dim the light of Scripture: and to speak to our people that which they cannot understand; to let them know that we are able to speak unprofitably...Cannot you ministers speak soberly and moderately? And thus does pride make many a man’s sermons; and what pride makes, the devil makes; and what sermons the devil will make and to what end, we may easily conjecture. Though the matter be of God, yet if the dress of the sermon matter, and manner, and end be from Satanic pride, we have no great reason to expect any success.</p>\n  <p>And when pride has made the sermon, it goes with us into the pulpit, it forms our tone, it animates us in the delivery, it takes us off from that which may be displeasing, however necessary, and sets us in pursuit of vain applause. In short, the sum of all is this, it makes men, both in studying and preaching, to seek themselves, and deny God, when they should seek God’s glory, and deny themselves. When they should ask: “What shall I say, and how shall I say it,” to please God the best, and do most good. Instead, it makes them ask: “What shall I say, and how shall I deliver the message, to be thought a learned able preacher, and to be applauded by all who hear me?” When the sermon is done, pride goes home with them, and makes them more eager to know whether they were applauded, than whether they did prevail for the saving of souls.</p>\n  <figure>\n    <img src=\"/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-3.jpg\" alt=\"Engraving of a man bent under labels of sin and temptation\">\n  </figure>\n  <p>Were it not for shame, they could find in their hearts to ask people how they liked them, and to draw out their commendations. If they perceive that they are highly thought of, they rejoice, as having attained their end; but if they see that they are considered but weak or common men, they are displeased, as having missed the prize they had in view.</p>\n  <p>BUT EVEN THIS IS NOT ALL, NOR THE WORST, IF IT CAN GET ANY WORSE THAN THIS! Oh, that ever it should be said of godly ministers, that they are set upon popular air, and on sitting highest in men’s estimation, that they envy the talents and names of their brethren who are preferred before them, as if all were taken from their praise that is given to another; and as if God had given them his gifts, to be the mere ornaments and trappings of their persons, that they may walk as men of reputation in the world, and as if all his gifts to others were to be trodden down and despised, if they seem to stand in the way of their own honor!</p>\n  <p>What? Is not every true Christian a member of the body of Christ, and therefore, partakes of the blessings of the whole, and belongs to each particular member? And does not every man owe thanks to God for his brethren’s gifts, not only as having himself a part in those gifts as members of one body, but also because his own ends may be attained by his brethren’s gifts, as well as by his own gifts? For if the glory of God, and the Church’s happiness in Christ, be not his end, he is not a Christian in the first place! Will any workman malign another, because he helps him to do his Master’s work? Yet, alas! How common is this heinous crime among the ministers of Christ! They can secretly blot the reputation of those that stand in the way of their own glory; and what they cannot for shame do in plain and open terms, lest they be called slanderers, gossips, and liars, they will make malicious intimations against another brother’s character, raising suspicions where they cannot fasten accusations.</p>\n  <p>And some go so far, that they are unwilling that any one who is abler than themselves should come into their pulpits, lest they should be more applauded than themselves. A fearful thing it is, that any man, who has the least fear of God, should so envy God’s gifts in another brother, and should prefer that his carnal hearers should remain unconverted, and the drowsy unawakened, than that it should be done by another who may be preferred before him. Yea, so far does this cursed vice prevail, that in large congregations, which have need of the help of many preachers, we can scarcely, in many places, get two of equality to live together in love and harmony, and unanimously to carry on the work of God...Nay, some men are so far gone in pride, that when they might have an equal assistant to further the work of God, they had rather take all the burden upon themselves, though more than they can bear, than that any one should share with them in the honor, or that their interest in the esteem of the people should be diminished.</p>\n  <p>Hence also it is that men do so magnify their own opinions, and are as censorious of any that differ from them in lesser things, as if it were all one to differ from them as it is to differ with God himself! They expect that all should conform to their judgment, as if they were the rulers of the Church’s faith; and while we cry down papal infallibility, too many of us would be popes ourselves, and have all agree with our determination, as if we were infallible.</p>\n  <figure>\n    <img src=\"/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-4.jpg\" alt=\"Illustration of Jesus washing the feet of his followers\">\n  </figure>\n  <p>So high indeed is the opinion of ourselves, that when it becomes the duty of any one to reprove or contradicts us, we are commonly impatient both of the matter and the manner. We love the man who will say as we say, and be of our opinion, and promote our reputation, though, in other respects, he be less worthy of our esteem. But he is perceived as ungrateful to us who contradict us and differs from us, and deals plainly with us as to what are our own miscarriages and faults. Especially in the management of our public disputations and disagreements, where the eye of the world is upon us, we can scarcely endure any contradiction of our teaching....Our pride makes too many of us think all men contemn us, that do not admire us, yea, and admire all that we say, and submit their judgments to our most palpable mistakes. We are so tender, that a man can scarcely touch us but we are hurt; and we are so high-minded, that a man who is not versed in complimenting, and skilled in flattery above the common man, can scarcely tell us the truth about ourselves.</p>\n  <p>Brethren, I know this is a sad confession, but that pride should exist among us, should be more grievous to us than to be told of it! We have dishonored ourselves by idolizing our honor; we print our shame, and preach our shame, thus proclaiming it to the whole world. Some will think that I speak over-charitably when I call such persons who have such pride as this godly persons; those men in whom so great a sin does prevail. I know indeed, that where pride is predominant, not hated, and bewailed, and mortified in the flesh, there can be no true godliness; and I beseech every man to exercise a strict jealousy and search of his own heart. But if all be graceless that are guilty of any, or of most of the fore-mentioned discoveries of pride, the Lord be merciful to the ministers of this land, and give us quickly another spirit; for grace is then a rarer thing than most of us have thought it to be!</p>\n  <p>Oh that the Lord would lay us at his feet, in the tears of continuous sorrow for this sin of pride! Brethren, may I expostulate this case a little with my own heart and yours, that we may see the evil of our sin, and be reformed! Is not pride the sin of devils—the firstborn of hell? Is it not that wherein Satan’s image does much consist? Is pride to be tolerated in men who are so engaged against him and his Kingdom as we are—ministers of his Word? The very design of the gospel is to debase and humble us! The work of grace is begun and carried on in humiliation. Humility is not a mere outward ornament of the Christian, but an essential part of the new creature united to Christ by faith. It is a contradiction in terms, to be a Christian, and not to be humble.</p>\n  <p>All who will be Christians must be Christ’s disciples, and “come to him to learn”—and the lesson which he teaches them is to “be meek and lowly” like himself! Oh, how many precepts and admirable examples has our Lord and master given us to this end! Can we behold him washing and wiping his servant’s feet, and yet be proud and lordly still? Shall he converse with the meanest of people, and shall we avoid them as below our notice, and think none but persons of wealth and honor fit for our society? How many of us are found more often in the houses of gentlemen than in the cottages of the poor, who most need our help?</p>\n  <figure>\n    <img src=\"/images/articles/02259ee6-5e05-42b5-9759-b43f14a0f2b8-5.jpg\" alt=\"Engraving of a preacher addressing a crowd\">\n  </figure>\n  <p>Alas, what is it that we have to be proud of anyway? Is it our knowledge and learning? Why, if we have any knowledge at all, we must certainly know how much reason we have to be humble; and if we know more than others, we must know more than them the fact that we know very little! How little is it that the most learned know, in comparison of that of which they are ignorant! To know that things are past your reach, and to know how ignorant you are, one would think should be no great cause of pride! Our very business is to teach the great lesson of humility to our people; and how unfit, then, is it that we should be proud ourselves? WE MUST STUDY HUMILITY, AND PREACH HUMILITY; AND MUST WE NOT POSSESS AND PRACTICE HUMILITY? A proud preacher of humility is at least a self-condemning man.</p>\n  <p>What a sad case is it, that so vile a sin is not more easily discerned by us, but many who are most proud, can blame and find pride in others, and yet take no notice of it in themselves! The world takes notice of some among us, that they have aspiring minds, and seek for the highest room, and must be the rulers of the world at all costs, and bear the sway wherever they come, or else there is no living or acting with them. In any consultations, they come not to search after truth, but to dictate to others, who, perhaps, are fit to teach them. In a word, they have such arrogant domineering spirits, that the world rings of it, and yet they will not see it in themselves!</p>\n  <p>Does anyone more than the proud man live for himself? Does the proud not live more for himself and therefore less to God? And may not pride make a preacher study for himself and pray and preach, and live to himself, even when he seems to surpass others in the work? It is not the work without the right principle and end that will prove us to be upright in the eyes of God and the world. The work may be God’s, and yet we may do it, not for God, but for ourselves. I confess I feel such continual danger on this point, that if I do not watch, lest I should study for myself, and preach for myself, and write for myself, rather than for Christ, I should soon miscarry God’s work; and after all, I justify not myself, when I must condemn the sin.</p>\n  <p>Consider, I beseech you, brethren, what baits there are in the work of the ministry, to entice a man to selfishness, even in the highest works of piety. The fame of a godly man is as great a snare as the fame of a learned person. But woe to him that takes up the “fame of godliness” instead of godliness itself! “Verily I say unto you, they have their reward!” When the times were all for learning and empty formalities, the temptation of the proud did lie that way. But now, when, through the unspeakable mercy of God, the most lively practical preaching is in credit, and godliness itself is increasing, the temptation of the proud is to pretend to be zealous preachers and godly men. Oh, what a fine thing it is to have the people crowding to hear us, and affected with what we say, and yielding up to us their judgments and affections! Be on your guard, lest pride build Christ’s Kingdom without special grace from God!</p>\n  <p>Therefore, be jealous and watchful of yourselves; and, amidst all your studies, be sure to study humility. “He that exalteth himself shall be humbled, and he that humbleth himself shall be exalted.” I commonly observe that almost all men, whether good or bad, do loathe the proud, and love the humble. So far indeed does pride contradict itself, that, conscious of its own deformity, it often borrows the homely dress of humility. We have the more cause as ministers to be jealous of it, because it is a sin most deeply rooted in our nature, and as hardly as any extirpated from the soul.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f357e2b39d952f41afe445ad602d769bf51308be355e4262a5e44376918ca143"
+}

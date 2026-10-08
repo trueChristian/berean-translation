@@ -1,0 +1,193 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Daniel Kenaston",
+          "role": null
+        }
+      ],
+      "raw": "by Daniel Kenaston"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "3ecef108-58f3-42fc-a9c1-be12086c3e87",
+    "images": [
+      {
+        "alt": "Charity African Missions emblem with a globe and the letters C A M over Africa.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-1.png",
+        "repository_path": "public/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-1.png",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. PDF image-mask object 41 exported as transparent RGBA PNG at 335×241. Source mask supplies alpha; source paint color 0.161,0.145,0.149 supplies RGB (41,37,38). Gray page panel omitted. Intrinsic CHARITY AFRICAN MISSIONS and C A M lettering retained.",
+        "role": "section emblem",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": "PDF image-mask object 41 exported as transparent RGBA PNG at 335×241. Source mask supplies alpha; source paint color 0.161,0.145,0.149 supplies RGB (41,37,38). Gray page panel omitted. Intrinsic CHARITY AFRICAN MISSIONS and C A M lettering retained.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGBA",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 41,
+          "pixel_dimensions": [
+            335,
+            241
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A covered stone well with a bucket.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-2.jpg",
+        "repository_path": "public/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-2.jpg",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Clean well raster; separately painted God Changes Water title omitted. Published right clipping approximated to original pixel boundary (0,0)-(324,126) from 325×126; encoded baseline RGB JPEG, quality 95, 72 dpi. Gray background and ground line are intrinsic to the source raster, not removable overlays.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 12,
+        "transformation": "Clean well raster; separately painted God Changes Water title omitted. Published right clipping approximated to original pixel boundary (0,0)-(324,126) from 325×126; encoded baseline RGB JPEG, quality 95, 72 dpi. Gray background and ground line are intrinsic to the source raster, not removable overlays.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 42,
+          "pixel_dimensions": [
+            324,
+            126
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A goblet containing wine.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-3.png",
+        "repository_path": "public/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-3.png",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Original 80×95 lossless grayscale PNG of wine goblet. Separate title and gray layout rectangle omitted; gray within the raster is intrinsic to the only base asset.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 12,
+        "transformation": "Original 80×95 lossless grayscale PNG of wine goblet. Separate title and gray layout rectangle omitted; gray within the raster is intrinsic to the only base asset.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "L",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 44,
+          "pixel_dimensions": [
+            80,
+            95
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Men beside water pots in a biblical illustration.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-4.jpg",
+        "repository_path": "public/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-4.jpg",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Biblical water-pot scene from original grayscale raster. Source PDF clip corresponds to pixel crop (1,1)-(308,197) from 309×198. Baseline RGB JPEG, quality 95, 72 dpi. Separate backing rectangle and surrounding title excluded.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 12,
+        "transformation": "Biblical water-pot scene from original grayscale raster. Source PDF clip corresponds to pixel crop (1,1)-(308,197) from 309×198. Baseline RGB JPEG, quality 95, 72 dpi. Separate backing rectangle and surrounding title excluded.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 43,
+          "pixel_dimensions": [
+            307,
+            196
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Jesus with people and vessels at a table.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-5.jpg",
+        "repository_path": "public/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-5.jpg",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Original biblical table scene at 333×220, encoded baseline RGB JPEG, quality 95, 72 dpi. Separate header, running title and footer excluded.",
+        "role": "article illustration",
+        "sequence": 5,
+        "source_page": 17,
+        "transformation": "Original biblical table scene at 333×220, encoded baseline RGB JPEG, quality 95, 72 dpi. Separate header, running title and footer excluded.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 60,
+          "pixel_dimensions": [
+            333,
+            220
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 12
+    },
+    "subtitle": "A Recipe for Usefulness",
+    "title": "God Changes Water into Wine",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae",
+      "e763b632-f673-547f-afb3-186d486db0cc"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bf092e14f5b14018e8ec23b34af552eae166c5c900101624a123eef774600472",
+    "metadata_sha256": "843eaca66bdeb05bbbc40282f5a057622c54c11bae69159b34b5e5173727a6ca",
+    "structure_sha256": "15d4629b30ca22244a2a052f6c1aa63c84287b471d16c0de825dfbc60d8f609f",
+    "text_sha256": "3d6c6e76eeb3a653742d7b7bb997b1ebfd99a28813dc8cc93172682ce016c13b",
+    "translation_metadata_sha256": "9059daa099ee5a076c03df7b2e167d6877975c9c73183250ae20edc8b9682e4a"
+  },
+  "html": "<article data-article-id=\"3ecef108-58f3-42fc-a9c1-be12086c3e87\">\n  <figure><img src=\"/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-1.png\" alt=\"Charity African Missions emblem with a globe and the letters C A M over Africa.\"></figure>\n  <figure><img src=\"/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-2.jpg\" alt=\"A covered stone well with a bucket.\"></figure>\n  <figure><img src=\"/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-3.png\" alt=\"A goblet containing wine.\"></figure>\n  <figure><img src=\"/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-4.jpg\" alt=\"Men beside water pots in a biblical illustration.\"></figure>\n  <p><em>This article was adapted from part of a sermon preached during our annual weekend meetings in August 2003. The full sermon is available under the title, </em>A Recipe for Usefulness<em>, through Charity Gospel Tape Ministry.<br>—The editor</em></p>\n  <p>There are some New Testament verses that focus more on the faith side of being used by God. Faith is a very necessary part of moving forward in our service for God. We have already mentioned the aspect of being right with God. God has done a work in your life. He has dealt with sin in your life, and He is continuing to pour His presence into you, a clean vessel. Even though we are clean and heaven is open over our life, we still need to step out in faith and move forward in our service for God. I would like to address these steps of faith in this message. In the text below, we have a story that is full of types and shadows of spiritual usefulness. Let’s look at the verses and draw out some clear ingredients for a recipe for usefulness.</p>\n  <h2>John 2:1-11</h2>\n  <blockquote><p><em>“And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there: And both Jesus was called, and his disciples, to the marriage. And when they wanted wine, the mother of Jesus saith unto him, ‘They have no wine.’ Jesus saith unto her, ‘Woman, what have I to do with thee? Mine hour is not yet come.’ His mother saith unto the servants, ‘Whatsoever he saith unto you, do it.’ And there were set there six water pots of stone, after the manner of the purifying of the Jews, containing two or three firkins apiece. Jesus saith unto them, ‘Fill the water pots with water.’ And they filled them up to the brim. And he saith unto them, ‘Draw out now, and bear unto the governor of the feast.’ And they bare it. When the ruler of the feast had tasted the water that was made wine, and knew not whence it was: (but the servants which drew the water knew;) the governor of the feast called the bridegroom, and saith unto him, ‘Every man at the beginning doth set forth good wine, and when men have well drunk, then that which is worse: but thou hast kept the good wine until now.’ This beginning of miracles did Jesus in Cana of Galilee, and manifested forth his glory; and his disciples believed on him.”</em></p></blockquote>\n  <h2>We Must See Our Need</h2>\n  <p>We see a need expressed in verse three: <em>“And when they <strong>wanted</strong> wine….”</em> Now this word “wanted” is an Old English word. It doesn’t mean that they wanted wine as in a desire. Rather, it means they lacked it. There was no wine, and when they lacked wine, the mother of Jesus said to Him, <em>“They have no wine.”</em> We, too, must recognize our need. We have a need for the wine of God’s Spirit. We have a need for the infilling of God’s presence in our lives.</p>\n  <p>Not only must we recognize our need, but we must also communicate it. Mary came to Jesus and communicated it: <em>“They have no wine.”</em> First, they recognized: “We’re out! There’s nothing here! All the containers are empty!” This is the first ingredient in our recipe for usefulness in the New Testament. We must come to God and say: “There’s no wine, God! Your Spirit that I need in my life is not there! I’m empty! I feel dry! I don’t have what I need to be useful, God!”</p>\n  <h2>We Must Be Willing to Obey</h2>\n  <p>After they told Jesus about their need, verse five then follows with: <em>“His mother saith unto the servants, ‘Whatsoever he saith unto you, <strong>do it</strong>.’”</em> The second ingredient in our recipe for usefulness is a willingness for the <em>“whatsoever he saith unto you, do it.”</em> Do you want God to refill your empty vessel? You need to recognize and communicate your need. But you must also have a heart ready for the <em>“whatsoever he saith unto you, do it.”</em> There were servants there who were willing for the “whatsoever—” even if it didn’t make sense. If God is going to be able to use us for His work, we must have that kind of willingness: “Whatsoever you say, Lord, I will do.”</p>\n  <h2>We Must Be Clean, Empty Vessels</h2>\n  <p>Not only were there willing people, but there were also the willing <em>(available)</em> water pots, purified and made ready for good use. Verse six says, <em>“There were set there six water pots of stone, after the manner of the purifying of the Jews, containing two or three firkins apiece.”</em> These vessels were empty and clean, sitting there waiting to be used. This verse brings our thoughts back to the meditations of Psalm 51, where we human vessels can find forgiveness and cleansing to make us fit and ready for use.</p>\n  <h2>We Must Be “Obedient-to-the-Brim” Servants</h2>\n  <p>Jesus said to these servants, <em>“Fill the water pots with water.”</em> And guess what—they did it! These were true servants. These were “whatsoever-he-saith” servants. They had a willingness to do everything that was commanded of them—whether it made sense or not, whether it seemed to be related to the need or not. We want God to make us useful and to fill us with His Spirit so that we can fulfill His work. And, if God should ask us to do something that seems to be totally unrelated—we must obey! <em>Fill the water pots with water? Yes!</em></p>\n  <p>Put yourself in the servants’ place. They had been serving the wine, taking it back and forth, and this was an unbelievable disgrace, to run out of wine. This means it wasn’t planned. It would be like one of our weddings, when we go to seat the people and the whole room is full, but there are still a hundred and fifty people without seats, or if we would run out of food. This would be an incredible embarrassment! Put yourself in the place of these servants. Here is this “man” who had never done a miracle before. It is very different for us today. God has done lots of miracles. When He tells us to do something, we should know He has the power to work a miracle. These servants had never seen Him do a miracle. He was just one of the guests. He said, <em>“Fill the water pots with water.”</em></p>\n  <p>Consider also the difficulty of this command. This didn’t mean turning on a spigot. I know first-hand what it means; I’ve watched it done at five o’clock every morning in an African village. It meant taking smaller vessels, walking out to a hand-dug well, bringing up a gallon at a time, filling the containers, walking back up, pouring it in, and going back and forth, back and forth. In spite of this difficulty, they went and filled the pots to the brim.</p>\n  <p>Besides the difficulty of the command, it also seemed totally unreasonable. They had a need for <em>wine</em>, and yet this “man” was telling them to go get <em>water.</em> He didn’t tell them to see if the neighbor had some, or to go to the store and buy some. Instead, He told them to make the effort to fill containers with water. Even so, they did it, and filled them to the brim. Are we ready to give seemingly unrelated obedience to God’s Word? Do we have a “to-the-brim” obedience? Can we say, “OK, God, I’ve heard your Word; it doesn’t make sense, but I will do what You’ve said—to the brim”?</p>\n  <h2>We Must Have “Leap-of-Faith” Obedience</h2>\n  <p>Jesus gave them the command, <em>“Draw out now.”</em> Think of it: you have carried all this water, you have just filled up these big water pots with water, and you have seen that it was water. Now draw it out and take it to the governor of the feast? What would you do? Praise God, the Bible says of the servants in verse eight, <em>“and they bare it.”</em> Not only did they fill these water pots to the brim, but they also took God at His word and took it to the governor. This is “leap-of-faith” obedience. Are you willing for that leap of faith? This is an essential ingredient in the recipe for usefulness.</p>\n  <p>These servants attached themselves to Jesus and His words. No longer were they observers. No longer were their hands off of it. Jesus didn’t take the dipper Himself and take it to the governor of the feast. Instead, He says, “You take it. You attach your life; you put your reputation on the line for Me.” He was telling these servants, “You pick up that dipper full of water, take it to the governor of the feast and say, ‘How does the wine taste?’” They dipped out that water and took it.</p>\n  <p>The Bible doesn’t tell us when the miracle occurred. God didn’t choose to reveal that to us. The miracle may have occurred when they dipped it in, it may have occurred when they were walking, or perhaps it occurred when the governor put it to his lips…. The Bible doesn’t tell us whether it looked like wine or it looked like water. All we know is that they brought the water and poured it into these containers. Then in faith, they dipped the scoop and took it to the governor of the feast, and when he tasted it, he said, “It’s wonderful! This is incredible! This is some of the best wine that I have tasted all day!” It met the need of the hour.</p>\n  <p>God simply asks us to attach ourselves to Him and His words by <em>faith</em>, the miracle <strong><em>is</em></strong> going to occur. God <strong><em>is</em></strong> going to turn that water for which we have labored into wine. He will meet the need of that thirsty crowd of people who want wine, but lack it. These servants were not vintners (someone who makes wine), yet they were used to meet the need of the hour because they obeyed God’s Word. They were not skilled men; they were laborers. They only poured the water into those containers, but when the power of God met with their obedient hearts, a miracle was created.</p>\n  <p>This principle is like the mixing of two special chemicals. The other day I was using a medical ice pack that required twisting to become activated. When you twist it, there are two chemicals that mix, immediately creating a below-zero temperature inside. God is waiting for that kind of obedience. His miracle-working power is waiting to be met with your obedience, and a miracle <strong><em>will</em></strong> be created that will meet your need and the need of the world to which you minister. Are you willing to bring your obedience to meet God’s Word?</p>\n  <p>We need to say: “Lord Jesus, I’m taking my life, who I am and what I have, and laying it on the line. It seems like water. It doesn’t seem like it is going to meet the need. I don’t know that I have much to give, but You said to carry it, Lord, so I’m going to carry it. I’m going to take it to those who have need of it, and I’m going to give it to them. I will trust You that You will not bring me to shame in front of a needy world. You will not shame me in front of myself and the needs of my heart. You will do the miracle necessary to make wine from this water.”</p>\n  <p>God sent a miraculous supply. When the ruler of the feast had tasted the water that was made wine, it was wine indeed! It was wonderful wine, made by God! And it will be so in your life, when God’s miracle-working power, God’s Word of command to you, meets your obedient, cleansed vessel. It will be pure wine, God’s miraculous wine.</p>\n  <h2>Faith’s Secret Knowledge</h2>\n  <p>Look at this beautiful phrase in verse nine, <em>“When the ruler of the feast had tasted the water that was made wine, and knew not whence it was: (<strong>but the servants which drew the water knew</strong>) . . . .”</em> Maybe the ruler knew that they were running out of wine. Maybe he also knew that, as the ruler of the feast, he was going to lose face because they hadn’t planned well. He tasted the water that was made into wine, and he didn’t know where they got it. But the servants who drew the water knew! And so will you! This is the joy of <em>faith’s secret knowledge.</em> Those who drew the water knew that wine had been created by their obedience to God’s Word, and the miracle-working power of God! It was the natural result of these two elements combined. Do you want that secret knowledge? It is a secret knowledge freely given to all those who obey God in faith.</p>\n  <p>If you are involved in ministry, you know what I’m talking about. There are times when you dip into that water pot in faith and it is still water. It is one hundred percent water! You say, “God, it’s just water!” I said that to God this morning about this message. “It’s just water, God!” But you’ve taken it in faith to the governor of the feast, to those who have need of it, and handed it to them in faith, because God said for you to hand it to them. Somewhere along the line, your water becomes the wine that meets the need. And the people drink it and say, “Oh, that is the most wonderful wine!” But you who drew the water know, <em>it was God</em>— and make sure you give God the glory! But it’s also our obedience and our willingness that must meet with the power of God.</p>\n  <p>This is the recipe for usefulness. The need must be there—and I know that you know there is a need. There is a need in this world, and there is a need in your heart and mine for wine—true, vintage wine, the outpouring of God’s Spirit into our hearts. The need of the hour is immense! The need must be communicated to God, the only One who can meet it. We must be willing for <em>“whatsoever he saith.”</em> There are times when God withdraws His presence from me because I’m not willing for <em>“whatsoever he saith.”</em> There are days when I wrestle myself to that point, because I know that only there can God flow through me. There must be willing, purified water pots. Do you want to be used by God? You must be emptied, purified, and cleansed. You must be willing to obey God, and obey God’s seemingly unrelated commands into our lives. God knows what He is doing. You don’t know the ingredients that God wants to use for your miracle. So when God calls you to go and do this or that, and it doesn’t make sense, don’t worry about it. Simply obey. Just cast your net on the other side of the boat. You can’t explain it. Marine biologists are not going to give you any reason why the other side of the boat is going to work better, but just do it. Fill the water pots, and then be willing to bear out. Put your reputation on the line to obey God.</p>\n  <h2>To the Glory of God</h2>\n  <p>Do you want to be used by God? Do you want God to pour His Spirit into you in a new way? God wants to pour His Spirit into you to make you useful, to use you to reach a world, to meet the needs. Be willing to be usable. Give God your water, and be willing to obey His Word. It will become wine.</p>\n  <p>Verse eleven says, <em>“This beginning of miracles did Jesus in Cana of Galilee, and manifested forth his glory; and his disciples believed on him.”</em> This miracle that God wants to do has one purpose: to manifest His glory so that His disciples and others will believe on Him. The world is watching you. Your brothers and sisters are watching you. People are waiting to see God’s miracle worked out in your life—to make you a living testimony of what God can do with a willing vessel, to make you a living testimony of God’s ability to make wine to meet the need of the hour, from that which is purely water in our own lives. This is God’s recipe for usefulness. Let us rise up in faith. God will honor those who honor Him.</p>\n  <figure><img src=\"/images/articles/3ecef108-58f3-42fc-a9c1-be12086c3e87-5.jpg\" alt=\"Jesus with people and vessels at a table.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f65dde871397b1b6f8b503c021531551d7a0972bf4c17bbdb5aa4b85842d7f77"
+}

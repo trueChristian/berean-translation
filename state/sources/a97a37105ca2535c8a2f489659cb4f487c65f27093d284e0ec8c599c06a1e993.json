@@ -1,0 +1,129 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Alexander Whyte"
+        }
+      ],
+      "raw": "by Alexander Whyte"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "d58332a1-9877-4cc3-9498-6a712269a248",
+    "images": [
+      {
+        "alt": "Kneeling man beside a sign reading God be merciful to me a Sinner",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-1.png",
+        "repository_path": "public/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-1.png",
+        "rights_note": "Original embedded PDF image object 50; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The source raster has a light-gray ground matching the page treatment; it is inseparable and retained without an unproven color inversion or synthesized replacement. The prayer wording on the sign is intrinsic to the illustration and retained. No separate image credit or article-specific image reuse restriction is printed. Original lossless grayscale PNG extraction retained without recompression or color alteration.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": {
+          "export_pixel_dimensions": [
+            401,
+            459
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 50,
+          "source_pixel_dimensions": [
+            401,
+            459
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "lossless grayscale PNG",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "documented unavoidable baked content retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A seated man beneath a wooden staircase",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-2.jpg",
+        "repository_path": "public/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-2.jpg",
+        "rights_note": "Original embedded PDF image object 51; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 12,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            7,
+            8,
+            291,
+            411
+          ],
+          "export_pixel_dimensions": [
+            284,
+            403
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 51,
+          "source_pixel_dimensions": [
+            300,
+            414
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 12,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "Truly Penitent",
+    "topics": [
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "839ac672073f1bf7afe33e16c9d5f6892f29f39c54c94edc4cff553c682a0adc",
+    "metadata_sha256": "b50c080fe7d8b5ca1eb8d76342c17030d7f0fbbef6e55dfdece00ece3215272e",
+    "structure_sha256": "8cba7dbe882cfdb522c2edb317cfaee4f5540c2f3c2be45ed2509e24a6cd9444",
+    "text_sha256": "817664224d5b2db94921768457a2816ba5b771b0b57fb4143bb07e7f1f98ff1e",
+    "translation_metadata_sha256": "fc1a4c90b641df1c81dac8f4eca939cdd5450e1a66e26a835647dc46ed687c60"
+  },
+  "html": "<article data-article-id=\"d58332a1-9877-4cc3-9498-6a712269a248\">\n  <figure><img src=\"/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-1.png\" alt=\"Kneeling man beside a sign reading God be merciful to me a Sinner\" /></figure>\n  <p><em>“Comfort ye, comfort ye my people, saith your God” (Isa. 40:1).</em></p>\n  <p>No man living in any known sin is ever comforted of God. The Holy Ghost never yet spake one word of all His abounding consolations to any man so long as he lived in any actual sin, or in any neglect of known duty. You have that much-needed caution bound up into the very heart of God’s great name, when He proclaimed His great Name to Moses. “The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin—but”—and here comes this great correction and caution—”will by no means clear the guilty.” That is to say, as long as you are living in any guilt, as long as your conscience accuses you, He will by no means clear or comfort you. “He that forsaketh his sin shall find mercy”—but he only You do not really care for God’s mercy or His comfort either, so long as you live in any sin. And it is well that you do not; for you can have neither. Your peace will be like a river, when you put away your sin; but not one word of true peace, not one drop of true comfort, can you have till then. You will have to put out God’s eyes, and pervert His judgment, and turn His Throne upside down, before you can have His comfort with your sin. Choose which you will have: “If a man love Me, he will keep My words: and My Father will love him, and We will come unto him, and make Our abode with him.” Are you that man? Are you intending to be that man? And when and in what are you to begin? Are you from this day to keep that word of His, which up to this day you know you have not kept? Then, from this day Jesus and His Father will come to your good and honest, if broken and contrite heart, and will make Their abode with you. And from this memorable day it will be said over you from heaven, what was said from heaven in Israel over all the men in Israel like you: “To this man will I look, saith the Lord, even to him that is poor and of a contrite spirit, and who trembleth at My word.”</p>\n  <figure><img src=\"/images/articles/d58332a1-9877-4cc3-9498-6a712269a248-2.jpg\" alt=\"A seated man beneath a wooden staircase\" /></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2a71692fd45a58d67eda8a6b66c1b19784f7a23b7991573d5bcdd861fc9083f0"
+}

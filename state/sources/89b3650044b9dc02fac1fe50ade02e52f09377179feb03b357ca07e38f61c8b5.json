@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1730-1799",
+          "name": "James Meikle"
+        }
+      ],
+      "raw": "by James Meikle (1730-1799)"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "a819756d-e719-4429-95f6-1d6057113d57",
+    "images": [
+      {
+        "alt": "Engraving of a house among trees",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a819756d-e719-4429-95f6-1d6057113d57-1.jpg",
+        "repository_path": "public/images/articles/a819756d-e719-4429-95f6-1d6057113d57-1.jpg",
+        "rights_note": "The masthead states that some images are ©2001-2008 clipart.com / fotolia.com but does not identify this specific image. PDF Separation/JPEG samples decode inverted outside the PDF; the embedded artwork was inverted and encoded as a baseline sRGB JPEG at its original pixel dimensions. Separable title typography, shadow, panel and rules were omitted.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "82d9c013-5a75-453c-9193-1270033b393d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Monsters of Cruelty",
+    "topics": [
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba",
+      "e306a951-5cde-59d9-b002-9f39db3e1eae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e6b4ec46ef44f46f52bba6a6b310c9322f057d0bbb366bc6aee12af251d5c8cb",
+    "metadata_sha256": "405f47df47d3f3d9e4e183d873b1e5447bc782fa5d697cbdf8ce58574649f27f",
+    "structure_sha256": "dd6ede4771553ddd111d8308f20937e0356b91bf871bf8e4ab73b3575b68ecd9",
+    "text_sha256": "1b0835a208013becb4581c1af3b834b4160e00c6164d75ca8b7371e440aa5774",
+    "translation_metadata_sha256": "968d68f59f5c022228ebce8dd9140d87079ec34f30033845153048e880db972f"
+  },
+  "html": "<article data-article-id=\"a819756d-e719-4429-95f6-1d6057113d57\">\n  <figure>\n    <img src=\"/images/articles/a819756d-e719-4429-95f6-1d6057113d57-1.jpg\" alt=\"Engraving of a house among trees\">\n  </figure>\n  <p>Now that I am a father, and know the <strong>affection of a parent</strong>—would I not defend from every danger—would I not bestow every truly good thing—would I not implore every blessing—on my tender children? Would I not nourish their infant state—correct and educate their childhood—inspect, reprove, and admonish them in youth? Would I allow the dear little creatures—to play with sharp pointed knives—to frolic on the brink of a rapid torrent—or dance around a pit’s mouth? Would I permit them to eat deadly berries—or to put a cup of poison to their tender lips? However indulgent, would I allow them to disobey my commands? And if they labored under any disease which threatened their precious life, what pains or expenses would I spare to procure them relief? If assured that a physician lived somewhere, who could heal them without fail—would I not send to the uttermost corner of the land? would I not travel to the ends of earth?</p>\n  <p>But, hear me, O parents! If our concern for our children ends only with their bodies—we are <strong>monsters of cruelty!</strong> Would we pluck them from fire and water—and yet permit them to plunge into the fire of hell, and lie under the billows of Jehovah’s wrath? Will we snatch from them sword, pistol or knife—and allow them to wound themselves to the very soul, with sin? Will we chastise their disobedience to us—and wink at their spitting in the very face of God, by open acts of sin? Are we fond to have them educated and well-bred—and yet let them live in the neglect of prayer, which is the highest disrespect that can be put on the Author of our being?</p>\n  <p>In a word, is this the sum of our kindness, is this the height of our concern for our dear children—to see them happy in time, flourishing in the affairs of this life—though they end up being miserable beyond description through eternity itself? Will their bodily pain excite our sympathy, and will we do all in our power to have their diseases healed—and yet have no concern that their souls pine under sin, and they suffer all the pangs of hell? Will we not bring them in our prayers, to the Physician of souls, to the Savior of sinners?</p>\n  <p>I have but one request for all of my children, and that is—that they may fear and serve God here—and enjoy him forever! No matter though they sweat for their daily bread—only let them feed on the hidden manna! Let them toil and spin for their apparel—but let them be covered in Christ’s righteousness! How would I count my house renowned, and my family ennobled, if there sprang from it—not wealthy princes or kings, (let potsherds of the earth strive for such earthly vanities)—but pillars for the temple of God in glory—who shall dwell in the presence of the King of kings—when time is no more!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0e0df64a9e78355270620ac622fc1397cd2363c157cd6648f778d1a9283ed098"
+}

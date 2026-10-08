@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "de1ad3c0-8efc-4a93-a965-a92172801455",
+    "images": [
+      {
+        "alt": "Person crossing a narrow bridge above a chasm labelled Hell, toward Heaven.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-1.jpg",
+        "repository_path": "public/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-1.jpg",
+        "rights_note": "No image-specific licence or permission wording is printed; the issue-level publisher permission applies. The masthead lists some images ©2001-2010 / www.clipart.com / www.sxc.hu without identifying which source, if any, applies to this image.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 15
+      },
+      {
+        "alt": "A man points at a scene with two people, road signs to Broad Street and Calvary, and a person carrying a cross.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-2.jpg",
+        "repository_path": "public/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-2.jpg",
+        "rights_note": "No image-specific licence or permission wording is printed; the issue-level publisher permission applies. The masthead lists some images ©2001-2010 / www.clipart.com / www.sxc.hu without identifying which source, if any, applies to this image.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 15,
+        "transformation": "Reassembled PDF raster xrefs 66, 67, 68, 69, 71 at their exact printed positions; inverted the two Separation grayscale samples; omitted separate page text and decorative frame."
+      }
+    ],
+    "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "What’s wrong with this picture?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "9c41ff68caaf331cac40778e7a6ba0ec10054809891cc48269aa2e4dcddd2322",
+    "metadata_sha256": "5cab8de6b308c8ea82a7fd54198fd98fce90ecc16202b7c7c71457a754c2a1f2",
+    "structure_sha256": "c4ee941023f33654aedfd177c31007d6df4cc44cd9bd7588f9f87bd739f743c5",
+    "text_sha256": "62ff7048a173c904989117faae255ae13aaaf1f8c9f48e622a51111172729f02",
+    "translation_metadata_sha256": "eb1691945051b2a6661b5b62a4e23495a55887b3150613bb5eabb36594e88820"
+  },
+  "html": "<article data-article-id=\"de1ad3c0-8efc-4a93-a965-a92172801455\">\n  <figure><img src=\"/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-1.jpg\" alt=\"Person crossing a narrow bridge above a chasm labelled Hell, toward Heaven.\"></figure>\n  <p>You have probably seen something like it on a tract somewhere, with a title along the lines of “How to Get to Heaven.” But the picture is seriously in error, doctrinally. What is that error?</p>\n  <p>The man is misusing the cross! The man is supposed to be carrying the cross, not using it as a bridge. Nowhere are we told to use the cross as a bridge to heaven. But we are told, by Jesus Himself, that unless we take up the cross and follow Him, it is impossible to be His disciple. We must use the cross just like He did.</p>\n  <p>Readers of the previous issue will remember the comparison between Anabaptists and Evangelicals. The above picture and the one below graphically show the difference between the two theological mindsets. Paul told the Galatians, “But God forbid that I should glory, save in the cross of our Lord Jesus Christ.” Many people stop there, and assume that Paul was referring to what Jesus did on His cross. But, the verse doesn’t end there! He continues, saying, “... by whom the world is crucified unto me, and I unto the world.” The cross that Paul gloried in was the cross of Christ in the sense of being just like the one Christ used, only Paul was the one bearing it now, following in Christ’s steps. And through that daily death to self, sin, and the flesh, Christ could then live in Paul and glorify him. Without Paul taking up the cross, this could not have taken place.</p>\n  <p>Have you taken up your cross, or do you just plan to use it as a bridge after your body dies? Sorry, but the cross is not a bridge; it is an instrument of death to be used while we are on this earth, not afterwards. ~</p>\n  <figure><img src=\"/images/articles/de1ad3c0-8efc-4a93-a965-a92172801455-2.jpg\" alt=\"A man points at a scene with two people, road signs to Broad Street and Calvary, and a person carrying a cross.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "810256bc29d6048184c6c5bec3760720128a4a4ecb860c845925b3fb9fb9b47a"
+}

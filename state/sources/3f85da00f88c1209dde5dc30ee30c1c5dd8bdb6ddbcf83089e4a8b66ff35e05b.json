@@ -1,0 +1,183 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "bab0c77b-3cb7-4792-9694-d823e3e93f0e",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-1.jpg",
+        "repository_path": "public/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-1.jpg",
+        "rights_note": "Decorative black quill associated with the editor heading. No image-specific credit or licence is printed. Unobstructed crop excludes the heading typography and retains the complete feather and nib; the connecting title flourish ends at the left crop boundary. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            703,
+            52,
+            971,
+            375
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            268,
+            324
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1592,
+            2055
+          ],
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Edward Martin’s signature.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-2.jpg",
+        "repository_path": "public/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-2.jpg",
+        "rights_note": "Printed author signature retained as an image, with the separately printed author name preserved in the article body. No separate image credit or licence is printed. Unobstructed crop excludes surrounding prose and the separately printed name. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "author signature",
+        "sequence": 2,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            793,
+            1407,
+            1085,
+            1517
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            292,
+            110
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1592,
+            2055
+          ],
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A stone church with a square tower stands beside old gravestones.",
+        "caption": null,
+        "credit": "© Edward Martin",
+        "public_path": "/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-3.jpg",
+        "repository_path": "public/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-3.jpg",
+        "rights_note": "Page 2 Photo Credits identifies © Edward Martin for page 3. No separate permission requirement or licence is stated. Unobstructed photograph crop excludes surrounding prose and print furniture. A narrow band of original scanning smear at the lower edge is retained as part of the only source raster; it is not a JPEG decoding defect. Inspected raw image object, page paint order, clipping, resources, masks and transparency: this page has one flattened RGB scanned-page image; the only later paint is invisible OCR text (/Gs1 alpha 0). No alternate base, tiles, image masks, transparency group or separable overlay exists. The embedded ICC profile is three-channel sRGB. Preserved source pixels in the stated region and resampled vertically only to reproduce the PDF placement aspect ratio. Encoded baseline sRGB JPEG with a nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            811,
+            1620,
+            1592,
+            2054
+          ],
+          "flip": null,
+          "method": "Original embedded source raster cropped at the stated pixel rectangle; vertical Lanczos resampling by (792/source_height)/(612/source_width) reproduces the published PDF placement aspect ratio.",
+          "output_dimensions": [
+            781,
+            435
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1592,
+            2055
+          ],
+          "source_object": 19
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, embedded sRGB profile, nonzero 96 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the EDITOR",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0d54db3f25549efc42ae01d94735400f864414d463bcadfd336a3beddc87550a",
+    "metadata_sha256": "af364b45b9af9dcfa4d40d01d2ab6abda10495df0214eda7a4ffbf37d8d6fed0",
+    "structure_sha256": "06f4fb6a645c3b01ea58b5892a7c2354dba959f7d79d5649aa15640fda5634e5",
+    "text_sha256": "56b8fb248db5021c11a9bacdd30e031f42fc2d79c878bc4507a12d09ce1b0172",
+    "translation_metadata_sha256": "53daafca350c6ea86d56b024ab4280b68d69fc3742195bb923b67730a4e49e18"
+  },
+  "html": "<article data-article-id=\"bab0c77b-3cb7-4792-9694-d823e3e93f0e\">\n  <figure><img src=\"/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-1.jpg\" alt=\"\" /></figure>\n  <p>Over 2,500 years ago, the Psalmist wrote, “Turn us, O God of our salvation, and cause thine anger toward us to cease. Wilt thou be angry with us for ever? wilt thou draw out thine anger to all generations? Wilt thou not revive us again: that thy people may rejoice in thee?” (Psalm 85:4–6). Throughout the Old Testament, we read of the nation of Israel repeatedly growing cold and falling into sin. Then God would punish them and bring them to revival.</p>\n  <p>That cycle is repeated many times throughout Christian history. During the Dark Ages (c. 5th–15th centuries), after the fall of the Western Roman Empire, Western Europe was marked by an economic, cultural, and spiritual decline. By the 15th–16th centuries, the revival fire of the Reformation started burning. A century later, the revival flames continued being fanned, emerging into what we today call Anabaptism.</p>\n  <p>The seventeenth century brought considerable upheaval across Europe. Not only were the state churches fighting for dominance, but various individuals and groups emerged from the Anabaptist movement, and at times, they created conflict with each other. This issue’s article, “Contrasts, Contentions, and the Cloistered Life in the Conestoga Valley”, is presented as church history. But the deep soul-searching questions at the end of the article are the much-needed ingredients for personal and corporate revival today.</p>\n  <p>How do we fare today in our personal lives and in our churches? Where do we find ourselves on this roller coaster of complacency versus spiritual vibrancy that the Israelites rode on for centuries? We can clearly see that the world is sinking deeper and deeper into corruption and debauchery. The apostle Paul spoke of this in 2 Timothy 3, “This know also, that in the last days perilous times shall come.” The moral decline of the world slowly infiltrated professing Christianity. The nominal churches’ acceptance of things like divorce, promotion of wealth, and immodesty, in turn, is putting pressure on the conservative churches to adapt and change as well. It is time for us to resist the pressures of the world and the complacency of the worldly church. The writer of the article, “An Inconvenient Revival”, says it well, “We need to clean house. We have enough insincere people in the church, and we must raise the standard! We need churches that are aflame with the power of God. Churches that are full of Spirit-filled people, living Spirit-filled lives!”</p>\n  <p>In the spring of 2024, I received an email written to the editor of <em>The Heartbeat of The Remnant</em> by a brother living in the United Kingdom. Their family had been receiving the <em>Remnant</em> for many years and wanted to meet with us. Last October, they visited us, and we had an enjoyable time together as they stayed at our house. We took them along to church and showed them around the community. This summer, my wife and I, along with one of our daughters and another couple from church, paid them a visit. I was fascinated by how vastly different the cultures of our two countries are, despite both being modern English-speaking nations. We saw many old buildings, some of which were much older than any here in America. We toured a church that was built in the pre-Reformation era. If those old, illegible tombstones could speak, what stories would they tell us?</p>\n  <p>We have so much in this nation that we often take for granted. Our British friends have no like-minded believers to fellowship with. We have many options for church fellowship. We can take our children to town without fearing they will be corrupted by what they might see. Unfortunately, this is not the case in many places in Europe.</p>\n  <p>Let us “be watchful, and strengthen the things which remain” (Revelation 3:2).</p>\n  <figure><img src=\"/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-2.jpg\" alt=\"Edward Martin’s signature.\" /></figure>\n  <p>Edward Martin</p>\n  <figure><img src=\"/images/articles/bab0c77b-3cb7-4792-9694-d823e3e93f0e-3.jpg\" alt=\"A stone church with a square tower stands beside old gravestones.\" /></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b82a4218ca8c5f7bd9f48d8ada72df5ca4720d94c11f7e22d76cb821dded1782"
+}

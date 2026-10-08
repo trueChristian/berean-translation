@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Katie Good"
+        }
+      ],
+      "raw": "–by Katie Good"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
+    "images": [
+      {
+        "alt": "Pink bleeding heart flowers against a softly blurred green background",
+        "caption": null,
+        "credit": "unsplash.com",
+        "public_path": "/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg",
+        "repository_path": "public/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 27 to unsplash.com; no license terms or separate permission notice are stated. The former incomplete upper strip was replaced by an exact 300 dpi reconstruction from all 21 ordinary page-image XObjects in the published PDF, preserving their original crop, placement, clipping, draw order, and CMYK-to-sRGB rendering. The vector title and poem/byline text were omitted. The publisher's poem-panel rectangles, shadows, and guide lines remain because they are flattened into the only surviving raster pieces. No external, generated, inpainted, or inverse-estimated pixels were used.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Only in the Darkness",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "5933107a-a052-501e-9826-e25cb5a7e990",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "aa1cc781-4fa3-5a11-89a3-e94519678778"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4b3f584a3c65cd0646836124867aecf2c588b48e4f8c38c214be3d922ed6ce68",
+    "metadata_sha256": "42b0623274ff3441742cde27a97d628e2f1331717b4b1b6b0d5b2d8150ff4bbc",
+    "structure_sha256": "7585a9b9e27c1e8620d1e3f1c35bd1ca46d5aa1522d960971aee315f2ec302bf",
+    "text_sha256": "c7b7ca56507f180fb1ae0b2766acb2704dbc1e22147167a15c57143ba37f4ec3",
+    "translation_metadata_sha256": "2d4c6977b682bd9423ea9b1dc17e1ecdfda125feefae9c6c7962b8497a287634"
+  },
+  "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"Pink bleeding heart flowers against a softly blurred green background\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Is it only in the heartbreak,<br>\n    When confusion ‘round me churns,<br>\n    That I truly seek my Savior’s arms<br>\n    And my will toward Him turns?</p>\n\n    <p>Is it only in the darkness,<br>\n    When I cannot see my way;<br>\n    Or when asked of something I do not know<br>\n    That I think to stop and pray?</p>\n\n    <p>Is it only when I feel<br>\n    The force of evil ‘round me gathered,<br>\n    That I seek for His protection;<br>\n    To in His arms be sheltered?</p>\n\n    <p>Oh, foolish heart of mine!<br>\n    How can you call Him your best friend<br>\n    When it’s only in your trials<br>\n    That on Him you will depend?</p>\n\n    <p>In good times too, you need Him,<br>\n    Perhaps more desperately;<br>\n    Since it’s easier to forget to seek<br>\n    When the way you think you see.</p>\n\n    <p>Even when you fail to hear Him,<br>\n    When by His side you fail to stay,<br>\n    He will hear you when you cry to Him<br>\n    And on Him your troubles lay.</p>\n\n    <p>But how much better it would be<br>\n    To earnestly seek His face<br>\n    As much in the smoother times of life<br>\n    As in the rougher place!</p>\n\n    <p>To seek and to search, to stay by His side,<br>\n    To share the joy and the sorrow,<br>\n    The unknowns in His hands, He’ll be at your side<br>\n    For whatever may come in tomorrow.</p>\n\n    <p class=\"byline\"><em>–by Katie Good</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ea9bf23ef3f7fa33a2b3306b026950250cd24113f3ce9f3dcde418ae15b0cd35"
+}

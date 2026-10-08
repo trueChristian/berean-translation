@@ -1,0 +1,140 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Clarence W. Hall"
+        }
+      ],
+      "raw": "by Clarence W. Hall"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "5ceb9812-b69d-435f-8fad-34a0371ac0f3",
+    "images": [
+      {
+        "alt": "People and thatched huts among palm trees beside the sea",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-1.jpg",
+        "repository_path": "public/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-1.jpg",
+        "rights_note": "Original embedded image object 119 on printed page 31. No separate image credit or image-specific permission requirement is printed. Small intrinsic artist lettering at lower left is retained without inferring a creator name or licence. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            750,
+            532
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            750,
+            532
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            750,
+            532
+          ],
+          "source_object": 119
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A thatched-roof building with steps and a person standing beside it",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-2.jpg",
+        "repository_path": "public/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-2.jpg",
+        "rights_note": "Original embedded image object 123 on printed page 32. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 32,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            380,
+            428
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            378,
+            426
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            380,
+            428
+          ],
+          "source_object": 123
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "The Village That Lived By The Bible",
+    "topics": [
+      "9673646c-3954-5324-9acb-3e3f17647e91",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae",
+      "d887f035-2587-599d-acb8-222982c3a808"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "983fc6c591a0654c306c9aef86d579066abf5c9eb8f8181b12c1a10027a4daad",
+    "metadata_sha256": "816ef0945258c421499d2c6baab505f620d510a64774bc58688c823a8e96d70f",
+    "structure_sha256": "59bc6202e6f40e59982e966dec2be150698a052f342618a18a710e16f248ca3c",
+    "text_sha256": "bea0f9dcd319e1f62479a45be38ab21fa619b39ae66740003630455080fb9655",
+    "translation_metadata_sha256": "a38313430a40cd2866dc3829ef938efc186b62dfb82b3e2b00644e71e57f0c38"
+  },
+  "html": "<article data-article-id=\"5ceb9812-b69d-435f-8fad-34a0371ac0f3\">\n  <p>It was early in 1945 when, as a war correspondent on Okinawa, I first came upon Shimabuku, the strangest and most inspiring community I ever saw. Huddled beneath its groves of banyan and twisted pine trees, this remote village of some 1000 souls was in the path of the ‘American’ advance and so received a severe shelling.</p>\n  <p>But when an advance patrol swept up to the village compound, the GI’s stopped dead in their tracks. Barring their way were two little old men; they bowed low and began to speak. The battle-hardened sergeant, Wary of tricks, held up his hand, summoned an interpreter. The interpreter shook his head. “I don’t get it. Seems we’re being welcomed as ‘fellow Christians’. One says he’s the mayor of the village, the other’s the schoolmaster. That’s a Bible the older one has in his hand...”</p>\n  <p>Guided by the two old men—Mojun Nakamura the mayor and Shosei Kina the schoolmaster—we cautiously toured the compound. We’d seen other Okinawan villages, uniformly down-at-the-heels and despairing; by contrast, this one shone like a diamond in a dung heap. Everywhere we were greeted by smiles and dignified bows.</p>\n  <figure>\n    <img src=\"/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-1.jpg\" alt=\"People and thatched huts among palm trees beside the sea\">\n  </figure>\n  <p>Proudly the two old men showed us their spotless homes, their terraced fields, fertile and neat, their storehouses and granaries, their prized sugar mill.</p>\n  <p>Gravely the old men talked on, and the interpreter said, “They’ve met only one American before, long ago. Because he was a Christian they assume we are, too—though they can’t quite understand why we came in shooting.”</p>\n  <p>Piecemeal, the incredible story came out. Thirty years before, an American missionary on his way to Japan had paused at Shimabuku. He’d stayed only long enough to make a pair of converts (these same two men), teach them a couple of hymns, leave them a Japanese translation of the Bible and exhort them to live by it. They’d had no contact with any Christian since. Yet during those 30 years; guided by the Bible, they had managed to create a Christian democracy at its purest.</p>\n  <p>How had it happened? Picking their way through the Bible, the two converts had found not only an inspiring “Person” on whom to pattern a life, but sound precepts on which to base their society. They’d adopted the Ten Commandments as Shimabuku’s legal code; the Sermon on the Mount as their guide to social conduct. In Kina’s school the Bible was the chief literature; it was read daily by all students, and major passages were memorised. In Nakamura’s village government the precepts of the Bible were law.</p>\n  <p>Nurtured on this Book, a whole generation of Shimabukans had drawn from it their ideas of human dignity and of the rights and responsibilities of citizenship. The result was plain to see. Shimabuku for years had had no jail, no brothel, no drunkenness, no divorce; there was a high level of health and happiness.</p>\n  <p>Next day, the tide of battle swept us on. But a few days later, during a lull, I requisitioned a jeep and a speaking driver and went back to Shimabuku. Over the winding roads outside the village, huge truck convoys and endless lines of American troops moved dustily; behind them lumbered armoured tanks, heavy artillery. But inside, Shimabuku was an oasis of serenity.</p>\n  <figure>\n    <img src=\"/images/articles/5ceb9812-b69d-435f-8fad-34a0371ac0f3-2.jpg\" alt=\"A thatched-roof building with steps and a person standing beside it\">\n  </figure>\n  <p>Once again I strolled through the quiet village streets, soaking up Shimabuku’s calm.</p>\n  <p>There was a sound of singing. We followed it and came to Nakamura’s house, where a curious religious service was under way. Having no knowledge of churchly forms or ritual, the Shimabukans had developed their own. There was much Bible reading by Kina, repeated in singsong fashion by the worshipers. Then came hymn singing. The tunes of the two hymns the missionary had taught—”Fairest Lord Jesus” and “All Hail the Power of Jesus’ Name”—had naturally suffered some changes, but they were recognisable.</p>\n  <p>Swept up in the spirit of “All Hail the Power,” we joined in. After many prayers, voiced spontaneously by people in the crowd, there was a discussion of community problems. With each question, Kina turned quickly to some Bible passage to find the answer. The book’s imitation-leather cover was cracked and worn, its pages stained and dog-eared from 30 years’ constant use. Kina held it with the reverent care one would use in handling the original Magna Carta. The service over, we waited as the crowd moved out, and my driver whispered hoarsely, “So this is what comes out of only a Bible and a couple of old guys who wanted to live like Jesus!’, Then, with a glance at a shell-hole, he murmured, “Maybe we’re using the wrong kind of weapons.”</p>\n  <p>Time had dimmed the Shimabukans’ memory of the missionary; neither Kina nor Nakamura could recall his name. They did remember his parting statement. As expressed by Nakamura, it was: “Study this Book well. It will give you strong faith. And when faith is strong, everything is strong.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "48c40faebcc35694284da614d752aff5bdc547ddff84eba20d444f4d8720484f"
+}

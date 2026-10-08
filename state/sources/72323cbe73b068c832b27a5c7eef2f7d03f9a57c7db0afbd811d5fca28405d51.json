@@ -1,0 +1,84 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "fc5cd87f-66c5-4084-ac13-f82e4ebd7dc5",
+    "images": [
+      {
+        "alt": "A mailbox on a post surrounded by climbing flowers",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc5cd87f-66c5-4084-ac13-f82e4ebd7dc5-1.png",
+        "repository_path": "public/images/articles/fc5cd87f-66c5-4084-ac13-f82e4ebd7dc5-1.png",
+        "rights_note": "Clean source image object 135; separately painted headings, article text, panels, rules and decorative framing are omitted. The postal wording painted on the mailbox is intrinsic to the only source raster and retained. Its grey backdrop is also embedded; the separate rounded section panel and heading are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "grayscale PNG",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original lossless DeviceGray source raster preserved as PNG; no crop or retouch.",
+          "output_dimensions": [
+            98,
+            157
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            98,
+            157
+          ],
+          "source_object": 135,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e034bac5120f0ef5a6d486de206bf60e291503013f414d744265d97ba38ed689",
+    "metadata_sha256": "6dbe25b09b1881e9d40d879bb94968c8d03af5db5aaa6f9c4b2099d9ab207576",
+    "structure_sha256": "097201cfa1da97b0726e17b09ae1ca761337105125e8d86caec4d2ff0fe2c4fb",
+    "text_sha256": "0c645985fb4232d8f314577240cd203ca3c8080dfb493b9d6bebde8c2e2080f2",
+    "translation_metadata_sha256": "0561e6913923de84983c8168fb37a2099e14d8a1484f0a532b62e402f0f82eb7"
+  },
+  "html": "<article data-article-id=\"fc5cd87f-66c5-4084-ac13-f82e4ebd7dc5\">\n  <figure><img src=\"/images/articles/fc5cd87f-66c5-4084-ac13-f82e4ebd7dc5-1.png\" alt=\"A mailbox on a post surrounded by climbing flowers\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <p>Greetings to you,</p>\n  <p>Enclosed is a check for twenty-five dollars to continue receiving The Heartbeat of the Remnant Magazine and The Charity Missions Newsletter. Due to our finances I felt I could only renew with one source among the many Christian magazines I have subscribed to last year. I chose to renew with your magazines. Thank you for all the encouragement from past issues. I did not come from a Christian background. I was saved at the age of 15 in 1979.</p>\n  <p>It is only in the last ten years that I have faithfully dressed in conservative modest apparel. Sometimes I feel like I stick out like a sore thumb. I feel very odd and alone. I do not have many friends who are like-minded in dressing modestly and feminine. I cherish home after running errands for a few hours. The music in the stores, people’s attitudes, etc., can tire me out. I do try to be an encourager to those who cross my path like the cashiers and other store workers. But I do grow weary and long to get home.</p>\n  <p>Thank you and God bless you.</p>\n  <hr>\n  <p>I just want to thank you so much for your faithfulness to God and His people. My life, the lives of my children, and, by faith, the lives of my husband and unsaved parents have been completely changed by our gracious Father in heaven through listening to and applying the principles in your teachings. Your love for the things of God is truly contagious. I am but seven years old in the Lord. I long for good, sound doctrine that challenges me to live a life of holiness unto Christ. I thank God that although our views may differ in some areas He has used you to bring to light TRUTH in my life.</p>\n  <p>The selection of churches where we live is bleak. I find myself oddly alone even among believers in my desire to live a life consecrated unto Him.</p>\n  <p>Please accept this small donation with love and appreciation</p>\n  <p><em>Germany</em></p>\n  <blockquote><p>“Every day will I bless thee; and I will praise thy name for ever and ever. Great is the LORD, and greatly to be praised; and his greatness is unsearchable.” Psalm 145:2-3</p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4f10b9e6710b1640a1ac17796dff5fa58c473280c47bd5fc31c085b79f4cc0b4"
+}

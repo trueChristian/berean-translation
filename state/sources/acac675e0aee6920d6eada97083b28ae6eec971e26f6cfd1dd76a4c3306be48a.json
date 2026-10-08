@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ebenezer Manting"
+        }
+      ],
+      "raw": "by Ebenezer Manting, 1890"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "9bdfd597-b36d-4e35-a833-394d117d41d7",
+    "images": [
+      {
+        "alt": "A sailing ship in a breaking wave",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/9bdfd597-b36d-4e35-a833-394d117d41d7-1.jpg",
+        "repository_path": "public/images/articles/9bdfd597-b36d-4e35-a833-394d117d41d7-1.jpg",
+        "rights_note": "PDF image object 135. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source grayscale converted to RGB (or source RGB preserved) and normalized as baseline sRGB JPEG with nonzero 72 dpi density; output dimensions match the retained source-pixel region. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "Rejoice!",
+    "topics": [
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "17704a9da9894fb0264c73f9861c83454efc9ddbfc338e5503df9b3b6e8a8e0d",
+    "metadata_sha256": "5eb97bd7266a3fcbeea20271e14c752dbc7c95895724798ae4c12cfdd5422987",
+    "structure_sha256": "2314c5a7cda2a46035d2b180c4ff59b1a1f610bf6090103fff50be17468d8389",
+    "text_sha256": "d71fa9f7446de337ce4b03cf59011e6a8bf44f38db702e396d7504a5f2067ece",
+    "translation_metadata_sha256": "6e3287a2a5ed928e278335d53e467ed336f0dca44ce790f8cafa68ddd0514c03"
+  },
+  "html": "<article data-article-id=\"9bdfd597-b36d-4e35-a833-394d117d41d7\">\n<figure>\n  <img src=\"/images/articles/9bdfd597-b36d-4e35-a833-394d117d41d7-1.jpg\" alt=\"A sailing ship in a breaking wave\">\n</figure>\n<p>“Rejoice evermore” says St Paul, “Rejoice!” Rejoice! Says the sun as it smiles upon the world and makes me smile. Rejoice! Says the babbling brook as it splashes among the stones and flings back the sunrays in a broken sheen. Rejoice! It says again in a still, gentle murmur while it deepens as if with satisfaction full. Rejoice! Say the willows as they fling their cooling shade upon the banks and rustle their feathery branches. Rejoice! Say the birds among the leaves. Rejoice! Says my heart as I rest upon the grass; and as I turn again to the Book of my delight, the Apostle chimes in once more, “Rejoice always: and again I say, rejoice.” How easy! How delightful! When the heart is in tune and the world also!</p>\n<p>But…what if it is otherwise? Rejoice, says St Paul. But the rains descend, and the floods come and beat upon my house. Rejoice! But the sun has gone and the moon is hidden: darkness and “the sons of night” are abroad upon the face of the earth. There are a thousand causes for fear!</p>\n<p>“Although the fig tree shall not blossom, neither shall fruit be in the vines; the labor of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls; yet I will rejoice in the Lord, I will joy in the God of my salvation” (Habakkuk 3:17).</p>\n<p>Is it a mockery to tell a man to rejoice in bereavement or distress or extreme sorrow from any cause? Some men, yea many men, indeed most men, would take it so. Ay! Is not indulged sorrow well nigh universal? Did not Elijah give up in something very much like despair and Jacob refuse to be comforted? Job let loose his first heroism of faith, and cursed the day of his birth! Yea! And “we know that the whole creation groaneth and travaileth in pain together until now” (Rom 8:22)</p>\n<p>But, “rejoice!” is to fit all the phases of human life. “Rejoice always: and again I say, rejoice.” There can be no mistaking the apostle’s language; neither can there be any doubt that he perfectly understood what he was saying. And if any man was more than ordinarily acquainted with the ups and downs of life, and was more than usually versed in all that men call pain, distress and trouble, that man was St Paul. Such an exhortation from such a man comes with a propriety none can question which every man must feel. Add to this the weight of inspiration and a disregard of it becomes positively criminal.</p>\n<p>Yet it is to teach men to “rejoice evermore!” It is not that they do not strive to rejoice, for is not the world full of devises for securing joy? But it is that they run astray, and are deceived. The foes of man are about him and within him, and they contrive to rob him of joy while he is in the pursuit of it, and yet succeed in alluring in the same direction, to complete his dissatisfaction in despair and woe. Man is made to be joyful, and the universal instincts which prompt him to the search are proofs of this. But there is only one true source of joy for him, and the disappointment which awaits him in every other direction is likewise a demonstration of this. “Joy in the Lord!” “Righteousness, peace, and joy in the Holy Ghost!” The way to be happy is to find joy in the Lord.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "578222c449a293a55f27e5cdfce67448fe196f9a24091cae4cca23f3245e32c8"
+}

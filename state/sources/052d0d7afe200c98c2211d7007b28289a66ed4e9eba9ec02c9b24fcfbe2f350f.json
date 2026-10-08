@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles Spurgeon"
+        }
+      ],
+      "raw": "by Charles Spurgeon"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2",
+    "images": [
+      {
+        "alt": "Six engraved scenes of people engaged in everyday activities",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2-1.jpg",
+        "repository_path": "public/images/articles/7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2-1.jpg",
+        "rights_note": "PDF image object 102. Embedded PNG/index image retained in published polarity and encoded baseline RGB/sRGB JPEG. No article-specific image credit or licence statement is printed; general masthead notes some images ©2001–2008 clipart.com / fotolia.com, without identifying this asset.",
+        "role": "Six-panel engraving of scenes involving a man in the street",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "fc10b0ef-1255-413c-8283-f5d6f83232b5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Life in Earnest",
+    "topics": [
+      "0735a42c-48fe-559e-a962-489ce8f5f335"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "62ca9491505a26a95bab43c22c1f8f76999d6f6d106e9027c052586fca0c8bdb",
+    "metadata_sha256": "c0aa6d26281b9efcb729bd962ede7362b8889dd8a54338035feeceb3f1375ae5",
+    "structure_sha256": "3fd660f7b6b72f29d5c34afd07173ff0990a3a79175ee69b07dae34530f6d721",
+    "text_sha256": "355b96ac85c3f7baa997dc278ebe6d637edfcbe6df082a446ff916945e66190a",
+    "translation_metadata_sha256": "ae8166a7a22a2a81e2df92aab422c6c45c28a182ccfb9de0dfd3f01668fd476c"
+  },
+  "html": "<article data-article-id=\"7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2\">\n  <figure><img src=\"/images/articles/7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2-1.jpg\" alt=\"Six engraved scenes of people engaged in everyday activities\"></figure>\n  <p>Either Christianity is the grossest deception that was ever palmed upon mankind, or else it is one which deserves the whole life and force and strength of every man who has been blessed by it!</p>\n  <p>Some Christians live as though truth were a lie, and as though the doctrines revealed of God were but a delusion and pretense!</p>\n  <p>In the light of eternity, all things except for serving God, are mere child’s play, mere theatricals, mere masquerading. They are but the performance of a carnival, the jests of a comedy, the laughter of a pantomime. It is only ‘serving God’ that is doing immortal work; it is only living for Christ that is living at all!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "42ff4c82b45bbe52ffa31639c59ff2bc1f16ec0e0b5e277a20ae0fb9c86f3db5"
+}

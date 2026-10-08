@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charity Gospel Tape Ministry"
+        },
+        {
+          "location": null,
+          "name": "The Heartbeat of the Remnant Magazine"
+        }
+      ],
+      "raw": "Charity Gospel Tape Ministry\nand The Heartbeat of the Remnant Magazine"
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "200fe7c6-0f3b-4e3a-82d0-47962413f574",
+    "images": [],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Tape Ministry Report and 2007 Financial Report",
+    "topics": [
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82",
+      "0ade9728-d895-5710-84b2-09af80abdc84"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "dc18835ccb576c2b13163bd567480785965a6f5f76cd3ecc1d50fd6d7283c0eb",
+    "metadata_sha256": "d7ac16b3017545ba5a52ca3489ac6cde05c55cc5e0ea04a02368dce3992e711c",
+    "structure_sha256": "4aef487c1d75ed48779785ea56f75458c82e6f05db093b49862e1ade947a2b82",
+    "text_sha256": "14ec0841f03d5a00518aa4be2e3f446da7cdfd7bdb74b289440629eb219ccc06",
+    "translation_metadata_sha256": "70c6fa7aaf4bd2b8f31347291ccd7bedc3873727b10773fb495daa8b126ee062"
+  },
+  "html": "<article data-article-id=\"200fe7c6-0f3b-4e3a-82d0-47962413f574\">\n  <p><em>To our dear supporters of the Tape Ministry and Remnant magazine,</em></p>\n  <p>Greetings in Jesus Name! As we close the year, it is appropriate for us to make ourselves accountable to you, our supporters. As you can see by the report, we have received much this past year.</p>\n  <p>We are humbled as we view the magnitude of how far and wide the gospel has been spread for the Kingdom. We have sent out approximately 50,000 tapes, almost 50,000 CDs and there has been close to 44,000 messages downloaded from the website in the past year. We have also printed over 50,000 MP3 messages on over 2,600 discs. This makes a total of 195,000 messages that have been sent out. Approximately 20,000 copies of <em>The Heartbeat of the Remnant</em> magazine have been sent also.</p>\n  <p>A few dedicated men and women here in the office did not accomplish this alone. Many hands working together, including you who have supported this work, have accomplished what has been done. To God be the glory!</p>\n  <p>Due to changing technology and growing demand, we need to update our equipment from time to time. Our current needs are as follows:</p>\n  <ul>\n    <li>Computers—some that we are using are outdated and need to be updated.</li>\n    <li>CD duplicating equipment—the demand is outgrowing our capabilities.</li>\n    <li>Continued everyday operation.</li>\n  </ul>\n  <p>These first two needs will cost approximately $7,000.00. The third need is a continuing one.</p>\n  <p>Before we start our day here at the office we have prayer together and we entreat our Almighty God who is our supplier to bless you who have given so much in time, money, prayers and in any other contribution you have made. We accept every gift, whether it is much or little, with appreciation and thankfulness.</p>\n  <p><em>Charity Gospel Tape Ministry<br>and The Heartbeat of the Remnant Magazine</em></p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">01/01/07 Beginning Balance</th><td>$26,566.22</td></tr>\n      <tr><th colspan=\"2\" scope=\"colgroup\">Receipts</th></tr>\n      <tr><th scope=\"row\">Tape Ministry Donations</th><td>$173,553.00</td></tr>\n      <tr><th scope=\"row\">Remnant Subscription Donations</th><td>$25,333.35</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td>$198,886.35</td></tr>\n      <tr><th colspan=\"2\" scope=\"colgroup\">Disbursements</th></tr>\n      <tr><th scope=\"row\">UPS &amp; Postage</th><td>$20,909.45</td></tr>\n      <tr><th scope=\"row\">Tapes, Albums, CD's &amp; Labels</th><td>$47,934.94</td></tr>\n      <tr><th scope=\"row\">Equipment &amp; Software Purchases</th><td>$2,790.02</td></tr>\n      <tr><th scope=\"row\">Equipment Maint &amp; Repairs</th><td>$1,595.35</td></tr>\n      <tr><th scope=\"row\">Mailing &amp; Office Supplies</th><td>$5,763.59</td></tr>\n      <tr><th scope=\"row\">Rent</th><td>$9,000.00</td></tr>\n      <tr><th scope=\"row\">Telephone</th><td>$3,722.46</td></tr>\n      <tr><th scope=\"row\">Website Development &amp; Maintenance</th><td>$2,372.08</td></tr>\n      <tr><th scope=\"row\">Building Improvements</th><td>$1,187.28</td></tr>\n      <tr><th scope=\"row\">Miscellaneous</th><td>$6,339.38</td></tr>\n      <tr><th scope=\"row\">Payroll Expense</th><td>$77,190.04</td></tr>\n      <tr><th scope=\"row\">Books &amp; Catalogs</th><td>$5,203.20</td></tr>\n      <tr><th scope=\"row\">Remnant Publishing &amp; Mailing</th><td>$26,272.44</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td>$210,280.23</td></tr>\n      <tr><th scope=\"row\">12/31/07 Ending Balance</th><td>$15,172.34</td></tr>\n      <tr><th scope=\"row\">Difference</th><td>-$11,393.88</td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f053280945e35394594640880d1740eb7325c7eb929638ba0acb40c67528b25e"
+}

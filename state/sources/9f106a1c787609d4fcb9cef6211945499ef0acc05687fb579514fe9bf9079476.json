@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "ff756543-8b73-4182-a901-596bfa199152",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff756543-8b73-4182-a901-596bfa199152-1.png",
+        "repository_path": "public/images/articles/ff756543-8b73-4182-a901-596bfa199152-1.png",
+        "rights_note": "Source one-bit image-mask object 160 rendered using original dark paint and PDF stencil semantics. Isolated original PDF image paint and clipping operations, retaining published orientation; transparent outside the published clip. Rendered at 300 dpi; all separate typography, frames, panels and shadows omitted. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 35
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff756543-8b73-4182-a901-596bfa199152-2.jpg",
+        "repository_path": "public/images/articles/ff756543-8b73-4182-a901-596bfa199152-2.jpg",
+        "rights_note": "Clean base PDF image object 161 exported; source pixels and tonality retained. Original grayscale daisy; no separate tonal overlay exists. Source raster cropped to (1, 1, 89, 83) in native pixel coordinates to reproduce the published rectangular clipping; no rotation or flip. JPEG container normalized to baseline sRGB with nonzero 72 dpi density (source JPEG had zero JFIF density); no CMYK assets or sample inversion involved. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "decorative illustration",
+        "sequence": 2,
+        "source_page": 35
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff756543-8b73-4182-a901-596bfa199152-3.png",
+        "repository_path": "public/images/articles/ff756543-8b73-4182-a901-596bfa199152-3.png",
+        "rights_note": "Original white rain-cloud/font glyphs (MonotypeSorts2, TT32) and four vector flowers isolated at 300 dpi on transparency. The original white paint remains white; gray reading panel and all prose/title typography are omitted. No hidden pixels were synthesized. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "decorative background",
+        "sequence": 3,
+        "source_page": 35
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ff756543-8b73-4182-a901-596bfa199152-4.png",
+        "repository_path": "public/images/articles/ff756543-8b73-4182-a901-596bfa199152-4.png",
+        "rights_note": "Original six ZapfDingbats flower glyphs rendered from their isolated published region at 300 dpi. The identical second separator is represented once. No article text, panel or page furniture intersects this region. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "decorative separator",
+        "sequence": 4,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "8c7d190e-02b9-427e-9891-346d83e3007a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "73c8aa29bddf62f6de99ce880cb1146252e3ec0693f5b938ce7b65be0bfdabf2",
+    "metadata_sha256": "df205f1c67630b4e655e4701ae2d009c396627fe187fa4a75e54bd296d94e4de",
+    "structure_sha256": "450e121a091ff6dda76214058bf94f4df51bfdc88d22a6a26e6111a25a78fdf1",
+    "text_sha256": "ad7586102f4769fe99f4f8ab7f77a0ea34bb202e1012bd00af445358d0c83f69",
+    "translation_metadata_sha256": "9b59a26160f2cfe22e5862d2ef5f029ab57604b0b650a517a5547b5e666acd83"
+  },
+  "html": "<article data-article-id=\"ff756543-8b73-4182-a901-596bfa199152\">\n  <figure>\n    <img src=\"/images/articles/ff756543-8b73-4182-a901-596bfa199152-1.png\" alt=\"\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/ff756543-8b73-4182-a901-596bfa199152-2.jpg\" alt=\"\">\n  </figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration, and burden; from us to you, and you to us. That way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways.</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for <em>The Blessing Corner</em> where you found God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <figure>\n    <img src=\"/images/articles/ff756543-8b73-4182-a901-596bfa199152-3.png\" alt=\"\">\n  </figure>\n  <section class=\"letter\">\n    <p>Dear Remnant,</p>\n    <p>Just finished reading and enjoying the Jan./Feb. issue. Here is a challenge for you or perhaps someone who reads the Remnant. Your ministry has reached so many, even across the ocean now and it is truly a blessing. Yet there is a mission field whose fields are white unto harvest and is largely left to itself by the “church.” That field is the divorced. There are thousands of them. Who will tell them the truth? The Africans need the truth of the gospel of Christ, yes, but the American divorced need the truth of remarriage after divorce as well.</p>\n    <p><em>A Reader</em></p>\n  </section>\n  <figure>\n    <img src=\"/images/articles/ff756543-8b73-4182-a901-596bfa199152-4.png\" alt=\"\">\n  </figure>\n  <section class=\"letter\">\n    <p>Dear Editors,</p>\n    <p>Thank you so much for the revised, version of the Remnant. Our whole family has greatly been enjoying it from cover to cover.</p>\n    <p>The Home Histories are such an inspiration and enhance our vision for a godly home, to the glory of God. And oh, the articles for the sisters, my Father knew just the perfect time to send them my way. How loudly they spoke and how effectively they wrought spiritual victory in my ever-so-weak flesh. Blessed by the God of heaven, for His word is sharper than a two-edged sword.</p>\n    <p>Do continue to toil on in making the publication an inspiration and a glory to God. May the Lord fill you with all wisdom, knowledge, and understanding in the grace, truth, and power of Jesus Christ our blessed Redeemer.</p>\n    <p><em>A Sister</em></p>\n  </section>\n  <section class=\"letter\">\n    <p>Dear Remnant,</p>\n    <p>I’ve been wanting to write and tell you what a blessing your magazine has been, I’ve absolutely loved the covers—they are so inspiring I’ve wanted to frame them, yet I don’t want to destroy the magazine in order to do that. I keep referring back to the different articles that have blessed me so. I love the home-histories, the sharpened words, book reviews, blessing corner, the articles that have been condensed from messages—well, I just love everything! The photo on the first one entitled “The Way of the Cross,” I find myself so drawn to that picture – I would especially love to have a print of it to hang in my living room. My thought every time I see it is, “I want to follow Jesus.”</p>\n    <p><em>Delight Sporre<br>Blackduck, MN</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7de4cfa2fe6549f65e0ee3370d32bdd3f411f37b40819a2295285f322d5e0a73"
+}

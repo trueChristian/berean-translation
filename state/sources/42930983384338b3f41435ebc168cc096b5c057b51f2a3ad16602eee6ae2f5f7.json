@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, Ohio",
+          "name": "Joel A. Hostetler"
+        }
+      ],
+      "raw": "Joel A. Hostetler\nCoshocton, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "e55013ff-71f3-40ad-9211-479be822e625",
+    "images": [
+      {
+        "alt": "The score for When Peace Like a River over a photograph of a snowy stream.",
+        "caption": null,
+        "credit": "Horatio G Spafford, 1873; Philip P. Bliss, 1876 (score); © Nathan Leinbach (background photograph)",
+        "public_path": "/images/articles/e55013ff-71f3-40ad-9211-479be822e625-1.jpg",
+        "repository_path": "public/images/articles/e55013ff-71f3-40ad-9211-479be822e625-1.jpg",
+        "rights_note": "Only full-page scanned RGB object 152 exists on PDF page 35, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [0, 444, 1812, 2368] (left, top, right, bottom) without resizing, rotation or pixel repair. One composite crop below all prose and source attribution preserves the complete printed score and surrounding snowy-stream photograph. The score, its translucent reading panel, and photograph are irreversibly flattened in the only source raster; they cannot be separated without inventing pixels. This documented exception represents both visible image regions once, with no duplicate background export. The masthead credits the page-35 photograph to Nathan Leinbach; the score prints Horatio G Spafford, 1873 and Philip P. Bliss, 1876. No score-publication source or permission restriction is printed. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "hymn score and background photograph",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            444,
+            1812,
+            2368
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1812,
+            1924
+          ],
+          "rotation_degrees": 0,
+          "source_object": 152
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "When Peace Like a River",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "98831891-d3af-59bf-9c95-821ac504dd26",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "31c62e03496c03ce84523f98877f812f37bde6fbf8139a5faf190a56c1e43392",
+    "metadata_sha256": "3cd80b247399928ac44889035157b260dc982c9dba51f688e7de9acda159bb0a",
+    "structure_sha256": "9001271e8d59c279d1d22126f8bbc78a5c143772229b8dfd07423862b57afe21",
+    "text_sha256": "25b41ab9195d0e2f5f130e8d8e3a730105db38816fab0c014d025f248dd27b9a",
+    "translation_metadata_sha256": "77617773fe204a1364b420d26fab8e069ca388ea7014c3e4579a5e27a1c77a67"
+  },
+  "html": "<article data-article-id=\"e55013ff-71f3-40ad-9211-479be822e625\">\n  <p>It always intrigues me when an obscure passage of Scripture is brought to light through a sermon or a song. Here we have one such passage found in Isaiah 48:18: “O that thou hadst hearkened to my commandments! then had thy peace been as a river, and thy righteousness as the waves of the sea.”</p>\n  <p>The picture we may get in our minds is that of a large river—a wide mass of water flowing slowly, steadily, and calmly downstream. A beautiful sunny day, perfect for a picnic or an enjoyable boat ride. This Scripture also includes the amazing contrast of the relentless movement of the sea, whose waves never stop smashing and crashing ashore. Even on a perfectly calm and clear day, those waves continue moving toward the land in a never-ending, restless motion, their sound always being heard.</p>\n  <p>In our story today, we will look at the life of another common man who experienced both the “Peace Like a River” and the “Sea Billows Rolling.” This man is an icon in history who faced some of the worst pain, heartache, and financial loss of anyone in the nineteenth century. At the onset of his tragedies, his first son died. Then he lost almost all his wealth in a great fire. After that, his four daughters drowned. Later, a second son passed away. Yet through all of this, he was able to pen the words, “It Is Well with My Soul.”</p>\n  <p>Horatio Spafford was born on October 20, 1828, in Lansingburgh, New York. In 1856, Spafford, now twenty-eight years old, moved to the growing city of Chicago and began his legal career as a lawyer. He did very well financially and became quite wealthy, eventually serving as the senior partner in the successful law firm of Spafford, McDaid, &amp; Wilson.</p>\n  <p>A year after arriving in Chicago, he met his future wife, Anna Tobine Larsen Oglende, born March 16, 1842. Horatio was teaching a community Sunday school class when this beautiful, blue-eyed young lady began attending. Anna was born in Stavanger, Norway, and at the age of four moved with her family to a growing Scandinavian community in Chicago. Her father, mother, and younger brother Hans all died during the cholera epidemic that scourged the Midwest. She was the only survivor of her family.</p>\n  <p>Horatio noticed her talent and love of learning, and the two developed a friendship. A year later, he proposed marriage, only to find that Anna was just sixteen years old. They postponed their plans and remained friends while she finished her schooling at Dearborn Seminary, as she was not legally able to marry until age nineteen. Their friendship centered on their faith and mutual involvement in the Sunday School movement started by Horatio’s friend, the famed evangelist D. L. Moody. Finally, on September 5, 1861, Horatio, now thirty-three, and Anna, nineteen, were married. Together, they strongly supported Moody’s gospel work throughout the 1860s, always keeping an open door to minister and reach out to the needy.</p>\n  <p>During this time, the Spaffords lived a very comfortable life along the shores of Lake Michigan in one of Chicago’s most exclusive Victorian neighborhoods. They were considered part of the city’s upper-class elite. They had three daughters and one son during the 1860s, and with Horatio’s wealth, they seemed to lack nothing.</p>\n  <p>As providence would have it, tragedy struck the Spafford family in 1870 when their only son at the time, Horatio Jr., died at the age of four from scarlet fever. Their grief was immense, yet life still seemed bearable. They still had three daughters, and a fourth daughter was soon to arrive.</p>\n  <p>The following year, in 1871, Mr. Spafford invested heavily in real estate, hoping for an even brighter future. Just months later, the Great Chicago Fire of October 8–10, 1871, tore through the city, destroying nearly one-third of it, including 17,500 buildings, and claiming approximately 300 lives. Most of Spafford’s investments and properties went up in flames, compounding the grief of losing their son. The economic downturn that followed made financial matters even worse.</p>\n  <p>The stress took a toll on the family, especially on Anna. Concerned for her health, and upon a doctor’s recommendation, Horatio planned a trip to Europe. It was to be a time of rest, family togetherness, and support for the gospel campaign that Moody and Sankey were conducting in England. Horatio also intended the trip to be educational, taking the girls to museums and historic monuments.</p>\n  <p>The family traveled to New York to board the ship, but at the last minute, business complications arose involving zoning and the sale of Spafford’s remaining properties. Not wanting to disappoint his family, he decided to return to Chicago to handle the matter while Anna and the four daughters continued on as planned. Five ministers aboard the Ville du Havre promised to look after his wife and daughters in his absence.</p>\n  <p>The French steamship set sail on November 15, 1873. Six days into the voyage, on November 22 at 2:00 a.m., the Ville du Havre was struck broadside near midship by a British vessel, the Lockhearn. The ship was nearly split in half and sank within twelve minutes.</p>\n  <p>Anna hurried to the deck with her four daughters—eleven-year-old Annie, nine-year-old Maggie, five-year-old Bessie (Elizabeth), and three-year-old Tanetta. They prayed together with Reverend Weiss, one of the ministers aboard. Soon, the ship broke apart and was swallowed by the three-mile-deep waters of the North Atlantic. As Anna was hurled about in the whirlpool, she felt Tanetta, whom she clutched tightly, ripped from her arms by the force of the current. She watched helplessly as her child disappeared into the vortex.</p>\n  <p>Anna was struck again, this time by a piece of wreckage that knocked her unconscious. By the mercy of God, she was carried away from the sinking ship and eventually floated to the surface. She was later found semi-conscious on a piece of wreckage and rescued by the Lockhearn. Some of the girls also surfaced and sought floating debris, but none survived.</p>\n  <p>Once aboard, Anna searched frantically for her daughters, crying out, “They are lost! They are lost!” As the reality of all four deaths settled in, she ran toward the rail, intent on joining them. Only the quick action of Reverend Weiss, who seized her just in time, prevented the tragedy from becoming complete. By morning, eighty-one people had been saved; the remaining 226 perished.</p>\n  <p>After some time, Anna regained her composure and said, “God gave me four little daughters. It is He who has taken them from me. He will make me understand and accept His will.” She later testified that she heard a voice saying, “You have been saved for a purpose.”</p>\n  <p>Another vessel soon carried the survivors to England. Once ashore, Anna sent a now-famous telegram to her husband in Chicago:</p>\n  <p>“SAVED ALONE. WHAT SHALL I DO?”</p>\n  <p>Horatio took the next ship to England. As they passed the place where the Ville du Havre sank, the captain summoned him to the deck and said, “By all reckoning, we are now over the place where your daughters went down.” Horatio returned to his cabin and began to write, continuing until the hymn text was completed.</p>\n  <p class=\"lyrics\"><em>When peace like a river, attendeth my way,<br>When sorrows like sea billows roll;<br>Whatever my lot, Thou hast taught me to say,<br>It is well, it is well, with my soul.</em></p>\n  <p class=\"lyrics\"><em>Though Satan should buffet, though trials should come,<br>Let this blest assurance control,<br>That Christ has regarded my helpless estate,<br>And has shed His own blood for my soul.</em></p>\n  <p class=\"lyrics\"><em>My sin, oh, the bliss of this glorious thought!<br>My sin, not in part but the whole,<br>Is nailed to His cross, and I bear it no more,<br>Praise the Lord, praise the Lord, O my soul!</em></p>\n  <p class=\"lyrics\"><em>For me, be it Christ, be it Christ hence to live:<br>If Jordan above me shall roll,<br>No pang shall be mine, for in death as in life,<br>Thou wilt whisper Thy peace to my soul.</em></p>\n  <p class=\"lyrics\"><em>But Lord, ’tis for You, for Your coming we wait,<br>The sky, not the grave, is our goal;<br>Oh, trump of the angel! Oh, voice of the Lord!<br>Blessed hope, blessed rest of my soul.</em></p>\n  <p class=\"lyrics\"><em>And Lord, haste the day when the faith shall be sight,<br>The clouds be rolled back as a scroll;<br>The trump shall resound, and the Lord shall descend,<br>A song in the night, oh my soul!</em></p>\n  <p class=\"lyrics\"><em>Refrain:<br>It is well, (it is well), With my soul, (with my soul)<br>It is well, it is well, with my soul.</em></p>\n  <p>After these tragedies, God blessed Horatio and Anna with three more children—another son, Horatio Jr., and two daughters, Bertha and Grace. Sadly, their second son also died of scarlet fever, like his older brother. In 1881, the Spaffords moved to Jerusalem and formed the American Colony, where they ministered to people of many backgrounds with the love of Christ.</p>\n  <p>Horatio Spafford died on October 16, 1888, in Jerusalem, following a battle with malaria, just four days before his sixtieth birthday. Anna continued her ministry in and around Jerusalem until her death in 1923 at the age of eighty.</p>\n  <p>The original lyrics were first published in Gospel Hymns No. 2 in 1876 by Ira Sankey and Philip Paul Bliss. Bliss, a close friend of the Spaffords, composed the music for the hymn. He was deeply involved in the singing ministry of D. L. Moody’s evangelistic campaigns. The tune, Ville du Havre, was named after the ship on which Anna Spafford and her daughters perished. Later that same year, Bliss and his wife also met a tragic end in a train wreck near Ashtabula, Ohio, where they were consumed by the fire that followed the accident.</p>\n  <p>Finally, my brethren, this beloved hymn we love to sing stands as a monument to the faithfulness of God in the midst of earth’s worst calamities—from the peace of a river when life is at its best, to the raging of the sea in times of devastating loss. Even until the trumpet shall resound and the Lord shall descend, may we be able to say with the hymn writer, “It is well with my soul.”</p>\n  <p><em>Sources: Hymns.org, and others</em></p>\n  <figure><img src=\"/images/articles/e55013ff-71f3-40ad-9211-479be822e625-1.jpg\" alt=\"The score for When Peace Like a River over a photograph of a snowy stream.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fb02fab575d84d2e1fafeac3b9d0241f93f698aa29c6922bb76c2660b73a6a36"
+}

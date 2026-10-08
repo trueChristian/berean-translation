@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John Newton",
+          "role": "Author of Amazing Grace"
+        }
+      ],
+      "raw": "by John Newton\nAuthor of Amazing Grace"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "bfff16aa-7646-43a4-b51a-e96de425fc88",
+    "images": [
+      {
+        "alt": "An older man beside a younger man carrying a bundle of wood",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bfff16aa-7646-43a4-b51a-e96de425fc88-1.jpg",
+        "repository_path": "public/images/articles/bfff16aa-7646-43a4-b51a-e96de425fc88-1.jpg",
+        "rights_note": "PDF image object xref 27. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Separate gray panel and page typography omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 6
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 6
+    },
+    "subtitle": null,
+    "title": "One Stick at a Time",
+    "topics": [
+      "bc95d774-390e-5ae4-bd4e-bae247259b87",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "578d29a0d8140d968a0f2db11429ca62fd9c71749d14c4279eecf0d7d5b559fc",
+    "metadata_sha256": "d15b27486a2145ce1512986b6b1cc674300c26d22a44914ca13caa9f731862c3",
+    "structure_sha256": "455922acb76d1cc26dbdc1ccaf83c44c40394fcd69da980454f706b249fc355f",
+    "text_sha256": "fe5feb52e4966be1e14983935e5ce475a35b34c557bdae88eae822ca7d9b2372",
+    "translation_metadata_sha256": "74110d9f1b60f1e751371f2273d89cfe3af8d22814a0e2fa0cd9a18490df4cfb"
+  },
+  "html": "<article data-article-id=\"bfff16aa-7646-43a4-b51a-e96de425fc88\">\n<p class=\"drop-cap\">The evil of yesterday is gone, that which is appointed for tomorrow is not yet arrived. Would it not be well if we could live with the Lord by the day? This reminds me of a fable. A father asked a young child to carry a large wood pile. The child tried, but it was beyond his strength; he could not lift it. Then the father took off the bands and said, “carry one stick at a time.” This the child did easily, till he had removed the whole pile.</p>\n<figure>\n  <img src=\"/images/articles/bfff16aa-7646-43a4-b51a-e96de425fc88-1.jpg\" alt=\"An older man beside a younger man carrying a bundle of wood\">\n</figure>\n<p>Thus the troubles of a month or year, which would be too heavy for us if they came all together, are parceled out by our wise and gracious Lord into daily portions. We have, as it were, to carry one stick every day. But often, when we have carried the stick all day, we <em>can not</em> or <em>will not</em> lay it down at night. And we pick up the sticks allotted for future days or weeks, long before the appointed time. It is no wonder that we say “Oh, what a heavy burden!” “Oh, how weary am I.” Well, the day is coming when we hope to drop every load, and to bid farewell to sin, sorrow, and care forever.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "cd691297f41b8e008ea992219f5269e9740ae05de55695f1324e572eae09a967"
+}

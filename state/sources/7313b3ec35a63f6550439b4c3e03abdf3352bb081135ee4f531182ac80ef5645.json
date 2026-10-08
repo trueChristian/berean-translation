@@ -1,0 +1,204 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "credentials": "MD",
+          "location": "Gladys, Virginia",
+          "name": "Vincent \"John\" Waldron"
+        }
+      ],
+      "raw": "Vincent \"John\" Waldron, MD\nGladys, Virginia"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "44a970cf-d23c-5e24-a196-0b08595d01ba"
+    },
+    "id": "53295118-c859-4b10-a999-8214a4c37d4a",
+    "images": [
+      {
+        "alt": "A mountain rises beyond a forest and lake.",
+        "caption": null,
+        "credit": "© Brandi Enns",
+        "public_path": "/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-1.jpg",
+        "repository_path": "public/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-1.jpg",
+        "rights_note": "The only available source is the full-page RGB scanned image, PDF object 134, followed by fully transparent OCR text (ExtGState /ca 0); no separate underlying image, mask, tile or transparency group exists. Native-pixel crop [0, 0, 1752, 658] preserves the useful published image at source-pixel crop bounds before the documented aspect-ratio resampling, rotation or synthesized pixels. The crop omits the white curved layout below the photograph, black heading block, article typography and page furniture. No residual removable text, panel, fade, rule, frame or banner appears in the exported crop. The page-2 masthead explicitly credits © Brandi Enns for page 31. No individual licence is stated or inferred. RGB pixels retain the source sRGB ICC profile (PDF object 11); no CMYK inversion or conversion was needed. Standards-normalized baseline RGB JPEG, nonzero 96 dpi density. Final output uses vertical-only Lanczos resampling by 1.03511846 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1752,
+            658
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1752,
+            681
+          ],
+          "placed_page_dimensions_points": [
+            598.0,
+            843.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1752,
+            2386
+          ],
+          "source_object": 134,
+          "vertical_scale_to_pdf_placement": 1.035118458566835
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Almonds scattered on a textured gray surface.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-2.jpg",
+        "repository_path": "public/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-2.jpg",
+        "rights_note": "The only available source is the full-page RGB scanned image, PDF object 138, followed by fully transparent OCR text (ExtGState /ca 0); no separate underlying image, mask, tile or transparency group exists. Native-pixel crop [0, 0, 1568, 500] preserves the useful published image at source-pixel crop bounds before the documented aspect-ratio resampling, rotation or synthesized pixels. The crop omits the white curved layout below the photograph, black heading block, article typography and page furniture. No residual removable text, panel, fade, rule, frame or banner appears in the exported crop. No asset-specific image credit is printed. No individual licence is stated or inferred. RGB pixels retain the source sRGB ICC profile (PDF object 11); no CMYK inversion or conversion was needed. Standards-normalized baseline RGB JPEG, nonzero 96 dpi density. Final output uses vertical-only Lanczos resampling by 0.96215101 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "continuation photograph",
+        "sequence": 2,
+        "source_page": 32,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1568,
+            500
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1568,
+            481
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1568,
+            2109
+          ],
+          "source_object": 138,
+          "vertical_scale_to_pdf_placement": 0.9621510054946587
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Coconut, seeds, part of an avocado, and bowls of food ingredients.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-3.jpg",
+        "repository_path": "public/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-3.jpg",
+        "rights_note": "The only available source is the full-page RGB scanned image, PDF object 143, followed by fully transparent OCR text (ExtGState /ca 0); no separate underlying image, mask, tile or transparency group exists. Native-pixel crop [0, 0, 1604, 507] preserves the useful published image at source-pixel crop bounds before the documented aspect-ratio resampling, rotation or synthesized pixels. The crop omits the white curved layout below the photograph, black heading block, article typography and page furniture. No residual removable text, panel, fade, rule, frame or banner appears in the exported crop. The page-2 masthead explicitly credits © Adobe Stock Images for page 33. No individual licence is stated or inferred. RGB pixels retain the source sRGB ICC profile (PDF object 11); no CMYK inversion or conversion was needed. Standards-normalized baseline RGB JPEG, nonzero 96 dpi density. Final output uses vertical-only Lanczos resampling by 1.03770408 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "continuation photograph",
+        "sequence": 3,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1604,
+            507
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1604,
+            526
+          ],
+          "placed_page_dimensions_points": [
+            598.0,
+            843.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1604,
+            2179
+          ],
+          "source_object": 143,
+          "vertical_scale_to_pdf_placement": 1.037704080144769
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "Overstating Efficacy",
+    "topics": [
+      "34ff8a1a-9130-5308-9d85-23b6f7f85f34",
+      "4c2c9d5f-7135-5f7e-a248-766053dd4b93",
+      "79026687-5f1c-5c05-8305-c63a5d165b2c",
+      "862c3071-6aee-5a28-ae7b-356175f29db1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ecd90986732f6764e9980b4cccc79e36804d2fa03df472812c41ca0bf9da0d29",
+    "metadata_sha256": "b5d9e14be315760018b7c3099fc63f5cb91d83da4154bd8fd2fd342726d54170",
+    "structure_sha256": "d7f794a856e080ca4eb65d09a1fc622166e23428606c7ef6451a12ea20cb2fdb",
+    "text_sha256": "1116072f2fe900ca89db5f0e3c06c4afcd4dc2f32d382c7fba28f0008998b0a6",
+    "translation_metadata_sha256": "c9583e8ddd87e27b0e109fa092c119068f44ef1917068cb2d9eaeb6e63d7a4d0"
+  },
+  "html": "<article data-article-id=\"53295118-c859-4b10-a999-8214a4c37d4a\">\n  <figure><img src=\"/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-1.jpg\" alt=\"A mountain rises beyond a forest and lake.\"></figure>\n  <p>“Dr. Waldron,” the man sitting across from me spoke slowly, almost haltingly. He seemed as though the weight of the world was sitting on his shoulders. I could tell he was heading towards asking me to prescribe him something major, and he wasn’t certain if I would do it. He leaned closer. “Doctor … would you be willing to prescribe me … Claritin?”</p>\n  <p>I relaxed for a moment. I had worried for a moment that he was going to ask me to prescribe him some narcotics or other controlled medication, but an antihistamine didn’t seem like something to get worked up about. At the time, Claritin was by prescription only—it has since moved over the counter.</p>\n  <p>“I can probably do that,” I said easily. “Maybe you should tell me what symptoms you are dealing with, and we can decide if that’s the right medication for you.”</p>\n  <p>Dan seemed to relax, but only slightly. “Well,” he said. “I’ve been feeling really down ever since my wife passed a year ago, and I don’t seem to have the energy to do much of anything. Even scheduling this appointment with you was overwhelming, and I almost cancelled it three times.”</p>\n  <p>“So, where does the Claritin come in?” I asked him.</p>\n  <p>“Well,” Dan said. “I saw an advertisement for it last week, and it had a man playing a piano in a field, and he seemed so happy. I just <em>knew</em> that that was the right medicine for me. I need someone to give me that joy back, and if Claritin can get me to the place where I feel like playing the piano outdoors, then that’s what I need.”</p>\n  <p>I hid my smile. Antihistamines are many things, but when I checked the package insert, none of them list “Imparting Joy” as one of the typical effects—or side effects, for that matter.</p>\n  <p>More than that, most antihistamines are only moderately effective at best at reducing allergy symptoms. Approximately 30 to 35 percent of people who are allergy sufferers will have a significant improvement in nasal drainage when they take them. The other 60 percent have more modest improvements. Side effects aren’t too bad—the biggest one is drowsiness—but a high number of people simply don’t feel much better with them.</p>\n  <p>Of course, the companies that sell medications try to convince potential buyers of two things. First, their symptoms are awful and are dragging their whole outlook on life down as a result. Second, the medication they are selling is extremely effective at alleviating those symptoms. The end result when you put those two ideas together is that if you take the medication in question (at least according to the advertisements), afterward, you will be living on cloud nine.</p>\n  <p>I am struck by the similarity to Satan in the Garden of Eden. If anyone had perfect lives, it was Adam and Eve. They did not deal with sin, pain, or debility. Every day, they walked with God. There was only one command that they were not to violate—not to eat of the fruit of the tree of knowledge of good and evil.</p>\n  <p>When Satan came to Eve, he began with a simple question, “Yea, hath God said, Ye shall not eat of every tree of the garden?”</p>\n  <figure><img src=\"/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-2.jpg\" alt=\"Almonds scattered on a textured gray surface.\"></figure>\n  <p>Eve replied that, actually, they were allowed to eat from all of the trees. However, there was one tree in the middle of the garden that, if they ate from it, they would die.</p>\n  <p>Satan’s answer was smooth and encouraged Eve to doubt God’s goodness. “Ye shall not surely die: for God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.”</p>\n  <p>“And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat” (Genesis 3:1–6).</p>\n  <p>The problem, of course, was that Satan didn’t tell Eve the side effects of the fruit. Adam and Eve didn’t physically die the day they ate the fruit, but nothing was ever the same. Pain entered the world, sickness and disease afflicted them and their descendants, and their relationship with God was severely damaged.</p>\n  <p>Satan never mentions the side effects, but neither do most of the people selling remedies. We would be wise to be just a little skeptical when someone tells us of a treatment that will fix every issue we have that has no downside.</p>\n  <h2>Beware Well-Meaning People</h2>\n  <p>“I wanted to ask you for a little input on my eyes.” My patient looked at the floor and then looked back up at me. “My eye doctor tells me that I have cataracts and sometime in the next couple of years they’ll probably need to have surgery done on them.”</p>\n  <p>“Cataracts are pretty common for folks getting into their 70s,” I said, helpfully.</p>\n  <p>“Well, there’s a lady I know who seems to know a little bit about everything. She recommended some herbal pills for my dog, and I think they helped him a little bit. Of course, he’s dead now—the dog that is—but anyway, she tells me that there are special drops with silver in them that I could put in my eyes and they would get rid of my cataracts—without surgery.”</p>\n  <p>“Oh,” I said and stopped, not certain what to say next. “I don’t think I would try it,” I said at last. “We have a lens in our eyes that focuses light on the back of the eye—the retina. The problem is that as people get older, this lens gets cloudy, much like if you get dirt on the surface of your glasses. This makes it so that it’s harder to see at night, and sometimes when people look towards bright lights, things get halos around them.”</p>\n  <p>“I don’t know of any drops that would fix cataracts. I’m guessing your friend is talking about some kind of colloidal silver, but I really wouldn’t put that in your eyes. I think the downside of using something like that would far exceed any benefit you would get from them.”</p>\n  <p>I have heard so many stories like this. The worst is when someone is diagnosed with cancer. Suddenly, people show up with their recommendations. Maybe it is high-dose vitamin C. Perhaps it is Ivermectin. Perhaps it’s a unique blend of herbs available only from a specific company at a high price. Perhaps it is a clinic in Central America offering special treatments unavailable in the United States.</p>\n  <p>I have taken care of many people over the years who chose this route instead of chemotherapy or radiation. I don’t recall many instances where it was effective.</p>\n  <p>Those who went to clinics where these alternative therapies were offered were typically told that they were responding beautifully, the scans were looking good, and any symptoms they were having were indications that the cancer cells were being destroyed.</p>\n  <p>All of these positive signs of therapeutic response continued either until the patient ran out of money, or they died—whichever came first.</p>\n  <p>There are two specific things to be wary of when it comes to treatments. First, be cautious when the person recommending the treatment is making money from it. The treatment may be great, but regardless of whether the person recommending it is a physician or an alternative medication provider, financial incentive tends to drive many to shade the truth in a particular way that helps them sell their product.</p>\n  <figure><img src=\"/images/articles/53295118-c859-4b10-a999-8214a4c37d4a-3.jpg\" alt=\"Coconut, seeds, part of an avocado, and bowls of food ingredients.\"></figure>\n  <p>Second, beware of any treatment that sounds too good to be true. Most medications come with known side effects. Even herbs can cause issues like stomach upset or blood thinning. Anyone recommending something to you should understand its effectiveness and potential risks.</p>\n  <p>It is really important to note that many of those making these recommendations intend no harm. They are trying to help. The problem is that not everyone who tries to help is actually helpful.</p>\n  <h2>Be Quicker to Eliminate</h2>\n  <p>If you have the choice between adding supplements or medication or cutting things out of your diet, elimination will have fewer side effects. I am afraid that many people want a pill to fix all of the defects in their diet. Of course, no such pill exists, but more than that, every medication has side effects.</p>\n  <p>On the other hand, reducing or eliminating things like ultra-processed foods, sugar, or artificial dyes has no downsides that I know of. The only downside is that we might eliminate some quick, unhealthy food that we have acquired a taste for. Otherwise, I have never had a patient who has complained to me about how they have felt so much worse since they eliminated something like sugar from their diet.</p>\n  <p>The Apostle Paul talked about false teachers, “Forbidding to marry, and commanding to abstain from meats, which God hath created to be received with thanksgiving of them which believe and know the truth” (1 Timothy 4:3). The point Paul was making was that there is no spiritual benefit to abstaining from specific foods, as the Judaizers claimed. On the other hand, there are real health benefits from being in control of what we eat and choosing wisely.</p>\n  <p>Cutting unhealthy things out of our diets has fewer side effects than adding in medications or supplements, and it is also cheaper.</p>\n  <h2>A Lesson in Exaggeration</h2>\n  <p>“The cut was so long it probably took twenty stitches to close it up!” The nine-year-old girl said to me.</p>\n  <p>“It was just three stitches,” her mother put in dryly.</p>\n  <p>“She screamed so loudly you could have heard her two counties over!” Her older brother said. “I’m surprised the police didn’t come in to find out what was going on in there!”</p>\n  <p>“You’re always over-exaggerating!” The girl said defensively. “You would have made some noise too if someone was sticking a needle in a cut in your arm!”</p>\n  <p>I am not totally certain what “over-exaggeration” is—it seems to leave the impression that a certain level of exaggeration is beneficial or at least expected. I am afraid that many of us have a tendency to exaggerate. In our modern society, it seems that those who speak the most melodramatically are the ones who are heard best. Both of the children in my office had issues with exaggeration, and those who were used to listening to them probably reduced their statements whenever they heard them.</p>\n  <p>Jesus told His disciples that their yes should be yes and their no, no. Whatever is more than this comes from evil (Matthew 5:37).</p>\n  <p>The context was that Jesus wanted His followers to be believed without them having to swear to the honesty of what they shared. If we are prone to exaggeration, it can get to the point where others distrust most of what we say, knowing our tendency to inflate many of the things that have happened to us.</p>\n  <p>The same is true in medicine. I would rather under promise and over deliver than claim to have the cure of the century, only to have my patients struggle with side effects and poor efficacy.</p>\n  <p>Living lives of honesty and integrity will lead us to speak truthfully. It will also help us identify others who are not practicing the same plain speech, and let us research whether their claims are true.</p>\n  <p>Just because someone wears a white coat or has initials after their name doesn’t mean that they are speaking the truth or have our best interests in mind. Maybe, if what they are selling us sounds too good to be true, that’s because it is.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "83f000c948db480a4cd631c4bb510ab56e17286fe0fa39d6f27fec7d779f90ff"
+}

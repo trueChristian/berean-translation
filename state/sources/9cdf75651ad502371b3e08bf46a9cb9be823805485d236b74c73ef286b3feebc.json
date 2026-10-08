@@ -1,0 +1,147 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Gladys, VA",
+          "name": "Vincent “John” Waldron, MD"
+        }
+      ],
+      "raw": "Vincent “John” Waldron, MD\nGladys, VA"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "44a970cf-d23c-5e24-a196-0b08595d01ba"
+    },
+    "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+    "images": [
+      {
+        "alt": "Hamburgers, hot dogs, fries, nuggets, chicken wings and potato chips.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg",
+        "repository_path": "public/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 123; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The complete food photograph panel is cropped inside its boundaries; the title/byline above and lower paper margin are excluded. All food subjects remain as printed, including subjects already clipped at the published edges. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            745,
+            1672,
+            2034
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1672,
+            1289
+          ],
+          "output_dimensions": [
+            1672,
+            1283
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1672,
+            2174
+          ],
+          "source_object": 123,
+          "vertical_scale_to_published_aspect": 0.9952919530277611
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Salmon, berries, nuts, leafy greens and tomatoes on a pale surface.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg",
+        "repository_path": "public/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 135; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The complete upper food-photo strip is cropped above the text panel, retaining all published food subjects and the pale stone surface. Faint paper show-through is irreversibly present in the scan. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1692,
+            525
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1692,
+            525
+          ],
+          "output_dimensions": [
+            1692,
+            509
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1692,
+            2260
+          ],
+          "source_object": 135,
+          "vertical_scale_to_published_aspect": 0.9688703800104113
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "A WORD FROM THE DOCTOR",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "The Dangers of Ultra-Processed Foods",
+    "topics": [
+      "34ff8a1a-9130-5308-9d85-23b6f7f85f34",
+      "1fe11bb8-3ea0-5bf6-93fb-d5da55d7c77b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "237977032b915514ef6f5865c6a234094108b803cdcd57cc032c7f87318057b7",
+    "metadata_sha256": "74a31507418cc28b6de67cecb1af974a558ffb727353b9a68916a6f07f643f72",
+    "structure_sha256": "39dda0f6ab829b34974739b790f34d563184001e39e8178ce08f094f89c014df",
+    "text_sha256": "9152e0a42fc3c462582363f5dfc8f35d29e46f2d8d48ecd2f28aa9a8535f4416",
+    "translation_metadata_sha256": "2011bfbb3347f8bb2a76075520039b507159e006a97bfafd04614026083159e4"
+  },
+  "html": "<article data-article-id=\"682dc04d-bea3-4325-ac73-926bb3396990\">\n  <figure>\n    <img src=\"/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg\" alt=\"Hamburgers, hot dogs, fries, nuggets, chicken wings and potato chips.\">\n  </figure>\n  <h2>Introduction</h2>\n  <p>“I think I will bake some bread,” I thought. I am not much of a cook, but over the years, I have figured out the steps needed to make bread. It is probably much the same sort of recipe that has generated loaves for hundreds of years. The only difference is that I use a bread machine to knead my bread.</p>\n  <p>I put a cup and a half of warm water in the bread machine bowl, followed by a couple tablespoons of olive oil, a couple tablespoons of sugar, three and a half cups of flour, a teaspoon of salt, and a couple teaspoons of yeast. A humming noise rose from the bread machine as the machine began kneading the dough.</p>\n  <p>I peeked in to see how the bread lump was looking. It seemed about perfect, and I used a spatula to scrape down the sides of the bowl and lowered the lid on the machine, knowing that the dough cycle would take about an hour to complete its course.</p>\n  <p>Right on cue, I pulled my dough out, kneaded it a little bit more, and dropped it into my loaf pans to let it rise one more time before I popped it into the oven.</p>\n  <p>I looked at my loaves for a moment, then covered them. There was nothing special, only five ingredients, and yet the taste was so much better than the sandwich bread from the store.</p>\n  <p>A loaf of store-bought whole-wheat bread sat nearby on the counter, and I turned it over. It surprised me to see the length of the ingredient list that covered a long paragraph on the back of the loaf.</p>\n  <p>It included everyday ingredients like wheat flour, water, honey, and yeast, but it also included odd things like monocalcium phosphate, cellulose gum, calcium propionate, datem, and sorbic acid. In all, seventeen different ingredients were in the sandwich bread on our counter.</p>\n  <p>I suppose that part of the problem is that the bread that is mass-produced for the grocery store has to be kept far longer than my homemade bread. The loaf I held in my hand had an expiration date two weeks in the future. I knew for a fact that my home-made loaves would have gotten stale in far shorter a time than it took for this loaf to even arrive in my home, much less get eaten.</p>\n  <p>These days, the shelves in the supermarket are burdened with what nutritionists call “ultra-processed foods.” These foods do not require a lot of preparation, have long shelf lives, and are often cheaper than the alternative snack and meal options.</p>\n  <p>Is investing the effort needed to prepare your own food worth it, or are these quick options adequate for our meals and school lunches?</p>\n  <h2>Biblical Directive</h2>\n  <p>The Bible does not give many directives regarding the choice of foods we make. In the Torah, kosher law gave specific instructions about which animals were clean and could be eaten. Cows, goats, and fish with fins and scales were all clean, whereas shrimp, pigs, and rabbits were unclean and not for the Jews’ tables.</p>\n  <p>When Daniel and his friends arrived in Babylon (Daniel 1), they were offered the meat from the king’s table, and they declined, choosing to survive on a diet of vegetables. The issue in that case probably mainly had to do with the fact that some of this meat wasn’t from clean animals, combined with these young men’s knowledge that much of it was offered to idols.</p>\n  <p>God blessed these men for abiding by their convictions, but it is hard to know how to apply this story.</p>\n  <p>In the New Testament, as Gentiles entered the church, the Jewish believers were confronted with the question of whether to apply the kosher laws of eating to these believers. A church council at Jerusalem weighed this question (Acts 15).</p>\n  <p>They ended up asking these new Gentile Christians to avoid eating meat that had been offered to idols, meat from strangled animals, and from eating blood.</p>\n  <p>Throughout the New Testament, more attention is given to fasting than to the specifics of diet. At the same time, our bodies are the temples of the Holy Ghost, and as such, we need to take care of them and be careful what we put inside them. “Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?” (1 Corinthians 3:16).</p>\n  <p>Of course, we use this as we think about drugs and alcohol, but it seems reasonable to apply this to the foods we eat as well. Some of the things that are on store shelves are anything but healthy.</p>\n  <h2>Ultra-processed Foods</h2>\n  <p>Nearly all foods require some amount of processing. For example, wheat requires grinding to break down the bran and make flour that is usable in bread. Some flour includes the bran and wheat germ, which is called whole wheat flour, while all-purpose flour removes all of this fiber and leaves only the ground inner kernels.</p>\n  <p>Ultra-processed foods, on the other hand, take this processing to a much higher level. In a sense, they take something from nature and break it down further. Simple cornflakes are considered a minimally processed food. Add sugar to them and you will have processed food. Add food coloring, other additives, and preservatives (as is done in many breakfast cereals), and you have an ultra-processed food.</p>\n  <p>As another example, companies take corn kernels, grind them down to produce corn starch, then add enzymes to convert the starch into glucose and subsequently add more enzymes to digest that glucose into fructose. The end result is sugar called high fructose corn syrup, which is about 45 percent fructose and 55 percent glucose. This is cheaper and sweeter than cane sugar and is used to sweeten many products, including soft drinks.</p>\n  <p>In a way, this reminds me of the way that wolves will eat meat and then regurgitate it for their cubs. Already chewed and partially digested, this meat is easier for young wolf cubs to handle. Adult wolves would turn up their noses at such fare, and maybe adult humans should too.</p>\n  <h2>Prevalence in North America</h2>\n  <p>In the United States, it is estimated that the average person consumes roughly 60 percent of their calories from ultra-processed foods.<sup>1</sup> Canadians are a little better, with about 48 percent of their calories coming from these foods.<sup>2</sup></p>\n  <p>The problem is that if you go to the grocery store and buy a loaf of bread or any salty or savory snack, chances are good that you are purchasing something that falls into this category. Breakfast cereal is another big culprit, with most boxed cereals qualifying as ultra-processed.</p>\n  <p>Often, ultra-processed options look better than their less processed cousins as companies add colorings to them to pump up their appearance.</p>\n  <p>The issue is that companies add numerous ingredients to make the products taste better or have a better shelf life. Unfortunately, even if these foods taste good, the result is that these foods are significantly less healthy than other options.</p>\n  <h2>Health Risks of Ultra-Processed Foods</h2>\n  <p>As I have hinted already, these products come at a cost. They aren’t as healthy as other options.</p>\n  <p>Scientists followed a group of people over 19 years, trying to figure out if ultra-processed foods increased health risks. The people who ate more of these foods had less fiber in their diet and more added sugar, total fat, and saturated fat. Of course, that might not mean anything, but the study also showed that there was a 31 percent higher death rate among the individuals who ate the most ultra-processed foods compared with those who took in the least.<sup>3</sup></p>\n  <p>Perhaps the question is what causes this increased mortality rate among those who eat high levels of these foods.</p>\n  <p>Maybe it simply comes down to the fact that this isn’t the sort of food our bodies were designed to handle. They have too much sugar and salt, and the chemicals added to preserve them aren’t helpful either.</p>\n  <p>Another extensive study revealed that people who consume large amounts of these foods have higher rates of diabetes, obesity, and heart disease. More than that, these foods are also associated with inflammatory bowel disease and asthma.<sup>4</sup> Dementia and strokes also seem to climb with heavy intake of these foods.<sup>5</sup> Heavy intake of them is even associated with increased levels of depression and anxiety.6</p>\n  <p>Part of the issue seems to be that these sorts of food lead to alterations in the bacteria in our digestive systems. The additives seem to harm the lining of our digestive tract. Finally, we need a certain amount of fiber in our diet for gut health, which isn’t something that the producers of these foods are interested in.</p>\n  <p>Maybe a last thing to mention is that some of the issues have as much to do with the lack of the foods these products are replacing as it does with the foods themselves. For instance, if instead of eating an apple, a homemade sandwich, and a homemade cookie for lunch, you eat a fruit snack, pizza pocket, and an oatmeal cream pie, the result is a meal significantly worse for you than your relatively simple lunch. You have suddenly increased your food additives a hundred-fold, decreased your dietary fiber, and increased your calorie intake by about 40 percent.</p>\n  <p>Is it any wonder that studies show this dietary choice isn’t good for humans?</p>\n  <h2>Why People Eat These Foods</h2>\n  <p>It comes as no surprise that these sorts of foods aren’t healthy. No one picks up a pizza pocket or a Swiss Cake Roll and thinks, <em>And now for the healthy part of my meal!</em></p>\n  <p>People eat these foods because they are quick, require less preparation, and don’t seem that bad for you. More than that, they are tasty. Food engineers spend hours attempting to make a “product” that you have trouble putting down and tend to return to in the future. This has to do with the taste, texture, and even how a particular food feels in our mouths.</p>\n  <figure>\n    <img src=\"/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg\" alt=\"Salmon, berries, nuts, leafy greens and tomatoes on a pale surface.\">\n  </figure>\n  <p>Potato chips and tortilla chips taste good enough that an individual can finish off a decent portion of a bag without a second thought.</p>\n  <p>I asked one young man which would satisfy his thirst more, a cold soft drink (I mentioned a specific brand name) or a glass of water?</p>\n  <p>“Oh, I think the water would probably satisfy my thirst better,” he told me. “But I’d probably want the soft drink more.”</p>\n  <h2>Making Wise Decisions</h2>\n  <p>When choosing foods to eat, we often choose between healthy and unhealthy options. Most of the time, we know which things are healthy and which are unhealthy. It isn’t a question as to which is healthier, an apple or a Swiss Cake Roll — we know the fruit option is better for us, but often we still want the second option. It just sounds tastier.</p>\n  <p>If there is a question, simply taking a quick scan of an ingredient label should give us a clue as to whether something is ultra-processed. Are there ingredients that you don’t know what they are? Are there ingredients that you have never had in your kitchen?</p>\n  <p>Many times, it is possible to make your own, healthier option. A cookie you bake in your kitchen isn’t going to be healthy as such, but it will be much healthier than nearly any cookie that you buy off the shelf in a grocery store. The same is true for things like homemade pizza versus frozen pizzas.</p>\n  <p>The point isn’t necessarily that you never eat pre-prepared food items, but rather that you try to steer your choices towards foods with fewer additives.</p>\n  <h2>Children Learn</h2>\n  <p>One of the biggest challenges is realizing that how we feed our children teaches them how and what to eat later in life. Of course, some of their eating patterns will be modeled — they see us eating certain kinds of food, and they may well eat similar things.</p>\n  <p>More than that, children are easily drawn to ultra-processed foods. The foods have attractive packaging, a sweet taste, and artificial flavors that children gravitate towards. The issue is that as they grow older, they will crave poor dietary choices unless they consciously make an effort to change.</p>\n  <p>These, in turn, can lead to issues with weight as adults. We should choose wisely, even for our children.</p>\n  <h2>Conclusion</h2>\n  <p>Ultra-processed foods are widespread, easy, and cheap. Most often, when we think of snack foods, or something to pack in a child’s lunch for school, many options will fall into this family of foods.</p>\n  <p>“See then that ye walk circumspectly, not as fools, but as wise”. (Ephesians 5:15) We are to live prudently, making wise choices.</p>\n  <p>The Apostle Paul didn’t have issues with reading ingredient lists or dealing with manufactured food additives. Still, he would tell us to make wise choices, thinking not only of our present desires, but also of our future goals. Maybe just a little part of this could entail choosing healthier options for ourselves and our children — and leaving the ultra-processed foods on the grocery store shelf.</p>\n  <p><em>1 Consumption of ultra-processed foods and associated sociodemographic factors in the USA between 2007 and 2012: evidence from a nationally representative cross-sectional study - PMC</em></p>\n  <p><em>2 Consumption of ultra-processed foods predicts diet quality in Canada - PubMed</em></p>\n  <p><em>3 Ultra-processed food intake and mortality in the USA: results from the Third National Health and Nutrition Examination Survey (NHANES III, 1988–1994) - PMC</em></p>\n  <p><em>4 Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses | The BMJ</em></p>\n  <p><em>5 Associations Between Ultra-Processed Food Consumption and Adverse Brain Health Outcomes - PubMed</em></p>\n  <p><em>6 https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2809727</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "8f42b78980676a8a4d676769e33088b5f568724ef85c4b9c881c0f12b416e526"
+}

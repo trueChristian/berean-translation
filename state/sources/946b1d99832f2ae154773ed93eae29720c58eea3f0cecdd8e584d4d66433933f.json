@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "~Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "4a6c3692-ef19-4f15-9f56-69dc686f5ed5",
+    "images": [
+      {
+        "alt": "Traudl Junge walking beside three uniformed men",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4a6c3692-ef19-4f15-9f56-69dc686f5ed5-1.jpg",
+        "repository_path": "public/images/articles/4a6c3692-ef19-4f15-9f56-69dc686f5ed5-1.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean embedded source photograph; no individual photographer or licence is printed.",
+        "role": "historical photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": "Whose side is God on?",
+    "title": "Gott Mit Uns (God With Us)",
+    "topics": [
+      "9f4b8447-4b90-5bef-9a56-46fa6f3fb825",
+      "9bb25764-72c4-5ffa-98de-ea207fdbe27f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f886620ce7d94841c9d1ccf6c5f6b18bb145e55fd5ebac66e2e45a8defd82146",
+    "metadata_sha256": "925df47ac10be76473cf506d81ae990f170f35a2bd15d79fa173d108f9946e64",
+    "structure_sha256": "f0cee147be8a3ff2ccc0814a1b01e2524a909cfb0d818d408223fa78416a5987",
+    "text_sha256": "b11de2057cd5a272a443fccd69dc2f473527c1762b15ecfd0e952d6a5aec6108",
+    "translation_metadata_sha256": "97a272119c9fb3a7d963852157f7b94853a92c7b773937bf701bf005be8facfb"
+  },
+  "html": "<article data-article-id=\"4a6c3692-ef19-4f15-9f56-69dc686f5ed5\">\n  <figure>\n    <img src=\"/images/articles/4a6c3692-ef19-4f15-9f56-69dc686f5ed5-1.jpg\" alt=\"Traudl Junge walking beside three uniformed men\">\n  </figure>\n  <p>Gertraud “Traudl” Junge was the secretary for Adolf Hitler during WWII. After the war, Traudl carried a lot of remorse about her involvement with the Nazi Party. Shortly before her death in 2002, she recorded her experiences and regrets on a video interview entitled <em>Blindspot</em>. Throughout the interview, Traudl recounts her time with the Nazi party, and especially her time with Adolf Hitler. As she recounts this sad time, most of her memories come across more like confession than anything else.</p>\n  <p>There was one thing in the interview that caught my attention that I think has relevance with the Dietrich Bonhoeffer story. In the interview, Traudl mentions the emotional effect on Hitler after the assassination attempt on his life by a bomb placed in a briefcase at a meeting with his staff. Bonhoeffer was involved with the assassination attempt, and it was this involvement that led him to give up his earlier nonresistant stand.</p>\n  <p>Interestingly, Traudl recounts that after the assasination bombing failed, Hitler was more convinced than ever that God was protecting him and his mission. She says that Hitler personally took Mussolini to the site of the bombing and boasted of his deliverance with a “triumphant” smile. Traudl laments that after the assassination attempt, all hopes for peace were lost. Hitler was more than ever convinced with his motto “Gott Mit Uns” (God with us), and that it was his job to rid the world of evil.</p>\n  <p>“What if you could kill Hitler?” In only a few decades after WWII, the question has become almost proverbial in nonresistance debates. Here we see a perfect example that when human means are used to accomplish a spiritual end, the result is often devastating. Instead of ridding the world of Hitler, the assassination attempt only emboldened him. ~Dean Taylor</p>\n  <p><strong>“There is a way that seemeth right unto a man, but the end thereof are the ways of death.”</strong> (Pr. 16:25)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "77150bdfb332194404ab26545896f7aa265dbc40c294ff7f95b1279b25d7c2b7"
+}

@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Editor",
+          "role": null
+        }
+      ],
+      "raw": "–The Editor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "af7e8146-e3f6-4ba8-897d-dc009f17d2a5",
+    "images": [
+      {
+        "alt": "A church and trees inside a heart split down the middle.",
+        "caption": null,
+        "credit": null,
+        "height": 692,
+        "public_path": "/images/articles/af7e8146-e3f6-4ba8-897d-dc009f17d2a5-1.png",
+        "repository_path": "public/images/articles/af7e8146-e3f6-4ba8-897d-dc009f17d2a5-1.png",
+        "rights_note": "No image-specific credit or licence is printed. Only original vector paths were rendered. The publisher gray text panel was excluded, and four matching gray background knockout masks were rendered white with the white export canvas. The original split-heart geometry, black/white linework, and break outlines are preserved; no inferred or synthesized content.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": null,
+        "source_page": 19,
+        "transformations": [
+          "Isolated original vector artwork and its original clipping paths from page 19 content stream 89; rendered at 300 dpi within PDF rectangle [355, 140, 560, 306], giving 855 × 692 pixels."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 855
+      }
+    ],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "CHURCH DIVISION NOTICE",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a18ade4285608724ae5d7f155e3de7c19b765071d15b74cfd5c76326793495e4",
+    "metadata_sha256": "30743d51aff5105e20f79d61ef94bbec4230a6d5602de7e6757cf56310c6c48d",
+    "structure_sha256": "8163d0420a3786a3699776398d1400f681e7da91577c578c48cd67dd3815ad1a",
+    "text_sha256": "43bfce32dcb86ea5825fe5ac1933f98ccf2f95632f0fe23edaff7b9eb8207809",
+    "translation_metadata_sha256": "519c718675bae734a163cd7fdbcb505b375048f9d90a5b825508603b341a3234"
+  },
+  "html": "<article data-article-id=\"af7e8146-e3f6-4ba8-897d-dc009f17d2a5\">\n  <p>Did I get your attention on this one? I pondered the title and realized that probably everyone will read this little announcement. I am not sure of the motivation of all the readers, but I did want you all to read it.</p>\n  <figure>\n    <img src=\"/images/articles/af7e8146-e3f6-4ba8-897d-dc009f17d2a5-1.png\" alt=\"A church and trees inside a heart split down the middle.\">\n  </figure>\n  <p>About three months ago we divided Charity Christian Fellowship into two congregations. All of the elders and the brethren agreed that the church was getting too big. As a church grows in numbers there comes a point in its growth where the size hinders the growth in maturity. You begin to lose the more intimate fellowship that smaller groups allow. We felt we were at that stage, and it was time to divide and conquer.</p>\n  <p>Bro. Mose Stoltzfus and Bro. Rick Leibee are the two elders for the “new” church. Bro. Dean Stump is the deacon. These leaders and the brethren who went with them have chosen the name Ephrata Christian Fellowship and they are located in Ephrata, PA. The new address is: 400 W Main St, Ephrata PA 17522. This is about 10 miles northwest of Charity.</p>\n  <p>This is a good division and we are all looking forward to more growth because of it. There is a sad feeling that comes from time to time because we do not get to see each other as we use to, but we know this is part of Kingdom expansion. Pray for all of us as we seek to raise up churches that will glorify the Lord. <em>–The Editor</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "068a66a1e2713608fea6fabcd7bc85c14f9daac268f70bbfa0073bfff98acaac"
+}

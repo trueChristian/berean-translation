@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "DT",
+          "role": null
+        }
+      ],
+      "raw": "~DT"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "b473ca57-aba0-475d-89d6-32a3a75f7ac3",
+    "images": [
+      {
+        "alt": "A pair of black binoculars with small photographic scenes visible in the lenses",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-1.png",
+        "repository_path": "public/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-1.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Original RGB PNG.",
+        "role": "binocular illustration at left of signed inset",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "A pair of black binoculars with people visible in both lenses",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-2.jpg",
+        "repository_path": "public/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-2.jpg",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Native source JPEG normalized to baseline RGB JPEG at 150 ppi. Distinct printed view, not a duplicate of page 18.",
+        "role": "binocular illustration at right of signed inset",
+        "sequence": 2,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "86676326-e0fe-523f-abd9-06fcd1a1db12",
+      "070854c3-dde7-5efd-a27d-30979196df0e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0b528b1e51dcbb360b159da5eb13cafd4df5d5ed4231205b2c2dd8e7bd0d9311",
+    "metadata_sha256": "6713f32b0304e13206e0563ede506d703ee51d330c36bc1319781a631f0a4ffb",
+    "structure_sha256": "8407ce0826dd03ac113777518d6ce06890ceb67dab533e71fa5391e1a89ae9ca",
+    "text_sha256": "c1bb485b458827f735fc77afb794d03fc3ca23b6579d1328108a0834140bc4ca",
+    "translation_metadata_sha256": "631d6f9f6a53665d5ed17b38b2fa9e64cfe079fe57bd80de21f2eb96a976eab5"
+  },
+  "html": "<article data-article-id=\"b473ca57-aba0-475d-89d6-32a3a75f7ac3\">\n  <figure><img src=\"/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-1.png\" alt=\"A pair of black binoculars with small photographic scenes visible in the lenses\"></figure>\n  <p>Have you ever looked through a pair of binoculars or a telescope backwards? When you do, the subject that you are trying to look at, instead of appearing closer, actually appears far away. The Evangelical way of reading the New Testament can be a bit that way.</p>\n  <p>In modern Evangelical theology, the teachings of Christ have taken a remarkably minor perspective—they are seen as if they are “far away,” like looking at them through a binoculars backwards. Evangelicals talk about Christ, but actually becoming a “follower of Christ”—actually doing what He taught—seems almost irrelevant.</p>\n  <p>Both Anabaptists and Evangelicals believe that every word of Paul and Christ are the inspired words of God. The question is this: do we read Paul as leading us to Christ, or do we read Christ as leading us to Paul. Jesus told us that when the Holy Spirit would come, “he shall testify of me.” Jesus also said that “Every one that is of the truth heareth my voice.”</p>\n  <figure><img src=\"/images/articles/b473ca57-aba0-475d-89d6-32a3a75f7ac3-2.jpg\" alt=\"A pair of black binoculars with people visible in both lenses\"></figure>\n  <p>I’ll give you a quick test to discover which way your binoculars are pointing when you look at Jesus. Go read the teachings of Jesus, and pretend for a minute that He actually meant them. If after you read them you find that they seem a bit imaginary, irrelevant, unnecessary, or even legalistic … turn your binoculars around, and by grace through faith allow the way of Jesus to change your life! ~DT</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0954a3b18b65c0e755033549ac5f63d8fe826a1092bb8ca1c827c86de618feb9"
+}

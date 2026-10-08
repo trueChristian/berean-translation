@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mary Troyer",
+          "role": null
+        }
+      ],
+      "raw": "by\nMary Troyer"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7c8596ad-0884-4b79-ba1f-307dccd6d941",
+    "images": [
+      {
+        "alt": "A woman wearing a scarf over her head.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7c8596ad-0884-4b79-ba1f-307dccd6d941-1.jpg",
+        "repository_path": "public/images/articles/7c8596ad-0884-4b79-ba1f-307dccd6d941-1.jpg",
+        "rights_note": "Clean base PDF image object 80 exported with the published rectangular clip mapped to nearest native pixel bounds [0, 1, 172, 216]; no rotation or flip. Separate poem typography and decorative page frame omitted. JPEG container normalized to baseline sRGB with nonzero 72 dpi density; no CMYK conversion or sample inversion was needed. No individual image credit or license is printed; the masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "1b71c997-6dfc-4be4-a75f-e14cb1034695",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "GOD Give Us Women",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b7dcd436f95e2280955d466258fbf01e3f6c9ff7aaae4b79fda3570f5a662a04",
+    "metadata_sha256": "dbface12bb5f8cf82d6f247d558c734e3fe264a24dfa98cc8a10e2875c421ec7",
+    "structure_sha256": "57fcf3ec8c71eb735bf1af6a53c6096a295bd7301af36fdf4ecf3e5df2db36d9",
+    "text_sha256": "0fa61436c1cf79f4ca0333233128621b726f3b963e847845c8b9e3124bf89a97",
+    "translation_metadata_sha256": "a58a100b5062827c57fc8a9f36c34f58e64b95b628a8683f750e7a127b844557"
+  },
+  "html": "<article data-article-id=\"7c8596ad-0884-4b79-ba1f-307dccd6d941\">\n  <figure><img src=\"/images/articles/7c8596ad-0884-4b79-ba1f-307dccd6d941-1.jpg\" alt=\"A woman wearing a scarf over her head.\"></figure>\n  <p class=\"poem\">God give us women who know what it means<br>\n  To pray and work behind the scenes,<br>\n  Who know their God in such a way,<br>\n  Who will cling to Him, let come what may.</p>\n  <p class=\"poem\">God give us women with hearts aflame,<br>\n  Who will raise their children to be the same.<br>\n  Who look to the ways of their household well,<br>\n  Yet yearn for those who are headed for hell.</p>\n  <p class=\"poem\">God give us women who will fast and pray,<br>\n  For her husband and children night and day.<br>\n  Whose heart is submissive in everything,<br>\n  Who honors her husband, for he is her king!</p>\n  <p class=\"poem\">God give us women who will stand the test,<br>\n  Who in big or small things, will do their best.<br>\n  Who know that all they say or do,<br>\n  They do as they would do to You.</p>\n  <p class=\"poem\">God give us women who are full of grace,<br>\n  With hearts serene as they run the race.<br>\n  Whose desire is not for a life of ease,<br>\n  Who long the most their Master to please.</p>\n  <p class=\"poem\">God give us women who find great delight,<br>\n  In the lot that God gave them in life.<br>\n  Who embrace with joy the little things,<br>\n  Who fulfill their duty with a heart that sings.</p>\n  <p class=\"poem\">God give us women with a vision clear,<br>\n  Who live in reverence and Godly fear.<br>\n  Who abide in Christ all through the day,<br>\n  And seek to please Him in every way.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f8ea5609304241407fa1e3de992e5f1381938e2299bffa7fda0e8ef5b437dc86"
+}

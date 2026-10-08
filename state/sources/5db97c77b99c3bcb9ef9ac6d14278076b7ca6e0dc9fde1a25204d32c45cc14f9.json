@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Matthew Kauffman"
+        }
+      ],
+      "raw": "Poem by Matthew Kauffman"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "bddf62b1-cf16-40ec-b5e9-6bd42a5127b7",
+    "images": [
+      {
+        "alt": "A cow beside stones and wood beneath three columns of printed verse",
+        "caption": null,
+        "credit": "Picture by Dorothy Calhoun",
+        "public_path": "/images/articles/bddf62b1-cf16-40ec-b5e9-6bd42a5127b7-1.jpg",
+        "repository_path": "public/images/articles/bddf62b1-cf16-40ec-b5e9-6bd42a5127b7-1.jpg",
+        "rights_note": "Source embedded RGB/sRGB image xref 201 was fully decoded and encoded as a standards-normalized baseline RGB/sRGB JPEG with nonzero JFIF density because its original container lacked JFIF density. The published pixels, dimensions, crop and orientation were retained. Mailing masthead, address and postage markings are separate PDF furniture absent from this image. All three poem columns, attribution and handwritten “...Ready for either or both!” are inseparably baked into the only colour raster; the full source image is retained rather than synthesizing pixels. This credit is a creator credit, with no separate permission wording.",
+        "role": "poem illustration",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "...Ready for either or both!",
+    "topics": [
+      "8feb4eca-5b0b-512b-8ef0-a76783fdb626",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "cf418d3ef43ec9ecffe64ca0397a36da483b156735039d03494d9e33d0a3f615",
+    "metadata_sha256": "ba675d3e7b0e1ee33600c68a92e1c6418fefc000574e086944ced3141fe959c8",
+    "structure_sha256": "291944b60610a031a0ac89253e7b00b6f0e2f631b4ceacf806d4eabcea6f82f4",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "translation_metadata_sha256": "f58708a612b19af89a7c8a65c5ff3148e72456a3ecdcce40b133e126acd89b35"
+  },
+  "html": "<article data-article-id=\"bddf62b1-cf16-40ec-b5e9-6bd42a5127b7\">\n  <figure>\n    <img src=\"/images/articles/bddf62b1-cf16-40ec-b5e9-6bd42a5127b7-1.jpg\" alt=\"A cow beside stones and wood beneath three columns of printed verse\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "09692115a45b36eac6b193131f40adb4b5e529e5bf4cd5b79788549b2788ca85"
+}

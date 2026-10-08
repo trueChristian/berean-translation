@@ -1,0 +1,172 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dornstrife, Pennsylvania",
+          "name": "Rick Hess"
+        }
+      ],
+      "raw": "Rick Hess\nDornstrife, Pennsylvania"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "fe2b9ab5-d770-4400-9bdc-6708d0cc1d01",
+    "images": [
+      {
+        "alt": "Portrait of Hans Martin Boehm.",
+        "caption": "Hans Martin Boehm [1725-1812], Mennonite elder and bishop; son of Jacob Boehm and Barbara Kendig Boehm, who were Mennonites in the Conestoga Valley, Lancaster County, Pennsylvania.",
+        "credit": null,
+        "public_path": "/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-1.jpg",
+        "repository_path": "public/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-1.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 35 exists on PDF page 7, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [144, 1342, 664, 1828] (left, top, right, bottom) without resizing, rotation or pixel repair. The portrait is cropped without its caption or surrounding prose; faint reverse-page scan show-through is intrinsic to the only raster. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            144,
+            1342,
+            664,
+            1828
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            520,
+            486
+          ],
+          "rotation_degrees": 0,
+          "source_object": 35
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Portrait of Phillip William Otterbein.",
+        "caption": "Phillip William Otterbein [1726-1813] was born in Dillenburg, Germany. He was sent to America as a missionary to the German-speaking people by the German Reformed Church. He was a large-framed man, well refined and highly educated, quite different from Martin. He was also known as an effective speaker.",
+        "credit": null,
+        "public_path": "/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-2.jpg",
+        "repository_path": "public/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-2.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 39 exists on PDF page 8, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [214, 77, 775, 580] (left, top, right, bottom) without resizing, rotation or pixel repair. The portrait is cropped without its caption or surrounding prose; scanned paper is retained. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "portrait",
+        "sequence": 2,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            214,
+            77,
+            775,
+            580
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            561,
+            503
+          ],
+          "rotation_degrees": 0,
+          "source_object": 39
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of William Otterbein and Martin Boehm with a barn behind them.",
+        "caption": "May 10, 1767, The “Gros Versamling” or Great Meeting at Isaac Long’s Barn, Manheim Township, near Neffsville, Lancaster County, Pennsylvania.",
+        "credit": null,
+        "public_path": "/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-3.jpg",
+        "repository_path": "public/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-3.jpg",
+        "rights_note": "No separate image creator credit or reuse restriction is printed. Only full-page scanned RGB object 39 exists on PDF page 8, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [138, 1441, 840, 1828] (left, top, right, bottom) without resizing, rotation or pixel repair. This single published composite preserves both painted portraits, the barn background, and the intrinsic name labels William Otterbein and Martin Boehm. Its separate caption is omitted from the crop. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "historical illustration",
+        "sequence": 3,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            138,
+            1441,
+            840,
+            1828
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            702,
+            387
+          ],
+          "rotation_degrees": 0,
+          "source_object": 39
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Evaluating the Fruit of Revival",
+    "topics": [
+      "3071fe03-5111-5c92-b54a-c774d84dfac2",
+      "1adc5bef-6efc-5d8b-821f-01a4bf96ffea"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "39e1efbc368121da080380047f32f7919ab8e05deef626a5c7af463ef9e80cf9",
+    "metadata_sha256": "b1a55033c0aeb2f3d62d63017ffad33ee087a6f0b12ee57bddf3c41480352a28",
+    "structure_sha256": "943c743c6698a68790addc433681bf17c6d8f1cac58f5e602bdc3909a07d20ea",
+    "text_sha256": "b9cddcc24d3c076f2240053539992e17d3911a457e4e86f51cd9d1956dbd5741",
+    "translation_metadata_sha256": "2bee682c4390fab3086d33fbea5b7d63590f1c9040d4aaa02b5cec290bd847ac"
+  },
+  "html": "<article data-article-id=\"fe2b9ab5-d770-4400-9bdc-6708d0cc1d01\">\n  <p>The early 1700s saw a large influx of German-speaking refugee pioneers coming to southern Pennsylvania. Mennonites (from Holland &amp; Germany), Swiss Brethren (eventually known as Mennonites), were followed by German Baptist Brethren, Amish, Lutherans, and Reformed, and lastly the Roman Catholics.</p>\n  <p>Living on the frontier was exhausting, trying to do everything necessary for the family’s survival. Sometimes spiritual pursuits took a back seat. Although many pioneers arrived, few ordained church leaders came with them, so there was a dearth of sound pastoral care and solid doctrinal teaching. As a result, morals declined considerably in some areas. This same thing was happening in many English colonies along the East Coast. In addition, the demoralizing effects of the French and Indian War—with its massacres, assaults, and pillaging from both sides—made the conditions worse, creating a ripe environment for a spiritual awakening.</p>\n  <p>Small-framed and slight of build, Martin was known as a quiet, reserved young man of good moral standing.</p>\n  <figure>\n    <img src=\"/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-1.jpg\" alt=\"Portrait of Hans Martin Boehm.\">\n    <figcaption><em>Hans Martin Boehm [1725-1812], Mennonite elder and bishop; son of Jacob Boehm and Barbara Kendig Boehm, who were Mennonites in the Conestoga Valley, Lancaster County, Pennsylvania.</em></figcaption>\n  </figure>\n  <p>In 1753, he married Eve Steiner. Three years later, he was chosen by lot to serve as an elder in the Pequea Mennonite Church. It was in 1759 that, with a heavy burden concerning his unworthiness to fulfill the role of an elder and his seeming lack of anything to share when he was called upon to preach, he cried out to God from behind the plow and horses in his field. God met him there, pardoned his sins, and gave him the assurance of his salvation. From that time, Martin was noted as a man with something to say! It indeed seemed as though this young man had an experience with the Lord Jesus. That this simple country farmer preacher had a genuine effect on many of his listeners cannot be denied. (Martin’s life overlapped the life of Conrad Beissel of the Ephrata Cloister, not far from his own area)</p>\n  <p>In 1755, Otterbein experienced “a more perfect consciousness of salvation in Christ” (likely his genuine conversion). As someone who had been infant baptized, confirmed, and highly-educated in the faith, he now found the reality of life in Christ. Twelve years later, he happened to meet Martin Boehm at a religious meeting in a barn in Lancaster County. Otterbein was serving a congregation in York, PA, about the time he visited Lancaster County, just across the river.</p>\n  <p>Down in the southern colonies, what is sometimes called the Wesleyan Revival or the Second Great Awakening started with powerful open-air preaching, public responses, and sometimes powerful emotionalism. Loud weeping, shrieking, shouting with joy, or even falling to the ground were not uncommon. As these meetings moved north to Pennsylvania, they switched to German. There was a deep spiritual hunger as people from many religious backgrounds met in barns to seek God together. Little organization, forethought, or planning was laid out for these meetings; they just sort of happened. Whatever preacher showed up, who hadn’t spoken yet, may be asked to preach. If no preachers showed up, someone in the crowd might stand and read Scripture and give an invitation. Some of these meetings continued for many weeks or months.</p>\n  <figure>\n    <img src=\"/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-2.jpg\" alt=\"Portrait of Phillip William Otterbein.\">\n    <figcaption><em>Phillip William Otterbein [1726-1813] was born in Dillenburg, Germany. He was sent to America as a missionary to the German-speaking people by the German Reformed Church. He was a large-framed man, well refined and highly educated, quite different from Martin. He was also known as an effective speaker.</em></figcaption>\n  </figure>\n  <p>After hearing Martin Boehm’s sermon on the need for deep repentance and experiencing salvation through faith in the Lord Jesus Christ, Otterbein approached the Mennonite preacher, embraced him, and said, “Wir sind Brüder” (We are brothers). From that time on, the two men shared a close, warm working relationship.</p>\n  <p>By 1776, the New World was again in turmoil as some colonial Americans were inciting open rebellion against the King of England. Most German-speaking citizens were reluctant to enter into this type of conflict, since they had pledged their allegiance to the King to be accepted into the English colony. Their word and honor were at stake, and for the Anabaptists, even more so were the commands of Christ concerning “love your enemies and do good to them that despitefully use you”! Some German Protestants were eventually persuaded to help with the revolt.</p>\n  <figure>\n    <img src=\"/images/articles/fe2b9ab5-d770-4400-9bdc-6708d0cc1d01-3.jpg\" alt=\"Illustration of William Otterbein and Martin Boehm with a barn behind them.\">\n    <figcaption><em>May 10, 1767, The “Gros Versamling” or Great Meeting at Isaac Long’s Barn, Manheim Township, near Neffsville, Lancaster County, Pennsylvania.</em></figcaption>\n  </figure>\n  <p>Martin and Phillip continued to minister in their respective denominations, Otterbein in the Reformed and Boehm in the Mennonite Church. Sometime around 1777, Martin was confronted by fellow ministering brethren with concerns about his lack of making clear lines on certain key doctrines of the Anabaptist Christian faith and the meetings he was participating in. Some of these concerns centered around the two-kingdom principles: separation of church and state, communion, non-resistance, and infant baptism, as well as an overemphasis on personal experience and an underemphasis on the community of believers, etc. After being confronted a second time about the issue and being unwilling to change his direction, he was disfellowshipped by his church. They were especially concerned about the strong Protestant influence accompanying this “barn meeting” movement.</p>\n  <p>Around the same time, Phillip Otterbein was also censured by his own denomination, the German Reformed Church, over similar concerns about the influence of the Anabaptists on their churches. (Both the State Reformed Church of Switzerland and John Calvin’s movement had declared Anabaptists as heretics and had persecuted them unto torture, imprisonment, banishment, and public executions since the early 1500s).</p>\n  <p>Although Boehm and Otterbein hadn’t planned or wanted to create a new church, but rather to simply give spiritual inspiration and invoke revival in all the existing churches. Without a plan, they didn’t immediately organize their own church. Eventually, they established the first new denomination in US history: the United Brethren in Christ Church, around 1800*, and served as its first two bishops. Boehm and Otterbein went to their eternal reward in 1812 and 1813, respectively.</p>\n  <p>This first-generation group was dynamic in faith and powerful in preaching, led by men divinely called and Spirit-led (most of these were bi-vocational farmers or businessmen). The church was plain in appearance, yet not uniform in clothing. They were, in principle, non-resistant, baptizing only adults who would stand to testify of being redeemed through the blood of Christ. They worshipped heartily, singing A cappella German songs and choruses with great gusto and emotion. Some of their members had overwhelming experiences of joy. They were bold witnesses for Christ and often became the conscience of their communities; some loved them, some hated them, but all knew of them. Loud hallelujahs, praise the Lord, and amens were so common in their worship that they earned the nickname: “Shouting UBs”. This new church grew exponentially across most of Pennsylvania and nearby states, but was mostly made up of the members of other denominations, especially Protestant churches. In some areas, entire congregations from other denominations joined the movement.</p>\n  <p>Their church government was patterned much after the U.S. democratic system, and they held annual conferences of the locally elected church board members. A bishop or presiding elder led the conference using parliamentary procedures, but the conference itself was the ruling body of the new church. Preachers “filled the pulpit” but were itinerant, moving from congregation to congregation by conference. It was quite normal for one minister to serve several churches in those days. The ministers participated in the conference, but were not viewed as authorities in the church; the conference had the final say by majority rule.</p>\n  <p>In 1860, less than 50 years after these two men passed from the scene, on the verge of the U.S. Civil War, the church had drifted considerably from where they had begun. Questions were brought to the conference about allowing infant baptism if desired. Other issues included the voluntary bearing of arms in the imminent civil war and the concerns of members who were part of oath-bound secret societies, such as the Masons. A desire to start a college of higher learning (Lebanon Valley College) to train young men to become preachers was, for some, the final straw, with some calling it a “Preacher Factory”.</p>\n  <p>These questions and strong polarity divided the large church into multiple factions. Bishop George Hoffman resigned, and most of Lebanon County UBs followed him. His followers were called “Hoffmanites,” and they were remarkably similar to the UBs back when they first began. Hoffman, like Boehm and Otterbein, wasn’t trying to create another denomination, so he hesitated to organize, causing many followers to turn back to the mother church. He eventually saw his error and started the “United Christian Church”. The author of this article served as a minister in this denomination from 1987 to 1996. Many smaller groups, like the United Brethren-Old Constitution and the United Church of Canada, trace their roots back to this same time and background.</p>\n  <p>Unfortunately, as many dedicated, spiritual churchmen left this denomination, it pushed the remaining church toward liberal tendencies as the nation entered the Victorian or “Gilded Age” of prosperity.</p>\n  <p>By the early 1900s, the main body of the UBs had merged with the Evangelicals, who were renamed the Evangelical United Brethren or EUB. I don’t know whether it was then or earlier, but the 1908 polity book included a section on how to ordain women preachers. Infant baptism was fully embraced. All semblance of non-resistance, separation of church and state, and other founding practices were gone. Two world wars and the Korean War saw many of their members in full voluntary participation. Immodesty became a real problem without a real solution, as society kept raising its hem while lowering its norms and standards. Unfortunately, so did the church. They had to, due to the power of the votes.</p>\n  <p>In 1968, the EUB merged with the Methodist church, forming the United Methodist Church. Eventually, even fornication was overlooked among the young people. It was shocking to the older generation, but divorce and remarriage also became accepted among members, as well. In 2025, the United Methodist Church in the United States split from the worldwide conference to allow it to accept same sex marriages into membership.</p>\n  <p>There is no doubt that the original revival positively affected some of Martin’s generation. But just like a rifle that fires only 1/16” off sight will miss the target by a great distance at 500 yards, we need to carefully consider where our decisions are heading for the sake of our children, grandchildren, and future generations.</p>\n  <p>What would Boehm and Otterbein say today, if they were still living or could come back to evaluate the fruit of their revival efforts?</p>\n  <ol>\n    <li>Would Boehm and Otterbein be welcomed to teach and preach in their own churches? Not likely!</li>\n    <li>Would Martin have some regrets for not hearing the genuine concerns of his Mennonite brethren?</li>\n    <li>Would he rethink the need for leadership authority in the church?</li>\n    <li>Would he still feel that inspiration is more important than sound doctrine?</li>\n    <li>Would he realize that sound doctrine can be very inspirational? Shame on us if we make it less than that.</li>\n    <li>Without asking “would he”, I am certain that a man who loved the Lord as Martin obviously did would be grieved to see how this all turned out.</li>\n  </ol>\n  <p>I am sure that each of us, especially myself, when looking back at our life’s work 225 years from now, would have some regrets about the decisions we made and the direction we took. What can we learn from this?</p>\n  <ol>\n    <li>Every generation needs an inward awakening, but is there a difference between being “spirited” and “spiritual”? Should I confuse the emotions of my soul with the moving of God’s Spirit in my spirit?</li>\n    <li>How much do I influence my own generation?</li>\n    <li>What am I doing for the future generations?</li>\n    <li>What can I do today so that when I stand before my King, I will have no regrets?</li>\n    <li>“Thy Kingdom come, Oh Lord, thy will be done.”</li>\n  </ol>\n  <p><em>*Not long after this, several other groups formed in the same general areas of Pennsylvania, like River Brethren and Albright’s Evangelical Congregationals, etc</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "bf1e863c9916d118f05d921793377f6864b851b1a8f6721c69e89085f034707d"
+}

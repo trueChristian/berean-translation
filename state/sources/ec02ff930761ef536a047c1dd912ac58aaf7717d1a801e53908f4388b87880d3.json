@@ -1,0 +1,149 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        },
+        {
+          "name": "Edith Detweiler"
+        },
+        {
+          "name": "Emma Ruth Martin"
+        },
+        {
+          "name": "Miriam Nolt"
+        },
+        {
+          "name": "Amy Smoker"
+        },
+        {
+          "name": "Lucy Shirk"
+        },
+        {
+          "name": "Christine Lamicela"
+        },
+        {
+          "name": "Romaine Hollinger"
+        },
+        {
+          "name": "Janet Wenger"
+        },
+        {
+          "name": "Anna Zimmerman"
+        },
+        {
+          "name": "Laura Lloyd"
+        },
+        {
+          "name": "Lee Ann Zablosky"
+        },
+        {
+          "name": "Margaret Brown"
+        },
+        {
+          "name": "Shirley Lictenberger"
+        },
+        {
+          "name": "Rachel Beiler"
+        },
+        {
+          "name": "Mary Rose Barker"
+        },
+        {
+          "name": "Lora Owens"
+        },
+        {
+          "name": "Judy Rennie"
+        },
+        {
+          "name": "Etta Martin"
+        },
+        {
+          "name": "Sylvia Hurst"
+        },
+        {
+          "name": "Louella Leinbach"
+        },
+        {
+          "name": "Jane Nolt"
+        },
+        {
+          "name": "Janet Grover"
+        }
+      ],
+      "raw": "-Bro. Denny\nEdith Detweiler\nEmma Ruth Martin\nMiriam Nolt\nAmy Smoker\nLucy Shirk\nChristine Lamicela\nRomaine Hollinger\nJanet Wenger\nAnna Zimmerman\nLaura Lloyd\nLee Ann Zablosky\nMargaret Brown\nShirley Lictenberger\nRachel Beiler\nMary Rose Barker\nLora Owens\nJudy Rennie\nEtta Martin\nSylvia Hurst\nLouella Leinbach\nJane Nolt\nJanet Grover"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "a5232cdc-2e95-42b0-85f1-b2bfd9ad160c",
+    "images": [
+      {
+        "alt": "Women gathered for a group photograph.",
+        "caption": "Some of the sisters that shared in the sister’s meeting",
+        "credit": null,
+        "height": 213,
+        "public_path": "/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-1.png",
+        "repository_path": "public/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-1.png",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Isolated PDF image object 51 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior.",
+        "role": "group photograph",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": "Isolated PDF image object 51 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 312
+      },
+      {
+        "alt": "Three women gleaning in a harvested field.",
+        "caption": null,
+        "credit": null,
+        "height": 141,
+        "public_path": "/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-2.png",
+        "repository_path": "public/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-2.png",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Lossless decoded-pixel crop [4, 4, 229, 145] from embedded object 67; only baked flat outer frame removed. The uncredited painting is retained without inferring an artist or licence.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 17,
+        "transformation": "Lossless decoded-pixel crop [4, 4, 229, 145] from embedded object 67; only baked flat outer frame removed.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 225
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "The Sisters Holy Desires",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "70f221c2fe4471f88998c4c52adc9261208061234ed9d23a916ff78295062524",
+    "metadata_sha256": "d45906dd4dff2cc2a6d43ae31e77d300c8cc80281b7966aa3de1fde2b642cb13",
+    "structure_sha256": "f38387a2c6fe7be22437bc36f7597fbda81ae62e681c15068d4e3518721597e6",
+    "text_sha256": "ea5a48ebff0fda1ce9d57b5970c4a5629ec49ef8b1f42c4578d5e07420a738fe",
+    "translation_metadata_sha256": "c2d7d5f65cc4c881440011b41ce474718fa4fe2498e8feccfaeb507b31ebbccf"
+  },
+  "html": "<article data-article-id=\"a5232cdc-2e95-42b0-85f1-b2bfd9ad160c\">\n  <figure>\n    <img src=\"/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-1.png\" alt=\"Women gathered for a group photograph.\">\n    <figcaption><strong>Some of the sisters that shared in the sister’s meeting</strong></figcaption>\n  </figure>\n  <p><em>Beloved sisters in the Lord. We have heard your pleas in the little questionnaire that you filled out and sent in. So many of you have requested more input for the sisters. This article is in response to that plea. A few months ago we had a sisters meeting at the church. We do this quarterly. The sisters get together to encourage one another and to receive instruction. This article was gleaned from one of those meetings. Twenty-two of our sisters were each given a portion of Proverbs 31 to study and then to share what they had gleaned with everyone else. I happened to notice a set of notes that Janice Hurst had put together from the meeting, and I felt like it would be a challenge to all of you. These sisters have not arrived. Most of them shudder at the thought of putting their thoughts in</em> The Remnant. <em>We have entitled the article accordingly—</em>The Sisters Holy Desires.</p>\n  <p>-Bro. Denny</p>\n  <h2>Proverbs 31</h2>\n  <h3><em>v. 10</em></h3>\n  <p><em>Who can find a virtuous woman? for her price is far above rubies.</em></p>\n  <p><em>Edith Detweiler</em></p>\n  <p>What is virtue? Virtue is the divinely inwrought strength of spiritual and moral character from which godly qualities and actions blossom.</p>\n  <p>Virtue is spiritual and practical devotion to God, which permeates every area and relationship of our lives.</p>\n  <p>Virtue is the depth of character, which gives us stability and steadfastness in our everyday walk.</p>\n  <p>As we gaze into these definitions of virtue through a womans eyes, we get a beautiful picture of a godly woman whose life is steadfast in God. We know that Jesus is the only source of true virtue. Im sure we all feel our sense of need as we begin this meditation on the beauty of a woman of God. How do we get there, you might ask? In Mark 5:25-34, we have an example of a woman who came to Jesus and received virtue. She had come to the end of all her efforts.</p>\n  <p>We may have read good articles or good books. We may have heard wonderful sermons, heard good counsel from faithful sisters, or changed our environment. But none of these can take the place of coming to Jesus and touching the hem of His garment in faith and brokenness. When we touch Him thus, He will release His glorious Virtue into our lives.</p>\n  <p>How highly do we prize virtue? We will have what we truly value. We may not be as virtuous as we wish we were, but we will be just as virtuous as we truly desire. The virtuous woman can handle trials with grace, courage, faith, and meekness. Virtue will keep you from falling apart when your life falls apart.</p>\n  <h3><em>v. 11</em></h3>\n  <p><em>The heart of her husband doth safely trust in her, so he shall have no need of spoil.</em></p>\n  <p><em>Emma Ruth Martin</em></p>\n  <p>How does this trust develop in a husband/wife relationship? Proverbs 12:4 says, A virtuous woman is a crown to her husband, but she that maketh ashamed is as rottenness in his bones. Since you are a crown for your husband, honor him as king of your home. He will rise to kingly heights in his manhood as you honor him thus. Great is the hidden secret buried in these kinds of attitudes.</p>\n  <p>His crown should be decorated with <strong>diamonds</strong> of devotion, dedication, dignity and diligence that delight his soul.</p>\n  <p>How about <strong>sapphires</strong> that will shine and sparkle with the beautiful gems of a serving spirit? The gem of our sacrificial and submissive spirit will make his life shine.</p>\n  <p>Lets add some <strong>pearls—</strong>pearls of patience, peace, perseverance, and prayers for our husbands.</p>\n  <p><strong>Rubies</strong> are the rarest of all gems. This crown should be radiating with the rubies of reverence and respect for your husband.</p>\n  <p>The crown should be ornamented with <strong>opals</strong> of openness, obedience, overflowing love, and the oil of joy.</p>\n  <p>Now we need <strong>emeralds</strong> that emanate esteem, earnest commitment, and encouragement.</p>\n  <p>Adorn your crown with <strong>amethysts</strong> of admiration, affection, affirmation and attentiveness.</p>\n  <p>And we cant forget the crowning jewel of all contentment! This jewel adds luster to your crown. It releases your husband from bondage and pressure.</p>\n  <p>She that maketh ashamed is as rottenness in his bones, but a virtuous woman is a crown to her husband; his heart will safely trust in her, so that he shall have no need of spoil and their union will be blessed!</p>\n  <h3><em>v. 12</em></h3>\n  <p><em>She will do him good and not evil all the days of her life.</em></p>\n  <p><em>Miriam Nolt</em></p>\n  <p>She will do him good by not discussing his weaknesses with her friends. She will do him good by encouraging him, instead of belittling him.</p>\n  <p>She will cheerfully fill in for him when he is gone, instead of complaining to the children. She will do him good by blessing his going with a smile not a frown.</p>\n  <p>She will stand in the gap when he is overwhelmed.</p>\n  <p>This verse speaks deeply to us women about the motives of our hearts. There are many more ways to do him good that could be listed. But the heart of the matter is in our hearts. If we are motivated to do him good, the rest will take care of itself. The list could be endless. May God purify the motive of our hearts.</p>\n  <h3><em>v. 13</em></h3>\n  <p><em>She seeketh wool, and flax, and worketh willingly with her hands.</em></p>\n  <p><em>Amy Smoker</em></p>\n  <p>This verse begins the practical works of the virtuous woman, works arising from a virtuous heart, one who fears the Lord. She works willingly with her hands, which tells us that her work is done from the heart and with delight.</p>\n  <p>1 Peter 5:2 explains how elders are to feed the flock of God with eagerness, willingly, of a ready mind, being an example to the flock.</p>\n  <p><em>Application:</em> Our children are our flock. Are we examples of working willingly to them?</p>\n  <p>1 Cor. 9:17 Paul had the responsibility of preaching the gospel. If I do it willingly, I have a reward.</p>\n  <p><em>Application:</em> We have a choice of how we will do our tasks in the home: grudgingly, of necessity, it has to be done or willingly, with delight. The reward (blessings), that comes to those who do it willingly are two-fold. Some come now, some come in eternity. I think of the powerful influence of a mothers joyful labors. The children will catch the spirit of it, and her husband will prosper in it. <em>Col. 3:22-24 And whatsoever ye do, do it heartily, as to the Lord, and not unto men.</em> He will reward us.</p>\n  <h3><em>v. 14</em></h3>\n  <p><em>She is like the merchants ships; she bringeth her food from afar.</em></p>\n  <p><em>Lucy Shirk</em></p>\n  <p>When this chapter was written, the women of the Bible had to travel afar to get food, so she probably got good things because she traveled so far. We can show our families love by spending time in preparing a good meal for them, and also by taking the time to study nutrition and what our body needs to be healthy. In this day of fast foods and quick hamburgers, there is a temptation to slight this matter of feeding our families and just throw something together out of drudgery. We should not yield to the spirit of this feminist age we live in.</p>\n  <p>Another idea I had was shopping to save our husbands money. A penny saved is a penny earned. Although we have chosen to be keepers at home, we can still help the family budget by watching for the bargains.</p>\n  <h3><em>v. 15</em></h3>\n  <p><em>She riseth also while it is yet night, and giveth meat to her household, and a portion to her maidens.</em></p>\n  <p><em>Christine Lamicela</em></p>\n  <p>This verse speaks to my heart because of my physical condition just now. I dont rise up while it is still night, but I want to. However my husband assured me that I am not lazy; our family has never gone without food, and they are well taken care of.</p>\n  <p>The word night in this verse actually has the meaning of during hard times. How many times we mothers with little ones or sick ones get up during the night to care for them, but then also arise and take care of the household duties during the day. I see the qualities of sacrifice and diligence in these verses. Motherhood is filled with challenges like this, and we mothers are built up and purified as we give ourselves to them.</p>\n  <h3><em>v. 16</em></h3>\n  <p><em>She considereth a field, and buyeth it; with the fruit of her hands she planteth a vineyard.</em></p>\n  <p><em>Romaine Hollinger</em></p>\n  <p>In this verse it seems like the woman is a manager, realtor, and farmer. There are many things that can be done at home that dont distract from our primary goals. These activities are often a means of training character in the children as well. But what stands out to me is the word considereth. She doesnt just buy, but considers first. I need to consider what I am buying. When I find a bargain of nice shirts at a garage sale that would fit our son, I need to consider how many he actually needs, before buying all or any of the shirts.</p>\n  <p>We also need to take into consideration our husbands desires in providing for the familys needs. Can he trust my judgment?</p>\n  <p>With the fruit of her hands—What can we do with our hands to bless our husbands? We can grow many vegetables in our gardens. This teaches our children how to work and also blesses our husbands in saving on grocery money. May God give us creative hands that labor in good things that are fruitful</p>\n  <h3><em>v. 17</em></h3>\n  <p><em>She girdeth her loins with strength, and strengtheneth her arms.</em></p>\n  <p><em>Janet Wenger</em></p>\n  <p>I see here that a virtuous woman is an energetic, hard worker. She does not waste time in trivial activities that do not benefit anyone. Instead she applies herself to do what she can! This is a very different picture than the one we see in the world today. God is honoring the woman that is strong because of hard and diligent work. We should not be so feminine that we wont work hard or get our hands dirty.</p>\n  <h3><em>v. 18</em></h3>\n  <p><em>She perceiveth that her merchandise is good: her candle goeth not out by night.</em></p>\n  <p><em>Anna Zimmerman</em></p>\n  <p>She perceiveth that her merchandise is goodThe commentary that I read said she takes care to manufacture the best articles of the kind and to charge a reasonable price, that she may secure a ready sale.</p>\n  <p>How does this apply to us? I see here a woman who is full of industry, who does a good job, and has a good product to sell.</p>\n  <p>Her candle goeth not out by night—she is watchful and careful that her candle, or her lamp, burns all night, which is of great advantage in case of sudden alarms.</p>\n  <p>I believe she keeps her lamp filled with fuel. Being such a light sleeper and finding myself awake a lot, I think this is a good opportunity to have our lamps filled with fuel by praying. Pray for the needs around us, family, friends, neighbors, ourselves, and the list goes on and on. Let us not be slothful, but be on our guard every opportunity we have.</p>\n  <h3><em>v. 19</em></h3>\n  <p><em>She layeth her hands to the spindle, and her hands hold the distaff.</em></p>\n  <p><em>Laura Lloyd</em></p>\n  <p>This is a picture of a busy woman who has both her hands full. Her tools werent getting dusty. She was frugal and used what she had to provide for her household. Its an honor to work hard. How often we are carrying our baby in one arm and at the same time stirring supper, or helping a little one do a chore with the other hand. Again this is an industrious woman who does her jobs with proficiency.</p>\n  <h3><em>v. 20</em></h3>\n  <p><em>She stretcheth out her hand to the poor; yea, she reacheth forth her hands to the needy.</em></p>\n  <p><em>Lee Ann Zablosky</em></p>\n  <p>We reach out to others in two ways:</p>\n  <p>First, with a <u>closed hand</u> that reaches down and helps pull another up.</p>\n  <p>Secondly, with <u>open hands</u> that reach out to help those in want.</p>\n  <p>For example: freezing an extra meal, keeping a guest room prepared for unplanned visitors, mowing a widows or an elderly persons yard.</p>\n  <p>This verse is sandwiched between two verses focused at home. God put it there for a reason. Even though much of our time and energy is focused at home, we can use our energies there to reach out to others. It is true that a mother is a keeper at home, however, if she is watching, she can find many needy opportunities. These become a training ground to teach her children by example.</p>\n  <h3><em>v. 21</em></h3>\n  <p><em>She is not afraid of the snow for her household: for all her household are clothed with scarlet.</em></p>\n  <p><em>Margaret Brown</em></p>\n  <p>Its funny that I got this verse, as Im from California and it never snows there. Id like to look at this verse practically and spiritually.</p>\n  <p>First, in the practical sense, she has her household well prepared, so she is not afraid of the coming seasons. She was planning ahead and working ahead. She had to be filling up idle time with thoughts and labors way into the future.</p>\n  <p>Also, I’d like to compare this to us as the Bride of Christ; we know He is coming for us, so we prepare ourselves for that time. We have thoughts and labors way into the future.</p>\n  <h3><em>v. 22</em></h3>\n  <p><em>She maketh herself coverings of tapestry: her clothing is silk and purple.</em></p>\n  <p><em>Shirley Lictenberger</em></p>\n  <p>My thoughts go to what we clothe ourselves with. This virtuous woman put care and thought into what she wore. If something is modest, it is neat, clean, and harmonious. Her clothes are pleasant. Yet we know that there is a more important adornment than this. That is the hidden person of the heart.Lets make our homes beautiful with a beautiful spirit warm and comfortable, and be clothed with purity with lives that express our riches in Christ.</p>\n  <h3><em>v. 23</em></h3>\n  <p><em>Her husband is known in the gates, when he sitteth among the elders of the land.</em></p>\n  <p><em>Rachel Beiler</em></p>\n  <p>One of the most important uses of the gates of an ancient city was for holding court. The gates were also popular meeting places for the people.</p>\n  <p>I dont believe the husband was just sitting with the elders to waste time while she was doing her work. He was sitting there as one of the most respected citizens of the town, helping to create law and order. These kinds of things happen through the hidden woman principle. A wife can be an unnoticed influence to her husband through encouragements and uplifting words. We can pray for them in the many important decisions that lie on them. Proverbs suggests that you first give to your husband and then to others. This giving will come back to you full circle in the form of homes and communities full of security and love. Being a devoted wife is one of the foundation stones for balance and order in all areas of our life.</p>\n  <h3><em>v. 24</em></h3>\n  <p><em>She maketh fine linen, and selleth it; and delivereth girdles unto the merchants.</em></p>\n  <p><em>Mary Rose Barker</em></p>\n  <p>We all are in different seasons in our lives. I see this verse as a woman that is able to use resources in the home to supplement her husbands income. Many of us cannot do anything like this just now because we are busy with the little ones and with home schooling. One thing we need to be careful about is to only sew or bake for income as our husbands bless us. Another sister brought out that she home schools her children to aid in the expenses. We need to be looking for creative ways to remain a keeper at home and yet help supplement the household income.</p>\n  <h3><em>v. 25</em></h3>\n  <p><em>Strength and honor are her clothing: and she shall rejoice in time to come.</em></p>\n  <p><em>Lora Owens</em></p>\n  <p>This verse indicates that the woman wears strength and honor like we wear our clothing. These words are descriptive of her inner character. Inner character is worn and noticed like the garments we wear. A woman who is living in her home and community as this woman is described has a God-confidence about her. There is a dignity about her. She also is prepared for the days ahead. She shall rejoice in the time to come because she has risen up to the challenges in the preceding verses and done those things. The blessings that come through all this obedience will cause her to rejoice.</p>\n  <h3><em>v. 26</em></h3>\n  <p><em>She openeth her mouth with wisdom; and in her tongue is the law of kindness.</em></p>\n  <p><em>Judy Rennie</em></p>\n  <p>This verse is very self-explanatory, and I confess I fall short of the ideal at times. The word law in this passage means precept or statute. So its not just an option; it carries more weight than that. This verse reflects on some of the deeper aspects of a godly woman. She is spiritual. Yes she is practical, and can handle the many labors of motherhood, but she is also full of the graces of the Spirit of God.</p>\n  <h3><em>v. 27</em></h3>\n  <p><em>She looketh well to the ways of her household, and eateth not the bread of idleness.</em></p>\n  <p><em>Etta Martin</em></p>\n  <p>“Looketh” in this verse means: <em>to peer into the distance, to keep watch over our own family and anyone else God has placed into our household.</em> She is an overseer, a manager, a visionary, and a planner. However, it doesnt stop there. She eateth not the bread of idleness idleness means laziness. If she is going to carry out her dreams and plans, she will have to get busy and do something. Truly, a well ordered home will take away all idleness from our lives. This becomes a protection from idle words and gossip.</p>\n  <h3><em>v. 28</em></h3>\n  <p><em>Her children arise up, and call her blessed: her husband also, and he praiseth her.</em></p>\n  <p><em>Sylvia Hurst</em></p>\n  <p>Blessed in the amplified Bible says, fortunate, happy, to be envied. Call and blessed both refer to the same Hebrew word in the concordance. The phrase is used in Mal. 3:12, And all nations shall call you blessed. Leah also used the phrase in Gen. 30:13, “Happy am I, for the daughters call me blessed.” They looked on them as fortunate, to be envied.</p>\n  <p>The children and husband see her as one that is blessed. They notice her as one to be desired. She is happy.</p>\n  <p>Then the last part, he praiseth her, praiseth is the same word used for thanking God. It means: to make a show, to boast, to rave, to celebrate, to commend. This woman whom we have been looking at receives one of the highest, most prized rewards that a woman can receive. Her husband raves about her to others and also to her face.</p>\n  <h3><em>v. 29</em></h3>\n  <p><em>Many daughters have done virtuously, but thou excellest them all.</em></p>\n  <p><em>Louella Leinbach</em></p>\n  <p>Often when I have read this verse, I have wondered what it could mean. Who are these daughters? I think these daughters were daughters like Mary, Miriam, Ruth, Hannah, etc. In what way did she excel them all? She excelled them in her spiritual and practical devotion to God and her family. This kind of devotion reaches into every area of her life. In her life we see seven Christian virtues that are listed in 2 Peter 1:57: Virtue, Knowledge, Temperance, Patience, Godliness, Brotherly Kindness, Charity. All these things flow from a relationship with the Lord. The more time we spend with the Lord, the more we become like Him.</p>\n  <h3><em>v. 30</em></h3>\n  <p><em>Favor is deceitful, and beauty is vain; but a woman that feareth the Lord, she shall be praised.</em></p>\n  <p><em>Jane Nolt</em></p>\n  <p>In these verses the Lord impressed upon me two very different ways or choices:</p>\n  <p>1. Favor is deceitful and beauty is vain. The meaning of these words is as follows: outward and physical pleasure or attractiveness; to be bright or make oneself fair; to deck or adorn, to give pleasure to the senses. This is misleading, false, empty, and unsatisfactory, with no real value (worthless). This way appeals to our carnal, fleshly mind and will, but it is empty, of no value or worth.</p>\n  <p>2. But a woman that feareth the Lord she shall be praised. This is one who has a profound reverence and awe toward God. One who is prized, commended, and receives favorable judgment of the Lord. This way comes from the inner cleansing and purifying of the soul, which comes through the blood of Jesus and daily turning to the Lord. It means finding our fulfillment in Him and being the meek and quiet woman, which is of great price. Which way are we following? I want to encourage each of us to be simple in our clothing, but neat and orderly, so the inner beauty and joy of Jesus can be seen in us. God forbid that we adorn or deck ourselves in lace, bright colors, and gaudy prints that only draw attention to our outward appearance.</p>\n  <h3><em>v. 31</em></h3>\n  <p><em>Give her of the fruit of her hands; and let her own works praise her in the gates.</em></p>\n  <p><em>Janet Grover</em></p>\n  <p>Give her of the fruit of her handsHer reward is in being prepared, and in a job well done, the satisfaction from serving her family. The fruit of her hands is a godly seed and a blessed husband. It may be hard for some to see that the many things that a Christian woman does with her hands for her family, these influence her home. The word hands here means open hands, giving hands, serving hands.</p>\n  <p>Let her own works praise her in the gatesHer labor speaks for itself. She doesnt have to boast about it herself; but by fulfilling her Godgiven responsibilities, it brings her honor.</p>\n  <figure>\n    <img src=\"/images/articles/a5232cdc-2e95-42b0-85f1-b2bfd9ad160c-2.png\" alt=\"Three women gleaning in a harvested field.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "021154e68bad210f90b82af6c2e683c06ab443860b61f717ad491da3fbfe2e55"
+}

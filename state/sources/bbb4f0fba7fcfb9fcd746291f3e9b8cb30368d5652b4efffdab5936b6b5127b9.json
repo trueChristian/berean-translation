@@ -1,0 +1,272 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Peter Jansz of Twisk"
+        }
+      ],
+      "raw": "by Peter Jansz of Twisk (1624)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "2f6f678f-cac1-4164-a6ea-7f8616f2bf38",
+    "images": [
+      {
+        "alt": "Engraving of a man lying on a cross while several people surround him.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-1.jpg",
+        "repository_path": "public/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-1.jpg",
+        "rights_note": "Original embedded image object 96 on printed page 25. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 25,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            450,
+            350
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            450,
+            350
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            351
+          ],
+          "source_object": 96
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a man bound to an X-shaped cross, with people gathered around him.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-2.jpg",
+        "repository_path": "public/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-2.jpg",
+        "rights_note": "Original embedded image object 100 on printed page 26. No separate image credit or image-specific permission requirement is printed. The small intrinsic engraving inscriptions are retained without inferring a creator name or licence. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            450,
+            363
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            450,
+            363
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            363
+          ],
+          "source_object": 100
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a lamb carrying a banner.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-3.jpg",
+        "repository_path": "public/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-3.jpg",
+        "rights_note": "Original embedded image object 104 on printed page 27. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            231,
+            231
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            231,
+            231
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            231,
+            231
+          ],
+          "source_object": 104
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a man lying at the edge of water with a crowd standing nearby.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-4.jpg",
+        "repository_path": "public/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-4.jpg",
+        "rights_note": "Original embedded image object 108 on printed page 28. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1,
+            450,
+            351
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            450,
+            350
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            353
+          ],
+          "source_object": 108
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a shepherd carrying a lamb while a wolf approaches.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-5.jpg",
+        "repository_path": "public/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-5.jpg",
+        "rights_note": "Original embedded image object 112 on printed page 29. No separate image credit or image-specific permission requirement is printed. The gray field and engraving contour are intrinsic to the source raster, not the separate page panel. The separately painted gray panel and repeated pull quote are omitted. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article illustration",
+        "sequence": 5,
+        "source_page": 29,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            450,
+            450
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            450,
+            450
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            450
+          ],
+          "source_object": 112
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 25
+    },
+    "subtitle": "An early Anabaptist article on salvation through the blood of Christ",
+    "title": "WASHED in the BLOOD",
+    "topics": [
+      "6db2117c-b93c-5cd4-9883-77bea76742be",
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843",
+      "87d9ba46-bf4d-5d45-a7c6-ce37e88c60be",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "9ea02874-7a57-5114-8360-1268f7f792d1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e1dac3909fca6ef68724d39c7376da5d1cc429aa9612ee317bee63b3456d14cc",
+    "metadata_sha256": "9e8769ec70b7432d6fce3015fc67bc8ad46b8d39b9f55797efefaa340384e92c",
+    "structure_sha256": "563219e75a28ec422adc3f7603cb2c1a418c170dfb27a2a2638e018f6c705f87",
+    "text_sha256": "1da8b740082f10263941ad54d61b1e9a922341760be21d25ec2b3f3a07c5959a",
+    "translation_metadata_sha256": "ab46518657e7138e8e14eccee17eaecf1458a143a8815f4071417384bc351cc3"
+  },
+  "html": "<article data-article-id=\"2f6f678f-cac1-4164-a6ea-7f8616f2bf38\">\n  <p>Jesus was sacrificed and offered up for all men that he may sanctify and wash us in His blood through his death so that man may be cleansed of sin and from the sins his conscience thinks. Therefore, through faith we know that our salvation is made possible. He has pacified the wrath of God and found pardon in our stead. He has made eternal salvation possible as the word clearly teaches in Psalm 69; <em>“I restored that which I took not away”</em>. Isaiah 53:4-5; “<em>Surely he hath borne our griefs, and carried our sorrows: Yet we did esteem him stricken, smitten of God, and afflicted. But He was wounded for our transgressions, He was bruised for our iniquities: the chastisement of our peace was upon Him; and with His stripes we are healed.”</em> God placed all our sins upon Jesus so that our sins could be washed in His blood.</p>\n  <figure>\n    <img src=\"/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-1.jpg\" alt=\"Engraving of a man lying on a cross while several people surround him.\">\n  </figure>\n  <h2>Washing</h2>\n  <p>It is clear when men wash, two things must be present. First, water to wash with and second, that which is unclean brought forth. Jesus’ blood is the water and the unclean is the sin of man. Many old and new teachers have proclaimed this. While other teachers oppress this teaching by saying; Jesus has not fully redeemed us from the wrath of God the Father nor washed away our sins with and in His blood.</p>\n  <p>We have been warned not to be deceived by the sublimity of false teachers that depart from the true word of God, nor are we to be led away from the true witnesses of Christ in part or in entirety. We cannot depend on the authority of ancient writers, but only on the Holy Scriptures.</p>\n  <p>I will endeavor to support the true teachers where they are in harmony with God’s word. That is why I quoted from the old and the new teachers as true witnesses of Christ known as the Anabaptist. I have chosen Anabaptist writers of different locations who are of one mind to warn us of the false teachings of sects that cause even more divisions by their deceptions. It is far better to seek Godly unity then to create more divisions. We have been warned that in time many false interpretations will rise up and influence many souls.</p>\n  <p>These false teachings can be compared to a farmer that sets his neighbor’s house on fire and then the flames ignite and destroy his own house. Just like that, we have all suffered from the fall of Adam.</p>\n  <p>I would remind the readers that while the apostle Andrew was on the gallows of the cross he told of the mysteries of God becoming man and the priceless treasures of His suffering. (Martyrs Mirror pg. 87)</p>\n  <figure>\n    <img src=\"/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-2.jpg\" alt=\"Engraving of a man bound to an X-shaped cross, with people gathered around him.\">\n  </figure>\n  <h2>The Fall of Man</h2>\n  <p>John Heyjen tells us that the first man Adam after being created from the earth fell into disobedience (or transgressed) and brought death (no longer eternal life) upon not only himself but upon us all. Because of this, all men fell in the need of Jesus’ suffering so that eternal life could again be restored.</p>\n  <p>Jesus was born a perfect man through the Virgin Mary from the eternal Word which had also created the first man Adam. Eternal life has again been offered through the suffering and death of Jesus to all that accept Him and receive through Him the same innocent flesh of the first Adam so that they too can live forever. Jesus destroyed the untamable lust in the second Adam and stretched out His sinless hand from the cross to the sinners’ hand for all were guilty under the curse of Adam. Jesus has made restitution for man eating from the forbidden fruit, by tasting the bitter gall of death for our sake. This was so that we through His death can become partakers of eternal life. May God Almighty, the God of heaven give us His beloved Son Jesus Christ, His grace and eternal life; Amen.</p>\n  <h2>Atonement</h2>\n  <p>Because of the incomprehensible sin of our forefather Adam, the curse of God’s anger and displeasure (wrath) fell upon us all. Jesus the only begotten Son of God was sent to stand between God and us to pacify the wrath of the merciful and just God. Why? It is because God loves us. Reconciliation will take place between man and God the heavenly Father.</p>\n  <p>Deliverance is best understood when we realize that we were taken captive under sin. As the spirit of the scriptures teaches, God is an enemy to the sin of man. But, through merits and partitions of Jesus, restitution was made between God and man and the curse that lied upon us was lifted and grace was restored for us. This means that the unrighteousness of man was settled with God through the life offering (sacrifice) of Jesus. Man was lost through Adam but found again through Jesus; man had been separated from God but again united with God through Jesus dying on the cross for all men. Looking into the scriptures it is clear how helpless and hopeless we were under the curse of eternal sin and death and were it not for the Messiah loving us, and God in His mercy laying aside His anger and wrath toward us we would have been eternally lost. It is difficult for us to comprehend how utterly lost we would have been if the Father and the Son had not loved us enough to save those who believe. If we do not receive this gift in the blood of the Son of God with all thankfulness we are then without an advocate and eternally lost. If we ignore or reject this gift and choose to follow the inherited nature of the flesh by serving sin, we will inherit the plagues of eternal punishment.</p>\n  <p>We lost our opportunity of having innocent forever living flesh like Adam was created in when Adam sinned. But because we were delivered through the Messiah from eternal death unto the forgiveness of sin our innocent forever living flesh will be restored to us and our bodies will once again be in perfection in the resurrection.</p>\n  <h2>True Deliverance</h2>\n  <p>Deliverance of sin and death through forgiveness of sins means, when we are born again sin can no longer hold us captive which is our deliverance from eternal death. As long as there is an absence of an evil conscience, fake hope or fear of God’s wrath, nor eternal hell, nor the fears of the horrors of unending death.</p>\n  <p>I will relate an example. If God saw that you were a sinner, and because he didn’t care about you, He condemned you for your sin, then He would let you sink in misery to no end. But, because He was willing to grant you undeserved grace, He left His home in glory to search the mountains for His lost sheep.</p>\n  <p>We were found in our blood of sin, yet we were adopted as His children and rescued from corruption. Our hearts should be touched with thankfulness and we should give praise to the merciful God whom we owe so much and have nothing to repay. The scriptures tell us of how we have been estranged from God and how we have angered Him through our sin. Because of this we have fell under His curse and have been deprived of all hope of salvation, comfort and blessings and have become servants of Satan being held captive by sin and condemned to the chambers of hell. When Jesus, the advocate and redeemer, stepped in between us and God, He did what we could not do by accepting upon Himself the punishment we so abundantly deserved and that by the righteousness of God has come over all the world.</p>\n  <p>He wiped out our sins with His blood and brought light, peace and joy to the harsh judgments of the heavenly Father. Our hearts shall never cease to praise the goodness of God and be as thankful and obedient children all the days of our life. How much more should we honor Him than we would honor high esteemed people for their deeds of kindness and their mission of help in rescuing us? He is King of all Kings and Lord of heaven and earth and the One we all have to meet as the judge of the living and the dead. Unworthily we have such a High Priest. (Matthew 28:18, Acts 10:4, 17:31.) <em>“For such an high priest became us, who is holy, harmless, undefiled, separate from sinners, and made higher than the heavens.”</em> (Hebrews 7:26)</p>\n  <figure>\n    <img src=\"/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-3.jpg\" alt=\"Engraving of a lamb carrying a banner.\">\n  </figure>\n  <h2>Worthy</h2>\n  <p>Luabbert Gerritsz says, “We can see what a stinking pool sin is in the eyes of God wherein we had fallen. So that no prophet, patriarch or most holy born of women, or no angels were perfect or holy enough to purify or help fallen man and pay the ransom in the eyes as flames of fire. There needed to be one more holy and higher to rescue us in our fallen state of sin and slavery. We needed one stronger than ourselves to help us unfold the bands of death. Oh how he needed to be rich to help us poor creatures! He knew our poverty better than we ourselves. He had a clearer vision than we, as He was the one to enlighten us. He understood better the blindness of our hearts, and the darkness He saw as in the light. He was blessed more and above us to bring the blessing to us. He knew the weight of our transgressions because He paid for them and blotted out our debts. He was higher than we, so he could lift us up. So we could better understand the fall that would lead to the pit of the lost. May we sufficiently lament our fallen condition and see how hopeless we would have been of ourselves, if He would not have died that we may live (to prepare for the endless eternity, had not God let the Morning Star shine upon us).”</p>\n  <figure>\n    <img src=\"/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-4.jpg\" alt=\"Engraving of a man lying at the edge of water with a crowd standing nearby.\">\n  </figure>\n  <h2>Holiness</h2>\n  <p>May we follow the scriptures as the children of Israel followed the pillar of a cloud by day, and a pillar of fire by night to find their way to the land of Canaan. Like the Israelites sought to enter the land of Canaan by gathering manna to continue their physical existence, we seek a freedom of grief, sin, misery, weakness, and the restoration of righteousness and eternal life unto perfect salvation by gathering a spiritual manna of deep concern in the deliverance of man from slavery (sin) through the fruits of the death, blood, and suffering of Jesus. His chosen ones life in this world will exemplify humbleness with self denial walking in faith accompanied by good works with the Holy Spirit. When Satan, the world, and self is overcome there will no longer be the handwriting on the wall that was written against us. The thought of our sins will no longer be remembered by God because they will be blotted out through the washing in the blood of Jesus. God became satisfied with man when restitution was made, and then fear and death vanished. The faithful through grace will receive eternal life and will be set free of sin and the invisible wall that separates the Jews from the Gentiles will no longer stand.</p>\n  <p>All things in heaven and on earth, the faithful of the Old and the New Testament and the angels are all subject to Jesus and will be brought together into one fold and will no longer remember the falling of man and will dwell in the mountain of light. This was foretold in the epistles of Isaac, Joseph, Moses, Aaron, Samson, Daniel, Solomon, the Red Sea, the Passover Lamb, the offerings, the copper serpent and of all other figures and then fulfilled by the Holy One of God. The fruit of Jesus’ suffering, (the forgiveness of sin, a good conscience, purifying of the soul, a living hope, and eternal life) is harvested at the same time our flesh is crucified.</p>\n  <p>In these dark and deceiving times I wish to set before the eyes of the reader (the God fearing) a few more scriptures of the true fruits of the sufferings of Jesus so that they may not fail to understand the inexpressible love Jesus showed in our redemption. This writing will be to the honor and glory of God.</p>\n  <h2>Victory</h2>\n  <p>To enlighten, understand, to love God more and more, and to seek to be more abundant, I will quote what God the heavenly Father said to Satan in Gen 3:15. <em>“And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shall bruise his heal.”</em> From these words we can understand that God the heavenly Father has promised that His Son Jesus will bruise the head of the serpent. This means that the power Satan has over mankind will be broken at the cross. And this will be fulfilled by the death of Jesus on the cross. Paul said in Heb 14 that Jesus through His death was given the power to take away the sin of man that the devil possessed. In Col 2:14 it says<em>, “Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to the cross”</em>. In Is 53:8 and 1Pet 2:24 it says that Jesus was wounded for our sins and has taken our transgressions. In 1 Cor 15:55-57 it says, <em>“O death where is thy sting? O grave, where is thy victory? The sting of death is sin; and the strength of sin is the law. But thanks be to God, which giveth us the victory through our Lord Jesus Christ”.</em></p>\n  <h2>Redeemed</h2>\n  <p>Through sin and the strength of Satan we have been bound and through Jesus our Saviour (our resistance) our sin has been taken away. (Mt 12:29, Mk 3:27, Lk 11:20-22.) So also was the Highest in the world judged and crucified and the God fearing were drawn unto Him—Jesus. ((Jn 12:31, Rom 16:19, 1 Pet 5:9, Ja 4:17.) Menno Simons said that Adam and Eve were deceived and because of this they became children of Satan, death, and were held as slaves of sin with all their descendants. They would have remained eternally lost in this sad condition were it not for God, the merciful heavenly Father, who loved, helped, and comforted them through Jesus His Son. He overcame Satan and through grace forgave their sins.</p>\n  <p>Jacob, the chandler, writes that after Adam had fallen into sin with all his descendants, God, the heavenly merciful Father had repeatedly promised to send His Son. As stated in 1Pet 1:<em>9</em> <em>“As of a Lamb without blemish and without spot”</em> whom He had foreseen from the beginning of the world would deliver all mankind from eternal death through His own blood.</p>\n  <p>Joost Verkindert wrote that Jesus laid down His life for His beloved and that the children of our Lord Jesus Christ were cleansed from the inherited sin of Adam. (Please refer to Rom 5 and 1 Cor 15.)</p>\n  <p>Reytse Aysess was drowned in Leeuwaerden in 1574 for the testimony of Jesus Christ. He wrote that “Christ has redeemed us from the fall and transgression of Adam.” If God had not rescued us from the inherited sin that Adam had brought upon us we could not have been saved. Jesus has saved us through His flesh and blood and freed us all from sin. Because of Jesus, Satan can no longer have power over mankind because of the sin of Adam. If it had not been for the sin of Adam there would have been no need for a Saviour. But as it was, Christ needed to bruise the head of Satan and take away his power. This was not only for the sake of Adam and Eve, but for all their descendants. Because of Adam’s fall and the power of Satan all men were drawn into death and this was the reason why God had to redeem all mankind from sin and Satan because all were lying under Satan’s power.</p>\n  <figure>\n    <img src=\"/images/articles/2f6f678f-cac1-4164-a6ea-7f8616f2bf38-5.jpg\" alt=\"Engraving of a shepherd carrying a lamb while a wolf approaches.\">\n  </figure>\n  <h2>Promises</h2>\n  <p>It would seem strange to explain this in any other way and neither is it found written in any other way in the scriptures. Paul wrote in Rom 5:18, <em>“Therefore as by the offense of one, judgment came upon all men to condemnation; even so by the righteousness of one, the free gift came upon all men unto justification of life.”</em> In 1 Cor 15:22 it is written, <em>“For as in Adam all die, even so in Christ shall all be made alive.</em>”</p>\n  <p>And so, all nations upon the earth had fallen under the curse.</p>\n  <p>Even unto the generations of Abraham were these promises of forgiveness void and there was no redemption to either the young or the old as they were all under sin and the curse. But they looked forward to the fulfillment of redemption that God had promised in Rom 3:9 and 19:23. In the 18<sup>th</sup> letter of Lubbert Gerritsz he is quoted as saying the following in regards to the above mentioned scriptures. “It is manifest that all nations have fallen through sin into eternal damnation. They had looked for the promised seed to come, that would take away the root or reason of damnation, and the sprouts of fruit that it bore. These are the two foremost promises to our salvation”.</p>\n  <p>The ransom for our salvation in the Messiah, which we do not want to lose sight of, as two witnesses preserved in our heart. That Christ has paid it all and cleansed us from all sin, reconciled us with the Father, and taken away the power Satan had over us. These are short words, but they contain great hidden truth as the Saviour needed to crush Satan’s head by dying on the cross. Because Jesus overcame sin and death, His resurrection and ascension were the triumph of victory. He was not only man, but in truth He was God and man. The point of God becoming man was because “God so loved the world, that He gave His only begotten Son, that whosoever beleiveth in Him should not perish, but have eternal life.”</p>\n  <h2>The Perfect Sacrifice</h2>\n  <p>When God wanted to help His children and take away their sins, He needed someone to die who had no sin; as there can be no forgiveness of sin, if one sinner is to die for another sinner. Only one who is perfect, fullness of goodness and righteousness and without sin could stand in our place and plead to the Father for us and satisfy the wrath of God who had condemned us unto death. Jesus stood in our place and carried and paid for the sinner’s debt so that we could be redeemed from the power and tyranny of the devil. God the Father wanted to be reconciled and pacified concerning our sins and wanted to see the head of Satan crushed so He could free us. Jesus laid down His life and died, and then arose from the dead; as it was impossible for Him to remain dead because of our sins which He had taken upon Himself. If Jesus could not have risen from the dead our eternal life could not be restored and He could not have helped fallen man because sin and death follow each other. He paid the price in full and wiped out our sins, arose from the dead, and brought eternal life so that death and Satan could no longer condemn us. We have no other Redeemer than Jesus Christ and there will be no other in all of eternity.</p>\n  <h2>The Ransom</h2>\n  <p>We can read in Gal 3:16-17 that the covenant made with Abraham and his seed was confirmed before God in Christ and the law of Moses was 430 years thereafter. This means that no one could find salvation or blessing outside the faith in Jesus Christ because outside of Christ there is no salvation or blessings. Salvation was not included in the blessings of Abraham, as the curse was still not removed by Jesus death. This means that at this time there could not be peace between God and man. Peace could only materialize with the man’s birth of Christ, His death, resurrection, and eternal life, which is all part of the promises offered by the Messiah. Then, and only then, will there be forgiveness of sin, freedom from eternal death, and condemnation of hell upon earth, and eternal life by the ransom of the advocate. Only after all these things have taken place will our innocence, holiness, and righteousness be restored, the law perfectly fulfilled through the blood of Christ, and confidence, truth and peace will be renewed with God unto eternal life as it was with Adam before the fall. How could man wish for more?!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0eb4cd65b0b374c15bab241ba97908d368a42309da6c97a25e385b4bc7d9295d"
+}

@@ -1,0 +1,130 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author Unknown"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+    "images": [
+      {
+        "alt": "An older man holds a fan beside a bird cage",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg",
+        "repository_path": "public/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg",
+        "rights_note": "Extracted the original embedded image object 120 from printed page 31. No separate image credit or image-specific permission wording is printed. The white vignette around the figure, including its soft lower edge, is intrinsic to the only raster; the PDF has no separate soft mask or clean underlying image. It is retained without retouching. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            628,
+            450
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            628,
+            450
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            628,
+            450
+          ],
+          "source_object": 120
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      },
+      {
+        "alt": "Children face a man standing beside a hanging bird cage",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg",
+        "repository_path": "public/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg",
+        "rights_note": "Extracted the original embedded image object 121 from printed page 31. No separate image credit or image-specific permission wording is printed. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB. Small intrinsic artist lettering is retained in the raster; its complete spelling is not reliably legible, so no creator name has been inferred.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            750,
+            547
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            750,
+            547
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            750,
+            547
+          ],
+          "source_object": 121
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "Bird Cage",
+    "topics": [
+      "9ea02874-7a57-5114-8360-1268f7f792d1",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a4ef1192f70eae9bcc9068050b44599f15be344ae554bb4995ad0f044b11e973",
+    "metadata_sha256": "734a3785e19ae22cb01eeb7d15d251d01fafcd95271398aeef4f07f484c8fa45",
+    "structure_sha256": "8e58a6336562445c64936e088489171cf5218e70b5e1609f4f856ec2f604f6eb",
+    "text_sha256": "7a06acb0aae193af3e0586f2ad12e2bed6938e39f94b499048852192588655d1",
+    "translation_metadata_sha256": "58aa97b4c721da69024ca75d8f7a3e5fddbd18af60674715b1d9a0ef1d454460"
+  },
+  "html": "<article data-article-id=\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\">\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\" alt=\"An older man holds a fan beside a bird cage\"></figure>\n  <p>A man was on the side of the road with a large birdcage.</p>\n  <p>A boy noticed that the cage was full of birds of many kinds.</p>\n  <p>“Where did you get those birds?” he asked.</p>\n  <p>“Oh, all over the place,” the man replied. “I lure them with crumbs and pretend I’m their friend. Then when they are close, I net them and shove them into my cage.”</p>\n  <p>“And what are you going to do with them now?”</p>\n  <p>The man grinned, “I’m going to prod them with sticks, and get them really mad so they fight and kill each other. Those that survive, I will kill. None will escape.”</p>\n  <p>The boy looked steadily at the man. What made him do such things? He looked into the cruel, hard eyes. Then he looked at the birds, defenseless, without hope.</p>\n  <p>“Can I buy those birds?” the boy asked. The man hid a smile, aware that he could be on to a good thing if he played his cards right.</p>\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\" alt=\"Children face a man standing beside a hanging bird cage\"></figure>\n  <p>“Well,” he said hesitantly, “The cage is pretty expensive, and I spent a lot of time collecting these birds, I’ll tell you what I’ll do, I’ll let you have the lot, birds, cage and all for ten pounds and that jacket you’re wearing.”</p>\n  <p>The boy paused, ten pounds was all he had, and the jacket was new and very special, in fact it was his prized possession. Slowly, he took out the ten pounds and handed it over, then even more slowly he took off his jacket, gave it one last look then handed that over too.</p>\n  <p>He received the cage from the man. And then (well, you might have guessed it) he opened the door and let the birds go free.</p>\n  <hr>\n  <p>The Enemy of the world, Satan, was on the side of life’s road with a very large cage.</p>\n  <p>The man coming towards him noticed that it was crammed full of people of every kind, young, old, from every race and nation.</p>\n  <p>“Where did you get these people?” the man asked.</p>\n  <p>“Oh, from all over the world,” Satan replied. “I lure them with drink, drugs, lust, lies, anger, hate, love of money and all manner of things. I pretend I’m their friend, out to give them a good time, then when I’ve hooked them, into the cage they go.”</p>\n  <p>“And what are you going to do with them now?” asked the man.</p>\n  <p>Satan grinned. “I’m going to prod them, provoke them, get them to hate and destroy each other; I’ll stir up racial hatred, defiance of law and order; I’ll make people bored, lonely, dissatisfied, confused and restless. It’s easy. People will always listen to what I offer them and what’s better, blame God for the outcome!”</p>\n  <p>“And then what?” the man asked.</p>\n  <p>“Those who do not destroy themselves, I will destroy. None will escape me.”</p>\n  <p>The man stepped forward. “Can I buy these people from you?”, he asked.</p>\n  <p>Satan snarled, “Yes, but it will cost you your life.” So Jesus Christ, the Son of God, paid for your release, your freedom from Satan’s trap, with His own life, on the cross at Calvary. The door is open, and anyone, whom Satan has deceived and caged, can be set free.</p>\n  <blockquote>\n    <p><strong>Trust in the LORD<br>with all thine heart;<br>and lean not unto thine<br>own understanding.<br>In all thy ways acknowledge him,<br>and he shall direct thy paths.</strong></p>\n    <p><strong>Proverbs 3:5-6</strong></p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733"
+}

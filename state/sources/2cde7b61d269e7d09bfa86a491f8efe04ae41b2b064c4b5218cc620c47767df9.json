@@ -1,0 +1,118 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Michael Edds"
+        }
+      ],
+      "raw": "by Michael Edds"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0",
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "6f61a1ae-d1cc-4748-abea-a8e44a891dc4",
+    "images": [
+      {
+        "alt": "Circuit rider on a horse carrying an umbrella",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-1.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-1.jpg",
+        "rights_note": "No printed reuse restriction or creator credit detected. Cropped source collage constituent to omit title text, vs. typography, textured publisher background, and dark panel; no pixels synthesized. Inverted grayscale /Separation /Black samples to match rendered PDF. Crop raw image pixel box (80, 151, 363, 451).",
+        "role": "opening collage constituent",
+        "sequence": 1,
+        "source_page": 40
+      },
+      {
+        "alt": "Luxury car grille with a cross on the hood",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-2.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-2.jpg",
+        "rights_note": "No printed reuse restriction or creator credit detected. Cropped source collage constituent to omit title text, vs. typography, textured publisher background, and dark panel; no pixels synthesized. Inverted grayscale /Separation /Black samples to match rendered PDF. Crop raw image pixel box (689, 151, 975, 452).",
+        "role": "opening collage constituent",
+        "sequence": 2,
+        "source_page": 40
+      },
+      {
+        "alt": "A circuit rider sits on his horse outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-3.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-3.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 40
+      },
+      {
+        "alt": "A mounted circuit rider travels through a forest",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-4.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-4.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 41
+      },
+      {
+        "alt": "A mounted circuit rider crosses water",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-5.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-5.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 42
+      },
+      {
+        "alt": "A large mansion beside the water",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-6.jpg",
+        "repository_path": "public/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-6.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "photograph",
+        "sequence": 6,
+        "source_page": 42
+      }
+    ],
+    "issue_id": "ef088180-22ec-4bbe-a4d2-36bf1e2b5cdd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 42,
+      "start": 40
+    },
+    "subtitle": null,
+    "title": "The Circuit Rider VS. The Televangelist",
+    "topics": [
+      "3071fe03-5111-5c92-b54a-c774d84dfac2",
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "03b8b4f27fe696a920270880a49d564b480ab618fad5c9cde04309d3a35b55f8",
+    "metadata_sha256": "9bec738cb4bc14cf27c9dcae57b25d66bf65de0172be9e9a5b69d448b674fc7d",
+    "structure_sha256": "4e3e8fbf4e1c99fd67379b70cc871ef5273ee6a1155e103eb5c3fc83b19f386d",
+    "text_sha256": "b023815be388a7aed5084aedecd5621aa4314fc48aefb094ae6e0f599a6578dd",
+    "translation_metadata_sha256": "2cc7d295806c7d5c3015b6f95e08560f72dbad6a21b2adbdc7c3fcce8ad6306a"
+  },
+  "html": "<article data-article-id=\"6f61a1ae-d1cc-4748-abea-a8e44a891dc4\">\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-1.jpg\" alt=\"Circuit rider on a horse carrying an umbrella\">\n</figure>\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-2.jpg\" alt=\"Luxury car grille with a cross on the hood\">\n</figure>\n<p>In my continued research on the “old wells of revival” I have discovered some incredibly contrasting bits of information. One of the top televangelists in the nation was recently invited to preach in Baltimore, Maryland. His terms for coming were:</p>\n<ol>\n  <li>A limousine at the airport must pick him up.</li>\n  <li>That he must have $1,000 spending money.</li>\n  <li>That he must be guaranteed at least $10,000 in offerings.</li>\n</ol>\n<p>This same televangelist/pastor lives in a multimillion-dollar mansion, eats in the finest restaurants and wears the most expensive tailor-made suits. His writings and speaking engagements have garnered millions of dollars. He brags that he is a role model of the prosperity message of our day. He pastors a mega church, appears on national and international television, has authored many books and draws tens of thousands to hear him. To his credit, he is a powerful, commanding speaker. However, please contrast this to the following life and ministry of the great circuit rider, Francis Asbury in the late 1700s and early 1800s.</p>\n<p>While still in his twenties, Bishop Francis Asbury left his home and family forever in England to come to a wilderness called America. He came to be a traveling preacher/evangelist in a nation with little infrastructure such as roads, decent housing, few hotels and restaurants, poor sanitation and dangerous drinking water, few medical professionals and limited law enforcement. The nation had recently plunged into a violent war of independence against Asbury’s native land of England. The American frontier was also ablaze with war between the colonist and Native American tribes.</p>\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-3.jpg\" alt=\"A circuit rider sits on his horse outdoors\">\n</figure>\n<p>Asbury was not greeted upon his arrival by a limo. He had to purchase a horse on which he traveled 8,000 miles a year for over 40 years. His financial reward was $60 a year, much of which he gave away or sent back to England to help his parents. He wore hand-me-downs, not tailor made suits. He had no retirement, no insurance, no dental plan, and no 401k. He set no fee for his ministry.</p>\n<p>What he did receive, he often gave away. He traveled on “roads” on which his horse sank many times knee-deep in mud. If a road did not exist, he would lead his horse over the steep, rocky inclines of the Appalachians to reach a pioneer community. Many times, his feet and legs were bloodied and bruised by the horrific journey. When he came to a river where there was no bridge or ferry, he would swim his horse across. Numerous times, he was nearly drowned by an angry, swollen stream. His “hotel” on many occasions was on a dirt floor in an overcrowded, rat-infested frontier cabin. Oftentimes he slept in the woods, on a mountain ledge or in damp cave. Many days he would travel over 60 miles with nothing to eat. The paths and roads he traveled were full of dangers from murderers, thieves, wolves, bears, poisonous snakes and roaming bands of Native Americans with whom the frontiersmen were at war. If he met someone who needed a cloak, food or money, he would take what he had and give it to the person in need. Asbury sought out the forgotten, hidden places of early America. He traveled from New England, to the Midwest, and to the Deep South spreading the Gospel of Christ. When he would meet a person who was ill, he would minister to their physical needs with the last medication he had. He demanded nothing of others in order to come into a community. The demands he made were of himself. Frequently, his body would be racked with pain, illness, fever, hunger and weakness. His physical being would cry out for rest and nourishment. However, his spirit ruled his body. When truly unable to travel, he would mount his horse and ride for 8 hours or more through blinding snowstorms, torrential rain or in oppressive heat.</p>\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-4.jpg\" alt=\"A mounted circuit rider travels through a forest\">\n</figure>\n<p>He too had been invited to Baltimore. In 1816 he was traveling by buggy through Virginia headed to the annual conference in Baltimore. However, he was dying. His last sermon was preached in Richmond. He had to be carried into the meeting room. He commented, “I am too weak to walk but not to preach.” They sat him on a small table and he ministered the Word for the last time. He made it as far as Spotsylvania twenty miles north of Richmond. He body was rapidly failing. He stopped at a friend’s house on Saturday. Shortly before he left this world he was asked, “Do you feel Jesus precious?”</p>\n<p>Summoning his last remaining strength, the great circuit rider raised both hands in victory. Minutes later he laid his head on a friend’s hand and gently slipped away to be with the Lord. He owned no mansion, no land, and no bank account. His net worth was what he wore on his body. He was buried in a borrowed grave plot.</p>\n<p>When Asbury came to America, there were few Methodist believers and fewer preachers. At the end of his ministry, there were over 200,000 Methodist believers and almost 8,000 ministers. He affected lives of thousands upon thousands. He changed the very course of American history. Among his converts were poor farmers, merchants, governors of several states, frontiersmen, slaves, Native Americans, State Supreme Court justices, attorneys, physicians, housewives, children, youth and people from all walks of life. He gave all he had. He sought nothing for himself. His passion was to bring salvation and the Light of the Gospel to those in darkness of sin. He loved a nation and made it his own even though he was not her native son.</p>\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-5.jpg\" alt=\"A mounted circuit rider crosses water\">\n</figure>\n<figure>\n  <img src=\"/images/articles/6f61a1ae-d1cc-4748-abea-a8e44a891dc4-6.jpg\" alt=\"A large mansion beside the water\">\n</figure>\n<div class=\"comparison\">\n  <ul>\n    <li>Selfless</li>\n    <li>People-centered</li>\n    <li>Kingdom builder</li>\n    <li>Drew souls into the Kingdom of God</li>\n    <li>Demanded of himself</li>\n    <li>Gave freely</li>\n    <li>A servant</li>\n  </ul>\n  <ul>\n    <li>Ego-centered</li>\n    <li>An empire builder</li>\n    <li>Drew the masses into an arena</li>\n    <li>Demanded of others</li>\n    <li>Commanded a price</li>\n    <li>A celebrity</li>\n    <li>Selfish</li>\n  </ul>\n</div>\n<p><strong>Quite a CONTRAST between the<br>CIRCUIT RIDER and the TELEVANGELIST!</strong></p>\n<p>Hebrews 11:32-38 speaks about the real heroes of the faith: They were…“tortured, not accepting deliverance, that they might obtain a better resurrection. Still others had trial of mocking and beatings, and of chains and imprisonment. They were stoned, they were sawn in two, were tempted, were slain with the sword. They wandered about in sheepskins and goatskins, being destitute, afflicted, tormented…they wandered in deserts, and mountains, in dens and caves of the earth... of whom the world was not worthy.”</p>\n<p>How long are we going to tolerate the “superstar syndrome” in the church? How long are we going to feed the ego and pocketbooks of these self-seeking charlatans, regardless of how articulate they are? How long will we continue to pack their arenas and buy their CDs, DVDs and books? How long will we pick them up in limos, and line their wallets with thousands and thousands of dollars to spend on self? How long will we tolerate apostasy?</p>\n<p>My God, how far we have fallen! God is calling on us as His people to repent and turn from our wicked ways. He is calling us to seek HIS face. I am praying that God will cause us to return to the faith of our fathers and will fulfill Jeremiah 3:15 and give us shepherds after His own heart…just like the beloved Francis Asbury, humble servant of God.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3fadaf678f932b347cc3eb559b138cf7642087e400721f36d5038b4d5110eb58"
+}

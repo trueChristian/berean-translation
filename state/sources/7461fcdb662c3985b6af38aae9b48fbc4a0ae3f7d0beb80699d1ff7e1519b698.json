@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Adrianna Fanton"
+        }
+      ],
+      "raw": "–by Adrianna Fanton"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "295cdefb-bc3e-4962-8d17-7b38c87e99d8",
+    "images": [
+      {
+        "alt": "Sunrise over a misty autumn forest",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/295cdefb-bc3e-4962-8d17-7b38c87e99d8-1.jpg",
+        "repository_path": "public/images/articles/295cdefb-bc3e-4962-8d17-7b38c87e99d8-1.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 34; no separate permission notice or license terms are stated. The two exact 2670-by-3453 embedded sRGB halves from pages 34 and 35 were joined at the spread boundary and baseline-encoded as a visually faithful sRGB JPEG at 5340-by-3453 pixels without poem text.",
+        "role": "two-page poem background photograph",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "f1d8ec0b-e63c-5164-8d41-9d57b6c96f07",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Freedom",
+    "topics": [
+      "de33f557-edc2-55c4-abce-92d355702cd7",
+      "74d2e92d-f35f-52df-a059-4bff162cce79",
+      "d51df41b-8b1f-59d9-9fd5-8524bca0dd3b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4b40457adf12bea45618f3965f71814e38c3a0dd2407761cdfe82bd7346afcb9",
+    "metadata_sha256": "e7b20b4780dbe17ffb19b25db179a70eb531b6512d6628020842f1e8ea93b083",
+    "structure_sha256": "4ede1163b04b1c1403448567cacd796a5b2e2a21146a7439eccf16d772e6dab9",
+    "text_sha256": "826e5a5a8edc4d031681b7d758cef32b915be5873485b6312b97761dc1047e1a",
+    "translation_metadata_sha256": "6b0afc12884b8f88d66755368a1993450d57ca260d94682d3c24800075547e94"
+  },
+  "html": "<article data-article-id=\"295cdefb-bc3e-4962-8d17-7b38c87e99d8\">\n  <figure>\n    <img src=\"/images/articles/295cdefb-bc3e-4962-8d17-7b38c87e99d8-1.jpg\" alt=\"Sunrise over a misty autumn forest\">\n  </figure>\n\n  <p><em>…where the Spirit of the Lord is, there is liberty [freedom] –2 Corinthians 3:17.</em></p>\n\n  <div class=\"poem\">\n    <p>This world grapples after freedom,<br>\n    Constantly chasing and snatching at this goal.<br>\n    It seems at times to be a fanciful illusion,<br>\n    For in the fight for freedom, they bicker for control.</p>\n\n    <p>Then in our lives, we look around and are tired.<br>\n    Tired of restraint that seems to bind.<br>\n    So, we run, and toss off the offensive fetters,<br>\n    Only to find we’ve donned another of a different kind.</p>\n\n    <p>Freedom is a deceitful master,<br>\n    He tempts with the promise of being unrestrained.<br>\n    But when our own will is made to be ruler,<br>\n    Freedom becomes the enemy to which we are chained.</p>\n\n    <p>We battle for our rights, and amid all the fighting,<br>\n    Blindly destroy what we’d set out to win.<br>\n    Our thirst for liberty has fermented and ripened<br>\n    Into a danger that will kill us from within.</p>\n\n    <p>The “freedom” of this world is but vanity;<br>\n    A lie saying we’re free when we do as we please.<br>\n    For in selfishness, we will not find refuge,<br>\n    But a vice of death that the enemy does squeeze.</p>\n\n    <p>So where is this freedom we all dream of—<br>\n    Freedom in this world, and in our soul?<br>\n    It seems that no matter where we run, it eludes us,<br>\n    And what we claim to hate, subtly has control.</p>\n\n    <p>True freedom is obtainable—not a fantasy.<br>\n    It is found where few men condescend to seek.<br>\n    The trouble is when we look for what we call freedom,<br>\n    We, with the eye of selfishness, critique.</p>\n\n    <p>There is One who has purchased our freedom,<br>\n    Seeing our lost and dying state.<br>\n    He received our punishment, paid our debts,<br>\n    Now our acceptance of this gift He does await.</p>\n\n    <p>In Christ, we are offered true freedom;<br>\n    He has purchased and made us free.<br>\n    And to follow His example of love and service,<br>\n    Is how we experience true liberty.</p>\n\n    <p>We were created to serve and bring glory.<br>\n    The question is, to whom will we bow?<br>\n    There’s one who would love to subvert and destroy;<br>\n    And another, the Master, only the good does avow.</p>\n\n    <p>Let’s accept and run after this King who has saved us,<br>\n    Restoring the freedom that we so lack.<br>\n    It’s not a battle to achieve all our selfish desires,<br>\n    But the need to get our true reason for living back.</p>\n  </div>\n\n  <p><em>–by Adrianna Fanton</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "da18041ba18201ffbc0de5796513c49ed250ac15df31c449fbe502401ef464ab"
+}

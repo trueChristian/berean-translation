@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
+    "images": [],
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "Freedom, or Bondage?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "6654476e2ad9071ffbaa2c85604cc9177002b33c2baeb42862f1935602e30149",
+    "metadata_sha256": "804c6d0df4d272c040000a8b35a57c0cf1196e76c16d94fa038f92356f672120",
+    "structure_sha256": "869ab2c0506815ba25473d1a71ba0de2ff49042f8dafc0e3d10306f134da18f1",
+    "text_sha256": "9dfa4e6d3f3e5312a5b2150af6a631ae869fb396bdbd73ef2ee9859b566a172d",
+    "translation_metadata_sha256": "e74373e17ecefe1878055f311ceef47aa1d7f8fcf12a84043e5f0c49c873e8c6"
+  },
+  "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Freedom, or bondage—which will it be?<br>\n    Or are they the same; can someone see?</p>\n\n    <p>People love things that money can buy,<br>\n    They trade their lives, with no reason why.</p>\n\n    <p>The bills pile up for comforts and ease;<br>\n    “What about our wives, or children to please?”</p>\n\n    <p>We spend all our days chasing the dollar.<br>\n    The devil smiles as he tightens our collar.</p>\n\n    <p>We need time for God, and our families too.<br>\n    Maybe less time at work could surely do.</p>\n\n    <p>Do we have time for that still small voice?<br>\n    Or does our money talk, and give us no choice?</p>\n\n    <p>We all know the Bible—no work, no eat.<br>\n    But money will bind us until death we meet.</p>\n\n    <p>The more we have, the more we need;<br>\n    The love of money starts with a seed.</p>\n\n    <p>Lying to yourself is a foolish thing—<br>\n    “Freedom, or bondage?” is the question I bring.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757"
+}

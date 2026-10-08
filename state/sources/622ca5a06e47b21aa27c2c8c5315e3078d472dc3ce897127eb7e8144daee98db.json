@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Darren Brubaker"
+        }
+      ],
+      "raw": "– Darren Brubaker"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000",
+        "59e78031-c269-52d1-9b00-08dba0398cb4"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": "Andrew Schwartz ©",
+        "public_path": "/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg",
+        "repository_path": "public/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 15 to Andrew Schwartz ©; no license terms or separate permission requirement are stated. The exact 300 dpi text-free page-image reconstruction from the published PDF is retained. Its opaque CMYK tiles already contain the publisher's spatially varying white/lavender reading-panel wash, with no mask, alpha channel, clean base object, or meaningful unobstructed crop available in the PDF; the vector title, poem, and byline are omitted. No generated, inpainted, or inverse-estimated pixels were used.",
+        "role": "full-page decorative background photograph",
+        "sequence": 1,
+        "source_page": 15
+      }
+    ],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "The Call to Labor",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "bd34abbc-25f2-5c08-87bf-2245fcc82609",
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d",
+      "13607865-d967-50a5-ae9a-024549fcf142"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b7ee3dfd7f9b481a70064404b842d5cdd2306f582b4abfbb265fd46dd1c6672f",
+    "metadata_sha256": "47878a4f658e13573d2ea19a14a118794569d80505916d12eda8e516870c6987",
+    "structure_sha256": "3aca50f62b80412d12d90e32782308b2f0102af8fe22909bae0b054bf94909a0",
+    "text_sha256": "07f0439b047d2a648dae0a5b764573aacd956c57fde72cda7ff643d0e2ca323f",
+    "translation_metadata_sha256": "127b6e7aa6a654e38e5582e7412e96d244b9622204e97aa819be558afd753854"
+  },
+  "html": "<article data-article-id=\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\">\n  <figure>\n    <img src=\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\" alt=\"\">\n  </figure>\n  <p class=\"poem\">The early church in olden days<br>\n    Had a desire to tell<br>\n    The sinner about Jesus Christ,<br>\n    About Heaven and hell.</p>\n  <p class=\"poem\">Indeed, they were not perfect souls,<br>\n    But yet they loved their Lord;<br>\n    And strove to follow this command<br>\n    In spite of peril and sword.</p>\n  <p class=\"poem\">The more people they converted,<br>\n    The more the tension grew.<br>\n    The wicked rulers of the land<br>\n    Did not know what to do.</p>\n  <p class=\"poem\">A lot of folks were burned at stake,<br>\n    Some put in dungeons cold,<br>\n    Because they spread the Gospel word<br>\n    With faith and courage bold.</p>\n  <p class=\"poem\">These brave soldiers who suffered much<br>\n    Were such bright lights indeed,<br>\n    But to tell others about God<br>\n    They still did see a need.</p>\n  <p class=\"poem\">Now many years since then have passed;<br>\n    We Christians tend to say<br>\n    “Be an example to the world;<br>\n    You need not tell the way.”</p>\n  <p class=\"poem\">But if this point of view were true,<br>\n    Then I would like to know:<br>\n    As did the church in olden days,<br>\n    Why doesn’t our church grow?</p>\n  <p class=\"poem\">Is it that in America,<br>\n    The fire has grown cold?<br>\n    Since faith is good, why don’t we share<br>\n    As did the saints of old?</p>\n  <p class=\"poem\">In other lands this very day,<br>\n    The fire is burning bright;<br>\n    Because Christians are zealous there<br>\n    And vigorous in fight.</p>\n  <p class=\"poem\">While we thank God for freedom here,<br>\n    They praise their Lord on high.<br>\n    And thank Him that for Jesus’ sake<br>\n    They suffer and they die.</p>\n  <p class=\"poem\">So as martyrs in other lands<br>\n    Are shedding blood for God,<br>\n    If we would also spread God’s Word,<br>\n    Our blood would stain our sod.</p>\n  <p class=\"poem\">Is it a blessing from our God<br>\n    That our country is free?<br>\n    Or is it ‘cause we aren’t a “threat”<br>\n    To the society?</p>\n  <p class=\"poem\">Are we ashamed or have no time?<br>\n    Dear friends, the time is nigh.<br>\n    If we don’t bring the folks to God,<br>\n    The populace will die.</p>\n  <p class=\"poem\">So, in conclusion, friends, let’s take<br>\n    The path that Jesus trod,<br>\n    Showing lost souls, the narrow way,<br>\n    That leads men home to God.</p>\n  <p class=\"signature\">– Darren Brubaker</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e"
+}

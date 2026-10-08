@@ -1,0 +1,89 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+    "images": [
+      {
+        "alt": "A roadside mailbox bearing the magazine’s mailing address",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg",
+        "repository_path": "public/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg",
+        "rights_note": "Extracted the original embedded image object 133 from printed page 34. No separate image credit or image-specific permission wording is printed. The only source raster contains the header title and a faded reading panel. A useful unobstructed 500 × 225 pixel top-left mailbox crop removes those baked layout treatments and the separate introduction text; the mailbox lettering is retained as intrinsic to this source raster. No concealed pixels were synthesized. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            500,
+            225
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            500,
+            225
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1050,
+            522
+          ],
+          "source_object": 133
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "69fb1880-e1e8-5d77-95bc-76d81159e377",
+      "b1967c86-e604-5461-ae26-5d0702131447"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "81faadfccd1b47034099f6dd39a48915782228b908661af98b7c4919bdc7c177",
+    "metadata_sha256": "32aeda9f4e3059d1e040cbb259f01aa5a940e7a5873fe23d215ae5cf91f34108",
+    "structure_sha256": "74e2c66050558a861bf5c84d9d782a5145fa9e8e273cd1c1f3786d9f06caffae",
+    "text_sha256": "45002cc1083470ccff4217f7cbe14f8db797938f9fa70e138c7fe05a3da8627c",
+    "translation_metadata_sha256": "da072f96e61ee68e124446ea5a9ad638f22146739724a6afe385d6beef3f5f53"
+  },
+  "html": "<article data-article-id=\"3558b7f3-5296-4770-a7c6-d420c923642d\">\n  <figure><img src=\"/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg\" alt=\"A roadside mailbox bearing the magazine’s mailing address\"></figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n  <p><em>About the illustration of sin deadening conscience...</em></p>\n  <p>Lepers lose fingers, toes, sometimes noses. It was always thought the disease did this. But a brilliant medical missionary began to question this. Dr Paul Brand noticed that lepers would go to bed whole and wake up without a finger. No one could ever find a trace of the missing finger. He eventually discovered that the fingers were being chewed off and carried away by rats! However could this happen? It’s because lepers lose feeling. And that’s our problem. We have lost feeling in part of our conscience. And then the devil – that fat rat – begins to chew us and instead of shooing him away, we don’t even realize what he’s doing. We desperately need God to make our consciences sensitive.</p>\n  <p><em>From an email</em></p>\n  <hr>\n  <p>We very much appreciate your ministry. I have been very challenged by this magazine. May God continue to bless you in this effort. In the magazine, we are encouraged to share testimonies of obedience, so, I thought I would share one. I apologize if it is too lengthy.</p>\n  <p>After spending about 9 years in a very worldly mainstream church of about 5,000 members, God brought a man into my life who really challenged me spiritually. Shortly thereafter, I and my children left that church and began to home fellowship with a few other believers, although we were not completely likeminded. All of these other families moved away to another fellowship, which left us here alone for about a year and a half. Then by God’s providence, we found a likeminded fellowship here in Colorado, and began attending there. My wife did not yet practice the headcovering, as I did not yet understand it. But after a few months attending that fellowship, and doing some study, I got confused. I just didn’t quite see it. I had always been taught that a woman’s long hair was the covering, and it was hard to get past this teaching. So, I ended up looking into church history a little bit. It did not take very long to figure out that pretty much all denominations up until the early 1900’s practiced the covering, at least during worship service. Even the pictures on the walls of the Catacombs show women with cloth veils on. I also found a second century article by Tertullian noting some of his observations after visiting the church at Corinth, the very church that Paul wrote to concerning the veiling. He noted that all of the women wore a cloth veiling on their heads. So here was a church who understood what Paul was saying to them in their native tongue, and they all understood the covering to be a cloth veiling, not the hair! Since 1Corinthians 1:2 indicates explicitly that these scriptures are written to all saints everywhere (not just to that church at that time as many modern churches teach), this pretty much secured it for me, at least mentally. I figured that I must not have understood the scriptures. I was more inclined to believe the first 1900 years of church doctrine rather than the last 100, especially looking at the fruit that came out of those churches compared to today’s. So, my wife began to veil her head, and it did not take long to begin to see the blessings. We were at the grocery story in a local town, and as we were shopping, a Mexican man came up to my wife and began pointing at my wife’s head and speaking in Spanish. He shouted for his wife to come, and she came around the corner, also wearing a veil. He was absolutely ecstatic in seeing another believer who was practicing this. He couldn’t speak any English, and though I took some Spanish in high school, it all left me at that moment. I could think of a word to say, so I just said “Christ?” And he began to nod emphatically and say “Yes! Cristo! Good!” We couldn’t talk at all to each other, but we both had Christ, and that was enough! Through some gesturing, we determined that he had seen us go into this store which was about 150 yards away from a K-mart at the other end of the little strip mall. They were coming out of the K-mart and saw us, with my wife covered, entering this store, and they both ran all the way down to the store we entered just to try to find us and say hello to a fellow believer. He was so happy! It was almost like he had never found another person who practiced the veiling. Quite frankly, I also was ecstatic, especially since it was only about 3 months earlier that I was alone with my family, longing to find likeminded Christian fellowship. The covering was like a sign, a very distinctive outward sign, that we are disciples of the Lord Jesus.</p>\n  <p>Anyway, though I did not understand this truth at first, since we have begun the practice of veiling, it is so very obvious to me now, I don’t know how I missed it before. In the 5-1/2 years since then, God has been so faithful to reveal to us the reasons for a godly woman to cover her head, and has given more and more insight to what the scriptures mean in 1 Corinthians 11. My wife has noticed that even ungodly people in the community treat her with a measure of reverence, tenderness and respect that she did not receive from people before. We can only contribute this to God’s blessings in obeying His commandments regarding headcovering, modesty and a meek and quiet spirit. It brings to mind the verse Jesus spoke to His disciples in John 14:21, He that hath my commandments, and keepeth them, he it is that loveth me: and he that loveth me shall be loved of my Father, and I will love him, and will manifest myself to him. The word “manifest” means “to come to view”, “disclose” or “reveal”. I have indeed found this to be true. If we know what God has commanded us, even if we don’t understand it fully, he will reveal the reason and blessing of the commandment if we just bow our hearts to Him and obey. He will indeed give us understanding and revelation.</p>\n  <p><em>Colorado</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e"
+}

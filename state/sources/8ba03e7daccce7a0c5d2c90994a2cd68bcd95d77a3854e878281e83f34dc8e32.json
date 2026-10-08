@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Pastor of Hermas",
+          "role": null
+        }
+      ],
+      "raw": "The Pastor of Hermas (1st or 2nd century A.D.)"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "2e820bdc-8092-4dc8-bbc9-8d24143434ad",
+    "images": [],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Which Kingdom Are You Living For?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "892109773382a39bc7604c4205e2f442e6afa7b304a160b85deebe77acf70bd1",
+    "metadata_sha256": "1055309fd35627fb146abe3471ffbb41693fa2627c4e139eef9752447db094f3",
+    "structure_sha256": "8b78efdc6a36d8c9703f6cc511291e34269e8b231954669429bc5ded028cc313",
+    "text_sha256": "f37919ee9bf6732dc4a477f3078dbb1221b4fb937479f656c2d8a4cc3067452b",
+    "translation_metadata_sha256": "653d609ad36e766fa60ad8c30e1bbf78083954d494b0a9cc90c36632b84426a1"
+  },
+  "html": "<article data-article-id=\"2e820bdc-8092-4dc8-bbc9-8d24143434ad\">\n  <p>As in this world we have no abiding city, we ought to seek one to come. He. 13:14 He (the Lord) says to me, “You know that you who are the servants of God dwell in a strange land, for your city is far away from this one. If, then,” He continues, “you are aware of the city in which you are going to live, why do you provide for yourselves lands, and make expensive preparations, and accumulate dwellings and useless buildings here? He who makes such preparations for this city here cannot return again to his own. Oh foolish, and unstable, and miserable man! Do you not understand that all these things here belong to someone else, and are under the power of another? For the lord of this city will someday say to you, “I do not want you to dwell in my city. Depart from this city, because you do not obey my laws.”</p>\n  <p>You, therefore, although you have fields and houses and many other things, when he casts you out, what will you do with your land and house and other possessions which you have gathered to yourself here? For the lord of this country can justly say to you, “Either obey my laws or depart from my dominion.”</p>\n  <p>What, then, do you intend to do, respecting your lands and the rest of your possessions here, when you have a law from your own heavenly city? Here is what you will do. You will deny the heavenly law altogether and walk according to the law of this city here.</p>\n  <p>Watch out lest you deny the law in your heavenly city to your own hurt. Then, if you want to return to your heavenly city, you will not be received. You will be excluded from it, because you have denied the law of your city.</p>\n  <p>Therefore, take care as one who lives in a foreign land. Make no further preparations for yourself than what is merely sufficient. When the master of this city comes to cast you out for disobeying his law, be ready to leave his city, and to depart to your own and to obey your own law where you will not be exposed to annoyance but will be in great joy.</p>\n  <p>Therefore, instead of lands, buy afflicted souls, according to your ability. Visit widows and orphans and do not forget them. Spend your wealth and all your earthly preparations which you have received from the Lord, upon such lands and houses as these. It is only for this reason that the Master makes you rich, so that you might perform these services unto Him. It is much better for you to purchase these types of lands, possessions, and houses. You will find these in your own heavenly city, when you come to dwell there. These are noble and sacred expenditures, which do not bring sorrow or fear, but joy.</p>\n  <p>Do not adopt the practice of acquiring things the way the heathen do, for it will be injurious to you who are the servants of God. Instead, adopt the practice of acquiring things in such a way that brings you eternal joy.</p>\n  <p>Do not corrupt yourself by touching what is another’s nor covet it. It is an evil thing to covet the goods of other men. Do your own work, and you will be saved. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4d12f55b44d51209da36359f62f8bc4c15dca11b959d0131705562eec5d4ef1f"
+}

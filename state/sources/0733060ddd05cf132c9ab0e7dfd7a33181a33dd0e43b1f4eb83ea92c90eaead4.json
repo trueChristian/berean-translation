@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Bangor, California",
+          "name": "Faith Sommers"
+        }
+      ],
+      "raw": "Faith Sommers\nBangor, California"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "1da906dc-7485-4e88-adfb-dc70df21e888",
+    "images": [
+      {
+        "alt": "Three candle-shaped lights glowing in darkness",
+        "caption": null,
+        "credit": "Photography By Laurel",
+        "public_path": "/images/articles/1da906dc-7485-4e88-adfb-dc70df21e888-1.jpg",
+        "repository_path": "public/images/articles/1da906dc-7485-4e88-adfb-dc70df21e888-1.jpg",
+        "rights_note": "The page-2 masthead credits Photography By Laurel for printed page 33; no separate permission notice or license terms are stated. The clean embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG without changing its published dimensions, crop, orientation, or content.",
+        "role": "header photograph",
+        "sequence": 1,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "6e434782-fad8-50a6-84db-a97babd8c346",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "Songs in the Night",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8d0114e27bee5f5efb84730a6d2ac0c280ae07a9b79542380967c97541067ea4",
+    "metadata_sha256": "5f41288c3d813a0482726942b68f5ebd0bde04c9182305ea36bc232cc82d5498",
+    "structure_sha256": "2e5a6ac2c0fa07ae6c90227d7af56fd698bc7b57f2e1f6a7117bda5a2d493025",
+    "text_sha256": "f86858617634da5c20badbddd2ec594563f580db296e038e4e8482ebdefd65ac",
+    "translation_metadata_sha256": "894993ed5b4fdd69703c48ed36b35624510919ed09eba347cc10bd3e2a2838cd"
+  },
+  "html": "<article data-article-id=\"1da906dc-7485-4e88-adfb-dc70df21e888\">\n  <figure>\n    <img src=\"/images/articles/1da906dc-7485-4e88-adfb-dc70df21e888-1.jpg\" alt=\"Three candle-shaped lights glowing in darkness\" loading=\"lazy\">\n  </figure>\n\n  <p class=\"drop-cap\">I have always enjoyed Anabaptist history but only recently heard that the early reformers, like Zwingli, didn’t allow singing in their worship services. Praise God, their followers did not adhere to that idea.</p>\n  <p>Singing is one of the surest ways to cultivate a heart in step with the Creator, the one who made the morning stars sing for joy. Songs change the heart and the atmosphere.</p>\n  <p>Years ago, when the older children were young, we were having a rough morning. Nothing went well. I slipped out to the wash line to hang up clothes and to avoid my irritation spilling over the wee ones. As I often do, whether I’m sad, happy, weary, energized, or irritated, I started singing, not consciously, a little song we were teaching the toddlers. Suddenly the words stopped my frustration in mid-air.</p>\n  <p>“This little light of mine, I’m gonna let it shine.”</p>\n  <p>My light was not shining that morning, and I repented, determined that Satan would not blow out the feeble light of love and hope. Then I hurried inside, to beg my children's forgiveness and, once more, hold up the light.</p>\n  <p>More recently, I clung to my pillow one long, sad night, grieving things I could not change and weeping my prayers to God. In a few flashes of clarity, He gave me phrases to a song I hardly knew. But it was enough to calm my soul, and I rested in His love. The next day I found the words and memorized this beautiful song by Amy Carmichael:</p>\n\n  <div class=\"poem\">\n    <p>Leave it to Me, child, leave it to Me;<br>\n    Dearer thy garden to Me than to Thee,<br>\n    Lift up thy heart, child, lift up thine eyes—<br>\n    Naught can defeat Me, naught can surprise.</p>\n\n    <p>Leave it to Me, child, leave it to Me;<br>\n    Trust in the wall of fire, look up and see<br>\n    Stars in their courses shine through the night,<br>\n    Both are alike to Me, darkness and light.</p>\n\n    <p>Leave it to Me, child, leave it to Me,<br>\n    Let slip the burden too heavy for thee;<br>\n    That which I will, My hand will perform,<br>\n    Fair are the lilies that weather the storm.</p>\n  </div>\n\n  <p>All throughout the Bible, God’s people sang. It must be part of our worship, personally and collectively. It’s encouraging to read the Psalms and to sing the words as a prayer to God. Our family became used to creating tunes as we read. It is also powerful to pray the Word of God, and singing the Word is another way to glorify Him.</p>\n  <p>There is victory when we sing, and a song can be a prayer. Only last week I had exhausted my words of prayer after hours of solid beseeching our God and Helper. One day, as I laced my shoes to walk out the lane, I said, “God, I can’t pray anymore. I am going to sing.” And I fancied He patted my shoulder and whispered with a smile, “It’s okay, My daughter. I love to hear you sing. Songs are also prayer.”</p>\n  <p>In Revelation God promises heaven will be filled with glory—and music. And today, He covers our burdens with songs of hope, our sorrow with comfort, and our weariness with courage. “O come, let us sing unto the Lord: let us make a joyful noise unto the rock of our salvation” (Psalm 95:1).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "56e9e499e5bdd1e126540a57016f2925523a724f64bc374cca10c87e1153e7c2"
+}

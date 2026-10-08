@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "268417aa-9fc3-49d2-973e-d92dac80d8a3",
+    "images": [
+      {
+        "alt": "A desert landscape and a profile of John the Baptist accompany printed scripture passages.",
+        "caption": null,
+        "credit": null,
+        "height": 503,
+        "public_path": "/images/articles/268417aa-9fc3-49d2-973e-d92dac80d8a3-1.jpg",
+        "repository_path": "public/images/articles/268417aa-9fc3-49d2-973e-d92dac80d8a3-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Sole source PDF object 132 is a flattened devotional collage of desert landscape, John silhouette and scripture text. No clean landscape, figure or separately painted text objects exist. Complete substantive standalone graphic retained with intrinsic text, explicit unavoidable baked-typography exception; no pixels synthesized. Separate cover shadow/frame and mailing panel omitted.",
+        "role": "devotional illustration",
+        "sequence": 1,
+        "source_page": 36,
+        "source_pdf_object": 132,
+        "transformations": [
+          "Source RGB JPEG encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi, unchanged intrinsic dimensions and orientation."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 504×503",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 504x503 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 504
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d392d03384a7ec70586997fb8b7e79d189e1a98ce499ff9e30d4a78e494184f2",
+    "metadata_sha256": "2504fade27839dafc323ef12b94d0b67f1f8beeeba24cfad4e32412702ba0a39",
+    "structure_sha256": "316a06d8f39b899065692a160c1d78409fb6533255778cdfc9874b586a5a0261",
+    "text_sha256": "47a22e2356579dda7f9a827e0a3ca14a8d00aced235faf4adc36cc0fb791e015",
+    "translation_metadata_sha256": "6b73e9c506f61b40141c6238618ffc49fef26814272b47a3ee665c555f3ab4e7"
+  },
+  "html": "<article data-article-id=\"268417aa-9fc3-49d2-973e-d92dac80d8a3\">\n  <figure>\n    <img src=\"/images/articles/268417aa-9fc3-49d2-973e-d92dac80d8a3-1.jpg\" alt=\"A desert landscape and a profile of John the Baptist accompany printed scripture passages.\">\n  </figure>\n  <p><strong><em>There was a man sent from God<br>whose name was John.</em></strong></p>\n  <p class=\"poem\"><em>He was a burning and a shining light.<br>....filled with the Holy Ghost, from the womb.<br>....none greater, born of women.<br>....the voice of one crying in the wilderness.<br>....in the deserts, till the day of his shewing.<br>....the prophet of the Highest.</em></p>\n  <p class=\"poem\"><em>He went before the face of the Lord<br>To turn the hearts of the Fathers.</em></p>\n  <p class=\"poem\"><em>He said, Behold the Lamb of God.<br>....Make straight in the desert,<br>a highway for our God.<br>....Repent ye.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "12190e88bfa21d39bcb8b9d8acdd3bf2d3a490c26786a2aab769717a30fb7897"
+}

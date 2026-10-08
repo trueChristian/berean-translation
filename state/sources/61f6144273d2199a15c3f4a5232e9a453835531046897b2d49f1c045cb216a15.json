@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Henry Wadsworth Longfellow"
+        }
+      ],
+      "raw": "-Henry Wadsworth Longfellow"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a95a8fdd-8aa8-44b6-a9f9-fd83772d1706",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-1.jpeg",
+        "repository_path": "public/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 150. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. Source-pixel crop (38, 1060, 1312, 1687). The sole full-page raster combines pink texture, photograph, and baked poem typography/frame/shadow. This unobstructed source-pixel texture crop retains a useful representative region without baked typography, frame, or shadow. Separate mailing furniture is omitted. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "article background texture",
+        "sequence": 1,
+        "source_page": 36
+      },
+      {
+        "alt": "A couple with an infant reading an open book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-2.jpeg",
+        "repository_path": "public/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-2.jpeg",
+        "rights_note": "Original embedded PDF image object xref 150. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. Source-pixel crop (119, 363, 726, 976). The family photograph is cropped from the sole flattened page raster, just inside the baked frame, excluding its border, shadow, surrounding texture and poem typography. This color published rendition has a distinct crop from the grayscale photograph on page 11 and is retained separately. No replacement or hidden pixels were generated. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "family photograph",
+        "sequence": 2,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Home Song",
+    "topics": [
+      "76b8f216-8c11-5378-90f6-37fe3f41d329",
+      "3e9611a8-f79d-544b-901f-4e8227b39b80"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6bfeb3efd30a6621b058292dc318573991310f509ea6c673251cf6807ed2b7fa",
+    "metadata_sha256": "b3c4aade3a4efff2da27a874e6889f777b534a5a604754616d0a04001340efa8",
+    "structure_sha256": "2d9aa41de7fd7bef88d38b8aa5856d865ec1347ad5b2090a963314676623ef4e",
+    "text_sha256": "7ca4a454427d8e2521d08216c0d00de46d74d101330f972101007065e7d6f47e",
+    "translation_metadata_sha256": "cead14727614567450a2685c7c45b94072f4a716eccd854644a94e514568c0ee"
+  },
+  "html": "<article data-article-id=\"a95a8fdd-8aa8-44b6-a9f9-fd83772d1706\">\n<figure>\n<img src=\"/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-1.jpeg\" alt=\"\">\n</figure>\n<figure>\n<img src=\"/images/articles/a95a8fdd-8aa8-44b6-a9f9-fd83772d1706-2.jpeg\" alt=\"A couple with an infant reading an open book\">\n</figure>\n<p class=\"poem\"><strong>Stay, stay at home, my heart, and rest;<br>Home-keeping hearts are happiest;<br>For those that wander they know not where<br>Are full of trouble and full of care;<br>To stay at home is best.</strong></p>\n<p class=\"poem\"><strong>Weary and homesick and distressed,<br>They wander east, they wander west,<br>And are baffled and beaten and blown about<br>By the winds of the wilderness of doubt;<br>To stay at home is best.</strong></p>\n<p class=\"poem\"><strong>Then stay at home, my heart, and rest;<br>The bird is safest in its nest;<br>O'er all that flutter their wings and fly<br>A hawk is hovering in the sky;<br>To stay at home is best.</strong></p>\n<p><em>-Henry Wadsworth Longfellow</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c237b9c59a738187d4c274a25fa274fa6fc6927664cc7b9971efa6524cdd6fba"
+}

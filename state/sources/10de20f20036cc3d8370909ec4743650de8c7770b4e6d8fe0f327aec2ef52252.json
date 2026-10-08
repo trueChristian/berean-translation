@@ -1,0 +1,185 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Clifford Fox"
+        }
+      ],
+      "raw": "by Clifford Fox"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "976a7e08-e662-50b6-a13d-c787f72c7666"
+    },
+    "id": "47d57f17-be5e-4fb0-913c-530c7fc05aa1",
+    "images": [
+      {
+        "alt": "A man twirls a lasso among a group of cowboys and horses.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-1.jpg",
+        "repository_path": "public/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-1.jpg",
+        "rights_note": "Original embedded image object 76 on printed page 20. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "cowboy group photograph",
+        "sequence": 1,
+        "source_page": 20,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            539,
+            726
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image",
+          "output_dimensions": [
+            539,
+            726
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            539,
+            726
+          ],
+          "source_object": 76
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man in a cowboy hat sits at a table beside a bottle.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-2.jpg",
+        "repository_path": "public/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-2.jpg",
+        "rights_note": "Original embedded image object 80 on printed page 21. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "cowboy portrait illustration",
+        "sequence": 2,
+        "source_page": 21,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            475,
+            567
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            473,
+            565
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            477,
+            568
+          ],
+          "source_object": 80
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Two men wearing cowboy hats sit on the ground.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-3.jpg",
+        "repository_path": "public/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-3.jpg",
+        "rights_note": "Original embedded image object 84 on printed page 22. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "cowboy pair photograph",
+        "sequence": 3,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            448,
+            416
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            448,
+            416
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            448,
+            417
+          ],
+          "source_object": 84
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "The Cowboy Spirit",
+    "topics": [
+      "8b345ddb-8046-5651-b04f-924af67af18b",
+      "71b4f992-d7ff-5b6a-b1d5-2f08160b4dfa",
+      "7765eef1-b410-528e-bcde-39382c685de1",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1eebaf773eb11725712675f4f76fb53c7de80720f81858bb23eae79d52b19d9d",
+    "metadata_sha256": "d6aff1d2af094d1a3df057e0f0aefb085a5844b15ba4786bc1260d2e7a5f992e",
+    "structure_sha256": "13545e4096fc0238995c76875f2f98fbf2a0319a5c2aed28b661a74fa93ddf01",
+    "text_sha256": "46b1dc2fac2050089ee71450d08774eafec91324c5c6c70f648d962e75c1b429",
+    "translation_metadata_sha256": "bc7c62dc33d2ca546d41b17574f56aca24fcad1900b07170ae479f735b60f668"
+  },
+  "html": "<article data-article-id=\"47d57f17-be5e-4fb0-913c-530c7fc05aa1\">\n  <figure>\n    <img src=\"/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-1.jpg\" alt=\"A man twirls a lasso among a group of cowboys and horses.\">\n  </figure>\n  <p>Recently I have seen professing Christians dressed in cowboy-western clothes complete with boots, big belt buckle and even the big Stetson style Cowboy hats. It sadly reminded me of my youth before I was born again. It started me thinking. Why do I view that as wrong? What Biblical basis do I have for not approving of this type of clothes?</p>\n  <p>As an unconverted youth, my friends had this country-western music and I soon grew to love it. Looking back, it is shocking to me that I, a professing Christian, could sing along with songs of immorality without seeing how incongruous it was to the Biblical standards.</p>\n  <p>Through the years I have come to notice that If you tell me the type of songs that a person sings and the type of clothes that he wears, I have a fairly good picture of what his character is like. The Bible states that “by your fruits ye shall know them.” We must ask ourselves, is our life showing the fruit of the Spirit or unrighteousness!</p>\n  <p>Now, I am not saying that you can not wear a hat or boots and be a true disciple of God. I am sure that there are some born again, godly people who are wearing these clothes probably from little up. Perhaps your job requires you to wear boots. I am not against wearing things appropriate for the conditions you are in. I would just like to raise the concern and ask the question to make sure we are truly aware of what we are representing.</p>\n  <p>As a follower of Jesus Christ we will desire, as much as possible, to have the same meek and humble attitudes and display the same simple dress that He did. Someone who has the new nature of Christ would naturally not want to appear copying the influences and ways of the spirit of the world. For example, is another circle, a person who wants to be known as a “toughie” or “rebel” may wear leather clothes or have a Mohawk haircut.</p>\n  <figure>\n    <img src=\"/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-2.jpg\" alt=\"A man in a cowboy hat sits at a table beside a bottle.\">\n  </figure>\n  <p>Did you ever notice how quick people are to form friendships around the type of things that you wear or own? Two complete strangers can meet and know immediately by what they look like that this person has mutual interests! You notice two motorcyclists giving each other thumbs up as they pass one another on the road. Or two people who are driving Jeeps wave to each other even though one is out of state license plate! They don’t need to know each other; they have a common bond. It is the same with the cowboy clothes. They feel that they have common ground simply by the tastes that are portrayed.</p>\n  <p>Doesn’t that make us stop and think about what spirit we are portraying in how we dress? Should a Christian be portraying a cowboy spirit? Should we not rather be dressed in a way that shows a meek and humble spirit?</p>\n  <p>And that brings us to just what is a cowboy spirit? What comes to your mind when you see the cowboy hat, boots, etc.? The country-western music is closely attached to the spirit of cowboys and gives us many insights to what this clothing style is representing. Now, I am not saying that just because you wear a cowboy hat, etc., now suddenly you become a wild cowboy straight from the movies. But, please be mindful that you are in fact, portraying this attitude to people whether you intend to or not.</p>\n  <p>Here are a few things that come to my mind in connection to cowboys.</p>\n  <ol>\n    <li>A wanderer; someone with no place to call home, an unstable person.</li>\n    <li>A loose immoral life, living with multiple partners.</li>\n    <li>A “tough” person, one who is self-sufficient, even proud of himself. (I’m cool if I wear these clothes.)</li>\n    <li>A “free” person with no strings attached to any place or person, irresponsible, a loner.</li>\n    <li>A rebellious person, not wanting any authority over him, his own boss.</li>\n    <li>A gun carrying, stand for your rights no matter what it costs the other person attitude, a criminal waiting to happen.</li>\n    <li>A tobacco user. (Ever notice how the tobacco companies advertise to try to make the users appear macho?)</li>\n  </ol>\n  <p>Again, please don’t get me wrong; I certainly believe that there are people who wear these clothes and are innocent of <em>all</em> of the above. I also do not believe that the actual cowboys of years gone by were, in general, this type of person. But they have been glamorized by novels, songs, movies, etc. to be the ultimate expression of the attitude of “be your own man”; able to outshoot any cattle thief or Indian band. They are portrayed as tough, macho men who are not afraid of anyone or anything. They can outride the wildest bucking bronco. They are tough!</p>\n  <figure>\n    <img src=\"/images/articles/47d57f17-be5e-4fb0-913c-530c7fc05aa1-3.jpg\" alt=\"Two men wearing cowboy hats sit on the ground.\">\n  </figure>\n  <p>So let us go back to the Biblical principles for the clothes we wear. We are to live in simplicity. 2Co 1:12 states “For our rejoicing is this, the testimony of our conscience, that in <em>simplicity</em> and godly sincerity, not with fleshly wisdom, but by the grace of God, we have had our conversation [whole way of life] in the world, and more abundantly to you-ward.</p>\n  <p>Further, the Bible teaches us to abstain (stay away from) all appearance of evil.(1Th 5:22) We are also to abstain from fornication (Acts 15:20) and from fleshly lusts. Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul. (1Pe 2:11)</p>\n  <p>A macho or proud look is no small thing to God. The Bible teaches us that God will judge those who are proud. And whosoever shall exalt himself shall be abased; and he that shall humble himself shall be exalted. (Mt 23:12 ) A rebellious spirit is also a grief to God God will judge those who are rebels against the government. 2Pe 2:10 states “But chiefly them that walk after the flesh in the lust of uncleanness, and despise government. Presumptuous are they, self-willed, they are not afraid to speak evil of dignities.”</p>\n  <p>So let me state that my purpose for writing this article is not to condemn but to encourage each of us to go through our closets and dump those clothes that do not exemplify Christ. But more importantly let us go through the closets of our minds and look at the attitudes and thought patterns that are there and “see if there be any wicked way in me”. 1 Peter 3:3 says it well: Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of <em>putting on of apparel</em>; but let it be the hidden man of the heart, in that which is not corruptible, even the ornament of <em>a meek and quiet spirit</em>, which is in the sight of God of <em>great</em> price.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "feaf3e099cd5a953ca55906d194982b53d29cae994d6528df8661fbffa8f549c"
+}

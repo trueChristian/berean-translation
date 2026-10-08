@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author Unknown"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7270a139-2c15-4a89-9175-028c8a0a1ef1",
+    "images": [
+      {
+        "alt": "Ocean waves breaking against a rocky cliff",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7270a139-2c15-4a89-9175-028c8a0a1ef1-1.jpg",
+        "repository_path": "public/images/articles/7270a139-2c15-4a89-9175-028c8a0a1ef1-1.jpg",
+        "rights_note": "Embedded photograph object 135 is the only source and contains the irreversibly baked poem title, body and attribution in its upper portion. A meaningful unobstructed lower-wave source-pixel crop omits that typography while retaining the cliff base and breaking waves. Crop stays within the printed page crop. Separately painted mailing panel, postage box and publication logo omitted. No pixels synthesized. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Source sRGB encoded as baseline sRGB JPEG with embedded profile and nonzero 300 dpi density. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            38,
+            955,
+            1312,
+            1688
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            1274,
+            733
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1350,
+            1727
+          ],
+          "source_object": 135
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Pressed",
+    "topics": [
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f8b22b1d008d0557cc3385961b97ea0ad84016461b84ab062b3bf3458ca26537",
+    "metadata_sha256": "942ecca9a76d781e3af5b0cf717a0705f5e7a4a9ec8a9e7984e19ba0e22f103f",
+    "structure_sha256": "ad9705d6fa39fa08b0c73e7406711467e0344484f62211291cb1cb31abbf268b",
+    "text_sha256": "e56c422aa20202020447577b638993cbaf775972fcfb5aa33c81dd7c033e57ce",
+    "translation_metadata_sha256": "6875437c8b09aef017a71c1ba169101dd5d072c418cc23b2c710ec90908658e2"
+  },
+  "html": "<article data-article-id=\"7270a139-2c15-4a89-9175-028c8a0a1ef1\">\n  <figure>\n    <img src=\"/images/articles/7270a139-2c15-4a89-9175-028c8a0a1ef1-1.jpg\" alt=\"Ocean waves breaking against a rocky cliff\">\n  </figure>\n  <p class=\"poem\">Pressed out of measure and pressed to all length;<br>\nPressed so intensely it seems, beyond strength;<br>\nPressed in the body and pressed in the soul,<br>\nPressed in the mind till the dark surges roll.<br>\nPressure by foes, and a pressure from friends.<br>\nPressure on pressure till life nearly ends.</p>\n  <p class=\"poem\">Pressed into knowing no helper but God;<br>\nPressed into loving the staff and the rod.<br>\nPressed into liberty where nothing clings;<br>\nPressed into faith for impossible things.<br>\nPressed into living a life in the Lord,<br>\nPressed into living a Christ-life outpoured.</p>\n  <p>Author Unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5676ee6c25ab9d23dbedc19d772288518a81fd6910109bece201129d451a7d57"
+}

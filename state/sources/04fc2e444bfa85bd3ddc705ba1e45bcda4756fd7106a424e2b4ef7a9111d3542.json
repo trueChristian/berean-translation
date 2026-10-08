@@ -1,0 +1,92 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Annie J. Flint"
+        }
+      ],
+      "raw": "(A hymn written by Annie J. Flint. 1919)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a424ee6a-78e6-435b-b6bf-1bff6ae49e6a",
+    "images": [
+      {
+        "alt": "An autumn tree-lined road beside grass and water.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a424ee6a-78e6-435b-b6bf-1bff6ae49e6a-1.jpg",
+        "repository_path": "public/images/articles/a424ee6a-78e6-435b-b6bf-1bff6ae49e6a-1.jpg",
+        "rights_note": "PDF image object 147. Only source RGB raster has the hymn title, byline, body and translucent backing irreversibly baked into its upper portion; no underlying clean photograph, mask, tile or transparency group exists. Useful unobstructed native-pixel crop below all poem text/backing retains the road and trees, within the published page clipping bounds. Separate mailing address, logo, postage panel and lines are omitted. No pixels synthesized. No asset-specific image credit or permission restriction is printed; no individual licence inferred. RGB source encoded with sRGB profile; no CMYK inversion. Standards-normalized baseline JPEG with nonzero 96 dpi density.",
+        "role": "hymn background photograph",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            18,
+            475,
+            630,
+            810
+          ],
+          "flip": null,
+          "method": "original embedded image extraction; recorded source-pixel crop only",
+          "output_dimensions": [
+            612,
+            335
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            648,
+            829
+          ],
+          "source_object": 147
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "independent_image_review": "passed source correspondence, full-resolution crop, colour and overlay checks",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "What God Hath Promised",
+    "topics": [
+      "c987aaa5-9902-5dc1-abf1-1d58331a330f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1e4e6342dcb19790d211b63ec9181931fc82b4f1b9164090b93fb740a611ab80",
+    "metadata_sha256": "63455d0e5ecaad6335ebcf438d21b243b31ae732957af65dbe7e22a6eb0ab12c",
+    "structure_sha256": "d8f2cd374751a1d62a95da8faafc045cbe95294fa492600cacc31869765e5886",
+    "text_sha256": "184058900b20916e9b80fb43d697eb12e6abf788dbcc58666d745ca5db57ec5a",
+    "translation_metadata_sha256": "2ea074fe9c9a0f251f82c75078b9b14cd4b989747a8b43abf1e59ca184b01e24"
+  },
+  "html": "<article data-article-id=\"a424ee6a-78e6-435b-b6bf-1bff6ae49e6a\">\n<p class=\"poem\">God hath not promised skies always blue,<br>\nFlower strewn pathways all our lives through;<br>\nGod hath not promised sun without rain,<br>\nJoy without sorrow, peace without pain.</p>\n<p class=\"poem\">God hath not promised we shall not know<br>\nToil and temptation, trouble and woe;<br>\nHe hath not told us we shall not bear<br>\nMany a burden, many a care.</p>\n<p class=\"poem\">God hath not promised smooth roads and wide,<br>\nSwift, easy travel, needing no guide;<br>\nNever a mountain rocky and steep,<br>\nNever a river turbid and deep.</p>\n<p class=\"poem\"><em>Refrain<br>\nBut God hath promised strength for the day,<br>\nRest for the labor, light for the way,<br>\nGrace for the trials, help from above,<br>\nUnfailing sympathy, undying love.</em></p>\n<figure><img src=\"/images/articles/a424ee6a-78e6-435b-b6bf-1bff6ae49e6a-1.jpg\" alt=\"An autumn tree-lined road beside grass and water.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2f7e1aa079d3f6888321f990965863162912fc31a9a867d5f5e79d2bfab73e96"
+}

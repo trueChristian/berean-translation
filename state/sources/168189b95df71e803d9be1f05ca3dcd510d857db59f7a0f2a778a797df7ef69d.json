@@ -1,0 +1,137 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Campbell Morgan"
+        }
+      ],
+      "raw": "by Campbell Morgan"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+    "images": [
+      {
+        "alt": "An older bearded man places his hands on a kneeling man’s head while a woman sits nearby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg",
+        "repository_path": "public/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg",
+        "rights_note": "Extracted the original embedded image object 75 from printed page 18. No separate image credit or image-specific permission wording is printed. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            578,
+            471
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            578,
+            471
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            578,
+            471
+          ],
+          "source_object": 75
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      },
+      {
+        "alt": "A robed man stands with arms extended beside a kneeling figure outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg",
+        "repository_path": "public/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg",
+        "rights_note": "Extracted the original embedded image object 79 from printed page 19. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [0, 0, 285, 438] from the 287 × 440 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 19,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            285,
+            438
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            285,
+            438
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            287,
+            440
+          ],
+          "source_object": 79
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Our Fellowship Is With The Father",
+    "topics": [
+      "b23f78ff-d094-5fb4-bb62-cab82040c7d7",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f0ff09e24ae142f0fb0bf1d3c625fd12282ced037ec72cb696d571436bc60d6e",
+    "metadata_sha256": "a73549de451c499fcbba2ac7a3a182c39bb3b39f97a04fb65356191047220861",
+    "structure_sha256": "8a9a11a1f46c2e4e83ec0519f39124ef62ed8194df25f34dd4c431369111c498",
+    "text_sha256": "1b51dddd8ae13efffbefde7159039af7cf8117497e68b4813100fc917d49028e",
+    "translation_metadata_sha256": "a583905ed6d1cadf9d81bd4e838fa3ccb6d7fda579200db8f2be1e754fb36144"
+  },
+  "html": "<article data-article-id=\"7c9d5015-158a-4c07-92fc-ae40c998d9ae\">\n  <figure>\n    <img src=\"/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg\" alt=\"An older bearded man places his hands on a kneeling man’s head while a woman sits nearby\">\n  </figure>\n  <p>I wonder sometimes whether any more startling or profound word is to be found in the New Testament concerning the relationship into which men and women in Jesus Christ are brought with God. This indeed is a sea wherein all our thoughts are drowned. We may approach the great theme and see some of the gleams of light that break from it, and yet when we have meditated on it prayerfully and carefully, under the guidance of the Spirit, it still stretches out beyond us, baffling our thoughts, incapable of being expressed in any words of earth’s poor language, waiting for its final exposition, for the language and illumination of the Father’s house.</p>\n  <p>“Our fellowship is with the Father.” The emphasis is placed upon the word that indicates relationship. It is the most startling announcement— <em>fellowship.</em> How differently the minds of men think of God. There are those who hate the very thought of Him. There are those who fear Him with a slavish fear. There are those who only think of Him as a king to whom they are bound to submit themselves. But the distinctive and overwhelming glory is, that it brings us into a new relationship, that of fellowship. All enmity is banished form the heart; all fear, save the fear of filial love, is forever swept away; henceforth we enter, though Christ Jesus, upon the profounder, more wonderful, more intimate relationship indicated by that great word “fellowship.”</p>\n  <p>It seems to me almost impossible for us to begin to attempt a description of what friendship with God means. The word “friend” is one of the most sacred and beautiful words in our language, and a word sadly abused. There is a great difference between an acquaintance and a friend. I thank God for my acquaintances, but I have not many true friends in the world, nor have you. A friend is so precious that no human being ever has very many of them on life’s pilgrimage and pathway. How many people are there with whom you feel perfectly safe? How many with whom you feel, sitting alone, that you can pour out everything that is in your heart, the mean thing as well as the noble thing, the doubt as well as the confidence. There are very, very few; but that is friendship. “Our fellowship it with the Father.” We have been brought into such a relationship with God, that if we do but know Him and understand its truth, we can together fulfill that very idea of friendship. I can feel perfectly safe when I have entered in to my inner chamber and have shut the door against all others than my Father. I can say to Him everything that is in my heart.</p>\n  <p>Dear young believer, have you discovered that? If not then you have not yet experienced one of the most precious things in life as a Christian, on of the deepest and profoundest blessings that has come in Christ Jesus. There is one thing God never wants to hear from you, and that is a word of the nature of hypocrisy. He never wants to hear you say that your will is resigned to His, when your heart is hot and restless and you think He is dealing hardly with you. When you think so, He wants you to tell Him. He wants you to dare to pour out in His listening ear everything that is in your heart— your meanness, your littleness, your baseness, your doubts, and your fears. Oh, but you say, I would be afraid to do it. There is the secret to a good deal of lack in your life. Begin to do it, and you will find that He will sift the things you say to Him, and He will blow away that which is unworthy, and retain that which is best.</p>\n  <p>Notice a quotation from Dryden, in that poem, “All for Love”:—</p>\n  <blockquote>\n    <p class=\"poem\">“…We were so mixed.<br>\n    As meeting streams,<br>\n    both to ourselves were lost.<br>\n    We were one mass;<br>\n    we could not give or take<br>\n    But from the same;<br>\n    for he was I, and I he.”</p>\n  </blockquote>\n  <p>That is the perfection of friendship, and that is the very inner heart of the meaning of this word “fellowship.” I give to God, but I can only give to Him only Himself as He has given Himself to me. God gives to me everyday. What does He give to me? God gives to me my new self in Christ. As two streams have mingled, so the life of the soul in Christ and the infinite life of God have mingled, and all my frailty finds its forcefulness in His might, and all His might finds its means of expressing itself along the line of my frailty.</p>\n  <p>This is the fact; “our fellowship is with the Father.” Now, how far do we practice it? There is such a thing as practicing friendship, practicing fellowship. We have only been talking about the nature of the great fact of friendship with God, in and through Jesus Christ.</p>\n  <p>In every life there ought to be time for the practice of fellowship with God. Here is one peril of the age. Oh, this rushing, restless, feverish age! We are swept off our feet by the rush of our work. Carried along from day to day, tumbling like a turbid stream, and there is not restfulness, not practice of fellowship, no time for it. Time for everything else, but not for that, and everything else is weakened for lack of it. First take time to talk with God, and secondly,—and this is more neglected than the first— take time to let God talk to you. The first need emphasis; take time to talk with Him. I do not say pray, though it would be right to say it, but we have so largely associated the work “prayer” with petition. We have been busy asking for things. Talk to Him. Tell Him all about your own life; about your home; about your children. Ask Him for things if you wish, but the nearer you live in communion the fewer petitions there will be in your prayer. Practice the art of talking to God. Tell him everything, and then take time that He may speak to you.</p>\n  <figure>\n    <img src=\"/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg\" alt=\"A robed man stands with arms extended beside a kneeling figure outdoors\">\n  </figure>\n  <p>Oh, that this message may at least call a halt amid all the activity of the church, and call every one of us back to the practice of our fellowship. Beloved, fellowship is a fact. I am not asking you to create the fact, but to show it. The fact is created in Christ. In Jesus I have been made the friend of God. The trouble is not there, the trouble is that I have not practiced it. And let me say that when a soul begins to practice this waiting for God and for His speech, then will come a new sense of Christ, such as the soul has never had before.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d"
+}

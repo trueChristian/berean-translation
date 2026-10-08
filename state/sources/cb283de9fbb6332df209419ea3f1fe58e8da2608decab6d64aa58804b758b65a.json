@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "from\nOut and Out Magazine\n1907"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+    "images": [
+      {
+        "alt": "A telegraph key and its electrical contacts",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg",
+        "repository_path": "public/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg",
+        "rights_note": "Extracted the original embedded image object 116 from printed page 30. No separate image credit or image-specific permission wording is printed. Published rectangular clipping reproduced to the nearest source-pixel boundary: crop [2, 1, 558, 414] from the 559 × 415 source. Orientation is unchanged. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            1,
+            558,
+            414
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            556,
+            413
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            559,
+            415
+          ],
+          "source_object": 116
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "pages": [
+        30,
+        32
+      ],
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "A PROMISE FOR SERVICE",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "e763b632-f673-547f-afb3-186d486db0cc"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2653a896aad0a08bea518f1fbc1ffc5d8224b350b469c3b770a7588c4eafea33",
+    "metadata_sha256": "89a1470f47a1f0a3816a85448f6b7ef873512dbe96b668bfbc33f618cb19b8b6",
+    "structure_sha256": "d041811d48a51faa42609f64571ab80871f47a4a567e44d25a8a83aaa0971825",
+    "text_sha256": "98174fff078b57adb3a551af88061ac4b47b139ef5619a269e1148bb80ca7c6a",
+    "translation_metadata_sha256": "23b752b8e9a8899196d231a6514c4a074f1281e5ed98563276e81a6dd2b5788c"
+  },
+  "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"A telegraph key and its electrical contacts\">\n  </figure>\n  <p>“If ye ask, I will do.” Concerning those things which only God can do, we naturally betake ourselves to prayer. For knowing that we ourselves cannot do them, we find our hope only in that asking which brings God’s doing. But let us remember, too, that our own personal service, in the things which <em>we can</em> do, needs also that asking which will bring God’s doing into it. Do we realize that everything we do, need to be saturated with the spirit of prayer that <em>God</em> may be the real doer, the real worker in the things which we are busily doing? Yet this is a mighty truth: “If ye ask, I will do” applies to your own service as well as your intercession for others.</p>\n  <p>Have you ever toyed with the key of a telegraph while the circuit was closed? If so, you have noted this fact. On that key you may write a complete message, from address to signature. Upon it every telegraphic character may be perfectly formed; every condition of expert operating may be fulfilled. But it matters not how skillful an operator you are, so long as the electric circuit is closed, all your efforts are simply sounding brass and clattering platinum. Not a single spark of electric life do you transmit; not a single message of good or ill, of bane or blessing is conveyed to the waiting listener at the other end of the line.</p>\n  <h2>WHY?</h2>\n  <p><em>Because the battery is not working.</em> And all <em>your</em> working is effort without result, activity without power.</p>\n  <p>But now you open the little brass lever which connects your key to the battery hidden beneath the table. Immediately every letter you form thrills with life, every word you write flashes a living message into the mind and heart of the far-away receiver. Through your work, dead and mechanical in itself, the electronic battery is now pouring forth its vital stream, flooding with life and power every deft motion of your flying fingers.</p>\n  <h2>THE LESSON IS PLAIN</h2>\n  <p>It is in spiritual telegraphy as in material. If the battery is not working, the message is mere clatter. <em>We</em> may <em>do</em>, but if <em>God</em> is not doing through us, then all our doing is naught. If we work in our own fleshly strength we will but effect fleshly results, for “whatever is born of flesh <em>is</em> flesh.” God alone is spiritual life. God is the only begetter of life. Our highest function as servants is to be transmitters of the life of God to others. Our highest doing is that in which God is doing through us.</p>\n  <p>And how shall this be?</p>\n  <h2>THROUGH PRAYER</h2>\n  <p>Prayer connects you with the divine battery of life and power. Prayer puts you “in the Spirit,” and “it is <em>the Spirit</em> that quickeneth.” From the chamber of prayer you come forth to men with the unction, the subtle power, the thrill of God’s own life upon you. As you keep asking, God keeps doing. When you grow prayerless, your deeds grow powerless. Lead no meeting without <em>asking</em> that God may be the real leader through you; speak no message without <em>asking</em> that He may speak through you; begin no work without <em>asking</em> that God may work though you. For, <em>“If ye ask, I will do.”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0"
+}

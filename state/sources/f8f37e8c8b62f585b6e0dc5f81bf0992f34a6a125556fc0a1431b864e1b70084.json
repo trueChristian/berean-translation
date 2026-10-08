@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "Reviewer"
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "15f3d4f9-35ec-4cd2-92dc-497a5cee0e66",
+    "images": [
+      {
+        "alt": "A portrait of a man wearing a suit and patterned tie.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/15f3d4f9-35ec-4cd2-92dc-497a5cee0e66-1.png",
+        "repository_path": "public/images/articles/15f3d4f9-35ec-4cd2-92dc-497a5cee0e66-1.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 112 (142×205 grayscale JPEG). Original source pixels retained, with the exact published cubic-Bezier oval clipping path applied as an antialiased alpha channel at native resolution. Exported RGBA PNG; separately painted white/black oval border omitted. No rotation, flip or synthesized picture pixels.",
+        "role": "article portrait",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": "Extracted PDF base image object 112 (142×205 grayscale JPEG). Original source pixels retained, with the exact published cubic-Bezier oval clipping path applied as an antialiased alpha channel at native resolution. Exported RGBA PNG; separately painted white/black oval border omitted. No rotation, flip or synthesized picture pixels.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGBA PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final image opened and compared with the source page and raw base object. Edges, corners and centre checked; omitted separable layout treatments and any unavoidable rasterized text exception are described in transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Evidences of Eternal Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "029c429f68ad44dea42a01c3b54d08c7c7ff276b987724f2d52d446f2e717d6d",
+    "metadata_sha256": "bf9d0f291bfc1eb85abd706498539f613cbf5332b22ef2ad88a6dbb230bba404",
+    "structure_sha256": "84f5e18a35ea5483cd9ee8b2d12920822713a9cbdffa5c1c15220781de8272fa",
+    "text_sha256": "a1e1c65d03c60c1370eebd529ad5647369e3d95faf150d84fd2062993aa6aa97",
+    "translation_metadata_sha256": "47457089581f4f09a08041503bb935e9f53c7011f88d6152195bbc9e16e65e29"
+  },
+  "html": "<article data-article-id=\"15f3d4f9-35ec-4cd2-92dc-497a5cee0e66\">\n  <p>Modern evangelical churches today boast higher memberships then ever before in the history of the church. Local congregations with numbers exceeding a thousand are not uncommon. New publishing companies, record labels, conventions and endless businesses sporting a little fish on their logo have become so familiar that even the world has begun to mimic it. If numbers alone were the determining factor, it would seem definite that revival has characterized the twentieth century.</p>\n  <p>However, as the numbers have increased, morality and modesty have steadily decreased. Crime, lawsuits and divorce have now become as commonplace in the church as in the world. I guess it should be no surprise that the twentieth century has also seen exponential rises in church splits, factions, heresies, cults, and even warfare among professing Christians. If the evangelical message is intended to be one of salvation, we must be left to wonder exactly what it is they are being saved from.</p>\n  <p>Paris Reidhead, in his book, “<em>Evidences of Eternal Life</em>”, insists that salvation should be noticeable. The back cover of the book expressed his sentiment in this statement: “A hallmark is that mark of genuineness that cannot be imitated. True Christianity, says the Apostle John, has certain hallmarks—certain evidences of eternal life. He lists them throughout his first epistle as follows: walk in the light, keep His commandments, love your brother, love not the world, abide in Him, do not commit sin, love one another, receive the witness of the Spirit, overcome the world, dwell in the life that is in the Son. If these ten evidences of eternal life are not current in the Christian’s life, there is reason to question the believer’s position in Christ Jesus.”</p>\n  <p>Paris Reidhead was born on a Minnesota farm in 1919. Some of the highlights of his lifetime of ministry might include his pastorate in rural Minnesota, his duties as linguist and missionary along the Sudan-Ethiopia border, inner-city pastor in New York City, consultant for the United Nation’s Industrial Development Organization to villages in South America and Africa, and his participation in many Christian conferences across the country. It was during one of these conferences, at Bethany Fellowship in Minnesota, that he preached his sermon, “Ten Shekels and a Shirt”, for which he is best known. In all of his messages Reidhead cries out for a Christian life that is real, effectual, and life changing.</p>\n  <figure><img src=\"/images/articles/15f3d4f9-35ec-4cd2-92dc-497a5cee0e66-1.png\" alt=\"A portrait of a man wearing a suit and patterned tie.\"></figure>\n  <p>In this book, “Evidences of Eternal Life”, Reidhead speaks with a burden on the subjects of salvation, assurance, and fellowship with Christ. Speaking about salvation he said, <em>“The Lord Jesus, speaking of Himself, said, ‘I am the way, the truth and the life; no man cometh unto the Father, but by me’ (John 14:6). He said that He was salvation. Salvation is neither something He did for us, nor a scheme He provided. Salvation is what He is. David knew that. In Psalm 27:1 he said, ‘The Lord is my light and my salvation; whom shall I fear? The LORD is the strength of my life; of whom shall I be afraid?’ Salvation is a person.”</em></p>\n  <p>Reidhead goes on to say that in order to receive the person of Jesus Christ, we must put to death our “self”. Further, putting to death the self is not some kind of theological semantic. It is a real and complete turning away from sin and the world. He writes, <em>“This I affirm: Whosoever is born of God has been awakened and convicted by the Holy Spirit and has been brought to repentance. That person has savingly received Christ and has the witness of the Holy Spirit of that event. That person has become a new creation. The time involved is not the issue. The issue is reality! We are begotten by the agency of His Spirit, confirming the change of our purpose from pleasing self to pleasing God.”</em></p>\n  <p>This reality he speaks of demonstrates itself in a Christian’s desire to be holy and set apart. It is mournful today that the message of Christ is often presented like a high-pressure insurance package. A changed life is considered a mere option for the more committed. About this Reidhead says, <em>“How tragic when Christ has been presented as a ‘hell insurance scheme’ without the prerequisites of awakening, conviction, repentance, and faith. How can a person who has had so much requirement be expected to overcome the world? By the same token, the person who has not experienced awakening, conviction, and repentance, does not meet the definition of having been born of God. You cannot be an overcomer until you have come over from the kingdom of darkness into the kingdom of light.”</em></p>\n  <p>These are strong words, but again, Reidhead stresses reality, not hermeneutical imaginations. Simply put, his idea is that if God saved you, then you should know it and you should have fruit to prove it. One of the particular things I am challenged by is Reidhead’s teaching on the witness of the Spirit. As I have listened to his recorded messages and read his books, I have seen this as a recurring theme. His burden is that no one can tell another person that they are born again <em>except</em> the Holy Spirit. He proclaims that this witness of the Spirit is very real and does not need us to “get in the way.”</p>\n  <p>He stresses that the sad reality in both the liberal and the conservative camps is that they are full of professing Christians who have merely gone through the motions, said a prayer, walked an isle, followed the crowd, obeyed their parents or tradition, and nothing has happened. They have no assurance of salvation, no adoption, no victory, and therefore, no reality. He writes: (the bold print is his emphasis) <em>“Those of you who are acquainted with me recognize one of the capstones of my preaching: <strong>We should never tell people that they are saved!</strong> We must tell them how holy God is. We can show them from the Word how sinful sin is. We can tell them what God did to achieve their salvation. We can tell them what they must do to be saved. <strong>But we must never tell them that they are saved.</strong> Only God knows the hearts of people.”</em></p>\n  <p>Further he says, <em>“It is splendid to have been born in a Christian home. It is of great value to have been baptized. It is good to have your name inscribed on the church records. But no one has the right to think he is a child of God until, after having reached the age of responsibility, that individual personally receives the Lord Jesus Christ in repentance and faith. Call it ‘being born again’, ‘the new creation’. These are words used in Scripture to describe the act of God communicating life to the sinner. He brings us into His family. Therefore, it is the Spirit of Adoption.”</em></p>\n  <p>I wonder how many “would-be” Christians have died in miscarriages at the very moment of their conversions by the maladies of false assurance, empty commitment and a crossless Christ. Reidhead’s teachings have encouraged me to settle for nothing less than the real, life-changing message and work of the person of Jesus Christ.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "98eb0802ba80ac4c744d7af24c8c7e018b759b11d72cf894c22af1f9406258e9"
+}

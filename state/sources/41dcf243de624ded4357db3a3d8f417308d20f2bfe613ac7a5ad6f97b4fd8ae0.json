@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "–Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "90d8e22a-d7b1-453e-98bf-cab1571a7f56",
+    "images": [
+      {
+        "alt": "A waterfall flowing over layered rock ledges in a forest",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg",
+        "repository_path": "public/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg",
+        "rights_note": "No caption, image credit, licence, or separate-permission notice is printed. The PDF flattens the full-height photograph into CMYK tiles; the exact text-free waterfall region was rendered and cropped at 300 dpi, then normalized as a baseline sRGB JPEG without altering its published orientation or content.",
+        "role": "poem setting photograph",
+        "sequence": 1,
+        "source_page": 9
+      }
+    ],
+    "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914",
+      "d98d2776-11d0-5852-be8d-67a88feaeb5e",
+      "8feb4eca-5b0b-512b-8ef0-a76783fdb626"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8501ee1c126b2c3f8e7b31bb6d76ab3c9808c486a62a0e41dfce36d6ef4bdf69",
+    "metadata_sha256": "a3a30871650082b7dfd3f7399c483bbe98d409144710b715ed3a6618b87b31bc",
+    "structure_sha256": "6002c70d170b516c427d8236fa55ebf81a94763514a722692a1b90b5f4ab1601",
+    "text_sha256": "3c8b65ef7590c105a41c5233722a4d59a04c44ff26c99af7ae1324d16409fef4",
+    "translation_metadata_sha256": "330ccdddc533253ae1f69c5c38c9c6007a27cf9e37357fe8cf3c050ccee6469d"
+  },
+  "html": "<article data-article-id=\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\">\n  <figure>\n    <img src=\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\" alt=\"A waterfall flowing over layered rock ledges in a forest\">\n  </figure>\n\n  <p class=\"poem\">As a man was dying, his thoughts went back.<br>\n    Will I leave a good mark, that none can attack?<br>\n    I forsook all, on the alter I went<br>\n    Keeping nothing back, not even a cent.<br>\n    I wanted to do, all that was right.<br>\n    I sometimes prayed, all through the night.<br>\n    It was easy? I cannot say.<br>\n    But rather a battle, I fought everyday.<br>\n    Few understood why I lived this way.<br>\n    Giving up everything was foolish they’d say.<br>\n    They couldn’t have seen the peace inside.<br>\n    A peace that I thought, no one could hide.<br>\n    A life on the run, was not my desire.<br>\n    But they wanted my body, to put in the fire.<br>\n    From cave to cave, I would call home<br>\n    Knowing one day, I’d never more roam.<br>\n    As I look back, I wouldn’t change a thing.<br>\n    It has been a great honor serving my king.<br>\n    But I must go now, the smoke is too thick.<br>\n    My body to ashes, as the flames lick.<br>\n    There is one thing, I need to ask.<br>\n    Will I die in vain, or will you take up the task?<br>\n    Jesus is looking for A people today<br>\n    That will stand the test, and not go astray.<br>\n    Giving our life is part of the cost.<br>\n    Will you make that decision, before time is lost?<br>\n    The church is struggling, the world has come in.<br>\n    They killed our Jesus, and love their sin.<br>\n    Let’s not give in, there’s too much at stake.<br>\n    But rather let’s fight! There’s a kingdom to take!</p>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3e4f2b2016301b4aa7857df494c53dc212d92ab0f3029f94a2ddab761c64691e"
+}

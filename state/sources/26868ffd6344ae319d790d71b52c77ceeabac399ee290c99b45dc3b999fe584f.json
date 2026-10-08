@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millersburg, Ohio",
+          "name": "Alvin Mast"
+        }
+      ],
+      "raw": "by Alvin Mast\nMillersburg, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+    "images": [],
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "FEATURED ARTICLE",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Saved by Hope",
+    "topics": [
+      "c987aaa5-9902-5dc1-abf1-1d58331a330f",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "71ba3985adc29c260425c1a289640cdc9a8647306c70c9dc03be16ad98c65cc8",
+    "metadata_sha256": "324af04a79cf86bab9c5f1298da0b82ab4a701c691c27deaf92ab358a9e10524",
+    "structure_sha256": "146215fcf345d5da42c4d9ee7da405eadb504ab21c7b9c3d7224ffbd3490d4b1",
+    "text_sha256": "4d5c92a958a0c48372041cf92b1365846ff7203c606fe0037c8cebe4982d105b",
+    "translation_metadata_sha256": "e6ac3521dd2777d1b875f1eea222ebff5e5ddeceb438fff3b084ee9c33e5099a"
+  },
+  "html": "<article data-article-id=\"d2d95264-7df9-4ca8-9a99-01a68204d73a\">\n  <p>Someone once said “When hope is alive, the night is less dark, the solitude less deep, and fear less acute.” When I worked in a prison as an assistant chaplain, I would sit with the condemned men and listen as they talked of their plight. Almost without exception, all spoke of hoping to get out of prison one day. Even if they had a life sentence, they hoped to get out.</p>\n\n  <p>I have spoken to people who do not confess to be born again, but still hope to go to heaven. These people dare not leave off hoping. Their hope is based upon their own hope! A diet on that kind of hope is a slim diet for sure! This reasoning reminds me of Jesus' words in John 10:1-2 about entering the sheepfold. “But he that entereth in by the door is the shepherd of the sheep.” People build their hope for heaven on many shaky things. Some base their hope on having been baptized in a certain church. Some hope in their church membership. Some people hope in their good works, while still others hope in their hope. The Bible, however, says, “. . . except a man be born again, he cannot see the kingdom of God” (John 3:3).</p>\n\n  <p>There is a true hope and a false hope. The false hope is “climbing up some other way,” but true hope is “he that entereth in by the door.”</p>\n\n  <p>“For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?” (Romans 8:24). This word hope means “with anticipation or great expectation.” Could we say that we are saved by great expectation? Yes, we can. “Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed” (John 6:27). This seems to be a contradiction of sorts. Are we not saved by grace? Yes, we are saved by grace through faith (Ephesians 2:8). Then what is this being saved by hope and laboring for the “meat which endureth unto everlasting life”?</p>\n\n  <p>“Then they said unto him, what shall we do, that we might work the works of God?” Jesus answered and said unto them, “this is the work of God, that ye believe on him whom he hath sent” (John 6:28-29). It is only by grace that we are saved, but as this passage suggests, grace sets a condition. The condition of grace is that we believe on Him. Another condition of salvation is repentance (Mark 1:15), while another is cross-bearing. “Whosoever will come after me, let him deny himself, and take up his cross and follow me” (Mark 8:34).</p>\n\n  <p>Everything we would do for Christ, whether believing, repenting, or cross-bearing, is by grace. Whatever we have, or do, is because of Him. We do not work for our salvation, for Christ Himself said, “It is finished.” We have nothing to hope for if we do not meet the conditions of our salvation. Once we receive the Lord Jesus as Saviour, then “hope maketh not ashamed” (Romans 5:5).</p>\n\n  <p>As Christ becomes alive in us, we love Him and choose to obey Him. Jesus becomes more precious to us as we mature in our Christian life. As our relationship grows, our expectation grows as well. The more we get to know Him, the more we look forward to being in His presence. As our anticipation of seeing Him grows, we try to do all things possible to please Him. Our great eagerness keeps us from becoming weary, thus, “we are saved by hope.”</p>\n\n  <p>Is your hope like the one who “climbeth up some other way,” or like, “he that entereth in by the door”? Do you have a basis for your hope or is it an empty hope that has no foundation?</p>\n\n  <p>I trust you are growing up “. . . into him in all things, which is the head, even Christ” (Ephesians 4:15).</p>\n\n  <p>I hope you might grow just a little more, so your expectation of seeing Christ might grow as well. The testimony of this expectation is, “. . . in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022"
+}

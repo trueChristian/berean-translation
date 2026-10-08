@@ -1,0 +1,100 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millington, Michigan",
+          "name": "Justin Hochstetler"
+        }
+      ],
+      "raw": "Justin Hochstetler\nMillington, Michigan"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+    "images": [
+      {
+        "alt": "A uniformed police officer holding a photograph of a person wearing a scarf.",
+        "caption": null,
+        "credit": "© Unknown",
+        "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg",
+        "repository_path": "public/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 78; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The unobstructed photo is cropped inside the slanted green layout frame; the head, hands, photograph and visible body are preserved, and the frame and adjacent article text are excluded. The held portrait remains part of this single published image, not a separate duplicate export. The source credit names the creator only as Unknown. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            757,
+            519,
+            1632,
+            2106
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            875,
+            1587
+          ],
+          "output_dimensions": [
+            875,
+            1592
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1632,
+            2106
+          ],
+          "source_object": 78,
+          "vertical_scale_to_published_aspect": 1.002849002849003
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "The Power of Kindness",
+    "topics": [
+      "8027dd12-af78-5fb4-b5e2-dfad753ce6a4",
+      "cd42f468-6b2c-5f56-abf2-82062af463d1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a0ae8eb8bfb5da9efc4c7d515e1402635a91a740ff7bfa364e4274b25518ff73",
+    "metadata_sha256": "dcd1f6e26293f7b72124b134ab19b6d61955073deb79e2b715779736c3fe122e",
+    "structure_sha256": "85b1835722661c804638fe5581edd00e00c7f3a205eb183e3d5290da7fe95f2d",
+    "text_sha256": "065467d94cd52950741b5a93c217ea0e2dcd8c65fd83514575e5703e45bf13c7",
+    "translation_metadata_sha256": "765c0a3223ada9126625ba9fb1c104b56e40bdcf8d6649607460eda2d612daa3"
+  },
+  "html": "<article data-article-id=\"7750b3b4-3c80-48a5-860c-4958331969d7\">\n  <p>It was bitterly cold. The kind of cold that seeps into your bones. A drift of snow swirled down the alley on a wet, chilly wind. The dim light of a wintry sun faintly filtered its way into a corner between two buildings in the alley. A small pile of trash lay heaped in the corner.</p>\n  <p>Bill sat on the little heap of trash, his head in his hands. The big snowflakes drifted gently on top of his bare head. He shivered. Big tears seeped out between his fingers. They fell, down, down. Down they came and landed with a quiet splash on the little heap of trash. He shivered once again. Life is so hopeless. Are there any good people in this world anymore? Would anybody care about a homeless person like me? What did I do wrong to get here? If only one person would care.</p>\n  <p>Bill took his head out of his hands and wiped his eyes. He looked up. The snowflakes were still falling, down, down. He got up, put his hands in his pockets, and wandered into the alley. His gloomy face was tucked into his collar as he studied the clean, white snow on the dirty alley street.</p>\n  <p>In the gray light of day, Bill wandered down the alley to its end at a busy street. Cars whooshed by and an occasional passerby would hurry past, seeming to turn up their noses at the lone, homeless man. On down the street he wandered, his thoughts wandering too. If only one person would care . . . But no one does. It’s almost noon, and I still haven’t eaten. I don’t have any money. I guess I’m going hungry again today. If only one person would care.</p>\n  <p>Bill continued walking and came to the one church on that street. He stopped and looked around, then lowered himself onto a step. The church did not seem to provide much protection from the blustery wind that was still howling. A most delicious smell wafted up the street from a café. He thought again of his empty stomach.</p>\n  <p>He watched all the busy people rushing up and down the street. His feet began to get cold; he looked down to see that his poor, dilapidated shoes had come loose again. He just sat on the steps and looked at his shoes for a while. Then he slowly bent over and sluggishly began fumbling at the strings with his cold, numb fingers. But they shook, and were so cold and numb that he knew he could never tie his shoes tight enough to keep him nice and warm. If only somebody cared.</p>\n  <p>A cheerful voice intruded on his gloomy thoughts, “Oh my, you sure look cold. Here, let me help you with your shoes.”</p>\n  <p>Bill looked up into the beaming face of a kind, young lady. She industriously bent over and pulled the strings tight, giving his poor, old shoes a pat with what felt like angelic hands. She was soon finished and turned to get up. Bill’s eyes followed her every move. She unwound her scarf from her neck, bent over, and ever so kindly wrapped it around Bill’s neck. Then she walked off.</p>\n  <p>Wow, Bill thought, somebody cares about me! He watched as the kind lady disappeared into the café. Suddenly, she came rushing back out and said, “Here, I’m sure you haven’t had lunch yet.” She placed a steaming bowl of soup into his hands. The warmth of the hot bowl felt comforting to Bill’s frozen fingers. The lady then took a scrap of paper from her pocket and scribbled her address. “If you ever need a place to go or someone to talk to, reach out,” she said, and handed him the paper. Bill nodded as she left, continuing her journey down the sidewalk.</p>\n  <p>Tears welled up in Bill’s eyes. Wow, somebody really does care! Someday I’ll be a somebody too. Somebody who can make a difference in the world.</p>\n  <p>Ten years of ordinary life passed. Once again, it was a cold, winter day. The sun shone brightly, making everything look sparkly. A crystal layer of snow covered the ground. Lilian was sitting inside her warm, cozy house, sipping a cup of hot tea, when there was a knock on the door. Lilian rose and opened the door. In front of her stood a policeman in full uniform. He held up a picture of a poor, homeless man. “Ma’am,” he asked, “Have you seen this man?”</p>\n  <p>Lilian squinted at the photo for a while. That face looked so familiar. Wait, there was her scarf. “Yes,” she said haltingly.</p>\n  <p>The policeman’s weighty words that he spoke next revealed the power of a simple act of kindness.</p>\n  <p>“I am the man in that photo.” “What you did for me that day gave me the courage to keep living and pursue a career. Your kindness changed my life.”</p>\n  <p>Jesus once told a story about a very poor man named Lazarus. Lazarus did not have a home, just like Bill didn’t. There was one thing that was different in the story that Jesus told. Lazarus lived at the door of the house of a rich man. This rich man could have done like Lilian and given Lazarus clothing and food. But even though that rich man ate big meals every day, he wouldn’t give Lazarus even one crumb from his table. And that rich man, I am sad to tell you, had a very sad ending to his life. Kindness can make an amazing difference, in this life and the next.</p>\n  <figure>\n    <img src=\"/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg\" alt=\"A uniformed police officer holding a photograph of a person wearing a scarf.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "af84db5039d3342b14ac925d39a246fb8e50ba1574f8a931ae1b61f6fdadeeef"
+}

@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Evan Roberts",
+          "role": null
+        }
+      ],
+      "raw": "by Evan Roberts"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+    "images": [
+      {
+        "alt": "A pale grayscale world map in an oval grid",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg",
+        "repository_path": "public/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg",
+        "rights_note": "No image-specific caption, credit, licence, source, copyright, or separate-permission notice is printed. The page-2 general art notice states ‘Some images © 2001-2007’ and ‘clipart.com / photos.com’ without identifying this asset’s individual source. The embedded separated grayscale JPEG used inverted PDF display semantics; its samples were negated to match the printed pale-gray-on-white appearance and it was encoded at the unchanged 324×166 dimensions as a standards-normalized three-component baseline sRGB JPEG at 150 ppi.",
+        "role": "title illustration",
+        "sequence": 1,
+        "source_page": 15
+      },
+      {
+        "alt": "A man seated at a desk reading an open book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg",
+        "repository_path": "public/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg",
+        "rights_note": "No image-specific caption, credit, licence, source, copyright, or separate-permission notice is printed, and the photographed person is not identified by a printed caption. The page-2 general art notice does not identify this asset’s individual source. The embedded separated grayscale JPEG used inverted PDF display semantics; its samples were negated to match the printed black-and-white appearance and it was encoded at the unchanged 107×146 dimensions as a standards-normalized three-component baseline sRGB JPEG at 150 ppi.",
+        "role": "portrait photograph",
+        "sequence": 2,
+        "source_page": 15
+      }
+    ],
+    "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": "(Fresh from the Welch Revival of 1904)",
+    "title": "A Message To The World",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae",
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9f5c46c9cd535a987e1dc21e68287059dc905713a8b854d700eb835e0d524e66",
+    "metadata_sha256": "bd2cd21f961a1c61bfb6addad23c69e155d6eda259e77cfdb7637a1a2eaa1066",
+    "structure_sha256": "2cbc66b64c0ccdd7b61c252c718916eb7621c8e0c48ca81ac877cc4d5fc3771e",
+    "text_sha256": "442f04d1a0fc393cf8cad424957f34eaa83f4bb26dbdd8c767680e50242ddb4d",
+    "translation_metadata_sha256": "6d22ae36bb4a113fb7f7b249eaac7172efde50b153c17dfc848fe703ad53dce0"
+  },
+  "html": "<article data-article-id=\"14a35072-cac9-42df-a3ca-1f7db446d968\">\n  <figure>\n    <img src=\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg\" alt=\"A pale grayscale world map in an oval grid\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg\" alt=\"A man seated at a desk reading an open book\">\n  </figure>\n  <p class=\"drop-cap\">The Power of the revival in South Wales is not of men, but of God. He has been close to us and has shown us the way.</p>\n  <p>There is no question of creed or of dogma in this movement. The work that is being done has the support, I believe, of all Christian people and Christian churches in our country. I have merely preached the religion of Jesus Christ as I myself have experienced it.</p>\n  <p>God has “made me glad,” and I am showing others the great joy of serving Him, a joy so great and so wonderful that I shall never be able to express it in its completeness. We are teaching no sectarian doctrine, only the wonder and the beauty of Christ’s love, the love of man for Him, and the love of man for man.</p>\n  <p>I have been asked concerning my methods. I have none. I never prepare the words I shall speak. I leave all that to Him. I am not the source of this revival. I am only one agent in what is growing to be a multitude. I am not moving men’s hearts and changing men’s lives; not I, but “God worketh in me.” I have found what is, in my belief, the highest kind of Christianity. I desire to give my life, which is all I have to give, to helping others to find it also. Many have already found it, thank God, and many more are finding it through them.</p>\n  <p>This is my work as He has pointed it out to me. His Spirit came to me one night, when upon my knees I asked Him for guidance, and five months later I was baptized with the Spirit. He has led me as He will lead all those who, conscious of their human weakness, lean upon Him as children upon a father. I know that the work which has been done through me is not due to any human ability that I possess. It is His work and to His glory. “I was not ever thus, nor prayed that Thou should’st lead me on. I loved to choose and see my path, but now lead Thou me on.”</p>\n  <p>I desire nothing but to be allowed to continue this work that has begun. “The Lord is my Shepherd. I fear no want.” All things necessary He has provided, and will provide. I wish no personal following, only the world for Christ.</p>\n  <p>Some things have been said about our meetings, and about me which are not true; but God’s truth has not been hurt by these misstatements, and they, therefore, matter little. I believe, too, that He has put it into the hearts of those who have written of the revival to say helpful things, for some of the papers have carried our message to many whom we have not personally reached.</p>\n  <p>I believe that the world is upon the threshold of a great religious revival, and I pray daily that I may be allowed to help bring this about.</p>\n  <p>I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now. He will lead them all as He has led us. He will make them pillars of smoke by day and pillars of fire by night to guide all men to Him.</p>\n  <p>Wonderful things have happened in Wales in a few weeks, but these are only a beginning. The world will be swept by His Spirit as by a rushing, mighty wind. Many who are now silent Christians, negative Christians, Christians whose belief means little to them and nothing to anyone else, will lead in the movement. Groping, hesitating, half hearted Christians will see a great Light and will reflect this Light to thousands of those in utter darkness. The whole world will hear His message of “peace, good will toward men,” and listening, will be blessed. Thousands upon thousands will do more than we have accomplished, as God gives them power. This is my earnest faith, if the churches will but learn the great lesson of obedience to the voice of the Holy Spirit. Obedience! Obedience!! Obedience!!!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1"
+}

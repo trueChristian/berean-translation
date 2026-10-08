@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Paul Emerson",
+          "role": "Mennonite minister"
+        }
+      ],
+      "raw": "by Paul Emerson"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "5f082857-caff-4a9c-a0a6-7c35388a887b",
+    "images": [
+      {
+        "alt": "Historical illustration of people tied to stakes amid flames and smoke.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5f082857-caff-4a9c-a0a6-7c35388a887b-1.jpg",
+        "repository_path": "public/images/articles/5f082857-caff-4a9c-a0a6-7c35388a887b-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Embedded PDF image object 106 is the source; no replacement pixels or synthetic retouching were used. The published rectangular clipping bounds were mapped to the nearest native source pixels [0, 0, 156, 377]; separately painted article text, rules and frames were omitted. Native grayscale samples expanded to RGB and encoded as a baseline sRGB JPEG with nonzero 72 dpi density; no CMYK conversion or sample inversion was necessary. The general masthead credit “Some images © 2001-2003 www.arttoday.com” does not identify individual assets; no individual licence is inferred.",
+        "role": "header illustration",
+        "sequence": 1,
+        "source_page": 28
+      }
+    ],
+    "issue_id": "fda64a2f-faeb-4516-9c08-4259c95e88c5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 28
+    },
+    "subtitle": null,
+    "title": "The State of Anabaptism in 2003",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "eefb2d76b5a1d040734b0e1f8707086193b127da67a06aa3b0ee6d52d1d740a8",
+    "metadata_sha256": "a1d7d87061be06dd86c213b4b0e1fd21e8147debac0afcaa6d325ca8c19c3c2f",
+    "structure_sha256": "fc40261f446df6dc18e96b37a0e2ac6fb6d9cd28436ae316352a2228150d7419",
+    "text_sha256": "fb7d18c8774778f67ece728bac2c2064c5cf10ed035d260e6056b4ff6dc614a9",
+    "translation_metadata_sha256": "161c39e3bd77df147e9c1dd7edc510b2e786cc5881e4154443dcd0fdf1354047"
+  },
+  "html": "<article data-article-id=\"5f082857-caff-4a9c-a0a6-7c35388a887b\">\n  <figure>\n    <img src=\"/images/articles/5f082857-caff-4a9c-a0a6-7c35388a887b-1.jpg\" alt=\"Historical illustration of people tied to stakes amid flames and smoke.\">\n  </figure>\n  <p><em>We live in a day and an age where many of God’s people are burdened about many things. Every major denomination in Christendom is experiencing major shifts away from the life and vitality of their beginnings. I get letters representing them all. The letters basically express the same thing, words of concern over drift. Drift away from the original zeal and love for God. Drift away from the clear Biblical positions that others died for. I am concerned for the same things. This concern is one of the reasons for this magazine. I recently read a short article written by Paul Emerson a Mennonite minister. He expressed the same sigh as he watches his church drift away from one of the most powerful testimonies of any group a God’s people in church history. The article, printed below, fits our burden in this magazine. God, send us more prophets who will not be silent.</em> --The editor</p>\n  <p>As one views the descendants of Menno today, a mixed message is received. On the one extreme, there are those who represent a very obvious apostate drift in theology and Biblical application. They publicly sum up the leftward travel over the last 40 years with “We’ve come a long way, baby!” Others in this stream are busy redefining the person and work of Christ. The message of salvation is being accommodated to the leftist and pluralistic doctrines of men.</p>\n  <p>On the other extreme, there is a restlessness. An apparent fear exists that the Biblical theology espoused by Anabaptists for hundreds of years is not Anabaptist enough. A distorted hermeneutic is being suggested that makes the true meaning of Scripture dependent upon the consensus of a group of mere men. Since when does any man have a right to sit in judgment upon what God has said?! The apostolic doctrine of salvation is also being adjusted in some circles in order to deny the Biblical truth of substitutionary atonement. When one plays with this one, he is quite literally playing with fire! As church members become less devoted to obeying the clear teachings of Scripture, the more detailed rules seem to be needed in order to maintain a semblance of good order. People mourn regulation but do not realize that it came about because of their failure in self-discipline.</p>\n  <p>True Anabaptism has always been a movement of radical Christianity. Of late, it appears that many have exchanged radical Christianity for merely being radical. Much that is being represented as Anabaptist Christianity has no relation to Biblical Christianity whatever! The only answer is a fresh, soul-stirring life-changing revival. Pray for that Holy Spirit visitation.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "99018b86cabad934a0ef9f63e598fdc9c13c6337cff0ba77ddbd73d041aacdfc"
+}

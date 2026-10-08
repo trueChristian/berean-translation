@@ -1,0 +1,98 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Isaac Watts"
+        }
+      ],
+      "raw": "Isaac Watts"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "2345d1aa-0655-4f36-b37c-74278f383846",
+    "images": [
+      {
+        "alt": "A barbed-wire fence beside a green field beneath a blue sky.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2345d1aa-0655-4f36-b37c-74278f383846-1.jpg",
+        "repository_path": "public/images/articles/2345d1aa-0655-4f36-b37c-74278f383846-1.jpg",
+        "rights_note": "Clean RGB/sRGB background object 127. The full visible-page composition is retained, cropping only the fractional bleed beyond the page boundary. Separately painted poem, title and shadow, magazine masthead, publisher address, postal box and decorative heartbeat marks are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "article background",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            2,
+            1,
+            1277,
+            1651
+          ],
+          "flip": null,
+          "method": "Embedded image cropped to the PDF page boundary at nearest source pixel; no content reconstruction. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            1275,
+            1650
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1278,
+            1653
+          ],
+          "source_object": 127,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Let Others Boast",
+    "topics": [
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357",
+      "220fa5b4-8cd4-53ca-ba1c-e06e36c60b58",
+      "dce1b08d-f0a4-5f1c-8295-0a44aab49b23"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1a1d1d437a3a72112463367e9e37e5edc6ba28a8e3f06fe50cd077e4e3159653",
+    "metadata_sha256": "b12ed12cc8c2016eb90b368443f4dfe8e0315124a0afcd655eb0883408e39a2e",
+    "structure_sha256": "031ef4bd65dc6e642e290c8e0254cf001296a635586429e01e912c00a4843446",
+    "text_sha256": "f7661ac44161cec8a9ee2b2b005cb269754509a8ad1c5b1f693a2bce5b5e0c5a",
+    "translation_metadata_sha256": "5cae845d02ee94389f4e8bf51ca2d8ad73e08c3badea7039e70da76521850478"
+  },
+  "html": "<article data-article-id=\"2345d1aa-0655-4f36-b37c-74278f383846\">\n  <figure><img src=\"/images/articles/2345d1aa-0655-4f36-b37c-74278f383846-1.jpg\" alt=\"A barbed-wire fence beside a green field beneath a blue sky.\"></figure>\n  <p class=\"poem\"><strong>Let others boast how strong they be,<br>Nor death nor danger fear;<br>But we’ll confess, O Lord, to thee,<br>What feeble things we are.</strong></p>\n  <p class=\"poem\"><strong>Fresh as the grass our bodies stand,<br>And flourish bright and gay;<br>A blasting wind sweeps o’er the land,<br>And fades the grass away.</strong></p>\n  <p class=\"poem\"><strong>Our life contains a thousand springs,<br>And dies if one be gone;<br>Strange! That a harp of a thousand strings<br>Should keep in tune so long!</strong></p>\n  <p class=\"poem\"><strong>But ‘tis our God supports our frame,<br>The God who formed us first;<br>Praise be to His almighty Name,<br>That reared us from the dust.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0917deec0cf09bd181cd174917cf8d35bc89a65ca43c870e2d58e9680ee6f815"
+}

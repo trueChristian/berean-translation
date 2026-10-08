@@ -1,0 +1,134 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Mark Hamby"
+        }
+      ],
+      "raw": "by Mark Hamby:"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9",
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "4eecc6eb-24d9-4890-90a7-1da57432b961",
+    "images": [
+      {
+        "alt": "Illustration of a shepherd among sheep.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-1.jpg",
+        "repository_path": "public/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-1.jpg",
+        "rights_note": "Clean embedded illustration object 117. Separate title and byline overlays omitted; slight right-edge trim follows the published rectangular clipping. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 32,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            520,
+            486
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            520,
+            486
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            522,
+            486
+          ],
+          "source_object": 117
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of a shepherd playing a pipe beside a flock of sheep.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-2.jpg",
+        "repository_path": "public/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-2.jpg",
+        "rights_note": "Clean embedded illustration object 121. Hand-engraved enclosing line is intrinsic artwork and retained. Separate duplicate pull quote below is omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            750,
+            552
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            750,
+            552
+          ],
+          "source_object": 121
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "The Day Daddy Became a Shepherd",
+    "topics": [
+      "e306a951-5cde-59d9-b002-9f39db3e1eae",
+      "e8455dc3-9ea9-50ad-8b49-ca5277a6a3fd"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "23b6f17d1f7fd0db6a6d685005a38e879264693d9d8cf5b28cb32b19011ee6d4",
+    "metadata_sha256": "98e4fe9d6bd5baaf68bcb704f4aac23c7e9538ee447276271ff17f86845b632b",
+    "structure_sha256": "0ac24d1d8bf4a17ca8bfffc72fc3c54a1f970a13af58a7f7c770bbeb3239141a",
+    "text_sha256": "a9ae6a6c8bec277852515cbc830e2f5643f16d99020d65fb21326fcdc3924299",
+    "translation_metadata_sha256": "5bc93966755277503f46bf6edf01ef295498abbce098e5c367c468a52210a4cc"
+  },
+  "html": "<article data-article-id=\"4eecc6eb-24d9-4890-90a7-1da57432b961\">\n  <figure><img src=\"/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-1.jpg\" alt=\"Illustration of a shepherd among sheep.\"></figure>\n  <p>One of my most memorable experiences as a shepherd was the day that my sheep followed me for the very first time. This event, however, didn’t take place overnight. For five years my sheep refused to follow me! They ran from me, they stamped their feet at me, and they were an embarrassment to me. But they followed my seven year old daughter. They knew her voice and they ate out of the palm of her hand. But me? One look at me and they gave a loud bleating sound that sent shivers up my spine, especially when visitors were around.</p>\n  <p>To make matters worse, Rambo (our ram that we named for obvious reasons) tried to kill me several times. You can be sure I didn’t take this lightly. Since strangulation didn’t work, there were several times that I had the scope on him. I often employed this method of using the scope on my rifle to check the sheep in the upper pasture. I found that when Rambo came into sight, my finger seemed to find its way to the trigger! No, I never did shoot him, but if I could do it again, I might just hold on to that trigger a little more firmly.</p>\n  <p>One time in particular, Rambo stood on his hide legs and “rammed” me square in the back. As I lay on the ground trying to catch my breath, I thought he had broken my back . I looked up to see the beast was standing above me, ready to finish me off! I quickly rolled and he missed me. But what happened next was the best part. Losing all sense of humanity and filled with anger, I surprised him with full-nelson choke hold. My wife, the protector of all who stand in my way, yelled down from the back porch, saying, “What on earth are you doing to that poor animal?” Holding on for my life, I retorted, “What does it look like I’m doing!?, I’m trying to kill him; he tried to kill me first!”</p>\n  <p>I think you have a pretty good picture of my early days as a shepherd. My relationship with my sheep was a hate-hate relationship. I couldn’t wait to have some of them for dinner, but my daughter loved them so much that she threatened never to speak to me again if I touched one of her beloved sheep. So I was stuck. Little did I know that God would use my relationship with the sheep to teach me that I had a problem with anger, and that forceful control leads only to broken relationships.</p>\n  <p>It was 1994. My health had been poor for several years now, and for the most part, I was on empty. To make matters worse, Jonathan, my oldest son, had just told me that he hated me. Without realizing it, I had been treating him just like Rambo—controlling him with threats, anger, and forcefulness.</p>\n  <figure><img src=\"/images/articles/4eecc6eb-24d9-4890-90a7-1da57432b961-2.jpg\" alt=\"Engraving of a shepherd playing a pipe beside a flock of sheep.\"></figure>\n  <p>After several newborn lambs had died due to an unforcasted severe storm, my daughter had informed me that, I wasn’t a good shepherd. My heart was pierced. God sure knows how to get our attention. I was determined that during the next lambing season that not one lamb would die even if I had to stay in the barn the whole season. Then it happened. I had spent eight weeks in the barn during our third lambing season. About the sixth week, after sheering, de-worming, immunizing, and bottle feeding, I noticed that the ewes were behaving differently toward me. They were observing my movements, and were not as anxious around me. Now, picture this: there I was, not feeling very well, with no energy and little hope; but I was giving these sheep the best care I could give. I often sat in the hay, reading the Psalms and praying aloud, holding a lamb that nibbled on my finger. I truly began to love these creatures of God, and the mother sheep knew it. Then one day, as I walked to the other side of the barn, all seventy sheep moved toward me. I walked to the other side, and they followed. I quickly opened up all the stall doors and then began parading up the path toward our house and when I looked back, all the mothers and their lambs were following! As we approached the house, I yelled, “Jennifer! Debbie!!! Look outside!” When my little girl came to the window, I saw a great big smile, and knew exactly what she was thinking: “Today, my Daddy became a shepherd.” And I did! When the sheep knew that I really cared, especially for their lambs, they began to follow. No more control, no more anger, no more forcefulness. Psalm 40:11 I believe captures the essence of the shepherd and his sheep best:</p>\n  <ul>\n    <li><em>He tends his flock like a shepherd</em></li>\n    <li><em>He gathers the lambs in his arms</em></li>\n    <li><em>He carries them close to his heart</em></li>\n    <li><em>He gently leads those that have young.</em></li>\n  </ul>\n  <p>Notice that the shepherd gathers the lambs in his arms and not upon his shoulders. The reason for this is to calm the lambs by allowing them to hear the beating of the shepherd’s heart…not the beating of his voice. This is what my son was yearning for all of those years…to hear the beating of my heart not the beating of my voice. It has now been seven years since I experienced this incredible transformation. Is my son following? Yes indeed. But only when he hears my heart beating louder than my voice!</p>\n  <p>Reprinted from Lamp Lighter Publishing<br>www.lamplighterpublishing.com</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b67c608f4dc9166347a760e8c554dc54fd001a4dc6fedef17a4105eb3d499646"
+}

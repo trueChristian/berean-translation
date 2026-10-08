@@ -1,0 +1,67 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "5670e17c-1ff8-4119-a676-0513a2bc41bc",
+    "images": [
+      {
+        "alt": "A roadside mailbox with flowers growing around its post.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/5670e17c-1ff8-4119-a676-0513a2bc41bc-1.png",
+        "repository_path": "public/images/articles/5670e17c-1ff8-4119-a676-0513a2bc41bc-1.png",
+        "rights_note": "No item-specific source, credit or reuse restriction is printed. No image-specific licence is inferred. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning the source to individual assets. PDF base image object 117. Lossless grayscale PNG from source raster; intrinsic tiny mailbox wording retained. Separate gray section panel and heading omitted. Publication name/address and gray background are intrinsic to the small raster and retained.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": "PDF base image object 117. Lossless grayscale PNG from source raster; intrinsic tiny mailbox wording retained. Separate gray section panel and heading omitted. Publication name/address and gray background are intrinsic to the small raster and retained.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, canvas paint and full raster readback passed.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened this final image and compared it with the raw PDF object and rendered source page, including centre, edges and corners. Any intrinsic source limitation and removed overlays are recorded in transformation.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "6ab5d255-b656-4f16-9b92-5391f9c679d4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "247a228e2267dda20551cd9c6f1847917566d8fab894405cd71098ba08495f45",
+    "metadata_sha256": "1daabfd0a3cc747f6a793824df86e06c09dfa216bf3c5f16564164e978a71253",
+    "structure_sha256": "601d67e0cc51373a14392353e000f2e52394efa186a34b9be30563542f345152",
+    "text_sha256": "542c07db55e6564660e557744509fea06038d82bc94b9bd3da1a7a54703e0707",
+    "translation_metadata_sha256": "382b8435b5c357ec822c12ba6a4370341042e9c26982e22600a460d917b651c5"
+  },
+  "html": "<article data-article-id=\"5670e17c-1ff8-4119-a676-0513a2bc41bc\">\n  <figure><img src=\"/images/articles/5670e17c-1ff8-4119-a676-0513a2bc41bc-1.png\" alt=\"A roadside mailbox with flowers growing around its post.\"></figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <section>\n    <p>Greetings in the Wonderful Name of Jesus,</p>\n    <p>I am thankful for your ministry, in all its aspects: the tape ministry, the magazines, and the missions. I was quite touched by the Nolt family’s story of God’s strength and faithfulness through a very difficult time in my life in the past year and a half. With the onset of epilepsy, when I thought I was the picture of health, the discovery of a brain tumor, resulting in brain surgery, and now impairment, mostly in my vision, but also some mental impairment, I find God my refuge, my comfort, my strength.</p>\n    <p>Thank you for your magazine. In the mental state I have been in, with the surgery and now the medication, it is so good to be nourished by and strengthened by the truth. It does take me a while longer to read now, because of my loss of vision. I hope you never find it necessary to change the font you use. It is possible for me to read it, because it is printed on nice white paper, and there is enough space between the letters, words and lines, so I am not as likely to lose my place on the page.</p>\n    <p><em>Georgia</em></p>\n  </section>\n  <section>\n    <p>Dear All at Charity Christian,</p>\n    <p>We are so thankful that God brought your ministry into our lives several years ago.</p>\n    <p>God has used it in many ways to grow our hearts.</p>\n    <p>I wanted to encourage you and remind you that your ministry blesses many more people in many other denominations than you may realize.</p>\n    <p>Our family does not attend a ministry or church like your publications talk about, nor do we wear head coverings, but with all of that in mind, we are so touched, encouraged, and inspired to grow and grow by your tapes and publications.</p>\n    <p>We have learned and been challenged to love each other with God’s love and to raise our children with such a different standard than our peers have!!</p>\n    <p>I was so grateful for the article in your last Remnant (May-June?) about the lady who is learning the joys of releasing her controlling words and questions and honoring her husband more. It blesses me so much to learn from the women who write. Especially those that write about loving and submitting to their ‘own’ husbands and loving and training their children. Our children are better and more secure because of it.</p>\n    <p>Most importantly I wanted to encourage you that your ministry for our Lord and Savior touches lives who you would never imagined. Through your faithfulness and convictions, you are changing people who thought their Christian faith was just fine where it was.</p>\n    <p>Thank you for all you do! Thank you for your love and thank you for touching my life continually.</p>\n    <p><em>South Dakota</em></p>\n  </section>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>Just want to write to say that our family has been blessed by your ministry. Thank you for your tapes and your Heartbeat of the Remnant. I especially appreciate the Blessing Corner, Book Reviews, and articles about revival.</p>\n    <p><em>Alaska</em></p>\n  </section>\n  <section>\n    <p>Dear Remnant staff,</p>\n    <p>Warm greetings in the name of the Lord Jesus Christ. The Heartbeat of The Remnant is a wonderful publication providing encouragement, admonishment and inspiration. Thank you for rising up to the call, and speaking truth and love to God’s people.</p>\n    <p>Your articles and stories are often so convicting and insightful. Reading about the power of God and how His Holy Spirit is working among believers, and the lost , is truly remarkable.</p>\n    <p>Enclosed is a gift of money to further the ministry of God’s work and His kingdom. May the Lord bless you all.</p>\n    <p><em>Illinois</em></p>\n  </section>\n  <section>\n    <p>Dear Charity Ministries,</p>\n    <p>Hello to our Brothers and Sisters in Christ! We wanted to take the time to write a note of thanks to all that are involved with the Remnant Magazine and your Gospel Tape Ministry. We began listening to your tapes about two years ago after I received a copy of “The Hidden Woman”. We cannot begin to tell you of all the many wonderful changes that have taken place in our home as a result of listening to the tapes and reading your magazine. We read the Bible daily, pray regularly as a family, I have become more submissive, more modest, and wear the women’s headship veiling. As a man, the Remnant is a much needed periodical to help strengthen my husband’s convictions. He has truly become a man of God. We have even begun to doubt our “salvation experience” prior to July 2001. We read each issue over and over, gleaning new insight each time as the Lord brings home a lesson. We can’t say enough to encourage you to keep sending out the truth! We live too far from a Charity Church to fellowship so the magazine is a way of keeping in contact with your ministry.</p>\n    <p><em>Georgia</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7ec4733d9fc818befb31b01b9bfd35c1cbae8119203c278f62b60c72f3be5e29"
+}

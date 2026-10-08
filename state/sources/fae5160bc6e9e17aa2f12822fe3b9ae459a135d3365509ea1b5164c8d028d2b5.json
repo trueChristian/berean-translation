@@ -1,0 +1,116 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Andrew Bonar"
+        }
+      ],
+      "raw": "by Andrew Bonar"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd",
+    "images": [
+      {
+        "alt": "Drawing of a folded embroidered cloth",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "40f35681e15cc21668f186ab8dbb36348156d9d3",
+        "public_path": "/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-1.jpg",
+        "repository_path": "public/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-1.jpg",
+        "rights_note": "Original embedded PDF image object 15; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            600,
+            687
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 15,
+          "source_pixel_dimensions": [
+            600,
+            687
+          ]
+        }
+      },
+      {
+        "alt": "Illustration of a robed figure in a rocky tomb",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "5f919f2cc281aab868b0af34a95f682a17d0330e",
+        "public_path": "/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-2.jpg",
+        "repository_path": "public/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-2.jpg",
+        "rights_note": "Original embedded PDF image object 16; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 3,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "export_pixel_dimensions": [
+            450,
+            296
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 16,
+          "source_pixel_dimensions": [
+            450,
+            296
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "The Napkin About Christ’s Head",
+    "topics": [
+      "cfe7e1b2-e5b0-580a-99e2-182f58f55d41"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b49d6a21d44b28999c68de51469f251cf9fd8f9a9b44eb9b7d2814d3fd222150",
+    "metadata_sha256": "a7422c04f977745f467cb58b59536bbaa4aee8beaf234ad2a9facd95a4561e7d",
+    "structure_sha256": "6b16b3777f6b4b4856ce7a90c69251552f7597b6865dfbe5e08c019d4db859c7",
+    "text_sha256": "b8b5c00cd1c8db919bfa4489aa896cc5ef6c85312b0984e4815a0181f4e2d2e2",
+    "translation_metadata_sha256": "3b0c13ae85610bea5dd15816161a463f5bea064e1e2366512cf9c6a8c46dede9"
+  },
+  "html": "<article data-article-id=\"ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd\">\n  <blockquote><p><em>And the napkin, that was about His head,<br>not lying with the linen clothes,<br>but wrapped together in a place by itself.<br>John 20:7</em></p></blockquote>\n  <figure><img src=\"/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-1.jpg\" alt=\"Drawing of a folded embroidered cloth\"></figure>\n  <figure><img src=\"/images/articles/ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd-2.jpg\" alt=\"Illustration of a robed figure in a rocky tomb\"></figure>\n  <p>Why ‘wrapped together in a place by itself‘? Because Jesus wished to show that He arose calmly: no haste, no hurry, not as if in flight from the tomb, but in solemn triumph and at leisure. So He wishes His people to be calm. ‘He that believeth shall not make haste.’ Yes, and see! He folded the napkin neatly and laid it by itself.</p>\n  <p>But far more…that napkin had been put there by Joseph and Nicodemus. Christ very likely was as beautiful as Moses, but His face had been marred by suffering. After His death the beauty all returned, and that was why they did not cover His face with a napkin, as John 11:44. Seeing the bleeding wounds caused by the crown of thorns, they carefully and tenderly drew the napkin round His brow. When Jesus awoke on the third day He noticed this act of kindness, and folded up the napkin and laid it in a place by itself, as indeed precious to Him, because it told the tenderness of their care for Him. They will hear more about this napkin when He returns.</p>\n  <p>Thus He cares for the smallest acts of kindness we do for Him and to Him; how much more for what we do under difficulties and in suffering, and not least, for our efforts to win souls.</p>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ca2b5924d79d5192a88644c5b33cc5b381b5414e335cdaa3c3065267ea33db6a"
+}

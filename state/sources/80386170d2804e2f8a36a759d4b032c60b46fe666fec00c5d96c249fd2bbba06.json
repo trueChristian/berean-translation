@@ -1,0 +1,39 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "8a62851e-33fe-410c-a6af-0a6b0bcf4f29",
+    "images": [],
+    "issue_id": "c2a74b77-fa78-5891-9aa5-a22f70c4515d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 10,
+      "start": 10
+    },
+    "subtitle": "... what?",
+    "title": "The foundation of your fellowship is ...",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d41caa2714c1a35fc36e5c0e7a5a9e50d2a768ce54163b35d65f3257478833d3",
+    "metadata_sha256": "b0808a77574dabe4dbd12c88e317c15964a82120b2489060e24525286945d6eb",
+    "structure_sha256": "7799d27079d6c0d8158df568c593e6d938717f04d5dc2d91af203bcf61614304",
+    "text_sha256": "da8f41c8bd12336c452331676a68f1418e6d4cc17006c3e3ca1613cff31d972b",
+    "translation_metadata_sha256": "5062d6beb19abeaa07ced3eaa9e70e31683efa30ce226c89557e25484be43754"
+  },
+  "html": "<article data-article-id=\"8a62851e-33fe-410c-a6af-0a6b0bcf4f29\">\n  <h3><em>... what?</em></h3>\n\n  <p>Think about it, if you haven’t. Just what is the basis upon which you and/or your congregation form a fellowship, a brotherhood of believers?</p>\n\n  <p>In the story we are looking at, we see a “battle” between fellowship based upon <em>experience</em> and fellowship based upon <em>obedience</em>. There are many other possibilities: fellowship based upon <em>theology</em>, fellowship based around a <em>person/personality</em>, fellowship based upon a <em>common goal (ex. foreign missions)</em>, fellowship based upon a <em>common reaction (ex. anti-Catholicism)</em>.</p>\n\n  <p>Perhaps you are thinking, “My fellowship is based upon a person, the man Christ Jesus!” While that sounds good and looks good on paper, the bottom line is that people use that phrase all the time to mean <em>one aspect of Christ or Christianity</em>. It would do us all well to ponder just what our expectations are when we think of fellowship. Do we demand obedience? Do we expect a common theology? Are we united around a common zeal we may have? Are we gathered around a good preacher?</p>\n\n  <p>If a testimony of conversion is required to be a part of your congregation, what is expected in that testimony? If <em>assurance of salvation</em> is testified to, what is the basis of that assurance? An assurance based upon <em>feeling received from an experience?</em> (As in American revivalism.) Or an assurance based upon Christ living within, producing <em>victory over sin?</em> (As in early Anabaptism, and Psalm 41:11.)</p>\n\n  <p>The purpose of the above article is to stir us to consider the foundation of our brotherhoods. Foundations make or break congregations!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f08b35540acdaf15b39d99b575e65f2a28023686f168222304afc498e92a2c1b"
+}

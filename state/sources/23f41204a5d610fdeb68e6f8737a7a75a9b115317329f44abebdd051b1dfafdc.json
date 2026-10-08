@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "G. H. Lang",
+          "role": null
+        }
+      ],
+      "raw": "by G. H. Lang"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "bf0eea19-5179-4d8f-ad15-eba1aa4d7d81",
+    "images": [
+      {
+        "alt": "Three figures beneath a dove, with a cross and a lamb.",
+        "caption": null,
+        "credit": null,
+        "height": 249,
+        "public_path": "/images/articles/bf0eea19-5179-4d8f-ad15-eba1aa4d7d81-1.jpg",
+        "repository_path": "public/images/articles/bf0eea19-5179-4d8f-ad15-eba1aa4d7d81-1.jpg",
+        "rights_note": "Original PDF page 20 image object 70; no separate image licence or credit is stated. Polygonal border and allegorical details are intrinsic to the sole source raster and are preserved. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 20,
+        "source_xref": 70,
+        "transformations": "Embedded base image extracted; grayscale converted to RGB/sRGB without inversion where applicable; standards-normalized baseline JPEG at original pixel dimensions with nonzero 72 dpi density.",
+        "verification": {
+          "encoded_bytes": 41406,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "JPEG 198x249 sRGB Grayscale 72 72",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 198
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Heaven’s Patriot",
+    "topics": [
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2bcdef55c55ae16badea46336cbb6de1d4a20242dd918f70ec7c668093da591d",
+    "metadata_sha256": "44fabe90c02afd227ff2feaf4fbd13611fe51cc2ffc7ece1ab2f04cf02373eb4",
+    "structure_sha256": "bdc09303d62343459c8a2463f76648a83a012277dedb420152e53f51237e6c79",
+    "text_sha256": "7317c595c4c6ea827e460d81827809bf036ddc7e422b38755d3ffbf10a1aa129",
+    "translation_metadata_sha256": "05386422169109964e881f050241e66417691c32bcb7d5b5116c515474d522bc"
+  },
+  "html": "<article data-article-id=\"bf0eea19-5179-4d8f-ad15-eba1aa4d7d81\">\n  <figure><img src=\"/images/articles/bf0eea19-5179-4d8f-ad15-eba1aa4d7d81-1.jpg\" alt=\"Three figures beneath a dove, with a cross and a lamb.\"></figure>\n  <p>“The Biblical term ‘the kingdom of heaven’ does as clearly denote an actual empire as the term ‘the United States of America’ speaks of an actually existing state; the local difference being that the latter is divided from England by a stretch of water, and that the former is located in the heavens. Of that heavenly empire God is the Sovereign, and hence it is also called ‘the kingdom of God.’ Of its angelic rulers, officers, subjects, and soldiers, and their doings, Scripture speaks positively and largely; as well as its administration and of its dominating influence over the affairs of men and nations on earth….</p>\n  <p>“It is a fundamental principle of citizenship that allegiance is to the person of the king. It therefore follows that whoever makes a formal act of submission to a given sovereign, does thereby accept citizenship under his authority, and thereby abandons any former citizenship held…. This, even though it be but little understood, is precisely what takes place in the process that is theologically termed ‘conversion’ or ‘regeneration,’ or more popularly ‘salvation.’ The essence of the heart process termed ‘faith’ (by which is secured the saving efficacy of the Redeemer’s atoning death, carrying with it a free pardon for past rebellion) is an act of submission to the sovereign authority of Jesus Christ as the Lord; because ‘if thou shalt confess with thy mouth Jesus as Lord (the manifest equivalent of the declaration of allegiance to a sovereign), and shalt believe in thy heart that God hath raised Him from the dead (to be the Prince and Savior and Judge – Acts 6:31; 17:30-31), thou shalt be saved’ (Rom. 10:9). Of those who thus do homage to Jesus Christ as Lord it is written the ‘God delivered us out of the authority of darkness, and translated us into the kingdom of the Son of his love’ (Col. 1:13). Could there be given a more exact statement of the legal process of denaturalization and renaturalization? As a simple matter of fact and experience those who thus sincerely submit to the authority of the Son of God are the subjects of a distinct change of nature, by which they become consciously liberated from past servitude to sin, and really emancipated with the freedom which belongs to the citizens of the kingdom of God…</p>\n  <p>“Upon faith being exercised in Christ, a man is ‘born anew:’ for ‘if any man be in Christ there is a new creation’ (2 Cor. 5:17). His inward nature is wholly changed, by the creating within him of a new nature, which is the divine nature, imparted by God the Holy Spirit (2 Peter 1:4) and this nature has God’s realm, the heavens, as its native place; and ‘except a man be born from above he cannot see the kingdom of God’ (John 3:3). Henceforth, if the instincts of this new nature be allowed normal play, the man feels as definitely and instinctively attached to that supra-earthly country as he formerly did to the land of his first birth; and by as much as God is supreme, and is, as to His being, spirit not matter, and heavenly not earthly, so does the divine and spiritual and heavenly triumph in the affections of the new born man, and bind him effectively to that realm of the universe rather than to this.</p>\n  <p>“Peter...describes his fellow disciples as ‘a chosen race,’ a ‘holy nation,’ and speaks of them as living ‘among the nations (Gentiles),’ and therefore as being a distinct race and nation from those other nations; and he beseeches them to behave consistently with their status as ‘sojourners and pilgrims’ on earth (1 Peter 2:9-12). Paul, addressing those Christians who lived in, and had formerly taken an integral part in the life of, one of the greatest mercantile centers of the eastern Roman world, Ephesus, reminds them that as Gentiles, that is, members of the non-Jewish nations, they, before their submission to the Lord Jesus, were ‘alienated from the commonwealth of Israel’ (the only nation with which God has ever had formal relations) and ‘strangers of the convenants of the promise’ made to the ancestors of the Jewish race (the only covenants given by God to a nation). But upon their coming to peaceable relations with God, by accepting His terms of peace (namely, a royal pardon for past rebellion, secured by His Son, through His death, rendering to divine justice the requisite satisfaction for the world’s offences – 1 John 2:2), and by their thus submitting to the authority of God in Christ, they that ‘once were far off’ from God, ‘had been made nigh;’ so that they were no more ‘strangers and sojourners’ but had become ‘fellow citizens with the saints, and of the household of God’ (Eph. 2:11-22). Thus he who is not Christ’s disciple is a ‘stranger’ and ‘alien’ as to God’s Kingdom, but upon his declaring allegiance to God’s King, he ceases to be a ‘stranger’ and becomes de facto a ‘citizen’ of the Kingdom, and a member of God’s ‘household,’ that is, of that circle in the kingdom which is nearest to the Sovereign…</p>\n  <p>“The Christian is called to be a pilgrim and stranger. He must suffer quietly the present discomforts and risks of being out of gear with world’s mighty machinery, national and international. Nor need he at all regret the disconnection; for the huge machine, which has ever required ceaseless tinkering to keep it running, is now obviously panting, straining, and groaning at the breaking point, and its collapse and wreckage cannot for long be prevented. Christ’s follower is to ‘set his mind on the things that are above, where Christ is, not on the things that are on the earth’ (Col. 3:1). He is to ‘set his hope perfectly on the favor that is being brought unto him at the revelation of Jesus Christ’ (1 Peter 1:13), not upon the delusive hopes and dreams of men that they can themselves evolve a golden age for this burdened earth. No one can be both a pilgrim passing through a given country and a citizen of it. In relation to this present world system we cheerfully adopt the former status. To the end of his sojourn the right-minded alien, wherever he may be, will do his utmost to benefit those about him; but his activities must be conditioned by his alienship.</p>\n  <p>“The heart of an alien should be set on the things of his fatherland, where are his sovereign, his home, and his permanent estates, and should not be ‘set’ on the land where is only a stranger and sojourner.</p>\n  <p>“The words <em>paroikos,</em> (sojourner), <em>xenos</em> (stranger), <em>allotrios</em> (alien) with <em>apallotrioo</em> (alienated) are all technical terms for one of foreign birth living for a time in a country of which he is not a citizen, even as <em>polites</em> and its cognates describe one who is a free citizen of a state or city. It is therefore not possible to miss their force as denoting an actual empire, of which the Lord Jesus Christ is really the Sovereign, and in which His true followers are legal citizens and who, as a consequence, are not authorized by their Sovereign Lord, the King, to render allegiance to any other sovereign or state. As a result, the disciple is styled an ambassador (2 Cor. 5:2), since his principal business among men is to represent to them Christ and His claims. Now an ambassador is never a citizen of any state save that which sends him.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "246e15805dde0bced469b01d89699ab7a8996947524a93a5622b9d86736ff8f1"
+}

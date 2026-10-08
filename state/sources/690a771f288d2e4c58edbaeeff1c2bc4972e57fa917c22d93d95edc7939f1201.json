@@ -1,0 +1,78 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "E.F. Harvey",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Lillian Harvey",
+          "role": null
+        }
+      ],
+      "raw": "by E.F. & Lillian Harvey"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "bbeefd6c-2894-4a32-88a8-1d6e889e3159",
+    "images": [
+      {
+        "alt": "A sculptor works on a seated figure while two people watch.",
+        "caption": null,
+        "credit": null,
+        "height": 324,
+        "public_path": "/images/articles/bbeefd6c-2894-4a32-88a8-1d6e889e3159-1.jpg",
+        "repository_path": "public/images/articles/bbeefd6c-2894-4a32-88a8-1d6e889e3159-1.jpg",
+        "rights_note": "Original PDF page 13 image object 46; no separate image licence or credit is stated. Clean base extracted. Small artist signatures intrinsic to the raster are preserved but are not reliably legible at the supplied resolution. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 13,
+        "source_xref": 46,
+        "transformations": "Embedded base image extracted; grayscale converted to RGB/sRGB without inversion where applicable; standards-normalized baseline JPEG at original pixel dimensions with nonzero 72 dpi density.",
+        "verification": {
+          "encoded_bytes": 62911,
+          "imagemagick_full_decode": "passed",
+          "overlay_audit": "verified_by_ai",
+          "pillow_full_decode": "passed",
+          "visual_source_comparison": "verified_by_ai",
+          "web_colour_metadata": "JPEG 240x324 sRGB Grayscale 72 72",
+          "webkit_complete_decode_and_canvas_draw": "passed"
+        },
+        "width": 240
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "Soul Sculpture",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "6172f91e846de19463a432f0bceef43a943a09b115e64d6281ec3a85048efe0d",
+    "metadata_sha256": "a2ce5445ee8e7423ffe6bc94f6e73874dd67c2493d0ce2da305961d58e62bb6d",
+    "structure_sha256": "ef37780abfc15aaebe5d987db31e5901f7f3913f45485e19dea0c58cd1eb3395",
+    "text_sha256": "0dc5c50587d4fa6a793cbe8df06ad82e4283dfcda7bcc835ffa998d1683d8b6a",
+    "translation_metadata_sha256": "c2fdfd750c8103f6973f06b6cd7da48a7b4f19137baad92befd742191ef680c7"
+  },
+  "html": "<article data-article-id=\"bbeefd6c-2894-4a32-88a8-1d6e889e3159\">\n  <figure><img src=\"/images/articles/bbeefd6c-2894-4a32-88a8-1d6e889e3159-1.jpg\" alt=\"A sculptor works on a seated figure while two people watch.\"></figure>\n  <p><em>taken from the book</em><br>Soul Sculpture<br><em>by E.F. &amp; Lillian Harvey</em></p>\n  <p><em>Harvey Christian Publishers<br>3107 Hwy 321<br>Hampton, TN 37658<br>(423) 768-2297</em></p>\n  <p>No heart but that of a parent can know the strange conflict of emotions–joy and awe–as the new mother takes into her arms for the first time that little bundle of life. As she gazes into the eyes of her babe, she must, if at all serious-minded, feel a sense of grave responsibility in that she has been entrusted with the greatest of tasks. Jointly with the father she is to shape this immortal soul into a thing of beauty or baseness; into a force for good or evil; and towards a destiny in heaven or in hell. Every act of her life from this moment is a chiseling influence upon that piece of living marble. She is the sculptress of a soul.</p>\n  <p>The thought is by no means a new one. Many authors, both in poetry and prose have used various pictures to convey the same sentiment. To Bessie Chandler in this poem, it was the pruning of the gardener.</p>\n  <h2>Soul-Gardening</h2>\n  <div class=\"poem\">\n    <p>“O, my child, my pure and perfect man-child,<br>With the light of heaven in your eyes,<br>And your yellow hair like glory resting<br>O’er a face so angel-sweet and wise!</p>\n    <p>O my child, I hold your hand and tremble<br>When I think of all that you must meet<br>On the way, where there is naught to guide you<br>Save my clouded eyes and stumbling feet.</p>\n    <p>Is the gardener not appalled and daunted<br>When he sees but leafless twigs, and knows<br>That within the bare brown thing there slumbers<br>Waiting for his waking hand, the rose?</p>\n    <p>So I fear from fingers all unskillful<br>Some rude touch your perfect growth may mar;<br>If the pruning knife slips but a little,<br>You must carry all your life the scar.</p>\n    <p>O, my child, unknown, unconscious currents<br>Meet and mingle in your young warm blood!<br>So, God help me, when your soul shall blossom,<br>And–God help me should I blight its bud.”</p>\n  </div>\n  <p>The same thought is again expressed by a well-known writer, J.H. Hunter:</p>\n  <blockquote>\n    <p>“The other day I saw a barricade erected on the sidewalk around a newly-laid piece of cement that it might have time to dry and harden before being used by pedestrians. But someone had inadvertently ‘put his foot in it.’ We have all seen these clearly defined footprints in the sidewalk, made when the cement was soft, and hardened at last into an indelible print to remain for all time. It was not a mark placed there maliciously, on his own business that he did not heed anything else beside but left a mark that remains. The hard surface tells nothing more of his coming and his going save that one marring print that will endure as long as the sidewalk itself.</p>\n    <p>“There are many souls in the world that bear the marks of blundering feet. How easy it is to leave a mark on a young life by a blundering foot. It is not a deliberate wound that is inflicted. Just some slighting remark, some expression of a youthful idea or ideal, the faith or exuberance of youth made light of, a generous love thwarted by someone intent on airing his own views and too ignorant of the sensitive, plastic nature with which he deals to know that he is leaving a lifelong scar. Ridicule, an example of irreverence, a coarse jest, may leave a disfiguring mark on some soul that time will never efface. Let us take heed to our blundering feet lest we fall ourselves or, worst of all, cause another to stumble.”</p>\n  </blockquote>\n  <p>Sad to say, some parents do fail in their God-entrusted task. Such tragic failure is graphically expressed in the following poem:</p>\n  <h2>As the Twig</h2>\n  <div class=\"poem\">\n    <p>“We, the youth who shock you so,<br>Ask, ‘How much did you help us grow?’<br>You gaze at us with astonishment.<br>Where were you when the twig was bent?<br>If you wanted saplings tall and straight,<br>Why did you wait? Why did you wait?<br>You gave us bread. Did that atone<br>For the days and nights we were left alone?<br>You laughed our heroes from their height<br>And left them worthless in our sight.<br>They lost their standards in the dust;<br>Their weapons dulled with bitter rust.<br>And when we asked for God, you turned<br>Our answers back with doubt that burned.<br>We watched you tempt the hand of fate.<br>The world plunged into war and hate<br>In mockery of brother-love;<br>Nothing on earth, nothing above!<br>You blame us for skirting danger’s brink-<br>We want to feel, for we dare not think.<br>Who asks good fruit from a well-grown tree<br>Must take the time for husbandry.”<br><em>-Gertrude Ryder Bennett</em></p>\n  </div>\n  <p>While walking around a garden one day, a child was asked why he thought a certain tree grew crooked. “S’pose somebody must have stepped on it when it was a little fellow,” was the thoughtful reply.</p>\n  <p>We pass from this sobering thought of the danger of marring that precious thing in our hands to that of the inspiring task that is ours. We may know that He who has entrusted into our hands the noblest and most enduring of all labours, will grant the vision to plan and the skill to shape.</p>\n  <div class=\"poem\">\n    <p>To every mother comes the call to be<br>An adept in life’s finest artistry-<br>To mould a plastic to a great design<br>That will remain forever strong and fine.</p>\n    <p>The work God gives to motherhood alone<br>Is like in beauty to His very own;<br>Which is to bring forth life and make it whole<br>By weaving all Himself into each soul.”</p>\n  </div>\n  <p>In no field of activity can man or woman leave such a lasting monument as when he or she seeks to impress the mind of a child.</p>\n  <blockquote><p>“What if God should place in your hand a diamond, and tell you to inscribe on it a sentence which should be read at the last day, and be shown then as an index of your own thoughts and feelings? What care, what caution, would you exercise in the selection? Now, this is what God has done. He has placed before you the immortal minds of your children, more imperishable than the diamond, on which you are about to inscribe every day and every hour, by your instructions, by your spirit, or by your example, something which will remain, and be exhibited for or against you at the judgement day.” <em>-Dr. Payson</em></p></blockquote>\n  <h2>The Planter</h2>\n  <div class=\"poem\">\n    <p>“One man ploughed an open field<br>And planted winter wheat:<br>His labour lasted a year – until<br>The harvest was replete.</p>\n    <p>Another wanted his work to endure<br>His lifetime through, and so<br>He planted a tree of oak, and then<br>With pride he watched it grow.</p>\n    <p>Another planted for eternity<br>And with diligence and manner mild,<br>He planted a true and noble thought<br>In the heart of a little child.”<br><em>-Wilma Burton</em></p>\n  </div>\n  <blockquote>\n    <p>“If you write upon a paper, a careless hand may destroy it.</p>\n    <p>“If you write upon parchment, the dust of centuries may gather over it.</p>\n    <p>“If you write upon marble, the moss may cover it and the elements may erase it.</p>\n    <p>“If you engrave your thoughts with a pen of iron upon the granite cliff, in the slow revolving years it shall wear away, and when the earth melts your writing will perish.</p>\n    <p>“Write them on the heart of a child. There engrave your thoughts and they shall endure, when the world shall pass away and the stars shall fall, and time shall be no more. For that heart is immortal and your words written there shall live all through eternity.” <em>-Anonymous-</em></p>\n  </blockquote>\n  <h2>Building Temples</h2>\n  <div class=\"poem\">\n    <p>“A builder builded a temple;<br>He wrought with grace and skill-<br>Pillars and groins and arches<br>All fashioned to work his will.<br>Men said, as they saw its beauty,<br>‘It shall never know decay.<br>Great is thy skill, O builder;<br>Thy fame shall endure for aye.’</p>\n    <p>A teacher builded a temple<br>With loving and infinite care,<br>Planning each arch with patience,<br>Laying each stone with prayer.<br>None praised his unceasing efforts,<br>None knew of his wondrous plan;<br>For the temple the teacher builded<br>Was unseen by the eyes of man.</p>\n    <p>Gone is the builder’s temple,<br>Crumbled into the dust;<br>Low lies each stately pillar,<br>Food for consuming rust.<br>But the temple the teacher builded<br>Will last while the ages roll;<br>For the beautiful unseen temple<br>Is a child’s immortal soul.”<br><em>-Unknown-</em></p>\n  </div>\n  <blockquote><p>“No orator, no singer, no artist-worker, is to be compared with the mother who is carving the image of God in the soul of her little child. No mother needs long to go out of the household, as if that were an obscure place. ‘The Gate of Heaven’ is inscribed over every humble family.”</p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b409d57e0f14e638928b79c4d270e6645eaa621edc79db6ed5275cc3c40db774"
+}

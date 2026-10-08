@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Taken from “The Travelers Guide”, 1900"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "31a32215-85bd-44d1-a1b1-f5e6141aad51",
+    "images": [
+      {
+        "alt": "A steam locomotive and tender",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/31a32215-85bd-44d1-a1b1-f5e6141aad51-1.jpeg",
+        "repository_path": "public/images/articles/31a32215-85bd-44d1-a1b1-f5e6141aad51-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 108. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. The gray ground is already baked into the source raster and is retained as an unavoidable layout-treatment exception. Separate title art, page panel, and text are omitted; no clean base or exact inverse blend is available. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 26
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 26
+    },
+    "subtitle": "Why a Christian’s Testimony is Often Powerless",
+    "title": "SOAP IN THE WATER TANK",
+    "topics": [
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "f9835ab9-889a-5558-8ebe-d601e3b4cbcc"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "75b06e218e6753fe2bb8d57b3bd55a5374ce234730a673a8f2eb83a0cfcdbbb9",
+    "metadata_sha256": "cc729b80f131f8cc88a8ec664dadf6689c6188a271837a1322ce6de27b82cd1c",
+    "structure_sha256": "b14d089744b2016d91c5f21ec0b1db74508f7fcd79599d01fa061280299d2eb6",
+    "text_sha256": "957b69b22b2d5214d8aaae33485e121eb5a08f5da26c6fcf417ffa43763331b7",
+    "translation_metadata_sha256": "2a65e4be2b6f57f92a33e1168c70d9340376009133bc39269e4d7948e7949960"
+  },
+  "html": "<article data-article-id=\"31a32215-85bd-44d1-a1b1-f5e6141aad51\">\n<figure>\n<img src=\"/images/articles/31a32215-85bd-44d1-a1b1-f5e6141aad51-1.jpeg\" alt=\"A steam locomotive and tender\">\n</figure>\n<p class=\"drop-cap\">With God there are no conditions for salvation—“whosoever will;” but there are many conditions for power in service. One of these conditions is that we must not only lay aside every “sin”, but every “weight”—be pure, cleansed vessels, or God cannot use us. To illustrate this, Dr. Pentecost tells a story of an engineer in America who, after being discharged for bad conduct, set out to think how he could do some damage to the Railway Company without endangering the lives of any passengers.</p>\n<p>At last, remembering that no locomotive can work for long if the water in the boiler had soap in it, he decided to get up on to one of the water tanks from which the passenger trains got their supply of water, and slip in one or more bars of soap. This would soon dissolve and impregnate the water. Having found his opportunity and done this, his object was fully accomplished. The express train, passing that night, was soon brought to a stand still, for, after filling its boiler with water it could get up but little steam…but lots of bubbles!</p>\n<p>Are you powerless in His service because the adversary has slipped in something that altogether prevents the Master from using you? Find the bar of soap, and keep it out. Only a small thing wrong in our inner life, and He cannot use it.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b25cf2ddd0d13b2dbfb3180bce44df32c36ca048be099f9273166799eddae15d"
+}

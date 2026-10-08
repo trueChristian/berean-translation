@@ -1,0 +1,82 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "f39448f5-408c-461d-9d1d-3c71d1e99c0b",
+    "images": [
+      {
+        "alt": "A mailbox bearing the magazine’s name and address, with flowers climbing its post",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f39448f5-408c-461d-9d1d-3c71d1e99c0b-1.png",
+        "repository_path": "public/images/articles/f39448f5-408c-461d-9d1d-3c71d1e99c0b-1.png",
+        "rights_note": "Clean embedded illustration object 131; intrinsic mailbox lettering and gray raster substrate retained. Separately painted section panel, title, introductory text, rules and mailing furniture omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Lossless RGB/sRGB PNG with embedded profile; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": null,
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            180,
+            290
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            180,
+            290
+          ],
+          "source_object": 131
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "complete lossless PNG",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "99e30c2e-a1a4-5da7-9ca7-8587269a4246"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ffe42bc186fdb000346415fff94246006ec001e48dc84b888d01f9630f05f278",
+    "metadata_sha256": "523427c28ed170b2453bccb4701dbf5f50efb5bf02f00110ad6778079d61e5c1",
+    "structure_sha256": "44f379d9722c5b47ef66366d61a9e18e36b4b82c439cb32dcac162ddc15975ee",
+    "text_sha256": "3d6eaff76433bfdf5937e1bb982a053c0179d967521e5121184b886170f723ab",
+    "translation_metadata_sha256": "203351a1a97917352c1f489d8e7507524912d0cc08144a8f10b1a8f041a6da4e"
+  },
+  "html": "<article data-article-id=\"f39448f5-408c-461d-9d1d-3c71d1e99c0b\">\n  <figure>\n    <img src=\"/images/articles/f39448f5-408c-461d-9d1d-3c71d1e99c0b-1.png\" alt=\"A mailbox bearing the magazine’s name and address, with flowers climbing its post\">\n  </figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <p>Dear Remnant,</p>\n  <p>We have been so blessed to read your magazine. It is so refreshing to see that there are other people out there who see things the way we do. We live in Louisiana and there are but a few of us down here of the Anabaptist faith. We hope to soon plant a church here with hopes of revival coming to our area. Enclosed is a love offering for our subscription to the Remnant. I have also included a love offering for a few of our friends who we know will be edified by the Remnant magazine. Would you mind including them on your mailing list? Thank you so much for your ministry and for being a “voice crying in the wilderness!”</p>\n  <p>Sincerely,</p>\n  <p><em>Chad Lee<br>Vivian, LA</em></p>\n  <p>Thank you for producing such an excellent publication that is edifying and so Biblically based. May God continue to bless your labor with much fruit that remains!</p>\n  <p>Sincerely,</p>\n  <p><em>Patryce Williams<br>Flint, MI</em></p>\n  <p>We are refreshed by the very useful (applicable!) articles in the Remnant. Keep those magazines coming.</p>\n  <p><em>Rodger &amp; Gwen Wehage<br>Longview, WA</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9afee78f220da8a5ff06fb2f8e849856e82f3f1786eca8667ecdbcc6e56e6f41"
+}

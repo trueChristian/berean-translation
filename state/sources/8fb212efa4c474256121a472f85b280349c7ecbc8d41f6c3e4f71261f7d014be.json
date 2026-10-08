@@ -1,0 +1,86 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "b563e897-4a90-4a37-a974-ec2967207a48",
+    "images": [
+      {
+        "alt": "A mailbox bearing the magazine name and address, with flowers around its post.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b563e897-4a90-4a37-a974-ec2967207a48-1.png",
+        "repository_path": "public/images/articles/b563e897-4a90-4a37-a974-ec2967207a48-1.png",
+        "rights_note": "PDF image object 143. Clean original grayscale mailbox raster includes its intrinsic printed address and gray substrate. Separate rounded panel, title, introductory text, dividers and running footer omitted; no mask, tile or transparency group. No asset-specific image credit or permission restriction is printed; no individual licence inferred. DeviceGray samples replicated into RGB/sRGB without changing luminance; no CMYK inversion. Lossless RGB/sRGB PNG.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "original embedded image extraction; recorded source-pixel crop only",
+          "output_dimensions": [
+            98,
+            157
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            98,
+            157
+          ],
+          "source_object": 143
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "passed source correspondence, full-resolution crop, colour and overlay checks",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        35,
+        34
+      ],
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "99e30c2e-a1a4-5da7-9ca7-8587269a4246"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "794bdaba87f8d290f004e215d5fd9029709bbe3bcd41b3a6f926310d697f53f7",
+    "metadata_sha256": "85e68b26eabc605e292cbf5a1f641cf2263aea2ad2deea68373a6ca337529de3",
+    "structure_sha256": "45d573498f1b1613b07260ae01c5e3d9025d543e78509c0066089afb88b7a387",
+    "text_sha256": "ee6a9e2217fba2c87e937d6b436fa86f64e0f9f9258faaff5bc3c7709787610e",
+    "translation_metadata_sha256": "1d9107b578e34ac383079bdf23fdabf5a87598a28ec8d17d556fd7e057da8bbe"
+  },
+  "html": "<article data-article-id=\"b563e897-4a90-4a37-a974-ec2967207a48\">\n<figure><img src=\"/images/articles/b563e897-4a90-4a37-a974-ec2967207a48-1.png\" alt=\"A mailbox bearing the magazine name and address, with flowers around its post.\"></figure>\n<p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n<ul>\n<li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n<li>A testimony for “The Blessing Corner” of God’s blessing in some area of obedience.</li>\n<li>A question that can be answered to the edification of all.</li>\n<li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n<li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n</ul>\n<p><em>Waiting to hear… --The Editors</em></p>\n<p>Dear Remnant,</p>\n<p>I wanted to write to thank you on your magazine and the blessing it has been to me. I am a 21-year-old girl and I live in England. I am trying to live a plain and simple lifestyle. I wear hanging veils and cape dresses and jumpers. If it hadn’t been for your magazine and your tape ministry I would not be who I am and dressing like I do. I am interested in getting in contact with other like-minded people here in England who eventually might be interested in setting up a church. I hold all your ministries in my prayers. Thank you so much again and please carry on.</p>\n<p><em>England</em></p>\n<hr>\n<p>Dearly Beloved in Christ,</p>\n<p>Greetings the sweet name of Jesus. I would like to renew my subscription to the tape ministry. I have been edified greatly by the messages. Finally I have found a remnant and we have started home-churching since the beginning of November. Truly we worship a great God. So when I receive the messages I listen to them and give a report to the others. We are very grateful and feel as if we are a part of your congregation. Thank you for a job well done, and may I encourage you to please continue this wonderful grace filled burden for the benefit of us all.</p>\n<p><em>Italy</em></p>\n<hr>\n<p>Dearest Charity Christian Family,</p>\n<p>My heart beats wildly within my breast as my tongue lies speechless to express the depth of my heart for my family and the thankfulness I feel towards your precious ministry. I feel need to fervently plead with the Lord for your outreach—that it will not succumb to the materialistic and to-big-to-be-pure ministries that daily throngs of well-meaning but led astray outreaches absorbed into the masses of no longer effective “church programs”... Thank you! You are breathing life into death and shining light into darkness so deep it is like the Egyptian plague—it can be felt. <u>Please</u> don’t ever be weary in well doing, but neither compromise anywhere for any reason—purity of heart and singleness of mind is life to a decaying world. We send all our love in Jesus.</p>\n<p><em>Texas</em></p>\n<hr>\n<p>Dear Friends in Christ,</p>\n<p>Greeting in our Lord and Savior’s Most Wonderful Name. I hope and pray that God is blessing you all…. I am a missionary in Japan, and I have just come back home to Alabama to spend about 2 months with relatives and Christian friends.</p>\n<p>A few weeks ago Brother Ron Hansen asked you to send me a copy of The Remnant and your tape catalog. Thank you for sending that to me. I read all the articles in The Remnant and I was blessed by them. May God richly bless you for putting out this publication that so glorifies God. I pray for God to greatly bless you in this good work you are doing.</p>\n<p>Would you please pray for me and for the lost Japanese whom I am reaching with the Gospel of Christ. I long to see many of them receive Christ’s eternal life. I listed my web site above; in case you want to read my writings on it. Also, separate from this letter, I plan to mail you the 2 books I have written in paperback. I give them free to people.</p>\n<p><em>Japan</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f82bdfec85e935eeb0c74588b77652dcc967c5af0ee06b00a11b5b930181e56e"
+}

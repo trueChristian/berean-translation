@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author unknown (1890’s)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "94dddad2-cc75-5292-86c4-8f450af98ad4"
+    },
+    "id": "f3803ae2-ef28-4366-9d5b-37b3bf380de3",
+    "images": [
+      {
+        "alt": "A miner with a darkened face.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-1.jpg",
+        "repository_path": "public/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 54. Article text and gray page panel omitted. The faded gray tonal treatment and background are flattened into the only source raster; no unwashed base or exact reversible blend is present, so that unavoidable treatment is retained unchanged. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 21,
+        "transformation": "Extracted PDF base image object 54. Article text and gray page panel omitted. The faded gray tonal treatment and background are flattened into the only source raster; no unwashed base or exact reversible blend is present, so that unavoidable treatment is retained unchanged. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A stylized flame.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-2.jpg",
+        "repository_path": "public/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-2.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 53. Article text and gray page panel omitted. Cropped to the printed rectangular clipping boundary, rounded to the nearest source pixel (165 by 221 pixels). The gray tonal treatment and background are flattened into the only source raster; no unwashed base or exact reversible blend is present, so that unavoidable treatment is retained unchanged. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 21,
+        "transformation": "Extracted PDF base image object 53. Article text and gray page panel omitted. Cropped to the printed rectangular clipping boundary, rounded to the nearest source pixel (165 by 221 pixels). The gray tonal treatment and background are flattened into the only source raster; no unwashed base or exact reversible blend is present, so that unavoidable treatment is retained unchanged. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "How Far Is It To Hell?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "482c63d4f6962af49dcfa329849e07d4c0e967d4cd959a76f6099498a1d6a534",
+    "metadata_sha256": "eee362a4d40a7ca8434c1780da756231da46ef5c9a9e59fb6e12e5c20b04f8c3",
+    "structure_sha256": "12676879ccf32c9f29bc2819609a298356098d98afd36d63ab5d61ebce4876fd",
+    "text_sha256": "de8bc684900d35f7429c0f91403724bbd4be906268f9ddf034001a61e8dc5e84",
+    "translation_metadata_sha256": "33d41c2df579ad61b6b849df791e6a6f36ac3b58ad635b5e3721874a221e7504"
+  },
+  "html": "<article data-article-id=\"f3803ae2-ef28-4366-9d5b-37b3bf380de3\">\n  <figure><img src=\"/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-1.jpg\" alt=\"A miner with a darkened face.\"></figure>\n  <p>Strangers, when they visit the “coal-fields” are often desirous of seeing how the mining operations are carried on, and for this purpose they go down with some of the miners into the coal pits.</p>\n  <p>One day a gentleman was going down, accompanied by a miner, who was to show him through the mine, and to explain the working of the different parts of it. This miner was a simple-hearted and earnest Christian, and as they were let down into the darkness, he was shocked at the language of the gentleman, who added an oath, or some blasphemous expression, to almost every sentence he uttered. Down and down they went, when the gentleman said, “Do you think it is as far to hell as it is to the bottom of this mine shaft?”</p>\n  <p>“I don’t know, Sir,” replied the miner, “I am not sure how far it is to hell. But, judging from your language, if the rope were to break, you’d be there in less than a minute.”</p>\n  <figure><img src=\"/images/articles/f3803ae2-ef28-4366-9d5b-37b3bf380de3-2.jpg\" alt=\"A stylized flame.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ca45db6e3471ec4dfe2814347d84b6970cdfbb22f69715afd72c07f2dd5364df"
+}

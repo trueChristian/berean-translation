@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Jerrys daughter"
+        }
+      ],
+      "raw": "-by Jerrys daughter"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "d850e482-29b8-4e51-87a3-669504525ad2",
+    "images": [
+      {
+        "alt": "A boy in a hat beside a basket.",
+        "caption": null,
+        "credit": null,
+        "height": 226,
+        "public_path": "/images/articles/d850e482-29b8-4e51-87a3-669504525ad2-1.png",
+        "repository_path": "public/images/articles/d850e482-29b8-4e51-87a3-669504525ad2-1.png",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Isolated PDF image object 111 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior. Separately painted decorative frame stroke omitted; exact published rounded-corner clipping retained.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": "Isolated PDF image object 111 with its exact published clipping path and placement matrix; no text, stroke, panel or other page paint operations included. Rasterized at native approximately 72 dpi, preserving the published rotation/crop; transparent exterior.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 168
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        30,
+        33
+      ],
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Jerry’s Choice",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8b8535b9601210e5030ac1cec7048f9a66343082145be4fb9dc11b856d6bbd75",
+    "metadata_sha256": "fd69dbe6fcb4c5d756bb2e984883e658d2ec7b86da09de7bea421c3c01603421",
+    "structure_sha256": "adaea9317f643e30d45cb0aa5e09333e64d2d8a7a80935e24076133ee9ef0a83",
+    "text_sha256": "92b20fd30d9a4ca7446dc5a0f3c505de9c1080facdcfc9b355f438b942bd8aeb",
+    "translation_metadata_sha256": "3288e94f2b4191e050b5255bc5bd2409c3d53c291dc2e1ae6a723ee0184ff15f"
+  },
+  "html": "<article data-article-id=\"d850e482-29b8-4e51-87a3-669504525ad2\">\n  <figure>\n    <img src=\"/images/articles/d850e482-29b8-4e51-87a3-669504525ad2-1.png\" alt=\"A boy in a hat beside a basket.\">\n  </figure>\n  <p>This story happened a long time ago, when money was scarce and most people were poor, not because they were lazy, but because jobs were also scarce. The boy in our story was born back then, and his grandpa named him Jerry. Jerry had four brothers and six sisters. It was almost impossible for his father to earn enough money to buy food and clothes for his big family. He worked long hard days, but got so little pay; he just didnt have enough to properly care for the family.</p>\n  <p>Now in this same community there lived a man we will call Mr. Pete and his wife, Mrs. Sara. They had a very nice farm, house, and animals and it seemed they had plenty of money too, but they didnt have any children. Mr. Pete was really a kind, quiet man, but Mrs. Sara was quite bossy and liked their money very much.</p>\n  <p>She was very careful how they spent it and didnt want to spend any more than was necessary. Mr. Pete farmed with horses, not tractors, and there was always much work to do. He had horses, cows, pigs, and chickens to feed each day, so he had to grow lots of grain and hay for feed.</p>\n  <p>He and Mrs. Sara also raised vegetables to take to market each week, so they could sell vegetables, eggs, and meat to people who lived in town. One day Mr. Pete had an accident and hurt his back very badly so he couldnt do all the hard work anymore. They needed to get someone to come help quickly. Mrs. Sara didnt want to hire a grown man; that would take too much money. She also told Mr. Pete, I want to get a young boy so I can whip him if he doesnt do what I want him to do. She looked around for a boy, and guess who she saw? Eleven-year-old Jerry. She knew his parents were poor and had lots of children to feed and could surely use some extra money!</p>\n  <p>She and Mr. Pete talked to Jerrys father. We will give Jerry a good place to live, buy his clothes, and give you a little money each month if you will let him come live with us. Now Jerry was his mothers helper and loved her very much. He would carry water for her on washday, help work in the garden, and do many little jobs to make her work easier. His mother appreciated his help very much, and of course she loved him dearly and didnt want him to move away from home. Jerrys father thought about the money he would get, and Jerry would get clothes and food he wouldnt have to pay for, so he decided Jerry should go. He took Jerry to Mr. Petes house and left him there. Mrs. Sara showed him his new bedroom. He was upstairs, in the dark, all alone. Remember, he had brothers and sisters to be with at home; now he was alone. Many times he cried himself to sleep, he was so lonely at night. Jerry had to get up early, go to the barn, clean staffs, feed animals, milk cows, and gather eggs. He had so much work to do during the day he really didnt have time to think about his family.</p>\n  <p>He was here to work, and Mrs. Sara made sure he worked hard. Jerry got to go home once a month on Sunday afternoon. Oh, how he looked forward to that Sunday. Mrs. Sara didnt want him to go very often. She said that made him too homesick. One day a kind neighbor, who had been watching what was happening, brought Jerry a present. It was a nice Bible storybook. It even had some pictures in it. Jerry loved that book and the beautiful stories of Joseph, Moses, Daniel, and Jesus. He would hurry with his morning chores, go into the house, get washed for breakfast, then sit and read his Bible storybook until breakfast was ready. When he went to eat, he would put his book back on the shelf until he had a few minutes before mealtime to read again. Mrs. Sara watched this for a while, and one morning when Jerry went to the shelf to get his book, it was GONE. Mrs. Sara said he was getting too involved and attached to the Bible storybook, and she wasnt sure that was good for him. She never gave it back.</p>\n  <p>Sometimes Jerry thought he couldnt bear all the unfair treatment he received, so one day, out in the barn, he talked to God. He made a choice. He promised God if he grew up and God blessed him with children, he would be with Gods help a good father to those children. Jerry could have chosen to be mean, angry, and bitter all his life, but he chose Gods way. Jerry stayed with Mr. and Mrs. Pete until he was 21 years old. He never got money for all his years of hard work. He never got to go back home to live with his family. But God was watching and God blessed him and took care of him. After he was grown God blessed him with a godly wife, and her parents were very special to him. Jerry did become a father. He remembered the promise he had made to God out in the barn, and with Gods help he was a godly father. He taught his children about God and Gods Word.</p>\n  <p>Several years ago, Jerry was telling a friend about his Bible storybook that was taken away from him many years ago. Later his friend was in a used bookstore and saw an old Bible story-book. He thought about Jerry and decided to buy the book. He took it to Jerry and asked, Is this Bible storybook like the one you had when you were a boy? Guess what? When Jerry opened it, it was the same book! The only difference was the color of the cover. Jerry is now an old man, but he still loves God and he still enjoys reading his Bible storybook. God has blessed him very much because he made right choices.</p>\n  <p><em>-by Jerrys daughter</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e1e174bc8122b64eb95fc36f211734f638ee967286c1aab713f6b29d9317000d"
+}

@@ -1,0 +1,40 @@
+{
+  "article": {
+    "byline": null,
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61",
+        "729ef2d2-cb45-545b-b9a8-555cc7a423df"
+      ],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "e7fba858-3c29-42c7-ae42-198541696da3",
+    "images": [],
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "The Tongues Test",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b564ae70bf9269c1a521d018c600c683eec94725319e59dfda8472413541fc67",
+    "metadata_sha256": "58ecd2d40a7deec864b2c348324b50162e0b071ac0d0df7d3bc4b405694e43f2",
+    "structure_sha256": "99782f4dd45f1c3deb18524ff066cdbb97e16cafd787479e8d97a6dc71b81924",
+    "text_sha256": "bae9b003ce1eab814a612907a92a2aea35da72a17bcddd3ce3cf5e0027a85546",
+    "translation_metadata_sha256": "d13804b24b99c3864f61c310fda089cada4084ef0d869eb2ca4df0e73fb4c48b"
+  },
+  "html": "<article data-article-id=\"e7fba858-3c29-42c7-ae42-198541696da3\">\n  <p>In this simple test, we will ask a few questions concerning what the Bible has to say about speaking in tongues. The answers are so obvious that we will not even provide them. <strong>THINK</strong> about the answers.</p>\n\n  <ol>\n    <li>Jesus said we shall know them by their (fruits, gifts).</li>\n    <li>We are exhorted to be filled with the Spirit, speaking to ourselves in (tongues, psalms and hymns and spiritual songs).</li>\n    <li>Tongues are for a sign (to the believer, to the unbeliever).</li>\n    <li>When Paul asked the question “Do all speak with tongues?” the implied answer was (yes, no).</li>\n    <li>The unbelievers in Acts 2 (needed an interpreter, did not need an interpreter) to understand what those speaking in tongues were saying.</li>\n  </ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70"
+}

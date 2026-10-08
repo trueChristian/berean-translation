@@ -1,0 +1,87 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "e9f126ba-9346-4443-b985-c4042ccd5b95",
+    "images": [
+      {
+        "alt": "A roadside mailbox bearing the magazine address",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 125,
+        "public_path": "/images/articles/e9f126ba-9346-4443-b985-c4042ccd5b95-1.jpg",
+        "repository_path": "public/images/articles/e9f126ba-9346-4443-b985-c4042ccd5b95-1.jpg",
+        "rights_note": "Original embedded PDF image object 125; raw raster, image dictionary, paint order, clipping and page rendering inspected. No soft mask or transparency group. Separable article typography, page rules and panels omitted. Meaningful unobstructed mailbox crop removes the irreversibly baked heading and reading panel. Address lettering remains intrinsic to the available mailbox raster. No pixels synthesized. No separate image credit or reuse restriction printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            0,
+            0,
+            495,
+            230
+          ],
+          "export_pixel_dimensions": [
+            495,
+            230
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 125,
+          "source_pixel_dimensions": [
+            1050,
+            522
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "unobstructed crop; intrinsic mailbox address retained",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "c8bc3218-a971-51c0-9b90-b24243e844d0",
+      "99e30c2e-a1a4-5da7-9ca7-8587269a4246"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "88b31579b0f1656536037bae4b84d7ba3363d3ba751f0427a0753ded4260349e",
+    "metadata_sha256": "f635cc4ce573ed003d805726c4b7f466dca5b553b9bafee7f4edb727c2085a97",
+    "structure_sha256": "6c6b596bbec20e5db7cdd6b6aa926781d5e1819b5610a52209449cca6491ad84",
+    "text_sha256": "bda777b2f735e3d6e0e6116013450b90b7a96bb35900da5c3233ec07dc8e8e42",
+    "translation_metadata_sha256": "ec38e8b44c981eeb43d6293d6d91993c33d065be3446469284008b4c117be26f"
+  },
+  "html": "<article data-article-id=\"e9f126ba-9346-4443-b985-c4042ccd5b95\">\n  <figure>\n    <img src=\"/images/articles/e9f126ba-9346-4443-b985-c4042ccd5b95-1.jpg\" alt=\"A roadside mailbox bearing the magazine address\">\n  </figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n  <p>Dear Brother Dean,</p>\n  <p>Thank you very much for your work in getting my article on the telemarketer ready to print in the Remnant. I pray that God would use it to build His kingdom is some way.</p>\n  <p>I thought I’d share with you something exciting that happened to me for the first time the other night. The phone rang, my wife answered and passed it to me, and I heard the familiar pause, accent, etc, that goes with most telemarketers. Except that this time the voice sounded vaguely familiar. “Hello, Mr. Hertzler. This is Troy. Do you remember me?”</p>\n  <p>Troy. Yes, I remembered him. He had called me several months earlier, I think to sell me a credit card, and when I spoke to him about the Lord he seemed as hungry as anyone I had ever spoken to. So much so that he seemed ready to surrender his life to Christ on the spot, except that he was running out of time to talk. I was, however, able to point him to Charity Gospel Tape Ministry and also to the Gospel of John, and then we hung up. I had also put him on my prayer list for the next several weeks.</p>\n  <p>Now he was calling again, probably to make another attempt to sell me his product. After all, I should be willing to buy from someone I had made such good friends with. He had politely listened to my sales pitch, and now he was going to give me his again, and hopefully generate a sale out of all his effort.</p>\n  <p>“Yes, Troy, I remember you. How have you been?” (Getting myself ready for the sales pitch to begin.)</p>\n  <p>“I’m doing good. I just wanted to talk to you a little, and let you know that I’m walking with the Lord.”</p>\n  <p>“Really?” I said, not quite believing my ears. “Well that’s wonderful, Troy. Thank you for letting me know. But tell me something. When did you start walking with God?”</p>\n  <p>“The day I talked with you. I just wanted to call and tell you that. God bless you.”</p>\n  <p>“God bless you, too, Troy. And thanks very much for letting me know.”</p>\n  <p>“You’re welcome, Mr. Hertzler. Good-bye.” And Troy hung up without a hint of a sales pitch.</p>\n  <p>As I said, this was the first time this had ever happened to me, after possibly several hundred talks with telemarketers. But just this one was enough to convince me beyond all doubt that it had been very worthwhile.</p>\n  <p>God bless,</p>\n  <p><em>Roger Hertzler<br>27027 Irish Bend Loop<br>Halsey, OR 97348<br>541-369-2752</em></p>\n  <hr>\n  <p>I just read and appreciated your article on rock music in the latest Remnant.</p>\n  <p><em>Plain City, Ohio</em></p>\n  <hr>\n  <p>Dear brothers in Christ,</p>\n  <p>I belong to a church that worships to modern day style music. I am drawn into God’s presence each time we gather. I’ve been attending contemporary concerts for over 25 years. Did they ever get off track from time to time? Sure. Did they point listeners to God, God’s Word, and a life of devotion to Christ? <strong><em>Absolutly!!</em></strong> Why are your human opinions keeping you from moving on with God…<strong><em>worship is the joy and thankfulness I have for my God and Savior coming from my heart to God. I’m so glad Mr. Martin and Mr. Taylor can’t stand between my Lord and me and declare “this style of music isn’t pleasing to God’s ear!!” I’m so sorry you folks are stuck in you’re religion instead of a pure love of God!!”</em></strong></p>\n  <p><em>Pennsylvania</em></p>\n  <p>Reply from the editor:</p>\n  <p>I’m sorry that you took such an offence to my and John D. Martin’s articles on music. I encourage you to re-read the articles with a clear, quiet and prayerful heart. If you notice, the articles do not even actually criticize the genre of Rock and Roll but rather point to what we would see as a better way. John’s message lifts up Hymns, Psalms and Spiritual songs and mine was more a criticism of the contemporary Christian rock culture as a whole. If you are going to continue to be involved with this style of music please at least listen to the obvious abuses made by these performers and be a voice that stands for truth without compromise.</p>\n  <p>In the end…I hope that just as a human father receives his child’s offering of dandelions with great joy, our Lord, can take many of our imperfect offerings given with a pure heart and motive and receive them as a blessed sacrifice of praise.. <em>~Dean</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "526def7bdec650716d3cc4a20c700bb64c826ed5957924c07e61f9e69dbe9c99"
+}

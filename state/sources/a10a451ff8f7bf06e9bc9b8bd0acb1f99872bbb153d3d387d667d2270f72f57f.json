@@ -1,0 +1,77 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "George Muller",
+          "role": null
+        }
+      ],
+      "raw": "George Muller"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "bd7bc21c-5e26-46de-af8e-c1b13b47a349",
+    "images": [
+      {
+        "alt": "A small house surrounded by trees and shrubs",
+        "caption": "That they may teach the young women ...",
+        "credit": null,
+        "public_path": "/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-1.png",
+        "repository_path": "public/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-1.png",
+        "rights_note": "No image-specific credit, licence, source, copyright mark, or separate-permission wording is printed. The page-2 masthead states generally, “Some images ©2001-2011 / www.clipart.com / www.sxc.hu,” but does not identify which source, if either, applies to this image. The clean embedded 256×183 raster was normalized as an sRGB PNG at 150 ppi. The separately painted caption belongs in semantic HTML.",
+        "role": "recurring section illustration",
+        "sequence": 1,
+        "source_page": 24
+      },
+      {
+        "alt": "A group of people seated around a dinner table as a woman serves them",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-2.jpg",
+        "repository_path": "public/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-2.jpg",
+        "rights_note": "No image-specific credit, licence, source, copyright mark, or separate-permission wording is printed. The page-2 masthead states generally, “Some images ©2001-2011 / www.clipart.com / www.sxc.hu,” but does not identify which source, if either, applies to this image. The embedded 375×325 one-component Separation JPEG was inverted to match the printed black-on-white rendering, converted to RGB/sRGB, and baseline-normalized at 150 ppi. The recurring curved Sisters’ Corner emblem is separate section furniture.",
+        "role": "narrative engraving",
+        "sequence": 2,
+        "source_page": 24
+      }
+    ],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "Won by Conduct",
+    "topics": [
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "81468553-1f19-5fc5-a56d-910096930064",
+      "59f215c7-2846-5495-b326-2cfc27843ad3",
+      "660c6413-c65e-547c-8bed-077b85300559"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c155e5d1c19d75c8391bc4e8d57898a3a84c5be58dc6f8640394abe418f794e0",
+    "metadata_sha256": "58edd18a990db0dad3ae18a9af5615a35cc18cbd456335d631e5be1267e978b4",
+    "structure_sha256": "ffbbfc56ce36781a043aeddc3a6838cb8a18fab2ce6a04b7b79d33fbcdae7d56",
+    "text_sha256": "cd4093804c00887bf55e368d16de1e3e1a6da1cc5735475238f178757766209b",
+    "translation_metadata_sha256": "a430953619efaeca86083e8cc9673def2004cfb7e3ade4c18be202ea98243af7"
+  },
+  "html": "<article data-article-id=\"bd7bc21c-5e26-46de-af8e-c1b13b47a349\">\n  <figure>\n    <img src=\"/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-1.png\" alt=\"A small house surrounded by trees and shrubs\">\n    <figcaption>That they may teach the young women ...</figcaption>\n  </figure>\n\n  <p class=\"lead\"><em>In this issue’s </em>Sisters’ Corner<em>, we break from our usual custom of having an article by a sister, and turn to George Muller for a powerful testimony of meek service. After all, George only relates the story ... the lady is the one doing the teaching ... by her example! While sisters have a greater opportunity of practicing submission to authority, this blazing testimony of “Christ in you” can be appropriated into the life of the brothers as well. Amen!</em></p>\n\n  <p class=\"drop-cap\">During my stay at Basle I attended a meeting one day, at which a venerable, pious clergyman expounded the Greek New Testament to several brethren who purposed to give themselves to missionary service. The passage to which this dear aged brother had then come in the original of the New Testament was 1 Peter 3:1-2, which, in our English translation, reads thus; “Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives; while they behold your chaste conversation coupled with fear.”</p>\n\n  <figure>\n    <img src=\"/images/articles/bd7bc21c-5e26-46de-af8e-c1b13b47a349-2.jpg\" alt=\"A group of people seated around a dinner table as a woman serves them\">\n  </figure>\n\n  <p>After this aged brother had expounded the passage, he related a circumstance which had occurred in his own days, and under his own eyes, at Basle, which has appeared to me so encouraging for those children of God who have unbelieving relatives—and especially for sisters in the Lord who have unbelieving husbands—and which, at the same time, is such a beautiful illustration of 1 Peter 3:1. I judge it desirable to insert the narrative of this fact here. I will do so as exactly as I remember it.</p>\n\n  <p>There lived at Basle an opulent citizen, whose wife was a believer, but he himself feared not the Lord. His practice was to spend his evenings in a wine-house, where he would often tarry till eleven, twelve, or even one o’clock. On such occasions, his wife always used to send her servants to bed, and sat up herself to await the return of her husband. When at last he came, she used to receive him most kindly, never reproach him in the least—either at the time or afterwards—nor complain at all on account of his late hours, by which she was kept from seasonable rest. Moreover, if it should be needful to assist him in undressing himself, when he had drunk to excess, she would do this also in a very kind and meek way. Thus it went on for a long time.</p>\n\n  <p>One evening this gentleman was again, as usual, in a wine-house, and having tarried there with his merry companions till midnight, he said to them: “I bet that if we go to my house, we shall find my wife sitting up and waiting for me, and she herself will come to the door and receive us very kindly; and if I ask her to prepare us a supper, she will do it at once without the least murmur, or unkind expression, or look.” His companions in sin did not believe his statement. At last, however, after some more conversation about this strange statement (as it appeared to them), it was agreed that they would all go to see this kind wife.</p>\n\n  <p>Accordingly they went, and, after they had knocked, found the door immediately opened by the lady herself, and they were all courteously and kindly received by her. The group having entered, the master of the house asked his wife to prepare supper for them. She, in the meekest way, at once agreed to do so. After awhile, supper was served by herself, without the least sign of dissatisfaction, murmur, or complaint. Having now prepared all for the company, she retired from the group to her room.</p>\n\n  <p>When she had left the group, one of the gentlemen said: “What a wicked and cruel man you are, thus to torment so kind a wife.” He then took his hat and stick, and, without touching a morsel of the supper, went away. Another made a similar remark and left, without touching the supper. Thus one after another left, till they were all gone, without tasting the supper.</p>\n\n  <p>The master of the house was now left alone, and the Spirit of God brought before him all his dreadful wickedness, and especially his great sins towards his wife. The group had not left the house half an hour, before he went to his wife’s room, requesting her to pray for him. He told her that he felt himself a great sinner, and asked her forgiveness for all his behavior towards her. From that time he became a disciple of the Lord Jesus.</p>\n\n  <p>Observe here, dear reader, the following points in particular, which I affectionately commend to your consideration:</p>\n\n  <ol>\n    <li>The wife acted in accordance with 1 Peter 3:1. She kept her place as being in subjection, and the Lord owned it.</li>\n    <li>She reproached not her husband, but meekly and kindly served him when he used to come home.</li>\n    <li>She did not allow the servants to sit up for their master, but sat up herself, thus honoring him as her head and leader, and concealed also, as far as she was able, her husband’s shame from the servants.</li>\n    <li>In all probability, a part of those hours during which she had to sit up was spent in prayer for her husband, or in reading the word of God, to gather fresh strength for all the trials connected with her position. But whether this was the case or not, it is certain that time thus spent (in similar circumstances) would then indeed be spent profitably.</li>\n    <li>Be not discouraged if you have to suffer from unconverted relatives. Perhaps very shortly the Lord may give you the desire of your heart, and answer your prayer for them. But in the mean time seek to commend the truth, not by reproaching them on account of their behavior towards you, but by manifesting towards them the meekness, gentleness, and kindness of the Lord Jesus Christ.<sup>1</sup></li>\n  </ol>\n\n  <p><sup>1</sup> George Müller, A Narrative of Some of the Lord’s Dealings with George Muller, 6th ed. (London: J. Nisbet &amp; Co., 1860), 125-126.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e385dac4b5d04a95bffcbed0085de0f73a57d93a471c44c627b386baa751736d"
+}

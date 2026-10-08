@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, OH",
+          "name": "Joel A Hostetler"
+        }
+      ],
+      "raw": "by Joel A Hostetler\nCoshocton, OH"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+    "images": [
+      {
+        "alt": "Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861",
+        "caption": null,
+        "credit": "Henry F. Lyte, 1847; William H. Monk, 1861",
+        "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png",
+        "repository_path": "public/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png",
+        "rights_note": "No separate source, permission notice, or license terms are printed for the score. The clean embedded 1-bit stencil was sample-polarity inverted to reproduce the printed black notation on white, preserved at 1723x1524, and saved as a 300 dpi 1-bit grayscale PNG; crop and orientation are unchanged.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 24
+      }
+    ],
+    "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "A Hymn History",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Abide With Me, Fast Falls The Eventide",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "43a67c383cc7d20689dac5d5608cc229ac72ae4b1ae6e165a6a96fd26980813a",
+    "metadata_sha256": "3b25d4bb37a9b10b1aa88ab2c6931eb902f7e5d987d3a707103539e985900a6e",
+    "structure_sha256": "2abfe3c506a333eee143aa6dbb93423edb290d837223b28af64017d2a1b81e05",
+    "text_sha256": "ad0aa6f6a06f10b44ed30c17ec7c4185a05500548c2e26ad539110ae91f30bf3",
+    "translation_metadata_sha256": "1a7c7224b9c84be4759a5a10554d25b4a30d0d9296212f90952fa8b936f17f93"
+  },
+  "html": "<article data-article-id=\"fe94355d-8741-49a7-8f66-16003daa3f89\">\n  <p class=\"drop-cap\">This hymn is generally considered to be one of the greatest hymns ever written and is found in nearly every hymnal or book of hymns published today. It was written by a man who was frail in body, but strong in spirit. It was he who coined the phrase, “It is better to wear out than to rust out.” Let us now take a glimpse into the life of this servant of God.</p>\n  <p>Henry Francis Lyte, the author of this great and noteworthy hymn, was born June 1, 1793, in Ednam, near Kelso, Scotland. At a young age, he was left an orphan and was in comparative poverty. He was educated at Trinity College in Dublin, Ireland. It was there that his gift of poetry began to appear, winning him three prizes. His primary goal with his studies was to become a physician, instead, by the providence of God, he became a minister of the gospel of Jesus Christ.</p>\n  <p>One day in Cornwall, a fellow clergyman who was on his deathbed, requested that Lyte would come and give him some spiritual comfort. “To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”. As they searched for truth and assurance of salvation, they fixed their faith on Christ, and Lyte came away from that sickroom a changed man, never to be the same again. It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.” In the year 1823, Henry F. Lyte took charge of a seashore parish, Lower Brixham, in Devonshire, England. It was at that place where he spent the last 23 years of his life toiling as a pastor for the spiritual good of the poor fishing people and the rough seafaring men of that region until his death in the fall of 1847. For all of Henry’s dedication and labor, he received a reward: having a Sunday school of several hundred scholars, as well as “a splendid company of seventy or eighty teachers, personally trained by him.”</p>\n  <p>Throughout his lifetime, his health was continually threatened by asthma and tuberculosis. Notwithstanding his physical frailties, he worked tirelessly with an established reputation as a poet, musician, and minister. Wherever he went, he was greatly loved and admired by his people. Toward the end of these later years, his health became gradually worse. So it was that during the winter months, he felt compelled to seek a warmer climate in Italy, which is a part of southern Europe.</p>\n  <p>Though he was greatly weakened by his sickness, on September 4, 1847, as Lyte was about to leave to head southward, he was arrested by an “irresistible desire” to preach once more to his congregation. He dearly loved these people and he had labored among them for so many years. “Against the protest of his amazed friends, he accomplished this purpose, and it is recorded that Lyte nearly had to crawl to the pulpit and his message came as from a dying man.” “O brethren,” he said, as he entered the familiar pulpit for the last time, “I stand here among you today, as alive from the dead, if I may hope to impress it upon you, and induce you to prepare for that solemn hour which must come to all, by a timely appreciation and dependance on the death of Christ.” These final words made a deep impact upon his congregation, after which he closed the service by administering the Lord’s Supper to his weeping people. Later that evening, after the service, he was inspired to “poetical composition” and wrote the eight stanzas of his last and greatest hymn:</p>\n  <p class=\"poem\">Abide with me: fast falls the eventide;<br>\n    The darkness deepens; Lord, with me abide:<br>\n    when other helpers fail, and comforts flee,<br>\n    Help of the helpless, O abide with me.</p>\n  <p class=\"poem\">Swift to its close ebbs out life’s little day;<br>\n    Earth’s joys grow dim, its glories pass away;<br>\n    Change and decay in all around I see;<br>\n    O Thou who changest not, abide with me.</p>\n  <p class=\"poem\">Not a brief glance I beg, a passing word;<br>\n    But, as Thou dwell’st with Thy disciples, Lord,<br>\n    Familiar, condescending, patient, free,<br>\n    Come, not to sojourn, but abide, with me.</p>\n  <p class=\"poem\">Come not in terrors, as the King of kings;<br>\n    But kind and good, with healing in Thy wings;<br>\n    Tears for all woes, a heart for every plea;<br>\n    Come, Friend of sinners, and thus ‘bide with me.</p>\n  <p class=\"poem\">Thou on my head in early youth didst smile;<br>\n    And, though rebellious and perverse meanwhile,<br>\n    thou hast not left me, oft as I left thee:<br>\n    On to the close, O Lord, abide with me.</p>\n  <p class=\"poem\">I need Thy presence every passing hour;<br>\n    What but Thy grace can foil the tempter’s power?<br>\n    Who like Thyself my guide and stay can be?<br>\n    Through cloud and sunshine, O abide with me.</p>\n  <p class=\"poem\">I fear no foe, with Thee at hand to bless:<br>\n    Ills have no weight, and tears no bitterness.<br>\n    Where is death’s sting? Where, grave, thy victory?<br>\n    I triumph still, if Thou abide with me.</p>\n  <p class=\"poem\">Hold Thou Thy cross before my closing eyes;<br>\n    Shine through the gloom, and point me to the skies;<br>\n    Heaven’s morning breaks, and earth’s vain shadows flee:<br>\n    In life, in death, O Lord, abide with me.</p>\n  <p>This hymn he gave to one of the family members that very night. Leaving the following day, he began his trek to Rome, Italy, hoping to gain some relief from his sickness. Lyte make it as far as Nice, France where his sickness prevented his further travel. He passed away soon after the age of 55, on November 20, 1847. His last words were “Joy! Peace!”</p>\n  <figure>\n    <img src=\"/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png\" alt=\"Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861\" loading=\"lazy\">\n  </figure>\n  <p>The scene behind this hymn is that of the resurrected Christ Jesus walking on the road to Emmaus with two of His somewhat sad and discouraged disciples. As they neared the end of their seven-mile walk and approached the village where they were going, Jesus <em>…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.</em></p>\n  <p>We can draw a parallel between that scene and Henry F. Lyte’s own experience of drawing toward the close of his earthly journey. Thus, as the disciples besought the risen Lord to abide with them in the close of that ancient day, so was the meaning of this song written in the “shadows of death” to the hymn writer.</p>\n  <p>Lyte himself composed a tune for this hymn on the same evening that he wrote it, but it never became widely used. However, the tune universally used was written fourteen years later by William Henry Monk, a noted London musician, and editor of the well-known Anglican hymnal, Hymns Ancient and Modern. He included this song in his first edition, which was published in 1861.</p>\n  <p>In all, William H. Monk composed 50 tunes for the hymnal. It is said that Monk, being “inspired by the beauty of a glorious sunset while yet experiencing a deep personal sorrow,” composed (in only 10 minutes) the tune, Eventide, for the song, “Abide With Me, Fast Falls The Eventide”. William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.</p>\n  <p>To summarize, Henry Lyte experienced many sorrows during his lifetime. Both of his parents died at an early age leaving him an orphan. And his own sickness and frailty caused him to be in ongoing danger of asthma and tuberculosis. Yet, in spite of all his trials, we find in him a resilient spirit to reach out to others; to touch and minister the Gospel to those poor people among whom he lived. “In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”</p>\n  <p>References:<br>\n    <em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Author- Henry Francis Lyte, 1793-1847<br>\n    Composer- William Henry Monk, 1823-1889<br>\n    Tune Name - “Eventide”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b"
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Pablo Yoder",
+          "role": null
+        }
+      ],
+      "raw": "Pablo Yoder"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "b79b6344-d2ea-4f1d-a9f3-c6c24dc3fc5b",
+    "images": [
+      {
+        "alt": "Elijah crouching in a cave",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b79b6344-d2ea-4f1d-a9f3-c6c24dc3fc5b-1.png",
+        "repository_path": "public/images/articles/b79b6344-d2ea-4f1d-a9f3-c6c24dc3fc5b-1.png",
+        "rights_note": "The issue masthead gives only unassigned general art provenance (“Some images ©2001-2012,” www.clipart.com, and www.sxc.hu); it prints no asset-specific credit, permission notice, or license for this image. The complete stitched illustration in the page-5 Scribd JPEG image-layer sprite was cropped to its published CSS clip at x=1, y=4, width=532, height=307, normalized to 8-bit sRGB, and encoded as an RGB PNG at 96 ppi without scaling or changing orientation. The issue does not identify this asset’s individual source or source-specific terms.",
+        "role": "Elijah illustration",
+        "sequence": 1,
+        "source_page": 5
+      }
+    ],
+    "issue_id": "b549b07a-0dd3-55bb-9bc8-d417154f192a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "What are you doing here?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "37721cf1a5016c0ea0e271f27035c0ac8f24db3e4c1503e4a4c9415eded4d624",
+    "metadata_sha256": "ef8d8664013a982826f8d97157024822a960343cba50e1173251fc5655e88671",
+    "structure_sha256": "e2d681a829fc5497320e79dfa91aee8244b23b92c23cc271b9a11cb3a7be1ff9",
+    "text_sha256": "13af1a83affeb28d0d067b1af79eca24ef30f9233676f6ed985c8b393f81f87a",
+    "translation_metadata_sha256": "c80d951d991e9ce70dcee8b06524222703610d957907cabd14de9c4e16a31011"
+  },
+  "html": "<article data-article-id=\"b79b6344-d2ea-4f1d-a9f3-c6c24dc3fc5b\">\n  <figure>\n    <img src=\"/images/articles/b79b6344-d2ea-4f1d-a9f3-c6c24dc3fc5b-1.png\" alt=\"Elijah crouching in a cave\">\n  </figure>\n  <p>“What are you doing here?” was the question that God asked Elijah, the time that he ran, scared silly by the threats of a woman. Discouraged and tired from running, he was hiding in a cave, wishing to die. He had believed a bunch of the devil’s lies, and that is why this usually courageous prophet was acting so strangely. Then he heard that familiar voice, “What are you doing here?”</p>\n  <p>Fortunately Elijah was honest enough to answer truthfully to the owner of the voice. “I have been very jealous for the Lord God of hosts (true enough): for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain the prophets with the sword (again, true enough); and I, even I only, am left (Whoa! That’s a lie from the pit); and they seek my life, to take it away … (True again; but the God that made fire fall from the sky that was so hot that it even burned stones and water, that gave you the stamina to run for miles with the speed of the antelope, that baked little miracle cakes out of thin air, and that came up with little cruises of water from nothing can take care of you, my dear prophet friend) …”</p>\n  <p>Have you ever heard modern-day Elijahs whine the same way? “My church is full of problems and I am so alone. I am the only one left that really wants to serve the Lord or obey the Bible. Everybody is going liberal. Nobody loves me. Nobody cares. Nobody sees all the work I do for the Lord. I am worthless. I am so discouraged. I’m going to throw in the towel …”</p>\n  <p>Today God calls you to come out of the cave of your discouragement to stand before HIM. It’s time to quit believing lies and to look at God Jehovah. Will he have to rend your life asunder with the awful winds of trials? Or shake the very earth you stand on with the terrible earthquakes of upheaving circumstances? Or burn the dross from your gold with the hot fire of persecution?</p>\n  <p>Come out of the lonely grotto of your discouragement and listen for the still, small voice. The still, small voice of God says:</p>\n  <blockquote>\n    <p>What are you doing here? Get back to the very place you ran from, and get to work. I have so much for you to do. Messages to deliver. Kings to anoint. Men to put to work for my kingdom …</p>\n    <p>My kingdom has not died. Stop believing all those lies. I am not done with the church yet. I am going to win this battle.</p>\n    <p>I, Jesus Christ, will build my church and the gates of hell shall not prevail against it!</p>\n    <p>And look around you. Open up your spiritual eyes. You aren’t seeing right and it’s hard for you to believe, but I have chosen 7000 that have not bowed the knee to nor kissed Baal!</p>\n  </blockquote>\n  <p>The time for moping is over, discouraged brother. If you are getting old, find your Elisha to replace you and make sure he has a double measure of your spirit. If you are a church leader, get others involved in the battle and clean up the church. God is more interested in revival than you are!</p>\n  <p>It is time to enter the battle. This is war! Spiritual warfare! God bless you as you take up all the armor of God and enter the fray. And don’t forget to listen daily to the still, small voice! ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e525bc68278c1455127f699d9e5ba84f69506c53a728fe4ae11b3b1b932eb3ca"
+}

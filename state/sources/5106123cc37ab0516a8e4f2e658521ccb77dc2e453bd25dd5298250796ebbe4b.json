@@ -1,0 +1,102 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Holmesville, Ohio",
+          "name": "Sue Hooley"
+        }
+      ],
+      "raw": "Sue Hooley\nHolmesville, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "c3c16439-53f4-49a8-afb7-3e5dfa923221",
+    "images": [
+      {
+        "alt": "A young girl in a grassy field reaches toward an adult’s hand.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/c3c16439-53f4-49a8-afb7-3e5dfa923221-1.jpg",
+        "repository_path": "public/images/articles/c3c16439-53f4-49a8-afb7-3e5dfa923221-1.jpg",
+        "rights_note": "Masthead credits Brimming Focus Photography for page 25. Native crop retains the useful unobstructed photograph below the section/title/byline panel, omitting the surrounding paper edge and all heading furniture. No caption is printed. Page paint-order, image objects and resources inspected: one full-page RGB raster, no clean underlying photo, tiles, masks or transparency groups; subsequent invisible OCR text uses ExtGState /ca 0. Source ICCBased profile is sRGB IEC61966-2.1. Crop retains source crop content before the documented aspect-ratio resampling without rotation, flipping, retouching, enhancement or synthesized content; encoded as baseline sRGB JPEG with a nonzero 96 dpi density. No CMYK inversion was needed. No individual image licence inferred from the printed credit. Final output uses vertical-only Lanczos resampling by 0.9742912 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 25,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            711,
+            1775,
+            2336
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            1774,
+            1583
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1776,
+            2359
+          ],
+          "source_object": 110,
+          "vertical_scale_to_pdf_placement": 0.9742912001595891
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "What Is In Thine Hand?",
+    "topics": [
+      "b6110205-ee2a-5109-bc00-63b36fe1ceca",
+      "62b28b0e-d4f0-57a1-aa5a-b5d39126dbf4",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1f1499f550296ca246e35db9f328fabd75fa8399040651e89e2365f5a6ebde6d",
+    "metadata_sha256": "b8f4c3c7c7b9eb5d8fa98b0adc245617f00ddb730b54be495a2a9c1029cf961f",
+    "structure_sha256": "fc1a51550ffad6a096a9e57b850dc040bd9d540f682ef8620d0516c19273882c",
+    "text_sha256": "955b716712f24d637eef0622b128de47058b5ca65b6b40237d1f80b60c9705de",
+    "translation_metadata_sha256": "9ea536396bc539e72e91d771c07603f21ca4d932bee2cb9f371410accd03dd16"
+  },
+  "html": "<article data-article-id=\"c3c16439-53f4-49a8-afb7-3e5dfa923221\">\n  <figure>\n    <img src=\"/images/articles/c3c16439-53f4-49a8-afb7-3e5dfa923221-1.jpg\" alt=\"A young girl in a grassy field reaches toward an adult’s hand.\">\n  </figure>\n  <p>In the book of Exodus, God called Moses to lead the Israelites out of Egypt. Doubting his abilities, Moses offered excuses, prompting God to ask, “What is in thy hand?” When Moses replied, “A rod,” God instructed him to throw it on the ground and it transformed into a snake. This powerful moment served as a reminder to Moses that God can use even the most ordinary objects for extraordinary purposes.</p>\n  <p>As we step into a new year, I find myself reflecting on new goals and aspirations. I’ve realized that setting big goals can often lead to burnout, leaving me feeling overwhelmed or discouraged. Instead, I’ve come to understand that focusing on simple goals is not only more manageable but also more sustainable in the long run.</p>\n  <p>It is important to recognize that we already possess the “rods” we need. Whether it’s time, creativity, compassion, or a skill, what we have at our fingertips has the potential for God to use. He delights in using ordinary things to achieve extraordinary outcomes. So, how can we purposefully weave small, meaningful actions into our lives without adding more pressure to an already busy schedule?</p>\n  <p>The “3 F’s”—<em>Faith, Family,</em> and <em>Friends</em>—serve as a simple blueprint to help women intentionally notice and create opportunities without overextending themselves. God has uniquely crafted our personalities for His glory, and He can multiply what we offer, even if it seems small.</p>\n  <h2>Faith</h2>\n  <p>Start by having a plan for Bible reading. Whether it’s using a devotional book, reading through the Bible in a year, studying a different theme each month, or revisiting the Gospels repeatedly, these are all ways to encourage personal growth and spark new enthusiasm.</p>\n  <p>Take time to fast and pray. A friend shared this idea: “On Monday, I fast for breakfast and pray for specific needs and goals in our family. I pray for my husband and each of the children. I pray that God will guide me as I mingle with others. This takes discipline, but I have seen specific answers to prayer.”</p>\n  <h2>Family</h2>\n  <p>Make your family a priority. One of my adult children reminisced, “Remember how we always had blue days?” The reality? <em>Always</em> happened only once or twice. On those days, we all wore blue and I even made blue food, including colored scrambled eggs! As a middle-aged mom, I now realize that small, unique endeavors create lasting memories.</p>\n  <p>Keep special foods or gifts on hand. They can be added to impromptu campfires, used to celebrate a rare 100% on a spelling test, or enjoyed on a snow day when everyone is home. Sparkling cider and peanuts make a great addition to a rare twenty-minute date with your husband. Celebrating (not spoiling) your family in small ways is a long-term investment.</p>\n  <h2>Friends</h2>\n  <p>The scope of friends can include lifelong and recent acquaintances, church sisters, and even neighbors. By building strong friendships, you create a circle of encouragement and joy that enriches your life. Finding the balance between doing too much or too little takes wisdom from above.</p>\n  <p>Ask God to show you what He would like you to focus on throughout the year. It’s amazing how His promptings align with our resources and stages of life. Here are a few ideas to inspire:</p>\n  <p><strong>Incorporate others into your life.</strong> This can be as simple as being observant, like the Good Samaritan, while going about your day. Consider visiting a shut-in on the same day you run errands, or offer to make someone’s assigned dish for a potluck. You might pick up a subscription for a friend while you’re at Wal-Mart, or take someone’s children home from school.</p>\n  <p><strong>Contribute what you can.</strong> A small gesture, like bringing a casserole instead of a full meal, is still valuable. Bake double and give half away. Gifting food is a tangible way to support others.</p>\n  <p><strong>Shop for others.</strong> Use your secondhand shopping skills to help a young mom clothe her children. Offer to pick up groceries for someone who is housebound.</p>\n  <p><strong>Bless your church sisters.</strong> One year, a friend bought secondhand cake platters, baked cakes, and gifted one to each of her church sisters. Send random cards. Celebrate ladies with birthdays in a specific month or select a certain age bracket to uplift in a large congregation.</p>\n  <p><strong>Adopt the “strays”.</strong> Keep an eye out for those who don’t have family nearby. Having been part of a holiday gathering with another family, you likely understand how invaluable this connection can be.</p>\n  <p><strong>To all grandmas</strong>—being an adoptive granny or mom is one of the best things you can do for the families around you that lack close relatives. When I was six, I recall visiting Paul and Lois Bear in Elida, Ohio. They taught me how to play memory, and a day later, she gifted me a brand-new memory game! Though I was young, I knew that was a special act of kindness. Our youngest son has been “adopted” by “grandparents” who remember his birthday and milestones.</p>\n  <p>What is in your hand? As we enter this new year, let us remember the question posed to Moses and recognize the potential we already possess. By embracing what is in our hands, we can create little ripples of goodness that impact our families and communities, reflecting His love in everything we do.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f3546378d1fefba0049c8523568d78bcf3b2b8ed9f2a04da8bf752535677e174"
+}

@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, OH",
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin\nGlenmont, OH"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "c7591c5d-fba7-438c-a348-740e433f778a",
+    "images": [
+      {
+        "alt": "Children from different parts of the world arranged on a globe",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-1.png",
+        "repository_path": "public/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-1.png",
+        "rights_note": "No separate permission notice or licence is printed for this illustration. Because the published montage is assembled from raster tiles and vector artwork, page 20 was rendered at 300 dpi with text suppressed and the central globe illustration was isolated with a close crop and transparent boundary; no article text or page furniture is included.",
+        "role": "article opening illustration",
+        "sequence": 1,
+        "source_page": 20
+      },
+      {
+        "alt": "A group of smiling children outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-2.jpg",
+        "repository_path": "public/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-2.jpg",
+        "rights_note": "No separate permission notice or licence is printed for this image. The complete published photograph, which is assembled from multiple PDF image tiles, was rendered from source page 21 at 300 dpi and cropped without article text.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "934674be-3d92-5ead-975d-588238f753ab",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHILDREN’S CORNER",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Children of the World",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f2a887dec61451adffe38f2d2b429f6992531363c87bc2e1d1f53f0196c1bcad",
+    "metadata_sha256": "f0cb622581e24205a9723542ccafe4f8dd3da12b3a849e47f52e230863cacb61",
+    "structure_sha256": "d332790490e1ba580b5d5857cca63c9f601ec2490a5ad56874809d3292845423",
+    "text_sha256": "62b9de4550cd8cc973d681aafa612251b4e672bae1eb0866c6c3de492858c75b",
+    "translation_metadata_sha256": "e2d01548493c7bbb1105ede9d1d119bc816c00d5f03d9b6c0b979ca533dfd424"
+  },
+  "html": "<article data-article-id=\"c7591c5d-fba7-438c-a348-740e433f778a\">\n  <blockquote>...Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God. -Mark 10:14</blockquote>\n  <figure>\n    <img src=\"/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-1.png\" alt=\"Children from different parts of the world arranged on a globe\">\n  </figure>\n  <h3>A <em>Voodoo</em> community in Haiti</h3>\n  <p>Ten-year-old Flore sat in the shadows watching the Voodoo ball (a Satanic worship ceremony). The flames of the bonfire contrasted brightly with the darkness of the night. Screaming men and women were jumping and dancing around the flames to the rhythmic beating of the drums. A strange mixture of fear and excitement seemed to fill the air. Flore shuddered, and wondered, “Why is the world such a fearful place? Why does everyone live in fear? It seems that even the birds are happier than people.”</p>\n  <h3>A <em>Buddhist</em> setting in Cambodia</h3>\n  <p>Chantrea sat on the steps of the pagoda (a Buddhist temple) watching the people place offerings of food and drink in front of the Buddha. Others stopped in front of the shiny gold statue, to kneel in prayer or to kiss it. “It seems everyone is suffering,” said Chantrea as she turned to her brother beside her. “Why is there so much pain?” Later that evening before she went to bed, Chantrea took a cup of rice outside and carefully placed it in the <em>spirit house</em>. The <em>spirit house</em> was a small house out in their yard (similar in size to a large bird feeder) where the family left food and drink offerings for the spirits of their ancestors. “Maybe they can make us happy,” thought Chantrea.</p>\n  <h3>An <em>Atheistic</em> childhood in Sweden</h3>\n  <p>Staffan was slowing walking home from school. As he crossed the busy intersection cars were honking, music was throbbing, and a husband and wife were arguing loudly on the sidewalk. However, his mind was far from his surroundings. His science teacher’s voice still rang clearly in his head, “There is no God; nature exists on its own.” “I wonder what I’m here for. Why was I even born?” Staffan mused with a troubled sigh.</p>\n  <h3>A <em>Muslim</em> town in Iraq</h3>\n  <p>“Aaaaaaallāaaaahu ’ akbar!” The voice of the Muslim prayer call interrupted the quiet summer evening with its musical wail calling devout Muslims to evening prayer. Eleven-year-old Yusuf quickly unrolled his prayer mat and knelt facing southward toward Mecca. He now was almost a man and old enough to join his father and older brothers in this prayer ritual. Five times a day he dropped what he was doing to pray at the sound of the voice calling loudly from the loudspeakers. As the voice coming over the loudspeaker droned on, Yusuf’s mind wandered. Why did it seem Allah was always angry with people? Does Allah hear his prayers? Does Allah even care about him?</p>\n  <h3>An <em>Animistic</em> tribal family in Brazil</h3>\n  <p>Eloa and her brother Quim walked along the narrow Amazon forest trail as the steamy jungle afternoon pressed in upon them. As they approached a certain towering jungle tree, they both paused to bow in reverence before the tree. Many years ago, a branch broke off the tree and as it fell, it seriously wounded one of the tribesmen. Now ever since, each one of the tribe bowed to worship the spirit of the tree before passing under it, in the belief that if they didn’t, the tree would hurt or kill someone else. Thus, in fear they worshipped the tree.</p>\n  <figure>\n    <img src=\"/images/articles/c7591c5d-fba7-438c-a348-740e433f778a-2.jpg\" alt=\"A group of smiling children outdoors\">\n  </figure>\n  <h3>A <em>Christian</em> home in the USA</h3>\n  <p>Nine-year-old Nathan fidgeted with his Bible cover. Father was explaining during the family devotions how God loves all the children of the world regardless of their race or skin color. “There are children who never even once had the opportunity to hear about God. They live daily in fear because they don’t know God really cares for children. We should count it a blessing to know that God loves and cares for us,” Father explained.</p>\n  <h3>Questions to think about:</h3>\n  <ol>\n    <li>Why do many children of the world live in fear?</li>\n    <li>How do you know God loves you?</li>\n    <li>What could be done to help the children learn about God?</li>\n    <li>Do the children in your neighborhood know of the love of God?</li>\n  </ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f3c90a68946382b7a90a1fefdda9b528340d3cc530322657e80a44aac25bcc25"
+}

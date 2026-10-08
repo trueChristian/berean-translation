@@ -1,0 +1,145 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "00a4c32f-53ee-4b86-bb62-889009a9b020",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-1.jpg",
+        "repository_path": "public/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-1.jpg",
+        "rights_note": "Only full-page scanned RGB object 19 exists, followed by invisible OCR; no separate clean artwork object, mask, tiles or transparency group. Native-pixel crop [765, 54, 994, 340] retains the printed quill illustration, including the complete nib and a short integral connected flourish; the section heading and long connecting rule are omitted. Source paper/scan texture retained. No asset-specific credit or permission notice printed; no licence inferred. Baseline RGB JPEG retains source sRGB IEC61966-2.1 profile and has nonzero 96 dpi density; no CMYK conversion. Final output uses vertical-only Lanczos resampling by 0.99227251 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "decorative section illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            765,
+            54,
+            994,
+            340
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            229,
+            284
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1716,
+            2238
+          ],
+          "source_object": 19,
+          "vertical_scale_to_pdf_placement": 0.9922725122220469
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Edward Martin’s signature.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-2.jpg",
+        "repository_path": "public/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-2.jpg",
+        "rights_note": "Only full-page scanned RGB object 19 exists, followed by invisible OCR; no separate clean artwork object, mask, tiles or transparency group. Native-pixel crop [883, 669, 1142, 772] retains the printed handwritten signature without the typed name or body text. Source paper/scan texture retained. No asset-specific credit or permission notice printed; no licence inferred. Baseline RGB JPEG retains source sRGB IEC61966-2.1 profile and has nonzero 96 dpi density; no CMYK conversion. Final output uses vertical-only Lanczos resampling by 0.99227251 to match the source image’s PDF placement aspect ratio; crop content, width, orientation and source sRGB profile are preserved.",
+        "role": "author signature",
+        "sequence": 2,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            883,
+            669,
+            1142,
+            772
+          ],
+          "flip": null,
+          "method": "source raster crop at recorded native-pixel bounds, followed by vertical Lanczos resampling to the exact PDF placement aspect ratio; no generated or repaired content",
+          "output_dimensions": [
+            259,
+            102
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1716,
+            2238
+          ],
+          "source_object": 19,
+          "vertical_scale_to_pdf_placement": 0.9922725122220469
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader inspected final full-resolution export, source page raster and rendered page, including centre, edges, corners, colours, crop, published aspect and documented unavoidable source overlays; passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the EDITOR",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "f5cc70a52878b2f0f48935e833c67a08f9183cc609e14f0e8c70f10b78ceb98b",
+    "metadata_sha256": "44f13f27c1d1ebb3efa6fec4a138142b610cfd6c983eafae9e819a34e7834596",
+    "structure_sha256": "be5ddbad3a582ecaa70c463646d3403b88e7bde6522740704e27286a0bd0c4ca",
+    "text_sha256": "066fb8fba798f5586d2efef792416f2a9acde5721020e9116caec39c00006964",
+    "translation_metadata_sha256": "c5ce80cfb12b5047e1ba2680764e495f4118e37a3150aa249073d49046acf837"
+  },
+  "html": "<article data-article-id=\"00a4c32f-53ee-4b86-bb62-889009a9b020\">\n  <figure>\n    <img src=\"/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-1.jpg\" alt=\"\" />\n  </figure>\n  <p><em>This winter, I’m going to slow down and finish some of those projects.</em> We’ve all heard or made similar declarations. The busy summer work is over. The can shelves are loaded, and the crops are in the barn. Surely, now is the time to kick back, slow down, tinker around the house or shop. Yet it seems that every year, though the rest of nature slows down, humans keep right on going at their maddening pace. <em>This year, it will be different. I hope to slow down after Thanksgiving.</em> But then, there is Youth Bible School, and right after that is Christmas. <em>Sigh. . .</em></p>\n  <p>Jesus said, “Come unto me, all ye that labour and are heavy laden, and I will give you rest” (Matthew 11:28). Perhaps we are going to the wrong place to find rest. In the article, <em>The Creeping Danger of Materialism,</em> the writer talks about how we often lack simple contentment; “The happy and grateful Christian (who is seeking to live for the Lord) will be a satisfied person. . . Contentment does not come from having all our wants supplied; it comes from reducing our desires to include only the essentials of life.”</p>\n  <p>So, how do we rest and rejuvenate this autumn and winter? Several things stand out in the Scripture where Jesus told His disciples to “come ye yourselves apart into a desert place, and rest a while.” First, it was a desert place. There was not much activity. They were away from the hustle and bustle of the world, deadlines to meet, and people to greet. Secondly, Jesus and His disciples went off alone (though it seems the crowds followed Him) to rest a while. If we can pull back and focus on our family or small inner circle, it will give our minds time to rest and focus on what is important. Thirdly, Jesus went alone into the mountain to pray. True rest happens when we take time off to pray and connect spiritually with the Lord. True rest comes when we find rest for our bodies and our souls.</p>\n  <p>Sometimes I find it a challenge to steward my time wisely. Prioritizing family time, ministry requirements, and work responsibilities becomes a constant tug of war. In the article, <em>The Parable of the Unfaithful Steward,</em> we are reminded that everything we have has been given to us by the Lord. “Remember, you are the steward of my possessions, and I will hold you accountable for your stewardship.” Let us use our time wisely for the glory of the Lord.</p>\n  <figure>\n    <img src=\"/images/articles/00a4c32f-53ee-4b86-bb62-889009a9b020-2.jpg\" alt=\"Edward Martin’s signature.\" />\n  </figure>\n  <p>Edward Martin</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b1cb0b2469c732304bbbf99bfd1dda9cb601903712951afbf170eb2fafc9187d"
+}

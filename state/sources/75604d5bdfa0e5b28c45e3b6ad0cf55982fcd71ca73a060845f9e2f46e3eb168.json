@@ -1,0 +1,51 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John Newton"
+        }
+      ],
+      "raw": "John Newton"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "53f0f887-3196-4d27-b314-9d7edbb37f78",
+    "images": [],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "A Letter on True Patriotism",
+    "topics": [
+      "bb05b712-abe4-5cce-99f8-8e5e7ba58dc1",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929",
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "26b4f9f1e8ece7888a9c082f8eaaabd5a705d12bc844e572d7e9aeb6098325d0",
+    "metadata_sha256": "a91908c12451b2d7c9d87260cb9756cb2d393688aedd6a8350cc85d68261d1c4",
+    "structure_sha256": "b295f675c5f6d3dc9e9a3a9da7500c025b01d6a3199c0602b87ce3bfbbceb032",
+    "text_sha256": "5eb86b285955f63101e403291716aa976189330a90a1b46df184beceb4dd2d99",
+    "translation_metadata_sha256": "15749d85f176126e103ea68c611a2a0cbed282769ef68b07288a289627f09893"
+  },
+  "html": "<article data-article-id=\"53f0f887-3196-4d27-b314-9d7edbb37f78\">\n  <p>Dear Friend:</p>\n\n  <p>Allow me to say that it excites both my wonder and concern that a Christian minister such as yourself should think it worth his while to attempt political reforms. When I look around upon the present state of the nation, such an attempt appears to me to be no less vain and foolish, than it would be to paint the cabin—while the ship is sinking! Or to decorate the parlor—while the house is on fire!</p>\n\n  <p>When our Lord Jesus was upon earth, He refused to get involved in disputes or politics, “Friend, who appointed Me a judge or arbitrator over you?” (Luke 12:14) “My kingdom is not of this world! If My kingdom were of this world, My servants would fight!” (John 18:36). God’s children belong to a kingdom which is not of this world; they are strangers and pilgrims upon earth, and a part of their Scriptural character is that they are the “quiet in the land.” (Psalm 35:20)</p>\n\n  <p>Satan has many contrivances to amuse people and to divert their thoughts from their real danger!</p>\n\n  <p>My dear sir, my prayer to God for you is that He may induce you to employ the talents He has given you, in pointing out sin as the great cause and source of every existing evil; and to engage those who love and fear Him (instead of wasting time in political speculations, for which very few of them are competent) to sigh and cry for our abounding abominations, and to stand in the breach, by prayer, that God’s wrath may yet be averted, and our national mercies prolonged! This, I think, is true patriotism—the best way in which people in private life may serve their country.</p>\n\n  <p>I consider the ungodly as saws and hammers in the hand of the Lord. So far as they are His instruments, they will succeed—but not an inch further! Their wrath shall praise Him and be subservient to His designs!</p>\n\n  <p>If our lot is so cast that we can exercise our ministry free from stripes, fines, imprisonments, and death—it is more than the gospel has promised to us! If Christians were quiet when under the cruel governments of Nero and other wicked persecutors, when they were hunted down like wild beasts—then we ought to be not only quiet, but very thankful now! It was then accounted an honor to suffer for Christ and the “offence of the cross!”</p>\n\n  <p>Those are to be greatly pitied who boast of their ‘liberty’—and yet they do not consider that they are in the most deplorable bondage as the slaves of sin and Satan, under the curse of God’s law and His eternal wrath! Oh! for a voice to reach their hearts, that they may know their true and dreadful state—and seek deliverance from their horrific thraldom! May you and I labor to direct them to the one thing, which is absolutely needful, and abundantly sufficient.</p>\n\n  <p>If I had the wisdom or influence to soothe the angry passions of mankind—I would gladly employ them! But I am a stranger and a pilgrim here in this world. My charter, my rights, and my treasures are all in heaven—and there my heart ought to be. In a very short time, I may be removed (and perhaps suddenly) into the unseen and eternal world—where all that now causes so much bustle upon earth will be of no more importance to me than the events which took place among the antediluvians!</p>\n\n  <p>In the hour, when death shall open the door into eternity—many things which now assume an ‘air of importance’ will be found as light and unsubstantial as a child’s dream!</p>\n\n  <p>How crucial, then, is it for me to be found watching, with my lamp burning, diligently engaged in my proper calling! For the Lord has not called me to set governments right—but to preach the gospel, to proclaim the glory of His name, and to endeavor to win souls! “Let the dead bury their own dead—but you go and proclaim the kingdom of God!” (Luke 9:60) Happy is that servant whom his Master finds so doing when He returns!</p>\n\n  <p>As you have forced me to respond—both duty and love have obliged me to be faithful and free in giving you my thoughts. I recommend you to the care and blessing of the great Shepherd and Savior; and remain for His sake, your affectionate friend and brother,</p>\n\n  <p>John Newton</p>\n\n  <p>Author of the hymn <em>Amazing Grace</em>, John lived during the politically tumultous times of the American Revolution. It should be noted that his call to be “the quiet of the land” should not be taken as a call to do nothing. Rather, we are called to cease from political ambitions, and to throw our energies into the spiritual realm, in which we are to be heaven’s storm troopers!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "81ffcbee9dd1bcc8bc1067614ed88cbce7fb02b4becd27bfb10f422301ac2c76"
+}

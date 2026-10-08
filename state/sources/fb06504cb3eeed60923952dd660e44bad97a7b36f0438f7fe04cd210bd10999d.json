@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Bedford, Pennsylvania",
+          "name": "Darletta F. Martin",
+          "role": "author"
+        },
+        {
+          "location": "Lancaster, Pennsylvania",
+          "name": "Myron K. Sauder",
+          "role": "music"
+        }
+      ],
+      "raw": "Darletta F. Martin, 2005\nMyron K. Sauder, 2005"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "fa4115d9-abd6-497b-a0c8-1aa049f80b5b",
+    "images": [
+      {
+        "alt": "Printed score and three verses of Stones of Memorial",
+        "caption": null,
+        "credit": "Darletta F. Martin, 2005; Myron K. Sauder, 2005",
+        "public_path": "/images/articles/fa4115d9-abd6-497b-a0c8-1aa049f80b5b-1.png",
+        "repository_path": "public/images/articles/fa4115d9-abd6-497b-a0c8-1aa049f80b5b-1.png",
+        "rights_note": "Native 2522 × 3004 CCITT stencil image object 151, inverted to black score on white as printed, with no page header or footer. It contains the source title, credits, notation and lyrics. No article-specific image permission or licence is printed; publisher permission reported by the project owner.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "STONES OF MEMORIAL",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "c477861f-c67f-529a-a8f0-8efa036eca44"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6e0141341786b203b3d360e607193a151627b91c9b04e6f2189d43207b00dd9b",
+    "metadata_sha256": "dd6b8819bbc3318a4b6a45d5741ed11131abb67e4bc5dec48d1094c0c0752574",
+    "structure_sha256": "649a9675d59d625e8febc9e6750b8008bde5130a5f42ad837db3ca87bde455ab",
+    "text_sha256": "03947fbb90b3c89dc95537b16eff68f9a4a026c595d7bd2485047ed3767a9cd8",
+    "translation_metadata_sha256": "288654978a0f9ab2e87b85cf70311508543cd0955ab34321ef02592808108db3"
+  },
+  "html": "<article data-article-id=\"fa4115d9-abd6-497b-a0c8-1aa049f80b5b\">\n  <figure>\n    <img src=\"/images/articles/fa4115d9-abd6-497b-a0c8-1aa049f80b5b-1.png\" alt=\"Printed score and three verses of Stones of Memorial\">\n  </figure>\n\n  <p>This hymn was commissioned for use at the 2005 Conservative Mennonite Teachers’ Institute. The theme that year was the passage in Joshua 4 about piling up stones as a memorial of God’s work. The author, Darletta Martin, lives in Bedford, Pennsylvania, where she teaches at the Friends Cove Mennonite School. Her other writings include poems, stories, and a recently published biography of her great-grandmother.</p>\n\n  <p>Myron Sauder teaches high school English and music at Faith Mennonite High School near his home in Lancaster, Pennsylvania. His other writings include <em>Handbook for Spiritual Hymns</em> (a handbook to the River Brethren hymnal) and <em>The Booklet of Hymns</em> (a sampler from the thousands of Christian hymns written in the twentieth century).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "61841bcd85e99b6a4a3cb2481e28fa5dfa04cd4bf08e2768cb5e2f1636bb5e65"
+}

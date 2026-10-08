@@ -1,0 +1,286 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Paul David (PD)"
+        },
+        {
+          "location": null,
+          "name": "Eileen Weaver"
+        }
+      ],
+      "raw": "by Paul David (PD) & Eileen Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "2c368d90-bba6-4edd-94a8-1db446dd4c07",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-1.jpg",
+        "repository_path": "public/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-1.jpg",
+        "rights_note": "Original embedded image object 54 on printed page 14. No separate image credit or image-specific permission requirement is printed. The sole raster combines roses, title and byline. A clean source-pixel crop preserves the complete roses and removes the title and byline. Their soft baked shading is inseparable from the sole roses artwork and is retained; no pixels were synthesized. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "decorative roses illustration",
+        "sequence": 1,
+        "source_page": 14,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            290,
+            141,
+            742,
+            344
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            452,
+            203
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1050,
+            446
+          ],
+          "source_object": 54
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man and woman seated on a wooden bench with open books",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-2.jpg",
+        "repository_path": "public/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-2.jpg",
+        "rights_note": "Original embedded image object 53 on printed page 14. No separate image credit or image-specific permission requirement is printed. Cropped immediately inside the baked rectangular photo border to omit the surrounding frame and drop shadow while retaining the photograph. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 14,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            50,
+            47,
+            494,
+            514
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            444,
+            467
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            547,
+            565
+          ],
+          "source_object": 53
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man and woman embracing outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-3.jpg",
+        "repository_path": "public/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-3.jpg",
+        "rights_note": "Original embedded image object 61 on printed page 16. No separate image credit or image-specific permission requirement is printed. Cropped immediately inside the baked rectangular photo border to omit the surrounding frame and drop shadow while retaining the photograph. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article photograph",
+        "sequence": 3,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            54,
+            48,
+            530,
+            762
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            476,
+            714
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            588,
+            811
+          ],
+          "source_object": 61
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Hands offering two roses to another pair of hands",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-4.jpg",
+        "repository_path": "public/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-4.jpg",
+        "rights_note": "Original embedded image object 65 on printed page 17. No separate image credit or image-specific permission requirement is printed. Published rectangular clipping is preserved to source-pixel precision; intrinsic artwork borders and markings are retained.  Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "article photograph",
+        "sequence": 4,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            599,
+            415
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            599,
+            415
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            600,
+            416
+          ],
+          "source_object": 65
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A man and woman holding two young children",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-5.jpg",
+        "repository_path": "public/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-5.jpg",
+        "rights_note": "Original embedded image object 72 on printed page 19. No separate image credit or image-specific permission requirement is printed. Cropped immediately inside the baked rectangular photo border to omit the surrounding frame and drop shadow while retaining the photograph. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "family photograph",
+        "sequence": 5,
+        "source_page": 19,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            46,
+            43,
+            696,
+            609
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            650,
+            566
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            746,
+            661
+          ],
+          "source_object": 72
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22
+      ],
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Our Courtship Testimony",
+    "topics": [
+      "efe9fa60-497a-580c-9aa2-c1aac7027cdf",
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "f9835ab9-889a-5558-8ebe-d601e3b4cbcc",
+      "edecd82b-00c5-5f69-a6fe-922dc6e8bf2a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "31108d3d653072801925118b5e780bc8bce0e3d629c52551213467b0c6311650",
+    "metadata_sha256": "1808181b51973e4fa6ad29dad17fdd764fb1bcfb33aeceb5cfca64edc5b8a8ef",
+    "structure_sha256": "2c9f75c7aee5644a181c1056793957d9bd157e0199c5bc11a2c039b514c261be",
+    "text_sha256": "09cd3768bb694614beedb9d195bedd1630993e31d8ef99a14caaba7e71168d7a",
+    "translation_metadata_sha256": "806a7430d0139e4ab00b2390be3b0519f4a7393e5f6df61b36a97e94b8ff5184"
+  },
+  "html": "<article data-article-id=\"2c368d90-bba6-4edd-94a8-1db446dd4c07\">\n  <figure>\n    <img src=\"/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-1.jpg\" alt=\"\">\n  </figure>\n  <h2>PD</h2>\n  <p>I was about sixteen years of age when I heard a set of teaching tapes on godly courtship, and through that God kindled a deep desire in my heart to go for the best He had for me in the area of choosing a marriage partner. Watching my oldest sister live out many of these principles in her courtship also helped raise the standard in my heart. I knew I was too young then to enter into a life-long relationship with a girl, so I totally committed it to the Lord, and began to pray that He would work it all out in His way, and in His time. I was not praying about anyone in particular, but I desperately wanted to keep my heart for the one woman that would someday be my wife. I had struggled and failed in allowing my heart and mind to be infatuated with thoughts about girls in my younger years, but I repented and now wanted to keep free from any premature emotional attachments.</p>\n  <figure>\n    <img src=\"/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-2.jpg\" alt=\"A man and woman seated on a wooden bench with open books\">\n  </figure>\n  <p>One evening in my prayer time I was again committing my future to God, when a wild thought exploded in my mind. Eileen will be your wife! Thinking this was just another romantic temptation, I quickly dismissed it, and finished my prayers. I couldn’t shake the thought, so I somewhat vaguely told the Lord about it and asked Him to take care of it. At the time, I was to young to do anything but pray, and that is exactly what I did. For two years I prayed about it, while the feeling I had tried to shake became stronger and stronger. Since I never told anyone but the Lord about it, He was the only one I could turn to whenever I faced uncertainties and fears about the future. It was a sweet time of learning to walk with God, as He gently led me down the path for my life. Eileen was living away from her home at the time, which I believe God had arranged to help me keep my heart, since we saw each other only occasionally. I also knew that she was learning many practical lessons of life in preparation for marriage and motherhood. As time went on, I became more and more convinced God was indeed speaking to me about pursuing courtship and marriage. I had developed a good spiritual relationship with Eileen’s father in a small prayer group at church, and then I also worked with him for several months. This gave us the chance to often share our visions and goals for the future, but at this point I had never told him of my interest in his daughter.</p>\n  <p>I finally felt compelled to do something about the conviction in my heart, and I knew the next step for me was to inform my parents. God and I had shared this secret for so long, it was a little hard for me to tell anyone else, for fear I’d be dead wrong, and make a fool of myself. But I knew that if it was God’s will for me to marry Eileen, He had the means to keep her for me, even though she was several years older than I. Once I told my parents about it, I felt peaceful calm settle over me, and could just rest under their authority, knowing that they were praying and wanted the best for my life. I was thankful many times for the protection I received under the umbrella of their authority, and as I found out, it was a very necessary protection during our courtship.</p>\n  <p>It wasn’t long until my parents felt clear to proceed, so Dad went ahead and talked to Eileen’s father about my interest, and her parents quickly agreed to it also. I then had the opportunity to talk to them myself, and they were the ones who first broke the news to Eileen (who promptly lost a night of sleep over it!). I had been praying earnestly that if this all were God’s will, He would prepare her heart for it. The pronounced peace she felt about everything seemed like such a direct and clear answer to those prayers. As we discovered later, God had indeed prepared her heart without her ever knowing what all was happening. It seemed many times as if a marvelous drama was unfolding in my life, but I felt much more like a spectator than an actor. Needless to say, I got a positive response from her, to begin a relationship with the intent of pursuing marriage. Although we both felt very peaceful about it, and had the blessing of our authorities, we did not want to immediately enter a binding relationship without getting to know each other some more. After several spiritually stimulating times together, we were ready for an “official” courtship announcement. Eileen’s father made that one evening in church, and then they had a prayer for us as we begin our courtship. We felt so richly blessed with the support of our families, the church and many friends behind us, wishing God’s blessing on our lives.</p>\n  <p>What began as a spiritual relationship quickly progressed into an exciting time for our emotions and hearts to be released to each other. Here is where we definitely needed to have godly authorities safeguarding our lives who could hold us back when necessary and give practical guidance and oversight in our relationship. We spent many Sunday afternoons reading and discussing Scripture together, praying together, taking walks, and spending quality time with our families. This was enhanced by frequent letters, emails, and cards. Living in the same area, we also had frequent opportunities to share in each other’s daily lives, enjoy a dinner together, or just have a friendly chat. We knew that a happy marriage doesn’t just happen, and we tried to build a solid foundation for our future. That also meant restraining ourselves during courtship, so that we could enter marriage with no regrets. For us, it included a hands-off relationship, and staying open and honest with each other and our parents. We tried to avoid any opportunities of making provision for the flesh, knowing we are all humans, susceptible to temptations, which would pull us quickly down a path we had no business being on.</p>\n  <p>Toward the end of our courtship, I spent six weeks in Africa on a short mission trip, which just proved the fact that “many waters cannot quench love”. I came home more in love than ever, and it didn’t go long until I asked Eileen to be my wife. She said yes, by the way. We quickly planned an early spring wedding, invited our guests, and busied ourselves with many preparations. God answered our prayers and gave us a beautiful day to begin our marriage. There was such a surge of joyful happiness in my heart as I stood at the marriage altar, took my bride’s hands for the first time, and with no regrets for our past, just joyful expectancy for the future, pledged my life wholly and unreservedly to my one and only for as long as we both shall live.</p>\n  <figure>\n    <img src=\"/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-3.jpg\" alt=\"A man and woman embracing outdoors\">\n  </figure>\n  <p>From there, our relationship has deepened and grown, and continues to do so, as we honestly share with each other the daily joys and sorrows of life. Open communication has been a key for us in keeping our love strong in Christ. The solid foundation that our relationship is built on has also sustained us through any fears or doubts from the enemy. As I look back on our courtship, there is no way around the fact of God’s marvelous peace in both of our lives as He lovingly brought us together and made us one in Him. Our desire is that He would stay in the very center of our lives forever.</p>\n  <p>We trust you can be blessed and inspired to go for the best God has for your life concerning courtship and marriage. He is no respecter of persons, and delights in giving us the desires of our hearts. The rewards are richly fulfilling in being able to look back on our courtship and have absolutely no regrets, thanks to our godly parents, biblical teaching, and most of all, the delightful guidance of our Heavenly Father.</p>\n  <h2>Eileen</h2>\n  <p>My testimony is first of all one of God’s mercy and love in spite of my own failures in my early teenage years. I did lots of reading and much of that supposedly “Christian” romance books. They were deceptive to my heart because of the frequent recognition of God and even salvation that was woven through them. Even so, that reading put my mind in an unhealthy state of dreaming about marriage. As I grew older and began to hear a high standard lifted up for courtship, and as my heart embraced that standard for my own life, I experienced times of intense struggling to keep my heart. I wept in anguish on my knees before God, begging Him to help me keep my heart for the one that He already knows will be my husband one day. My mind had been entirely too occupied with thoughts up to then of who that might be, and the struggle was not easy. But God saw my deep desire for right and He completely delivered me from even the desire to pick up a book that promoted an unrealistic view of marriage. How I praise God for that miracle! Then He answered my prayers specifically by arranging circumstances in my life so that I was able to experience healing from some of the damage in my heart caused by years of undisciplined thoughts about my future. I was overwhelmed by His love that would do that just for me. This was a precious time of seeing the rottenness of my heart and drawing nigh to God. He became my dear Friend as well as my Father. My parents, too, were understanding and helpful to me, and I know my mother threw away quite a few books out of concern for my sisters and me. They desired a godly marriage for me and did their best to guide me toward that. They encouraged me to be involved in God’s work, and prayed for me concerning my future many times.</p>\n  <figure>\n    <img src=\"/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-4.jpg\" alt=\"Hands offering two roses to another pair of hands\">\n  </figure>\n  <p>When I was 19, they sacrificed to allow me to go and live with a dear, godly home schooling family of ten children who were looking for a girl to help out since their youngest had severe health problems. I believe my parents knew this would be an excellent time of growth for me before marriage. None of us knew the blessings we would all reap from this time. Here the standard of godliness was raised even higher for me, just one more beautiful step toward the plan God had for my life. During the year and a half I spent with them, the healing in my heart continued as I learned more about giving myself to authority and giving and receiving love. While I often wondered about the future, I prayed about it and committed it to God many times. During one of those times, I vividly recall a quiet confirmation in my heart that God indeed was preparing me for marriage, and that He was preparing the young man as well. I also remember realizing that I had no idea who it was. The joy of knowing God had it all taken care of brought a delightful rest to my heart in spite of the curiosity I felt about it all. Toward the end of my stay, my nearly life-long desire to go on the foreign mission field became so strong that I wrote to my parents about it, seeking their advice on how to direct my heart in that. They encouraged me to make any preparations possible, and began to pray about a short-term ministry, but told me they didn’t think I would be going long-term as a single girl. When an opportunity arose to go to Africa with a team of youth for seven weeks, we were ecstatic! It was an absolutely precious time of growing closer to God along with having the glorious opportunity to witness the love of Jesus to souls everywhere we went. While there, I had another quiet confirmation in my heart that any time I spent in missions on foreign soil long-term would not be as a single girl. It was not difficult to yield my heart to God in that, because I knew He had only my best in mind. My parents’ heart in that was another witness to me of His will in the matter.</p>\n  <p>The next winter, I decided to focus on learning to know God’s voice, and had many precious hours alone with God, again because of His arranging circumstances in an unusual way. While I was in Ghana, my grandfather passed away suddenly, leaving my grandmother with a small store. My parents decided that I would spend a few days a week with her, and care for the store to give her a rest from that responsibility. During the one hour drive to her house and the many quiet hours in the store, God ministered to my heart again and again. I listened for God’s voice through the Bible on cassette and sweet times of prayer. I would never trade those eight months, even though at the time I did not realize what they were leading me to.</p>\n  <p>I distinctly remember one week when I was there working as usual. The presence of God was extra sweet and close as I went about my tasks those days. I remember thinking how delightedly satisfied I was with God Himself as my All in All. One morning I awoke at 5am feeling compelled to prayer. As I knelt, two issues in my life were distinctly before me as I prayed—missions and marriage. As I gave them to God, my heart was so at rest in the knowledge that both were in His hands, and I was absolutely safe to trust Him with my future. That whole day was a precious time of communion with God, and the ride home to my family even sweeter. That evening as I sat with them in the living room, I remember thinking how absolutely peaceful my heart was about everything! And that was the evening my parents told me of PD’s interest in starting a courtship. Although I was very surprised, I couldn’t say I was unprepared. There were so many little details to look back on from the previous weeks that were clear evidences of God’s tenderness in preparing my heart for this particular day. That night was nearly sleepless for me as I tried to process this beautiful surprise, but when I did awaken in the morning, the song that rang through my mind, “I Stand, I Stand in Awe of You”, expressed the wonder in my heart. Truly, the next few days were full of awe as I pondered and prayed. Perhaps what amazed me the most was how God dropped this gift so unexpectedly in my lap. Since I had struggled to keep my heart for so many years, it was an act of unbelievable Father-love that He kept me oblivious to the qualities in this young man. It seemed to me this was God’s way of saying, “My daughter, the gift of this man’s love is from Me, and Me alone.” Even then, in the recent days before this, He hadn’t left me totally unprepared.</p>\n  <p>As my parents and I prayed, I realized that there were occasions that I had almost subconsciously recognized godly qualities in PD, and really respected his walk with God, evidenced by his life. Daddy had just spent a whole year as his prayer group leader in church, and had established a wonderful spiritual relationship with him, so he was very happy about this. Both of my parents already had a deep appreciation for him, and gave me positive encouragement to open my heart up to seriously consider courtship. They had been praying for specific direction for my life, and were quite sure this was the answer. While we had known PD for years and our families had been close, I didn’t know a lot about his personal life, so I asked questions and Daddy talked to him about different things regarding where he is headed spiritually. I also asked his parents some questions, mostly just seeing how compatible we really were. As we prayed and talked, the peace of God just came and settled deeply on my heart, so that I felt foolish to ask any more questions. When I prayed, talked, or pondered—there it was, such indescribable PEACE. I was so blessed by the approach PD had taken, by going first of all to his parents and having them come to my parents. That showed the authority issue was settled in his heart.</p>\n  <figure>\n    <img src=\"/images/articles/2c368d90-bba6-4edd-94a8-1db446dd4c07-5.jpg\" alt=\"A man and woman holding two young children\">\n  </figure>\n  <p>A few days after I was told of his interest, my dad approached him with permission to give me an official request for my friendship, which I then received in a written letter. What an overwhelming joy to read his words asking me to consider starting a relationship with marriage in mind! I never realized that such a serious decision could be faced with so much peace and confidence. In a few days, PD received a positive answer from me. We had not talked together at all since he first showed an interest in courtship. After he received his answer by letter, we had a brief phone conversation, during which he thanked me for my answer and we marveled together over God’s amazing ways. I found out that he had been praying about this for two years, but kept it quiet in his heart until he felt compelled to share it with his parents. His integrity in being able to do that was such a blessing to me. Our first times of sharing together were so sweet as we reveled under the smile of approval from all authorities in our lives. God’s peace remained strong in our relationship and became the theme of our courtship.</p>\n  <p>We spent 10 blessed months getting to know each other, spending time in God’s word, and learning to blend our hearts. We were very grateful for the direction given to us by my parents and both families had input in our courtship as we spent time together with them. The commitment to purity was strong in our hearts, and there was never even a question about whether we would have a hands-off relationship. This gave us much security and built respect in our hearts for each other over the months. During the last months of our courtship, we prayed much about the wedding, desiring with all our hearts to see Christ glorified above all else. We both wanted a simple, godly wedding. God honored those desires far above what we could have asked or thought! The day we exchanged vows was full of sweetness as God’s blessing was pronounced upon us once again. Only God can take two hearts that have lived individual lives and blend them in such sweet union.</p>\n  <p>In the days following our wedding, we have known a deeper meaning of love as we are learning to walk together as two imperfect human beings. It is God’s love that keeps our commitment to each other strong and unwavering. We have found that honesty toward each other can be painful, but always takes our love to deeper levels and frees us in our relationship with God. Though I know that I have failed already to walk perfectly in my role as a wife, I can honestly say that our marriage has only grown sweeter! How sweet it is to seek God’s will together and find mutual agreement in His leading. Ten months after our wedding, we experienced the joy of being parents! Little Esther has brought new dimensions to our love as we gaze on her sweet countenance and realize the opportunity we have to guide her heart toward God. The joy we have shared over her young life has been abundant. I am eager to follow on wherever God will lead my dear husband, and am blessed indeed to be his wife. The love he has shown me has given me a beautiful new perspective of Christ’s love for the church. PD’s leadership has blessed my life so much, especially as God teaches me to rest under the protection of his authority. God’s order is truly beautiful if we can only accept it as simple as it is!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3088204b8d71f15b57bf93f29cdb2a8b3f5075e98685515abe70238d9ae9123e"
+}

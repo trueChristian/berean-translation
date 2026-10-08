@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Big Prairie, OH",
+          "name": "Joshua Yoder"
+        }
+      ],
+      "raw": "by Joshua Yoder\nBig Prairie, OH"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61",
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "9514e8ea-e431-5806-a5f3-0953a922c074"
+    },
+    "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+    "images": [
+      {
+        "alt": "A small white church in a mountain valley",
+        "caption": null,
+        "credit": "Pixabay.com",
+        "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg",
+        "repository_path": "public/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg",
+        "rights_note": "The page-2 masthead states `Page 6: Pixabay.com`, while the photograph is visually placed on printed page 7; the credit-to-asset mapping therefore has a one-page discrepancy. No separate permission notice or licence terms are stated. The clean embedded photograph was baseline-encoded in sRGB without article text.",
+        "role": "closing illustrative photograph",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHURCH HISTORY",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 6
+    },
+    "subtitle": "NAZI GERMANY AND THE MENNONITES",
+    "title": "The Integrity of the Church",
+    "topics": [
+      "0c29cd2a-6995-5565-8f05-2bcf59c61ccc",
+      "9f4b8447-4b90-5bef-9a56-46fa6f3fb825",
+      "e076a45a-2014-5d02-b18b-ac6397515f22",
+      "24330de2-1856-584c-bf6e-155d7dcd3011"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "236f320d9e7553f1dc1f17c6a8d430f9c4074e37bfd1c5b96bee096b7689fef1",
+    "metadata_sha256": "e51d06d01eb62154ff116f74ea164e2ec20cb8bbb37369f81ede221117390e4e",
+    "structure_sha256": "75f1a5aa8180533113cdb941768a6586f13c718da56ce21814078fad1fb4c357",
+    "text_sha256": "2d9f58b03dd514b6e1e09039147f98b09b46ad9b0e3eed222cf6be5c6b140b18",
+    "translation_metadata_sha256": "89a0abbc6cb343accd7f1db65993492e540bbf6d81ded46caa759ed19d5b4427"
+  },
+  "html": "<article data-article-id=\"5fc18c0d-013c-40d0-aabb-e8f7c7c404eb\">\n  <p><em>Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted?… –Matthew 5:13.</em></p>\n  <p>One might wonder as to why the Anabaptists, the early church fathers, church history writers, and especially the progenitor (originator or author) of our beliefs, Christ Himself, effected such a vehement and absolute approach to a separated church and state. Why did they unanimously preach, write, and otherwise caution against political involvement of any kind by Christians? Perhaps this is best answered by looking at the results of Christians ignoring these sincere warnings, casting off their Godly allegiance, and pledging themselves to a flawed and ultimately futile earthly kingdom.</p>\n  <p>The Mennonites of Germany are a particularly intriguing and cautionary episode of Christian and Anabaptist histories—not only because of their relative proximity to our time—but also because of their almost wholesale devotion to a worldly leader and agenda. What led them to such an un-Christ-like position? A true understanding of their story must begin, naturally, with their beginnings.</p>\n  <p>The Mennonites of 20th century Germany were descended from the first Anabaptist groups, but unlike our ancestors, they stayed in the Old World instead of emigrating to the New World. There, a number of factors led them to a unique position within world events, a position that would test their mettle on a global stage.</p>\n  <p>The beginnings of the 20th century brought about the first World War, which ended with the defeat of Germany and its allies. The resulting peace treaties were structured to humiliate and crush Germany, saddling it with an almost unpayable war debt, and restricting its rights to build a military. The German people, unsurprisingly, resented this insult being added to the injury of having lost the War. Their resentment festered, and soon manifested itself in nationalistic movements, the most notable of which was the National Socialist German Workers Party (or the Nazi Party). The party was founded in 1919, and Hitler was amongst its first members. He quickly assumed party leadership, attracting followers with his “us vs. them” rhetoric and strong leadership.</p>\n  <p>Party growth was small in the decade following its founding. During this time, Hitler continued to shape the Nazis according to his wishes. Hatred for most non-German (Aryan) groups became a central party theme, along with a violent distaste for communism. However, the party was not large enough to be anything but a fringe voice, representing only a small portion of German voters.</p>\n  <p>Insignificance did not last, however. The Great Depression brought the catalyst for the Nazi’s rise to power. When the global market crashed, over 2 million Germans lost their jobs. Unemployed, they rallied around the charismatic leadership that promised to give them jobs, give them power, to “Make Germany great again”. Moving quickly, Hitler added legions to his followers.</p>\n  <p>The thousands of new Nazi Party members enabled the Nazi Party to seriously contest many local elections, and in Germany’s Parliament, they were able to control enough votes to sway policy making. In the long run, their political might handed Hitler the office of prime minister. Having secured that position, he went on to overthrow the German government, establishing himself and his party as the undisputed rulers of Germany.</p>\n  <p>Why did such a man, and such a movement, attract the attention and adoration of a church that professed much of what we do? Loving our enemies, separation from the world, and nonresistance did not seem to combine with the message of the Nazis. The answer, like most backsliding churches, is best portrayed as happening in small steps and over time.</p>\n  <p>In 1929, the Mennonites came under the eye of Germany and its rapidly expanding Nazi Party. 13,000 Russian Mennonite refugees descended on Moscow, seeking an exit from the Communist-run country. The Nazis seized the situation, using the Mennonites as supposed evidence that Aryans (peoples of German lineage, such as the Mennonites) were being unjustly used by the rest of the world. This image was pushed by state propaganda departments, who circulated writings, pamphlets, and even two immensely popular movies, depicting the Mennonites as strong, red-blooded Germans valiantly striving against the unjust oppression of the Russian Communists. These efforts afforded the refugees national attention, which subsequently led to them being admitted into Germany.</p>\n  <p>While many Mennonites entered Germany, as refugees and otherwise, there were also thriving, established communities that were given the same patriotic make-over by the Nazi propogandists. Unfortunately, these churches welcomed the Nazi attention, going so far as to send Hitler a letter thanking him for being the “savior of the German peoples” and pledging their support to his government. It is of note that Hitler, a man quite busy running an emerging world power, personally responded to this letter with a memo thanking the churches for their support and expressing a desire for further cooperation to the benefit of both the Nazis and the Mennonites. The church further weakened under these seemingly beneficial relations.</p>\n  <p>A particularly shocking case of Mennonite political involvement came from the churches in or around Danzig. Danzig and the surrounding countryside had long been a part of the German Empire, until the end of World War I, when the region was separated from Germany, essentially becoming a buffer zone between Germany and Poland. In 1939, Hitler would make one of his first moves on Europe by annexing Danzig, where the Nazis had been building party influence for most of the 1930’s. The Mennonites of the area, having been German only a generation before, welcomed their new part in the Germany of the future, becoming involved in almost every level of the Nazi Party. Otto Andres became the second-highest ranked Nazi of the Danzig area, and scores of the 6,000 believers in the surrounding congregations joined various Nazi organizations. The men often took part in the paramilitary SA and SS, while their wives and daughters took part in corresponding women’s groups. Churches became saturated with active Nazis, even going so far as to accept them into church leadership. At one point, five of the seven local churches were led by active party members.</p>\n  <p>World War II was the final step in the Mennonites’ integration with the Nazis. The German concentration camp of Stutthof supplied slave labor to numerous Mennonite businesses. Mennonite churches organized war efforts, including recruiting their young men to serve in the German army. In a particularly twisted case, a Mennonite doctor, Johan Klassen, was personally responsible for the deaths of more than one hundred disabled children.</p>\n  <p>Perhaps the most concerning episode in this dismal tale of backsliding comes after the war. Mennonite leadership, recognizing to some extent the terrible depths to which they had fallen, and noting the justice that was to come through the Nuremburg trials, effectively shrugged the blame from off their shoulders. Appealing to their Mennonite brothers across the ocean, they convinced them of their innocence, twisting their involvement in the Nazi regime to make themselves appear the victims. American Mennonites helped these now-refugees in many ways, providing all manner of assistance, and ultimately keeping most of them from facing possible prison time or death sentences. The surviving German churches eventually disintegrated or emigrated to the Americas.</p>\n  <p>If a group who originally held beliefs identical to our own could stray to the point of child murder and slave labor, then the question must be asked: “Are we seeing their folly for what it was?” Why did the churches of Danzig accept the advances of what, in retrospect, was a clearly un-biblical, un-Christlike movement?</p>\n  <p>The origin for their downfall was surprisingly simple. The Mennonites of Germany forgot who their true Ruler was. No earthly kingdom at war tolerates an allegiance to the enemy, and neither does the Kingdom of Heaven. The pride in their earthly kingdom, the pursuit of prestige and power, all led to a foreseeable end. Their salt had lost its savor, and they were cast out and trodden underfoot. This is a cautionary tale of the dangers of an unequal yoking of the church with the world.</p>\n  <p>Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction</p>\n  <figure>\n    <img src=\"/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg\" alt=\"A small white church in a mountain valley\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00"
+}

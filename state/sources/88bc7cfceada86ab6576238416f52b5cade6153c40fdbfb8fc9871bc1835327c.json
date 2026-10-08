@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Amy Carmichael",
+          "role": null
+        }
+      ],
+      "raw": "Amy Carmichael"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "71982f2f-ff34-437e-a043-19da0b8b8589",
+    "images": [],
+    "issue_id": "741bac3b-c01c-483d-8837-db76602fbe4f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "7605b2af-879b-50f5-b279-028f0aa4b71e",
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914",
+      "7cbeb8b9-7135-5056-a214-12c171f77b8e",
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "32036452bc98807fb84b72a46353e71bc60718ebc8625613b6f0be764735975b",
+    "metadata_sha256": "8dcf53b435327226984e944cafaf039b5b24ef3d45478788c7bdbd5415353549",
+    "structure_sha256": "4c6160754038b488a9232e6ffbdd4ce7da758b605197e9b73a72114eb84d2ef0",
+    "text_sha256": "0f77a9a586e7d3b9b0c53a0c7f67fc72b0e6dfa6199a914cdcff5248c115dcb2",
+    "translation_metadata_sha256": "62d6ed65a18315425a4aac5b2a305dc3a3cfe865aa315ab282b6462d0b6119ee"
+  },
+  "html": "<article data-article-id=\"71982f2f-ff34-437e-a043-19da0b8b8589\">\n  <div class=\"poem\">\n    <p>Across the will of nature<br>\n    Leads on the path of God;<br>\n    Not where the flesh delighteth<br>\n    The feet of Jesus trod.<br>\n    O bliss to leave behind us<br>\n    The fetters of the slave,<br>\n    To leave ourselves behind us,<br>\n    The grave-clothes and the grave!</p>\n\n    <p>We follow in His footsteps;<br>\n    What if our feet be torn?<br>\n    Where He has marked the pathway<br>\n    All hail the brier and thorn!<br>\n    Scarce seen, scarce heard, unreckoned,<br>\n    Despised, defamed, unknown,<br>\n    Or heard but by our singing,<br>\n    On, children, ever on!</p>\n\n    <p class=\"byline\"><em>Amy Carmichael</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "47cd588ba2326fd62b8bce7b8a66f15b1f39e9fdc969850bea6157698e8007cd"
+}

@@ -1,0 +1,40 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "780252ab-48f9-409a-a8dc-785cfba2a2fc",
+    "images": [],
+    "issue_id": "472c9f50-2e8f-460e-8a99-0b7e48a24ab8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Spreading the LIGHT",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "1e63293c30e00eb62ec1517aa2042409a9ec9679b3de60a3a8c781deb63702c2",
+    "metadata_sha256": "8a75e2b87fa520539b2d2f6455e81f55f376f76d2b2f68089d891292f8be5de2",
+    "structure_sha256": "851e35192f46dcc15e5e0cfacf7d8914ec231a05ef6d70c440324b672539eb5d",
+    "text_sha256": "0729858d58f34fc187c86e3780635f71628878d8b4cdc6507e827b2b7ebb4238",
+    "translation_metadata_sha256": "08499a71700e827a4c8b4c67b65d2b948437eb17fc5d4dab6359d2d20aa5c3ff"
+  },
+  "html": "<article data-article-id=\"780252ab-48f9-409a-a8dc-785cfba2a2fc\">\n  <p>We at Charity Gospel Tape Ministry want to take a moment to give a heartfelt thank-you to all the many contributors who faithfully support this ministry. We are rejoicing, as we realize that the tape ministry has been able to supply 170,000 tapes during the past year. The letters continue to come in almost daily, containing testimonies of changed lives. It seems that a tape ministry is becoming one of the most effective means to reach people with the Gospel. This is a general listing of the tape ministry income and expenses for the year 2000.</p>\n  <p><strong>God Bless You<br>for Giving!</strong></p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">01/01/00 Beginning Balance</th><td><strong>$9,396.32</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$175,572.86</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$13,462.50</td></tr>\n      <tr><td>General Fund Support</td><td>$46,420.56</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$235,455.92</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>Payroll Expense</td><td>$30,715.00</td></tr>\n      <tr><td>UPS &amp; Postage</td><td>$21,627.96</td></tr>\n      <tr><td>Tapes &amp; Albums</td><td>$137,119.75</td></tr>\n      <tr><td>Computer/Equipment/Supplies</td><td>$12,518.37</td></tr>\n      <tr><td>Telephone</td><td>$3,920.01</td></tr>\n      <tr><td>Electricity</td><td>$1,294.28</td></tr>\n      <tr><td>Miscellaneous</td><td>$525.00</td></tr>\n      <tr><td>Publications</td><td>$11,884.10</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$23,953.77</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$243,558.24</strong></td></tr>\n      <tr><th scope=\"row\">12/31/00 Ending Balance</th><td><strong>$1,294.00</strong></td></tr>\n      <tr><th scope=\"row\">Difference</th><td><strong>-$8,102.32</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7346b5cf931a256b7d1f1e048d66e88c0390225c8909dff706d63de1df5f4669"
+}

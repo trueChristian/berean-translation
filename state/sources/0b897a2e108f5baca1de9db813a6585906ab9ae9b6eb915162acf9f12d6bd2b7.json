@@ -1,0 +1,197 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Alexander D. Marini"
+        }
+      ],
+      "raw": "by Alexander D. Marini"
+    },
+    "categories": {
+      "additional": [
+        "1c75ca28-4f99-5339-b594-085359f81d18",
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "0648d4df-242a-5815-8d22-08b555d1b542"
+    },
+    "id": "eea521e5-0e79-4834-b698-8ecb0ee0c837",
+    "images": [
+      {
+        "alt": "Eight people posing for a family photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-1.jpg",
+        "repository_path": "public/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-1.jpg",
+        "rights_note": "Original embedded PDF image object 103; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            5,
+            5,
+            545,
+            389
+          ],
+          "export_pixel_dimensions": [
+            540,
+            384
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 103,
+          "source_pixel_dimensions": [
+            576,
+            418
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A young man wearing a martial arts uniform",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-2.jpg",
+        "repository_path": "public/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-2.jpg",
+        "rights_note": "Original embedded PDF image object 107; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 27,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            8,
+            8,
+            375,
+            508
+          ],
+          "export_pixel_dimensions": [
+            367,
+            500
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 107,
+          "source_pixel_dimensions": [
+            403,
+            542
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A man speaking at a lectern",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-3.jpg",
+        "repository_path": "public/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-3.jpg",
+        "rights_note": "Original embedded PDF image object 111; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 28,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            3,
+            3,
+            369,
+            333
+          ],
+          "export_pixel_dimensions": [
+            366,
+            330
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 111,
+          "source_pixel_dimensions": [
+            398,
+            363
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "My Journey to NON-RESISTANCE",
+    "topics": [
+      "9bb25764-72c4-5ffa-98de-ea207fdbe27f",
+      "9d35b189-13cf-5a05-9518-ca06b066d53d",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "09fbbaa4d5a048e2d09dfe2d83318812bdeff7b00a32a9767f0963fcbb429433",
+    "metadata_sha256": "4bf9440197eb704489fae6dd6c030d4e736c6706f17f281db46444cce864914b",
+    "structure_sha256": "5cf456b18fe326345fbadc6903e348e00738052c2cc934adea607d8fc010c12a",
+    "text_sha256": "ddd59441c039c86ad32e72e98ccb3d45d544eb83f775c340e13317b4c455a32e",
+    "translation_metadata_sha256": "f37c1e2ba0aa2cfcc93c1a02e8a846c1068091c969ce5c45625235cf0dd15865"
+  },
+  "html": "<article data-article-id=\"eea521e5-0e79-4834-b698-8ecb0ee0c837\">\n  <figure><img src=\"/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-1.jpg\" alt=\"Eight people posing for a family photograph\"></figure>\n  <p>I grew up in a Catholic family in Massachusetts. I had never read the Bible, and had never heard of the doctrine of non-resistance. I was always taught that it was right to fight for your rights and protect and defend your liberties, possessions, and of course, your life. I recall as a boy learning about the Ten Commandments in Sunday School, and then watching a war movie with a hero named Sergeant York, a man with deep religious convictions. The movie showed him reading his Bible and studying the Ten Commandments, particularly, <em>“Thou shalt not kill.”</em> He struggled as to whether he should go to war or not, but then he decided to go. The movie showed him shooting and killing enemy soldiers. I asked my parents why he did that when the Commandment says, <em>“Thou shalt not kill.”</em> They responded, “Oh, it’s ok during war.” Their response didn’t seem to make sense to me, but being quite young I felt I was in no position to debate the issue, so I accepted it and gave it little thought after that.</p>\n  <p>After graduation from high school in 1971, being rather patriotic, I joined the U.S. Army for three years. The Vietnam War was still underway, and I was willing to go there and fight if they sent me. By God’s mercy I was sent to Hawaii instead, where I took up the study of martial arts. Progress came quickly, and in sixteen months I was awarded a black belt in Kenpo Karate. A short time later I was appointed assistant head instructor of the karate school there. By now karate was the focus of my life, and my identity. Everybody knew me as “the guy who does karate.” Shortly before my tour of duty ended I began reading the Bible and was converted to Christianity. During my first time reading through the New Testament I came upon Jesus’ words:</p>\n  <figure><img src=\"/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-2.jpg\" alt=\"A young man wearing a martial arts uniform\"></figure>\n  <blockquote><p><em>Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth: But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also (Matt 5:38-39).</em></p></blockquote>\n  <p>What does a black belt karate instructor do with such a verse? Now that I was born-again I wanted to please the Lord, but surely, this couldn’t mean what it said. To refrain from self-defense seemed unthinkable. None of the other Christians that I knew ever took issue with my karate, and no one took issue with the matter of being a soldier. But I was troubled and wondered if I should give up karate. So I wrote a letter to my dad asking what he thought. He said he felt that karate had done me a lot of good and that I should stick with it, so I did. I continued to train and teach, pushing Jesus’ words to the far corners of my mind, but I never forgot them.</p>\n  <p>When my tour of duty was finished, I was honorably discharged from the army, and returned home with a third degree black belt. I enrolled in college, majoring in physical education, and set up my own karate school with about twenty-five students. As a Christian I naturally wanted to be a witness for the Lord, so I used my position of karate instructor as a platform to share the Gospel. I even won a few converts over the years. I was a good student of the Bible as well, faithfully reading a chapter a day all those years while continuing my “Karate for Jesus” ministry. Then, after fifteen years of involvement in martial arts, and having read through the Bible a number of times, I was invited to a Bible study at which a Mennonite man (I can’t recall his name) was asked to share on the topic of “non-resistance.” I didn’t know what a Mennonite was, or what non-resistance was, but it sounded different, so I went.</p>\n  <p>The brother wasn’t ten minutes into his teaching when, suddenly, the veil opened, the clouds rolled away, and I saw Christianity in the “big picture” for the very first time. Permit me to share that picture with you, for I have come to see non-resistance to be one of the most central and most beautiful doctrines of the New Testament. I can’t remember which points that Mennonite brother shared, and which I discovered in my own studies, but I do recall that he began with the separation of the two covenants.</p>\n  <h2>The Big Picture—Two Covenants</h2>\n  <p>Many Christians have difficulty accepting Jesus’ teaching on non-resistance because in the Old Testament God approved of armed resistance for defense, and aggressive violence for conquering. The Israelites were even commanded by God to kill their enemies without mercy, take their land, and set up their own society as the people of God. They were to be distinct from the nations around them, and were under the Old, Mosaic Covenant, with all its commands, provisions and promises. Many Christians throughout the Church Age, as well as today, have sought to blend the Old Covenant with the New Covenant, and claimed some of those Old Testament promises. They have carried out the same armed resistance for defense, as well as the aggressive, merciless violence that brought the fulfilment of those promises to the Israelites. However, the point we seem to miss is that Christians are not Old Testament Israelites, we are New Testament Christians. The separation of the two covenants began with John the Baptist <em>“preaching the baptism of repentance for the remission of sins” (Lk 3:3).</em> The word <em>“repent”</em> is all about change, as Vine’s Expository Dictionary defines:</p>\n  <blockquote><p><em>metanoeo</em>...lit., “to perceive afterwards” (<em>meta</em>, “after,” implying “change,” <em>noeo</em>, “to perceive”, <em>nous</em>, “the mind...(Vine 525).</p></blockquote>\n  <p>To <em>“repent”</em> simply means “to change the way we think,” and of course, that change of thinking must bring about a change in behaviour, which John refered to as <em>“fruits worthy of repentance” (Lk 3:8).</em></p>\n  <p>John announced the coming of the Messiah and the Kingdom of Heaven crying, <em>“. . . Prepare ye the way of the Lord . . . .” (Matt 3:3).</em> And when soldiers came asking, <em>“ . . . what shall we do?” (Lk 3:14),</em> John responded, <em>“ . . . Do violence to no man . . . .” (Lk 3:14).</em> This was no small change. Who ever heard of soldiers completely refraining from violence?—preposterous, under the Old Covenant. But, you see, a New Covenant was about to be established by the Messiah:</p>\n  <blockquote><p><em>...a better covenant, which was established upon better promises.</em></p></blockquote>\n  <figure><img src=\"/images/articles/eea521e5-0e79-4834-b698-8ecb0ee0c837-3.jpg\" alt=\"A man speaking at a lectern\"></figure>\n  <blockquote><p><em>For if that first covenant had been faultless, then should no place have been sought for the second. For finding fault with them, he saith, Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel and with the house of Judah: Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt.... (Heb 8:6-9)</em></p></blockquote>\n  <p>The first point to be understood is that the first covenant was replaced with the second, and the second covenant is <em>“not according”</em> to the first. That means big changes in thinking.</p>\n  <blockquote><p><em>In that he saith a new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away (Heb 8:13).</em></p></blockquote>\n  <p>The old covenant had served its purposes, and now it was time for the new and better covenant. The commmands, provisions, and promises of the Old Covenant have been done away, and replaced with the commands, provisions and promises of the New Covenant. The Old Covenant was an earthly covenant, with earthly promises of earthly real estate and material possessions. The New Covenant is a heavenly covenant with heavenly promises of heavenly real estate and heavenly rewards, for the most part. The Old Covenant was a covenant between God and the nation of Israel, whereas the New Covenant, though it began as a covenant between God and Israel, was then expanded and opened to the Gentiles. The New Covenant is not a national covenant, it is a covenant between God and individuals <em>“...out of every kindred, and tongue, and people, and nation” (Rev 5:9).</em></p>\n  <blockquote><p><em>. . . Whosoever believeth on him shall not be ashamed. For there is no difference between the Jew and the Greek: for the same Lord over all is rich unto all that call upon him (Rom 10:11-12).</em></p></blockquote>\n  <p>It must be understood that under the New Covenant, God has not commanded any nation to kill the wicked inhabitants of any land. That was strictly Old Testament. God has no covenant with any earthly nation today, not even America. His chosen nation today is His scattered, world-wide church, regardless of race, culture, political orientation, earthly citizenship, and geographical location.</p>\n  <p>The Old Covenant involved physical warfare, physically fighting and killing those who opposed and threatened the fulfillment of the earthly promises. But the New Covenant involves a spiritual warfare:</p>\n  <blockquote><p><em>For though we walk in the flesh, we do not war after the flesh. For the weapons of our warfare are not carnal, but mighty, through God to the pulling down of strongholds (2 Cor 10:3-4).</em></p></blockquote>\n  <p>Make no mistake, non-resistance does not mean that Christians are to passively sit back and let evil reign, thus giving approval to wickedness by our silence. But as New Testament Christians the only way we are to resist evil is by preaching against it and calling men to repentance, as did John the Baptist. Granted, it cost him his head, and it may cost us the same, but carnal weapons are not part of the Christian arsenal. The Old Testament Jew did use carnal weapons, but not so for the New Testament Christian, our weapon is <em>“. . . the sword of the spirit, which is the Word of God” (Eph 6:7).</em> And the <em>“strongholds”</em> that we are to pull down are not physical fortifications made of stone and concrete, but spiritual strongholds, which have everything to do with the thoughts that people think, the thoughts that govern behaviour:</p>\n  <blockquote><p><em>Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ (2 Cor 10:5).</em></p></blockquote>\n  <p>Under the Old Covenant, Israel was God’s instrument of judgment to the heathen nations who had filled up the cup of God’s wrath. He sent His people, the Jews, to destroy the wicked. But under the New Covenant the Christian is not to destroy the wicked, but to convert them. Jesus made this plain when his disciples asked if they should destroy a village of Samaritans who did not receive the Lord.</p>\n  <p>They asked: <em>“...Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?” (Lk 9:54).</em> They were thinking like Old Testament Jews, and Jesus corrected them in no uncertain terms:</p>\n  <blockquote><p><em>But he turned, and rebuked them, and said, Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men’s lives, but to save them (Lk 9:55-56).</em></p></blockquote>\n  <p>Jesus made it clear that God’s New Testament people are not the instruments of God’s judgment and wrath, but instead, we are the instruments of God’s love, mercy, and grace. How can we fulfill that purpose if we fight, destroy, and kill those who threaten our rights, liberties, possessions, and even our lives? Physical resistance simply does not fit the New Testament picture of Christianity. The Old Testament Jews were known for their fierce warriorship, as Rahab told Joshua, <em>“...your terror is fallen upon us...all the inhabitants of the land faint because of you” (Josh 2:9).</em> But New Testament Christians are to be known for the exact opposite: <em>“by this shall all men know that ye are my disciples, if ye have love one to another” (Jn 13:35).</em> Jesus issued His <em>“new commandment”</em> that was to be the signpost for the New Covenant, <em>“A new commandment I give unto you, That ye love one another; as I have loved you....” (Jn 13:34)</em> And that love was not to extend only to our Christian brothers, but He even commanded, <em>“love your enemies” (Matt 5:44).</em> And note, He commanded that we are to love <em>“as I have loved you.”</em> Please be reminded that Jesus never fought physically to protect or to gain anything. He loved with sacrificial love, which finds its greatest expression in resisting not evil.</p>\n  <h2>Suffering Wrongfully</h2>\n  <p>Not only did the establishment of the New Covenant change man’s relationship with God from national to individual, but it also completely reversed the response of God’s people toward evil men who would do us harm. Under Old Testament law the Jews were commanded to resist evil with physical force and bring justice whenever a wrong was committed, eye for eye, tooth for tooth, etc. Granted, such justice is necessary on a national or societal basis. But because the New Testament is not a national covenant, and its purpose is not national defense, national expansion, or societal justice, therefore Jesus radically changed the way His people are to respond to those who would do us harm and treat us unjustly:</p>\n  <blockquote><p><em>Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth: But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also (Matt 5:38-39).</em></p></blockquote>\n  <p>This sounds utterly unjust, doesn’t it? You’re right, it is, because the purpose of the New Covenant is not to insure justice for God’s people. And Jesus didn’t stop there. He went on to give several more applications of this principle of not resisting evil and enduring wrongful suffering:</p>\n  <blockquote><p><em>And if any man will sue thee at the law, and take away thy coat, let him have thy cloke also. And whosoever shall compel thee to go a mile, go with him twain. Give to him that asketh thee, and from him that would borrow of thee turn not thou away. Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy. But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you (Matt 5:40- 44).</em></p></blockquote>\n  <p>The Apostle Paul gives similar instructions to the Corinthian church when they were suing one another:</p>\n  <blockquote><p><em>there is utterly a fault among you, because ye go to law one with another. Why do ye not rather take wrong? Why do ye not rather suffer yourselves to be defrauded? (1 Cor 6:7).</em></p></blockquote>\n  <p>How contrary this is to all I grew up with, to the whole idea of defending life, liberty, the pursuit of happiness, and insuring justice. But again, that is not the purpose of the New Covenant. Jesus concludes all His radical statements by declaring the ultimate purpose of suffering wrongfully:</p>\n  <blockquote><p><em>That ye may be children of your Father which is in heaven.... (Matt 5:45)</em></p></blockquote>\n  <p>This is what Christian martyrdom is all about—suffering wrongfully for the sake of our Christian witness. Indeed, the word <em>“witness”</em> is translated from the Greek, <em>“martus,”</em> from which we get our English word, <em>“martyr,”</em> meaning, <em>“one who bears ‘witness’ by his death” (Vine 680).</em> Just as Jesus suffered wrongfully at the hands of evil men, and made no effort to resist, so the Christian is to accept suffering wrongfully at the hands of evil men, and make no effort to resist. He even calls us to go beyond the suffering and return good for evil, just as He did. Why? Because non-resistance, like nothing else, beautifully displays the very heart of the Gospel, in that <em>“...while we were yet sinners, Christ died for us” (Rom 5:8).</em> In exchange for man’s rebellious hate and cruel, murderous treatment, Jesus returned the offer of mercy, forgiveness, and love. Indeed, we, the guilty, murdered Jesus, the innocent. And it was His unjust, sacrificial death that God accepted as payment for our sin and made our forgiveness possible. Therefore, He calls us, Christians, the recipients of that forgiveness, to demonstrate the same sacrificial love as Jesus, by chosing to <em>“resist not evil”</em> in our daily lives. This is the ultimate testimony, the ultimate “witness” of our faith as New Testament Christians. Suffering wrongfully, suffering for righteousness sake, is what demonstrates to the world that we are, indeed, children of our Father. It demonstrates that we are citizens of another country, a heavenly country, and members of another Kingdom, the Kingdom of Heaven. This is why Jesus told Pilate:</p>\n  <blockquote><p><em>…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight, that I should not be delivered to the Jews: but now is my kingdom not from hence (Jn 18:36).</em></p></blockquote>\n  <p>Therefore, Jesus’ servants did not fight. Rather, Jesus’ servants suffered wrongfully at the hands of evil men, just like Jesus did. Jesus’ servants taught their followers to resist not evil, just like Jesus did. Jesus servants died as martyrs, just like Jesus did. The simple truth is that the kingdom of God is not very welcome in the kingdom of this world, which happens to be Satan’s domain. That is why Jesus told His disciples:</p>\n  <blockquote><p><em>If the world hate you, ye know that it hated me before it hated you. If ye were of the world, the world would love his own: but because ye are not of the world, but I have chosen you out of the world, therefore the world hateth you (Jn 15:18-19).</em></p></blockquote>\n  <p>This should come as no surprise. After all, the name Satan means “enemy.” He is the enemy of God, and he seeks to oppose God at every point he can. God’s Kingdom is characterized by light, life, love, peace, purity, harmony, truth, creativity, and willing, joyful submission to God’s authority. Satan’s kingdom, on the other hand, is characterized by darkness, hate, rebellion, sin, sorrow, violence, war, defilement, deception, destruction, and death. Satan is called <em>“the prince (ruler) and the power of the air” (Eph 2:2),</em> and his power is called the <em>“power of darkness” (Lk 22:53).</em> He is called <em>“the prince (ruler) of this world” (Jn 16:11),</em> and the <em>“prince (ruler) of devils” (Matt 12:24).</em> And we human beings find ourselves born into this world and confronted with a choice, to remain part of Satan’s kingdom, or to come out and join God’s Kingdom, His church. Indeed, the word <em>“church”</em> literally means <em>“called out ones.”</em> Peter explains:</p>\n  <blockquote><p><em>But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light (1 Pet 2:9).</em></p></blockquote>\n  <p>And that “calling out” means leaving behind those things that characterize the kingdom of darkness, for they are not to be part of God’s Kingdom. And one of the things that is to be left behind is the whole idea of resisting evil with physical force. The world insists, as I had always been taught, that one must fight force with force and violence with violence, to defend and protect life, liberty, and possessions, and to insure that no one can take advantage of us and cause us to suffer wrongfully. This reasoning is so contrary to God’s New Covenant way that He even tells slaves:</p>\n  <blockquote><p><em>Servants, be subject to your masters with all fear; not only to the good and gentle, but also to the froward. For this is thankworthy, if a man for conscience toward God endure grief, suffering wrongfully. For what glory is it, if when ye be buffeted for your faults, ye shall take it patiently? But if, when ye do well, and suffer for it, ye take it patiently, this is acceptable with God. For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: Who did no sin, neither was guile found in his mouth: Who, when he was reviled, reviled not again: when he suffered, he threatened not; but committed himself to him that judgeth righteously (1 Pet 2:23).</em></p></blockquote>\n  <p>Unjust? Yes. But our calling is to suffer as Christ suffered, <em>“wrongfully,”</em> and without retaliation, even returning good for evil. To this suffering we are called, and we should fully expect it. Two chapters later Peter elaborates:</p>\n  <blockquote><p><em>Beloved, think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you: But rejoice inasmuch as ye are partakers of Christ’s sufferings; that, when his glory shall be revealed, ye may be glad also with exceeding joy. If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you...if any man suffer as a Christian, let him not be ashamed; but let him glorify God on this behalf (1 Pet 4:12-16).</em></p></blockquote>\n  <p>Few things will glorify God more than a Christian who suffers wrongfully without retaliation. Peter himself had the opportunity to live this one out, even as Jesus foretold him:</p>\n  <blockquote><p><em>When thou wast young, thou girdest thyself, and walkedst whither thou wouldest: but when thou shalt be old, thou shalt stretch forth thy hands, and another shall gird thee, and carry thee whither thou wouldest not. This spake he, signifying by what death he should glorify God (Jn 21:18-19).</em></p></blockquote>\n  <p>Imagine if Peter had fought back when his rights were threatened. What if he had defended himself and retaliated when his life was in danger?—so much for the glory of God—so much for his Christian witness. But God be praised, Peter had come a long way from that night in the garden when he cut off the ear of the high priest’s servant. Jesus was quick to correct Peter’s thinking: <em>“ . . . Put up again thy sword into his place: for all they that take the sword shall perish with the sword” (Matt 26:52).</em> Peter got the point, as did the rest of the apostles, that God’s people do not resist evil. Think it through, when did violence ever bring a permanent end to violence? Does not history teach us that <em>“they that take the sword shall perish with the sword?”</em> World history is nothing but a string of wars, each setting the stage for the next. To resist evil, to try to overcome evil with evil, to try to stop violence with violence, only guarantees the continuation of the same. Evil and war will not cease from the earth until the Lord returns simply because so few are willing to <em>“resist not evil.”</em> Imagine what the world would be like if everybody decided to stop fighting. Of course, they won’t, but He calls us, His people, His bride, His church, to demonstrate to the deceived world, His more excellent way. The Apostle Paul instructs:</p>\n  <blockquote><p><em>Bless them that persecute you: bless, and curse not . . . Recompense to no man evil for evil . . . If it be possible, as much as lieth in you, live peaceably with all men. Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord. Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head. Be not overcome of evil, but overcome evil with good (Rom 12:14-21).</em></p></blockquote>\n  <h2>Conclusions</h2>\n  <p>Needless to say, karate is no longer part of my life, nor participation in the military or the political scene, all of which must use carnal weapons to defend and conquer. The war I fight now is spiritual. I must confess that the living-out of this doctrine of non-resistance has been the challenge of my life, and I have failed many times, particularly in the verbal realm. But I seek His grace to be a pleasing child in his sight, and to follow His example, as a partaker of the New Covenant, for there is no more beautiful, and no more powerful testimony of the grace of God in a Christian’s life, than to <em>“resist not evil...That ye may be children of your Father which is in heaven....”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "40d1d0cfa999287b2660da7e4c9f43c3de75228dacba2861823e06162edd84be"
+}

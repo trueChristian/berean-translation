@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Joseph Chambers"
+        }
+      ],
+      "raw": "by Joseph Chambers"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "563461dc-723e-4153-acb1-3f5ca0fa26f9",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/563461dc-723e-4153-acb1-3f5ca0fa26f9-1.jpg",
+        "repository_path": "public/images/articles/563461dc-723e-4153-acb1-3f5ca0fa26f9-1.jpg",
+        "rights_note": "Grapevine artwork object 29 is exported once. The mirrored use in object 33 on page 9 contains no unique image content. The gray tone is intrinsic to the only available source artwork and is retained. Separately painted article text, title and footer are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            1200,
+            1462
+          ],
+          "repeated_source_pages": [
+            9
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1200,
+            1462
+          ],
+          "source_object": 29,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "Abiding in the Vine",
+    "topics": [
+      "0f3e0ca7-f12e-59d5-8c2c-cb3fead876a5",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537",
+      "8b5761ab-0c6b-5b3d-a0bf-af75a1e33d50"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "41675f41389d578a5ef800e85b64d3f06031fdfb6f5f1bd6b937fa3656a762df",
+    "metadata_sha256": "bedd4d2f67d2431a49d4ab40dbcbc799d9bcd86f3e952611e1ef47a94f462ea0",
+    "structure_sha256": "eeb2d02d613e72978dc42934d11967b89894ce80f65d228919e0036624a02df9",
+    "text_sha256": "c4903a2f69e3e27a10cf5b19d32970c6a25909de7f333f869cc7d46976a22b8c",
+    "translation_metadata_sha256": "6ad40fd8f23191bc46f1862c997369482e78e6889cb31e30b941eb6d4b84b1c3"
+  },
+  "html": "<article data-article-id=\"563461dc-723e-4153-acb1-3f5ca0fa26f9\">\n  <figure>\n    <img src=\"/images/articles/563461dc-723e-4153-acb1-3f5ca0fa26f9-1.jpg\" alt=\"\">\n  </figure>\n  <p>True Christianity is the “Christ-filled life.” We are not redeemed because we know He is the Son of God; the devil knows that. Receiving His life supernaturally into our very person and spirit redeems us. It all begins when we are “born again.” It’s the greatest miracle in all of human experiences. The unsaved individual is dead in trespasses and sins and totally incapable of redeeming his or herself. There must be an act of God’s Spirit fully outside of the individual and completely beyond human powers. The Gospel of John said it best in these following words, “But as many as received Him, to them gave He power to become the sons of God, even to them that believe on His name.” (John 1:12)</p>\n  <p>If you will simply surrender all you are to Him and a completely rest with faith in Him, He will come to cleanse and abide by His Spirit. Now, you are His disciple and friend and He wants to infuse you with Himself every moment of your life. Listen as He explains what He wants to do in your life. “Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me. I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.” (John 15:4-5) He said, “I am the vine, ye are the branches.” It is the branches that are so beautiful on a vine. His beauty is hidden from the naked eye, but His branches manifest forth that beauty. The fruit that flows from the vine and is revealed on the branches is love, joy, and peace, etc. It is a beauty the branch can never know of itself.</p>\n  <p>The enemy wants to make your Christian life an external list of endless rules with no compulsion from within. Jesus Christ is the Vine and he wants to so flood you with His righteousness that purity and separation of lifestyle flows from the transformed center of your heart. The enemy’s fruit is self-righteousness, but Jesus’ fruit is Holiness. The enemy’s fruit creates a hard face, but His fruit “beautifies the meek with salvation.” (Psalms 149:4) The enemy’s fruit is repulsive, but His fruit is contagious.</p>\n  <p>But, you must learn to cling to Him every moment of your life. The Word of God is the mental strength by which He does His wonderful work of sanctifying and feeding His branches. The Vine said, “Now ye are clean through the word which I have spoken unto you.” (John 15:3) Memorize His words, write them upon the tables of your hearts, meditate in them day and night, and they will expand like leaven in your very soul. We hide and abide in Jesus Christ by hiding the Word of God in our heart.</p>\n  <p>Prayer is communion with Him. Do not let your prayers be just a list of wants. He wants you to develop a fellowship with Him. If you will wholly depend on His Holy Spirit when in prayer, the Spirit’s office is to bring our spirit into rich and indescribable fellowship with Him. Apostle Paul said it better than I ever could. “Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered. And he that searcheth the hearts knoweth what is the mind of the Spirit, because he maketh intercession for the saints according to the will of God.” (Romans 8:26-27)</p>\n  <p>“Abiding in the vine” requires a simple and single surrender every day. Going days without abiding in Him causes a foreign emotion in our spirits and prayer loses its joy. He warns us that such carelessness in our life can cause us to be “cast forth as a branch and withered.” (John 15:6) Oh, the joy and hope of “abiding, clinging, and enjoying His life.” The world is bankrupt, but He is all-sufficient. He said, “If ye abide in me, and my words abide in you, ye shall ask what ye will, and it shall be done unto you.” (John 15:7) He wants to make you a “watered garden,” a “royal priesthood,” and a “holy nation.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "915373b84558c2b6a1757654db00ab6a0fa37349e853acd82a57da05d46f6cb0"
+}

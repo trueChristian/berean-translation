@@ -1,0 +1,56 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "8e833d45-8b49-4a49-9e11-844550721c68",
+    "images": [
+      {
+        "alt": "A split-rail fence crossing a grassy field",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8e833d45-8b49-4a49-9e11-844550721c68-1.jpg",
+        "repository_path": "public/images/articles/8e833d45-8b49-4a49-9e11-844550721c68-1.jpg",
+        "rights_note": "Original embedded PDF image object xref 144. No separate image-specific permission notice is printed. The issue masthead credits “Some images © 2001-2007 clipart.com / photos.com” without identifying which assets; no individual licence is inferred. Source-pixel crop (38, 1010, 1312, 1687). The crop follows the page-clipped horizontal bounds and retains the unobstructed lower photograph, removing all baked poem/title text; the separate mailing typography is also omitted. Grayscale/RGB source encoded as baseline RGB/sRGB JPEG at 72 dpi for browser compatibility; orientation and useful resolution retained.",
+        "role": "article background photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "c9a9c184-9c75-4029-a839-f6082d61542d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "DYING TO SELF",
+    "topics": [
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "484c302183d1cbfdaea7a44406dbe51dd6ce99e2cb4364a047e412ed53ad5f0b",
+    "metadata_sha256": "5af694842911eca9480d0f84f16e1f1ebadd547f40e90938380da76a0129d041",
+    "structure_sha256": "fac4b589abb1e6de494004e607b1005c6828b02ee7578e92aed36ca648265681",
+    "text_sha256": "481a9e7c59038b3c787d93a64f5f7739dd1a35e41f0695b45db1948000cf1285",
+    "translation_metadata_sha256": "d63e5afb6f25710f3cfde6b691970f5efb636a7c6df1bc6a45ae61391192ef21"
+  },
+  "html": "<article data-article-id=\"8e833d45-8b49-4a49-9e11-844550721c68\">\n<figure>\n  <img src=\"/images/articles/8e833d45-8b49-4a49-9e11-844550721c68-1.jpg\" alt=\"A split-rail fence crossing a grassy field\">\n</figure>\n<p>When you are forgotten or neglected, or purposely set at naught, and you don’t sting, and hurt with the insult or the oversight, but your heart is happy, being counted worthy to suffer for Christ,<br>THAT IS DYING TO SELF</p>\n<p>When your good is evil spoken of, when your wishes are crossed, your advice disregarded, your opinions ridiculed, and you refuse to let anger rise in your heart, or even defend yourself, but take it all in patient, loving silence,<br>THAT IS DYING TO SELF</p>\n<p>When you lovingly and patiently bear any disorder, any irregularity, any impunctuality, or any annoyance; when you stand face to face with waste, folly, extravagance, spiritual insensibility, and endure it as Jesus endured it,<br>THAT IS DYING TO SELF</p>\n<p>When you never care to refer to yourself in conversation, or to record your own good works, or itch after commendation, when you can truly love to be unknown,<br>THAT IS DYING TO SELF</p>\n<p>When you are content with any food, any offering, any raiment, any climate, any society, any solitude, any interruption by the will of God,<br>THAT IS DYING TO SELF</p>\n<p>When you can see your brother prosper and have his needs met, and can honestly rejoice with him in spirit and feel no envy nor question God, while your own needs are far greater and in desperate circumstances,<br>THAT IS DYING TO SELF</p>\n<p>When you can receive correction and reproof from one of less stature than yourself, and can humbly submit inwardly as well as outwardly, finding no rebellion or resentment rising up within your heart,<br>THAT IS DYING TO SELF</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "87b81c56926539bcb1df9582163f5ed984a995fb2bc38113eeed04ac806a4040"
+}

@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "7d047e24-76c4-4fb9-9172-3c9d5fafde78",
+    "images": [
+      {
+        "alt": "A mailbox bearing the magazine name and address",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7d047e24-76c4-4fb9-9172-3c9d5fafde78-1.jpg",
+        "repository_path": "public/images/articles/7d047e24-76c4-4fb9-9172-3c9d5fafde78-1.jpg",
+        "rights_note": "PDF image object 143. Source-pixel crop [0, 0, 510, 240] retains the complete mailbox and excludes the baked article heading and lower reading panel. The address printed on the mailbox is intrinsic to the only available raster and is retained. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source grayscale converted to RGB; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "79026687-5f1c-5c05-8305-c63a5d165b2c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "52f6b754e8e21be770a0640a06791c6653e489ec8c24059d3db206b6b7ddd717",
+    "metadata_sha256": "3a4a5d896562e0ab37d12a1648147dfb07660a0764816710f43389868f1754a1",
+    "structure_sha256": "61e1a378f60792fb9dc33ef695c6ef48aee286327c66f706a9f9d586b1ddf474",
+    "text_sha256": "76b7997a07ab272dc92262118e57cbceb27920a12c6a5e71faf5af55696f5e26",
+    "translation_metadata_sha256": "78aa6983b4e26a0c0a1cc07f53052a45b132f3458f6b3721c4ab28132a051db6"
+  },
+  "html": "<article data-article-id=\"7d047e24-76c4-4fb9-9172-3c9d5fafde78\">\n<figure>\n  <img src=\"/images/articles/7d047e24-76c4-4fb9-9172-3c9d5fafde78-1.jpg\" alt=\"A mailbox bearing the magazine name and address\">\n</figure>\n<p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n<p><strong>Some interesting letters over the article <em>“The Lion, the Witch, and the Happy Meal.”</em></strong></p>\n<p>Many of our readers wrote concerning the Jan-Feb article entitled, “The Lion, the Witch, and the Happy Meal.” Many voiced their agreement and appreciation. A young lady from Texas wrote, “I was impressed by it … My parents have always been wary about reading Lewis's books and I was given a clear reason why in this enlightening article. Thank you for your insight. I look forward to printing the article in my own magazine, “His Wonders.”</p>\n<p>However, some readers disagreed. A man from Ohio wrote, “…it seems the primary focus of Mr. Taylor’s article was to snobbishly dismiss the works of Lewis and others who have framed these simple truths in such a way as to be palatable to the intelligencer. Coming away from Taylor’s article one almost think that he suggested that some people are simply too learned to be evangelized.”</p>\n<p>I genuinely appreciate this brother’s concern. However, I think we need to be careful here. It was the Apostle Paul who said, “For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called: But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty” (1 Cor 1:26-27). In the Old Testament, Jeroboam also articulated his faith with great finesse when he swayed the northern tribes away from Jehovah, but tragically, the content of his doctrine was a false teaching and brought about the worship of a false god.</p>\n<p>As a matter of apology, allow me to say that it really was not my intent to dismiss or discredit an intellectual presentation of Christianity. I, personally, am very edified by well thought out and well articulated expressions of our faith. Even if the writers are not from “our circles,” I still feel that we can gain insight from many of their different perspectives--C.S. Lewis is no exception. Nevertheless, while a Jewish Einstein, a Pagan Aristotle, or an Evangelical Billy Graham may stretch and challenge our ways of thinking, that does not mean that we should ignore their shortcomings. It would be irresponsible to acquiesce to error simply because it was presented in eloquent prose.</p>\n<p>As far as Lewis’ personal salvation and faith in Christ is concerned, that is not for me to judge. Lewis had to come through a lot to believe in God at all. My intent in articles like this one is not to criticize intellectualism itself, but rather to raise the awareness of the actual content of what is being intellectualized. I still feel that the general piety that comes from Lewis and other Anglican writers of this era is, generally speaking, beautifully articulated but dangerously deficient. I also would admit that many of Lewis’ works and apologetics are well done and even orthodox. However, I do want to emphasize the dangers of a faith and salvation that exists only in “creedal” or doctrinal mental consent. With this sort of “mental” faith, Lewis widened the door for divorce and remarriage, championed the place of Christians in warfare, and considerably contributed to world-wide ecumenism, particularly linking arms with the Roman Catholic Church. James warns us, <em>“Thou believest that there is one God; thou doest well: the devils also believe, and tremble” (James 2:19).</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7cc096aea0ed8b37933f2ec05333c076afc03b29dd980d56f28786d2be5a4167"
+}

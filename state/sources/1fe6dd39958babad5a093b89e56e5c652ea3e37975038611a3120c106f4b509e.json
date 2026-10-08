@@ -1,0 +1,68 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "400977eb-3421-51cc-992f-b947d2cda0f4"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "fc994277-4fe3-4d4c-867e-3d6afbb90995",
+    "images": [
+      {
+        "alt": "Large hammer",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-1.jpg",
+        "repository_path": "public/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-1.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density.",
+        "role": "article photograph",
+        "sequence": 1,
+        "source_page": 24
+      },
+      {
+        "alt": "Repent or Perish roadside sign",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-2.jpg",
+        "repository_path": "public/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-2.jpg",
+        "rights_note": "PDF Decode semantics applied; baseline RGB/sRGB JPEG with nonzero density. The words Repent or Perish are intrinsic to the photographed sign.",
+        "role": "article photograph",
+        "sequence": 2,
+        "source_page": 24
+      }
+    ],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 24,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "The Hammer",
+    "topics": [
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "71ed5d17-92f3-5075-9fe0-6c2605d6c813"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e13992b93c56d4ea25ecc90ceb7ab5eae8d39e49bebad8a9f0cf0f3e7880a04c",
+    "metadata_sha256": "ae5b31c61539dcb5072758ea3d386f829947b19eac87fb90540bf57c69eae5bd",
+    "structure_sha256": "4b6f1a221f7eb58907b9a76b488c7a3f85430cd3a4fc7e3478c0741822f2df66",
+    "text_sha256": "ac6e541740a091ddf5059a1462056ccebdabc203de4c48e6219a84caea81729d",
+    "translation_metadata_sha256": "61182ec514ceb5d0025b2b88163401692aa7b62df5233995ff5863529172a7a1"
+  },
+  "html": "<article data-article-id=\"fc994277-4fe3-4d4c-867e-3d6afbb90995\">\n  <figure>\n    <img src=\"/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-1.jpg\" alt=\"Large hammer\">\n  </figure>\n<p>John Dan Miller felt a surge of anger as he approached a certain point on his regular weekend travel to and from Bloomfield, Ohio—the certain point just a short distance ahead where that sign was located! What would he not do if he could get hold of the person who had put it up? The sign, figuratively, had been hitting him in the face for some weeks past!</p>\n  <figure>\n    <img src=\"/images/articles/fc994277-4fe3-4d4c-867e-3d6afbb90995-2.jpg\" alt=\"Repent or Perish roadside sign\">\n  </figure>\n<p>He knew it was not far ahead—a small sign with only three words, there by the roadside. “Repent or Perish!” was all it said, but it made him furious. The first time he had seen it he stared at it in anger. What business did anyone have putting up such a sign as that? After all, was not his life his own affair?</p>\n<p>Whose business was it whether he repented or not? Why could people not take care of themselves and let others alone? He had wished when he first saw it and the words had smashed into his consciousness that he could take an axe and break it up. In fact he probably would have done so had he thought he could get away with it.</p>\n<p>The words had been hammering at him week after week. It was especially bad at night when he needed to sleep. “Repent or Perish!” “Repent or Perish!”—the words brought with them also a remembrance of many things he would rather forget.</p>\n<p>Now as he approached the sign he deliberately looked the other way. He simply would not let it have a chance to hit him again! He would <em>make</em> himself forget it! But the trouble was he knew very well <em>why</em> he was so carefully turning his eyes in the other direction and—look where he would—the words still were definitely in his mind and upon his conscience.</p>\n<p>Some thousands of years ago, Jeremiah the prophet quoted God as saying, “Is not my word... like a hammer that breaketh the rock in pieces?” Now John Dan was experiencing that hammer beating upon his mind, his stony heart. It was the Holy Spirit driving home upon his conscience those hammer blows, and he could not hush them—especially at night while trying to sleep.</p>\n<p>“Repent or Perish!” “Repent or Perish!”</p>\n<p>One night—unable to stand it any longer—John Dan arose from his bed and, kneeling down, turned himself over completely to God, receiving the Lord Jesus as his Savior. He had repented—and now, bringing forth fruits meet for repentance, he need not perish! As he finally went back to bed he was happier than he had ever been in his life!</p>\n<p><em>The true story related above is just one testimony of the fruit that resulted from the ministry of Ralph Palmer, a missionary to America who lived from 1903 to 1976. Ralph and his wife traveled extensively in tract distribution and gospel sign work and gave reports of the work in many churches.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3bfca92a655227235f9252e7363558553805b01a8f33cc075af756e87681c264"
+}

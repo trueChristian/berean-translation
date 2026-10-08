@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Anonymous"
+        }
+      ],
+      "raw": "Anonymous"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+    "images": [
+      {
+        "alt": "A mountain, trees and a lake behind the printed poem Authority.",
+        "caption": null,
+        "credit": null,
+        "height": 1650,
+        "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg",
+        "repository_path": "public/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg",
+        "rights_note": "Only source is flattened RGB object 119, cropped to source-pixel rectangle (38, 38, 1313, 1688) to reproduce the printed page. The poem, translucent reading panel and drop shadow are irreversibly baked into this sole raster; no alternate base, pieces, soft mask or transparency group exists. A crop removing the panel would discard the mountain and most of the scene, so the faithful source is retained with this explicit unavoidable-overlay exception. Separate publication/address/postage typography and vector mailing furniture omitted. No inpainting, synthesis or tonal inverse performed. No individual image credit or licence is stated in the PDF. Normalized as a baseline RGB JPEG with embedded sRGB profile and nonzero 150 dpi density; original grayscale appearance preserved where applicable. Final file visually checked against PDF and source asset; complete warning-free loads through Pillow and ffmpeg, then natural-size Skia Canvas decode/paint/readback; encoded colour space confirmed sRGB. The general masthead states “Some images © 2001-2004 www.arttoday.com”; it does not identify which images this covers, so attribution of this individual image is uncertain and no licence is inferred.",
+        "role": "poem_background",
+        "sequence": 1,
+        "source_object": 119,
+        "source_page": 36,
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, paint at natural dimensions and raster readback passed.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow/libjpeg",
+            "FFmpeg native MJPEG"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset and compared it with its source page and raw source image; complete subjects, orientation and documented layout/overlay disposition verified.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        },
+        "width": 1275
+      }
+    ],
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Authority",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "eac8ecde-81f6-551a-9170-1b8577740623"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9fa126ba5c16f9ad1937f9329f0368389c68baedc01a0a74f1178f6b2b2915b7",
+    "metadata_sha256": "8d10ac0cb75eb273c8ad64f752e9ae3ba779f1907a90d5c1850fcf32fb69f35f",
+    "structure_sha256": "b344c653d6b1c3b8620d044404f42a7b27af8b6a5e042e7e10747b2dd61ddb8d",
+    "text_sha256": "0be1738f02d963c14dc7597ff831573b93d03ec205772b33c02fb213cda4b55d",
+    "translation_metadata_sha256": "1904f2fc5af76639e45c0a798a1cebbf42f3044c45be987cfe67f1d8fb431c98"
+  },
+  "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"A mountain, trees and a lake behind the printed poem Authority.\">\n  </figure>\n  <p class=\"poem\"><strong><em>When mountain walls confront the way.<br>\nWhy sit and weep? Arise and say<br>\n“Be thou removed” and they shall be<br>\nBy the power of God, cast into the sea.</em></strong></p>\n  <p class=\"poem\"><strong><em>All power on earth, all power in heaven,<br>\nTo Christ the Son of God is given;<br>\nAnd from the throne He will endue,<br>\nAnd hindrances will flee from you.</em></strong></p>\n  <p class=\"poem\"><strong><em>O’er all the power of fiend and man<br>\nSay through the Lord, “I surely can”<br>\nTake from Him power on earth to tread,<br>\nOn serpent’s sting, on dragon’s head.</em></strong></p>\n  <p class=\"poem\"><strong><em>Whate’er thou art, Oh mountain high,<br>\nWhere’er thou art in earth or sky,<br>\nWhene’er thou art, truth is the same,<br>\n“Be thou removed in Jesus name.”</em></strong></p>\n  <p class=\"poem\"><strong><em>“Be thou removed” faith bids thee start<br>\nFor yonder see—arise! depart!<br>\nI may, I can, I must, I will,<br>\nThe purpose of my God fulfill.</em></strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f315ef9f7ad94198866c09e6e33613e84188dcaabc4c518012bc17cf1150ba56"
+}

@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "–by Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
+    "images": [
+      {
+        "alt": "Three sailboats on calm water",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg",
+        "repository_path": "public/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 8; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 8
+      }
+    ],
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 8,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "The Call",
+    "topics": [
+      "05c2dfac-6ad8-5ea0-99ef-d6022f8cb346",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "4f8e92de-9740-5a2b-8710-dc4584da68da"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b33ff18903c1e884542df15397f42c1cd535821b867efb6f841a1386f27a0e2d",
+    "metadata_sha256": "754d7334f124619835d166b7e8e226de5e63bd3b8b18ba5d71e83f43337ed3f4",
+    "structure_sha256": "6d9bb66040abdc3f93d8c347637558f274767c2eaaace5c090f4543f084cd2f9",
+    "text_sha256": "a1b3387c9043cba15a68b0b6cef98ae58104ada08293e935ab9e5e49b578ea1d",
+    "translation_metadata_sha256": "c5b6963f5d4071154957e510f6d01301ed23d586d702a7f0182b7fa6baa72532"
+  },
+  "html": "<article data-article-id=\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\">\n  <figure>\n    <img src=\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\" alt=\"Three sailboats on calm water\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>The night was still, the air was drear.</p>\n\n    <p>A man walked alone; his direction unclear.</p>\n\n    <p>A battle raged within his troubled soul.</p>\n\n    <p>He was at the crossroads, all his life as a whole.</p>\n\n    <p>He believed in God, or at least so he thought.</p>\n\n    <p>He obeyed what he knew—all that he’d been taught.</p>\n\n    <p>But something’s not right, there’s something I lack.</p>\n\n    <p>I’ve lived like most others, as my life plays back.</p>\n\n    <p>But I go to church! I sing and I pray!</p>\n\n    <p>I even helped the neighbor, just the other day!</p>\n\n    <p>He fought with his mind, justifying the wrong.</p>\n\n    <p>It was God that was working, He seemed quite strong.</p>\n\n    <p><em>The fact of the matter, it’s confidence I lack.</em></p>\n\n    <p><em>I believe in myself, not the God from way back.</em></p>\n\n    <p>God wants to show strong, in my life every day.</p>\n\n    <p>He wants me to be proved; He’s the Life and the Way.</p>\n\n    <p>There’s no better One, in Whom to put all your trust;</p>\n\n    <p>Than the almighty God. For all men it’s a must!</p>\n  </div>\n\n  <p><em>–by Barry Grant</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f"
+}

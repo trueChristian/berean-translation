@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Claudia Esh"
+        }
+      ],
+      "raw": "by Claudia Esh"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "68a52dbc-b796-4f32-931a-bd26a29f5cbb",
+    "images": [],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 15
+    },
+    "subtitle": null,
+    "title": "The Beauty of Little Things",
+    "topics": [
+      "7765eef1-b410-528e-bcde-39382c685de1",
+      "d98d2776-11d0-5852-be8d-67a88feaeb5e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "fde0f330cea64c9be92dcd6fdb5b3c6c7701cd6283ff2a3890c07f90caee77e8",
+    "metadata_sha256": "9eef41063bacb671632657a26ec47f52313dfae8d7659b763037487d68fb41d3",
+    "structure_sha256": "da21f350a967f451c45cd1688383824983fa6fbc1a523f5206e02e3ffae86f73",
+    "text_sha256": "75a8fe53923550fc21b8a8e459e987eb1b354e2d1bea6cf02dbc1297e5e33d6f",
+    "translation_metadata_sha256": "b2776072687a2bcdebc13f51130f5fe277c5a9db6cc22800181fec8b6ce85d83"
+  },
+  "html": "<article data-article-id=\"68a52dbc-b796-4f32-931a-bd26a29f5cbb\">\n<p>Recently I’ve been reading a lot about approaching persecution for the church. And almost every time I see it, the article says something about preparing ourselves. But what is preparation, anyway?</p>\n<p>I think it possible, and perhaps even likely, that persecution is coming soon. I’m no prophet, but I do have ideas of how it will happen. It will not be by denying God’s existence, as in the Soviet Union. It will not even be by attacking the name “Christian.” No, if the church is persecuted, I believe that it will be to force us to stop proclaiming Christ as the only way to God. Ironically, it will come from those who worship at the altar of worldwide tolerance.</p>\n<p>We hear much about preparation, and I believe that is a good thing. But how are we to go about it? Heroic courage does not drop onto people overnight. When I read books on writing fiction, they tell me to build characters well, so that their reactions in a crisis make sense. And that is exactly the way we are in real life. Facing sudden danger only reveals courage; it does not create it.</p>\n<p>We all have people that we admire. Like our Lord Himself, praying for His murderers. Our forefathers, singing in the midst of the fire. And wasn’t the testimony of the young Moldovan martyr Ivan Moiseyev’s persecutors one that we would all like to have? “He fought with death; he died hard; but he died a Christian.”</p>\n<p>But none of those people became spiritual giants in minutes. In fact, I have a feeling that the people who knew them well would have been surprised if they had acted any other way. Character is a deep, rich fountain from which springs every action of your life. The people who know you best could make pretty accurate guesses on how you would respond if you were the one facing the stake or river or gun.</p>\n<p>That’s why preparation starts now. Here. In the tiny questions of everyday life, like whether I will read a profitable book or just a fun one, or what music I listen to, or how I respond to a veiled insult. If I can’t look into my friend’s eyes and say, “No,” then what makes me think I could look into the barrel of a gun and say the same thing?</p>\n<p>We all hope that we could withstand the ultimate test if we would ever face it. Only the Lord Himself can hold us steady in a moment like that and keep our faith unmoved. But in most sudden life-or-death crises, there is little time to think. Your answer will spring from the deepest part of who you are. The little decisions that you are making will shape you into a cowardly hypocrite or a courageous Christian.</p>\n<p>Everyday sacrifice is not glamorous. Nor is it a once-and-done thing—it stretches on and on, coloring every part of your life. And a constant, deep walk with God is not a sudden emotional flight and then silence. It is a quiet influence that never leaves you. Following Christ means to taste the very essence of peace and joy, but it also means to step into the dark unknown when the world is against you and still cling to faith.</p>\n<p>So prepare—prepare by turning the mediocre tests that you face every day into victories. Press closer to our God, and although no one else might notice, you will build a character and a faith that will not desert you in the hardest of decisions. And if that highest sacrifice is ever asked of you, your answer will be instinctive...knowing that living or dying, we are the Lord’s.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "34d3d98086e14aa9bbbbf9ca85d0dc70b6a2e2eda37bc5f9305ece7983b8be85"
+}

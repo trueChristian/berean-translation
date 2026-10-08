@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Katharine A. Hodge"
+        }
+      ],
+      "raw": "by Katharine A. Hodge"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f1f8d898-1108-4e49-9e62-b12667509107",
+    "images": [],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Gifts of Christ",
+    "topics": [
+      "98831891-d3af-59bf-9c95-821ac504dd26",
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "601c39e20f05209199cd3cd76b4e307ae7527509d783def134780edd5b3c8357",
+    "metadata_sha256": "5e0674140060f66c2cda939c645b16cd775899f50fd94c48aaf8d18108cd9048",
+    "structure_sha256": "ad6983cae76721dc23b4fa0f94a5a4bdb512cb0a61976541ae4eb3ecc0c326bf",
+    "text_sha256": "44dc63b8b9388222dfe5d77012849f5e3df55997f37d4d99bd03dbc21266ef06",
+    "translation_metadata_sha256": "143470384f61a1a7c40dd92ea02005257d6416748afa191bf8fa17f2256f6c4b"
+  },
+  "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>Hast thou a sin?<br>Some heavy weight that feign would hinder thee<br>From running well? To have Christ’s liberty,<br>O captive soul, let go; let go, and see<br>Where Jesus will begin.</strong></p>\n  <p class=\"poem\"><strong>Hast thou a care?<br>Then roll that care of thine on to God;<br>‘Tis not His wish for thee to bear that load;<br>Leave it with Him, and thou wilt tread life’s road<br>As if thou walked on air.</strong></p>\n  <p class=\"poem\"><strong>Hast thou Christ’s joy?<br>The share the happiness He gives with those<br>Who’s lives are brimming o’re with human woes;<br>His joy transcendeth all, and fuller grows,<br>This, nothing can destroy.</strong></p>\n  <p class=\"poem\"><strong>Hast thou His peace?<br>Christ’s peace that passeth human thought and ken,<br>So calm, so pure and deep. ‘Tis only when<br>We know such restfulness—but not ‘till then—<br>All fretfulness can cease.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c"
+}

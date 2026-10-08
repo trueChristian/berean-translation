@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Jean Williams"
+        }
+      ],
+      "raw": "-Jean Williams"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "4fd962b7-b4ae-4265-8af0-a4deda583be7",
+    "images": [],
+    "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 20,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Footwashing Testimony",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b56cfc7e39835e894b5ba3c58ba9f542e0e9fa2b23ca3f8c1a580dc7a8bfd8a5",
+    "metadata_sha256": "fde0d912f489f0c04f790ce66a990324c2c684975c9e6064d94a6a9f2467ca07",
+    "structure_sha256": "a2cbacc765f021f6d1c57791c69f4daa5b40200dc6209dc49bdf3eb7f65d32ed",
+    "text_sha256": "c0142cf35982cd6110e638d12fb790e9f5fe1af54fc9f3e8e0bbeebf3cc85d40",
+    "translation_metadata_sha256": "c8f1d03bda251550c50f36afbe819d5f1a215cab78df7274dfb5302224a80eae"
+  },
+  "html": "<article data-article-id=\"4fd962b7-b4ae-4265-8af0-a4deda583be7\">\n  <p>Dear Remnant,</p>\n  <p>I received a great blessing from the foot washing article in the last copy of the magazine. I too have a story to tell about my experience with my godly mother. It does work!</p>\n  <p>Last August my mother was put in my care until she died. The rest of the family wanted nothing to do with her daily care, such as washing her, feeding her and taking her to the doctor. Her precious body had heart disease and diabetes. Her legs were so painful that she would stay up and read her Bible through most of the night. I couldn’t stand to see her like that any longer.</p>\n  <p>I took a bowl and put water and soap in it. I put it down in front of her and said that I felt God wanted me to wash her feet every day to make them feel better. She couldn’t believe that I would do this. Her face lit up, and she said that I could if I wanted to. I put her precious swollen feet in the bowl of warm water and started washing and rubbing them. When I lifted my head to look at her, I saw her eyes all watery looking at me. She looked so contented and so loved.</p>\n  <p>When I finished drying off her feet and putting lotion on the them, she made a statement that changed my life. It strengthened our relationship like nothing before. She said, “You know, Jean, your two sisters are both nurses and one has been a pastor’s wife for thirty years. They never did anything like this for me before. You don’t know how good this makes me feel.”</p>\n  <p>My dear Christian mother is in heaven now. She died on Christmas Eve. I am so glad that she doesn’t have to be in pain anymore. I miss her so much, and I will never forget how much she loved having her feet washed. She looked forward to it every day. This is a great truth that seems to be lost in the church today.</p>\n  <p>My dear mother was the greatest in the world. She never worked outside of the home. She made our clothes, taught Sunday school, helped start two big churches in the area and took care of her sick husband. She was a widow for twenty years, and never once did her pastor come to see her.</p>\n  <p>She deserved to have her feet washed by every Christian who knew her. It is a shame that we cannot see that this humble act brings such joy and relief to the weary. I just wish I would have done it sooner. It brought our hearts together in her last days like nothing else.</p>\n  <p>God bless you and your paper. Keep up the great work.</p>\n  <p><em>-Jean Williams</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "23b233d820b581d10d426ab6ac0ad43090806c377a8429bab4c7d0380d56effb"
+}

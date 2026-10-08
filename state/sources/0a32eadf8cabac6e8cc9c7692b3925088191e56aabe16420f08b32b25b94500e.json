@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Andrew Weaver"
+        },
+        {
+          "name": "Elisabeth Weaver"
+        }
+      ],
+      "raw": "by Andrew & Elisabeth Weaver"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "d7b56f4a-08a9-4522-b74c-c0942ffdd4ef",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "height": 157,
+        "public_path": "/images/articles/d7b56f4a-08a9-4522-b74c-c0942ffdd4ef-1.jpg",
+        "repository_path": "public/images/articles/d7b56f4a-08a9-4522-b74c-c0942ffdd4ef-1.jpg",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Embedded object 166 at full native 180×157 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. The same apples raster is printed behind text on pages 7 and 11 and represented once here. Body text and running furniture are separate and omitted. The pale wash is irreversibly baked into this 180×157 raster; no full-resolution clean base or exact inverse-blend evidence exists. The only other apples object is a 72×63 contents thumbnail. The original pale source pixels are retained as an explicit unavoidable-overlay exception. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density. Grayscale samples were replicated into RGB channels to satisfy the archive JPEG colour contract.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 7,
+        "transformation": "Embedded object 166 at full native 180×157 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density. Grayscale samples were replicated into RGB channels to satisfy the archive JPEG colour contract.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 180
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "- A Spiritual Exercise -",
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "pages": [
+        7,
+        11
+      ],
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Words Fitly Spoken",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "99715879022b6996293c6602ab308d47309c417e2f17fb45229782bcc4cefcda",
+    "metadata_sha256": "8d11621ba4f8414a43187ed64e4016a9bc77c4edaa2b8735bfe7c549f84bde64",
+    "structure_sha256": "e8bce55d33e6eb562a2f0b50e13ad6d46eb010726f03b16bc99ba919720c6440",
+    "text_sha256": "ad82221a402998cfe4bd914664f03b52e63d605a71286c53ff3e3a1c54530fd1",
+    "translation_metadata_sha256": "01f2b893cc22ab6f99415856d8f66b1e162d6becd0be1c3bacf1ed304059627b"
+  },
+  "html": "<article data-article-id=\"d7b56f4a-08a9-4522-b74c-c0942ffdd4ef\">\n  <p><em>A word fitly spoken is like apples of gold in pictures of silver. Proverbs 25:11</em></p>\n  <figure>\n    <img src=\"/images/articles/d7b56f4a-08a9-4522-b74c-c0942ffdd4ef-1.jpg\" alt=\"\">\n  </figure>\n  <p>We would like to recommend a simple spiritual exercise that has the potential to change a life, transform an unhappy home, or renew a dying church. Many of life’s sorrows are caused by a tongue described in James 3:6 as being “set on fire of hell.” On the other hand, some of life’s richest blessings come through some person’s wise use of their tongue. Proverbs 18:21 confirms the awesome power of the spoken word, saying, “Death and life are in the power of the tongue.” A graphic picture of its fatal or healing power is given in Proverbs 12:18, “There is that speaketh like the piercings of a sword, but the tongue of the wise is health.”</p>\n  <p>As followers of Jesus Christ, we have the privilege of speaking with new tongues. (Mark 16:17) Jesus’ own life produced the beautiful testimony recorded in Luke 4:22, “And all bare him witness, and wondered at the gracious words which proceeded out of his mouth.” He constantly experienced Psalm 45:2, “Grace is poured into thy lips.”</p>\n  <p>For this spiritual exercise, we want to encourage you to employ some of your tongue’s life-giving abilities. Discipline yourself to form a habit of blessing and complimenting people for their qualities and accomplishments. Look for those little blessings of action or character that are often overlooked, but deserve recognition.</p>\n  <p>At many funerals, there is something even more sad than the death, and that is the belated praise given in memory of the deceased. As people share their appreciation for little acts of service done by the person in their lifetime, or praise their character or integrity, do you ever wonder how much of that was expressed to the person in their lifetime? The sad reality is that they probably heard very little of that praise during the time when it could have blessed and encouraged them. Eulogizing the dead is a poor substitute for encouraging the living.</p>\n  <p>Think of the many people in your congregation who deserve some appreciation for their faithfulness and friendship. Think of your congregation’s leaders and the tremendous sacrifice they make for the flock. Think of your parents and the many years of love and care they have provided. Think of your brothers and sisters and the countless precious memories they’ve helped you to make. Think of your spouse’s companionship, love and loyalty. Think of your children and how they have enriched and blessed your life. Think of all the overlooked people who contribute something important to your life: the church janitor, the song leader, your employer or your employees, the person who cleans the church house, the postman, the policeman, or the garbage truck driver.</p>\n  <p>When you come in contact with these people, do they find out that you appreciate their service? When a brother is discouraged and feels like a failure, does he know that you see many positive things in his life? They won’t know unless you make an effort to tell them. Isaiah 50:4 tells us, “The Lord GOD hath given me the tongue of the learned, that I should know how to speak a word in season to him that is weary.” What a simple but neglected exercise it is to speak an encouraging word to the weary! Proverbs 12:25 confirms the potential of a tongue exercised to bless others; “Heaviness in the heart of man maketh it stoop: but a good word maketh it glad.”</p>\n  <p>This simple exercise could revolutionize your family life. What if you had a perpetual contest to see who could in all sincerity give the most compliments? Parents, what if you set a goal of giving each child at least ten blessings for every reproof you must give in training them? Surely that’s only reasonable. With your spouse, the ratio should be at least a hundred to one, and probably a thousand to one! We’re not suggesting a flattery that breeds pride or an insincere sweetness that quickly becomes obnoxious, but just try this exercise for a few weeks. You’ll be amazed at the number of sincere compliments you can give if you only have a thankful, appreciative spirit and look for the best in everyone.</p>\n  <p>In the body of Christ, it is especially important to recognize and bless positive qualities. Hebrews 3:13 commands us to exhort one another daily, and this should generally take the form of encouragement and blessing. We should take every opportunity to bless our brethren for their faithfulness, their orderly homes, their godly example, or some area of growth in their lives. When you have laid a consistent foundation of positive input in your brethren’s lives, they will find it easy to accept any correction you may need to offer. It’s a sad commentary on our failure in this area when we find that many Christians become nervous whenever they receive a compliment. They’ve been conditioned to expect praise only as a forerunner of criticism. May God have mercy upon us! Surely Revelation 3:2 applies to our neglected, flabby spiritual muscles in this area of blessing others: “Be watchful, and strengthen the things which remain, that are ready to die.”</p>\n  <p>If you begin faithfully exercising the positive potential of your tongue, you will be amazed at the results. “Pleasant words are as an honeycomb, sweet to the soul, and health to the bones.” (Proverbs 16:24) What a privilege we’ve been given to spread sweetness and health wherever we go! Begin this exercise today for the sake of others, then marvel at what it does for you.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b27d720ebaf8138bce799f9773ea199f0fcfecb3344a54cc354a57d4508fdeec"
+}

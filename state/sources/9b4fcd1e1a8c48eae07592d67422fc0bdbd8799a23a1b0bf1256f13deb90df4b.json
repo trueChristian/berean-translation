@@ -1,0 +1,103 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mika"
+        }
+      ],
+      "raw": "Mika"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "a11d7521-063e-4e4e-a95b-f5a51163737d",
+    "images": [
+      {
+        "alt": "First page of Mika's handwritten letter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-1.jpg",
+        "repository_path": "public/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-1.jpg",
+        "rights_note": "No article-specific permission notice or image-specific credit or licence is printed. Clean embedded Separation/Black letter-scan object 35 had inverted extracted JPEG samples; samples were inverted and encoded as baseline RGB/sRGB JPEG at the original 1080 × 1422 dimensions and 150 ppi. Handwriting, corrections, paper rulings, faint show-through, and punch holes are intrinsic to the manuscript; publisher title, footer, and page furniture were omitted.",
+        "role": "handwritten letter facsimile, page 1 of 4",
+        "sequence": 1,
+        "source_page": 10
+      },
+      {
+        "alt": "Second page of Mika's handwritten letter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-2.jpg",
+        "repository_path": "public/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-2.jpg",
+        "rights_note": "No article-specific permission notice or image-specific credit or licence is printed. Clean embedded Separation/Black letter-scan object 41 had inverted extracted JPEG samples; samples were inverted and encoded as baseline RGB/sRGB JPEG at the original 1095 × 1392 dimensions and 150 ppi. Handwriting, corrections, paper rulings, faint show-through, and punch holes are intrinsic to the manuscript; publisher title, footer, and page furniture were omitted.",
+        "role": "handwritten letter facsimile, page 2 of 4",
+        "sequence": 2,
+        "source_page": 11
+      },
+      {
+        "alt": "Third page of Mika's handwritten letter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-3.jpg",
+        "repository_path": "public/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-3.jpg",
+        "rights_note": "No article-specific permission notice or image-specific credit or licence is printed. Clean embedded Separation/Black letter-scan object 45 had inverted extracted JPEG samples; samples were inverted and encoded as baseline RGB/sRGB JPEG at the original 1127 × 1421 dimensions and 150 ppi. Handwriting, corrections, paper rulings, faint show-through, and punch holes are intrinsic to the manuscript; publisher title, footer, and page furniture were omitted.",
+        "role": "handwritten letter facsimile, page 3 of 4",
+        "sequence": 3,
+        "source_page": 12
+      },
+      {
+        "alt": "Final page of Mika's handwritten letter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-4.jpg",
+        "repository_path": "public/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-4.jpg",
+        "rights_note": "No article-specific permission notice or image-specific credit or licence is printed. Clean embedded Separation/Black letter-scan object 50 had inverted extracted JPEG samples; samples were inverted and encoded as baseline RGB/sRGB JPEG at the original 1125 × 1053 dimensions and 150 ppi. Handwriting, corrections, paper rulings, faint show-through, and punch holes are intrinsic to the manuscript; publisher title, footer, and page furniture were omitted.",
+        "role": "handwritten letter facsimile, page 4 of 4",
+        "sequence": 4,
+        "source_page": 13
+      },
+      {
+        "alt": "A hand writing with a fountain pen beside a rose",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-5.jpg",
+        "repository_path": "public/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-5.jpg",
+        "rights_note": "No image-specific credit, licence, or separate-permission notice is printed. Clean embedded ICCBased RGB photograph object 53 was encoded as a baseline RGB/sRGB JPEG at its original 551 × 325 dimensions and 150 ppi. Ten-pixel white corner chamfers reproduce the four printed clipped corners; no image content was generated or retouched. The adjacent diagonal pull quote repeats a sentence present in the body and was omitted as separately painted typography.",
+        "role": "photograph accompanying the handwritten letter",
+        "sequence": 5,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "The (Almost) Lost Art of Letter Writing",
+    "topics": [
+      "603eb11c-b7d9-5de6-ad61-b9b13770416c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4dd68a86ce27fdae8ebc3cb9703ea38fd8c2e2bdd45f3d462be8c77e2e1bbdb7",
+    "metadata_sha256": "1a49e01abb4df48ae137cc31019fd3db7af611ec9fcabaf21048e665eff384a4",
+    "structure_sha256": "e82015791bf51017ca34646246c97d2a531d24b268e2a5896a1f172059681931",
+    "text_sha256": "9692dc41e8b10cf5f851f5148742faeb32d11fac7d696c5a0c1c5cd546f1804c",
+    "translation_metadata_sha256": "19234aad125e885bf604415b2c6a3bb6dd8e6c41b3637fd5ba273078329ba6ad"
+  },
+  "html": "<article data-article-id=\"a11d7521-063e-4e4e-a95b-f5a51163737d\">\n  <figure>\n    <img src=\"/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-1.jpg\" alt=\"First page of Mika's handwritten letter\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-2.jpg\" alt=\"Second page of Mika's handwritten letter\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-3.jpg\" alt=\"Third page of Mika's handwritten letter\">\n  </figure>\n  <figure><img src=\"/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-4.jpg\" alt=\"Final page of Mika's handwritten letter\"></figure>\n  <p>I will close this letter trusting that I have inspired you to quality communication.</p>\n  <figure>\n    <img src=\"/images/articles/a11d7521-063e-4e4e-a95b-f5a51163737d-5.jpg\" alt=\"A hand writing with a fountain pen beside a rose\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "32b5347c4e86f0015445e80b1d05343e75a8295c2e368884be5ae874a5b21ed5"
+}

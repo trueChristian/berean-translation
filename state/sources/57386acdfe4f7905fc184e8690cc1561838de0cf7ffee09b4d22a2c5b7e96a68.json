@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles E. Orr",
+          "role": null
+        }
+      ],
+      "raw": "Charles E. Orr"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "30c8298f-f077-483a-8c01-33c00c8b48fa",
+    "images": [
+      {
+        "alt": "Engraving of a man kneeling in prayer",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-1.jpg",
+        "repository_path": "public/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-1.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com without mapping this image to that source. The PDF applied inverted decode semantics to the embedded one-channel separation JPEG; its samples were inverted and encoded as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving the published dimensions, crop, orientation, and content.",
+        "role": "opening prayer engraving",
+        "sequence": 1,
+        "source_page": 32
+      },
+      {
+        "alt": "An analog wall clock",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-2.jpg",
+        "repository_path": "public/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-2.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com without mapping this image to that source. The clock was stored as two vertically adjacent sRGB JPEG tiles; they were joined at their published positions into one 452 × 454 standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving its crop, orientation, and content.",
+        "role": "wall clock photograph",
+        "sequence": 2,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "c2a74b77-fa78-5891-9aa5-a22f70c4515d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Constant in Prayer",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ffe9e603615107bdd7dac9ccb6b06f49be8153e2cd972b6968c4fedcc2909945",
+    "metadata_sha256": "f98e045d3429488b1915403b2f6e9cf308893fa49e63f41ff21e1f92f42ad038",
+    "structure_sha256": "ff145e76cc8a6c72715a9af14662f78ed8b25fa2f56400ad51d1a69029f1a16c",
+    "text_sha256": "663fcae1fc54fb0c675b143713e223a639e321224902858eefbfb7cc30aa27f2",
+    "translation_metadata_sha256": "9049ebef0ff9b176b767caef101997a8c02cae4b793baaabd6b9bd36861a4377"
+  },
+  "html": "<article data-article-id=\"30c8298f-f077-483a-8c01-33c00c8b48fa\">\n  <figure>\n    <img src=\"/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-1.jpg\" alt=\"Engraving of a man kneeling in prayer\" loading=\"lazy\">\n  </figure>\n\n  <p class=\"drop-cap\">The value of prayer can hardly be estimated. Unless you are willing to take up a life of prayer and keep it until the close, you had just as well not take up the Christian profession. Without prayer you will die. Someone has expressed it thus:</p>\n\n  <blockquote class=\"poem\">\n    <p>Prayer is our life, our soul’s triumphant wings,<br>\n    The arm that holds the shield and hand that takes the crown;<br>\n    Along the line on which a thousand faithful prayers ascend,<br>\n    Surely God doth send ten thousand blessings down.</p>\n  </blockquote>\n\n  <p>What an honor it is to have audience with the King of glory! He extends the golden scepter to us, and we come hopefully, confidingly, into His presence and tell Him all that is in our hearts. It is only because we comprehend something of His great love to us that we venture to come into His presence. Who would not consider it a great honor and blessed privilege to be admitted into the courts of the lords and the kings of earth? The greatest honor bestowed upon man is the privilege of coming into the presence of God and conversing with Him. Alas! how few appreciate the privilege of prayer! How few can properly estimate its true worth! Jesus by His example has taught us something of the worth of prayer. His rising a great while before it was day to hold communion with the Father, and His spending all night in prayer to Him, teach us something of its importance. If it was necessary for Jesus to spend so much time in prayer, how much more necessary for us!</p>\n\n  <p>Prayer is an invincible armor which shields the devoted Christian from the poisoned missiles shot forth from the batteries of hell. It is the mighty weapon in his hand with which he fights life’s battles unto victory. He who lives in prayer reigns triumphant. His soul is filled with the peace of heaven. Power is given him over sin and the world. By prayer all storm clouds are driven away, mountains of discouragement are cast into the sea, chasms of difficulties are bridged, hope is given wings, faith increases, and joys abound. Hell may rage and threaten, but he who is frequent and fervent in prayer experiences no alarm. By prayer the windows of heaven are opened, and showers of refreshing dews are rained upon the soul. It is as a watered garden, a fertile spot where blooms the unfading rose of Sharon and the lily-of-the-valley; where spread the undecaying branches of the tree of life.</p>\n\n  <p>By prayer the soul is nourished and strengthened by the divine life. Do you long for deeper joys? For a greater sense of the divine fullness? For a sweeter balm of hope to be shed upon your soul? For a closer walk with God? Then live much in prayer! Do you desire to feel the holy flame of love burning in all its intensity in your soul? Then enkindle it often at the golden altar of prayer. Without prayer, the inner being will weaken, famish, and die; the fountain of love dry up; the spring of joy cease to flow; the dews will fail to descend; and your heart will become a parched and dreary desert waste.</p>\n\n  <p>Look upon the character of Jesus. Behold His lowliness, His meekness, gentleness, and tender compassion. Have they any beauty? And would you love to have them grace your own soul? Then draw them down from the skies in all their glorious fullness by the fervent prayer of faith. As through the process of assimilation food is transformed into an active, living being, so through the medium of prayer the character of Jesus in all its transcendent beauty and glory becomes the character of man.</p>\n\n  <p>If you desire victory during the day, begin it with prayer. Not a few hurried words, but minutes of deep, intimate communion with God. Linger at the sacred altar of prayer until you feel particles of glory drop in richness into your soul, scattering sweetness throughout the whole and relating you to the world above. In the early morning hour, when the still, balmy breath of nature plays around, let your soul fly away on the wings of prayer with its message of love and praise to its Maker. Jesus went out a great while before day to hold communion with God. There is no time better suited for prayer. The world is hushed in slumber. There is less sin being committed, and if the world ever is innocent, it is in the early morning time. We thus get an advantage of the devil and have sweet converse with God before the devil is aware.</p>\n\n  <p>If you desire to be more deeply and sincerely pious, seek it in prayer. If you desire heights in God’s love, depths in His grace, fullness in His joy, richness in His glory, seek it in prayer. Did you say you had not time for prayer? What a pity! Your happiness and usefulness in life depend upon it; your eternal welfare depends upon it—then, oh, what a pity you have no time for it!</p>\n\n  <figure>\n    <img src=\"/images/articles/30c8298f-f077-483a-8c01-33c00c8b48fa-2.jpg\" alt=\"An analog wall clock\" loading=\"lazy\">\n  </figure>\n\n  <p>But you must find time. You cannot afford to listen to Satan; there is too much at stake. This is an excuse that many allow Satan to make for them. Time for rest, time for eating, time for sleeping, time for friends, time for books; but no time for prayer. This is a device of Satan to rob souls of the love of God. You must not give him such an advantage of you.</p>\n\n  <p>In love for your spiritual welfare I beseech you in Jesus’ name, live much in prayer. Go often into your closet, and then, with the loins of your mind girded up, in all earnestness of soul pray until the love of God and the light of heaven fills your being. Satan will try to make you listless and indifferent; he will try to make your thoughts to wander; he will tell you of many other things that need to be done that very moment; and many other things will he tell you to deprive you of the blessings of prayer. But you must resist him and go the more earnestly in prayer; and continue to pray until a rapture from the skies sweeps over your soul, making the place of prayer the dearest spot on earth to you.</p>\n\n  <div class=\"poem\">\n    <p>When the shades of night come softly stealing,<br>\n    Softly stealing o’er the windowsill;<br>\n    When the busy day is slowly ending,<br>\n    Lowly ending peacefully and still,<br>\n    Christian, with thy heart adoring Heaven,<br>\n    Sweetest glories falling from above,<br>\n    Go to God in secret, silent pleading,<br>\n    Tell to Him the wondrous tale of love.</p>\n\n    <p>When the morning light is gently dawning,<br>\n    Gently dawning in the eastern sky;<br>\n    When the darkness fast away is fleeing,<br>\n    Duties of the day are drawing nigh,<br>\n    Down before the sacred, hallowed altar,<br>\n    Christian, bow before thy God in fervent prayer,<br>\n    Giving thanks to Him for life’s sweet blessings,<br>\n    For the day imploring His kind care.</p>\n  </div>\n\n  <p>Begin the day with prayer: it will fortify you against the tempter’s power. The result of neglecting prayer is to be tossed furiously about upon the billows of temptation.</p>\n\n  <p>Time is of too great worth to waste one precious moment. An hour lost is that much of life lost. For all the time spent in idleness, you had just as well not have lived at all. By rightly using each moment you will build up a character that will stand a monument upon the tomb of the dead past. Moments misspent are life and character gone, and no imprint is left on the hearts of men to tell that we have lived. How many golden moments are flying away into eternity unladen with any fruit from your life? Learn to value time. Redeem it because these days are evil. Seize upon each passing moment, and send it up to the glorious Author of time laden with golden deeds. ~</p>\n\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "6834ea2c38cfd67cd636f85527a49fc11987abe86837dd045ce903ccf27b107f"
+}

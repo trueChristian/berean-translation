@@ -1,0 +1,108 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Denny Kenaston",
+          "role": null
+        }
+      ],
+      "raw": "by Denny Kenaston"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "f8e9bf03-6695-4bca-90e5-2582673cca69",
+    "images": [
+      {
+        "alt": "Two women with their eyes closed",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-1.jpg",
+        "repository_path": "public/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-1.jpg",
+        "rights_note": "Original embedded image object 54 from printed page 14; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 14
+      },
+      {
+        "alt": "A map labeled CHINA",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-2.jpg",
+        "repository_path": "public/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-2.jpg",
+        "rights_note": "Original embedded image object 58 from printed page 15; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Text intrinsic to the map raster is retained. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "map",
+        "sequence": 2,
+        "source_page": 15
+      },
+      {
+        "alt": "A group of people gathered among trees and rocks",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-3.jpg",
+        "repository_path": "public/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-3.jpg",
+        "rights_note": "Original embedded image object 62 from printed page 16; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 16
+      },
+      {
+        "alt": "People seated together with books, their faces obscured in the source photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-4.jpg",
+        "repository_path": "public/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-4.jpg",
+        "rights_note": "Original embedded image object 66 from printed page 17; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Source facial-obscuring marks are irreversibly present in the image raster and are retained unchanged. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "photograph",
+        "sequence": 4,
+        "source_page": 17
+      },
+      {
+        "alt": "People kneeling together, with black bars covering their eyes in the source photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-5.jpg",
+        "repository_path": "public/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-5.jpg",
+        "rights_note": "Original embedded image object 70 from printed page 18; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Source facial-obscuring marks are irreversibly present in the image raster and are retained unchanged. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "photograph",
+        "sequence": 5,
+        "source_page": 18
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": {
+      "id": "497a40db-a9f8-43ba-80fd-55709bf3b38d",
+      "part": 2,
+      "total_parts": null
+    },
+    "source_pages": {
+      "end": 18,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "The Radical Chinese House Churches (part II)",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "86f15482b0708387513ea1f9ba4304fc3645790bb45d133e95130a0274740079",
+    "metadata_sha256": "00296b380276a85e327b8cc6c06bec33ec8f664949e0c6eed20c60661d0d9381",
+    "structure_sha256": "e280d5098dab50dda448e486754563ff75a279a0a1ce5cc3020f2a8b4a12e303",
+    "text_sha256": "2cd70d863db5f777889bd2260e832239eb1cb47439fb48fbd770ef31b80b619d",
+    "translation_metadata_sha256": "3b5b855ec63b63dc78af09bc0601ff82a3c15cb6a341e2572815e29051be6fa6"
+  },
+  "html": "<article data-article-id=\"f8e9bf03-6695-4bca-90e5-2582673cca69\">\n  <figure>\n    <img src=\"/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-1.jpg\" alt=\"Two women with their eyes closed\">\n  </figure>\n  <blockquote>\n    <p><em>For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy;<br>I dwell in the high and holy place, with him also that is of a contrite and humble spirit,<br>to revive the spirit of the humble, and to revive the heart of the contrite ones.<br>Isaiah 57:15</em></p>\n    <p><em>The effectual fervent prayer of a righteous man availeth much.<br>James 5:16b</em></p>\n  </blockquote>\n  <p>These verses beautifully describe some of the secrets of this vibrant church. I chose to place the same picture at the beginning of this continued article, because it says it all. It is the broken-hearted prayers of humble believers that bring the presence of God into their midst. I pray that God will lead us into this same kind of desperate praying, so that His bride in America can be like His bride in China.</p>\n  <p>We have received many encouraging words about the first half of this article. Thank you for your input. We love to hear from the hearts of our readers. It is good for us American Christians to be challenged by believers from the other side of the world. Let us return to the interview.</p>\n  <h2><em>Interview</em></h2>\n  <p><strong>Bro Denny:</strong> What does the Chinese church believe about the Holy Ghost? It seems very evident that they are a powerful people. How does this work out in their theology of the Spirit?</p>\n  <p><strong>Bro Paul:</strong> They believe it is God’s command to every believer to be baptized by the Holy Ghost. They also believe that we must have continual fillings as our life goes on in the Lord Jesus. This is the primary reason for all the amazing things that we have shared in the meeting. Imagine how different the American Christians would be if millions of them would be filled with the Spirit.</p>\n  <p><strong>Bro Ren:</strong> They believe that God gives the power of the Holy Spirit so that the church can win souls. The evidence of being filled with the Spirit is not speaking in tongues, though some of them do, and some of them do not. The real biblical evidence, as in Acts, is a fiery passion to win souls, and many souls coming to the Savior. This is the way they are able to keep preaching the Gospel, though they are imprisoned and persecuted for it. The Holy Spirit constrains them to go. Just like in Acts, they are bold and fearless.</p>\n  <p><strong>Bro Denny:</strong> What does the Chinese church believe about holy living? This is an area of much confusion here in America. The professing church is filled with worldliness.</p>\n  <figure>\n    <img src=\"/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-2.jpg\" alt=\"A map labeled CHINA\">\n  </figure>\n  <p><strong>Bro Paul:</strong> They are conservative Christians. They order their lives according to the word of God. Many do not have Bibles, but those who do study much to see what God says about living a Christian life. Their women are modest, in spirit and in their clothing. The Chinese culture is different from American culture, but what they wear is modest. They are all poor, so they have no problems with fashion. This matter of holy living is a real problem to them when they try to relate to Christians from the West. They struggle when denominations try to claim them as “one of us,” when they are very different.</p>\n  <p><strong>Bro Denny:</strong> Some of the testimonies about healing are amazing. They cause me to sit in astonishment as I here them. Could you elaborate on the subject of healing a bit more? How often do things like what we heard tonight happen? What is their theology of healing?</p>\n  <p><strong>Bro Ren:</strong> First, let me answer the theology part of the question. They have a very simple theology about healing. They believe that God is a healer. It is simply one of the many manifestations of His holy character. In America, you believe that God can heal. In China, they believe He does all the time. It is according to your faith and ours. You receive what you believe. The people are poor and cannot afford to go to the doctor. Because of this, they have to trust in God in ways that American’s do not. Healings happen all the time, but people also have sickness that they have to deal with. Poverty and persecution brings extra hardships upon them, and thus they get sick more often. Sometimes God heals, and sometimes He does not. God is sovereign.</p>\n  <p><strong>Bro Denny:</strong> Could you also comment on some of the other miracles that you share tonight? It is hard for us to relate to so many supernatural happenings. How does this effect the church there?</p>\n  <p><strong>Bro Paul:</strong> They believe in a miracle working God. At first, in the beginning of the revival, everyone was astonished as well. As God began to work many miracles, the church just began to expect miracles. It is not a distraction as it is in the West. Miracles happen at a meeting, and the preacher just goes right on preaching the Gospel. There is an expectation that God will confirm His word with miracles. Eighty percent of the church has experienced miracles of some sort or another. Because of this, they expect them. They never glorify the miracles; they glorify God. The gift of miracles is in the Bible, and God works through this gift to honor His name.</p>\n  <p><strong>Bro Denny:</strong> Have you ever heard of someone being raised from the dead?</p>\n  <p><strong>Bro Ren:</strong> Oh yes, it happens quite often. Many times when someone is killed, or dies from persecution, the leaders will go where the body is to pray and find out if God would have the person live again.</p>\n  <p><strong>Bro Denny:</strong> I have often said in my preaching, “When persecution comes, true unity will come with it, because there will be no mixture with the world.” In light of this, what do they believe about unity? We have all this ecumenical confusion here in our land.</p>\n  <figure>\n    <img src=\"/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-3.jpg\" alt=\"A group of people gathered among trees and rocks\">\n  </figure>\n  <p><strong>Bro Paul:</strong> Again, their theology is very simple. Their unity is based on the essentials of the faith and true marks of discipleship. They say, “Disciples witness, and are persecuted because they witness.” This is where the lines of unity are drawn. There are differences among them, but they do not allow these to divide them in the war for souls. They believe there is more that unifies them than there is that separates them.</p>\n  <p><strong>Bro Denny:</strong> Could you comment on the name given to these Chinese Christians. I am referring to the name “house churches.” What is the significance of this name?</p>\n  <p><strong>Bro Ren:</strong> The name signifies several different things. First, the name is given because they meet in houses. There are several reasons for this, and I will comment on them in a moment. The second reason has to do with a distinction between them and the registered churches, which meet in buildings. The last reason is the most important one. They call themselves house churches out of conviction. They meet in homes because they believe it is more biblical. It is also true that they have to because of persecution, but the primary reason is evangelical in nature. Even if the government of China allowed them liberty to meet openly, they would still meet in houses. Meeting in homes is one of the greatest keys to the tremendous growth of the church. The more meeting places, the more they can win the lost to Christ. In addition, when they meet in houses, it does not cost them any money. Finances often slow church growth.</p>\n  <p><strong>Bro Denny:</strong> Could you tell me what the church services are like when they meet together and feel free? I know there are times when they have to be quiet, but what is it like when they are free?</p>\n  <p><strong>Bro Ren:</strong> The Chinese Christians are a lively, responsive congregation when they gather in freedom. They sing some hymns and some choruses, and the singing is wholehearted. During the preaching and open testimonies, there are lots of amens and hallelujahs. They meet in forests and caves to do this so they will not be heard.</p>\n  <p><strong>Bro Denny:</strong> You mentioned in your presentation that revival has been continuing for decades. Can you give me some reasons why it does not grow cold or stop?</p>\n  <p><strong>Bro Paul:</strong> As I see it, there are two reasons. First, the church is busy fulfilling God’s purposes for it on the earth. That purpose is evangelism. As God’s people do His work, He continues to pour out His Spirit upon them. This is a secret to ongoing revival. The Chinese church has a powerful vision of the Great Commission. They believe it is the Church’s responsibility to preach the Gospel to their generation. The second reason flows out of the first. Because of their persistence in preaching the Gospel, they are persecuted repeatedly. This persecution brings purifying, and that brings more anointing. These two work together to create an atmosphere of revival.</p>\n  <figure>\n    <img src=\"/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-4.jpg\" alt=\"People seated together with books, their faces obscured in the source photograph\">\n  </figure>\n  <p><strong>Bro Ren:</strong> There is another reason why they still have revival. The church leaders are careful to give the Holy Spirit His place in directing the work. They allow God’s Spirit free course to move how and where He will. They see the American church as one that is too organized. The leaders have a saying about revival that I feel is helpful. They call it, “How to kill a Revival.”</p>\n  <ul>\n    <li>Man wants to organize it to suit his understanding.</li>\n    <li>Then after he has it organized, he then secures himself a position in it.</li>\n    <li>Once this is done, the Spirit is grieved, and slowly withdraws.</li>\n    <li>Then the Revival becomes a history class, and everyone talks about it in the past.</li>\n  </ul>\n  <p><strong>Bro Denny:</strong> Could you comment on the eschatology of the house churches? What is their end time theology?</p>\n  <p><strong>Bro Paul:</strong> Their theology is again very simple. They believe that Jesus Christ is coming again. He is coming for His bride who has made herself ready. As far as the details of how all this will happen, there are some differences. These differences do not divide them. The strongest point of their theology has to do with evangelism. They believe the gospel must be preached among all nations, and then shall the end come. They get this from Matt. 24:14. Because of this belief, they have strong convictions about evangelism. They believe that if you are not actively busy preaching to others, you are hindering the second coming of Christ, and you need to repent.</p>\n  <p><strong>Bro Denny:</strong> For my last question, let’s talk a little about the leaders of this movement. The church is growing at a very fast rate, and yet it is underground. Therefore, it would be hard to give much formal training to the leaders. From an American perspective, many would believe you cannot lead a church until you have had much formal training. Obviously, this training is not happening in China, yet the church is thriving. How can this be? Can you explain some of preparations the leaders receive?</p>\n  <p><strong>Bro Ren:</strong> Most of the top leaders are very poor. The strongest point of their character is love. They pour out their lives for the persecuted sheep in China both in labors and by subjecting themselves to the dangers of imprisonment. One wrong move and they sit in a prison cell for five or ten years. This is love as many in America have never known. They do train their leaders. The training, however, is very simple. They train them in three major areas. Let me state them briefly.</p>\n  <ul>\n    <li>They teach them how to be a disciple of Jesus Christ and walk with Him daily. Then from that walk, they must learn how to witness for Christ in a dangerous hostile environment.</li>\n    <li>They teach them how to die daily and how to die really. These are both very important because of the persecutions leaders face.</li>\n    <li>They teach them how to escape the police when they are caught, and how to escape from prison if God says “Run.”</li>\n  </ul>\n  <figure>\n    <img src=\"/images/articles/f8e9bf03-6695-4bca-90e5-2582673cca69-5.jpg\" alt=\"People kneeling together, with black bars covering their eyes in the source photograph\">\n  </figure>\n  <p>The word of God is very important to these leaders. They have memorized and internalized many chapters of the Bible. They cannot carry a Bible around in their hands, so they make sure that they can carry one in their heart. The fire of the Holy Ghost is also very important in ministry. These men are constantly being empowered by the Spirit. This is leadership in China, and this is how the church spreads so rapidly.</p>\n  <p><strong>Bro Denny:</strong> Thank you for taking the time to share with me. I am deeply challenged by the answers to my questions. I know the hearts of the people who will read this article. They will be thrilled and humbled by our Chinese brethren. May God help us. We lack in so many of these areas, but we want to change.</p>\n  <p>This concludes the interview about the Chinese House Churches. What can I say? Some of this material is almost hard to believe with my American mindset. My heart unites with the father who had a demon-possessed boy in Mark 9:23-24, <em>“Jesus said unto him, If thou canst believe, all things are possible to him that believeth. And straightway the father of the child cried out, and said, with tears, Lord, I believe, help thou mine unbelief.</em> Maybe we need to join this father and cry out with tears unto the Lord.</p>\n  <p>Zion in America must reckon with Zion in China. <em>“This God is our God for ever and ever.”</em> When Communism closed the doors to China in 1949, there were one million believers in China. Now, fifty years later, there are eighty million disciples of Jesus Christ. There are also many true Christians in the registered churches. Christ is building His Church in China, and the gates of hell are not prevailing against her. Praise ye the Lord. Dear brothers and sisters, let us repent of our lukewarmness and unbelief. Let us make our hearts and faces like the ones in the picture at the beginning of this article, and let us believe God for mighty things. The persecution will come. Most Christians in America acknowledge this. We need to get prepared.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ec75a4cfc628d146d247626389e13cb10912147471f1a55c4486026e368d0da9"
+}

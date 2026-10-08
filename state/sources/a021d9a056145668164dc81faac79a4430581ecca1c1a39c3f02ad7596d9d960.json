@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Charles Wesley"
+        }
+      ],
+      "raw": "by Charles Wesley"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b",
+    "images": [
+      {
+        "alt": "An oil lamp beside a rough wall",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-1.jpg",
+        "repository_path": "public/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-1.jpg",
+        "rights_note": "PDF image object xref 85. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. The pale tonal wash and gray ground are irreversibly baked into the sole source JPEG. No clean dark base, retained black point, mask, or transparency group exists; preserve the exact raster rather than inventing tonal values. Separately painted poem text and gray page panel omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article background illustration",
+        "sequence": 1,
+        "source_page": 20
+      },
+      {
+        "alt": "An old stone arch surrounded by vegetation",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-2.jpg",
+        "repository_path": "public/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-2.jpg",
+        "rights_note": "PDF image object xref 89. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. The pale tonal wash and gray ground are irreversibly baked into the sole source JPEG. No clean dark base, retained black point, mask, or transparency group exists; preserve the exact raster rather than inventing tonal values. Separately painted poem text and gray page panel omitted. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article background illustration",
+        "sequence": 2,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Primitive Christianity",
+    "topics": [
+      "4512cfd9-f11a-52c1-8239-b9f0c7ec9274",
+      "15fded78-2bae-5612-8e6d-863871109109",
+      "f396833d-db0d-5879-8fc7-0b9e43bd718d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3ab6e471afd9fe0faba80edb1d426af3e04cb66dc459eb2d2d71fa49e21473f5",
+    "metadata_sha256": "b85439e36cb03d7d1050a5bde8ed2a441e4a6b997d669b23a8595ffd7e35f07d",
+    "structure_sha256": "84e1304df050ea1e64b0bc192db8294bb26ca3282549f6d8b21026a485070ae6",
+    "text_sha256": "77375891fc544b0df028ff050ea506e1f7bfb8903413b43ae6d07e975a78cafb",
+    "translation_metadata_sha256": "a95883e8e13983eb46c30bc0a9801ed377cce624fd62a17525c25f14ee7c5c82"
+  },
+  "html": "<article data-article-id=\"6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b\">\n<figure>\n  <img src=\"/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-1.jpg\" alt=\"An oil lamp beside a rough wall\">\n</figure>\n<p class=\"poem\">HAPPY the souls who first believed,<br>To Jesus and each other cleaved,<br>Join’d by the unction from above,<br>In mystic fellowship of love!</p>\n<p class=\"poem\">Meek, simple followers of the Lamb,<br>They lived and spake and thought the same;<br>Brake the commemorative bread,<br>And drank the Spirit of their Head.</p>\n<p class=\"poem\">On God they cast their every care:<br>Wrestling with God in mighty prayer.<br>They claim’d the grace, through Jesus given;<br>By prayer they shut and open’d heaven.</p>\n<p class=\"poem\">To Jesus they perform’d their vows:<br>A little Church in every house,<br>They joyfully conspired to raise<br>Their ceaseless sacrifice of praise.</p>\n<p class=\"poem\">Propriety was there unknown,<br>None call’d what he possess’d his own;<br>Where all the common blessings share,<br>No selfish happiness was there.</p>\n<p class=\"poem\">With grace abundantly endued,<br>A pure, believing multitude!<br>They all were of one heart and soul,<br>And only love inspired the whole.</p>\n<p class=\"poem\">O what an age of golden days!<br>O what a choice, peculiar race!<br>Wash’d in the Lamb’s all-cleansing blood,<br>Anointed kings and priests to God.</p>\n<p class=\"poem\">Where shall I wander now to find<br>The successors they left behind?<br>The faithful whom I seek in vain,<br>Are ‘minished from the sons of men.</p>\n<p class=\"poem\">Ye different sects, who all declare,<br>“Lo, here is Christ!” or, “Christ is there!”<br>Your stronger proofs divinely give,<br>And show me where the Christians live.</p>\n<p class=\"poem\">Your claim, alas! ye cannot prove,<br>Ye want the genuine mark of love:<br>Thou only, Lord, thine own canst show;<br>For sure thou hast a Church below.</p>\n<p class=\"poem\">The gates of hell cannot prevail,<br>The Church on earth can never fail:<br>Ah! join me to thy secret ones!<br>Ah! gather all thy living stones!</p>\n<p class=\"poem\">Scatter’d o’er all the earth they lie,<br>Till thou collect them with thine eye,<br>Draw by the music of thy name,<br>And charm into a beauteous frame.</p>\n<p class=\"poem\">For this the pleading Spirit groans,<br>And cries in all thy banish’d ones:<br>Greatest of gifts, thy love, impart,<br>And make us of one mind and heart!</p>\n<p class=\"poem\">Join every soul that looks to thee<br>In bonds of perfect charity:<br>Now, Lord, the glorious fullness give.<br>And all in all for ever live!</p>\n<figure>\n  <img src=\"/images/articles/6dc8b6bd-0d37-462e-9c0a-f8f735b56a0b-2.jpg\" alt=\"An old stone arch surrounded by vegetation\">\n</figure>\n<p class=\"poem\">Jesus, from whom all blessings flow,<br>Great Builder of thy Church below,<br>If now thy Spirit moves my breast,<br>Hear, and fulfill thy own request!</p>\n<p class=\"poem\">The few that truly call thee Lord,<br>And wait thy sanctifying word,<br>And thee their utmost Savior own,<br>Unite, and perfect them in one.</p>\n<p class=\"poem\">Gather them in on every side,<br>And in thy tabernacle hide;<br>Give them a resting-place to find,<br>A covert from the storm and wind.</p>\n<p class=\"poem\">O find them out some calm recess,<br>Some unfrequented wilderness!<br>Thou, Lord, the secret place prepare,<br>And hide and feed “the woman” there.</p>\n<p class=\"poem\">Thither collect thy little flock,<br>Under the shadow of their Rock:<br>The holy seed, the royal race,<br>The standing monuments of thy grace.</p>\n<p class=\"poem\">O let them all thy mind express,<br>Stand forth thy chosen witnesses!<br>Thy power unto salvation show,<br>And perfect holiness below:</p>\n<p class=\"poem\">The fulness of thy grace receive,<br>And simply to thy glory live;<br>Strongly reflect the light divine,<br>And in a land of darkness shine.</p>\n<p class=\"poem\">In them let all mankind behold<br>How Christians lived in days of old;<br>Mighty their envious woes to move,<br>A proverb of reproach - and love.</p>\n<p class=\"poem\">O make them of one soul and heart,<br>The all-conforming mind impart;<br>Spirit of peace and unity,<br>The sinless mind that was in thee.</p>\n<p class=\"poem\">Call them into thy wondrous light,<br>Worthy to walk with thee in white;<br>Make up thy jewels, Lord, and show<br>The glorious, spotless Church below.</p>\n<p class=\"poem\">From every sinful wrinkle free,<br>Redeem’d from all iniquity;<br>The fellowship of saints make known;<br>And O, my God, might I be one!</p>\n<p class=\"poem\">O might my lot be cast with these,<br>The least of Jesu’s witnesses!<br>O that my Lord would count me meet<br>To wash his dear disciples’ feet!</p>\n<p class=\"poem\">This only thing do I require,<br>Thou know’st ‘tis all my heart’s desire,<br>Freely what I receive to give,<br>The servant of thy Church to live:</p>\n<p class=\"poem\">After my lowly Lord to go,<br>And wait upon the saints below;<br>Enjoy the grace to angels given,<br>And serve the royal heirs of heaven.</p>\n<p class=\"poem\">Lord, if I now thy drawings feel,<br>And ask according to thy will,<br>Confirm the prayer, the seal impart,<br>And speak the answer to my heart!</p>\n<p class=\"poem\">Tell me, or thou shalt never go,<br>“Thy prayer is heard, it shall be so:” -<br>The word hath passed thy lips, - and I<br>Shall with thy people live and die.</p>\n<p><em>Taken from</em><br>www.primitivechristianity.org</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d84ac32ff728e83569548baf30dd444882e1d15c16bfa4fae0d45f0dd607985c"
+}

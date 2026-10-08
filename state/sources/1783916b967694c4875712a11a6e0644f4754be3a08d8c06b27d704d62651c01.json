@@ -1,0 +1,64 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Janice Etter",
+          "role": null
+        }
+      ],
+      "raw": "- Janice Etter -"
+    },
+    "categories": {
+      "additional": [
+        "917c7782-d876-59a2-9959-e33a50d14cca"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c5598678-c20f-4ae3-a545-c89431a15900",
+    "images": [
+      {
+        "alt": "A seated woman reading a book.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c5598678-c20f-4ae3-a545-c89431a15900-1.jpg",
+        "repository_path": "public/images/articles/c5598678-c20f-4ae3-a545-c89431a15900-1.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Embedded grayscale JPEG xref 90. Separate poem text, title, gray page panel and rounded frame omitted. The pale wash and gray raster background are irreversibly baked into the only source raster; no clean base or exact reversible blend is present. Page 21 repeats the same illustration as lower-resolution xref 94 and is represented once by this higher-resolution export. Converted to baseline RGB JPEG with nonzero 72 dpi density.",
+        "role": "background illustration",
+        "sequence": 1,
+        "source_page": 20
+      }
+    ],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "pages": [
+        20,
+        21
+      ],
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "A Godly Woman",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "509f082268d9340076695d90105c0822acf4fff15dbd1ba5b2c23d6effbbf284",
+    "metadata_sha256": "3fc5d3671aa79d779cd1d634daf238bfffc7536bc74adfede4e13b954f332a53",
+    "structure_sha256": "80c063b7fe155798f07402052d883c3da42316a0254d55f80539ef63433b4ec4",
+    "text_sha256": "06bb0579faefa682601f6060b87fff3bd71d82b68d1f646b9abc048171c9d1db",
+    "translation_metadata_sha256": "e0bfca5cb968df2a22c9f89b8aa4b26471b7d0695cb7c4754b9466c7afb92cff"
+  },
+  "html": "<article data-article-id=\"c5598678-c20f-4ae3-a545-c89431a15900\">\n  <figure><img src=\"/images/articles/c5598678-c20f-4ae3-a545-c89431a15900-1.jpg\" alt=\"A seated woman reading a book.\" /></figure>\n  <p class=\"poem\">The Bible speaks to everyone who follows in the Way,<br />But some parts are specific in the things they have to say.<br />The fathers are encouraged, and those alone in life,<br />And there are admonitions for the mother and the wife.</p>\n  <p class=\"poem\">I always linger over these; they speak to my estate.<br />They offer me direction in the small things and the great.<br />To be a godly woman is the goal I want to reach,<br />And so I need to study what the Scriptures have to teach.</p>\n  <p class=\"poem\">A woman who is called to be a mother and a wife,<br />Who takes the cross and purposes to live a godly life,<br />Is ever growing in the faith she’s chosen to profess,<br />And there are certain qualities she covets to possess.</p>\n  <p class=\"poem\">The godly woman stays at home, her duties keep her there.<br />She rises while it yet is night and gives herself to prayer.<br />Her days are full of service and her heart is full of love;<br />Her mind is full of gratitude and praise for God above.</p>\n  <p class=\"poem\">Though not employed outside the home, she has no mind to shirk,<br />She eats not bread of idleness, but fruit of honest work.<br />Her brother and her sister, her parents and her neighbor,<br />Her husband and her children share the blessing of her labor.</p>\n  <p class=\"poem\">The love her husband feels for her is easy to reflect,<br />And she not only loves him, but she gives him her respect.<br />In her his heart may safely trust; she does him only good;<br />When he confides his inner thoughts, he finds them understood.</p>\n  <p class=\"poem\">She’s mindful, too, of Eden, where the woman was deceived.<br />She knows it’s not her place to teach, as others have believed,<br />Nor to usurp authority, but listen with subjection,<br />In meekness and humility, accepting his direction.</p>\n  <p class=\"poem\">When all the church assembles in a solemn, formal way,<br />The godly woman listens to what the brethren have to say;<br />And if she hears a statement made that makes her sit up straighter,<br />The question forming in her mind she asks her husband later.</p>\n  <p class=\"poem\">Still, there is a congregation where her voice is often heard,<br />And her children are attentive as she teaches them the Word,<br />When she sits within her house, and when she walks along the way;<br />When she lays them down at night and when she rises with the day.</p>\n  <p class=\"poem\">The godly woman is discreet, not seeking other’s praise;<br />She’s modest in appearance, and she’s modest in her ways.<br />She isn’t prone to gossip, but her neighbors know she cares,<br />And any help her hands can give is certain to be theirs.</p>\n  <p class=\"poem\">The godly woman isn’t gay; she’s left that all behind.<br />She’s pleasant and she’s cheerful, but she has a sober mind.<br />Her covered head, her simple dress, her modest mien are one;<br />Her singular adornment is the good that she has done.</p>\n  <p class=\"poem\">When years of faithful laboring have bent her body low,<br />She’ll teach the younger women in the way that they should go.<br />And verily, I say to you, she’ll have a rich reward.</p>\n  <p class=\"poem\">Oh, make of me that woman, Lord! And guide me in that way.<br />Behold, thou art the potter, and I the softened clay.<br />Encourage me where I am right; rebuke me where I’m wrong.<br />I read these Scriptures often and I ponder on them long.</p>\n  <p><em>- Janice Etter -</em></p>\n  <blockquote><p><em>The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things; that they may teach the young women to be sober, to love their husbands, to love their children, to be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed.</em></p><p>Titus 2:3-5</p></blockquote>\n  <blockquote><p><em>Who can find a virtuous woman? for her price is far above rubies. The heart of her husband doth safely trust in her, so that he shall have no need of spoil.</em></p><p>Proverbs 31:10-11</p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b0f18c867c346c946b2f5e4c6d4dc86c907dcd357c55c0bf312a9e51d026b2fa"
+}

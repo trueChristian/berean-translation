@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Lee Rufener"
+        }
+      ],
+      "raw": "–by Lee Rufener"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+    "images": [
+      {
+        "alt": "Misty evergreen forest",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg",
+        "repository_path": "public/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 17; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "THE HEAVENLY CALLING",
+    "topics": [
+      "ee398290-a19b-5d0b-8657-4314f340fd8e",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a0b30cc430fbb9317768d30d82335748930b9348fc92b3a92492b9808515a71b",
+    "metadata_sha256": "2ac84032ae0e738564f2314081b7b84f6f403552217452bd4b5c1dec7ed4ecc9",
+    "structure_sha256": "0f5e8ca7e0b3e9fbb78487c4a4b56cc5a1cb3529649dbf7d217c87889b08063e",
+    "text_sha256": "e3fad2f895f17e9227aa73ab2dc6c71ebe43b6e94bd2940c5e7a7fe39630962c",
+    "translation_metadata_sha256": "3259d15ff9fbcf1b78a21f4c21ae0dd41984f6843fe6fb2e6ce375aacac95471"
+  },
+  "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Misty evergreen forest\">\n  </figure>\n\n  <p><em>Wherefore, holy brethren, partakers of the heavenly calling… –Hebrews 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>True wisdom dawns in gradual rays,<br>\n    Minute degrees observed as nil.<br>\n    Beyond the books of youthful days,<br>\n    It beckons thee to yonder hill.<br>\n    Forbear and press in patient ways...<br>\n    “Forward! Upward! Higher still!”</p>\n\n    <p>At times we fret with downcast soul,<br>\n    Our courage wanes in blasting chill.<br>\n    We’ve failed the earthly honor roll,<br>\n    Diminished hope, dejected will.<br>\n    But hark the sound, the ringing toll...<br>\n    “Forward! Upward! Higher still!”</p>\n\n    <p>Temptations rise and pleasures call,<br>\n    They barter truth for empty thrill.<br>\n    Those who yield are those who fall,<br>\n    Achieving not God’s blessed will.<br>\n    Sowing flesh shall reap but gall...<br>\n    “Forward! Upward! Higher still!”</p>\n\n    <p>In days of brimming youthful years,<br>\n    With dreams afresh to seek and fill.<br>\n    A humble heart will stay more tears,<br>\n    Than all of life’s great wit and will.<br>\n    He who wins is he who hears...<br>\n    “Forward! Upward! Higher still!”</p>\n  </div>\n\n  <p><em>–by Lee Rufener</em></p>\n\n  <p><em>I press toward the mark for the prize of the<br>\n  high calling of God in Christ Jesus –Philippians 3:14.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c"
+}

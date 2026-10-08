@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Marvin L. Fieldhouse"
+        }
+      ],
+      "raw": "by Marvin L. Fieldhouse"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+    "images": [
+      {
+        "alt": "Golden sunlight over a dark grassy horizon",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg",
+        "repository_path": "public/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for the printed page; no separate permission notice or license terms are stated. The embedded CMYK asset was converted to sRGB for faithful web display without changing its published dimensions, crop, or orientation.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 34
+      },
+      {
+        "alt": "A person standing against a golden sky",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg",
+        "repository_path": "public/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for the printed page; no separate permission notice or license terms are stated. The embedded CMYK asset was converted to sRGB for faithful web display without changing its published dimensions, crop, or orientation.",
+        "role": "full-page poem background",
+        "sequence": 2,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Today",
+    "topics": [
+      "03e83c6f-3216-57cb-bed0-2246d9187f50",
+      "989903d8-24d4-5c2c-8b36-4891d0e91f87"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4378f941963cc9410af4d29dc76f778c512d1ed696b47b69e0a29340ba786c86",
+    "metadata_sha256": "b4686dc58228bccfb6229a8953591867889a244adc6b5044395a040d740e1231",
+    "structure_sha256": "d603cfea47c4149f82bcde4d1344ce967b07b2e2fe07ccfc43adb4fdace84d96",
+    "text_sha256": "0d0048d10486d948d52e52644a7463244cfaa76c5c45bf02059614bc3d478aa9",
+    "translation_metadata_sha256": "d308a74daeb89d38263e379599b01635f8d04543c894371be179bf1d712c33fe"
+  },
+  "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>I’ll walk with God—Today—<br>\n    Tomorrow may not be.<br>\n    I’ll make the best of TIME—right now—<br>\n    That God has granted me.</p>\n\n    <p>I’ll plan not for a life<br>\n    That I might live in ease,<br>\n    But only for today to live<br>\n    My God alone to please.</p>\n\n    <p>Nor dare I think in years<br>\n    Or move from leaps to bounds;<br>\n    With God shut out, and self shut in<br>\n    And selfish aims surround.</p>\n\n    <p>There are those who plan their lives,<br>\n    Who give God little thought;<br>\n    Who weigh themselves, not with God’s truth,<br>\n    As every day they ought!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"Golden sunlight over a dark grassy horizon\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>“Boast not thyself,” I’m warned,<br>\n    “Of what tomorrow brings;<br>\n    Thy health and wealth—e’en life itself—<br>\n    May all at once take wings!”</p>\n\n    <p>“This night, that soul of thine<br>\n    May be required of thee:<br>\n    And dost thou plan the New Year full<br>\n    There, ‘neath some Christmas tree?”</p>\n\n    <p>“Wake up! Take stock, are you prepared?<br>\n    Your lessons learned alright?<br>\n    If God, in yet three hours, THIS DAY,<br>\n    Should close your course TONIGHT?”</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"A person standing against a golden sky\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326"
+}

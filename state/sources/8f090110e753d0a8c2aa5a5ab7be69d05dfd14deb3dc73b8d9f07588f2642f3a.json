@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Clifford Fox",
+          "role": "Submitted by"
+        }
+      ],
+      "raw": "From The Martyrs Mirror\nSubmitted by Clifford Fox"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "4882c593-6c5b-46ec-8757-fcdd3ec40bb7",
+    "images": [
+      {
+        "alt": "Armed men leading a prisoner",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4882c593-6c5b-46ec-8757-fcdd3ec40bb7-1.jpeg",
+        "repository_path": "public/images/articles/4882c593-6c5b-46ec-8757-fcdd3ec40bb7-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 112. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. The separately painted frame and shadow are omitted. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Augustine the Baker (1556)",
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bfc33281fd5f297279e8167fa4c0b64ec5e6af2a386d8f086cd1ecdca3a8cccd",
+    "metadata_sha256": "7bc8fa7b690c323ab00182fc89051c0c56e18a47237c434d5d84f773cde30b2e",
+    "structure_sha256": "79532adf3522f4aa0d7ecc3fb8c7c8763aa93d0251f23599cc08fcc941ad00b1",
+    "text_sha256": "df2a49f5ecc83eece69db3c02eb0a138860503694d69855f539dd4643b35f72d",
+    "translation_metadata_sha256": "29ec7142840acdec05f66e96b58b630f7a3291961a6db1249ec28efe1b8eea50"
+  },
+  "html": "<article data-article-id=\"4882c593-6c5b-46ec-8757-fcdd3ec40bb7\">\n<figure>\n<img src=\"/images/articles/4882c593-6c5b-46ec-8757-fcdd3ec40bb7-1.jpeg\" alt=\"Armed men leading a prisoner\">\n</figure>\n<p class=\"drop-cap\">Around 1556, there was in Beverwijk, a brother named Augustine, a baker by trade, who had forsaken the world, and been baptized upon his faith. At this same time there was a burgomaster who was very bitter, and was filled with perverted zeal. He would go about telling people that he would be glad to furnish the peat and wood out of his own money to burn Augustine the baker.</p>\n<p>The bailiff trying to appear just had said that he would not apprehend Augustine without previously warning him, but he did not keep his word. He came upon Augustine at a time when Augustine was at his work, kneading dough. When Augustine saw the bailiff he attempted to flee, but was instantly seized by his pursuers. Without mercy, Augustine was immediately thrown into prison.</p>\n<p>Because he was a man who was loved very much, it greatly grieved the bailiff’s wife. She said to her husband, “O you murderer, what have you done!” She tried to convince her husband to let him go but it was all in vain. Augustine had to follow his Lord Jesus, who went as a lamb is led to the slaughter.</p>\n<p>As he unwaveringly held to his faith, they passed a cruel sentence on him. He was to be tied to a ladder, and so thrown alive into the fire, and burnt. On his way to death he saw one of his acquaintances, to whom he said, “Farewell, Joost Cornelissen.” Joost, prompted by his good opinion of him, replied in a friendly manner, “I hope that we shall hereafter be together forever;” When the burgomaster heard this he quickly replied speaking as from a heart judging with partiality, “He will not get to the place whither you will go; but he goes from this fire into the eternal fire.”</p>\n<p>Then Augustine said to the burgomaster, “I cite you to appear within three days before the judgment seat of God.” As soon as the execution was over, the burgomaster was instantly smitten with a raging sickness, and continually cried with a guilty conscience, “Peat and wood, peat and wood!” so that it was terrible to hear; and before the three days had expired, he died. This was a great sign of the all-seeing eye of God, who would not suffer such cruelty to go unpunished.</p>\n<p>This is an example to all those who from obstinate blindness should commit such deeds. For it is often seen that those who think to do God service by exercising tyrannical cruelty over the pious, come to a bad end. The apostle James also says that they shall have judgment without mercy that have shown no mercy. May the Lord enlighten those who are in such blindness!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "aeff096a4bc987e0eb78d4be83591ebae58eb2abb045d6b32341136652148c52"
+}

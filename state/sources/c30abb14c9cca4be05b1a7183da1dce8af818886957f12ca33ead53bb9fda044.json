@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Timothy Dwight",
+          "role": "Words"
+        },
+        {
+          "location": null,
+          "name": "A. B. Everett",
+          "role": "Music"
+        }
+      ],
+      "raw": "Words by Timothy Dwight\nMusic by A. B. Everett"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "11b11932-7978-4944-8e7e-16e48c9aef1a",
+    "images": [
+      {
+        "alt": "Sheet music for I Love Thy Kingdom, Lord",
+        "caption": null,
+        "credit": "PDHymns.com",
+        "public_path": "/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png",
+        "repository_path": "public/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png",
+        "rights_note": "Printed page 32 identifies PDHymns.com as the score source; no separate permission notice or license terms are stated. Because the music is vector- and font-based rather than a clean embedded raster, only the published score region was rendered from the page at 300 dpi and saved as a 2250x2480 sRGB PNG; the score’s crop and orientation are preserved.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "I Love Thy Kingdom, Lord",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0af93df6d124ea01cd1c47a107797fc2b1b889f9d9a822204c632b2493e01ecc",
+    "metadata_sha256": "a9e70cc393345291751fa85d7d87be93975a0a38a0bebc25a952797a6e05ee61",
+    "structure_sha256": "7d1cd5c2f9ad55f137a6ffc62bf58097243c6797561fe4554fa2e9fe1829191a",
+    "text_sha256": "8f9222811f744a9ed26b675b7cfa6c284852600fee49b18f08008b820e6b196b",
+    "translation_metadata_sha256": "b238646bc7c84f92b8d7b98897524f72c550a5746e832e696eb998d4904f0bca"
+  },
+  "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"Sheet music for I Love Thy Kingdom, Lord\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>I love Thy kingdom, Lord,<br>\n    The house of Thine abode;<br>\n    The church our blest Redeemer saved<br>\n    With His own precious blood.<br>\n    I love Thy church, O God!<br>\n    Her walls before Thee stand,<br>\n    Dear as the apple of Thine eye,<br>\n    And written on Thy hand.</li>\n    <li>For her my tears shall fall,<br>\n    For her my prayers ascend;<br>\n    To her my cares and toils be giv’n,<br>\n    Till toils and cares shall end.<br>\n    Beyond my highest joy<br>\n    I prize her heav’nly ways,<br>\n    Her sweet communion, solemn vows,<br>\n    Her hymns of love and praise.</li>\n    <li>Jesus, Thou Friend divine,<br>\n    Our Savior and our King!<br>\n    Thy hand from ev’ry snare and foe<br>\n    Shall great deliverance bring.<br>\n    Sure as Thy truth shall last,<br>\n    To Zion shall be giv’n<br>\n    The brightest glories earth can yield,<br>\n    And brighter bliss of heav’n.</li>\n  </ol>\n\n  <p>Words by Timothy Dwight<br>\n  Music by A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0909973cbc1bb329a9158b8c472186d076cf2be0b1079ce7609876483c5ae70e"
+}

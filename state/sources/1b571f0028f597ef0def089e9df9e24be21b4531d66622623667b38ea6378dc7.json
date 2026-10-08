@@ -1,0 +1,68 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "9628060d-d00d-4897-958d-62665f77d507",
+    "images": [
+      {
+        "alt": "A mailbox on a flower-covered post.",
+        "caption": null,
+        "credit": null,
+        "height": 157,
+        "public_path": "/images/articles/9628060d-d00d-4897-958d-62665f77d507-1.png",
+        "repository_path": "public/images/articles/9628060d-d00d-4897-958d-62665f77d507-1.png",
+        "rights_note": "No separate image credit or licence is printed. Complete source PDF object 123; lettering and gray background are intrinsic to the sole mailbox raster. Separate rounded editorial reading-panel backdrop omitted.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "source_pdf_object": 123,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 98×157",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 98x157 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 98
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "559655a4adf36da13e4ed5284fe9e9654ee9e6c7c3cd037455e16a76bf5b9fb9",
+    "metadata_sha256": "0061f1c3df7be4fd9f0f92acb5eb6000787a61a12fcf9447ab59b1b6d2fcfee5",
+    "structure_sha256": "03a72e001c4ee6dfa9764bdfaa01601e56af50a88f437ad52bfd8d9de4f3f8e9",
+    "text_sha256": "d820c9f0c1baccd430dc00461edf990444e6682285bf9212a0ea8f4844bb04d5",
+    "translation_metadata_sha256": "fa45e9936d433bf3fc98cb66f47f27b3e608e089a62ddb4956906db032ccf6e1"
+  },
+  "html": "<article data-article-id=\"9628060d-d00d-4897-958d-62665f77d507\">\n  <figure>\n    <img src=\"/images/articles/9628060d-d00d-4897-958d-62665f77d507-1.png\" alt=\"A mailbox on a flower-covered post.\">\n  </figure>\n  <p>We thank God for the many letters of counsel and encouragement we have been receiving. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. We would love to hear from you in any of the following ways:</p>\n  <ul>\n    <li>A meaningful lesson in family devotions that you can pass on to other fathers.</li>\n    <li>A testimony for <em>The Blessing Corner</em> of when you found God’s blessing in some area of obedience.</li>\n    <li>A question that can be answered to the edification of all.</li>\n    <li>An area of spiritual growth, obtained by one of the exercises suggested in the magazine.</li>\n    <li>A word of encouragement or counsel about <em>The Remnant</em>, or any section of it.</li>\n  </ul>\n  <p><em>Waiting to hear… --The Editors</em></p>\n  <section>\n    <p>As a father I have appreciated the new format of the Remnant. The segments on home histories have been an inspiration to me to be consistent and faithful in my leadership in the home. It has also given me a greater vision of what God would have my home and family look like. Thank you!</p>\n    <p><em>Bellingham, WA</em></p>\n  </section>\n  <section>\n    <p>We enjoy the Remnant very much. We find many of the articles encouraging and helpful in remaining faithful to God and living a separated lifestyle when many people we know feel separation is not necessary. God bless your ministry!</p>\n    <p><em>Middletown, PA</em></p>\n  </section>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>We have found the “new” magazines to be excellent. The book reviews have been very helpful. We are reading (and re-reading) both <em>The Calvary Road</em> and <em>The Release of the Spirit</em>. Although we have been believers for over twenty years, we have never been taught this concept of godly brokenness. These two books and some tapes from CGTM have been a real help. The Lord is using them to draw my family and I closer to Himself.</p>\n    <p>The study on Meekness 101 (Nov/Dec 2000, pg. 29) was also helpful. We used it for our family devotions. It is not an easy lesson to put into practice, especially for our younger ones, but it is a good start for them.</p>\n    <p>We are part of a two family house church. All ages participate in the meeting together. We celebrate the Lord’s table as part of a full meal. Meeting this way has helped us grow spiritually a great deal. We are praying that the Lord will lead other families who have a real zeal for the Lord to join us.</p>\n    <p>Thank you for your ministry to us via tapes and the magazine.</p>\n    <p><em>Plainfield, CT</em></p>\n  </section>\n  <section>\n    <p>I very much enjoy the book reviews and home histories. I have ordered the books that are highlighted in these sections and use them for devotions and/or homeschool studies.</p>\n    <p><em>Lake Elsinore, CA</em></p>\n  </section>\n  <section>\n    <p>Thank you, thank you, thank you! There are no publications out there like yours. It is godly and hard-hitting in self-denial and unworldliness. It is also a tremendous encouragement to persevere in raising large Christ centered families for the Lord’s glory and service. Great job and well done!</p>\n    <p><em>Hamlin, NY</em></p>\n  </section>\n  <section>\n    <p>Thank you so much for your inspiring magazine <em>The Heartbeat of the Remnant</em>. The Lord has encouraged me to step back and allow my husband to lead. As a result of reading the two articles you had on this subject for the sisters, I have been motivated to continue stepping back. Any more of this type of article would be greatly appreciated. It is the first thing I look for each time I receive your magazine. God has used the articles for our spiritual growth. Keep up the good work!</p>\n    <p><em>Methuen, MA</em></p>\n  </section>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>I want to thank you so much for the small article Brother Denny wrote warning about C.S. Lewis (Sep/Oct 2001, pg. 19). We have always steered others away from his writings. I did not know all of what Brother Denny pointed out, but I did some research on him after a woman in our church asked my husband and I about his books. I knew we never let our children read them, but I did not have a real factual answer for her. I went to the library in search of information. I found a book that contained letters between C.S. Lewis and J.R. Tolkien. I have discovered that they were very good friends, and they had an “authors club” that met weekly at the local tavern. During the time C.S. Lewis was writing <em>Mere Christianity</em>, he was holding local seances in his own home… Now I had some concrete proof for this lady, along with my own conscience and leading of the Holy Spirit, to stay away from this author and those kinds of books. I really enjoyed your article, for it opened up even more information. Because my husband is a pastor as well, it will be great to keep on hand for future reference.</p>\n    <p>We love your magazine. It is very uplifting and encouraging. We are also praying for the new church in Ephrata, that God would continue to bring souls into His kingdom!</p>\n  </section>\n  <section>\n    <p>Dear Remnant,</p>\n    <p>I winced a bit when I saw a picture of a monk on the back cover of the last Remnant and the poem by Francis of Assisi. He was a Roman Catholic, and some of his doctrines were off. I would encourage the editor to be more careful in what he selects to publish in the magazine.</p>\n    <p><em>Dear Reader,</em></p>\n    <p><em>Sorry about the offense. I know Francis was part of the Roman church of his day; however, he was always pushing for reform. He is listed as part of the pilgrims in the </em>book The Pilgrim Church.<em> I saw him as part of the remnant of his day, coming out of the dark ages. We will endeavor to be more careful as we search for material. Pray for us. The task is great, and some times we do not have enough time.</em></p>\n    <p><em>--The Editor</em></p>\n  </section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "bab8430a933dfd9e5359795c8bbfa8b12e68e738c14b69d58ee9e9faf8c59431"
+}

@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro Denny"
+        }
+      ],
+      "raw": "-Bro Denny"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "7700e13c-f4c7-4e5f-9258-9b024ceec66f",
+    "images": [
+      {
+        "alt": "A lighthouse above clouds and waves.",
+        "caption": null,
+        "credit": null,
+        "height": 94,
+        "public_path": "/images/articles/7700e13c-f4c7-4e5f-9258-9b024ceec66f-1.jpg",
+        "repository_path": "public/images/articles/7700e13c-f4c7-4e5f-9258-9b024ceec66f-1.jpg",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. Embedded object 97 at full native 161×94 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": "Embedded object 97 at full native 161×94 resolution and source orientation; normalized baseline sRGB JPEG, 72 dpi, no CMYK/inversion or spatial change. Source JPEG contained 1 trailing newline byte after EOI and no JFIF density; normalization removes trailing data and supplies nonzero 72 dpi density.",
+        "verification": {
+          "browser_compatible_render": "All pixels decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D; resulting white-background gallery visually inspected",
+          "full_decode": "Pillow raster load and independent ImageMagick complete RGBA decode, both without warnings",
+          "visual_against_source": "Raw source object, published page appearance and final export visually inspected at native useful resolution; clipping/paint order/overlay dispositions audited"
+        },
+        "width": 161
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 26
+    },
+    "subtitle": "Who Are They?",
+    "title": "The Remnant",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "a3f151b7d9fa543f9481cdc1b4cb971854ec0f486fdf489959ecdd0859c879c2",
+    "metadata_sha256": "dfd7705bd68f09dd3c8a6807a3ff992fd8bc7b8a9d98f3f881c1c9fba9a8aa2a",
+    "structure_sha256": "1cd8c97808d2bbddf8fec8360f3caa8bdf84f45ff6c2cc1b70643d6db5b4bc30",
+    "text_sha256": "aee95ada1ef790c1ee49dfe6969a46a217a18823949342588d0e3e8cbaf9c0aa",
+    "translation_metadata_sha256": "3d5345cc0056146c77389d799c13838e6453d327c2340bc56e365945dd05923f"
+  },
+  "html": "<article data-article-id=\"7700e13c-f4c7-4e5f-9258-9b024ceec66f\">\n  <figure>\n    <img src=\"/images/articles/7700e13c-f4c7-4e5f-9258-9b024ceec66f-1.jpg\" alt=\"A lighthouse above clouds and waves.\">\n  </figure>\n  <p>As I sat down to read my E-mail letters that came in through the last week, I came upon a very familiar letter. The address of the writer was different, but the content of the letter read like a carbon copy of the same letter I have read hundreds of times. Here is an example of what we read:</p>\n  <blockquote>\n    <p><em>Dear Charity Ministries,<br>\n    My name is _____. I received a copy of the Godly Home tapes from a friend of mine. I cannot begin to tell you how they have affected me and my family. I could not hold back the tears as I listened to the sound teaching on the home. As I listened, I said in my heart, “I’m not crazy; there are other people who feel like I do about my children, and the church, and the Bible.” Please help me, I don’t know what to do. We have visited church after church in our community, but we just can’t get peace about going to any of them. The music, the worldly youth department, and the general compromise on clear issues in the Bible stop us short each time. We are now sitting at home, and listening to tapes on Sunday, but I know this is not the way it should be. Please help me, I don’t know what I should do. Can you give us some counsel?”</em></p>\n  </blockquote>\n  <p>It seems there is a stirring of God among many believers in this land we live in. They are beginning to take a fresh look at what Christianity is and what it is suppose to be. It seems that we are living in the last of the last days before Jesus returns for His bride. The Holy Spirit through the Apostle Paul warned us that in the last days there would be a departing from the faith. That men would not endure sound doctrine, but turn away their ears from the truth. I know we need revival, and that many are praying for it. I am one who is also praying for a move of God upon the failing churches in this land, and upon my own heart. However, could it be that maybe this is part of the falling away that Paul wrote about?</p>\n  <p>This departure from the true and right, will naturally cause the true and sincere to struggle with how to fit into the confusing, compromising church of today. If there is a falling away, then there also must needs be a coming out that moves right along side of it. I don’t write this to offend anyone. I don’t write this to say some have arrived and the others are second class citizens. I have a broad view of the body of Christ. But the body of Christ must be His beloved bride. Many are questioning whether the church at large is in fact His beloved bride. There are a growing number of families ( into the thousands by now) who weep and struggle and search for reality, both inward and outward. Their stories in this struggle are very much the same. We have given them a name because we meet so many who are just exactly alike. We call them the Remnant, which literally means a surviving portion. You could just as easily call them the Pilgrim Church, as Broadbent did in the Book review in this issue. What name we give them doesn’t really matter. The important thing is that we recognize the mysterious hand of God stirring a multitude to return to some measure of biblical Christianity. I meet them by the hundreds as I travel. They are very much alike, though they do not know each other. Let me share with you some of their likenesses.</p>\n  <ul>\n    <li>They have a deep burden for their children. God has supernaturally turned the hearts of the fathers to their children, and many other major changes have taken place because of that.</li>\n    <li>They are returning to God’s revealed order for the home. The husband is the head, and leads out. The wife submits to her husband, and wants it to be so. The children obey their parents in all things, and find delightful blessings in doing this.</li>\n    <li>They have a literal, and practical view of the Bible. What the Bible says must be obeyed, and lived out in everyday life. They are hearers and doers of the Word.</li>\n    <li>They are mostly home-schooling families. This turning of the heart to the children has caused many to take up the rigorous task of schooling the children at home. Many of them got caught by choosing to educate their own at home. They found their hearts deeply committed to the task of raising up a godly seed.</li>\n    <li>They long to walk with God more deeply. This longing has caused many to withdraw a bit from the fast pace of American life, slow down, and turn aside to seek the Lord.</li>\n    <li>They are weary of the worldly mixture they find among professing Christians. Rock music, punk christians, blue hair, and nose rings are not in their portfolio of what a Christian is. To try to have intimate communion with this adulterous mixture is a grief to them.</li>\n    <li>They are taking a second look at materialism and riches. The American dream is to them a foolish illusion that never satisfies. Many are leaving the cities to find jobs more suitable for family work, etc.</li>\n    <li>They have taken a fresh look at what the Bible says about modesty and sensuality. The display of the female form for all to see is no longer an option for them or for their daughters. Most of the time I can spot these people by this point alone. It is a mystery to me, because they are not being taught most of this, but learn it on their own, by the Holy Ghost.</li>\n    <li>They are very careful about the marriage of their children. No more just falling in love to who knows what, and then a life time of heartache and conflict.</li>\n    <li>They identify with the simple persecuted brethren around the world, and long for the pure flow of the Holy Spirit that these lowly saints are experiencing.</li>\n  </ul>\n  <p>So, who are they, what is their name? Waldenses, Albigenses, Hussites, Protestants, Anabaptists, Huguenots, Nonconformists, Moravians, and the list goes on and on. As the Spirit of Christ broods over the world stirring and drawing out a people who will love Him with all their heart, and walk in His ways. Where are you? Do you know who you are? Are you one of those lonely ones who have been told that you have gone off the deep end. Let me give you some counsel? Get a copy of the Pilgrim Church, the book featured in the Book Review of this issue. Read it carefully, read it prayerfully. You may find out who you are in that book. I Did!!</p>\n  <p><em>-Bro Denny</em></p>\n  <blockquote>\n    <p><em>The Remnant that is escaped,<br>\n    shall take root downward and bear fruit upward.<br>\n    Out of Zion shall go forth a Remnant,<br>\n    The zeal of the Lord of hosts shall do this.<br>\n    Wherefore, lift up thy prayer for the Remnant,<br>\n    That is left.</em></p>\n    <p>Is. 37:31,32,4 adapted</p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "86fe12b56d705cad617a7858e151dbddac0ea8186ecf0c20d763aeedee65c11a"
+}

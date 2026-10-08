@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "RLK"
+        }
+      ],
+      "raw": "-RLK-"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f53bd262-dbd0-4792-9e75-7f3ccfa520d5",
+    "images": [
+      {
+        "alt": "Illustration of a person resting in a hammock beneath trees beside a house",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f53bd262-dbd0-4792-9e75-7f3ccfa520d5-1.jpg",
+        "repository_path": "public/images/articles/f53bd262-dbd0-4792-9e75-7f3ccfa520d5-1.jpg",
+        "rights_note": "Clean original DeviceGray JPEG object 46, 360 × 227 pixels, with no soft mask. Page-content object 45 paints the gray page panel and rounded decorative border separately, then the unmasked rectangular image; poem text, title, byline, page panel and border are omitted from the image export. Source raster already has a gray background, retained exactly as source artwork rather than removed or retouched. Converted grayscale to real RGB and normalized as a baseline sRGB JPEG at quality 95 with 96 dpi density to remove the original trailing byte after EOI; dimensions, crop and orientation preserved. No CMYK sample inversion was needed. No printed artist/source credit, separate reuse restriction or licence is stated.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "No Rest",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8e7dfdc5ade55ee30560771b8037c5475803853b707a8bc7b5d771f1f5743d91",
+    "metadata_sha256": "05e5347d976f63bc875f58ab26a716ba5434181f3c9476dcc75d19cc261f544f",
+    "structure_sha256": "5b9455a8ff7f24ef65900e982e340677ace056402a7c99bd3855ae4addd86a85",
+    "text_sha256": "942889e49fda12b65f1187db77affd0823fad251c65b071136c1a99a3947e352",
+    "translation_metadata_sha256": "ed3ee95639bd0f32e8192d854fb8d826e8fed0ffaccc29d6f781830910eed23c"
+  },
+  "html": "<article data-article-id=\"f53bd262-dbd0-4792-9e75-7f3ccfa520d5\">\n  <p class=\"poem\">My soul is not at rest within,<br>My heart for action calls,<br>For I have seen the chains of sin,<br>Have shuddered at its galls.</p>\n  <p class=\"poem\">The vows of God upon my life,<br>Constrain all strength and nerve.<br>His call has pierced me as a knife;<br>Him only will I serve!</p>\n  <p class=\"poem\">The voice of loved ones, freedom, fame,<br>Have all grown strangely dim;<br>My heartís desireís now informed,<br>To fully follow Him!</p>\n  <p class=\"poem\">He was a man of sorrows, grief<br>His footsteps now I trace;<br>Dare I search out selfish relief,<br>While He has run the race?</p>\n  <p class=\"poem\">But, no! I too shall fight the fight<br>Which He has planned for me!<br>No matter what the cost of right,<br>Eíen this my cause shall be:</p>\n  <p class=\"poem\">To tell of all His wondírous love,<br>Salvationís call so free.<br>And point souls to my Lord above<br>Whoís done so much for me.</p>\n  <p class=\"poem\">You think it as a sacrifice<br>To leave this secure land,<br>Forsaking comforts oh, so nice<br>And houses which are grand;</p>\n  <p class=\"poem\">But I am thinking of my Lord<br>Who left His deity,<br>Upon the ground His blood was poured<br>Purchased salvation free.</p>\n  <p class=\"poem\">So someday, in a far-off land<br>My dying eyes Iíll lift,<br>To gaze on Africís burning sand,<br>My life lay downóa gift.</p>\n  <p class=\"poem\">Then when on heavenís golden shore<br>The natives sing His praise;<br>My heart with joy shall swell yet more<br>And there thanksgiving raise!</p>\n  <figure>\n    <img src=\"/images/articles/f53bd262-dbd0-4792-9e75-7f3ccfa520d5-1.jpg\" alt=\"Illustration of a person resting in a hammock beneath trees beside a house\">\n  </figure>\n  <p><strong>-RLK-</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2e748ca2ba4b287ae88ff6a0b46dd49783b1db9dd592bce7cecd1d12e974cb04"
+}

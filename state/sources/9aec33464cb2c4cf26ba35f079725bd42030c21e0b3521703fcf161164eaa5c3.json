@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Denny Kenaston"
+        }
+      ],
+      "raw": "Bro Denny"
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "add9320f-0a3f-4c98-ad34-edc4f2113115",
+    "images": [
+      {
+        "alt": "People standing in a queue beside a ticket counter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/add9320f-0a3f-4c98-ad34-edc4f2113115-1.jpg",
+        "repository_path": "public/images/articles/add9320f-0a3f-4c98-ad34-edc4f2113115-1.jpg",
+        "rights_note": "Clean source image object 44; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            323,
+            228
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            323,
+            228
+          ],
+          "source_object": 44,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "Is “THE PASSION” Expressing God’s Passion?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3b79c99f67dfb0c2cf0c9d22bd8a2913348c71384bead7f2414c176dc0692e71",
+    "metadata_sha256": "a055d70e88360bea7ce1dac39ae097b762bba5695a00d14de1d15e2b1fe8bc22",
+    "structure_sha256": "7c95d4548ce1d42905d437d6061cfde9421e32829a232607543430449bcf9905",
+    "text_sha256": "18974135ca33f8ed007a3d9a01a7c7efd24618f8324737e041eeaba2f3f0aee3",
+    "translation_metadata_sha256": "4553b1698020954ede126812a0bfff13ab4d2f756212b5843b4acb01e6529258"
+  },
+  "html": "<article data-article-id=\"add9320f-0a3f-4c98-ad34-edc4f2113115\">\n  <p>American Christianity is buzzing with questions, debates, and reviews about Mel Gibson’s latest blood and guts movie. Many are asking, “Should I go to see it, or is it right to go to the theater and watch this movie?” I myself have been quite intrigued with the “conservative Christian” response to this movie. I have been shocked at how many Christian leaders have gone to see the movie, so they can “answer all the questions” that come to them. I think that most of our readers already know how I feel about such a sacrilegious display of the holiest scenes in human history. However, it seems like a fitting time to pay my respects to movies, and the dangers of drama one more time.</p>\n  <p>I too have been bombarded with questions about the right and wrong of this movie, and whether a sincere God fearing Christian should go to it. We on the editorial staff found this old article written by A W Tozer over fifty years ago, and thought its content is worth reading in 2004. Tozer was right on, fifty years ago, and much more so today. We have selected a few pages out of the entire article and placed them below for your meditations.</p>\n  <p>I read an article recently that said preachers must make the multi-media adjustments to their ministries, or they will soon have no people listening to their sermons. Oh, how far we have fallen. I for one agree with John Wesley who said, “If the preacher is full of the fire of God, then people will gather just to watch him burn.”</p>\n  <p>Maybe my thoughts are too late for some of you, but I feel moved by the Lord to sound the alarm anyway. If you are still halting between two opinions, here are my thoughts about the movie.</p>\n  <p>The Passion of the Christ is not an accurate scriptural account of Christ’s passion recorded in any of the translations of the Bible. Christ was not beaten all the way to Calvary. Simon and Jesus did not jointly carry the cross. Mary did not wipe up the blood of Christ after He was beaten. Moreover, Jesus did not pray because he was afraid to go to the cross, He prayed in agony. All these things and more were added, to make the movie more interesting. Drama has to do this to make a “good” movie.</p>\n  <figure>\n    <img src=\"/images/articles/add9320f-0a3f-4c98-ad34-edc4f2113115-1.jpg\" alt=\"People standing in a queue beside a ticket counter\">\n  </figure>\n  <p>There is no preaching in the movie. It seems to me, if the producer’s burden was to reach the lost, he would have found a creative way to put a clear gospel presentation in it. We all know that this kind of activity will cut way down on the Box Office figures. Let us remember God’s heart has not changed, “It pleased God by the foolishness of preaching to save them that believe.” (I Cor. 1:21b)</p>\n  <p>Hollywood is Hollywood. It is rotten to the core. Satan has used the movie industry to defile generations of Americans as well as others in the rest of the nations. Don’t give Hollywood a dollar of support even if one movie has some good in it. You will see more movies like this one, because the producers are learning they can lure the conservatives into the theaters with “good movies.” Money is the name of the game. Let us remember the foundation of Hollywood is sex, rape, murder, and violence, we Christian’s should have nothing to do with any of it.</p>\n  <p>The movie is packed full of emotions, but has very little conviction which comes as the Spirit of God convicts people of their need of repentance. Many people come out of the theaters weeping, but remember, they do the same thing with every other touching movie. Emotions are deceitful. They make you feel very spiritual, but if the will does not change, the life will not change. We need some good old fashion discernment. Many Christians today are calling emotional feelings “the Spirit of God.” This is a very dangerous deception. They are doing it in the worship service as well. Lots of mushy songs of “I love you Lord” bring deep feelings of emotion. However, that is not the Spirit of God.</p>\n  <p>The world is running after this movie in mass. It is making multiplied millions for all who are involved. This spells danger to me. That which is highly esteemed among men is an abomination to God. Why does the world enjoy something that is supposed to be so spiritual? Maybe it is not as holy as we think it is. If this movie were a holy, heavenly anointed presentation of the passion of Christ, it would convict people of their sin, rebellion, and unbelief. If the movie did in deed convict them, they would not want to go there, just like they don’t want to go to church.</p>\n  <p>Drama is drama. It is play-acting. The people involved in the movie are living and acting out lies. They are playing parts, that are absolutely not who they are in real life. This is the greatest problem with drama. It is unreal people acting out hypocrisy. In the case of “The Passion of the Christ,” it is the ultimate hypocrisy. Who would dare to play the part of our Holy God dying for the sins of humanity? This is sacrilegious.</p>\n  <p>This movie is causing sincere conservative Christians to compromise, and step over the threshold of the movie theater for the first time in their life. Multitudes have done this. I know they had twinges of conviction as they walked through the door, and sat down in the seats for the first time. This is probably the greatest grief to me. They have soothed their crying conscience by saying it is a “good movie about Christ.” Preachers have done this. Good men who have stood for right many years are doing this. They are justifying their actions by saying they need to know how to answer the many questions that come.</p>\n  <p>I fear this movie will make the multitudes love another Jesus with a fuzzy kind of love that does not require repentance or commitment. If the whole worldly world and the religious world are “in love with this Jesus” this can easily prepare the way for another Christ whom the Bible calls the Anti-Christ.</p>\n  <p>Lastly, the movie opens the door for more ecumenical activities between Catholics and Protestants. Where is our discernment? So Mel Gibson is a “Conservative Catholic,” he is also a Hollywood producer who has filmed hours of sex, violence and rebellion. Would the real Christians please get some clear discernment about these things?</p>\n  <p>Well, there are many other points that could be added to these nine points, but I think this is enough for anyone who is sincerely seeking God’s direction about the latest movie. Consider some of Tozer’s thoughts written fifty years ago.</p>\n  <p><em>Bro Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0bace8510a80c9a48c23d24b04fd9f58f25837c8896c6af965b8ba74285a3562"
+}

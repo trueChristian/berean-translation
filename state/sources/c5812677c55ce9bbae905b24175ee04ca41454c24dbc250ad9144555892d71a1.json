@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Viola J. Berg"
+        }
+      ],
+      "raw": "~Viola J. Berg"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "594e6de0-71ae-4367-8d81-2ae37c93b98b",
+    "images": [
+      {
+        "alt": "line illustration of an adult and child",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/594e6de0-71ae-4367-8d81-2ae37c93b98b-1.jpg",
+        "repository_path": "public/images/articles/594e6de0-71ae-4367-8d81-2ae37c93b98b-1.jpg",
+        "rights_note": "No image-specific separate-permission notice or credit is printed. Clean embedded PDF image #18; Adobe grayscale sample inversion to reproduce printed image. Exported as web-compatible RGB/sRGB JPG; JPEG normalized at 150 dpi where applicable.",
+        "role": null,
+        "sequence": 1,
+        "source_page": 14
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "As Jesus Loved",
+    "topics": [
+      "64af4c5a-115b-50b0-ae07-5d75a56b13aa",
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "4f8e92de-9740-5a2b-8710-dc4584da68da"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6d79a37a18df85ba30f2e3f6a59a169ffc90f66d5e2268b945da05f1f94b7725",
+    "metadata_sha256": "922fc0c228e9050a935dd7d74469ea8238810ead581691d31938076e48b13b53",
+    "structure_sha256": "6a77c7f0b85697425fbfade6271d615fe6c6d0345ebe38b788b3e496ee119d3e",
+    "text_sha256": "62bfda263941fe0f4ffbb74c4745e1dfc44393ed59b812e30a9c4c351370e260",
+    "translation_metadata_sha256": "4c9996a10d5e577b3dad6102b60b20417fd7ee4c4801a75aafca0f5fa4212122"
+  },
+  "html": "<article data-article-id=\"594e6de0-71ae-4367-8d81-2ae37c93b98b\">\n  <figure>\n    <img src=\"/images/articles/594e6de0-71ae-4367-8d81-2ae37c93b98b-1.jpg\" alt=\"line illustration of an adult and child\">\n  </figure>\n\n  <p class=\"poem\">I thought I knew how to love<br>\nbut I found<br>\nthat I really didn’t.<br>\nI was just giving my love<br>\nto those who loved me back—<br>\n&nbsp;&nbsp;&nbsp;&nbsp;to the clean children,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the respectable folk,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the well-behaved teenagers,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the obedient ones;<br>\nbut I didn’t have any real feeling<br>\nfor the runny-nosed dirty child<br>\n&nbsp;&nbsp;&nbsp;&nbsp;next door,<br>\nor for the quarrelsome old man<br>\n&nbsp;&nbsp;&nbsp;&nbsp;across the street<br>\n&nbsp;&nbsp;&nbsp;&nbsp;who played his radio<br>\n&nbsp;&nbsp;&nbsp;&nbsp;so maddingly loud.<br>\nSo God had to admonish me—<br>\n&nbsp;&nbsp;&nbsp;&nbsp;and He did.<br>\nHe showed me to my shocked surprise<br>\nthat I was passing by<br>\non the other side,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;that I wasn’t really walking<br>\n&nbsp;&nbsp;&nbsp;&nbsp;in His footsteps at all;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;because when Christ<br>\nlived on our earth<br>\n&nbsp;&nbsp;&nbsp;&nbsp;He ate with publicans,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and sinners,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;He talked with the woman<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at the well,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;He humbly washed<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;His disciple’s feet,<br>\nand He loved sinners everywhere-<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the tax gatherers<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the prostitutes,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the doubters,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the hungry,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;the untouchables of His day,<br>\nHe loved them all.<br>\nThrough my tears I saw<br>\nthat I was not really following Him at all;<br>\nand then I understood<br>\nthat if I wanted to be His disciple<br>\n&nbsp;&nbsp;&nbsp;&nbsp;and bear His name,<br>\nI must be willing to give up<br>\n&nbsp;&nbsp;&nbsp;&nbsp;my selfish convenient little world<br>\n&nbsp;&nbsp;&nbsp;&nbsp;and mingle with the lost ones—<br>\n&nbsp;&nbsp;&nbsp;&nbsp;minister to their needs,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;heal their wounds,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;share their sorrows,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;and offer a cup of water<br>\n&nbsp;&nbsp;&nbsp;&nbsp;in His name.<br>\nI must love as Jesus loved;<br>\nfor unless I do,<br>\nhow are the lost and lonely ones<br>\n&nbsp;&nbsp;&nbsp;&nbsp;around me<br>\ngoing to believe<br>\n&nbsp;&nbsp;&nbsp;&nbsp;that God loves them—<br>\n&nbsp;&nbsp;&nbsp;&nbsp;if they cannot see<br>\n&nbsp;&nbsp;&nbsp;&nbsp;His love in me?<br>\nHow, tell me,<br>\nhow are they ever<br>\ngoing to know?</p>\n  <p>~Viola J. Berg</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "aad921ec68edfd469d75ca4d175beab0aade592bea3897f2be6f02b4ace663fd"
+}

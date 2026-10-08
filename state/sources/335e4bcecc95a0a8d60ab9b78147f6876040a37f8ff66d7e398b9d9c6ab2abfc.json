@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "from The Martyrs Mirror"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "4555ea49-c56e-4ed0-8a16-634587cf9ba1",
+    "images": [
+      {
+        "alt": "Dirk Willems reaching toward a man who has fallen through the ice.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4555ea49-c56e-4ed0-8a16-634587cf9ba1-1.jpg",
+        "repository_path": "public/images/articles/4555ea49-c56e-4ed0-8a16-634587cf9ba1-1.jpg",
+        "rights_note": "Original embedded image object 65 on printed page 19; raw object, page paint order, clipping and graphics state inspected. Clean base engraving excludes separately painted border and drop shadow. No image-specific credit or reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying which images; no individual attribution or licence is inferred. No generation, inpainting, cloning, healing or material retouching was used.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 19,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original DeviceGray JPEG expanded to RGB without changing the grayscale values; standards-normalized baseline sRGB JPEG with nonzero 72 dpi density.",
+          "omitted_layout_overlays": [
+            "border and drop shadow",
+            "page furniture"
+          ],
+          "output_dimensions": [
+            216,
+            174
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            216,
+            174
+          ],
+          "source_object": 65,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final encoded file fully decoded, painted and read back; browser-rendered PNG opened and visually compared with the source object and published PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "This unchanged image was independently opened and compared with the rendered PDF and raw source object at initial extraction. Composition, crop, orientation, colour and integrity passed. Source-pixel correspondence, allowing the documented colour/crop transformation and high-quality JPEG recompression, was independently checked; no discrepancies remain.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e2fda69-4f9b-450f-815c-39c3200bb634",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        19,
+        33
+      ],
+      "start": 19
+    },
+    "subtitle": "1569\nA beautiful testimony of nonresistance\ntaken from The Martyrs Mirror.",
+    "title": "DIRK WILLEMS",
+    "topics": [
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "9bb25764-72c4-5ffa-98de-ea207fdbe27f",
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "177624e926ca55bf67f2a48995f107793c49c2651a39116ea8157a1fce1369fb",
+    "metadata_sha256": "2c3bf091e187482874a5ac6cc39e832b6aa4cff1abe6984dd3ef2c2c96b757f9",
+    "structure_sha256": "b50b47ba3cc620bd56503c3905efc002c17b3df214e6c7f24cd9cea73ac14cc7",
+    "text_sha256": "197c1ef55d7d44e6232c1774a8aca32b2fac2582995a3dbbdd678e2626932536",
+    "translation_metadata_sha256": "20dd25d1839e3235677b999c2514d781b367a563b0ff4a2bb908bd30eca5bf34"
+  },
+  "html": "<article data-article-id=\"4555ea49-c56e-4ed0-8a16-634587cf9ba1\">\n  <figure><img src=\"/images/articles/4555ea49-c56e-4ed0-8a16-634587cf9ba1-1.jpg\" alt=\"Dirk Willems reaching toward a man who has fallen through the ice.\"></figure>\n  <p>In the year 1569 a pious, faithful brother and follower of Jesus Christ, named Dirk Willems, was apprehended at Asperen, in Holland, and had to endure severe tyranny from the papists (Roman Catholics.) But as he had founded his faith not upon the drifting sand of human commandments, but upon the firm foundation stone, Christ Jesus, he, notwithstanding all evil winds of human doctrine, and heavy showers of tyrannical and severe persecution, remained immovable and steadfast unto the end; wherefore, when the chief Shepherd shall appear in the clouds of heaven and gather together His elect from all the ends of the earth, he shall also through grace hear the words, “Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things; enter thou into the joy of thy Lord.” I Pet. 5:4; Matt. 24:31; 25:23.</p>\n  <p>Concerning his apprehension, it is stated by trustworthy persons, that when he fled he was hotly pursued by a thief-catcher, and as there had been some frost, said Dirk Willems ran before over the ice, getting across with considerable peril. The thief-catcher following him broke through, when Dirk Willems, perceiving that the former was in danger of his life, quickly returned and aided him in getting out, and thus saved his life. The thief catcher wanted to let him go, but the burgomaster, very sternly called to him to consider his oath, and thus he was again seized by the thief-catcher, and, at said place, after severe imprisonment and great trials proceeding from the deceitful papists, put to death at a lingering fire by these bloodthirsty, ravening wolves, enduring it with great steadfastness, and confirming the genuine faith of the truth with his death and blood, as an instructive example to all pious Christians of this time, and to the everlasting disgrace of the tyrannous papists.</p>\n  <p>NOTE: In this connection, it is related as true from the trustworthy memoirs of those who were present at the death of this pious witness of Jesus Christ, that the place where this offering occurred was without Asperen, on the side of Leerdam, and that, a strong east wind blowing that day, the kindled fire was much driven away from the upper part of his body, as he stood at the stake; in consequence of which this good man suffered a lingering death, insomuch that in the town of Leerdam, towards which the wind was blowing, he was heard to exclaim over seventy times, “O my Lord; my God,” etc., for which cause the judge or bailiff, who was present on horseback, filled with sorrow and regret at the man’s sufferings, wheeled about his horse, turning his back toward the place of execution, and said to the executioner, “Dispatch the man with a quick death.” But how or in what manner the executioner then dealt with this pious witness of Jesus, I have not been able to learn, except only, that his life was consumed by the fire, and that he passed through the conflict with great steadfastness, having commended his soul into the hands of God.</p>\n  <p>As we have come into possession of the sentence which these rulers of darkness passed upon this friend of God, we have deemed it well, to add it here for the benefit of the readers, in order that reading the same, they may be able to perceive the truth of this matter.</p>\n  <p>COPY: Whereas, Dirk Willems, born at Asperen, at present a prisoner, has, without torture and iron bonds (or otherwise) before the bailiff and us judges, confessed, that at the age of fifteen, eighteen or twenty years, he was rebaptized in Rotterdam, at the house of one Pieter Willems, and that he, further, in Asperen, at his house, at divers hours, harbored and admitted secret conventicles and prohibited doctrines, and that he also has permitted several persons to be rebaptized in his aforesaid house; all of which is contrary to our holy Christian faith, and to the decrees of his royal majesty, and ought not to be tolerated, but severely punished, for an example to others; therefore, we the aforesaid judges, having, with mature deliberation of council, examined and considered all that was to be considered in this matter, have condemned and do condemn by these presents in the name; and in the behalf, of his royal majesty, as Count of Holland, the aforesaid Dirk Willems, prisoner, persisting obstinately in his opinion, that he shall be executed with fire, until death ensues; and declare all his property confiscated, for the benefit of his royal majesty. So done this 16th of May, in presence of the judges: Cornelis Goverts, Jan van Stege Jans, Adriaen Gerritts, Adriaen Jans, Lucas Rutgers, Jan Jans, and Jan Roefelofs, A. D., 1569.</p>\n  <p>Extracted from the records of the town of Asperen, and after collation this copy was found to agree [with the original], the 15th of October 1606. Acknowledged by me, the town clerk of Asperen.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ea7a614a1e9d033f6c9e309c7472813f2baad5cff70216aded282159dcdbd7ab"
+}

@@ -1,0 +1,78 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "near Denver, PA",
+          "name": "Jeremiah Stump",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Anon.",
+          "role": null
+        }
+      ],
+      "raw": "Jeremiah Stump - 2010 (1994 -     )\nAnon."
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "0d0d5884-baa0-4a6d-8bd6-e68853060e6e",
+    "images": [
+      {
+        "alt": "Sheet music and five verses of Trust in God by Jeremiah Stump.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-1.jpg",
+        "repository_path": "public/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-1.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Printed music score and lyrics",
+        "sequence": 1,
+        "source_page": 35
+      },
+      {
+        "alt": "Jeremiah Stump seated in front of a stone wall.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-2.jpg",
+        "repository_path": "public/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-2.jpg",
+        "rights_note": "Joined two original RGB raster pieces at PDF coordinates, preserving all source pixels except overlap; baseline RGB JPEG. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Songwriter portrait",
+        "sequence": 2,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Trust in God",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9f96acc9eeadab62e6c2dddb6abe0cc8cc41a8ad2966e10c6f6a16be1387ce1d",
+    "metadata_sha256": "0d883bb2d6d605812a5f4ca4ae7bb0fbc90ea83d8772fe2ea96264e966b34d1a",
+    "structure_sha256": "0897c51bfb0e1feb509f5b7e598b823e09bf74c33a73fbcb65e48c597073a581",
+    "text_sha256": "7a168ede6a87481a539fbad4fcf4acdeb6cb9e7add38ea9d81dc51f2e02a0673",
+    "translation_metadata_sha256": "81ea1c049039c9a869459d3fe950074138e0b2c5d9993e4451b593dfa6d22864"
+  },
+  "html": "<article data-article-id=\"0d0d5884-baa0-4a6d-8bd6-e68853060e6e\">\n  <figure><img src=\"/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-1.jpg\" alt=\"Sheet music and five verses of Trust in God by Jeremiah Stump.\"></figure>\n  <p>Jeremiah Stump lives near Denver, PA with his parents Dean and Vera Stump and his six siblings. Concerning the birth of this song (which was originally written as a poem, but was set to music with some minor changes to the wording), Jeremiah writes:</p>\n  <blockquote><p>At the time, our church was going through some difficulties, and I was feeling caught in the midst of it, often feeling confused by the different opinions and ideas. Although discouraged, these words came out, as I knew I could fall back on an all-knowing, unfailing Father, and fully trust in God.</p></blockquote>\n  <p>Yes, God’s people keep singing in the middle of their trials!</p>\n  <figure><img src=\"/images/articles/0d0d5884-baa0-4a6d-8bd6-e68853060e6e-2.jpg\" alt=\"Jeremiah Stump seated in front of a stone wall.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4626509f11b31bf8db15b066edb1a4451d1dc955bf6a0613ca8fb1f417609248"
+}

@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Edward Payson"
+        }
+      ],
+      "raw": "Edward Payson"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "c6b20a81-a3a4-4ede-81f0-85af17290dba",
+    "images": [
+      {
+        "alt": "A boy and girl looking upward against a dark background",
+        "caption": "Photograph above taken by\nLynn Weissenfelt • Alpine Portraits",
+        "credit": "Lynn Weissenfelt • Alpine Portraits",
+        "public_path": "/images/articles/c6b20a81-a3a4-4ede-81f0-85af17290dba-1.jpg",
+        "repository_path": "public/images/articles/c6b20a81-a3a4-4ede-81f0-85af17290dba-1.jpg",
+        "rights_note": "Original PDF image object 119 on printed page 32. Retained the original source raster, orientation and framing; no rotation or flip. Original RGB JPEG contained a trailing byte after its end marker and lacked JFIF density; decoded and normalized as a baseline RGB JPEG with 96 dpi density, retaining 504 × 504 dimensions and source content. No CMYK conversion or sample inversion was needed. The separately painted title, article text, author, blue border, outer cover frame and mailing panel are omitted. Photographer/source credit is printed below the mailing panel. No separate reuse restriction or licence is stated.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "20e7574a-7ed7-4acf-8541-436e082de578",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "The Worth of a Soul",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "2eeb6a58a61748f24f0c3f98c6642a0ab27bee342c446d8dec89c813932f4f80",
+    "metadata_sha256": "6be4b87e65bc4764478564438174dc9aca7673bef4d6a249a565daecc074d9e0",
+    "structure_sha256": "3ea5f8ce0e8af28dbdaa1ac2172b903b94cbf7a41c07971a1a0b860a8f8bda74",
+    "text_sha256": "7560b24434bc87af719fe1561250651852096dee95cca13a89c2ed4975119676",
+    "translation_metadata_sha256": "e86df723ea50ee51aa069ac90e2065ef0383ad4f10e5b573dfa859e4fe9b9d28"
+  },
+  "html": "<article data-article-id=\"c6b20a81-a3a4-4ede-81f0-85af17290dba\">\n  <figure>\n    <img src=\"/images/articles/c6b20a81-a3a4-4ede-81f0-85af17290dba-1.jpg\" alt=\"A boy and girl looking upward against a dark background\">\n    <figcaption>Photograph above taken by<br>Lynn Weissenfelt • Alpine Portraits</figcaption>\n  </figure>\n  <p>How inestimable does the worth of the human soul appear—how clearly is it seen to exceed that of the whole world—when we view it as endowed with the capacity of being made equal to the angels!</p>\n  <p>How momentous an event occurs when such a soul is born into the world; when an immortal being commences a flight through endless duration—a flight which will raise him high to an equality with angels or plunge him low among malignant fiends!</p>\n  <p>Think of this, ye parents! Ye, to whom is committed the care of giving to this flight its earliest direction, and on whom largely depends, under God, what its termination shall be.</p>\n  <p><em>Edward Payson</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ff229082afada4cc09f7abf46c789ac0b03413acf681ad46aa9524d7eae4be8e"
+}

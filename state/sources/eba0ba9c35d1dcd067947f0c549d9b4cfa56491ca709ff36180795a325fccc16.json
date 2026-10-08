@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Perkins, OK",
+          "name": "Anna L. Martin"
+        }
+      ],
+      "raw": "Anna L. Martin\nPerkins, OK"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "e084713e-2b35-47ce-9f04-58eb4afb96d6",
+    "images": [
+      {
+        "alt": "A pale kitten with blue eyes sitting on a brown blanket",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e084713e-2b35-47ce-9f04-58eb4afb96d6-1.jpg",
+        "repository_path": "public/images/articles/e084713e-2b35-47ce-9f04-58eb4afb96d6-1.jpg",
+        "rights_note": "No image credit, licence, or separate permission notice is printed for this photograph. Eight embedded pieces—two sRGB field tiles and six inverted-CMYK JPEG tiles—were colour-corrected as required, converted to sRGB, and reassembled into the full published 2196-by-2837-pixel image; the large dark-brown upper field is part of the source design, and the separate overlaid article text was omitted.",
+        "role": "story photograph",
+        "sequence": 1,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "bb87ee48-40aa-574c-b7a8-9898b928b451",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHILDREN’S CORNER",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Sharing Snowflake",
+    "topics": [
+      "4e2d77ad-ddae-52f7-a098-873bba6b0e88",
+      "0340164f-6a52-520d-9306-954c5b73592e",
+      "8027dd12-af78-5fb4-b5e2-dfad753ce6a4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "887d7daa87e0486c605f64a328ccf809603f221f5ef66e7aa72a8a816f7fa484",
+    "metadata_sha256": "3cee59c44faa638cb12eaa890e2042c1d53cdc982d2c76549839be1ea37ad9ad",
+    "structure_sha256": "54acba012b378f5dde69a3b594ea0a14a56f3d50e30e27e1b5a8a5a0ecdb5d20",
+    "text_sha256": "019faaaa084cb95f57c5f90cfd52add11410f89f2cfe28defbeaf53972700e7d",
+    "translation_metadata_sha256": "aa12720f72439a18d99c53e1ccedeabb0f966296eb793bd72b22395cb9043409"
+  },
+  "html": "<article data-article-id=\"e084713e-2b35-47ce-9f04-58eb4afb96d6\">\n  <blockquote>\n    <p><em>Blessed are the peacemakers: for they shall be called the children of God. Matthew 5:9</em></p>\n  </blockquote>\n\n  <p class=\"lead drop-cap\">“Mom, the neighbor girl is here. May I show her my kitten?” Cole asked.</p>\n\n  <p>Mom nodded. Cole trotted back to the yard.</p>\n\n  <p>“Abbie! I want to show you what I found under the shed. It’s a kitten that I tamed all by myself.”</p>\n\n  <p>Cole flopped on his stomach, pushing his head flat against the dirt to look under the shed. Snowflake didn’t run away like she did when he first found her. Happily, he tugged the kitten out to show his friend.</p>\n\n  <p>“Ooooh, a kitten!” Abbie breathed. She pulled the kitten from him. “What are we gonna name it?”</p>\n\n  <p>“I named her Snowflake,” Cole said. “I saw her peeping out from under the shed one evening, and Mom said I could tame her. Let’s put her back and do something else.”</p>\n\n  <p>Abbie shouldered his hand away as if she didn’t hear. “I like kittens,” she said. “I have a cat at my house too. Do you own the mama cat?”</p>\n\n  <p>Cole shook his head. “No, she is just a stray.”</p>\n\n  <p>“Do you feed her?” Abbie asked next.</p>\n\n  <p>“Sometimes we do,” Cole said. “Sometimes Mom lets me give her milk. Come on, let’s put her back now.” This time Abbie let him take Snowflake. Cole plopped the kitten by the shed and it scampered back to its mama.</p>\n\n  <p>Cole held the kitten every day. He called her his kitten, since he had found her. He talked softly to her while he snipped out the burrs that knotted her white fur. Dad and Mom said if he took care of Snowflake, she could be his.</p>\n\n  <p>One day Cole noticed a bowl of cat food by the shed. He found it there the next morning and the next. Then Abbie came to visit again.</p>\n\n  <p>“I’m thinking about having Snowflake for my own,” she announced. “I’ve been feeding her every day.” She stood in the swing, pumping the chains to start swinging, chattering on about other things.</p>\n\n  <p>Cole stood still. Worry choked his throat. Could Abbie really do that? Could she truly decide to keep the kitten he had found? Why, she wouldn’t even know about Snowflake if he hadn’t shown her the kitten to begin with!</p>\n\n  <p>“But she’s mine,” he protested.</p>\n\n  <p>Abbie tossed her hair. “I don’t think she’s yours because she’s a stray. And anyway, I’ve been feeding her, so that makes her mine. Come on, let’s swing.”</p>\n\n  <p>Cole didn’t want to swing. He found Mom instead. “Mom, Abbie said she is taking Snowflake!”</p>\n\n  <figure>\n    <img src=\"/images/articles/e084713e-2b35-47ce-9f04-58eb4afb96d6-1.jpg\" alt=\"A pale kitten with blue eyes sitting on a brown blanket\">\n  </figure>\n\n  <p>Mom followed him back outside. Abbie acted happy to tell Mom about her plans. “I’m thinking about taking Snowflake,” she repeated. “I like cats. I like kittens too and I’ve been feeding her, so that makes her mine.”</p>\n\n  <p>“You can take her if you want,” Mom said. Cole felt something like a pliers squeezing his insides. “Cole thought the kitten was his, but if you want Snowflake, you may have her,” Mom concluded.</p>\n\n  <p>Cole stared at Mom. “But she’s mine.” He blinked as his eyes burned. “I found her, and I tamed her.”</p>\n\n  <p>“I know, Son,” Mom said. She pulled him towards the picnic table and sat down beside him. “But Jesus tells us it is more important to be at peace with others than to make sure we keep everything that is ours. He says, ‘Blessed are the peacemakers.’ Blessed means happy. I think you children can have happy times together if you share Snowflake. If Abbie ends up taking the kitten, though, we need to let her.”</p>\n\n  <p>Cole shrugged a lopsided nod. He understood what Mom was saying, even though it didn’t feel very nice. He still wanted to call Snowflake his very own kitten, but he knew Mom was right. He wanted to do the right thing, too.</p>\n\n  <p>As more days went by, Abbie kept putting food by the shed where the kitten lived. Often, she ran across the yard to check on the kitten, then stayed to play with Cole and his siblings. They had fun together. He realized that “sharing” Snowflake didn’t change as much as he was worried it would. He felt happy inside as they carried the kitten around the yard, teaching it to play with them. Abbie was happy, too. By following Jesus’ way and using kind words they had made peace.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9ef47680000448bfdfcf65c4bd9cfbe558492200c3fba8a067b539111e3f8a7e"
+}

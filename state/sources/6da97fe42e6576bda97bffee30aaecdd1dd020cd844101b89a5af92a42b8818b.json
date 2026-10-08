@@ -1,0 +1,143 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "T. De Witt Talmage"
+        }
+      ],
+      "raw": "by T. De Witt Talmage, 1877"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "985af9cb-04f6-43ae-a860-3b598a733505",
+    "images": [
+      {
+        "alt": "A man running ahead of a horse-drawn chariot.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-1.jpg",
+        "repository_path": "public/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-1.jpg",
+        "rights_note": "Clean embedded grayscale object 93. The separately painted heading panel and article text are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            295,
+            187
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            295,
+            187
+          ],
+          "source_object": 93,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A robed man bows low on a stone platform with people behind him.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-2.jpg",
+        "repository_path": "public/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-2.jpg",
+        "rights_note": "Clean embedded grayscale object 141, used identically on pages 27 and 28, is represented once. Separate rectangular frame and pull-quote panels are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            505,
+            681
+          ],
+          "repeated_source_pages": [
+            28
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            505,
+            681
+          ],
+          "source_object": 141,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        26,
+        27,
+        28,
+        29,
+        33
+      ],
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "The Hovering Blessing",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d19ff67f101cfb85a432cd6e1ab7a7607dfdbc43f835e2443bd68bd74981e8db",
+    "metadata_sha256": "2695801c5d5b50ab575d0cecb332915997eb1f7852ab0e9b8d8d9e25d2fec31f",
+    "structure_sha256": "c4f92cc7a267154a91f5e9d3bc2de4ccd7e0908fda2a48e4a4861e89a33ad7aa",
+    "text_sha256": "8d44f5325f3fcf16b556b9c8d641676b1de89f1d925cd46740b3e71b62af0271",
+    "translation_metadata_sha256": "7a34826f3f1793522dd7cde79e9dd8fb99b6fa3705c50bd58f9a26209d4626d3"
+  },
+  "html": "<article data-article-id=\"985af9cb-04f6-43ae-a860-3b598a733505\">\n  <p><em>“And there was a great rain.”</em> 1 Kings 18:45</p>\n  <p>A long, fierce, consuming drought had come upon the land. The leaves crumpled, the earth brake open, the buckets came down on the stony bottom of the well, and found no water; the cattle bellowed with thirst on the banks of the ravine, that was once all a rush with liquid brightness. Alas! Must the nation die?</p>\n  <p>Up the side of Mount Carmel go Elijah, his servant, and King Ahab. There is a magnificent prospect from the top of Mount Carmel. You can look off upon the Mediterranean and see ships moving up and down, carrying the commerce of great nations. It is a very conspicuous point. The sailor to this day calls it Cape Carmel. But Elijah did not go to the top of the mountain for the fine prospect. He went up there to pray for rain, and the Bible says he cast himself down on the ground, and put his face between his knees, and cried mightily unto the Lord, that the land might not perish, but the showers might come.</p>\n  <p>As soon as he had finished the first prayer, he sent his servant to the outlook of the mountain to see if there were any signs of rain. The servant came back and said, “No signs of rain.” Again Elijah prayed, and again the servant went to the outlook, and came back with the same information; and the third time and the fourth time, and no rain; and the fifth time, and no rain; and the sixth time, and no signs of rain. And then Elijah threw himself into a more importunate position, and for the seventh time he cried unto the Lord, and for the seventh time he sent his servant to the outlook. “Lo!” The young man came back saying, “I see a little cloud five or six inches long, about the size of a man’s hand.” Elijah leaped from his knees, and said to the servant, “Run and tell King Ahab to get down out of the mountain; the freshets will come, and unless he flies now, he will never get home.”</p>\n  <figure><img src=\"/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-1.jpg\" alt=\"A man running ahead of a horse-drawn chariot.\"></figure>\n  <p>The servant starts for King Ahab. Ahab gets into the chariot and speeds down the mountain, and Elijah, more swift-footed than the horses, leads the chariot down the hill. The cloud that was only five or six inches long, expands, until the whole heaven is filled with gloom, and the wind blows up from the sea to the mountain, and from the mountain to the sea, and the thunders boom, and there is a wild, overwhelming dash as the clouds burst, and the forests are drenched, and the earth sings—<em>“and there was a great rain.”</em> “Well,” you say, “What is that to us? It is an incident of long ago past. The last drop of that shower is exhaled, the very last leaf that was washed by it has gone into dust, and why do you present it this morning?” For a most practical purpose; I want to send this whole church to its knees. I want to have you understand that if you will only go up to the Carmel of prayerful expectation and look off, you can behold already vapours gathering into a cloud of mercy, which will burst in torrents of salvation upon the people. I have to tell you three or four things about that wonderful prayer of Elijah, which resulted so marvelously: First, it was <strong>an humble prayer.</strong></p>\n  <figure><img src=\"/images/articles/985af9cb-04f6-43ae-a860-3b598a733505-2.jpg\" alt=\"A robed man bows low on a stone platform with people behind him.\"></figure>\n  <p>Mark the language of the Bible: “He cast himself on the earth, and put his face between his knees.” “Oh,” you say, “the posture of the body doesn’t decide the earnestness of the soul.” I know that; but the feeling of the soul very often indicates what shall be the position of the body. There was sorrow in your house. Clouds of bereavement hovered. You were afraid you would lose that loved one. You went to your room. You locked the door. You prayed for the recovery of that sick one. What position did you take? Did you sit upright? Did you stand? No, you either knelt, or you threw yourself on your face before God. You had no idea position would have any effect with God, but the position you took was the result of your feeling. No wonder then that Elijah, with his own sins to confess, and the sins of a nation, took that humble posture, and it is most appropriate today for us. How are we living? Within a few years—yes, perhaps within a few hours—of our last account, yet cold and worldly, and selfish and proud. Where is the mercy seat? How little we pray. Where is Jesus? How little we seek His kingdom. Where are the impenitent? How little we do for their rescue. Where is heaven? How little its raptures kindle our soul. Cold and hard, ought we not today—you in the pew, and I on the platform—take before God the same posture that Elijah took? Tell me, are we all sons and daughters of the Lord Almighty? Are we the souls that have been ransomed? Was that cross of inexpressible pain the price that was paid for our rescue? Look over the past five, ten, fifteen years of our life—how much wasted opportunity! Professing to live for God and eternity, has not our profession sometimes been a lie, and our position a byword? Oh, my brethren and sisters, we must come down out of this pride. We must humble ourselves before God as Elijah did. Church of God, repent! Repent! To the dust! Put on sackcloth! Weep aloud for thy sin! Wail for the dead!</p>\n  <p>Again I remark, in regard to this prayer of Elijah, it was <strong>a persistent prayer.</strong> He prayed once—no answer. Five times—no answer. Six times—no answer. And the seventh time, when the blessing came, and if it had not come the seventh time, in his earnestness of spirit he would have kept on to the one-hundredth time. An occasional petition for a blessing upon us, and our families, and our churches does not amount to much. It wants persistent unrelenting imploration. Prayer after prayer. Besiegement after besiegement. Prostration after prostration. A sobbing. A groaning of earnestness. If the prayer is not answered the first time, keeping on to the thousandth time, keeping on though we die on our knees. A story is told of the Apostle James, that after he was dead they examined his body, and they found that his knees were calloused from much kneeling. Oh, that we had some such persistence before God. Is not the object for which we struggle worth a struggle? It is you own heaven, and beside that, it is the question of the snatching back of your own loved ones from eternal disaster. Plead before God and plead again. Do not give it up. Day in and day out, night in and night out, rising and retiring, in store, in street, in car, everywhere; by the throne of judgment, by the joys of heaven, by the horrors of hell; plead, plead, until God shall come, and the Church shall be moved, and the impenitent shall fly for mercy, and there shall be <em>“a great rain.”</em> Do not wait for others. Christians are very apt to wait for somebody else to do their duty. When God’s spirit was so mightily poured out in 1837 all over this land, do you know where the influence started? It was from a blacksmith’s shop, where a consecrated man stood day after day pounding the iron, and at the same time importuning God for the redemption of all the village where he lived, and it was the spark from that one forge which set the whole land on fire with Christian awakening and illumination. Oh, pray! Pray! Pray!</p>\n  <p>I remark again in regard to the petition of Elijah, it was <strong>a definite prayer.</strong> There were fifty things that Elijah would have liked to have had for himself. There were fifty things he would have liked to have had for the people; but he goes there, and asks for just one thing, and that is rain. My friends, there are too many glittering generalities in our prayers. I think that is the reason they do not amount to much. We must go before God with some specific errand and say, “Here are my children, strangers to the covenant of grace, having no part or lot in the matter; oh Lord, save my children, and just call them by name!” You have been asking that the commercial world be consecrated to Christ, and that was a glittering generality. Why do you not say, “Here is my partner in business, all absorbed in the world. Oh Lord, convert him by Thy grace, and show him that there is something better for his soul than this world.” I wish I could make you feel that you are responsible for some one soul. Do you not suppose that when you come before God in judgment, He will ask you about those over whom you had an influence? Will He not ask you about your own children? Will He not say, “Where is John, or George, or Mary, or Hannah? Where are they? And if in that hour you say, “I don’t know, I don’t know!” Perhaps God will point and say, “There, do you see that? Do you know what that is? Why that is the blood of their souls on your garment!”</p>\n  <p>I remark again that this prayer of Elijah was <strong>a confident prayer.</strong> There were no “maybes” about it. Why was it that when he was praying, he sent his servant to the outlook? It was because he knew rain was going to come, and he wanted to know the first moment of its arrival, so that he could get down the mountain. He knew that the rain would come just as certainly as Carmel rose above him, and the Mediterranean lay beneath him. Have you the same positiveness of expectation? Do you believe God really means it when He says: <em>“Ask and it shall be given you, seek and ye shall find, knock and it shall be opened unto you?”</em> Or is your imploration a mere matter of indefinite “perhaps?” Then, away with your prayers! They would die on your lips. Coming to God with such an insulting unbelief, He will spurn you away from Him. Oh, my dear brethren and sisters in Christ, how can we halt and stagger and doubt, with Bible full of promises, and heaven full of glories, and God full of mercy and salvation for all the people?</p>\n  <p>Some years ago a vessel went out from a port on Lake Erie. It was just as the ice was going out of the lake, and when it starts to go out, it hardly ever returns. The vessel put out, but strange to say the ice returned and surrounded the vessel, and the captain saw they must go down unless some wonderful relief came from some source that he knew not. So he gathered the passengers in the cabin and said, “I will tell you the whole truth. I have done all I can to deliver this vessel and we must go down unless more than human means are brought to our aid. Is there anyone here that can pray?” It was all still for minute. Then the first mate or the second mate said with a good deal of tremor and modesty, “Let us pray.” So he knelt down before God in the cabin and told of their perils, and of the loved ones at home, and how they would like to get home again, and asked God to spare their lives and save the ship. They arose, and lo!—the ice had parted and the vessel floated through the channel way. One of the sailors said to the captain, “Shall we put on more sail?” He said, “No, there is a hand guiding this vessel not seen of us. Let her alone.” The vessel floated out into safe waters. And there comes a time—and that time is now—when the Church of God is surrounded by a fierce worldliness. It is ice on the north, and ice on the south, and ice on the east, and ice on the west. Oh, let us implore God for the rescue that the vessel of the Church may ride out into calm, bright, beautiful waters. <em>“Before they call, I will answer. While they are yet speaking will I hear.”</em> Oh, pray, pray, pray.</p>\n  <p>I remark again, in regard to that prayer of Elijah, that it was <strong>a successful prayer</strong>—that is, he got what he wanted, which was rain. Not rain only for the trough of the camel, not rain just enough to settle the dust, not rain enough to wet the corn-field, but enough to drench the forests, and soak the fields, and slake the thirst of a whole nation. Rain for the mountains. Rain for the valleys. Rain for the trees. Rain for the cattle. It was a <em>great</em> rain. Now, are we making the prayer that will bring the same success? We do not want rain so much on the fields, but it is rain on the tender heart of childhood, and the weary spirit of the old man that we need; it is rain on the heart, hard with the drought of sin, or wilted under the sunstroke of worldliness; it is spiritual rain that we need. How do we get it? The way Elijah got it. All our preaching about it and talking about it will not bring it. We must pray and pray. We must go on the Carmel of Christian expectation, bow ourselves before the Lord, and then it will come. It always has come when the right kind of prayer went up. It <em>will</em> come as certain as there is a God, and you have a soul immortal to be set on trial on the last day. Prayer in private. Prayer in public. Prayer now. Prayer perpetually.</p>\n  <p>But when did the rain come? The same day. When will our prayer be answered? Today, if it be the right kind of prayer. We cannot wait until tomorrow. Some of these who are out of Christ, by tomorrow may be lifting up their eyes in a land far beyond the reach of mercy and hope and salvation, and it will be too late for them. For how much would I give up my hope in Christ for two hours? Not for all the wealth of the world at my feet. And if we cannot afford to give up our hope for two hours, can we afford to wait for the conversion of our friends until tomorrow, when this night their souls may be required of them? Oh, it is rain today that we want, we must have, and we <em>will</em> have it, if, with all the concentrated passions and emotions and energies of our soul, we struggle for it.</p>\n  <p>Do not your hearts already begin to kindle? Do you not see the prayers like vapors are ascending from the sea into a cloud a good deal larger than a man’s hand? Holy Spirit, speak now with Thy omnipotent voice! Lord, help us! King of glory, come to the temple. I feel overwhelmed with anxiety for the redemption of your soul. I feel that the eternity of many is at stake. I feel that between rousing up from our lethargy as Christians, and sleeping on in that lethargy, is the alternative between the happiness and the wretchedness of some who sat with you this morning at the breakfast table, and who will sit with you again at noon. What shall I say to rouse up my church to its work? I will make a bargain with you. I ask that today, so far as your Sabbath-school duties and other duties will not interfere with it, that you spend the afternoon in your rooms imploring the blessing of God on yourselves, your families, and the Church. I will do the same. God is not far off that He should not hear us. Oh, let us come before Him feeling our feebleness, but laying hold of the promises of a faithful God, as though this were the last day of our lives, and in the next few hours stupendous destinies were to be decided.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fc28546f526fb6436dd228a661b2a598afdf5acdee2b33334a6129ebdcaf9b1e"
+}

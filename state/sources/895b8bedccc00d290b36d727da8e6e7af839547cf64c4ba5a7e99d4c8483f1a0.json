@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Sheryl Lapp",
+          "role": null
+        }
+      ],
+      "raw": "by Sheryl Lapp"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e09808cc-b76e-4f79-bbbb-1aef16e7e89d",
+    "images": [],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "The Special Act of a Servant’s Heart",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "530dd7ddf26c552992ee2a91ccbf0be5e93dce360f8820ffc9e6d4ae45b5e442",
+    "metadata_sha256": "acf40633870d9967c8c96260e97e892b2860f2031f0a5ca6a48d579ee5c50a1c",
+    "structure_sha256": "e49821245a4683464a736668d6c74776f9ed302c213b03015f1adbb8a32d9503",
+    "text_sha256": "52e2540530b4bd7a0825f763d33e4e219500c6b0d8f091c43845af8a9e90f52f",
+    "translation_metadata_sha256": "e99f6da31c320c2b5a6fd09cb0d7fef65938a888d52086640e6a8e4d09809fbf"
+  },
+  "html": "<article data-article-id=\"e09808cc-b76e-4f79-bbbb-1aef16e7e89d\">\n  <p class=\"poem\">The beauty of life all surrendered to God–<br>\n  A person who’s walking the path Jesus trod,<br>\n  In purity, freshness, and love all combined,<br>\n  A heart that by God is being refined.</p>\n  <p class=\"poem\">Gentleness, meekness, and joy all around<br>\n  Peace and contentment flourish, abound<br>\n  With willing hearts and sweet, loving touch,<br>\n  We all remember our Lord Jesus as such.</p>\n  <p class=\"poem\">Our cup is all empty of our own selfish dreams.<br>\n  Abandoning it all we join the Lord’s team.<br>\n  We now are His servants to do and obey,<br>\n  We hear His voice softly, “Here, this is the way.”</p>\n  <p class=\"poem\">Sometimes the Lord leads us through valleys deep;<br>\n  The way is not easy and our hearts often weep,<br>\n  But the way of the servant is enduring the cross,<br>\n  For through all the trials God purges out dross.</p>\n  <p class=\"poem\">Our blessed Lord Jesus, greatest Servant of all,<br>\n  O, do we not hear His beckoning call?<br>\n  “I’ve given my life…can you not give yours?<br>\n  To be servants to people I bled and died for?”</p>\n  <p class=\"poem\">“O, yes, dear Lord Jesus, I answer your voice,<br>\n  I’ll love and obey you, a servant by choice.”<br>\n  Addicted to service, wherever He calls–<br>\n  I’ll go where He bids me, with Him as my all.</p>\n  <p class=\"poem\">Rejoicing in Jesus, this life I embrace,<br>\n  Knowing His power and infinite grace.<br>\n  A life of true service is one of delight,<br>\n  O’er shaded by love and kept by God’s might.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e3bde3df98b96b3d8498b0dc5fa24ab321a85a6aa1a118707dc18f91b9c1d9fb"
+}

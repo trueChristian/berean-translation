@@ -1,0 +1,121 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "0058ff44-5979-4240-89d5-d9a0cab2c773",
+    "images": [
+      {
+        "alt": "Audio cassette",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-1.png",
+        "repository_path": "public/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-1.png",
+        "rights_note": "Original image object 131 exported with its exact printed rotation. Intrinsic cassette or magazine-cover markings retained; surrounding financial-report typography and decorative border omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "method": "Isolated original source image and exact PDF transformation matrix rendered at 72 dpi, preserving the printed rotation and native useful resolution, as lossless RGB PNG. No surrounding report text or frame included.",
+          "output_dimensions": [
+            61,
+            47
+          ],
+          "source_dimensions": [
+            53,
+            34
+          ],
+          "source_object": 131,
+          "source_pdf_matrix": "51.1913 13.7153 -8.6329 32.2215 313.9757 550.5182",
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "The Remnant magazine cover featuring a lamb",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-2.png",
+        "repository_path": "public/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-2.png",
+        "rights_note": "Original image object 130 exported with its exact printed rotation. Intrinsic cassette or magazine-cover markings retained; surrounding financial-report typography and decorative border omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "magazine_cover",
+        "sequence": 2,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "method": "Isolated original source image and exact PDF transformation matrix rendered at 72 dpi, preserving the printed rotation and native useful resolution, as lossless RGB PNG. No surrounding report text or frame included.",
+          "output_dimensions": [
+            120,
+            140
+          ],
+          "source_dimensions": [
+            94,
+            121
+          ],
+          "source_object": 130,
+          "source_pdf_matrix": "91.7815 -20.7239 26.5934 117.7765 401.8229 522.5424",
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": "January–March 2004 Financial Report",
+    "title": "Charity Gospel Tape Ministry & The Heartbeat of The Remnant",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d4300aa678bf340ea4ee3760c0a60fe0ad57b2528551350e014669ecbadce2ed",
+    "metadata_sha256": "a124eee9e6bd45ab5494c9b62a2378ff7c994382ebb002405d5af413cf5966cc",
+    "structure_sha256": "bc20bd40b23c2da9974f223ec96023945c1cc52363c95e207183c952a6fab315",
+    "text_sha256": "05aeeee4b2722f7091341fd83b440674f56c294c32eba9fa5fc465254c49a257",
+    "translation_metadata_sha256": "aafb761fa710fe06db3d08dc96c545a185576fd7cdae2d0c7f62e87979f85e5a"
+  },
+  "html": "<article data-article-id=\"0058ff44-5979-4240-89d5-d9a0cab2c773\">\n  <figure><img src=\"/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-1.png\" alt=\"Audio cassette\"></figure>\n  <figure><img src=\"/images/articles/0058ff44-5979-4240-89d5-d9a0cab2c773-2.png\" alt=\"The Remnant magazine cover featuring a lamb\"></figure>\n  <p>Once again we give a hearty “Thank You!” to our many supporters.</p>\n  <p>Many of you responded to the note in the January/February issue where we shared the upcoming expense of the Godly Home tape order. If you remember, the last time we ordered Godly Home Tapes it put us into the red by $40,000. We have purchased those tapes now, and if you notice the line <em>Tapes, Albums, CD’s &amp; Labels</em> the expense is in that figure. Likewise, we would like to draw your attention to the <em>Ending Balance</em>. A positive balance! Thank you! We are so grateful for your support.</p>\n  <p>So, again, from all the staff at <em>Charity Gospel Tape Ministry</em> and <em>The Heartbeat of The Remnant</em>, we say, “THANK YOU!”</p>\n  <table>\n    <tbody>\n      <tr><th>01/01/04 Beginning Balance</th><td><strong>$48,924.21</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$70,817.92</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$5,272.85</td></tr>\n      <tr><th>Total Receipts</th><td><strong>$76,090.77</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$9,221.01</td></tr>\n      <tr><td>Tapes, Albums, CD’s &amp; Labels</td><td>$77,962.77</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$1,215.34</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$1,409.58</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$2,315.61</td></tr>\n      <tr><td>Rent</td><td>$1,800.00</td></tr>\n      <tr><td>Telephone</td><td>$1,090.57</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$353.06</td></tr>\n      <tr><td>Miscellaneous</td><td>$1,039.59</td></tr>\n      <tr><td>Payroll Expense</td><td>$13,400.01</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$2,694.83</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$10,915.37</td></tr>\n      <tr><th>Total Disbursements</th><td><strong>$123,417.74</strong></td></tr>\n      <tr><th>03/31/04 Ending Balance</th><td><strong>$1,597.24</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4bd91838a8f9b2e15d03fc5f1cf264aaaf05634af89444cb70a4a124c2780ca5"
+}

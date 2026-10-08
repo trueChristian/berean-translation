@@ -1,0 +1,108 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver",
+          "role": null
+        }
+      ],
+      "raw": "Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "0ee58c4e-995f-41e9-8811-45bc7e9412a6",
+    "images": [
+      {
+        "alt": "Silhouette of a seated woman and child",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-1.png",
+        "repository_path": "public/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-1.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Vector silhouette rendered from page region at 300 ppi, cropped to the artwork only.",
+        "role": "recurring-column silhouette",
+        "sequence": 1,
+        "source_page": 16
+      },
+      {
+        "alt": "Illustration of a cottage",
+        "caption": "That they may teach the young women ...",
+        "credit": null,
+        "public_path": "/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-2.png",
+        "repository_path": "public/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-2.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Original RGB PNG.",
+        "role": "opening cottage illustration",
+        "sequence": 2,
+        "source_page": 16
+      },
+      {
+        "alt": "Illustration of a basket of fruit",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-3.jpg",
+        "repository_path": "public/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-3.jpg",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Grayscale separation JPEG inverted to match source; normalized baseline RGB JPEG at 150 ppi.",
+        "role": "fruit illustration",
+        "sequence": 3,
+        "source_page": 16
+      },
+      {
+        "alt": "Thorny branch illustration",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-4.png",
+        "repository_path": "public/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-4.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Original RGB PNG.",
+        "role": "thorn illustration",
+        "sequence": 4,
+        "source_page": 17
+      },
+      {
+        "alt": "Mock obituary newspaper clipping for Mrs. Mary Christian",
+        "caption": "How would your obituary read?",
+        "credit": null,
+        "public_path": "/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-5.jpg",
+        "repository_path": "public/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-5.jpg",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Complete grayscale separation base image inverted to match source, normalized baseline RGB JPEG at 150 ppi.",
+        "role": "mock obituary clipping",
+        "sequence": 5,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sister’s Corner",
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "My Obituary",
+    "topics": [
+      "88a2e3d1-aff7-5289-b0b9-4fad51772b76",
+      "10340eb3-62f2-5d38-8c0e-36ca3bd2503d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d0b0e1bde3d1aa6fe47cf50123c5d0ed2a055d0edba0b0e7087077a4a363c493",
+    "metadata_sha256": "88aedecb747d3e791afc3495f520169591f1a51c1166fd695edc177c475c6721",
+    "structure_sha256": "d2e5b23e7406e99cbef5f274416c25abd4c8b40311685211c4eb20b1a4534fed",
+    "text_sha256": "2680b60d88108485b91fb5ca8251e574a156264ece054663afcebabbe17d30fc",
+    "translation_metadata_sha256": "1abbf5fe0a6f27206d8d43531e630a5f140a1e6e395e50daf513cc70578c2c30"
+  },
+  "html": "<article data-article-id=\"0ee58c4e-995f-41e9-8811-45bc7e9412a6\">\n  <figure><img src=\"/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-1.png\" alt=\"Silhouette of a seated woman and child\"></figure>\n  <figure><img src=\"/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-2.png\" alt=\"Illustration of a cottage\"><figcaption>That they may teach the young women ...</figcaption></figure>\n  <p>What would you think if one morning upon waking you were to read your own obituary in the paper? This actually happened to Alfred Nobel, originator of the famous Nobel Prizes in the late 1800s. He woke one morning to see his own picture and obituary in the paper, proclaiming him “the merchant of death” because of his experiments with nitroglycerine explosives and dynamite. It must have been quite shocking to read what the media thought of him. The obituary—written in a French newspaper—reported: “Dr. Alfred Nobel, who became rich by finding ways to kill more people faster than ever before, died yesterday.” Though the obituary was a mistake—it was his brother who had died—it made Alfred stop and think. He objected to the fact that people perceived him as the “merchant of death” … despite the fact that he was the owner of an armaments factory. This led him to create a fund for the many millions of dollars he finally left when he died. That money funded the Nobel Prizes that we have today.</p>\n  <p>When I heard this story today for the first time, I seriously pondered how my obituary would read if people were to write out my life as they perceived it. I also realized that God is the one in charge of writing my obituary. How does He perceive me? What is His opinion of the things that I do? Does He see my life as I see it, or are there blind spots that I do not see?</p>\n  <p>Let us personalize the story of Alfred to our own circumstances today. Most of us are mothers and wives or sisters. Sometimes we lose our vision in the daily round of duties. We go steadily on, slogging one foot in front of the other with no song on our lips, no thanksgiving in our hearts, and no joy on our faces. We forget about abundant living.</p>\n  <p>This is so sad. We are here to bring life and joy to others, yet many times we do not exhibit that life ourselves. What is the legacy we are leaving to our family and friends, to the world around us?</p>\n  <p>If they were to write our obituaries, what would they say? Would they remember us as women who:</p>\n  <p>* lived a life of gratitude and praise<br>\n    * walked in the Spirit<br>\n    * had a real prayer life<br>\n    * had compassion on others<br>\n    * were servants<br>\n    * were faithful friends<br>\n    * were gentle and kind<br>\n    * took time to listen to others<br>\n    * were in touch with Jesus<br>\n    * were touchable<br>\n    * were easily entreated<br>\n    * were full of joy<br>\n    * were encouragers<br>\n    * were full of faith</p>\n  <figure><img src=\"/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-3.jpg\" alt=\"Illustration of a basket of fruit\"></figure>\n  <p>This list could go on and on ...</p>\n  <p>Galatians 5:22-26 gives us a good idea of what the Master “obituary writer” is looking for when He looks at us.</p>\n  <blockquote><p><em>But the fruit of the Spirit is love, joy, peace, long-suffering, gentleness, goodness, faith, meekness, temperance: against such there is no law. And they that are Christ’s have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit. Let us not be desirous of vain glory, provoking one another, envying one another.</em></p></blockquote>\n  <p>What a list! If you take this list and break it down, and think about each of those attributes one at a time, it is quite challenging to the heart.</p>\n  <p>Does it really mean that if we have not crucified the flesh we are not His? I think that many times we live so far short of all that God has called us to and enabled us to be, that He must be sad. He asked us to be witnesses of Him, and then we cloud His image by our very life. All too often our family and friends see us as:</p>\n  <p>* inconsiderate<br>\n    * unthankful<br>\n    * self-confident<br>\n    * complaining<br>\n    * fearful<br>\n    * self-centered<br>\n    * gossiping<br>\n    * uncaring<br>\n    * bold or pushy<br>\n    * untouchable<br>\n    * plastic or unreal<br>\n    * selfish<br>\n    * proud<br>\n    * irritable<br>\n    * angry<br>\n    * frustrated<br>\n    * critical<br>\n    * lazy</p>\n  <figure><img src=\"/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-4.png\" alt=\"Thorny branch illustration\"></figure>\n  <p>How can we expect others to take an interest in our Master if this is what they see in us in our daily lives? How can we point them to Him if they do not see Him making a major difference in our day? How can we expect to bring them to Jesus if we have not brought our own selves to be in subjection under Him? After all, what is the drawing factor? Is it not a life that shines and glows and manifests His glory? What a poor manifestation I am. What a cloudy glass through which others need to see Jesus!</p>\n  <p>It would probably be a revelation to each of us to see ourselves as others see us. Perhaps even more, it would be a revelation to see ourselves as God sees us. We need to pray this prayer: “Lord, open my eyes so that I might see myself as You see me.” Then we need to be willing to get up on the operating table and let God take out any cancer that is crippling our lives. If we are willing to do this, it will make a profound difference in our homes.</p>\n  <p>Our children and our husbands see us both at our best and at our worst. Their observations are valuable. If they were to be frankly honest with us, it would probably help us all to be better mothers and wives. It might help us to face reality and seek the heart of God humbly.</p>\n  <p>This reminds me of a verse that I saw this morning, “Therefore will the Lord wait <strong>that he may be gracious unto thee,</strong> and therefore will he be exalted.” Is. 30:18 I can visualize the Lord bending down and calling our names—calling us to turn <em>all</em> our needy areas over to Him. He goes on to say, “Thou shalt weep no more: <strong>He will be very gracious unto thee at the voice of thy cry; when he shall hear it he shall answer thee.</strong>” Is. 30:19</p>\n  <figure><img src=\"/images/articles/0ee58c4e-995f-41e9-8811-45bc7e9412a6-5.jpg\" alt=\"Mock obituary newspaper clipping for Mrs. Mary Christian\"><figcaption>How would your obituary read?</figcaption></figure>\n  <p>That promise means so much to me. It is a great comfort. When I have read my obituary and I do not like what I see, if I call on Him He will answer me and I will not need to weep anymore. What a mighty God I serve. No matter where I am, if I see my need and myself and turn again to Him, He <em>will</em> answer my cry. I am humbled. I look at my own mothering, at my relationships with others, and I wonder how long it will take me to be like Him. That is His desire for me. That is why Jesus died. “He died that I might have life and that I might have it more abundantly.” Jn. 10:10</p>\n  <p>My desire is that I might be “a living sacrifice, wholly acceptable unto the Lord which is [my] reasonable service.” Ro. 12:1b My desire also is that you might find the same thing true in your life and that you, with me, might “grow in grace, and in the knowledge of our Lord and Savior Jesus Christ.” 2 Pe. 3:18 ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c94ff089afd6e587dff0fb6eac570867cd102d2e75dd88f41d74ce7bf40af4df"
+}

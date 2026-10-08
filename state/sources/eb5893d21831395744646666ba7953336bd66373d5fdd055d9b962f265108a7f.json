@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Denny Kenaston",
+          "role": null
+        }
+      ],
+      "raw": "by Denny Kenaston"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "937a3428-1483-428b-9a58-acf3349b6fc8",
+    "images": [
+      {
+        "alt": "Denny Kenaston seated beside a desk.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/937a3428-1483-428b-9a58-acf3349b6fc8-1.jpg",
+        "repository_path": "public/images/articles/937a3428-1483-428b-9a58-acf3349b6fc8-1.jpg",
+        "rights_note": "Clean base PDF image object 15 exported; source pixels and tonality retained. Separate rectangular frame and drop shadow omitted. Source raster cropped to (1, 1, 200, 317) in native pixel coordinates to reproduce the published rectangular clipping; no rotation or flip. JPEG container normalized to baseline sRGB with nonzero 72 dpi density (source JPEG had zero JFIF density); no CMYK assets or sample inversion involved. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "author photograph",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "8c7d190e-02b9-427e-9891-346d83e3007a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor’s Desk",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "887249d20d504628ab7c6660d4efff58b8d5f51ed108435acea732361928fa65",
+    "metadata_sha256": "904fcffae1c47b7414cb99b88fbd1c0237468476aada8bcb50732d16c548609a",
+    "structure_sha256": "7877596d66fa33cfc75ff8e6f9b1440e60aa628c00fb58bf139fd868867035d1",
+    "text_sha256": "c4be3676d05d675109e88677e7e912b5cffd6e8632422de9c702d4c0664d1dc3",
+    "translation_metadata_sha256": "6b8e300b2eb2eb8208060344887532e8e341737b4deff5183b5b49edd2877857"
+  },
+  "html": "<article data-article-id=\"937a3428-1483-428b-9a58-acf3349b6fc8\">\n  <figure>\n    <img src=\"/images/articles/937a3428-1483-428b-9a58-acf3349b6fc8-1.jpg\" alt=\"Denny Kenaston seated beside a desk.\">\n  </figure>\n  <p>It is now ten months since we began to focus on giving <em>The Remnant</em> a new heart. The issue you have in your hands is the fifth one of these new issues. We bless and praise God our Father for all the help He has given us through the many learning experiences we have gone through. We are also very thankful for so many of you who have given us positive and negative input as we find our way in putting a magazine together that glorifies the Lord Jesus Christ. I have been delightfully surprised many times as I read some of your responses. Please keep them coming. I would desire much more interaction from many of you. Questions, testimonies, a short article you feel might bless others, or a poem—all of these are appreciated.</p>\n  <p>Ten months ago when we agreed to take the job of editor, I knew that there were many people who were receiving <em>The Remnant</em> but were not reading much of it. I also knew that this was a waste of the Lord’s money. I feel it is now time to begin working to eliminate some of this waste. You have now received five issues, and can better determine if you want to be on our <u>active mailing list</u>. We want to continue to send <em>The Remnant</em> to anyone who desires to read it. At the same time, we do not want to carry the cost of publication and mailing to those who let it lay, or those who throw it away without reading it. We are a faith based ministry, and plan to continue to operate this way. Because we do not charge a certain amount of money for the magazine, it is harder for us to tell where the real desire is. Our plan is to begin to build an <u>active mailing list</u>.</p>\n  <p>Let me define what I mean by active. Our active list will consist of the names of the people that we hear from—by letter, by phone, or by E-mail. Your name will become active when we receive correspondence from you. Your name will stay active the same way. If we do not hear from you for one year, your name will become inactive. Whenever we hear from you, the date of your subscription will be extended for one year from that date. All of this is being set in order so that we can be better stewards of time and money.</p>\n  <p>In the center of this issue you will find a short form to fill out and mail back to us. This will automatically put you on the <u>active mailing list</u>. The last time the board met we discussed the best way to get the best response from you. It was suggested to give you a self-addressed card with a stamp on it. This would be the easiest for you, as everyone is busy. As I pondered this idea, my second thoughts were negative. This is not junk mail, designed to catch your attention and move you to a quick response. We truly want to develop an active file of names who are drawing strength from the publication. Therefore, we are appealing to you to make the effort. Please take a moment, fill out the form, and mail it back to us. You will notice also that we have provided a place where you can notify us of a friend whom you feel would be blessed by <em>The Remnant</em>. Please send us their name and address and we will send them a sample issue. (If they respond, they will be added to the <u>active mailing list</u>.)</p>\n  <p><em>-Bro. Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "92147dd2fb426b15ab5692db512bd7f75b00192654a93b67646fda461b8edc96"
+}

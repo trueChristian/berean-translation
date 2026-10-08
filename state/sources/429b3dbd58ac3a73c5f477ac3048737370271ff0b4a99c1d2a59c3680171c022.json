@@ -1,0 +1,97 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Glendon Fox"
+        }
+      ],
+      "raw": "by Glendon Fox"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285",
+        "59e78031-c269-52d1-9b00-08dba0398cb4"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "6e5f1b2d-ac02-4271-bde1-5a8e375801a8",
+    "images": [
+      {
+        "alt": "Historical engraving of a town beside a lake",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-1.jpg",
+        "repository_path": "public/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-1.jpg",
+        "rights_note": "Clean independent source object 52 (617×386). The separately painted title, shading and frame are omitted. Embedded image converted to baseline RGB/sRGB JPEG. No article-specific credit or licence statement is printed.",
+        "role": "Engraving in the article title panel",
+        "sequence": 1,
+        "source_page": 3
+      },
+      {
+        "alt": "Historical portrait of Zwingli holding a book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-2.jpg",
+        "repository_path": "public/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-2.jpg",
+        "rights_note": "PDF Separation JPEG object 57 (317×353): inverted samples to match the rendered page and encoded baseline RGB/sRGB. Latin inscription is intrinsic to the source portrait. No article-specific credit or licence statement is printed.",
+        "role": "Historical portrait of Zwingli",
+        "sequence": 2,
+        "source_page": 4
+      },
+      {
+        "alt": "Historical engraving of people gathered on a town street",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-3.jpg",
+        "repository_path": "public/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-3.jpg",
+        "rights_note": "PDF Separation JPEG object 61 (500×335): inverted samples to match the rendered page and encoded baseline RGB/sRGB. The neighboring decorative pull quote repeats the article body and is omitted. No article-specific credit or licence statement is printed.",
+        "role": "Historical town engraving",
+        "sequence": 3,
+        "source_page": 5
+      },
+      {
+        "alt": "Historical engraving of a crowd gathered before a building",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-4.jpg",
+        "repository_path": "public/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-4.jpg",
+        "rights_note": "PDF Separation JPEG object 66 (397×316): inverted samples to match the rendered page and encoded baseline RGB/sRGB. The neighboring decorative pull quote repeats the article body and is omitted. No article-specific credit or licence statement is printed.",
+        "role": "Historical crowd engraving accompanying the martyrdom account",
+        "sequence": 4,
+        "source_page": 6
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "A Revival in Schleitheim",
+    "topics": [
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26",
+      "f22af402-4835-56ba-987e-9a90f071d93d",
+      "e35443e0-667e-5814-aa6f-707ce1665bb3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "241eea4e83ab541f773d0f2f3f7a9520ef46784d3ef0ee86f2d0117d1b110e60",
+    "metadata_sha256": "ca9e880738c08bdfc3994f4ca768fd95c5fdcc6078d4dcb86e030db1b82e261f",
+    "structure_sha256": "ad86e7243b2ffb9021799ee80a5c3808958faa8bded9b07648aebe7d90cbbc38",
+    "text_sha256": "b61404dfea52716707c974faf12643802c0302ea348a5d1316ca40dace7971bd",
+    "translation_metadata_sha256": "f0cad1f8992fa43009ec384bb7d907ffcdb117851e79d3548f458ed373fae1d4"
+  },
+  "html": "<article data-article-id=\"6e5f1b2d-ac02-4271-bde1-5a8e375801a8\">\n  <figure><img src=\"/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-1.jpg\" alt=\"Historical engraving of a town beside a lake\"></figure>\n  <p>I would like to take you with me back in time almost 500 years to a little town in Switzerland called Schleitheim. But to understand the arena in which this revival took place one has to go back even earlier. From the time of Christ until the time of Constantine the church had been savagely persecuted. All pre-Christian societies were bound together by a common religious loyalty. Therefore a faith that divided people into two opposing groups, saved and unsaved, was viewed as divisive and a threat to society. Constantine came up with the clever idea that if he could somehow unite the utter commitment of the Christian to his earthly kingdom, he could become a very powerful ruler. So in a very short time the Preacher of the Gospel was brought from hiding in a cave and placed in the king’s palace. Everyone was now ordered to worship Jesus as their God or face prosecution by the emperor. The persecution-weary church was fooled into uniting with the pagan rulers of this world, and exchanged winning the world by preaching and love for using the sword to procure a profession of faith and a baptism. However, the true followers of Christ who refused to become a part of this “church” were persecuted just as before.</p>\n  <p>By the 16th century very little remained of the teachings of Christ in this fallen “church”. The sinful religious leaders worked hand in hand with the equally corrupt and dishonest civil rulers. In fact, the religious leaders seemed to have the final authority on all matters. For a thousand years the Roman Catholic church had claimed to have received the keys to heaven from the Apostle Peter and anyone who disagreed with her was forced to recant of their deceptive and erroneous opinions or face torture and death. Therefore any opposition was quickly and effectively silenced.</p>\n  <p>Many were satisfied to let religion to the priests; they would just go to the church and do whatever other rituals were required of them. It was at times inconvenient, but it did give the people somewhat of a satisfaction that if they did what the priest told them to do, then God would forgive them of their sins and bail them out of hell.</p>\n  <p>However, there were many others who were restless. They were tired of living in poverty while the priests reveled in luxury. They were tired of their empty sin-filled lives. There had to be more to life than what they were experiencing!</p>\n  <p>In 1519, a priest in Zurich, Switzerland named Zwingli began preaching through the New Testament chapter by chapter, book by book. This priest had also struggled with a sinful life, and as he studied the scriptures, he discovered the power of Jesus Christ and he began teaching from the scriptures and proclaiming all other authority to be inferior to the Word of God. Large crowds came to hear him, and he met regularly with a small group of his followers to study the Bible.</p>\n  <p>It did not go long, however, until his criticism of ungodly practices within the church reached the ears of the pope. The pope angrily declared Zwingli a heretic and asked the Zurich city council to ban him from the pulpit. Zwingli appeared before the council and defended himself from the Scriptures. The council upheld Zwingli’s appeal and withdrew from the jurisdiction of the Catholic Church, instituting Zurich as an independent reformed theocracy.</p>\n  <figure><img src=\"/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-2.jpg\" alt=\"Historical portrait of Zwingli holding a book\"></figure>\n  <p>By this time Zwingli was forced to make a very difficult decision. He had understood from the Bible that the church should be made up of a group of born-again believers only. He also understood that being part of the church of Jesus should be voluntary, for the unregenerate soul who is compelled to be a part of the church against his will is as damned as the heathen. Therefore the secular government has no place in the biblical church. He also recognized the mass as a carryover from pagan Rome.</p>\n  <p>On the other hand, to try to institute reform in the church without the support and protection of the local magistrate was unthinkable, and the magistrates of Zurich were in no way ready for such radical changes. This was the way our forefathers had run the church for ages. What would become of the unregenerate if they were loosed from the restraints of the church? Would it not be disrespectful of the government officials to go ahead with reform against their wishes? It would definitely stir up lots of conflict and contention. Wasn’t keeping peace the Christian’s duty? And what would happen to me? Probably exile or prison or worse would await such radical actions, and then the whole movement would be squashed just like many other times in history.</p>\n  <p>As Zwingli studied the matter, the only logical thing to do was to be patient and work with the local government. But some of his fiery young followers were very displeased with the direction Zwingli was taking. In their minds Zwingli was compromising truth for position. They pleaded with Zwingli to set up a church of true believers only, asking how he could continue serving the Eucharist when he himself had preached against it. Finally they withdrew from Zwingli and began meeting in their homes, praying, studying the Bible, and dreaming of restoring the church to its original purity as in the days of the apostles.</p>\n  <p>Zwingli saw them as irrational young radicals who had never learned patience and condemned them from the pulpit as devils posing as angels of light. These Radical Reformers responded that Zwingli was a false shepherd and not true to the word of God. The tension grew between the two groups, the Radical Reformers boycotting all church functions and Zwingli’s group giving ominous threats both public and private. Conrad Grebel, the leader of the Radical Reformers, knew that persecution was inevitable, but would not be moved.</p>\n  <p>Zwingli, determined to stop this “rebellion”, brought things to a head by demanding that they bring their babies who had been born during this time and have them baptized or stand before the council for a public debate. Baptism never was the major issue of dissent, but was essential to the state church to ensure that all the people in the domain were made part of the church. The outcome of the debate was that this little group was ordered to completely stop all activities, including Bible studies, and immediately have all their infants baptized, or be exiled from the canton. Both sides knew that the fight had only begun.</p>\n  <p>As the little group met that night to determine their course of action, they prayed and meditated on the day’s events. One man, George Blaurock, finalized the group’s rejection of infant baptism by requesting to be baptized as a believer.</p>\n  <p>The Chronicle of the Hutterian Brethren preserved a testimony of that night saying:</p>\n  <blockquote>\n    <p><em>And it came to pass that they were together until anxiety came upon them, yes, they were so pressed in their hearts. Thereupon they began to bow their knees to the Most High God in heaven and called upon him as the Informer of Hearts, and they prayed that he would give to them his divine will and that he would show his mercy unto them. For flesh and blood and human forwardness did not drive them, since they well knew what they would have to suffer on account of it.</em></p>\n    <p><em>After the prayer, George of the House of Jacob stood up and besought Conrad Grebel for God’s sake to baptize him with the true Christian baptism upon his faith and knowledge. And when he knelt down with such a request and desire, Conrad baptized him, since at that time there was no ordained minister to perform such work.</em></p>\n  </blockquote>\n  <p>It seemed that as this clear line was drawn and their earthly possessions were taken from them, it freed them from restraint. I think they must have experienced a bit of Pentecost that night, for the next morning they began going from house to house and village to village preaching and teaching the people to “repent and be baptized for the remission of sins”. As they preached a literal obedience to the word of God, people repented and were baptized by the hundreds.</p>\n  <figure><img src=\"/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-3.jpg\" alt=\"Historical engraving of people gathered on a town street\"></figure>\n  <p>As the revival spread like wildfire, the council of Zurich called on surrounding cantons to help suppress these Anabaptists, as they were now called. Finally, in desperation, Zurich pronounced the death penalty by drowning on all Anabaptists, as Zwingli approved the murder of his former friends and followers.</p>\n  <p>Michael Sattler, an ex-monk who abandoned the soft life of an abbot to join the Anabaptists, was among those fleeing Zurich to escape persecution. He zealously preached the gospel in the forests and wherever he could find listeners. His message of salvation, by believing response to the preached word and denouncement of papal abuses, was eagerly received by the common people.</p>\n  <p>It was this loving pastor’s concern for his flock that motivated him to gather with some of his followers and co-pastors in a home in Schleitheim. There they discussed issues and doctrines of the church and put on paper what we know as the Schleitheim Confession to help protect this fledgling movement from false doctrine and to unite the scattered believers. It was also a proclamation of their beliefs to the rest of the world. After all, he never knew when he might find himself in the burgomaster’s hands.</p>\n  <p>And that is exactly what happened. A week later Sattler, his wife, and a number of other believers were arrested. After 11 weeks in prison his trial was moved to Rottenburg to try to avoid a revolt by the people and extra soldiers were called in to control the atmosphere. The trial was so unjust that even the court chronicler was horrified at the proceedings. Sattler was sentenced to be burned alive, and on the march to the execution site he should have a piece of his tongue cut out and five times have pieces of his flesh torn out with glowing hot tongs.</p>\n  <p>As the sentence was read his wife comforted him in the sight of all the people with great joy. They understood that this was not an end, but a beginning!</p>\n  <figure><img src=\"/images/articles/6e5f1b2d-ac02-4271-bde1-5a8e375801a8-4.jpg\" alt=\"Historical engraving of a crowd gathered before a building\"></figure>\n  <p>She was drowned in the river eight days later, although she would have preferred to be burned alongside her husband.</p>\n  <p>The reaction to the death of this beloved martyr was profound. Everyone had known him as a man who loved Jesus and loved his fellow men. Even some who had disagreed with him theologically wrote letters protesting his death. For many, this was also a new beginning in their own lives. Those who had been spectators on the day of the execution had been amazed to see the condemned man, whom they had expected to be trembling and crying out for mercy, pleading with them to repent and be converted, to fear God and to intercede for the judges! Even after he had been tied to a ladder and thrown into the fire, his voice could be heard clearly in prayer and praise.</p>\n  <p>What was this strange belief that these men and women were willing to die for? Zwingli himself said that he disagreed with them not on the important issues of salvation, but rather on lesser doctrinal issues. If this was so, then why was Zwingli willing to murder these men and women in an effort to stamp out their belief? And what turned Zwingli from a fearless preacher of the Gospel into a desperate ruler willing to do anything to stay in power? We will attempt to answer some of these questions in a future issue.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "bb77b4e255b89e88c6f8eeb8d57d8acc01afaa73c9c0061f39422af4c65de7f5"
+}

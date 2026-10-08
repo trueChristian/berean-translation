@@ -1,0 +1,86 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author unknown\n(email forward)"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a82b1595-10bf-42b6-a089-5d775d5aab96",
+    "images": [
+      {
+        "alt": "A television on the first-place tier of a winners’ podium",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a82b1595-10bf-42b6-a089-5d775d5aab96-1.jpg",
+        "repository_path": "public/images/articles/a82b1595-10bf-42b6-a089-5d775d5aab96-1.jpg",
+        "rights_note": "Clean embedded image object 72. The grayscale podium shading and plain gray background are intrinsic to the only source raster; black pixels reach 0 and the image has no established uniform opacity blend. Separately painted surrounding poem panel, dotted decorative border, title and poem text omitted. No image-specific source, credit or separate-permission notice is printed. General issue credits do not identify this asset. Image dictionary, page resources, paint order, clipping paths and graphics state inspected: one untiled DeviceGray base object, no soft mask, opacity fade, transparency group or image overlay. Source grayscale converted to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density. No CMYK inversion applies. Complete Pillow and FFmpeg raster decodes passed without warnings; Skia Canvas render passed. Final image visually compared at full resolution with raw source and published page; centre, edges and corners contain no removable overlays. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; complete source raster",
+          "output_dimensions": [
+            375,
+            540
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            375,
+            540
+          ],
+          "source_object": 72
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 18,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Side By Side",
+    "topics": [
+      "d221092b-1c77-59a9-8b08-7c931b177669",
+      "9673646c-3954-5324-9acb-3e3f17647e91",
+      "c960e136-59d1-58e4-bcac-c44da7607731"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "09321761466799470737ba55992fa0ab5130d78066c30d6d9105826408063554",
+    "metadata_sha256": "a93e4b3955d48049cc72257c68317bc1cc0338158d9c37dcf4e5800554dd7f0f",
+    "structure_sha256": "2d3ecd5b2490d17d486129ea02ae0ec779db18b40b5e42349b22638d89f25672",
+    "text_sha256": "93e537311825bbf3ff881af73129ea24da104e57b13b8cadef6338bed9d3e693",
+    "translation_metadata_sha256": "03d9fae2c33c614123372596a65833d36b83367c3888a6ba84691200285525ec"
+  },
+  "html": "<article data-article-id=\"a82b1595-10bf-42b6-a089-5d775d5aab96\">\n  <figure>\n    <img src=\"/images/articles/a82b1595-10bf-42b6-a089-5d775d5aab96-1.jpg\" alt=\"A television on the first-place tier of a winners’ podium\">\n  </figure>\n  <p class=\"poem\">They lie on the table side by side<br>\n  The Holy Bible and the TV Guide.<br>\n  One is well worn and cherished with pride—<br>\n  Not the Bible, but the TV Guide.<br>\n  One is used daily to help folks decide.<br>\n  No, not the Bible, but the TV Guide.<br>\n  As the pages are turned, what shall they see?<br>\n  Oh, what does it matter, turn on the TV.<br>\n  So they open the book in which they confide.<br>\n  No, not the Bible, but the TV Guide.<br>\n  The Word of God is seldom read.<br>\n  Maybe a verse before they fall into bed.<br>\n  Exhausted and sleepy and tired as can be.<br>\n  Not from reading the Bible, from watching TV<br>\n  So then back to the table side by side,<br>\n  Lie the Holy Bible and the TV Guide.<br>\n  No time for prayer, no time for the Word,<br>\n  The plan of Salvation is seldom heard.<br>\n  But forgiveness of sin, so full and free,<br>\n  Is found in the Bible, not on TV.</p>\n  <p>Author unknown<br>\n  (email forward)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "edbdf1e59a28b8f911b05d2c5301292d74da9bb2d4da408e695caea76f2069ac"
+}

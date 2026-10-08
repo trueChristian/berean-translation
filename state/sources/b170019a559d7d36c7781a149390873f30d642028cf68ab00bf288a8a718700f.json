@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millersburg, OH",
+          "name": "Jesse Sutherland"
+        }
+      ],
+      "raw": "Jesse Sutherland\nMillersburg, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "420398b9-e4fa-449d-9aa2-3053fffb1e07",
+    "images": [
+      {
+        "alt": "A red apple resting on a stack of books",
+        "caption": null,
+        "credit": "unslpash.com",
+        "public_path": "/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-1.jpg",
+        "repository_path": "public/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-1.jpg",
+        "rights_note": "The page-2 masthead credits unslpash.com for printed page 18; no separate permission notice or licence terms are stated. The exact embedded 1913-by-2475 inverted-Adobe CMYK background was sample-inverted, converted to sRGB, and baseline-encoded at 225 dpi without changing its crop, aspect ratio, or orientation.",
+        "role": "opening full-page story background photograph",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Colored pencils and alphabet blocks on a desk",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-2.jpg",
+        "repository_path": "public/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-2.jpg",
+        "rights_note": "No separate image credit, licence, or permission notice is stated for the full-page background on printed page 19. The exact embedded 1914-by-2475 inverted-Adobe CMYK background was sample-inverted, converted to sRGB, and baseline-encoded at 225 dpi without changing its crop, aspect ratio, or orientation.",
+        "role": "continuation full-page story background photograph",
+        "sequence": 2,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "1d33b847-4514-5cad-bb2b-b62194674900",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHILDREN’S CORNER",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Never Give Up",
+    "topics": [
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "5dc95edb-5795-5d8d-8363-fcb7d2ce7668",
+      "4896beb5-d08b-51cf-a626-d8cef3c1b2ec",
+      "7cbeb8b9-7135-5056-a214-12c171f77b8e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "11165a37e75a320eed7eb98ee7658e9e6fce7df4f2a9b8dae53c773ac8ad7f8d",
+    "metadata_sha256": "5d3915eed7e02b5897ee6dac34d21138bd534696d66b1d8aac9136a43ecea56d",
+    "structure_sha256": "392a80b093f8d644b3513c4a54b3972ee170e1cda96cb10a5c01daa4aa5fe8f0",
+    "text_sha256": "f31d14ad1ee361b6a306967363a8c6034f70a9a439c2cd3b2d1c0d0c71d9555d",
+    "translation_metadata_sha256": "af37fc7d3fb51e3f3b3ffd5ee56d7b885a8a8db0aafbc6560da77b4a09da2488"
+  },
+  "html": "<article data-article-id=\"420398b9-e4fa-449d-9aa2-3053fffb1e07\">\n  <figure>\n    <img src=\"/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-1.jpg\" alt=\"A red apple resting on a stack of books\">\n  </figure>\n\n  <p class=\"drop-cap\">Around forty years ago, there was a baby boy born who we will call Larry. As he started to become a toddler his parents discovered that he had some learning problems. They took him to a doctor when he was around four years old. After checking him out, the doctor told Larry’s parents that he had some bad news for them. “Larry has such bad dyslexia that he will never learn how to read or write.” (Dyslexia is a learning disorder that causes a person to have lots of trouble to learn how to read and write as well as how to figure math problems.)</p>\n\n  <p>Larry had a godly mother who cared very much for him. She spent many, many hours working with him and finding lots of different ways to teach him how to read, write, and do math. She often encouraged him to “Never give up” whenever he was having a difficult day in school. She knew that the Bible teaches us to persevere (or to never give up). In Galatians 6:9 it says, “And let us not be weary in well doing: for in due season we shall reap, if we faint not.” Studying his lessons in school was very difficult for Larry. He often got discouraged, yet he never gave up!</p>\n\n  <p>Eventually, he learned how to read, to write, and to do math.</p>\n\n  <p>Many years went by and Larry grew up, becoming a man. He gave his heart to God and was born again. After spending a couple of years on the mission field, Larry felt God asking him to become a nurse. To become a nurse meant that Larry had to go back to school for several more years. There were times that his schoolwork was quite challenging. Sometimes, after having a rough time with his schoolwork, Larry would call his mother. He would tell her that he was ready to quit classes because he was having such a hard time learning. Can you guess what she would tell him? “Never give up,” she would say. “You can do it with God’s help!” Larry ended up passing all of his classes and becoming a nurse! He is very thankful that he had a caring mother who taught him to “Never give up.”</p>\n\n  <figure>\n    <img src=\"/images/articles/420398b9-e4fa-449d-9aa2-3053fffb1e07-2.jpg\" alt=\"Colored pencils and alphabet blocks on a desk\">\n  </figure>\n\n  <p>There are times that even adults face some very difficult times in life. In these times, they may feel like giving up. But it is important that we “Never Give Up” because Matthew 24:13 says, “But he that shall endure to the end, the same shall be saved.”</p>\n\n  <p>The next time you find something difficult to complete and you feel like giving up, remember that God wants you to keep on trying until you accomplish the task before you. This lesson is important to learn when you are young. There are many things that God wants us to learn. It is easier to learn something when we are young instead of waiting until we are old. Also, if we have a teachable attitude, it is much easier to learn than if we choose to have a stubborn will. Thus, God teaches us as we surrender our lives to Him and His will.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d11407c911811ad2ed9c84c228022508ef4e230701a68e64ad4034684e6acca9"
+}

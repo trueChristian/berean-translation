@@ -1,0 +1,47 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Susan M. Stalter"
+        }
+      ],
+      "raw": "- Susan M. Stalter"
+    },
+    "categories": {
+      "additional": [
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c93eb933-a776-4294-b21d-340cfbb192a8",
+    "images": [],
+    "issue_id": "934674be-3d92-5ead-975d-588238f753ab",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "The Call of Heathen Lands",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ec3c4e747722f257746730a77466fae5e64ddd824d4e4bda3189490706cfb21d",
+    "metadata_sha256": "8bb2e8d1cb4e747ed9920e13ff5cfc5751473fb0ce9dc7ee1c14c0c317502610",
+    "structure_sha256": "d58c13c11673e4580474129062101643bd83bd7be47f3aa3c29e6d3e7d5345e0",
+    "text_sha256": "d8d9cb5abafdef3cab4416f0154d59a8bf59c3357ade62ca8537ad11677df38e",
+    "translation_metadata_sha256": "9c540d8351b3d8120dacaff017189c9180b5ddce19150115da34c97c99b2058d"
+  },
+  "html": "<article data-article-id=\"c93eb933-a776-4294-b21d-340cfbb192a8\">\n  <p class=\"poem\">Hark! The heathen lands are calling,<br>\n    Asking, pleading—Hear their cry?!<br>\n    “Please send someone who will tell us<br>\n    How the Saviour came to die!”</p>\n  <p class=\"poem\">Perishing in sin’s sad anguish;<br>\n    Who will tell them of Christ’s love?<br>\n    Who will spend their life in service,<br>\n    For the One who’s shown them love?</p>\n  <p class=\"poem\">God has giv’n His Son so precious,<br>\n    Thus has paid the price so high;<br>\n    Oh, but someone must go tell them,<br>\n    Ere they perish,—Ere they die!</p>\n  <p class=\"poem\">“Lord, behold the fields of harvest,<br>\n    Ripened heads of golden grain;<br>\n    Send more labour’rs these to gather,<br>\n    Lest Christ’s death for them be vain!”</p>\n  <p class=\"poem\">Other nations, foreign cultures,<br>\n    How they tug upon my heart!<br>\n    To show them the love of Jesus,<br>\n    Gladly with this land I’ll part.</p>\n  <p class=\"poem\">“Here am I, oh, Father send me,<br>\n    Wheresoever Thou dost choose;<br>\n    Just to bring more souls to Jesus,<br>\n    I would my life in Thee lose!”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "a34ba1a5c96b970227d656ac6534ac22719ad9fabccecb46eaf114af28cd9bc2"
+}

@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "birth_year": 1822,
+          "death_year": 1882,
+          "location": null,
+          "name": "Samuel Johnson"
+        }
+      ],
+      "raw": "— Samuel Johnson (1822-1882)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "8f996405-d870-4074-947b-35190faad643",
+    "images": [
+      {
+        "alt": "A snowy path beside bare winter trees",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg",
+        "repository_path": "public/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg",
+        "rights_note": "No separate credit is stated for this image on printed page 7; rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "City of God",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b8209573121257a7901424a7bfb90022361abcbc9da796e312d4b81576b58c76",
+    "metadata_sha256": "47db296ea79ea07a294bf85d92a1debc5b9c2d81510c1d0826a5cb64af3317d4",
+    "structure_sha256": "959c364d26c3b19ed5e303d52866f71bd158c9ef88a385dbff3c3df7a2329224",
+    "text_sha256": "0f66d9bc049ba0d2cb538ef95f82c6851b594f263cd470f6917c5d607d5d37d7",
+    "translation_metadata_sha256": "8feb399a34172425f22bfff31e087b0dc216816636f4884272b9093504108beb"
+  },
+  "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"A snowy path beside bare winter trees\">\n</figure>\n\n<div class=\"poem\">\n  <p>City of God, how broad and far<br>\n  outspread thy walls sublime!<br>\n  The true thy chartered freemen are<br>\n  of every age and clime:</p>\n\n  <p>One holy church, one army strong,<br>\n  one steadfast, high intent;<br>\n  one working band, one harvest-song,<br>\n  one King omnipotent.</p>\n\n  <p>How purely hath thy speech come down<br>\n  from man's primaeval youth!<br>\n  How grandly hath thine empire grown<br>\n  of freedom, love, and truth!</p>\n\n  <p>How gleam thy watch-fires through the night<br>\n  with never-fainting ray!<br>\n  How rise thy towers, serene and bright,<br>\n  to meet the dawning day!</p>\n\n  <p>In vain the surge's angry shock,<br>\n  in vain the drifting sands:<br>\n  unharmed upon the eternal Rock<br>\n  the eternal city stands.</p>\n</div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd"
+}

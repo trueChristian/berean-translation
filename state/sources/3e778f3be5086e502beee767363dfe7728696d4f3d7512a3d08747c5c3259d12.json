@@ -1,0 +1,430 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "credentials": "Th.D., Ph.D.",
+          "location": "Longwood, FL",
+          "name": "Joseph A. Webb",
+          "role": "President of C.P.R. Ministries International Inc."
+        }
+      ],
+      "raw": "by Joseph A. Webb, Th.D., Ph.D.\nPresident of C.P.R. Ministries International Inc., Longwood, FL"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "cbfbc379-cb4c-49a9-8119-2119ce52b24f",
+    "images": [
+      {
+        "alt": "Scroll bearing hearts and clasped hands",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-1.png",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-1.png",
+        "rights_note": "Original embedded PDF image object 13; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The lower-resolution repeat of this motif on pages 4–11 is represented once by this full-size original. No separate image credit or article-specific image reuse restriction is printed. Original lossless grayscale PNG extraction retained without recompression or color alteration.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "export_pixel_dimensions": [
+            517,
+            612
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 13,
+          "source_pixel_dimensions": [
+            517,
+            612
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "lossless grayscale PNG",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Armed figures and a procession approaching a walled city",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-2.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-2.jpg",
+        "rights_note": "Original embedded PDF image object 18; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 4,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            17,
+            17,
+            655,
+            424
+          ],
+          "export_pixel_dimensions": [
+            638,
+            407
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 18,
+          "source_pixel_dimensions": [
+            678,
+            437
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Travellers with laden animals beside hills",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-3.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-3.jpg",
+        "rights_note": "Original embedded PDF image object 23; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 5,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            14,
+            15,
+            656,
+            428
+          ],
+          "export_pixel_dimensions": [
+            642,
+            413
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 23,
+          "source_pixel_dimensions": [
+            674,
+            443
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Travellers and a laden donkey facing a group of men",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-4.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-4.jpg",
+        "rights_note": "Original embedded PDF image object 22; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 5,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            750,
+            523
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 22,
+          "source_pixel_dimensions": [
+            750,
+            523
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Camels and people beside water",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-5.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-5.jpg",
+        "rights_note": "Original embedded PDF image object 27; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 6,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            521,
+            750
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 27,
+          "source_pixel_dimensions": [
+            521,
+            750
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A seated man holding a bowl beside a standing hunter",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-6.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-6.jpg",
+        "rights_note": "Original embedded PDF image object 31; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. Cropped the baked exterior frame, white margin or drop shadow at the visible image boundary without retouching its content. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 6,
+        "source_page": 7,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "crop_pixels_left_top_right_bottom": [
+            22,
+            24,
+            656,
+            673
+          ],
+          "export_pixel_dimensions": [
+            634,
+            649
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 31,
+          "source_pixel_dimensions": [
+            678,
+            694
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "An elderly seated man reaching toward a kneeling figure",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-7.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-7.jpg",
+        "rights_note": "Original embedded PDF image object 35; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 7,
+        "source_page": 8,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            750,
+            491
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 35,
+          "source_pixel_dimensions": [
+            750,
+            491
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Adam and Eve beside a tree in a circular drawing marked ADAMIC COVENANT",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-8.png",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-8.png",
+        "rights_note": "Original embedded PDF image object 39; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The ADAMIC COVENANT lettering is intrinsic to the substantive source illustration and retained. No separate image credit or article-specific image reuse restriction is printed. Original lossless grayscale PNG extraction retained without recompression or color alteration.",
+        "role": "illustration",
+        "sequence": 8,
+        "source_page": 9,
+        "transformation": {
+          "export_pixel_dimensions": [
+            692,
+            689
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 39,
+          "source_pixel_dimensions": [
+            692,
+            689
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "lossless grayscale PNG",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A seated elderly man facing a family group",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-9.jpg",
+        "repository_path": "public/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-9.jpg",
+        "rights_note": "Original embedded PDF image object 43; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 9,
+        "source_page": 10,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            690,
+            420
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 43,
+          "source_pixel_dimensions": [
+            690,
+            420
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 3
+    },
+    "subtitle": "(originally) Don’t Confuse A Sin With A Covenant",
+    "title": "The Marriage Covenant",
+    "topics": [
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "9d35b189-13cf-5a05-9518-ca06b066d53d",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "199adf86f059c653e42caf933df27f158264dc929b5278159736bf9575fb0727",
+    "metadata_sha256": "2327ab610b75960813e7287ec83f6b29d311f8f48cd3b931c0c934e9345a1902",
+    "structure_sha256": "7ebc356b851bdc95d9bcd193f6538baadc37b91eea4dc0ecd6ddc6b408dcfce9",
+    "text_sha256": "26feeb04be5893a8e7290760b549dba28367b4bc58f3816452bb8047f6417bea",
+    "translation_metadata_sha256": "1f7a993ebac4292e6db67ee11ca9299d72d1a55ff7af58f10811e9380bd619a3"
+  },
+  "html": "<article data-article-id=\"cbfbc379-cb4c-49a9-8119-2119ce52b24f\">\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-1.png\" alt=\"Scroll bearing hearts and clasped hands\" /></figure>\n  <p>There is a great amount of rationalism and foggy misinformation floating around in the Church today concerning Biblical covenants, which have led to uncertainty and a loss of the sense of God’s holiness, righteousness and justice. This condition soon eliminates any sense of a fear of God, along with an attitude of, “Whatever we do, God will go along with it.’“ It ignores completely God’s warning’s In Deuteronomy 23:21-23 and Ecclesiastes 5:4-6; <em>“When thou vowest a vow unto God, defer not to pay it...pay that which thou hast vowed...neither say thou before the angel. that it was an error: wherefore Should God be angry at thy voice, and destroy the work of thy hands…but fear thou God.”</em></p>\n  <p>Let me share with you some examples of such rationalism.</p>\n  <p>“Yes, I know that remarriage is a sin because marriage is for life. BUT, life long marriages are God’s perfect will, and we have to be realistic. After all, Jesus was teaching God’s ideal; but we know however, real life is not like that. Yes, remarriage is a sin, but if you don’t believe God can forgive that sin of adultery, then you have found “the only unpardonable sin.”</p>\n  <p>Have you heard that before: “The unpardonable sin?”</p>\n  <p>I have had many people present that argument to me. Actually, however, there are several answers to such an argument, and we all need to be aware of them.</p>\n  <p>The first answer is one I learned from a dear brother in Canada. He stated and I agree; “Jesus Christ didn’t die for sin. Jesus Christ came to die for repentant sinners.” This is, why the longest chapter in my book, <em>Till Death Do Us Part?</em>, is titled <em>Repentance</em>. God hates sin and loves the repentant sinner. This is why the scriptures say over and over, <em>“Except ye repent, ye shall all likewise perish.”</em> Forgiveness is for those who are willing to receive God’s provision for their sins—repent and declare Jesus Christ as Lord of their lives.</p>\n  <p>One man said, “I have a friend who was married the first time at the age of eighteen. One week later he divorced this woman. After remaining single for over eight years, he married again and has now been married to this second woman for 25 years. Does the permanence of their present, long term relationship make a difference?”</p>\n  <p>I said, “I’ll answer that if you will first answer another question for me. How many other sins can you name that die of old age? Does lying? Sodomy? or Prostitution? Do any of these ever quit being sin if you do them long enough?” The Word of God is clear as to how we should classify those who persist in living with anyone other than their first marriage partner while their first partner is still alive, even if it is for 50 years. In Romans 7:3; Paul, the apostle, called it a perpetual state of <em>“adultery” (she shall be called an adulteress)</em>. Again, in Galatians l:8 &amp; 9, Paul, who had supernaturally been <u>given</u> revelation truth directly from Jesus Christ, while in the Arabian Desert, said, <em>“though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed. As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be ACCURSED.”</em></p>\n  <p>If we are talking of any sin, the unchanging biblical requirement for forgiveness is not to let it die of old age, but to repent of it no matter how long it has been going on. Time will never change it’s status: it is and remains SIN!</p>\n  <p>Please know that all adultery is SIN—but it is much more than sin. It is the violation of a covenant. I can repent of my sin and be totally forgiven, but repentance and saying you are sorry does not affect, stop or change a covenant. You and I must repent of our violation of the life long covenant we made before God, and, if possible, reestablish our relationship through complete forgiveness, or live a celibate lifestyle.</p>\n  <p>Have you ever had anyone tell you they had a right to get divorced because their original spouse was not who they said they were when they were dating. They were deceptive and therefore the covenant was void and they could remarry. Such people are ignorant of the clear teaching and conditions of a biblical covenant such as the marriage covenant.</p>\n  <p>Joshua, the son of Nun learned the need to be very careful about making a valid, non forbidden covenant with anyone—because once made, even if it was made in deception, it’s terms can only be violated, but never broken or dissolved.</p>\n  <h2>1. A Deceptive Covenant</h2>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-2.jpg\" alt=\"Armed figures and a procession approaching a walled city\" /></figure>\n  <p>In Joshua 9, Joshua was proceeding to conquer the land promised to Israel as God had commanded him to do. He was proceeding as directed to kill all of the inhabitants of that land. In verse 3, when some of the Amorites (one of the tribes inhabiting the land God had commanded Joshua to destroy) who lived in the city of Gibeah, and called Gibeonites, heard that Joshua was coming to destroy them, the scriptures tell us they decided to fool Joshua with trickery. They put on old clothes, took moldy bread, old wineskin, worn out shoes and covered themselves with much dust. Then they rode their camels over the hill to meet Joshua and told him that they had come from a far away land, having heard of his great army and his God who was conquering all the nations before him. They said they had come to make a treaty with Israel. Please make note of this important fact: they are lying through their teeth! In verse 14, it says that Joshua and his men looked at them and were convinced that they were telling them the truth because of their appearance and the condition of their food and garments. The bible says they “didn’t even inquire of the Lord.” Instead, vs. 15 says Joshua and his leaders “made a peace covenant with them.”</p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-3.jpg\" alt=\"Travellers with laden animals beside hills\" /></figure>\n  <p>Immediately after this, someone found out that they were not from far away as they had implied; instead, they were from just over the hill. Joshua and his men then realized they had been lied to. You would think Joshua and his men would have risen up and killed all of them for their lies, and for making them look very foolish. You would think they would have said, like many today would say, “We didn’t know what we were doing. They fooled us.” But vs. 18 says, <em>“And the children of Israel smote them not because the princes of the congregation had sworn unto them by the Lord God of Israel.“</em></p>\n  <p>These men understood the seriousness of a verbal vow. They didn’t dare touch them.</p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-4.jpg\" alt=\"Travellers and a laden donkey facing a group of men\" /></figure>\n  <p>Instead, from then on, Joshua not only let them live, but had to protect them from all of their enemies as he and his men had promised they would do in the covenant.</p>\n  <p>The next time we hear anything about this covenant with the Gibeonites, is approximately four hundred thirty years later. In I1 Samuel 21:1, where it says;</p>\n  <blockquote><p><em>Then there was a famine in the days of David three years, year after year: and David enquired of the Lord. And the Lord answered, It is for Saul, and for his bloody house, because he slew the Gibeonites.”</em></p></blockquote>\n  <p>Evidently, Saul was upset because there were so many of the Gibeonites working all around the tabernacle, and he had many of them killed.</p>\n  <p>Please remember now; originally, God had commanded Joshua to kill all the inhabitants of the land. In this scene, Saul had only killed a few Gibeonites, which was a violation of Joshua’s covenant, which caused the Lord to send a severe drought upon the land of Israel. This violation by Saul occurred over three hundred forty years after Joshua had made the deceptive covenant with the Gibionites. God clearly stated the drought was Saul’s fault, because he had killed these Amorites in violation of the still standing, still valid “deceptive covenant.” Why would God do that to Israel when He had originally said “kill them all?” It was only because of the COVENANT and affirms that God is a Covenant honoring God!</p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-5.jpg\" alt=\"Camels and people beside water\" /></figure>\n  <p>David then asked the Lord how he could resolve the problem. God told David to ask the Gibionites. David went to the leaders of the Gibeonites and declared what the Lord had told him. He then asked the Gibeonites how he, as king, could honorably resolve this violation of the covenant to make atonement for the ones Saul had killed. In accordance with God’s standard for Israel. (If a life be taken, a life must be taken.) The Gibeonites told David to give them <em>“seven of Saul’s sons that they might hang them.”</em> He did, and they hanged them.</p>\n  <p>In II Samuel 21:14c is a very shocking and enlightening statement. It says, <em>“And after that</em> (after Saul‘s seven sons were hanged) <em>God was entreated for the land.“</em> After the violation of the covenant was vindicated by the hanging of Saul’s seven sons, God again answered David’s prayer and ended the drought. What we must not fail to see here is the same covenant that was violated and vindicated, did not and has not changed or ceased to exist. It was only violated, not destroyed.</p>\n  <p>Can you imagine how much David must have prayed and wept before the Lord during those three years without results until he had made restitution for the covenant that was devised in deception, but confirmed by God because of the verbal agreement (covenant) that was spoken before God, without seeking His counsel? Once the covenant was stated in His presence, it was acknowledged, confirmed and enforced by God Himself.</p>\n  <p>How many times have you heard people try to get out of a promise by saying, “I didn’t know what I was saying,” or “I didn’t understand the seriousness of what I was saying at that time.” To that, God says, “A valid, non forbidden covenant, is a covenant, and I am a covenant honoring God.” This even includes a covenant created through deception. God may forgive the lie we told when we made the covenant if we repent, but it won’t affect the covenant agreement.</p>\n  <p>Another rationalistic argument I heard while being interviewed on a radio program was, “I cannot believe God would hold an eighteen year old young man or woman to a promise for the rest of their lives. They probably didn’t understand the seriousness of a marriage vow. If they didn’t understand and flippantly made some promises, God will not hold them accountable.”</p>\n  <p>Again, Scripture flies in the face of such an argument.</p>\n  <h2>2. A Flippant Covenant</h2>\n  <p>Look at Genesis 25:29 where we read about Jacob and Esau. Esau had just come in from the field and was very hungry and asked his brother Jacob for some pottage he was cooking.</p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-6.jpg\" alt=\"A seated man holding a bowl beside a standing hunter\" /></figure>\n  <p>Jacob, whose name means ‘supplanter” defined in the dictionary as <em>“to dispossess and take the place of (another), especially by treacherous or dishonorable means”</em>, evidently, immediately saw an opportunity to take advantage of a very unique situation with his brother Esau. In verse 31, he said to his brother Esau, <em>“Sell me this day thy birthright.”</em></p>\n  <p>Esau responded by saying, “Man, I’m starving and you are worried about a birthright? Big deal!”</p>\n  <p>Jacob wisely responded in verse 3 by saying: “Swear to me this day” (literally: vow to God that it is mine).</p>\n  <p>The same verse says, <em>“And Esau swore to Jacob”</em>, that he could have his birthright. The end of verse 34 says, <em>“Esau despised his birthright.”</em></p>\n  <p>Many today might say, “That was just two teenage brothers messing around. God certainly isn’t going to get up tight about a little foolish thing like that. A lot of people say dumb things like that and don’t even stop to think about it. I surely hope you wouldn’t try to make a doctrine out of that.”</p>\n  <p>They would be absolutely right about one thing: there are millions of young people today who are making vows before God and many other witnesses during their marriage ceremonies who are later on saying it really didn’t mean anything, we were just dumb kids and we didn’t know what life was all about. “God certainly isn’t going to hold us accountable for the promises we made in the excitement of young puppy love.”</p>\n  <p>Before anyone gets too comfortable with those thoughts, turn with me to Hebrews 12:14-17. Here, over 1900 years later, the writer to the Hebrew’s, under the inspiration of the Holy Spirit, spoke, “God breathed words concerning the verbal exchange made by Jacob and Esau,” that should haunt every person who has treated past covenants lightly.</p>\n  <p><em>“Follow peace with all men, and holiness, without which no man shall see the Lord...Lest there be any fornicator</em> (doer of sexual sins) <em>or profane person</em> (one who becomes careless about the things of God), <em>AS ESAU</em> (the writer is saying let Esau’s example be a warning to you), <em>who for one morsel of meat sold his birthright. For ye know how that afterward</em> (later on, when he changed his mind about his birthright, when he could have inherited the blessing), <em><u>HE WAS REJECTED</u>: for he found no place of repentance</em> (it was too late), <em><u>though he sought it carefully WITH TEARS</u>.“</em> Verse 25 then says, <em>“See that ye refuse not him that speaketh. For if they</em> (Esau) <em>escaped not, who refused him that spake on earth</em> (Moses), <em>much more shall not we escape, IF we turn away from him that speaketh from heaven</em> (Christ).” Verse 28-29 says, <em>“Let us have grace, whereby we may serve God acceptably with reverence and godly fear</em> (literally, awe). <em>For our God is a consuming fire.“</em></p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-7.jpg\" alt=\"An elderly seated man reaching toward a kneeling figure\" /></figure>\n  <p>I am sure that Esau repented and repented and repented telling God how sorry he was for ever saying what he said to Jacob that day; and, I am also sure that God, in His infinite mercy, forgave him for his foolishness and flippancy. God, however, would not, no, could not, change the covenant without violating His own holiness, righteousness, and justice. He heard the words spoken by Jacob, and Esau’s response, and acted upon them. The covenant was established and confirmed by God Himself.</p>\n  <p>We have already seen where the bible tells us that <em>“death and life are in the power of the tongue“</em> (Proverbs 18:21).</p>\n  <p>In Matthew 5:33&amp;37, Jesus said, <em>“Again, ye have heard that it hath been said by them of old time</em> (Jesus was referring to Deut. 23:21-23 &amp; Eccl. 5:4-6), <em>Thou shalt not forswear thyself</em> (You shall not make and then break your vows to God, but will fulfill them all), <em>but shall perform unto the Lord thine oaths…But let your communication be yea, yea, nay, nay. For whatsoever is more than these cometh of evil.”</em></p>\n  <p>It is of great significance that the Lord said these words immediately after he told His disciples the only time they could get a divorce was during the time of betrothal (Matthew 5 &amp; 19). He was clarifying once a man and a woman vow themselves to each other for the first time. He supernaturally glues them together for life, and, <em>“that no man can separate what He has joined together.”</em></p>\n  <p>Regardless of the arguments you have heard to the contrary by those who are defending immorality and lies, you and I must stand strong for God’s eternal word. Any valid, non forbidden covenant, whether borne out of a lie or flippancy or ignorance, is still a covenant in God’s eyes. He will forgive your foolishness, or ignorance, but that will not, and does not effect or make void the covenant. It still stands! It stands because it represents “a decision, not a feeling.” Feelings can come later, but the decision stands in God’s sight for the duration of the spoken covenant, <em>“so long as we both shall live.”</em></p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-8.png\" alt=\"Adam and Eve beside a tree in a circular drawing marked ADAMIC COVENANT\" /></figure>\n  <p>Allow me to add one other observation here: many pastors today are recommending couples getting married to exclude the phrase “so long as we both shall live”, or “till death do us part.” They somehow think their failure to say it will allow the couple to later break up without violating a promise made. Here is a clear case of <em>“the blind leading the blind.”</em></p>\n  <p>It is God who created the universal marriage law and He is the chairman of the board of a close corporation with NO voting rights. He says when any man and woman come before him, each having never married before or a widow or widower and say, “I _____ take thee _____ to be my lawfully wedded wife”, IT IS DONE! All the rest is frosting and smoke.</p>\n  <p>When Adam had Eve presented to him in Genesis 2:22-24 and he responded by saying, <em>“This is now bone of my bones, and flesh of my flesh: she shall be called woman, because she was taken out of Man.”</em> That is all he said; and God immediately spoke up and said, <em>“Therefore”</em> (Whenever you see ‘therefore’ in scriptures, something just happened; so you must see what it is there for. Something significant just took place. With those few words spoken by Adam, a covenant was just established; the terms of which were FOR LIFE).</p>\n  <p>In verse 24, because of what was just SPOKEN by Adam, God said, <em>“Therefore shall a man leave his father and his mother, and shall CLEAVE unto his wife and <u>THEY SHALL BE ONE FLESH</u>.”</em></p>\n  <p>Let me ask you, did Adam SAY, <em>“Till death do us part?”</em> or <em>“So long as we both shall live?”</em> No! He only verbally accepted Eve and the Universal Law of the Marriage kicked in automatically, with all it’s parameters, restrictions and privileges, whether either one verbalized them or not.</p>\n  <p>Always remember, God does not demand us to marry the one we love, but He does command us to love the one we married. That, by the way, is not a suggestion, but a divine command. It is imperative that you and I get this message to the Church before it is eternally too late. Paul warned us to expect certain visible conditions that would appear in the <em>“Last days.”</em> II Timothy 3:I-4 <em>“This know also that in the last day perilous times shall come…Without natural affection</em> (normal family affection, i.e., parents toward their children and husband or wife toward each other)...<em>truce breakers</em> (Vine says this Greek word means refusing to abide by covenants made)...<em>lovers of pleasures more than lovers of God.”</em> Does this seem to you as though it were taken from tomorrow’s newspapers?</p>\n  <figure><img src=\"/images/articles/cbfbc379-cb4c-49a9-8119-2119ce52b24f-9.jpg\" alt=\"A seated elderly man facing a family group\" /></figure>\n  <p>Many today who profess themselves to be Christians are <em>“covenant breakers”</em> (according to the latest Barna survey reports, the present divorce and remarriage rate among ‘born again, evangelical believers’ is over seven percent higher than unbeliever’s marriages), but the God they profess to serve is a holy, covenant keeping God. May God help us to exemplify our Heavenly Father in every area of our lives, but especially in our marriages.</p>\n  <p>We at Christian Principles Restored Ministries International Inc. are deeply aware that this is one of the most crucial and critical messages for the Church of Jesus Christ to hear today. We also realize the social and moral disintegration we are witnessing around us is a clear fulfillment of prophecy signaling the soon coming or our Lord Jesus. May we be found faithful to His Word. May God richly bless you as you determine not to be just a <em>“hearer of His Word, but as a doer!”</em></p>\n  <p>The epistle of James says, in James 1:21-25, <em>“Wherefore lay apart all filthiness and superfluity of naughtiness, and receive with meekness the engrafted word, which is able to save your souls. But be ye DOERS of the word, and not hearers only, deceiving your own selves…But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a DOER OF THE WORK, this man shall be blessed in his deed.”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7a3d4b2e1a88c6c4e219fa64cac395947344ee892c83be7aa2269339fa4e28b6"
+}

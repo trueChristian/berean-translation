@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "d2b6492b-231a-4720-ae3d-edfca333e044",
+    "images": [],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "THANK YOU!!    THANK YOU!!    THANK YOU!!",
+    "topics": [
+      "6c7b3485-0894-5c43-9ca5-dfb913e45c90"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4ce13227b7ba3e98921a94e22560e6678490feed36179eaf354a731359a2e158",
+    "metadata_sha256": "e857893de20bd9871c6b9a3b9c2aaa896e283032634ac3cb86314f25e466b3c1",
+    "structure_sha256": "439474ad0502fc6e312cbe96d51430e308b32688be92229b7a8d14bdf2d2a0da",
+    "text_sha256": "d1834ec619341c335613b435f729f1c72c226002699d1489d02fc814ddeb73dd",
+    "translation_metadata_sha256": "1a1daa7ffe22981a8580fbc2f9b74526627ef2c530ec6c1ad272f09250f94fbf"
+  },
+  "html": "<article data-article-id=\"d2b6492b-231a-4720-ae3d-edfca333e044\">\n  <p>Many, many thanks to all who responded so generously to the need we made known in our last issue. In the July/August Remnant, we made known our need of Tape Ministry funds and since then we have received a tremendous response. Enough donations have been received to move us from $40,000 below to currently $20,000 above! We are awed, and thank God and all of you who unselfishly and generously gave of that which God has blessed you with.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "efd28ba2cad703338860f60dbc33f6b4080b8134110e99224c66d57802d2cf97"
+}

@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Claudia Esh",
+          "role": null
+        }
+      ],
+      "raw": "—Claudia Esh"
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "3ffcb3c6-d608-4d9a-8efb-bf25a3652040",
+    "images": [],
+    "issue_id": "52c67fc6-2d91-51a3-ae55-c8134ad2ed53",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "The Heritage of the Faithful",
+    "topics": [
+      "c477861f-c67f-529a-a8f0-8efa036eca44",
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "d98d2776-11d0-5852-be8d-67a88feaeb5e",
+      "f7f27122-72f6-56a9-8a18-7a5ace5e3f26"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e662dbbf157dc1208c8fb18880c6579d40018a4e6738f5e6c87a1f4e523f7c44",
+    "metadata_sha256": "ede079edd2dff9304ed71784fab07228b0d0d5cb6e74703024711246bf9fea9d",
+    "structure_sha256": "5cb93689111a316960274c5d37d68cc77c07b4ead40da7a72cc45877d937ca9a",
+    "text_sha256": "e9b4f1ef9d5375230aab62cc8b09f36b9a87e8145230b6f880313a86f2d78871",
+    "translation_metadata_sha256": "8cf1a97be58673441d2f02ef81b5ba3d2967b90720a70747a430efd8a8491e89"
+  },
+  "html": "<article data-article-id=\"3ffcb3c6-d608-4d9a-8efb-bf25a3652040\">\n  <p class=\"poem\">Don’t forget your heritage,<br>\n  Ye Christians of today,<br>\n  For many others fought and wept,<br>\n  While traveling this Way;<br>\n  They feared and loved, they lived and died,<br>\n  For the Almighty’s love,<br>\n  They smoothed the paths we travel now,<br>\n  Leading us above.</p>\n  <p class=\"poem\">In the Roman days of old,<br>\n  Apostles spread the news,<br>\n  Of endless love for everyone,<br>\n  Though they be Greek or Jews;<br>\n  They rallied ‘round the cross of Christ,<br>\n  And did not shrink or fear,<br>\n  They lit the torch we carry now,<br>\n  Burning bright and clear.</p>\n  <p class=\"poem\">Through ‘Dark Ages’ they marched on,<br>\n  A remnant small and weak,<br>\n  The ‘Church’ fought hard against the ones<br>\n  Who sat at Jesus’ feet;<br>\n  They believed the love of Christ above,<br>\n  And trusted in His plan;<br>\n  The gates of Hell did not prevail—<br>\n  God kept them in His hand.</p>\n  <p class=\"poem\">When Reformation fires burned,<br>\n  And many saw the Light,<br>\n  When turmoil raged in Europe’s plains,<br>\n  The wrong against the right,<br>\n  Then hundreds followed Christ their King,<br>\n  Through fire and the sword;<br>\n  They, even in the face of death,<br>\n  Would not deny the Lord.</p>\n  <p class=\"poem\">The cross and banner of the Lamb<br>\n  Has triumphed through the years.<br>\n  The blessings we enjoy today<br>\n  Were sown in blood and tears.<br>\n  So don’t forget your heritage,<br>\n  O followers of the Way—<br>\n  Many others died for treasures<br>\n  That are ours today.</p>\n  <p class=\"author-signoff\"><em>—Claudia Esh</em></p>\n  <p class=\"author-note\">(Claudia is the daughter of Dave Esh, author of the article on Michael Sattler.)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c036b6a103f0b1ac6118582b909d6d2203e3426f33dd99b7fe9038a83bc57e0e"
+}

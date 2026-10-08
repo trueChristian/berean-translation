@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "D.L. Moody"
+        }
+      ],
+      "raw": "by D.L. Moody"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "47fc224f-59d6-491f-83f9-bfd6a435bfe1",
+    "images": [
+      {
+        "alt": "A man applying a substance to the top of a doorway",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/47fc224f-59d6-491f-83f9-bfd6a435bfe1-1.jpg",
+        "repository_path": "public/images/articles/47fc224f-59d6-491f-83f9-bfd6a435bfe1-1.jpg",
+        "rights_note": "PDF image object xref 81. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Source-pixel crop [725, 708, 1014, 1303]. Source-pixel crop isolates the illustration from the sole full-page raster and removes the title, byline, gray ground, border, shadow and outer fade. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "Is There BLOOD On The Doorpost?",
+    "topics": [
+      "87d9ba46-bf4d-5d45-a7c6-ce37e88c60be",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3823f11843ef48be78f23981712dc9f59c82f42590d3b0f03008e3fc65a29b49",
+    "metadata_sha256": "6f10b7b97b03a097c4989ef07be6f00de08d489a5e37fd73e306a5e3baad3a38",
+    "structure_sha256": "040d8edcdcde9cd09b480da453adc1139baaf23769e296d73f36d4f89d955bc5",
+    "text_sha256": "03f7334e898f64307b473b162ba1a521a0b8c3c128bccd3dcc0c56e925aadd13",
+    "translation_metadata_sha256": "45236b30d0ed7ee8c835724cacf515d68aaf5be027e72fbd786256ffc79ee5d7"
+  },
+  "html": "<article data-article-id=\"47fc224f-59d6-491f-83f9-bfd6a435bfe1\">\n<p>There is a beautiful legend told about a little boy who was the first-born of a family in Egypt, when the destroying angel swept through that land, and consequently who would have been a victim on that night if the protecting blood were not sprinkled on the doorposts of her father’s house. The order was that the first-born should be struck by death all through Egypt. This little boy was sick, and he knew that death would take him, and he might be a victim of the order. He asked his father if the blood was sprinkled on the door-posts. He said it was, that he had ordered it to be done. He asked him if he had seen it there. He said no, but he had no doubt that it was done. He had seen the lamb killed, and had told the servant to attend to it. But he was not satisfied, and asked his father to go and see, and urged him to take him in his arms and carry him to the door to see. They found that the servant had actually neglected to put the blood upon the posts! There the child was exposed to death until they found the blood and sprinkled it on the posts, and then it was safe. See to it that you are safe in Christ!</p>\n<figure>\n  <img src=\"/images/articles/47fc224f-59d6-491f-83f9-bfd6a435bfe1-1.jpg\" alt=\"A man applying a substance to the top of a doorway\">\n</figure>\n<blockquote><p><em>“And the blood shall be to you for a token upon the houses where ye are: and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy you, when I smite the land of Egypt (Exodus 12:13).”</em></p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "801b5d3eea14f7b5b9ca98b825267b2636f388454ff3a1d24cd067933750763a"
+}

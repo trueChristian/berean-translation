@@ -1,0 +1,132 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "A. B. Simpson"
+        }
+      ],
+      "raw": "by A. B. Simpson"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "d7faf1ae-2a21-4865-8795-083be58892a3",
+    "images": [
+      {
+        "alt": "A trumpet",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-1.jpg",
+        "repository_path": "public/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-1.jpg",
+        "rights_note": "Original embedded PDF image object 56; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 13,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            527,
+            326
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 56,
+          "source_pixel_dimensions": [
+            527,
+            326
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Men drinking beside a river with mounted figures nearby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-2.jpg",
+        "repository_path": "public/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-2.jpg",
+        "rights_note": "Original embedded PDF image object 55; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 13,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            747,
+            491
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 55,
+          "source_pixel_dimensions": [
+            747,
+            491
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "But Ye Are A Chosen Generation",
+    "topics": [
+      "30d1fd3e-fcf3-5720-b5d2-98c838f94d6d"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e4c0f5f53599edef269826ba8e447be167442a644c3b9c9b75037049684482f6",
+    "metadata_sha256": "748138f2daa24a8b3641c6990d69359e352802d8de03482c57950cf867ca20a3",
+    "structure_sha256": "4835a7b15fe43feb6b683e1510b4daf912ed41b70687f732d19a7b85e71b89f6",
+    "text_sha256": "8c9226fa8617d0cf305c40a3763f58753da86fd6d03afb1967e4f658204fa37b",
+    "translation_metadata_sha256": "2c6b0afb18cbe330a37330060eca01cabcc80a420b01ea88d6e0fea7a56878f8"
+  },
+  "html": "<article data-article-id=\"d7faf1ae-2a21-4865-8795-083be58892a3\">\n  <figure><img src=\"/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-1.jpg\" alt=\"A trumpet\" /></figure>\n  <p>Have you ever thought about the strange way in which God is calling a people out of a people already called? The word ecclesia, or church, means called out, but God is calling out a still more select body from the church to be His bride—those especially prepared for His coming. We see an illustration of this in the story of Gideon. When first he sounded the trumpet of Abiezer there resorted to him more than thirty thousand men; however, he was instructed by God to reduce the number. A first test was applied, appealing to their courage, and all but ten thousand returned home. But there needed to be an additional elimination, and so a second test was applied appealing to their prudence, caution and singleness of purpose, and all but three hundred were refused. With this small but select band, Gideon raised the standard against the Midianites. Through the power of God he won his glorious victory. So in this present day the Master is choosing His three hundred, and by them He will yet win the world for Himself. Let us be sure that we belong to the “out and out” people.</p>\n  <figure><img src=\"/images/articles/d7faf1ae-2a21-4865-8795-083be58892a3-2.jpg\" alt=\"Men drinking beside a river with mounted figures nearby\" /></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fba4eed3eea3908af8a6129698e2d88c987e0d258f3b26d0d395d63b1789572f"
+}

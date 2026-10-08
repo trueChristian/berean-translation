@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "395f64ec-1869-458f-98aa-23396431989c",
+    "images": [
+      {
+        "alt": "People beside a large wooden structure at a historic site",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/395f64ec-1869-458f-98aa-23396431989c-1.jpg",
+        "repository_path": "public/images/articles/395f64ec-1869-458f-98aa-23396431989c-1.jpg",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The PDF applied inverted decode semantics to the embedded one-channel separation JPEG; its samples were inverted and encoded as a three-channel baseline sRGB JPEG at 150 ppi, preserving the published dimensions, crop, orientation, and content.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "4ece4257-ac97-59c4-9a46-5ee9d7fb95d1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Opening the Ancient Wells",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8a4de4b1457bc23772af16f79bf322e69569c449d94ff078fd0a7fed0d08a864",
+    "metadata_sha256": "e8853244516ccbf83f54efc2179d4ff7a79a01c464dc04b18f129e99b4508978",
+    "structure_sha256": "d0f7bcb1bff8bf64a6dbb8d152dea8abb740f77f0485f1bb7dd789fe36640332",
+    "text_sha256": "7f7b8a9c49a5b840e90668697bde02121930dfa88c606d15adebdbbfcb8cd0af",
+    "translation_metadata_sha256": "079aa4393490ebb396296ecdb8be92a9ce70c9333d7e1107d59b4eb57b98c6b1"
+  },
+  "html": "<article data-article-id=\"395f64ec-1869-458f-98aa-23396431989c\">\n  <p class=\"drop-cap\">For the last three weeks I have been on a very interesting trip to Eastern Europe. A small church group from the Czech Republic city of Auspitz <em>(Hustopece)</em> had requested Anabaptist preachers and historians to come to their city for a historic celebration. The event was the celebration of the 480th year since the Anabaptists came to their city. Specifically this was when the Hutterites were first organized in Moravia in 1531. It was a great opportunity to tell people about Jesus and preach the gospel.</p>\n\n  <p>Landing in Germany, we were able to visit many historical sites as well as several small groups of believers along the way to Moravia. In each place that we stopped we earnestly prayed and asked God to visit this land with radical, living Christianity once again. The theme we used for the trip was the passage about opening the ancient wells found in Genesis 26:14-33. Isaac was hard at work reopening the ancient wells that his father Abraham had dug early in his life. The Bible reports that Abraham’s wells, which were once flowing with the rich blessings of God, were now stopped and filled with dirt. What’s more, as Isaac attempted to reopen the wells the Philistines fought with him to keep the wells plugged. But Isaac persevered, and eventually a well was opened. The rich water of God’s blessing flowed again.</p>\n\n  <figure>\n    <img src=\"/images/articles/395f64ec-1869-458f-98aa-23396431989c-1.jpg\" alt=\"People beside a large wooden structure at a historic site\">\n  </figure>\n\n  <p>As we visited the remains of these ancient powerful churches and compared it to modern times, the comparison was sobering. An impotent church and a presumptuous world greets the spectator. But just as in the days of Isaac, the ancient wells lie just below the surface. A fight is certain. The world will always fight to keep these wells filled with dirt. Our prayer was that God would visit us again and let the blessings of these ancient wells flow anew.</p>\n\n  <p>It’s been a long trip: three weeks, 12 countries, and over 6000 kilometers of driving have made me very tired. As my plane currently flies over Greenland on the way to Chicago, I ponder what lies ahead for modern Christianity. I love history, but my heart longs to see radical expressions of Christianity living in our time once again. Sometimes the fight seems too strong. But God is stronger, and it’s a fight that we must join.</p>\n\n  <p>In this issue Mike Atnip explains that he is going to be slowing up with writing and editing <em>The Heartbeat of the Remnant</em>. Mike wrote a little article in this issue explaining his new plans. I also have been very pressed lately. More help is needed to keep the magazine flowing in the right way. Mike and I have met with <em>The Heartbeat of the Remnant</em> board, and we all fell that it would be best to put the publishing of <em>The Heartbeat of the Remnant</em> on hold. Once we have more time or more people to help with this ministry, we can discuss publishing once again. For now, you will notice a break in the publishing.</p>\n\n  <p>In preparing for my preaching in Moravia I did a lot of study on the early history of the Hutterites in Moravia. I was impressed with what I found. In the late 1500s and early 1600s they were a powerhouse. Their zeal for following the Lord radically and their persistence for mission and outreach really challenged and inspired me. I developed the research into an article for this issue called “The Hutterite Mission Machine.”</p>\n\n  <p>Also in this issue you will find a lament, several centuries old, about the flood of lukewarmness that had invaded a revival movement. This makes one wonder what feelings Thieleman van Braght would have about us. Also, you will find an excerpt from an old, rarely published allegory about the heavenly city and its citizens. For the sisters we have a meditation on the life of Esther, and for everyone we have a mixture of smaller articles to stir us from our spiritual lethargy. May this issue of <em>The Heartbeat of the Remnant</em> be a goad to stir up our love for our King Jesus Christ!</p>\n\n  <p class=\"signoff\"><em>~Bro. Dean</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "49ef1a4c34a7629e443abc01e33d9a9ef94669b21d9b26a0d53d93ccb1c7d88f"
+}

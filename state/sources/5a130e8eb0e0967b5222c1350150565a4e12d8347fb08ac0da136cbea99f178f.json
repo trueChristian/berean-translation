@@ -1,0 +1,155 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millersburg, Ohio",
+          "name": "Paul Hershberger"
+        }
+      ],
+      "raw": "Paul Hershberger\nMillersburg, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "85b345ae-ce23-56a2-9249-2cfa79293657"
+    },
+    "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+    "images": [
+      {
+        "alt": "A couple seated together on a rock facing a waterfall.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg",
+        "repository_path": "public/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 102; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The photo panel below the title is cropped at its boundaries; both people, waterfall and foreground rock are retained. The right paper edge and header are excluded. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 23,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            847,
+            1708,
+            2288
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1708,
+            1441
+          ],
+          "output_dimensions": [
+            1708,
+            1412
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1732,
+            2288
+          ],
+          "source_object": 102,
+          "vertical_scale_to_published_aspect": 0.9796380090497737
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A bride and groom walking hand in hand along a path.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg",
+        "repository_path": "public/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 119; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The complete right-column photo is cropped within its paper boundary, preserving both people from head to foot and the bouquet. The final paragraph, adjacent article text and footer are excluded. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            862,
+            469,
+            1608,
+            1885
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            746,
+            1416
+          ],
+          "output_dimensions": [
+            746,
+            1399
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1608,
+            2106
+          ],
+          "source_object": 119,
+          "vertical_scale_to_published_aspect": 0.988101223395341
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "editorial_note": "The printed introduction states that the messages were transcribed and abridged for reading clarity.",
+      "status": "eligible"
+    },
+    "section": "INSPIRATIONS FOR YOUTH",
+    "sequence": 10,
+    "series": {
+      "id": "8b87c521-01dd-5e0c-af7a-c1c6ccbb894c",
+      "part": 4,
+      "total_parts": 5
+    },
+    "source_pages": {
+      "end": 27,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "A Christ-Centered Courtship Process",
+    "topics": [
+      "efe9fa60-497a-580c-9aa2-c1aac7027cdf",
+      "112f373a-5505-599b-b945-2e35ced472c4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6d314bce5da6ecad766877eb98702f43ab041a5f79dbfaceaf00433b357200f5",
+    "metadata_sha256": "e19e27ffb8c6771f5fc3c3d38a22da261db76f6cd9601d4d0039e1e13f42c358",
+    "structure_sha256": "684ccb74fecb4bcc05f429244f13e97a760701d9a9c18167855d241fed91f79c",
+    "text_sha256": "461aa0c28aaabbbdccffee2413f926310dcfe90f8d621581caff4c1263ac58e9",
+    "translation_metadata_sha256": "c6a7111366dc6c4c33a841460bccecd7628c2f1bc18dac6b032bb848e505a382"
+  },
+  "html": "<article data-article-id=\"12387934-7e9b-49f7-874a-0e66fa7942d3\">\n  <p><em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the fourth article of five.</em></p>\n  <figure>\n    <img src=\"/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg\" alt=\"A couple seated together on a rock facing a waterfall.\">\n  </figure>\n  <h2>There are five goals for this series:</h2>\n  <ol>\n    <li>To turn the hearts of the fathers to their children.</li>\n    <li>To turn the hearts of the children to their fathers.</li>\n    <li>That parents would get a burden to lead their children into the perfect will of God for their lives.</li>\n    <li>That young people would get a burden to seek God, find fulfillment and purpose in walking with God, and mature in their manners and character.</li>\n    <li>That young men and women would rise up to be godly fathers and mothers with a vision to raise another godly generation.</li>\n  </ol>\n  <h2>Understanding courtship and engagement</h2>\n  <p>A Christ-centered courtship process consists of a courting period and an engagement period. The <strong><em>courting period</em></strong> is a time when the focus is on serving the Lord Jesus. It is the final step in discerning God’s will for a couple. It is not an experiment but rather a time of growth in the relationship that will come to a point of engagement. The couple is moving ahead with commitment instead of feelings. They engage in social and spiritual activities, leading to engagement and marriage. At this point, one could still decide they are uncomfortable with the courtship. Yet, it is not just a light thing to say, “Yes” to a courtship.</p>\n  <p>The <strong><em>engagement period</em></strong> begins when he asks the question, “Will you marry me?” and she says, “Yes, I will.” From this point forward, you begin planning your wedding. The purpose of the courting period is to arrive at that question unless something comes up that intervenes. Engagement should be viewed very seriously. It is an important “yes.” “Let your yea be yea.” Engagement means being promised or pledged.</p>\n  <p>We will spend most of our time on the Christ-centered courtship process, and finish by looking at engagement.</p>\n  <h2>Christ-centered courtship</h2>\n  <p>The Christ-centered courtship process is when a Christ-centered young man and lady come together and go through a period of time that leads to marriage and establishing a home. This is no small matter with God. He looks at this process and calls it very good. “Whoso findeth a wife findeth a good thing, and obtaineth favor of the Lord” (Proverbs 18:22).</p>\n  <p>In Matthew 19, Jesus taught on the seriousness of marriage. “The Pharisees also came unto him, tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause? And he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female, And said, For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh? Wherefore they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder. They say unto him, Why did Moses then command to give a writing of divorcement, and to put her away? He saith unto them, Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so. And I say unto you, Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery: and whoso marrieth her which is put away doth commit adultery. His disciples say unto him, If the case of the man be so with his wife, it is not good to marry” (Matthew 19:3-10).</p>\n  <p>Jesus responded to the Pharisees’ divorce question by pointing out that it was not so in the beginning. In the beginning, God made them male and female. He said, “A man shall leave father and mother, and cleave to his wife.” You get glued together, and you stay together. The only way to have a divorce is to quit cleaving. If we quit cleaving, we’re disobeying God.</p>\n  <p>Courtship is not something to play with, laugh about, or tease each other about. It is a serious matter. Good marriages are the foundation of solid homes and strong churches, and these marriages start with a Christ-centered courtship. How we look at courtship will make a difference in our congregations in ten or twenty years. The husband and wife relationship is an example of Christ and the church. The world should look at our marriages and homes, and see that something is different.</p>\n  <p>How does a young man know when to begin a courtship? If a virtuous young woman is valued far above rubies, you could say that this is a million-dollar question. Foremost, have you prepared? Preparation for marriage is crucial.</p>\n  <p>Young man, God may say to you at some point, “It is not good that you’re alone.” He may use various ways to reveal this to you. With Adam, he said, “Adam, I have a job for you.” God wanted Adam to name all the animals He created. As Adam named the animals, he realized there was no suitable helper for him. He became aware of his need. I have heard young men say, “I need a wife.” God was giving them a wake-up call. You must be prepared before these wake-up calls come. God may speak through your parents, godly leaders, or spiritual leaders. There have been young men who came to their parents and asked for a suggestion. And over time, a suggestion is given.</p>\n  <h2>Discerning God’s will for courtship.</h2>\n  <p>It is essential to have God’s blessing as you discern His will for courtship. If you have prepared yourself, kept your emotions, and gone through your authorities, you will have God’s blessing. You’ll be able to sense God’s will clearly. This is a time for much prayer and fasting, and looking for an inner witness from God. Don’t conclude that it is God’s will at this point, even if you feel clear. But if the time is right, and you have the blessing from your authorities, step forward by faith and contact her father. This is a serious matter. Go about it with earnestness.</p>\n  <p>Her parents may respond with approval to move ahead. They might ask for a waiting period if they feel the young man or lady is not ready, but sense this could be the will of God. Both parents have to be clear.</p>\n  <p>Dads, don’t move ahead if your wife (the young lady’s mother) doesn’t feel clear. She is the one who raised this girl to be a good housewife and mother. Don’t drag around with a waiting period. Don’t ask him all kinds of questions or take up lots of time and effort if you don’t feel clear.</p>\n  <p>Now, Dad makes the phone call with a trembling heart. Remember, this young man has been seeking God. He has the blessing of his parents. He may have gotten the blessing of his ministry. Be considerate of that. It’s okay to say, “We just don’t have peace about it”, but do this with a caring heart. It will be a blow, and there is no easy way out. Please don’t leave him waiting a long time.</p>\n  <p>If her parents are clear to move ahead, the father should start learning to know the young man. It is good to have a list of questions prepared to ask him. Find out what he believes and learn about his character. This will vary depending on how much you know him already. Ask him about his walk with God. How does he relate to authority? What does he believe about modesty, music, family life, and child training? Depending on who he is, you might want to ask about nonresistance, or divorce and remarriage. Don’t make this a time to grill him. Think about future family relationships. You’re creating memories as you go and want them to be good memories.</p>\n  <p>When her parents are clear, they give him permission to write her asking to start a courtship. Her parents share his request with her. If you have a list of questions you asked the young man, it’s a blessing to have them on paper. Then present her with his answers to those questions and his request to start a courtship. There is some variety in how this can be done. Now it’s time for her to pray, fast, and seek the Lord.</p>\n  <p>Young men, here is something to consider: you had two, four, or even more months seeking God’s will. She will be behind you in this time frame. She needs time, just like you did.</p>\n  <p>When the young lady is clear, she writes a letter of response. Sometimes this is done by phone. If the answer is yes, she will call him. If the answer is no, Dad will call him.</p>\n  <p>Her parents should arrange the first meeting at their house. Plan an evening for both families to rejoice in how God has led them together. Maybe have a special meal together. This should be planned soon if the rest of the family doesn’t know about it yet. The couple should have some time alone together at this first meeting.</p>\n  <p>Young men, you are asking her parents for their daughter, and they should have more influence and interaction during the courtship. But it should not be “her family only.” You need relationships with both families. But her dad should lead out and give direction and oversight. When the couple is at the young man’s house, his dad should provide direction and oversight.</p>\n  <h2>Guidelines for a Christ-centered courtship process.</h2>\n  <p>Her price is “far above rubies.” Arrange a meeting with parents and the young couple to make courtship guidelines. Her father should lead out in the meeting, but having the young couple share their desires is a blessing. Sometimes parents are not at the same place. If one set of parents is conscientious about something, it should be discussed. We want to honor and respect each other.</p>\n  <p>Be under the authority of both sets of parents. Your parents should help you make your guidelines and keep you accountable. Agree together and help each other, and watch out for each other.</p>\n  <h3>1. Hands-off Courtship</h3>\n  <p>“Now concerning the things whereof ye wrote unto me: It is good for a man not to touch a woman. Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband” (1 Corinthians 7:1-2). The practice of a hands-off courtship is based on this Scripture. Be careful with your emotions. You were not created for courtship; that’s why you need guidelines. It’s good for a man not to touch a woman, and it’s to avoid fornication. You want your marriage to be an example of Christ and the church.</p>\n  <p>Here’s a question that needs to be answered at the beginning of the courtship: Will we shake hands when we meet? What are you comfortable with? A long-distance courtship can feel awkward if you don’t shake hands when you meet. If you’re a local and decide to shake hands, do you shake hands at every opportunity? You need to be practical about this.</p>\n  <p>Considering 1 Corinthians 7:1-2, what is touching? If you can feel the pressure of contact or body heat, you are touching, and communicating the effect that arouses emotions. This is not a hands-off courtship.</p>\n  <p>How close will you sit or stand? I think those are things to consider and talk about. How much space would we like to maintain, just for comfort’s sake?</p>\n  <h3>2. The young man should take the lead</h3>\n  <p>The young man needs to lead in building the relationship and following the courtship guidelines. And yet he needs to be under the authority of both sets of parents. This can be a challenge. If you get this right, you will be blessed.</p>\n  <h3>3. Time together</h3>\n  <p>Decide from the beginning how often and how long the couple should be together. Should it be every week, or every other week? It could be an afternoon or an evening. At our house, we prefer Sunday. Decide how to handle extra events that happen locally. There can be so many events that it gets too much, accelerating your emotions. This may depend on whether it is a local courtship.</p>\n  <p>Most of your time together should be with other people. Get to know each other’s families. It’s okay to meet the extended family, but keep your focus on the immediate family.</p>\n  <h3>4. Hold back on an emotional relationship</h3>\n  <p>At the beginning of the courtship, it’s good to hold back emotionally. If you hold back during the courting period, you will be better able to learn to know each other. We were not created for courtship. Yet, if there are no emotional feelings, that will also become a problem.</p>\n  <p>Agree not to use endearing words before engagement. When you look at someone of the opposite gender and tell them, “I love you,” it will cause an emotional fire to burn. It’s like pouring gas on the fire! Just agree not to use endearing words before engagement.</p>\n  <h3>5. During the courting process, focus on building a spiritual relationship</h3>\n  <p>Make a list of doctrines and convictions to discuss. Discuss if your vision is the same. If her dad made a list of questions he asked the young man, discuss those questions. If it was okay for her dad to ask him those questions, wouldn’t it be fine for the young man to ask her those questions? Young lady, what do you believe about modesty? What do you believe about being a homemaker, having a godly home, and child discipline? Where is your vision concerning missions and outreach? One may have a burden in a particular area that the other never thought about, and you may have a few surprises. Center your fellowship time around spiritual relationships.</p>\n  <h3>6. The sharing time</h3>\n  <p>You need time alone to share with each other. How long should that be? I suggest two hours. It should not be excessively long, yet long enough so you can sing and have devotions. Share about what’s happening in your lives. Begin the communication process where you learn to know each other more deeply.</p>\n  <p>This time should be semi-private, but not behind closed doors or in the dark. It should be so you can be seen, or somebody can walk in. Discuss where this should be, so you know you are in approved areas. Sharing heart-to-heart is difficult when there are too many interruptions or eavesdroppers. The rest of the family should respect that time. Talk to your parents later about your sharing time.</p>\n  <h3>7. Additional communication</h3>\n  <p>What about sending mail, emails, or making phone calls? This depends on whether both are local or it’s a long-distance courtship. If it’s a long-distance courtship, you will rely more on mail, email, and phone calls for communication. But if you’re local, you will see each other more often. During the courtship period, you should refrain from phone calls. It will only accelerate those emotions. What about texting? When you are planning the wedding, there are things you need to communicate about. You may need to send texts and make phone calls, but make an effort to keep this to a minimum. Stay under your parents’ authority. Set parameters so you don’t have to ask every time. If you are close to the wedding, ask your parents about talking on the phone for a certain amount of time. If parents are connected, they will know whether it’s appropriate. Your goal is to arrive at the wedding pure and free.</p>\n  <h3>8. Driving alone</h3>\n  <p>Do not drive alone long distances. Trips that are up to an hour may be okay. For long-distance trips or after dark, a chaperone should be along to abstain from all appearances of evil. We are real people, and emotions can be stirred. You are not created for courtship.</p>\n  <h3>9. Going to church together</h3>\n  <p>One of the goals of courtship is to build a spiritual relationship. I encourage couples to sit together in church on Sunday, but sit with their own families at the Wednesday night service. It can seem strange if the young man brings the young lady to church on Sunday, yet doesn’t sit with her during the service.</p>\n  <p>When sitting together in church as young couples, please be reverent. You should not be a distraction. Married couples shouldn’t be a distraction either. Your emotions should not be displayed during church service.</p>\n  <p>Remember your friends. When you are courting, your friends may feel left out. It will take effort on your part not to leave your friends behind. And yes, there is a change happening. You are moving from single life to married life. It isn’t going to be the same in the relationships with your friends, but you don’t have to drop them off as if they didn’t exist anymore.</p>\n  <h3>10. Leaving time</h3>\n  <p>The parents need to decide what time the young man needs to leave their house. This will get harder as the relationship grows. Just do everyone a favor and decide at the beginning of the courtship when this should be. Be clearly understood, so you know what to expect from each other.</p>\n  <h3>11. How long should a courtship be?</h3>\n  <p>Again, this may vary depending on circumstances such as distance and how well the couple knows each other. I would consider four to six months short, but preferably not over a year. Consider that emotions increase in a longer courtship, yet an appropriate time is needed to make adjustments, connect hearts, and prepare for a wedding. Discuss this in the beginning, so you understand each other’s expectations.</p>\n  <h3>12. Keep the courtship under loving, watchful authority</h3>\n  <p>This is the crowning guideline. Talk with the authorities regularly and receive their guidance. Don’t go out on your own. A courting couple is naturally drawn together and wants to communicate more than is healthy. Remember, you were not created for courtship. Courtship is a time of winning hearts and connecting visions as love and affection increase.</p>\n  <h2>Engagement</h2>\n  <p>The courtship should build to a point where it is time to get engaged. The young man should have clearance from both parents before he asks for marriage. His parents should be able to say, “Son, I think you’re ready for this.” Her parents need to be able to say, “Our daughter is ready for this.” Both parents need to know the proposal is coming, and what the answer will be. Why go through uncertain experiences? If there is uncertainty, it’s better to wait and let it fully ripen.</p>\n  <p>During the engagement period, plan a Christ-centered wedding. First of all, the wedding day is not about the bride. Don’t plan an exotic wedding day. Please, no surprises. There have been cases when, on the wedding morning, the bridal party walks in and things happen that the ministry or parents were unaware of. Now the minister is supposed to get up and act like nothing happened. The wedding is a church event. Your testimony will carry the message and atmosphere of the day. It should be a testimony of purity, godliness, and holiness. Your wedding may influence others with troubled marriages to find answers and turn their hearts back to God.</p>\n  <p>Pray, pray, pray about your wedding day. Make it a passion of your heart. Go after it as if it were gold.</p>\n  <p>Through all this, keep yourself under loving, watchful authority. Share your emotional struggles with your parents as you draw closer to the wedding day. A young couple should not fully give their hearts to each other until marriage. Dad, [of the young lady], it is essential that you stay connected with the young man. The closer you get to the wedding day, the more she will turn her heart to him. It’s unrealistic to say, “You can’t give your heart to him until you say, ‘I do’ at the altar.” She will move closer and closer to him. She has a natural instinct from God to be his helpmeet. You’ll make this period easier and less confusing if you are together in this.</p>\n  <p><strong>Go after the blessing of God. At your wedding, you can experience the joy of Adam finding his Eve, and Eve finding her Adam, pure and free, with no regrets and guilt. It’s yours to have. God longs to bless you as you leave your wedding day.</strong></p>\n  <figure>\n    <img src=\"/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg\" alt=\"A bride and groom walking hand in hand along a path.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917"
+}

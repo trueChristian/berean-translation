@@ -1,0 +1,134 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Michael McDaniel"
+        }
+      ],
+      "raw": "by Michael McDaniel"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "a2df2f39-2114-4cb7-862d-b7a6319fda62",
+    "images": [
+      {
+        "alt": "Two women greeting one another outdoors",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "71fb263ebb131cd06c71f725c97d034a3c594726",
+        "public_path": "/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-1.jpg",
+        "repository_path": "public/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-1.jpg",
+        "rights_note": "Original embedded PDF image object 91; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 24,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            0,
+            1,
+            379,
+            365
+          ],
+          "export_pixel_dimensions": [
+            379,
+            364
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 91,
+          "source_pixel_dimensions": [
+            380,
+            366
+          ]
+        }
+      },
+      {
+        "alt": "A man greeting another man with a kiss among a group of robed men",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "97292d56ae22ab27fcfa032a3938d8be39bfe6c4",
+        "public_path": "/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-2.jpg",
+        "repository_path": "public/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-2.jpg",
+        "rights_note": "Original embedded PDF image object 98; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. The below-image text is a duplicate body pull quote; omitted from the image and not duplicated as a caption. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 26,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            2,
+            1,
+            732,
+            489
+          ],
+          "export_pixel_dimensions": [
+            730,
+            488
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 98,
+          "source_pixel_dimensions": [
+            733,
+            490
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 28,
+      "start": 24
+    },
+    "subtitle": null,
+    "title": "The Holy Kiss",
+    "topics": [
+      "b1967c86-e604-5461-ae26-5d0702131447",
+      "150478c8-ef1d-5854-9c9a-e6bd22693ac0",
+      "b23f78ff-d094-5fb4-bb62-cab82040c7d7",
+      "89c5a9d7-0aa4-5760-bfe6-f868626b6d91",
+      "5b1a4ec7-7110-52ec-86a0-ffbc457e3a8f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8b23eb04d5a623566573f10311e0bdf9c4ad55e4bad332e7d736fda42f10b762",
+    "metadata_sha256": "6f0881191c3b1b336465b0721a9d0f1f1a8c52157868e956a190b9ac60a175a8",
+    "structure_sha256": "a0bfe7ffc86f923ba2561aa08679febae164d175d83dbde0c6209b94d5a6a4c0",
+    "text_sha256": "aef4f9bb5268e1f7cce518352f7984094ab387cd288b59618eea74a14365a8ab",
+    "translation_metadata_sha256": "7e8951c8eef6b52164402c7b1479c775cf2423cab53a6442703f2d5d6a522104"
+  },
+  "html": "<article data-article-id=\"a2df2f39-2114-4cb7-862d-b7a6319fda62\">\n  <figure>\n    <img src=\"/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-1.jpg\" alt=\"Two women greeting one another outdoors\">\n  </figure>\n  <p>When we began to seriously consider worshipping with a Christian fellowship, my wife and I acquired a copy of the Charity Christian Fellowship Statement of Faith. We wanted to see if we were “like-minded” in key areas of worship. Item 17, “Christian Ordinances”, states—</p>\n  <blockquote>\n    <p><em>We believe and confess that ordinances were instituted by Divine authority for the purpose of expressing Heavenly thoughts and meanings, given to draw our attention toward spiritual pictures of Divine truth. These ordinances are as follows: Baptism, communion, feet washing, holy kiss, anointing with oil.</em></p>\n  </blockquote>\n  <p>Most of the religious world today teaches that these are all merely “cultural” and that it is not necessary to practice a physical observance of them. The majority of the commentaries will acknowledge that these were practiced in Bible days, but will say that they are not binding in our time and culture. We could also mention things like: the head covering, lifting up holy hands, not limiting the number of children in the family, modest dress, adornment, women keeping silent in the churches, and not dating…all just <em>cultural</em>. Men will explain away 1900 years of Biblical teaching based on “new light” and new translations. They will pander to their own preferences, and preach things that tickle the ears of their parishioners. So, things that were written for us in the Spirit-inspired Scriptures will give way to the ways of men. Recall how Jeroboam fashioned the golden calves for worship in Bethel, rather than in Jerusalem. This was an abomination to God. It’s no different when we selectively choose to add and discard the commands of the Bible to suit us. What should be our desire? Our goal should be <em>“proving what is acceptable unto the Lord”</em> (Eph 5:10).</p>\n  <p>What then, is <em>acceptable to God</em> regarding the Holy Kiss? We read of the practice of the kiss in the Old Testament. <em>“And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept”</em> Genesis 33:4. The Early Church practiced a <em>holy</em> kiss, as reported by Justin Martyr (2<sup>nd</sup> Century) and also Origen, Cyprian and Tertullian. From history we can establish the practice of the holy kiss. But, again, the scholars will tell us this is merely <em>cultural</em>. Commentators say that a <em>handshake</em> is commensurate to a holy kiss in the culture of today. I disagree. The word “holy” clearly distinguishes this greeting from the casual handshake. Have you not seen enemies shake hands? Do not political opponents shake hands before a debate…then proceed to ridicule and denigrate one another? Likewise, have you not seen brethren shake hands, even though there is bitterness and strife between them? This is not to say that the casual handshake of today and even warm embrace cannot be very effectual and heartfelt…they indeed can be…but they do not constitute that which is “holy.” I believe the Lord intended more than what our society associates with the common handshake or hug.</p>\n  <p>I suppose it depends upon your religious background, or even the present congregation where you assemble…but from my observation, I see the holy kiss as an ordinance which we profess to believe, but which fewer and fewer practice today. Typically, only a few of the older members greet with a holy kiss. Sadly, seldom do the younger greet with a kiss of charity. Truthfully, I am concerned about this. Does this stem from embarrassment? Have we become so culturally adapted that we use the world’s yardstick to determine what makes us comfortable or uneasy?If we don’t feel comfortable with it, or we don’t think that is proper…we will refrain from practicing it. Brethren, all it takes is one generation to lose something precious. If many of the older members don’t greet with the holy kiss, rest assured that the older youth will not. And, if the older youth do not, the younger ones will not because they look to the older siblings for example. In one generation, this blessed practice of the holy kiss could be gone from our group. Then what will follow? Lifting up holy hands? Feet washing? The covering? I ask the question, regarding the holy kiss, are we <em>proving what is acceptable to God</em>…or to us?</p>\n  <p>There are five passages in the New Testament which address this subject:</p>\n  <ul>\n    <li>Romans 16:16: <em>Salute one another with an <u>holy kiss</u>. The churches of Christ salute you.</em></li>\n    <li>1 Cor. 16:20: <em>All the brethren greet you. Greet ye one another with an <u>holy kiss</u>.</em></li>\n    <li>2 Cor. 13:12: <em>Greet one another with an <u>holy kiss</u>.</em></li>\n    <li>1 Thes. 5:26: <em>Greet all the brethren with an <u>holy kiss</u>.</em></li>\n    <li>1 Peter 5:14: <em>Greet ye one another with a <u>kiss of charity</u>.</em></li>\n  </ul>\n  <p>Let’s examine the key words employed in these passages.</p>\n  <h3>1. Salute (and greet)</h3>\n  <p><em>Aspazomai</em> (as-pad’-zom-ahee); (figuratively) to welcome:—embrace, greet. “To pay respect to or to give honor to.” A gesture of love.</p>\n  <h3>2. One Another (brethren)</h3>\n  <p>The kiss is for the members of Christ’s body. It is a salutation, a holy greeting and an outpouring of love. This is an overflow of the love in our hearts for <em>one another!</em> Who is this “one another?” I believe that this pertains to brothers with brothers and sisters with sisters. We once attended a congregation of a worldly denomination which claimed to practice the holy kiss. But, we noticed something in this congregation that I believe is a perversion of the Scriptures—brothers would kiss sisters, and they would kiss sisters on the mouth. I firmly believe this is not “holy” but opens the door for inappropriate passions and desires. This is not the “one another” intended in Scripture.</p>\n  <p>The <strong>Apostolic Constitutions</strong> state:</p>\n  <blockquote>\n    <p><em>Then let the men apart, and the women apart, salute each other with a kiss in the Lord.”</em></p>\n  </blockquote>\n  <p>The <strong>Catholic Encyclopedia</strong> states:</p>\n  <blockquote>\n    <p><em>From a very early date, also, the abuses to which this form of salutation might lead were very carefully guarded against. Both in the East and in the West, women and men were separated in the assemblies of the faithful, and the kiss of peace was given only by women to women and men to men.”</em></p>\n  </blockquote>\n  <p><strong>Lenski’s Commentary of the New Testament:</strong></p>\n  <blockquote>\n    <p><em>The word “holy” guards against misconceptions. Bestowing a kiss upon a brow or cheek as a sign of friendly accord, affection and honor dates very far back among Oriental people. This meaning of the public kiss makes the act of Judas who betrayed Christ with such a kiss so unutterably base.</em></p>\n  </blockquote>\n  <p><strong>Barnes’ Notes:</strong></p>\n  <blockquote>\n    <p><em>The use of the word holy here serves to denote that Paul intended it as an expression of Christian affection; and to guard against all improper familiarity and scandal.</em></p>\n  </blockquote>\n  <p>I believe Scripture provides sufficient reasons why brothers should not kiss sisters:</p>\n  <ul>\n    <li>1 Cor. 7:1 <em>Now concerning the things whereof ye wrote unto me: It is good for a man not to touch a woman.</em></li>\n    <li>Ro 13:14 <em>But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof.</em></li>\n    <li>Ro 14:13 <em>“… that no man put a stumblingblock or an occasion to fall in his brother’s way.”</em></li>\n  </ul>\n  <h3>3. Holy</h3>\n  <p><em>Hagios</em> (hag’-ee-os); sacred (physically, pure, morally blameless or religious, ceremonially, consecrated).</p>\n  <p>What makes a kiss <em>holy?</em> A pure heart filled with <em>unfeigned love of the brethren</em>. A holy kiss comes fromsomeone who is right with God, walking in the light, and that genuinely desires your fellowship. A holy kiss comes from a heart that honestly cares about your walk with God. Otherwise, it’s just a dead ordinance. Judas feigned a kiss of charity with Jesus at Gethsemane; it was a dead ordinance. If there is no sanctified and pure heart behind the kiss, the kiss is just an empty gesture. It is just like the common handshake of today’s culture. When a brother or sister is Holy (<em>hagios</em>) he is set apart and different from the world. He is consecrated, and his kiss is different from the world’s greeting. There is another aspect that makes the kiss <em>holy</em>. In his commentary, John MacArthur notes:</p>\n  <blockquote>\n    <p><em>…the early Church was comprised mostly of Jews, and that new believers were made outcasts by their biological families. To them, the spiritual kinship became very dear and was manifested with what came to be called a holy kiss.</em></p>\n  </blockquote>\n  <p>Praise God for our <em>spiritual</em> family! The kiss is a beautiful expression of love for members in God’s family!</p>\n  <figure>\n    <img src=\"/images/articles/a2df2f39-2114-4cb7-862d-b7a6319fda62-2.jpg\" alt=\"A man greeting another man with a kiss among a group of robed men\">\n  </figure>\n  <h3>4. Kiss</h3>\n  <p><em>Philema</em>(fil’-ay-mah)—simply means <strong>“kiss.”</strong></p>\n  <p>It’s at this point that many brethren derail the train. We’re okay with the salutation, and the overflow of love, but the thought of actually <em>kissing</em> another man? Sisters kissing sisters? Well, it just doesn’t feel right somehow.</p>\n  <blockquote>\n    <p><em>“O Lord, this is a hard saying…I cannot do this thing.”<br>“I am not comfortable with this!!”<br>“What will people think of me?”</em></p>\n  </blockquote>\n  <p>We wrestle with the Lord, and the same answer keeps coming back time and again: <em>Greet one another with an holy kiss.</em> It does not say: “Salute one another with an <em>holy handshake.”</em> Nor does it say, “Greet ye one another with an <em>hearty bear hug!”</em>Kiss means kiss. I do not believe the Holy Spirit made a mistake, and certainly not five times in Scripture.</p>\n  <p>The Greek word <em>philema</em> (fil’-ay-mah) has the same root word as <em>phileo (brotherly love)</em>. In other words, “kiss with the expression of brotherly love.” Peter said, <em>“Greet ye one another with a kiss of charity”</em> (1 Pet 5:14).If my heart is washed by the blood and your heart is washed by the blood, then we both have love toward Jesus and toward each other—Jesus is our common bond. <em>Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently”</em> (1 Pet 1:22). A pure heart is behind the holy kiss!</p>\n  <p>Grace is a great equalizer, in that all are sinners saved by grace, and are only righteous based upon their standing in Christ’s finished work at Calvary. Similarly, the Holy Kiss brings all men to the same level. Therich and the poor, the boss and employee, the leader and the followers meet on level ground and share their hearts in the <em>philema</em>—the <em>kiss of charity</em>.</p>\n  <h2><em>Is This Really Binding On Us?</em></h2>\n  <p>How do we determine what we are required to do? There are four primary rules of Scripture interpretation: statement, command, example, and necessary inference. Here is when we know to practice something:</p>\n  <ul>\n    <li><strong>Statement:</strong> If something is clearly stated in Scripture,</li>\n    <li><strong>Command:</strong> If something is clearly commanded by Scripture,</li>\n    <li><strong>Example:</strong> If we have a clear cut example of how the Early Church practiced it, and/or</li>\n    <li><strong>Necessary Inference:</strong> If the <em>sense</em> is necessarily implied or inferred by the context of the passages.</li>\n  </ul>\n  <p>For us to be required to observe some practice, it doesn’t take all four of these, as only one is binding. Concerning the practice of the Holy Kiss, let us examine this in light of these four factors.</p>\n  <h3>1. Command</h3>\n  <p>Commands are not optional, but are clearly defined directives. For example, Eph 5:25, <em>“Husbands, love your wives, even as Christ also loved the church, and gave himself for it.”</em>We are to obey cheerfully.From our five key passages, we clearly have Statement and also Command. There is an understood “YOU” in three of the statements, and YE in the other two.</p>\n  <ul>\n    <li>[YOU] <em>salute one another with an <u>holy kiss</u>..</em></li>\n    <li><em>Greet YE one another with an <u>holy kiss</u>.</em></li>\n    <li>[YOU] <em>greet one another with an <u>holy kiss</u>.</em></li>\n    <li>[YOU] <em>greet all the brethren with an <u>holy kiss</u>.</em></li>\n  </ul>\n  <p><em>Greet YE one another with a <u>kiss of charity</u>.</em></p>\n  <h3>2. Example</h3>\n  <p>Luke 15:20 tells of the Prodigal’s Father <em>“And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and <u>kissed him</u>.”</em></p>\n  <p>In Acts 20:37—When Paul told the elders at Ephesus, who came out to meet him at Miletus, that they would “see his face no more” it says <em>“they all wept sore, and fell on Paul’s neck, and <u>kissed him</u>.”</em></p>\n  <h3>3. Necessary Inference</h3>\n  <p>In Luke 7:36-39 and 44-46, we read the account of the sinner woman who washed the feet of Jesus with her tears, wiped them with her hair, and anointed him with precious ointment. Simon was critical of this association. Jesus not only approved of the woman’s actions, but he reminds Simon that he <em><strong>had not</strong> kissed him.</em> We can <em>infer</em> from this that a kiss was both appropriate and also <em>expected</em> for an honored guest. Therefore, we have Necessary Inference regarding the Holy Kiss.</p>\n  <p>From examination of scriptures, I must conclude that the Holy Kiss is binding today. It is what is <em>acceptable to the Lord!</em> It is <em>commanded</em>, whether we like it or not. When we read commands, our response is to <em>obey</em>. God will give us <em>grace</em> to obey His commands. He will grant us grace to overcome our inhibitions, awkwardness, and shyness. Truly there is a hidden blessing in obeying this command; a hidden treasure for those who trust and obey.</p>\n  <h2><em>What Will People Think?</em></h2>\n  <p>Worrying about what others will think is an indication that we need to die to <em>self</em> and consider God’s reputation, not ours. Granted, people may draw the wrong conclusions if they see a man kissing a man. We may be perceived as effeminate, or perverted by those unfamiliar with the Scripture. We want to be sensitive about these matters. We want our testimony to be above reproach. So, we briefly address this matter of perception. Peter wrote, <em>“Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul; 12 Having your conversation <u>honest among the Gentiles</u>: that, whereas they speak against you as evildoers, they may by your good works, which they shall behold, glorify God in the day of visitation”</em> (1 Pet. 2:11). We know that people are watching, and we want a clear testimony, that God may receive the glory. I believe the manner in which we live our lives and in which we walk before men will send the right message. John MacArthur noted:</p>\n  <blockquote>\n    <p><em>In our day, there is also a danger of certain physical signs of affection being misunderstood and abused. Those dangers have always existed and will continue until the Lord returns. But, if practiced with <u>sensible discretion</u>, a loving embrace and a truly holy kiss that reflect <u>genuine, heartfelt love between Christians</u> should not be [rejected] simply because of possible misunderstanding or misuse.</em></p>\n  </blockquote>\n  <p>Amen. If we have the aroma of Christ, and people can tell that we are walking with God every day, there should be no uncertain testimony. No one should misconstrue a show of brotherly or sisterly affection as improper, if we are letting our light shine. When we have visitors in our assembly, should we refrain out of deference to them? No. What a powerful testimony to the unfeigned love of the brethren it is when they behold brethren greeting one another with a kiss of charity, in all sincerity. This is not a negative message but a positive one. <em>“By this shall all men know that ye are my disciples, if ye have love one to another”</em>(John 13:35). One verse to keep in mind regarding these matters is Proverbs 29:25, <em>“The fear of man bringeth a snare: but whoso putteth his trust in the LORD shall be safe.”</em></p>\n  <p>Brothers, let me attempt to put this in perspective. We ask our wives and daughters to go out in public with a covering on their heads…knowing that the world makes comments and judgments. My wife has been called “Amish” “Hutterite” and “Sister.” One man even knelt and made the sign of the cross before her. If a sister was not raised in a faith that practices the covering, and does not have the support of the other sisters…it’s hard initially to wear a covering. “What will people say or think?” For nearly two years, my wife was the only sister who covered in a large denominational congregation that did not believe in the veiling. She wanted to obey and please God, not man. The Pharisees were guilty of binding things on people that they themselves would not do. Are we being Pharisaical by asking our wives to do something difficult, while we shrink back regarding the holy kiss—fearful of our manly reputation? Brethren, let me repeat…just one generation is all that it will take to lose this precious blessing of the holy kiss. I pray that my grandchildren will be blessed to worship where the simple ordinances are observed. Let’s overcome our inhibitions. Let us have hearts that are pure and holy, and then greet one another in a biblical fashion. Let us prove what is <em>acceptable to the Lord</em>.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4ad3b1034ba6f9827575581e99f38d34536f1dd220508e7ac774312d396eae7c"
+}

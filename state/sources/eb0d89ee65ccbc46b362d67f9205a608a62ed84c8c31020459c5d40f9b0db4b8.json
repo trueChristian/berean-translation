@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ann Brubaker",
+          "role": null
+        }
+      ],
+      "raw": "- Ann Brubaker -"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "64555f1c-017c-4ac5-a941-3b577cf58ff3",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-1.jpg",
+        "repository_path": "public/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-1.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Left-facing outstretched hand from clean embedded grayscale JPEG xref 63. Its gray background is intrinsic to the only source raster. Separate page border, heading and poem text omitted. Converted to baseline RGB JPEG with nonzero 72 dpi density.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 13
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-2.jpg",
+        "repository_path": "public/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-2.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Right-facing outstretched hand from clean embedded grayscale JPEG xref 62. This is a distinct drawing, not a duplicate of the other hand. Its gray background is intrinsic to the only source raster. Separate page border, heading and poem text omitted. Converted to baseline RGB JPEG with nonzero 72 dpi density.",
+        "role": "decorative illustration",
+        "sequence": 2,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "FelloWSHIp WITH me",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "97c4ff8abec0c0259daa870fafd93db28ce30272b18f6b59578408758cee8800",
+    "metadata_sha256": "0c6b65fe950802101bb5a991c1603a0d121c23c15a62e7e02194b2b81b571a69",
+    "structure_sha256": "f84fc206d8a350d777b3e7da7ad18f94cd68c45a7c92f599cf4d851229614183",
+    "text_sha256": "c13487104f51a28e97d6d34f09437fd3847b625f7357da127288328f5be4f429",
+    "translation_metadata_sha256": "e946cec92071248cf73a005d3aa548ad1242804f75bcefd30ead1267ace37add"
+  },
+  "html": "<article data-article-id=\"64555f1c-017c-4ac5-a941-3b577cf58ff3\">\n  <figure><img src=\"/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-1.jpg\" alt=\"\"></figure>\n  <figure><img src=\"/images/articles/64555f1c-017c-4ac5-a941-3b577cf58ff3-2.jpg\" alt=\"\"></figure>\n  <p class=\"poem\">He created me for Him—then bore my sin.<br>\n    He bore my sin to set me free,<br>\n    To give me holy liberty,<br>\n    To be to Him a bosom friend,<br>\n    Cleansed from all sin.</p>\n  <p class=\"poem\">He wants fellowship with me—“Lord, can it be?<br>\n    Can it be, that this is true,<br>\n    That it’s not me pursuing You,<br>\n    Rather, You’re pursuing me?<br>\n    Lord, can it be?”</p>\n  <p class=\"poem\">“No high and mighty work to do? Just me—for You?<br>\n    My laboring is all in vain;<br>\n    You’ve borne the toil, endured the pain.<br>\n    I choose this one great work to do:<br>\n    Here’s me—for You!”</p>\n  <p class=\"poem\">“I lay my heart before Your throne—rule there, alone.<br>\n    My Savior…Father…my Best Friend.<br>\n    Sweet fellowship that has no end,<br>\n    No greater joy I’ve ever known:<br>\n    Just You, alone!”</p>\n  <p class=\"poem\">“Amazing love, how can it be—that You want me?<br>\n    I look into Your precious face;<br>\n    I rest inside Your warm embrace.<br>\n    My greatest blessing, this I see:<br>\n    That You want ME!”</p>\n  <p><em>- Ann Brubaker -</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ed38897a5cbd353c1d89a14130edc88b787f82c9a54b2f45ffd17df696e05437"
+}

@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Daniel Kaufman"
+        }
+      ],
+      "raw": "–by Daniel Kaufman"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+    "images": [
+      {
+        "alt": "Milky Way and stars above dark mountains and water",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg",
+        "repository_path": "public/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed page 23; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "What Do You See?",
+    "topics": [
+      "a25611f0-ac2f-58a4-8911-c1e01807fce0",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b50c7227bb901bb4430d564220885529c519bae68110c9fbee9459b9c73421a1",
+    "metadata_sha256": "c205167277f5073de8d8d300b10d650c2cf23e412a2ec3ed0f8ee70dbfc8bb0c",
+    "structure_sha256": "a55de5ff4fe4b6700285dbeae48e8a4e8838d0af1fb151ab99b5bde071dfb093",
+    "text_sha256": "22d7cb786e4fa2140fe4e9401b310084ff9e377f1ea9eb235b68f67cc9ae606f",
+    "translation_metadata_sha256": "cbab2ec4be38e4f52b34e5f7ec8cb22cd27d801c5fefce1ef02445cffba8943b"
+  },
+  "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Milky Way and stars above dark mountains and water\">\n  </figure>\n  <div class=\"poem\">\n    <p>When you, my friend, are standing on this earth<br>\n    And gazing up into the firmament<br>\n    Where stretches all of space, what do you see?<br>\n    A great black blanket stretched o’er all the sky<br>\n    With many a mystery light somewhere up there?<br>\n    Or can you see the distances so great<br>\n    Which stretch the mind almost to breaking point<br>\n    And make you feel the size you really are?<br>\n    In the still silence of the spacious sky,<br>\n    The far-off planets seem almost in reach<br>\n    Compared to the great distance to the stars.<br>\n    The crescent moon is closer yet to you,<br>\n    And yet it took man three whole days to reach<br>\n    That tiny sphere so very close at hand.<br>\n    But what you see while gazing up to heights<br>\n    Which you cannot begin to comprehend<br>\n    Is but a streak of all the vast expanse<br>\n    Beyond the knowledge of this human race.<br>\n    And so, my friend, I hope that you will feel<br>\n    That greatness, vastness, emptiness of space<br>\n    Which our Creator made for us so we<br>\n    Can feel His greatness and His tender love<br>\n    And humbly bow our heads and worship Him.</p>\n  </div>\n  <p><em>–by Daniel Kaufman</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13"
+}

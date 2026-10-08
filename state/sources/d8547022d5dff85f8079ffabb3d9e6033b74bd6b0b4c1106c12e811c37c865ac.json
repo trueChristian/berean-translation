@@ -1,0 +1,43 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "bca0a271-2016-4523-9284-e93412e6727a",
+    "images": [],
+    "issue_id": "b549b07a-0dd3-55bb-9bc8-d417154f192a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "About the song ...",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0982f7017a87575ef6ffc595baa06097a2e8dbbc6a338dee309c3ac45e781bc1",
+    "metadata_sha256": "0333a7a9c3d07b26a8866179334927411e0896cdbfb385155be01e0fad433f73",
+    "structure_sha256": "1938c33edb3974a400f63c2bbac53ce4fb9de023b868972844f0f24b608ee946",
+    "text_sha256": "d9b768d6cdac94116b37516fce0f9205c779475ad3c6ef3be92ddff96192bd8f",
+    "translation_metadata_sha256": "b40a2908613cb3a66e53fee8f3f9964467b8a2625b46af640884b99e22c3e8b8"
+  },
+  "html": "<article data-article-id=\"bca0a271-2016-4523-9284-e93412e6727a\">\n  <p class=\"lead\">Sylvan and Nancy Ressler live near Leola, PA, where they have attended Nickel Mines Mennonite Church for the last 33 years. Their four children have blessed them with 17 grandchildren. The song on the opposite page was written with a deep burden to see that the hymn is not replaced with the lighter “gospel song” when the church gathers to worship God. With this burden in mind, Sylvan wrote several hymns, as well as a multi-page description of the difference between <em>worship</em> and <em>praise and honor</em>. The following paragraphs are adapted from that description.</p>\n  <p>Read carefully this practical illustration that will describe to a “T” the difference between <em>worship</em> and <em>honor and glorifying</em>. If you can’t see the difference in this illustration, then I pity your spouse and the Lord!</p>\n  <p>Twenty-five years ago I attended some marriage counseling. I rehearsed to the counselor the good qualities that my wife had. His comeback to me was, “Do you tell <em>her</em>?”</p>\n  <p>That, brothers and sisters, is exactly what I am trying to point out. Does your spouse hear you extol her virtues to others, and yet never hears you tell <em>her</em>? It is <em>honoring</em> to her to hear you praise her for her qualities to others, but if you never tell her to her face, you have missed the mark. If you are faithful in doing that to her, then why don’t you want to do that to God, the Holy Spirit, and Jesus when we come together to meet the Godhead?</p>\n  <p>We have spent our daily lives and Sunday morning services telling each other what Christ means to us, and not once do we take the time to tell <em>Him</em>! That is why I think God and Christ are so disappointed in us, because we can share and tell others what they have done for us, but fail to corporately look up and tell <em>Them</em>.</p>\n  <p>We go through the motions of “having church,” but I have not been in a service where the Godhead has received their due. I have been in a service at a large, modern contemporary church where they have what they call “worship time.” With decibels at an obscene level and drums and instruments blazing away—with a four-person “Worship Team” and some kind of song that was geared toward God—I was wondering why we don’t have the vision to hold a worship service that is done in a way that is befitting our way of life and practice and to our Lord? I am always left to wonder if God is more pleased with getting that racket with a contemporary hymn than not getting anything from us. At least they called it worship, but I couldn’t really tell from all the noise.</p>\n  <p>In summary, <em>worship</em> is when we <em>tell the Godhead</em> how glorious they are. <em>Praise and honor</em> is when we <em>tell each other</em> how glorious the Godhead is. Both have their place, but true <em>worship</em> is missing in our corporate gatherings. Let’s <em>worship</em> when we gather! ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3313efd8d677d4cad3a1ec05e684e2880613fb51193f0810f0c9d2b1eb7b9b2e"
+}

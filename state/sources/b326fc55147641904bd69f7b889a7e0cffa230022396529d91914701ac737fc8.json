@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Randolph Center, VT",
+          "name": "David Markwood",
+          "role": "book review"
+        }
+      ],
+      "raw": "A book review by David Markwood\nLittle Flock of Christ, Randolph Center, VT"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817",
+    "images": [
+      {
+        "alt": "Books on a shelf with the words The Book Shelf",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-1.png",
+        "repository_path": "public/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-1.png",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Meaningful vector and typography section artwork rendered as only its printed region at 300 dpi; article text and page furniture excluded.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 33
+      },
+      {
+        "alt": "Book cover reading Only a Servant",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-2.png",
+        "repository_path": "public/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-2.png",
+        "rights_note": "No image-specific permission restriction or licence is printed. The masthead lists general art sources without assigning one to this asset; rely on the publisher permission reported by the project owner. Clean original embedded PDF image object 160, preserved without the separate page-layout shadow/rotation. Intrinsic title lettering retained.",
+        "role": "book cover",
+        "sequence": 2,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "445343a4-be17-4610-a1af-e3e197cb048d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Book Shelf",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "Only a Servant",
+    "topics": [
+      "649d37ab-7011-545e-8f58-c9f374fd3bfe",
+      "e763b632-f673-547f-afb3-186d486db0cc",
+      "ec427e9b-466a-536c-9fdf-d5757d4fdfe3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6d289bbc546759608af73f222e7bfd93f75bcbf0152790a4d7afaeac36869b3b",
+    "metadata_sha256": "74d358911d0aa1b6398776d793b701a6ee3eb528fa292dfb00165ed896355512",
+    "structure_sha256": "a337f2761d3734f2d1baed71a1038461c1423c3131094958ad6ed8f190f2398a",
+    "text_sha256": "4c7cb3177fb8a441af27bc4767cdd4d109fd9d68bf2d24acd8d22d5452481cab",
+    "translation_metadata_sha256": "e0995b540e9f70db70733d6985db5fc2249134b01be4b17801be6991598290b0"
+  },
+  "html": "<article data-article-id=\"b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817\">\n  <figure><img src=\"/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-1.png\" alt=\"Books on a shelf with the words The Book Shelf\"></figure>\n  <p>As we journey through this life here on earth as pilgrims and strangers, I find it but a rare occasion that a book of such spiritual quality and true Christian illustration—such as is <em>Only a Servant</em>—surfaces and finds itself truly affecting the cords of our heart. In this day and age we greatly lack examples of what we might call a biblically “perfect life.” (James 3:2) This little book that I often hold in my hand and distribute to others contains one of the few post-biblical examples of such a life, a life that I would deem as perfect in word and deed. To sum up such a life, I would simply repeat the title of this precious jewel—<em>Only a Servant</em>.</p>\n  <figure><img src=\"/images/articles/b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817-2.png\" alt=\"Book cover reading Only a Servant\"></figure>\n  <p>The story takes place in another day, the preindustrial age, in a little Slovakian village, where broken relationships and broken lives intermingle one with another in broken ways. The story begins with the sudden appearance of a young and mysterious man whose name is Methodius Ruzansky. The character of this young man is the captivating core of this little book. Methodius is a “perfect” Christian illustration, because his Christianity is fully “missionary based.” He arrives in this little defunct hamlet with the sole intention of ushering in redemption. Methodius is truly a man of the Spirit of God; he so gracefully bears the fruits of the Spirit: love, joy, peace, LONGSUFFERING, gentleness, goodness, faith, meekness, temperance. He demonstrates a life of both simplicity and mobility. He has a single mind and a single eye. He is full of the wisdom of God. He in the truest sense is a missionary, a preacher, a prophet, a NEIGHBOR. There is no compromise in the character and conversation of this young man. His personality, his temperament, his disposition, his faith, his fire: that this is his very moral fiber is absolutely inspiring.</p>\n  <p>The little village and all its diverse and unique characters in which this great work of redemption mysteriously unfolds represent every community in which we as the children of God live.</p>\n  <p>A little excerpt on the back of this little book sums up much: “Several mysteries are unraveled in this small volume, and Christ is honored. This story teaches valuable lessons that will challenge every serious Christian to evaluate his own role in this world, whether he himself is indeed only a servant.” I highly recommend this little book for the purpose of deep inner evaluation and inspiration, as well as for distribution.</p>\n  <p><em>Only a Servant, by Kristina Roy, may be purchased from Rod and Staff Publishers, P.O. Box 3, Crockett, Kentucky 41413. (606) 522-4348</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "deb60006155b64368affbb8ab2efa9f48e136e9991a0aa53331d5a6de7fc6745"
+}

@@ -1,0 +1,128 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dave Esh"
+        }
+      ],
+      "raw": "BY DAVE ESH"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "a34a82e6-f649-44af-9469-966424ab3766",
+    "images": [
+      {
+        "alt": "Burning vehicle and damaged building amid rubble",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-1.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-1.jpg",
+        "rights_note": "PDF image object 121. The article title and byline are baked into the top of the source raster. Exported an unobstructed 506 × 600 pixel crop from original y=825 to y=1425, omitting the baked title, byline, background texture and banner. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Photograph of burning vehicle and damaged building",
+        "sequence": 1,
+        "source_page": 12
+      },
+      {
+        "alt": "Chart of major religious groups by world population in 2005",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-2.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-2.jpg",
+        "rights_note": "PDF image object 125. Chart text and labels are intrinsic to the image and retained. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Chart of major religious groups",
+        "sequence": 2,
+        "source_page": 13
+      },
+      {
+        "alt": "Diagram identifying parts of a chemical bomb",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-3.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-3.jpg",
+        "rights_note": "PDF image object 127. Diagram labels are intrinsic and retained. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Diagram of a chemical bomb",
+        "sequence": 3,
+        "source_page": 13
+      },
+      {
+        "alt": "Person wearing a gas mask",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-4.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-4.jpg",
+        "rights_note": "PDF image object 126. Clean embedded source photograph, including its intrinsic black border. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Photograph of person wearing a gas mask",
+        "sequence": 4,
+        "source_page": 13
+      },
+      {
+        "alt": "Mushroom cloud rising over a landscape",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-5.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-5.jpg",
+        "rights_note": "PDF image object 128. Clean embedded photograph. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Photograph of mushroom cloud",
+        "sequence": 5,
+        "source_page": 13
+      },
+      {
+        "alt": "Workers beside a stack of large bombs",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-6.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-6.jpg",
+        "rights_note": "PDF image object 132. Clean embedded photograph; the adjacent oversized text repeats the article body and was omitted as a layout pull quote. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Photograph of stacked bombs",
+        "sequence": 6,
+        "source_page": 14
+      },
+      {
+        "alt": "People walking through a bomb-damaged street",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/a34a82e6-f649-44af-9469-966424ab3766-7.jpg",
+        "repository_path": "public/images/articles/a34a82e6-f649-44af-9469-966424ab3766-7.jpg",
+        "rights_note": "PDF image object 136. Clean embedded photograph. The PDF Separation JPEG has inverse grayscale samples; samples were inverted and encoded as a baseline RGB/sRGB JPEG with 150 dpi density. The generic masthead image-source notice does not identify this individual asset; no article-specific credit or licence statement is printed.",
+        "role": "Photograph of bomb-damaged street",
+        "sequence": 7,
+        "source_page": 15
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "Satan’s Weapons of MASS DESTRUCTION",
+    "topics": [
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd",
+      "0ef8a490-9ef2-5f8c-8a24-1511e2083f10"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "d1e47bfff65fb66e347d7c96bf00ac2884e302f38be80c0487f99a35d5224eed",
+    "metadata_sha256": "fa9b17efb9049055b4e7f2f87c919b5e596e02a68903e98975a8a33c43d65ff5",
+    "structure_sha256": "a27fa3460a7a4dae2314c94d2a8af7cdb5479009d389bc11154b6143a2118b84",
+    "text_sha256": "5f34f9969b0662be92a1ac9713d3018b4d2860dd5248ae2674b5416c6a7c2027",
+    "translation_metadata_sha256": "4bd57aee39bda6c8381e713e0246744180e0885f9c0543a9a0e40f9d7747cd53"
+  },
+  "html": "<article data-article-id=\"a34a82e6-f649-44af-9469-966424ab3766\">\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-1.jpg\" alt=\"Burning vehicle and damaged building amid rubble\">\n  </figure>\n  <p>Is Christ the Rock of your salvation? In I Corinthians 10 Paul calls Christ a Spiritual Rock. And in Palms 95:1 David calls the Lord the Rock of his salvation. God often uses similitude or allegories to help us to remember things of importance. Christ is our sacrificial lamb, His word is seed for the sower, our sword is the Bible, our faith is our shield, and on and on. I believe He does this to help us to remember, to help it stick in our minds.</p>\n  <p>We can use allegories to help us to be on guard and defend ourselves against the forces of evil. We need to be on guard. We have an enemy that is desperately trying to destroy us! We are nonresistant in earthly warfare, but we dare not be nonresistant in the spiritual! We must press the battle to the <em>very gates of Hell</em> and deprive Satan of the victims he so desires. Fighting in this battle is not optional. Choosing to remain neutral simply means we are losing. Satan is on the offensive whether we like it or not.</p>\n  <p>Most of us are probably aware of the term “WMDs.” Those reading newspapers have seen this term hundreds of times in the past few years. WMDs were the reasons that President Bush, Tony Blair and the other allies gave for invading Iraq.</p>\n  <p>WMDs are initials for <strong>W</strong>eapons of <strong>M</strong>ass <strong>D</strong>estruction. They are weapons that usually cover large areas and indiscriminately kill and maim innocents as well as military. They do not make a difference. Their victims will include women, children and elderly. Weapons of mass destruction as defined today are basically in three categories. They are nuclear, chemical, and biological. Let’s draw a few word pictures. Perhaps we can make comparisons between the WMDs of this world and the spiritual weapons that are used by Satan.</p>\n  <p>On August 6<sup>th</sup>, 1945, a B-29 airplane rolled down the runway of an American Air base on Tinian Island in the West Pacific. It was a nice clear morning. The captain was Paul Tibbets. He had named his plane after his mother. It was the <em>Enola Gay</em>. It was a very modern plane for its time, with a pressurized cabin and able to fly at high altitude. The beauty of the weather and peace of the sky were deceptive. Tibbets and his crew had a six hour flight to Hiroshima, Japan. While in flight they armed and removed the safeties of a bomb they had nicknamed “Little Boy.”</p>\n  <p>As they came in over the Japanese mainland, they were spotted by radar. Sirens were set off but soon discontinued. The altitude and small amount of planes suggested an allied observation run, rather then an attack. The <em>Enola Gay</em> continued unobstructed to its target. When over the city of Hiroshima, they dropped their payload.</p>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-2.jpg\" alt=\"Chart of major religious groups by world population in 2005\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-3.jpg\" alt=\"Diagram identifying parts of a chemical bomb\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-4.jpg\" alt=\"Person wearing a gas mask\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-5.jpg\" alt=\"Mushroom cloud rising over a landscape\">\n  </figure>\n  <p>The results were atrocious! As I understand it, a nuclear bomb splits atoms and then the atoms reproduce themselves and split again for as long as the temperature is maintained. In any event, the explosion generated temperatures of more then 7000 degrees and winds of more than 600 miles per hour. Over 100,000 people perished. Three days later another bomb was dropped over Nagasaki. The Japanese surrendered on August 25<sup>th</sup> 1945.</p>\n  <h2>Nuclear Weapons</h2>\n  <p>Now then, what does Satan have in his arsenal that is like a nuclear weapon? We can liken it to false prophets. False prophets often go unspotted or ignored by church radar, the sirens are either turned off or disregarded, and the results are devastating.</p>\n  <p>A nuclear bomb is dropped into the center of its target and explodes outward. Likewise, false prophets also explode from our center. They are not Moslems, Buddhists, or Hindus. They come to us from within. A nuclear bomb of false prophets was dropped on the church soon after its conception. The Gnostics and others were quick to compete for faith in Christ. And then in the fourth century, when the church and the state came together, the atoms of false prophets reproduced themselves in great numbers. Heresies of infant baptism, militarism and sacramental salvation abounded. The mushroom cloud of this bomb engulfed the whole earth. The survivors were few and far between. The spiritual victims far exceed the number of casualties at Hiroshima.</p>\n  <p>In the 16<sup>th</sup> century, other bombs were dropped on the Reformation. Eternal security, limited atonement, and other heresies waxed strong. The aftershocks are still claiming victims by way of acceptance of divorce and remarriage, gross immodesty, and many other things.</p>\n  <p>Several weeks ago I was flying back from a business trip to Atlanta. The gentleman sitting beside me told me he was going through a divorce. I told him that remarriage after divorce is forbidden in the Bible. His response was: “My pastor is divorced and remarried.” Fully one third of the population of this earth claim to be Christians. What do they do with the following verses?</p>\n  <blockquote>\n    <p>Luke 16:18 <em>Whosoever putteth away his wife, and marrieth another, committeth adultery: and whosoever marrieth her that is put away from her husband committeth adultery.</em></p>\n    <p>I Cor 6:9-10 <em>Know ye not that the unrighteous shall not inherit the kingdom of God? Be not deceived: neither fornicators, nor idolaters, nor <u><strong>adulterers</strong></u>, nor effeminate, nor abusers of themselves with mankind, Nor thieves, nor covetous, nor drunkards, nor revilers, nor extortioners, shall inherit the kingdom of God.</em></p>\n  </blockquote>\n  <p>Professing but lost Christians are the largest unsaved people group in the world. We need to be very careful. If someone lifts up Jesus and the Holy Spirit we are often inclined to believe them without checking them out. Matt 24:24 <em>For there shall arise false Christs, and false prophets, and shall shew great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect.</em></p>\n  <p>This weapon is making inroads everywhere! False prophets can even be in conservative churches. Their wives may have their heads covered. But if their teaching is at odds with the Holy Scripture they are false prophets!</p>\n  <blockquote>\n    <p>II Pet 2:1-3 <em>But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction. And many shall follow their pernicious ways; by reason of whom the way of truth shall be evil spoken of.</em></p>\n  </blockquote>\n  <h2>Chemical Weapons</h2>\n  <p><em>Chemical weapons</em> are generally made up of gases, such as mustard gas, phosphorus, napalm and so on. They are usually very painful. I’ve been told that some of these gases can burn the skin right off a human body. They were used by both sides in World War I.</p>\n  <p>Let’s liken chemical weapons to a church split, division or discord in a brotherhood. These are rebellion within Christian circles. They are often very painful. Those sowing discord often seem to have very valid reasons for their dissatisfaction. But that is no excuse. If we have a problem we need to bring our concerns to our elders or church leaders. Our fears can often be eliminated by a simple discussion. I believe this is one of the major or most used weapons in Satan’s arsenal. He is able to do tremendous damage to his sworn enemy. “Divide and conquer” is more than a war cry. It is a tactical maneuver that has been successfully implemented countless times in the history of the church.</p>\n  <p>In this kind of attack many of the casualties are women and children. My wife went through one of these years ago, while she was still single. Today, many of her friends are in the world, in broken marriages or ungodly relationships, etc. Their lives are all messed up. One of the things that God hates is he that soweth discord among brethren.</p>\n  <blockquote>\n    <p>Prov 16:27-28 <em>An ungodly man diggeth up evil: and in his lips there is as a burning fire. A froward man soweth strife: and a whisperer separateth chief friends.</em></p>\n    <p>James 3:13-16 <em>Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom. But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work.</em></p>\n  </blockquote>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-6.jpg\" alt=\"Workers beside a stack of large bombs\">\n  </figure>\n  <p>I would hope that if any of us ever think we can be closer to God in another church that we would try to leave quietly. Whispering and backbiting can be very dangerous. Taking others with us makes us rebels.</p>\n  <h2>Biological Weapons</h2>\n  <p>A <em>bioterrorism attack</em> is the deliberate release of viruses, bacteria, or other germs used to cause illness or death in people. Biological weapons are usually not as painful. Many times their victims do not even know they are being attacked. They creep in on us and we are totally unaware of the dangers. They contaminate and poison our water, air, or food. We do not realize that we are being poisoned until it is too late. They are very subtle. They are like rat poison: 95% good food, air, or water.</p>\n  <figure>\n    <img src=\"/images/articles/a34a82e6-f649-44af-9469-966424ab3766-7.jpg\" alt=\"People walking through a bomb-damaged street\">\n  </figure>\n  <p>Certain equipment or sensors are often required to detect biological weapons. And again, our children and our wives are usually the most vulnerable.</p>\n  <p>Do we believe Satan uses biological weapons in his war against the church of God? I do. We can compare them with deceit and slow drifting. This deceit could be legalism that takes our focus off of Christ. This can be a slow poison that is hard to recognize. Beware of the leaven of the Pharisees! God’s Word and Christian leadership must be our gas masks or filters in order for us to survive.</p>\n  <p>Spiritual bioterrorism can also be inroads to things of this world. Dress, music, or all kinds of hedonism. What’s wrong with keeping up with professional sports? Why can’t I wear jewelry and still be a Christian? What’s wrong with Christian rock music? The lyrics are good! We’re saved by grace, aren’t we? Isn’t obedience a “works salvation”? Besides, we know many Christians that are doing these things, don’t we?</p>\n  <p>No, brothers and sisters, most of these things are not really all <em>that</em> wrong. Maybe only around 5%...they don’t hurt very much...these weapons do not cause much pain. Our children actually enjoy them...they won’t kill us very fast. You know, we hear things like “we have a savior, not a system–a relationship, not a religion.” But if these statements lead us to licentiousness, they also can become wrong. Religion is not wrong unless it is wrong religion. True religion will motivate us to action.</p>\n  <blockquote>\n    <p>James 1:27 <em>Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.</em></p>\n  </blockquote>\n  <p>We know that we need more than these actions for our salvation. Also required are repentance and faith in the shed blood of Christ. But what James is telling us is that true faith motivates us to action.</p>\n  <blockquote>\n    <p>Matt 7:26-27 <em>And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it.</em></p>\n  </blockquote>\n  <p>Obedience is not optional.Faith without obedience is a lie. Obedience without faith is dead religion. But faith that motivates us to obey the commands of Jesus is not legalism. We need to trust and <em>obey</em>. There is no other way! Anything else is spiritual deception.</p>\n  <h2>Conclusion</h2>\n  <p>This article is not an attempt to frighten you. Unless, of course, you are not born into the family of God. In that case, fear is in order. It could be the prodding that will drive you to the cross. But Christians need to be as the Bereans and check things out. We need to put on the whole armor of God.</p>\n  <p>We need to be vigilant, but we don’t need to worry. We need to be careful, but we don’t need to be fearful. We are on the winning side! If our faith is in Jesus Christ and our War Manual is the Word of God, then “greater is He that is in us than he that is in the world.”</p>\n  <p>The Rock of our salvation is also our bomb shelter! Ps 95:1 <em>O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f71098861157183c4c90602e2877fe41b0eff651cb8d552128de26c79517c428"
+}

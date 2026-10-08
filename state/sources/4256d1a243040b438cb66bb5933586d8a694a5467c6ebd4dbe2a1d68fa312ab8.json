@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "7598a2fc-0558-40c6-a62a-1d0395ac542f",
+    "images": [
+      {
+        "alt": "An armored soldier holds a sword and a shield marked with a cross.",
+        "caption": null,
+        "credit": null,
+        "height": 681,
+        "public_path": "/images/articles/7598a2fc-0558-40c6-a62a-1d0395ac542f-1.jpg",
+        "repository_path": "public/images/articles/7598a2fc-0558-40c6-a62a-1d0395ac542f-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Separate article text omitted. The pale appearance is already encoded in the sole source raster; the source contains no soft mask, separable opacity wash, or reliable original black-point evidence for an exact inverse. Source tones retained as the unavoidable baked-treatment exception.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 9,
+        "source_pdf_object": 33,
+        "transformations": [
+          "DeviceGray JPEG converted to three-channel sRGB baseline JPEG at original dimensions, quality 98, 4:4:4, 72 dpi; no inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 505×681",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 505x681 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 505
+      }
+    ],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "I Am a Soldier",
+    "topics": [
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd",
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "90ac8e6ec7ad5d2e2139dfa4a8c68a0a5f0da1769a39c5b034ccb390a561c4d2",
+    "metadata_sha256": "a53a433271574b34fedaa380c7c7df6052ab145203b8c9aeb87417fb9907c252",
+    "structure_sha256": "9f06def183272e69b5f13d3615b7e8479daf13abe52d6a8ba88c91c9568264c9",
+    "text_sha256": "f1b708fc6b2ee7e6a745d2a76ce0319cfe6ba302e50e5bfef88ec7b466cdf8f1",
+    "translation_metadata_sha256": "f3b33c6767491c4488ec0a804fa9ed0e2e606d797beeaa55ba84dfef5519f396"
+  },
+  "html": "<article data-article-id=\"7598a2fc-0558-40c6-a62a-1d0395ac542f\">\n  <figure><img src=\"/images/articles/7598a2fc-0558-40c6-a62a-1d0395ac542f-1.jpg\" alt=\"An armored soldier holds a sword and a shield marked with a cross.\"></figure>\n<blockquote><p><em>“Thou therefore endure hardness, as a good soldier of Jesus Christ.<br>No man that warreth entangleth himself with the affairs of this life;<br>that he may please him who hath chosen him to be a soldier.”<br>II Timothy 2:3-4</em></p></blockquote>\n<p><strong>I am a soldier…</strong> In the army of God! The Lord Jesus Christ is my Captain. The Holy Bible is my code of conduct. Faith, prayer and the Word are my weapons of warfare. I have been taught by the Holy Spirit, trained by experience, tried by adversity and tested by fire.</p>\n<p><strong>I am a volunteer…</strong> I am enlisted for eternity! I will either retire at the rapture or die on the battlefield. I will not get out, sell out, be talked out or be pushed out. I will be faithful, reliable, capable and dependable. I will teach children, work with the youth, help others or just sit and learn. My God can use me, because I am here.</p>\n<p><strong>I am not a baby…</strong> I do not need to be pampered, petted, primed up, pumped up, picked up or pepped up. I am a soldier. No one has to call me, remind me, write me, visit me, entice me or lure me. I am a soldier.</p>\n<p><strong>I am not a wimp…</strong> I am in place, saluting my King, obeying His orders, praising His name and building His Kingdom. No one has to send me flowers, gifts, food, cards or give me hand-outs. I do not need to be cuddled, cradled, cared for or catered to. I am committed.</p>\n<p><strong>I will not be stopped…</strong> My feelings will not be hurt enough to turn me aside. I will not be discouraged enough to turn around. I cannot lose enough to cause me to quit. Devils cannot defeat me, people will not disillusion me, weather cannot weary me, sickness will not stop me and governments cannot silence me. I am a soldier. Even death cannot destroy me.</p>\n<p><strong>I will win…</strong> I started with nothing, and if I end with nothing, I will still win. My God will supply all my needs. I am more than a conqueror, and I will always triumph. I can do all things through Christ. I am a soldier in God’s army. I am marching on in victory, marching and heaven bound. Here I stand….will you stand with me?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "404688eb69c2116413d04c08048664a4d695d53a9bfb3a59b3e9ab6bd1207373"
+}

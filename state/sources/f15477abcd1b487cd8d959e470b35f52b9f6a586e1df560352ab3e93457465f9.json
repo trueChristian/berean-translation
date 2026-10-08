@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1834-1892",
+          "name": "Charles Spurgeon"
+        }
+      ],
+      "raw": "by Charles Spurgeon 1834-1892"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "491f78d6-ae99-4029-bd7e-193248398514",
+    "images": [],
+    "issue_id": "82d9c013-5a75-453c-9193-1270033b393d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": null,
+    "title": "Feeding Sheep or Amusing Goats?",
+    "topics": [
+      "7f8e6e3c-322b-5d2d-b390-05235f99a977",
+      "71b4f992-d7ff-5b6a-b1d5-2f08160b4dfa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b7f298234d7631c1c9497e463395117cba60eb7f40b0c7d4a77c27441c9db7f5",
+    "metadata_sha256": "c576b0b0eeaae75e77a7a2013e2751961a48f15da1eec05cc15e7809fc0bf295",
+    "structure_sha256": "54c52221cf945d7c0f474f4ffda5e5901f63e0c0c3c801981f8662969fe15d20",
+    "text_sha256": "e0291458c766f2bc7a2900e0f3b2ac2085fcd668e7dd05bb4418b8ce0959a288",
+    "translation_metadata_sha256": "cd43170819c9c6df1d21a29f0bf13b99c662ed6c96f53eb04d5bdf8cb4c4a416"
+  },
+  "html": "<article data-article-id=\"491f78d6-ae99-4029-bd7e-193248398514\">\n  <p>An evil is in the professed camp of the Lord, so gross in its impudence, that the most shortsighted can hardly fail to notice it during the past few years. It has developed at an abnormal rate, even for evil. It has worked like leaven until the whole lump ferments. The devil has seldom done a cleverer thing than hinting to the church that part of their mission is to provide entertainment for the people, with a view to winning them.</p>\n  <p>The church has gradually toned down her testimony, then winked at and excused the frivolities of the day. Then she tolerated them in her borders. Now she has adopted them under the plea of reaching the masses.</p>\n  <p>My first contention is that providing amusement for the people is nowhere spoken of in the Scriptures as a function of the church. If it is a Christian work, why did not Christ speak of it? “Go ye into all the world and preach the gospel to every creature” (Mark 16:15). That is clear enough. So it would have been if He had added, “and provide amusement for those who do not relish the gospel.” No such words, however, are to be found. It did not seem to occur to Him.</p>\n  <p>Then again, “He gave some, apostles; and some, prophets; and some evangelists; and some pastors and teachers...for the work of the ministry” (Eph. 4:11-12). Where do entertainers come in? The Holy Spirit is silent concerning them. Were the prophets persecuted because they amused the people or because they refused? The concert has no martyr roll.</p>\n  <p>Again, providing amusement is in direct antagonism to the teaching and life of Christ and all his apostles. What was the attitude of the church to the world? “Ye are the salt” (Matt. 5:13), not the sugar candy—something the world will spit out not swallow. Short and sharp was the utterance, “Let the dead bury their dead” (Matt. 8:22). He was in awful earnestness.</p>\n  <p>Had Christ introduced more of the bright and pleasant elements into His mission, He would have been more popular when they went back, because of the searching nature of His teaching. I do not hear Him say, “Run after these people, Peter, and tell them we will have a different style of service tomorrow, something short and attractive with little preaching. We will have a pleasant evening for the people. Tell them they will be sure to enjoy it. Be quick, Peter, we must get the people somehow.” Jesus pitied sinners, sighed and wept over them, but never sought to amuse them.</p>\n  <p>In vain will the Epistles be searched to find any trace of this gospel of amusement! Their message is, “Come out, keep out, keep clean out!” Anything approaching fooling is conspicuous by its absence. They had boundless confidence in the gospel and employed no other weapon.</p>\n  <p>After Peter and John were locked up for preaching, the church had a prayer meeting, but they did not pray, “Lord grant unto thy servants that by a wise and discriminating use of innocent recreation we may show these people how happy we are.” If they ceased not from preaching Christ, they had not time for arranging entertainments. Scattered by persecution, they went everywhere preaching the gospel. They turned the world upside down (Acts 17:6). That is the only difference! Lord, clear the church of all the rot and rubbish the devil has imposed on her, and bring us back to apostolic methods.</p>\n  <p>Lastly, the mission of amusement fails to effect the end desired. It works havoc among young converts. Let the careless and scoffers, who thank God because the church met them halfway, speak and testify. Let the heavy laden who found peace through the concert not keep silent! Let the drunkard to whom the dramatic entertainment has been God’s link in the chain of the conversion, stand up! There are none to answer. The mission of amusement produces no converts. The need of the hour for today’s ministry is believing scholarship joined with earnest spirituality, the one springing from the other as fruit from the root. The need is biblical doctrine, so understood and felt, that it sets men on fire.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "eee0ef5caa9c9226d0823875640b142bc44e30ee80745f247d536767070e3452"
+}

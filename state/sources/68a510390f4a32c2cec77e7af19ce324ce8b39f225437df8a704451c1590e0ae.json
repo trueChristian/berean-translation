@@ -1,0 +1,127 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Michael Donaldson",
+          "role": null
+        }
+      ],
+      "raw": "by Michael Donaldson"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "907cbbdb-6566-483a-bf46-1b55a8faab8c",
+    "images": [
+      {
+        "alt": "A line drawing of two children looking over an edge.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-1.png",
+        "repository_path": "public/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-1.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. No image source or license is inferred. Original grayscale JPEG object 45, decoded to RGB without changing grayscale samples, with published ellipse clipping retained as an antialiased alpha mask at original 194 by 102 dimensions. Separable poem typography, panel/frame and page furniture omitted. The low-contrast grey tone and background are irreversibly baked into the only source raster and are preserved exactly; no inverse contrast transform, pixel synthesis or retouching. PNG used to preserve clipping transparency.",
+        "role": "poem illustration",
+        "sequence": 1,
+        "source_page": 13,
+        "transformation": "Original grayscale JPEG object 45, decoded to RGB without changing grayscale samples, with published ellipse clipping retained as an antialiased alpha mask at original 194 by 102 dimensions. Separable poem typography, panel/frame and page furniture omitted. The low-contrast grey tone and background are irreversibly baked into the only source raster and are preserved exactly; no inverse contrast transform, pixel synthesis or retouching. PNG used to preserve clipping transparency.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGBA/sRGB PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with rendered source page and original embedded image. Centre, edges and corners checked; separable typography, panels, frame and page furniture omitted. Published clips retained; flattened grey treatments in the two poem drawings explicitly retained and documented.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Three smiling children leaning forward in a doorway.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-2.jpg",
+        "repository_path": "public/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-2.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. No image source or license is inferred. Original grayscale JPEG object 46; published rectangular clipping mapped to nearest source pixels (1, 1, 138, 178). Converted from grayscale to RGB/sRGB and standards-normalized baseline JPEG at 72-dpi density, retaining 137 by 177 useful pixels. Separately painted page frame, title, panel and page furniture omitted. No CMYK conversion, rotation, flip, synthesis or retouching.",
+        "role": "poem photograph",
+        "sequence": 2,
+        "source_page": 13,
+        "transformation": "Original grayscale JPEG object 46; published rectangular clipping mapped to nearest source pixels (1, 1, 138, 178). Converted from grayscale to RGB/sRGB and standards-normalized baseline JPEG at 72-dpi density, retaining 137 by 177 useful pixels. Separately painted page frame, title, panel and page furniture omitted. No CMYK conversion, rotation, flip, synthesis or retouching.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with rendered source page and original embedded image. Centre, edges and corners checked; separable typography, panels, frame and page furniture omitted. Published clips retained; flattened grey treatments in the two poem drawings explicitly retained and documented.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A line drawing of crowns, chains and other treasures.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-3.png",
+        "repository_path": "public/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-3.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. No image source or license is inferred. Original grayscale JPEG object 47, decoded to RGB without changing grayscale samples, with published polygon clipping retained as an antialiased alpha mask at original 291 by 87 dimensions. Separable poem typography, panel/frame and page furniture omitted. The low-contrast grey tone and background are irreversibly baked into the only source raster and are preserved exactly; no inverse contrast transform, pixel synthesis or retouching. PNG used to preserve clipping transparency.",
+        "role": "poem illustration",
+        "sequence": 3,
+        "source_page": 13,
+        "transformation": "Original grayscale JPEG object 47, decoded to RGB without changing grayscale samples, with published polygon clipping retained as an antialiased alpha mask at original 291 by 87 dimensions. Separable poem typography, panel/frame and page furniture omitted. The low-contrast grey tone and background are irreversibly baked into the only source raster and are preserved exactly; no inverse contrast transform, pixel synthesis or retouching. PNG used to preserve clipping transparency.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGBA/sRGB PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with rendered source page and original embedded image. Centre, edges and corners checked; separable typography, panels, frame and page furniture omitted. Published clips retained; flattened grey treatments in the two poem drawings explicitly retained and documented.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "Waste or Wealth?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "4481a28f306e361a0b49a907bf4be03cb662223a285d9a587d892332e512e086",
+    "metadata_sha256": "94cd43e4a1faa95f95a4b495d87a5b5caf93d06d6f06c832d7bbd7815d4bd241",
+    "structure_sha256": "82cbf5328c3f9de8bffdb294e93b7ae58894092b48a7dcc06badac2d3c4da360",
+    "text_sha256": "6e53e38ecbc05dd73eb3a50efebca307a40f9dc58145bf0059675ca5925b1d7a",
+    "translation_metadata_sha256": "9353977141bfa2642ea24dd9ff5cdce1b778c8ae3244ee766de4750555752ddd"
+  },
+  "html": "<article data-article-id=\"907cbbdb-6566-483a-bf46-1b55a8faab8c\">\n  <figure><img src=\"/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-1.png\" alt=\"A line drawing of two children looking over an edge.\"></figure>\n  <p class=\"poem\"><em>Why do you spend your life on children?<br>\nWhy do you have so many?<br>\nYou have no time for yourself, your dreams, your fulfillment, your own interests!<br>\nWhat a waste! Children this, children that, all you do is children!<br>\nWhat a waste! You’re tired, you’re sick, you’re worn out. What a waste!</em></p>\n  <p class=\"poem\">O my friend, if you could see the things I see.<br>\nO that I could give my sight to you to see what can’t be seen.</p>\n  <p class=\"poem\">Children they are, but what shall they be?<br>\nThis one a pastor, that one an evangelist, another a missionary.<br>\nGodly fathers, Godly mothers leading families in heaven-filled homes<br>\nLovers of truth, Fishers of men.<br>\nFilled with God’s Spirit, His word, His heart.</p>\n  <figure><img src=\"/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-2.jpg\" alt=\"Three smiling children leaning forward in a doorway.\"></figure>\n  <p class=\"poem\"><em>But what of achievement and success, comfort and good jobs?<br>\nDo you not want a better life for them?</em></p>\n  <p class=\"poem\">O yes indeed! So much the better, but by whose measure?<br>\nDo we choose the Lord Eternal, or some earthly dream?</p>\n  <p class=\"poem\">What shall they choose?<br>\nWill they hear God’s tender voice and stay the narrow way?<br>\nOr follow hard the beck and call to pleasure and security?</p>\n  <p class=\"poem\">What shall they choose?<br>\nTo be content, at peace to stay, with love for all, with joy no end?<br>\nOr shall they strive to have the best the world can give right here, right now?</p>\n  <p class=\"poem\">What shall they choose?<br>\nWill they taste the gift of God, to dwell with Him forevermore?<br>\nOr fill their souls with things below, but never know eternal bliss?</p>\n  <p class=\"poem\">For this hope I give my life—a waste it seems.<br>\nA wealth I’ll have eternally, by faith see I.<br>\nSo now I choose to waste my life for Christ to gain, this world deny.</p>\n  <p class=\"poem\">To gain the world, but lose one’s soul, will be eternal waste.<br>\nTo gain one’s soul, deny this world, will be eternal wealth.</p>\n  <figure><img src=\"/images/articles/907cbbdb-6566-483a-bf46-1b55a8faab8c-3.png\" alt=\"A line drawing of crowns, chains and other treasures.\"></figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5fac0fb1162e633817aea3532048c62fd1be47d9d267171451d66275e4953584"
+}

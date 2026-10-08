@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Andrew Weaver"
+        }
+      ],
+      "raw": "by Andrew Weaver"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "cd75e08d-b5b2-43c3-a69d-2a840daa35bb",
+    "images": [
+      {
+        "alt": "An engraving of people gathered indoors around a seated woman.",
+        "caption": null,
+        "credit": null,
+        "height": 173,
+        "public_path": "/images/articles/cd75e08d-b5b2-43c3-a69d-2a840daa35bb-1.png",
+        "repository_path": "public/images/articles/cd75e08d-b5b2-43c3-a69d-2a840daa35bb-1.png",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 109; intrinsic engraving border retained, separate article heading panel omitted.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 31,
+        "source_pdf_object": 109,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 202×173",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 202x173 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 202
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "pages": [
+        31,
+        35
+      ],
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "In the Day of Thy Power",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d7c145acab62a6a09f3159bfb039f5367fd70ab3f9d24e10daf6ba2d5c867674",
+    "metadata_sha256": "a240567e2b0ced9c0ab9dc4a615eec0d98a37e00648920849513d8848682a044",
+    "structure_sha256": "af8feae68aa873b423c06880bc0ff6107321fd6df68cb83ffc1c4e3c0e7ab9dc",
+    "text_sha256": "7dafe130dd171d0dafb1b7c19c3ab5facefe68d89024cd635cdd7601795980fb",
+    "translation_metadata_sha256": "79b763044239e08fe743d26b29056e08b4923a3a3f353e48ac1a6d56a1d776c2"
+  },
+  "html": "<article data-article-id=\"cd75e08d-b5b2-43c3-a69d-2a840daa35bb\">\n  <figure>\n    <img src=\"/images/articles/cd75e08d-b5b2-43c3-a69d-2a840daa35bb-1.png\" alt=\"An engraving of people gathered indoors around a seated woman.\">\n  </figure>\n  <p><em>In the Day of Thy Power</em> is an inspiring book that is best introduced by the author’s own preface. Discussing the many books already written on the subject of revival he writes: <em>Most of these are historical accounts of the revivals of the past. They expound the laws of revival from the histories and illustrate from Scripture. The design of this book has been to expound the principles of revival from Scripture and illustrate from the histories.</em> It is an important distinction. True to its design, almost every page contains numerous quotations from the Bible as well as references to many other scriptures. Although you may not agree with all of the author’s applications of these scriptures, you will certainly appreciate his efforts to include so much of God’s infallible Word in the book.</p>\n  <p>The first chapter offers a definition of revival that includes these words: <em>Revival is more than big meetings. It is more than religious excitement. It is more than the quickening of the saints, or their being filled with the Holy Spirit. It is more than a great ingathering of souls. One may have any one of these without revival, and yet revival includes them all… Revival is divine intervention in the normal course of spiritual things. It is God revealing Himself to man in awful holiness and irresistible power. It is such a manifest working of God that human personalities are overshadowed, and human programs abandoned. It is the Lord making bare His holy arm and working in extraordinary power on saint and sinner… Revival is essentially a manifestation of God.</em></p>\n  <p>A later chapter explains that <em>it is the saints, not the sinners, that are primarily involved in revival. The quickening of the saints is the root, while the saving of the sinners is the fruit.</em> Describing this saving of God-conscious sinners during revival, the author states: <em>Gone is the voice of the sinner who inwardly debates whether or not he will patronize the Son of God… “Shall I let Him in?” Instead we hear the heart-wrung sob: “Can there be mercy still reserved for me? Can my God His wrath forbear? Me, the chief of sinners, spare?”</em></p>\n  <p><em>In the Day of Thy Power</em> examines the outpouring of the Spirit at Pentecost as a case study of revival. A list of distinctive features of that and subsequent revivals includes spiritual preparation (intercessory prayer), spontaneous working, God-consciousness, divine magnetism, apostolic preaching and divine simplicity among others. Speaking of the spontaneity of God’s working Mr. Wallis warns, <em>When God is working let man keep his hands off. Many a revival has ended through human interference.</em></p>\n  <p>More than a fourth of the chapters in the book deal with the subject of prayer as it relates to revival. The conditions are laid out for those who seek God for the blessing of revival, and common hindrances to prevailing prayer are also described. It is shown that effectual, fervent prayer has always preceded revival; yet we cannot presume to dictate to God the terms or timing of the revival. At the same time, the author warns against a fatalistic view that neglects to pray, believing God’s sovereignty is untouched by prayer.</p>\n  <p>A chapter titled “The Dynamics of Prayer” uses Abraham as an example of exercising faith and patience. <em>With his eyes fixed upon the promise of God, Abraham’s faith grew strong, until at length it could cast aside even the mountain of physical impossibility, and grasp the promised blessing…. When the improbable had become the impossible, then Abraham’s faith was made perfect, and he was certain that the promise would be fulfilled—and so it was.</em></p>\n  <p>The same chapter expresses the need for God’s people to pray in unity for revival, and describes the further unity brought by that revival. <em>Not only is revival the product of unity, but the producer of unity. It is characteristically a time when personal, social and sectarian barriers are thrown down, when hearts are melted and fused in the fires of the Spirit, and when believers see themselves as never before “all one in Christ Jesus.” “They shall see, eye to eye, when the Lord returneth to Zion” (Isa. 52:8).</em></p>\n  <p>After many stirring chapters that deepen the reader’s desire for revival, he is stirred from desire to desperation. As his faith is quickened to expectancy, he finds a chapter entitled “Paying the Price.” By this point no price seems too high for the privilege of seeing God’s power displayed in the earth. Revival is desired for the glory of God’s name alone, with no selfish motive or agenda attached. The longing for revival is now recognized as a longing for God Himself, in the person of Jesus Christ, through the power of the Holy Spirit. Is the price too high? Impossible!</p>\n  <p>If you have an opportunity to read this book, I hope it will stir in you a longing that motivates you to action. I trust it will inspire you to “clean hands and a pure heart” that dare to approach God in prevailing prayer. I pray it will move you to cry out, “Lord, I will be willing <em>in the day of Thy power!</em>”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "12cc101bdd4250f317db62b66c3a0232b43cb58aefe5d7efbc0fbb3e3ffa36be"
+}

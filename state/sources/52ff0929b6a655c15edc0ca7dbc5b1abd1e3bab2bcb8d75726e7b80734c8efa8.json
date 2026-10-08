@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "– Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "a7adeb39-f34f-4cfd-a72d-e5842a0a71c4",
+    "images": [
+      {
+        "alt": "Layered blue mountains beneath a warm peach-colored sky",
+        "caption": null,
+        "credit": "pixabay.com",
+        "public_path": "/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg",
+        "repository_path": "public/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 35 to pixabay.com; no license terms or separate permission notice are stated. The former incomplete central-panel fragment was replaced by an exact 300 dpi reconstruction from the published PDF's ordinary page-image XObjects, preserving their original crop, placement, clipping, draw order, and CMYK-to-sRGB rendering. The vector poem and byline and the two text-clipped raster fills forming “JOY” were omitted. The pale center wash remains because it is flattened into the only surviving raster pieces. No external, generated, inpainted, or inverse-estimated pixels were used.",
+        "role": "poem background photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "JOY",
+    "topics": [
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01",
+      "8b5761ab-0c6b-5b3d-a0bf-af75a1e33d50",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "98831891-d3af-59bf-9c95-821ac504dd26",
+      "9ea02874-7a57-5114-8360-1268f7f792d1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9c8136ec256969d5ab68d6f17a447d2088ff0a7911b9cd3955b78b260347a6b5",
+    "metadata_sha256": "dcf2d5e16e5af1653a79c77e03d4fe9ecb26735e388148d69aebc9caa38815d6",
+    "structure_sha256": "33134c48d93fae1bf20350619e6dd03a5d17249f81efbd385e4f325847fb229a",
+    "text_sha256": "b351e0e63d8d1533d20789628290e1e6d80f5fc7f7ea8d9d6947b2f744911aaa",
+    "translation_metadata_sha256": "ca0a6f593b32c4aef8c490dde404e985b954f258a64347800a4e63bb9914e5b0"
+  },
+  "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Layered blue mountains beneath a warm peach-colored sky\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>One fruit of the spirit is a word we all know.<br>\n    Joy is a blessing for us believers below.<br>\n    Man can’t produce the Joy that I speak,<br>\n    It comes from God, given to the meek.<br>\n    It allows you to suffer, having peace within.<br>\n    It only leaves at the presence of sin.<br>\n    Joy brings you through the trials of living.<br>\n    A peace in your heart that keeps on forgiving.<br>\n    It doesn’t forsake us; through the struggles we face.<br>\n    But rather gives courage and keeps us in grace.<br>\n    Joy is something this world does not know.<br>\n    It comes not from pleasure, nor feelings that grow;<br>\n    But comes from the peace that only God gives.<br>\n    It’s for the redeemed, and the life that he lives.<br>\n    So why do so many reject this great gift?<br>\n    That is known for healing and burdens to lift.<br>\n    If you find yourself lacking the Joy from above,<br>\n    Turn to the Saviour and His redeeming love!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9b29a13d38423692bd28618e23516be4bb5fdbf69b3840c66cdf2018c21d570d"
+}

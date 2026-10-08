@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "f124beed-a37c-436c-8450-f610647beae6",
+    "images": [
+      {
+        "alt": "Portrait of a smiling bearded man in a light shirt",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f124beed-a37c-436c-8450-f610647beae6-1.png",
+        "repository_path": "public/images/articles/f124beed-a37c-436c-8450-f610647beae6-1.png",
+        "rights_note": "The original embedded portrait (PDF image object 8) is clean; no article-specific image permission notice or credit is printed. The page heading's separate gray gradient is decorative page layout and omitted.",
+        "role": "editor portrait",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "a11ef93c-3a32-5cdc-bad0-ae4c564f5156",
+      "32b4b3c5-89d5-5664-bd1d-7f7c1b718913",
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "858917e04179598073757fa69864c3ed72a60a2a643b64a246fc30c0b95e4030",
+    "metadata_sha256": "63b0725efc9cca9c0d6677f8f34956817dbd9691e48db20d95b74ac5a310274a",
+    "structure_sha256": "4513da286ab055ee0153351eb7149b465e130481f5be7899d334ec19c15a7e0e",
+    "text_sha256": "bd0b4414daa8b42902642c946f0b39ed24aea160d7a881444e8fbc3ff03f5799",
+    "translation_metadata_sha256": "a988c8084973fa283380fb21a649fad817608dd51cbdfc246b14ee3110ddfb04"
+  },
+  "html": "<article data-article-id=\"f124beed-a37c-436c-8450-f610647beae6\">\n  <p>A few months ago, I had my second appointment with the Ears-Nose-Throat Specialist. For the second time he looked in my throat to see if my right vocal cord was still paralyzed.</p>\n  <p>“It’s what I was afraid of,” Dr. Miller said soberly.<br>\n  “Still paralyzed?” I asked.<br>\n  “Yeah,” he responded as he walked over to the computer and started typing things in my database.<br>\n  “You know I’m a preacher, don’t you?”<br>\n  “Yes, I know.”<br>\n  “So, what happens from here?”<br>\n  “Well, you have a 50% chance of never recovering your right vocal cord. At best, these things usually take from eight months to a year before we’ll know your chances of a full recovery. After a year, if things are no better, we can talk about different forms of corrective surgeries.”<br>\n  “How common is this?”<br>\n  “Very rare.”</p>\n  <p>About three months before that, I had come down with a bad cold. It gave me a bad cough and made me a bit hoarse—along with a low-grade fever—but this cold was certainly nothing out of the ordinary. When the doctor told me the news, “it was well with my soul.” However, when I got to my truck I started to cry; and then I wondered if it could be “well with my soul” and still cry… I concluded that it was okay to cry.</p>\n  <p>Well, praise the Lord, after about five months of prayer and looking to God, my voice recovered. It was a testing time for me, and I bless the Lord for it all. He used it to crush pride in my life. Sometimes I can begin to feel like I’m indispensable. When I feel this way, it seems God likes to show me that He can get along just fine without me!</p>\n  <figure><img src=\"/images/articles/f124beed-a37c-436c-8450-f610647beae6-1.png\" alt=\"Portrait of a smiling bearded man in a light shirt\"></figure>\n  <p>So by this time, you’re maybe thinking … “If you didn’t have to preach for five months, then why is this issue of <em>The Remnant</em> so late this time?” First of all, I’m sorry for the lateness of this issue. In hopes of improving, let me explain that we have been trying to organize things a bit around here. I finally got some regular help, praise the Lord! Bro. Mike Atnip has moved in to help me. Hopefully, between us both, we will be able to get the magazine out in a timely manner. As well, I’m hoping to finally try some things that I’ve wanted to do, but I haven’t had the time.</p>\n  <p>One of those things that I have been longing to do is talk about current issues and happenings. The 1800s are great, but I feel God has been wanting me to bring <em>The Remnant</em> more up to date with what He is currently doing in His people today. Don’t worry, I will continue to include classic and Early Christian articles as well.</p>\n  <p>One of the new sections you will see in this issue is the “Seeds of the Kingdom” section. In this section, we will highlight different individuals or groups who are doing something radical for the expansion of the Kingdom of God. By looking at these heroic examples, we hope to encourage you to do something for the Kingdom of God as well. We hope that this issue of <em>The Heartbeat of the Remnant</em> blesses you.<br>\n  ~Bro. Dean</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "46907969a7901147580df221a027f0d6c921c898dfe03557f730689d8c6e3767"
+}

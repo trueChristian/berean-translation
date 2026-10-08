@@ -1,0 +1,106 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "--Bro. Denny"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "6af6714c-d807-49da-b0fd-d0ee20c37915",
+    "images": [
+      {
+        "alt": "John, Anna, and Mary Joy Weaver stand beside a Tape Ministry trailer.",
+        "caption": "John, Anna, and Mary Joy Weaver—\nthe Tape Ministry road team",
+        "credit": null,
+        "height": 243,
+        "public_path": "/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-1.jpg",
+        "repository_path": "public/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean source xref 45 recovered. Separate overlaid caption and rounded gray frame omitted; intrinsic trailer signage retained.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 12,
+        "source_pdf_object": 45,
+        "transformations": [
+          "DeviceGray JPEG converted to three-channel sRGB baseline JPEG at original dimensions, quality 98, 4:4:4, 72 dpi; no inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 371×243",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 371x243 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 371
+      },
+      {
+        "alt": "Visitors stand at a Tape Ministry booth displaying recordings and literature.",
+        "caption": "The Tape\nMinistry booth at\na homeschool\ncurriculum fair",
+        "credit": null,
+        "height": 258,
+        "public_path": "/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-2.jpg",
+        "repository_path": "public/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-2.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean source xref 44 recovered. Separate overlaid caption and rounded gray frame omitted; intrinsic booth signage retained.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 12,
+        "source_pdf_object": 44,
+        "transformations": [
+          "DeviceGray JPEG converted to three-channel sRGB baseline JPEG at original dimensions, quality 98, 4:4:4, 72 dpi; no inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 372×258",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete raster load",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 372x258 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; sole-source baked treatments explicitly recorded in rights_note",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 372
+      }
+    ],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "TAPE MINISTRY ROAD TEAM",
+    "topics": [
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82",
+      "0ade9728-d895-5710-84b2-09af80abdc84"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "dc43496066c6825bf966487fac3f8139ece42c25b6f927d92bdf8ced353b3db0",
+    "metadata_sha256": "2ba753c2d1a327c325ba6e8f0f4ba3701ff515ec456446923e8019ffbf09417e",
+    "structure_sha256": "581bafaf2987a9538f2a3edf3ee4ab28a445a82af6d6f288b0e0cbcb70febeb9",
+    "text_sha256": "9848da915b1aa39faf1af8cf217f3ff30e5e109903c227a53686d27e8f72593f",
+    "translation_metadata_sha256": "8e3065ee213c8006e11107840c361a3484eca659d3fc6cd6521fd0e116dac95a"
+  },
+  "html": "<article data-article-id=\"6af6714c-d807-49da-b0fd-d0ee20c37915\">\n  <p>Greetings to each one of you in the Name which is above every name, the name of Jesus Christ. Spring has arrived here in Pennsylvania, reminding us again that Jesus Christ, the Son of David, rose from the dead.</p>\n  <p>The work here has been progressing beyond our expectations. God has faithfully sent us the servants needed ahead of time. Praise His name. We have been busier than ever these last few months as the Ministry continues to expand abroad. The picture to the right is the latest addition to the list of faithful volunteers, and a happy answer to our prayers. John &amp; Anna Weaver, and their daughter Mary Joy, have enlisted as the Road Team for the Remnant and Tape Ministry. For some time now we have been asking God for someone who could take the Ministry on the road. Again, He is faithful to supply all that is needed.</p>\n  <figure>\n    <img src=\"/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-1.jpg\" alt=\"John, Anna, and Mary Joy Weaver stand beside a Tape Ministry trailer.\">\n    <figcaption><strong>John, Anna, and Mary Joy Weaver—<br>the Tape Ministry road team</strong></figcaption>\n  </figure>\n  <p>There are homeschool curriculum fairs all over the United States where parents gather to search for material to use in the training of their children. This is an excellent place to minister with the tapes and the Remnant. We have known of this opportunity for years, and felt like we should have someone who could go to these and minister. The Lord has placed the burden to do this on Brother John’s heart.</p>\n  <p>They have loaded the trailer with all the equipment they need, tapes, catalogs, and Remnants. They will be on the road for about five months with stops all over the East-Central part of the US. Pray for them, the devil hates what they are doing, and road life loses its excitement very quickly as the miles roll by. This is a beautiful opportunity, and they have already met many hungry people. We have also included a picture of their display that they set up at the curriculum fairs.</p>\n  <figure>\n    <img src=\"/images/articles/6af6714c-d807-49da-b0fd-d0ee20c37915-2.jpg\" alt=\"Visitors stand at a Tape Ministry booth displaying recordings and literature.\">\n    <figcaption><strong>The Tape<br>Ministry booth at<br>a homeschool<br>curriculum fair</strong></figcaption>\n  </figure>\n  <p>It is again time to bring you up to date on our finances. God has been good, and the needs always seemed to be met. Blessed be His Name. I sincerely thank each one of you who have helped in any way with the work here. We think of you often.</p>\n  <table>\n    <tbody>\n      <tr><th>01/01/02 Beginning Balance</th><td><strong>$2,270.98</strong></td></tr>\n      <tr><th>Receipts</th><td></td></tr>\n      <tr><td>Tape Ministry Donations</td><td>$75,642.45</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$8,063.44</td></tr>\n      <tr><th>Total Receipts</th><td><strong>$83,705.89</strong></td></tr>\n      <tr><th>Disbursements</th><td></td></tr>\n      <tr><td>UPS &amp; Postage</td><td>$7,011.22</td></tr>\n      <tr><td>Tapes, Albums &amp; Labels</td><td>$49,771.00</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$420.71</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$121.10</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$2,908.33</td></tr>\n      <tr><td>Rent &amp; Electric</td><td>$3,400.00</td></tr>\n      <tr><td>Telephone</td><td>$2,127.77</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$258.75</td></tr>\n      <tr><td>Miscellaneous</td><td>$765.25</td></tr>\n      <tr><td>Payroll Expense</td><td>$9,800.01</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$1,956.61</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$11,698.96</td></tr>\n      <tr><th>Total Disbursements</th><td><strong>$90,239.71</strong></td></tr>\n      <tr><th>03/31/02 Ending Balance</th><td><strong>-$4,262.84</strong></td></tr>\n      <tr><th>Difference</th><td><strong>-$6,533.82</strong></td></tr>\n    </tbody>\n  </table>\n  <p><em>--Bro. Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "18245c8df79bdc3d9265e10c1a59d9b17dc7da25ce8a7e5ec52c571bb2e8a3df"
+}

@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip",
+          "role": null
+        }
+      ],
+      "raw": "~Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "f1a3837b-d67f-4956-aca0-f94eecc770fe",
+    "images": [
+      {
+        "alt": "A boy seated with his knees up",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-1.jpg",
+        "repository_path": "public/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-1.jpg",
+        "rights_note": "The issue masthead lists general image sources ©2001-2010, www.clipart.com and www.sxc.hu but does not assign this image to a source; no image-specific licence or separate permission notice is printed. The embedded sRGB JPEG (PDF object 181) was encoded as standards-normalized baseline sRGB JPEG with 150 dpi to resolve absent JFIF density; no pixels were retouched.",
+        "role": "story photograph",
+        "sequence": 1,
+        "source_page": 21
+      },
+      {
+        "alt": "A tabby kitten curled up",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-2.jpg",
+        "repository_path": "public/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-2.jpg",
+        "rights_note": "The issue masthead lists general image sources ©2001-2010, www.clipart.com and www.sxc.hu but does not assign this image to a source; no image-specific licence or separate permission notice is printed. The embedded sRGB JPEG (PDF object 180) was encoded as standards-normalized baseline sRGB JPEG with 150 dpi; PDF object 182 is only a narrow repeat sliver of this picture and was not exported again.",
+        "role": "story photograph",
+        "sequence": 2,
+        "source_page": 21
+      },
+      {
+        "alt": "A pig lying in a muddy area",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-3.jpg",
+        "repository_path": "public/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-3.jpg",
+        "rights_note": "The issue masthead lists general image sources ©2001-2010, www.clipart.com and www.sxc.hu but does not assign this image to a source; no image-specific licence or separate permission notice is printed. The embedded sRGB JPEG (PDF object 179) was encoded as standards-normalized baseline sRGB JPEG with 150 dpi; no pixels were retouched.",
+        "role": "story photograph",
+        "sequence": 3,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 21
+    },
+    "subtitle": null,
+    "title": "The Parable of the Pig and the Puddle",
+    "topics": [
+      "f6f99110-040b-52df-ae00-56df469d87cc",
+      "1b0db828-35fe-5219-8706-6bfbf0e7f371"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "02f5f5ade9f6ef8bbe3918efbd653e6ad8884098c337181befbf427ab6fee094",
+    "metadata_sha256": "7e1fb39981e6f2dbb9a1ddd4119e9c30083499edff42c96649608742b52eef7a",
+    "structure_sha256": "df3287c8b14023227e756e89c4113931310b41ddf3502245f7cfe571983ca7c7",
+    "text_sha256": "07046e280aa20b7b5f7a09aa1cf86ebd203f13ea7bc2500d2c1956177f84b02c",
+    "translation_metadata_sha256": "1f54727c6b2b357a01ea4603a5059a06f994582c851a2f61162cc406a5e08301"
+  },
+  "html": "<article data-article-id=\"f1a3837b-d67f-4956-aca0-f94eecc770fe\">\n  <p>The kingdom of heaven is like unto a farmer’s son who was raising a pig for a 4-H project. Fair time was approaching fast, and Pete (the boy) was having a hard time keeping his pet clean. As all pigs are wont to do, it would instinctively investigate every mud puddle that it happened upon—even immediately after Pete had given him a good scrubbing with firm instructions to stay clean!</p>\n  <figure><img src=\"/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-1.jpg\" alt=\"A boy seated with his knees up\"></figure>\n  <p>Pete knew that he stood no chance of winning the blue ribbon if he took a dirty pig to the show. But try as he might, he could not get his pig to keep himself clean once he had been given a thorough scrubbing. Pete’s only place to keep his pig was in a pen in which one corner stayed dry, but 90% of the pen was a mud hole—much to the pig’s great delight!</p>\n  <p>Pete schemed for days about his dilemma. How could he save his pig from his own natural instincts? He could put his pig in a strait jacket, but what would the judges think when he arrived at the fair with his pig in a strait jacket? And how could he walk his pig to town in a strait jacket? Oodles of puddles lay in the path to town, and he knew, he just knew, that his pet could never detour a mud puddle!</p>\n  <p>Finally, the great idea came upon Pete. He noticed that Skimps the kitty hated mud puddles! It would cost the life of his only kitty, but if only …</p>\n  <figure><img src=\"/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-2.jpg\" alt=\"A tabby kitten curled up\"></figure>\n  <p>So he tried it. With a deft operation, Pete managed to take the soul out of the cat and put it into his pig.</p>\n  <p>How changed the pig was! He still weighed 220 pounds. He still had a snout and a curly tail. He still ate breakfast. But how he hated mud puddles with a passion!</p>\n  <figure><img src=\"/images/articles/f1a3837b-d67f-4956-aca0-f94eecc770fe-3.jpg\" alt=\"A pig lying in a muddy area\"></figure>\n  <p>The day of the show came, and Pete walked his pig to the fair. People stared in wonder at the boy and his pig walking down the puddle-filled road. The pig detoured or jumped over every mud puddle, with the amazing agility of a cat!</p>\n  <p>And so the pig, which had been given a thorough scrubbing some days previously, arrived at the show shining clean. What few spots he had received on the way to the show were promptly licked clean … you know, just like Skimps used to clean himself! By this means, Pete won the blue ribbon. The soul of the kitty in the body of the pig had saved the day!</p>\n  <p><em>This parable is by no means perfect. Yet it explains how man can avoid the “mud puddles” of fleshly delights which fill this world we live in. Not by strait jackets, but by a change of character. If we box ourselves out of society by moving to some remote island, we may avoid many temptations. But that is not true freedom. The real freedom comes from having the character of Jesus placed into our hearts by a new birth. When this happens, we will hate sin just like the pig with a kitty heart hated those mud puddles.</em></p>\n  <p><em>Have you been born again? Has the nature of God been restored in you? Although we know that Pete could never put a kitty soul into a pig, we know that God can put Christ within us, thus saving us from our sin.</em></p>\n  <p><em>Hallelujah, what a salvation!</em> ~Mike Atnip</p>\n  <blockquote><p>Whereby are given unto us exceeding great and precious promises: that by these ye might be <strong>partakers of the divine nature</strong>, having escaped the corruption that is in the world through lust. 2 Pe. 1:4</p></blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5c2a7e76f122e2c284ae04ecfc0e8484214c7b413e580e8eba86f0c419aae183"
+}

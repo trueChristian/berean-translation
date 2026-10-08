@@ -1,0 +1,130 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Brother Denny"
+        }
+      ],
+      "raw": "--Brother Denny"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "2d79c71a-d46e-4391-b7c4-d4e85179e665",
+    "images": [
+      {
+        "alt": "A group photograph of the ministry volunteers.",
+        "caption": null,
+        "credit": null,
+        "height": 256,
+        "public_path": "/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-1.jpg",
+        "repository_path": "public/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-1.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 113; separately painted multiple rectangular frame strokes omitted.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 32,
+        "source_pdf_object": 113,
+        "transformations": [
+          "Source grayscale JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; intrinsic dimensions, orientation and image content preserved. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 391×256",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 391x256 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 391
+      },
+      {
+        "alt": "An audio cassette.",
+        "caption": "Charity\nGospel\nTape Ministry",
+        "credit": null,
+        "height": 31,
+        "public_path": "/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-2.jpg",
+        "repository_path": "public/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-2.jpg",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 114; separate lettered ministry name preserved in the caption rather than painted into the exported cassette.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 32,
+        "source_pdf_object": 114,
+        "transformations": [
+          "Source grayscale JPEG expanded to RGB and encoded as standard baseline sRGB JPEG, quality 98, 4:4:4, nonzero 72 dpi; intrinsic dimensions, orientation and image content preserved. No CMYK inversion required."
+        ],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 48×31",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "JPEG 48x31 sRGB None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 48
+      },
+      {
+        "alt": "Charity Christian Missions globe logo with the words The World is Waiting.",
+        "caption": null,
+        "credit": null,
+        "height": 86,
+        "public_path": "/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-3.png",
+        "repository_path": "public/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-3.png",
+        "rights_note": "No separate image credit or licence is printed. Complete source PDF object 115; globe, ribbon, intrinsic The World is Waiting wording and CHARITY CHRISTIAN MISSIONS name preserved as substantive logo content.",
+        "role": "logo",
+        "sequence": 3,
+        "source_page": 32,
+        "source_pdf_object": 115,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 162×86",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 162x86 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 162
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Our Volunteer Family",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "6b2557a3cb9280f4dbe04791870f5040c01c87062319c2e359051cdf7ecbb20e",
+    "metadata_sha256": "11a543d1ee4ba37ec08a1b061516efb20b968244a8eecdcf599366b03c809349",
+    "structure_sha256": "1e8feabcca741fb839a3672d3a4c12c60793c949b1f53ec261e79f0ce38095d5",
+    "text_sha256": "3305dbe43905373f2ae16c27bcbe4d1cb1d6b4df2d2a0938b6b62ca8fa8ce896",
+    "translation_metadata_sha256": "0afc07635d1b52a60bbb51adb6447e7d5846f9935b1ea80bae6e3ba4c887dfef"
+  },
+  "html": "<article data-article-id=\"2d79c71a-d46e-4391-b7c4-d4e85179e665\">\n  <figure>\n    <img src=\"/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-1.jpg\" alt=\"A group photograph of the ministry volunteers.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-2.jpg\" alt=\"An audio cassette.\">\n    <figcaption>Charity<br>Gospel<br>Tape Ministry</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/2d79c71a-d46e-4391-b7c4-d4e85179e665-3.png\" alt=\"Charity Christian Missions globe logo with the words The World is Waiting.\">\n  </figure>\n  <p>Greetings to all in the name of Jesus the Christ, the Son of the Living God.</p>\n  <p>We have just finished an inspiring week of leadership training. They were days of heaven on earth. Five hundred and fifty of us men gathered together to seek the Lord and to be instructed of Him. We had a beautiful week together. I wish you could have joined in with the times of singing and worship. Have you ever experienced a multitude of fervent men worshipping God together? It is awesome. There were times when we just stood in the presence of God with no one wanting to move. It was so good to meet old friends and to make many new friends through the week. Brother David Mong informed me that the tape ministry distributed twenty thousand tapes during Leadership Seminar.</p>\n  <p>For some time now I have wanted to publish a picture of all the volunteers who work on <em>The Remnant</em>, the Missions Newsletter, and help in the tape ministry. The Leadership Seminar provided a good opportunity to gather most of them together for a picture. When I first considered the size of the volunteer family, I thought we might have about twenty-five workers. I was delighted to see a group of forty gathered after we made the announcement for the picture. Most of the people come from the Charity and Ephrata fellowships, but some are from other places as well. We thank God for these many behind the scene workers. We acknowledge that they are the ministries; without them, there would be no ministry. I am sure the picture missed some of the faithful ones who work together to make things happen around here.</p>\n  <p>Please remember us all when you pray. We find it like Paul did in his day: <em>“A great door and effectual is opened unto us, and there are many adversaries.”</em> Many thanks to all of you who pray and support this ministry.</p>\n  <h2><em>New Tapes Sets!</em></h2>\n  <p>God blessed us at the Leadership Seminar with powerful and informative teachings on several subjects. The new tape sets are listed below.</p>\n  <p>Thank you again for all your support!</p>\n  <p><em>--Brother Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "507762e99d0b310aac6949426ba1dfca3c37cc2282af4a2332e3fc12129be22d"
+}

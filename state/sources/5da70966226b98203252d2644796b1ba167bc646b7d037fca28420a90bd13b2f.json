@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Ladybrand, South Africa",
+          "name": "Stephen W. Geise",
+          "role": null
+        }
+      ],
+      "raw": "Stephen W. Geise\nLadybrand, South Africa"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "5bf8da8e-cd24-40e9-97d0-319b00f6d0af",
+    "images": [],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 26
+    },
+    "subtitle": null,
+    "title": "Sober Minded",
+    "topics": [
+      "7765eef1-b410-528e-bcde-39382c685de1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b2a900b2ee9499ed6ee868f805ca4d8ee7406d41193c9da31c77372f4eca641e",
+    "metadata_sha256": "544b46ea70de0c22946c7c44025f8c610559222cbc9703bf170fa3bc5f2c06e2",
+    "structure_sha256": "eb1ae33f44054c96009b674cca7d228e009b95b13974ca002bef20b2bc096fc6",
+    "text_sha256": "a38ab17a74fa4e32876e4145ac5879c4b52fdb22bfd787fcfba4d071dcdc5548",
+    "translation_metadata_sha256": "965069ad8b08ccc0ffbfa57ca0a0c70fb79e0ddda9f06c8c1e90ea0e32db50a0"
+  },
+  "html": "<article data-article-id=\"5bf8da8e-cd24-40e9-97d0-319b00f6d0af\">\n  <p>It is appalling to me the amount of empty, silly foolishness that characterizes the western world, and nowhere is this drivel so prevalent than on blogs, websites, and other means of communications. <strong>Our culture, as a whole, worships at the altar of entertainment and sacrifices to the god of humor.</strong> But what is even more shocking is the nonsense that is spewed out by those who name the Name of Christ.</p>\n  <p>My mind turns to Titus 2:6, where young men are exhorted to be sober minded. When we see an individual with red eyes, slurred speech, and a staggering gait, we clearly understand what it means to be drunk and what it means to be sober. But it seems that when it comes to entertainment, somehow the word “sober” is confusing and difficult to understand. Christians have become intoxicated with frivolity and lightness, and think nothing of it.</p>\n  <p>It seems we have joined those of “Higher Criticism” and thrown out the Word of God. Truth is no longer relevant but relative. A very elementary perusal of the New Testament reveals eleven passages where we find the injunction to be “SOBER.” (I Th. 5:6, 8; I Ti. 3:2, 11; Ti. 1:8; 2:2, 4, 6; I Pe. 1:13, 4:7, 5:8)</p>\n  <p>What are we to do with these commands? Are we going to foolishly fritter away our lives feasting on the swill of those who are spiritually famished? On what do you feed your soul? (Is. 55:1-3) Let me share the words of a song by E.A. Hoffman, which echo the longings of my soul.</p>\n  <p class=\"lyrics\">Lord, I am fondly, earnestly longing<br>Into Thy holy likeness to grow;<br>Thirsting for more and deeper communion,<br>Yearning Thy love more fully to know.</p>\n  <p class=\"lyrics\">(Ch.) Open the wells of grace and salvation,<br>Pour the rich streams deep into my heart;<br>Cleanse and refine my tho’t and affection,<br>Seal me and make me pure as Thou art.</p>\n  <p class=\"lyrics\">Dead to the world would I be, O Father!<br>Dead unto sin, alive unto Thee;<br>Crucify all the earthly within me,<br>Emptied of sin and self may I be.</p>\n  <p class=\"lyrics\">I would be Thine, and serve Thee forever,<br>Filled with Thy Spirit, lost in Thy love;<br>Come to my heart, Lord, come with anointing,<br>Showers of grace send down from above.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3f42f018636b7a50eb031574995fb9beec13c4d740d78eef3b02828c37ef55b2"
+}

@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Marita Horst",
+          "role": null
+        }
+      ],
+      "raw": "-by Marita Horst"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "05f07674-20dd-446e-aa36-5c7e43cef66d",
+    "images": [
+      {
+        "alt": "Cluster of roses",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-1.jpg",
+        "repository_path": "public/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-1.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean bouquet base represents both printed uses; the second is a faded repeat.",
+        "role": "repeated opening floral illustration",
+        "sequence": 1,
+        "source_page": 13
+      },
+      {
+        "alt": "Single rose with dark petals at its center",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-2.jpg",
+        "repository_path": "public/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-2.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean single-rose source object; source tonal treatment retained.",
+        "role": "poem illustration",
+        "sequence": 2,
+        "source_page": 13
+      }
+    ],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "Tempted",
+    "topics": [
+      "d7a404e4-268b-546a-a83a-47097cbfd5aa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b6b535f111015b325d8e84a4f88e19ca4f4976436b17db60b75fd1d99e53d446",
+    "metadata_sha256": "c688a05a86b7524943196751444d7b2c8de688eb73a5b9a7a3b257fb2fc328f4",
+    "structure_sha256": "f4ea52ab3d21a7d1e1c96ace5f22af3578fae41ac5e786b8c3bf4b102ca2dd39",
+    "text_sha256": "9dcb7343f4d59ebc3cb12aff3ef537e33463ac6cfffe3ebafd4dbdffe7e24fbf",
+    "translation_metadata_sha256": "9b67166ab9477fd6824d422986ac773deea2c8b6f2ec7a59bf4fe51c6b735951"
+  },
+  "html": "<article data-article-id=\"05f07674-20dd-446e-aa36-5c7e43cef66d\">\n  <figure><img src=\"/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-1.jpg\" alt=\"Cluster of roses\"></figure>\n  <p class=\"poem\">Like the sweetest rose it came<br>\n    In a swirling velvet frame;<br>\n    All my mind could see was that—<br>\n    Not all, for I saw Christ and stalled—<br>\n    But this, it lured me, called<br>\n    As dazzled there I sat.</p>\n  <p class=\"poem\">I scarcely knew what had come<br>\n    When it was there, but from<br>\n    Where it came I knew well;<br>\n    In swelling symphony it sang,<br>\n    Grabbed all my passions, rang<br>\n    With lovely, longing swell.</p>\n  <figure><img src=\"/images/articles/05f07674-20dd-446e-aa36-5c7e43cef66d-2.jpg\" alt=\"Single rose with dark petals at its center\"></figure>\n  <p class=\"poem\">Surrounded now, I reached and took<br>\n    And held it—and the look,<br>\n    The feel, the smell was sweet to me.<br>\n    But gone the scent beneath my nose!<br>\n    This in my hand is not a rose!<br>\n    A long, cruel thorn is all there be.</p>\n  <p class=\"poem\">A thorn whose blood will dry,<br>\n    A mark whose tears will cease to cry …<br>\n    But the scar, the memory<br>\n    Of that velvet rose I grasped tight<br>\n    Will linger on to haunt me: fight<br>\n    Against the velvet roses calling thee.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d02e2a93b190a5298cab87a5928591912fd59438eaf88f9ab2f52622f04b9241"
+}

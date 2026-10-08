@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "J. C. Ryle"
+        }
+      ],
+      "raw": "by J. C. Ryle, 1857"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "64bf1f79-9265-5370-8de2-47084d62cece"
+    },
+    "id": "c267120e-7b49-4a5a-8267-9aeda224aa3a",
+    "images": [
+      {
+        "alt": "Two young lions standing in grass",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c267120e-7b49-4a5a-8267-9aeda224aa3a-1.jpg",
+        "repository_path": "public/images/articles/c267120e-7b49-4a5a-8267-9aeda224aa3a-1.jpg",
+        "rights_note": "Clean original PDF base photograph xref 226 (902x1150 RGB JPEG), cropped 25 pixels from left/top to an 850x1100 frame to match the page-boundary clipping of its PDF placement at 100 dpi. Separately painted article text, translucent reading panel, publication logo, postal markings and composite text fragments were omitted. Original orientation retained; no source pixels synthesized.",
+        "role": "article background photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "be47161b-1ae5-4222-a7e3-09b140f57c22",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Pride",
+    "topics": [
+      "f0b54656-ce75-5a6c-a712-5ab9f5b44c9d",
+      "2b7dcb93-6ed0-5d9c-8730-e901cbc7f860"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "00dc9a6bea7352feb1a8db010552bd4757938cd01b2183c77bd1de26be8c23df",
+    "metadata_sha256": "4aef88a3d5bfe8ac9379694f708db095e0992abcda2e522b508d7f7e919c8d1e",
+    "structure_sha256": "09392716891cdcae3d2d210ee6bb52e909a380b57968a077ab24260f5b4662c8",
+    "text_sha256": "d612e4b58950a2a2240d7344e16405bd9e9d25f671939487150cae2e150d595a",
+    "translation_metadata_sha256": "f16593fec02563a4b979fb2e7824d5ee9f87cd118c5f08b0bc40708df0f3bb22"
+  },
+  "html": "<article data-article-id=\"c267120e-7b49-4a5a-8267-9aeda224aa3a\">\n  <figure>\n    <img src=\"/images/articles/c267120e-7b49-4a5a-8267-9aeda224aa3a-1.jpg\" alt=\"Two young lions standing in grass\">\n  </figure>\n  <blockquote>\n    <p>“they had been arguing about which of them was the greatest.” Mark 9:34</p>\n  </blockquote>\n  <p>It is a dreadful fact, that pride is one of the commonest sins which beset human nature. We are all born Pharisees.</p>\n  <p>We all naturally think far better of ourselves than we ought. We all naturally imagine that we deserve something better than we have.</p>\n  <p>Pride is an old sin. It began in the garden of Eden, when Adam and Eve thought they did not have everything that their merits deserved.</p>\n  <p>Pride is a subtle sin. It rules and reigns in many a heart without being detected, and can even wear the garb of humility.</p>\n  <p>Pride is a most soul-ruining sin. It prevents repentance; keeps men back from Christ; checks brotherly love; and nips in the bud spiritual desires.</p>\n  <p>Let us watch against it, and be on our guard.</p>\n  <p>Of all garments, none is so graceful, none wears so well, and none is so rare, as true humility.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "8dabf878ea2d8f8ed9a18d99223719232932f430bf8fb913b2c8453b4b46efa5"
+}

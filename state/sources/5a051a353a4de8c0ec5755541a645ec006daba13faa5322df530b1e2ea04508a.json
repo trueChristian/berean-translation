@@ -1,0 +1,120 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "William Law"
+        }
+      ],
+      "raw": "Rendered from William Law’s\nA Serious Call to a Devout and\nHoly Life"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "dc778209-927f-4585-954d-9400f1ea40df",
+    "images": [
+      {
+        "alt": "Illustration of a kneeling man with hands clasped and head bowed.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dc778209-927f-4585-954d-9400f1ea40df-1.jpg",
+        "repository_path": "public/images/articles/dc778209-927f-4585-954d-9400f1ea40df-1.jpg",
+        "rights_note": "No image-specific creator credit, licence, or separate reuse restriction is printed. Original embedded DeviceGray JPEG object 35 was converted to baseline RGB JPEG with sRGB ICC profile, nonzero 72-dpi density, and unchanged 504 × 347 source dimensions, crop, and orientation. No CMYK inversion was needed. The gray horizontal band is irreversibly baked into the sole source raster behind the kneeling figure; no underlying clean image, separate band object, mask, or reconstruction pieces exist. The exact source raster retains this unavoidable layout treatment under the repository exception. Separately painted title and source-attribution text were omitted. No pixels were synthesized or retouched.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG with embedded sRGB ICC profile and nonzero 72-dpi density",
+          "method": "original embedded grayscale JPEG converted to baseline sRGB JPEG",
+          "output_dimensions": [
+            504,
+            347
+          ],
+          "rotation_degrees": 0,
+          "source_object": 35
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "documented_baked_gray_band_exception",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of an adult and child kneeling together.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/dc778209-927f-4585-954d-9400f1ea40df-2.jpg",
+        "repository_path": "public/images/articles/dc778209-927f-4585-954d-9400f1ea40df-2.jpg",
+        "rights_note": "No image-specific creator credit, licence, or separate reuse restriction is printed. Original embedded DeviceGray JPEG object 39 was converted to baseline RGB JPEG with sRGB ICC profile, nonzero 72-dpi density, and unchanged 177 × 172 source dimensions, crop, and orientation. No CMYK inversion was needed. Clean base image retained; surrounding page panels, article text, pull quotes, rules, and running furniture are not included.",
+        "role": "closing illustration",
+        "sequence": 2,
+        "source_page": 9,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG with embedded sRGB ICC profile and nonzero 72-dpi density",
+          "method": "original embedded grayscale JPEG converted to baseline sRGB JPEG",
+          "output_dimensions": [
+            177,
+            172
+          ],
+          "rotation_degrees": 0,
+          "source_object": 39
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "HOW TO Pray for Your Children",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b42532be19a92e141480673ceb319e5d7295d660c219326d4157e45c99d2cb10",
+    "metadata_sha256": "f22ad2e341f31dbcffecb5caae72d93e4c8f426a9bee067f76ada4f285fd1a5a",
+    "structure_sha256": "80c113adbec31959018b3be196a850cf87bbabe17f872dc9964d35a30ed7e3b3",
+    "text_sha256": "47773d4c1836150a943e8e70576b66093498268e1c01df5c3e453ddfab5e5191",
+    "translation_metadata_sha256": "f4a76bbfd83f1e40f80c36358a3e600547981bc0861ae2f14ab56024766940a6"
+  },
+  "html": "<article data-article-id=\"dc778209-927f-4585-954d-9400f1ea40df\">\n  <figure>\n    <img src=\"/images/articles/dc778209-927f-4585-954d-9400f1ea40df-1.jpg\" alt=\"Illustration of a kneeling man with hands clasped and head bowed.\" />\n  </figure>\n  <p>It is very evident from Scripture that intercessory prayer is a great and necessary part of the Christian life. The first followers of Christ demonstrated their love for each other by their mutual prayers. When St. Paul wrote to churches and individuals, he mentioned to them that they were the constant subject of his prayers.</p>\n  <p>This was the ancient friendship of Christians. It united and cemented their hearts, not by worldly considerations or human passions, but by the mutual communication of spiritual blessings through prayers and thanksgivings to God for one another.</p>\n  <p>It was this holy intercession that raised Christians to such a high state of mutual love. They lived in a state that far exceeded all that previously had been praised and admired in human friendship. And when that same spirit of intercession is restored throughout the world—when Christianity has the same power over the hearts of people today that it originally had—this holy friendship will be again in fashion. Christians will again be the wonder of the world because of that exceeding love which they bear to one another.</p>\n  <h2>Parental Intercession</h2>\n  <p>Ironically, sometimes we intercede for other Christians, but forget to intercede for our own children. Yet, if parents were to make themselves advocates and intercessors with God for their children—constantly petitioning heaven on behalf of them—nothing would be more likely to bless their children. Not only would the children benefit, but such a prayer life would also mold and dispose the parents’ hearts to the performance of everything that was excellent and praiseworthy.</p>\n  <p>I assume, of course, that most Christian parents remember their children in their prayers and call upon God to bless them. But what I am speaking of is not a regular method of recommending all their particular needs and necessities unto God. I am speaking of praying for every such particular grace and virtue for our children according to their state and condition of life.</p>\n  <p>The office of parenthood is a holy state in some degree like that of the priesthood. It obligates parents to bless their children with their prayers and sacrifices to God. This was the manner in which holy Job watched over and blessed his children. He “sanctified them,” and he rose up early in the morning and offered burnt-offerings, “according to the number of them all.” (Job 1:5)</p>\n  <p>If parents viewed themselves as priests, they would be daily calling upon God in a solemn, deliberate manner. They would alter and extend their intercessions, as the circumstances and growth of their children required. And such devotion would have a mighty influence upon the parents’ own lives. It would make them very careful of everything they said or did, lest their example should hinder the very thing that they were constantly praying for on behalf of their children.</p>\n  <p>If a father were daily making specific prayers to God that He would inspire his children with true piety, great humility and strict temperance, what could be more likely to make the father himself become exemplary in those virtues? He would naturally be ashamed to lack the very virtues he thought necessary for his children. In short, his prayers for his children’s godliness would be a certain means of elevating his own godliness.</p>\n  <p>If a father considers himself as an intercessor before God for his children, if he yearns to bless his children with his prayers, he will aspire to every degree of holiness. For “the fervent prayer of a righteous man availeth much.” (Jas. 5:16) The man who earnestly prays for his children will amend his own life so that his prayers will “availeth much.” He will avoid everything that is sinful and displeasing to God, lest when he prays for his children, God should reject his prayers.</p>\n  <p>How tenderly, how religiously would such a father interact them to be his little spiritual flock, whose virtues he was to form by his example, encourage by his authority, nourish by his counsel, and prosper by his prayers to God for them.</p>\n  <p>How fearful would he be of all greedy and unjust ways of accumulating riches. Or of bringing his children up in pride and indulgence. Or of making them too fond of the world. He would fear lest he might thereby render his children incapable of those virtues that he was so often beseeching God to grant them.</p>\n  <p>These are the plain, natural, happy effects of parental intercession. All parents, I hope, who have the real welfare of their children at heart, will not neglect so great an opportunity. An opportunity—not just to do an eternal good to those who are so near and dear to them—but also to raise their own spiritual life.</p>\n  <figure>\n    <img src=\"/images/articles/dc778209-927f-4585-954d-9400f1ea40df-2.jpg\" alt=\"Illustration of an adult and child kneeling together.\" />\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b3515ae0686a5c165c69e6ab538f45fd6ec72e143aa94fe7960a631f7952c111"
+}

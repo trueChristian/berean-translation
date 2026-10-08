@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "TN",
+          "name": "Billy Farlow",
+          "role": null
+        }
+      ],
+      "raw": "Billy Farlow, TN, age 19"
+    },
+    "categories": {
+      "additional": [
+        "85b345ae-ce23-56a2-9249-2cfa79293657",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "61282a41-2a47-4b2e-9b9c-a286575eebbf",
+    "images": [
+      {
+        "alt": "A helmeted classical warrior shown in profile",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/61282a41-2a47-4b2e-9b9c-a286575eebbf-1.jpg",
+        "repository_path": "public/images/articles/61282a41-2a47-4b2e-9b9c-a286575eebbf-1.jpg",
+        "rights_note": "No image-specific credit, licence, source, copyright mark, or separate-permission wording is printed. The page-2 masthead states generally, “Some images ©2001-2011 / www.clipart.com / www.sxc.hu,” but does not identify which source, if either, applies to this image. The embedded 291×376 one-component Separation JPEG was inverted to match the pale dark-on-white printed appearance, converted to RGB/sRGB, and baseline-normalized at 150 ppi; separately painted poem text and border were excluded.",
+        "role": "background illustration",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Eyes on the Prize!",
+    "topics": [
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "bf6aa1d7-d4cc-5eb8-8e5a-23fb2055f914"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "32e62d04c9bd8d9f67794fb0f8c23ad7efd34ef9ba165687d5d999e1b29e2a5b",
+    "metadata_sha256": "fc8724390181acf2305919ff188e6cce34ba97bed600c76315c8f4e7e233e6a9",
+    "structure_sha256": "7231bb85d9ae0d8f7257911c3efcef2b920d206e90dd39fa7cac0d4e774e0eaf",
+    "text_sha256": "fb6ac4bc62a5e291cc3dd1bfb5ab1299317607bd5ed096889c10f9c2f753d347",
+    "translation_metadata_sha256": "eab50c186c3ed2f55db9e811373adcdde19adf1981b51709f5fe6fcae24659fc"
+  },
+  "html": "<article data-article-id=\"61282a41-2a47-4b2e-9b9c-a286575eebbf\">\n  <figure>\n    <img src=\"/images/articles/61282a41-2a47-4b2e-9b9c-a286575eebbf-1.jpg\" alt=\"A helmeted classical warrior shown in profile\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>I will work, I will live, I will die for the Lord.<br>\n    I will not be attracted by this dead world!<br>\n    It is dying, it’s decaying, it is sinking into hell.<br>\n    Can you hear me, sleepy Christian, as I ring your rusty bell?</p>\n\n    <p>There’s a fight, there’s a foe, there’s a race to be won.<br>\n    Set aside all your games, all your toys, all your fun.<br>\n    Grab your sword, shield of faith, strap your fighting helmet on!<br>\n    Stay alert, set your eyes on the prize that must be won.</p>\n\n    <p>Are you brave, are you strong, will you leave this world of death?<br>\n    Or will you be a fool, sleep and slumber like the rest?<br>\n    Please, my friend, hear the call, don’t with me offended be.<br>\n    God wants soldiers who are willing to be used extensively!</p>\n\n    <p>Keep your eyes on the prize, don’t in sin entangled be.<br>\n    There’s a crown, you will win, if you fight courageously.<br>\n    I will go with my sword, I will charge at His command.<br>\n    I will march with a will, ‘til I reach that Beulah land!</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "bee08c2eede990f00818601ad8c5dfaa901571cb4b547ac33d5f686f7965736a"
+}

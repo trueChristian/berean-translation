@@ -1,0 +1,55 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "ec686fd0-dfca-42b0-b9fa-78fe12a438db",
+    "images": [
+      {
+        "alt": "A roadside mailbox bearing the magazine name and contact details",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ec686fd0-dfca-42b0-b9fa-78fe12a438db-1.jpg",
+        "repository_path": "public/images/articles/ec686fd0-dfca-42b0-b9fa-78fe12a438db-1.jpg",
+        "rights_note": "PDF image object xref 147. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2007 clipart.com / photos.com” without mapping sources to individual assets; no image-specific licence is inferred. Source-pixel crop [0, 0, 505, 224]. Unobstructed crop of the mailbox from the sole flattened header raster, omitting the article heading and the lower reading-panel wash. The lettering on the mailbox is irreversibly baked in and is preserved; no clean base exists. Full grayscale source decoded and encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; dimensions of the retained source region preserved.",
+        "role": "article header photograph",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "fcaa8e3f-d0bd-5591-8638-314cf1c87857",
+      "4896beb5-d08b-51cf-a626-d8cef3c1b2ec"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bb61bdf94c27371c12a701583ec04f5ecc6b5d49c75d89594f693f3588c9df55",
+    "metadata_sha256": "e982a07dbad21d6b91da979a729bd6dbdb239ed980b69ba0d5fc4c2237ff1e0d",
+    "structure_sha256": "6864615d0c18d2e400eda73f837a56b3e58eb2172858ed316df5b84eb42e0bd6",
+    "text_sha256": "7d32761a691d22f1dce089a3cbccc008bcf2811ea8f8c50043c20c0642864757",
+    "translation_metadata_sha256": "0ac076dbd31dc313cf82e1bbecc6575005e932b372ef1fd462347ef03af345b0"
+  },
+  "html": "<article data-article-id=\"ec686fd0-dfca-42b0-b9fa-78fe12a438db\">\n<figure>\n  <img src=\"/images/articles/ec686fd0-dfca-42b0-b9fa-78fe12a438db-1.jpg\" alt=\"A roadside mailbox bearing the magazine name and contact details\">\n</figure>\n<p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n<p>Thank you for your publication. With each issue I learn more about you folks. I especially love to read the articles by Rachel Weaver. I feel like she knows me, and it causes conviction with tears. Just to let you know...I don’t think that your title “The Heartbeat of the Remnant” sounds haughty. Thanks again.</p>\n<p>Sincerely,<br>L. Walker<br>South Carolina</p>\n<hr>\n<p>Dear brothers in Christ,</p>\n<p>May God bless you as you seek to nourish, edify, warn, and comfort fellow believers in these last days. We appreciate your endeavor to achieve a balance in your magazine between reminding us of the security and protection we have in Christ on the one hand, and challenging us to take our responsibility in being alert to the dangers around us. “How to trust God without being a Calvinist” and “Tribulation Worketh” were both a real encouragement to us. Editing a magazine, with a diverse audience, requires much spiritual wisdom and Holy Spirit anointing. We pray that this anointing would continue in your magazine, and that our Lord would spare you from discouragement or pride. How about an article regarding “The Age of Internet in an Age of Grace”?</p>\n<p>God keep you close to Himself!<br>Belgium</p>\n<hr>\n<p>I have been getting the Remnant magazine for over a year. I have found it to be spiritually challenging and edifying. Your selection of articles have been a blessing and frequently unusually timely—especially those by old time saints. Given the shallowness of Christian experience in Christendom today, they are a breath of fresh (Holy Spirit anointed) air. Thank you for your stress on faith and holiness.</p>\n<p>Thank you for tackling some of the more controversial issues confronting the church today. Thank you for doing it in a straightforward, yet modest way. I am persuaded that you must spend much time investigating and praying over what you put in the magazine.</p>\n<p>Your servant in Christ<br>Indiana</p>\n<hr>\n<p>Thank you for your most recent issue of The Remnant. I especially appreciated Mary Yoder’s testimony and the piece by brother Dean on Calvinism. Mary’s experience again helped me to realize how important it is for church members to recognize and get rid of childhood baggage. Jesus stands ready to take our burdens and cleanse us.</p>\n<p>A Sister from Georgia</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "cd3febaf87f9f11edbc26b95405bbb691221a106d27535c174122de48193d16e"
+}

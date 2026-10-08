@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Griswold, IA",
+          "name": "Adrianna Fanton"
+        }
+      ],
+      "raw": "By Adrianna Fanton | Griswold, IA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "75096264-e3eb-4ef7-8197-2443fe3df539",
+    "images": [
+      {
+        "alt": "An autumn landscape reflected in a pond across a two-page spread",
+        "caption": null,
+        "credit": "Andrew Schwartz",
+        "public_path": "/images/articles/75096264-e3eb-4ef7-8197-2443fe3df539-1.jpg",
+        "repository_path": "public/images/articles/75096264-e3eb-4ef7-8197-2443fe3df539-1.jpg",
+        "rights_note": "The page-2 masthead credits Andrew Schwartz for printed page 16; no separate permission notice or licence terms are stated. Pages 16 and 17 were rendered at 300 dpi with PDF text filtered out and joined at the spread boundary, preserving the published background design and its two white poem panels without poem, title, or byline text; the result was baseline-encoded as a 5100-by-3300 sRGB JPEG.",
+        "role": "two-page poem background landscape",
+        "sequence": 1,
+        "source_page": 16
+      }
+    ],
+    "issue_id": "1d33b847-4514-5cad-bb2b-b62194674900",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Vision",
+    "topics": [
+      "a0279174-bf88-5c83-850d-c37281bea036",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "936596b1-8af5-5c3c-8c10-3acb7e2a1cf2",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "ba88886a30422a020ef4af93bf7e73c2b7a8c3b69d5a67051c747033df47888b",
+    "metadata_sha256": "afd36b81ad5fb639fd06ccce334942b725e5d8db6542a4588c89ad0c6fd70bc2",
+    "structure_sha256": "4b9d945f0460bfd0731d34141f86dbfe39d2c3531b6fadc77d0a14ade70d9294",
+    "text_sha256": "1460c31f0cebda5888d1b7c6a3402e0177a200f25570fc268eeca5404dad6141",
+    "translation_metadata_sha256": "cd85dd439a66f2bd7766758c5ef7e5bb383fcf47daea88ee9b357a1f5c2e00a1"
+  },
+  "html": "<article data-article-id=\"75096264-e3eb-4ef7-8197-2443fe3df539\">\n  <figure>\n    <img src=\"/images/articles/75096264-e3eb-4ef7-8197-2443fe3df539-1.jpg\" alt=\"An autumn landscape reflected in a pond across a two-page spread\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>God, take my eyes off myself,<br>\n    Help me see more of You.<br>\n    Too often I find my heart and mind<br>\n    With nothing but “me” in view.</p>\n\n    <p>Teach me to see what You see, Lord,<br>\n    The visions that live in Your heart.<br>\n    There’s so much more to be living for,<br>\n    Father, give me Your vision to start!</p>\n\n    <p>When all I can see is my hurting,<br>\n    And only troubles seem to exist.<br>\n    Open my eyes to what You see, Father!<br>\n    The picture’s much bigger than this!</p>\n\n    <p>Behind each storm, You see sunshine;<br>\n    Veiled in each death, Lord, You see life!<br>\n    Under the sorrows, You see a song,<br>\n    Within the fire—a purified life.</p>\n\n    <p>When I cry over the wasteland of dreams,<br>\n    You see what is out of my view.<br>\n    Just below the expanse of loss, and death,<br>\n    You see the new life, budding through!</p>\n\n    <p>Father, You know that to bring forth new life,<br>\n    First there must be a cross.<br>\n    The seeds for these delicate buds,<br>\n    Lord, come not, without a cost.</p>\n\n    <p>So when I am tempted to despair Father,<br>\n    And my view is crowded with gloom,<br>\n    When the fire I feel in my life,<br>\n    And the future, for happiness, leaves no room.</p>\n\n    <p>Remind me that in love you send fire,<br>\n    Not to kill, but to revive.<br>\n    For it burns away the rubble,<br>\n    That a pure life then will thrive.</p>\n\n    <p>It takes Your purging to reveal new growth,<br>\n    It calls for pain, to prune.<br>\n    But if I see as You do Lord,<br>\n    To Your will, my heart will be in tune.</p>\n\n    <p>No longer will I run from fire,<br>\n    Or cry when I feel Your knife.<br>\n    Instead of pain, my eyes seek Your gain,<br>\n    And the product of a Christlike life.</p>\n  </div>\n\n  <p class=\"byline\"><em>By Adrianna Fanton | Griswold, IA</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d278a49f4548e63693944a5fb17a165ae79fa3e8e83755cde7abe7e8497dffd6"
+}

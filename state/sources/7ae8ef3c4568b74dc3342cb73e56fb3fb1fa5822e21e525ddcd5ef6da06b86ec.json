@@ -1,0 +1,113 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Evan H. Hopkins"
+        }
+      ],
+      "raw": "by Evan H. Hopkins"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b1727d59-5391-4f21-a609-616a56217d35",
+    "images": [
+      {
+        "alt": "Water flowing over a wooden channel",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b1727d59-5391-4f21-a609-616a56217d35-1.jpg",
+        "repository_path": "public/images/articles/b1727d59-5391-4f21-a609-616a56217d35-1.jpg",
+        "rights_note": "No image-specific credit or permission notice is printed. Recovered the same underlying photograph from clean embedded RGB image object 230 (also used beneath the cover typography), cropped at native source pixels (153, 375)–(1206, 1428) to reproduce the page 3 square framing. This omits the flattened article-title typography and shadow, monochrome fade, and white edge vignette present in page 3 object 13, and excludes separately painted article text. No pixels were synthesized. The source sRGB IEC61966-2.1 profile (object 229) is retained. Exported as a standards-normalized baseline RGB/sRGB JPEG at 72 dpi. The page 4 and page 5 pull-quote backgrounds repeat lower-waterfall crops already contained in this canonical image and are represented once.",
+        "role": "opening photograph",
+        "sequence": 1,
+        "source_page": 3,
+        "transformations": {
+          "crop_box": [
+            153,
+            375,
+            1206,
+            1428
+          ],
+          "method": "Native-pixel crop of clean original embedded source; no flip, rotation, resizing, reconstruction, or synthesized pixels. Baseline RGB JPEG encoding with original sRGB ICC profile and 72 dpi density.",
+          "output_dimensions": [
+            1053,
+            1053
+          ],
+          "source_dimensions": [
+            1352,
+            1725
+          ],
+          "source_object": 230
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "bytes": 349365,
+          "color": "Source object230 uses ICCBased object206 with sRGB IEC61966-2.1 profile object229. Original RGB source colours match the reliable PDF cover render; no CMYK inversion or tonal retouching needed.",
+          "decoders": [
+            "Pillow Image.open followed by complete .load(): RGB, 1053×1053, no warnings.",
+            "FFmpeg complete decode to null output: no warnings."
+          ],
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "metadata": "ImageMagick reports JPEG, 1053×1053, sRGB, non-interlaced baseline, 72×72 density.",
+          "registration": {
+            "crop_rounding": "Nearest native integer pixels; square source crop preserves published aspect ratio.",
+            "gradient_correlation": 0.9424622257608225,
+            "method": "Matching visible source-image gradients outside typography and vignette corroborates visual comparison. Coordinate map from object13 to object230 in native pixels.",
+            "x_offset": 152.87165716,
+            "x_scale": 0.87756578,
+            "y_offset": 375.29007484,
+            "y_scale": 0.87710284
+          },
+          "source_base_and_pdf_visually_compared": true,
+          "visual_match": "Compared raw objects 13 and 230, page 3 render, cover render and final output. Identical wood grain, foliage, water ribbons and background landmarks establish the same source photograph. Inspected centre, edges and corners: no residual title, shadow, fade, vignette, caption, rule or page furniture."
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Becoming A Channel of God’s Power",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0c38c5a83869d1f5683640bb53cedc4fe8cf7ecb4e139a3ab34ac1410dc2f52f",
+    "metadata_sha256": "5d774b398382c6d84034652e95c886fd9cbf9a013271ef81e5cecc7537146730",
+    "structure_sha256": "9859bfd70ffa9fdb21e82401637984dbbbc9ca3d32abecc99162f264926f5b14",
+    "text_sha256": "121617da8fef0de12e8c079ad18196a1e51f544f61850379440a042457db5dc8",
+    "translation_metadata_sha256": "40670a7d943f295fc27365d21fdaf0cc0e9c358bd6fe751f080fe6d33f10f1bb"
+  },
+  "html": "<article data-article-id=\"b1727d59-5391-4f21-a609-616a56217d35\">\n  <figure>\n    <img src=\"/images/articles/b1727d59-5391-4f21-a609-616a56217d35-1.jpg\" alt=\"Water flowing over a wooden channel\">\n  </figure>\n  <p><em>Originally</em> “Conditions of Power”<br><em>from</em> The Law of Liberty in the Spiritual Life</p>\n  <p><em>Power belongeth unto God... Psalm 62:2<br>Christ the power of God... 1 Corinthians 1:24</em></p>\n  <p>THE essential condition of spiritual power is union with Christ. The power of which we speak is power for practical godliness, personal holiness, and effective service. This power is not from ourselves. It is not something lying dormant within us, something that has been covered up, and only needs to be liberated, set free. It is Divine power</p>\n  <p>Originally God put power into the hands of man, but he lost it at the fall. Now God has put power in Christ. There it is, for all the members of His body, but we can only have it when we are in vital union with Him. Look, as an illustration, at a man whose arm is withered. There is union between the hand and the body; but for all practical purposes there is no power for action or service. Here then we have a figure of the condition of things between many a believer and the Source of all power—union and yet no strength.</p>\n  <p>The great hindrance—that which lies at the root of every other—is unbelief. We limit God by our unbelief. The avenues of our being which bring us in contact with Christ may become contracted, and the vessel into which the power is to flow may have been reduced to a very small capacity, all through the chilling influences of unbelief. If we are to be filled with the power of God, our faith must grow. Whatever increases our faith will increase our capacity, will open the avenues of our being to God, and the power will flow in.</p>\n  <p>But instead of looking at power in the abstract, instead of regarding it as a quality we can have from God and apart from Him, it will help us to understand the conditions of its manifestation if we think of it as inseparable from the Lord Himself. “For the eyes of the Lord run to and fro throughout the whole earth, to show Himself strong on behalf of those whose heart is loyal (perfect) to Him” (2 Chron. xvi. 9). Instead of recognizing the truth that I am weak and God is to show Himself strong in me, I may be expecting to see myself made strong. I may be looking for an experience of power in myself, rather than for a manifestation of Divine power in me. He will show Himself strong on behalf of him whose heart is perfect towards Him.</p>\n  <p>The conditions of power then is to have a perfect heart towards God. What are we to understand by a perfect heart?</p>\n  <p>Looking at the word in the original we observe first that it means a heart at peace with God.</p>\n  <p>The great work of peace is accepted. “You will keep him in perfect peace, whose mind is stayed on You” (Isa. xxvi. 3). A heart perfect towards God is a heart that rests on Christ’s atoning work. The words “perfect peace,” or “peace, peace,” include the thought of recompense, thus bringing out the idea of atonement, or the work of peace. The word “perfect” in 2 Chronicles 26:9 is also rendered “peaceable” (Gen. 34:21 shalem). For when the heart rests on the work of peace, Divine all sufficient, and completed once for all, it is not only privileged to be at peace with God, but to have the peace of God; it may know, not only the peace of justification, but the peace of sanctification. A heart perfect towards God then is a heart against which no charge can be laid, which is justified from all things, and also in which there is no longer any controversy with God. The Spirit dwells in such a one, not as a Reprover, but as a Comforter. Another thought is suggested by the word perfect in that passage in Chronicles.</p>\n  <p>A “perfect” heart is a heart wholly yielded to God. We read, “You shall build with whole stones the altar of the Lord your God” (Deut. 27: 6. See also Joshua 8:31). Here we have the same word rendered “whole.” A perfect heart is a whole heart. Wholeness is one of the primary meanings of holiness. Holiness of heart is wholeness of heart. “My son, give Me your heart” (Prov. 23: 26). A perfect heart is a heart that has responded to that appeal. It gives itself up without reserve. It lays itself wholly on the altar of consecration and that altar is Christ. The altar consecrates the gift. For “every devoted thing is most holy unto the Lord” (Lev. 27:28).</p>\n  <p>But the same word has another rendering. Concerning Solomon’s temple it is written, “And the temple, when it was being built, was built with stone finished at the quarry” (1 Kings 6:7). The word perfect is here rendered “finished.” The stones were all prepared and made fit for the builder, they were ready for his use. A perfect heart is therefore a heart in a state of preparedness. It is “meet for the Master’s use, and prepared unto every good work” (2 Tim. 2:21). It is “a heart at leisure from itself.” Not absorbed in its own cares or spiritual difficulties, but being at rest and consecrated to God, it is free to devote itself to His service. As soon as the opportunity presents itself it is ready to embrace it. No time is lost in getting ready. Like an instrument always in tune, such a one is at once prepared to be used by the Master whenever He pleases.</p>\n  <p>How many spend their time in the work of preparing their hearts, as if their own sanctification were the great end of their calling!</p>\n  <p>The carpenter sharpens his tools for the work he has to do; but the sharpening of the tools is not the end, but only the means to the end he has in view. So, getting our hearts right with God, is only the means towards the accomplishment of the great purposes for which we have been rendered.</p>\n  <p>When the artisan who is engaged in some elaborate piece of workmanship requiring the highest skill, the most delicate art, and the best of instruments, lays his hand on a tool and then finds that it has lost its edge, he at once lays it down, and takes up another that is ready for use. He puts forth his power through those instruments that are perfect or “made ready”; only such is he able to use in his work.</p>\n  <p>How many of God’s children is He obliged to prepare, by severe discipline it may be, before they are meet for His use! How much of pride and self-will and carnal energy have to be taken out of us, before we are really fit to be used in His service! It is not from lack of power—power belongs unto God, and there is no lack of power in Him—but from a want of being right towards Him, a want of this perfection of heart of which the word of God so often speaks, that we know so little of the manifestation of power in ourselves. He is ready and waiting to “show Himself strong on behalf of those whose heart is loyal to Him.”</p>\n  <p>Once more we read concerning David’s mighty men that “they came with perfect heart to make David king over all Israel” (1 Chron. 12:38). There was thorough integrity of heart in the matter. There were no mixed motives, no lack of sincerity. It is a true heart, sincere as the apostle desired on behalf of the Philippians, “that you may be sincere,” that is, “judged in the sunlight and found genuine.” It is thorough in its aim and intention—”perfect towards God.” It describes an attitude rather than an attainment.</p>\n  <p>Such a heart does not shrink from Divine searching. It willingly yields itself to the penetrating, purifying and consuming power of God’s holy fire. Such a heart is loyal towards the Lord; its desire is that Christ should be king over the whole being.</p>\n  <p>Let this condition of soul be brought about, and there will be no lack of power. God Himself will make perfect His strength in our weakness.</p>\n  <p>How often we have said, “Yours is the power,” but how little have we entered into the deep meaning of those words! Too often we have had our minds occupied with the thought, “Oh that mine were the power!” But to have His strength we must have Himself. It is not that He will show that I am strong. I am ever to be learning my own weakness—that I am weakness itself. But it is that His strength may overshadow me as a tent. Such is the meaning of the words, “That the power of Christ might rest upon me” (2 Cor. 12:9).</p>\n  <p>When God is about to manifest His power through His children, it is thus that He leads them. He brings them into this condition of heart—a condition in which there is no longer any controversy with Him, in which every part of their being is voluntarily yielded to Him, in which the heart is entirely at His disposal and maintained in an attitude of loyalty towards Him. There is then no hindrance in the instrument to the manifestation of His power. The channel is then open, and free from all obstruction to the flowing forth of His fullness. There will then be a manifestation of Divine power in all directions.</p>\n  <h2>Conquering Power</h2>\n  <p>The very first enemy that must be conquered, if we would lead triumphant lives, is Self. The only power that can conquer Self is the power of God. We get the benefit of that power by submitting to it—getting under it. To know what it is to be led forth in triumph by Christ you must first become His captive. He is always going forth as the conqueror, and there are no conquerors but those who are included in His train, who are conquering because they are conquered by Christ. Have you noticed the reason which the Centurion gave why his words commanded obedience? He did not say, “Because I am a man having authority”—but “because I am a man under authority.” And the greatness of his faith consisted in this, that he recognized Christ’s relationship to the God of heaven. “I also am a man under authority.” Christ’s word was power because He was under Divine authority. The centurion recognized Christ’s relationship to Divine Omnipotence. He thought that just as all the power of Rome was behind him, and he had but to speak and it was done, so all the power of heaven was behind the Man Christ Jesus, and He had but to speak the word only, and his servant would be healed.</p>\n  <p>Here is the secret of reigning over sin. We must be under Divine control; we must know what it is fully to submit to it. “Humble yourselves therefore under the mighty hand of God.”</p>\n  <h2>Sustaining Power</h2>\n  <p>Some there are of God’s children who seem to be always struggling to keep themselves up. You see a man in the water. In terror of sinking he begins to struggle, and soon he finds that his struggling is vain, as, in spite of all his efforts, he sinks. But there is power in that very water to keep him afloat. Faith it is true, is needed, and certain conditions must be fulfilled. One is, that he must cease from struggling. Let him cast himself on the water, and cease from trying to keep himself from sinking; let him trust the water to bear him up, and instead of sinking he floats!</p>\n  <p>So it is in finding the power that keeps us spiritually from falling. We must be ready and willing to abandon ourselves to His almighty keeping. The responsibility of keeping us from falling is His; the responsibility of trusting Him to keep us is ours.</p>\n  <h2>Protecting Power</h2>\n  <p>We need this on every hand. Not only over us and under us, but on all sides—encircling us: “who are being guarded in the power of God.” Christ, who is the power of God, is the fortress in which the trusting soul is garrisoned. Let the enemy find you thus entrenched, and he will be met by a power which is not yours but God’s; he cannot touch you. “We know that whoever is born of God does not sin; but he who has been born of God keeps himself, and the wicked one does not touch him” (1 John v. 18).</p>\n  <h2>Transforming Power</h2>\n  <p>The power of God is to fill us. When the tabernacle was finished, then God’s presence filled it. “So Moses finished the work. Then a cloud covered the tent of the congregation, and the glory of the Lord filled the tabernacle. And Moses was not able to enter into the tent of the congregation, because the cloud abode thereon, and the glory of the Lord filled the tabernacle” (Exod. 40:33&amp;;35). When we who are the temples of the living God lose the glory we lose the power. God transforms us by filling us. “That you might be filled with all the fullness of God” is the blessing the apostle sought on behalf of the Ephesians converts.</p>\n  <h2>Overcoming Power</h2>\n  <p>Power, that is, for service, for aggressive work, and for suffering. It is the remark of an able preacher that “the Church has in it a power that is ever adequate to the conquest of the world”. This is true, because it is God Himself who is in the Church. God has says “I will dwell in them And walk in them” (2 Cor. 6:16).</p>\n  <p>It is not therefore a question of the impartation of the gift of faith; it is a question of the exercise of the faith they already possess. How is faith to be increased and strengthened? There are three things which our faith needs: freedom, food, and activity.</p>\n  <h2>Faith Means Freedom</h2>\n  <p>It is thoroughness that liberates faith. When we are brought to give ourselves wholly to the Lord, then it is that our faith is set free. If our eye is not single our faith will be crippled, hampered. “How can you believe, who receive honor from one another, and do not seek the honor that comes from the only God?” The want of the single eye was that which made faith impossible.</p>\n  <p>“I feel I cannot trust Him,” says one. Why not? Is He not trustworthy? “Oh, yes; but I feel something holding me back.” Is it anything like that to which David referred when he said, “If I regard iniquity in my heart, the Lord will not hear me”? (Ps. lxvi. 18). Is there a suspicion that something is withheld? Is there any doubtful thing that you are afraid to bring into the light in order to have God’s judgment about it? It is not by trying to believe that faith gets strengthened, but by removing the fetters that keep it bound.</p>\n  <h2>Faith Needs Food</h2>\n  <p>The word of God is the food of faith. In order to trust, faith must have something to trust to, a Person to trust in. The Scriptures are the warrant of faith. If faith is not always occupied with this infallible warrant, it will grow weak and feeble. Faith may be suffering from starvation. Our thoughts may turn upon ourselves, we may be occupied with our own activity, with our own act of believing, rather than with the word of God. But it is only as faith grasps the truth of the Scripture, or the facts that the Scripture reveals, that it gets strengthened.</p>\n  <h2>Faith Needs Exercise</h2>\n  <p>All faith is given to be used. We do not know whether we have it at all until we are using it. This comes out in obedience; for what is obedience but faith in action? Faith must carry out into practice that which it believes.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e5de1925cd2180dd761f5235610299692cf214a26450bccd96fde1341f56761e"
+}

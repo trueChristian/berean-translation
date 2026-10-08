@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "George R. Brunk II"
+        }
+      ],
+      "raw": "by George R. Brunk II (1951)"
+    },
+    "categories": {
+      "additional": [
+        "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "fa645853-bb79-4915-af58-761974c70e6f",
+    "images": [
+      {
+        "alt": "A revival notice painted on a storefront window",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fa645853-bb79-4915-af58-761974c70e6f-1.jpg",
+        "repository_path": "public/images/articles/fa645853-bb79-4915-af58-761974c70e6f-1.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "St. Mary’s storefront revival notice",
+        "sequence": 1,
+        "source_page": 22
+      }
+    ],
+    "issue_id": "ef088180-22ec-4bbe-a4d2-36bf1e2b5cdd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "DANGERS IN REVIVAL",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "06dcb510c0dd2a216450be8d10edc77412248704eace5711e5a0b2f1ad17476c",
+    "metadata_sha256": "e6adc1adf7de33fb8394c62d8b23dd1bef1b636d491e07f9d027bae72d93f7d5",
+    "structure_sha256": "ac625a96ef8089680ed0293740eb33e30729379dfc206d8bd778de40cc296ba8",
+    "text_sha256": "79e5d242bb93e74dcdbcba9edbb79bdd6e9920057a4fc3d42fa5c466787331a6",
+    "translation_metadata_sha256": "af6ba1a407c9b6fd9175595d8fee3ee915991d89a560cfa3a46a2b7023f78cda"
+  },
+  "html": "<article data-article-id=\"fa645853-bb79-4915-af58-761974c70e6f\">\n<figure>\n  <img src=\"/images/articles/fa645853-bb79-4915-af58-761974c70e6f-1.jpg\" alt=\"A revival notice painted on a storefront window\">\n</figure>\n<p>The moving of the Spirit in revival has been preceded by many prayers from burdened Christians across the Church. There are anxious souls who have prayed long for revival in our time.</p>\n<p>Some of these have revealed in tears how they had hoped almost against hope that they might witness mass revival. May the Lord bless and renew all those prayer warriors who are holding on to God for a mighty revival in our time which will sweep the unsaved into the Kingdom and restore or renew those whose first love has been lost.</p>\n<p>But there is need also for caution.</p>\n<p>It has been rightly said that revivals are dangerous. To deny this is an extreme position as also it is to refuse to recognize the good. For example, there is danger that revival will create or intensify division. The revivals of the last two hundred years, though great sources of blessings, were divisive...but who would therefore conclude that revivals like these of the past were not needed? The churches at that time were due a mighty shaking. Some were willing for it. Others were not. Division was the result.</p>\n<p>We can learn something from the past with respects to this by avoiding any unnecessary occasion for offense, though we dare not compromise truth to satisfy carnal men.</p>\n<p>There is the danger of excess and extreme, both in word and in act. The evangelized individual, however much he may need to be moved out of his lethargy and indifference, must experience the stabilizing effect of the truth of God’s Word to hold and to deliver him from fanaticism with its unjustified judgments upon others.</p>\n<p>There is danger too that revivalists may minimize the place and importance of other agencies or offices in the church. We must remember that God has distributed gifts not all of which are alike. Each is important in relation to the other, as are the parts of the human body. For example, the pastor who shepherds and feeds the flock is filling a place in the church which is second to none.</p>\n<p>Revival may lead out into an emotional stream in which there are no doctrinal moorings. This is not true revival. The experiences of men must be rooted in the Word of God. When we come back to the doctrine of the Word, we have had revival. The biblical revivals confirm this.</p>\n<p>Perhaps the greatest of all dangers is that of a sleeping church which refuses to be aroused. There is the type of individual that demands that every “i” should be dotted and every “t” crossed. As long as men are connected with revival there will be imperfections. Wisdom and grace are needed from God that pitfalls can be avoided and dangers overcome.</p>\n<p>We should pray unitedly that God would send us this kind of revival that we need, even if not according to our specifications. It would seem that such a revival would result in uniting the church, not only each to the other but altogether to the Word both written and living. God alone knows what power would be demonstrated among us even yet.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "a5ffc3848cc84aaa47677ad95fe11619c1fa88241b8ed02466694c432dfb9f07"
+}

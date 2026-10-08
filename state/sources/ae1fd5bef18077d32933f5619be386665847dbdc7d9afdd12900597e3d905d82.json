@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John Wesley",
+          "role": "Journal author"
+        }
+      ],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "0ac5c487-fc42-4da2-a3b2-8dbb14b5db2a",
+    "images": [],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Journal of John Wesley",
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": "At sea, on the way to Georgia ...",
+    "title": "Feb 6, 1736",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "2d618de9-d2ad-5342-8b76-5a2dbccd9123",
+      "102f0529-3552-5cea-aef3-867de018b9d4",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c9add994fa4ba4b94a4136007c1bc5c4abf5402eaded873c470882999e39b721",
+    "metadata_sha256": "9f5209430eb1c9ba5efa94f5b72a60ac83f2427e088c9a5b34c1fe7385735ee4",
+    "structure_sha256": "5cc01ef0ca362596e4dd4e184b7d3d369d4437e18125c27645b6698529dd5962",
+    "text_sha256": "8c85324a4e23713e0ad1de7106c4f12f9e142cd9c9425b43981bb7a3e6ae4832",
+    "translation_metadata_sha256": "184265815833c9a895d442f2c98bc9e0ff1aff5e7d5fe52c69513cff874c8466"
+  },
+  "html": "<article data-article-id=\"0ac5c487-fc42-4da2-a3b2-8dbb14b5db2a\">\n  <p>At noon our third storm began. At four it was more violent than before. The winds roared round about us, and whistled as distinctly as if it had been a human voice. The ship not only rocked to and fro with the utmost violence, but shook and jarred with so unequal, grating motion, that one could not but with great difficulty keep one’s hold of anything, nor stand a moment without it. Every ten minutes came a shock against the stern or side of the ship, which one would think should dash the planks to pieces.</p>\n\n  <p>We spent two or three hours, after prayers, in conversing suitably to the occasion, confirming one another in a calm submission to the wise, holy, gracious will of God. And now a storm did not appear so terrible as before. Blessed be the God of all consolation!</p>\n\n  <p>At seven I went to the Germans [Moravian Brethren]. I had long before observed the great seriousness of their behavior. <strong>Of their humility, they had given a continual proof by performing those servile offices for the other passengers, which none of the English would undertake.</strong> They neither desired nor would receive any pay, saying “It was good for their proud hearts,” and “their loving Savior had done more for them.” And every day had given them occasion of showing a meekness, which no injury could move. <strong>If they were pushed, struck, or thrown down, they rose again and went away; but no complaint was found in their mouth.</strong></p>\n\n  <p>There was now an opportunity of trying whether they were delivered from the spirit of fear, as well as from that of pride, anger, and revenge. In the midst of the Psalm wherewith their service began, the sea broke over, split the mainsail in pieces, covered the ship, and poured in between the decks, as if the great deep had already swallowed us up. A terrible screaming began among the English. The Germans calmly sung on. I asked one of them afterward, “Were you not afraid?”</p>\n\n  <p>He answered, “I thank God, no.”</p>\n\n  <p>I asked, “But were not your women and children afraid?”</p>\n\n  <p>He replied mildly, “No; our women and children are not afraid to die.”</p>\n\n  <p>From them I went to their crying, trembling neighbors, and pointed out to them the difference, in the hour of trial, between him that feareth God, and him that feareth Him not. At twelve the wind fell. This was the most glorious day which I have hitherto seen. ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e8f6a4305d5a867a5176b8d6c905e4c1b5a6ed9509227fc947e0019f0134b046"
+}

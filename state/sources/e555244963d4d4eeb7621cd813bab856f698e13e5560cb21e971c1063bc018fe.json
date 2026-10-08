@@ -1,0 +1,197 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, Ohio",
+          "name": "Joel A Hostetler"
+        }
+      ],
+      "raw": "Joel A Hostetler\nCoshocton, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+    "images": [
+      {
+        "alt": "Portrait of Philip P. Bliss.",
+        "caption": "Philip P. Bliss 1838—1876",
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg",
+        "repository_path": "public/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 144; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The portrait region is cropped above its separately transcribed caption, excluding article text and pull quote. Its original vignette, faint intrinsic signature beneath the bust and unavoidable reverse-page show-through are retained. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            838,
+            27,
+            1582,
+            913
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            744,
+            886
+          ],
+          "output_dimensions": [
+            744,
+            861
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1620,
+            2157
+          ],
+          "source_object": 144,
+          "vertical_scale_to_published_aspect": 0.9719381493904934
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Pale lilac blossoms among green leaves.",
+        "caption": null,
+        "credit": "© Belle Vie Images",
+        "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg",
+        "repository_path": "public/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 148; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. The complete upper photograph strip is cropped at its lower boundary above the article text; the blossoms and foliage retain their printed crop. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            1764,
+            581
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1764,
+            581
+          ],
+          "output_dimensions": [
+            1764,
+            573
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1764,
+            2313
+          ],
+          "source_object": 148,
+          "vertical_scale_to_published_aspect": 0.9869535362783246
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "The complete printed sheet music for The Light of the World Is Jesus.",
+        "caption": null,
+        "credit": "Philip P. Bliss, 1875",
+        "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png",
+        "repository_path": "public/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 152; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The score’s printed credit is preserved without inferring a licence or separate permission. The complete score, including its title, both author/composer credits, all five systems, four verses and refrain, is preserved as meaningful notation. The page footer and exterior paper margins are excluded. The source is already a raster scan; no separate vector or font score exists. Native horizontal pixels are retained and vertical resampling restores the published aspect ratio. PNG encoding avoids further lossy compression and no artificial 300 dpi enlargement is applied. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "hymn score",
+        "sequence": 3,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            217,
+            62,
+            1477,
+            1974
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1260,
+            1912
+          ],
+          "output_dimensions": [
+            1260,
+            1877
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1676,
+            2209
+          ],
+          "source_object": 152,
+          "vertical_scale_to_published_aspect": 0.9818656299097276
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "The Light of the World Is Jesus",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8",
+      "070854c3-dde7-5efd-a27d-30979196df0e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c3f767b632282bd864822a9886a7059a8efbfa22a2fa77d60f28acf6887be082",
+    "metadata_sha256": "14ecb269db5b8800eb372f5f0d07eacb6719598f681197feb97fa945eb195e53",
+    "structure_sha256": "55731cf41a1aa4b71002238ae250bd21bae76199f7256b2d85f2cc7b8e0ef232",
+    "text_sha256": "0156559720d3f6b5f1dceeaccabd82e063f091aaf537a9af90a143a8e912ae2f",
+    "translation_metadata_sha256": "d8e92c2bf931181f22f7b1cacc9a18b68641aadcbc9f85afe2b0c8725620a688"
+  },
+  "html": "<article data-article-id=\"b649c2a3-20b1-4e02-9204-6285b234f34f\">\n  <p>In a world of darkness, sin, and sorrow, where can we turn to find the light? It brings to my mind the story of the children of Israel in the land of Egypt. “And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt. And Moses stretched forth his hand toward heaven; and there was a thick darkness in all the land of Egypt three days: They saw not one another neither rose any from his place for three days: but all the children of Israel had light in their dwellings” Exodus 10:21-23.</p>\n  <p>Imagine how you would have felt being one of those Egyptians, enshrouded in complete darkness. A darkness so intense and permeating that you could feel it. Not far away, at the same time, the same hour, and the same area of the world, there was light in one of those Hebrew homes. Put yourself in the shoes of the Egyptians. Wouldn’t you have longed for light? You would have been chained in a prison of murky blackness that gripped you from head to toe. Then the third day came, and suddenly the light was back. Oh, what relief, what a pleasure it is to have the sun shining again!</p>\n  <p>This is a vivid picture of the soul of a person who is in the grip of darkness, sin, and Satan. Then, the brightness and splendor of the Son of God appears with its illuminating and healing rays. Oh, the difference this bright light makes, turning everything from darkness to light and from the power of Satan to God!</p>\n  <p>The hymn history for this article brings out the beauty of spring, and the glory of the salvation of our Lord and Saviour Jesus Christ.</p>\n  <p class=\"lyrics\">The whole world was lost in the darkness of sin,<br>The Light of the world is Jesus!<br>Like sunshine at noonday, His glory shone in;<br>The Light of the world is Jesus!</p>\n  <p class=\"lyrics\">Refrain:<br>Come to the light, ’tis shining for thee;<br>Sweetly the light has dawned upon me;<br>Once I was blind, but now I can see:<br>The Light of the world is Jesus!</p>\n  <p class=\"lyrics\">No darkness have we who in Jesus abide;<br>The Light of the world is Jesus!<br>We walk in the light when we follow our Guide!<br>The Light of the world is Jesus!</p>\n  <p class=\"lyrics\">Ye dwellers in darkness with sin-blinded eyes,<br>The Light of the world is Jesus!<br>Go, wash at His bidding, and light will arise;<br>The Light of the world is Jesus!</p>\n  <p class=\"lyrics\">No need of the sunlight in Heaven we’re told;<br>The Light of the world is Jesus!<br>The Lamb is the Light in the city of gold,<br>The Light of the world is Jesus!“</p>\n  <p>“The Light of the World is Jesus” was written by Philip Paul Bliss for a revival meeting. It proved to be a favorite and still is. The lyrics and music were penned one morning in the summer of 1875, in the Blisses’ home in Chicago. Philip was walking down the hall to his bedroom when the idea for a new song came to him. We cannot know for sure, but it could well be the light in the hall — or lack of it that turned his thoughts in that direction. Thomas Edison’s invention of the incandescent light bulb lay several years in the future, so Mr. Bliss was likely relying on a lamp or a candle. He may have thought of Christ’s statement that He is “the light of the world.”</p>\n  <p>Philip P. Bliss is one of the most influential men of the 19th century in gospel music and hymn writing. Although cut short by an early death, his legacy lives on in the pages of his many hymns we sing. He was an American hymnist, composer, gospel singer, evangelist, and teacher, contemporary of D. L. Moody, Ira Sankey, and Fanny Crosby.</p>\n  <figure>\n    <img src=\"/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg\" alt=\"Portrait of Philip P. Bliss.\">\n    <figcaption>Philip P. Bliss 1838—1876</figcaption>\n  </figure>\n  <p>Philip was born on July 9, 1838, in a modest log cabin nestled in the mountainous region of Clearfield County, Pennsylvania. He was raised by his parents, who instilled a love for Scripture and music. Philip showed an unusual talent for music and singing from an early age. One day, at around ten years old, he was passing by a house in the village when he heard music sweeter than anything he had ever heard. Drawn irresistibly by the sound, the barefoot boy entered unobserved. He stood at the parlor door, listening, entranced as a young lady played upon a piano — the first he had ever seen. When she finished playing, Philip exclaimed, “O lady, play some more.” Startled, and with little appreciation for the tender heart so moved by her music, she responded harshly, “Go out of here with your great feet.” Though disappointed, he left with the memory of harmonies that seemed like heaven, a moment that would inspire his lifelong pursuit of music.</p>\n  <p>At age eleven, young Philip left home to make a living for himself. He spent the next five years working at farms, in logging camps, sawmills, and other trades in which he apprenticed while continuing his schooling. He was big for his age and became known as a large, awkward, overgrown boy. Despite his youth, his unusual physique enabled him to do a man’s work. When he was twelve, he was converted at a revival meeting and became a member of the local Baptist church.</p>\n  <p>With determination and faith, Philip worked on obtaining his teaching credentials and began a job as a teacher. Because of his love for music and singing, he transitioned to teaching music and even received voice training through the help of a friend, and soon started composing music.</p>\n  <p>Philip married five weeks before his twenty-first birthday. He stated, “June 1, 1859, married to Miss Lucy J. Young, the very best thing I could have done.” She was from a musical family and encouraged and supported his talent throughout their life together.</p>\n  <p>After his marriage, Philip embarked on a journey that would shape his musical future. Riding on his trusty horse and with his melodian (an old-time sort of piano) in tow, he roamed from community to community as an itinerant music teacher. He also attended a six-week music teachers training event at The Normal Academy of Music in Geneseo, New York, which was another stepping stone in his calling. Between 1865 and 1873, Bliss held musical conventions, singing schools, and sacred concerts under the sponsorship of George F. Root and Cady Musical Publishers, causing his reputation as a composer to grow steadily.</p>\n  <p>One summer night in 1869, while passing a revival meeting in a church where D.L. Moody was preaching, Philip went inside to listen. The singing was rather weak, and from the audience, Bliss attracted Moody’s attention. After the service, the preacher urged him to come and help with the singing on Sunday evenings whenever possible.</p>\n  <p>About five years later, Philip Bliss’s life took a significant turn that would last until the end of his days. He was invited to join D.L. Moody and Daniel W. Whittle in their full-time evangelistic work. The hymn writer was uncertain if this was God’s will for him. After much prayer and consideration, he decided to test this calling. During revival services of March 24-26, 1874, as Bliss sang <em>Almost Persuaded</em>, the Holy Spirit seemed to fill the hall, leading many sinners to pray and surrender to Christ. This experience convinced him, and he formally surrendered his life to gospel work, giving up his musical conventions, secular songwriting, business positions, and church work to devote himself entirely to evangelistic singing.</p>\n  <figure>\n    <img src=\"/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg\" alt=\"Pale lilac blossoms among green leaves.\">\n  </figure>\n  <p>This final call of the Lord led him across the eastern half of the United States. Twenty-five campaigns were held across Illinois, Wisconsin, Pennsylvania, Kentucky, Minnesota, Mississippi, Alabama, and Georgia. His rich bass-baritone voice and gift for leading congregational singing made him a beloved figure in these meetings.</p>\n  <p>One of the notable things about Philip Bliss’s life is how he related to others. The following is a short story of a man who met Bliss and his wife just a few days before their death. “On entering the railway station on my way to this second appointment, I found Mr. and Mrs. Bliss waiting for the train I was to take. After leaving Chicago, Mr Bliss fell asleep, with his head resting on his wife’s shoulder. He was still sleeping when my destination was reached. As I rose to pass out, I said to Mrs. Bliss, “Don’t disturb him.” She replied: ‘Oh, yes! He would be disappointed if he did not say goodbye.’ As he wakened and realized I was leaving, he followed me onto the platform with kindest wishes and parting words.”</p>\n  <p>Philip Bliss’s life ended tragically at the young age of 38 on December 29, 1876. In a blinding snowstorm, the Pacific Express train headed west toward Chicago, with him and his wife aboard. As they crossed the Ashtabula River in Ohio, the bridge collapsed, plunging eleven passenger cars seventy-five feet down into the ravine and icy waters below. Minutes after the crash, the wreckage of the train caught fire, started by the lamps used in the coaches. Philip Bliss, who had escaped the wreck unharmed, went back for his wife, who was trapped in the wreckage. He stayed by her side, trying to free her as the fire spread and eventually consumed them. Amazingly, Philip Bliss’s luggage made it safely to the intended destination, where unfinished hymns were found safe and intact.</p>\n  <p>Bliss’s final hymn, <em>I Will Sing of My Redeemer</em>, was found in his trunk, which survived the train wreckage. In his short life, Philip Bliss made an impact for Christ through his hymns and gospel singing. He displayed a good knowledge of Scripture in his hymns, reflecting his time in God’s Word. Demonstrating a strong faith in Christ and a desire to make Him known, his story inspires those who choose to use their talents and gifts for God’s glory!</p>\n  <p>Philip Bliss is remembered for his many hymns. Most notable among these are “Wonderful Words of Life”, “Jesus Loves Even Me”, “Dare to Be a Daniel”, “Let the Lower Lights be Burning”, “I Will Sing of My Redeemer”, “Hallelujah, What a Savior”, “Hold the Fort”, and “Almost Persuaded”. The hymn of choice in this article, “The Light of the World is Jesus”, written only one year before his death. He also set the lyrics of “It Is Well with My Soul” to music, which was written by his friend Horatio Spafford. This song was based on Spafford’s struggle after losing all his daughters in a shipwreck.</p>\n  <p>One last story in connection with this song happened in India: Dr. Earl S. Taylor was in Calcutta during an eclipse of the sun. For days before the event, he saw the city’s streets crowded with pilgrims on their way to various sacred places, where they hoped to worship and bathe in the Hooghly River, just below the Ganges River during the time of the eclipse, expecting to ward off evil. When the fateful hour of darkness finally arrived, hundreds of thousands of natives thronged the sacred waters. Terrorized by the eclipse and making a great clamor, they feared a great power of evil in the form of a snake was about to swallow the sun-god. As Dr. Taylor witnessed this terrible evidence of heathenish superstition, he heard a group of Indian Christians singing in their meeting. “The whole world was lost in the darkness of sin; The light of the world is Jesus.” How thrilling! India’s spiritual darkness caused by heathenism in the hearts of her benighted millions is eclipsed by Jesus, the Light of the world.</p>\n  <p><em>Sourced from: Hymnary.org, hymndex.com, plymothbrethrem.org</em></p>\n  <figure>\n    <img src=\"/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png\" alt=\"The complete printed sheet music for The Light of the World Is Jesus.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f2b4133d3d7676e7725811d42b8046cf90dbefe854c0c2539c20e2ea2a0d6f58"
+}

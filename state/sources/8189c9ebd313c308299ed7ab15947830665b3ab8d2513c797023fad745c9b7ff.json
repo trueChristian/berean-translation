@@ -1,0 +1,82 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Lance Hollingshead",
+          "role": null
+        }
+      ],
+      "raw": "by Lance Hollingshead"
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "498f95c3-9cf2-4b3d-97c6-9d4d15b08972",
+    "images": [
+      {
+        "alt": "A shaggy goat.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-1.png",
+        "repository_path": "public/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-1.png",
+        "rights_note": "Source one-bit image-mask object 107 rendered using the original dark paint color and PDF stencil semantics; the raw extracted mask alone would appear inverted. Isolated original PDF image paint and clipping operations, retaining published orientation; transparent outside the published clip. Rendered at 300 dpi; all separate typography, frames, panels and shadows omitted. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 25
+      },
+      {
+        "alt": "A smooth-coated goat.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-2.png",
+        "repository_path": "public/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-2.png",
+        "rights_note": "Source one-bit image-mask object 108 rendered using the original dark paint color and PDF stencil semantics; the raw extracted mask alone would appear inverted. Isolated original PDF image paint and clipping operations, retaining published orientation; transparent outside the published clip. Rendered at 300 dpi; all separate typography, frames, panels and shadows omitted. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 25
+      },
+      {
+        "alt": "A child kneeling with hands together in prayer.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-3.jpg",
+        "repository_path": "public/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-3.jpg",
+        "rights_note": "Clean base PDF image object 106 exported; source pixels and tonality retained. Oval vignette is baked into the only source raster and is preserved. Source raster cropped to (0, 0, 209, 257) in native pixel coordinates to reproduce the published rectangular clipping; no rotation or flip. JPEG container normalized to baseline sRGB with nonzero 72 dpi density (source JPEG had zero JFIF density); no CMYK assets or sample inversion involved. No individual image credit or license is printed; the issue masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 25
+      }
+    ],
+    "issue_id": "8c7d190e-02b9-427e-9891-346d83e3007a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "Children or Kids",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "61b93b9ccb0b19428e02349d2e9c30c221fa0b0bca8d2e6c847e854fa0d0dbcf",
+    "metadata_sha256": "5f99c7dc0e12b493a06d5aad09a98743663eb37152ed93a55b87149fc9352651",
+    "structure_sha256": "37d9c59fa964717a2422e7ea4bed2bc12c5553c92eea54c993cdfcf5bf2d66b6",
+    "text_sha256": "f9d5ec51ba7923e2266578851d9281554d1783a74dbf798874f6acbe1627df97",
+    "translation_metadata_sha256": "194757ebca2dddd0da65d2e007a7811ff265f2c992a0fd0808b540bd7e1d84af"
+  },
+  "html": "<article data-article-id=\"498f95c3-9cf2-4b3d-97c6-9d4d15b08972\">\n  <figure>\n    <img src=\"/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-1.png\" alt=\"A shaggy goat.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-2.png\" alt=\"A smooth-coated goat.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/498f95c3-9cf2-4b3d-97c6-9d4d15b08972-3.jpg\" alt=\"A child kneeling with hands together in prayer.\">\n  </figure>\n  <p>In an age when the youth of the world are being exploited and targeted, abused and neglected, I would like to challenge us to speak as the oracles of God. (I Peter 4:11) Our Lord Jesus said He did nothing except that which He saw the Father do. (John 5)</p>\n  <p>I read on a cover of <em>LIFE Magazine</em> recently, “<strong><u>Kids Rule, Women Lead the Way</u></strong>.” Isaiah 3:12 says, “As for my people, children are their oppressors, and women rule over them.” Isaiah 3:4-5 seems to point towards these days in which we live.</p>\n  <p>The challenge—<strong>don’t use the world’s terminology of kids to demean our children.</strong></p>\n  <p>“Who cares?” you might say.</p>\n  <p>“It’s not that big of a deal.”</p>\n  <p>“Everyone says it.”</p>\n  <p>We, as God’s church, should respond, “Does God care? He’s not just everyone. What does the Word of God say?” Does God call children, or your child, a kid?</p>\n  <p>There’s only one place to look! Maybe we have been looking in the wrong places and listening to the wrong everyone.</p>\n  <p>Please bear with me as I share what I have discovered.</p>\n  <p>Does God care? Are words a big deal with God?</p>\n  <p>Genesis, the first chapter, records that “God said,” (creating life) eleven times, and seven of those times after “He said,” He saw what He created with His words was good. In eleven of thirty-one verses God said (used) words to produce life that was good.</p>\n  <p>God said to Adam in Genesis 2:16-17, “Do not,” but Adam did, and death was the result. The psalmist confirms the creative power of God’s words.</p>\n  <blockquote>\n    <p><em>“He spake and it was done, he commanded, and it stood fast.” (Psalm 33:9)</em></p>\n    <p><em>“Death and life are in the power of the tongue: and they that love it will eat the fruit thereof.” (Proverbs 18:21)</em></p>\n  </blockquote>\n  <p>Jesus declares in the Gospels we will give an account for every idle word. The Greek renders <em>idle</em> as: inactive, lazy, useless.</p>\n  <p>What God said (created) in Genesis 1, He then saw that it was good. We might say kids, but we are speaking an inactive word and we see an unfruitful result. We have cheapened their value, and the results are clearly seen.</p>\n  <p>So, does God care? What the Word shows!</p>\n  <p>Remember, we are looking at this from God’s use of words and how He chose to apply them as the loving Creator. We are not listening to the counsel of the ungodly.</p>\n  <ul>\n    <li>Definition of <em>kid</em> (<em>Strongs Concordance</em>): Shaggy, he goat, by analogy a fawn, devil, satyr, hairy.</li>\n    <li><em>Kid</em> is used in 43 verses. <em>Kids</em> is used in 11 verses.</li>\n    <li>The word that <em>kid</em> comes from means: to storm, shiver, fear, she goat, hardened, impudent</li>\n    <li>The use of a kid was for a sacrificial offering to pay for sin, and as an object of food to eat.</li>\n    <li><em>Ungers Bible Dictionary</em> points out: <em>Goats were less chosen because they were of a lesser value than sheep. Comparatively worthless, when compared in Matthew 25:32-33.</em></li>\n  </ul>\n  <p>Now let’s look at <em>Child</em> and <em>Children.</em></p>\n  <ul>\n    <li><em>Child</em>, in the Hebrew: a boy, a lad, become pregnant, offspring, fruit, son, a son as a builder of the family name. A boy or girl from the age of infancy to adolescence.</li>\n    <li>Greek: a child of either sex, half grown boy or girl, immature.</li>\n  </ul>\n  <p>So, according to the Word of God, by which He spoke the worlds into existence, a <em>kid</em> is a goat used as payment for sin, and a source of food. A <em>child</em> is something born, the offspring of the act of knowing, the age of infancy to adolescence, a boy or girl.</p>\n  <p>So, according to God’s Word, when we call our children <em>kids</em>, we are speaking an inactive, useless word.</p>\n  <h2>The Church’s Role</h2>\n  <p>God, the Holy One of Israel, put the Jewish nation in the midst of all the heathen nations as the bearer of truth, the plumbline for all that is right and good. As the church, we are called to the same.</p>\n  <p>May we as the church, members of Christ, strive to be less friendly with the world and be the friends of God.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "fb2745811918ab42cec90adae5ccd0904e5d8ff368e99321e694fc06a9c356e3"
+}

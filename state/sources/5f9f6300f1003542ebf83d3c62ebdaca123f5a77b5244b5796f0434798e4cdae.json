@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "J. Hudson Taylor",
+          "role": null
+        }
+      ],
+      "raw": "• J. Hudson Taylor •"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "505ff175-6038-4c5a-ba90-502ac72ee266",
+    "images": [],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 38,
+      "start": 38
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b3316253a649d34200dc957a1a3956cd60aff0ec48ec0363d90a32b9bdf13e54",
+    "metadata_sha256": "af4d33910443a6a637387961a4b36887764fb315f774eb69fa6b6f9f992d2ac9",
+    "structure_sha256": "a9a04cf5f8db869deeb35228973fb8a0b4cb3aa1869ffd2be7ce9e2d788016b0",
+    "text_sha256": "ffbcc321f5e1718dc3cc011406d1e4b02ea7a415b106993e3cbb3cd4fad3b7ec",
+    "translation_metadata_sha256": "6bbbb09612955f2960099d3f82b09dfdf98a7c1f1e2d7319844d7f99c41113d9"
+  },
+  "html": "<article data-article-id=\"505ff175-6038-4c5a-ba90-502ac72ee266\">\n  <p>Oh, it is joy to feel Jesus living in you; to find your heart all taken up by Him; to be reminded of <em>His</em> love by His seeking communion with you at all times, not by your painful attempts to abide in Him. He is our life, our strength, our salvation...He is our power for service and fruit-bearing, and His bosom is our resting place now and forever.”</p>\n  <p><em>J. Hudson Taylor</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2aeab6ea4ec14e49e62e2f25f3645536991ec5128a77ebd8cffa8478d13aa521"
+}

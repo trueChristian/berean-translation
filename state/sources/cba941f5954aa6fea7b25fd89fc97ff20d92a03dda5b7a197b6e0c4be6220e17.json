@@ -1,0 +1,140 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, Ohio",
+          "name": "Joel A. Hostetler"
+        }
+      ],
+      "raw": "Joel A. Hostetler\nCoshocton, Ohio"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "f362a4bd-2f1c-496a-ac02-aa08c128d834",
+    "images": [
+      {
+        "alt": "Waves meet a sandy shore at dusk beneath a quotation attributed to Henry Van Dyke.",
+        "caption": "Some succeed because they are destined to,\nbut most succeed because they are determined to.\nHenry Van Dyke",
+        "credit": "© Austin Troyer",
+        "public_path": "/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-1.jpg",
+        "repository_path": "public/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-1.jpg",
+        "rights_note": "Page 2 credits © Austin Troyer for page 34. No article-specific permission requirement is printed; no separate licence is inferred. Inspected the page resources, image object, paint order, clipping, masks, and transparency: a single full-page scanned RGB raster is painted across 612 × 792 pt, followed by the invisible OCR layer (ExtGState 8 has /ca 0). No separate photograph, alternate image, tiles, soft mask, clipping path, or transparency group exists. Source ICCBased object 11 identifies sRGB. The native source-pixel crop omits surrounding article columns and page furniture. Vertical Lanczos resampling reproduces the PDF placement aspect ratio; no rotation, flip, retouching, synthesized pixels, or CMYK inversion was applied. The Henry Van Dyke quotation, attribution, and darkened quotation panel are irreversibly flattened into the only available source raster. An unobstructed crop would leave only thin fragments and lose the published scene, so the exact source raster photograph is retained with these unavoidable overlays explicitly documented. The unique quotation is also transcribed once as semantic figcaption text; its source small-cap attribution is represented as Henry Van Dyke. Encoded as baseline sRGB JPEG at 96 dpi.",
+        "role": "article photograph with quotation",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            2,
+            1736,
+            622
+          ],
+          "flip": null,
+          "method": "original embedded scan extraction and source-pixel crop; vertical Lanczos resampling by (792/source_height)/(612/source_width) to reproduce the PDF placement aspect ratio",
+          "output_dimensions": [
+            1736,
+            611
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1736,
+            2278
+          ],
+          "source_object": 148
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile and nonzero 96 dpi density; EOI at EOF with no trailing bytes",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "The published four-stanza shape-note score of Joyful, Joyful, We Adore Thee, with words by Henry van Dyke, 1908, and arrangement from Ludwig van Beethoven, 1823.",
+        "caption": null,
+        "credit": "Henry van Dyke, 1908; Arr. from Ludwig van Beethoven, 1823",
+        "public_path": "/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-2.png",
+        "repository_path": "public/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-2.png",
+        "rights_note": "The score prints Henry van Dyke, 1908 and Arr. from Ludwig van Beethoven, 1823; no permission restriction is present and no licence is inferred. Inspected the page resources, image object, paint order, clipping, masks, and transparency: a single full-page scanned RGB raster is painted across 612 × 792 pt, followed by the invisible OCR layer (ExtGState 8 has /ca 0). No separate photograph, alternate image, tiles, soft mask, clipping path, or transparency group exists. Source ICCBased object 11 identifies sRGB. The native source-pixel crop omits surrounding article columns and page furniture. Vertical Lanczos resampling reproduces the PDF placement aspect ratio; no rotation, flip, retouching, synthesized pixels, or CMYK inversion was applied. This source is a scanned score rather than vector notation; the native raster crop preserves the complete printed title, author and arranger credits, all four stanzas, and all four systems of shape-note notation. It excludes only blank margins, footer rule, page number, publication/date footer, and peripheral photographed-paper glare outside the notation. Encoded losslessly as sRGB PNG at the native horizontal resolution of approximately 200.94 dpi; no artificial upscaling was used.",
+        "role": "hymn score",
+        "sequence": 2,
+        "source_page": 35,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            250,
+            145,
+            1410,
+            2080
+          ],
+          "flip": null,
+          "method": "original embedded scan extraction and source-pixel crop; vertical Lanczos resampling by (792/source_height)/(612/source_width) to reproduce the PDF placement aspect ratio",
+          "output_dimensions": [
+            1160,
+            1873
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1708,
+            2284
+          ],
+          "source_object": 152
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "lossless RGB PNG with embedded sRGB profile and nonzero 200.94 dpi density",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": "Joyful, Joyful, We Adore Thee",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "256fe2c18b70901e1bf6829a20099f4c7f104ed8023cf110d25764f8a0768609",
+    "metadata_sha256": "a28fe9d0b53af8403defc7cde005e9019b9531c6dc3f3b018b9e3df6976f8a04",
+    "structure_sha256": "395aa4f1f0801f1dc98563255827af3d9f8ac10fcd2586c530d1354089141cc5",
+    "text_sha256": "967855d8689e4cb14ceb9a0a3cfcc4dfc816a0d881dd779d61e4073927d46cd9",
+    "translation_metadata_sha256": "7bc3207a7fd208ab0cca849cbc742c84ac9d6d22fcfe9c37799fbc9a982c117d"
+  },
+  "html": "<article data-article-id=\"f362a4bd-2f1c-496a-ac02-aa08c128d834\">\n  <p>As we delve into this next hymn history, the beautiful thought of how God has moved in the hearts and lives of His people thrills me! From the days of yore until this present day, God has always had a called-out people, a chosen generation, called out of darkness into His marvelous light! Lord, you’ve done it in the days of old, what about in our day?</p>\n  <p>It brings to my mind the story of Elisha, who had just been parted from his beloved master Elijah. The awesome moment when the swiftness of that chariot of fire parted them asunder, and the sudden disappearance of his master by a whirlwind into heaven. Now with only the fond memories of those past years, and the mantle of his loved master in his hand, Elisha returns to the river Jordan.</p>\n  <p>He approaches the brink of the waters and stands there contemplating what to do. Then, with a fervency and vehemency of a servant of that great man of God, he raises the mantle and strikes the waters, saying, “Where is the Lord God of Elijah!?” The unforgettableness of that moment when, for the first time, the spirit of the master is displayed in the servant. This first demonstration of the double portion of the spirit of Elijah would carry this servant of the Lord on till he had indeed performed twice as many miracles as his master. Even as Elisha was willing to fill the shoes of his master and carry on the work of God here on the earth, even so should we. We are called to represent our Lord and Master here on the earth and walk in His footsteps.</p>\n  <p>Revival is not identified by an abstract reality of emotional hype, lots of noise, charismatic preachers, and large crowds, but rather by a restoration of our first love. A heart quiet enough to hear the still, small voice of God. Restoring the areas that are lacking and waning in our Christian experience. Returning to a fervent love for Christ and the authority of God’s Word in our daily lives. Commencing with our joyful obedience and continued eternal blessings following!</p>\n  <p>You might be wondering by now what this hymn, “Joyful, Joyful, We Adore Thee”, has to do with revival? As I pondered which hymn to choose for this issue, this verse came to mind, “Wilt thou not revive us again: that thy people may rejoice in thee?” (Psalm 85:6). As the second fruit of the Spirit mentioned in Galatians 5:22, joy or joyfulness is right next to love in this list of Christian fruits. One of the prominent marks of true revival is joyfulness.</p>\n  <p>“Joyful, Joyful, We Adore Thee” is the exuberant anthem of the redeemed soul, the overflow of a heart revived and full of the presence of the Lord Jesus Christ!</p>\n  <p>Henry Jackson van Dyke Jr. was born on November 10, 1852, in Germantown, Pennsylvania, into a family of Dutch origin. His father, Henry Jackson van Dyke Sr., was a prominent Presbyterian clergyman, known for his anti-abolitionist views during the pre-Civil War period. His mother’s name was Henrietta Ashmead van Dyke.</p>\n  <p>Henry van Dyke was the oldest son. His younger brother, Paul Van Dyke grew up to be a well-known historian and author. Of his two sons, his father had once said, “Paul was born good, but Henry was saved by grace.”</p>\n  <p>By the time his brother Paul was born in 1859, the family had moved to Brooklyn, New York, where the young Henry Van Dyke Jr. was enrolled at The Polytechnic Institute. Although little is known about his boyhood days, he did not appear to be a model child.</p>\n  <p>Van Dyke Jr. learned to love nature from his father. But while his father tried to draw his attention to the peaceful aspect of nature, he preferred trampling energetically through the forest trail, climbing the wooded hills, and fishing for trout in the brooks.</p>\n  <p>His father also instilled in him a will to uphold honor and fight for a cause. However, he did not want to follow in his father’s footsteps and instead intended to become a writer.</p>\n  <p>In 1869, he completed his schooling and enrolled at Princeton University, graduating with a B.A. degree in 1873.</p>\n  <p>On October 21, 1875, several weeks before his 23rd birthday, while still studying at Princeton, he gave his first sermon at Bryn Mawr, Pennsylvania, entitled <em>The Voice of God</em>. The sermon was about trying to hear God’s voice in nature. His love for nature always remained an important part of his faith.</p>\n  <figure>\n    <img src=\"/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-1.jpg\" alt=\"Waves meet a sandy shore at dusk beneath a quotation attributed to Henry Van Dyke.\">\n    <figcaption>Some succeed because they are destined to,<br>but most succeed because they are determined to.<br>Henry Van Dyke</figcaption>\n  </figure>\n  <p>Several years later, in 1877, Henry van Dyke graduated from Princeton Theological Seminary. He then traveled to Germany to study at the University of Berlin before returning home in 1879. By then, he felt ready and prepared to enter the ministry. He spent the next 20 years serving as a minister in the church. Throughout this time and into his later years, his passion for writing and publishing books and other works made him a well-known figure in the late 19th and early 20th centuries. No matter where he was, he continued writing and publishing, completing 70 books in his lifetime.</p>\n  <p>At the age of 29 and now a minister, Henry van Dyke married Ellen Reid of Baltimore. The couple had nine children—four sons and five daughters.</p>\n  <p>Henry was a friend of Helen Keller. Keller wrote: “Dr. van Dyke is the kind of friend to have when one is up against a difficult problem. He will take trouble, days and nights of trouble, if it is for somebody else or for some cause he is interested in.”</p>\n  <p>“I’m not an optimist”, says Dr. van Dyke. “There’s too much evil in the world and in me. Nor am I a pessimist; there is too much good in the world and in God. So I am just a meliorist, believing that He wills to make the world better, and trying to do my bit to help and wishing that it were more.”</p>\n  <p>At age 54, amidst the inspiring beauty of Massachusetts’ Berkshire Mountains, something extraordinary stirred in Henry’s soul. Known for his spiritual depth as a pastor and author, Van Dyke found himself captivated by a moment of divine inspiration.</p>\n  <p>Gazing upon the majestic mountains, a rush of joy overwhelmed him, leading to the birth of the powerful hymn, “Joyful, Joyful, We Adore Thee.” With each word, he painted a vivid picture of adoration for the “God of glory, Lord of love,” his heart unfurling “like flowers before Thee, opening to the sun above.” In this hymn, Henry transformed life’s trials into joy and hope, imploring to “melt the clouds of sin and sadness; drive the dark of doubt away.”</p>\n  <p>His vision of God’s greatness celebrated Him as the “Wellspring of the joy of living,” our Father, with Christ as our Brother. Van Dyke’s invitation was clear: join in the jubilant chorus, march to the triumphant song of life, and let the melody of joy lead us sunward.</p>\n  <p>It has been said that Henry Van Dyke handed the poem to the president of the college, saying, “Here is a hymn for you. Your mountains were my inspiration. It must be sung to the music of Beethoven’s ‘Hymn to Joy’.” The only music that could match the splendor of these words was this moving piece from Ludwig van Beethoven’s Ninth Symphony. This pairing created a hymn that resonates with the joyous heartbeat of life itself. The hymn appeared in the 3rd edition of Van Dyke’s <em>Book of Poems</em> (1911).</p>\n  <p>Ludwig van Beethoven was a German composer and pianist, widely regarded as one of the most influential figures in Western music history. He is known for his piano concertos, nine symphonies, and string quartets. Despite facing personal challenges, including progressive deafness, Beethoven produced timeless masterpieces that continue to resonate today.</p>\n  <p>Today, Henry van Dyke’s beloved hymn still shines as a powerful beacon of hope. “Joyful, Joyful, We Adore Thee” is more than a hymn—it’s a radiant declaration of joy triumphing over sorrow, light dispelling darkness, coming from a heart anchored in God. As both a minister and English professor, Henry van Dyke wove our deep Christian hope into a timeless anthem that continues to uplift souls and stir the eternal song of joy within the human spirit.</p>\n  <figure>\n    <img src=\"/images/articles/f362a4bd-2f1c-496a-ac02-aa08c128d834-2.png\" alt=\"The published four-stanza shape-note score of Joyful, Joyful, We Adore Thee, with words by Henry van Dyke, 1908, and arrangement from Ludwig van Beethoven, 1823.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "eed2c8bf93aeb5a52905d52c3e22299274130809c8a7fdf4a1b3abc03a373a6b"
+}

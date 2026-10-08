@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, Ohio",
+          "name": "Marian Martin"
+        }
+      ],
+      "raw": "by Marian Martin\nGlenmont, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "1bb83eea-79df-42fa-8919-99c206444ab4",
+    "images": [
+      {
+        "alt": "Three girls walking together through autumn woodland",
+        "caption": null,
+        "credit": "Brimming Focus Photography",
+        "public_path": "/images/articles/1bb83eea-79df-42fa-8919-99c206444ab4-1.jpg",
+        "repository_path": "public/images/articles/1bb83eea-79df-42fa-8919-99c206444ab4-1.jpg",
+        "rights_note": "The page-2 masthead credits Brimming Focus Photography for printed page 17; no separate permission notice or license terms are stated. The embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG because the source JPEG had undefined JFIF density; pixel dimensions, published crop, orientation, and content were preserved.",
+        "role": "full-page closing photograph",
+        "sequence": 1,
+        "source_page": 17
+      }
+    ],
+    "issue_id": "5b37aca8-4c81-5079-80f9-33af1c139beb",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Being A Friend",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e2444e2f39235482578ed71bf4e9714cfccb11dedb15315ae9ab2388eeb2e7c5",
+    "metadata_sha256": "9453578ea3e00221c7d62c674337732c0701f62f543b4de3361ec1c4a61f9fd8",
+    "structure_sha256": "dc3a062565edbb8bdb3097a20138b787e12fe240ae2462b46d5ee7e72bfea2e0",
+    "text_sha256": "4ffe42bfb1f9a3f580cdbab9388e060c8d33017bf9fb8dcb06958c204f7609bd",
+    "translation_metadata_sha256": "8def23d42654163632b844a3ec5c257eea8d71685790852fd1b44516126c621c"
+  },
+  "html": "<article data-article-id=\"1bb83eea-79df-42fa-8919-99c206444ab4\">\n  <p>“Time to go!” Mom called up the stairs to the girls. Twelve-year-old Angela sighed and picked up her black and white striped backpack. They were going on a trip to Ohio. Their family was planning to move to Ohio, and they wanted to visit the church that they planned to attend there.</p>\n  <p>“What are you thinking, Angela?” asked her older sister Susanne. They had been driving for a few hours and almost everyone else was sleeping.</p>\n  <p>“I’m not sure,” admitted Angela. “I think that I’m excited, but I'm also sad about leaving my friends at home.”</p>\n  <p>“Don’t worry,” said Susanne. “I wrote to one of the girls from the church there and she said there are quite a few girls your age. I'm sure you’ll find friends pretty fast.”</p>\n  <p>Angela nodded and yawned. “I’m sure you're right,” she said. “After all, you usually are,” she grinned.</p>\n  <p>“I’m not and you know it!” exclaimed Susanne. “I think you should take a nap now, so your brain doesn’t come up with such things.”</p>\n  <p>Angela yawned again. “Maybe I should.” She pulled out her pillow and was soon fast asleep.</p>\n  <p>She awoke just as Mom was getting sandwiches out of the cooler for lunch.</p>\n  <p>The afternoon passed slowly as she and her siblings played the ABC game and worked on the scavenger hunt Susanne made for them. A little before supper time, they arrived at the folks’ place where they were planning to stay for the night.</p>\n  <p>The next morning, they went to church. Angela shyly followed Mom and Susanne into the sanctuary. She saw some girls who looked about her age. After church was over, she stood next to Mom while she talked with the other ladies. As she looked around, she saw a group of girls her age gathered in the back of the sanctuary. They were talking and laughing, but none of them came and talked with her. Every once in a while, she saw them look over at her. Angela felt funny. Were they talking about her?, she thought, Why didn't they come to talk to her? She felt a little sad, standing there all alone beside Mom.</p>\n  <p>After a while, Dad was ready to go. Angela picked up her Bible and followed Mom out to the van.</p>\n  <p>“How did you like this church?” asked Dad.</p>\n  <p>“I really like it!” said Susanne.</p>\n  <p>“So do I!” said Angela’s brothers.</p>\n  <p>“What about you, Angela?” asked Dad.</p>\n  <p>Angela’s lips quivered. “I don’t like it. No one came to talk to me. The girls were all standing in the back, and it looked like they were talking about me.”</p>\n  <p>“That’s too bad,” sympathized Mom. “Maybe the next time we come, I can help you make some friends. And always remember, when there’s a new girl in church, go talk to her. If you're scared to, remember how you felt today.” Mom smiled at Angela.</p>\n  <p>Angela smiled back. “I’ll try,” she said.</p>\n  <p>Several years later, Angela was sitting in church beside Susanne when she saw a new family walk in and sit down. They had a girl who looked just her age. After church, Angela and her friends gathered in the back of the sanctuary like they usually did. Suddenly, Angela remembered what Mom had told her when they had visited, and no one talked to her.</p>\n  <p>“I’m going to talk to that new girl,” she told her friends. “It’s not fun to see a group of girls having fun and no one comes to talk to you.” Angela went and talked to her and pretty soon she had a new friend! Angela decided that Mom’s advice was always worth following.</p>\n  <figure>\n    <img src=\"/images/articles/1bb83eea-79df-42fa-8919-99c206444ab4-1.jpg\" alt=\"Three girls walking together through autumn woodland\" loading=\"lazy\">\n  </figure>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "985fbe25e3f7a40e65a565cf4589bca26943e4be5ebace1a9bc243969cac321f"
+}

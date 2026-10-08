@@ -1,0 +1,89 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Clifford Fox",
+          "role": "introductory note"
+        }
+      ],
+      "note": "Clifford Fox signs only the introductory note; the excerpt is identified as from Foxes Book of Martyrs, with no separate author byline.",
+      "raw": "~Clifford Fox"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+    },
+    "id": "d5a13c94-ffab-46cb-ab03-d078d46b067f",
+    "images": [
+      {
+        "alt": "Oval engraved portrait of John Wickliffe holding a staff",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d5a13c94-ffab-46cb-ab03-d078d46b067f-1.jpg",
+        "repository_path": "public/images/articles/d5a13c94-ffab-46cb-ab03-d078d46b067f-1.jpg",
+        "rights_note": "Clean embedded portrait object 66. Intrinsic oval engraved border and gray raster background retained; separate article frame, title and introductory text omitted. Source image dictionaries, page resources, paint order and clipping were inspected: images are untiled and have no soft mask or transparency group; page graphics state uses no opacity wash. No image-specific credit or permission restriction is printed. General issue-level image credits do not identify this asset. Converted from source grayscale to baseline sRGB JPEG; embedded sRGB profile; nonzero 300 dpi density; no CMYK inversion. Complete Pillow and FFmpeg decoding without warnings, Skia Canvas rendering, and full useful-resolution visual comparison passed.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded source-pixel crop/rotation only",
+          "output_dimensions": [
+            300,
+            390
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            300,
+            390
+          ],
+          "source_object": 66
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "471f807d-0499-45be-9b14-46c3efbdaa1b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "AN ACCOUNT OF THE LIFE AND PERSECUTIONS OF John Wickliffe",
+    "topics": [
+      "58dddcaf-69d9-5668-b018-f33e6d6b4264",
+      "c042f929-8b85-54b3-84ed-1b754776fd94"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a5e875523aa368b2ad44cbec25d7614e23aa9cdacfba505d1b0565508ecc8ae3",
+    "metadata_sha256": "86d204267935b567b22dbaf6045a6329383cfb641881e1134974e95c99189d34",
+    "structure_sha256": "d7ede33d161bf107149e84993780f6bb6568c25d5b893e877f19e90ba1aed092",
+    "text_sha256": "bda5fce39c3a7cef7d451f59400a502e5c985217c191b3d028874d6e957cf1b8",
+    "translation_metadata_sha256": "83a796e110d98857e048cf2f78e25bd907619dc3e80d0b9664dc1a46dc592e6f"
+  },
+  "html": "<article data-article-id=\"d5a13c94-ffab-46cb-ab03-d078d46b067f\">\n  <figure><img src=\"/images/articles/d5a13c94-ffab-46cb-ab03-d078d46b067f-1.jpg\" alt=\"Oval engraved portrait of John Wickliffe holding a staff\"></figure>\n  <p><em>Following is an excerpt from Foxes Book of Martyrs on the life of John Wickliffe. He was turned away from Catholicism by the arrogance and pomp of the bishops and pope. There were two popes, one in Rome and the other in Avignon, France who struggled to rule the church. He did much to expose the fallacies of the church in his day. He also had the Bible translated to the language of the common people, so that they too could read and understand the scriptures. He was persecuted by the Catholic Church and was called to trial repeatedly, but his friends in the authority of England protected him. Forty years after he died, his bones were dug up and burned by the church as a way of getting revenge and trying to suppress the truths that he had brought to light. ~Clifford Fox</em></p>\n  <p>It will not be inappropriate to devote a few pages of this work to a brief detail of the lives of some of those men who first stepped forward, regardless of the bigoted power which opposed all reformation, to stem the time of papal corruption, and to seal the pure doctrines of the Gospel with their blood.</p>\n  <p>Among these, Great Britain has the honor of taking the lead, and first maintaining that freedom in religious controversy which astonished Europe, and demonstrated that political and religious liberty are equally the growth of that favored island. Among the earliest of these eminent persons was</p>\n  <p>This celebrated reformer, denominated the “Morning Star of the Reformation,” was born about the year 1324, in the reign of Edward II. His parents designing him for the Church, sent him to Queen’s College, Oxford, about that period founded by Robert Eaglesfield, confessor to Queen Philippi. But not meeting with the advantages for study in that newly established house which he expected, he removed to Merton College, which was then respected as one of the most learned societies in Europe.</p>\n  <p>The first thing which drew him into public notice was his defense of the university against the begging friars, who about this time, from their settlement in Oxford in 1230, had been troublesome neighbors to the university. Disputes were continually provoked; the friars appealing to the pope, the scholars to the civil power; and sometimes one party, and sometimes, the other, prevailed. The friars became very fond of a notion that Christ was a common beggar and that his disciples were beggars too; and that begging was of Gospel tradition. This doctrine they preached from the pulpit and wherever they had access.</p>\n  <p>Wickliffe had long held these religious friars in contempt for the laziness of their lives, and now he had a fair opportunity to expose them. He published an article against able beggary, in which he lashed the friars, and proved that they were not only a reproach to religion, but also to human society. The university began to consider him one of their first champions, and he was soon promoted to the mastership of Baliol College.</p>\n  <p>About this time, Wickliffe was slighted by a bishop; he appealed to the pope, but did not receive the help he desired because Wickliffe did not support the pope in the issue of the tribune that the king of England refused to pay to the pope. A well-taught monk wrote a strong essay in favor of the pope and had much support. Wickliffe was irritated and wrote a good reply against it. Everyone knew that his opposition to the pope at this critical time was the reason that his suit was immediately determined against him.</p>\n  <p>Now that he was fully convinced of the errors of the Roman Catholic Church, and the wickedness of its monks, he was determined to expose them. In public lectures he lashed their vices and opposed their follies. He unfolded a variety of abuses covered by the darkness of superstition. At first he began to loosen the prejudices of the vulgar, and proceeded by slow advances; with the supernatural beliefs of the age, he mingled opinions in divinity apparently novel. The usurpations of the court of Rome was a favorite topic. On these he elaborated with all the keenness of argument, along with logical reasoning. This soon got him the attention of the clergy, who, with the archbishop of Canterbury, took away his office.</p>\n  <p>At this time the administration of affairs was in the hands of the duke of Lancaster, well known by the name of John of Gaunt. This prince had very free notions of religion, and was at odds with the clergy. The demands of the court of Rome having become very taxing, he decided to send the bishop of Bangor and Wickliffe to protest against these abuses, and it was agreed that the pope should no longer arrange of any benefices belonging to the Church of England. In this embassy, Wickliffe’s observant mind penetrated into the constitution and policy of Rome, and he returned more strongly than ever determined to expose its greed and ambition.</p>\n  <p>Having recovered his former office, he strongly argued, in his lectures, against the pope - his wrongful power - his (supposed) perfection - his pride - his greed - and his tyranny. He was the first who termed the pope <strong>Antichrist.</strong> From the pope, he would turn to the pomp, the luxury, and frills of the bishops, and compared them with the simplicity of early bishops. Their superstitions and deceptions were topics that he urged with energy of mind and logical precision.</p>\n  <p>From the patronage of the duke of Lancaster, Wickliffe received a good paying position; but he was no sooner settled in his parish, than his enemies and the bishops began to persecute him with renewed vigor. The duke of Lancaster was his friend in this persecution and by his presence and that of Lord Percy, earl marshal of England, he so overawed the trial, that the whole thing ended in disorder.</p>\n  <p>After the death of Edward III his grandson Richard II succeeded, at eleven years old. The duke of Lancaster not obtaining to be the sole regent, as he expected, his power began to decline, and the enemies of Wickliffe, taking advantage of the circumstance, renewed their articles of accusation against him. Five formal documents were written in consequence by the pope to the king and certain bishops, but the officers and the people showed a spirit of contempt at the haughty proceedings of the pope. The bishops, however, supported by the papal authority, insisted upon bringing Wickliffe to trial. He was actually undergoing examination at Lambeth, when, from the riotous behavior of the people outside, and awed by the command of Sir Lewis Clifford, a gentleman of the court, that they should not proceed to any definitive sentence. They terminated the whole affair in with an order to Wickliffe not to preach those doctrines which were obnoxious to the pope; but this was laughed at by our reformer, who, going about barefoot, and in a long frieze gown, preached more vehemently than before.</p>\n  <p>In the year 1378, a contest arose between two popes, Urban VI and Clement VII which was the lawful pope, and true deputy of God. This was a favorable period for the exertion of Wickliffe’s talents: he soon produced a tract against popery, which was eagerly read by all sorts of people.</p>\n  <p>About the end of the year, Wickliffe was seized with a violent disorder, which it was feared might prove fatal. The begging friars, accompanied by four of the most eminent citizens of Oxford, gained admittance to his bed chamber, and begged of him to retract, for his soul’s sake, the unjust things he had spoken against their order. Wickliffe, surprised at the solemn message, raised himself in his bed, and with a stern countenance replied, “I shall not die, but live to declare the evil deeds of the friars.”</p>\n  <p>When Wickliffe recovered, he set about a most important work, the translation of the Bible into English. Before this work appeared, he published a tract, wherein he showed the necessity of it. The zeal of the bishops to suppress the Scriptures greatly promoted its sale, and they who were not able to purchase copies, procured transcripts of particular Gospels or Epistles. Afterward, when Lollardy increased, and the flames kindled, it was a common practice to fasten about the neck of the condemned heretic such of these scraps of Scripture as were found in his possession, which generally shared his fate.</p>\n  <p>Immediately after this transaction, Wickliffe ventured a step further, and attacked the doctrine of transubstantiation. This strange opinion was invented by Paschade Radbert, and asserted with amazing boldness. Wickliffe, in his lecture before the University of Oxford, 1381, attacked this doctrine, and published an essay on the subject. Dr. Barton, at this time vice-chancellor of Oxford, calling together the heads of the university, condemned Wickliffe’s doctrines as heretical, and threatened their author with excommunication. Wickliffe could now derive no support from the duke of Lancaster, and being cited to appear before his former adversary, William Courteney, now made archbishop of Canterbury, he sheltered himself under the plea, that, as a member of the university, he was exempt from episcopal jurisdiction. This plea was admitted, as the university was determined to support their member.</p>\n  <p>The court met at the appointed time, determined, at least to sit in judgment upon his opinions, and some they condemned as erroneous, others as heretical. The publication on this subject was immediately answered by Wickliffe, who had become a subject of the archbishop’s determined malice. The king, solicited by the archbishop, granted a license to imprison the teacher of heresy, but the commons made the king revoke this act as illegal. The primate, however, obtained letters from the king, directing the head of the University of Oxford to search for all heresies and books published by Wickliffe; in consequence of which order, the university became a scene of tumult. Wickliffe is supposed to have retired from the storm, into an obscure part of the kingdom. The seeds, however, were scattered, and Wickliffe’s opinions were so prevalent that it was said if you met two persons upon the road, you might be sure that one was a Lollard. At this period, the disputes between the two popes continued. Urban published an official document, in which he earnestly called upon all who had any regard for religion to exert them selves in its cause; and to take up arms against Clement and his adherents in defense of the Holy See (the pope).</p>\n  <p>A war (in which the name of religion was so vilely prostitute) roused Wickliffe’s inclination, even in his declining years. He took up his pen once more, and wrote against it with the greatest sharpness. He argued with the pope in a very free manner, and asked him boldly: ‘How dared he make the symbol of Christ on the cross (which is the token of peace, mercy and charity) a banner to lead us to slay Christian men, for the love of two false priests, and to oppress Christendom worse than Christ and his apostles were oppressed by the Jews? ‘When,’ said he, ‘will the proud priest of Rome grant indulgences to mankind to live in peace and charity, as he now does to fight and slay one another?’</p>\n  <p>This severe piece drew upon him the resentment of Urban, and was likely to have involved him in greater troubles than he had before experienced, but providentially he was delivered out of their hands. He was struck with the palsy, and though he lived some time, yet it was in such a way that his enemies considered him as a person below their resentment.</p>\n  <p>Wickliffe returning within short space, either from his banishment, or from some other place where he was secretly kept, repaired to his parish of Lutterworth, where he was parson; and there, quietly departing this mortal life, slept in peace in the Lord, in the end of the year 1384, upon Silvester’s day. It appeared that he was well aged before he departed, “and that the same thing pleased him in his old age, which did please him being young.”</p>\n  <p>Wickliffe had some cause to give them thanks, that they would at least spare him until he was dead, and also give him so long respite after his death, forty-one years to rest in his sepulcher before they dug him out, and turned him from earth to ashes; which ashes they also took and threw into the river. And so was he resolved into three elements, earth, fire, and water, thinking thereby utterly to extinguish and abolish both the name and doctrine of Wickliffe forever. Not much unlike the example of the old Pharisees and sepulcher soldiers, who, when they had brought the Lord unto the grave, thought to make him sure never to rise again. But these and all others must know that, as there is no counsel against the Lord, so there is no keeping down of truth, but it will spring up and come out of dust and ashes, as appeared right well in this man; for though they dug up his body, burned his bones, and drowned his ashes, yet the Word of God and the truth of his doctrine, with the fruit and success thereof, they could not burn. Hallelujah!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "472ae0675d65083ceef52ae8ddeddd3362ae722afe876d16e326bc483ccd76b8"
+}

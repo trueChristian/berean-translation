@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "E. M Bounds"
+        }
+      ],
+      "raw": "by E. M Bounds"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "28e8f221-9306-4378-8e69-677997cab98d",
+    "images": [
+      {
+        "alt": "Biblical figures gathered around a rising flame",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/28e8f221-9306-4378-8e69-677997cab98d-1.jpg",
+        "repository_path": "public/images/articles/28e8f221-9306-4378-8e69-677997cab98d-1.jpg",
+        "rights_note": "Original embedded PDF image object 89; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            562,
+            487
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 89,
+          "source_pixel_dimensions": [
+            562,
+            487
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "FIRE!",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ac1d100ad56bc6001e40ff7135bdc3e812175d1ec6d09f4f4182e4aa947d49e6",
+    "metadata_sha256": "e96915f92039afb66c71c68daf9f32b4f6dea8985f19bdfb3e49f7b9ee6de996",
+    "structure_sha256": "ae40e81225dd829b3e8267d29d3732cdb5365fb688cb84cfc91df24968061769",
+    "text_sha256": "f4c0dfb2527eb1a891e66fc28d4f18e71cdac87ef6bb62db2d04148b925df15f",
+    "translation_metadata_sha256": "7edf75cc70106ef2796bce41876adca80621a1b4ac2793a2dcfcb4ba93bac468"
+  },
+  "html": "<article data-article-id=\"28e8f221-9306-4378-8e69-677997cab98d\">\n  <figure>\n    <img src=\"/images/articles/28e8f221-9306-4378-8e69-677997cab98d-1.jpg\" alt=\"Biblical figures gathered around a rising flame\">\n  </figure>\n  <p>Zeal is a contagious, but not a popular, element. Our fathers took their tea piping hot; we take ours iced. Iced Christianity is more popular and tasteful than iced tea. We can endure in our churches enough warmth to take the chill off, but more than this is offensive. We have added many good elements to our preaching, but these cannot make up for the loss of fervor. The average mind can only be moved to action by a flame. Some men may pull through to heaven on a cold collar, but they are the exception. A dwindling flame destroys the vital and aggressive forces in church life. God must be represented by a fiery church or he is not truly represented. God is all on fire, and his church, if it be like Him, must also be aflame with the great and eternal interests of religion. Zeal need not be fussy to be consuming and forceful. Christ was as far removed as possible from nervous excitability, the very opposite of intolerant or clamorous zeal, and yet the zeal of God’s house consumed him.</p>\n  <p>The lack of ardor in Christian profession or action is a sure sign of the want of depth and intensity. The lack of fire is the sure sign of the lack of God’s presence. To abate fervor is to retire God. God can tolerate many things in the way of infirmity or error. He can pardon much when one is repentant, but two things are intolerable to Him—insincerity and lukewarmness. Lack of heart and lack of heat are the things that He loathes. “I would thou wert cold or hot. So then because thou art lukewarm, and neither cold nor hot, I will spew thee out of my mouth,” is God’s judgment on our lack of fire in the Church. Fire is the motor that moves the Christian life. Christian principles that are not aflame have neither force nor perfume. Flame is the wing by which faith ascends, and fervency is the soul of prayer. Love is kindled in a flame, and fire is the air that true religion breathes. It feeds on fire. Christianity can stand anything better than a feeble flame.</p>\n  <p>Christian character needs to be set on fire. Lack of heat makes more infidels than lack of faith. Not to be in fiery earnest about the things of heaven is not to be about them at all. The fiery souls are the ones that win in the heavenly fight. Nothing short of red hot can keep the glow of heaven in these chilly times. We must grasp the live coal and covet the consuming flame.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e8cb0549453e0f68c5f4ba8ca34e045acaf960203de1f6b0b98e01f36cad20e8"
+}

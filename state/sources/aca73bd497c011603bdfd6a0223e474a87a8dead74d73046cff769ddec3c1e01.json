@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author unknown (1890s)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "719a9c5b-048d-4c16-b25b-52882ebdb553",
+    "images": [
+      {
+        "alt": "Stylized flames.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-1.jpg",
+        "repository_path": "public/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-1.jpg",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 69. Clean base preserved; separate title, byline, and surrounding article frame omitted. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 27,
+        "transformation": "Extracted PDF base image object 69. Clean base preserved; separate title, byline, and surrounding article frame omitted. Encoded as a standards-normalized baseline RGB/sRGB JPEG with 150-dpi JFIF density; original pixel dimensions retained except the explicitly stated crop. No CMYK conversion was required.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "RGB/sRGB JPEG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A curled segmented worm.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-2.png",
+        "repository_path": "public/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-2.png",
+        "rights_note": "No item-specific credit, separate permission notice, or image-specific license is stated. The masthead states “Some images © 2001-2004 www.arttoday.com” without assigning this source to individual images; no specific source or license is inferred. Extracted PDF base image object 70. Clean grayscale base preserved. Original PNG pixels and dimensions retained without recompression.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 27,
+        "transformation": "Extracted PDF base image object 70. Clean grayscale base preserved. Original PNG pixels and dimensions retained without recompression.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "color_space": "grayscale PNG",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared the content, crop and orientation against the source page.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Final file opened at full useful resolution and compared with the rendered source page and original embedded image object. Centre, edges and corners checked. No separable text, page panel, shadow, border, or other layout treatment remains; unavoidable effects baked into the sole source raster are explicitly described in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "In a Ring of Fire",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "4ce1e22cd0225b5280de88bc35efa02899cdd025e7dd270605544abd81f349d8",
+    "metadata_sha256": "66f099479055fc0de541e7d6923fbf8d2cee942d1d2fc9e407c876d376d0f086",
+    "structure_sha256": "94067511e30f5636ed89df2502f4f3f31feb5bb0a0d85652b99cf6a50e0ea860",
+    "text_sha256": "d208bc3f214f342dfc1cc9e6aeaf5a18d3750f80e1f45cdb0221439003c57a34",
+    "translation_metadata_sha256": "fc485b43b33a977e74743c9495c64cdd1184e38f52cbb0da56a5161a362ceff2"
+  },
+  "html": "<article data-article-id=\"719a9c5b-048d-4c16-b25b-52882ebdb553\">\n  <figure><img src=\"/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-1.jpg\" alt=\"Stylized flames.\"></figure>\n  <p>An ungodly European was once trying to convince a convert in India that his religion was of no use, and that he never would be any the better for it. “After all,” said the scoffer, “what has your Jesus ever done for you?”</p>\n  <p>“He has saved me!” said the Indian convert, with great animation, “He has saved me!” “And what does that mean?” said the European. “Step with me to the door,” was the reply, “and I will show you.” So saying this, he took him outside of the house, picked up a quantity of dry leaves and straw (of which there were plenty close at hand), and made a large circle of them. He then sought for a worm; and, having found one, he placed it in the centre of the ring. After that he applied a lighted match to the material that surrounded it, the scoffer looking on all the time with no little astonishment. As the heat of the fire approached the poor worm, it began to writhe and to show symptoms of distress, but could not get out of the burning ring. The man darted his hand through the smoke, plucked the worm out of its dangerous position, and placed it on the green grass, out of reach of all danger. “There,” said he, “that is what the blessed Jesus has done for me: I was exposed to the flames of hell—there was no possibility of escape; I was condemned and ready to perish, and He rescued me by dying for my sins, thus snatching me as a brand from the burning; and He has given me, a poor dying worm, a place near His heart.”</p>\n  <figure><img src=\"/images/articles/719a9c5b-048d-4c16-b25b-52882ebdb553-2.png\" alt=\"A curled segmented worm.\"></figure>\n  <p>Can you today speak of yourself as <em>saved</em> by the death of Jesus? Are you able to say, like the poor native, <em>“He has saved me”</em>? If not, we entreat you to come now, as a sinner, to Jesus, who is at the right hand of the Majesty on high, and He will give you rest. Take shelter in His blood and you will be cleansed from sin, and delivered from the wrath to come.” “When we were yet without strength, in due time Christ died for the ungodly.” (Rom 5:6) “Deliver him from going down to the pit: I have found a ransom.” (Job 33:24) “Thou hast in love to my soul delivered it from the pit of corruption: for Thou hast cast all my sins behind Thy back.” (Isa. 38:17)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "082d28f062440c6ac0047c8295dfa5467fa7aa857dce8671669fbb3169493584"
+}

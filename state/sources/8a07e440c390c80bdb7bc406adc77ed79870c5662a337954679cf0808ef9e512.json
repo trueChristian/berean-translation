@@ -1,0 +1,124 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1876-1951",
+          "location": null,
+          "name": "Harry Ironside",
+          "role": "Harry was a godly Fundamentalist author and teacher for many years and served as pastor of Chicago’s Moody Memorial Church from 1930-1948"
+        }
+      ],
+      "raw": "by Harry Ironside (1876-1951)\nHarry was a godly Fundamentalist author and teacher for many years and\nserved as pastor of Chicago’s Moody Memorial Church from 1930-1948"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "66c8bc19-3935-4e9f-a320-d498c37a1e22",
+    "images": [
+      {
+        "alt": "Question marks with a magnifying glass",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-1.jpg",
+        "repository_path": "public/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-1.jpg",
+        "rights_note": "Original embedded PDF image object 60; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 14,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            450,
+            336
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 60,
+          "source_pixel_dimensions": [
+            450,
+            336
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "A hand holding a magnifying glass",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-2.png",
+        "repository_path": "public/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-2.png",
+        "rights_note": "Original embedded PDF image object 155; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The same illustration repeated on page 15 is represented once. No separate image credit or article-specific image reuse restriction is printed. Original lossless grayscale PNG extraction retained without recompression or color alteration.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 14,
+        "transformation": {
+          "export_pixel_dimensions": [
+            342,
+            450
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 155,
+          "source_pixel_dimensions": [
+            342,
+            450
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "lossless grayscale PNG",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 15,
+      "start": 14
+    },
+    "subtitle": "Is It Worthwhile?",
+    "title": "Exposing Error",
+    "topics": [
+      "79026687-5f1c-5c05-8305-c63a5d165b2c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "625213e1c60d3b1f0f39d16299661f7145680c7304ef1bcc8466722910833118",
+    "metadata_sha256": "521a04813836cf32cb6a22933288caba84f23a02dd3b8282e9279d6ca763decf",
+    "structure_sha256": "72c2fc4096c628eec554ae003c147f1de7a2f6734fd7ba045070b44a67c0e882",
+    "text_sha256": "5ccb5f6a1c6eaabdba3b8aa5461ed3d6fff949ccfe67b38040c7f302e14cbc9b",
+    "translation_metadata_sha256": "542e6e88abe6b2b41ea13189ec3174794c121e9a497854ebe8ab5026635124fd"
+  },
+  "html": "<article data-article-id=\"66c8bc19-3935-4e9f-a320-d498c37a1e22\">\n  <figure><img src=\"/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-1.jpg\" alt=\"Question marks with a magnifying glass\" /></figure>\n  <p>Objection is often raised even by some sound in the faith—regarding the exposure of error as being entirely negative and of no real edification. Of late, the hue and cry has been against any and all negative teaching. But the brethren who assume this attitude forget that a large part of the New Testament, both of the teaching of our blessed Lord Himself and the writings of the apostles, is made up of this very character of ministry—namely, showing the Satanic origin and, therefore, the unsettling results of the propagation of erroneous systems which Peter, in his second epistle, so definitely refers to as “damnable heresies.”</p>\n  <p>Our Lord prophesied, “Many false prophets shall rise, and shall deceive many.” Within our own day, how many false prophets have risen; and oh, how many are the deceived! Paul predicted, “I know this, that after my departing shall grievous wolves enter in among you, not sparing the flock. Also of your own selves shall men arise, speaking perverse things, to draw away disciples after them. Therefore watch.” My own observation is that these “grievous wolves,” alone and in packs, are not sparing even the most favored flocks. Under-shepherds in these “perilous times” will do well to note the apostle’s warning: “Take heed therefore unto yourselves, and to all the flock, over the which the Holy Ghost hath made you overseers.” It is as important in these days as in Paul’s—in fact, it is increasingly important—to expose the many types of false teaching that, on every hand, abound more and more.</p>\n  <figure><img src=\"/images/articles/66c8bc19-3935-4e9f-a320-d498c37a1e22-2.png\" alt=\"A hand holding a magnifying glass\" /></figure>\n  <p>We are called upon to “contend earnestly for the faith once for all delivered to the saints,” while we hold the truth in love. The faith means the whole body of revealed truth, and to contend for all of God’s truth necessitates some negative teaching. The choice is not left with us. Jude said he preferred a different, a pleasanter theme—”Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints. For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ” (Jude 3, 4). Paul likewise admonishes us to “have no fellowship with the unfruitful works of darkness, but rather reprove them” (Eph. 5:11).</p>\n  <p>This does not imply harsh treatment of those entrapped by error—quite the opposite. If it be objected that exposure to error necessitates unkind reflection upon others who do not see as we do, our answer is: it has always been the duty of every loyal servant of Christ to warn against any teaching that would make Him less precious or cast reflection upon His finished redemptive work and the all-sufficiency of His present service as our great High Priest and Advocate.</p>\n  <p>Every system of teaching can be judged by what it sets forth as to these fundamental truths of the faith. “What think ye of Christ?” is still the true test of every creed. The Christ of the Bible is certainly not the Christ of any false “-ism.” Each of the cults has its hideous caricature of our lovely Lord.</p>\n  <p>Let us who have been redeemed at the cost of His precious blood be “good soldiers of Jesus Christ.” As the battle against the forces of evil waxes ever more hot, we have need for God-given valour.</p>\n  <p>There is constant temptation to compromise. “Let us go forth therefore unto Him without the camp, bearing His reproach.” It is always right to stand firmly for what God has revealed concerning His blessed Son’s person and work. The “father of lies” deals in half-truths and specializes in most subtle fallacies concerning the Lord Jesus, our sole and sufficient Savior. Error is like leaven of which we read, “A little leaven leaveneth the whole lump.” Truth mixed with error is equivalent to all error, except that it is more innocent looking and, therefore, more dangerous. God hates such a mixture! Any error, or any truth-and-error mixture, calls for definite exposure and repudiation. To condone such is to be unfaithful to God and His Word and treacherous to imperiled souls for whom Christ died.</p>\n  <p>Exposing error is most unpopular work. But from every true standpoint it is worthwhile work. To our Savior, it means that He receives from us, His blood-bought ones, the loyalty that is His due. To ourselves, if we consider “the reproach of Christ greater riches than the treasures of Egypt,” it ensures future reward, a thousand-fold. And to souls “caught in the snare of the fowler”—how many of them God only knows—it may mean light and life, abundant and everlasting.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "37538b953d29277a3f0532f90aa50fde580713975aade638ee57b8b1f741166d"
+}

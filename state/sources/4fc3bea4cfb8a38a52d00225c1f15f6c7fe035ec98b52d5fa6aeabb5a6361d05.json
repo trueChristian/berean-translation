@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "Editor"
+        }
+      ],
+      "raw": "Bro. Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
+    "images": [],
+    "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the editor...",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the editor...",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "c4bbb66ccafea50d7be2489542702597cc16e4c6be186f2264f2c8a997b1bf05",
+    "metadata_sha256": "3b060e2309feccb91fd4c59a756c56479ff95c41ec2b981c2891b18ac4fa3d7f",
+    "structure_sha256": "9f382d0fdc9ff1c243949eb73bb5a7d6e2c81e5dcca4a75531a8f4b3f0625f4c",
+    "text_sha256": "c2363970935d6b8c6a2e1ed4bf4b3f64ddcf8ff05bf4627562e74c157e5bb0b0",
+    "translation_metadata_sha256": "ae298bbdfa644948a0fccddc7867f043502bea859d52de437bed5a333deee951"
+  },
+  "html": "<article data-article-id=\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\">\n  <p>Greetings to all in the name of Jesus! It is with great excitement that we present this special edition of <em>The Heartbeat of the Remnant</em>. When I first set out to gather the articles that I felt absolutely <em>had</em> to be included in this special issue, I ended up with approximately 115! Needless to say, I had some trimming to do! It has been a joy to put this special issue together. The idea of this special issue is to present a sampling of the types of articles that the Lord has put on our heart through the last few years.</p>\n  <p><strong>Who are we?</strong> <em>The Heartbeat of the Remnant</em> is a quarterly magazine of Charity Christian Fellowship and Charity Ministries of Lancaster County, Pennsylvania. Starting out as a local outreach newsletter, <em>The Heartbeat of the Remnant</em> has now grown to reach thousands of readers all across the globe. Springing from the rich Anabaptist heritage of Lancaster County, Charity Christian Fellowship has endeavored to maintain a strong biblical orthodoxy with a genuine heart-cry for revival and radical Christian living. While maintaining an Anabaptist direction overall, the magazine does not desire to lift up any specific theology, denomination, church or man. We desire only to glorify the Name of Jesus.</p>\n  <p>The magazine features articles from a wide variety of Christian sources, ranging from ancient to modern-day testimonies. We frequently reprint articles from revival preachers and histories, missionary stories, early Christian trials and martyrs, challenging Puritan writers and Methodist circuit riders, as well as modern-day preachers. Some of the topics discussed may be considered out-of-step with modern American ideals, such as modesty of dress, dangers of worldly entertainments, child training, the roles of men and women, divorce, materialism and even war and nonresistance. However, even in these things we wish not to be “issue driven” or even to purport that we have the last word on every controversial issue. Instead, we desire to be “Spirit led” as we seek to know God’s will and heart on these difficult, real-life issues. Our heart is always that God might accomplish these things in our lives only by His grace.</p>\n  <p>We invite you to pray with us for the outpouring of God’s Spirit on our own personal lives and the life of the Church in every land! It is our desire that this publication might strengthen and encourage you in your pursuit of Jesus.</p>\n  <p>Since its inception, <em>The Heartbeat of the Remnant</em> has been made available to you, free of charge, by the freewill offerings of God’s people. Subscription is available upon request. A special “thank you” to all those who support this ministry. May the Lord bless each of you as you read this special edition of <em>The Heartbeat of the Remnant</em>.</p>\n  <p class=\"signoff\">Bro. Dean Taylor</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab"
+}

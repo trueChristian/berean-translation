@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Ira Martin"
+        }
+      ],
+      "raw": "by Ira Martin"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "40a4893a-d3b2-466b-8b7f-14c55257524f",
+    "images": [
+      {
+        "alt": "People gathered closely in prayer inside a church",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/40a4893a-d3b2-466b-8b7f-14c55257524f-1.jpg",
+        "repository_path": "public/images/articles/40a4893a-d3b2-466b-8b7f-14c55257524f-1.jpg",
+        "rights_note": "No article-specific reuse restriction or printed image credit observed. No image license inferred. Inverted grayscale samples from PDF /Separation /Black colorspace; rendered page confirms source-positive tones.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "ef088180-22ec-4bbe-a4d2-36bf1e2b5cdd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "Satan Hates Revival",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "20c823acc45c19432ac293e7f94a616ed7917b44a41149c44fbf4407a8f222e6",
+    "metadata_sha256": "4e5098faa5fb30f941e41fb1613d9814918e415a25d59d0f4ece4ebfe11132c3",
+    "structure_sha256": "b2aacfd645a5cf3a04c81af5f8bb62ce130ee2b14d9bc411a31e61919ee8cdbd",
+    "text_sha256": "d9dcb40da753a886f80d178d7b68af53f60bf8e42ea7cf5b4ebb5fa72df0140f",
+    "translation_metadata_sha256": "b326dcf85bed6a385041405cc6a38f4aa384396efc1db6a6defb598cac1e60a2"
+  },
+  "html": "<article data-article-id=\"40a4893a-d3b2-466b-8b7f-14c55257524f\">\n<figure>\n  <img src=\"/images/articles/40a4893a-d3b2-466b-8b7f-14c55257524f-1.jpg\" alt=\"People gathered closely in prayer inside a church\">\n</figure>\n<p>A real heaven-sent revival puts Satan on the job with all his available followers, in order to counteract the influence of revival. Let us not confuse a genuine soul awakening revival with the superficial run-of-mine “not-more-than-one week” variety where so much formality prevails that the Holy Spirit has very little chance to work. We have no desire to minimize the decisions which are made, but unless the lukewarm and cold ones are awakened to their dangerous condition and revived, it is hardly a revival. Rev 3:15-16: I know thy works, that thou art neither cold nor hot : I would thou wert cold or hot. So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth.”</p>\n<p>Genuine revival must be preceded by much prayer and by Spirit-filled preaching of the Word of God and denouncing of sin. Revival can never come about unless people are made aware of their own sinfulness and coldness.</p>\n<p>What are some of the conditions that indicate the need of revival? A church that is spiritually asleep is easily recognized (unless we also are sleeping) by its dormancy in soul-winning. A second evidence of the need of revival is the committing of spiritual adultery by embracing and fellowshipping with the world with its testimony-weakening paraphernalia.</p>\n<p>What happens when a real revival begins? Satan is on the alert and his influence can easily be detected by the lies and nasty remarks which are circulated. Certainly Satan will try to wet-blanket revival because he hates spiritual awakening in the sinful heart.</p>\n<p>A revival will uncover sin in the church and cause it to be confessed and forsaken. Admittedly it is a shame for these things to need to be confessed, but it is a far greater shame to allow them to remain covered, quietly choking the life of the individual and the church.</p>\n<p>Revival would bring some church members to the realization that merely being a member without being truly reborn is a false security of the first degree.</p>\n<p>Revival can be a blessing to any church that really wants to be awakened, but where the church and the world are bedfellows, revival has a hard time coming in. Worldliness must and will go out of a church when true revival comes in. There seems to be some differences of opinion as to what worldliness is and what it is not. Satan says fellowshipping with his world is harmless. God says, “Friendship of the world is enmity with God” (James 4:4). Satan has in many cases succeeded in blinding us to the great truths of separation and nonconformity. A Holy Spirit revival can give Satan a mighty defeat on that point, too.</p>\n<p>To stifle or control revival in the Mennonite Church will be to continue our program of slow growth, and the church will continue to act as a harbor for cold members with anemic Christian experience—or no experience at all.</p>\n<p>To seek, promote, pray for, and support revival, and to start a revival in our own hearts, can be instrumental in determining the eternal destiny of many unsaved souls who may be won by a church that is on fire for God, doing a God-ordained task.</p>\n<p>What would be the result if each of us would win one soul, and those won would in turn do likewise?</p>\n<p>We seldom appreciate the alarm clock’s ring while we are still half asleep, but having become wide awake we think of the work to be done and the appointments we must meet and we are thankful that it did not fail us. May God bless those whom He has raised up to be His alarm clocks, and may the church, becoming fully awakened, realize the lateness of the hour and the fact that each one, prepared or not, has an appointment with God.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "83d675e7900bf173410d770b9bc943d611ca8ea0df415bad799b1e59e0ec12a7"
+}

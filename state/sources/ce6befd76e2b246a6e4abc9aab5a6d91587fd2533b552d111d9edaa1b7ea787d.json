@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "James Montgomery",
+          "role": null
+        }
+      ],
+      "raw": "James Montgomery, 1821"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7",
+    "images": [
+      {
+        "alt": "Musical score for Hail to the Lord's Anointed with eight verses",
+        "caption": null,
+        "credit": "James Montgomery, 1821; Lawrence W. Watson, 1909",
+        "public_path": "/images/articles/e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7-1.png",
+        "repository_path": "public/images/articles/e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7-1.png",
+        "rights_note": "No image-specific credit, licence, or separate reuse restriction is printed. The masthead names general art sources (www.clipart.com and www.sxc.hu) without mapping them to this asset; no licence is inferred. Native 800×1316 RGB image re-extracted losslessly as a complete PNG with PyMuPDF; `pdfimages -all` produced a truncated PNG and is discarded.",
+        "role": "musical score of eight verse hymn",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": "PSALM 72",
+    "title": "Hail to the Lord's Anointed",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9a66acb796bf0037f76dc06be8baf1d469e1addc5d4884a212bceddc0ac73dcd",
+    "metadata_sha256": "8fa633e7cef6d2a9986a57e56b69cf189bfb86ff7bd6c78cabacb7e09ff1c6c0",
+    "structure_sha256": "947fc70b093927287baacb8139a100791d82b8f30eae9b8ebc0b193fdcb2a786",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "translation_metadata_sha256": "0ac76bacc86e19657eeb29c8e5c44ac9fcc5ec583bbd0b3818d4619d0155ff6c"
+  },
+  "html": "<article data-article-id=\"e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7\">\n  <figure>\n    <img src=\"/images/articles/e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7-1.png\" alt=\"Musical score for Hail to the Lord's Anointed with eight verses\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7cb2e2cd65983acac77610e9bac408041e2832b81f1cb31dfb795e4a5d39c4ab"
+}

@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "Editor"
+        }
+      ],
+      "raw": "Sincerely, Bro. Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "d65a26eb-df2a-4ae5-8dbf-425d54a76418",
+    "images": [
+      {
+        "alt": "Dean Taylor and his family standing outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/d65a26eb-df2a-4ae5-8dbf-425d54a76418-1.jpg",
+        "repository_path": "public/images/articles/d65a26eb-df2a-4ae5-8dbf-425d54a76418-1.jpg",
+        "rights_note": "PDF image object 41. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source grayscale converted to RGB (or source RGB preserved) and normalized as baseline sRGB JPEG with nonzero 72 dpi density; output dimensions match the retained source-pixel region. No CMYK source or sample inversion.",
+        "role": "author family photograph",
+        "sequence": 1,
+        "source_page": 9
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "From the Editor’s Desk:",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997",
+      "e16fa525-448d-504a-8ebc-927c62ec6e8f",
+      "32b4b3c5-89d5-5664-bd1d-7f7c1b718913"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f9656cfbae6cda1fc1f13d3150d12b9e40d79d7a85e013556f68ec14baa27fd2",
+    "metadata_sha256": "9dde1ac38d01d32b54087d6d940d0fedcd56751441c6c476d9720ad1bd9542c2",
+    "structure_sha256": "b7e3057d6643e9564854acceff66e10deeaf7e69f825d3864af3ae7db5aaaa16",
+    "text_sha256": "5a52b488660a2e38ffec35db67361a80a15e1032aab7b945c793399cfca862f7",
+    "translation_metadata_sha256": "636e97aaed0b034b7cf38d8ab13715ed9729c9224b20602032289be1055ad356"
+  },
+  "html": "<article data-article-id=\"d65a26eb-df2a-4ae5-8dbf-425d54a76418\">\n<figure>\n  <img src=\"/images/articles/d65a26eb-df2a-4ae5-8dbf-425d54a76418-1.jpg\" alt=\"Dean Taylor and his family standing outdoors\">\n</figure>\n<p>God bless each of you as you receive this issue of The Heartbeat of the Remnant. First, I would like to apologize for the delay in the last few issues. We have recently decided to start putting these issues out quarterly, simply because of the lack of time to put them together. As a pastor of a new fellowship and a homeschool father of six, it is sometimes hard to fit everything in. Hopefully, we can begin to offer more issues in the future.</p>\n<p>As the title states, the theme of this issue is “Trust and Contentment.” I have tried to focus most of the articles on some aspect of the Christian walk, dealing with areas such as sovereignty, contentment, or trusting God through difficulty. There are also a few articles dealing with the home and child training.</p>\n<p>The front cover is a drawing from Lisa Weaver. I felt it was simply perfect for the theme of this issue. I will be trying to include more real pictures and original artwork in upcoming issues. If anyone has original artwork that they would like to scan and e-mail our way it would be well received. Pictures focusing on the home or children are always needed.</p>\n<p>Our prayer is that this issue will minister to you and bless your walk with the Lord. May God’s grace fill you with a full revelation of His sovereign, protecting hands as you walk with Him in <em>“trust and contentment.”</em></p>\n<p>Sincerely, <em>Bro. Dean Taylor</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2d08eea80c1fc5bb2c6a765aaa46d326b39df387ca0dc8049f18aa97b9ceb39e"
+}

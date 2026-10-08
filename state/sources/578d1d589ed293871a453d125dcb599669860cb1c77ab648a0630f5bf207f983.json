@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e87ee0b4-4f29-40f5-a962-00a9f909d206",
+    "images": [
+      {
+        "alt": "A waterfall among rocks with the printed poem A Life Poured Out.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e87ee0b4-4f29-40f5-a962-00a9f909d206-1.jpg",
+        "repository_path": "public/images/articles/e87ee0b4-4f29-40f5-a962-00a9f909d206-1.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. The sole RGB JPEG xref 158 includes the poem title, all poem text, the word “Adapted”, and any image toning baked into its pixels. No clean underlying waterfall object, masks, separate text or recoverable base layers exist. A crop removing all typography would leave only a narrow, unhelpful fragment; the complete source raster is therefore retained as the documented unavoidable-overlay exception. The extracted JPEG had one trailing newline byte after EOI; it was re-encoded as standards-normalized baseline RGB JPEG at the original 505 × 504 pixel dimensions with nonzero 72 dpi density. Separate outer cover gradient xref 238, masthead and mailing panel are omitted.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "A Life Poured Out",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e660688840cfd188d1f3cd2e5d1d69caf9ecb3c089b69b7fe1217f8d6b664515",
+    "metadata_sha256": "d75197c8ddeca81dd303b405d8c70f18f5b35d736a1600756f703df882cc0220",
+    "structure_sha256": "7662865c5785eaa01bf1554e44d201f7d57c60bad85968333d8ce8ba8d7149f9",
+    "text_sha256": "ad79f4c448568dbbb71722de0e541b8acc4edbe6a98afc8887d4431aef98101f",
+    "translation_metadata_sha256": "06d4108aeeee52154f8ebc77e7f7f55e4f9aa4209abe87fdee0948f420894507"
+  },
+  "html": "<article data-article-id=\"e87ee0b4-4f29-40f5-a962-00a9f909d206\">\n  <figure>\n    <img src=\"/images/articles/e87ee0b4-4f29-40f5-a962-00a9f909d206-1.jpg\" alt=\"A waterfall among rocks with the printed poem A Life Poured Out.\">\n  </figure>\n  <p class=\"poem\"><strong>Beloved, let us live for others, living for others is of God<br>Everyone who lives for others is born of God and knoweth God<br>He that does not live for others, knoweth not God<br>For God lives for others</strong></p>\n  <p class=\"poem\"><strong>Beloved, this is how God lived for others<br>God sent His only begotten Son into the world<br>To be the propitiation for our sins<br>This is the true definition of love</strong></p>\n  <p class=\"poem\"><strong>Beloved, if God so loved us, we ought to live for others<br>If we live for others, God dwelleth in us<br>And His love is perfected in us<br>By this we are assured that God dwells in us</strong></p>\n  <p class=\"poem\"><strong>Beloved, whosoever shall confess to others<br>That the Father sent the Son to be the Savior<br>God dwells in him, and he dwells in God continually<br>God is love</strong></p>\n  <p><em>Adapted</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "19c16124a91daffa3c3d9fd1fc9ff41e7bc24592434f6a887dda0b5fcbade353"
+}

@@ -1,0 +1,93 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "A.W. Tozer",
+          "role": null
+        }
+      ],
+      "raw": "by A.W. Tozer"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "dda0cbb3-457a-5412-a60f-abb389b827e0"
+    },
+    "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+    "images": [
+      {
+        "alt": "Jesus kneels in prayer among rocks",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg",
+        "repository_path": "public/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg",
+        "rights_note": "Extracted the original embedded image object 36 from printed page 8. No separate image credit or image-specific permission wording is printed. Intrinsic lettering or artist markings in the source image are preserved; no licence or creator identity is inferred from them. Image paint order, clipping and resources were inspected: there is no separate soft mask or transparency group on this image. Surrounding page panels, title typography, rules and footer furniture are omitted. Converted from source 1-component grayscale to a baseline sRGB JPEG with an embedded sRGB profile and 300 dpi nonzero density; no CMYK inversion was needed. The final full-resolution image was opened and compared with the rendered source page and base object, including all edges and corners. Complete Pillow and FFmpeg raster decodes and Skia Canvas rendering passed; ImageMagick confirms sRGB. Small intrinsic artist lettering is retained in the raster; its complete spelling is not reliably legible, so no creator name has been inferred.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 8,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            375,
+            387
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "output_dimensions": [
+            375,
+            387
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            375,
+            387
+          ],
+          "source_object": 36
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "@JoMandalor",
+          "visual_against_pdf": "@JoMandalor"
+        }
+      }
+    ],
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 8
+    },
+    "subtitle": null,
+    "title": "Formula for a Burning Heart",
+    "topics": [
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "211c2d862391190e5937f9aa31afa67b95d1c47d42dfc5ade0c9b8c80843bf57",
+    "metadata_sha256": "10f3b7639382f0f4e2928582d41c50b453da8a609966fcd2b491242faa126cba",
+    "structure_sha256": "dea7348edc90b7de061a14c3b1da6b1efcd360e34e1a8f9c9de2b4203e482e62",
+    "text_sha256": "beacbacfd014dd22de8b17aae3ec9fc87b9f7a8f439cd5ec9024d925ea59d39c",
+    "translation_metadata_sha256": "20e3ea7c4d965298c26cfeedd1cffad07a2162c688b6455d59519cf0a2141766"
+  },
+  "html": "<article data-article-id=\"ad4e2c15-f6ba-4b89-a519-1a36655aa93a\">\n  <figure><img src=\"/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg\" alt=\"Jesus kneels in prayer among rocks\"></figure>\n  <p>I have previously said that any Christian who desires to, may experience a radical spiritual renascence, and this altogether independent of the attitude of his fellow Christians. The important question now is How? Well, here are some suggestions which anyone can follow and which, I am convinced, will result in a wonderfully improved Christian life.</p>\n  <h2>1. Get Thoroughly Dissatisfied with Yourself.</h2>\n  <p>Complacency is the deadly enemy of spiritual progress. The contented soul is the stagnant soul. When speaking of earthly goods, Paul could say, “ I have learned … to be content”; but when referring to his spiritual life, he testified, “I press toward the mark.” Stir up the gift of God that is in thee.</p>\n  <h2>2. Set Your Face Like a Flint Toward a Sweeping Transformation of Your Life.</h2>\n  <p>Timid experimenters are tagged for failure before they start. We must throw our whole soul into our desire for God. “The Kingdom of God suffereth violence, and the violent take it by force.”</p>\n  <h2>3. Put Yourself in the Way of the Blessing.</h2>\n  <p>It is a mistake to look for grace to visit us as a kind of benign magic, or to expect God’s help to come as a windfall apart from conditions known and met. There are plainly marked paths which lead straight to the green pastures; let us walk in them. To desire revival, for instance, and at the same time to neglect prayer and devotion is to wish one way and walk another.</p>\n  <h2>4. Do a Thorough Job of Repenting.</h2>\n  <p>Do not hurry to get it over with. Hasty repentance means shallow spiritual experience and lack of certainty in the whole life. Let godly sorrow do her healing work. Until we allow the consciousness of sin to wound us, we will never develop a fear of evil. It is our wretched habit of tolerating sin that keeps us in our half-dead condition.</p>\n  <h2>5. Make Restitution Wherever Possible.</h2>\n  <p>If you owe a debt, pay it, or at least have a frank understanding with your creditor about your intentions to pay, so that your honesty will be above question. If you have quarreled with anyone, go as far as you can in an effort to achieve reconciliation. As fully as possible make the crooked things straight.</p>\n  <h2>6. Bring Your Life Into Accord With the Sermon on the Mount and Such Other New Testament Scriptures as are Designed to Instruct Us in the Way of Righteousness.</h2>\n  <p>An honest man with an open Bible and a pad and pencil is sure to find out what is wrong with him very quickly. I recommend that the self-examination be made on our knees, rising to obey God’s commandments as they are revealed to us from the Word. There is nothing romantic or colorful about this plain downright way of dealing with ourselves, but it gets the work done. Issac’s workmen did not look like heroic figures as they digged in the valley, but they got the wells open, and that was what they had set out to do.</p>\n  <h2>7. Be Serious–minded.</h2>\n  <p>You can well afford to see fewer comedy shows on TV. Unless you break away from the funny boys, every spiritual impression will continue to be lost to your heart, and that right in your own living room. The people of the world used to go to the movies to escape serious thinking about God and religion. You would not join them there, but you now enjoy spiritual communion with them in your own home. The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it. You wonder why you can make no progress in your Christian life. Your interior climate is not favorable to the growth of spiritual graces. There must be a radical change in your habits or there will not be any permanent improvement in your interior life.</p>\n  <h2>8. Deliberately Narrow Your Interests.</h2>\n  <p>The Jack-of-all-trades is the master of none. The Christian life requires that we be specialists. Too many projects use up time and energy without bringing us nearer to God. If you will narrow your interests, God will enlarge your heart. “Jesus only” seems to the unconverted man to be the motto of death. But a great company of happy men and women can testify that it became to them a way into a world infinitely wider and richer than anything they had ever known before.</p>\n  <p>Christ is the essence of all wisdom, beauty and virtue. To know Him in growing intimacy is to increase in appreciation of all things good and beautiful. The mansions of the heart will become larger when their doors are thrown open to Christ and closed against the world and sin. Try it.</p>\n  <h2>9. Begin to Witness.</h2>\n  <p>Find something to do for God and your fellow men. Refuse to rust out. Make yourself available to your pastor and do anything you are asked to do. Do not insist upon a place of leadership. Learn to obey. Take the low place until such time as God sees fit to set you in a higher one. Back your new intentions with your money and your gifts, such as they are.</p>\n  <h2>10. Have Faith in God.</h2>\n  <p>Begin to expect. Look up toward the throne where your Advocate sits at the right hand of God. All heaven is on your side. God will not disappoint you.</p>\n  <p>If you will follow these suggestions, you will most surely experience revival in your own heart. And who can tell how far it may spread? God knows how desperately the church needs a spiritual resurrection. And it can only come through the revived individual.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6"
+}

@@ -1,0 +1,171 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Matthew Milioni"
+        }
+      ],
+      "raw": "by Matthew Milioni"
+    },
+    "categories": {
+      "additional": [
+        "8d7646c9-072b-51ea-a1ef-cff3f7f50285"
+      ],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "00de9685-1bb3-4264-ac2d-e6f933840c59",
+    "images": [
+      {
+        "alt": "Congregation gathered for a group photograph",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "276ccda3af84696ccae3a61545661cfc9333bcaf",
+        "public_path": "/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-1.jpg",
+        "repository_path": "public/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-1.jpg",
+        "rights_note": "Original embedded PDF image object 20; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 4,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            1,
+            1,
+            595,
+            382
+          ],
+          "export_pixel_dimensions": [
+            594,
+            381
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 20,
+          "source_pixel_dimensions": [
+            597,
+            384
+          ]
+        }
+      },
+      {
+        "alt": "A man baptizing another man in water",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "bd2a15b753554bada2fb6a0d8d74a39ff6be5095",
+        "public_path": "/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-2.jpg",
+        "repository_path": "public/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-2.jpg",
+        "rights_note": "Original embedded PDF image object 24; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 5,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            1,
+            1,
+            404,
+            370
+          ],
+          "export_pixel_dimensions": [
+            403,
+            369
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 24,
+          "source_pixel_dimensions": [
+            405,
+            372
+          ]
+        }
+      },
+      {
+        "alt": "A speaker addressing a seated congregation",
+        "caption": null,
+        "credit": null,
+        "git_blob_sha": "e45d1c30513bd5f3d68c16797920896eea74b1d2",
+        "public_path": "/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-3.jpg",
+        "repository_path": "public/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-3.jpg",
+        "rights_note": "Original embedded PDF image object 25; no soft mask or transparency group. Separate publisher layout overlays, page furniture, frames, shadows, and text omitted by extracting the base object. Publisher clipping rectangle reproduced to nearest intrinsic-pixel boundaries. Converted L source samples to RGB/sRGB and normalized as a baseline JPEG with nonzero 72 dpi density; no inversion required.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 5,
+        "transformation": {
+          "colour_conversion": "RGB/sRGB (source grayscale replicated across RGB channels; PDF RGB ICC profile converted to sRGB for page 36)",
+          "crop_source_pixels": [
+            2,
+            1,
+            507,
+            390
+          ],
+          "export_pixel_dimensions": [
+            505,
+            389
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 90
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 25,
+          "source_pixel_dimensions": [
+            508,
+            392
+          ]
+        }
+      }
+    ],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 4
+    },
+    "subtitle": "Valley Christian Fellowship\nHalsey, Oregon",
+    "title": "The Birth of a Fellowship",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "bb09b9e8-bdc6-5150-bec7-ae616c7622d7"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3e2547bd145b46b816b5eb919ef9f0c9b8c4c87f137746eb9b8bcaa2f6304ed8",
+    "metadata_sha256": "63ecdf5c5bdad6990e98437e2671910039b81e02e17c268af096101f7a351a65",
+    "structure_sha256": "bc6c18c50c06ea8b3a72a9ec25ec03d43952cf656047610f44b33a127ba62e23",
+    "text_sha256": "193f0cc6bd080302bd7001929bc2837871f2e47d469bba6ce9aa4522d3f512c0",
+    "translation_metadata_sha256": "4569998199acb296364ffa3e5955556d1b40694e5f97cf1b90560b5d15c78add"
+  },
+  "html": "<article data-article-id=\"00de9685-1bb3-4264-ac2d-e6f933840c59\">\n  <figure><img src=\"/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-1.jpg\" alt=\"Congregation gathered for a group photograph\"></figure>\n  <blockquote>\n    <p><em>Recently I have felt that it would be a blessing to discuss some of the ways that God has been working across the country. It is such a blessing to watch the hand of God at work in people's lives.</em></p>\n    <p><em>The folowing brief testimony is a history of the work of God in Halsey, Oregon. The brothers and sisters of this little church have been a real challenge to us here in Lancaster County. They come from many various backgrounds—from Mennonite, to \"right off the streets.\"</em></p>\n    <p><em>My hope is that their testimony will serve to remind us to hold them up in prayer. I also hope we will be encouraged by the answered promise that, \"When the enemy shall come in like a flood, the Spirit of the LORD shall lift up a standard against him.\" Isa 59:19</em></p>\n    <p><em>~Bro. Dean</em></p>\n  </blockquote>\n  <p>Three men began to feel a burden in their heart. A burden for God. A deep longing for God to move among them and to see his hand stir the lives of those around them.</p>\n  <p>These three men decided to meet in a basement Friday mornings and pray together that God would hear their cry. As they met they confessed faults one to another. They shared struggles and rejoiced in victory.</p>\n  <p>Soon the group was four men praying together, each one desperate to see God move. The word spread and so did the number of attendees to the informal prayer meeting. Now there were seven men earnestly desiring something they knew was beyond them.</p>\n  <p>At these meetings these seven men would cry out to God for lost souls and revival in the land.</p>\n  <p>Onlookers began to wonder about these special “private” prayer meetings. Soon there were a number of folks stopping in to pray with these men.</p>\n  <p>As the excitement grew over what God was doing in these little meetings (mostly in the hearts of the men praying) so did the rumors and so did the disapproval of the like such.</p>\n  <figure><img src=\"/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-2.jpg\" alt=\"A man baptizing another man in water\"></figure>\n  <p>One local congregation banned its members from attending such “private” prayer meetings. Calls came from around the globe warning local Christians to avoid these meetings. It was clear that something was happening and only God knew what.</p>\n  <p>After much talk, controversy, and skepticism, two of the seven men who were members of local congregations decided they could no longer meet on Friday mornings for their special prayer meetings.</p>\n  <p>Three of these men in these meetings were not members anywhere. They knew that God was calling them to a life that was deeper than they had previously known.</p>\n  <p>Desirous to be in God’s will, yet not sure of all His ways, they decided to call Bro. Denny to ask his counsel in their situation. They no longer fit in the mainstream church, yet could find no local churches with the emphasis on what was burning in their hearts.</p>\n  <p>Bro. Denny’s counsel was simple. He said, “Meet together for three months, if God is there you will know it, if not, <strong>move</strong>. Find an established church and get under authority.”</p>\n  <p>It was settled, the little group began to meet in a café, “The Koinonia Café.” Each of the three families had already decided where to move when the time was over. One was headed to Idaho, one to Texas, and the other back to Charity Christian Fellowship.</p>\n  <p>Two and a half months went by. It seemed to be going good, but no clear signs that God was giving His OK.</p>\n  <p>It was Feb., 2002. Most of the men went back to Pennsylvania to the leadership conference. Glenn Shaum, who was the fourth man in the prayer meeting, was to preach that Sunday. He preached and we had our sign. A young man who we had been praying for gave his life to Jesus that Sunday.</p>\n  <p>That was enough for us. This was our sign that the Almighty had a work to do in Halsey, Oregon. At the leadership conference, a larger, more established church agreed to give us oversight and guidance as we began to do what we had felt called to do—to start a “church.”</p>\n  <p>We are very grateful to them for their position of authority in our little fellowship. Time and time again we saw God’s anointing through God’s ‘authority’ in our lives.</p>\n  <p>That was nearly four years ago and the little group of folks here has been through a number of different struggles and victories. Time will not permit to speak of them.</p>\n  <p>The church officially started with three families; many folk have come and quite a few have left. There are currently twelve families in regular attendance. Matthew Milioni is acting as our local pastor and Mark Brubaker from Pa. is presiding as bishop. We are very grateful for the work they are doing in service to God.</p>\n  <figure><img src=\"/images/articles/00de9685-1bb3-4264-ac2d-e6f933840c59-3.jpg\" alt=\"A speaker addressing a seated congregation\"></figure>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0fbe023d6fe2a4918f45389550bba402171e8eea3e102314d850302a7f0ae7f9"
+}

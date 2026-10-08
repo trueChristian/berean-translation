@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "becf1b5d-e09e-49e3-a97c-836f0e72deb9",
+    "images": [
+      {
+        "alt": "Bright moonlight reflected across water beside a dark shoreline.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/becf1b5d-e09e-49e3-a97c-836f0e72deb9-1.jpg",
+        "repository_path": "public/images/articles/becf1b5d-e09e-49e3-a97c-836f0e72deb9-1.jpg",
+        "rights_note": "Clean base PDF image object 79; source L; exported as baseline RGB/sRGB JPEG with nonzero 72 dpi density. No CMYK samples or inversion. Published rectangular clip mapped to nearest native pixel bounds [1, 0, 70, 323]. Separately painted captions, typography, page rules and frames omitted. No individual image creator, source or licence is printed.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Walking in the Light",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "9665881afb708978f6bc9f18db5538e2c063ea212d7a644cf5e9b77cd0b1cd88",
+    "metadata_sha256": "beb04acc51ea91eece0e55b9ac56e0204e1479beb9706ba371fffdee86321f84",
+    "structure_sha256": "b4d572bcbf38cd10283065fddad22cb7be3ae581b2347f680f3c7d75bc8f5cb1",
+    "text_sha256": "65dd62afe7bba9c67138f6369837add91adc3a2a9518b794f25b93f0d8a13b9c",
+    "translation_metadata_sha256": "0b375a245a3a8d68b6ac3cb6b0bf2ff2f2407ea165f8e6e7c9d6a44e6d9a6b54"
+  },
+  "html": "<article data-article-id=\"becf1b5d-e09e-49e3-a97c-836f0e72deb9\">\n  <figure><img src=\"/images/articles/becf1b5d-e09e-49e3-a97c-836f0e72deb9-1.jpg\" alt=\"Bright moonlight reflected across water beside a dark shoreline.\"></figure>\n  <p class=\"poem\">Beloved brethren, let us love our wives: for LOVE is of God;<br>Everyone that loves his wife, is born of God, and knoweth God.<br>He that loveth not his wife, knoweth not God; for God is LOVE.<br>Beloved brethren, if God so loved us, we ought also to love our wives.<br>IF WE CHOOSE TO LOVE OUR WIVES,<br>God dwells in us, and his love is perfected in us.<br>God is LOVE.<br>He that dwells in love with his wife, dwells in God, and God dwells in him.<br>If any man say, I love God, and hates his wife, he is a liar.<br>THE TRUE LIGHT NOW SHINES.<br>He that saith he is in the light, and hateth his wife, and is bitter toward her,<br>Is in darkness even until now.<br>He that loveth his wife abideth in the light,<br>And there is none occasion of stumbling in him.<br>BUT<br>He that hateth his wife is in darkness, and walketh in darkness,<br>And the darkness hath blinded his eyes.<br>Beloved brethren, if the light that is in thee be darkness,<br>HOW GREAT IS THAT DARKNESS!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "8cf03c39dc62585c87d31405e5b691a8b17806701e414fa10f61ed1777b7818c"
+}

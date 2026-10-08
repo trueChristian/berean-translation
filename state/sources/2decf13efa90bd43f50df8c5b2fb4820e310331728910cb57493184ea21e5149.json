@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "--Your brother, Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "1d59cd59-7b38-4c1e-84bd-30f9e66de33a",
+    "images": [
+      {
+        "alt": "A man seated at a desk beside a window",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1d59cd59-7b38-4c1e-84bd-30f9e66de33a-1.jpeg",
+        "repository_path": "public/images/articles/1d59cd59-7b38-4c1e-84bd-30f9e66de33a-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 142. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "editor photograph",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Letter from the Editor and 1st Quarter 2007 Financial Report",
+    "topics": [
+      "b71d2eed-1b6b-5ca4-84e5-3ea0f3448e82",
+      "0ade9728-d895-5710-84b2-09af80abdc84"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4a43caa8f71b5759df7bc1b230fc64c19b0a83d602a9918ba33cbbcfe9c8ff56",
+    "metadata_sha256": "612f736cf645ad1a69014fc4745d8a48063318ad26d610280ee83b46b3dc1757",
+    "structure_sha256": "acaf5184a43c0cbd5da5916b561d8393ff8fc065b2004417871e7c93b73e9d34",
+    "text_sha256": "134a50979fb552ca2751adabdef2270b77362a5f70b1cc7f3acf9ee86d941f55",
+    "translation_metadata_sha256": "86e426e903e5a5e27342425be3c26476f3dd3db5bc72d017b812d08015e6de94"
+  },
+  "html": "<article data-article-id=\"1d59cd59-7b38-4c1e-84bd-30f9e66de33a\">\n<figure>\n<img src=\"/images/articles/1d59cd59-7b38-4c1e-84bd-30f9e66de33a-1.jpeg\" alt=\"A man seated at a desk beside a window\">\n</figure>\n<p class=\"drop-cap\">God bless each of you as you receive this issue of <em>The Heartbeat of the Remnant.</em> May God speak to you as you read through this issue. I thought I might take this opportunity to share an interesting discovery I recently made—kind-of a funny one, actually. For the last few years I have been purchasing and borrowing old books to consider for possible use in the <em>Remnant</em> magazine. These books are a blessing for many reasons. For one, I find their theology and general piety much less stained by the world and much more Christ-exalting. Also, since many of these hundred-year-old books are no longer copyrighted, it makes them easier to reprint. But lately I have noticed something. Every time I pick up one of these old books up I begin to get itchy and even break out in hives on several places, particularly on my cheeks and hands. I dismissed it for a while but I finally made the startling discovery—I’m allergic to old books! The actual culprit is probably dust mites, in reality, but it made me ask the Lord what was He saying in all of this. I felt perhaps He was leading me to bring the articles and art work more to date a little bit—while still lifting up and examining the faith of those who have gone before us, taking more effort to find those examples of radical faith and pure worship around us, and tell how it is lived out today practically in real lives. So, if you have any testimonies, digital pictures, or original drawings feel free to send them along. I could use anything. Especially useful would be pictures of real church life, i.e. brothers preaching, baptisms, fellowship times, church work days, etc. As always, pictures of family worship or children working, playing or homeschooling would be most appreciated. For those of you who love the old articles, don’t worry, I’m not finished with them yet… I’ll just have to wear something like a surgical mask and gown!</p>\n<p><em>--Your brother, Dean Taylor</em></p>\n<table>\n<tbody>\n<tr><th scope=\"row\">01/01/07 Beginning Balance</th><td><strong>$26,566.22</strong></td></tr>\n<tr><th colspan=\"2\">Receipts</th></tr>\n<tr><td>Tape Ministry Donations</td><td>$29,853.97</td></tr>\n<tr><td>Remnant Subscription Donations</td><td>$7,366.13</td></tr>\n<tr><th scope=\"row\">Total Receipts</th><td><strong>$37,220.10</strong></td></tr>\n<tr><th colspan=\"2\">Disbursements</th></tr>\n<tr><td>UPS &amp; Postage</td><td>$4,775.80</td></tr>\n<tr><td>Tapes, Albums, CD’s &amp; Labels</td><td>$9,486.82</td></tr>\n<tr><td>Equipment &amp; Software Purchases</td><td>$365.44</td></tr>\n<tr><td>Equipment Maint &amp; Repairs</td><td>$225.51</td></tr>\n<tr><td>Mailing &amp; Office Supplies</td><td>$615.99</td></tr>\n<tr><td>Rent</td><td>$2,250.00</td></tr>\n<tr><td>Telephone</td><td>$970.97</td></tr>\n<tr><td>Website Development &amp; Maintenance</td><td>$510.22</td></tr>\n<tr><td>Building Improvements</td><td>$0.00</td></tr>\n<tr><td>Miscellaneous</td><td>$824.62</td></tr>\n<tr><td>Payroll Expense</td><td>$18,560.01</td></tr>\n<tr><td>Books &amp; Catalogs</td><td>$3,619.00</td></tr>\n<tr><td>Remnant Publishing &amp; Mailing</td><td>$5,895.23</td></tr>\n<tr><th scope=\"row\">Total Disbursements</th><td><strong>$48,099.61</strong></td></tr>\n<tr><th scope=\"row\">03/31/07 Ending Balance</th><td><strong>$15,686.71</strong></td></tr>\n<tr><th scope=\"row\">Difference</th><td><strong>-$10,879.51</strong></td></tr>\n</tbody>\n</table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2fdbb8f51ef5b241daf54ec2cf8ea5f73a974a7641036b021c8c4dfb42583e15"
+}

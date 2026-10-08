@@ -1,0 +1,95 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "Again,\n“Thank You”,\nBro. Denny"
+    },
+    "categories": {
+      "additional": [
+        "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "ddbb14ba-ce9d-465c-b584-b8c824f7c522",
+    "images": [
+      {
+        "alt": "An audio cassette.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-1.png",
+        "repository_path": "public/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-1.png",
+        "rights_note": "Original grayscale JPEG PDF object 92 decoded and rotated 15 degrees counterclockwise to preserve the printed orientation; RGB PNG output retains the full image at original useful resolution. The separate title border, financial panels and page furniture are omitted. No image-specific credit or licence is supplied; the masthead’s general stock-image credit cannot be assigned to an individual asset.",
+        "role": "report illustration",
+        "sequence": 1,
+        "source_page": 26,
+        "transformation": "PDF image object 92; deterministic rotation 15 degrees counterclockwise on white canvas; no crop or retouching.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "The Remnant magazine cover showing a lamb.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-2.png",
+        "repository_path": "public/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-2.png",
+        "rights_note": "Original grayscale JPEG PDF object 91 decoded and rotated 12.724 degrees clockwise to preserve the printed orientation; RGB PNG output retains the full image at original useful resolution. The separate title border, financial panels and page furniture are omitted. No image-specific credit or licence is supplied; the masthead’s general stock-image credit cannot be assigned to an individual asset.",
+        "role": "report illustration",
+        "sequence": 2,
+        "source_page": 26,
+        "transformation": "PDF image object 91; deterministic rotation 12.724 degrees clockwise on white canvas; no crop or retouching.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and full raster readback passed.",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg",
+            "ImageMagick"
+          ],
+          "independent_image_review": "A second AI reader compared the final image with its source page, raw PDF object and published clipping. Centre, edges and corners were checked; all removable overlays are omitted and unavoidable source limitations are documented.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 26,
+      "start": 26
+    },
+    "subtitle": "2003 Year End Financial Report",
+    "title": "Charity Gospel Tape Ministry & The Heartbeat of The Remnant",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "508abd40ea14ac0a3ed357a25a9439efb1768bb32522d0f7fa698fb811da42f2",
+    "metadata_sha256": "278a50a87c0fc6f107f411cda49b846698b8759c6650b15a8c2ab3ebc64e1034",
+    "structure_sha256": "5ce85b449e3e87e63237724fbc058127d5277eaa812140ebe36bdc8406af73f4",
+    "text_sha256": "35201361ad30c77b61c7f14bd3c8597184682a9a887d761a07482c1ada096092",
+    "translation_metadata_sha256": "baa28179e1264ecdd512413f15e8a5d92b5c4ca1f966fc15286706446afa6010"
+  },
+  "html": "<article data-article-id=\"ddbb14ba-ce9d-465c-b584-b8c824f7c522\">\n  <figure><img src=\"/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-1.png\" alt=\"An audio cassette.\"></figure>\n  <figure><img src=\"/images/articles/ddbb14ba-ce9d-465c-b584-b8c824f7c522-2.png\" alt=\"The Remnant magazine cover showing a lamb.\"></figure>\n  <p>Dear supporting brothers and sisters, greetings in the worthy name that is above every name—the name of Jesus Christ.</p>\n  <p>Well, it is the end of another year of blessings and challenges. God is, as always, faithful. He has once again been very good to us here at Charity Ministries. I want to take a moment and reflect with you.</p>\n  <p>My heart overflows with gratitude as I ponder all the ways you have supported the work through this last year. I know that many prayers have been prayed, and we have felt and seen the affects of those prayers—thank you! Many of you have helped financially—thank you! Many of you have sent in letters of encouragement, articles for the Remnant, and helpful suggestions—thank you!</p>\n  <p>We at Charity Ministries feel we have had the best year ever in so many ways. You can see from the financial report and the statistics that the work is still expanding. Bro. Mark Brubaker and his family have blessed the ministry here in more ways than can be written. I want to draw your attention to a few points of interest on the reports.</p>\n  <table>\n    <tbody>\n      <tr><th scope=\"row\">01/01/03 Beginning Balance</th><td><strong>$11,822.54</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$241,000.00</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$33,000.00</td></tr>\n      <tr><td>Church Offerings and Local Support</td><td>$81,328.82</td></tr>\n      <tr><th scope=\"row\">Total Receipts</th><td><strong>$355,328.82</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$33,562.38</td></tr>\n      <tr><td>Tapes, CD’s, Albums &amp; Labels</td><td>$165,990.79</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$6,949.68</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$4,637.32</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$10,712.94</td></tr>\n      <tr><td>Rent, Housing &amp; Electric</td><td>$8,350.00</td></tr>\n      <tr><td>Telephone</td><td>$4,518.86</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$1,807.76</td></tr>\n      <tr><td>Miscellaneous</td><td>$2,551.01</td></tr>\n      <tr><td>Payroll Expense</td><td>$43,130.04</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$6,602.94</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$31,487.96</td></tr>\n      <tr><th scope=\"row\">Total Disbursements</th><td><strong>$320,301.68</strong></td></tr>\n      <tr><th scope=\"row\">12/31/03 Ending Balance</th><td><strong>$46,849.68</strong></td></tr>\n      <tr><th scope=\"row\">Difference</th><td><strong>$35,027.14</strong></td></tr>\n    </tbody>\n  </table>\n  <p>First of all, we have a nice positive balance at the end of this year. Praise God for His faithfulness. He truly is a provider. (Please Note: the ending balance on this report may be off since we made it a few days before the end of the year.) Another area that I would like you to consider is the donation figures. Three-fourths of the donations came from you. We have never had this high percentage of donations from the tape ministry family. Thank You, Thank You, Thank You! Lastly, I want you to notice that the Remnant subscription donations are larger than the Remnant publishing and mailing expenses. Thank you for your help.</p>\n  <p>I want to finish with a bit of reality as we look down the road of 2004. We are almost out of the 5,000 sets of Godly Home tapes ordered in April. This means we must order again in about two weeks. This is a very large expense and almost buried us the last time we ordered them. 5,000 sets will be 80,000 tapes. This is a lot of money.</p>\n  <p>Please remember us in this crucial time at the beginning of the new year.</p>\n  <p><em>Again,<br>“Thank You”,<br>Bro. Denny</em></p>\n  <table>\n    <thead><tr><th></th><th scope=\"col\">1999</th><th scope=\"col\">2000</th><th scope=\"col\">2001</th><th scope=\"col\">2002</th><th scope=\"col\">2003*</th></tr></thead>\n    <tbody>\n      <tr><td>Approx. Tapes Made</td><td>120,000</td><td>170,000</td><td>150,000</td><td>215,000</td><td>250,000</td></tr>\n      <tr><td>Approx. Sets Made</td><td>8,506</td><td>14,281</td><td>9,906</td><td>19,394</td><td>21,800</td></tr>\n      <tr><td>Orders Shipped</td><td>3,518</td><td>4,257</td><td>4,878</td><td>7,146</td><td>8,300</td></tr>\n      <tr><td>First Time Orders</td><td>1,392</td><td>1588</td><td>1,889</td><td>2,395</td><td>2,958</td></tr>\n      <tr><td>Weekly Tape Subscriptions</td><td>159</td><td>156</td><td>162</td><td>192</td><td>162</td></tr>\n      <tr><td>Remnant Subscriptions</td><td></td><td>4,303</td><td>4,931</td><td>3,822</td><td>4,061</td></tr>\n      <tr><td>Mission Newsletters Subscription</td><td></td><td>4,332</td><td>4,929</td><td>3,908</td><td>3,950</td></tr>\n      <tr><td>800 Calls</td><td></td><td></td><td>5,433</td><td>6,711</td><td>5,878</td></tr>\n    </tbody>\n  </table>\n  <section class=\"footnotes\"><p><em>*Figures are approximate</em></p></section>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "9de452cef2dd48a4d8224d59bf72955f8a15fcc687d66959efa0037f318f4149"
+}

@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Editor",
+          "role": null
+        }
+      ],
+      "raw": "The Editor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "ba7f20c3-2e74-4b84-a54c-50d79e57354d",
+    "images": [
+      {
+        "alt": "A cross above a globe.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-1.jpg",
+        "repository_path": "public/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-1.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Reconstructed clean base JPEG xref 107 with the published rotation and clipping path. The separate gray frame/shadow raster xref 106 and separately painted magazine typography were omitted. Baseline RGB JPEG at 72 dpi; no synthesis of hidden pixels.",
+        "role": "magazine illustration",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": "Source-only PDF rendering at 72 dpi retaining the original xref 107 placement matrix and polygon clip, about 12.74 degrees clockwise."
+      },
+      {
+        "alt": "An audio cassette.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-2.jpg",
+        "repository_path": "public/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-2.jpg",
+        "rights_note": "The issue masthead states “Some images © 2001-2002 www.arttoday.com” but does not identify individual assets; no asset-specific credit or licence is stated. Reconstructed clean base JPEG xref 108 with its published rotation. Separate gray backing panel omitted. Baseline RGB JPEG at 72 dpi.",
+        "role": "tape ministry illustration",
+        "sequence": 2,
+        "source_page": 22,
+        "transformation": "Source-only PDF rendering at 72 dpi retaining the original xref 108 placement matrix, about 15 degrees counterclockwise."
+      }
+    ],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": "July-September 2002 Financial Report",
+    "title": "Charity Gospel Tape Ministry & The Heartbeat of The Remnant",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "4a9e32d1e876461b83b02b3f32bacbc0e22fc630d156f4a5bc4323a9fe5afd54",
+    "metadata_sha256": "6752c60ea13e58567889f447c8b30a2fc6b6890f356006ef7bc574e6c4a05f69",
+    "structure_sha256": "34a2b0eb479b295f32b219fe74f3ebb5e2ad8a75e985fd76afd7df0db8f99fdb",
+    "text_sha256": "c2cb436f71c548ef5f5c36c76725d54d222a68bada4c2db71945cc5baf3373c6",
+    "translation_metadata_sha256": "8c1f09bc17a5ad52dffaaf6c6b83425ecac78c02321f0f61a0a192b6a4d7f753"
+  },
+  "html": "<article data-article-id=\"ba7f20c3-2e74-4b84-a54c-50d79e57354d\">\n  <figure>\n    <img src=\"/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-1.jpg\" alt=\"A cross above a globe.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/ba7f20c3-2e74-4b84-a54c-50d79e57354d-2.jpg\" alt=\"An audio cassette.\">\n  </figure>\n  <h2>A Prayer for All Our Supporters</h2>\n  <p>Dear Heavenly Father, in Jesus name I pray for all the dear brothers and sisters who support this ministry. They have given, Lord. Give to them spiritual blessings, a good measure, pressed down, shaken together and running over. Father, they are cheerful givers. Give them the promise that Paul wrote to the Corinthians. Make all grace abound toward them, that they may always have all sufficiency in all things. Let them abound with grace to every good work. They have dispersed abroad and given to the poor. Let their righteousness remain forever and increase the fruits thereof in each one of their lives.</p>\n  <p>In Jesus Christ’s Name,<br>The Editor</p>\n  <table>\n    <tbody>\n      <tr><th>07/01/02 Beginning Balance</th><td><strong>$1,123.35</strong></td></tr>\n      <tr><th colspan=\"2\">Receipts</th></tr>\n      <tr><td>Tape Ministry Donations</td><td>$56,567.63</td></tr>\n      <tr><td>Remnant Subscription Donations</td><td>$9,487.28</td></tr>\n      <tr><th>Total Receipts</th><td><strong>$66,054.91</strong></td></tr>\n      <tr><th colspan=\"2\">Disbursements</th></tr>\n      <tr><td>UPS &amp; Postage</td><td>$6,839.85</td></tr>\n      <tr><td>Tapes, Albums &amp; Labels</td><td>$28,999.48</td></tr>\n      <tr><td>Equipment &amp; Software Purchases</td><td>$1,247.96</td></tr>\n      <tr><td>Equipment Maint &amp; Repairs</td><td>$2,012.79</td></tr>\n      <tr><td>Mailing &amp; Office Supplies</td><td>$1,543.64</td></tr>\n      <tr><td>Rent, Housing &amp; Electric</td><td>$3,837.50</td></tr>\n      <tr><td>Telephone</td><td>$1,359.85</td></tr>\n      <tr><td>Website Development &amp; Maintenance</td><td>$449.01</td></tr>\n      <tr><td>Miscellaneous</td><td>$74.29</td></tr>\n      <tr><td>Payroll Expense</td><td>$9,800.01</td></tr>\n      <tr><td>Books &amp; Catalogs</td><td>$275.55</td></tr>\n      <tr><td>Remnant Publishing &amp; Mailing</td><td>$10,941.43</td></tr>\n      <tr><th>Total Disbursements</th><td><strong>$67,381.36</strong></td></tr>\n      <tr><th>09/30/02 Ending Balance</th><td><strong>-$203.10</strong></td></tr>\n      <tr><th>Difference</th><td><strong>-$1,326.45</strong></td></tr>\n    </tbody>\n  </table>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3560eb45c62f5dffc86be1d1141cd00d847d70b137732715ce289cc597f91c92"
+}

@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "fdc7d2ee-fd45-42df-a6b0-b30f2747f450",
+    "images": [
+      {
+        "alt": "Cartoon illustration of Moses holding a staff.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-1.png",
+        "repository_path": "public/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-1.png",
+        "rights_note": "PDF base image object 65; source 143×201 pixels. Published full base composition and orientation retained. Lossless PNG export. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 14
+      },
+      {
+        "alt": "Illustration of a bearded man seated on a rock.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-2.png",
+        "repository_path": "public/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-2.png",
+        "rights_note": "PDF base image object 66; source 145×239 pixels. Published PDF clipping path applied as a lossless alpha mask at native pixel dimensions; no rotation or flip. Separately painted border/frame omitted. Lossless PNG export. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 14
+      }
+    ],
+    "issue_id": "472c9f50-2e8f-460e-8a99-0b7e48a24ab8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "WHAT KIND OF MOSES?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "cc74358b872b1fb554ab2e884e6d93249d4170f8f0d1a33d79c01a0c238c826a",
+    "metadata_sha256": "b508323e2dd18eb45dea1aacc076503d4081e8f9b297cb8d3457eb13df1350df",
+    "structure_sha256": "763d8adf5bef34f334f33818c1d692b37f60102863115710692e78da3722f27b",
+    "text_sha256": "dd92378c1b414c27076b36d3687a113edd3b0d4f599e62cf528ddf7a0e7f0f89",
+    "translation_metadata_sha256": "141c7b463f7d5de677fbd1ba7af04a8dae6be7a61db474d36902c8efcac7e9c3"
+  },
+  "html": "<article data-article-id=\"fdc7d2ee-fd45-42df-a6b0-b30f2747f450\">\n  <figure><img src=\"/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-1.png\" alt=\"Cartoon illustration of Moses holding a staff.\"></figure>\n  <figure><img src=\"/images/articles/fdc7d2ee-fd45-42df-a6b0-b30f2747f450-2.png\" alt=\"Illustration of a bearded man seated on a rock.\"></figure>\n  <p>In this modern day, everyone seems to think that the silly and the cute is the best way to teach children. Please stop and ponder what we are doing. What kind of Moses do you want your children to remember? Which one is most biblically correct? Are we diluting the power and example of Bible characters when we put them in cartoon form? Let us strive for the things that are excellent.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "11f472753a8381077952d8d77ae7faf4e7496949fab6b57ca384c059680680c3"
+}

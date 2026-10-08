@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "45998e60-55d7-45df-b2d8-d42558132407",
+    "images": [
+      {
+        "alt": "A roadside mailbox bearing the magazine’s mailing address",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/45998e60-55d7-45df-b2d8-d42558132407-1.jpg",
+        "repository_path": "public/images/articles/45998e60-55d7-45df-b2d8-d42558132407-1.jpg",
+        "rights_note": "Original embedded image object 133 on printed page 34. No separate image credit or image-specific permission requirement is printed. The sole raster includes the section title and faded reading panel. A useful unobstructed mailbox crop omits both baked treatments. Address lettering on the mailbox is intrinsic to the source raster and is retained. No pixels were synthesized. Separately painted page typography, panels, rules, running headers/footers and repeated pull quotes are omitted. Source image dictionaries, resources, paint order and clipping were inspected: no image soft mask, opacity blend or transparency group. Converted from source grayscale to baseline sRGB JPEG with embedded sRGB profile and nonzero 300 dpi density; no CMYK inversion. No material retouching or synthetic content. Complete Pillow and FFmpeg decodes, ImageMagick colour/container checks and Skia Canvas rendering passed.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 34,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            500,
+            225
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop",
+          "output_dimensions": [
+            500,
+            225
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1050,
+            522
+          ],
+          "source_object": 133
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Precious Letters from Our Readers",
+    "topics": [
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5f2bda6522d3a09526cf17d050274ac4ec4aea7572923b6346eeafa109414041",
+    "metadata_sha256": "6b8e9e7c66e022d1acfad0cea6e494c43d05c8eaddd49785d410b9fb069ff710",
+    "structure_sha256": "98971bd4189a6780e1afd6bce6ef313ae80e62793dd5e2c5e4553caf8eb4df98",
+    "text_sha256": "8825d26bb1270a6a50307fd7df2cbc25f95d0a443c88b6278b14fb84b9fe08e9",
+    "translation_metadata_sha256": "da072f96e61ee68e124446ea5a9ad638f22146739724a6afe385d6beef3f5f53"
+  },
+  "html": "<article data-article-id=\"45998e60-55d7-45df-b2d8-d42558132407\">\n  <figure>\n    <img src=\"/images/articles/45998e60-55d7-45df-b2d8-d42558132407-1.jpg\" alt=\"A roadside mailbox bearing the magazine’s mailing address\">\n  </figure>\n  <p><strong>We thank God for the letters of counsel and encouragement we have received. It is the only way we can evaluate our progress. Keep them coming. Our desire is to foster a free flow of edification, inspiration and burden from us to you, and you to us. This way we can pass some of the blessings on to the others who are reading. Send us a testimony for “The Blessing Corner” of God’s blessing in some area of obedience, or a question that can be answered to the edification of all, or an area of spiritual growth, or a word of encouragement or counsel about <em>The Remnant</em> or any section of it.</strong></p>\n  <p><strong>Editors note:</strong> In the last issue A few from the local congregation raised a concern concerning the article “But Ye Are A Chosen Generation” by A. B. Simpson. In this article Simpson said “The word ‘ecclesia,’ or ‘church,’ means ‘called out,’ but God is calling out a still more select body from the church to be His bride”. The objection was that they felt that this teaching diminishing the doctrine of the Church. They said that they felt that if a person was saved than he was a part of the bride. They did not see room in the Scriptures for two levels of Christianity.</p>\n  <p><strong>Editor’s Response:</strong> I’m not sure that this is completely what Simpson believed but I still feel they have a good point. It is difficult for Christendom today to reconcile the “easy believeism” offered in the average churches with the very dichotomous, black-and-white statements about salvation from the scriptures. As Jesus said <em>“Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat: Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.”</em> (Matt 7:13-14) Making up a pretended “higher” or “deeper” life to explain away nominal Christianity is a dangerous teaching. His salvation is free but His grace is real and it is guaranteed to change your life. At the end of the Bible we read these beautiful <em>words “And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be. I am Alpha and Omega, the beginning and the end, the first and the last. Blessed are they that do his commandments, that they may have right to the tree of life, and may enter in through the gates into the city. For without are dogs, and sorcerers, and whoremongers, and murderers, and idolaters, and whosoever loveth and maketh a lie. I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright and morning star. And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely.”</em> (Rev 22:12-17)</p>\n  <hr>\n  <p>The article in the most recent Remnant concerning the sacredness and permanence of marriage was a blessing to me. The fresh material was encouraging to see. There are so many out there who sense God drawing them to a deeper walk of obedience to His Word in practical life. They start having more children, they home school, they dress modestly, and some of them even cover their heads. Finally they come across this teaching and they have to deal with it. Some skirt around it and don’t get anywhere spiritually; they are just conservative nominal Christians or they get caught up by the spirit of homesteading or something similar. Others run up against it and completely reject it and in time turn around heading back to what they came from. Many of them have large families before they get this far. There are a few others, though, who see it and it pricks their heart. They see the sin and cannot go on living in it.</p>\n  <p>I began to see the truth but my emotions/feelings were strong. No one understood because they had no idea what it was like to walk away from someone I loved and who wanted me. It did seem to be quite a paradox. However, when I saw it more from God’s view it changed things. Obviously, I didn’t do it knowingly. Nonetheless, looking back, I see where there were some warnings that I did not perceive. I was guilty.</p>\n  <p>I remember the turmoil well. I remember the pain and the grieving. I remember when it began to dawn on me that it wasn’t only wrong but that he was actually another woman’s husband- whether she wanted him or not. I wouldn’t want to take a husband from any sister at church or from a neighbor or friend. What was the difference if it was the husband of someone I didn’t know? At that point I began to view it all differently. He was no longer the one I loved that I couldn’t be with. He was another woman’s husband. I began to repent of the gross immorality that I had lived in and had harbored in my heart. God, in His great mercy to me, has set me free. I have no regrets. The grace of God is sufficient even if I don’t get a hold of it. However, I am learning to do that more proficiently.</p>\n  <p>As time has passed and I look back I see more clearly the situation and how my Savior sees it. How brazen of me! What a shameless posture of heart! What defiance to God’s beautiful plan! What audacity to live with another woman’s husband and love him! How I thank God for his great mercy toward me.</p>\n  <p><em>Ephrata, PA</em></p>\n  <hr>\n  <p>Dear Sir or Madam,</p>\n  <p>Hello, I am very encouraged by your website and your lovely Magazine which you send out to us thank you so much for doing so. May God bless you all greatly and bless the works of your hands I wondered if your ladies wear the head covering always or only just in worship, as in your magazines I saw that the ladies in the “My journey to non resistance “ article were not wearing a head covering. I think its a wonderful thing to wear the head covering always as I think it separates believer women from non believing women and is a sign of holiness and a kind of protection as non believing men find it difficult to harass a woman with head covering and generally leave such women alone plus its a great witness to the faith. I believe the head covering is a real witness and encouragement to believers in the lord and you will never know how much I was encouraged to find out that you believed in the head covering when I first found out about your website, as I was actually beginning to believe that I was amongst one of the only people in the world who wore a head covering as none of the churches in my area in London believe in it. Please keep up the head covering , its a great thing to do and I believe its of God. Many blessings to you all and your ministry. God bless you</p>\n  <p><em>London, England</em></p>\n  <p><strong>Editor’s reply:</strong> Yes, our ladies do wear the head covering all the time. I have heard countless testimonies of ladies like you who give glory to God for revealing this lost practice to them. The testimonies I have heard have usually spoken of a sense of relief and freedom from the world’s fashions and pomp. In saying this we also strive not to take it out of balance, our salvation is in Christ alone. We rejoice as He grafts His Word and teachings into our life.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "485e9ae29aeeb8a6ad0e132bc6ee6ccb4a85e9b0d139c94405d0a1aabcf8a4e6"
+}

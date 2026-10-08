@@ -1,0 +1,132 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "f9e90d80-97dc-4297-b786-b6a3f7e4fed4",
+    "images": [
+      {
+        "alt": "A chain with large oval links.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-1.png",
+        "repository_path": "public/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-1.png",
+        "rights_note": "Original lossless grayscale chain artwork object 82. Its uniform gray ground is baked into this only raster; no separate mask or original white-ground asset exists, and the exact original blend cannot be established. The printed gray ground is retained; separate heading typography, panel and shadow are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 23,
+        "transformation": {
+          "color_encoding": "Grayscale",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch.",
+          "output_dimensions": [
+            466,
+            209
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            466,
+            209
+          ],
+          "source_object": 82,
+          "unavoidable_flattened_overlays": [
+            "source gray ground"
+          ]
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "Grayscale",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A blacksmith raising a hammer over an anvil.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-2.jpg",
+        "repository_path": "public/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-2.jpg",
+        "rights_note": "Original grayscale blacksmith artwork object 81. Its gray ground is baked into this only raster; no separate mask or original white-ground asset exists, and the exact original blend cannot be established. The printed gray ground is retained; separate article text, panel and shadow are omitted. No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 23,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded image pixels; no crop or retouch. Baseline RGB/sRGB JPEG encoding, quality 95, 4:4:4, nonzero 72 dpi density.",
+          "output_dimensions": [
+            361,
+            450
+          ],
+          "repeated_source_pages": [],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            361,
+            450
+          ],
+          "source_object": 81,
+          "unavoidable_flattened_overlays": [
+            "source gray ground"
+          ]
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; rendered raster visually inspected.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset at full useful resolution and compared it with the raw source object and every relevant rendered source page. Composition, complete subjects, crop, orientation, colour and overlay disposition match; documented source effects and intrinsic markings are retained.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image and rendered PDF; centre, edges and corners checked. No removable layout overlay remains; baked-source exceptions are documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "31ff8309-abc1-4f84-895f-360ca46feb05",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 23
+    },
+    "subtitle": null,
+    "title": "Bound by Chains",
+    "topics": [
+      "eaf5d08b-c212-52ed-88d7-9c629b0f7262",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "01fffdd2368ae65bf6bba01b45d160bdbe321809fd5b9f50749581a95cd17022",
+    "metadata_sha256": "cb33a7e029d6d422ab96a5a7840d1163bef0d1d02ee08c218a0534d8cf2efe1a",
+    "structure_sha256": "bcb961592c12d782210e80dff7238a2ae5986d204bce599b63317993f7ee8e2e",
+    "text_sha256": "ae2abf1022b3b68d563be3fc0be0962f2fbdb6b654276fd923f10e86ca434a66",
+    "translation_metadata_sha256": "ec9c75b99746df67798005f87745fb94b28e635e9ddaa9178bd6be0bfd4e559e"
+  },
+  "html": "<article data-article-id=\"f9e90d80-97dc-4297-b786-b6a3f7e4fed4\">\n  <figure>\n    <img src=\"/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-1.png\" alt=\"A chain with large oval links.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/f9e90d80-97dc-4297-b786-b6a3f7e4fed4-2.jpg\" alt=\"A blacksmith raising a hammer over an anvil.\">\n  </figure>\n  <p>It is told of a famous blacksmith of mediaeval times, that having been taken prisoner and immured in a dungeon, he conceived the idea of escaping, and began to examine the chain that bound him, with a view to discover some flaw that might make it easier to be broken. His hope was vain, for he found, from marks upon it, that it was one of his own workmanship, and it had always been his boast that none could ever break a chain that he had forged. And now it was his own chain that bound him!</p>\n  <p>It is thus with the sinner. His own hands have forged the chain that binds him—a chain that no human hand can break. There is only one way of deliverance. Jesus can break the chains—Jesus alone! Seek His help in your need.</p>\n  <p class=\"poem\"><em>He breaks the power of cancelled sin,<br>\n  He sets the prisoner free;<br>\n  His blood can make the foulest clean,<br>\n  His blood avails for me.</em></p>\n  <p><em>If the Son therefore shall make you free, ye shall be free indeed.</em> John 8:36</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "c2432f660faa91ecbf95ae10b93e547b97fff6a2e510707efb2ffc899d99dcbf"
+}

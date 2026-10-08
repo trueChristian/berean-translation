@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Editor",
+          "role": null
+        }
+      ],
+      "raw": "–The Editor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "e5c92b58-95e2-457f-9b7a-94930ec1499e",
+    "images": [],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "Warnings about C.S. Lewis...",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "df880cef56e62f2e13040c368c82556a39cad0f98f018a54e0b3e78109f71dce",
+    "metadata_sha256": "ebcd394a73c4167d4dc31da2bb262e355b66b88b3fe655df470acefb522409df",
+    "structure_sha256": "51172d7e0c2e811d919101b2399fbed9749605c6af3e25f60ee8ae186ec550c4",
+    "text_sha256": "64df8ac5dd939b15636ae7db75a4ac126de62d8a80dd20d124664bc6b7e25b81",
+    "translation_metadata_sha256": "69929581ff21fdbc8cf0d7b84d380e8a653c4171757cad23a539557d0a4f672c"
+  },
+  "html": "<article data-article-id=\"e5c92b58-95e2-457f-9b7a-94930ec1499e\">\n  <p>The following information was gleaned from an article found in the July/August issue of <em>The FCM Informer</em>. I have never felt good about this author, C.S. Lewis, but could not tell you why. Something just didn’t ring clear and true to me. I have cringed many times as I realized how many of God’s people were reading hours and hours of his writings. Please beware of the dangers of allowing our children to read the fantasy stories that even the world are running after.</p>\n  <p>Lewis revealed his very loose view of Christianity in his Book <em>Mere Christianity</em>. He wrote, <em>“There are people in other religions who are being led by God’s secret influence to concentrate on those parts of their religion which are in agreement with Christianity, and who thus belong to Christ without knowing it.”</em></p>\n  <p>He converted to Anglicanism, and later even turned toward the Roman Catholic church. He went to a priest regularly for confession, and received extreme unction at his death in 1963.</p>\n  <p>He believed in purgatory, and in praying for the dead.</p>\n  <p>He did not believe in a literal Hell, the historicity of the Book of Job, or the inspiration of the Bible. He didn’t believe in the depravity of man.</p>\n  <p>He believed in theistic evolution, which is a mixture of evolution and the Bible account of Creation.</p>\n  <p>There are dangerous implications concerning the occult in his Narnia series. This series makes up half of all his books sold each year. He spoke with deep respect for Pagan myths, and for the myths in the Holy Scripture.</p>\n  <p><em>Media Spotlight</em> reported that <em>The Chronicles of Narnia</em> is recommended by the producers of <em>Dungeons and Dragons</em>.</p>\n  <p>Dear brothers and fathers, let us sanctify our libraries of all that would poison the precious pure minds of our children. <em>–The Editor</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ec1e56a4444537f78b8547f785fb4d311db9c82ee060ab3ed3979da8a56b46ba"
+}

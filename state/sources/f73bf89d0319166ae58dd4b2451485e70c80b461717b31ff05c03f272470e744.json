@@ -1,0 +1,99 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "e3722d8a-3c6d-4420-a813-6c42cb460570",
+    "images": [
+      {
+        "alt": "Illustration of a person scattering seed in a field",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-1.jpg",
+        "repository_path": "public/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-1.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. The p31 /Separation /Black source image was rendered from its exact PDF image rectangle at 150 dpi through the printed tint into RGB, then adjusted by one pixel to the native 360×417 dimensions; the resulting tone visually matches the printed page without text overlays.",
+        "role": "opening sower illustration",
+        "sequence": 1,
+        "source_page": 31
+      },
+      {
+        "alt": "Improvised shelter beside the Rimac River in Lima",
+        "caption": "Some 2,000 children live in improvised shelters like this one along the Rimac River that flows through Lima, Peru. In the bottom photo (and the front cover), Chris Armstrong shares a snack with the boys and the one 9-year-old girl (in blue on cover photo) that lived with them.",
+        "credit": null,
+        "public_path": "/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-2.jpg",
+        "repository_path": "public/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-2.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean riverbank photo; the printed caption appears to describe the lower photo differently, and is retained unchanged.",
+        "role": "riverbank photograph",
+        "sequence": 2,
+        "source_page": 32
+      },
+      {
+        "alt": "Children beneath a shelter beside a rocky riverbank",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-3.jpg",
+        "repository_path": "public/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-3.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean distinct second shelter view.",
+        "role": "second shelter photograph",
+        "sequence": 3,
+        "source_page": 32
+      },
+      {
+        "alt": "Three children standing near the river in Lima",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-4.jpg",
+        "repository_path": "public/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-4.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Three exact PDF photo tiles reassembled at their published coordinates; separately painted scripture quotation is HTML text.",
+        "role": "children photograph",
+        "sequence": 4,
+        "source_page": 33
+      },
+      {
+        "alt": "Chris Armstrong with Angélica and Enrique outside their chapel",
+        "caption": "Chris, his wife Angélica, and their adopted son, Enrique, in front of the chapel where they have Sunday School for about 40-50 children from their community.",
+        "credit": null,
+        "public_path": "/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-5.jpg",
+        "repository_path": "public/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-5.jpg",
+        "rights_note": "No individual source, licence, or article-specific permission notice is printed. Exported under the publisher permission reported by the project owner. Clean source family photograph; printed caption retained.",
+        "role": "family and chapel photograph",
+        "sequence": 5,
+        "source_page": 33
+      }
+    ],
+    "issue_id": "c2131dad-e542-435d-b25f-41b6106cc717",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 31
+    },
+    "subtitle": "Seed Sower Award",
+    "title": "Seeds of the Kingdom",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "1afb2b04-7870-5ee0-b6fd-a939d3d2cd8a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f4ddcb65618dd4caf2929dc0c6529daca3a5047581c81b44eb7b532e8d4a016d",
+    "metadata_sha256": "cc81d6185d4275291573a2103400936c5dc509c751a96314c33cfceae4d5da6c",
+    "structure_sha256": "86ef6b3fc851508ab889c624809e59123701603368f9221d8ad38167ad42aaf6",
+    "text_sha256": "ca45c50b8d26572b56a00ba965bacb4ae3d0a5ee902934895d9a050ad3cb2267",
+    "translation_metadata_sha256": "8812038608588c8a8534bf5ecc40cd54986fcb72582fac708c3c2958be7d3a36"
+  },
+  "html": "<article data-article-id=\"e3722d8a-3c6d-4420-a813-6c42cb460570\">\n  <figure>\n    <img src=\"/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-1.jpg\" alt=\"Illustration of a person scattering seed in a field\">\n  </figure>\n  <p><em>The kingdom of heaven is likened unto a man which sowed good seed in his field.</em> Matthew 13:24<br>\n  <em>And let us consider one another to provoke unto love and to good works.</em> Hebrews 10:24</p>\n  <p>In this series, we are highlighting the work of those who are currently busy introducing the seeds of righteousness, peace, and joy into this sin-filled earth, with the hopes that at least a few lives will receive the Word and be eternally changed. The purpose in turning the spotlight on these works is not to glorify those men and women who are actively advancing the kingdom of God, but rather to stimulate YOU, the reader, into doing YOUR part in YOUR corner. Neither is the purpose meant to be that of asking the readers to donate financially or personally participate in these projects, although that is certainly an option in some cases. Take these ideas, tweak them to fit your situation, and begin to plant the kingdom of God in your environs. The inclusion of any person or church in these articles is not an endorsement by <em>The Heartbeat of the Remnant</em> of every doctrine and practice that the spotlighted individuals or churches may represent in other areas of their life. As well, the spotlighted person/group may not endorse all aspects of <em>The Heartbeat of the Remnant</em>.</p>\n  <p><em>In this issue, we are going to look at the efforts of Chris Armstrong, who lives in Huaycan, Peru. Chris works as one of the distributors for Mount Zion Literature Ministry (featured in this series two issues back), but one of his main goals is to reach out to the many homeless children that live in Lima, Peru and its suburbs. The following is not a verbatim transcript of our interview with Chris, as I rearranged some of the information (and added a few details) to better organize the material for print.</em></p>\n  <p><strong>(The Heartbeat of the Remnant)</strong> Chris, can you give me a brief overview of what you are doing with the children there?</p>\n  <p><strong>(Chris Armstrong)</strong> At the moment, we have about 40-50 children here in Huaycan that come to our Sunday School. That is our focus right now. Our plan is to build an orphanage out in the jungles, close to San Ramón in the Department of Junín, about 5-6 hours from here by bus, on the other side of the Andes Mountains. We bought one lot and are planning to buy another. Our plan is to translate the children from the city to the jungle, to the community; sort of a community of children, hopefully self-supporting within a few years. We plan to raise our own food and teach the children the Bible and also trades. What we don’t want is for the children to be idle.</p>\n  <p>At the moment, we have about seven people interested in working with us. We eventually want to have up to 50 to 100 children in our little community.</p>\n  <p><strong>(THR)</strong> Are those working with you in this orphanage project Peruvian people, or Americans?</p>\n  <p><strong>(CA)</strong> They are Peruvians, and live at San Ramón. I don’t actually know very many US people, as I am a Canadian; and I don’t know much about US culture. I spent twenty years working as a missionary on an Indian reservation in northern Canada after I was converted. I have a hard time with the American system, to be honest. I live here in this slum of about 200,000 people on the east end of Lima. The city of Lima itself is very large [close to 8 million]. It is hard here, as the people only make a dollar or two a day. The children don’t really have fathers, as they leave for work in Lima at about 6:00 in the morning and get home at 11:00 at night. And the children run wild; you can imagine what it is like. Street gangs of 8- or 9-year-olds. Some of them used to attend our Sunday School, but they started fighting and left, and now they stone and egg my house, and mock me sometimes. So we have some challenges.</p>\n  <p><strong>(THR)</strong> Now the children that you are planning to take to the other side of the mountains, I assume they are orphans?</p>\n  <p><strong>(CA)</strong> Yes, they will be abandoned children. The problem here in Lima is that statistically there are about 200,000 children that work for a living, basically making their own way. Some of those are orphans, but probably most of them have a mother somewhere, although she likely has never been married. The children I am currently working with live down along the river that runs through the middle of Lima. I am talking young, like down to 6 or 5 and even 4 years of age just living along the river bank. They have some pretty serious needs. Very immoral. They have no parents. So we tell them, “We are going to take you off the streets.” They say, “That’s nice! Where is your <em>casa de refugio</em> (shelter)?” But at this point, we have to tell them that we don’t have one yet. So, we are going along, <em>poco a poco</em> (little by little) as the Lord leads. So we are doing what we can, preparing the place in San Ramón.</p>\n  <p>But it is a bit hard for me, as my book sales take a lot of time. I have about 30 bookstores I keep supplied, plus some individuals. So that takes a lot of my time at the moment.</p>\n  <p><strong>(THR)</strong> So, from what it looks like now, do you have a projected date when you can get the orphanage going over there?</p>\n  <p><strong>(CA)</strong> Well, we are working at it on a Peruvian scale, so it will be a while, but meanwhile we are doing what we can here in the city. I tried to work with some other orphanages, but they allowed TV, dancing, rock music, and would not discipline the immorality when it was caught in the home, so I had to leave. We don’t use the radio or TV, or even computer. We don’t want the children to learn from the world.</p>\n  <figure>\n    <img src=\"/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-2.jpg\" alt=\"Improvised shelter beside the Rimac River in Lima\">\n    <figcaption>Some 2,000 children live in improvised shelters like this one along the Rimac River that flows through Lima, Peru. In the bottom photo (and the front cover), Chris Armstrong shares a snack with the boys and the one 9-year-old girl (in blue on cover photo) that lived with them.</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-3.jpg\" alt=\"Children beneath a shelter beside a rocky riverbank\">\n  </figure>\n  <p><strong>(THR)</strong> Other than funds for a building, what would your biggest need be?</p>\n  <p><strong>(CA)</strong> I would say a teacher or two for the school, and maybe people with an evangelistic heart of compassion to help find the really needy children and have a transition home here in the city to prepare the children for the home. They would have to prove themselves a little before we would incorporate them from right off the street into the place in San Ramón. And, of course, praying for the children. But once the buildings are up and the place is running, I don’t see a lot of need for money to support it.</p>\n  <p><strong>(THR)</strong> Now in Bolivia where I lived for five years, we had to be careful because some mothers would want to give away their children so that they could be freed up enough to go have another party. Do you find that there?</p>\n  <p><strong>(CA)</strong> Yes. For example, an unmarried neighbor here, 19 years old, has three children already. Two of her boys are in our Sunday School. They are dirt poor, and she doesn’t really have a job. The neighbors are reporting her to the authorities for not taking care of the children. It is a hard situation.</p>\n  <p>Street children have a lot of needs, so if anyone wants to work with them, it takes a lot of patience. When I worked in one orphanage here, we would go from 7 am to midnight, full speed. The children would spit and fist fight. They would even pull a knife if they had one, and one even used a fork on me one time. One 8- or 9-year-old boy would get angry every time I talked to one of the female staff. I asked him what the problem was, and he ripped off his clothes and put them on a dog, and said, “That’s me.” The thing he was struggling with was that he lived down along the river since he was 3 or 4, and was immorally used every single day of his life since then by the teenage boys down there. It’s a challenge!</p>\n  <figure>\n    <img src=\"/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-4.jpg\" alt=\"Three children standing near the river in Lima\">\n  </figure>\n  <blockquote><p>For in thee the fatherless findeth mercy.<br>Hosea 14:3</p></blockquote>\n  <p>The children on the river inhale 65 bags daily of glue. So when we go down to the river, you have to go before 10 am, or by the end of the day they are so drugged out that it is useless to try to work with them. Boys 8 to10 years old. They are drug addicts because no one loves them they say, and they steal because no one supports them. There are no government programs to help them.</p>\n  <p><strong>(THR)</strong> One of the reasons of publishing these articles is to stir people up, to remind us that on the judgment day the sheep and the goats will be divided along the lines of how they spent their life on earth. There are a lot of Christian people who do not believe that we are going to be judged by what we did here on earth. So we want to remind people that if we don’t spend our life here blessing people, we won’t make it to heaven in the end.</p>\n  <p><strong>(CA)</strong> Well, I see that materialism is blinding the eyes of the people in North America. People tell me they believe in living humbly, and I think, “Ok, you believe in nonresistance, you are humble.” Then they invited me to the US once to speak at some meetings, and I see their houses; one of them cost more than $400,000. I have a hard time thinking that is living humbly …</p>\n  <p><strong>(THR)</strong> I have been thinking about that very thing lately, and I think that some day we are going to pay for it. I am not thinking of going to hell, although that is true also, but if time lasts, God is not going to sit back and watch one person have a $300,000 house and another not have anything. It is not right; it is unrighteousness.</p>\n  <p>May God bless you for “doing righteousness” and not shutting up your bowels of compassion (1 Jo 3:7,10,17) and using your life to spread love among the poor!</p>\n  <p>Thanks for sharing with us! ~</p>\n  <figure>\n    <img src=\"/images/articles/e3722d8a-3c6d-4420-a813-6c42cb460570-5.jpg\" alt=\"Chris Armstrong with Angélica and Enrique outside their chapel\">\n    <figcaption>Chris, his wife Angélica, and their adopted son, Enrique, in front of the chapel where they have Sunday School for about 40-50 children from their community.</figcaption>\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f6c013edb72926d2a660415f4f42f48215f6c8b068aa0bf66e6d4f2a01e508f6"
+}

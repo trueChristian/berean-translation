@@ -8,11 +8,11 @@ Target categories are disjoint. Accepted publications remain published during re
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `64ea28030e851a482123ca4c60821b9d7714265f`
+Observed English revision: `a359b1977d0bbe85d86bd2f785fdf9517f90fecf`
 
 Total target: 23340 article/language pairs. published: 2125 | unstarted: 19410 | queued: 0 | active: 331 | held without publication: 1474.
 
-Last collection: 2026-10-08T17:44:28+00:00; newly published: 1; stop reason: wait_budget_exhausted; submitted batches remaining: 4.
+Last collection: 2026-10-08T19:49:42+00:00; newly published: 0; stop reason: not recorded; submitted batches remaining: not recorded.
 
 | Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |

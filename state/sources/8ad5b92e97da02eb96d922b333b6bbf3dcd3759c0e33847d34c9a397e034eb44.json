@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rebecca Hansen"
+        }
+      ],
+      "raw": "by Rebecca Hansen"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6dab7baf-2a6c-4bc0-802c-0c738872497f",
+    "images": [
+      {
+        "alt": "Floating plants and reflections on pond water",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6dab7baf-2a6c-4bc0-802c-0c738872497f-1.jpg",
+        "repository_path": "public/images/articles/6dab7baf-2a6c-4bc0-802c-0c738872497f-1.jpg",
+        "rights_note": "PDF image object 147. Useful unobstructed source-pixel crop [38, 1040, 1312, 1687] retains pond water, floating plants and reflections below the baked poem. The crop stays within the published page bounds and omits the poem typography and separately painted mailing material. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source RGB preserved; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Of Whom the World Was Not Worthy",
+    "topics": [
+      "3aa5d6ec-22d9-58a4-be87-97523a2d558f",
+      "d98d2776-11d0-5852-be8d-67a88feaeb5e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "81b05ac78e1cdb2fc4c5536d788cd170aa21d7d1c03f304d8eefaf5483fe6e07",
+    "metadata_sha256": "451e9513e84d953e05af4ffdb1c288bd96c51d5687400382bfe3b09d56d6fe43",
+    "structure_sha256": "c24c696d99555b648e070d7ec0e5d922ac92cc2c014ab1802927253ef858e5c8",
+    "text_sha256": "9b7092b75bec28708733de60df2b09514416a8c371de73273ea40790a9d46040",
+    "translation_metadata_sha256": "dd930536c98194dcaa7387db87b9a5b30944a378aea734fbc52a1141aabbe79d"
+  },
+  "html": "<article data-article-id=\"6dab7baf-2a6c-4bc0-802c-0c738872497f\">\n<figure>\n  <img src=\"/images/articles/6dab7baf-2a6c-4bc0-802c-0c738872497f-1.jpg\" alt=\"Floating plants and reflections on pond water\">\n</figure>\n<p class=\"poem\"><strong>There are men alive on the earth today<br>Abhorred and despised by the world;<br>They live their lives in a quiet way—<br>No banners for them are unfurled.<br>They are not gifted in intellect,<br>Nor brilliant in pen or word;<br>But their faces the light of the Lord reflect<br>And their souls with His love are stirred.</strong></p>\n<p class=\"poem\"><strong>There are men who walk on the earth today<br>Who bear no distinguishing sign;<br>They work for money their bills to pay;<br>Their houses and cars are not fine;<br>They have no letters behind their name,<br>No medals upon their walls,<br>And they do not appear in earth’s halls of fame,<br>But they’re mentioned in heaven’s halls.</strong></p>\n<p class=\"poem\"><strong>In a million years, when the world has passed,<br>And with it its pomp and its pride,<br>Man’s fame and wealth will have all been cast<br>In the graves with the men who died.<br>The lofty thoughts of the very wise,<br>With their medals, will ashes be;<br>But the men with eternity in their eyes<br>Will live for eternity.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e736341f07efa368225abc49ceb011fbdd54ef720f941ca4368661fc8576507b"
+}

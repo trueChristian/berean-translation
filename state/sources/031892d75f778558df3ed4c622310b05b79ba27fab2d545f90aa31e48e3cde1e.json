@@ -1,0 +1,89 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Lee Stauffer"
+        }
+      ],
+      "raw": "Testimony by Lee Stauffer"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "1677d1d8-0762-43a5-bf08-b6008d72d56b",
+    "images": [
+      {
+        "alt": "A bearded man wearing glasses and a collared shirt",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1677d1d8-0762-43a5-bf08-b6008d72d56b-1.jpg",
+        "repository_path": "public/images/articles/1677d1d8-0762-43a5-bf08-b6008d72d56b-1.jpg",
+        "rights_note": "Clean embedded portrait object 87 exported. No crop, rotation or flip; the published lower-edge clipping is less than one source pixel and rounds to the full 409-pixel height. Section lettering, bars, page rules and running footer are separate page furniture and omitted. Raw image dictionary, page resources, paint order, rectangular clipping, and graphics state object 232 inspected. This is a single untiled DeviceGray base image with no soft mask or transparency group and no opacity/fade overlay. No image-specific credit or reuse restriction is printed. Grayscale channels expanded to RGB and saved as baseline sRGB JPEG with embedded sRGB profile, 300 dpi density, terminal EOI and no trailing bytes. Full Pillow and FFmpeg decoding passed without warnings; Skia Canvas rendering passed. Final image opened and visually compared with the rendered PDF and raw base at full useful resolution, including centre, edges and corners. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; recorded published crop only",
+          "output_dimensions": [
+            307,
+            409
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            307,
+            409
+          ],
+          "source_object": 87
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Time of Testing",
+    "topics": [
+      "be523b84-148a-5633-9947-03c7c310d50a",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2b6335d9999be29732c7bfeccf14b0916a3b4ed9e9cbf3abb0ab36aca5e16529",
+    "metadata_sha256": "c32ade1355515b1d81cf7f7e7d4fec6e2eec0f611a6efe7d42efdc9a2154fd6a",
+    "structure_sha256": "bdc915d3225f9bd90aae5f048778ef1efc54a524d86f2a2121489e95e48ee8bd",
+    "text_sha256": "4519cc237f2d462a3c62eee1a82e4ecd0993cd24fbe15987e911f85555405401",
+    "translation_metadata_sha256": "bd12db687fece5d77d3e7e8cf9a35d9e4065a96912758dfdf34d38694a544e8b"
+  },
+  "html": "<article data-article-id=\"1677d1d8-0762-43a5-bf08-b6008d72d56b\">\n  <p>Lord pierce my ear, I am your servant. I will faithfully follow and serve you the rest of my days. A free man I’ll never be. Lord I love you. You are my all in all. I surrender all. My life, my love, my all I give to you. Where you lead me I will follow. What you say I will do; where you send I will go. It’s all yours Lord, including my own life. Take it Lord, and use it; like Job of old “Though He slay me, yet will I trust Him.”</p>\n  <figure><img src=\"/images/articles/1677d1d8-0762-43a5-bf08-b6008d72d56b-1.jpg\" alt=\"A bearded man wearing glasses and a collared shirt\"></figure>\n  <p>As a single 29-year-old young man, I have prayed these kinds of prayers in commitment to God many, many times. Becoming a Christian at age of 14 and because of my church setting many times I needed to find my way alone. Having to find my way alone in the youth group and finally finding myself on the foreign mission field there were many times that God proved Himself very, very faithful. In my heart I would respond in a deeper commitment to God, yet it wasn’t always without a struggle. I would spend hours on my face before God in wrestling with the things before me. I had altar experiences of utter abandonment with God dealing with my stubborn will in my bedroom, out on the mountains, along the seashore, out in the woods, behind the barn, and yes even at church.</p>\n  <p>I can testify that a completely surrendered life to God is a blessed life filled with peace and satisfaction and yes God becomes very real and precious. In the scriptures we are given two well known accounts of people who made tremendous commitments and sacrifices yet God knows the heart of man and our words alone to Him are not enough. Often, He calls us to a trying of our commitments. Consider with me Hannah in her commitment to God found in 1 Samuel 1:11 <em>“And she vowed a vow, and said, O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life…”</em> When God fulfilled her prayer she replied <em>“For this child I prayed; and the LORD hath given me my petition which I asked of him: Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD. (27-28)</em></p>\n  <p>In Genesis God promised Abraham a son. God was faithful to His promise and gave Abraham a son. But then in chapter 22 God put Abraham to a test. <em>“And He [God] said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee to the land of Moriah, and offer him there for a burnt offering upon one of the mountains which I will tell thee of.”</em> God was pleased with how Abraham responded saying: <em>“For now I know that thou fearest God, seeing thou hast not withheld thy son, thy only son from me.”</em></p>\n  <p>Brothers and Sisters, it is very easy to say the right words and make everything appear yielded and surrendered on the outside but it is only after God has put us to the test and proved us faithful that He accepts the words of commitment we have spoken to Him. God is able to creatively and thoroughly prove our words of commitment to Him, if we allow Him.</p>\n  <h2>-- My Test --</h2>\n  <p>This is where I found myself this past year. On Saturday the 19th of April 2004 I received a certified letter. This letter was a result of having donated blood a few weeks before which I’ve done many times. The testing lab was letting me know that my blood sample had come back positive for the HIV virus that causes AIDS. They added however, that a secondary confirmatory test had been negative. The letter said that I would have to wait six months to find out whether or not I have the virus. After answering some questions they concluded I very likely don’t have it, but could not be certain.</p>\n  <p>There I sat and it seemed like God was saying “Well son, what are you going to do? This letter is a test that I have allowed and my grace will be sufficient for you, but you must bow your heart and begin living as if you had the virus.”</p>\n  <p>For a few moments there was a great struggle that went on within my heart and my flesh, then in utter brokenness I just bowed my heart and I said “Yes Lord, I accept this letter, its message and all the consequences it will bring into my life as from You. Oh—the inner strength and peace and grace that flooded my heart and being at that moment and every moment after for the next 8 months.</p>\n  <p>Never once did I have to struggle with the fear of the unknown; I just bowed my heart and said, “Yes Lord!” The following days I spent much time in soul searching. It is amazing what all can go through your heart and mind when you’re faced as a young man that your life may be cut short, you may never marry, and your life will begin to slowly just die away. Many things that had seemed so important before now were forgotten; it seemed like my whole future and all my plans, dreams, and goals just simply died! I had a great longing for heaven. The shortness and frailty of life became very real and the reality of a sure eternity was ever before me.</p>\n  <p>God began to burden my heart in a very deep way of lost souls and how short a time was left for them to be told of the Lord Jesus Christ and His life changing saving power for all men. God began to show me the kingdom of His Son the Lord Jesus in a completely new way.</p>\n  <p>As I sought the Lord in practical areas of my life, God made it very clear that I should continue doing the things I was currently involved with (work, ministry), but no major decisions or changes in any way could be made. In the area of courtship and marriage God took me to a deeper sense of yeildedness and surrender; even to completely giving up any hope of even having a family or wife of my own.</p>\n  <p>For the last almost four years of my life I have been working only part time and even that at times became challenging to remain committed to as God just kept gripping my heart with the reality of eternity during this experience. I came to love God in a much deeper way; my daily walk with Him became very real and I just longed to be in His presence forever.</p>\n  <p>With all these things in my heart I found it easier to pray, fast and intercede on behalf of others needs and struggles. I prayed, “Lord, You are truly worthy of my whole life, and I will always follow You.” 8 months later after retesting they have completely cleared me of any possibility that I have the virus.</p>\n  <p>God is faithful; He calls us unto a life of faithful commitment and full surrender to His sovereign plan to glorify His name and manifest the saving, changing power in the name and blood of Jesus Christ. Truly in humbling me, God has lifted me up and established my goings forever. (James 4:6-10)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "70826e027ff7b461a27623e13dc37b2e8bdfa925dd104ca3e9dc56630c770618"
+}

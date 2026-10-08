@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "~Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "436c4216-73af-44ee-b363-dac6656bdd1b",
+    "images": [],
+    "issue_id": "41c5b6cc-f63c-5044-a15f-dd5847aa3f25",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 9,
+      "start": 9
+    },
+    "subtitle": null,
+    "title": "There Once Was an Oyster",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "9177f39ee081919944053c46eb1075d43f1e26d482eb1a5fb2d9684a80a73bc4",
+    "metadata_sha256": "f56f12f633e7b02460d22ef7b836c86eba583cc36eb31493f9301a6e31b4fff8",
+    "structure_sha256": "92f652b12e5c489dd30fda0fef7612d5b18e5d79ba8c3e0c728b8c8ad64eac93",
+    "text_sha256": "4098a717fad40e94e85711fdd851f01a16d45d930689d85160ee31db18fdace8",
+    "translation_metadata_sha256": "b50e19a2ff337f23100e5260cdcc8b2fdeb04d1dd4f87d492bd02853a383713d"
+  },
+  "html": "<article data-article-id=\"436c4216-73af-44ee-b363-dac6656bdd1b\">\n  <p class=\"poem\"><strong>There once was an oyster</strong><br>\n    Whose story I tell,<br>\n    Who found that some sand<br>\n    Had got into his shell.</p>\n\n  <p class=\"poem\">It was only a grain,<br>\n    But it gave him great pain.<br>\n    For oysters have feelings<br>\n    Although they’re so plain.</p>\n\n  <p class=\"poem\">Now, did he berate<br>\n    The harsh workings of fate<br>\n    That had brought him<br>\n    To such a deplorable state?</p>\n\n  <p class=\"poem\">Did he curse at the government,<br>\n    Cry for election,<br>\n    And claim that the sea should<br>\n    Have given him protection?</p>\n\n  <p class=\"poem\">“No,” he said to himself<br>\n    As he lay on a shell,<br>\n    Since I cannot remove it,<br>\n    I shall try to improve it.</p>\n\n  <p class=\"poem\">Now the years have rolled around,<br>\n    As the years always do,<br>\n    And he came to his ultimate<br>\n    Destiny—stew.</p>\n\n  <p class=\"poem\">And the small grain of sand<br>\n    That had bothered him so<br>\n    Was a beautiful pearl<br>\n    All richly aglow.</p>\n\n  <p class=\"poem\">Now the tale has a moral,<br>\n    For isn’t it grand<br>\n    What an oyster can do<br>\n    With a morsel of sand?</p>\n\n  <p class=\"poem\">What couldn’t we do<br>\n    If we’d only begin<br>\n    With some of the things<br>\n    That get under our skin.</p>\n\n  <p class=\"byline\">~Author unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b7d041831ee8c55804969ca3b339cbd4823d83d92eda25174e1d1c1835bd98df"
+}

@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "4555de9e-2f32-4ab5-acc9-fe0e8394101f",
+    "images": [
+      {
+        "alt": "Lightning over a rocky shore beneath a bright light in a dark, clouded sky",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/4555de9e-2f32-4ab5-acc9-fe0e8394101f-1.jpg",
+        "repository_path": "public/images/articles/4555de9e-2f32-4ab5-acc9-fe0e8394101f-1.jpg",
+        "rights_note": "Clean RGB base PDF image object 132 (Im39), 505 × 504 pixels. Inspected page paint order, image clipping, resources and raw raster; the title (including vector-lettered Voice and Lord), scripture, green frame and mailing panel are separately painted and omitted. No text, panel, bar or fade remains in the base. Preserved source orientation and useful image extent; no rotation or flip. Original JPEG contained a trailing newline after its end marker and no JFIF density; completely decoded and re-encoded as baseline sRGB JPEG with 96 dpi density and original dimensions. No CMYK conversion or sample inversion was needed. No individual creator credit or separate reuse restriction is printed. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without assigning that credit to individual images; no individual source or licence is inferred.",
+        "role": "background illustration",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Voice of the Lord",
+    "topics": [
+      "b39a977d-c495-5061-b773-971cf4a191ce"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e000d08c71b2f0a6412db1734b177be6bd7b21e70a1c434010e2a19db09e219c",
+    "metadata_sha256": "e1c4d3948a0d834cac2b2125bc24a913a155deec5aa9d4f85cb16b75de47816a",
+    "structure_sha256": "b4fa1ce1951461b7ab0d21b3264cfc4102aa56877e6ebcaec6549dbe1788afc1",
+    "text_sha256": "48456341e7d979d444e57572daa07a0b8d08c3455486b14185e104f1fedf6877",
+    "translation_metadata_sha256": "bea88cbd68fa03f06d2e1a967b1933016263d11ceca31372f03434af56c98195"
+  },
+  "html": "<article data-article-id=\"4555de9e-2f32-4ab5-acc9-fe0e8394101f\">\n  <figure>\n    <img src=\"/images/articles/4555de9e-2f32-4ab5-acc9-fe0e8394101f-1.jpg\" alt=\"Lightning over a rocky shore beneath a bright light in a dark, clouded sky\">\n  </figure>\n  <blockquote>\n    <p>ìHe bowed the heavens also, and came down; and darkness was under his feet. And he rode upon a cherub, and did fly: and he was seen upon the wings of the wind. And he made darkness pavilions round about him, dark waters, and thick clouds of the skies. Through the brightness before him were coals of fire kindled. The LORD thundered from heaven, and the most High uttered his voice.î</p>\n  </blockquote>\n  <p>II Samuel 22:10-14</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "561976011b7257ffc7c585056ae541182ccac10450fe2f225e82143a0863b573"
+}

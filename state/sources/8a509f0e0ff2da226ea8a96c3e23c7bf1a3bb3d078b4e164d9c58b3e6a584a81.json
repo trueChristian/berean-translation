@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4",
+        "0648d4df-242a-5815-8d22-08b555d1b542",
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "9514e8ea-e431-5806-a5f3-0953a922c074"
+    },
+    "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+    "images": [
+      {
+        "alt": "Dirk Willems reaches toward his pursuer who has fallen through the ice",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg",
+        "repository_path": "public/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg",
+        "rights_note": "No asset-specific credit or license terms are printed with the illustration. The general masthead says that some images are © 2001-2007 clipart.com / photos.com but does not identify this asset; no article-specific permission requirement is stated. The embedded grayscale JPEG used inverted samples in the PDF; it was sample-inverted to match the rendered page and normalized as a baseline three-component sRGB JPEG at the original 265x205 dimensions and 72 dpi.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 22
+      },
+      {
+        "alt": "Dean and Tania Taylor with their family outdoors",
+        "caption": "Dean & Tania Taylor family",
+        "credit": null,
+        "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg",
+        "repository_path": "public/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg",
+        "rights_note": "No asset-specific credit or license terms are printed with the photograph. The general masthead says that some images are © 2001-2007 clipart.com / photos.com but does not identify this asset; no article-specific permission requirement is stated. The embedded grayscale JPEG used inverted samples in the PDF; it was sample-inverted to match the rendered page and normalized as a baseline three-component sRGB JPEG at the original 330x216 dimensions and 72 dpi.",
+        "role": "author family photograph",
+        "sequence": 2,
+        "source_page": 23
+      }
+    ],
+    "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Thoughts on The Martyrs Mirror",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "395e6eddac70d145033971fe73f6bb15ea50a6d17a3a17407192158e066b627b",
+    "metadata_sha256": "6c62e55f528a75e3851450a721f8bae43572ea930554e6a20e8bfc61fec7e713",
+    "structure_sha256": "960add6543f65186709f0a41780fead0a0e117dbf4d136017011cb7088760c37",
+    "text_sha256": "54733fe1c54969a44eb2e96daf126e7235c78086e386a7303f6557bff3af2017",
+    "translation_metadata_sha256": "9161fdbd1ac2b4b850bd7da6047f614224a8bcfcb51f8cf58e2f2e97705a963d"
+  },
+  "html": "<article data-article-id=\"cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1\">\n  <figure>\n    <img src=\"/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg\" alt=\"Dirk Willems reaches toward his pursuer who has fallen through the ice\">\n  </figure>\n  <p class=\"drop-cap\">One of the most impressive historical accounts of radical Christianity and Christian persecution was recorded soon after the Reformation in a large book entitled <em>The Martyrs Mirror</em>. This stout-hearted work was compiled by Thieleman J. van Braght of Holland in the year 1660 AD.</p>\n  <p>The work is available online in its entirety. The preface to the online version remarks about this extraordinary work: <em>“The Martyrs Mirror,</em> the classic AD 1660 Dutch religious history, memorializes the godly lives and glorious deaths of thousands of early Christians, especially European Anabaptist martyrs between 1524 and 1660. The book shines a mirror on ordinary people who experienced a spiritual reality that few today can even imagine. Like the more famous <em>Fox’s Book of Martyrs,</em> this compilation attempts to trace the history of those through the centuries, beginning with the martyrdom of Christ’s apostles, who were willing to stand alone for a simple, obedient faith.”</p>\n  <p>Many of these stories are stunning, but perhaps one of the most poignant testimonies of radical Christianity and Christ-like faith recorded during these troubling times was that of Dirk Willems.</p>\n  <p>Dirk was a young man who was converted to Christianity in Holland during a time of great persecution. The year was 1529. The Spanish had taken over Holland and, wanting to stabilize the country, committed themselves to putting an end to Anabaptists and other radical Christian nonconformists. Apparently Dirk was no quiet believer, but instead, shared his faith openly and even allowed others to be baptized in his home. The king’s palace in present day Asperen was turned into a prison. Dirk, after being arrested, was tried and committed to prison for his faith. After being there some time Dirk figured a way of escape. Taking bed sheets and tying knots in them, he let himself down the prison walls. Unfortunately, he was quickly spotted by the burgomaster and the “thief-catcher” was sent fast on his pursuit. Dirk swiftly made his escape over a thin body of ice that surrounded the castle. For a moment I imagine Dirk must have thought that he might just pull this off. However, the much heavier thief-catcher also attempted to cross the thin ice, but to his peril the ice split open and he fell to what he must have thought was his death. Dirk was well on his way when he heard his pursuer’s cry for rescue. Turning around he realized that the thief-catcher had fallen into the ice, and was now pleading for his life.</p>\n  <p>I have often wondered what Dirk Willems must have been thinking at that moment. In front of him was his life—his freedom. All he had to do was keep running. Who would blame him if he didn’t turn around to aid the thief-catcher? He had been falsely imprisoned, and to return now would inevitably cost him his life. But Dirk had died to himself years before when he gave his life to Christ. Now, if any real temptations to keep going had raced through his mind at this moment, we would never know it from this account.</p>\n  <figure>\n    <img src=\"/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg\" alt=\"Dean and Tania Taylor with their family outdoors\">\n    <figcaption>Dean &amp; Tania Taylor family</figcaption>\n  </figure>\n  <p>Jesus taught that His followers must love their enemies, feed them, and even bless them. He knew that Jesus had done that very thing for him, and now it was his turn to do the same for this drowning man. The account goes on to tell us that he immediately turned around and pulled his pursuer out of the ice. The thief-catcher was greatly moved by this unprecedented act of compassion and wanted to let Dirk go free. However, looking on from a distance, the burgomaster screamed to the thief-catcher reminding him that he had sworn an oath of loyalty. Sadly, the burgomaster persuaded the thief-catcher to choose loyalty to the state over compassion for his rescuer, so the thief-catcher apprehended Dirk and brought him back into captivity.</p>\n  <p>Once back into captivity his persecutors showed no compassion on him for his act of mercy. Instead, they reconvicted him for his crime of heresy and rebaptism. The report says that he was then placed in severe imprisonment until the day that he was finally taken to the city square to be burned at the stake. This was an awful death. If burning at the stake could be said to be either good or bad, this one was horrible. The eyewitness reports said that a strong east wind was blowing and that the upper part of the fire was being blown away leaving Dirk to suffer horribly because only the lower portion of the fire was burning him. The eyewitnesses said that they heard him cry out to God over seventy times, “O my Lord, my God!“ Finally, a local official traveling by on horseback was filled with sorrow for the young man and he ordered that the fire be arranged so that Dirk would be put to death quickly.</p>\n  <p><em>The Martyrs Mirror</em> finishes its epitaph on Dirk Willems’ life saying:</p>\n  <blockquote>\n    <p><em>“But as he had founded his faith not upon the drifting sand of human commandments, but upon the firm foundation stone, Christ Jesus, he, notwithstanding all evil winds of human doctrine, and heavy showers of tyrannical and severe persecution, remained immovable and steadfast unto the end; wherefore, when the chief Shepherd shall appear in the clouds of heaven and gather together His elect from all the ends of the earth, he shall also through grace hear the words, ‘Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things; enter thou into the joy of thy Lord’” (I Pet. 5:4; Matt. 24:31; 25:2).</em></p>\n  </blockquote>\n  <p>O, that each of us might have a testimony just like that! A testimony of a life that is undoubtedly sold out to God! So that when all is said and done we, too, might run confidently into the welcoming arms of our blessed Savior and hear that glorious salutation, <em>“…Enter thou into the joy of thy Lord!”</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c"
+}

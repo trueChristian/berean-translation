@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Sarah Raber",
+          "role": null
+        }
+      ],
+      "raw": "Sarah Raber"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "05bb94a7-a629-4c17-b6b2-d05a0e0c9d45",
+    "images": [],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 17
+    },
+    "subtitle": "Behold the handmaid of the Lord; be it unto me according to thy word. Lu. 1:38",
+    "title": "Handmaid of the Lord",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "be5ecbbb-b97b-5534-b066-beb46cabe236"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "43c8c208e8655a86859a76614a575572288553bafc4d2ad9e250ad9a80c1f071",
+    "metadata_sha256": "477a86d478fd4bc7a766924c08490804e20fd02c112442e7f882d997ce84b6cb",
+    "structure_sha256": "7f51caa27facf66ec4e287e77b9b15121b60c3b613018836612260564333b35b",
+    "text_sha256": "c8dcab0632e8dd1f5cd6171f5e28b137760dbf048d30d8c92fec705b752a11ad",
+    "translation_metadata_sha256": "117c8f63ff17d570450fbe3c0a51a376bb4a9885b8947d0cb184bfbec32579c7"
+  },
+  "html": "<article data-article-id=\"05bb94a7-a629-4c17-b6b2-d05a0e0c9d45\">\n  <p class=\"poem\">1.<br>Though our names and ages vary, yet no title’s necessary,<br>Old maid, young maid, single ladies—no such titles in God’s Word.<br>Yet there is a title given when a maiden walks with God,<br>The exalted high position of a Handmaid of the Lord.<br>Such an honor, such a calling for His humble handmaid fair,<br>Let me cherish every moment He’s entrusted to my care.<br>I His handmaid give to Him my heart’s devotion full and free,<br>Working only for His glory, in His service let me be.</p>\n  <p>Chorus</p>\n  <p class=\"poem\">Be it therefore to Thine handmaid, Lord according to Thy Word,<br>Let Thy servant wash the feet of the servants of my Lord.<br>Thou dost guide and order every life according to Thy will,<br>I will follow as Thou leadest, and my heart be yielded still.</p>\n  <p class=\"poem\">2.<br>Free to travel, free to serve, free to study and to learn,<br>Free to care for things above, offering heart and hands of love.<br>Single eye, single goal, singleness of heart and soul,<br>Singled out to serve with passion, joyful in my single role!<br>Though my future be unknown to me, ’tis not unknown to Him,<br>If He offers me “Prince Charming,” yet may it never dim<br>Any of my heart’s desire, any of my first true love;<br>May I first and foremost, always, live for Him who reigns above.</p>\n  <p class=\"poem\">3.<br>Single doesn’t mean rejection, poor material, second-rate,<br>Singlehood is not a curse, is not brought on by chance or fate.<br>But positions of true honor, jewels kept with jealous care,<br>Chosen for a special purpose, being for His work prepared.<br>Whether called to joyful singlehood, or called to marriage sweet,<br>Let us live within the moment—worship at the Master’s feet!<br>True fulfillment in our life will come by resting in His will,<br>He the greatest Lover of all time our hearts shall truly fill!</p>\n  <p>This song was written for a Single Sisters’ Meeting. A pdf and mp3 file of the words and music may be downloaded at:<br>http://www.elcristianismoprimitivo.com/english/handmaid-of-the-lord.htm</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4e534a5d95c99d366da809d7ca5a5220ab345582fecbbdd22a04448b61bb96df"
+}

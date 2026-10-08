@@ -1,0 +1,53 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Ossian, IN",
+          "name": "Darren Drayer"
+        }
+      ],
+      "raw": "Darren Drayer\nOssian, IN"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "cb0c6e89-5a7b-5693-b6b6-0b47f5e46408"
+    },
+    "id": "81500054-38d9-4132-b51e-5030167769c9",
+    "images": [],
+    "issue_id": "bb87ee48-40aa-574c-b7a8-9898b928b451",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "The Three Cs of Interpretation",
+    "topics": [
+      "5b1a4ec7-7110-52ec-86a0-ffbc457e3a8f",
+      "619f159e-c6a5-5483-9dba-1b1052a925de",
+      "9d35b189-13cf-5a05-9518-ca06b066d53d",
+      "b39a977d-c495-5061-b773-971cf4a191ce"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f982a0b27a51b69b61ae20e020fe97d26acd9d728b1d60a149758cdb5f7c7759",
+    "metadata_sha256": "45f980f385041cfed7c80190bda5e7ca79a916d9a1cd850f306ec972583c4dfc",
+    "structure_sha256": "f288df73ea7e49ec3a1ce4c78bbc88c36dd5ce632231a95c641b516136400465",
+    "text_sha256": "7e351f3f2fafcc7ea7f635ba69edaaa6d78f4b4680f9ce7d585429270ea1a8af",
+    "translation_metadata_sha256": "e8205d38c941f627eff56642e8b7b091de53ea54442f7638c091c092e365f1be"
+  },
+  "html": "<article data-article-id=\"81500054-38d9-4132-b51e-5030167769c9\">\n  <p class=\"drop-cap\"><em>One of the worst things a Christian can do is read a Bible verse.</em> Sound like heresy? Here’s the point: when reading the Bible, Christians get into danger when they focus on just one verse and ignore the entirety of Scripture. When reading God’s Word, Christians should focus on the three Cs: <u>Context</u>, <u>Covenant Connection</u>, and <u>Consider Other Scriptures</u>.</p>\n\n  <ol>\n    <li>\n      <p><strong>Context of the Passage:</strong> Always consider the verses around the verse.</p>\n      <p><em>The Bible very clearly says we can accomplish anything we want through Jesus. We can triumph in a beauty pageant, swim the English Channel, or crush an opponent in a boxing match. We can do all this because the Bible promises, “I can do <strong>all</strong> things through Christ who strengthens me” (Phil. 4:13).</em></p>\n      <p>Not exactly. In context, Paul is teaching the Philippians about contentment (see verse 11). He can persevere through difficult times because Jesus gives him strength. In Philippians 4:13, we learn that Christ will give us power to accomplish the work He has commanded us to do.</p>\n    </li>\n    <li>\n      <p><strong>Covenant Connection:</strong> The first (old) covenant and the new covenant.</p>\n      <p><em>The Bible very clearly says that all God’s people are to either participate in war or at least give their support when the government calls them. I can list dozens of godly men who lifted the sword in battle: David, Gideon, and Joshua to name a few. God directly commanded Saul to destroy his enemies. Like Samson of old, brave Christians are meant to raise their bayonets and thrust them into the bellies of their foes.</em></p>\n      <p>Not exactly. The commands for warfare and the valiant men and women who killed for God are all part of the first (old) covenant—the covenant that was fulfilled by Christ (Hebrews 8:13). Just as New Covenant Christians are no longer required to kill an animal in sacrifice, we also are no longer permitted to kill an enemy in battle (Matthew 5:43-48). Old Covenant Jews were required to sanctify the Sabbath by ceasing from all labors (Exodus 20:8). New Covenant Christians are required to bless all humans by ceasing from all combat (John 8:35-36).</p>\n      <p>While the Old Testament is true history and contains good lessons, the commands of the first covenant (civil law) are not relevant for New Covenant Christians. Keep in mind, however, that many commands of the OT are reinstated in the NT (i.e. Christians are still forbidden from adultery).</p>\n    </li>\n    <li>\n      <p><strong>Consider other Scripture:</strong> Compare Scripture with Scripture to gain clearer meaning.</p>\n      <p><em>The Bible is clear on this point: Christians are to reserve all condemnation for God. It is a direct violation of Scripture for a Christian to tell people they are sinning. Jesus commands, “Judge not, that you be not judged” (Matt. 7:1). Stop pointing out other people’s sins, Christians!</em></p>\n      <p>Not exactly. After applying the first C, it is clear that this verse is not saying it is wrong to call sin, sin. Rather, Jesus is condemning hypocrisy. Further, if we consider other Scriptures, we can see that God commands Christians to help one another by confronting each other about sin (see Matthew 18:15-17 and 1 Timothy 5:19). Think about it… all of Paul’s epistles would be violating the words of Jesus if Christians were forbidden from correcting others. Here are three famous phrases from Paul’s letters: “O foolish Galatians,” “It is reported commonly that there is fornication among you,” and “Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme.” (Galatians 3:1, I Corinthians 5:1, and 1 Timothy 1:20).</p>\n    </li>\n  </ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5ff673ad3e30d9986b337a7252b00f795fc66f93b86f6e06061cd2217e41ab09"
+}

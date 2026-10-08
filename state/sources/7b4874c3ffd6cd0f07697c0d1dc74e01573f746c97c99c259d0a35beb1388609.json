@@ -1,0 +1,81 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Glenmont, OH",
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin\nGlenmont, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "46015eac-a1c8-4f41-b70e-04733eed49b0",
+    "images": [
+      {
+        "alt": "A light-colored stone arrowhead",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-1.png",
+        "repository_path": "public/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-1.png",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 18. The embedded image and its PDF soft mask were combined without changing the published crop or orientation; rely on the publisher permission reported by the project owner.",
+        "role": "story object photograph",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Rows of potato plants growing in a field",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-2.jpg",
+        "repository_path": "public/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-2.jpg",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 19; rely on the publisher permission reported by the project owner.",
+        "role": "full-page background photograph",
+        "sequence": 2,
+        "source_page": 19
+      },
+      {
+        "alt": "A pile of light-brown potatoes",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-3.png",
+        "repository_path": "public/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-3.png",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 19. The embedded image and its PDF soft mask were combined without changing the published crop or orientation; rely on the publisher permission reported by the project owner.",
+        "role": "story illustration",
+        "sequence": 3,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "ac238571-c56c-5d66-983d-7f37969bbf1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "The Blessing of Obedience",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "47249453cce70eccea86b167b587868636047dbeeaa294550ecacb96535ee5d3",
+    "metadata_sha256": "f122fff30a404203096c03043d16c4471e9f015725f7908167fb24fb4cc3899e",
+    "structure_sha256": "ffc2d6e6c6d1e8d66f8dc94cbdf5c7ead44c3904f51c2e7cc2ce46888e94d5a3",
+    "text_sha256": "ef15afb2aca79b3275bfec74efc5ea6b3867f5326ded7e8ef7e07e60eac6d874",
+    "translation_metadata_sha256": "63ff8560c58810bb876fb4f6d62ae79db001a59f49488ea18dde4f742dfdcf20"
+  },
+  "html": "<article data-article-id=\"46015eac-a1c8-4f41-b70e-04733eed49b0\">\n  <figure>\n    <img src=\"/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-1.png\" alt=\"A light-colored stone arrowhead\">\n  </figure>\n\n  <p class=\"lead\">“Matthew, I want you to weed the two potato rows in the garden,” said Mother. “I don’t have time and it is a job you can do.”</p>\n\n  <p>Eight-year-old Matthew was playing with his toys in the sandbox under the pine tree. He would have much rather made roads and built sand houses, but he knew better than arguing with his mother. Slowly he headed to the garden. The rows looked long, and the weeds seemed tall. If only the sun wasn’t so hot.</p>\n\n  <figure>\n    <img src=\"/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-2.jpg\" alt=\"Rows of potato plants growing in a field\">\n  </figure>\n\n  <p>“I wonder if Timothy needs to weed his family’s garden?” thought Matthew as he tackled the first row. Timothy was a neighbor boy and Matthew’s closest friend. “Their garden is really small; I’m sure his mom takes care of their garden. I wonder why we have so much work to do. It really doesn’t seem fair.”</p>\n\n  <p>The mid-morning summer sun beat down warmly on Matthew. He decided to get a cold drink in the kitchen. Not that he was really thirsty, but time seemed to go so slowly as he worked alone in the garden.</p>\n\n  <p>“Matthew, are you getting your job done?” asked Mother from the laundry room.</p>\n\n  <p>“The first row will be done soon,” replied Matthew. “Can I go play a while? I can finish this afternoon.”</p>\n\n  <p>“No, I want you to finish the job first,” replied Mother. “And besides, the sun will be hotter this afternoon.”</p>\n\n  <p>So, Matthew went back to work. At the end of the first row Matthew stopped. Looking over at the sandbox he thought, “I could finish my sandcastle and still be done with the second row before lunch. Mother would never know.”</p>\n\n  <p>Quickly he ran over to the sandbox and started working on his sand project again. But for some reason, playing in the sandbox was not as fun as it had been before. Matthew knew he should not be playing, and his play slowed to a stop. “I don’t think Mother would be happy if she saw me,” he thought. “I will go finish the second potato row then come back to the sandbox.” So back to work he went.</p>\n\n  <p>For some reason the weeding seemed to go faster. Matthew felt good inside knowing that Mother would be happy with him when the job was finished. He felt especially good knowing that he had overcome the temptation to play when he should be working.</p>\n\n  <p>Later, as he was near the end of the second row, Matthew saw a hard object near the root of a large weed he had pulled out.</p>\n\n  <p>“What’s this?” he exclaimed. “Why, it’s an arrowhead!”</p>\n\n  <p>Sure enough, it was a perfectly formed arrowhead with no broken edges. After washing the dirt off, he discovered that it was not just a normal arrowhead. This arrowhead was special! Arrowheads found around Matthew’s home in eastern Pennsylvania were usually made from a hard, white, flintstone, but this arrowhead was made from a special hard baked clay. Matthew found out later that this type of arrowhead was made and used by the Pueblo Indians from the western United States.</p>\n\n  <p>How was it that this little arrowhead had made its way thousands of miles across the United States to Matthew’s family’s garden? And how was it that Matthew had found it?</p>\n\n  <p>“I believe I found it because I obeyed you instead of playing,” Matthew told mother. “Maybe God gave me a blessing for obeying.”</p>\n\n  <figure>\n    <img src=\"/images/articles/46015eac-a1c8-4f41-b70e-04733eed49b0-3.png\" alt=\"A pile of light-brown potatoes\">\n  </figure>\n\n  <p><em>This is a true story that happened nearly forty years ago. “Matthew” learned a lesson of obedience that day which he never forgot to this day even though he has lost the arrowhead since then.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "983e3953fb4abe34a65386baba085c59d7c2cd393c369e37aab2156542baff41"
+}

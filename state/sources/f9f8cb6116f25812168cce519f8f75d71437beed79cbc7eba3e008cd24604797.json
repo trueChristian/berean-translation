@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Big Prairie, Ohio",
+          "name": "David Leid"
+        }
+      ],
+      "raw": "David Leid\nBig Prairie, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "d38a7a97-58eb-449e-ac0c-4542b913e672",
+    "images": [
+      {
+        "alt": "A boy swinging a baseball bat",
+        "caption": null,
+        "credit": "Lydia Bauman",
+        "public_path": "/images/articles/d38a7a97-58eb-449e-ac0c-4542b913e672-1.jpg",
+        "repository_path": "public/images/articles/d38a7a97-58eb-449e-ac0c-4542b913e672-1.jpg",
+        "rights_note": "The page-2 masthead credits Lydia Bauman for the artwork on printed page 7; no separate permission notice or license terms are stated. The clean embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG without changing its published dimensions, crop, orientation, or content.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "6e434782-fad8-50a6-84db-a97babd8c346",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "LITTLE DAVY GOES TO SCHOOL",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8a4b6a2a3904128a25b1182b963697e71d22a23b6cabbe713ac5936479d557e9",
+    "metadata_sha256": "4b1753285c13599efe7902bc5e9fe8515693fd65fce3d3bfe9df5fbabe43d157",
+    "structure_sha256": "3f900fd6c631a098dff8fc4dbf22ad8a6c516747c1e1d1fb9b0e6ed6703249bf",
+    "text_sha256": "1506003df3d79313806d9949c5f59fee34b81c00391289658e288f2eeb3639d3",
+    "translation_metadata_sha256": "58b0aa982073550464f83678a87d53009e8ff6dab3c81b37c1863a16d0022e6d"
+  },
+  "html": "<article data-article-id=\"d38a7a97-58eb-449e-ac0c-4542b913e672\">\n  <p class=\"lead\"><span class=\"drop-cap\">A</span>lthough he would not readily admit it, Little Davy enjoyed school. He loved whizzing through his lessons in no time, at all. The red brick school where Davy attended was small. There was only one classroom and one teacher. The school had a big bell on the rooftop that rang each morning when it was time for school to start.</p>\n\n  <p>There was only one other boy in Davy’s grade. He was a blond-haired Amish boy named Christ. Christ was pronounced with a short “I”. Christ was the next to the youngest of eight Zook brothers. Their father liked to joke that he had two bushels of boys since four pecks make a bushel.</p>\n\n  <p>One day, Davy noticed it took Christ extra long to do his school work, especially his math. Christ sat at the desk directly behind Davy. “Since Christ is so slow it would be fun to time him,” Davy schemed. The next morning, Davy started timing Christ during math class. Davy quickly finished his math in record time, then continued looking at the clock until Christ was finished. “It took Christ exactly twice as long as it took me,” Davy smirked to himself. “I thought he was a slow poke, and now I have proven it, fair and square.”</p>\n\n  <p>When Christ was finished with his math, it was time for recess. All the boys hurried to the ball diamond, even Christ. Christ was first up to bat and hit the ball good and hard. It sailed over the other boys’ heads. Going as fast as his short legs could carry him, Christ raced around all three bases and back to home base before the ball had even returned to shortstop. It was not Davy’s turn to bat until it was almost time for the bell to ring to end recess. After one nipper and a foul ball, Davy was determined to make the most out of his very last chance. He swung the bat with all the might his thin arms could muster.</p>\n\n  <p>Unfortunately, the ball was a bit high, and instead of a reassuring crack, there was nothing except a dull thud when the missed ball hit the catcher’s glove. The bell mournfully dulled out the sad truth, Little Davy had struck out!</p>\n\n  <figure>\n    <img src=\"/images/articles/d38a7a97-58eb-449e-ac0c-4542b913e672-1.jpg\" alt=\"A boy swinging a baseball bat\" loading=\"lazy\">\n  </figure>\n\n  <p>After recess, it was time to grade the math papers. As usual, Davy and Christ traded papers and checked each other’s work while Teacher Eleanor read out the correct answers. Who do you suppose had the most correct, Christ or Davy? Yes, it was Christ! Davy suddenly realized this was not a race to see who could finish first. He was beaten by his own game. The score that was being kept was who had the most correct. He was not the smartest in the class, after all. Thankfully, he did learn a valuable lesson that day that served him well throughout his life. If it is important enough to do it, it is well worth the time to double-check and make sure you do it right. “Study to shew thyself approved unto God, a workman that needeth not to be ashamed” (2 Timothy 2:15).</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "18f237f8fd9a7e96dad3135d2857d75fb9f04595ee9a680852b664e9437fee60"
+}

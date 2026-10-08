@@ -1,0 +1,104 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Charles Finney"
+        }
+      ],
+      "raw": "by Charles Finney"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "976a7e08-e662-50b6-a13d-c787f72c7666"
+    },
+    "id": "19f3094d-111e-4703-b85e-13c1a575c290",
+    "images": [
+      {
+        "alt": "A man wearing a formal jacket and bow tie.",
+        "caption": null,
+        "credit": null,
+        "height": 130,
+        "public_path": "/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-1.png",
+        "repository_path": "public/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-1.png",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 38; no embedded publisher overlays.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 10,
+        "source_pdf_object": 38,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 97×130",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 97x130 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 97
+      },
+      {
+        "alt": "A woman wearing a hat and looking into a hand mirror.",
+        "caption": null,
+        "credit": null,
+        "height": 109,
+        "public_path": "/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-2.png",
+        "repository_path": "public/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-2.png",
+        "rights_note": "No separate image credit or licence is printed. Clean base PDF object 39; no embedded publisher overlays.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 10,
+        "source_pdf_object": 39,
+        "transformations": [],
+        "verification": {
+          "browser": "WebKit image.decode() succeeded at 103×109",
+          "corruption_orientation_crop_colour": "verified_by_ai",
+          "decoders": [
+            "Pillow complete RGBA raster load, no warnings",
+            "ImageMagick complete RGBA raster decode, no warnings"
+          ],
+          "encoding": "PNG 103x109 Gray None 72x72",
+          "overlay_audit": "verified_by_ai; separable publisher overlays omitted",
+          "visual_against_raw_object": "verified_by_ai",
+          "visual_against_source": "verified_by_ai"
+        },
+        "width": 103
+      }
+    ],
+    "issue_id": "c53b0f7b-c173-4882-b9b2-5e9fd1f4083d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "Separating from the Fashions of the World",
+    "topics": [
+      "8b345ddb-8046-5651-b04f-924af67af18b",
+      "f7e40fce-04bc-52e2-b54e-01072bfbaec4"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "4f829bba50a1fb2e37da49b673bb245161166b3695a963b8226adb818aab87a8",
+    "metadata_sha256": "efe3a69e970ce3ee30d746ea15970467f39353911437ea9dfeb961a13a793b02",
+    "structure_sha256": "e66d362169bd7a8c6f5d9f648d35cd09326fcf5fdee0faef3ba6c635dd0b62b9",
+    "text_sha256": "195f563e2bf815a0070febcc9128dd5d19773f481d4d16d29b7c7fdb53094580",
+    "translation_metadata_sha256": "b2a273c49176a9c1c4beed3c998d685a576ae1826caec46b6e7bac06e865c8e6"
+  },
+  "html": "<article data-article-id=\"19f3094d-111e-4703-b85e-13c1a575c290\">\n  <figure>\n    <img src=\"/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-1.png\" alt=\"A man wearing a formal jacket and bow tie.\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/19f3094d-111e-4703-b85e-13c1a575c290-2.png\" alt=\"A woman wearing a hat and looking into a hand mirror.\">\n  </figure>\n  <aside>\n    <p>This little article by Charles Finney is refreshing because we live in a fashion crazy Christian world where the modern theology for evangelism is “look like the world to win the world.” He wrote it in a style common for his day, giving the question or objection first and then answering it by teaching on the principle in question.</p>\n    <p>Where is the holy testimony of the people of God in these last days? There is very little difference between the church and the world, between the born againers and the people who do not believe. The professing church seems afraid to be different. Finney testified of his own error on this crucial subject of fashions. John Wesley gave a similar report after he evaluated the results of teaching that there should be no distinction in the clothes of the Christian. There is no holiness in being different. However, if we follow the teachings on modesty in the Bible, we will be different, especially in this day when all have pursued the changing fashions with zeal.</p>\n    <p><em>--Brother Denny</em></p>\n  </aside>\n  <h2><em>Objection</em></h2>\n  <p>“Is it best for Christians to be singular (‘if thine eye be single’)?”</p>\n  <h2><em>Answer</em></h2>\n  <p>Certainly; Christians are bound to be singular. They are called to be a peculiar people, that is, a singular people, essentially different from the rest of mankind. To maintain that we are not to be singular, is the same as to maintain that we are to be conformed to the world. “Be not singular,” that is, be like the world. In other words, “Be ye conformed to the world.” This is the direct opposite to the command in the text. But the question now regards fashion, in dress, equipage, and so on. And here I will confess that I was formerly myself in error. I believed, and I taught, that the best way for Christians to pursue, was to dress so as not to be noticed, to follow the fashions and changes so as not to appear singular, and that nobody would be led to think of their being different from others in these particulars. But I have seen my error, and now wonder greatly at my former blindness. It is your duty to dress so plain as to show to the world, that you place no sort of reliance in the things of fashion, and set no value at all on them, but despise and neglect them altogether. But unless you are singular, unless you separate yourselves from the fashions of the world, you show that you do value them. There is no way in which you can bear a proper testimony by your lives against the fashions of the world, but by dressing plain. I do not mean that you should study <em>singularity</em>, but that you should consult <em>convenience</em> and <em>economy</em>, although it may be singular.</p>\n  <h2><em>Objection</em></h2>\n  <p>“But if we dress plain, the attention of people will be taken with it.”</p>\n  <h2><em>Answer</em></h2>\n  <p>The reason of it is this, so few do it that it is a novelty, and everybody stares when they see a professing Christian so strict as to disregard the fashions. Let them all do it, and the only thing you show by it is that you are a Christian, and do not wish to be confounded with the ungodly. Would it not tell on the pride of the world, if all the Christians in it were united in bearing a practical testimony against its vain show?</p>\n  <h2><em>Objection</em></h2>\n  <p>“But in this way you carry religion too far away from the multitude. It is better not to set up an artificial distinction between the church and the world.”</p>\n  <h2><em>Answer</em></h2>\n  <p>The direct reverse of this is true. The nearer you bring the church to the world, the more you annihilate the reasons that ought to stand out in view of the world, for their changing sides and coming over to the church. Unless you go right out from them, and show that you are not of them in any respect, and carry the church so far as to have a broad interval between saints and sinners, how can you make the ungodly feel that so great a change is necessary?</p>\n  <h2><em>Objection</em></h2>\n  <p>“But this change which is necessary is a change of heart.”</p>\n  <h2><em>Answer</em></h2>\n  <p>True; but will not a change of heart produce a change of life?</p>\n  <h2><em>Objection</em></h2>\n  <p>“You will throw obstacles in the way of persons becoming Christians. Many respectable people will become disgusted with religion, and if they cannot be allowed to dress and be Christians, they will take to the world altogether.”</p>\n  <h2><em>Answer</em></h2>\n  <p>This is just about as reasonable as it would be for a temperance man to think he must get drunk now and then, to avoid disgusting the intemperate, and to retain his influence over them. The truth is, that persons ought to know, and ought to see in the lives of professing Christians, that if they embrace religion, they must be weaned from the world, and must give up the love of the world, and its pride, and show, and folly, and live a holy life, in watchfulness, and self denial, and active benevolence.</p>\n  <h2><em>Objection</em></h2>\n  <p>“Is it not better for us to disregard this altogether, and not pay any attention to such little things, and let them take their course?”</p>\n  <h2><em>Answer</em></h2>\n  <p>Is this the way to show contempt for the fashions of the world? Do people ordinarily take this course of showing contempt for a thing, to practice it? Why, the way to show your abhorrence of the world is to follow along in the customs and the fashions of the world! Precious reasoning this.</p>\n  <h2><em>Objection</em></h2>\n  <p>“No matter how we dress, if our hearts are right?”</p>\n  <h2><em>Answer</em></h2>\n  <p>Your heart right! Then your heart may be right when your conduct is all wrong. Just as well might the profane swearer say, “No matter what words I speak, if my heart is right.” No, your heart is not right, unless your conduct is right. What is outward conduct, but the acting out of the heart? If your heart were right, you would not wish to follow the fashions of the world.</p>\n  <h2><em>Objection</em></h2>\n  <p>“What is the standard of dress? I do not see the use of all your preaching, and laying down rules about plain dress, unless you give us a standard.”</p>\n  <h2><em>Answer</em></h2>\n  <p>This is a mighty stumbling block with many. But to any mind the matter is extremely simple. The whole can be comprised in two simple rules. One is—Be sure, in all your equipage, and dress, and furniture, to that you have no fellowship with the designs and principles of those who are aiming to set off themselves, and to gain the applause of men. The other is—Let economy be first consulted, and then convenience. Follow Christian economy; that is, save all you can for Christ’s service; and then, let things be as convenient as Christian economy will admit.</p>\n  <h2><em>Objection</em></h2>\n  <p>“Would you have us all to turn Quakers [the Quakers were known for their simple dress, ed.], and put on their plain dress?”</p>\n  <h2><em>Answer</em></h2>\n  <p>Who does not know, that the plain dress of the Quakers has won for them the respect of all the thinking part of the ungodly in the community? Now, if they had coupled with this, the zeal for God, and the weanedness from the world, and the contempt for riches, and the self-denying labor for the conversion of sinners to Christ, which the gospel enjoins, and the clear views of the plan of salvation, which the gospel inoculates, they would long since have converted the world. And if all Christians would imitate them in their plain dress, (I do not mean the precise cut and fashion of their dress, but in a <em>plain</em> dress, throwing contempt upon the fashions of the world), who can doubt that the conversion of the world would hasten on apace?</p>\n  <h2><em>Objection</em></h2>\n  <p>“Would you make us all into Methodists?”</p>\n  <h2><em>Answer</em></h2>\n  <p>Who does not know that the Methodists, when they were noted for their plain dress, and for renouncing the fashions and show of the world, used to have power with God in prayer—and that they had the universal respect of the world as sincere Christians. And who does not know that since they have laid aside this peculiarity, and conformed to the world in dress and other things, and seemed to be trying to lift themselves up as a denomination, and gain influence with the world, they are losing the power of prayer? Would to God they had never thrown down this wall. It was one of the leading excellences of Wesley’s system, to have his followers distinguished from others by a plain dress.</p>\n  <h2><em>Objection</em></h2>\n  <p>“We may be proud of a plain dress as well as a fashionable dress. The Quakers are as proud as we are.”</p>\n  <h2><em>Answer</em></h2>\n  <p>So may any good thing be abused. But that is no reason why it should not be used, if it can be shown to be good. I put it back to the objector—Is that any reason why a Christian female, who fears God and loves the souls of men, should neglect the means which may make an impression that she is separated from the world, and pour contempt on the fashions of the ungodly, in which they are dancing their way to hell?</p>\n  <h2><em>Objection</em></h2>\n  <p>“This is a small thing, and ought not to take up so much of a minister’s time in the pulpit.”</p>\n  <h2><em>Answer</em></h2>\n  <p>This is an objection often heard from worldly professors. But the minister that fears God will not be deterred by it. He will pursue the subject, until such professing Christians are cut off from their conformity to the world, or cut off from the church. It is not merely the dress, as dress, but it is the conformity to the world in dress and fashion that is the great stumbling block in the way of sinners. How can the world be converted, while professing Christians are conformed to the world? What good will it do to give money to send the gospel to the heathen, when Christians live so at home? Well might the heathen ask, “What profit will it be to become Christians, when those who are Christians are pursuing the world with all the hot haste of the ungodly?” The great thing necessary for the church is to break off from the conformity to the world, and then they will have power with God in prayer, and the Holy Ghost will descend and bless their efforts, and the world will be converted.</p>\n  <h2><em>Objection</em></h2>\n  <p>“But if we dress so, we shall be called fanatics.”</p>\n  <h2><em>Answer</em></h2>\n  <p>Whatever the ungodly may call you, fanatics, Methodists, or anything, you will be known as Christians, and in the secret consciences of men will be acknowledged as such. It is not in the power of unbelievers to pour contempt on a holy church that is separated from the world. How was it with the early Christians? They lived separate from the world, and it made such an impression, that even infidel writers say of them, “These men win the hearts of the mass of the people, because they give themselves up to deeds of charity, and pour contempt on the world.” Depend upon it, if Christians would live so now, the last effort of hell would soon be expended in vain to defeat the spread of the gospel. Wave after wave would flow abroad, till the highest mountaintops were covered with the waters of life.</p>\n  <h2><em>Remarks (by Finney)</em></h2>\n  <p>By non-conformity to the world, you may save much money for doing good. In one year a greater fund might be saved by the church than has ever been raised for the spread of the gospel.</p>\n  <p>By non-conformity to the world, a great deal of time may be saved for doing good, that is now consumed and wasted in following the fashions, and obeying the maxims, and joining in the pursuits of the world.</p>\n  <p>At that same time, Christians in this way would preserve their peace of conscience, would enjoy communion with God, would have the spirit of prayer, and would possess far greater usefulness. Is it not time something was done? Is it not time that some church struck out a path that should not be conformed to the world, but should be according to the example and Spirit of Christ? You profess that you want to have sinners converted. But what avails it, if they sink right back again into conformity with the world? Brethren, I confess, I am filled with pain in view of the conduct of the church. Where are the proper results of the glorious revivals we have had? I believe they were genuine revivals of religion and outpourings of the Holy Ghost, that the church has enjoyed the last ten years. I believe the converts of the last ten years are among the best Christians in the land. Yet after all, the great body of them is a disgrace to religion. Of what use would it be to have a thousand members added to the church, to be just such as are now in it? Would religion be any more honored by it, in the estimation of ungodly men? One holy church, that is really crucified to the world, and the world to them, would do more to recommend Christianity, than all the churches in the country, living as they now do. O, if I had strength of body to go through the churches again, instead of preaching to convert sinners, I would preach to bring up the churches to the gospel standard of holy living. Of what use is it to convert sinners, and make them such Christians as these? Of what use is it to try to convert sinners, and make them feel as if there is something in religion, and they go to trade with you, or meet you in the street, and have you contradict it all, and tell them, by our conformity to the world, that there is nothing in it? Where shall I look, where shall the Lord look, for a church like the first church, that will come out from the world, and be separate, and give themselves up to serve God? O, if this church would do so! But it is of little use to make Christians if they are not better. Do not understand me as saying that the converts made in our revivals are spurious. But they live so as to be a disgrace to religion. They are so stumbled by old professors that many of them do more hurt than good. The more there are of them, the more occasion infidelity seems to find for her jeers and scoffs. Now, do you believe that God commands you not to be conformed to the world? Do you believe it? And dare you obey it; let people say what they will about you? Dare you now separate yourselves from the world, and never again be controlled by its maxims, and never again copy its practices, and never again will be whiffled here and there by its fashions? I know a man that lives so, I could mention his name, he pays no attention to the customs of the world in this respect, and what is the result? Wherever that man goes, he leaves the impression behind that he is a Christian. O, if one church would do so, and would engage in it with all the energy that men of the world engage in their business, they would turn the world upside down. Will you do so? Will you break off from the world now, and enter into a covenant with God, and declare that you will dare to be singular enough to be separate from the world, and from this time set your faces as a flint to obey God, let the world say what they will? Dare you do it? Will you do it?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "450222693643e3a29519458b6233e72ce5f4194e4bcdca32b382fad1e898f916"
+}

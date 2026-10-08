@@ -1,0 +1,83 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "742a597d-8b1d-4010-84ae-a9e58f474025",
+    "images": [
+      {
+        "alt": "Historical engraving of executions before a gathered crowd",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/742a597d-8b1d-4010-84ae-a9e58f474025-1.jpg",
+        "repository_path": "public/images/articles/742a597d-8b1d-4010-84ae-a9e58f474025-1.jpg",
+        "rights_note": "Original embedded PDF image object 82; raw objects, paint order and page clipping inspected. No soft mask or transparency group. Separately painted article typography, page furniture, panels, rules and frames omitted by extracting the base image. The publisher rounded-corner clipping is omitted as layout decoration; full underlying rectangular engraving preserved. No separate image credit or article-specific image reuse restriction is printed. Source grayscale samples replicated into RGB; no CMYK or sample inversion was needed. Encoded as baseline sRGB JPEG with nonzero 72 dpi density.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 20,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            524,
+            420
+          ],
+          "jpeg_encoding": {
+            "density_dpi": [
+              72,
+              72
+            ],
+            "mode": "baseline",
+            "progressive": false,
+            "quality": 92
+          },
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 82,
+          "source_pixel_dimensions": [
+            524,
+            420
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas), successfully rendered and visually inspected",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "passed; separable and croppable layout treatments omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "FELICITAS WITH HER SEVEN SONS, JANUARIUS, FELIX, PHILIPPUS, SYLVANUS, ALEXANDER, VITALIS, AND MARTIALIS, PUT TO DEATH FOR THE FAITH, AT ROME, A.D. 164",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "06d887070b842643c1eb8683befbddd8a6bee2f11708ceaa3d36be685b5265b4",
+    "metadata_sha256": "bed95f0c9d699b5eccc7425dccd2fb860c054291a27944b23ad8899b902dc8ce",
+    "structure_sha256": "3dbbcda0af317fc65f2ac58d04340490bcfc5ecaf9a39239afd7815bd59dd05d",
+    "text_sha256": "868d346fab2207fb7ef676b2344a26345f37b65e9465ebc3458ed119c12b2fca",
+    "translation_metadata_sha256": "34e6507ff792fa45f9ccf010f93c664ab4a8b21f9d357ffe2a24c96f4daeb9e7"
+  },
+  "html": "<article data-article-id=\"742a597d-8b1d-4010-84ae-a9e58f474025\">\n  <p><em>In this story you will find a strong woman of God and a strong family even though the father had died. This family was such a strong testimony that the enemy felt that they must be disposed of at all costs to stop them from converting others! ~Clifford Fox</em></p>\n  <figure>\n    <img src=\"/images/articles/742a597d-8b1d-4010-84ae-a9e58f474025-1.jpg\" alt=\"Historical engraving of executions before a gathered crowd\">\n  </figure>\n  <p>Felicitas was a Christian widow at Rome, and had seven sons, whose names were Januarius, Felix, Philippus, Sylvanus, Alexander, Vitalis, and Martialis. These lived together with their mother in one house, as an entire Christian church. Of the mother it is stated, that by her Christian conversation, which she had with the Roman women, she converted many to Christ. The sons, on their part, also acquitted themselves well by winning many men to Christ.</p>\n  <p>Now the heathen priests complained about this to Antonius, the Emperor. He had resumed the persecution, which had begun with Trajan, but had subsided. The priests complained that there were not only men, but also women, who blasphemed the gods, despised their images, trampled under foot the Emperor’s worship of the gods, and even turned away many from the old religion of the Romans. They said that this was mainly done by a certain widow, named Felicitas, and her seven sons. Therefore, in order to prevent this, they must be compelled to give up Christ and sacrifice to the gods. Or, in case they should refuse to do so, they should be put to death. Prompted by the priests, the Emperor gave full authority over them to Publius, the chief magistrate of Rome.</p>\n  <p>Publius was willing to spare Felicitas because she was a highly respectable woman. First he secretly summoned her and her sons into his own house. There he begged them with fair words and promises, but afterwards threatened to punish them with severe tortures, unless they would forsake the Christian religion, and readopt the old Roman worship of the gods.</p>\n  <p>Felicitas remembered the words of Christ, “Whosoever shall confess me before men, him will I confess also before my Father which is in heaven.” So she did not try to evade the issue by using misleading or indirect words, but answered, “I am not moved by your flatteries and coaxing, neither am I intimidated by your threats. For I experience in my heart the working of the Holy Ghost, which gives me a living power. This prepares me for the conflict of suffering so that I am able to endure all that you may make me suffer, for the confession of my faith.”</p>\n  <p>When Publius could not move the mother from her unwavering purpose, he said to her, “Very well; if it seems pleasant to you to die, then die alone, but have pity and a mother’s compassion for your sons. Command them to ransom their own lives, at least, by sacrificing to the gods.”</p>\n  <p>Then Felicitas said to the judge, “Your compassion is pure wickedness, and your admonition is nothing but cruelty. If my sons should sacrifice to the gods, they would not ransom their lives, but sell them to the hellish fiend. His slaves, in soul and body, they would become, and be reserved by him, in chains of darkness, for everlasting fire.”</p>\n  <p>Then, turning away from the judge, to her sons, she said, “Remain steadfast in the faith and in the confession of Christ. Christ and His saints are waiting for you. Behold, heaven is open before you. Fight valiantly for your souls and show that you are faithful in the love of Christ, in that He loves you, and you love Him.”</p>\n  <p>This filled the judge with rage against her, and he commanded someone to hit her on the cheek. At the same time he rebuked her vehemently, saying, “How dare you boldly urge your sons in my presence, and make them obstinate to disobey the commands of the Emperor? Consider that it would be far more proper for you to urge them to obey him.”</p>\n  <p>Even though death had been threatened her, Felicitas answered with more than manly courage, saying, “O judge, If you knew our Saviour Jesus Christ, and the power of His Godhead and majesty, you would, with a doubt, stop from persecuting the Christians. You would not seek to draw us away from the Christian religion by blaspheming His holy name. Whoever curses (or blasphemes) Christ and His faithful ones, curses (or blasphemes) God Himself, who, by faith, dwells in their hearts.”</p>\n  <p>Then, even though they hit her in the face with their fists, in order to silence her, she did not stop from admonishing her sons. She asked them to remain steadfast, and to fear neither tortures nor rack, nor even death itself, but to die willingly for the name of Christ.</p>\n  <p>Then, Publius the judge took each of her sons separately, and talked first to one and then to the other. By this last resort he hoped to draw away at least some of them from the faith, by promises as well as by threats. But since he could not persuade them, he sent a message to the Emperor, stating that they all remained obstinate. He could not, in any way, persuade them to sacrifice to the gods.</p>\n  <p>Then the Emperor sentenced the mother along with her seven sons, to be delivered into the hands of different executioners, and be tortured and put to death in various ways. But the mother was first to see all her sons die, before she herself should be put to death.</p>\n  <p>In accordance with this sentence, they first scourged Januarius, the first-born, to death in the presence of his mother. The scourges were made of cords or ropes, to the ends of which balls of lead were attached. Those who had to undergo this mode of torture were scourged with them on their necks, backs, sides, and other tender parts of their bodies. This was done either to torture them, or in order to martyr them to death, as was the case in this instance. Felix and Philippus, the two brothers next (in age), were beaten to death with rods. Sylvanus, also called Syllanus, was thrown down from a height. Alexander, Vitalis, and Martialis were beheaded. Last of all, the mother was beheaded or put to death with the sword. This took place under Emperor Antonius Pius.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4deb986ad65fd83701273643c334d8aa33101148d216963250882e35f3a242e9"
+}

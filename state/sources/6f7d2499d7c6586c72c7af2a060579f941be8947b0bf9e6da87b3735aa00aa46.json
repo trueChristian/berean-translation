@@ -1,0 +1,147 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1813-1843",
+          "name": "Robert Murray M’cheyne"
+        }
+      ],
+      "raw": "by Robert Murray M’cheyne 1813-1843\n(written December 31, 1841)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "e942af59-8d9c-4044-a7de-1928ccf8ca87",
+    "images": [
+      {
+        "alt": "An illustration of Jesus and a group of men looking toward a distant city.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-1.jpg",
+        "repository_path": "public/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-1.jpg",
+        "rights_note": "No image credit or article-specific permission notice is printed. Clean source image object 97; separate publisher typography, page furniture and any frame omitted. Original grayscale raster converted to baseline RGB JPEG with sRGB ICC profile and nonzero 72-dpi density; native dimensions, orientation and image content preserved.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 22,
+        "transformation": {
+          "crop": null,
+          "flip": null,
+          "method": "original embedded raster, grayscale to RGB/sRGB, baseline JPEG normalization",
+          "rotation_degrees": 0,
+          "source_object": 97
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-2.jpg",
+        "repository_path": "public/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-2.jpg",
+        "rights_note": "No image credit or article-specific permission notice is printed. Clean source image object 96; separate publisher typography, page furniture and any frame omitted. Two tear drops are associated with the article title and represented once with empty alt text. Slight subpixel publisher overfill clipping affects only white border; original native raster preserved. Original grayscale raster converted to baseline RGB JPEG with sRGB ICC profile and nonzero 72-dpi density; native dimensions, orientation and image content preserved.",
+        "role": "decorative title illustration",
+        "sequence": 2,
+        "source_page": 22,
+        "transformation": {
+          "crop": null,
+          "flip": null,
+          "method": "original embedded raster, grayscale to RGB/sRGB, baseline JPEG normalization",
+          "rotation_degrees": 0,
+          "source_object": 96
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A pale illustration of an ornate open gateway.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-3.jpg",
+        "repository_path": "public/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-3.jpg",
+        "rights_note": "No image credit or article-specific permission notice is printed. Clean source image object 120; separate publisher typography, page furniture and any frame omitted. The sole source raster is already pale. PDF image dictionary has no soft mask and the paint stream applies no opacity or colour wash. No exact original blend is established, so the pale pixels are preserved without reversal or contrast adjustment. Separately painted body text and continuation banner omitted. Original grayscale raster converted to baseline RGB JPEG with sRGB ICC profile and nonzero 72-dpi density; native dimensions, orientation and image content preserved.",
+        "role": "article background illustration",
+        "sequence": 3,
+        "source_page": 29,
+        "transformation": {
+          "crop": null,
+          "flip": null,
+          "method": "original embedded raster, grayscale to RGB/sRGB, baseline JPEG normalization",
+          "rotation_degrees": 0,
+          "source_object": 120
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "pages": [
+        22,
+        23,
+        24,
+        25,
+        29
+      ],
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "The Saviour’s Tears Over The Lost",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b",
+      "cd42f468-6b2c-5f56-abf2-82062af463d1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b3ec340f90e1ad2adaead3e4bf1917773adfb223076463cb34c1a2d28f39381b",
+    "metadata_sha256": "6858cdae5b4238d0d4b55b8f0031666dca7b073d1739ed254572ec3424599f83",
+    "structure_sha256": "7d41861256d022549aa64b75182f08b48565c3399a4c7bf1c0034df4fcc99339",
+    "text_sha256": "76a794298a888960262b4f7769c133e315a5c9961d0862eab170e8a5ca4f6600",
+    "translation_metadata_sha256": "a054f1623bc293f37c336d2844cc74ca138f790bd7f292c3323d5bed6c7eb3c0"
+  },
+  "html": "<article data-article-id=\"e942af59-8d9c-4044-a7de-1928ccf8ca87\">\n  <figure><img src=\"/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-1.jpg\" alt=\"An illustration of Jesus and a group of men looking toward a distant city.\"></figure>\n  <figure><img src=\"/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-2.jpg\" alt=\"\"></figure>\n  <blockquote><p><em>And when he was come near, he beheld the city, and wept over it, saying, If thou hast known, even thou, at least in this day, the things which belong unto thy peace! but now they are hid from thine eyes. Luke 19:41, 42</em></p></blockquote>\n  <p>Jesus Christ is the same yesterday, today, and forever. He is the same Saviour now that he was that day when he wept over Jerusalem. If he were on earth now as he was then, I have no doubt but that there are many here tonight over whom he would weep, as he did over impenitent Jerusalem. I would show you from these words that:</p>\n  <ul>\n    <li>The gospel is what belongs to your peace.</li>\n    <li>There is a day of grace.</li>\n    <li>Christ is willing and anxious to save sinners.</li>\n    <li>The gospel is what belongs to a man’s peace.</li>\n    <li>“There is no peace, saith my God, unto the wicked” (Isaiah 57:21).</li>\n    <li>It belongs to your peace of conscience.</li>\n  </ul>\n  <p>Sin is the cause of all sorrow, and the very reason that you are miserable is, because you are the servant of sin. It is the gospel that first brings peace to an anxious sinner. In it Christ and his righteousness are set forth, and it is a saving sight of him that makes the burden fall off a sinner’s back. Those of you who have come to Christ have peace: even in the midst of raging lusts and temptations, you have peace. When once you are under grace, you can say, “Sin shall no more have dominion over me.” Even when there seems to be no way of escape, either on this side or on that—even when the world is spreading out the net to ensnare the soul, still, if the eye be fixed on a living Jesus, that soul can have peace. None have true peace but those that are beholding the Lamb of God which taketh away the sin of the world. Sinner, the gospel, for as much as you despise it, is what belongs unto your peace. There is no peace out of Christ—there is no peace and safety here in this world, where Satan’s darts are flying so thick, but under the wings of Jesus. No doubt, many have peace who are out of Christ—they are quite happy, although living under the wrath and curse of God; but what is the reason? The secret lies in this, they are blind, insensible, spiritually dead. They do not know their own selves. They think they are safe, while, alas! they are standing on the brink of hell. Oh! sinner, that is the reason you are so happy; but there is a day coming, when the peace of the most careless carnal sinner among you will be eternally broken.</p>\n  <h2>In a time of trouble the gospel peculiarly belongs to your peace.</h2>\n  <p>Man is born to trouble. The past year has proved that in many of your families there have been many sicknesses, many deaths, and many last farewells among you. Who knows what will take place before this night next year? The unconverted have got no peace in the hour of trouble—they have no anchor when the storm rages—no fountain of peace—no covert from the tempest. What an awful and miserable thing it must be, to be without peace when the storm comes. It must surely be an important thing to get into Christ, before trouble, and sickness, and death comes. In truth, the gospel does belong to your peace. All the time I have been among you, I have been offering you peace. If you get Christ, you will get peace; if you never get Christ, you will never get peace. Christ is a covert from every wind. As long as you have no sickness or trouble, you may be stout-hearted, and have a kind of peace; but ah, what will you do in the hour of your calamity? “Can thine heart endure, or can thine hands be strong, in the days that I shall deal with thee?” (Ezekiel 22:14).</p>\n  <h2>The gospel gives peace at death.</h2>\n  <p>What can give you peace, O sinner, in the hour of death? Can a neglected Bible give you peace? Will it comfort you to remember that you have lived contrary to God all your life? Will you look back with pleasure on your wicked life then? Will your merry company make you merry then? Where will all your mirth have gone to in that day? Will your money avail you in the day of wrath? What will the end be of those that obey not the gospel? Will it be peace, sinner? Ah no! At present you mock at God’s people, and scorn the very thought of conversion, and do you think the end of that will be peace? You may think so. You may think these things will not make death terrible; but, oh! sinner, it is just because Satan is blinding your eyes. Sin is the sting of death; yea, these very sins which you now hug in your bosom. Your sweet cup will be poison at death. You think it sweet now; but in the end it will bit like an adder.</p>\n  <p>As sure as you are sitting here tonight, as sure as this year is passing over your heads, so sure will thy sins be turned into the worm that dieth not, and the fire that is never quenched. The judgment is at hand. Does not, then, the gospel belong to your peace? Some of you will, I believe, remember in the day of your calamity, and when there is no voice of a freely preached gospel in this house, the time when the living water ran clear at your feet, and then, then you will confess that these things belong to your peace, when they are for ever hid from your eyes. O sinner! Christ belongs to your peace. He alone can give you peace. He took away the sting of death in his own body. He is our peace.</p>\n  <p>For many a year now, I have been preaching peace to you. I have been a peace-maker. And, O brethren! why is it that you will not receive it? Why is it that ye do always resist the truth? Why will ye yet despise Christ and his gospel? Oh that you would be wise in time, and give heed unto those things which belong unto your peace!</p>\n  <h2>I come now to show you there is a day of grace.</h2>\n  <p>“If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace; but now they are hid from thine eyes.” The natural day has got its dawn, its noon, and its midnight; so, I believe, has the day of grace. Jerusalem had its dawn, when the prophets stood and told of a coming Saviour. It had its noon, when Jesus stood and cried, “If any man thirst let him come unto me, and drink” (John 7:3 7). And it had its midnight, when he wept over it, and said, “If thou hadst known, even thou”, etc. The day of grace is that time during which Christ is offered to sinners. With some people that period is equal to their whole lives. They are born under the preaching of the gospel, and they live and die under it. Some divines are of the opinion that the day of grace sometimes ends before death; but whether this be true or not, one thing is certain, that there is a gradual hardening of the heart against the work of the Spirit. I have often seen this among you; you grow more hardened the longer you sit and hear the offers of salvation; you become more set upon your idols, and more inclined to follow the devices of your own hearts. I would now mention some of the seasons, which may be called days of grace.</p>\n  <h2>The time of youth.</h2>\n  <p>I do not pretend to give a reason why it is so; but God has so ordered it in his infinite wisdom, that the period of youth is the best time for being saved. It has been observed, and it is very remarkable, that in all the great revivals that have taken place in our own and in bygone days, the most of those who have been converted were young people. Jonathan Edwards states this in his narrative of the revival in New England, and Robe states the same in his account of the revival at Kilsyth in 1742. And have we not seen it among ourselves, that while young persons have been melted and converted, those who are older have only grown more hardened in sin? O young people! improve, I entreat you, your young days. Seek the Lord while yet your hearts are young and tender. If you delay, you will grow harder, and then, humanly speaking, it will be more difficult to be saved. No doubt God can save sinners at any age; but he seems peculiarly to choose the time of youth. He loves to hear an infant sing - he loves to hear praise from the mouths of babes and sucklings. Oh then, my brethren, will you not seek him in the days of your youth? Will you not call upon him while he may be found? If you let your young days pass over your heads without being saved, you will remember your misspent privileges when you are in hell, and you will bitterly mourn over them throughout all eternity.</p>\n  <h2>The time of a gospel ministry</h2>\n  <p>This also may be called a peculiar day of grace. God is very sovereign in giving and taking away this. Sometimes he sends a living ministry to a place, and then a dead one. I have observed this frequently. Jerusalem had its day of faithful preaching. For many a long year did the prophets come preaching peace. Often did God send his messengers, rising early and sending them. Often did Jesus stand in the midst of the unbelieving Jews, offering them peace, preaching to them the gospel of the kingdom; then were there days of grace, but ah! they did not know it, now they are hid from their eyes. And you too who are now before me, have had your day of grace. Will you let it pass away unimproved? O sinner! will you enter upon another year with God’s wrath hanging over your head? Oh is it not an awful thing to let year after year pass over you, and yet remain unsaved? A few hours more now will close this year, and you do not know if ever you will see the close of another one. The last enemy may have come to many of you, and you called to give in your account before this night twelve months. O sinner, strive to enter in!</p>\n  <h2>The time when the Holy Spirit is poured out on a place is a peculiar day of grace.</h2>\n  <p>At such a time there are many pressing into the kingdom. “The kingdom of heaven suffers violence, and the violent take it by force” (Matthew 11: 12). It seems easier, humanly speaking, to be saved at such a time as that. Brethren, you have had such a time, and it was an easy matter for you to be saved, that year when I was away from you; but ah! many of you let it pass by. It may indeed be said of many here, “The harvest is past, the summer is ended, and we are not saved” (Jeremiah 8:20). O brethren! you have been a highly favoured people; but remember these days of gospel mercies will soon be gone, never more to return, and if they leave you unsaved, oh! what miserable wretches you must be throughout eternity! You may never see such a time again, as you saw here in the autumn of 1839. Oh if you would be but wise, and know the day of your merciful visitation!</p>\n  <h2>I come now to show you that Christ is willing to save even the hardest of sinners.</h2>\n  <p>“And when he was come near, he beheld the city, and wept over it”, etc. Christ here gives two proofs that he is willing to save sinners: (1) His tears; and (2) His words. These were the tears of one who never wept but in reality; and these were the words of one who never spake but in reality. It is impossible for him to lie. “O if thou hadst known,” he said. It was a broken wish. It shows a feeling of the greatest love and tenderness. His bowels were yearning with tenderness within him, for the love he bore to their souls. His desire was a true desire. He saw them lying in their sin. They had slain the prophets, and despised their messages. He saw that they would soon crucify himself. He saw their hands red with his own blood; and yet, for all that, he wept over them. He saw the judgments that were coming on them. He saw that they would soon lie down in hell; and therefore he wept and cried, “O if thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.”</p>\n  <p>I believe there are some here tonight over whom Christ says the same. He sees that you have sinned against light, and against love, and that you have resisted the Holy Spirit these fifty-two Sabbaths which have now gone over your heads. He sees how you have withstood every warning, how you have resisted his ministers, how you have resisted and crucified the Son of God afresh, how you have wounded Christ in the house of his friends; and yet he says, “O if thou hadst known”. Perhaps, sinner, you will not turn, perhaps you will perish, and before another year has passed, you may lift up your eyes in hell, being in torments. He that cannot lie says, he would you were saved; and if you perish, sinner, your blood be on your own head. It is the very essence of the gospel that Christ is willing to save. He willeth not that any should perish, but that all should come to him and live. Some will say, why did he not save Jerusalem, if he was willing? To this I answer, that you must take the gospel as you find it. It is not your business nor mine to inquire into anything of the sort. It is sufficient for us to know that he is willing to save. He said, “If any man thirst, let him come unto me and drink” (John 7:37); “He that cometh unto me I will in no wise cast out” (John 6:37).</p>\n  <figure><img src=\"/images/articles/e942af59-8d9c-4044-a7de-1928ccf8ca87-3.jpg\" alt=\"A pale illustration of an ornate open gateway.\"></figure>\n  <p>Now, brethren, in conclusion, I beseech you, strive to enter in at the strait gate. Many have entered, why not you? It may be you have seen your parents, or your children, or your wife, or your husband entering in, and oh! why should not you? If you would be wise, strive to enter in. Will you let this night go by, and will you enter upon another year with an unsaved soul? You may never sit in these pews again, and yet will you despise the message still. Ye know not what you do. O brethren! it is a wonder I can stand and look upon you sitting there, with dry eyes. Bethink yourselves in time. Are you still content to remain children of wrath, enemies of God, and heirs of hell? “O that my head were waters, and mine eyes a fountain of tears, that I might weep day and night for the slain of the daughter of my people!” (Jeremiah 9: 1).</p>\n  <p>Amen.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7a28131239d330219530e7c9ba207cac4f3d527ba1e7aee0a04e0e756905c870"
+}

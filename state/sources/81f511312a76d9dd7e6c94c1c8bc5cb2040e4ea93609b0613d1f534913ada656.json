@@ -1,0 +1,91 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Athens, Wisconsin",
+          "name": "Lee Rufener"
+        }
+      ],
+      "raw": "Lee Rufener\nAthens, Wisconsin"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "968835a0-60ce-4fd2-8ec7-e9373d7a56c5",
+    "images": [
+      {
+        "alt": "Red barn and silo in a snow-covered field.",
+        "caption": null,
+        "credit": "© Photography by Laurel",
+        "public_path": "/images/articles/968835a0-60ce-4fd2-8ec7-e9373d7a56c5-1.jpg",
+        "repository_path": "public/images/articles/968835a0-60ce-4fd2-8ec7-e9373d7a56c5-1.jpg",
+        "rights_note": "The page-2 masthead states this source credit; no separate licence or reuse terms are stated. Only full-page scanned RGB object 31 exists on PDF page 6, followed by invisible OCR; no clean underlying photograph, separable overlay, mask or vector image exists. Native-pixel crop [0, 1390, 1560, 2048] (left, top, right, bottom) without resizing, rotation or pixel repair. The bottom photograph is cropped below all prose; the irreversibly scanned top fade and faint reverse-page show-through remain unchanged. Baseline RGB JPEG uses the original sRGB IEC61966-2.1 profile (PDF object 11) and nonzero 72-dpi density; no CMYK conversion was needed.",
+        "role": "closing photograph",
+        "sequence": 1,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1390,
+            1560,
+            2048
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, original source sRGB ICC profile, nonzero 72 dpi",
+          "method": "native source-pixel crop of the sole scanned page raster; no synthesized pixels",
+          "output_dimensions": [
+            1560,
+            658
+          ],
+          "rotation_degrees": 0,
+          "source_object": 31
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas); complete decoded pixels matched Pillow exactly",
+          "color_space": "sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; EOI at EOF; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 4
+    },
+    "subtitle": "The LORD is the portion of mine inheritance and of my cup: thou maintainest my lot. The lines are fallen unto me in pleasant places; yea, I have a goodly heritage. Psalm 16:5, 6",
+    "title": "A Good Heritage",
+    "topics": [
+      "c477861f-c67f-529a-a8f0-8efa036eca44"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "724aaa905eabfb7bc13db1e7859003ea202c0fad35aae3a948b7ff57b1cdf2db",
+    "metadata_sha256": "b58eab6da9a078dec636ef5f091adbac4251bee174321abdb3bf8a23a787a65b",
+    "structure_sha256": "ba81e0119058c32e758dd7be13dbf6c99bf20663d2b5e22c3b32b44b6ca502e2",
+    "text_sha256": "8e11d47919844d6f0ccf324e9f5f0b8428548545967f6d928872acc5f4f74dde",
+    "translation_metadata_sha256": "92460dcc04a094db0352b64d1a2cf4e7b1d3b72b5a4b33a3618c3b5a8dae9c29"
+  },
+  "html": "<article data-article-id=\"968835a0-60ce-4fd2-8ec7-e9373d7a56c5\">\n  <p>People always regard an inheritance as a blessing. It can be invigorating to think that someone left behind a monetary endowment for us to enjoy. It is a gift that we did not earn, but merely became beneficiaries because of our relationship to the giver. While an inheritance is meant to be a final act of grace left by the deceased, many deceased benefactors would be tremendously disappointed at the familial quarrels that the dividing of an inheritance has produced in our day. Perhaps it is better that they not know.</p>\n  <p>As born-again believers, we, too, have a heritage left behind by our deceased Lord. While some will claim that this inheritance includes a betterment of earthly gain, most of us will acknowledge the content of this endowment to be spiritual in nature. He who has God and wealth has no more than he who has God only. While those who win the lottery or receive an exorbitant sum of money may experience an initial exhilarating rush of joy, statistics prove that the end results often yield less contentment after the gift is secured. It is not so with the believer, for if he receives not the fullness of joy, he has obviously not claimed his inheritance.</p>\n  <p>Those who truly attain a portion of God’s estate will find themselves in extreme contentment, while those who pursue personal happiness and gain will reap but a dismal heritage destitute of joy. The amount of our inheritance that we claim is in direct proportion to the amount that we can appreciate and recognize the lines of God. Those who dwell (or yearn to dwell) outside those lines are the discontent souls who are “ever learning, and never able to come to the knowledge of the truth” (2 Timothy 3:7). But the truth is that God has drawn the lines, set the boundaries of our portion, and maintains our lot. This may seem elementary and easy to give assent to until we consider the source that God chooses to use in establishing those boundaries. When the lines of providence are drawn by the finger of God in extraordinary fashion, most of us will duly recognize that God knows best. Even insurance companies recognize natural disasters as an act of God. It is when our hardships are aided by “unreasonable” men that we question God’s involvement. Parents, pastors, and people who play a part in our discomfort are too often deemed as senseless, careless, and useless to any good. The Hebrews endured a great fight of afflictions at the hands of earthly men and “took joyfully the spoiling of their goods, knowing that they had in heaven a better and an enduring substance” (Hebrews 10:34). While their physical discomforts ran high, they knew that their inheritance was still firmly intact. These lines were not drawn by earth, wind, or fire, but by unreasonable men. God may set limits around our finances, social life, health, or even our ministry. He may use parents, children, ministers, brethren, law enforcement, or even our spouse. How natural it is to resist the medium and tempt the Lord with our bitter resistance.</p>\n  <p>The sweet psalmist of Israel was left behind in the sheep pasture while his brothers went to the feast with Samuel. They accused him of pride and naughtiness of heart when he brought his gift to his brethren on the battlefield. His prize for killing Goliath was given to another. He received a javelin in exchange for playing on the harp. After being exiled from the palace, he was chased like a flea in the wilderness. His own goods were spoiled at Ziklag, and his comrades turned against him, “but David encouraged himself in the LORD his God” (1 Samuel 30:6). David refused to give in to the temptation that God’s lines were unjust and allowed the reins to instruct him to gladness. “I will bless the LORD, who hath given me counsel: my reins also instruct me in the night seasons. I have set the LORD always before me: because he is at my right hand, I shall not be moved. Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption. Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalm 16:7-11). Though the outward circumstances lowered upon him like a formidable cloud and the howling thunderhead drenched his menaced soul, David realized that God was maintaining his lot and that his heritage was still shining forth as the dawning rays of a new spring day. This is not impossible, but rather a visionary choice that David made despite his very present feelings.</p>\n  <p>“Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation” (Romans 13:2). These are strong words and ones that we generally prefer not to entertain. Many are the souls that walk away from their authorities with an indifferent attitude. We would think twice about it if we knew that we were stepping outside the lines of God. Rebellious hearts (kings of the earth) take counsel and camaraderie from other souls just like themselves and feel justified in their position to “obey God rather than men.” These have little understanding of what spirit they are. “The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed, saying, Let us break their bands asunder, and cast away their cords from us” (Psalm 2:2-3). Why do they brace themselves? What don’t they like? Bands and cords, reins and restrictions, lines and limitations. Like the wicked husbandmen who will not have this man rule over us. . . The Lord shall have them in derision.</p>\n  <p>We must learn to rejoice and be glad within our parameters. We may grow disgruntled when we perceive that others have received a better portion. And we cry out in dismay, “What about John?” Our loving Lord shall gently turn our gaze back to the lines that He has personally drawn for us. David wanted to build a house for God, but a line was drawn between him and his aspirations. We may have the ambition to do great things in the service of our Lord, and find a limiting force in our path. In these times, we must turn our face toward heaven and relent with the psalmist, “Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalm 16:11).</p>\n  <p>Boundaries and gladness – what a glorious marriage. Each intensifies and enhances the other, while the true Gospel flourishes. Paul longed to be rid of the limitations, while his thorn in the flesh dogged his ministry, until he came to the revelation that God was actually being exalted in it rather than minimized. Thus, he readily embraced the obstacles: “Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ’s sake” (2 Corinthians 12:10). Herein, we behold boundaries and gladness, and though we may suffer trouble, “as an evil doer, even unto bonds, the word of God is not bound” (2 Timothy 2:9). When we lay hold of this inheritance, we are then also capable of. . .</p>\n  <h3>Leaving a Legacy</h3>\n  <p>My parents recently informed me that upon their deaths, the funds they have accumulated in their lifetime will go to charitable organizations. I rejoice in that decision. I have long ago arrived at the conclusion that I am already harvesting the greatest heritage my parents could ever bestow upon me, and I wish nothing more. They intricately taught their children principles of work, saving, doing without, and frugality. They will leave a convincing legacy of contentment to their offspring that happiness is not attained by the abundance of possessions and finery.</p>\n  <p>All his life, Jacob resisted the lines of God. He grabbed his brother’s heel at birth, finagled Esau’s birthright, supplanted his father’s blessing, and swindled Laban’s flock. After all the conniving schemes that his finest efforts had produced to get his own way, his drowsy vision awoke to the day that it had only brought him immense sadness. “He refused to be comforted; and he said, For I will go down into the grave unto my son mourning” (Genesis 37:35). So deep was his sorrow that he could scarcely rejoice when his providence had turned, and Joseph was alive. “And Israel said, It is enough; Joseph my son is yet alive: I will go and see him before I die” (Genesis 45:28). “And Israel said unto Joseph, Now let me die, since I have seen thy face, because thou art yet alive” (Genesis 46:30). He bitterly testified before the most powerful ruler in the present world,” The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been” (Genesis 47:9).</p>\n  <p>While the heritage of God had not changed, Jacob had yet to fully secure it. The schemes he had manufactured in an effort to extract joy from life had yielded, but a ball and chain about his heart, and he longed for an early death. For years, Jacob had been convinced that God would bless him if he but helped himself to his personal portion, but his sin added not an ounce to his satisfaction. For those of us who have spent our best energies pursuing that which is earthly, there is still hope. It is not so much the road where we have walked, but the destination wherewith we end.</p>\n  <p>“By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, leaning upon the top of his staff” (Hebrews 11:21). Here is the accompaniment to Jacob’s induction into the Hall of Faith. With 130 years of the bitter past behind him, one told Jacob, “Behold, thy son Joseph cometh unto thee: and Israel strengthened himself, and sat upon the bed” (Genesis 48:2). Jacob took deliberate action and erected a patriarchal legacy for his princely grandsons. He established clear lines for them that their inheritance would not be claimed within the palaces of Egypt but among the people of God.</p>\n  <p>“And Joseph took them both, Ephraim in his right hand toward Israel’s left hand, and Manasseh in his left ... And Israel ... blessed Joseph, and said, God, before whom my fathers Abraham and Isaac did walk, the God which fed me all my life long unto this day” “Genesis 48:14-15” This is an entirely different account of his life than the one he shared with Pharaoh. To reiterate his previous testimony of his earthly heartaches would have only sent a gloomy message to them that life within Jehovah’s lines is sad and disappointing. But a new song of faith has penetrated his soul, and Jacob’s heart metamorphosis has wrought a Legacy of. . .</p>\n  <h3>Hope</h3>\n  <p>“The Angel which redeemed me from all evil, bless the lads; and let my name be named on them, and the name of my fathers Abraham and Isaac; and let them grow into a multitude in the midst of the earth” (Genesis 48:16). He has repented of his cynical attitude and is now communicating hope. Though his outward man is perishing, his inward man is being renewed day by day. The deep wounds that have penetrated his heart and caused his feet to drag throughout his sojourn have now been transferred into the fullness of joy. Though he had been given the avid promises and angelic protection all along, they have recently come into the view of his dimmed eyes. While he has not a pittance of the wealth to leave them that Egypt offers, he now endows an eternal heritage to them that renders earth’s pleasures pathetic.</p>\n  <h3>Vision</h3>\n  <p>“When Joseph saw that his father laid his right hand upon the head of Ephraim, it displeased him” (Genesis 48:17). Joseph’s reasoning resisted this visionary prophecy, but Jacob insisted that Ephraim would be blessed above his older brother. God blesses us apart from any merit on our part. Common reasoning would choose the skillful archer Ishmael over the quiet Isaac; the rugged hunter, Esau, over the conniving tent dweller, Jacob; the older, Manasseh, over the younger, Ephraim. These are the lines that God has maintained, and our inheritance will be found complete within them. Many parents try to reason and ascertain that each child is given exact equal treatment so as to settle all disputes among them. This may be noble, but also impossible. If children have not received the vision that fairness is not a prerequisite to happiness, they will never rest content at night, let alone after the departure of their parents. To question the boundaries of our God was the sin that beguiled our mother Eve. Her children must be taught to resist it.</p>\n  <h3>Fullness of Joy</h3>\n  <p>“In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh ... but God shall be with you, and bring you again unto the land of your fathers” (Genesis 48:20-22). Though these two boys have been raised in the most advanced kingdom on earth, Jacob insists that they discard their golden opportunity of a political career and become despised shepherds instead. Their joy will be found in serving the God of their fathers, choosing rather to suffer with the children of God than to enjoy the pleasures of sin for a season. The earthly joys and toys that they have grown accustomed to are but dust in the wind compared to the solid joys and lasting treasure that Zion’s children know. This piece of heavenly real estate that Jacob now possesses forms the heritage that is transferred to the next generation, who will now sacrifice the trinkets in their hands to bask in the bountiful boundaries of bliss.</p>\n  <figure>\n    <img src=\"/images/articles/968835a0-60ce-4fd2-8ec7-e9373d7a56c5-1.jpg\" alt=\"Red barn and silo in a snow-covered field.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "216d78f2ccb1e131e8efaa1fe823f3f3bc9d12b88cebc2715d1b69caeeb35d0c"
+}

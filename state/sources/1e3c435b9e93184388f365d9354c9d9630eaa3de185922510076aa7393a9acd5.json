@@ -1,0 +1,122 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Mike Atnip",
+          "role": "Adapted and revised"
+        }
+      ],
+      "raw": "Adapted and revised by Mike Atnip"
+    },
+    "categories": {
+      "additional": [
+        "0648d4df-242a-5815-8d22-08b555d1b542"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "329d3201-70d8-45e6-9f71-9ccbd09ce9a7",
+    "images": [
+      {
+        "alt": "Portrait of David Zeisberger",
+        "caption": null,
+        "credit": null,
+        "pdf_object_xref": 40,
+        "public_path": "/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-1.jpg",
+        "repository_path": "public/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-1.jpg",
+        "rights_note": "Original embedded PDF image object 40; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            218,
+            191
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 40,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            218,
+            191
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      },
+      {
+        "alt": "Zeisberger preaching to a seated group among trees",
+        "caption": null,
+        "credit": "Schüssele, of Philadelphia",
+        "pdf_object_xref": 44,
+        "public_path": "/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-2.jpg",
+        "repository_path": "public/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-2.jpg",
+        "rights_note": "Original embedded PDF image object 44; image dictionary, paint order, clipping paths and page rendering inspected. No soft mask or transparency group. Separately painted typography, page furniture, frames, rules and caption/pull-quote panels omitted by exporting the base raster. No separate image reuse restriction is printed. Grayscale samples replicated into RGB/sRGB without inversion; baseline JPEG encoded with nonzero 72 dpi density. Printed illustration attribution: Schüssele, of Philadelphia. No licence is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 11,
+        "transformation": {
+          "colour_conversion": "grayscale to RGB/sRGB without inversion",
+          "export_pixel_dimensions": [
+            573,
+            373
+          ],
+          "method": "original embedded image extraction",
+          "pdf_object_xref": 44,
+          "source_colour_space": "L",
+          "source_pixel_dimensions": [
+            573,
+            373
+          ]
+        },
+        "verification": {
+          "FFmpeg_full_decode": "passed without decode warnings",
+          "Pillow_full_decode": "passed without warnings",
+          "browser_compatible_renderer": "Skia Canvas 2D (@napi-rs/canvas): full-resolution decode and paint passed; rendered contact sheet visually checked",
+          "encoded_colour_space": "RGB/sRGB",
+          "full_final_raster_visually_inspected": true,
+          "overlay_audit": "base raster exported; removable page overlays omitted",
+          "source_base_and_pdf_visually_compared": true
+        }
+      }
+    ],
+    "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 10
+    },
+    "subtitle": "Apostle to the American Indians",
+    "title": "DAVID ZEISBERGER",
+    "topics": [
+      "83aa35f7-eafc-5468-a36d-196ceb1d875c",
+      "bd34abbc-25f2-5c08-87bf-2245fcc82609"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "294d07cc23fd85954d98bf02e664f80614c31e7bb5c14c92000a0a9d5caf931d",
+    "metadata_sha256": "d098bfb051ba3ad9a51d864598e89de9c3c5e4c0b301f04ddbf481a20b7baef6",
+    "structure_sha256": "096d98f8ba0b10694847a5d86cac4eb877d280310e70eedc18e6c764609951d9",
+    "text_sha256": "9c8d55f902d3c8d74ca37ecd42f2a9ba02a3b4591518b37743c292d5d2d38a58",
+    "translation_metadata_sha256": "6d39fb018ca0f4540471868ccd95679e920a28f0703996737175ee07520fe4a8"
+  },
+  "html": "<article data-article-id=\"329d3201-70d8-45e6-9f71-9ccbd09ce9a7\">\n  <figure>\n    <img src=\"/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-1.jpg\" alt=\"Portrait of David Zeisberger\">\n  </figure>\n  <p>David Zeisberger was a German, born April 11, 1721 at Zauchtenthal, in Moravia. He had come with his parents to Herrnhut; had followed them to Georgia, and later yet to Bethlehem, Pennsyvania. In this latter place he began his acquaintance with the Delaware tribe, among who he would minister for so many years.</p>\n  <p>For sixty-three years he lived among the Indians, learning their ways. He was admitted a member of the Six Nations, received an Indian name, and became a member of an Indian family. He understood the hidden science of belts and strings of wampum; he could unriddle their mysterious messages and make speeches in their bombastic style; and he spoke in their speech and thought in their thoughts, and lived their life in their bark huts. Above all, he loved the red-brown Indians themselves.</p>\n  <p>Full well he knew what trials awaited him. If the reader has formed his conception of the North American Indians from reading novels, he may think that Zeisberger spent his life among a race of gallant heroes. The reality was rather different. For the most part, the Indians of North America were the reverse of heroic. They were bloodthirsty, drunken, lewd and treacherous. They spent their time in hunting buffaloes, smoking pipes, lolling in the sun, and scalping each other’s heads. They wasted their nights in tipsy revels and dances by the light of the moon. They cowered in terror of evil spirits and vicious and angry gods. As long as he had such a grand Gospel to preach, he felt sure that he could make these savages sober, pure, wise, kind and brave, and that God would ever shield him with His wing. He has been called “The Apostle to the Indians.”</p>\n  <p>He began his work with the League of the Iroquois, commonly called the Six Nations. At Onondaga, their headquarters, where he and Bishop Cammerhof had arranged to meet the Great Council, the meeting had to be postponed till the members had recovered from a state of intoxication. But Cammerhof addressed the chiefs, and received permission for two missionaries to come and settle down. From there, still accompanied by Cammerhof, Zeisberger went on to the Senecas. He was welcomed to a pandemonium of revelry—the whole village was drunk. As he lay in his room he could hear fiendish yells rend the air; he went out with a kettle, to get some water for Cammerhof, and the savages knocked the kettle out of his hand. Later, when the shades of evening fell, he had to escape from a mostly-naked group of lascivious women, whose long hair streamed in the night wind, and whose lips swelled with passion. To top it off, on a return trip from these nations, he spent 51 days in the New York City jail for his biblical conviction of refusing to swear an oath.</p>\n  <p>But Zeisberger had a frame of steel, although he only measured a bit over five feet tall. Passing on from tribe to tribe—perhaps a score by the time he died—he strode through darkling woods, through tangled thickets, through miry sloughs where they had to pry their horses out of the mud, through swarms of mosquitoes; and anon, plying his swift canoe (of which many a time he himself had helped to build), he sped through primeval forests, by flowers of the tulip tree, through roaring rapids, round beetling bluffs, past groups of mottled rattlesnakes that lay basking in the sun. On several occasions he was the intended target of assassination schemes—from both red-skinned and white-skinned haters of the Gospel.</p>\n  <p>At the present time, in many Moravian houses, may be seen an engraving of a picture by Schüssele, of Philadelphia, representing Zeisberger preaching to the Indians. The incident occurred at Goschgoschünk, on the Alleghany River. In the picture the service is represented as being held in the open air; in reality it was held in the Council House.</p>\n  <figure>\n    <img src=\"/images/articles/329d3201-70d8-45e6-9f71-9ccbd09ce9a7-2.jpg\" alt=\"Zeisberger preaching to a seated group among trees\">\n  </figure>\n  <p>In the centre of the house was the watch-fire. Around it squatted the Indians—the men on one side, the women on the other—and among those men were murderers who had played their part, twelve years before, in the massacre of several Moravian missionaries on the Mahony River. As soon as Zeisberger rose to speak, every eye was fixed upon him; and while he delivered his Gospel message, he knew that at any moment a tomahawk might cleave his skull, and his scalp hang bleeding at the murderer’s girdle. “Never yet,” he wrote, “did I see so clearly painted on the faces of the Indians both the darkness of hell and the world-subduing power of the Gospel.”</p>\n  <p>As the years rolled on, this dauntless warrior of the faith won the confidence of these suspicious savages. He was known as “Friend of the Indians,” and was allowed to move among them at his ease. In vain the sorcerers plotted against him. “Beware,” they said to the simple people, “of the man in the black coat.” While Zeisberger learned the ways of the Indians, he did not adapt to all of them. He practically always wore his black coat.</p>\n  <p>At times, in order to bring down the vengeance of the spirits on Zeisberger’s head, they sat up through the night and gorged themselves with swine’s flesh; and, when this mode of enchantment failed, they baked themselves in hot ovens till they became unconscious. Zeisberger still went boldly on. Both the Six Nations and the Delawares passed laws that he was to be uninterrupted in his work. At Lavunakhannek, on the Alleghany River, he met the great Delaware orator, Glikhikan, who had baffled Jesuits and statesmen, and had prepared a complicated speech with which he meant to crush Zeisberger for ever; but when the two men came face to face, the orator fell an easy victim, forgot his carefully prepared oration, murmured meekly: “I have nothing to say; I believe your words,” and later became one of his warmest friends and supporters. In like manner Zeisberger won over White Eyes, the famous Delaware captain. “I want my people,” said White Eyes, “now that peace is established in the country, to turn their attention to peace in their hearts. I want them to embrace that religion which is taught by the white teachers. We shall never be happy until we are Christians.”</p>\n  <p>Zeisberger was a splendid organizer. As soon as the French and Indian War was over, he founded a number of Christian Indian settlements, in which alcoholic beverages were not allowed, and taught the inhabitants the arts of industry and peace. He founded the settlements of Friedenshütten (Tents of Peace), on the Susquehanna, Goschgoschünk, on the Alleghany, and Lavunakhannek and Friedenstadt (Town of Peace), on the Beaver River which flows into the Ohio below Pittsburgh. In what is now the state of Ohio, he founded the settlements of Schönbrunn (Beautiful Spring) with its meeting house that could accomodate 500 persons (at times over-filled with natives listening to the message from Heaven), Gnadenhütten (Tents of Grace), Lichtenau (Meadow of Light), and Salem, on the Muskinghum and Tuscawaras rivers. His settlements were like diamonds flashing in the darkness. Instead of untamed wilderness were nut trees, plums, cherries, mulberries and all manner of fruits; instead of scattered bark huts, orderly streets of log houses; instead of nakedness, modestly dressed and veiled women; instead of filth, neatness and cleanliness; instead of drunken brawls and orgies, the voice of children at the village school, and the voice of daily morning and evening prayer and Delaware hymns.</p>\n  <p>No longer were the Indians in these settlements aimless wandering hunters. They were now steady business men. They conducted model farms, cultivated gardens, grew corn, made sugar from the maples and butter from their herds of cattle, and learned to manage their local affairs as well as a City Council. At the head of each settlement was a Governing Board, consisting of the Missionaries and the native “helpers”; and all affairs of special importance were referred to a general meeting of the inhabitants. The system filled the minds of visitors with wonder. “The Indians in Zeisberger’s settlements,” said Colonel Morgan, “are an example to civilized whites.”</p>\n  <p>And no longer were the Indians ignorant savages. Zeisberger was a great linguist: he mastered the Delaware and Iroquois languages, as well as becoming useful in other related Indian dialects—this in addition to German, Dutch and English. For the benefit of the converts in his settlements, and with the assistance of Indian sachems, he prepared and had printed a number of useful books: “A Delaware Indian and English Spelling-book,” with an appendix containing the Lord’s Prayer, the Ten Commandments, some Scripture passages and a Litany; next, also in the Delaware tongue, “A Collection of Hymns for the use of the Christian Indians,” including the Easter, Baptismal and Burial Litanies; next, a volume of “Sermons to Children,”; next, a translation of Spangenberg’s “Bodily Care of Children”; next, “A Harmony of the Four Gospels”; and last, a grammatical treatise on the Delaware verb conjugations. He prepared a lexicon, in seven volumes, of the German and Onondaga languages, an Onondaga Grammar, a Delaware Grammar, a German-Delaware Dictionary, and other works of a similar nature.</p>\n  <p>Thus did Zeisberger, explorer and scholar, devote his powers to the physical, moral and spiritual improvement of the Indians. For some years his success, helped by several other capable Moravian missionaries, was brilliant: by the time he died, several thousand converts would be counted among practically every tribe that inhabited Pennsylvania, Ohio, New York, Ontario, the north parts of Virginia and Kentucky, and eastern Indiana and Michigan. True, many of these thousands backslid and became apostates. But equally true is the fact that a goodly number would later return to the Christian villages and tearfully be reconciled to Christ and their beloved David.</p>\n  <p>And yet the name of this dedicated man is almost unknown. At the very time when his influence was at its height, the American War of Independence broke out, and Zeisberger and his converts, as an Indian orator put it, were between two exceeding mighty and wrathful gods, who stood opposed with extended jaws. Each party wished the Indians to take up arms on its side. But Zeisberger urged them to be neutral. When the English twice sent the hatchet of war to the Delawares, the Delawares, under the influence of Zeisberger and his non-resistant converts, politely twice sent it back. When a letter came to Zeisberger, requesting him to arouse his converts, to put himself at their head, and to bring the scalps of all the rebels (American colonists) he could slaughter, he threw the sheet into the flames. His LORD commanded him to be non-resistant, and he would remain that way. Both sides of the war were received and fed in his communities. For this policy he was suspected by both sides. At one time he was accused before an English court of being in league with the Americans. At another time he was accused by the Americans of being in league with the English. While both sides deplored him for not taking up arms on their behalf, both sides equally admired him for the undeniable work of grace that was going on around him. It is in the records that both the American and the British military officials encouraged—and at times materially helped—him in his work.</p>\n  <p>On a return back to Bethlehem in the year 1781, Zeisberger, at the persuasion of his friends, “finally” married, at Lititz, Pennsylvania. Less than a week later the newlyweds took off for their return trip to their “beloved brown brethren”—he 60, she 37. For the remaining 27 years of his ministry among the Indians, Zeisberger and his faithful wife would never visit “civilization”. Only after his death would she return to live among the widows at Bethlehem.</p>\n  <p>At length the thunderbolt fell. As some of the Christian Indians were engaged one day in gathering up corn to take back to their starving brethren who had been forced from their prosperous villages on the Tuscarawas, the American troops of Colonel Williamson appeared upon the scene. Disarming the innocent victims and appearing as friends, they then accused them of having sided with the British. In vain the so-called “praying Indians” declared that they were neutral and non-resistant, but this defence was not accepted, and the vengeful militia decided to put the whole group to death. Among the victims were six National Assistants, an Indian lady who could speak English and German, twenty-four other women, eleven boys and eleven girls—over 90 souls. That sad day, Zeisberger lost one third of his congregation by death.</p>\n  <p>The Blood-Bath of Gnadenhütten was a hideous crime. It scattered the already displaced Indians of the Mission. As the struggle over ownership of the Ohio valley raged on, Zeisberger found himself and his converts driven from one settlement after another. Already, before the war broke out, this process had commenced; and altogether it continued for twenty years. Some 15 times Zeisberger would “pull up stakes” and seek a new start in some other place.</p>\n  <p>As an old man, now 77 years of age, he left the prosperous mission town of Fairfield in southern Ontario to return to the destroyed villages in the Tuscarawas valley of Ohio, and began Goshen. God would allow him to spend over a decade there.</p>\n  <p>Amid the Indians he had lived; amid the Indians, at Goshen, he lay on his death-bed, at 87 years of age. As the news of his approaching home-going spread, the chapel bell was tolled: his converts, knowing the signal, entered the room; and then, uniting their voices in song, they sang him home in triumphant Delaware hymns which he himself had translated from the hymns of the Ancient Moravian Brethren Church.</p>\n  <p><em>Adapted and revised by Mike Atnip<br>from a section of: A HISTORY OF THE<br>MORAVIAN CHURCH, J. E. Hutton, M.A.<br>(Second edition, Revised and Enlarged.) 1909</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b3128236b0cf61cd45ca2e6bf6d9ad2bc2e6d0a957389d93e693fa39ed39d092"
+}

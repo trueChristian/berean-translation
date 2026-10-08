@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Brother Dean",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Brother Dean"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "acb415d4-2d68-4cc5-a06c-06b06ad2735c",
+    "images": [],
+    "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "3a099ef5-76ef-5702-9290-65292d850d21",
+      "c8f99447-f3d3-5eb1-986f-f30a50b12929"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e4de26bedc4342c73beb363fb6b0b3d1285f2a2aa86fe22e64e90fae4496af92",
+    "metadata_sha256": "12a9d42d4bef15e27203225ad3c5e2bb65965ce7b742cb942778590551535cf3",
+    "structure_sha256": "346363f4f83748d943c8afcd4ed5d49b7632b44cb36d7a2aef5be287c181433e",
+    "text_sha256": "e6c0e89f9ac8a0f2318f2c3cced5dcf98b3e719bf4faacd1c166edf3e0a0dc6e",
+    "translation_metadata_sha256": "3d233b09cdaed9678b7711b2dae7dc373c804d23115ea20d4b37b7463e1d9c30"
+  },
+  "html": "<article data-article-id=\"acb415d4-2d68-4cc5-a06c-06b06ad2735c\">\n  <p>I don’t like it when Christtianity makes the news. When it does, it’s usually embarrassing. This month was no different. Major news network CNN recently ran a story showcasing a dispute between two professing Christians. On one side of the argument was the politically conservative Glenn Beck, and on the other side was liberal political writer and editor Jim Wallis. The scandal that CNN thought newsworthy was that the conservative talk show host Glenn Beck had recently spouted off a denunciation of all churches involved in programs that help the poor using the title “social justice.” Beck said: “I beg you, look for the words ‘social justice’ or ‘economic justice’ on your church’s web site. If you find it, run as fast as you can. ‘Social justice’ and ‘economic justice’—they are code words. Now, am I advising people to leave their church? Yes!”</p>\n  <p>Firing back from the left, Jim Wallis challenged Beck, stating that social justice was actually the very heart of the Gospel ... “But in any case, what he has said attacks the very heart of our Christian faith, and Christians should no longer watch his show.”</p>\n  <p>After CNN showcased the spat between these two, they sat back and watched as “Christian” Republicans and “Christian” Democrats all over the country duked it out. Now, it is not my intent to add to this dispute by taking sides in this magazine. However, it is my intent to challenge this entire expression of what they call Christianity. Turns out that the conservative Republican, Glenn Beck, is actually a Mormon. Jim Wallis, who has claimed political neutrality for a long time, unfortunately falls way too closely in line with the Democratic agenda. And while I agree that the Gospel preaches a redistribution of wealth from the rich to the poor, I think there is a reason that Pentecost doesn’t hit on April 15<sup>th</sup>. I just don’t think the federal income tax was what the Apostles were talking about in Acts 2 and 4 when they said they were “of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; but they had all things common.”</p>\n  <p>This was a powerful, voluntary response to a spiritual endowment—not forced politics. What the church needs is power—not politics; unction—not political functions; anointing—not amendments; Bible—not bureaucracy; the Spirit—not Socialism; the Gospel—not the GOP. All these misguided allegiances, confused agendas, misplaced loyalties, and futile activisms will only end in unkept promises and public humiliation. The Kingdom of God still works, and it is still the cure for a dying, sinful world. Anything less is a waste of time.</p>\n  <p>Oh, that we might be of those of whom it was prophesied long ago—that we would give this testimony: “They shall speak of the glory of thy Kingdom, and talk of thy power!” Ps. 145:11 And also in the verse that follows, that we might “make known to the sons of men His mighty acts, and the glorious majesty of His Kingdom!” Today the church suffers greatly from divided loyalties. As long as Christians attempt to be of both kingdoms, there will be confusion and every evil thing. We cannot propagate both the kingdom of this world and the Kingdom of God—the two simply do not mix. In light of all this, it would be our hope that we might help bring some clarity in this day of such confusion. Just where does our allegiance lie as followers of Christ? We need to keep our eye single, for the Deceiver is at work to water us down and sift us like wheat. In the article “Beware of the Leaven of Herod,” we have attempted to review the way the church has dealt with politics throughout her history. It is our hope that by examining the past, we might avoid some of the same pitfalls in the future. May the Lord give us an understanding mind, that we might persevere steadfast to the end!</p>\n  <p>Also in this issue we take a look at little Samuel’s boldness in telling Eli his sins. This needed article helps us discern our motives in speaking up, and in being quiet. Don’t miss the collection of quotes from historic Anabaptism concerning the new birth. They’re meaty reading, but worth the effort it takes to chew them well.</p>\n  <p>We doubled up on The Sisters’ Corner section and have two articles this issue dealing with areas that relate especially to ladies. See the article about “Wading Ducks” to find out what women and ducks ought to have in common. We also include, in the second <em>Sisters’ Corner</em>, some guidelines concerning the touchy subject of boy/girl relationships, written by a young sister who has made her own mistakes in the past and desires to help others not make the same missteps. Our Seedsower award goes to a sister in a local congregation here in Lancaster County. And, amid other shorter articles, we have pulled Anabaptist missionary Ambrosius Spittelmayr out of obscurity and looked at his life and evangelization methods.</p>\n  <p>May this issue of <em>The Heartbeat of the Remnant</em> inspire you to follow hard after Jesus!</p>\n  <p>~Brother Dean</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "ae17db3a0dfec1fbeb7b19aba42f68dfe4441357c16189eaaae678835b69771c"
+}

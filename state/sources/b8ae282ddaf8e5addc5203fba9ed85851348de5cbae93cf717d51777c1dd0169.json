@@ -1,0 +1,96 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "An Anonymous Firstfruit",
+          "role": null
+        }
+      ],
+      "raw": "—An Anonymous Firstfruit"
+    },
+    "categories": {
+      "additional": [
+        "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "eccdcd73-d0b6-41d3-b1b9-846efb218233",
+    "images": [
+      {
+        "alt": "Spotted apple",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-1.jpg",
+        "repository_path": "public/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-1.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Spotted apple illustration",
+        "sequence": 1,
+        "source_page": 14
+      },
+      {
+        "alt": "Smooth fresh apple",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-2.jpg",
+        "repository_path": "public/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-2.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Fresh apple illustration",
+        "sequence": 2,
+        "source_page": 14
+      },
+      {
+        "alt": "Open Bible photographed from a low angle",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-3.jpg",
+        "repository_path": "public/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-3.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Open Bible photograph",
+        "sequence": 3,
+        "source_page": 15
+      },
+      {
+        "alt": "Pineapple, pears, and citrus fruit",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-4.jpg",
+        "repository_path": "public/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-4.jpg",
+        "rights_note": "Original PDF-embedded RGB JPEG normalized to baseline RGB/sRGB, quality 93, 4:4:4, JFIF 150dpi; original dimensions, orientation, crop and image content visually preserved. The masthead says ‘Some images ©2001-2010’ and lists www.clipart.com and www.sxc.hu without associating either source with a particular image. No image-specific licence is stated in the issue.",
+        "role": "Fruit photograph",
+        "sequence": 4,
+        "source_page": 16
+      }
+    ],
+    "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Sisters’ Corner",
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 16,
+      "start": 14
+    },
+    "subtitle": null,
+    "title": "Offcasts or Firstfruits?",
+    "topics": [
+      "be5ecbbb-b97b-5534-b066-beb46cabe236",
+      "e16fa525-448d-504a-8ebc-927c62ec6e8f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "5090be161ff54fd1524d0f432ac773d3e622d56ceb9dd1760acdac16dad850b3",
+    "metadata_sha256": "7935c184232d8c254408ba92da2708921f3b681a583da36cf431c3012bdcfc94",
+    "structure_sha256": "f9dec059dea26f857cfc82c972a58aa5ea388bc4e7c776bc1468cb577c8734c7",
+    "text_sha256": "50a3cfce85b19366c9dbb97bb6a11cf23ec9988b5cc8692a69f36c694db9b6b9",
+    "translation_metadata_sha256": "0cce32600976a9067792268f19f6828a4d86be70b1c605533cd295abbaf9d955"
+  },
+  "html": "<article data-article-id=\"eccdcd73-d0b6-41d3-b1b9-846efb218233\">\n  <figure><img src=\"/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-1.jpg\" alt=\"Spotted apple\"></figure>\n  <figure><img src=\"/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-2.jpg\" alt=\"Smooth fresh apple\"></figure>\n  <h2>Part 1</h2>\n  <p>My story starts out as any normal teenager. I was a young girl full of desires and ambitions. One of them was to someday be swept off my feet by “Prince Charming.” I envisioned myself with a row of healthy, active children and a loving, supportive husband. After all, wasn’t that what every young girl did? Only “odd” girls with “queer dispositions” didn’t marry.</p>\n  <p>I would always scrutinize the girls that didn’t get married, trying to figure out why they stayed single. For the most part, <em>I thought</em> that I could figure out why nobody wanted them. In my opinion, either they were too rigid, too snobbish, too opinionated, too independent, or too incompetent. But once in a while I would get stuck! I would run across what I thought was a very sweet, godly young woman that still was not selected. She was meek, under authority, cheerful, beautiful, virtuous, and well ... all the qualities that I thought godly young men would want. Hmmm, now what was the “problem”?</p>\n  <p>There had to be a “problem,” correct? “Normal” people got married. Everywhere you looked, there were couples with children. People just expected you to get married. Pastors teach on marriage, on child training, winning the hearts of children, etc. Parents constantly say, “You’ll need to learn this so when you get married ...” Or, “If you ever get married, your husband will want you to ...” Friends and family constantly match you up with this person or that. It’s no wonder young people grow up expecting to get married; and I was no exception.</p>\n  <p>However, as time progressed “Prince Charming” never came along. Yes, there were some offers of friendship, but never any that I felt were from the Lord. One by one the years rolled by. One by one most of my friends got married. I saw the sparkle in their eyes, the spring in their step; and I felt my heartstrings being tugged. Again and again, I had to commit my future to God. He knew what was best for me.</p>\n  <p>For years, I only knew that in my head. I tried hard to pull that knowledge from my head to my heart; then one day it happened. I was busy working in the office when my co-worker informed me about the spiritual status of a certain brother and the direction that he was taking his family. It was breaking his wife’s heart, and she was struggling how to handle this extremely difficult situation.</p>\n  <p>At first, I was devastated! Suddenly the realization hit me: when he was a young man, he was on fire for God! His heart of compassion and fervor won everybody’s heart—including mine. When he asked another young girl for her friendship, I experienced my first and only heartbreak. Now, after years of outstanding work in the church, he had turned his back on it.</p>\n  <p>What if I had gotten what I had wanted? I would have been married to this brother. I would now be in his wife’s shoes! Even though my heart ached for my friend, I could not help but lift my heart in praise to God. “Oh Lord, thank you, thank you, thank you!” I would a thousand times rather be in my shoes than in hers! “Oh, Lord, You were looking out for me! I could only see through this narrow tunnel vision, while You saw the whole picture. You saved me from a life of misery! I will never again doubt You or question the path that You have for me to tread. I am incapable of making my own plans. I see Your way is so much higher than mine! Yea, higher than any man, because no man could have ever predicted this outcome!”</p>\n  <p>It was at this point that God revealed His intimate love for me. I felt in such close union with God, I felt His presence so near and sweet! I knew He cared for me with an everlasting love. He had not forgotten me! He was there right beside me and leading me one step at a time. I could not see tomorrow, but now I wasn’t worried because I knew He was directing me. I knew that I could trust Him explicitly because of His overwhelming love for me. <strong>He</strong> would be at my side! He was my husband. He would give me comfort, encouragement, and direction. He would be the one that fills my love-tank to full and overflowing!</p>\n  <p>Time went on. Even though I thought I was comfortable in being single, I could still not get away from the stigma of singlehood. I didn’t fit in anywhere. I was too old to mingle with the young people, but felt out of place with the married ones who were often talking about children, home situations, etc. Few people could relate to the things that an older single faces, because they all got married at a young age. In fact, many didn’t seem to have a clue on what to talk about to us singles, except for our work.</p>\n  <p>I felt a little like the low-caste Hindus must feel in India. It seemed like the married ones didn’t really accept you as having “attained” until you said “I do.” I felt like unless I get married, people will not accept me as “spiritual.” At least it seemed that way, because they always gave the responsibilities to married people, rarely—if ever—to single people.</p>\n  <p>People, young and old, didn’t seem to know what to do with you because you didn’t really fit in anywhere. It bothered me. The Bible didn’t even talk much about older singles. The preaching was never for older singles. It was always directed towards fathers, mothers, children, families, and/or for the whole congregation. There were Bible Schools for the young people, Couple’s Nights for the married, and children’s class for the children. Where did we fit in? What was wrong? Were we single people even supposed to exist? Is that why we just fell through the cracks?</p>\n  <p>I tried to bury any kind of negative thoughts and keep busy in the kingdom of God. I knew I was in the center of God’s will and that was all that mattered. Christ was my all in all, and if other people thought me strange, well ...</p>\n  <p>However, if the truth be told, I thought myself as substandard. I figured everybody looked at me the same way as I had looked at other older singles. I noted the same reaction (when I told my age) in some of the young people as I had had when I was their age. And it just confirmed to me ... “I was unusual!”</p>\n  <h2>Part 2</h2>\n  <p>As I threw myself into the service of the kingdom, I gave little thought of what people thought of me. I was too busy! I worked long hours and engaged all my faculties to prosper His work. However, when I was asked for another year of commitment where I was serving, I wavered. How long could I go on like this? I was getting burned out! I loved my work, but part of me was pulling to just have a normal life with normal pay. I had given enough years to this service; it was time to “pass the torch.”</p>\n  <p>I prayed and sought advice. People and circumstances seemed to point me to go on, but I knew I could not do another year without some clear direction from my heavenly Husband! I knew the responsibilities would be great and—without assurance from Christ—I knew I could not handle the pressure. I prayed and prayed, yet I couldn’t seem to get a clear answer. I sought His Word, hoping something would leap out at me.</p>\n  <figure><img src=\"/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-3.jpg\" alt=\"Open Bible photographed from a low angle\"></figure>\n  <p>One night after reading a couple books of the Bible, nothing seemed to stand out. “Please, Lord,” I pled, “show me where you want me to read. Give me direction!” A very quiet voice told me to go to Revelation. I was astounded! “Revelation?!” I couldn’t have heard correctly! Why Revelation? Of all places! I recalled hearing a brother saying something about “the hundred and forty and four thousand,” so I decided to check it out.</p>\n  <blockquote><p><em>And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth. These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb. And in their mouths was found no guile: for they are without fault before the throne of God. Re. 14:3-5</em></p></blockquote>\n  <p>At first my heart sorta fell. Ahh, this was talking about guys, not gals. It said “which were not defiled with women.” I decided to check into the Greek definition of “for they are virgins.” My heart leapt. Its primary meaning is “a maiden” or “an unmarried daughter.” (Although by extension it includes undefiled boys and men.)</p>\n  <p>Now that I was certain it could apply to me, I carefully reread and analyzed that scripture. I could certainly relate to being able to sing as it were a new song that no man could relate to except the hundred and forty and four thousand singles. (How often I had thought that nobody could relate to my experiences, except singles?) But what really stood out to me was the part of being called “the firstfruits”!</p>\n  <p>Firstfruits! That was what God always asked for. It was the biggest, the best, the flawless, the most perfect fruit available. That was who I was! I met all of the mentioned qualifications. I was redeemed from among men. I was unmarried. I followed the Lamb whithersoever He went: and here He was saying I was His firstfruit.</p>\n  <p>I was utterly overwhelmed! How could measly little me be His firstfruit? This great King of the universe, who spoke the world into existence was telling me <strong><em>I was His firstfruit.</em></strong> I was the apple of His eye. Why was I chosen from the masses of people to be <strong><em>His firstfruit?</em></strong> I truly felt like He had reached down and somehow sorted me out from the millions, and said, “You are <strong>mine!</strong>” This great King of Kings, who measured the waters in the palm of His hand and used the earth as His footstool, had selected <strong><em>me</em></strong> to be His prize! He had searched me out and given me a special calling that only a few on earth have ever experienced. I had a <em>special</em> calling. I felt so elite, so called out and separated unto Christ. I was thrilled! I could picture myself far off in the heavenly places in the palm of His hand, with nothing to do but to serve Him. That was my whole calling! I was honored beyond words! Why would God choose to call me—me who felt like an offcast—to be His firstfruit?</p>\n  <p>I wasn’t of less value in God’s eyes, regardless of what man thought. In fact, at that moment, my opinion of what man thought dropped away. Who cares? I now knew what position I had in Christ. I was Christ’s pride and joy, and I was found totally faultless before Him. That’s all that mattered!</p>\n  <p>Suddenly my decision was clear. Since my whole purpose in life is to serve Christ and follow Him whithersoever He goeth, where could I do it better than right here in full-time service? In fact, now that I know how He truly feels about me, I’m delighted to do it! To go anywhere else in self-gratification would be stepping right out of His palm and lowering my status with Him. Yes, I know He would still love me, but I don’t want to grieve Him or be out of the center of His will!</p>\n  <p>It is so different serving now! I used to serve because that was “the Christian thing to do.” But I’ve discovered that if you’re doing it because you feel it is your “Christian duty” to do it, you soon start feeling burned out, taken advantage of, and disgruntled because of lack of appreciation. But when your serving stems from a heart of love for your Lord and your position in Christ, your service just flows out naturally with positive results.</p>\n  <figure><img src=\"/images/articles/eccdcd73-d0b6-41d3-b1b9-846efb218233-4.jpg\" alt=\"Pineapple, pears, and citrus fruit\"></figure>\n  <p>In conclusion, even though I have expressed my singlehood journey, I by no means wish to indicate that marriage is not beautiful and God-ordained. I have been blessed by many of the marriages I have seen, and know that God does have marriage in store for most people. It is a beautiful picture of Christ and the Church. If God would call me to marriage, I would gladly comply. I know if I would resist God’s will I would immediately be called out of God’s hundred and forty and four thousand firstfruits, because one of the qualifications is to follow the Lamb whithersoever He goeth. But as for now, I am glad to be called ... His Firstfruit!</p>\n  <p>—An Anonymous Firstfruit</p>\n  <h3><em>A note to all my fellow firstfruits:</em></h3>\n  <p>When the realization of the high honor of singlehood for Christ dawned upon me, it almost irritated me. How could something this beautiful be made to look so unappealing? To be single in many of our Anabaptist churches seems to be a special disgrace, and we buy into that lie! Whatever God has a special design for, the devil will take extra pains to tear down, whether it’s a godly home or a godly single person’s role. Let what God says and feels about you be your measuring stick! <em>We are special in His eyes!</em> ~</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d11b4848c1dffeaf8f6c02cf3139d337d3be47bf3a7bf27a06f69a5038aacbdd"
+}

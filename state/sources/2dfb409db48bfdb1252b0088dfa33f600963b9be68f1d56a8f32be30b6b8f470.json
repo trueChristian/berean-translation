@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "J. Hudson Taylor"
+        }
+      ],
+      "raw": "by J. Hudson Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "849984a7-93a7-4433-82f9-98d66ac25bf3",
+    "images": [
+      {
+        "alt": "A waterfall between rocky hills",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/849984a7-93a7-4433-82f9-98d66ac25bf3-1.jpg",
+        "repository_path": "public/images/articles/849984a7-93a7-4433-82f9-98d66ac25bf3-1.jpg",
+        "rights_note": "PDF image object 81. Clean text-free base object 81 exported, omitting the separately painted heading, byline, scripture, body text and outer frame. The pale tone is flattened into the source photograph; no unwashed base or verified inverse blend exists, so that unavoidable toning is retained. No article-specific permission restriction is printed. The issue-level credit “Some images © 2001-2006 clipart.com / photos.com” does not identify individual assets; no individual source or licence is inferred. Source grayscale converted to RGB; normalized as baseline sRGB JPEG with nonzero 72 dpi density. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "Source of Power",
+    "topics": [
+      "c3153996-8271-5167-b21e-2fa3c0e8df1d",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b43abc725e68517fe892505606f7fcabad1b5d1b031681240bf02a55a5aabb31",
+    "metadata_sha256": "3f79abdb342b9b5ad2dba3c263a5349b51572c1cd1841b676b148e002a1703b2",
+    "structure_sha256": "af11af0cd0450428ccf05d1827fbf98a9e9174951317558e2448335e5df6f7d1",
+    "text_sha256": "e81c09939c9f1c42c3a0b61c50b8b893515ec6b8ebe4c0aeab598edb51aba4cd",
+    "translation_metadata_sha256": "fbd2c0efc57b783e0600194f6a410f0dfba5d208d53a9da382ddc9ea2676e969"
+  },
+  "html": "<article data-article-id=\"849984a7-93a7-4433-82f9-98d66ac25bf3\">\n<blockquote><p><em>“God hath spoken once; twice have I heard this,<br>that power belongeth unto God” (Ps. 62:11).</em></p></blockquote>\n<figure>\n  <img src=\"/images/articles/849984a7-93a7-4433-82f9-98d66ac25bf3-1.jpg\" alt=\"A waterfall between rocky hills\">\n</figure>\n<p class=\"drop-cap\"><strong>God Himself is the great source of power. It is His possession. “Power belongeth unto God”, and He manifests it according to His sovereign will. Yet, not in an erratic or arbitrary manner, but according to His declared purpose and promises. True, our opponents and hindrances are many and mighty, but our God, the living God, is Almighty.</strong></p>\n<p><strong>Further, God’s power is available power. We are supernatural people, born again by a supernatural birth, kept by a supernatural power, sustained on supernatural food, taught by a supernatural Teacher from a supernatural Book. We are led by a supernatural Captain in right paths to assured victories. The risen Saviour, ere He ascended on high, said: ‘All power is given unto Me. Go ye therefore”.</strong></p>\n<p><strong>Again, He said to His disciples: “Ye shall receive power when the Holy Spirit is come upon you”. Not many days after this, in answer to united and continued prayer, the Holy Spirit did come upon them, and they were all filled. Praise God, He remains with us still. The power given is not a gift from the Holy Spirit. He Himself is the power. Today He is as truly available, and as mighty in power, as He was on the day of Pentecost. But since the days before Pentecost, has the whole Church ever put aside every other work, and waited upon God for ten days, that that power might be manifested? We have given too much attention to method, and to machinery, and to resources, and too little to the source of power.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "2d2397445dc020d729388784bdbdef401b46eac540820cdc67b3b60af6cd84d3"
+}

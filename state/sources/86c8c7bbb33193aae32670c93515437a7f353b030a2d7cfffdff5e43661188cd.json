@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Corinth, Vermont",
+          "name": "David Markwood",
+          "role": "Brother"
+        }
+      ],
+      "raw": "Submitted by Brother David Markwood from Corinth,\nVermont."
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "58427435-0382-4d9b-991b-a7fab23982bd",
+    "images": [],
+    "issue_id": "7e269c60-16a4-417b-8702-44b7166801f8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": "A PRAYER AND A DEVOTION",
+    "title": "Jesus, Jesus, Life the Fountain",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "9e0a8b935a404d6bf5543153cefc796bf754b5d923c5f0355722e31bdec7a5ee",
+    "metadata_sha256": "23188c26ea55c71823a66a35d54c2e45aded5655f17c20a6123bc01bcdba1a78",
+    "structure_sha256": "7bbd93d9e9e15599133208a8cc9b2f730169a1e5285d26e6b927669448b74fd0",
+    "text_sha256": "5a12799a3c3578440ffcaa86b9ea6d3e5c94d94a1c79c004ea780eda9ad21a93",
+    "translation_metadata_sha256": "790971e00d8ea5886a33ca4859c804dd757655a015389be8a26bd88bd0081eaf"
+  },
+  "html": "<article data-article-id=\"58427435-0382-4d9b-991b-a7fab23982bd\">\n  <p>“Jesus, Jesus, Life the Fountain…”</p>\n  <p><em>Yes, that is it! Jesus, You are the Fountain that every soul thirsteth for. There is no other—it is You! It is Jesus!</em></p>\n  <p class=\"lyrics\">“Come, O come, with us abide;<br>lest we meet together in vain,<br>labor, serve and naught betide.<br>Thou hast promised those Thee trusting,<br>that Thou wonders wilt display;<br>and Thyself be manifesting;<br>oh, this now perform, we pray.”</p>\n  <p><em>Yes, Lord, yes! As Thou hast promised to those Thee trusting: manifest, illumine to us, simply and only Thyself! And in Thee alone, what wonders would be displayed, such love for Thee, such love for my neighbor. Perhaps, this world would be turned upside down.</em></p>\n  <p>“Lord, we bear Thy name as Christians...”</p>\n  <p><em>Oh Lord, what a beautiful privilege, what a sober responsibility. Help us dear God to pause and ponder, and to place an eternal bookmark right here, and daily return with honesty.</em></p>\n  <p class=\"lyrics\">“Lord we are baptized in Thee;<br>for Thy seed, with Thy subsistence,<br>purchased with Thy blood; set free!”</p>\n  <p><em>Hallelujah we have found You, Whom our souls so long have craved. Yes, it is you Jesus. Through Your blood we are free! Free? Yes free! Free to love You, free to serve You, free to praise You, free to obey You! Hallelujah, free!</em></p>\n  <p class=\"lyrics\">“Oh, help us to fully know Thee;<br>come, illumine Thou Thy Word,<br>that we rightly Master call Thee,<br>and Thee ever serve as Lord.”</p>\n  <p><em>Yes, Lord, illumine to us Thy Holy Word, that we might fully know Thee and properly serve Thee!</em></p>\n  <p class=\"lyrics\">“Art Thou in their midst still staying<br>who for Thy salvation yearn?<br>With united sighings, praying?<br>Oh, so too, be our concern.<br>Teach us singing, teach us praying,<br>with Thy Spirit fill, control.”</p>\n  <p><em>Yes, fill us with Thy hallowed presence, cause us to walk in Your ways.</em></p>\n  <p class=\"lyrics\">“That we may the Father praising,<br>come and childlike Him extol!<br>Gather in the minds far straying;<br>heal the instability;<br>help us, light and strength conveying,<br>live true Christianity!”</p>\n  <p><em>Lord, this true Christianity. Please Jesus, illumine it to us that we may see! Heal our blindness, our instability.</em></p>\n  <p class=\"lyrics\">“Oh, Thou Head of faithful members,<br>us receive as such we pray;<br>bring again the strayed offenders<br>to Thy joyous, heavenly way.”</p>\n  <p><em>We have been purchased. We are free. We have been baptized into Thee! Lord, could it be that if our heavenly way is not joyous that we are yet still “strayed offenders”? For Thy heavenly way is full of joy. Our confidence is always in Thee!</em></p>\n  <p class=\"lyrics\">“Grant us seeing, grant us hearing,<br>grant us hearts, Lord, like Thine own;<br>make us newborn, true, God-fearing,<br>for Thy kingdom, Lord, alone.<br>Yea, do help us to be Christians,<br>Christians ever this world’s light;<br>Christians, salt in all earth’s distance;<br>yea, Lord, pleasing in Thy sight!”</p>\n  <p><em>Amen! For Jesus sake, for the Lamb’s sake, Amen.</em></p>\n  <p>Submitted by Brother David Markwood from Corinth, Vermont. (Based on the hymn <em>Jesus, Jesus, Life the Fountain</em>, #398 in <em>The Christian Hymnary</em>.)</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "dcfefae303ef6581e6548c833dc89099f8a21d85b731c0cc224956ad3e609f74"
+}

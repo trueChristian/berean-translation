@@ -1,0 +1,127 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "(Author unknown)"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "8a627b96-26a0-4d40-8cc4-fda4eae0738d",
+    "images": [
+      {
+        "alt": "Walking wolf illustration",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-1.jpg",
+        "repository_path": "public/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-1.jpg",
+        "rights_note": "Clean source image object 21; separately painted headings, article text, panels, rules and decorative framing are omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            173,
+            144
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            173,
+            144
+          ],
+          "source_object": 21,
+          "unavoidable_flattened_overlays": []
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Wolf’s head illustration",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-2.jpg",
+        "repository_path": "public/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-2.jpg",
+        "rights_note": "Sole source image object 20; separately painted headings, article text, panels, rules and decorative framing are omitted. The pale appearance is irreversibly embedded in the sole DeviceGray raster. Its dictionary has no soft mask or transparency, and its paint operation uses full opacity; no clean darker base or exact original black point survives. The source fade is retained under the unavoidable flattened-overlay exception. Separate article text is omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "background",
+        "sequence": 2,
+        "source_page": 5,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            483,
+            417
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            483,
+            417
+          ],
+          "source_object": 20,
+          "unavoidable_flattened_overlays": [
+            "Source lightening/fade retained; no reversible exact blend evidence"
+          ]
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "A Tame Wolf",
+    "topics": [
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c1b9a696289b38adfb8e4a24e99714e93acf54462ee38a739c0014351088b1f2",
+    "metadata_sha256": "0d8e19d623abba5946c6fac0ae4246bf456d175450dc665c5becea1d3598184c",
+    "structure_sha256": "6b7b6c2acc743fe9d94c67e052ea55cb2f3c9b485e50be9a88d9deef713239ed",
+    "text_sha256": "bfc94818126b1dc331d662f29a26264879651389eefd21efe0fb7a679f76f91c",
+    "translation_metadata_sha256": "5176ac75be0b46601214710dfc6c4f9196eaa8cd8d189c583a90c32703f98284"
+  },
+  "html": "<article data-article-id=\"8a627b96-26a0-4d40-8cc4-fda4eae0738d\">\n  <figure>\n    <img src=\"/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-1.jpg\" alt=\"Walking wolf illustration\">\n  </figure>\n  <p class=\"drop-cap\">A wolf can be tamed but no matter how carefully you may train it, it will still be a wolf, and its wild nature may break out at any time. Some years ago a gentleman brought a young wolf from Russia, and it became so tame that it followed him about like a dog; and the children played with it, and it never harmed them in the least. But one day its old nature broke out, and it attacked its master, who fought with it for half an hour, and would have been killed, had not a man come to his assistance, who shot the brute.</p>\n  <figure>\n    <img src=\"/images/articles/8a627b96-26a0-4d40-8cc4-fda4eae0738d-2.jpg\" alt=\"Wolf’s head illustration\">\n  </figure>\n  <p>There are some people who think you can do for man what we cannot do for a brute–change his nature by means of careful training. This has often been attempted, but we know of no single case in which it has ever succeeded. Indeed, it never can succeed, for the Bible tells us that this change, without which no one can enter heaven, is the doing of the Lord. Jesus said, “Ye must be born again. Except a man be born again, he cannot see the kingdom of God.” David prayed, “Create in me a clean heart, O God; and renew a right spirit within me.” And God has promised, “A new heart also will I give you.” It is described by Paul as a new creation; and Peter speaks of it as our becoming “partakers of the divine nature.”</p>\n  <p>A change so great can never be produced by mere human agency. It is the work of God, and of God alone, by the divine Spirit. Outward reformation never can change the heart. If the great inward change is not produced in us by the grace of God, sin will one day assert its mastery over us, and will prove our destruction.</p>\n  <p>Is all that we can do then simply to wait till God be pleased to work this great change within us?</p>\n  <p>We must indeed wait, but our waiting is to be a waiting upon God. God works by means and in His own appointed way. God employs the gospel and the ministry of the Word for this end. Therefore, if we desire this change we must hear and accept His Word; and we must go to God in prayer and ask Him to work within us by His Holy Spirit the mighty change.</p>\n  <p>My dear reader, remember that you cannot enter heaven without this change. Ponder that truth well, “Except a man be born again, he cannot see the kingdom of God.”</p>\n  <p>If this change has not taken place in you, you could not enter heaven if you were to die today. Is it wise or safe to risk your eternal happiness in this way? You ask what you are to do. God’s Word makes that very clear; you are to accept God’s offer of salvation, and trust to it. You are to go to God in prayer and ask Him to effect in you the mighty change.</p>\n  <p>“Lord, I believe; help Thou mine unbelief.” Give me Thy Holy Spirit to change and renew my nature. I plead the promise of Christ Jesus, that Thou wilt give Thy Holy Spirit to them that ask Thee. O Lord, give that Spirit to me, and so make me fit for heaven. Amen.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "95ac6ab57581bbb3b367ef6fb2caaae65db5f06107e50cda8ba3e9a106f737c3"
+}

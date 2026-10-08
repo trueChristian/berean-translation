@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14be14fb-c6ac-5ea1-bfb5-f899109c5ca9"
+    },
+    "id": "00005b81-257e-4cbb-b57c-c2a805483312",
+    "images": [],
+    "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "The Angel of the LORD",
+    "topics": [
+      "e586bda8-3e92-56c9-9629-4bbed47922f3"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8431e27c40bd5bd5c0451d43184cec162297c2374dbd1cb78eac84c3d826ac2a",
+    "metadata_sha256": "b2fc6599265ca64eafb8f314243b9ed368c10e7a82b877f0d497a3a348e86786",
+    "structure_sha256": "cc7e60240692269ea2e8762d3c052bd5f89f350279bacb25b4bbe24254922157",
+    "text_sha256": "3c913dd7a09f48506d2e45d03eaef1cc66ffc244d5a705ae2ed773b900475e3b",
+    "translation_metadata_sha256": "3ef5cdcef004510afd6e8605dee3cc2330c267e0148d2fd2d54a315b3a355e75"
+  },
+  "html": "<article data-article-id=\"00005b81-257e-4cbb-b57c-c2a805483312\">\n  <blockquote>\n    <p><em>The angel of the LORD encampeth round about them that fear Him,<br>and delivereth them. &nbsp; Psalm 34:7</em></p>\n  </blockquote>\n  <p>A wonderful story is told by a Moravian missionary in connection with angelic protection.</p>\n  <p>An American missionary and his wife bravely went to their station, where, twenty years before, two missionaries had been killed and eaten by the natives.</p>\n  <p>They said as they took up their work it seemed as if often they were surrounded not only by the hostile natives, but by the very powers of darkness. These latter were so real, that night after night they were forced to get up and strengthen their hearts by reading the Word of God. Again they would pray.</p>\n  <p>One day a man came and said, “I would like to see your watchmen close at hand.”</p>\n  <p>The missionary replied, “I have no watchmen; only a cook and a little herd boy. What watchmen do you mean?”</p>\n  <p>The man asked permission to look through the missionaries’ home. Every corner of the house was carefully searched, and the man came out of the house greatly disappointed. Then, the missionary asked the man to tell him about the watchmen to whom he referred. Here is the man’s answer.</p>\n  <p>“When you and your wife came here we determined to kill you as we did the missionaries twenty years ago. Night after night we came to carry out our intentions, <em>but there always stood around your house a double row of watchmen with glittering weapons, and we dared not come near.</em> At last we hired a professional assassin, who said he feared neither God nor devil. Last night he came close to your house—we followed at a distance—brandishing his spear. <em>There stood the shining watchmen,</em> and the killer fled in terror. So we have given up our purpose to kill you, but tell me, <em>who are the watchmen?”</em></p>\n  <p>The missionary opened the Word of God and read: <em>“The angel of the LORD</em> encampeth round about them that fear Him, and delivereth them.”</p>\n  <blockquote>\n    <p><em>“The beloved of the LORD shall dwell in safety by him.” &nbsp; Deuteronomy 33:12<br>“The LORD hid them.” &nbsp; Jeremiah 36:26</em></p>\n  </blockquote>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e630ee6abbea75f750ced41ac4aef437ed87fb9d3656995a0bcf9f454d9727be"
+}

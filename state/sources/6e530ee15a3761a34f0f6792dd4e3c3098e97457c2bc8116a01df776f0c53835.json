@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Edward Martin",
+          "role": "Interim editor"
+        }
+      ],
+      "raw": "Interim editor,\nEdward Martin"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "4c4494ea-2d0b-4c42-b501-f7b51385e712",
+    "images": [
+      {
+        "alt": "Red and orange autumn leaves among fallen leaves",
+        "caption": null,
+        "credit": "Belle Vie Images",
+        "public_path": "/images/articles/4c4494ea-2d0b-4c42-b501-f7b51385e712-1.jpg",
+        "repository_path": "public/images/articles/4c4494ea-2d0b-4c42-b501-f7b51385e712-1.jpg",
+        "rights_note": "The page-2 masthead credits Belle Vie Images for printed page 3; no separate permission notice or license terms are stated. The embedded image was standards-normalized as a baseline 96-dpi sRGB JPEG because the source JPEG had undefined JFIF density; pixel dimensions, published crop, orientation, and content were preserved.",
+        "role": "closing-page background photograph",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "5b37aca8-4c81-5079-80f9-33af1c139beb",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e181c02d6fefc0f7d6d3fd34d550fce1f3332a8fa0a72e3edef43fad84dfed83",
+    "metadata_sha256": "15f2da73ae6da52035b464bd7263826592681cedb7758900803a06012b555e6b",
+    "structure_sha256": "c9d43357a7c26a8d3f8ad6544d18d3043ae4f84d41cac5c680d19b244bcd1f68",
+    "text_sha256": "301027f8af8e88af129cae5d0666a51896afbd1c3c285accbb11cf067e126794",
+    "translation_metadata_sha256": "6d65fb44029ce8ccd5e6b4773d299117f4dba32943305d8195d5ebdab30b784b"
+  },
+  "html": "<article data-article-id=\"4c4494ea-2d0b-4c42-b501-f7b51385e712\">\n  <p>Autumn. That time of year when it seems that all of creation, at least in the northern climes, puts on one final show of beauty and splendor that reflects the glory and majesty of the Creator God. One by one the last colorful leaves flutter to the ground, surrendering their brilliance to the frozen grayness of winter. What happened to summer? Wasn’t it just last week we saw the first robin? It seems that time madly rushes on from one season to the next. The great American poet Henry Wadsworth Longfellow sums it up well in his poem The Psalm of Life where he wrote:</p>\n  <blockquote class=\"poem\"><p>Art is long, and Time is fleeting,<br>\n  And our hearts, though stout and brave,<br>\n  Still, like muffled drums, are beating<br>\n  Funeral marches to the grave.</p></blockquote>\n  <p>Along with changes in seasons come other changes in life as well. One of those changes is currently happening here with The Berean Voice. I will be taking Curvin Wenger’s role as editor of The Heartbeat of the Remnant Magazine. In the middle of the transition, we realize this fall issue of The Heartbeat of The Remnant is delayed and apologize for that. We hope to have the winter issue delivered close on time.</p>\n  <p>As life madly rushes on, it seems many are trying to keep up with ever-increasingly busy schedules. In many conversations, the topic soon drifts to discussing how busy we are. Mothers are overwhelmed, and fathers are worn out with all the coming and going. Teachers are stressed, and church leaders are distressed. For some, there is not enough time to sleep, and for others, sleep doesn’t come when it’s time to sleep. In this issue the doctor’s article addresses the problem of insomnia. “We are fearfully and wonderfully made,” writes Dr. Waldron, “but sometimes, with the modern world running full speed around us, we do not take the time we need to calm our minds and take care of our bodies.” An ordered life may be one solution to have a more stress-free life.</p>\n  <p>The sister’s article offers practical solutions to maintaining a well-organized home.</p>\n  <p>On October 9th, the terrorist group Hamas from Gaza (similar to ISIS) attacked Israel with a barrage of thousands of rockets and missiles. In addition to rocket fire, they bulldozed down sections of the border wall between Israel and Gaza. Thousands of terrorists swarmed into Israel, killing and wounding, pillaging border villages, and kidnapping Israelis for hostages. Within 24 hours of the attack on Israel, 15 earthquakes greater than 5 on the Richter scale shook the earth in various places. The two largest, both measuring 6.3 in magnitude destroyed towns in western Afghanistan, killing over 2,000 people and injuring many. In response to the attack, Israel declared war on Hamas, vowing to eliminate them. Since then until the time of this publication, Israel has been bombing Hamas targets inside the Gaza Strip in a relentless airstrike campaign killing thousands and injuring tens of thousands. Exact numbers are impossible to verify.</p>\n  <p>What can we learn from these crises? Jesus said in Matthew 24:6-8 that we would hear of wars and rumours of wars and there will be earthquakes in divers places. All these are the beginning of sorrows. But, he continues in Luke 21:28, And when these things begin to come to pass, then look up, and lift up your heads; for your redemption draweth nigh.</p>\n  <p>As life continues its rush from season to season, let us daily serve the King of kings, for one day he will suddenly appear, and if we are prepared, we will be in his presence forevermore.</p>\n  <p>Interim editor,</p>\n  <p>Edward Martin</p>\n  <figure>\n    <img src=\"/images/articles/4c4494ea-2d0b-4c42-b501-f7b51385e712-1.jpg\" alt=\"Red and orange autumn leaves among fallen leaves\" loading=\"lazy\">\n  </figure>\n</article>\n\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "07f58393d3846e7265632eb4c2a0fa8dfc60a8ff3afe853347bd95ef8039c115"
+}

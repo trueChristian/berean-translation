@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Angela Gellenbeck",
+          "role": null
+        }
+      ],
+      "raw": "Some precious lessons that the Lord has taught me this year, 2012. – Angela Gellenbeck"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "c0661172-c311-446c-9b32-63d02eddbab5",
+    "images": [
+      {
+        "alt": "A large crowd gathered outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/c0661172-c311-446c-9b32-63d02eddbab5-1.jpg",
+        "repository_path": "public/images/articles/c0661172-c311-446c-9b32-63d02eddbab5-1.jpg",
+        "rights_note": "No image-specific licence, source, or separate permission notice is printed. The general issue art credit states “Some images ©2001-2012” and lists www.clipart.com without mapping this image to that source. The page's text-free non-text objects were rendered at 300 dpi, cropped to the published image region, and resampled to 1275 × 1250 as a standards-normalized three-channel baseline sRGB JPEG with 150 ppi JFIF density, preserving the published crop and content while excluding article text.",
+        "role": "background photograph",
+        "sequence": 1,
+        "source_page": 5
+      }
+    ],
+    "issue_id": "c2a74b77-fa78-5891-9aa5-a22f70c4515d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 5,
+      "start": 5
+    },
+    "subtitle": null,
+    "title": "All Are Precious In His Sight",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d9a71d780734343679bf7686125a4a27e70fb7d2093eb5790a9f1328e7b5ec3f",
+    "metadata_sha256": "46829d00004fcfbeba35df33102c754bc1eb0806e8430d177ee59b0e6161df5a",
+    "structure_sha256": "7232f00411475d115195bafeedc4956657b8b248ae9d58923b8108471972c0c1",
+    "text_sha256": "48d7c813e272c7c123bee45773cd5887cb5e6ea85c3a1d6c50efa0a18c593017",
+    "translation_metadata_sha256": "6bcf2d267a73519f9bb3a9660bc2375b466b641e2e06997b14e8148f56e5fe6d"
+  },
+  "html": "<article data-article-id=\"c0661172-c311-446c-9b32-63d02eddbab5\">\n  <figure>\n    <img src=\"/images/articles/c0661172-c311-446c-9b32-63d02eddbab5-1.jpg\" alt=\"A large crowd gathered outdoors\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>The lonely, forgotten, the wealthy, the poor;<br>\n    Teeming masses abroad, the man at your door,<br>\n    The angry, the ugly, the frightened, confused;<br>\n    The drunkard, the addict, the abuser, the abused –<br>\n    All these are precious in our Savior’s sight<br>\n    They all need His cleansing; they all need His light.</p>\n\n    <p>The toddler, the baby, the elderly too,<br>\n    The young man or young woman showing off a tattoo;<br>\n    The gangster, the rapper, the actress, the dude,<br>\n    The guy with a Mohawk or a bad attitude;<br>\n    All these Jesus died for, that they might be free.<br>\n    They are all people, like you and like me.</p>\n\n    <p>The woman who’s cussing and slapping her child,<br>\n    The boy who is tough, the girl who is wild;<br>\n    The single young mother, the deadbeat dad,<br>\n    The loser, the user, the old man who’s sad –<br>\n    They all are our neighbors, they all are “somebody.”<br>\n    They are brothers and sisters, they are FAMILY.</p>\n\n    <p>Those struggling with cancer, the widows who cry,<br>\n    The druggie who stares with a sad, vacant eye;<br>\n    The filthy, the neat freak, the hoarder next door,<br>\n    The one who has ten cats, or fifty dogs, or more;<br>\n    They just need “someone” – someone who cares,<br>\n    Someone to teach them that God hears their prayers.</p>\n\n    <p>The soldier, the veteran, the suicidal, depressed;<br>\n    The homeless, the prostitute, the sick and distressed;<br>\n    The gay man, the biker in leather and steel,<br>\n    The lesbian, the hippie just “tryin’ to be real,”<br>\n    Beneath the rough surface, and past the façade,<br>\n    A soul is just starving and thirsting for God.</p>\n\n    <p>The superreligious, the perfect, the proud,<br>\n    The self-sufficient know-it-all, the snobby church crowd;<br>\n    The preacher, the pastor, his family and wife,<br>\n    The missionary who gives up his home and his life;<br>\n    Although these may not seem to need much care,<br>\n    They also need Jesus; they need time, love, and prayer.</p>\n\n    <p>We can help someone; we can show how we care.<br>\n    We can smile, hug, or visit, or hold hands in prayer.<br>\n    We can give them an hour, a meal, or a lift,<br>\n    A toy, or a promise of some special gift.<br>\n    It doesn’t take much to shine God’s light where it’s dim,<br>\n    When we remember that ALL these are precious to Him.</p>\n  </div>\n\n  <p class=\"byline\"><em>Some precious lessons that the Lord has taught me this year, 2012. – Angela Gellenbeck</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7f266e5601f5fbf38bad3ce6b4e5863051c72e42822c7a369e05dee57ede5a04"
+}

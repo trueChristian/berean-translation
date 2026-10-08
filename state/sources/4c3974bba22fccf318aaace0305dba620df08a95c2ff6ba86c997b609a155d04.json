@@ -1,0 +1,125 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Daniel Kenaston",
+          "role": null
+        }
+      ],
+      "raw": "by Daniel Kenaston"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "ea463a08-df2c-4fdf-96c4-5833e4100265",
+    "images": [
+      {
+        "alt": "Charity African Missions globe logo.",
+        "caption": null,
+        "credit": null,
+        "height": 241,
+        "public_path": "/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-1.png",
+        "repository_path": "public/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-1.png",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 126 is the source. Lettering is intrinsic to the logo and is retained.",
+        "role": "logo",
+        "sequence": 1,
+        "source_object": 126,
+        "source_page": 30,
+        "transformations": [
+          "Decoded the original one-bit CCITT ImageMask object 126 to black foreground on white, matching its PDF stencil semantics; native 335 × 241 pixels."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 335
+      },
+      {
+        "alt": "Nine scattered black seed shapes.",
+        "caption": null,
+        "credit": null,
+        "height": 536,
+        "public_path": "/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-2.png",
+        "repository_path": "public/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-2.png",
+        "rights_note": "No image-specific credit or licence is printed. No text, title, background panel, or page furniture included.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_object": null,
+        "source_page": 30,
+        "transformations": [
+          "Rendered only the nine original vector seed paths and their source clipping at 300 dpi in PDF rectangle [53.5, 271.5, 124, 400], giving 295 × 536 pixels."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 295
+      },
+      {
+        "alt": "Three red-orange round fruits.",
+        "caption": null,
+        "credit": null,
+        "height": 98,
+        "public_path": "/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-3.jpg",
+        "repository_path": "public/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-3.jpg",
+        "rights_note": "No image-specific credit or licence is printed. PDF image object 127 is the source. One canonical export represents the same fruit photo on pages 30, 31, 32 and 33. Object 170 on pages 31–33 is the same content with wider white side padding, not a distinct image crop. Native 99 × 98 pixels preserved. Fruit type is not identified by a printed caption.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_object": 127,
+        "source_page": 30,
+        "transformations": [
+          "Encoded as baseline RGB JPEG with nonzero 72 dpi JFIF density; no CMYK data, synthesized detail, or retouching."
+        ],
+        "verification": {
+          "browser_renderer": "Decoded and drawn at native size with Skia via @napi-rs/canvas; full canvas raster read succeeded.",
+          "decoders": "Full raster loads succeeded in Pillow, MuPDF, and ImageMagick without warnings.",
+          "final_browser_raster_visual": "completed: viewed every full native-size Skia-rendered image and compared with the source page and extracted source object/isolated vector art.",
+          "full_resolution_overlay_audit": "completed",
+          "raw_asset_visual": "completed",
+          "source_page_visual": "completed"
+        },
+        "width": 99
+      }
+    ],
+    "issue_id": "ab61f36f-0db0-43f0-aa47-7ff63f7912a7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "MINISTRY OUTLOOK:",
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Dry, Shriveled Seeds or Mature, Productive Plants?",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "bd34abbc-25f2-5c08-87bf-2245fcc82609"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "631f6899e64b5583133a6d221f77daa161b4065d52e429297423ee921b00f625",
+    "metadata_sha256": "82d0a62eadc249a37afecf3e8a02999472ad1b166dbcf9501c40487016b7dcfb",
+    "structure_sha256": "18c7ae13a90c785fd688d622aa4b0a7352d864db360e206cb1d29885bf621f05",
+    "text_sha256": "5b4d8fe5623e4aad74e4dd6a01cac6f14420f9976bf987ad809f46949a364ec7",
+    "translation_metadata_sha256": "147ba1cffe80361ced0312db93be4c9c28d8eea08defe88dcada9cd9ae620023"
+  },
+  "html": "<article data-article-id=\"ea463a08-df2c-4fdf-96c4-5833e4100265\">\n  <figure><img src=\"/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-1.png\" alt=\"Charity African Missions globe logo.\"></figure>\n  <figure><img src=\"/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-2.png\" alt=\"Nine scattered black seed shapes.\"></figure>\n  <figure><img src=\"/images/articles/ea463a08-df2c-4fdf-96c4-5833e4100265-3.jpg\" alt=\"Three red-orange round fruits.\"></figure>\n  <p>Greetings of Christ’s love to each of you our partners and helpers in the work here! I trust that this article finds you walking under an open channel of God’s blessing in your life and feasting repeatedly at the table He spreads for us daily. We are continually amazed at how perfectly the Lord meets our every need by what he puts on our spiritual table each day. He truly customizes our diet to just what our spirits need and balances every day’s meals so that we can continue to walk in a steady forward climb up the path that He daily reveals to us. In so many ways He provides just what we are hungry for, just like a loving Father, and we surely are grateful for His loving care!</p>\n  <p>I realized as I began writing this that it has been 3 months since we wrote last and I want to take a few lines here to fill you in on our activities during this time. Shortly after the last article (written the end of May), we left Bunbonayili and headed south for our missionary retreat in Kumasi. Our days there were filled with hearing inspiring messages and lots of deep heart sharing about the difficulties and problems that we are facing at each of our stations. The fellowship with the rest of our missionaries here is always a blessing to us and in some ways fills in the void created by being so far away from all of our families. We headed on down to Accra (the capital) after the retreat and worked on getting more paperwork through for Abigail so that when we flew back to the states all three of us could go. Christy said that Abigail looks so much like us that everyone would know she was ours, and I certainly agree, but that is not enough to satisfy the immigration authorities of Ghana or America, so we got all of her documents in order to prove that she is truly OURS!</p>\n  <p>We left Ghana on June 20 and returned on August 2, spending about 6 lovely, busy weeks with our families in the states, and meeting as many of you, our dear friends, as we were able. It was a real time of refreshing for our spirits, to receive so much love in such a short time from our families, and to sense the high degree of support that we have from so many of you through your prayers and interest in our lives and tribe. We enjoyed every moment of our time spent stateside, but this is undoubtedly home right now, and we are glad to be back here in Bunbon to resume our life and ministry in this area. We came back one stronger than we left, as my brother Samuel joined us on our return trip and will minister with us during the next few months.</p>\n  <p>That brings us to where we are now—thankful for our time in the states, but happy to be back with our tribe. God’s goodness in every different circumstance we face is so amazing, and we have found Him to be equally faithful in every change, whether through wisdom for the challenges of our ministry here or by coaching us through our first visit back to America! We praise Him for his steadfast love!</p>\n  <blockquote>\n    <p><em>“And let us not be weary in well doing: for in due season we shall reap, if we faint not.” Galatians 6:9</em></p>\n    <p><em>“They that sow in tears shall reap in joy. He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.” Psalms 126:5,6</em></p>\n    <p><em>“The seed is the word of God...But that on the good ground are they, which in an honest and good heart, having heard the word, keep it, and bring forth fruit with patience.” Luke 8:11b, 15</em></p>\n  </blockquote>\n  <p>We returned to Bunbonayili right in the middle of the farming season, and all around us are fields of peanuts, corn, and cotton. It is especially so this year as this is the year for “Linampal aakom”. Every couple years the chief of each village calls for what we call ‘backyard gardening’, which means that for the upcoming farming season the animals which normally roam all around the houses must be tied up, enabling the people to plant the land right around their houses. In the in-between years, this land lies fallow while everyone plants their farms in the traditional pattern which calls for farms to be at least a half mile away from the houses, allowing for the free grazing of the village animals. The yield from the farming done close to the houses is generally very good, both because the land is allowed to rest and because of all the natural fertilizer spread by the animals during the two years they graze on it.</p>\n  <p>Planting is something that is in our blood, probably from our parents because they were always so enthusiastic about doing it when we were growing up. I can remember the many hours I spent pouring over the seed catalogs in the dead of winter, dreaming of the garden we would plant as soon as the soil was warm enough. It is so fulfilling to put all of the little seeds into the ground and then watch as the shoots start popping up a few days later. It is true that as a boy I sometimes grew tired of the weeding and cultivating, but now all of those difficulties are forgotten and what still remains is a great love for gardening. So, a few days after we settled into life back here in Bunbon, Christy and I got the seeds out of the storage room and started planting our own little backyard garden. For many reasons unknown to us, very few of the seeds we bring over from America grow well here, some never even germinating, but that has yet to discourage us from at least trying.</p>\n  <p>I am sure that we are all familiar with the idea of ministry being compared to planting seeds, and the verses above should make it clear that God uses the comparison in His word, but God has brought this home to us in a new way during the last weeks as we have faced some challenges to our faith regarding our labors here. I mentioned above that we did some planting, and it was while we were planting that Christy made a comment to me that became the catalyst which God has used a score of times since to challenge my faith. She was watching me look through the stack of little seed packets, and she mentioned to me how that when we plant seeds, we hardly even consider how the seeds look; our only thought is what the mature plant will look like. We went on to discuss how that no one tries to sell seeds by putting a picture of the seeds on the package. Rather they picture in their advertisements what people are thinking about when they plant—the final product. Beautiful photos adorn the outside of every packet, but every one shows the end goal of a lovely plant loaded with fruit!</p>\n  <p>Because of all that we were already facing on the ministry side, the spiritual application to these thoughts spoke into my heart immediately, and continues to do so. During our time in the states it appears that Satan attempted to destroy all that God has been doing here through bringing in confusion, relationship difficulties, and a general cooling off of spiritual fervor. Coming back to face all of this has stretched our faith once again as we seek to hold on to the spiritual reality that God IS planting His church here and will continue to do so even when it feels like Satan is gaining ground again. It is not that everything is in shambles, but I think just facing the reality of how quickly Satan moved in to destroy and how consistently he labors against the church here has sobered us. It has made us draw more deeply from the well of faith that is in God’s Word for strength to look and work toward the future picture of the church that we see in the Bible.</p>\n  <p>I think by now the application is obvious, but what I have seen as I’ve meditated on this physical/spiritual correlation in the past days is this: planting is by its very nature a work of faith, and when faith is absent or weak, the work of planting and waiting for growth becomes impossible. Now I doubt that you ever thought of gardening as a project requiring faith, and I can’t say that I have either, but think with me; follow the thought processes that we all have when planning, planting, and cultivating those little seedlings. If we did not somehow believe that the little shriveled seeds that we drop in the ground would someday become the lovely plants we see on the package, and did not also believe that the work we are doing contributes to that final success, we would not invest our time and energy to plant and care for the little seeds. But we do believe in the success of the seeds we plant, so we labor, not thinking of how difficult the work is or regarding just how tiny and dried out the seeds are. We think instead of the beautiful plants that will grow out of these seeds and of the abundance of fruit that these plants will one day bear. To think of these things while putting in the ground the shriveled pebbles we call seeds is nothing but pure faith!</p>\n  <p>In the same way, God has called Christy and me here to plant, not corn or tomatoes, but the seed of his Word in the human heart, most specifically Konkomba hearts. These seeds are not unlike the ones we plant in the soil each spring, for they look just as tiny and insignificant and seem hardly connected in any way to the future mature church that God has promised us in His Word. Some of these seeds that we have planted with prayer have sprouted, and in many we are beginning to see a resemblance to what we believe they will one day become. But there are many others seeds which have either not yet sprouted or have sprouted out such a tiny shoot that it takes real faith to believe that they will one day become the luscious plants that have been our goal as we prayed, planned, and planted.</p>\n  <p>Sometimes as we gaze on the ‘garden’ the Lord has given us responsibility for, we slip out of faith, and our work quickly seems so useless and ineffective, and Satan is always at our ear suggesting that we give up. We have been there a few times in the couple of weeks since we began ministering here again, but our Father, who oversees the whole farm, continues to draw our hearts upward to walk moment by moment in faith. He is encouraging us, and we are slowly learning to look not at the shriveled seeds or tiny shoots for what they are now, but to look at them from the perspective of faith, which sees the true potential that lies within them. We are going back again and again to the ‘seed catalog’ (God’s Word) to look at the lovely pictures and dream of what we believe will one day be a reality even here for the seeds we have planted. We are dreaming, but we are not day dreaming, for there is work to do to see this God-given vision from His word become a reality in Konkomba hearts and villages! The beautiful picture we have seen in God’s Word of a mature, prolific church is not only possible, but we believe in faith that it is a reality in progress among our people here!</p>\n  <p>As I close out these thoughts, it is our prayer that by sharing some of the struggles we are facing, your heart will be drawn to pray for us in these areas. We desire to keep on in the work God sent us here to do, that of planting God’s Word and caring for the little seedlings that make up the Konkomba church. But, as I mentioned above, this is faith work, and without faith we cannot continue to labor, so we desire your prayers for us that God would keep lifting our eyes to look from His perspective and for the grace to make the daily choice to walk by faith not by sight. In sharing a little of the way that God has refreshed and lifted our spirits, we desire to give glory to our caring Father Who cares for us so consistently. We also hope that the thoughts of planting seeds in faith with our eye on the end goal will also minister to your spirit as you labor with us here in faith and wherever else God has called you to tend His field. We are so thankful for each of you and your labors on our behalf! We remain here, happily doing God’s work among our people, but also quite obviously still taking classes in God’s school of faith. Thank you for joining our classroom for the past moments by reading this article!</p>\n  <p><em>Just planting seeds<br>and tending seedlings,<br>Daniel &amp; Christy Kenaston<br>and family</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "235f8dd20d56fc02e9859696805f0d1e0285e327fead27d8566fa69930aa4b0b"
+}

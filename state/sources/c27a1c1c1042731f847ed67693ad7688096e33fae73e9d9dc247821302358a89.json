@@ -1,0 +1,116 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Edward Martin"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+    "images": [
+      {
+        "alt": "A pale pink flower and a closed flower bud.",
+        "caption": null,
+        "credit": "© Nathan Leinbach",
+        "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg",
+        "repository_path": "public/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 19; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). The page-2 credit is preserved without inferring a licence or separate permission. On 2026-10-01 the project owner specifically requested removal of the text overlay from this canonical image. AI image editing removed Edward Martin’s signature/name, the running footer and the horizontal rule while retaining the complete visible blossom, bud, stems, framing and pale appearance. This is an edited derivative with reconstructed pixels and slight texture/petal-definition differences, not recovery of an untouched source photograph. The source fade remains. The final encoded image was opened and visually checked at full useful resolution; no text or rule remnants, clipping or corruption were found.",
+        "role": "article background",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            898,
+            1726,
+            1736,
+            2254
+          ],
+          "flip": null,
+          "method": "Original extraction: source object 19 cropped to the recorded crop_pixels and vertically resampled to the published aspect ratio at 838 x 526. User-authorized correction: OpenAI image editing removed the signature, printed name, running footer and horizontal rule from that export. The 1584 x 993 generated result was resampled to the existing 838 x 526 dimensions and encoded as a baseline RGB/sRGB JPEG with the original PDF sRGB IEC61966-2.1 profile and 96 dpi density. The crop and vertical-scale fields describe the original extraction; the current pixels include AI reconstruction.",
+          "native_crop_dimensions": [
+            838,
+            528
+          ],
+          "output_dimensions": [
+            838,
+            526
+          ],
+          "overlay_removal": {
+            "authorization": "Project owner explicitly requested removal of the text overlay from this image.",
+            "date": "2026-10-01",
+            "generated_dimensions": [
+              1584,
+              993
+            ],
+            "input_dimensions": [
+              838,
+              526
+            ],
+            "limitation": "AI reconstruction changes some texture and petal definition; not an exact recovery of obscured source pixels.",
+            "preserved": "Full blossom, closed bud, both visible stems, framing and soft pale appearance.",
+            "removed": [
+              "handwritten signature",
+              "Edward Martin printed name",
+              "running footer text",
+              "horizontal page rule"
+            ],
+            "tool": "OpenAI image generation/editing"
+          },
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1736,
+            2254
+          ],
+          "source_object": 19,
+          "vertical_scale_to_published_aspect": 0.9967117281695288
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): corrected JPEG fully decoded, painted and read back; complete RGBA raster exactly matched the independent Pillow decode. The final encoded file was opened for visual inspection.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the original export and corrected repository JPEG side by side. Complete flower, bud, stems, framing and soft pale appearance were retained; all signature, name, footer and rule overlays were removed without visible remnants or clipping. Slight texture/petal-definition differences from AI reconstruction are disclosed. Full RGB pixel decoding passed at 838 x 526.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai",
+          "visual_comparison_scope": "Original source/PDF verification establishes provenance and composition. The edited derivative was compared visually with the original export at full useful resolution: complete flower, bud, stems, framing and pale appearance retained; signature, name, footer and rule removed as requested. Exact source-pixel fidelity is not claimed."
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the EDITOR",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ea2b4f0494f236a4f9ae85923f55eccaabda3040947b50d1e70efd1841e381d9",
+    "metadata_sha256": "3232cd2e6fdf0e7f064cc8c1be85251c20235451ae525cef2fe94d7af61f05fd",
+    "structure_sha256": "af084a7bfed870c6710fda086cc6ffe53949288b0a7832982136db715858ceca",
+    "text_sha256": "79b9604af40a2d72c308dfd6f46dd7a75ec9ba704730eb564ef71a0b6cc96841",
+    "translation_metadata_sha256": "afcd2373412472d87316529dd9ab468e19701f610b29a6114049eb94fb54b23e"
+  },
+  "html": "<article data-article-id=\"049f2e7d-675c-4dac-9584-5aefceb9b9c1\">\n  <p>Spring is a fascinating season of the year. After months of cold and dormancy, signs of new life start to appear. Buds begin to swell, and tree twigs take on a hint of color. Almost like clockwork, early-blooming flowers bravely push their way through the cold spring soil. What causes all this renewed activity in the trees and plant life?</p>\n  <p>Daniel 2:21 tells us that our Creator God “changeth the times and the seasons.” He uses the sun and the entire cosmic system as the primary force behind this change and the growth of new life. As the days grow longer, plants receive more light. This increase in photoperiod signals many plants to emerge from dormancy. Plants contain light-sensitive proteins that detect changes in daylight and trigger growth responses. Rising temperatures in spring help thaw the soil and stimulate metabolic processes in plants. Enzymes that were inactive during the cold months resume their activity, supporting cell division and growth. As snow and ice melt due to warmer temperatures, water becomes more available in the soil. This moisture is crucial for activating root functions and transporting nutrients to support new growth.</p>\n  <p>Springtime is also symbolic of new birth in spiritual life. It is the time of year when we remember the suffering, death, and burial of our Savior, Jesus Christ, and celebrate the resurrection of our Risen Lord. Just like the plant life in winter, He was laid in a cold tomb with little hope for the future. And then, like flowers in springtime, He gloriously sprang out of the cold, dark tomb, triumphing over death and the power of Satan.</p>\n  <p>In this issue, we feature several articles on the new birth, salvation through Jesus Christ, and a call to follow the Son of God. The sun is the cosmic power of God, causing plants to come out of their wintry graves. In the same way, the Son of God is the power that brings us out of our graves of sin, dead works, and our Adamic sin nature, and creates a beautiful new life within us. Thank God for His Son!</p>\n  <p>The parallel between new growth in plant life in the spring and the spiritual new birth of the human soul is amazing. In the article “The New Creation” the author writes, “Jesus says we must be born again. The old man must first die, giving way for the opportunity for a new birth. Just as Christ himself died and was resurrected, so we must die and be resurrected as a new creature in Christ!” This week, we placed pea seeds in neat rows in the cool, damp soil. In several weeks, we expect, in God’s order, to see rows of pea plants stretching towards the sun. Before long, we will be harvesting a delicious crop of new peas. May we bring God glory by dying to self, springing forth in new life, stretching toward the Son, and producing fruit for our Master.</p>\n  <p>This week, the Baltimore Orioles arrived, and today we saw the first hummingbird of the season. They will spend the next several months feasting on the sugary meals from the feeders outside our window. Perhaps they should read the doctor’s article in this issue, “The Dangers of Ultra-processed Foods”. But I suppose their tiny bodies are divinely designed to handle the sugar-rich diet that flower nectar and hummingbird feeders offer. Our bodies don’t fare so well on unhealthy and sugary foods.</p>\n  <blockquote><p><em>“But ask now the beasts, and they shall teach thee; and the fowls of the air, and they shall tell thee: Or speak to the earth, and it shall teach thee: and the fishes of the sea shall declare unto thee. Who knoweth not in all these that the hand of the LORD hath wrought this? In whose hand is the soul of every living thing, and the breath of all mankind” (Job 12:7-10).</em></p></blockquote>\n  <p>Let us, along with all nature, bring glory to the Creator God by the fruits we offer to Him. “Thanks be unto God for his unspeakable gift” (2 Corinthians 9:15).</p>\n  <p>Edward Martin</p>\n  <figure>\n    <img src=\"/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg\" alt=\"A pale pink flower and a closed flower bud.\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5"
+}

@@ -1,0 +1,88 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "(Author unknown)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "251afbdd-4081-4d15-9688-7d72e9bb5e80",
+    "images": [
+      {
+        "alt": "Stream between grassy banks with trees and hills beyond",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/251afbdd-4081-4d15-9688-7d72e9bb5e80-1.jpg",
+        "repository_path": "public/images/articles/251afbdd-4081-4d15-9688-7d72e9bb5e80-1.jpg",
+        "rights_note": "Sole source image object 40; separately painted headings, article text, panels, rules and decorative framing are omitted. The lightening and feathered white edges are irreversibly embedded in the sole DeviceGray raster. Its dictionary has no soft mask or transparency, and its paint operation uses full opacity; no clean unfaded base or exact original black point survives. These source effects are retained under the unavoidable flattened-overlay exception. Separate poem, title and byline typography is omitted.  No image-specific reuse restriction is printed. The page-2 masthead states “Some images © 2001-2004 www.arttoday.com” without identifying individual assets; no individual attribution or licence is inferred.",
+        "role": "background",
+        "sequence": 1,
+        "source_page": 11,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": null,
+          "flip": null,
+          "method": "Original embedded pixels converted from DeviceGray to baseline RGB/sRGB JPEG, quality 95, 4:4:4, nonzero 72 dpi density; no retouch.",
+          "output_dimensions": [
+            504,
+            684
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            504,
+            684
+          ],
+          "source_object": 40,
+          "unavoidable_flattened_overlays": [
+            "Source lightening/fade retained; no reversible exact blend evidence"
+          ]
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, canvas paint and raster readback passed; the resulting full native-resolution raster was opened and visually checked.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened the final file and compared it with the rendered source page. Published content, crop, orientation and documented source limitations match.",
+          "overlay_audit": "verified_by_ai",
+          "overlay_audit_note": "Compared final full-resolution Skia raster, raw source image objects and rendered PDF. Centre, edges and corners checked for typography, reading panels, bars, borders and fades. No separable layout overlays remain; irreversibly embedded source effects are explicitly documented in rights_note and transformation.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "cd49894a-080d-49b4-96f2-1e2962bf9650",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "Hearken! My Soul!",
+    "topics": [
+      "f4fa872c-34fa-5c6f-baaa-5559ebddf537"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "94b8f741c06e4372190e983624d3494d36bb27afa72025dfbca64c0110bed864",
+    "metadata_sha256": "6e145def5ca14437f705f42c016395c17d0d732dec05c8001cf8dd3327299cc6",
+    "structure_sha256": "8c5cab85b89fd4e6aac5256e59fbfd840aab178465376437e12c1347411a7dfb",
+    "text_sha256": "43302a7c84cd6b530713ee52e46666eda7fe60f63262eaa8da5c682fa99c533a",
+    "translation_metadata_sha256": "254b16b199817bd8f0d565fcf4440d1d4daa28d8048b10be4771a08473c26eda"
+  },
+  "html": "<article data-article-id=\"251afbdd-4081-4d15-9688-7d72e9bb5e80\">\n  <figure>\n    <img src=\"/images/articles/251afbdd-4081-4d15-9688-7d72e9bb5e80-1.jpg\" alt=\"Stream between grassy banks with trees and hills beyond\">\n  </figure>\n  <p class=\"poem\">Hearken! My soul! What canst thou bring<br>\n  To gain the approval of thy royal King?<br>\n  I shall labor, and toil, night and day,<br>\n  Surely I’ll find His favor some way.</p>\n  <p class=\"poem\">I try in great works, His favor to obtain<br>\n  Yet all my attempts are not to my gain.<br>\n  I struggle, I wrestle, at last I sigh,<br>\n  With all hope lost, to Thee I cry.</p>\n  <p class=\"poem\">Lord, Thou hast seen my feeble tries,<br>\n  My falterings, my failures, my despairing cries.<br>\n  I see my small strength will never be<br>\n  Enough to make me all glorious for Thee.</p>\n  <p class=\"poem\">“O precious daughter, knowest thou not,<br>\n  How wondrous things my power hath wrought?<br>\n  Wouldst thou not fully rest in Me?<br>\n  For ‘tis my joy to work in thee.”</p>\n  <p class=\"poem\">Yea, I would yield myself to Thee<br>\n  For my endeavors have wearied me<br>\n  And, O thou labourings, all in vain!<br>\n  Have only caused my soul great strain.</p>\n  <p class=\"poem\">“Rest, O child, simply rest in my care<br>\n  And I shall make of thee beauty so rare.<br>\n  Into my likeness, I’ll shape, form and build,<br>\n  If thou would rest in me and be still.”</p>\n  <p class=\"poem\">At last! A princess to behold!<br>\n  Refined and precious, like unto gold<br>\n  Yet all earth’s riches could not repay<br>\n  The priceless treasure that God hath made.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e7b78c052e4c28a8dccac6566c16c317cb7542da1e843b1a775aafa4b288b20f"
+}

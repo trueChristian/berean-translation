@@ -1,0 +1,96 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rachel Weaver"
+        }
+      ],
+      "raw": "by Rachel Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "e8a034e0-cb99-41bd-84d2-d3afa6ed88ee",
+    "images": [
+      {
+        "alt": "A seated mother holding a baby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-1.jpg",
+        "repository_path": "public/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-1.jpg",
+        "rights_note": "PDF image object 45. Useful source-pixel crop [625, 110, 1095, 725] of object 45 retains the mother and baby and removes the baked heading, byline and introductory text, which are transcribed separately. Gray background toning and the lower fade are irreversibly baked into this sole high-resolution raster and are retained as an explicit unavoidable exception. No image pixels reconstructed. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source grayscale converted to RGB (or source RGB preserved) and normalized as baseline sRGB JPEG with nonzero 72 dpi density; output dimensions match the retained source-pixel region. No CMYK source or sample inversion.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 10
+      },
+      {
+        "alt": "Flowers arranged in an ornamental vase",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-2.png",
+        "repository_path": "public/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-2.png",
+        "rights_note": "PDF image object 46. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 10
+      },
+      {
+        "alt": "Two birds among flowering branches",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-3.png",
+        "repository_path": "public/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-3.png",
+        "rights_note": "PDF image object 50. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 11
+      },
+      {
+        "alt": "A house beside a stream and a small bridge",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-4.png",
+        "repository_path": "public/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-4.png",
+        "rights_note": "PDF image object 54. Original source asset; separate page typography, rules, frames and pull-quote panels omitted. No crop, flip or rotation. No image-specific permission restriction is printed. The issue-level credit reads “Some images © 2001-2006 clipart.com / photos.com” without identifying individual assets; no individual source or licence is inferred. Source gray/RGB samples preserved in RGB/RGBA PNG.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 12
+      }
+    ],
+    "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 12,
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "A Mother’s Heart Cry",
+    "topics": [
+      "4f9300ad-a83d-56c6-8aeb-2907c08f2c04",
+      "e16fa525-448d-504a-8ebc-927c62ec6e8f",
+      "565f773d-5aae-54fd-ad75-4a0f1c196a01"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3cafe5dfa993e32aa798d6a249db6ed40bff330d44be4077ab4ba45c1b7816df",
+    "metadata_sha256": "e7567838c202792db3f134b059a441356b231a355a6e7f47196a603fe2b49966",
+    "structure_sha256": "ae6f5fdb2a07a05eb3db5b6f21baafb732cf55a1e728671c760af10418dcf3b6",
+    "text_sha256": "1df5b368187488b0d168b3adabc37172fb5a964b3cf4129e39c8b484bdf06d5d",
+    "translation_metadata_sha256": "ed51b04407ba0167c555c1a4302ad7466e60351728369c2d8888acfa0a0889d6"
+  },
+  "html": "<article data-article-id=\"e8a034e0-cb99-41bd-84d2-d3afa6ed88ee\">\n<figure>\n  <img src=\"/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-1.jpg\" alt=\"A seated mother holding a baby\">\n</figure>\n<p class=\"poem\"><strong>When the babies are out of diapers…<br>\nWhen I can get a full night of sleep…<br>\nWhen the children are old enough to help…<br>\nWhen homeschooling is finished…<br>\nWhen the teenagers are grown up…<br>\nWhen the children are married…<br>\nIf I had been taught to keep house…<br>\nIf I only had a baby…<br>\nIf I had a husband who…<br>\nIf my children would…<br>\nIf our finances weren’t so tight…</strong></p>\n<p>Have you ever heard these cries, or thought them yourself? So many, many times through the years I have found myself saying many of these things. In the middle of the baby years, with a baby in my arms, toddlers hanging on my skirts and a preschooler, I wished for someone to help with the chores. Later, there were plenty of helpers, but more work and home-schooling to accomplish and I was sure that this was the most difficult time of my life. Still later, when my last babies were tiny, and we were sitting up to chat with young people facing life changing decisions, I was saying other “ifs.” So soon, the babies stopped coming and I wasn’t nursing any more but my nights were interrupted because of changing hormones. The temptation to be discontented was still there. Some ladies never have problems sleeping even with hormone changes....</p>\n<p>As I was thinking about the last thirty years, I realized that one of the things that had sapped too much of my vitality was discontentment and murmuring. I remembered the joyful, singing girl that became a mother and somewhere, some of the song was lost. Where did it go when I did not have it? Why was it too often gone? I see so many, many tired, frustrated mothers who do not have the joy of Jesus on their faces. What is the answer? What have I learned over the years?</p>\n<figure>\n  <img src=\"/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-2.png\" alt=\"Flowers arranged in an ornamental vase\">\n</figure>\n<p>When we were married, I was joyful, and full of song. In fact, singing characterized my life. I had learned through some very, very difficult experiences of being alone, that Jesus was all I needed. When I met with Him and walked with Him my heart overflowed with song. So when I met and married my husband, my cup was really full and overflowing. Now I had a person to walk with me and to share with. I was very happy.</p>\n<p>The babies began to come and I loved them and loved mothering. Children had always been my special interest. I had worked with them all of my life. But the babies were fussy, very fussy. They cried constantly and were sick so much of the time. Finally we uncovered allergies and began to learn how to deal with the problem. But my nights were always interrupted with little ones who did not feel well. I began to drown in the sea of self-pity and discontent. I dragged through my days. I was not serving. I was just tending house and caring for the little ones. I felt like I was failing God. Hadn’t He called me to serve others, too? My songs lost their joyfulness. My smile flashed less often. Of course, I was weary! But, remember friends, <em>“the Joy of the LORD is my strength” (Nehemiah 8:10).</em> Without joy there is less strength. For a few years I struggled through my difficulties, keeping on, but really lacking joy and vitality.</p>\n<p>Then the Lord met me in a new way and presented to me very clearly the ministry that I had in my own home, the calling that was mine, the challenge to contentment. And the sparkle came back. Oh, the babies still cried at night and I was still weary, but I was thrilled with the understanding that my children were indeed my mission field and that as I served my husband and nurtured our children I was serving the Lord. I was content to serve however I could in my little way, with my children. How sweet it was to be there, and how many, many opportunities came my way to fill others with a bit of happiness and song. This was another joyful time.</p>\n<p>The years passed. Then some major disappointments touched our lives. Once again, I had to come to grips with the fact that my happiness is in Jesus Christ alone. No matter what I may do, unless I serve the Lord Jesus with all my heart, soul, mind and strength I will never be contented. Circumstances do affect us, and trials come, but they do not need to steal our joy. What an important lesson to learn. Why does it take us so long to really grasp this?</p>\n<p>Here I am today, a mother of nine, ages twenty-nine to seven, and a grandmother of six. The temptation is still the same today, but the struggle is not usually as difficult. It’s like learning to walk. The more you do it the easier it is to keep your balance. The longer you look at God as a good God, easier it is to accept all things from His hand, sweetly and with contentment. Jesus is my personal friend and He answers my prayers. I do fail, but I can always go back and find sweet forgiveness and go on!</p>\n<figure>\n  <img src=\"/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-3.png\" alt=\"Two birds among flowering branches\">\n</figure>\n<p>The other morning in my devotions I read this verse, <em>I Corinthians 10:10 “Neither murmur ye as some of them also murmured and were destroyed . . .”</em> I thought, “Isn’t that why our happiness is so often destroyed? It is not having many babies close together, being short in finances, suffering from poor health or having a husband who doesn’t help us with the housework that steals our happiness. But discontentment surely will. A discontented, murmuring spirit will destroy us just like the children of Israel were destroyed. Our bodies will not die of a plague, but our joyful spirit will die.</p>\n<p>Contentment is a jewel of great price. With it, a small, simple house can seem like a mansion. A frugal meal can become a feast and everything we do can be a blessing. Without it, we are irritable, the children whine and the day does not go well.</p>\n<p>What is contentment? Webster’s 1828 says contentment is “a resting or satisfaction of mind without disquiet; acquiescence.”</p>\n<p>I like that. No disquiet, only a restful, satisfied mind. And since everyone in our household reflects us, there will be a resulting restfulness in our homes. There will be a peaceful acceptance of what God brings into our lives each day. Peaceful acceptance brings joy, and a joyous heart overflows with praise.</p>\n<p><em>Psalm 118:24 “This is the day which the LORD hath made; we will <u>rejoice</u> <u>and</u> <u>be</u> <u>glad</u> in it.”</em> When you and I learn this lesson, it changes our whole life. This is a lesson that I wish the grandmas had passed on to me. If you can see each day as a gift to you, from God, you will be able to better accept what is in the package. You will begin to rejoice. When you see your husband and your little ones in this light you are far more able to joyfully face each new day.</p>\n<figure>\n  <img src=\"/images/articles/e8a034e0-cb99-41bd-84d2-d3afa6ed88ee-4.png\" alt=\"A house beside a stream and a small bridge\">\n</figure>\n<p>Can you wake up with a sigh and a moan if you understand: <em>“This is the day that the Lord hath made, we will rejoice and be glad in it?”</em> Of course not! I have taken the challenge of waking up with my alarm, and thanking the Lord for the new day and the things He will bring to me. This starts my day on the right foot and is quite helpful. After all, it is harder to grumble about something that you have already thanked God for! Then, as each spill, each challenge, and each interruption comes, stop and say, “Thank you Lord, another chance to bring glory to you.” It will change your life.</p>\n<p>If you have never read the story, “Pollyanna” by Eleanor Porter, you have missed an opportunity to be challenged by a child who had a contented attitude and a happy outlook about things, even difficult things. Read it aloud to your children and you’ll all benefit from the message that there is something in everything to be glad about. That message is the whole of the book. It is shouted in every chapter and we have often been inspired by it.</p>\n<p>God’s Word is full of the same message. In fact, the author of “Pollyanna”, got her message from the Word. That is where her story took root. Take a look at a few of the commands in the Word to contentment. <em>I Timothy 6:6 “But godliness with contentment is great gain. . .”</em> and <em>Philippians 4:11 “Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith</em> <u>to be content.”</u> Then comes the injunction to rejoice, and that one is everywhere in the Bible. It is bursting form every seam in the Psalms and sprinkled liberally many other places. Look at a few of them. <em>Psalm 118:24 This is the day which the LORD hath made; we will</em> <u>rejoice and be glad</u> in it.</p>\n<p><em>Psalm 40:16 “Let all those that seek thee <u>rejoice and be glad</u> in thee: let such as love thy salvation say continually, The LORD be magnified.” Psalm 90:14 “O satisfy us early with thy mercy; that we may <u>rejoice and be glad</u> all our days.” Isaiah 12:3 “Therefore <u>with joy shall ye draw</u> water out of the wells of salvation.”</em></p>\n<p>Contentment and joy go hand in hand. Contentment is a choice, and joy follows it. If you do not have joy, you need to get in touch with Jesus and find Him to be your satisfaction for each day. Accept Him as your Lord! Then when He gives you something you would not choose, you can recognize it as a gift from Him. This really changes how you look at everything. <em>“Be thankful unto Him and bless His name for the Lord is good”. Psalm 100:4-5</em></p>\n<p>Study contentment and joy. Learn your lesson well and you will find peace and contentment filling your heart and life daily. You may fail and find yourself bogging down in the middle of difficult circumstances. The song may go out of your heart and the light go out of your eyes. Then fall on your face and meet your Father who knows everything and has arranged each new day especially for you. Repent and rejoice. This is the day that the Lord hath made!</p>\n<p>The following poem sums it up pretty well.</p>\n<p class=\"poem\"><strong>A heavy sigh, “Oh what a day!”<br>\nI have to “be content,” you say.<br>\nYou go about, mouth drooping low<br>\nLeaving depression where you go.<br>\nYour shoulders stoop, your head hangs down,<br>\nContentment is your “only crown”.<br>\nContentment? That is what you say?<br>\nBut friend, you aren’t content today.<br>\nCome now. Lift up your head, admit it.<br>\nYou’d like your way if you could git’ it.<br>\nBut since you can’t, well, “you feel good,<br>\nYou’ve borne your lot, just like you should.”<br>\nThat weary look, the martyred air<br>\nYou have assumed, so unaware<br>\nIs not contentment, it won’t stand,<br>\nCONTENTMENT AND JOY GO HAND IN HAND.</strong></p>\n<p><em>-Joyce Weaver</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "3214bf65163b1787a22f1f2564b3b25d5fd06e34a52ddabe8051dc17f67b5a48"
+}

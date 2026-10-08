@@ -1,0 +1,85 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": null
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [
+        "dda0cbb3-457a-5412-a60f-abb389b827e0"
+      ],
+      "primary": "69c79b4c-4584-59d0-8d07-a27005d6f940"
+    },
+    "id": "84da6b5d-046a-4fe1-bf3f-61c2036e789b",
+    "images": [
+      {
+        "alt": "Portrait of Jonathan Edwards.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/84da6b5d-046a-4fe1-bf3f-61c2036e789b-1.jpg",
+        "repository_path": "public/images/articles/84da6b5d-046a-4fe1-bf3f-61c2036e789b-1.jpg",
+        "rights_note": "No image-specific credit, licence, or reuse restriction is printed. The masthead states “Some images © 2001-2003 www.arttoday.com” without assigning that source to individual images; no individual licence inferred. Original Jonathan Edwards portrait at 108×171, baseline RGB JPEG, quality 95, 72 dpi. Native low resolution retained without invented detail; surrounding article typography omitted.",
+        "role": "author portrait",
+        "sequence": 1,
+        "source_page": 30,
+        "transformation": "Original Jonathan Edwards portrait at 108×171, baseline RGB JPEG, quality 95, 72 dpi. Native low resolution retained without invented detail; surrounding article typography omitted.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, canvas paint and full pixel readback passed.",
+          "color_space": "RGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "ImageMagick"
+          ],
+          "overlay_audit": "verified_by_ai",
+          "pdf_base_object": 103,
+          "pixel_dimensions": [
+            108,
+            171
+          ],
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Book Review",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "pages": [
+        30,
+        31,
+        33
+      ],
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Religious Affections",
+    "topics": [
+      "67713d66-ee88-59a8-987a-23109f8cc075",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "67ea9228ffa170de3bbf5d80bec10b480bc09b708228e7e3c94999d005565142",
+    "metadata_sha256": "ca416584c40af582518fd0ef3fb785b65b888b0c2d1e220655d7939c81d3ad05",
+    "structure_sha256": "0bf73780d738bfa35680fbbf30c938a86f27e7302a320d5850ae4e1655b03a49",
+    "text_sha256": "34e14fe6580efbed8eb923549ad2473028c2fcb8fe572dbffcfa21bf593277c5",
+    "translation_metadata_sha256": "01a0eb22e18bcdea3f5142ac10af018a165d9091bee57a6812f12383997e78c8"
+  },
+  "html": "<article data-article-id=\"84da6b5d-046a-4fe1-bf3f-61c2036e789b\">\n  <p>Jonathan Edwards is best known for his fiery sermon “Sinners in the Hands of an Angry God.” In 1734, God used this sermon to spark a revival that swept across early colonial America. The revival made such an impact on early America that historians have labeled it the “Great Awakening.” However, Jonathan Edwards’ burden did not stop with him. He was the father of eleven children, all of which followed after his vision and burden. Without a doubt, his home was on fire for the Lord. He was a devoted father, and it is not surprising to note that he was scrupulous about family devotions. It was said that he regularly took one of the children along with him when he had to travel out of town so that he could spend intimate time with each of them. His relationship with his wife was also inspiring. God blessed Jonathan with an adoring wife, and it is said that they deeply enjoyed their time together. Jonathan frequently wrote of her spiritual excellence and her “sweetness of temper.” His last words written to her from his deathbed give us a glimpse of the love that was shared between them,</p>\n  <figure><img src=\"/images/articles/84da6b5d-046a-4fe1-bf3f-61c2036e789b-1.jpg\" alt=\"Portrait of Jonathan Edwards.\"></figure>\n  <blockquote><p><em>“Give my kindest love to my dear wife, and tell her that the uncommon union, which has so long subsisted between us, has been of such a nature as I trust is spiritual, and therefore will continue forever.”</em></p></blockquote>\n  <p>Edwards lived and preached in New England in the colonial years before the American Revolution. The American colony in which he lived had been settled a hundred years earlier by its Puritan founders. In the beginning, the Puritans considered themselves a “religious remnant.” They left their homelands risking disease and ruin for the sake of Christ. But only a hundred years later, their once persecuted church had become the established one. Their land was now “safe.” Their strong work ethic naturally led to prosperity, and eventually they started an insidious downward slide toward lukewarmness, until they were soon ensnared by the cares of the world. To make matters worse, the “Age of Reason” was just dawning, and the average educated Christian began to view God’s wrath and judgment as primitive concepts. They eventually fell prey to the deception of humanism, embracing the idea that all men are basically good. It was a day in which feelings, emotions, and enthusiasm were suppressed and generally viewed as immature, trite, and unlearned among the new “refined” Puritans. Thus, the stage was set by God, onto which Jonathan Edwards would emerge to wake up the church and call her to repentance and faith in a living, personal, and loving Savior.</p>\n  <p>Of all of Edwards’ works, I believe <em>Religious Affections</em> best encapsulates the spirit of the Great Awakening movement. Edwards’ central theme throughout the book was this: a true conversion to Christ will be followed by a fervent, heart-felt passion for God. Extending beyond denominational lines, this book has inspired many. A.W. Tozer speaks of it as having surprising challenges to our ideals of devotion. John Wesley even had the book reprinted in England to be circulated among the early Methodists. The clarity and persuasiveness of the book make it easy reading, but most importantly, I think most readers will agree that the book still bears an anointing upon its pages. If taken seriously, I believe it could spawn another “Great Awakening” in our day.</p>\n  <p>Speaking of our spiritually inspired emotions and feelings he said:</p>\n  <blockquote><p><em>The kind of faith which God requires, and will accept, does not consist in weak, dull, and lifeless wishes, raising us but a little above a state of indifference. God, in His Word, greatly insists that if we be earnest, we will be “fervent in spirit,” and our hearts will be vigorously involved in our faith, “Be ye fervent in spirit, serving the Lord” (Rom 12:11). . . .If we are not serious about our faith, and our wills and desires are not strongly determined, we are nothing. The things of faith are so great, that there can be no place in our hearts unless it is lively and powerful. In nothing is vigor in the actings of our inclinations so requisite, as it is with faith; and in nothing is lukewarmness so odious. True faith is always powerful, and its power is first demonstrated within the heart, the site of its source.</em></p></blockquote>\n  <p>He surveys the Word of God and identifies some very useful scriptural applications on happiness, blessedness, courage, hatred, holy desire, joy, zeal and much more. In examination of the scriptural position concerning inspired emotions, he asserts:</p>\n  <blockquote><p><em>Those people who are uncomfortable accepting that emotions have anything to do with our faith need to realize that if they can’t accept a spirituality of the heart, they might as well throw away the Bible. They’ll have to use some other standard to judge the nature of religion.</em></p></blockquote>\n  <p>He further warns of intellectualism:</p>\n  <blockquote><p><em>“...the person who has doctrinal knowledge and intellectual speculation only, without the heart engaged, is never truly involved with the business of religion.”</em></p></blockquote>\n  <p>Concerning worship, praise and rejoicing, Edwards gives stirring encouragement to envision that heavenly worship as we see it depicted in Scripture. He challenges us that we should examine these biblical references and allow Christ to conform us, so that we might experience true heavenly worship. He states:</p>\n  <blockquote><p><em>Heaven’s spiritual life is emotional—and therefore, undoubtedly, true faith is emotional also. The way to learn the true nature of anything is to go to where that thing is found in its purity and perfection. If we want to know the nature of true gold, we must study it, not in the ore, but when it is refined. If we want to learn about real religion, we must go where the life of the Spirit is most real, where there is nothing else besides this life, where nothing detracts from it or obscures it. All who are truly spiritual are not of this world. They are strangers here and belong in heaven; heaven is their native country, and the nature they receive from this heavenly birth is a heavenly nature. Grace and salvation is their first sunrise of heaven and God makes them ready for heaven by shaping them.</em></p></blockquote>\n  <p>If not read in its entirety, the book could be falsely interpreted as advocating pure emotionalism. Fortunately, Edwards adds balance and clarity on this issue by devoting a considerable amount of time denouncing false emotionalism and zeal without knowledge. He writes,</p>\n  <blockquote><p><em>“Simply because our faith is emotional does not prove it is deeply spiritual and full of grace.”</em></p></blockquote>\n  <p>He warns of visions, physical experiences and ecstatic manifestations, which do not honor Christ. He reminds the reader that 1 John 4:1 states: <em>“Try the spirits whether they are of God.”</em> He recalls Paul’s warning to the Galatians about their religious fervor. He says:</p>\n  <blockquote><p><em>The Apostle Paul speaks of the Galatians’ emotions as being extremely elevated, and yet he obviously fears that these emotions were empty and nonproductive:</em> “Where is then the blessedness ye spake of? For I bear you record, that, if it had been possible, ye would have plucked out your own eyes, and have given them to me” (Gal 4:15). <em>And yet in the eleventh verse, he tells them he was afraid that he had worked among them in vain.</em></p></blockquote>\n  <p>The following statement probably best summarizes Edwards’ message in a nutshell:</p>\n  <blockquote><p><em>“There are false emotions and there are true. Because a person is very emotional does not prove that he has any true religion—but if he has no emotion, it proves he has no true religion.”</em></p></blockquote>\n  <p>The book does go deeper, discussing the nature of true religious emotions and alerting the reader to be mindful of the motives behind them. He also emphasizes that the pure fruit of holiness is the only outward evidence by which we may gauge the genuineness of our experiences.</p>\n  <p>Very few books have stirred me as this one did. I have recently come from an area of the country where all manner of emotionalism and ecstatic exaggeration abounds, and without any consideration given to its authenticity. However, I now find myself witnessing the full swing of the pendulum as I observe the religious austerity of many professing Christians here in Lancaster County. From my perspective, this book could be useful in helping Christians today re-examine where we stand in our fervency and devotion, in the light of God’s Word. May the Lord give us wisdom as we seek to surrender every area of our lives more fully unto Him!</p>\n  <p>You can order this book from most any Christian bookstore. I recommend the <em>Barbour Publishing</em> edition.</p>\n  <p>You can also read it free online at:</p>\n  <p>http://www.ccel.org/index/classics.html</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "8d701ecd91d08877a9ce7d066fe5aa284b3079353333cfddb8e7803e6b857e73"
+}

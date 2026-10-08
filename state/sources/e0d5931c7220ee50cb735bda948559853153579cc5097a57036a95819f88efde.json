@@ -1,0 +1,69 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+    "images": [
+      {
+        "alt": "A sailing ship passing rocks near the coast.",
+        "caption": null,
+        "credit": null,
+        "height": 540,
+        "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg",
+        "repository_path": "public/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg",
+        "rights_note": "Sole embedded base object 24; full published image content and orientation preserved. Separately painted article text, rules, frame and background layout omitted. Artist mark retained. The gray tonal background is baked into the only source raster; whether it was an earlier publisher treatment is unstated, and no clean alternate or exact inverse evidence exists. It is preserved without claiming an untinted original. The article title and prose are separate PDF text and omitted. No individual image credit or licence is stated in the PDF. Normalized as a baseline RGB JPEG with embedded sRGB profile and nonzero 150 dpi density; original grayscale appearance preserved where applicable. Final file visually checked against PDF and source asset; complete warning-free loads through Pillow and ffmpeg, then natural-size Skia Canvas decode/paint/readback; encoded colour space confirmed sRGB. The general masthead states “Some images © 2001-2004 www.arttoday.com”; it does not identify which images this covers, so attribution of this individual image is uncertain and no licence is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_object": 24,
+        "source_page": 7,
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, paint at natural dimensions and raster readback passed.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow/libjpeg",
+            "FFmpeg native MJPEG"
+          ],
+          "independent_image_review": "A second AI reader opened the final asset and compared it with its source page and raw source image; complete subjects, orientation and documented layout/overlay disposition verified.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        },
+        "width": 750
+      }
+    ],
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "ALL THE ROCKS",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "357924a8a8e8c8b521c937ff24a52a6215088e1ba971180ea590bd14bfa484fa",
+    "metadata_sha256": "9035cfed21079465950f5865aa0c5b81eeff7c6b601a6eb033f4731d6c627000",
+    "structure_sha256": "455573977a41d0bfbea1147b23dd5444385065c20ef9efa8b5fb9224f6284005",
+    "text_sha256": "34986b32e847effb3050feb9a9620f6cce1cf92f20d417e32229077e55055145",
+    "translation_metadata_sha256": "33929322fa31137136be5b5730c3c4503759da9fa6e68acbfca97211de5b4ffd"
+  },
+  "html": "<article data-article-id=\"cac00fd8-ab2b-4033-92c7-bef44b4341db\">\n  <figure>\n    <img src=\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\" alt=\"A sailing ship passing rocks near the coast.\">\n  </figure>\n  <p>A Captain was once asked if he knew all the rocks along the coast. “No,” said he, “it is not necessary to know all the rocks, only to know the safe channel.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518"
+}

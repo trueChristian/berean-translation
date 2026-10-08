@@ -1,0 +1,48 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Nancy Esh",
+          "role": null
+        }
+      ],
+      "raw": "~Nancy Esh"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "16200f43-1163-4e2b-94a5-730b2aaf30a5",
+    "images": [],
+    "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "A Cry From The Heart",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "ffd1b5b93a6faa0f13e7890f8c5d51078508a905ebbbc61aef0c6c19ca8c1b44",
+    "metadata_sha256": "9c01b8126e71dbf67e385ec8209d4bd60113f50f3eca168c667f9c1eafc3c91b",
+    "structure_sha256": "8602e415f6c385f97d88899276fa5f7a5602c4b99971be4e57b92a6b7378a92e",
+    "text_sha256": "513aa4333f1212d9b20a512c7f7de779019a41cc70cabc4147794c2d733c8969",
+    "translation_metadata_sha256": "e43a8ec0efe014eb4d7d8d7233c2504709dbc5f365ef1df342a7027583004190"
+  },
+  "html": "<article data-article-id=\"16200f43-1163-4e2b-94a5-730b2aaf30a5\">\n  <p class=\"poem\">May my life from idols be,<br>\n  From chains of sin set free,<br>\n  Though others all around me bow,<br>\n  To idols and things fall down,<br>\n  Dear Lord, please cleanse my heart from these,<br>\n  And may I Thee forever please.</p>\n  <p class=\"poem\">My life is Yours and Yours alone.<br>\n  No longer <u>I</u> upon the throne.<br>\n  For me and others far and wide,<br>\n  Upon the cross you bled and died.<br>\n  And THEN, my Lord, you rose again,<br>\n  O'er death and hell the vic'try gained.</p>\n  <p class=\"poem\">Now dear Lord, please let me go,<br>\n  And tell the others so they may know.<br>\n  Of how for them you gave your life,<br>\n  The world's greatest sacrifice.<br>\n  And how I no longer turn,<br>\n  And to my idols incense burn.</p>\n  <p class=\"poem\">And now, oh Lord, take down,<br>\n  The idols in each village and town.<br>\n  From person to people, all.<br>\n  Their idols <u>now</u> must fall.<br>\n  For God will come in might and power.<br>\n  And ALL will worship in that hour.</p>\n  <p>~Nancy Esh</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "a1bd597360186085c3e5ad29641a8795596b4641aa2164fa4fd9e116788269d0"
+}

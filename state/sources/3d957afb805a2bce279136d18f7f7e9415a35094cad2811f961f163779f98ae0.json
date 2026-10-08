@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Leonard Schiemer",
+          "role": "source author"
+        }
+      ],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "59e78031-c269-52d1-9b00-08dba0398cb4",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "1944e033-c8f0-4f00-beda-b42bfc3e8bd5",
+    "images": [],
+    "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 25,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "The Potion in the Bottle",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "3f3758a7e4128008acf6fa7294de4ef0ded57aac293fef1464c89ced6d990b23",
+    "metadata_sha256": "c8b135db06ad3a71fdc9fe425030f976491785caf84203b11b7708c354219f9d",
+    "structure_sha256": "0b43d156b0d1566e736d3e1c602265c08b934f0637a9074ca4fe1c4808f9baba",
+    "text_sha256": "1a19c1970afa48c01564f89b9962c158253a744ca584af8c7d64317564497b55",
+    "translation_metadata_sha256": "55657b3da23c7550fc68deb97d8b59d9b5fb6a40abce1a7b87f3892b8f24cff2"
+  },
+  "html": "<article data-article-id=\"1944e033-c8f0-4f00-beda-b42bfc3e8bd5\">\n  <p>The ungodly are saying that we drink something out of a bottle, and the devil himself has no idea what is in that bottle. Whoever drinks from the bottle isn’t happy [with the status quo] any more, acts differently, and has no concern for money or life. He must do whatever he is told to do.</p>\n  <p>Well, you people without God, I want to explain it to you. I will let you call it a “bottle.” And it is true; the devil doesn’t know what is in that “bottle”! And it is true that whoever drinks from that “bottle” becomes a different person!</p>\n  <p>The drink in this bottle is simply the smashed, beaten, ground up, and troubled heart, crushed by the mortar called “the cross.” God’s grapes have to be pressed in the winepress called tribulation, otherwise there would be no wine.</p>\n  <p>Our friend and brother Jesus drank of this drink while He was on the cross, mixed with vinegar and hyssop. He offered some to the two sons of Zebedee, asking them, “Can you also drink of the cup that I will be drinking from?”</p>\n  <p>Yes, it is such a powerful “bottle” to drink from, that whenever someone drinks of it, he becomes another person, and his neighbors take notice.</p>\n  <p>It doesn’t matter whether you call it a cup or a “bottle.” In fact, a bottle serves as an analogy. A bottle is narrow at the top, and wide at the bottom, just like the way of salvation is also narrow, filled with fear and trouble. But once the trouble has been passed, the bottom is large … just like God giving great comfort to us after our trials. When He disciplines us, it seems sad, not joyful, but afterwards it brings peaceful fruit of righteousness to those who have waited patiently. The Lord allows no one to stay an orphan, but gives them comfort, which comfort is nothing less than a foretaste of eternal life. ~</p>\n  <p><em>—Leonard Schiemer, who wrote the above, spent six years as a Franciscan monk before becoming disheartened with their lifestyle and doctrine. After hearing Hans Hut preach, he was rebaptized in the Spring of 1527. For the next six months, Leonard preached and baptized many others. On November 25, 1527, his preaching activity was ended when he was thrown in prison. He was treated mercifully at first, and spent much time writing. It was probably during this time that the above was written. However, on January 14, 1528—only seven weeks after his capture—Leonard took his final swig from the “bottle” of suffering. After passing through the “narrow neck” of having his head cut off and his body burned, Leonard was given the glorious opportunity to rest forever in the “large bottom” of eternal consolation. Leonard’s career as a rebaptized disciple of Jesus lasted a total of about nine months.</em></p>\n  <p><em>The above writing was extracted and adapted from </em>Spiritual Life in Anabaptism<em>, by Cornelius J. Dyck.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4d2a7bf97b6d9911eb5b2eb04b1551164053123478fe08a657a2133e4079f6e6"
+}

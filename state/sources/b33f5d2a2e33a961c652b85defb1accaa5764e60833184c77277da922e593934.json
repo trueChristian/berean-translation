@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Andrew Weaver",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "Elisabeth Weaver",
+          "role": null
+        }
+      ],
+      "raw": "by Andrew & Elisabeth Weaver"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "1c75ca28-4f99-5339-b594-085359f81d18"
+    },
+    "id": "45c0d16b-fdfd-40d4-acfb-8361b478b0c3",
+    "images": [
+      {
+        "alt": "Andrew and Elisabeth Weaver seated together.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/45c0d16b-fdfd-40d4-acfb-8361b478b0c3-1.jpg",
+        "repository_path": "public/images/articles/45c0d16b-fdfd-40d4-acfb-8361b478b0c3-1.jpg",
+        "rights_note": "Clean base PDF image object 98 exported with the published rectangular clip mapped to nearest native pixel bounds [0, 1, 169, 234]; no rotation or flip. Separate gray title panel, rules and surrounding frame omitted. JPEG container normalized to baseline sRGB with nonzero 72 dpi density; no CMYK conversion or sample inversion was needed. No individual image credit or license is printed; the masthead names artists Lisa Weaver and Kate Rutler without identifying their individual works.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 22
+      }
+    ],
+    "issue_id": "1b71c997-6dfc-4be4-a75f-e14cb1034695",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "The Blessing Corner",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 23,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "The Blessing of Authority",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8300cf4fe2db762c32e9d2d2bab138335b43a0ceb9aec205709ec262f6cdcd3c",
+    "metadata_sha256": "0219cbea324ae531117bf2a5919c47e939c4a18fd616833aafa681e7e33b5ae4",
+    "structure_sha256": "ad44f650d2afc5a1e08da431bf70614d2e6fc48352b734bb59340da886e19f2b",
+    "text_sha256": "2033e8d20184ccf3baf0b91d9149fdaf639f76bbd1661119991b9a21cb63593b",
+    "translation_metadata_sha256": "8a2bd732ea64e8f79ccbde6bc5384479a22ec606db1a736cf01f9f0153066036"
+  },
+  "html": "<article data-article-id=\"45c0d16b-fdfd-40d4-acfb-8361b478b0c3\">\n  <figure><img src=\"/images/articles/45c0d16b-fdfd-40d4-acfb-8361b478b0c3-1.jpg\" alt=\"Andrew and Elisabeth Weaver seated together.\" /></figure>\n  <p>It is an unfortunate fact that many of God’s best blessings to us are not recognized as blessings except in retrospect. The blessing of authority in our lives is one that most people fail to recognize for what it is, an evidence of God’s loving care for them. In fact, many are making the tragic mistake of resenting and resisting the authority God has placed in their lives, and so are missing out on many beautiful blessings. During our recent courtship and marriage, we experienced many of these blessings firsthand, and want to share some of our reflections on the subject.</p>\n  <p>Obviously, a person’s first encounter with authority and submission involves his/her parents. We were both privileged to have godly parents whose authority in our lives was a reflection of God’s authority over them. It was a gentle shepherding and consistent leading by example instead of a demanding system of law. We both learned very early that the authority our parents exercised in our lives was not something they used for their own selfish gain. Rather, it was their way of protecting us under the umbrella of their authority. We cannot begin to recount the ongoing blessings our lives received through their protection.</p>\n  <p>Clearly understanding that our wills were in submission to a better and wiser will (our parents’) made it easier for us to count the cost of surrendering that will to God at conversion. It is so much easier to make a complete, unconditional surrender of your will to God when it has already been yielded to your parents. When obedience to your parents is simply natural, whether you understand fully or not, obedience to God can become your natural response, too. And surely anyone would agree that complete obedience to God is the key to many of the richest blessings in our lives.</p>\n  <p>Understanding that God placed authority in our lives for our protection and blessing made it easy to remain under that authority even when we were old enough to begin forming ideas and opinions of our own. An important step in learning the blessing of authority is to realize that imperfection in your human authorities does not change in any way your responsibility to respect and obey them. Young people are often eager to try their own ideas and methods, especially after being disillusioned by failure on the part of their authorities, but God’s best blessings are reserved for those who can wait until He establishes their own authority.</p>\n  <p>Courtship often tests young people’s acceptance of their parents’ authority like nothing else. We found, however, that by the time we approached that season of life, our parents’ authority had simply become a reflection of the convictions that had formed in our own hearts through years of learning to know God. We still marvel at how perfectly God revealed His will concerning our marriage first to our parents, then clearly confirmed it to both of us. This is the most exciting step of all in learning the blessings of authority- when you discover that the will you have submitted to your authorities has become like theirs, and God is now ready to validate your own authority as it is given to you. We feel that God Himself has established our respective places of authority in our new home simply because we first learned the blessing of accepting the authority God had protected us with.</p>\n  <p>Surrendering your will to God and the people He has placed over you brings an unshakeable peace. Life becomes so simple and uncomplicated, because you simply follow those who are called to lead you. So much of what is called stress is nothing more than a self-inflicted problem that comes from trying to “help” our authorities when God has only called us to submit. Life is both too short and too long to miss this principle of accepting and appreciating the authority over you. It is too long to waste precious years resisting your authorities and missing out on beautiful blessings and usefulness for God. And it is too short to settle for anything less than the best God intends for you.</p>\n  <p>Although we are still learning about authority and its blessings, we have learned enough already to testify that it really works! As we have begun our new home together, we have been blessed beyond anything we thought possible. We know that many of those blessings came as a result of accepting the place God had for us under our authorities’ protection. It is one of God’s principles and promises that blessings follow submission. Try it and be blessed!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "f6515e181f7eee6fa89754d1498197430567651b40cc38ba084ae24916db8984"
+}

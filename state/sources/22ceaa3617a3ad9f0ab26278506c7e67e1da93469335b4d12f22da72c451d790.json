@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+    },
+    "id": "333888b5-3dc6-4fa1-93d7-15280924d1a7",
+    "images": [
+      {
+        "alt": "A horse wearing a harness.",
+        "caption": "Meekness is power under control.",
+        "credit": null,
+        "public_path": "/images/articles/333888b5-3dc6-4fa1-93d7-15280924d1a7-1.png",
+        "repository_path": "public/images/articles/333888b5-3dc6-4fa1-93d7-15280924d1a7-1.png",
+        "rights_note": "PDF stencil object 100 painted at its original 328×240 pixel grid using the source CalRGB foreground colour on white, then saved as lossless sRGB PNG. No layout text or frames included. No individual image creator or licence printed.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "Meekness 101",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "19d83d4c4fcf9e1b091b5904a11189c5166a4f177fc9a062b5794627c11e6e9e",
+    "metadata_sha256": "a9dfb8c958b50641652a2bce9a84279271ae325b744dd864b72e5d408097934b",
+    "structure_sha256": "a8dfd8234112acdbe226201a1003ab8ff5c85380182828e1a1ef1e19cc1ae875",
+    "text_sha256": "3b545285166add7a828b0a1aaf8a8b6938435d45ec572b1a32c97432b3a7239b",
+    "translation_metadata_sha256": "a3a7b4b14002b6adf2705358768efedcab792571545b5318cebc1cfa5e7fb408"
+  },
+  "html": "<article data-article-id=\"333888b5-3dc6-4fa1-93d7-15280924d1a7\">\n  <figure><img src=\"/images/articles/333888b5-3dc6-4fa1-93d7-15280924d1a7-1.png\" alt=\"A horse wearing a harness.\"><figcaption>Meekness is power under control.</figcaption></figure>\n  <p>The Apostle Paul encourages us in I Tim. 4, to do exercises in godliness. Or, exercises that produce godliness. With each issue of <em>The Remnant</em>, we are presenting a holy activity that will stretch and strain our spiritual muscles. There is an American proverb that says, “no pain, no gain.” This is very true in the realms of the spirit also. We have a family exercise this time that you and your family will find quite challenging. The exercise is on meekness. The term 101 refers to the beginner’s course in any given subject.</p>\n  <p>In Matt. 11:28-30 Jesus said, “...learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.” In the Sermon on the Mount, He also taught that a great blessing would come on the ones who are meek. So, what is meekness? The Vines dictionary defines meekness as “that temper of spirit in which we accept Gods dealings with us as good, and therefore, we accept them without disputing and resisting.” Now when we choose to bring this definition down into our everyday life, this can be quite revealing. A general definition for meekness is yieldedness. I have given up. I have yielded my life, my plans, my rights, my possessions, to God and His will. Now this is where the school of meekness begins. At this point, because God is sovereign, He now has the right to test the depth of this commitment. This is where the learning part of the class begins. In reality, it means we are going to accept everything that comes our way as coming from God. It means that we are willing to yield ourselves unto God, and obey His prompting throughout the day. Are we like a wild horse, with all the power and ability still out of control? Or, are we like the trained horse, with all our powers and abilities given up to God?</p>\n  <p>To begin with, plan out when you are going to start the class. One week before you begin, have a couple of days of instruction on meekness so everyone knows what they are going to learn. Then get each one down on their knees in prayer, to tell the Lord that they want to enter this class. Lord, we give You the liberty to order our lives however You wish. We are willing to be taught whatever You feel we need to learn. You will be amazed at the way God will personally direct the circumstances of your lives during the following week.</p>\n  <p>In preparation of the class, choose about five hymns that deal with surrender, consecration, and God’s sovereign rule over us. I suggest you sing one of them on your knees every hour on the first day. A good song for this exercise is “I Surrender All.” Get ready though, this is a very probing song to sing on bended knee. Family devotions should center on this theme all week long. Subjects like the life of Christ, or David the king, or Joseph will be very helpful. As you move into the week, you want to discuss what God is doing in each life as He orders the events of each day. This should be a good family time of openness and honesty. Each member of the class should be alert to feelings of anger, irritability, and frustration. These are usually indications of areas of unyieldedness. The family talks and singing of songs can take place at meal times, and before bedtime at night.</p>\n  <p>Dear brothers and sisters, this can be a very holy exercise in the life of your family. You should be prepared for more than you expected. I am forewarning you. Attitudes may surface that you were not aware of. Humiliations may be ordered by the Lord for the whole family’s benefit. You will be a closer family after this exercise and the children may ask to do it again. If all enter in with an earnest spirit of brokenness, deep lessons will be learned.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "6c17b2af31770902ec2d5b88fed5871f77b03e1084ea9d7604b15d85c78300da"
+}

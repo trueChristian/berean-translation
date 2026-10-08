@@ -1,0 +1,63 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Susan M. Stalter"
+        }
+      ],
+      "raw": "Susan M. Stalter"
+    },
+    "categories": {
+      "additional": [
+        "85b345ae-ce23-56a2-9249-2cfa79293657"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "540be2d2-b67d-4b83-a1ba-6eabbdd06c8f",
+    "images": [
+      {
+        "alt": "An autumn forest path framed by vivid red and orange trees",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/540be2d2-b67d-4b83-a1ba-6eabbdd06c8f-1.jpg",
+        "repository_path": "public/images/articles/540be2d2-b67d-4b83-a1ba-6eabbdd06c8f-1.jpg",
+        "rights_note": "No image credit, licence, or separate permission notice is printed for this background. The integrated page artwork was rendered at 300 dpi with text suppressed and converted to sRGB, preserving the complete 2550-by-3300-pixel published autumn scene without the poem, title, byline, or page furniture, then baseline-encoded as a JPEG.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "788c32b7-cf6d-5b87-a325-a8acfd2f6fc5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "While Life Is In the Prime Of Youth",
+    "topics": [
+      "19d37772-1cdc-55b8-8b79-3d5105a1c2ab",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f",
+      "cfc81b13-c1a9-5fe7-b925-05565ed4af7a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9b7de5cbd643b983f198772fe76b31e9c0173710893f070bea9a326395da12bb",
+    "metadata_sha256": "e405a9764df906f74ba6ccf5e4bc7000e5dee889800836c47622a589e16aef8f",
+    "structure_sha256": "98a87977f78b8e8123fe7247918b8c9cd0d73800a25e85b142f3776cc1553677",
+    "text_sha256": "eb025d540641edbc3a83df8e604642891f3122013c1e3a810c70f5ef15a8f2c1",
+    "translation_metadata_sha256": "53cf6b3a1c9208159aed8f6607c14e5e68ccb4330eacb09f8b46b83dfb69d625"
+  },
+  "html": "<article data-article-id=\"540be2d2-b67d-4b83-a1ba-6eabbdd06c8f\">\n  <figure>\n    <img src=\"/images/articles/540be2d2-b67d-4b83-a1ba-6eabbdd06c8f-1.jpg\" alt=\"An autumn forest path framed by vivid red and orange trees\">\n  </figure>\n  <p class=\"poem\">Father, in my life’s young morning,<br>\n  Now I owe my all to Thee;<br>\n  You deserve my best, yea, utmost,<br>\n  For You’ve paid the price for me.</p>\n  <p class=\"poem\">Life seems young, and looks inviting,<br>\n  But I do not know the hour,<br>\n  When this life shall cease forever,<br>\n  And I’ll see Thee in Thy pow’r!</p>\n  <p class=\"poem\">I could waste my life, and squander,<br>\n  All these blessings freely mine;<br>\n  But I’d reap for it, and dearly;<br>\n  How much better to be Thine!</p>\n  <p class=\"poem\">On the altar, Lord, I lay down,<br>\n  All my self, ambitions, pride.<br>\n  Search me, try me, Saviour, cleanse me,<br>\n  For I cannot from Thee hide.</p>\n  <p class=\"poem\">Use me, fill me, and possess me,<br>\n  With Thy Spirit so divine.<br>\n  Leaving all earth’s joys to serve Thee,<br>\n  How I joy to call Thee mine!</p>\n  <p class=\"poem\">Talents, thoughts, desires, and service,<br>\n  Love’s devotion, and my time:<br>\n  Lord, they’re Yours; I freely yield them<br>\n  Up to You, and in life’s prime.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "a3b1ef8b8d600ad7a77b37939c7bde6c6d9e746223e2d5de52e773343f730314"
+}

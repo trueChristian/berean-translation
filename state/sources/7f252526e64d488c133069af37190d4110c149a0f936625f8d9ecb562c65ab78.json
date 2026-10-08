@@ -1,0 +1,70 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Philip Hess",
+          "role": null
+        },
+        {
+          "location": null,
+          "name": "G. Koehn",
+          "role": null
+        }
+      ],
+      "raw": "Philip Hess\nG. Koehn"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+    "images": [
+      {
+        "alt": "Sheet music and lyrics for Hallelujah, It Is Finished by Philip Hess and G. Koehn",
+        "caption": null,
+        "credit": "Philip Hess\nG. Koehn",
+        "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg",
+        "repository_path": "public/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg",
+        "rights_note": "The score prints the names Philip Hess and G. Koehn without assigning specific roles; those names are preserved without inference. No licence, copyright, or separate-permission notice is printed. The embedded score was encoded as a standards-normalized three-component baseline sRGB JPEG at 150 ppi, preserving the published 1110×1096 dimensions, crop, orientation, notation, and text.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 34
+      }
+    ],
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "God’s People Keep Singing",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Hallelujah, It Is Finished",
+    "topics": [
+      "a10c92ad-c7aa-5bb3-b3ad-9d419ad43fff",
+      "8c7cc997-9923-5381-8b5c-991d617cf034",
+      "85cb5d71-76ce-501c-ac9b-6e8263d78ccf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1506c452b11d358d7cea35685c790508d8d9b49c3f76f9286dec1cb117d96380",
+    "metadata_sha256": "c3fa2058dfc65bd492dc2ab08d3d8c4042e41b2fd05bb4005f69dc3127367ca0",
+    "structure_sha256": "2f009c88d936ca68a0f99525f8b5e836ba9a2f1d5cb8fa4b58611b876f944511",
+    "text_sha256": "1df65b062ce3ac4184db8a3ee245741a226f1a9596e3f2e7af9a4c830e2e1f71",
+    "translation_metadata_sha256": "04d6a516a33f2eb04cf7c11dffbd491ff1873a9def5392c44c2f58d53315be8e"
+  },
+  "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"Sheet music and lyrics for Hallelujah, It Is Finished by Philip Hess and G. Koehn\" loading=\"lazy\">\n  </figure>\n\n  <p>Philip and Betsy Hess live near Bethel, Pennsylvania, with their two children, Damaris and David. Philip works in dismanteling and rebuilding old barns. They attend a small, home-based fellowship, where they earnestly desire the kingdom of Christ to grow.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2"
+}

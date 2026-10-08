@@ -1,0 +1,281 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Roger Hertzler"
+        }
+      ],
+      "raw": "by Roger Hertzler"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "11f3b229-ad6c-5d69-b529-82d977f8d000"
+    },
+    "id": "fe6db1b1-c5c4-4a52-bab3-08cef3d04462",
+    "images": [
+      {
+        "alt": "Collage of people using early telephones",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-1.jpg",
+        "repository_path": "public/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-1.jpg",
+        "rights_note": "Clean original DeviceGray embedded image object 42. Raw image dictionary, page paint order, clipping path and graphics state examined; no soft mask, transparency group, opacity wash or overlay is present in the raster. Separately painted article typography, introduction panel, frame and page furniture omitted. The twelve constituent portraits and connecting telephone wires are intrinsic to this single source collage and preserved together. Published rectangular clipping reproduced with the recorded nearest-source-pixel crop. No asset-specific credit or restriction printed; issue-level credits do not establish an individual asset licence. DeviceGray converted to real RGB with embedded sRGB profile without inversion. Final baseline JPEG has nonzero 300 dpi density and terminal EOI; complete Pillow and FFmpeg decoding and Skia Canvas rendering passed without warnings. Every final export visually compared at full useful resolution with the raw base object and source page, including centre, corners and edges.",
+        "role": "photographic collage",
+        "sequence": 1,
+        "source_page": 10,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            746,
+            506
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; embedded sRGB ICC profile; 300 dpi",
+          "method": "original embedded image; nearest-source-pixel crop corresponding to PDF clipping rectangle",
+          "output_dimensions": [
+            746,
+            506
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            747,
+            507
+          ],
+          "source_object": 42
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Man speaking on a telephone",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-2.jpg",
+        "repository_path": "public/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-2.jpg",
+        "rights_note": "Clean original DeviceGray embedded image object 49. Raw image dictionary, page paint order, clipping path and graphics state examined; no soft mask, transparency group, opacity wash or overlay is present in the raster. Separately painted article typography, introduction panel, frame and page furniture omitted. Published rectangular clipping reproduced with the recorded nearest-source-pixel crop. No asset-specific credit or restriction printed; issue-level credits do not establish an individual asset licence. DeviceGray converted to real RGB with embedded sRGB profile without inversion. Final baseline JPEG has nonzero 300 dpi density and terminal EOI; complete Pillow and FFmpeg decoding and Skia Canvas rendering passed without warnings. Every final export visually compared at full useful resolution with the raw base object and source page, including centre, corners and edges.",
+        "role": "photograph",
+        "sequence": 2,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            222,
+            334
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; embedded sRGB ICC profile; 300 dpi",
+          "method": "original embedded image; nearest-source-pixel crop corresponding to PDF clipping rectangle",
+          "output_dimensions": [
+            222,
+            334
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            223,
+            336
+          ],
+          "source_object": 49
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Man wearing glasses and holding a telephone receiver",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-3.jpg",
+        "repository_path": "public/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-3.jpg",
+        "rights_note": "Clean original DeviceGray embedded image object 53. Raw image dictionary, page paint order, clipping path and graphics state examined; no soft mask, transparency group, opacity wash or overlay is present in the raster. Separately painted article typography, introduction panel, frame and page furniture omitted. The circular portrait and its white corners are intrinsic to the raw raster; the outer PDF ellipse does not change meaningful image content. No asset-specific credit or restriction printed; issue-level credits do not establish an individual asset licence. DeviceGray converted to real RGB with embedded sRGB profile without inversion. Final baseline JPEG has nonzero 300 dpi density and terminal EOI; complete Pillow and FFmpeg decoding and Skia Canvas rendering passed without warnings. Every final export visually compared at full useful resolution with the raw base object and source page, including centre, corners and edges.",
+        "role": "photograph",
+        "sequence": 3,
+        "source_page": 13,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            225,
+            221
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; embedded sRGB ICC profile; 300 dpi",
+          "method": "original embedded image; full raster preserves intrinsic circular portrait",
+          "output_dimensions": [
+            225,
+            221
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            225,
+            221
+          ],
+          "source_object": 53
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Child holding a telephone receiver",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-4.jpg",
+        "repository_path": "public/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-4.jpg",
+        "rights_note": "Clean original DeviceGray embedded image object 60. Raw image dictionary, page paint order, clipping path and graphics state examined; no soft mask, transparency group, opacity wash or overlay is present in the raster. Separately painted article typography, introduction panel, frame and page furniture omitted. Published rectangular clipping reproduced with the recorded nearest-source-pixel crop. No asset-specific credit or restriction printed; issue-level credits do not establish an individual asset licence. DeviceGray converted to real RGB with embedded sRGB profile without inversion. Final baseline JPEG has nonzero 300 dpi density and terminal EOI; complete Pillow and FFmpeg decoding and Skia Canvas rendering passed without warnings. Every final export visually compared at full useful resolution with the raw base object and source page, including centre, corners and edges.",
+        "role": "photograph",
+        "sequence": 4,
+        "source_page": 15,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            203,
+            300
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; embedded sRGB ICC profile; 300 dpi",
+          "method": "original embedded image; nearest-source-pixel crop corresponding to PDF clipping rectangle",
+          "output_dimensions": [
+            203,
+            300
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            204,
+            300
+          ],
+          "source_object": 60
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Row of telephone switchboard operators",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-5.jpg",
+        "repository_path": "public/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-5.jpg",
+        "rights_note": "Clean original DeviceGray embedded image object 64. Raw image dictionary, page paint order, clipping path and graphics state examined; no soft mask, transparency group, opacity wash or overlay is present in the raster. Separately painted article typography, introduction panel, frame and page furniture omitted. Published rectangular clipping reproduced with the recorded nearest-source-pixel crop. No asset-specific credit or restriction printed; issue-level credits do not establish an individual asset licence. DeviceGray converted to real RGB with embedded sRGB profile without inversion. Final baseline JPEG has nonzero 300 dpi density and terminal EOI; complete Pillow and FFmpeg decoding and Skia Canvas rendering passed without warnings. Every final export visually compared at full useful resolution with the raw base object and source page, including centre, corners and edges.",
+        "role": "photograph",
+        "sequence": 5,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            2,
+            746,
+            392
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; embedded sRGB ICC profile; 300 dpi",
+          "method": "original embedded image; nearest-source-pixel crop corresponding to PDF clipping rectangle",
+          "output_dimensions": [
+            746,
+            390
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            747,
+            394
+          ],
+          "source_object": 64
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "start": 10
+    },
+    "subtitle": null,
+    "title": "MISSION to the TELEMARKETER",
+    "topics": [
+      "280f7e50-0dcd-51d6-a13f-3b69f197f4b7",
+      "3a6d55c6-a8e1-51f6-a35b-8924add5ec2d",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b9e4d06ee3ca00869cc4cc86f147a05e78f4a68bb905a535685391dc3ad113b9",
+    "metadata_sha256": "716437dcec13c485d818008adb027f7605ff3eec9ef7796ef7a5910f73e73435",
+    "structure_sha256": "34b68b12517760d6badf36a7234227b0d9b7ec5c66eb049d1a075b9d22d53246",
+    "text_sha256": "8ef974199b2071c1e034d33983cfcae6644a526318cd4fabfe7ce5054a2ded5d",
+    "translation_metadata_sha256": "38249fffe6b1065a347c16eb5ced174287402acd32c99dbdf840a8f22c947cc6"
+  },
+  "html": "<article data-article-id=\"fe6db1b1-c5c4-4a52-bab3-08cef3d04462\">\n  <figure><img src=\"/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-1.jpg\" alt=\"Collage of people using early telephones\"></figure>\n  <p><em>This article was written by a brother from Valley Christian Fellowship in Halsey Oregon. I was so blessed talking with him on the telephone. He has had a burden for telemarketers for some time and has now finally got some of these thoughts on paper. He said that lately he has noticed strong accents coming from the telemarketers and so he asked the callers where they were calling from; to his amazement he found that many of them were actually calling from India! I apologize that the article is a bit long. I tried to shorten the script portion but I felt the Lord saying no. I think that the script portion could be used as a model to give us a starting place when starting this type of evangelism. A good idea would be to keep this issue under the telephone. The nest time someone calls turn to the script portion and pray. May the Lord lift up our eyes to the harvest! ~Dean</em></p>\n  <p>We as a group of people are well aware of the importance of witnessing to the lost. We know that Christ’s final command to His disciples, and therefore to us, was “Go ye into all the world and preach the gospel.” We know that Ezekiel 33 warns us that we will be held responsible if we do not warn the wicked of the danger they are in. We also know that our own spiritual life will suffer and even die if we do not allow God’s love to flow out of our lives to affect others.</p>\n  <p>We are aware of the strong relationship between evangelism and revival (both personal revival and group revival), and have heard testimonies of how evangelism has always been either the cause or else the result of the mighty revivals of the past. We’ve also heard of the innumerable tragedies of God’s people losing their first love and growing lukewarm after they had lost their zeal to evangelize. We’ve heard about the power that characterized the Christianity of the early church, of the Anabaptists in the 1500’s, of the Moravians in the 1700’s, and of the Chinese house churches of today. And we acknowledge the link between the power of these Christians and their zeal for evangelism.</p>\n  <p>We also know <em>how</em> to evangelize. We’ve listened to an abundance of sermons on the subject, and have read stories about God’s people who were active in evangelism. We’ve studied the doctrine of salvation extensively and have committed to memory all the key verses we will need to present the plan of salvation to others. We’ve heard the set of tapes on soul-winning by brother Denny (set #2 from Charity), and have memorized some of the effective questions we can ask to begin a conversation about spiritual things. We’ve learned from Ray Comfort’s “Hell’s Best Kept Secret” about how to use the Law in evangelizing. And we know the proper motivation for witnessing from Paris Reidhead’s “Ten Shekels and a Shirt.” (This kind of preparation, by the way, is very important if you plan to put the rest of this article into practice.)</p>\n  <p>But the truth of the matter is still this: we simply do not evangelize like we know we should. It’s not that we do not want to do it. It’s just that… well, there are so many hindrances to sharing the gospel here in America. Of course, preaching to the lost would be easy in a place like Haiti or Ghana. You see, over there, the people are <em>hungry</em>, and they <em>want</em> to hear the gospel. But here in America, the people are so calloused to the gospel that they probably wouldn’t listen to us anyway. Especially all the rich, contented, middle-aged people. They’ve all chosen their course in life and don’t feel any need whatsoever to listen to our views on religion.</p>\n  <p>Also, it takes up so much of our precious time to do street evangelism and door-to-door tract distribution. We’ve got so many other things making demands on our time, including family responsibilities, church functions, and our regular work schedules. And by the time the weekend rolls around, we have a list this long of things that really do need to be done around the house.</p>\n  <p>And finally, even though we don’t like to admit it, we are a little frightened at the thought of trying to share the gospel with a perfect stranger. Even after all the tapes we’ve listened to about <em>how</em> to do it and <em>why</em> to do it, our flesh still recoils at the very thought of actually <em>doing</em> it. What if we seriously mess it up, and don’t use the right words in our gospel presentation? The poor soul that we are witnessing to could end up being lost forever, all because we couldn’t think of the right thing to say at the right time! Should we really take the risk?</p>\n  <p>But yes, in spite of all our excuses, we still know that we really do need to do evangelism. The spiritual life (and eternal destiny) of us, of our children, and of those around us depends on it. Whatever it costs us, we are willing to obey our God in this all-important area. So by God’s grace, we purpose to do just that!</p>\n  <p>There, we have made the difficult decision. But now we are faced with more questions: Where should we begin? What methods shall we use? Where are these sinners that God wants us to start witnessing to?</p>\n  <p>If we are going to start witnessing to others, what we would really like to have is some sort of training environment where we could practice our witnessing skills under ideal circumstances. (Then, once we are comfortable with this, we could advance into something a little more challenging.) One thing that would be nice, for instance, is if we could share the gospel from the comfort of our own home, rather than out on a cold street somewhere.</p>\n  <p>Another good thing would be if we could start out by doing evangelism by telephone rather than in person. Just think of all the advantages there would be! <strong>First</strong>, we’re not as likely to get punched in the face in the event that we say the wrong thing to the wrong person. <strong>Second</strong>, we wouldn’t have to look at the unfriendly expressions on the faces of the witnessee, which can be a real distraction if we’re trying to share the gospel for the first time. <strong>Third</strong>, it would be a lot easier to get back to our families after the witnessing time is over. It’s a lot easier to simply hang up than, say, to drive all the way home from downtown Los Angeles.</p>\n  <p>Well then, if evangelization by telephone is really the way to go, maybe we should just go through the local phone book and start dialing numbers! On second thought, however, I wonder how many phone numbers we would have to call before we found someone who is willing to talk? And if he is willing to talk, would he be receptive to the gospel? Chances are, we’d spend all evening talking to those wealthy, contented, middle-aged folks who aren’t remotely interested in hearing about what Christ has to offer them.</p>\n  <p>If only we could somehow get a list of pre-screened telephone numbers which would include only those people who are young, poor, uneducated, and have plenty of time to talk. Wouldn’t that make it easier, just the knowledge that the person we are calling is more likely than average to be hungry for truth? Yes, if we could get a hold of a list like that, we would all start dialing numbers and witnessing for Christ.</p>\n  <figure><img src=\"/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-2.jpg\" alt=\"Man speaking on a telephone\"></figure>\n  <p>Or would we? You know, now that we think about it, it would still makes us a bit nervous to call these people without any warning whatsoever, even if they are the perfect candidate for salvation. So since we’re into fantasizing anyway, why don’t we just ask for one more thing. How about if we could get the people on this pre-screened list to call <em>us</em>, instead of us having to call <em>them!</em> Now that would truly be a soul-winner’s dream!</p>\n  <p>But let’s stop our dreaming. We know that God wants us to sacrifice, to suffer, and to work hard in the spread of His kingdom. Of course we will never experience such perfect opportunities for witnessing as what we have described above.</p>\n  <p>Or will we? Could it be possible that these perfect opportunities are coming to us on a weekly (or even on a daily) basis, and that we are missing them? Could it be that God so desires that we learn how to witness for Him that He is even sending people our way that we can practice on? Please consider this question as you read the following story.</p>\n  <h2>THE INTERRUPTION</h2>\n  <p>My workday has ended, and I sit up to the table with my wife and has prepared, followed by a relaxing evening. No sooner have I taken the first few bites, however, when the evening’s peace is shattered by a ringing telephone. The caller ID tells me only “out of area,” and so somewhat gingerly I pick up the phone.</p>\n  <p>“Hello, this is the Hertzlers.”</p>\n  <p>I hear an all-too-familiar pause before a slightly accented voice at the other end of the line responds, “Hello, may I please speak to Mr. Roger Her…Hertzler?”</p>\n  <p>I flash a quick signal to my wife that this could take a little time, and then disappear into my office.</p>\n  <p>“Yes, this is Roger.”</p>\n  <p>“Hello, Mr. Hertzler. This is Larry Gordon from Citibank. I am calling to inform you that because of your excellent credit, you have been pre-qualified to receive one of our…”</p>\n  <p>I listen as politely as possible as the telemarketer reads the pre-typed sales pitch.</p>\n  <p>“Well, sir, thank you for the offer, but I think I’ll pass on it today.”</p>\n  <p>“But sir,” the voice continues, “we are just offering this to you on a 30-day trial basis. After that, if you are not totally satisfied, you may cancel at any time and no fees will be charged.”</p>\n  <p>Again as politely as possible. “Thanks, but I still believe I’ll pass at this time.”</p>\n  <p>“Okay, sir. But if you ever change your mind and want to give this plan a try, please give me a call at 1-800-987-6543.”</p>\n  <p>“Well thank you sir. But before you hang up, would it be all right if I’d ask you a question?”</p>\n  <p>“Certainly, sir. What would you like to know?”</p>\n  <p>“By the way, what’s your name again?”</p>\n  <p>“I’m Larry. Larry Gordon.”</p>\n  <figure><img src=\"/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-3.jpg\" alt=\"Man wearing glasses and holding a telephone receiver\"></figure>\n  <p>“Okay, Larry, well, as I’m sure you know, every one of us is heading toward that point when we cross from this life into the next one. In other words, we are heading toward that time that we call Death. Now my question is this, Larry. If that time would come for you, and you were to die right now, do you know for sure that you’d go to Heaven?”</p>\n  <p>(Larry laughs nervously.) “Uh… well, yes. I believe I probably would.”</p>\n  <p>“Well, I’m glad to hear that, Larry. But if you don’t mind my asking, I’m curious why you think so?”</p>\n  <p>“Well, uh, sir, I don’t know. I mean, I try to try to treat everyone like I’d like to be treated and everything. And well, I’ve never done anything really, like, bad or anything. I think I’ve lived a fairly good life so far.”</p>\n  <p>“Yes, I understand. But could I ask you a few questions to see if that is really true?”</p>\n  <p>“Uh… yeah, I guess.”</p>\n  <p>“Okay, well, first of all, I assume that when you said that you’ve lived a good life, you were comparing yourself with the people around you that you are acquainted with. In other words, compared to the rest of the people you know, you’ve lived a fairly good life, or at least well above average. Is this true?”</p>\n  <p>“Yes sir, that’s right.” (Larry sounds a little more confident than before.)</p>\n  <p>“Well, that’s good, Larry. But the only problem with that reasoning is this: the Bible tells us that on judgment day we will not be judged based on the people around us, but rather based on God’s law. Breaking God’s law is called sin, and the people who break it are called sinners. God has given us a brief summary of His law in what we call the Ten Commandments. Could we just go through a few of these commandments to see whether you really have kept them?”</p>\n  <p>“Uh… all right.” (The confidence is leaving again.)</p>\n  <p>“Let’s start with the command against lying. Have you ever told a lie, Larry?”</p>\n  <p>“Well, yes, of course I have. Everybody’s told a lie before.”</p>\n  <p>“Well what does that make you? In other words, if you would have broken the command against committing murder, you would be called a murderer. But since instead you’ve broken the law against lying, what does that make you?”</p>\n  <p>“Well, if you say it that way, I guess I’m a liar. But I don’t tell lies any more.”</p>\n  <p>“Another of God’s commands says that we must not steal. Have you ever done that, at any time in your life, regardless of the value of the item?”</p>\n  <p>“Well, I think I did a few times when I was really young. But I don’t do that any more either.”</p>\n  <p>“But doesn’t that still make you a thief, even though you haven’t done it for a while? You wouldn’t say that someone who has committed murder isn’t a murderer any more simply because he hasn’t killed anyone in the last several years.”</p>\n  <p>“Well, yes, I guess you’re right.”</p>\n  <p>“Another of God’s commands tells us not to commit adultery. This means having any kind of a sexual relationship outside of marriage, and Jesus said that even to look on a woman lustfully makes you guilty of adultery. Have you ever done any of those things?”</p>\n  <p>“Yes sir, I sure have.”</p>\n  <p>“Listen, Larry. We’ve only gone through 3 of the Ten Commandments, and you’ve admitted that you’ve broken all three of them. There’s really no point in going through any more of them, because the Bible says that if we’ve broken one commandment that we are guilty of all of them. So based on this little test, if God were to judge you according to His law, would you be innocent or guilty?”</p>\n  <p>“I’d be guilty, I guess.”</p>\n  <p>“The Bible says that the wages of sin is death. That means that the fair penalty for the sins that you’ve committed is eternal punishment in the lake of fire called Hell. The Bible also says that those who commit adultery, theft, and lying will go to Hell. So tell me Larry, if you were to stand before God on judgment day, and if He would ask you to give Him one reason why He shouldn’t cast you into Hell for all eternity, what would you tell Him?”</p>\n  <p>“Uh, well… I don’t know, sir. I’ve never really looked at it this way before. I – I guess I wouldn’t have any reason, and I’d have to go to Hell.”</p>\n  <p>“You are right, Larry, you wouldn’t have a reason, not if you’d die in the condition that you are in right now. By your own admission, you are guilty of breaking God’s law and deserve to go to Hell. If you would die now, God would have to throw you into Hell, not because He is a bad God, but because He is a holy God and you are a bad person. For Him to remain a holy God, He has to punish sin, and that includes your sin. But Larry, before you give up hope, I have to tell you that there is one possible way of escape. There is one and only one reason that you could give on judgment day that would be a sufficient reason for God not to send you to Hell. Tell me, Larry, would you like to hear about this reason, this only possible way of escape?”</p>\n  <p>“Yes, sir, I sure would. Please tell me.”</p>\n  <p>Here I tell them how Jesus paid their debt by his sacrificial death on the cross. I give them an example of a man who incurred a large debt by committing a serious crime. I go on to tell them that this man’s debt was then paid for by another man whom he did not even know.</p>\n  <p>“The only possible answer, Larry, is to get someone else to pay the penalty for the sins that you have committed. And the only person who can do that for you is Jesus Christ. Picture it this way. Suppose you had driven your car too fast through a school zone, and had been given a $1,000 fine as a result. Now you are standing in the courtroom, and the judge asks you if you are guilty of the crime you are being charged with. You admit that you are guilty, and he tells you that the penalty is $1,000. You reply to the judge that you believe that this is a fair penalty for your crime, but that you don’t have $1,000, nor do you have any way to get the money. The judge then says that he must put you into prison until you can come up with the money (which you know will never happen as long as you are in prison). It’s starting to look as though you will never be a free man again.</p>\n  <p>“Suppose, however, that a rich man in the courtroom sees your predicament, comes up to you, and offers to pay your fine for you. He says that there are no strings attached, that he has the $1,000 in his pocket, and that he is willing to pay the fine on the spot if the judge accepts the payment. Would a good judge accept the rich man’s offer? Of course he would, as long as the fine gets paid in full. The judge is able in this case to give you your freedom and still remain perfectly just, even though you yourself had no resources to pay the fine.</p>\n  <p>“It’s the same way with Jesus Christ, Larry. He is offering today to pay the penalty for the sins that you have committed. Two thousand years ago he came to this earth as God in the flesh, and allowed Himself to be tortured, killed and buried by evil men. He died not because of His own sin, but because of your sin, Larry. He shed His precious blood to pay the penalty for the sins of any person who is willing to repent of his sin, believe in Jesus Christ, and surrender his life to God’s control. It’s the only way that God can forgive your sins and still be the perfectly just God that He is.</p>\n  <p>“If you reject this offer, Larry, it will mean that you will have to pay the penalty for your own sin. And that is a terrible thought, because according to the Bible, that penalty will be eternity in the lake of fire. Is that a penalty that you are willing to pay, Larry?”</p>\n  <p>“No sir, it sure isn’t.”</p>\n  <p>“Then there’s only one way of escape, and that is to repent, believe, and be baptized in the name of Jesus Christ. Larry, is there anything hindering you from accepting God’s call today, any doubt in your mind about the things I’ve been sharing with you, any particular sin in your life you are not willing to give up for Jesus?”</p>\n  <p>“I believe I need to do that, sir; I really need to give my life to Jesus. But this has been an awful lot to consider in such a short period of time, and I’d like to spend some time thinking about the things you’ve shared with me. I’ve never had the message of Jesus explained to me in this way before. I want to thank you so much for caring enough to share these things with me, and I promise you that I will spend a lot of time thinking about them after I’m off work. But I really need to go now, because I’m at work and there are some more calls I have to make.”</p>\n  <p>“Yes, Larry, I can understand that. And I would definitely encourage you take the time you need to make this decision. Spend time in prayer, asking God to show you the condition of your own heart just as He sees it. But just remember this, Larry, that you don’t have any promise of tomorrow, so don’t put off making this decision once you know for sure what you must do.</p>\n  <p>“Let me just ask you to do two things tonight after you get off work. First of all, call this toll-free number — 1-800-227-7902 (Charity Gospel Tape Ministry) — and ask them for a free cassette tape. The name of the tape is “Salvation, Crystal Clear” and it clearly explains the plan of salvation and what you must do if you want to be saved. You won’t have to pay anything for the tape, nor will you even have to pay the postage to get it to your house. The second thing I’d encourage you to do is this – do you have a Bible, Larry?”</p>\n  <p>“Yes sir. I have one at home.”</p>\n  <p>“Good. Well go home tonight and read the gospel of John. It’s the fourth book in the New Testament. Do it as soon as you get home, all right?”</p>\n  <p>“Yes sir, I sure will. And I will definitely call that number and order that tape. I want to hear more about the things you’ve been telling me.”</p>\n  <figure><img src=\"/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-4.jpg\" alt=\"Child holding a telephone receiver\"></figure>\n  <p>“And I’ll be praying for you, Larry. Just remember, this decision is the most important decision you will ever make. What you do with the message you heard in this phone call will determine where you will be a million years from tonight. So turn your face toward God today, and never, ever give up in your pursuit after Him, no matter how much it costs you.”</p>\n  <p>“Okay, sir, and thank you so much.”</p>\n  <p>“And thank you for your time, Larry. God bless you.”</p>\n  <p>After I hang up, I re-join my wife and children, and together we say a prayer for Larry’s soul. We pray that God would draw Larry to Christ, since Jesus said that no man can come to Him except the Father draw him. We pray for protection through Jesus’ blood from the devil, who would love to snatch away the seed that has just been planted in Larry’s heart. We pray for other laborers to be sent into the harvest field of Larry’s life, to cultivate, water, and harvest the seed that we have planted. And finally, we thank God for giving us this opportunity to be laborers with Him in His harvest.</p>\n  <hr>\n  <p>This conversation is just a sampling of dozens of similar ones that I’ve had with telemarketers over the past several years. (I just wish I had started doing this earlier.) No two conversations are exactly alike; there are many different variations to the version I’ve given above.</p>\n  <p>Sometimes the caller is already a Christian (or thinks that he is). In this case I try to ask them a few questions to challenge them in their walk with God, such as, “Are you having victory over sin?” or “Are you bearing fruit for Christ? Jesus said that the Father takes away every branch in Him that doesn’t bear fruit.” If they seem to have a clear testimony for Christ, I ask them if they have any unsaved friends that they’re witnessing to. Usually they say, “Yes, but I don’t witness to them as much as I should.” I then say, “Then let me give you an excellent tool that you can use to try to win them to Jesus. Call this toll-free number (1-800-227-7902) and ask for a free tape called ‘Salvation, Crystal Clear’ and give it to your unsaved friends. Also, please ask for the tape ‘Ten Shekels and a Shirt’. This is one that I’d like for you to listen to, and then to share with your pastor when you are finished with it.” (I usually also tell them to order a catalog of other tapes.)</p>\n  <p>Sometimes they say that they don’t believe in God. They say that they are more into science than religion, and that science disproves the idea of a creator God. I then ask them if they would be open-minded enough to put this theory to the test, and look at some scientific evidence that seems to indicate that evolution really isn’t true science at all, but rather a religion. If they agree, I direct them to the website <u>www.drdino.com</u>, or <u>www.answersingenesis.org</u> instead which are websites on creation science.</p>\n  <p>With every one of these conversations I’ve become more and more convinced that one of the most open groups of people in America today is our vast population of telemarketers. Here are just a few reasons why this is true.</p>\n  <p>There is no language barrier. Telemarketers all know at least some English, and if you are reading this article, so do you. (If you have ever tried to preach the gospel in Haiti or Ghana, you will appreciate this fact immensely.)</p>\n  <ul>\n    <li>They are usually younger people. For many of them, this is just an entry level job until they can find something better. (Which means practically anything other than telemarketing.)</li>\n    <li>They are usually not very wealthy, since telemarketers don’t tend to get paid particularly well.</li>\n    <li>They are generally not highly educated. (If they would be, they’d probably try to find a more enjoyable job.)</li>\n    <li>Most of them are very hungry to hear a friendly voice. (They’ve been getting browbeaten all day long by unfriendly people who don’t like having their evening meal interrupted.) Once they do hear a friendly voice, they are more than willing to sit and listen to it for a while. It might be the only one they will hear all day.</li>\n    <li>They do not tend to be tempted with too high an opinion of themselves. (See reason #5) One of the biggest hindrances to the gospel message, their pride, has already been either removed or else severely injured.</li>\n    <li>Even if they don’t like what you’re saying, it goes against their training to hang up on you. They expect you to be the one to do that.</li>\n  </ul>\n  <p>There are over 500,000 telemarketers in America right now, with a new one being hired approximately every 41 minutes. (This is over twice the population of Belize, Central America.) If I could somehow share the gospel with one telemarketer every day for the next 137 years (providing that my voice doesn’t wear out before then), I will only have reached 10% of the ones that exist right now. Brothers &amp; sisters, it looks like I will need your help.</p>\n  <figure><img src=\"/images/articles/fe6db1b1-c5c4-4a52-bab3-08cef3d04462-5.jpg\" alt=\"Row of telephone switchboard operators\"></figure>\n  <p>So the next time you get one of these middle-of-supper-time calls from a young man who can’t quite pronounce your name, please don’t hang up on him. If you do, you may have just thrown away the most productive witnessing opportunity you’ve had all week. Instead, consider that it is not just a credit card company on the other end of the line, but rather an eternal soul for whom Christ died. Consider that God has just handed you the opportunity to minister to him without making a trip to India, to New York City, nor even to the house down the street. Consider also that sharing the gospel with him will be an excellent training opportunity for you in case you ever should get called to India, to New York City, or to the house down the street.</p>\n  <p>There has recently been legislation passed in Congress for a federal “Do Not Call” list, which would keep telemarketers from calling you if you put your phone number on this list. My dear fellow-Christians, whatever you do, don’t put your phone numbers on this list! Don’t foolishly throw away your chance to work in one of the ripest harvest fields that still exists in America. Please let these beggars come to your door, and then feed them with the bread of life.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4d1bcc7436ecd603efd90699a0a1cfa88c4b5717b93111e9948eba4a9067123d"
+}

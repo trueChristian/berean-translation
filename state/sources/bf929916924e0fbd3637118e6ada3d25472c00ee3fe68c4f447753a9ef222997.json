@@ -1,0 +1,65 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Dean Taylor",
+          "role": "General Editor"
+        }
+      ],
+      "raw": "~Bro. Dean"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "11f3b229-ad6c-5d69-b529-82d977f8d000"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "55e4dde8-b528-4ae4-b916-f122c8ff7237",
+    "images": [
+      {
+        "alt": "A Colombian Fair Trade Select coffee packet",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/55e4dde8-b528-4ae4-b916-f122c8ff7237-1.jpg",
+        "repository_path": "public/images/articles/55e4dde8-b528-4ae4-b916-f122c8ff7237-1.jpg",
+        "rights_note": "No image-specific credit, licence, source, copyright mark, or separate-permission wording is printed. The page-2 masthead states generally, “Some images ©2001-2011 / www.clipart.com / www.sxc.hu,” but does not identify which source, if either, applies to this image. The clean embedded 450×294 sRGB JPEG was re-encoded without crop, flip, rotation, scaling, or content alteration as a baseline three-component sRGB JPEG at 150 ppi.",
+        "role": "coffee-packet illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the Editor",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": [
+      "ff6ad80a-580c-5627-ae33-02ab80581a20",
+      "bd34abbc-25f2-5c08-87bf-2245fcc82609",
+      "d3ba019f-e96e-5011-9021-4125316d3d56"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b64f86698d8424b82b8f82430cd2bcc4f5cb5b794af77186d21726678e2455fc",
+    "metadata_sha256": "8fce5fe24e6c88e68e80bf48f89374ee0287c62f94dda1eabc6fd9630c3698ee",
+    "structure_sha256": "4e4aafc1840a802c2511417f643c6c8c42367fb93bff728dc75a1e387af724ac",
+    "text_sha256": "c3fe46159f9abe4160f9e4e1a987ff31d6212050c24afda41d1d8cdfb8f8c0cf",
+    "translation_metadata_sha256": "849936c047899e031556ba8dfedbc1dad2bd08592bc646c39b5f851117b94926"
+  },
+  "html": "<article data-article-id=\"55e4dde8-b528-4ae4-b916-f122c8ff7237\">\n  <p class=\"drop-cap\">At work there is this fancy little coffee machine that allows you to make a fresh cup of coffee—one cup at a time. You can select almost any flavor you want. You just pick your flavor, put in this little packet of coffee, and in a minute you have a fresh cup of coffee.</p>\n\n  <figure>\n    <img src=\"/images/articles/55e4dde8-b528-4ae4-b916-f122c8ff7237-1.jpg\" alt=\"A Colombian Fair Trade Select coffee packet\">\n  </figure>\n\n  <p>I thought the choices were pretty good to start with. They have the normal flavors like Dark Roast, Hazelnut, Morning Blend, etc. But lately they have been adding more and more exotic names to the menu. Flavors like Jet Fuel, Donut Shop, Dark Magic, and even Dark Magic Decaf (I don’t understand that one). But what <em>really</em> surprised me a few weeks ago was their newest “flavor”—Fair Trade.</p>\n\n  <p>Now, I actually like the idea of “fair trade products.” I even like the fact that Green Mountain Coffee Company was trying to help out these poor Columbian coffee farmers. But somehow I couldn’t help but feel convicted—even pathetic—about the choice.</p>\n\n  <p>So … I guess now when I’m sitting down in my nice break room enjoying my freshly brewed cup of coffee, I’m supposed to choose between coffee with hint of vanilla, Dark Magic, or helping poor farmers in Central America. Looking at the choices, I couldn’t help but have one of those minutes when you say, “If my life doesn’t do something to prosper the kingdom of God more than drinking fair trade coffee in a nice break room, then I might as well just go ahead and die!”</p>\n\n  <p>This very day the Arab world is possibly on the brink of a massive political and economic revolution. European countries like Greece and Spain are threatening bankruptcy. Every day, almost 16,000 children die from hunger-related causes in “third world” countries—that’s one child every five seconds.</p>\n\n  <p>The Bible tells me that the answer to all the world’s problems—economically, physically, emotionally, and spiritually—is Christ. But Christ made it clear that He needs living vessels to carry out His dream for the world. That dream or vision is the kingdom of God. I pray that I won’t let things like “Fair Trade” coffee inoculate me from the burden and responsibility of really making a difference.</p>\n\n  <p>In this issue we have quite a few “flavors” of articles, some short, some long; some “heavy,” and some “light.” The longer articles touch on the “third baptism” and the long-disputed question as to why God allows evil in this world. Then we have a clarification on the topic of legalism, clearing the air as to just exactly what legalism consists of.</p>\n\n  <p>In shorter articles, we have touched on what it means to be rich (in addition, a book review on using our finances for the kingdom of God), confession of sins, leaving—and <em>not</em> losing!—our first love, peacock pride, caring for the elderly, winning an unconverted spouse by meek conduct … and more.</p>\n\n  <p>Whether your spirit was just birthed anew into the kingdom of God yesterday or you have been marching with Christ for many decades, we believe there is nourishment for your inner man in this issue. And that is our goal, to provoke the saints to “love and good works,” daily, through <em>The Heartbeat of the Remnant</em>.</p>\n\n  <p>~Bro. Dean</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "6c562529831b6b478ce9f60d82e68815ef695d217c7d31cc592d6908fa9fdfbe"
+}

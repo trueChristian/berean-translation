@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "~Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "324a6363-d5b3-489c-b3f5-a1ce08c599ed",
+    "images": [],
+    "issue_id": "741bac3b-c01c-483d-8837-db76602fbe4f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Secret Sin",
+    "topics": [
+      "3594893c-f438-5384-bd6e-499c7ba2e1ea",
+      "d7a404e4-268b-546a-a83a-47097cbfd5aa",
+      "0df6eee6-8cd5-5bf6-a2e4-c440a3a2bccf",
+      "b074afdf-90ed-58c5-b843-3e274c46e17b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a07720cd3444fd45e5290af6b8a9964f05b69f013acc2dc37e38d23ea9d2995f",
+    "metadata_sha256": "55de4f0861ff883c7612ef8dc52a1893571aa046021119833b68f1e7c2ffe26a",
+    "structure_sha256": "7814f28d9c92ad6ba2d71f55cb1b82815cd6c3f7aea68e561cc894ba864ca43d",
+    "text_sha256": "f20e1d6328c0d9e4faf8134315c9db32321ef43721e9153109d5ea40140336cd",
+    "translation_metadata_sha256": "d12f5170689f9f564c81dba5b9082a68dddb1de206ad217d171e228b442da20d"
+  },
+  "html": "<article data-article-id=\"324a6363-d5b3-489c-b3f5-a1ce08c599ed\">\n  <p class=\"poem\">I let a little sinful thought<br>\n    Dwell in my heart one day.<br>\n    I meant to play with it awhile<br>\n    And then send it away.</p>\n\n  <p class=\"poem\">Of course I kept it hidden well<br>\n    So none would ever know<br>\n    That I had entertained a guest<br>\n    Of character so low.</p>\n\n  <p class=\"poem\">But do you know, that little thing<br>\n    Just grew and grew until<br>\n    It crowded out the good and true<br>\n    And overcame my will.</p>\n\n  <p class=\"poem\">No longer could I keep it hid<br>\n    Nor could I bid it go;<br>\n    Who would have thought that little thing<br>\n    Could cause such bitter woe?</p>\n\n  <p class=\"poem\">I had to take it to the cross,<br>\n    To plead the Savior’s blood;<br>\n    And then at last my weary soul<br>\n    Regained its peace with God.</p>\n\n  <p class=\"poem\">O watch the “little things,” dear child.<br>\n    Like seeds they’re sure to grow,<br>\n    Destroying true soul happiness—<br>\n    How well, how well I know!</p>\n\n  <p class=\"byline\">~Author unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "88b64010a6d071759dcfeb04364c6fafefce88d71b67dc7916c423a34f7cb123"
+}

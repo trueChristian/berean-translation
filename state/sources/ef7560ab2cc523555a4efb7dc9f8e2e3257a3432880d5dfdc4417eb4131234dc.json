@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Rebecca Weber"
+        }
+      ],
+      "raw": "By Rebecca Weber"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cd529932-1151-4b6f-bbc1-c5412179e36e",
+    "images": [
+      {
+        "alt": "Two cross silhouettes against sunset clouds",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/cd529932-1151-4b6f-bbc1-c5412179e36e-1.jpg",
+        "repository_path": "public/images/articles/cd529932-1151-4b6f-bbc1-c5412179e36e-1.jpg",
+        "rights_note": "No separate caption, credit, license, or permission restriction is printed for this image on page 35. The page's exact raster pieces were joined without the poem text, and the flattened uniform 70-percent white layout fade was removed by the deterministic inverse of the retained 30-percent source blend; the source luma p0.1 value of 178.3 independently matches the expected 178.5 white threshold. The left placement strip and footer furniture were cropped, and the result was encoded as a baseline sRGB JPEG without generation, inpainting, or a duplicate export. Rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "2fedbc37-858d-5f5f-b18f-b865ac648429",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "This Mind Which Was In Christ",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "8ce223ea638b5e46700d155586cecae347777c484f22a9886c3f63239f510d18",
+    "metadata_sha256": "569bbbed368aaf3e80e49111df57a23a3d7bd4b3d7bd86a4858142585c614935",
+    "structure_sha256": "17fdc6199d0df042b841bf512fc1dc44151695f47c984bcba817dc458c8f7995",
+    "text_sha256": "7755573e835956bdd2b784767ac4e14514aacd67b09300460e9cb5fcc5a9b04f",
+    "translation_metadata_sha256": "404f1ed7920a5e6cb91661fa0fd49ff0a783abbc6e5549fa7d9215b5b38987c1"
+  },
+  "html": "<article data-article-id=\"cd529932-1151-4b6f-bbc1-c5412179e36e\">\n  <figure>\n    <img src=\"/images/articles/cd529932-1151-4b6f-bbc1-c5412179e36e-1.jpg\" alt=\"Two cross silhouettes against sunset clouds\">\n  </figure>\n  <p class=\"poem\">Lead me down, my Master—<br>Down the way You came;<br>Leaving all behind You—<br>Let me do the same.<br>Down into the valley<br>Where no human praise<br>Comes to make me lofty,<br>Comes to rule my days.</p>\n  <p class=\"poem\">Lead me down, my Master—<br>Into servitude<br>To the sinful lowly—<br>Reputation skewed.<br>Down into Your suffering<br>Justice was denied.<br>Pain, humiliation,<br>Leave no room for pride.</p>\n  <p class=\"poem\">Lead me down, my Master—<br>Down unto the cross<br>Where my self must perish—<br>And with it, all the dross.<br>Down in meek acceptance;<br>My goal a simple one:<br>That glory would be added<br>To God and to His Son.</p>\n  <p class=\"poem\">Lead me down, my Master—<br>Deeper into You;<br>Till the resurrection<br>Comes to make things new.<br>Then at last in glory<br>To You I will ascend,<br>Reign with You in Heaven,<br>And praise You without end!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "1708cd1d044a63ea25880d91de3e84aa017d54dfaf7bef95b80392b4d34b71e7"
+}

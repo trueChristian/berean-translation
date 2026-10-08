@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Bro. Denny"
+        }
+      ],
+      "raw": "-Bro. Denny"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "6c54330e-c4e3-4ce1-a4ad-e1a016caa68b",
+    "images": [],
+    "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "Do You See the Giant on the Cover?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d2c4b304cfae67553c04bfc91fd56094b4121c2d9c4b79806499391288641afa",
+    "metadata_sha256": "1cc87c374d83bfbffed40bf6d0bf489549234d3bf9b23c0f5a01154813d9943c",
+    "structure_sha256": "531cd01934a0c4213758c74f3d59ba5b7d14bc36f8de9d11bb445604882e384b",
+    "text_sha256": "72349635b05881674a7462c884d190ec8cc68bde79d9aa33aff0332c7266116f",
+    "translation_metadata_sha256": "822c62393408cd053fdbfd9a8be53fdfa5accfaa6184a6d07ebebfd8c403719c"
+  },
+  "html": "<article data-article-id=\"6c54330e-c4e3-4ce1-a4ad-e1a016caa68b\">\n  <p>There is a giant in the picture on the cover of this issue of the Remnant. Can you find him? How we view the giants in our Christian lives determines our victories and our defeats. This was true in the history of Israel, and it is still true for us today, three thousand years later. The Psalmist David was a “giant killer.” He had a sanctified view of the giants in his life. How do you see the ones that are in your life?</p>\n  <p>Some Christians do not even see the giants though they stand tall and tower over them.<br>\n  Some Christians see them and tremble, hiding in the rocks like Saul and his men.<br>\n  Some Christians see them much bigger than they really are, “We are grasshoppers in their sight.”<br>\n  Some Christians view them like Caleb did, “They are bread for us.”<br>\n  Some Christians see them lying dead on the battlefield, “No fear.”</p>\n  <p>The picture on the cover of this issue of the Remnant has a very special meaning to me. It hangs on the wall of my office at Charity, where many giants have fallen. I have to admit, I have not always viewed the giants properly. I have cowered at times as I gazed at a giant which was destroying someone’s life. The picture is a gift from a dear woman who had it on her wall. I made the mistake of commenting on how much I liked the message of the picture. She gave it to me and would not let me say “No.” I don’t know who the artist is. If anyone knows, please let me know. We would like to give credit to his gifting from God. <em>-Bro. Denny</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "48767c8967630b456cb0c04d9ef353c21d16e522de99d336fe20fcaeddf0a2c9"
+}

@@ -1,0 +1,74 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "life_dates": "1615-1691",
+          "location": null,
+          "name": "Richard Baxter"
+        }
+      ],
+      "raw": "by Richard Baxter (1615-1691)"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+    },
+    "id": "7d372133-f453-4bdd-954f-7c361882f915",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7d372133-f453-4bdd-954f-7c361882f915-1.jpeg",
+        "repository_path": "public/images/articles/7d372133-f453-4bdd-954f-7c361882f915-1.jpeg",
+        "rights_note": "Original embedded PDF image object xref 75. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. The only raster already has a pale gray ground and faded ink values. These flattened tones are retained as an unavoidable exception; no clean underlying object, soft mask, or exact inverse blend is available. The separate gray header rectangle and typography are omitted. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "decorative illustration",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/7d372133-f453-4bdd-954f-7c361882f915-2.jpeg",
+        "repository_path": "public/images/articles/7d372133-f453-4bdd-954f-7c361882f915-2.jpeg",
+        "rights_note": "Original embedded PDF image object xref 79. No separate image-specific permission notice is printed. The issue masthead states “Some images © 2001-2007 clipart.com / photos.com” without identifying the assets; no individual licence is inferred. The strawberry plant and farming scene are one flattened illustration. Its pale ink values are already present in the only source raster and are retained as an unavoidable fade exception; no clean base, soft mask, or exact inverse blend is available. Source decoded and encoded as baseline RGB/sRGB JPEG at nonzero 72 dpi density; useful resolution and orientation retained.",
+        "role": "decorative illustration",
+        "sequence": 2,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "80483f58-63d9-4e25-ac7a-6dffabdec46a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Instructions for Avoiding Dissension in the Home",
+    "topics": [
+      "112f373a-5505-599b-b945-2e35ced472c4",
+      "4e2d77ad-ddae-52f7-a098-873bba6b0e88"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "55550580f94750599be4f5cbdba855e8ecc19f8aeada1be2c2ef132ed83ca750",
+    "metadata_sha256": "74f19483022aacf5b3ad6bb651d182859f9cecc2060790ba396926a4f499ec10",
+    "structure_sha256": "d7670449fbc4220bc18ef448293ec3c50168d1f9e4b282e0e3b1247a25c19ba3",
+    "text_sha256": "42dd35db59fa26afcbcb3006f325058e226c2dc1505d387860956009dd6497fa",
+    "translation_metadata_sha256": "0c9a74e29fc0e630a40eb1aef164d1986f221297480950c5d32cbfcf651158d2"
+  },
+  "html": "<article data-article-id=\"7d372133-f453-4bdd-954f-7c361882f915\">\n<figure>\n<img src=\"/images/articles/7d372133-f453-4bdd-954f-7c361882f915-1.jpeg\" alt=\"\">\n</figure>\n<p>It is a great duty of husbands and wives to live in quietness and peace, and avoid all occasions of wrath and discord. Because this is a duty of so great importance, I shall first open to you the great necessity of it, and then give you more particular directions to perform it.</p>\n<ol>\n<li>Your discord will be your pain, and the vexation of our lives. Like a bile, or wound, or fracture in your own bodies, which will pain you till it is cured; you will hardly keep peace in your minds, when peace is broken so near you in your family. As you would take heed of hurting yourselves, and as you would hasten the cure when you are hurt; so should you take heed of any breach of peace, and quickly seek to heal it when it is broken.</li>\n<li>Dissension tends to cool your love; oft falling out doth tend to leave a habit of distaste and averseness on the mind. Wounding is separating; and to be tied together by any outward bonds, when your hearts are separated, is but to be tormented; and to have the insides of adversaries, while you have conjugal outsides. As the difference between my house and my prison is that I willingly and with delight dwell in the one, but am unwillingly confined to the other, such will be the difference between a quiet and an unquiet life, in your married state; it turns your dwelling and delight into a prison, where you are chained to those calamities, which in a free condition you might overrun.</li>\n<li>Dissension between the husband and the wife, doth disorder all their family affairs; they are like oxen unequally yoked, that can rid no work for striving with one another. Nothing is well done because of the variance of those that should do it, or oversee it.</li>\n<li>It exceedingly disqualifies you for the worship of God; you are not fit to pray together, nor to confer together of heavenly things, nor to be helpers to each other’s souls: I need not tell you this, you feel it by experience. Wrath and bitterness will not allow you so much exercise of love and holy composedness of mind, as every one of those duties do require.</li>\n<li>Dissension disables you to govern your families aright. Your children and domestic helpers will take example by you; or think they are at liberty to do what they list, when they find you taken up with such work between yourselves; and they will think you unfit to reprove them for their faults, when they see you guilty of such faults and folly of your own; nay, you will become the shame and secret derision of your family, and bring yourselves into contempt.</li>\n<li>Your dissensions will expose you to the malice of Satan, and give him advantage for manifold temptations. A house divided cannot stand; an army divided is easily conquered, and made a prey to the enemy. You cannot foresee what abundance of sin you put yourselves in danger of. By all this you may see what dissensions between husband and wife do tend to, and how they should be avoided.</li>\n</ol>\n<p><strong>For the avoiding of them observe these sub-directions:</strong></p>\n<ol>\n<li>Keep up your conjugal love in a constant heat and vigor. Love will suppress wrath; you cannot have a bitter mind upon small provocations, against those that you dearly love; much less can you proceed to reviling words, or to averseness and estrangedness, or any abuse of one another. Or if a breach and wound be unhappily made, the balsamic quality of love will heal it. But when love once cools, small matters exasperate and breed distaste.</li>\n<li>Both husband and wife must mortify their pride and passion, which are the causes of impatience; and must pray and labour for a humble, meek, and quiet spirit. A proud heart is troubled and provoked by every word or carriage that seems to tend to their undervaluing. A peevish, froward mind is like a sore and ulcerated member, that will be hurt if it be touched. He that must live near such a sore, diseased, impatient mind, must live even as the nurse doth with the child, that maketh it her business to rock it, and lull, and sing it quiet when it cries for to be angry with it, will do no good; and if you have married one of such a sick or childish temper, you must resolve to bear and use them accordingly. But no Christian should bear with such a malady in themselves; nor be patient with such impatiency of mind. Once get the victory over yourselves, and the cure of your own impatience, and you will easily keep peace with one another.\n<figure>\n<img src=\"/images/articles/7d372133-f453-4bdd-954f-7c361882f915-2.jpeg\" alt=\"\">\n</figure>\n</li>\n<li>Agree together beforehand, that when one is in the diseased, angry fit, the other shall silently and gently bear, till it be past and you are come to yourselves again. Be not angry both at once; when the fire is kindled, quench it with gentle words and carriage, and do not cast on oil or fuel, by answering provokingly and sharply, or by multiplying words, and by answering wrath with wrath.</li>\n<li>If you cannot quickly quench your passion, yet at least refrain your tongues; speak not reproachful or provoking words: talking it out hotly doth blow the fire, and increase the flame; be but silent, and you will the sooner return to your serenity and peace. Foul words tend to more displeasure. As Socrates said when his wife first railed at him, and next threw a vessel of foul water upon him, ‘I thought when I heard the thunder, there would come rain’; so you may portend worse following, when foul, unseeming words begin. If you cannot easily allay your wrath, you may hold your tongues, if you are truly willing.</li>\n<li>Let the sober party condescend to speak fair and to entreat the other. Say to your angry wife or husband, ‘You know this should not be betwixt us; love must allay it, and it must be repented of. God doth not approve it, and we shall not approve it when this heat is over. This frame of mind is contrary to a praying frame, and this language contrary to a praying language; we must pray together anon; let us do nothing contrary to prayer now: sweet water and bitter come not from one spring,’ etc. Some calm and condescending words of reason, may stop the torrent, and revive the reason which passion had overcome.</li>\n<li>Confess your fault to one another, when passion hath prevailed against you; and ask forgiveness of each other, and join in prayer to God for pardon: and this will lay a greater engagement on you the next time to forbear: you will sure be ashamed to do that which you have so confessed and asked forgiveness for of God and man. If you will but practice these directions, your family peace may be preserved.</li>\n</ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "d56d59ffd99a13e3a5c093d6b7918247935bced6b382c6794d0499c7d2048f60"
+}

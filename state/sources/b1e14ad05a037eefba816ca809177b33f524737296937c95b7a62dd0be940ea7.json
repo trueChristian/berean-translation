@@ -1,0 +1,116 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "anonymous godly woman",
+          "role": null
+        }
+      ],
+      "raw": "—Written by an anonymous godly woman"
+    },
+    "categories": {
+      "additional": [
+        "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "928398a6-8e23-4cd3-8069-33a9cfd68f23",
+    "images": [
+      {
+        "alt": "Three women working outdoors",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-1.jpg",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-1.jpg",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized baseline sRGB JPEG with 150 ppi JFIF density; its crop and content were unchanged. The clean asset is upright rather than reproducing the page's decorative rotation.",
+        "role": "harvest illustration",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "People gathering grain in a field",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-2.png",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-2.png",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The illustration crosses the two-page gutter and was stored in the PDF as two overlapping sRGB components; those components were aligned with their 59-pixel overlap and combined at their published relative positions into one 325 × 396 sRGB PNG at 150 ppi without duplicating or altering the content.",
+        "role": "harvest illustration",
+        "sequence": 2,
+        "source_page": 18
+      },
+      {
+        "alt": "A woman feeding an infant",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-3.jpg",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-3.jpg",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The PDF applied inverted decode semantics to the embedded one-channel separation JPEG; its samples were inverted and encoded as a three-channel baseline sRGB JPEG at 150 ppi, preserving the published dimensions, crop, orientation, and content.",
+        "role": "mother-and-child illustration",
+        "sequence": 3,
+        "source_page": 19
+      },
+      {
+        "alt": "A woman holding a baby",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-4.jpg",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-4.jpg",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized baseline sRGB JPEG with 150 ppi JFIF density; its crop, orientation, and content were unchanged.",
+        "role": "mother-and-child illustration",
+        "sequence": 4,
+        "source_page": 18
+      },
+      {
+        "alt": "A seated woman beside a fireplace",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-5.png",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-5.png",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The illustration crosses the two-page gutter and was stored in the PDF as two overlapping sRGB JPEG crops; the crops were aligned at their published overlap and combined into one sRGB PNG at 150 ppi without duplicating or altering the content.",
+        "role": "domestic illustration",
+        "sequence": 5,
+        "source_page": 18
+      },
+      {
+        "alt": "A woman tending to a child",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-6.jpg",
+        "repository_path": "public/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-6.jpg",
+        "rights_note": "No image-specific credit, licence, source, or separate permission notice is printed. The embedded sRGB JPEG was re-encoded at the same dimensions as a standards-normalized baseline sRGB JPEG with 150 ppi JFIF density; its crop and content were unchanged. The clean asset is upright rather than reproducing the page's decorative rotation.",
+        "role": "mother-and-child illustration",
+        "sequence": 6,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "41c5b6cc-f63c-5044-a15f-dd5847aa3f25",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "A Godly Woman",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b9b1e15295cb33345ba6ea170c451c14fcb3661efa6bb4fc81421f3803e440ed",
+    "metadata_sha256": "bd655220d89b0ca0c8b099ed517c7dfcda441816c5433795e5752674b4c2d45d",
+    "structure_sha256": "e7490ba17e57825dc7f10434db93b5f3ce181d285ae213fb9a8e73a8583c6937",
+    "text_sha256": "5e1416ebc532482d7a2b0f3f67996d75d5336dcb7a29359f12aed1a186eb426e",
+    "translation_metadata_sha256": "96091bad7a81005e447d5932a61d4f452d3d530b193b0982d48548e4c960dcff"
+  },
+  "html": "<article data-article-id=\"928398a6-8e23-4cd3-8069-33a9cfd68f23\">\n  <p><em>Based on the following scriptures: Proverbs 31, Deuteronomy 6:5-7 &amp; 11:19, Titus 2, I Timothy 2, I Peter 3:1-7, I Corinthians 11 &amp; 14:29-40</em></p>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-1.jpg\" alt=\"Three women working outdoors\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-2.png\" alt=\"People gathering grain in a field\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-3.jpg\" alt=\"A woman feeding an infant\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-4.jpg\" alt=\"A woman holding a baby\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-5.png\" alt=\"A seated woman beside a fireplace\">\n  </figure>\n\n  <figure>\n    <img src=\"/images/articles/928398a6-8e23-4cd3-8069-33a9cfd68f23-6.jpg\" alt=\"A woman tending to a child\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>The Bible speaks to everyone who follows in the Way,<br>\n    But some parts are specific in the things they have to say.<br>\n    The fathers are encouraged, and those alone in life,<br>\n    And there are admonitions for the mother and the wife.</p>\n\n    <p>I always linger over these; they speak to my estate.<br>\n    They offer me direction in the small things and the great.<br>\n    To be a godly woman is the goal I want to reach,<br>\n    And so I need to study what the Scriptures have to teach.</p>\n\n    <p>A woman who is called to be a mother and a wife,<br>\n    Who takes the cross and purposes to live a godly life,<br>\n    Is ever growing in the faith she’s chosen to profess,<br>\n    And there are certain qualities she covets to possess.</p>\n\n    <p>The godly woman stays at home; her duties keep her there.<br>\n    She rises while it yet is night and gives herself to prayer.<br>\n    Her days are full of service and her heart is full of love;<br>\n    Her mind is full of gratitude and praise for God above.</p>\n\n    <p>Though not employed outside the home, she has no mind to shirk.<br>\n    She eats not bread of idleness, but fruit of honest work.<br>\n    Her brother and her sister, her parents and her neighbor,<br>\n    Her husband and her children share the blessing of her labor.</p>\n\n    <p>The love her husband feels for her is easy to reflect,<br>\n    And she not only loves him, but she gives him her respect.<br>\n    In her his heart may safely trust; she does him only good;<br>\n    When he confides his inner thoughts, he finds them understood.</p>\n\n    <p>She’s mindful, too, of Eden, where the woman was deceived.<br>\n    She knows it’s not her place to teach (as others have believed)<br>\n    Nor to usurp authority, but listens with subjection,<br>\n    In meekness and humility, accepting his direction.</p>\n\n    <p>When all the church assembles in a solemn, formal way,<br>\n    The godly woman listens what the brethren have to say;<br>\n    And if she hears a statement made that makes her sit up straighter,<br>\n    The question forming in her mind is asked her husband later.</p>\n\n    <p>There is a congregation where her voice is often heard,<br>\n    And her children are attentive as she teaches them the Word,<br>\n    When she sits within her house, and when she walks along the way;<br>\n    When she lays them down at night, and when she rises with the day.</p>\n\n    <p>The godly woman is discreet, not seeking others’ praise;<br>\n    She’s modest in appearance, and she’s modest in her ways.<br>\n    She isn’t prone to gossip, but her neighbors know she cares,<br>\n    And any help her hands can give is certain to be theirs.</p>\n\n    <p>The godly woman doesn’t follow fashion’s idle whim,<br>\n    Nor deck herself in gold or gems to draw the eyes of men.<br>\n    And yet, compared to those who do, she is exceeding fair;<br>\n    Her meek and quiet spirit is an ornament more rare.</p>\n\n    <p>The godly woman isn’t gay; she’s left that all behind.<br>\n    She’s pleasant and she’s cheerful, but she has a sober mind.<br>\n    Her covered head, her simple dress, her modest mein are one;<br>\n    Her singular adornment is the good that she has done.</p>\n\n    <p>When years of faithful laboring have bent her body low,<br>\n    She’ll teach the younger women in the way that they should go.<br>\n    Her works are their example in the service of the Lord;<br>\n    And verily, I say to you, she’ll have a rich reward.</p>\n\n    <p>Oh, make of me that woman, Lord! And guide me in that way.<br>\n    Behold, Thou art the potter, and I the softened clay.<br>\n    Encourage me where I am right; rebuke me where I’m wrong.<br>\n    I read these Scriptures often and I ponder on them long. ~</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "b3195e8369b006a7684c47eef05765c8635de24dfb020f19733f60f7c383ff43"
+}

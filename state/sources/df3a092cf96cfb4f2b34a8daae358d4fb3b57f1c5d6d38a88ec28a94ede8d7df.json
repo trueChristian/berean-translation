@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Millersburg, OH",
+          "name": "Lois Sutherland"
+        }
+      ],
+      "raw": "by Lois Sutherland\nMillersburg, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "5613aef3-79c5-42d4-9695-214e71989c22",
+    "images": [
+      {
+        "alt": "A rural mailbox beside a lane leading through green fields to farm buildings",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg",
+        "repository_path": "public/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed page 19; no separate permission notice or license terms are stated. The clean embedded photograph was copied byte-for-byte.",
+        "role": "closing story photograph",
+        "sequence": 1,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHILDREN’S CORNER",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "The Forgotten Stamp",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e99de3a9a9cd8816bfc6a3d09a08eb9f991548000188b8677bc4c92aed1b7434",
+    "metadata_sha256": "5ee8b560bdc6569ccea5145362a018b9d4e2952f50673aa70f3c1241b022c6d7",
+    "structure_sha256": "d10beaff5e3270065d6d37c3d098291d732ad3be35f67d6457adca1f76592704",
+    "text_sha256": "c610703c604ad4d5543993ae70f01a11512956ab55e388e7d735458e65543a59",
+    "translation_metadata_sha256": "304efc276c9d05dafa2e303f5406cc7d0dcf4e5209c4c5944a7dc6cc92258f1b"
+  },
+  "html": "<article data-article-id=\"5613aef3-79c5-42d4-9695-214e71989c22\">\n  <blockquote>\n    <p><em>And we know that all things work together for good to<br>\n    them that love God, to them who are the called according<br>\n    to his purpose –Romans 8:28.</em></p>\n  </blockquote>\n\n  <p>“I’ve been thinking that we could take a trip next week with school being off.” Arthur said, hanging his hat on the hook in the utility room and turning to his wife. “What do you think about such an idea?”</p>\n\n  <p>Myrtle, who had been busy preparing supper in the kitchen, looked up with a smile. “That would be great, I have been having similar thoughts. I’m sure the children would enjoy a vacation as well.”</p>\n\n  <p>“Why don’t we plan to visit the congregation at Bethel Fellowship next Sunday then?” Arthur continued. “Would that suit you?”</p>\n\n  <p>“Yes, I think so,” Myrtle answered. “It seems like it has been a little while since we went visiting to another congregation. When were you thinking of leaving?”</p>\n\n  <p>“I haven’t made definite plans yet,” Arthur replied, “but I was thinking of leaving Thursday and coming home on Monday.”</p>\n\n  <p>“That sounds fine to me,” Myrtle answered.</p>\n\n  <p>“Alright,” Arthur said. “I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”</p>\n\n  <p>The next Thursday found the Coblentz family heading for Pennsylvania.</p>\n\n  <p>Many miles passed uneventfully as the family traveled north. They were getting closer to their destination when suddenly Arthur got sick. He pulled their van off the road so he could empty his stomach’s contents. Patiently the family waited, wondering what they should do next.</p>\n\n  <p>“Do you think we should go on?” Myrtle inquired. It would be another hour before they reached Brother Oscar’s place.</p>\n\n  <p>“I don’t see how I can go on,” Arthur responded weakly. “I feel really dizzy now. Maybe you should take over driving now,” he said to Myrtle.</p>\n\n  <p>Soon the drivers had switched places. It was with disappointed hearts that the family turned around and headed back home. It was difficult for the whole family, especially the children. They had looked forward to this trip all week long, and now their plans were spoiled.</p>\n\n  <p>Upon arriving home, Myrtle stopped at the mailbox to get their mail. She handed the mail to Arthur, then drove in their lane.</p>\n\n  <p>“Why…. What’s this?” Arthur sputtered, spying a familiar envelope. He ripped open the envelope and could not believe what he saw. “The letter I sent to Brother Oscar Peight!” Why ever had it been returned? His heart sank as he turned over the envelope. “Of all things, I forgot to put a stamp on the envelope!” he exclaimed. “How silly was that!”</p>\n\n  <p>That evening at the supper table, the family once more discussed how foolish it seemed to have forgotten to stick a stamp in the corner of that envelope. “But yet,” Arthur marveled, “God had all this planned. If that letter would have reached Brother Oscars, they would have been preparing for us. But this way, they did not even know we were coming to visit.”</p>\n\n  <p>“All things do work together for good to them that love God,” Myrtle replied.</p>\n\n  <figure>\n    <img src=\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\" alt=\"A rural mailbox beside a lane leading through green fields to farm buildings\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
+}

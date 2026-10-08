@@ -1,0 +1,110 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Shelbyville, Indiana",
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "Barry Grant\nShelbyville, Indiana"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b13f8ad8-4af6-41aa-a5a1-2d9a237e1721",
+    "images": [
+      {
+        "alt": "Two young foxes among green grass beside a rock.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/b13f8ad8-4af6-41aa-a5a1-2d9a237e1721-1.jpg",
+        "repository_path": "public/images/articles/b13f8ad8-4af6-41aa-a5a1-2d9a237e1721-1.jpg",
+        "rights_note": "Adobe Stock Images credited to page 4 in the page-2 masthead; no separate licence inferred. The source is full-page scanned RGB object 23 with invisible OCR; title, byline, location and white tab are baked into its raster. At the user’s explicit request, AI image editing reconstructed only the obscured green background to remove this lettering and tab. The generated background patch was composited within [0, 330, 800, 590] on the original full 1712 × 2216 export. Both foxes and all pixels outside that patch are unchanged before final JPEG encoding; no cropping. Reconstructed background is not recoverable source photography and is an asset-specific user-authorized exception to the default no-inpainting rule. Baseline RGB JPEG embeds the source sRGB IEC61966-2.1 profile with nonzero 96 dpi density.",
+        "role": "article opening photograph",
+        "sequence": 1,
+        "source_page": 4,
+        "transformation": {
+          "background_patch_bounds_pixels": [
+            0,
+            330,
+            800,
+            590
+          ],
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "editing_input_dimensions": [
+            1712,
+            2216
+          ],
+          "flip": null,
+          "generated_background_resampling": "Full generated output aligned to 1712 × 2216 only to extract the background patch; generated foxes and other pixels discarded.",
+          "generated_output_dimensions": [
+            1102,
+            1427
+          ],
+          "method": "Original full-frame PDF-aspect export retained; built-in imagegen output supplied only a feathered green-background patch, composited using ImageMagick at the recorded bounds; baseline sRGB JPEG encoding.",
+          "output_dimensions": [
+            1712,
+            2216
+          ],
+          "placed_page_dimensions_points": [
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1712,
+            2202
+          ],
+          "source_export_vertical_scale_to_pdf_placement": 1.0061441470321097,
+          "source_object": 23,
+          "user_authorized_edit": "Remove article lettering and white tab while restoring both foxes and retaining the full photograph without cropping."
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): complete decode, paint and pixel readback passed; decoded pixels match Pillow exactly.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded sRGB profile, nonzero density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reader compared the final full-frame image and background patch with the original: both original foxes, all ear tips, faces, limbs, rock, grass and framing are retained; title/byline/location/tab are absent, with no visible hard patch seam. Pixel comparison confirmed all pixels outside the background patch match the original before JPEG encoding.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "3250f69c-ca5d-4e4e-9139-b42a9447cdd5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 6,
+      "start": 4
+    },
+    "subtitle": null,
+    "title": "The Little Foxes",
+    "topics": [
+      "3594893c-f438-5384-bd6e-499c7ba2e1ea",
+      "0df6eee6-8cd5-5bf6-a2e4-c440a3a2bccf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f990e1f6cf2af6a1825eb7aa841faf82e5605b708acb3d63cedb753ddd8e3a76",
+    "metadata_sha256": "188bd8683a75cbb9efbf4d1512f9a66cffe1e7da792c8befbdaadcf7d5980dd7",
+    "structure_sha256": "96adb07f97097ba1f56b8b038f1bcb76fcdfcb47d1567bcc8e827180c823e331",
+    "text_sha256": "09b74b24541924a72ea8b8346a6eb9723c3b3a368e323930f8ae732a554eaf74",
+    "translation_metadata_sha256": "f509dc79f79f5860fd230bfea7e230f00b2ef9b97f3b06b471d7eb75f8fd48f8"
+  },
+  "html": "<article data-article-id=\"b13f8ad8-4af6-41aa-a5a1-2d9a237e1721\">\n  <figure>\n    <img src=\"/images/articles/b13f8ad8-4af6-41aa-a5a1-2d9a237e1721-1.jpg\" alt=\"Two young foxes among green grass beside a rock.\">\n  </figure>\n  <p>We find an account in Numbers 25, where the children of Israel lament the judgment of God before the tabernacle, when one of the children of Israel brought a Midianitish woman into the camp in front of all his brethren. The Bible says that when Phinehas saw it, he sprang into action. Rising up, he took a javelin in his hand, went into the tent, and thrust both of them through.</p>\n  <p>Here’s some background on this account. The children of Israel were camped in the valley of Moab. King Balaak of Moab was extremely afraid when he saw such a large number of soldiers camped in his valley. He knew he couldn’t defeat this mighty army because they were much stronger than he was. He saw all that Israel had done to the Amorites, and the Bible says Balaak was very afraid. Like the enemies of the church today, Balaak devised a plan. He went to the soothsayer Balaam and offered him great wealth and position if he would simply come with him and curse the children of Israel. The Bible says that Balaam loved the wages of unrighteousness, so he was all game. He consulted with God, but God told him not to go. Then King Balaak sent wiser, more dignified men to ask Balaam again. Once more, Balaam asked God for direction.</p>\n  <p>It’s interesting that one would ask God again for something that He had already clearly spoken about. God knows our hearts, and he is likely to give us the desires of our hearts, even when it will cost us our very lives. So, Balaam went with Balaak’s men, and the anger of the Lord was kindled against him. God’s angel blocked Balaam’s way. He did not see the angel, but his mule did. He got angry at the mule, even threatening to slay it. God then opened his eyes, and he saw the angel and turned back. Balaam ended up going with the king, but he could not curse the children of Israel. Every time he opened his mouth, blessings came out instead! This seemed to be the end of the story as told in the book, however, it is not. We can glean from other accounts in scripture that Balaam devised an evil plan with Balaak to have the Moabite women go into the camp of the children of Israel and commit whoredom with them. The power of the Israelite’s strength would leave them, and ultimately they could be defeated, even by Balaak’s smaller army.</p>\n  <p>We read in Revelation 2:14, “But I have a few things against thee, because thou hast there them that hold the doctrine of Balaam, who taught Balac to cast a stumbling-block before the children of Israel, to eat things sacrificed unto idols, and to commit fornication.”</p>\n  <p>What we can glean from this verse is that Balaam knew that God would not allow him to curse His people. However, they did have a problem. Balaam knew that sin <em>would</em> curse these people, because sin would separate them from their God!</p>\n  <p>It is interesting that this same plan is being used today in the church, however, few people see it. Balaam knew that if the children of Israel allowed sin to enter their camp, God would leave them. Then they could be defeated. When God leaves a person or people, they are no match for the enemy! We see this clearly in the case of Samson. Nothing could defeat him—not chains, lions, soldiers, armies, or anything else! But only because the Spirit of God was upon him. As soon as Samson’s hair was cut (which he knew would sever him from his power) a woman was able to capture him and turn him over to the Philistines. Oh, that men would see their need of God!</p>\n  <p>The Christian who has been cleansed by the blood of Christ receives power. The enemy cannot overthrow him. The enemy can come at him with everything he has but he will only fall short. The spirit world knows a Christian who is right with God is too powerful for the enemy. The enemy is sore afraid. However, he is not okay with defeat. It is Satan’s goal to destroy the church of Jesus Christ, at whatever the cost. He devises a plan to <strong>cause the Christian to sin.</strong> “But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear” (Isaiah 59:2).</p>\n  <p>One morning in Haiti, a group of neighbors came to my door quite alarmed. “The witch doctor is trying to kill you!” I remember smiling, which caused them all the more distress. “You must not understand, this is serious!” They brought me outside the gate, where a substance on the ground was burning. “When this burns out, you will die!” I approached the burning substance, and as the group shrieked and jumped back, I stomped on it, extinguishing it in an instant. I then explained that the devil has no power over me because I am a child of God.</p>\n  <p>Over the next several years, it became very clear to all the neighbors that the missionaries’ God is more powerful than the witch doctors. The devil also knows this. He knows that he is no match against a blood-washed saint. This is why he is trying harder than ever to cause people to fall into sin! I believe he is doing an even greater work in the church of our day. The enemy of our souls hates repentance. When he causes you to sin he has control of you. When you repent, he loses that control he desires so much. So he has devised the greatest plan of all: to deceive Christians into thinking it is okay to sin. If Satan can cause believers who have been cleansed from all sin to believe they still are in sin, then, of course, believers will not repent when they do sin, because sin seems normal. If he can cause Christians to think that everyone sins, then when they do fall into sin, will not seem to be an exceedingly terrible thing, ultimately causing them to continue in sin.</p>\n  <p>This is a true saying: If the Christian knew the great consequences of sin in his life, he would make it an utmost priority to stay free from sin.</p>\n  <p>The children of Israel didn’t notice what was happening. In all of their battles, they were completely victorious. Their enemies feared them greatly. Then, without them even knowing it, the enemy devised a plan to cause them to fall into sin. It worked and, eventually, it became commonplace. The Israelite slain with the Midianitish woman, Zimri, a prince of a chief house among the Simeonites, waltzed right into the camp with this ungodly woman, in the sight of Aaron, Moses, and everyone in the congregation.</p>\n  <p>Oh dear reader, do we truly realize what sin does? It causes us to become dull to reality. We become insensitive to wickedness, worldliness, and evil. Eventually, we don’t care who sees us. We dress like the world, talk like the world, enjoy pleasures just like the world, and we do it right in front of everyone. We lie and lust, we envy and hate, we love the world, and commit whoredom as the Bride of Christ right in front of everyone. If there’s sin in the camp, why do we wonder that our churches are struggling?</p>\n  <p>We see a similar account in the book of Joshua. When the children of Israel defeated the great city of Jericho, God had told them they could not take of the spoil. We read that one man, Achan, did not obey this command. He took some spoils home and hid them under his tent. The children of Israel then went to take the next city, a small one called Ai, and were surprised to be defeated. What did Joshua do? Did he go back to the war books and find the problem? Did he confess his fault of underestimating the enemy? Maybe he called a meeting with the leaders of war? No, Joshua fell on his face and asked God why they were defeated. Joshua knew God was his strength and if they lost a battle it was because there was a problem with their relationship with God. God answered, “Israel has sinned.” Because sin entered the camp, the presence of God left. The days of victory were over.</p>\n  <p>When we accept the lukewarm theology of accepting sin, we learn how to live in defeat. We even expect to be defeated by sin. Suppose a college university were looking to hire a new coach for their football program. The administrators have narrowed the choice down to three men. The athletic director devises a plan—he calls the three men into his office separately and asks them all the same question:“How many games do you think you will win this season?” The first man responded with some doubt, “I believe we will win about half of the games! We have a young team and a new coach.” The second man is asked the same question. “I believe we will win several games. We have a good team, although we are young, I believe we will only lose some of the toughest games.” The third man is also asked the same question, but his response was a bit different. “We will win every game. We will practice and study film and playbooks. Sir, give me the job and we will win every game!” Can you imagine which man was hired? You’re right, the third man.</p>\n  <p>When the director is asked why he hired the third man, this was his response. “If I had hired either of the first two men, what would have happened after they lost a game? They would not have thought anything about it, because they were expecting to lose. But the third man will respond differently, because he is confident that he will not lose. It is not about whether we lose a game or not, it’s about how we respond after losing a game. The third man will not accept losing. If he does lose a game, he will be devastated. He will do everything in his power to find out why they lost a game. The team will study the recordings until they figure out and fix the problem. They will confidently go back out to the next opponent.”</p>\n  <p>As Christians, when we expect to sin, we will not think much about it when or if we do. However, if we realize that God can keep us from sin and keep us in fellowship with Him, then if we do sin, we do whatever it takes to figure out why. Maybe we started slacking on our personal devotions, or maybe we started hanging out with the wrong crowd, or we allowed the enemy to get us discouraged. Whatever the problem, we fix it and go on to fight another day!</p>\n  <p>Back to our opening account—Balaam’s plan worked perfectly. The foreign women came into their camp and the children of Israel committed fornication, disobeying God. God not only left them, but sent a plague. Thousands of Israelites died. Then a man of God, zealous for God’s people, eliminated the sin. It was ugly and probably difficult. I’m sure he was questioned about his methods but the plague was stopped. God’s people were restored to victory. We read many accounts in Scripture about how sin is to be dealt with in God’s church.</p>\n  <p>Dear readers, whether it’s sin in your personal lives, sin in your family, or sin in the church, let’s be zealous and defend the faith. Let’s remember, the little foxes spoil the vine. Let’s rise in unison and sever the sin. Let’s welcome back the supernatural power of God in our churches and once again turn the world upside down!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "e9d54e01b473ee989bb43c0fec23338b798f2235c5f74636b48815a4e0648f3d"
+}

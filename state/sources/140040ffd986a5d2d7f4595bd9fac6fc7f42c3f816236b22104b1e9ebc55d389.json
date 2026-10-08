@@ -1,0 +1,449 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "John Funk",
+          "role": null
+        }
+      ],
+      "date_as_printed": "1864",
+      "raw": "by John Funk 1864"
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4",
+    "images": [
+      {
+        "alt": "Portrait of John Funk",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-1.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-1.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 98 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "portrait",
+        "sequence": 1,
+        "source_page": 25,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            223,
+            322
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            223,
+            322
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            225,
+            322
+          ],
+          "source_object": 98
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Moses stands on a rocky height with one hand raised",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-2.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-2.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 102 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. The intrinsic artist signature remains in the raster but is not confidently legible enough for a named credit; no name is inferred. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 26,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            0,
+            510,
+            750
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            510,
+            750
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            512,
+            750
+          ],
+          "source_object": 102
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A seated man points toward a distant scene while children listen",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-3.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-3.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 106 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 27,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            2,
+            747,
+            541
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            747,
+            539
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            749,
+            542
+          ],
+          "source_object": 106
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A family works inside a log cabin beside a hearth and a baby's cradle",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-4.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-4.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 110 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. The intrinsic artist signature remains in the raster but is not confidently legible enough for a named credit; no name is inferred. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 4,
+        "source_page": 28,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            2,
+            726,
+            502
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            724,
+            500
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            727,
+            503
+          ],
+          "source_object": 110
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of men standing and sitting in a church",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-5.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-5.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 114 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 5,
+        "source_page": 29,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            0,
+            1,
+            747,
+            481
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            747,
+            480
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            749,
+            481
+          ],
+          "source_object": 114
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A mother and children kneel together in prayer",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-6.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-6.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 118 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 6,
+        "source_page": 30,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            2,
+            0,
+            520,
+            619
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            518,
+            619
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            522,
+            620
+          ],
+          "source_object": 118
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Children work together at a table with a balance scale",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-7.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-7.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 122 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 7,
+        "source_page": 31,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            0,
+            469,
+            548
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            468,
+            548
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            471,
+            550
+          ],
+          "source_object": 122
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Illustration of a family and a covered wagon beside a tree",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-8.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-8.jpg",
+        "rights_note": "Embedded base image object 126 has a thin rectangular keyline baked into its source scan. A meaningful unobstructed source-pixel crop [12,15,466,330], inside the published crop, omits the baked keyline and surrounding blank margin while preserving the depicted scene. No pixels synthesized. Clean embedded DeviceGray base image object 126 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 8,
+        "source_page": 32,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            12,
+            15,
+            466,
+            330
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; unobstructed source-pixel crop excluding baked rectangular keyline",
+          "output_dimensions": [
+            454,
+            315
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            481,
+            348
+          ],
+          "source_object": 126
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Three children kneel with clasped hands beside an open book",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-9.jpg",
+        "repository_path": "public/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-9.jpg",
+        "rights_note": "Clean embedded DeviceGray base image object 130 exported with the published rectangular clipping reproduced at nearest whole source pixels. Original image, page resources, paint order and clipping inspected; untiled, no soft mask, no transparency group or opacity wash. Separately painted page text, pull-quote panels, rules and page furniture are omitted. Source grayscale converted to true sRGB without inversion; encoded baseline JPEG with embedded sRGB profile, nonzero 300 dpi density and terminal EOI. Full Pillow and FFmpeg raster decoding and Skia Canvas rendering passed; final useful-resolution visual comparison with source page and raw object passed. No article-specific credit or permission notice is printed. General issue-level artist, photography and stock-source credits are recorded in issue verification; they do not identify this individual asset.",
+        "role": "illustration",
+        "sequence": 9,
+        "source_page": 33,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            1,
+            2,
+            448,
+            338
+          ],
+          "flip": null,
+          "jpeg_encoding": "baseline; quality 95; 4:4:4; 300 dpi",
+          "method": "original embedded image; source-pixel crop to published clipping",
+          "output_dimensions": [
+            447,
+            336
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            450,
+            339
+          ],
+          "source_object": 130
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline JPEG; nonzero density; terminal EOI; no trailing data",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 25
+    },
+    "subtitle": null,
+    "title": "Teach Your Children Diligently",
+    "topics": [
+      "b834013d-7b5e-59cd-9cf6-3cedee692313",
+      "4325fdd8-4363-524b-9445-2a2c86de1cf1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "97644e3931159aadd528f1425cc3fbbcf394fa054e49c90265586589647d999c",
+    "metadata_sha256": "ec6c3072ffb715351e8a77e826a5933b6eba82df4f6ffa83d695c0c6e3a4bc05",
+    "structure_sha256": "695231e0b7ce3e96b42b98635d411b69371c07d7b0b92914949bf6d9403e47cd",
+    "text_sha256": "fc96aa74648275e03e2f8f3658b71ccb07ee9e64dcd40d7dbe7f2949e3e085d3",
+    "translation_metadata_sha256": "e06472ea6cb55ed90698769df6b7cd6e349f72a7d274654f760197607ab34223"
+  },
+  "html": "<article data-article-id=\"f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4\">\n  <blockquote><p><strong><em>And these words which I command thee this day, shall be in thine heart, and thou shalt teach them diligently unto thy children….”<br>Deuteronomy 6:6-9</em></strong></p></blockquote>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-1.jpg\" alt=\"Portrait of John Funk\"></figure>\n  <p><em>This article was originally published under the title “The Duty of Parents to Themselves and Their Children” in 1864. John Funk was born into an immigrant Mennonite family in Berks County in 1835. At age 23 while working in Chicago John Funk attended a revival meeting conducted by D.L. Moody and was born again. From age 26 to 32 he continued to associate intimately with moody. He eventually settled in Indiana where he became a very influential Mennonite preacher and bishop. Probably his most significant contribution was the publishing of the first Mennonite magazine in English called the Herald of Truth.</em></p>\n  <p><em>Originally, I did not know what to think about John Funk I had heard a lot about him but I had never actually read anything that he wrote. I found his original magazines in the Lancaster Mennonite historical society and I was blessed as I read many of his old articles. After reading his writings I was impressed with his austerity and zeal for holiness. It was refreshing to see throughout the issues common themes about such things as the atoning blood, a holy life and a burden for raising a godly family. His sharp criticism of worldliness in the church written so long ago was very challenging. His warnings to the church of the 19<sup>th</sup> century should be even proclaimed even louder today. This abridged article was the first actual full-length message that the paper presented. May we take all these words to heart. ~Dean</em></p>\n  <p>These words, dear friends, are the words of Moses, the great leader of Israel. Moses, under the guidance of God, led forth the children of Israel from the land of Egypt, out of the house of bondage, through the Red Sea, unto Mount Sinai, to receive the commandments, the statutes and the judgments, which God designed for the government and instruction of his people.</p>\n  <p>But we cannot now follow the children of Israel, through all their wanderings, during the long journey to the Promised Land. But as God taught, and trained, and tried His people, preparing them for the day when they should enter into the land, Moses continued to be their teacher and governor. He watched over them as a father watcheth over his own children. He received the tables of the law from God’s own hand, and “commandments and statutes” from God’s own lips. Even as a friend converseth with friend, so came the Infinite Father to hold converse with his servant Moses. Moses embraced them and diligently taught them to the people.</p>\n  <h2>Intercessor</h2>\n  <p>When their enemies were about them, and threatened their destruction, Moses stood between God and the people as their mediator, and God gave them the victory. When disputes and controversies arose between them, Moses heard them, and decided for them in justice. For forty years had Moses been the leader of Israel and had borne with them in their impatience and hard-heartedness. For forty years had he borne with them, led them, taught them, prayed for them, and seen that they, in all things, were provided for. When he at last brought them to the borders of the promised land, he knew that his long and eventful life was drawing to a close, and that he must prepare to leave them to the guardianship of others, and bid them a final farewell.</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-2.jpg\" alt=\"Moses stands on a rocky height with one hand raised\"></figure>\n  <h2>Last Words</h2>\n  <p>But before he could take his final departure, he gathers together all the congregation of this people, and gives to the his last words: like a father gathering his family around his dying-bed to give them his dying counsel, so the aged patriarch recounts once more what God had done for them, and then in a most solemn exhortation, he breaks forth in these words: “Hear therefore, O Israel, and observe to do it; that it may be well with thee, and ye may increase mightily, as the Lord God of thy fathers hath promised thee, in the land that floweth with milk and honey.” And then, having stated the “sum of all the commandments, and statutes and judgments,” which God had given him, in nearly the same words which our Saviour reaffirmed hundreds of years afterwards, he declares unto the people: <em>“Hear, O Israel: The Lord our God is one Lord! And thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might,”</em> and after bringing this whole truth, the sum of all laws, before the people, he brings forth from his blessed lips the words of the text: <em>“And these words which I command thee this day shall be in thine heart, and thou shalt teach them diligently into thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up. And thou shalt bind them, for a sign upon thine hand, and they shall be as frontlets between thine eyes; and thou shalt write them upon the posts of thine house and on thy gates.”</em></p>\n  <p>In the days when Moses was the leader of the children of Israel, there were no schools, as there are now. The children of these days did not have a long line of studies to go through, which would enable them to read fluently, write rapidly, and figure quickly. From the first ages of the world to the time of Moses, the education of their children depended wholly upon the parents. We can picture in our minds how that the patriarchal fathers sat down in their tents and talked with their children of events which had happened in their own day. For in those days there were few books; and the books that did exist never circulated among the people, but were retained by the priesthood or other learned men. The only mode of obtaining a knowledge of past events in those days was to hear it from the lips of others. We may safely suppose that in those days many long and happy hours were spent in the tent, and in the field, and by the way, in the relation of past events by the fathers, while the children, in silent admiration, listened to the wonderful circumstances which had taken place, and in which their fathers and grandfathers had been participators and actors.</p>\n  <h2>TeachingÖ by the Way</h2>\n  <p>We can picture to our minds many an interesting scene, connected with the humble homes of these sojourners in the desert, which was never written in the sacred record. Behold, with what untiring interest the children sit around their aged parents, who had been slaves in Egypt, and seen all the wonderful manifestations of God’s love and power, in bringing them up out of the house of bondage, as they relate the story of the judgments and the plagues which God visited upon the Egyptians before Pharaoh would let the people go. Add the story of their own travels—God’s mercy and His judgments to them, and the glorious promises which He made to them; and then may we not also suppose that the faithful father and the God-fearing mother, would take this same opportunity to teach their little ones the strictest obedience to the sacred law which God had given them.</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-3.jpg\" alt=\"A seated man points toward a distant scene while children listen\"></figure>\n  <p>Thus did God command, and Moses enjoin, upon the children of Israel, that they should observe and obey the commandments of God, and teach them diligently to their children; and through all the years of Jewish history to teach all these things unto their children, and to instruct them in all the ways which God had appointed, that the true worship of God might ever be kept up and sustained among the Jewish people.</p>\n  <p>And now, my Christian friends, we have seen how God taught His commandments to His children—to His own people, and how He commanded them to teach these same laws and commandments to their children, to their “sons and their sons’ sons”: and these instructions and admonitions have been handed down to us through the ages of time and are for us today, just as much as they were for the children of Israel. Our hearts are inclined to sin and to evil, as were the hearts of the ancient Israelites; and we have children whom we love—children whom we desire to see walking in God’s ways, keeping His commandments and doing His statutes, according to all that the blessed Gospel demands.</p>\n  <h2>What About Us</h2>\n  <p>But here arises the question, are we seeking to understand, and to fulfill these requirements of the Bible? Are we seeking to know our own duties, and implant into the minds, of our children, a true sense of the responsibility, which rests upon us and them, and a true appreciation of their duty towards God, towards their parents towards the Church, and towards all mankind? Are the parents of the present generation faithful to the sacred duties, which God has imposed upon them? I ask you, O father! I ask you, O mother! Are you faithful to the sacred trust? Do you faithfully teach your children to observe all the ordinances of God? Do you point them to Jesus as the Saviour of mankind? Do you teach them the way to heaven?</p>\n  <p>In answer to these questions let us consider several characteristics which manifest themselves very plainly at the present time, not only among our own people but also among all other Christian denominations.</p>\n  <h2>In Name Only</h2>\n  <p>We sometimes seem to think that if we only bear the Christian name, if we have made a profession of faith, been taken into the communion and fellowship of the Church, and have been baptized, then we have done all that is needed. But this is not enough—this is only a small part of our duty: and without a true motive, a regenerate heart, a sanctified spirit, a hold desire for heaven and a pure love to God, all our outward acts are vain, and will not help us any; yea they will only stand as testimonies against us in the day of judgment. For if we do these things from impure motives, without a true, Christian life, they are only a mockery in the sight of God! Such mockery is sin, and sin sinks the soul to eternal perdition.</p>\n  <p>We sometimes see those who have conformed to all these outward requirements, while their conduct with their fellow men plainly shows that that their hearts are still at “enmity with God.” The Saviour says: “Ye shall know them by their fruits. Do men gather grapes of thorns or figs of thistles? (Matt. 7:16.) And thus, as a tree is know by the fruit it bears, so a Christian is known by the evidence he gives through his actions, his conduct and his conversation.</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-4.jpg\" alt=\"A family works inside a log cabin beside a hearth and a baby's cradle\"></figure>\n  <h2>Guise of Religion</h2>\n  <p>If we then see those who profess to be Christians and join in religious services, and in the observance of outward forms appear to be bright and shining lights in the Church, and still do not make their whole course of action to match their faith—following closely in the footsteps of Jesus—making him their pattern, and in all things endeavoring to be like him, then what other conclusion can we come to but that, according to the language of the text they have not in their hearts “these things which the Lord our God this day commanded us.”</p>\n  <p>When we see those who under the cloak of religion and piety are given to the pleasures and enjoyments of the world, desiring to stand high in the estimation of men, with Solomon we are led to exclaim, “Vanity of vanities; all is vanity saith the preacher.” The glory of man shall fade and fall as the flowers of the field wither and die, and with the breath of heaven that fans his heated brow, he may inhale the poisonous pestilence which in a few moments may lay him low, with the lowest of earth. There is no distinction in the grave, all are equal there, and “God is no respecter of persons.” The poor beggar laying, suffering and dying of hunger, at the rich man’s gate, was carried by the angels into Abraham’s bosom. The rich man, with all his honor, his wealth, his earthly grandeur was cast low, into hell. Jesus was poorer than the fowls of the air or the beasts of the forest, for, says he: “The foxes have holes, and the birds of the air have nests; but the Son of Man has not where to lay his head,” and Paul says: “Mind not high things, but condescend to men of low estate.” Therefore, we should not follow after these worldly things and neglect the words of the great Jehovah: “And these words which I command thee this day shall be in thine heart.”</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-5.jpg\" alt=\"Illustration of men standing and sitting in a church\"></figure>\n  <h2>Our Only Guide</h2>\n  <p>O! My Christian friends, how sad the thought when we consider all these things, and closely observe our own conduct, and the conduct of those around us! When we take the Bible, which is our only guide and our only rule of faith and practice, and measure our actions with its ever-blessed precepts, O! how do we thus live and fall so far short of attaining to a true, a pure and a holy life, without which we cannot enter the bright city above!</p>\n  <p>Alas! Alas! We have disobeyed our God, who has been very kind to us, who gave His only begotten son to suffer and die for us—to work out a great salvation for us; yea, we have failed to follow His instructions, given to the ancient Jews, and to us from the Bible: “And these words which I command thee this day shall be in thine heart.”</p>\n  <h2>Why is it that in many places there are so few young people connected with the church?</h2>\n  <p>This is a question which should awaken in our hearts strong concern. Upon this depends the maintenance of the church in future generations. If we teach our children the love of God, and their duty to the church and to themselves, in their early days, they will grow up to be good and pious men and women; then shall we have no fear for the religion and the morals of the people, the integrity of mankind, the extenuation of Christianity and the growth of the church. However, if we neglect this very important duty, our children will follow vice and corruption and disregard all that is good and holy: and then Alas!</p>\n  <p>The history of the Jewish nation abundantly shows that whenever the people forgot God and His laws, they became corrupt, the glory of the nation departed and her prosperity declined. While virtue, morality, and religion are the cherished hopes of any people, God will bless them. When they forget and neglect those, God’s favor will be withdrawn from them, and Woe! To an ungodly people! “Woe! To the wicked.” (Is. 3:11.)</p>\n  <h2>A Lost Generation</h2>\n  <p>There can be no thought more painful and more sad than to see our children, the rising generation, those who in a few years will occupy our places—I repeat, there can be no thought more painful than when we see these, our children, our future hopes for this world, forgetting the commandments and the statutes of God, and wandering away into paths of sin and wickedness.</p>\n  <p>And yet painful as is such a scene, how very often we see even the children of faithful, pious parents, making rapid strides towards the great whirlpool of human degradation and eternal ruin. There are also a great many parents who come short of doing their duty, towards their children. A great many pious parents, too, fail in this, and this is one great reason why, so many times the children of good Christian parents become so corrupt, as in the case of Eli, and many others. Oh! How his heart must have been weighed down with sadness and with sorrow as he, in his old age heard of his sons’ corruption, their sins, their desecration of the Temple and the holy ordinances of God, because he had not restrained his sons from their evil ways!</p>\n  <p>How different was it with little Samuel? Asked of God, dedicated to the house of the Lord and His service even at his birth—taught from earliest childhood to DELIGHT IN THE LORD and to love His service, he grew up to the faithful prophet of God, an honor to his people, and a bright example to all future ages.</p>\n  <h2>He Loved Them</h2>\n  <p>But again: the children of Israel were God’s own peculiar people. He chose them, not because they were great in numbers, but because He loved them (Deut. 7:7-8) and they were a people distinct from every other people on the face of the earth. And to guard them securely against thus being led into sinful and idolatrous ways, by the nations around them, God also spake to them the words of our test: <em>“And these words which I command thee this day, shall be in thine heart; and thou shalt teach them diligently unto thy children….”</em></p>\n  <p>God desired that they should become very familiar with His law and commandments, that they should be ever in their hearts so that they should not neglect them; then there would be less danger of their being led away after other gods, by those around them. And so should we also keep them commandments of the Lord, constantly before our eyes and in our hearts.</p>\n  <h2>A Holy People</h2>\n  <p>Now as God’s people were to take possession of the promised land, utterly destroy all its inhabitants, sanctify it and make it a fit place of abode for themselves, so should the Spirit of God take possession of the human heart and destroy all the sinful inhabitants thereof; purge it of every wicked desire, purify it, sanctify it, removed from it all unholiness and thus make it a fit place for the indwelling of the Holy Spirit. Only then can we have in our hearts these words which the Lord this day commanded us, then also will we seek diligently to teach them unto our children.</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-6.jpg\" alt=\"A mother and children kneel together in prayer\"></figure>\n  <p>In another view; so should the church possess all her inheritance, pure and without sin, that the Lord from Heaven may descend and dwell among a pure and a holy people, for “the temple of God is holy which temple ye are,” (1 Cor. 3:17) “and the Spirit of God dwelleth in you (1 Cor 3:16).” Yes the church must preserve its integrity, its purity, its sanctity that it may be “a house of prayer” unto the Lord and not “a den of thieves,” full of corruption, devoted to the devil. The Spirit of the Lord shall be poured out “upon all flesh”, and through its life-giving influence the Church shall go forth, “conquering and to conquer,” declaring the truth of God everywhere, preaching the Gospel to all nations; yes, to every creature, even to the uttermost ends of the earth; that “the earth shall be full of the knowledge of the Lord, as the waters cover the sea (Isa. 11:9)” and the “heathen shall be given him for his inheritance, and the uttermost parts of the earth for his possession (Ps. 2:8).</p>\n  <p>Some have felt that we require too much of our children—that the requirements of our Church are too strict. That they could not, yes, that they would not comply with them; it was needless to be so strict; and they went out to unite with other Churches, where, as they were, erroneously, led to believe, they might have a broader road to the royal home above. Reader! It matters not what name we bear, nor where we belong, nor in what Church connection we stand. The road to heaven is the same for all. It is the only one. “I am the way,” saith Jesus, and “there is none other name under heaven, given among men, whereby we must be saved (Acts 4:13).”</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-7.jpg\" alt=\"Children work together at a table with a balance scale\"></figure>\n  <p>The religion of our people requires of its members just what the Bible requires of a true and sincere child of God; nothing more, nothing less, and if our requirements are strict, the law of the Lord is perfect converting the soul (Psalm 19:7), “and the word of God is quick, and powerful, and sharper than any two-edged sword, piercing even to the dividing asunder of soul and spirit, and the joints and marrow, and is a discerner of the thoughts and intents of the heart (Heb. 4:12).”</p>\n  <p>Thou shalt “utterly destroy them, “your sins, your evil desires, your inclinations (after the things of this world,) thou shalt make no covenant with them, nor show mercy unto them”—“Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind and with all thy strength.”—“He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me: and he that taketh not his cross and followeth after me is not worthy of me.” We cannot serve two masters. The Lord demands not a portion of our hearts—not a partial obedience, but our whole hearts.</p>\n  <h2>We are too much like the children of Israel</h2>\n  <p>When they came in the Promised Land and possessed it, and grew and increased, and prospered, and saw how the people about them lived, they grew careless and forgot the judgments of Egypt, and the laws and statutes God had given them, became corrupt, sinned against God and again and again brought his mighty judgments upon them.</p>\n  <p>Oh, my Christian brethren and sisters! Let us look upon these things in humility of spirit and consider them as before God. Oh, Christian parent! Let me appeal to you in all solemnity and kindness. Let us behold the church of Christ! The church of our fathers! Let us follow it down through the dark ages of the world, when trial and suffering, and persecution and death met the meek and purehearted Christians at every step. Let us look at them as the dark shadows of persecution followed them on every side, until the wild forests of America and the prairies of the West opened to them an asylum of peace, where the cruel terrors of the prison, the sword, the rack and the stake, no longer followed them with its fearful train of blood and death.</p>\n  <p>Here then in this great land, we have enjoyed liberty of conscience and all the privileges and blessings necessary for earthly comfort and prosperity. Here we sit down at our ease, under own vine and fig tree, and feel secure. Yet the great destroyer of souls, is still abroad—yea in our very midst. The same subtle enemy, which led Eve to eat of the forbidden fruit in the Garden of Eden and thus brought humanity under the sad penalty of death, still comes to us. He comes most frequently in the cherished forms of pleasure and prosperity, and unsuspectingly we take the wily, sin-crowned serpent into our bosom and clasp him to our fond embrace.</p>\n  <h2>Prosperity has, in all ages of the world, been manÍs greatest enemy</h2>\n  <p>Amid the fires of persecution the soul is purified, and brought near to God. When prosperity comes, his soul goes to sleep, throws off its watchfulness and an enemy comes in unawares, and sows the seeds of dissension, dissatisfaction, and sin, and robs him of eternal life. We forget what we must be. “Be ye therefore perfect, even as your father which is in heaven is perfect,” is the injunction of the Saviour. “And these words which I command thee this day shall be in thine heart, and thou shalt teach them diligently unto thy children”—“Train up a child in the way he should go, and when he is old he will not depart from it.”</p>\n  <p>Let us then observe to keep these things and also teach them diligently unto our children. We may feel that we have other things to attend to. We have a large farm, abundant crops or other toilsome labors to attend to. It is true that the labors of life demand our attention and require our care; but the diligent man will not be in need of time to worship God and to instruct his own household.</p>\n  <p>The command is, “Thou shalt talk of them when thou sittest in thine house, and when thou walkest by the way, when thou liest down, and when thou risest up.” He who asked to be excused because he had bought a farm, or a yoke of oxen, or had taken a wife, lost the privilege and the honor of feasting with the King. So also with us and our children if our business takes too much of our time. What will it profit us if we have gained the whole world, and lose our own soul?</p>\n  <p>We love our children, they are precious to us, we desire to see them happy both in this world and in the world to come—we labor and toil for them early and late, that we may make them comfortable in the world—with all a father’s care and all a mother’s love, we supply them every temporal want—when they are sick we watch over them very tenderly and pray that God may restore them to health. And if they die, Oh! What would we give to know that they were resting safely in the arms of the good Shepherd!</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-8.jpg\" alt=\"Illustration of a family and a covered wagon beside a tree\"></figure>\n  <h2>Have We Done Our Duty?</h2>\n  <p>Have we been faithful to the sacred trust? Have we so taught them that in their last hour of trial (I now refer to those who have already grown to accountability) they could look to Jesus as their help and their Saviour? It was only yesterday I stood beside the corpse of a young girl of 13 years of age, who had come from the ballroom to her deathbed and gone from there to the grave. The child was so unwilling to die that she screamed and wept bitterly at the very thought of death, and asked every one to pray for her that she might get well again. She also prayed earnestly for herself, and we hope her prayers are not unanswered: but from the ballroom to the grave is a sad commentary on any one’s life, and makes death much more sad then it might otherwise be.</p>\n  <p>But let us try to do our duty faithfully and lead our children up in the narrow way, that they may not pass through such sinful indulgences as the one given above. But how can we do this? There is only one way. Follow the beautiful example of the pious mother of Samuel, the faithful prophet of the Lord already referred to. Teach the children early to love the Lord. Teach them diligently all the statutes, the commandments of God—instruct them faithfully in the path of duty, and our prayers which we put up for their salvation shall be answered.</p>\n  <figure><img src=\"/images/articles/f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4-9.jpg\" alt=\"Three children kneel with clasped hands beside an open book\"></figure>\n  <p>When we have a very rare plant or tree, what care are we willing to bestow upon it? We plant it at the proper time, and in the right kind of soil—we cultivate it with much care; we water it, and trim it, and study carefully what it needs. Shall we do less for our children, who have not only a physical form to develop, but a never dying soul to save, and fit it for the rest of God.</p>\n  <h2>T-I-M-E</h2>\n  <p>Let us take the children under our special care. A few flowers less in the garden, a little less grain in the field, an hour less in the workshop, if we are diligent in all our doings, will not be missed at the end of our lives, while they may be an immortal inheritance to our children. Let us then bestow a little less care upon the things of this world, that we may attend to the great interests of our children and plant their young souls into the good soil of eternal life, and train them up to be pure-hearted and devoted Christians, water their growth with the love of Christ and rear them so that they shall grow in stature, and in favor both with God and man.</p>\n  <p>Mothers! While you take your infant children in your arms, or rock them in their cradles, you can sing to them the sweet songs of Jesus’ love; and as they grow older you can teach them the truths of the Bible—tell them the beautiful story of Jesus—how he came from heaven—how he suffered—how he died and rose, and went to heaven again; and all for us, that we, too, might go and be with him when we come to die.</p>\n  <p>Fathers! When they are old enough to follow your footsteps to the field and the workshop, then O, father! Put the statutes of God into your own heart, and teach them diligently unto thy children, talk of them when thou sittest in thine house, and when thou walkest by the way, when thou liest down and when thou risest up—gather them around you and instruct them in all the words of life, and commit them to the care of Him without whose notice not even a “sparrow falls to the ground.” When the daily toils are over, let us set down with our children, and tell them what God has done for us—what he has commanded us to do—how he desires us to live.</p>\n  <h2>In conclusion, let us then endeavor to do our duty faithfully to our children.</h2>\n  <p>Let us work out own “salvation with fear and trembling,” and also walk with our children hand in hand—Zionward; that in their younger years they may give themselves to God—that in their early days they may devote their lives, their energies, and all their powers to promote the interests of the Christian life, and the Redeemer’s kingdom. There is much for all to do—let us labor faithfully and earnestly that our work may be done when the night of death comes upon us.</p>\n  <p>May God give us grace to walk in humility before him, that at last we may sing together around his throne songs of unending praise, through Christ, our Redeemer. Amen.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "555b22855c370ecc83546b0553a179df13bb75c9c8ef4e6660b285870bbc8cf5"
+}

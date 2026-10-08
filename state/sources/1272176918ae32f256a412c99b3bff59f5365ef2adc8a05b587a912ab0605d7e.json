@@ -1,0 +1,94 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Amy Carmichael"
+        }
+      ],
+      "raw": "-Amy Carmichael-"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "6f5da2d6-b248-440b-ba8c-a5f259000f85",
+    "images": [
+      {
+        "alt": "A spotted fawn resting among green leaves, with the printed Parents’ Prayer over the photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/6f5da2d6-b248-440b-ba8c-a5f259000f85-1.jpg",
+        "repository_path": "public/images/articles/6f5da2d6-b248-440b-ba8c-a5f259000f85-1.jpg",
+        "rights_note": "Explicit unavoidable-overlay exception: the sole embedded photograph object 144 irreversibly includes the entire prayer title, body, author attribution and their black typographic shadow. There is no clean alternate base image. Every substantial rectangle preserving the fawn’s recognizable head and body intersects baked text; no faithful, useful unobstructed crop retains the subject. Retain that exact source raster within the published page crop without inpainting or inverse correction. Separately painted postage box, address block, magazine masthead and heartbeat rule are omitted. Source RGB/sRGB; no CMYK inversion. Full photograph extent is trimmed inward to published CropBox bounds using source pixels [32,38,1306,1687]. Image dictionaries, page resources, paint order, clipping and graphics state were inspected; there are no masks, tiles, transparency groups or opacity washes. No asset-specific credit or permission notice is printed; issue-level image credits do not identify this asset. Final source-crop correspondence, centre, edges and corners were visually checked. Complete Pillow and FFmpeg decoding completed without warnings; Skia Canvas rendering visually passed.",
+        "role": "background photograph with irreversibly baked prayer typography",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": [
+            32,
+            38,
+            1306,
+            1687
+          ],
+          "flip": null,
+          "jpeg_encoding": "standards-normalized baseline JPEG, quality 95, 4:4:4, 96 dpi, embedded sRGB profile",
+          "method": "original embedded image; source-pixel crop at published page boundary only",
+          "output_dimensions": [
+            1274,
+            1649
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1336,
+            1725
+          ],
+          "source_object": 144
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas)",
+          "color_space": "sRGB",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "complete baseline JPEG; nonzero density; no trailing bytes",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Parents’ Prayer",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "caed512e52162a3b2014bf4d207765d0fec62605e00a387bfb2f407ebd6afdbb",
+    "metadata_sha256": "791a688a106ffbb37e84792fc8d4f866d2acde4822debc7323de9d44a44695c3",
+    "structure_sha256": "3d9f4e3f475fb766859c86f2454a9d87e3f75e36daf2435c7bdfd9c94b043723",
+    "text_sha256": "e4a235a796fba3d01d60a19527534acd9b6f4c540fd57cff91a109b449917e54",
+    "translation_metadata_sha256": "301e1bf1085b41ff205375f6b2e56f527b1b16c9bf8793eae7524194c559fb8c"
+  },
+  "html": "<article data-article-id=\"6f5da2d6-b248-440b-ba8c-a5f259000f85\">\n  <figure>\n    <img src=\"/images/articles/6f5da2d6-b248-440b-ba8c-a5f259000f85-1.jpg\" alt=\"A spotted fawn resting among green leaves, with the printed Parents’ Prayer over the photograph\">\n  </figure>\n  <p><strong>Make them good soldiers of Jesus Christ; let them never turn back in the day of battle. Let them be winners and helpers of souls. Let them live not to be ministered to, but to minister.</strong></p>\n  <p><strong>Make them loyal; let them set loyalty high above all things. Make them doers, not mere talkers. Let them enjoy hard work and choose hard things rather than easy. Make them trustworthy. Make them wise, for it is written, He hath no pleasure in fools.</strong></p>\n  <p><strong>Let them pass from dependence on us to dependence on Thee. Let them never come under the dominion of earthly things; keep them free. Let them grow up healthy, happy, friendly, and keen to make others happy. Give them eyes to see the beauty of the world and hearts to worship its Creator.</strong></p>\n  <p><strong>Let them be gentle to beast and bird; let cruelty be hateful to them. May they walk, O Lord, in the light of Thy countenance.</strong></p>\n  <p><strong>And for ourselves we ask that we might never weaken. \"God is my strong salvation\" ...we ask that we might train them to say that word and live that life, and pour themselves out for others unhindered by self.</strong></p>\n  <p><strong>-Amy Carmichael-</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "5a8b87bb7c4803595d3aee30ac9ca2a15b604d175e9bde68c76e54bafca56675"
+}

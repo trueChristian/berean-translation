@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Wooster, OH",
+          "name": "Sara Brubaker"
+        }
+      ],
+      "raw": "Sara Brubaker\nWooster, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "230431b8-64ad-4880-85f3-6c1e80d89caa",
+    "images": [
+      {
+        "alt": "Slices of ham on a cutting board",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/230431b8-64ad-4880-85f3-6c1e80d89caa-1.jpg",
+        "repository_path": "public/images/articles/230431b8-64ad-4880-85f3-6c1e80d89caa-1.jpg",
+        "rights_note": "No separate image credit or license is stated for this image on printed page 32; rely on the publisher permission reported by the project owner.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "ac238571-c56c-5d66-983d-7f37969bbf1a",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "ENCOURAGEMENT FOR YOUNGER SISTERS",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "A Wee Little Prayer",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "d88a50d13ea2a0073be5c1848d7130f5f2ea3230dba7c2c66e7b72485dd98adf",
+    "metadata_sha256": "a4a86c8080a8b698306eb32e3692b3ca01acbb3aa0010a8ce30c9b5236f9e6f3",
+    "structure_sha256": "ec6959f1256a50807cae6960c36254016681efb27d5ec379ab999cb9de58ee0c",
+    "text_sha256": "1323f746a8673b55ac8709008ab1e15ebb17d557ad7b61a58428878db3761a06",
+    "translation_metadata_sha256": "c41a38e068e1e8947773411592284179de1d88f48cdd62cc7567f790ab52e21d"
+  },
+  "html": "<article data-article-id=\"230431b8-64ad-4880-85f3-6c1e80d89caa\">\n  <figure>\n    <img src=\"/images/articles/230431b8-64ad-4880-85f3-6c1e80d89caa-1.jpg\" alt=\"Slices of ham on a cutting board\">\n  </figure>\n\n  <p class=\"lead\">My new job had more things for me to learn than I could count. I absorbed directions and techniques as fast as my co-workers gave them, but I still couldn’t catch up. My brain was overloaded.</p>\n\n  <p>One day my actions betrayed my bursting brain. It was early evening at the bulk food store, and we had almost an hour until closing time. The store was filled with the usual closing-time rush.</p>\n\n  <p>Standing nervously behind the deli, I worked alongside my boss who was slicing cheese with a speed I couldn’t match. He whipped cheese out to one customer after another until the whole line was waiting on me to slice their deli meat. I felt intimidated and exceedingly slow. I turned bravely to the next customer in line. Smiling, I asked what I could slice for them.</p>\n\n  <p>“I’ll take a pound of black forest ham sliced medium.”</p>\n\n  <p>I scanned the deli case. I still didn’t know where all the kinds were kept. Finally, I found it and painstakingly sliced a pound. I turned toward the label machine. I concentrated on finding black forest ham on the screen. Of course, I couldn’t find it. Embarrassment crept up my cheeks.</p>\n\n  <p>My boss noticed my hesitation and took time to ask, “What are you looking for?”</p>\n\n  <p>I held the bag up at the same time that I said, “Black forest ham.”</p>\n\n  <p>With a glance at the meat in the bag, he pointed to the words on the screen—roast beef.</p>\n\n  <p>“But I sliced black forest ham,” I croaked.</p>\n\n  <p>He looked doubtful, and then smiled kindly. “Well, you’ve got roast beef there.”</p>\n\n  <p>I wilted. “What a dreadful mistake! I’ll deal with this later,” I thought. I placed it into the deli cooler and proceeded to slice a pound of Black Forest Ham. My mind was full of concentration as I helped customers until the store cleared out a few minutes later.</p>\n\n  <p>Then I thought about the mistake again. How was I going to pay for roast beef? Well, I would need to pay for it even if it would only make four sandwiches at my house. It would never do to leave my mistake to the expense of my boss.</p>\n\n  <p>Suddenly, I had an idea. Why hadn’t I thought of it before? I looked at the clock. With a determined heart I prayed. “God, I know there’s not much time left before we close, but if it is Your will, will You please bring someone who wants a pound of roast beef?”</p>\n\n  <p>The doorbells jangled as a few people came in. Could this be my answer? But, no. Some of them didn’t even want anything at the deli and those that did, didn’t need roast beef. My faith faltered as darkness fell over the snow-clad landscape and the hands on the clock steadily moved closer to the end of the day. I wiped up some crumbs and tidied the slicing counter. Then I noticed someone standing at the deli. “Hello,” I said. “What can I slice for you?” I tugged on a pair of gloves.</p>\n\n  <p>He casually said, “I’ll take a pound of roast beef, sliced medium.”</p>\n\n  <p>Momentarily, I stared dumbfounded at the pack of roast beef in the deli. Then I snapped out of my reverie and grabbed it, handing it triumphantly to him. “Anything else?” My heart beat rapidly and I couldn’t stop smiling, my mind reassured.</p>\n\n  <p>He walked away, having no idea that he was an answer to prayer.</p>\n\n  <p>“Thank you, God.” I whispered repeatedly. “You allowed him to come in here before I ever prayed. Thank you!”</p>\n\n  <p>I had known that God cares about the little things. Now I had experienced it personally. He even cares when my mind is full and I make mistakes, creating my own problems.</p>\n\n  <p><em>Psalm 40:17 But I am poor and needy; yet the Lord thinketh upon me: thou art my help and my deliverer; make no tarrying, O my God.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "01f5132109b4f3f5bf3924c71062d92c4dca16927117b922a83cf85a01f4c279"
+}

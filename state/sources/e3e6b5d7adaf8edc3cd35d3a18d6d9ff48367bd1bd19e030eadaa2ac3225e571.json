@@ -1,0 +1,156 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Warsaw. Ohio",
+          "name": "Owen Mullet"
+        }
+      ],
+      "raw": "Owen Mullet\nWarsaw. Ohio"
+    },
+    "categories": {
+      "additional": [
+        "64bf1f79-9265-5370-8de2-47084d62cece"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "50c05c9f-af87-40d0-9255-f59b01b4985c",
+    "images": [
+      {
+        "alt": "",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-1.jpg",
+        "repository_path": "public/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-1.jpg",
+        "rights_note": "No individual credit for the recurring child/tree section icon is stated. Page 2 credits © Adobe Stock Images for page 12, but the credit does not separately identify the icon. A tight crop preserves the seated child and tree trunk/canopy region while omitting the adjacent Children’s Corner lettering. The full outer canopy continues behind the removed section lettering and cannot be recovered independently; this is a meaningful unobstructed source crop. No article-specific permission requirement is printed; no separate licence is inferred. Inspected the sole base object, resources, paint order and page render: a single scanned RGB raster plus invisible OCR (/ca 0), with no alternate clean asset, tiles, masks or transparency groups. All lettering/layout outside the crop is excluded; no source pixels are retouched. The crop is vertically resampled only to reproduce the PDF placement aspect, and encoded as a baseline RGB JPEG with embedded source sRGB profile and nonzero 96 dpi density. No CMYK conversion or inversion was needed.",
+        "role": "section illustration",
+        "sequence": 1,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_coordinate_space": "upright source raster after PDF placement rotation",
+          "crop_pixels": [
+            0,
+            0,
+            228,
+            182
+          ],
+          "flip": null,
+          "method": "Original source-pixel crop; vertical Lanczos resampling by 0.9824322792700895 to reproduce PDF placement aspect ratio.",
+          "output_dimensions": [
+            228,
+            179
+          ],
+          "rotation_degrees": 90,
+          "rotation_direction": "clockwise",
+          "source_dimensions": [
+            2076,
+            1576
+          ],
+          "source_object": 56
+        },
+        "verification": {
+          "browser_compatible_renderer": "full decode, paint and RGBA readback exactly match Pillow",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with embedded source sRGB profile, nonzero density and EOI at EOF",
+          "independent_image_review": "Independent AI reader compared final full-resolution export with native source raster and rendered page; source content, meaningful subjects, ownership, crop, colour, orientation, placement aspect and documented unavoidable overlays passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A full chalkboard with chalk stars, letters and numbers around its edges and a wooden ledge along the bottom.",
+        "caption": null,
+        "credit": "© Adobe Stock Images",
+        "public_path": "/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-2.jpg",
+        "repository_path": "public/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-2.jpg",
+        "rights_note": "Page 2 credits © Adobe Stock Images for page 12; no separate licence is inferred. The sole source is flattened scanned-page object 56 with invisible OCR and no clean background beneath the publisher overlays. At the user’s explicit request on 2026-10-01, the complete chalkboard composition replaces the previous lower crop. The user authorized AI editing to remove the title and approved the displayed edited version. Built-in image generation removed the article title and underline, author/location, and top-left publisher section overlay; the separate child/tree icon remains represented once in image 1. Original full framing, decorative ABC/123, stars and wooden ledge are visually preserved. This approved reconstruction includes generated background texture and is not claimed to be pixel-identical source photography. It is an asset-specific user-authorized exception to the repository’s default no-inpainting rule. Exported without cropping as a baseline RGB/sRGB JPEG with nonzero 96 dpi density; no CMYK conversion or inversion was needed.",
+        "role": "article background illustration",
+        "sequence": 2,
+        "source_page": 12,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "crop_pixels": null,
+          "method": "User-authorized built-in imagegen overlay removal from the full PDF-aspect-corrected source frame; approved generated image encoded as baseline sRGB JPEG without cropping or resizing.",
+          "output_dimensions": [
+            1102,
+            1427
+          ],
+          "preserved_composition": [
+            "full chalkboard frame",
+            "all intrinsic chalk stars",
+            "partial ABC at lower left",
+            "partial 123 at right",
+            "full wooden bottom ledge"
+          ],
+          "removed_overlays": [
+            "Johnny’s Bad Habit title and underline",
+            "Owen Mullet / Warsaw. Ohio byline",
+            "Children’s Corner label and duplicated child/tree section mark"
+          ],
+          "source_dimensions": [
+            2076,
+            1576
+          ],
+          "source_full_frame_dimensions": [
+            1576,
+            2040
+          ],
+          "source_object": 56,
+          "source_orientation": "90 degrees clockwise to match PDF placement",
+          "user_authorization": "2026-10-01: requested entire image with title removed; approved the displayed edited version and instructed proceeding."
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas complete decode, paint and RGBA readback exactly match Pillow.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG, nonzero 96 dpi density, EOI at EOF and no trailing bytes",
+          "independent_image_review": "Second AI reviewer compared approved full-frame image against source; complete composition, intrinsic ABC/123, stars and wooden ledge preserved, publisher overlays cleanly removed, no obvious reconstruction seams. User approval and AI reconstruction disclosed.",
+          "overlay_audit": "verified_by_ai",
+          "source_fidelity_note": "Visually faithful approved AI edit; generated background pixels disclosed, no exact-source-pixel claim.",
+          "user_visual_approval": "Approved displayed full-image edit on 2026-10-01.",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 12
+    },
+    "subtitle": null,
+    "title": "Johnny’s Bad Habit",
+    "topics": [
+      "862c3071-6aee-5a28-ae7b-356175f29db1",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "a1d5a4137cf9724ded51d266534d6a9531e7997581ffbcc4ed03c286d0d5148d",
+    "metadata_sha256": "44674e0665064114199539f12ad070514f58b9d2ceaeead1be7f2fcf48f1188a",
+    "structure_sha256": "e50d094c6fc53019b820e2f0c8eeed37627db31d9321913eb224ce2b0fd81c23",
+    "text_sha256": "bafc6e375b103f8894e992f68e3685a47c37ce9090fe7fa5b5815e00f98ccbd4",
+    "translation_metadata_sha256": "0497a432731db3a38e9908b0b51100e8b834fbdf26700e1229a5fd7150a145f8"
+  },
+  "html": "<article data-article-id=\"50c05c9f-af87-40d0-9255-f59b01b4985c\">\n  <figure>\n    <img src=\"/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-1.jpg\" alt=\"\" />\n  </figure>\n  <figure>\n    <img src=\"/images/articles/50c05c9f-af87-40d0-9255-f59b01b4985c-2.jpg\" alt=\"A full chalkboard with chalk stars, letters and numbers around its edges and a wooden ledge along the bottom.\" />\n  </figure>\n  <p>Johnny sat quietly in his seat as the school bus sped toward home. In his hand, he held a note written by his teacher that he was supposed to deliver to his parents.</p>\n  <p>Johnny was a lively 2nd-grade boy who sometimes had difficulty behaving the way he knew he should. Today had been no exception. Finally, in exasperation, Teacher Leah made him sit with his head on his desk with his arms around his head. But even that did not keep him from peeping at the other students and being a distraction.</p>\n  <p>Teacher Leah felt that Johnny’s parents should know about his escapades in the classroom, so she wrote them a letter and sent it home with him. “Give your parents this letter, ask them to sign it, then bring it back to me tomorrow,” she firmly told him.</p>\n  <p>Now, on the way home, Johnny racked his brain, trying to figure out what he could do with that letter. He experimented with it, folding it into a little square that hid most of the writing. Maybe he could somehow get his mother to sign the folded paper without asking any questions. Finally, he concluded that it would just be too risky.</p>\n  <p>Suddenly, another idea popped into his head. Maybe he could sign the letter himself. A nagging feeling of guilt settled over him at the thought of being so deceptive. Johnny knew he had a bad habit of being dishonest. His parents had talked to him about the importance of developing good habits while he was young. If you do something over and over again, it forms a pathway through your brain, making it very hard to quit. Ever since he was very young, Johnny had a tendency to stretch the truth. He had done it so often that he hardly thought about it anymore. It had turned into a bad habit.</p>\n  <p>But Johnny pushed those thoughts away and decided to sign the letter himself. When he got home, he found an envelope with his mother’s name on it and practiced writing her name. Once he felt he was able to copy her signature closely, he got Teacher Leah’s note and wrote his mother’s name at the bottom. He quickly put the letter into a safe hiding place where nobody would find it.</p>\n  <p>The next morning, when Johnny got to school, he quickly dropped the letter onto Teacher Leah’s desk and ran out to play until classes started.</p>\n  <p>When the first recess bell rang, Johnny jumped up to run outside. “Johnny, I would like to see you at my desk before you go outside to play,” Teacher Leah interrupted him.</p>\n  <p>Uh-oh, Johnny’s heart did a flip-flop. She had the letter in her hand when he got to her desk. She pointed to his mother’s name at the bottom of the page. “Johnny, why did you sign your mother’s name?” she asked.</p>\n  <p>Johnny’s mind raced; what can I say? “My mom was busy and didn’t have time to sign the letter, so she asked me to sign it for her,” Johnny lied. He should have confessed right there to what he had done, but since he had such a habit of being dishonest, it was easy for him to tell another lie.</p>\n  <p>Teacher Leah studied him briefly, then said, “OK, Johnny, you may go now.”</p>\n  <p>Johnny raced outside, relieved to have the ordeal over with. “My plan worked,” he rejoiced, thinking his problem was over. But Johnny was wrong. The Bible says, “Be sure your sin will find you out” (Numbers 32:23). Johnny’s habit of dishonesty was about to catch up with him.</p>\n  <p>The following Sunday evening, Johnny’s family was at a church supper and hymn singing. Johnny was playing with some of his friends after supper when he noticed his mother talking to Teacher Leah. Suddenly, he got a nervous feeling in the pit of his stomach. He had a sneaking suspicion of what they were talking about, and he was right.</p>\n  <p>That evening, after they came home and were getting ready for bed, Johnny heard his mother call up the stairs. “Johnny, come down to the living room when you are ready for bed. Dad and I want to talk to you.”</p>\n  <p>Johnny knew there was no way out of it this time. When his mom and dad confronted him, he admitted to what he had done. His dad gave him the punishment he deserved, and the next day, a very repentant little Johnny approached Teacher Leah to apologize for his misdeeds. He knew he really needed to break his bad habit of lying. The older he got, the harder it would be to break it, so he firmly decided he was done with being dishonest.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "41c3d633e4c3fd51a97e5edf28bd3a65f698aae27d5a4d0514c7f9275153cca3"
+}

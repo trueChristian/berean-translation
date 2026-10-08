@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Long Lake, SD",
+          "name": "Janell Hege",
+          "role": null
+        }
+      ],
+      "raw": "~Janell Hege, Long Lake, SD"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "01d6d043-59d2-4042-a6e9-8c4abf368212",
+    "images": [],
+    "issue_id": "4ece4257-ac97-59c4-9a46-5ee9d7fb95d1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "Sacrifice?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "4132f5fdbeb38cd2f841d4f52c22ee0467ac7c199a48f6d7c9d2e819f6e0468f",
+    "metadata_sha256": "a64b400aa815f565315b79934f546f84dc19fd606218e48bbe491f571408dda2",
+    "structure_sha256": "9cf878308cca14172f2c1e58e32af8d682715a73394972be366684091f953b0c",
+    "text_sha256": "5cc050a1f07403b71006dfd4960580b95b74e040a04cebbcaa7ff76c335496ae",
+    "translation_metadata_sha256": "6494762efdfb92e539909130c65210cd3f45b463307c54f7eaf0f4f87b176d3c"
+  },
+  "html": "<article data-article-id=\"01d6d043-59d2-4042-a6e9-8c4abf368212\">\n  <p>So likewise, whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple. Lu. 14:33</p>\n  <p class=\"poem\"><em>You asked me to give up my home ...<br>\n  Then gave me welcome in many homes.<br>\n  You asked me to lay down my patriotism for my country ...<br>\n  And put every tribe and nation on my heart.<br>\n  You asked me to lay down my will ...<br>\n  Then gave me a real desire to please You.<br>\n  You asked me to give You my dreams ...<br>\n  And gave me a life beyond what I could have ever dreamed.<br>\n  You asked me to lay down my family and friends and follow You ...<br>\n  And when I followed You, I found a family and friends that defined<br>\n  true fellowship.<br>\n  You asked me to give up my sour attitude and puny plans of revenge ...<br>\n  And promised pure judgment that is complete and just.<br>\n  You asked me to lay down my finances and possessions ...<br>\n  And then told me that I am an heir of all that You possess.<br>\n  You asked me to turn all of my little affections over to You ...<br>\n  And taught me a love powerful enough to reach my enemies.<br>\n  You asked for my wholehearted allegiance ...<br>\n  And pledged Your commitment to me with open arms on a cross.</em></p>\n  <p>~Janell Hege, Long Lake, SD</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "4d47beb239750f4a93d70d2c1c515333b4d6a9d9ce3cb6fa9d0f490b8bab344c"
+}

@@ -1,0 +1,71 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Elizabeth Rust"
+        }
+      ],
+      "raw": "by Elizabeth Rust"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
+    "images": [
+      {
+        "alt": "Hands shaping a clay pot on a potter’s wheel",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg",
+        "repository_path": "public/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 34; no separate permission notice or license terms are stated. This is the clean embedded left portion of the two-page photograph. Its inverted-Adobe CMYK samples were inverted, converted to sRGB, and re-encoded as a standards-normalized baseline JPEG without changing the published dimensions, crop, or orientation.",
+        "role": "two-page-spread photograph, left portion",
+        "sequence": 1,
+        "source_page": 34
+      },
+      {
+        "alt": "Continuation of the photograph of hands shaping a clay pot",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg",
+        "repository_path": "public/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 34, and this is the clean embedded complementary right portion printed on page 35; no separate page-35 credit, permission notice, or license terms are stated. Its inverted-Adobe CMYK samples were inverted, converted to sRGB, and re-encoded as a standards-normalized baseline JPEG without changing the published dimensions, crop, or orientation.",
+        "role": "two-page-spread photograph, right portion",
+        "sequence": 2,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Pots",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "0563ea2b6ad6ff48919b080832bba8e1fd9b645ebe455f4e407113217cf671a1",
+    "metadata_sha256": "44e05f84c730a3e97c3659e8cabdf36f8afdfda2dc6619cac59dcc140b0a4a74",
+    "structure_sha256": "5c0cec6e35b4e3de3bce64b6c206d03da94a0160c05ef214ef90f8eecc3c4298",
+    "text_sha256": "f01bc6b71091b00a2d37444ce925a22158e9c05aa0a0fe45611fbefbd9575d66",
+    "translation_metadata_sha256": "02231db571c02e1922da3c676499b62a73a43ad41abd5b345c78dec7d738b982"
+  },
+  "html": "<article data-article-id=\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\">\n  <figure>\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\" alt=\"Hands shaping a clay pot on a potter’s wheel\">\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\" alt=\"Continuation of the photograph of hands shaping a clay pot\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>God the Potter is molding me.<br>\n    What kind of vessel will I be:<br>\n    To carry, to store, or for a drink?<br>\n    A lamp, or a plate, or a kitchen sink?</p>\n\n    <p>I’m a little bit shallow, I admit,<br>\n    For I’m focusing on me quite a bit.<br>\n    But here is a thought,<br>\n    I’m not the only pot.</p>\n\n    <p>About my life<br>\n    are many others,<br>\n    A husband, a daughter,<br>\n    and some brothers.</p>\n\n    <p>The Potter’s hand is on them, too,<br>\n    Making each of us, something new.<br>\n    Another pot gives me a bump,<br>\n    And now I have a little lump.</p>\n\n    <p>Into another pot I smack,<br>\n    It seems they now have a crack.<br>\n    Back to the Potter’s wheel we go,<br>\n    Until His likeness, again does show.</p>\n\n    <p>If what I do, and what I say,<br>\n    Changes the course of other’s clay,<br>\n    Then with great care, I must behave,<br>\n    Lest other’s pots become concave.</p>\n\n    <p>Useful pots are God’s desire,<br>\n    Ones that can withstand the fire.<br>\n    It’s not just me, and it’s not just you;<br>\n    God’s working with other vessels too.</p>\n  </div>\n\n  <p><em>by Elizabeth Rust</em></p>\n\n  <p><em>This poem was inspired by the Scripture passage in Jeremiah 18:1-6.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937"
+}

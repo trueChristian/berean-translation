@@ -1,0 +1,160 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Taken from the Martyrs Mirror"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "59e78031-c269-52d1-9b00-08dba0398cb4"
+    },
+    "id": "fc478caf-f09f-4596-a037-fcad3689be04",
+    "images": [
+      {
+        "alt": "Engraving of prisoners brought before a seated Roman official.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-1.jpg",
+        "repository_path": "public/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-1.jpg",
+        "rights_note": "No image-specific creator credit, licence, or separate reuse restriction is printed. Original embedded DeviceGray JPEG object 17 was converted to baseline RGB JPEG with sRGB ICC profile, nonzero 72-dpi density, and unchanged 216 × 174 source dimensions, crop, and orientation. No CMYK inversion was needed. Clean base image retained; surrounding page panels, article text, pull quotes, rules, and running furniture are not included.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 3,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG with embedded sRGB ICC profile and nonzero 72-dpi density",
+          "method": "original embedded grayscale JPEG converted to baseline sRGB JPEG",
+          "output_dimensions": [
+            216,
+            174
+          ],
+          "rotation_degrees": 0,
+          "source_object": 17
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving detail of a man holding torture implements.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-2.jpg",
+        "repository_path": "public/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-2.jpg",
+        "rights_note": "No image-specific creator credit, licence, or separate reuse restriction is printed. Original embedded DeviceGray JPEG object 27 was converted to baseline RGB JPEG with sRGB ICC profile, nonzero 72-dpi density, and unchanged 72 × 155 source dimensions, crop, and orientation. No CMYK inversion was needed. Clean base image retained; surrounding page panels, article text, pull quotes, rules, and running furniture are not included.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 6,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG with embedded sRGB ICC profile and nonzero 72-dpi density",
+          "method": "original embedded grayscale JPEG converted to baseline sRGB JPEG",
+          "output_dimensions": [
+            72,
+            155
+          ],
+          "rotation_degrees": 0,
+          "source_object": 27
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "Engraving of men surrounding a prisoner in a vaulted setting.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-3.jpg",
+        "repository_path": "public/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-3.jpg",
+        "rights_note": "No image-specific creator credit, licence, or separate reuse restriction is printed. Original embedded DeviceGray JPEG object 31 was converted to baseline RGB JPEG with sRGB ICC profile, nonzero 72-dpi density, and unchanged 108 × 202 source dimensions, crop, and orientation. No CMYK inversion was needed. Clean base image retained; surrounding page panels, article text, pull quotes, rules, and running furniture are not included.",
+        "role": "illustration",
+        "sequence": 3,
+        "source_page": 7,
+        "transformation": {
+          "color_encoding": "sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG with embedded sRGB ICC profile and nonzero 72-dpi density",
+          "method": "original embedded grayscale JPEG converted to baseline sRGB JPEG",
+          "output_dimensions": [
+            108,
+            202
+          ],
+          "rotation_degrees": 0,
+          "source_object": 31
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 14,
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        14
+      ],
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "No Compromise",
+    "topics": [
+      "13607865-d967-50a5-ae9a-024549fcf142",
+      "494add59-7a1e-504d-ab65-b626610b684d",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "67cfbedad107213dae524b5dfecef1303ea4bb601b32f40dc361ab2f9091264a",
+    "metadata_sha256": "b5ee7a0b5a2352f6c17a44b7cd1627c5fa1aafa486843f65e8f8221ef7879db9",
+    "structure_sha256": "e9c6fbeb7c8a80105876804afc815a2440e57189759ffe74434749e3aeb76160",
+    "text_sha256": "364a2cfeab10c445ac3b358cc914e52010bd19c7dd58f9325aaa555ac63f5235",
+    "translation_metadata_sha256": "e71e5e0fca852968651a6fc244989226a7a26ec7cc840a92de019fe232d09bc0"
+  },
+  "html": "<article data-article-id=\"fc478caf-f09f-4596-a037-fcad3689be04\">\n  <figure>\n    <img src=\"/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-1.jpg\" alt=\"Engraving of prisoners brought before a seated Roman official.\" />\n  </figure>\n  <p><em>This is a very graphic testimony of the power of grace and perseverance in the midst of severe torture and persecution. In the year A. D. 290, three men, Tharacus, Probus, and Andronicus, were brought to prison before the tribunal, and questioned. While being tortures on the rack, they suffered beyond measure for the name of the Lord. By faith in Jesus Christ they were dreadfully tormented, questioned and finally put to death by being thrown alive to wild beast.</em></p>\n  <p><em>All these events occurred in Tarsus, which is the birthplace of Paul. Ancient Tarsus is located in what is modern day Turkey. Through it all, these men left a remarkable witness of God’s grace. All along they focused all glory on God.</em></p>\n  <p><em>The complete story can be found on page 146 in the Martyrs Mirror. A word of caution is needed--the torture described here is very gruesome. May the Lord use these painful testimonies to crack through our modern day, pampered lives and prepare our hearts with a non compromising devotion to Him May we be ready if we are called on to witness for our Lord Jesus Christ as they were.</em></p>\n  <p>When Diocletian was Emperor, Three men, Tharacus, Probus, and Andronicus were brought by the captain Demetrius before Maximus, the President to be tried for refusing to sacrifice to their false gods.</p>\n  <p>At the First examination because he was the oldest Tharacus was brought forth first.</p>\n  <p><strong>Maximus</strong> first asked Tharacus his name.</p>\n  <p><strong>Tharacus answered,</strong> “I am a Christian.”</p>\n  <p><strong>Maximus said,</strong> “Be silent about this ungodly name, and tell me your name.”</p>\n  <p><strong>Tharacus again replied,</strong> “I am a Christian.”</p>\n  <p><strong>Maximus said to his beadles,</strong> “Break his jaws, and tell him not to answer me thus any more.”</p>\n  <p><strong>Tharacus responded,</strong> “I have told thee my best name; but if thou desirest to know how my parents called me, my name is Tharacus, and when I followed war, I was called Victor.”</p>\n  <p><strong>The President asked him,</strong> “Of what nation art thou, Tharacus?”</p>\n  <p><strong>He answered,</strong> “Of the noble nation of the Romans, and was born at Claudianopolis, a city in Syria; but being a Christian I have abandoned war.”</p>\n  <p><strong>The Proconsul said,</strong> “Thou art not worthy of the pay, but how didst thou leave the service?”</p>\n  <p><strong>Tharacus replied,</strong> “I asked Publius, our General, for permission, and he discharged me.”</p>\n  <p>Tempting him with honor <strong>The President said,</strong> “Have regard for thy age, be one of those who obey the commands of our lords—the emperors; so that thou mayest be promoted by me to great honors. Come hither, therefore, and sacrifice to our gods, for the princes themselves, who are the monarchs of the whole world, honor the gods.”</p>\n  <p><strong>Tharacus answered,</strong> “They err grossly; however, they are seduced by Satan.”</p>\n  <p><em>After this Tharacus went on to testify beyond great persecution without compromise. Following him Probus likewise was questioned and tortured. But praise to God he also withstood for the name of Christ. Following them they brought in the young man Andronicus.</em></p>\n  <p><strong>Demetrius, the Centurion,</strong> placed Andronicus before Maximus’ judgment seat, saying, “Sir, here is the third one.” <strong>The Proconsul said,</strong> “What is thy name?”</p>\n  <p><strong>Andronicus answered,</strong> “Wouldst thou openly know who I am? I am a Christian.”</p>\n  <p><strong>Maximus said,</strong> “Those who have preceded thee have gained nothing by this name; therefore thou must answer me aright.”</p>\n  <p><strong>Andronicus replied,</strong> “Men generally call me Andronicus.”</p>\n  <p><strong>Maximus</strong> asked him of what nationality he was.</p>\n  <p><strong>Andronicus answered,</strong> “Of noble blood.”</p>\n  <p><strong>Maximus said,</strong> “Spare thyself, and hearken to me, as to thy father; for those who have spoken such nonsense before thee have gained nothing by it. But honor thou the princes and the fathers, and be obedient to our gods.”</p>\n  <p><strong>Andronicus replied,</strong> “Thou didst well call them fathers; for thou art of the father, the devil, and, having become one of his children, thou doest his works.”</p>\n  <p><strong>Maximus said,</strong> “Wilt thou, a stripling, despise and mock me? Knowest thou not, what torments are ready for thee?”</p>\n  <p><strong>Andronicus said,</strong> “Dost thou think I am a fool that I should be willing to be found inferior to my predecessors, in suffering? I stand prepared to endure all thy torments.”</p>\n  <p>The Proconsul commanded that he should be stripped, ungirded, and suspended to the torture stake. <strong>Demetrius, the Captain,</strong> moved by pity, said, “Listen to me, wretched man, before thy body be racked.”</p>\n  <p><strong>Andronicus answered,</strong> “It is better that my body perish, than that thou shouldst do with my soul according to thy pleasure.”</p>\n  <p><strong>Maximus said,</strong> “Take advice, and sacrifice, before thou be tortured to death.”</p>\n  <p><strong>Andronicus replied,</strong> “Never from my youth up did I sacrifice, and do still not wish to do so, though thou constrain me.”</p>\n  <p><strong>Maximus said,</strong> “Lay on and rack him well.”</p>\n  <p><strong>Anaximus, the horn-blower,</strong> who was to execute the sentence, spoke to Andronicus, saying, “I am old enough to be thy father; I advise thee to the best: do what the Proconsul commands thee.”</p>\n  <p><strong>Andronicus replied,</strong> “Because thou art older, and hast no understanding, therefore thou advisest me to sacrifice to stones and evil spirits.</p>\n  <p>While he was being tormented, <strong>the Proconsul said,</strong> “Thou wretched man dost thou not feel any torments, seeing thou hast no compassion upon thyself, and dost not forsake thy folly, which cannot save thee?”</p>\n  <p><strong>Andronicus answered,</strong> “My sincere confession, which thou callest a vain folly, is perfectly good, as putting all hope and confidence upon the Lord our God; but thy temporal wisdom shall die forever.”</p>\n  <p><strong>The President asked,</strong> “Who is it that has taught thee this folly?”</p>\n  <p><strong>Andronicus replied,</strong> “The quickening word, by which we are quickened, teaches us that our Lord is in heaven, who works in our hearts the living hope of our blessed resurrection from the dead.”</p>\n  <p><strong>Maximus said,</strong> “Desist from this folly—before we torture thee still more severely.”</p>\n  <p><strong>Andronicus answered,</strong> “My body is before thee; thou hast full power over it; do as it pleaseth thee.”</p>\n  <p><strong>The Proconsul said,</strong> “Torture him exceedingly on the mouth.”</p>\n  <p><strong>Andronicus replied,</strong> “The Lord sees that you punish me even as a murderer.”</p>\n  <p><strong>The President said,</strong> “Dost thou still despise the commands of the princes? and thinkest thou my tribunal is without power?”</p>\n  <p><strong>Andronicus answered,</strong> “I trust in the mercy and truth of God’s promise, and therefore I suffer all this patiently.”</p>\n  <p><strong>Maximus asked,</strong> “Have, then, the princes transgressed, thou wretched man?”</p>\n  <p><strong>Andronicus replied,</strong> “Yes, according as I understand it, they have; for it is a transgression to sacrifice to idols.”</p>\n  <p>While he was being tormented, <strong>the Proconsul said,</strong> “Turn him over, and torment him on his sides.”</p>\n  <p><strong>Andronicus said,</strong> “I am before you. Torment me as you please.”</p>\n  <p><strong>The President said</strong> to the executioners, “Take potsherds, and scrape open the old wounds.”</p>\n  <p>When they had done this, Andronicus said, “You have strengthened my body by these torments.”</p>\n  <p><strong>Maximus said,</strong> “Ere long I shall exterminate thee; ere long I shall kill thee.”</p>\n  <p><strong>Andronicus answered,</strong> “I do not fear thy threats; my sentiments are better than all thy wicked thoughts.”</p>\n  <p>Then the Proconsul commanded that irons should be put on his neck and feet, and he be kept with the others until the second examination.</p>\n  <p><em>Later, a second time the three martyrs were questioned, tortured and thrown back into prison to weaken their spirits. Now the three men were examined on the rack the third time.</em></p>\n  <p><strong>The President said,</strong> “Call the ungodly Christians in.”</p>\n  <p><strong>Demetrius, the centurion,</strong> answered, “Here I am.”</p>\n  <p>When he had brought forth Tharacus, <strong>the Proconsul said,</strong> “Dost thou still despise imprisonment, bonds, punishments, and tortures? Follow my advice, O Tharacus, and abandon this confession, which profits thee nothing. Rather sacrifice to the gods, by whom all things exist.”</p>\n  <p><strong>Tharacus answered,</strong> “Woe shall come upon them. Thou thinkest that the world is governed by them; whereas they are destined for eternal fire; and not they only, but all those also who serve them.”…</p>\n  <p><strong>The President said,</strong> “Dare thou thus address me, thou accursed one, as though thou wert mine equal?”</p>\n  <p><strong>Tharacus answered,</strong> “I am not thine equal; but it is lawful for me to speak, and no one can silence me, for the sake of Him who strengthens me, namely, the Lord.”…</p>\n  <p><strong>The President said,</strong> “Thou wretched man! Desist from thy vain thoughts, and sacrifice; that thou mayest be delivered from these pangs.”</p>\n  <p><strong>Tharacus replied,</strong> “Dost thou think I am a fool or a madman, and that I, who trust in the Lord, shall not live in heaven? Thou mayest deprive me of this temporal life for a little while; but thou wilt thereby cast thine own soul into eternal damnation.”</p>\n  <p><strong>The President said</strong> to the executioners, “Put the branding irons into the fire, and brand him on his cheeks or shoulders.”</p>\n  <p><strong>Tharacus answered,</strong> “Though thou inflict many more torments than these upon me, thou shalt nevertheless not turn the servant of God to the shameful idolatry of devils, to worship them.”</p>\n  <p><strong>The President said,</strong> “Bring a razor; cut off his skin; shave his head bald, and put burning coals upon it.”</p>\n  <p><strong>Tharacus replied,</strong> “And though thou cause my whole body to be flayed, I shall still not depart from my God, who strengthens me, to endure all the weapons of your torturing.”</p>\n  <p><strong>The President said,</strong> “Get the branding irons; let them get still hotter, and apply them to all his members and joints.”</p>\n  <p>Tharacus, as he suffered this, cried out, “May the Lord look down from heaven, and judge!”</p>\n  <p><strong>The President said,</strong> “What lord dost thou call upon, thou accursed fellow?”</p>\n  <p><strong>Tharacus answered,</strong> “The Lord whom thou dost not know, and who recompenses every one according to his works.”</p>\n  <p><em>Later Tharacus was condemned to the wild beast.</em></p>\n  <p><strong>The President said</strong> to Probus, “Advise with thyself, Probus, that thou mayest not fall again into the same punishment; for others, who on thy account have persisted in their obstinacy have rued it. Sacrifice now, therefore, that thou mayest be honored by us and the gods.”</p>\n  <p><strong>Probus answered,</strong> “We are all of one mind, serving God with one heart and soul. Think not, therefore, that thou wilt hear anything different from us; for thou hast ere this heard and seen enough to convince thee, that thou canst not turn us. Here I stand before thee the third time, and do not yet regard thy threats. What dost thou wait for, then?”</p>\n  <p><strong>The President said,</strong> “Ye have conspired together to deny the gods. Bind him, and hang him up by his heels.”</p>\n  <p><strong>Probus replied,</strong> “Dost thou not yet cease to fight for Satan?”</p>\n  <p><strong>Maximus said,</strong> “Believe me, before thou be tortured; have compassion upon thine own body. See, what dreadful torments are being prepared for thee.”</p>\n  <figure>\n    <img src=\"/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-2.jpg\" alt=\"Engraving detail of a man holding torture implements.\" />\n  </figure>\n  <p><strong>Probus answered,</strong> “All that thou mayest do unto me, shall conduce to the comfort of my soul; therefore, do what thou wilt.”</p>\n  <p><strong>The President said,</strong> “Heat the branding irons red-hot, and apply them, to his sides, so that he may desist from his folly.”</p>\n  <p><strong>Probus replied,</strong> “The more foolish I appear to thee, the wiser I shall be in the law of the Lord.”</p>\n  <p><strong>The President said,</strong> “Press the branding irons on his back.”</p>\n  <p><strong>Probus answered</strong> as he was suffering, “My body is subject to thy power; but God will behold from heaven my humility and patience.”</p>\n  <p>In the meantime the President commanded that meat and wine should be brought, which had been sacrificed to the idols, saying to the executioners, “Pour wine down his throat, and take meat, and force it into his mouth.”</p>\n  <p>While they were busy doing this, <strong>Probus said,</strong> “The Lord behold from His high throne the violence ye do to me, and judge my cause.”</p>\n  <p><strong>The President said,</strong> “Thou wretched man thou hast suffered so much, and, behold thou hast thyself received the sacrifice.”</p>\n  <p><strong>Probus replied,</strong> “Ye have not accomplished much, by doing me violence. The Lord knoweth my intentions.”</p>\n  <p><strong>The President said,</strong> “Thou hast eaten and drank what was sacrificed to the gods.”</p>\n  <p><strong>Probus answered,</strong> “The Lord knoweth it, and hath seen the violence I have suffered.”</p>\n  <p><strong>The President said</strong> to the executioners, “Apply the branding irons to the calves of his legs.”</p>\n  <p><strong>Probus replied,</strong> “Neither the fire, nor the torments, nor thy father, Satan, can turn the servant of God from his confession.”</p>\n  <p><strong>The President said</strong> to his servants, “Let sharp nails be heated, and put them into his hands.”</p>\n  <p><strong>Probus answered</strong> as he suffered this, “I thank Thee, O Lord, that Thou hast made my hands worthy, to suffer for Thy name.”</p>\n  <p><strong>The President said,</strong> “The many torments have deprived thee of thy mind.”</p>\n  <p><strong>Probus replied,</strong> “The great power which thou hast, has not only made thee a fool, but also blind; for thou knowest not what thou art doing.”</p>\n  <p><strong>The President said,</strong> “Thou who hast been tormented on thy whole body excepting the eyes, darest thou speak thus to me?” “Pinch his eyes,” said he to the executioners, “that he may gradually become blind.”</p>\n  <p>When this had been done, <strong>Probus said,</strong> “Behold, thou hast also deprived me of my bodily eyes, but thou shalt never be permitted to destroy the eyes of my faith.”</p>\n  <p><strong>The President said,</strong> “Dost thou think thou wilt survive all these torments, or that thus thou shalt die happy?”</p>\n  <p><strong>Probus answered,</strong> “Fighting thus, I gradually approach the end, so that I may finish my good and perfect confession, and be put to death by you without mercy.”</p>\n  <p><strong>The President said,</strong> “Take him away, bind him, put him in prison, and let none of his companions come near him, to praise him for having continued so steadfast in his wickedness. He, too, shall be cast before the wild beasts at the next show.”</p>\n  <p><strong>Then said the President,</strong> “Let Andronicus come forth.”</p>\n  <p><strong>Demetrius, the captain, said,</strong> “He is already here,” placing him on the rack.</p>\n  <p><strong>The President said to Andronicus,</strong> “Have at least compassion on thy youth, if thou hast prudently advised with thyself to reverence the gods consent and sacrifice to the gods, that thou mayest be released.</p>\n  <figure>\n    <img src=\"/images/articles/fc478caf-f09f-4596-a037-fcad3689be04-3.jpg\" alt=\"Engraving of men surrounding a prisoner in a vaulted setting.\" />\n  </figure>\n  <p><strong>Andronicus answered,</strong> “May God never suffer thee, O tyrant, that I do aught against the law of God. Thou shalt never shake my good confession, which I have founded upon my Lord. Here I stand ready, for thee to make manifest on me thy hardness.”</p>\n  <p><strong>The President said,</strong> “Methinks, thou art raving, and possessed of the devil.”</p>\n  <p><strong>Andronicus replied,</strong> “If I had the devil in me, I should obey thee; but because I confess the Lord, I do not submit to the commands of the devil. But hast not thou the devil in thee? For being deceived by the devil thou doest the works of the devil.”</p>\n  <p><strong>The President said to the Executioners,</strong> “Make bundles of paper and put fire upon his body.”</p>\n  <p>When this was done, Andronicus said, “Though I burn from head to foot, the spirit nevertheless is alive in me. Thou shalt not conquer me; for the Lord, whom I serve is with me.”</p>\n  <p><strong>The President said,</strong> “Thou madman! How long wilt thou remain thus obstinate? Seek at least to die upon thy bed.”</p>\n  <p><strong>Andronicus answered,</strong> “As long as I live, I shall overcome thy wickedness.”</p>\n  <p><strong>The President said,</strong> “Heat the branding irons red-hot again, and put them between his fingers.”</p>\n  <p><strong>Andronicus replied,</strong> “O foolish despiser of God. Thou art full of the wicked thoughts of Satan. Seest thou not that my body is almost consumed through the manifold torments thou hast inflicted upon me. Thinkest thou that now at the last I shall begin to fear thy devices? I have Christ dwelling in my heart, and despise thy torments.”</p>\n  <p><strong>The President said,</strong> “Thou miscreant! knowest thou not that this Christ, whom thou worshipest, became man, and was punished under the judge Pontius Pilate?”</p>\n  <p><strong>Andronicus answered,</strong> “Be silent, for it is not lawful for thee to speak evil of Him.”</p>\n  <p><strong>The President said,</strong> “What gainest thou by thy faith and hope in this man whom thou callest Christ?”</p>\n  <p><strong>Andronicus replied,</strong> “I have thereby in expectation a great reward and gain; hence I endure all this so patiently.”</p>\n  <p><strong>The President said,</strong> “Break open his mouth, and take meat that has been sacrificed, from the altar, and force it into his mouth, and pour in wine also.”</p>\n  <p>Andronicus called God to witness, saying, “O Lord, my Lord, behold what violence I suffer!”</p>\n  <p><strong>The President said,</strong> “How long wilt thou thus obstinately endure the punishment? See, thou hast certainly eaten of that which has been sacrificed to the gods.”</p>\n  <p><strong>Andronicus answered,</strong> “Cursed be all who honor the idols, thou and thy princes.”</p>\n  <p><strong>The President said,</strong> “Thou miscreant, do you curse thou the princes, who have obtained for us so lasting and tranquil peace?”</p>\n  <p><strong>Andronicus replied,</strong> “They are cursed, who, as the pestilence, and as bloodhounds, turn the whole world upside down; whom the Lord by His mighty arm shall confound and destroy.”</p>\n  <p><strong>The President commanded the executioners,</strong> “Put an iron into his mouth, and with it break out all his teeth, and cut out his blasphemous tongue, that he may learn no more to blaspheme the princes. Take away his teeth, and burn his tongue to ashes, and scatter the latter all about, lest his fellow Christians, or some women, gather his remains, and keep them as precious relics. Take him away from here, and put him into prison, that at the next show he, together with his companions, Tharacus and Probus may be thrown before the wild beasts.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "99a0809af17e48a098a1cbe304148f602cac61c9decb668f4d86383295d2922d"
+}

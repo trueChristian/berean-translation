@@ -1,0 +1,172 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Dean Taylor"
+        }
+      ],
+      "raw": "by Dean Taylor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "976a7e08-e662-50b6-a13d-c787f72c7666"
+    },
+    "id": "b6fdc879-59b0-4443-9e57-5d21026bfa8e",
+    "images": [
+      {
+        "alt": "A seated woman in a long garment holds a bundle of grain.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-1.jpg",
+        "repository_path": "public/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-1.jpg",
+        "rights_note": "Clean embedded grayscale JPEG object 74; no image-specific credit or permission notice is printed. Raw image, PDF paint order and clip were checked against the page: no separately painted overlays, masks, transparency groups or composite pieces obscure the illustration. Preserved original pixels and dimensions; converted grayscale to baseline RGB JPEG at quality 95 with nonzero 72-dpi density for web compatibility; no CMYK inversion was needed. No rotation or flip. The source artwork itself includes all visible outlines and margins; no publisher overlay has been retained.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 16,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, nonzero 72 dpi",
+          "method": "native embedded JPEG, grayscale to RGB encoding",
+          "rotation_degrees": 0,
+          "source_object": 74
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A kneeling man reaches toward a standing robed figure surrounded by candlesticks.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-2.jpg",
+        "repository_path": "public/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-2.jpg",
+        "rights_note": "Clean embedded grayscale JPEG object 78; no image-specific credit or permission notice is printed. Raw image, PDF paint order and clip were checked against the page: no separately painted overlays, masks, transparency groups or composite pieces obscure the illustration. Preserved original pixels and dimensions; converted grayscale to baseline RGB JPEG at quality 95 with nonzero 72-dpi density for web compatibility; no CMYK inversion was needed. No rotation or flip. The source artwork itself includes all visible outlines and margins; no publisher overlay has been retained.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 17,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, nonzero 72 dpi",
+          "method": "native embedded JPEG, grayscale to RGB encoding",
+          "rotation_degrees": 0,
+          "source_object": 78
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A restroom sign with female and male silhouettes separated by a vertical line.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-3.jpg",
+        "repository_path": "public/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-3.jpg",
+        "rights_note": "Clean embedded grayscale JPEG object 85; no image-specific credit or permission notice is printed. Raw image, PDF paint order and clip were checked against the page: no separately painted overlays, masks, transparency groups or composite pieces obscure the illustration. Preserved original pixels and dimensions; converted grayscale to baseline RGB JPEG at quality 95 with nonzero 72-dpi density for web compatibility; no CMYK inversion was needed. No rotation or flip. The source artwork itself includes all visible outlines and margins; no publisher overlay has been retained.",
+        "role": "article illustration",
+        "sequence": 3,
+        "source_page": 19,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, nonzero 72 dpi",
+          "method": "native embedded JPEG, grayscale to RGB encoding",
+          "rotation_degrees": 0,
+          "source_object": 85
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      },
+      {
+        "alt": "A woman wears a long draped garment and a head covering.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-4.jpg",
+        "repository_path": "public/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-4.jpg",
+        "rights_note": "Clean embedded grayscale JPEG object 89; no image-specific credit or permission notice is printed. Raw image, PDF paint order and clip were checked against the page: no separately painted overlays, masks, transparency groups or composite pieces obscure the illustration. Preserved original pixels and dimensions; converted grayscale to baseline RGB JPEG at quality 95 with nonzero 72-dpi density for web compatibility; no CMYK inversion was needed. No rotation or flip. The source artwork itself includes all visible outlines and margins; no publisher overlay has been retained.",
+        "role": "article illustration",
+        "sequence": 4,
+        "source_page": 20,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "flip": null,
+          "jpeg_encoding": "baseline RGB JPEG, nonzero 72 dpi",
+          "method": "native embedded JPEG, grayscale to RGB encoding",
+          "rotation_degrees": 0,
+          "source_object": 89
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas), complete decode, paint and pixel readback passed; visually compared with source",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "container": "baseline RGB JPEG with nonzero density; full strict decoding passed without warnings",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "The Beauty of Holiness",
+    "topics": [
+      "3b69fdad-e957-5e8b-a946-db683c653271",
+      "8b345ddb-8046-5651-b04f-924af67af18b"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6c032a16c75941f75e23a28255087bd044b94107ede844703d0b3d102758c3da",
+    "metadata_sha256": "4a338ef5d4a17fab1367f4683d33064a406dad31eb6baefd22fb1e8211512429",
+    "structure_sha256": "16c36c54007c7fa84896ac15b6ab216238044638a1d21c00bc0cd21c2d4ea684",
+    "text_sha256": "a24fafa59a5d72b8a044337f1a4b525135024306a64f646c978fe5668fdfe4e4",
+    "translation_metadata_sha256": "3ac8e86a05d512a689e363cdecf46924469b183e0216f2a55cab646dce184439"
+  },
+  "html": "<article data-article-id=\"b6fdc879-59b0-4443-9e57-5d21026bfa8e\">\n  <figure><img src=\"/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-1.jpg\" alt=\"A seated woman in a long garment holds a bundle of grain.\"></figure>\n  <p><em>What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? (I Cor. 6:19)</em></p>\n  <p>There are few areas in the Christian walk that cause more debate and conflict than the biblical teaching concerning Christian dress. It seems as soon as the issue is even hinted at, walls immediately raise and images of Pharisees with long phylacteries, tasseled robes and furrowed brows quickly come to mind. While this is very unfortunate it is not completely without reason.</p>\n  <p>The sin of hypocrisy is exemplified by the act of looking righteous on the outside while the inside remains corrupt and wicked. This is a real threat, and we who believe in dressing modestly must not ignore it. The scripture plainly states, <em>“for man looketh on the outward appearance, but the LORD looketh on the heart.” (I Sam. 16:7)</em> We cannot fool God with outer appearance while the inside remains wicked.</p>\n  <p>On the other hand, dressing immodestly and worldly doesn’t make us spiritual either. While it is possible to dress righteously on the outside but still be wicked on the inside, it is impossible to purposely dress wickedly on the outside and remain pure and holy on the inside. Our outward appearance, while certainly not making us righteous before God, does in fact reveal what is in our heart.</p>\n  <p>The same could be said of our speech. We can have a lofty spiritual vocabulary full of spiritual lingo with no real change in our heart. Such religious boasting is also called hypocrisy. We may <em>feel</em> and even <em>appear</em> righteous, but if our lips are full of wrath, profanity, slandering and blasphemies, it becomes obvious what is really in our heart. As Jesus said, <em>“for out of the abundance of the heart the mouth speaketh.” (Matt. 12:24)</em> God desires holiness inside and out. Not on the outside only—but not on the inside only either. As Peter exhorted: <em>“As obedient children, not fashioning yourselves according to the former lusts in your ignorance: But as he which hath called you is holy, so be ye holy in all manner of conversation; Because it is written, Be ye holy; for I am holy.” (I Pet. 1:14-16)</em></p>\n  <p>Unfortunately, just as Israel slipped time and time again when it started to mingle with the world, the same could be said of the Church today. By allowing the world’s values, fashions, and moral standards to replace the clear word of God, the Church has lost ground to the enemy and in essence, is committing adultery with the world and trading the sacred for the profane. There is great deception in the church today concerning almost every area of life and the area of Christian dress is certainly no exception. Traditions of men, culture and even church standards should all be examined by the light of God’s Word. After all, what matters most is what <em>God</em> wants and how <em>He</em> desires us to be.</p>\n  <h2>How Would God Dress Me?</h2>\n  <p>By reading the book of Revelation we are permitted to snatch a few sacred glimpses of a place where the world and the devil have no influence. It is of this holy place that we are instructed in God’s Word to regularly petition God for its replication here on earth. We pray, <em>“Thy will be done, on earth as it is in heaven,”</em> but I wonder sometimes…do we really mean this? The worship, adoration, prayers, and entire purpose in this holy place are without a question existing for no other reason than to give glory to God.</p>\n  <p>It is in this heavenly atmosphere that we see Jesus receiving His expectant bride… <em>“not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish.”</em> When He receives us in this place the Bible tells us that He will house us, feed us and yes, even clothe us there as well.</p>\n  <p>In reference to the martyrs it says, <em>“And white robes were given unto every one of them.” (Rev. 6:11)</em> Of the great multitude of believers that John witnessed it is said, <em>“After this I beheld, and, lo, a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, stood before the throne, and before the Lamb, clothed with white robes, and palms in their hands;” (Rev 7:9)</em> Jesus Himself is described here wearing a modest garment that covers all the way to his feet, <em>“one like unto the Son of man, clothed with a garment down to the foot.” (Rev. 1:13)</em></p>\n  <figure><img src=\"/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-2.jpg\" alt=\"A kneeling man reaches toward a standing robed figure surrounded by candlesticks.\"></figure>\n  <p>The word <em>“robe,”</em> as it appears here in Revelation, is also found many other places in scripture. It is translated from the Greek word <em>“stole.”</em> This was a loose outer garment, usually extending to the feet, worn by kings, priests, and persons of rank. It is the same article of clothing that Jesus describes the prodigal’s father calling for at his son’s conversion saying, <em>“But the father said to his servants, Bring forth the best robe, and put it on him…” (Luke 15:22)</em> It is a beautiful prospect to think of our heavenly father running to us and clothing us, not only with the righteousness of His Son, but even providing food, clothes and a dwelling place as we live with Him there in our glorified bodies.</p>\n  <p>Agreeably, much of Revelation was written in metaphors and allegory. However, I believe that little snapshots like the final gaze of Stephen the martyr, the ascension of the resurrected Christ, the visions of John, and others like these are given to us to give us a glimpse of what heaven is going to be like. Nevertheless, because of the allegorical nature of this book, other parts of God’s Word should be examined as well. More than just a heavenly expectation, God has shown us His will for how He wants us to dress right now while here on the earth.</p>\n  <h2>What Does God Call Immodesty and Nakedness?</h2>\n  <p>Often discussions about modest dress miss a very important point. When discussing modest dress, the object of concern is not necessarily the clothes themselves, but the nakedness that they are intended to cover up. If we focus on our clothes only we can make the mistake of walking around conservatively dressed and still be exposing ourselves to a flood of nakedness in our homes through magazines, newspapers, catalogs or worse. Until we understand what God calls nakedness, and that He considers it sin to look at it, we are somewhat missing the point.</p>\n  <p>God’s teaching on modesty and nakedness started right back in the Garden of Eden. When Adam and Eve first became conscious of their nakedness they created a garment that they thought would be sufficient to cover themselves, <em>“And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.”</em> Like many today in their attitudes toward modern day fashions and swimwear, Adam and Eve felt that as long as their reproductive organs were covered, they would be acceptable to God. However, God did not consider this a proper covering and so He completed their coverings Himself, <em>“Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.”</em> The word <em>“coats”</em> used here is from the Hebrew word, <em>‘ketho’neth,”</em> which can be translated tunic or coat. Even though they had made their own aprons, it is only after God gave them their leather tunics that the Bible says that God had <em>“clothed them.” (Gen. 3:7,21)</em></p>\n  <p>Another graphic example of God’s heart toward the sin of nakedness is the incident with Noah’s sons. After the flood, Noah had begun to grow vineyards and make wine. On one occasion, Noah became drunk and fell asleep naked on his bed. His son Ham saw his father there and instead of covering him up, he ran and broadcasted the scene to the rest of his family. His other brothers, on the other hand, understood the shame of this and literally went out of their way to conceal their father’s nakedness. Note Ham’s insolence contrasted with his brother’s careful respect, <em>“And Ham, the father of Canaan, saw the nakedness of his father, and told his two brethren without. And Shem and Japheth took a garment, and laid it upon both their shoulders, and went backward, and covered the nakedness of their father; and their faces were backward, and they saw not their father’s nakedness.”</em> Ham and his descendants, the Canaanites, became cursed by this incident and later became an enemy of Israel. Considering this in light of the flagrant disregard for modesty in our day can be frightening. What the world calls liberating, practical or even funny is a travesty to God and His Word.</p>\n  <p>Still another sobering example of what God calls nakedness is found in His judgment on Babylon. In His prophesy He portrays Babylon as a woman being stripped and shamed. He cries, <em>“Thy nakedness shall be uncovered, yea, thy shame shall be seen: I will take vengeance, and I will not meet thee as a man.”</em> What is notable about this prophesy is what God is calling nakedness. He states <em>“…uncover thy locks, make bare the leg, uncover the thigh.” (Isa. 47:1-5)</em> The woman described here is being shamed by having her head uncovered and her legs showing all the way up to her thighs. Again, what our modern age would consider acceptable attire, God calls shameful. God hasn’t changed, but our society certainly has.</p>\n  <figure><img src=\"/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-3.jpg\" alt=\"A restroom sign with female and male silhouettes separated by a vertical line.\"></figure>\n  <h2>What Does the Bible Specifically Say About Our Clothing?</h2>\n  <p><em>Deuteronomy 22: 5</em> states, <em>“The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman’s garment: for all that do so are abomination unto the LORD thy God.”</em> Throughout the Law, God speaks of many things as <em>sin.</em> However, to reveal an even stronger vehemence for a few of the most heinous crimes, such as homosexuality and bestiality, He reserved the word <em>“abomination.”</em> The practice of unisex clothing styles and cross dressing are specifically mentioned as one of these <em>“abominations.”</em> The effeminate styles of the modern man and the every-increasing masculinity of the contemporary woman find no defense in the Word of God.</p>\n  <p>Although the subtleties of this unisex corruption can be seen creeping into all areas of our attire, nowhere is it more observable than in the area of women’s dress. Throughout all ages, spanning over 6,000 years of human history, women of most all civilized nationalities have traditionally worn dresses. It has only been in the last 100 years that this general practice has even been challenged. Even today, in spite of the world’s efforts to remove this timeless icon, public restrooms around the world still portray the universal symbol of the woman wearing a dress and the man wearing pants.</p>\n  <p>Some have reasoned that in biblical times there was not such a distinction between men’s and women’s dress. The commandment itself should prove otherwise, nevertheless, a careful reading through the Bible reveals clear distinctions. While it is true that in biblical times both men and women wore a loose fitting outer garment, the men’s outer garment did differ in that it was more suited for work. Furthermore, the men were instructed to wear pants under this garment. These pants were called <em>“breeches”</em> in the KJV. <em>(Exodus 28:42 and 39:28, Leviticus 6:10 and 16:4, Judges 5:17)</em> In the middle ages, they came to be known as <em>“braies.”</em> When doing work, the men could reach around and tuck their outer garment into their belt. Combined in this way with the breeches, the robe formed a loose trouser. This would have been known in Bible times as <em>“girding up the loins.”</em> Nowhere in scripture are there any instructions for the women to wear these <em>“breeches.”</em> It should be noted that even secular historians agree that these breeches were worn by the men only and not the women right up through the Middle Ages.</p>\n  <h2>Even More Light in the New Testament</h2>\n  <p>Like many other New Testament teachings, the teaching on modest dress was built upon Old Testament principles with further explanation and guidelines given in the New Testament. For example, when speaking on the husband and wife relationship in the home, Peter broadens the picture by including details concerning dress. He states, <em>“Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands.” (1 Peter 3:3-5)</em></p>\n  <p>I’m not sure how it could be stated any more clearly than his words, <em>“let it not be the outward adorning,”</em> or his prohibition against plaited hair and the wearing of gold. Nevertheless, today millions of Bible-believing Christians have excused this passage as merely a cultural reliquary of times gone by.</p>\n  <p>Paul gives perhaps the clearest teachings on modest dress in the Bible in his letter to Timothy. In this passage very specific words are used which give us reliable guidelines to know how God wants us to dress. Rightly dividing this passage and looking at each word with its Greek meaning is very enlightening. The passage reads: “<em>In like manner also, that women adorn themselves in <strong>modest apparel</strong>, with <strong>shamefacedness</strong> and <strong>sobriety</strong>; not with <strong>broided hair</strong>, or <strong>gold</strong>, or <strong>pearls</strong>, or <strong>costly array</strong>; But (which becometh women professing godliness) with good works.” (I Tim 2:9-10)</em></p>\n  <h2>A Look at the Key Words of I Timothy 2:9-10</h2>\n  <h3>1. Adorn and Modest</h3>\n  <p>The Greek words used here are very similar in meaning: <em>“Kosmeo”</em> and <em>“Kosmios.”</em> These words both portray the idea of putting things in order, or of being orderly, to arrange, to make ready or to prepare. The use of these words speaks against sloppy, uncoordinated clothing. Often many of us, when we first become convicted about worldly clothing, react by rejecting the worldly styles and looking as sloppy as we can. Un-tucked shirts, tattered pants and unkempt hair can sometimes make us feel like we are standing up against the fashions of the world. However, these words help us to keep a balance of maintaining modesty without being sloppy.</p>\n  <h3>2. Apparel</h3>\n  <p>The Greek word translated here for <em>“apparel”</em> is a very specific word: <em>“katastole.”</em> This word literally broken down is two words, <em>“kata,”</em> meaning “down,” and <em>“stello,”</em> meaning “to send.” Used together in this context, the word was used for a garment that was known to be <em>“flowing down.”</em> In ancient Greece the <em>“katastole”</em> was a free flowing dress worn over a stole providing two layers to conceal the form of the body. This word designated a specific style of dress worn in that day. The well-known 19th century Bible commentator, Adam Clark, explained that in ancient Greece some of the women wore their clothes in such a way that the dress would be open at the bottom so as to reveal their legs. This style was termed <em>“fainomhridev,”</em> or “discoverers of the thigh.” The <em>“katastole”</em> type of dress mentioned here would have reprimanded this style of dress. Clark further commented on the <em>“katastole”</em> style saying, <em>“A more modest and becoming dress than the Grecian was never invented; it was, in a great measure, revived in England about the year 1805, and in it, simplicity, decency, and elegance were united; but it soon gave place to another mode, in which frippery and nonsense once more prevailed.”</em> Today the cape dress and some of the jumper style dresses provide this type of double layer and free flowing form that is similar to this <em>“katastole”</em> style.</p>\n  <figure><img src=\"/images/articles/b6fdc879-59b0-4443-9e57-5d21026bfa8e-4.jpg\" alt=\"A woman wears a long draped garment and a head covering.\"></figure>\n  <h3>3. Shamefacedness</h3>\n  <p>Shamefacedness is translated from the Greek word <em>“aidos.”</em> This lost word portrays a sense of shame or honor, modesty, bashfulness, reverence, regard for others, and respect. In Paul’s day, the <em>“katastole”</em> style was occasionally adopted by the rich and embroidered with gold or put into flashy colors and patterns. So with this word he warned them against such deceptive and ostentatious abuse. Just like in Bible days, today it is not hard to see that sometimes even the “plain” dresses can get pretty fancy. The word <em>“shamefacedness”</em> certainly doesn’t fit most of the images, styles or attitudes sported in our world today. Therefore, this word alone could serve as a good gauge for us as Christians, as we seek to choose God-honoring clothing.</p>\n  <h3>4. Sobriety</h3>\n  <p>Sobriety is another challenging word coming from the Greek word <em>“sophrosune.”</em> It means soundness of mind, self-control, sobriety. Vine’s Bible dictionary states that, <em>“It is that habitual inner self-government, with its constant rein on all the passions and desires, which would hinder the temptation to these from arising.”</em> This attribute is not an esteemed virtue in today’s world. However, it is called for many times throughout the pages of the New Testament. It is a quality that the Lord expects each one of us to grow in. In Titus 2:4, the older women are instructed to <em>“Teach the young women to be sober (sophrosune).”</em></p>\n  <h3>5. Broided and Plaited Hair</h3>\n  <p>Broided hair, mentioned in I Timothy 2:9-10, and plaiting of the hair, as mentioned in I Peter 3, come from the Greek words <em>“plegma”</em> and <em>“emploke.”</em> Both of them portray the image of hair with interweaving, braiding, or gathering of one’s hair into knots, like a basket or net. Simply put, Paul is speaking against elaborate, showy hair styles. To the Corinthian church Paul further explains that the hair of the women should be long and that the men’s hair should be short. He said, <em>“Doth not even nature itself teach you, that, if a man have long hair, it is a shame unto him? But if a woman have long hair, it is a glory to her.”</em> Moreover, he also teaches in this passage that the women’s head should be covered. <em>“But every woman that prayeth or prophesieth with her head uncovered dishonoureth her head.” (I Cor. 11:1-15)</em></p>\n  <h3>6. Gold, Pearls, and Costly Array</h3>\n  <p>It would seem that these words would need no further explanation. Nevertheless, this scripture appears to be all but forgotten in the majority of the church today. The words mean in Greek simply what they do in English. Therefore, the wearing of gold and pearls as jewelry, or wearing expensive looking clothing is simply against the Word of God. Menno Simons spoke on this issue strongly saying, <em>“They say they believe, and yet there are no bounds to their foolish pomp, show of silks, costly clothes, gold rings, chains, silver belts, pins, and such like foolish finery. Peter and Paul have in plain words forbidden this to all Christian women. And if this is forbidden to women, how much more than should men abstain from it, who are leaders and heads of their women.”</em></p>\n  <h2>Yes…What About the Men?</h2>\n  <p>Although most of these prohibitions are aimed specifically at women, it would be presumptuous to think that God is not equally concerned with how men dress. The concern for wearing a two layer garment by the women was equally shared by the men in Bible days. The very idea of being clothed only in a one-layered robe was considered a type of nakedness, as with Peter in <em>John 21:7, “Now when Simon Peter heard that it was the Lord, he girt his fisher’s coat unto him, (for he was naked,) and did cast himself into the sea.</em> The Old Testament instruction for the men to wear breeches is another example of extra covering. <em>Exodus 28:42</em> states, <em>“And thou shalt make them linen breeches to cover their nakedness; from the loins even unto the thighs they shall reach.”</em> It is disappointing to see men walking around sporting their tight blue jeans and tee-shirts, while their wives and daughters are dressing in two-layered, modest, long-flowing dresses with head coverings. This is a poor testimony to the world when they observe these obvious inconsistencies.</p>\n  <p>In conclusion, the intention of laying out these laws and teachings on modest dress is not to add a burden or bring condemnation to anyone. With Paul we <em>“conclude that a man is justified by faith without the deeds of the law.”</em> Yet, in pressing on in sanctification, with Paul we also go on to ask, <em>“Do we then make void the law through faith? God forbid: yea, we establish the law.” (Rom. 3:28 &amp; 31)</em> Through <em>grace</em> God works His law and desires out in our lives, and when this happens it is a beautiful thing! Such teachings should not be grudged. Just as a bride with a twinkle in her eye rejoices to find ways to please her new husband, so we, as the bride of Christ rejoice to find ways to please our heavenly groom. Let us <em>in all manner of conversation,</em> long with our whole being <em>to present our bodies a living sacrifice holy and acceptable to him</em> and with utmost purity rejoice to <em>worship the Lord in the beauty of Holiness.</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "78d6b97f1af4e0d41431665ef4ca3bdfe8de9791eca2fa24ab5b90f6d36af8e7"
+}

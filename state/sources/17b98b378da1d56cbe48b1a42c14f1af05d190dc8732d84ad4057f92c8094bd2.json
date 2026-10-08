@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "bf1a2989-ee6f-40da-9a63-2de725622099",
+    "images": [
+      {
+        "alt": "Two imprisoned men praying toward a barred window",
+        "caption": "1ST CENTURY WORSHIP",
+        "credit": null,
+        "public_path": "/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-1.jpg",
+        "repository_path": "public/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-1.jpg",
+        "rights_note": "Original embedded image object 27 from printed page 7; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Separate publisher caption banner, border, and page background omitted; source illustration pixels retained. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 7
+      },
+      {
+        "alt": "Musicians performing with guitars, drums, amplifiers, and stage lights",
+        "caption": "21ST CENTURY WORSHIP",
+        "credit": null,
+        "public_path": "/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-2.jpg",
+        "repository_path": "public/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-2.jpg",
+        "rights_note": "Original embedded image object 28 from printed page 7; no individual creator credit or separate reuse restriction is printed. Decoded source grayscale raster and normalized to baseline RGB JPEG with 96 dpi density; no CMYK conversion or sample inversion needed. Separate publisher caption banner, border, and page background omitted; source illustration pixels retained. The masthead states “Some images © 2001-2003” and “www.arttoday.com” without mapping that credit to individual assets; no individual source or license is inferred.",
+        "role": "illustration",
+        "sequence": 2,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 2,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "Worship As It Is in Heaven",
+    "topics": [
+      "95eff650-0776-5994-8697-9cbbf2f83c73",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "8ca1177c5af2c3653510e7f751482dc876f5d6a84141d83270f555a52c093ae2",
+    "metadata_sha256": "3852c7265a14f7905b8ca7375019a438c18c67ad77a5a3a428cdfa1d8ff70926",
+    "structure_sha256": "c3351f839bc5e87be73dd829a617bf1e4a1e81ce4906e88efbc3d55157d77fc0",
+    "text_sha256": "7b3c897a5368b87318628803b7da0bda95698285b02628cfbae6d9349ff9ca01",
+    "translation_metadata_sha256": "db20255eb6e0bbf1bb5bc22de4fa7589c74e42091cc268b227d34da683cd607e"
+  },
+  "html": "<article data-article-id=\"bf1a2989-ee6f-40da-9a63-2de725622099\">\n  <blockquote>\n    <p><em>“Thy kingdom come.<br>Thy will be done<br>in earth,<br>as it is in heaven.”<br>Matthew 6:10</em></p>\n  </blockquote>\n  <figure>\n    <img src=\"/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-1.jpg\" alt=\"Two imprisoned men praying toward a barred window\">\n    <figcaption>1<sup>ST</sup> CENTURY WORSHIP</figcaption>\n  </figure>\n  <p>I’m sure you will all agree that there are one thousand words in these two pictures. They need no explanation; however, I would like to make just a few comments as we consider how far the church in America has fallen.</p>\n  <p>It is very clear from reading in Acts, as well as in other writings, that the early church was filled with awe in the presence of God. The picture of Paul and Silas is just one example of this. With reverent humility, they worshiped God and joined in with those in the heavenlies.</p>\n  <p>How different things are now in this 21<sup>st</sup> century! No one cries. No one is broken in the presence of the living God. Today worship has taken on a Hollywood air that would make Paul and Silas weep. The atmosphere is charged with emotions and loud music, while proud-faced musicians scream sanctified words to unsanctified music. Lord, send revival to America, and let it start with me.</p>\n  <figure>\n    <img src=\"/images/articles/bf1a2989-ee6f-40da-9a63-2de725622099-2.jpg\" alt=\"Musicians performing with guitars, drums, amplifiers, and stage lights\">\n    <figcaption>21<sup>ST</sup> CENTURY WORSHIP</figcaption>\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "7452f92980c34599e508ca6d5b130fbcfe524e24e33bb76a1e04c572381ac5af"
+}

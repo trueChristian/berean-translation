@@ -1,0 +1,101 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Tilbury, Ontario",
+          "name": "Melodie Klassen"
+        }
+      ],
+      "raw": "Melodie Klassen\nTilbury, Ontario"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+    "images": [
+      {
+        "alt": "Three boys seated on a bench with a baby.",
+        "caption": null,
+        "credit": "© Brimming Focus Photography",
+        "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg",
+        "repository_path": "public/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg",
+        "rights_note": "Source is the single flattened full-page RGB DCT image object 82; page image paint order, clipping, masks, transparency and object graph were inspected. No clean underlying photo object exists, and all page typography is baked into the raster; the extra OCR text is invisible (/ca 0). No generation, inpainting, healing, cloning or colour reconstruction was used. The page-2 credit is preserved without inferring a licence or separate permission. An unobstructed crop excludes the section label in the far-left background while preserving all four children. The title and article below are excluded. The trimmed left area contains only unused bench/background; no person is removed. Final encoded image was opened and visually checked at full useful resolution for corruption, clipping, orientation, colour and overlay remnants.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 18,
+        "transformation": {
+          "color_encoding": "RGB/sRGB",
+          "crop_pixels": [
+            333,
+            3,
+            1696,
+            847
+          ],
+          "flip": null,
+          "method": "Native source RGB JPEG cropped; vertical-only Lanczos resampling restores the PDF placement aspect ratio (612 x 792 points), retaining native horizontal pixels. Encoded with original PDF sRGB IEC61966-2.1 profile and nonzero 96 dpi density as lossless PNG for the score, baseline JPEG for photographs.",
+          "native_crop_dimensions": [
+            1363,
+            844
+          ],
+          "output_dimensions": [
+            1363,
+            820
+          ],
+          "rotation_degrees": 0,
+          "source_dimensions": [
+            1696,
+            2258
+          ],
+          "source_object": 82,
+          "vertical_scale_to_published_aspect": 0.9720210493409055
+        },
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas (@napi-rs/canvas): final file fully decoded, painted and read back; rendered output visually compared against raw source and PDF page, including centre, edges and corners.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow",
+            "FFmpeg"
+          ],
+          "independent_image_review": "A second AI reader opened and visually compared the final encoded repository image with its source raster and PDF page; composition, crop, colour, orientation, published aspect ratio and documented unavoidable overlays passed. Full raster decoding also passed.",
+          "overlay_audit": "verified_by_ai",
+          "visual_against_pdf": "verified_by_ai"
+        }
+      }
+    ],
+    "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "A Mother’s Worship",
+    "topics": [
+      "4f9300ad-a83d-56c6-8aeb-2907c08f2c04",
+      "95eff650-0776-5994-8697-9cbbf2f83c73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "e5b40e8fb2d32e949a031827ce693bef6d0714ca76b74d98a9c0dc4d9b5fd951",
+    "metadata_sha256": "d8293c3392a04f8b1d25dda7aa8e020605b1996a350cb04284124391828168fb",
+    "structure_sha256": "aa1f6cfa469070e32128f98b1f164a76220927980fdc1cc387fd64aacf2ea118",
+    "text_sha256": "318554a73bef31547ca915332080f0d94abb5b3587dd3e4f52af2ad305b4e274",
+    "translation_metadata_sha256": "01c26b2c2b7ec6c7865eb37ec9384f14575c5856dfb4d24a500652c0908e4e56"
+  },
+  "html": "<article data-article-id=\"46f89299-c0a0-407c-9898-01a0c150c453\">\n  <figure>\n    <img src=\"/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg\" alt=\"Three boys seated on a bench with a baby.\">\n  </figure>\n  <blockquote><p><em>“To worship is to quicken the conscience by the holiness of God, to feed the mind with the truth of God, to purge the imagination by the beauty of God, to open the heart to the love of God, and to devote the will to the purpose of God.” -William Temple</em></p></blockquote>\n  <p>The first part of our church service we call “worship”. We sing and harmonize and think of the words of the old hymns, packed with truth from the Word of God. Our minds swell with awe at the God of grace, the great Creator, the eternal Father. We are also encouraged to worship God daily in our personal lives, taking the first part of our day to read the Bible, pray, and meditate on God, the One who commanded and promised with so much love.</p>\n  <p>But since I became a mother, these times of worship do not look like this. Church services become a time of struggling with my baby to make sure his wails do not disturb other worshippers. If I do manage to get him quiet and perchance know the words of the song by memory, I can join the singing. Yet, in the bits of time I can at least do that, my mind is not really free to meditate and worship as I feel like I should. Just when I start feeling awed by a particular phrase or thought, I must again scurry to the mother’s room before the crying destroys the harmony.</p>\n  <p>My personal quiet time doesn’t look much different. As I sit down to read or pray, my baby wakes up from his too short nap, or I remember that I still haven’t taken meat out of the freezer for supper, or I smell a dirty diaper needing to be changed, or see the piles of laundry and crumbs liberally sprinkling the floor. I try to discipline my thoughts for just a few minutes. God deserves that at least! But can that be acceptable worship? How does God feel about mothers worshipping Him? Does He understand the busy, interrupted life that I live?</p>\n  <p>Maybe I don’t understand worship. I have pictures in my mind of what I should be doing to worship God, but is it really a lot simpler than I think? Worship is a heart attitude. Jesus said we must worship Him in spirit and in truth. The spirit of worship lifts God up in my heart. It takes Him by faith as the One who is Sovereign and allows Him to be in control. Worship must be genuine. God sees everything, so we cannot put on a form of worship and expect it to be acceptable to Him.</p>\n  <p>We certainly can worship God in church services and personal devotions. I have found this to be a wonderful way to get myself into a position of worship. But that alone is not worship. True worship is a heart posture of humility and gratitude before a holy God and results in obedient service.</p>\n  <p>Mary seems to have caught that heart of true worship. She sat at Jesus’s feet, oblivious to the cares of life, and listened to His words of truth. She knew Jesus loved her, and she lifted Him up as King in her heart. When Jesus came after her brother Lazarus had died, she shared her feelings with Him, then lay at His feet in submission to whatever He would do. Even in her grief, she saw Jesus as being holy and right, whether or not what He did was good in her eyes. Later, in a dramatic and beautiful act of worship, she anointed Him. The humiliation of coming into a room crowded with men, unveiling the glory of her hair, and kneeling before the feet of Jesus as the lowliest of servants was not too much for her great love. A year’s wages was not too great a price to bring a beautiful, sweet-smelling gift to Jesus. Her Creator never condemned her unorthodox ways of communicating love and gratitude. He blessed her for sitting at His feet instead of working with her sister Martha. He didn’t rebuke her questions after Lazarus died. And He accepted her exorbitant present as beautiful worship, saying it prepared His body for burial. Can I cultivate this heart of love, adoration, and obedience throughout my interrupted days?</p>\n  <p>One day, I am going about my daily chores. I run warm water and lift my baby into it, letting him splash and play. As I cradle his head in my hands and massage shampoo into his hair, I suddenly see a picture of Mary in the tomb, wanting to cradle Jesus’s head in her hands. Her worshipful heart longed to anoint his head with the sweet-smelling spices she had brought. I wonder, what if I held the head of Jesus? What if I could worship Him in that practical way? Would that make me swell in love and adoration and thank him more deeply for his forgiveness and love for me? Then it strikes me, what if I were to bathe my dear baby as if he were Christ? Would God consider that worship?</p>\n  <p>So often, in my wishing to truly worship God in the way I think is right, I resent the things He sends to prove my obedience and forget that He sees obedience as the highest form of worship. He wants my heart to be in my service. He has given me the highest form of service imaginable, a completely dependent, needy child. If I don’t feed, clothe, and clean him, he will die.</p>\n  <p>Yet, I can care for him and still not worship. I can chafe and fuss against my hard lot in life. I can be discontent and pity myself. I can cry at night, wishing for my cozy pillow, while pacing the cold floor in my bare feet with my sick baby in my arms. I can bemoan my monotonous life, repetitively changing diapers, cooking supper, and wiping up the floor again and again. I can think others worship God in better ways, like on the mission field, preaching, ministering to hurting souls, and pointing them to Jesus. Others have more time to pray, study the Bible, and pursue creative ministries for the kingdom of God.</p>\n  <p>Selfishness. That is my sin when I have these attitudes. Selfishness steals worship. I am lifting myself and my supposed rights in my attitudes, and therefore, God is not being lifted. When I see this heart and repent of it, I am once more in the sanctuary of Almighty God. And then I can count it a privilege to show God my love by doing homely things. Then everything becomes worship.</p>\n  <p>At the end of the world, the King will say to those on his right hand, “Come, ye blessed of my Father.” Why? Because when He was hungry, they fed him. When He was thirsty, they gave him a drink. When He was a stranger, they invited him in. When He was naked, they clothed him. When He was sick and in prison, they visited him. They tell the King that they don’t remember doing any of that for him. Then He gives these astonishing words, “Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”</p>\n  <p>What if our children are “the least of these”? When they are hungry, we spoon-feed them each bite and wipe their dirty faces afterwards. When they are thirsty, we find all the pieces for the sippy cups and fill them with fresh water, or give them the milk made in our own bodies. We open our wombs, arms, and families for new, strange infants whom we have never seen or met before. We change their diapers and bathe them and pull warm shirts over their heads and slide socks onto their chubby feet. We give them medicine and rub them with salve when they are sick. We wash and put band aids on their cuts. We rock and comfort them, wiping their tears. We would never think of doing these things for a King, much less the Almighty God. But God says, when you do it to the least of these, you do it to Me. He accepts that kind of worship! If my heart is to do these mundane things for Him, He is lifted up and honored.</p>\n  <p>I long to truly worship God. And I can choose to quicken my conscience by quieting my heart and listening for His voice, even in the chaos and noise of daily life. I can choose to sit at His feet and feed on His truth, even if it is by listening to the audio Bible while I do dishes or by reading a chapter while I nurse the baby. I can choose to purge my imagination by observing God’s beauty in the fluffy clouds in the blue sky, or create a colorful meal for my family and thank God for the beauty of the blessings all around me. I can choose to open my heart to God’s love by realizing that my love for my child, which nearly bursts my heart, is puny compared to God’s incomprehensible Father-love and goodwill towards me. And most of all, I can worship by choosing to devote my will to His purpose, and I know His purpose for me right now is to be content, giving my life for my home and family. My heart is touched when I remember that God chooses to accept that worship.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27"
+}

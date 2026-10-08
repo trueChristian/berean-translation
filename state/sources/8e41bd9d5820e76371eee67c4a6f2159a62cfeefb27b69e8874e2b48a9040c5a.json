@@ -1,0 +1,54 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Author unknown",
+          "role": null
+        }
+      ],
+      "raw": "~Author unknown"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "8bdd92d0-1f0d-4965-a59b-a23edab884e5",
+    "images": [],
+    "issue_id": "741bac3b-c01c-483d-8837-db76602fbe4f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Untried Faith",
+    "topics": [
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "7cbeb8b9-7135-5056-a214-12c171f77b8e",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6fbbc067e6ac680b56ea2e83d4455e180c2ff433edce0ced9fe5c9dfd7322c04",
+    "metadata_sha256": "31dde7c8d857507a7218a1396c129e483cf2b01e8a9f6231eb6abe94dba3acb6",
+    "structure_sha256": "42d3c25c19bdd912d7b753d8f82d30c34c1b7ce19bed710d670725ac1d397a74",
+    "text_sha256": "00e47a3e26527bf3f71ce414ecaedbc50f87ea719f55fe235af469c896d1231a",
+    "translation_metadata_sha256": "9d62207db2a9857346b4e114aa8d317d8e7a2ae083992090f1489f3b05e0b581"
+  },
+  "html": "<article data-article-id=\"8bdd92d0-1f0d-4965-a59b-a23edab884e5\">\n  <p class=\"lead drop-cap\">Faith untried may be true faith, but it is sure to be little faith, and it is likely to remain dwarfish so long as it is without trials. Faith never prospers so well as when all things are against her: tempests are her trainers, and lightnings are her illuminators. When a calm reigns on the sea, spread the sails as you will, the ship moves not to its harbor; for on a slumbering ocean the keel sleeps too. Let the winds rush howling forth, and let the waters lift up themselves, then, though the vessel may rock, and her deck may be washed with waves, and her mast may creak under the pressure of the full and swelling sail, it is then that she makes headway towards her desired haven.</p>\n\n  <p>No flowers wear so lovely a blue as those which grow at the foot of the frozen glacier; no stars gleam so brightly as those which glisten in the polar sky; no water tastes so sweet as that which springs amid the desert sand; and no faith is so precious as that which lives and triumphs in adversity. Tried faith brings experience. You could not have believed your own weakness had you not been compelled to pass through the rivers; and you would never have known God’s strength had you not been supported amid the water-floods. Faith increases in solidity, assurance, and intensity the more it is exercised with tribulation. Faith is precious, and its trial is precious too.</p>\n\n  <p class=\"byline\">~Author unknown</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "translation_key": "1f8757084ea96bc6e1a05f7cd25c82987a1620e6330d0ecb0c0d2c054b4f4a03"
+}
