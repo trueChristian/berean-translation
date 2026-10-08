@@ -16,10 +16,10 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-24.04
-    # The earlier 1,047-test suite took 12m41s on Actions; the old 15-minute
-    # cap cancelled archive validation. Gated runtime/ownership regressions add
-    # substantial coverage. Keep every gate and bounded archive/source headroom.
-    timeout-minutes: 25
+    # The 1,120-test suite took 18m39s on Actions before archive/source checks.
+    # Jacques queue/replay coverage adds over two minutes locally. Preserve every
+    # validation gate with bounded headroom for the larger offline suite.
+    timeout-minutes: 30
     steps:
       - name: Check out the exact change and review history
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
