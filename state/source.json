@@ -3642,9 +3642,9 @@
     },
     "3c96074a-7088-4b10-a116-82baa7bafb1e": {
       "fingerprints": {
-        "html_sha256": "462583785aa33cebb2a71f519c8402f6345a363a52c4790cb1bd4ef7893003bc",
+        "html_sha256": "a3a1c5f745517d331462fc404822796e08a0ea926e09e9f8611917632fb2dc66",
         "metadata_sha256": "563ce3574f7f1a7d73f14e2453821126fb969b836fb296ef8449c3e467f508db",
-        "structure_sha256": "424b39792fb47631181ee360cb917f62e71dd91a391fa0735e56f4d0e3c9c5c9",
+        "structure_sha256": "702da765bf7a1e3280c9ceb824e31a4af814f9ccc2dbccfb7383a4310151dda3",
         "text_sha256": "6b91de1d7ee0f2bfa20beeda9c592b0409ae284616c60bae5c561b3e1f33e3c7",
         "translation_metadata_sha256": "ab7f815684d59be22c51b4c3789e0ea5c1ceffa7c19d4a1518f84fac7b4e56d3"
       },
@@ -3652,7 +3652,7 @@
       "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
       "sequence": 4,
       "title": "From Whence Come Wars and Fightings Among You?",
-      "translation_key": "9e7c037a649ca3929a5b6434eb6468568b878fed764d8c82696d94aa96719086"
+      "translation_key": "7c29b8d0de5ad1c38420586cd9dab6d5a2574d723151a4e81559a29c426d530e"
     },
     "3c9c7a4c-bac3-4a87-a871-b9573b711e40": {
       "fingerprints": {
@@ -8416,9 +8416,9 @@
     },
     "849984a7-93a7-4433-82f9-98d66ac25bf3": {
       "fingerprints": {
-        "html_sha256": "86270c231045e96916c5c0e32fd7334c4a7c27c335c3654e7a797d792a16c435",
+        "html_sha256": "b43abc725e68517fe892505606f7fcabad1b5d1b031681240bf02a55a5aabb31",
         "metadata_sha256": "2e10c165f6db49edf5225b29a097074202c5e9da0b184a499f1e61f780093e5e",
-        "structure_sha256": "acfe070cf962a38bf7cd866c06e97af2263d3ec5dc156b64ac21e136885252f7",
+        "structure_sha256": "af11af0cd0450428ccf05d1827fbf98a9e9174951317558e2448335e5df6f7d1",
         "text_sha256": "e81c09939c9f1c42c3a0b61c50b8b893515ec6b8ebe4c0aeab598edb51aba4cd",
         "translation_metadata_sha256": "fbd2c0efc57b783e0600194f6a410f0dfba5d208d53a9da382ddc9ea2676e969"
       },
@@ -8426,7 +8426,7 @@
       "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
       "sequence": 5,
       "title": "Source of Power",
-      "translation_key": "a211af99a43ff4fe34ac3633f5898f0da8b566380533b8acd131ee87be967a2f"
+      "translation_key": "2d2397445dc020d729388784bdbdef401b46eac540820cdc67b3b60af6cd84d3"
     },
     "84ab7bf1-03db-4242-832a-8c5ffac4ca9b": {
       "fingerprints": {
@@ -9396,9 +9396,9 @@
     },
     "930a2e00-c5f4-4ec4-b53c-04a6541c9e84": {
       "fingerprints": {
-        "html_sha256": "145decec0c1550ad074263e7b883f45680ca139ba4648dd395da3b987a72900e",
+        "html_sha256": "d612384f6fc5da7b8edda82f3ce14096a02c3ba1c84c7d4aa96028c1e44bd4f9",
         "metadata_sha256": "f88ff7662872c5ca8d83cf334bf7a22b7011bcdeb3631016754305199c28b02f",
-        "structure_sha256": "dac2bc538de2837a68d968c4e5ab69a17c5a4f43813c321cf0efbe9b9614e079",
+        "structure_sha256": "41c75215a87b2f02eeb9d23e9b434b6d87bf5bb1c9104ec40360ea3df9e2982a",
         "text_sha256": "3866c51255fb0c934c6674d1c6c67d5ac944c7065222440c594966266dfb6cc4",
         "translation_metadata_sha256": "b4fbc780f4843aacaf2892b57b0bb31d4184e1760a9f0a76fc985c212435a425"
       },
@@ -9406,7 +9406,7 @@
       "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
       "sequence": 6,
       "title": "God Uses Clean Vessels",
-      "translation_key": "19668427da975b7b8a68a0dd49efff583480fc50dfc86daa19ba070b87f7f128"
+      "translation_key": "9b40fe7894c030fbb6b3bfd37ae92260436ee4eb813586220ecec3b3837af94c"
     },
     "93373af1-4771-4489-bcb6-cef136f38b02": {
       "fingerprints": {
@@ -10684,9 +10684,9 @@
     },
     "a94bdd52-efcf-40e1-bbfd-33758f2b782e": {
       "fingerprints": {
-        "html_sha256": "1f889c615f0d3215b168cf38d8a3a9940a9288d99101244ecbb71130ae6610a5",
+        "html_sha256": "b5d5c32f515310627f93dee29748bc8ed68aca0cebe1d0044d8323498ce6f65c",
         "metadata_sha256": "9b73fe1274e24209564edb073aa401b49b023188e6d335c25f39bbffa5125de3",
-        "structure_sha256": "6eff77c8c9af3cd3bcc88d8d2f1d45f4b372da3d5893cc8549811f510476660b",
+        "structure_sha256": "d6730ce938f7bd59039701337f5081767b159bcbe50492af2d352bdb62e16a6e",
         "text_sha256": "0f7531a00be1cae59c4d6a8b1cfa26632261609ebe66dedd97ac5b31261efed4",
         "translation_metadata_sha256": "73cbbf39a68f78778bc4327eb8d403ddfb981968db4710ce1b5fc1c6912e466d"
       },
@@ -10694,7 +10694,7 @@
       "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
       "sequence": 6,
       "title": "Tribulation Worketh",
-      "translation_key": "ef562520eb5e6c84735ae4c753a2e41cee7915aa80837a80588f81af531679fa"
+      "translation_key": "ab9328f5ca43a1f37fb3367fd586b730a31aa522baef8275c795bf39ccd2dcb0"
     },
     "a95a8fdd-8aa8-44b6-a9f9-fd83772d1706": {
       "fingerprints": {
@@ -13022,9 +13022,9 @@
     },
     "cc483448-ee7e-4520-8e7a-d7721e6f4567": {
       "fingerprints": {
-        "html_sha256": "d9e4dfbe099999473f87bb91205cd031e67e4828c650f1bc10a795cd98cca4cd",
+        "html_sha256": "d42534899e32f7144a2b377b8ed6cf07305c634fd3014f35f11283c12117df60",
         "metadata_sha256": "305da8a20d6758307d112dbb27a4afceed4e41a131608b2f7bd96077003c9ed3",
-        "structure_sha256": "5d3dedbb47e200902c3df2c95befb377f075d4dbe5e57fb6946f8b30139b23d6",
+        "structure_sha256": "71fcd8308280c8b0aee831b8e30088dc09b75b6a3df4d55bed2e5dd3e59025ff",
         "text_sha256": "81c87e1b42f51295cdbe9d5f5ff36264f65f6668c8f523d2614c6d04dbedcd39",
         "translation_metadata_sha256": "751284eb5785315cc4b08cd4322bbaef2baf451f131b5561411e4e6ed064b037"
       },
@@ -13032,7 +13032,7 @@
       "issue_id": "8a34209c-181e-45e2-be87-cf0643e863b8",
       "sequence": 7,
       "title": "A Word to Parents",
-      "translation_key": "66530ed750ee1e475cddc6566acdd534ff282dea7f6cf2e9586a5c70bec9c9d8"
+      "translation_key": "2aeaff0d1a5b14ab5a1aefeef9df3211fff299203a3314e31e034f0cd92f2966"
     },
     "ccbccd6f-c51e-4e7e-a758-a9237aa8cc63": {
       "fingerprints": {
@@ -15962,9 +15962,9 @@
     },
     "fc8d4654-6505-42cc-8f75-5f2fbb55c346": {
       "fingerprints": {
-        "html_sha256": "00b973635e475c4f20c45e2b760f78f27d87984376ceadfc1ad1d5ba90500bc6",
+        "html_sha256": "57a6e1b2322dd14c9d1b3731456be40787a6619e8a3c60b59cd20117bd584632",
         "metadata_sha256": "a1f06316614c6fa55c3c351542f7e90eef0781973c6e0141c9dfc346384ae2e6",
-        "structure_sha256": "8f561472b357c3049b2b2f15b31c30bd7b5184e3f8794d6a54dd88aaed927bf8",
+        "structure_sha256": "3df797e1507f3d68effe02f88e9801ea1afb522e3b6f2cc9582c731427f044a4",
         "text_sha256": "08414be0d6bff47fb661b6888a29005184fac5e687e08fc01ca8b6f06dd95300",
         "translation_metadata_sha256": "0d27b5b7512cc2ddbc80d57a477b66b142738d47a20f497834b093f3ce8c85f5"
       },
@@ -15972,7 +15972,7 @@
       "issue_id": "6a9666b3-39d0-45d8-ad23-bd030566986e",
       "sequence": 2,
       "title": "How to Trust God",
-      "translation_key": "0d3323d68341cc8db78bf919dfbe28207bd9908342f93d7f44b3b18d6565ab21"
+      "translation_key": "3a3b45108d3957888360ffccbb6c66c4237f982d6cc30e8c1ebfce4dfe495776"
     },
     "fc994277-4fe3-4d4c-867e-3d6afbb90995": {
       "fingerprints": {
@@ -16339,7 +16339,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "9a5ce4eccc6311ce0e7d6e06f1c3109b797f53974bcb65e935a5dc9352914c6a",
+  "content_sha256": "e999839cab698759066ca511df6bd97c864b50872f40746d500cfe84345539a4",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17755,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb"
+  "revision": "75eb5963bd7e112102bc9629739ffd4e9fb3ba65"
 }

@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `5218aa9d155ece2a9fe433c9124bfd87783513eb`
+Observed English revision: `75eb5963bd7e112102bc9629739ffd4e9fb3ba65`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -497,7 +497,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 4 | already_translated: 108 | ambiguous_quote_reference: 19 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1283 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 6 | pending_automatic_admission: 40 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_association_limit: 4 | source_quote_annotation: 10 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 18
+active: 4 | already_translated: 108 | ambiguous_quote_reference: 19 | continuation_progress_uncertain_requires_attention: 8 | eligible_automatic: 1278 | legacy_response_outcome_unknown_requires_owner_attention: 12 | missing_edition: 6 | pending_automatic_admission: 46 | provider_refusal_requires_owner_attention: 1 | repeated_technical_failure_requires_attention: 1 | source_association_limit: 4 | source_quote_annotation: 10 | technical_failure_requires_attention: 63 | unresolved_quote_reference: 18
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
