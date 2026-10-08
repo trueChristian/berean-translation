@@ -16,6 +16,8 @@ class Config:
             raise ContractError('Missing repository configuration')
         from .review_contract import frozen_version
         frozen_version(self.runtime)
+        from .plain_policy import enabled
+        enabled(self)
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', self.runtime['source_repository']):
             raise ContractError('Invalid source repository')
         for code, language in self.languages.items():
@@ -99,6 +101,9 @@ class Config:
             raise ContractError('Exactly two translation attempts are the hard limit')
         if self.runtime['quality_threshold'] != 95:
             raise ContractError('This contract uses a 95/100 acceptance threshold')
+        if (type(self.runtime.get('upgrade_quality_threshold', 98)) is not int
+                or self.runtime.get('upgrade_quality_threshold', 98) != 98):
+            raise ContractError('Accepted translation upgrades use a 98/100 threshold')
 
     def select_languages(self, value: str) -> list[str]:
         if value == 'all':

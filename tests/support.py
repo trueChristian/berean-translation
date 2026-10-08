@@ -163,6 +163,7 @@ def setup(root, *, review_contract_version=None):
     # simulated campaigns to legacy fixtures.
     runtime = read_json(root/'config/runtime.json')
     runtime['scripture_quotes_enabled'] = False
+    runtime.pop('plain_translation_policy_version', None)
     runtime['automatic_new_translation'] = False
     runtime['autonomous_translation']['enabled'] = False
     runtime['automatic_source_refresh']['enabled'] = False

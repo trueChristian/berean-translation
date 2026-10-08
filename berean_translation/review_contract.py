@@ -2,10 +2,62 @@
 from __future__ import annotations
 
 import copy
+import html
+import re
+import unicodedata
 from .common import ContractError
 
 CURRENT_VERSION = 2
 MAX_FINDINGS = 30
+
+
+def review_threshold(campaign, task=None):
+    """Use the campaign's frozen threshold, with stricter replacement review."""
+    from .plain_policy import is_plain
+    threshold = campaign['quality_threshold']
+    if is_plain(campaign) and (task or {}).get('accepted_baseline') is not None:
+        threshold = campaign.get('upgrade_quality_threshold', 98)
+    if type(threshold) is not int or not 0 <= threshold <= 100:
+        raise ContractError('Review threshold must be an integer from 0 through 100')
+    return threshold
+
+
+def _normalized_text(value):
+    """Compare evidence as visible Unicode words, ignoring quotation marks."""
+    value = html.unescape(re.sub(r'<[^>]*>', ' ', value))
+    return ' '.join(re.findall(r'\w+', unicodedata.normalize('NFKC', value).casefold()))
+
+
+def _article_text(value):
+    if not isinstance(value, dict):
+        return ''
+    metadata = value.get('article', value)
+    if not isinstance(metadata, dict):
+        return ''
+    return _normalized_text(' '.join([str(value.get('html') or ''),
+                                     *(str(metadata.get(key) or '')
+                                       for key in ('title', 'subtitle', 'section'))]))
+
+
+def actionable_finding(finding, *, source=None, candidate=None):
+    """Discard only demonstrably self-contradictory, anchored major findings.
+
+    Unknown evidence and actual proposed changes remain blocking. This does not
+    translate, judge theology, or relax the independent structural validation.
+    """
+    if finding['severity'] not in ('major', 'critical'):
+        return False
+    source_quote = _normalized_text(finding['source_quote'])
+    target_quote = _normalized_text(finding['translation_quote'])
+    source_text, target_text = _article_text(source), _article_text(candidate)
+    if (not source_quote or not target_quote or source_quote not in source_text
+            or target_quote not in target_text):
+        return True
+    suggested = _normalized_text(finding['suggested_fix'])
+    if suggested == target_quote:
+        return False
+    return True
+
 
 # Never change this schema: missing campaign version means this exact legacy
 # request contract, including its historically unbounded findings array.
