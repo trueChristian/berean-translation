@@ -1,10 +1,6 @@
 {
-  "collection": {
-    "stop_reason": "audited_saved_reviews_accepted",
-    "submitted_batches": 0
-  },
-  "completed_at": "2026-10-08T12:27:18+00:00",
-  "newly_published": 4,
-  "operation": "accept_saved_reviews",
-  "started_at": "2026-10-08T12:27:18+00:00"
+  "completed_at": "2026-10-08T13:18:31+00:00",
+  "newly_published": 0,
+  "operation": "collect",
+  "started_at": "2026-10-08T13:15:21+00:00"
 }

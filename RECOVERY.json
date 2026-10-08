@@ -4,21 +4,13 @@
   "automatic_policy_version": 3,
   "committed_usd": 9.473812,
   "counts": {
-    "active": 3,
+    "active": 106,
     "already_translated": 108,
-    "ambiguous_quote_reference": 59,
-    "ambiguous_source_quote": 13,
-    "awaiting_prefetch": 5,
-    "eligible_automatic": 1347,
+    "automatic_capacity_wait": 20,
+    "eligible_automatic": 1440,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "missing_edition": 11,
-    "pending_automatic_admission": 46,
     "provider_refusal_requires_owner_attention": 1,
-    "source_association_limit": 4,
-    "source_quote_annotation": 25,
-    "unassociated_source_quote": 2,
-    "unmarked_quote_scope": 20,
-    "unresolved_quote_reference": 48
+    "publication_or_latest_task_changed_since_manual_selection": 27
   },
   "derived": true,
   "format_version": "2",
@@ -33,12 +25,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "1cea9497904281a152206bc8fba64c34",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -49,12 +42,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "7967a87e6e2ad3153f55d2d332fb3946",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 1,
@@ -169,12 +162,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "0672ae7153ccfb1fc375effab60f075e",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 1,
@@ -241,12 +235,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "d3086422d965d3570d96b35a86bfca1f",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -257,12 +251,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "75f899e1851e0a65008c05be6a86070e",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -330,14 +324,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "afr",
       "latest_task": "0320be0adf0b2525d2e98781725b6af3",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-1c227d81be220a0d9a61dcb182821b4f2e09ada94d3c114d1ae3dd28461605a6"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -453,14 +444,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "afr",
       "latest_task": "eb144386d61b24476fb6da10455022e3",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-4384a92dd92024f0eda12c014a7bf654f2e1efee269f04f07f687fb5000fc112"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -472,14 +460,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "afr",
       "latest_task": "f9a19d3705e3552817d4ab306923d1c2",
-      "processing_status": "held_without_publication",
-      "reason": "source_association_limit",
-      "request_id": "auto-703454b84004be9300a777cc042e1f1dac789c949bddd6053274cfe4235c324d"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -578,12 +563,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "afr",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "2e927e1eea4aaf5a309b5b54d2bc5da5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -634,12 +619,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "addff7d887ef8d70cbf2916dba19ddb8",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -650,12 +635,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "5e5ddc71392b3f5e77330d6386e35e5d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -826,12 +811,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unassociated_source_quote"
+      "latest_task": "9a9c2773c3209f4a364363129ded7149",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -891,13 +877,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "ara",
       "latest_task": "bf62e6eaf962d4ac1e6c92d30e638734",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-48bcc39542d544add556f56497f24ff8cd1a8e6132a438b62f50c10ddf00603e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -933,13 +917,11 @@
     },
     {
       "accepted_cycles": 1,
-      "admission_status": "pending",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "ara",
       "latest_task": "27b76b8b214ccf60e017c3796405cb8f",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-8668270874c6b2d7a3aba602ce0110b9eec893b03d2f8e8103eb4de5e396be52"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -990,22 +972,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "f7d11a76161694d91f55d53d88f53fb9",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "ara",
       "latest_task": "14a387007806fd805c09b182f94ee519",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-3ea805e20077e12e22cec591816c4c2289478d68e62bea3aa8cbb4119cc78357"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -1016,12 +996,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "b51e07a09f954b21598264fa5da78243",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1054,6 +1034,15 @@
       "latest_task": "5a16d446cb92500d9f326362df1386bb",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "ara",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-4dd9a5a024d316c2efb6639d5566858cf9a90fbdcd469a36a22d2f39423befae"
     },
     {
       "accepted_cycles": 0,
@@ -1283,12 +1272,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ara",
       "latest_task": "8e81c0c9b48d0d0da7ee2d248fd08bdc",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-76e06acec4644aad371a81bb398df8e564174af624d1b8dc03874d298b95ab68"
     },
     {
       "accepted_cycles": 0,
@@ -1308,14 +1296,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ara",
       "latest_task": "ab5405b1c4d70fac0e3f2ea23ad52127",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-9ce21bc7660643cefa7570bb755c506c47e7d9620af0d3cce6d65ef17c1418f1"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -1390,12 +1375,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "ara",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "f4e3313673ce22280e091e9ea3e1f37e",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1407,13 +1392,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "ara",
       "latest_task": "387ae861752105f482db3e3c8398f200",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-e7fc341f30b0daafe1f066131b6d78f4c974da1747200708433089546415ee0d"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -1440,12 +1423,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition"
+      "latest_task": "331d647d2ba220028f3cde744e8f93f5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1456,12 +1439,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "79d1531d622487e22fe85ec2cfb6af9f",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1544,12 +1527,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "6e292658a12610261887520815776041",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1592,12 +1575,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "pending",
+      "accepted_cycles": 0,
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "queued",
-      "reason": "awaiting_prefetch"
+      "latest_task": "6b73f85a7fbc4d5c9bfc49b081a6c58e",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1625,13 +1608,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "ben",
       "latest_task": "8639d1f8cda6394b1b5340a894156762",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-e843854188024f3f8e27c505461798edd2781e41b89ed5d4cd973b84aadfcb94"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 1,
@@ -1659,14 +1640,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "detail": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged.",
       "language": "ben",
       "latest_task": "9305d868e83ac2ce2e54f687224caf20",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-776c6208be22ecc73f6e8fe58639bcaeb89022972679f55b3cb9937e8a09a704"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -1741,12 +1719,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "a62ed3db32927b939f9a45e5c7a084e2",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1757,12 +1735,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "0cd1e0b8f275aaa729ce3ab2c900438c",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1779,6 +1757,15 @@
       "latest_task": "a6addd2b5b5386040a9fe5d575970de3",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "ben",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-880c67ed6ffc74e31e3103040ec0bd01c0521a07b6200c61cf2ae15e843ecd7f"
     },
     {
       "accepted_cycles": 0,
@@ -1838,13 +1825,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
       "language": "ben",
       "latest_task": "c759d10bd8aaebef9c90be3a51ebdf87",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ad3cd704d068afc01388550a65dc419f2d9d51bb28a586a86b14f494c09e5616"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -1863,12 +1848,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "440bd679b2b4fc52ef12fe4ab2b94e2a",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1994,12 +1979,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ben",
       "latest_task": "ac62bcd14c4cfd48776d7a6cfd80a7e1",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-2fd7d747f21de72259d16e2403abadf6a1500ae0eea59107d4c8f72dc4f4dab5"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-c4efe37825663faf3e763ecab64b6a90e2c148df79d706413a10d67a06e533d3"
     },
     {
       "accepted_cycles": 0,
@@ -2011,14 +1995,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: missing_edition: bn: No matching translation in the checked catalog; references remain unchanged.",
       "language": "ben",
       "latest_task": "80a9e47f4bca84aad5bd68f22f07bf91",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-726baf2c88f485331f1ebf28c5db26a24b884c407ec0c4732c45d10acecdfcb9"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2054,14 +2035,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ben",
       "latest_task": "4346d09082a8d16ea5c0653296f8ea89",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-e804d4011cde9128e3b7751044c6139d1dc941696cf5aca25a9bbbd97d241fc3"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2160,12 +2138,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "ben",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "ac615f60a686fe23231662322cf6fb23",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2193,14 +2171,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ben",
       "latest_task": "5d45931b193da591e5e1240f0103850a",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2267,12 +2242,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "341f4a9a2c4e50a2f35fe6e552ae7aff",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2283,12 +2258,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "128a508b3e13429ced03bdf6f59778cc",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2451,12 +2426,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "ec6500b4f0b2187aea4d8b5a9756fa7d",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -2500,13 +2476,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "cmn",
       "latest_task": "575a1ad36ccfbe7922c45d0219a15da9",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-6c6a19990a8d5966162dd2052fd862911e33f3b050190ce9f33766edaad751b7"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2526,13 +2500,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "cmn",
       "latest_task": "ff01b60eeb8408828d149dbd97bad9df",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-daed39bd059b1000f0f0441a15c4c11b45eb0d44f32155ca3cbf294d9b424fdb"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2560,13 +2532,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
       "language": "cmn",
       "latest_task": "7f5c106219f6ccb1443a799a319d9542",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-97e40174f0283715b601d86003d362b4ca1a166fe0dc65fccd4db8f7da27cbb0"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2593,12 +2563,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "484c3719771b7182fbf926fa21907266",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2609,12 +2579,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "e7caa600c1fddfc6a173f0c06b3e34c5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2665,6 +2635,15 @@
       "reason": "eligible_automatic"
     },
     {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "cmn",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-9f74151cd332419a28b6e9f0d0b311aad7b4767325f0d76fb0352e7290b700ad"
+    },
+    {
       "accepted_cycles": 0,
       "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
       "language": "cmn",
@@ -2698,14 +2677,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "cmn",
       "latest_task": "2d8a8b9a0e6191669a6852f3eee46892",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-da744f6ee991e18f6bcf5a599368ba78f81658edf01202afaa60e328c543939a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -2839,12 +2815,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "cmn",
       "latest_task": "066ef6704fda5f50904913f8b5aa5bd4",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-0e536bdffe75f4f9a2075b0a5b68738d4b289a4f686a4029cfd20894daabad57"
     },
     {
       "accepted_cycles": 0,
@@ -2935,12 +2910,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "cmn",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "a712cea2e5e6d3468019d31ac58db40f",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2952,13 +2927,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "cmn",
       "latest_task": "958f9d876e5ea3453474da9bd3693846",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-f45e8ccd582fa412ad5877c46152aeb22dbbbd850af7ac71cb35a69d75ed3dd0"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3033,12 +3006,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "cb4433a40cb68a5e3b63f73e1def03ec",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -3049,12 +3023,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "01709041558a362b7bca89f892553b63",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -3249,12 +3223,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "44ea238bf82d1f50f866d2425de4c2a4",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -3290,13 +3265,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "deu",
       "latest_task": "0ff6861ba5a9f8af6270ae27286a1188",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-cbca80ef83bec82a3278950f9fe213c82e0b7fcf6b00f1dc82253e672cd9fd63"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3316,13 +3289,11 @@
     },
     {
       "accepted_cycles": 1,
-      "admission_status": "pending",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "deu",
       "latest_task": "4346849f85abbe9cca7ce8de50c633f6",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-e6b27e9b272e54322f32fc415b48f96470151d602f288be3196df417b76471ae"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3397,22 +3368,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "ae1ffd849d2f9e4ffc9511bdc4dd0cd0",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "deu",
       "latest_task": "fca9042a1392434c9937defe8ecc11f7",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ceef6e5c54baee752f150756a428a346226d3ffca1b61b387661b5af180fff00"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3423,12 +3392,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "34cd0f5821aa78ce2b0ad33d67d16215",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -3472,14 +3441,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "deu",
       "latest_task": "b9ea8831d22628cc424eaea71064fa4b",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3653,12 +3619,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "deu",
       "latest_task": "a8f6a52036881b4154fedd9f802d1acf",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-a11459e12939ef5c0f042bf97910e7aa1f20d824db98cc1b403aca00215e648c"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-5a078d175470e7ef098cfcec237fa385b9d984017ee525b4cd8a264d6336c5b5"
     },
     {
       "accepted_cycles": 0,
@@ -3678,14 +3643,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "deu",
       "latest_task": "453b597e9ca953ca45d89900638d4d5c",
-      "processing_status": "held_without_publication",
-      "reason": "source_association_limit",
-      "request_id": "auto-63597743a7bc88d65e7b63cdefd1b1151ee2275344a72307dc5424bc3c575111"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3705,14 +3667,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "deu",
       "latest_task": "d78bea85237f1040712683f148dac97a",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-76853bf4c030570185ad047fa9848b9d08e6305db3c4ec0fd59b624e06b68662"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3803,12 +3762,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "deu",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "d411a8b0e4f46533fe2ca07605f908b5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -3820,14 +3779,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "deu",
       "latest_task": "32cc90ecae2816c31f01e39264ad5c0c",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-282c9307dbbdccc3f0d36a69f46c136278f85a1546426007f34c3003ca1ff3a0"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -3894,20 +3850,21 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "1925bdb2ab02b43f92257833834b58ad",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "85751cb75c84e8250fc70ba54695d546",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4078,12 +4035,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "34df7bfec1545547b5221e9dbe2498c0",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -4214,12 +4172,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "795b3ba8c2a8425a32ee22a6ee044eea",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4230,12 +4188,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "7ed39cea13a875c9029e6a7ea41397c9",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4295,14 +4253,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "ell",
       "latest_task": "14edbc526c6ab12775fcffae9c4abffa",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -4418,14 +4373,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "ell",
       "latest_task": "7d4bdc58c06c0008452ce0d01ff8028e",
-      "processing_status": "held_without_publication",
-      "reason": "source_association_limit",
-      "request_id": "auto-1db2b0e4b30c7fa734ef2030a27f942255cde97ad44486223e1b939914c2d9a5"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -4485,13 +4437,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "ell",
       "latest_task": "f59fc451e47aaa36acd58bbb48703274",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ccb980fff3d6fa047c65af194f76886518824ddd68a17537793168c29945c844"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -4534,12 +4484,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "ell",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "f549ec35bd399efa4c6a69b5c09e9e6f",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4606,12 +4556,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "6e0093313413f9b11f35989d8ac5e780",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -4622,12 +4573,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "25c3c203b1280179026a6d923b85b695",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4718,12 +4669,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unassociated_source_quote"
+      "latest_task": "ceab925bf735df0faf026bbe68aedb78",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -4806,22 +4758,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "577a0a719605aff7b26c8edf6326b0ee",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "fra",
       "latest_task": "7663c0f846fb5429b371241844900efb",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-6857fef70c594f9b0ad9ddbfef5b3545429da3999e1d155de32dcd00aa5f2ef4"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -4832,12 +4782,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "1a5664aaaa1ef1cde2fb7df50f39f12d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4864,6 +4814,15 @@
       "reason": "eligible_automatic"
     },
     {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "fra",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-4ddbcda4fb88c19e1e6aec424dd1491e4d498c34540addbfaec0a754eb267e58"
+    },
+    {
       "accepted_cycles": 0,
       "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
       "language": "fra",
@@ -4881,14 +4840,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "fra",
       "latest_task": "6b92e78257ea1ff4641a31c9ae1fe28d",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-198d7dc5fad55cd0acfe25267782b3b51f0d19a3e00fa8687d241fc334808360"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -4998,33 +4954,27 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "fra",
       "latest_task": "70ee4a875031df7b6f2f104eff487aca",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-ebfc20fd6832341680fd380de9483aa81ef75f33efe5541a342657bce8af1c7a"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-06c029a731358cca8508a34d5bf240e64b76717f6c574b626eea8ded7498d432"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
       "language": "fra",
       "latest_task": "77d175f80efb2410512405c1c5793934",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-f59737ab15318612f9f26fcc983ba0f1c2f0fc94066af2fa711036e535071c75"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "fra",
       "latest_task": "dbb4a423610bd7f9236e5f30629e525d",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-009fa457f85e1112fb6bdf5dabb774fdf7a076229d690d2acee7d64625179afb"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5075,12 +5025,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "fra",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "8b34b1f8ed3fc087078d54c64b423139",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -5139,12 +5089,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "9757cf018c5d0d0c4c1807fbedb2d5c2",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -5155,12 +5106,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "2a8575636dd01b85602e11d6baedc3ca",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -5371,12 +5322,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "ff79731df3b0591d45eb04bc4a8b6008",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -5452,13 +5404,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "heb",
       "latest_task": "a92785ada9ae81e0607ef7119929a84c",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-4e52721d7144e2bd335126947ba56d6ee79eee3bdc0d73ac98960e05b97160b4"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5486,13 +5436,11 @@
     },
     {
       "accepted_cycles": 1,
-      "admission_status": "pending",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
       "language": "heb",
       "latest_task": "1ebf4bd6a8c4439377ef1163b50be6b6",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-42e0324e6c4c2d33367c72dccacebbfae8bf0920fb4db078d9d484935f54042c"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5552,13 +5500,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
       "language": "heb",
       "latest_task": "855f432a30d2ea5e8d41eb5e0a4c701d",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-8115cd2b317de1dfc29de4aa8fbdb9177693104f256e8f76e0caff4a0435918f"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5601,23 +5547,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "a3a9947b913282b5042530d2e5cbc125",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/blockquote[1]/p[1]",
       "language": "heb",
       "latest_task": "fa9f3a41f6088437b35a6ea0f6f5e0eb",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-11ac795cb5c01029ac1e63e5fd35172109cf13f509f50ea9ff7c7177820bcab8"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5628,12 +5571,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "4836dfd03367a41d5b556a1f0e7b7fd8",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -5717,13 +5660,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
       "language": "heb",
       "latest_task": "2f91294ffb0000fcb4718c4841f03ede",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-b9689519313c036f46f2d0494ec08e07ccccc6e2e6aca82b9200be0eba0a0e92"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5927,14 +5868,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "heb",
       "latest_task": "85f98fedd784f5a78c859c5d0fa6107e",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5946,14 +5884,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "heb",
       "latest_task": "c9ba280f6978613a74c74f2d73ff77e2",
-      "processing_status": "held_without_publication",
-      "reason": "source_association_limit",
-      "request_id": "auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -5997,14 +5932,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "heb",
       "latest_task": "7c209f9527d176f1447ba807180c77c5",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-cb735912f83b4dba318150ad090151b485f481b1a7e7ec0c424b18c6b09211bb"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6135,12 +6067,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "heb",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "09580049afef9643900f5e5b16962606",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6160,14 +6092,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "heb",
       "latest_task": "99935516cf59d50e16e48f53aa4646aa",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-65addc392e87b59f843a51cdea088dae5a7160204b2d411163466efb82d43590"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6274,20 +6203,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition"
+      "latest_task": "a048f32674da8ef35b5222beec4d2b8a",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "a8cf86d137b9c4fdf4a6d15e9f039268",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6386,12 +6315,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "03443fa874892eabe6747d04bf4f7938",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6434,12 +6363,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "pending",
+      "accepted_cycles": 0,
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "queued",
-      "reason": "awaiting_prefetch"
+      "latest_task": "4703466d1b4334f2235b88773754ff0a",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6483,13 +6412,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "hin",
       "latest_task": "f0aa5a591b0a65d686bbe940a35cd88a",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-f20a288db93519584459de7e3a627be95e7d240a94c373eefcbcf65ee8199b7a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6509,14 +6436,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "detail": "Scripture attention: missing_edition: hi: No matching translation in the checked catalog; references remain unchanged.",
       "language": "hin",
       "latest_task": "959482d0be5d9a52862e9d1a4217e0a7",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-03eda9bc8a4559c7fb9a903c3e8584eb08b1f79fa0252c7aed11d9dc551dc242"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6567,22 +6491,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "4447a9576658b9bdcb80c3384a71f6dc",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "hin",
       "latest_task": "d7b2626350170fc70abb202cc3ed354a",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-4b0aa768e56b9065f2e0e051d2497f38f174a31081ecc09d867b95426e11f102"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6593,12 +6515,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "ee6a085ae8044804914d7c91a153737d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6623,6 +6545,15 @@
       "latest_task": "e7e494eb1d3664290cd6ac3dfa836f57",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "hin",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-cf0f53b7f92522583cb56faaec2edf7c9f55d306a406aeefe4d465725a416d43"
     },
     {
       "accepted_cycles": 0,
@@ -6689,12 +6620,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "30a15597267038cfb6d240928a9de44b",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6780,12 +6711,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "hin",
       "latest_task": "c8cddc5e3bfb16a5a73b8f42c0e99875",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-cef7240828f36e56fe1ad717ac9a8d61dff9493d7cfb70eccd56c98b4ff307a4"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-aee1a9c4f13bfe426d4f47fdd9684ad93fbdaba8bf798d5690cfa44416b71750"
     },
     {
       "accepted_cycles": 0,
@@ -6805,14 +6735,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "hin",
       "latest_task": "987edca860afbac3f04705dd6f57eede",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-d50b84b5b4023448156799ec16c6867d1f2d01ed8e18a56accfd38f4ecb69cfb"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6864,13 +6791,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "hin",
       "latest_task": "14fc9db936e0cbbda8d70f943c89acb2",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-afc8b71e84f98ffe76f57566afe5e6afa71d014ee74327529de2c818df13805e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -6921,12 +6846,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "hin",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "ec2ee53f1e8bfebbff08377bc7c61c7a",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6946,13 +6871,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "hin",
       "latest_task": "7b5defe771cb4eaa19cf9a1a25c9e304",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-df18c8392cf1f703e81275b0896d5b72d6bddf019d63ba094f7318cbe99e1c2b"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7011,12 +6934,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition"
+      "latest_task": "2aba07a5fa2101e300094010e3604d08",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7027,12 +6950,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "06292d7b2a991663a9cfc9b16141b877",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7131,12 +7054,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "1a71410cb5e9e23bb15365fb1717466f",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7187,12 +7110,12 @@
       "reason": "legacy_response_outcome_unknown_requires_owner_attention"
     },
     {
-      "admission_status": "pending",
+      "accepted_cycles": 0,
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "queued",
-      "reason": "awaiting_prefetch"
+      "latest_task": "7117621457fb3b6cf25c235b6cc49532",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7236,13 +7159,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
       "language": "ind",
       "latest_task": "498f1b26f48de4eb6197332e031bea3f",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ed0e1233de88781d1ca2485fac6778cd7d91f93643fc8c36c65c7fb7ea4c5a6a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7261,30 +7182,28 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "995e23ac3fe865cb19cc922b7195a6e4",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "ind",
       "latest_task": "d692e4b61a340d62a2ea2aef32cef31b",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-d878c50c37e695291d42bed5efec68d669de7ede7cfb465cc066d6b1060c2502"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "b69fa2a716fd5a5bd8d06fe3e9f5b1ea",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7309,6 +7228,15 @@
       "latest_task": "8a80075ffdd5ce0f279c920b122a64a6",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "ind",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-3adb4ddd5126a8a939da33ef7f813570bbadaba54f83dab80c07c765b8528758"
     },
     {
       "accepted_cycles": 0,
@@ -7336,13 +7264,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
       "language": "ind",
       "latest_task": "b1022b832562abfeaaaaeb0cfc24df51",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-cd64242a317b499eaef61cbe51020c0f0487ac1dc9d68819f29bd1009f9df84b"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7353,12 +7279,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "356b1a46653d38574362f64e21b6e740",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7436,12 +7362,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ind",
       "latest_task": "a79683e07e21195a69f702c4413665fa",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-ba6126afaa173226c6b5981603082cc37985badb6eb07aac6af62adb85e9f051"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-4559ff46623753c70c499b58b50653d4a175e5794c07faf46b89315661a44fdd"
     },
     {
       "accepted_cycles": 0,
@@ -7453,14 +7378,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
-      "detail": "Scripture attention: missing_edition: id: No matching translation in the checked catalog; references remain unchanged.",
       "language": "ind",
       "latest_task": "e2cf90895f02797298d46779f4a277e6",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-7532ce3f7cee88b66ca4720ac8e0836085394132118d61d727135f79fbed18a6"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7472,14 +7394,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ind",
       "latest_task": "f1891b0e617ef3552e288b48bb3bf4b8",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-ee44f8be5c3045ea5580cbf5c1d20a14ffd245e81cab862534ae9fbd8fe1617c"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7538,22 +7457,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "ind",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "db2d8abb72be379685c94ff8af8b21c0",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "ind",
       "latest_task": "d67f7ed01a318901186df1b3e7de006f",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-d93136f83063f146cd47f858f41f65bc756d174d35c78d5c0a9a98a7dce11485"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7612,12 +7529,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "db5d3ed7f97a3e8f53a1b5d6a3b9a7b6",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -7628,12 +7546,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "4bb8ec4c9f55699ccbaa52b708407f22",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7756,12 +7674,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "f93af02eeb840160fc532609cb9a8bcf",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -7828,12 +7747,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "378c3408ea7b3cea412acd08da406cd5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7844,12 +7763,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "9a95c642979aa8a92358c738fcf7d14b",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7869,14 +7788,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "ita",
       "latest_task": "79600caee64e19d7a748a881082d4f94",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -7976,14 +7892,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "ita",
       "latest_task": "06305a69d2bee39fe168bcafcf4f6d6a",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-18cacf9c2a1139ee72c8c857b7ddc865523dcf09bc86c50b85a97ca5b1a961dd"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8003,14 +7916,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "ita",
       "latest_task": "c6b4ca4dfdb9d5ffa6f50698b76fd2b1",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-7ca1c4aea8f587036573c61b3d9047d8544049abe905739df5cbd3ff74535280"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8061,22 +7971,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "ita",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "a2f8e17730f5becf723f851e187d4cf5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "ita",
       "latest_task": "c5f44ae355a5bf19990f6485eb915bc8",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-e06abe568de478adc9a88d5a9b2e7c9fee80b7c1610c5ef0b1d8f4634fd1d560"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8119,12 +8027,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "dfcb625126bb88e0ad9d4912c244d266",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -8143,12 +8052,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "2db60dfae2ee95439b49a144f94323b5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8271,12 +8180,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "e2db20633320123f81deacc6e607ec58",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -8328,13 +8238,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "kor",
       "latest_task": "c44eacd98aa7cbb71580004880a86a88",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-6789ede82b996c3d84fb948d5a4984d1c22f6ea1403a3d6b21bea3d3fd61f715"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8393,20 +8301,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "145d4e96d644c72c832fedec0cfb0986",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "f4e334876154759eec4714a9acde332c",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8466,14 +8374,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "kor",
       "latest_task": "e06f09277ec0f593b55aa49b6e9ff87e",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8613,24 +8518,19 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "kor",
       "latest_task": "1e3d895db7ae50edcb40c725d1d0f4b1",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-ba96dcb4001acee68b232f3255bfdf18e21dbb4ae86b42e3958d3885dbfe5bfe"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
       "language": "kor",
       "latest_task": "483c5a9e164467d703d523cf624af860",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-c1705c277c71d3e9301f6d922aef177f0477ead460e42b8feb91301c7a224cb3"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -8721,12 +8621,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "kor",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "bd84a490dd4af6b777bcb585499aeecf",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8761,12 +8661,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "17361762edfd4ede8fe0dc00ac1a9e44",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -8777,12 +8678,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "feef62065e1a243c02eaffe59a6d2ec4",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8961,12 +8862,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "5efc1b5e6c24219865d1eb7b6f350992",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -9033,20 +8935,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "3437134ff12d24b50104791ede2fcd9d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "53e663caf79fa6dd1ecd425e8eb9ce62",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -9098,14 +9000,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "nld",
       "latest_task": "5e9438eb9967b0c02d8eaa22fb768614",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-8355d7454a0128c5fad244ee91dbd573c722b5c95dbb51bd31c09caa350a0295"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -9199,12 +9098,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "nld",
       "latest_task": "04a9f0a8bc8459f7701054ae0bb1422b",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-4d2e41ffcbfa9d22f717e0bb2422e3e8bf8dacab58094309ede9f769c9794dda"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-e096e58fe8ad149ec4c8bb52d94365dc9cb59fe2b662a99a7b8fa86dbdcd2e08"
     },
     {
       "accepted_cycles": 0,
@@ -9255,12 +9153,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "nld",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "5ffc5d4d705e20b1a87e48e3c2aa8c14",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -9303,12 +9201,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "ae7b4ff61f97dc205ac8c19251cbab40",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -9319,12 +9218,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "8322c6ee19246ccdaf9d3d4e0b7c3a84",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -9455,12 +9354,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "ef421b08c7b807d2324a209a97d07384",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -9591,30 +9491,28 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "7c57d0796da87b530d22815d9bd46f89",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "nob",
       "latest_task": "3d07bfa0fab6642801434fcbe88cac2d",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-2f821bcb9c123a039aa2894e0feb7c5bef9a5ed17b83d98253a69a1b79154956"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "13440d33ebba6adfe06094d5644f4344",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -9658,14 +9556,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "nob",
       "latest_task": "b65d118a032926f736390d990352893c",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -9797,14 +9692,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "nob",
       "latest_task": "985ede1a5224ab07728d98cff034dd2a",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-15660960cb48c58881d83870ec22c083b01b311224b37bbe7d122ebe9f05fd21"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -9911,12 +9803,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "nob",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "81ba13dca91e3adb823bfd234f0fec85",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -9928,14 +9820,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "nob",
       "latest_task": "2a5b7fd787ce56aca78ddba8fd2a9a89",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-23baa30e58521d0f8d487247d5a41537a559a3fa645a1566305f620b3d7af8a3"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -9986,12 +9875,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "151e1235fece0c61dea4e2683201ed64",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -10002,12 +9892,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "46e30c4028845fda735b1c9d44e3a306",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10082,12 +9972,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "bcf0a80be2fea90eacfd0b1a412b3178",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -10123,13 +10014,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "por",
       "latest_task": "bda9926edde35ca7424906dce7f30a81",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-c24b9c162202fe065a66fc05e5fe815776488944642113bda74cb6bfd00f783e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10164,12 +10053,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "881df0ecdf0d2ac0b5654038c4fee91b",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10180,12 +10069,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "3b56b33b3b0bafce2a4c43a4172ccaf2",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10194,6 +10083,15 @@
       "latest_task": "3967f3396aa792383a7a01440c789178",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "por",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-036846131bc9ac2a7679f6a541d55cba8a9c00fc7900fbe7f5c6895431ceffea"
     },
     {
       "accepted_cycles": 0,
@@ -10284,12 +10182,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "por",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "4ac45af96d618d685a46a6861b0f5c7b",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10301,13 +10199,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "por",
       "latest_task": "f623ee63ab0b7d52d39e3a6525945fea",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ab31b8372a8d2d74b79f0cfcf94364df533cc4b878c05d3f402827847f87a46f"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10342,12 +10238,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "1606e1a1853f68120791262611ad89fd",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -10358,12 +10255,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "5bcec0a9f8670cc6d7836f405a51dd79",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10518,12 +10415,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "226106a2382aa51602808e228673cb30",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -10575,13 +10473,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "rus",
       "latest_task": "7997707a06e5f7c68a999b7149675350",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-524c1914d20a002ae71c2be72c172d78d75c95a7b50b60c5f5c1c56afdbdf789"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10648,30 +10544,28 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "7a1e844101f5c76419b2a46ddf8cd871",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "rus",
       "latest_task": "50d4f859b7a421e6356a87b19cb8c007",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-7d6f8060788ac68ba80bb32dd915c16fbda262d3ceabd55907a2eb0c32946b1e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "4f3b81b0556d214c74a042eff0453be6",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10714,6 +10608,15 @@
       "reason": "eligible_automatic"
     },
     {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "rus",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-d376a819f492a483c1b4c11212f75e099a7d4519015953ad043e30dd6710a2a1"
+    },
+    {
       "accepted_cycles": 0,
       "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
       "language": "rus",
@@ -10747,13 +10650,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
       "language": "rus",
       "latest_task": "e30135eb7d6ac75caf2a7ec9047e5e41",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-f0906169db9dd2bd31134045e87c6274634a22aa689f313dcab207624528784a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10879,23 +10780,19 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "rus",
       "latest_task": "2368281374cd1a7b8e106bbb1cf51561",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-1eb1cf7bc95674a7842ea646f8dec741a467ea6f22167a7da45d99cb5aea2afc"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-6cc10056c18ff4b34a075a12775595e087dce7370e38da6c200803f25f9f2a6d"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "rus",
       "latest_task": "88a64c521498b2e660a46d23be7af380",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-3102d3ad256cb9cb3a77750d2b4af8155c4104b58f232f97592147d09ad3a393"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -10954,12 +10851,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "rus",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "d7153c7d4d476f03e304c3da22d4cf12",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -10979,14 +10876,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "rus",
       "latest_task": "d349877e25a06c26c2fb048cab1a77ee",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11061,20 +10955,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "27e49d25b2df8f339cf48fa15f4cabcd",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "5940e07db93484ca29da6c24001966e9",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11165,12 +11059,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "c8469446ae3655c0223e3881290428eb",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -11214,13 +11109,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "spa",
       "latest_task": "2c79c21775c7ca094fd53b8136bb2637",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-d875365b30fdf8dacb5a6a28f3b88f7907e9a5696e40df9af0daa4ccef5ec2e7"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11239,20 +11132,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "c274753d8b10259a05d5ab2092e85f0d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "0d001779b78b50a43c7ecc7e09d696f6",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11261,6 +11154,15 @@
       "latest_task": "21995ee2314758510eeaa6a42cb145a6",
       "processing_status": "not_ready",
       "reason": "already_translated"
+    },
+    {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "spa",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-8afd4a93457afe01596120eae9d9a83d589a7d01a2fa3a8db1d54accc2ff4f19"
     },
     {
       "accepted_cycles": 0,
@@ -11280,14 +11182,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: source_quote_annotation: James 2:26: For as the body without the spirit is dead, so faith without works [action] is dead also",
       "language": "spa",
       "latest_task": "3847b28966c457362661da882fcab800",
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation",
-      "request_id": "auto-1d7754c9d60b70d9c6fefd83802a9b28dce22cbb5447d321f1f2f4491d54e3ba"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11371,14 +11270,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "spa",
       "latest_task": "f54f2c8ebab3ba7251f6621b48c6ca5c",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-2cc3762ca5c3fa7f091ce9908e9a952255f5b7966e923eb98fc4cfed1d5fc7f4"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11445,12 +11341,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "spa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "62f21bd88231be23c0eeb75cb35b5ccb",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11493,12 +11389,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition"
+      "latest_task": "1d75b8620a4348357dc2ba144ae3033d",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11517,12 +11413,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "8f915af75b1fa764b057f32525320f58",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11661,12 +11557,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "ceef0467e8406f896884f120be24da97",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11733,12 +11629,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "pending",
+      "accepted_cycles": 0,
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "queued",
-      "reason": "awaiting_prefetch"
+      "latest_task": "442c915bca04ca970a648ec63f3b54e8",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11806,13 +11702,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "swa",
       "latest_task": "fa0fc681c402ec4d4eb3b705ed330b13",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-7eb08e988485a088d5fcb95fe446a880bf2cecbd467cca8a16ec27480276485e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11927,22 +11821,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "67aeaf3b4355bd006727866377e95bf7",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "swa",
       "latest_task": "f44e77098a8009b1d5aac69458c295c1",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-6b23c7e20041ca9b699f1f185971a0149c8ce716fb841a38f0959ac790dbe3d4"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -11961,12 +11853,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "02b14750be15d3eaeba45e39ee9f48bd",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12057,12 +11949,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "9c1ff7606fc0875168249a83e3a7539b",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12202,14 +12094,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "swa",
       "latest_task": "2ea1c1aae4fa121dad8157b73e36f015",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-d031a7123b61e922a621da540403199bb1181dd915bc5c1842d1236b70eb721f"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -12253,14 +12142,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "swa",
       "latest_task": "c48a1d9d214a8385352de037884ce2f4",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-cf1bbc59255f4bacbacb1c91122f4ccb2ca0f924b08deac777e32ad9e093af1a"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -12375,12 +12261,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "swa",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "949c2fd46145032aa487fad6b76ef592",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12495,12 +12381,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "source_quote_annotation"
+      "latest_task": "a1dcc632cf2d27cd0dc28cf6080a9075",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -12511,12 +12398,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "89d0ff8c4cf9790fbb5e1a8acc28f593",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12647,12 +12534,13 @@
       "reason": "eligible_automatic"
     },
     {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_source_quote"
+      "latest_task": "b5b2807ae835bdb893b4360154ccb9a7",
+      "processing_status": "active",
+      "reason": "publication_or_latest_task_changed_since_manual_selection"
     },
     {
       "accepted_cycles": 0,
@@ -12759,30 +12647,28 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "4e80d5245323e240ebd503dc94669fb1",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
       "language": "swe",
       "latest_task": "8bc46ab3dff3e49afc718052629f1c11",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ba45094fe45aeb238128f98ff9009071892fecd25dc3e7abab1ada732d6b1769"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "620943a26aea03540f3e42a14f7da699",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12826,13 +12712,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
       "language": "swe",
       "latest_task": "f30363ebc38c8cc95483b1331f395906",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-b2e83f9dcad2a914009ebec5bd26817dc8721578825acfba7538511ade867925"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -12956,24 +12840,19 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "swe",
       "latest_task": "eb1800bc443963440849181748d35f52",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-ba4e42f56fe59e04685b00d40578898651928113e03bad0cbea58976a9f58ade"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
       "language": "swe",
       "latest_task": "d0add511caea21fcce8f3157490cd58a",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-634d3deb929690f1aadc4726582beade842cc8c6bcd8b8619b9912bc4b1c4452"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -12985,14 +12864,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "swe",
       "latest_task": "991d91dc5cf6d3907d1a15d659f542a4",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-e7dd93a9e854e9b61d4a2ba673bc0ce040c4f075121e2c50fcc5ad0a374869f1"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13036,13 +12912,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "swe",
       "latest_task": "132b99c3163d556b0eabcbd9b5aab2fb",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-56207cd405254793d510ba28f524de72404ec1381f5fca8ad56f83cce9ee3741"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13085,12 +12959,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "swe",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "fb2b9277d96daa4f51ad4b3af39d3f64",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13149,12 +13023,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition"
+      "latest_task": "15a5fe5214f091e23054d4ec7c3cf2a5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13165,12 +13039,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "bdc242b3cf787ceb00bfc0ef7f6e9c00",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13269,12 +13143,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "f3dcf4fccc1f9727c8a2a7481af8a824",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13309,12 +13183,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "pending",
+      "accepted_cycles": 0,
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "queued",
-      "reason": "awaiting_prefetch"
+      "latest_task": "72ca2aebf3455f172566b228a00507a0",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13358,13 +13232,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
       "language": "urd",
       "latest_task": "dc2c4c5f98f592620249c232aec43982",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-325a368d97b6a953f93a9df3aa9ab6a8c95f1f292faebc922457b92cade2981e"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13392,14 +13264,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
-      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
       "language": "urd",
       "latest_task": "93c5521909062217a19dd8f97a2e72ea",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13450,23 +13319,20 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference"
+      "latest_task": "8883099db6a33e4572228605e4667040",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/blockquote[1]/p[1]",
       "language": "urd",
       "latest_task": "c0ef2657001821f93ae9af379966909e",
-      "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-197da9da77185b3456b0ebc06a93364ac79ba042a1c5569d45af0bd5ab287261"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13477,12 +13343,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "b823a424ee8fbd937af4291433e03509",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13533,6 +13399,15 @@
       "reason": "eligible_automatic"
     },
     {
+      "admission_status": "attention",
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "language": "urd",
+      "latest_task": null,
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-e8cd9c6069b4cfa2073af63ba4ead8235c948d2929e245fa44a4a3539ec4da75"
+    },
+    {
       "accepted_cycles": 0,
       "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
       "language": "urd",
@@ -13558,14 +13433,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
-      "detail": "Scripture attention: missing_edition: ur: No matching translation in the checked catalog; references remain unchanged.",
       "language": "urd",
       "latest_task": "ceef4ac135048c0957e67597a392993e",
-      "processing_status": "held_without_publication",
-      "reason": "missing_edition",
-      "request_id": "auto-494b3abd96ec2ac3ce7ef5697c66c663c4bc30679a66408493ced7597192d832"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13584,12 +13456,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference"
+      "latest_task": "abfb8190e6efd089bd86574e413212e5",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13707,12 +13579,11 @@
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/p[10]: citation lacks a complete explicit scope",
       "language": "urd",
       "latest_task": "133fb840bb82e74457a4b035d394c570",
       "processing_status": "held_without_publication",
-      "reason": "ambiguous_quote_reference",
-      "request_id": "auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460"
+      "reason": "automatic_capacity_wait",
+      "request_id": "auto-15e30c8b431f6c687783c3a86cfc190cc5d7d9ccf327617c578fa6d7dc073c7a"
     },
     {
       "accepted_cycles": 0,
@@ -13732,14 +13603,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "attention",
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "detail": "Scripture attention: unresolved_quote_reference: /article[1]/p[2]: marked material has unowned citations",
       "language": "urd",
       "latest_task": "6e1d2b95113d7a44a0193c16b589e30f",
-      "processing_status": "held_without_publication",
-      "reason": "unresolved_quote_reference",
-      "request_id": "auto-e130c254e19772571333bf2123dafe5575d67abfc0990d7ed06254c16abb8741"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13830,12 +13698,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "attention",
+      "accepted_cycles": 0,
       "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
       "language": "urd",
-      "latest_task": null,
-      "processing_status": "held_without_publication",
-      "reason": "unmarked_quote_scope"
+      "latest_task": "ce6d387e0fc601db94dd5ebf82db0a17",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13855,13 +13723,11 @@
     },
     {
       "accepted_cycles": 0,
-      "admission_status": "pending",
       "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
       "language": "urd",
       "latest_task": "77ad8efb79dffe003e383794891e2670",
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-ecd6f3f172662b8dc155824f5572b021100c5ace6a5eafbb42128a347e014554"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -13921,6 +13787,6 @@
     }
   ],
   "settled_unused_usd": 8.719089,
-  "source_revision": "75eb5963bd7e112102bc9629739ffd4e9fb3ba65",
+  "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }

@@ -1,8 +1,8 @@
 {
   "articles_discovered": 1167,
   "issues_discovered": 100,
-  "pending_tasks": 3,
-  "source_revision": "75eb5963bd7e112102bc9629739ffd4e9fb3ba65",
-  "unfinished_manual_admissions": 157,
+  "pending_tasks": 133,
+  "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+  "unfinished_manual_admissions": 27,
   "utc_date": "2026-10-08"
 }
