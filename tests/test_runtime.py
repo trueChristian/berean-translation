@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from berean_translation.common import ContractError, canonical, digest, json_hash, loads
-from berean_translation.html import Fragment, reference_numbers, split_article, validate_translation
+from berean_translation.html import Fragment, split_article, validate_translation
 from berean_translation.requests import accepted_review
 from berean_translation.validation import export, validate_repository
 from support import A,B,ISSUE,ISSUE2,queue,setup,drive

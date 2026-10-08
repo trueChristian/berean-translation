@@ -15,7 +15,7 @@ from unittest.mock import patch
 from berean_translation import continuation
 from berean_translation.common import ContractError, canonical, json_hash, loads
 from berean_translation.downstream import (
-    accept, enqueue_hour, execution_settings, funding_ledger, ledger,
+    accept, execution_settings, funding_ledger, ledger,
     validate_history,
 )
 from berean_translation.requests import build_request
@@ -135,7 +135,8 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.state.save_campaign(campaign)
         child = self.child(campaign)
         line = build_request(self.config, self.state, child)[0]
-        self.assertEqual(line['body']['messages'][0]['content'], campaign['prompts']['translation'])
+        self.assertTrue(line['body']['messages'][0]['content'].startswith(self.config.prompt('translation')))
+        self.assertIn('95/100', line['body']['messages'][0]['content'])
         self.finish(self.response('old Sol candidate', 'Faith'))
         child = self.task(child['id'])
         self.assertEqual(child['status'], 'not_ready')
@@ -168,7 +169,8 @@ class RecoveryContinuationTests(unittest.TestCase):
                             continuation.strategy(old_campaign, 'afr'))
         self.assertEqual(child['stage'], 'correct')
         repair = build_request(self.config, self.state, child)[0]
-        self.assertEqual(repair['body']['messages'][0]['content'], self.config.prompt('repair'))
+        self.assertTrue(repair['body']['messages'][0]['content'].startswith(self.config.prompt('translation')))
+        self.assertIn('95/100', repair['body']['messages'][0]['content'])
         repair_payload = loads(repair['body']['messages'][1]['content'])
         self.assertEqual(repair_payload['translation'], self.state.candidate(old))
         self.assertEqual(repair_payload['correction_findings'], old['findings'])
@@ -343,18 +345,12 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 4)
         self.validate()
 
-    def test_hourly_queue_waits_for_cooldown_then_adds_one_append_only_successor(self):
+    def test_historical_scheduled_authority_adds_one_append_only_successor(self):
         _, child = self.reject_cycle()
         self.policy.update(enabled=True, total_budget_usd=4, campaign_budget_usd=2, max_articles=1)
         future = datetime.fromisoformat(child['finished_at']) + timedelta(hours=2)
-        with patch('berean_translation.downstream.datetime') as queue_clock:
-            queue_clock.now.return_value = future
-            enqueue_hour(self.engine)
-            enqueue_hour(self.engine)
-        paths = list(self.state.path('state/queue').glob('downstream-*.json'))
-        self.assertEqual(len(paths), 1)
-        request = self.state.read(str(paths[0].relative_to(self.root)))
-        self.assertEqual(request['continuation_policy'], continuation.policy())
+        hour = future.strftime('%Y-%m-%dT%H')
+        request = self.shared('downstream-' + future.strftime('%Y%m%d%H'), scheduled_hour=hour)
         with patch('berean_translation.downstream.now', return_value=future.isoformat()):
             campaign = accept(self.engine, request)
         successor = self.child(campaign)
@@ -761,28 +757,29 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.engine.accept_queue()
         active_campaign = self.state.read('state/campaigns/active-pair.json')
         self.assertEqual(active_campaign['status'], 'active')
-        state_bytes = {path: path.read_bytes() for path in self.state.path('state').rglob('*.json')}
+        state_bytes = {path: path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                       if path.name != 'automatic-status.json'}
         future = datetime.fromisoformat(held['finished_at']) + timedelta(hours=2)
-        with patch('berean_translation.continuation.datetime') as clock:
+        with patch('berean_translation.autonomous.datetime') as clock:
             clock.now.return_value = future
             clock.fromisoformat.side_effect = datetime.fromisoformat
             self.state.derive(self.config)
         self.assertEqual(state_bytes,
-                         {path: path.read_bytes() for path in self.state.path('state').rglob('*.json')})
+                         {path: path.read_bytes() for path in self.state.path('state').rglob('*.json')
+                          if path.name != 'automatic-status.json'})
         report = self.state.read('RECOVERY.json')
         self.assertTrue(report['derived'])
-        self.assertEqual(report['hourly_funding_state'], 'paused')
+        self.assertFalse(report['automatic_enabled'])
         rows = {item['language']: item for item in report['items']}
         expected = {'afr': 'continuation_no_candidate_progress_requires_attention',
-                    languages[0]: 'eligible_paused', languages[1]: 'cancelled_requires_attention',
-                    languages[2]: 'source_error_requires_attention',
-                    languages[3]: 'proposal_requires_attention', active_language: 'active'}
-        self.assertEqual({language: row['reason'] for language, row in rows.items()}, expected)
-        self.assertEqual(report['counts'], {reason: 1 for reason in expected.values()})
+                    languages[0]: 'automatic_paused', languages[1]: 'terminal_outcome_requires_attention',
+                    languages[2]: 'terminal_outcome_requires_attention',
+                    languages[3]: 'terminal_outcome_requires_attention', active_language: 'active'}
+        self.assertEqual({language: rows[language]['reason'] for language in expected}, expected)
+        self.assertEqual(sum(report['counts'].values()), len(expected))
+        summary = self.state.read('state/automatic-status.json')
+        self.assertEqual(summary['counts']['unstarted'], len(self.config.languages) - len(expected))
         self.assertEqual(rows['afr']['accepted_cycles'], 1)
-        self.assertEqual(rows['afr']['remaining_cycles'], 2)
-        self.assertFalse(any(row['has_publication'] for row in rows.values()))
-        self.assertGreater(rows[languages[0]]['required_cycle_ceiling_usd'], 0)
         self.assertEqual(self.state.read(f'state/campaigns/{campaign["id"]}.json')['status'], 'finished')
         self.assertFalse(self.state.projection(self.config)['articles'])
         status = self.state.path('STATUS.md').read_text(encoding='utf-8')

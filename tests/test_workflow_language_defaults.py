@@ -17,7 +17,7 @@ from support import A, B, REPO_ROOT, drive, queue, setup
 
 
 def workflow(name):
-    return yaml.load((REPO_ROOT / ('docs/historical-workflows' if name in ('ai-recover.yml', 'ai-repair.yml', 'ai-scripture-components.yml') else '.github/workflows') / name).read_text(encoding='utf-8'),
+    return yaml.load((REPO_ROOT / '.github/workflows' / name).read_text(encoding='utf-8'),
                      Loader=yaml.BaseLoader)
 
 
@@ -147,32 +147,6 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         self.assertTrue(all(task['status'] == 'budget_blocked' for task in self.state.tasks()))
         self.assertEqual(self.provider.upload_calls, 0)
         self.assertEqual(self.provider.create_calls, 0)
-
-    def test_recovery_workflows_keep_their_bounded_non_language_selectors(self):
-        for name, mode, expected_inputs in (
-                ('ai-recover.yml', 'exact-recovery',
-                 {'original_campaign', 'previous_task_ids', 'model', 'review_model', 'budget_usd', 'dry_run'}),
-                ('ai-repair.yml', 'downstream-recovery',
-                 {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run', 'max_candidate_bytes'})):
-            with self.subTest(workflow=name):
-                document = workflow(name)
-                inputs = document['on']['workflow_dispatch']['inputs']
-                self.assertEqual(set(inputs), expected_inputs)
-                self.assertEqual(inputs['dry_run']['default'], 'true')
-                self.assertEqual(inputs['budget_usd']['required'], 'true')
-                env = document['jobs']['enqueue']['steps'][-1]['env']
-                self.assertEqual(env['TRANSLATION_SELECTION'], mode)
-                self.assertNotIn('INPUT_LANGUAGE', env)
-                self.assertNotIn('INPUT_LANGUAGES', env)
-        recover = workflow('ai-recover.yml')['on']['workflow_dispatch']['inputs']
-        for field in ('original_campaign', 'previous_task_ids'):
-            self.assertEqual(recover[field]['required'], 'true')
-            self.assertNotIn('default', recover[field])
-        repair = workflow('ai-repair.yml')['on']['workflow_dispatch']['inputs']
-        self.assertEqual(repair['max_articles']['options'], ['1', '2', '3', '4', '5'])
-        self.assertEqual(repair['max_articles']['default'], '3')
-        self.assertEqual(repair['budget_usd']['default'], '30')
-
 
 if __name__ == '__main__':
     unittest.main()

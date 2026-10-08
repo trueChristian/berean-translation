@@ -11,7 +11,7 @@ from unittest.mock import patch
 from berean_translation import continuation
 from berean_translation.common import ContractError
 from berean_translation.config import Config
-from berean_translation.downstream import accept, enqueue_hour, frontier, funding_ledger
+from berean_translation.downstream import accept, funding_ledger
 from berean_translation.state import TERMINAL
 from berean_translation.validation import validate_repository
 from support import A, B, REPO_ROOT, FakeProvider, drive, queue, setup
@@ -34,7 +34,7 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.assertIs(config.runtime['automatic_new_translation'], True)
         self.assertEqual(config.runtime['autonomous_translation']['total_budget_usd'], 30)
 
-    def test_ten_hourly_envelopes_are_permanent_and_separate_from_manual_ten_dollars(self):
+    def test_ten_historical_envelopes_are_permanent_and_separate_from_manual_ten_dollars(self):
         for target in ('socket.socket.connect', 'socket.create_connection', 'socket.getaddrinfo'):
             guard = patch(target, side_effect=AssertionError('Real network access forbidden'))
             guard.start()
@@ -93,9 +93,9 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         for ordinal in range(1, 11):
             with self.subTest(hour=ordinal):
                 at = start + timedelta(hours=ordinal)
-                identity = self.enqueue(at)
-                request = self.state.read(f'state/queue/{identity}.json')
-                self.assertIsNotNone(request)
+                request = self.historical_request(at)
+                identity = request['id']
+                self.state.write(f'state/queue/{identity}.json', request)
                 self.assertEqual(request['continuation_policy'], continuation.policy())
                 self.assertEqual({key: request[key] for key in (
                     'model', 'review_model', 'max_articles', 'budget_usd')}, {
@@ -145,17 +145,15 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.assertEqual(len(scheduled), 10)
         self.assertEqual(self.state.path(f'state/campaigns/{manual["id"]}.json').read_bytes(), manual_snapshot)
         self.assertEqual(self.config.runtime['automatic_downstream_recovery'], approved)
-        report = frontier(self.config, self.state)
-        self.assertEqual(report['hourly_funding_state'], 'budget_exhausted')
-        self.assertGreater(report['counts'].get('eligible_budget_exhausted', 0), 0)
+        self.assertEqual(funding_ledger(self.state)['shared_policy_usd'], 10)
         calls = self.provider.create_calls
         before = {path.name: path.read_bytes() for path in self.state.path('state/queue').glob('*.json')}
         blocked_at = start + timedelta(hours=11)
-        blocked_id = self.enqueue(blocked_at)
+        blocked = self.historical_request(blocked_at)
+        blocked_id = blocked['id']
         self.assertIsNone(self.state.read(f'state/queue/{blocked_id}.json'))
         self.assertEqual(before, {path.name: path.read_bytes()
                                  for path in self.state.path('state/queue').glob('*.json')})
-        blocked = {**request, 'id': blocked_id, 'scheduled_hour': blocked_at.strftime('%Y-%m-%dT%H')}
         with self.assertRaisesRegex(ContractError, 'lifetime spending envelope exhausted'):
             accept(self.engine, blocked)
         self.assertEqual(self.provider.create_calls, calls)
@@ -179,12 +177,14 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
     def task(self, identity):
         return self.state.read(f'state/tasks/{identity}/task.json')
 
-    def enqueue(self, at):
-        with patch('berean_translation.downstream.datetime') as queue_clock:
-            queue_clock.now.return_value = at
-            enqueue_hour(self.engine)
-            enqueue_hour(self.engine)
-        return 'downstream-' + at.strftime('%Y%m%d%H')
+    def historical_request(self, at):
+        policy = self.config.runtime['automatic_downstream_recovery']
+        return {'id': 'downstream-' + at.strftime('%Y%m%d%H'), 'operation': 'repair',
+                'model': policy['model'], 'review_model': policy['review_model'],
+                'budget_usd': policy['campaign_budget_usd'], 'max_articles': policy['max_articles'],
+                'dry_run': False, 'scheduled_hour': at.strftime('%Y-%m-%dT%H'),
+                'requested_by': 'historical-authority-fixture',
+                'continuation_policy': continuation.policy()}
 
     def assert_funding(self, accepted):
         funding = funding_ledger(self.state)

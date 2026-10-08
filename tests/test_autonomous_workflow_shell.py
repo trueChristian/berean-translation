@@ -50,7 +50,6 @@ class AutonomousWorkflowShellTests(unittest.TestCase):
             root = Path(directory)/'checkout'; root.mkdir()
             setup(root)
             runtime = read_json(root/'config/runtime.json')
-            runtime['plain_translation_policy_version'] = 1
             runtime['automatic_new_translation'] = True
             runtime['autonomous_translation'].update(enabled=True, page_size=20, max_active_tasks=50)
             (root/'config/runtime.json').write_bytes(canonical(runtime))

@@ -9,7 +9,7 @@ from unittest.mock import MagicMock, patch
 from urllib.error import HTTPError
 from berean_translation.common import ContractError, canonical, digest, loads, safe_path, write_json
 from berean_translation.config import Config
-from berean_translation.html import Fragment, notice, reference_numbers, rewrite_export_urls, validate_translation
+from berean_translation.html import Fragment, notice, rewrite_export_urls, validate_translation
 from berean_translation.provider import OpenAIProvider
 from berean_translation.queue import enqueue_github
 from berean_translation.source import translation_key
@@ -70,12 +70,6 @@ class ContractTests(unittest.TestCase):
             self.assertNotIn('<model & name>',value)
             self.assertIn(f'/en/articles/{A}/',value)
             self.assertIn(f'lang="{language["tag"]}"',value)
-
-    def test_scripture_numbers_and_localized_digits(self):
-        self.assertEqual(reference_numbers('John 3:16–18'),reference_numbers('يوحنا ٣:١٦-١٨'))
-        self.assertNotEqual(reference_numbers('John 3:16'),reference_numbers('John 3:17'))
-        bad = copy.deepcopy(self.candidate); bad['html'] = bad['html'].replace('3:16','3:17')
-        with self.assertRaises(ContractError): validate_translation(self.source,bad)
 
     def test_html_active_content_attributes_and_links_are_blocked(self):
         for value in (
@@ -177,16 +171,24 @@ class ContractTests(unittest.TestCase):
         self.assertNotIn('another provider', path.read_text())
         self.assertIn('data-translation-notice="human-reviewed"', path.read_text())
 
-    def test_rate_budget_and_prompts_are_frozen_per_campaign(self):
+    def test_historical_funding_and_paid_request_are_frozen_while_new_reviews_use_current_prompt(self):
         queue(self.state); self.engine.tick()
         batch = self.state.batches()[0]
         campaign = self.state.campaigns()[0]
         original_prompt = campaign['prompts']['review']
+        original_input = self.state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
+        original_models = copy.deepcopy(campaign['models'])
+        original_budget = campaign['budget_usd']
         (self.root/'prompts/review.txt').write_text('Changed prompt for future campaigns')
         self.provider.complete_all(); self.engine.tick()
         review_batch = next(b for b in self.state.batches() if b['stage']=='review1')
         body = loads(self.state.path(f'state/batches/{review_batch["id"]}/input.jsonl').read_bytes().splitlines()[0])['body']
-        self.assertEqual(body['messages'][0]['content'],original_prompt)
+        self.assertTrue(body['messages'][0]['content'].startswith('Changed prompt for future campaigns'))
+        retained = self.state.read(f'state/campaigns/{campaign["id"]}.json')
+        self.assertEqual(retained['prompts']['review'], original_prompt)
+        self.assertEqual(retained['models'], original_models)
+        self.assertEqual(retained['budget_usd'], original_budget)
+        self.assertEqual(self.state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes(), original_input)
 
     def test_queue_conflict_retry_does_not_duplicate_a_request(self):
         request = queue(self.state)

@@ -5,6 +5,7 @@ import copy
 import unittest
 from decimal import Decimal
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from berean_translation.common import ContractError, canonical, read_json
@@ -35,7 +36,6 @@ class ReadOnlyState:
 
 class CycleBudgetTests(unittest.TestCase):
     def setUp(self):
-        self.config = object()  # Only frozen campaign/task data may affect costs.
         models = read_json(ROOT / 'config/models.json')
         self.task = {'id': 'new-child', 'campaign': 'new-campaign',
                      'language': 'afr', 'stage': 'correct', 'model': 'gpt-6.1-sol',
@@ -51,6 +51,9 @@ class CycleBudgetTests(unittest.TestCase):
                                                        'guidance': 'Keep source structure.'}},
                          'glossaries': {'afr': {'grace': 'genade'}},
                          'max_output_tokens': 32768, 'review_output_tokens': 8192}
+        self.config = SimpleNamespace(runtime={'prompt_version': '2.0.0', 'quality_threshold': 95,
+                                              'upgrade_quality_threshold': 98},
+                                      prompt=lambda name: self.campaign['prompts'][name])
         self.source = {'html': '<article><p>Faith and “grace”.</p></article>',
                        'article': {'title': 'Faith', 'subtitle': None, 'section': 'Teaching',
                                    'byline': 'A. Author'}}

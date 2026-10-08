@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 from berean_translation.common import ContractError, digest, json_hash
-from berean_translation.validation import export, validate_publication_history, validate_repository
+from berean_translation.validation import export, validate_repository
 from support import A, B, drive, queue, setup
 
 
@@ -14,7 +14,6 @@ class PublicationHistoryTests(unittest.TestCase):
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
         self.config, self.state, self.upstream, self.provider, self.git, self.engine = setup(self.root)
-        self.config.runtime['plain_translation_policy_version'] = 1
         self.config.runtime['upgrade_quality_threshold'] = 98
         queue(self.state)
         drive(self.engine, self.provider)
@@ -53,7 +52,6 @@ class PublicationHistoryTests(unittest.TestCase):
         self.state.save_record(record)
 
     def test_valid_backups_preserve_exact_html_and_metadata_semantics(self):
-        self.assertEqual(validate_publication_history(self.config), 2)
         self.assertEqual(validate_repository(self.config)['published'], 2)
         for identity in (A, B):
             _, event = self.replacement(identity)

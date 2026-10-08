@@ -7,10 +7,10 @@ from pathlib import Path
 from unittest.mock import patch
 from berean_translation.common import ContractError, json_hash
 from berean_translation.downstream import (
-    accept, eligible, enqueue_hour, funding_ledger, funding_settings, ledger,
+    accept, eligible, funding_ledger, funding_settings, ledger,
     submission_enabled, validate_history, validate_request,
 )
-from berean_translation.recovery import money
+from berean_translation.common import money
 from berean_translation.validation import validate_repository
 from support import setup, queue, drive
 
@@ -157,7 +157,6 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         request.pop('manual_authorization')
         with self.assertRaisesRegex(ContractError, 'disabled'):
             accept(self.engine, request)
-        enqueue_hour(self.engine)
         self.assertFalse(list(self.state.path('state/queue').glob('downstream-*.json')))
         self.assertEqual(self.policy['total_budget_usd'], 0)
 
@@ -325,12 +324,11 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         self.state.write(f'state/queue/{request["id"]}.json', request)
         with self.assertRaises(ContractError): ledger(self.state)
 
-    def test_status_separates_manual_allocations_from_disabled_hourly_zero(self):
+    def test_status_separates_actual_manual_and_shared_allocations(self):
         accept(self.engine, self.manual())
         self.state.derive(self.config)
         text = self.state.path('STATUS.md').read_text()
-        self.assertIn('Paused: hourly/shared-policy recovery submissions are disabled', text)
-        self.assertIn('Accepted lifetime recovery allocations: $0.000000 / $0.00.', text)
+        self.assertIn('Accepted shared allocations: $0.000000 across 0 runs.', text)
         self.assertIn('Separately authorized manual workflow allocations: $10.000000 across 1 accepted runs.', text)
-        self.assertIn('do not consume or enable the hourly policy', text)
+        self.assertNotIn('hourly policy', text)
         self.assertEqual(self.policy, self.policy_before)

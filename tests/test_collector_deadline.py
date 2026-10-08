@@ -214,6 +214,8 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (0, 0))
         self.assertTrue(all(task['translation_attempts'] == 1 for task in self.state.tasks()))
         frozen = self.frozen_reservation(batch)
+        # Standalone stage methods persist work; tick rebuilds public reports.
+        self.state.derive(self.config)
         validate_repository(self.config)
 
         self.engine.submit(batch, continue_work=clock.continue_work)
@@ -223,6 +225,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(resumed['status'], 'submitted')
         self.assertEqual(self.frozen_reservation(resumed), frozen)
         self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (1, 1))
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_expiry_after_upload_checkpoint_reuses_saved_file_before_one_create(self):
@@ -237,6 +240,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (1, 0))
         self.assertEqual(self.provider.files[uploaded['input_file_id']], frozen['payload'])
         self.assertEqual(self.frozen_reservation(uploaded), frozen)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
         self.engine.submit(uploaded, continue_work=clock.continue_work)
@@ -247,6 +251,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(resumed['input_file_id'], uploaded['input_file_id'])
         self.assertEqual(self.frozen_reservation(resumed), frozen)
         self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (1, 1))
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_expiry_after_durable_intent_finishes_create_and_outcome_checkpoint(self):
@@ -263,6 +268,7 @@ class CollectorDeadlineTests(unittest.TestCase):
                          'runtime: persist OpenAI batch identity or uncertain-submission state')
         self.engine.collect()
         self.assertEqual(self.provider.create_calls, 1)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_expired_intent_with_lost_success_is_reconciled_without_recreating(self):
@@ -276,6 +282,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(len(self.provider.batches), 1)
         self.assertEqual(self.git.checkpoints[-1],
                          'runtime: persist OpenAI batch identity or uncertain-submission state')
+        self.state.derive(self.config)
         validate_repository(self.config)
 
         self.provider.raise_create = None
@@ -283,6 +290,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(self.state.batches()[0]['status'], 'submitted')
         self.assertEqual(self.provider.create_calls, 1)
         self.assertEqual(self.provider.upload_calls, 1)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_failed_intent_checkpoint_blocks_create_and_replay_remains_uncertain(self):
@@ -304,6 +312,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(self.state.batches()[0]['status'], 'submission_unknown')
         self.assertEqual(self.provider.create_calls, 0)
         self.assertEqual(self.provider.upload_calls, 1)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_failed_outcome_checkpoint_does_not_repeat_successful_create(self):
@@ -326,6 +335,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.engine.collect()
         self.assertEqual(self.provider.create_calls, 1)
         self.assertEqual(self.provider.upload_calls, 1)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
     def test_poll_that_reaches_deadline_never_starts_an_extra_tick(self):
@@ -522,6 +532,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.assertEqual(len(pending), 1)
         self.assertEqual(pending[0]['status'], 'prepared')
         self.assertEqual(self.provider.create_calls, calls)
+        self.state.derive(self.config)
         validate_repository(self.config)
 
         for _ in range(3):

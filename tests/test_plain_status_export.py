@@ -57,13 +57,28 @@ class PlainStatusExportTests(unittest.TestCase):
         accepted = self.state.work_summary(self.config)
         self.assertEqual(accepted['replacement_counts'], {'queued': 0, 'active': 0, 'held': 0})
         for task in self.state.tasks():
+            task['id'] = digest(task['id'] + 'replacement')[:32]
             task['status'] = 'not_ready'
             self.state.save_task(task)
+            record = self.state.record(task['language'], task['article_id'])
+            record['latest_task'] = task['id']
+            self.state.save_record(record)
         summary = self.state.work_summary(self.config)
         self.assertEqual(summary['counts']['published'], 2)
         self.assertEqual(summary['counts']['held_without_publication'], 0)
         self.assertEqual(summary['replacement_counts']['held'], 2)
         self.assertEqual(sum(summary['counts'].values()), 40)
+
+    def test_acceptance_does_not_reclassify_frozen_held_task_as_failed_replacement(self):
+        self.publish()
+        for task in self.state.tasks():
+            task['status'] = 'not_ready'
+            self.state.save_task(task)
+        before = self.state.tasks()
+        summary = self.state.work_summary(self.config)
+        self.assertEqual(summary['counts']['published'], 2)
+        self.assertEqual(summary['replacement_counts'], {'queued': 0, 'active': 0, 'held': 0})
+        self.assertEqual(self.state.tasks(), before)
 
     def test_admission_without_task_is_reported_and_source_errors_are_held(self):
         self.state.save_campaign({'id': 'admission-report', 'operation': 'translate'})
@@ -108,6 +123,7 @@ class PlainStatusExportTests(unittest.TestCase):
         self.assertEqual(automatic['pending_requests'], 0)
         self.assertEqual(automatic['counts']['unstarted'], 40)
         self.assertEqual(automatic['target_pairs'], 40)
+        self.assertEqual(recovery['items'], [])
 
     def test_corrupt_unpublished_batch_history_blocks_runtime_but_not_good_export(self):
         self.publish()
@@ -149,7 +165,7 @@ class PlainStatusExportTests(unittest.TestCase):
         self.assertEqual(self.state.publication_candidate(self.state.record('afr', A)['published'])[2], before)
         self.assertEqual(len(self.state.projection(self.config)['articles']), 2)
 
-    def test_plain_publication_skips_scripture_number_gate_but_legacy_keeps_it(self):
+    def test_publication_validation_has_no_special_reference_gate(self):
         self.publish()
         record = self.state.record('afr', A)
         publication = record['published']
@@ -157,11 +173,6 @@ class PlainStatusExportTests(unittest.TestCase):
         text = path.read_text().replace('3:16', '3:17')
         path.write_text(text)
         publication['html_sha256'] = digest(text)
-        publication['plain_translation_policy_version'] = 1
         self.state.save_record(record)
         self.state.derive(self.config)
         validate_publications(self.config)
-        publication.pop('plain_translation_policy_version')
-        self.state.save_record(record)
-        with self.assertRaisesRegex(ContractError, 'Scripture chapter/verse'):
-            validate_publications(self.config)

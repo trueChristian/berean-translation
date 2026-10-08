@@ -26,13 +26,6 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
          self.git, self.engine) = setup(self.root, review_contract_version=2)
         self.upstream.articles = self.upstream.articles[:1]
         self.upstream.rebuild()
-        runtime = read_json(self.root / 'config/runtime.json')
-        runtime.update(plain_translation_policy_version=1, quality_threshold=95,
-                       upgrade_quality_threshold=98, scripture_quotes_enabled=False)
-        (self.root / 'config/runtime.json').write_bytes(canonical(runtime))
-        self.config = Config(self.root)
-        self.engine.config = self.config
-
     def candidate(self, payload, *, improved=False):
         source = payload['source']
         word = 'Glaube' if improved else 'Vertrauen'
@@ -64,13 +57,13 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         record = self.state.record('deu', A)
         return self.state.read(f'state/tasks/{record["latest_task"]}/task.json')
 
-    def set_policy(self, *, plain):
+    def set_policy(self, *, legacy):
         runtime = read_json(self.root / 'config/runtime.json')
-        if plain:
-            runtime.update(plain_translation_policy_version=1, review_contract_version=2)
-        else:
-            runtime.pop('plain_translation_policy_version', None)
+        runtime['prompt_version'] = '1.0.3' if legacy else '2.0.0'
+        if legacy:
             runtime.pop('review_contract_version', None)
+        else:
+            runtime['review_contract_version'] = 2
         (self.root / 'config/runtime.json').write_bytes(canonical(runtime))
         self.config = Config(self.root)
         self.engine.config = self.config
@@ -86,9 +79,6 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         publication = self.publish_initial()
         task = self.latest_task()
         campaign = self.state.read('state/campaigns/initial.json')
-        self.assertEqual(campaign['plain_translation_policy_version'], 1)
-        self.assertEqual(task['plain_translation_policy_version'], 1)
-        self.assertEqual(publication['plain_translation_policy_version'], 1)
         self.assertNotIn('scripture_quotes', campaign)
         self.assertNotIn('accepted_baseline', task)
         candidate = self.state.candidate(task)
@@ -232,7 +222,7 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         self.assertEqual(self.provider.create_calls, 0)
 
     def test_already_paid_legacy_translation_uses_plain_result_then_saved_candidate_recovery(self):
-        self.set_policy(plain=False)
+        self.set_policy(legacy=True)
         queue(self.state, 'legacy-translate', languages='deu')
         self.engine.tick()
         task = self.latest_task()
@@ -242,19 +232,16 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         remote_batch = next(iter(self.provider.batches.values()))
         original_payload = self.provider.files[remote_batch['input_file_id']]
         self.provider.complete_all(self.responder())
-        self.set_policy(plain=True)
+        self.set_policy(legacy=False)
 
         # An already submitted result is collected under plain evaluation;
         # immutable legacy request bytes remain its provider provenance.
-        with patch('berean_translation.engine.validate_scripture_candidate',
-                   side_effect=AssertionError('Plain evaluation must not require Scripture selections')):
-            self.engine.tick(discover_source=False)
+        self.engine.tick(discover_source=False)
         retired = self.state.read(f'state/tasks/{task["id"]}/task.json')
         self.assertEqual(retired['status'], 'not_ready')
         self.assertEqual(retired['failure_kind'], 'policy_retired')
         self.assertEqual(retired['translation_attempts'], 1)
         self.assertEqual(retired['review_attempts'], 0)
-        self.assertEqual(retired['processing_policy']['plain_translation_policy_version'], 1)
         candidate = self.state.candidate(retired)
         self.assertEqual(set(candidate), {'html', 'title', 'subtitle', 'section'})
         self.assertIn('Johannes 3,16–18', candidate['html'])
@@ -277,7 +264,7 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         self.assertEqual(self.state.read(f'state/tasks/{task["id"]}/task.json'), retired)
 
     def test_already_paid_legacy_review_can_publish_at_95_without_rewriting_its_contract(self):
-        self.set_policy(plain=False)
+        self.set_policy(legacy=True)
         queue(self.state, 'legacy-review', languages='deu')
         self.engine.tick()
 
@@ -295,15 +282,11 @@ class PlainRuntimeLifecycleTests(unittest.TestCase):
         remote_batch = list(self.provider.batches.values())[-1]
         original_payload = self.provider.files[remote_batch['input_file_id']]
         self.provider.complete_all(lambda line: {'score': 95, 'passed': True, 'findings': []})
-        self.set_policy(plain=True)
-        with patch('berean_translation.engine.validate_scripture_candidate',
-                   side_effect=AssertionError('Plain publication must not require Scripture selections')):
-            self.engine.tick(discover_source=False)
+        self.set_policy(legacy=False)
+        self.engine.tick(discover_source=False)
         completed = self.latest_task()
         publication = self.state.record('deu', A)['published']
         self.assertEqual(completed['status'], 'complete')
-        self.assertEqual(completed['processing_policy']['plain_translation_policy_version'], 1)
-        self.assertEqual(publication['plain_translation_policy_version'], 1)
         self.assertEqual(publication['quality_score'], 95)
         self.assertEqual(publication['task'], task['id'])
         self.assertEqual(self.provider.files[remote_batch['input_file_id']], original_payload)
