@@ -1569,11 +1569,23 @@
       "task_id": "378c3408ea7b3cea412acd08da406cd5"
     },
     "37be288c2409dc3835b71f5c5684fcec": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "3647cc7f86384443264ec5381e68c92f462e7f8abb5631640978cf50d09e2027",
+        "provenance_sha256": "7ee4141fc39421b34d77abf10bac778d2f65d91baf337264ca58523f8b96efcc",
+        "sha256": "9a5972fedfb5efa5f3b91aab41e27a4fd24c748c9432b0fc5c49b345b929bb69",
+        "text": "Scripture attention: unassociated_source_quote: /article[1]/p[6]: marked source text matches kjv/58/12 without its own proved citation: mount that might be touched"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T10:32:29+00:00",
+          "reason": "unassociated_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1610,16 +1622,28 @@
         }
       },
       "provenance_sha256": "7ee4141fc39421b34d77abf10bac778d2f65d91baf337264ca58523f8b96efcc",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unassociated_source_quote",
+      "status": "attention",
       "task_id": "37be288c2409dc3835b71f5c5684fcec"
     },
     "388e3cbbd4b19f8ea8bcc32d88d72bfa": {
+      "attention_detail": {
+        "event_index": 1,
+        "event_sha256": "ada90916b780941fe41f0c8f6898b1b35a4c01b87a6944775810fcb4455aacdf",
+        "provenance_sha256": "751500f86d074766ef3e663be08cd3cb802b4c52ffbb8a70c77d0a5edfb6977c",
+        "sha256": "e1f90f3f75cba848c160aa923c0989802d93e9143cc0a080d497e8e65b5eda39",
+        "text": "Scripture attention: unassociated_source_quote: /article[1]/p[6]: marked source text matches kjv/58/12 without its own proved citation: mount that might be touched"
+      },
       "events": [
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
           "status": "pending"
+        },
+        {
+          "at": "2026-10-08T10:33:14+00:00",
+          "reason": "unassociated_source_quote",
+          "status": "attention"
         }
       ],
       "item": {
@@ -1656,8 +1680,8 @@
         }
       },
       "provenance_sha256": "751500f86d074766ef3e663be08cd3cb802b4c52ffbb8a70c77d0a5edfb6977c",
-      "reason": "awaiting_prefetch",
-      "status": "pending",
+      "reason": "unassociated_source_quote",
+      "status": "attention",
       "task_id": "388e3cbbd4b19f8ea8bcc32d88d72bfa"
     },
     "38af37d44e8e9e07fa3247ac6bfac41f": {
@@ -1665,6 +1689,11 @@
         {
           "at": "2026-10-08T09:14:26+00:00",
           "reason": "awaiting_prefetch",
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-08T10:33:36+00:00",
+          "reason": "prefetch_wait_budget",
           "status": "pending"
         }
       ],
@@ -1702,7 +1731,7 @@
         }
       },
       "provenance_sha256": "f8b773ce720a824293a25883c9638d6974fed0b4f8dff7649e93464248e5683b",
-      "reason": "awaiting_prefetch",
+      "reason": "prefetch_wait_budget",
       "status": "pending",
       "task_id": "38af37d44e8e9e07fa3247ac6bfac41f"
     },

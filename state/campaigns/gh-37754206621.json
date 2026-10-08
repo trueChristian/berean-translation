@@ -1,7 +1,7 @@
 {
   "admission_counts": {
-    "attention": 110,
-    "pending": 20
+    "attention": 112,
+    "pending": 18
   },
   "budget_usd": 30.0,
   "created_at": "2026-10-08T09:14:26+00:00",
@@ -2406,6 +2406,24 @@
       "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
       "detail": "Scripture attention: prefetch_wait_budget: Continue evidence collection in a later worker window",
       "language": "cmn",
+      "reason": "prefetch_wait_budget"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "detail": "Scripture attention: unassociated_source_quote: /article[1]/p[6]: marked source text matches kjv/58/12 without its own proved citation: mount that might be touched",
+      "language": "ara",
+      "reason": "unassociated_source_quote"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "detail": "Scripture attention: unassociated_source_quote: /article[1]/p[6]: marked source text matches kjv/58/12 without its own proved citation: mount that might be touched",
+      "language": "fra",
+      "reason": "unassociated_source_quote"
+    },
+    {
+      "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "detail": "Scripture attention: prefetch_wait_budget: Continue evidence collection in a later worker window",
+      "language": "kor",
       "reason": "prefetch_wait_budget"
     }
   ],
