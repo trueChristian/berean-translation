@@ -589,6 +589,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37339703325` | manual | translate | finished | 0 | no task work | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37339703325.json) |
 | `gh-37339848895` | manual recovery | repair | finished | 5 | 3 complete, 2 held | 0.23319125 | 1.530268 / 30.00 | [state](state/campaigns/gh-37339848895.json) |
 | `gh-37439892859` | manual | translate | admission_attention | 0 | 27 admission attention | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37439892859.json) / [admissions](state/manual-admissions/gh-37439892859.json) |
+| `gh-37754206621` | manual | translate | active | 0 | 130 admission pending | 0.00000000 | 0.000000 / 30.00 | [state](state/campaigns/gh-37754206621.json) / [admissions](state/manual-admissions/gh-37754206621.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
