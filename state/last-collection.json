@@ -1,6 +1,18 @@
 {
-  "completed_at": "2026-10-08T17:44:16+00:00",
-  "newly_published": 0,
+  "collection": {
+    "batches_collected": 2,
+    "batches_submitted": 0,
+    "discover_source": false,
+    "poll_interval_seconds": 60,
+    "stop_reason": "wait_budget_exhausted",
+    "submitted_batches": 4,
+    "tasks_created": 0,
+    "ticks": 6,
+    "translations_published": 1,
+    "wait_budget_seconds": 600
+  },
+  "completed_at": "2026-10-08T17:44:28+00:00",
+  "newly_published": 1,
   "operation": "collect",
-  "started_at": "2026-10-08T17:43:46+00:00"
+  "started_at": "2026-10-08T17:33:53+00:00"
 }
