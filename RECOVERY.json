@@ -4,10 +4,10 @@
   "automatic_policy_version": 3,
   "committed_usd": 8.36755,
   "counts": {
-    "active": 304,
+    "active": 303,
     "already_translated": 108,
     "automatic_capacity_wait": 20,
-    "eligible_automatic": 1441,
+    "eligible_automatic": 1442,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
     "provider_refusal_requires_owner_attention": 1,
     "publication_or_latest_task_changed_since_manual_selection": 27
@@ -2318,8 +2318,8 @@
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "ben",
       "latest_task": "124112de9ec2f0e2f4a39dde5fa60558",
-      "processing_status": "in_batch",
-      "reason": "active"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,

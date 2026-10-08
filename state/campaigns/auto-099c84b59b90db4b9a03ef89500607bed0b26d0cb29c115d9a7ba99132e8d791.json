@@ -982,10 +982,10 @@
     "total_reserved_usd": 1.074199,
     "version": 1
   },
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 1
+    "not_ready": 1
   },
   "tasks": [
     "124112de9ec2f0e2f4a39dde5fa60558"
