@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 9.574924,
-  "automatic_allocation_index": 10,
-  "automatic_allocation_usd": 1.074199,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 10.649123,
+  "automatic_allocation_index": 11,
+  "automatic_allocation_usd": 1.07237,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "3f8ac003c55977571a01faf92736a5d67b6d534ea7cbe0e39884bc29e69a0e2d",
+  "automatic_frozen_sha256": "90d3fc2e499df4fe4d61186de5fc35e90b66c47d372ea2923efba6312d66af76",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
+    "id": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
-      "candidate_sha256": "6d9ba3d318c1ebf079ded0fc172c598f9fce46420093ca3cdfa3159cae6aa668",
+      "candidate_sha256": "7f5b809a8b7599ceecaeef451c5f71c413be77005d97bf20760b327c6dd5b4c9",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "ben",
-      "previous_task_id": "c2a52f5e496867329888d2aa44ac45dd",
-      "previous_task_sha256": "14026837e2a8c57ca420a67d46a3988db7de6d063f4ff22eb5d400f3e2814acd",
+      "language": "spa",
+      "previous_task_id": "14ce6d4373bfd253b9a44795171e506e",
+      "previous_task_sha256": "4fe47d676c097cc760a1fc2e910d6afa7874ee754100a064c5f2fb309539d89f",
       "recovery": true,
       "stage": "correct",
       "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61"
@@ -38,8 +38,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 1.074199,
-  "created_at": "2026-10-08T03:09:34+00:00",
+  "budget_usd": 1.07237,
+  "created_at": "2026-10-08T03:10:22+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -49,18 +49,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
+    "id": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650",
     "language_settings": {
-      "ben": {
+      "spa": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "মূল ইংরেজি পাঠ",
-        "guidance": "Use standard contemporary Bengali in Bengali script.",
-        "name": "Bengali",
-        "native_name": "বাংলা",
-        "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
-        "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
-        "tag": "bn"
+        "english_label": "Original en inglés",
+        "guidance": "Use internationally intelligible Spanish without unnecessary regionalisms.",
+        "name": "Spanish",
+        "native_name": "Español",
+        "notice": "Este artículo ha sido traducido mediante inteligencia artificial por OpenAI (modelo: {model}) y aún no ha sido revisado por una persona. El original en inglés es la versión autorizada. Si existen dudas sobre el significado, consulte el original en inglés.",
+        "reviewed_notice": "Este artículo ha sido revisado por una persona, aunque originalmente se tradujo con IA. El original en inglés sigue siendo la versión de referencia autorizada.",
+        "tag": "es"
       }
     },
     "max_output_tokens": 32768,
@@ -432,29 +432,36 @@
     "structural_feedback_version": "1"
   },
   "glossaries": {},
-  "id": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
+  "id": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650",
   "initial_task": {
     "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
-    "automatic_previous_task": "c2a52f5e496867329888d2aa44ac45dd",
+    "automatic_previous_task": "14ce6d4373bfd253b9a44795171e506e",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-099c84b59b90db4b9a03ef89500607bed0b26d0cb29c115d9a7ba99132e8d791",
-    "created_at": "2026-10-08T03:09:34+00:00",
+    "campaign": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650",
+    "created_at": "2026-10-08T03:10:22+00:00",
     "events": [],
     "findings": [
       {
-        "location": "HTML, stanza beginning “This promise can also open to you”",
+        "location": "HTML, poem: the voice’s direct address in the stanza beginning “Then a still, but strong voice” and the later stanzas beginning “My child, fear not” and “So, My child”",
         "severity": "major",
-        "source_quote": "For My strength and power are manifest, / When these to My will conform.",
-        "suggested_fix": "Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.",
-        "translation_quote": "কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।"
+        "source_quote": "“My precious child, look up.” / “My child, fear not” / “So, My child”",
+        "suggested_fix": "Replace «Criatura preciosa» with «Hijo mío amado» (or another natural, gender-inclusive rendering of “My precious child”), and replace «Criatura mía» in the later addresses with «Hijo mío» or «Hija mía», consistently throughout. Preserve the existing <p> tags and line breaks.",
+        "translation_quote": "«Criatura preciosa, mira hacia arriba». / «Criatura mía, no temas» / «Así que, criatura mía»"
+      },
+      {
+        "location": "HTML, poem, stanza beginning “My child, fear not”",
+        "severity": "minor",
+        "source_quote": "“Not for a second could I leave your side.”",
+        "suggested_fix": "For a closer rendering of the assurance that God never left the speaker’s side, change «Ni por un segundo me aparté de tu lado» to «No podría apartarme de tu lado ni por un segundo».",
+        "translation_quote": "«Ni por un segundo me aparté de tu lado.»"
       }
     ],
-    "id": "124112de9ec2f0e2f4a39dde5fa60558",
+    "id": "48e7a9ac264d16fe6209405b77ea2a2b",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "ben",
+    "language": "spa",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -543,8 +550,8 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "scripture_evidence_path": "state/scripture/cea7350cc07afa6fcb42220182cfe9ade23f57b3062bcbdf150b4013c0dbb18d.json",
-    "scripture_evidence_sha256": "cea7350cc07afa6fcb42220182cfe9ade23f57b3062bcbdf150b4013c0dbb18d",
+    "scripture_evidence_path": "state/scripture/3848b4eca1738beaf7822006ec929adeb052f5ca95708b287fc36c0701144f96.json",
+    "scripture_evidence_sha256": "3848b4eca1738beaf7822006ec929adeb052f5ca95708b287fc36c0701144f96",
     "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
     "stage": "correct",
     "stage_budget": {
@@ -552,10 +559,10 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.200639,
-        "review2": 0.87356
+        "correct": 0.197482,
+        "review2": 0.874888
       },
-      "total_reserved_usd": 1.074199,
+      "total_reserved_usd": 1.07237,
       "version": 1
     },
     "status": "queued",
@@ -567,20 +574,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "ben": {
+    "spa": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "মূল ইংরেজি পাঠ",
-      "guidance": "Use standard contemporary Bengali in Bengali script.",
-      "name": "Bengali",
-      "native_name": "বাংলা",
-      "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
-      "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
-      "tag": "bn"
+      "english_label": "Original en inglés",
+      "guidance": "Use internationally intelligible Spanish without unnecessary regionalisms.",
+      "name": "Spanish",
+      "native_name": "Español",
+      "notice": "Este artículo ha sido traducido mediante inteligencia artificial por OpenAI (modelo: {model}) y aún no ha sido revisado por una persona. El original en inglés es la versión autorizada. Si existen dudas sobre el significado, consulte el original en inglés.",
+      "reviewed_notice": "Este artículo ha sido revisado por una persona, aunque originalmente se tradujo con IA. El original en inglés sigue siendo la versión de referencia autorizada.",
+      "tag": "es"
     }
   },
   "languages": [
-    "ben"
+    "spa"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -676,7 +683,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "29bdd2f6142c4e43aafecb034c1d5198e1ae899a51eeeaa244fd841e507fe714",
+  "request_sha256": "cf6b5e9488776fbdc3768e738111d3c40e2a75f0b14e1bf7f3f91979dbd7265e",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -956,11 +963,11 @@
   "selection": [
     {
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
-      "candidate_sha256": "6d9ba3d318c1ebf079ded0fc172c598f9fce46420093ca3cdfa3159cae6aa668",
+      "candidate_sha256": "7f5b809a8b7599ceecaeef451c5f71c413be77005d97bf20760b327c6dd5b4c9",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "ben",
-      "previous_task_id": "c2a52f5e496867329888d2aa44ac45dd",
-      "previous_task_sha256": "14026837e2a8c57ca420a67d46a3988db7de6d063f4ff22eb5d400f3e2814acd",
+      "language": "spa",
+      "previous_task_id": "14ce6d4373bfd253b9a44795171e506e",
+      "previous_task_sha256": "4fe47d676c097cc760a1fc2e910d6afa7874ee754100a064c5f2fb309539d89f",
       "recovery": true,
       "stage": "correct",
       "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61"
@@ -973,15 +980,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.200639,
-      "review2": 0.87356
+      "correct": 0.197482,
+      "review2": 0.874888
     },
-    "total_reserved_usd": 1.074199,
+    "total_reserved_usd": 1.07237,
     "version": 1
   },
-  "status": "active",
+  "status": "acceptance_incomplete",
   "structural_feedback_version": "1",
-  "tasks": [
-    "124112de9ec2f0e2f4a39dde5fa60558"
-  ]
+  "tasks": []
 }

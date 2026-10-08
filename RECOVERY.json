@@ -2,27 +2,27 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 10.649123,
+  "committed_usd": 11.721493,
   "counts": {
-    "active": 3,
+    "active": 4,
     "already_translated": 108,
-    "ambiguous_quote_reference": 17,
+    "ambiguous_quote_reference": 19,
     "continuation_cooldown": 2,
     "continuation_progress_uncertain_requires_attention": 8,
     "eligible_automatic": 1282,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
     "missing_edition": 6,
-    "pending_automatic_admission": 44,
+    "pending_automatic_admission": 40,
     "provider_refusal_requires_owner_attention": 1,
     "repeated_technical_failure_requires_attention": 1,
-    "source_association_limit": 3,
+    "source_association_limit": 4,
     "source_quote_annotation": 10,
     "technical_failure_requires_attention": 63,
     "unresolved_quote_reference": 18
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 17.120531,
+  "gross_allocated_usd": 18.192901,
   "items": [
     {
       "accepted_cycles": 0,
@@ -1936,12 +1936,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "ben",
-      "latest_task": "c2a52f5e496867329888d2aa44ac45dd",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "124112de9ec2f0e2f4a39dde5fa60558",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -4106,10 +4106,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "detail": "Scripture attention: source_association_limit: Unclaimed quotation alignment exceeds its versioned work bound",
       "language": "ell",
       "latest_task": "7d4bdc58c06c0008452ce0d01ff8028e",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "source_association_limit",
       "request_id": "auto-1db2b0e4b30c7fa734ef2030a27f942255cde97ad44486223e1b939914c2d9a5"
     },
     {
@@ -5197,10 +5198,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/blockquote[1]/p[1]",
       "language": "heb",
       "latest_task": "fa9f3a41f6088437b35a6ea0f6f5e0eb",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-11ac795cb5c01029ac1e63e5fd35172109cf13f509f50ea9ff7c7177820bcab8"
     },
     {
@@ -10500,9 +10502,8 @@
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "spa",
       "latest_task": "14ce6d4373bfd253b9a44795171e506e",
-      "processing_status": "pending",
-      "reason": "pending_automatic_admission",
-      "request_id": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650"
+      "processing_status": "not_ready",
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
@@ -12371,10 +12372,11 @@
     {
       "accepted_cycles": 0,
       "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "detail": "Scripture attention: ambiguous_quote_reference: /article[1]/blockquote[1]/p[1]",
       "language": "urd",
       "latest_task": "c0ef2657001821f93ae9af379966909e",
       "processing_status": "pending",
-      "reason": "pending_automatic_admission",
+      "reason": "ambiguous_quote_reference",
       "request_id": "auto-197da9da77185b3456b0ebc06a93364ac79ba042a1c5569d45af0bd5ab287261"
     },
     {
