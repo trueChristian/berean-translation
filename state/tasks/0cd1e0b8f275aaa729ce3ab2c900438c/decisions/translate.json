@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[13]/em[1]; translation /article[1]/p[13]",
+      "severity": "critical",
+      "source_quote": "…t it’s God’s will, that’s not common sense. If you sell your possessions and give to the poor, it’s not common sense. These people are right—trusting in God is not common sense. Marching around a wall seven times, believing it will fall down, is not common sense. Going into battle with only 300 men against a great army who were <em>like grasshoppers for multitude</em> is not common sense either. Most things done by God-trusting Christians don’t make sense, but they do show the world that they really do put their trust in God, and that is what will turn the world upside down again, today.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[36:38], translation signature[36:36], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…্বাস না করায় উচ্চ বেতনের চাকরি ফিরিয়ে দিলে, তা সাধারণ বুদ্ধির কথা নয়। নিজের সম্পদ বিক্রি করে দরিদ্রদের দান করলে, তা সাধারণ বুদ্ধির কথা নয়। এসব লোক ঠিকই বলে—ঈশ্বরের ওপর নির্ভর করা সাধারণ বুদ্ধির কথা নয়। একটি দেয়ালের চারপাশে সাতবার ঘোরা, এই বিশ্বাসে যে সেটি ভেঙে পড়বে, সাধারণ বুদ্ধির কথা নয়। ঘাসফড়িংয়ের মতো অসংখ্য এক বিশাল সৈন্যবাহিনীর বিরুদ্ধে মাত্র ৩০০ জন নিয়ে যুদ্ধে যাওয়াও সাধারণ বুদ্ধির কথা নয়। ঈশ্বরের ওপর নির্ভরশীল খ্রিস্টানরা যা করেন, তার বেশিরভাগই যুক্তিসংগত মনে হয় না; কিন্তু তা জগৎকে দেখায় যে তাঁরা সত্যিই ঈশ্বরের ওপর নির্ভর করেন, আর আজ আবার এটাই জগৎকে ওলটপালট করে দেবে।</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[13]/em[1] ('start', 'em', ()); translation /article[1]/p[13] ('end', 'p')",
+  "stage": "translate"
+}
