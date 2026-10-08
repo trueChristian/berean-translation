@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f0d72bceff4643f4a24aaf7f4fdf4618",
   "campaign": "auto-8d7c00a8d21b43903e2824ebb47ddeca711cf7e5e6aa37e22fd47f935e370c3d",
   "created_at": "2026-10-07T13:54:19+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 1350,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 234,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10963,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10960,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12313
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "HTML, paragraph beginning «Den kvelden snakket familien igjen»",
@@ -112,7 +133,7 @@
   "scripture_evidence_path": "state/scripture/e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98.json",
   "scripture_evidence_sha256": "e4aff9854c00f4fee88593e9274255a1977aecfc8fa4bef59187e0da78708f98",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -124,8 +145,8 @@
     "total_reserved_usd": 1.157855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }

@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ccfbc98e-6054-433e-b932-09e971fc2a51",
+    "response_id": "chatcmpl-EWYnRrmK944sT7ZGyRzlxtuGEunDf",
+    "usage": {
+      "completion_tokens": 1350,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 234,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10960,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12313
+    }
+  },
+  "received_at": "2026-10-08T09:07:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"5613aef3-79c5-42d4-9695-214e71989c22\">\n  <blockquote>\n    <p><em>Og vi vet at alle ting tjener dem til gode som elsker Gud, <br>dem som efter hans råd <br>er kalt. –Paulus' brev til romerne 8:28.</em></p>\n  </blockquote>\n\n  <p>«Jeg har tenkt at vi kunne dra på en tur neste uke, når skolen har fri», sa Arthur mens han hang hatten på knaggen i vaskerommet og snudde seg mot kona. «Hva synes du om den ideen?»</p>\n\n  <p>Myrtle, som hadde holdt på med å lage kveldsmat på kjøkkenet, så opp med et smil. «Det hadde vært flott. Jeg har tenkt på noe lignende. Jeg er sikker på at barna også ville likt en ferie.»</p>\n\n  <p>«Hvorfor planlegger vi ikke å besøke menigheten i Bethel Fellowship neste søndag, da?» fortsatte Arthur. «Passer det for deg?»</p>\n\n  <p>«Ja, det tror jeg», svarte Myrtle. «Det virker som det er en stund siden vi besøkte en annen menighet. Når tenkte du at vi skulle dra?»</p>\n\n  <p>«Jeg har ikke lagt noen konkrete planer ennå», svarte Arthur, «men jeg tenkte å dra på torsdag og komme hjem på mandag.»</p>\n\n  <p>«Det passer fint for meg», svarte Myrtle.</p>\n\n  <p>«Greit», sa Arthur. «Jeg skal sende et brev til bror Oscar Peight og fortelle dem at vi kommer.»</p>\n\n  <p>Den neste torsdagen var familien Coblentz på vei til Pennsylvania.</p>\n\n  <p>Mange engelske mil ble tilbakelagt uten problemer mens familien reiste nordover. De nærmet seg bestemmelsesstedet da Arthur plutselig ble dårlig. Han kjørte varebilen ut av veien så han kunne tømme magen. Familien ventet tålmodig og lurte på hva de skulle gjøre videre.</p>\n\n  <p>«Synes du vi skal fortsette?» spurte Myrtle. Det ville ta en time til før de kom fram til bror Oscar.</p>\n\n  <p>«Jeg skjønner ikke hvordan jeg skal klare å fortsette», svarte Arthur svakt. «Jeg er veldig svimmel nå. Kanskje du bør overta kjøringen», sa han til Myrtle.</p>\n\n  <p>Snart hadde de byttet plass. Med tunge hjerter snudde familien og satte kursen hjemover. Det var vanskelig for hele familien, særlig for barna. De hadde gledet seg til denne turen hele uka, og nå var planene deres spolert.</p>\n\n  <p>Da de kom hjem, stanset Myrtle ved postkassen for å hente posten. Hun ga posten til Arthur og kjørte deretter inn på gårdsveien deres.</p>\n\n  <p>«Men … hva er dette?» stotret Arthur da han fikk øye på en velkjent konvolutt. Han rev opp konvolutten og kunne ikke tro det han så. «Brevet jeg sendte til bror Oscar Peight!» Hvorfor i all verden var det blitt returnert? Hjertet sank da han snudde konvolutten. «Tenk at jeg glemte å sette frimerke på konvolutten!» utbrøt han. «Så dumt av meg!»</p>\n\n  <p>Den kvelden snakket familien igjen ved kveldsmatbordet om hvor dumt det virket at de hadde glemt å sette et frimerke i hjørnet på konvolutten. «Men likevel», undret Arthur seg, «hadde Gud planlagt alt dette. Hvis brevet hadde kommet fram til bror Oscar, ville de ha gjort seg klare til å ta imot oss. Men slik det ble, visste de ikke engang at vi kom på besøk.»</p>\n\n  <p>«Alle ting virker sammen til det gode for dem som elsker Gud», svarte Myrtle.</p>\n\n  <figure>\n    <img src=\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\" alt=\"En postkasse på landet ved en gårdsvei som går gjennom grønne jorder til gårdsbygninger\">\n  </figure>\n</article>\n",
+    "scripture_selections": [
+      {
+        "block": "/article[1]/blockquote[1]/p[1]",
+        "end": 90,
+        "fragments": [
+          [
+            {
+              "end": 90,
+              "start": 0,
+              "verse": 28
+            }
+          ]
+        ],
+        "quote_id": "q1",
+        "start": 0
+      }
+    ],
+    "section": "BARNEHJØRNET",
+    "subtitle": null,
+    "title": "Det glemte frimerket"
+  }
+}
