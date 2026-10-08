@@ -12,7 +12,7 @@ Observed English revision: `64ea28030e851a482123ca4c60821b9d7714265f`
 
 Total target: 23340 article/language pairs. published: 2124 | unstarted: 19410 | queued: 0 | active: 333 | held without publication: 1473.
 
-Last collection: 2026-10-08T14:27:32+00:00; newly published: 0; stop reason: not recorded; submitted batches remaining: not recorded.
+Last collection: 2026-10-08T14:27:46+00:00; newly published: 0; stop reason: wait_budget_exhausted; submitted batches remaining: 6.
 
 | Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
