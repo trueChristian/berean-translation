@@ -143,6 +143,9 @@ def prior_chain(state, previous):
 
 def resume_stage(state, previous):
     """Reuse saved generation/review work without rewriting old terminal records."""
+    from .scripture_component_runtime import is_component
+    if is_component(state, previous):
+        return None, 'component_continuation_requires_separate_authority'
     if downstream.refusal(previous):
         return None, 'provider_refusal_requires_owner_attention'
     kind = previous.get('failure_kind')
@@ -213,6 +216,10 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
     if engine.human_protected(language, article['id']):
         return None, 'human_reviewed_or_edited_protected'
     record = engine.state.record(language, article['id'])
+    if previous:
+        from .scripture_component_runtime import is_component
+        if is_component(engine.state, previous):
+            return None, 'component_continuation_requires_separate_authority'
     if previous and previous['status'] not in TERMINAL:
         return None, 'active'
     pub = record.get('published')

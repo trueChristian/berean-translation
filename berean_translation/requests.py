@@ -77,6 +77,9 @@ def usage_cost(model: dict, usage: dict) -> float | None:
 
 
 def build_request(config, state, task):
+    from .scripture_component_runtime import is_component, request as component_request
+    if is_component(state, task):
+        return component_request(config, state, task)
     source = state.source(task)
     review = task['stage'] in ('review1','review2')
     chosen = task['review_model'] if review else task['model']

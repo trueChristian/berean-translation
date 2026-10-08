@@ -68,6 +68,8 @@ class Config:
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
             if type(self.runtime.get(field)) is not int or self.runtime[field] <= 0:
                 raise ContractError('Runtime size/count limits must be positive integers')
+        if type(self.runtime.get('scripture_components_runtime_enabled', False)) is not bool:
+            raise ContractError('Scripture component runtime gate must be a boolean')
         if type(self.runtime.get('scripture_quotes_enabled', False)) is not bool:
             raise ContractError('Scripture quote policy switch must be boolean')
         from .autonomous import policy as autonomous_policy

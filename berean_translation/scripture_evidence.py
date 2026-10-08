@@ -453,6 +453,9 @@ def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, p
 
 
 def load_evidence(state, task, *, require_fresh=False):
+    from .scripture_component_runtime import is_component, load as load_component
+    if is_component(state, task):
+        return load_component(state, task, require_fresh=require_fresh)[1]
     path,sha = task.get('scripture_evidence_path'),task.get('scripture_evidence_sha256')
     if not isinstance(sha,str) or path != f'state/scripture/{sha}.json':
         raise ScriptureAttention('missing_evidence','A versioned task must have frozen evidence')
@@ -804,6 +807,9 @@ def normalize_scripture_candidate(state, task, result):
 
 
 def validate_scripture_candidate(state, task, candidate):
+    from .scripture_component_runtime import is_component, validate_candidate
+    if is_component(state, task):
+        return validate_candidate(state, task, candidate)
     campaign = state.read(f'state/campaigns/{task["campaign"]}.json')
     contract = frozen_policy(campaign)
     if not contract:

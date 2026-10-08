@@ -96,18 +96,17 @@ complex suffixed ranges and cross-verse component scopes remain held.
 
 ## Guards against accidental activation
 
-The new contract is explicitly refused by:
+Ordinary frozen v1 campaigns and the standalone offline helpers still reject direct
+v2 reinterpretation. A narrowly gated collector-owned revision path now supports
+provably never-paid manual attention holds; see `scripture-component-runtime.md`.
+It preserves the original campaign/request and can complete independent review
+and first publication in disposable gate-enabled tests. The production gate stays
+closed. Existing publication updates and unsupported successor lifecycles remain
+held. A component evidence/selection proof alone never grants runtime authority.
 
-- `freeze_scripture_evidence`, before admission or evidence writes
-- `requests.build_request` for translation, correction and both review stages
-- the prepared-batch submission guard, before upload and again before creation
-- candidate normalization, publication validation and saved-audit adoption
-
-Already-uncertain provider submissions retain their existing read-only
-reconciliation behavior. None of these changes authorizes new spend, resets
-attempts, releases attention entries, changes published articles or edits
-historical requests. A passing component proof always requires independent
-review and always reports runtime admission unsupported.
+Already-uncertain submissions retain read-only reconciliation, without retrying a
+possibly successful create. No historical contract, paid reservation or attempt
+allowance is reset.
 
 ## Portuguese Our Testimony remains held
 
@@ -125,19 +124,15 @@ and independent linguistic review. This implementation does not grant it.
 
 ## Remaining work before live use
 
-1. The offline processing protocol now supplies versioned output schemas/prompts,
-   exact response bindings and bounded correction/review handling; see
-   `scripture-component-processing.md`. Durable provider/result admission and
-   independently accepted review records are still required before live use.
-2. Separate offline append-only journals now cover proven never-paid holds
-   (`scripture-admission-revisions.md`) and exact completed-publication updates
-   (`scripture-publication-updates.md`). Their live admission/funding remains
-   disabled. Neither rewrites historical contracts or recycles budgets.
-3. Exercise end-to-end restart/concurrency, cancellation, human edits, source and
-   publication drift, funding ceilings and failed-update-keeps-publication cases.
-4. Only after those guards pass, deliberately enable an appropriate new default
-   or narrowly authorized request path. Do not remove the explicit runtime holds
-   just because evidence/selection checks pass.
+1. Independently review the final gated runtime implementation and run its full
+   offline regression suite, including crash and funding boundaries.
+2. Supply a trusted complete-plan selection/operational interface. The explicit
+   Engine revision API does not infer ambiguous authored alignments.
+3. Obtain deliberate live activation for the appropriate narrow path. This change
+   leaves the checked-in feature default closed and sends no live provider calls.
+4. Completed-publication updates, cross-cycle component continuation and unsupported
+   morphology require their own versioned lifecycle and authority; the existing
+   offline journals do not provide live permission.
 
 Run the focused files and full repository commands documented in `AGENTS.md`.
 No ordinary test uses live provider requests or model credentials.

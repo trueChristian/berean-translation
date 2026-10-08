@@ -18,7 +18,7 @@ from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
-from . import downstream, autonomous, stage_budget, manual_admission
+from . import downstream, autonomous, stage_budget, manual_admission, scripture_component_runtime as components
 from .attempts import archive, decision
 from .scripture_evidence import (ScriptureAttention, normalize_scripture_candidate,
     validate_scripture_candidate, freeze_scripture_evidence, policy as scripture_policy,
@@ -36,6 +36,8 @@ class Engine:
     def __init__(self, config, source_client, provider, gitstore):
         self.config, self.source_client, self.provider, self.gitstore = config,source_client,provider,gitstore
         self.state = State(config.root)
+        # Resolve current injected Git evidence without freezing an obsolete adapter.
+        self.state.component_gitstore = lambda: self.gitstore
 
     def checkpoint(self, message):
         self.state.derive(self.config)
@@ -99,6 +101,8 @@ class Engine:
         record = self.state.record(language,article['id'])
         latest_id = record.get('latest_task')
         task = self.state.read(f'state/tasks/{latest_id}/task.json') if latest_id else None
+        if task and components.is_component(self.state, task):
+            return False, 'component_continuation_requires_separate_authority'
         if task and task['status'] not in TERMINAL:
             return False,'already_processing'
         pub = record.get('published')
@@ -115,6 +119,9 @@ class Engine:
         if task and task['translation_key'] == article['translation_key'] and not retry_failed:
             return False,'already_attempted_use_review_or_explicit_retry'
         return True,'new_or_changed_source'
+
+    def accept_component_revision(self, campaign_id, entry_id, scripture_policy, evidence):
+        return components.accept(self, campaign_id, entry_id, scripture_policy, evidence)
 
     def accept_request(self, request):
         manual_admission.restore_orphans(self.state)
@@ -372,6 +379,8 @@ class Engine:
         self.state.save_record(record)
 
     def publish(self, task):
+        if components.is_component(self.state, task):
+            return components.publish(self, task)
         if 'continuation' in task:
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         if (task.get('downstream_recovery') or task.get('autonomous')) and not downstream.current(self, task):
@@ -414,6 +423,9 @@ class Engine:
         self.finish(task,'complete')
 
     def receive(self, task, row):
+        if components.is_component(self.state, task) and task['status'] not in TERMINAL:
+            if components.repeated_response(self.state, task, row, self.config.runtime['max_result_bytes']):
+                return
         if task['status'] in TERMINAL:
             return
         stage = task['stage']
@@ -430,6 +442,8 @@ class Engine:
             self.state.save_campaign(campaign)
         try:
             result, provenance = parse_response(row,self.config.runtime['max_result_bytes'])
+            if components.is_component(self.state, task):
+                return components.receive(self, task, row, result, provenance)
             self.state.write(f'state/tasks/{task["id"]}/results/{stage}.json',
                              {'result':result,'provenance':provenance,'received_at':now()})
             task['events'].append({'stage':stage,'model':provenance['model'],'usage':provenance['usage']})
@@ -533,6 +547,9 @@ class Engine:
         return False
 
     def submit(self, batch, *, continue_work=None):
+        components.reconcile_preparations(self)
+        if 'component_preparation' in batch:
+            batch = self.state.read(f'state/batches/{batch["id"]}/batch.json')
         manual_admission.validate_campaign(self.state, batch['campaign'])
         if not self.provider or not may_continue(continue_work):
             return
@@ -546,6 +563,16 @@ class Engine:
         frozen_version(campaign)
         from .scripture_evidence import frozen_policy
         frozen_policy(campaign)
+        component_tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+        if any(components.is_component(self.state, task) for task in component_tasks):
+            if not components.enabled(self.config):
+                return
+            for task in component_tasks:
+                if components.is_component(self.state, task):
+                    components.load(self.state, task)
+                    components.execution_guard(self.state, task)
+                    components.validate_saved_request(self.state, task, batch['stage'])
+            components.committed_total(self.state, campaign)
         if self.exclude_protected_prepared(batch):
             return
         if self.hold_expired_prepared(batch):
@@ -603,6 +630,25 @@ class Engine:
         if self.hold_expired_prepared(batch, before_create=True):
             return
         manual_admission.validate_campaign(self.state, batch['campaign'])
+        try:
+            for identity in batch['tasks']:
+                task = self.state.read(f'state/tasks/{identity}/task.json')
+                if components.is_component(self.state, task):
+                    # A checkpoint may incorporate source/cancellation/gate changes.
+                    # This is still our fresh intent, never an uncertain create retry.
+                    components.require_enabled(self.config)
+                    components.execution_guard(self.state, task)
+                    saved = components.validate_saved_request(self.state, task, batch['stage'])
+                    if canonical(saved['line']) + b'\n' not in payload.splitlines(keepends=True):
+                        raise ContractError('Component payload changed before provider creation')
+        except ContractError as exc:
+            batch.update(status='cancelled_before_submission', create_not_called=True,
+                         exclusion_reason='component_execution_guard')
+            self.state.save_batch(batch)
+            for identity in batch['tasks']:
+                self.finish(self.state.read(f'state/tasks/{identity}/task.json'), 'not_ready', str(exc))
+            self.checkpoint('runtime: retain reservations after component pre-create hold')
+            return
         try:
             remote = self.provider.create(batch['input_file_id'],batch['id'],batch['campaign'])
             batch.update(remote_id=remote['id'],status='submitted')
@@ -693,6 +739,7 @@ class Engine:
         return True
 
     def collect(self, *, continue_work=None):
+        components.reconcile_preparations(self)
         if not self.provider:
             return
         downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
@@ -764,12 +811,23 @@ class Engine:
                 for task_id in batch['tasks']:
                     task = self.state.read(f'state/tasks/{task_id}/task.json')
                     if task['status'] in TERMINAL:
+                        if components.is_component(self.state, task):
+                            late_key = task['id'] + ':' + batch['stage']
+                            if late_key in rows:
+                                components.archive_unprocessed(self, task, batch, rows[late_key])
+                            components.reconcile_terminal(self, task)
                         continue
+                    if components.is_component(self.state, task) and task.get('batch') != batch['id']:
+                        old_key = task['id'] + ':' + batch['stage']
+                        if old_key in rows and components.repeated_response(self.state, task, rows[old_key], self.config.runtime['max_result_bytes']):
+                            continue
                     if task.get('batch') != batch['id']:
                         raise ContractError('Batch/task ownership mismatch')
                     key = task['id'] + ':' + task['stage']
                     if batch.get('cancel_requested'):
-                        if key in rows and task.get('autonomous'):
+                        if key in rows and components.is_component(self.state, task):
+                            components.archive_unprocessed(self, task, batch, rows[key])
+                        elif key in rows and task.get('autonomous'):
                             archive(self.state, task, rows[key], self.config.runtime['max_result_bytes'])
                         self.finish(task,'cancelled','Cancelled by explicit owner request')
                     elif key not in rows:
@@ -782,6 +840,8 @@ class Engine:
                     else:
                         diagnostic = request_failure(rows[key])
                         if diagnostic:
+                            if components.is_component(self.state, task):
+                                components.archive_unprocessed(self, task, batch, rows[key])
                             observed = archive(self.state, task, rows[key], self.config.runtime['max_result_bytes'])
                             task['failure_kind'] = observed['outcome']
                             task['provider_failure'] = diagnostic
@@ -804,6 +864,7 @@ class Engine:
             self.checkpoint('runtime: collect batch results and bounded quality decisions')
 
     def prepare(self, *, continue_work=None, max_batches=None):
+        components.reconcile_preparations(self)
         if not self.provider:
             return 0
         limit = self.config.runtime['max_batches_per_tick'] if max_batches is None else max_batches
@@ -813,6 +874,8 @@ class Engine:
         groups = defaultdict(list)
         for task in self.state.tasks():
             if task['status'] == 'queued':
+                if components.is_component(self.state, task) and not components.enabled(self.config):
+                    continue
                 if not manual_admission.admitted(self.state, task):
                     continue  # A partially materialized admission cannot become billable.
                 if self.human_protected(task['language'], task['article_id']):
@@ -878,7 +941,15 @@ class Engine:
                         self.finish(task,'not_ready','Single request exceeds batch byte limit'); tasks.pop(0); continue
                     if size+len(raw) > self.config.runtime['max_batch_bytes']:
                         break
-                    if campaign['reserved_usd']+sum(costs)+cost > campaign['budget_usd']+1e-9:
+                    if components.has_revisions(self.state, campaign):
+                        committed = components.committed_total(self.state, campaign)
+                        additions = sum((components.incremental_cost(self.state, item, amount)
+                                         for item, amount in zip(selected, costs)), start=components.Decimal(0))
+                        exhausted = committed + additions + components.incremental_cost(self.state, task, cost) > components.Decimal(str(campaign['budget_usd']))
+                    else:
+                        # Preserve historical v1 stage-reservation behavior exactly.
+                        exhausted = campaign['reserved_usd'] + sum(costs) + cost > campaign['budget_usd'] + 1e-9
+                    if exhausted:
                         self.finish(task,'budget_blocked','Campaign spending reservation exhausted; no API request submitted')
                         tasks.pop(0); continue
                     selected.append(task); lines.append(raw); costs.append(cost); size += len(raw); tasks.pop(0)
@@ -891,6 +962,7 @@ class Engine:
                          'custom_ids':[t['id']+':'+stage for t in selected],
                          'payload_sha256':digest(payload),'reserved_usd':round(sum(costs),6),
                          'input_file_id':None,'remote_id':None}
+                components.preparation_intent(self.state, campaign, selected, batch)
                 write_text(self.state.path(f'state/batches/{batch_id}/input.jsonl'),payload.decode('utf-8'))
                 self.state.save_batch(batch)
                 for task in selected:
@@ -899,6 +971,9 @@ class Engine:
                     self.state.save_task(task)
                 campaign['reserved_usd'] = round(campaign['reserved_usd']+sum(costs),6)
                 self.state.save_campaign(campaign)
+                if 'component_preparation' in batch:
+                    batch['component_preparation_complete'] = True
+                    self.state.save_batch(batch)
                 self.checkpoint('runtime: reserve task identities and budget before OpenAI submission')
                 self.submit(batch, continue_work=continue_work)
                 prepared_count += 1
@@ -910,6 +985,8 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{identity}.json')
         if not campaign:
             raise ContractError('Unknown campaign')
+        components.reconcile_preparations(self)
+        campaign = self.state.read(f'state/campaigns/{identity}.json')
         if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
             return downstream.abort_incomplete(self, campaign)
         if is_recovery_campaign(self.state, campaign):
