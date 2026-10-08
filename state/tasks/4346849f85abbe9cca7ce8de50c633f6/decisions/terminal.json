@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html: /article[1]/p[16]; scripture_evidence and scripture_selection_audit",
+      "severity": "major",
+      "source_quote": "“All things do work together for good to them that love God,” Myrtle replied.",
+      "suggested_fix": "Register Myrtle’s quotation as an additional partial Scripture quotation and obtain its approved evidence for Romans 8:28. Then replace only the quoted German words with the semantically corresponding contiguous substring from that evidence and provide its scripture_selections entry. Preserve the paragraph, dialogue delimiters, and attribution; do not add a printed reference absent from the source.",
+      "translation_quote": "„Denen, die Gott lieben, dienen tatsächlich alle Dinge zum Guten“, antwortete Myrtle."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
