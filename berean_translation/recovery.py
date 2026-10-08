@@ -142,6 +142,9 @@ def plan_recovery(engine, request, budget, selector):
         if len(matches) != 1 or parent_tasks.count(identity) != 1:
             raise ContractError(f'Recovery task {identity} must exist exactly once in the original campaign')
         previous = matches[0]
+        from .scripture_component_runtime import is_component
+        if is_component(state, previous):
+            raise ContractError('Component continuation requires separate versioned authority')
         # Verify the canonical task path as well as the inventory identity.
         if state.read(f'state/tasks/{identity}/task.json') != previous:
             raise ContractError('Recovery task path and identity disagree')

@@ -44,6 +44,11 @@ def needs_resume(state, campaign):
     ledger = state.read(path(campaign['id']))
     if ledger is not None:
         validate(state, campaign, ledger)
+    if ledger:
+        from .scripture_component_runtime import materialized
+        if any('component_revision' in e and not materialized(state, campaign, e)
+               for e in ledger['entries'].values()):
+            return True
     return (any(e['status'] in ('pending', 'ready') for e in ledger['entries'].values())
             if ledger else bool(legacy_targets(campaign)))
 
@@ -123,7 +128,11 @@ def counts(state, campaign):
     validate(state, campaign, ledger)
     result = {}
     for entry in ledger['entries'].values():
-        result[entry['status']] = result.get(entry['status'], 0) + 1
+        status = entry['status']
+        if 'component_revision' in entry:
+            from .scripture_component_runtime import materialized
+            status = 'admitted' if materialized(state, campaign, entry) else 'ready'
+        result[status] = result.get(status, 0) + 1
     return result
 
 
@@ -330,6 +339,9 @@ def _validate(state, campaign, ledger):
                 or entry['status'] not in UNFINISHED | {'admitted', 'cancelled'}):
             raise ContractError('Manual admission target provenance changed')
         _validate_attention_detail(entry)
+        if 'component_revision' in entry:
+            from .scripture_component_runtime import validate_revision
+            validate_revision(state, campaign, entry)
         proof = entry['provenance']
         if proof is None:
             if entry['status'] not in ('attention', 'cancelled'):
@@ -422,6 +434,14 @@ def resume(engine, campaign, request, *, new=False):
         ledger = initialize(engine, campaign, request, legacy=not new)
     validate(state, campaign, ledger)
     for entry in ledger['entries'].values():
+        if 'component_revision' in entry:
+            from .scripture_component_runtime import enabled, resume as resume_component
+            if campaign.get('cancel_requested'):
+                from .scripture_component_runtime import cancel_materialized as cancel_component
+                cancel_component(engine, campaign, entry)
+            elif enabled(engine.config):
+                resume_component(engine, campaign, entry)
+            continue
         if entry['status'] not in UNFINISHED:
             continue
         if campaign.get('cancel_requested'):
@@ -498,7 +518,11 @@ def admitted(state, task):
     if not task.get('manual_admission_version'):
         return True
     ledger = state.read(path(task['campaign']), {})
-    return ledger.get('entries', {}).get(task['id'], {}).get('status') == 'admitted'
+    entry = ledger.get('entries', {}).get(task['id'], {})
+    if 'component_revision' in entry:
+        from .scripture_component_runtime import materialized
+        return materialized(state, state.read(f'state/campaigns/{task["campaign"]}.json'), entry)
+    return entry.get('status') == 'admitted'
 
 
 def validate_history(state):

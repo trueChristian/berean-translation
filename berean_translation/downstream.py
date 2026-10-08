@@ -215,6 +215,9 @@ def usable_candidate(candidate):
 
 def eligible(state, config, task, used, tasks, *, continuation_policy=None, history=(),
              next_strategy=None, automatic=False, at=None):
+    from .scripture_component_runtime import is_component
+    if is_component(state, task):
+        return 'component_continuation_requires_separate_authority'
     if task.get('status') not in ('not_ready', 'budget_blocked') or task.get('batch'):
         return 'not_held'
     if continuation_policy is None and (task.get('downstream_recovery') or recovery_key(task) in used):

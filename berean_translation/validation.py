@@ -78,6 +78,8 @@ def validate_repository(config, check_index=True):
             raise ContractError('Campaign references a missing task')
     from . import manual_admission
     manual_admission.validate_history(state)
+    from .scripture_component_runtime import validate_history as validate_components
+    validate_components(state)
     validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
     from .downstream import validate_history
     validate_history(config, state, tasks)
