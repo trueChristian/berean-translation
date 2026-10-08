@@ -5,6 +5,8 @@
   "default_model": "gpt-6-luna",
   "default_review_model": "gpt-6-luna",
   "quality_threshold": 95,
+  "upgrade_quality_threshold": 98,
+  "plain_translation_policy_version": 1,
   "max_translation_attempts": 2,
   "max_tasks_per_request": 1000,
   "max_batch_requests": 500,
@@ -19,7 +21,7 @@
   "max_batches_per_tick": 20,
   "max_pending_campaigns_per_tick": 25,
   "english_route": "/en/articles/{article_id}/",
-  "prompt_version": "1.0.3",
+  "prompt_version": "2.0.0",
   "review_contract_version": 2,
   "automatic_discovery": true,
   "automatic_new_translation": true,
@@ -48,5 +50,5 @@
     "max_active_tasks": 50,
     "page_size": 20
   },
-  "scripture_quotes_enabled": true
+  "scripture_quotes_enabled": false
 }

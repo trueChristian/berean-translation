@@ -12,6 +12,7 @@ from .common import ContractError, canonical, digest, json_hash, now, read_json
 from .scripture_evidence import (ScriptureAttention, adopt_scripture_selection_audit,
                                   freeze_scripture_evidence)
 from .state import TERMINAL
+from . import plain_policy
 
 VERSION = 1
 MAX_LEDGER_BYTES = 16 * 1024 * 1024
@@ -21,6 +22,14 @@ TEMPORARY = 'prefetch_wait_budget'
 MUTABLE = {'tasks', 'skipped', 'status', 'task_counts', 'reserved_usd',
            'reported_usage_usd', 'accounted_responses', 'cancel_requested', 'admission_counts'}
 UNFINISHED = {'pending', 'ready', 'attention'}
+SCRIPTURE_HOLDS = {
+    'prefetch_wait_budget', 'awaiting_prefetch', 'ambiguous_source_quote',
+    'ambiguous_quote_reference', 'unresolved_quote_reference', 'unmarked_quote_scope',
+    'unassociated_source_quote', 'printed_reference_mismatch', 'source_quote_annotation',
+    'source_association_limit', 'missing_edition', 'missing_verse', 'unsupported_reference',
+    'unverified_versification', 'fetch_failed', 'evidence_size_limit', 'unarchivable_response',
+    'invalid_expiry', 'evidence_expired', 'edition_map_changed',
+}
 
 
 def path(identity):
@@ -40,7 +49,7 @@ def legacy_targets(campaign):
     return [row for row in campaign.get('skipped', []) if row.get('reason') == TEMPORARY]
 
 
-def needs_resume(state, campaign):
+def needs_resume(state, campaign, *, config=None):
     ledger = state.read(path(campaign['id']))
     if ledger is not None:
         validate(state, campaign, ledger)
@@ -48,6 +57,9 @@ def needs_resume(state, campaign):
         from .scripture_component_runtime import materialized
         if any('component_revision' in e and not materialized(state, campaign, e)
                for e in ledger['entries'].values()):
+            return True
+        settings = config if config is not None else state.read('config/runtime.json', {})
+        if plain_policy.enabled(settings) and any(_can_migrate(e) for e in ledger['entries'].values()):
             return True
     return (any(e['status'] in ('pending', 'ready') for e in ledger['entries'].values())
             if ledger else bool(legacy_targets(campaign)))
@@ -108,7 +120,8 @@ def _validate_attention_detail(entry):
             or detail['sha256'] != json_hash({k: v for k, v in detail.items() if k != 'sha256'})):
         raise ContractError('Malformed manual admission attention detail')
     event = entry['events'][detail['event_index']]
-    if (entry['provenance'] is None or entry['status'] not in ('attention', 'cancelled')
+    if (entry['provenance'] is None
+            or (entry['status'] not in ('attention', 'cancelled') and 'plain_migration' not in entry)
             or event['status'] != 'attention' or event['reason'] == TEMPORARY
             or detail['event_sha256'] != json_hash(event)
             or not detail['text'].startswith(f'Scripture attention: {event["reason"]}: ')):
@@ -293,7 +306,8 @@ def initialize(engine, campaign, request, *, legacy=False):
                           'previous_task_sha256': json_hash(previous),
                           'candidate_path': candidate_path, 'candidate_sha256': json_hash(candidate)}
             entry.update(provenance=provenance, provenance_sha256=json_hash(provenance))
-            transition(entry, 'pending', TEMPORARY if legacy else 'awaiting_prefetch')
+            transition(entry, 'pending', TEMPORARY if legacy else
+                       'awaiting_translation' if plain_policy.is_plain(campaign) else 'awaiting_prefetch')
         except (ContractError, UnicodeError) as exc:
             transition(entry, 'attention', str(exc))
     save(state, ledger)
@@ -325,7 +339,8 @@ def _validate(state, campaign, ledger):
         if (not isinstance(entry, dict) or not isinstance(entry.get('item'), dict)
                 or set(entry['item']) != {'language', 'article_id'}
                 or (entry['item']['language'], entry['item']['article_id']) not in target_pairs
-                or not isinstance(entry.get('events'), list) or not 1 <= len(entry['events']) <= MAX_EVENTS
+                or not isinstance(entry.get('events'), list)
+                or not 1 <= len(entry['events']) <= MAX_EVENTS + (3 if 'plain_migration' in entry else 0)
                 or any(not isinstance(event, dict) or set(event) != {'status', 'reason', 'at'}
                        or not all(isinstance(v, str) and len(v) <= 4096 for v in event.values())
                        for event in entry['events'])
@@ -339,6 +354,8 @@ def _validate(state, campaign, ledger):
                 or entry['status'] not in UNFINISHED | {'admitted', 'cancelled'}):
             raise ContractError('Manual admission target provenance changed')
         _validate_attention_detail(entry)
+        if 'plain_migration' in entry:
+            _validate_plain_migration(campaign, entry)
         if 'component_revision' in entry:
             from .scripture_component_runtime import validate_revision
             validate_revision(state, campaign, entry)
@@ -366,7 +383,22 @@ def _validate(state, campaign, ledger):
                         f'state/manual-admission-candidates/{proof["candidate_sha256"]}.json')):
                 raise ContractError('Manual admission task changed its frozen contract')
         fields = entry.get('ready_fields')
-        if fields is not None and (not isinstance(fields, dict)
+        if fields is not None and plain_policy.is_plain(fields):
+            allowed = {plain_policy.FIELD}
+            baseline = (entry.get('plain_migration') or {}).get('accepted_baseline')
+            if baseline is not None:
+                allowed.update({'accepted_baseline', 'baseline_quality_score'})
+            if 'plain_migration' in entry:
+                allowed.add('plain_policy_migration_sha256')
+            if (set(fields) != allowed or entry.get('ready_sha256') != json_hash(fields)
+                    or ('plain_migration' in entry and fields.get('plain_policy_migration_sha256') !=
+                        entry['plain_migration']['sha256'])
+                    or ('plain_migration' not in entry and not plain_policy.is_plain(campaign))):
+                raise ContractError('Plain manual admission prepared task changed')
+            if baseline is not None and (fields['accepted_baseline'] != baseline['candidate']
+                    or fields['baseline_quality_score'] != baseline['quality_score']):
+                raise ContractError('Plain manual admission changed its accepted baseline')
+        elif fields is not None and (not isinstance(fields, dict)
                 or set(fields) - {'scripture_evidence_path', 'scripture_evidence_sha256', 'stage', 'scripture_resume_reason'}
                 or entry.get('ready_sha256') != json_hash(fields)
                 or fields.get('scripture_evidence_path') != f'state/scripture/{fields.get("scripture_evidence_sha256")}.json'
@@ -427,12 +459,126 @@ def requested_event(task):
     return {'event': 'requested', 'task': task['id'], 'campaign': task['campaign'], 'at': task['created_at']}
 
 
+def _can_migrate(entry):
+    return (entry.get('status') in UNFINISHED and entry.get('provenance') is not None
+            and 'component_revision' not in entry and 'plain_migration' not in entry
+            and (entry['status'] in ('pending', 'ready') or entry.get('reason') in SCRIPTURE_HOLDS))
+
+
+def _validate_plain_migration(campaign, entry):
+    """The overlay is additive; original admission proof and events remain frozen."""
+    migration = entry['plain_migration']
+    keys = {'version', 'at', 'original_campaign_sha256', 'provenance_sha256',
+            'policy', 'previous_ready_fields', 'original_events_sha256',
+            'original_events_count', 'accepted_baseline', 'sha256'}
+    if (not isinstance(migration, dict) or set(migration) != keys
+            or type(migration['version']) is not int or migration['version'] != 1
+            or not isinstance(migration['at'], str)
+            or migration['original_campaign_sha256'] != json_hash(contract(campaign))
+            or migration['provenance_sha256'] != entry['provenance_sha256']
+            or migration['sha256'] != json_hash({k: v for k, v in migration.items() if k != 'sha256'})
+            or type(migration['original_events_count']) is not int
+            or not 1 <= migration['original_events_count'] < len(entry['events'])
+            or migration['original_events_sha256'] !=
+                json_hash(entry['events'][:migration['original_events_count']])
+            or entry['events'][migration['original_events_count']] !=
+                {'status':'ready', 'reason':'plain_translation_policy_migration', 'at':migration['at']}):
+        raise ContractError('Plain manual migration changed its original history')
+    policy = migration['policy']
+    allowed = {plain_policy.FIELD, 'prompts', 'prompt_version', 'review_contract_version', 'upgrade_quality_threshold'}
+    if (not isinstance(policy, dict) or not plain_policy.is_plain(policy)
+            or set(policy) - allowed or not {plain_policy.FIELD, 'prompts', 'prompt_version'} <= policy.keys()
+            or not isinstance(policy['prompt_version'], str) or not policy['prompt_version']
+            or not isinstance(policy['prompts'], dict) or set(policy['prompts']) != {'translation', 'review'}
+            or any(not isinstance(value, str) or not value.strip() for value in policy['prompts'].values())):
+        raise ContractError('Malformed frozen plain manual policy')
+    from .review_contract import frozen_version
+    frozen_version(policy)
+    if type(policy.get('upgrade_quality_threshold')) is not int or policy['upgrade_quality_threshold'] != 98:
+        raise ContractError('Plain manual replacement review must retain its 98-point threshold')
+    baseline = migration['accepted_baseline']
+    if baseline is not None and (not isinstance(baseline, dict)
+            or set(baseline) != {'candidate', 'quality_score'} or campaign['operation'] != 'review'
+            or entry['provenance']['task'].get('base_html_sha256') is None
+            or json_hash(baseline['candidate']) != entry['provenance']['candidate_sha256']
+            or type(baseline['quality_score']) is not int or not 0 <= baseline['quality_score'] <= 100):
+        raise ContractError('Plain manual migration changed its accepted baseline')
+    original = entry['events'][migration['original_events_count'] - 1]
+    if original['status'] not in ('pending', 'ready', 'attention') or (
+            original['status'] == 'attention' and original['reason'] not in SCRIPTURE_HOLDS):
+        raise ContractError('Plain migration cannot reopen an unrelated admission hold')
+    previous_fields = migration['previous_ready_fields']
+    if previous_fields is not None and (not isinstance(previous_fields, dict)
+            or set(previous_fields) - {'scripture_evidence_path', 'scripture_evidence_sha256',
+                                      'stage', 'scripture_resume_reason'}):
+        raise ContractError('Plain migration changed its previous evidence fields')
+
+
+def migrate_manual_admissions(engine, campaign, ledger=None):
+    """Resume never-paid Scripture admission holds inside their original authority.
+
+    Accepted tasks, candidate/provider history, requests, source snapshots,
+    campaign contracts and spending allocations are never rewritten. The same
+    admission identity receives new frozen prompts only before its first task.
+    """
+    if (not plain_policy.enabled(engine.config) or plain_policy.is_plain(campaign)
+            or campaign.get('cancel_requested')):
+        return ledger
+    state = engine.state
+    ledger = ledger if ledger is not None else state.read(path(campaign['id']))
+    if ledger is None:
+        return None
+    validate(state, campaign, ledger)
+    batch_tasks = {custom_id.split(':', 1)[0] for batch in state.batches()
+                   for custom_id in batch.get('custom_ids', [])}
+    for entry in ledger['entries'].values():
+        if not _can_migrate(entry):
+            continue
+        if state.read(f'state/tasks/{entry["task_id"]}/task.json') is not None or entry['task_id'] in batch_tasks:
+            continue  # Existing/reserved task bytes keep their historical policy.
+        boundary = getattr(engine, 'continue_work', None)
+        if boundary is not None and not boundary():
+            break
+        try:
+            _, record = _guard(engine, campaign, entry)
+        except (ContractError, UnicodeError):
+            continue  # Source/human/lineage guards are not Scripture holds.
+        from .review_contract import frozen_fields as review_fields
+        policy = {**plain_policy.frozen_fields(engine.config), **review_fields(engine.config),
+                  'prompt_version':engine.config.runtime['prompt_version'],
+                  'upgrade_quality_threshold':engine.config.runtime.get('upgrade_quality_threshold', 98),
+                  'prompts':{name:engine.config.prompt(name) for name in ('translation', 'review')}}
+        baseline = None
+        if campaign['operation'] == 'review' and record.get('published'):
+            baseline = {'candidate':state.read(entry['provenance']['candidate_path']),
+                        'quality_score':record['published']['quality_score']}
+        stamp = now()
+        migration = {'version':1, 'at':stamp,
+                     'original_campaign_sha256':json_hash(contract(campaign)),
+                     'provenance_sha256':entry['provenance_sha256'], 'policy':policy,
+                     'previous_ready_fields':copy.deepcopy(entry.get('ready_fields')),
+                     'original_events_sha256':json_hash(entry['events']),
+                     'original_events_count':len(entry['events']), 'accepted_baseline':baseline}
+        migration['sha256'] = json_hash(migration)
+        entry['plain_migration'] = migration
+        fields = {plain_policy.FIELD:1, 'plain_policy_migration_sha256':migration['sha256']}
+        if baseline is not None:
+            fields.update(accepted_baseline=copy.deepcopy(baseline['candidate']),
+                          baseline_quality_score=baseline['quality_score'])
+        entry.update(ready_fields=fields, ready_sha256=json_hash(fields),
+                     status='ready', reason='plain_translation_policy_migration')
+        entry['events'].append({'status':'ready', 'reason':entry['reason'], 'at':stamp})
+        save(state, ledger)
+    return ledger
+
+
 def resume(engine, campaign, request, *, new=False):
     state = engine.state
     ledger = state.read(path(campaign['id']))
     if ledger is None:
         ledger = initialize(engine, campaign, request, legacy=not new)
     validate(state, campaign, ledger)
+    ledger = migrate_manual_admissions(engine, campaign, ledger)
     for entry in ledger['entries'].values():
         if 'component_revision' in entry:
             from .scripture_component_runtime import enabled, resume as resume_component
@@ -459,10 +605,13 @@ def resume(engine, campaign, request, *, new=False):
             task = copy.deepcopy(entry['provenance']['task'])
             task['models'] = copy.deepcopy(campaign['models'])
             if entry['status'] == 'pending':
-                task.update(freeze_scripture_evidence(engine, source, task['language'],
-                    frozen_policy=campaign['scripture_quotes'],
-                    language_tag=campaign['language_settings'][task['language']]['tag']))
-                if task['stage'].startswith('review'):
+                if plain_policy.is_plain(campaign):
+                    task.update({plain_policy.FIELD:1})
+                else:
+                    task.update(freeze_scripture_evidence(engine, source, task['language'],
+                        frozen_policy=campaign['scripture_quotes'],
+                        language_tag=campaign['language_settings'][task['language']]['tag']))
+                if task['stage'].startswith('review') and not plain_policy.is_plain(campaign):
                     # The candidate and predecessor were frozen before the first
                     # deadline, and guard rechecks that predecessor on replay.
                     proof = entry['provenance']
@@ -472,7 +621,8 @@ def resume(engine, campaign, request, *, new=False):
                         task.update(stage='correct', scripture_resume_reason='saved_candidate_requires_quotation_audit')
                 fields = {k: v for k, v in task.items() if k != 'models' and entry['provenance']['task'].get(k) != v}
                 entry.update(ready_fields=fields, ready_sha256=json_hash(fields))
-                transition(entry, 'ready', 'evidence_frozen')
+                transition(entry, 'ready', 'plain_translation_ready' if plain_policy.is_plain(campaign)
+                           else 'evidence_frozen')
                 save(state, ledger)
                 source, record = _guard(engine, campaign, entry)
             else:
