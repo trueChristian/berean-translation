@@ -135,20 +135,34 @@ class SourceClient:
                         'title': article.get('title'), 'fingerprints': copy.deepcopy(fp),
                         'translation_key': snapshot['translation_key']}
                 return identity, item, snapshot
-            except (ContractError, OSError, ValueError) as exc:
-                raise ContractError(f'Source article {identity}: {exc}') from exc
+            except (ContractError, OSError, ValueError, KeyError, TypeError) as exc:
+                # Identity and catalogue membership were checked above. Keep
+                # that identity visible, but never attach a usable fingerprint
+                # or snapshot to unreadable/unsafe English. One damaged article
+                # must not prevent unrelated translations or collection.
+                error = f'Source article {identity}: {exc}'[:1200]
+                item = {'id': identity, 'issue_id': article['issue_id'],
+                        'sequence': article['sequence'], 'title': article.get('title'),
+                        'fingerprints': None, 'translation_key': None,
+                        'source_error': error}
+                return identity, item, None
 
-        # Bounded concurrency is only a transport optimization. Publication is
-        # still atomic: an invalid scan never replaces the last good inventory.
+        # Catalogue identity errors remain fatal; article-local failures are
+        # isolated within the same coherent revision and reported explicitly.
         with ThreadPoolExecutor(max_workers=8) as pool:
             inspected = list(pool.map(inspect, index['articles']))
         articles = {identity: item for identity, item, _ in inspected}
-        snapshots = {identity: snapshot for identity, _, snapshot in inspected}
+        snapshots = {identity: snapshot for identity, _, snapshot in inspected if snapshot is not None}
+        errors = {identity: {'article_id': identity, 'issue_id': item['issue_id'],
+                             'reason': item['source_error']}
+                  for identity, item, snapshot in inspected if snapshot is None}
         inventory = {'format_version': '1.0', 'fingerprint_origin': 'translation-runtime',
                      'repository': self.repository, 'revision': revision,
                      'content_sha256': json_hash({'index': digest(index_raw), 'catalogue': digest(catalogue_raw),
                                                 'articles': articles}),
                      'issues': list(issues.values()), 'articles': articles}
+        if errors:
+            inventory['source_errors'] = errors
         self.revision, self.index, self.catalogue, self.snapshots = revision, index, catalogue, snapshots
         return inventory
 
@@ -156,7 +170,7 @@ class SourceClient:
         if self.index is None:
             raise ContractError('Discover the current source before taking a snapshot')
         if article_id not in self.snapshots:
-            raise ContractError('Article is not present in the eligible source index')
+            raise ContractError('Article has no validated English snapshot; see source diagnostics')
         return copy.deepcopy(self.snapshots[article_id])
 
 

@@ -71,6 +71,23 @@ class CollectorWindowTests(unittest.TestCase):
         self.assertEqual(clock.sleeps,[])
         self.assertEqual(self.provider.create_calls,1)
 
+    def test_collection_only_reuses_source_and_reports_real_stage_progress(self):
+        queue(self.state)
+        initial = self.run_window(FakeClock())
+        self.assertEqual(initial['tasks_created'], 2)
+        self.assertEqual(initial['batches_submitted'], 1)
+        self.assertEqual(initial['translations_published'], 0)
+        self.provider.complete_all()
+        self.engine.discover = Mock(side_effect=AssertionError('Collection must not scan English'))
+        result = self.run_window(FakeClock(self.provider.complete_all),
+                                 wait_seconds=600, discover_source=False)
+        self.engine.discover.assert_not_called()
+        self.assertFalse(result['discover_source'])
+        self.assertEqual(result['tasks_created'], 0)
+        self.assertEqual(result['batches_collected'], 2)
+        self.assertEqual(result['batches_submitted'], 1)
+        self.assertEqual(result['translations_published'], 2)
+
     def test_idle_and_dry_run_exit_without_waiting_or_spending(self):
         for dry_run in (False,True):
             if dry_run:
@@ -149,7 +166,7 @@ class CollectorWindowTests(unittest.TestCase):
         worker = doc['jobs']['worker']
         self.assertGreaterEqual(int(worker['timeout-minutes']),20)
         runs = '\n'.join(step.get('run','') for step in worker['steps'])
-        self.assertIn('tick --publish --wait-seconds 600 --poll-seconds 60',runs)
+        self.assertIn('tick --no-discover --publish --wait-seconds 600 --poll-seconds 60',runs)
         self.assertNotIn('workflow_dispatch',runs)
 
 

@@ -7,11 +7,12 @@ and refresh envelopes retain their own authority and are never repurposed.
 from __future__ import annotations
 import copy
 import re
+from collections import deque
 from datetime import datetime, timezone
 from .common import ContractError, digest, json_hash, now, read_json
 from .recovery import money
 from .state import TERMINAL
-from . import continuation, downstream, stage_budget
+from . import continuation, downstream, stage_budget, plain_policy
 
 POLICY = 'autonomous_translation'
 AUTHORITY_PATH = 'state/automatic-budget.json'
@@ -141,13 +142,24 @@ def prior_chain(state, previous):
     return result
 
 
-def resume_stage(state, previous):
+def resume_stage(state, previous, *, plain=False):
     """Reuse saved generation/review work without rewriting old terminal records."""
     from .scripture_component_runtime import is_component
     if is_component(state, previous):
         return None, 'component_continuation_requires_separate_authority'
     if downstream.refusal(previous):
         return None, 'provider_refusal_requires_owner_attention'
+    if plain and not plain_policy.is_plain(previous):
+        # The new review contract is a separately funded child of the exact
+        # saved predecessor, never a rewrite of its attempts or rejection.
+        # First assess the whole saved translation under the ordinary rules;
+        # old quotation/structure findings are not instructions to repair it.
+        if previous['status'] not in ('not_ready', 'budget_blocked') or previous.get('batch'):
+            return None, 'terminal_outcome_requires_attention'
+        if downstream.usable_candidate(state.candidate(previous)) and previous.get('translation_model_actual'):
+            return 'review1', None
+        if previous.get('failure_kind') == 'policy_retired':
+            return 'translate', None
     kind = previous.get('failure_kind')
     if kind == 'invalid_result' and previous.get('stage') in ('review1', 'review2'):
         from .review_contract import MAX_FINDINGS
@@ -211,6 +223,8 @@ def resume_stage(state, previous):
 
 def selection(engine, language, article, previous=None, *, manual_claims=None):
     from .manual_admission import covered
+    if article.get('source_error'):
+        return None, 'source_error_requires_attention'
     if covered(engine.state, language, article['id'], article['translation_key'], claim_index=manual_claims, include_attention=True):
         return None, 'manual_admission_pending'
     if engine.human_protected(language, article['id']):
@@ -229,7 +243,7 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
         return None, 'provider_refusal_requires_owner_attention'
     stage, reason = ('translate', None)
     if previous and previous['translation_key'] == article['translation_key']:
-        stage, reason = resume_stage(engine.state, previous)
+        stage, reason = resume_stage(engine.state, previous, plain=plain_policy.enabled(engine.config))
     if reason:
         return None, reason
     spec = {'language': language, 'article_id': article['id'], 'translation_key': article['translation_key'],
@@ -237,8 +251,34 @@ def selection(engine, language, article, previous=None, *, manual_claims=None):
             'previous_task_id': previous['id'] if previous else None,
             'previous_task_sha256': json_hash(previous) if previous else None,
             'candidate_sha256': json_hash(engine.state.candidate(previous)) if previous else None,
-            'recovery': bool(previous and previous['translation_key'] == article['translation_key'])}
+            'recovery': bool(previous and previous['translation_key'] == article['translation_key']),
+            **plain_policy.frozen_fields(engine.config)}
     return spec, None
+
+
+def fair_admission_paths(state, paths):
+    """Keep manual priority, then alternate fresh work and recovery admissions.
+
+    Existing holds stay eligible at the back of their lane; a large repair or
+    Scripture-prefetch backlog cannot consume every bounded admission pass.
+    """
+    manual, fresh, recovery = [], [], []
+    for path in paths:
+        request = state.read(f'state/queue/{path.stem}.json', {})
+        if not request.get('autonomous'):
+            manual.append(path)
+        else:
+            (recovery if request.get('selection', {}).get('recovery') else fresh).append(path)
+    def age(path):
+        return (state.read(f'state/automatic-holds/{path.stem}.json', {}).get('last_checked_at', ''), path.name)
+    fresh = deque(sorted(fresh, key=age)); recovery = deque(sorted(recovery, key=age))
+    result = sorted(manual, key=lambda p: p.name)
+    while fresh or recovery:
+        if fresh:
+            result.append(fresh.popleft())
+        if recovery:
+            result.append(recovery.popleft())
+    return result
 
 
 def enqueue(engine):
@@ -253,6 +293,13 @@ def enqueue(engine):
     pending, pending_manual, pending_slots = [], [], 0
     for path in sorted((config.root / 'state/queue').glob('*.json')):
         request = read_json(path)
+        if (request.get('autonomous') and plain_policy.enabled(config)
+                and not plain_policy.is_plain(request.get('selection', {}))
+                and not state.read(f'state/campaigns/{path.stem}.json')
+                and not state.read(f'state/queue-errors/{path.stem}.json')):
+            state.write(f'state/queue-errors/{path.stem}.json', {
+                'error': 'Never-accepted legacy admission superseded by plain translation policy',
+                'request': path.stem, 'superseded_policy_version': 1})
         if request.get('autonomous') and not state.read(f'state/campaigns/{path.stem}.json') and not state.read(f'state/queue-errors/{path.stem}.json'):
             pending.append((request['selection']['language'], request['selection']['article_id']))
             if state.read(f'state/automatic-holds/{path.stem}.json') is None:
@@ -270,11 +317,9 @@ def enqueue(engine):
         for language in config.languages:
             record = state.record(language, article['id'])
             previous = by_id.get(record.get('latest_task'))
-            # Finish saved work first, then fill missing archive/language pairs.
-            priority = 0 if previous and previous['translation_key'] == article['translation_key'] else 1
-            pairs.append((priority, article, language, previous))
-    pairs.sort(key=lambda p: p[0])
-    for _, article, language, previous in pairs:
+            pairs.append((article, language, previous))
+    fresh, recoveries = deque(), deque()
+    for article, language, previous in pairs:
         if (language, article['id']) in pending:
             continue
         from .refresh import _pending_covers
@@ -287,8 +332,17 @@ def enqueue(engine):
             if reason not in ('active', 'already_translated', 'human_reviewed_or_edited_protected'):
                 held.append({'article_id': article['id'], 'language': language, 'reason': reason})
             continue
-        if len(queued) >= min(room, settings['page_size']):
-            continue
+        (recoveries if spec['recovery'] else fresh).append(spec)
+    # Only eligible pairs count toward each lane's quota. Published items and
+    # held sources must not use up the repair share of a translation page.
+    selected = []
+    capacity = max(0, min(room, settings['page_size']))
+    while len(selected) < capacity and (fresh or recoveries):
+        if fresh:
+            selected.append(fresh.popleft())
+        if recoveries and len(selected) < capacity:
+            selected.append(recoveries.popleft())
+    for spec in selected:
         identity = 'auto-' + json_hash(spec)
         request = {'id': identity, 'operation': 'automatic', 'autonomous': True,
                    'requested_by': 'owner-authorized-autonomous-archive', 'selection': spec}
@@ -323,6 +377,7 @@ def template(config, identity, recovery):
         'max_output_tokens': config.runtime['automatic_downstream_recovery']['max_output_tokens'] if recovery else config.runtime['max_output_tokens'],
         'review_output_tokens': config.runtime['automatic_downstream_recovery']['review_output_tokens'] if recovery else config.review_output_limit(review_model),
         'quality_threshold': config.runtime['quality_threshold'], **frozen_fields(config),
+        **plain_policy.frozen_fields(config),
         'automatic_continuation_policy': {'version': 3, 'cooldown_seconds': 3600, 'progress_required': True, 'funding': 'cumulative_authority'}}
 
 
@@ -376,7 +431,11 @@ def accept(engine, request):
         'translation_attempts': 0, 'review_attempts': 0, 'events': [],
         'findings': copy.deepcopy(previous.get('findings', [])) if spec['recovery'] else [],
         'rejection_reason': 'Audit the full candidate against the authoritative English and substantiate each finding'}
-    if config.runtime.get('scripture_quotes_enabled', False):
+    task.update(plain_policy.frozen_fields(config))
+    if plain_policy.is_plain(task) and previous and not plain_policy.is_plain(previous):
+        task['findings'] = []
+        task['plain_policy_migration_from'] = previous['id']
+    if config.runtime.get('scripture_quotes_enabled', False) and not plain_policy.is_plain(execution):
         from .scripture_evidence import policy as scripture_policy, freeze_scripture_evidence, adopt_scripture_selection_audit
         execution['scripture_quotes'] = scripture_policy(config.root)
         task.update(freeze_scripture_evidence(engine, source, task['language'], frozen_policy=execution['scripture_quotes']))
@@ -470,6 +529,7 @@ def validate_history(config, state):
             for key in ('id', 'campaign', 'article_id', 'issue_id', 'language', 'translation_key', 'source_snapshot',
                         'model', 'review_model', 'models', 'stage_budget', 'autonomous', 'autonomous_recovery',
                         'automatic_previous_task', 'base_html_sha256', 'base_metadata_sha256',
+                        'plain_translation_policy_version', 'plain_policy_migration_from',
                         'scripture_evidence_path', 'scripture_evidence_sha256', 'initial_scripture_audit', 'scripture_resume_reason'):
                 if task.get(key) != original.get(key):
                     raise ContractError('Automatic task provenance changed')
@@ -585,7 +645,7 @@ def settle(engine):
         engine.checkpoint('runtime: settle proven completed automatic requests at frozen rates')
 
 
-def frontier(config, state, tasks):
+def frontier(config, state, tasks, *, work_summary=None):
     funding = ledger(state)
     by_id = {task['id']: task for task in tasks}
     articles = state.read('state/source.json', {}).get('articles', {})
@@ -598,6 +658,8 @@ def frontier(config, state, tasks):
         article = articles.get(task['article_id'])
         if pub.get('human_reviewed') or pub.get('edit_issue'):
             reason = 'human_reviewed_or_edited_protected'
+        elif article and article.get('source_error'):
+            reason = 'source_error_requires_attention'
         elif task['status'] not in TERMINAL:
             reason = 'active'
         elif article is None:
@@ -609,7 +671,7 @@ def frontier(config, state, tasks):
         elif task['translation_key'] != article['translation_key']:
             reason = 'eligible_source_refresh' if enabled(config) else 'automatic_paused'
         else:
-            _, reason = resume_stage(state, task)
+            _, reason = resume_stage(state, task, plain=plain_policy.enabled(config))
             reason = reason or ('eligible_automatic' if enabled(config) else 'automatic_paused')
         rows.append({'language': task['language'], 'article_id': task['article_id'], 'latest_task': task['id'],
                      'processing_status': task['status'], 'reason': reason,
@@ -628,6 +690,29 @@ def frontier(config, state, tasks):
             'latest_task':spec['previous_task_id'], 'processing_status':'pending', 'request_id':path.stem,
             'reason':hold.get('reason', 'pending_automatic_admission'),
             **{k:hold[k] for k in ('detail','required_usd','remaining_usd') if k in hold}}
+    if hasattr(state, 'work_summary'):
+        # Admission failures occur before a task exists. Missing pairs and those
+        # holds still belong in the recovery frontier instead of disappearing
+        # from issue totals until the first paid request can be submitted.
+        summary = work_summary if work_summary is not None else state.work_summary(config, tasks=tasks)
+        for pair in summary['pairs']:
+            key = (pair['language'], pair['article_id'])
+            article = articles.get(pair['article_id'], {})
+            admission = pair.get('admission_status')
+            if (key in by_pair and admission not in ('attention', 'pending', 'ready')
+                    and not article.get('source_error')):
+                continue
+            if pair.get('published') and key not in by_pair and not article.get('source_error'):
+                continue
+            reason = ('source_error_requires_attention' if article.get('source_error') else
+                      pair.get('reason') or
+                      ('manual_admission_attention' if admission == 'attention' else
+                       'manual_admission_pending' if admission in ('pending', 'ready') else
+                       'unstarted' if pair['category'] == 'unstarted' else pair['category']))
+            by_pair[key] = {**by_pair.get(key, {}), 'language': key[0], 'article_id': key[1],
+                'latest_task': pair.get('latest_task'), 'processing_status': pair['category'],
+                'reason': reason,
+                **({'admission_status': admission} if admission else {})}
     rows, counts = list(by_pair.values()), {}
     for row in rows:
         counts[row['reason']] = counts.get(row['reason'], 0) + 1

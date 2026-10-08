@@ -82,21 +82,41 @@ class IndexDrivenTests(unittest.TestCase):
         after = self.upstream.client.discover()['articles'][A]['translation_key']
         self.assertEqual(before, after)
 
-    def test_missing_real_html_is_not_mistaken_for_an_empty_inventory(self):
+    def test_missing_real_html_is_isolated_without_losing_other_articles(self):
         self.engine.discover()
-        before = self.state.read('state/source.json')
         self.upstream.contents.pop(f'content/articles/{A}.html')
-        with self.assertRaises((ContractError, KeyError)):
-            self.engine.discover()
-        self.assertEqual(self.state.read('state/source.json'), before)
+        observed = self.engine.discover()
+        self.assertEqual(set(observed['articles']), {A, B})
+        self.assertEqual(set(observed['source_errors']), {A})
+        self.assertIsNone(observed['articles'][A]['translation_key'])
+        self.assertTrue(observed['articles'][B]['translation_key'])
+        with self.assertRaises(ContractError):
+            self.upstream.client.snapshot(A)
+        self.assertEqual(self.upstream.client.snapshot(B)['article']['id'], B)
 
-    def test_invalid_structure_and_changed_image_reference_still_fail(self):
+    def test_invalid_structure_and_changed_image_reference_are_held_per_article(self):
         path = f'content/articles/{A}.html'
         original = self.upstream.contents[path]
         for text in (original.replace('<p>', '<script>'), original.replace(f'{A}-1.jpg', f'{A}-2.jpg')):
             self.upstream.contents[path] = text
+            observed = self.engine.discover()
+            self.assertEqual(set(observed['source_errors']), {A})
+            self.assertIsNone(observed['articles'][A]['translation_key'])
+            self.assertTrue(observed['articles'][B]['translation_key'])
             with self.assertRaises(ContractError):
-                self.engine.discover()
+                self.upstream.client.snapshot(A)
+
+    def test_isolated_source_keeps_accepted_translation_and_target_identity(self):
+        queue(self.state)
+        drive(self.engine, self.provider)
+        accepted = copy.deepcopy(self.state.record('afr', A)['published'])
+        self.upstream.contents[f'content/articles/{A}.html'] = '<script>unsafe</script>'
+        observed = self.engine.discover()
+        self.assertEqual(observed['articles'][A]['issue_id'], accepted['issue_id'])
+        self.assertEqual(self.state.record('afr', A)['published'], accepted)
+        statuses = {row['id']: row['status'] for row in self.state.projection(self.config)['articles']}
+        self.assertEqual(statuses[A], 'stale')
+        self.assertEqual(statuses[B], 'ready')
 
     def test_local_fingerprint_recipe_preserves_preexisting_compatibility(self):
         # Fixture manifests use the same recipe. Runtime must not fetch them.
