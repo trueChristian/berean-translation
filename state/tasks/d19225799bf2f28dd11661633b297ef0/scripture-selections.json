@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "1beea9ff2935ba1cda5d80bbfac39a60c5cf127b196333d53efbeae808cb670c",
+  "evidence_sha256": "0610baa7a65030f212f7d6f532b13660a5def3123929886b369a8eebc53676eb",
+  "input_result_sha256": "cd002e3de0b3accc738579d22b932d4f2da941154f951f8fa64ebec0d77f5de2",
+  "selections": [
+    {
+      "block": "/article[1]/p[1]",
+      "end": 340,
+      "fragments": [
+        [
+          {
+            "end": 103,
+            "start": 0,
+            "verse": 11
+          }
+        ]
+      ],
+      "quote_id": "q1",
+      "start": 237
+    }
+  ],
+  "version": "1"
+}
