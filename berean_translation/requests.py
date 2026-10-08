@@ -107,6 +107,9 @@ def build_request(config, state, task):
             payload['rejection_reason'] = task.get('rejection_reason')
     from .scripture_evidence import frozen_policy
     scripture_policy = frozen_policy(campaign)
+    if scripture_policy and scripture_policy.get('version') == '2':
+        from .scripture_component_evidence import reject_component_runtime
+        reject_component_runtime(scripture_policy)
     schema = review_schema(contract_version) if review else TRANSLATION_SCHEMA
     if scripture_policy:
         from .scripture_evidence import load_evidence, SELECTION_SCHEMA, validate_scripture_candidate

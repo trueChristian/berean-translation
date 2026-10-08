@@ -617,8 +617,12 @@ class Engine:
         """A frozen unsubmitted payload cannot outlive its external evidence."""
         campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
         from .scripture_evidence import load_evidence, frozen_policy
-        if frozen_policy(campaign) is None:
+        scripture_policy = frozen_policy(campaign)
+        if scripture_policy is None:
             return False
+        if scripture_policy.get('version') == '2':
+            from .scripture_component_evidence import reject_component_runtime
+            reject_component_runtime(scripture_policy)
         tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
         try:
             for task in tasks:

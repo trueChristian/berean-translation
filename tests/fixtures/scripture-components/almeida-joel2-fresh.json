@@ -1,0 +1,257 @@
+{
+  "tool": "get_scripture",
+  "arguments": {
+    "translation": "almeida",
+    "book": 29,
+    "chapter": 2,
+    "api_version": "v2"
+  },
+  "endpoint": "https://mcp.getbible.net/",
+  "client_version": "2.2.0",
+  "retrieved_at": "2026-10-07T22:28:23+00:00",
+  "result": {
+    "scope": {
+      "kind": "chapter",
+      "translation": "almeida",
+      "api_version": "v2",
+      "book": 29,
+      "chapter": 2
+    },
+    "data": {
+      "translation": "Almeida Atualizada",
+      "abbreviation": "almeida",
+      "lang": "pt",
+      "language": "Portuguese",
+      "direction": "LTR",
+      "encoding": "UTF-8",
+      "book_nr": 29,
+      "book_name": "Joel",
+      "chapter": 2,
+      "name": "Joel 2",
+      "verses": [
+        {
+          "chapter": 2,
+          "verse": 1,
+          "name": "Joel 2:1",
+          "text": "Tocae a buzina em Sião, e clamae em alta voz no monte da minha sanctidade: perturbem-se todos os moradores da terra, porque o dia do Senhor vem, porque está perto:"
+        },
+        {
+          "chapter": 2,
+          "verse": 2,
+          "name": "Joel 2:2",
+          "text": "Dia de trevas e de escuridade; dia de nuvens e grossas trevas; como a alva espalhada sobre os montes; povo grande e poderoso, qual desde o tempo antigo nunca houve, nem depois d'elle haverá mais até aos annos de geração em geração."
+        },
+        {
+          "chapter": 2,
+          "verse": 3,
+          "name": "Joel 2:3",
+          "text": "Diante d'elle um fogo consome, e atraz d'elle uma chamma abraza: a terra diante d'elle é como o jardim do Eden, mas atraz d'elle um deserto de assolação, nem tão pouco haverá coisa que d'ella escape."
+        },
+        {
+          "chapter": 2,
+          "verse": 4,
+          "name": "Joel 2:4",
+          "text": "O seu parecer é como o parecer de cavallos: e correrão como cavalleiros."
+        },
+        {
+          "chapter": 2,
+          "verse": 5,
+          "name": "Joel 2:5",
+          "text": "Como o estrondo de carros, irão saltando sobre os cumes dos montes, como o sonido da chamma de fogo que consome a pragana, como um povo poderoso, ordenado para o combate."
+        },
+        {
+          "chapter": 2,
+          "verse": 6,
+          "name": "Joel 2:6",
+          "text": "Diante d'elle temerão os povos; todos os rostos são como a tisnadura da panella."
+        },
+        {
+          "chapter": 2,
+          "verse": 7,
+          "name": "Joel 2:7",
+          "text": "Como valentes correrão, como homens de guerra subirão os muros; e irá cada um nos seus caminhos e não se desviarão da sua fileira."
+        },
+        {
+          "chapter": 2,
+          "verse": 8,
+          "name": "Joel 2:8",
+          "text": "Ninguem apertará a seu irmão; irá cada um pelo seu carreiro; sobre a mesma espada se arremessarão, e não serão feridos."
+        },
+        {
+          "chapter": 2,
+          "verse": 9,
+          "name": "Joel 2:9",
+          "text": "Irão pela cidade, correrão pelos muros, subirão ás casas, pelas janellas entrarão como o ladrão."
+        },
+        {
+          "chapter": 2,
+          "verse": 10,
+          "name": "Joel 2:10",
+          "text": "Diante d'elle tremerá a terra, abalar-se-hão os céus; o sol e a lua se ennegrecerão, e as estrellas retirarão o seu resplandor."
+        },
+        {
+          "chapter": 2,
+          "verse": 11,
+          "name": "Joel 2:11",
+          "text": "E o Senhor levanta a sua voz diante do seu exercito; porque muitissimos são os seus arraiaes; porque poderoso é, fazendo a sua palavra; porque o dia do Senhor é grande e mui terrivel, e quem o poderá soffrer?"
+        },
+        {
+          "chapter": 2,
+          "verse": 12,
+          "name": "Joel 2:12",
+          "text": "Ora, pois, tambem falla o Senhor: Convertei-vos a mim com todo o vosso coração; e isso com jejuns, e com choro, e com pranto."
+        },
+        {
+          "chapter": 2,
+          "verse": 13,
+          "name": "Joel 2:13",
+          "text": "E rasgae o vosso coração, e não os vossos vestidos, e convertei-vos ao Senhor vosso Deus; porque elle é misericordioso, e é clemente, e tardio em irar-se, e grande em beneficencia, e se arrepende do mal."
+        },
+        {
+          "chapter": 2,
+          "verse": 14,
+          "name": "Joel 2:14",
+          "text": "Quem sabe se se converterá e se arrependerá, e deixará após si uma benção, em offerta de manjar e libação para o Senhor vosso Deus?"
+        },
+        {
+          "chapter": 2,
+          "verse": 15,
+          "name": "Joel 2:15",
+          "text": "Tocae a buzina em Sião, sanctificae um jejum, apregoae um dia de prohibição."
+        },
+        {
+          "chapter": 2,
+          "verse": 16,
+          "name": "Joel 2:16",
+          "text": "Congregae o povo, sanctificae a congregação, ajuntae os anciãos, congregae os filhinhos, e os que mamam os peitos: saia o noivo da sua recamara, e a noiva do seu thalamo."
+        },
+        {
+          "chapter": 2,
+          "verse": 17,
+          "name": "Joel 2:17",
+          "text": "Chorem os sacerdotes, ministros do Senhor, entre o alpendre e o altar, e digam: Poupa a teu povo, ó Senhor, e não entregues a tua herança ao opprobrio, para que as nações façam mofa d'elle; porque diriam entre os povos: Onde está o seu Deus?"
+        },
+        {
+          "chapter": 2,
+          "verse": 18,
+          "name": "Joel 2:18",
+          "text": "Então o Senhor terá zelo da sua terra, e se compadecerá do seu povo."
+        },
+        {
+          "chapter": 2,
+          "verse": 19,
+          "name": "Joel 2:19",
+          "text": "E o Senhor responderá, e dirá ao seu povo: Eis que vos envio o trigo, e o mosto, e o oleo, e d'elles sereis fartos, e vos não entregarei mais ao opprobrio entre as nações."
+        },
+        {
+          "chapter": 2,
+          "verse": 20,
+          "name": "Joel 2:20",
+          "text": "E aquelle que é do norte farei partir para longe de vós, e lançal-o-hei em uma terra secca e deserta: a sua face para o mar oriental, e a sua extremidade para o mal occidental; e subirá o seu fedor, e subirá a sua podridão; porque fez grandes coisas."
+        },
+        {
+          "chapter": 2,
+          "verse": 21,
+          "name": "Joel 2:21",
+          "text": "Não temas, ó terra: regozija-te e alegra-te; porque o Senhor fez grandes coisas."
+        },
+        {
+          "chapter": 2,
+          "verse": 22,
+          "name": "Joel 2:22",
+          "text": "Não temaes, animaes do campo, porque os pastos do deserto reverdecerão, porque o arvoredo dará o seu fructo, a vide e a figueira darão a sua força."
+        },
+        {
+          "chapter": 2,
+          "verse": 23,
+          "name": "Joel 2:23",
+          "text": "E vós, filhos de Sião, regozijae-vos e alegrae-vos no Senhor vosso Deus, porque elle vos dará ensinador de justiça, e vos fará descer a chuva, a temporã e a serodia, no primeiro mez."
+        },
+        {
+          "chapter": 2,
+          "verse": 24,
+          "name": "Joel 2:24",
+          "text": "E as eiras se encherão de trigo, e os lagares trasbordarão de mosto e de oleo."
+        },
+        {
+          "chapter": 2,
+          "verse": 25,
+          "name": "Joel 2:25",
+          "text": "E restituir-vos-hei os annos que comeu o gafanhoto, a locusta, e o pulgão e a aruga, o meu grande exercito que enviei contra vós."
+        },
+        {
+          "chapter": 2,
+          "verse": 26,
+          "name": "Joel 2:26",
+          "text": "E comereis abundantemente e até fartar-vos, e louvareis o nome do Senhor vosso Deus, o qual obrou para comvosco maravilhosamente; e o meu povo não será envergonhado para sempre."
+        },
+        {
+          "chapter": 2,
+          "verse": 27,
+          "name": "Joel 2:27",
+          "text": "E vós sabereis que eu estou no meio de Israel, e que eu sou o Senhor vosso Deus, e ninguem mais: e o meu povo não será envergonhado para sempre."
+        },
+        {
+          "chapter": 2,
+          "verse": 28,
+          "name": "Joel 2:28",
+          "text": "E ha de ser que, depois, derramarei o meu Espirito sobre toda a carne, e vossos filhos e vossas filhas prophetizarão, os vossos velhos sonharão sonhos, os vossos mancebos verão visões."
+        },
+        {
+          "chapter": 2,
+          "verse": 29,
+          "name": "Joel 2:29",
+          "text": "E tambem sobre os servos e sobre as servas n'aquelles dias derramarei o meu Espirito."
+        },
+        {
+          "chapter": 2,
+          "verse": 30,
+          "name": "Joel 2:30",
+          "text": "E darei prodigios no céu, e na terra, sangue e fogo, e columnas de fumo."
+        },
+        {
+          "chapter": 2,
+          "verse": 31,
+          "name": "Joel 2:31",
+          "text": "O sol se converterá em trevas, e a lua em sangue, antes que venha o grande e terrivel dia do Senhor."
+        },
+        {
+          "chapter": 2,
+          "verse": 32,
+          "name": "Joel 2:32",
+          "text": "E ha de ser que todo aquelle que invocar o nome do Senhor escapará; porque no monte de Sião e em Jerusalem haverá livramento, assim como o Senhor tem dito, e nos que restarem, os quaes o Senhor chamará. "
+        }
+      ]
+    },
+    "hash": "65cc731fb828dedddfb966ecec99c032d451e53a",
+    "source": {
+      "url": "https://api.getbible.net/v2/almeida/29/2.json",
+      "fetched_at": "2026-10-07T22:28:23.016880Z",
+      "api_version": "v2",
+      "service": "api",
+      "status_code": 200,
+      "headers": {
+        "content-type": "application/json",
+        "cache-control": "public, max-age=2592000, stale-while-revalidate=86400, stale-if-error=86400",
+        "date": "Wed, 07 Oct 2026 22:28:23 GMT",
+        "etag": "W/\"6aa59162-2559\"",
+        "last-modified": "Sat, 12 Sep 2026 17:52:34 GMT",
+        "vary": "Accept-Encoding"
+      }
+    },
+    "hash_source_url": "https://api.getbible.net/v2/almeida/29/2.sha",
+    "consistency_checked": true,
+    "consistency_retries": 0,
+    "cache_policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses.",
+    "cache": {
+      "cacheable": true,
+      "recommended": true,
+      "max_retention_seconds": 2592000,
+      "remaining_ttl_seconds": 2591999,
+      "expires_at": "2026-11-06T22:28:22.016880Z",
+      "hash_validation_required": true,
+      "policy": "Cache for at most 30 days from the original upstream response, honoring any shorter HTTP freshness lifetime and Age. Preserve the exact version-specific hash and invalidate the scope and its descendants when it changes. An unchanged hash or a 304 response does not renew the 30-day retention limit: fetch and replace the content by that deadline. Bible SHA-1 version tokens and study-resource SHA-256 manifests have distinct contracts. A before/after hash check detects a rotation during a read; it does not verify the bytes against a cryptographic checksum. The MCP itself does not cache responses."
+    }
+  },
+  "result_sha256": "742f8b66bb7f6d22e1f6bed5fedb4929e9bb99442a2f7bba657cc6a8ced8e82c"
+}

@@ -45,6 +45,11 @@ def frozen_policy(campaign):
     if 'scripture_quotes' not in campaign:
         return None
     value = campaign['scripture_quotes']
+    if isinstance(value, dict) and any(key in value for key in ('authored_components', 'max_component_candidate_bytes')) and value.get('version') != '2':
+        raise ScriptureAttention('component_contract', 'Component policy markers cannot be downgraded to a historical version')
+    if isinstance(value, dict) and value.get('version') == '2':
+        from .scripture_component_evidence import validate_component_policy
+        return validate_component_policy(value)
     if not isinstance(value, dict) or value.get('version') != VERSION:
         raise ContractError('Unsupported frozen Scripture quotation contract')
     if value.get('selection_normalization_version') not in (None, *SELECTION_NORMALIZATION_VERSIONS):
@@ -156,6 +161,11 @@ def _archive_chapter(evidence):
 
 
 def build_evidence(source, language_tag, frozen_policy, provider=None):
+    if any(key in frozen_policy for key in ('authored_components', 'max_component_candidate_bytes')) and frozen_policy.get('version') != '2':
+        raise ScriptureAttention('component_contract', 'Component policy cannot use a historical evidence builder')
+    if frozen_policy.get('version') == '2':
+        from .scripture_component_evidence import build_component_evidence
+        return build_component_evidence(source, language_tag, frozen_policy, provider)
     if frozen_policy.get('version') != VERSION:
         raise ScriptureAttention('unknown_contract', str(frozen_policy.get('version')))
     association = frozen_policy.get('source_association_version')
@@ -254,7 +264,8 @@ def build_evidence(source, language_tag, frozen_policy, provider=None):
     return bundle
 
 
-def _build_associated_evidence(source, language_tag, contract, provider):
+def _build_associated_evidence(source, language_tag, contract, provider, *,
+                               component_contract=False, component_require_fresh=True):
     """New requests only: independently scoped quotations, never block joins."""
     from .scripture_association import (associate, AssociationError, structure_hash,
                                         delimiter_topology, unclaimed_marked_spans)
@@ -270,6 +281,11 @@ def _build_associated_evidence(source, language_tag, contract, provider):
         raise ScriptureAttention(exc.reason, str(exc)) from exc
     except ScopeProofError as exc:
         raise ScriptureAttention('unmarked_quote_scope', str(exc)) from exc
+    if component_contract:
+        from .scripture_component_evidence import (source_plans, source_component_fields,
+                                                   verify_provider_envelope)
+        from .scripture_components import decode_component_reference, COMPONENT_VERSION
+        plans = source_plans(source, scopes, contract)
     bundle = {'version': VERSION, 'source_association_version': SOURCE_ASSOCIATION_VERSION,
               'source_sha256': json_hash(source), 'article_id': source['article']['id'],
               'source_structure_sha256': structure_hash(parsed),
@@ -280,33 +296,50 @@ def _build_associated_evidence(source, language_tag, contract, provider):
               'edition_map_provenance': copy.deepcopy(contract['edition_map_provenance']),
               'created_at': now(), 'lookups': {}, 'quotes': [], 'references': references,
               'classification_limit': 'Only explicit scopes establish Scripture quotations; uncited/unmarked quotations and allusions require independent reviewer detection.'}
+    if component_contract:
+        bundle.update(version='2', component_version=COMPONENT_VERSION,
+                      component_contract_sha256=json_hash(contract))
     if scopes and (edition.get('status') != 'available' or not edition.get('abbreviation')):
         raise ScriptureAttention('missing_edition', f'{language_tag}: {edition.get("review_note", "")}')
     for scope in scopes:
-        if re.search(r'[\[\]{}]', scope['source_quote']):
+        if not component_contract and re.search(r'[\[\]{}]', scope['source_quote']):
             raise ScriptureAttention('source_quote_annotation', f'{scope["reference"]}: {scope["source_quote"][:160]}')
     provider = provider or GetBibleMCP()
     def chapter(abbreviation, book, number):
         identity = f'{abbreviation}/{book}/{number}'
         if identity not in bundle['lookups']:
             try:
-                bundle['lookups'][identity] = _archive_chapter(provider.chapter(abbreviation, book, number))
+                if component_contract:
+                    response = verify_provider_envelope(provider.chapter(abbreviation, book, number),
+                                                        abbreviation, book, number)
+                    bundle['lookups'][identity] = (_archive_chapter(response) if component_require_fresh else response)
+                else:
+                    bundle['lookups'][identity] = _archive_chapter(provider.chapter(abbreviation, book, number))
             except ScriptureProviderError as exc:
                 raise ScriptureAttention('fetch_failed', str(exc)) from exc
         if len(canonical(bundle)) > contract['max_evidence_bytes']:
             raise ScriptureAttention('evidence_size_limit', 'Complete evidence exceeds its frozen bound; no text was truncated')
         return identity, bundle['lookups'][identity]
-    for scope in scopes:
+    def reference_address(reference):
+        if component_contract:
+            value = decode_component_reference(reference, version=COMPONENT_VERSION)
+            return value['book'], value['chapter'], value['verses']
+        return _reference(reference)
+    for scope_index, scope in enumerate(scopes):
         reference, quote = scope['reference'], scope['source_quote']
-        book, number, numbers = _reference(reference)
+        book, number, numbers = reference_address(reference)
+        if component_contract and len(numbers) != 1:
+            raise ScriptureAttention('component_multi_verse', 'Component evidence requires one verse per scope')
         # Brackets are authored annotations, never disposable punctuation.
-        if re.search(r'[\[\]{}]', quote):
+        if not component_contract and re.search(r'[\[\]{}]', quote):
             raise ScriptureAttention('source_quote_annotation', f'{reference}: {quote[:160]}')
         if book == 19 and edition['abbreviation'] != 'kjv':
             raise ScriptureAttention('unverified_versification', f'{reference} / {edition["abbreviation"]}')
         english_id, english = chapter('kjv', book, number)
         english_verses = _selected(english, numbers)
-        alignment = _unique_alignment(quote, english_verses)
+        fields = (source_component_fields(scope, english_verses[0]['text'], plans[scope_index])
+                  if component_contract else {})
+        alignment = fields.get('alignment') if component_contract else _unique_alignment(quote, english_verses)
         if alignment is None:
             whole = _unique_alignment(quote, english['result']['data']['verses'])
             reason = 'printed_reference_mismatch' if whole else 'ambiguous_source_quote'
@@ -316,7 +349,7 @@ def _build_associated_evidence(source, language_tag, contract, provider):
             'book': book, 'chapter': number, 'verses': numbers,
             'english_lookup': english_id, 'target_lookup': target_id,
             'english_verses': english_verses, 'target_verses': _selected(target, numbers),
-            'alignment': alignment,
+            'alignment': alignment, **fields,
             'correspondence': 'same numeric addresses; semantic correspondence requires independent review'})
     # Retain English evidence for explicit allusions without discovering a
     # quotation by an arbitrary matching substring inside their prose.
@@ -324,7 +357,7 @@ def _build_associated_evidence(source, language_tag, contract, provider):
         if ref['classification'] != 'reference_only':
             continue
         try:
-            book, number, numbers = _reference(ref['identity'])
+            book, number, numbers = reference_address(ref['identity'])
         except ScriptureAttention:
             continue
         _, english = chapter('kjv', book, number)
@@ -342,7 +375,7 @@ def _build_associated_evidence(source, language_tag, contract, provider):
             continue
         checked.add(identity)
         try:
-            book, number, numbers = _reference(ref['identity'])
+            book, number, numbers = reference_address(ref['identity'])
         except ScriptureAttention:
             continue
         english = bundle['lookups'][f'kjv/{book}/{number}']
@@ -395,6 +428,9 @@ def freeze_scripture_evidence(engine, source, language, *, frozen_policy=None, p
             or engine.human_protected(language, source['article']['id'])):
         raise ScriptureAttention('human_controlled', 'Human work is excluded from every Scripture AI path')
     frozen_policy = frozen_policy or policy(engine.config.root)
+    if frozen_policy.get('version') == '2':
+        from .scripture_component_evidence import reject_component_runtime
+        reject_component_runtime(frozen_policy)
     provider = provider or getattr(engine, 'scripture_provider', None)
     boundary = getattr(engine, 'continue_work', None)
     if boundary is not None:
@@ -423,7 +459,12 @@ def load_evidence(state, task, *, require_fresh=False):
     evidence = state.read(path)
     if not evidence or json_hash(evidence) != sha or evidence['source_sha256'] != json_hash(state.source(task)):
         raise ScriptureAttention('evidence_changed','Evidence or its English snapshot is missing/changed')
+    if evidence.get('version') != '2' and any(key in evidence for key in ('component_version', 'component_contract_sha256')):
+        raise ScriptureAttention('component_contract', 'Component evidence markers cannot be downgraded')
     contract = frozen_policy(state.read(f'state/campaigns/{task["campaign"]}.json'))
+    if evidence.get('version') == '2' or (contract or {}).get('version') == '2':
+        from .scripture_component_evidence import validate_component_evidence
+        return validate_component_evidence(state.source(task), evidence, contract, require_fresh=require_fresh)
     version = evidence.get('source_association_version', '1')
     if (version not in ('1', SOURCE_ASSOCIATION_VERSION) or contract is None
             or version != contract.get('source_association_version', '1')):
@@ -561,7 +602,14 @@ def _selection_blocks(evidence, candidate, source, expanded):
 
 
 def check_selections(evidence, candidate, selections, *, require_exact_citations=False,
-                     normalization_version='1', source=None, max_selection_bytes=MAX_SELECTION_AUDIT_BYTES):
+                     normalization_version='1', source=None, max_selection_bytes=MAX_SELECTION_AUDIT_BYTES,
+                     component_contract=None):
+    if evidence.get('version') != '2' and any(key in evidence for key in ('component_version', 'component_contract_sha256')):
+        raise ScriptureAttention('component_contract', 'Component evidence cannot use historical selection validation')
+    if evidence.get('version') == '2':
+        from .scripture_component_evidence import check_component_selections
+        return check_component_selections(evidence, candidate, selections, source=source,
+            contract=component_contract, max_selection_bytes=max_selection_bytes)
     expanded = normalization_version == '2'
     associated = evidence.get('source_association_version') == SOURCE_ASSOCIATION_VERSION
     if expanded:
@@ -644,6 +692,8 @@ def repair_complete_selections(evidence, candidate, selections, *, normalization
     frozen scopes. Partial/ellipsis selections are deliberately ineligible.
     This is not an independent review.
     """
+    if evidence.get('version') == '2' or any(key in evidence for key in ('component_version', 'component_contract_sha256')):
+        raise ScriptureAttention('component_runtime_not_enabled', 'Component selection repair is not enabled')
     expanded = normalization_version == '2'
     if expanded:
         _bounded_selection_input(selections,max_selection_bytes)
@@ -715,6 +765,9 @@ def normalize_scripture_candidate(state, task, result):
     contract = frozen_policy(campaign)
     if not contract:
         return result
+    if contract.get('version') == '2':
+        from .scripture_component_evidence import reject_component_runtime
+        reject_component_runtime(contract)
     evidence = load_evidence(state,task)
     if not isinstance(result,dict) or set(result) != {'html','title','subtitle','section','scripture_selections'}:
         raise ScriptureAttention('selection_shape','Versioned translation response requires Scripture selections')
@@ -755,6 +808,9 @@ def validate_scripture_candidate(state, task, candidate):
     contract = frozen_policy(campaign)
     if not contract:
         return
+    if contract.get('version') == '2':
+        from .scripture_component_evidence import reject_component_runtime
+        reject_component_runtime(contract)
     evidence = load_evidence(state,task)
     selections = state.read(f'state/tasks/{task["id"]}/scripture-selections.json')
     if (not selections or selections.get('candidate_sha256') != json_hash(candidate)
@@ -803,6 +859,8 @@ def adopt_scripture_selection_audit(state, task, previous_task=None):
     This never invents selected spans and never changes an old audit record.
     """
     evidence = load_evidence(state,task)
+    if evidence.get('version') == '2':
+        raise ScriptureAttention('component_runtime_not_enabled', 'Component audit adoption is not enabled')
     candidate = state.candidate(task)
     if not isinstance(candidate,dict):
         return False
