@@ -5,10 +5,11 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8f8838671fdf4d81bdff8cdde69f97ad",
   "campaign": "auto-22c065e22d92eee6b8abd5e4a6d8b9deac33b89adb5144d9bb33aba9ec637650",
   "created_at": "2026-10-08T03:10:22+00:00",
   "events": [],
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "HTML, poem: the voice’s direct address in the stanza beginning “Then a still, but strong voice” and the later stanzas beginning “My child, fear not” and “So, My child”",
@@ -25,6 +26,7 @@
       "translation_quote": "«Ni por un segundo me aparté de tu lado.»"
     }
   ],
+  "finished_at": "2026-10-08T17:34:04+00:00",
   "id": "48e7a9ac264d16fe6209405b77ea2a2b",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -113,6 +115,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
@@ -131,7 +138,7 @@
     "total_reserved_usd": 1.07237,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem: the voice’s direct address in the stanza beginning “Then a still, but strong voice” and the later stanzas beginning “My child, fear not” and “So, My child”",
+      "severity": "major",
+      "source_quote": "“My precious child, look up.” / “My child, fear not” / “So, My child”",
+      "suggested_fix": "Replace «Criatura preciosa» with «Hijo mío amado» (or another natural, gender-inclusive rendering of “My precious child”), and replace «Criatura mía» in the later addresses with «Hijo mío» or «Hija mía», consistently throughout. Preserve the existing <p> tags and line breaks.",
+      "translation_quote": "«Criatura preciosa, mira hacia arriba». / «Criatura mía, no temas» / «Así que, criatura mía»"
+    },
+    {
+      "location": "HTML, poem, stanza beginning “My child, fear not”",
+      "severity": "minor",
+      "source_quote": "“Not for a second could I leave your side.”",
+      "suggested_fix": "For a closer rendering of the assurance that God never left the speaker’s side, change «Ni por un segundo me aparté de tu lado» to «No podría apartarme de tu lado ni por un segundo».",
+      "translation_quote": "«Ni por un segundo me aparté de tu lado.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}
