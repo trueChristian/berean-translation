@@ -12384,6 +12384,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "8a82a4c7bd10ed8a8a8238236da407e48d2e1170bdbafafe8705c00567877066",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "7452969abf585a226e63c0be6eeaf3e07726df230c3c19015859e9d4bd728ef0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Vom Herausgeber",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vom Herausgeber",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
       "html_sha256": "5f5868c15e09ecf75c093f653d40a996bd5cb2f0c148531adf3cb6dd6c64884f",
       "human_reviewed": false,
