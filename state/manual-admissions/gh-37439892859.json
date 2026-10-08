@@ -13,6 +13,16 @@
           "at": "2026-10-06T16:48:20+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:15:57+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:15:57+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -49,8 +59,15 @@
         }
       },
       "provenance_sha256": "ee2c7473b8a3c3c00d40f35755fde14cb49d274b5d99f309f95db38d4be63e4b",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "17a4f3b2746b198d2cf59487cbdaf0448e49cfc39ecb696183a82a5a4765dbf6",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "0672ae7153ccfb1fc375effab60f075e"
     },
     "151e1235fece0c61dea4e2683201ed64": {
@@ -64,6 +81,16 @@
           "at": "2026-10-06T16:47:43+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:15:58+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:15:58+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -100,8 +127,15 @@
         }
       },
       "provenance_sha256": "cc934c093db73f51b8b1c9dc6d26f1916f9fe6a62b5f7060c8beb7d3137d2713",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "148e7b895c0709f403843b4a6f033b0ff75cf785fd60a95f395f1ebb5eee60cb",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "151e1235fece0c61dea4e2683201ed64"
     },
     "1606e1a1853f68120791262611ad89fd": {
@@ -115,6 +149,16 @@
           "at": "2026-10-06T16:47:46+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:15:59+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:15:59+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -151,8 +195,15 @@
         }
       },
       "provenance_sha256": "1d71315183a914fbb0df5309db3326f910307c4c01b16c7655ad0718916b5dfa",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "f43542ca2ac919e5e367cea5bc0207da8055c9a6073871ca62870929bf709843",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "1606e1a1853f68120791262611ad89fd"
     },
     "17361762edfd4ede8fe0dc00ac1a9e44": {
@@ -166,6 +217,16 @@
           "at": "2026-10-06T16:47:49+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:00+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:00+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -202,8 +263,15 @@
         }
       },
       "provenance_sha256": "14921b6a0faa3a1731a52fcdedd4c712ff9ec335cb3f2f5231a20901a190ea43",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "4306a3df01e1d6eb2a64e78715f99cfbb68fdfdbf9743b0bd8cc5b1a9cb8c4df",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "17361762edfd4ede8fe0dc00ac1a9e44"
     },
     "1925bdb2ab02b43f92257833834b58ad": {
@@ -217,6 +285,16 @@
           "at": "2026-10-06T16:47:59+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:00+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:01+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -253,8 +331,15 @@
         }
       },
       "provenance_sha256": "40fcfebe9e937fdd5fb75d2d9693a290c26ffef7ab82afea1e4c6f06b364f04e",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "54a50a7d67df22d6eba3604547a62403424b77d5606281dd9731ff44ff67003e",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "1925bdb2ab02b43f92257833834b58ad"
     },
     "1cea9497904281a152206bc8fba64c34": {
@@ -268,6 +353,16 @@
           "at": "2026-10-06T16:47:51+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:01+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:02+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -304,8 +399,15 @@
         }
       },
       "provenance_sha256": "4f200c262df5979791102d3900cf480178cf5d19bed947dc55374654b3cd817e",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "d4d3caee5df18f39f9ab5bc8045328288f708a0a7eae628bce144527b1f455f5",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "1cea9497904281a152206bc8fba64c34"
     },
     "226106a2382aa51602808e228673cb30": {
@@ -319,6 +421,16 @@
           "at": "2026-10-06T16:48:15+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:02+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:03+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -355,8 +467,15 @@
         }
       },
       "provenance_sha256": "00bf09bf17375f79254172b1353a27d6992b55885ab5e09cd9b6addfec9b7981",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "eb6b28d564f610ce23c87b06277181d71fbd0239cf1c95dbe48c0b8a9f72c345",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "226106a2382aa51602808e228673cb30"
     },
     "34df7bfec1545547b5221e9dbe2498c0": {
@@ -370,6 +489,16 @@
           "at": "2026-10-06T16:48:28+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:03+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:03+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -406,8 +535,15 @@
         }
       },
       "provenance_sha256": "4173c0ca4224c7f05a2677a0def215a318561d6f9f50902e21db342b92f7f0c6",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "455f8272b167d7991c4ed9275e8e7f3a55c52ca11b89e89b30372bd0aa35fd6f",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "34df7bfec1545547b5221e9dbe2498c0"
     },
     "44ea238bf82d1f50f866d2425de4c2a4": {
@@ -421,6 +557,16 @@
           "at": "2026-10-06T16:48:17+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:04+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:04+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -457,8 +603,15 @@
         }
       },
       "provenance_sha256": "69380cbe0d012fb98ead3fd1685f26c201ad8616869f8f63e3c90862f35270e3",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "81a6de03849bbb44873272e623893ac07aabaac255f47cc111e9f9c94ee13c57",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "44ea238bf82d1f50f866d2425de4c2a4"
     },
     "5efc1b5e6c24219865d1eb7b6f350992": {
@@ -472,6 +625,16 @@
           "at": "2026-10-06T16:48:18+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:05+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:05+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -508,8 +671,15 @@
         }
       },
       "provenance_sha256": "1116f6d1ba7aa6884de1424f02af12a6585afa6fab0b7bbe84f3ed63cf63f8e7",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "597102dd926e21ebe66be1565f8e5937064d569d57d03bb729dba0e2467893b5",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "5efc1b5e6c24219865d1eb7b6f350992"
     },
     "6e0093313413f9b11f35989d8ac5e780": {
@@ -523,6 +693,16 @@
           "at": "2026-10-06T16:47:41+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:06+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:06+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -559,8 +739,15 @@
         }
       },
       "provenance_sha256": "81bfaab98e88d22bdc3d05e9561dd9188aab1c43220a5681b2af9070e9ebad6a",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "7e95873bd09d24be91055e17f90efc6861218638a093afce9fa4e6cd453e9551",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "6e0093313413f9b11f35989d8ac5e780"
     },
     "9757cf018c5d0d0c4c1807fbedb2d5c2": {
@@ -574,6 +761,16 @@
           "at": "2026-10-06T16:47:57+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:07+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:07+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -610,8 +807,15 @@
         }
       },
       "provenance_sha256": "c1b731442a7e397f529fa92e97afb46784ff0d32264e5e95547bee3763d4e00c",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "33d2571311a6067f1b5ee905cea5cd1904aa5d8980a7c1eb3db40436a75d1370",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "9757cf018c5d0d0c4c1807fbedb2d5c2"
     },
     "9a9c2773c3209f4a364363129ded7149": {
@@ -625,6 +829,16 @@
           "at": "2026-10-06T16:48:09+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:07+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:08+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -661,8 +875,15 @@
         }
       },
       "provenance_sha256": "5853f9041d7aa64d9d25ee8121a7631254db5dd398608b1dd57047722582d3a3",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "9a2697c73a0190bc66f5d6f0768d2bb83303e8dec19d648b9ee7972bcd69a801",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "9a9c2773c3209f4a364363129ded7149"
     },
     "a1dcc632cf2d27cd0dc28cf6080a9075": {
@@ -676,6 +897,16 @@
           "at": "2026-10-06T16:48:01+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:08+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:09+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -712,8 +943,15 @@
         }
       },
       "provenance_sha256": "f0d9eafe4c9d3c1d94c70f06b775a2db7b54e9084190e921c23e52841542c3d9",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "45f10379363bf3a4f53ecbaa3e83e74bc4dcb155edd95bb5c365c363f0e52b27",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "a1dcc632cf2d27cd0dc28cf6080a9075"
     },
     "ae7b4ff61f97dc205ac8c19251cbab40": {
@@ -727,6 +965,16 @@
           "at": "2026-10-06T16:48:03+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:09+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:10+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -763,8 +1011,15 @@
         }
       },
       "provenance_sha256": "3da1130ad7dd40d4afabee1fc056f6c436f0e67962e4e1b8c0698b659eb123a2",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "4e596d534bde6155dbd4f66f820c1eae641188483c4d1e53f1f10b933dadaeaf",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "ae7b4ff61f97dc205ac8c19251cbab40"
     },
     "b5b2807ae835bdb893b4360154ccb9a7": {
@@ -778,6 +1033,16 @@
           "at": "2026-10-06T16:48:30+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:10+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:10+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -814,8 +1079,15 @@
         }
       },
       "provenance_sha256": "4a29cab80a452dd1bbb89fe49bf9b5dd6d46c33a25b8d9666271c9df88bb2a02",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "6529e4a8d23b67769ab80b8209a26904b1320a281ee7b6a946fc401632c5c7e1",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "b5b2807ae835bdb893b4360154ccb9a7"
     },
     "bcf0a80be2fea90eacfd0b1a412b3178": {
@@ -829,6 +1101,16 @@
           "at": "2026-10-06T16:48:13+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:11+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:11+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -865,8 +1147,15 @@
         }
       },
       "provenance_sha256": "251f9dce66c40736f9f619bfd203c72424bce8bf871ddf78dce41f24a43a7a5e",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "cff818ca48b528958e1a811966bc0ab8fb0d49a13bf88aba1cad62d45c3991f3",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "bcf0a80be2fea90eacfd0b1a412b3178"
     },
     "c8469446ae3655c0223e3881290428eb": {
@@ -880,6 +1169,16 @@
           "at": "2026-10-06T16:48:07+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:12+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:12+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -916,8 +1215,15 @@
         }
       },
       "provenance_sha256": "727cb85db7c4482d462adb4d321493bced9b8ca1690c8f7a9fec10c76d8edb8b",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "562f67eaf24d049ee1aa656c8a0d274968f05e4efda8a36d24ee8412763ed778",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "c8469446ae3655c0223e3881290428eb"
     },
     "cb4433a40cb68a5e3b63f73e1def03ec": {
@@ -931,6 +1237,16 @@
           "at": "2026-10-06T16:47:48+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:13+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:13+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -967,8 +1283,15 @@
         }
       },
       "provenance_sha256": "1b75f2f9d7bd1720679b439785340eb3d20978d4bf9d7b78d17a16f418256395",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "9c2413cd6ba06dfa52f62d9e6f6eda98f883db1cd85306447b9b261eac8fd759",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "cb4433a40cb68a5e3b63f73e1def03ec"
     },
     "ceab925bf735df0faf026bbe68aedb78": {
@@ -982,6 +1305,16 @@
           "at": "2026-10-06T16:48:10+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:14+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:14+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1018,8 +1351,15 @@
         }
       },
       "provenance_sha256": "c296a2034c3ed89d053afe7a968f81a2ef8ee8a4c546a0789cf3add5874cbe52",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "609ce970a29b7084c71169980e133d5a5f265248da5ee864bd9abf567c65b31b",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "ceab925bf735df0faf026bbe68aedb78"
     },
     "db5d3ed7f97a3e8f53a1b5d6a3b9a7b6": {
@@ -1033,6 +1373,16 @@
           "at": "2026-10-06T16:47:55+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:14+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:15+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1069,8 +1419,15 @@
         }
       },
       "provenance_sha256": "9f89f082ca53c177639924aba21b6b813e77c4d22f90e7d252f2b36cf3ac8e7d",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "36e44ad4fe041e13a268e2b5101f3b5ab145567c60331fd386b773499c97df75",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "db5d3ed7f97a3e8f53a1b5d6a3b9a7b6"
     },
     "dfcb625126bb88e0ad9d4912c244d266": {
@@ -1084,6 +1441,16 @@
           "at": "2026-10-06T16:47:53+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:15+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:16+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1120,8 +1487,15 @@
         }
       },
       "provenance_sha256": "d319930cd785b7e25b3be9be7ea90d8bda41b1d670e53e05a99f3c5f67749b0e",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "8529a2e11ec9be666d86a63f28f51140d31ad7fc16ae013c9e0729afc43626ce",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "dfcb625126bb88e0ad9d4912c244d266"
     },
     "e2db20633320123f81deacc6e607ec58": {
@@ -1135,6 +1509,16 @@
           "at": "2026-10-06T16:48:22+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:16+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:17+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1171,8 +1555,15 @@
         }
       },
       "provenance_sha256": "5eb205142618f3c46baf03e8ab57172e56b38eb610f0657aee4dea937aaca50b",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "9ad00a5d7ced655adc447d99accd04674aca6ffacf16cb3dcd41317035ce81e4",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "e2db20633320123f81deacc6e607ec58"
     },
     "ec6500b4f0b2187aea4d8b5a9756fa7d": {
@@ -1186,6 +1577,16 @@
           "at": "2026-10-06T16:48:05+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:17+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:17+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1222,8 +1623,15 @@
         }
       },
       "provenance_sha256": "ff46e9211f6b54e94f2bd04c3364251e0ae94fd2167def6b9b1585313fedd323",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "6ce4b8aab4cdd571f7e2c894fcfab5939de747ce34824bf19ac42acf0f2e588b",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "ec6500b4f0b2187aea4d8b5a9756fa7d"
     },
     "ef421b08c7b807d2324a209a97d07384": {
@@ -1237,6 +1645,16 @@
           "at": "2026-10-06T16:48:31+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:18+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:18+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1273,8 +1691,15 @@
         }
       },
       "provenance_sha256": "c50f33e723a246918d89a6ef6dd5010d15009a8336d5f31e36b20cc37a994046",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "609becc489485640ed1b144868de85bd0f870044cd2cd230c6f71aef6cd90e84",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "ef421b08c7b807d2324a209a97d07384"
     },
     "f93af02eeb840160fc532609cb9a8bcf": {
@@ -1288,6 +1713,16 @@
           "at": "2026-10-06T16:48:24+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:19+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:19+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1324,8 +1759,15 @@
         }
       },
       "provenance_sha256": "5e55a2e5f4886de445f70e6d3ab68ae6ccb599eb76208d095e4067be2c62a312",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "f4df89b5a1259d5f8257ae42b11a65c29ef6f5e66d2c6f0b7b6e8f31b5df8eea",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "f93af02eeb840160fc532609cb9a8bcf"
     },
     "ff79731df3b0591d45eb04bc4a8b6008": {
@@ -1339,6 +1781,16 @@
           "at": "2026-10-06T16:48:26+00:00",
           "reason": "ambiguous_source_quote",
           "status": "attention"
+        },
+        {
+          "at": "2026-10-08T13:16:20+00:00",
+          "reason": "plain_translation_resumed",
+          "status": "ready"
+        },
+        {
+          "at": "2026-10-08T13:16:20+00:00",
+          "reason": "original_manual_envelope",
+          "status": "admitted"
         }
       ],
       "item": {
@@ -1375,8 +1827,15 @@
         }
       },
       "provenance_sha256": "3accb40da12f78b423f8f0d99784004069ccc19c28a5d5e6d2d18937cf7d0f99",
-      "reason": "ambiguous_source_quote",
-      "status": "attention",
+      "reason": "original_manual_envelope",
+      "resume_event_count": 2,
+      "resume_events_sha256": "bc615bf0149ff65ff3567c067dc0e5eaf373054b669599d63ad39265785d5cdc",
+      "resume_fields": {
+        "plain_policy_resumed": true,
+        "stage": "translate"
+      },
+      "resume_sha256": "7bfc439addac93fdeb8d60fd85fb2b99fb71a6ab75d1a6ce32767fd5d26ceef9",
+      "status": "admitted",
       "task_id": "ff79731df3b0591d45eb04bc4a8b6008"
     }
   },
