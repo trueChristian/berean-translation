@@ -10502,7 +10502,7 @@
       "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
       "language": "spa",
       "latest_task": "48e7a9ac264d16fe6209405b77ea2a2b",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
