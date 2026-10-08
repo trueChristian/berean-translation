@@ -11,9 +11,9 @@ this implementation. Tests use disposable repositories and fake Batch providers.
 `Engine.accept_component_revision(campaign_id, entry_id, scripture_policy,
 evidence)` accepts an explicitly supplied, complete source-bound component plan
 and archived approved-provider evidence. It does not discover, infer or obtain
-permission for a plan. A trusted operational plan selection/queue interface and
-live activation remain separate work; ordinary requests keep their frozen v1
-quotation contract. Once a revision is recorded, ordinary collector acceptance
+permission for a plan. The bounded Jacques inspection and explicit queue interface described below
+provides operational selection; live activation remains separate work. Ordinary
+requests keep their frozen v1 quotation contract. Once a revision is recorded, ordinary collector acceptance
 and resume, prepare, upload, submit, reconciliation, collection, bounded review
 and first-publication paths execute it.
 
@@ -104,3 +104,98 @@ malformed outputs, unknown creates and the hard 2+2 stage maximum. Run the focus
 `tests/test_scripture_component_runtime.py` and the full validation commands in
 `AGENTS.md`. These results establish offline behavior only; they are not live
 OpenAI, GitHub Actions, translation or deployment results.
+
+## Read-only Jacques inspection and explicit immutable selection
+
+`python -m berean_translation inspect-scripture-components` inspects only the
+original Jacques manual campaign `gh-37439892859`, article
+`069fc797-01e4-44d3-8b71-1c07f0821965`. It selects nothing, allocates nothing,
+constructs no OpenAI client and never writes repository State. It discovers one
+coherent current English snapshot through the ordinary index/catalogue client,
+compares the complete article with the original snapshot, and computes all entry,
+scope, plan, source and package hashes internally. Source editors do not maintain
+these hashes. The original request, models, prices, budget and campaign contract
+remain unchanged.
+
+Optional arguments:
+
+- `--evidence-dir /outside/repository/evidence` reuses complete approved GetBible
+  chapter envelopes named `<edition>-<book>-<chapter>.json`.
+- `--fetch-evidence` explicitly allows missing anonymous read-only GetBible
+  lookups. It never invokes a model. Existing invalid/expired archives hold; they
+  are not silently replaced. Use a fresh cache to obtain a fresh inspection.
+- `--output /outside/repository/jacques-inspection.json` writes a portable,
+  hash-bound package. Without an output path, the complete package is stdout.
+
+The bounded source planner supports this original source only: one uniquely
+aligned Romans 2:4 printed extent, its literal leading ellipsis as punctuation,
+the literal `[that]` insertion, exact unchanged canonical text and whole-boundary
+omissions. It does not normalize or invent canonical text, translate Scripture,
+infer target wording, or support Cloud's ranges/interior ellipses or morphology.
+Every admitted target Scripture span must still select exact text from its
+approved Bible edition; authored article insertions require independent review.
+
+A package contains evidence-backed entries and explicit per-entry holds, with
+`funding_allocated=false`, `publication_ready=false` and an empty selection.
+The projected full 2-generation/2-review ceiling is informational. It does not
+reserve money or establish publication readiness. Complete provider envelopes
+are checked for approved scope, full ordered chapter inventory, timestamp and
+cache validity, and replayed through the full source-association backstop. Cached
+files must be bounded regular files. Expiry cannot exceed the original provider
+fetch time plus 30 days or a shorter declared retention; replay never renews it.
+Hashes
+bind bytes and do not independently authenticate who created an archive. Use
+only complete archives obtained through the approved anonymous adapter; synthetic
+offline test envelopes are controls, never live supporting evidence.
+
+The **AI — Inspect Jacques Scripture holds** main-branch workflow defaults to
+`dry_run=true` and empty `entry_ids`. It installs only the read-only Scripture
+client, archives the complete inspection/evidence outside repository State, and
+has no OpenAI key. Only an explicit nonempty list of evidence-backed entry IDs
+with `dry_run=false` can create a unique immutable `component-gh-<run-id>` file in
+the existing queue. Its strict provenance binds repository, workflow, main ref,
+run ID and actor. A rerun reuses the exact existing selection; it cannot replace
+evidence or change inputs. The gate remains independently disabled by default.
+
+The existing serialized collector consumes this request. It rechecks the whole
+selected package, current source, human ownership, original never-paid histories,
+exact target language, deterministic policy, frozen processing contract and
+combined original-envelope headroom before any
+new revision. It invokes `Engine.accept_component_revision` for each exact entry.
+Partial acceptance resumes only matching immutable original revisions. The
+original manual admission/task histories are the receipt; no new campaign,
+private execution ledger, funding account or retry allowance is created.
+Gate-off requests remain paused. Held/invalid entries never fall back to broad
+selection. Passing inspection still requires bounded generation and independent
+review through the ordinary collector before any first publication.
+
+### Versioned work bound and authentic evidence
+
+The October 8, 2026 read-only check obtained all 18 complete anonymous provider
+chapter envelopes for the 12 potential language entries. The literal English
+partition validates. The initial source-association version 2 full preflight held
+all 12 on `source_association_limit`: the many marked dialogue spans exceeded the
+2,000,000-work bound. Historical version 2 evidence retains that behavior.
+
+New Jacques inspections explicitly freeze `source_association_version="3"`.
+This version indexes and reuses the same token structures and performs bounded
+exact matching. It retains the 2,000,000-work ceiling and all cited-verse and
+unclaimed-span checks; it does not omit dialogue spans or weaken the backstop.
+The ordinary version 1 quotation policy and default component version 2
+association policy remain unchanged. Evidence records a deterministic work audit
+that must match on archived replay.
+
+All 12 authentic archived evidence builds and exact replays passed with version
+3 at 786,127 of 2,000,000 work units, including all seven cited checks and all
+312 unclaimed-span/chapter checks. These results establish evidence support,
+not translation quality or admission. The projected $0.537288 complete-cycle
+ceiling per language remains subject to the original shared envelope, current
+source, never-paid history and human-exclusion checks. No live queue request,
+allocation, paid model call, activation or publication was made.
+
+The read-only CLI was also exercised against translation main `656fa5b3` and
+one clean current English checkout at `3e9673f0`, using those authentic archives.
+It produced all 12 evidence-backed entries and zero holds, with empty selection,
+`funding_allocated=false` and `publication_ready=false`. Repository State,
+content and generated reports remained byte-for-byte unchanged. This was a
+local read-only inspection; the new GitHub workflow was not dispatched.

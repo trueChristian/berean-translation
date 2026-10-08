@@ -124,6 +124,9 @@ class Engine:
         return components.accept(self, campaign_id, entry_id, scripture_policy, evidence)
 
     def accept_request(self, request):
+        if request.get('operation') == 'scripture-components':
+            from .scripture_component_plans import accept_request
+            return accept_request(self, request)
         manual_admission.restore_orphans(self.state)
         if request.get('autonomous'):
             return autonomous.accept(self, request)
@@ -348,9 +351,15 @@ class Engine:
                 continue
             if request.get('source_refresh') is True and not self.config.runtime.get('automatic_source_refresh',{}).get('enabled'):
                 continue  # Disabling the policy pauses unaccepted automatic requests.
+            if request.get('operation') == 'scripture-components' and not components.enabled(self.config):
+                continue  # Gate-off selection is paused, not rejected or broadened.
             if request.get('autonomous'):
                 count += 1  # Held automatic admissions still consume this pass's bounded page.
             try:
+                if request.get('operation') == 'scripture-components':
+                    from .scripture_component_plans import request_materialized
+                    if request_materialized(self.state, request):
+                        continue
                 self.accept_request(request)
             except ScriptureAttention as exc:
                 self.state.write(f'state/automatic-holds/{path.stem}.json', {'reason': exc.reason, 'detail': str(exc), 'last_checked_at': now()})

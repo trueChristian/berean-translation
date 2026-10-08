@@ -1,0 +1,62 @@
+name: AI — Inspect Jacques Scripture holds
+
+on:
+  workflow_dispatch:
+    inputs:
+      entry_ids:
+        description: "Exact evidence-backed Jacques entry IDs from an inspection, comma-separated; empty selects nothing"
+        type: string
+        default: ""
+      dry_run:
+        description: "Inspect only; no queue, allocation or model requests (runtime gate also remains required)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# This is an immutable enqueuer, not another State writer. The existing worker
+# retains the shared collector concurrency group and all funding/execution state.
+jobs:
+  inspect:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out trusted main with human history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install only the read-only Scripture client
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements-scripture.txt
+      - name: Read coherent current English main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: trueChristian/berean-voice
+          ref: main
+          path: .build/source
+          sparse-checkout: content/articles
+          persist-credentials: false
+      - name: Inspect and optionally persist exact selection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEREAN_SOURCE_CHECKOUT: .build/source
+          INPUT_ENTRY_IDS: ${{ inputs.entry_ids }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          SCRIPTURE_COMPONENT_PLAN_OUTPUT: ${{ runner.temp }}/jacques-inspection.json
+          SCRIPTURE_COMPONENT_EVIDENCE_DIR: ${{ runner.temp }}/jacques-evidence
+        run: .venv/bin/python -m berean_translation enqueue-scripture-components-env
+      - name: Retain complete read-only plan and provider evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: jacques-inspection-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/jacques-inspection.json
+            ${{ runner.temp }}/jacques-evidence/
+          if-no-files-found: warn
+          retention-days: 14

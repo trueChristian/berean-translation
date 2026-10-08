@@ -1,6 +1,7 @@
 """Persist one immutable manual request without serializing/dropping enqueuers."""
 from __future__ import annotations
 import base64
+import hashlib
 import json
 import os
 import re
@@ -27,7 +28,13 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
         raise ContractError('Invalid target repository')
     if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}',request['id']):
         raise ContractError('Invalid queue identity')
-    if request.get('operation') == 'repair':
+    component = request.get('operation') == 'scripture-components'
+    if component:
+        from .scripture_component_plans import validate_request
+        validate_request(config, request)
+        if request['authorization']['repository'] != repository:
+            raise ContractError('Component selection belongs to a different repository')
+    elif request.get('operation') == 'repair':
         from .downstream import validate_request
         validate_request(config, request)
         if (request.get('manual_authorization') and
@@ -35,14 +42,16 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
             raise ContractError('Manual repair authorization belongs to a different repository')
     elif not recovery_selector(request, config.runtime['max_tasks_per_request']):
         config.select_languages(request['languages'])
-    config.model(request['model']); config.model(request['review_model'])
-    positive_money(request['budget_usd'],config.runtime['max_campaign_usd'])
+    if not component:
+        config.model(request['model']); config.model(request['review_model'])
+        positive_money(request['budget_usd'],config.runtime['max_campaign_usd'])
     if not token:
         raise ContractError('GITHUB_TOKEN is required to enqueue work')
     path = f'state/queue/{request["id"]}.json'
     url = f'https://api.github.com/repos/{repository}/contents/{path}'
+    payload = canonical(request) + b'\n'
     body = {'message':f'queue: {request["operation"]} request {request["id"]}',
-            'branch':'main','content':base64.b64encode(canonical(request)+b'\n').decode('ascii')}
+            'branch':'main','content':base64.b64encode(payload).decode('ascii')}
     for attempt in range(5):
         try:
             return transport('PUT',url,token,body)
@@ -55,6 +64,22 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
                 if lookup.code != 404:
                     raise
             else:
+                # The Contents API omits inline content above 1 MB. Complete
+                # component evidence can exceed that threshold; replay its
+                # exact Git blob instead of refreshing or replacing the plan.
+                if component and existing.get('encoding') == 'none':
+                    sha = existing.get('sha')
+                    expected_sha = hashlib.sha1(b'blob ' + str(len(payload)).encode('ascii') + b'\0' + payload).hexdigest()
+                    if sha != expected_sha or existing.get('size') != len(payload):
+                        raise ContractError('Existing component queue blob differs from the immutable request')
+                    existing = transport('GET', f'https://api.github.com/repos/{repository}/git/blobs/{sha}', token)
+                    content = existing.get('content')
+                    if (existing.get('sha') != sha or existing.get('encoding') != 'base64'
+                            or existing.get('size') != len(payload) or not isinstance(content, str)
+                            or len(content) > 2 * len(payload) + 128):
+                        raise ContractError('Existing component queue blob identity changed')
+                    if base64.b64decode(content) != payload:
+                        raise ContractError('Existing component queue blob bytes changed')
                 recorded = loads(base64.b64decode(existing['content']))
                 if recorded != request:
                     raise ContractError('Queue identity already exists with different inputs')
