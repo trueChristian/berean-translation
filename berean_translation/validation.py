@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
-from .common import ContractError, digest, json_hash, loads, read_json, safe_path, uuid, write_json, write_text
+from .common import ContractError, digest, json_hash, loads, safe_path, uuid, write_json, write_text
 from .html import rewrite_export_urls, validate_translation
 from .source import translation_key
 from .recovery import validate_recoveries
@@ -15,34 +15,65 @@ from .state import State, TERMINAL
 from .review_notice import validate_human_content, validate_recorded_notice
 
 
-def validate_repository(config, check_index=True):
+def validate_publications(config, check_index=True):
+    """Validate the display contract without depending on unrelated paid work.
+
+    Export never consumes queued candidates, campaign budgets or batch payloads.
+    Accepted paths, source proofs, exact file hashes, safe HTML and editorial
+    attribution remain mandatory, including verified last-accepted copies.
+    The worker/CI uses validate_repository for all additional runtime invariants.
+    """
     state = State(config.root)
-    expected_files = set()
     seen = set()
     for record in state.records():
+        pub = record.get('published')
+        if not pub:
+            continue
         language, identity = record['language'],uuid(record['article_id'])
         if language not in config.languages or (language,identity) in seen:
             raise ContractError('Invalid or duplicate translation record')
         seen.add((language,identity))
-        pub = record.get('published')
-        if not pub:
-            continue
         if pub['html_path'] != f'content/{language}/articles/{identity}.html' or pub['metadata_path'] != f'content/{language}/articles/{identity}.json':
             raise ContractError('Translation publication paths do not match their identities')
-        expected_files.update((pub['html_path'],pub['metadata_path']))
         source = state.source(pub)
         candidate,tail,text = state.publication_candidate(pub)
         if pub['human_reviewed']:
             validate_human_content(candidate, tail, identity)
         else:
-            validate_translation(source,candidate,language=language)
+            from .plain_policy import is_plain
+            validate_translation(source,candidate,language=language,
+                                 scripture_validation=not is_plain(pub))
         validate_recorded_notice(pub, tail)
         if digest(text) != pub['html_sha256'] or json_hash({k:candidate[k] for k in ('title','subtitle','section')}) != pub['metadata_sha256']:
             raise ContractError('Published files changed without review synchronization')
         if source['translation_key'] != pub['translation_key'] or source['article']['id'] != identity:
             raise ContractError('Publication source identity/fingerprint mismatch')
+        if (source.get('repository') != config.runtime['source_repository']
+                or source.get('revision') != pub.get('source_revision')
+                or not re.fullmatch(r'[a-f0-9]{40}', pub.get('source_revision', ''))
+                or source.get('fingerprints', {}).get('html_sha256') != digest(source['html'])
+                or translation_key(source['fingerprints']) != source['translation_key']):
+            raise ContractError('Publication source provenance mismatch')
         if not isinstance(pub.get('model'),str) or not isinstance(pub.get('review_model'),str):
             raise ContractError('Missing model provenance')
+    result = state.projection(config)
+    if check_index and state.read('index.json') != result:
+        raise ContractError('Generated index is stale; derive it before publication')
+    return result
+
+
+def validate_repository(config, check_index=True):
+    state = State(config.root)
+    result = validate_publications(config, check_index=check_index)
+    records = state.records()
+    seen = set()
+    for record in records:
+        key = (record['language'], uuid(record['article_id']))
+        if record['language'] not in config.languages or key in seen:
+            raise ContractError('Invalid or duplicate translation record')
+        seen.add(key)
+    expected_files = {record['published'][field] for record in records if record.get('published')
+                      for field in ('html_path', 'metadata_path')}
     from . import content_isolation
     observed_content = content_isolation.inventory(config.root)
     content_isolation.validate(state, observed_content)
@@ -114,15 +145,12 @@ def validate_repository(config, check_index=True):
             if (batch['tasks'] != kept or batch['custom_ids'] != [identity+':'+batch['stage'] for identity in kept]
                     or payload != expected):
                 raise ContractError('Prepared-batch replacement changed an authorized request')
-    result = state.projection(config)
-    if check_index and state.read('index.json') != result:
-        raise ContractError('Generated index is stale; derive it before publication')
     return {'published':len(result['articles']),'ready':sum(a['status']=='ready' for a in result['articles']),
             'tasks':len(tasks),'campaigns':len(state.campaigns()),'batches':len(state.batches())}
 
 
 def export(config, destination: Path, source_inventory: dict, source_revision: str, base='/', translation_revision=None):
-    validate_repository(config)
+    validate_publications(config)
     root = config.root.resolve()
     destination = destination.absolute()
     resolved = destination.resolve()
@@ -160,6 +188,12 @@ def export(config, destination: Path, source_inventory: dict, source_revision: s
         retained = []
         for item in State(root).projection(config)['articles']:
             observed = source_articles.get(item['id'])
+            if observed and (observed.get('source_error')
+                             or not isinstance(observed.get('translation_key'), str)
+                             or not re.fullmatch(r'[a-f0-9]{64}', observed['translation_key'])):
+                raise ContractError(f'Cannot verify the current English fingerprint for accepted article '
+                                    f'{item["id"]}; preserve the last deployed site and repair its '
+                                    'English source before exporting. Accepted translation bytes remain retained.')
             target = copy.deepcopy(item)
             publication = State(root).record(item['language'], item['id'])['published']
             target['status'] = ('source_removed' if not observed else
