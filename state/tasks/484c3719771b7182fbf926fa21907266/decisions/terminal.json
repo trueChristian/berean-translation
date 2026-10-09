@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[26]/em[2]; translation /article[1]/p[26]",
+      "severity": "critical",
+      "source_quote": "<p>God has designed marriage to be powerfully bonding. The spiritual, emotional, and physical attachment of marriage creates an inseparable bond. In Genesis we read <em>Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh –Gen 2:24.</em> The word <em>cleave</em> in this verse denotes “being welded or glued together in such a way as to be inseparable.”</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[105:107], translation signature[105:105], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>上帝设计婚姻，使它能产生强大的联结。婚姻在灵性、情感和身体上的亲密关系形成一种不可分割的纽带。创世记说：<em>因此，人要离开父母，与妻子连合，二人成为一体——创世记2:24。</em>这节经文中的“连合”一词表示“焊接或粘合在一起，以至于不可分开”。</p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[105]: source /article[1]/p[26]/em[2] ('start', 'em', ()); translation /article[1]/p[26] ('end', 'p')",
+  "stage": "terminal"
+}
