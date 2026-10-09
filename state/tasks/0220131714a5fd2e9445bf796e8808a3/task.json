@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11564
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12043,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12040,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17878
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[17]: source /article[1]/p[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[1] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"ba09e248-cc12-4573-9db1-cceb885953ac\">\n  <figure>\n    <img src=\"/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg\" alt=\"תיאור צליבה: ישוע על הצלב, וסביבו חיילים וצופים\">\n  </figure>\n\n  <blockquote><em>וכאשר קיבל ישוע את החומץ, אמר: <strong>נשלם <u>הכול:</u></strong> והרכין את ראשו ומסר את רוחו. –יוחנן 19:30</em></blockquote>\n  <p class=\"drop-cap\">בשנה האחרונה, במהלך העבודה על מאמר זה, נעשינו מודעים יותר ויותר להתעניינות הגוברת בנושא. נכתבו או נכתבים עליו מאמרים וחוברות שונים. חלק מהכתבים דנים ב<em>תיאוריות</em> מסוימות של הכפרה, ואחרים עוסקים במונחים שונים א"
     }
   ],
+  "finished_at": "2026-10-09T16:30:17+00:00",
   "id": "0220131714a5fd2e9445bf796e8808a3",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

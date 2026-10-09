@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 12470
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6831,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 179,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14158,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14155,
+          "cached_tokens": 0
+        },
+        "total_tokens": 20989
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[81]: source /article[1]/p[8]/strong[2] ('start', 'strong', ()); translation /article[1]/p[8]/em[4] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/blockquote[1]/em[1]/strong[1]/u[1]; translation /article[1]/blockquote[1]/em[1]/strong[1]",
@@ -58,6 +78,7 @@
       "translation_quote": "<p>यह एक तार्किक निष्कर्ष लग सकता है, क्योंकि वह हमारे लिए मरे, <em>…अधर्मियों के लिये धर्मी… –1 पतरस 3:18।</em> और वह इसलिए मरे कि हम जीवित रहें। इसमें कोई संदेह नहीं कि वह हमारे <em>लिए</em> मरे, लेकिन “के लिए” शब्द को कई अलग-अलग अर्थों में समझा जा सकता है। इसका अर्थ <em>मेरे स्थान पर</em> हो सकता है, या <em>मेरी ओर से</em>। अधिकांश पवित्रशास्त्र स्पष्ट रूप से इस बात पर ज़ोर देता है कि वह मेरी ओर से मरे, लेकिन प्रत्यक्ष प्रतिस्थापन का विचार इतना स्पष्ट नहीं है। प्रतिस्थापन पर ज़ोर देने से हम इस अवधारणा तक पहुँचते हैं: वह मेरे स्थान पर मरे, इसलिए मुझे मरने की ज़रूरत नहीं। यदि प्रायश्चित को …"
     }
   ],
+  "finished_at": "2026-10-09T16:30:18+00:00",
   "id": "f84b2764e77a08d69c07c13bfc2ed446",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "hin",
@@ -150,7 +171,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

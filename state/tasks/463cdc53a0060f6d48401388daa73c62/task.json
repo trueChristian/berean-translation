@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11501
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5858,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11876,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11873,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17734
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[71]: source /article[1]/p[14] ('end', 'p'); translation /article[1]/p[14]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[14]; translation /article[1]/p[14]/em[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "…ême » Zeus punit (pour avoir « donné » le feu aux hommes) en faisant dévorer son corps par des animaux ; pourtant, son corps se régénérait le lendemain. Quelques milliers d’années plus tard, le roman <em>Frankenstein</em> de Mary Shelley fut sous-titré « Le Prométhée moderne ». Ce livre, écrit il y a presque exactement 200 ans, met fortement en garde contre la science sans entraves et la quête imprudente de l’homme pour régénérer la chair. Malgré cela, il est facile de constater que l’homme a depuis longtemps le désir de régénérer son corps, tout comme un mécanicien remplace des pièces ou un…"
     }
   ],
+  "finished_at": "2026-10-09T16:30:18+00:00",
   "id": "463cdc53a0060f6d48401388daa73c62",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "fra",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

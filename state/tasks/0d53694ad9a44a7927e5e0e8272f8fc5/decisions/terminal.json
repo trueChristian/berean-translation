@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
+      "severity": "critical",
+      "source_quote": "…se people called Anabaptists. I began to read about them, and how they, too would not be silent. I ordered the Martyr’s Mirror and was astounded at what I read. These dear people lived like the disciples that we find in the Bible. They fulfilled the things Jesus said,—<em>And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved. –Mat 10:22.</em> And in Romans, <em>As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. –Rom 8:36.</em> After some time, I found a church with an Anabaptist vision.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[16:16], translation signature[16:18], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>পরে আমি অ্যানাব্যাপ্টিস্ট নামে পরিচিত এই লোকদের কথা শুনলাম। তাদের সম্পর্কে পড়তে শুরু করলাম, এবং কীভাবে তারাও নীরব থাকতে চাইত না তা জানলাম। আমি <em>শহীদদের দর্পণ</em> বইটি অর্ডার করেছিলাম এবং যা পড়লাম, তাতে বিস্মিত হয়েছিলাম। এই প্রিয় লোকেরা বাইবেলে যে শিষ্যদের আমরা দেখি, তাদের মতো জীবনযাপন করতেন। যিশু যা বলেছিলেন, তারা তা পূর্ণ করেছিলেন—<em>আর আমার নামের জন্য তোমরা সকলের ঘৃণার পাত্র হবে; কিন্তু যে শেষ পর্যন্ত ধৈর্য ধরে থাকবে, সে পরিত্রাণ পাবে। –মথি ১০:২২।</em> আর রোমীয় পত্রে, <em>যেমন লেখা আছে, “তোমার জন্য আমরা সারাদিন নিহত হচ্ছি; জবাইয়ের মেষের মতো আমাদের গণ্য করা হচ্ছে।” –রোমীয় ৮:৩…"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[20]: source /article[1]/p[5] ('end', 'p'); translation /article[1]/p[5]/em[3] ('start', 'em', ())",
+  "stage": "terminal"
+}

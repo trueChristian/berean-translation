@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11489
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5643,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13769,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13766,
+          "cached_tokens": 0
+        },
+        "total_tokens": 19412
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[89]: source /article[1]/p[9] ('end', 'p'); translation /article[1]/p[9]/em[2] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[8]/em[1]/strong[1]; translation /article[1]/p[8]/em[1]",
@@ -72,6 +92,7 @@
       "translation_quote": "<h2>IV. 赎罪<strong>确实</strong>会做什么</h2>"
     }
   ],
+  "finished_at": "2026-10-09T16:30:18+00:00",
   "id": "e675190f771da34389ad7ad9a9c39afb",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "cmn",
@@ -164,7 +185,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

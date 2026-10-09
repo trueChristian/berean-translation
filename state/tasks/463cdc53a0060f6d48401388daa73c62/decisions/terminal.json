@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[14]; translation /article[1]/p[14]/em[1]",
+      "severity": "critical",
+      "source_quote": "…ogy, was a “minor god,” who was punished by the “head god” Zeus (for “giving” fire to man) by having animals feast on his body, only to have his body regenerate the next day. A couple of thousand years later, Mary Shelly’s Frankenstein novel was subtitled “The Modern Prometheus.” This book, written almost exactly 200 years ago, contains a strong warning about unrestrained science, and man’s reckless search for fleshly regeneration. Even so, it is easy to see that man has had a long history of desire to regenerate his body, just as a mechanic swaps out parts or a starfish grows a new arm.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[71:71], translation signature[71:73], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…ême » Zeus punit (pour avoir « donné » le feu aux hommes) en faisant dévorer son corps par des animaux ; pourtant, son corps se régénérait le lendemain. Quelques milliers d’années plus tard, le roman <em>Frankenstein</em> de Mary Shelley fut sous-titré « Le Prométhée moderne ». Ce livre, écrit il y a presque exactement 200 ans, met fortement en garde contre la science sans entraves et la quête imprudente de l’homme pour régénérer la chair. Malgré cela, il est facile de constater que l’homme a depuis longtemps le désir de régénérer son corps, tout comme un mécanicien remplace des pièces ou un…"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[71]: source /article[1]/p[14] ('end', 'p'); translation /article[1]/p[14]/em[1] ('start', 'em', ())",
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/blockquote[1]/em[1]/strong[1]/u[1]; translation /article[1]/blockquote[1]/em[1]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<blockquote><em>When Jesus therefore had received the vinegar, he said, <strong>It is <u>finished:</u></strong> and he bowed his head, and gave up the ghost. –Joh 19:30</em></blockquote>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[7:9], translation signature[7:7], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<blockquote><em>অতএব, যিশু যখন সেই সিরকা গ্রহণ করলেন, তখন তিনি বললেন, <strong>সমাপ্ত হলো:</strong> আর তিনি মাথা নত করে প্রাণত্যাগ করলেন। –যোহন ১৯:৩০</em></blockquote>"
+    },
+    {
+      "location": "Source /article[1]/p[8]/strong[1]; translation /article[1]/p[8]/em[4]",
+      "severity": "critical",
+      "source_quote": "…shedding of blood</em> if He so chose. These people use the story found in Matthew 18:23-35 as their proof text. It would do us well to consider that this story is revealing the “why” (compassion) of the outcome, <strong>not</strong> the “how” of the details. We cannot take this story out of context of Scripture and build a doctrine that undermines all the rest of Scripture. Thus, we conclude that in God’s economy He has ordained that sin <strong>must</strong> be washed away with the blood of Christ—<em>And from Jesus Christ, who … washed us from our sins in his own blood, –Rev 1:5.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[79:83], translation signature[77:77], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "… কেউ দাবি করেন, ঈশ্বর চাইলে <em>মৃত্যু</em> বা <em>রক্তপাত</em> ছাড়াই পাপ সহজে ক্ষমা করতে পারতেন। তাঁরা প্রমাণপাঠ হিসেবে মথি ১৮:২৩-৩৫-এর কাহিনি ব্যবহার করেন। আমাদের বিবেচনা করা উচিত যে এই কাহিনি পরিণতির “কেন” (করুণা) প্রকাশ করে, বিবরণের “কীভাবে” নয়। আমরা এই কাহিনিকে শাস্ত্রের প্রসঙ্গ থেকে বিচ্ছিন্ন করে এমন কোনো মতবাদ গড়তে পারি না, যা শাস্ত্রের বাকি সমস্ত শিক্ষাকে দুর্বল করে। অতএব, আমরা এই সিদ্ধান্তে আসি যে ঈশ্বরের বিধানে তিনি আদেশ করেছেন, পাপকে অবশ্যই খ্রিষ্টের রক্তে ধুয়ে ফেলতে হবে—<em>আর যিশু খ্রিষ্টের কাছ থেকে, যিনি …নিজের রক্তে আমাদের পাপ থেকে ধৌত করেছেন, –প্রকাশিত বাক্য ১:৫।</em></p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[81]: source /article[1]/p[8]/strong[2] ('start', 'strong', ()); translation /article[1]/p[8]/em[4] ('start', 'em', ())",
+  "stage": "terminal"
+}

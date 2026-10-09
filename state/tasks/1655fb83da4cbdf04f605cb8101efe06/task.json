@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 5913
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6381,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6378,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9029
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[20]: source /article[1]/p[5] ('end', 'p'); translation /article[1]/p[5]/em[3] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "<p>Más tarde oí hablar de estas personas llamadas anabaptistas. Empecé a leer sobre ellos y sobre cómo tampoco ellos se callaban. Pedí el <em>Martyr’s Mirror</em> y me asombró lo que leí. Estas queridas personas vivieron como los discípulos que encontramos en la Biblia. Cumplieron lo que Jesús dijo: <em>Y seréis aborrecidos de todos por causa de mi nombre; mas el que persevere hasta el fin, este será salvo. –Mat 10:22.</em> Y en Romanos: <em>Como está escrito: Por causa de ti somos muertos todo el tiempo; somos contados como ovejas para el matadero. –Rom 8:36.</em> Al cabo de un tiempo, enco…"
     }
   ],
+  "finished_at": "2026-10-09T16:30:17+00:00",
   "id": "1655fb83da4cbdf04f605cb8101efe06",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "spa",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

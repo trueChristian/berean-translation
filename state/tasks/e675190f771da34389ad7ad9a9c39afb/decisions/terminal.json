@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/em[1]/strong[1]; translation /article[1]/p[8]/em[1]",
+      "severity": "critical",
+      "source_quote": "…ther they were a “type” that pointed forward to the perfect sacrifice—Jesus, the Lamb of God. It is in this context that we have this—that <em>…almost all things are by the law purged with blood; and <strong><u>without shedding of blood is no remission.</u></strong> –Heb 9:22.</em> This is particularly important to remember when we consider that some people claim that God could just simply forgive sin without <em>death</em> or the <em>shedding of blood</em> if He so chose. These people use the story found in Matthew 18:23-35 as their proof text. It would do us well to consider that this stor…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[70:74], translation signature[70:70], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>《希伯来书》第9章和第10章非常详细地说明，旧约的“流血献祭”本身并不完全，而是预表那完全的祭——上帝的羔羊耶稣。正是在这个背景下，我们读到：<em>……按着律法，凡物差不多都是用血洁净的；若不流血，罪就不得赦免了。——希伯来书 9:22。</em>想到有些人声称，上帝若愿意，可以不需要<em>死亡</em>或<em>流血</em>就直接赦罪，那么记住这一点就格外重要。这些人以《马太福音》18:23-35的故事作为证明经文。我们最好留意，这个故事揭示的是结局背后的“原因”（怜悯），而<strong>不是</strong>事情如何发生的细节。我们不能把这个故事从整本圣经的上下文中抽离出来，建立一种削弱圣经其余一切教导的教义。因此，我们得出结论：在上帝的安排中，祂命定罪<strong>必须</strong>由基督的血洗净——<em>又感谢耶稣基督……祂用自己的血使我们脱离罪恶。——启示录 1:5。</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[9]; translation /article[1]/p[9]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>For all have sinned, and come short of the glory of God; Being justified freely by his grace through the redemption that is in Christ Jesus: Whom God hath set forth to be a propitiation through faith in his blood, to declare his righteousness for the remission of sins that are past, through the forbearance of God –Rom 3:23-25.</em> Here we see that for anyone of us that has sinned (ALL of us), we have our propitiation made possible through faith in His (Jesus’) blood.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[89:89], translation signature[85:87], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>因为世人都犯了罪，亏缺了上帝的荣耀；如今却蒙上帝的恩典，因基督耶稣的救赎，就白白地称义。上帝设立耶稣作挽回祭，是凭着耶稣的血，借着人的信，为要显明上帝的义；因为祂用忍耐的心宽容人先时所犯的罪。——罗马书 3:23-25。</em>这里我们看见，我们任何一个（也就是我们<strong>所有人</strong>）犯了罪的人，都因信祂（耶稣）的血而得以有挽回祭。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[11]/em[1]/u[1]; translation /article[1]/p[11]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>But we see Jesus, who was made a little lower than the angels for the <u>suffering of death</u>, crowned with glory and honour; that he by the grace of God should <u>taste death for every man.</u> For it became him, for whom are all things, and by whom are all things, in bringing many sons unto glory, to make the captain of their salvation perfect through sufferings. –Heb 2:9-10.</em> When you partake of communion <em>…ye do shew the Lord’s death till he come –1Co 11:26.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[100:104], translation signature[98:98], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>惟独见那成为比天使小一点的耶稣，因为受死的苦，就得了尊贵荣耀为冠冕，叫祂因着上帝的恩，为人人尝了死味。原来那为万物所属、为万物所本的，要领许多儿子进荣耀里去，使救他们的元帅因受苦难得以完全，原是合宜的。——希伯来书 2:9-10。</em>你们守圣餐的时候，<em>……是表明主的死，直等到祂来。——哥林多前书 11:26。</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[21]; translation /article[1]/p[21]/strong[4]",
+      "severity": "critical",
+      "source_quote": "… <em>Who his own self bare our sins in his own body on the tree… –1Pe 2:24.</em> But what is the proper understanding of what it means to ‘bear (carry) our sins’? We do NOT find Scripture which supports the idea that the <strong>guilt</strong> of my sin was transferred to Christ. Christ offered Himself to be the <strong>sacrifice</strong> for sin (Heb 10:10-12), the <strong>propitiation</strong> for our sins (1Jo 2:1), to put away sin, even to be the forgiveness of sin. This great work of dealing with sin was accomplished without Him ever losing His condition as the Lamb without blemish.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[177:177], translation signature[171:173], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>有些经文谈到基督担当我们的罪。<em>像这样，基督既然一次被献，担当了多人的罪……——希伯来书 9:28；</em>又说：<em>祂被挂在木头上，亲身担当了我们的罪……——彼得前书 2:24。</em>然而，“担当（背负）我们的罪”究竟应当如何理解？我们在圣经中<strong>找不到</strong>支持以下观点的经文：我罪的<strong>罪责</strong>转移到了基督身上。基督献上自己作罪的<strong>祭物</strong>（希伯来书 10:10-12），作我们罪的<strong>挽回祭</strong>（约翰一书 2:1），为要除掉罪，甚至成为罪的赦免。这项除罪的伟大工作成就之时，祂始终保持着无瑕疵羔羊的身份。</p>"
+    },
+    {
+      "location": "Source /article[1]/h2[3]; translation /article[1]/h2[3]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<h2>III. What the Atonement does NOT do</h2>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[218:218], translation signature[214:216], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<h2>III. 赎罪<strong>不</strong>会做什么</h2>"
+    },
+    {
+      "location": "Source /article[1]/h2[4]; translation /article[1]/h2[4]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<h2>IV. What the Atonement DOES do</h2>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[237:237], translation signature[235:237], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<h2>IV. 赎罪<strong>确实</strong>会做什么</h2>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[89]: source /article[1]/p[9] ('end', 'p'); translation /article[1]/p[9]/em[2] ('start', 'em', ())",
+  "stage": "terminal"
+}

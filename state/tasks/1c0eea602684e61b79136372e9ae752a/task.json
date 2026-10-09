@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11349
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5913,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 164,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11795,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17711
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[7]: source /article[1]/p[2]/em[1] ('start', 'em', ()); translation /article[1]/p[2] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"a5dc3764-e799-4138-82f0-87b245a77db8\">\n  <figure>\n    <img src=\"/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-1.png\" alt=\"En strektegning av en lege som leser papirer\">\n  </figure>\n\n  <p class=\"drop-cap\">Mange kvinner her i Holmes County i Ohio har fortalt meg at vi har utmerkede veldedighetsbutikker og bruktbutikker, slik det ofte er der store grupper av enkle folk bor. Folk har kommet langveisfra for å besøke oss og har tatt seg ekstra tid til å stikke innom disse butikkene. Tilsynelatende liker folk her å holde ting i topp stand, så ved det første tegn på s"
     }
   ],
+  "finished_at": "2026-10-09T16:30:17+00:00",
   "id": "1c0eea602684e61b79136372e9ae752a",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "nob",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

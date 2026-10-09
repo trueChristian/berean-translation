@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "492154f9e56a418abc3c4382a00d7563",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11392
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5949,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 300,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13029,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13026,
+          "cached_tokens": 0
+        },
+        "total_tokens": 18978
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[161]: source /article[1]/p[20] ('end', 'p'); translation /article[1]/p[20]/em[6] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/blockquote[1]/em[1]/strong[1]/u[1]; translation /article[1]/blockquote[1]/em[1]/strong[1]",
@@ -58,6 +78,7 @@
       "translation_quote": "<p>Это может показаться логичным выводом, ведь Он умер за нас, <em>…праведник за неправедных… –1Пет 3:18,</em> и умер, чтобы мы могли жить. Несомненно, Он умер <em>за</em> нас, но предлог «за» можно понимать по-разному: «вместо меня» или «ради меня». Писание в основном ясно подчёркивает, что Он умер ради меня, тогда как идея прямого замещения выражена менее ясно. Если подчёркивать замещение, мы придём к такому выводу: Он умер вместо меня, поэтому мне самому умирать не нужно. Если такой образ мысли станет основным в понимании искупления, мы можем упустить столь же важную истину: раз Он умер, …"
     }
   ],
+  "finished_at": "2026-10-09T16:30:18+00:00",
   "id": "ea64fa07400d75b48af7b04bfb305c80",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "rus",
@@ -150,7 +171,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"
