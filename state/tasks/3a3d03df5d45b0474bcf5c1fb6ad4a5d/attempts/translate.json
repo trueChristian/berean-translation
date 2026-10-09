@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a5dc3764-e799-4138-82f0-87b245a77db8\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-1.png\\\" alt=\\\"Strichzeichnung eines Arztes, der Unterlagen liest\\\">\\n  </figure>\\n\\n  <p class=\\\"drop-cap\\\">Viele Frauen hier im Holmes County, Ohio, haben mir erzählt, dass wir ausgezeichnete Wohltätigkeits- und Secondhandläden haben, wie es oft dort der Fall ist, wo große Gruppen einfacher Leute leben. Menschen aus der ganzen Umgebung sind schon zu Besuch gekommen und haben sich extra Zeit genommen, um in diesen Läden vorbeizuschauen. Offenbar achten die Menschen hier darauf, Dinge in bestem Zustand zu halten, sodass es beim ersten Anzeichen von Abnutzung heißt: „Weg mit dem Alten und her mit dem Neuen.“</p>\\n  <p>Ebenso würde kein Landwirt bestreiten, dass es ein gutes Gefühl ist, wenn alle Maschinen wie am Schnürchen laufen und das Vieh gesund bleibt. Seit der Zeit Adams hat der Herr uns stets so geschaffen, dass wir „… herrschen über die Fische im Meer und über die Vögel unter dem Himmel und über alles Lebendige, das auf Erden kriecht. – 1. Mose 1,28“</p>\\n  <p>Eine gegenteilige Haltung sollten wir vermeiden. Judas ermahnt uns, uns vor „gewissen Menschen“ zu hüten, die sich in unserer Mitte „unbemerkt eingeschlichen“ haben. Sie leben nach dem Fleisch und „verachten die Herrschaft“. Zweitausend Jahre später erwartet der Herr auch in unserer übermäßig lässigen Gesellschaft, in der „alles gut“ ist und wir „einfach mal entspannen“ sollen, weiterhin von uns, dass wir unsere von Gott gegebene Verantwortung, nach biblischen Grundsätzen über alles zu herrschen, was wir tun, ernst nehmen.</p>\\n  <p>Erstreckt sich diese Herrschaft auch auf unseren eigenen Körper? Im zweiten Buch der Chronik, Kapitel 34, können wir lesen, wie erbärmlich der Zustand des Tempels zu Beginn der Herrschaft König Josias war und wie er ihn sowohl körperlich mit Stein und Holz wieder aufbaute – kunstvoll von Handwerkern gefertigt – als auch geistlich, indem er das Wort Gottes wiederentdeckte und in sich aufnahm. Ebenso sollten wir für unseren Körper sorgen, wie der Apostel Paulus uns anweist: <em>„Oder wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch wohnt und den",
+    "content_bytes": 2325,
+    "content_evidence_truncated": false,
+    "content_sha256": "3af3d9407fcd5edc2a2fe5fd9a80102d02d04d1ee307fa5486332b3162edab2a",
+    "finish_reason": "content_filter",
+    "model": "gpt-6-luna",
+    "outcome": "content_filter",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6196
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

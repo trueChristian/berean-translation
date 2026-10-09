@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T00:17:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\\\" alt=\\\"’n Waterval wat oor lae rotsbanke in ’n woud vloei\\\">\\n  </figure>\\n\\n  <p class=\\\"poem\\\">Terwyl ’n man besig was om te sterf, het sy gedagtes teruggegaan.<br>\\n    Sal ek ’n goeie spoor nalaat wat niemand kan aanval?<br>\\n    Ek het alles prysgegee, na die altaar toe gegaan<br>\\n    en niks teruggehou nie, nie eens ’n sent nie.<br>\\n    Ek wou alles doen wat reg was.<br>\\n    Soms het ek die hele nag deur gebid.<br>\\n    Was dit maklik? Ek kan nie sê nie.<br>\\n    Maar eerder ’n stryd; elke dag het ek geveg.<br>\\n    Min het verstaan waarom ek so geleef het.<br>\\n    Om alles prys te gee, sou hulle sê, was dwaas.<br>\\n    Hulle kon nie die vrede binne-in my gesien het nie.<br>\\n    ’n Vrede waarvan ek gedink het niemand dit kon verberg nie.<br>\\n    ’n Lewe op die vlug was nie my begeerte nie.<br>\\n    Maar hulle wou my liggaam hê om in die vuur te gooi.<br>\\n    Van grot tot grot sou ek tuis noem,<br>\\n    met die wete dat ek eendag nooit weer sou rondswerf nie.<br>\\n    As ek terugkyk, sou ek niks verander nie.<br>\\n    Dit was ’n groot eer om my koning te dien.<br>\\n    Maar nou moet ek gaan; die rook is te dik.<br>\\n    My liggaam word as tot die vlamme daaraan lek.<br>\\n    Daar is een ding wat ek moet vra.<br>\\n    Sal ek tevergeefs sterf, of sal jy die taak opneem?<br>\\n    Jesus soek vandag ’n volk<br>\\n    wat die toets sal deurstaan en nie sal afdwaal nie.<br>\\n    Om ons lewe te gee, is deel van die prys.<br>\\n    Sal jy dié besluit neem voordat die tyd verby is?<br>\\n    Die kerk sukkel; die wêreld het ingekom.<br>\\n    Hulle het ons Jesus doodgemaak en het hulle sonde lief.<br>\\n    Laat ons nie ingee nie; daar is te veel op die spel.<br>\\n    Laat ons eerder veg! Daar is ’n koninkryk om in te neem!</p>\\n\\n  <p><em>–Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":null}",
+    "content_bytes": 2041,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d2a4a8d97a66e78e0210ae28fd40e35e865bbc8f11bebd26d2fc368f2907dc6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 241,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1438,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2360
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

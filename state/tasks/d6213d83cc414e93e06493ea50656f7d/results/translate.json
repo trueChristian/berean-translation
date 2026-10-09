@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea9e330d-11c1-4caa-b463-b9c2b2f41fe0",
+    "response_id": "chatcmpl-EWp5DgChkvDxfAbkbQpsNx3ifPfJs",
+    "usage": {
+      "completion_tokens": 1283,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1940,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3226
+    }
+  },
+  "received_at": "2026-10-09T00:17:30+00:00",
+  "result": {
+    "html": "<article data-article-id=\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\">\n  <figure>\n    <img src=\"/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png\" alt=\"\">\n  </figure>\n\n  <p class=\"drop-cap\">Les jours froids et gris de l’hiver se transforment en journées printanières chaudes et ensoleillées. Les premières fleurs de l’année percent avec persévérance la terre froide pour s’élever vers la chaleur du soleil. Cette sensation exaltante dans l’air du printemps ne semble jamais lasser. Il y a la chaleur et la lumière des journées ensoleillées. Il y a la musique joyeuse et mélodieuse des oiseaux chanteurs, qui reprennent une fois encore leurs occupations domestiques avec une énergie apparemment inépuisable. Et nous sommes de nouveau bénis par une saison supplémentaire pour semer des graines, dans l’espoir d’une nouvelle récolte de nourriture à savourer.</p>\n\n  <p>Cette année, j’aurai 48 ans. Comme cela me paraît vieux ! Je me souviens que, dans ma jeunesse, je pensais que les gens de 50 ans étaient vieux. À présent, j’y suis presque. Pour moi, c’est un rappel sans équivoque que nous vieillissons tous et que nous ne vivrons pas éternellement. Viennent ensuite plusieurs pensées graves : « Qu’ai-je fait pour faire avancer le Royaume de Dieu ? Est-ce que je lui reste fidèle dans tout ce que je fais ? Seigneur, que veux-tu que je fasse cette année ? » Que chacun de nous cherche avec prière auprès du Seigneur quelle est sa volonté présente et future pour notre vie. Encourageons-nous et exhortons-nous les uns les autres à rester fidèles dans notre relation avec notre Maître et dans notre service pour lui.</p>\n\n  <p>Dans ce numéro, nous proposons un excellent article sur le mariage, qui, avons-nous pensé, pouvait cette fois remplacer un article sur le discipulat. Lorsque nous rencontrons des couples qui ont connu de graves problèmes conjugaux pendant des années, nous constatons généralement que quelque chose ne fonctionne pas selon les voies de Dieu au niveau des fondements. Nous estimons que cet article sur le mariage examine de façon très approfondie comment établir et maintenir un fondement biblique. Si le Seigneur le veut, nous prévoyons de publier régulièrement des articles sur ce sujet.</p>\n\n  <p>Nous devons tenir une série de réunions dans le comté de Lebanon, en Pennsylvanie, en juillet prochain. Plusieurs églises de la région s’associent pour organiser cet événement et ont réservé le <strong>Fairview Reception Center</strong>. Veuillez prier pour ces réunions afin que la volonté de Dieu s’accomplisse, que Dieu guide les intervenants dans leur préparation et que Dieu fortifie l’Église par cette initiative. Veuillez transmettre cette information à d’autres personnes susceptibles d’être intéressées. Pensez également à noter la date dans votre agenda.</p>\n\n  <p>Si vous souhaitez recevoir des informations actualisées une fois que tous les détails auront été finalisés, veuillez contacter « The Berean Voice » par téléphone au (330) 439-9547 ou par courriel à subscribe@bereanvoice.org. En raison des repas qui seront servis et du nombre limité de places, <strong>l’inscription sera obligatoire</strong> pour cet événement. Vous trouverez ci-dessous les titres provisoires de la série et des interventions ; ils sont toutefois encore susceptibles de changer.</p>\n\n  <h2>« Une perspective biblique sur les problèmes de violence psychologique, émotionnelle, conjugale et sexuelle »</h2>\n  <ol>\n    <li>Comprendre le cœur — la racine de TOUS les problèmes</li>\n    <li>L’Évangile — la réponse de Dieu à TOUS les problèmes de l’esprit et de l’âme (psyché) de l’homme</li>\n    <li>Comment la psychologie et les philosophies du monde nous influencent aujourd’hui</li>\n    <li>Le discipulat pratique — aider efficacement les gens à changer</li>\n    <li>Une perspective biblique sur les troubles mentaux</li>\n    <li>Évaluer bibliquement les questions liées à l’adoption et à l’accueil familial</li>\n    <li>Comprendre l’effet placebo et l’utilisation sûre des médicaments psychotropes</li>\n    <li>Une compréhension biblique de la faute morale, de la pornographie et des abus sexuels (adultes seulement)</li>\n    <li>La pureté — du berceau à la conversion, puis jusqu’au mariage ou au célibat (parents seulement)</li>\n    <li>Prévenir les problèmes et y faire face au moyen de foyers pieux</li>\n    <li>Prévenir et aider à surmonter TOUTES les difficultés de la vie au sein de l’Église locale</li>\n  </ol>\n\n  <h3>Du 26 au 28 juillet 2019</h3>\n  <p><strong>Lieu :</strong> Fairview Reception Center | 141 Jackson Rd | Lebanon, PA 17042</p>\n  <p><strong>Pour vous inscrire, contactez Rudy Yoder :</strong> (717) 450-8640 ou par courriel : theyoders@yoderhome.net</p>\n</article>\n",
+    "section": "DE LA RÉDACTION",
+    "subtitle": null,
+    "title": "DE LA RÉDACTION"
+  }
+}

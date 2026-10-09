@@ -2,10 +2,40 @@
   "article_id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26f84c23f5e14987b41d5206255d9f0c",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 5207,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4666,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4663,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9873
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/em[1]/strong[1]; translation /article[1]/p[8]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, <strong>having loved his own which were in the world, he loved them unto the end.</strong> –Joh 13:1.</em> Christ demonstrated faithful love, even in the face of rejection. John wrote that <em>He came unto his own, and his own received him not. –Joh 1:11</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[45:47], translation signature[45:45], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>유월절 전에 예수께서 자기가 세상을 떠나 아버지께로 돌아가실 때가 이른 줄 아시고 세상에 있는 자기 사람들을 사랑하시되 끝까지 사랑하시니라. –요 13:1.</em> 그리스도께서는 배척당하는 상황에서도 신실한 사랑을 보여 주셨습니다. 요한은 이렇게 썼습니다. <em>자기 땅에 오매 자기 백성이 영접하지 아니하였으나. –요 1:11</em></p>"
+    }
+  ],
   "id": "b00c1da4effd0d913aa701eb5c68257b",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "kor",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/abf23c415e7bbb9a5e87d196a7b7841750879ba8b3ad2e297a1cfd3792281c6e.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/blockquote[1]/em[1]/strong[1]/u[1]; translation /article[1]/blockquote[1]/em[1]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<blockquote><em>When Jesus therefore had received the vinegar, he said, <strong>It is <u>finished:</u></strong> and he bowed his head, and gave up the ghost. –Joh 19:30</em></blockquote>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[7:9], translation signature[7:7], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<blockquote><em>इसलिए जब यीशु ने सिरका ले लिया, तो उसने कहा, <strong>पूरा हुआ:</strong> और सिर झुकाकर प्राण त्याग दिए। –यूहन्ना 19:30</em></blockquote>"
+    },
+    {
+      "location": "Source /article[1]/p[8]/strong[2]; translation /article[1]/p[8]/em[4]",
+      "severity": "critical",
+      "source_quote": "…shedding of blood</em> if He so chose. These people use the story found in Matthew 18:23-35 as their proof text. It would do us well to consider that this story is revealing the “why” (compassion) of the outcome, <strong>not</strong> the “how” of the details. We cannot take this story out of context of Scripture and build a doctrine that undermines all the rest of Scripture. Thus, we conclude that in God’s economy He has ordained that sin <strong>must</strong> be washed away with the blood of Christ—<em>And from Jesus Christ, who … washed us from our sins in his own blood, –Rev 1:5.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[81:83], translation signature[79:79], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…षमा कर सकते थे। ये लोग मत्ती 18:23-35 की कहानी को अपने प्रमाण-पाठ के रूप में इस्तेमाल करते हैं। हमारे लिए यह विचार करना अच्छा होगा कि यह कहानी परिणाम के “क्यों” (करुणा) को प्रकट करती है, न कि ब्योरे के “कैसे” को। हम इस कहानी को पवित्रशास्त्र के संदर्भ से अलग करके ऐसा सिद्धांत नहीं बना सकते जो पवित्रशास्त्र के बाकी सभी भागों को कमज़ोर करे। इसलिए हम निष्कर्ष निकालते हैं कि परमेश्वर की व्यवस्था में उन्होंने यह ठहराया है कि पापों को मसीह के लहू से <strong>अवश्य</strong> धोया जाना चाहिए—<em>और यीशु मसीह की ओर से, जिसने … अपने लहू के द्वारा हमें हमारे पापों से धोया है, –प्रकाशितवाक्य 1:5।</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[11]/em[1]/u[1]; translation /article[1]/p[11]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>But we see Jesus, who was made a little lower than the angels for the <u>suffering of death</u>, crowned with glory and honour; that he by the grace of God should <u>taste death for every man.</u> For it became him, for whom are all things, and by whom are all things, in bringing many sons unto glory, to make the captain of their salvation perfect through sufferings. –Heb 2:9-10.</em> When you partake of communion <em>…ye do shew the Lord’s death till he come –1Co 11:26.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[100:104], translation signature[96:96], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>परन्तु हम यीशु को देखते हैं, जो मृत्यु का दुःख उठाने के कारण स्वर्गदूतों से कुछ ही कम किया गया, और महिमा और आदर का मुकुट पहने हुए है; ताकि परमेश्वर के अनुग्रह से हर एक मनुष्य के लिये मृत्यु का स्वाद चखे। क्योंकि जिसके लिये सब कुछ है, और जिसके द्वारा सब कुछ है, उस परमेश्वर को बहुत से पुत्रों को महिमा में पहुँचाते हुए, उनके उद्धार के कर्त्ता को दुःखों के द्वारा सिद्ध करना उचित लगा। –इब्रानियों 2:9-10।</em> जब तुम प्रभुभोज में सहभागी होते हो, तो <em>…प्रभु की मृत्यु का वर्णन करते हो, जब तक वह न आए –1 कुरिन्थियों 11:26।</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[20]/em[1]; translation /article[1]/p[20]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>This may seem like a logical conclusion, because He died for us, <em>…the just for the unjust… –1Pe 3:18.</em> and He died that we might live. There is no question that it was <em>for</em> us, but the preposition, <em>for,</em> can be understood several different ways. It can mean <em>in my place,</em> or it can mean <em>on my behalf.</em> Most of Scripture clearly emphasizes that He died on my behalf, but less clear is the idea of a direct substitution. Emphasizing substitution leads us to the following concept: He died in my place, so I don’t need to. If this becomes the primary way of …",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[151:153], translation signature[143:143], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>यह एक तार्किक निष्कर्ष लग सकता है, क्योंकि वह हमारे लिए मरे, <em>…अधर्मियों के लिये धर्मी… –1 पतरस 3:18।</em> और वह इसलिए मरे कि हम जीवित रहें। इसमें कोई संदेह नहीं कि वह हमारे <em>लिए</em> मरे, लेकिन “के लिए” शब्द को कई अलग-अलग अर्थों में समझा जा सकता है। इसका अर्थ <em>मेरे स्थान पर</em> हो सकता है, या <em>मेरी ओर से</em>। अधिकांश पवित्रशास्त्र स्पष्ट रूप से इस बात पर ज़ोर देता है कि वह मेरी ओर से मरे, लेकिन प्रत्यक्ष प्रतिस्थापन का विचार इतना स्पष्ट नहीं है। प्रतिस्थापन पर ज़ोर देने से हम इस अवधारणा तक पहुँचते हैं: वह मेरे स्थान पर मरे, इसलिए मुझे मरने की ज़रूरत नहीं। यदि प्रायश्चित को …"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[7]: source /article[1]/blockquote[1]/em[1]/strong[1]/u[1] ('start', 'u', ()); translation /article[1]/blockquote[1]/em[1]/strong[1] ('end', 'strong')",
+  "stage": "translate"
+}

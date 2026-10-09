@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/strong[1]; translation /article[1]/p[8]/em[4]",
+      "severity": "critical",
+      "source_quote": "…shedding of blood</em> if He so chose. These people use the story found in Matthew 18:23-35 as their proof text. It would do us well to consider that this story is revealing the “why” (compassion) of the outcome, <strong>not</strong> the “how” of the details. We cannot take this story out of context of Scripture and build a doctrine that undermines all the rest of Scripture. Thus, we conclude that in God’s economy He has ordained that sin <strong>must</strong> be washed away with the blood of Christ—<em>And from Jesus Christ, who … washed us from our sins in his own blood, –Rev 1:5.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[79:83], translation signature[79:79], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…희생 제물이신 하나님의 어린양 예수님을 미리 가리키는 “모형”이었음을 매우 자세히 설명하는 내용이 있습니다. 이러한 맥락에서 다음 말씀을 읽을 수 있습니다. <em>…율법에 따라 거의 모든 것이 피로써 깨끗하게 되나니, <strong><u>피 흘림이 없이는 사함이 없느니라.</u></strong> –히 9:22.</em> 어떤 사람들은 하나님께서 원하시기만 하면 <em>죽음</em>이나 <em>피 흘림</em> 없이도 죄를 그저 용서하실 수 있었다고 주장하므로, 이 점을 특히 기억하는 것이 중요합니다. 이들은 마태복음 18:23-35에 나오는 이야기를 증거 구절로 사용합니다. 이 이야기는 결과가 나온 “이유”(긍휼)를 보여 주는 것이지, 세부적인 “방법”을 보여 주는 것이 아님을 생각하는 것이 좋습니다. 이 이야기를 성경의 문맥에서 떼어 내어 성경의 나머지 모든 가르침을 무너뜨리는 교리를 세워서는 안 됩니다. 그러므로 하나님의 경륜 안에서 죄는 반드시 그리스도의 피로 씻겨야 한다고 하나님께서 정하셨다는 결론을 내립니다. <em>또 신실한 증인이시며 … 예수 그리스도로부터… 그분 자신의 피로 우리의 죄들을 씻어 주신 분으로부터 –계 1:5.</em></p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[79]: source /article[1]/p[8]/strong[1] ('start', 'strong', ()); translation /article[1]/p[8]/em[4] ('start', 'em', ())",
+  "stage": "translate"
+}

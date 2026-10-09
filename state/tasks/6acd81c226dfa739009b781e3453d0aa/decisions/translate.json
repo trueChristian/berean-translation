@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/em[1]/strong[1]; translation /article[1]/p[8]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, <strong>having loved his own which were in the world, he loved them unto the end.</strong> –Joh 13:1.</em> Christ demonstrated faithful love, even in the face of rejection. John wrote that <em>He came unto his own, and his own received him not. –Joh 1:11</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[45:47], translation signature[45:45], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>Sebelum hari raya Paskah mulai, Yesus telah tahu bahwa saat-Nya telah tiba untuk beralih dari dunia ini kepada Bapa. Sama seperti Ia senantiasa mengasihi murid-murid-Nya, demikianlah sekarang Ia mengasihi mereka sampai kepada kesudahannya. –Yoh 13:1.</em> Kristus menunjukkan kasih yang setia, bahkan saat menghadapi penolakan. Yohanes menulis bahwa <em>Ia datang kepada milik kepunyaan-Nya, tetapi orang-orang kepunyaan-Nya itu tidak menerima-Nya. –Yoh 1:11</em></p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[45]: source /article[1]/p[8]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[8]/em[1] ('end', 'em')",
+  "stage": "translate"
+}

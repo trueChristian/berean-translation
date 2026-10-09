@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\\\" alt=\\\"Una cascata scorre su gradoni di roccia stratificata in una foresta\\\">\\n  </figure>\\n\\n  <p class=\\\"poem\\\">Mentre un uomo stava morendo, i suoi pensieri tornarono indietro.<br>\\n    Lascerò un buon segno, che nessuno possa attaccare?<br>\\n    Ho rinunciato a tutto, sono salito sull’altare<br>\\n    senza trattenere nulla, nemmeno un centesimo.<br>\\n    Volevo fare tutto ciò che era giusto.<br>\\n    A volte pregavo per tutta la notte.<br>\\n    È stato facile? Non so dirlo.<br>\\n    Ma piuttosto una battaglia: combattevo ogni giorno.<br>\\n    Pochi capivano perché vivessi così.<br>\\n    «Rinunciare a tutto è da sciocchi», dicevano.<br>\\n    Non potevano vedere la pace che avevo dentro.<br>\\n    Una pace che pensavo nessuno potesse nascondere.<br>\\n    Non desideravo una vita da fuggiasco.<br>\\n    Ma volevano il mio corpo, per gettarlo nel fuoco.<br>\\n    Di grotta in grotta, le avrei chiamate casa<br>\\n    sapendo che un giorno non avrei più vagato.<br>\\n    Ripensandoci, non cambierei nulla.<br>\\n    È stato un grande onore servire il mio re.<br>\\n    Ma ora devo andare, il fumo è troppo denso.<br>\\n    Il mio corpo ridotto in cenere, mentre le fiamme lambiscono.<br>\\n    C’è una cosa che devo chiedere.<br>\\n    Morirò invano, o raccoglierai il compito?<br>\\n    Oggi Gesù cerca un popolo<br>\\n    che resista alla prova e non si smarrisca.<br>\\n    Dare la vita fa parte del prezzo da pagare.<br>\\n    Prenderai questa decisione prima che sia troppo tardi?<br>\\n    La chiesa è in difficoltà, il mondo è entrato.<br>\\n    Hanno ucciso Gesù e amano il loro peccato.<br>\\n    Non cediamo: la posta in gioco è troppo alta.<br>\\n    Combattiamo, invece! C’è un regno da conquistare!</p>\\n\\n  <p><em>–Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1996,
+    "content_evidence_truncated": false,
+    "content_sha256": "10cb6d573624b69e9de09fbf8179d967000f4287b18b2f7df09bb562a2af635e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1438,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1435,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2161
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\\\" alt=\\\"森林中，瀑布流过层层岩石台阶\\\">\\n  </figure>\\n\\n  <p class=\\\"poem\\\">一个人临终之际，思绪回到了过去。<br>\\n    我能留下美好的印记，不让任何人攻击吗？<br>\\n    我舍弃了一切，走上祭坛，<br>\\n    毫无保留，连一分钱也不留下。<br>\\n    我想做尽一切正当之事。<br>\\n    有时我整夜祷告。<br>\\n    这容易吗？我不能说容易。<br>\\n    倒不如说，我每天都在争战。<br>\\n    很少有人明白我为何这样生活。<br>\\n    他们会说，放弃一切真是愚蠢。<br>\\n    他们不可能看见我内心的平安。<br>\\n    那平安，我以为无人能掩藏。<br>\\n    奔波逃亡的生活，并非我所愿。<br>\\n    但他们想要我的身体，把它投入火中。<br>\\n    我从一个山洞迁到另一个山洞，把那里当作家，<br>\\n    知道总有一天，我将不再漂泊。<br>\\n    回首往事，我不会改变任何事。<br>\\n    能服侍我的王，是莫大的荣耀。<br>\\n    但我现在必须离去，烟雾太浓。<br>\\n    火焰舔舐着我的身体，将它化为灰烬。<br>\\n    有一件事，我想问问：<br>\\n    我会白白死去吗？还是你会接过这重任？<br>\\n    耶稣今日正在寻找一群人，<br>\\n    他们经得起考验，不会偏离正道。<br>\\n    献上生命，也是代价的一部分。<br>\\n    你会在时机已逝之前作出这个决定吗？<br>\\n    教会正在挣扎，世界已经闯了进来。<br>\\n    他们杀了我们的耶稣，却爱自己的罪。<br>\\n    我们不要屈服，赌注实在太大。<br>\\n    倒要奋力争战！有一个国度等着我们去夺取！</p>\\n\\n  <p><em>–巴里·格兰特</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1964,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b66e8d99d3f418ed33df43524ee683b8f38113822342151368e15e841fa6b7e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1447,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2244
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

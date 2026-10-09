@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T00:17:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png\\\" alt=\\\"\\\">\\n  </figure>\\n\\n  <p class=\\\"drop-cap\\\">Vinterens kalde, grå dager forvandles til vårens varme, solfylte dager. Årets første blomster presser seg standhaftig opp av den kalde jorden og søker mot solens varme. Det ser aldri ut til å bli gammelt – denne spennende følelsen i vårluften. Det er varmen og lyset på solfylte dager. Det er den muntre, vuggende musikken fra sangfuglene når de igjen slår seg ned og stifter hjem med tilsynelatende grenseløs energi. Og vi blir igjen velsignet med enda en årstid til å så frø, i forventning om en ny avling mat å glede oss over.</p>\\n\\n  <p>I år fyller jeg 48 år. Så gammelt høres det ut for meg. Jeg husker at jeg som ungdom syntes at folk på 50 var gamle. Nå er jeg nesten der. For meg er dette en tydelig påminnelse om at vi alle blir eldre, og at vi ikke skal leve evig. Deretter følger en rekke alvorlige tanker: «Hva har jeg gjort for å fremme Guds rike? Er jeg trofast mot ham i alt jeg gjør? Herre, hva vil du at jeg skal gjøre – i år?» La oss hver for oss søke Herren i bønn om hans vilje for livet vårt, både nå og i fremtiden. La oss oppmuntre og formane hverandre til å forbli trofaste i forholdet til og tjenesten for vår Mester.</p>\\n\\n  <p>I denne utgaven har vi en utmerket artikkel om ekteskap, som vi mente kunne erstatte en artikkel om disippelskap denne gangen. Når vi møter ektepar som i årevis har strevd med alvorlige problemer i ekteskapet, finner vi vanligvis at noe ikke fungerer på en gudfryktig måte helt på grunnplanet. Vi synes denne artikkelen om ekteskap er grundig i sin vurdering av hvordan man bygger og opprettholder et bibelsk fundament. Om Herren vil, planlegger vi å ha flere artikler om dette emnet.</p>\\n\\n  <p>Vi skal etter planen holde en serie møter i Lebanon County i Pennsylvania i juli som kommer. Flere menigheter i området samarbeider om å legge til rette for arrangementet og har reservert <strong>Fairview Reception Center</strong>. Be for disse møtene: at Guds vilje må skje; at Gud må lede talerne mens de forbereder seg; og at Gud må styrke menigheten gjennom dette arbeidet. Gi gjerne denne informasjonen videre til andre som kan være interessert. Sett også av datoene i kalenderen.</p>\\n\\n  <p>Hvis du ønsker å få oppdatert informasjon når alle detaljene er fastlagt, kan du kontakte «The Berean Voice» på telefon (330) 439-9547 eller på e-post subscribe@bereanvoice.org. Fordi det blir servert måltider og det er begrenset med sitteplasser, <strong>må man registrere seg</strong> for å delta på dette arrangementet. Nedenfor finner du de foreløpige titlene på serien og foredragene, men de kan fortsatt bli endret.</p>\\n\\n  <h2>«Et bibelsk syn på problemer knyttet til psykisk, emosjonell, ekteskapelig og seksuell mishandling»</h2>\\n  <ol>\\n    <li>Å forstå hjertet – roten til ALLE problemer</li>\\n    <li>Evangeliet – Guds svar på ALLE spørsmål som gjelder menneskets ånd og sjel (psyke)</li>\\n    <li>Hvordan psykologi og verdslige filosofier påvirker oss i dag</li>\\n    <li>Praktisk disippelskap – effektiv hjelp til mennesker som vil forandre seg</li>\\n    <li>Et bibelsk syn på psykiske lidelser</li>\\n    <li>En bibelsk vurdering av spørsmål knyttet til adopsjon og fosterhjem</li>\\n    <li>Å forstå placeboeffekten og trygg bruk av psykofarmaka</li>\\n    <li>En bibelsk forståelse av moralsk svikt, pornografi og seksuelle overgrep (kun for voksne)</li>\\n    <li>Renhet – fra vuggen til omvendelsen, og deretter videre til ekteskap eller singelliv (kun for foreldre)</li>\\n    <li>Forebygging og håndtering av problemer gjennom gudfryktige hjem</li>\\n    <li>Forebygging av og hjelp med ALLE livets kamper i den lokale menigheten</li>\\n  </ol>\\n\\n  <h3>26.–28. juli 2019</h3>\\n  <p><strong>Sted:</strong> Fairview Reception Center | 141 Jackson Rd | Lebanon, PA 17042</p>\\n  <p><strong>Påmelding: Kontakt Rudy Yoder:</strong> (717) 450-8640 eller send e-post til: theyoders@yoderhome.net</p>\\n</article>\\n\",\"section\":\"FRA REDAKTØREN\",\"subtitle\":null,\"title\":\"FRA REDAKTØREN\"}",
+    "content_bytes": 4261,
+    "content_evidence_truncated": false,
+    "content_sha256": "edde1cf9be24b7b9c16106945f0a313da67acd05ef5c10c2264097392fa6fa13",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1953,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1950,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3212
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

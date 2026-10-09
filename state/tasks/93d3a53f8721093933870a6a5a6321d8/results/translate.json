@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "432242d3-afd0-4241-bce5-6501d3926ef5",
+    "response_id": "chatcmpl-EWp7OisykEyw4ilXwT3s7gPb4jUrX",
+    "usage": {
+      "completion_tokens": 1379,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3323
+    }
+  },
+  "received_at": "2026-10-09T00:17:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\">\n  <figure>\n    <img src=\"/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png\" alt=\"\">\n  </figure>\n\n  <p class=\"drop-cap\">Die koue, grys winterdae verander in die warm, sonnige lentedae. Die eerste blomme van die jaar dring aanhoudend deur die koue grond op, na die warmte van die son. Dit lyk asof hierdie opwindende gevoel in die lentelug nooit oud word nie. Daar is die warmte en lig van sonnige dae. Daar is die vrolike, wiegende musiek van die sangvoëls wanneer hulle weer met skynbaar onuitputlike energie nes maak. En ons is weer geseën met nog ’n seisoen waarin ons saad kan plant, met die verwagting van nog ’n oes kos om te geniet.</p>\n\n  <p>Ek word vanjaar 48 jaar oud. Sjoe, dit klink vir my oud. Ek onthou dat ek as jongmens gedink het mense van 50 is oud. Nou is ek amper daar. Vir my is dit ’n duidelike herinnering dat ons almal ouer word en nie vir ewig sal lewe nie. Daarna volg ’n aantal ernstige gedagtes: “Wat het ek gedoen om die uitbreiding van God se koninkryk te bevorder? Bly ek getrou aan Hom in alles wat ek doen? Here, wat wil U hê moet ek hierdie jaar doen?” Laat ons elkeen biddend die Here soek oor sy wil vir ons lewens, nou en in die toekoms. Laat ons mekaar aanmoedig en vermaan om getrou te bly in ons verhouding met ons Meester en in ons diens aan Hom.</p>\n\n  <p>In hierdie uitgawe is daar ’n uitstekende artikel oor die huwelik, wat ons gevoel het hierdie keer die plek van ’n artikel oor Dissipelskap kan inneem. Wanneer ons paartjies ontmoet wat al jare lank met ernstige huweliksprobleme worstel, vind ons gewoonlik dat iets op ’n grondliggende vlak nie op ’n godvrugtige manier funksioneer nie. Ons meen dat hierdie huweliksartikel ’n deeglike beoordeling bied van hoe om ’n Bybelse grondslag te bou en te handhaaf. As die Here wil, beplan ons om voortaan artikels oor hierdie onderwerp te plaas.</p>\n\n  <p>Ons sal na verwagting hierdie Julie ’n reeks byeenkomste in Lebanon County, Pennsylvania, aanbied. Verskeie kerke in daardie omgewing werk saam om hierdie geleentheid moontlik te maak en het die <strong>Fairview Reception Center</strong> bespreek. Bid asseblief vir hierdie byeenkomste, met die volgende in gedagte: dat God se wil volbring sal word; dat God die sprekers sal lei terwyl hulle voorberei; en dat God die kerk deur hierdie poging sal versterk. Gee hierdie inligting asseblief aan ander deur wat dalk belangstel. Merk ook die datum op jou kalender.</p>\n\n  <p>As jy opgedateerde inligting wil ontvang sodra al die besonderhede afgehandel is, kontak asseblief “The Berean Voice” telefonies by (330) 439-9547 of per e-pos by subscribe@bereanvoice.org. Omdat etes voorsien sal word en daar beperkte sitplek is, <strong>sal registrasie vir hierdie geleentheid verpligtend wees</strong>. Hieronder is die voorlopige titels vir die reeks en die boodskappe, maar dit kan steeds verander.</p>\n\n  <h2>“’n Bybelse beskouing van kwessies rondom geestelike, emosionele, huweliks- en seksuele mishandeling”</h2>\n  <ol>\n    <li>Om die hart te verstaan—die wortel van ALLE probleme</li>\n    <li>Die Evangelie—God se antwoord op ALLE kwessies van die mens se gees en siel (psige)</li>\n    <li>Hoe sielkunde en wêreldse filosofieë ons vandag beïnvloed</li>\n    <li>Praktiese dissipelskap—om mense doeltreffend te help verander</li>\n    <li>’n Bybelse beskouing van geestesversteurings</li>\n    <li>’n Bybelse beoordeling van kwessies rondom aanneming en pleegsorg</li>\n    <li>Om die placebo-effek te verstaan en psigiese medikasie veilig te gebruik</li>\n    <li>’n Bybelse begrip van morele mislukking, pornografie en seksuele mishandeling (slegs volwassenes)</li>\n    <li>Suiwerheid—van die wieg tot bekering, en daarna tot die huwelik of ongetroude lewe (slegs ouers)</li>\n    <li>Om probleme deur godvrugtige gesinne te voorkom en aan te pak</li>\n    <li>Om ALLE lewensprobleme binne die plaaslike kerk te voorkom en mense daarmee te help</li>\n  </ol>\n\n  <h3>26–28 Julie 2019</h3>\n  <p><strong>Plek:</strong> Fairview Reception Center | 141 Jackson Rd | Lebanon, PA 17042</p>\n  <p><strong>Kontak Rudy Yoder om te registreer:</strong> (717) 450-8640 of e-pos: theyoders@yoderhome.net</p>\n</article>\n",
+    "section": "VAN DIE REDAKTEUR",
+    "subtitle": null,
+    "title": "VAN DIE REDAKTEUR"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3527bf09-436c-4e53-bbb6-f843133b7a82",
+    "response_id": "chatcmpl-EWp5fQr9OIU4a4gBVJOnDXZOjBHQ5",
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1437,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2250
+    }
+  },
+  "received_at": "2026-10-09T00:17:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\">\n  <figure>\n    <img src=\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\" alt=\"Une cascade s’écoulant sur des corniches rocheuses stratifiées dans une forêt\">\n  </figure>\n\n  <p class=\"poem\">Alors qu’un homme se mourait, ses pensées remontèrent le temps.<br>\n    Laisserai-je une bonne trace, que nul ne pourra attaquer ?<br>\n    J’ai tout abandonné, je suis allé à l’autel,<br>\n    Sans rien retenir, pas même un centime.<br>\n    Je voulais faire tout ce qui était juste.<br>\n    Parfois, je priais toute la nuit.<br>\n    Était-ce facile ? Je ne saurais le dire.<br>\n    Mais c’était plutôt un combat, que je menais chaque jour.<br>\n    Peu comprenaient pourquoi je vivais ainsi.<br>\n    « Tout abandonner, c’est insensé », disaient-ils.<br>\n    Ils n’auraient pas pu voir la paix qui m’habitait.<br>\n    Une paix que je croyais impossible à cacher.<br>\n    Une vie de fugitif, ce n’était pas mon désir.<br>\n    Mais ils voulaient mon corps pour le jeter au feu.<br>\n    De grotte en grotte, je me faisais un foyer,<br>\n    Sachant qu’un jour, je n’errerais plus jamais.<br>\n    En regardant en arrière, je ne changerais rien.<br>\n    Ce fut un grand honneur de servir mon roi.<br>\n    Mais je dois partir maintenant, la fumée est trop épaisse.<br>\n    Mon corps réduit en cendres, tandis que les flammes le lèchent.<br>\n    Il y a une chose que je dois demander.<br>\n    Vais-je mourir en vain, ou reprendras-tu le flambeau ?<br>\n    Jésus cherche aujourd’hui un peuple<br>\n    Qui résistera à l’épreuve sans s’égarer.<br>\n    Donner notre vie fait partie du prix à payer.<br>\n    Prendras-tu cette décision avant qu’il ne soit trop tard ?<br>\n    L’Église est en difficulté, le monde y a pénétré.<br>\n    Ils ont tué notre Jésus et aiment leur péché.<br>\n    Ne cédons pas, l’enjeu est trop important.<br>\n    Mais combattons plutôt ! Un royaume est à conquérir !</p>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": null
+  }
+}

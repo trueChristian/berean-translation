@@ -2,10 +2,40 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26f84c23f5e14987b41d5206255d9f0c",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 5625,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5811,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5808,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11436
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[20]/em[5]; translation /article[1]/p[20]",
+      "severity": "critical",
+      "source_quote": "…ied that we might live. There is no question that it was <em>for</em> us, but the preposition, <em>for,</em> can be understood several different ways. It can mean <em>in my place,</em> or it can mean <em>on my behalf.</em> Most of Scripture clearly emphasizes that He died on my behalf, but less clear is the idea of a direct substitution. Emphasizing substitution leads us to the following concept: He died in my place, so I don’t need to. If this becomes the primary way of thinking about the atonement, we may miss what is equally important—that since He died, so I must also die with Him. See R…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[159:161], translation signature[159:159], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "… préposition « pour » peut s’entendre de plusieurs façons. Elle peut signifier <em>à ma place</em> ou <em>en ma faveur.</em> La plupart des passages des Écritures soulignent clairement qu’il est mort en ma faveur, mais l’idée d’une substitution directe est moins explicite. Insister sur la substitution nous conduit à l’idée suivante : il est mort à ma place, donc je n’ai pas à mourir. Si cette idée devient notre manière principale de concevoir l’expiation, nous risquons de passer à côté d’un point tout aussi important : puisqu’il est mort, je dois moi aussi mourir avec lui. Voir Rm 6:1-11</p>"
+    }
+  ],
   "id": "1a5ef307a01a8899f366251847a2bf97",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "fra",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

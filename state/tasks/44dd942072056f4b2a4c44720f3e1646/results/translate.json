@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9ba5dfea-3ba8-4f45-876f-498210afbe65",
+    "response_id": "chatcmpl-EWrGzoFueMD0maKWPE7GddYL0YibS",
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 159,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1438,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1435,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2223
+    }
+  },
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\">\n  <figure>\n    <img src=\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\" alt=\"Ein Wasserfall fließt über gestufte Felsen in einem Wald\">\n  </figure>\n\n  <p class=\"poem\">Als ein Mann im Sterben lag, gingen seine Gedanken zurück.<br>\n    Werde ich eine gute Spur hinterlassen, die keiner angreifen kann?<br>\n    Ich entsagte allem und trat an den Altar,<br>\n    hielt nichts zurück, nicht einmal einen Cent.<br>\n    Ich wollte alles tun, was recht war.<br>\n    Manchmal betete ich die ganze Nacht.<br>\n    War es leicht? Das kann ich nicht sagen.<br>\n    Vielmehr war es ein Kampf, den ich täglich focht.<br>\n    Nur wenige verstanden, warum ich so lebte.<br>\n    Alles aufzugeben, sei töricht, sagten sie.<br>\n    Sie konnten den Frieden in mir nicht sehen.<br>\n    Einen Frieden, von dem ich dachte, niemand könne ihn verbergen.<br>\n    Ein Leben auf der Flucht war nicht mein Wunsch.<br>\n    Doch sie wollten meinen Körper ins Feuer werfen.<br>\n    Von Höhle zu Höhle nannte ich mein Zuhause,<br>\n    im Wissen, dass ich eines Tages nie wieder umherziehen würde.<br>\n    Wenn ich zurückblicke, würde ich nichts ändern.<br>\n    Es war eine große Ehre, meinem König zu dienen.<br>\n    Doch jetzt muss ich gehen, der Rauch ist zu dicht.<br>\n    Mein Körper wird zu Asche, während die Flammen daran lecken.<br>\n    Eines muss ich noch fragen:<br>\n    Werde ich vergeblich sterben, oder übernehmt ihr die Aufgabe?<br>\n    Jesus sucht heute ein Volk,<br>\n    das die Prüfung besteht und nicht vom Weg abkommt.<br>\n    Unser Leben hinzugeben, gehört zu dem Preis, den wir zahlen.<br>\n    Wirst du diese Entscheidung treffen, bevor die Zeit abläuft?<br>\n    Die Kirche kämpft, die Welt ist eingedrungen.<br>\n    Sie haben unseren Jesus getötet und lieben ihre Sünde.<br>\n    Geben wir nicht nach, zu viel steht auf dem Spiel.<br>\n    Kämpfen wir lieber! Ein Königreich ist zu erobern!</p>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": null
+  }
+}

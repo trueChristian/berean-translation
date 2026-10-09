@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/blockquote[1]/em[1]/strong[1]/u[1]; translation /article[1]/blockquote[1]/em[1]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<blockquote><em>When Jesus therefore had received the vinegar, he said, <strong>It is <u>finished:</u></strong> and he bowed his head, and gave up the ghost. –Joh 19:30</em></blockquote>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[7:9], translation signature[7:7], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<blockquote><em>پس جب یسوع نے سرکہ لے لیا تو کہا، <strong>پورا ہوا:</strong> اور سر جھکا کر جان دے دی۔ –یوحنا 19:30</em></blockquote>"
+    },
+    {
+      "location": "Source /article[1]/p[8]/em[2]; translation /article[1]/p[8]/strong[1]",
+      "severity": "critical",
+      "source_quote": "…thout shedding of blood is no remission.</u></strong> –Heb 9:22.</em> This is particularly important to remember when we consider that some people claim that God could just simply forgive sin without <em>death</em> or the <em>shedding of blood</em> if He so chose. These people use the story found in Matthew 18:23-35 as their proof text. It would do us well to consider that this story is revealing the “why” (compassion) of the outcome, <strong>not</strong> the “how” of the details. We cannot take this story out of context of Scripture and build a doctrine that undermines all the rest of Scrip…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[75:79], translation signature[73:73], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…ت یا خون بہائے جانے کے بغیر ہی گناہ کو محض معاف کر سکتا تھا۔ یہ لوگ متی 18:23-35 میں پائی جانے والی کہانی کو اپنے ثبوت کے طور پر پیش کرتے ہیں۔ ہمارے لیے یہ بات سمجھنا اچھا ہوگا کہ یہ کہانی نتیجے کے ”کیوں“ (رحم دلی) کو ظاہر کرتی ہے، تفصیلات کے ”کیسے“ کو <strong>نہیں</strong>۔ ہم اس کہانی کو صحیفے کے سیاق سے الگ کر کے ایسا عقیدہ نہیں بنا سکتے جو باقی تمام صحیفے کی تعلیم کو کمزور کرے۔ چنانچہ ہم نتیجہ نکالتے ہیں کہ خدا کے مقرر کردہ انتظام میں گناہ کو مسیح کے خون سے <strong>ضرور</strong> دھویا جانا ہے—<em>اور یسوع مسیح کی طرف سے، جس نے … اپنے خون سے ہمارے گناہوں کو دھو ڈالا، –مکاشفہ 1:5۔</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[11]/em[1]/u[1]; translation /article[1]/p[11]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p><em>But we see Jesus, who was made a little lower than the angels for the <u>suffering of death</u>, crowned with glory and honour; that he by the grace of God should <u>taste death for every man.</u> For it became him, for whom are all things, and by whom are all things, in bringing many sons unto glory, to make the captain of their salvation perfect through sufferings. –Heb 2:9-10.</em> When you partake of communion <em>…ye do shew the Lord’s death till he come –1Co 11:26.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[100:104], translation signature[94:94], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p><em>مگر ہم یسوع کو دیکھتے ہیں جو موت کا دکھ اٹھانے کے سبب سے فرشتوں سے ذرا ہی کم کیا گیا تھا، اور جلال اور عزت کا تاج اسے پہنایا گیا، تاکہ خدا کے فضل سے وہ ہر ایک کے لیے موت کا مزہ چکھے۔ کیونکہ جس کے لیے سب چیزیں ہیں اور جس کے وسیلے سے سب چیزیں ہیں، اسے یہی مناسب تھا کہ بہت سے بیٹوں کو جلال میں پہنچاتے ہوئے ان کی نجات کے بانی کو دکھوں کے وسیلے سے کامل کرے۔ –عبرانیوں 2:9-10۔</em> جب تم عشائے ربانی میں شریک ہوتے ہو تو <em>…خداوند کی موت کا اظہار کرتے ہو جب تک کہ وہ نہ آئے –1کرنتھیوں 11:26۔</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[20]/em[1]; translation /article[1]/p[20]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>This may seem like a logical conclusion, because He died for us, <em>…the just for the unjust… –1Pe 3:18.</em> and He died that we might live. There is no question that it was <em>for</em> us, but the preposition, <em>for,</em> can be understood several different ways. It can mean <em>in my place,</em> or it can mean <em>on my behalf.</em> Most of Scripture clearly emphasizes that He died on my behalf, but less clear is the idea of a direct substitution. Emphasizing substitution leads us to the following concept: He died in my place, so I don’t need to. If this becomes the primary way of …",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[151:153], translation signature[141:141], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>یہ ایک منطقی نتیجہ معلوم ہو سکتا ہے، کیونکہ وہ ہمارے لیے مرا، <em>…راست باز نے ناراستوں کے لیے… –1پطرس 3:18۔</em> اور وہ اس لیے مرا کہ ہم زندہ رہیں۔ اس میں کوئی شک نہیں کہ یہ ہمارے <em>لیے</em> تھا، لیکن حرفِ جار ”لیے“ کے کئی مختلف مفہوم ہو سکتے ہیں۔ اس کا مطلب <em>میری جگہ</em> ہو سکتا ہے، یا <em>میری خاطر</em>۔ صحیفے کا بیشتر حصہ واضح طور پر اس بات پر زور دیتا ہے کہ وہ میری خاطر مرا، لیکن براہِ راست کسی کی جگہ لینے کا تصور اتنا واضح نہیں۔ نیابتی قربانی پر زور دینے سے ہم اس تصور تک پہنچتے ہیں: وہ میری جگہ مرا، اس لیے مجھے مرنے کی ضرورت نہیں۔ اگر کفارے کے بارے میں سوچنے کا یہ بنیادی طریقہ…"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[7]: source /article[1]/blockquote[1]/em[1]/strong[1]/u[1] ('start', 'u', ()); translation /article[1]/blockquote[1]/em[1]/strong[1] ('end', 'strong')",
+  "stage": "translate"
+}

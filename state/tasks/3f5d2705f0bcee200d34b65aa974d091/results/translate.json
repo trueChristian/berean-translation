@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f6f9360-dea8-4152-9eb9-a22283f2e370",
+    "response_id": "chatcmpl-EWrVA9yNVXKztrbAqpTlRcJ1pzJxY",
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1440,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2136
+    }
+  },
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"90d8e22a-d7b1-453e-98bf-cab1571a7f56\">\n  <figure>\n    <img src=\"/images/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56-1.jpg\" alt=\"Una cascada que fluye sobre salientes de roca en capas dentro de un bosque\">\n  </figure>\n\n  <p class=\"poem\">Mientras un hombre agonizaba, sus pensamientos volvieron atrás.<br>\n    ¿Dejaré una buena huella que nadie pueda atacar?<br>\n    Renuncié a todo, al altar me entregué,<br>\n    sin reservarme nada, ni siquiera un centavo.<br>\n    Quería hacer todo lo que era correcto.<br>\n    A veces oraba durante toda la noche.<br>\n    ¿Fue fácil? No puedo decirlo.<br>\n    Más bien fue una batalla que libré cada día.<br>\n    Pocos entendían por qué vivía así.<br>\n    «Renunciar a todo es una locura», decían.<br>\n    No podían haber visto la paz que había dentro,<br>\n    una paz que yo pensaba que nadie podría ocultar.<br>\n    No deseaba vivir huyendo,<br>\n    pero querían mi cuerpo para arrojarlo al fuego.<br>\n    De cueva en cueva, llamaba hogar a cada una,<br>\n    sabiendo que un día ya no vagaría más.<br>\n    Al mirar atrás, no cambiaría nada.<br>\n    Ha sido un gran honor servir a mi rey.<br>\n    Pero ahora debo irme, el humo es demasiado espeso.<br>\n    Mi cuerpo se convierte en cenizas mientras las llamas lo lamen.<br>\n    Hay algo que necesito preguntar:<br>\n    ¿Moriré en vano, o asumirás la tarea?<br>\n    Jesús busca hoy a un pueblo<br>\n    que resista la prueba y no se desvíe.<br>\n    Dar la vida es parte del precio.<br>\n    ¿Tomarás esa decisión antes de que se agote el tiempo?<br>\n    La iglesia está en apuros; el mundo ha entrado.<br>\n    Mataron a nuestro Jesús y aman su pecado.<br>\n    No cedamos; hay demasiado en juego.<br>\n    ¡Más bien luchemos! ¡Hay un reino que conquistar!</p>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": null
+  }
+}

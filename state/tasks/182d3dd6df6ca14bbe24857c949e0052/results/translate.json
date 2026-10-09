@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "35e7529f-42b7-402d-b22e-c3d4fac96771",
+    "response_id": "chatcmpl-EWp5snK0VtA3YiMTPAp8WqgQst0lN",
+    "usage": {
+      "completion_tokens": 1351,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3292
+    }
+  },
+  "received_at": "2026-10-09T00:17:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\">\n  <figure>\n    <img src=\"/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png\" alt=\"\">\n  </figure>\n\n  <p class=\"drop-cap\">Le fredde e grigie giornate invernali si stanno trasformando nelle calde e soleggiate giornate primaverili. I primi fiori dell’anno si fanno strada con tenacia dalla terra fredda verso il calore del sole. Questa emozionante sensazione che si respira nell’aria primaverile non sembra mai stancare. Ci sono il calore e la luce delle giornate di sole. C’è la musica allegra e melodiosa degli uccelli canori, che ancora una volta si stabiliscono con un’energia apparentemente inesauribile. E siamo di nuovo benedetti da un’altra stagione in cui piantare semi, con l’aspettativa di un altro raccolto di cibo da gustare.</p>\n\n  <p>Quest’anno compirò 48 anni. Quanto mi sembra vecchio! Ricordo che da giovane pensavo che le persone di 50 anni fossero anziane. Ora ci sono quasi. Per me, questo è un chiaro promemoria del fatto che stiamo tutti invecchiando e che non vivremo per sempre. Seguono alcuni pensieri seri: «Che cosa ho fatto per il progresso del Regno di Dio? Gli rimango fedele in tutto ciò che faccio? Signore, che cosa vuoi che faccia quest’anno?». Ognuno di noi cerchi con spirito di preghiera il Signore riguardo alla Sua volontà, presente e futura, per la nostra vita. Incoraggiamoci ed esortiamoci a vicenda a rimanere fedeli nella relazione con il nostro Maestro e nel servirLo.</p>\n\n  <p>In questo numero proponiamo un eccellente articolo sul matrimonio, che abbiamo ritenuto potesse prendere il posto, questa volta, di un articolo sul discepolato. Quando incontriamo coppie che da anni lottano con gravi problemi coniugali, di solito scopriamo che qualcosa non funziona secondo la volontà di Dio a un livello fondamentale. Riteniamo che questo articolo sul matrimonio esamini in modo piuttosto approfondito come costruire e mantenere un fondamento biblico. Se il Signore vuole, intendiamo pubblicare altri articoli su questo argomento.</p>\n\n  <p>Abbiamo in programma di tenere una serie di incontri nella contea di Lebanon, in Pennsylvania, il prossimo luglio. Diverse chiese della zona stanno collaborando per organizzare l’evento e hanno riservato il <strong>Fairview Reception Center</strong>. Vi preghiamo di pregare per questi incontri, affinché si compia la volontà di Dio, affinché Dio guidi i relatori mentre si preparano e affinché Dio rafforzi la chiesa attraverso questa iniziativa. Condividete queste informazioni con altri che potrebbero essere interessati. Inoltre, segnate la data sul calendario.</p>\n\n  <p>Se desiderate ricevere informazioni aggiornate una volta definiti tutti i dettagli, contattate «The Berean Voice» per telefono al numero (330) 439-9547 o via e-mail all’indirizzo subscribe@bereanvoice.org. Poiché saranno forniti dei pasti e i posti a sedere sono limitati, per partecipare all’evento sarà <strong>necessario registrarsi</strong>. Di seguito sono riportati i titoli provvisori della serie e dei messaggi, che sono ancora soggetti a modifiche.</p>\n\n  <h2>«Una prospettiva biblica sui problemi di abuso mentale, emotivo, coniugale e sessuale»</h2>\n  <ol>\n    <li>Comprendere il cuore: la radice di TUTTI i problemi</li>\n    <li>Il Vangelo: la risposta di Dio a TUTTI i problemi dello spirito e dell’anima (psiche) dell’uomo</li>\n    <li>Come la psicologia e le filosofie mondane ci influenzano oggi</li>\n    <li>Discepolato pratico: aiutare efficacemente le persone a cambiare</li>\n    <li>Una prospettiva biblica sui disturbi mentali</li>\n    <li>Valutare biblicamente le questioni relative all’adozione e all’affidamento</li>\n    <li>Comprendere l’effetto placebo e l’uso sicuro dei farmaci per la psiche</li>\n    <li>Una comprensione biblica del fallimento morale, della pornografia e dell’abuso sessuale (solo adulti)</li>\n    <li>La purezza: dalla culla alla conversione, e poi al matrimonio o alla vita da single (solo genitori)</li>\n    <li>Prevenire e affrontare i problemi attraverso famiglie devote a Dio</li>\n    <li>Prevenire e affrontare TUTTE le difficoltà della vita all’interno della chiesa locale</li>\n  </ol>\n\n  <h3>26–28 luglio 2019</h3>\n  <p><strong>Luogo:</strong> Fairview Reception Center | 141 Jackson Rd | Lebanon, PA 17042</p>\n  <p><strong>Per registrarsi, contattare Rudy Yoder:</strong> (717) 450-8640 o via e-mail: theyoders@yoderhome.net</p>\n</article>\n",
+    "section": "DALL’EDITORE",
+    "subtitle": null,
+    "title": "DALL’EDITORE"
+  }
+}
