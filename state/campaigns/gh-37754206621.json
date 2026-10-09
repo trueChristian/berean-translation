@@ -2639,7 +2639,8 @@
   "status": "admission_attention",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 102,
+    "complete": 76,
+    "in_batch": 26,
     "not_ready": 1
   },
   "tasks": [

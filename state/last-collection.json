@@ -1,11 +1,6 @@
 {
-  "collection": {
-    "stop_reason": "discovery_complete",
-    "submitted_batches": 0,
-    "ticks": 1
-  },
-  "completed_at": "2026-10-09T15:14:14+00:00",
-  "newly_published": 0,
-  "operation": "discover",
-  "started_at": "2026-10-09T15:13:15+00:00"
+  "completed_at": "2026-10-09T15:16:59+00:00",
+  "newly_published": 76,
+  "operation": "collect",
+  "started_at": "2026-10-09T15:15:43+00:00"
 }
