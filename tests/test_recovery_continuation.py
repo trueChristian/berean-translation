@@ -136,11 +136,18 @@ class RecoveryContinuationTests(unittest.TestCase):
         child = self.child(campaign)
         line = build_request(self.config, self.state, child)[0]
         self.assertTrue(line['body']['messages'][0]['content'].startswith(self.config.prompt('translation')))
-        self.assertIn('95/100', line['body']['messages'][0]['content'])
+        self.assertIn('HTML/metadata contract defects even if the meaning is already correct',
+                      line['body']['messages'][0]['content'])
+        self.assertNotIn('controls the verdict', line['body']['messages'][0]['content'])
+        self.assertEqual(loads(line['body']['messages'][1]['content'])['quality_threshold'], 95)
         self.finish(self.response('old Sol candidate', 'Faith'))
         child = self.task(child['id'])
         self.assertEqual(child['status'], 'not_ready')
         self.assertNotIn('continuation', child)
+        review = build_request(self.config, self.state, child)[0]
+        self.assertEqual(child['stage'], 'review2')
+        self.assertIn('95/100', review['body']['messages'][0]['content'])
+        self.assertIn('controls the verdict', review['body']['messages'][0]['content'])
         self.validate()
         return campaign, child
 
@@ -170,7 +177,9 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.assertEqual(child['stage'], 'correct')
         repair = build_request(self.config, self.state, child)[0]
         self.assertTrue(repair['body']['messages'][0]['content'].startswith(self.config.prompt('translation')))
-        self.assertIn('95/100', repair['body']['messages'][0]['content'])
+        self.assertIn('HTML/metadata contract defects even if the meaning is already correct',
+                      repair['body']['messages'][0]['content'])
+        self.assertNotIn('controls the verdict', repair['body']['messages'][0]['content'])
         repair_payload = loads(repair['body']['messages'][1]['content'])
         self.assertEqual(repair_payload['translation'], self.state.candidate(old))
         self.assertEqual(repair_payload['correction_findings'], old['findings'])
@@ -179,7 +188,10 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.engine.collect()
         child = self.task(child['id'])
         self.assertEqual(child['stage'], 'review2')
-        review = loads(build_request(self.config, self.state, child)[0]['body']['messages'][1]['content'])
+        review_request = build_request(self.config, self.state, child)[0]
+        self.assertIn('95/100', review_request['body']['messages'][0]['content'])
+        review = loads(review_request['body']['messages'][1]['content'])
+        self.assertEqual(review['quality_threshold'], 95)
         self.assertNotIn('correction_findings', review)
         self.assertNotIn('rejection_reason', review)
         self.assertIsNone(self.state.record('afr', A)['published'])

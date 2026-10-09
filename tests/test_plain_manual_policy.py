@@ -269,7 +269,7 @@ class PlainManualAdmissionTests(unittest.TestCase):
 
 
 class SavedManualLedgerReplayTests(unittest.TestCase):
-    def test_all_157_actual_never_paid_entries_resume_without_state_writes(self):
+    def test_all_157_actual_entries_replay_without_resetting_paid_history(self):
         original = State(REPO_ROOT)
         base_tasks, base_batches = original.tasks(), original.batches()
         class Overlay(State):
@@ -286,30 +286,53 @@ class SavedManualLedgerReplayTests(unittest.TestCase):
             def batches(self):
                 return base_batches
         engine = Engine(Config(REPO_ROOT), None, None, MemoryGit())
-        admitted = 0
+        entries = 0
         for identity in ('gh-37439892859', 'gh-37754206621'):
             # Overlapping original selections share one active pair in production.
-            # Separate overlays verify each campaign's original157admissions.
+            # These live ledgers now include paid work and legitimate lineage holds.
             state = Overlay()
             engine.state = state
             campaign = state.read(f'state/campaigns/{identity}.json')
             before = state.read(manual_admission.path(identity))
             contract = copy.deepcopy(manual_admission.contract(campaign))
+            spending = {key:copy.deepcopy(campaign.get(key)) for key in
+                        ('reserved_usd', 'reported_usage_usd', 'accounted_responses')}
             request = state.read(f'state/queue/{identity}.json')
+            existing_tasks = {task_id:state.read(f'state/tasks/{task_id}/task.json')
+                              for task_id in before['entries']}
+            manual_admission.validate(state, campaign, before)
             manual_admission.resume(engine, campaign, request)
             after = state.read(manual_admission.path(identity))
             manual_admission.validate(state, campaign, after)
             self.assertEqual(manual_admission.contract(campaign), contract)
-            self.assertEqual({entry['status'] for entry in after['entries'].values()}, {'admitted'},
-                             {key:entry['reason'] for key,entry in after['entries'].items() if entry['status'] != 'admitted'})
+            self.assertEqual({key:campaign.get(key) for key in spending}, spending)
+            self.assertEqual(state.read(f'state/queue/{identity}.json'), request)
+            self.assertEqual(set(after['entries']), set(before['entries']))
             for task_id, entry in after['entries'].items():
                 old = before['entries'][task_id]
                 self.assertEqual(entry['provenance'], old['provenance'])
+                self.assertEqual(entry['provenance_sha256'], old['provenance_sha256'])
+                self.assertEqual(entry.get('attention_detail'), old.get('attention_detail'))
                 self.assertEqual(entry['events'][:len(old['events'])], old['events'])
-                self.assertEqual(state.read(f'state/tasks/{task_id}/task.json')['translation_attempts'], 0)
-            admitted += len(after['entries'])
-        self.assertEqual(admitted, 157)
-        # The overlay cannot persist writes or reach a provider.
+                task = state.read(f'state/tasks/{task_id}/task.json')
+                if existing_tasks[task_id] is not None:
+                    self.assertEqual(task, existing_tasks[task_id])
+                    self.assertEqual(entry, old)
+                elif entry['status'] == 'admitted':
+                    self.assertEqual(task['translation_attempts'], 0)
+                    self.assertEqual(task['review_attempts'], 0)
+                else:
+                    self.assertIsNone(task)
+                if not manual_admission._can_resume(old):
+                    self.assertEqual(entry, old)
+            replay = copy.deepcopy(state.overlay)
+            manual_admission.resume(engine, campaign, request)
+            self.assertEqual(state.overlay, replay)
+            self.assertFalse(any(key.startswith('state/batches/') or '/attempts/' in key or '/results/' in key
+                                 for key in state.overlay))
+            entries += len(after['entries'])
+        self.assertEqual(entries, 157)
+        self.assertIsNone(engine.provider)
         self.assertTrue(state.overlay)
 
 
