@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "51f5a9bf-ab5e-49d0-b815-ebbb6157792d",
+    "response_id": "chatcmpl-EXBqlSKVRvHZdikk8K7jOaTlL0vvG",
+    "usage": {
+      "completion_tokens": 1237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 985,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9056,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9053,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10293
+    }
+  },
+  "received_at": "2026-10-09T20:54:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Luke 21:27 quotation",
+        "severity": "minor",
+        "source_quote": "There is coming a day when we shall …see the Son of man coming in a cloud with power and great glory",
+        "suggested_fix": "Change «увидят Сына Человеческого» to «увидим Сына Человеческого» to preserve the source’s first-person plural.",
+        "translation_quote": "Настанет день, когда мы …увидят Сына Человеческого, грядущего на облаке с силою и славою великою"
+      },
+      {
+        "location": "Paragraph beginning “Why would our God…”",
+        "severity": "minor",
+        "source_quote": "there can be eternal character wrought in the soul who has experienced a seasonal lack of clarity in their path",
+        "suggested_fix": "Replace «может навеки преобразить душу» with «может сформировать в душе вечный характер», preserving the idea that character is formed through the experience.",
+        "translation_quote": "временное отсутствие ясности на пути может навеки преобразить душу"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

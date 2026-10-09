@@ -2,7 +2,6 @@
   "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "036f857c7d5a422490a48d55b2f266f8",
   "campaign": "gh-37439892859",
   "created_at": "2026-10-06T09:09:16+00:00",
   "events": [
@@ -65,32 +64,46 @@
         },
         "total_tokens": 13619
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 985,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9056,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9053,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10293
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning «Когда взор Илии затуманился…»; quotation of 3 Kings 19:11–13",
-      "severity": "major",
-      "source_quote": "“and after the fire a still small voice”",
-      "suggested_fix": "Replace «после огня веяние тихого ветра» with «после огня — тихий, едва слышный голос» so the quotation preserves the source’s reference to a voice.",
-      "translation_quote": "«после огня веяние тихого ветра»"
-    },
-    {
-      "location": "Final paragraph; quotation of Acts 1:9",
-      "severity": "major",
-      "source_quote": "“he was taken up; and a cloud received him out of their sight”",
-      "suggested_fix": "Replace «Он поднялся в глазах их» with «Он возносился»; for example: «…смотрели, как Он возносился, и облако скрыло Его от глаз их».",
-      "translation_quote": "«…смотрели, и Он поднялся в глазах их, и облако взяло Его из вида их»"
-    },
-    {
-      "location": "Paragraph beginning «Мы знаем, что Илия…»; sentence about the path of the righteous",
+      "location": "Final paragraph, Luke 21:27 quotation",
       "severity": "minor",
-      "source_quote": "“we meet with darkness in the daytime, and grope in the noonday as in the night”",
-      "suggested_fix": "Correct the verb agreement, for example: «днём мы встречаем тьму и в полдень ходим ощупью, как ночью».",
-      "translation_quote": "«днём встречают тьму и в полдень ходят ощупью, как ночью»"
+      "source_quote": "There is coming a day when we shall …see the Son of man coming in a cloud with power and great glory",
+      "suggested_fix": "Change «увидят Сына Человеческого» to «увидим Сына Человеческого» to preserve the source’s first-person plural.",
+      "translation_quote": "Настанет день, когда мы …увидят Сына Человеческого, грядущего на облаке с силою и славою великою"
+    },
+    {
+      "location": "Paragraph beginning “Why would our God…”",
+      "severity": "minor",
+      "source_quote": "there can be eternal character wrought in the soul who has experienced a seasonal lack of clarity in their path",
+      "suggested_fix": "Replace «может навеки преобразить душу» with «может сформировать в душе вечный характер», preserving the idea that character is formed through the experience.",
+      "translation_quote": "временное отсутствие ясности на пути может навеки преобразить душу"
     }
   ],
+  "finished_at": "2026-10-09T20:54:06+00:00",
   "id": "226106a2382aa51602808e228673cb30",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "rus",
@@ -181,13 +194,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/402193c80d2894154ccb0532fd8d7485388997a2a7d80b9fbe7c62d14a8efd80.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
   "translation_model_actual": "gpt-6-luna"

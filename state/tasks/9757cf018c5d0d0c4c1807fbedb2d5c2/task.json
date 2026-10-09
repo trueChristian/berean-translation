@@ -2,7 +2,6 @@
   "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "036f857c7d5a422490a48d55b2f266f8",
   "campaign": "gh-37439892859",
   "created_at": "2026-10-06T09:09:16+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 12443
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1062,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8389,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7286,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9451
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “I cannot see that there is any crime…”",
-      "severity": "major",
-      "source_quote": "“I have not followed my own cause but the Holy institution of our Lord Jesus Christ.”",
-      "suggested_fix": "Replace ״מוסדו הקדוש״ with ״תקנתו הקדושה״, for example: ״לא הלכתי בעקבות ענייני שלי, אלא בעקבות תקנתו הקדושה של אדוננו ישוע המשיח.״",
-      "translation_quote": "״לא הלכתי בעקבות ענייני שלי, אלא בעקבות מוסדו הקדוש של אדוננו ישוע המשיח.״"
-    },
-    {
-      "location": "Final paragraph before the image",
-      "severity": "major",
-      "source_quote": "“...the goodness of God [that] leadeth thee to repentance –Rom 2:4.”",
-      "suggested_fix": "Translate “goodness” as ״טובו״ rather than ״חסדו״: ״טובו של אלוהים הוא המוליך אותך לתשובה״.",
-      "translation_quote": "״חסדו של אלוהים הוא המוליך אותך לתשובה״"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-09T20:54:06+00:00",
   "id": "9757cf018c5d0d0c4c1807fbedb2d5c2",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "heb",
@@ -174,13 +179,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ad31a29abcaa9fc4133d05837032668a19ddc92690fa0c75fc335b4adf6d6cb3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
   "translation_model_actual": "gpt-6-luna"

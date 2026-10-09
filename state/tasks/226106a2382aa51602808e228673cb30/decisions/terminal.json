@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Luke 21:27 quotation",
+      "severity": "minor",
+      "source_quote": "There is coming a day when we shall …see the Son of man coming in a cloud with power and great glory",
+      "suggested_fix": "Change «увидят Сына Человеческого» to «увидим Сына Человеческого» to preserve the source’s first-person plural.",
+      "translation_quote": "Настанет день, когда мы …увидят Сына Человеческого, грядущего на облаке с силою и славою великою"
+    },
+    {
+      "location": "Paragraph beginning “Why would our God…”",
+      "severity": "minor",
+      "source_quote": "there can be eternal character wrought in the soul who has experienced a seasonal lack of clarity in their path",
+      "suggested_fix": "Replace «может навеки преобразить душу» with «может сформировать в душе вечный характер», preserving the idea that character is formed through the experience.",
+      "translation_quote": "временное отсутствие ясности на пути может навеки преобразить душу"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
