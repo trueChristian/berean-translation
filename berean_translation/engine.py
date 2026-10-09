@@ -883,7 +883,8 @@ class Engine:
         self.state.derive(self.config)
         self.checkpoint('runtime: record campaign cancellation results')
 
-    def tick(self, *, discover_source=True, discover_only=False, continue_work=None):
+    def tick(self, *, discover_source=True, discover_only=False, continue_work=None,
+             record_collection=True):
         started_at = now()
         published_before = { (record['language'], record['article_id']):
                              (record.get('published') or {}).get('task') for record in self.state.records() }
@@ -948,12 +949,15 @@ class Engine:
                 if status in manual_admission.UNFINISHED) for c in self.state.campaigns() if not c.get('cancel_requested'))}
         if heartbeat != snapshot:
             self.state.write('state/heartbeat.json',snapshot)
-        self.state.write('state/last-collection.json', {
-            'started_at': started_at, 'completed_at': now(),
-            'operation': 'discover' if discover_only else 'collect',
-            'newly_published': sum(bool(record.get('published')) and
-                record['published']['task'] != published_before.get((record['language'], record['article_id']))
-                for record in self.state.records())})
+        completed_at = now()
+        self.state.write('state/report-generation.json', {'generated_at': completed_at})
+        # Window statistics belong to the finalizer; checkpoint freshness does not.
+        if record_collection and not discover_only:
+            self.state.write('state/last-collection.json', {
+                'started_at': started_at, 'completed_at': completed_at, 'operation': 'collect',
+                'newly_published': sum(bool(record.get('published')) and
+                    record['published']['task'] != published_before.get((record['language'], record['article_id']))
+                    for record in self.state.records())})
         result = self.state.derive(self.config)
         self.checkpoint('runtime: update source discovery and translation publication index')
         return result

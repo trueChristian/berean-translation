@@ -91,7 +91,9 @@ def main(argv=None):
             source = SourceClient(config)
             result = source.discover()
             if not args.check_only:
-                state.write('state/source.json',result); state.derive(config)
+                state.write('state/source.json',result)
+                state.write('state/discovery-status.json', {'observed_at': now(), 'status': 'complete'})
+                state.derive(config)
             result = {'revision':result['revision'],'issues':len(result['issues']),'articles':len(result['articles'])}
         elif args.command == 'export':
             inventory = SourceClient(config, checkout=args.source_checkout).discover()
@@ -107,18 +109,17 @@ def main(argv=None):
                 window_started_at = now()
                 if args.discover_only:
                     engine.tick(discover_only=True)
-                    collection = {'ticks': 1, 'stop_reason': 'discovery_complete', 'submitted_batches': 0}
+                    collection = {'ticks': 1, 'stop_reason': 'discovery_complete',
+                        'submitted_batches': sum(b['status'] in ('submitted', 'cancelling') for b in state.batches())}
                 else:
                     collection = collect_window(engine,wait_seconds=args.wait_seconds,poll_seconds=args.poll_seconds,
                                                 discover_source=not args.no_discover)
-                report = state.read('state/last-collection.json', {})
-                report.update(started_at=window_started_at, completed_at=now(),
-                              collection=collection)
-                if 'translations_published' in collection:
-                    report['newly_published'] = collection['translations_published']
-                state.write('state/last-collection.json', report)
+                    state.write('state/last-collection.json', {
+                        'started_at': window_started_at, 'completed_at': now(), 'operation': 'collect',
+                        'collection': collection, 'newly_published': collection['translations_published']})
                 state.derive(config)
-                engine.checkpoint('runtime: report completed collection window')
+                engine.checkpoint('runtime: report source discovery' if args.discover_only else
+                                  'runtime: report completed collection window')
                 result = validate_repository(config)
                 result['api_key_configured'] = bool(provider)
                 result['collection'] = collection

@@ -103,14 +103,27 @@ class PlainStatusExportTests(unittest.TestCase):
         self.state.write('state/last-collection.json', {'completed_at': '2026-10-08T09:17:31Z',
             'newly_published': 3, 'collection': {'stop_reason': 'wait_budget_exhausted',
                                              'submitted_batches': 4}})
-        self.state.write('state/report-generation.json', {'generated_at': '2026-10-08T09:17:31Z'})
+        self.state.write('state/report-generation.json', {'generated_at': '2026-10-07T12:27:18+00:00'})
         self.state.derive(self.config)
         before = self.state.path('STATUS.md').read_bytes()
         self.state.derive(self.config)
         self.assertEqual(before, self.state.path('STATUS.md').read_bytes())
         self.assertIn(b'Generated: 2026-10-08T09:17:31Z', before)
+        self.assertEqual(self.state.read('state/automatic-status.json')['generated_at'], '2026-10-08T09:17:31Z')
         self.assertIn(b'newly published: 3', before)
         self.assertIn(b'wait_budget_exhausted', before)
+
+    def test_report_uses_latest_manual_or_discovery_stamp_chronologically(self):
+        self.state.write('state/last-collection.json', {'completed_at': '2026-10-08T09:17:31Z',
+                                                     'newly_published': 22})
+        self.state.write('state/report-generation.json', {'generated_at': '2026-10-08T10:00:00+00:00'})
+        self.state.derive(self.config)
+        self.assertEqual(self.state.read('state/automatic-status.json')['generated_at'], '2026-10-08T10:00:00+00:00')
+        self.state.write('state/discovery-status.json', {'observed_at': '2026-10-08T09:30:00-02:00',
+                                                     'status': 'complete'})
+        self.state.derive(self.config)
+        self.assertEqual(self.state.read('state/automatic-status.json')['generated_at'], '2026-10-08T09:30:00-02:00')
+        self.assertIn('newly published: 22', self.state.path('STATUS.md').read_text())
 
     def test_automatic_status_uses_final_authoritative_frontier_ledger(self):
         self.config.runtime['autonomous_translation']['enabled'] = True

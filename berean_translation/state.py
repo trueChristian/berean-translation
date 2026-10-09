@@ -356,7 +356,10 @@ class State:
             issue_language_pairs.setdefault((pair['issue_id'], pair['language']), []).append(pair)
         report_generation = self.read('state/report-generation.json', {})
         last_collection = self.read('state/last-collection.json', {})
-        generated_at = report_generation.get('generated_at') or last_collection.get('completed_at') or 'not recorded'
+        discovery = self.read('state/discovery-status.json', {})
+        stamps = [value for value in (report_generation.get('generated_at'),
+                  last_collection.get('completed_at'), discovery.get('observed_at')) if value]
+        generated_at = max(stamps, key=datetime.fromisoformat) if stamps else 'not recorded'
         rows = ['# Translation status','',
                 'Generated from the pinned source catalogue and durable work records. No API call is made by this report.',
                 '', f'Generated: {generated_at}.',
