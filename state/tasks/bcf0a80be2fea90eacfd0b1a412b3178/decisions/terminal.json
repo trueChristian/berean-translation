@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Vós não sabeis o que acontecerá amanhã”",
+      "severity": "minor",
+      "source_quote": "While those who, in ages past, suffered in the flesh and ceased from sin (1 Pet 4:1), I see no reason why those who experience the frail sufferings of a clouded mind may not share the same glory",
+      "suggested_fix": "Embora os que, em épocas passadas, sofreram na carne e cessaram de pecar (1 Pe 4:1), tenham feito isso, não vejo razão para que aqueles que experimentam os frágeis sofrimentos de uma mente nublada não possam compartilhar da mesma glória",
+      "translation_quote": "Embora os que, em épocas passadas, sofreram na carne e cessaram de pecar (1 Pe 4:1), não vejo razão para que aqueles que experimentam os frágeis sofrimentos de uma mente nublada não possam compartilhar da mesma glória"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

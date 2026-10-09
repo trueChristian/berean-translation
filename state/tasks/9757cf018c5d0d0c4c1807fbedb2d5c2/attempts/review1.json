@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I cannot see that there is any crime…”\",\"severity\":\"major\",\"source_quote\":\"“I have not followed my own cause but the Holy institution of our Lord Jesus Christ.”\",\"suggested_fix\":\"Replace ״מוסדו הקדוש״ with ״תקנתו הקדושה״, for example: ״לא הלכתי בעקבות ענייני שלי, אלא בעקבות תקנתו הקדושה של אדוננו ישוע המשיח.״\",\"translation_quote\":\"״לא הלכתי בעקבות ענייני שלי, אלא בעקבות מוסדו הקדוש של אדוננו ישוע המשיח.״\"},{\"location\":\"Final paragraph before the image\",\"severity\":\"major\",\"source_quote\":\"“...the goodness of God [that] leadeth thee to repentance –Rom 2:4.”\",\"suggested_fix\":\"Translate “goodness” as ״טובו״ rather than ״חסדו״: ״טובו של אלוהים הוא המוליך אותך לתשובה״.\",\"translation_quote\":\"״חסדו של אלוהים הוא המוליך אותך לתשובה״\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1078,
+    "content_evidence_truncated": false,
+    "content_sha256": "376e71edd98d94dbd9749f90bf136b2d925338b13ecb3073b12a5a41029985a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1291,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8388,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7285,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

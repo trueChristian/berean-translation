@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph before the image",
+      "severity": "minor",
+      "source_quote": "If in any way your heart is troubled, or convicted, don’t become discouraged.",
+      "suggested_fix": "Use “Se de algum modo seu coração estiver perturbado ou convencido do pecado, não desanimem.”",
+      "translation_quote": "Se de algum modo seu coração estiver perturbado ou convencido, não desanimem."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

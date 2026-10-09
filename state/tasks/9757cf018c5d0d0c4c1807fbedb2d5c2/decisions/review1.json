@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “I cannot see that there is any crime…”",
+      "severity": "major",
+      "source_quote": "“I have not followed my own cause but the Holy institution of our Lord Jesus Christ.”",
+      "suggested_fix": "Replace ״מוסדו הקדוש״ with ״תקנתו הקדושה״, for example: ״לא הלכתי בעקבות ענייני שלי, אלא בעקבות תקנתו הקדושה של אדוננו ישוע המשיח.״",
+      "translation_quote": "״לא הלכתי בעקבות ענייני שלי, אלא בעקבות מוסדו הקדוש של אדוננו ישוע המשיח.״"
+    },
+    {
+      "location": "Final paragraph before the image",
+      "severity": "major",
+      "source_quote": "“...the goodness of God [that] leadeth thee to repentance –Rom 2:4.”",
+      "suggested_fix": "Translate “goodness” as ״טובו״ rather than ״חסדו״: ״טובו של אלוהים הוא המוליך אותך לתשובה״.",
+      "translation_quote": "״חסדו של אלוהים הוא המוליך אותך לתשובה״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

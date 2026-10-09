@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"major\",\"source_quote\":\"“an airplane weighing over 700,000 pounds”\",\"suggested_fix\":\"“een vliegtuig van meer dan 317.500 kilo”\",\"translation_quote\":\"“een vliegtuig van meer dan 700.000 pond”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 307,
+    "content_evidence_truncated": false,
+    "content_sha256": "c52cf262ed470827b573390b08be12011cffb2f34f2960009ac14bfc166bfd3b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7784,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10008
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

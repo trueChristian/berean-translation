@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "be39a2e1-2c27-4351-b01c-b5aa72ab954e",
+    "response_id": "chatcmpl-EWugFWrxSNpeGEjq9dlssOTita9Y6",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6684,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8413
+    }
+  },
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph before the image",
+        "severity": "minor",
+        "source_quote": "If in any way your heart is troubled, or convicted, don’t become discouraged.",
+        "suggested_fix": "Use “Se de algum modo seu coração estiver perturbado ou convencido do pecado, não desanimem.”",
+        "translation_quote": "Se de algum modo seu coração estiver perturbado ou convencido, não desanimem."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

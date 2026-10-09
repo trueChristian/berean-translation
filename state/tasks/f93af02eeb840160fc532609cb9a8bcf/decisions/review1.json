@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Primo paragrafo",
+      "severity": "minor",
+      "source_quote": "“the welcome shade to the heads of weary fishermen upon Galilee”",
+      "suggested_fix": "Sostituire “per i capi dei pescatori stanchi” con “per le teste dei pescatori stanchi”.",
+      "translation_quote": "“l’ombra gradita per i capi dei pescatori stanchi sul mare di Galilea”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

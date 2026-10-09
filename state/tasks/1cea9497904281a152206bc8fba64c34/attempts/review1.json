@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lead paragraph, name explanation\",\"severity\":\"minor\",\"source_quote\":\"“a French form of the male name Jacob or James”\",\"suggested_fix\":\"“’n Franse vorm van die mansname Jakob of Jakobus”\",\"translation_quote\":\"“’n Franse vorm van die mansnaam Jakob of James”\"},{\"location\":\"Section metadata\",\"severity\":\"minor\",\"source_quote\":\"INSPIRATIONS FOR YOUTH\",\"suggested_fix\":\"“INSPIRASIES VIR JONGMENSE”\",\"translation_quote\":\"“INSPIRASIE VIR JONGMENSE”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 546,
+    "content_evidence_truncated": false,
+    "content_sha256": "91ae5b57e3fd020e8ce9fe92e82ee4aa22293210ec1ebe905df6b9166d1d1402",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7237,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9165
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

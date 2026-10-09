@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Lead paragraph, name explanation",
+      "severity": "minor",
+      "source_quote": "“a French form of the male name Jacob or James”",
+      "suggested_fix": "“’n Franse vorm van die mansname Jakob of Jakobus”",
+      "translation_quote": "“’n Franse vorm van die mansnaam Jakob of James”"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "“INSPIRASIES VIR JONGMENSE”",
+      "translation_quote": "“INSPIRASIE VIR JONGMENSE”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

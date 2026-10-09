@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "마지막 부분, “It is time to take a serious reflection…” 문단",
+      "severity": "minor",
+      "source_quote": "“Jacques, in his youth, was standing to become the church of tomorrow in his day.”",
+      "suggested_fix": "“젊은 자크는 그 시대에 장차 교회를 이룰 사람이었습니다.”",
+      "translation_quote": "“젊은 자크는 그 시대의 내일을 이끌 교회가 될 준비를 하고 있었습니다.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1eb9443-35f4-453f-b91b-1b67217c2dfc",
+    "response_id": "chatcmpl-EWuhBr7f3zYDq7YA6k0KQaeXDuaGQ",
+    "usage": {
+      "completion_tokens": 1221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9056,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7953,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10277
+    }
+  },
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Когда взор Илии затуманился…»; quotation of 3 Kings 19:11–13",
+        "severity": "major",
+        "source_quote": "“and after the fire a still small voice”",
+        "suggested_fix": "Replace «после огня веяние тихого ветра» with «после огня — тихий, едва слышный голос» so the quotation preserves the source’s reference to a voice.",
+        "translation_quote": "«после огня веяние тихого ветра»"
+      },
+      {
+        "location": "Final paragraph; quotation of Acts 1:9",
+        "severity": "major",
+        "source_quote": "“he was taken up; and a cloud received him out of their sight”",
+        "suggested_fix": "Replace «Он поднялся в глазах их» with «Он возносился»; for example: «…смотрели, как Он возносился, и облако скрыло Его от глаз их».",
+        "translation_quote": "«…смотрели, и Он поднялся в глазах их, и облако взяло Его из вида их»"
+      },
+      {
+        "location": "Paragraph beginning «Мы знаем, что Илия…»; sentence about the path of the righteous",
+        "severity": "minor",
+        "source_quote": "“we meet with darkness in the daytime, and grope in the noonday as in the night”",
+        "suggested_fix": "Correct the verb agreement, for example: «днём мы встречаем тьму и в полдень ходим ощупью, как ночью».",
+        "translation_quote": "«днём встречают тьму и в полдень ходят ощупью, как ночью»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

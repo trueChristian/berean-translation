@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed9be7ec-4a0f-4c04-b035-b354adecbd36",
+    "response_id": "chatcmpl-EWuitqgbnTa8ndY7GxUOT7YGFymRV",
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8096,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9830
+    }
+  },
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Primo paragrafo",
+        "severity": "minor",
+        "source_quote": "“the welcome shade to the heads of weary fishermen upon Galilee”",
+        "suggested_fix": "Sostituire “per i capi dei pescatori stanchi” con “per le teste dei pescatori stanchi”.",
+        "translation_quote": "“l’ombra gradita per i capi dei pescatori stanchi sul mare di Galilea”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

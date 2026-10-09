@@ -2,7 +2,6 @@
   "article_id": "069fc797-01e4-44d3-8b71-1c07f0821965",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "78c31c43b2704e7f8c8225ea33e69416",
   "campaign": "gh-37439892859",
   "created_at": "2026-10-06T09:09:16+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 8481
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 717,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8705,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7602,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9562
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "마지막 부분, “It is time to take a serious reflection…” 문단",
+      "severity": "minor",
+      "source_quote": "“Jacques, in his youth, was standing to become the church of tomorrow in his day.”",
+      "suggested_fix": "“젊은 자크는 그 시대에 장차 교회를 이룰 사람이었습니다.”",
+      "translation_quote": "“젊은 자크는 그 시대의 내일을 이끌 교회가 될 준비를 하고 있었습니다.”"
+    }
+  ],
+  "finished_at": "2026-10-09T07:21:11+00:00",
   "id": "dfcb625126bb88e0ad9d4912c244d266",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "kor",
@@ -118,11 +147,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ad31a29abcaa9fc4133d05837032668a19ddc92690fa0c75fc335b4adf6d6cb3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
   "translation_model_actual": "gpt-6-luna"

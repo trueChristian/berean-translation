@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Metadata: section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "UITGELIGTE ARTIKEL",
+      "translation_quote": "FEATURED ARTICLE"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

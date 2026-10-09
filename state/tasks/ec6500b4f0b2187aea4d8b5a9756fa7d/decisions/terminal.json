@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, “……爱” section",
+      "severity": "minor",
+      "source_quote": "It is uncertain wonder that encompasses the way of a young man with a maid.",
+      "suggested_fix": "年轻男子与少女相恋（或交往）所蕴含的，是一种因不确定而生的奇妙。",
+      "translation_quote": "年轻男子与女子同行的情景，笼罩在一种因未知而生的奇妙之中。"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

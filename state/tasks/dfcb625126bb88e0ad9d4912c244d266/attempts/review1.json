@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"마지막 부분, “It is time to take a serious reflection…” 문단\",\"severity\":\"minor\",\"source_quote\":\"“Jacques, in his youth, was standing to become the church of tomorrow in his day.”\",\"suggested_fix\":\"“젊은 자크는 그 시대에 장차 교회를 이룰 사람이었습니다.”\",\"translation_quote\":\"“젊은 자크는 그 시대의 내일을 이끌 교회가 될 준비를 하고 있었습니다.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "81c8dfa012bdf90a54b80f53af8cb842f00d8c9cfb8c1af3d2b6cf53224c3095",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 857,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 717,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7602,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9562
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

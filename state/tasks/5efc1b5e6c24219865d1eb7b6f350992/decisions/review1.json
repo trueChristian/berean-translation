@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“an airplane weighing over 700,000 pounds”",
+      "suggested_fix": "“een vliegtuig van meer dan 317.500 kilo”",
+      "translation_quote": "“een vliegtuig van meer dan 700.000 pond”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

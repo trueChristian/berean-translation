@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "324cdf77-b18c-416a-8b3e-92889501f1d3",
+    "response_id": "chatcmpl-EWuhEXycaR74v1ML346IEcvklPnzY",
+    "usage": {
+      "completion_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7777,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9631
+    }
+  },
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «هذه هي الخدمة المباركة للسحاب»; quotation Job 5:7",
+        "severity": "major",
+        "source_quote": "…man is born unto trouble, as the sparks fly upward –Job 5:7.",
+        "suggested_fix": "…الإنسان مولود للمشقة كما يتطاير الشرر إلى أعلى – أيوب 5:7.",
+        "translation_quote": "الإنسان مولود للمشقة كما أن الجوارح لارتفاع أجنحتها – أيوب 5:7."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

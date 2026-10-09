@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Detta är molnets välsignade tjänst”\",\"severity\":\"minor\",\"source_quote\":\"They can enshroud the day at high noon with an arsenal of gloom\",\"suggested_fix\":\"De kan hölj[a] dagen mitt på ljusa dagen med ett förråd av dysterhet\",\"translation_quote\":\"De kan höljas över dagen mitt på ljusa dagen med ett förråd av dysterhet\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 434,
+    "content_evidence_truncated": false,
+    "content_sha256": "8149f53041ae1fac3143cbc75535d7a44dadf3e9b60fa97420fc870fd1700ba9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 910,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8000,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10144
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning « Jacques, avez-vous vos propres convictions ? »",
+      "severity": "minor",
+      "source_quote": "Do your choices make a difference in eternity for yourself or others?",
+      "suggested_fix": "« Vos choix ont-ils des conséquences éternelles pour vous ou pour les autres ? »",
+      "translation_quote": "Vos choix changent-ils quelque chose à l’éternité, pour vous ou pour les autres ?"
+    },
+    {
+      "location": "Paragraph beginning « Alors, chers jeunes d’aujourd’hui »",
+      "severity": "minor",
+      "source_quote": "If in any way your heart is troubled, or convicted",
+      "suggested_fix": "« Si votre cœur est troublé ou repris, de quelque manière que ce soit »",
+      "translation_quote": "Si votre cœur est troublé ou convaincu, de quelque manière que ce soit"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "78c31c43b2704e7f8c8225ea33e69416",
   "campaign": "gh-37439892859",
   "created_at": "2026-10-06T09:09:16+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 8907
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 631,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9199,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8096,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9830
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Primo paragrafo",
+      "severity": "minor",
+      "source_quote": "“the welcome shade to the heads of weary fishermen upon Galilee”",
+      "suggested_fix": "Sostituire “per i capi dei pescatori stanchi” con “per le teste dei pescatori stanchi”.",
+      "translation_quote": "“l’ombra gradita per i capi dei pescatori stanchi sul mare di Galilea”"
+    }
+  ],
+  "finished_at": "2026-10-09T07:21:11+00:00",
   "id": "f93af02eeb840160fc532609cb9a8bcf",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ita",
@@ -118,11 +147,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/402193c80d2894154ccb0532fd8d7485388997a2a7d80b9fbe7c62d14a8efd80.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
   "translation_model_actual": "gpt-6-luna"

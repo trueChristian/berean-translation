@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "003fb4e9-001f-4bef-86e0-6b38fd004179",
+    "response_id": "chatcmpl-EWuglxReEMHcDvMJGh1eJBCIOxuZj",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7237,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9165
+    }
+  },
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lead paragraph, name explanation",
+        "severity": "minor",
+        "source_quote": "“a French form of the male name Jacob or James”",
+        "suggested_fix": "“’n Franse vorm van die mansname Jakob of Jakobus”",
+        "translation_quote": "“’n Franse vorm van die mansnaam Jakob of James”"
+      },
+      {
+        "location": "Section metadata",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "“INSPIRASIES VIR JONGMENSE”",
+        "translation_quote": "“INSPIRASIE VIR JONGMENSE”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

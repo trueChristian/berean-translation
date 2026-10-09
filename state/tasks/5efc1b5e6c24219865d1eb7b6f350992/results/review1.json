@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7c655696-9865-418b-b15e-c4de27d2d306",
+    "response_id": "chatcmpl-EWuhgCpdQsYeTIyZdYbk2aoCojMdy",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7784,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10008
+    }
+  },
+  "received_at": "2026-10-09T07:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "“an airplane weighing over 700,000 pounds”",
+        "suggested_fix": "“een vliegtuig van meer dan 317.500 kilo”",
+        "translation_quote": "“een vliegtuig van meer dan 700.000 pond”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

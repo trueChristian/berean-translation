@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Когда взор Илии затуманился…»; quotation of 3 Kings 19:11–13",
+      "severity": "major",
+      "source_quote": "“and after the fire a still small voice”",
+      "suggested_fix": "Replace «после огня веяние тихого ветра» with «после огня — тихий, едва слышный голос» so the quotation preserves the source’s reference to a voice.",
+      "translation_quote": "«после огня веяние тихого ветра»"
+    },
+    {
+      "location": "Final paragraph; quotation of Acts 1:9",
+      "severity": "major",
+      "source_quote": "“he was taken up; and a cloud received him out of their sight”",
+      "suggested_fix": "Replace «Он поднялся в глазах их» with «Он возносился»; for example: «…смотрели, как Он возносился, и облако скрыло Его от глаз их».",
+      "translation_quote": "«…смотрели, и Он поднялся в глазах их, и облако взяло Его из вида их»"
+    },
+    {
+      "location": "Paragraph beginning «Мы знаем, что Илия…»; sentence about the path of the righteous",
+      "severity": "minor",
+      "source_quote": "“we meet with darkness in the daytime, and grope in the noonday as in the night”",
+      "suggested_fix": "Correct the verb agreement, for example: «днём мы встречаем тьму и в полдень ходим ощупью, как ночью».",
+      "translation_quote": "«днём встречают тьму и в полдень ходят ощупью, как ночью»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

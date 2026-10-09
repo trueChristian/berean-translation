@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66c9a90e-8720-410e-9438-aa4899f07dae",
+    "response_id": "chatcmpl-EWugF1lhOx6OclEi6uTDjYtCEJjBJ",
+    "usage": {
+      "completion_tokens": 1017,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7655,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9775
+    }
+  },
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Vós não sabeis o que acontecerá amanhã”",
+        "severity": "minor",
+        "source_quote": "While those who, in ages past, suffered in the flesh and ceased from sin (1 Pet 4:1), I see no reason why those who experience the frail sufferings of a clouded mind may not share the same glory",
+        "suggested_fix": "Embora os que, em épocas passadas, sofreram na carne e cessaram de pecar (1 Pe 4:1), tenham feito isso, não vejo razão para que aqueles que experimentam os frágeis sofrimentos de uma mente nublada não possam compartilhar da mesma glória",
+        "translation_quote": "Embora os que, em épocas passadas, sofreram na carne e cessaram de pecar (1 Pe 4:1), não vejo razão para que aqueles que experimentam os frágeis sofrimentos de uma mente nublada não possam compartilhar da mesma glória"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

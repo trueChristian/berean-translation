@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, quotation of Job 36:32",
+      "severity": "major",
+      "source_quote": "With clouds he covereth the light; and commandeth it not to shine by the cloud that cometh betwixt",
+      "suggested_fix": "בעננים הוא מכסה את האור, ומצווה שהענן החוצץ לא ייתן לו לזרוח.",
+      "translation_quote": "בידיו כיסה אור, ויצו עליה במפגיע"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

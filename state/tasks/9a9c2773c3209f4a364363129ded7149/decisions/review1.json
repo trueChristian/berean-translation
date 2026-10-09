@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «هذه هي الخدمة المباركة للسحاب»; quotation Job 5:7",
+      "severity": "major",
+      "source_quote": "…man is born unto trouble, as the sparks fly upward –Job 5:7.",
+      "suggested_fix": "…الإنسان مولود للمشقة كما يتطاير الشرر إلى أعلى – أيوب 5:7.",
+      "translation_quote": "الإنسان مولود للمشقة كما أن الجوارح لارتفاع أجنحتها – أيوب 5:7."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

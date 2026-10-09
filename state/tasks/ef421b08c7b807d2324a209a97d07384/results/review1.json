@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e698e892-75ce-427b-8bb8-f0ad3a1d46f5",
+    "response_id": "chatcmpl-EWuic4NBWKDO4kyROpxCe4O0oTPhC",
+    "usage": {
+      "completion_tokens": 975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 851,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9065,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7962,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10040
+    }
+  },
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, …Håp section",
+        "severity": "minor",
+        "source_quote": "But what blessed hope was forfeited in her lustful pursuit of clarity.",
+        "suggested_fix": "Men hvilket velsignet håp hun ga avkall på i sin lystne jakt på klarhet.",
+        "translation_quote": "Men hvilken velsignet håp hun ga avkall på i sin lystne jakt på klarhet."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

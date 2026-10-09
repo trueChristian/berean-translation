@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9bb97f6a-aab1-49b0-b050-c14e97082064",
+    "response_id": "chatcmpl-EWugFU1XgA2PcHSJN8Ecn7YLKh9Wr",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 910,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8000,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10144
+    }
+  },
+  "received_at": "2026-10-09T07:21:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Detta är molnets välsignade tjänst”",
+        "severity": "minor",
+        "source_quote": "They can enshroud the day at high noon with an arsenal of gloom",
+        "suggested_fix": "De kan hölj[a] dagen mitt på ljusa dagen med ett förråd av dysterhet",
+        "translation_quote": "De kan höljas över dagen mitt på ljusa dagen med ett förråd av dysterhet"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
