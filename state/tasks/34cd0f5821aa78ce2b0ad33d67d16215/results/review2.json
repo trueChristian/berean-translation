@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f8464b3b-3403-4b91-afd5-83d7265a02b9",
+    "response_id": "chatcmpl-EX8zZzGhXmYfNu5Osm6MRi4ZvfuDa",
+    "usage": {
+      "completion_tokens": 725,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6842,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8670
+    }
+  },
+  "received_at": "2026-10-09T20:49:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz 14",
+        "severity": "major",
+        "source_quote": "Many people here in Haiti take their sick to the witch doctor, and he heals them.",
+        "suggested_fix": "Viele Menschen hier in Haiti bringen ihre Kranken zum Hexendoktor, und er heilt sie.",
+        "translation_quote": "Viele Menschen hier in Haiti bringen ihre Kranken zum Voodoo-Priester, und er heilt sie."
+      },
+      {
+        "location": "Absatz 16",
+        "severity": "minor",
+        "source_quote": "I even remember walking into a poorly kept trailer home without much hope that they would buy.",
+        "suggested_fix": "Ich erinnere mich sogar daran, wie ich ein heruntergekommenes Mobilheim betrat und kaum Hoffnung hatte, dass die Leute etwas kaufen würden.",
+        "translation_quote": "Ich erinnere mich sogar daran, wie ich ein schlecht gepflegtes Wohnmobil betrat und kaum Hoffnung hatte, dass die Leute etwas kaufen würden."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

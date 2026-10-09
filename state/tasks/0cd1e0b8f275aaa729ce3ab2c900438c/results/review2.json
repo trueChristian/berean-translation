@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1736b663-ec12-4601-b9c2-67c9c63cb608",
+    "response_id": "chatcmpl-EXBCrGcNLS5Q7kyCiuiNWA59Vplcv",
+    "usage": {
+      "completion_tokens": 1410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1140,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8842,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10255
+    }
+  },
+  "received_at": "2026-10-09T20:49:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ ৪, ১ শমূয়েল ১৭:১০–১১-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "“…I defy the armies of Israel this day; give me a man, that we may fight together.”",
+        "suggested_fix": "উদ্ধৃতিতে “আমি ইস্রায়েলের সৈন্যদলকে ধিক্কার দিচ্ছি” বদলে “আমি আজ ইস্রায়েলের সৈন্যদলকে চ্যালেঞ্জ জানাচ্ছি” লিখুন। একইভাবে অনুচ্ছেদ ৬-এর উদ্ধৃতিতে “সে ... সৈন্যদলকে ধিক্কার দেবে” বদলে “সে ... সৈন্যদলকে চ্যালেঞ্জ জানাবে” লিখুন।",
+        "translation_quote": "“…আজ আমি ইস্রায়েলের সৈন্যদলকে ধিক্কার দিচ্ছি; একজন লোক দাও, আমরা পরস্পরের সঙ্গে লড়ি।” অনুচ্ছেদ ৬: “…যে সে জীবন্ত ঈশ্বরের সৈন্যদলকে ধিক্কার দেবে?”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
