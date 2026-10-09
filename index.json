@@ -4278,6 +4278,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "0e1b7087d5375e4cea4d5b05e22af39807e2a232b5b0b73733c9ccd8f4238737",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "أشعة الشمس تخترق الغيوم الداكنة",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "10b13b7963d7dad6a49bd4a0504e13d397713aeb8bbc5cfbb62abce5732d8872",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "مقالة مميزة",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الله في السحابة",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
       "html_sha256": "a564d95c4c147dbbe17a957d3fe9109e2d09d46b7bdb7c5ab8666bbf1a132084",
       "human_reviewed": false,
@@ -21777,6 +21805,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "f343b7fcc32d77261b9edae300548cde4043b6fa8d940ec9f81f77df807537f2",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "ז׳אק דוסי כורע לפני הליידי פריסלנד ופקידים אחרים",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "146ef21afa7fcfe00fb5a00f2ac2d3311f66dd9110e29fa040af65b11e5fb3aa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "השראה לצעירים",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "האינקוויזיציה של ז׳אק דוסי",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "274cb564d8a5e57100e3b930cf3c166748a22a993e5ed2ff65303224418de46c",
       "human_reviewed": false,
@@ -22174,6 +22230,34 @@
       "subtitle": null,
       "title": "בית מקודש",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "ad69f2e700e8ed75c9659bbd4ca772a4f183fa15dc186b495e9c777f026cac9b",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "קרני שמש חודרות מבעד לעננים כהים",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "744d51c0f7e4f87f211969afb76e9f128620c1e48ed6bf6b5987ff0c9c2272f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "מאמר נבחר",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "אלוהים בענן",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37900,6 +37984,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "f963ee92c321aaff6d82f3369fd64460a2e55680421e803f1e896045151a8dea",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Zonnestralen die door donkere wolken schijnen",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "f93012af46d089ceb06bff0056030304f92d35a3a0c5bc8467d94443e9ee6083",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UITGELICHT ARTIKEL",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "God in de wolk",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d.html",
       "html_sha256": "86e34a7c486bf207edd578fe902240f84c5b57513b7c688d112214cafa8d93b3",
       "human_reviewed": false,
@@ -49038,6 +49150,34 @@
       "subtitle": null,
       "title": "Отвечает ли Бог на молитву?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "bd54cefc018a8ee1bf294074f65545cd9149b0ed98c6feb3d48d0e0a4b22a6c6",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Солнечные лучи пробиваются сквозь тёмные тучи",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "761e928bd90e4bd45005905b275d99f8ce4a83a6e03f2d56545d000d703e598d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "РЕКОМЕНДУЕМАЯ СТАТЬЯ",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Бог в облаке",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

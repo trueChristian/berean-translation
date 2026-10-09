@@ -2588,11 +2588,10 @@
     }
   ],
   "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 22,
-    "in_batch": 5
+    "complete": 27
   },
   "tasks": [
     "0672ae7153ccfb1fc375effab60f075e",
