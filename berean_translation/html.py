@@ -2,7 +2,7 @@
 from __future__ import annotations
 import html
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 from html.parser import HTMLParser
 from itertools import zip_longest
 from urllib.parse import urlsplit
@@ -28,7 +28,6 @@ class Fragment(HTMLParser):
         self.path_stack = []
         self.child_counts = [Counter()]
         self.text_parts = []
-        self.text_by_block = defaultdict(list)
         self.images = []
         self.nonempty_blocks = []
         self.block_stack = []
@@ -114,13 +113,6 @@ class Fragment(HTMLParser):
         if not self.stack and data.strip():
             raise ContractError('Text outside article')
         self.text_parts.append(data)
-        if self.stack:
-            # Scope clocks and references to the nearest structural text
-            # container, including div/section/table cells. Inline emphasis
-            # remains transparent, but sibling containers cannot share a clock.
-            path = next(path for tag,path in zip(reversed(self.stack), reversed(self.path_stack))
-                        if tag in TEXT_BLOCKS)
-            self.text_by_block[path].append(data)
         if data.strip():
             for block in self.block_stack:
                 block[1] = True
