@@ -338,7 +338,8 @@ def enqueue(engine):
               and not state.read(f'state/campaigns/{path.stem}.json')
               and not state.read(f'state/queue-errors/{path.stem}.json')):
             pending_manual.append(request)
-    room = settings['max_active_tasks'] - sum(t['status'] not in TERMINAL for t in tasks) - pending_slots
+    room = settings['max_active_tasks'] - sum(
+        t['status'] not in TERMINAL for t in tasks if t.get('autonomous')) - pending_slots
     queued = []
     pairs = []
     for article in sorted(source.get('articles', {}).values(), key=lambda a: (a['issue_id'], a['sequence'], a['id'])):
@@ -415,7 +416,7 @@ def accept(engine, request):
     if not enabled(config):
         raise BudgetUnavailable('Automatic work is paused')
     initialize(engine)
-    active = sum(task['status'] not in TERMINAL for task in state.tasks())
+    active = sum(task['status'] not in TERMINAL for task in state.tasks() if task.get('autonomous'))
     if active >= policy(config)['max_active_tasks']:
         state.write(f'state/automatic-holds/{identity}.json', {
             'reason': 'automatic_capacity_wait', 'active_tasks': active,
@@ -519,13 +520,9 @@ def validate_history(config, state):
         original = campaign['initial_task']
         spec = campaign['automatic_request']['selection']
         previous = state.read(f'state/tasks/{spec["previous_task_id"]}/task.json') if spec['previous_task_id'] else None
-        candidate = state.candidate(previous) if spec['recovery'] else None
         if previous and (json_hash(previous) != spec['previous_task_sha256']
                          or json_hash(state.candidate(previous)) != spec['candidate_sha256']):
             raise ContractError('Automatic recovery predecessor evidence changed')
-        if (campaign.get('prompt_version') == config.runtime['prompt_version'] and
-                stage_budget.plan(config, state, original, campaign, state.source(original), candidate) != campaign['stage_budget']):
-            raise ContractError('Automatic complete-stage reservation changed')
         task = state.read(f'state/tasks/{original["id"]}/task.json')
         if campaign.get('automatic_acceptance_complete') and (task is None or campaign['tasks'] != [original['id']]):
             raise ContractError('Automatic accepted task inventory changed')

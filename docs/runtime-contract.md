@@ -28,7 +28,9 @@ Human exports retain `human_reviewed: true`, `ai_notice_required: false`, `human
 
 Discovery reads a coherent English `main` checkout through `index.json`, format-2.0 `catalogue.json`, and `content/articles/<uuid>.html`. It ignores source `manifest.json` and `navigation.json`. Editors never maintain hashes or synchronize revisions manually. Fingerprints are computed here from source text, structure, and translated metadata. Image-pixel or unrelated category changes alone do not purchase another translation.
 
-**AI — Discover English changes** runs hourly. **AI — Collect and continue** runs every 15 minutes and after successful manual/discovery workflows. Both share the serialized state writer. Manual translation and improvement enqueuers persist unique immutable requests without that concurrency group. New work and recovery receive separate scheduling allocations so a repair backlog cannot consume all admissions.
+**AI — Discover English changes** is scheduled hourly. **AI — Collect and continue** is scheduled every 15 minutes and triggered after successful manual/discovery workflows. These configured schedules use best-effort GitHub delivery; gaps can extend for hours. Both share the serialized state writer. Manual translation and improvement enqueuers persist unique immutable requests without that concurrency group. New work and recovery receive separate scheduling allocations so a repair backlog cannot consume all admissions.
+
+The automatic `max_active_tasks` capacity check counts only nonterminal autonomous tasks, with the current allowance of 50 separate from explicitly funded manual campaigns. Existing article/language claims still prevent overlap; automatic translation and recovery share the unchanged cumulative $30 authority. Existing submitted batches continue to be collected and advanced.
 
 The collector uses OpenAI's Batch API:
 
@@ -39,7 +41,9 @@ The collector uses OpenAI's Batch API:
 5. Poll stored batches and match downloaded output/error results by `custom_id`, never line order.
 6. Advance the independent review/correction chain and publish accepted output.
 
-OpenAI does not call this repository back. Collection polls active batches once a minute within a 600-second work window. It yields at resumable boundaries, leaving durable prepared requests for later runs. In-flight operations finish their checkpoint sequence; the deadline is an admission boundary, not an interrupt. The 20-minute Actions job leaves time for setup, I/O, final checkpoints, and validation.
+Each stage specifies `completion_window='24h'` when creating its OpenAI Batch. Translation, independent review, correction, and final review are separate sequential batches, so article completion can extend beyond one 24-hour window, plus collection delays.
+
+OpenAI does not call this repository back. During an admitted collector run, active batches are polled once a minute within a 600-second work window. It yields at resumable boundaries, leaving durable prepared requests for later runs. In-flight operations finish their checkpoint sequence; the deadline is an admission boundary, not an interrupt. The 20-minute Actions job leaves time for setup, I/O, final checkpoints, and validation.
 
 Unknown submissions are searched by their unique metadata key rather than resubmitted. Only explicit owner confirmation that no matching remote batch exists can resolve absence. No hidden synchronous endpoint or automatic billable retry is permitted. Missing/expired results preserve successful independent items and failed evidence without silently purchasing replacements.
 
@@ -78,7 +82,7 @@ python -m berean_translation export \
 
 Export verifies selected-English fingerprints and accepted output hashes. It emits public HTML/sidecars, a display index, and file hashes, without raw state, prompts, configuration, or copied images. The consumer uses the English repository's shared assets. Output is promoted only when complete; existing nonempty destinations are never erased. Base-path rewriting affects actual image and English-link attributes, not matching prose. The configurable initial English route is `/en/articles/{article_id}/`.
 
-The Remnant website polls both repositories' `main` revisions hourly and rebuilds changed inputs. Deployment is owned by the website; this repository sends no notification or deployment dispatch.
+The Remnant website is configured to poll both repositories' `main` revisions hourly, with best-effort GitHub delivery, and rebuilds changed inputs. Deployment is owned by the website; this repository sends no notification or deployment dispatch.
 
 ### Retained accepted publications
 

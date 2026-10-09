@@ -123,11 +123,17 @@ def build_request(config, state, task):
         prompt_name = 'repair'
     system_prompt = campaign['prompts'][prompt_name]
     threshold = review_threshold(campaign, task)
-    system_prompt += (f'\n\nThis task requires a review score of at least {threshold}/100. '
-                      'This task-specific threshold controls the verdict. Only substantiated '
-                      'major or critical meaning, omission, attribution, fact, or reference '
-                      'errors block approval; minor stylistic alternatives do not. A finding '
-                      'must not request wording already present in the translation.')
+    if review:
+        system_prompt += (f'\n\nThis task requires a review score of at least {threshold}/100. '
+                          'This task-specific threshold controls the verdict. Only substantiated '
+                          'major or critical meaning, omission, attribution, fact, or reference '
+                          'errors block approval; minor stylistic alternatives do not. A finding '
+                          'must not request wording already present in the translation.')
+    elif task['stage'] == 'correct':
+        system_prompt += ('\n\nCorrect substantiated HTML/metadata contract defects even if the meaning '
+                          'is already correct. Preserve source tags, nesting, order, attributes, IDs, '
+                          'links, image URLs and comments; change only translatable text and existing '
+                          'alt/title text. Return the complete corrected four-field JSON.')
     if baseline is not None:
         system_prompt += (' Compare the supplied accepted_baseline with the candidate and the '
                           'authoritative English. Preserve correct existing wording, correct '
