@@ -23,6 +23,7 @@ def collect_window(engine, *, wait_seconds=0, poll_seconds=60, discover_source=T
     I/O, final checkpoints and validation. Zero retains a single unrestricted tick.
     Unknown submissions and upload failures use the existing safe recovery path
     on the next collector run; they do not keep this runner alive by themselves.
+    The CLI records the completed window; intermediate ticks retain its previous summary.
     """
     if type(wait_seconds) is not int or not 0 <= wait_seconds <= MAX_WAIT_SECONDS:
         raise ContractError(f'Collector wait must be 0..{MAX_WAIT_SECONDS} seconds')
@@ -39,9 +40,9 @@ def collect_window(engine, *, wait_seconds=0, poll_seconds=60, discover_source=T
     deadline = monotonic() + wait_seconds
     continue_work = (lambda: monotonic() < deadline) if wait_seconds else None
     if continue_work is None:
-        engine.tick(**({} if discover_source else {'discover_source': False}))
+        engine.tick(record_collection=False, **({} if discover_source else {'discover_source': False}))
     else:
-        engine.tick(discover_source=discover_source, continue_work=continue_work)
+        engine.tick(discover_source=discover_source, continue_work=continue_work, record_collection=False)
     ticks = 1
     while True:
         pending = sum(batch['status'] in ('submitted', 'cancelling')
@@ -64,7 +65,7 @@ def collect_window(engine, *, wait_seconds=0, poll_seconds=60, discover_source=T
             reason = 'wait_budget_exhausted'
             break
         # Reuse the coherent source snapshot read once at the start of this run.
-        engine.tick(discover_source=False, continue_work=continue_work)
+        engine.tick(discover_source=False, continue_work=continue_work, record_collection=False)
         ticks += 1
     statistics = {}
     if actual_state:

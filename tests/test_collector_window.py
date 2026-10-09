@@ -1,8 +1,12 @@
 from __future__ import annotations
+import contextlib
+import io
+import os
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
+from berean_translation import cli
 from berean_translation.collector import collect_window
 from berean_translation.common import ContractError
 from berean_translation.validation import validate_repository
@@ -70,6 +74,60 @@ class CollectorWindowTests(unittest.TestCase):
         self.assertEqual(result['ticks'],1)
         self.assertEqual(clock.sleeps,[])
         self.assertEqual(self.provider.create_calls,1)
+
+    def test_cli_retains_completed_summary_during_polling_then_records_new_window(self):
+        previous = {'started_at': '2026-10-08T07:21:04Z', 'completed_at': '2026-10-08T07:30:54Z',
+                    'operation': 'collect', 'newly_published': 22,
+                    'collection': {'ticks': 6, 'stop_reason': 'wait_budget_exhausted', 'submitted_batches': 5}}
+        queue(self.state)
+        original_tick = self.engine.tick
+        for wait_seconds in (180, 0):
+            with self.subTest(wait_seconds=wait_seconds):
+                self.state.write('state/last-collection.json', previous)
+
+                def check_tick(**kwargs):
+                    result = original_tick(**kwargs)
+                    self.assertEqual(self.state.read('state/last-collection.json'), previous)
+                    self.assertIn('newly published: 22', self.state.path('STATUS.md').read_text())
+                    self.assertIn('Generated: 2026-10-09T09:34:31Z', self.state.path('STATUS.md').read_text())
+                    return result
+
+                clock = FakeClock()
+                with patch.dict(os.environ, {}, clear=True), \
+                        patch('berean_translation.cli.GitStore', return_value=self.git), \
+                        patch('berean_translation.cli.Engine', return_value=self.engine), \
+                        patch.object(self.engine, 'tick', side_effect=check_tick), \
+                        patch('berean_translation.engine.now', return_value='2026-10-09T09:34:31Z'), \
+                        patch('berean_translation.cli.now', return_value='2026-10-09T09:40:00Z'), \
+                        patch('berean_translation.cli.collect_window', side_effect=lambda engine, **kwargs:
+                            collect_window(engine, monotonic=clock.monotonic, sleep=clock.sleep, **kwargs)), \
+                        contextlib.redirect_stdout(io.StringIO()):
+                    status = cli.main(['--root', str(self.state.root), 'tick', '--wait-seconds', str(wait_seconds)])
+                self.assertEqual(status, 0)
+                completed = self.state.read('state/last-collection.json')
+                self.assertEqual(completed['newly_published'], 0)
+                self.assertEqual(completed['collection']['ticks'], 3 if wait_seconds else 1)
+                self.assertEqual(completed['collection']['stop_reason'], 'wait_budget_exhausted')
+                self.assertIn('newly published: 0', self.state.path('STATUS.md').read_text())
+                self.assertIn('Generated: 2026-10-09T09:40:00Z', self.state.path('STATUS.md').read_text())
+
+    def test_cli_discovery_keeps_last_completed_collection_summary(self):
+        previous = {'completed_at': '2026-10-08T07:30:54Z', 'operation': 'collect',
+                    'newly_published': 22, 'collection': {'stop_reason': 'wait_budget_exhausted',
+                                                       'submitted_batches': 5}}
+        self.state.write('state/last-collection.json', previous)
+        with patch.dict(os.environ, {}, clear=True), \
+                patch('berean_translation.cli.GitStore', return_value=self.git), \
+                patch('berean_translation.cli.Engine', return_value=self.engine), \
+                patch('berean_translation.engine.now', return_value='2026-10-09T09:34:31Z'), \
+                contextlib.redirect_stdout(io.StringIO()):
+            status = cli.main(['--root', str(self.state.root), 'tick', '--discover-only'])
+        self.assertEqual(status, 0)
+        self.assertEqual(self.state.read('state/last-collection.json'), previous)
+        self.assertEqual(self.state.read('state/discovery-status.json')['status'], 'complete')
+        self.assertIn('newly published: 22', self.state.path('STATUS.md').read_text())
+        self.assertIn('Generated: 2026-10-09T09:34:31Z', self.state.path('STATUS.md').read_text())
+        self.assertEqual(self.provider.create_calls, 0)
 
     def test_collection_only_reuses_source_and_reports_real_stage_progress(self):
         queue(self.state)
