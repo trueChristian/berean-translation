@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "A tract can do a lot of good",
+      "suggested_fix": "ایک تبلیغی کتابچہ بہت فائدہ دے سکتا ہے",
+      "translation_quote": "ایک رسالہ بہت فائدہ دے سکتا ہے"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

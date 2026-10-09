@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph quoting Romans 6:13",
+      "severity": "major",
+      "source_quote": "“yield [our] members as instruments of unrighteousness unto sin” ... “yield [ourself] unto God ... and our members as instruments of righteousness unto God”",
+      "suggested_fix": "Replace the quoted clauses with: “atatoa [viungo vyake] viwe vyombo vya udhalimu kwa dhambi” ... “atajitoa [mwenyewe] kwa Mungu, kama aliye hai kutoka kwa wafu, na viungo vyake viwe vyombo vya haki kwa Mungu”. Preserve the existing reference “(Rum 6:13)”.",
+      "translation_quote": "“ataitoa miili [yake] iwe silaha za dhuluma kwa dhambi” ... “atajiweka [mwenyewe] kwa Mungu ... na viungo vyake viwe silaha za haki kwa Mungu”"
+    },
+    {
+      "location": "Article body, second paragraph",
+      "severity": "minor",
+      "source_quote": "“time-lapse videos of plants growing or sprouting to life”",
+      "suggested_fix": "Use “video za muda unaopita zinazoonyesha mimea ikikua au kuchipua na kuwa hai” (or another standard rendering that conveys time-lapse).",
+      "translation_quote": "“video za muda mfupi zinazoonyesha mimea ikikua au kuchipua na kuwa hai”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

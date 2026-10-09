@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "80582f28-0765-409f-b1ae-3e4bd7e0e495",
+    "response_id": "chatcmpl-EWwTzOB4A9G5g8VcImX92ygbr5fSu",
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 793,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7976,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6873,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8842
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "青年启迪",
+        "translation_quote": "青年灵修"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3cf5fbaf-ce55-4598-b2b6-3395a3029da6",
+    "response_id": "chatcmpl-EX31gV7fC9yfVdA7Nade7YVQWy1Y1",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3489,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5258
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 40:5; repeated in the later italicized quotation",
+        "severity": "major",
+        "source_quote": "“thy thoughts which are to us-ward: they cannot be reckoned up in order unto thee”",
+        "suggested_fix": "В обоих местах замените «нет равного Тебе» на перевод пропущенной мысли, например: «их невозможно перечислить перед Тобой», сохранив также мысль о Твоих замыслах о нас.",
+        "translation_quote": "«много замыслов Твоих о нас; нет равного Тебе»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

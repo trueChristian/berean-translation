@@ -2,7 +2,6 @@
   "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4344
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 666,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3489,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5258
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Psalm 40:5; repeated in the later italicized quotation",
+      "severity": "major",
+      "source_quote": "“thy thoughts which are to us-ward: they cannot be reckoned up in order unto thee”",
+      "suggested_fix": "В обоих местах замените «нет равного Тебе» на перевод пропущенной мысли, например: «их невозможно перечислить перед Тобой», сохранив также мысль о Твоих замыслах о нас.",
+      "translation_quote": "«много замыслов Твоих о нас; нет равного Тебе»"
+    }
+  ],
   "id": "d7153c7d4d476f03e304c3da22d4cf12",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "rus",
@@ -118,11 +146,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3ac8bc2a70849dcd2c1e9107815c97a777bc40769bf64f4fe321378c6d873d64.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e72aaa53bbbfe00611383e4b135b28b6db0473fdc1de84eb1a796e77f073b2a3",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Mazmur 40:14 and its repeated quotation in the later paragraphs",
+      "severity": "minor",
+      "source_quote": "“Let them be ashamed and confounded together”",
+      "suggested_fix": "Ganti “dikejutkan bersama-sama” dengan “dibingungkan bersama-sama” pada kedua kemunculan.",
+      "translation_quote": "“dipermalukan dan dikejutkan bersama-sama”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

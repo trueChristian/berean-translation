@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“most mainstream churches”",
+      "suggested_fix": "Replace “makanisa mengi makubwa” with “makanisa mengi ya kawaida” or another rendering conveying mainstream churches, not large churches.",
+      "translation_quote": "“makanisa mengi makubwa”"
+    },
+    {
+      "location": "Paragraph on Abraham and the covenant ratification (after Genesis 15:17)",
+      "severity": "major",
+      "source_quote": "“Abraham ever questioned or doubted the promise of God”",
+      "suggested_fix": "Change “kutilia maanani ahadi ya Mungu” to “kutilia shaka ahadi ya Mungu” so both verbs convey questioning or doubting the promise.",
+      "translation_quote": "“Abrahamu aliwahi kutilia shaka au kutilia maanani ahadi ya Mungu”"
+    },
+    {
+      "location": "Paragraph quoting James 1:17",
+      "severity": "minor",
+      "source_quote": "“Every good gift and every perfect gift”",
+      "suggested_fix": "Use “Kila kipawa chema na kila kipawa kikamilifu” (or another natural rendering of “gift”) instead of “tuzo” for the second gift.",
+      "translation_quote": "“Kila kipawa chema na kila tuzo kamilifu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

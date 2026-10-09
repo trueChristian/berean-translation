@@ -2,7 +2,6 @@
   "article_id": "33d9d1e5-4428-473d-9549-730d3d980dca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 3553
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 607,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 497,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3773,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2670,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4380
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "“...before coming to a painful stop.”",
+      "suggested_fix": "Replace “फिर दर्द से कराहते हुए रुक गया” with “फिर दर्द से रुक गया” to avoid adding that Joey groaned.",
+      "translation_quote": "“...फिर दर्द से कराहते हुए रुक गया।”"
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:53+00:00",
   "id": "03443fa874892eabe6747d04bf4f7938",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "hin",
@@ -118,11 +147,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a0125766d21ab92ec55fd5fcb170150fc9c29b5e0c238fe5f9232d889cc1f2a1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8bde92f80b1a3c32a79c226692b7615146514462d062a155fa4deb957f1ccc87",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 40:5 in the opening quotation; repeated in the second quoted passage\",\"severity\":\"major\",\"source_quote\":\"“they cannot be reckoned up in order unto thee”\",\"suggested_fix\":\"Replace “Ingen kan sammenlignes med deg” in both places with “De kan ikke telles opp for deg.”\",\"translation_quote\":\"“Ingen kan sammenlignes med deg.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 424,
+    "content_evidence_truncated": false,
+    "content_sha256": "8a26c2d7fea98635c3e2009dfe7e1e3ff1462a9a8d2acc09152fcf71e740347a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3435,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5331
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

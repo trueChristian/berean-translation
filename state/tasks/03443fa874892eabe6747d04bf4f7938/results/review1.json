@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "01e71397-a919-419b-8285-058decc48357",
+    "response_id": "chatcmpl-EWwTddFsK9MutjCYW0s0HKsjZl8bz",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3773,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2670,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4380
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 8",
+        "severity": "minor",
+        "source_quote": "“...before coming to a painful stop.”",
+        "suggested_fix": "Replace “फिर दर्द से कराहते हुए रुक गया” with “फिर दर्द से रुक गया” to avoid adding that Joey groaned.",
+        "translation_quote": "“...फिर दर्द से कराहते हुए रुक गया।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

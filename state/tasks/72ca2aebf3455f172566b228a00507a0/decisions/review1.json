@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "Sunbeams shining through dark clouds",
+      "suggested_fix": "گھنے سیاہ بادلوں سے چھن کر آتی سورج کی کرنیں",
+      "translation_quote": "گھنے بادلوں سے چھن کر آتی سورج کی کرنیں"
+    },
+    {
+      "location": "Hope section, opening sentence",
+      "severity": "minor",
+      "source_quote": "I question if we realize how deeply our debt is to the unexpected.",
+      "suggested_fix": "میں سوچتا ہوں کہ کیا ہمیں احساس ہے کہ ہم غیر متوقع چیزوں کے کتنے مرہونِ منت ہیں۔",
+      "translation_quote": "میں سوچتا ہوں کہ کیا ہمیں احساس ہے کہ ہماری شکرگزاری غیر متوقع چیزوں کی کتنی مرہونِ منت ہے۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

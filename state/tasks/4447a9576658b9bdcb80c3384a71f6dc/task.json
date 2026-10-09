@@ -2,7 +2,6 @@
   "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 8099
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1010,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8296,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7193,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9450
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "पैराग्राफ 3",
+      "severity": "minor",
+      "source_quote": "Covenant is God’s idea.",
+      "suggested_fix": "वाचा परमेश्वर की योजना है।",
+      "translation_quote": "वाचा परमेश्वर की कल्पना है।"
+    },
+    {
+      "location": "पैराग्राफ 1; पैराग्राफ 16",
+      "severity": "minor",
+      "source_quote": "the permanence of marriage",
+      "suggested_fix": "विवाह का स्थायित्व",
+      "translation_quote": "विवाह की स्थायित्व"
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:53+00:00",
   "id": "4447a9576658b9bdcb80c3384a71f6dc",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "hin",
@@ -118,11 +154,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3fc283eb947ef99e876e8afba3ef1d43bc01d233e2196bf30ca955f984dd828.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d4cafddce39323887fbc879db62ceec7af4d06d79d037a4e8d396a68a0d03e7f",
   "translation_model_actual": "gpt-6-luna"

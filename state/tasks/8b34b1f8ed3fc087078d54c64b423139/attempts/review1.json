@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psaume 40:4\",\"severity\":\"minor\",\"source_quote\":\"“respecteth not the proud”\",\"suggested_fix\":\"Remplacer « ne se tourne pas vers les orgueilleux » par « ne considère pas les orgueilleux » ou une formulation équivalente.\",\"translation_quote\":\"« ne se tourne pas vers les orgueilleux »\"},{\"location\":\"Citation du Psaume 40 dans le paragraphe commençant par « Il a mis dans ma bouche… »\",\"severity\":\"minor\",\"source_quote\":\"“Many, O Lord, are Thy wonderful works which Thou hast done”\",\"suggested_fix\":\"Ajouter l’idée explicite de l’accomplissement, par exemple : « Seigneur, nombreuses sont tes œuvres merveilleuses que tu as accomplies… »\",\"translation_quote\":\"« Seigneur, tes œuvres merveilleuses sont nombreuses »\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 825,
+    "content_evidence_truncated": false,
+    "content_sha256": "e42d33b584e3405539f158af3ae816eb1e5871f34a96d9c79784c5b6a3230100",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 513,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3453,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5278
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

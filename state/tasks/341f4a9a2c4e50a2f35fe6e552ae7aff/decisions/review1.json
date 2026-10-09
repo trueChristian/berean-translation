@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "青年启迪",
+      "translation_quote": "青年灵修"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

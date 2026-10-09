@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f91b6e27-fbe3-40cc-8c37-0fe5f29e5be7",
+    "response_id": "chatcmpl-EX32kY2UUz7XUdnGOqpW3OSrJQPfD",
+    "usage": {
+      "completion_tokens": 601,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9862,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8759,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10463
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dernier paragraphe avant la note spéciale — citation de Jacques 1:5",
+        "severity": "minor",
+        "source_quote": "that giveth to all men liberally",
+        "suggested_fix": "qui donne généreusement à tous",
+        "translation_quote": "qui donne à tous simplement"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

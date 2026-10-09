@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea715a6c-0554-4905-983c-a1b8a62a69ce",
+    "response_id": "chatcmpl-EWwTfqXKdltcg0iSZLqoLNlIXhanj",
+    "usage": {
+      "completion_tokens": 913,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10065,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8962,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10978
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, elenco numerato, punto 2",
+        "severity": "minor",
+        "source_quote": "“a practitioner that has a close relationship with one”",
+        "suggested_fix": "Replace with «un medico che abbia uno stretto rapporto con un chirurgo ortopedico».",
+        "translation_quote": "«un medico che abbia con uno stretto rapporto»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

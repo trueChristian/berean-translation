@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:5, in the opening quotation and the later italicized quotation",
+      "severity": "major",
+      "source_quote": "“they cannot be reckoned up in order unto thee”",
+      "suggested_fix": "In both locations, replace “nichts ist dir gleich” with wording that conveys that God’s works and thoughts cannot be counted or set out before him, for example: “sie lassen sich vor dir nicht der Reihe nach aufzählen.”",
+      "translation_quote": "“nichts ist dir gleich”"
+    },
+    {
+      "location": "Psalm 40:15",
+      "severity": "major",
+      "source_quote": "“Let them be desolate for a reward of their shame”",
+      "suggested_fix": "Replace “verstummen” with wording conveying that they are left desolate or appalled as a consequence of their shame, for example: “Lass sie als Lohn für ihre Schande verstört zurückbleiben.”",
+      "translation_quote": "“Lass sie wegen ihrer Schande verstummen”"
+    },
+    {
+      "location": "Later italicized quotation, Psalm 40:5",
+      "severity": "minor",
+      "source_quote": "“Many, O Lord, are Thy wonderful works”",
+      "suggested_fix": "Add “Viele” at the beginning of the quoted sentence, for example: “Viele sind, HERR, deine Wunder …”",
+      "translation_quote": "“HERR, groß sind deine Wunder”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "THE INQUISITION of Jacques Dosie",
+      "suggested_fix": "UCHUNGUZI WA JACQUES DOSIE",
+      "translation_quote": "MASHTAKA YA JACQUES DOSIE"
+    },
+    {
+      "location": "HTML, paragraph beginning “Jacques akajibu, ‘La hasha, bwana wangu”",
+      "severity": "minor",
+      "source_quote": "“Oh, no, my lord, if it were permitted among us to resist the evil with the carnal sword, I would never do so.”",
+      "suggested_fix": "“La hasha, bwana wangu, hata kama tungेरuhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”",
+      "translation_quote": "“La hasha, bwana wangu, hata kama tung eruhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

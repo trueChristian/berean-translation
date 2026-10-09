@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f1836ffe-9bfc-43f2-8c84-5c236a905178",
+    "response_id": "chatcmpl-EWwUAh8NMK9UB0QA5Fp2oqaX8MkSJ",
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 724,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3302,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5264
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, primer párrafo, Salmo 40:4",
+        "severity": "minor",
+        "source_quote": "Blessed is that man that maketh the LORD his trust, and respecteth not the proud",
+        "suggested_fix": "Dichoso el hombre que pone su confianza en el SEÑOR y no tiene en estima a los orgullosos",
+        "translation_quote": "Dichoso el hombre que pone su confianza en el SEÑOR y no se vuelve a los orgullosos"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

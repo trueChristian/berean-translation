@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7, Psalm reference",
+      "severity": "major",
+      "source_quote": "According to Psalm 20:7",
+      "suggested_fix": "Replace «Псалму 19:8» with «Псалму 20:7», preserving the printed chapter and verse numbers.",
+      "translation_quote": "Согласно Псалму 19:8"
+    },
+    {
+      "location": "Paragraphs 6, 9, and 21, Scripture references",
+      "severity": "major",
+      "source_quote": "–1Sa 17:26; –1Sa 17:32; –Dan 3:18; –Pro 3:5",
+      "suggested_fix": "Render these references with conventional Russian book names, retaining their numbers: «1 Цар. 17:26», «1 Цар. 17:32», «Дан. 3:18» and «Притч. 3:5».",
+      "translation_quote": "—1Sa 17:26; —1Sa 17:32; —Dan 3:18; —Pro 3:5"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

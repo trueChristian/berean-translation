@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «وكان رد الله على تضرع إبراهيم»; Genesis 15:9 quotation",
+      "severity": "major",
+      "source_quote": "“a heifer of three years old, and a she goat of three years old, and a ram of three years old”",
+      "suggested_fix": "استبدل «عجلة ثلاثية، وعنزة ثلاثية، وكبشًا ثلاثيًا» بـ«عجلة عمرها ثلاث سنوات، وعنزة عمرها ثلاث سنوات، وكبش عمره ثلاث سنوات».",
+      "translation_quote": "«خذ لي عجلة ثلاثية، وعنزة ثلاثية، وكبشًا ثلاثيًا، ويمامة وحمامة»"
+    },
+    {
+      "location": "Paragraph beginning «لا يمكن إدراك قوة العهد»",
+      "severity": "minor",
+      "source_quote": "“He continues to love us even though our love for Him is sometimes flawed.”",
+      "suggested_fix": "استبدل «وهو يواصل محبتنا» بـ«وهو يواصل محبتنا له»? «وهو يواصل محبته لنا»",
+      "translation_quote": "«وهو يواصل محبتنا حتى وإن كانت محبتنا له ناقصة أحيانًا»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

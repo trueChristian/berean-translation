@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "350ecb6f-d779-425d-aba4-0b83836f659b",
+    "response_id": "chatcmpl-EX32zG9RKVM5OkLzEaqgFkRrMGjBu",
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9406,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8303,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10210
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第一张图片的 alt 文本",
+        "severity": "minor",
+        "source_quote": "An illustration of a doctor writing on a clipboard",
+        "suggested_fix": "一位医生在写字板上书写的插图",
+        "translation_quote": "一位医生正在写病历夹上的内容的插图"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

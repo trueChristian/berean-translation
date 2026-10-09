@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:5; repeated in the later italicized quotation",
+      "severity": "major",
+      "source_quote": "“thy thoughts which are to us-ward: they cannot be reckoned up in order unto thee”",
+      "suggested_fix": "В обоих местах замените «нет равного Тебе» на перевод пропущенной мысли, например: «их невозможно перечислить перед Тобой», сохранив также мысль о Твоих замыслах о нас.",
+      "translation_quote": "«много замыслов Твоих о нас; нет равного Тебе»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

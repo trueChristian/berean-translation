@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "THE INQUISITION of Jacques Dosie",
+      "suggested_fix": "জ্যাক দোসির ধর্মীয় জিজ্ঞাসাবাদ",
+      "translation_quote": "জ্যাক দোসির ধর্মানুসন্ধান"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

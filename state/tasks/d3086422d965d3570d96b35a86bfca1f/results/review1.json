@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0795ff4-e6bb-4486-9e7f-9d479eaba8e1",
+    "response_id": "chatcmpl-EWwTdkeSW8mZ127eVUfbGn2IFkbM0",
+    "usage": {
+      "completion_tokens": 750,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7982,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6879,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8732
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "THE GODLY HOME",
+        "suggested_fix": "DIE GODSVRUGTIGE TUISTE",
+        "translation_quote": "DIE GODDELIKE HUISGESIN"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

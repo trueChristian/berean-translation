@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, checklist item “The hard sell”",
+      "severity": "minor",
+      "source_quote": "Do the clinic advertisements have testimonial bylines, something to the effect of “Individual results may vary...”",
+      "suggested_fix": "Replace “עדויות חתומות” with “הסתייגויות נלוות לעדויות” to convey the qualifying disclaimer described in the quoted example.",
+      "translation_quote": "האם בפרסומות המרפאה מופיעות עדויות חתומות, בנוסח: “התוצאות האישיות עשויות להשתנות...”?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

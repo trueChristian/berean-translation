@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5dbee8e9-4a85-4303-be31-de96c26cb9da",
+    "response_id": "chatcmpl-EWwUAl6IFvxT06bBSznYpyWNCiOy8",
+    "usage": {
+      "completion_tokens": 776,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8649,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10528
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Scripture quotation (Proverbs 3:5)",
+        "severity": "major",
+        "source_quote": "–Pro 3:5.",
+        "suggested_fix": "Replace the reference with the conventional Greek abbreviation for Proverbs: «–Παρ 3:5.»",
+        "translation_quote": "–Πρ 3:5."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 95
+  }
+}

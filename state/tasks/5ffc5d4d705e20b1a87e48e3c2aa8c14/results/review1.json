@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b86ed68d-37f3-41ed-87a8-46093512dd84",
+    "response_id": "chatcmpl-EWwU5AtN29uwV22uHSN9ezAy71NLw",
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 728,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3334,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5267
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 40:13; repeated in the later quotation",
+        "severity": "minor",
+        "source_quote": "Be pleased, O LORD, to deliver me",
+        "suggested_fix": "Wees zo goed, HEER, mij te redden",
+        "translation_quote": "Wees bereid, HEER, mij te redden"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

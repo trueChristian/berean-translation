@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ab15fe7e-0903-4fb0-8e7a-e6c9ba5baa32",
+    "response_id": "chatcmpl-EWwU3S9dQR2lzXXj4nk5WuG5Df9OE",
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 759,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9164,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11256
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Risk/equipment checklist, paragraph beginning “Is die kliniek voldoende toegerus?”",
+        "severity": "minor",
+        "source_quote": "Glitzy web sites, colorful brochures, and informational dinners are not enough.",
+        "suggested_fix": "Vervang “Aansienlike webwerwe” met “Spoggerige webwerwe” om die bedoelde betekenis van “glitzy” weer te gee.",
+        "translation_quote": "Aansienlike webwerwe, kleurvolle brosjures en inligtingsetes is nie genoeg nie."
+      },
+      {
+        "location": "List of treatments in development, congestive heart failure item",
+        "severity": "minor",
+        "source_quote": "Congestive Heart Failure—Repair damaged heart tissue.",
+        "suggested_fix": "Gebruik “Kongestiewe hartversaking” om die spesifieke toestand in die bronteks te behou.",
+        "translation_quote": "Hartversaking—Herstel beskadigde hartweefsel."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

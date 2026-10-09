@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f16d8a94-bcf4-4349-ac1f-4eec72867bc9",
+    "response_id": "chatcmpl-EWwTzsbk2XI3tbibvgowD3iYwomz3",
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 692,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4971,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6876
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under “সন্দেহ ও ভয়ের ক্রমাগত হুমকি”",
+        "severity": "minor",
+        "source_quote": "“faltering youth”",
+        "suggested_fix": "“সংগ্রামরত তরুণ-তরুণী”",
+        "translation_quote": "“বিপথগামী তরুণ-তরুণী”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2c8477c5-a60b-468a-8caa-8b84ef0d1d74",
+    "response_id": "chatcmpl-EX3215vzPzGoKlN8yIVt8Usz75HdH",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 679,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7040,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8965
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning «والآن تأتي الليدي فريزلاند من زاوية أخرى»",
+        "severity": "minor",
+        "source_quote": "“Why do you wear that small covering on your head?”",
+        "suggested_fix": "Change «لماذا تضعين» to «لماذا تضع» to address Jacques in the masculine, consistently with «أيها الشاب جاك» in the same paragraph.",
+        "translation_quote": "«لماذا تضعين تلك الغطاء الصغير على رأسك؟»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

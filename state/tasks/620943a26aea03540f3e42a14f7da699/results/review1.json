@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ca761b41-210e-4e8b-945b-365e48923c8b",
+    "response_id": "chatcmpl-EWwU5IK21qWOgpTGQx69RZ8Cav1Ks",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 879,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6929,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9153
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "young David went out to feed his father’s sheep",
+        "suggested_fix": "young David gick ut för att utfodra sin fars får",
+        "translation_quote": "den unge David ut för att vakta sin fars får"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "His weight was probably not much more than 70 pounds.",
+        "suggested_fix": "Han vägde troligen inte mycket mer än 32 kilo.",
+        "translation_quote": "Han vägde troligen inte mycket mer än 70 pund."
+      },
+      {
+        "location": "Paragraph 16",
+        "severity": "minor",
+        "source_quote": "if one man would come out and fight him, the victor’s army would rule the other side",
+        "suggested_fix": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan",
+        "translation_quote": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

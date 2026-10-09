@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6e4a332-0f0a-4de8-a3e6-633e22285395",
+    "response_id": "chatcmpl-EWwThnBzAPZ5xRJiF7QL5grCvY9qv",
+    "usage": {
+      "completion_tokens": 983,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9709,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8606,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10692
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "Sunbeams shining through dark clouds",
+        "suggested_fix": "گھنے سیاہ بادلوں سے چھن کر آتی سورج کی کرنیں",
+        "translation_quote": "گھنے بادلوں سے چھن کر آتی سورج کی کرنیں"
+      },
+      {
+        "location": "Hope section, opening sentence",
+        "severity": "minor",
+        "source_quote": "I question if we realize how deeply our debt is to the unexpected.",
+        "suggested_fix": "میں سوچتا ہوں کہ کیا ہمیں احساس ہے کہ ہم غیر متوقع چیزوں کے کتنے مرہونِ منت ہیں۔",
+        "translation_quote": "میں سوچتا ہوں کہ کیا ہمیں احساس ہے کہ ہماری شکرگزاری غیر متوقع چیزوں کی کتنی مرہونِ منت ہے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

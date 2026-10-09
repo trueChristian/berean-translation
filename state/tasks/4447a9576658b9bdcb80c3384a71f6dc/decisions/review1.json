@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ 3",
+      "severity": "minor",
+      "source_quote": "Covenant is God’s idea.",
+      "suggested_fix": "वाचा परमेश्वर की योजना है।",
+      "translation_quote": "वाचा परमेश्वर की कल्पना है।"
+    },
+    {
+      "location": "पैराग्राफ 1; पैराग्राफ 16",
+      "severity": "minor",
+      "source_quote": "the permanence of marriage",
+      "suggested_fix": "विवाह का स्थायित्व",
+      "translation_quote": "विवाह की स्थायित्व"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

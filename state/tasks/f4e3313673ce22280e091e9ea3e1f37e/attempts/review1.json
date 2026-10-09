@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 40:15, opening quotation\",\"severity\":\"major\",\"source_quote\":\"Let them be desolate for a reward of their shame that say unto me, Aha, aha.\",\"suggested_fix\":\"ليَصِرْ أولئك القائلون لي: «هاه، هاه» إلى الخراب جزاءَ خزيهم.\",\"translation_quote\":\"ليُهزموا بسبب خزيهم، أولئك القائلون لي: «هاه، هاه».\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 470,
+    "content_evidence_truncated": false,
+    "content_sha256": "e75482c0d1bdea3e1fb5aeb83f11faa5ae2e8d333d5076d66b6f8b380cfff374",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3329,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5249
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

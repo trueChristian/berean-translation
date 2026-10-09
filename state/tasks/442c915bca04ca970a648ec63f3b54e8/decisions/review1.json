@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2, cloud formation",
+      "severity": "major",
+      "source_quote": "“water condenses onto microscopic ‘seeds’”",
+      "suggested_fix": "Replace “maji huganda juu ya” with “maji huganda/kujikusanya kwa kuganda juu ya” only if describing freezing; for condensation, use “mvuke wa maji huganda na kuwa matone juu ya” or another clear rendering of water vapor condensing onto the seeds.",
+      "translation_quote": "“maji huganda juu ya ‘mbegu’ ndogo sana”"
+    },
+    {
+      "location": "Paragraph 6, description of Mount Horeb’s height",
+      "severity": "major",
+      "source_quote": "“from twelve hundred to fifteen hundred feet in perpendicular height”",
+      "suggested_fix": "Correct the figures to “kutoka futi elfu moja na mia mbili hadi elfu moja na mia tano kwa wima.”",
+      "translation_quote": "“kutoka urefu wa futi mia moja na ishirini hadi mia moja na hamsini kwa wima”"
+    },
+    {
+      "location": "Paragraph 9, sacrificing today’s sunshine",
+      "severity": "major",
+      "source_quote": "“God is willing that we should sacrifice the shimmering sunshine of today for the fullness of His presence tomorrow.”",
+      "suggested_fix": "Replace “tutekeleze jua linalong’aa la leo” with “tujinyime mwanga unaong’aa wa leo” or another natural rendering of sacrificing/giving up today’s sunshine.",
+      "translation_quote": "“Mungu yuko tayari tutekeleze jua linalong’aa la leo kwa ajili ya utimilifu wa uwepo wake kesho.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d1e1007a-df05-4cbb-aaee-94ded84f8174",
+    "response_id": "chatcmpl-EWwTiUC54uimP5PelIA9wlkr44016",
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7341,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9380
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "THE INQUISITION of Jacques Dosie",
+        "suggested_fix": "UCHUNGUZI WA JACQUES DOSIE",
+        "translation_quote": "MASHTAKA YA JACQUES DOSIE"
+      },
+      {
+        "location": "HTML, paragraph beginning “Jacques akajibu, ‘La hasha, bwana wangu”",
+        "severity": "minor",
+        "source_quote": "“Oh, no, my lord, if it were permitted among us to resist the evil with the carnal sword, I would never do so.”",
+        "suggested_fix": "“La hasha, bwana wangu, hata kama tungेरuhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”",
+        "translation_quote": "“La hasha, bwana wangu, hata kama tung eruhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

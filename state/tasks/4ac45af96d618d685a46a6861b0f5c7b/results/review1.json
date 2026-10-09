@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "46133ea2-657a-4b61-ad8f-c553344999cc",
+    "response_id": "chatcmpl-EX32I11l5TEPf0jCBovCBtsOvNE1r",
+    "usage": {
+      "completion_tokens": 475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 388,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3325,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4903
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "ENCOURAGEMENT FOR YOUNGER SISTERS",
+        "suggested_fix": "Use consistent capitalization: “Encorajamento para irmãs mais jovens”.",
+        "translation_quote": "ENcorajamento para irmãs mais jovens"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

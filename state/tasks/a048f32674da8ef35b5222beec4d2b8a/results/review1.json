@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d99da84f-0056-42ad-b1fb-f732aeec8927",
+    "response_id": "chatcmpl-EWwU6yqvY2PfRAdWdB6KU2lGZju43",
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 938,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7833,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9980
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First dialogue paragraph, “Let’s bring in that young lad, Jacques”",
+        "severity": "minor",
+        "source_quote": "“baptist heretics”",
+        "suggested_fix": "“पुनर्बपतिस्मावादी विधर्मियों”",
+        "translation_quote": "“बपतिस्मा देने वाले विधर्मियों”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

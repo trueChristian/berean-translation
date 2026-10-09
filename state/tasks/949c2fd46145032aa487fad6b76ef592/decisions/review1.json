@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:11 and the repeated quotation in the following reflection",
+      "severity": "minor",
+      "source_quote": "Withhold not thou thy tender mercies from me, O LORD",
+      "suggested_fix": "Ee BWANA, usinizuilie rehema zako za upole",
+      "translation_quote": "Ee BWANA, usinizuilie rehema zako"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Avsnitt 2",
+      "severity": "minor",
+      "source_quote": "The cultural revolution of the sixties has made divorce culturally acceptable",
+      "suggested_fix": "«Den kulturelle revolusjonen på 1960-tallet gjorde skilsmisse kulturelt akseptabel»",
+      "translation_quote": "Den kulturelle revolusjonen på 1960-tallet gjorde skilsmisse kulturelt akseptabelt"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

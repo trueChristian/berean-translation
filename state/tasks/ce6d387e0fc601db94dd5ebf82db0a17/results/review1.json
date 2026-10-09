@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "649d6250-586e-4ea0-8305-e6d13e43b2dd",
+    "response_id": "chatcmpl-EWwU2Dejc5f6xzwIzaNGU1RojYTKY",
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 743,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3779,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5731
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 40:13; repeated in the later italicized quotation",
+        "severity": "minor",
+        "source_quote": "Be pleased, O LORD, to deliver me",
+        "suggested_fix": "اے خداوند، مہربانی فرما کر مجھے چھڑا",
+        "translation_quote": "اے خداوند، مجھے چھڑانے میں خوشی کر"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

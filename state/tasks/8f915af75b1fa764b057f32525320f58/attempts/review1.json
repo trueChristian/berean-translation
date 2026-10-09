@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"dissected (cut apart)\",\"suggested_fix\":\"Replace the parenthetical with “(hukatikakatwa)” so the explanation is entirely in Kiswahili.\",\"translation_quote\":\"hugawanywa (huk काटwa vipande)\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 324,
+    "content_evidence_truncated": false,
+    "content_sha256": "4db7ee9224863ca6d127764665a9f62dbebd33b03782bc36820c3831bd0b70cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9454,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11354
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

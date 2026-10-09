@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "55a858e0-7a0a-4924-becf-69bd57eac1f3",
+    "response_id": "chatcmpl-EWwTpp913sLuODPzHqzHjKG50hUtT",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3500,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5404
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 40:4; repeated in the final Psalm quotation",
+        "severity": "minor",
+        "source_quote": "and respecteth not the proud, nor such as turn aside to lies",
+        "suggested_fix": "…och inte har anseende till de stolta eller till dem som viker av till lögn.",
+        "translation_quote": "och inte vänder sig till de stolta eller till dem som viker av till lögn"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "“...ভালোবাসা” section, first sentence",
+      "severity": "major",
+      "source_quote": "There is a wistful tenderness in love that nothing but uncertainty can give.",
+      "suggested_fix": "অনিশ্চয়তা ছাড়া আর কিছুই ভালোবাসায় এমন আকুল কোমলতা এনে দিতে পারে না।",
+      "translation_quote": "ভালোবাসায় এমন এক আকুল কোমলতা আছে, যা অনিশ্চয়তা ছাড়া আর কিছু দিতে পারে না।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

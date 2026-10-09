@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "“...before coming to a painful stop.”",
+      "suggested_fix": "Replace “फिर दर्द से कराहते हुए रुक गया” with “फिर दर्द से रुक गया” to avoid adding that Joey groaned.",
+      "translation_quote": "“...फिर दर्द से कराहते हुए रुक गया।”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

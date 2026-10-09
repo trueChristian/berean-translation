@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “בתנ״ך שבידינו כיום”",
+      "severity": "major",
+      "source_quote": "“In our Bibles today we have the Old and the New Testament. This refers to the Old and the New Covenant.”",
+      "suggested_fix": "Replace “בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה” with “בכתבי הקודש שבידינו כיום יש את הברית הישנה ואת הברית החדשה” to avoid identifying the whole Bible as the Tanakh, which excludes the New Testament.",
+      "translation_quote": "“בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה.”"
+    },
+    {
+      "location": "Alt text for image 1",
+      "severity": "minor",
+      "source_quote": "“Two white roses with sprigs of small white flowers”",
+      "suggested_fix": "Change “שתי ורדים” to “שני ורדים” for grammatical gender agreement.",
+      "translation_quote": "“שתי ורדים לבנים וענפים קטנים של פרחים לבנים”"
+    },
+    {
+      "location": "Section field",
+      "severity": "minor",
+      "source_quote": "“THE GODLY HOME”",
+      "suggested_fix": "Use a natural Hebrew rendering such as “הבית הירא את אלוהים”.",
+      "translation_quote": "“הבית ירא האלוהים”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

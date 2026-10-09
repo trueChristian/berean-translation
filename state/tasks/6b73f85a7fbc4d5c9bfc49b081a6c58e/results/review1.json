@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "338e5c10-dc63-44c9-9fe7-f208bf083089",
+    "response_id": "chatcmpl-EWwU0XMcliJXb6XJD2UivGbquh07B",
+    "usage": {
+      "completion_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 866,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10102,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8999,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11101
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "“...ভালোবাসা” section, first sentence",
+        "severity": "major",
+        "source_quote": "There is a wistful tenderness in love that nothing but uncertainty can give.",
+        "suggested_fix": "অনিশ্চয়তা ছাড়া আর কিছুই ভালোবাসায় এমন আকুল কোমলতা এনে দিতে পারে না।",
+        "translation_quote": "ভালোবাসায় এমন এক আকুল কোমলতা আছে, যা অনিশ্চয়তা ছাড়া আর কিছু দিতে পারে না।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

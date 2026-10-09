@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "16d264d1-5f54-4d1c-8afd-4554b0d66a53",
+    "response_id": "chatcmpl-EWwUAqQ3ewkpe6LmJLraD7GEBLhiC",
+    "usage": {
+      "completion_tokens": 944,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5785,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4682,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6729
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph quoting Romans 6:13",
+        "severity": "major",
+        "source_quote": "“yield [our] members as instruments of unrighteousness unto sin” ... “yield [ourself] unto God ... and our members as instruments of righteousness unto God”",
+        "suggested_fix": "Replace the quoted clauses with: “atatoa [viungo vyake] viwe vyombo vya udhalimu kwa dhambi” ... “atajitoa [mwenyewe] kwa Mungu, kama aliye hai kutoka kwa wafu, na viungo vyake viwe vyombo vya haki kwa Mungu”. Preserve the existing reference “(Rum 6:13)”.",
+        "translation_quote": "“ataitoa miili [yake] iwe silaha za dhuluma kwa dhambi” ... “atajiweka [mwenyewe] kwa Mungu ... na viungo vyake viwe silaha za haki kwa Mungu”"
+      },
+      {
+        "location": "Article body, second paragraph",
+        "severity": "minor",
+        "source_quote": "“time-lapse videos of plants growing or sprouting to life”",
+        "suggested_fix": "Use “video za muda unaopita zinazoonyesha mimea ikikua au kuchipua na kuwa hai” (or another standard rendering that conveys time-lapse).",
+        "translation_quote": "“video za muda mfupi zinazoonyesha mimea ikikua au kuchipua na kuwa hai”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "92cd4468-653b-439c-804a-d45189c785c5",
+    "response_id": "chatcmpl-EWwUF93HYpsMa3q4lgVel1bVgQVW8",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 562,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6928,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8849
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7, Psalm reference",
+        "severity": "major",
+        "source_quote": "According to Psalm 20:7",
+        "suggested_fix": "Replace «Псалму 19:8» with «Псалму 20:7», preserving the printed chapter and verse numbers.",
+        "translation_quote": "Согласно Псалму 19:8"
+      },
+      {
+        "location": "Paragraphs 6, 9, and 21, Scripture references",
+        "severity": "major",
+        "source_quote": "–1Sa 17:26; –1Sa 17:32; –Dan 3:18; –Pro 3:5",
+        "suggested_fix": "Render these references with conventional Russian book names, retaining their numbers: «1 Цар. 17:26», «1 Цар. 17:32», «Дан. 3:18» and «Притч. 3:5».",
+        "translation_quote": "—1Sa 17:26; —1Sa 17:32; —Dan 3:18; —Pro 3:5"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

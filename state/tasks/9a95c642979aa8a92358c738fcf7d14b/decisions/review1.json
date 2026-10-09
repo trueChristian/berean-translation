@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Qui ad Haiti molte persone portano…”",
+      "severity": "minor",
+      "source_quote": "“Many people here in Haiti take their sick to the witch doctor, and he heals them.”",
+      "suggested_fix": "“Qui ad Haiti molte persone portano i malati dallo stregone, e lui li guarisce.”",
+      "translation_quote": "“Qui ad Haiti molte persone portano i malati dal guaritore, e lui li guarisce.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

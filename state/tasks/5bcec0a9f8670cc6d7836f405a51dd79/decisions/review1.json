@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзацы о применении клеток, риске злокачественного перерождения и одобренных FDA методах лечения; пункт о оснащении клиники",
+      "severity": "major",
+      "source_quote": "“Umbilical cord stem cells have also been shown to be useful”; “umbilical cord stem cells are generally not known to turn malignant”; “using umbilical cord stem cells”; “transport of umbilical stem cells”",
+      "suggested_fix": "Во всех четырёх местах заменить «стволовые клетки пуповинной крови» на «стволовые клетки пуповины» (в последнем месте — «перевозка стволовых клеток пуповины»), чтобы не сужать источник клеток до пуповинной крови.",
+      "translation_quote": "«Стволовые клетки пуповинной крови также оказались полезными»; «стволовые клетки пуповинной крови становились злокачественными»; «с использованием стволовых клеток пуповинной крови»; «Перевозка стволовых клеток пуповинной крови»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

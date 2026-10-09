@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"THE INQUISITION of Jacques Dosie\",\"suggested_fix\":\"UCHUNGUZI WA JACQUES DOSIE\",\"translation_quote\":\"MASHTAKA YA JACQUES DOSIE\"},{\"location\":\"HTML, paragraph beginning “Jacques akajibu, ‘La hasha, bwana wangu”\",\"severity\":\"minor\",\"source_quote\":\"“Oh, no, my lord, if it were permitted among us to resist the evil with the carnal sword, I would never do so.”\",\"suggested_fix\":\"“La hasha, bwana wangu, hata kama tungेरuhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”\",\"translation_quote\":\"“La hasha, bwana wangu, hata kama tung eruhusiwa miongoni mwetu kuupinga uovu kwa upanga wa kimwili, singefanya hivyo kamwe.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 791,
+    "content_evidence_truncated": false,
+    "content_sha256": "29fa44d7d151bf3d9640dec456d24834bff1b4bb63262312b176362432522423",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7341,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9380
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

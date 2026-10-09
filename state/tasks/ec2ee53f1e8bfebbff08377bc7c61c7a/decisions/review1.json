@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “एक महिमामय सुबह”",
+      "severity": "minor",
+      "source_quote": "The horizon is a soft, blushing pink, enhanced by a misty fog.",
+      "suggested_fix": "क्षितिज हल्का गुलाबी है, और धुंधला कुहासा उसे और निखार रहा है।",
+      "translation_quote": "क्षितिज हल्का गुलाबी है, और धुंधली कुहासा उसे और निखार रही है।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

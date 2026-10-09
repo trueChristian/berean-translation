@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:13; repeated in the later quotation",
+      "severity": "minor",
+      "source_quote": "Be pleased, O LORD, to deliver me",
+      "suggested_fix": "Wees zo goed, HEER, mij te redden",
+      "translation_quote": "Wees bereid, HEER, mij te redden"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

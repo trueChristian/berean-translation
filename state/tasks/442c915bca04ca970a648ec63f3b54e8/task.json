@@ -2,7 +2,6 @@
   "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9249
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 662,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9495,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8392,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10521
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2, cloud formation",
+      "severity": "major",
+      "source_quote": "“water condenses onto microscopic ‘seeds’”",
+      "suggested_fix": "Replace “maji huganda juu ya” with “maji huganda/kujikusanya kwa kuganda juu ya” only if describing freezing; for condensation, use “mvuke wa maji huganda na kuwa matone juu ya” or another clear rendering of water vapor condensing onto the seeds.",
+      "translation_quote": "“maji huganda juu ya ‘mbegu’ ndogo sana”"
+    },
+    {
+      "location": "Paragraph 6, description of Mount Horeb’s height",
+      "severity": "major",
+      "source_quote": "“from twelve hundred to fifteen hundred feet in perpendicular height”",
+      "suggested_fix": "Correct the figures to “kutoka futi elfu moja na mia mbili hadi elfu moja na mia tano kwa wima.”",
+      "translation_quote": "“kutoka urefu wa futi mia moja na ishirini hadi mia moja na hamsini kwa wima”"
+    },
+    {
+      "location": "Paragraph 9, sacrificing today’s sunshine",
+      "severity": "major",
+      "source_quote": "“God is willing that we should sacrifice the shimmering sunshine of today for the fullness of His presence tomorrow.”",
+      "suggested_fix": "Replace “tutekeleze jua linalong’aa la leo” with “tujinyime mwanga unaong’aa wa leo” or another natural rendering of sacrificing/giving up today’s sunshine.",
+      "translation_quote": "“Mungu yuko tayari tutekeleze jua linalong’aa la leo kwa ajili ya utimilifu wa uwepo wake kesho.”"
+    }
+  ],
   "id": "442c915bca04ca970a648ec63f3b54e8",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swa",
@@ -118,11 +160,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f21854eda9595c6207cdc4cbcb742b192d11d5881fa07482e9893a209054724e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
   "translation_model_actual": "gpt-6-luna"

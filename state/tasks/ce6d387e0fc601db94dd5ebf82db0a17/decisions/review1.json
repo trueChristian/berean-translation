@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:13; repeated in the later italicized quotation",
+      "severity": "minor",
+      "source_quote": "Be pleased, O LORD, to deliver me",
+      "suggested_fix": "اے خداوند، مہربانی فرما کر مجھے چھڑا",
+      "translation_quote": "اے خداوند، مجھے چھڑانے میں خوشی کر"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

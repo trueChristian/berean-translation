@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"刀具演示段落\",\"severity\":\"minor\",\"source_quote\":\"I sawed through the piece of leather with some ease.\",\"suggested_fix\":\"我轻松地锯开了那块皮革。\",\"translation_quote\":\"我费了些力气，锯开了那块皮革。\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 310,
+    "content_evidence_truncated": false,
+    "content_sha256": "a665e64f0fb0e60cdd53943b65e6bd8273f52a2270274c6525d36045a3e7268c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 769,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6603,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8580
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

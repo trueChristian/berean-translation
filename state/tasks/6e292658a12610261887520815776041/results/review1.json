@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aae2499c-3a31-4c60-8ab4-b1f4c9523be7",
+    "response_id": "chatcmpl-EWwTkjqnqFHvmFqf18JmyjxjgrHNQ",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2730,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4576
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7",
+        "severity": "minor",
+        "source_quote": "His father was going to be gone for a couple of days on business.",
+        "suggested_fix": "কাজের জন্য তার বাবাকে দু-এক দিনের জন্য বাইরে যেতে হবে।",
+        "translation_quote": "কাজের জন্য তার বাবাকে কয়েক দিনের জন্য বাইরে যেতে হবে।"
+      },
+      {
+        "location": "Paragraph 9",
+        "severity": "minor",
+        "source_quote": "He had cuts and bruises on his hands, knees, and face.",
+        "suggested_fix": "তার হাত, হাঁটু ও মুখে কেটে যাওয়া দাগ ও কালশিটে পড়েছিল।",
+        "translation_quote": "হাত, হাঁটু ও মুখে কেটে গিয়ে ছিলে গিয়েছিল।"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "minor",
+        "source_quote": "Joey sat on the curb as the boys raced down the hill, then on to the other street.",
+        "suggested_fix": "ছেলেরা ঢাল বেয়ে নেমে অন্য রাস্তায় চলে যাওয়ার সময় জোয়ি রাস্তার ধারের কার্বের ওপর বসে রইল।",
+        "translation_quote": "ছেলেরা ঢাল বেয়ে নেমে অন্য রাস্তায় চলে যাওয়ার সময় জোয়ি রাস্তার ধারের বাঁকে বসে রইল।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

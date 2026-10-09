@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 40:13; repeated in the later italicized quotation\",\"severity\":\"minor\",\"source_quote\":\"Be pleased, O LORD, to deliver me\",\"suggested_fix\":\"اے خداوند، مہربانی فرما کر مجھے چھڑا\",\"translation_quote\":\"اے خداوند، مجھے چھڑانے میں خوشی کر\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 375,
+    "content_evidence_truncated": false,
+    "content_sha256": "5a5685f9994203f080154b16afefacf68fbb89994042c7aed482e667010ba34e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 743,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3779,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5731
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

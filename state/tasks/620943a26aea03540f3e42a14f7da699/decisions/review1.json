@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "young David went out to feed his father’s sheep",
+      "suggested_fix": "young David gick ut för att utfodra sin fars får",
+      "translation_quote": "den unge David ut för att vakta sin fars får"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "His weight was probably not much more than 70 pounds.",
+      "suggested_fix": "Han vägde troligen inte mycket mer än 32 kilo.",
+      "translation_quote": "Han vägde troligen inte mycket mer än 70 pund."
+    },
+    {
+      "location": "Paragraph 16",
+      "severity": "minor",
+      "source_quote": "if one man would come out and fight him, the victor’s army would rule the other side",
+      "suggested_fix": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan",
+      "translation_quote": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

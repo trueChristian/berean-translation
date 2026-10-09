@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primer párrafo, Salmo 40:4",
+      "severity": "minor",
+      "source_quote": "Blessed is that man that maketh the LORD his trust, and respecteth not the proud",
+      "suggested_fix": "Dichoso el hombre que pone su confianza en el SEÑOR y no tiene en estima a los orgullosos",
+      "translation_quote": "Dichoso el hombre que pone su confianza en el SEÑOR y no se vuelve a los orgullosos"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

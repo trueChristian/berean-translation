@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4, Goliath’s quoted speech\",\"severity\":\"major\",\"source_quote\":\"I defy the armies of Israel this day\",\"suggested_fix\":\"…Leo nayakaidi majeshi ya Israeli; nipeni mtu, tupigane pamoja.\",\"translation_quote\":\"…Leo ninayadharau majeshi ya Israeli; nipeni mtu, tupigane pamoja.\"},{\"location\":\"Paragraph 8, the man’s promise if healed\",\"severity\":\"major\",\"source_quote\":\"He told me that if God would heal him, he would serve him and trust him for the rest of his life.\",\"suggested_fix\":\"Aliniambia kwamba Mungu angemponya, naye angemwabudu na kumtumaini Mungu maisha yake yote yaliyosalia.\",\"translation_quote\":\"Aliniambia kwamba Mungu angemponya, angemhudumia na kumtumaini maisha yake yote yaliyosalia.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 795,
+    "content_evidence_truncated": false,
+    "content_sha256": "a3d9a243c16b0b7eb870a8bc3473c19684677d7e2ad4224aaeefac0710af9178",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 785,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8299,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7196,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9302
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

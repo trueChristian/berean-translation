@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ff60e736-766f-4055-bd9c-7690a7fd7522",
+    "response_id": "chatcmpl-EWwUFegxCdkSkhq4hLB5P7ZkB9HQy",
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 741,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8068,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6965,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8907
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 8",
+        "severity": "minor",
+        "source_quote": "His weight was probably not much more than 70 pounds.",
+        "suggested_fix": "Il ne devait pas peser beaucoup plus de 32 kilos.",
+        "translation_quote": "Il ne devait pas peser beaucoup plus de 70 livres."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

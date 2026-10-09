@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "DIE GODSVRUGTIGE TUISTE",
+      "translation_quote": "DIE GODDELIKE HUISGESIN"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

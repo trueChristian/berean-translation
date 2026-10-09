@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"The morning is ringing with the warbling, twittering, chirping of birds.\",\"suggested_fix\":\"הבוקר מהדהד בקולות שירתן, ציוצן וקריאתן של הציפורים.\",\"translation_quote\":\"הבוקר מצלצל בקולות ציוץ, שריקה ופכפוך של ציפורים.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "c5715d6950f74e430668a6e43ae22866310e8f4a0adf77a7b546e490564a6ea6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1080,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4722,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7035
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

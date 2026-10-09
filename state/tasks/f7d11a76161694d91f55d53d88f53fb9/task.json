@@ -2,7 +2,6 @@
   "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7170
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1150,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 876,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7463,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6360,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8613
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning «وكان رد الله على تضرع إبراهيم»; Genesis 15:9 quotation",
+      "severity": "major",
+      "source_quote": "“a heifer of three years old, and a she goat of three years old, and a ram of three years old”",
+      "suggested_fix": "استبدل «عجلة ثلاثية، وعنزة ثلاثية، وكبشًا ثلاثيًا» بـ«عجلة عمرها ثلاث سنوات، وعنزة عمرها ثلاث سنوات، وكبش عمره ثلاث سنوات».",
+      "translation_quote": "«خذ لي عجلة ثلاثية، وعنزة ثلاثية، وكبشًا ثلاثيًا، ويمامة وحمامة»"
+    },
+    {
+      "location": "Paragraph beginning «لا يمكن إدراك قوة العهد»",
+      "severity": "minor",
+      "source_quote": "“He continues to love us even though our love for Him is sometimes flawed.”",
+      "suggested_fix": "استبدل «وهو يواصل محبتنا» بـ«وهو يواصل محبتنا له»? «وهو يواصل محبته لنا»",
+      "translation_quote": "«وهو يواصل محبتنا حتى وإن كانت محبتنا له ناقصة أحيانًا»"
+    }
+  ],
   "id": "f7d11a76161694d91f55d53d88f53fb9",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ara",
@@ -118,11 +153,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3fc283eb947ef99e876e8afba3ef1d43bc01d233e2196bf30ca955f984dd828.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d4cafddce39323887fbc879db62ceec7af4d06d79d037a4e8d396a68a0d03e7f",
   "translation_model_actual": "gpt-6-luna"

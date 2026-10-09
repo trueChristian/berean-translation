@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Body, paragraph 2",
+      "severity": "minor",
+      "source_quote": "The morning is ringing with the warbling, twittering, chirping of birds.",
+      "suggested_fix": "הבוקר מהדהד בקולות שירתן, ציוצן וקריאתן של הציפורים.",
+      "translation_quote": "הבוקר מצלצל בקולות ציוץ, שריקה ופכפוך של ציפורים."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

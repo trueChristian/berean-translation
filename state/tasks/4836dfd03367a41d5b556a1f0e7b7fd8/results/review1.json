@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "76ce96e0-965e-4e4f-a77a-f7e72e981b70",
+    "response_id": "chatcmpl-EX31gzQcMZaJO63MbUtJlmn65SFCI",
+    "usage": {
+      "completion_tokens": 1011,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 888,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8088,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6985,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9099
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 10",
+        "severity": "minor",
+        "source_quote": "Faith is walking in obedience and believing God’s Word when we do not know the outcome.",
+        "suggested_fix": "אמונה היא ללכת בציות ולהאמין לדבר אלוהים, בלי לדעת מה תהיה התוצאה.",
+        "translation_quote": "אמונה היא לציית וללכת בדרך אלוהים ולהאמין לדברו, בלי לדעת מה תהיה התוצאה."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

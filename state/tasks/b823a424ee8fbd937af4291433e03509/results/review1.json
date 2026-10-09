@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5f30fbd8-6163-4953-be06-d53ec9eda903",
+    "response_id": "chatcmpl-EWwUFhEHQpFbI08ME6Ye3hat3wtpC",
+    "usage": {
+      "completion_tokens": 736,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9455
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "A tract can do a lot of good",
+        "suggested_fix": "ایک تبلیغی کتابچہ بہت فائدہ دے سکتا ہے",
+        "translation_quote": "ایک رسالہ بہت فائدہ دے سکتا ہے"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第一张图片的 alt 文本",
+      "severity": "minor",
+      "source_quote": "An illustration of a doctor writing on a clipboard",
+      "suggested_fix": "一位医生在写字板上书写的插图",
+      "translation_quote": "一位医生正在写病历夹上的内容的插图"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

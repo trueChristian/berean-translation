@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 6, sentence beginning “Secondly”\",\"severity\":\"major\",\"source_quote\":\"when it agrees with our experience, our thoughts, and our feelings\",\"suggested_fix\":\"جب خدا کی بات ہمارے تجربے، ہمارے خیالات اور ہمارے احساسات سے متفق ہو\",\"translation_quote\":\"جب خدا کی بات ہماری آزمائش، ہمارے خیالات اور ہمارے احساسات سے متفق ہو\"},{\"location\":\"Paragraph 9, sentence ending “thoughts and behaviors”\",\"severity\":\"major\",\"source_quote\":\"we are allowing fear to control us and dictate our thoughts and behaviors\",\"suggested_fix\":\"ہم خوف کو ہم پر قابو پانے اور ہمارے خیالات و رویوں کا تعین کرنے دے رہے ہیں\",\"translation_quote\":\"ہم خوف کو اپنے قابو میں رکھنے اور اپنے خیالات و رویوں کا تعین کرنے دے رہے ہیں\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1013,
+    "content_evidence_truncated": false,
+    "content_sha256": "888a6f495d190b55884ced99d90639efa91bb7f693fb6516d76f830c6c2b8f72",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 631,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4819,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6762
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

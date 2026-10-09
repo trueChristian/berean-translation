@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Psalm 40:4 (first paragraph)",
+      "severity": "minor",
+      "source_quote": "“respecteth not the proud”",
+      "suggested_fix": "“교만한 자들을 존중하지 않는”으로 옮겨 ‘교만한 자들을 따르지 않는’과 구별해 주세요.",
+      "translation_quote": "“교만한 자들과 거짓으로 치우치는 자들을 따르지 않는”"
+    },
+    {
+      "location": "HTML, Psalm 40:13 (first paragraph and later emphasized quotation)",
+      "severity": "minor",
+      "source_quote": "“Be pleased, O LORD, to deliver me”",
+      "suggested_fix": "“여호와여, 나를 구원하기를 기뻐하소서”처럼 ‘기뻐하시기를’ 청하는 뜻으로 다듬어 주세요.",
+      "translation_quote": "“여호와여, 기꺼이 나를 구원하소서”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

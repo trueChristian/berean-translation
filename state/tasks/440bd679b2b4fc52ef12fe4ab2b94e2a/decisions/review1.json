@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “সন্দেহ ও ভয়ের ক্রমাগত হুমকি”",
+      "severity": "minor",
+      "source_quote": "“faltering youth”",
+      "suggested_fix": "“সংগ্রামরত তরুণ-তরুণী”",
+      "translation_quote": "“বিপথগামী তরুণ-তরুণী”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

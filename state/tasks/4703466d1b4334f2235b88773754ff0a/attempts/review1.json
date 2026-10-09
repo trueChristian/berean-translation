@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पर्वत-वर्णन वाला अनुच्छेद\",\"severity\":\"minor\",\"source_quote\":\"The bold and awful front of Horeb\",\"suggested_fix\":\"होरेब का भव्य और भयावह अग्रभाग\",\"translation_quote\":\"होरेब का साहसी और भयानक अग्रभाग\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 424,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e96c9c04f18a130d5a3d7b25677c0c6d5deacdeb098fc22a739b7423f0e415a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8621,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10596
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

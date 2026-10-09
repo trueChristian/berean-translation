@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "ENCOURAGEMENT FOR YOUNGER SISTERS",
+      "suggested_fix": "Use consistent capitalization: “Encorajamento para irmãs mais jovens”.",
+      "translation_quote": "ENcorajamento para irmãs mais jovens"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

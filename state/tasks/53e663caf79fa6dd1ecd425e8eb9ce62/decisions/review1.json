@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 8, description of the sick man's weight",
+      "severity": "major",
+      "source_quote": "His weight was probably not much more than 70 pounds.",
+      "suggested_fix": "Replace with “Hij woog waarschijnlijk iets meer dan 32 kilo.”",
+      "translation_quote": "Hij woog waarschijnlijk niet veel meer dan 70 pond."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

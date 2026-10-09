@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:15, opening quotation",
+      "severity": "major",
+      "source_quote": "Let them be desolate for a reward of their shame that say unto me, Aha, aha.",
+      "suggested_fix": "ليَصِرْ أولئك القائلون لي: «هاه، هاه» إلى الخراب جزاءَ خزيهم.",
+      "translation_quote": "ليُهزموا بسبب خزيهم، أولئك القائلون لي: «هاه، هاه»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

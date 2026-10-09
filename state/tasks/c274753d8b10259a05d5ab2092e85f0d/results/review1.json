@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1934229-4e6f-4b53-bb19-3a6254a95b0b",
+    "response_id": "chatcmpl-EWwUKmbqYUkXbh5211p8Ft41JM57w",
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7382,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6279,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7936
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading before the paragraph beginning «Dios demostró fidelidad al pacto…»",
+        "severity": "minor",
+        "source_quote": "A commitment to faithfulness",
+        "suggested_fix": "Un compromiso de lealtad",
+        "translation_quote": "Un compromiso de fidelidad"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

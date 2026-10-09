@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “شادی کے عہد کی توثیق کس چیز سے ہوتی ہے؟”\",\"severity\":\"minor\",\"source_quote\":\"“consummates” the marriage covenant\",\"suggested_fix\":\"Replace “شادی کا عہد consummate ہوتا ہے” with “شادی کا عہد پایۂ تکمیل کو پہنچتا ہے۔”\",\"translation_quote\":\"شادی کا عہد consummate ہوتا ہے۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 490,
+    "content_evidence_truncated": false,
+    "content_sha256": "45eb07a89524ec38961295989d31d6c774afc8c62de9f6a13c9b93c9e5b76069",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8165,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7062,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8913
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

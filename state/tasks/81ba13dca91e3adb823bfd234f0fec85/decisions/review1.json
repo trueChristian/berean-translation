@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:5 in the opening quotation; repeated in the second quoted passage",
+      "severity": "major",
+      "source_quote": "“they cannot be reckoned up in order unto thee”",
+      "suggested_fix": "Replace “Ingen kan sammenlignes med deg” in both places with “De kan ikke telles opp for deg.”",
+      "translation_quote": "“Ingen kan sammenlignes med deg.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

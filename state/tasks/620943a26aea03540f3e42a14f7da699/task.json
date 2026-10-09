@@ -2,7 +2,6 @@
   "article_id": "723392eb-4b02-4eca-a91b-d6fce9ace578",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7739
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 879,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8032,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6929,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9153
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "young David went out to feed his father’s sheep",
+      "suggested_fix": "young David gick ut för att utfodra sin fars får",
+      "translation_quote": "den unge David ut för att vakta sin fars får"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "His weight was probably not much more than 70 pounds.",
+      "suggested_fix": "Han vägde troligen inte mycket mer än 32 kilo.",
+      "translation_quote": "Han vägde troligen inte mycket mer än 70 pund."
+    },
+    {
+      "location": "Paragraph 16",
+      "severity": "minor",
+      "source_quote": "if one man would come out and fight him, the victor’s army would rule the other side",
+      "suggested_fix": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan",
+      "translation_quote": "om en man kom ut och kämpade mot honom, skulle segrarens härska över den andra sidan"
+    }
+  ],
   "id": "620943a26aea03540f3e42a14f7da699",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "swe",
@@ -118,11 +160,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1099c38f381c2a8e2df0b6c77acc4b55a221e19d47eef04e654722dbb11e3825.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7b7cf9915921a1d47d0538cd17c8e25781b26d0bb6b295e369ee720e1e0a2b96",
   "translation_model_actual": "gpt-6-luna"

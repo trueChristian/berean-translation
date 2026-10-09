@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b7603ee0-eac1-4da3-bf5e-979df46e19ce",
+    "response_id": "chatcmpl-EWwUGIZuhI2Irem4sUsPCZOfGg1cZ",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6286,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8064
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Parágrafo iniciado por “Hoje, em nossas Bíblias”",
+        "severity": "major",
+        "source_quote": "“the teachings of Jesus and His Apostles which supersede the Old Testament law”",
+        "suggested_fix": "Substitua “que se sobrepõem à lei do Antigo Testamento” por “que prevalecem sobre a lei do Antigo Testamento” para preservar a ideia de que esses ensinamentos têm precedência, e não apenas se sobrepõem à lei.",
+        "translation_quote": "“os ensinamentos de Jesus e de seus apóstolos, que se sobrepõem à lei do Antigo Testamento”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

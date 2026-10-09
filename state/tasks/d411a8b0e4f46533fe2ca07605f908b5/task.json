@@ -2,7 +2,6 @@
   "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 4165
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1071,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 761,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4458,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3355,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5529
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Psalm 40:5, in the opening quotation and the later italicized quotation",
+      "severity": "major",
+      "source_quote": "“they cannot be reckoned up in order unto thee”",
+      "suggested_fix": "In both locations, replace “nichts ist dir gleich” with wording that conveys that God’s works and thoughts cannot be counted or set out before him, for example: “sie lassen sich vor dir nicht der Reihe nach aufzählen.”",
+      "translation_quote": "“nichts ist dir gleich”"
+    },
+    {
+      "location": "Psalm 40:15",
+      "severity": "major",
+      "source_quote": "“Let them be desolate for a reward of their shame”",
+      "suggested_fix": "Replace “verstummen” with wording conveying that they are left desolate or appalled as a consequence of their shame, for example: “Lass sie als Lohn für ihre Schande verstört zurückbleiben.”",
+      "translation_quote": "“Lass sie wegen ihrer Schande verstummen”"
+    },
+    {
+      "location": "Later italicized quotation, Psalm 40:5",
+      "severity": "minor",
+      "source_quote": "“Many, O Lord, are Thy wonderful works”",
+      "suggested_fix": "Add “Viele” at the beginning of the quoted sentence, for example: “Viele sind, HERR, deine Wunder …”",
+      "translation_quote": "“HERR, groß sind deine Wunder”"
+    }
+  ],
   "id": "d411a8b0e4f46533fe2ca07605f908b5",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "deu",
@@ -118,11 +160,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3ac8bc2a70849dcd2c1e9107815c97a777bc40769bf64f4fe321378c6d873d64.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e72aaa53bbbfe00611383e4b135b28b6db0473fdc1de84eb1a796e77f073b2a3",
   "translation_model_actual": "gpt-6-luna"

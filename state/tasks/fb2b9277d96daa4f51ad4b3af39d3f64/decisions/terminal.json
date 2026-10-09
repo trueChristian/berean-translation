@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:4; repeated in the final Psalm quotation",
+      "severity": "minor",
+      "source_quote": "and respecteth not the proud, nor such as turn aside to lies",
+      "suggested_fix": "…och inte har anseende till de stolta eller till dem som viker av till lögn.",
+      "translation_quote": "och inte vänder sig till de stolta eller till dem som viker av till lögn"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

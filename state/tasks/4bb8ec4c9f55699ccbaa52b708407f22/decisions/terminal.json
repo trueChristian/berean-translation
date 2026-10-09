@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, elenco numerato, punto 2",
+      "severity": "minor",
+      "source_quote": "“a practitioner that has a close relationship with one”",
+      "suggested_fix": "Replace with «un medico che abbia uno stretto rapporto con un chirurgo ortopedico».",
+      "translation_quote": "«un medico che abbia con uno stretto rapporto»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

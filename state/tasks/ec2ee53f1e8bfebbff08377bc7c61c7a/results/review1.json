@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "643cc27a-bbc5-4bf1-bd9e-8e740756a760",
+    "response_id": "chatcmpl-EWwUCWGWCyWPShV6my8gWy2SwoHQa",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3683,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5600
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “एक महिमामय सुबह”",
+        "severity": "minor",
+        "source_quote": "The horizon is a soft, blushing pink, enhanced by a misty fog.",
+        "suggested_fix": "क्षितिज हल्का गुलाबी है, और धुंधला कुहासा उसे और निखार रहा है।",
+        "translation_quote": "क्षितिज हल्का गुलाबी है, और धुंधली कुहासा उसे और निखार रही है।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

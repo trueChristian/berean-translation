@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, first descriptive paragraph after the first horizontal rule",
+      "severity": "minor",
+      "source_quote": "The morning is ringing with the warbling, twittering, chirping of birds.",
+      "suggested_fix": "Replace “warrelende” with “trillerende” or another Afrikaans word for birdsong.",
+      "translation_quote": "Die oggend weerklink van die warrelende, kwetterende en tjilpende voëls."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

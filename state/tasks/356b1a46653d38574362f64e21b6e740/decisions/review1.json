@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang Roma 6:13",
+      "severity": "major",
+      "source_quote": "“as those that are alive from the dead”",
+      "suggested_fix": "Ganti “sebagai orang-orang yang telah dibangkitkan dari antara orang mati” dengan “sebagai orang-orang yang hidup dari antara orang mati” agar tetap menyatakan keadaan hidup sebagaimana tertulis dalam kutipan sumber.",
+      "translation_quote": "“sebagai orang-orang yang telah dibangkitkan dari antara orang mati”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

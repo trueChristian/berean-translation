@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading before the paragraph beginning «Dios demostró fidelidad al pacto…»",
+      "severity": "minor",
+      "source_quote": "A commitment to faithfulness",
+      "suggested_fix": "Un compromiso de lealtad",
+      "translation_quote": "Un compromiso de fidelidad"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

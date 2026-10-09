@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Scripture quotation (Proverbs 3:5)",
+      "severity": "major",
+      "source_quote": "–Pro 3:5.",
+      "suggested_fix": "Replace the reference with the conventional Greek abbreviation for Proverbs: «–Παρ 3:5.»",
+      "translation_quote": "–Πρ 3:5."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

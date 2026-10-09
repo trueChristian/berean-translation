@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Psalm 40:4 (first paragraph)\",\"severity\":\"minor\",\"source_quote\":\"“respecteth not the proud”\",\"suggested_fix\":\"“교만한 자들을 존중하지 않는”으로 옮겨 ‘교만한 자들을 따르지 않는’과 구별해 주세요.\",\"translation_quote\":\"“교만한 자들과 거짓으로 치우치는 자들을 따르지 않는”\"},{\"location\":\"HTML, Psalm 40:13 (first paragraph and later emphasized quotation)\",\"severity\":\"minor\",\"source_quote\":\"“Be pleased, O LORD, to deliver me”\",\"suggested_fix\":\"“여호와여, 나를 구원하기를 기뻐하소서”처럼 ‘기뻐하시기를’ 청하는 뜻으로 다듬어 주세요.\",\"translation_quote\":\"“여호와여, 기꺼이 나를 구원하소서”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 808,
+    "content_evidence_truncated": false,
+    "content_sha256": "363fdf7787a7ea51b48cba80437dc1be0d43cf1b1e2d0c53bc7677ee48a84fe8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3839,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5785
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

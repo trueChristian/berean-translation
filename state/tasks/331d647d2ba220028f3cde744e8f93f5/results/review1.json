@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af4277f7-13d8-499b-a122-ad222f5ea072",
+    "response_id": "chatcmpl-EWwTfeufY43o16w0UIPogV8OASfYa",
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 912,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8989,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7886,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9992
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "THE INQUISITION of Jacques Dosie",
+        "suggested_fix": "জ্যাক দোসির ধর্মীয় জিজ্ঞাসাবাদ",
+        "translation_quote": "জ্যাক দোসির ধর্মানুসন্ধান"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

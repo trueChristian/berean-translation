@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8e3704b0-fe70-444f-a189-04abd22d59bb",
+    "response_id": "chatcmpl-EWwUKl3RvnrfmiRpUzN7GXD3uCND8",
+    "usage": {
+      "completion_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 758,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6672,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8639
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 8, description of the sick man's weight",
+        "severity": "major",
+        "source_quote": "His weight was probably not much more than 70 pounds.",
+        "suggested_fix": "Replace with “Hij woog waarschijnlijk iets meer dan 32 kilo.”",
+        "translation_quote": "Hij woog waarschijnlijk niet veel meer dan 70 pond."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

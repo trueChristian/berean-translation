@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Mazmur 40:14 and its repeated quotation in the later paragraphs\",\"severity\":\"minor\",\"source_quote\":\"“Let them be ashamed and confounded together”\",\"suggested_fix\":\"Ganti “dikejutkan bersama-sama” dengan “dibingungkan bersama-sama” pada kedua kemunculan.\",\"translation_quote\":\"“dipermalukan dan dikejutkan bersama-sama”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 414,
+    "content_evidence_truncated": false,
+    "content_sha256": "fce1af2b4fc2cff04cb5430e5effeb4e860033d9a9fce593b47ea84b38984b1b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3550,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5335
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

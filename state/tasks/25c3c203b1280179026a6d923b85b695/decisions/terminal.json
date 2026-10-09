@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe avant la note spéciale — citation de Jacques 1:5",
+      "severity": "minor",
+      "source_quote": "that giveth to all men liberally",
+      "suggested_fix": "qui donne généreusement à tous",
+      "translation_quote": "qui donne à tous simplement"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

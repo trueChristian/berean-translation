@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Risk/equipment checklist, paragraph beginning “Is die kliniek voldoende toegerus?”",
+      "severity": "minor",
+      "source_quote": "Glitzy web sites, colorful brochures, and informational dinners are not enough.",
+      "suggested_fix": "Vervang “Aansienlike webwerwe” met “Spoggerige webwerwe” om die bedoelde betekenis van “glitzy” weer te gee.",
+      "translation_quote": "Aansienlike webwerwe, kleurvolle brosjures en inligtingsetes is nie genoeg nie."
+    },
+    {
+      "location": "List of treatments in development, congestive heart failure item",
+      "severity": "minor",
+      "source_quote": "Congestive Heart Failure—Repair damaged heart tissue.",
+      "suggested_fix": "Gebruik “Kongestiewe hartversaking” om die spesifieke toestand in die bronteks te behou.",
+      "translation_quote": "Hartversaking—Herstel beskadigde hartweefsel."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

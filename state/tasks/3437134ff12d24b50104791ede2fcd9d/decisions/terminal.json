@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "this blight has infected most mainstream churches",
+      "suggested_fix": "Helaas heeft deze plaag de meeste reguliere kerken besmet",
+      "translation_quote": "deze plaag de meeste hoofdstromingen binnen de kerken besmet"
+    },
+    {
+      "location": "Final paragraph before the last image",
+      "severity": "minor",
+      "source_quote": "His unfailing love continues to draw us back unto himself.",
+      "suggested_fix": "Zijn onophoudelijke liefde blijft ons tot Zich terugtrekken.",
+      "translation_quote": "Zijn onfeilbare liefde blijft ons tot Zich terugtrekken."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

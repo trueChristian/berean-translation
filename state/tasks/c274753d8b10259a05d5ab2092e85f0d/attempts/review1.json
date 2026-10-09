@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading before the paragraph beginning «Dios demostró fidelidad al pacto…»\",\"severity\":\"minor\",\"source_quote\":\"A commitment to faithfulness\",\"suggested_fix\":\"Un compromiso de lealtad\",\"translation_quote\":\"Un compromiso de fidelidad\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 316,
+    "content_evidence_truncated": false,
+    "content_sha256": "b5e10f9919ddeed928c22bf1ace3fd6240496856675f713e8de1f0dc10c1f0fa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7382,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6279,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7936
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

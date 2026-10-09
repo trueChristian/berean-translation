@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4, Goliath’s quoted speech",
+      "severity": "major",
+      "source_quote": "I defy the armies of Israel this day",
+      "suggested_fix": "…Leo nayakaidi majeshi ya Israeli; nipeni mtu, tupigane pamoja.",
+      "translation_quote": "…Leo ninayadharau majeshi ya Israeli; nipeni mtu, tupigane pamoja."
+    },
+    {
+      "location": "Paragraph 8, the man’s promise if healed",
+      "severity": "major",
+      "source_quote": "He told me that if God would heal him, he would serve him and trust him for the rest of his life.",
+      "suggested_fix": "Aliniambia kwamba Mungu angemponya, naye angemwabudu na kumtumaini Mungu maisha yake yote yaliyosalia.",
+      "translation_quote": "Aliniambia kwamba Mungu angemponya, angemhudumia na kumtumaini maisha yake yote yaliyosalia."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

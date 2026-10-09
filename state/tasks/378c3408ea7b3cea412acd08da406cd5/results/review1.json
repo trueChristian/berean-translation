@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d22eb657-7705-4be0-9075-ee81f18f1f2f",
+    "response_id": "chatcmpl-EWwTzznrG391vzoX2d7m8tqZTZd0F",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6613,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8303
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section heading",
+        "severity": "minor",
+        "source_quote": "THE GODLY HOME",
+        "suggested_fix": "LA CASA CRISTIANA",
+        "translation_quote": "LA FAMIGLIA CRISTIANA"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

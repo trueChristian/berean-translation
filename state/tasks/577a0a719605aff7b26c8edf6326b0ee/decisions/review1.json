@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Références bibliques : Jacques 1:17 ; Genèse 17:7, 15:8, 15:9, 15:17, 4:1, 24:67, 2:24 ; Josué 24:22 ; Hébreux 8:6 ; Exode 24:8 ; Romains 12:20",
+      "severity": "minor",
+      "source_quote": "« –Jas 1:17 » ; « –Gen 17:7 » ; « –Jos 24:22 » ; « –Heb 8:6 » ; « –Exo 24:8 » ; « –Rom 12:20 »",
+      "suggested_fix": "Employer les formes françaises conventionnelles des noms de livres dans toutes les références : « Jacques 1:17 », « Genèse 17:7 », « Josué 24:22 », « Hébreux 8:6 », « Exode 24:8 » et « Romains 12:20 », ainsi que pour les autres références à Genèse.",
+      "translation_quote": "« –Jas 1:17 » ; « –Gen 17:7 » ; « –Jos 24:22 » ; « –Heb 8:6 » ; « –Exo 24:8 » ; « –Rom 12:20 »"
+    },
+    {
+      "location": "Paragraphe sur les témoins, après la citation de Josué 24:22",
+      "severity": "minor",
+      "source_quote": "“We will hold one another accountable for the commitments that we are making today.”",
+      "suggested_fix": "Remplacer par « Nous veillerons les uns sur les autres afin que les engagements que nous prenons aujourd’hui soient respectés. »",
+      "translation_quote": "« Nous veillerons les uns les autres au respect des engagements que nous prenons aujourd’hui. »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

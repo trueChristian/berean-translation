@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "823ec6e7-a3b8-46a1-b99a-faa39708a3a2",
+    "response_id": "chatcmpl-EWwUBAZRP67ypxYqjh4riqLWyrAw4",
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 729,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8860,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10810
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4, quotation of 1 Corinthians 10:13",
+        "severity": "major",
+        "source_quote": "There hath no temptation taken you but such as is common to man",
+        "suggested_fix": "Dere har ikke møtt noen annen fristelse enn den som er vanlig for mennesker.",
+        "translation_quote": "Dere har ikke møtt noen fristelse som mennesker ikke kan tåle."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

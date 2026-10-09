@@ -2,7 +2,6 @@
   "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 7438
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1159,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 736,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7668,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6565,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8827
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Références bibliques : Jacques 1:17 ; Genèse 17:7, 15:8, 15:9, 15:17, 4:1, 24:67, 2:24 ; Josué 24:22 ; Hébreux 8:6 ; Exode 24:8 ; Romains 12:20",
+      "severity": "minor",
+      "source_quote": "« –Jas 1:17 » ; « –Gen 17:7 » ; « –Jos 24:22 » ; « –Heb 8:6 » ; « –Exo 24:8 » ; « –Rom 12:20 »",
+      "suggested_fix": "Employer les formes françaises conventionnelles des noms de livres dans toutes les références : « Jacques 1:17 », « Genèse 17:7 », « Josué 24:22 », « Hébreux 8:6 », « Exode 24:8 » et « Romains 12:20 », ainsi que pour les autres références à Genèse.",
+      "translation_quote": "« –Jas 1:17 » ; « –Gen 17:7 » ; « –Jos 24:22 » ; « –Heb 8:6 » ; « –Exo 24:8 » ; « –Rom 12:20 »"
+    },
+    {
+      "location": "Paragraphe sur les témoins, après la citation de Josué 24:22",
+      "severity": "minor",
+      "source_quote": "“We will hold one another accountable for the commitments that we are making today.”",
+      "suggested_fix": "Remplacer par « Nous veillerons les uns sur les autres afin que les engagements que nous prenons aujourd’hui soient respectés. »",
+      "translation_quote": "« Nous veillerons les uns les autres au respect des engagements que nous prenons aujourd’hui. »"
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:54+00:00",
   "id": "577a0a719605aff7b26c8edf6326b0ee",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -118,11 +154,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3fc283eb947ef99e876e8afba3ef1d43bc01d233e2196bf30ca955f984dd828.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d4cafddce39323887fbc879db62ceec7af4d06d79d037a4e8d396a68a0d03e7f",
   "translation_model_actual": "gpt-6-luna"

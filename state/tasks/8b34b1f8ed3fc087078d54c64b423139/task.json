@@ -2,7 +2,6 @@
   "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 4359
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 722,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 513,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4556,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3453,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5278
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Psaume 40:4",
+      "severity": "minor",
+      "source_quote": "“respecteth not the proud”",
+      "suggested_fix": "Remplacer « ne se tourne pas vers les orgueilleux » par « ne considère pas les orgueilleux » ou une formulation équivalente.",
+      "translation_quote": "« ne se tourne pas vers les orgueilleux »"
+    },
+    {
+      "location": "Citation du Psaume 40 dans le paragraphe commençant par « Il a mis dans ma bouche… »",
+      "severity": "minor",
+      "source_quote": "“Many, O Lord, are Thy wonderful works which Thou hast done”",
+      "suggested_fix": "Ajouter l’idée explicite de l’accomplissement, par exemple : « Seigneur, nombreuses sont tes œuvres merveilleuses que tu as accomplies… »",
+      "translation_quote": "« Seigneur, tes œuvres merveilleuses sont nombreuses »"
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:54+00:00",
   "id": "8b34b1f8ed3fc087078d54c64b423139",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -118,11 +154,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3ac8bc2a70849dcd2c1e9107815c97a777bc40769bf64f4fe321378c6d873d64.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e72aaa53bbbfe00611383e4b135b28b6db0473fdc1de84eb1a796e77f073b2a3",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "971b8ffa-3721-4c08-b693-5aba9989618c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 5816
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 802,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6074,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4971,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6876
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph under “সন্দেহ ও ভয়ের ক্রমাগত হুমকি”",
+      "severity": "minor",
+      "source_quote": "“faltering youth”",
+      "suggested_fix": "“সংগ্রামরত তরুণ-তরুণী”",
+      "translation_quote": "“বিপথগামী তরুণ-তরুণী”"
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:53+00:00",
   "id": "440bd679b2b4fc52ef12fe4ab2b94e2a",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ben",
@@ -118,11 +147,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/70413fd7a229a2dc1234758ee4b2436d2a24c06b291c1d951e7169cd8cb42e6a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

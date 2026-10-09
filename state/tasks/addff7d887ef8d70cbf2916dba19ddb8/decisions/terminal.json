@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning «والآن تأتي الليدي فريزلاند من زاوية أخرى»",
+      "severity": "minor",
+      "source_quote": "“Why do you wear that small covering on your head?”",
+      "suggested_fix": "Change «لماذا تضعين» to «لماذا تضع» to address Jacques in the masculine, consistently with «أيها الشاب جاك» in the same paragraph.",
+      "translation_quote": "«لماذا تضعين تلك الغطاء الصغير على رأسك؟»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

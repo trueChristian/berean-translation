@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph under “সন্দেহ ও ভয়ের ক্রমাগত হুমকি”\",\"severity\":\"minor\",\"source_quote\":\"“faltering youth”\",\"suggested_fix\":\"“সংগ্রামরত তরুণ-তরুণী”\",\"translation_quote\":\"“বিপথগামী তরুণ-তরুণী”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 405,
+    "content_evidence_truncated": false,
+    "content_sha256": "26cebcc380aaa172f4438f0702fa9acc60b1dd1efec5a7cd46601a1561d0985f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 692,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4971,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6876
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

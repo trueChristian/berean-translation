@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, first descriptive paragraph after the first horizontal rule\",\"severity\":\"minor\",\"source_quote\":\"The morning is ringing with the warbling, twittering, chirping of birds.\",\"suggested_fix\":\"Replace “warrelende” with “trillerende” or another Afrikaans word for birdsong.\",\"translation_quote\":\"Die oggend weerklink van die warrelende, kwetterende en tjilpende voëls.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 459,
+    "content_evidence_truncated": false,
+    "content_sha256": "535f04f3faf681da58ea08bc521559b4f50ede39192342637a8a0d56c18dd85e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 617,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3501,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5350
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

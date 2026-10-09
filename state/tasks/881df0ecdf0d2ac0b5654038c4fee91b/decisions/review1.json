@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Parágrafo iniciado por “Hoje, em nossas Bíblias”",
+      "severity": "major",
+      "source_quote": "“the teachings of Jesus and His Apostles which supersede the Old Testament law”",
+      "suggested_fix": "Substitua “que se sobrepõem à lei do Antigo Testamento” por “que prevalecem sobre a lei do Antigo Testamento” para preservar a ideia de que esses ensinamentos têm precedência, e não apenas se sobrepõem à lei.",
+      "translation_quote": "“os ensinamentos de Jesus e de seus apóstolos, que se sobrepõem à lei do Antigo Testamento”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

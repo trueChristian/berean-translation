@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"this blight has infected most mainstream churches\",\"suggested_fix\":\"Helaas heeft deze plaag de meeste reguliere kerken besmet\",\"translation_quote\":\"deze plaag de meeste hoofdstromingen binnen de kerken besmet\"},{\"location\":\"Final paragraph before the last image\",\"severity\":\"minor\",\"source_quote\":\"His unfailing love continues to draw us back unto himself.\",\"suggested_fix\":\"Zijn onophoudelijke liefde blijft ons tot Zich terugtrekken.\",\"translation_quote\":\"Zijn onfeilbare liefde blijft ons tot Zich terugtrekken.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 642,
+    "content_evidence_truncated": false,
+    "content_sha256": "d446a5d52cbeccef4b7c73e2e0409f8459feef033f441350d2ccd3a41f8bcb51",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6461,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8420
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

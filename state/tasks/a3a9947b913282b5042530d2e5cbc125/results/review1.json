@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3678b95f-c082-40ab-8c13-61d936a9dc3b",
+    "response_id": "chatcmpl-EX31gUxOeIAn0E36cDNlivngawPqv",
+    "usage": {
+      "completion_tokens": 1265,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 961,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7732,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6629,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8997
+    }
+  },
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “בתנ״ך שבידינו כיום”",
+        "severity": "major",
+        "source_quote": "“In our Bibles today we have the Old and the New Testament. This refers to the Old and the New Covenant.”",
+        "suggested_fix": "Replace “בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה” with “בכתבי הקודש שבידינו כיום יש את הברית הישנה ואת הברית החדשה” to avoid identifying the whole Bible as the Tanakh, which excludes the New Testament.",
+        "translation_quote": "“בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה.”"
+      },
+      {
+        "location": "Alt text for image 1",
+        "severity": "minor",
+        "source_quote": "“Two white roses with sprigs of small white flowers”",
+        "suggested_fix": "Change “שתי ורדים” to “שני ורדים” for grammatical gender agreement.",
+        "translation_quote": "“שתי ורדים לבנים וענפים קטנים של פרחים לבנים”"
+      },
+      {
+        "location": "Section field",
+        "severity": "minor",
+        "source_quote": "“THE GODLY HOME”",
+        "suggested_fix": "Use a natural Hebrew rendering such as “הבית הירא את אלוהים”.",
+        "translation_quote": "“הבית ירא האלוהים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

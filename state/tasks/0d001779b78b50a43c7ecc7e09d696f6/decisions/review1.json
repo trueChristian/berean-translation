@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo 8, oración de súplica",
+      "severity": "major",
+      "source_quote": "O Father, if not for him, please, heal him for me. I need you to, Father.",
+      "suggested_fix": "«Oh Padre, si no lo haces por él, por favor, sánalo por mí. Necesito que lo hagas, Padre».",
+      "translation_quote": "«Oh Padre, si no lo haces por él, por favor, sáname a mí de esta preocupación. Te necesito, Padre»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

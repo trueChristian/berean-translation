@@ -2,7 +2,6 @@
   "article_id": "e9621e7b-df8d-4497-998c-b98af23486b7",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99f970d37ef4435fa33ed14061ee671c",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 4407
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 746,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 617,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4604,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3501,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5350
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, first descriptive paragraph after the first horizontal rule",
+      "severity": "minor",
+      "source_quote": "The morning is ringing with the warbling, twittering, chirping of birds.",
+      "suggested_fix": "Replace “warrelende” with “trillerende” or another Afrikaans word for birdsong.",
+      "translation_quote": "Die oggend weerklink van die warrelende, kwetterende en tjilpende voëls."
+    }
+  ],
+  "finished_at": "2026-10-09T15:15:53+00:00",
   "id": "2e927e1eea4aaf5a309b5b54d2bc5da5",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "afr",
@@ -118,11 +147,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3ac8bc2a70849dcd2c1e9107815c97a777bc40769bf64f4fe321378c6d873d64.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e72aaa53bbbfe00611383e4b135b28b6db0473fdc1de84eb1a796e77f073b2a3",
   "translation_model_actual": "gpt-6-luna"

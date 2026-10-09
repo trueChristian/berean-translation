@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "His weight was probably not much more than 70 pounds.",
+      "suggested_fix": "Il ne devait pas peser beaucoup plus de 32 kilos.",
+      "translation_quote": "Il ne devait pas peser beaucoup plus de 70 livres."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

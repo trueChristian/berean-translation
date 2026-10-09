@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section heading",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "LA CASA CRISTIANA",
+      "translation_quote": "LA FAMIGLIA CRISTIANA"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

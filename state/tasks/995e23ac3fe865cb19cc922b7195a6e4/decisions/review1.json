@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML image alt text, first image",
+      "severity": "minor",
+      "source_quote": "Two white roses with sprigs of small white flowers",
+      "suggested_fix": "Dua mawar putih dengan ranting-ranting kecil berbunga putih",
+      "translation_quote": "Dua mawar putih dengan tangkai-tangkai kecil bunga putih"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

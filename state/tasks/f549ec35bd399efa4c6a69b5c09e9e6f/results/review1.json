@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8676677a-23a5-4c2f-9b76-4b1cd3a02fbc",
+    "response_id": "chatcmpl-EX32rcrjDlBIDJs7twLWk980mDLnY",
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5292,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4189,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5984
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Morning Meditations from Psalm 40",
+        "suggested_fix": "Πρωινοί στοχασμοί από τον Ψαλμό 40",
+        "translation_quote": "Πρωινός στοχασμός στον Ψαλμό 40"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

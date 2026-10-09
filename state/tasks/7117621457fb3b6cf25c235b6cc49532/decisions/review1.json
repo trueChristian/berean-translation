@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf terakhir, kutipan Kisah Para Rasul 1:9",
+      "severity": "major",
+      "source_quote": "“…beheld, he was taken up; and a cloud received him out of their sight –Act 1:9.”",
+      "suggested_fix": "Hapus bagian tentang dua orang berpakaian putih; terjemahkan hanya bahwa ketika para murid sedang melihat, Yesus terangkat dan awan menutup-Nya dari pandangan mereka.",
+      "translation_quote": "“…sedang menatap ke langit waktu Ia naik, tiba-tiba dua orang berpakaian putih berdiri dekat mereka” dan “awan menutup-Nya dari pandangan mereka” –Kis 1:9."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

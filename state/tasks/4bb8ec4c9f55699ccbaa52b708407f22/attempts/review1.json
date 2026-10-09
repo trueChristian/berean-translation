@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, elenco numerato, punto 2\",\"severity\":\"minor\",\"source_quote\":\"“a practitioner that has a close relationship with one”\",\"suggested_fix\":\"Replace with «un medico che abbia uno stretto rapporto con un chirurgo ortopedico».\",\"translation_quote\":\"«un medico che abbia con uno stretto rapporto»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 381,
+    "content_evidence_truncated": false,
+    "content_sha256": "67c38052995bb7c1267505ddc0a526c5df9eb57316707bc233835013929b21aa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 913,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10065,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8962,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10978
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

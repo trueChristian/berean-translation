@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1b09be68-3452-4abe-8e52-5078187aef75",
+    "response_id": "chatcmpl-EWwUDEZdoBfIkhtNcFwMRE7f3Kl6Y",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2732,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4672
+    }
+  },
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “اگلے دن جوئی کے والد گھر واپس آئے”",
+        "severity": "minor",
+        "source_quote": "When he saw the bandages on his son and the damaged bicycle, he guessed the story immediately.",
+        "suggested_fix": "جب انہوں نے اپنے بیٹے پر بندھی پٹیاں اور خراب سائیکل دیکھی تو فوراً ساری بات سمجھ گئے۔",
+        "translation_quote": "جب انہوں نے اپنے بیٹے پر پٹیاں اور خراب سائیکل دیکھی تو فوراً ساری بات سمجھ گئے۔"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "he was quite content to ride peacefully around his little block of houses.",
+        "suggested_fix": "وہ اپنے چھوٹے سے محلے کے گھروں کے آس پاس سکون سے سائیکل چلانے پر بہت مطمئن تھا۔",
+        "translation_quote": "وہ گھروں کے اپنے چھوٹے سے بلاک کے گرد اطمینان سے سائیکل چلا کر بہت خوش تھا۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

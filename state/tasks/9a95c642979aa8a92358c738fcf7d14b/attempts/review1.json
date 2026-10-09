@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Qui ad Haiti molte persone portano…”\",\"severity\":\"minor\",\"source_quote\":\"“Many people here in Haiti take their sick to the witch doctor, and he heals them.”\",\"suggested_fix\":\"“Qui ad Haiti molte persone portano i malati dallo stregone, e lui li guarisce.”\",\"translation_quote\":\"“Qui ad Haiti molte persone portano i malati dal guaritore, e lui li guarisce.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 476,
+    "content_evidence_truncated": false,
+    "content_sha256": "3330ea92404b39477479973e82f2404115ecc36035d6a2aa0e2caec32e8383ee",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8098,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6995,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8908
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

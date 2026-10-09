@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 40:5; repeated in the later italicized quotation\",\"severity\":\"major\",\"source_quote\":\"“thy thoughts which are to us-ward: they cannot be reckoned up in order unto thee”\",\"suggested_fix\":\"В обоих местах замените «нет равного Тебе» на перевод пропущенной мысли, например: «их невозможно перечислить перед Тобой», сохранив также мысль о Твоих замыслах о нас.\",\"translation_quote\":\"«много замыслов Твоих о нас; нет равного Тебе»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 692,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7dedc4b19e12ebdd16ed86679c510f6f82b2f0898e62eb124eada6253218433",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3489,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5258
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

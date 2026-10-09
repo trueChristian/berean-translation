@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T15:15:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML image alt text, first image\",\"severity\":\"minor\",\"source_quote\":\"Two white roses with sprigs of small white flowers\",\"suggested_fix\":\"Dua mawar putih dengan ranting-ranting kecil berbunga putih\",\"translation_quote\":\"Dua mawar putih dengan tangkai-tangkai kecil bunga putih\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 356,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb54e07c40ad0525cc71d21e37f8a2faab80222717604bad2ad3226e620e76d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 681,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7790,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8579
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

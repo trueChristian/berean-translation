@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “På samma sätt leder det inte…”",
+      "severity": "minor",
+      "source_quote": "a paraplegic accident victim",
+      "suggested_fix": "Ändra till ”hos ett olycksoffer som blivit förlamat” (eller ”hos en paraplegiker som skadats i en olycka”).",
+      "translation_quote": "hos en olycksoffer som blivit förlamad"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

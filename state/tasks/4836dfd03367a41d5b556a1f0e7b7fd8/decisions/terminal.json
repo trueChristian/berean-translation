@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "Faith is walking in obedience and believing God’s Word when we do not know the outcome.",
+      "suggested_fix": "אמונה היא ללכת בציות ולהאמין לדבר אלוהים, בלי לדעת מה תהיה התוצאה.",
+      "translation_quote": "אמונה היא לציית וללכת בדרך אלוהים ולהאמין לדברו, בלי לדעת מה תהיה התוצאה."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6, sentence beginning “Secondly”",
+      "severity": "major",
+      "source_quote": "when it agrees with our experience, our thoughts, and our feelings",
+      "suggested_fix": "جب خدا کی بات ہمارے تجربے، ہمارے خیالات اور ہمارے احساسات سے متفق ہو",
+      "translation_quote": "جب خدا کی بات ہماری آزمائش، ہمارے خیالات اور ہمارے احساسات سے متفق ہو"
+    },
+    {
+      "location": "Paragraph 9, sentence ending “thoughts and behaviors”",
+      "severity": "major",
+      "source_quote": "we are allowing fear to control us and dictate our thoughts and behaviors",
+      "suggested_fix": "ہم خوف کو ہم پر قابو پانے اور ہمارے خیالات و رویوں کا تعین کرنے دے رہے ہیں",
+      "translation_quote": "ہم خوف کو اپنے قابو میں رکھنے اور اپنے خیالات و رویوں کا تعین کرنے دے رہے ہیں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

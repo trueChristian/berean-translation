@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aabd6aa2-20fb-4a3c-bebd-2ec038839a9d",
+    "response_id": "chatcmpl-EX321trFTLCwUY9n4TGzJQL4rU6V6",
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7713,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6610,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8358
+    }
+  },
+  "received_at": "2026-10-09T15:15:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Párrafo 8, oración de súplica",
+        "severity": "major",
+        "source_quote": "O Father, if not for him, please, heal him for me. I need you to, Father.",
+        "suggested_fix": "«Oh Padre, si no lo haces por él, por favor, sánalo por mí. Necesito que lo hagas, Padre».",
+        "translation_quote": "«Oh Padre, si no lo haces por él, por favor, sáname a mí de esta preocupación. Te necesito, Padre»."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

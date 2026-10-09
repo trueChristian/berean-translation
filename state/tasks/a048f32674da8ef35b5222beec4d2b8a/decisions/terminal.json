@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First dialogue paragraph, “Let’s bring in that young lad, Jacques”",
+      "severity": "minor",
+      "source_quote": "“baptist heretics”",
+      "suggested_fix": "“पुनर्बपतिस्मावादी विधर्मियों”",
+      "translation_quote": "“बपतिस्मा देने वाले विधर्मियों”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
