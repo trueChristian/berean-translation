@@ -14,6 +14,8 @@ All twenty configured languages participate. New translation, source refresh, an
 
 Discovery and collection share one serialized state writer. Manual requests persist unique immutable queue files, so concurrent requests are not lost to GitHub's limited pending-run concurrency queue. Submitted batches can run concurrently. Unknown submissions are reconciled by their stored submission identity and are never blindly resubmitted.
 
+The automatic `max_active_tasks` allowance is 50 active automatic tasks, separate from explicitly funded manual campaigns. Manual work does not consume those slots; article/language claims still prevent overlap, and new automatic translation and recovery retain the same cumulative $30 funding authority.
+
 ## Workflows
 
 Only five workflows are active:
@@ -21,18 +23,20 @@ Only five workflows are active:
 | Workflow | Responsibility | Schedule or trigger |
 | --- | --- | --- |
 | **AI — Translate articles** | Select an issue, languages, models, and a manual budget; persist a translation bundle. | Manual dispatch; free preview is the default. |
-| **AI — Discover English changes** | Discover upstream English changes and queue automatic work within its standing authority. | Hourly at minute 3, or manual dispatch. |
-| **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Every 15 minutes; successful manual/discovery workflows; published human edits; manual dispatch. |
+| **AI — Discover English changes** | Discover upstream English changes and queue automatic work within its standing authority. | Scheduled hourly at minute 3, or manual dispatch. |
+| **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Scheduled every 15 minutes; successful manual/discovery workflows; published human edits; manual dispatch. |
 | **AI — Improve translations** | Review existing publications against English with stronger models; validate accepted replacements at 98. Saved unpublished candidates use the ordinary 95 threshold. | Manual dispatch; free preview is the default. |
 | **Translation runtime checks** | Run offline regression tests, dependency contract checks, and repository/source validation. | Pull requests, pushes to main, or manual dispatch; no paid requests. |
 
 The specialized repair and Scripture-inspection workflows and their runtime dependencies have been removed. Git history preserves the previous implementation; durable paid requests, results, and allocations remain audit records.
 
+These are configured schedules, not guaranteed start times. GitHub delivers scheduled runs on a best-effort basis, and gaps can extend for hours.
+
 ## Run production work
 
 1. Merge the reviewed implementation into `main`. Production workflows use trusted `main`; a pull request does not activate them.
 2. Ensure the repository Actions secret **`OPENAI_API_KEY`** is set and Actions can commit runtime changes with `contents: write`. Manual enqueuers and discovery do not receive the OpenAI secret.
-3. Run **AI — Discover English changes**, then **AI — Collect and continue** if immediate pickup is wanted. Their schedules subsequently continue automatically.
+3. Run **AI — Discover English changes**, then **AI — Collect and continue** if immediate pickup is wanted. Their configured schedules request subsequent runs automatically; start times remain best effort.
 4. Read [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for publications, primary progress counters, batches, remaining funding, and specific holds.
 
 New manual requests default to a $30 ceiling and **dry_run=true**. A preview makes no paid requests or reservations for that selection; it does not suspend other previously authorized work. Select **dry_run=false** to authorize the selected bundle. Adding a missing API key resumes existing authorized queued work, so inspect those requests first if their intent has changed.
@@ -48,6 +52,8 @@ Manual translation and its independent reviewer default to **gpt-6-luna**. Optio
 ## Translation, review, and improvement
 
 The normal path is a translation, independent review, and publication at 95. A failed review can receive one correction followed by final review. At most two translation/correction requests and two reviews are submitted per task. The model receives the complete English article, context-preservation instructions, and configured terminology guidance. It must preserve meaning, negation, attribution, names, references, headings, paragraphs, images, captions, notes, and metadata; it must not summarize or invent.
+
+Each stage is submitted with a `24h` Batch completion window. Translation, review, correction, and final review use separate batches, so completing an article can span multiple windows plus collection delays.
 
 There is no special Scripture acceptance layer. Ordinary meaning review still checks quotations as article prose. Basic technical checks still reject incomplete responses, unsafe or malformed HTML, changed article identities or image URLs, missing substantive content, refusals, and invalid JSON. A score at the threshold does not excuse a substantive meaning error. Contradictory no-change reviewer findings are not automatically treated as substantive rejection evidence.
 
@@ -92,7 +98,7 @@ Accepted publications are retained when English changes or disappears, with trut
 | Swedish | `swe` | `sv` | LTR |
 | Norwegian, Bokmål | `nob` | `nb` | LTR |
 
-The website owns route spelling, language switches, and Scripture modals. Languages are not equated with national flags. The [Remnant website](https://github.com/trueChristian/remnant.truechristian.church) polls both source repositories' `main` revisions on an **hourly**, best-effort schedule, rebuilding when revisions differ from the last successful deployment. No translation-repository notification token or website dispatch is required.
+The website owns route spelling, language switches, and Scripture modals. Languages are not equated with national flags. The [Remnant website](https://github.com/trueChristian/remnant.truechristian.church) is configured to poll both source repositories' `main` revisions on an **hourly**, best-effort schedule, rebuilding when revisions differ from the last successful deployment. No translation-repository notification token or website dispatch is required.
 
 ## Human editing
 

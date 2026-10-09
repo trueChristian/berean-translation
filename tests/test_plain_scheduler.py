@@ -8,6 +8,7 @@ from pathlib import Path
 
 from berean_translation import autonomous
 from berean_translation.common import canonical
+from berean_translation.validation import validate_repository
 from support import A, B, queue, setup
 
 
@@ -18,6 +19,7 @@ class PlainSchedulerTests(unittest.TestCase):
         self.root = Path(temporary.name)
         (self.config, self.state, self.source, self.provider,
          self.git, self.engine) = setup(self.root)
+        self.languages = copy.deepcopy(self.config.languages)
         self.config.languages = {'afr': self.config.languages['afr']}
         self.config.runtime['autonomous_translation'].update(enabled=False, page_size=2,
                                                              max_active_tasks=50)
@@ -72,6 +74,56 @@ class PlainSchedulerTests(unittest.TestCase):
         ordered = autonomous.fair_admission_paths(self.state, paths)
         self.assertEqual([self.state.read(f'state/queue/{p.stem}.json')['selection']['recovery']
                           for p in ordered], [False, True])
+
+    def test_large_manual_campaign_preserves_bounded_automatic_work_on_other_pairs(self):
+        previous = self.old_candidate()
+        predecessor_bytes = canonical(previous)
+        self.config.runtime['autonomous_translation'].update(max_active_tasks=2, page_size=2)
+        self.config.languages.update({code: self.languages[code] for code in ('deu', 'fra')})
+        manual = self.engine.accept_request(queue(self.state, 'large-manual',
+                                                 languages='deu,fra', issues='all'))
+        self.assertEqual(len(manual['tasks']), 4)
+        manual_bytes = canonical(manual)
+        manual_tasks = {identity: canonical(self.state.read(f'state/tasks/{identity}/task.json'))
+                        for identity in manual['tasks']}
+
+        identities = autonomous.enqueue(self.engine)
+        requests = [self.state.read(f'state/queue/{identity}.json') for identity in identities]
+        self.assertEqual([(r['selection']['language'], r['selection']['article_id'],
+                           r['selection']['stage']) for r in requests],
+                         [('afr', B, 'translate'), ('afr', A, 'review1')])
+        self.assertEqual(autonomous.enqueue(self.engine), [])
+
+        # Admission must recheck the automatic limit independently of manual work.
+        self.config.runtime['autonomous_translation']['max_active_tasks'] = 1
+        autonomous.accept(self.engine, requests[0])
+        funding = autonomous.ledger(self.state)['allocated_usd']
+        with self.assertRaises(autonomous.BudgetUnavailable):
+            autonomous.accept(self.engine, requests[1])
+        hold = self.state.read(f'state/automatic-holds/{identities[1]}.json')
+        self.assertEqual((hold['reason'], hold['active_tasks'], hold['maximum_active_tasks']),
+                         ('automatic_capacity_wait', 1, 1))
+        self.assertEqual(autonomous.ledger(self.state)['allocated_usd'], funding)
+
+        self.config.runtime['autonomous_translation']['max_active_tasks'] = 2
+        autonomous.accept(self.engine, requests[1])
+        automatic = [task for task in self.state.tasks() if task.get('autonomous')]
+        self.assertEqual(len(automatic), 2)
+        self.assertEqual({(t['language'], t['article_id']) for t in automatic},
+                         {('afr', A), ('afr', B)})
+        self.assertEqual(autonomous.enqueue(self.engine), [])
+        self.assertEqual(canonical(self.state.read('state/campaigns/large-manual.json')), manual_bytes)
+        for identity, original in manual_tasks.items():
+            self.assertEqual(canonical(self.state.read(f'state/tasks/{identity}/task.json')), original)
+        self.assertEqual(canonical(self.state.read(f'state/tasks/{previous["id"]}/task.json')),
+                         predecessor_bytes)
+        for campaign in self.state.campaigns():
+            if campaign.get('autonomous'):
+                self.assertEqual(campaign['budget_usd'], campaign['stage_budget']['total_reserved_usd'])
+        self.assertLessEqual(autonomous.ledger(self.state)['allocated_usd'], 30)
+        self.assertEqual(self.provider.create_calls, 0)
+        self.state.derive(self.config)
+        validate_repository(self.config)
 
     def test_legacy_unaccepted_queue_is_retained_and_superseded_without_funding(self):
         self.old_candidate()

@@ -5,7 +5,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
-from berean_translation import autonomous
+from berean_translation import autonomous, stage_budget
 from berean_translation.common import ContractError, canonical, json_hash
 from berean_translation.validation import validate_repository
 from support import A, B, drive, queue, setup
@@ -125,6 +125,54 @@ class AutonomousQueueTests(unittest.TestCase):
         self.assertTrue(all(t['status'] == 'complete' for t in self.tasks()))
         self.assertTrue(all((t['translation_attempts'], t['review_attempts']) == (2, 2) for t in self.tasks()))
         self.validate()
+
+    def test_shorter_current_requests_preserve_funded_campaign_and_reservation(self):
+        self.limited_languages()
+        self.config.runtime['review_contract_version'] = 2
+        self.config.runtime['autonomous_translation']['page_size'] = 1
+        current_prompt = self.config.prompt
+        def historical_prompt(name):
+            return current_prompt(name) + '\nHistorical additional guidance. ' * 20
+        with patch.object(self.config, 'prompt', side_effect=historical_prompt):
+            identity = autonomous.enqueue(self.engine)[0]
+            campaign = autonomous.accept(self.engine, self.state.read(f'state/queue/{identity}.json'))
+        self.assertEqual(campaign['prompt_version'], self.config.runtime['prompt_version'])
+        task = self.state.read(f'state/tasks/{campaign["tasks"][0]}/task.json')
+        reserved = copy.deepcopy(campaign['stage_budget'])
+        allocation = autonomous.ledger(self.state)['allocated_usd']
+        before = {p: p.read_bytes() for p in self.state.path('state').rglob('*') if p.is_file()}
+        rebuilt = stage_budget.plan(self.config, self.state, campaign['initial_task'], campaign,
+                                    self.state.source(task))
+        self.assertLess(rebuilt['total_reserved_usd'], reserved['total_reserved_usd'])
+        for stage, cost in rebuilt['stages_usd'].items():
+            self.assertLessEqual(cost, reserved['stages_usd'][stage])
+        autonomous.validate_history(self.config, self.state)
+        self.assertEqual(autonomous.ledger(self.state)['allocated_usd'], allocation)
+        self.assertEqual({p: p.read_bytes() for p in self.state.path('state').rglob('*') if p.is_file()}, before)
+        self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (0, 0))
+
+    def test_larger_current_request_is_blocked_by_original_stage_ceiling(self):
+        self.limited_languages()
+        self.config.runtime['review_contract_version'] = 2
+        self.config.runtime['autonomous_translation']['page_size'] = 1
+        identity = autonomous.enqueue(self.engine)[0]
+        campaign = autonomous.accept(self.engine, self.state.read(f'state/queue/{identity}.json'))
+        allocation = autonomous.ledger(self.state)['allocated_usd']
+        frozen_campaign = canonical(campaign)
+        current_prompt = self.config.prompt
+        def larger_prompt(name):
+            return current_prompt(name) + '\nAdditional current guidance. ' * 500
+        with patch.object(self.config, 'prompt', side_effect=larger_prompt):
+            autonomous.validate_history(self.config, self.state)
+            self.engine.prepare(max_batches=1)
+        task = self.state.read(f'state/tasks/{campaign["tasks"][0]}/task.json')
+        self.assertEqual(task['status'], 'not_ready')
+        self.assertIn('frozen complete-stage reservation', task['failure'])
+        self.assertEqual((task['translation_attempts'], task['review_attempts']), (0, 0))
+        self.assertEqual(canonical(self.state.read(f'state/campaigns/{identity}.json')), frozen_campaign)
+        self.assertEqual(autonomous.ledger(self.state)['allocated_usd'], allocation)
+        self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (0, 0))
+        self.assertEqual(self.state.batches(), [])
 
     def make_saved(self, stage='review2', kind=None):
         self.config.runtime['autonomous_translation']['enabled'] = False

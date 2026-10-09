@@ -157,8 +157,41 @@ class PlainRequestPolicyTests(unittest.TestCase):
                 self.assertEqual(payload['quality_threshold'], 98)
                 self.assertEqual(payload['accepted_baseline'], self.task['accepted_baseline'])
                 self.assertEqual(payload['baseline_quality_score'], 96)
-                self.assertIn('98/100', body['messages'][0]['content'])
+                if stage.startswith('review'):
+                    self.assertIn('98/100', body['messages'][0]['content'])
+                else:
+                    self.assertNotIn('controls the verdict', body['messages'][0]['content'])
                 self.assertIn('regression', body['messages'][0]['content'])
+
+    def test_review_rubric_belongs_only_to_review_requests(self):
+        for stage in ('translate', 'review1', 'review2'):
+            with self.subTest(stage=stage):
+                self.task['stage'] = stage
+                body, payload = self.request()
+                system = body['messages'][0]['content']
+                self.assertEqual(payload['quality_threshold'], 95)
+                if stage.startswith('review'):
+                    self.assertIn('95/100', system)
+                    self.assertIn('controls the verdict', system)
+                else:
+                    self.assertEqual(system, self.campaign['prompts']['translation'])
+
+    def test_normal_and_recovery_corrections_require_technical_repairs(self):
+        self.task['stage'] = 'correct'
+        for recovery in (None, 'downstream_recovery', 'autonomous_recovery'):
+            with self.subTest(recovery=recovery):
+                for key in ('downstream_recovery', 'autonomous_recovery'):
+                    self.task.pop(key, None)
+                if recovery:
+                    self.task[recovery] = True
+                body, payload = self.request()
+                system = body['messages'][0]['content']
+                self.assertIn('HTML/metadata contract defects even if the meaning is already correct', system)
+                self.assertIn('source tags, nesting, order, attributes, IDs, links, image URLs and comments', system)
+                self.assertIn('only translatable text and existing alt/title text', system)
+                self.assertIn('complete corrected four-field JSON', system)
+                self.assertNotIn('controls the verdict', system)
+                self.assertEqual(payload['translation'], self.state.candidate_value)
 
     def test_malformed_upgrade_baseline_fails_before_submission(self):
         self.task['accepted_baseline'] = {'title': 'Incomplete'}
