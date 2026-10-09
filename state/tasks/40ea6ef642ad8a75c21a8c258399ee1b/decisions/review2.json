@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о сыновьях Скевы",
+      "severity": "minor",
+      "source_quote": "their willingness to broadcast the “Jesus” that they have heard of",
+      "suggested_fix": "заменить «когда готовы разглашать услышанное ими об „Иисусе“» на «когда готовы проповедовать об услышанном ими „Иисусе“»",
+      "translation_quote": "когда готовы разглашать услышанное ими об «Иисусе»"
+    },
+    {
+      "location": "Последний абзац",
+      "severity": "minor",
+      "source_quote": "Those whose sole purpose and priorities are governed by God.",
+      "suggested_fix": "«Те, чьими единственными целью и приоритетами руководит Бог.»",
+      "translation_quote": "Те, чьи единственная цель и приоритеты определяются Богом."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 6, Matthew 13:22 quotation\",\"severity\":\"major\",\"source_quote\":\"“the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.”\",\"suggested_fix\":\"<em>Celui qui a reçu la semence parmi les épines, c’est celui qui entend la parole ; mais les soucis de ce monde et la séduction des richesses étouffent la parole, et il devient infructueux. –Mt 13:22.</em>\",\"translation_quote\":\"« les soucis de ce monde et la séduction des richesses étouffent la parole, et elle devient infructueuse. »\"},{\"location\":\"Article, paragraph 9, 1 Timothy 2:1 quotation\",\"severity\":\"minor\",\"source_quote\":\"“supplications, prayers, intercessions, and giving of thanks”\",\"suggested_fix\":\"Remplacer « supplications » dans la troisième position par « intercessions » afin de rendre distinctement « intercessions ».\",\"translation_quote\":\"« des demandes, des prières, des supplications et des actions de grâces »\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1049,
+    "content_evidence_truncated": false,
+    "content_sha256": "e410c13335016fc94100820b413ffee7443b9258469a8d890d08cdefad27a57f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6471,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5368,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7423
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

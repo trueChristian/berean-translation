@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Revelation 4:11 quotation\",\"severity\":\"major\",\"source_quote\":\"for thy pleasure they are and were created\",\"suggested_fix\":\"... ty du har skapat allt, och för din skull blev det till och skapades det.\",\"translation_quote\":\"ty du har skapat allt, och genom din vilja blev det till och skapades det.\"},{\"location\":\"Galatians 1:10 quotation and version attribution\",\"severity\":\"major\",\"source_quote\":\"–Gal 1:10 ASV\",\"suggested_fix\":\"Keep the Swedish quotation faithful to the printed English meaning and attribute it to ASV, not to Svenska Folkbibeln.\",\"translation_quote\":\"–Gal 1:10, Svenska Folkbibeln\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "71f5249a42543d6f2d1495cd884c6b04975ab97a9d359099e00264ab59ee572b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8358,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7255,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9570
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

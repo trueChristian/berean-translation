@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "34554b80-251a-4a3f-9b20-2a333bd7e61d",
+    "response_id": "chatcmpl-EX8Dyt4tYr9TjXOEyWZvhTt8GNPwn",
+    "usage": {
+      "completion_tokens": 1188,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 847,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10659,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12950
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Romans 3:23–25 quotation",
+        "severity": "major",
+        "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+        "suggested_fix": "Replace “en nådastol” with wording that conveys “a propitiation,” such as “ett försoningsoffer”, while preserving the rest of the quotation.",
+        "translation_quote": "“Honom har Gud ställt fram som en nådastol genom tron på hans blod”"
+      },
+      {
+        "location": "IV. What the Atonement DOES do, items f–g",
+        "severity": "major",
+        "source_quote": "“It provides forgiveness of sins”; “It provides remission of sins”",
+        "suggested_fix": "Keep the two distinct concepts distinct in Swedish: retain “Den ger syndernas förlåtelse” for forgiveness and use a separate rendering for remission, such as “Den ger syndernas avlösning.”",
+        "translation_quote": "“Den ger syndernas förlåtelse”; “Den ger syndernas förlåtelse”"
+      },
+      {
+        "location": "V. What ALL was finished, item e",
+        "severity": "major",
+        "source_quote": "“The law—was our schoolmaster to bring us unto Christ”",
+        "suggested_fix": "Replace “övervakare” with “fostrare” or another Swedish term conveying a tutor/guardian who leads us to Christ.",
+        "translation_quote": "“Lagen – var vår övervakare för att föra oss till Kristus”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

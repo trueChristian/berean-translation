@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Romans 3:23–25 quotation",
+      "severity": "major",
+      "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+      "suggested_fix": "Replace “en nådastol” with wording that conveys “a propitiation,” such as “ett försoningsoffer”, while preserving the rest of the quotation.",
+      "translation_quote": "“Honom har Gud ställt fram som en nådastol genom tron på hans blod”"
+    },
+    {
+      "location": "IV. What the Atonement DOES do, items f–g",
+      "severity": "major",
+      "source_quote": "“It provides forgiveness of sins”; “It provides remission of sins”",
+      "suggested_fix": "Keep the two distinct concepts distinct in Swedish: retain “Den ger syndernas förlåtelse” for forgiveness and use a separate rendering for remission, such as “Den ger syndernas avlösning.”",
+      "translation_quote": "“Den ger syndernas förlåtelse”; “Den ger syndernas förlåtelse”"
+    },
+    {
+      "location": "V. What ALL was finished, item e",
+      "severity": "major",
+      "source_quote": "“The law—was our schoolmaster to bring us unto Christ”",
+      "suggested_fix": "Replace “övervakare” with “fostrare” or another Swedish term conveying a tutor/guardian who leads us to Christ.",
+      "translation_quote": "“Lagen – var vår övervakare för att föra oss till Kristus”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

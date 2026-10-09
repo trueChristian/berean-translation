@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ 7",
+      "severity": "minor",
+      "source_quote": "because they were the dreaded Anabaptists",
+      "suggested_fix": "क्योंकि वे ऐनाबैप्टिस्ट थे, जिनसे लोग डरते थे।",
+      "translation_quote": "क्योंकि वे भयभीत करने वाले ऐनाबैप्टिस्ट थे"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

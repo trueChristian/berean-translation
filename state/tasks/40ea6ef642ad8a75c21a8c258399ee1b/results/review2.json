@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dc36410e-7082-4e81-8181-60e7d59f5580",
+    "response_id": "chatcmpl-EX8ea3ny8CzDqLLgY63fBuSjTYMRm",
+    "usage": {
+      "completion_tokens": 1187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 977,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8218,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 8215
+      },
+      "total_tokens": 9405
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац о сыновьях Скевы",
+        "severity": "minor",
+        "source_quote": "their willingness to broadcast the “Jesus” that they have heard of",
+        "suggested_fix": "заменить «когда готовы разглашать услышанное ими об „Иисусе“» на «когда готовы проповедовать об услышанном ими „Иисусе“»",
+        "translation_quote": "когда готовы разглашать услышанное ими об «Иисусе»"
+      },
+      {
+        "location": "Последний абзац",
+        "severity": "minor",
+        "source_quote": "Those whose sole purpose and priorities are governed by God.",
+        "suggested_fix": "«Те, чьими единственными целью и приоритетами руководит Бог.»",
+        "translation_quote": "Те, чьи единственная цель и приоритеты определяются Богом."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

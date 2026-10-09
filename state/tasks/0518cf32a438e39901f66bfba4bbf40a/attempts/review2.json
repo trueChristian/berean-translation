@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"THE GODLY HOME\",\"suggested_fix\":\"NYUMBA INAYOMCHA MUNGU\",\"translation_quote\":\"NYUMBA YA KIMUNGU\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 219,
+    "content_evidence_truncated": false,
+    "content_sha256": "52a560d6ab6da22b875b4bdae6221b535f0377a7a53b7fe1c26204b30814463e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 816,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9897,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8794,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10795
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

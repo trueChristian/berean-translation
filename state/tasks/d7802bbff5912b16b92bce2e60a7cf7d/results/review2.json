@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d11bde3-385d-4fc2-9cf5-ec8c1467d958",
+    "response_id": "chatcmpl-EX8DJSJR65J0c7CNdzB9NsuJ16uou",
+    "usage": {
+      "completion_tokens": 1012,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 737,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12522,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14637
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation",
+        "severity": "minor",
+        "source_quote": "It is <u>finished:</u>",
+        "suggested_fix": "Τελείωσε<u>:</u> → <u>Τελείωσε:</u>",
+        "translation_quote": "<strong>Τελείωσε<u>:</u></strong>"
+      },
+      {
+        "location": "Paragraph beginning «Εδώ αρχίζουμε να βλέπουμε»",
+        "severity": "minor",
+        "source_quote": "These lists could each go on and fill page after page",
+        "suggested_fix": "Replace «Καθεμία από αυτές τις καταλόγους» with «Καθεμία από αυτές τις λίστες» (or «Κατάλογοι σαν κι αυτούς»).",
+        "translation_quote": "Καθεμία από αυτές τις καταλόγους θα μπορούσε να συνεχίζεται σελίδα τη σελίδα"
+      },
+      {
+        "location": "Section V heading",
+        "severity": "minor",
+        "source_quote": "What ALL was finished",
+        "suggested_fix": "Use a natural Greek heading that preserves the sense of all the things that were finished, e.g. «Τι ολοκληρώθηκε εξ ολοκλήρου».",
+        "translation_quote": "Τι ολοκληρώθηκε όλο"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

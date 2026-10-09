@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section II.b, quotation of 2 Corinthians 5:21",
+      "severity": "major",
+      "source_quote": "For he [God] hath made him [Jesus] to be sin for us, who [Jesus] knew no sin",
+      "suggested_fix": "Car il [Dieu] l’a [Jésus], lui qui n’a point connu le péché, fait devenir péché pour nous…",
+      "translation_quote": "Celui [Dieu] qui n’a point connu le péché, il [Jésus] l’a fait devenir péché pour nous…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

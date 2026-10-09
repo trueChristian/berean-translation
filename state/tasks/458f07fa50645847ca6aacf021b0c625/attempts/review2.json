@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «هل من خطأ في استبدال الأجزاء المعطوبة»; Philippians 4:5 quotation\",\"severity\":\"minor\",\"source_quote\":\"“Let your moderation be known unto all men.”\",\"suggested_fix\":\"«ليكن اعتدالكم معروفًا عند جميع الناس.»\",\"translation_quote\":\"«ليكن حلمكم معروفًا عند جميع الناس.»\"},{\"location\":\"Endnotes, item 1\",\"severity\":\"minor\",\"source_quote\":\"Recent achievements in experimental and clinical islet transplantation.\",\"suggested_fix\":\"«إنجازات حديثة في زراعة جزر البنكرياس التجريبية والسريرية.»\",\"translation_quote\":\"«إنجازات حديثة في زراعة الجزر التجريبية والسريرية.»\"},{\"location\":\"Paragraph beginning «هناك بدائل»; ninth item in the reasons list\",\"severity\":\"minor\",\"source_quote\":\"“Following Christ often times follows the more arduous path, rather than the path of least resistance.”\",\"suggested_fix\":\"«غالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة، لا طريق المقاومة الأقل.»\",\"translation_quote\":\"«وغالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة بدلًا من طريق المقاومة الأقل.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1429,
+    "content_evidence_truncated": false,
+    "content_sha256": "0de587fc59fa527fbaa67b9985fb66b21912c7aaf22112f9fb7679676ba77e8e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10583,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12712
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

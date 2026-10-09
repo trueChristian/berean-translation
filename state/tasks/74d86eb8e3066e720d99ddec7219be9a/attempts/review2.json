@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Überschrift III.2 und zugehöriger Absatz\",\"severity\":\"minor\",\"source_quote\":\"The Health, Wealth, and Prosperity Gospel\",\"suggested_fix\":\"Die Überschrift präziser als „Das Gesundheits-, Wohlstands- und Erfolgsevangelium“ oder idiomatisch als „Das Wohlstands- und Gesundheitsevangelium“ wiedergeben.\",\"translation_quote\":\"Das Wohlstands- und Erfolgsevangelium\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 449,
+    "content_evidence_truncated": false,
+    "content_sha256": "420f738f0bbdfab262c0695cdba22f12c479aee7f614c1531cae968e4d21ebb7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8302,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10351
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

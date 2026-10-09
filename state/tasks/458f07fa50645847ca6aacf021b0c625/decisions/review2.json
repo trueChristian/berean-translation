@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «هل من خطأ في استبدال الأجزاء المعطوبة»; Philippians 4:5 quotation",
+      "severity": "minor",
+      "source_quote": "“Let your moderation be known unto all men.”",
+      "suggested_fix": "«ليكن اعتدالكم معروفًا عند جميع الناس.»",
+      "translation_quote": "«ليكن حلمكم معروفًا عند جميع الناس.»"
+    },
+    {
+      "location": "Endnotes, item 1",
+      "severity": "minor",
+      "source_quote": "Recent achievements in experimental and clinical islet transplantation.",
+      "suggested_fix": "«إنجازات حديثة في زراعة جزر البنكرياس التجريبية والسريرية.»",
+      "translation_quote": "«إنجازات حديثة في زراعة الجزر التجريبية والسريرية.»"
+    },
+    {
+      "location": "Paragraph beginning «هناك بدائل»; ninth item in the reasons list",
+      "severity": "minor",
+      "source_quote": "“Following Christ often times follows the more arduous path, rather than the path of least resistance.”",
+      "suggested_fix": "«غالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة، لا طريق المقاومة الأقل.»",
+      "translation_quote": "«وغالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة بدلًا من طريق المقاومة الأقل.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

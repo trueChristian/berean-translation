@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文，IV. 基督以使人成圣的爱去爱，罗马书8:3-4引文",
+      "severity": "major",
+      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
+      "suggested_fix": "在“律法既因肉体软弱，有所不能行的”后补上对应说明，例如：“[受限于肉体所能成就的]”，保留原有经文引文结构。",
+      "translation_quote": "“律法既因肉体软弱，有所不能行的，神就差遣自己的儿子”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

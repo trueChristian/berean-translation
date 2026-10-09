@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "73ba165d-8c4d-4bc1-97d9-c34439beb7e1",
+    "response_id": "chatcmpl-EX8DuMARnXYXZnb0IbjV2iDmvSw4w",
+    "usage": {
+      "completion_tokens": 888,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 749,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10232,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9129,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11120
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section metadata",
+        "severity": "minor",
+        "source_quote": "THE GODLY HOME",
+        "suggested_fix": "धर्मपरायण घर",
+        "translation_quote": "धार्मिक परिवार"
+      },
+      {
+        "location": "Paragraph beginning “हमारे समाज ने वाचा की समझ खो दी है”",
+        "severity": "minor",
+        "source_quote": "“covenant theology”",
+        "suggested_fix": "“वाचा-सिद्धांत” या “वाचा का धर्मशास्त्र”",
+        "translation_quote": "“वाचा-विज्ञान”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

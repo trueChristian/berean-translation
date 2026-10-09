@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 23, numbered list item 7\",\"severity\":\"major\",\"source_quote\":\"“he kept the best of the loot—ostensibly as an offering to God”\",\"suggested_fix\":\"Replace “שמר לעצמו את השלל הטוב ביותר” with “שמר את השלל הטוב ביותר”; the source does not say Saul kept it for himself.\",\"translation_quote\":\"“הוא שמר לעצמו את השלל הטוב ביותר — לכאורה כמנחה לאלוהים”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 538,
+    "content_evidence_truncated": false,
+    "content_sha256": "b8828b4656c17cfd78f17b0986c08c87fc672afdb3c0f961cce1bac216ef4ef1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 999,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10763,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13009
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

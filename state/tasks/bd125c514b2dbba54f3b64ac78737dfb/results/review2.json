@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cbeb5149-3c10-4a1e-a0c9-bbfdc9ac3ea2",
+    "response_id": "chatcmpl-EX8DvSF4MY4nTu71v38EjQN0mt3Oh",
+    "usage": {
+      "completion_tokens": 1028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 856,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10624,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12755
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Det finns två diken”; Job 14:5 quotation",
+        "severity": "major",
+        "source_quote": "“Seeing his days are determined, the number of his months are with thee, thou hast appointed his bounds that he cannot pass”",
+        "suggested_fix": "“Människans dagar är bestämda, hennes månaders antal är känt för dig, du har satt hennes gränser som hon inte kan överskrida”",
+        "translation_quote": "“Eftersom hennes dagar är bestämda, hennes månaders antal känt för dig, och du har satt en gräns som hon inte kan överskrida”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "第5段",
+      "severity": "minor",
+      "source_quote": "“while Mary was sitting in the eternal one”",
+      "suggested_fix": "可译为“而马利亚却安坐在永恒的事上”，避免把“the eternal one”解释成“永恒的需要”。",
+      "translation_quote": "“而马利亚却坐在那永恒的需要旁”"
+    },
+    {
+      "location": "第10段",
+      "severity": "minor",
+      "source_quote": "“immoral, imprudent, and improvident people”",
+      "suggested_fix": "将“不知节制”改为更接近“improvident”（缺乏远见、不为将来打算）的表达，例如“缺乏远见”。",
+      "translation_quote": "“不道德、不谨慎、不知节制的人”"
+    },
+    {
+      "location": "第14段",
+      "severity": "minor",
+      "source_quote": "“As an advocate of men and of God”",
+      "suggested_fix": "可将“代言人”改为“代求者”，以保留摩西在人与神之间为人代求的意思。",
+      "translation_quote": "“作为人与神的代言人”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

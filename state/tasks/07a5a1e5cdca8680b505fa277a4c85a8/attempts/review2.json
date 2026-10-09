@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea 7, zin 3\",\"severity\":\"minor\",\"source_quote\":\"The great bane of our day is self-love and self-absorption.\",\"suggested_fix\":\"Vervang ‘zelfingenomenheid’ door ‘egocentrisme’ of ‘op zichzelf gericht zijn’, bijvoorbeeld: ‘De grote plaag van onze tijd is zelfliefde en egocentrisme.’\",\"translation_quote\":\"De grote plaag van onze tijd is zelfliefde en zelfingenomenheid.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 467,
+    "content_evidence_truncated": false,
+    "content_sha256": "95be9087a579fa2bcbfb23cc2836a7d9c8f8eaad3dd0ae2a1941d9c5df559f7c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8338,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10091
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

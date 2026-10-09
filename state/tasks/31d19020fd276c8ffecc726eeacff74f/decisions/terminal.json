@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Kufikia miaka ya 1990”",
+      "severity": "minor",
+      "source_quote": "“under one’s forearms”",
+      "suggested_fix": "Replace “chini ya mikono ya mtu” with “chini ya mikono ya mbele ya mtu” to specify the forearms.",
+      "translation_quote": "“chini ya mikono ya mtu”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о сыновьях Скевы\",\"severity\":\"minor\",\"source_quote\":\"their willingness to broadcast the “Jesus” that they have heard of\",\"suggested_fix\":\"заменить «когда готовы разглашать услышанное ими об „Иисусе“» на «когда готовы проповедовать об услышанном ими „Иисусе“»\",\"translation_quote\":\"когда готовы разглашать услышанное ими об «Иисусе»\"},{\"location\":\"Последний абзац\",\"severity\":\"minor\",\"source_quote\":\"Those whose sole purpose and priorities are governed by God.\",\"suggested_fix\":\"«Те, чьими единственными целью и приоритетами руководит Бог.»\",\"translation_quote\":\"Те, чьи единственная цель и приоритеты определяются Богом.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 997,
+    "content_evidence_truncated": false,
+    "content_sha256": "482baf4513c9f2ce78f772ee0e0a2d3638a37a4f2b6b5fdc7d6d6385e4c5e1d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 977,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8218,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 8215
+      },
+      "total_tokens": 9405
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -45,18 +44,47 @@
         },
         "total_tokens": 12581
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1212,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8358,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7255,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9570
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[8]/strong[1]; translation /article[1]/p[8]",
-      "severity": "critical",
-      "source_quote": "…feeding the hungry. Likewise, the woman with the precious <em>alabaster box of ointment of spikenard</em> could have sold it and supplied the poor for quite a while with the sum of its value. But the <strong>real</strong> gap could not be filled by caressing the cripple, but by crowning the Christ. In the Garden of Eden there was no gap, for man walked in perfect harmony with his Creator. It was sin that created the gap and rankled the relationship. Also, there will be no breach at the end of time when the Lamb receives His bride. Until then, we have a large gap that exists because this eart…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[31:33], translation signature[31:31], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "…tid med vad den var värd. Men det verkliga gapet kunde inte fyllas genom att smeka den krympling som behövde hjälp, utan genom att kröna Kristus. I Edens lustgård fanns inget gap, för människan vandrade i fullkomlig harmoni med sin Skapare. Det var synden som skapade gapet och skadade relationen. Och det kommer inte heller att finnas något brott när tiden är slut och Lammet tar emot sin brud. Fram till dess finns det ett stort gap, eftersom denna jord vägrar att förhärliga sin Skapare. Att ställa sig i det gapet måste vara det främsta syftet för alla som strävar efter att bära hans namn.</p>"
+      "location": "Revelation 4:11 quotation",
+      "severity": "major",
+      "source_quote": "for thy pleasure they are and were created",
+      "suggested_fix": "... ty du har skapat allt, och för din skull blev det till och skapades det.",
+      "translation_quote": "ty du har skapat allt, och genom din vilja blev det till och skapades det."
+    },
+    {
+      "location": "Galatians 1:10 quotation and version attribution",
+      "severity": "major",
+      "source_quote": "–Gal 1:10 ASV",
+      "suggested_fix": "Keep the Swedish quotation faithful to the printed English meaning and attribute it to ASV, not to Svenska Folkbibeln.",
+      "translation_quote": "–Gal 1:10, Svenska Folkbibeln"
     }
   ],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "3ab537c52431b3eadd96257e2163a673",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swe",
@@ -145,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9ab9d6d6df6caaf13c8b9631c4d7cb443f5307e7edaa20779027133299e266b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
   "translation_model_actual": "gpt-6-luna"

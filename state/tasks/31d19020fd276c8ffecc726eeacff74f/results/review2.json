@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1b4729da-aec5-4ec9-931b-c9ad1509d180",
+    "response_id": "chatcmpl-EX8DilimrXlughaNLZ53YmhqAW2oA",
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11286,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13312
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Kufikia miaka ya 1990”",
+        "severity": "minor",
+        "source_quote": "“under one’s forearms”",
+        "suggested_fix": "Replace “chini ya mikono ya mtu” with “chini ya mikono ya mbele ya mtu” to specify the forearms.",
+        "translation_quote": "“chini ya mikono ya mtu”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

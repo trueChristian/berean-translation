@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -45,18 +44,53 @@
         },
         "total_tokens": 17785
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 732,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11686,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10583,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12712
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/strong[1]; translation /article[1]/p[11]/strong[1]",
-      "severity": "critical",
-      "source_quote": "…lect a person’s spiritual health, and they are both in a state of defiance toward God. So where am I going with this? Most Christians, who I know, do not pursue physical health at any cost. Bear with me then, as I would like to take the remainder of this article (and the next article) to give you a history of <strong><em>Regenerative Medicine</em></strong>—this <strong>“redoing of genesis.”</strong> Does it live up to its claims? Are there scams? What are the pitfalls? What does the future hold? Most importantly, how does it impact our spiritual health and our relationship with the Lord?</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[46:48], translation signature[46:46], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>سيوافق معظم القراء عند هذه النقطة على أن طرفي الطيف يشتركان في أمر واحد: فكلاهما يهمل الصحة الروحية للإنسان، وكلاهما في حالة تحدٍّ لله. إلى أين أريد الوصول بهذا الكلام؟ إن معظم المسيحيين الذين أعرفهم لا يسعون إلى الصحة الجسدية مهما كان الثمن. لذا أرجو أن تصبروا عليّ، إذ أود أن أخصص بقية هذا المقال (والمقال التالي) لأقدم لكم تاريخ <strong><em>الطب التجديدي</em></strong>—أي «إعادة الخلق» هذه. هل يفي بوعوده؟ هل توجد عمليات احتيال؟ ما المزالق؟ ماذا يخبئ المستقبل؟ والأهم من ذلك، كيف يؤثر في صحتنا الروحية وعلاقتنا بالرب؟</p>"
+      "location": "Paragraph beginning «هل من خطأ في استبدال الأجزاء المعطوبة»; Philippians 4:5 quotation",
+      "severity": "minor",
+      "source_quote": "“Let your moderation be known unto all men.”",
+      "suggested_fix": "«ليكن اعتدالكم معروفًا عند جميع الناس.»",
+      "translation_quote": "«ليكن حلمكم معروفًا عند جميع الناس.»"
+    },
+    {
+      "location": "Endnotes, item 1",
+      "severity": "minor",
+      "source_quote": "Recent achievements in experimental and clinical islet transplantation.",
+      "suggested_fix": "«إنجازات حديثة في زراعة جزر البنكرياس التجريبية والسريرية.»",
+      "translation_quote": "«إنجازات حديثة في زراعة الجزر التجريبية والسريرية.»"
+    },
+    {
+      "location": "Paragraph beginning «هناك بدائل»; ninth item in the reasons list",
+      "severity": "minor",
+      "source_quote": "“Following Christ often times follows the more arduous path, rather than the path of least resistance.”",
+      "suggested_fix": "«غالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة، لا طريق المقاومة الأقل.»",
+      "translation_quote": "«وغالبًا ما يكون اتباع المسيح سلوكًا للطريق الأشد مشقة بدلًا من طريق المقاومة الأقل.»"
     }
   ],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "458f07fa50645847ca6aacf021b0c625",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ara",
@@ -145,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

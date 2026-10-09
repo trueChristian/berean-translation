@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation",
+      "severity": "minor",
+      "source_quote": "It is <u>finished:</u>",
+      "suggested_fix": "Τελείωσε<u>:</u> → <u>Τελείωσε:</u>",
+      "translation_quote": "<strong>Τελείωσε<u>:</u></strong>"
+    },
+    {
+      "location": "Paragraph beginning «Εδώ αρχίζουμε να βλέπουμε»",
+      "severity": "minor",
+      "source_quote": "These lists could each go on and fill page after page",
+      "suggested_fix": "Replace «Καθεμία από αυτές τις καταλόγους» with «Καθεμία από αυτές τις λίστες» (or «Κατάλογοι σαν κι αυτούς»).",
+      "translation_quote": "Καθεμία από αυτές τις καταλόγους θα μπορούσε να συνεχίζεται σελίδα τη σελίδα"
+    },
+    {
+      "location": "Section V heading",
+      "severity": "minor",
+      "source_quote": "What ALL was finished",
+      "suggested_fix": "Use a natural Greek heading that preserves the sense of all the things that were finished, e.g. «Τι ολοκληρώθηκε εξ ολοκλήρου».",
+      "translation_quote": "Τι ολοκληρώθηκε όλο"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

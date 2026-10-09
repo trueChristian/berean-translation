@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Romans 8:3–4 quotation",
+      "severity": "major",
+      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
+      "suggested_fix": "اس حصے میں قوسین کے اندر وضاحتی عبارت بھی شامل کریں، مثلاً: «جسم کے سبب سے کمزور تھی [یعنی جسم کے ذریعے جو کچھ کیا جا سکتا تھا اُس تک محدود تھی]»۔",
+      "translation_quote": "«جو کام شریعت جسمانی کمزوری کے سبب سے نہ کر سکی»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

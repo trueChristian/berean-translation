@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "minor",
+      "source_quote": "This was not true, however, regarding gender identification or “gay” marriage and family issues",
+      "suggested_fix": "Make clear that those issues did not face the same lack of public support and ridicule, for example: « En revanche, cela n’a pas été le cas pour les questions d’identité de genre, de mariage “gay” et de famille : ces positions ont bénéficié d’un soutien public et n’ont pas été largement ridiculisées. »",
+      "translation_quote": "Cela n’a toutefois pas été le cas pour les questions d’identité de genre, de mariage « gay » et de famille"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "धर्मपरायण घर",
+      "translation_quote": "धार्मिक परिवार"
+    },
+    {
+      "location": "Paragraph beginning “हमारे समाज ने वाचा की समझ खो दी है”",
+      "severity": "minor",
+      "source_quote": "“covenant theology”",
+      "suggested_fix": "“वाचा-सिद्धांत” या “वाचा का धर्मशास्त्र”",
+      "translation_quote": "“वाचा-विज्ञान”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

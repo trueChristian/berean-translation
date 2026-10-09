@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a280994-0ff5-49cd-ab05-c9f9527c2004",
+    "response_id": "chatcmpl-EX8DxuknQm6SOK2Nt7n0Rt9jiPrl4",
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 999,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10763,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13009
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 23, numbered list item 7",
+        "severity": "major",
+        "source_quote": "“he kept the best of the loot—ostensibly as an offering to God”",
+        "suggested_fix": "Replace “שמר לעצמו את השלל הטוב ביותר” with “שמר את השלל הטוב ביותר”; the source does not say Saul kept it for himself.",
+        "translation_quote": "“הוא שמר לעצמו את השלל הטוב ביותר — לכאורה כמנחה לאלוהים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

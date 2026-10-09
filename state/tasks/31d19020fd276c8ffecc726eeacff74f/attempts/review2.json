@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Kufikia miaka ya 1990”\",\"severity\":\"minor\",\"source_quote\":\"“under one’s forearms”\",\"suggested_fix\":\"Replace “chini ya mikono ya mtu” with “chini ya mikono ya mbele ya mtu” to specify the forearms.\",\"translation_quote\":\"“chini ya mikono ya mtu”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 366,
+    "content_evidence_truncated": false,
+    "content_sha256": "a15f4ea79a00e58f89a3bf15030bbece6e69e0a9b65ae348aabc08d21c29d955",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11286,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13312
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 23, numbered list item 7",
+      "severity": "major",
+      "source_quote": "“he kept the best of the loot—ostensibly as an offering to God”",
+      "suggested_fix": "Replace “שמר לעצמו את השלל הטוב ביותר” with “שמר את השלל הטוב ביותר”; the source does not say Saul kept it for himself.",
+      "translation_quote": "“הוא שמר לעצמו את השלל הטוב ביותר — לכאורה כמנחה לאלוהים”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

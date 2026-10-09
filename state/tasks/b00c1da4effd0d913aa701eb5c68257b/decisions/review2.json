@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "IV. 그리스도의 사랑으로 거룩하게 하심, 로마서 8:3–4 인용",
+      "severity": "major",
+      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
+      "suggested_fix": "해당 설명을 “율법이 육신으로 말미암아 연약하여 [육신으로 이룰 수 있는 것에 제한되어] 할 수 없는 그것을”처럼 ‘육신으로 말미암아 연약하여’ 바로 뒤에 배치하세요.",
+      "translation_quote": "“율법이 육신으로 말미암아 연약하여 할 수 없는 그것을 하나님은 하시나니 곧 죄를 인하여 자기 아들을 죄 있는 육신의 모양으로 보내어 육신에 죄를 정하사 [율법이 육신으로 이룰 수 있는 데 제한되어 있었기에]”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

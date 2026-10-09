@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a73ed183-17f7-4ef9-bb51-1df587ebce74",
+    "response_id": "chatcmpl-EX8E2NE7ak5U4EQEyWUF75Jog1MeH",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8613,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10301
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section metadata",
+        "severity": "minor",
+        "source_quote": "THE GODLY HOME",
+        "suggested_fix": "הבית ירא־האלוהים",
+        "translation_quote": "הבית ירא האלוהים"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

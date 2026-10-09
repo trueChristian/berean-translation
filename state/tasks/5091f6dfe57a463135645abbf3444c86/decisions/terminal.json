@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "הבית ירא־האלוהים",
+      "translation_quote": "הבית ירא האלוהים"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

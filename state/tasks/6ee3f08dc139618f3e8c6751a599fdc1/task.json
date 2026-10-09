@@ -2,7 +2,6 @@
   "article_id": "fdeac3b1-1f65-4a08-be46-c3bdca309210",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -45,18 +44,39 @@
         },
         "total_tokens": 6144
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 847,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 673,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4402,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4399,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5249
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Source /article[1]/p[6]/em[1]; translation /article[1]/p[6]",
-      "severity": "critical",
-      "source_quote": "<p>Without God, man does what is right in his own eyes. So-called “progressive thinking” is simply man’s attempt, given his rejection of God, at <em>better</em> understanding the world and <em>better</em> addressing and solving its problems. Essentially, “anything goes” based upon the latest of ideas.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[18:22], translation signature[18:18], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>Sans Dieu, l’homme fait ce qui lui semble juste. La prétendue « pensée progressiste » n’est que la tentative de l’homme, qui rejette Dieu, de mieux comprendre le monde et de mieux aborder et résoudre ses problèmes. En somme, « tout est permis », selon les idées les plus récentes.</p>"
+      "location": "HTML, paragraph 4",
+      "severity": "minor",
+      "source_quote": "This was not true, however, regarding gender identification or “gay” marriage and family issues",
+      "suggested_fix": "Make clear that those issues did not face the same lack of public support and ridicule, for example: « En revanche, cela n’a pas été le cas pour les questions d’identité de genre, de mariage “gay” et de famille : ces positions ont bénéficié d’un soutien public et n’ont pas été largement ridiculisées. »",
+      "translation_quote": "Cela n’a toutefois pas été le cas pour les questions d’identité de genre, de mariage « gay » et de famille"
     }
   ],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "6ee3f08dc139618f3e8c6751a599fdc1",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "fra",
@@ -145,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2577472f0808b8b850707a207dff1df0a56cd823f7abb48ed47b998fb535c87b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b",
   "translation_model_actual": "gpt-6-luna"

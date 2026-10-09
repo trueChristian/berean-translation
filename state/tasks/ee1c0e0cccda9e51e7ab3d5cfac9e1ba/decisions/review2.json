@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Ik denk dat we het er allemaal over eens kunnen zijn”",
+      "severity": "major",
+      "source_quote": "“who sacrificed and endured the destruction of their bodies, glorifying God”",
+      "suggested_fix": "Vervang de betreffende passage door: “die hun lichaam hebben opgeofferd en de verwoesting ervan hebben doorstaan om God te verheerlijken”",
+      "translation_quote": "“die de verwoesting van hun lichaam hebben opgeofferd en doorstaan om God te verheerlijken”"
+    },
+    {
+      "location": "Paragraph beginning “Vooruitgang op het gebied van anesthesie”",
+      "severity": "minor",
+      "source_quote": "“complex organs, such as a brain”",
+      "suggested_fix": "Vervang “zoals een hersen” door “zoals een brein”.",
+      "translation_quote": "“complexe organen, zoals een hersen”"
+    },
+    {
+      "location": "Point 3 in the first numbered list",
+      "severity": "minor",
+      "source_quote": "“Some Christians are keen to use this verse to justify going to war.”",
+      "suggested_fix": "Vervang “om ten strijde trekken te rechtvaardigen” door “om het ten strijde trekken te rechtvaardigen”.",
+      "translation_quote": "“Sommige christenen grijpen graag naar dit vers om ten strijde trekken te rechtvaardigen.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

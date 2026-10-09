@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "III. Kasih Kristus merangkul penderitaan; kutipan 1Ptr 3:1-2",
+      "severity": "minor",
+      "source_quote": "While they behold your chaste conversation coupled with fear.",
+      "suggested_fix": "Pertimbangkan menerjemahkannya sebagai “ketika mereka melihat kemurnian hidupmu yang disertai rasa hormat” agar unsur “fear” tetap tersampaikan.",
+      "translation_quote": "jika mereka melihat kemurnian dan kesalehan hidup istri mereka."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -45,18 +44,47 @@
         },
         "total_tokens": 9779
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 952,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 672,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6471,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5368,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7423
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
-      "severity": "critical",
-      "source_quote": "…se people called Anabaptists. I began to read about them, and how they, too would not be silent. I ordered the Martyr’s Mirror and was astounded at what I read. These dear people lived like the disciples that we find in the Bible. They fulfilled the things Jesus said,—<em>And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved. –Mat 10:22.</em> And in Romans, <em>As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. –Rom 8:36.</em> After some time, I found a church with an Anabaptist vision.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[16:16], translation signature[16:18], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>J’ai ensuite entendu parler de ces gens qu’on appelait anabaptistes. J’ai commencé à lire à leur sujet, et à découvrir qu’eux non plus ne se taisaient pas. J’ai commandé le <em>Martyrs’ Mirror</em> et j’ai été stupéfait par ce que j’y ai lu. Ces chers croyants vivaient comme les disciples que nous trouvons dans la Bible. Ils ont accompli ces paroles de Jésus : <em>Vous serez haïs de tous à cause de mon nom ; mais celui qui persévérera jusqu’à la fin sera sauvé. –Mt 10:22.</em> Et dans Romains : <em>Selon qu’il est écrit : À cause de toi, nous sommes mis à mort tout le jour, nous sommes re…"
+      "location": "Article, paragraph 6, Matthew 13:22 quotation",
+      "severity": "major",
+      "source_quote": "“the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.”",
+      "suggested_fix": "<em>Celui qui a reçu la semence parmi les épines, c’est celui qui entend la parole ; mais les soucis de ce monde et la séduction des richesses étouffent la parole, et il devient infructueux. –Mt 13:22.</em>",
+      "translation_quote": "« les soucis de ce monde et la séduction des richesses étouffent la parole, et elle devient infructueuse. »"
+    },
+    {
+      "location": "Article, paragraph 9, 1 Timothy 2:1 quotation",
+      "severity": "minor",
+      "source_quote": "“supplications, prayers, intercessions, and giving of thanks”",
+      "suggested_fix": "Remplacer « supplications » dans la troisième position par « intercessions » afin de rendre distinctement « intercessions ».",
+      "translation_quote": "« des demandes, des prières, des supplications et des actions de grâces »"
     }
   ],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "e76bb1e5dc41d62888c1a181e98cd0d5",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "fra",
@@ -145,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

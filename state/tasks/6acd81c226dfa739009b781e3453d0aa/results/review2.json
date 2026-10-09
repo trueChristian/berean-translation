@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "908e97c9-8a58-483a-a9f9-a35fd47976c1",
+    "response_id": "chatcmpl-EX8ENXFDZJfPEDmQcvNiGGPCIg6Vn",
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 750,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9737,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8634,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10631
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "III. Kasih Kristus merangkul penderitaan; kutipan 1Ptr 3:1-2",
+        "severity": "minor",
+        "source_quote": "While they behold your chaste conversation coupled with fear.",
+        "suggested_fix": "Pertimbangkan menerjemahkannya sebagai “ketika mereka melihat kemurnian hidupmu yang disertai rasa hormat” agar unsur “fear” tetap tersampaikan.",
+        "translation_quote": "jika mereka melihat kemurnian dan kesalehan hidup istri mereka."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

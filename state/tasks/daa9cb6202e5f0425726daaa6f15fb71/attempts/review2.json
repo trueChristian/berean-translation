@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पैराग्राफ 7\",\"severity\":\"minor\",\"source_quote\":\"because they were the dreaded Anabaptists\",\"suggested_fix\":\"क्योंकि वे ऐनाबैप्टिस्ट थे, जिनसे लोग डरते थे।\",\"translation_quote\":\"क्योंकि वे भयभीत करने वाले ऐनाबैप्टिस्ट थे\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 465,
+    "content_evidence_truncated": false,
+    "content_sha256": "18c8584cba2ee52c104accc3e98d8e705755774acd9de16042aee1c25b3e31f0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6850
+      },
+      "total_tokens": 7471
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

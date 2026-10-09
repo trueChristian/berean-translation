@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -45,18 +44,31 @@
         },
         "total_tokens": 10682
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 878,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 840,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6920,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5817,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7798
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/span[1]",
-      "severity": "critical",
-      "source_quote": "…se people called Anabaptists. I began to read about them, and how they, too would not be silent. I ordered the Martyr’s Mirror and was astounded at what I read. These dear people lived like the disciples that we find in the Bible. They fulfilled the things Jesus said,—<em>And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved. –Mat 10:22.</em> And in Romans, <em>As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. –Rom 8:36.</em> After some time, I found a church with an Anabaptist vision.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[16:16], translation signature[16:18], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>بعد میں مجھے ان لوگوں کے بارے میں معلوم ہوا جنہیں انابپٹسٹ کہا جاتا تھا۔ میں نے ان کے بارے میں پڑھنا شروع کیا، اور یہ بھی کہ وہ بھی خاموش نہیں رہتے تھے۔ میں نے <span>Martyr’s Mirror</span> منگوائی اور جو کچھ پڑھا اس پر دنگ رہ گیا۔ یہ عزیز لوگ ان شاگردوں کی طرح زندگی گزارتے تھے جنہیں ہم بائبل میں دیکھتے ہیں۔ انہوں نے یسوع کی کہی ہوئی باتیں پوری کیں—<em>اور میرے نام کے سبب سے سب لوگ تم سے عداوت رکھیں گے، لیکن جو آخر تک برداشت کرے گا وہ نجات پائے گا۔ –متی 10:22۔</em> اور رومیوں میں: <em>چنانچہ لکھا ہے کہ ہم تیری خاطر دن بھر مارے جاتے ہیں؛ ہم ذبح ہونے والی بھیڑوں کے برابر گنے جاتے ہیں۔ –رومیو…"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "9f2a246ac14dea22f0417014e357e3fc",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "urd",
@@ -145,11 +157,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

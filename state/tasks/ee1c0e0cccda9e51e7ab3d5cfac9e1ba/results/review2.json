@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "060dc9b9-6248-43f4-ae42-f6a25e0d6073",
+    "response_id": "chatcmpl-EX8Dlsh9GbHOE3VtstHRgMOpS4tyH",
+    "usage": {
+      "completion_tokens": 1333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10347,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12783
+    }
+  },
+  "received_at": "2026-10-09T20:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Ik denk dat we het er allemaal over eens kunnen zijn”",
+        "severity": "major",
+        "source_quote": "“who sacrificed and endured the destruction of their bodies, glorifying God”",
+        "suggested_fix": "Vervang de betreffende passage door: “die hun lichaam hebben opgeofferd en de verwoesting ervan hebben doorstaan om God te verheerlijken”",
+        "translation_quote": "“die de verwoesting van hun lichaam hebben opgeofferd en doorstaan om God te verheerlijken”"
+      },
+      {
+        "location": "Paragraph beginning “Vooruitgang op het gebied van anesthesie”",
+        "severity": "minor",
+        "source_quote": "“complex organs, such as a brain”",
+        "suggested_fix": "Vervang “zoals een hersen” door “zoals een brein”.",
+        "translation_quote": "“complexe organen, zoals een hersen”"
+      },
+      {
+        "location": "Point 3 in the first numbered list",
+        "severity": "minor",
+        "source_quote": "“Some Christians are keen to use this verse to justify going to war.”",
+        "suggested_fix": "Vervang “om ten strijde trekken te rechtvaardigen” door “om het ten strijde trekken te rechtvaardigen”.",
+        "translation_quote": "“Sommige christenen grijpen graag naar dit vers om ten strijde trekken te rechtvaardigen.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section II.b, paragraph beginning “Há uma passagem que devemos observar”",
+      "severity": "major",
+      "source_quote": "For he [God] hath made him [Jesus] to be sin for us, who [Jesus] knew no sin… –2Co 5:21.",
+      "suggested_fix": "Revise the quotation so God is the one who made Jesus an offering for sin, and Jesus is the one who knew no sin; for example: “Pois Deus [ele] fez Jesus [ele] oferta pelo pecado por nós, embora Jesus [ele] não conhecesse pecado… –2Co 5:21.”",
+      "translation_quote": "Àquele [Deus] que não conheceu pecado, o fez [Jesus] pecado por nós… –2Co 5:21."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

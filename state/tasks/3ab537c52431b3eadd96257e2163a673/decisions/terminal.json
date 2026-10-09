@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Revelation 4:11 quotation",
+      "severity": "major",
+      "source_quote": "for thy pleasure they are and were created",
+      "suggested_fix": "... ty du har skapat allt, och för din skull blev det till och skapades det.",
+      "translation_quote": "ty du har skapat allt, och genom din vilja blev det till och skapades det."
+    },
+    {
+      "location": "Galatians 1:10 quotation and version attribution",
+      "severity": "major",
+      "source_quote": "–Gal 1:10 ASV",
+      "suggested_fix": "Keep the Swedish quotation faithful to the printed English meaning and attribute it to ASV, not to Svenska Folkbibeln.",
+      "translation_quote": "–Gal 1:10, Svenska Folkbibeln"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

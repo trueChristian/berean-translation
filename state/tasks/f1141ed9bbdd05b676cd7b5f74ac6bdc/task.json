@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ffd40cee29d45bcbe303a5436d21ed8",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -45,18 +44,54 @@
         },
         "total_tokens": 17674
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1188,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 847,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11762,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10659,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12950
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/em[1]/u[1]; translation /article[1]/p[11]/em[1]",
-      "severity": "critical",
-      "source_quote": "<p><em>But we see Jesus, who was made a little lower than the angels for the <u>suffering of death</u>, crowned with glory and honour; that he by the grace of God should <u>taste death for every man.</u> For it became him, for whom are all things, and by whom are all things, in bringing many sons unto glory, to make the captain of their salvation perfect through sufferings. –Heb 2:9-10.</em> When you partake of communion <em>…ye do shew the Lord’s death till he come –1Co 11:26.</em></p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[100:104], translation signature[100:100], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><em>Men vi ser Jesus, som en liten tid var ringare än änglarna, krönt med härlighet och ära därför att han led döden, för att han genom Guds nåd skulle smaka döden för alla. Det var värdigt honom, för vars skull allt är till och genom vilken allt är till, att när han förde många söner till härlighet göra deras frälsnings upphovsman fullkomlig genom lidanden. – Heb 2:9–10.</em> När ni firar nattvard <em>…förkunnar ni Herrens död till dess han kommer – 1 Kor 11:26.</em></p>"
+      "location": "Romans 3:23–25 quotation",
+      "severity": "major",
+      "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+      "suggested_fix": "Replace “en nådastol” with wording that conveys “a propitiation,” such as “ett försoningsoffer”, while preserving the rest of the quotation.",
+      "translation_quote": "“Honom har Gud ställt fram som en nådastol genom tron på hans blod”"
+    },
+    {
+      "location": "IV. What the Atonement DOES do, items f–g",
+      "severity": "major",
+      "source_quote": "“It provides forgiveness of sins”; “It provides remission of sins”",
+      "suggested_fix": "Keep the two distinct concepts distinct in Swedish: retain “Den ger syndernas förlåtelse” for forgiveness and use a separate rendering for remission, such as “Den ger syndernas avlösning.”",
+      "translation_quote": "“Den ger syndernas förlåtelse”; “Den ger syndernas förlåtelse”"
+    },
+    {
+      "location": "V. What ALL was finished, item e",
+      "severity": "major",
+      "source_quote": "“The law—was our schoolmaster to bring us unto Christ”",
+      "suggested_fix": "Replace “övervakare” with “fostrare” or another Swedish term conveying a tutor/guardian who leads us to Christ.",
+      "translation_quote": "“Lagen – var vår övervakare för att föra oss till Kristus”"
     }
   ],
+  "finished_at": "2026-10-09T20:49:16+00:00",
   "id": "f1141ed9bbdd05b676cd7b5f74ac6bdc",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swe",
@@ -145,11 +180,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

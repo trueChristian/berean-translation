@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «لكن لم تكن نية الله قط أن تحكم الشريعة علاقتنا به»; Romans 8:3–4 quotation",
+      "severity": "minor",
+      "source_quote": "That the righteousness of the law [the full and complete fulfillment of the law] might be fulfilled in us",
+      "suggested_fix": "Replace «لكي يتم فينا حكم الشريعة العادل [أي استيفاء الشريعة بالكامل]» with «لكي يتم فينا برّ الشريعة [أي استيفاء الشريعة بالكامل]».",
+      "translation_quote": "لكي يتم فينا حكم الشريعة العادل [أي استيفاء الشريعة بالكامل]"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

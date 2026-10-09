@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Den mest dramatiske åpenbaringen av paktskjærlighet»; quotation, Jesaja 55:6–7",
+      "severity": "major",
+      "source_quote": "“and let him return unto the LORD, and he will have mercy upon him; and to our God, for he will abundantly pardon.”",
+      "suggested_fix": "Replace the end of the quotation with: «…og vende om til Herren, så vil han vise ham barmhjertighet, og til vår Gud, for han tilgir rikt.»",
+      "translation_quote": "«…og vende om til Herren, så skal han vise barmhjertighet, til vår Gud, for han tilgir rikt.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Überschrift III.2 und zugehöriger Absatz",
+      "severity": "minor",
+      "source_quote": "The Health, Wealth, and Prosperity Gospel",
+      "suggested_fix": "Die Überschrift präziser als „Das Gesundheits-, Wohlstands- und Erfolgsevangelium“ oder idiomatisch als „Das Wohlstands- und Gesundheitsevangelium“ wiedergeben.",
+      "translation_quote": "Das Wohlstands- und Erfolgsevangelium"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

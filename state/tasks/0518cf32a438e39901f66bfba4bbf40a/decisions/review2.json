@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "NYUMBA INAYOMCHA MUNGU",
+      "translation_quote": "NYUMBA YA KIMUNGU"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
