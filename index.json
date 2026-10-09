@@ -73,6 +73,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "a641b3351d20a80aea9bca04ec09f21b233e9567b70efe31479d24c2ee7f11b4",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie kniel voor Vrou Friesland en ander amptenare",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "570df13f5804a5be625e754507a16931fcb829c2685ec35b19e6318708f9f367",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASIE VIR JONGMENSE",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DIE INKWISISIE van Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "eeaff1d99159ab5152a3de767f74d383d0515ee7858fc42d07335ee4f2e0a8d2",
       "human_reviewed": false,
@@ -840,6 +868,34 @@
       "subtitle": null,
       "title": "Beantwoord God Gebed?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "56f84f2fa01ee7bf2974f75f020ac5dc50d3cbee9a7c113d81901f86286ffe57",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Sonstrale wat deur donker wolke skyn",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "4f7bc86ed0fd3ffd5cf46d78693c8e82652c9cb6694dc49389ec30ca85d5c262",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "FEATURED ARTICLE",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "God in die wolk",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -9411,6 +9467,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "e7c812be0b28c5940dad04b43b2caf26a669fbe15f94eb0e16dbcfe5c166a386",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "阳光穿透乌云照射下来",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "cb6ce7279ca138000b9e8e682ad838087f1073b0ef058f311eb0ad845fe93e6f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "精选文章",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "云中的上帝",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "33a25ef2f60c322fce37c8d3ebe6be865bc5a1cda9102230732b6516778c4551",
       "human_reviewed": false,
@@ -11599,6 +11683,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "bf1c48e7e05894fbe08f5d9f6457a863d1bc70a6ac169282abfe120bcf41b0f6",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie kniet vor der Herrin von Friesland und anderen Amtsträgern",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "934600d023387ca6b6224defe188db70402b6036ce9cd555d3f62129557a2e68",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATIONEN FÜR JUGENDLICHE",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DIE INQUISITION von Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "5956a18252b3d2f7fcbe2f6f932d782659e167e182302aebc5980a0683b4ee3d",
       "human_reviewed": false,
@@ -12024,6 +12136,34 @@
       "subtitle": null,
       "title": "Die Torheit der Predigt",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "1959c5674d1d479c446b804f41fa85134714656ae5536ffdc7d00445750c55ef",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Sonnenstrahlen, die durch dunkle Wolken scheinen",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "3698f333535f8b99e868704d3957fc9f93f1bdb613dea998be590b1bef15f2a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "HERVORGEHOBENER ARTIKEL",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gott in der Wolke",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -14014,6 +14154,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "bded9a00713546b93ee722b3babf71cb402d6eddaf10d63d3f9fb950a687d65f",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Ο Ζακ Ντόσι γονατισμένος μπροστά στην αρχόντισσα της Φρίσλαντ και άλλους αξιωματούχους",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "bf685f79fda35fd32bd43818b42085f945d1fc86ed6cad919d9890382cac6aaa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η ΙΕΡΑ ΕΞΕΤΑΣΗ ΤΟΥ ΖΑΚ ΝΤΟΣΙ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "ae569e64c9cec55b2869ca709076a9a1a512e65241e58b2381fc66582c64ff00",
       "human_reviewed": false,
@@ -14577,6 +14745,34 @@
       "subtitle": null,
       "title": "Απαντά ο Θεός στην προσευχή;",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "391e8ac3c6e29f120ee081c5afddd302c9a6a7a562560c4d4a2c2436708cbba2",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Αχτίδες του ήλιου διαπερνούν σκοτεινά σύννεφα",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "b2f82ea71d0be7f8b4d2c65c86b07c1b07e22d1135be70146bd82fb01f2bf923",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΠΡΟΒΕΒΛΗΜΕΝΟ ΑΡΘΡΟ",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Θεός μέσα στο σύννεφο",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -16976,6 +17172,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "253b8d8619da7e01d43843db2e80f9ee3c02b8e8f28bc1b826279b490a65395b",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie agenouillé devant la dame de Friesland et d’autres représentants des autorités",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "05bf5ea46d034bef2b9652f57273c5cb55ec476c3ff7332020c24bc4def6fd91",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATIONS POUR LES JEUNES",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’INQUISITION de Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "f229539a6551ed77ccf71cceec574f0715e83f176310211c170424cd486ccd17",
       "human_reviewed": false,
@@ -17798,6 +18022,34 @@
       "subtitle": null,
       "title": "La folie de la prédication",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "2693c1bdf5b0f351dec7dd9b0d92d046d1d7ae669e35ad9c6a65e92dbb86c637",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Rayons de soleil traversant des nuages sombres",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "7261a661fa5a508a0ca6e90bd53abbbf318af354e302f54a38ffb815bb26cbd5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTICLE À LA UNE",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dieu dans le nuage",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -28321,6 +28573,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "8367627ce02862e7094b73435c92b8c23f3eabab313dffc7ecc545076bda9070",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie inginocchiato davanti alla signora di Friesland e ad altri funzionari",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "93f260c2ac46068781aced1d9b54a549dea00457f05c511caa14557bc449eba6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ISPIRAZIONI PER I GIOVANI",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’INQUISIZIONE DI JACQUES DOSIE",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "e532e8531227742f05d015f4d7f7a1addb8867a1783defa3994b7e4b30650c97",
       "human_reviewed": false,
@@ -29040,6 +29320,34 @@
       "subtitle": null,
       "title": "Dio risponde alla preghiera?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "e3f18052614e4db878aaafba10540f4fc866e9f5c6feff84a056263d0635719f",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Raggi di sole che filtrano tra nuvole scure",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "0c1f8238c2de84d92b6271010853061a97ff40005cca742bec0836333ceab720",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTICOLO IN EVIDENZA",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dio nella nuvola",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31968,6 +32276,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "f4f4051a0122ae81bf9878391e3e1e3513eb0b4f5a37d2f5e9613368d73f8531",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "자크 도시가 프리슬란트 부인과 다른 관리들 앞에 무릎을 꿇고 있다",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "889460e969366ebf4ec80a0b4b0f747d90835b31a1243cc7063cbda1398b570f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "청년을 위한 영감",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "자크 도시의 종교재판",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
       "html_sha256": "e17a9efd1d61ec363012ffc39e3a36ef4a9bad3f4e0d49e8f9d5ae538d35932e",
       "human_reviewed": false,
@@ -32611,6 +32947,34 @@
       "subtitle": null,
       "title": "하나님은 기도에 응답하시는가?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "6bd3eb6e0cb4c33b9d98510ff0e524d94b02c89e746e55a1e6d0b4648c791e51",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "어두운 구름 사이로 비치는 햇살",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "1d433255607e307958a098388b04cba5e4147ecfb69d6a447bbee888d62a426e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "특집 기사",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "구름 속의 하나님",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -35118,6 +35482,34 @@
       "subtitle": null,
       "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "4d4e73f46366b800bed6746bfddd943edeeb103f05ed0daf7f9bd22ab43812c4",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie knielt voor vrouwe Friesland en andere functionarissen",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "2c5e8e8e7070904c3cd3f2347a5aee4f1d961eddc0193ba99d1fe5eddd0d3f92",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATIES VOOR JONGEREN",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DE INQUISITIE VAN JACQUES DOSIE",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -38687,6 +39079,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "cde2bcaf273671d186a47f53f66b421a530bcecff1ab580033ec3b9aedb2e9a4",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie kneler foran fruen av Friesland og andre embetsmenn",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "b2c5099445c9b5ff14d9304a801e4700010d2e2d9120c3e49d006ab306d4bdf4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASJON FOR UNGDOM",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "INKVISISJONEN mot Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "045d0cc4ee6f610845e6c0624d1293c80d5acc6d457b9d7a3f560f5a92e39d81",
       "human_reviewed": false,
@@ -39343,6 +39763,34 @@
       "subtitle": null,
       "title": "Svarer Gud på bønn?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "50b0e8217059062cb37690632ee47d38fdf22ee7febafad3886918fdee111d96",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Solstråler som skinner gjennom mørke skyer",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "fe45a833ed925974d99ea802d6658ecb72584dea9a8a1cc4489e51bc0d55b19d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Utvalgt artikkel",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gud i skyen",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -41726,6 +42174,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "7c47afb1e08a3265aae2142bca3d9e175833f076b40a5a1115cae0145d4b2579",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie ajoelhado diante da senhora Friesland e de outros oficiais",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "4da740c5c9ff6819653790704369ef49c01a4d6366559b7caba88f0a5bdbe92d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRAÇÕES PARA JOVENS",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A INQUISIÇÃO de Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "92ebc2d26702cb939c53eed73b520375db2cd79d56c07b91f27265720a426c55",
       "human_reviewed": false,
@@ -42611,6 +43087,34 @@
       "subtitle": null,
       "title": "A Insensatez da Pregação",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "ad35dde56a5567d9e55bb86c21cbf801f19cfff633be8054a544e38ed1fe7551",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Raios de sol atravessando nuvens escuras",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "036c7c4d5e5a81ec96a549629087f284f06ffc3a00ab2e3179ff3b585f8f31a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTIGO EM DESTAQUE",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Deus na nuvem",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45830,6 +46334,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Бесчестие и утрата",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "56cdc7a40fdaba902ca6e9c7fd549d32448bb2844d70158cae19500d31516731",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Жак Дози преклонил колени перед леди Фрисландской и другими должностными лицами",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "619c53920734835503cfbb0d887531ad33e0f7d4110c6b32f8d94e2b62718cb4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "РАЗМЫШЛЕНИЯ ДЛЯ МОЛОДЁЖИ",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ИНКВИЗИЦИЯ Жака Дози",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -49599,6 +50131,34 @@
       "subtitle": null,
       "title": "La necedad de la predicación",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "63ad204d376ed9f1d723a16a37c0dd1f47455b4a683f743e9b02c27e269f3eb7",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Rayos de sol que brillan a través de nubes oscuras",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "c1c42b83ee0c61f566e0c9b4b51ff9791ab8650e8097808bc8d0d853affdb6e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTÍCULO DESTACADO",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dios en la nube",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -54591,6 +55151,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
+      "html_sha256": "9bfcfa268b23d3bb041c9d0d4c5edbc05fbf303ca5fe968186c7c6a81fc27ae0",
+      "human_reviewed": false,
+      "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
+      "images": [
+        {
+          "alt": "Jacques Dosie knäböjer inför fru Friesland och andra ämbetsmän",
+          "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
+      "metadata_sha256": "a6a38944cc7cb67f0dbad183137ec36589d45c5d026d3d4725b4296928b2735d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATION FÖR UNGDOMAR",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "4feb3bf31b63148b0f25aa24029265bd0b2a9bf8802ac0fa2b337e55caa83707",
+      "status": "ready",
+      "subtitle": null,
+      "title": "INKVISITIONEN av Jacques Dosie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "2e08fb4fc1c7833646554af5523c1e35de704fce35750d821bc98e43f856b60a",
       "human_reviewed": false,
@@ -55254,6 +55842,34 @@
       "subtitle": null,
       "title": "Predikandets dårskap",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
+      "html_sha256": "99064274553c184f0f6eb5e7f4327dbeb4f4ae6fc9725ad1f0e1ebc13e1d5f88",
+      "human_reviewed": false,
+      "id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
+      "images": [
+        {
+          "alt": "Solstrålar som lyser genom mörka moln",
+          "public_path": "/images/articles/3dd1acd1-f006-4519-b75c-577439a8b95c-1.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.json",
+      "metadata_sha256": "bce13bc1818f4fb29597eb4f8a8d59099fca30e5e45f925db43860bde042c23d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ARTIKEL I FOKUS",
+      "source_revision": "f454b2d575b6a491982a483cd69708bddb270669",
+      "source_translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gud i molnet",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
