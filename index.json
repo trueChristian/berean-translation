@@ -3680,6 +3680,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "5f911e4e99c7b9cca33de607f643ec0cc12178a58dee0ae68b7648096b52a43c",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "رجل وامرأة يمسكان بأيدي بعضهما في صورة ظلية أمام غروب شمس زاهي الألوان",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "2fe0b82630c18fb2f50a5f7ea8d5ce4b9131fd89d7b43237dc7397090ac9966a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "البيت التقي",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "سر الزواج",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "ef41e785f2f9332771849a61c4eece663c0da77364f4ac454f4f0de6dfb0901b",
       "human_reviewed": false,
@@ -5301,6 +5329,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
+      "html_sha256": "1ac44f5eed500a3362ecdacdc0a367adf7781d18da81e5d384d4c3235f9f7206",
+      "human_reviewed": false,
+      "id": "a5dc3764-e799-4138-82f0-87b245a77db8",
+      "images": [
+        {
+          "alt": "رسم خطي لطبيب يقرأ أوراقًا",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-1.png"
+        },
+        {
+          "alt": "رسم لطبيب يقف أمام لولب الحمض النووي ومجهر",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-2.png"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a5dc3764-e799-4138-82f0-87b245a77db8.json",
+      "metadata_sha256": "3e762588f60d8ff4adf65e345d89ec97a27f6844614a3205bd68828d85e1e6a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "كلمة من الطبيب",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
+      "status": "ready",
+      "subtitle": "—مسائل الخلايا الجذعية",
+      "title": "«التجدد»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "6cbf20ad5031d268e3d33d9d72ceffef9baee4e0801b8a7cd6cbb1c520568f5e",
       "human_reviewed": false,
@@ -6497,6 +6557,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "শুধু অন্ধকারে",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "7a497b968dc0aa47d600066c6139e876d29b2d30dae7cfeb0c840e39ffc4c146",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "উজ্জ্বল সূর্যাস্তের পটভূমিতে ছায়ামূর্তিতে হাত ধরে থাকা এক নারী ও পুরুষ",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "03709b74b3968d9b00461dbfb54790e3a7842d6b7edb39040aaa6b4bd91ae441",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ঈশ্বরভীরু গৃহ",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিবাহের নিগূঢ়তত্ত্ব",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -9299,6 +9387,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "雅克·多西的宗教裁判",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "1f81e258d86386d6b7dfa10f45fef5ff470f25566aecda0956895f7c77d2d9c6",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "但以理跪在敞开的窗前祷告，几个人在旁观看",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "2654a0d55e3bfa6c91a5f9cfe2e4b78f2bb96e49a5318a70bf155a31ca2efa75",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "忠心忍耐",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "堵住破口的人",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -12219,6 +12335,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Nur in der Dunkelheit",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "99647ab0874d9875294a1e25f7a8e65bbb8ec9b892701df19511534d72e414c5",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "Ein Mann und eine Frau halten als Silhouetten vor einem leuchtenden Sonnenuntergang Händchen",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "424c2c383ae91fbf0778f8bb8d7b90a58542c1b140df2c20d9ff4f52d61f6a3f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DAS GOTTGEFÄLLIGE ZUHAUSE",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Das Geheimnis der Ehe",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -17044,6 +17188,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "55819cade3cf339ade390362091306e9c774cbcaac6312171cc27c464f497585",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "Σκηνή σταύρωσης με τον Ιησού πάνω στον σταυρό, στρατιώτες και θεατές",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "Ο αναστημένος Ιησούς εμφανίζεται μπροστά σε φρουρούς κοντά στον τάφο",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "0e6a2b37959eca5f2d2b92c9805c05ae0b055d426d8b9f893c488344a9cdff79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Επιλεγμένο άρθρο",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Το Ολοκληρωμένο Έργο του Χριστού",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "2330ba36f03d7da2b57e77b1b9a08b61d3eba623d93007781e67b9c5ae9867b4",
       "human_reviewed": false,
@@ -21494,6 +21670,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/fdeac3b1-1f65-4a08-be46-c3bdca309210.html",
+      "html_sha256": "acb5e8796cd6ca65853551e7985588602116a9ed5ca4cce9433f6fa992ab17be",
+      "human_reviewed": false,
+      "id": "fdeac3b1-1f65-4a08-be46-c3bdca309210",
+      "images": [],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/fdeac3b1-1f65-4a08-be46-c3bdca309210.json",
+      "metadata_sha256": "690a5b90645858c25bfd96ba6c3ba356b4dfa3e9595964edda717f144a93491d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "« VENEZ, ET RAISONNONS ENSEMBLE »",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La réponse d’un chrétien",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "67786e94902fe9b313b12732234c51f59300b4624b4411128e5642fcb0902f50",
       "human_reviewed": false,
@@ -21601,6 +21800,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "רק בחשכה",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "6adb02ac78e10938d4a04d70a59b6e0c85cd2cd74faa841d4a7cce144029fae0",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "צלליות של גבר ואישה המחזיקים ידיים על רקע שקיעה עזה בצבעיה",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "ce6f47e965a08f32c16fbb8b4a4609d18359d65d8b81c31c73679a44a43eabad",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "הבית ירא האלוהים",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "תעלומת הנישואים",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -23146,6 +23373,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "97fe6ab82e67a765b3784388d9f9c846e06f9cf5890dc7a84fe0eae7a249679a",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "सूर्यास्त की चमकदार पृष्ठभूमि में हाथ थामे एक पुरुष और स्त्री की छायाकृति",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "e888092baad0dfc598f80c2043170a505c1450ffd78a36267c3e780cc3f76d84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "धार्मिक परिवार",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "विवाह का भेद",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "5e1ca1431207baa95c390c1ada4a86cb9d2648621b2bd3a6482341c52854c5de",
       "human_reviewed": false,
@@ -24530,6 +24785,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "संपादक की ओर से",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
+      "html_sha256": "98fd82570077794ce16fa1aa64d332372fce681422b67d88df01263749de1e29",
+      "human_reviewed": false,
+      "id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
+      "images": [],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.json",
+      "metadata_sha256": "816d4a743d2907ed89c6093c41a16ea65308eab5695373e58ef436087b67573b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "एक शांत और चैन का जीवन?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -26285,6 +26563,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Hanya dalam Kegelapan",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "44a06a9a331544e8cedd1b59a4adf5849726c43b7a04bbcfb9bb3d85f518ff0c",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "Siluet seorang pria dan perempuan berpegangan tangan dengan latar matahari terbenam yang semarak",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "6592909d14a4969dd67e0cba0960c0b0c10602b2b66de15460fb660b70c5e310",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "KELUARGA YANG SALEH",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Rahasia Pernikahan",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -28242,6 +28548,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/96e445d4-5f1d-469c-a807-d0f1e297bb1f.html",
+      "html_sha256": "3bbf45340b391dfa0eccc203aaf065d76fafe72d283765946f6a2c5751d55478",
+      "human_reviewed": false,
+      "id": "96e445d4-5f1d-469c-a807-d0f1e297bb1f",
+      "images": [
+        {
+          "alt": "Ilustrasi cat air tentang tangan yang dirapatkan dalam doa",
+          "public_path": "/images/articles/96e445d4-5f1d-469c-a807-d0f1e297bb1f-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/96e445d4-5f1d-469c-a807-d0f1e297bb1f.json",
+      "metadata_sha256": "770885d88ade3e76d63ee6ed3b5f6e9b053a47809e4440dda4727d36d6abbb47",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SAUDARI KEPADA SAUDARI",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "7367c87df1cb1f359ee40a2ea35da6222679649c85706061197087e1dbc70ce7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Para Ibu dan Doa",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
       "html_sha256": "89e1d815b7a0a50bf88a19564f3299056361a036f9e10829480f4881f37c3262",
       "human_reviewed": false,
@@ -28496,6 +28830,38 @@
       "subtitle": null,
       "title": "PERLOMBAAN SEPEDA",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
+      "html_sha256": "556f3013ad23ed77dc80738862c8772466b0b0934d40ac35792095aa0b0afd64",
+      "human_reviewed": false,
+      "id": "a5dc3764-e799-4138-82f0-87b245a77db8",
+      "images": [
+        {
+          "alt": "Gambar garis seorang dokter sedang membaca dokumen",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-1.png"
+        },
+        {
+          "alt": "Ilustrasi seorang dokter berdiri di depan heliks DNA dan mikroskop",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-2.png"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a5dc3764-e799-4138-82f0-87b245a77db8.json",
+      "metadata_sha256": "8918a3fe359cbcef0161bc92b7ee37349969117dcde86aa870ad3828cb68f4c3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SEPATAH KATA DARI DOKTER",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
+      "status": "ready",
+      "subtitle": "—Persoalan Sel Punca",
+      "title": "“Regenerasi”",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -34877,6 +35243,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
+      "html_sha256": "1ba47db6a14de18e38dc6952f9302a3e1244cf1ba652de9175b9f275bc61983f",
+      "human_reviewed": false,
+      "id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
+      "images": [
+        {
+          "alt": "작은 흰 꽃 가지와 함께 놓인 흰 장미 두 송이",
+          "public_path": "/images/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9-1.jpg"
+        },
+        {
+          "alt": "작은 흰 꽃 가지와 함께 놓인 흰 장미 한 송이",
+          "public_path": "/images/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9-2.jpg"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.json",
+      "metadata_sha256": "efa84adc8d6fd862646c4d2a00d606a60172de21cabff5b0ecb3a86ca367382a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "경건한 가정",
+      "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
+      "source_translation_key": "d4cafddce39323887fbc879db62ceec7af4d06d79d037a4e8d396a68a0d03e7f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "언약의 힘",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "78315b8003e7530767197c10349289c81d9f68161dbe00f988a65d669c12ccda",
       "human_reviewed": false,
@@ -36940,6 +37338,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Alleen in de duisternis",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "bf815404cb9e2548fdab4279e4c3ac0896756722363d1d8f48583455cba8e94e",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "Een man en een vrouw die elkaars hand vasthouden als silhouetten tegen een felgekleurde zonsondergang",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "c0539cda9b3c1bd1a10feb2bee85341cbfb77f0b97cc598e4c13fbcd136694c2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "HET GODVRUCHTIGE GEZIN",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Het geheimenis van het huwelijk",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -48000,6 +48426,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "db22e071c6272d6e626d0f1ec63caeed91feaf3c7217a8509b1e1e56ed317341",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "Даниил преклонил колени у открытого окна в молитве, а несколько мужчин наблюдают за ним",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "227d2d22ea71296bfe785f9da30a0c9b69e983a19cd9cbc2e61fc65baa227bc9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ВЕРНОСТЬ В ИСПЫТАНИЯХ",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Человек в проломе",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "d9c4a4de314aa749382215383a6978727db190be6fe89276cdf61ad512e966f8",
       "human_reviewed": false,
@@ -54992,6 +55446,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "ecf66d8c1f9d56d9737f7f6c730241a3c97be8620bccc69f58f5694b952635ff",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "Mwanaume na mwanamke wameshikana mikono huku wakiwa vivuli mbele ya machweo yenye rangi angavu",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "f53eda28e09038d8f4966b86476686ca2edc3594af0a0747b6485fa50ce75f9b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "NYUMBA YA KIMUNGU",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fumbo la Ndoa",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "765cbc669042a198d9ec58e26f1cf961deec971f7ef1479c45507d731f1d5db7",
       "human_reviewed": false,
@@ -56295,6 +56777,38 @@
       "subtitle": "Hadithi Kuhusu Shukrani",
       "title": "Mwanaume wa Mints",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
+      "html_sha256": "6dfdee2f260c667f6d2f196ec68f4ede9827e16c780b43fa16125910b5544846",
+      "human_reviewed": false,
+      "id": "a5dc3764-e799-4138-82f0-87b245a77db8",
+      "images": [
+        {
+          "alt": "Mchoro wa mistari wa daktari akisoma karatasi",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-1.png"
+        },
+        {
+          "alt": "Mchoro wa daktari aliyesimama mbele ya heliksi ya DNA na darubini",
+          "public_path": "/images/articles/a5dc3764-e799-4138-82f0-87b245a77db8-2.png"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/a5dc3764-e799-4138-82f0-87b245a77db8.json",
+      "metadata_sha256": "cccfb39561eb4b10e9168352673c598d780ce93405835033c536ee71d061b715",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "NENO KUTOKA KWA DAKTARI",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
+      "status": "ready",
+      "subtitle": "—Masuala ya Seli Shina",
+      "title": "“Uzalishaji Upya”",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -61778,6 +62292,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
+      "html_sha256": "70d9ec0f1f6c7614f46d8253ea6c7e047a4b76908b6c3b2dd741f04851b33533",
+      "human_reviewed": false,
+      "id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
+      "images": [],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.json",
+      "metadata_sha256": "64f6774be992d2382ba3d998a57da661400bcc51a9ed276ad89ffde4cf3ea91b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ایک مشنری کے خیالات",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایک پُرسکون اور امن کی زندگی؟",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "77b0ed5f808f35f84d3438d402cd5ccf41488a07ddcdf88c3bc6fa6fd5b89164",
       "human_reviewed": false,
@@ -62558,6 +63095,38 @@
       "subtitle": null,
       "title": "نبوت اور قیامت کے اوقات",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "b8156bef8634174eda4891b981244c7d38e5e175c740b2e846fd95d6d2a595be",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "مصلوب ہونے کا منظر، جس میں یسوع صلیب پر ہیں اور سپاہی اور دیکھنے والے موجود ہیں",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "زندہ ہونے کے بعد یسوع قبر کے قریب پہرے داروں کے سامنے ظاہر ہوتے ہوئے",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "666cce19ca9fe6ee4c04a213f4ffd8c5951606f7d59d01d4e03450ce574aafb2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نمایاں مضمون",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مسیح کا مکمل کیا ہوا کام",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
