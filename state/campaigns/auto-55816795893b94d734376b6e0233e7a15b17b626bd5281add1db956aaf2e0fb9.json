@@ -1,7 +1,7 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 8.541774,
-  "automatic_allocation_index": 14,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 8.628883,
+  "automatic_allocation_index": 15,
   "automatic_allocation_usd": 0.087109,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
@@ -11,17 +11,17 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "92fb08997d9a538e272382457b7ee342757918a42b697b2de592aba81c62f110",
+  "automatic_frozen_sha256": "d8aa8bdd2a9cafb430bed65cd8433a4f40ecf9e13b781c7e5eed27ff0c4e0bfc",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-47a0bea274ca0d6374a594c0af0e8eda5bdac0dd72fdb6433a2a43b1380a4d47",
+    "id": "auto-55816795893b94d734376b6e0233e7a15b17b626bd5281add1db956aaf2e0fb9",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "deu",
+      "language": "nld",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -42,7 +42,7 @@
   },
   "autonomous": true,
   "budget_usd": 0.087109,
-  "created_at": "2026-10-10T19:12:09+00:00",
+  "created_at": "2026-10-10T19:12:12+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -52,20 +52,20 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-47a0bea274ca0d6374a594c0af0e8eda5bdac0dd72fdb6433a2a43b1380a4d47",
+    "id": "auto-55816795893b94d734376b6e0233e7a15b17b626bd5281add1db956aaf2e0fb9",
     "language_settings": {
-      "deu": {
+      "nld": {
         "aliases": [
-          "ger"
+          "dut"
         ],
         "dir": "ltr",
-        "english_label": "Englisches Original",
-        "guidance": "Use standard contemporary German.",
-        "name": "German",
-        "native_name": "Deutsch",
-        "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-        "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-        "tag": "de"
+        "english_label": "Engels origineel",
+        "guidance": "Use standard contemporary Dutch.",
+        "name": "Dutch",
+        "native_name": "Nederlands",
+        "notice": "Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: {model}) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel.",
+        "reviewed_notice": "Dit artikel is door een mens nagekeken, hoewel het oorspronkelijk met AI is vertaald. Het Engelse origineel blijft de gezaghebbende versie.",
+        "tag": "nl"
       }
     },
     "max_output_tokens": 16384,
@@ -165,7 +165,7 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-47a0bea274ca0d6374a594c0af0e8eda5bdac0dd72fdb6433a2a43b1380a4d47",
+  "id": "auto-55816795893b94d734376b6e0233e7a15b17b626bd5281add1db956aaf2e0fb9",
   "initial_task": {
     "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
     "automatic_previous_task": null,
@@ -173,13 +173,13 @@
     "autonomous_recovery": false,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-47a0bea274ca0d6374a594c0af0e8eda5bdac0dd72fdb6433a2a43b1380a4d47",
-    "created_at": "2026-10-10T19:12:09+00:00",
+    "campaign": "auto-55816795893b94d734376b6e0233e7a15b17b626bd5281add1db956aaf2e0fb9",
+    "created_at": "2026-10-10T19:12:12+00:00",
     "events": [],
     "findings": [],
-    "id": "35e6774dacc932cf0864c639fbd5ff81",
+    "id": "2a3a174357394db32e33ce558ac66246",
     "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-    "language": "deu",
+    "language": "nld",
     "model": "gpt-6-luna",
     "models": {
       "gpt-4.1": {
@@ -292,22 +292,22 @@
     "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612"
   ],
   "language_settings": {
-    "deu": {
+    "nld": {
       "aliases": [
-        "ger"
+        "dut"
       ],
       "dir": "ltr",
-      "english_label": "Englisches Original",
-      "guidance": "Use standard contemporary German.",
-      "name": "German",
-      "native_name": "Deutsch",
-      "notice": "Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: {model}) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran.",
-      "reviewed_notice": "Dieser Artikel wurde von einem Menschen geprüft, obwohl er ursprünglich mit KI übersetzt wurde. Das englische Original bleibt die maßgebliche Fassung.",
-      "tag": "de"
+      "english_label": "Engels origineel",
+      "guidance": "Use standard contemporary Dutch.",
+      "name": "Dutch",
+      "native_name": "Nederlands",
+      "notice": "Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: {model}) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel.",
+      "reviewed_notice": "Dit artikel is door een mens nagekeken, hoewel het oorspronkelijk met AI is vertaald. Het Engelse origineel blijft de gezaghebbende versie.",
+      "tag": "nl"
     }
   },
   "languages": [
-    "deu"
+    "nld"
   ],
   "max_output_tokens": 16384,
   "model": "gpt-6-luna",
@@ -403,7 +403,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "e3d00c5499ec06624735f870df7262ef44147740a1991f4e3a14656174d66935",
+  "request_sha256": "d58ee135903f36a91da15219a48442f1595358b714fe4eec67e4a448e9fcf032",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -414,7 +414,7 @@
       "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "deu",
+      "language": "nld",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -437,8 +437,6 @@
     "total_reserved_usd": 0.087109,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "35e6774dacc932cf0864c639fbd5ff81"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
