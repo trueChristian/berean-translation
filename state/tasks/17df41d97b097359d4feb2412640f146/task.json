@@ -2,7 +2,6 @@
   "article_id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 4562
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1098,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 821,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4779,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3676,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5877
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, paragraph describing the man who approaches the car",
+      "severity": "major",
+      "source_quote": "“a man wearing a red-checked flannel jacket approached.”",
+      "suggested_fix": "Replace “rooi-en-swart geruite” with “rooi-geruite” so the translation does not add a color absent from the source.",
+      "translation_quote": "“’n man met ’n rooi-en-swart geruite flenniebaadjie nader gekom het.”"
+    },
+    {
+      "location": "Article, Gloria’s quotation of Psalm 40:1–4",
+      "severity": "major",
+      "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+      "suggested_fix": "Translate the two clauses distinctly, for example: “Welgeluksalig is die man wat die HERE sy vertroue maak, wat nie hoogmoediges ag nie en hom nie wend tot dié wat leuens navolg nie.”",
+      "translation_quote": "“Welgeluksalig is die man wat die HERE sy vertroue maak en hom nie wend tot hoogmoediges en leuenaars nie.”"
+    }
+  ],
   "id": "17df41d97b097359d4feb2412640f146",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "afr",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9a52a3f9b11a0465c063adcc30e18224f3688a490d438d0dc3724ec6cb6f38b2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
   "translation_model_actual": "gpt-6-luna"

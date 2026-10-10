@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning « De nos jours… », quotation of Galates 1:10",
+      "severity": "major",
+      "source_quote": "–Gal 1:10 ASV",
+      "suggested_fix": "Remplacer « version Synodale » par une attribution fidèle à « ASV », ou omettre l’indication de version si aucune attribution française exacte n’est disponible.",
+      "translation_quote": "–Ga 1:10, version Synodale."
+    },
+    {
+      "location": "Paragraph beginning « De nos jours… », sentence about people deserving care",
+      "severity": "major",
+      "source_quote": "“improvident people”",
+      "suggested_fix": "Remplacer « incapables de subvenir à leurs besoins » par « imprévoyantes » (ou une formulation équivalente qui exprime le manque de prévoyance).",
+      "translation_quote": "« les personnes […] incapables de subvenir à leurs besoins »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3823e11d-e480-4de1-8d96-f310c6f43e7a",
+    "response_id": "chatcmpl-EWy6zosQBSz1P3BY4fPxYS1yHl8Pb",
+    "usage": {
+      "completion_tokens": 1098,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 821,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3676,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5877
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph describing the man who approaches the car",
+        "severity": "major",
+        "source_quote": "“a man wearing a red-checked flannel jacket approached.”",
+        "suggested_fix": "Replace “rooi-en-swart geruite” with “rooi-geruite” so the translation does not add a color absent from the source.",
+        "translation_quote": "“’n man met ’n rooi-en-swart geruite flenniebaadjie nader gekom het.”"
+      },
+      {
+        "location": "Article, Gloria’s quotation of Psalm 40:1–4",
+        "severity": "major",
+        "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+        "suggested_fix": "Translate the two clauses distinctly, for example: “Welgeluksalig is die man wat die HERE sy vertroue maak, wat nie hoogmoediges ag nie en hom nie wend tot dié wat leuens navolg nie.”",
+        "translation_quote": "“Welgeluksalig is die man wat die HERE sy vertroue maak en hom nie wend tot hoogmoediges en leuenaars nie.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

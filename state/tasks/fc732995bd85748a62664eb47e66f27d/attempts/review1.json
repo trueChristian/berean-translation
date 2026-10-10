@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الصورة الأولى، النص البديل\",\"severity\":\"minor\",\"source_quote\":\"A fuel gauge with its needle near empty\",\"suggested_fix\":\"مقياس وقود تشير إبرته إلى قرب نفاد الوقود\",\"translation_quote\":\"مقياس وقود يشير إبره إلى قرب نفاد الوقود\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 395,
+    "content_evidence_truncated": false,
+    "content_sha256": "accc01849c49bded5993393575dbd0681a1ae1d62b6b797e8533306e3a4dcdce",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3687,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5401
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

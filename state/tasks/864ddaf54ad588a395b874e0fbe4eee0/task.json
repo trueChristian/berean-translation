@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 11929
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 915,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 730,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12186,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11083,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13101
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, section I.f “His Ascension”",
+      "severity": "major",
+      "source_quote": "“We have Jesus sitting at the right hand of the throne of God interceding for us.”",
+      "suggested_fix": "Replace “Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea wengine kwa ajili yetu” with “Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea sisi” so that the people Jesus intercedes for are the believers, as in the source.",
+      "translation_quote": "“Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea wengine kwa ajili yetu.”"
+    }
+  ],
   "id": "864ddaf54ad588a395b874e0fbe4eee0",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swa",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line beginning “A life on the run”\",\"severity\":\"major\",\"source_quote\":\"A life on the run, was not my desire.\",\"suggested_fix\":\"لم تكن حياةُ الهرب ما أرغب فيه.\",\"translation_quote\":\"لم تكن الحياة هاربًا رغبتي.\"},{\"location\":\"Poem, line beginning “Let’s not give in”\",\"severity\":\"major\",\"source_quote\":\"Let’s not give in, there’s too much at stake.\",\"suggested_fix\":\"لا نستسلم؛ فالكثير على المحك.\",\"translation_quote\":\"لا نستسلم؛ فالم stakes كثيرة جدًا.\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 644,
+    "content_evidence_truncated": false,
+    "content_sha256": "38428433399e49e3d1d69b0a1287a2f50813cba6cb42557610b821406e7f512a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 496,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3060
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

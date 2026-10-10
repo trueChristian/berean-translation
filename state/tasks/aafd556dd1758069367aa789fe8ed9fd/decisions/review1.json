@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, dialogue beginning “Was ist denn hier los, Mädels?”",
+      "severity": "minor",
+      "source_quote": "“What’s the trouble here, girls?” he asked, glancing over the car.",
+      "suggested_fix": "Replace “blickte sich den Wagen an” with “sah sich den Wagen an” or “prüfte den Wagen”.",
+      "translation_quote": "„Was ist denn hier los, Mädels?“, fragte er und blickte sich den Wagen an."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

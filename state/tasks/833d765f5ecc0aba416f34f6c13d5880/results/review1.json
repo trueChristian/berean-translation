@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "71902e62-6288-457a-b814-e5c1d31a6722",
+    "response_id": "chatcmpl-EWy7DqASQXhhduE5AE5ib1GXiqQYL",
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 838,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6912,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8966
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Helaas worden sommige mannen…”; Scripture quotation Galatians 1:10",
+        "severity": "major",
+        "source_quote": "–Gal 1:10 ASV",
+        "suggested_fix": "Replace “NBG” with “ASV” to preserve the source’s cited Bible-version attribution.",
+        "translation_quote": "–Gal 1:10 NBG"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

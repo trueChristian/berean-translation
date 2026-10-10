@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph, feeding the baby",
+      "severity": "minor",
+      "source_quote": "Sinking into the rocker to feed her",
+      "suggested_fix": "Replace «for å amme henne» with «for å mate henne» to avoid specifying breastfeeding when the source only says “feed.”",
+      "translation_quote": "Jeg sank ned i gyngestolen for å amme henne"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

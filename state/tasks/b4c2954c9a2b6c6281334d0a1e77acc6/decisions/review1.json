@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Последний абзац",
+      "severity": "major",
+      "source_quote": "This is not a popular message found in today’s liberal media.",
+      "suggested_fix": "Сегодняшние либеральные СМИ не распространяют это непопулярное послание.",
+      "translation_quote": "Сегодняшние либеральные СМИ не распространяют это популярное послание."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

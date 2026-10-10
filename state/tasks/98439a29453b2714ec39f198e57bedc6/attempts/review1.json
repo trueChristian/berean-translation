@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"«От сестры к сестре»\",\"translation_quote\":\"СЕСТРА С СЕСТРОЙ\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 249,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cd11275fac1042008e8e563556f6052fa9420c9f4c7a50d79f8e243c4cfb22b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 513,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7472,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6369,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8061
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

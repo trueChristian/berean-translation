@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “在海地，我们作为一个教会” — quotation of 1 Peter 4:14",
+      "severity": "major",
+      "source_quote": "on their part he is evil spoken of, but on your part he is glorified.",
+      "suggested_fix": "在他们那一方，祂被毁谤；在你们这一方，祂得荣耀。",
+      "translation_quote": "在他们看来，他是被毁谤的；在你们看来，他却是得荣耀的。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

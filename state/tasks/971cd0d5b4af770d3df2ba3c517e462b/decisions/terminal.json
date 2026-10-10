@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, final clause of paragraph 9 (Matthew citation)",
+      "severity": "minor",
+      "source_quote": "–Mat 7:13-14 NIV",
+      "suggested_fix": "–Mt 7:13-14 NIV",
+      "translation_quote": "–Mat 7:13-14 NIV"
+    },
+    {
+      "location": "Article, final clause of paragraph 10 (John citation)",
+      "severity": "minor",
+      "source_quote": "–Joh 3:16",
+      "suggested_fix": "–Jn 3:16",
+      "translation_quote": "–Joh 3:16"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

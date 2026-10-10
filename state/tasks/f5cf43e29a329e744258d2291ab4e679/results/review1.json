@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2927d31f-5ba6-4fa0-9f04-ff0ad74f912d",
+    "response_id": "chatcmpl-EWy6zHmbS4Fes7kJG4ZuPaknJkjKg",
+    "usage": {
+      "completion_tokens": 1094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 808,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8807,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11004
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Μου φαίνεται πως ο Θεός…»",
+        "severity": "minor",
+        "source_quote": "“God doesn’t need of a large mass of bodies to stuff into a hole.”",
+        "suggested_fix": "Replace «να στουβωθούν σε μια τρύπα» with «να στοιβαχτούν σε μια τρύπα».",
+        "translation_quote": "«Ο Θεός δεν χρειάζεται ένα μεγάλο πλήθος σωμάτων για να στουβωθούν σε μια τρύπα.»"
+      },
+      {
+        "location": "Paragraph beginning «Σαράντα χρόνια μέσα…»",
+        "severity": "minor",
+        "source_quote": "“It was forty years in the lonely furnace that purged his pride and pruned his prowess.”",
+        "suggested_fix": "Replace «περιόρισαν την αυτοπεποίθησή του» with wording that conveys that the years tempered or refined his abilities, such as «περιόρισαν την υπεροχή των ικανοτήτων του».",
+        "translation_quote": "«Σαράντα χρόνια μέσα στη μοναχική κάμινο εξάλειψαν την υπερηφάνειά του και περιόρισαν την αυτοπεποίθησή του.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

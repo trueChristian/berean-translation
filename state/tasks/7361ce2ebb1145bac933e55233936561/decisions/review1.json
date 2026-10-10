@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph 5, Matthew 13:22 quotation",
+      "severity": "major",
+      "source_quote": "“the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.”",
+      "suggested_fix": "Change the ending to “sufocam a palavra, e ele se torna infrutífero”, referring to the person who hears the word.",
+      "translation_quote": "“os cuidados deste mundo e a sedução das riquezas sufocam a palavra, e ela se torna infrutífera.”"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "“Let’s reunite, gather back together”",
+      "suggested_fix": "Replace “Vamos nos reconciliar” with “Vamos nos unir novamente” to express coming together again, rather than reconciliation.",
+      "translation_quote": "“Vamos nos reconciliar, reunir-nos novamente”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

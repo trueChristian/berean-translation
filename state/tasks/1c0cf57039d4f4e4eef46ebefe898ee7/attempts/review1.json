@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"Let’s reunite, gather back together, deny ourselves, pick up our crosses and follow him!\",\"suggested_fix\":\"Riuniamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!\",\"translation_quote\":\"Riconciliamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 463,
+    "content_evidence_truncated": false,
+    "content_sha256": "b45d8dbc327bbfdbf0865926b099d3ff8f26400f2f278b4c081d6cf69fe9b171",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 706,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5351,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7303
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

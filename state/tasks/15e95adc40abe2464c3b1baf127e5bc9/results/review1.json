@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "56efb51b-3a92-9ee2-9c44-f3874f81e6fb",
+    "response_id": "chatcmpl-EWy7LJGxlXHO95DtO8t1Clpu7nyLc",
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6483,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8540
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Let’s chat a little, Zinnia”",
+        "severity": "major",
+        "source_quote": "Her mom had left years ago to work in another country, leaving the girls with their Grandma.",
+        "suggested_fix": "Replace ״והשארת את הבנות אצל סבתן״ with ״והשאירה את הבנות אצל סבתן״.",
+        "translation_quote": "אמה עזבה לפני שנים כדי לעבוד במדינה אחרת, והשארת את הבנות אצל סבתן."
+      },
+      {
+        "location": "Throughout the article, Zinnia’s name",
+        "severity": "minor",
+        "source_quote": "Zinnia",
+        "suggested_fix": "Use ״זיניה״ consistently as the Hebrew transliteration of the name.",
+        "translation_quote": "סיניה"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

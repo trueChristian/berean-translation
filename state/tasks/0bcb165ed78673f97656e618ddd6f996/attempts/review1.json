@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"major\",\"source_quote\":\"I have no reason to suspect my other ancestors were anything other than white.\",\"suggested_fix\":\"میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد سفید فام کے سوا کچھ اور تھے۔\",\"translation_quote\":\"میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد بھی سفید فام کے سوا کچھ اور تھے۔\"},{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"Even though I may think I am the greatest pianist and music composer of all times, the evidence simply does not support that conviction.\",\"suggested_fix\":\"اگرچہ میں یہ سمجھتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقار ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔\",\"translation_quote\":\"اگرچہ میں یہ سمجھ سکتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقی کا مصنف ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1275,
+    "content_evidence_truncated": false,
+    "content_sha256": "d7ec0956a72d0741b4534b5e8bc30402bf6a4b8a6260f3de777cd61b8ade5298",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1013,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3622,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5738
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

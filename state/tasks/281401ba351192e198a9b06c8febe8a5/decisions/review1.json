@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Überschrift der Vortragsliste, Punkt 2",
+      "severity": "minor",
+      "source_quote": "The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man",
+      "suggested_fix": "<li>Das Evangelium – Gottes Antwort auf ALLE Probleme von Geist und Seele (Psyche) des Menschen</li>",
+      "translation_quote": "Das Evangelium – Gottes Antwort auf ALLE Fragen von Geist und Seele (Psyche) des Menschen"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

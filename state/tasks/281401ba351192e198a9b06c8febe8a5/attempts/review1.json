@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Überschrift der Vortragsliste, Punkt 2\",\"severity\":\"minor\",\"source_quote\":\"The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man\",\"suggested_fix\":\"<li>Das Evangelium – Gottes Antwort auf ALLE Probleme von Geist und Seele (Psyche) des Menschen</li>\",\"translation_quote\":\"Das Evangelium – Gottes Antwort auf ALLE Fragen von Geist und Seele (Psyche) des Menschen\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 470,
+    "content_evidence_truncated": false,
+    "content_sha256": "446e2a0960b96b6cd5f6cbe0f41677bf6da704296e1eff0176d0d1720786ca21",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3439,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2336,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4207
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

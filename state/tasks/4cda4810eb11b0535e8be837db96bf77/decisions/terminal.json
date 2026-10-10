@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 22",
+      "severity": "minor",
+      "source_quote": "They killed our Jesus, and love their sin.",
+      "suggested_fix": "Hanno ucciso il nostro Gesù e amano il loro peccato.",
+      "translation_quote": "Hanno ucciso Gesù e amano il loro peccato."
+    },
+    {
+      "location": "Poem, line 20",
+      "severity": "minor",
+      "source_quote": "Will I die in vain, or will you take up the task?",
+      "suggested_fix": "Morirò invano, o ti assumerai questo compito?",
+      "translation_quote": "Morirò invano, o raccoglierai il compito?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

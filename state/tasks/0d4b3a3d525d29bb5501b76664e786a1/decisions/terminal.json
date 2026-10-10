@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, list item 2",
+      "severity": "minor",
+      "source_quote": "The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man",
+      "suggested_fix": "Evangeliet – Guds svar på ALLE utfordringer knyttet til menneskets ånd og sjel (psyke)",
+      "translation_quote": "Evangeliet – Guds svar på ALLE spørsmål som gjelder menneskets ånd og sjel (psyke)"
+    },
+    {
+      "location": "Article, list item 4",
+      "severity": "minor",
+      "source_quote": "Practical Discipleship—Effectively Helping People Change",
+      "suggested_fix": "Praktisk disippelskap – å hjelpe mennesker til å forandre seg på en effektiv måte",
+      "translation_quote": "Praktisk disippelskap – effektiv hjelp til mennesker som vil forandre seg"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

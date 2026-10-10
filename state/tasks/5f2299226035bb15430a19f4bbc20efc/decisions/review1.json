@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Section II, subsection b, quotation of Hebrews 9:28",
+      "severity": "major",
+      "source_quote": "“So Christ was once offered to bear the sins of many…”",
+      "suggested_fix": "“So Christ was eenmaal geoffer om die sondes van baie te dra…”",
+      "translation_quote": "“So sal Christus ook, nadat Hy een maal geoffer is om die sondes van baie weg te neem…”"
+    },
+    {
+      "location": "Section I, subsection b, paragraph beginning “In Hebrews chapters 9 and 10”",
+      "severity": "minor",
+      "source_quote": "“the ‘blood sacrifices’ of the Old Testament”",
+      "suggested_fix": "“die ‘blo offerandes’ van die Ou Testament”",
+      "translation_quote": "“die ‘blo offers’ van die Ou Testament”"
+    },
+    {
+      "location": "Section I, subsection b, same paragraph, conclusion",
+      "severity": "minor",
+      "source_quote": "“sin must be washed away with the blood of Christ”",
+      "suggested_fix": "“sonde moet deur die bloed van Christus weggewas word”",
+      "translation_quote": "“sonde moet weggew was deur die bloed van Christus”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

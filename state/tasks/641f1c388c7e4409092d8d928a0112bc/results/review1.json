@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e68f26ce-27ee-4bb0-8f11-9df89dae1dca",
+    "response_id": "chatcmpl-EWy75Chxghdq3mIqrWHVA883gGSGd",
+    "usage": {
+      "completion_tokens": 88,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3440,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4631
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraaf 3",
+        "severity": "major",
+        "source_quote": "had been “transitioning” into a woman",
+        "suggested_fix": "... besig was om na ’n vrou te “oorgaan”;",
+        "translation_quote": "besig was om na ’n vrou te “transition”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

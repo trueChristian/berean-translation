@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "892a5f96-488e-4043-9497-14ea361a35dd",
+    "response_id": "chatcmpl-EWy6zQXQVv9baeaU4gtPfp7f4VB1i",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5109,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4006,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5696
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "minor",
+        "source_quote": "Pine Creek Church",
+        "suggested_fix": "পাইন ক্রিক চার্চে",
+        "translation_quote": "পাইน์ ক্রিক চার্চে"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

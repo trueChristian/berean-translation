@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"“COME NOW, LET US REASON TOGETHER”\",\"suggested_fix\":\"“MARILAH SEKARANG, KITA BERPERKARA BERSAMA-SAMA”\",\"translation_quote\":\"“MARILAH, KITA BERPERKARA BERSAMA-SAMA”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 299,
+    "content_evidence_truncated": false,
+    "content_sha256": "13ba71f774760ad4fe76cfbbcd3bdd1f762a44296843bc3a331c64c4b8edba9c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5138
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

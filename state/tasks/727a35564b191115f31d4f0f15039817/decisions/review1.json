@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 17 and subsequent uses of the field’s name, including paragraphs 18–19 and the paragraph beginning “পরবর্তী সংখ্যায়”",
+      "severity": "major",
+      "source_quote": "“Regenerative Medicine”",
+      "suggested_fix": "Use a Bengali term that means regeneration rather than reproduction, such as “পুনর্জনন চিকিৎসাবিজ্ঞান,” consistently for the field’s name throughout the article.",
+      "translation_quote": "“পুনরুৎপাদনমূলক চিকিৎসাবিজ্ঞান”"
+    },
+    {
+      "location": "List item 8",
+      "severity": "major",
+      "source_quote": "“the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.”",
+      "suggested_fix": "Revise the clause to say that legitimacy is indicated when the details are not concealed in secrecy; for example: “বিষয়টির বিবরণ গোপনীয়তার আড়ালে ঢাকা না থাকলে তা বৈধ কি না বোঝার সবচেয়ে ভালো উপায়।”",
+      "translation_quote": "“বিষয়টির বিবরণ গোপন রাখা হচ্ছে কি না”"
+    },
+    {
+      "location": "List item 9",
+      "severity": "minor",
+      "source_quote": "“On the issue of pursuing alternative vaccines, it is a difficult process, but not impossible to do.”",
+      "suggested_fix": "Change “বিকল্প টিকা গ্রহণের বিষয়টি” to “বিকল্প টিকা অনুসন্ধান/তৈরির বিষয়টি” to convey pursuing alternatives rather than receiving them.",
+      "translation_quote": "“বিকল্প টিকা গ্রহণের বিষয়টি কঠিন প্রক্রিয়া”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

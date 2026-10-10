@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 26",
+      "severity": "minor",
+      "source_quote": "They killed our Jesus, and love their sin.",
+      "suggested_fix": "De drepte vår Jesus og elsker synden sin.",
+      "translation_quote": "De drepte Jesus, og elsker synden sin."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

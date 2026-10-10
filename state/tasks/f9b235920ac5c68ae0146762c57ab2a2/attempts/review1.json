@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning « De nos jours… », quotation of Galates 1:10\",\"severity\":\"major\",\"source_quote\":\"–Gal 1:10 ASV\",\"suggested_fix\":\"Remplacer « version Synodale » par une attribution fidèle à « ASV », ou omettre l’indication de version si aucune attribution française exacte n’est disponible.\",\"translation_quote\":\"–Ga 1:10, version Synodale.\"},{\"location\":\"Paragraph beginning « De nos jours… », sentence about people deserving care\",\"severity\":\"major\",\"source_quote\":\"“improvident people”\",\"suggested_fix\":\"Remplacer « incapables de subvenir à leurs besoins » par « imprévoyantes » (ou une formulation équivalente qui exprime le manque de prévoyance).\",\"translation_quote\":\"« les personnes […] incapables de subvenir à leurs besoins »\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 858,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e7580001f7e58d2b2f8d2c3b24a7736280c2fd9f3947a35d332f5e46d884672",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7188,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9184
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

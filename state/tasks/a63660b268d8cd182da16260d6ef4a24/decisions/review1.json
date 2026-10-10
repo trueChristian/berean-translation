@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Fourth paragraph",
+      "severity": "major",
+      "source_quote": "We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.",
+      "suggested_fix": "इस आने वाले जुलाई में पेंसिल्वेनिया के लेबनान काउंटी में बैठकों की एक श्रृंखला आयोजित करने का हमारा कार्यक्रम है।",
+      "translation_quote": "इस आने वाले जुलाई में पेंसिल्वेनिया के लेबनान काउंटी में बैठकों की एक श्रृंखला में भाग लेने का हमारा कार्यक्रम है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

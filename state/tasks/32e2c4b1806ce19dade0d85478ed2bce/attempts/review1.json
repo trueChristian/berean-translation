@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Dies erfordert eine völlige Veränderung”\",\"severity\":\"minor\",\"source_quote\":\"The atonement of Christ’s blood makes it judicially possible.\",\"suggested_fix\":\"Durch das Blut Christi wird die Versöhnung aus rechtlicher Sicht möglich.\",\"translation_quote\":\"Durch das Blut Christi wird die Versöhnung vor Gericht möglich.\"},{\"location\":\"Paragraph beginning “Der tiefere Grund dafür”\",\"severity\":\"minor\",\"source_quote\":\"Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.\",\"suggested_fix\":\"Martha war eifrig damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria im Ewigen saß.\",\"translation_quote\":\"Martha war mit Eifer damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria bei der ewigen saß.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1000,
+    "content_evidence_truncated": false,
+    "content_sha256": "6960b8cbadbde1409a752a117048573de888f46e70def97a0e6b5269b140d039",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1017,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8131,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7028,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9379
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

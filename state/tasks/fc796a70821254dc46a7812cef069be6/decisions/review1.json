@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, numbered reasons, item 5",
+      "severity": "major",
+      "source_quote": "“only by repaying good for evil.”",
+      "suggested_fix": "Change to “slegs deur kwaad met goed te vergeld.”",
+      "translation_quote": "“slegs deur goed met kwaad te vergeld.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

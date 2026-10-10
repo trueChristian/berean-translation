@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"邻居孩子初次来访段\",\"severity\":\"minor\",\"source_quote\":\"The first ones soon brought more friends along to join in their play with the foreigner’s children and toys.\",\"suggested_fix\":\"最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们及玩具一起玩。\",\"translation_quote\":\"最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们一起玩。\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 497,
+    "content_evidence_truncated": false,
+    "content_sha256": "4cf4dad9ecab11fdbf78034716450464136ae3c06d43c38f40f803eb30b06b92",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 706,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8211
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

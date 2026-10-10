@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2463b4f8-2e36-43b0-ac8b-b6c2adac2cdb",
+    "response_id": "chatcmpl-EWy70lcmRmuc8CSK92hmMk7cQqV8h",
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2439,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4071
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "minor",
+        "source_quote": "our Master",
+        "suggested_fix": "Tuhan kita",
+        "translation_quote": "Tuan kita"
+      },
+      {
+        "location": "Article, paragraph 1",
+        "severity": "minor",
+        "source_quote": "another crop of food to enjoy",
+        "suggested_fix": "hasil panen lain yang dapat dinikmati",
+        "translation_quote": "panen makanan lain yang dapat dinikmati"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Parece-me que Deus…”; quotation of Revelation 4:11",
+      "severity": "major",
+      "source_quote": "“for thou hast created all things, and for thy pleasure they are and were created.”",
+      "suggested_fix": "Replace “por tua vontade elas existem e foram criadas” with “para teu prazer elas existem e foram criadas” (or an equivalent rendering that preserves “for thy pleasure”).",
+      "translation_quote": "“porque criaste todas as coisas, e por tua vontade elas existem e foram criadas.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

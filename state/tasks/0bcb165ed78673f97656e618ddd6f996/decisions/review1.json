@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "I have no reason to suspect my other ancestors were anything other than white.",
+      "suggested_fix": "میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد سفید فام کے سوا کچھ اور تھے۔",
+      "translation_quote": "میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد بھی سفید فام کے سوا کچھ اور تھے۔"
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "Even though I may think I am the greatest pianist and music composer of all times, the evidence simply does not support that conviction.",
+      "suggested_fix": "اگرچہ میں یہ سمجھتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقار ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔",
+      "translation_quote": "اگرچہ میں یہ سمجھ سکتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقی کا مصنف ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

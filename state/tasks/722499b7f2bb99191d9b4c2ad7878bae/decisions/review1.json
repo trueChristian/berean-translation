@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“within much of our education system, students as well as teachers who profess faith in the God of the Bible are ridiculed”",
+      "suggested_fix": "Replace the clause with: „במסגרת חלקים נרחבים ממערכת החינוך שלנו, תלמידים ומורים כאחד המצהירים על אמונתם באלוהי התנ״ך נחשפים ללעג, ואף מופלים לרעה בדרכים אחרות“",
+      "translation_quote": "„חלק ניכר ממערכת החינוך שלנו לועג לתלמידים ולמורים כאחד המצהירים על אמונתם באלוהי התנ״ך“"
+    },
+    {
+      "location": "Section title",
+      "severity": "minor",
+      "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+      "suggested_fix": "„בואו נא ונשוחח יחד“",
+      "translation_quote": "„בואו נא ונידבר יחד“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

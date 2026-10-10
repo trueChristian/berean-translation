@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Abri um olho para espiar o relógio”\",\"severity\":\"minor\",\"source_quote\":\"I opened one eye to peek at the clock—2:47.\",\"suggested_fix\":\"Abri um olho para espiar o relógio: 2h47.\",\"translation_quote\":\"Abri um olho para espiar o relógio: 14h47.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 350,
+    "content_evidence_truncated": false,
+    "content_sha256": "63d002773575669dc6c2f24aa83fdccb70fae553eba0c9ef24efbd2b81d0310d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 647,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7220,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6117,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7984
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

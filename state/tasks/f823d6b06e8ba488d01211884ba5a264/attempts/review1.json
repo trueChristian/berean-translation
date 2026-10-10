@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"마지막 문단\",\"severity\":\"minor\",\"source_quote\":\"We have something that everyone needs.\",\"suggested_fix\":\"우리에게는 모든 사람에게 필요한 것이 있습니다.\",\"translation_quote\":\"모든 사람에게 필요한 것을 우리에게는 가지고 있습니다.\"},{\"location\":\"“성경과 초대 교회” 문단\",\"severity\":\"minor\",\"source_quote\":\"were actively spreading the Gospel and were excited about the Church of Jesus Christ\",\"suggested_fix\":\"복음을 적극적으로 전파하고 예수 그리스도의 교회를 기뻐했던 것 같습니다.\",\"translation_quote\":\"적극적으로 복음을 전파하고 예수 그리스도의 교회를 열정적으로 섬겼던 것 같습니다.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 787,
+    "content_evidence_truncated": false,
+    "content_sha256": "d11b4b2cd63832a8c6ffc66b9c73357210c009f85a56ba027dbd2a33db4883ea",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 651,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5657,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7592
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

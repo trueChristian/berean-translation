@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Последний абзац\",\"severity\":\"major\",\"source_quote\":\"This is not a popular message found in today’s liberal media.\",\"suggested_fix\":\"Сегодняшние либеральные СМИ не распространяют это непопулярное послание.\",\"translation_quote\":\"Сегодняшние либеральные СМИ не распространяют это популярное послание.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 520,
+    "content_evidence_truncated": false,
+    "content_sha256": "f4d4b6d9b73bcffe2ef58d7f4980837b6ab77760ebec51912ffe48ff229d53a9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 577,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3311,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4991
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b82b22b7-773f-4565-88d5-cc8542e48d28",
+    "response_id": "chatcmpl-EWy7SpgF21W6dcMhvtKyQoiUXHi1q",
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3628,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5685
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphs beginning “Whatever are we going to do now?” and “As the girls sang song after song” (including the distance dialogue)",
+        "severity": "major",
+        "source_quote": "“seven more miles to our exit”; “stranded on a dark highway thirteen miles from home”; “About thirteen miles.”",
+        "suggested_fix": "Use kilometer equivalents rather than Swedish mil: for example, “ungefär elva kilometer kvar till avfarten” and “ungefär tjugoen kilometer” for the thirteen-mile distances.",
+        "translation_quote": "“sju mil kvar till vår avfart”; “strandsatta på en mörk landsväg tretton mil hemifrån”; “Ungefär tretton mil.”"
+      },
+      {
+        "location": "First poem, fourth line",
+        "severity": "minor",
+        "source_quote": "“Makes the trusting heart His home.”",
+        "suggested_fix": "“gör det förtröstande hjärtat till sitt hem.”",
+        "translation_quote": "“gör det hjärta som förtröstar till sitt hem.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

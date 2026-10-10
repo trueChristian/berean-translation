@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c113a9ea-a38e-42d9-be16-e90b1dc0d5f3",
+    "response_id": "chatcmpl-EWy6vyHsLz9kfw0db9gWiGNtGesjp",
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 513,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7472,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6369,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8061
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "«От сестры к сестре»",
+        "translation_quote": "СЕСТРА С СЕСТРОЙ"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "34cf74fd-cacf-436b-a0e2-cba2ea4d6542",
+    "response_id": "chatcmpl-EWy73cFZS0uBUivPOkNacg9z6anik",
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6988,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8963
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First farm rules paragraph",
+        "severity": "minor",
+        "source_quote": "On Tuesdays they could stay for supper",
+        "suggested_fix": "منگل کو وہ ہمارے ساتھ رات کا کھانا کھانے کے لیے ٹھہر سکتے تھے",
+        "translation_quote": "منگل کو وہ رات کے کھانے تک ٹھہر سکتے تھے"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

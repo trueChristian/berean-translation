@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poème, première ligne",
+      "severity": "minor",
+      "source_quote": "As a man was dying, his thoughts went back.",
+      "suggested_fix": "Alors qu’un homme se mourait, ses pensées se tournèrent vers le passé.",
+      "translation_quote": "Alors qu’un homme se mourait, ses pensées remontèrent le temps."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

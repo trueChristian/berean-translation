@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3e1a9785-918c-41e3-bd5d-da67d3b3a66b",
+    "response_id": "chatcmpl-EWy7StpXZcZZu7H5yq85BmPSogRCb",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3640,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2537,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4381
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, ordered-list item 7",
+        "severity": "minor",
+        "source_quote": "Understanding Placebo Effect & A Safe Use of Psyche Meds",
+        "suggested_fix": "Kuelewa Athari ya Placebo na Matumizi Salama ya Dawa za Afya ya Akili",
+        "translation_quote": "Kuelewa Athari ya Placebo na Matumizi Salama ya Dawa za Psyche"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

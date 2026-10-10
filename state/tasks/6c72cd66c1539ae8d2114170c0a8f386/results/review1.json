@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "db0c6b47-f1f7-4b48-a67d-edee1fd8ef89",
+    "response_id": "chatcmpl-EWy7P0nElBP65OS0WtGO6svlFGSNZ",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6337,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8309
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz beginnend „Weise Eltern bemühen sich …“",
+        "severity": "major",
+        "source_quote": "Instead, the children of Israel made friends with the enemy nations and began to intermarry.",
+        "suggested_fix": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, sich mit ihnen zu verheiraten.",
+        "translation_quote": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, untereinander zu heiraten."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

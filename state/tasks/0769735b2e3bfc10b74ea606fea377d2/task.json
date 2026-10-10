@@ -2,7 +2,6 @@
   "article_id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 4438
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 954,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 702,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4731,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3628,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5685
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraphs beginning “Whatever are we going to do now?” and “As the girls sang song after song” (including the distance dialogue)",
+      "severity": "major",
+      "source_quote": "“seven more miles to our exit”; “stranded on a dark highway thirteen miles from home”; “About thirteen miles.”",
+      "suggested_fix": "Use kilometer equivalents rather than Swedish mil: for example, “ungefär elva kilometer kvar till avfarten” and “ungefär tjugoen kilometer” for the thirteen-mile distances.",
+      "translation_quote": "“sju mil kvar till vår avfart”; “strandsatta på en mörk landsväg tretton mil hemifrån”; “Ungefär tretton mil.”"
+    },
+    {
+      "location": "First poem, fourth line",
+      "severity": "minor",
+      "source_quote": "“Makes the trusting heart His home.”",
+      "suggested_fix": "“gör det förtröstande hjärtat till sitt hem.”",
+      "translation_quote": "“gör det hjärta som förtröstar till sitt hem.”"
+    }
+  ],
   "id": "0769735b2e3bfc10b74ea606fea377d2",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swe",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9a52a3f9b11a0465c063adcc30e18224f3688a490d438d0dc3724ec6cb6f38b2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
   "translation_model_actual": "gpt-6-luna"

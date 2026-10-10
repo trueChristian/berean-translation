@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 7\",\"severity\":\"major\",\"source_quote\":\"because they were the dreaded Anabaptists\",\"suggested_fix\":\"because walikuwa Anabaptisti walioogopwa\",\"translation_quote\":\"kwa sababu walikuwa Anabaptisti waliotishwa\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 295,
+    "content_evidence_truncated": false,
+    "content_sha256": "4da5130e6ebc50c5608dd6a5182b374203bee9aae55cdca7039c61deefcc9887",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 783,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5471,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7450
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

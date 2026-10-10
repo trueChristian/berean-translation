@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "末尾诗歌，第3—4行",
+      "severity": "minor",
+      "source_quote": "His love is all-sufficient / To calm the gravest fear.",
+      "suggested_fix": "可改为“祂的爱全然够用，/ 足以平息最深的恐惧。”",
+      "translation_quote": "祂的爱足以满足一切，/ 平息最深的恐惧。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

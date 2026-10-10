@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «إن الرؤية الحقيقية لعمل الله تأتي بثمن»",
+      "severity": "major",
+      "source_quote": "The rich young ruler would have loved to be a ruler in the kingdom of Christ as well as on his estate",
+      "suggested_fix": "كان الشاب الغني الحاكم سيحب أن يكون حاكمًا في ملكوت المسيح كما كان على أملاكه",
+      "translation_quote": "كان الرئيس الشاب الغني سيحب أن يكون حاكمًا في ملكوت المسيح كما كان في أملاكه"
+    },
+    {
+      "location": "Paragraph beginning «كانت أربعون سنة في أتون الوحدة»",
+      "severity": "minor",
+      "source_quote": "his fear and focus never left his God",
+      "suggested_fix": "ظلّت مخافة الله وتركيزه عليه حاضرتين دائمًا",
+      "translation_quote": "لم يغب الله قط عن مخاوفه واهتمامه"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

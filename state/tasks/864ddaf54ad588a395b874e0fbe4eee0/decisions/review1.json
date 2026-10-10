@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section I.f “His Ascension”",
+      "severity": "major",
+      "source_quote": "“We have Jesus sitting at the right hand of the throne of God interceding for us.”",
+      "suggested_fix": "Replace “Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea wengine kwa ajili yetu” with “Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea sisi” so that the people Jesus intercedes for are the believers, as in the source.",
+      "translation_quote": "“Yesu ameketi mkono wa kuume wa kiti cha enzi cha Mungu akiwaombea wengine kwa ajili yetu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

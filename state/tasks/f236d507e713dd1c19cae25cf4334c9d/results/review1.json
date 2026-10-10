@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "95e6522f-3e04-4df8-85cc-20e1835b241a",
+    "response_id": "chatcmpl-EWy75qsVYv8hpaWx6e0BbsmXwlYH2",
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2292,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4029
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "h2, event-series title",
+        "severity": "major",
+        "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
+        "suggested_fix": "“Een Bijbelse kijk op problemen rond psychische, emotionele, huwelijkse en seksuele mishandeling”",
+        "translation_quote": "“Een Bijbelse kijk op problemen rond geestelijke, emotionele, huwelijks- en seksuele mishandeling”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

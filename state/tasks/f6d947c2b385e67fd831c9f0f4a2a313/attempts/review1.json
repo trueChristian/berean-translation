@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “Vários minutos depois”\",\"severity\":\"minor\",\"source_quote\":\"“I was scared and glad at the same time.”\",\"suggested_fix\":\"«fiquei assustada e contente ao mesmo tempo»\",\"translation_quote\":\"«fiquei assustada e aliviada ao mesmo tempo»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 353,
+    "content_evidence_truncated": false,
+    "content_sha256": "3bec9b8f936fa48895abcf44c3bce7e9f76f77a8265f14d6afd968e56ed3dce8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 764,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3547,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5518
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

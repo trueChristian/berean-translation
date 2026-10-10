@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening section, paragraph beginning «“Not quite!”»",
+      "severity": "minor",
+      "source_quote": "Placing baby into the walker, I headed to the kitchen.",
+      "suggested_fix": "Έβαλα το μωρό στη στράτα και πήγα στην κουζίνα.",
+      "translation_quote": "Έβαλα το μωρό στο περπατούρα και πήγα στην κουζίνα."
+    },
+    {
+      "location": "Early narrative, paragraph beginning «We had scarcely settled onto the farm»",
+      "severity": "minor",
+      "source_quote": "We had scarcely settled onto the farm when the neighbor children found us.",
+      "suggested_fix": "Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, μας ανακάλυψαν τα παιδιά της γειτονιάς.",
+      "translation_quote": "Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, όταν μας ανακάλυψαν τα παιδιά της γειτονιάς."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

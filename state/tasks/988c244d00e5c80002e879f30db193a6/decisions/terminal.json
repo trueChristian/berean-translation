@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Let’s chat a little”",
+      "severity": "minor",
+      "source_quote": "“Her mom had left years ago to work in another country, leaving the girls with their Grandma.”",
+      "suggested_fix": "Use a kinship term that does not specify which side of the family, such as “deras farmor eller mormor,” unless the maternal relationship is known.",
+      "translation_quote": "“Hennes mamma hade åkt till ett annat land för att arbeta flera år tidigare och lämnat flickorna hos deras mormor.”"
+    },
+    {
+      "location": "Article, paragraph beginning “José recently asked”",
+      "severity": "minor",
+      "source_quote": "“His grandma came over several days later, offended”",
+      "suggested_fix": "Use “hans farmor eller mormor” unless the maternal relationship is known.",
+      "translation_quote": "“Hans mormor kom över flera dagar senare, tog illa upp”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

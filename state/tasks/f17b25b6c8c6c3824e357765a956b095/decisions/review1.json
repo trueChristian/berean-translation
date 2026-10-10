@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "قائمة العناوين، البند 9",
+      "severity": "major",
+      "source_quote": "Purity—From the Cradle to Conversion, then on to Marriage or Singlehood",
+      "suggested_fix": "الطهارة—من المهد إلى الاهتداء إلى الإيمان، ثم إلى الزواج أو العزوبية",
+      "translation_quote": "الطهارة—من المهد إلى التوبة، ثم إلى الزواج أو العزوبية"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “King Darius signed…”; Daniel 6:10 quotation",
+      "severity": "major",
+      "source_quote": "“Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.”",
+      "suggested_fix": "Translate the quotation into contemporary Hebrew, preserving the printed meaning and reference; for example: ״כאשר נודע לדניאל שהצו נחתם, הוא נכנס לביתו. חלונות עלייתו היו פתוחים לכיוון ירושלים, והוא כרע על ברכיו שלוש פעמים ביום, התפלל והודה לאלוהיו, כפי שנהג לעשות קודם לכן.״",
+      "translation_quote": "״וכדי ידע דניאל כי רשים כתבא, על לביתיה, וכוין פתיחן לה בעליתה נגד ירושלם, וזמנין תלתה ביומא הוא ברך על ברכוהי ומצלא ומודא קדם אלהה, כל קבל די הוא עבד מן קדמת דנה.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

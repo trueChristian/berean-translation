@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line beginning “A life on the run”",
+      "severity": "major",
+      "source_quote": "A life on the run, was not my desire.",
+      "suggested_fix": "لم تكن حياةُ الهرب ما أرغب فيه.",
+      "translation_quote": "لم تكن الحياة هاربًا رغبتي."
+    },
+    {
+      "location": "Poem, line beginning “Let’s not give in”",
+      "severity": "major",
+      "source_quote": "Let’s not give in, there’s too much at stake.",
+      "suggested_fix": "لا نستسلم؛ فالكثير على المحك.",
+      "translation_quote": "لا نستسلم؛ فالم stakes كثيرة جدًا."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

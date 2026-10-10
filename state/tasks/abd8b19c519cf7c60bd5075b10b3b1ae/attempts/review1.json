@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"Pine Creek Church\",\"suggested_fix\":\"পাইন ক্রিক চার্চে\",\"translation_quote\":\"পাইน์ ক্রিক চার্চে\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 284,
+    "content_evidence_truncated": false,
+    "content_sha256": "e86f791d9aa283ab3d259b61f64b8de3f881d53cde0421426fca868cb4a6276e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5109,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4006,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5696
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

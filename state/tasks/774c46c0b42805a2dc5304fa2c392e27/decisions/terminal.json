@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 2",
+      "severity": "minor",
+      "source_quote": "our Master",
+      "suggested_fix": "Tuhan kita",
+      "translation_quote": "Tuan kita"
+    },
+    {
+      "location": "Article, paragraph 1",
+      "severity": "minor",
+      "source_quote": "another crop of food to enjoy",
+      "suggested_fix": "hasil panen lain yang dapat dinikmati",
+      "translation_quote": "panen makanan lain yang dapat dinikmati"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

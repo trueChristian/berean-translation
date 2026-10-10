@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "40b35772-451e-4853-b8bf-045df81a9c49",
+    "response_id": "chatcmpl-EWy7BpRZR3FgpHO6ilyUWSynEqm4P",
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5412,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7200
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "OORDENKINGS VAN ’N SENDELING",
+        "translation_quote": "OORDENKINGS VAN ’N SENDeling"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

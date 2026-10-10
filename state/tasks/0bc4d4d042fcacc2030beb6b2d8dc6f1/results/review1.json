@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ee77854-b48a-42fd-99e6-e2463af1e935",
+    "response_id": "chatcmpl-EWy6tKiHRw7HaJTkHQIiDGSPeDLJO",
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2406,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2403,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3237
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 16",
+        "severity": "minor",
+        "source_quote": "From cave to cave, I would call home",
+        "suggested_fix": "Van grot tot grot sou ek dit my tuiste noem,",
+        "translation_quote": "Van grot tot grot sou ek tuis noem,"
+      },
+      {
+        "location": "Poem, line 12",
+        "severity": "minor",
+        "source_quote": "A peace that I thought, no one could hide.",
+        "suggested_fix": "’n Vrede waarvan ek gedink het dat niemand dit kon verberg nie.",
+        "translation_quote": "’n Vrede waarvan ek gedink het niemand dit kon verberg nie."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

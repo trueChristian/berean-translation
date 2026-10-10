@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph describing the man who approaches the car",
+      "severity": "major",
+      "source_quote": "“a man wearing a red-checked flannel jacket approached.”",
+      "suggested_fix": "Replace “rooi-en-swart geruite” with “rooi-geruite” so the translation does not add a color absent from the source.",
+      "translation_quote": "“’n man met ’n rooi-en-swart geruite flenniebaadjie nader gekom het.”"
+    },
+    {
+      "location": "Article, Gloria’s quotation of Psalm 40:1–4",
+      "severity": "major",
+      "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+      "suggested_fix": "Translate the two clauses distinctly, for example: “Welgeluksalig is die man wat die HERE sy vertroue maak, wat nie hoogmoediges ag nie en hom nie wend tot dié wat leuens navolg nie.”",
+      "translation_quote": "“Welgeluksalig is die man wat die HERE sy vertroue maak en hom nie wend tot hoogmoediges en leuenaars nie.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

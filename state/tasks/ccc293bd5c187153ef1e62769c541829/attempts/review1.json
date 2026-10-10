@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm quotation in Gloria’s dialogue\",\"severity\":\"major\",\"source_quote\":\"“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”\",\"suggested_fix\":\"“Welzalig de man die de HEER tot zijn vertrouwen maakt en geen aanzien heeft voor de hoogmoedigen, noch voor hen die zich tot leugen wenden.”\",\"translation_quote\":\"“Welzalig de man die de HEER tot zijn vertrouwen maakt en zich niet wendt tot de hoogmoedigen, noch tot hen die zich tot leugen wenden.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 602,
+    "content_evidence_truncated": false,
+    "content_sha256": "9ecbb677fef8c97e1f9f1be4f2579b442079ffa5634aa1ee4340009b547033c8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 641,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4616,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3513,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5422
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

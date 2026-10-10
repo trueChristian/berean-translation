@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"h2, conference-series title\",\"severity\":\"major\",\"source_quote\":\"“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”\",\"suggested_fix\":\"“정신적·정서적 학대와 결혼 및 성적 학대 문제에 대한 성경적 관점”\",\"translation_quote\":\"“정신적·정서적 문제, 결혼 문제 및 성적 학대 문제에 대한 성경적 관점”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 459,
+    "content_evidence_truncated": false,
+    "content_sha256": "5281862bc6bc853d24fdcb3e0432c4c5a83d6d00123556bd75c608e2eac9fa04",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 691,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2496,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4425
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "Will I leave a good mark, that none can attack?",
+      "suggested_fix": "Overweeg ‘Laat ik een blijvend goed spoor na waar niemand iets op aan kan merken?’ om het idee van een blijvende nalatenschap te behouden.",
+      "translation_quote": "Laat ik een goede indruk achter, waar niemand iets op aan kan merken?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "Pine Creek Church",
+      "suggested_fix": "পাইন ক্রিক চার্চে",
+      "translation_quote": "পাইน์ ক্রিক চার্চে"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

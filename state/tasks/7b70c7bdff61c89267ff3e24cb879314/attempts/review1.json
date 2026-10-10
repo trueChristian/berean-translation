@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"tried to get me to settle down and relax\",\"suggested_fix\":\"tried to get me to calm down and relax\",\"translation_quote\":\"ניסו לגרום לי להירגע ולהירגע\"},{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"I believe the fire is going out.\",\"suggested_fix\":\"האש הולכת וכבה → האש הולכת ודועכת\",\"translation_quote\":\"אני מאמין שהאש הולכת וכבה.\"},{\"location\":\"Paragraph 8\",\"severity\":\"minor\",\"source_quote\":\"Being quiet was not an option.\",\"suggested_fix\":\"לשתוק לא הייתה אפשרות.\",\"translation_quote\":\"לשתוק לא היה אפשרות.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 758,
+    "content_evidence_truncated": false,
+    "content_sha256": "7839b5379ae0ec686f440f3f78f83952887f89dbab4a51922cc37d3c19f83893",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 668,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6021,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7984
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

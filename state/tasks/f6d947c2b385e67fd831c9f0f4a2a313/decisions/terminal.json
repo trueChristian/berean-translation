@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Vários minutos depois”",
+      "severity": "minor",
+      "source_quote": "“I was scared and glad at the same time.”",
+      "suggested_fix": "«fiquei assustada e contente ao mesmo tempo»",
+      "translation_quote": "«fiquei assustada e aliviada ao mesmo tempo»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

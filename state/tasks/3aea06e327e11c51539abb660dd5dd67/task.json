@@ -2,7 +2,6 @@
   "article_id": "90d8e22a-d7b1-453e-98bf-cab1571a7f56",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2247
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 629,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2349,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1246,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2978
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "Will I leave a good mark, that none can attack?",
+      "suggested_fix": "Overweeg ‘Laat ik een blijvend goed spoor na waar niemand iets op aan kan merken?’ om het idee van een blijvende nalatenschap te behouden.",
+      "translation_quote": "Laat ik een goede indruk achter, waar niemand iets op aan kan merken?"
+    }
+  ],
+  "finished_at": "2026-10-10T00:44:33+00:00",
   "id": "3aea06e327e11c51539abb660dd5dd67",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "nld",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af63d571026592c63f223d8429a4c7d757d29b25ba62bde4f1dc79124041ac47.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3e4f2b2016301b4aa7857df494c53dc212d92ab0f3029f94a2ddab761c64691e",
   "translation_model_actual": "gpt-6-luna"

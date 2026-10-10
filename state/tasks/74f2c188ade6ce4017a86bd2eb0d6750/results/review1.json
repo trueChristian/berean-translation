@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa3a9325-046a-4c0a-a842-481611ee0314",
+    "response_id": "chatcmpl-EWy7S0Vw4xTXX04Cl31F1mjfZx2dK",
+    "usage": {
+      "completion_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 978,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7268,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9632
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “King Darius signed…”; Daniel 6:10 quotation",
+        "severity": "major",
+        "source_quote": "“Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.”",
+        "suggested_fix": "Translate the quotation into contemporary Hebrew, preserving the printed meaning and reference; for example: ״כאשר נודע לדניאל שהצו נחתם, הוא נכנס לביתו. חלונות עלייתו היו פתוחים לכיוון ירושלים, והוא כרע על ברכיו שלוש פעמים ביום, התפלל והודה לאלוהיו, כפי שנהג לעשות קודם לכן.״",
+        "translation_quote": "״וכדי ידע דניאל כי רשים כתבא, על לביתיה, וכוין פתיחן לה בעליתה נגד ירושלם, וזמנין תלתה ביומא הוא ברך על ברכוהי ומצלא ומודא קדם אלהה, כל קבל די הוא עבד מן קדמת דנה.״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

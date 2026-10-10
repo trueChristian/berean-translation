@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1839ff37-8ece-45ab-b87f-fd3137a646c8",
+    "response_id": "chatcmpl-EWy7MesyKDV9Fh5TVZK1vvA1hS6y5",
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5138
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+        "suggested_fix": "“MARILAH SEKARANG, KITA BERPERKARA BERSAMA-SAMA”",
+        "translation_quote": "“MARILAH, KITA BERPERKARA BERSAMA-SAMA”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

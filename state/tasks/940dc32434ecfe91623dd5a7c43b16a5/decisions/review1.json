@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "h2 conference title",
+      "severity": "major",
+      "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
+      "suggested_fix": "“从圣经看心理、情绪、婚姻及性方面的虐待问题”",
+      "translation_quote": "“从圣经看心理、情绪、婚姻及性虐待问题”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

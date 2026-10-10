@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Poiché tutti hanno peccato…” (Romans 3:23–25)",
+      "severity": "major",
+      "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+      "suggested_fix": "Replace “Dio lo ha prestabilito come propiziazione” with “Dio lo ha presentato come propiziazione” (or “Dio lo ha stabilito come propiziazione”), preserving the sense of presenting/appointing him as propitiation, not predestining him.",
+      "translation_quote": "“Dio lo ha prestabilito come propiziazione mediante la fede nel suo sangue”"
+    },
+    {
+      "location": "Paragraph beginning “Nella sua risurrezione…” (Colossians 2:12)",
+      "severity": "major",
+      "source_quote": "“wherein also ye are risen with him through the faith of the operation of God”",
+      "suggested_fix": "Remove the added opening clause and translate the printed excerpt, for example: “nel quale anche siete risuscitati con lui mediante la fede nell’opera di Dio, che lo ha risuscitato dai morti”.",
+      "translation_quote": "“essendo stati con lui sepolti nel battesimo, nel quale siete anche risuscitati con lui mediante la fede nell’opera di Dio”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

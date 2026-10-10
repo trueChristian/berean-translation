@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "78c80d68-635f-409e-98be-5fa8c33e56c5",
+    "response_id": "chatcmpl-EWy6zNRb0EYayLmvIj6MN6dHkgaMB",
+    "usage": {
+      "completion_tokens": 510,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 390,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2410,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4023
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "قائمة العناوين، البند 9",
+        "severity": "major",
+        "source_quote": "Purity—From the Cradle to Conversion, then on to Marriage or Singlehood",
+        "suggested_fix": "الطهارة—من المهد إلى الاهتداء إلى الإيمان، ثم إلى الزواج أو العزوبية",
+        "translation_quote": "الطهارة—من المهد إلى التوبة، ثم إلى الزواج أو العزوبية"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

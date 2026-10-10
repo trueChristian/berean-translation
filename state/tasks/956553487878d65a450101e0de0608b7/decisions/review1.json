@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 4",
+      "severity": "major",
+      "source_quote": "Keeping nothing back, not even a cent.",
+      "suggested_fix": "Ничего не оставил себе, ни единого цента.",
+      "translation_quote": "Ничего не утаил, ни единого цента."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

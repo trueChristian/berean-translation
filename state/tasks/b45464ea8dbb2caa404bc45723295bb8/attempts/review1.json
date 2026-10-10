@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Third paragraph; distance to the exit\",\"severity\":\"major\",\"source_quote\":\"seven more miles to our exit\",\"suggested_fix\":\"«og med sju miles igjen til avkjørselen vår» (eventuelt «omtrent elleve kilometer»)\",\"translation_quote\":\"sju mil igjen til avkjørselen vår\"},{\"location\":\"Paragraph beginning “As the girls sang song after song”; distance from home\",\"severity\":\"major\",\"source_quote\":\"thirteen miles from home\",\"suggested_fix\":\"«omtrent tretten miles hjemmefra» (eventuelt «omtrent tjueen kilometer hjemmefra»)\",\"translation_quote\":\"tretten mil hjemmefra\"},{\"location\":\"Dialogue after the men stop; distance still to travel\",\"severity\":\"major\",\"source_quote\":\"“About thirteen miles.”\",\"suggested_fix\":\"«Omtrent tretten miles.» (eventuelt «Omtrent tjueen kilometer.»)\",\"translation_quote\":\"«Omtrent tretten mil.»\"},{\"location\":\"Gloria’s quotation of Psalm 40:1–4\",\"severity\":\"minor\",\"source_quote\":\"“and respecteth not the proud, nor such as turn aside to lies”\",\"suggested_fix\":\"«og ikke har sin lit til de stolte eller til dem som vender seg til løgn»\",\"translation_quote\":\"«og som ikke vender seg til de stolte eller til dem som farer med løgn»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1270,
+    "content_evidence_truncated": false,
+    "content_sha256": "41b803ae3f95930c0947ac6b5ef8436ad55b2a1949bfcf290a7b12cf53cdcd7a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 651,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3609,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5684
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

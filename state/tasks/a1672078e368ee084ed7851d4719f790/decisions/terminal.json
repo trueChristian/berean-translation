@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о регистрации на мероприятие",
+      "severity": "minor",
+      "source_quote": "Due to providing meals and due to seating limitations, registration will be required for this event.",
+      "suggested_fix": "В связи с организацией питания и ограниченным количеством мест для участия в этом мероприятии потребуется регистрация.",
+      "translation_quote": "Поскольку будут предоставляться питание и места ограничены, для участия в этом мероприятии потребуется регистрация."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

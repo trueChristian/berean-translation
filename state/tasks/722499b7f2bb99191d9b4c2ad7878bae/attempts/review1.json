@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 7\",\"severity\":\"major\",\"source_quote\":\"“within much of our education system, students as well as teachers who profess faith in the God of the Bible are ridiculed”\",\"suggested_fix\":\"Replace the clause with: „במסגרת חלקים נרחבים ממערכת החינוך שלנו, תלמידים ומורים כאחד המצהירים על אמונתם באלוהי התנ״ך נחשפים ללעג, ואף מופלים לרעה בדרכים אחרות“\",\"translation_quote\":\"„חלק ניכר ממערכת החינוך שלנו לועג לתלמידים ולמורים כאחד המצהירים על אמונתם באלוהי התנ״ך“\"},{\"location\":\"Section title\",\"severity\":\"minor\",\"source_quote\":\"“COME NOW, LET US REASON TOGETHER”\",\"suggested_fix\":\"„בואו נא ונשוחח יחד“\",\"translation_quote\":\"„בואו נא ונידבר יחד“\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 962,
+    "content_evidence_truncated": false,
+    "content_sha256": "5494efb4d6c9c421476c296c803af32089f2dd947cc2d710c584759d2b2b40c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3395,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5494
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

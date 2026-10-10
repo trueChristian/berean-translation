@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"giving thanks and praise to their Creator\",\"suggested_fix\":\"Replace ״לאלוהים, בוראן״ with ״לאלוהים, בוראם״ or ״לאלוהים, הבורא שלהם״.\",\"translation_quote\":\"והודו לאלוהים, בוראן, ושיבחו אותו\"},{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"Mile after mile sped by\",\"suggested_fix\":\"Change ״חלף״ to ״חלפו״ to agree with ״מייל אחר מייל״.\",\"translation_quote\":\"מייל אחר מייל חלף במהירות\"},{\"location\":\"Paragraph describing the approaching pickup\",\"severity\":\"minor\",\"source_quote\":\"with two dirt bikes on the back\",\"suggested_fix\":\"Change ״שתי אופנועי שטח״ to ״שני אופנועי שטח״.\",\"translation_quote\":\"ועליו שתי אופנועי שטח\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 925,
+    "content_evidence_truncated": false,
+    "content_sha256": "38004bd5a498fa983339beccb379ac14548f99829a0724f00bd34093cabc00db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 899,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3841,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6083
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

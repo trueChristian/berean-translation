@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "h2, conference-series title",
+      "severity": "major",
+      "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
+      "suggested_fix": "“정신적·정서적 학대와 결혼 및 성적 학대 문제에 대한 성경적 관점”",
+      "translation_quote": "“정신적·정서적 문제, 결혼 문제 및 성적 학대 문제에 대한 성경적 관점”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

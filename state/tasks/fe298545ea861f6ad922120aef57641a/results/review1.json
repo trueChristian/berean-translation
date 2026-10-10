@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d02f6c1-ebc5-435d-8b71-fb782d98005d",
+    "response_id": "chatcmpl-EWy7OIIHyHhTGIT6evAkrJj56PlT7",
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 863,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13019,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15125
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph on fetal ovarian tissue transplantation",
+        "severity": "major",
+        "source_quote": "Imagine being a child born of a genetic mother that was aborted!",
+        "suggested_fix": "Φανταστείτε να είστε ένα παιδί που γεννήθηκε από γενετική μητέρα η οποία είχε εκτρωθεί!",
+        "translation_quote": "Φανταστείτε να είστε ένα παιδί που γεννήθηκε από γενετική μητέρα η οποία είχε υποβληθεί σε άμβλωση!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

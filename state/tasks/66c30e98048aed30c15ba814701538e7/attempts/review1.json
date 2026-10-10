@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph quoting Psalm; Scripture reference\",\"severity\":\"major\",\"source_quote\":\"Psa 40:1-4\",\"suggested_fix\":\"Заменить ссылку на «Пс. 40:1–4», сохранив номера главы и стихов исходной ссылки.\",\"translation_quote\":\"Пс. 39:2–5\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 370,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d511d8695e22c5bdb3bfd572b5439cabbe2164c6cea727277fe9ae919f194cb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 856,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4803,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3700,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5769
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

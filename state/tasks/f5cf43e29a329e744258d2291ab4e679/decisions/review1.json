@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Μου φαίνεται πως ο Θεός…»",
+      "severity": "minor",
+      "source_quote": "“God doesn’t need of a large mass of bodies to stuff into a hole.”",
+      "suggested_fix": "Replace «να στουβωθούν σε μια τρύπα» with «να στοιβαχτούν σε μια τρύπα».",
+      "translation_quote": "«Ο Θεός δεν χρειάζεται ένα μεγάλο πλήθος σωμάτων για να στουβωθούν σε μια τρύπα.»"
+    },
+    {
+      "location": "Paragraph beginning «Σαράντα χρόνια μέσα…»",
+      "severity": "minor",
+      "source_quote": "“It was forty years in the lonely furnace that purged his pride and pruned his prowess.”",
+      "suggested_fix": "Replace «περιόρισαν την αυτοπεποίθησή του» with wording that conveys that the years tempered or refined his abilities, such as «περιόρισαν την υπεροχή των ικανοτήτων του».",
+      "translation_quote": "«Σαράντα χρόνια μέσα στη μοναχική κάμινο εξάλειψαν την υπερηφάνειά του και περιόρισαν την αυτοπεποίθησή του.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

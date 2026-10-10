@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening section, paragraph beginning «“Not quite!”»\",\"severity\":\"minor\",\"source_quote\":\"Placing baby into the walker, I headed to the kitchen.\",\"suggested_fix\":\"Έβαλα το μωρό στη στράτα και πήγα στην κουζίνα.\",\"translation_quote\":\"Έβαλα το μωρό στο περπατούρα και πήγα στην κουζίνα.\"},{\"location\":\"Early narrative, paragraph beginning «We had scarcely settled onto the farm»\",\"severity\":\"minor\",\"source_quote\":\"We had scarcely settled onto the farm when the neighbor children found us.\",\"suggested_fix\":\"Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, μας ανακάλυψαν τα παιδιά της γειτονιάς.\",\"translation_quote\":\"Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, όταν μας ανακάλυψαν τα παιδιά της γειτονιάς.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1000,
+    "content_evidence_truncated": false,
+    "content_sha256": "460bfa003352ba83b4aaddc43e055ce2165d3f2d516eeb14dff7160e55db73e7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 878,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7740,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9954
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

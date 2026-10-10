@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "My faith in and relationship to Jesus Christ are as foundational and irrefutable as my gender and race.",
+      "suggested_fix": "Mein Glaube an Jesus Christus und meine Beziehung zu ihm sind ebenso grundlegend und unwiderlegbar wie mein Geschlecht und meine Rasse.",
+      "translation_quote": "Mein Glaube an Jesus Christus und meine Beziehung zu ihm sind ebenso grundlegend und unwiderlegbar wie mein Geschlecht und meine Hautfarbe."
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "a man who reportedly, throughout his life, had considered himself a female and who had been “transitioning” into a woman",
+      "suggested_fix": "einen Mann, der sich Berichten zufolge sein ganzes Leben lang für eine Frau gehalten und sich im Übergang zu einer Frau befunden hatte",
+      "translation_quote": "einen Mann, der sich Berichten zufolge sein ganzes Leben lang für eine Frau gehalten und sich in eine Frau „verwandelt“ hatte"
+    },
+    {
+      "location": "Paragraphs 8 and 9, Scripture references",
+      "severity": "minor",
+      "source_quote": "–Mat 7:13-14 NIV … –Joh 3:16",
+      "suggested_fix": "Use conventional German book abbreviations in the references: „–Mt 7:13-14 NIV“ and „–Joh 3:16“.",
+      "translation_quote": "–Mat 7:13-14 NIV … –Joh 3:16"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

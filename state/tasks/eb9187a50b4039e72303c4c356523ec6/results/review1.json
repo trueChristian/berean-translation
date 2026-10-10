@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "10b09be2-e483-4551-b7ad-3e42745b826f",
+    "response_id": "chatcmpl-EWy7KrDucJF6ZXLqRzQq4uTv7fQeY",
+    "usage": {
+      "completion_tokens": 1403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1114,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6637,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9143
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph and all references to the 3 p.m. and 6 p.m. schedule (opening; first visit rules; Zinnia’s later question)",
+        "severity": "major",
+        "source_quote": "“It was 2:30 p.m., Tuesday afternoon.” / “It’s not three o’clock yet.” / “arriving no earlier than three o’clock in the afternoon” / “leave by 6 p.m.” / “Is it three o’clock yet?”",
+        "suggested_fix": "Use Kiswahili clock expressions that preserve the source times: for example, “saa nane na nusu alasiri” for 2:30 p.m., “saa tisa alasiri” for 3 p.m., and “saa kumi na mbili jioni” for 6 p.m. Apply these consistently to the opening, dialogue, rules, and later question.",
+        "translation_quote": "“Ilikuwa saa 2:30 alasiri” / “Bado saa tatu hazijafika” / “wasifike kabla ya saa 3 alasiri” / “kabla ya saa 6 alasiri” / “Je, saa tatu zimefika?”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

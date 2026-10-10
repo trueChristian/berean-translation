@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, quoted Scripture (John 3:16)\",\"severity\":\"major\",\"source_quote\":\"that he gave his only begotten Son\",\"suggested_fix\":\"Replace «sin eneste Sønn» with «sin enbårne Sønn» to preserve the source’s “only begotten” description.\",\"translation_quote\":\"at han ga sin eneste Sønn\"},{\"location\":\"Section metadata\",\"severity\":\"minor\",\"source_quote\":\"“COME NOW, LET US REASON TOGETHER”\",\"suggested_fix\":\"Use a Bokmål rendering that preserves the invitation to reason together, such as «KOM, LA OSS GJØRE OPP VÅR SAK».\",\"translation_quote\":\"«KOM NÅ, LA OSS GJØRE OPP VÅR MELLOMREGNING»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 697,
+    "content_evidence_truncated": false,
+    "content_sha256": "3146c8f548fb3b65c95855aaa734b8cc954ea2ac6b440744199f999b3e2cb0f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3380,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5167
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

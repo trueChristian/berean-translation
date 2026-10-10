@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3c598bc5-88a1-4f11-8fe7-294686f7eb5b",
+    "response_id": "chatcmpl-EWy7LbhwhzUOCFhQnyCTqtDXE4x3r",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 655,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3768,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5655
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Together the girls…”",
+        "severity": "major",
+        "source_quote": "Together the girls bowed their heads and pled for the Lord’s protection and help.",
+        "suggested_fix": "Wasichana waliinamisha vichwa vyao pamoja na kumsihi Bwana awalinde na kuwasaidia.",
+        "translation_quote": "Wasichana waliinua vichwa vyao pamoja na kumsihi Bwana awalinde na kuwasaidia."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

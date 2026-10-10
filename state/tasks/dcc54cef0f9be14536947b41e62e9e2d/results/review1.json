@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d8d157f5-7bfc-4906-a379-e01c5b5a825f",
+    "response_id": "chatcmpl-EWy735smRVE80M9qqswV0zNVuiJrM",
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7062
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, quotation of Matthew 9:37–38",
+        "severity": "minor",
+        "source_quote": "the labourers are few",
+        "suggested_fix": "Change „aber der Arbeiter sind wenige“ to „aber die Arbeiter sind wenige“.",
+        "translation_quote": "Die Ernte ist zwar groß, aber der Arbeiter sind wenige."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

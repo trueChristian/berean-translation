@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "tried to get me to settle down and relax",
+      "suggested_fix": "tried to get me to calm down and relax",
+      "translation_quote": "ניסו לגרום לי להירגע ולהירגע"
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "I believe the fire is going out.",
+      "suggested_fix": "האש הולכת וכבה → האש הולכת ודועכת",
+      "translation_quote": "אני מאמין שהאש הולכת וכבה."
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "Being quiet was not an option.",
+      "suggested_fix": "לשתוק לא הייתה אפשרות.",
+      "translation_quote": "לשתוק לא היה אפשרות."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

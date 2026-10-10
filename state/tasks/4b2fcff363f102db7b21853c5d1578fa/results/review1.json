@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "586b4cbc-b9f9-4a10-abc4-aa7805790719",
+    "response_id": "chatcmpl-EWy7iJn4GFF8BbAtgEVPfM2EX2Mzn",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4807,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3704,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5473
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Ultima poesia, verso «He’s walking close beside thee»",
+        "severity": "major",
+        "source_quote": "He’s walking close beside thee;",
+        "suggested_fix": "Lui cammina al tuo fianco;",
+        "translation_quote": "cammina al tuo fianco;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

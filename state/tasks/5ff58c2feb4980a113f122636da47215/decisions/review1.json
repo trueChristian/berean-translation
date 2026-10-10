@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Är vi ivriga att berätta om Jesus”",
+      "severity": "major",
+      "source_quote": "“while the world laughs at us and goes to hell”",
+      "suggested_fix": "Replace “medan världen skrattar åt oss och går förlorad” with “medan världen skrattar åt oss och går till helvetet” to preserve the source’s explicit reference to hell.",
+      "translation_quote": "“medan världen skrattar åt oss och går förlorad”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

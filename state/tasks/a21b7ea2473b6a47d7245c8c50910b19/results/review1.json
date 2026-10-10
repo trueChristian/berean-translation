@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3879dc2f-7641-435e-9a31-04d078bb7c91",
+    "response_id": "chatcmpl-EWy7Pn8Amdtvt7nid7K9ECxwyGBDY",
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3380,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5167
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, quoted Scripture (John 3:16)",
+        "severity": "major",
+        "source_quote": "that he gave his only begotten Son",
+        "suggested_fix": "Replace «sin eneste Sønn» with «sin enbårne Sønn» to preserve the source’s “only begotten” description.",
+        "translation_quote": "at han ga sin eneste Sønn"
+      },
+      {
+        "location": "Section metadata",
+        "severity": "minor",
+        "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+        "suggested_fix": "Use a Bokmål rendering that preserves the invitation to reason together, such as «KOM, LA OSS GJØRE OPP VÅR SAK».",
+        "translation_quote": "«KOM NÅ, LA OSS GJØRE OPP VÅR MELLOMREGNING»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

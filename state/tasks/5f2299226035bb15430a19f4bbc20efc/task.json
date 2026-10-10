@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 11703
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 608,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11967,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10864,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12840
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Section II, subsection b, quotation of Hebrews 9:28",
+      "severity": "major",
+      "source_quote": "“So Christ was once offered to bear the sins of many…”",
+      "suggested_fix": "“So Christ was eenmaal geoffer om die sondes van baie te dra…”",
+      "translation_quote": "“So sal Christus ook, nadat Hy een maal geoffer is om die sondes van baie weg te neem…”"
+    },
+    {
+      "location": "Section I, subsection b, paragraph beginning “In Hebrews chapters 9 and 10”",
+      "severity": "minor",
+      "source_quote": "“the ‘blood sacrifices’ of the Old Testament”",
+      "suggested_fix": "“die ‘blo offerandes’ van die Ou Testament”",
+      "translation_quote": "“die ‘blo offers’ van die Ou Testament”"
+    },
+    {
+      "location": "Section I, subsection b, same paragraph, conclusion",
+      "severity": "minor",
+      "source_quote": "“sin must be washed away with the blood of Christ”",
+      "suggested_fix": "“sonde moet deur die bloed van Christus weggewas word”",
+      "translation_quote": "“sonde moet weggew was deur die bloed van Christus”"
+    }
+  ],
   "id": "5f2299226035bb15430a19f4bbc20efc",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "afr",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

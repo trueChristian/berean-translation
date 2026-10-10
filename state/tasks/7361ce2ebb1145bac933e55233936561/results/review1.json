@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e2fac429-125a-438a-8d3f-25bbe5c95b96",
+    "response_id": "chatcmpl-EWy6yOjLbXgjplZAwRaN0BLb3kKAw",
+    "usage": {
+      "completion_tokens": 716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6138,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5035,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6854
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph 5, Matthew 13:22 quotation",
+        "severity": "major",
+        "source_quote": "“the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.”",
+        "suggested_fix": "Change the ending to “sufocam a palavra, e ele se torna infrutífero”, referring to the person who hears the word.",
+        "translation_quote": "“os cuidados deste mundo e a sedução das riquezas sufocam a palavra, e ela se torna infrutífera.”"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "“Let’s reunite, gather back together”",
+        "suggested_fix": "Replace “Vamos nos reconciliar” with “Vamos nos unir novamente” to express coming together again, rather than reconciliation.",
+        "translation_quote": "“Vamos nos reconciliar, reunir-nos novamente”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

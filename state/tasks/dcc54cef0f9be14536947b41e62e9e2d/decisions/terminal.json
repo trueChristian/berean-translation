@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, quotation of Matthew 9:37–38",
+      "severity": "minor",
+      "source_quote": "the labourers are few",
+      "suggested_fix": "Change „aber der Arbeiter sind wenige“ to „aber die Arbeiter sind wenige“.",
+      "translation_quote": "Die Ernte ist zwar groß, aber der Arbeiter sind wenige."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, third paragraph",
+      "severity": "minor",
+      "source_quote": "couples who have struggled with extreme marriage problems for years",
+      "suggested_fix": "couples qui ont connu des problèmes conjugaux très graves pendant des années",
+      "translation_quote": "des couples qui ont connu de graves problèmes conjugaux pendant des années"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

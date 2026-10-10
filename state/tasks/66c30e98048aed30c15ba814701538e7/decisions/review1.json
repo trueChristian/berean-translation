@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Psalm; Scripture reference",
+      "severity": "major",
+      "source_quote": "Psa 40:1-4",
+      "suggested_fix": "Заменить ссылку на «Пс. 40:1–4», сохранив номера главы и стихов исходной ссылки.",
+      "translation_quote": "Пс. 39:2–5"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f4293949-0bd0-45d3-b7c3-ac396951f5f1",
+    "response_id": "chatcmpl-EWy7E9B6pcitPDnun8O5NzoS8sCm9",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1227,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3102
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first line",
+        "severity": "minor",
+        "source_quote": "his thoughts went back",
+        "suggested_fix": "Enquanto um homem morria, seus pensamentos voltaram ao passado.",
+        "translation_quote": "seus pensamentos voltaram atrás"
+      },
+      {
+        "location": "Poem, line beginning “From cave to cave”",
+        "severity": "minor",
+        "source_quote": "From cave to cave, I would call home",
+        "suggested_fix": "De caverna em caverna, eu chamava cada uma de lar",
+        "translation_quote": "De caverna em caverna, eu chamava de lar"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

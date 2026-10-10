@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d02c615-e058-42f0-a2ea-c0a7250aec83",
+    "response_id": "chatcmpl-EWy7Mmn8WfjEzgS26qX0mTpU3lycB",
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1281,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3133
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 26",
+        "severity": "minor",
+        "source_quote": "They killed our Jesus, and love their sin.",
+        "suggested_fix": "De drepte vår Jesus og elsker synden sin.",
+        "translation_quote": "De drepte Jesus, og elsker synden sin."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

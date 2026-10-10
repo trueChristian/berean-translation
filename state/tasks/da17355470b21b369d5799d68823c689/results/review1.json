@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "beddfaa1-ef39-4ab9-886a-ac4a7b7b76bf",
+    "response_id": "chatcmpl-EWy7Pzbz8KOwgeb2MPdV11M2T5roJ",
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 706,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8211
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "邻居孩子初次来访段",
+        "severity": "minor",
+        "source_quote": "The first ones soon brought more friends along to join in their play with the foreigner’s children and toys.",
+        "suggested_fix": "最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们及玩具一起玩。",
+        "translation_quote": "最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们一起玩。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

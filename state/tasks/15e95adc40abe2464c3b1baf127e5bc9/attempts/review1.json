@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Let’s chat a little, Zinnia”\",\"severity\":\"major\",\"source_quote\":\"Her mom had left years ago to work in another country, leaving the girls with their Grandma.\",\"suggested_fix\":\"Replace ״והשארת את הבנות אצל סבתן״ with ״והשאירה את הבנות אצל סבתן״.\",\"translation_quote\":\"אמה עזבה לפני שנים כדי לעבוד במדינה אחרת, והשארת את הבנות אצל סבתן.\"},{\"location\":\"Throughout the article, Zinnia’s name\",\"severity\":\"minor\",\"source_quote\":\"Zinnia\",\"suggested_fix\":\"Use ״זיניה״ consistently as the Hebrew transliteration of the name.\",\"translation_quote\":\"סיניה\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 764,
+    "content_evidence_truncated": false,
+    "content_sha256": "64d5202dfda0b0f076d24507749c0afb7ddebda1accb1cb6a824f2f51b62461d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6483,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8540
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

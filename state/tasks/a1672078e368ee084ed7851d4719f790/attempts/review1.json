@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о регистрации на мероприятие\",\"severity\":\"minor\",\"source_quote\":\"Due to providing meals and due to seating limitations, registration will be required for this event.\",\"suggested_fix\":\"В связи с организацией питания и ограниченным количеством мест для участия в этом мероприятии потребуется регистрация.\",\"translation_quote\":\"Поскольку будут предоставляться питание и места ограничены, для участия в этом мероприятии потребуется регистрация.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 758,
+    "content_evidence_truncated": false,
+    "content_sha256": "d319f534c17393880caaf8a71bdb0dab5d48a543fc61b3f14c83623b08f71892",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2411,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4145
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

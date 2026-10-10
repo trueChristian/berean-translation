@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «إن الرؤية الحقيقية لعمل الله تأتي بثمن»\",\"severity\":\"major\",\"source_quote\":\"The rich young ruler would have loved to be a ruler in the kingdom of Christ as well as on his estate\",\"suggested_fix\":\"كان الشاب الغني الحاكم سيحب أن يكون حاكمًا في ملكوت المسيح كما كان على أملاكه\",\"translation_quote\":\"كان الرئيس الشاب الغني سيحب أن يكون حاكمًا في ملكوت المسيح كما كان في أملاكه\"},{\"location\":\"Paragraph beginning «كانت أربعون سنة في أتون الوحدة»\",\"severity\":\"minor\",\"source_quote\":\"his fear and focus never left his God\",\"suggested_fix\":\"ظلّت مخافة الله وتركيزه عليه حاضرتين دائمًا\",\"translation_quote\":\"لم يغب الله قط عن مخاوفه واهتمامه\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 984,
+    "content_evidence_truncated": false,
+    "content_sha256": "fbb498feee5a4fdc44eaeae140c99b505da956a2652ce1ca6a92535a2131c3c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1012,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7085,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9414
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

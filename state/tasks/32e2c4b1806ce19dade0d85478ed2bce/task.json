@@ -2,7 +2,6 @@
   "article_id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 7838
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1248,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1017,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8131,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7028,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9379
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Dies erfordert eine völlige Veränderung”",
+      "severity": "minor",
+      "source_quote": "The atonement of Christ’s blood makes it judicially possible.",
+      "suggested_fix": "Durch das Blut Christi wird die Versöhnung aus rechtlicher Sicht möglich.",
+      "translation_quote": "Durch das Blut Christi wird die Versöhnung vor Gericht möglich."
+    },
+    {
+      "location": "Paragraph beginning “Der tiefere Grund dafür”",
+      "severity": "minor",
+      "source_quote": "Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.",
+      "suggested_fix": "Martha war eifrig damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria im Ewigen saß.",
+      "translation_quote": "Martha war mit Eifer damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria bei der ewigen saß."
+    }
+  ],
+  "finished_at": "2026-10-10T00:44:33+00:00",
   "id": "32e2c4b1806ce19dade0d85478ed2bce",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "deu",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9ab9d6d6df6caaf13c8b9631c4d7cb443f5307e7edaa20779027133299e266b5.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
   "translation_model_actual": "gpt-6-luna"

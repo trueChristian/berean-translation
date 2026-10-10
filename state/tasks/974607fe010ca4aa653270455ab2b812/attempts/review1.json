@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Laatste alinea, citaat uit Mattheüs 7:13-14\",\"severity\":\"minor\",\"source_quote\":\"But small is the gate and narrow the road that leads to life\",\"suggested_fix\":\"Maar klein is de poort en smal de weg die naar het leven leidt\",\"translation_quote\":\"Maar nauw is de poort en smal de weg die naar het leven leidt\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 386,
+    "content_evidence_truncated": false,
+    "content_sha256": "f0ebc0fee2e6676a60871966bf75b9d938486e34dfae1bf8b821e97e311979cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 643,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3223,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5090
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Together the girls…”",
+      "severity": "major",
+      "source_quote": "Together the girls bowed their heads and pled for the Lord’s protection and help.",
+      "suggested_fix": "Wasichana waliinamisha vichwa vyao pamoja na kumsihi Bwana awalinde na kuwasaidia.",
+      "translation_quote": "Wasichana waliinua vichwa vyao pamoja na kumsihi Bwana awalinde na kuwasaidia."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4cb49510-94b8-4a62-adc8-7d9a879c1208",
+    "response_id": "chatcmpl-EWy6vacuwYVtxnPYU1lOJNKmJvocU",
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6436,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8557
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Let’s chat a little”",
+        "severity": "minor",
+        "source_quote": "“Her mom had left years ago to work in another country, leaving the girls with their Grandma.”",
+        "suggested_fix": "Use a kinship term that does not specify which side of the family, such as “deras farmor eller mormor,” unless the maternal relationship is known.",
+        "translation_quote": "“Hennes mamma hade åkt till ett annat land för att arbeta flera år tidigare och lämnat flickorna hos deras mormor.”"
+      },
+      {
+        "location": "Article, paragraph beginning “José recently asked”",
+        "severity": "minor",
+        "source_quote": "“His grandma came over several days later, offended”",
+        "suggested_fix": "Use “hans farmor eller mormor” unless the maternal relationship is known.",
+        "translation_quote": "“Hans mormor kom över flera dagar senare, tog illa upp”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

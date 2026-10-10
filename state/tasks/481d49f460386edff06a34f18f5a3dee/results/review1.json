@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "357f2346-26a4-4b76-a303-0ce28c4a3b91",
+    "response_id": "chatcmpl-EWy703dW265KOGWSKbczsaaaJLAsW",
+    "usage": {
+      "completion_tokens": 796,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 683,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6411,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8310
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph, feeding the baby",
+        "severity": "minor",
+        "source_quote": "Sinking into the rocker to feed her",
+        "suggested_fix": "Replace «for å amme henne» with «for å mate henne» to avoid specifying breastfeeding when the source only says “feed.”",
+        "translation_quote": "Jeg sank ned i gyngestolen for å amme henne"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

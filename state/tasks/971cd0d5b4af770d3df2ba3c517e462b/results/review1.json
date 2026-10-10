@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f6d07fd6-7308-487b-9fc8-843dc11ee7e8",
+    "response_id": "chatcmpl-EWy7Fgtc0YqiY04j4XT8G2wH7UGi5",
+    "usage": {
+      "completion_tokens": 701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 553,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3146,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4950
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, final clause of paragraph 9 (Matthew citation)",
+        "severity": "minor",
+        "source_quote": "–Mat 7:13-14 NIV",
+        "suggested_fix": "–Mt 7:13-14 NIV",
+        "translation_quote": "–Mat 7:13-14 NIV"
+      },
+      {
+        "location": "Article, final clause of paragraph 10 (John citation)",
+        "severity": "minor",
+        "source_quote": "–Joh 3:16",
+        "suggested_fix": "–Jn 3:16",
+        "translation_quote": "–Joh 3:16"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

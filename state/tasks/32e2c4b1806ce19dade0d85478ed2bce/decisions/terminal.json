@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Dies erfordert eine völlige Veränderung”",
+      "severity": "minor",
+      "source_quote": "The atonement of Christ’s blood makes it judicially possible.",
+      "suggested_fix": "Durch das Blut Christi wird die Versöhnung aus rechtlicher Sicht möglich.",
+      "translation_quote": "Durch das Blut Christi wird die Versöhnung vor Gericht möglich."
+    },
+    {
+      "location": "Paragraph beginning “Der tiefere Grund dafür”",
+      "severity": "minor",
+      "source_quote": "Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.",
+      "suggested_fix": "Martha war eifrig damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria im Ewigen saß.",
+      "translation_quote": "Martha war mit Eifer damit beschäftigt, die vermeintlich unmittelbar drohende Lücke im Haushalt zu schließen, während Maria bei der ewigen saß."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

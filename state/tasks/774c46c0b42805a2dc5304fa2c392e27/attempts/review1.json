@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"our Master\",\"suggested_fix\":\"Tuhan kita\",\"translation_quote\":\"Tuan kita\"},{\"location\":\"Article, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"another crop of food to enjoy\",\"suggested_fix\":\"hasil panen lain yang dapat dinikmati\",\"translation_quote\":\"panen makanan lain yang dapat dinikmati\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 428,
+    "content_evidence_truncated": false,
+    "content_sha256": "45ac76a986788699c2fa5ee9c88d95143c02575699147e6259c6ce8bc888af17",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2439,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4071
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

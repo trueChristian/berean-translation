@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First farm rules paragraph",
+      "severity": "minor",
+      "source_quote": "On Tuesdays they could stay for supper",
+      "suggested_fix": "منگل کو وہ ہمارے ساتھ رات کا کھانا کھانے کے لیے ٹھہر سکتے تھے",
+      "translation_quote": "منگل کو وہ رات کے کھانے تک ٹھہر سکتے تھے"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

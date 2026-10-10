@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "961ee753-dfb9-4986-b8ac-37a077a48d5b",
+    "response_id": "chatcmpl-EWy7RurOp6ZQe44qcWALNCkiZokkO",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5216,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6876
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Är vi ivriga att berätta om Jesus”",
+        "severity": "major",
+        "source_quote": "“while the world laughs at us and goes to hell”",
+        "suggested_fix": "Replace “medan världen skrattar åt oss och går förlorad” with “medan världen skrattar åt oss och går till helvetet” to preserve the source’s explicit reference to hell.",
+        "translation_quote": "“medan världen skrattar åt oss och går förlorad”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

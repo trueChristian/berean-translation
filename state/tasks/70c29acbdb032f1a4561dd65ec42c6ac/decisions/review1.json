@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FAITHFUL ENDURANCE",
+      "suggested_fix": "GETROUE VOLHARDING",
+      "translation_quote": "GETROUDEURTINGSVERMOË"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

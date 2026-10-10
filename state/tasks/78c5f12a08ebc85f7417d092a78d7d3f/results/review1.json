@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8653695b-ef34-4b68-8067-dfcca444eb9e",
+    "response_id": "chatcmpl-EWy77A7Ybl4D4Ygg14zoicn2kLo9w",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 663,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6184,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8071
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, question from the friend",
+        "severity": "minor",
+        "source_quote": "“How can I reach out to my neighbor children without compromising my own?”",
+        "suggested_fix": "‘Hoe kan ik contact leggen met de kinderen uit mijn buurt zonder mijn eigen kinderen tekort te doen?’",
+        "translation_quote": "‘Hoe kan ik contact leggen met de kinderen uit mijn buurt zonder mijn eigen kinderen in gevaar te brengen?’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

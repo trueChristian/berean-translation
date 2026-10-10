@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c6852f89-4e87-408f-b0a9-3f2ea38b95a6",
+    "response_id": "chatcmpl-EWy7d6r9XnKTeYtvjILekITQfSTYd",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10465,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12191
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section II.b, quotation of 2 Corinthians 5:21",
+        "severity": "major",
+        "source_quote": "For he [God] hath made him [Jesus] to be sin for us, who [Jesus] knew no sin…",
+        "suggested_fix": "Want Hij [God] heeft Hem [Jezus], Die [Jezus] geen zonde gekend heeft, voor ons tot zonde gemaakt…",
+        "translation_quote": "Hem [God] Die geen zonde gekend heeft, heeft Hij [Jezus] voor ons tot zonde gemaakt…"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

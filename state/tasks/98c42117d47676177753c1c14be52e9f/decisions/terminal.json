@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "지니아의 가방을 확인하는 장면, 관련 문단 3곳",
+      "severity": "minor",
+      "source_quote": "“I need to look in your purse”; “bringing a purse along”; “her purse would be empty”",
+      "suggested_fix": "세 곳의 “지갑”을 “가방”으로 바꾸어, 물건을 담아 다니는 purse를 지갑으로 특정하지 않도록 하세요.",
+      "translation_quote": "“네 지갑을 살펴봐야겠다”; “지갑을 들고 다니기 시작한 뒤로”; “지갑은 비어 있을 것이다”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

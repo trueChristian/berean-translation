@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “यह प्रत्यारोपण चिकित्सा से अलग है”\",\"severity\":\"minor\",\"source_quote\":\"It is also different from Orthopedic Medicine\",\"suggested_fix\":\"Change “अस्थि-चिकित्सा” to “अस्थिरोग चिकित्सा” to name the medical specialty more clearly.\",\"translation_quote\":\"यह अस्थि-चिकित्सा से भी अलग है\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 553,
+    "content_evidence_truncated": false,
+    "content_sha256": "c1b2d2b6c3136d80c8396650c464372bcf812daab2033829a820d21b5090d2d0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1145,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12576,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11473,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13721
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

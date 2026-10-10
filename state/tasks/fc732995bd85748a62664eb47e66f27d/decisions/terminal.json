@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الصورة الأولى، النص البديل",
+      "severity": "minor",
+      "source_quote": "A fuel gauge with its needle near empty",
+      "suggested_fix": "مقياس وقود تشير إبرته إلى قرب نفاد الوقود",
+      "translation_quote": "مقياس وقود يشير إبره إلى قرب نفاد الوقود"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

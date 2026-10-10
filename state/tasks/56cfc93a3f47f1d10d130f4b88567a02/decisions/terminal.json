@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “यह प्रत्यारोपण चिकित्सा से अलग है”",
+      "severity": "minor",
+      "source_quote": "It is also different from Orthopedic Medicine",
+      "suggested_fix": "Change “अस्थि-चिकित्सा” to “अस्थिरोग चिकित्सा” to name the medical specialty more clearly.",
+      "translation_quote": "यह अस्थि-चिकित्सा से भी अलग है"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

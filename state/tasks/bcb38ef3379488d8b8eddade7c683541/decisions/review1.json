@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시의 마지막 연, “The church is struggling, the world has come in.”",
+      "severity": "major",
+      "source_quote": "The church is struggling, the world has come in.",
+      "suggested_fix": "교회는 힘겨워하고, 세상은 교회 안으로 들어왔네.",
+      "translation_quote": "교회는 힘겨워하고, 세상은 안으로 들어왔네."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "Will I leave a good mark, that none can attack?",
+      "suggested_fix": "Θα αφήσω πίσω μου καλό αποτύπωμα, που κανείς δεν θα μπορεί να αμφισβητήσει;",
+      "translation_quote": "Θα αφήσω πίσω μου ένα καλό παράδειγμα, που κανείς δεν θα μπορεί να κατηγορήσει;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

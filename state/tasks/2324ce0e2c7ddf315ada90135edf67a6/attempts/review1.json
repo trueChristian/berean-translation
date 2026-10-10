@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Puisi, baris “From cave to cave...”\",\"severity\":\"minor\",\"source_quote\":\"From cave to cave, I would call home\",\"suggested_fix\":\"Dari gua ke gua, setiap gua kujadikan rumah\",\"translation_quote\":\"Dari gua ke gua, kupanggil tempat berlindungku rumah\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 329,
+    "content_evidence_truncated": false,
+    "content_sha256": "03a4440e95a5c4f5787a25f07ad0460e1299255881c392a791b9b024c8ee902e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2391,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1288,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3006
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

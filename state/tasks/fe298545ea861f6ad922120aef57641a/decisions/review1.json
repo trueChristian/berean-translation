@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph on fetal ovarian tissue transplantation",
+      "severity": "major",
+      "source_quote": "Imagine being a child born of a genetic mother that was aborted!",
+      "suggested_fix": "Φανταστείτε να είστε ένα παιδί που γεννήθηκε από γενετική μητέρα η οποία είχε εκτρωθεί!",
+      "translation_quote": "Φανταστείτε να είστε ένα παιδί που γεννήθηκε από γενετική μητέρα η οποία είχε υποβληθεί σε άμβλωση!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

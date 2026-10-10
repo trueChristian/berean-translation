@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final article paragraph, list of things the faithful turn their backs on",
+      "severity": "minor",
+      "source_quote": "“frivolity, fame, familiarity, and fortune”",
+      "suggested_fix": "Consider «lettsindighet, berømmelse, det velkjente og rikdom» to make «familiarity» clearer in this context.",
+      "translation_quote": "«lettsindighet, berømmelse, fortrolighet og rikdom»"
+    },
+    {
+      "location": "Final article paragraph, description of how the faithful were treated",
+      "severity": "minor",
+      "source_quote": "“They were mocked and misunderstood, reviled and ridiculed”",
+      "suggested_fix": "Use a distinct rendering for «reviled», such as «forhånet», to preserve the contrast: «De ble hånet og misforstått, forhånet og latterliggjort».",
+      "translation_quote": "«De ble hånet og misforstått, hånet og latterliggjort»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

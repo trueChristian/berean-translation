@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm quotation in Gloria’s dialogue",
+      "severity": "major",
+      "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+      "suggested_fix": "“Welzalig de man die de HEER tot zijn vertrouwen maakt en geen aanzien heeft voor de hoogmoedigen, noch voor hen die zich tot leugen wenden.”",
+      "translation_quote": "“Welzalig de man die de HEER tot zijn vertrouwen maakt en zich niet wendt tot de hoogmoedigen, noch tot hen die zich tot leugen wenden.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

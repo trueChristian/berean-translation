@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Ai nostri giorni è molto comune…”\",\"severity\":\"major\",\"source_quote\":\"Our society is promoting that all immoral, imprudent, and improvident people deserve the same care as the moral and industrious.\",\"suggested_fix\":\"Replace «incapaci di provvedere a sé stesse» with «imprevidenti» to preserve the source’s distinction between improvident people and people unable to provide for themselves.\",\"translation_quote\":\"La nostra società sostiene che tutte le persone immorali, imprudenti e incapaci di provvedere a sé stesse meritino la stessa assistenza delle persone morali e laboriose.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 700,
+    "content_evidence_truncated": false,
+    "content_sha256": "443d9d7c00436ee3c54ec507cb033d1e8ec4d9dbee0a11389da5a83b9ebc9efd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 859,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7271,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9406
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

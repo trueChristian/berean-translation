@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7a97f5e7-78c1-48cb-9726-d922772b1cf7",
+    "response_id": "chatcmpl-EWy7I2sZZtZ2izdCME45wCeVfMEoW",
+    "usage": {
+      "completion_tokens": 862,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8502,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10467
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац о завете, цитата Мал. 2:14",
+        "severity": "major",
+        "source_quote": "“...yet is she thy companion, and the wife of thy covenant.”",
+        "suggested_fix": "Заменить «…но она подруга твоя и законная жена твоя» на формулировку, сохраняющую смысл «жена завета», например: «…но она подруга твоя и жена завета твоего».",
+        "translation_quote": "«…но она подруга твоя и законная жена твоя»"
+      },
+      {
+        "location": "Раздел IV, абзац с цитатой Рим. 8:3–4",
+        "severity": "major",
+        "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
+        "suggested_fix": "Добавить пропущенное пояснение: «[ограничен тем, что можно было совершить во плоти]».",
+        "translation_quote": "«Как закон, ослабленный плотию, был бессилен»"
+      },
+      {
+        "location": "Раздел IV, абзац с цитатой Рим. 8:3–4",
+        "severity": "major",
+        "source_quote": "“That the righteousness of the law [the full and complete fulfillment of the law] might be fulfilled in us”",
+        "suggested_fix": "Заменить «оправдание закона» на «праведное требование закона», сохранив пояснение о полном исполнении закона.",
+        "translation_quote": "«чтобы оправдание закона [полное и совершенное исполнение закона] исполнилось в нас»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

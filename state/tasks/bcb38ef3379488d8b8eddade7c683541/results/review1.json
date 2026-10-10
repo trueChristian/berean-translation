@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc00f9d1-2524-4eae-8019-f24577c36773",
+    "response_id": "chatcmpl-EWy7ZoFDbwZdUiAsGRUatHVcZ3AcT",
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 487,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2500,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1397,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3102
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시의 마지막 연, “The church is struggling, the world has come in.”",
+        "severity": "major",
+        "source_quote": "The church is struggling, the world has come in.",
+        "suggested_fix": "교회는 힘겨워하고, 세상은 교회 안으로 들어왔네.",
+        "translation_quote": "교회는 힘겨워하고, 세상은 안으로 들어왔네."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

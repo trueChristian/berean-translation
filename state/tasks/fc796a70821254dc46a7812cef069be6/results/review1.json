@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "771de33e-4ac8-48a4-a0c3-31853481ddeb",
+    "response_id": "chatcmpl-EWy77ZWT3FpdDys8RXjrsNb3fBHVK",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 711,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10887,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12802
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, numbered reasons, item 5",
+        "severity": "major",
+        "source_quote": "“only by repaying good for evil.”",
+        "suggested_fix": "Change to “slegs deur kwaad met goed te vergeld.”",
+        "translation_quote": "“slegs deur goed met kwaad te vergeld.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.\",\"suggested_fix\":\"آئندہ جولائی میں پنسلوانیا کی لیبنن کاؤنٹی میں اجلاسوں کا ایک سلسلہ منعقد کرنے کے لیے ہمارا پروگرام طے ہے۔\",\"translation_quote\":\"آئندہ جولائی میں ہمارے پنسلوانیا کے لیبنن کاؤنٹی میں اجلاسوں کے ایک سلسلے میں شرکت کے لیے وقت مقرر ہے۔\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 652,
+    "content_evidence_truncated": false,
+    "content_sha256": "e33d3693fef7d03fe99e3249419f9082b38191a9225af529ea40cd48805e68c1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 425,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3674,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2571,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4246
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

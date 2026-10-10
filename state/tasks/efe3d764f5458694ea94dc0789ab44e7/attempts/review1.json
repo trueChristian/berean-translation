@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 10\",\"severity\":\"minor\",\"source_quote\":\"be everything you can be\",\"suggested_fix\":\"alles worden wat je kunt zijn\",\"translation_quote\":\"alles uit zichzelf te halen\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 251,
+    "content_evidence_truncated": false,
+    "content_sha256": "40d4e36962ca0c93a560586e87ac9bbc6a34c1fcc068e5f5899717fe3342dc72",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6273,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5170,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6979
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

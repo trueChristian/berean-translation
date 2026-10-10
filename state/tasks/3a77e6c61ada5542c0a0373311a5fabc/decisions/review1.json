@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "major",
+      "source_quote": "We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.",
+      "suggested_fix": "آئندہ جولائی میں پنسلوانیا کی لیبنن کاؤنٹی میں اجلاسوں کا ایک سلسلہ منعقد کرنے کے لیے ہمارا پروگرام طے ہے۔",
+      "translation_quote": "آئندہ جولائی میں ہمارے پنسلوانیا کے لیبنن کاؤنٹی میں اجلاسوں کے ایک سلسلے میں شرکت کے لیے وقت مقرر ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

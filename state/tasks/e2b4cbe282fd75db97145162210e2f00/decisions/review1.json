@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph 4",
+      "severity": "major",
+      "source_quote": "We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.",
+      "suggested_fix": "Έχουμε προγραμματίσει να πραγματοποιήσουμε μια σειρά συναθροίσεων στην κομητεία Lebanon της Πενσυλβάνια, τον προσεχή Ιούλιο.",
+      "translation_quote": "Έχουμε προγραμματίσει να συμμετάσχουμε σε μια σειρά συναθροίσεων στην κομητεία Lebanon της Πενσυλβάνια, τον προσεχή Ιούλιο."
+    },
+    {
+      "location": "List item 2",
+      "severity": "minor",
+      "source_quote": "The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man",
+      "suggested_fix": "Το Ευαγγέλιο—η απάντηση του Θεού για ΟΛΑ τα ζητήματα του πνεύματος και της ψυχής του ανθρώπου",
+      "translation_quote": "Το Ευαγγέλιο—η απάντηση του Θεού για ΟΛΑ τα ζητήματα του πνεύματος και της ψυχής (ψυχισμού) του ανθρώπου"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

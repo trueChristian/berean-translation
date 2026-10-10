@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs beginning “Whatever are we going to do now?” and “As the girls sang song after song” (including the distance dialogue)",
+      "severity": "major",
+      "source_quote": "“seven more miles to our exit”; “stranded on a dark highway thirteen miles from home”; “About thirteen miles.”",
+      "suggested_fix": "Use kilometer equivalents rather than Swedish mil: for example, “ungefär elva kilometer kvar till avfarten” and “ungefär tjugoen kilometer” for the thirteen-mile distances.",
+      "translation_quote": "“sju mil kvar till vår avfart”; “strandsatta på en mörk landsväg tretton mil hemifrån”; “Ungefär tretton mil.”"
+    },
+    {
+      "location": "First poem, fourth line",
+      "severity": "minor",
+      "source_quote": "“Makes the trusting heart His home.”",
+      "suggested_fix": "“gör det förtröstande hjärtat till sitt hem.”",
+      "translation_quote": "“gör det hjärta som förtröstar till sitt hem.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

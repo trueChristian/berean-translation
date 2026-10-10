@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c9ecce0-9537-4ca1-bb84-e2e3fa4f7411",
+    "response_id": "chatcmpl-EWy7SOGyBUJ84Bh0DwTIVJghFtQob",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10103,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11858
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, lista numerada, punto 8",
+        "severity": "major",
+        "source_quote": "the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.",
+        "suggested_fix": "En resumen, si se obtiene algún beneficio personal tras una tragedia o el juicio de otra persona, la mejor manera de saber si es legítimo es comprobar que los detalles no estén ocultos.",
+        "translation_quote": "la mejor manera de saber si es legítimo es comprobar si los detalles están ocultos en secreto."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

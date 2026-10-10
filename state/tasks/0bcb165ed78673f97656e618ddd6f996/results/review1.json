@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "78e22f08-36e5-49ab-b6c9-c7dba41e8dd5",
+    "response_id": "chatcmpl-EWy6w8DirQDmudDtlHgkOoRdjuY6A",
+    "usage": {
+      "completion_tokens": 1013,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3622,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5738
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "major",
+        "source_quote": "I have no reason to suspect my other ancestors were anything other than white.",
+        "suggested_fix": "میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد سفید فام کے سوا کچھ اور تھے۔",
+        "translation_quote": "میرے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ میرے دوسرے آباؤ اجداد بھی سفید فام کے سوا کچھ اور تھے۔"
+      },
+      {
+        "location": "Paragraph 5",
+        "severity": "minor",
+        "source_quote": "Even though I may think I am the greatest pianist and music composer of all times, the evidence simply does not support that conviction.",
+        "suggested_fix": "اگرچہ میں یہ سمجھتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقار ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔",
+        "translation_quote": "اگرچہ میں یہ سمجھ سکتا ہوں کہ میں تمام زمانوں کا عظیم ترین پیانو نواز اور موسیقی کا مصنف ہوں، لیکن شواہد اس یقین کی تائید نہیں کرتے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

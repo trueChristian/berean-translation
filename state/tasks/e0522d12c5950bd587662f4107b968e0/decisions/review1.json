@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "1 تیمتھیس 3:1-4 کا اقتباس",
+      "severity": "minor",
+      "source_quote": "vigilant, sober, of good behaviour",
+      "suggested_fix": "«ہوشیار، سنجیدہ مزاج، خوش چال» جیسا مفہوم دیں؛ موجودہ «متقی» یہاں “sober” کا مطلب نہیں۔",
+      "translation_quote": "ہوشیار، متقی، شائستہ"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

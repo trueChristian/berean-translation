@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, lista numerada, punto 8\",\"severity\":\"major\",\"source_quote\":\"the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.\",\"suggested_fix\":\"En resumen, si se obtiene algún beneficio personal tras una tragedia o el juicio de otra persona, la mejor manera de saber si es legítimo es comprobar que los detalles no estén ocultos.\",\"translation_quote\":\"la mejor manera de saber si es legítimo es comprobar si los detalles están ocultos en secreto.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 560,
+    "content_evidence_truncated": false,
+    "content_sha256": "8a3853bf255f804d2862c76fee5bc4b26f71dab7025fde2dc01dc4d86dd3599e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10103,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11858
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

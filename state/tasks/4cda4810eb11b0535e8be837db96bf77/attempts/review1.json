@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 22\",\"severity\":\"minor\",\"source_quote\":\"They killed our Jesus, and love their sin.\",\"suggested_fix\":\"Hanno ucciso il nostro Gesù e amano il loro peccato.\",\"translation_quote\":\"Hanno ucciso Gesù e amano il loro peccato.\"},{\"location\":\"Poem, line 20\",\"severity\":\"minor\",\"source_quote\":\"Will I die in vain, or will you take up the task?\",\"suggested_fix\":\"Morirò invano, o ti assumerai questo compito?\",\"translation_quote\":\"Morirò invano, o raccoglierai il compito?\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 555,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3ea51be42ffbd2d46ffd231779930f1c5ffe69a94ab983acc86f5552c600566",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 499,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1286,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3057
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, quoted Scripture (John 3:16)",
+      "severity": "major",
+      "source_quote": "that he gave his only begotten Son",
+      "suggested_fix": "Replace «sin eneste Sønn» with «sin enbårne Sønn» to preserve the source’s “only begotten” description.",
+      "translation_quote": "at han ga sin eneste Sønn"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+      "suggested_fix": "Use a Bokmål rendering that preserves the invitation to reason together, such as «KOM, LA OSS GJØRE OPP VÅR SAK».",
+      "translation_quote": "«KOM NÅ, LA OSS GJØRE OPP VÅR MELLOMREGNING»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

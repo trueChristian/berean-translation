@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "because they were the dreaded Anabaptists",
+      "suggested_fix": "because walikuwa Anabaptisti walioogopwa",
+      "translation_quote": "kwa sababu walikuwa Anabaptisti waliotishwa"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

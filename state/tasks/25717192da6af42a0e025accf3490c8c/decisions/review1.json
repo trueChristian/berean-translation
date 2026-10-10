@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Στη Β΄ Κορ. 5:14»",
+      "severity": "minor",
+      "source_quote": "For the love of Christ constraineth us…",
+      "suggested_fix": "Replace «η αγάπη του Χριστού μάς συσφίγγει» with «η αγάπη του Χριστού μάς παρακινεί» or «η αγάπη του Χριστού μάς ωθεί».",
+      "translation_quote": "Επειδή, η αγάπη του Χριστού μάς συσφίγγει…."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

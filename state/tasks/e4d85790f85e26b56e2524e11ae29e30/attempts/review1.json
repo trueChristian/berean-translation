@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First farm rules paragraph\",\"severity\":\"minor\",\"source_quote\":\"On Tuesdays they could stay for supper\",\"suggested_fix\":\"منگل کو وہ ہمارے ساتھ رات کا کھانا کھانے کے لیے ٹھہر سکتے تھے\",\"translation_quote\":\"منگل کو وہ رات کے کھانے تک ٹھہر سکتے تھے\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c9cd6de30c9423f60a0cd23a10c527f1d43a3762074a0f5675c73cb3d78345a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6988,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8963
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

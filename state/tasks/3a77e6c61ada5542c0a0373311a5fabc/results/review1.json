@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7aa04473-9fd8-487a-a411-a962744c6bf0",
+    "response_id": "chatcmpl-EWy7NyLm2FqtYc7uwYlaQH0pPECjo",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 425,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3674,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2571,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4246
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "major",
+        "source_quote": "We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.",
+        "suggested_fix": "آئندہ جولائی میں پنسلوانیا کی لیبنن کاؤنٹی میں اجلاسوں کا ایک سلسلہ منعقد کرنے کے لیے ہمارا پروگرام طے ہے۔",
+        "translation_quote": "آئندہ جولائی میں ہمارے پنسلوانیا کے لیبنن کاؤنٹی میں اجلاسوں کے ایک سلسلے میں شرکت کے لیے وقت مقرر ہے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

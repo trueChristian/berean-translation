@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5605dc83-f362-4763-84f8-6e112694ea13",
+    "response_id": "chatcmpl-EWy7K5ZI71iXWvGKAXBvuYQMDgJw6",
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 725,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6518,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8573
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Γιατί, λοιπόν, γράφω αυτά;», quotation of Matthew 13:22",
+        "severity": "major",
+        "source_quote": "He also that received seed among the thorns",
+        "suggested_fix": "Εκείνος, επίσης, που δέχτηκε τον σπόρο ανάμεσα στα αγκάθια είναι αυτός που ακούει τον λόγο·",
+        "translation_quote": "Εκείνος, επίσης, που σπάρθηκε ανάμεσα στα αγκάθια είναι αυτός που ακούει τον λόγο·"
+      },
+      {
+        "location": "Paragraph beginning «Είναι εύκολο να είσαι Χριστιανός», sentence about the school note",
+        "severity": "minor",
+        "source_quote": "a note from the principle",
+        "suggested_fix": "με ένα σημείωμα από τη διεύθυνση",
+        "translation_quote": "με ένα σημείωμα από τη διευθύντρια"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

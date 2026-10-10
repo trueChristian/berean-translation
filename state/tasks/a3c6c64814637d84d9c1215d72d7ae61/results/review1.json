@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6dfa6b72-a4f8-429c-88a5-8401c1e2b990",
+    "response_id": "chatcmpl-EWy7KZSHyJyy0so7Zqa9xaKW5q52P",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 724,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6732,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8708
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Parece-me que Deus…”; quotation of Revelation 4:11",
+        "severity": "major",
+        "source_quote": "“for thou hast created all things, and for thy pleasure they are and were created.”",
+        "suggested_fix": "Replace “por tua vontade elas existem e foram criadas” with “para teu prazer elas existem e foram criadas” (or an equivalent rendering that preserves “for thy pleasure”).",
+        "translation_quote": "“porque criaste todas as coisas, e por tua vontade elas existem e foram criadas.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, lista numerada, punto 8",
+      "severity": "major",
+      "source_quote": "the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.",
+      "suggested_fix": "En resumen, si se obtiene algún beneficio personal tras una tragedia o el juicio de otra persona, la mejor manera de saber si es legítimo es comprobar que los detalles no estén ocultos.",
+      "translation_quote": "la mejor manera de saber si es legítimo es comprobar si los detalles están ocultos en secreto."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

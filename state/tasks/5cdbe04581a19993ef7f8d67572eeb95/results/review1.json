@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "17832869-9a37-43ca-b664-c1544a14f551",
+    "response_id": "chatcmpl-EWy74JpRIO78XpuLfYsMN1E7kLTuJ",
+    "usage": {
+      "completion_tokens": 1169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6235,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5132,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7404
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph beginning “在海地，我们作为一个教会” — quotation of 1 Peter 4:14",
+        "severity": "major",
+        "source_quote": "on their part he is evil spoken of, but on your part he is glorified.",
+        "suggested_fix": "在他们那一方，祂被毁谤；在你们这一方，祂得荣耀。",
+        "translation_quote": "在他们看来，他是被毁谤的；在你们看来，他却是得荣耀的。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

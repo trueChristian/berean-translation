@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "II.c, paragraph beginning “Namun, pendamaian telah dilakukan”",
+      "severity": "major",
+      "source_quote": "“the wrath of God toward us on account of sin is now averted when we are justified by His blood”",
+      "suggested_fix": "Ganti “murka Allah terhadap kita karena dosa kini telah dialihkan” dengan “murka Allah terhadap kita karena dosa kini telah diredakan” atau “kita kini terhindar dari murka Allah” agar tidak menyiratkan bahwa murka itu dialihkan kepada pihak lain.",
+      "translation_quote": "“murka Allah terhadap kita karena dosa kini telah dialihkan ketika kita dibenarkan oleh darah-Nya”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"कविता, पंक्ति 15\",\"severity\":\"minor\",\"source_quote\":\"From cave to cave, I would call home\",\"suggested_fix\":\"एक गुफा से दूसरी गुफा तक, हर गुफा को मैं अपना घर कहता था\",\"translation_quote\":\"एक गुफा से दूसरी गुफा तक, मैं घर कहकर पुकारता था\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 495,
+    "content_evidence_truncated": false,
+    "content_sha256": "5172849b2b029ea91ff41f92f0f2ab4ea83a6d669f0fc13d1384c19839bcdf7a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2465,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1362,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3250
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

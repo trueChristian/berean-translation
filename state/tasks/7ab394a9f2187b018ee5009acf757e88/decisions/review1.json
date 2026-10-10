@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक और आरंभिक अनुच्छेद",
+      "severity": "major",
+      "source_quote": "Mile after mile sped by as Carol drove the old Chevy along the busy interstate highway toward home.",
+      "suggested_fix": "घर की ओर व्यस्त अंतरराज्यीय राजमार्ग पर पुरानी शेवी चलाते हुए कैरल के पास से मील-पर-मील तेज़ी से गुज़रते गए।",
+      "translation_quote": "घर की ओर व्यस्त अंतरराज्यीय राजमार्ग पर पुरानी शेवी चलाते हुए कैरल के साथ मील-पर-मील पीछे छूटते गए।"
+    },
+    {
+      "location": "कविता, पहला पद",
+      "severity": "major",
+      "source_quote": "Since the Comforter has come; / He abides with us forever, / Makes the trusting heart His home.",
+      "suggested_fix": "जब से दिलासा देने वाला आया; / वह सदा हमारे साथ रहता है, / भरोसा रखने वाले हृदय को अपना घर बनाता है।",
+      "translation_quote": "जब से दिलासा देने वाला आया; / वह सदा हमारे साथ रहता है, / विश्वास रखने वाले हृदय को अपना घर बनाता है।"
+    },
+    {
+      "location": "कविता, दूसरा पद",
+      "severity": "major",
+      "source_quote": "Then trust Him in shine and shade;",
+      "suggested_fix": "फिर धूप और छाँव, दोनों में उस पर भरोसा रखो;",
+      "translation_quote": "फिर धूप हो या छाया, उस पर भरोसा रखो;"
+    },
+    {
+      "location": "कविता, दूसरा पद",
+      "severity": "major",
+      "source_quote": "His love is all-sufficient / To calm the gravest fear.",
+      "suggested_fix": "उसका प्रेम पूर्णतः पर्याप्त है / सबसे गहरे भय को शांत करने के लिए।",
+      "translation_quote": "उसका प्रेम सब कुछ सँभालने को पर्याप्त है, / सबसे गहरे भय को शांत करने के लिए।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

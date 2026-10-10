@@ -2,7 +2,6 @@
   "article_id": "175280ea-7e5f-4be2-bbce-b500c0fd93cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -27,7 +26,9 @@
       }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
+  "finished_at": "2026-10-10T00:44:32+00:00",
   "id": "182d3dd6df6ca14bbe24857c949e0052",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ita",
@@ -116,11 +117,16 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/68b431a71f8550df191695e721688ff3ee0e96f23f6709415f7ef239e76f8346.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "9c79b475fdf2e91137c2ae3c5de7b755f0274b83e05c4c8d303ba99905f074d3",
   "translation_model_actual": "gpt-6-luna"

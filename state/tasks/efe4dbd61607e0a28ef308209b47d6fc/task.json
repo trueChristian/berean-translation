@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 6087
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 597,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6380,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5277,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6977
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraf 1",
+      "severity": "major",
+      "source_quote": "sharing their faith in Jesus with others",
+      "suggested_fix": "...gagasan bahwa seseorang membagikan imannya kepada orang lain tentang Yesus terasa asing bagi saya.",
+      "translation_quote": "membagikan imannya kepada Yesus kepada orang lain"
+    },
+    {
+      "location": "Paragraf 5",
+      "severity": "major",
+      "source_quote": "They fulfilled the things Jesus said,—And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved.",
+      "suggested_fix": "Mereka mengalami apa yang Yesus katakan,—Dan kamu akan dibenci semua orang karena nama-Ku; tetapi siapa yang bertahan sampai akhir akan diselamatkan.",
+      "translation_quote": "Mereka menggenapi perkataan Yesus,—Dan kamu akan dibenci semua orang karena nama-Ku; tetapi siapa yang bertahan sampai kesudahannya akan diselamatkan."
+    },
+    {
+      "location": "Paragraf 7",
+      "severity": "major",
+      "source_quote": "they were the dreaded Anabaptists",
+      "suggested_fix": "...karena mereka adalah orang-orang Anabaptis yang ditakuti.",
+      "translation_quote": "karena mereka adalah Anabaptis yang ditakuti."
+    },
+    {
+      "location": "Paragraf 7",
+      "severity": "major",
+      "source_quote": "they, too, were killed all the day long",
+      "suggested_fix": "...dan mereka juga dibunuh sepanjang hari.",
+      "translation_quote": "dan mereka juga dibunuh sepanjang hari."
+    },
+    {
+      "location": "Paragraf 8",
+      "severity": "major",
+      "source_quote": "One young man was arrested that left behind his dear wife expecting their first child.",
+      "suggested_fix": "Seorang pemuda ditangkap; ia meninggalkan istri tercintanya yang sedang mengandung anak pertama mereka.",
+      "translation_quote": "Seorang pemuda ditangkap dan meninggalkan istrinya tercinta yang sedang mengandung anak pertama mereka."
+    },
+    {
+      "location": "Paragraf 11",
+      "severity": "major",
+      "source_quote": "join our club, be free in Christ, go on an exciting mission trip, live life to the fullest, be everything you can be.",
+      "suggested_fix": "...bergabung dengan kelompok kita, merdeka di dalam Kristus, mengikuti perjalanan misi yang seru, menjalani hidup sepenuhnya, menjadi segala yang mampu mereka capai.",
+      "translation_quote": "bergabung dengan kelompok kita, merdeka di dalam Kristus, mengikuti perjalanan misi yang seru, menikmati hidup sepenuhnya, menjadi apa pun yang bisa mereka capai."
+    },
+    {
+      "location": "Paragraf 13",
+      "severity": "major",
+      "source_quote": "never stepping on Satan’s toes",
+      "suggested_fix": "...tidak pernah mengusik Iblis...",
+      "translation_quote": "tidak pernah menginjak kaki Iblis"
+    }
+  ],
   "id": "efe4dbd61607e0a28ef308209b47d6fc",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ind",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

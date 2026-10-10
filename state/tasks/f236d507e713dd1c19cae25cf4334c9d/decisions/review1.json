@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "h2, event-series title",
+      "severity": "major",
+      "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
+      "suggested_fix": "“Een Bijbelse kijk op problemen rond psychische, emotionele, huwelijkse en seksuele mishandeling”",
+      "translation_quote": "“Een Bijbelse kijk op problemen rond geestelijke, emotionele, huwelijks- en seksuele mishandeling”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

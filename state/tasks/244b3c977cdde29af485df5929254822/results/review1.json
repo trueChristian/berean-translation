@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f0a6cd3f-154e-4794-8f77-6c4f1df60ae9",
+    "response_id": "chatcmpl-EX82DibEIZkz2Nw6Wg8IkjZ5eKqNa",
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9499,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10141
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "III. Christ loved with a “faithful love”, paragraph quoting 1 Peter 4:1",
+        "severity": "major",
+        "source_quote": "Forasmuch then as Christ hath suffered for us in the flesh",
+        "suggested_fix": "<em>Ainsi donc, puisque Christ a souffert pour nous dans la chair, vous aussi armez-vous de la même pensée… –1 Pi 4:1.</em>",
+        "translation_quote": "Ainsi donc, puisque Christ a souffert dans la chair, vous aussi armez-vous de la même pensée… –1 Pi 4:1."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

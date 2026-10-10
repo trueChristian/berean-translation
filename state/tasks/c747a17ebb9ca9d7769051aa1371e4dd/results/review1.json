@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c9d9d15e-f4bb-41e0-ba64-8eb015ef427e",
+    "response_id": "chatcmpl-EWy76LQGpI81G160Z3cgDF6vrTEvr",
+    "usage": {
+      "completion_tokens": 1266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7712,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10081
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “But the gaps in life…”",
+        "severity": "major",
+        "source_quote": "“pious men who stood in the gap for God”",
+        "suggested_fix": "Replace “उसकी रक्षा की” with wording such as “परमेश्वर के लिए दरार में खड़े रहे” to preserve the sense of standing on God’s behalf.",
+        "translation_quote": "“परमेश्वर के लिए दरार में खड़े होकर उसकी रक्षा की”"
+      },
+      {
+        "location": "HTML paragraph beginning “The underlying reason…”",
+        "severity": "major",
+        "source_quote": "“Others have given ‘Corban’ to their church while neglecting their relationship with their own parents.”",
+        "suggested_fix": "Render “given ‘Corban’ to their church” as dedicating or offering resources to the church, rather than sacrificing the church; for example: “दूसरों ने अपने माता-पिता के साथ अपने संबंध की उपेक्षा करते हुए अपनी कलीसिया को ‘कॉर्बान’ अर्पित किया।”",
+        "translation_quote": "“अपने माता-पिता के साथ अपने संबंध की उपेक्षा करते हुए अपनी कलीसिया को ‘कुर्बान’ कर दिया।”"
+      },
+      {
+        "location": "HTML paragraph beginning “These are men in the gap.”",
+        "severity": "major",
+        "source_quote": "“Not because they had energy to burn, but because they had a vision for purity.”",
+        "suggested_fix": "Change “उनमें ऊर्जा की कोई कमी नहीं थी” to convey that their standing was not due to having energy to spare, for example: “इसलिए नहीं कि उनके पास बहुत अधिक ऊर्जा थी, बल्कि इसलिए कि उनके पास पवित्रता की दृष्टि थी।”",
+        "translation_quote": "“इसलिए नहीं कि उनमें ऊर्जा की कोई कमी नहीं थी, बल्कि इसलिए कि उनके पास पवित्रता की दृष्टि थी।”"
+      },
+      {
+        "location": "HTML paragraph beginning “This is a true saying…”",
+        "severity": "major",
+        "source_quote": "“If a man desire the office of a bishop”",
+        "suggested_fix": "Use the conventional Hindi title “बिशप” (or another established equivalent for the church office) in place of “अध्यक्ष,” including in this quotation and its later mention in the paragraph about desiring the office.",
+        "translation_quote": "“यदि कोई अध्यक्ष होना चाहता है”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 86
+  }
+}

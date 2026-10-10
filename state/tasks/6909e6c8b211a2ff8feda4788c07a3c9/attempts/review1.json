@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section II.b, paragraph beginning «Det er ett skriftsted om dette emnet»\",\"severity\":\"major\",\"source_quote\":\"For he [God] hath made him [Jesus] to be sin for us, who [Jesus] knew no sin\",\"suggested_fix\":\"For han [Gud] har gjort ham [Jesus] til synd for oss, han [Jesus] som ikke visste av synd\",\"translation_quote\":\"For ham [Gud] som ikke visste av synd, har han [Jesus] gjort til synd for oss\"},{\"location\":\"Section I.f, paragraph on the Ascension\",\"severity\":\"major\",\"source_quote\":\"There is the provision of the Holy Spirit made possible once Jesus left this earth.\",\"suggested_fix\":\"Den Hellige Ånds komme ble mulig da Jesus hadde forlatt jorden.\",\"translation_quote\":\"Den Hellige Ånd ble gitt oss da Jesus hadde forlatt jorden.\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 817,
+    "content_evidence_truncated": false,
+    "content_sha256": "77c4d61e9d966b3f7c14d98a83d4940819d47ff5045d6dd8f398e6197f3802fe",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 922,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10667,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12916
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

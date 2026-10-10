@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poème, première ligne\",\"severity\":\"minor\",\"source_quote\":\"As a man was dying, his thoughts went back.\",\"suggested_fix\":\"Alors qu’un homme se mourait, ses pensées se tournèrent vers le passé.\",\"translation_quote\":\"Alors qu’un homme se mourait, ses pensées remontèrent le temps.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "f069220274c6a783607c4450cb7f93485f848cbfde23ca7668fe673277ace83c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 455,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1282,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2939
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

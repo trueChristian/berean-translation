@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"지니아의 가방을 확인하는 장면, 관련 문단 3곳\",\"severity\":\"minor\",\"source_quote\":\"“I need to look in your purse”; “bringing a purse along”; “her purse would be empty”\",\"suggested_fix\":\"세 곳의 “지갑”을 “가방”으로 바꾸어, 물건을 담아 다니는 purse를 지갑으로 특정하지 않도록 하세요.\",\"translation_quote\":\"“네 지갑을 살펴봐야겠다”; “지갑을 들고 다니기 시작한 뒤로”; “지갑은 비어 있을 것이다”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 586,
+    "content_evidence_truncated": false,
+    "content_sha256": "069a85e031481eb4dee3909bd066a3ad3c2ed6f1f6c0e5ccbfda964633047a53",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7805,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6702,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8652
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

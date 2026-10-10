@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b82eb31c-f75b-4660-8826-ec2b5642f238",
+    "response_id": "chatcmpl-EWy6zjj8cXUEHme8RYVvpmYjqAj96",
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2894,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4788
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph 4",
+        "severity": "major",
+        "source_quote": "We are scheduled to share a series of meetings in Lebanon County, Pennsylvania, this coming July.",
+        "suggested_fix": "Έχουμε προγραμματίσει να πραγματοποιήσουμε μια σειρά συναθροίσεων στην κομητεία Lebanon της Πενσυλβάνια, τον προσεχή Ιούλιο.",
+        "translation_quote": "Έχουμε προγραμματίσει να συμμετάσχουμε σε μια σειρά συναθροίσεων στην κομητεία Lebanon της Πενσυλβάνια, τον προσεχή Ιούλιο."
+      },
+      {
+        "location": "List item 2",
+        "severity": "minor",
+        "source_quote": "The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man",
+        "suggested_fix": "Το Ευαγγέλιο—η απάντηση του Θεού για ΟΛΑ τα ζητήματα του πνεύματος και της ψυχής του ανθρώπου",
+        "translation_quote": "Το Ευαγγέλιο—η απάντηση του Θεού για ΟΛΑ τα ζητήματα του πνεύματος και της ψυχής (ψυχισμού) του ανθρώπου"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

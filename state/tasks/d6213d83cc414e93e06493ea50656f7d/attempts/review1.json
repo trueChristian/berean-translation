@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, third paragraph\",\"severity\":\"minor\",\"source_quote\":\"couples who have struggled with extreme marriage problems for years\",\"suggested_fix\":\"couples qui ont connu des problèmes conjugaux très graves pendant des années\",\"translation_quote\":\"des couples qui ont connu de graves problèmes conjugaux pendant des années\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 405,
+    "content_evidence_truncated": false,
+    "content_sha256": "b01e166d497efb877979164888f348e34cf3146c845a2e8a321a79d0b7898919",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2350,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4059
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

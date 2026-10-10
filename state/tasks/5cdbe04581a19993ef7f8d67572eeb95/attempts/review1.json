@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning “在海地，我们作为一个教会” — quotation of 1 Peter 4:14\",\"severity\":\"major\",\"source_quote\":\"on their part he is evil spoken of, but on your part he is glorified.\",\"suggested_fix\":\"在他们那一方，祂被毁谤；在你们这一方，祂得荣耀。\",\"translation_quote\":\"在他们看来，他是被毁谤的；在你们看来，他却是得荣耀的。\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 482,
+    "content_evidence_truncated": false,
+    "content_sha256": "5067ad24bc0df1563fed3c3a4c87168fe0ab385693da5b00f2f8bc871cc75811",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6235,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5132,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7404
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

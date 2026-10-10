@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aac382ea-c429-4688-987f-bb7ad9322144",
+    "response_id": "chatcmpl-EWy7O0mpkQa5oAGIz1RHfn4pOAnKK",
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 496,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3060
+    }
+  },
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line beginning “A life on the run”",
+        "severity": "major",
+        "source_quote": "A life on the run, was not my desire.",
+        "suggested_fix": "لم تكن حياةُ الهرب ما أرغب فيه.",
+        "translation_quote": "لم تكن الحياة هاربًا رغبتي."
+      },
+      {
+        "location": "Poem, line beginning “Let’s not give in”",
+        "severity": "major",
+        "source_quote": "Let’s not give in, there’s too much at stake.",
+        "suggested_fix": "لا نستسلم؛ فالكثير على المحك.",
+        "translation_quote": "لا نستسلم؛ فالم stakes كثيرة جدًا."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

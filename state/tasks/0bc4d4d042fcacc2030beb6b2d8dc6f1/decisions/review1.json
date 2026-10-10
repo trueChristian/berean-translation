@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 16",
+      "severity": "minor",
+      "source_quote": "From cave to cave, I would call home",
+      "suggested_fix": "Van grot tot grot sou ek dit my tuiste noem,",
+      "translation_quote": "Van grot tot grot sou ek tuis noem,"
+    },
+    {
+      "location": "Poem, line 12",
+      "severity": "minor",
+      "source_quote": "A peace that I thought, no one could hide.",
+      "suggested_fix": "’n Vrede waarvan ek gedink het dat niemand dit kon verberg nie.",
+      "translation_quote": "’n Vrede waarvan ek gedink het niemand dit kon verberg nie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

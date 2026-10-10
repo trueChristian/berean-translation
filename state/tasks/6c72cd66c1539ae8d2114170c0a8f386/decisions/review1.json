@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz beginnend „Weise Eltern bemühen sich …“",
+      "severity": "major",
+      "source_quote": "Instead, the children of Israel made friends with the enemy nations and began to intermarry.",
+      "suggested_fix": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, sich mit ihnen zu verheiraten.",
+      "translation_quote": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, untereinander zu heiraten."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

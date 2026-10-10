@@ -2,7 +2,6 @@
   "article_id": "175280ea-7e5f-4be2-bbce-b500c0fd93cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 3137
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 811,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2326,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4240
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "h2 conference title",
+      "severity": "major",
+      "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
+      "suggested_fix": "“从圣经看心理、情绪、婚姻及性方面的虐待问题”",
+      "translation_quote": "“从圣经看心理、情绪、婚姻及性虐待问题”"
+    }
+  ],
   "id": "940dc32434ecfe91623dd5a7c43b16a5",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "cmn",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/68b431a71f8550df191695e721688ff3ee0e96f23f6709415f7ef239e76f8346.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9c79b475fdf2e91137c2ae3c5de7b755f0274b83e05c4c8d303ba99905f074d3",
   "translation_model_actual": "gpt-6-luna"

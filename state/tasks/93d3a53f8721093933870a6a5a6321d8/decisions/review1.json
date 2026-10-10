@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "h2 event title",
+      "severity": "major",
+      "source_quote": "A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues",
+      "suggested_fix": "“’n Bybelse beskouing van kwessies rondom geestes-, emosionele, huweliks- en seksuele mishandeling”",
+      "translation_quote": "“’n Bybelse beskouing van kwessies rondom geestelike, emosionele, huweliks- en seksuele mishandeling”"
+    },
+    {
+      "location": "ol item 7",
+      "severity": "major",
+      "source_quote": "Understanding Placebo Effect & A Safe Use of Psyche Meds",
+      "suggested_fix": "Om die placebo-effek te verstaan en psigiatriese medikasie veilig te gebruik",
+      "translation_quote": "Om die placebo-effek te verstaan en psigiese medikasie veilig te gebruik"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b814e89-d363-4b9b-b3f0-69231f4aee31",
+    "response_id": "chatcmpl-EWy6wbqw1blYj8epVfzL7mv5BPw31",
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3562,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5307
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, dialogue beginning “Was ist denn hier los, Mädels?”",
+        "severity": "minor",
+        "source_quote": "“What’s the trouble here, girls?” he asked, glancing over the car.",
+        "suggested_fix": "Replace “blickte sich den Wagen an” with “sah sich den Wagen an” or “prüfte den Wagen”.",
+        "translation_quote": "„Was ist denn hier los, Mädels?“, fragte er und blickte sich den Wagen an."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, ordered-list item 7",
+      "severity": "minor",
+      "source_quote": "Understanding Placebo Effect & A Safe Use of Psyche Meds",
+      "suggested_fix": "Kuelewa Athari ya Placebo na Matumizi Salama ya Dawa za Afya ya Akili",
+      "translation_quote": "Kuelewa Athari ya Placebo na Matumizi Salama ya Dawa za Psyche"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

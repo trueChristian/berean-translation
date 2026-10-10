@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11615463-6f13-4b04-84a3-9d952a73ff1c",
+    "response_id": "chatcmpl-EWy7AwpDrftEVoAZlN8urqnU9tcQz",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7188,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9184
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning « De nos jours… », quotation of Galates 1:10",
+        "severity": "major",
+        "source_quote": "–Gal 1:10 ASV",
+        "suggested_fix": "Remplacer « version Synodale » par une attribution fidèle à « ASV », ou omettre l’indication de version si aucune attribution française exacte n’est disponible.",
+        "translation_quote": "–Ga 1:10, version Synodale."
+      },
+      {
+        "location": "Paragraph beginning « De nos jours… », sentence about people deserving care",
+        "severity": "major",
+        "source_quote": "“improvident people”",
+        "suggested_fix": "Remplacer « incapables de subvenir à leurs besoins » par « imprévoyantes » (ou une formulation équivalente qui exprime le manque de prévoyance).",
+        "translation_quote": "« les personnes […] incapables de subvenir à leurs besoins »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

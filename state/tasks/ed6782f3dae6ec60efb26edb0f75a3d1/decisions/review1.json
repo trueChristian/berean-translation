@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Ai nostri giorni è molto comune…”",
+      "severity": "major",
+      "source_quote": "Our society is promoting that all immoral, imprudent, and improvident people deserve the same care as the moral and industrious.",
+      "suggested_fix": "Replace «incapaci di provvedere a sé stesse» with «imprevidenti» to preserve the source’s distinction between improvident people and people unable to provide for themselves.",
+      "translation_quote": "La nostra società sostiene che tutte le persone immorali, imprudenti e incapaci di provvedere a sé stesse meritino la stessa assistenza delle persone morali e laboriose."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

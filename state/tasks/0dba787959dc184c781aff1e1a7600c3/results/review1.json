@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "53bbacab-3d3f-4c7e-860b-c34c9c1e77df",
+    "response_id": "chatcmpl-EWy73o8be5thbZ8P9Xam2iLxX3G7e",
+    "usage": {
+      "completion_tokens": 1153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 913,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7144,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9400
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final article paragraph, list of things the faithful turn their backs on",
+        "severity": "minor",
+        "source_quote": "“frivolity, fame, familiarity, and fortune”",
+        "suggested_fix": "Consider «lettsindighet, berømmelse, det velkjente og rikdom» to make «familiarity» clearer in this context.",
+        "translation_quote": "«lettsindighet, berømmelse, fortrolighet og rikdom»"
+      },
+      {
+        "location": "Final article paragraph, description of how the faithful were treated",
+        "severity": "minor",
+        "source_quote": "“They were mocked and misunderstood, reviled and ridiculed”",
+        "suggested_fix": "Use a distinct rendering for «reviled», such as «forhånet», to preserve the contrast: «De ble hånet og misforstått, forhånet og latterliggjort».",
+        "translation_quote": "«De ble hånet og misforstått, hånet og latterliggjort»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

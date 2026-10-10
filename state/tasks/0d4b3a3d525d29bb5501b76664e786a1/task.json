@@ -2,7 +2,6 @@
   "article_id": "175280ea-7e5f-4be2-bbce-b500c0fd93cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 3212
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 719,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3505,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2402,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4224
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, list item 2",
+      "severity": "minor",
+      "source_quote": "The Gospel—God’s Answer for ALL Issues of the Spirit & Soul (psyche) of Man",
+      "suggested_fix": "Evangeliet – Guds svar på ALLE utfordringer knyttet til menneskets ånd og sjel (psyke)",
+      "translation_quote": "Evangeliet – Guds svar på ALLE spørsmål som gjelder menneskets ånd og sjel (psyke)"
+    },
+    {
+      "location": "Article, list item 4",
+      "severity": "minor",
+      "source_quote": "Practical Discipleship—Effectively Helping People Change",
+      "suggested_fix": "Praktisk disippelskap – å hjelpe mennesker til å forandre seg på en effektiv måte",
+      "translation_quote": "Praktisk disippelskap – effektiv hjelp til mennesker som vil forandre seg"
+    }
+  ],
+  "finished_at": "2026-10-10T00:44:32+00:00",
   "id": "0d4b3a3d525d29bb5501b76664e786a1",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "nob",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/68b431a71f8550df191695e721688ff3ee0e96f23f6709415f7ef239e76f8346.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9c79b475fdf2e91137c2ae3c5de7b755f0274b83e05c4c8d303ba99905f074d3",
   "translation_model_actual": "gpt-6-luna"

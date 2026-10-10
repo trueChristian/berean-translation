@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 13, 1 Peter 4:14 quotation",
+      "severity": "major",
+      "source_quote": "“on their part he is evil spoken of, but on your part he is glorified”",
+      "suggested_fix": "Replace the second “Fra deres side” with “hos dere”: “Fra deres side blir han spottet, men hos dere blir han æret.”",
+      "translation_quote": "“Fra deres side blir han spottet, men fra deres side blir han æret.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

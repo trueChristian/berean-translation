@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bcc394b1-feb6-4626-9d3b-9f5eb7c0c700",
+    "response_id": "chatcmpl-EWy7RJ58nSh5BJ8z4Yf1GIpsozERJ",
+    "usage": {
+      "completion_tokens": 575,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 406,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10789,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12467
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "II.c, paragraph beginning “Namun, pendamaian telah dilakukan”",
+        "severity": "major",
+        "source_quote": "“the wrath of God toward us on account of sin is now averted when we are justified by His blood”",
+        "suggested_fix": "Ganti “murka Allah terhadap kita karena dosa kini telah dialihkan” dengan “murka Allah terhadap kita karena dosa kini telah diredakan” atau “kita kini terhindar dari murka Allah” agar tidak menyiratkan bahwa murka itu dialihkan kepada pihak lain.",
+        "translation_quote": "“murka Allah terhadap kita karena dosa kini telah dialihkan ketika kita dibenarkan oleh darah-Nya”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

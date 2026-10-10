@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "giving thanks and praise to their Creator",
+      "suggested_fix": "Replace ״לאלוהים, בוראן״ with ״לאלוהים, בוראם״ or ״לאלוהים, הבורא שלהם״.",
+      "translation_quote": "והודו לאלוהים, בוראן, ושיבחו אותו"
+    },
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "Mile after mile sped by",
+      "suggested_fix": "Change ״חלף״ to ״חלפו״ to agree with ״מייל אחר מייל״.",
+      "translation_quote": "מייל אחר מייל חלף במהירות"
+    },
+    {
+      "location": "Paragraph describing the approaching pickup",
+      "severity": "minor",
+      "source_quote": "with two dirt bikes on the back",
+      "suggested_fix": "Change ״שתי אופנועי שטח״ to ״שני אופנועי שטח״.",
+      "translation_quote": "ועליו שתי אופנועי שטח"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

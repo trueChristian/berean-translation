@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "this coming July",
+      "suggested_fix": "Vi är inbokade för att hålla en mötesserie i Lebanon County i Pennsylvania nu i juli.",
+      "translation_quote": "i juli"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

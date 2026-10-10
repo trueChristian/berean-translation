@@ -6,6 +6,12 @@
       "campaign": "gh-37791140876",
       "event": "requested",
       "task": "2ad0c41bc8673ea7c385e695b96ed6be"
+    },
+    {
+      "at": "2026-10-10T00:44:33+00:00",
+      "event": "not_ready",
+      "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+      "task": "2ad0c41bc8673ea7c385e695b96ed6be"
     }
   ],
   "language": "kor",

@@ -2,7 +2,6 @@
   "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 11631
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 575,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 406,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11892,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10789,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12467
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "II.c, paragraph beginning “Namun, pendamaian telah dilakukan”",
+      "severity": "major",
+      "source_quote": "“the wrath of God toward us on account of sin is now averted when we are justified by His blood”",
+      "suggested_fix": "Ganti “murka Allah terhadap kita karena dosa kini telah dialihkan” dengan “murka Allah terhadap kita karena dosa kini telah diredakan” atau “kita kini terhindar dari murka Allah” agar tidak menyiratkan bahwa murka itu dialihkan kepada pihak lain.",
+      "translation_quote": "“murka Allah terhadap kita karena dosa kini telah dialihkan ketika kita dibenarkan oleh darah-Nya”"
+    }
+  ],
   "id": "2366cd226c07874a8c2a2d9f5cef9452",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ind",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d833aaae-2313-4978-8c89-69224fe8793b",
+    "response_id": "chatcmpl-EWy70UucL94RvANRmEl2ab37krTn7",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1289,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3088
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 4",
+        "severity": "major",
+        "source_quote": "Keeping nothing back, not even a cent.",
+        "suggested_fix": "Ничего не оставил себе, ни единого цента.",
+        "translation_quote": "Ничего не утаил, ни единого цента."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

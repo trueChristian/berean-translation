@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraaf 3\",\"severity\":\"major\",\"source_quote\":\"had been “transitioning” into a woman\",\"suggested_fix\":\"... besig was om na ’n vrou te “oorgaan”;\",\"translation_quote\":\"besig was om na ’n vrou te “transition”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 304,
+    "content_evidence_truncated": false,
+    "content_sha256": "a39597b1895698daa2c956a1d1d81e142b9c9297e0ea4effa91f169a3fee5ac4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 88,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3440,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4631
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "邻居孩子初次来访段",
+      "severity": "minor",
+      "source_quote": "The first ones soon brought more friends along to join in their play with the foreigner’s children and toys.",
+      "suggested_fix": "最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们及玩具一起玩。",
+      "translation_quote": "最先来的那几个很快又带来了更多朋友，和这个外国人的孩子们一起玩。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

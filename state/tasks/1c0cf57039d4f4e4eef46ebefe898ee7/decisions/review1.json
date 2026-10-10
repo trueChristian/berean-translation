@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "Let’s reunite, gather back together, deny ourselves, pick up our crosses and follow him!",
+      "suggested_fix": "Riuniamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!",
+      "translation_quote": "Riconciliamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

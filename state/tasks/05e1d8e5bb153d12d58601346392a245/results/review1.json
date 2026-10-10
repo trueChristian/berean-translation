@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "04b95f80-cb67-43a1-a7f6-420d98d98e93",
+    "response_id": "chatcmpl-EWy7Dmcg2eBIypZXL99DzBDvEMz8r",
+    "usage": {
+      "completion_tokens": 1226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1012,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7085,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9414
+    }
+  },
+  "received_at": "2026-10-10T00:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «إن الرؤية الحقيقية لعمل الله تأتي بثمن»",
+        "severity": "major",
+        "source_quote": "The rich young ruler would have loved to be a ruler in the kingdom of Christ as well as on his estate",
+        "suggested_fix": "كان الشاب الغني الحاكم سيحب أن يكون حاكمًا في ملكوت المسيح كما كان على أملاكه",
+        "translation_quote": "كان الرئيس الشاب الغني سيحب أن يكون حاكمًا في ملكوت المسيح كما كان في أملاكه"
+      },
+      {
+        "location": "Paragraph beginning «كانت أربعون سنة في أتون الوحدة»",
+        "severity": "minor",
+        "source_quote": "his fear and focus never left his God",
+        "suggested_fix": "ظلّت مخافة الله وتركيزه عليه حاضرتين دائمًا",
+        "translation_quote": "لم يغب الله قط عن مخاوفه واهتمامه"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

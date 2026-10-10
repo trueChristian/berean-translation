@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"末尾诗歌，第3—4行\",\"severity\":\"minor\",\"source_quote\":\"His love is all-sufficient / To calm the gravest fear.\",\"suggested_fix\":\"可改为“祂的爱全然够用，/ 足以平息最深的恐惧。”\",\"translation_quote\":\"祂的爱足以满足一切，/ 平息最深的恐惧。\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 366,
+    "content_evidence_truncated": false,
+    "content_sha256": "5eec064421aa095eb322b494242338a3f44f96d3651ee1f67a3ef24f4bf6b2c9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 583,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 463,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4745,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3642,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5328
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9352
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 862,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 497,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9605,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8502,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10467
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Абзац о завете, цитата Мал. 2:14",
+      "severity": "major",
+      "source_quote": "“...yet is she thy companion, and the wife of thy covenant.”",
+      "suggested_fix": "Заменить «…но она подруга твоя и законная жена твоя» на формулировку, сохраняющую смысл «жена завета», например: «…но она подруга твоя и жена завета твоего».",
+      "translation_quote": "«…но она подруга твоя и законная жена твоя»"
+    },
+    {
+      "location": "Раздел IV, абзац с цитатой Рим. 8:3–4",
+      "severity": "major",
+      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
+      "suggested_fix": "Добавить пропущенное пояснение: «[ограничен тем, что можно было совершить во плоти]».",
+      "translation_quote": "«Как закон, ослабленный плотию, был бессилен»"
+    },
+    {
+      "location": "Раздел IV, абзац с цитатой Рим. 8:3–4",
+      "severity": "major",
+      "source_quote": "“That the righteousness of the law [the full and complete fulfillment of the law] might be fulfilled in us”",
+      "suggested_fix": "Заменить «оправдание закона» на «праведное требование закона», сохранив пояснение о полном исполнении закона.",
+      "translation_quote": "«чтобы оправдание закона [полное и совершенное исполнение закона] исполнилось в нас»"
+    }
+  ],
   "id": "ef91928910b8f2536e88cd4361c78eeb",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "rus",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/abf23c415e7bbb9a5e87d196a7b7841750879ba8b3ad2e297a1cfd3792281c6e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
   "translation_model_actual": "gpt-6-luna"

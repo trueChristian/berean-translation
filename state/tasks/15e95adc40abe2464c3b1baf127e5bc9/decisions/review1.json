@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Let’s chat a little, Zinnia”",
+      "severity": "major",
+      "source_quote": "Her mom had left years ago to work in another country, leaving the girls with their Grandma.",
+      "suggested_fix": "Replace ״והשארת את הבנות אצל סבתן״ with ״והשאירה את הבנות אצל סבתן״.",
+      "translation_quote": "אמה עזבה לפני שנים כדי לעבוד במדינה אחרת, והשארת את הבנות אצל סבתן."
+    },
+    {
+      "location": "Throughout the article, Zinnia’s name",
+      "severity": "minor",
+      "source_quote": "Zinnia",
+      "suggested_fix": "Use ״זיניה״ consistently as the Hebrew transliteration of the name.",
+      "translation_quote": "סיניה"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 2\",\"severity\":\"minor\",\"source_quote\":\"Will I leave a good mark, that none can attack?\",\"suggested_fix\":\"Θα αφήσω πίσω μου καλό αποτύπωμα, που κανείς δεν θα μπορεί να αμφισβητήσει;\",\"translation_quote\":\"Θα αφήσω πίσω μου ένα καλό παράδειγμα, που κανείς δεν θα μπορεί να κατηγορήσει;\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 497,
+    "content_evidence_truncated": false,
+    "content_sha256": "9e95b012db0a9731d5044b0f230695c1988b48c80840e76cd6ad205d6f551a53",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1446,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3355
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Abri um olho para espiar o relógio”",
+      "severity": "minor",
+      "source_quote": "I opened one eye to peek at the clock—2:47.",
+      "suggested_fix": "Abri um olho para espiar o relógio: 2h47.",
+      "translation_quote": "Abri um olho para espiar o relógio: 14h47."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

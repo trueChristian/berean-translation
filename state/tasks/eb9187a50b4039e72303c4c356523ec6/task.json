@@ -2,7 +2,6 @@
   "article_id": "96e445d4-5f1d-469c-a807-d0f1e297bb1f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c3cd6f6b3f64b6db30f9daa4336dd6e",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 7559
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1114,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7740,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6637,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9143
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Opening paragraph and all references to the 3 p.m. and 6 p.m. schedule (opening; first visit rules; Zinnia’s later question)",
+      "severity": "major",
+      "source_quote": "“It was 2:30 p.m., Tuesday afternoon.” / “It’s not three o’clock yet.” / “arriving no earlier than three o’clock in the afternoon” / “leave by 6 p.m.” / “Is it three o’clock yet?”",
+      "suggested_fix": "Use Kiswahili clock expressions that preserve the source times: for example, “saa nane na nusu alasiri” for 2:30 p.m., “saa tisa alasiri” for 3 p.m., and “saa kumi na mbili jioni” for 6 p.m. Apply these consistently to the opening, dialogue, rules, and later question.",
+      "translation_quote": "“Ilikuwa saa 2:30 alasiri” / “Bado saa tatu hazijafika” / “wasifike kabla ya saa 3 alasiri” / “kabla ya saa 6 alasiri” / “Je, saa tatu zimefika?”"
+    }
+  ],
   "id": "eb9187a50b4039e72303c4c356523ec6",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swa",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e1c4327700c4fde5744d36efa570f1d7f7eb236c30ebd395670be88447a139e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7367c87df1cb1f359ee40a2ea35da6222679649c85706061197087e1dbc70ce7",
   "translation_model_actual": "gpt-6-luna"

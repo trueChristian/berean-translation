@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "06b4748f-b630-48fd-b4d7-b17037ee8859",
+    "response_id": "chatcmpl-EWy7Jy78x6vOnImCpyNV3kXueHCcm",
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 878,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7740,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9954
+    }
+  },
+  "received_at": "2026-10-10T00:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening section, paragraph beginning «“Not quite!”»",
+        "severity": "minor",
+        "source_quote": "Placing baby into the walker, I headed to the kitchen.",
+        "suggested_fix": "Έβαλα το μωρό στη στράτα και πήγα στην κουζίνα.",
+        "translation_quote": "Έβαλα το μωρό στο περπατούρα και πήγα στην κουζίνα."
+      },
+      {
+        "location": "Early narrative, paragraph beginning «We had scarcely settled onto the farm»",
+        "severity": "minor",
+        "source_quote": "We had scarcely settled onto the farm when the neighbor children found us.",
+        "suggested_fix": "Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, μας ανακάλυψαν τα παιδιά της γειτονιάς.",
+        "translation_quote": "Μόλις είχαμε εγκατασταθεί στο αγρόκτημα, όταν μας ανακάλυψαν τα παιδιά της γειτονιάς."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

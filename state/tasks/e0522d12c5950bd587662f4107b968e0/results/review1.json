@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89775496-2b04-4c3b-bf5f-5935adc7225e",
+    "response_id": "chatcmpl-EWy76dfNSvQgf3I9z70OLhPHLCRu3",
+    "usage": {
+      "completion_tokens": 1087,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 956,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7760,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9950
+    }
+  },
+  "received_at": "2026-10-10T00:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "1 تیمتھیس 3:1-4 کا اقتباس",
+        "severity": "minor",
+        "source_quote": "vigilant, sober, of good behaviour",
+        "suggested_fix": "«ہوشیار، سنجیدہ مزاج، خوش چال» جیسا مفہوم دیں؛ موجودہ «متقی» یہاں “sober” کا مطلب نہیں۔",
+        "translation_quote": "ہوشیار، متقی، شائستہ"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
