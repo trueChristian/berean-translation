@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 15.338165,
-  "automatic_allocation_index": 46,
-  "automatic_allocation_usd": 0.0888,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 15.426965,
+  "automatic_allocation_index": 47,
+  "automatic_allocation_usd": 0.088794,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,17 +11,17 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "de380a54c4799d3841d03414244f7e919fb2c4655a45fb3154773729ce987257",
+  "automatic_frozen_sha256": "0da5a84d7e8aa3c027c0ceaa471df19c3b020a101a3f78542edbe15f6a5f6f1f",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-b43ab01fca1cb95f655e5e1030c32155cdb990b091cfae284fd024adca435378",
+    "id": "auto-de563635db46708c1c375552a4070c6744336a2a696ca37da9267b5ebf54a72b",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "ben",
+      "language": "rus",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.0888,
-  "created_at": "2026-10-10T19:17:38+00:00",
+  "budget_usd": 0.088794,
+  "created_at": "2026-10-10T19:17:40+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,18 +53,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-b43ab01fca1cb95f655e5e1030c32155cdb990b091cfae284fd024adca435378",
+    "id": "auto-de563635db46708c1c375552a4070c6744336a2a696ca37da9267b5ebf54a72b",
     "language_settings": {
-      "ben": {
+      "rus": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "মূল ইংরেজি পাঠ",
-        "guidance": "Use standard contemporary Bengali in Bengali script.",
-        "name": "Bengali",
-        "native_name": "বাংলা",
-        "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
-        "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
-        "tag": "bn"
+        "english_label": "Английский оригинал",
+        "guidance": "Use standard contemporary Russian.",
+        "name": "Russian",
+        "native_name": "Русский",
+        "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
+        "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
+        "tag": "ru"
       }
     },
     "max_output_tokens": 16384,
@@ -164,7 +164,7 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-b43ab01fca1cb95f655e5e1030c32155cdb990b091cfae284fd024adca435378",
+  "id": "auto-de563635db46708c1c375552a4070c6744336a2a696ca37da9267b5ebf54a72b",
   "initial_task": {
     "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
     "automatic_previous_task": null,
@@ -172,13 +172,13 @@
     "autonomous_recovery": false,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-b43ab01fca1cb95f655e5e1030c32155cdb990b091cfae284fd024adca435378",
-    "created_at": "2026-10-10T19:17:38+00:00",
+    "campaign": "auto-de563635db46708c1c375552a4070c6744336a2a696ca37da9267b5ebf54a72b",
+    "created_at": "2026-10-10T19:17:40+00:00",
     "events": [],
     "findings": [],
-    "id": "211b2a490ed8059dc3e28ec9307abda2",
+    "id": "91b5865fc4b851cde24f9a830e810f80",
     "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-    "language": "ben",
+    "language": "rus",
     "model": "gpt-6-luna",
     "models": {
       "gpt-4.1": {
@@ -274,12 +274,12 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.046767,
-        "review1": 0.018371,
-        "review2": 0.018371,
-        "translate": 0.005291
+        "correct": 0.046764,
+        "review1": 0.01837,
+        "review2": 0.01837,
+        "translate": 0.00529
       },
-      "total_reserved_usd": 0.0888,
+      "total_reserved_usd": 0.088794,
       "version": 1
     },
     "status": "queued",
@@ -291,20 +291,20 @@
     "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612"
   ],
   "language_settings": {
-    "ben": {
+    "rus": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "মূল ইংরেজি পাঠ",
-      "guidance": "Use standard contemporary Bengali in Bengali script.",
-      "name": "Bengali",
-      "native_name": "বাংলা",
-      "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
-      "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
-      "tag": "bn"
+      "english_label": "Английский оригинал",
+      "guidance": "Use standard contemporary Russian.",
+      "name": "Russian",
+      "native_name": "Русский",
+      "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
+      "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
+      "tag": "ru"
     }
   },
   "languages": [
-    "ben"
+    "rus"
   ],
   "max_output_tokens": 16384,
   "model": "gpt-6-luna",
@@ -400,7 +400,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "fb40da0067c239e21271c99e2398774f3c5f7d2930b0315a513219fd989ee881",
+  "request_sha256": "531f16d1512b37e83f2d62a18ccaf7c691c49665d5c0b541a9d6f029a3de1680",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -411,7 +411,7 @@
       "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "ben",
+      "language": "rus",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -426,16 +426,14 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.046767,
-      "review1": 0.018371,
-      "review2": 0.018371,
-      "translate": 0.005291
+      "correct": 0.046764,
+      "review1": 0.01837,
+      "review2": 0.01837,
+      "translate": 0.00529
     },
-    "total_reserved_usd": 0.0888,
+    "total_reserved_usd": 0.088794,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "211b2a490ed8059dc3e28ec9307abda2"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
