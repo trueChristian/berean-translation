@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph quoting Revelation 6:15–17",
+      "severity": "major",
+      "source_quote": "For the great day of his wrath is come",
+      "suggested_fix": "החליפו את ״חרון אפם״ ב״חרון אפו״, בהתאם לייחוס בלשון יחיד במקור.",
+      "translation_quote": "כי בא היום הגדול של חרון אפם"
+    },
+    {
+      "location": "html: paragraph beginning “I am one of those who enjoys relaxing”",
+      "severity": "major",
+      "source_quote": "each one has a soul that will spend all of eternity somewhere! Alive!",
+      "suggested_fix": "החליפו את שני המשפטים ב״לכל אחד ואחת מהם יש נפש שתהיה במקום כלשהו במשך כל הנצח — חיה!״ כדי לשמר את הקביעה על חיי הנפש בנצח.",
+      "translation_quote": "לכל אחד ואחת מהם יש נפש שתבלה את כל הנצח במקום כלשהו! הם חיים!"
+    },
+    {
+      "location": "html: paragraph beginning “For many of us, for me in particular”",
+      "severity": "major",
+      "source_quote": "to bring His awareness to one who knows not the One, Living, and True God",
+      "suggested_fix": "החליפו את ״כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי״ ב״כדי לעורר מודעות לאלוהים אצל מי שאינו מכיר את האל האחד, החי והאמיתי״.",
+      "translation_quote": "כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי"
+    },
+    {
+      "location": "html: final resources paragraph",
+      "severity": "major",
+      "source_quote": "please contact our ministry",
+      "suggested_fix": "החליפו את ״צרו קשר עם המפעל שלנו״ ב״צרו קשר עם ארגון השירות הנוצרי שלנו״.",
+      "translation_quote": "אנא צרו קשר עם המפעל שלנו"
+    },
+    {
+      "location": "html: paragraph about the vehicle mechanic",
+      "severity": "minor",
+      "source_quote": "And of his further testimony regarding the various ways that God has led",
+      "suggested_fix": "החליפו את ״הוא סיפר גם בדרכים השונות״ ב״הוא סיפר גם על הדרכים השונות״.",
+      "translation_quote": "הוא סיפר גם בדרכים השונות שבהן אלוהים הנחה אותו"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a955b25af408412d99c37ff877d370dc",
   "campaign": "auto-7b034ba3af5435868c9c503a5432dcbc73cb7580f20645de9e40ec916f640755",
   "created_at": "2026-10-10T19:13:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 693,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 66,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8230,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7127,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8923
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: paragraph quoting Revelation 6:15–17",
+      "severity": "major",
+      "source_quote": "For the great day of his wrath is come",
+      "suggested_fix": "החליפו את ״חרון אפם״ ב״חרון אפו״, בהתאם לייחוס בלשון יחיד במקור.",
+      "translation_quote": "כי בא היום הגדול של חרון אפם"
+    },
+    {
+      "location": "html: paragraph beginning “I am one of those who enjoys relaxing”",
+      "severity": "major",
+      "source_quote": "each one has a soul that will spend all of eternity somewhere! Alive!",
+      "suggested_fix": "החליפו את שני המשפטים ב״לכל אחד ואחת מהם יש נפש שתהיה במקום כלשהו במשך כל הנצח — חיה!״ כדי לשמר את הקביעה על חיי הנפש בנצח.",
+      "translation_quote": "לכל אחד ואחת מהם יש נפש שתבלה את כל הנצח במקום כלשהו! הם חיים!"
+    },
+    {
+      "location": "html: paragraph beginning “For many of us, for me in particular”",
+      "severity": "major",
+      "source_quote": "to bring His awareness to one who knows not the One, Living, and True God",
+      "suggested_fix": "החליפו את ״כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי״ ב״כדי לעורר מודעות לאלוהים אצל מי שאינו מכיר את האל האחד, החי והאמיתי״.",
+      "translation_quote": "כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי"
+    },
+    {
+      "location": "html: final resources paragraph",
+      "severity": "major",
+      "source_quote": "please contact our ministry",
+      "suggested_fix": "החליפו את ״צרו קשר עם המפעל שלנו״ ב״צרו קשר עם ארגון השירות הנוצרי שלנו״.",
+      "translation_quote": "אנא צרו קשר עם המפעל שלנו"
+    },
+    {
+      "location": "html: paragraph about the vehicle mechanic",
+      "severity": "minor",
+      "source_quote": "And of his further testimony regarding the various ways that God has led",
+      "suggested_fix": "החליפו את ״הוא סיפר גם בדרכים השונות״ ב״הוא סיפר גם על הדרכים השונות״.",
+      "translation_quote": "הוא סיפר גם בדרכים השונות שבהן אלוהים הנחה אותו"
+    }
+  ],
   "id": "3b8aa5381cb3918f251e0a1420bc1675",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.760662,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

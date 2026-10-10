@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T19:16:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: paragraph quoting Revelation 6:15–17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For the great day of his wrath is come\",\n      \"suggested_fix\": \"החליפו את ״חרון אפם״ ב״חרון אפו״, בהתאם לייחוס בלשון יחיד במקור.\",\n      \"translation_quote\": \"כי בא היום הגדול של חרון אפם\"\n    },\n    {\n      \"location\": \"html: paragraph beginning “I am one of those who enjoys relaxing”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"each one has a soul that will spend all of eternity somewhere! Alive!\",\n      \"suggested_fix\": \"החליפו את שני המשפטים ב״לכל אחד ואחת מהם יש נפש שתהיה במקום כלשהו במשך כל הנצח — חיה!״ כדי לשמר את הקביעה על חיי הנפש בנצח.\",\n      \"translation_quote\": \"לכל אחד ואחת מהם יש נפש שתבלה את כל הנצח במקום כלשהו! הם חיים!\"\n    },\n    {\n      \"location\": \"html: paragraph beginning “For many of us, for me in particular”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"to bring His awareness to one who knows not the One, Living, and True God\",\n      \"suggested_fix\": \"החליפו את ״כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי״ ב״כדי לעורר מודעות לאלוהים אצל מי שאינו מכיר את האל האחד, החי והאמיתי״.\",\n      \"translation_quote\": \"כדי להביא לידיעתו של מי שאינו מכיר את האל האחד, החי והאמיתי\"\n    },\n    {\n      \"location\": \"html: final resources paragraph\",\n      \"severity\": \"major\",\n      \"source_quote\": \"please contact our ministry\",\n      \"suggested_fix\": \"החליפו את ״צרו קשר עם המפעל שלנו״ ב״צרו קשר עם ארגון השירות הנוצרי שלנו״.\",\n      \"translation_quote\": \"אנא צרו קשר עם המפעל שלנו\"\n    },\n    {\n      \"location\": \"html: paragraph about the vehicle mechanic\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"And of his further testimony regarding the various ways that God has led\",\n      \"suggested_fix\": \"החליפו את ״הוא סיפר גם בדרכים השונות״ ב״הוא סיפר גם על הדרכים השונות״.\",\n      \"translation_quote\": \"הוא סיפר גם בדרכים השונות שבהן אלוהים הנחה אותו\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 2591,
+    "content_evidence_truncated": false,
+    "content_sha256": "6092e4d6241322b25374227f67de385598d117312a8690fe6139d9b4506f1411",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 66,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7127,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8923
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
