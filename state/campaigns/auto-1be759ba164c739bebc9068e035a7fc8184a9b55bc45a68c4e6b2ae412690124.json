@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 14.048795,
-  "automatic_allocation_index": 39,
-  "automatic_allocation_usd": 0.088799,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 14.137594,
+  "automatic_allocation_index": 40,
+  "automatic_allocation_usd": 0.756568,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,22 +11,22 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "a4b9ca465026d424610d1a0ed1951af435fcc3908d363e1b273748a4c9bc752b",
+  "automatic_frozen_sha256": "d769516639053e69c8f7ba4276e76d7015217e77f686c204adf2d2a64b451a37",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-41968ebf6cbdf2e01087047bc522790495c9691f176c484eaec3e2e2ffefc880",
+    "id": "auto-1be759ba164c739bebc9068e035a7fc8184a9b55bc45a68c4e6b2ae412690124",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
-      "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
-      "candidate_sha256": null,
-      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "fra",
-      "previous_task_id": null,
-      "previous_task_sha256": null,
-      "recovery": false,
-      "stage": "translate",
-      "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba"
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "candidate_sha256": "116a24128157ccbbced32ab4a34aadb4132db242fe6b195453c86f0206ecf493",
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swa",
+      "previous_task_id": "c48a1d9d214a8385352de037884ce2f4",
+      "previous_task_sha256": "b775a80aab80509ce075dcfb14cb759a7412f6cc6d791136e394021b18f76a19",
+      "recovery": true,
+      "stage": "review1",
+      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
     }
   },
   "automatic_settlement_credits": {
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.088799,
-  "created_at": "2026-10-10T19:17:22+00:00",
+  "budget_usd": 0.756568,
+  "created_at": "2026-10-10T19:17:24+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,24 +53,22 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-41968ebf6cbdf2e01087047bc522790495c9691f176c484eaec3e2e2ffefc880",
+    "id": "auto-1be759ba164c739bebc9068e035a7fc8184a9b55bc45a68c4e6b2ae412690124",
     "language_settings": {
-      "fra": {
-        "aliases": [
-          "fre"
-        ],
+      "swa": {
+        "aliases": [],
         "dir": "ltr",
-        "english_label": "Original anglais",
-        "guidance": "Use standard internationally intelligible French.",
-        "name": "French",
-        "native_name": "Français",
-        "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-        "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-        "tag": "fr"
+        "english_label": "Maandishi asilia ya Kiingereza",
+        "guidance": "Use standard Kiswahili.",
+        "name": "Swahili",
+        "native_name": "Kiswahili",
+        "notice": "Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: {model}) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza.",
+        "reviewed_notice": "Makala hii imehakikiwa na binadamu, ingawa awali ilitafsiriwa kwa kutumia AI. Nakala asili ya Kiingereza inabaki kuwa toleo lenye mamlaka.",
+        "tag": "sw"
       }
     },
-    "max_output_tokens": 16384,
-    "model": "gpt-6-luna",
+    "max_output_tokens": 32768,
+    "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
         "api_model": "gpt-4.1-2025-04-14",
@@ -162,26 +160,26 @@
     },
     "quality_threshold": 95,
     "review_contract_version": 2,
-    "review_model": "gpt-6-luna",
+    "review_model": "gpt-6.1-sol",
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-41968ebf6cbdf2e01087047bc522790495c9691f176c484eaec3e2e2ffefc880",
+  "id": "auto-1be759ba164c739bebc9068e035a7fc8184a9b55bc45a68c4e6b2ae412690124",
   "initial_task": {
-    "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
-    "automatic_previous_task": null,
+    "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+    "automatic_previous_task": "c48a1d9d214a8385352de037884ce2f4",
     "autonomous": true,
-    "autonomous_recovery": false,
+    "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-41968ebf6cbdf2e01087047bc522790495c9691f176c484eaec3e2e2ffefc880",
-    "created_at": "2026-10-10T19:17:22+00:00",
+    "campaign": "auto-1be759ba164c739bebc9068e035a7fc8184a9b55bc45a68c4e6b2ae412690124",
+    "created_at": "2026-10-10T19:17:24+00:00",
     "events": [],
     "findings": [],
-    "id": "0be1d6df8d71c3bd72c603ea798d1144",
-    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-    "language": "fra",
-    "model": "gpt-6-luna",
+    "id": "67308d0641d7d40a27b29e183af88ece",
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "language": "swa",
+    "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
         "api_model": "gpt-4.1-2025-04-14",
@@ -268,50 +266,47 @@
     "protected": false,
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
-    "review_model": "gpt-6-luna",
-    "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
-    "stage": "translate",
+    "review_model": "gpt-6.1-sol",
+    "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
+    "stage": "review1",
     "stage_budget": {
-      "initial_stage": "translate",
+      "initial_stage": "review1",
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.046766,
-        "review1": 0.018371,
-        "review2": 0.018371,
-        "translate": 0.005291
+        "correct": 0.294559,
+        "review1": 0.089949,
+        "review2": 0.37206
       },
-      "total_reserved_usd": 0.088799,
+      "total_reserved_usd": 0.756568,
       "version": 1
     },
     "status": "queued",
     "translation_attempts": 0,
-    "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
-    "translation_model_actual": null
+    "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
+    "translation_model_actual": "gpt-6-luna"
   },
   "issues": [
-    "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612"
+    "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "fra": {
-      "aliases": [
-        "fre"
-      ],
+    "swa": {
+      "aliases": [],
       "dir": "ltr",
-      "english_label": "Original anglais",
-      "guidance": "Use standard internationally intelligible French.",
-      "name": "French",
-      "native_name": "Français",
-      "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-      "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-      "tag": "fr"
+      "english_label": "Maandishi asilia ya Kiingereza",
+      "guidance": "Use standard Kiswahili.",
+      "name": "Swahili",
+      "native_name": "Kiswahili",
+      "notice": "Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: {model}) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza.",
+      "reviewed_notice": "Makala hii imehakikiwa na binadamu, ingawa awali ilitafsiriwa kwa kutumia AI. Nakala asili ya Kiingereza inabaki kuwa toleo lenye mamlaka.",
+      "tag": "sw"
     }
   },
   "languages": [
-    "fra"
+    "swa"
   ],
-  "max_output_tokens": 16384,
-  "model": "gpt-6-luna",
+  "max_output_tokens": 32768,
+  "model": "gpt-6.1-sol",
   "models": {
     "gpt-4.1": {
       "api_model": "gpt-4.1-2025-04-14",
@@ -404,42 +399,39 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "9448be5254942c2ef854ba3ccc4c88370ee05163a4ee8338d3753800e27a2a98",
+  "request_sha256": "81d291f6cce04928a45e8ad419a83d12e85506ec4994b7f65a52086d9e087457",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
-  "review_model": "gpt-6-luna",
+  "review_model": "gpt-6.1-sol",
   "review_output_tokens": 8192,
   "selection": [
     {
-      "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
-      "candidate_sha256": null,
-      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "fra",
-      "previous_task_id": null,
-      "previous_task_sha256": null,
-      "recovery": false,
-      "stage": "translate",
-      "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba"
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "candidate_sha256": "116a24128157ccbbced32ab4a34aadb4132db242fe6b195453c86f0206ecf493",
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swa",
+      "previous_task_id": "c48a1d9d214a8385352de037884ce2f4",
+      "previous_task_sha256": "b775a80aab80509ce075dcfb14cb759a7412f6cc6d791136e394021b18f76a19",
+      "recovery": true,
+      "stage": "review1",
+      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
     }
   ],
   "skipped": [],
-  "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
   "stage_budget": {
-    "initial_stage": "translate",
+    "initial_stage": "review1",
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.046766,
-      "review1": 0.018371,
-      "review2": 0.018371,
-      "translate": 0.005291
+      "correct": 0.294559,
+      "review1": 0.089949,
+      "review2": 0.37206
     },
-    "total_reserved_usd": 0.088799,
+    "total_reserved_usd": 0.756568,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "0be1d6df8d71c3bd72c603ea798d1144"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
