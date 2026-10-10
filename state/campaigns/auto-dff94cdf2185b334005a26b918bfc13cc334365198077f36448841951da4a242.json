@@ -1,7 +1,7 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 9.698661,
-  "automatic_allocation_index": 19,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 9.785771,
+  "automatic_allocation_index": 20,
   "automatic_allocation_usd": 0.08711,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
@@ -11,17 +11,17 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "a23733cac2cdf8e38c9676e1f6dd489b2c2b2bf553d11cf37f8476360b5891ef",
+  "automatic_frozen_sha256": "77a6a936e367c8dd1e3b6476464cc91aae7b941be248b03175a65d6db9850fa5",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-af3eca09a6bc56fcc8acc5ac513deed70485ab54f224ae0701d320e2fdb27417",
+    "id": "auto-dff94cdf2185b334005a26b918bfc13cc334365198077f36448841951da4a242",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "afr",
+      "language": "swe",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -42,7 +42,7 @@
   },
   "autonomous": true,
   "budget_usd": 0.08711,
-  "created_at": "2026-10-10T19:12:21+00:00",
+  "created_at": "2026-10-10T19:12:23+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -52,18 +52,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-af3eca09a6bc56fcc8acc5ac513deed70485ab54f224ae0701d320e2fdb27417",
+    "id": "auto-dff94cdf2185b334005a26b918bfc13cc334365198077f36448841951da4a242",
     "language_settings": {
-      "afr": {
+      "swe": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "Engelse oorspronklike",
-        "guidance": "Use standard contemporary Afrikaans.",
-        "name": "Afrikaans",
-        "native_name": "Afrikaans",
-        "notice": "Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: {model}) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is.",
-        "reviewed_notice": "Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe.",
-        "tag": "af"
+        "english_label": "Engelskt original",
+        "guidance": "Use standard contemporary Swedish.",
+        "name": "Swedish",
+        "native_name": "Svenska",
+        "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
+        "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
+        "tag": "sv"
       }
     },
     "max_output_tokens": 16384,
@@ -163,7 +163,7 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-af3eca09a6bc56fcc8acc5ac513deed70485ab54f224ae0701d320e2fdb27417",
+  "id": "auto-dff94cdf2185b334005a26b918bfc13cc334365198077f36448841951da4a242",
   "initial_task": {
     "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
     "automatic_previous_task": null,
@@ -171,13 +171,13 @@
     "autonomous_recovery": false,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-af3eca09a6bc56fcc8acc5ac513deed70485ab54f224ae0701d320e2fdb27417",
-    "created_at": "2026-10-10T19:12:21+00:00",
+    "campaign": "auto-dff94cdf2185b334005a26b918bfc13cc334365198077f36448841951da4a242",
+    "created_at": "2026-10-10T19:12:23+00:00",
     "events": [],
     "findings": [],
-    "id": "e6949ee4fe4237ccec0c838bddbfa366",
+    "id": "3bc37599f217e475c9c41ed568c13d38",
     "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-    "language": "afr",
+    "language": "swe",
     "model": "gpt-6-luna",
     "models": {
       "gpt-4.1": {
@@ -290,20 +290,20 @@
     "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612"
   ],
   "language_settings": {
-    "afr": {
+    "swe": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "Engelse oorspronklike",
-      "guidance": "Use standard contemporary Afrikaans.",
-      "name": "Afrikaans",
-      "native_name": "Afrikaans",
-      "notice": "Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: {model}) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is.",
-      "reviewed_notice": "Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe.",
-      "tag": "af"
+      "english_label": "Engelskt original",
+      "guidance": "Use standard contemporary Swedish.",
+      "name": "Swedish",
+      "native_name": "Svenska",
+      "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
+      "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
+      "tag": "sv"
     }
   },
   "languages": [
-    "afr"
+    "swe"
   ],
   "max_output_tokens": 16384,
   "model": "gpt-6-luna",
@@ -399,7 +399,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "ad4dfbc28f9c32cc50223e4cf3ae39e06c57dd4a1595f230e18e4360fae7c4f9",
+  "request_sha256": "ab36c062c084997843bb418bfd6d0969dbec7abb592d1d3ad3136131880bbf45",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -410,7 +410,7 @@
       "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
       "candidate_sha256": null,
       "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
-      "language": "afr",
+      "language": "swe",
       "previous_task_id": null,
       "previous_task_sha256": null,
       "recovery": false,
@@ -433,8 +433,6 @@
     "total_reserved_usd": 0.08711,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "e6949ee4fe4237ccec0c838bddbfa366"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
