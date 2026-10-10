@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 23.272803,
-  "automatic_allocation_index": 59,
-  "automatic_allocation_usd": 0.762342,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 24.035145,
+  "automatic_allocation_index": 60,
+  "automatic_allocation_usd": 0.76748,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "a8d922354eab9d389b5b53cdbd374c12541eb967dd605826614a9c174cac575f",
+  "automatic_frozen_sha256": "e098a8679a00273e86b6cb48a500259ccab65594e0e44f9cc3521f8606520a27",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-f7460921c95ef22e04b102d28007b98676bfe46dee3e9e978623fb320f9ba56e",
+    "id": "auto-fd6ab5c4b4da87558eb4d0ce7fc842327be88252a435527c3ba6abb59f01982a",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "e26a1abab3d3d760a3fc550d49e3b03531d43d43404202f502f82aad1888b9b8",
+      "candidate_sha256": "137744e5d4bb1bdd45ee5dd79671fb0cf81c2114ad2f735c0d775c00d0be460a",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "fra",
-      "previous_task_id": "dbb4a423610bd7f9236e5f30629e525d",
-      "previous_task_sha256": "e0715a429095e29395f28a429aceca941b0cd4bbd49138fe65025ef1407b4883",
+      "language": "ara",
+      "previous_task_id": "ab5405b1c4d70fac0e3f2ea23ad52127",
+      "previous_task_sha256": "9b755c8181ee458b7b7dcd996b3d479d8a9184ddab303d69e645f6237bf4b5d7",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.762342,
-  "created_at": "2026-10-10T19:18:09+00:00",
+  "budget_usd": 0.76748,
+  "created_at": "2026-10-10T19:18:12+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,20 +53,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-f7460921c95ef22e04b102d28007b98676bfe46dee3e9e978623fb320f9ba56e",
+    "id": "auto-fd6ab5c4b4da87558eb4d0ce7fc842327be88252a435527c3ba6abb59f01982a",
     "language_settings": {
-      "fra": {
-        "aliases": [
-          "fre"
-        ],
-        "dir": "ltr",
-        "english_label": "Original anglais",
-        "guidance": "Use standard internationally intelligible French.",
-        "name": "French",
-        "native_name": "Français",
-        "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-        "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-        "tag": "fr"
+      "ara": {
+        "aliases": [],
+        "dir": "rtl",
+        "english_label": "الأصل الإنجليزي",
+        "guidance": "Use Modern Standard Arabic, not a regional dialect.",
+        "name": "Arabic",
+        "native_name": "العربية",
+        "notice": "تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: {model})، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي.",
+        "reviewed_notice": "راجع شخص هذه المقالة، مع أنها تُرجمت في الأصل باستخدام الذكاء الاصطناعي. يظل النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة.",
+        "tag": "ar"
       }
     },
     "max_output_tokens": 32768,
@@ -166,21 +164,21 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-f7460921c95ef22e04b102d28007b98676bfe46dee3e9e978623fb320f9ba56e",
+  "id": "auto-fd6ab5c4b4da87558eb4d0ce7fc842327be88252a435527c3ba6abb59f01982a",
   "initial_task": {
     "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-    "automatic_previous_task": "dbb4a423610bd7f9236e5f30629e525d",
+    "automatic_previous_task": "ab5405b1c4d70fac0e3f2ea23ad52127",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-f7460921c95ef22e04b102d28007b98676bfe46dee3e9e978623fb320f9ba56e",
-    "created_at": "2026-10-10T19:18:09+00:00",
+    "campaign": "auto-fd6ab5c4b4da87558eb4d0ce7fc842327be88252a435527c3ba6abb59f01982a",
+    "created_at": "2026-10-10T19:18:12+00:00",
     "events": [],
     "findings": [],
-    "id": "0a189dbf7bd6c2d878a47267350784ca",
+    "id": "bd6a15120fc1bcc96f897cb4ad4acab0",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "fra",
+    "language": "ara",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -276,11 +274,11 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.29743,
-        "review1": 0.09282,
-        "review2": 0.372092
+        "correct": 0.299998,
+        "review1": 0.095388,
+        "review2": 0.372094
       },
-      "total_reserved_usd": 0.762342,
+      "total_reserved_usd": 0.76748,
       "version": 1
     },
     "status": "queued",
@@ -292,22 +290,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "fra": {
-      "aliases": [
-        "fre"
-      ],
-      "dir": "ltr",
-      "english_label": "Original anglais",
-      "guidance": "Use standard internationally intelligible French.",
-      "name": "French",
-      "native_name": "Français",
-      "notice": "Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : {model}) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais.",
-      "reviewed_notice": "Cet article a été révisé par une personne, bien qu’il ait été traduit à l’origine par IA. L’original anglais reste la version faisant autorité.",
-      "tag": "fr"
+    "ara": {
+      "aliases": [],
+      "dir": "rtl",
+      "english_label": "الأصل الإنجليزي",
+      "guidance": "Use Modern Standard Arabic, not a regional dialect.",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "notice": "تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: {model})، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي.",
+      "reviewed_notice": "راجع شخص هذه المقالة، مع أنها تُرجمت في الأصل باستخدام الذكاء الاصطناعي. يظل النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة.",
+      "tag": "ar"
     }
   },
   "languages": [
-    "fra"
+    "ara"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -403,7 +399,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "6d07eb91f8f96339b6ff55b562d2657687a6a6490e0751d9ce26790cac172785",
+  "request_sha256": "3ec8fbf00efa09da1b1c5d19e516fd996d27c56f535bc6607d7bb01fa26e5b63",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -412,11 +408,11 @@
   "selection": [
     {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "e26a1abab3d3d760a3fc550d49e3b03531d43d43404202f502f82aad1888b9b8",
+      "candidate_sha256": "137744e5d4bb1bdd45ee5dd79671fb0cf81c2114ad2f735c0d775c00d0be460a",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "fra",
-      "previous_task_id": "dbb4a423610bd7f9236e5f30629e525d",
-      "previous_task_sha256": "e0715a429095e29395f28a429aceca941b0cd4bbd49138fe65025ef1407b4883",
+      "language": "ara",
+      "previous_task_id": "ab5405b1c4d70fac0e3f2ea23ad52127",
+      "previous_task_sha256": "9b755c8181ee458b7b7dcd996b3d479d8a9184ddab303d69e645f6237bf4b5d7",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -429,15 +425,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.29743,
-      "review1": 0.09282,
-      "review2": 0.372092
+      "correct": 0.299998,
+      "review1": 0.095388,
+      "review2": 0.372094
     },
-    "total_reserved_usd": 0.762342,
+    "total_reserved_usd": 0.76748,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "0a189dbf7bd6c2d878a47267350784ca"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
