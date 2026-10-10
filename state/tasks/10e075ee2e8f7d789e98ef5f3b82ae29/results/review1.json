@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6bb8bcca-4f53-417b-8b89-70787bb7c7c6",
+    "response_id": "chatcmpl-EXWoVs5lfBlBdcr9WFerWiqQJSIOA",
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9055
+    }
+  },
+  "received_at": "2026-10-10T19:16:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: stycket om trasiga relationer och psykiska svårigheter",
+        "severity": "major",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "Ersätt ”i de enkla församlingarna” med ”inom de anabaptistiska gemenskaper som lever enkelt och traditionellt”.",
+        "translation_quote": "i de enkla församlingarna"
+      },
+      {
+        "location": "html: samma stycke, meningen om församlingens ansvar",
+        "severity": "major",
+        "source_quote": "one of my strongest concerns regarding these issues is that the church would do everything that it can to take away the stigma or negativity of these struggles",
+        "suggested_fix": "Ersätt meningen med: ”En av mina viktigaste angelägenheter i dessa frågor är faktiskt att församlingen ska göra allt den kan för att undanröja stigmat eller det negativa som förknippas med dessa svårigheter.”",
+        "translation_quote": "En av mina starkaste farhågor kring dessa frågor är faktiskt att församlingen skulle göra allt den kan för att undanröja stigmat eller det negativa som förknippas med dessa svårigheter."
+      },
+      {
+        "location": "html: avslutande blockquote, Judasbrevet 1:24–25",
+        "severity": "major",
+        "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+        "suggested_fix": "Ta bort ”genom Jesus Kristus, vår Herre,” och ”före all tid,” så att denna del lyder: ”honom, den ende vise Guden, vår Frälsare, tillhör härlighet, majestät, välde och makt, nu och i all evighet.”",
+        "translation_quote": "honom, den ende vise Guden, vår Frälsare, genom Jesus Kristus, vår Herre, tillhör härlighet, majestät, välde och makt, före all tid, nu och i all evighet."
+      },
+      {
+        "location": "html: inledande stycket, beskrivningen av vårblommorna",
+        "severity": "minor",
+        "source_quote": "select early flowers have pushed their blossoms up",
+        "suggested_fix": "Ersätt ”skjutit upp sina knoppar” med ”skjutit upp sina blommor”.",
+        "translation_quote": "vissa tidiga blommor har skjutit upp sina knoppar"
+      },
+      {
+        "location": "html: stycket om församlingens undvikande och följande stycke om ömsesidigt stöd",
+        "severity": "minor",
+        "source_quote": "“leave sleeping dogs lie” ... “open that can of worms” ... “the shoe is on the other foot”",
+        "suggested_fix": "Använd svenska idiom: ersätt ”låta sovande hundar ligga” med ”inte väcka den björn som sover”, ”öppna den burken med maskar” med ”dra upp allt det där” och ”skon sitter på andra foten” med ”rollerna är ombytta”.",
+        "translation_quote": "”låta sovande hundar ligga” ... ”öppna den burken med maskar” ... ”skon sitter på andra foten”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

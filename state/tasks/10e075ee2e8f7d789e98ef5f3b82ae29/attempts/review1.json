@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T19:16:53+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: stycket om trasiga relationer och psykiska svårigheter\",\n      \"severity\": \"major\",\n      \"source_quote\": \"within the plain communities\",\n      \"suggested_fix\": \"Ersätt ”i de enkla församlingarna” med ”inom de anabaptistiska gemenskaper som lever enkelt och traditionellt”.\",\n      \"translation_quote\": \"i de enkla församlingarna\"\n    },\n    {\n      \"location\": \"html: samma stycke, meningen om församlingens ansvar\",\n      \"severity\": \"major\",\n      \"source_quote\": \"one of my strongest concerns regarding these issues is that the church would do everything that it can to take away the stigma or negativity of these struggles\",\n      \"suggested_fix\": \"Ersätt meningen med: ”En av mina viktigaste angelägenheter i dessa frågor är faktiskt att församlingen ska göra allt den kan för att undanröja stigmat eller det negativa som förknippas med dessa svårigheter.”\",\n      \"translation_quote\": \"En av mina starkaste farhågor kring dessa frågor är faktiskt att församlingen skulle göra allt den kan för att undanröja stigmat eller det negativa som förknippas med dessa svårigheter.\"\n    },\n    {\n      \"location\": \"html: avslutande blockquote, Judasbrevet 1:24–25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.\",\n      \"suggested_fix\": \"Ta bort ”genom Jesus Kristus, vår Herre,” och ”före all tid,” så att denna del lyder: ”honom, den ende vise Guden, vår Frälsare, tillhör härlighet, majestät, välde och makt, nu och i all evighet.”\",\n      \"translation_quote\": \"honom, den ende vise Guden, vår Frälsare, genom Jesus Kristus, vår Herre, tillhör härlighet, majestät, välde och makt, före all tid, nu och i all evighet.\"\n    },\n    {\n      \"location\": \"html: inledande stycket, beskrivningen av vårblommorna\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"select early flowers have pushed their blossoms up\",\n      \"suggested_fix\": \"Ersätt ”skjutit upp sina knoppar” med ”skjutit upp sina blommor”.\",\n      \"translation_quote\": \"vissa tidiga blommor har skjutit upp sina knoppar\"\n    },\n    {\n      \"location\": \"html: stycket om församlingens undvikande och följande stycke om ömsesidigt stöd\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“leave sleeping dogs lie” ... “open that can of worms” ... “the shoe is on the other foot”\",\n      \"suggested_fix\": \"Använd svenska idiom: ersätt ”låta sovande hundar ligga” med ”inte väcka den björn som sover”, ”öppna den burken med maskar” med ”dra upp allt det där” och ”skon sitter på andra foten” med ”rollerna är ombytta”.\",\n      \"translation_quote\": \"”låta sovande hundar ligga” ... ”öppna den burken med maskar” ... ”skon sitter på andra foten”\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 2964,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d0a2d186c816873b73c8894f30ccd58d6cbc974163eefe51d6cec705ce2a743",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9055
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
