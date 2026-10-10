@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 11.671993,
-  "automatic_allocation_index": 34,
-  "automatic_allocation_usd": 0.753199,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 12.425192,
+  "automatic_allocation_index": 35,
+  "automatic_allocation_usd": 0.758195,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "887483831db93bde910919a62125c3a86b25c9d1d8c4da6b435ba078bfd95d05",
+  "automatic_frozen_sha256": "af9d739d10b8b0f3489981e09f1498a93d3d872a01b2f49572e8e4ca2051d4c8",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-6ec0be9ca937409262f7788665d3279a305753eb28353d346ac4302dc152a01d",
+    "id": "auto-7144dd2ef59033dac905bf41a67cffb9b699200df0fadb8a9022122c9fff914e",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "candidate_sha256": "90603a458d8355b61a88552557c69067a87a35c745c2d52d76c92339301cadf9",
+      "candidate_sha256": "ef15c8af146a1db7119963ecb559855b67e44b0206e409828b71c68d40f30c17",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "swe",
-      "previous_task_id": "eb1800bc443963440849181748d35f52",
-      "previous_task_sha256": "e08ea02b49e200f8e0cdf6ae913ed28d39ca6d88ac64969912acc8bb3afa6f52",
+      "language": "kor",
+      "previous_task_id": "1e3d895db7ae50edcb40c725d1d0f4b1",
+      "previous_task_sha256": "67c04a8857362ac1f43db0f1dbea12fe1a26d4a4cdb83f578dab8fce86d55ea7",
       "recovery": true,
       "stage": "review1",
       "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c"
@@ -41,8 +41,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.753199,
-  "created_at": "2026-10-10T19:12:57+00:00",
+  "budget_usd": 0.758195,
+  "created_at": "2026-10-10T19:12:59+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -52,18 +52,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-6ec0be9ca937409262f7788665d3279a305753eb28353d346ac4302dc152a01d",
+    "id": "auto-7144dd2ef59033dac905bf41a67cffb9b699200df0fadb8a9022122c9fff914e",
     "language_settings": {
-      "swe": {
+      "kor": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "Engelskt original",
-        "guidance": "Use standard contemporary Swedish.",
-        "name": "Swedish",
-        "native_name": "Svenska",
-        "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
-        "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
-        "tag": "sv"
+        "english_label": "영어 원문",
+        "guidance": "Use standard written Korean and a respectful editorial register.",
+        "name": "Korean",
+        "native_name": "한국어",
+        "notice": "이 글은 OpenAI의 인공지능(모델: {model})으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오.",
+        "reviewed_notice": "이 글은 사람이 검토했으며, 최초 번역에는 AI가 사용되었습니다. 영어 원문이 최종 기준입니다.",
+        "tag": "ko"
       }
     },
     "max_output_tokens": 32768,
@@ -163,21 +163,21 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-6ec0be9ca937409262f7788665d3279a305753eb28353d346ac4302dc152a01d",
+  "id": "auto-7144dd2ef59033dac905bf41a67cffb9b699200df0fadb8a9022122c9fff914e",
   "initial_task": {
     "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-    "automatic_previous_task": "eb1800bc443963440849181748d35f52",
+    "automatic_previous_task": "1e3d895db7ae50edcb40c725d1d0f4b1",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-6ec0be9ca937409262f7788665d3279a305753eb28353d346ac4302dc152a01d",
-    "created_at": "2026-10-10T19:12:57+00:00",
+    "campaign": "auto-7144dd2ef59033dac905bf41a67cffb9b699200df0fadb8a9022122c9fff914e",
+    "created_at": "2026-10-10T19:12:59+00:00",
     "events": [],
     "findings": [],
-    "id": "10e075ee2e8f7d789e98ef5f3b82ae29",
+    "id": "8a1450f2403b07ffd6039c407628fa68",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "swe",
+    "language": "kor",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -273,11 +273,11 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.293283,
-        "review1": 0.088673,
-        "review2": 0.371243
+        "correct": 0.295763,
+        "review1": 0.091153,
+        "review2": 0.371279
       },
-      "total_reserved_usd": 0.753199,
+      "total_reserved_usd": 0.758195,
       "version": 1
     },
     "status": "queued",
@@ -289,20 +289,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "swe": {
+    "kor": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "Engelskt original",
-      "guidance": "Use standard contemporary Swedish.",
-      "name": "Swedish",
-      "native_name": "Svenska",
-      "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
-      "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
-      "tag": "sv"
+      "english_label": "영어 원문",
+      "guidance": "Use standard written Korean and a respectful editorial register.",
+      "name": "Korean",
+      "native_name": "한국어",
+      "notice": "이 글은 OpenAI의 인공지능(모델: {model})으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오.",
+      "reviewed_notice": "이 글은 사람이 검토했으며, 최초 번역에는 AI가 사용되었습니다. 영어 원문이 최종 기준입니다.",
+      "tag": "ko"
     }
   },
   "languages": [
-    "swe"
+    "kor"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -398,7 +398,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "2e9a5021f5867c5678e1d979a3d07c3b59b942905ad762c37bb4dd1c82442e5e",
+  "request_sha256": "e7781555d9feb1858cc38ca3a49b6413ece88116bccd5e0d89d00a9188c78354",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -407,11 +407,11 @@
   "selection": [
     {
       "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "candidate_sha256": "90603a458d8355b61a88552557c69067a87a35c745c2d52d76c92339301cadf9",
+      "candidate_sha256": "ef15c8af146a1db7119963ecb559855b67e44b0206e409828b71c68d40f30c17",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "swe",
-      "previous_task_id": "eb1800bc443963440849181748d35f52",
-      "previous_task_sha256": "e08ea02b49e200f8e0cdf6ae913ed28d39ca6d88ac64969912acc8bb3afa6f52",
+      "language": "kor",
+      "previous_task_id": "1e3d895db7ae50edcb40c725d1d0f4b1",
+      "previous_task_sha256": "67c04a8857362ac1f43db0f1dbea12fe1a26d4a4cdb83f578dab8fce86d55ea7",
       "recovery": true,
       "stage": "review1",
       "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c"
@@ -424,15 +424,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.293283,
-      "review1": 0.088673,
-      "review2": 0.371243
+      "correct": 0.295763,
+      "review1": 0.091153,
+      "review2": 0.371279
     },
-    "total_reserved_usd": 0.753199,
+    "total_reserved_usd": 0.758195,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "10e075ee2e8f7d789e98ef5f3b82ae29"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
