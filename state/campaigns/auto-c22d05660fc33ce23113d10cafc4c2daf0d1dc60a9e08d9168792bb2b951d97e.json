@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 19.493749,
-  "automatic_allocation_index": 54,
-  "automatic_allocation_usd": 0.751613,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 20.245362,
+  "automatic_allocation_index": 55,
+  "automatic_allocation_usd": 0.762349,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,22 +11,22 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "63ad61640f1d7a2d681cf1efd8b7110bae91545634cb129b32e985b8f29b5a6a",
+  "automatic_frozen_sha256": "76c7ad34c7f4c10041528c0bdd5fd27fa989006865712ff35553c86ecd647b4f",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-c1ec17b68858e1ace6b14f9952a28d1c357506dca98481860a32d4a1db14fd54",
+    "id": "auto-c22d05660fc33ce23113d10cafc4c2daf0d1dc60a9e08d9168792bb2b951d97e",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
-      "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "candidate_sha256": "3263dd2c0125a36919e9d92d8fedf2759ad956ef5cc1cec8338f730a610448d3",
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "candidate_sha256": "d2a72621a2da727cbcb66d37367d19c6c73adaa4cda364377a4d5ec8d0e2c943",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "nob",
-      "previous_task_id": "985ede1a5224ab07728d98cff034dd2a",
-      "previous_task_sha256": "41c6f01890cddd3bdbab10a5f235fd4c074189ccc9cf6e4d4f554d2a97046dbd",
+      "language": "ind",
+      "previous_task_id": "f1891b0e617ef3552e288b48bb3bf4b8",
+      "previous_task_sha256": "bb94127afcee35a545ec5dcaa60d540ee407c3e318245a1cc404680e1e949d66",
       "recovery": true,
       "stage": "review1",
-      "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c"
+      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
     }
   },
   "automatic_settlement_credits": {
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.751613,
-  "created_at": "2026-10-10T19:17:57+00:00",
+  "budget_usd": 0.762349,
+  "created_at": "2026-10-10T19:17:59+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,21 +53,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-c1ec17b68858e1ace6b14f9952a28d1c357506dca98481860a32d4a1db14fd54",
+    "id": "auto-c22d05660fc33ce23113d10cafc4c2daf0d1dc60a9e08d9168792bb2b951d97e",
     "language_settings": {
-      "nob": {
-        "aliases": [
-          "no",
-          "nor"
-        ],
+      "ind": {
+        "aliases": [],
         "dir": "ltr",
-        "english_label": "Engelsk original",
-        "guidance": "Use contemporary Norwegian Bokmål, not Nynorsk.",
-        "name": "Norwegian (Bokmål)",
-        "native_name": "Norsk bokmål",
-        "notice": "Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: {model}) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen.",
-        "reviewed_notice": "Denne artikkelen er gjennomgått av et menneske, selv om den opprinnelig ble oversatt med KI. Den engelske originalen er fortsatt den autoritative versjonen.",
-        "tag": "nb"
+        "english_label": "Naskah asli bahasa Inggris",
+        "guidance": "Use standard Bahasa Indonesia.",
+        "name": "Indonesian",
+        "native_name": "Bahasa Indonesia",
+        "notice": "Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: {model}) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris.",
+        "reviewed_notice": "Artikel ini telah ditinjau oleh manusia, meskipun awalnya diterjemahkan dengan AI. Naskah asli berbahasa Inggris tetap menjadi versi rujukan yang berwenang.",
+        "tag": "id"
       }
     },
     "max_output_tokens": 32768,
@@ -167,21 +164,21 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-c1ec17b68858e1ace6b14f9952a28d1c357506dca98481860a32d4a1db14fd54",
+  "id": "auto-c22d05660fc33ce23113d10cafc4c2daf0d1dc60a9e08d9168792bb2b951d97e",
   "initial_task": {
-    "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-    "automatic_previous_task": "985ede1a5224ab07728d98cff034dd2a",
+    "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+    "automatic_previous_task": "f1891b0e617ef3552e288b48bb3bf4b8",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-c1ec17b68858e1ace6b14f9952a28d1c357506dca98481860a32d4a1db14fd54",
-    "created_at": "2026-10-10T19:17:57+00:00",
+    "campaign": "auto-c22d05660fc33ce23113d10cafc4c2daf0d1dc60a9e08d9168792bb2b951d97e",
+    "created_at": "2026-10-10T19:17:59+00:00",
     "events": [],
     "findings": [],
-    "id": "caf13a4f9392df3281d0fd7affddec84",
+    "id": "625986be2df086909101cf158b80c165",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "nob",
+    "language": "ind",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -270,46 +267,43 @@
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
     "review_model": "gpt-6.1-sol",
-    "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
+    "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
     "stage": "review1",
     "stage_budget": {
       "initial_stage": "review1",
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.292474,
-        "review1": 0.087864,
-        "review2": 0.371275
+        "correct": 0.297443,
+        "review1": 0.092833,
+        "review2": 0.372073
       },
-      "total_reserved_usd": 0.751613,
+      "total_reserved_usd": 0.762349,
       "version": 1
     },
     "status": "queued",
     "translation_attempts": 0,
-    "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+    "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
     "translation_model_actual": "gpt-6-luna"
   },
   "issues": [
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "nob": {
-      "aliases": [
-        "no",
-        "nor"
-      ],
+    "ind": {
+      "aliases": [],
       "dir": "ltr",
-      "english_label": "Engelsk original",
-      "guidance": "Use contemporary Norwegian Bokmål, not Nynorsk.",
-      "name": "Norwegian (Bokmål)",
-      "native_name": "Norsk bokmål",
-      "notice": "Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: {model}) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen.",
-      "reviewed_notice": "Denne artikkelen er gjennomgått av et menneske, selv om den opprinnelig ble oversatt med KI. Den engelske originalen er fortsatt den autoritative versjonen.",
-      "tag": "nb"
+      "english_label": "Naskah asli bahasa Inggris",
+      "guidance": "Use standard Bahasa Indonesia.",
+      "name": "Indonesian",
+      "native_name": "Bahasa Indonesia",
+      "notice": "Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: {model}) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris.",
+      "reviewed_notice": "Artikel ini telah ditinjau oleh manusia, meskipun awalnya diterjemahkan dengan AI. Naskah asli berbahasa Inggris tetap menjadi versi rujukan yang berwenang.",
+      "tag": "id"
     }
   },
   "languages": [
-    "nob"
+    "ind"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -405,7 +399,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "ac7cc412d288484447881d7efdcc97140cd86ca8f37623d01ce82282477b863d",
+  "request_sha256": "24c87107ed22df81da022ebae1c032d92202bbabf202fba47ff7b476887730bb",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -413,15 +407,15 @@
   "review_output_tokens": 8192,
   "selection": [
     {
-      "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
-      "candidate_sha256": "3263dd2c0125a36919e9d92d8fedf2759ad956ef5cc1cec8338f730a610448d3",
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "candidate_sha256": "d2a72621a2da727cbcb66d37367d19c6c73adaa4cda364377a4d5ec8d0e2c943",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "nob",
-      "previous_task_id": "985ede1a5224ab07728d98cff034dd2a",
-      "previous_task_sha256": "41c6f01890cddd3bdbab10a5f235fd4c074189ccc9cf6e4d4f554d2a97046dbd",
+      "language": "ind",
+      "previous_task_id": "f1891b0e617ef3552e288b48bb3bf4b8",
+      "previous_task_sha256": "bb94127afcee35a545ec5dcaa60d540ee407c3e318245a1cc404680e1e949d66",
       "recovery": true,
       "stage": "review1",
-      "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c"
+      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
     }
   ],
   "skipped": [],
@@ -431,15 +425,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.292474,
-      "review1": 0.087864,
-      "review2": 0.371275
+      "correct": 0.297443,
+      "review1": 0.092833,
+      "review2": 0.372073
     },
-    "total_reserved_usd": 0.751613,
+    "total_reserved_usd": 0.762349,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "caf13a4f9392df3281d0fd7affddec84"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
