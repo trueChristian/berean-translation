@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, पहला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "the carnal man is proud of just about anything",
+      "suggested_fix": "“देहधारी मनुष्य” को “शारीरिक स्वभाव वाला मनुष्य” से बदलें।",
+      "translation_quote": "देहधारी मनुष्य लगभग हर चीज़ पर गर्व करता है"
+    },
+    {
+      "location": "translation.html, अनुच्छेद 25",
+      "severity": "major",
+      "source_quote": "However, when it is a super-natural work of God, we now must boast of what God has done!",
+      "suggested_fix": "इस वाक्य को बदलें: “लेकिन जब यह परमेश्वर का अलौकिक काम होता है, तो हमें परमेश्वर के किए हुए काम की बड़ाई करनी चाहिए!”",
+      "translation_quote": "लेकिन जब परमेश्वर का अलौकिक काम होता है, तो हमें अब यह बताकर अपनी बड़ाई करनी चाहिए कि परमेश्वर ने क्या किया है!"
+    },
+    {
+      "location": "translation.html, अनुच्छेद 27 और 29",
+      "severity": "major",
+      "source_quote": "every day you put on your nail bag and get to work / You never even put on your nail bag",
+      "suggested_fix": "दोनों स्थानों पर “नाखूनों वाला थैला” को “कीलों की कमर-थैली” से बदलें; यहाँ घर बनाने में इस्तेमाल होने वाली कीलों की थैली का उल्लेख है।",
+      "translation_quote": "हर दिन अपने नाखूनों वाला थैला पहनकर काम पर लग जाते हैं / आपने अपने नाखूनों वाला थैला तक नहीं पहना"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "57c6a195-4b4b-4a59-932c-8553c2bbd4ea",
+    "response_id": "chatcmpl-EXWnWunuKg1uXcHXh7iM1WIwBkKkB",
+    "usage": {
+      "completion_tokens": 420,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9411,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9408,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9831
+    }
+  },
+  "received_at": "2026-10-10T19:16:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, पहला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "the carnal man is proud of just about anything",
+        "suggested_fix": "“देहधारी मनुष्य” को “शारीरिक स्वभाव वाला मनुष्य” से बदलें।",
+        "translation_quote": "देहधारी मनुष्य लगभग हर चीज़ पर गर्व करता है"
+      },
+      {
+        "location": "translation.html, अनुच्छेद 25",
+        "severity": "major",
+        "source_quote": "However, when it is a super-natural work of God, we now must boast of what God has done!",
+        "suggested_fix": "इस वाक्य को बदलें: “लेकिन जब यह परमेश्वर का अलौकिक काम होता है, तो हमें परमेश्वर के किए हुए काम की बड़ाई करनी चाहिए!”",
+        "translation_quote": "लेकिन जब परमेश्वर का अलौकिक काम होता है, तो हमें अब यह बताकर अपनी बड़ाई करनी चाहिए कि परमेश्वर ने क्या किया है!"
+      },
+      {
+        "location": "translation.html, अनुच्छेद 27 और 29",
+        "severity": "major",
+        "source_quote": "every day you put on your nail bag and get to work / You never even put on your nail bag",
+        "suggested_fix": "दोनों स्थानों पर “नाखूनों वाला थैला” को “कीलों की कमर-थैली” से बदलें; यहाँ घर बनाने में इस्तेमाल होने वाली कीलों की थैली का उल्लेख है।",
+        "translation_quote": "हर दिन अपने नाखूनों वाला थैला पहनकर काम पर लग जाते हैं / आपने अपने नाखूनों वाला थैला तक नहीं पहना"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

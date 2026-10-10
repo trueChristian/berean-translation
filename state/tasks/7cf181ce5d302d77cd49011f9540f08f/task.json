@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "579a02ac939046c28a21abb2d61a7674",
   "campaign": "auto-279d0710e871505dcc7e89bf961c343f183258bf0b8221b3fb2c3fc1cceeee0a",
   "created_at": "2026-10-10T19:12:14+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 420,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9411,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9408,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9831
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, पहला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "the carnal man is proud of just about anything",
+      "suggested_fix": "“देहधारी मनुष्य” को “शारीरिक स्वभाव वाला मनुष्य” से बदलें।",
+      "translation_quote": "देहधारी मनुष्य लगभग हर चीज़ पर गर्व करता है"
+    },
+    {
+      "location": "translation.html, अनुच्छेद 25",
+      "severity": "major",
+      "source_quote": "However, when it is a super-natural work of God, we now must boast of what God has done!",
+      "suggested_fix": "इस वाक्य को बदलें: “लेकिन जब यह परमेश्वर का अलौकिक काम होता है, तो हमें परमेश्वर के किए हुए काम की बड़ाई करनी चाहिए!”",
+      "translation_quote": "लेकिन जब परमेश्वर का अलौकिक काम होता है, तो हमें अब यह बताकर अपनी बड़ाई करनी चाहिए कि परमेश्वर ने क्या किया है!"
+    },
+    {
+      "location": "translation.html, अनुच्छेद 27 और 29",
+      "severity": "major",
+      "source_quote": "every day you put on your nail bag and get to work / You never even put on your nail bag",
+      "suggested_fix": "दोनों स्थानों पर “नाखूनों वाला थैला” को “कीलों की कमर-थैली” से बदलें; यहाँ घर बनाने में इस्तेमाल होने वाली कीलों की थैली का उल्लेख है।",
+      "translation_quote": "हर दिन अपने नाखूनों वाला थैला पहनकर काम पर लग जाते हैं / आपने अपने नाखूनों वाला थैला तक नहीं पहना"
+    }
+  ],
   "id": "7cf181ce5d302d77cd49011f9540f08f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.808441,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"
