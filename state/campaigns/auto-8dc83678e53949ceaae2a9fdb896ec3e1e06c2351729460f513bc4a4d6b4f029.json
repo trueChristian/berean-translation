@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 16.370081,
-  "automatic_allocation_index": 50,
-  "automatic_allocation_usd": 0.758108,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 17.128189,
+  "automatic_allocation_index": 51,
+  "automatic_allocation_usd": 0.805375,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "547659dab80fab53da3b698070829f7b5417e7f2b56b8c4cf7de1a1638fb361e",
+  "automatic_frozen_sha256": "78df960e8e44134e0689fc1d5f6df963f0cf822babd8258dc509190ddedec6bc",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-5fdba8138f133a25ee4ade412f7f873a27325958436e93e7eed158a3e6415f5a",
+    "id": "auto-8dc83678e53949ceaae2a9fdb896ec3e1e06c2351729460f513bc4a4d6b4f029",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "130938fa36fe27de647a4d11400132f415d3753329ae11a643bc8213733974e2",
+      "candidate_sha256": "9e94e6c160747ed0232388ea8964fe2d585500b73eb85171660a90aaf98fc528",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "swe",
-      "previous_task_id": "991d91dc5cf6d3907d1a15d659f542a4",
-      "previous_task_sha256": "579c85c4a02bc6089745ad3bb20268283299baf6218ff4faede81a0338490f20",
+      "language": "ben",
+      "previous_task_id": "4346d09082a8d16ea5c0653296f8ea89",
+      "previous_task_sha256": "b76f27f663222650d2af7f958932e3d627379791d2649be214b7a2a4bab7b69e",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.758108,
-  "created_at": "2026-10-10T19:17:48+00:00",
+  "budget_usd": 0.805375,
+  "created_at": "2026-10-10T19:17:50+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,18 +53,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-5fdba8138f133a25ee4ade412f7f873a27325958436e93e7eed158a3e6415f5a",
+    "id": "auto-8dc83678e53949ceaae2a9fdb896ec3e1e06c2351729460f513bc4a4d6b4f029",
     "language_settings": {
-      "swe": {
+      "ben": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "Engelskt original",
-        "guidance": "Use standard contemporary Swedish.",
-        "name": "Swedish",
-        "native_name": "Svenska",
-        "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
-        "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
-        "tag": "sv"
+        "english_label": "মূল ইংরেজি পাঠ",
+        "guidance": "Use standard contemporary Bengali in Bengali script.",
+        "name": "Bengali",
+        "native_name": "বাংলা",
+        "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
+        "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
+        "tag": "bn"
       }
     },
     "max_output_tokens": 32768,
@@ -164,21 +164,21 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-5fdba8138f133a25ee4ade412f7f873a27325958436e93e7eed158a3e6415f5a",
+  "id": "auto-8dc83678e53949ceaae2a9fdb896ec3e1e06c2351729460f513bc4a4d6b4f029",
   "initial_task": {
     "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-    "automatic_previous_task": "991d91dc5cf6d3907d1a15d659f542a4",
+    "automatic_previous_task": "4346d09082a8d16ea5c0653296f8ea89",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-5fdba8138f133a25ee4ade412f7f873a27325958436e93e7eed158a3e6415f5a",
-    "created_at": "2026-10-10T19:17:48+00:00",
+    "campaign": "auto-8dc83678e53949ceaae2a9fdb896ec3e1e06c2351729460f513bc4a4d6b4f029",
+    "created_at": "2026-10-10T19:17:50+00:00",
     "events": [],
     "findings": [],
-    "id": "6914b1a282ff421501542fc875863be9",
+    "id": "ec8d7e4e3587def6df8d96543af9a8f1",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "swe",
+    "language": "ben",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -274,11 +274,11 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.295322,
-        "review1": 0.090712,
-        "review2": 0.372074
+        "correct": 0.318944,
+        "review1": 0.114334,
+        "review2": 0.372097
       },
-      "total_reserved_usd": 0.758108,
+      "total_reserved_usd": 0.805375,
       "version": 1
     },
     "status": "queued",
@@ -290,20 +290,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "swe": {
+    "ben": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "Engelskt original",
-      "guidance": "Use standard contemporary Swedish.",
-      "name": "Swedish",
-      "native_name": "Svenska",
-      "notice": "Denna artikel har översatts med artificiell intelligens från OpenAI (modell: {model}) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet.",
-      "reviewed_notice": "Den här artikeln har granskats av en människa, även om den ursprungligen översattes med AI. Det engelska originalet är fortfarande den auktoritativa versionen.",
-      "tag": "sv"
+      "english_label": "মূল ইংরেজি পাঠ",
+      "guidance": "Use standard contemporary Bengali in Bengali script.",
+      "name": "Bengali",
+      "native_name": "বাংলা",
+      "notice": "এই নিবন্ধটি OpenAI (মডেল: {model}) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন।",
+      "reviewed_notice": "এই নিবন্ধটি একজন মানুষ পর্যালোচনা করেছেন, যদিও এটি প্রথমে এআই দিয়ে অনুবাদ করা হয়েছিল। ইংরেজি মূল পাঠই প্রামাণ্য সংস্করণ।",
+      "tag": "bn"
     }
   },
   "languages": [
-    "swe"
+    "ben"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -399,7 +399,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "c3186ce417fbbece6fd07bdf1fc46eebc427d573b291f260c2ed9b3a74cb0d17",
+  "request_sha256": "e08ea85f62eda6e97f8dedd274ef30210da7f370d87eb7cf267e842dda8c52fe",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -408,11 +408,11 @@
   "selection": [
     {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "130938fa36fe27de647a4d11400132f415d3753329ae11a643bc8213733974e2",
+      "candidate_sha256": "9e94e6c160747ed0232388ea8964fe2d585500b73eb85171660a90aaf98fc528",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "swe",
-      "previous_task_id": "991d91dc5cf6d3907d1a15d659f542a4",
-      "previous_task_sha256": "579c85c4a02bc6089745ad3bb20268283299baf6218ff4faede81a0338490f20",
+      "language": "ben",
+      "previous_task_id": "4346d09082a8d16ea5c0653296f8ea89",
+      "previous_task_sha256": "b76f27f663222650d2af7f958932e3d627379791d2649be214b7a2a4bab7b69e",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -425,15 +425,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.295322,
-      "review1": 0.090712,
-      "review2": 0.372074
+      "correct": 0.318944,
+      "review1": 0.114334,
+      "review2": 0.372097
     },
-    "total_reserved_usd": 0.758108,
+    "total_reserved_usd": 0.805375,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "6914b1a282ff421501542fc875863be9"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
