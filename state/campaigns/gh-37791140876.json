@@ -1857,8 +1857,8 @@
   "structural_feedback_version": "1",
   "task_counts": {
     "complete": 116,
-    "in_batch": 55,
-    "not_ready": 29
+    "in_batch": 54,
+    "not_ready": 30
   },
   "tasks": [
     "940dc32434ecfe91623dd5a7c43b16a5",
