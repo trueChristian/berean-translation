@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 8.715992,
-  "automatic_allocation_index": 16,
-  "automatic_allocation_usd": 0.808441,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 9.524433,
+  "automatic_allocation_index": 17,
+  "automatic_allocation_usd": 0.08711,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,22 +11,22 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "47199300a4eea23baf5849ca38ca589e09a8d85cbaa362aa7ef6532e21ec1b0d",
+  "automatic_frozen_sha256": "14f684da6e887c15c6bee52ab023ff09042f8dcd55f9ac2d878d31c23c936889",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-279d0710e871505dcc7e89bf961c343f183258bf0b8221b3fb2c3fc1cceeee0a",
+    "id": "auto-7e1c619130cafcaa6cf03e18409e387096317b5379d169ba236196392fdd15ef",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
-      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "83aa018c9cdcf1c96e5d9cdfcb58a1b546cee764c013db89605a35dd5fad1a80",
-      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "hin",
-      "previous_task_id": "987edca860afbac3f04705dd6f57eede",
-      "previous_task_sha256": "3717b4502c730abcb273ca2c7d5b7bec38dfb3e7418441b420a2dcf3e4d21c4b",
-      "recovery": true,
-      "stage": "review1",
-      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "candidate_sha256": null,
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "previous_task_id": null,
+      "previous_task_sha256": null,
+      "recovery": false,
+      "stage": "translate",
+      "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221"
     }
   },
   "automatic_settlement_credits": {
@@ -41,8 +41,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.808441,
-  "created_at": "2026-10-10T19:12:14+00:00",
+  "budget_usd": 0.08711,
+  "created_at": "2026-10-10T19:12:16+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -52,22 +52,22 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-279d0710e871505dcc7e89bf961c343f183258bf0b8221b3fb2c3fc1cceeee0a",
+    "id": "auto-7e1c619130cafcaa6cf03e18409e387096317b5379d169ba236196392fdd15ef",
     "language_settings": {
-      "hin": {
+      "ita": {
         "aliases": [],
         "dir": "ltr",
-        "english_label": "अंग्रेज़ी मूल पाठ",
-        "guidance": "Use contemporary standard Hindi in Devanagari.",
-        "name": "Hindi",
-        "native_name": "हिन्दी",
-        "notice": "इस लेख का अनुवाद OpenAI (मॉडल: {model}) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें।",
-        "reviewed_notice": "इस लेख की समीक्षा एक व्यक्ति ने की है, हालांकि इसका मूल अनुवाद एआई से किया गया था। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है।",
-        "tag": "hi"
+        "english_label": "Originale inglese",
+        "guidance": "Use standard contemporary Italian.",
+        "name": "Italian",
+        "native_name": "Italiano",
+        "notice": "Questo articolo è stato tradotto con l’intelligenza artificiale di OpenAI (modello: {model}) e non è ancora stato revisionato da una persona. L’originale inglese è la versione autorevole. In caso di dubbi sul significato, consultare l’originale inglese.",
+        "reviewed_notice": "Questo articolo è stato rivisto da una persona, sebbene fosse stato originariamente tradotto con l’IA. L’originale inglese rimane la versione autorevole.",
+        "tag": "it"
       }
     },
-    "max_output_tokens": 32768,
-    "model": "gpt-6.1-sol",
+    "max_output_tokens": 16384,
+    "model": "gpt-6-luna",
     "models": {
       "gpt-4.1": {
         "api_model": "gpt-4.1-2025-04-14",
@@ -159,26 +159,26 @@
     },
     "quality_threshold": 95,
     "review_contract_version": 2,
-    "review_model": "gpt-6.1-sol",
+    "review_model": "gpt-6-luna",
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-279d0710e871505dcc7e89bf961c343f183258bf0b8221b3fb2c3fc1cceeee0a",
+  "id": "auto-7e1c619130cafcaa6cf03e18409e387096317b5379d169ba236196392fdd15ef",
   "initial_task": {
-    "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-    "automatic_previous_task": "987edca860afbac3f04705dd6f57eede",
+    "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+    "automatic_previous_task": null,
     "autonomous": true,
-    "autonomous_recovery": true,
+    "autonomous_recovery": false,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-279d0710e871505dcc7e89bf961c343f183258bf0b8221b3fb2c3fc1cceeee0a",
-    "created_at": "2026-10-10T19:12:14+00:00",
+    "campaign": "auto-7e1c619130cafcaa6cf03e18409e387096317b5379d169ba236196392fdd15ef",
+    "created_at": "2026-10-10T19:12:16+00:00",
     "events": [],
     "findings": [],
-    "id": "7cf181ce5d302d77cd49011f9540f08f",
-    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "hin",
-    "model": "gpt-6.1-sol",
+    "id": "5fae0395d6fc210902ce7611e71c49be",
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "language": "ita",
+    "model": "gpt-6-luna",
     "models": {
       "gpt-4.1": {
         "api_model": "gpt-4.1-2025-04-14",
@@ -265,47 +265,48 @@
     "protected": false,
     "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
     "review_attempts": 0,
-    "review_model": "gpt-6.1-sol",
-    "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
-    "stage": "review1",
+    "review_model": "gpt-6-luna",
+    "source_snapshot": "state/sources/80442ae0c5e3e1a925fb90808c2742734db7c58ca3d9c73b4b70bd3e81161fb0.json",
+    "stage": "translate",
     "stage_budget": {
-      "initial_stage": "review1",
+      "initial_stage": "translate",
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.320482,
-        "review1": 0.115872,
-        "review2": 0.372087
+        "correct": 0.046091,
+        "review1": 0.018033,
+        "review2": 0.018033,
+        "translate": 0.004953
       },
-      "total_reserved_usd": 0.808441,
+      "total_reserved_usd": 0.08711,
       "version": 1
     },
     "status": "queued",
     "translation_attempts": 0,
-    "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
-    "translation_model_actual": "gpt-6-luna"
+    "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+    "translation_model_actual": null
   },
   "issues": [
-    "04047b99-190c-5c0c-a347-0d069cfee669"
+    "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612"
   ],
   "language_settings": {
-    "hin": {
+    "ita": {
       "aliases": [],
       "dir": "ltr",
-      "english_label": "अंग्रेज़ी मूल पाठ",
-      "guidance": "Use contemporary standard Hindi in Devanagari.",
-      "name": "Hindi",
-      "native_name": "हिन्दी",
-      "notice": "इस लेख का अनुवाद OpenAI (मॉडल: {model}) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें।",
-      "reviewed_notice": "इस लेख की समीक्षा एक व्यक्ति ने की है, हालांकि इसका मूल अनुवाद एआई से किया गया था। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है।",
-      "tag": "hi"
+      "english_label": "Originale inglese",
+      "guidance": "Use standard contemporary Italian.",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "notice": "Questo articolo è stato tradotto con l’intelligenza artificiale di OpenAI (modello: {model}) e non è ancora stato revisionato da una persona. L’originale inglese è la versione autorevole. In caso di dubbi sul significato, consultare l’originale inglese.",
+      "reviewed_notice": "Questo articolo è stato rivisto da una persona, sebbene fosse stato originariamente tradotto con l’IA. L’originale inglese rimane la versione autorevole.",
+      "tag": "it"
     }
   },
   "languages": [
-    "hin"
+    "ita"
   ],
-  "max_output_tokens": 32768,
-  "model": "gpt-6.1-sol",
+  "max_output_tokens": 16384,
+  "model": "gpt-6-luna",
   "models": {
     "gpt-4.1": {
       "api_model": "gpt-4.1-2025-04-14",
@@ -398,41 +399,40 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "85ab84fe597851dfabfc4322afea82e28d31d31c1d70a7aaa2c0f8d228d46e06",
+  "request_sha256": "ced3b52991fa3bfeca8da48ed0ae6f13bf28421d68b866fa393c1227689d62eb",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
-  "review_model": "gpt-6.1-sol",
+  "review_model": "gpt-6-luna",
   "review_output_tokens": 8192,
   "selection": [
     {
-      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "83aa018c9cdcf1c96e5d9cdfcb58a1b546cee764c013db89605a35dd5fad1a80",
-      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "hin",
-      "previous_task_id": "987edca860afbac3f04705dd6f57eede",
-      "previous_task_sha256": "3717b4502c730abcb273ca2c7d5b7bec38dfb3e7418441b420a2dcf3e4d21c4b",
-      "recovery": true,
-      "stage": "review1",
-      "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
+      "article_id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "candidate_sha256": null,
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "previous_task_id": null,
+      "previous_task_sha256": null,
+      "recovery": false,
+      "stage": "translate",
+      "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221"
     }
   ],
   "skipped": [],
-  "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+  "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
   "stage_budget": {
-    "initial_stage": "review1",
+    "initial_stage": "translate",
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.320482,
-      "review1": 0.115872,
-      "review2": 0.372087
+      "correct": 0.046091,
+      "review1": 0.018033,
+      "review2": 0.018033,
+      "translate": 0.004953
     },
-    "total_reserved_usd": 0.808441,
+    "total_reserved_usd": 0.08711,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "7cf181ce5d302d77cd49011f9540f08f"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
