@@ -6,6 +6,12 @@
       "campaign": "gh-37791140876",
       "event": "requested",
       "task": "4b2fcff363f102db7b21853c5d1578fa"
+    },
+    {
+      "at": "2026-10-10T00:59:10+00:00",
+      "event": "not_ready",
+      "reason": "Article UUID mismatch",
+      "task": "4b2fcff363f102db7b21853c5d1578fa"
     }
   ],
   "language": "ita",

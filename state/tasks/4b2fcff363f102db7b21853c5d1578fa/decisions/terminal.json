@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Ultima poesia, verso «He’s walking close beside thee»",
+      "severity": "major",
+      "source_quote": "He’s walking close beside thee;",
+      "suggested_fix": "Lui cammina al tuo fianco;",
+      "translation_quote": "cammina al tuo fianco;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Article UUID mismatch",
+  "stage": "terminal"
+}

@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Article UUID mismatch",
+  "stage": "correct"
+}

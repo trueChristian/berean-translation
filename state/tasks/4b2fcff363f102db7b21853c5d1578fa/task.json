@@ -2,7 +2,6 @@
   "article_id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3b5475debfc84eaea7a91221f5de718d",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -45,9 +44,30 @@
         },
         "total_tokens": 5473
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2076,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4571,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4568,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6647
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Article UUID mismatch",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Ultima poesia, verso «He’s walking close beside thee»",
@@ -57,6 +77,7 @@
       "translation_quote": "cammina al tuo fianco;"
     }
   ],
+  "finished_at": "2026-10-10T00:59:10+00:00",
   "id": "4b2fcff363f102db7b21853c5d1578fa",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ita",
@@ -151,7 +172,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9a52a3f9b11a0465c063adcc30e18224f3688a490d438d0dc3724ec6cb6f38b2.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
   "translation_model_actual": "gpt-6-luna"

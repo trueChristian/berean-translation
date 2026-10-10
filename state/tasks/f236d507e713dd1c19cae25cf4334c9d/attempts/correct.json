@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T00:59:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png\\\" alt=\\\"\\\">\\n  </figure>\\n\\n  <p class=\\\"drop-cap\\\">De koude, grijze winterdagen veranderen in de warme, zonnige dagen van de lente. De eerste bloemen van het jaar banen zich volhardend een weg omhoog uit de koude aarde, naar de warmte van de zon. Dat opwindende gevoel in de lucht in de lente lijkt nooit te gaan vervelen. Er is de warmte en het licht van zonnige dagen. Er is de vrolijke, wiegende muziek van de zangvogels, die met schijnbaar onuitputtelijke energie opnieuw hun intrek nemen. En we zijn opnieuw gezegend met een seizoen waarin we zaden kunnen planten, in de verwachting weer een oogst voedsel te hebben om van te genieten.</p>\\n\\n  <p>Dit jaar word ik 48 jaar. Wat klinkt dat oud in mijn oren. Ik herinner me dat ik als jongere dacht dat mensen van 50 oud waren. Nu ben ik er bijna. Voor mij is dit een duidelijke herinnering dat we allemaal ouder worden en niet eeuwig zullen leven. Dan volgen er een aantal ernstige gedachten: “Wat heb ik gedaan om Gods Koninkrijk te bevorderen? Blijf ik Hem trouw in alles wat ik doe? Heer, wat wilt U dat ik dit jaar doe?” Laten we ieder van ons in gebed de Heer zoeken en vragen naar Zijn wil voor ons leven, nu en in de toekomst. Laten we elkaar aanmoedigen en aansporen trouw te blijven in onze relatie met onze Meester en in onze dienst voor Hem.</p>\\n\\n  <p>In dit nummer staat een uitstekend artikel over het huwelijk, dat volgens ons deze keer een artikel over discipelschap kan vervangen. Wanneer we echtparen ontmoeten die al jaren met ernstige huwelijksproblemen worstelen, merken we meestal dat er op een fundamenteel niveau iets niet op een godvruchtige manier functioneert. We vinden dat dit artikel over het huwelijk de opbouw en het behoud van een Bijbels fundament grondig beoordeelt. Als de Heer het wil, zijn we van plan meer artikelen over dit onderwerp te publiceren.</p>\\n\\n  <p>Volgens de planning zullen we komende juli een reeks bijeenkomsten houden in Lebanon County, Pennsylvania. Verschillende kerken in die omgeving werken samen om dit evenement mogelijk te maken en hebben het <strong>Fairview Reception Center</strong> gereserveerd. Bid voor deze bijeenkomsten, met name dat Gods wil wordt volbracht, dat God de sprekers leidt bij hun voorbereiding en dat God de kerk door deze inspanning versterkt. Geef dit door aan anderen die mogelijk geïnteresseerd zijn. Noteer ook de datum alvast in uw agenda.</p>\\n\\n  <p>Wilt u actuele informatie ontvangen zodra alle details definitief zijn, neem dan telefonisch contact op met “The Berean Voice” via (330) 439-9547 of per e-mail via subscribe@bereanvoice.org. Vanwege de maaltijden en de beperkte zitplaatsen is <strong>registratie voor dit evenement verplicht</strong>. Hieronder staan de voorlopige titels van de reeks en de lezingen, maar deze kunnen nog veranderen.</p>\\n\\n  <h2>“Een Bijbelse kijk op problemen rond psychische, emotionele, huwelijkse en seksuele mishandeling”</h2>\\n  <ol>\\n    <li>Het hart begrijpen—de wortel van ALLE problemen</li>\\n    <li>Het evangelie—Gods antwoord op ALLE kwesties van de geest en de ziel (psyche) van de mens</li>\\n    <li>Hoe psychologie en wereldse filosofieën ons tegenwoordig beïnvloeden</li>\\n    <li>Praktisch discipelschap—mensen doeltreffend helpen veranderen</li>\\n    <li>Een Bijbelse kijk op psychische stoornissen</li>\\n    <li>Adoptie- en pleegzorgkwesties Bijbels beoordelen</li>\\n    <li>Het placebo-effect begrijpen en psychofarmaca veilig gebruiken</li>\\n    <li>Een Bijbels begrip van moreel falen, pornografie en seksueel misbruik (alleen volwassenen)</li>\\n    <li>Zuiverheid—van de wieg tot bekering, en daarna op weg naar het huwelijk of het ongehuwd blijven (alleen ouders)</li>\\n    <li>Problemen voorkomen en aanpakken door middel van godvruchtige gezinnen</li>\\n    <li>ALLE moeilijkheden in het leven voorkomen en helpen aanpakken binnen de plaatselijke kerk</li>\\n  </ol>\\n\\n  <h3>26–28 juli 2019</h3>\\n  <p><strong>Locatie:</strong> Fairview Reception Center | 141 Jackson Rd | Lebanon, PA 17042</p>\\n  <p><strong>Neem voor aanmelding contact op met Rudy Yoder:</strong> (717) 450-8640 of e-mail: theyoders@yoderhome.net</p>\\n</article>\\n\",\"section\":\"VAN DE REDACTEUR\",\"subtitle\":null,\"title\":\"VAN DE REDACTEUR\"}",
+    "content_bytes": 4407,
+    "content_evidence_truncated": false,
+    "content_sha256": "12f7094a5c699b497164a7ba84f4c9bb77eb0cebdce2a68d82c7ac52238f6d85",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3192,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3189,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4501
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
