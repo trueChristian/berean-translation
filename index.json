@@ -2911,6 +2911,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "e0a63970f2b28b4262272cf0e8cf7543b7c0e9aa6686e665c6f5687f37a1de3a",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "Klein pers blommetjies teen sagte, vaaggefokusde groen heuwels",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "b53e1ae1daf71c3d07a6d0cd6e375cae94318cdca46f611c5a468a8f76731677",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "VAN DIE REDAKTEUR",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die redakteur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "5fd6987c23a56ec87fba0e37480f83b077b8d59e6bb810547febf5c2fa5ee82d",
       "human_reviewed": false,
