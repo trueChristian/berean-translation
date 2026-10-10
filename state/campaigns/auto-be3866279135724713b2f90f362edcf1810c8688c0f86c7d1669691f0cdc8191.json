@@ -1,8 +1,8 @@
 {
-  "automatic_acceptance_complete": true,
-  "automatic_allocation_before_usd": 17.933564,
-  "automatic_allocation_index": 52,
-  "automatic_allocation_usd": 0.779414,
+  "automatic_acceptance_complete": false,
+  "automatic_allocation_before_usd": 18.712978,
+  "automatic_allocation_index": 53,
+  "automatic_allocation_usd": 0.780771,
   "automatic_approved_total_usd": 30.0,
   "automatic_authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
   "automatic_continuation_policy": {
@@ -11,19 +11,19 @@
     "progress_required": true,
     "version": 3
   },
-  "automatic_frozen_sha256": "60108e6fe7a638e3ba3f46a73a5093c8cd9adedfe0bc6782401ac396301a0b43",
+  "automatic_frozen_sha256": "14d254b4e319dd9a910a6063831025ec7ab3d8fda3742ca2784a28eddb30f8ef",
   "automatic_request": {
     "autonomous": true,
-    "id": "auto-ba651d26b8c9af72e506427f06bf06a87e90a3e4579054671b74d894a9686222",
+    "id": "auto-be3866279135724713b2f90f362edcf1810c8688c0f86c7d1669691f0cdc8191",
     "operation": "automatic",
     "requested_by": "owner-authorized-autonomous-archive",
     "selection": {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "815bbfbf20d0142d16218559e8cbfa2828e2300516d7dfe7ade261fac68dc6fd",
+      "candidate_sha256": "f8a700532aa10423df6d01ec699a2543b9f76b525bd9c3876c1ef8874f7c9342",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "rus",
-      "previous_task_id": "88a64c521498b2e660a46d23be7af380",
-      "previous_task_sha256": "04a30b97eab679fae90dc279f89edce7da53080170c79c09e8054f5198901530",
+      "language": "urd",
+      "previous_task_id": "6e1d2b95113d7a44a0193c16b589e30f",
+      "previous_task_sha256": "45705a4cb9cbfbe373e1a7427c01b6a1e0a4e2c488a945395fdc42159a70ec80",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -42,8 +42,8 @@
     "auto-bea1091ea974fb18893f38770fa414778b0b88ba2ae1cc0bd2c95a2bc4088c5e": "fe7fce91d6a64b1e85c6aa0e5a8bae707a430c22807123c21a7fe4c89d7e9492"
   },
   "autonomous": true,
-  "budget_usd": 0.779414,
-  "created_at": "2026-10-10T19:17:52+00:00",
+  "budget_usd": 0.780771,
+  "created_at": "2026-10-10T19:17:55+00:00",
   "dry_run": false,
   "execution": {
     "automatic_continuation_policy": {
@@ -53,18 +53,18 @@
       "version": 3
     },
     "glossaries": {},
-    "id": "auto-ba651d26b8c9af72e506427f06bf06a87e90a3e4579054671b74d894a9686222",
+    "id": "auto-be3866279135724713b2f90f362edcf1810c8688c0f86c7d1669691f0cdc8191",
     "language_settings": {
-      "rus": {
+      "urd": {
         "aliases": [],
-        "dir": "ltr",
-        "english_label": "Английский оригинал",
-        "guidance": "Use standard contemporary Russian.",
-        "name": "Russian",
-        "native_name": "Русский",
-        "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
-        "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
-        "tag": "ru"
+        "dir": "rtl",
+        "english_label": "اصل انگریزی متن",
+        "guidance": "Use standard contemporary Urdu in Perso-Arabic script.",
+        "name": "Urdu",
+        "native_name": "اردو",
+        "notice": "اس مضمون کا ترجمہ OpenAI (ماڈل: {model}) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔",
+        "reviewed_notice": "اس مضمون کا ایک انسان نے جائزہ لیا ہے، اگرچہ اس کا ابتدائی ترجمہ اے آئی سے کیا گیا تھا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔",
+        "tag": "ur"
       }
     },
     "max_output_tokens": 32768,
@@ -164,21 +164,21 @@
     "review_output_tokens": 8192
   },
   "glossaries": {},
-  "id": "auto-ba651d26b8c9af72e506427f06bf06a87e90a3e4579054671b74d894a9686222",
+  "id": "auto-be3866279135724713b2f90f362edcf1810c8688c0f86c7d1669691f0cdc8191",
   "initial_task": {
     "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-    "automatic_previous_task": "88a64c521498b2e660a46d23be7af380",
+    "automatic_previous_task": "6e1d2b95113d7a44a0193c16b589e30f",
     "autonomous": true,
     "autonomous_recovery": true,
     "base_html_sha256": null,
     "base_metadata_sha256": null,
-    "campaign": "auto-ba651d26b8c9af72e506427f06bf06a87e90a3e4579054671b74d894a9686222",
-    "created_at": "2026-10-10T19:17:52+00:00",
+    "campaign": "auto-be3866279135724713b2f90f362edcf1810c8688c0f86c7d1669691f0cdc8191",
+    "created_at": "2026-10-10T19:17:55+00:00",
     "events": [],
     "findings": [],
-    "id": "1ad4780de32b6f51df6b54913e07bbb4",
+    "id": "de4da93770c2e595a2c8b3ac7e3f4c2f",
     "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-    "language": "rus",
+    "language": "urd",
     "model": "gpt-6.1-sol",
     "models": {
       "gpt-4.1": {
@@ -274,11 +274,11 @@
       "max_candidate_bytes": 120000,
       "max_findings_bytes": 32768,
       "stages_usd": {
-        "correct": 0.305975,
-        "review1": 0.101365,
-        "review2": 0.372074
+        "correct": 0.306643,
+        "review1": 0.102033,
+        "review2": 0.372095
       },
-      "total_reserved_usd": 0.779414,
+      "total_reserved_usd": 0.780771,
       "version": 1
     },
     "status": "queued",
@@ -290,20 +290,20 @@
     "04047b99-190c-5c0c-a347-0d069cfee669"
   ],
   "language_settings": {
-    "rus": {
+    "urd": {
       "aliases": [],
-      "dir": "ltr",
-      "english_label": "Английский оригинал",
-      "guidance": "Use standard contemporary Russian.",
-      "name": "Russian",
-      "native_name": "Русский",
-      "notice": "Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: {model}) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу.",
-      "reviewed_notice": "Эта статья проверена человеком, хотя первоначально была переведена с помощью ИИ. Оригинал на английском языке остаётся авторитетной версией.",
-      "tag": "ru"
+      "dir": "rtl",
+      "english_label": "اصل انگریزی متن",
+      "guidance": "Use standard contemporary Urdu in Perso-Arabic script.",
+      "name": "Urdu",
+      "native_name": "اردو",
+      "notice": "اس مضمون کا ترجمہ OpenAI (ماڈل: {model}) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔",
+      "reviewed_notice": "اس مضمون کا ایک انسان نے جائزہ لیا ہے، اگرچہ اس کا ابتدائی ترجمہ اے آئی سے کیا گیا تھا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔",
+      "tag": "ur"
     }
   },
   "languages": [
-    "rus"
+    "urd"
   ],
   "max_output_tokens": 32768,
   "model": "gpt-6.1-sol",
@@ -399,7 +399,7 @@
   },
   "quality_threshold": 95,
   "reported_usage_usd": 0.0,
-  "request_sha256": "9f259e2e2da95d083738d11febf66c7fe1955b849aeb43247996072ed3581981",
+  "request_sha256": "9df291d54be90c9f00f45fdf63996b4ab7bbe74339d24e6383889f28cc380c5d",
   "requested_by": "owner-authorized-autonomous-archive",
   "reserved_usd": 0.0,
   "review_contract_version": 2,
@@ -408,11 +408,11 @@
   "selection": [
     {
       "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
-      "candidate_sha256": "815bbfbf20d0142d16218559e8cbfa2828e2300516d7dfe7ade261fac68dc6fd",
+      "candidate_sha256": "f8a700532aa10423df6d01ec699a2543b9f76b525bd9c3876c1ef8874f7c9342",
       "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
-      "language": "rus",
-      "previous_task_id": "88a64c521498b2e660a46d23be7af380",
-      "previous_task_sha256": "04a30b97eab679fae90dc279f89edce7da53080170c79c09e8054f5198901530",
+      "language": "urd",
+      "previous_task_id": "6e1d2b95113d7a44a0193c16b589e30f",
+      "previous_task_sha256": "45705a4cb9cbfbe373e1a7427c01b6a1e0a4e2c488a945395fdc42159a70ec80",
       "recovery": true,
       "stage": "review1",
       "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
@@ -425,15 +425,13 @@
     "max_candidate_bytes": 120000,
     "max_findings_bytes": 32768,
     "stages_usd": {
-      "correct": 0.305975,
-      "review1": 0.101365,
-      "review2": 0.372074
+      "correct": 0.306643,
+      "review1": 0.102033,
+      "review2": 0.372095
     },
-    "total_reserved_usd": 0.779414,
+    "total_reserved_usd": 0.780771,
     "version": 1
   },
-  "status": "active",
-  "tasks": [
-    "1ad4780de32b6f51df6b54913e07bbb4"
-  ]
+  "status": "acceptance_incomplete",
+  "tasks": []
 }
