@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: !invalid[eng] Psalm 119:  ; extra: none",
       "task": "7c209f9527d176f1447ba807180c77c5"
+    },
+    {
+      "at": "2026-10-10T19:17:43+00:00",
+      "campaign": "auto-514f4d0e8637d9a23efcbcda6f4c8c91f4ed72fabecad3e6698c40a251b571cb",
+      "event": "automatic_requested",
+      "previous_task": "7c209f9527d176f1447ba807180c77c5",
+      "task": "6f3a076e19c8a0e3f5882400e8861e1a"
     }
   ],
   "language": "heb",
-  "latest_task": "7c209f9527d176f1447ba807180c77c5",
+  "latest_task": "6f3a076e19c8a0e3f5882400e8861e1a",
   "published": null
 }
