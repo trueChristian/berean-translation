@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bf94dc5468184fb69cfd38b0fe3ad4fe",
   "campaign": "auto-ba94badf7b4d417d6c06bf1c413a77f9f39ddaf6fbf41554098084106d46dcb4",
   "created_at": "2026-10-23T01:01:19+00:00",
   "events": [
@@ -48,9 +47,30 @@
         },
         "total_tokens": 3050
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 823,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 343,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1928,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1925,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2751
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[1]/strong[1]/em[1]/br[2] ('start', 'br', ()); translation /article[1]/p[1]/strong[1]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Poem, stanza 3, lines 3–4",
@@ -60,6 +80,7 @@
       "translation_quote": "“Recebe dele o poder de pisar na terra, / Sobre a picada da serpente, sobre a cabeça do dragão.”"
     }
   ],
+  "finished_at": "2026-10-23T14:57:39+00:00",
   "id": "8d2e0646c3825f4cce41731d661fa94c",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "por",
@@ -168,7 +189,7 @@
     "total_reserved_usd": 0.08604,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

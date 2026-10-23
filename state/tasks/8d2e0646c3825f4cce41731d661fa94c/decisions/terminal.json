@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 3, lines 3–4",
+      "severity": "major",
+      "source_quote": "“Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.”",
+      "suggested_fix": "“Recebe dele poder para pisar sobre a picada da serpente e sobre a cabeça do dragão.”",
+      "translation_quote": "“Recebe dele o poder de pisar na terra, / Sobre a picada da serpente, sobre a cabeça do dragão.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[1]/strong[1]/em[1]/br[2] ('start', 'br', ()); translation /article[1]/p[1]/strong[1]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}
