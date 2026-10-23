@@ -7,9 +7,9 @@
       "html_sha256": "cae7581f11461eae37598ec36fe07b0800c8cee49548507dd27110c43d52f248",
       "human_edit": {
         "author": "Roline",
-        "commit": "dbef70014f1f924774ed8e8c20348a39fbe32e9e",
+        "commit": "37ef6fe72fc7cee98f17632cbfeaa3fa9be945bb",
         "email": "roline@vdm.io",
-        "time": "2026-10-04T09:18:56+02:00"
+        "time": "2026-10-23T12:32:45+02:00"
       },
       "human_reviewed": true,
       "id": "02db24ae-5132-49c6-a6fd-da73417871e3",
@@ -23,7 +23,7 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.json",
-      "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3",
+      "metadata_sha256": "2151e9a24e09d1843e1cb13157cb9fb3b16ecb795664bda039aa6274a3859177",
       "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
@@ -31,7 +31,7 @@
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
       "status": "ready",
-      "subtitle": "LEEF AS JEUG MET ’N EEUWIGE PERSPEKTIEF",
+      "subtitle": "LEEF AS JEUG MET ’N EWIGE PERSPEKTIEF",
       "title": "Die Hoop van Jou Roeping",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
@@ -4269,11 +4269,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
-      "html_sha256": "2d4eab8416340450de7781b124e18a3637a3cbe25148b43f7729ed25b16f3ae6",
-      "human_reviewed": false,
+      "html_sha256": "f7197a4f1009f569b636a9dd8b72eec1fb7abefaa280bc58e51dc342da729886",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "ec89ea778250b625315cf79e04cb8f99d7076183",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-23T12:33:28+02:00"
+      },
+      "human_reviewed": true,
       "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
       "images": [
         {
@@ -4286,6 +4292,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
       "metadata_sha256": "fde97febeb4b3d56ad024a953e206b104432d7408acc2a83363f271d50fa5d6c",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "Gedig",
