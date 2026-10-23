@@ -36,15 +36,33 @@
       "event": "complete",
       "reason": null,
       "task": "cb38c6008cbd699b350b701b9010082c"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "ec89ea778250b625315cf79e04cb8f99d7076183",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-23T12:33:28+02:00"
+      },
+      "html_sha256": "f7197a4f1009f569b636a9dd8b72eec1fb7abefaa280bc58e51dc342da729886",
+      "metadata_sha256": "fde97febeb4b3d56ad024a953e206b104432d7408acc2a83363f271d50fa5d6c"
     }
   ],
   "language": "afr",
   "latest_task": "cb38c6008cbd699b350b701b9010082c",
   "published": {
+    "accepted_snapshot": "state/publications/02ccaf32bc56f941f3e772c72b9e70727ff12ae8dc7d126b6bd8b1cf70f90a3f.json",
     "html_path": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
-    "html_sha256": "2d4eab8416340450de7781b124e18a3637a3cbe25148b43f7729ed25b16f3ae6",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "f7197a4f1009f569b636a9dd8b72eec1fb7abefaa280bc58e51dc342da729886",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "ec89ea778250b625315cf79e04cb8f99d7076183",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-10-23T12:33:28+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6/\" data-source-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
     "metadata_sha256": "fde97febeb4b3d56ad024a953e206b104432d7408acc2a83363f271d50fa5d6c",
