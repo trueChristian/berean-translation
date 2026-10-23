@@ -11678,9 +11678,9 @@
     },
     "b90378a3-1fae-4535-b33f-ccc4edf514ea": {
       "fingerprints": {
-        "html_sha256": "dd2c747e762fa9a628cfc4aa7a2c26700df1a1bce175cec0af0386bcdc703316",
+        "html_sha256": "fa27533feb1d1ca9846cddf355c900b9e352c17099669538d88844782fe69431",
         "metadata_sha256": "efd30d89395fd66877cc9250c1f19a6abc4d5a0a109e96418a8477934e1ee071",
-        "structure_sha256": "4f057bb4345c651af4974cd3de57a71ff50189a778192f5cd4a5f24fac02b494",
+        "structure_sha256": "765d0c89fcc45ce58260d08914be6c773d73a04e404f5e7950f28fc97bf0da58",
         "text_sha256": "95b5c4784bd39f758d2d27c5e6bc48c77759f74360c7086a18b499448d8ce077",
         "translation_metadata_sha256": "917a79471bc69ec10dd722f32f0a179d9161bfc42be1ec825b4c9539ee320cb1"
       },
@@ -11688,7 +11688,7 @@
       "issue_id": "b9a63fc6-fb18-49d3-98f7-31116682ded4",
       "sequence": 1,
       "title": "From the EDITOR",
-      "translation_key": "cd9b787bd4ef4ab33ae96954e4057dab8de98383cdf1e0e4ddecb160cbcc3582"
+      "translation_key": "3e656bc6dd9cf7baff8d5e4ca6e095fc162198af11d96ba12151642abbcfb2a8"
     },
     "b95441d5-cb14-4481-83a7-1a04bd355bfa": {
       "fingerprints": {
@@ -11860,7 +11860,7 @@
     },
     "bab0c77b-3cb7-4792-9694-d823e3e93f0e": {
       "fingerprints": {
-        "html_sha256": "7ad66dbcd0b388c74fb44b3478c4652c4f53c4c790f8261f716f80e629d7a3d7",
+        "html_sha256": "27b086a79b1cb12a75575a1c6157994fffd1749df825817c045bf8c37a259cd9",
         "metadata_sha256": "a84b7ba93988bacf75e0f415a10293b7773addd3ee4a245c7b671566b32905a5",
         "structure_sha256": "fedd064fb1f702ddb7333914f921c343124456b599ee0826896d18060ecc620b",
         "text_sha256": "56b8fb248db5021c11a9bacdd30e031f42fc2d79c878bc4507a12d09ce1b0172",
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "384ef9a88f2d739b06171205b1703c80f663cdfcf83a7b72fe124aea9137f2f0",
+  "content_sha256": "0987c90fcf615fce14affc03cf6df31923629062209008e0cb39e3894a9873ba",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "2ad7118fd859d76d9417cff527235dae66d0ed30"
+  "revision": "35e83d5cefdae79c4c465124635153dcb66c0efe"
 }
