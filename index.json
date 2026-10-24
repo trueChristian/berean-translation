@@ -20189,6 +20189,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "85a0522676ce34bc01c908bda63fb48a9626e37a5b33eb7ed7da0b76555f65b5",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Cover von Coals of Fire von Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "d30019fa5f43e85caa7ce5ba6bd900fb6a293de836c319439915d1df171c9a2a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Das Bücherregal",
+      "source_revision": "992debda63d6be4a08362d2a463694f3df221977",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coals of Fire",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "a3676dcc6d14acdd19337972d42f87ed6d61cb30306e3987290270595391499b",
       "human_reviewed": false,
