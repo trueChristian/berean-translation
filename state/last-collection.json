@@ -6,13 +6,13 @@
     "poll_interval_seconds": 60,
     "stop_reason": "wait_budget_exhausted",
     "submitted_batches": 2,
-    "tasks_created": 0,
-    "ticks": 3,
-    "translations_published": 0,
+    "tasks_created": 1,
+    "ticks": 2,
+    "translations_published": 1,
     "wait_budget_seconds": 600
   },
-  "completed_at": "2026-10-24T12:51:10+00:00",
-  "newly_published": 0,
+  "completed_at": "2026-10-24T13:50:06+00:00",
+  "newly_published": 1,
   "operation": "collect",
-  "started_at": "2026-10-24T12:40:43+00:00"
+  "started_at": "2026-10-24T13:39:31+00:00"
 }
