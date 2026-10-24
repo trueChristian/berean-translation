@@ -1,15 +1,15 @@
 {
-  "allocated_usd": 29.902329,
+  "allocated_usd": 29.995959,
   "approved_total_usd": 30.0,
   "counts": {
-    "active": 3,
-    "held_without_publication": 1584,
-    "published": 2995,
-    "queued": 47,
-    "unstarted": 18731
+    "active": 2,
+    "held_without_publication": 1583,
+    "published": 2996,
+    "queued": 49,
+    "unstarted": 18730
   },
-  "generated_at": "2026-10-24T07:19:14+00:00",
-  "pending_requests": 573,
+  "generated_at": "2026-10-24T07:24:41+00:00",
+  "pending_requests": 572,
   "replacement_counts": {
     "active": 0,
     "held": 135,

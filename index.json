@@ -49840,6 +49840,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
+      "html_sha256": "929d66f1fb66d00068d03ded1c555583894b3be2e32c612b5ff22c188b448dd0",
+      "human_reviewed": false,
+      "id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
+      "images": [
+        {
+          "alt": "남자가 모는 이륜 마차를 끄는 말.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-1.jpg"
+        },
+        {
+          "alt": "책이 놓인 탁자 옆에 앉아 있는 두 남자.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.json",
+      "metadata_sha256": "85fe23bbfa0086572fbf528b886ae8084c46af541318acb3be604081027603e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "개인적인 간증",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "711d828fe190d7cc5442993e945df249cb52298b145a23c8bfc6f053b9756b04",
       "human_reviewed": false,
