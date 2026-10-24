@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-24T07:14:50+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"جھیل کے کنارے ایک سدا بہار درخت، ساتھ جھاڑیاں اور برف سے ڈھکی پہاڑی ڈھلوان۔\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>جب پہاڑ کی دیواریں راستہ روکیں۔<br>\\nکیوں بیٹھے روتے ہو؟ اٹھو اور کہو<br>\\n’’تو ہٹ جا‘‘ اور وہ<br>\\nخدا کی قدرت سے سمندر میں جا گریں گے۔</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>زمین پر سارا اختیار، آسمان میں سارا اختیار،<br>\\nخدا کے بیٹے مسیح کو دیا گیا ہے؛<br>\\nاور تخت سے وہ تمہیں قوت بخشے گا،<br>\\nاور رکاوٹیں تمہارے سامنے سے بھاگ جائیں گی۔</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>بدروح اور انسان کے ہر اختیار پر غالب،<br>\\nخداوند کے وسیلے سے کہو، ’’میں یقیناً کر سکتا ہوں‘‘<br>\\nزمین پر چلنے کی قدرت اُس سے پاؤ،<br>\\nسانپ کے ڈنک اور اژدہے کے سر پر۔</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>اے بلند پہاڑ، تو جو کچھ بھی ہے،<br>\\nزمین یا آسمان میں جہاں کہیں بھی ہے،<br>\\nتو جب بھی ہو، سچائی یہی ہے،<br>\\n’’یسوع کے نام میں تو ہٹ جا۔‘‘</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>’’تو ہٹ جا،‘‘ ایمان تجھے چل پڑنے کو کہتا ہے،<br>\\nکیونکہ دیکھ، وہاں—اٹھ! روانہ ہو جا!<br>\\nمیں کر سکتا ہوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،<br>\\nاپنے خدا کا ارادہ پورا کروں گا۔</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"اختیار\"}",
+    "content_bytes": 2035,
+    "content_evidence_truncated": false,
+    "content_sha256": "cea75e6d4cb7ff618232cfe9f63cc7b802a6e1cc4409e3d6d6b3d6c77bcff7d6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 210,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1258,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2044
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
