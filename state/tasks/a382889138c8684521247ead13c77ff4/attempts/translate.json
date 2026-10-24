@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-24T16:36:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Вечнозелёное дерево у озера, кустарники и покрытый снегом горный склон.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Когда горы преграждают путь,<br>\\nЗачем сидеть и плакать? Встань и скажи:<br>\\n«Сдвинься с места», — и силой Божьей<br>\\nОни будут низвергнуты в море.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Вся власть на земле, вся власть на небесах<br>\\nДана Христу, Сыну Божьему;<br>\\nИ от престола Он дарует силу,<br>\\nИ все преграды отступят пред тобой.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Над всей силой бесов и людей<br>\\nСкажи через Господа: «Я непременно смогу»<br>\\nВзять у Него власть ступать по земле,<br>\\nНа змеиное жало, на голову дракона.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Кем бы ты ни был, о высокая гора,<br>\\nГде бы ты ни была — на земле или в небесах,<br>\\nКогда бы ты ни была — истина неизменна:<br>\\n«Сдвинься с места во имя Иисуса».</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>«Сдвинься с места», — вера велит тебе двинуться;<br>\\nВон там взгляни — вставай! Уходи!<br>\\nЯ могу, я способен, я должен, я буду<br>\\nИсполнять замысел моего Бога.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Власть\"}",
+    "content_bytes": 2004,
+    "content_evidence_truncated": false,
+    "content_sha256": "78be5d5ea1d0baf703b420a24ed2773c67f7d1826da128b0486a9c220053a073",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1250,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1782
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
