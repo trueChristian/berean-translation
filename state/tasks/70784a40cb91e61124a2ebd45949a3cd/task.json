@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7222293b249a4f03bfe8ab1ac86c73a3",
   "campaign": "auto-53cbea6a07788d10f50a00fb3b46dbf405a391e56d4ea9f11c9cae8ec676c154",
   "created_at": "2026-10-24T01:42:53+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2044
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 842,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 718,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2182,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2179,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3024
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "پانچواں بند، تیسری سطر",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "ممکن ہے میں کر سکوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،",
+      "translation_quote": "میں کر سکتا ہوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،"
+    }
+  ],
+  "finished_at": "2026-10-24T09:50:20+00:00",
   "id": "70784a40cb91e61124a2ebd45949a3cd",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "urd",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086029,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

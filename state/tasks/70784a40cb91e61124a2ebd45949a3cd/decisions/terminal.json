@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "پانچواں بند، تیسری سطر",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "ممکن ہے میں کر سکوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،",
+      "translation_quote": "میں کر سکتا ہوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

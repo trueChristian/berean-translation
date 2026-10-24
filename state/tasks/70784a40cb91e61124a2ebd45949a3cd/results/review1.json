@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c8729c60-e847-45df-ad9f-775609802590",
+    "response_id": "chatcmpl-EcQMDxsMqw2h4BbzKbmBCGxcPeiG9",
+    "usage": {
+      "completion_tokens": 842,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 718,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2179,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3024
+    }
+  },
+  "received_at": "2026-10-24T09:50:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "پانچواں بند، تیسری سطر",
+        "severity": "minor",
+        "source_quote": "I may, I can, I must, I will,",
+        "suggested_fix": "ممکن ہے میں کر سکوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،",
+        "translation_quote": "میں کر سکتا ہوں، میں کر سکتا ہوں، مجھے کرنا ہے، میں کروں گا،"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
