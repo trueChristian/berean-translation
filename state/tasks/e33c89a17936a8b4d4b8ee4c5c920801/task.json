@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "18b8ea656f244de1ad0503ee413a5b32",
   "campaign": "auto-c9c11c3e0684fe8ca006d503d9fc67ab1df563301a615d5522c1bbb371e8f5e1",
   "created_at": "2026-10-24T01:43:05+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 15678
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 100,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 68,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10277,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10274,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10377
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph 4, account of the friend attending Moody and Sankey’s meeting",
-      "severity": "major",
-      "source_quote": "He went and God met him; he went again and God converted him.",
-      "suggested_fix": "그는 집회에 갔고 하나님께서 그를 만나 주셨다. 다시 갔고 하나님께서 그를 회심시키셨다.",
-      "translation_quote": "그는 집회에 갔고 하나님을 만나셨다. 다시 갔고 하나님께서 그를 회심시키셨다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-24T07:20:52+00:00",
   "id": "e33c89a17936a8b4d4b8ee4c5c920801",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/353c3bd99cfccd43d3d767281cf1fbfcb65f85179fdeef55fa73c87d7fe9d4b3.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.599674,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6.1-sol"
