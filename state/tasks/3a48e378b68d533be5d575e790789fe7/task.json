@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6d93ff252bbc44f9bb9622436ea96a4e",
   "campaign": "auto-69b6c235e2d9e26b958f90a45316a26056f553c842ac3222e5b372f28799e29f",
   "created_at": "2026-10-24T07:22:49+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 5929
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 48,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 16,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4116,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4113,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4164
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, final paragraph before the Scripture quotation",
-      "severity": "major",
-      "source_quote": "Marvin K. Mooney, in the name of Jesus, go to the burn pile now!",
-      "suggested_fix": "Marvin K. Mooney, im Namen Jesu: Auf den Verbrennungshaufen mit dir, und zwar sofort!",
-      "translation_quote": "Marvin K. Mooney, im Namen Jesu: Auf den Scheiterhaufen mit dir, und zwar sofort!"
-    },
-    {
-      "location": "HTML, opening paragraph",
-      "severity": "minor",
-      "source_quote": "the joyful news that there is something positive to replace the negative",
-      "suggested_fix": "die erfreuliche Nachricht, dass es etwas Positives gibt, das das Negative ersetzen kann",
-      "translation_quote": "die erfreuliche Nachricht, dass es gibt etwas Positives gibt, das das Negative ersetzen kann"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-24T13:39:44+00:00",
   "id": "3a48e378b68d533be5d575e790789fe7",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.554286,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6.1-sol"
