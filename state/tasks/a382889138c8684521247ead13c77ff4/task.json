@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7882711ef5934c47adbf13b83cae0c46",
   "campaign": "auto-c449821f9a8afbe2ba965177bb084e5025e6d9730c45d713f233a95bb3faa39e",
   "created_at": "2026-10-24T07:22:39+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 1782
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1024,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 821,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2136,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2133,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3160
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Третья строфа, строки 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "Взять у Него власть на земле попирать / Змеиное жало и голову дракона.",
+      "translation_quote": "Взять у Него власть ступать по земле, / На змеиное жало, на голову дракона."
+    },
+    {
+      "location": "Четвёртая строфа, строка 1",
+      "severity": "minor",
+      "source_quote": "Whate’er thou art, Oh mountain high,",
+      "suggested_fix": "Какова бы ты ни была, о высокая гора,",
+      "translation_quote": "Кем бы ты ни был, о высокая гора,"
+    }
+  ],
   "id": "a382889138c8684521247ead13c77ff4",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "rus",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

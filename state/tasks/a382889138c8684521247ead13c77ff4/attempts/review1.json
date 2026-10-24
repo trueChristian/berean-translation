@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-24T22:27:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Третья строфа, строки 3–4\",\"severity\":\"major\",\"source_quote\":\"Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.\",\"suggested_fix\":\"Взять у Него власть на земле попирать / Змеиное жало и голову дракона.\",\"translation_quote\":\"Взять у Него власть ступать по земле, / На змеиное жало, на голову дракона.\"},{\"location\":\"Четвёртая строфа, строка 1\",\"severity\":\"minor\",\"source_quote\":\"Whate’er thou art, Oh mountain high,\",\"suggested_fix\":\"Какова бы ты ни была, о высокая гора,\",\"translation_quote\":\"Кем бы ты ни был, о высокая гора,\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 848,
+    "content_evidence_truncated": false,
+    "content_sha256": "96a8bcb23346aa30526a637d59b42febc566c85bc6cd2f0354026271bb87671b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 821,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2136,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2133,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3160
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
