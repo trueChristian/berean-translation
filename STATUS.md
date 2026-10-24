@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-24T12:44:34+00:00.
+Generated: 2026-10-24T12:49:16+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -4055,7 +4055,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [6d44dcf96149496999ecd329ae0702a8](state/batches/6d44dcf96149496999ecd329ae0702a8/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-13T03:28:30+00:00 | 2026-10-13T07:41:28+00:00 | 2026-10-13T07:41:28+00:00 |
 | [6d87cc6d611a4b74b974dee59c114008](state/batches/6d87cc6d611a4b74b974dee59c114008/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-13T00:38:52+00:00 | 2026-10-13T00:40:26+00:00 | 2026-10-13T00:40:25+00:00 |
 | [6d8a25992f714e8783d2daf4ce0ff558](state/batches/6d8a25992f714e8783d2daf4ce0ff558/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-20T06:03:21+00:00 | 2026-10-20T06:04:57+00:00 | 2026-10-20T06:04:57+00:00 |
-| [6d93ff252bbc44f9bb9622436ea96a4e](state/batches/6d93ff252bbc44f9bb9622436ea96a4e/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [6d93ff252bbc44f9bb9622436ea96a4e](state/batches/6d93ff252bbc44f9bb9622436ea96a4e/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-24T12:46:07+00:00 |
 | [6da2f02bde684141a0b7ae30c1855e4c](state/batches/6da2f02bde684141a0b7ae30c1855e4c/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T20:33:01+00:00 | 2026-10-01T20:33:15+00:00 | 2026-10-01T20:33:15+00:00 |
 | [6ddb92a470aa406ebda0bb0772f33483](state/batches/6ddb92a470aa406ebda0bb0772f33483/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:12:08+00:00 | 2026-10-01T19:12:34+00:00 | 2026-10-01T19:12:34+00:00 |
 | [6dfa439ee84b4bc2a7d9563743ce7cb3](state/batches/6dfa439ee84b4bc2a7d9563743ce7cb3/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-11T13:10:30+00:00 | 2026-10-11T13:12:33+00:00 | 2026-10-11T13:12:33+00:00 |
@@ -5055,7 +5055,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [de1d0f3346024a7b97ae035b354d95ef](state/batches/de1d0f3346024a7b97ae035b354d95ef/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-17T19:35:07+00:00 | 2026-10-17T19:35:18+00:00 | 2026-10-17T19:35:17+00:00 |
 | [de248e22a0d94f5284a4586cde403e0e](state/batches/de248e22a0d94f5284a4586cde403e0e/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-14T01:25:45+00:00 | 2026-10-14T01:27:03+00:00 | 2026-10-14T01:27:02+00:00 |
 | [de3976a8fd004c3cb7c3d72fd098cf30](state/batches/de3976a8fd004c3cb7c3d72fd098cf30/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-12T00:32:49+00:00 | 2026-10-12T00:34:03+00:00 | 2026-10-12T00:34:02+00:00 |
-| [de3b6b463da442799bdfd444eb73d0c4](state/batches/de3b6b463da442799bdfd444eb73d0c4/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-24T12:41:05+00:00 |
+| [de3b6b463da442799bdfd444eb73d0c4](state/batches/de3b6b463da442799bdfd444eb73d0c4/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-24T12:46:07+00:00 |
 | [de452656d3ec4f85b85c4893ba5983fe](state/batches/de452656d3ec4f85b85c4893ba5983fe/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-18T14:49:36+00:00 | 2026-10-18T14:51:21+00:00 | 2026-10-18T14:51:21+00:00 |
 | [de71cdc847fa491fa9737862fe2dbd79](state/batches/de71cdc847fa491fa9737862fe2dbd79/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-22T15:25:39+00:00 | 2026-10-22T15:33:13+00:00 | 2026-10-22T15:33:13+00:00 |
 | [de7396ea9b6947d7a9035ca0a7b07796](state/batches/de7396ea9b6947d7a9035ca0a7b07796/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-17T13:46:19+00:00 | 2026-10-17T13:49:00+00:00 | 2026-10-17T13:49:00+00:00 |
