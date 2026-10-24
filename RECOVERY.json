@@ -3041,7 +3041,7 @@
       "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
       "language": "cmn",
       "latest_task": "baceb227f2b0eda44c966bb8b49f1b2d",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
