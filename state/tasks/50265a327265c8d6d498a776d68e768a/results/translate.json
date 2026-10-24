@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14e7630a-a7d9-4932-8458-d9905faf1e75",
+    "response_id": "chatcmpl-EcaOdKl9TuKVGuXKamw8AwD97M7i3",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1250,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1753
+    }
+  },
+  "received_at": "2026-10-24T19:24:21+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"Ein immergrüner Baum am See, mit Sträuchern und einem schneebedeckten Berghang.\">\n  </figure>\n  <p class=\"poem\"><strong><em>Wenn Bergwände den Weg versperren.<br>\nWarum sitzen und weinen? Steh auf und sprich:<br>\n„Weiche hinweg!“, dann werden sie<br>\nDurch Gottes Macht ins Meer geworfen.</em></strong></p>\n  <p class=\"poem\"><strong><em>Alle Macht auf Erden, alle Macht im Himmel<br>\nIst Christus, dem Sohn Gottes, gegeben;<br>\nUnd vom Thron wird er dich ausrüsten,<br>\nDann werden Hindernisse vor dir fliehen.</em></strong></p>\n  <p class=\"poem\"><strong><em>Über alle Macht des Teufels und der Menschen<br>\nSprich durch den Herrn: „Ich kann es gewiss“.<br>\nNimm von ihm die Macht, auf Erden zu treten,<br>\nauf den Schlangenstachel, auf den Drachenkopf.</em></strong></p>\n  <p class=\"poem\"><strong><em>Was immer du bist, o hoher Berg,<br>\nWo immer du bist, auf Erden oder am Himmel,<br>\nWann immer du bist, die Wahrheit bleibt dieselbe:<br>\n„Weiche hinweg im Namen Jesu.“</em></strong></p>\n  <p class=\"poem\"><strong><em>„Weiche hinweg!“ – der Glaube heißt dich aufbrechen.<br>\nDenn sieh dort drüben: Steh auf! Geh fort!<br>\nIch darf, ich kann, ich muss, ich will<br>\nDen Vorsatz meines Gottes erfüllen.</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vollmacht"
+  }
+}
