@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b9b74ca65c0a44b0a57d450924bb575d",
   "campaign": "auto-9036c4ee7ef873d72650b9a11ee59f604d413657ca62b31b55ca3e6b9a84f6b6",
   "created_at": "2026-10-23T04:39:26+00:00",
   "events": [
@@ -48,74 +47,31 @@
         },
         "total_tokens": 11615
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 67,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7432,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7429,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7499
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html，引用罗马书7:18的段落",
-      "severity": "major",
-      "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing…. …for to will is present with me; but how to perform that which is good I find not",
-      "suggested_fix": "将两处引文分别改为<em>……在我里面（就是在我肉体之中），没有良善……</em>和<em>……因为我有行善的意愿，却不知道如何行出善来——罗马书 7:18。</em>。",
-      "translation_quote": "……在我（就是在我肉体里）没有良善可居……；……因为立志为善在我，我却得不出来行那美善"
-    },
-    {
-      "location": "html，彼得第一次回答耶稣的段落",
-      "severity": "major",
-      "source_quote": "Jesus said, “Feed my lambs.”",
-      "suggested_fix": "将此处“喂养我的羊。”改为“喂养我的小羊。”，保留后文“牧养我的羊”的区别。",
-      "translation_quote": "耶稣说，“喂养我的羊。”"
-    },
-    {
-      "location": "html，回忆该亚法家的段落",
-      "severity": "major",
-      "source_quote": "He saw Jesus being brutally handled, falsely accused, and spat upon.",
-      "suggested_fix": "将“并被人唾弃”改为“并被人吐唾沫”。",
-      "translation_quote": "他看见耶稣被粗暴对待，遭受虚假的指控，并被人唾弃。"
-    },
-    {
-      "location": "html，约翰福音21:3-6引文",
-      "severity": "minor",
-      "source_quote": "They went forth, and entered into a ship immediately; and that night they caught nothing.",
-      "suggested_fix": "改为“他们就出去，立刻上了船；那一夜他们什么也没有捕到。”",
-      "translation_quote": "他们就出去，上了船，立时那夜什么也没有得。"
-    },
-    {
-      "location": "html，耶稣问读者是否爱他的段落",
-      "severity": "minor",
-      "source_quote": "“Defer to your brother”",
-      "suggested_fix": "将“顺服弟兄”改为“谦让弟兄”，表达尊重、退让，而非无条件服从。",
-      "translation_quote": "“顺服弟兄”"
-    },
-    {
-      "location": "html，鼓励读者专注当下的段落",
-      "severity": "minor",
-      "source_quote": "Peter walked with Jesus for three and a half years before he received this call from Jesus.",
-      "suggested_fix": "将“才领受耶稣从他那里的这个呼召”改为“才领受耶稣的这个呼召”。",
-      "translation_quote": "彼得与耶稣同行了三年半，才领受耶稣从他那里的这个呼召。"
-    },
-    {
-      "location": "html，以人际关系解释爱的段落",
-      "severity": "minor",
-      "source_quote": "We can best understand this in the context of human relationships.",
-      "suggested_fix": "将“人人关系”改为“人际关系”。",
-      "translation_quote": "我们可以在人人关系的语境中最好地理解这一点。"
-    },
-    {
-      "location": "html，引用路加福音9:62的段落",
-      "severity": "minor",
-      "source_quote": "<em>…No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.</em>",
-      "suggested_fix": "恢复引文原有的强调标签：<em>……手扶着犁向后看的，不配进神的国——路加福音 9:62。</em>",
-      "translation_quote": "……手扶着犁向后看的，不配进神的国——路加福音 9:62。"
-    },
-    {
-      "location": "html，描述耶稣走近岸边的段落",
-      "severity": "minor",
-      "source_quote": "He is the friend of all and a stranger to none.",
-      "suggested_fix": "将“他是众人的朋友，毫无陌生人”改为“他是众人的朋友，对谁都不陌生”。",
-      "translation_quote": "他是众人的朋友，毫无陌生人。"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-24T01:42:02+00:00",
   "id": "baceb227f2b0eda44c966bb8b49f1b2d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -204,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -223,7 +179,7 @@
     "total_reserved_usd": 0.741509,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-6.1-sol"
