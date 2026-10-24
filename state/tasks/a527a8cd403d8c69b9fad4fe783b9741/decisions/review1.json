@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf puisi 3, baris 3",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread,",
+      "suggested_fix": "Terimalah dari-Nya kuasa di bumi untuk menginjak,",
+      "translation_quote": "Terimalah dari-Nya kuasa untuk menginjak bumi,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7f337d7c-be57-4252-9e83-9e9c71d94adb",
+    "response_id": "chatcmpl-EcK6qeHSJ0wqkQAlB1ArovYzfwGF3",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2136,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3042
+    }
+  },
+  "received_at": "2026-10-24T01:00:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf puisi 3, baris 3",
+        "severity": "major",
+        "source_quote": "Take from Him power on earth to tread,",
+        "suggested_fix": "Terimalah dari-Nya kuasa di bumi untuk menginjak,",
+        "translation_quote": "Terimalah dari-Nya kuasa untuk menginjak bumi,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-24T01:00:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf puisi 3, baris 3\",\"severity\":\"major\",\"source_quote\":\"Take from Him power on earth to tread,\",\"suggested_fix\":\"Terimalah dari-Nya kuasa di bumi untuk menginjak,\",\"translation_quote\":\"Terimalah dari-Nya kuasa untuk menginjak bumi,\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 318,
+    "content_evidence_truncated": false,
+    "content_sha256": "504055b4da36203b807db852fccdccf455213a1a20d0eac5b333f03ec929d785",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2136,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3042
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

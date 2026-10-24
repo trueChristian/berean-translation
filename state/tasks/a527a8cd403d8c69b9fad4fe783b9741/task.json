@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "733ccf1a1c1b447f93adaab487fa9615",
   "campaign": "auto-1817f4addedd15898031168da7c87fccd0cca3399ba3d522b1041951ee9c3bdc",
   "created_at": "2026-10-23T14:58:34+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1961
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 794,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2139,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2136,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3042
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf puisi 3, baris 3",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread,",
+      "suggested_fix": "Terimalah dari-Nya kuasa di bumi untuk menginjak,",
+      "translation_quote": "Terimalah dari-Nya kuasa untuk menginjak bumi,"
+    }
+  ],
   "id": "a527a8cd403d8c69b9fad4fe783b9741",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ind",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"
