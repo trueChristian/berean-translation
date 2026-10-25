@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-25T11:16:40+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"’n Immergroen boom langs ’n meer, met struike en ’n sneeubedekte berghang.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Wanneer bergmure jou pad versper,<br>\\nwaarom sit en ween? Staan op en sê:<br>\\n“Word verwyder,” en hulle sal deur<br>\\nGod se krag in die see gewerp word.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Alle mag op aarde, alle mag in die hemel,<br>\\nis aan Christus, die Seun van God, gegee;<br>\\nen vanaf die troon sal Hy jou beklee met krag,<br>\\nen struikelblokke sal voor jou vlug.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Oor al die mag van duiwel en mens<br>\\nsê deur die Here: “Ek kan dit beslis”;<br>\\nontvang van Hom mag om op aarde te trap,<br>\\nop die slang se angel, op die draak se kop.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Wat jy ook al is, o hoë berg,<br>\\nwaar jy ook al is, op aarde of in die hemel,<br>\\nwanneer jy ook al is, die waarheid bly dieselfde:<br>\\n“Word verwyder in Jesus se Naam.”</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>“Word verwyder,” gebied geloof jou: begin,<br>\\nwant kyk daarheen—staan op! Vertrek!<br>\\nEk mag, ek kan, ek moet, ek wil<br>\\ndie doel van my God vervul.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Gesag\"}",
+    "content_bytes": 1448,
+    "content_evidence_truncated": false,
+    "content_sha256": "0793375d2966f8daafa858ddc717b2b9b1f79a8014bc265328f9503d1b85827c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 191,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1253,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1959
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
