@@ -74724,6 +74724,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "26ed9dd49b1e27f1bc923291352da8492496740d68e04b0b2744e991ecb8a663",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Mti wa kijani kibichi kando ya ziwa, ukiwa na vichaka na mteremko wa mlima uliofunikwa na theluji.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "a05669ac25afc45cd701f465590956d08c9bc91ef57fca85fdc5e075e79dbcdd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mamlaka",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "44ffedf09a2460bf9fd4c8a8c54fbe569f025cf6dcf9a8e0505c66ddd2f6cd6a",
       "human_reviewed": false,
