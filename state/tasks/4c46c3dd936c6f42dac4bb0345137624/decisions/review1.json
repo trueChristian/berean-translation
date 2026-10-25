@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, lines 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "Pokea kutoka kwake uwezo wa kukanyaga mwiba wa nyoka na kichwa cha joka.",
+      "translation_quote": "Pokea kutoka kwake nguvu ya kukanyaga duniani, / Mwiba wa nyoka, kichwa cha joka."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fd2c19f1-096b-4fb4-ad31-504d7c0987a3",
+    "response_id": "chatcmpl-Ecv6dScQHVIObCs0KY29qCMlrOczY",
+    "usage": {
+      "completion_tokens": 960,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 829,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2114,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1011,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3074
+    }
+  },
+  "received_at": "2026-10-25T16:51:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third poem stanza, lines 3–4",
+        "severity": "major",
+        "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+        "suggested_fix": "Pokea kutoka kwake uwezo wa kukanyaga mwiba wa nyoka na kichwa cha joka.",
+        "translation_quote": "Pokea kutoka kwake nguvu ya kukanyaga duniani, / Mwiba wa nyoka, kichwa cha joka."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
