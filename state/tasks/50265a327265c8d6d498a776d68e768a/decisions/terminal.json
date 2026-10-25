@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, third line",
+      "severity": "major",
+      "source_quote": "“Take from Him power on earth to tread,”",
+      "suggested_fix": "„Empfange von ihm die Macht, auf Erden zu treten,“",
+      "translation_quote": "„Nimm von ihm die Macht, auf Erden zu treten,“"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[1]/strong[1]/em[1]/br[2] ('start', 'br', ()); translation /article[1]/p[1]/strong[1]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}
