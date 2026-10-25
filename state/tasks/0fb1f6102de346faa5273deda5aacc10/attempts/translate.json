@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-25T19:00:16+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"관목과 눈 덮인 산비탈이 있는 호숫가의 상록수.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>산의 장벽이 길을 가로막을 때,<br>\\n어찌 앉아 울겠는가? 일어나 말하라.<br>\\n“옮겨져라” 하면, 하나님의 능력으로<br>\\n그것들은 바다에 던져지리라.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>땅 위의 모든 권세와 하늘의 모든 권세가<br>\\n하나님의 아들 그리스도께 주어졌으니,<br>\\n그분은 보좌에서 능력을 내려 주시고,<br>\\n장애물은 너희 앞에서 사라지리라.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>악마와 인간의 모든 권세를 넘어<br>\\n주님을 통해 “나는 반드시 할 수 있다”고 말하라.<br>\\n그분께서 주시는 땅 위를 다스릴 권세를 취하여,<br>\\n뱀의 독침과 용의 머리를 밟으라.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>너 어떤 산이든, 오 높은 산이여,<br>\\n땅에 있든 하늘에 있든,<br>\\n언제 있든 진리는 한결같으니,<br>\\n“예수의 이름으로 옮겨져라.”</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>믿음은 네게 “옮겨져라” 말하며 떠나라 하네.<br>\\n저쪽을 보라—일어나 떠나라!<br>\\n나는 할 수 있고, 할 수 있으며, 반드시 하리라.<br>\\n내 하나님의 뜻을 이루리라.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"권세\"}",
+    "content_bytes": 1624,
+    "content_evidence_truncated": false,
+    "content_sha256": "51622f1888f384389e88f8c1bb3020a61e09d175e6776698b88494d7d376df64",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1808
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
