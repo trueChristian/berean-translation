@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-25T16:04:17+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Mti wa kijani kibichi kando ya ziwa, ukiwa na vichaka na mteremko wa mlima uliofunikwa na theluji.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Ukuta wa milima ukizuia njia.<br>\\nKwa nini ukae ukilia? Inuka useme<br>\\n“Ondoka” nao watatupwa<br>\\nBahari kwa nguvu za Mungu.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Mamlaka yote duniani, mamlaka yote mbinguni,<br>\\nAmepewa Kristo, Mwana wa Mungu;<br>\\nNaye kutoka kwenye kiti cha enzi atakutia nguvu,<br>\\nNa vizuizi vitakukimbia.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Juu ya nguvu zote za pepo na wanadamu<br>\\nSema kupitia kwa Bwana, “Hakika naweza”<br>\\nPokea kutoka kwake nguvu ya kukanyaga duniani,<br>\\nMwiba wa nyoka, kichwa cha joka.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Uwe wewe mlima mrefu namna gani,<br>\\nUwe wapi duniani au angani,<br>\\nUwe wakati wowote, ukweli ni uleule,<br>\\n“Ondoka kwa jina la Yesu.”</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>“Ondoka” imani yakuhimiza uanze,<br>\\nTazama kule—inuka! Ondoka!<br>\\nNinaweza, naweza, lazima, nitafanya,<br>\\nKutimiza kusudi la Mungu wangu.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Mamlaka\"}",
+    "content_bytes": 1376,
+    "content_evidence_truncated": false,
+    "content_sha256": "c9744d380dd168d57366f3cddb534f63d607486c479ca636070fe77c58fe0e40",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 173,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1253,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1940
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
