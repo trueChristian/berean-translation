@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, lines 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "그분께 권능을 받아 땅 위에서 / 뱀의 독침과 용의 머리를 밟으라.",
+      "translation_quote": "그분께서 주시는 땅 위를 다스릴 권세를 취하여, / 뱀의 독침과 용의 머리를 밟으라."
+    },
+    {
+      "location": "HTML, fifth poem stanza, line 3",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "나는 할 수도 있고, 할 수 있고, 해야 하며, 반드시 하리라.",
+      "translation_quote": "나는 할 수 있고, 할 수 있으며, 반드시 하리라."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
