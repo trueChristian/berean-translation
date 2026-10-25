@@ -7,12 +7,12 @@
     "stop_reason": "wait_budget_exhausted",
     "submitted_batches": 1,
     "tasks_created": 0,
-    "ticks": 2,
+    "ticks": 3,
     "translations_published": 0,
     "wait_budget_seconds": 600
   },
-  "completed_at": "2026-10-25T19:09:36+00:00",
+  "completed_at": "2026-10-25T19:28:34+00:00",
   "newly_published": 0,
   "operation": "collect",
-  "started_at": "2026-10-25T18:59:56+00:00"
+  "started_at": "2026-10-25T19:18:11+00:00"
 }
