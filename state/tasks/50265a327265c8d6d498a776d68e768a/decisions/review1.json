@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, third line",
+      "severity": "major",
+      "source_quote": "“Take from Him power on earth to tread,”",
+      "suggested_fix": "„Empfange von ihm die Macht, auf Erden zu treten,“",
+      "translation_quote": "„Nimm von ihm die Macht, auf Erden zu treten,“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

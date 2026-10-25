@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-25T01:04:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third poem stanza, third line\",\"severity\":\"major\",\"source_quote\":\"“Take from Him power on earth to tread,”\",\"suggested_fix\":\"„Empfange von ihm die Macht, auf Erden zu treten,“\",\"translation_quote\":\"„Nimm von ihm die Macht, auf Erden zu treten,“\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 343,
+    "content_evidence_truncated": false,
+    "content_sha256": "1806252c2cdf2f9fdf31e8c1d339a3825a4e99779570e0c01ffd508185c88911",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2107,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2104,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2655
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
