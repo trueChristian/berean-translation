@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "125468138f91416f8d71f17c962d9c8c",
   "campaign": "auto-ae34cb9dd20ae3f6b15a091ba41ff278f2e439a617805d70d66b68b06f49a504",
   "created_at": "2026-10-25T01:12:49+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1736
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1174,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 966,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2090,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2087,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3264
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, stanza 3, lines 3–4",
+      "severity": "minor",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "Ontvang van Hem de macht om op aarde te treden / op de slangensteek, op de kop van de draak.",
+      "translation_quote": "Neem van Hem macht om op aarde te treden, / Op de beet van de slang, op de kop van de draak."
+    },
+    {
+      "location": "Poem, stanza 5, line 3",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "Ik kan, ik kan, ik moet, ik wil",
+      "translation_quote": "Ik mag, ik kan, ik moet, ik wil"
+    }
+  ],
+  "finished_at": "2026-10-25T11:16:38+00:00",
   "id": "36a0df9aa111c2e746b5a6858f7aaacb",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nld",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086023,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

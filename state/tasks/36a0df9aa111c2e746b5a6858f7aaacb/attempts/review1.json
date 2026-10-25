@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-25T11:16:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 3, lines 3–4\",\"severity\":\"minor\",\"source_quote\":\"Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.\",\"suggested_fix\":\"Ontvang van Hem de macht om op aarde te treden / op de slangensteek, op de kop van de draak.\",\"translation_quote\":\"Neem van Hem macht om op aarde te treden, / Op de beet van de slang, op de kop van de draak.\"},{\"location\":\"Poem, stanza 5, line 3\",\"severity\":\"minor\",\"source_quote\":\"I may, I can, I must, I will,\",\"suggested_fix\":\"Ik kan, ik kan, ik moet, ik wil\",\"translation_quote\":\"Ik mag, ik kan, ik moet, ik wil\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 660,
+    "content_evidence_truncated": false,
+    "content_sha256": "604340cc59689242dd5dd7bd9090620a2bb49fce25ff43c20df93f6ef20336de",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 966,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2087,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3264
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
