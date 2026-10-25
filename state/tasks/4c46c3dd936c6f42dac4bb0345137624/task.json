@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1b48fb3e339c4284a8aa0522239a39f9",
   "campaign": "auto-488e26714024c77c2235b64a28b0dcba4f0936c0fc4b703d5e7c869df0b4eddc",
   "created_at": "2026-10-25T11:17:20+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 2749
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 818,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 627,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2112,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2109,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2930
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, third poem stanza, lines 3–4",
-      "severity": "major",
-      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
-      "suggested_fix": "Pokea kutoka kwake uwezo wa kukanyaga mwiba wa nyoka na kichwa cha joka.",
-      "translation_quote": "Pokea kutoka kwake nguvu ya kukanyaga duniani, / Mwiba wa nyoka, kichwa cha joka."
+      "location": "Shairi, ubeti wa tatu",
+      "severity": "minor",
+      "source_quote": "On serpent’s sting",
+      "suggested_fix": "Badili “Mwiba wa nyoka” kuwa “Sumu ya nyoka” ili kuepuka maana ya mwiba halisi.",
+      "translation_quote": "Mwiba wa nyoka"
+    },
+    {
+      "location": "Shairi, ubeti wa tano",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "Tofautisha “I may” na “I can”; kwa mfano, “Huenda nikaweza, naweza, lazima, nitafanya,”.",
+      "translation_quote": "Ninaweza, naweza, lazima, nitafanya,"
     }
   ],
+  "finished_at": "2026-10-25T21:55:29+00:00",
   "id": "4c46c3dd936c6f42dac4bb0345137624",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.08602,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

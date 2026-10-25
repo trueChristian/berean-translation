@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "4c46c3dd936c6f42dac4bb0345137624"
+    },
+    {
+      "at": "2026-10-25T21:55:29+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "4c46c3dd936c6f42dac4bb0345137624"
     }
   ],
   "language": "swa",
   "latest_task": "4c46c3dd936c6f42dac4bb0345137624",
-  "published": null
+  "published": {
+    "html_path": "content/swa/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+    "html_sha256": "26ed9dd49b1e27f1bc923291352da8492496740d68e04b0b2744e991ecb8a663",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "metadata_path": "content/swa/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+    "metadata_sha256": "a05669ac25afc45cd701f465590956d08c9bc91ef57fca85fdc5e075e79dbcdd",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sw\" dir=\"ltr\" role=\"note\">\n  <p>Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: gpt-6-luna) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza. <a href=\"/en/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9/\" data-source-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\" hreflang=\"en\">Maandishi asilia ya Kiingereza</a></p>\n</aside>",
+    "published_at": "2026-10-25T21:55:29+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+    "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
+    "task": "4c46c3dd936c6f42dac4bb0345137624",
+    "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6"
+  }
 }

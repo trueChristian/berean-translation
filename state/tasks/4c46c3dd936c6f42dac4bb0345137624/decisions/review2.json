@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Shairi, ubeti wa tatu",
+      "severity": "minor",
+      "source_quote": "On serpent’s sting",
+      "suggested_fix": "Badili “Mwiba wa nyoka” kuwa “Sumu ya nyoka” ili kuepuka maana ya mwiba halisi.",
+      "translation_quote": "Mwiba wa nyoka"
+    },
+    {
+      "location": "Shairi, ubeti wa tano",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "Tofautisha “I may” na “I can”; kwa mfano, “Huenda nikaweza, naweza, lazima, nitafanya,”.",
+      "translation_quote": "Ninaweza, naweza, lazima, nitafanya,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
