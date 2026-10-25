@@ -4,6 +4,7 @@
   "custom_ids": [
     "4c46c3dd936c6f42dac4bb0345137624:translate"
   ],
+  "error_type": "InternalServerError",
   "id": "f85a5c517c144d8ea3a61779b8d4a2b6",
   "input_file_id": null,
   "model": "gpt-6-luna",
@@ -14,5 +15,6 @@
   "status": "prepared",
   "tasks": [
     "4c46c3dd936c6f42dac4bb0345137624"
-  ]
+  ],
+  "upload_failures": 1
 }
