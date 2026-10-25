@@ -51933,6 +51933,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "59f3f163fa1090f0ec47a0c6f193b3e531646771d3f7c556967482a06fd20f9d",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Een groenblijvende boom aan een meer, met struiken en een besneeuwde berghelling.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "459ce1934124a1693522c54339fc4f143713520aa148c7ab9c304eca5ff61b90",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gezag",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "51de31d1b074c4fa9f0a7ad2508e1e07b9d52ab52152748121767a878bfdb661",
       "human_reviewed": false,
