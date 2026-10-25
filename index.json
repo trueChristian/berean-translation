@@ -65959,6 +65959,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "c262cc632d76b9cc621bb8ccfa9ace903430e01fe4ac380764213491223b8f76",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Вечнозелёное дерево у озера, кустарники и покрытый снегом горный склон.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "d022fab870e7a0679cb2fd885bf08383b737d38b4e6b6b64424042d64fc1097a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Власть",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "0dfcae4891bb15f247cda103daa771f755a4a850c4d098b74887c626411b3c27",
       "human_reviewed": false,
