@@ -2067,6 +2067,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "017d7372af1b82104acea54e9bc6aecb97751269b51a796c4a9116c9dee7f616",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "’n Immergroen boom langs ’n meer, met struike en ’n sneeubedekte berghang.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "90f63fda7253789ed8ce1ddd8ee5d13c2800a7a342fbefd2d99d3701537691a3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gesag",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "e2ef44227f342505b661dbb43dc9004b300458cc79dc177699e402fbf7276798",
       "human_reviewed": false,
