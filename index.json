@@ -71,11 +71,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/053cec10-1df0-4f62-832e-362809b44283.html",
-      "html_sha256": "c9bef050f67ec6986265b56e9d183add1a50de5a7ee4f15f05b264544a65dcf6",
-      "human_reviewed": false,
+      "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "c5ec2c193a85e075eb9a5d3feccf8169fa15b505",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T09:02:45+02:00"
+      },
+      "human_reviewed": true,
       "id": "053cec10-1df0-4f62-832e-362809b44283",
       "images": [
         {
@@ -92,6 +98,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/053cec10-1df0-4f62-832e-362809b44283.json",
       "metadata_sha256": "636fb21599b52c0b78b68b43ad84931f7e4d343db457e3ab8d247b0656d329a0",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "Die Sustershoekie",
