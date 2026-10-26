@@ -19837,6 +19837,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "05979bac7b1bfa6a0332b1ba0e7329f34aa9eeb449f56b215683d207e1677e49",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "Ein Mann, tief zur Erde niederkniend",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Der Zöllner kniet vor Gott, während ein anderer Mann in der Nähe steht",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Umschlag von Pride and Humility",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "6c15a36490b242b83030c7ea92a63e4a305e6aa2e617c9c6e183daa7eeb9e338",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der demütige Mensch fühlt sich klein",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "8dc0697c74173d0faff5a253cff446a7ab54bfbc107028161374d25a257aed1e",
       "human_reviewed": false,
