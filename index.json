@@ -266,11 +266,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
-      "html_sha256": "4b0f96d62600db6f520c8f49a6cf0cf000f3971418b709472cc9e1eda7eef6b5",
-      "human_reviewed": false,
+      "html_sha256": "1172edd856610f581d08de02f179307de7745c1a1d9ea48d8a0be2934b84b736",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "2b2ae7537af0266eb20f5cee532754d2c5ab936b",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T17:04:59+02:00"
+      },
+      "human_reviewed": true,
       "id": "0f775a7f-1f39-428b-8d96-3d48095e1f49",
       "images": [
         {
@@ -287,6 +293,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.json",
       "metadata_sha256": "d7a14b9f3e9042501cca12ece7716105b2f5ddefe31ff8b6ab0dc5db78852e9d",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "’N WOORD VAN DIE DOKTER",
