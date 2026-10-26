@@ -12,15 +12,33 @@
       "event": "complete",
       "reason": null,
       "task": "dd94fddd0f9759051b24fae089a8328d"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "8ed0f329b4901630d9bc4e4816af6d0559c098d3",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T18:10:46+02:00"
+      },
+      "html_sha256": "17737fbd279e091acda67d36d5ac07dccf713368dd90806452bd5342d1d2d649",
+      "metadata_sha256": "041204a2f4ef1f53a2a1689638516826a98e163b7beb418d5706af4e8f2e5469"
     }
   ],
   "language": "afr",
   "latest_task": "dd94fddd0f9759051b24fae089a8328d",
   "published": {
+    "accepted_snapshot": "state/publications/ff9a430d870ebb26950f128c518b201b301774ad6b59dad87324d24063cf980e.json",
     "html_path": "content/afr/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.html",
-    "html_sha256": "fff719d5a2a2c94035fc3aa89dab883d38328f9adbe3cfb895fd68ad8fbb9d80",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "17737fbd279e091acda67d36d5ac07dccf713368dd90806452bd5342d1d2d649",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "8ed0f329b4901630d9bc4e4816af6d0559c098d3",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-10-26T18:10:46+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/11b11932-7978-4944-8e7e-16e48c9aef1a/\" data-source-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
     "metadata_path": "content/afr/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.json",
     "metadata_sha256": "041204a2f4ef1f53a2a1689638516826a98e163b7beb418d5706af4e8f2e5469",
