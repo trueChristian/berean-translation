@@ -77,9 +77,9 @@
       "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
       "human_edit": {
         "author": "Malachi",
-        "commit": "c5ec2c193a85e075eb9a5d3feccf8169fa15b505",
+        "commit": "c166aa5313eb445c70921a448e2be59e5c9d3dbd",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-26T09:02:45+02:00"
+        "time": "2026-10-26T15:41:11+02:00"
       },
       "human_reviewed": true,
       "id": "053cec10-1df0-4f62-832e-362809b44283",
@@ -116,9 +116,9 @@
       "html_sha256": "84f7aba577fb5a11f7b088295af1981134e0b40586d9cff3d5e72c7e94091bbc",
       "human_edit": {
         "author": "Malachi",
-        "commit": "a63ba38d64aeee9b3479153e378183c58192d3ec",
+        "commit": "6005536e5240980d848bc03df4055f6317eac4d0",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-26T11:27:46+02:00"
+        "time": "2026-10-26T15:41:52+02:00"
       },
       "human_reviewed": true,
       "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
@@ -151,9 +151,9 @@
       "html_sha256": "e9d07b1acbad67e673b5081e97380acc84a464893be55468f872595609350f83",
       "human_edit": {
         "author": "Malachi",
-        "commit": "c95adae798faeb9d0fb9314ade7e30d2b776bd3b",
+        "commit": "cd43d95398907028638420c3d49d29bc87360a83",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-26T11:57:09+02:00"
+        "time": "2026-10-26T15:42:34+02:00"
       },
       "human_reviewed": true,
       "id": "0862fd6d-7c62-456c-8b3f-abb513f498ce",
@@ -175,11 +175,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
-      "html_sha256": "f4808e9297429aaff272ad9b1ec1f2eccd9c3c377cf0e987db84e71bc531b708",
-      "human_reviewed": false,
+      "html_sha256": "a20803a7de5a90e5f6110ea120a37d043122925e0c159c2efce2082e6cedb985",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "4dead5bb52b28bd5d92f719d2b8804c1a6c1faea",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T15:43:32+02:00"
+      },
+      "human_reviewed": true,
       "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
       "images": [
         {
@@ -192,6 +198,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
       "metadata_sha256": "c7a8581eaa12c3e0e2f19256f7a5e5f8d4d17b76af464691d6cd67653f9944fd",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "GETROUDEURTINGSVERMOË",
@@ -4324,9 +4331,9 @@
       "html_sha256": "f7197a4f1009f569b636a9dd8b72eec1fb7abefaa280bc58e51dc342da729886",
       "human_edit": {
         "author": "Malachi",
-        "commit": "ec89ea778250b625315cf79e04cb8f99d7076183",
+        "commit": "3d780f09cdaedb34a95ba7c6c2082cd5ec040b14",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-23T12:33:28+02:00"
+        "time": "2026-10-26T15:39:46+02:00"
       },
       "human_reviewed": true,
       "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
