@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-26T06:11:16+00:00.
+Generated: 2026-10-26T06:13:14+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -4848,7 +4848,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [c557279c047c44e48dd626691851b16a](state/batches/c557279c047c44e48dd626691851b16a/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-17T13:47:12+00:00 | 2026-10-17T13:49:12+00:00 | 2026-10-17T13:49:12+00:00 |
 | [c558bf00ac1b47879ef21dfb9a76ca7c](state/batches/c558bf00ac1b47879ef21dfb9a76ca7c/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-14T03:53:36+00:00 | 2026-10-14T06:04:40+00:00 | 2026-10-14T06:04:40+00:00 |
 | [c5596b296aad4161879905cfc661770c](state/batches/c5596b296aad4161879905cfc661770c/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-15T22:17:15+00:00 | 2026-10-15T22:19:03+00:00 | 2026-10-15T22:19:03+00:00 |
-| [c55bb1e153e746589329ce7563bb12c4](state/batches/c55bb1e153e746589329ce7563bb12c4/batch.json) / review1 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [c55bb1e153e746589329ce7563bb12c4](state/batches/c55bb1e153e746589329ce7563bb12c4/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-26T06:12:48+00:00 |
 | [c566259f6f7f4bdb9fe6820ca1276e0e](state/batches/c566259f6f7f4bdb9fe6820ca1276e0e/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-17T01:43:56+00:00 | 2026-10-17T04:14:41+00:00 | 2026-10-17T04:14:40+00:00 |
 | [c569ccadce9f4e579892b45962e2365b](state/batches/c569ccadce9f4e579892b45962e2365b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-14T01:12:19+00:00 | 2026-10-14T01:14:04+00:00 | 2026-10-14T01:14:04+00:00 |
 | [c58b9cc22ec648819221243c47544ab5](state/batches/c58b9cc22ec648819221243c47544ab5/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-15T11:50:48+00:00 | 2026-10-15T11:53:37+00:00 | 2026-10-15T11:53:37+00:00 |
