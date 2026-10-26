@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 3, lines 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "קבל ממנו כוח לדרוך בארץ על עוקץ הנחש ועל ראש הדרקון.",
+      "translation_quote": "קבל ממנו כוח לדרוך על הארץ, / על עוקץ הנחש ועל ראש הדרקון."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

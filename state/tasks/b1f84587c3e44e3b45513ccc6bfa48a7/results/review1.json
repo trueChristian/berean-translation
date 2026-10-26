@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "27670d60-3189-445f-bd7f-dc8426035b14",
+    "response_id": "chatcmpl-Ed8HcQvXvgPfl23ndbcNJ7winA8Bw",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2130,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2127,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2912
+    }
+  },
+  "received_at": "2026-10-26T07:03:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Stanza 3, lines 3–4",
+        "severity": "major",
+        "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+        "suggested_fix": "קבל ממנו כוח לדרוך בארץ על עוקץ הנחש ועל ראש הדרקון.",
+        "translation_quote": "קבל ממנו כוח לדרוך על הארץ, / על עוקץ הנחש ועל ראש הדרקון."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

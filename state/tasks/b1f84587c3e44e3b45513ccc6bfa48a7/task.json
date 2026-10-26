@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c55bb1e153e746589329ce7563bb12c4",
   "campaign": "auto-7f764b361a803c2ffefa47592fd169f3ce0ec522c7d9190d6066d0b177909faa",
   "created_at": "2026-10-26T01:49:45+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1776
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 782,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 652,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2130,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2127,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2912
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Stanza 3, lines 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "קבל ממנו כוח לדרוך בארץ על עוקץ הנחש ועל ראש הדרקון.",
+      "translation_quote": "קבל ממנו כוח לדרוך על הארץ, / על עוקץ הנחש ועל ראש הדרקון."
+    }
+  ],
   "id": "b1f84587c3e44e3b45513ccc6bfa48a7",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086034,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"
