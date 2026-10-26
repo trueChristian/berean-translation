@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-26T06:07:52+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"עץ ירוק־עד לצד אגם, ולצדו שיחים ומדרון הר מכוסה שלג.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>כשחומות הרים ניצבות בדרכך,<br>\\nלמה תשב ותבכה? קום ואמור:<br>\\n״היעקר ממקומך״, והן ייזרקו<br>\\nאל הים בכוחו של אלוהים.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>כל הכוח עלי אדמות, כל הכוח בשמים,<br>\\nניתן למשיח, בן האלוהים;<br>\\nומן הכס יעניק לך כוח,<br>\\nוהמכשולים ייעלמו מדרכך.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>מעל לכל כוחם של השד והאדם,<br>\\nאמור באמצעות האדון: ״אני בוודאי יכול״.<br>\\nקבל ממנו כוח לדרוך על הארץ,<br>\\nעל עוקץ הנחש ועל ראש הדרקון.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>לא משנה מי אתה, הר גבוה,<br>\\nבכל מקום שבו אתה, בארץ או בשמים,<br>\\nבכל זמן שבו אתה, האמת אחת היא:<br>\\n״היעקר ממקומך בשם ישוע״.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>״היעקר ממקומך״ — האמונה קוראת לך לצאת לדרך,<br>\\nהבט לשם — קום! לך מכאן!<br>\\nאני רשאי, אני יכול, אני חייב, אני רוצה<br>\\nלהגשים את רצונו של אלוהיי.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"סמכות\"}",
+    "content_bytes": 1697,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5dccec243aea4c4e6ff8fb6894cb82d7431da313819b403fd4d7b86ec11ece0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 517,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1776
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
