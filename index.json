@@ -450,11 +450,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
-      "html_sha256": "8080e3d0841a4f50428a15865b99454b3d80160bb9c833942b7acc309726705f",
-      "human_reviewed": false,
+      "html_sha256": "f905720fd93d7d3d60cab726afb9efd692bd5926f7ca512323214349b6a9c343",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "4021991481159cb5dbda2a1763e76bcee75ae863",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T18:44:45+02:00"
+      },
+      "human_reviewed": true,
       "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
       "images": [
         {
@@ -467,6 +473,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
       "metadata_sha256": "ce11ce388fb857b9aac268d77545eadbbcecf84399aa8b0722e5f5217ecf9bb0",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "Gedig",
