@@ -4,6 +4,7 @@
   "custom_ids": [
     "9a85713492fe9811bf31f22723103ca4:correct"
   ],
+  "error_type": "InternalServerError",
   "id": "fb5f1c94513a4f398566e505f15a01b1",
   "input_file_id": null,
   "model": "gpt-6.1-sol",
@@ -14,5 +15,6 @@
   "status": "prepared",
   "tasks": [
     "9a85713492fe9811bf31f22723103ca4"
-  ]
+  ],
+  "upload_failures": 1
 }
