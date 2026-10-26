@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-26T23:45:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stanza 5, final two lines\",\"severity\":\"major\",\"source_quote\":\"“I may, I can, I must, I will, / The purpose of my God fulfill.”\",\"suggested_fix\":\"Replace the final two lines with: ״אני מסוגל, אני יכול, אני חייב, אני אעשה / ואגשים את התכלית שקבע אלוהיי.״\",\"translation_quote\":\"אני רשאי, אני יכול, אני חייב, אני רוצה / להגשים את רצונו של אלוהיי.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 531,
+    "content_evidence_truncated": false,
+    "content_sha256": "3aea72a2d7719c8a985f1974ac3545eef7345e60a00c24f0b7a7cebbf08f513f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 842,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3119
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 5, final two lines",
+      "severity": "major",
+      "source_quote": "“I may, I can, I must, I will, / The purpose of my God fulfill.”",
+      "suggested_fix": "Replace the final two lines with: ״אני מסוגל, אני יכול, אני חייב, אני אעשה / ואגשים את התכלית שקבע אלוהיי.״",
+      "translation_quote": "אני רשאי, אני יכול, אני חייב, אני רוצה / להגשים את רצונו של אלוהיי."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

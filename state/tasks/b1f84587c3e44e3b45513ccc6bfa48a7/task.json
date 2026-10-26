@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "568a6f655bd943eb943de8a9e22bf3d1",
   "campaign": "auto-7f764b361a803c2ffefa47592fd169f3ce0ec522c7d9190d6066d0b177909faa",
   "created_at": "2026-10-26T01:49:45+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 2698
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 842,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2129,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2126,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3119
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Stanza 3, lines 3–4",
+      "location": "Stanza 5, final two lines",
       "severity": "major",
-      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
-      "suggested_fix": "קבל ממנו כוח לדרוך בארץ על עוקץ הנחש ועל ראש הדרקון.",
-      "translation_quote": "קבל ממנו כוח לדרוך על הארץ, / על עוקץ הנחש ועל ראש הדרקון."
+      "source_quote": "“I may, I can, I must, I will, / The purpose of my God fulfill.”",
+      "suggested_fix": "Replace the final two lines with: ״אני מסוגל, אני יכול, אני חייב, אני אעשה / ואגשים את התכלית שקבע אלוהיי.״",
+      "translation_quote": "אני רשאי, אני יכול, אני חייב, אני רוצה / להגשים את רצונו של אלוהיי."
     }
   ],
+  "finished_at": "2026-10-26T23:45:11+00:00",
   "id": "b1f84587c3e44e3b45513ccc6bfa48a7",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.086034,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"
