@@ -110,15 +110,21 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
-      "html_sha256": "a641b3351d20a80aea9bca04ec09f21b233e9567b70efe31479d24c2ee7f11b4",
-      "human_reviewed": false,
+      "html_sha256": "84f7aba577fb5a11f7b088295af1981134e0b40586d9cff3d5e72c7e94091bbc",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "a63ba38d64aeee9b3479153e378183c58192d3ec",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T11:27:46+02:00"
+      },
+      "human_reviewed": true,
       "id": "069fc797-01e4-44d3-8b71-1c07f0821965",
       "images": [
         {
-          "alt": "Jacques Dosie kniel voor Vrou Friesland en ander amptenare",
+          "alt": "Jacques Dosie kniel voor Dame Friesland en ander amptenare",
           "public_path": "/images/articles/069fc797-01e4-44d3-8b71-1c07f0821965-1.jpg"
         }
       ],
@@ -127,6 +133,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/069fc797-01e4-44d3-8b71-1c07f0821965.json",
       "metadata_sha256": "570df13f5804a5be625e754507a16931fcb829c2685ec35b19e6318708f9f367",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "INSPIRASIE VIR JONGMENSE",
