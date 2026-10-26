@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-26T06:00:16+00:00.
+Generated: 2026-10-26T06:06:20+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -3796,7 +3796,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [4a0e993820074a369e72057a47e5dbf5](state/batches/4a0e993820074a369e72057a47e5dbf5/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-14T22:19:53+00:00 | 2026-10-14T22:23:29+00:00 | 2026-10-14T22:23:28+00:00 |
 | [4a4192a20f9e4818858be1d12d51a5f5](state/batches/4a4192a20f9e4818858be1d12d51a5f5/batch.json) / correct | collected / completed | 122 / 122 / 0 | 2026-10-03T21:32:46+00:00 | 2026-10-03T21:50:42+00:00 | 2026-10-03T21:50:39+00:00 |
 | [4a61602ab72b435e819a9f569127a22d](state/batches/4a61602ab72b435e819a9f569127a22d/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T16:56:47+00:00 | 2026-10-14T18:33:49+00:00 | 2026-10-14T18:33:48+00:00 |
-| [4a90e5b214864419862ddb229184afef](state/batches/4a90e5b214864419862ddb229184afef/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-26T01:56:02+00:00 |
+| [4a90e5b214864419862ddb229184afef](state/batches/4a90e5b214864419862ddb229184afef/batch.json) / translate | submitted / completed | 1 / 1 / 0 | 2026-10-26T01:58:46+00:00 | not collected | 2026-10-26T06:03:10+00:00 |
 | [4a91e6652d894c09bd3a37bcdf1d8f64](state/batches/4a91e6652d894c09bd3a37bcdf1d8f64/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-12T06:48:48+00:00 | 2026-10-12T07:17:58+00:00 | 2026-10-12T07:17:58+00:00 |
 | [4aaaa59e0ed24066af3bfaa1365a7e64](state/batches/4aaaa59e0ed24066af3bfaa1365a7e64/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-17T06:22:12+00:00 | 2026-10-17T06:24:40+00:00 | 2026-10-17T06:24:39+00:00 |
 | [4ad1e1da417c493198bc483d921b4d9b](state/batches/4ad1e1da417c493198bc483d921b4d9b/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-18T11:14:52+00:00 | 2026-10-18T11:16:03+00:00 | 2026-10-18T11:16:03+00:00 |
@@ -5368,6 +5368,7 @@ Provider completion and local collection are separate clocks. Older records with
 
 ## Provider diagnostics
 
+- [batch 4a90e5b214864419862ddb229184afef](state/batches/4a90e5b214864419862ddb229184afef/batch.json): Provider read failed. Check provider availability and project access; collection can resume without resubmitting the batch.
 - [batch 6e4ae4e999e44fb79a88e3f307ac3c53](state/batches/6e4ae4e999e44fb79a88e3f307ac3c53/batch.json): Submission remains uncertain. Reconcile the submission key; never retry creation without verified absence and explicit owner confirmation.
 - [task 06cd031e7e18c384609b081cdbf17f9b](state/tasks/06cd031e7e18c384609b081cdbf17f9b/task.json): `provider_error`. Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.
 - [task 124112de9ec2f0e2f4a39dde5fa60558](state/tasks/124112de9ec2f0e2f4a39dde5fa60558/task.json): `provider_error`. Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.
