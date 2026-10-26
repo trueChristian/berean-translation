@@ -13,15 +13,33 @@
       "event": "complete",
       "reason": null,
       "task": "9df23f6f1d811d20c20c6025efdde833"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "c5ec2c193a85e075eb9a5d3feccf8169fa15b505",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T09:02:45+02:00"
+      },
+      "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
+      "metadata_sha256": "636fb21599b52c0b78b68b43ad84931f7e4d343db457e3ab8d247b0656d329a0"
     }
   ],
   "language": "afr",
   "latest_task": "9df23f6f1d811d20c20c6025efdde833",
   "published": {
+    "accepted_snapshot": "state/publications/70377651757cab4f05bf0c5a7b02ebaa105e13cf359f152b06d06854dc490dbe.json",
     "html_path": "content/afr/articles/053cec10-1df0-4f62-832e-362809b44283.html",
-    "html_sha256": "c9bef050f67ec6986265b56e9d183add1a50de5a7ee4f15f05b264544a65dcf6",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "c5ec2c193a85e075eb9a5d3feccf8169fa15b505",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-10-26T09:02:45+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/053cec10-1df0-4f62-832e-362809b44283/\" data-source-article-id=\"053cec10-1df0-4f62-832e-362809b44283\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
     "metadata_path": "content/afr/articles/053cec10-1df0-4f62-832e-362809b44283.json",
     "metadata_sha256": "636fb21599b52c0b78b68b43ad84931f7e4d343db457e3ab8d247b0656d329a0",
