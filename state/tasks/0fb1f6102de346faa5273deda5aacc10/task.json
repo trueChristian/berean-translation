@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5a0862ef36734d689ddbb8b0a60ea252",
   "campaign": "auto-82acc3ec8da0a44504d7621dc9a61727bae29e78e9ca603ba9357c5183b62b6e",
   "created_at": "2026-10-25T16:05:10+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 2941
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1003,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 884,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2162,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2159,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3165
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, third poem stanza, lines 3–4",
-      "severity": "major",
-      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
-      "suggested_fix": "그분께 권능을 받아 땅 위에서 / 뱀의 독침과 용의 머리를 밟으라.",
-      "translation_quote": "그분께서 주시는 땅 위를 다스릴 권세를 취하여, / 뱀의 독침과 용의 머리를 밟으라."
-    },
-    {
-      "location": "HTML, fifth poem stanza, line 3",
+      "location": "HTML, final poem stanza, first line",
       "severity": "minor",
-      "source_quote": "I may, I can, I must, I will,",
-      "suggested_fix": "나는 할 수도 있고, 할 수 있고, 해야 하며, 반드시 하리라.",
-      "translation_quote": "나는 할 수 있고, 할 수 있으며, 반드시 하리라."
+      "source_quote": "“Be thou removed” faith bids thee start",
+      "suggested_fix": "믿음은 네게 “옮겨져라” 하며 움직이기 시작하라고 하네.",
+      "translation_quote": "믿음은 네게 “옮겨져라” 말하며 떠나라 하네."
     }
   ],
+  "finished_at": "2026-10-26T01:48:53+00:00",
   "id": "0fb1f6102de346faa5273deda5aacc10",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.086034,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final poem stanza, first line",
+      "severity": "minor",
+      "source_quote": "“Be thou removed” faith bids thee start",
+      "suggested_fix": "믿음은 네게 “옮겨져라” 하며 움직이기 시작하라고 하네.",
+      "translation_quote": "믿음은 네게 “옮겨져라” 말하며 떠나라 하네."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

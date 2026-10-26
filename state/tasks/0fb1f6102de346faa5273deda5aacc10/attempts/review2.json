@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-26T01:48:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final poem stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"“Be thou removed” faith bids thee start\",\"suggested_fix\":\"믿음은 네게 “옮겨져라” 하며 움직이기 시작하라고 하네.\",\"translation_quote\":\"믿음은 네게 “옮겨져라” 말하며 떠나라 하네.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 379,
+    "content_evidence_truncated": false,
+    "content_sha256": "b54e4cab63076c97f0c7a22ab2ec0306866fb2373b805fb968762539b5010fbb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 884,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2162,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2159,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3165
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
