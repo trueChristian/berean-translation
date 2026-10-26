@@ -210,23 +210,25 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
-      "html_sha256": "eeaff1d99159ab5152a3de767f74d383d0515ee7858fc42d07335ee4f2e0a8d2",
-      "human_reviewed": false,
+      "html_sha256": "016ec1481173dc8bd77ab8e680180c45db1e4cd97596bd7c0ef880c3bfe3fb2d",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "ff8a1130be49dc552e82c7776549343b055a0394",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T17:26:43+02:00"
+      },
+      "human_reviewed": true,
       "id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
-      "images": [
-        {
-          "alt": "Pienk gebrokehartblomme teen ’n sag vervaagde groen agtergrond",
-          "public_path": "/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg"
-        }
-      ],
+      "images": [],
       "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.json",
       "metadata_sha256": "6ff022dd58691a052e669423d06d4eaacb197861065ee54a64a2b0ad655ac8f6",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": null,
