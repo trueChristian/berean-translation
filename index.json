@@ -415,11 +415,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
-      "html_sha256": "3b13f5ba78f94a9535ae11bf4a26bfb2fb54157c9474325e85b0a217229d5d93",
-      "human_reviewed": false,
+      "html_sha256": "1541a3ca048fc1f836f6c425ea95ee372235adab98da723a0fdf91ba15fce353",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "0a142782eab014df7d6d0813694bc0ac61964141",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T18:27:11+02:00"
+      },
+      "human_reviewed": true,
       "id": "175280ea-7e5f-4be2-bbce-b500c0fd93cb",
       "images": [
         {
@@ -432,6 +438,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.json",
       "metadata_sha256": "459e4882569c46f9eb823170d168d403323456c94a64946b5665bc8d7c569bb1",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "VAN DIE REDAKTEUR",
