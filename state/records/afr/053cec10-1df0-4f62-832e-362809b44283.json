@@ -24,6 +24,17 @@
       },
       "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
       "metadata_sha256": "636fb21599b52c0b78b68b43ad84931f7e4d343db457e3ab8d247b0656d329a0"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "c166aa5313eb445c70921a448e2be59e5c9d3dbd",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T15:41:11+02:00"
+      },
+      "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
+      "metadata_sha256": "636fb21599b52c0b78b68b43ad84931f7e4d343db457e3ab8d247b0656d329a0"
     }
   ],
   "language": "afr",
@@ -34,9 +45,9 @@
     "html_sha256": "65a968665319df4e94070bc78ff88ff7ab88a8ee3e0e628bfc26c1ce33fd949f",
     "human_review": {
       "author": "Malachi",
-      "commit": "c5ec2c193a85e075eb9a5d3feccf8169fa15b505",
+      "commit": "c166aa5313eb445c70921a448e2be59e5c9d3dbd",
       "email": "163401881+malachivdm@users.noreply.github.com",
-      "time": "2026-10-26T09:02:45+02:00"
+      "time": "2026-10-26T15:41:11+02:00"
     },
     "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/053cec10-1df0-4f62-832e-362809b44283/\" data-source-article-id=\"053cec10-1df0-4f62-832e-362809b44283\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
     "human_reviewed": true,
