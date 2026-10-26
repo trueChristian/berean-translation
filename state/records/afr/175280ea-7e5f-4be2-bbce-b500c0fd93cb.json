@@ -12,15 +12,33 @@
       "event": "complete",
       "reason": null,
       "task": "93d3a53f8721093933870a6a5a6321d8"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "0a142782eab014df7d6d0813694bc0ac61964141",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-26T18:27:11+02:00"
+      },
+      "html_sha256": "1541a3ca048fc1f836f6c425ea95ee372235adab98da723a0fdf91ba15fce353",
+      "metadata_sha256": "459e4882569c46f9eb823170d168d403323456c94a64946b5665bc8d7c569bb1"
     }
   ],
   "language": "afr",
   "latest_task": "93d3a53f8721093933870a6a5a6321d8",
   "published": {
+    "accepted_snapshot": "state/publications/84846c10bf066503e3bc5fb7c3cfebee44cebdaacf97013dc9bf718b6fcb28dd.json",
     "html_path": "content/afr/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
-    "html_sha256": "3b13f5ba78f94a9535ae11bf4a26bfb2fb54157c9474325e85b0a217229d5d93",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "1541a3ca048fc1f836f6c425ea95ee372235adab98da723a0fdf91ba15fce353",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "0a142782eab014df7d6d0813694bc0ac61964141",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-10-26T18:27:11+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb/\" data-source-article-id=\"175280ea-7e5f-4be2-bbce-b500c0fd93cb\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
     "metadata_path": "content/afr/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.json",
     "metadata_sha256": "459e4882569c46f9eb823170d168d403323456c94a64946b5665bc8d7c569bb1",
