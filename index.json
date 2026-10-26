@@ -47596,6 +47596,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "d70594d25c3c378355ca7e8213c49ef1817e7c741b07aef3375446c70f69c0ed",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "관목과 눈 덮인 산비탈이 있는 호숫가의 상록수.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "394585709ae6b02aae7d51ac931dfd1d087477ba04dfa338b83b2025b2cb5edb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "권세",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "78315b8003e7530767197c10349289c81d9f68161dbe00f988a65d669c12ccda",
       "human_reviewed": false,
