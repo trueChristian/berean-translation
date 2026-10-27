@@ -22136,6 +22136,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "329f337be5bad9a06e7adcb94ba116741c0adf7f45a378f318f5aa251049a361",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Ένα αειθαλές δέντρο δίπλα σε λίμνη, με θάμνους και μια χιονισμένη βουνοπλαγιά.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "5a9a0233675ef235aba2de6a8c8ab941ecb5b319b89f8d4511fe608a980f701b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Εξουσία",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "2445fae7bd089526dba992733a76619a74d4009a96f4226bebcf4c61442dbf72",
       "human_reviewed": false,
