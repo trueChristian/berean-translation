@@ -515,11 +515,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
-      "html_sha256": "a74b28f7a0dc2839177572ace265b23341281d1c58b016ab09d3312748d56f66",
-      "human_reviewed": false,
+      "html_sha256": "9910ba765e5347d708b9806ba0cc2f14ae50d06858869a98a920d97820728d35",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "3c353bf693a2679fb3d1a594ab0689cee3e17622",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-27T09:45:01+02:00"
+      },
+      "human_reviewed": true,
       "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
       "images": [
         {
@@ -531,7 +537,8 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.json",
-      "metadata_sha256": "ad6515ea602a0211909e1a1369eeedf0ccd35d2da962ae05133dd495fda8f88a",
+      "metadata_sha256": "e335fed4085f2857ec7bb4a12619b49e99af818700f0c67cfc0d5f4a5ae0e255",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "’N WOORD VAN ’N DOKTER",
@@ -539,7 +546,7 @@
       "source_translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
       "status": "ready",
       "subtitle": null,
-      "title": "Die Christen se Gesig op Wetenskap",
+      "title": "Die Christen se Siening van die Wetenskap",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
