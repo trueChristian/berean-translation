@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-27T16:38:52+00:00.
+Generated: 2026-10-27T19:47:28+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -5340,7 +5340,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [fb6bd9415dcf4d76ba6a6c2fbe46dcc3](state/batches/fb6bd9415dcf4d76ba6a6c2fbe46dcc3/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:18:31+00:00 | 2026-10-01T19:19:18+00:00 | 2026-10-01T19:19:17+00:00 |
 | [fba06d505c324aa0ba14eace58b60a23](state/batches/fba06d505c324aa0ba14eace58b60a23/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-16T22:29:47+00:00 | 2026-10-16T23:31:37+00:00 | 2026-10-16T23:31:36+00:00 |
 | [fba2b002b8b44010a4aa32b46fc96707](state/batches/fba2b002b8b44010a4aa32b46fc96707/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-16T01:28:34+00:00 | 2026-10-16T05:10:24+00:00 | 2026-10-16T05:10:24+00:00 |
-| [fbb62f3457d54c95852250b261f7ae1b](state/batches/fbb62f3457d54c95852250b261f7ae1b/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-27T16:36:05+00:00 |
+| [fbb62f3457d54c95852250b261f7ae1b](state/batches/fbb62f3457d54c95852250b261f7ae1b/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-27T19:42:23+00:00 |
 | [fbd89ca2af1b4744b739ed5d1f435e9a](state/batches/fbd89ca2af1b4744b739ed5d1f435e9a/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-21T09:40:00+00:00 | 2026-10-21T09:41:15+00:00 | 2026-10-21T09:41:14+00:00 |
 | [fbef299e62f8472d8e9381280f4afc8f](state/batches/fbef299e62f8472d8e9381280f4afc8f/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-11T21:56:10+00:00 | 2026-10-12T00:28:43+00:00 | 2026-10-12T00:28:43+00:00 |
 | [fbf4937ab73948198690b9ac0575f99c](state/batches/fbf4937ab73948198690b9ac0575f99c/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-16T14:50:25+00:00 | 2026-10-16T14:54:14+00:00 | 2026-10-16T14:54:13+00:00 |
