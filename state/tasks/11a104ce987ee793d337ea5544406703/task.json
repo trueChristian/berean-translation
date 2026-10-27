@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "36c079d5b595483388aa9bb109770631",
   "campaign": "auto-837af8481f363f0215f7937b1bc27d80d2d36810ac59b242d0e5a03737d3aca3",
   "created_at": "2026-10-27T07:35:21+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2283
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 738,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 645,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2242,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2239,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2980
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Last stanza, final line",
+      "severity": "minor",
+      "source_quote": "The purpose of my God fulfill.",
+      "suggested_fix": "Το σχέδιο του Θεού μου θα εκπληρώσω.",
+      "translation_quote": "Το θέλημα του Θεού μου θα εκπληρώσω."
+    }
+  ],
+  "finished_at": "2026-10-27T16:28:34+00:00",
   "id": "11a104ce987ee793d337ea5544406703",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ell",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08c9a392ded4c728122a3c51f995867eef59a2859cd92b5385cf83b44b17684d.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08603,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

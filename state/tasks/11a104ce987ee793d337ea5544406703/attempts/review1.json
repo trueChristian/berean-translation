@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-27T16:28:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Last stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"The purpose of my God fulfill.\",\"suggested_fix\":\"Το σχέδιο του Θεού μου θα εκπληρώσω.\",\"translation_quote\":\"Το θέλημα του Θεού μου θα εκπληρώσω.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 342,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f77bfd2a22ba048700c98969d90ffe9c6e9f3f77ce3ea2e0799aee2091af9fa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2239,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2980
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
