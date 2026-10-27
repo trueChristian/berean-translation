@@ -11708,7 +11708,7 @@
       "section": "খ্রীস্টীয় শিষ্যত্ব",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "কলুষিত সমাজে নৈতিকভাবে পবিত্র",
       "translation_model": "gpt-6.1-sol"
@@ -15600,7 +15600,7 @@
       "section": "基督徒门徒训练",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "在败坏的社会中保持道德纯洁",
       "translation_model": "gpt-6.1-sol"
@@ -39959,7 +39959,7 @@
       "section": "PEMBINAAN KRISTEN",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Murni Secara Moral di Tengah Masyarakat yang Korup",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -44661,7 +44661,7 @@
       "section": "DISCIPLINA CRISTIANA",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Moralmente Puri in una Società Corrotta",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -53546,7 +53546,7 @@
       "section": "CHRISTIAN DISCIPLESHIP",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Moreel zuiver in een corrupte maatschappij",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -84267,7 +84267,7 @@
       "section": "مسیحی شراکتِ تلمیذانہ",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "ایک بگاڑے ہوئے معاشرے میں اخلاقی طور پر پاک",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -85333,6 +85333,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "3763a543b1488482d1c28e59cbab433324106b5b",
+  "observed_source_revision": "2761f70df5182cbb59be4e55839baeeef1afcf01",
   "source_repository": "trueChristian/berean-voice"
 }

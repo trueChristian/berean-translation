@@ -11356,9 +11356,9 @@
     },
     "b43320f3-e4e8-450b-865c-099ef704149c": {
       "fingerprints": {
-        "html_sha256": "8e35d5ac82d53f0681d84219da1efc373be902fba795326c309c7da0c5fafaea",
+        "html_sha256": "f37c4bdda4eb816a611e6e479ee3d23a5cf262ea171c14172e67de539c2698c0",
         "metadata_sha256": "21a950641cf5097266a4e01fca61ab6036844d1ac4ab202a4e5229a6d58a507c",
-        "structure_sha256": "da3daa91641a665d746624ad69fd449a4c61bad391408dc46a66772bed7164d5",
+        "structure_sha256": "21c2b10e7961d21706534a2c83d11b76bc704c139f9af1770893e51cd6aad520",
         "text_sha256": "79dc6752de64041002ca67e3b4b193edf9b489f0bdd1ba3aa1b0d9efceca7308",
         "translation_metadata_sha256": "ea6f9be643a4eb3d920b865149d706f37f478a2c0b32ab32bf97587f52642f3b"
       },
@@ -11366,7 +11366,7 @@
       "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
       "sequence": 5,
       "title": "Morally Pure In a Corrupt Society",
-      "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95"
+      "translation_key": "05180aad8b6f332174c4db1a9228046444c6580c1849b90249b36d79fe00c330"
     },
     "b45a94a8-4c0d-4b2d-bd2f-a83417de194b": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "122064ab2a3319e7479a83a41ab5bcf257ee6fd49b22d263e61a2c519ca228f3",
+  "content_sha256": "637ede1fec03842a52d35ef1dc73fe6f32e90d5e54c4106ab984495940a1a4d4",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "3763a543b1488482d1c28e59cbab433324106b5b"
+  "revision": "2761f70df5182cbb59be4e55839baeeef1afcf01"
 }

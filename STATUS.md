@@ -2,13 +2,13 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-27T19:52:38+00:00.
+Generated: 2026-10-27T21:13:52+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `3763a543b1488482d1c28e59cbab433324106b5b`
+Observed English revision: `2761f70df5182cbb59be4e55839baeeef1afcf01`
 
 Total target: 23360 article/language pairs. published: 3005 | unstarted: 18721 | queued: 48 | active: 2 | held without publication: 1584.
 
@@ -17,7 +17,7 @@ Last collection: 2026-10-27T19:52:38+00:00; newly published: 0; stop reason: wai
 | Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 0 | 0 | 1 | 0 | 108 |
-| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 0 | 0 | 63 | 0 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 0 | 0 | 63 | 6 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 136 / 220 | 0 | 0 | 0 | 84 | 9 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 0 | 0 | 83 | 0 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 113 / 200 | 0 | 0 | 0 | 87 | 0 | 0 |
@@ -121,22 +121,22 @@ Last collection: 2026-10-27T19:52:38+00:00; newly published: 0; stop reason: wai
 
 | Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 144 / 1168 | 936 | 4 | 0 | 84 | 2 | 5 | 0 | 117 |
+| `cmn` (zh-Hans) | 144 / 1168 | 936 | 4 | 0 | 84 | 3 | 5 | 0 | 117 |
 | `hin` (hi) | 154 / 1168 | 936 | 0 | 0 | 78 | 2 | 7 | 0 | 128 |
 | `spa` (es) | 179 / 1168 | 936 | 0 | 0 | 53 | 3 | 5 | 0 | 100 |
 | `ara` (ar) | 138 / 1168 | 936 | 2 | 0 | 92 | 2 | 9 | 0 | 142 |
 | `fra` (fr) | 172 / 1168 | 936 | 4 | 0 | 56 | 2 | 9 | 0 | 100 |
-| `ben` (bn) | 137 / 1168 | 936 | 3 | 0 | 92 | 1 | 7 | 0 | 131 |
+| `ben` (bn) | 137 / 1168 | 936 | 3 | 0 | 92 | 2 | 7 | 0 | 131 |
 | `por` (pt) | 191 / 1168 | 936 | 1 | 0 | 40 | 3 | 6 | 0 | 94 |
-| `ind` (id) | 165 / 1168 | 936 | 4 | 0 | 63 | 3 | 6 | 0 | 113 |
-| `urd` (ur) | 146 / 1168 | 936 | 2 | 0 | 84 | 2 | 5 | 0 | 131 |
+| `ind` (id) | 165 / 1168 | 936 | 4 | 0 | 63 | 4 | 6 | 0 | 113 |
+| `urd` (ur) | 146 / 1168 | 936 | 2 | 0 | 84 | 3 | 5 | 0 | 131 |
 | `rus` (ru) | 142 / 1168 | 936 | 5 | 0 | 85 | 2 | 6 | 0 | 141 |
 | `deu` (de) | 129 / 1168 | 936 | 2 | 0 | 101 | 1 | 4 | 0 | 123 |
-| `nld` (nl) | 161 / 1168 | 936 | 2 | 0 | 69 | 3 | 9 | 0 | 121 |
+| `nld` (nl) | 161 / 1168 | 936 | 2 | 0 | 69 | 4 | 9 | 0 | 121 |
 | `afr` (af) | 165 / 1168 | 936 | 4 | 0 | 63 | 3 | 9 | 16 | 105 |
 | `swa` (sw) | 110 / 1168 | 936 | 3 | 0 | 119 | 0 | 7 | 0 | 157 |
 | `kor` (ko) | 155 / 1168 | 936 | 1 | 0 | 76 | 1 | 5 | 0 | 121 |
-| `ita` (it) | 168 / 1168 | 936 | 5 | 0 | 59 | 3 | 7 | 0 | 97 |
+| `ita` (it) | 168 / 1168 | 936 | 5 | 0 | 59 | 4 | 7 | 0 | 97 |
 | `heb` (he) | 95 / 1168 | 936 | 0 | 0 | 137 | 1 | 5 | 0 | 151 |
 | `ell` (el) | 149 / 1168 | 936 | 1 | 0 | 82 | 2 | 9 | 0 | 126 |
 | `swe` (sv) | 154 / 1168 | 936 | 4 | 1 | 73 | 2 | 7 | 0 | 122 |
@@ -2162,7 +2162,7 @@ Funded progressing repairs can continue beyond three historical cycles. Repeated
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; each prior run retains its frozen funding and attempt limits.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 2 | already_translated: 108 | automatic_budget_blocked: 523 | continuation_progress_uncertain_requires_attention: 2 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 999 | eligible_source_refresh: 20 | legacy_response_outcome_unknown_requires_owner_attention: 11 | pending_automatic_admission: 48 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 3 | technical_failure_requires_attention: 22
+active: 2 | already_translated: 108 | automatic_budget_blocked: 523 | continuation_progress_uncertain_requires_attention: 2 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 986 | eligible_source_refresh: 34 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 48 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 3 | technical_failure_requires_attention: 22
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
