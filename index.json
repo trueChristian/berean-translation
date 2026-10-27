@@ -375,20 +375,16 @@
       "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
-      "html_sha256": "266e4e7aac1e2be8c7e4dd860e25ae30f963a9a2a3e5a468e35d09b9d93a149e",
+      "html_sha256": "512f97adf824c07c224968cc8745c2912ce024ec86954d513c3cb54df95b55fb",
       "human_edit": {
-        "author": "Roline van der Merwe",
-        "commit": "61cdce8d7b4dc18cc915459d9ee5c17c97ae1387",
-        "email": "roline@vdm.io",
-        "time": "2026-10-23T11:33:35+02:00"
+        "author": "JoMandalor",
+        "commit": "3bbd861b4a520e4c701d6e2ec498fecc8a1e3116",
+        "email": "99845461+JoMandalor@users.noreply.github.com",
+        "time": "2026-10-27T10:52:17+02:00"
       },
       "human_reviewed": true,
       "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
       "images": [
-        {
-          "alt": "Doudruppels op groen gras",
-          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
-        },
         {
           "alt": "Doudruppels op groen gras",
           "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
