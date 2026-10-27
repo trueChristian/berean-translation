@@ -548,17 +548,17 @@
     },
     "095ed998-d5e3-49fb-a63f-a2e4c434c1aa": {
       "fingerprints": {
-        "html_sha256": "4b3f584a3c65cd0646836124867aecf2c588b48e4f8c38c214be3d922ed6ce68",
-        "metadata_sha256": "42b0623274ff3441742cde27a97d628e2f1331717b4b1b6b0d5b2d8150ff4bbc",
-        "structure_sha256": "7585a9b9e27c1e8620d1e3f1c35bd1ca46d5aa1522d960971aee315f2ec302bf",
+        "html_sha256": "3cd3c3bf3be72d62440d4425d437a64f548f34f7aefb1d64f4fc3b3ae8f60903",
+        "metadata_sha256": "894ba63de41207bc9d996ac4732cc8b356ecb90d7786a6b66769b6a20c20233b",
+        "structure_sha256": "1fc1f07a91c64063ac4feb9b26725e7f441c038c17f2275c12b6c51892495469",
         "text_sha256": "c7b7ca56507f180fb1ae0b2766acb2704dbc1e22147167a15c57143ba37f4ec3",
-        "translation_metadata_sha256": "2d4c6977b682bd9423ea9b1dc17e1ecdfda125feefae9c6c7962b8497a287634"
+        "translation_metadata_sha256": "3a8e7dce4bbe574292bcee491fd11e827dbdeb83a8285af92dc59d49993f2094"
       },
       "id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
       "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
       "sequence": 11,
       "title": "Only in the Darkness",
-      "translation_key": "ea9bf23ef3f7fa33a2b3306b026950250cd24113f3ce9f3dcde418ae15b0cd35"
+      "translation_key": "705372f522f7317e2d009d2aaa9998e4d73cb36568790be910c48675e591d5e6"
     },
     "09f037f6-74ca-41c0-864c-e3c4c09cd451": {
       "fingerprints": {
@@ -5644,9 +5644,9 @@
     },
     "5a87c21f-cce9-4033-8a43-5458311bc7f0": {
       "fingerprints": {
-        "html_sha256": "62b9c610a43994772458acbbe0845437f7981eddac4000f1a452a5973701c169",
+        "html_sha256": "7005a5247fc543859e2b4c85b7dbae207c17c2cd226ef24fe7374cb0100f845d",
         "metadata_sha256": "91fe13730ae30e47727d0d345edbc7faeff1cab210def1f68d4e3409172f98b7",
-        "structure_sha256": "41473f75e7b511746ea82cfde3bd87836aea524883e86ecc160b9183ca5ab972",
+        "structure_sha256": "67eb65eb6cf2e149b3bf01a7d5025d7dafc008484c5041ea6e7ce6c12de79621",
         "text_sha256": "2019df7599757d30eaad717f4b6eeab572b1635be8451cc2a414d6b01f7211e2",
         "translation_metadata_sha256": "a7021ae2cef492c929c0293a29e30aedb651e5b01fab6cab0c8540876ca7f424"
       },
@@ -5654,7 +5654,7 @@
       "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
       "sequence": 9,
       "title": "A Christ-Centered Courtship Series",
-      "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6"
+      "translation_key": "09dabacb69e24e075496d9d045ded0be9c23d6c49e93251ddc21d7b6783b7912"
     },
     "5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2": {
       "fingerprints": {
@@ -12700,9 +12700,9 @@
     },
     "c725c2e8-4702-4317-976c-cffd4547b36c": {
       "fingerprints": {
-        "html_sha256": "f7efa500525bdb209b33b0f73ead452d9e232b043e4c5506ffe7fa406547ec28",
+        "html_sha256": "49d51e8c6b383b2f5f0e80fb2c01aee2f5824dd7d9b887d9180b432f61eff593",
         "metadata_sha256": "07f9c96740b5fc8e4c04d82debc5e6b28a96448cdd3757d5c945626d9a98aea8",
-        "structure_sha256": "484cc1a00520ad233def9c824cf0a44c595710f6e57144095c18a48e09deb0c1",
+        "structure_sha256": "d4965712a7382d36fe416c134c8690169108a2d59df06debca33d08ebd2b82a1",
         "text_sha256": "7a8b02507c9c8e43ce5ff92e209b39794f882690203e219ae315785722716ec1",
         "translation_metadata_sha256": "4c35eebec0de0a99a5c96c216138d9ea4d27ea748ce858427e9ef9785679027a"
       },
@@ -12710,7 +12710,7 @@
       "issue_id": "6e434782-fad8-50a6-84db-a97babd8c346",
       "sequence": 4,
       "title": "Resist Not",
-      "translation_key": "23160f594f403b3b69014126cecd448b0c3476dad602665c61bc816ea361366d"
+      "translation_key": "190719aa56810dda9bade561f4f8c3b0a4f9bde061673eace22f2802f910ef0b"
     },
     "c7591c5d-fba7-438c-a348-740e433f778a": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "140d51734501371e0f72f4fc386bc23fed527be6e792e2e10139ae492f72071b",
+  "content_sha256": "122064ab2a3319e7479a83a41ab5bcf257ee6fd49b22d263e61a2c519ca228f3",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "6bdbce00fedd9bfc67526709a537b31c5d1c59d0"
+  "revision": "3763a543b1488482d1c28e59cbab433324106b5b"
 }
