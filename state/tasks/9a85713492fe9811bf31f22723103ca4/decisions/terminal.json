@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe, phrase finale",
+      "severity": "major",
+      "source_quote": "where Self must die, being crucified in those who have died with Him.",
+      "suggested_fix": "Remplacer « où le Moi doit mourir, étant crucifié en ceux qui sont morts avec lui » par « où le Moi doit mourir, étant crucifié chez ceux qui sont morts avec le Christ » afin de rendre explicite que « Him » désigne le Christ.",
+      "translation_quote": "où le Moi doit mourir, étant crucifié en ceux qui sont morts avec lui."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}

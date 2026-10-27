@@ -5,10 +5,11 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fb5f1c94513a4f398566e505f15a01b1",
   "campaign": "auto-44ea2612c9265bd85a0b1641b09b4995a6e0d5b4d9dbee2b6872205a767d1484",
   "created_at": "2026-10-26T07:11:50+00:00",
   "events": [],
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "Dernier paragraphe, phrase finale",
@@ -18,6 +19,7 @@
       "translation_quote": "où le Moi doit mourir, étant crucifié en ceux qui sont morts avec lui."
     }
   ],
+  "finished_at": "2026-10-27T07:34:50+00:00",
   "id": "9a85713492fe9811bf31f22723103ca4",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -106,6 +108,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
@@ -122,7 +129,7 @@
     "total_reserved_usd": 0.545852,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"
