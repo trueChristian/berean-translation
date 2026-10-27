@@ -9,7 +9,8 @@
     "automatic_budget_blocked": 523,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 1018,
+    "eligible_automatic": 1011,
+    "eligible_source_refresh": 7,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
     "pending_automatic_admission": 48,
     "provider_refusal_requires_owner_attention": 3,
@@ -744,7 +745,7 @@
       "language": "ara",
       "latest_task": "09899cd5ded5b772a9c0ed911ea25e44",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -1649,7 +1650,7 @@
       "language": "ben",
       "latest_task": "58cb99b230e60d66f67a748f8d82fc9a",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -3475,7 +3476,7 @@
       "language": "deu",
       "latest_task": "4023eb03acb3dcc74a19bbe47819040b",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -5869,7 +5870,7 @@
       "language": "heb",
       "latest_task": "11014846c7f8103187b3fca991777ebc",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -13223,7 +13224,7 @@
       "language": "swa",
       "latest_task": "a2ea2760c17a7618b3353e575739dbce",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -14383,7 +14384,7 @@
       "language": "swe",
       "latest_task": "b9d1cb21e530b1cd09a39041b6ffe71d",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -15124,7 +15125,7 @@
       "language": "urd",
       "latest_task": "a2d2c6217ce1aedbedb970e97982b49f",
       "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "reason": "eligible_source_refresh"
     },
     {
       "accepted_cycles": 0,
@@ -15909,6 +15910,6 @@
     }
   ],
   "settled_unused_usd": 238.911568,
-  "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+  "source_revision": "6bdbce00fedd9bfc67526709a537b31c5d1c59d0",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }

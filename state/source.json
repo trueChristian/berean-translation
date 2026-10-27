@@ -1430,17 +1430,17 @@
     },
     "1b371612-06aa-4d84-8c43-2a2adcfd473a": {
       "fingerprints": {
-        "html_sha256": "07e8869716526dc775069eb0ea8ab64733599db0c1cea9b293e8c05d10c9dc93",
+        "html_sha256": "59e97645380e5f331ef57b4258123b1759411f9dbdebe7d489f3b4195d32f329",
         "metadata_sha256": "aa0a98810dc078d1a008bb07bb9e6e4fb5d851d532c1b10a340c14bcf21b6790",
         "structure_sha256": "ec14d48a495f95ab1abace02f7559904ef00ca286bcb803be7e61ea6b0c521bf",
-        "text_sha256": "8f60b45f1f132dbdece0270f5c0fbf71b5626b9fa3ebabe0b3d9ea1d7f119bff",
+        "text_sha256": "583d1503e9d4e98a3e576bd2281ee377b45acdeadb3b5ae4dd4ae784875e9f01",
         "translation_metadata_sha256": "bf2ad0dbf7c5f115cda839fd2987ae74e308710459e1ad79d4105327196989d5"
       },
       "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
       "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
       "sequence": 5,
       "title": "i will",
-      "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011"
+      "translation_key": "9b139dcc19047f916d902b0877182776363814fcc8a0e6d49a2d647192f4495e"
     },
     "1b59b086-09fb-46c6-98f1-e926f80f17ac": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "0987c90fcf615fce14affc03cf6df31923629062209008e0cb39e3894a9873ba",
+  "content_sha256": "140d51734501371e0f72f4fc386bc23fed527be6e792e2e10139ae492f72071b",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "35e83d5cefdae79c4c465124635153dcb66c0efe"
+  "revision": "6bdbce00fedd9bfc67526709a537b31c5d1c59d0"
 }
