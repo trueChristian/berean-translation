@@ -485,11 +485,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
-      "html_sha256": "bf13a0e130bcc510c51d446f18ad454e7e701070227f6e7ad81def906a36821f",
-      "human_reviewed": false,
+      "html_sha256": "998b086c1bd2c314f97c4329643643120fb442421f19960397eb8fc8a13a749d",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "8ddb105aa785debb89ca7fafb4fa1910ebf89109",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-27T09:33:53+02:00"
+      },
+      "human_reviewed": true,
       "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
       "images": [],
       "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
@@ -497,6 +503,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
       "metadata_sha256": "611deb7c2ab98bd622b639316dadf0d8c4c20d0893563e6cab0eb042c608cc6a",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "SUSTER TOT SUSTER",
