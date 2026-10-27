@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "09e83a8d-4a17-4ab9-b412-1926adb1a046",
+    "response_id": "chatcmpl-EdWYfbBygSHPxfAFmJs0LcWCY3h7E",
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 389,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1257,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2283
+    }
+  },
+  "received_at": "2026-10-27T08:19:24+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"Ένα αειθαλές δέντρο δίπλα σε λίμνη, με θάμνους και μια χιονισμένη βουνοπλαγιά.\">\n  </figure>\n  <p class=\"poem\"><strong><em>Όταν ορθώνονται βουνά μπροστά σου.<br>\nΓιατί κάθεσαι και κλαις; Σήκω και πες:<br>\n«Μετακινήσου», κι εκείνα θα βρεθούν<br>\nΜε τη δύναμη του Θεού, στη θάλασσα να ριχτούν.</em></strong></p>\n  <p class=\"poem\"><strong><em>Κάθε δύναμη στη γη, κάθε δύναμη στον ουρανό,<br>\nΔόθηκε στον Χριστό, τον Υιό του Θεού·<br>\nΚι από τον θρόνο θα σε ενδυναμώσει,<br>\nΚαι κάθε εμπόδιο θα φύγει από μπροστά σου.</em></strong></p>\n  <p class=\"poem\"><strong><em>Πάνω από κάθε δύναμη δαιμόνων κι ανθρώπων,<br>\nΠες μέσω του Κυρίου: «Σίγουρα μπορώ».<br>\nΠάρε απ’ Αυτόν δύναμη στη γη να πατάς<br>\nΣτο κεντρί του φιδιού, στο κεφάλι του δράκοντα.</em></strong></p>\n  <p class=\"poem\"><strong><em>Ό,τι κι αν είσαι, βουνό πανύψηλο,<br>\nΌπου κι αν βρίσκεσαι, στη γη ή στον ουρανό,<br>\nΌποτε κι αν είσαι, η αλήθεια είναι ίδια:<br>\n«Μετακινήσου, στο όνομα του Ιησού».</em></strong></p>\n  <p class=\"poem\"><strong><em>«Μετακινήσου», προστάζει η πίστη, ξεκίνα,<br>\nΚοίτα εκεί πέρα—σήκω! Φύγε μακριά!<br>\nΜπορώ, είμαι ικανός, πρέπει, θα το κάνω,<br>\nΤο θέλημα του Θεού μου θα εκπληρώσω.</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Εξουσία"
+  }
+}
