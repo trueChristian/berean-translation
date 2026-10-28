@@ -2712,7 +2712,7 @@
       "latest_task": "bcfb7318e605538874a5ecac877781c5",
       "processing_status": "held_without_publication",
       "reason": "automatic_budget_blocked",
-      "remaining_usd": 0.011847,
+      "remaining_usd": 0.010596,
       "request_id": "auto-07cac934215cc76fe7d52b99dd2f4f639e254bbeefcabdd6fc2efbf6b544e001",
       "required_usd": 0.769711
     },
@@ -10881,7 +10881,7 @@
       "article_id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
       "language": "nob",
       "latest_task": "d52ee3f12dbced8458dcb9f8da5597ea",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
