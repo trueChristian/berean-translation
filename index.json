@@ -405,7 +405,7 @@
       "section": "INSPIRASIE VIR JONGMENSE",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Die dou van jeug",
       "translation_model": "gpt-6-luna"
@@ -687,7 +687,7 @@
       "section": "Van die Redakteur",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Van die Redakteur",
       "translation_model": "gpt-6-luna"
@@ -871,7 +871,7 @@
       "section": "Uitgesoekte artikel",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Mossies",
       "translation_model": "gpt-6-luna"
@@ -1880,7 +1880,7 @@
       "section": "’N WOORD VAN ’N DOKTER",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Rus",
       "translation_model": "gpt-6-luna"
@@ -5240,7 +5240,7 @@
       "section": "من المحرر",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "من المحرر",
       "translation_model": "gpt-6-luna"
@@ -5479,7 +5479,7 @@
       "section": "مقال مميّز",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "العصافير",
       "translation_model": "gpt-6-luna"
@@ -6208,7 +6208,7 @@
       "section": "كلمة من طبيب",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "الراحة",
       "translation_model": "gpt-6-luna"
@@ -9119,7 +9119,7 @@
       "section": "তরুণদের জন্য অনুপ্রেরণা",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "যৌবনের শিশির",
       "translation_model": "gpt-6-luna"
@@ -9322,7 +9322,7 @@
       "section": "সম্পাদকীয় থেকে",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "সম্পাদকীয় থেকে",
       "translation_model": "gpt-6-luna"
@@ -9593,7 +9593,7 @@
       "section": "বিশেষ নিবন্ধ",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "চড়ুই",
       "translation_model": "gpt-6-luna"
@@ -10321,7 +10321,7 @@
       "section": "একজন চিকিৎসকের কথা",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "বিশ্রাম",
       "translation_model": "gpt-6-luna"
@@ -13008,7 +13008,7 @@
       "section": "青年的勉励",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "青春的露水",
       "translation_model": "gpt-6-luna"
@@ -20938,7 +20938,7 @@
       "section": "Από τον εκδότη",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Από τον εκδότη",
       "translation_model": "gpt-6-luna"
@@ -21113,7 +21113,7 @@
       "section": "Επιλεγμένο άρθρο",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Σπουργίτια",
       "translation_model": "gpt-6-luna"
@@ -21994,7 +21994,7 @@
       "section": "ΜΙΑ ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ανάπαυση",
       "translation_model": "gpt-6-luna"
@@ -24944,7 +24944,7 @@
       "section": "INSPIRATIONS POUR LES JEUNES",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "La rosée de la jeunesse",
       "translation_model": "gpt-6-luna"
@@ -25198,7 +25198,7 @@
       "section": "De la rédaction",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "De la rédaction",
       "translation_model": "gpt-6-luna"
@@ -25433,7 +25433,7 @@
       "section": "Article à la une",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Les moineaux",
       "translation_model": "gpt-6.1-sol"
@@ -26458,7 +26458,7 @@
       "section": "PAROLE D’UN MÉDECIN",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Le repos",
       "translation_model": "gpt-6-luna"
@@ -29960,7 +29960,7 @@
       "section": "מאמר נבחר",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "דרורים",
       "translation_model": "gpt-6.1-sol"
@@ -32666,7 +32666,7 @@
       "section": "संपादक की ओर से",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "संपादक की ओर से",
       "translation_model": "gpt-6-luna"
@@ -33755,7 +33755,7 @@
       "section": "एक डॉक्टर की बात",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "विश्राम",
       "translation_model": "gpt-6-luna"
@@ -37042,7 +37042,7 @@
       "section": "Dari Redaksi",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Dari Redaksi",
       "translation_model": "gpt-6-luna"
@@ -37248,7 +37248,7 @@
       "section": "Artikel Pilihan",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Burung Pipit",
       "translation_model": "gpt-6.1-sol"
@@ -41651,7 +41651,7 @@
       "section": "Dalla redazione",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Dalla redazione",
       "translation_model": "gpt-6-luna"
@@ -42906,7 +42906,7 @@
       "section": "UNA PAROLA DA UN MEDICO",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Riposo",
       "translation_model": "gpt-6-luna"
@@ -46190,7 +46190,7 @@
       "section": "청년을 위한 묵상",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "청년의 이슬",
       "translation_model": "gpt-6-luna"
@@ -46332,7 +46332,7 @@
       "section": "편집자의 글",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "편집자의 글",
       "translation_model": "gpt-6-luna"
@@ -47437,7 +47437,7 @@
       "section": "의사의 한마디",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "쉼",
       "translation_model": "gpt-6-luna"
@@ -50948,7 +50948,7 @@
       "section": "Uitgelicht artikel",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Mussen",
       "translation_model": "gpt-6-luna"
@@ -51889,7 +51889,7 @@
       "section": "EEN WOORD VAN EEN ARTS",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Rust",
       "translation_model": "gpt-6-luna"
@@ -55308,7 +55308,7 @@
       "section": "INSPIRASJONER FOR UNGDOM",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ungdommens dugg",
       "translation_model": "gpt-6-luna"
@@ -59477,7 +59477,7 @@
       "section": "INSPIRAÇÕES PARA OS JOVENS",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "O Orvalho da Juventude",
       "translation_model": "gpt-6-luna"
@@ -59731,7 +59731,7 @@
       "section": "Do Editor",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Do Editor",
       "translation_model": "gpt-6-luna"
@@ -65003,7 +65003,7 @@
       "section": "От редактора",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "От редактора",
       "translation_model": "gpt-6-luna"
@@ -65186,7 +65186,7 @@
       "section": "Избранная статья",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Воробьи",
       "translation_model": "gpt-6-luna"
@@ -68957,7 +68957,7 @@
       "section": "INSPIRACIONES PARA LOS JÓVENES",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "El rocío de la juventud",
       "translation_model": "gpt-6-luna"
@@ -69160,7 +69160,7 @@
       "section": "Del editor",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Del editor",
       "translation_model": "gpt-6-luna"
@@ -69427,7 +69427,7 @@
       "section": "Artículo destacado",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Gorriones",
       "translation_model": "gpt-6-luna"
@@ -70442,7 +70442,7 @@
       "section": "UNA PALABRA DE UN MÉDICO",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Descanso",
       "translation_model": "gpt-6-luna"
@@ -73963,7 +73963,7 @@
       "section": "MAWAZO YA KUWATIA MOYO VIJANA",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Umande wa Ujana",
       "translation_model": "gpt-6-luna"
@@ -74816,7 +74816,7 @@
       "section": "NENO KUTOKA KWA DAKTARI",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Pumziko",
       "translation_model": "gpt-6-luna"
@@ -77068,7 +77068,7 @@
       "section": "INSPIRATION FÖR UNGA",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ungdomens dagg",
       "translation_model": "gpt-6-luna"
@@ -81682,7 +81682,7 @@
       "section": "مدیر کی جانب سے",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "مدیر کی جانب سے",
       "translation_model": "gpt-6-luna"
@@ -85361,6 +85361,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "ea76ab8c1eb949788a0cf2568220b41f700b1a30",
+  "observed_source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
   "source_repository": "trueChristian/berean-voice"
 }

@@ -2,13 +2,13 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-28T15:40:44+00:00.
+Generated: 2026-10-28T15:57:19+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `ea76ab8c1eb949788a0cf2568220b41f700b1a30`
+Observed English revision: `ed75201a8e3b37913a14f4d949de33a7a0daa2c2`
 
 Total target: 23360 article/language pairs. published: 3006 | unstarted: 18720 | queued: 48 | active: 2 | held without publication: 1584.
 
@@ -26,9 +26,9 @@ Last collection: 2026-10-28T15:40:44+00:00; newly published: 0; stop reason: wai
 | `heartbeat-remnant-2022-fall` | 11 | 137 / 220 | 0 | 0 | 0 | 83 | 0 | 0 |
 | `heartbeat-remnant-2022-summer` | 9 | 123 / 180 | 0 | 0 | 0 | 57 | 0 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 159 / 180 | 0 | 0 | 0 | 21 | 0 | 0 |
-| `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 0 | 0 |
-| `heartbeat-remnant-2021-spring` | 11 | 154 / 220 | 0 | 0 | 0 | 66 | 0 | 0 |
-| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 0 | 0 |
+| `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 13 | 0 |
+| `heartbeat-remnant-2021-spring` | 11 | 154 / 220 | 0 | 0 | 0 | 66 | 10 | 0 |
+| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 21 | 0 |
 | `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 0 | 0 | 99 | 0 | 0 |
 | `heartbeat-remnant-2020-spring` | 12 | 146 / 240 | 0 | 0 | 0 | 94 | 18 | 0 |
 | `heartbeat-remnant-2020-winter` | 13 | 155 / 260 | 0 | 0 | 0 | 105 | 13 | 0 |
@@ -121,26 +121,26 @@ Last collection: 2026-10-28T15:40:44+00:00; newly published: 0; stop reason: wai
 
 | Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 144 / 1168 | 936 | 4 | 0 | 84 | 3 | 5 | 0 | 117 |
-| `hin` (hi) | 154 / 1168 | 936 | 0 | 0 | 78 | 2 | 7 | 0 | 128 |
-| `spa` (es) | 179 / 1168 | 936 | 0 | 0 | 53 | 3 | 5 | 0 | 100 |
-| `ara` (ar) | 138 / 1168 | 936 | 2 | 0 | 92 | 2 | 9 | 0 | 142 |
-| `fra` (fr) | 172 / 1168 | 936 | 4 | 0 | 56 | 2 | 9 | 0 | 100 |
-| `ben` (bn) | 137 / 1168 | 936 | 3 | 0 | 92 | 2 | 7 | 0 | 131 |
-| `por` (pt) | 191 / 1168 | 936 | 1 | 0 | 40 | 3 | 6 | 0 | 94 |
-| `ind` (id) | 165 / 1168 | 936 | 4 | 0 | 63 | 4 | 6 | 0 | 113 |
-| `urd` (ur) | 146 / 1168 | 936 | 2 | 0 | 84 | 3 | 5 | 0 | 131 |
-| `rus` (ru) | 142 / 1168 | 936 | 5 | 0 | 85 | 2 | 6 | 0 | 141 |
+| `cmn` (zh-Hans) | 144 / 1168 | 936 | 4 | 0 | 84 | 4 | 5 | 0 | 117 |
+| `hin` (hi) | 154 / 1168 | 936 | 0 | 0 | 78 | 4 | 7 | 0 | 128 |
+| `spa` (es) | 179 / 1168 | 936 | 0 | 0 | 53 | 7 | 5 | 0 | 100 |
+| `ara` (ar) | 138 / 1168 | 936 | 2 | 0 | 92 | 5 | 9 | 0 | 142 |
+| `fra` (fr) | 172 / 1168 | 936 | 4 | 0 | 56 | 6 | 9 | 0 | 100 |
+| `ben` (bn) | 137 / 1168 | 936 | 3 | 0 | 92 | 6 | 7 | 0 | 131 |
+| `por` (pt) | 191 / 1168 | 936 | 1 | 0 | 40 | 5 | 6 | 0 | 94 |
+| `ind` (id) | 165 / 1168 | 936 | 4 | 0 | 63 | 6 | 6 | 0 | 113 |
+| `urd` (ur) | 146 / 1168 | 936 | 2 | 0 | 84 | 4 | 5 | 0 | 131 |
+| `rus` (ru) | 142 / 1168 | 936 | 5 | 0 | 85 | 4 | 6 | 0 | 141 |
 | `deu` (de) | 129 / 1168 | 936 | 2 | 0 | 101 | 1 | 4 | 0 | 123 |
-| `nld` (nl) | 161 / 1168 | 936 | 2 | 0 | 69 | 4 | 9 | 0 | 121 |
-| `afr` (af) | 165 / 1168 | 936 | 4 | 0 | 63 | 3 | 9 | 16 | 105 |
-| `swa` (sw) | 110 / 1168 | 936 | 3 | 0 | 119 | 0 | 7 | 0 | 157 |
-| `kor` (ko) | 155 / 1168 | 936 | 1 | 0 | 76 | 1 | 5 | 0 | 121 |
-| `ita` (it) | 168 / 1168 | 936 | 5 | 0 | 59 | 4 | 7 | 0 | 97 |
-| `heb` (he) | 95 / 1168 | 936 | 0 | 0 | 137 | 1 | 5 | 0 | 151 |
-| `ell` (el) | 149 / 1168 | 936 | 1 | 0 | 82 | 2 | 9 | 0 | 126 |
-| `swe` (sv) | 155 / 1168 | 936 | 4 | 0 | 73 | 2 | 7 | 0 | 122 |
-| `nob` (nb) | 151 / 1168 | 936 | 1 | 2 | 78 | 2 | 8 | 0 | 136 |
+| `nld` (nl) | 161 / 1168 | 936 | 2 | 0 | 69 | 6 | 9 | 0 | 121 |
+| `afr` (af) | 165 / 1168 | 936 | 4 | 0 | 63 | 7 | 9 | 16 | 105 |
+| `swa` (sw) | 110 / 1168 | 936 | 3 | 0 | 119 | 2 | 7 | 0 | 157 |
+| `kor` (ko) | 155 / 1168 | 936 | 1 | 0 | 76 | 4 | 5 | 0 | 121 |
+| `ita` (it) | 168 / 1168 | 936 | 5 | 0 | 59 | 6 | 7 | 0 | 97 |
+| `heb` (he) | 95 / 1168 | 936 | 0 | 0 | 137 | 2 | 5 | 0 | 151 |
+| `ell` (el) | 149 / 1168 | 936 | 1 | 0 | 82 | 5 | 9 | 0 | 126 |
+| `swe` (sv) | 155 / 1168 | 936 | 4 | 0 | 73 | 3 | 7 | 0 | 122 |
+| `nob` (nb) | 151 / 1168 | 936 | 1 | 2 | 78 | 3 | 8 | 0 | 136 |
 
 ## Issue / language work
 
@@ -2162,7 +2162,7 @@ Funded progressing repairs can continue beyond three historical cycles. Repeated
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; each prior run retains its frozen funding and attempt limits.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 2 | already_translated: 108 | automatic_budget_blocked: 523 | continuation_progress_uncertain_requires_attention: 2 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 986 | eligible_source_refresh: 34 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 48 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 3 | technical_failure_requires_attention: 22
+active: 2 | already_translated: 108 | automatic_budget_blocked: 514 | continuation_progress_uncertain_requires_attention: 2 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 959 | eligible_source_refresh: 70 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 48 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 3 | technical_failure_requires_attention: 22
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -2198,6 +2198,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-325a368d97b6a953f93a9df3aa9ab6a8c95f1f292faebc922457b92cade2981e`](state/queue-errors/auto-325a368d97b6a953f93a9df3aa9ab6a8c95f1f292faebc922457b92cade2981e.json)
 - [`auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11`](state/queue-errors/auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11.json)
 - [`auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf`](state/queue-errors/auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf.json)
+- [`auto-3e74ab06550d7874695d23ecf97c6942b51d8527b8baafdde478d541385b1bab`](state/queue-errors/auto-3e74ab06550d7874695d23ecf97c6942b51d8527b8baafdde478d541385b1bab.json)
 - [`auto-3ea805e20077e12e22cec591816c4c2289478d68e62bea3aa8cbb4119cc78357`](state/queue-errors/auto-3ea805e20077e12e22cec591816c4c2289478d68e62bea3aa8cbb4119cc78357.json)
 - [`auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa`](state/queue-errors/auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa.json)
 - [`auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3`](state/queue-errors/auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3.json)
@@ -2216,11 +2217,13 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968`](state/queue-errors/auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968.json)
 - [`auto-6789ede82b996c3d84fb948d5a4984d1c22f6ea1403a3d6b21bea3d3fd61f715`](state/queue-errors/auto-6789ede82b996c3d84fb948d5a4984d1c22f6ea1403a3d6b21bea3d3fd61f715.json)
 - [`auto-6857fef70c594f9b0ad9ddbfef5b3545429da3999e1d155de32dcd00aa5f2ef4`](state/queue-errors/auto-6857fef70c594f9b0ad9ddbfef5b3545429da3999e1d155de32dcd00aa5f2ef4.json)
+- [`auto-69c755e1a576446026803cdf8c6e92beb9e9bb27ce0f6486ba63ec751b757114`](state/queue-errors/auto-69c755e1a576446026803cdf8c6e92beb9e9bb27ce0f6486ba63ec751b757114.json)
 - [`auto-6b23c7e20041ca9b699f1f185971a0149c8ce716fb841a38f0959ac790dbe3d4`](state/queue-errors/auto-6b23c7e20041ca9b699f1f185971a0149c8ce716fb841a38f0959ac790dbe3d4.json)
 - [`auto-6c6a19990a8d5966162dd2052fd862911e33f3b050190ce9f33766edaad751b7`](state/queue-errors/auto-6c6a19990a8d5966162dd2052fd862911e33f3b050190ce9f33766edaad751b7.json)
 - [`auto-703454b84004be9300a777cc042e1f1dac789c949bddd6053274cfe4235c324d`](state/queue-errors/auto-703454b84004be9300a777cc042e1f1dac789c949bddd6053274cfe4235c324d.json)
 - [`auto-726baf2c88f485331f1ebf28c5db26a24b884c407ec0c4732c45d10acecdfcb9`](state/queue-errors/auto-726baf2c88f485331f1ebf28c5db26a24b884c407ec0c4732c45d10acecdfcb9.json)
 - [`auto-7532ce3f7cee88b66ca4720ac8e0836085394132118d61d727135f79fbed18a6`](state/queue-errors/auto-7532ce3f7cee88b66ca4720ac8e0836085394132118d61d727135f79fbed18a6.json)
+- [`auto-76767bcf063ef9889a7bd81d707064b259810411f6a322d286010c29f5be28d6`](state/queue-errors/auto-76767bcf063ef9889a7bd81d707064b259810411f6a322d286010c29f5be28d6.json)
 - [`auto-76853bf4c030570185ad047fa9848b9d08e6305db3c4ec0fd59b624e06b68662`](state/queue-errors/auto-76853bf4c030570185ad047fa9848b9d08e6305db3c4ec0fd59b624e06b68662.json)
 - [`auto-776c6208be22ecc73f6e8fe58639bcaeb89022972679f55b3cb9937e8a09a704`](state/queue-errors/auto-776c6208be22ecc73f6e8fe58639bcaeb89022972679f55b3cb9937e8a09a704.json)
 - [`auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507`](state/queue-errors/auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507.json)
@@ -2232,15 +2235,19 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460`](state/queue-errors/auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460.json)
 - [`auto-8668270874c6b2d7a3aba602ce0110b9eec893b03d2f8e8103eb4de5e396be52`](state/queue-errors/auto-8668270874c6b2d7a3aba602ce0110b9eec893b03d2f8e8103eb4de5e396be52.json)
 - [`auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08`](state/queue-errors/auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08.json)
+- [`auto-8ea5d133cfa50990ba44befa7b086a5b8083c3b9f0e2d0759e0e63391c682847`](state/queue-errors/auto-8ea5d133cfa50990ba44befa7b086a5b8083c3b9f0e2d0759e0e63391c682847.json)
 - [`auto-97e40174f0283715b601d86003d362b4ca1a166fe0dc65fccd4db8f7da27cbb0`](state/queue-errors/auto-97e40174f0283715b601d86003d362b4ca1a166fe0dc65fccd4db8f7da27cbb0.json)
 - [`auto-9ce21bc7660643cefa7570bb755c506c47e7d9620af0d3cce6d65ef17c1418f1`](state/queue-errors/auto-9ce21bc7660643cefa7570bb755c506c47e7d9620af0d3cce6d65ef17c1418f1.json)
 - [`auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25`](state/queue-errors/auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25.json)
 - [`auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f`](state/queue-errors/auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f.json)
 - [`auto-a11459e12939ef5c0f042bf97910e7aa1f20d824db98cc1b403aca00215e648c`](state/queue-errors/auto-a11459e12939ef5c0f042bf97910e7aa1f20d824db98cc1b403aca00215e648c.json)
+- [`auto-a66a525f3a03aae02abdae704eeeb34296dc10ac9f6de510128907c6b1c40430`](state/queue-errors/auto-a66a525f3a03aae02abdae704eeeb34296dc10ac9f6de510128907c6b1c40430.json)
 - [`auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c`](state/queue-errors/auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c.json)
+- [`auto-a9db960d4a3f294170329ca872609c06e4655b5c5b5463dddfadc8b7f1305c70`](state/queue-errors/auto-a9db960d4a3f294170329ca872609c06e4655b5c5b5463dddfadc8b7f1305c70.json)
 - [`auto-ab31b8372a8d2d74b79f0cfcf94364df533cc4b878c05d3f402827847f87a46f`](state/queue-errors/auto-ab31b8372a8d2d74b79f0cfcf94364df533cc4b878c05d3f402827847f87a46f.json)
 - [`auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba`](state/queue-errors/auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba.json)
 - [`auto-ad3cd704d068afc01388550a65dc419f2d9d51bb28a586a86b14f494c09e5616`](state/queue-errors/auto-ad3cd704d068afc01388550a65dc419f2d9d51bb28a586a86b14f494c09e5616.json)
+- [`auto-ae1a35c798adfa8286582372547901ce8a37af8bc2af8db755d6e90cd8ae647e`](state/queue-errors/auto-ae1a35c798adfa8286582372547901ce8a37af8bc2af8db755d6e90cd8ae647e.json)
 - [`auto-afc8b71e84f98ffe76f57566afe5e6afa71d014ee74327529de2c818df13805e`](state/queue-errors/auto-afc8b71e84f98ffe76f57566afe5e6afa71d014ee74327529de2c818df13805e.json)
 - [`auto-b2e83f9dcad2a914009ebec5bd26817dc8721578825acfba7538511ade867925`](state/queue-errors/auto-b2e83f9dcad2a914009ebec5bd26817dc8721578825acfba7538511ade867925.json)
 - [`auto-b9689519313c036f46f2d0494ec08e07ccccc6e2e6aca82b9200be0eba0a0e92`](state/queue-errors/auto-b9689519313c036f46f2d0494ec08e07ccccc6e2e6aca82b9200be0eba0a0e92.json)
@@ -2267,6 +2274,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-df18c8392cf1f703e81275b0896d5b72d6bddf019d63ba094f7318cbe99e1c2b`](state/queue-errors/auto-df18c8392cf1f703e81275b0896d5b72d6bddf019d63ba094f7318cbe99e1c2b.json)
 - [`auto-e06abe568de478adc9a88d5a9b2e7c9fee80b7c1610c5ef0b1d8f4634fd1d560`](state/queue-errors/auto-e06abe568de478adc9a88d5a9b2e7c9fee80b7c1610c5ef0b1d8f4634fd1d560.json)
 - [`auto-e130c254e19772571333bf2123dafe5575d67abfc0990d7ed06254c16abb8741`](state/queue-errors/auto-e130c254e19772571333bf2123dafe5575d67abfc0990d7ed06254c16abb8741.json)
+- [`auto-e62725a8a56edac683479a9441696911cf15f4b3b99fd412ffe5a8e1b6848028`](state/queue-errors/auto-e62725a8a56edac683479a9441696911cf15f4b3b99fd412ffe5a8e1b6848028.json)
 - [`auto-e6b27e9b272e54322f32fc415b48f96470151d602f288be3196df417b76471ae`](state/queue-errors/auto-e6b27e9b272e54322f32fc415b48f96470151d602f288be3196df417b76471ae.json)
 - [`auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230`](state/queue-errors/auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230.json)
 - [`auto-e7dd93a9e854e9b61d4a2ba673bc0ce040c4f075121e2c50fcc5ad0a374869f1`](state/queue-errors/auto-e7dd93a9e854e9b61d4a2ba673bc0ce040c4f075121e2c50fcc5ad0a374869f1.json)
@@ -2281,6 +2289,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-f20a288db93519584459de7e3a627be95e7d240a94c373eefcbcf65ee8199b7a`](state/queue-errors/auto-f20a288db93519584459de7e3a627be95e7d240a94c373eefcbcf65ee8199b7a.json)
 - [`auto-f45e8ccd582fa412ad5877c46152aeb22dbbbd850af7ac71cb35a69d75ed3dd0`](state/queue-errors/auto-f45e8ccd582fa412ad5877c46152aeb22dbbbd850af7ac71cb35a69d75ed3dd0.json)
 - [`auto-f59737ab15318612f9f26fcc983ba0f1c2f0fc94066af2fa711036e535071c75`](state/queue-errors/auto-f59737ab15318612f9f26fcc983ba0f1c2f0fc94066af2fa711036e535071c75.json)
+- [`auto-f65d86811212ec30193bc0b7d8852201696e9a782353dcd7db9a68eee9513704`](state/queue-errors/auto-f65d86811212ec30193bc0b7d8852201696e9a782353dcd7db9a68eee9513704.json)
 - [`gh-37137973917`](state/queue-errors/gh-37137973917.json)
 
 ## Campaigns
