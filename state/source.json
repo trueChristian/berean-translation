@@ -5644,9 +5644,9 @@
     },
     "5a87c21f-cce9-4033-8a43-5458311bc7f0": {
       "fingerprints": {
-        "html_sha256": "7005a5247fc543859e2b4c85b7dbae207c17c2cd226ef24fe7374cb0100f845d",
+        "html_sha256": "7793a45cb746f39c6bbe8007041f7df21eee608445ead3f56254377300c61602",
         "metadata_sha256": "91fe13730ae30e47727d0d345edbc7faeff1cab210def1f68d4e3409172f98b7",
-        "structure_sha256": "67eb65eb6cf2e149b3bf01a7d5025d7dafc008484c5041ea6e7ce6c12de79621",
+        "structure_sha256": "3b2b72128f6b27240f5f53be89abfd16ec8d4750de4f5c27ad162dd9d39f6701",
         "text_sha256": "2019df7599757d30eaad717f4b6eeab572b1635be8451cc2a414d6b01f7211e2",
         "translation_metadata_sha256": "a7021ae2cef492c929c0293a29e30aedb651e5b01fab6cab0c8540876ca7f424"
       },
@@ -5654,7 +5654,7 @@
       "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
       "sequence": 9,
       "title": "A Christ-Centered Courtship Series",
-      "translation_key": "09dabacb69e24e075496d9d045ded0be9c23d6c49e93251ddc21d7b6783b7912"
+      "translation_key": "cd9a64986fb3ae4b04ca42f8484323179fa6336909329caf12735117611ab3e2"
     },
     "5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "637ede1fec03842a52d35ef1dc73fe6f32e90d5e54c4106ab984495940a1a4d4",
+  "content_sha256": "cd221146517dbca63aaf9c9e816c764bbe564dd93b2c7d50117ca363091c090b",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "2761f70df5182cbb59be4e55839baeeef1afcf01"
+  "revision": "ea76ab8c1eb949788a0cf2568220b41f700b1a30"
 }
