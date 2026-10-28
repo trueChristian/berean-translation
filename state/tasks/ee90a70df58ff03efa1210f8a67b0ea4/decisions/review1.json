@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “Her father was the provincial Governor of Vasa”",
+      "severity": "major",
+      "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
+      "suggested_fix": "Replace “把烧红的铁烙在一群囚犯身上” with a rendering that describes the smith welding or fastening red-hot irons onto the prisoners, without implying branding.",
+      "translation_quote": "“铁匠把烧红的铁烙在一群囚犯身上”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
