@@ -514,12 +514,12 @@
       "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
-      "html_sha256": "9910ba765e5347d708b9806ba0cc2f14ae50d06858869a98a920d97820728d35",
+      "html_sha256": "37b1f8e02768e082d203044529c3838521191b18b0fd11ea73fe8d48a6514faf",
       "human_edit": {
         "author": "Malachi",
-        "commit": "3c353bf693a2679fb3d1a594ab0689cee3e17622",
+        "commit": "630e07b5972fbda27418a6ea59c2db2c550edf0b",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-27T09:45:01+02:00"
+        "time": "2026-10-28T22:09:57+02:00"
       },
       "human_reviewed": true,
       "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
