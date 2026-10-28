@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "8854a70fffae817e03d03a7eb7eb1f1b"
+    },
+    {
+      "at": "2026-10-28T01:12:39+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "8854a70fffae817e03d03a7eb7eb1f1b"
     }
   ],
   "language": "swe",
   "latest_task": "8854a70fffae817e03d03a7eb7eb1f1b",
-  "published": null
+  "published": {
+    "html_path": "content/swe/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+    "html_sha256": "92fb6f072b0d0a5e2f34d2a44bfdbc684cfc2ffb257af7964347d0b82e39e6b5",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "metadata_path": "content/swe/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+    "metadata_sha256": "24a9360fadfc0a8f3051aad8bc7b14ed35e652ac5ed2ee13d85edb124af2e776",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sv\" dir=\"ltr\" role=\"note\">\n  <p>Denna artikel har översatts med artificiell intelligens från OpenAI (modell: gpt-6-luna) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet. <a href=\"/en/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9/\" data-source-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\" hreflang=\"en\">Engelskt original</a></p>\n</aside>",
+    "published_at": "2026-10-28T01:12:39+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "3763a543b1488482d1c28e59cbab433324106b5b",
+    "source_snapshot": "state/sources/30dde76223858991f23e2f60b10024f65a4311b98c4b7e6834fcb436a1ba5b60.json",
+    "task": "8854a70fffae817e03d03a7eb7eb1f1b",
+    "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6"
+  }
 }
