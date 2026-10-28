@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f897625e-13e9-4cec-8df0-f12c7b32cb70",
+    "response_id": "chatcmpl-EdzyKbVtNBFZO1TkZIgjxcMlymiwi",
+    "usage": {
+      "completion_tokens": 799,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2921
+    }
+  },
+  "received_at": "2026-10-28T16:00:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Tredje strofe, linje 3",
+        "severity": "major",
+        "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+        "suggested_fix": "Få kraft fra ham til å trå på / slangens brodd, på dragens hode.",
+        "translation_quote": "Få kraft fra ham til å trå på jorden, / på slangens brodd, på dragens hode."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

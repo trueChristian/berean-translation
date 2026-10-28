@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "95203c76ac5b482288bd8906d50e2f62",
   "campaign": "auto-8a54dfb92f3fc6a378833202d08ad54a1b82cc581a9655a233b8085e54b7ca6e",
   "created_at": "2026-10-28T01:13:12+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 2424
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 799,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 664,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2122,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2119,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2921
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Third stanza, lines 3–4",
+      "location": "Tredje strofe, linje 3",
       "severity": "major",
       "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
-      "suggested_fix": "Få kraft fra ham til å trå på jorden, / på slangens brodd, på dragens hode.",
-      "translation_quote": "Ta fra ham makt til å trå på jorden, / på slangens brodd, på dragens hode."
+      "suggested_fix": "Få kraft fra ham til å trå på / slangens brodd, på dragens hode.",
+      "translation_quote": "Få kraft fra ham til å trå på jorden, / på slangens brodd, på dragens hode."
     }
   ],
+  "finished_at": "2026-10-28T16:00:28+00:00",
   "id": "d52ee3f12dbced8458dcb9f8da5597ea",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.086031,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

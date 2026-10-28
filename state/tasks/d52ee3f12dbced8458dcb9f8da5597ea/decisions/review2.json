@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Tredje strofe, linje 3",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "Få kraft fra ham til å trå på / slangens brodd, på dragens hode.",
+      "translation_quote": "Få kraft fra ham til å trå på jorden, / på slangens brodd, på dragens hode."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
