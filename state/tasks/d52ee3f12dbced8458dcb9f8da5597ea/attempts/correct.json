@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-28T15:30:33+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Et eviggrønt tre ved en innsjø, med busker og en snødekt fjellside.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Når fjellvegger står i veien for vår ferd.<br>\\nHvorfor sitte og gråte? Reis deg og si:<br>\\n«Flytt deg», så skal de,<br>\\nved Guds kraft, kastes i havet.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>All makt på jorden, all makt i himmelen<br>\\ner gitt til Kristus, Guds Sønn;<br>\\nOg fra tronen vil han gi deg kraft,<br>\\nså hindringene flyr fra deg.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Over all makt fra fiende og menneske<br>\\nsi gjennom Herren: «Jeg kan så visst»,<br>\\nFå kraft fra ham til å trå på jorden,<br>\\npå slangens brodd, på dragens hode.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Hva du enn er, høye fjell,<br>\\nhvor du enn er, på jord eller i himmel,<br>\\nnår du enn er, er sannheten den samme:<br>\\n«Flytt deg i Jesu navn.»</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>«Flytt deg», byder troen deg å dra av sted.<br>\\nSe der borte—reis deg! Dra av sted!<br>\\nJeg kan, jeg makter, jeg må, jeg vil<br>\\nfullføre Guds hensikt.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Myndighet\"}",
+    "content_bytes": 1384,
+    "content_evidence_truncated": false,
+    "content_sha256": "836b012a499ab3040127d0cbefd65a687343c69f4d6f310a19ef42eaa22951f1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1918,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
