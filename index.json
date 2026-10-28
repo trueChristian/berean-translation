@@ -78665,6 +78665,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "92fb6f072b0d0a5e2f34d2a44bfdbc684cfc2ffb257af7964347d0b82e39e6b5",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Ett vintergrönt träd vid en sjö, med buskar och en snötäckt bergssluttning.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "24a9360fadfc0a8f3051aad8bc7b14ed35e652ac5ed2ee13d85edb124af2e776",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3763a543b1488482d1c28e59cbab433324106b5b",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Auktoritet",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "475cc65c4f5b7dd4f4afe157c2cc4d2f6952a173c15584285973fbece157d705",
       "human_reviewed": false,
