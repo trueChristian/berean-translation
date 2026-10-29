@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ca337bcf-cb81-4685-8bb8-dd112ef505fb",
+    "response_id": "chatcmpl-EeQRrc995ISF0wm3IcYzzWzOO5Sxq",
+    "usage": {
+      "completion_tokens": 183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5128,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6414
+    }
+  },
+  "received_at": "2026-10-29T20:15:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.lyrics के तीसरे छंद की दूसरी पंक्ति",
+        "severity": "minor",
+        "source_quote": "Who fixed this floating ball,",
+        "suggested_fix": "इस पंक्ति को “जिसने इस तैरते पृथ्वी-गोल को स्थापित किया,” करें।",
+        "translation_quote": "जिसने इस तैरते भूगोल को स्थापित किया,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

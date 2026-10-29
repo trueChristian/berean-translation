@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, div.lyrics के तीसरे छंद की दूसरी पंक्ति",
+      "severity": "minor",
+      "source_quote": "Who fixed this floating ball,",
+      "suggested_fix": "इस पंक्ति को “जिसने इस तैरते पृथ्वी-गोल को स्थापित किया,” करें।",
+      "translation_quote": "जिसने इस तैरते भूगोल को स्थापित किया,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

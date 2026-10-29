@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99b98c83fb1248ca9d08094c540d790d",
   "campaign": "auto-9714906efda5e7b6960a537916988c81a3835d0eaa7d70e08bc6ff79b5eaef83",
   "created_at": "2026-10-29T12:27:38+00:00",
   "events": [
@@ -48,165 +47,39 @@
         },
         "total_tokens": 11397
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 183,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 72,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6231,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5128,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6414
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, paragraph 1, Revelation 4:11",
-      "severity": "major",
-      "source_quote": "for thy pleasure they are and were created",
-      "suggested_fix": "क्योंकि तुम्हारे आनंद के लिए ही वे अस्तित्व में हैं और रची गई थीं",
-      "translation_quote": "वही तुम्हारे आनंद के लिए रची गईं"
-    },
-    {
-      "location": "html, paragraph 3, Perronet's quotation",
-      "severity": "major",
-      "source_quote": "I was born and I am likely to die in the tottering communion of the Church of England, but I despise her nonsense.",
-      "suggested_fix": "मैं इंग्लैंड की कलीसिया के डगमगाते समुदाय में जन्मा था और संभवतः इसी में मरूँगा भी, पर मैं उसकी बेतुकी बातों को तुच्छ समझता हूँ।",
-      "translation_quote": "मैं एंग्लिकन चर्च की डगमगाती कलीसिया में जन्मा और सुखी होने वाली संभावना रखता हूँ, पर मैं उसकी बकवास की तिरस्कृति करता हूँ।"
-    },
-    {
-      "location": "html, paragraphs 3 and 7",
+      "location": "translation.html, div.lyrics के तीसरे छंद की दूसरी पंक्ति",
       "severity": "minor",
-      "source_quote": "evangelical movement; pastor",
-      "suggested_fix": "“ईवैngelिकल आंदोलन” को “सुसमाचारवादी आंदोलन” और “пастर” को “पादरी” करें।",
-      "translation_quote": "ईवैngelिकल आंदोलन; пастर"
-    },
-    {
-      "location": "html, paragraph 4, diary quotation",
-      "severity": "minor",
-      "source_quote": "the Rockdale lions were lambs in comparison with those of Bolton",
-      "suggested_fix": "रॉकडेल के शेर बोल्टन के शेरों की तुलना में मेमने थे",
-      "translation_quote": "रॉकडेल के शेर बोल्टन के शेरों की तुलना में मेम्नीय हैं"
-    },
-    {
-      "location": "html, paragraph 5",
-      "severity": "minor",
-      "source_quote": "at the next service; mounted the pulpit",
-      "suggested_fix": "“अगले देवत्व-सभा में” को “अगली आराधना सभा में” और “प्रार्थनास्थल पर चढ़कर” को “प्रवचन-मंच पर चढ़कर” करें।",
-      "translation_quote": "अगले देवत्व-सभा में; प्रार्थनास्थल पर चढ़कर"
-    },
-    {
-      "location": "html, paragraph 8, hymn composers",
-      "severity": "major",
-      "source_quote": "a Massachusetts carpenter; an English layman; frequently used as a choir number",
-      "suggested_fix": "“मैसाचुसेट्स का एक समर्था कारीगर” को “मैसाचुसेट्स का एक बढ़ई”, “एक अंग्रेज़ लेमन” को “एक अंग्रेज़ सामान्य कलीसिया-सदस्य” और “अक्सर गुणगान संख्या के रूप में” को “अक्सर गायक-दल की प्रस्तुति के रूप में” करें।",
-      "translation_quote": "मैसाचुसेट्स का एक समर्था कारीगर; एक अंग्रेज़ लेमन; अक्सर गुणगान संख्या के रूप में"
-    },
-    {
-      "location": "html, first lyrics block, stanza 1",
-      "severity": "major",
-      "source_quote": "All hail the power of Jesus’ name",
-      "suggested_fix": "यीशु के नाम के सामर्थ्य की जय-जयकार करो",
-      "translation_quote": "हे यीशु के नाम की जय कहो"
-    },
-    {
-      "location": "html, first lyrics block, stanza 2",
-      "severity": "major",
-      "source_quote": "Let high born seraphs tune the lyre, / And, as they tune it, fall / Before His face who tunes their choir",
-      "suggested_fix": "महिमामय सराफ़ अपनी वीणा के सुर मिलाएँ,<br>\nऔर सुर मिलाते हुए झुक पड़ें<br>\nउसके सम्मुख, जो उनके गायक-दल के सुर मिलाता है,",
-      "translation_quote": "उच्च जन्मी सेराफ़ों की वीणा बजे, / और जब वे स्वर मिलाएँ तो झुकें; / उसके सम्मुख, जो सामूह को नियंत्रित करे"
-    },
-    {
-      "location": "html, both lyrics blocks, recurring crowning lines",
-      "severity": "major",
-      "source_quote": "To crown Him Lord of all!; And crown Him Lord of all!; And crown Him Lord of all.",
-      "suggested_fix": "पहले छंद की अंतिम पंक्ति को “उसे सबका प्रभु मानकर मुकुट पहनाने के लिए!” करें। अन्य छंदों में “और उसे सबका प्रभु मानकर मुकुट पहनाओ!” रखें; दूसरे छंद से जोड़ा गया “उन्हें धन्य कहकर” हटाएँ। रिपन के जोड़े गए छंद में “और उसे सबका प्रभु मानकर मुकुट पहनाएँगे।” रखें।",
-      "translation_quote": "उसको सबका प्रभु-मुकुट पहनाएँ!; उन्हें धन्य कहकर उसको प्रभु बनाएँ!; और उसे सबका प्रभु बनाओ!; और उसे सबका प्रभु ठहराओ!; और उसे सबका प्रभु मानो!; और उसे सबका प्रभु बनाएँ!; और उसे सबका प्रभु माना करो!; और उसे सबका प्रभु ठहराएँगे।"
-    },
-    {
-      "location": "html, first lyrics block, stanza 3, first two lines",
-      "severity": "major",
-      "source_quote": "Crown Him, ye morning stars of light, / Who fixed this floating ball",
-      "suggested_fix": "हे उज्ज्वल प्रभात के तारो, उसे मुकुट पहनाओ,<br>\nजिसने इस तैरते भूगोल को स्थापित किया,",
-      "translation_quote": "उठो, प्रभात के तारों की ज्योति, / जिसने यह घूमता लोहमंड थामा"
-    },
-    {
-      "location": "html, first lyrics block, stanza 4, first two lines",
-      "severity": "major",
-      "source_quote": "Crown Him, ye martyrs of your God, / Who from His altar call",
-      "suggested_fix": "हे अपने परमेश्वर के शहीदो, उसे मुकुट पहनाओ,<br>\nजो उसकी वेदी से पुकारते हो;",
-      "translation_quote": "हे प्रभु के शहीदों, जिन्हें उसके वेदी ने पुकारा, / उठ कर उसकी महिमा गाओ"
-    },
-    {
-      "location": "html, first lyrics block, stanza 6",
-      "severity": "major",
-      "source_quote": "Hail Him, ye heirs of David’s line, / Whom David Lord did call. / The God incarnate, Man divine",
-      "suggested_fix": "हे दाऊद के वंश के वारिसो, उसकी जय-जयकार करो,<br>\nजिसे दाऊद ने प्रभु कहा।<br>\nवह देहधारी परमेश्वर, दिव्य मनुष्य है,",
-      "translation_quote": "हे दाऊद की वंशावली के वारिसों, जिन्हें दाऊद ने प्रभु कहा, / मसीह अवतारी, दिव्य मनुष्य को नमन करो"
-    },
-    {
-      "location": "html, first lyrics block, stanza 7",
-      "severity": "major",
-      "source_quote": "The wormwood and the gall",
-      "suggested_fix": "नागदौने और पित्त की कड़वाहट को",
-      "translation_quote": "अम्ल और कषाय की पीड़ा को"
-    },
-    {
-      "location": "html, first lyrics block, stanza 8",
-      "severity": "major",
-      "source_quote": "Let every tribe and every tongue / That bound creation’s call / Now shout in universal song, / The crowned Lord of all!",
-      "suggested_fix": "हर जाति और हर भाषा के लोग,<br>\nजो सृष्टि की पुकार के दायरे में आते हैं,<br>\nअब मिलकर एक विश्वव्यापी गीत में पुकारें,<br>\nसबका मुकुटधारी प्रभु!",
-      "translation_quote": "सब जाति और सब भाषा की स्तुति करो, / जो सृष्टि की स्तुति में बँधी है; / अब सर्वत्र गीत में उछलो और पुकारो, / सबका मढ़ा हुआ प्रभु है वही!"
-    },
-    {
-      "location": "html, missionary narrative, attack",
-      "severity": "major",
-      "source_quote": "who were closing in on him with their spears. They seized him and pointed their spears at his heart.",
-      "suggested_fix": "जो अपने भाले लिए उसे घेरते हुए पास आ रहे थे। उन्होंने उसे पकड़ लिया और अपने भाले उसके हृदय की ओर तान दिए।",
-      "translation_quote": "जिनके भाले उसके पास ढेर हो रहे थे। उन्होंने उसे पकड़ लिया और उसके हृदय की ओर भाले निहारे।"
-    },
-    {
-      "location": "html, missionary narrative, musical performance",
-      "severity": "major",
-      "source_quote": "began to play and sing in the native language, “All hail the power of Jesus’ name!”",
-      "suggested_fix": "वायलिन बजाते हुए स्थानीय भाषा में गाने लगा, “यीशु के नाम के सामर्थ्य की जय-जयकार करो!”",
-      "translation_quote": "मूल भाषा में गाने-गुनाने लगा, “हे यीशु के नाम की जय!”"
-    },
-    {
-      "location": "html, missionary narrative, response of tribesmen",
-      "severity": "major",
-      "source_quote": "the spears had fallen from the hands of the savages",
-      "suggested_fix": "उन जंगली जनजातीय लोगों के हाथों से भाले गिर पड़े थे",
-      "translation_quote": "आज़ादों के हाथों से भाले गिर पड़े थे"
-    },
-    {
-      "location": "html, missionary narrative, final sentence",
-      "severity": "major",
-      "source_quote": "God in His providence used a simple hymn as a means of introducing the gospel to a group of needy pagans.",
-      "suggested_fix": "ईश्वर ने अपने विधान में एक साधारण भजन को ऐसे जरूरतमंद लोगों के समूह तक सुसमाचार पहुँचाने का साधन बनाया, जो उसे नहीं जानते थे।",
-      "translation_quote": "ईश्वर ने अपनी प्रोविडेंस में एक साधारण भजन को एक ज़रूरतमंद काफिले को सुसमाचार से परिचित कराने के साधन के रूप में उपयोग किया।"
-    },
-    {
-      "location": "title and html paragraph 2 and paragraph 8, hymn title",
-      "severity": "major",
-      "source_quote": "All Hail the Power of Jesus Name",
-      "suggested_fix": "शीर्षक और गद्य में भजन के नाम के दोनों उल्लेखों को “यीशु के नाम के सामर्थ्य की जय-जयकार करो” करें।",
-      "translation_quote": "हे यीशु के नाम की जय"
-    },
-    {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "A Hymn History",
-      "suggested_fix": "एक भजन का इतिहास",
-      "translation_quote": "A Hymn History"
-    },
-    {
-      "location": "html, references paragraph",
-      "severity": "minor",
-      "source_quote": "References:; Tune",
-      "suggested_fix": "“References:” को “संदर्भ:” और चारों “Tune” लेबल को “धुन” करें; उद्धृत कृतियों के नाम और संख्याएँ सुरक्षित रखें।",
-      "translation_quote": "References:; Tune"
-    },
-    {
-      "location": "html, figure img alt",
-      "severity": "major",
-      "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
-      "suggested_fix": "केवल alt का मान बदलें: “यीशु के नाम के सामर्थ्य की जय-जयकार करो” की स्वरलिपि, धुन DIADEM C. M., टेक सहित",
-      "translation_quote": "हे यीशु के नाम की जय का शीट म्यूजिक, धुन DIADEM C. M. रिफ्रेन के साथ"
+      "source_quote": "Who fixed this floating ball,",
+      "suggested_fix": "इस पंक्ति को “जिसने इस तैरते पृथ्वी-गोल को स्थापित किया,” करें।",
+      "translation_quote": "जिसने इस तैरते भूगोल को स्थापित किया,"
     }
   ],
+  "finished_at": "2026-10-29T20:15:41+00:00",
   "id": "2637d72a2dc199209d080a0471200fd7",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "hin",
@@ -295,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -314,7 +187,7 @@
     "total_reserved_usd": 0.746822,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-6.1-sol"

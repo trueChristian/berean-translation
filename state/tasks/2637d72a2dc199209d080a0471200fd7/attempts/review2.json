@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:15:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, div.lyrics के तीसरे छंद की दूसरी पंक्ति\",\"severity\":\"minor\",\"source_quote\":\"Who fixed this floating ball,\",\"suggested_fix\":\"इस पंक्ति को “जिसने इस तैरते पृथ्वी-गोल को स्थापित किया,” करें।\",\"translation_quote\":\"जिसने इस तैरते भूगोल को स्थापित किया,\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 553,
+    "content_evidence_truncated": false,
+    "content_sha256": "efb7065157c9ea03f50832371804a27eff545012e19ef83efa799900a584ba5e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5128,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6414
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
