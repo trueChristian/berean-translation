@@ -1,0 +1,185 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7a0055bf-0e01-45a1-8f43-69103ee9f966",
+    "response_id": "chatcmpl-EeRouqSBD9dDHQ6lAXcrZwEt47nHs",
+    "usage": {
+      "completion_tokens": 2598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 38,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7234,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6131,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9832
+    }
+  },
+  "received_at": "2026-10-29T23:01:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 1",
+        "severity": "major",
+        "source_quote": "people seem to value rugged individualism",
+        "suggested_fix": "Badili kuwa: “watu wanaonekana kuthamini sana kujitegemea bila kuwategemea wengine.” Ondoa maneno ya Kiingereza kwenye mabano.",
+        "translation_quote": "watu wanaonekana kuthamini uhalisi mkali wa kujitegemea (rugged individualism)"
+      },
+      {
+        "location": "html, paragraph 2",
+        "severity": "major",
+        "source_quote": "the pioneers ... trekked across the various new countries",
+        "suggested_fix": "Badili kuwa: “walowezi wa mwanzo ... waliosafiri kwa miguu kupitia nchi mbalimbali mpya”.",
+        "translation_quote": "wapione ... waliopita kupitia mashamba mapya"
+      },
+      {
+        "location": "html, quotation of Mwanzo 2:21-22",
+        "severity": "major",
+        "source_quote": "caused a deep sleep to fall upon Adam ... took one of his ribs, and closed up the flesh instead thereof; And the rib ... made he a woman",
+        "suggested_fix": "Rekebisha sehemu hiyo ndani ya <em> kuwa: “Naye Bwana Mungu akamletea Adamu usingizi mzito, naye akalala; akachukua ubavu wake mmoja, akapafunika mahali pake kwa nyama; na ule ubavu ambao Bwana Mungu alikuwa ameutwaa kutoka kwa mwanamume akaufanya mwanamke, akamleta kwa mwanamume – Mwanzo 2:21-22.”",
+        "translation_quote": "akamfanya Adamu alegeuke usingizi wa kina ... moja ya zebaki zake ... Na zebaki ... akamtengenezea mwanamke"
+      },
+      {
+        "location": "html, paragraph beginning “Hata hivyo, hivi karibuni”",
+        "severity": "major",
+        "source_quote": "Elijah was running for his life into the desert",
+        "suggested_fix": "Badili “Eliya alikimbia maisha yake hadi jangwani” kuwa “Eliya alikimbilia jangwani kuokoa maisha yake”.",
+        "translation_quote": "Eliya alikimbia maisha yake hadi jangwani"
+      },
+      {
+        "location": "html, quotation of 1 Wafalme 19:10",
+        "severity": "major",
+        "source_quote": "the children of Israel ... slain thy prophets with the sword ... they seek my life, to take it away",
+        "suggested_fix": "Badili “wameuawa manabii wako” kuwa “wamewaua manabii wako”, na “nao watatafuta maisha yangu, wayachukue” kuwa “nao wanatafuta kuniua”.",
+        "translation_quote": "watoto wa Israeli ... wameuawa manabii wako kwa upanga ... nao watatafuta maisha yangu, wayachukue"
+      },
+      {
+        "location": "html, quotation of 1 Wafalme 19:18",
+        "severity": "major",
+        "source_quote": "every mouth which hath not kissed him",
+        "suggested_fix": "Badili “kila mdomo usiompoza” kuwa “kila kinywa ambacho hakijambusu”.",
+        "translation_quote": "kila mdomo usiompoza"
+      },
+      {
+        "location": "html, quotation of 2 Timotheo 4:9-11",
+        "severity": "major",
+        "source_quote": "Demas hath forsaken me, having loved this present world",
+        "suggested_fix": "Badili kuwa: “Dema ameniacha, kwa sababu ameupenda ulimwengu huu wa sasa”.",
+        "translation_quote": "Dema amenikosa, kwa kutiwa na kupenda dunia hii"
+      },
+      {
+        "location": "html, paragraph following 2 Timotheo 4:9-11",
+        "severity": "major",
+        "source_quote": "The Apostle was not abandoned. Other than Demas ... ashamed of his bonds.",
+        "suggested_fix": "Badili “Mtume hakuwahi kuachwa” kuwa “Mtume hakuwa ameachwa”, na “walikuwa woga au aibu kwa mfungo wake” kuwa “waliogopa au walionea aibu kufungwa kwake gerezani”.",
+        "translation_quote": "Mtume hakuwahi kuachwa ... walikuwa woga au aibu kwa mfungo wake"
+      },
+      {
+        "location": "html, first paragraph under “Upweke ni Hatari kwa Afya ya Mwili”",
+        "severity": "major",
+        "source_quote": "can experience worsening dementia",
+        "suggested_fix": "Badili kuwa: “hali yao ya kupoteza uwezo wa kiakili kutokana na demensia inaweza kuzidi kuwa mbaya”.",
+        "translation_quote": "wanaweza kupata ukuaji mbaya wa ugonjwa wa ugumba wa akili (dementia)"
+      },
+      {
+        "location": "html, paragraphs introducing and discussing fellowship, including the final two paragraphs",
+        "severity": "major",
+        "source_quote": "That word is fellowship”; “translated fellowship”; “Christian fellowship”; “We need fellowship”; “receive fellowship”; “reach out for fellowship”; “the right arm of fellowship",
+        "suggested_fix": "Tafsiri kila “fellowship” kuwa “ushirika”, ukihifadhi <strong> na <em>. Badili pia “Umraiani wa Kikristo” kuwa “Ushirika wa Kikristo”.",
+        "translation_quote": "Neno hilo ni <strong><em>fellowship</em></strong>; lililotafsiriwa kama <em>fellowship</em>; Umraiani wa Kikristo; Tunahitaji fellowship; kupokea fellowship; kuomba fellowship; mkono wa fellowship"
+      },
+      {
+        "location": "html, first paragraph under “Kinyume cha Upweke”",
+        "severity": "major",
+        "source_quote": "another word which has a Christian connotation",
+        "suggested_fix": "Badili “lenye msimulizi wa Kikristo” kuwa “lenye maana inayohusiana na Ukristo”.",
+        "translation_quote": "neno lingine lenye msimulizi wa Kikristo"
+      },
+      {
+        "location": "html, paragraphs describing church membership and the second recommendation",
+        "severity": "major",
+        "source_quote": "any church congregation”; “a large church congregation”; “a church body”; “become active in a church congregation",
+        "suggested_fix": "Badili “boma lolote la kanisa” kuwa “kusanyiko lolote la kanisa”, “boma kubwa la kanisa” kuwa “kusanyiko kubwa la kanisa”, na kila “boma la kanisa” kuwa “kusanyiko la kanisa”.",
+        "translation_quote": "boma lolote la kanisa; boma kubwa la kanisa; boma la kanisa; kushiriki kikamilifu katika boma la kanisa"
+      },
+      {
+        "location": "html, paragraph describing the first dangerous situation",
+        "severity": "major",
+        "source_quote": "While this may be unavoidable in certain mission outreach situations",
+        "suggested_fix": "Badili kuwa: “Ingawa hali hii inaweza kuwa isiyoepukika katika mazingira fulani ya huduma za umisheni”.",
+        "translation_quote": "Ingawa hii inaweza kutelekezwa katika hali fulani za huduma za misheni"
+      },
+      {
+        "location": "html, penultimate prose paragraph",
+        "severity": "major",
+        "source_quote": "The family of God is there for us if we only reach out.",
+        "suggested_fix": "Badili kuwa: “Familia ya Mungu iko kwa ajili yetu ikiwa tu tutachukua hatua ya kutafuta msaada na ushirika.”",
+        "translation_quote": "Familia ya Mungu iko kwa ajili yetu kama tutavuka tu mikono."
+      },
+      {
+        "location": "html, img alt",
+        "severity": "major",
+        "source_quote": "Solitary hooded person with a backpack",
+        "suggested_fix": "Badili alt kuwa “Mtu aliye peke yake, aliyevaa kofia iliyounganishwa na vazi na mwenye mkoba wa mgongoni, ameketi juu ya mandhari yenye ukungu”.",
+        "translation_quote": "Mtu mpweke aliyevaa kaptula na mkoba"
+      },
+      {
+        "location": "html, paragraph 3",
+        "severity": "minor",
+        "source_quote": "create bubbles of isolation around themselves",
+        "suggested_fix": "Badili “kuunda kwa makusudi mipira ya kujitenga karibu nao” kuwa “kujizungushia kwa makusudi mazingira ya kujitenga”.",
+        "translation_quote": "kuunda kwa makusudi mipira ya kujitenga karibu nao"
+      },
+      {
+        "location": "html, quotation of Mwanzo 2:18-20",
+        "severity": "minor",
+        "source_quote": "Adam gave names to all cattle",
+        "suggested_fix": "Badili “Adamu akamwita majina kwa makundi yote ya wanyama” kuwa “Adamu akawapa majina ng’ombe wote”.",
+        "translation_quote": "Adamu akamwita majina kwa makundi yote ya wanyama"
+      },
+      {
+        "location": "html, Elijah narrative",
+        "severity": "minor",
+        "source_quote": "there would be no rain”; “challenged the prophets”; “he heard the voice of God",
+        "suggested_fix": "Badili “hautakuwa mvua” kuwa “hakutakuwa na mvua”, “alipomkabiliya manabii” kuwa “alipowapa manabii ... changamoto” kwa kurekebisha sentensi husika, na “alimsikia sauti” kuwa “aliisikia sauti”.",
+        "translation_quote": "hautakuwa mvua; alipomkabiliya manabii; alimsikia sauti"
+      },
+      {
+        "location": "html, paragraph introducing the two recommendations",
+        "severity": "minor",
+        "source_quote": "there are two things I always tell them",
+        "suggested_fix": "Badili “kuna mambo mawili naliyowaambia” kuwa “kuna mambo mawili ninayowaambia daima”.",
+        "translation_quote": "kuna mambo mawili naliyowaambia"
+      },
+      {
+        "location": "html, paragraph introducing the second recommendation",
+        "severity": "minor",
+        "source_quote": "The second is",
+        "suggested_fix": "Badili “Kipindi cha pili” kuwa “Jambo la pili”.",
+        "translation_quote": "Kipindi cha pili"
+      },
+      {
+        "location": "html, paragraph beginning “Upweke unakuja”",
+        "severity": "minor",
+        "source_quote": "other significant losses",
+        "suggested_fix": "Badili “hasara zingine za maana” kuwa “hasara nyingine kubwa”.",
+        "translation_quote": "hasara zingine za maana"
+      },
+      {
+        "location": "html, p.links",
+        "severity": "minor",
+        "source_quote": "Links:",
+        "suggested_fix": "Badili “Links:” kuwa “Viungo:”, ukihifadhi tagi na URL zote.",
+        "translation_quote": "Links:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 63
+  }
+}
