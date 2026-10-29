@@ -12,18 +12,36 @@
       "event": "complete",
       "reason": null,
       "task": "bed4ba18a580f37324d4954ab9c30e19"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "6759c1b9bce861e5c781c0a2ab050fe375683a20",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-29T09:45:07+02:00"
+      },
+      "html_sha256": "8d6ee3d30088d6929edcc0ea5492e41c5c6dda037e579bb0e61a1fd2ef7ab7a1",
+      "metadata_sha256": "a4e35eff819333c3d4453758ee5ee3e51f1cca0b9fc0f4f1420f599f8dfd0da3"
     }
   ],
   "language": "afr",
   "latest_task": "bed4ba18a580f37324d4954ab9c30e19",
   "published": {
+    "accepted_snapshot": "state/publications/e7e04a8a74c5cd1280ff7a29647dd848a1c6ab4bdebfe7b60818728f36729a39.json",
     "html_path": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
-    "html_sha256": "6ee981d45d48473acb88eef92a6a64f67fc4148e9691f5b213ac5dc3602316f5",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "8d6ee3d30088d6929edcc0ea5492e41c5c6dda037e579bb0e61a1fd2ef7ab7a1",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "6759c1b9bce861e5c781c0a2ab050fe375683a20",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-10-29T09:45:07+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035/\" data-source-article-id=\"1c698fb4-f4e6-419b-bdcc-1b25cbe2b035\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
     "metadata_path": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
-    "metadata_sha256": "d1a94e9cf39095644dc8826d0a2e688b6efaacfa39d7605b8cd8f1962325df83",
+    "metadata_sha256": "a4e35eff819333c3d4453758ee5ee3e51f1cca0b9fc0f4f1420f599f8dfd0da3",
     "model": "gpt-5-mini-2025-08-07",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-5-mini-2025-08-07) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035/\" data-source-article-id=\"1c698fb4-f4e6-419b-bdcc-1b25cbe2b035\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
     "published_at": "2026-10-02T12:59:40+00:00",
