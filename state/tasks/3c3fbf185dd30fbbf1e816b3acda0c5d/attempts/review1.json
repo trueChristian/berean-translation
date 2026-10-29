@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T14:12:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: 열왕기상 19:10 인용문\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I have been very jealous for the LORD God of hosts ... and I, even I only, am left\",\n      \"suggested_fix\": \"인용문을 다음과 같이 수정하십시오: <em>…나는 만군의 하나님 여호와를 위하여 매우 열심을 내었나이다. 이스라엘 자손이 주의 언약을 버리고 주의 제단을 무너뜨리며 주의 선지자들을 칼로 죽였고 나만 홀로 남았는데 그들이 내 목숨도 빼앗으려 하나이다 –열왕기상 19:10.</em>\",\n      \"translation_quote\": \"나는 열왕의 군사 여호와인 주의 열심으로 매우 성내었나이다 ... 나만 남아 주의 눈에 보기에도 나 하나뿐이고\"\n    },\n    {\n      \"location\": \"html: 디모데후서 4:9-11 인용문\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Crescens to Galatia ... Take Mark, and bring him with thee…\",\n      \"suggested_fix\": \"‘가이오는 갈라디아로’를 ‘그레스게는 갈라디아로’로 바꾸고, 끝부분은 ‘마가를 데리고 함께 오라… –디모데후서 4:9-11.’로 수정하십시오.\",\n      \"translation_quote\": \"가이오는 갈라디아로 ... 마가를 데리고 오라 네게 유익하리라…\"\n    },\n    {\n      \"location\": \"html: 배우자를 잃은 사람에 대한 지속적인 돌봄을 설명하는 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"we need to make certain that they continue to have an active presence in their lives in the months that follow\",\n      \"suggested_fix\": \"문장 후반을 ‘그러나 그 이후 몇 달 동안에도 그들의 삶 속에서 곁을 지키며 적극적으로 함께해 주는 사람이 계속 있도록 해야 합니다.’로 수정하십시오.\",\n      \"translation_quote\": \"우리는 그들이 이후 몇 달 동안도 삶에서 계속 활발한 존재감을 유지하도록 확실히 해야 합니다.\"\n    },\n    {\n      \"location\": \"html: 창세기 2:21-22 인용문 다음 설명\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We desire companionship and not just the companionship of a pet dog or cat.\",\n      \"suggested_fix\": \"‘우리는 교제를 갈망하며, 반려견이나 반려묘와 함께하는 것만으로는 충분하지 않습니다.’로 수정하십시오.\",\n      \"translation_quote\": \"우리는 반려견이나 반려묘 같은 동물의 동반이 아닌, 진정한 교제를 갈망합니다.\"\n    },\n    {\n      \"location\": \"html: 엘리야가 광야로 도망하는 문단\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Elijah was running for his life into the desert.\",\n      \"suggested_fix\": \"‘그러나 곧 엘리야는 목숨을 구하려고 광야로 도망쳤습니다.’로 수정하십시오.\",\n      \"translation_quote\": \"그러나 곧 엘리야는 생명을 피하여 광야로 도망쳤습니다.\"\n    },\n    {\n      \"location\": \"html: 첫 문단\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"people seem to value rugged individualism\",\n      \"suggested_fix\": \"‘거친 개인주의’를 ‘강한 자립을 중시하는 개인주의’로 수정하십시오.\",\n      \"translation_quote\": \"거친 개인주의를 중시하는 경향이 있는 것 같습니다.\"\n    },\n    {\n      \"location\": \"html: 교제와 책임을 설명하는 문단\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We need fellowship, both to encourage us and to keep us accountable.\",\n      \"suggested_fix\": \"‘우리는 격려를 받고 서로 책임 있게 살아가도록 돕기 위해 교제가 필요합니다.’로 수정하십시오.\",\n      \"translation_quote\": \"우리는 격려받고 책임지워지기 위해 교제가 필요합니다.\"\n    },\n    {\n      \"location\": \"html: p.links\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Links:\",\n      \"suggested_fix\": \"URL과 HTML 구조는 유지하고 ‘Links:’를 ‘참고 링크:’로 번역하십시오.\",\n      \"translation_quote\": \"Links:\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 4107,
+    "content_evidence_truncated": false,
+    "content_sha256": "ab5dbf44d5ce6ecb3cca115f4bae3979aa448cf8680a47fdbe98c6c2c3697c43",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6200,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8432
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
