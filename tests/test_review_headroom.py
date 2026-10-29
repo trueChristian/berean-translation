@@ -106,7 +106,7 @@ class ReviewHeadroomTests(unittest.TestCase):
         with self.assertRaisesRegex(ContractError, 'context'):
             build_request(self.config, self.state, task)
 
-    def test_tight_envelope_blocks_before_upload_without_raising_budget(self):
+    def test_review_headroom_is_not_limited_by_legacy_budget(self):
         campaign = self.accept(review_model='gpt-5-mini')
         task = self.reviews(campaign)[0]
         full_cost = build_request(self.config, self.state, task)[1]
@@ -118,12 +118,12 @@ class ReviewHeadroomTests(unittest.TestCase):
         campaign['budget_usd'] = former_cost
         self.state.save_campaign(campaign)
         self.engine.prepare()
-        self.assertTrue(all(t['status'] == 'budget_blocked' for t in self.state.tasks()))
-        self.assertEqual(self.provider.upload_calls, 0)
-        self.assertEqual(self.provider.create_calls, 0)
+        self.assertTrue(all(t['status'] == 'in_batch' for t in self.state.tasks()))
+        self.assertEqual(self.provider.upload_calls, 1)
+        self.assertEqual(self.provider.create_calls, 1)
         saved = self.state.read(f'state/campaigns/{campaign["id"]}.json')
         self.assertEqual(saved['budget_usd'], former_cost)
-        self.assertEqual(saved['reserved_usd'], 0)
+        self.assertGreater(saved['reserved_usd'], former_cost)
 
     def test_downstream_policy_remains_separate_disabled_and_aligned(self):
         policy = copy.deepcopy(self.config.runtime['automatic_downstream_recovery'])

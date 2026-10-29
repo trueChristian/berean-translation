@@ -1,4 +1,4 @@
-"""Exercise the approved lifetime cap with offline, fully simulated recovery."""
+"""Exercise uncapped recovery with offline, fully simulated provider calls."""
 from __future__ import annotations
 
 import copy
@@ -18,10 +18,10 @@ from support import A, B, REPO_ROOT, FakeProvider, drive, queue, setup
 
 
 class ApprovedRecoveryBudgetTests(unittest.TestCase):
-    def test_repository_policy_keeps_the_approved_total_and_all_recovery_limits(self):
+    def test_repository_policy_removes_money_limits_and_keeps_quality_controls(self):
         config = Config(REPO_ROOT)
         self.assertEqual(config.runtime['automatic_downstream_recovery'], {
-            'enabled': True, 'total_budget_usd': 10, 'campaign_budget_usd': 1,
+            'enabled': True,
             'max_articles': 3, 'model': 'gpt-6.1-sol', 'review_model': 'gpt-6.1-sol',
             'max_output_tokens': 32768, 'review_output_tokens': 8192,
         })
@@ -32,9 +32,12 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.assertEqual(config.runtime['quality_threshold'], 95)
         self.assertEqual(config.runtime['max_translation_attempts'], 2)
         self.assertIs(config.runtime['automatic_new_translation'], True)
-        self.assertEqual(config.runtime['autonomous_translation']['total_budget_usd'], 30)
+        self.assertNotIn('total_budget_usd', config.runtime['autonomous_translation'])
+        self.assertNotIn('max_envelope_usd', config.runtime['autonomous_translation'])
+        self.assertNotIn('max_campaign_usd', config.runtime)
+        self.assertNotIn('default_budget_usd', config.runtime)
 
-    def test_ten_historical_envelopes_are_permanent_and_separate_from_manual_ten_dollars(self):
+    def test_recovery_continues_past_retired_lifetime_cap_and_preserves_history(self):
         for target in ('socket.socket.connect', 'socket.create_connection', 'socket.getaddrinfo'):
             guard = patch(target, side_effect=AssertionError('Real network access forbidden'))
             guard.start()
@@ -48,7 +51,7 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.assertIs(self.config.runtime['automatic_downstream_recovery']['enabled'], False)
 
         # Build real held history through generation and review, with enough
-        # distinct pairs to exhaust funding before selection runs out of work.
+        # distinct pairs to cross the old cap before selection runs out of work.
         queue(self.state, 'original', languages='all', budget_usd=50)
         drive(self.engine, self.provider, self.reject)
         originals = {task['id']: task for task in self.state.tasks()}
@@ -75,17 +78,17 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.state.write('state/queue/' + manual_request['id'] + '.json', manual_request)
         manual = accept(self.engine, manual_request)
         self.assertTrue(manual['tasks'])
-        self.assertEqual(manual['downstream_allocation_usd'], 10)
+        self.assertEqual(manual['downstream_allocation_usd'], 0)
         self.assert_funding(0)
 
-        # Copy the actual repository policy verbatim; do not enlarge the hourly
-        # budget, shrink its candidate ceiling or relax source/quality limits.
+        # Use the actual repository policy without relaxing technical or quality checks.
         approved = copy.deepcopy(Config(REPO_ROOT).runtime['automatic_downstream_recovery'])
         self.config.runtime['automatic_downstream_recovery'] = copy.deepcopy(approved)
         self.state.write('config/runtime.json', self.config.runtime)
         self.assertEqual(Config(self.root).runtime['automatic_downstream_recovery'], approved)
         self.assertIs(approved['enabled'], True)
-        self.assertEqual((approved['total_budget_usd'], approved['campaign_budget_usd']), (10, 1))
+        self.assertNotIn('total_budget_usd', approved)
+        self.assertNotIn('campaign_budget_usd', approved)
         start = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
         scheduled = []
         used_pairs = {(item['language'], item['article_id']) for item in manual['selection']}
@@ -100,7 +103,7 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
                 self.assertEqual({key: request[key] for key in (
                     'model', 'review_model', 'max_articles', 'budget_usd')}, {
                     'model': approved['model'], 'review_model': approved['review_model'],
-                    'max_articles': approved['max_articles'], 'budget_usd': approved['campaign_budget_usd'],
+                    'max_articles': approved['max_articles'], 'budget_usd': 0,
                 })
                 with patch('berean_translation.downstream.now', return_value=at.isoformat()):
                     campaign = accept(self.engine, request)
@@ -110,7 +113,7 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
                 self.assertEqual((campaign['funding_scope'], campaign['allocation_index'],
                     campaign['allocation_before_usd'], campaign['approved_total_usd'],
                     campaign['budget_usd'], campaign['downstream_allocation_usd']),
-                    ('shared_policy', ordinal, ordinal - 1, 10, 1, 1))
+                    ('shared_policy', ordinal, 0, None, 0, 0))
                 for item in campaign['selection']:
                     pair = (item['language'], item['article_id'])
                     self.assertNotIn(pair, used_pairs)
@@ -140,12 +143,12 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
                 scheduled.append(identity)
                 self.assert_funding(ordinal)
 
-        # Cancellation and tiny reported costs have not returned any envelope.
-        # The independent manual $10 neither consumed nor enlarged the cap.
+        # Audited history survives cancellation and subsequent admission.
+        # The next run still proceeds after the old ten-run lifetime boundary.
         self.assertEqual(len(scheduled), 10)
         self.assertEqual(self.state.path(f'state/campaigns/{manual["id"]}.json').read_bytes(), manual_snapshot)
         self.assertEqual(self.config.runtime['automatic_downstream_recovery'], approved)
-        self.assertEqual(funding_ledger(self.state)['shared_policy_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['shared_policy_usd'], 0)
         calls = self.provider.create_calls
         before = {path.name: path.read_bytes() for path in self.state.path('state/queue').glob('*.json')}
         blocked_at = start + timedelta(hours=11)
@@ -154,10 +157,11 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         self.assertIsNone(self.state.read(f'state/queue/{blocked_id}.json'))
         self.assertEqual(before, {path.name: path.read_bytes()
                                  for path in self.state.path('state/queue').glob('*.json')})
-        with self.assertRaisesRegex(ContractError, 'lifetime spending envelope exhausted'):
-            accept(self.engine, blocked)
+        resumed = accept(self.engine, blocked)
+        self.assertTrue(resumed['tasks'])
         self.assertEqual(self.provider.create_calls, calls)
-        self.assert_funding(10)
+        self.finish(resumed)
+        self.assert_funding(11)
         for identity, original in originals.items():
             self.assertEqual(self.task(identity), original)
         self.state.derive(self.config)
@@ -181,15 +185,15 @@ class ApprovedRecoveryBudgetTests(unittest.TestCase):
         policy = self.config.runtime['automatic_downstream_recovery']
         return {'id': 'downstream-' + at.strftime('%Y%m%d%H'), 'operation': 'repair',
                 'model': policy['model'], 'review_model': policy['review_model'],
-                'budget_usd': policy['campaign_budget_usd'], 'max_articles': policy['max_articles'],
+                'budget_usd': 0, 'max_articles': policy['max_articles'],
                 'dry_run': False, 'scheduled_hour': at.strftime('%Y-%m-%dT%H'),
                 'requested_by': 'historical-authority-fixture',
                 'continuation_policy': continuation.policy()}
 
     def assert_funding(self, accepted):
         funding = funding_ledger(self.state)
-        self.assertEqual((funding['shared_policy_count'], funding['shared_policy_usd']), (accepted, accepted))
-        self.assertEqual((funding['manual_workflow_count'], funding['manual_workflow_usd']), (1, 10))
+        self.assertEqual((funding['shared_policy_count'], funding['shared_policy_usd']), (accepted, 0))
+        self.assertEqual((funding['manual_workflow_count'], funding['manual_workflow_usd']), (1, 0))
 
     def finish(self, campaign):
         calls = self.provider.create_calls

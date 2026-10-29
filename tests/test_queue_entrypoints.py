@@ -80,7 +80,7 @@ class QueueEntrypointTests(unittest.TestCase):
 
     def test_malformed_queue_inputs_never_make_network_call(self):
         variants = [{'languages': 'unknown'}, {'model': 'unknown'}, {'review_model': 'unknown'},
-                    {'budget_usd': 0}, {'operation': 'unknown'}, {'id': 'invalid identity'}]
+                    {'budget_usd': 'NaN'}, {'operation': 'unknown'}, {'id': 'invalid identity'}]
         for changes in variants:
             with self.subTest(changes=changes), self.assertRaises(ContractError):
                 enqueue_github(self.config, {**self.request(), **changes}, 'fixture/repo', 'fixture',

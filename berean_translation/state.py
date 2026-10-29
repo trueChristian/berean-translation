@@ -277,7 +277,8 @@ class State:
                 continue
             if request.get('autonomous'):
                 pending_automatic_requests += 1
-            hold = self.read(f'state/automatic-holds/{path.stem}.json', {})
+            from .spending import current_hold
+            hold = current_hold(self.read(f'state/automatic-holds/{path.stem}.json', {}))
             reason = hold.get('reason')
             admit(selection['language'], selection['article_id'],
                   'attention' if reason and reason != 'prefetch_wait_budget' else 'pending',
@@ -424,6 +425,8 @@ class State:
         recovery_frontier = autonomous.frontier(config, self, tasks, work_summary=work)
         self.write('RECOVERY.json', recovery_frontier)
         self.write('state/automatic-status.json', {
+            'budget_enforcement': 'none',
+            'spending_policy': recovery_frontier['spending_policy'],
             'allocated_usd': recovery_frontier['committed_usd'],
             'approved_total_usd': recovery_frontier['approved_total_usd'],
             'pending_requests': work['pending_automatic_requests'],
@@ -433,23 +436,20 @@ class State:
                 f'Automatic policy enabled: {autonomous.enabled(config)}. '
                 'Scheduled discovery and collection create missing work across the whole archive and all configured languages. '
                 'Disable repository Actions to stop starting work; already submitted provider batches may finish.',
-                f'Automatic committed ceiling: ${recovery_frontier["committed_usd"]:.6f} / '
-                f'${recovery_frontier["approved_total_usd"]:.2f}. '
-                'This is a cumulative cap with no automatic renewal. Accepted legacy recovery allocations remain charged in full. '
-                'Accepted legacy refresh and manual envelopes retain their separate original authority.',
-                'New automatic work reserves its complete remaining stage chain, up to $10 per envelope. '
-                'Proven unused reservations settle only when every potentially billable request has complete terminal usage evidence. '
+                'Spending is managed by the owner at the AI provider. No repository monetary limits apply to new or existing work.',
+                f'Historical commitments and outstanding cost estimates: ${recovery_frontier["committed_usd"]:.6f}. '
+                'These records are informational, not a spending allowance or provider balance.',
                 'Usage is provider-reported and priced at frozen rates, not invoice reconciliation.',
-                'Funded progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, '
+                'Progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, '
                 'refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.',
-                '[Recovery frontier](RECOVERY.json) records current holds and funding.']
+                '[Recovery frontier](RECOVERY.json) records current holds and cost history.']
         rows += ['', '## Previously accepted recovery authority', '',
                  f'Accepted shared allocations: ${funding["shared_policy_usd"]:.6f} '
                  f'across {funding["shared_policy_count"]} runs. '
                  'Allocations are not recycled after failure or cancellation.',
                  f'Separately authorized manual workflow allocations: ${funding["manual_workflow_usd"]:.6f} '
-                 f'across {funding["manual_workflow_count"]} accepted runs. Each run is limited to its own explicit ceiling; '
-                 'each prior run retains its frozen funding and attempt limits.',
+                 f'across {funding["manual_workflow_count"]} accepted runs. '
+                 'Historical monetary limits are preserved as audit data and no longer restrict processing.',
                  '[Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes '
                  'and explicit blocking reasons. It is a derived report, not spending authority.',
                  ' | '.join(f'{reason}: {count}' for reason, count in recovery_frontier['counts'].items()),
@@ -477,7 +477,7 @@ class State:
                 pub = record['published']
                 rows.append(f'- `{record["language"]}/{record["article_id"]}`: '
                             f'{pub["edit_issue"]["reason"]} [edited file]({pub["html_path"]})')
-        rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |',
+        rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Estimated requests (USD) | Report |',
                  '| --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |']
         for campaign in self.campaigns():
             outcomes = {'complete':0, 'held':0, 'active':0, 'proposal':0, 'cancelled':0, 'unknown':0}
@@ -499,7 +499,7 @@ class State:
                        'source refresh' if campaign.get('source_refresh') else 'manual')
             rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
                         f'{summary} | {campaign.get("reported_usage_usd",0):.8f} | '
-                        f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
+                        f'{campaign.get("reserved_usd",0):.6f} | '
                         f'[state](state/campaigns/{campaign["id"]}.json)'
                         + (f' / [admissions](state/manual-admissions/{campaign["id"]}.json)'
                            if self.read(f'state/manual-admissions/{campaign["id"]}.json') else '') + ' |')

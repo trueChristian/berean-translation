@@ -510,10 +510,11 @@ def validate_campaign(state, identity):
 
 
 def original_contract(campaign, request):
-    """Legacy state cannot enlarge the explicit, immutable manual authority."""
+    """Preserve the original manual request, including historical budget data."""
+    from . import spending
     if (any(request.get(k) != campaign.get(k) for k in
             ('id', 'operation', 'model', 'review_model', 'dry_run', 'requested_by'))
-            or 'budget_usd' not in request or float(request['budget_usd']) != campaign['budget_usd']):
+            or spending.historical_budget(request) != campaign.get('budget_usd')):
         raise ContractError('legacy_request_contract_unproven')
     languages = request.get('languages')
     if languages != 'all' and (not isinstance(languages, str)

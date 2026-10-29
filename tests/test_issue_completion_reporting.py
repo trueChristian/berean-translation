@@ -53,11 +53,15 @@ class IssueCompletionTests(unittest.TestCase):
             self.assertEqual(task['status'],'complete')
         self.assertEqual(self.state.read('state/campaigns/request-1.json'),original)
         for identity,task in before.items(): self.assertEqual(self.state.read(f'state/tasks/{identity}/task.json'),task)
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
         validate_repository(self.config)
 
     def test_finished_budget_blocked_is_held_not_completed_and_does_not_spend(self):
-        queue(self.state,languages='all',budget_usd=.000001)
+        request=queue(self.state,languages='all',budget_usd=.000001)
+        self.engine.discover()
+        self.engine.accept_request(request)
+        for task in self.state.tasks():
+            self.engine.finish(task, 'budget_blocked', 'Historical budget hold')
         self.engine.tick()
         self.assertEqual(self.provider.create_calls,0)
         campaign=self.state.campaigns()[0]
@@ -95,7 +99,7 @@ class IssueCompletionTests(unittest.TestCase):
         self.assertIn('2 held',text)
         self.assertEqual(len(self.state.projection(self.config)['articles']),2)
 
-    def test_recovery_report_uses_exact_lifetime_budget_boundary(self):
+    def test_recovery_report_has_no_lifetime_budget_boundary(self):
         self.engine.discover()
         self.engine.accept_request(queue(self.state))
         # Seed two held candidates without preparing or submitting a batch.
@@ -113,27 +117,25 @@ class IssueCompletionTests(unittest.TestCase):
                  'review_model':policy['review_model'],'budget_usd':.1,'dry_run':False,'max_articles':1}
         first=accept(self.engine,request)
         self.assertEqual(len(first['tasks']),1)
-        self.assertEqual(ledger(self.state)[0],money('.1'))
+        self.assertEqual(ledger(self.state)[0],money(0))
         before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
                 if path.name != 'automatic-status.json'}
         next_request={**request,'id':'budget-boundary-next','budget_usd':.2}
 
-        for cap in (.299999, .3):
+        for cap in (0, .299999, .3):
             with self.subTest(cap=cap):
                 policy['total_budget_usd']=cap
                 self.state.derive(self.config)
                 text=self.state.path('STATUS.md').read_text()
-                self.assertIn('Accepted shared allocations: $0.100000 across 1 runs.',text)
+                self.assertIn('Accepted shared allocations: $0.000000 across 1 runs.',text)
                 self.assertNotIn('hourly recovery', text)
                 self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')
                                         if path.name != 'automatic-status.json'})
                 validate_repository(self.config)
-                if cap < .3:
-                    with self.assertRaisesRegex(ContractError,'lifetime spending envelope exhausted'):
-                        accept(self.engine,next_request)
+                self.assertIn('no longer restrict processing', text)
 
         second=accept(self.engine,next_request)
         self.assertEqual(len(second['tasks']),1)
-        self.assertEqual(ledger(self.state)[0],money('.3'))
+        self.assertEqual(ledger(self.state)[0],money(0))
         self.assertEqual(self.provider.create_calls,0)
         self.assertEqual(self.provider.upload_calls,0)

@@ -15,7 +15,7 @@ import yaml
 from berean_translation.cli import main
 from berean_translation.common import ContractError, read_json
 from berean_translation.requests import build_request, reserve_cost, usage_cost
-from support import REPO_ROOT, queue, setup
+from support import REPO_ROOT, drive, queue, setup
 
 
 LUNA = 'gpt-6-luna'
@@ -99,10 +99,10 @@ class LunaRegistryTests(unittest.TestCase):
         self.assertEqual(runtime['default_model'], LUNA)
         self.assertEqual(runtime['default_review_model'], LUNA)
         self.assertTrue(runtime['automatic_new_translation'])
-        self.assertEqual(runtime['autonomous_translation']['total_budget_usd'], 30)
+        self.assertNotIn('total_budget_usd', runtime['autonomous_translation'])
         self.assertNotIn('automatic_source_refresh', runtime)
         self.assertEqual(runtime['automatic_downstream_recovery'], {
-            'enabled': True, 'total_budget_usd': 10, 'campaign_budget_usd': 1,
+            'enabled': True,
             'max_articles': 3, 'model': 'gpt-6.1-sol', 'review_model': 'gpt-6.1-sol',
             'max_output_tokens': 32768, 'review_output_tokens': 8192})
         self.assertEqual(runtime['max_translation_attempts'], 2)
@@ -132,7 +132,7 @@ class LunaRequestTests(unittest.TestCase):
         self.assertEqual(self.provider.upload_calls, 0)
         self.assertEqual(self.provider.create_calls, 0)
 
-    def test_enqueue_env_default_and_explicit_override_keep_dry_run_and_budget(self):
+    def test_enqueue_env_keeps_dry_run_and_ignores_retired_budget_input(self):
         env = {'GITHUB_REF': 'refs/heads/main', 'GITHUB_RUN_ID': 'luna-test',
                'GITHUB_REPOSITORY': 'fixture/repo', 'GITHUB_ACTOR': 'fixture-owner',
                'GH_TOKEN': 'fixture-no-network', 'TRANSLATION_OPERATION': 'translate',
@@ -148,7 +148,7 @@ class LunaRequestTests(unittest.TestCase):
                         self.assertEqual(main(['--root', str(self.root), 'enqueue-env']), 0)
                 request = enqueue.call_args.args[1]
                 self.assertEqual((request['model'], request['review_model']), expected)
-                self.assertEqual(request['budget_usd'], '0.5')
+                self.assertNotIn('budget_usd', request)
                 self.assertIs(request['dry_run'], True)
                 self.assertIs(request['retry_failed'], False)
 
@@ -195,13 +195,12 @@ class LunaRequestTests(unittest.TestCase):
         self.assertEqual(build_request(self.config, self.state, task), request_before)
         self.assertNotIn(LUNA, task['models'])
 
-    def test_luna_still_blocks_before_upload_when_budget_is_too_small(self):
+    def test_luna_does_not_block_on_legacy_budget(self):
         queue(self.state, model=LUNA, review_model=LUNA, budget_usd=0.000001)
-        self.engine.tick()
+        drive(self.engine,self.provider)
         self.assertTrue(self.state.tasks())
-        self.assertTrue(all(task['status'] == 'budget_blocked' for task in self.state.tasks()))
-        self.assertEqual(self.provider.upload_calls, 0)
-        self.assertEqual(self.provider.create_calls, 0)
+        self.assertTrue(all(task['status'] == 'complete' for task in self.state.tasks()))
+        self.assertEqual(len(self.state.projection(self.config)['articles']), 2)
 
     def test_luna_context_check_includes_full_review_output_cap(self):
         _, task = self.accept()

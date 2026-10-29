@@ -10,11 +10,11 @@ Translate the complete English articles from [`trueChristian/berean-voice`](http
 
 The scheduled discovery workflow reads current English `main`, finds new and changed articles, and queues authorized work. The collector submits and polls OpenAI batches, receives completed results, advances independent review and bounded correction, publishes accepted translations, and resumes eligible failures. OpenAI does not call this repository back; GitHub Actions polls it.
 
-All twenty configured languages participate. New translation, source refresh, and saved-candidate recovery share the existing cumulative **$30 automatic authority**, without renewal. New automatic work reserves its complete remaining stages; each campaign envelope remains at most $10. Separate accepted manual and historical envelopes keep their original limits. A new run or changed prompt never resets budget or attempt history.
+All twenty configured languages participate. **Spending is managed by the owner at the AI provider; the repository imposes no monetary limits.** This owner-approved policy of October 29, 2026 applies to new translations, source refresh, saved-candidate recovery, manual requests, and already accepted campaigns. Historical budgets, allocations, usage, and exact request/result bytes remain audit data. They do not restrict future processing or reset attempt history.
 
 Discovery and collection share one serialized state writer. Manual requests persist unique immutable queue files, so concurrent requests are not lost to GitHub's limited pending-run concurrency queue. Submitted batches can run concurrently. Unknown submissions are reconciled by their stored submission identity and are never blindly resubmitted.
 
-The automatic `max_active_tasks` allowance is 50 active automatic tasks, separate from explicitly funded manual campaigns. Manual work does not consume those slots; article/language claims still prevent overlap, and new automatic translation and recovery retain the same cumulative $30 funding authority.
+The automatic `max_active_tasks` allowance is 50 active automatic tasks, separate from manual campaigns. Manual work does not consume those slots; article/language claims still prevent overlap. Concurrency, payload/context limits, bounded correction, and quality checks remain operational controls, not dollar budgets.
 
 ## Workflows
 
@@ -22,7 +22,7 @@ Only five workflows are active:
 
 | Workflow | Responsibility | Schedule or trigger |
 | --- | --- | --- |
-| **AI — Translate articles** | Select an issue, languages, models, and a manual budget; persist a translation bundle. | Manual dispatch; free preview is the default. |
+| **AI — Translate articles** | Select an issue, languages, and models; persist a translation bundle. | Manual dispatch; free preview is the default. |
 | **AI — Discover English changes** | Discover upstream English changes and queue automatic work within its standing authority. | Scheduled hourly at minute 3, or manual dispatch. |
 | **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Scheduled every 15 minutes; successful manual/discovery workflows; published human edits; manual dispatch. |
 | **AI — Improve translations** | Review existing publications against English with stronger models; validate accepted replacements at 98. Saved unpublished candidates use the ordinary 95 threshold. | Manual dispatch; free preview is the default. |
@@ -37,9 +37,9 @@ These are configured schedules, not guaranteed start times. GitHub delivers sche
 1. Merge the reviewed implementation into `main`. Production workflows use trusted `main`; a pull request does not activate them.
 2. Ensure the repository Actions secret **`OPENAI_API_KEY`** is set and Actions can commit runtime changes with `contents: write`. Manual enqueuers and discovery do not receive the OpenAI secret.
 3. Run **AI — Discover English changes**, then **AI — Collect and continue** if immediate pickup is wanted. Their configured schedules request subsequent runs automatically; start times remain best effort.
-4. Read [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for publications, primary progress counters, batches, remaining funding, and specific holds.
+4. Read [STATUS.md](STATUS.md) and [RECOVERY.json](RECOVERY.json) for publications, primary progress counters, batches, reported usage, and specific holds.
 
-New manual requests default to a $30 ceiling and **dry_run=true**. A preview makes no paid requests or reservations for that selection; it does not suspend other previously authorized work. Select **dry_run=false** to authorize the selected bundle. Adding a missing API key resumes existing authorized queued work, so inspect those requests first if their intent has changed.
+New manual requests default to **dry_run=true** and have no budget input. A preview makes no paid requests for that selection; it does not suspend other previously requested work. Select **dry_run=false** to process the selected bundle. The owner manages spending with the AI provider and can disable repository Actions or cancel individual campaigns when needed. Stopping a workflow does not cancel batches already accepted by the provider.
 
 ### Choose articles and languages
 
@@ -108,7 +108,7 @@ A technically broken working file is preserved and isolated with a diagnostic. I
 
 ## Recovery and maintenance
 
-The collector automatically resumes eligible failures using saved candidates and bounded funding. New work has its own scheduling allocation so repairs cannot occupy every available slot. Exhausted budgets, unresolved provider outcomes, substantive repeated failures, and protected human content remain visible rather than being reset or silently bypassed.
+The collector automatically resumes eligible failures using saved candidates. Historical budget-only holds are reconsidered without changing their original records. New work has its own scheduling allocation so repairs cannot occupy every available slot. Unresolved provider outcomes, substantive repeated failures, and protected human content remain visible rather than being reset or silently bypassed.
 
 Use **AI — Collect and continue**, operation **cancel**, with a campaign ID to stop that campaign's unsubmitted work and request cancellation of submitted batches. Existing publications remain intact. Cancellation retains task history and allocations; it is not a refund. An interrupted historical acceptance is closed through this same cancellation path, not by deleting records.
 

@@ -69,7 +69,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         campaign = accept(self.engine, self.manual())
         self.assertEqual(campaign['funding_scope'], 'manual_workflow')
         self.assertEqual((campaign['allocation_index'], campaign['allocation_before_usd'],
-            campaign['approved_total_usd'], campaign['downstream_allocation_usd']), (1, 0, 10, 10))
+            campaign['approved_total_usd'], campaign['downstream_allocation_usd']), (1, 0, None, 0))
         self.assertEqual(len(campaign['tasks']), 2)
         self.assertEqual(self.provider.create_calls, calls)
         self.assertTrue(submission_enabled(self.config, campaign))
@@ -80,7 +80,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
             task = self.state.read(f'state/tasks/{identity}/task.json')
             self.assertEqual((task['translation_attempts'], task['review_attempts']), (1, 1))
         self.assertEqual(ledger(self.state)[0], 0)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(self.policy, self.policy_before)
         self.assert_originals_unchanged()
 
@@ -101,7 +101,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         campaign = accept(self.engine, self.manual())
         self.assertEqual(campaign['review_output_tokens'], self.config.review_output_limit('gpt-6-luna'))
         self.assertEqual(campaign['review_output_tokens'], 8192)
-        self.assertEqual(campaign['approved_total_usd'], 10)
+        self.assertIsNone(campaign['approved_total_usd'])
         self.finish()
         self.assertEqual(validate_repository(self.config)['ready'], 2)
         self.assertEqual(self.config.runtime['automatic_downstream_recovery'], {'enabled':False})
@@ -142,8 +142,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         for authorization in malformed:
             with self.subTest(authorization=authorization), self.assertRaises(ContractError):
                 validate_request(self.config, self.manual(manual_authorization=authorization))
-        for changes in ({'id':'other'}, {'requested_by':'other'}, {'budget_usd':0},
-                {'budget_usd':501}, {'max_articles':6}, {'max_articles':True},
+        for changes in ({'id':'other'}, {'requested_by':'other'}, {'budget_usd':'NaN'}, {'max_articles':6}, {'max_articles':True},
                 {'funding_scope':'manual_workflow'}):
             with self.subTest(changes=changes), self.assertRaises(ContractError):
                 validate_request(self.config, self.manual(**changes))
@@ -164,8 +163,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         request = self.manual(); request.pop('manual_authorization')
         with self.assertRaisesRegex(ContractError, 'disabled'): accept(self.engine, request)
         self.policy.update(enabled=True, total_budget_usd=1)
-        with self.assertRaisesRegex(ContractError, 'lifetime spending envelope exhausted'):
-            accept(self.engine, request)
+        self.assertTrue(accept(self.engine, request)['tasks'])
         self.assertFalse(funding_ledger(self.state)['manual_workflow_count'])
 
     def test_manual_and_shared_allocations_keep_distinct_sequences_and_global_keys(self):
@@ -179,9 +177,9 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         shared2 = accept(self.engine, self.shared('shared-2'))
         self.assertEqual((manual1['allocation_index'], manual2['allocation_index']), (1, 1))
         self.assertEqual((shared1['allocation_index'], shared2['allocation_index']), (1, 2))
-        self.assertEqual((shared1['allocation_before_usd'], shared2['allocation_before_usd']), (0, 1))
+        self.assertEqual((shared1['allocation_before_usd'], shared2['allocation_before_usd']), (0, 0))
         totals = funding_ledger(self.state)
-        self.assertEqual((totals['shared_policy_usd'], totals['manual_workflow_usd']), (2, 7))
+        self.assertEqual((totals['shared_policy_usd'], totals['manual_workflow_usd']), (0, 0))
         self.assertEqual((totals['shared_policy_count'], totals['manual_workflow_count']), (2, 2))
         self.assertEqual(len(ledger(self.state)[1]), 4)
         self.validate()
@@ -189,7 +187,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         shared1.pop('funding_scope'); shared1.pop('funding_sha256')
         self.state.save_campaign(shared1)
         self.validate()
-        self.assertEqual(ledger(self.state)[0], 2)
+        self.assertEqual(ledger(self.state)[0], 0)
 
     def test_manual_failures_are_permanent_and_unavailable_to_shared_recovery(self):
         campaign = accept(self.engine, self.manual())
@@ -199,7 +197,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         self.assertTrue(again['empty_selection'])
         self.assertFalse(again['tasks'])
         self.assertEqual(ledger(self.state)[0], 0)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         for original in self.originals:
             self.assertEqual(eligible(self.state, self.config, original, ledger(self.state)[1],
                 self.state.tasks()), 'downstream_attempt_exhausted')
@@ -216,7 +214,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         self.assertTrue(campaign['empty_selection'])
         self.assertEqual(campaign['downstream_allocation_usd'], 0)
         self.assertEqual(funding_ledger(self.state)['manual_workflow_count'], 0)
-        self.assertEqual(ledger(self.state)[0], 1)
+        self.assertEqual(ledger(self.state)[0], 0)
         self.validate()
 
     def test_manual_preview_and_empty_run_allocate_nothing(self):
@@ -236,7 +234,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
     def test_cancellation_never_recycles_manual_allocation(self):
         campaign = accept(self.engine, self.manual())
         self.engine.cancel_campaign(campaign['id'])
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(len(ledger(self.state)[1]), 2)
         again = accept(self.engine, self.manual('37045372895'))
         self.assertTrue(again['empty_selection'])
@@ -251,9 +249,9 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         campaign = self.state.read('state/campaigns/gh-37045372894.json')
         self.assertFalse(campaign['downstream_acceptance_complete'])
         self.assertEqual(accept(self.engine, self.manual()), campaign)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.engine.cancel_campaign(campaign['id'])
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.validate()
 
     def test_partial_child_staging_can_cancel_without_manual_budget_reset(self):
@@ -265,7 +263,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         ended = self.state.read('state/campaigns/gh-37045372894.json')
         self.assertEqual(ended['status'], 'acceptance_aborted')
         self.assertEqual(len(ended['tasks']), 1)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.validate()
 
     def test_queued_competing_runs_cannot_allocate_same_source_twice(self):
@@ -277,7 +275,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         second = self.state.read('state/campaigns/gh-37045372895.json')
         self.assertEqual(len(first['tasks']), 2)
         self.assertTrue(second['empty_selection'])
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(len(ledger(self.state)[1]), 2)
         self.validate()
 
@@ -286,7 +284,7 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         mutations = []
         for field, value in (('approved_total_usd',11), ('allocation_index',2),
                 ('allocation_index',True), ('allocation_before_usd',1),
-                ('downstream_allocation_usd',0), ('budget_usd',11),
+                ('downstream_allocation_usd',1), ('budget_usd',11),
                 ('funding_scope','shared_policy'), ('funding_scope','unknown'),
                 ('funding_sha256','changed'), ('request_sha256','changed')):
             changed = copy.deepcopy(baseline); changed[field] = value
@@ -329,6 +327,6 @@ class ManualRecoveryBudgetTests(unittest.TestCase):
         self.state.derive(self.config)
         text = self.state.path('STATUS.md').read_text()
         self.assertIn('Accepted shared allocations: $0.000000 across 0 runs.', text)
-        self.assertIn('Separately authorized manual workflow allocations: $10.000000 across 1 accepted runs.', text)
+        self.assertIn('Separately authorized manual workflow allocations: $0.000000 across 1 accepted runs.', text)
         self.assertNotIn('hourly policy', text)
         self.assertEqual(self.policy, self.policy_before)

@@ -54,12 +54,12 @@ than the existing GPT-5 mini Batch registry rates; this compares configured rate
 rather than predicting total spend or quality. The ordinary translation/correction
 cap is 16,384 tokens and the reasoning-review cap is 8,192, including reasoning.
 Existing funded downstream campaigns retain their 32,768-token generation and
-8,192-token review caps, original model settings, rates, and dollar ceilings.
+8,192-token review caps, original model settings and rates. Historical dollar ceilings remain audit data and no longer restrict processing.
 
 A stronger model does not establish improved source fidelity by itself. Initial
 translations use 95 and optional accepted-publication improvements use 98, with
 meaning and technical validity required. Current defaults do not reprice old
-requests, reset paid history, or increase the standing budget.
+requests or reset paid history. The owner manages spending at the AI provider.
 
 ## Conservative reservation and reported usage
 
@@ -69,9 +69,7 @@ exceeds the model context. `reserve_cost` uses the highest applicable input
 category, including cache writes, and the full output cap, then rounds upward to
 one microdollar. If the input bound crosses the long-context threshold, the
 entire reservation uses the higher tier even if actual tokenization is shorter.
-Cache hits and shorter responses never justify spending beyond the reserved
-campaign budget. The estimator assumes the verified rates; it cannot guarantee
-future vendor pricing.
+Estimates are informational; they never block admission or submission. The estimator assumes the recorded rates and cannot guarantee future vendor pricing.
 
 `usage_cost(model, usage)` prices Chat Completions `prompt_tokens` and
 `completion_tokens`. When a valid `prompt_tokens_details` breakdown is supplied,
@@ -88,10 +86,9 @@ reprice accepted work. Historical entries without cache/tier fields keep their
 original conservative input/output calculation. The four older registry entries
 are unchanged. Already accepted `gpt-5-mini` source-refresh envelopes retain their original
 models and limits. New source refreshes use the canonical autonomous scheduler
-under the same shared authority as new translations and saved-candidate recovery.
+with the same provider-managed spending policy as new translations and saved-candidate recovery.
 
 Offline tests cover cache mixes, tier boundaries, rounding, reasoning accounting,
-missing usage, frozen campaigns, context rejection, and blocking before upload
-when the request does not fit its budget. No model access or paid API call is
+missing usage, frozen campaigns, context rejection, and continued processing regardless of historical dollar limits. No model access or paid API call is
 needed to run them. Documentation verifies the public contract, not access for
 any particular OpenAI project.

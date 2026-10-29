@@ -98,12 +98,15 @@ class RuntimeTests(unittest.TestCase):
         self.assertTrue(all(t['status']=='queued' for t in self.state.tasks()))
         self.assertEqual(self.provider.create_calls,0)
 
-    def test_budget_blocks_before_upload_or_submission(self):
+    def test_legacy_tiny_budget_does_not_block_translation_or_publication(self):
         queue(self.state,budget_usd=0.000001)
         drive(self.engine,self.provider)
-        self.assertEqual(self.provider.upload_calls,0)
-        self.assertEqual(self.provider.create_calls,0)
-        self.assertTrue(all(t['status']=='budget_blocked' for t in self.state.tasks()))
+        self.assertGreater(self.provider.create_calls,0)
+        self.assertTrue(all(t['status']=='complete' for t in self.state.tasks()))
+        self.assertEqual(len(self.state.projection(self.config)['articles']),2)
+        campaign=self.state.campaigns()[0]
+        self.assertEqual(campaign['budget_usd'],0.000001)
+        self.assertGreater(campaign['reserved_usd'],campaign['budget_usd'])
         validate_repository(self.config)
 
     def test_uncertain_success_is_recovered_without_resubmission(self):

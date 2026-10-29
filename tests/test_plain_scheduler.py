@@ -98,7 +98,7 @@ class PlainSchedulerTests(unittest.TestCase):
         self.config.runtime['autonomous_translation']['max_active_tasks'] = 1
         autonomous.accept(self.engine, requests[0])
         funding = autonomous.ledger(self.state)['allocated_usd']
-        with self.assertRaises(autonomous.BudgetUnavailable):
+        with self.assertRaises(autonomous.AdmissionPaused):
             autonomous.accept(self.engine, requests[1])
         hold = self.state.read(f'state/automatic-holds/{identities[1]}.json')
         self.assertEqual((hold['reason'], hold['active_tasks'], hold['maximum_active_tasks']),
@@ -119,7 +119,7 @@ class PlainSchedulerTests(unittest.TestCase):
                          predecessor_bytes)
         for campaign in self.state.campaigns():
             if campaign.get('autonomous'):
-                self.assertEqual(campaign['budget_usd'], campaign['stage_budget']['total_reserved_usd'])
+                self.assertEqual(campaign['automatic_allocation_usd'], campaign['stage_budget']['total_reserved_usd'])
         self.assertLessEqual(autonomous.ledger(self.state)['allocated_usd'], 30)
         self.assertEqual(self.provider.create_calls, 0)
         self.state.derive(self.config)

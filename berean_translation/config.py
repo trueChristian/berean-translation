@@ -71,7 +71,7 @@ class Config:
         from .autonomous import policy as autonomous_policy
         automatic = autonomous_policy(self)
         if type(self.runtime.get('automatic_new_translation')) is not bool or (self.runtime['automatic_new_translation'] and not automatic['enabled']):
-            raise ContractError('Automatic new work requires the bounded shared spending authority')
+            raise ContractError('Automatic new work requires the automatic scheduler to be enabled')
         from .downstream import validate_policy
         validate_policy(self)
         if self.runtime.get('structural_feedback_version') not in (None, '1'):

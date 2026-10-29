@@ -1,4 +1,4 @@
-"""Bounded repair-first recovery with permanent, separately funded envelopes.
+"""Repair-first recovery with provider-managed spending and preserved history.
 
 The serialized collector owns selection, allocation and task creation. Historical
 campaigns and terminal tasks are read-only inputs, not resettable retry counters.
@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 from .common import ContractError, digest, json_hash, now, read_json, money
 from .state import TERMINAL
-from . import continuation
+from . import continuation, spending
 
 POLICY = 'automatic_downstream_recovery'
 MANUAL_SCOPE = 'manual_workflow'
@@ -20,16 +20,12 @@ def validate_policy(config):
     policy = config.runtime.get(POLICY, {'enabled': False})
     if policy == {'enabled': False}:
         return policy
-    fields = {'enabled', 'total_budget_usd', 'campaign_budget_usd', 'max_articles',
+    fields = {'enabled', 'max_articles',
               'model', 'review_model', 'max_output_tokens', 'review_output_tokens'}
-    if (not isinstance(policy, dict) or set(policy) != fields
+    retired = {'total_budget_usd', 'campaign_budget_usd'}
+    if (not isinstance(policy, dict) or set(policy) - retired != fields
             or type(policy.get('enabled')) is not bool):
         raise ContractError('Invalid downstream recovery policy')
-    cap, budget = money(policy['total_budget_usd']), money(policy['campaign_budget_usd'])
-    if not budget or budget > money(config.runtime['max_campaign_usd']):
-        raise ContractError('Downstream campaign budget must be positive and within the runtime cap')
-    if policy['enabled'] and (not cap or budget > cap):
-        raise ContractError('Enable downstream recovery only with a positive approved total cap')
     if type(policy['max_articles']) is not int or not 1 <= policy['max_articles'] <= 5:
         raise ContractError('Downstream recovery selects at most five articles per request')
     for key in ('max_output_tokens', 'review_output_tokens'):
@@ -77,22 +73,19 @@ def validate_request(config, request):
     count = request.get('max_articles')
     if type(count) is not int or not 1 <= count <= min(5, config.runtime['max_tasks_per_request']):
         raise ContractError('Downstream max_articles must be an integer from 1 to 5')
-    budget = money(request.get('budget_usd'))
-    if not budget or budget > money(config.runtime['max_campaign_usd']):
-        raise ContractError('Downstream request requires an explicit positive campaign budget')
+    spending.historical_budget(request)  # Optional legacy data, never an admission limit.
     config.model(request.get('model')); config.model(request.get('review_model'))
     continuation.validate_policy(request.get('continuation_policy'))
     manual = validate_manual_authorization(request)
     policy = validate_policy(config)
     if not request['dry_run'] and not manual and not policy['enabled']:
-        raise ContractError('Paid downstream recovery is disabled pending an approved total budget')
+        raise ContractError('Automatic downstream recovery is disabled')
     hour = request.get('scheduled_hour')
     if hour is not None:
         if (not isinstance(hour, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}T\d{2}', hour)
                 or request['id'] != 'downstream-' + hour.replace('-', '').replace('T', '')
                 or request['dry_run'] or count != policy.get('max_articles')
                 or any(request[key] != policy.get(key) for key in ('model', 'review_model'))
-                or budget != money(policy.get('campaign_budget_usd'))
                 or ('continuation_policy' in request and request['continuation_policy'] != continuation.policy())):
             raise ContractError('Scheduled recovery must match the configured hourly policy')
     return request
@@ -103,9 +96,12 @@ def recovery_key(task):
 
 
 def funding_settings(campaign):
-    return {key: campaign.get(key) for key in ('funding_scope', 'request_sha256',
+    result = {key: campaign.get(key) for key in ('funding_scope', 'request_sha256',
         'budget_usd', 'downstream_allocation_usd', 'allocation_index',
         'allocation_before_usd', 'approved_total_usd')}
+    if 'spending_policy' in campaign:
+        result['spending_policy'] = campaign['spending_policy']
+    return result
 
 
 def campaign_funding_scope(campaign):
@@ -122,16 +118,22 @@ def campaign_funding_scope(campaign):
     if ('funding_scope' in campaign or 'funding_sha256' in campaign) and (
             json_hash(funding_settings(campaign)) != campaign.get('funding_sha256')):
         raise ContractError('Downstream frozen funding authorization changed')
-    if manual and (type(campaign.get('allocation_index')) is not int
+    if manual and not spending.external(campaign) and (type(campaign.get('allocation_index')) is not int
             or campaign['allocation_index'] != 1
             or money(campaign.get('allocation_before_usd')) != money(0)
             or money(campaign.get('approved_total_usd')) != money(request.get('budget_usd'))):
         raise ContractError('Manual recovery must retain its own explicit, one-run spending ceiling')
+    if spending.external(campaign) and (campaign.get('approved_total_usd') is not None
+            or money(campaign.get('downstream_allocation_usd')) != money(0)
+            or (manual and (type(campaign.get('allocation_index')) is not int
+                or campaign['allocation_index'] != 1
+                or money(campaign.get('allocation_before_usd')) != money(0)))):
+        raise ContractError('Provider-managed spending metadata changed')
     return scope
 
 
 def submission_enabled(config, campaign):
-    """Hourly policy changes cannot revoke or enlarge a manual run's own cap."""
+    """Scheduled-policy pauses do not pause independently requested manual work."""
     return (campaign_funding_scope(campaign) == MANUAL_SCOPE
             or validate_policy(config)['enabled'])
 
@@ -151,7 +153,7 @@ def funding_ledger(state):
                 or request.get('operation') != 'repair'
                 or request.get('dry_run') is not campaign.get('dry_run')
                 or request.get('requested_by') != campaign.get('requested_by')
-                or money(request.get('budget_usd')) != money(campaign.get('budget_usd'))
+                or spending.historical_budget(request) != campaign.get('budget_usd')
                 or any(request.get(k) != campaign.get(k) for k in ('model', 'review_model'))):
             raise ContractError('Downstream immutable authorization is missing or changed')
         queued = state.read(f'state/queue/{campaign["id"]}.json')
@@ -168,7 +170,7 @@ def funding_ledger(state):
             if allocation or selections or campaign.get('tasks') or campaign.get('reserved_usd'):
                 raise ContractError('Empty downstream selection cannot allocate work or funds')
             continue
-        if allocation != money(campaign['budget_usd']):
+        if not spending.external(campaign) and allocation != money(campaign['budget_usd']):
             raise ContractError('Accepted downstream envelope is permanent, including cancelled work')
         if scope == MANUAL_SCOPE:
             manual_total += allocation
@@ -181,8 +183,6 @@ def funding_ledger(state):
                 or money(campaign.get('allocation_before_usd')) != total):
             raise ContractError('Downstream cumulative allocation sequence changed')
         total += money(campaign['downstream_allocation_usd'])
-        if total > money(campaign['approved_total_usd']):
-            raise ContractError('Downstream allocations exceeded their frozen authorization')
     lineages = continuation.lineages(entries)
     return {'shared_policy_usd': total, 'manual_workflow_usd': manual_total,
             'shared_policy_count': len(allocations), 'manual_workflow_count': manual_count,
@@ -308,9 +308,7 @@ def accept(engine, request):
     allocated, used = funding['shared_policy_usd'], funding['recovery_keys']
     manual = validate_manual_authorization(request)
     policy = validate_policy(config)
-    budget = money(request['budget_usd'])
-    if not request['dry_run'] and not manual and allocated + budget > money(policy['total_budget_usd']):
-        raise ContractError('Downstream lifetime spending envelope exhausted; prior allocations are never recycled')
+    budget = spending.historical_budget(request)
     tasks = state.tasks()
     accepted_at = now()
     settings = request.get('continuation_policy')
@@ -360,10 +358,6 @@ def accept(engine, request):
                                 'detail': str(exc)})
                 continue
             ceiling = money(item['cycle_budget']['total_reserved_usd'])
-            if planned + ceiling > budget:
-                skipped.append({'previous_task_id': previous['id'], 'reason': 'continuation_cycle_budget_blocked',
-                                'required_usd': float(ceiling)})
-                continue
             planned += ceiling
         selections.append(item)
         if len(selections) >= request['max_articles']:
@@ -373,12 +367,13 @@ def accept(engine, request):
         'requested_by': request.get('requested_by'), 'downstream_recovery': True,
         'downstream_request': copy.deepcopy(request), 'request_sha256': json_hash(request),
         'source_revision': state.read('state/source.json')['revision'],
-        'budget_usd': float(budget), 'reserved_usd': 0.0, 'reported_usage_usd': 0.0,
-        'downstream_allocation_usd': 0.0 if request['dry_run'] or not selections else float(budget),
+        'budget_usd': budget, 'spending_policy': spending.POLICY_ID,
+        'reserved_usd': 0.0, 'reported_usage_usd': 0.0,
+        'downstream_allocation_usd': 0.0,
         'funding_scope': MANUAL_SCOPE if manual else SHARED_SCOPE,
         'allocation_index': 1 if manual else 1 + funding['shared_policy_count'],
         'allocation_before_usd': 0.0 if manual else float(allocated),
-        'approved_total_usd': float(budget if manual else money(policy.get('total_budget_usd', 0))),
+        'approved_total_usd': None,
         'tasks': [], 'selection': selections, 'skipped': skipped, 'dry_run': request['dry_run'],
         'status': 'planned' if request['dry_run'] else 'acceptance_incomplete',
         'downstream_acceptance_complete': False,
@@ -456,17 +451,13 @@ def validate_history(config, state, tasks):
         if settings is not None:
             continuation.validate_policy(settings)
             if (money(campaign.get('planned_cycle_ceiling_usd')) != sum(
-                    (money(item['cycle_budget']['total_reserved_usd']) for item in campaign['selection']), money(0))
-                    or money(campaign['planned_cycle_ceiling_usd']) > money(campaign['budget_usd'])):
+                    (money(item['cycle_budget']['total_reserved_usd']) for item in campaign['selection']), money(0))):
                 raise ContractError('Downstream complete-cycle reservations exceed their frozen envelope')
         if campaign.get('empty_selection'):
             if (campaign.get('selection') or campaign.get('tasks') or campaign.get('reserved_usd')
                     or campaign.get('downstream_allocation_usd')):
                 raise ContractError('Empty downstream request contains work or allocations')
             continue
-        if (not campaign['dry_run'] and money(campaign['allocation_before_usd']) +
-                money(campaign['downstream_allocation_usd']) > money(campaign['approved_total_usd'])):
-            raise ContractError('Downstream allocation exceeded its approved total')
         if len(campaign['selection']) > min(5, campaign['downstream_request']['max_articles']):
             raise ContractError('Downstream selection exceeds its authorized count cap')
         expected = []
