@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "“神的供应”第二段，彼得前书 4:12 引文",
+      "severity": "critical",
+      "source_quote": "think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you",
+      "suggested_fix": "将引文改为：<em>…对于那临到你们、为要试炼你们的火炼，不要以为奇怪，好像遭遇了什么怪事。——彼得前书 4:12。</em>",
+      "translation_quote": "…要以为不寻常，倒要以为有喜乐；因为你们是与基督一同受苦，叫你们到了将来得荣耀的时候，也可以欢喜快乐。——彼得前书 4:12。"
+    },
+    {
+      "location": "“神的能力”第二段，希伯来书 12:6-8 引文末尾",
+      "severity": "major",
+      "source_quote": "for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons",
+      "suggested_fix": "将“父亲不管教儿子，便是私生子了”替换为“哪有儿子不受父亲管教的呢？管教是众人都要受的；你们若不受管教，就是私生子，不是儿子了”。",
+      "translation_quote": "父亲不管教儿子，便是私生子了。"
+    },
+    {
+      "location": "“神的供应”第一段，诗篇 25:9 引文",
+      "severity": "major",
+      "source_quote": "The meek will he guide in judgment: and the meek will he teach his way",
+      "suggested_fix": "将引文改为：<em>他必按公平引导谦卑的人，将自己的道路教导谦卑的人。——诗篇 25:9。</em>",
+      "translation_quote": "谦和的人必要以公平教训他，谦和的人必要指教他的道。"
+    },
+    {
+      "location": "最后一段，腓立比书 3:10 引文",
+      "severity": "major",
+      "source_quote": "being made conformable unto his death",
+      "suggested_fix": "将“使我们在生命的死上模成他的样式”改为“在他的死上与他形状相似”。",
+      "translation_quote": "使我们在生命的死上模成他的样式"
+    },
+    {
+      "location": "“神的熬炼”第二段，马可福音 10:42 引文",
+      "severity": "major",
+      "source_quote": "they which are accounted to rule over the Gentiles exercise lordship over them; and their great ones exercise authority upon them",
+      "suggested_fix": "将引文改为：<em>…你们知道，那些被视为外邦人统治者的，辖制他们；他们的大人物也向他们施行权柄。——马可福音 10:42。</em>",
+      "translation_quote": "外邦人的治理主张在他们中间作主。并且他们的尊贵人在他们身上有权柄。"
+    },
+    {
+      "location": "“神的熬炼”第二段，马可福音 10:43-44 引文",
+      "severity": "major",
+      "source_quote": "whosoever will be great among you, shall be your minister",
+      "suggested_fix": "将“只是你们中间为首的，必须作你们的用人”改为“但……你们中间谁愿为大，就要作你们的用人”。",
+      "translation_quote": "只是你们中间为首的，必须作你们的用人"
+    },
+    {
+      "location": "“神的能力”第三段，马太福音 11:29 引文",
+      "severity": "major",
+      "source_quote": "learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls",
+      "suggested_fix": "将引文改为：<em>…学我的样式；因为我心里柔和谦卑，你们的心灵就必得享安息。——马太福音 11:29。</em>",
+      "translation_quote": "…学我的样式；因为我心里柔和谦卑，你们当负我的轭，学我的样式，就必得着心灵的安息。"
+    },
+    {
+      "location": "“神的熬炼”第一段，祭司姓名及接待摩西的叙述",
+      "severity": "major",
+      "source_quote": "their father, Reuel, was so impressed that he gave Moses a reception, a job, and a wife",
+      "suggested_fix": "改为“她们的父亲流珥深受感动，便接待摩西，给他一份工作，又给他娶妻”。“reception”不应擅自具体化为筵宴。",
+      "translation_quote": "他们的父亲流利勒（利乌）深受感动，就为摩西设摆筵宴，给他一个差事并把女儿给他作妻子"
+    },
+    {
+      "location": "“神的应许”首段，出埃及记 3:12 引文",
+      "severity": "major",
+      "source_quote": "this shall be a token unto thee, that I have sent thee",
+      "suggested_fix": "将“这就可作你得以差遣的证据”改为“这就是我差遣你的凭据”。",
+      "translation_quote": "这就可作你得以差遣的证据"
+    },
+    {
+      "location": "“神的能力”第三段，描述摩西品格的句子",
+      "severity": "minor",
+      "source_quote": "known to the biblical scholar as the meekest man to walk the face of the earth",
+      "suggested_fix": "将“那位圣经学者称作世上最温柔之人的品格”改为“圣经研究者所熟知的、世上最谦和之人的品格”，避免凭空指向某一位学者。",
+      "translation_quote": "那位圣经学者称作世上最温柔之人的品格"
+    },
+    {
+      "location": "全文多处简繁混用",
+      "severity": "minor",
+      "source_quote": "there; for a season; Lord, what wilt thou have me to do?; Who am I; Adullam",
+      "suggested_fix": "统一为简体：将“那裡”改为“那里”，“暫時”“快樂”改为“暂时”“快乐”，“主阿，你要我作甚麼事？主說：起來，下到城裡去，必有人告訴你當作的事”改为“主啊，你要我作什么事？主说：起来，下到城里去，必有人告诉你当作的事”，“誰”改为“谁”，“管轄”改为“管辖”，“亞杜蘭”改为“亚杜兰”。",
+      "translation_quote": "那裡；暫時；快樂；主阿，你要我作甚麼事？主說：起來，下到城裡去，必有人告訴你當作的事；我是誰；管轄；亞杜蘭"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
