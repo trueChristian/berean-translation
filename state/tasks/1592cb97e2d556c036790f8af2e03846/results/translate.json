@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "28e19fb6-cd7d-433e-9aed-f6298214b868",
+    "response_id": "chatcmpl-EeRaRSbJ4LqKDtaFWrUObf7bHB2Jv",
+    "usage": {
+      "completion_tokens": 1071,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 159,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1478,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1475,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2549
+    }
+  },
+  "received_at": "2026-10-29T21:10:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"1f294c3b-4295-4493-8a52-a33af40f298b\">\n  <p class=\"drop-cap\">Die waters van die Engelse Kanaal het wyd en diep gevloei; in sy volle breedte is dit nooit deur ’n menslike arm oorgesteek nie. Aangevuur deur die ambisie om iets te doen wat niemand voorheen gedoen het nie, en bewus van sy spierkrag, het die gevierde swemmer Matthew Webb daardie vyf-en-twintig myl geswem en voet aan wal in Frankryk gesit.</p>\n  <p>Dikwels in die water, en altyd ongedeerd, het hy blykbaar gedink dat hy ’n beskermde lewe lei; en toe hy na die siedende stroomversnelling van Niagara kyk, het hy besluit om sy lewe vir roem te waag—roem wat nog nooit enige verlangende mensehart bevredig het nie—en gesê: “Dit is alles geluk, en die einde, daaroor dink ek nie; ek gaan my kans waag.”</p>\n  <p>Vir die laaste keer, hoewel hy dit nie geweet het nie, het hy op 24 Julie 1883 sy bekende swemdrag aangetrek en die noodlottige sprong in die woedende, kolkende stroom gewaag. Hy het soos gewoonlik ná sy duik bo water gekom om te dryf en te begin swem, maar die draaikolkwaters het hom soos ’n strooihalm in hul reusegreep beetgekry en hom, onsigbaar en magteloos, in die maalstroom geslinger wat hy so roekeloos aangedurf het; buite sig verloor van duisende wat veilig rondom hom gestaan het—self veilig, maar sonder die vermoë om hom te help.</p>\n  <p>Op die oewer van daardie groot rivier is daar ’n rots wat “Verby die Verlossingspunt” genoem word. ’n Klein landtong wat in die water uitsteek, onopgemerk deur reisigers, maar anderkant dit is daar nog nooit van ’n mens bekend dat hy gered is nie. Aan die een kant is daar lewe, hoop en redding; aan die ander kant, die dood, wanhoop en verdoemenis; en tog is die afstand tussen hulle so klein.</p>\n  <p>In die bruisende stroom van die lewe kom ons daagliks nader aan die punt waarvandaan geen reisiger terugkeer nie; en jy weet nie hoe gou jy dalk, half aan die droom, “verby die verlossingspunt” kan dryf nie. Daardie fluistering vandag in jou hart van ’n teks wat by jou moeder se knie geleer is; daardie wonderbaarlike bewaring in ’n oomblik van groot gevaar; daardie dag toe jy by ’n oop graf gestaan en in sy onpeilbare verborgenhede gekyk het; daardie siekte wat jou so naby aan die Koninkryk van God gebring het, maar tog nie binne-in nie—O! wie sal sê wanneer die Stem jou vir die laaste keer sal smeek.</p>\n  <figure>\n    <img src=\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\" alt=\"Watervalle gesien vanaf ’n rotsagtige uitkykpunt met verskeie mense.\">\n  </figure>\n  <p>Kan jy sê watter van hierdie omstandighede die “Verby die Verlossingspunt” van jou lewe sal wees? God sê: “My Gees sal nie altyd met die mens twis nie (Gen 6:3)” en “As jy geweet het, selfs jy, ten minste op hierdie dag van jou, wat tot jou vrede dien! Maar nou is dit vir jou oë verberg (Luk 19:42).”</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Verby die Verlossingspunt"
+  }
+}
