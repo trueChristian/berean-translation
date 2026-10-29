@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4165865a-021a-421e-af83-0aa8cd8ca4f5",
+    "response_id": "chatcmpl-EePBE5AiUjZx75AYVoTsndRNUBpHK",
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10663
+    }
+  },
+  "received_at": "2026-10-29T18:41:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning « On raconte l’histoire d’un prisonnier… »",
+        "severity": "minor",
+        "source_quote": "a life prisoner whom Mlle. Wrede had often visited in prison",
+        "suggested_fix": "Remplacer « qu Mlle Wrede » par « que Mlle Wrede ».",
+        "translation_quote": "un prisonnier à perpétuité qu Mlle Wrede avait souvent visité en prison"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

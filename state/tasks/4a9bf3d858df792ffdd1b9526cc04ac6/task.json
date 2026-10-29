@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2165ccb4bc1e402fb020ff04dbbfdb1c",
   "campaign": "auto-13bfa5f54b770505e14b93a04446bb738091865de898e4fc193dc961c9439866",
   "created_at": "2026-10-29T10:20:25+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 9582
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 789,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 666,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9874,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9871,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10663
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « On raconte l’histoire d’un prisonnier… »",
+      "severity": "minor",
+      "source_quote": "a life prisoner whom Mlle. Wrede had often visited in prison",
+      "suggested_fix": "Remplacer « qu Mlle Wrede » par « que Mlle Wrede ».",
+      "translation_quote": "un prisonnier à perpétuité qu Mlle Wrede avait souvent visité en prison"
+    }
+  ],
+  "finished_at": "2026-10-29T18:41:14+00:00",
   "id": "4a9bf3d858df792ffdd1b9526cc04ac6",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.09053,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

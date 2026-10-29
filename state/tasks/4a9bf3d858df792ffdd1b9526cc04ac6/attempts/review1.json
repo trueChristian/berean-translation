@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T18:41:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning « On raconte l’histoire d’un prisonnier… »\",\"severity\":\"minor\",\"source_quote\":\"a life prisoner whom Mlle. Wrede had often visited in prison\",\"suggested_fix\":\"Remplacer « qu Mlle Wrede » par « que Mlle Wrede ».\",\"translation_quote\":\"un prisonnier à perpétuité qu Mlle Wrede avait souvent visité en prison\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 428,
+    "content_evidence_truncated": false,
+    "content_sha256": "0b8c575cf4ac2c4fceaaeccdfaca83bba2288d3cbdf986035168cb1eb498eccd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10663
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

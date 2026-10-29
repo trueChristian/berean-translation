@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « On raconte l’histoire d’un prisonnier… »",
+      "severity": "minor",
+      "source_quote": "a life prisoner whom Mlle. Wrede had often visited in prison",
+      "suggested_fix": "Remplacer « qu Mlle Wrede » par « que Mlle Wrede ».",
+      "translation_quote": "un prisonnier à perpétuité qu Mlle Wrede avait souvent visité en prison"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
