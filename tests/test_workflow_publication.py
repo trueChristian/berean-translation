@@ -33,7 +33,8 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertEqual(checkout['persist-credentials'], 'true')
 
     def test_collection_and_maintenance_keep_the_serialized_durable_runtime(self):
-        self.assertEqual(self.document['concurrency'], {
+        self.assertNotIn('concurrency', self.document)
+        self.assertEqual(self.worker['concurrency'], {
             'group': 'berean-translation-state-writer', 'cancel-in-progress': 'false'})
         self.assertEqual(self.document['on']['schedule'], [{'cron': '7,22,37,52 * * * *'}])
         self.assertEqual(self.document['on']['workflow_run'], {
@@ -56,6 +57,44 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertEqual(collect['env']['OPENAI_API_KEY'], '${{ secrets.OPENAI_API_KEY }}')
         self.assertEqual(collect['env']['GH_TOKEN'], '${{ github.token }}')
         self.assertNotIn('continue-on-error', collect)
+
+    def test_automatic_handoff_runs_only_after_successful_collection_and_validation(self):
+        handoff = self.document['jobs']['continue']
+        self.assertEqual(handoff['needs'], 'worker')
+        condition = handoff['if']
+        for guard in ('success()', "needs.worker.result == 'success'",
+                      "github.ref == 'refs/heads/main'",
+                      "github.event_name != 'workflow_dispatch' || inputs.operation == 'collect'"):
+            self.assertIn(guard, condition)
+        self.assertNotIn('always()', condition)
+        self.assertNotIn('continue-on-error', handoff)
+        self.assertEqual(handoff['timeout-minutes'], '10')
+        # A job dependency covers the worker's required post-collection validation.
+        self.assertIn('Validate the resulting runtime records', self.steps)
+        self.assertNotIn('continue-on-error', self.worker)
+        self.assertNotIn('AI — Collect and continue',
+                         self.document['on']['workflow_run']['workflows'])
+
+    def test_handoff_releases_writer_and_only_has_actions_permission_in_its_own_job(self):
+        handoff = self.document['jobs']['continue']
+        self.assertEqual(self.document['permissions'], {'contents': 'write'})
+        self.assertNotIn('actions', self.worker.get('permissions', {}))
+        self.assertEqual(handoff['permissions'], {'contents': 'read', 'actions': 'write'})
+        self.assertEqual(handoff['concurrency'], {
+            'group': 'berean-translation-collector-continuation',
+            'cancel-in-progress': 'false'})
+        self.assertNotEqual(handoff['concurrency']['group'], self.worker['concurrency']['group'])
+        self.assertNotIn('concurrency', self.document)
+        checkout, dispatch = handoff['steps']
+        self.assertEqual(checkout['with'], {
+            'ref': 'main', 'fetch-depth': '0', 'persist-credentials': 'false'})
+        self.assertEqual(dispatch['run'], 'python3 -m berean_translation continue-collection')
+        self.assertEqual(dispatch['env'], {
+            'GH_TOKEN': '${{ github.token }}',
+            'OPERATION': "${{ inputs.operation || 'collect' }}"})
+        self.assertNotIn('OPENAI_API_KEY', str(handoff))
+        self.assertNotIn('secrets.', str(handoff))
+        self.assertNotIn('pip install', str(handoff))
 
     def test_english_checkout_only_runs_for_collection(self):
         source = self.steps['Read current English main once for this collection cycle']

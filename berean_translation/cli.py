@@ -32,6 +32,7 @@ def main(argv=None):
     validation.add_argument('--recognize-human-edits',action='store_true')
     commands.add_parser('derive')
     commands.add_parser('enqueue-env')
+    commands.add_parser('continue-collection')
     discover = commands.add_parser('discover')
     discover.add_argument('--check-only',action='store_true')
     worker = commands.add_parser('tick')
@@ -71,6 +72,9 @@ def main(argv=None):
             result = validate_repository(config)
         elif args.command == 'derive':
             result = state.derive(config)
+        elif args.command == 'continue-collection':
+            from .scheduler import continue_collection
+            result = continue_collection(config, os.environ)
         elif args.command == 'enqueue-env':
             if os.environ.get('GITHUB_REF') != 'refs/heads/main':
                 raise ContractError('Manual paid-work requests must run from main')

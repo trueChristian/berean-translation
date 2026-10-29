@@ -16,7 +16,8 @@ def github_request(method, url, token, data=None):
         'Accept':'application/vnd.github+json','Content-Type':'application/json',
         'X-GitHub-Api-Version':'2022-11-28'})
     with urlopen(request,timeout=60) as response:
-        return loads(response.read())
+        raw = response.read()
+        return loads(raw) if raw else {}
 
 
 def enqueue_github(config, request, repository: str, token: str, transport=github_request):

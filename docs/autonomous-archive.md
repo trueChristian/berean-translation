@@ -2,7 +2,7 @@
 
 The hourly discovery workflow reads current English `main` and queues missing
 and changed work across every article and all configured languages. The collector
-runs every 15 minutes, polls provider batches, and advances saved translations
+requests runs every 15 minutes as a cron fallback, polls provider batches, and advances saved translations
 through independent review and bounded correction. No manual “next” dispatch is
 needed. Active collection windows poll already submitted work between those runs. Turn off repository Actions to stop starting
 work. Batches already accepted by OpenAI can still finish there.
@@ -67,3 +67,5 @@ confirmed absent. See [current operation](../README.md#workflows).
 
 All tests simulate provider results offline and do not establish live translation
 quality or grant further spending authority.
+
+Successful validated collection also explicitly dispatches the next cycle while actionable work remains. The collector can request discovery during continued processing, so its progress does not rely solely on scheduled-event delivery. This continuation is controlled by `automatic_collection_continuation`; see [the runtime contract](runtime-contract.md#automatic-collection-continuation).

@@ -39,14 +39,13 @@ on:
 permissions:
   contents: write
 
-# Losing a redundant pending collector does not lose any manual requests:
-# all enqueuers persist immutable state/queue/<run-id>.json before completing.
-concurrency:
-  group: berean-translation-state-writer
-  cancel-in-progress: false
-
 jobs:
   worker:
+    # Release the shared writer before deciding whether to start another cycle.
+    # A queued discovery can then proceed instead of being displaced by handoff.
+    concurrency:
+      group: berean-translation-state-writer
+      cancel-in-progress: false
     if: >-
       github.ref == 'refs/heads/main' &&
       (github.event_name != 'workflow_run' ||
@@ -117,3 +116,32 @@ jobs:
             RECOVERY.json
           if-no-files-found: warn
           retention-days: 14
+
+  continue:
+    needs: worker
+    if: >-
+      success() && needs.worker.result == 'success' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: write
+    # Handoff does not mutate translation state or hold the state-writer lock.
+    # Serialize competing handoffs; the command also detects queued collectors.
+    concurrency:
+      group: berean-translation-collector-continuation
+      cancel-in-progress: false
+    steps:
+      - name: Check out current trusted main for the next collection decision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Continue automatically while collection work remains
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPERATION: ${{ inputs.operation || 'collect' }}
+        run: python3 -m berean_translation continue-collection

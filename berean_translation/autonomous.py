@@ -362,6 +362,8 @@ def enqueue(engine):
         spec, reason = selection(engine, language, article, previous, manual_claims=manual_claims)
         if reason:
             continue
+        if state.read(f'state/queue-errors/auto-{json_hash(spec)}.json') is not None:
+            continue  # A permanently rejected request cannot consume every page.
         (recoveries if spec['recovery'] else fresh).append(spec)
     # Only eligible pairs count toward each lane's quota. Published items and
     # held sources must not use up the repair share of a translation page.

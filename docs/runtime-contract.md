@@ -97,3 +97,14 @@ The website retains verified historical grouping/image dependencies and truthful
 Renamed, copied, or extra content files do not become accepted publications merely by existing. Human synchronization inventories them under `state/content-isolation.json`, preserves their bytes, and reports them while verified accepted copies continue serving. It does not follow symlinks or read unsupported files. Unknown files at a publication path also exclude that pair from paid AI work.
 
 Automatic checkpoints exclude isolated paths. An already-staged isolated file pauses publication without changing the editor's staging. Such files are neither exported nor classified as human-reviewed without a recognized publication record.
+
+
+## Automatic collection continuation
+
+The collector keeps its 600-second active window and existing cron fallback. After the worker succeeds and validates its durable state, a separate job checks for actionable work and explicitly dispatches the next trusted-main collector using the repository token's `actions:write` permission. It never calls OpenAI or edits processing history. Dispatch events are supported with `GITHUB_TOKEN`; checkpoint pushes are not relied on as triggers.
+
+The worker and discovery retain the same shared writer lock. The continuation job has a separate lock, checks for another pending writer before dispatching, and yields to discovery so source updates are not displaced by a still-held worker lock. While processing remains active, the handoff requests discovery when no discovery attempt has started in the preceding hour. Recent failed discovery is not retried continuously.
+
+Known submitted/cancelling batches, runnable prepared/queued tasks, pending manual selections, and eligible automatic selection can sustain continuation. Counts of old failures or unstarted pairs alone cannot. An unknown provider submission alone stays held for reconciliation and never authorizes a fresh create. Paused or cancelled campaigns and protected human content cannot sustain paid continuation.
+
+`automatic_collection_continuation=false` stops handoffs. Disabling the collector workflow stops new collector runs; cancelling or failing the worker prevents its handoff. A dispatch has no blind POST retry because an uncertain acknowledgment may already have queued a successor. Cron and manual collection remain recovery options.
