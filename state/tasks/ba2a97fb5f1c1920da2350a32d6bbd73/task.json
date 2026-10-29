@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "228dc6ad8acc430392da113ae5c400d7",
   "campaign": "auto-b785c173a48ebb26584265d6a4951517e02bc45d398c29c9b78f87205b97dc90",
   "created_at": "2026-10-29T12:28:53+00:00",
   "events": [
@@ -48,144 +47,31 @@
         },
         "total_tokens": 13889
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 69,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 37,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7684,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6581,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7753
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: pioneers paragraph",
-      "severity": "major",
-      "source_quote": "where they could settle down and call home. There were few general stores",
-      "suggested_fix": "এই অংশটি করুন: “যেখানে তারা স্থায়ীভাবে বসবাস করতে এবং যাকে নিজেদের ঘর বলতে পারতেন। তখন নিত্যপ্রয়োজনীয় নানা পণ্যের দোকান খুব কম ছিল”।",
-      "translation_quote": "যেখানে তারা স্থায়ীভাবে ঠিক করতে এবং বাড়ি বলতে পারতো। তখন সাধারণ প্যাকেটের দোকান কম ছিল"
-    },
-    {
-      "location": "html: quotation of Genesis 2:21-22",
-      "severity": "major",
-      "source_quote": "the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof",
-      "suggested_fix": "উদ্ধৃতির এই অংশটি করুন: “তখন প্রভু ঈশ্বর আদমকে গভীর নিদ্রায় আচ্ছন্ন করলেন, আর আদম ঘুমিয়ে পড়লেন। তিনি আদমের একটি পাঁজর নিয়ে সেই স্থান মাংস দিয়ে বন্ধ করে দিলেন”। বিদ্যমান <em> ট্যাগ ও শাস্ত্রসূত্র রাখুন।",
-      "translation_quote": "তাহলে প্রভু ঈশ্বর আদমের ওপর গভীর নিদ্রা নেমে আসলো; তিনি আদম ঘুমালেন; তিনি তাঁর একটি পাঁজর কেড়ে নিলেন, এবং তার মাংস তার স্থলে বন্ধ করে দিলেন"
-    },
-    {
-      "location": "html: Elijah's warning to Ahab",
-      "severity": "major",
-      "source_quote": "He brought word from God to Ahab ... for the next three and a half years",
-      "suggested_fix": "করুন: “তিনি আহাবের কাছে ঈশ্বরের বার্তা নিয়ে এলেন যে বৃষ্টি হবে না, আর পরবর্তী সাড়ে তিন বছর ভয়াবহ খরা চলল।”",
-      "translation_quote": "তিনি আভকে ঈশ্বরের প্রতিশ্রুতি পৌঁছিলেন ... পরবর্তী তিন বছর অর্ধেক ধরে"
-    },
-    {
-      "location": "html: quotation of 1 Kings 19:10",
-      "severity": "major",
-      "source_quote": "I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant",
-      "suggested_fix": "এই অংশটি করুন: “আমি বাহিনীগণের প্রভু ঈশ্বরের জন্য অত্যন্ত উদ্যোগী হয়েছি; কারণ ইস্রায়েলীয়রা তোমার সঙ্গে করা চুক্তি ত্যাগ করেছে”।",
-      "translation_quote": "আমি প্রভু সামরিক বাহিনীর ঈশ্বরের জন্য খুব জেলাসি করিয়াছি: কারণ ইস্রায়েলীয়া তোমার করার চুক্তি ত্যাগ করিয়াছেন"
-    },
-    {
-      "location": "html: quotation of 1 Kings 19:18",
-      "severity": "major",
-      "source_quote": "all the knees which have not bowed unto Baal",
-      "suggested_fix": "“সকল কই যারা বালকে নাস্তানাবুদ হয় নাই” বদলে “যাদের কেউ বালের সামনে হাঁটু নত করেনি” লিখুন।",
-      "translation_quote": "সকল কই যারা বালকে নাস্তানাবুদ হয় নাই"
-    },
-    {
-      "location": "html: quotation of 2 Timothy 4:9-11",
-      "severity": "major",
-      "source_quote": "Only Luke is with me. Take Mark, and bring him with thee",
-      "suggested_fix": "করুন: “কেবল লূক আমার সঙ্গে আছেন। মার্ককে সঙ্গে করে নিয়ে এসো”।",
-      "translation_quote": "মাত্র লুকাই আমার সাথে আছে। মারককে নিলে, এবং তোমার সঙ্গ নিয়ে আনি"
-    },
-    {
-      "location": "html: paragraph following 2 Timothy quotation",
-      "severity": "major",
-      "source_quote": "The Apostle was not abandoned. ... as he faced a martyr’s death.",
-      "suggested_fix": "প্রথম বাক্য করুন “প্রেরিতকে পরিত্যাগ করা হয়নি।” এবং “তিনি সহীষ্ণু মৃত্যু মুখোমুখি হওয়ার সময়” বদলে “তিনি বিশ্বাসের জন্য প্রাণ দেওয়ার মুখোমুখি হওয়ার সময়” লিখুন।",
-      "translation_quote": "প্রেরিত ঔপনিবেশিকভাবে পরিত্যক্ত ছিল না। ... তিনি সহীষ্ণু মৃত্যু মুখোমুখি হওয়ার সময়"
-    },
-    {
-      "location": "html: fellowship heading's first two paragraphs; first dangerous situation; paragraph beginning 'There are many people'; final two paragraphs",
-      "severity": "major",
-      "source_quote": "That word is fellowship. ... Christian fellowship ... We need fellowship ... where they receive fellowship ... reach out for fellowship ... the right arm of fellowship",
-      "suggested_fix": "এই সব স্থানে অর্থবোধক খ্রিস্টীয় পরিভাষা “সহভাগিতা” ব্যবহার করুন: “সেই শব্দটি হল <strong><em>সহভাগিতা</em></strong>”, “খ্রিস্টীয় সহভাগিতা”, “আমাদের সহভাগিতা প্রয়োজন”, “যেখানে তারা সহভাগিতা লাভ করেন”, “সহভাগিতার জন্য এগিয়ে যেতে হবে”, এবং “সহভাগিতার ডান হাত”। পরের অনুচ্ছেদের <em>fellowship</em>-ও <em>সহভাগিতা</em> করুন।",
-      "translation_quote": "সেই শব্দটি হল <strong><em>সদভোগিতা</em></strong> (fellowship)। ... <em>fellowship</em> ... খ্রিস্টীয় সদভোগিতা ... আমাদের সদভোগিতা প্রয়োজন ... যেখানে তারা সদভোগিতা গ্রহণ করে ... সদভোগিতা অনুসন্ধান ... সদভোগিতার ডান বাহু"
-    },
-    {
-      "location": "html: first dangerous situation paragraph",
-      "severity": "major",
-      "source_quote": "at the worst it hinders many of the “one-anothering” Bible passages from being followed. We need fellowship, both to encourage us and to keep us accountable.",
-      "suggested_fix": "করুন: “সবচেয়ে খারাপ ক্ষেত্রে এটি বাইবেলের বহু অংশে দেওয়া পরস্পরের প্রতি কর্তব্যের নির্দেশ পালন করতে বাধা দেয়। আমাদের উৎসাহ দেওয়ার জন্য এবং আমাদের জবাবদিহির মধ্যে রাখার জন্য সহভাগিতা প্রয়োজন।”",
-      "translation_quote": "সর্বনিম্ন এটিতে অনেক “এক-অন্যকে” বর্ণিত বাইবেল অংশগুলি অনুসরণ করা বাধাগ্রস্ত করে। আমাদের সদভোগিতা প্রয়োজন, আমাদের উৎসাহিত করার জন্য এবং আমাদের হিসাবরক্ষায় রাখার জন্য।"
-    },
-    {
-      "location": "html: exercise paragraph; following paragraph",
-      "severity": "major",
-      "source_quote": "similar effectiveness ... Having brothers and sisters to pray for someone who is struggling",
-      "suggested_fix": "“সমতুল effectiveness ফল দেখিয়েছে” বদলে “অনুরূপ কার্যকারিতা দেখিয়েছে” এবং “এমন ভাই-বোনদের having হওয়া” বদলে “এমন ভাই-বোন পাশে থাকা” লিখুন।",
-      "translation_quote": "সমতুল effectiveness ফল দেখিয়েছে ... এমন ভাই-বোনদের having হওয়া"
-    },
-    {
-      "location": "html: paragraph beginning 'Unfortunately'",
-      "severity": "major",
-      "source_quote": "the last thing they seem to want to do is make the effort to be around other people, which contrary to their feelings, is counterproductive to changing the problem",
-      "suggested_fix": "বাক্যটি করুন: “দুর্ভাগ্যবশত, কেউ বিষণ্নতায় ভুগলে অন্যদের সান্নিধ্যে যাওয়ার চেষ্টা করতেই সাধারণত সবচেয়ে কম ইচ্ছা বোধ করেন; কিন্তু তাঁদের অনুভূতি যা-ই বলুক, এভাবে দূরে থাকা সমস্যার উন্নতির পথে বাধা হয়ে দাঁড়ায়।”",
-      "translation_quote": "তারা সাধারণত সর্বশেষে যা করতে চায় তা হলো অন্য মানুষদের পাশে থাকার জন্য উদ্যোগ নেওয়া, যা তাদের অনুভূতির বিপরীত হিসেবে সমস্যা পরিবর্তনের ক্ষেত্রে অবনীত।"
-    },
-    {
-      "location": "html: quotation of Galatians 6:2",
-      "severity": "major",
-      "source_quote": "and so fulfil the law of Christ",
-      "suggested_fix": "“এবং এভাবেই মসিহের শাস্ত্র পূর্ণ কর” বদলে “এবং এভাবেই খ্রিস্টের বিধান পূর্ণ কর” লিখুন।",
-      "translation_quote": "এবং এভাবেই মসিহের শাস্ত্র পূর্ণ কর"
-    },
-    {
-      "location": "html: opening paragraph",
-      "severity": "minor",
-      "source_quote": "people seem to value rugged individualism",
-      "suggested_fix": "“মানুষ কঠোর স্বনির্ভর ব্যক্তিবাদকে গুরুত্ব দেয় বলে মনে হয়” লিখুন।",
-      "translation_quote": "মানুষ কড়া ব্যক্তিবাদকে মূল্যায়ন করে বলে মনে হয়"
-    },
-    {
-      "location": "html: pioneers paragraph, opening sentence",
-      "severity": "minor",
-      "source_quote": "I suppose that this idea relates back to the pioneers.",
-      "suggested_fix": "বাক্যটি করুন: “আমার মনে হয়, এই ধারণার শিকড় সেই অগ্রগামী বসতি স্থাপনকারীদের জীবনযাত্রায় রয়েছে।”",
-      "translation_quote": "আমি অনুমান করি এই ধারণা অনুষঙ্গ করে সেই পায়োনিয়ারদের সঙ্গে।"
-    },
-    {
-      "location": "html: Eden paragraph; paragraph following Genesis 2:21-22",
-      "severity": "minor",
-      "source_quote": "Looking back to the Garden of Eden ... the companionship of a pet dog or cat",
-      "suggested_fix": "“ঈডেন উদ্যান ফিরে তাকালে” বদলে “এদন উদ্যানের দিকে ফিরে তাকালে” এবং “পোষা কুকুর বা বিড়ালের সঙ্গীতেই সীমাবদ্ধ নয়” বদলে “কেবল পোষা কুকুর বা বিড়ালের সঙ্গ নয়” লিখুন।",
-      "translation_quote": "ঈডেন উদ্যান ফিরে তাকালে ... পোষা কুকুর বা বিড়ালের সঙ্গীতেই সীমাবদ্ধ নয়"
-    },
-    {
-      "location": "html: paragraph on inflammation",
-      "severity": "minor",
-      "source_quote": "loneliness leads to increased inflammation and poorer immune function",
-      "suggested_fix": "করুন: “একাকিত্বের ফলে প্রদাহ বাড়ে এবং রোগপ্রতিরোধব্যবস্থার কার্যকারিতা কমে যায়”।",
-      "translation_quote": "একাকিত্ব বৃদ্ধি পেয়েছে প্রদাহ এবং দুর্বল ইমিউন কার্যকারিতার দিকে নিয়ে যায়"
-    },
-    {
-      "location": "html: first paragraph under 'বিচ্ছিন্নতার বিপরীত'",
-      "severity": "minor",
-      "source_quote": "“Companionship”",
-      "suggested_fix": "“সঙ্গীতা” বদলে “সঙ্গ” লিখুন।",
-      "translation_quote": "“সঙ্গীতা”"
-    },
-    {
-      "location": "html: paragraph about support after loss of a spouse",
-      "severity": "minor",
-      "source_quote": "we need to make certain that they continue to have an active presence in their lives in the months that follow",
-      "suggested_fix": "শেষ অংশটি করুন: “কিন্তু আমাদের নিশ্চিত করতে হবে যে পরবর্তী মাসগুলোতেও তাঁদের জীবনে সাহায্য ও সঙ্গ দেওয়ার জন্য কেউ সক্রিয়ভাবে উপস্থিত থাকেন।”",
-      "translation_quote": "আমাদের নিশ্চিত করতে হবে যে পরবর্তী এমন কয়েক মাসও তাদের জীবনে সক্রিয় উপস্থিতি বজায় রাখে"
-    },
-    {
-      "location": "html: penultimate paragraph",
-      "severity": "minor",
-      "source_quote": "The family of God is there for us if we only reach out.",
-      "suggested_fix": "করুন: “আমরা শুধু যোগাযোগের হাত বাড়ালেই ঈশ্বরের পরিবার আমাদের পাশে থাকবে।”",
-      "translation_quote": "ঈশ্বরের পরিবার আমাদের জন্য সেখানে আছে যদি আমরা কেবল তারা পৌঁছাই।"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:57:29+00:00",
   "id": "ba2a97fb5f1c1920da2350a32d6bbd73",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ben",
@@ -274,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -293,7 +179,7 @@
     "total_reserved_usd": 0.778268,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-6.1-sol"
