@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T12:50:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, avsnittet med Salme 78:29-31\",\"severity\":\"major\",\"source_quote\":\"They were not estranged from their lust.\",\"suggested_fix\":\"Erstatt «De ble ikke skuffet i sitt begjær» med «De hadde ennå ikke vendt seg bort fra sitt begjær».\",\"translation_quote\":\"De ble ikke skuffet i sitt begjær.\"},{\"location\":\"translation.html, slutten av sitatet fra Salme 78:29-31\",\"severity\":\"major\",\"source_quote\":\"and smote down the chosen men of Israel\",\"suggested_fix\":\"Erstatt «og slo Israels unge menn i hjel» med «og slo Israels utvalgte menn i hjel».\",\"translation_quote\":\"og slo Israels unge menn i hjel\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 696,
+    "content_evidence_truncated": false,
+    "content_sha256": "4c1bdf45e7552c77a1c3472e906a37f1aecc559b416587d8f8d6a681a246adaa",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 320,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7908,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8231
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

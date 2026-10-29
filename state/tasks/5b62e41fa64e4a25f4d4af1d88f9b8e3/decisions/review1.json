@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet med Salme 78:29-31",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust.",
+      "suggested_fix": "Erstatt «De ble ikke skuffet i sitt begjær» med «De hadde ennå ikke vendt seg bort fra sitt begjær».",
+      "translation_quote": "De ble ikke skuffet i sitt begjær."
+    },
+    {
+      "location": "translation.html, slutten av sitatet fra Salme 78:29-31",
+      "severity": "major",
+      "source_quote": "and smote down the chosen men of Israel",
+      "suggested_fix": "Erstatt «og slo Israels unge menn i hjel» med «og slo Israels utvalgte menn i hjel».",
+      "translation_quote": "og slo Israels unge menn i hjel"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
