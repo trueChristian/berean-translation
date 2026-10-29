@@ -11850,6 +11850,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "e195ea6a6c3f6f25ec71bb562ce37dc6b445ece46950dab86757bcefd7013659",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "কুয়াশাচ্ছন্ন ভূদৃশ্যের উঁচুতে বসে থাকা একাকী এক ব্যক্তি, মাথায় হুড ও পিঠে ব্যাকপ্যাক",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "e0be0a7729dc01ecae52ebc128b3e4265b1f420e2c533d72fc7673ae7d3d76ea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "একজন চিকিৎসকের কথা",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিচ্ছিন্নতা",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
       "html_sha256": "3ee796643ec06b8798ae378b50b75b7202c58a015c004080b82d504e2d9356b6",
       "human_reviewed": false,
@@ -20558,6 +20586,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "b759348637fad2ecbe9706c9926053654aabbab87fa7ea24b48dd2bc0ddfd0b2",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "2291bf68465ad38990727d9517e9c1e63abbb820833984441d1dd3ebdd9bef0f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DAS GOTTGEFÄLLIGE ZUHAUSE",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sie sind nun nicht mehr zwei",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
       "html_sha256": "61e953953a1c73736bdc926b25f4e0515a592cb6f33c1c23792a83ecd209729e",
       "human_reviewed": false,
@@ -21359,6 +21410,29 @@
       "subtitle": null,
       "title": "Από τον εκδότη",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "fe3af74557013d17c81503ba23d59ac646428d2d5677cb785695b51ab228c5b6",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "745477658dd904bb6676a1c60ac6e8d1671c38d4358a3493bccc1e78d7cc9260",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΙΣΤΟΡΙΑ ΤΗΣ ΕΚΚΛΗΣΙΑΣ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Νέρων: Η ζωή ενός αυτοκράτορα",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -22516,6 +22590,58 @@
       "status": "ready",
       "subtitle": null,
       "title": "Με τι πρέπει να στολιζόμαστε;",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "1b11761c5ff74585a736abe3523318c15d023b4bdad0ce872f9c9d22e31ab03c",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "Δύο βίσονες αντικριστά",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "Η δισέλιδη διακήρυξη κατά της δουλείας του 1688 από το Γερμαντάουν",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "Το σπίτι του Άιζακ Γουένγκερ στη Βιρτζίνια",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "Εξώφυλλο του Καθρέφτη των Μαρτύρων του Τίλεμαν Τζ. φαν Μπραχτ",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "Ταφόπλακα του Τζόζεφ Χόφερ, 1894–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "Ταφόπλακα του Μάικλ Χόφερ, 1893–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "Προφίλ άνδρα με τατουάζ στο πρόσωπο και σκουλαρίκια",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "6cc6363799ac9f9d138fd332beb3d4367b68609b6a53e0cf930a7220a175de73",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Όταν συγκρούονται βασίλεια",
       "translation_model": "gpt-6.1-sol"
     },
     {
@@ -39188,6 +39314,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "6d10cbce2891a91ae5c04298cd213b7b0280377a1b17f8bc8838f9144599a534",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Pohon hijau sepanjang tahun di tepi danau, dengan semak-semak dan lereng gunung yang tertutup salju.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "104a08310594ad606c5d83d24f4bf0c90fd5466cdff3a41cc68a44f1b1f9a611",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Otoritas",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "132004c021307f7a1716208ec491fad00d2fe7e12831924688985c8452ec5263",
       "human_reviewed": false,
@@ -47239,6 +47393,34 @@
       "subtitle": null,
       "title": "역대하 20장에서 배우는 교훈",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "334367c8c2f2760bcf74717f7a805b313ee58a2799108344fd4b0f41b295705b",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "높은 창으로 들어오는 한 줄기 빛을 향해 뻗어 올린 손들",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "1d53bd833235c2bd269b02634ecab46ede9a5db510d732dfe542d8c214005b7c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "승리하는 그리스도인의 삶",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "엠마오로 가는 길",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -55703,6 +55885,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "0d8b4bd21c1ba23c73de989b2840f7f031e0c307526c01c07e2aafb8604c6c08",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Omslag van Coals of Fire van Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "0d4764ff8a4d349416ffaaf336baea2dc914bb9532de751a1a921378f7dff65e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "De boekenplank",
+      "source_revision": "992debda63d6be4a08362d2a463694f3df221977",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coals of Fire",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "2ea58b0cb137652ed7ec2e50215e92f0d6cda9b0bf77f9c910b30410b72cb4cc",
       "human_reviewed": false,
@@ -62343,6 +62553,34 @@
       "subtitle": null,
       "title": "A força da aliança",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "280eaba29ae1f90ba7ddaac9aa703d42d0d5db98645def8ccccb7ff225a8748c",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Uma árvore de folha perene junto a um lago, com arbustos e uma encosta montanhosa coberta de neve.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "ccffd1c383c1de815f08357234c23481e5e4cb3d6629d17dfa6603fd6435f0af",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Autoridade",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -70430,6 +70668,34 @@
       "subtitle": null,
       "title": "Gorriones",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "264aad0b38dc3d59cc2e733dd82cac4a6fcc1bbd353022a3a51b18a7511bf8f0",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "Manos levantadas que se extienden hacia un rayo de luz procedente de una ventana alta",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "27a29cbd9656789079987659a8029647e38d1362e490a266ca7fffe5d4c8e603",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Vida Cristiana Victoriosa",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El camino a Emaús",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
