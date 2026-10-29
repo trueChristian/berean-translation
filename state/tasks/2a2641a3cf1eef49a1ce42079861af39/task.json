@@ -5,11 +5,131 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f9a71f5436194327ab22760d0e04c765",
   "campaign": "auto-2ed4de250849862300e3536200d6b42683d0066f3653d9c39fe8e6f0ac457677",
   "created_at": "2026-10-29T10:24:53+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1522,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 120,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9182,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8079,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10704
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Absatz 3",
+      "severity": "major",
+      "source_quote": "God can, and does, use men of great ability, capacity, and training",
+      "suggested_fix": "Gott kann Männer mit großen Fähigkeiten, großem Leistungsvermögen und guter Ausbildung gebrauchen und tut dies auch",
+      "translation_quote": "Gott Männer von großer Fähigkeit, Kapazität und Ausbildung gebrauchen und bereits gebrauchen kann"
+    },
+    {
+      "location": "translation.html, Absatz 9",
+      "severity": "major",
+      "source_quote": "we can have a lapse in faith",
+      "suggested_fix": "können wir eine Phase der Glaubensschwäche erleben",
+      "translation_quote": "können wir einen Glaubensabfall erleben"
+    },
+    {
+      "location": "translation.html, Absatz unmittelbar vor „Gottes Erhöhung“",
+      "severity": "major",
+      "source_quote": "the gifted Moses remained an underachieving shepherd",
+      "suggested_fix": "während der begabte Mose weiterhin als Hirte weit hinter seinen Möglichkeiten zurückblieb",
+      "translation_quote": "während der begabte Mose ein unterdurchschnittlicher Hirte blieb"
+    },
+    {
+      "location": "translation.html, Absatz unmittelbar vor „Gottes Erhöhung“, Zitat aus 1. Petr 4,12",
+      "severity": "major",
+      "source_quote": "think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you",
+      "suggested_fix": "…wundert euch nicht über die Feuerprobe, die euch zur Prüfung trifft, als widerführe euch etwas Seltsames",
+      "translation_quote": "haltet es nicht für etliches Seltsames über das eure Feuersnot ist, die euch trifft, als wäre euch etwas Sonderbares widerfahren"
+    },
+    {
+      "location": "translation.html, erster Absatz unter „Gottes Verheißung“",
+      "severity": "major",
+      "source_quote": "Certainly I will be with thee",
+      "suggested_fix": "Gewiss werde ich mit dir sein",
+      "translation_quote": "Gern will ich mit dir sein"
+    },
+    {
+      "location": "translation.html, letzter Absatz unter „Gottes Zweck“",
+      "severity": "minor",
+      "source_quote": "a one-act-play with self as the main character",
+      "suggested_fix": "einen Einakter mit dem eigenen Ich als Hauptfigur",
+      "translation_quote": "ein Ein-Personen-Stück mit dem Selbst als Hauptdarsteller"
+    },
+    {
+      "location": "translation.html, Eröffnungszitat",
+      "severity": "minor",
+      "source_quote": "he led the flock to the backside of the desert",
+      "suggested_fix": "er führte die Herde in das Hinterland der Wüste",
+      "translation_quote": "er führte die Herde hinterwäldisch in die Wüste"
+    },
+    {
+      "location": "translation.html, Absatz 2",
+      "severity": "minor",
+      "source_quote": "learned in all the wisdom of the Egyptians ... it came into his heart",
+      "suggested_fix": "Ersetze „voll der Weisheit der Ägypter erzogen“ durch „in aller Weisheit der Ägypter unterwiesen“ und „kam es seinem Herzen“ durch „kam es ihm ins Herz“.",
+      "translation_quote": "voll der Weisheit der Ägypter erzogen ... kam es seinem Herzen"
+    },
+    {
+      "location": "translation.html, Absatz 4",
+      "severity": "minor",
+      "source_quote": "It had undoubtedly been rehearsed to him",
+      "suggested_fix": "Es war ihm zweifellos immer wieder erzählt worden",
+      "translation_quote": "Es war ihm zweifellos eingespielt worden"
+    },
+    {
+      "location": "translation.html, Absatz 7",
+      "severity": "minor",
+      "source_quote": "to feed upon the bitter herbs",
+      "suggested_fix": "damit er sich von den bitteren Kräutern der Enttäuschung und Zurückweisung, der Unbekanntheit und Einsamkeit sowie von unerfüllten Träumen und Sehnsüchten nähre",
+      "translation_quote": "damit er von den bitteren Kräutern der Enttäuschung und Zurückweisung, der Unbekanntheit und Einsamkeit sowie von unerfüllten Träumen und Sehnsüchten nähre"
+    },
+    {
+      "location": "translation.html, Absatz 9",
+      "severity": "minor",
+      "source_quote": "shriveled and wasted ... each day is the same as the previous one ... to be thoroughly acquainted",
+      "suggested_fix": "Ersetze „zusammenger schrumpft“ durch „zusammengeschrumpft“, „jeden Tag als derselbe wie den vorherigen“ durch „jeden Tag als genauso wie den vorherigen“ und „sondern sich gründlich“ durch „sondern uns gründlich“.",
+      "translation_quote": "zusammenger schrumpft ... jeden Tag als derselbe wie den vorherigen ... sondern sich gründlich"
+    },
+    {
+      "location": "translation.html, erster Absatz unter „Gottes Versorgung“",
+      "severity": "minor",
+      "source_quote": "The meek will he guide in judgment",
+      "suggested_fix": "Die Sanftmütigen leitet er im Recht",
+      "translation_quote": "Dem Sanften führt er zum Recht"
+    },
+    {
+      "location": "translation.html, erster Absatz unter „Gottes Erhöhung“",
+      "severity": "minor",
+      "source_quote": "Come <strong>now</strong> therefore",
+      "suggested_fix": "So komm <strong>jetzt</strong>",
+      "translation_quote": "Nun komm <strong>nun</strong>"
+    },
+    {
+      "location": "translation.html, letzter längerer Absatz unter „Gottes Kraft“",
+      "severity": "minor",
+      "source_quote": "in the silent solitude of the back burner",
+      "suggested_fix": "in der stillen Einsamkeit des Zurückgestelltseins",
+      "translation_quote": "in der stillen Einsamkeit der Rückbank"
+    }
+  ],
   "id": "2a2641a3cf1eef49a1ce42079861af39",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -98,11 +218,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +237,7 @@
     "total_reserved_usd": 0.768709,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
