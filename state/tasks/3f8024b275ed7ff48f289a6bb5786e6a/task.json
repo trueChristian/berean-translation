@@ -5,11 +5,103 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6dd79bb12ae64b7d8ae5e5a8686d06d4",
   "campaign": "auto-91a435c8e0c320d6638ce0e8107e451b0f47942cb375409cddbb2bf7562bc65b",
   "created_at": "2026-10-29T10:22:26+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1366,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 113,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6163,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5060,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7529
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, alinea 4",
+      "severity": "major",
+      "source_quote": "he had Octavia beheaded on false charges of being unfaithful",
+      "suggested_fix": "Vervang „liet hij Octavia terechtstellen” door „liet hij Octavia onthoofden”.",
+      "translation_quote": "liet hij Octavia terechtstellen op valse beschuldigingen van ontrouw"
+    },
+    {
+      "location": "html, alinea 11, citaat van Tacitus",
+      "severity": "major",
+      "source_quote": "Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations",
+      "suggested_fix": "Vervang dit citaatgedeelte door: „Nero schoof de schuld op een groep die gehaat werd om haar verfoeilijkheden en onderwierp haar aan de gruwelijkste folteringen”.",
+      "translation_quote": "Nero legde de schuld vast en voegde de kostelijkste folteringen toe aan een groep die gehaat werd om hun verfoeilijkheden"
+    },
+    {
+      "location": "html, alinea 18, verwijzing bij het tweede Schriftcitaat",
+      "severity": "major",
+      "source_quote": "–1 Corinthians 4:2",
+      "suggested_fix": "Vervang „1 Korintiërs 4:1-2” door „1 Korintiërs 4:2”, overeenkomstig de afgedrukte bronverwijzing.",
+      "translation_quote": "—1 Korintiërs 4:1-2"
+    },
+    {
+      "location": "html, alinea 19",
+      "severity": "major",
+      "source_quote": "we all will stand before the judgment seat to receive our just reward",
+      "suggested_fix": "Vervang „voor de vredetribunaal zullen staan” door „voor de rechterstoel zullen staan”.",
+      "translation_quote": "wij allen voor de vredetribunaal zullen staan om onze rechtvaardige vergelding te ontvangen"
+    },
+    {
+      "location": "html, alinea 5",
+      "severity": "minor",
+      "source_quote": "while Agrippina was on a cruise ship, it would be discreetly sunk ... However, this was not to be. ... things had just gotten started",
+      "suggested_fix": "Vervang „zou het heimelijk laten zinken” door „zou het schip heimelijk tot zinken worden gebracht”, „Dit sloeg echter niet aan” door „Het liep echter anders” en „Helaas waren dit pas het begin” door „Helaas was dit pas het begin”.",
+      "translation_quote": "terwijl Agrippina op een cruiseschip was, zou het heimelijk laten zinken ... Dit sloeg echter niet aan. ... Helaas waren dit pas het begin"
+    },
+    {
+      "location": "html, alinea 6",
+      "severity": "minor",
+      "source_quote": "The catch? The slave was a man.",
+      "suggested_fix": "Vervang „De vangst?” door „Het addertje onder het gras?”.",
+      "translation_quote": "De vangst? De slaaf was een man."
+    },
+    {
+      "location": "html, alinea 10",
+      "severity": "minor",
+      "source_quote": "more than 1,800 first-place prizes",
+      "suggested_fix": "Vervang „meer dan 1.800 eerste prijs onderscheidingen” door „meer dan 1.800 eerste prijzen”.",
+      "translation_quote": "meer dan 1.800 eerste prijs onderscheidingen"
+    },
+    {
+      "location": "html, alinea 14",
+      "severity": "minor",
+      "source_quote": "Paul lived ... not only for wrath, but also for conscience sake",
+      "suggested_fix": "Vervang „Pau-lus” door „Paulus” en „niet alleen om de toorn, maar ook om het geweten willen” door „niet alleen vanwege de toorn, maar ook omwille van het geweten”.",
+      "translation_quote": "Pau-lus leefde ... niet alleen om de toorn, maar ook om het geweten willen"
+    },
+    {
+      "location": "html, alinea 16",
+      "severity": "minor",
+      "source_quote": "while ultimately yielding to the higher authority of God. Herein, we see a potential paradox",
+      "suggested_fix": "Vervang „terwijl zij uiteindelijk zich onderwerpen” door „terwijl zij zich uiteindelijk onderwierpen” en „een mogelijk paradox” door „een mogelijke paradox”.",
+      "translation_quote": "terwijl zij uiteindelijk zich onderwerpen aan het hogere gezag van God. Hierin zien wij een mogelijk paradox"
+    },
+    {
+      "location": "html, alinea 18, beide Schriftcitaten",
+      "severity": "minor",
+      "source_quote": "See then that ye walk circumspectly ... Let a man so account of us ... that a man be found faithful",
+      "suggested_fix": "Vervang „Ziet dan nauwzaam hoe gij wandelt” door „Let er dan nauwlettend op hoe u leeft”, „Laat een man ons zo achten” door „Men moet ons beschouwen” en „dat men gevonden worde betrouwbaar” door „dat zij betrouwbaar blijken te zijn”.",
+      "translation_quote": "Ziet dan nauwzaam hoe gij wandelt ... Laat een man ons zo achten ... dat men gevonden worde betrouwbaar"
+    }
+  ],
   "id": "3f8024b275ed7ff48f289a6bb5786e6a",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -98,11 +190,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +209,7 @@
     "total_reserved_usd": 0.731951,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
