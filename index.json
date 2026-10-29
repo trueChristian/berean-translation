@@ -1605,6 +1605,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "f7d6be7827357f621ef34ba5811eef99065a1402d5c2da904d7e01a12d1bc8b5",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "’n Breë woestynvallei onder gelaagde berge en wolke",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "1e6c769f6723363ec0cdd0f7b39ee7edf50b14608d6833216576041dcb7beb9e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KARAKTERSTUDIES",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Moses in Midian",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "5012868a8ce84c77c764a2778e9c589d1944148e4631c412c1bd2a2d52e8851f",
       "human_reviewed": false,
@@ -11052,6 +11080,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "5db9cabbd120fbe39407b4bde1a0e31651bf44e1717ab562f55029739763f230",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "মৃদু ঝাপসা পটভূমির বিপরীতে গোলাপি কসমোস ফুল",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "6a575856bf2df3e85146f59ab39c832f75451d62612ede1dcdfb12f7eca65539",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "শিশুদের কর্ণার",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "একটি গানের প্রতিশ্রুতি",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "e0471d0e38cca73ddfbdd1326be45cbc2f101c289bda7e51dd294d6fd948e568",
       "human_reviewed": false,
@@ -13982,6 +14038,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "aa7af5df2d6037e0bbeabb3c33ff6330f6c0f16b6e0446b4406d79b46b81b843",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "层叠的群山与云层下，一片广阔的沙漠山谷",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "4fdc4e3ba8cc369ec59d93e754a6b576dfb92ef716331e9af5a368e19a1e8421",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "品格研究",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "在米甸的摩西",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "e8a2bb250cb6b79210bc0f61a8a5db0f59ffa2a6e4e3f18c6c9ae34ece749456",
       "human_reviewed": false,
@@ -14764,6 +14848,34 @@
       "subtitle": null,
       "title": "要心存感激",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "677e99708ad27ce84b23914b8acab43ae33e90b88bcd5233c36f9dc411f04314",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "银河与群星在黑暗的山峦和水面上空",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "a1d019f8fcba2525235083468f8c8637af03814ebed96f49628f6c3cf904bf4a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "你看见了什么？",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -24928,6 +25040,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "2b53e379b26fc663658fce1610dcc6fe3983a7ff2336b5c9845019b6df56f3a7",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "Une personne tend la main à travers les barreaux d’une prison, au-dessus des mots « LIBÉREZ-NOUS DE L’ASSERVISSEMENT »",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "Un prisonnier derrière des barreaux, avec un ange à ses côtés",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Des femmes et des enfants réunis dans une pièce dépouillée",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "Un gardien passe devant des prisonniers vêtus d’uniformes rayés",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "Une longue file de prisonniers debout devant un bâtiment",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Des personnes dispersées sur une place de ville",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "Une femme lit à des personnes assises dans une cellule de prison",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "Une illustration gravée représentant une bouteille couchée sur le côté",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "6dc3ffff857fe151a722489607ff5e746f987e0aa99c28748aacf910c71af3e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "L’Ange des prisons",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "51d1bc7d6506a958b7dec714afde1a0355e3923618b2e5b306e4807648d5cf05",
       "human_reviewed": false,
@@ -30507,6 +30675,34 @@
       "subtitle": null,
       "title": "השפעה שמשנה חיים",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "e259d6551c39e072fbb82b65c6bb43acdc8d88700ebc04efe13b3bdd6b3ff086",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "כנסייה לבנה קטנה בעמק הררי",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "601e5afa4df333e236a025504421f0aa0d89fe602ac6fce409b1aff7402511c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "היסטוריית הכנסייה",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "גרמניה הנאצית והמנוניטים",
+      "title": "יושרת הכנסייה",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -50956,6 +51152,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "2e024b08a971b3918cef609de38cfb110fb8451ea3b796255732d1171da78957",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "1e892403b820b4b21f8329a4990d3935fea0808e4f7b58ca96f6b848aa58d6d0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KERKGESCHIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nero: Leven van een keizer",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "a4fa586f25f058fe33944e5664cbd16c58bedaf3f4457caee12dbc32e4919cae",
       "human_reviewed": false,
@@ -55722,6 +55941,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "77ba9ce32329d3b43490fa209ba859b7ec50350f9834b88ca89540d1acb03abd",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "af5b0ad76ecbf73c2898c8259be81e71a418bd3878c9080650cbf95105652b1c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KIRKEHISTORIE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nero: Livet til en keiser",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
       "html_sha256": "38df8df8349c63f9ae195837275cf39812372f121b6e5f924f54f3ec676762fe",
       "human_reviewed": false,
@@ -57242,6 +57484,34 @@
       "subtitle": null,
       "title": "Vær takknemlig",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "ecf341240e87701fe5fb112e28dce87112c20cbade11985b302772b29643868e",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Et stikk som viser Akan ta bytte under et slag",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "ab025c7a8e4e6077c5268cd03f185d423f98502b7c719672d62db176f4abf82f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Inspirasjon for ungdom",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ditt hjertes ønsker",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -66866,6 +67136,34 @@
       "subtitle": null,
       "title": "Как завоевать сердца наших детей",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "2e513cbb9af3df447bbbec3f0d544a2d53fb5adaaf209f592a4462803510c9aa",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "Розовые цветы космеи на мягко размытом фоне",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "9b53e0a8110e53f0cc5b38dcc358eac6f2b8afd0017795964608fbc5c126b3b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Детский уголок",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Обещанная песня",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -82146,6 +82444,34 @@
       "subtitle": null,
       "title": "جوئی کا زوال",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "9588a159ad6fbf04f9e18410e3088374be9301efd6d2cb18d580a3990fdbef32",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "ناہموار پہاڑی چوٹیوں پر طلوعِ آفتاب",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "9370a7a09ffe61f360bd9d8b1cb41d9f8d67c134318fd5722b9fb06fbde4741f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "عہدِ جدید کی کلیسیا",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "”شاگردی کی پکار“ سلسلے کا دوسرا مضمون",
+      "title": "پاکیزگی کی پکار",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
