@@ -1,0 +1,133 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "especially the progenitor (originator or author) of our beliefs, Christ Himself",
+      "suggested_fix": "Replace „ובמיוחד ממיסדי אמונתנו, המשיח עצמו” with „ובמיוחד מייסד אמונתנו (מקורה או מחברה), המשיח עצמו”.",
+      "translation_quote": "ובמיוחד ממיסדי אמונתנו, המשיח עצמו"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "Why did they unanimously preach, write, and otherwise caution",
+      "suggested_fix": "Replace with „מדוע כולם כאחד הטיפו, כתבו והזהירו בדרכים אחרות”.",
+      "translation_quote": "מדוע הם בקדנציה אחת קראו, כתבו ובכלל זהירו"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "looking at the results of Christians ignoring these sincere warnings",
+      "suggested_fix": "Replace „בהתבוננות בתוצאות של התקפות אלה על ידי נוצרים שהתעלמו מאזהרות כנות אלה” with „בהתבוננות בתוצאות התעלמותם של נוצרים מאזהרות כנות אלה”. The source mentions no attacks.",
+      "translation_quote": "בהתבוננות בתוצאות של התקפות אלה על ידי נוצרים שהתעלמו מאזהרות כנות אלה"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "their almost wholesale devotion to a worldly leader and agenda",
+      "suggested_fix": "Replace „למנהיג ולעמדה עולמית” with „למנהיג ולסדר יום ארציים”.",
+      "translation_quote": "למנהיג ולעמדה עולמית"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "Their resentment festered ... He quickly assumed party leadership, attracting followers with his “us vs. them” rhetoric",
+      "suggested_fix": "Replace „טינה זו נעשתה מדממת” with „טינה זו הלכה והחריפה”; replace „במהירות שימש עצמו להנהגת המפלגה, מושך אליו עוקבים באמצעות רטוריקה של ״אנחנו נגד הם״” with „הוא נטל במהירות את הנהגת המפלגה ומשך אליו תומכים באמצעות רטוריקה של ״אנחנו נגדם״”.",
+      "translation_quote": "טינה זו נעשתה מדממת ... במהירות שימש עצמו להנהגת המפלגה, מושך אליו עוקבים באמצעות רטוריקה של ״אנחנו נגד הם״"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "The Great Depression brought the catalyst for the Nazi’s rise to power.",
+      "suggested_fix": "Replace the sentence with „השפל הגדול היה הזרז לעליית הנאצים לשלטון.”",
+      "translation_quote": "המיתון הגדול הביא את הגירעון לעליית הנאצים לשלטון."
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "Unemployed, they rallied around the charismatic leadership ... Moving quickly, Hitler added legions to his followers.",
+      "suggested_fix": "Replace „מובטלים, הם חובקו סביב ההנהגה הכריזמטית” with „כמובטלים, הם התלכדו סביב ההנהגה הכריזמטית”; replace „בהסתערות מהירה גייס היטלר להמונים עוקבים” with „היטלר פעל במהירות וצירף המונים לשורות תומכיו”.",
+      "translation_quote": "מובטלים, הם חובקו סביב ההנהגה הכריזמטית ... בהסתערות מהירה גייס היטלר להמונים עוקבים"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "he went on to overthrow the German government, establishing himself and his party as the undisputed rulers of Germany",
+      "suggested_fix": "Replace „הוא הטיל בסופו של דבר את הממשלה הגרמנית, והנהיג את עצמו ומפלגתו” with „הוא המשיך והפיל את הממשלה הגרמנית, וביסס את מעמדו ואת מעמד מפלגתו”. Retain the following description of undisputed rule.",
+      "translation_quote": "הוא הטיל בסופו של דבר את הממשלה הגרמנית, והנהיג את עצמו ומפלגתו כשליטים הבלתי מעורערים של גרמניה"
+    },
+    {
+      "location": "html, paragraphs 9 and 14",
+      "severity": "major",
+      "source_quote": "like most backsliding churches ... this dismal tale of backsliding",
+      "suggested_fix": "Replace „ברוב הכנסיות הנוטות לאחור” with „ברוב הכנסיות שנסוגו מאמונתן”, and „בסיפור המדכא הזה של נדידת אמונה” with „בסיפור העגום הזה של נסיגה מן האמונה”. These are spiritual decline, not physical movement or migration.",
+      "translation_quote": "ברוב הכנסיות הנוטות לאחור ... בסיפור המדכא הזה של נדידת אמונה"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "a church that professed much of what we do",
+      "suggested_fix": "Replace „כנסייה שהביעה אמוננו ברבות מעמדותינו” with „כנסייה שהצהירה על רבות מן האמונות שבהן גם אנו מחזיקים”.",
+      "translation_quote": "כנסייה שהביעה אמוננו ברבות מעמדותינו"
+    },
+    {
+      "location": "html, paragraph 10",
+      "severity": "major",
+      "source_quote": "strong, red-blooded Germans valiantly striving against the unjust oppression of the Russian Communists",
+      "suggested_fix": "Replace „כגרמנים חזקים, בעלי דם אדום-אמיץ הנלחמים בהתנגדות הבלתי-צודקת של הקומוניסטים הרוסים” with „כגרמנים חזקים ונמרצים הנאבקים באומץ בדיכוי הבלתי צודק מצד הקומוניסטים הרוסים”.",
+      "translation_quote": "כגרמנים חזקים, בעלי דם אדום-אמיץ הנלחמים בהתנגדות הבלתי-צודקת של הקומוניסטים הרוסים"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "minor",
+      "source_quote": "A particularly shocking case ... came from the churches in or around Danzig ... by annexing Danzig",
+      "suggested_fix": "Replace „מקרה במיוחד מזעזע של מעורבות פוליטית מנוניטית בא מהמלאות בכנסיות בדנציג או בסביבתה” with „מקרה מזעזע במיוחד של מעורבות פוליטית מנוניטית התרחש בכנסיות בדנציג ובסביבתה”; replace „כשהאנכס את דנציג” with „כשסיפח את דנציג”.",
+      "translation_quote": "מקרה במיוחד מזעזע של מעורבות פוליטית מנוניטית בא מהמלאות בכנסיות בדנציג או בסביבתה ... כשהאנכס את דנציג"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "noting the justice that was to come through the Nuremburg trials, effectively shrugged the blame from off their shoulders",
+      "suggested_fix": "Replace „ובהתחשב לצדק שהתגשם במשפטי נירנברג, למעשה שחתה מעל כתפיהן את האשמה” with „ומשהבינה שהצדק עתיד להיעשות במשפטי נירנברג, התנערה למעשה מן האשמה”.",
+      "translation_quote": "ובהתחשב לצדק שהתגשם במשפטי נירנברג, למעשה שחתה מעל כתפיהן את האשמה"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "twisting their involvement in the Nazi regime ... keeping most of them from facing possible prison time or death sentences",
+      "suggested_fix": "Replace „מטו את מעורבותם במשטר הנאצי” with „עיוותו את תיאור מעורבותם במשטר הנאצי”; replace „מנעו מרבים מהם” with „מנעו מרובם”.",
+      "translation_quote": "מטו את מעורבותם במשטר הנאצי ... מנעו מרבים מהם להתמודד עם עונשי מאסר אפשריים או גזרי מוות"
+    },
+    {
+      "location": "html, paragraph 15",
+      "severity": "major",
+      "source_quote": "accept the advances of what, in retrospect, was a clearly un-biblical, un-Christlike movement",
+      "suggested_fix": "Replace „קיבלו את התקדמות מה שנראית כעת כתנועה שאינה תנכית ואינה נוצרית” with „נענו לפניותיה של תנועה שבמבט לאחור ברור שלא תאמה את כתבי הקודש ולא שיקפה את דרכו של המשיח”. „תנכית” restricts the reference to the Hebrew Bible rather than Scripture as intended here.",
+      "translation_quote": "קיבלו את התקדמות מה שנראית כעת כתנועה שאינה תנכית ואינה נוצרית"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "the dangers of an unequal yoking of the church with the world",
+      "suggested_fix": "Replace „הסכנה של יגון בלתי שווה בין הכנסייה לעולם” with „הסכנות שבהירתמות הכנסייה לעול משותף עם העולם, שאינו תואם את דרכה”. „יגון” means sorrow and loses the theological metaphor of an unequal yoke.",
+      "translation_quote": "הסכנה של יגון בלתי שווה בין הכנסייה לעולם"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "minor",
+      "source_quote": "and neither does the Kingdom of Heaven ... Their salt had lost its savor",
+      "suggested_fix": "Replace „שגם מלכות השמיים לא תעשה כן” with „וגם מלכות השמיים אינה סובלת זאת”; replace „המלח שלהם איבד את טעם המלחותו” with „המלח שלהם איבד את מליחותו”.",
+      "translation_quote": "שגם מלכות השמיים לא תעשה כן ... המלח שלהם איבד את טעם המלחותו"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "were descended from the first Anabaptist groups ... instead of emigrating to the New World",
+      "suggested_fix": "Replace „ירדו מן הקבוצות האנאבפטיסטיות הראשונות” with „היו צאצאי הקבוצות האנאבפטיסטיות הראשונות”, and „במקום להגירה לעולם החדש” with „במקום להגר לעולם החדש”.",
+      "translation_quote": "ירדו מן הקבוצות האנאבפטיסטיות הראשונות ... במקום להגירה לעולם החדש"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
