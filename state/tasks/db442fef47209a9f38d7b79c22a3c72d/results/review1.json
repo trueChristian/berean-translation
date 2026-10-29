@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "dde29189-02e3-402b-bdf7-b73db7404f46",
+    "response_id": "chatcmpl-EeJy92zh6dzvBlPt0BHzCbp9eM5G7",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5676,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7593
+    }
+  },
+  "received_at": "2026-10-29T14:12:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html：标题“孤立不是一种自然状态”后的第一段，创世记引文",
+        "severity": "major",
+        "source_quote": "… And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him –Genesis 2:18-20.",
+        "suggested_fix": "保留现有的引文开头及经文标注，将省略号后的部分改为：“亚当给一切牲畜、空中的飞鸟和田野的走兽都起了名字；但对于亚当，却找不到与他相配的帮助者——创世记 2:18-20。”",
+        "translation_quote": "……于是耶和华　神用土所造的各样走兽和空中的各样飞鸟都带到那人面前，看他叫什么；那人怎样叫各样的活物，那就是它们的名。至于那人，却找不着配偶帮助他——创世记 2:18-20。"
+      },
+      {
+        "location": "html：保罗的故事段落，提摩太后书引文末尾",
+        "severity": "major",
+        "source_quote": "Take Mark, and bring him with thee… –2 Timothy 4:9-11.",
+        "suggested_fix": "将引文末句改为：“你要带马可同来……——提摩太后书 4:9-11。”不要补入英文原文省略的传道用途说明。",
+        "translation_quote": "你要带马可来，因他在传道的事上有用——提摩太后书 4:9-11。"
+      },
+      {
+        "location": "html：“我担心今天许多人处在两种危险境地之一”段落末句",
+        "severity": "major",
+        "source_quote": "We need fellowship, both to encourage us and to keep us accountable.",
+        "suggested_fix": "将末句改为：“我们需要团契，既使我们得到鼓励，也使我们受到彼此的督促。”",
+        "translation_quote": "我们需要团契，既为鼓励，也为彼此担当。"
+      },
+      {
+        "location": "html：“使徒并非被人完全遗弃”段落",
+        "severity": "minor",
+        "source_quote": "He had sent many of his friends away to strengthen the church in various parts of the Roman Empire.",
+        "suggested_fix": "将“到帝国各处”改为“到罗马帝国各处”。",
+        "translation_quote": "他差遣许多朋友到帝国各处去坚固教会。"
+      },
+      {
+        "location": "html：p.links 标签内的标题",
+        "severity": "minor",
+        "source_quote": "Links:",
+        "suggested_fix": "将“Links:”改为“链接：”，保留其余标签及网址不变。",
+        "translation_quote": "Links:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
