@@ -32,6 +32,12 @@
       "event": "automatic_requested",
       "previous_task": "ec6b3c92d5b086e5e2d3b14ed2abef60",
       "task": "bd5692bd1d6ca6593bff4243a1337981"
+    },
+    {
+      "at": "2026-10-29T14:11:41+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[3]/em[1] ('start', 'em', ()); translation /article[1]/p[3] ('end', 'p')",
+      "task": "bd5692bd1d6ca6593bff4243a1337981"
     }
   ],
   "language": "cmn",

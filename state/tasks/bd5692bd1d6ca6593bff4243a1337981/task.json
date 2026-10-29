@@ -5,40 +5,70 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "85b2f5f3b9b84e2695e5e628b1d79b4f",
   "campaign": "auto-a5de2172c9b95c1ff0c3cfa881cf311f576588b47097c09b8ba192aef9a3045d",
   "created_at": "2026-10-29T10:21:26+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 98,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4782,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 4779
+        },
+        "total_tokens": 5623
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[3]/em[1] ('start', 'em', ()); translation /article[1]/p[3] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
-      "location": "translation.html，第3段",
+      "location": "html：第三段，领歌员的座位描述",
       "severity": "minor",
       "source_quote": "the song leaders all sat around a table near the center of the church",
-      "suggested_fix": "改为“领歌的人都围坐在教堂中央附近的一张桌子旁。”",
-      "translation_quote": "领歌的人都坐在教堂中间靠近一张桌子周围。"
+      "suggested_fix": "将该句改为“在艾莉的教会，领歌的人都围坐在靠近教堂中央的一张桌子旁。”",
+      "translation_quote": "领歌的人都坐在教堂中间靠近一张桌子周围"
     },
     {
-      "location": "translation.html，第8段",
+      "location": "html：第三至第六段的内心活动",
+      "severity": "minor",
+      "source_quote": "<em>She would be able to help along with this song!</em>; <em>I wish we would sing that song again,</em>; <em>It’s been a long time since we have.</em>; <em>Why couldn’t she ask Grandpa to choose that song next Sunday?</em>; <em>Yes, I will ask him and see what he says about that idea,</em>",
+      "suggested_fix": "保留现有段落，并按原文恢复内心活动的强调标签：第三段用<em>包住“她能够和着这首歌一起帮助唱！”；第四段分别包住“我希望我们能再唱那首歌”和“已经好久没唱了”；第五段包住“为什么不下个主日请外公选那首歌呢？”；第六段包住“是的，我会问问他的，看看他对这个主意怎么说”。",
+      "translation_quote": "她能够和着这首歌一起帮助唱！；艾莉心想：我希望我们能再唱那首歌，已经好久没唱了。；突然她想到一个主意：为什么不下个主日请外公选那首歌呢？；她微笑着想：是的，我会问问他的，看看他对这个主意怎么说。"
+    },
+    {
+      "location": "html：第六段",
+      "severity": "minor",
+      "source_quote": "She decided to wait until her grandparents were ready to leave.",
+      "suggested_fix": "将“祖父母”改为“外公外婆”，与上下文的亲属称谓保持一致。",
+      "translation_quote": "她决定等到祖父母准备离开时再开口。"
+    },
+    {
+      "location": "html：第七段",
+      "severity": "minor",
+      "source_quote": "His eyes twinkled at Ellie.",
+      "suggested_fix": "改为“他看着艾莉，眼里闪着笑意。”",
+      "translation_quote": "外公的眼睛在艾莉身上闪着光。"
+    },
+    {
+      "location": "html：第八段首句",
       "severity": "minor",
       "source_quote": "Ellie could scarcely wait for church the following Sunday.",
       "suggested_fix": "改为“艾莉迫不及待地盼着下个主日去教会。”",
       "translation_quote": "艾莉等不及下个主日教会了。"
-    },
-    {
-      "location": "translation.html，第3段末句及第4至6段的内心独白",
-      "severity": "minor",
-      "source_quote": "<em>She would be able to help along with this song!</em>; <em>I wish we would sing that song again,</em>; <em>It’s been a long time since we have.</em>; <em>Why couldn’t she ask Grandpa to choose that song next Sunday?</em>; <em>Yes, I will ask him and see what he says about that idea,</em>",
-      "suggested_fix": "恢复对应的强调标签：<em>她能够和着这首歌一起帮助唱！</em>；艾莉心想：<em>我希望我们能再唱那首歌，已经好久没唱了。</em>；突然她想到一个主意：<em>为什么不下个主日请外公选那首歌呢？</em>；她微笑着想：<em>是的，我会问问他的，看看他对这个主意怎么说。</em>",
-      "translation_quote": "她能够和着这首歌一起帮助唱！；艾莉心想：我希望我们能再唱那首歌，已经好久没唱了。；突然她想到一个主意：为什么不下个主日请外公选那首歌呢？；她微笑着想：是的，我会问问他的，看看他对这个主意怎么说。"
-    },
-    {
-      "location": "translation.html，第6段",
-      "severity": "minor",
-      "source_quote": "She decided to wait until her grandparents were ready to leave.",
-      "suggested_fix": "将“祖父母”改为“外公外婆”，与全文既有的亲属称呼保持一致。",
-      "translation_quote": "她决定等到祖父母准备离开时再开口。"
     }
   ],
+  "finished_at": "2026-10-29T14:11:41+00:00",
   "id": "bd5692bd1d6ca6593bff4243a1337981",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -127,9 +157,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review1",
   "stage_budget": {
@@ -144,7 +176,7 @@
     "total_reserved_usd": 0.707203,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
